@@ -2,23 +2,42 @@
 title: "Liên hệ"
 date: 2026-07-07T12:00:00+07:00
 draft: false
-layout: page
+layout: contact
 ---
 
 Cảm ơn bạn đã quan tâm đến **Veritable Content**!
 
-## Kết nối với chúng tôi
+<div class="contact-grid">
 
-- **Facebook:** [facebook.com/reviewchanthat](https://facebook.com/reviewchanthat)
-- **YouTube:** [youtube.com/@reviewchanthat](https://youtube.com/@reviewchanthat)
-- **Email:** [tamsudev.com@gmail.com](mailto:tamsudev.com@gmail.com)
+<a href="mailto:Banhang-Chogao@users.noreply.github.com" class="contact-card" data-color="blue">
+  <span class="contact-card-icon">📧</span>
+  <span class="contact-card-label">Email</span>
+  <span class="contact-card-value">Banhang-Chogao@users.noreply.github.com</span>
+</a>
 
-## Hợp tác & quảng cáo
+<a href="https://github.com/Banhang-Chogao" class="contact-card" data-color="purple">
+  <span class="contact-card-icon">💻</span>
+  <span class="contact-card-label">GitHub</span>
+  <span class="contact-card-value">@Banhang-Chogao</span>
+</a>
 
-Nếu bạn muốn hợp tác, đề xuất sản phẩm review, hoặc đặt quảng cáo, vui lòng gửi tin nhắn qua Facebook. Chúng tôi luôn ưu tiên các sản phẩm/dịch vụ chất lượng và phù hợp với độc giả.
+<div class="contact-card" data-color="green">
+  <span class="contact-card-icon">🌐</span>
+  <span class="contact-card-label">Website</span>
+  <span class="contact-card-value">Veritable Content</span>
+  <span class="contact-card-desc">Blog review sản phẩm và dịch vụ trung thực, khách quan.</span>
+</div>
 
-## Góp ý & báo lỗi
+<div class="contact-card" data-color="orange">
+  <span class="contact-card-icon">📝</span>
+  <span class="contact-card-label">Góp ý & Báo lỗi</span>
+  <span class="contact-card-value">Phản hồi qua GitHub</span>
+  <span class="contact-card-desc">Tạo issue hoặc gửi pull request trên GitHub.</span>
+</div>
 
-Bạn tìm thấy lỗi sai hoặc có góp ý? Rất mong nhận được phản hồi từ bạn để blog ngày càng tốt hơn.
+</div>
 
-*Chúng tôi sẽ phản hồi trong vòng 24–48 giờ.*
+<div class="contact-section" data-color="red">
+  <h2>Hợp tác & Quảng cáo</h2>
+  <p>Nếu bạn muốn hợp tác, đề xuất sản phẩm review, vui lòng gửi email qua địa chỉ bên trên. Chúng tôi luôn ưu tiên các sản phẩm và dịch vụ chất lượng, phù hợp với độc giả.</p>
+</div>
