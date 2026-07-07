@@ -10,9 +10,9 @@
     </div>
   </section>
   <section class="home-post-grid">
-    {{ $paginator := .Paginate (where site.RegularPages "Section" "posts") 4 }}
+    {{ $paginator := .Paginate (where site.RegularPages "Section" "posts") 8 }}
     {{ range $paginator.Pages }}
-      {{ .Render "post-card" }}
+      {{ .Render "home-post-block" }}
     {{ end }}
   </section>
   {{ partial "pagination.html" . }}

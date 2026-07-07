@@ -1,0 +1,18 @@
+<article class="home-post-block">
+  {{ $thumb := .Params.thumbnail | default .Params.image | default "images/posts/fallback.svg" }}
+  <a href="{{ .RelPermalink }}" class="home-post-block__image-link">
+    <img src="{{ $thumb | relURL }}" alt="{{ .Title }}" class="home-post-block__image" loading="lazy">
+  </a>
+  <div class="home-post-block__body">
+    <div class="home-post-block__meta">
+      {{ range first 1 .Params.categories }}
+      <a href="{{ print (. | urlize) "/" | relURL }}" class="category-badge">{{ . }}</a>
+      {{ end }}
+      <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
+    </div>
+    <h2 class="home-post-block__title">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+    <p class="home-post-block__excerpt">{{ .Description | plainify | truncate 120 }}</p>
+  </div>
+</article>
