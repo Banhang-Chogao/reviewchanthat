@@ -3,11 +3,11 @@
   <section class="hero">
     <h1 class="hero-title">Review thật, quyết định thông minh hơn.</h1>
     <p class="hero-sub">Một blog ghi lại trải nghiệm, so sánh và checklist mua sắm theo cách rõ ràng, dễ kiểm chứng.</p>
-    <div class="hero-chips">
-      <span class="hero-chip hero-chip--sky">Không quảng cáo trá hình</span>
-      <span class="hero-chip hero-chip--green">Có checklist</span>
-      <span class="hero-chip hero-chip--purple">Ưu tiên trải nghiệm thật</span>
-    </div>
+    <ul class="hero-chips" role="list" aria-label="Cam kết nội dung">
+      <li><span class="hero-chip hero-chip--sky">Không quảng cáo trá hình</span></li>
+      <li><span class="hero-chip hero-chip--green">Có checklist</span></li>
+      <li><span class="hero-chip hero-chip--purple">Ưu tiên trải nghiệm thật</span></li>
+    </ul>
   </section>
   <section class="home-post-grid">
     {{ $paginator := .Paginate (where site.RegularPages "Section" "posts") 8 }}

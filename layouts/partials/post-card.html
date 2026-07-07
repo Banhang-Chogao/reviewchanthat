@@ -22,7 +22,7 @@
     {{ $thumb := .Params.thumbnail | default .Params.image | default "images/posts/fallback.webp" }}
     <div class="post-card-thumb">
       <a href="{{ $.RelPermalink }}">
-        <img src="{{ $thumb | relURL }}" alt="{{ $.Title }}" loading="lazy">
+        <img src="{{ $thumb | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async" width="220" height="165">
       </a>
     </div>
     <p class="post-card-excerpt">{{ .Description | plainify | truncate 200 }}</p>

@@ -1,7 +1,7 @@
 <article class="home-post-block">
   {{ $thumb := .Params.thumbnail | default .Params.image | default "images/posts/fallback.webp" }}
   <a href="{{ .RelPermalink }}" class="home-post-block__image-link">
-    <img src="{{ $thumb | relURL }}" alt="{{ .Title }}" class="home-post-block__image" loading="lazy">
+    <img src="{{ $thumb | relURL }}" alt="{{ .Title }}" class="home-post-block__image" loading="lazy" decoding="async" width="220" height="165">
   </a>
   <div class="home-post-block__body">
     <div class="home-post-block__meta">

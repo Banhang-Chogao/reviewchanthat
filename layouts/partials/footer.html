@@ -13,10 +13,10 @@
     </nav>
     <div class="footer-tagline">
       Made with
-      <span class="footer-tagline-icon" data-icon="heart">❤️</span>,
-      <span class="footer-tagline-icon" data-icon="coffee">☕</span>,
+      <span class="footer-tagline-icon" data-icon="heart" aria-hidden="true">❤️</span>,
+      <span class="footer-tagline-icon" data-icon="coffee" aria-hidden="true">☕</span>,
       and a lot of
-      <span class="footer-tagline-icon" data-icon="robot">🤖</span>
+      <span class="footer-tagline-icon" data-icon="robot" aria-hidden="true">🤖</span>
     </div>
     <div class="footer-copy">
       {{ with .Site.Params.footer_text }}{{ . | safeHTML }}{{ end }}

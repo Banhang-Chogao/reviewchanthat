@@ -1,0 +1,17 @@
+<div class="site-search" id="site-search">
+  <button class="site-search__toggle" type="button" id="site-search-toggle" aria-label="Mở tìm kiếm" aria-expanded="false" aria-controls="site-search-panel">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+      <circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/>
+    </svg>
+    <span class="site-search__kbd" aria-hidden="true">/</span>
+  </button>
+  <div class="site-search__panel" id="site-search-panel" hidden role="dialog" aria-modal="true" aria-label="Tìm kiếm bài viết">
+    <form class="site-search__form" role="search" action="#" onsubmit="return false;">
+      <label class="visually-hidden" for="site-search-input">Tìm kiếm</label>
+      <input class="site-search__input" id="site-search-input" type="search" placeholder="Tìm bài viết, tag, category..." autocomplete="off" spellcheck="false">
+      <button class="site-search__close" type="button" id="site-search-close" aria-label="Đóng tìm kiếm">✕</button>
+    </form>
+    <ul class="site-search__results" id="site-search-results" role="listbox" aria-label="Kết quả tìm kiếm"></ul>
+    <p class="site-search__hint" id="site-search-hint">Gõ để tìm · Enter để mở · Esc để đóng</p>
+  </div>
+</div>

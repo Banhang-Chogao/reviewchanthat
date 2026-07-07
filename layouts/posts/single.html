@@ -1,5 +1,6 @@
 {{ define "main" }}
 <article class="post-single container">
+  {{ partial "breadcrumb.html" . }}
   <header class="post-header">
     <div class="post-header-meta">
       {{ with .Params.categories }}
@@ -21,7 +22,7 @@
   </header>
   {{ with .Params.image }}
   <div class="post-featured-image">
-    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" width="800" height="450">
+    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
   </div>
   {{ end }}
   {{ partial "ai-summary.html" . }}

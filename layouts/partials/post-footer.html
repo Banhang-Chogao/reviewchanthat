@@ -17,8 +17,8 @@
   {{ with .copyright }}<p>{{ . }}</p>{{ end }}
   {{ with .source_note }}<p>{{ . }}</p>{{ end }}
   {{ else }}
-  <p>© {{ now.Format "2006" }} Veritable Content. Bảo lưu mọi quyền.</p>
-  <p>Nội dung được biên tập bởi đội ngũ Review Chân Thật. Vui lòng ghi nguồn khi trích dẫn hoặc chia sẻ.</p>
+  <p>© {{ now.Format "2006" }} {{ site.Title }}. Bảo lưu mọi quyền.</p>
+  <p>Nội dung được biên tập bởi đội ngũ {{ site.Title }}. Vui lòng ghi nguồn khi trích dẫn hoặc chia sẻ.</p>
   {{ end }}
 </section>
 

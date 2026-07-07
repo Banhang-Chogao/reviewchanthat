@@ -5,18 +5,18 @@ draft: false
 layout: page
 ---
 
-**Veritable Content** (trước đây là **Review Chân Thật**) cam kết bảo vệ quyền riêng tư của bạn. Trang này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân.
+**Review Chân Thật** cam kết bảo vệ quyền riêng tư của bạn. Trang này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân.
 
 ## Thông tin chúng tôi thu thập
 
-- **Cookies & Analytics**: Chúng tôi sử dụng Google Analytics để hiểu cách bạn tương tác với blog. Dữ liệu bao gồm số lượt xem trang, thời gian truy cập, trình duyệt và vị trí gần đúng.
-- **Google AdSense**: Blog hiển thị quảng cáo qua Google AdSense. Google sử dụng cookie để cá nhân hóa quảng cáo dựa trên lịch sử duyệt web của bạn.
-- **Liên hệ**: Nếu bạn gửi email hoặc bình luận, chúng tôi lưu lại thông tin bạn cung cấp để phản hồi.
+- **Cookies kỹ thuật**: Blog có thể lưu trạng thái giao diện hoặc tùy chọn cục bộ trên trình duyệt (ví dụ bản nháp trong công cụ viết nội bộ).
+- **Hosting & log server**: GitHub Pages và CDN có thể ghi lại địa chỉ IP, user-agent, thời gian truy cập để vận hành dịch vụ.
+- **Liên hệ**: Nếu bạn gửi email, chúng tôi lưu lại thông tin bạn cung cấp để phản hồi.
 
 ## Cách chúng tôi sử dụng thông tin
 
 - Cải thiện nội dung và trải nghiệm người dùng
-- Hiển thị quảng cáo phù hợp
+- Vận hành, bảo trì và bảo mật website
 - Phản hồi câu hỏi và phản hồi từ bạn
 
 ## Cookie
@@ -25,9 +25,7 @@ Bạn có thể tắt cookie trong cài đặt trình duyệt. Tuy nhiên, một
 
 ## Bên thứ ba
 
-Chúng tôi không bán thông tin cá nhân của bạn. Dữ liệu chỉ được chia sẻ với:
-- Google (Analytics & AdSense) — xem [Chính sách bảo mật của Google](https://policies.google.com/privacy)
-- GitHub Pages — nền tảng lưu trữ blog
+Chúng tôi không bán thông tin cá nhân của bạn. Dữ liệu chỉ được chia sẻ với các nhà cung cấp hạ tầng cần thiết để vận hành blog, hiện tại gồm GitHub Pages.
 
 ## Liên hệ
 

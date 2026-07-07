@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{- $authorId := .Params.author_id -}}
+{{- $authorName := .Params.author_name -}}
+{{- $authorData := dict -}}
+{{- with site.Data.authors -}}
+  {{- range .authors -}}
+    {{- if eq .id $authorId -}}
+      {{- $authorData = . -}}
+      {{- $authorName = .name -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<div class="container">
+  {{ partial "breadcrumb.html" . }}
+  <section class="author-profile">
+    {{- $image := "images/authors/default.svg" -}}
+    {{- with $authorData.image -}}{{- $image = . -}}{{- end -}}
+    <img src="{{ $image | relURL }}" alt="{{ $authorName }}" class="author-profile__avatar" width="96" height="96" loading="eager">
+    <div class="author-profile__body">
+      <h1 class="author-profile__name">{{ $authorName }}</h1>
+      {{- with $authorData.title -}}<p class="author-profile__role">{{ . }}{{ with $authorData.company }}, {{ . }}{{ end }}</p>{{- end -}}
+      {{- with $authorData.intro -}}<p class="author-profile__intro">{{ . }}</p>{{- end -}}
+    </div>
+  </section>
+  <section class="author-posts">
+    <h2 class="author-posts__title">Bài viết của {{ $authorName }}</h2>
+    <div class="category-post-list">
+      {{- $posts := where site.RegularPages "Section" "posts" -}}
+      {{- $posts = where $posts "Params.author" $authorName -}}
+      {{- range $posts -}}
+        {{ .Render "category-post-row" }}
+      {{- else -}}
+        <p class="author-posts__empty">Chưa có bài viết nào.</p>
+      {{- end -}}
+    </div>
+  </section>
+</div>
+{{ end }}

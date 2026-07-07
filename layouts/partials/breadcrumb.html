@@ -1,0 +1,50 @@
+{{- if .Ancestors -}}
+{{- $crumbs := slice -}}
+{{- range .Ancestors.Reverse -}}
+  {{- if not .IsHome -}}
+    {{- $crumbs = $crumbs | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $crumbs = $crumbs | append . -}}
+{{- if gt (len $crumbs) 0 -}}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb__list">
+    <li class="breadcrumb__item">
+      <a class="breadcrumb__link" href="{{ site.Home.RelPermalink }}">Trang chủ</a>
+    </li>
+    {{- range $crumbs -}}
+    <li class="breadcrumb__item">
+      {{- if eq . $.Page -}}
+      <span class="breadcrumb__current" aria-current="page">{{ .LinkTitle }}</span>
+      {{- else -}}
+      <a class="breadcrumb__link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{- end -}}
+    </li>
+    {{- end -}}
+  </ol>
+</nav>
+{{- end -}}
+{{- else if eq .Kind "page" -}}
+{{- if or (eq .Section "posts") (eq .Type "author") -}}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb__list">
+    <li class="breadcrumb__item"><a class="breadcrumb__link" href="{{ site.Home.RelPermalink }}">Trang chủ</a></li>
+    {{- with index .Params.categories 0 -}}
+    {{- $catSlug := . -}}
+    {{- with site.Data.categories.aliases -}}
+      {{- $alias := index . (lower $catSlug) -}}
+      {{- if $alias -}}{{- $catSlug = $alias -}}{{- end -}}
+    {{- end -}}
+    {{- $catLabel := $catSlug -}}
+    {{- with site.Data.categories.items -}}
+      {{- range . -}}
+        {{- if eq .slug $catSlug -}}{{- $catLabel = .label -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    <li class="breadcrumb__item"><a class="breadcrumb__link" href="{{ printf "%s/" $catSlug | relURL }}">{{ $catLabel }}</a></li>
+    {{- end -}}
+    <li class="breadcrumb__item"><span class="breadcrumb__current" aria-current="page">{{ .Title }}</span></li>
+  </ol>
+</nav>
+{{- end -}}
+{{- end -}}

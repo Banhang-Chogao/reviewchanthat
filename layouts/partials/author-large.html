@@ -32,10 +32,10 @@
 {{- end -}}
 {{- if $authorName -}}
 <div class="author-box">
-  <img src="{{ $authorImage }}" alt="" class="author-box__avatar" loading="lazy" width="72" height="72">
+  <img src="{{ $authorImage }}" alt="{{ $authorName }}" class="author-box__avatar" loading="lazy" width="72" height="72">
   <div class="author-box__content">
     <div class="author-box__header">
-      <span class="author-box__name">{{ $authorName }}</span>
+      <span class="author-box__name">{{ partial "author-link.html" (dict "name" $authorName) }}</span>
       {{- with $tierStats.currentTier -}}
       <span class="author-block-tier">{{ partial "author-tier-badge.html" (dict "tier" . "mini" true) }}</span>
       {{- else -}}

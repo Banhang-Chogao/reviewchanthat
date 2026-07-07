@@ -1,7 +1,24 @@
 {{ define "main" }}
 <div class="container page-404">
-  <h1>404</h1>
-  <p>Trang bạn tìm không tồn tại.</p>
-  <a href="{{ "" | relURL }}">← Về trang chủ</a>
+  <h1 class="page-404__title">404 — Không tìm thấy trang</h1>
+  <p class="page-404__desc">Đường dẫn có thể đã đổi hoặc bài viết không còn tồn tại.</p>
+  <div class="page-404__actions">
+    <a class="nav-pill nav-pill--home" href="{{ "" | relURL }}">Về trang chủ</a>
+    <button class="nav-pill nav-pill--cong-nghe" type="button" id="page-404-search">Tìm kiếm bài viết</button>
+  </div>
+  <section class="page-404__links" aria-label="Liên kết hữu ích">
+    <h2>Bạn có thể thử</h2>
+    <ul>
+      <li><a href="{{ "about/" | relURL }}">Về chúng tôi</a></li>
+      <li><a href="{{ "review/" | relURL }}">Danh mục Review</a></li>
+      <li><a href="{{ "cong-nghe/" | relURL }}">Danh mục Công nghệ</a></li>
+      <li><a href="{{ "contact/" | relURL }}">Liên hệ</a></li>
+    </ul>
+  </section>
 </div>
+<script>
+document.getElementById('page-404-search')?.addEventListener('click', () => {
+  document.getElementById('site-search-toggle')?.click();
+});
+</script>
 {{ end }}

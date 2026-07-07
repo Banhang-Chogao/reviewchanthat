@@ -1,0 +1,79 @@
+{{- $siteName := site.Title -}}
+{{- $siteUrl := site.BaseURL | absURL -}}
+{{- $logoUrl := "logo.svg" | absURL -}}
+{{- $defaultImage := "images/posts/coffeebean-cover-hero.webp" | absURL -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ $siteUrl }}#organization",
+      "name": {{ $siteName | jsonify }},
+      "url": {{ $siteUrl | jsonify }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ $logoUrl | jsonify }}
+      },
+      "description": {{ site.Params.description | jsonify }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ $siteUrl }}#website",
+      "url": {{ $siteUrl | jsonify }},
+      "name": {{ $siteName | jsonify }},
+      "publisher": { "@id": "{{ $siteUrl }}#organization" },
+      "inLanguage": "vi-VN",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ $siteUrl }}?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    {{- if eq .Section "posts" -}},
+    {
+      "@type": "BlogPosting",
+      "@id": "{{ .Permalink | absURL }}#article",
+      "headline": {{ .Title | jsonify }},
+      "description": {{ with .Description }}{{ . | jsonify }}{{ else }}{{ .Summary | plainify | truncate 200 | jsonify }}{{ end }},
+      "url": {{ .Permalink | absURL | jsonify }},
+      "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+      "dateModified": "{{ with .Lastmod }}{{ .Format "2006-01-02T15:04:05Z07:00" }}{{ else }}{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}",
+      "inLanguage": "vi-VN",
+      "image": {{ with .Params.image }}{{ . | relURL | absURL | jsonify }}{{ else }}{{ $defaultImage | jsonify }}{{ end }},
+      "author": {
+        "@type": "Person",
+        "name": {{ (.Params.author | default $siteName) | jsonify }}
+      },
+      "publisher": { "@id": "{{ $siteUrl }}#organization" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": {{ .Permalink | absURL | jsonify }} }
+    }
+    {{- with .Params.faq -}}
+    {{- if gt (len .) 0 -}},
+    {
+      "@type": "FAQPage",
+      "@id": "{{ $.Permalink | absURL }}#faq",
+      "mainEntity": [
+        {{- range $i, $item := . -}}
+        {{- if $i }},{{ end }}
+        {
+          "@type": "Question",
+          "name": {{ $item.question | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ $item.answer | jsonify }}
+          }
+        }
+        {{- end -}}
+      ]
+    }
+    {{- end -}}
+    {{- end -}}
+    {{- end -}}
+  ]
+}
+</script>

@@ -1,0 +1,14 @@
+{{- $authorName := .name -}}
+{{- $authorSlug := "" -}}
+{{- with site.Data.authors -}}
+  {{- range .authors -}}
+    {{- if eq .name $authorName -}}
+      {{- $authorSlug = .id -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if $authorSlug -}}
+<a href="{{ printf "authors/%s/" $authorSlug | relURL }}" class="author-name-link">{{ $authorName }}</a>
+{{- else -}}
+<span class="author-name">{{ $authorName }}</span>
+{{- end -}}

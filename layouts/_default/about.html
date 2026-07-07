@@ -9,40 +9,8 @@
     </div>
   </article>
 
-  {{ $authors := slice }}
-  {{ with site.Data.authors }}{{ $authors = .authors }}{{ end }}
-  <script id="author-data-json" type="application/json">{{ dict "authors" $authors | jsonify | safeJS }}</script>
-
   {{ partial "sitemap-wireframe.html" . }}
-
-  <section class="author-module">
-    <div class="author-module-header">
-      <div>
-        <h2 class="author-module-title">Author Management</h2>
-        <p class="author-module-desc">Quản lý thông tin tác giả của blog.</p>
-      </div>
-      <button class="author-btn author-btn-primary" id="author-manage-toggle">Manage Authors</button>
-    </div>
-    <div class="author-gate" id="author-gate">
-      <p class="author-gate-text">Nhập mã truy cập để quản lý thông tin tác giả.</p>
-      <div class="author-gate-form">
-        <input type="password" class="author-gate-input" id="author-gate-input" maxlength="4" inputmode="numeric" pattern="[0-9]*" autocomplete="off">
-        <button class="author-btn author-btn-primary" id="author-gate-unlock">Unlock</button>
-      </div>
-      <p class="author-gate-error" id="author-gate-error">Mã truy cập không đúng.</p>
-    </div>
-    <div class="author-management-panel" id="author-management-panel">
-      <div id="author-list-container"></div>
-      <div class="author-actions">
-        <button class="author-btn author-btn-primary" id="author-save-btn">Save</button>
-        <button class="author-btn author-btn-secondary" id="author-reset-btn">Reset</button>
-        <button class="author-btn author-btn-ghost" id="author-export-btn">Export JSON</button>
-      </div>
-    </div>
-  </section>
 </div>
 {{ $repJs := resources.Get "js/reputation-hall.js" | minify | fingerprint }}
-<script src="{{ $repJs.RelPermalink }}" integrity="{{ $repJs.Data.Integrity }}"></script>
-{{ $js := resources.Get "js/author-management.js" | minify | fingerprint }}
-<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+<script src="{{ $repJs.RelPermalink }}" integrity="{{ $repJs.Data.Integrity }}" defer></script>
 {{ end }}
