@@ -796,6 +796,7 @@
 
         <div class="vc-field">
           <label class="vc-label" for="category-select">Category</label>
+          <div id="vc-category-catalog" hidden data-catalog="{{ (index site.Data "categories") | jsonify | base64Encode }}"></div>
           <div class="vc-row">
             <select class="vc-input" id="category-select" name="category-select"></select>
             <button class="vc-button" type="button" id="category-create-toggle">+ New</button>
@@ -951,11 +952,35 @@
   const SITE_BASE = '{{ "" | relURL }}';
   const DEFAULT_PUBLISH_API = '{{ .Site.Params.cms_publish_api | default "https://veritable-content-cms-publish.tamsudev-com.workers.dev/api/cms/publish" }}';
   const fallbackTitle = 'Untitled draft';
-  const CATEGORY_CATALOG = {{ site.Data.categories | jsonify }};
   const defaultCategory = 'cong-nghe';
 
+  function loadEmbeddedCategoryCatalog() {
+    const node = document.getElementById('vc-category-catalog');
+    const encoded = node && node.dataset ? node.dataset.catalog : '';
+    if (!encoded) {
+      return {};
+    }
+    try {
+      const binary = atob(encoded);
+      const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+      const text = new TextDecoder().decode(bytes);
+      return JSON.parse(text);
+    } catch (error) {
+      console.error('Failed to parse embedded category catalog', error);
+      return {};
+    }
+  }
+
   function hydrateCatalog(raw) {
-    const catalog = JSON.parse(JSON.stringify(raw || {}));
+    let source = raw;
+    if (typeof source === 'string') {
+      try {
+        source = JSON.parse(source);
+      } catch (error) {
+        source = {};
+      }
+    }
+    const catalog = JSON.parse(JSON.stringify(source && typeof source === 'object' ? source : {}));
     if (!Array.isArray(catalog.items)) {
       catalog.items = Object.entries(catalog.labels || {}).map(([slug, label], index) => ({
         slug,
@@ -986,7 +1011,7 @@
     return catalog;
   }
 
-  let categoryCatalog = hydrateCatalog(CATEGORY_CATALOG);
+  let categoryCatalog = hydrateCatalog(loadEmbeddedCategoryCatalog());
   let categoriesDirty = false;
 
   const fields = {
@@ -1153,6 +1178,12 @@
 
   function renderCategorySelect() {
     if (!fields.categorySelect) {
+      return;
+    }
+    if (!categoryCatalog.items.length) {
+      fields.categorySelect.innerHTML = `<option value="${escapeAttr(defaultCategory)}">${escapeHtml(defaultCategory)}</option>`;
+      fields.category.value = defaultCategory;
+      setCategoryManagerStatus('Category list is empty. Reload from GitHub or add a category.', 'error');
       return;
     }
     const current = normalizeCategorySlug(fields.category.value || defaultCategory);
