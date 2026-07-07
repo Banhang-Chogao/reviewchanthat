@@ -1,8 +1,23 @@
 (function() {
   'use strict';
 
+  // Static gate only; not a replacement for real server-side authentication.
+  var ACCESS_HASH = '46eaa26621e4955c1675b55d446c6d03325f458b59a465f898d42924010e7286';
+  var SESSION_KEY = 'reviewchanthat_auth_unlocked';
   var STORAGE_KEY = 'reviewchanthat_authors_v1';
   var BASE_PATH = document.querySelector('base') ? document.querySelector('base').getAttribute('href') || '' : '';
+
+  function sha256(str) {
+    var buffer = new TextEncoder().encode(str);
+    return crypto.subtle.digest('SHA-256', buffer).then(function(hash) {
+      var hex = '';
+      var bytes = new Uint8Array(hash);
+      for (var i = 0; i < bytes.length; i++) {
+        hex += bytes[i].toString(16).padStart(2, '0');
+      }
+      return hex;
+    });
+  }
 
   function getInitialAuthors() {
     try {
@@ -202,22 +217,96 @@
     };
   }
 
+  function unlockGate() {
+    var gate = document.getElementById('author-gate');
+    var panel = document.getElementById('author-management-panel');
+    if (gate) gate.style.display = 'none';
+    if (panel) panel.style.display = 'block';
+    try { sessionStorage.setItem(SESSION_KEY, '1'); } catch (e) {}
+    var authors = loadAuthors();
+    renderAuthors(authors);
+  }
+
+  function handleUnlock() {
+    var input = document.getElementById('author-gate-input');
+    var errorEl = document.getElementById('author-gate-error');
+    if (!input || !errorEl) return;
+    var code = input.value.trim();
+    if (code.length !== 4) {
+      errorEl.style.display = 'block';
+      return;
+    }
+    sha256(code).then(function(hash) {
+      if (hash === ACCESS_HASH) {
+        errorEl.style.display = 'none';
+        unlockGate();
+      } else {
+        errorEl.style.display = 'block';
+        input.value = '';
+        input.focus();
+      }
+    });
+  }
+
   function init() {
     var toggleBtn = document.getElementById('author-manage-toggle');
     var panel = document.getElementById('author-management-panel');
-    if (!toggleBtn || !panel) return;
+    var gate = document.getElementById('author-gate');
+    var unlockBtn = document.getElementById('author-gate-unlock');
+    var gateInput = document.getElementById('author-gate-input');
+
+    if (!toggleBtn) return;
+
+    var isUnlocked = false;
+    try { isUnlocked = sessionStorage.getItem(SESSION_KEY) === '1'; } catch (e) {}
+
+    if (isUnlocked) {
+      if (gate) gate.style.display = 'none';
+      if (panel) panel.style.display = 'block';
+      var authors = loadAuthors();
+      renderAuthors(authors);
+    } else {
+      if (panel) panel.style.display = 'none';
+      if (gate) gate.style.display = 'block';
+    }
+
     toggleBtn.addEventListener('click', function() {
-      var isOpen = panel.style.display !== 'none';
-      panel.style.display = isOpen ? 'none' : 'block';
+      var currentlyUnlocked = false;
+      try { currentlyUnlocked = sessionStorage.getItem(SESSION_KEY) === '1'; } catch (e) {}
+
+      if (!currentlyUnlocked) {
+        if (gate) gate.style.display = 'block';
+        if (panel) panel.style.display = 'none';
+        if (gateInput) { gateInput.value = ''; gateInput.focus(); }
+        var errorEl = document.getElementById('author-gate-error');
+        if (errorEl) errorEl.style.display = 'none';
+        return;
+      }
+
+      var isOpen = panel && panel.style.display !== 'none';
+      if (panel) panel.style.display = isOpen ? 'none' : 'block';
       toggleBtn.textContent = isOpen ? 'Manage Authors' : 'Close';
       if (!isOpen) {
         var authors = loadAuthors();
         renderAuthors(authors);
       }
     });
-    document.getElementById('author-save-btn').addEventListener('click', handleSave);
-    document.getElementById('author-reset-btn').addEventListener('click', handleReset);
-    document.getElementById('author-export-btn').addEventListener('click', handleExport);
+
+    if (unlockBtn) {
+      unlockBtn.addEventListener('click', handleUnlock);
+    }
+    if (gateInput) {
+      gateInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') handleUnlock();
+      });
+    }
+
+    var saveBtn = document.getElementById('author-save-btn');
+    if (saveBtn) saveBtn.addEventListener('click', handleSave);
+    var resetBtn = document.getElementById('author-reset-btn');
+    if (resetBtn) resetBtn.addEventListener('click', handleReset);
+    var exportBtn = document.getElementById('author-export-btn');
+    if (exportBtn) exportBtn.addEventListener('click', handleExport);
   }
 
   if (document.readyState === 'loading') {
