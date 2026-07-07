@@ -4,6 +4,7 @@
 {{- $authorTitle := "" -}}
 {{- $authorCompany := "" -}}
 {{- $authorIntro := "" -}}
+{{- $authorBadge := "Cây bút chính" -}}
 {{- with site.Data.authors -}}
   {{- range .authors -}}
     {{- if eq .name $authorName -}}
@@ -16,16 +17,20 @@
 {{- if $authorData.title -}}{{- $authorTitle = $authorData.title -}}{{- end -}}
 {{- if $authorData.company -}}{{- $authorCompany = $authorData.company -}}{{- end -}}
 {{- if $authorData.intro -}}{{- $authorIntro = $authorData.intro -}}{{- end -}}
+{{- if $authorData.badge -}}{{- $authorBadge = $authorData.badge -}}{{- end -}}
 {{- if $authorName -}}
-<div class="author-block author-block-large">
-  <img src="{{ $authorImage }}" alt="" class="author-avatar-large" loading="lazy" width="44" height="44">
-  <div class="author-block-info">
-    <span class="author-name">{{ $authorName }}</span>
+<div class="author-box">
+  <img src="{{ $authorImage }}" alt="" class="author-box__avatar" loading="lazy" width="72" height="72">
+  <div class="author-box__content">
+    <div class="author-box__header">
+      <span class="author-box__name">{{ $authorName }}</span>
+      <span class="author-box__badge">{{ $authorBadge }}</span>
+    </div>
     {{- if or $authorTitle $authorCompany }}
-    <span class="author-meta">{{ $authorTitle }}{{ if and $authorTitle $authorCompany }}, {{ end }}{{ $authorCompany }}</span>
+    <div class="author-box__role">{{ $authorTitle }}{{ if and $authorTitle $authorCompany }}, {{ end }}{{ $authorCompany }}</div>
     {{- end }}
     {{- if $authorIntro }}
-    <p class="author-intro">{{ $authorIntro }}</p>
+    <p class="author-box__intro">{{ $authorIntro }}</p>
     {{- end }}
   </div>
 </div>
