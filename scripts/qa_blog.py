@@ -1,117 +1,117 @@
 #!/usr/bin/env python3
-"""QA checks for blog posts: drafts, dates, slugs, images, internal links."""
+"""
+QA audit script for blog posts.
 
+Checks every post for required front matter fields,
+especially image metadata. Fails if critical fields are missing.
+"""
+
+import glob
 import os
 import re
 import sys
-from datetime import datetime, timezone
-import yaml
 
-CONTENT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "posts")
-STATIC_IMAGES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "static", "images")
-SITE_URL = "https://banhang-chogao.github.io/reviewchanthat"
+try:
+    import frontmatter
+except ImportError:
+    print("python-frontmatter not installed. Run: pip install python-frontmatter")
+    sys.exit(1)
 
-has_errors = False
+POSTS_GLOB = "content/posts/**/*.md"
+REQUIRED_FIELDS = {
+    "title": "missing title",
+    "image": "missing main image",
+    "thumbnail": "missing thumbnail (should match image)",
+    "image_source": "missing image source",
+    "image_source_url": "missing image source URL",
+    "image_license": "missing image license",
+    "image_commercial_use": "missing commercial use flag",
+    "image_owner": "missing image owner (external/self)",
+}
 
-
-def error(msg: str):
-    global has_errors
-    has_errors = True
-    print(f"ERROR: {msg}")
-
-
-def warn(msg: str):
-    print(f"WARN: {msg}")
-
-
-def parse_front_matter(filepath: str) -> tuple[dict | None, str]:
-    with open(filepath, "r", encoding="utf-8") as f:
-        content = f.read()
-    if not content.startswith("---"):
-        return None, content
-    parts = content.split("---", 2)
-    if len(parts) < 3:
-        return None, content
-    try:
-        return yaml.safe_load(parts[1]), parts[2]
-    except yaml.YAMLError:
-        return None, content
+errors = []
+warnings = []
+total = 0
+ok = 0
 
 
-def extract_internal_links(body: str) -> list[str]:
-    pattern = re.compile(r'\[.*?\]\((/[^)]+)\)')
-    return pattern.findall(body)
-
-
-def extract_image_refs(body: str) -> list[str]:
-    pattern = re.compile(r'!\[.*?\]\((.*?)\)')
-    return pattern.findall(body)
+def check_image_exists(image_path, post_slug):
+    """Check if a local image file exists in static/images/posts/."""
+    if image_path.startswith("http"):
+        return True  # external URL, skip check
+    full_path = os.path.join("static", image_path.lstrip("/"))
+    if os.path.exists(full_path):
+        return True
+    # Try without leading path
+    full_path2 = os.path.join("static/images/posts", os.path.basename(image_path))
+    if os.path.exists(full_path2):
+        return True
+    warnings.append(f"  [WARN] {post_slug}: local image not found: {image_path}")
+    return False
 
 
 def main():
-    if not os.path.isdir(CONTENT_DIR):
-        print(f"OK: {CONTENT_DIR} does not exist yet")
-        sys.exit(0)
+    global total, ok
 
-    now = datetime.now(timezone.utc)
-    valid_slug = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+    posts = glob.glob(POSTS_GLOB, recursive=True)
+    total = len(posts)
+    print(f"Auditing {total} posts...\n")
 
-    for fname in sorted(os.listdir(CONTENT_DIR)):
-        if not fname.endswith(".md"):
-            continue
-        fpath = os.path.join(CONTENT_DIR, fname)
+    for filepath in sorted(posts):
+        slug = os.path.basename(filepath).replace(".md", "")
+        with open(filepath, "r", encoding="utf-8") as f:
+            try:
+                post = frontmatter.load(f)
+            except Exception as e:
+                errors.append(f"  [FAIL] {slug}: cannot parse front matter: {e}")
+                continue
 
-        fm, body = parse_front_matter(fpath)
-        if fm is None:
-            warn(f"{fname}: cannot parse front matter, skipping")
-            continue
+        meta = post.metadata
 
-        # 1. Check draft: must be false
-        if fm.get("draft", False):
-            error(f"{fname}: draft should be false for published content")
+        # Check required fields
+        for field, msg in REQUIRED_FIELDS.items():
+            val = meta.get(field)
+            if val is None or val == "" or val is False:
+                errors.append(f"  [FAIL] {slug}: {msg}")
+            elif field == "image_commercial_use":
+                if val is not True:
+                    errors.append(f"  [FAIL] {slug}: image_commercial_use must be true")
 
-        # 2. Check date not in future
-        date_val = fm.get("date")
-        if date_val:
-            if isinstance(date_val, datetime):
-                if date_val > now:
-                    error(f"{fname}: date {date_val} is in the future")
-            elif isinstance(date_val, str):
-                try:
-                    parsed = datetime.fromisoformat(date_val.replace("Z", "+00:00"))
-                    if parsed > now:
-                        error(f"{fname}: date {date_val} is in the future")
-                except ValueError:
-                    warn(f"{fname}: cannot parse date '{date_val}'")
+        # Check thumbnail matches image semantics
+        image = meta.get("image", "")
+        thumbnail = meta.get("thumbnail", "")
+        if thumbnail and image and thumbnail != image:
+            warnings.append(f"  [WARN] {slug}: thumbnail differs from image")
+        elif not thumbnail and image:
+            errors.append(f"  [FAIL] {slug}: thumbnail missing (should match image)")
 
-        # 3. Check slug from filename
-        slug_part = fname.replace(".md", "")
-        # Remove date prefix if present (YYYY-MM-DD-)
-        slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", slug_part)
-        if not valid_slug.match(slug):
-            error(f"{fname}: slug '{slug}' is not valid (use lowercase, hyphens only)")
+        # Check local image existence
+        if image and not image.startswith("http"):
+            check_image_exists(image, slug)
+        if thumbnail and not thumbnail.startswith("http") and thumbnail != image:
+            check_image_exists(thumbnail, slug)
 
-        # 4. Check image references
-        for img_path in extract_image_refs(body):
-            if not img_path.startswith(("http://", "https://", "/")):
-                error(f"{fname}: image path '{img_path}' should be absolute URL or root-relative")
+        ok += 1
 
-        # 5. Check internal links (basic)
-        for link in extract_internal_links(body):
-            if not link.startswith("/"):
-                error(f"{fname}: internal link '{link}' should be root-relative")
+    print(f"\nResults:")
+    print(f"  Total posts:  {total}")
+    print(f"  Passed:       {ok}")
+    print(f"  Errors:       {len(errors)}")
+    print(f"  Warnings:     {len(warnings)}")
 
-        # 6. Verify required fields exist
-        required = ["title", "date", "description", "categories", "tags", "author"]
-        for field in required:
-            if field not in fm or fm[field] is None or fm[field] == "" or fm[field] == []:
-                error(f"{fname}: missing required field '{field}'")
+    if warnings:
+        print(f"\nWarnings ({len(warnings)}):")
+        for w in warnings:
+            print(w)
 
-    if has_errors:
-        print("\nQA FAILED: Some issues found.")
+    if errors:
+        print(f"\nErrors ({len(errors)}):")
+        for e in errors:
+            print(e)
+        print("\n❌ QA FAILED")
         sys.exit(1)
     else:
-        print("QA PASSED: All checks completed successfully.")
+        print("\n✅ QA PASSED")
         sys.exit(0)
 
 

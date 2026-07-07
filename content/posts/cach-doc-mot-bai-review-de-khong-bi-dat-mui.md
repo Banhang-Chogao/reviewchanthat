@@ -27,9 +27,15 @@ description: Kỹ năng đọc review thông minh giúp bạn phân biệt đâu
   đâu là quảng cáo trá hình.
 draft: false
 image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80
+image_commercial_use: true
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1434030216411-0b793f4b4173
 tags:
 - kỹ năng đọc review
 - tiêu dùng thông minh
+thumbnail: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80
 title: Cách đọc một bài review để không bị dắt mũi
 ---
 

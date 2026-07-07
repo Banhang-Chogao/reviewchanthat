@@ -20,10 +20,16 @@ description: 6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tr
   nhận hàng.
 draft: false
 image: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80
+image_commercial_use: true
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1556742049-0cfed4f6a45d
 tags:
 - mua sắm online
 - checklist
 - tiêu dùng thông minh
+thumbnail: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80
 title: Checklist trước khi mua một sản phẩm online
 ---
 

@@ -21,10 +21,16 @@ description: Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi t
   quả hơn.
 draft: false
 image: https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80
+image_commercial_use: true
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1553729459-afe8e2e1a6e0
 tags:
 - mua sắm thông minh
 - thói quen
 - quản lý chi tiêu
+thumbnail: https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80
 title: Cách xây dựng thói quen mua sắm thông minh
 ---
 

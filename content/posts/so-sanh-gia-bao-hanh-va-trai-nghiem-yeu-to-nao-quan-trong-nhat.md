@@ -22,11 +22,17 @@ description: Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo h
   sử dụng. Bài viết này giúp bạn xác định ưu tiên.
 draft: false
 image: https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80
+image_commercial_use: true
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1563013544-824ae1b704d3
 tags:
 - so sánh
 - giá cả
 - bảo hành
 - trải nghiệm
+thumbnail: https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80
 title: 'So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?'
 ---
 
