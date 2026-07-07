@@ -18,11 +18,15 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .site-header__nav::-webkit-scrollbar{display:none}
 .site-header__nav .nav-link{font-size:.84rem;padding:8px 0;min-height:36px}
 .site-header__actions{margin-left:auto;display:flex;align-items:center;gap:6px;flex-shrink:0}
-.site-logo{display:inline-flex;align-items:center;gap:8px;padding:5px 14px 5px 6px;border-radius:8px;background:#ff7a00;color:#fff;text-decoration:none;white-space:nowrap;line-height:1;min-height:38px;transition:background .15s;max-width:260px;flex-shrink:0}
+.site-logo{display:inline-flex;align-items:center;gap:10px;width:fit-content;max-width:100%;padding:7px 13px 7px 7px;border-radius:12px;background:#ff7a00;color:#fff;text-decoration:none;white-space:nowrap;line-height:1}
 .site-logo:hover{background:#e66a00;color:#fff}
-.site-logo__mark{width:28px;height:28px;flex:0 0 auto;color:#fff;display:inline-flex;align-items:center;justify-content:center}
+.site-logo__mark{width:30px;height:30px;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center}
 .site-logo__mark svg{display:block;width:100%;height:auto}
-.site-logo__text{font-weight:800;font-size:clamp(.85rem,1.5vw,1rem);letter-spacing:.02em;text-transform:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.site-logo__text{font-weight:800;font-size:1.05rem;letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.site-logo--header{flex-shrink:0;max-width:260px;transition:background .15s}
+.site-logo--footer{padding:6px 11px 6px 5px;gap:8px;border-radius:10px}
+.site-logo--footer .site-logo__mark{width:26px;height:26px}
+.site-logo--footer .site-logo__text{font-size:.95rem}
 .nav-link{display:inline-flex;align-items:center;font-size:.85rem;font-weight:500;color:var(--text-secondary);padding:8px 0;border-bottom:2px solid transparent;transition:color .2s,border-color .2s;white-space:nowrap;min-height:36px}
 .nav-link:hover{color:var(--accent);border-bottom-color:var(--accent)}
 .site-header__mobile-menu{display:none;position:relative}
@@ -37,13 +41,16 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .site-header__nav{display:none}
 .site-header__mobile-menu{display:block}
 .site-header__date{font-size:.78rem}
-.site-logo{min-height:34px;padding:4px 12px 4px 5px;gap:6px}
-.site-logo__mark{width:24px;height:24px}
-.site-logo__text{font-size:.82rem}
+.site-logo--header{gap:6px}
+.site-logo--header .site-logo__mark{width:24px;height:24px}
+.site-logo--header .site-logo__text{font-size:.85rem}
 .site-header__mobile-dropdown{top:60px}}
-@media(max-width:480px){.site-logo{padding:4px 10px 4px 4px;max-width:180px;gap:5px}
-.site-logo__mark{width:22px;height:22px}
-.site-logo__text{font-size:.78rem;letter-spacing:.01em}}
+@media(max-width:480px){.site-logo--header{max-width:180px;gap:5px}
+.site-logo--header .site-logo__mark{width:22px;height:22px}
+.site-logo--header .site-logo__text{font-size:.8rem;letter-spacing:.01em}
+.site-logo--footer{gap:6px}
+.site-logo--footer .site-logo__mark{width:22px;height:22px}
+.site-logo--footer .site-logo__text{font-size:.88rem}}
 @media(max-width:420px){.site-header__date{display:none}}
 @media(prefers-color-scheme:dark){.site-logo{background:#e66600}
 .site-header__menu-btn:hover{background:#333}
@@ -269,7 +276,7 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .site-footer::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#ff4d4d,#ff8a00,#ffd700,#00c853,#2196f3,#7c4dff,#e040fb)}
 .footer-inner{display:flex;flex-direction:column;align-items:flex-start;gap:clamp(20px,4vw,28px);text-align:left}
 .footer-brand{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
-.footer-logo{height:40px;width:auto}
+
 .footer-desc{font-size:.88rem;color:var(--text-secondary);max-width:440px;line-height:1.6;margin:0}
 .footer-nav{display:flex;gap:clamp(10px,1.5vw,16px);flex-wrap:wrap;align-items:center}
 .footer-nav-link{position:relative;font-size:.88rem;font-weight:600;padding:10px 20px;border-radius:12px;transition:transform .15s,border-color .2s,background .2s;min-height:44px;display:inline-flex;align-items:center;text-decoration:none;border:1px solid transparent}

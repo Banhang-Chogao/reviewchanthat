@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="footer-inner container">
     <div class="footer-brand">
-      <img src="{{ "logo.svg" | relURL }}" alt="Veritable Content" class="footer-logo">
+      {{ partial "site-logo.html" (dict "context" . "modifier" "site-logo--footer") }}
       <p class="footer-desc">{{ .Site.Params.description }}</p>
     </div>
     <nav class="footer-nav">
