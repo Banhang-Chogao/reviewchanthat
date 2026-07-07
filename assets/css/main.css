@@ -247,6 +247,15 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .about-page h1{font-size:clamp(1.4rem,3vw,1.8rem);font-weight:800;margin-bottom:24px}
 .about-page p{font-size:1.02rem;line-height:1.75;color:var(--text-secondary);margin-bottom:20px}
 
+/* Sitemap Wireframe */
+.sitemap-wireframe{margin-top:clamp(32px,6vw,48px);padding:clamp(20px,4vw,28px);background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden}
+.sitemap-wireframe-title{font-size:clamp(1.1rem,2vw,1.25rem);font-weight:700;margin-bottom:16px;color:var(--text);display:flex;align-items:center;gap:8px}
+.sitemap-wireframe-title::before{content:"🗺️";font-size:1.1em}
+.sitemap-wireframe-content{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.sitemap-wireframe-tree{font-family:var(--font-mono);font-size:.82rem;line-height:1.7;color:var(--text);white-space:pre;margin:0}
+.sitemap-wireframe-tree code{font-family:inherit;background:none;padding:0;color:inherit}
+.sitemap-wireframe-date{font-size:.8rem;color:var(--muted);margin-top:12px;text-align:right;font-style:italic}
+
 /* Page (privacy, disclaimer, contact) */
 .page-single{padding:clamp(24px,6vw,48px) 0 clamp(40px,8vw,60px);width:min(100% - (var(--page-padding) * 2),var(--content-max-width));margin-inline:auto}
 .page-title{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;letter-spacing:-.02em;line-height:1.15;margin-bottom:clamp(20px,4vw,32px);color:var(--text)}

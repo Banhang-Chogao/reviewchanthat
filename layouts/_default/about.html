@@ -11,6 +11,8 @@
   {{ with site.Data.authors }}{{ $authors = .authors }}{{ end }}
   <script id="author-data-json" type="application/json">{{ dict "authors" $authors | jsonify | safeJS }}</script>
 
+  {{ partial "sitemap-wireframe.html" . }}
+
   <section class="author-module">
     <div class="author-module-header">
       <div>
