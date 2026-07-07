@@ -14,8 +14,7 @@ disableKinds = []
 [params]
   description = "Review thật, trải nghiệm thật, quyết định thông minh hơn."
   footer_text = "© 2026 Review Chân Thật"
-  facebook_url = "https://facebook.com/reviewchanthat"
-  youtube_url = "https://youtube.com/@reviewchanthat"
+
 
 [taxonomies]
   category = "categories"

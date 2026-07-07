@@ -11,5 +11,4 @@ Chúng tôi tin rằng một quyết định mua sắm thông minh bắt đầu 
 
 ### Liên hệ
 
-- **Facebook:** [facebook.com/reviewchanthat](https://facebook.com/reviewchanthat)
-- **YouTube:** [youtube.com/@reviewchanthat](https://youtube.com/@reviewchanthat)
+- **Email:** [Banhang-Chogao@users.noreply.github.com](mailto:Banhang-Chogao@users.noreply.github.com)
