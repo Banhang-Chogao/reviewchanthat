@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="header-inner container">
+    <div class="site-brand">
+      <a href="{{ .Site.Home.RelPermalink }}" class="brand-link">
+        <span class="brand-name">{{ .Site.Title }}</span>
+      </a>
+    </div>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        {{ $currentPage := . }}
+        {{ $sections := slice (dict "name" "Trang chủ" "url" "/") (dict "name" "Review" "url" "/categories/review/") (dict "name" "Công nghệ" "url" "/categories/cong-nghe/") (dict "name" "Đời sống" "url" "/categories/doi-song/") (dict "name" "Tài chính" "url" "/categories/tai-chinh/") (dict "name" "Về chúng tôi" "url" "/about/") }}
+        {{ range $sections }}
+        <li class="nav-item">
+          <a href="{{ .url }}" class="nav-link">{{ .name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,53 @@
+{{ define "main" }}
+<article class="post-single container">
+  <header class="post-header">
+    <div class="post-header-meta">
+      {{ with .Params.categories }}
+      <div class="post-categories">
+        {{ range . }}
+        <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" class="category-badge">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-author-info">
+      {{ with .Params.avatar }}
+      <img src="{{ . }}" alt="" class="author-avatar-large" loading="lazy" width="48" height="48">
+      {{ end }}
+      <div class="post-author-details">
+        <span class="author-name">{{ .Params.author }}</span>
+        <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
+      </div>
+    </div>
+  </header>
+  {{ with .Params.image }}
+  <div class="post-featured-image">
+    <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" width="800" height="450">
+  </div>
+  {{ end }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  {{ with .Params.tags }}
+  <div class="post-tags">
+    <span class="tags-label">Tags:</span>
+    {{ range . }}
+    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag-badge">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+  <nav class="post-nav">
+    <div class="post-nav-prev">
+      {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}" class="post-nav-link">← {{ .Title }}</a>
+      {{ end }}
+    </div>
+    <div class="post-nav-next">
+      {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}" class="post-nav-link">{{ .Title }} →</a>
+      {{ end }}
+    </div>
+  </nav>
+</article>
+{{ end }}

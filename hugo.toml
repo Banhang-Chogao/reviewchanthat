@@ -1,0 +1,55 @@
+baseURL = "https://banhang-chogao.github.io/reviewchanthat/"
+languageCode = "vi-VN"
+title = "Review Chân Thật"
+theme = ""
+paginate = 6
+enableRobotsTXT = true
+disableKinds = ["sitemap"]  # using Hugo's built-in
+
+[params]
+  description = "Review thật, trải nghiệm thật, quyết định thông minh hơn."
+  footer_text = "© 2026 Review Chân Thật"
+  facebook_url = "https://facebook.com/reviewchanthat"
+  youtube_url = "https://youtube.com/@reviewchanthat"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+
+[permalinks]
+  posts = "/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    hl_inline = false
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    tabWidth = 4
+
+[mediaTypes]
+  [mediaTypes."application/json"]
+    suffixes = ["json"]
+
+[outputFormats]
+  [outputFormats.searchIndex]
+    mediaType = "application/json"
+    baseName = "search-index"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "searchIndex"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]

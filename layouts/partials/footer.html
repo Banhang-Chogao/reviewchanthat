@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="footer-inner container">
+    <div class="footer-social">
+      <span class="footer-label">Theo dõi chúng tôi trên</span>
+      <div class="social-links">
+        <a href="{{ .Site.Params.facebook_url }}" class="social-link" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="{{ .Site.Params.youtube_url }}" class="social-link" target="_blank" rel="noopener noreferrer">YouTube</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      {{ with .Site.Params.footer_text }}{{ . | safeHTML }}{{ end }}
+    </div>
+  </div>
+</footer>
