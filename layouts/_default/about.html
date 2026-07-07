@@ -6,5 +6,29 @@
       {{ .Content }}
     </div>
   </article>
+
+  {{ $authors := slice }}
+  {{ with site.Data.authors }}{{ $authors = .authors }}{{ end }}
+  <script id="author-data-json" type="application/json">{{ dict "authors" $authors | jsonify | safeJS }}</script>
+
+  <section class="author-module">
+    <div class="author-module-header">
+      <div>
+        <h2 class="author-module-title">Author Management</h2>
+        <p class="author-module-desc">Quản lý thông tin tác giả của blog.</p>
+      </div>
+      <button class="author-btn author-btn-primary" id="author-manage-toggle">Manage Authors</button>
+    </div>
+    <div class="author-management-panel" id="author-management-panel" style="display:none">
+      <div id="author-list-container"></div>
+      <div class="author-actions">
+        <button class="author-btn author-btn-primary" id="author-save-btn">Save</button>
+        <button class="author-btn author-btn-secondary" id="author-reset-btn">Reset</button>
+        <button class="author-btn author-btn-ghost" id="author-export-btn">Export JSON</button>
+      </div>
+    </div>
+  </section>
 </div>
+{{ $js := resources.Get "js/author-management.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

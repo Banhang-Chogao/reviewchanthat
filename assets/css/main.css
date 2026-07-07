@@ -171,3 +171,53 @@ img{max-width:100%;height:auto;display:block}
 .about-page{padding:48px 0 60px;max-width:680px}
 .about-page h1{font-size:1.8rem;font-weight:800;margin-bottom:24px}
 .about-page p{font-size:1.02rem;line-height:1.75;color:var(--text-secondary);margin-bottom:20px}
+
+/* Author Block */
+.author-block{display:flex;align-items:center;gap:10px}
+.author-block-info{display:flex;flex-direction:column;gap:1px}
+.author-block-info .author-name{font-size:.88rem;font-weight:600;color:var(--text)}
+.author-meta{font-size:.75rem;color:var(--muted)}
+.author-intro{font-size:.82rem;color:var(--text-secondary);margin-top:4px;line-height:1.5}
+.author-block-large .author-avatar-large{flex-shrink:0}
+
+/* Author Management Module */
+.author-module{margin-top:40px;padding:28px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)}
+.author-module-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.author-module-title{font-size:1.15rem;font-weight:700;margin-bottom:4px}
+.author-module-desc{font-size:.85rem;color:var(--text-secondary)}
+.author-management-panel{margin-top:20px;padding-top:20px;border-top:1px solid var(--border)}
+.author-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);padding:20px;margin-bottom:16px}
+.author-card-header{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.author-card-avatar-wrap{width:48px;height:48px;border-radius:50%;overflow:hidden;flex-shrink:0}
+.author-card-avatar{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.author-card-id{font-size:.75rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.author-card-body label{display:block;font-size:.78rem;font-weight:600;color:var(--text-secondary);margin-bottom:4px;margin-top:12px}
+.author-card-body label:first-child{margin-top:0}
+.author-input,.author-textarea{width:100%;padding:9px 12px;font-size:.9rem;font-family:var(--font-sans);border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);transition:border-color .2s;outline:none}
+.author-input:focus,.author-textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.author-textarea{resize:vertical;min-height:80px;line-height:1.5}
+.author-empty{padding:20px;text-align:center;color:var(--muted);font-size:.9rem}
+.author-actions{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+
+/* Author Buttons */
+.author-btn{display:inline-flex;align-items:center;gap:6px;padding:9px 20px;font-size:.85rem;font-weight:600;border-radius:var(--radius-sm);border:1px solid transparent;cursor:pointer;transition:all .2s;font-family:var(--font-sans);line-height:1}
+.author-btn-primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.author-btn-primary:hover{background:var(--accent-hover)}
+.author-btn-secondary{background:var(--surface);color:var(--text);border-color:var(--border)}
+.author-btn-secondary:hover{background:var(--bg)}
+.author-btn-ghost{background:transparent;color:var(--text-secondary);border-color:transparent}
+.author-btn-ghost:hover{color:var(--accent);background:var(--accent-soft)}
+.author-btn:disabled{opacity:.5;cursor:default}
+
+/* Export Modal */
+.author-export-overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;z-index:1000;padding:20px}
+.author-export-modal{background:var(--surface);border-radius:var(--radius);padding:28px;max-width:640px;width:100%;max-height:90vh;overflow-y:auto}
+.author-export-modal h3{font-size:1.1rem;font-weight:700;margin-bottom:16px}
+.author-export-textarea{width:100%;padding:12px;font-size:.82rem;font-family:var(--font-mono);border:1px solid var(--border);border-radius:8px;background:#f9f9f8;color:var(--text);resize:vertical;min-height:200px;line-height:1.5;outline:none}
+.author-export-actions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+
+@media(max-width:640px){
+.author-module-header{flex-direction:column}
+.author-card-body label{margin-top:10px}
+.author-export-modal{padding:20px}
+}
