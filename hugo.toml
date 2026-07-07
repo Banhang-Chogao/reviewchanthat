@@ -1,7 +1,7 @@
 baseURL = "https://banhang-chogao.github.io/reviewchanthat/"
 languageCode = "vi-vn"
 title = "Review Chân Thật"
-paginate = 4
+paginate = 10
 enableRobotsTXT = true
 canonifyURLs = false
 relativeURLs = false

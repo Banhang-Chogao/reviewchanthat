@@ -9,6 +9,15 @@
     <h1 class="list-title">{{ .Title }}</h1>
     {{ if $desc }}<p class="list-desc">{{ $desc }}</p>{{ end }}
   </section>
+  {{ if eq .Data.Singular "category" }}
+  <section class="category-post-list">
+    {{ $paginator := .Paginate .Pages 10 }}
+    {{ range $paginator.Pages }}
+      {{ .Render "category-post-row" }}
+    {{ end }}
+    {{ partial "pagination.html" . }}
+  </section>
+  {{ else }}
   <section class="post-listing">
     {{ $paginator := .Paginator }}
     {{ range $paginator.Pages }}
@@ -16,5 +25,6 @@
     {{ end }}
     {{ partial "pagination.html" . }}
   </section>
+  {{ end }}
 </div>
 {{ end }}
