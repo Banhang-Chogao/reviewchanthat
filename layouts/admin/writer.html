@@ -727,12 +727,12 @@
 
         <div class="vc-field">
           <label class="vc-label" for="category">Category</label>
-          <input class="vc-input" id="category" name="category" type="text" value="Công nghệ" list="category-options">
+          <input class="vc-input" id="category" name="category" type="text" value="cong-nghe" list="category-options" placeholder="cong-nghe">
           <datalist id="category-options">
-            <option value="Công nghệ"></option>
-            <option value="Review"></option>
-            <option value="Đời sống"></option>
-            <option value="Tài chính"></option>
+            <option value="cong-nghe">Công nghệ</option>
+            <option value="review">Review</option>
+            <option value="doi-song">Đời sống</option>
+            <option value="tai-chinh">Tài chính</option>
           </datalist>
         </div>
 
@@ -838,7 +838,8 @@
   const SITE_BASE = '{{ "" | relURL }}';
   const DEFAULT_PUBLISH_API = '{{ .Site.Params.cms_publish_api | default "https://veritable-content-cms-publish.tamsudev-com.workers.dev/api/cms/publish" }}';
   const fallbackTitle = 'Untitled draft';
-  const defaultCategory = 'Công nghệ';
+  const CATEGORY_CATALOG = {{ site.Data.categories | jsonify }};
+  const defaultCategory = 'cong-nghe';
 
   const fields = {
     form: document.getElementById('writer-form'),
@@ -931,6 +932,37 @@
       .filter(Boolean);
   }
 
+  function normalizeCategorySlug(value) {
+    const raw = String(value || '').trim();
+    if (!raw) {
+      return defaultCategory;
+    }
+    const aliases = CATEGORY_CATALOG.aliases || {};
+    const alias = aliases[raw.toLowerCase()];
+    if (alias) {
+      return alias;
+    }
+    return slugify(raw);
+  }
+
+  function normalizeCategoryList(values) {
+    const seen = new Set();
+    const normalized = [];
+    values.forEach((value) => {
+      const slug = normalizeCategorySlug(value);
+      if (slug && !seen.has(slug)) {
+        seen.add(slug);
+        normalized.push(slug);
+      }
+    });
+    return normalized.length ? normalized : [defaultCategory];
+  }
+
+  function categoryLabel(slug) {
+    const labels = CATEGORY_CATALOG.labels || {};
+    return labels[slug] || slug;
+  }
+
   function yamlString(value) {
     return `"${String(value || '')
       .replace(/\\/g, '\\\\')
@@ -943,6 +975,13 @@
       return `${key}: []`;
     }
     return `${key}:\n${items.map((item) => `  - ${yamlString(item)}`).join('\n')}`;
+  }
+
+  function yamlSlugList(key, items) {
+    if (!items.length) {
+      return `${key}: []`;
+    }
+    return `${key}:\n${items.map((item) => `  - ${item}`).join('\n')}`;
   }
 
   function slugify(value) {
@@ -1170,7 +1209,7 @@
   function buildMarkdown(state) {
     const title = state.title.trim();
     const slug = slugify(state.slug || title);
-    const categories = splitList(state.category || defaultCategory);
+    const categories = normalizeCategoryList(splitList(state.category || defaultCategory));
     const tags = splitList(state.tags);
     const lines = [
       '---',
@@ -1180,7 +1219,7 @@
       `lastmod: ${state.lastmod || todayInHoChiMinh()}`,
       `draft: ${state.draft ? 'true' : 'false'}`,
       `slug: ${yamlString(slug)}`,
-      yamlList('categories', categories.length ? categories : [defaultCategory]),
+      yamlSlugList('categories', categories.length ? categories : [defaultCategory]),
       yamlList('tags', tags)
     ];
 
@@ -1390,7 +1429,9 @@
 
   function renderPreview(state) {
     const title = state.title.trim() || fallbackTitle;
-    const category = splitList(state.category || defaultCategory).join(' · ') || defaultCategory;
+    const category = normalizeCategoryList(splitList(state.category || defaultCategory))
+      .map(categoryLabel)
+      .join(' · ') || categoryLabel(defaultCategory);
     const tags = splitList(state.tags);
     const cover = state.cover.trim();
     const meta = [state.date || todayInHoChiMinh(), state.draft ? 'Draft' : 'Ready'].filter(Boolean).join(' · ');

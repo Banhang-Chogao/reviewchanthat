@@ -6,7 +6,7 @@
   <div class="home-post-block__body">
     <div class="home-post-block__meta">
       {{ range first 1 .Params.categories }}
-      <a href="{{ print (. | urlize) "/" | relURL }}" class="category-badge">{{ . }}</a>
+      {{ partial "category-badge.html" . }}
       {{ end }}
       <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
     </div>

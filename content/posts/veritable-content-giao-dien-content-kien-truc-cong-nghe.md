@@ -6,7 +6,7 @@ lastmod: 2026-07-07
 draft: false
 slug: "veritable-content-giao-dien-content-kien-truc-cong-nghe"
 categories:
-  - "Công nghệ"
+  - cong-nghe
 tags:
   - "Veritable Content"
   - "Hugo"

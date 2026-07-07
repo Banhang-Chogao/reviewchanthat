@@ -1,0 +1,17 @@
+{{- $raw := . -}}
+{{- $slug := $raw | urlize -}}
+{{- with site.Data.categories.aliases -}}
+  {{- $alias := index . (lower $raw) -}}
+  {{- if $alias -}}
+    {{- $slug = $alias -}}
+  {{- end -}}
+{{- end -}}
+{{- $label := $raw -}}
+{{- with site.Data.categories.labels -}}
+  {{- $label = index . $slug | default $raw -}}
+{{- end -}}
+{{- $href := printf "%s/" $slug | relURL -}}
+{{- with site.GetPage (printf "categories/%s" $slug) -}}
+  {{- $href = .RelPermalink -}}
+{{- end -}}
+<a href="{{ $href }}" class="category-badge">{{ $label }}</a>

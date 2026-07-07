@@ -1,0 +1,20 @@
+{
+  "labels": {
+    "review": "Review",
+    "cong-nghe": "Công nghệ",
+    "doi-song": "Đời sống",
+    "tai-chinh": "Tài chính"
+  },
+  "aliases": {
+    "review": "review",
+    "công nghệ": "cong-nghe",
+    "cong nghe": "cong-nghe",
+    "cong-nghe": "cong-nghe",
+    "đời sống": "doi-song",
+    "doi song": "doi-song",
+    "doi-song": "doi-song",
+    "tài chính": "tai-chinh",
+    "tai chinh": "tai-chinh",
+    "tai-chinh": "tai-chinh"
+  }
+}
