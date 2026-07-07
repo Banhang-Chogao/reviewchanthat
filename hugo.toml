@@ -5,7 +5,11 @@ paginate = 6
 enableRobotsTXT = true
 canonifyURLs = false
 relativeURLs = false
+minify = true
 disableKinds = ["sitemap"]
+
+[build]
+  writeStats = false
 
 [params]
   description = "Review thật, trải nghiệm thật, quyết định thông minh hơn."
