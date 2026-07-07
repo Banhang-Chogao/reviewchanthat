@@ -168,6 +168,21 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .post-content th{background:var(--accent-soft);font-weight:600}
 .post-content strong{font-weight:700}
 
+/* Post Footer Blocks (External Links, Attribution, FAQ) */
+.post-footer-block{margin-top:clamp(24px,4vw,36px);padding-top:clamp(16px,3vw,24px);border-top:1px solid var(--border)}
+.post-footer-block h2{font-size:clamp(1rem,1.5vw,1.1rem);font-weight:700;margin-bottom:12px}
+.post-footer-block ol{padding-left:20px;margin:0}
+.post-footer-block li{margin-bottom:6px;font-size:.92rem}
+.post-footer-block li a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+.post-footer-block li a:hover{color:var(--accent-hover)}
+.post-footer-block p{font-size:.9rem;color:var(--text-secondary);line-height:1.7;margin-bottom:6px}
+.post-footer-block p:last-child{margin-bottom:0}
+.post-faq-item{border:1px solid var(--border);border-radius:10px;padding:12px 16px;margin:10px 0;background:var(--surface);transition:border-color .15s}
+.post-faq-item[open]{border-color:var(--accent)}
+.post-faq-item summary{cursor:pointer;font-weight:600;font-size:.95rem;color:var(--text);user-select:none;-webkit-user-select:none}
+.post-faq-item summary::-webkit-details-marker{color:var(--accent)}
+.post-faq-item p{margin-top:10px;font-size:.9rem;color:var(--text-secondary);line-height:1.7}
+
 /* Tags at bottom */
 .post-tags{display:flex;align-items:center;gap:8px;margin-top:clamp(24px,6vw,40px);padding-top:clamp(20px,4vw,28px);border-top:1px solid var(--border);flex-wrap:wrap}
 .tags-label{font-size:.82rem;font-weight:600;color:var(--text-secondary)}

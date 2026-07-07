@@ -29,6 +29,8 @@
     {{ .Content }}
   </div>
 
+  {{ partial "post-footer.html" . }}
+
   {{ partial "author-large.html" . }}
 
   {{ if .Params.checklist }}
