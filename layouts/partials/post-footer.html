@@ -1,0 +1,30 @@
+{{ with .Params.external_links }}
+<section class="post-footer-block post-footer-block--links">
+  <h2>Liên kết bên ngoài được sử dụng trong bài viết</h2>
+  <ol>
+    {{ range . }}
+    <li><a href="{{ .url }}" rel="nofollow noopener noreferrer" target="_blank">{{ .title }}</a></li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}
+
+{{ with .Params.attribution }}
+<section class="post-footer-block post-footer-block--attribution">
+  <h2>Bản quyền &amp; Ghi nguồn</h2>
+  {{ with .copyright }}<p>{{ . }}</p>{{ end }}
+  {{ with .source_note }}<p>{{ . }}</p>{{ end }}
+</section>
+{{ end }}
+
+{{ with .Params.faq }}
+<section class="post-footer-block post-footer-block--faq">
+  <h2>FAQ - Câu hỏi thường gặp</h2>
+  {{ range . }}
+  <details class="post-faq-item">
+    <summary>{{ .question }}</summary>
+    <p>{{ .answer }}</p>
+  </details>
+  {{ end }}
+</section>
+{{ end }}
