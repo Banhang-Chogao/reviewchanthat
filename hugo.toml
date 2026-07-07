@@ -6,7 +6,7 @@ enableRobotsTXT = true
 canonifyURLs = false
 relativeURLs = false
 minify = true
-disableKinds = ["sitemap"]
+disableKinds = []
 
 [build]
   writeStats = false

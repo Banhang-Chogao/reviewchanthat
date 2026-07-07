@@ -219,18 +219,37 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .pagination-item.prev .pagination-link:hover,.pagination-item.next .pagination-link:hover{border-color:transparent;color:var(--accent)}
 
 /* Footer */
-.site-footer{border-top:1px solid var(--border);padding:clamp(24px,5vw,36px) 0;margin-top:var(--section-gap);background:var(--surface)}
-.footer-inner{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center}
+.site-footer{border-top:2px solid var(--border);padding:clamp(32px,6vw,48px) 0;margin-top:var(--section-gap);background:var(--surface);position:relative;overflow:hidden}
+.site-footer::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#ff4d4d,#ff8a00,#ffd700,#00c853,#2196f3,#7c4dff,#e040fb)}
+.footer-inner{display:flex;flex-direction:column;align-items:center;gap:clamp(20px,4vw,28px);text-align:center}
+.footer-brand{display:flex;flex-direction:column;align-items:center;gap:10px}
+.footer-logo{height:40px;width:auto}
+.footer-desc{font-size:.88rem;color:var(--text-secondary);max-width:400px;line-height:1.6}
+.footer-links{display:flex;gap:clamp(8px,1.5vw,16px);flex-wrap:wrap;justify-content:center}
+.footer-link{position:relative;font-size:.88rem;font-weight:600;padding:8px 16px;border-radius:8px;transition:all .3s;background:transparent;color:var(--text-secondary);min-height:44px;display:inline-flex;align-items:center}
+.footer-link[data-color=red]:hover{color:#ff4d4d;background:rgba(255,77,77,0.1);transform:translateY(-2px)}
+.footer-link[data-color=orange]:hover{color:#ff8a00;background:rgba(255,138,0,0.1);transform:translateY(-2px)}
+.footer-link[data-color=yellow]:hover{color:#f5a623;background:rgba(245,166,35,0.1);transform:translateY(-2px)}
+.footer-link[data-color=green]:hover{color:#00c853;background:rgba(0,200,83,0.1);transform:translateY(-2px)}
+.footer-link[data-color=blue]:hover{color:#2196f3;background:rgba(33,150,243,0.1);transform:translateY(-2px)}
+.footer-link[data-color=indigo]:hover{color:#7c4dff;background:rgba(124,77,255,0.1);transform:translateY(-2px)}
+.footer-link[data-color=violet]:hover{color:#e040fb;background:rgba(224,64,251,0.1);transform:translateY(-2px)}
+.footer-link::after{content:'';position:absolute;bottom:4px;left:16px;right:16px;height:2px;border-radius:1px;background:currentColor;opacity:0;transform:scaleX(0);transition:transform .3s,opacity .3s}
+.footer-link:hover::after{opacity:1;transform:scaleX(1)}
 .footer-label{font-size:.82rem;font-weight:600;color:var(--text-secondary)}
-.social-links{display:flex;gap:clamp(16px,4vw,28px);margin-top:2px;flex-wrap:wrap;justify-content:center}
-.social-link{font-size:.85rem;font-weight:500;color:var(--text-secondary);transition:color .2s;min-height:44px;display:inline-flex;align-items:center}
-.social-link:hover{color:var(--accent)}
-.footer-copy{font-size:.8rem;color:var(--muted)}
+.social-links{display:flex;gap:clamp(12px,2vw,20px);flex-wrap:wrap;justify-content:center}
+.social-link{font-size:.85rem;font-weight:500;color:var(--text-secondary);transition:all .3s;min-height:44px;display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:8px}
+.social-link:hover{background:var(--accent-soft);color:var(--accent);transform:translateY(-2px)}
+.footer-copy{font-size:.8rem;color:var(--muted);padding-top:clamp(12px,2vw,16px);border-top:1px solid var(--border);width:100%}
 
 /* About */
 .about-page{padding:clamp(24px,6vw,48px) 0 clamp(40px,8vw,60px);width:min(100% - (var(--page-padding) * 2),var(--content-max-width));margin-inline:auto}
 .about-page h1{font-size:clamp(1.4rem,3vw,1.8rem);font-weight:800;margin-bottom:24px}
 .about-page p{font-size:1.02rem;line-height:1.75;color:var(--text-secondary);margin-bottom:20px}
+
+/* Page (privacy, disclaimer, contact) */
+.page-single{padding:clamp(24px,6vw,48px) 0 clamp(40px,8vw,60px);width:min(100% - (var(--page-padding) * 2),var(--content-max-width));margin-inline:auto}
+.page-title{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;letter-spacing:-.02em;line-height:1.15;margin-bottom:clamp(20px,4vw,32px);color:var(--text)}
 
 /* Author Block (inline meta) */
 .author-block{display:flex;align-items:center;gap:10px;min-width:0}
