@@ -22,10 +22,16 @@ description: Benchmark điểm cao nhưng dùng thực tế lại không mượt
   thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ.
 draft: false
 image: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80
+image_commercial_use: true
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1518770660439-4636190af475
 tags:
 - benchmark
 - trải nghiệm thật
 - review công nghệ
+thumbnail: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80
 title: 'Review công nghệ: nên tin benchmark hay trải nghiệm thật?'
 ---
 

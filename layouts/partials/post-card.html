@@ -19,13 +19,12 @@
       </div>
       <span class="post-read-time">{{ .ReadingTime }} phút đọc</span>
     </div>
-    {{ with .Params.image }}
+    {{ $thumb := .Params.thumbnail | default .Params.image | default "images/posts/fallback.svg" }}
     <div class="post-card-thumb">
       <a href="{{ $.RelPermalink }}">
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+        <img src="{{ $thumb | relURL }}" alt="{{ $.Title }}" loading="lazy">
       </a>
     </div>
-    {{ end }}
     <p class="post-card-excerpt">{{ .Description | plainify | truncate 200 }}</p>
   </div>
 </article>

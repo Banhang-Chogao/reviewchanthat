@@ -19,10 +19,16 @@ description: Review dài hàng nghìn chữ có thể là dấu hiệu của con
   phải trải nghiệm thật.
 draft: false
 image: https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80
+image_commercial_use: true
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1455390582262-044cdead277a
 tags:
 - review dài
 - content marketing
 - cảnh giác
+thumbnail: https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80
 title: Vì sao review dài chưa chắc đã đáng tin?
 ---
 
