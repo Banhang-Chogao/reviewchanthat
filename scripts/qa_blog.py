@@ -68,28 +68,34 @@ def main():
 
         meta = post.metadata
 
+        title = meta.get("title", slug)
+        label = f"{title} ({filepath})"
+
         # Check required fields
         for field, msg in REQUIRED_FIELDS.items():
             val = meta.get(field)
             if val is None or val == "" or val is False:
-                errors.append(f"  [FAIL] {slug}: {msg}")
+                errors.append(f"  [FAIL] {label}: {msg}")
             elif field == "image_commercial_use":
                 if val is not True:
-                    errors.append(f"  [FAIL] {slug}: image_commercial_use must be true")
+                    errors.append(f"  [FAIL] {label}: image_commercial_use must be true")
 
-        # Check thumbnail matches image semantics
+        # Check no field starts with /images/ (must use relative images/posts/)
         image = meta.get("image", "")
         thumbnail = meta.get("thumbnail", "")
+        for field_name, val in [("image", image), ("thumbnail", thumbnail)]:
+            if val and val.startswith("/images/"):
+                errors.append(f"  [FAIL] {label}: {field_name} starts with /images/ — use 'images/posts/...'")
+
+        # Check thumbnail matches image semantics
         if thumbnail and image and thumbnail != image:
-            warnings.append(f"  [WARN] {slug}: thumbnail differs from image")
-        elif not thumbnail and image:
-            errors.append(f"  [FAIL] {slug}: thumbnail missing (should match image)")
+            warnings.append(f"  [WARN] {label}: thumbnail differs from image")
 
         # Check local image existence
         if image and not image.startswith("http"):
-            check_image_exists(image, slug)
+            check_image_exists(image, label)
         if thumbnail and not thumbnail.startswith("http") and thumbnail != image:
-            check_image_exists(thumbnail, slug)
+            check_image_exists(thumbnail, label)
 
         ok += 1
 
