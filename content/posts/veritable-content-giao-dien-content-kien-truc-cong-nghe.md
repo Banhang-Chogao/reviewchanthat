@@ -15,6 +15,13 @@ tags:
   - "Flat Design"
   - "Content Architecture"
   - "SEO"
+image: "images/posts/coffeebean-cover-hero.webp"
+thumbnail: "images/posts/coffeebean-cover-hero.webp"
+image_source: "Veritable Content"
+image_source_url: ""
+image_license: "Owned by Veritable Content"
+image_commercial_use: true
+image_owner: "self"
 ---
 
 Có những blog được dựng lên chỉ để có một nơi đăng bài. Nhưng cũng có những blog được xây như một hệ thống: có giao diện riêng, có quy tắc nội dung, có pipeline ảnh, có QA, có sitemap cho bot lẫn người đọc, có CI/CD tự động, và có một triết lý rất rõ về tốc độ.
@@ -26,6 +33,11 @@ Có những blog được dựng lên chỉ để có một nơi đăng bài. Nh
 Tinh thần của blog có thể gói lại trong một câu:
 
 > Nói thật, viết rõ, load nhanh, không làm màu quá mức.
+
+<figure>
+  <img src="{{ "images/posts/coffeebean-cover-hero.webp" | relURL }}" alt="Không gian làm việc với cà phê, tượng trưng cho quá trình xây dựng Veritable Content" loading="lazy" width="800" height="450">
+  <figcaption>Cà phê, Markdown và một blog tĩnh đang dần thành hình.</figcaption>
+</figure>
 
 ## Từ tên gọi đến nhận diện: Veritable Content
 
@@ -192,6 +204,11 @@ mailto:Banhang-Chogao@users.noreply.github.com
 ```
 
 Đó là một thay đổi nhỏ nhưng đúng hướng: bỏ kênh chưa dùng, tránh public email thật, và giữ trải nghiệm liên hệ nhất quán trên toàn blog.
+
+<figure>
+  <img src="{{ "images/posts/veritable-content-ui-2026-07-07-231522-hero.webp" | relURL }}" alt="Giao diện Veritable Content sau quá trình tinh chỉnh logo, header và bố cục" loading="lazy" width="800" height="450">
+  <figcaption>Một lát cắt giao diện sau khi tinh chỉnh brand, header và trải nghiệm đọc.</figcaption>
+</figure>
 
 ## Flat Design: vui nhưng không nặng
 

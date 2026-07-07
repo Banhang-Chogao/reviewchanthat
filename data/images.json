@@ -1,3 +1,24 @@
 {
-  "images": []
+  "images": [
+    {
+      "id": "coffeebean-cover",
+      "src": "images/posts/coffeebean-cover-hero.webp",
+      "source": "self",
+      "source_url": "",
+      "license": "Owned by Veritable Content",
+      "commercial_use": true,
+      "watermarked": true,
+      "hash16": "6496408812147872"
+    },
+    {
+      "id": "veritable-content-ui-2026-07-07-231522",
+      "src": "images/posts/veritable-content-ui-2026-07-07-231522-hero.webp",
+      "source": "self",
+      "source_url": "",
+      "license": "Owned by Veritable Content",
+      "commercial_use": true,
+      "watermarked": true,
+      "hash16": "6863225680407677"
+    }
+  ]
 }
