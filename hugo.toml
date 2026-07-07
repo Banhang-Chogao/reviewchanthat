@@ -1,7 +1,6 @@
 baseURL = "https://banhang-chogao.github.io/reviewchanthat/"
 languageCode = "vi-VN"
 title = "Review Chân Thật"
-theme = ""
 paginate = 6
 enableRobotsTXT = true
 disableKinds = ["sitemap"]  # using Hugo's built-in
