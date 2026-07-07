@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="header-inner container">
-    <div class="site-brand">
+    <div class="site-header__brand-row">
       <a href="{{ .Site.Home.RelPermalink }}" class="site-logo" aria-label="Veritable Content">
         <span class="site-logo__mark">
           <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" width="32" height="32">
@@ -11,17 +11,27 @@
         </span>
         <span class="site-logo__text">Veritable Content</span>
       </a>
+      <span class="site-header__date">{{ $weekdays := dict "Monday" "Thứ Hai" "Tuesday" "Thứ Ba" "Wednesday" "Thứ Tư" "Thursday" "Thứ Năm" "Friday" "Thứ Sáu" "Saturday" "Thứ Bảy" "Sunday" "Chủ Nhật" }}{{ $weekday := index $weekdays (now.Format "Monday") }}{{ printf "%s, %s" $weekday (now.Format "02/01/2006") }}</span>
     </div>
-    <nav class="site-nav">
-      <ul class="nav-list">
-        {{ $currentPage := . }}
-        {{ $sections := slice (dict "name" "Trang chủ" "url" "") (dict "name" "Review" "url" "review/") (dict "name" "Công nghệ" "url" "cong-nghe/") (dict "name" "Đời sống" "url" "doi-song/") (dict "name" "Tài chính" "url" "tai-chinh/") }}
-        {{ range $sections }}
-        <li class="nav-item">
-          <a href="{{ .url | relURL }}" class="nav-link">{{ .name }}</a>
-        </li>
-        {{ end }}
-      </ul>
+    <nav class="site-header__nav">
+      {{ $sections := slice (dict "name" "Trang chủ" "url" "") (dict "name" "Review" "url" "review/") (dict "name" "Công nghệ" "url" "cong-nghe/") (dict "name" "Đời sống" "url" "doi-song/") (dict "name" "Tài chính" "url" "tai-chinh/") }}
+      {{ range $sections }}
+      <a href="{{ .url | relURL }}" class="nav-link">{{ .name }}</a>
+      {{ end }}
     </nav>
+    <div class="site-header__actions">
+      <details class="site-header__mobile-menu">
+        <summary class="site-header__menu-btn" aria-label="Menu">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </summary>
+        <div class="site-header__mobile-dropdown">
+          {{ range $sections }}
+          <a href="{{ .url | relURL }}" class="nav-link">{{ .name }}</a>
+          {{ end }}
+        </div>
+      </details>
+    </div>
   </div>
 </header>
