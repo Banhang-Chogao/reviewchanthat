@@ -9,30 +9,26 @@
           {{ end }}
         </div>
         {{ end }}
-        {{ with .Params.tags }}
-        <div class="post-card-tags">
-          {{ range . }}
-          <a href="{{ print "tags/" (. | urlize) "/" | relURL }}" class="tag-badge">{{ . }}</a>
-          {{ end }}
-        </div>
-        {{ end }}
       </div>
       <h2 class="post-card-title">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </h2>
-      <div class="post-card-author">
-        {{ with .Params.avatar }}
-        <img src="{{ . }}" alt="" class="author-avatar" loading="lazy" width="28" height="28">
-        {{ end }}
-        <span class="author-name">{{ .Params.author }}</span>
-        <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
+      <div class="post-card-meta-row">
+        <div class="post-card-author">
+          {{ with .Params.avatar }}
+          <img src="{{ . }}" alt="" class="author-avatar" loading="lazy" width="26" height="26">
+          {{ end }}
+          <span class="author-name">{{ .Params.author }}</span>
+          <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
+        </div>
+        <span class="post-read-time">{{ .ReadingTime }} phút đọc</span>
       </div>
       <p class="post-card-excerpt">{{ .Description | plainify | truncate 200 }}</p>
     </div>
     {{ with .Params.image }}
     <div class="post-card-thumb">
       <a href="{{ $.RelPermalink }}">
-        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" width="200" height="133">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" width="220" height="165">
       </a>
     </div>
     {{ end }}

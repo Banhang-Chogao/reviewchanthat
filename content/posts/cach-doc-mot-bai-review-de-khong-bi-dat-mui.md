@@ -8,6 +8,12 @@ author: "Minh Hoàng"
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80"
 draft: false
+checklist:
+  - "Xác định động cơ người viết review"
+  - "Đọc ít nhất 3-5 nguồn khác nhau"
+  - "Tìm chi tiết cụ thể, không tin lời mơ hồ"
+  - "Kiểm tra lịch sử tài khoản người viết"
+  - "Đọc phần bình luận trước khi quyết định"
 ---
 
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".

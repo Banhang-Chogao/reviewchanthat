@@ -1,5 +1,14 @@
 {{ define "main" }}
 <div class="container">
+  <section class="hero">
+    <h1 class="hero-title">Review thật, quyết định thông minh hơn.</h1>
+    <p class="hero-sub">Một blog ghi lại trải nghiệm, so sánh và checklist mua sắm theo cách rõ ràng, dễ kiểm chứng.</p>
+    <div class="hero-chips">
+      <span class="hero-chip">Không quảng cáo trá hình</span>
+      <span class="hero-chip">Có checklist</span>
+      <span class="hero-chip">Ưu tiên trải nghiệm thật</span>
+    </div>
+  </section>
   <section class="post-listing">
     {{ $paginator := .Paginate (where site.RegularPages "Section" "posts") }}
     {{ range $paginator.Pages }}

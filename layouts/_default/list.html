@@ -1,7 +1,15 @@
 {{ define "main" }}
 <div class="container">
-  <section class="post-listing">
+  {{ $categoryHeaders := dict "review" "Review sản phẩm và trải nghiệm thật" "cong-nghe" "Công nghệ đáng mua, đáng dùng" "doi-song" "Lựa chọn tốt hơn mỗi ngày" "tai-chinh" "Quyết định tiền bạc rõ ràng hơn" }}
+  {{ $desc := "" }}
+  {{ if and (eq .Data.Singular "category") .Data.Term }}
+    {{ $desc = index $categoryHeaders .Data.Term }}
+  {{ end }}
+  <section class="category-header">
     <h1 class="list-title">{{ .Title }}</h1>
+    {{ if $desc }}<p class="list-desc">{{ $desc }}</p>{{ end }}
+  </section>
+  <section class="post-listing">
     {{ $paginator := .Paginator }}
     {{ range $paginator.Pages }}
       {{ .Render "post-card" }}
