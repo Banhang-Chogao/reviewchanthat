@@ -6,6 +6,11 @@ categories: [""]
 tags: [""]
 author: ""
 avatar: ""
-image: ""
+image: "images/posts/example-hero.webp"
+image_source: "Pixabay"
+image_source_url: "https://pixabay.com/..."
+image_license: "Pixabay Content License"
+image_commercial_use: true
+image_owner: "external"
 draft: true
 ---

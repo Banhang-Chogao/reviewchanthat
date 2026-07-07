@@ -5,49 +5,59 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
 BRANCH="feat/cl9-$(date +%s)"
-GIT_TOKEN="${GIT_TOKEN:-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}"
-
 echo "=== cl9: Smart Deployment ==="
 
-# 1. Kiểm tra working tree
+# 1. Kiểm tra GIT_TOKEN
+if [ -z "${GIT_TOKEN:-}" ]; then
+  echo "ERROR: GIT_TOKEN is not set."
+  echo "Usage: GIT_TOKEN=ghp_xxx bash scripts/cl9"
+  exit 1
+fi
+
+# 2. Kiểm tra working tree
 if ! git diff --quiet HEAD; then
-  echo "[1/6] Uncommitted changes detected."
+  echo "[1/7] Uncommitted changes detected."
 else
-  echo "[1/6] No changes — creating dummy diff for PR."
+  echo "[1/7] No changes — creating dummy diff for PR."
   echo "" >> README.md
 fi
 
-# 2. Build Hugo
-echo "[2/6] Building Hugo..."
+# 3. Process images
+echo "[2/7] Processing images..."
+pip install -q -r requirements.txt
+python scripts/process_images.py
+
+# 4. Build Hugo
+echo "[3/7] Building Hugo..."
 if ! hugo --minify 2>/dev/null; then
   echo "ERROR: Hugo build failed. Fix errors and try again."
   exit 1
 fi
 
-# 3. QA
-echo "[3/6] Running QA..."
+# 5. QA
+echo "[4/7] Running QA..."
 python scripts/qa_blog.py || {
   echo "ERROR: QA failed. Fix errors and try again."
   exit 1
 }
 python scripts/normalize_frontmatter.py || true
 
-# 4. Commit
-echo "[4/6] Committing..."
+# 6. Commit
+echo "[5/7] Committing..."
 git checkout -b "$BRANCH"
 git add -A
 git commit -m "cl9: auto deploy $(date '+%Y-%m-%d %H:%M')" || echo "Nothing to commit."
 
-# 5. Push
-echo "[5/6] Pushing..."
+# 7. Push
+echo "[6/7] Pushing..."
 git remote set-url origin "https://Banhang-Chogao:${GIT_TOKEN}@github.com/Banhang-Chogao/reviewchanthat.git"
 git push origin "$BRANCH" 2>/dev/null || {
   echo "Push failed; retrying with token..."
   git push origin "$BRANCH"
 }
 
-# 6. PR
-echo "[6/6] Creating PR..."
+# 8. PR
+echo "[7/7] Creating PR..."
 PR_JSON=$(curl -sf -X POST \
   -H "Authorization: token ${GIT_TOKEN}" \
   -H "Accept: application/vnd.github+json" \
