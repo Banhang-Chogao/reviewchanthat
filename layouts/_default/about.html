@@ -19,7 +19,15 @@
       </div>
       <button class="author-btn author-btn-primary" id="author-manage-toggle">Manage Authors</button>
     </div>
-    <div class="author-management-panel" id="author-management-panel" style="display:none">
+    <div class="author-gate" id="author-gate">
+      <p class="author-gate-text">Nhập mã truy cập để quản lý thông tin tác giả.</p>
+      <div class="author-gate-form">
+        <input type="password" class="author-gate-input" id="author-gate-input" maxlength="4" inputmode="numeric" pattern="[0-9]*" autocomplete="off">
+        <button class="author-btn author-btn-primary" id="author-gate-unlock">Unlock</button>
+      </div>
+      <p class="author-gate-error" id="author-gate-error">Mã truy cập không đúng.</p>
+    </div>
+    <div class="author-management-panel" id="author-management-panel">
       <div id="author-list-container"></div>
       <div class="author-actions">
         <button class="author-btn author-btn-primary" id="author-save-btn">Save</button>
