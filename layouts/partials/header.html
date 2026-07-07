@@ -4,12 +4,12 @@
       {{ partial "site-logo.html" (dict "context" . "modifier" "site-logo--header") }}
       <span class="site-header__date">{{ $weekdays := dict "Monday" "Thứ Hai" "Tuesday" "Thứ Ba" "Wednesday" "Thứ Tư" "Thursday" "Thứ Năm" "Friday" "Thứ Sáu" "Saturday" "Thứ Bảy" "Sunday" "Chủ Nhật" }}{{ $weekday := index $weekdays (now.Format "Monday") }}{{ printf "%s, %s" $weekday (now.Format "02/01/2006") }}</span>
     </div>
-    <nav class="site-header__nav">
-      <a href="{{ "" | relURL }}" class="nav-link">Trang chủ</a>
+    <nav class="site-header__nav" aria-label="Danh mục chính">
+      <a href="{{ "" | relURL }}" class="nav-pill nav-pill--home">Trang chủ</a>
       {{ with site.Data.categories.items }}
         {{ range sort . "order" }}
           {{ if .nav }}
-          <a href="{{ printf "%s/" .slug | relURL }}" class="nav-link">{{ .label }}</a>
+          <a href="{{ printf "%s/" .slug | relURL }}" class="nav-pill nav-pill--{{ .slug }}">{{ .label }}</a>
           {{ end }}
         {{ end }}
       {{ end }}
@@ -22,11 +22,11 @@
           </svg>
         </summary>
         <div class="site-header__mobile-dropdown">
-          <a href="{{ "" | relURL }}" class="nav-link">Trang chủ</a>
+          <a href="{{ "" | relURL }}" class="nav-pill nav-pill--home">Trang chủ</a>
           {{ with site.Data.categories.items }}
             {{ range sort . "order" }}
               {{ if .nav }}
-              <a href="{{ printf "%s/" .slug | relURL }}" class="nav-link">{{ .label }}</a>
+              <a href="{{ printf "%s/" .slug | relURL }}" class="nav-pill nav-pill--{{ .slug }}">{{ .label }}</a>
               {{ end }}
             {{ end }}
           {{ end }}

@@ -22,4 +22,4 @@
 {{- with site.GetPage (printf "categories/%s" $slug) -}}
   {{- $href = .RelPermalink -}}
 {{- end -}}
-<a href="{{ $href }}" class="category-badge">{{ $label }}</a>
+<a href="{{ $href }}" class="category-badge category-badge--{{ $slug }}">{{ $label }}</a>
