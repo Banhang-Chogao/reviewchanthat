@@ -1,0 +1,12 @@
+{{- $tier := .tier -}}
+{{- $mini := .mini | default false -}}
+{{- $class := printf "tier-badge %s" $tier.css_class -}}
+{{- if $mini -}}
+  {{- $class = printf "%s tier-badge--mini" $class -}}
+{{- else -}}
+  {{- $class = printf "%s tier-badge--hero" $class -}}
+{{- end -}}
+<span class="{{ $class }}" title="{{ $tier.name }}">
+  <span class="tier-badge__level" aria-hidden="true">L{{ $tier.level }}</span>
+  <span class="tier-badge__name">{{ $tier.name }}</span>
+</span>

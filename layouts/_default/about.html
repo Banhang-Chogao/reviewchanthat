@@ -1,5 +1,7 @@
 {{ define "main" }}
 <div class="container">
+  {{ partial "author-reputation-hall.html" . }}
+
   <article class="about-page">
     <h1>{{ .Title }}</h1>
     <div class="post-content">
@@ -39,6 +41,8 @@
     </div>
   </section>
 </div>
+{{ $repJs := resources.Get "js/reputation-hall.js" | minify | fingerprint }}
+<script src="{{ $repJs.RelPermalink }}" integrity="{{ $repJs.Data.Integrity }}"></script>
 {{ $js := resources.Get "js/author-management.js" | minify | fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}

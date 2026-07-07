@@ -1,0 +1,108 @@
+{
+  "section_title": "Bảng Vinh Danh Bút Viết",
+  "section_subtitle": "Viết thật — nhận huy hiệu thật",
+  "tiers": [
+    {
+      "level": 1,
+      "slug": "but-moi",
+      "name": "Bút Mới",
+      "min_posts": 0,
+      "css_class": "tier-1"
+    },
+    {
+      "level": 2,
+      "slug": "nguoi-ke-chuyen",
+      "name": "Người Kể Chuyện",
+      "min_posts": 3,
+      "css_class": "tier-2"
+    },
+    {
+      "level": 3,
+      "slug": "tho-review",
+      "name": "Thợ Review",
+      "min_posts": 7,
+      "css_class": "tier-3"
+    },
+    {
+      "level": 4,
+      "slug": "kien-truc-su",
+      "name": "Kiến Trúc Sư Nội Dung",
+      "min_posts": 12,
+      "css_class": "tier-4"
+    },
+    {
+      "level": 5,
+      "slug": "huyen-thoai",
+      "name": "Huyền Thoại Chân Thật",
+      "min_posts": 20,
+      "css_class": "tier-5"
+    }
+  ],
+  "badges": [
+    {
+      "id": "first-post",
+      "name": "Mực Đầu Tiên",
+      "description": "Xuất bản bài viết đầu tiên trên blog.",
+      "tier": 1,
+      "icon": "✍️",
+      "rule": { "type": "min_posts", "value": 1 }
+    },
+    {
+      "id": "steady-writer",
+      "name": "Bút Đều Tay",
+      "description": "Đã xuất bản ít nhất 5 bài.",
+      "tier": 2,
+      "icon": "📝",
+      "rule": { "type": "min_posts", "value": 5 }
+    },
+    {
+      "id": "prolific",
+      "name": "Máy Viết",
+      "description": "Đã xuất bản ít nhất 15 bài.",
+      "tier": 3,
+      "icon": "⚡",
+      "rule": { "type": "min_posts", "value": 15 }
+    },
+    {
+      "id": "category-explorer",
+      "name": "Kẻ Lang Thang",
+      "description": "Viết bài thuộc ít nhất 3 chuyên mục khác nhau.",
+      "tier": 2,
+      "icon": "🧭",
+      "rule": { "type": "min_categories", "value": 3 }
+    },
+    {
+      "id": "tech-specialist",
+      "name": "Dân Công Nghệ",
+      "description": "Ít nhất 3 bài trong chuyên mục Công nghệ.",
+      "tier": 2,
+      "icon": "💻",
+      "rule": { "type": "min_category_posts", "category": "cong-nghe", "value": 3 }
+    },
+    {
+      "id": "review-veteran",
+      "name": "Tướng Review",
+      "description": "Ít nhất 5 bài trong chuyên mục Review.",
+      "tier": 3,
+      "icon": "🎖️",
+      "rule": { "type": "min_category_posts", "category": "review", "value": 5 }
+    },
+    {
+      "id": "founding-pen",
+      "name": "Bút Khai Sơn",
+      "description": "Tác giả sáng lập và cây bút gốc của Veritable Content.",
+      "tier": 4,
+      "icon": "🏛️",
+      "rule": { "type": "founding", "value": 1 }
+    },
+    {
+      "id": "legend-quill",
+      "name": "Lông Vũ Huyền Thoại",
+      "description": "Đạt cấp Huyền Thoại Chân Thật (20+ bài).",
+      "tier": 5,
+      "icon": "👑",
+      "rule": { "type": "min_posts", "value": 20 }
+    }
+  ],
+  "founding_author_ids": ["minh-hoang"]
+}

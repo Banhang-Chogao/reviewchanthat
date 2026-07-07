@@ -1,0 +1,109 @@
+{{- $author := .author -}}
+{{- $rep := index site.Data "author-reputation" -}}
+{{- $authorName := $author.name -}}
+{{- $authorId := $author.id -}}
+{{- $allPosts := where site.RegularPages "Section" "posts" -}}
+{{- $authorPosts := where $allPosts "Params.author" $authorName -}}
+{{- $published := where $authorPosts "Draft" false -}}
+{{- $postCount := len $published -}}
+
+{{- $categoryScratch := slice -}}
+{{- range $published -}}
+  {{- range .Params.categories -}}
+    {{- $categoryScratch = $categoryScratch | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $categoryCount := len ($categoryScratch | uniq) -}}
+
+{{- $techCount := 0 -}}
+{{- $reviewCount := 0 -}}
+{{- range $published -}}
+  {{- if in .Params.categories "cong-nghe" -}}
+    {{- $techCount = add $techCount 1 -}}
+  {{- end -}}
+  {{- if in .Params.categories "review" -}}
+    {{- $reviewCount = add $reviewCount 1 -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $isFounding := false -}}
+{{- with $rep.founding_author_ids -}}
+  {{- if in . $authorId -}}
+    {{- $isFounding = true -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $currentTier := index $rep.tiers 0 -}}
+{{- range $rep.tiers -}}
+  {{- if ge $postCount .min_posts -}}
+    {{- $currentTier = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $nextTier := dict -}}
+{{- $hasNextTier := false -}}
+{{- $progressPercent := 100 -}}
+{{- $postsToNext := 0 -}}
+{{- range $rep.tiers -}}
+  {{- if and (gt .min_posts $postCount) (not $hasNextTier) -}}
+    {{- $nextTier = . -}}
+    {{- $hasNextTier = true -}}
+  {{- end -}}
+{{- end -}}
+{{- if $hasNextTier -}}
+  {{- $span := sub $nextTier.min_posts $currentTier.min_posts -}}
+  {{- $done := sub $postCount $currentTier.min_posts -}}
+  {{- if gt $span 0 -}}
+    {{- $progressPercent = div (mul $done 100) $span -}}
+  {{- else -}}
+    {{- $progressPercent = 0 -}}
+  {{- end -}}
+  {{- if gt $progressPercent 100 -}}
+    {{- $progressPercent = 100 -}}
+  {{- end -}}
+  {{- $postsToNext = sub $nextTier.min_posts $postCount -}}
+{{- end -}}
+
+{{- $badgeStates := slice -}}
+{{- range $rep.badges -}}
+  {{- $unlocked := false -}}
+  {{- $rule := .rule -}}
+  {{- if eq $rule.type "min_posts" -}}
+    {{- if ge $postCount $rule.value -}}
+      {{- $unlocked = true -}}
+    {{- end -}}
+  {{- else if eq $rule.type "min_categories" -}}
+    {{- if ge $categoryCount $rule.value -}}
+      {{- $unlocked = true -}}
+    {{- end -}}
+  {{- else if eq $rule.type "min_category_posts" -}}
+    {{- if eq $rule.category "cong-nghe" -}}
+      {{- if ge $techCount $rule.value -}}
+        {{- $unlocked = true -}}
+      {{- end -}}
+    {{- else if eq $rule.category "review" -}}
+      {{- if ge $reviewCount $rule.value -}}
+        {{- $unlocked = true -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else if eq $rule.type "founding" -}}
+    {{- if $isFounding -}}
+      {{- $unlocked = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $badgeStates = $badgeStates | append (dict "badge" . "unlocked" $unlocked) -}}
+{{- end -}}
+
+{{- return (dict
+  "postCount" $postCount
+  "categoryCount" $categoryCount
+  "techCount" $techCount
+  "reviewCount" $reviewCount
+  "currentTier" $currentTier
+  "nextTier" $nextTier
+  "hasNextTier" $hasNextTier
+  "progressPercent" $progressPercent
+  "postsToNext" $postsToNext
+  "badgeStates" $badgeStates
+  "isFounding" $isFounding
+) -}}

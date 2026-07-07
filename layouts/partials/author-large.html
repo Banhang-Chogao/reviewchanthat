@@ -18,13 +18,29 @@
 {{- if $authorData.company -}}{{- $authorCompany = $authorData.company -}}{{- end -}}
 {{- if $authorData.intro -}}{{- $authorIntro = $authorData.intro -}}{{- end -}}
 {{- if $authorData.badge -}}{{- $authorBadge = $authorData.badge -}}{{- end -}}
+{{- $authorRecord := dict -}}
+{{- with site.Data.authors -}}
+  {{- range .authors -}}
+    {{- if eq .name $authorName -}}
+      {{- $authorRecord = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $tierStats := dict -}}
+{{- if $authorRecord -}}
+  {{- $tierStats = partial "author-reputation-compute.html" (dict "author" $authorRecord) -}}
+{{- end -}}
 {{- if $authorName -}}
 <div class="author-box">
   <img src="{{ $authorImage }}" alt="" class="author-box__avatar" loading="lazy" width="72" height="72">
   <div class="author-box__content">
     <div class="author-box__header">
       <span class="author-box__name">{{ $authorName }}</span>
+      {{- with $tierStats.currentTier -}}
+      <span class="author-block-tier">{{ partial "author-tier-badge.html" (dict "tier" . "mini" true) }}</span>
+      {{- else -}}
       <span class="author-box__badge">{{ $authorBadge }}</span>
+      {{- end -}}
     </div>
     {{- if or $authorTitle $authorCompany }}
     <div class="author-box__role">{{ $authorTitle }}{{ if and $authorTitle $authorCompany }}, {{ end }}{{ $authorCompany }}</div>

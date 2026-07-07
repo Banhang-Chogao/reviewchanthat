@@ -1,0 +1,25 @@
+{{- $badge := .badge -}}
+{{- $unlocked := .unlocked -}}
+{{- $hint := .hint | default "" -}}
+{{- $class := "badge-medal" -}}
+{{- if not $unlocked -}}
+  {{- $class = printf "%s badge-medal--locked" $class -}}
+{{- else -}}
+  {{- $class = printf "%s badge-medal--unlocked badge-medal--tier-%d" $class (int $badge.tier) -}}
+{{- end -}}
+<div class="{{ $class }}" data-badge-id="{{ $badge.id }}" tabindex="0" role="img" aria-label="{{ $badge.name }}{{ if not $unlocked }} (chưa mở khóa){{ end }}">
+  <div class="badge-medal__face" aria-hidden="true">
+    <span class="badge-medal__icon">{{ $badge.icon }}</span>
+    {{- if not $unlocked -}}
+    <span class="badge-medal__lock">🔒</span>
+    {{- end -}}
+  </div>
+  <p class="badge-medal__name">{{ $badge.name }}</p>
+  <div class="badge-medal__tooltip" role="tooltip">
+    <strong>{{ $badge.name }}</strong>
+    <span>{{ $badge.description }}</span>
+    {{- if and (not $unlocked) $hint -}}
+    <em>{{ $hint }}</em>
+    {{- end -}}
+  </div>
+</div>

@@ -1,0 +1,93 @@
+{{- $rep := index site.Data "author-reputation" -}}
+{{- $authors := slice -}}
+{{- with site.Data.authors -}}
+  {{- $authors = .authors -}}
+{{- end -}}
+{{- if $authors -}}
+<section class="reputation-hall" id="reputation-hall" aria-labelledby="reputation-hall-title">
+  <header class="reputation-hall__header">
+    <p class="reputation-hall__eyebrow">Hall of Pens</p>
+    <h2 class="reputation-hall__title" id="reputation-hall-title">{{ $rep.section_title }}</h2>
+    <p class="reputation-hall__subtitle">{{ $rep.section_subtitle }}</p>
+  </header>
+
+  <div class="reputation-hall__grid{{ if eq (len $authors) 1 }} reputation-hall__grid--solo{{ end }}">
+    {{- range $authors -}}
+      {{- $stats := partial "author-reputation-compute.html" (dict "author" .) -}}
+      {{- $image := .image | default (printf "%simages/authors/default.svg" (relURL "")) -}}
+      <article class="reputation-card reputation-reveal">
+        <div class="reputation-card__hero">
+          <div class="reputation-card__avatar-wrap">
+            <img src="{{ $image }}" alt="" class="reputation-card__avatar" loading="lazy" width="88" height="88">
+            <span class="reputation-card__level-ring {{ $stats.currentTier.css_class }}" aria-hidden="true"></span>
+          </div>
+          <div class="reputation-card__identity">
+            <h3 class="reputation-card__name">{{ .name }}</h3>
+            {{- if or .title .company -}}
+            <p class="reputation-card__role">{{ .title }}{{ if and .title .company }}, {{ end }}{{ .company }}</p>
+            {{- end -}}
+            {{ partial "author-tier-badge.html" (dict "tier" $stats.currentTier "mini" false) }}
+          </div>
+        </div>
+
+        <dl class="reputation-card__stats">
+          <div class="reputation-stat">
+            <dt>Bài viết</dt>
+            <dd>{{ $stats.postCount }}</dd>
+          </div>
+          <div class="reputation-stat">
+            <dt>Chuyên mục</dt>
+            <dd>{{ $stats.categoryCount }}</dd>
+          </div>
+          <div class="reputation-stat">
+            <dt>Cấp hiện tại</dt>
+            <dd>L{{ $stats.currentTier.level }}</dd>
+          </div>
+        </dl>
+
+        {{- if $stats.hasNextTier -}}
+        <div class="reputation-card__progress">
+          <div class="reputation-card__progress-label">
+            <span>Tiến độ lên <strong>{{ $stats.nextTier.name }}</strong></span>
+            <span>{{ $stats.postsToNext }} bài nữa</span>
+          </div>
+          <div class="reputation-card__progress-track" role="progressbar" aria-valuenow="{{ $stats.progressPercent }}" aria-valuemin="0" aria-valuemax="100">
+            <span class="reputation-card__progress-fill" style="width: {{ $stats.progressPercent }}%;"></span>
+          </div>
+        </div>
+        {{- else -}}
+        <p class="reputation-card__maxed">Đã đạt cấp tối đa — huyền thoại đang ngồi đây.</p>
+        {{- end -}}
+
+        <div class="reputation-card__collection">
+          <h4 class="reputation-card__collection-title">Badge Collection</h4>
+          <div class="badge-collection">
+            {{- range $stats.badgeStates -}}
+              {{- $hint := "" -}}
+              {{- if not .unlocked -}}
+                {{- $rule := .badge.rule -}}
+                {{- if eq $rule.type "min_posts" -}}
+                  {{- $need := sub $rule.value $stats.postCount -}}
+                  {{- if gt $need 0 -}}
+                    {{- $hint = printf "Cần thêm %d bài nữa" (int $need) -}}
+                  {{- end -}}
+                {{- else if eq $rule.type "min_categories" -}}
+                  {{- $need := sub $rule.value $stats.categoryCount -}}
+                  {{- if gt $need 0 -}}
+                    {{- $hint = printf "Cần thêm %d chuyên mục nữa" (int $need) -}}
+                  {{- end -}}
+                {{- else if eq $rule.type "min_category_posts" -}}
+                  {{- $hint = "Viết thêm bài trong chuyên mục tương ứng" -}}
+                {{- else if eq $rule.type "founding" -}}
+                  {{- $hint = "Dành cho tác giả sáng lập blog" -}}
+                {{- end -}}
+              {{- end -}}
+              {{ partial "author-badge.html" (dict "badge" .badge "unlocked" .unlocked "hint" $hint) }}
+            {{- end -}}
+          </div>
+        </div>
+      </article>
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}

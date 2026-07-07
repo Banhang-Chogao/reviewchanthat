@@ -433,6 +433,74 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .footer-tagline{font-size:.85rem;color:var(--text-secondary);display:flex;align-items:center;gap:4px;flex-wrap:wrap;padding-bottom:clamp(16px,3vw,24px)}
 .footer-tagline-icon{display:inline-flex;align-items:center;justify-content:center;font-size:1.1em;line-height:1}
 
+/* Author Reputation Hall */
+.reputation-hall{margin-top:clamp(20px,4vw,32px);padding:clamp(22px,4vw,34px);border-radius:var(--radius-lg);border:1px solid var(--border);background:linear-gradient(165deg,#fff 0%,#fffaf3 48%,#fff 100%);box-shadow:var(--shadow);position:relative;overflow:hidden}
+.reputation-hall::before{content:"";position:absolute;inset:-40% auto auto -20%;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(255,122,0,.14),transparent 70%);pointer-events:none}
+.reputation-hall::after{content:"";position:absolute;right:-60px;bottom:-80px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(37,99,235,.08),transparent 72%);pointer-events:none}
+.reputation-hall__header{position:relative;z-index:1;margin-bottom:clamp(18px,3vw,28px)}
+.reputation-hall__eyebrow{display:inline-flex;align-items:center;gap:6px;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#c2410c;background:#fff7ed;border:1px solid #fed7aa;padding:5px 10px;border-radius:999px;margin-bottom:10px}
+.reputation-hall__title{font-size:clamp(1.35rem,3vw,1.9rem);font-weight:800;letter-spacing:-.03em;line-height:1.15;margin-bottom:6px}
+.reputation-hall__subtitle{font-size:clamp(.9rem,1.5vw,1rem);color:var(--text-secondary)}
+.reputation-hall__grid{position:relative;z-index:1;display:grid;gap:clamp(14px,2.5vw,20px);grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.reputation-hall__grid--solo{grid-template-columns:1fr}
+.reputation-card{padding:clamp(16px,2.5vw,22px);border-radius:var(--radius-md);border:1px solid var(--border);background:var(--surface);box-shadow:var(--shadow);display:grid;gap:14px}
+.reputation-card__hero{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.reputation-card__avatar-wrap{position:relative;width:88px;height:88px;flex:0 0 auto}
+.reputation-card__avatar{width:100%;height:100%;border-radius:50%;object-fit:cover;border:3px solid #fff;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.reputation-card__level-ring{position:absolute;inset:-5px;border-radius:50%;border:2px solid transparent;animation:reputation-ring-pulse 3s ease-in-out infinite}
+.reputation-card__identity{display:grid;gap:6px;min-width:0}
+.reputation-card__name{font-size:1.15rem;font-weight:800;line-height:1.2}
+.reputation-card__role{font-size:.84rem;color:var(--text-secondary)}
+.reputation-card__stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.reputation-stat{padding:10px 12px;border-radius:10px;background:#f8fafc;border:1px solid #e8edf5;text-align:center}
+.reputation-stat dt{font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:4px}
+.reputation-stat dd{font-size:1.05rem;font-weight:800;color:var(--text)}
+.reputation-card__progress{display:grid;gap:6px}
+.reputation-card__progress-label{display:flex;justify-content:space-between;gap:8px;font-size:.78rem;color:var(--text-secondary)}
+.reputation-card__progress-track{height:10px;border-radius:999px;background:#eceff4;overflow:hidden}
+.reputation-card__progress-fill{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#ff7a00,#f59e0b);transition:width .6s ease}
+.reputation-card__maxed{font-size:.82rem;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:10px 12px}
+.reputation-card__collection-title{font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:8px}
+.badge-collection{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:10px}
+.badge-medal{position:relative;display:grid;justify-items:center;gap:6px;padding:8px 6px;border-radius:12px;border:1px solid transparent;cursor:default;outline:none}
+.badge-medal--unlocked{background:#fff;border-color:#e8edf5;transition:transform .2s ease,box-shadow .2s ease}
+.badge-medal--unlocked:hover,.badge-medal--unlocked:focus-visible{transform:translateY(-3px) scale(1.03);box-shadow:var(--shadow-hover)}
+.badge-medal--locked{opacity:.48;filter:grayscale(.85)}
+.badge-medal__face{position:relative;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:#f3f4f6;border:2px solid #e5e7eb}
+.badge-medal--unlocked .badge-medal__face{border-color:transparent;background:linear-gradient(145deg,#fff7ed,#fff)}
+.badge-medal--tier-1.badge-medal--unlocked .badge-medal__face{box-shadow:0 0 0 2px #dbeafe inset,0 4px 12px rgba(59,130,246,.2)}
+.badge-medal--tier-2.badge-medal--unlocked .badge-medal__face{box-shadow:0 0 0 2px #dcfce7 inset,0 4px 12px rgba(34,197,94,.2)}
+.badge-medal--tier-3.badge-medal--unlocked .badge-medal__face{box-shadow:0 0 0 2px #fef3c7 inset,0 4px 12px rgba(245,158,11,.25)}
+.badge-medal--tier-4.badge-medal--unlocked .badge-medal__face{box-shadow:0 0 0 2px #ede9fe inset,0 4px 14px rgba(139,92,246,.25)}
+.badge-medal--tier-5.badge-medal--unlocked .badge-medal__face{box-shadow:0 0 0 2px #fde68a inset,0 6px 16px rgba(255,122,0,.35);animation:badge-shimmer 2.8s ease-in-out infinite}
+.badge-medal__icon{font-size:1.45rem;line-height:1}
+.badge-medal__lock{position:absolute;right:-2px;bottom:-2px;font-size:.62rem;background:#fff;border-radius:999px;padding:2px 4px;border:1px solid #e5e7eb}
+.badge-medal__name{font-size:.68rem;font-weight:700;text-align:center;line-height:1.25;color:var(--text-secondary)}
+.badge-medal__tooltip{position:absolute;left:50%;bottom:calc(100% + 8px);transform:translateX(-50%) translateY(6px);width:max-content;max-width:220px;padding:8px 10px;border-radius:10px;background:#111827;color:#f9fafb;font-size:.72rem;line-height:1.45;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .2s ease;z-index:5;display:grid;gap:4px;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.badge-medal__tooltip em{font-style:normal;color:#fcd34d}
+.badge-medal:hover .badge-medal__tooltip,.badge-medal:focus-visible .badge-medal__tooltip,.badge-medal.is-tooltip-open .badge-medal__tooltip{opacity:1;transform:translateX(-50%) translateY(0)}
+.tier-badge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;font-weight:700;line-height:1;border:1px solid transparent}
+.tier-badge--hero{padding:7px 12px;font-size:.82rem}
+.tier-badge--mini{padding:3px 8px;font-size:.66rem}
+.tier-badge__level{display:inline-flex;align-items:center;justify-content:center;min-width:1.35rem;height:1.35rem;border-radius:999px;font-size:.68rem;font-weight:800;background:rgba(255,255,255,.55)}
+.tier-badge.tier-1{background:#f8fafc;color:#475569;border-color:#e2e8f0}
+.tier-badge.tier-2{background:#eff6ff;color:#1d4ed8;border-color:#bfdbfe}
+.tier-badge.tier-3{background:#ecfdf5;color:#047857;border-color:#a7f3d0}
+.tier-badge.tier-4{background:#f5f3ff;color:#6d28d9;border-color:#ddd6fe}
+.tier-badge.tier-5{background:linear-gradient(120deg,#fff7ed,#fef3c7);color:#b45309;border-color:#fcd34d;box-shadow:0 4px 14px rgba(255,122,0,.18)}
+.reputation-card__level-ring.tier-1{border-color:rgba(148,163,184,.55)}
+.reputation-card__level-ring.tier-2{border-color:rgba(59,130,246,.45)}
+.reputation-card__level-ring.tier-3{border-color:rgba(16,185,129,.45)}
+.reputation-card__level-ring.tier-4{border-color:rgba(139,92,246,.45)}
+.reputation-card__level-ring.tier-5{border-color:rgba(255,122,0,.55)}
+.reputation-reveal{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+.reputation-reveal.is-visible{opacity:1;transform:translateY(0)}
+.author-block-tier{margin-left:4px}
+@keyframes reputation-ring-pulse{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.04);opacity:1}}
+@keyframes badge-shimmer{0%,100%{filter:brightness(1)}50%{filter:brightness(1.08)}}
+@media(max-width:640px){.reputation-card__stats{grid-template-columns:1fr}.badge-collection{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){.reputation-card__level-ring,.badge-medal--tier-5.badge-medal--unlocked .badge-medal__face{animation:none}.badge-medal--unlocked:hover,.badge-medal--unlocked:focus-visible{transform:none}.reputation-reveal{opacity:1;transform:none;transition:none}}
+
 /* About */
 .about-page{padding:clamp(24px,6vw,48px) 0 clamp(40px,8vw,60px);width:min(100% - (var(--page-padding) * 2),var(--content-max-width));margin-inline:auto}
 .about-page h1{font-size:clamp(1.4rem,3vw,1.8rem);font-weight:800;margin-bottom:24px}
