@@ -2,7 +2,8 @@
   <div class="header-inner container">
     <div class="site-brand">
       <a href="{{ .Site.Home.RelPermalink }}" class="brand-link">
-        <span class="brand-name">{{ .Site.Title }}</span>
+        <img src="{{ "logo.svg" | relURL }}" alt="Veritable Content" class="site-logo logo-light">
+        <img src="{{ "logo-dark.svg" | relURL }}" alt="Veritable Content" class="site-logo logo-dark">
       </a>
     </div>
     <nav class="site-nav">

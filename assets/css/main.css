@@ -16,6 +16,11 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .brand-link{display:flex;align-items:center;gap:8px}
 .brand-name{font-size:1.2rem;font-weight:800;letter-spacing:-.02em;color:var(--text);transition:color .2s}
 .brand-link:hover .brand-name{color:var(--accent)}
+.site-logo{height:46px;width:auto;display:block;flex-shrink:0}
+@media(max-width:768px){.site-logo{height:38px}}
+@media(max-width:480px){.site-logo{height:32px}}
+.logo-dark{display:none}
+@media(prefers-color-scheme:dark){.logo-light{display:none}.logo-dark{display:block}}
 .site-nav{min-width:0;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none}
 .site-nav::-webkit-scrollbar{display:none}
 .site-nav .nav-list{display:flex;list-style:none;gap:clamp(12px,2.5vw,28px);align-items:center}
