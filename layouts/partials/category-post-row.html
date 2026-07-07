@@ -1,5 +1,5 @@
 <article class="category-post-row">
-  {{ $thumb := .Params.thumbnail | default .Params.image | default "images/posts/fallback.svg" }}
+  {{ $thumb := .Params.thumbnail | default .Params.image | default "images/posts/fallback.webp" }}
   <a href="{{ .RelPermalink }}" class="category-post-row__image-link">
     <img src="{{ $thumb | relURL }}" alt="{{ .Title }}" class="category-post-row__image" loading="lazy">
   </a>

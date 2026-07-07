@@ -1,5 +1,5 @@
 <article class="home-post-block">
-  {{ $thumb := .Params.thumbnail | default .Params.image | default "images/posts/fallback.svg" }}
+  {{ $thumb := .Params.thumbnail | default .Params.image | default "images/posts/fallback.webp" }}
   <a href="{{ .RelPermalink }}" class="home-post-block__image-link">
     <img src="{{ $thumb | relURL }}" alt="{{ .Title }}" class="home-post-block__image" loading="lazy">
   </a>
