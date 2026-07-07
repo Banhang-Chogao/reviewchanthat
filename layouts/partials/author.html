@@ -1,0 +1,27 @@
+{{- $authorName := .Params.author -}}
+{{- $authorData := dict -}}
+{{- $authorImage := .Params.avatar -}}
+{{- $authorTitle := "" -}}
+{{- $authorCompany := "" -}}
+{{- with site.Data.authors -}}
+  {{- range .authors -}}
+    {{- if eq .name $authorName -}}
+      {{- $authorData = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if $authorData.image -}}{{- $authorImage = $authorData.image -}}{{- end -}}
+{{- if not $authorImage -}}{{- $authorImage = "images/authors/default.svg" | relURL -}}{{- end -}}
+{{- if $authorData.title -}}{{- $authorTitle = $authorData.title -}}{{- end -}}
+{{- if $authorData.company -}}{{- $authorCompany = $authorData.company -}}{{- end -}}
+{{- if $authorName -}}
+<div class="author-block">
+  <img src="{{ $authorImage }}" alt="" class="author-avatar" loading="lazy" width="26" height="26">
+  <div class="author-block-info">
+    <span class="author-name">{{ $authorName }}</span>
+    {{- if or $authorTitle $authorCompany }}
+    <span class="author-meta">{{ $authorTitle }}{{ if and $authorTitle $authorCompany }}, {{ end }}{{ $authorCompany }}</span>
+    {{- end }}
+  </div>
+</div>
+{{- end -}}

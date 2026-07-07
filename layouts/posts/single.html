@@ -12,14 +12,9 @@
     </div>
     <h1 class="post-title">{{ .Title }}</h1>
     <div class="post-meta-bar">
-      {{ with .Params.avatar }}
-      <img src="{{ . }}" alt="" class="author-avatar-large" loading="lazy" width="44" height="44">
-      {{ end }}
-      <div class="post-author-details">
-        <span class="author-name">{{ .Params.author }}</span>
-        <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
-      </div>
+      {{ partial "author-large.html" . }}
       <div class="post-meta-right">
+        <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
         <span class="post-read-time">{{ .ReadingTime }} phút đọc</span>
       </div>
     </div>

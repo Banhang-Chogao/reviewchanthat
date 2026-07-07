@@ -15,10 +15,7 @@
       </h2>
       <div class="post-card-meta-row">
         <div class="post-card-author">
-          {{ with .Params.avatar }}
-          <img src="{{ . }}" alt="" class="author-avatar" loading="lazy" width="26" height="26">
-          {{ end }}
-          <span class="author-name">{{ .Params.author }}</span>
+          {{ partial "author.html" . }}
           <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
         </div>
         <span class="post-read-time">{{ .ReadingTime }} phút đọc</span>
