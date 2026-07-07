@@ -5,9 +5,13 @@
       <span class="site-header__date">{{ $weekdays := dict "Monday" "Thứ Hai" "Tuesday" "Thứ Ba" "Wednesday" "Thứ Tư" "Thursday" "Thứ Năm" "Friday" "Thứ Sáu" "Saturday" "Thứ Bảy" "Sunday" "Chủ Nhật" }}{{ $weekday := index $weekdays (now.Format "Monday") }}{{ printf "%s, %s" $weekday (now.Format "02/01/2006") }}</span>
     </div>
     <nav class="site-header__nav">
-      {{ $sections := slice (dict "name" "Trang chủ" "url" "") (dict "name" "Review" "url" "review/") (dict "name" "Công nghệ" "url" "cong-nghe/") (dict "name" "Đời sống" "url" "doi-song/") (dict "name" "Tài chính" "url" "tai-chinh/") }}
-      {{ range $sections }}
-      <a href="{{ .url | relURL }}" class="nav-link">{{ .name }}</a>
+      <a href="{{ "" | relURL }}" class="nav-link">Trang chủ</a>
+      {{ with site.Data.categories.items }}
+        {{ range sort . "order" }}
+          {{ if .nav }}
+          <a href="{{ printf "%s/" .slug | relURL }}" class="nav-link">{{ .label }}</a>
+          {{ end }}
+        {{ end }}
       {{ end }}
     </nav>
     <div class="site-header__actions">
@@ -18,8 +22,13 @@
           </svg>
         </summary>
         <div class="site-header__mobile-dropdown">
-          {{ range $sections }}
-          <a href="{{ .url | relURL }}" class="nav-link">{{ .name }}</a>
+          <a href="{{ "" | relURL }}" class="nav-link">Trang chủ</a>
+          {{ with site.Data.categories.items }}
+            {{ range sort . "order" }}
+              {{ if .nav }}
+              <a href="{{ printf "%s/" .slug | relURL }}" class="nav-link">{{ .label }}</a>
+              {{ end }}
+            {{ end }}
           {{ end }}
         </div>
       </details>

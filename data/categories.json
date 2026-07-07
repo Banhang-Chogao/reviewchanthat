@@ -1,10 +1,34 @@
 {
-  "labels": {
-    "review": "Review",
-    "cong-nghe": "Công nghệ",
-    "doi-song": "Đời sống",
-    "tai-chinh": "Tài chính"
-  },
+  "items": [
+    {
+      "slug": "review",
+      "label": "Review",
+      "description": "Review sản phẩm và trải nghiệm thật",
+      "nav": true,
+      "order": 10
+    },
+    {
+      "slug": "cong-nghe",
+      "label": "Công nghệ",
+      "description": "Công nghệ đáng mua, đáng dùng",
+      "nav": true,
+      "order": 20
+    },
+    {
+      "slug": "doi-song",
+      "label": "Đời sống",
+      "description": "Lựa chọn tốt hơn mỗi ngày",
+      "nav": true,
+      "order": 30
+    },
+    {
+      "slug": "tai-chinh",
+      "label": "Tài chính",
+      "description": "Quyết định tiền bạc rõ ràng hơn",
+      "nav": true,
+      "order": 40
+    }
+  ],
   "aliases": {
     "review": "review",
     "công nghệ": "cong-nghe",

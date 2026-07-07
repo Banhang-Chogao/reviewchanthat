@@ -7,8 +7,14 @@ Minimal Cloudflare Worker backend for the Veritable Content writer at `/admin/wr
 - `POST /api/cms/publish`
   - Accepts `multipart/form-data`.
   - Field `payload` is JSON with metadata, full generated Markdown, image metadata, and file field names.
+  - Optional `categoriesCatalog` in payload syncs `data/categories.json` before the article commit.
   - Image files are included as separate form fields referenced by `images[].fileField`.
   - Commits uploaded source images, `.meta.json` files, and `content/posts/<slug>.md` through the GitHub Contents API.
+- `GET /api/cms/categories`
+  - Returns the current `data/categories.json` catalog from GitHub.
+- `PUT /api/cms/categories`
+  - Accepts JSON `{ "message": "...", "catalog": { "items": [...], "aliases": {...} } }`.
+  - Validates and commits `data/categories.json`.
 - `GET /api/cms/deploy-status?run_id=<id>`
   - Optional status helper for known GitHub Actions run IDs.
 

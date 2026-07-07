@@ -1,12 +1,15 @@
 {{ define "main" }}
 <div class="container">
-  {{ $categoryHeaders := dict "review" "Review sản phẩm và trải nghiệm thật" "cong-nghe" "Công nghệ đáng mua, đáng dùng" "doi-song" "Lựa chọn tốt hơn mỗi ngày" "tai-chinh" "Quyết định tiền bạc rõ ràng hơn" }}
   {{ $listTitle := .Title }}
   {{ $desc := "" }}
   {{ if and (eq .Data.Singular "category") .Data.Term }}
-    {{ $desc = index $categoryHeaders .Data.Term }}
-    {{ with site.Data.categories.labels }}
-      {{ $listTitle = index . $.Data.Term | default $listTitle }}
+    {{ with site.Data.categories.items }}
+      {{ range . }}
+        {{ if eq .slug $.Data.Term }}
+          {{ $listTitle = .label }}
+          {{ $desc = .description }}
+        {{ end }}
+      {{ end }}
     {{ end }}
   {{ end }}
   <section class="category-header">

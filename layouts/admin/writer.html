@@ -384,6 +384,75 @@
     gap: 8px;
   }
 
+  .vc-category-panel {
+    display: grid;
+    gap: 10px;
+    margin-top: 8px;
+    padding: 12px;
+    border: 1px dashed var(--vc-border);
+    border-radius: 8px;
+    background: #fafafa;
+  }
+
+  .vc-category-panel[hidden] {
+    display: none !important;
+  }
+
+  .vc-category-table-wrap {
+    overflow-x: auto;
+  }
+
+  .vc-category-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+  }
+
+  .vc-category-table th,
+  .vc-category-table td {
+    border-bottom: 1px solid var(--vc-border);
+    padding: 8px 6px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .vc-category-table th {
+    color: var(--vc-muted);
+    font-weight: 700;
+  }
+
+  .vc-category-table .vc-input,
+  .vc-category-table .vc-textarea {
+    font-size: 0.78rem;
+    padding: 6px 8px;
+  }
+
+  .vc-category-table .vc-textarea {
+    min-height: 52px;
+    resize: vertical;
+  }
+
+  .vc-category-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .vc-category-status {
+    min-height: 18px;
+    color: var(--vc-muted);
+    font-size: 0.8rem;
+  }
+
+  .vc-category-status[data-state="error"] {
+    color: var(--vc-danger);
+  }
+
+  .vc-category-status[data-state="ok"] {
+    color: var(--vc-success);
+  }
+
   .vc-progress {
     display: grid;
     gap: 6px;
@@ -726,15 +795,59 @@
         </div>
 
         <div class="vc-field">
-          <label class="vc-label" for="category">Category</label>
-          <input class="vc-input" id="category" name="category" type="text" value="cong-nghe" list="category-options" placeholder="cong-nghe">
-          <datalist id="category-options">
-            <option value="cong-nghe">Công nghệ</option>
-            <option value="review">Review</option>
-            <option value="doi-song">Đời sống</option>
-            <option value="tai-chinh">Tài chính</option>
-          </datalist>
+          <label class="vc-label" for="category-select">Category</label>
+          <div class="vc-row">
+            <select class="vc-input" id="category-select" name="category-select"></select>
+            <button class="vc-button" type="button" id="category-create-toggle">+ New</button>
+          </div>
+          <input type="hidden" id="category" name="category" value="cong-nghe">
+          <div class="vc-category-panel" id="category-create-panel" hidden>
+            <div class="vc-field">
+              <label class="vc-label" for="new-category-label">Label</label>
+              <input class="vc-input" id="new-category-label" type="text" autocomplete="off" placeholder="Ví dụ: Du lịch">
+            </div>
+            <div class="vc-field">
+              <label class="vc-label" for="new-category-slug">Slug</label>
+              <input class="vc-input" id="new-category-slug" type="text" autocomplete="off" placeholder="du-lich">
+            </div>
+            <div class="vc-field">
+              <label class="vc-label" for="new-category-description">Description</label>
+              <textarea class="vc-textarea" id="new-category-description" rows="2"></textarea>
+            </div>
+            <label class="vc-toggle" for="new-category-nav">
+              <input id="new-category-nav" type="checkbox" checked>
+              Show in header nav
+            </label>
+            <div class="vc-category-actions">
+              <button class="vc-button vc-button--primary" type="button" id="category-create-save">Add category</button>
+              <button class="vc-button" type="button" id="category-create-cancel">Cancel</button>
+            </div>
+          </div>
         </div>
+
+        <details class="vc-category-panel" id="category-management">
+          <summary class="vc-label" style="cursor:pointer;">Category Management</summary>
+          <div class="vc-category-table-wrap" style="margin-top:10px;">
+            <table class="vc-category-table" id="category-table">
+              <thead>
+                <tr>
+                  <th>Slug</th>
+                  <th>Label</th>
+                  <th>Description</th>
+                  <th>Nav</th>
+                  <th>Order</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="category-table-body"></tbody>
+            </table>
+          </div>
+          <div class="vc-category-actions" style="margin-top:10px;">
+            <button class="vc-button" type="button" id="category-reload-remote">Reload from GitHub</button>
+            <button class="vc-button vc-button--primary" type="button" id="category-save-remote">Save categories to GitHub</button>
+          </div>
+          <div class="vc-category-status" id="category-manager-status" role="status"></div>
+        </details>
 
         <div class="vc-field">
           <label class="vc-label" for="tags">Tags</label>
@@ -841,12 +954,60 @@
   const CATEGORY_CATALOG = {{ site.Data.categories | jsonify }};
   const defaultCategory = 'cong-nghe';
 
+  function hydrateCatalog(raw) {
+    const catalog = JSON.parse(JSON.stringify(raw || {}));
+    if (!Array.isArray(catalog.items)) {
+      catalog.items = Object.entries(catalog.labels || {}).map(([slug, label], index) => ({
+        slug,
+        label,
+        description: '',
+        nav: true,
+        order: (index + 1) * 10
+      }));
+    }
+    catalog.items = catalog.items
+      .map((item) => ({
+        slug: String(item.slug || '').trim(),
+        label: String(item.label || item.slug || '').trim(),
+        description: String(item.description || '').trim(),
+        nav: item.nav !== false,
+        order: Number.isFinite(Number(item.order)) ? Number(item.order) : 100
+      }))
+      .filter((item) => item.slug)
+      .sort((left, right) => left.order - right.order || left.slug.localeCompare(right.slug));
+    catalog.labels = {};
+    catalog.aliases = catalog.aliases && typeof catalog.aliases === 'object' ? { ...catalog.aliases } : {};
+    catalog.items.forEach((item) => {
+      catalog.labels[item.slug] = item.label;
+      catalog.aliases[item.slug] = item.slug;
+      catalog.aliases[item.label.toLowerCase()] = item.slug;
+      catalog.aliases[slugify(item.label)] = item.slug;
+    });
+    return catalog;
+  }
+
+  let categoryCatalog = hydrateCatalog(CATEGORY_CATALOG);
+  let categoriesDirty = false;
+
   const fields = {
     form: document.getElementById('writer-form'),
     title: document.getElementById('title'),
     slug: document.getElementById('slug'),
     description: document.getElementById('description'),
     category: document.getElementById('category'),
+    categorySelect: document.getElementById('category-select'),
+    categoryCreateToggle: document.getElementById('category-create-toggle'),
+    categoryCreatePanel: document.getElementById('category-create-panel'),
+    newCategoryLabel: document.getElementById('new-category-label'),
+    newCategorySlug: document.getElementById('new-category-slug'),
+    newCategoryDescription: document.getElementById('new-category-description'),
+    newCategoryNav: document.getElementById('new-category-nav'),
+    categoryCreateSave: document.getElementById('category-create-save'),
+    categoryCreateCancel: document.getElementById('category-create-cancel'),
+    categoryTableBody: document.getElementById('category-table-body'),
+    categoryReloadRemote: document.getElementById('category-reload-remote'),
+    categorySaveRemote: document.getElementById('category-save-remote'),
+    categoryManagerStatus: document.getElementById('category-manager-status'),
     tags: document.getElementById('tags'),
     date: document.getElementById('date'),
     lastmod: document.getElementById('lastmod'),
@@ -937,7 +1098,11 @@
     if (!raw) {
       return defaultCategory;
     }
-    const aliases = CATEGORY_CATALOG.aliases || {};
+    const existing = categoryCatalog.items.find((item) => item.slug === raw || item.label.toLowerCase() === raw.toLowerCase());
+    if (existing) {
+      return existing.slug;
+    }
+    const aliases = categoryCatalog.aliases || {};
     const alias = aliases[raw.toLowerCase()];
     if (alias) {
       return alias;
@@ -959,8 +1124,174 @@
   }
 
   function categoryLabel(slug) {
-    const labels = CATEGORY_CATALOG.labels || {};
-    return labels[slug] || slug;
+    const item = categoryCatalog.items.find((entry) => entry.slug === slug);
+    return item ? item.label : slug;
+  }
+
+  function exportCategoryCatalog() {
+    return hydrateCatalog(categoryCatalog);
+  }
+
+  function markCategoriesDirty() {
+    categoriesDirty = true;
+    categoryCatalog = hydrateCatalog(categoryCatalog);
+    renderCategoryControls();
+  }
+
+  function setCategoryManagerStatus(message, state) {
+    fields.categoryManagerStatus.textContent = message || '';
+    fields.categoryManagerStatus.dataset.state = state || '';
+  }
+
+  function syncCategoryField(slug) {
+    const normalized = normalizeCategorySlug(slug || defaultCategory);
+    fields.category.value = normalized;
+    if (fields.categorySelect) {
+      fields.categorySelect.value = normalized;
+    }
+  }
+
+  function renderCategorySelect() {
+    if (!fields.categorySelect) {
+      return;
+    }
+    const current = normalizeCategorySlug(fields.category.value || defaultCategory);
+    fields.categorySelect.innerHTML = categoryCatalog.items.map((item) => (
+      `<option value="${escapeAttr(item.slug)}">${escapeHtml(item.label)} (${escapeHtml(item.slug)})</option>`
+    )).join('');
+    fields.categorySelect.value = current;
+    fields.category.value = current;
+  }
+
+  function renderCategoryTable() {
+    if (!fields.categoryTableBody) {
+      return;
+    }
+    fields.categoryTableBody.innerHTML = categoryCatalog.items.map((item, index) => `
+      <tr data-category-index="${index}">
+        <td><code>${escapeHtml(item.slug)}</code></td>
+        <td><input class="vc-input" data-category-field="label" value="${escapeAttr(item.label)}"></td>
+        <td><textarea class="vc-textarea" data-category-field="description" rows="2">${escapeHtml(item.description || '')}</textarea></td>
+        <td><input type="checkbox" data-category-field="nav" ${item.nav ? 'checked' : ''}></td>
+        <td><input class="vc-input" data-category-field="order" type="number" min="0" step="1" value="${escapeAttr(String(item.order))}"></td>
+        <td><button class="vc-button vc-button--danger" type="button" data-category-action="delete">Delete</button></td>
+      </tr>
+    `).join('');
+  }
+
+  function renderCategoryControls() {
+    renderCategorySelect();
+    renderCategoryTable();
+  }
+
+  function readCategoryRow(row) {
+    const index = Number(row.dataset.categoryIndex);
+    const item = categoryCatalog.items[index];
+    if (!item) {
+      return null;
+    }
+    return {
+      slug: item.slug,
+      label: row.querySelector('[data-category-field="label"]').value.trim(),
+      description: row.querySelector('[data-category-field="description"]').value.trim(),
+      nav: row.querySelector('[data-category-field="nav"]').checked,
+      order: Number.parseInt(row.querySelector('[data-category-field="order"]').value, 10) || 100
+    };
+  }
+
+  function applyCategoryTableEdits() {
+    const rows = fields.categoryTableBody ? [...fields.categoryTableBody.querySelectorAll('tr[data-category-index]')] : [];
+    const nextItems = rows.map(readCategoryRow).filter(Boolean);
+    if (!nextItems.length) {
+      throw new Error('At least one category is required');
+    }
+    categoryCatalog.items = nextItems;
+    markCategoriesDirty();
+  }
+
+  function addCategoryFromForm() {
+    const label = fields.newCategoryLabel.value.trim();
+    const slug = slugify(fields.newCategorySlug.value.trim() || label);
+    if (!label || !slug) {
+      throw new Error('Category label and slug are required');
+    }
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
+      throw new Error('Category slug must use lowercase letters, numbers, and hyphens');
+    }
+    if (categoryCatalog.items.some((item) => item.slug === slug)) {
+      throw new Error(`Category slug already exists: ${slug}`);
+    }
+    const maxOrder = categoryCatalog.items.reduce((max, item) => Math.max(max, item.order || 0), 0);
+    categoryCatalog.items.push({
+      slug,
+      label,
+      description: fields.newCategoryDescription.value.trim(),
+      nav: fields.newCategoryNav.checked,
+      order: maxOrder + 10
+    });
+    markCategoriesDirty();
+    syncCategoryField(slug);
+    fields.categoryCreatePanel.hidden = true;
+    fields.newCategoryLabel.value = '';
+    fields.newCategorySlug.value = '';
+    fields.newCategoryDescription.value = '';
+    fields.newCategoryNav.checked = true;
+    setCategoryManagerStatus(`Added category ${label}`, 'ok');
+  }
+
+  function cmsApiUrl(path) {
+    const publish = publishApiUrl();
+    const base = publish.replace(/\/api\/cms\/publish\/?$/, '');
+    return `${base}${path}`;
+  }
+
+  function requireAdminToken() {
+    const token = fields.adminToken.value.trim();
+    if (!token) {
+      throw new Error('Admin token is required');
+    }
+    return token;
+  }
+
+  async function fetchCategoriesFromGithub() {
+    const token = requireAdminToken();
+    const response = await fetch(cmsApiUrl('/api/cms/categories'), {
+      headers: { Authorization: `Bearer ${token}` }
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      throw new Error(data.message || `Category fetch failed with HTTP ${response.status}`);
+    }
+    categoryCatalog = hydrateCatalog(data.catalog || {});
+    categoriesDirty = false;
+    renderCategoryControls();
+    syncCategoryField(fields.category.value || defaultCategory);
+    setCategoryManagerStatus('Categories loaded from GitHub', 'ok');
+  }
+
+  async function saveCategoriesToGithub(message) {
+    applyCategoryTableEdits();
+    const token = requireAdminToken();
+    const response = await fetch(cmsApiUrl('/api/cms/categories'), {
+      method: 'PUT',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: message || 'cms: update categories',
+        catalog: exportCategoryCatalog()
+      })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      throw new Error(data.message || `Category save failed with HTTP ${response.status}`);
+    }
+    categoryCatalog = hydrateCatalog(data.catalog || exportCategoryCatalog());
+    categoriesDirty = false;
+    renderCategoryControls();
+    setCategoryManagerStatus('Categories saved to GitHub', 'ok');
+    return data;
   }
 
   function yamlString(value) {
@@ -1047,6 +1378,7 @@
     images = Array.isArray(state.images) && state.images.length ? state.images.map(normaliseImageState) : [emptyImage()];
     slugEdited = Boolean(state.slug);
     renderImageRows();
+    syncCategoryField(state.category || defaultCategory);
   }
 
   function emptyImage() {
@@ -1512,7 +1844,8 @@
       body: state.content,
       markdown,
       generatedMarkdownFullContent: markdown,
-      images: payloadImages
+      images: payloadImages,
+      categoriesCatalog: exportCategoryCatalog()
     };
 
     const formData = new FormData();
@@ -1554,6 +1887,12 @@
         throw new Error('Admin token is required');
       }
 
+      try {
+        applyCategoryTableEdits();
+      } catch (error) {
+        throw error;
+      }
+
       const request = buildPublishRequest(draftValue);
       if (request.errors.length) {
         fields.form.reportValidity();
@@ -1582,6 +1921,10 @@
       setPublishStep('deploy', data.deploy && data.deploy.status === 'failed' ? 'error' : 'done');
       setPublishStep('done', data.deploy && data.deploy.status === 'failed' ? 'error' : 'done');
       renderPublishResult(data);
+      categoriesDirty = false;
+      if (data.categories_updated) {
+        setCategoryManagerStatus('Categories synced to GitHub', 'ok');
+      }
       fields.draftState.textContent = draftValue ? 'Draft saved to GitHub' : 'Published to GitHub';
     } catch (error) {
       const active = fields.publishProgress.querySelector('[data-state="active"]');
@@ -1613,8 +1956,84 @@
       images: [emptyImage()]
     });
 
+    renderCategoryControls();
+    syncCategoryField(fields.category.value || defaultCategory);
     updateOutput();
   }
+
+  fields.categorySelect.addEventListener('change', () => {
+    syncCategoryField(fields.categorySelect.value);
+    updateOutput();
+  });
+
+  fields.categoryCreateToggle.addEventListener('click', () => {
+    fields.categoryCreatePanel.hidden = !fields.categoryCreatePanel.hidden;
+  });
+
+  fields.categoryCreateCancel.addEventListener('click', () => {
+    fields.categoryCreatePanel.hidden = true;
+  });
+
+  fields.newCategoryLabel.addEventListener('input', () => {
+    if (!fields.newCategorySlug.value.trim()) {
+      fields.newCategorySlug.value = slugify(fields.newCategoryLabel.value);
+    }
+  });
+
+  fields.categoryCreateSave.addEventListener('click', () => {
+    try {
+      addCategoryFromForm();
+      updateOutput();
+    } catch (error) {
+      setCategoryManagerStatus(error instanceof Error ? error.message : 'Cannot add category', 'error');
+    }
+  });
+
+  fields.categoryTableBody.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-category-action="delete"]');
+    if (!button) {
+      return;
+    }
+    try {
+      applyCategoryTableEdits();
+      const row = button.closest('tr[data-category-index]');
+      const index = Number(row.dataset.categoryIndex);
+      const slug = categoryCatalog.items[index] && categoryCatalog.items[index].slug;
+      if (!slug) {
+        return;
+      }
+      if (categoryCatalog.items.length <= 1) {
+        throw new Error('At least one category must remain');
+      }
+      categoryCatalog.items.splice(index, 1);
+      markCategoriesDirty();
+      if (normalizeCategorySlug(fields.category.value) === slug) {
+        syncCategoryField(categoryCatalog.items[0].slug);
+      }
+      updateOutput();
+      setCategoryManagerStatus(`Deleted category ${slug}`, 'ok');
+    } catch (error) {
+      setCategoryManagerStatus(error instanceof Error ? error.message : 'Cannot delete category', 'error');
+    }
+  });
+
+  fields.categoryReloadRemote.addEventListener('click', async () => {
+    try {
+      setCategoryManagerStatus('Loading categories...', '');
+      await fetchCategoriesFromGithub();
+    } catch (error) {
+      setCategoryManagerStatus(error instanceof Error ? error.message : 'Category reload failed', 'error');
+    }
+  });
+
+  fields.categorySaveRemote.addEventListener('click', async () => {
+    try {
+      setCategoryManagerStatus('Saving categories...', '');
+      await saveCategoriesToGithub('cms: update categories from writer');
+    } catch (error) {
+      setCategoryManagerStatus(error instanceof Error ? error.message : 'Category save failed', 'error');
+    }
+  });
 
   fields.title.addEventListener('input', () => {
     if (!slugEdited) {
@@ -1641,7 +2060,6 @@
 
   [
     fields.description,
-    fields.category,
     fields.tags,
     fields.date,
     fields.lastmod,

@@ -7,8 +7,16 @@
   {{- end -}}
 {{- end -}}
 {{- $label := $raw -}}
-{{- with site.Data.categories.labels -}}
-  {{- $label = index . $slug | default $raw -}}
+{{- with site.Data.categories.items -}}
+  {{- range . -}}
+    {{- if eq .slug $slug -}}
+      {{- $label = .label -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- with site.Data.categories.labels -}}
+    {{- $label = index . $slug | default $raw -}}
+  {{- end -}}
 {{- end -}}
 {{- $href := printf "%s/" $slug | relURL -}}
 {{- with site.GetPage (printf "categories/%s" $slug) -}}

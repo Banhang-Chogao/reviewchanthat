@@ -4,7 +4,9 @@ const DEFAULT_BRANCH = 'main';
 const DEFAULT_CONTENT_DIR = 'content/posts';
 const DEFAULT_IMAGE_SOURCE_DIR = 'static/images/posts-src';
 const DEFAULT_PUBLIC_SITE_BASE = 'https://banhang-chogao.github.io/reviewchanthat/';
+const DEFAULT_CATEGORIES_PATH = 'data/categories.json';
 const DEFAULT_MAX_IMAGE_BYTES = 5 * 1024 * 1024;
+const CATEGORY_SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const ALLOWED_IMAGE_EXTENSIONS = new Set(['jpg', 'jpeg', 'png', 'webp']);
 const ALLOWED_IMAGE_TYPES = new Set(['image/jpeg', 'image/png', 'image/webp']);
 
@@ -37,6 +39,7 @@ export default {
             service: 'veritable-content-cms-publish',
             endpoints: {
               publish: 'POST /api/cms/publish',
+              categories: 'GET/PUT /api/cms/categories',
               deployStatus: 'GET /api/cms/deploy-status?run_id=<id>'
             }
           },
@@ -48,6 +51,18 @@ export default {
       if (pathname === '/api/cms/publish' && request.method === 'POST') {
         await requireAdmin(request, env);
         const result = await publishArticle(request, env);
+        return jsonResponse(result, 200, corsHeaders);
+      }
+
+      if (pathname === '/api/cms/categories' && request.method === 'GET') {
+        await requireAdmin(request, env);
+        const result = await getCategoriesCatalog(env);
+        return jsonResponse(result, 200, corsHeaders);
+      }
+
+      if (pathname === '/api/cms/categories' && request.method === 'PUT') {
+        await requireAdmin(request, env);
+        const result = await saveCategoriesCatalogRequest(request, env);
         return jsonResponse(result, 200, corsHeaders);
       }
 
@@ -118,6 +133,13 @@ async function publishArticle(request, env) {
     commits.push(...upload.commits);
   }
 
+  if (normalized.categoriesCatalog) {
+    const categoriesCommit = await saveCategoriesCatalog(normalized.categoriesCatalog, message, branch, env);
+    if (categoriesCommit) {
+      commits.push(categoriesCommit);
+    }
+  }
+
   const articleCommit = await putGithubContent(articlePath, normalized.markdown, message, branch, env);
   commits.push(articleCommit);
 
@@ -130,9 +152,123 @@ async function publishArticle(request, env) {
     article_path: articlePath,
     article_url: articleUrl,
     uploaded_images: uploadedImages,
+    categories_updated: Boolean(normalized.categoriesCatalog),
     commits,
     deploy
   };
+}
+
+async function getCategoriesCatalog(env) {
+  const branch = env.GITHUB_BRANCH || DEFAULT_BRANCH;
+  const catalog = await loadCategoriesCatalog(branch, env);
+  return {
+    status: 'ok',
+    path: categoriesPath(env),
+    catalog
+  };
+}
+
+async function saveCategoriesCatalogRequest(request, env) {
+  const body = await request.json().catch(() => null);
+  if (!body || typeof body !== 'object') {
+    throw new HttpError(400, 'Category catalog JSON body is required');
+  }
+
+  const branch = env.GITHUB_BRANCH || DEFAULT_BRANCH;
+  const catalog = normalizeCategoriesCatalog(body.catalog || body);
+  const message = String(body.message || 'cms: update categories').trim() || 'cms: update categories';
+  const commit = await saveCategoriesCatalog(catalog, message, branch, env);
+
+  return {
+    status: 'ok',
+    path: categoriesPath(env),
+    commit_sha: commit ? commit.sha : '',
+    catalog
+  };
+}
+
+async function loadCategoriesCatalog(branch, env) {
+  const path = categoriesPath(env);
+  try {
+    const text = await readTextFile(path, branch, env);
+    return normalizeCategoriesCatalog(safeJsonParse(text));
+  } catch (error) {
+    if (error instanceof HttpError && error.status === 404) {
+      return normalizeCategoriesCatalog({});
+    }
+    throw error;
+  }
+}
+
+async function saveCategoriesCatalog(catalogInput, message, branch, env) {
+  const catalog = normalizeCategoriesCatalog(catalogInput);
+  const remote = await loadCategoriesCatalog(branch, env);
+  const nextText = `${JSON.stringify(catalog, null, 2)}\n`;
+  const remoteText = `${JSON.stringify(remote, null, 2)}\n`;
+
+  if (nextText === remoteText) {
+    return null;
+  }
+
+  return putGithubContent(categoriesPath(env), nextText, message, branch, env);
+}
+
+function categoriesPath(env) {
+  const path = String(env.CMS_CATEGORIES_PATH || DEFAULT_CATEGORIES_PATH).trim();
+  ensureSafeRepoPath(path);
+  return path;
+}
+
+function normalizeCategoriesCatalog(raw) {
+  const source = raw && typeof raw === 'object' ? raw : {};
+  let items = [];
+
+  if (Array.isArray(source.items)) {
+    items = source.items.map(normalizeCategoryItem);
+  } else if (source.labels && typeof source.labels === 'object') {
+    items = Object.entries(source.labels).map(([slug, label], index) => normalizeCategoryItem({
+      slug,
+      label,
+      description: '',
+      nav: true,
+      order: (index + 1) * 10
+    }));
+  }
+
+  items.sort((left, right) => left.order - right.order || left.slug.localeCompare(right.slug));
+
+  const aliases = { ...(source.aliases && typeof source.aliases === 'object' ? source.aliases : {}) };
+  for (const item of items) {
+    aliases[item.slug] = item.slug;
+    aliases[item.label.toLowerCase()] = item.slug;
+    aliases[slugify(item.label)] = item.slug;
+  }
+
+  return {
+    items,
+    aliases
+  };
+}
+
+function normalizeCategoryItem(item) {
+  const slug = slugify(String(item && item.slug ? item.slug : ''));
+  const label = String(item && item.label ? item.label : slug).trim() || slug;
+
+  if (!slug || !CATEGORY_SLUG_RE.test(slug)) {
+    throw new HttpError(400, `Invalid category slug: ${slug || '(empty)'}`);
+  }
+
+  return {
+    slug,
+    label,
+    description: String(item && item.description ? item.description : '').trim(),
+    nav: item && item.nav === false ? false : true,
+    order: Number.isFinite(Number(item && item.order)) ? Number(item.order) : 100
+  };
+}
+
+function validateCategoriesCatalog(catalogInput) {
+  normalizeCategoriesCatalog(catalogInput);
 }
 
 async function uploadImageFile(file, image, index, imageSourceDir, branch, message, env) {
@@ -327,7 +463,7 @@ async function readTextFile(path, branch, env) {
     return '';
   }
 
-  return atob(result.content.replace(/\s/g, ''));
+  return base64ToUtf8(result.content);
 }
 
 async function githubJson(path, init, env) {
@@ -428,7 +564,8 @@ function normalizePayload(payload) {
     cover: String(payload.cover || '').trim(),
     body: String(payload.body || payload.content || '').trim(),
     markdown: String(payload.markdown || payload.generatedMarkdownFullContent || '').trim(),
-    images
+    images,
+    categoriesCatalog: payload.categoriesCatalog || null
   };
 }
 
@@ -494,6 +631,10 @@ function validatePublishPayload(payload) {
     if (image.path) {
       ensureSafePublicPath(image.path);
     }
+  }
+
+  if (payload.categoriesCatalog) {
+    validateCategoriesCatalog(payload.categoriesCatalog);
   }
 }
 
@@ -608,6 +749,12 @@ function utf8ToBase64(value) {
   return arrayBufferToBase64(new TextEncoder().encode(value).buffer);
 }
 
+function base64ToUtf8(base64) {
+  const binary = atob(String(base64 || '').replace(/\s/g, ''));
+  const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
 function guessImageContentType(extension) {
   if (extension === 'jpg' || extension === 'jpeg') {
     return 'image/jpeg';
@@ -657,7 +804,7 @@ function getCorsHeaders(env, origin) {
 
   return {
     'Access-Control-Allow-Origin': allowOrigin,
-    'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
+    'Access-Control-Allow-Methods': 'POST, GET, PUT, OPTIONS',
     'Access-Control-Allow-Headers': 'Authorization, Content-Type',
     'Access-Control-Max-Age': '86400',
     Vary: 'Origin'
