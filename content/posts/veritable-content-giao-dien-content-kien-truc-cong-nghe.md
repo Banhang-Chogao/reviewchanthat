@@ -18,7 +18,7 @@ tags:
 image: "images/posts/coffeebean-cover-hero.webp"
 thumbnail: "images/posts/coffeebean-cover-hero.webp"
 image_source: "Veritable Content"
-image_source_url: ""
+image_source_url: "https://banhang-chogao.github.io/reviewchanthat/"
 image_license: "Owned by Veritable Content"
 image_commercial_use: true
 image_owner: "self"
