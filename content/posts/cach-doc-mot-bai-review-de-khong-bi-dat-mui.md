@@ -36,6 +36,19 @@ thumbnail: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=
 tags:
 - kỹ năng đọc review
 - tiêu dùng thông minh
+external_links:
+  - title: "FTC - Endorsement Guides"
+    url: "https://www.ftc.gov/legal-library/browse/guides/endorsements"
+  - title: "Consumer Reports - How to Spot Fake Reviews"
+    url: "https://www.consumerreports.org/money/fake-reviews-how-to-spot-them/"
+attribution:
+  copyright: "© 2026 Veritable Content. Nội dung mang tính tham khảo, vui lòng kiểm chứng từ nhiều nguồn."
+  source_note: "Bài viết dựa trên kinh nghiệm cá nhân và tham khảo từ các tổ chức bảo vệ người tiêu dùng."
+faq:
+  - question: "Làm sao biết một review có phải quảng cáo trá hình không?"
+    answer: "Kiểm tra động cơ người viết: họ có link affiliate không? Họ có được tài trợ không? Nếu bài viết chỉ khen mà không chê, đó là dấu hiệu cần cảnh giác."
+  - question: "Nên đọc review ở đâu để tin tưởng nhất?"
+    answer: "Các trang review chuyên nghiệp có chính sách công bố xung đột lợi ích, hoặc review từ người dùng thật trên các diễn đàn như Reddit, Tinhte, hoặc các nhóm Facebook chất lượng."
 title: Cách đọc một bài review để không bị dắt mũi
 ---
 

@@ -33,6 +33,21 @@ tags:
 - bảo hành
 - trải nghiệm
 thumbnail: https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80
+external_links:
+  - title: "Consumer Reports - Product Buying Guide"
+    url: "https://www.consumerreports.org/products/"
+  - title: "Investopedia - Understanding Warranties"
+    url: "https://www.investopedia.com/articles/personal-finance/080716/truth-about-extended-warranties.asp"
+attribution:
+  copyright: "© 2026 Veritable Content. Vui lòng ghi nguồn khi trích dẫn."
+  source_note: "Bài viết tổng hợp từ trải nghiệm cá nhân và các nguyên tắc tài chính cá nhân phổ biến."
+faq:
+  - question: "Có nên mua bảo hành mở rộng không?"
+    answer: "Với sản phẩm dưới 3 triệu đồng, thường không cần bảo hành mở rộng. Với sản phẩm trên 10 triệu đồng (laptop, điện thoại flagship), bảo hành mở rộng có thể đáng giá."
+  - question: "Làm sao cân bằng giữa giá rẻ và chất lượng?"
+    answer: "Xác định ngân sách tối đa trước khi mua, sau đó tìm sản phẩm có đánh giá tốt nhất trong khoảng giá đó. Đừng chạy theo giá rẻ nhất hoặc đắt nhất."
+  - question: "Trải nghiệm sử dụng có quan trọng hơn thông số không?"
+    answer: "Đúng vậy. Một sản phẩm có thông số cao nhưng tối ưu kém vẫn có trải nghiệm tệ hơn sản phẩm thông số thấp hơn nhưng được tối ưu tốt."
 title: 'So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?'
 ---
 

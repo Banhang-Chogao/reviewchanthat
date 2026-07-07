@@ -29,6 +29,19 @@ tags:
 - content marketing
 - cảnh giác
 thumbnail: https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80
+external_links:
+  - title: "FTC - Disclosures for Influencers"
+    url: "https://www.ftc.gov/business-guidance/blog/2023/04/ftc-releases-new-advertising-rule-fake-reviews"
+  - title: "Nielsen - Trust in Advertising Study"
+    url: "https://www.nielsen.com/insights/trust-in-advertising/"
+attribution:
+  copyright: "© 2026 Veritable Content. Bài viết thuộc bản quyền tác giả."
+  source_note: "Nội dung dựa trên các nghiên cứu về hành vi người tiêu dùng và quy định quảng cáo của các cơ quan chức năng."
+faq:
+  - question: "Review dài bao nhiêu chữ là đáng tin?"
+    answer: "Không có con số cụ thể. Quan trọng là nội dung: review đáng tin thường có cả ưu và nhược điểm, có chi tiết cụ thể về trải nghiệm, và không quá tập trung vào link mua hàng."
+  - question: "Làm sao phân biệt content marketing và review thật?"
+    answer: "Content marketing thường: không có nhược điểm, ngôn ngữ trau chuốt quá mức, ảnh chụp chuyên nghiệp, link affiliate dày đặc. Review thật thường: có cả điểm tốt và xấu, ngôn ngữ tự nhiên, ảnh chụp nhanh."
 title: Vì sao review dài chưa chắc đã đáng tin?
 ---
 

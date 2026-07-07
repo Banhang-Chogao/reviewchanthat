@@ -30,6 +30,23 @@ tags:
 - checklist
 - tiêu dùng thông minh
 thumbnail: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80
+external_links:
+  - title: "Bộ Công Thương - Bảo vệ người tiêu dùng"
+    url: "https://www.moit.gov.vn/"
+  - title: "Shopee - Chính sách đổi trả"
+    url: "https://help.shopee.vn/portal/"
+  - title: "Tiki - Chính sách bảo hành"
+    url: "https://tiki.vn/bao-hanh/"
+attribution:
+  copyright: "© 2026 Veritable Content. Vui lòng ghi nguồn khi chia sẻ."
+  source_note: "Checklist được xây dựng từ kinh nghiệm mua sắm online nhiều năm và tham khảo các chính sách từ sàn thương mại điện tử Việt Nam."
+faq:
+  - question: "Mua online có an toàn không?"
+    answer: "Có, nếu bạn mua từ shop uy tín, kiểm tra kỹ chính sách đổi trả, và thanh toán qua các kênh bảo vệ người mua như Shopee Pay, ví điện tử."
+  - question: "Nên mua trên sàn nào tốt nhất?"
+    answer: "Tùy sản phẩm: Shopee đa dạng và giá cạnh tranh, Tiki uy tín về hàng chính hãng và giao nhanh, Lazada phù hợp mua hàng quốc tế. Nên so sánh giá cả 3 sàn trước khi mua."
+  - question: "Làm sao để không bị lừa khi mua online?"
+    answer: "Luôn kiểm tra shop (sao, số đơn, review có ảnh), đọc kỹ mô tả, chụp lại màn hình đơn hàng, và ưu tiên thanh toán khi nhận hàng (COD) cho lần mua đầu."
 title: Checklist trước khi mua một sản phẩm online
 ---
 
