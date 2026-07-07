@@ -197,6 +197,7 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .post-footer-block li a:hover{color:var(--accent-hover)}
 .post-footer-block p{font-size:.9rem;color:var(--text-secondary);line-height:1.7;margin-bottom:6px}
 .post-footer-block p:last-child{margin-bottom:0}
+.post-footer-empty{font-style:italic;color:var(--muted);font-size:.88rem;padding:4px 0}
 .post-faq-item{border:1px solid var(--border);border-radius:10px;padding:12px 16px;margin:10px 0;background:var(--surface);transition:border-color .15s}
 .post-faq-item[open]{border-color:var(--accent)}
 .post-faq-item summary{cursor:pointer;font-weight:600;font-size:.95rem;color:var(--text);user-select:none;-webkit-user-select:none}

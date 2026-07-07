@@ -13,4 +13,9 @@ image_license: "Pixabay Content License"
 image_commercial_use: true
 image_owner: "external"
 draft: true
+external_links: []
+attribution:
+  copyright: ""
+  source_note: ""
+faq: []
 ---

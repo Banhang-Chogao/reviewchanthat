@@ -1,30 +1,37 @@
-{{ with .Params.external_links }}
 <section class="post-footer-block post-footer-block--links">
   <h2>Liên kết bên ngoài được sử dụng trong bài viết</h2>
+  {{ with .Params.external_links }}
   <ol>
     {{ range . }}
     <li><a href="{{ .url }}" rel="nofollow noopener noreferrer" target="_blank">{{ .title }}</a></li>
     {{ end }}
   </ol>
+  {{ else }}
+  <p class="post-footer-empty">Hiện chưa có liên kết ngoài nào được sử dụng trong bài viết này.</p>
+  {{ end }}
 </section>
-{{ end }}
 
-{{ with .Params.attribution }}
 <section class="post-footer-block post-footer-block--attribution">
   <h2>Bản quyền &amp; Ghi nguồn</h2>
+  {{ with .Params.attribution }}
   {{ with .copyright }}<p>{{ . }}</p>{{ end }}
   {{ with .source_note }}<p>{{ . }}</p>{{ end }}
+  {{ else }}
+  <p>© {{ now.Format "2006" }} Veritable Content. Bảo lưu mọi quyền.</p>
+  <p>Nội dung được biên tập bởi đội ngũ Review Chân Thật. Vui lòng ghi nguồn khi trích dẫn hoặc chia sẻ.</p>
+  {{ end }}
 </section>
-{{ end }}
 
-{{ with .Params.faq }}
 <section class="post-footer-block post-footer-block--faq">
   <h2>FAQ - Câu hỏi thường gặp</h2>
+  {{ with .Params.faq }}
   {{ range . }}
   <details class="post-faq-item">
     <summary>{{ .question }}</summary>
     <p>{{ .answer }}</p>
   </details>
   {{ end }}
+  {{ else }}
+  <p class="post-footer-empty">Hiện chưa có câu hỏi thường gặp cho bài viết này.</p>
+  {{ end }}
 </section>
-{{ end }}
