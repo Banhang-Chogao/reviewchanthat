@@ -35,6 +35,11 @@ img{max-width:100%;height:auto;display:block}
 /* Post Listing */
 .post-listing{padding:16px 0 48px}
 
+/* Home Post Grid 2×2 */
+.home-post-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:16px 0 32px}
+.home-post-grid .post-card{margin-bottom:0}
+@media(max-width:768px){.home-post-grid{grid-template-columns:1fr;gap:16px}}
+
 /* Category List Header */
 .category-header{padding:40px 0 8px}
 .category-header .list-title{font-size:1.6rem;font-weight:800;letter-spacing:-.02em;margin-bottom:6px}

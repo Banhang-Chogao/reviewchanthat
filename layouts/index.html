@@ -9,12 +9,12 @@
       <span class="hero-chip">Ưu tiên trải nghiệm thật</span>
     </div>
   </section>
-  <section class="post-listing">
-    {{ $paginator := .Paginate (where site.RegularPages "Section" "posts") }}
+  <section class="home-post-grid">
+    {{ $paginator := .Paginate (where site.RegularPages "Section" "posts") 4 }}
     {{ range $paginator.Pages }}
       {{ .Render "post-card" }}
     {{ end }}
-    {{ partial "pagination.html" . }}
   </section>
+  {{ partial "pagination.html" . }}
 </div>
 {{ end }}
