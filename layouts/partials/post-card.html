@@ -5,14 +5,14 @@
         {{ with .Params.categories }}
         <div class="post-card-categories">
           {{ range . }}
-          <a href="{{ "/" | relLangURL }}{{ . | urlize }}/" class="category-badge">{{ . }}</a>
+          <a href="{{ print (. | urlize) "/" | relURL }}" class="category-badge">{{ . }}</a>
           {{ end }}
         </div>
         {{ end }}
         {{ with .Params.tags }}
         <div class="post-card-tags">
           {{ range . }}
-          <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag-badge">{{ . }}</a>
+          <a href="{{ print "tags/" (. | urlize) "/" | relURL }}" class="tag-badge">{{ . }}</a>
           {{ end }}
         </div>
         {{ end }}

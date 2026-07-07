@@ -3,7 +3,9 @@ languageCode = "vi-vn"
 title = "Review Chân Thật"
 paginate = 6
 enableRobotsTXT = true
-disableKinds = ["sitemap"]  # using Hugo's built-in
+canonifyURLs = false
+relativeURLs = false
+disableKinds = ["sitemap"]
 
 [params]
   description = "Review thật, trải nghiệm thật, quyết định thông minh hơn."
