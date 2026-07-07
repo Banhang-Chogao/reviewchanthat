@@ -1,5 +1,5 @@
 baseURL = "https://banhang-chogao.github.io/reviewchanthat/"
-languageCode = "vi-VN"
+languageCode = "vi-vn"
 title = "Review Chân Thật"
 paginate = 6
 enableRobotsTXT = true
@@ -18,6 +18,8 @@ disableKinds = ["sitemap"]  # using Hugo's built-in
 
 [permalinks]
   posts = "/:slug/"
+  categories = "/:slug/"
+  tags = "/tags/:slug/"
 
 [markup]
   [markup.goldmark]

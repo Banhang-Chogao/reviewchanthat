@@ -1,5 +1,5 @@
 ---
-title: "Về chúng tôi"
+title: "About this blog"
 date: 2026-06-15T08:00:00+07:00
 draft: false
 layout: about
