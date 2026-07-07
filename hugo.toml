@@ -14,6 +14,7 @@ disableKinds = []
 [params]
   description = "Review thật, trải nghiệm thật, quyết định thông minh hơn."
   footer_text = "© 2026 Review Chân Thật"
+  cms_publish_api = "https://veritable-content-cms-publish.tamsudev-com.workers.dev/api/cms/publish"
 
 
 [taxonomies]

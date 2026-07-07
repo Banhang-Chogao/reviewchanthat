@@ -794,7 +794,7 @@
         <div class="vc-publish-controls" aria-label="GitHub publish controls">
           <div class="vc-field">
             <label class="vc-label" for="publish-api-url">Backend API URL</label>
-            <input class="vc-input" id="publish-api-url" name="publish-api-url" type="url" autocomplete="off" placeholder="/api/cms/publish">
+            <input class="vc-input" id="publish-api-url" name="publish-api-url" type="url" autocomplete="off" placeholder="https://veritable-content-cms-publish.tamsudev-com.workers.dev/api/cms/publish">
           </div>
           <div class="vc-field">
             <label class="vc-label" for="admin-token">Admin token</label>
@@ -836,7 +836,7 @@
   const STORAGE_KEY = 'veritable-content-writer-draft-v1';
   const API_STORAGE_KEY = 'veritable-content-writer-api-url-v1';
   const SITE_BASE = '{{ "" | relURL }}';
-  const DEFAULT_PUBLISH_API = '/api/cms/publish';
+  const DEFAULT_PUBLISH_API = '{{ .Site.Params.cms_publish_api | default "https://veritable-content-cms-publish.tamsudev-com.workers.dev/api/cms/publish" }}';
   const fallbackTitle = 'Untitled draft';
   const defaultCategory = 'Công nghệ';
 

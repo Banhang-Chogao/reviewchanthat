@@ -28,20 +28,44 @@ export default {
 
     try {
       const url = new URL(request.url);
+      const pathname = url.pathname.replace(/\/+$/, '') || '/';
 
-      if (url.pathname === '/api/cms/publish' && request.method === 'POST') {
+      if (pathname === '/' && request.method === 'GET') {
+        return jsonResponse(
+          {
+            status: 'ok',
+            service: 'veritable-content-cms-publish',
+            endpoints: {
+              publish: 'POST /api/cms/publish',
+              deployStatus: 'GET /api/cms/deploy-status?run_id=<id>'
+            }
+          },
+          200,
+          corsHeaders
+        );
+      }
+
+      if (pathname === '/api/cms/publish' && request.method === 'POST') {
         await requireAdmin(request, env);
         const result = await publishArticle(request, env);
         return jsonResponse(result, 200, corsHeaders);
       }
 
-      if (url.pathname === '/api/cms/deploy-status' && request.method === 'GET') {
+      if (pathname === '/api/cms/deploy-status' && request.method === 'GET') {
         await requireAdmin(request, env);
         const result = await getDeployStatus(url, env);
         return jsonResponse(result, 200, corsHeaders);
       }
 
-      return jsonResponse({ status: 'error', message: 'Not found' }, 404, corsHeaders);
+      return jsonResponse(
+        {
+          status: 'error',
+          message: 'Not found',
+          hint: 'Use POST /api/cms/publish with Authorization: Bearer <admin-token>'
+        },
+        404,
+        corsHeaders
+      );
     } catch (error) {
       const status = error instanceof HttpError ? error.status : 500;
       const message = error instanceof Error ? error.message : 'Internal server error';
