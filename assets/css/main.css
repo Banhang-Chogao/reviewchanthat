@@ -148,6 +148,7 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .post-featured-image{margin:clamp(20px,3vw,28px) 0 clamp(24px,4vw,36px);border-radius:var(--radius-sm);overflow:hidden;box-shadow:var(--shadow)}
 .post-featured-image img{width:100%;height:auto;border-radius:var(--radius-sm)}
 .post-content{font-size:clamp(1rem,1.4vw,1.125rem);line-height:1.8;color:var(--text);width:100%;overflow-wrap:anywhere}
+@media(min-width:640px){.post-content,.contact-page-content{text-align:justify;text-justify:inter-word}}
 .post-content h2{font-size:clamp(1.25rem,2.5vw,1.5rem);font-weight:700;margin:clamp(24px,5vw,36px) 0 clamp(12px,2vw,16px);padding-bottom:10px;border-bottom:1px solid var(--border);letter-spacing:-.01em}
 .post-content h3{font-size:clamp(1.1rem,2vw,1.2rem);font-weight:700;margin:clamp(20px,4vw,28px) 0 clamp(10px,1.5vw,12px)}
 .post-content p{margin-bottom:22px}
@@ -265,6 +266,27 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .about-page h1{font-size:clamp(1.4rem,3vw,1.8rem);font-weight:800;margin-bottom:24px}
 .about-page p{font-size:1.02rem;line-height:1.75;color:var(--text-secondary);margin-bottom:20px}
 
+/* Contact Page */
+.contact-page{padding:clamp(24px,6vw,48px) 0 clamp(40px,8vw,60px);width:min(100% - (var(--page-padding) * 2),var(--content-max-width));margin-inline:auto}
+.contact-page-title{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;letter-spacing:-.02em;line-height:1.15;margin-bottom:clamp(12px,2vw,16px);color:var(--text);display:inline-block;padding:6px 20px;border-radius:12px;background:linear-gradient(135deg,rgba(255,77,77,.12),rgba(255,138,0,.12),rgba(255,193,7,.12),rgba(0,200,83,.12),rgba(33,150,243,.12),rgba(124,77,255,.12));border:1px solid rgba(0,0,0,.06)}
+.contact-page-content>*+*{margin-top:clamp(20px,3vw,28px)}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:clamp(12px,2vw,16px);margin:clamp(16px,3vw,24px) 0}
+.contact-card{display:flex;flex-direction:column;gap:4px;padding:clamp(16px,2.5vw,20px);border-radius:14px;border:1px solid;transition:transform .15s,border-color .15s;text-decoration:none;min-height:110px}
+.contact-card[data-color=blue]{background:rgba(33,150,243,.08);border-color:rgba(33,150,243,.25);color:#1565c0}
+.contact-card[data-color=purple]{background:rgba(124,77,255,.08);border-color:rgba(124,77,255,.25);color:#5e35b1}
+.contact-card[data-color=green]{background:rgba(0,200,83,.08);border-color:rgba(0,200,83,.25);color:#008a3a}
+.contact-card[data-color=orange]{background:rgba(255,138,0,.08);border-color:rgba(255,138,0,.25);color:#cc6e00}
+.contact-card[data-color=red]{background:rgba(255,77,77,.08);border-color:rgba(255,77,77,.25);color:#cc3333}
+.contact-card:hover{transform:translateY(-2px);border-color:currentColor}
+.contact-card-icon{font-size:1.6rem;line-height:1;margin-bottom:6px}
+.contact-card-label{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;opacity:.7}
+.contact-card-value{font-size:.95rem;font-weight:700;word-break:break-all}
+.contact-card-desc{font-size:.82rem;opacity:.75;line-height:1.5;color:var(--text-secondary)}
+.contact-section{padding:clamp(16px,2.5vw,20px);border-radius:14px;border:1px solid;margin-top:clamp(16px,3vw,24px)}
+.contact-section[data-color=red]{background:rgba(255,77,77,.06);border-color:rgba(255,77,77,.2);color:var(--text)}
+.contact-section h2{font-size:clamp(1.1rem,2vw,1.25rem);font-weight:700;margin-bottom:8px}
+.contact-section p{font-size:.95rem;line-height:1.7;color:var(--text-secondary)}
+
 /* Sitemap Wireframe */
 .sitemap-wireframe{margin-top:clamp(32px,6vw,48px);padding:clamp(20px,4vw,28px);background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden}
 .sitemap-wireframe-title{font-size:clamp(1.1rem,2vw,1.25rem);font-weight:700;margin-bottom:16px;color:var(--text);display:flex;align-items:center;gap:8px}
@@ -274,7 +296,7 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .sitemap-wireframe-tree code{font-family:inherit;background:none;padding:0;color:inherit}
 .sitemap-wireframe-date{font-size:.8rem;color:var(--muted);margin-top:12px;text-align:right;font-style:italic}
 
-/* Page (privacy, disclaimer, contact) */
+/* Page (privacy, disclaimer) */
 .page-single{padding:clamp(24px,6vw,48px) 0 clamp(40px,8vw,60px);width:min(100% - (var(--page-padding) * 2),var(--content-max-width));margin-inline:auto}
 .page-title{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;letter-spacing:-.02em;line-height:1.15;margin-bottom:clamp(20px,4vw,32px);color:var(--text)}
 
