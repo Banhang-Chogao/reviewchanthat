@@ -1,33 +1,31 @@
 <article class="post-card">
   <div class="post-card-body">
-    <div class="post-card-content">
-      <div class="post-card-meta">
-        {{ with .Params.categories }}
-        <div class="post-card-categories">
-          {{ range . }}
-          <a href="{{ print (. | urlize) "/" | relURL }}" class="category-badge">{{ . }}</a>
-          {{ end }}
-        </div>
+    <div class="post-card-meta">
+      {{ with .Params.categories }}
+      <div class="post-card-categories">
+        {{ range . }}
+        <a href="{{ print (. | urlize) "/" | relURL }}" class="category-badge">{{ . }}</a>
         {{ end }}
       </div>
-      <h2 class="post-card-title">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </h2>
-      <div class="post-card-meta-row">
-        <div class="post-card-author">
-          {{ partial "author.html" . }}
-          <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
-        </div>
-        <span class="post-read-time">{{ .ReadingTime }} phút đọc</span>
+      {{ end }}
+    </div>
+    <h2 class="post-card-title">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+    <div class="post-card-meta-row">
+      <div class="post-card-author">
+        {{ partial "author.html" . }}
+        <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
       </div>
-      <p class="post-card-excerpt">{{ .Description | plainify | truncate 200 }}</p>
+      <span class="post-read-time">{{ .ReadingTime }} phút đọc</span>
     </div>
     {{ with .Params.image }}
     <div class="post-card-thumb">
       <a href="{{ $.RelPermalink }}">
-        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" width="220" height="165">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
       </a>
     </div>
     {{ end }}
+    <p class="post-card-excerpt">{{ .Description | plainify | truncate 200 }}</p>
   </div>
 </article>
