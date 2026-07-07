@@ -1,8 +1,8 @@
 {
-  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "veritable-content-cms-publish",
   "main": "src/index.js",
-  "compatibility_date": "2026-07-08",
+  "compatibility_date": "2026-07-07",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
     "enabled": true

@@ -1,0 +1,16 @@
+{
+  "name": "cms-publish",
+  "version": "1.0.0",
+  "description": "Minimal Cloudflare Worker backend for the Veritable Content writer at `/admin/writer/`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "wrangler": "^4.108.0"
+  }
+}
