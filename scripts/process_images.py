@@ -51,7 +51,7 @@ def load_metadata(image_path: Path) -> dict:
     if meta_path.exists():
         with open(meta_path, "r", encoding="utf-8") as f:
             return json.load(f)
-    return {"source": "self", "source_url": "", "license": "Owned by Review Chân Thật", "commercial_use": True}
+    return {"source": "self", "source_url": "", "license": "Owned by Veritable Content", "commercial_use": True}
 
 
 def get_image_id(filename: str) -> str:
@@ -101,7 +101,7 @@ def apply_watermark(img: Image.Image, hash16: str) -> Image.Image:
 def process_image(src_path: Path, out_dir: Path) -> dict | None:
     image_id = get_image_id(src_path.name)
     metadata = load_metadata(src_path)
-    is_self = metadata.get("source", "self") == "self"
+    is_self = metadata.get("source", "self") in {"self", "self-owned"}
     hash16 = stable_hash16(src_path) if is_self else ""
     try:
         img = Image.open(src_path).convert("RGB")
@@ -118,7 +118,7 @@ def process_image(src_path: Path, out_dir: Path) -> dict | None:
         "src": f"images/posts/{image_id}-hero.webp",
         "source": metadata.get("source", "self"),
         "source_url": metadata.get("source_url", ""),
-        "license": metadata.get("license", "Owned by Review Chân Thật"),
+        "license": metadata.get("license", "Owned by Veritable Content"),
         "commercial_use": metadata.get("commercial_use", True),
         "watermarked": is_self,
         "hash16": hash16,

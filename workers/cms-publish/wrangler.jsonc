@@ -1,0 +1,21 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "veritable-content-cms-publish",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-08",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "GITHUB_OWNER": "Banhang-Chogao",
+    "GITHUB_REPO": "reviewchanthat",
+    "GITHUB_BRANCH": "main",
+    "GITHUB_DEPLOY_WORKFLOW": "deploy.yml",
+    "CMS_ALLOWED_ORIGIN": "https://banhang-chogao.github.io,http://localhost:1317,http://127.0.0.1:1317",
+    "CMS_CONTENT_DIR": "content/posts",
+    "CMS_IMAGE_SOURCE_DIR": "static/images/posts-src",
+    "CMS_PUBLIC_SITE_BASE": "https://banhang-chogao.github.io/reviewchanthat/",
+    "CMS_MAX_IMAGE_BYTES": "5242880"
+  }
+}

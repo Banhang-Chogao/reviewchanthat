@@ -9,10 +9,10 @@ Cảm ơn bạn đã quan tâm đến **Veritable Content**!
 
 <div class="contact-grid">
 
-<a href="mailto:Banhang-Chogao@users.noreply.github.com" class="contact-card" data-color="blue">
+<a href="mailto:content@seomoney.org" class="contact-card" data-color="blue">
   <span class="contact-card-icon">📧</span>
   <span class="contact-card-label">Email</span>
-  <span class="contact-card-value">Banhang-Chogao@users.noreply.github.com</span>
+  <span class="contact-card-value">content@seomoney.org</span>
 </a>
 
 <a href="https://github.com/Banhang-Chogao" class="contact-card" data-color="purple">

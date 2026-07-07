@@ -31,6 +31,6 @@ Chúng tôi không bán thông tin cá nhân của bạn. Dữ liệu chỉ đư
 
 ## Liên hệ
 
-Nếu bạn có thắc mắc về chính sách bảo mật, vui lòng liên hệ qua [email GitHub](mailto:Banhang-Chogao@users.noreply.github.com).
+Nếu bạn có thắc mắc về chính sách bảo mật, vui lòng liên hệ qua [email chính thức](mailto:content@seomoney.org).
 
 *Cập nhật lần cuối: 07/07/2026*

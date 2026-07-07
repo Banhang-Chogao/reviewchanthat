@@ -11,4 +11,4 @@ Chúng tôi tin rằng một quyết định mua sắm thông minh bắt đầu 
 
 ### Liên hệ
 
-- **Email:** [Banhang-Chogao@users.noreply.github.com](mailto:Banhang-Chogao@users.noreply.github.com)
+- **Email:** [content@seomoney.org](mailto:content@seomoney.org)

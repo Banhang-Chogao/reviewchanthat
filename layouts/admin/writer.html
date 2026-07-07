@@ -333,6 +333,12 @@
     gap: 8px;
   }
 
+  .vc-file-note {
+    color: var(--vc-muted);
+    font-size: 0.78rem;
+    overflow-wrap: anywhere;
+  }
+
   .vc-code-chip {
     display: block;
     max-width: 100%;
@@ -361,6 +367,94 @@
 
   .vc-status[data-state="ok"] {
     color: var(--vc-success);
+  }
+
+  .vc-publish-controls {
+    display: grid;
+    gap: 10px;
+    padding: 12px;
+    border: 1px solid var(--vc-border);
+    border-radius: 8px;
+    background: #fff;
+  }
+
+  .vc-publish-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .vc-progress {
+    display: grid;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: var(--vc-muted);
+    font-size: 0.82rem;
+  }
+
+  .vc-progress li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .vc-progress li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: var(--vc-border);
+    flex: 0 0 auto;
+  }
+
+  .vc-progress li[data-state="active"] {
+    color: var(--vc-accent-2);
+    font-weight: 750;
+  }
+
+  .vc-progress li[data-state="done"] {
+    color: var(--vc-success);
+  }
+
+  .vc-progress li[data-state="error"] {
+    color: var(--vc-danger);
+  }
+
+  .vc-progress li[data-state="active"]::before {
+    background: var(--vc-accent-2);
+  }
+
+  .vc-progress li[data-state="done"]::before {
+    background: var(--vc-success);
+  }
+
+  .vc-progress li[data-state="error"]::before {
+    background: var(--vc-danger);
+  }
+
+  .vc-result {
+    display: grid;
+    gap: 6px;
+    min-height: 22px;
+    color: var(--vc-muted);
+    font-size: 0.84rem;
+    overflow-wrap: anywhere;
+  }
+
+  .vc-result[data-state="error"] {
+    color: var(--vc-danger);
+  }
+
+  .vc-result[data-state="ok"] {
+    color: var(--vc-success);
+  }
+
+  .vc-result a {
+    color: var(--vc-accent-2);
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 
   .vc-preview {
@@ -697,6 +791,28 @@
         </div>
       </div>
       <div class="vc-pane__body">
+        <div class="vc-publish-controls" aria-label="GitHub publish controls">
+          <div class="vc-field">
+            <label class="vc-label" for="publish-api-url">Backend API URL</label>
+            <input class="vc-input" id="publish-api-url" name="publish-api-url" type="url" autocomplete="off" placeholder="/api/cms/publish">
+          </div>
+          <div class="vc-field">
+            <label class="vc-label" for="admin-token">Admin token</label>
+            <input class="vc-input" id="admin-token" name="admin-token" type="password" autocomplete="off">
+          </div>
+          <div class="vc-publish-actions">
+            <button class="vc-button" type="button" id="save-github-draft">Save Draft to GitHub</button>
+            <button class="vc-button vc-button--primary" type="button" id="publish-github">Publish</button>
+          </div>
+          <ol class="vc-progress" id="publish-progress" aria-live="polite">
+            <li data-step="validate">Validating</li>
+            <li data-step="upload">Uploading images</li>
+            <li data-step="commit">Committing Markdown</li>
+            <li data-step="deploy">Triggering deploy</li>
+            <li data-step="done">Done</li>
+          </ol>
+          <div class="vc-result" id="publish-result" role="status"></div>
+        </div>
         <textarea class="vc-textarea vc-output" id="markdown-output" readonly></textarea>
         <div class="vc-status" id="validation-status" role="status"></div>
       </div>
@@ -718,7 +834,9 @@
 <script>
 (() => {
   const STORAGE_KEY = 'veritable-content-writer-draft-v1';
+  const API_STORAGE_KEY = 'veritable-content-writer-api-url-v1';
   const SITE_BASE = '{{ "" | relURL }}';
+  const DEFAULT_PUBLISH_API = '/api/cms/publish';
   const fallbackTitle = 'Untitled draft';
   const defaultCategory = 'Công nghệ';
 
@@ -744,10 +862,17 @@
     generate: document.getElementById('generate-markdown'),
     copy: document.getElementById('copy-markdown'),
     download: document.getElementById('download-markdown'),
+    publishApiUrl: document.getElementById('publish-api-url'),
+    adminToken: document.getElementById('admin-token'),
+    saveGithubDraft: document.getElementById('save-github-draft'),
+    publishGithub: document.getElementById('publish-github'),
+    publishProgress: document.getElementById('publish-progress'),
+    publishResult: document.getElementById('publish-result'),
     preview: document.getElementById('preview')
   };
 
   let images = [];
+  const imageFiles = new Map();
   let slugEdited = false;
   let saveTimer = 0;
 
@@ -768,6 +893,22 @@
       return raw ? JSON.parse(raw) : null;
     } catch (error) {
       return null;
+    }
+  }
+
+  function loadApiUrl() {
+    try {
+      return window.localStorage.getItem(API_STORAGE_KEY) || window.VC_CMS_API_BASE || DEFAULT_PUBLISH_API;
+    } catch (error) {
+      return window.VC_CMS_API_BASE || DEFAULT_PUBLISH_API;
+    }
+  }
+
+  function saveApiUrl() {
+    try {
+      window.localStorage.setItem(API_STORAGE_KEY, fields.publishApiUrl.value.trim() || DEFAULT_PUBLISH_API);
+    } catch (error) {
+      // API URL is non-secret convenience state; publishing still works without storage.
     }
   }
 
@@ -817,6 +958,26 @@
       .replace(/-{2,}/g, '-');
   }
 
+  function safeImageFileName(filename) {
+    const clean = String(filename || '').replace(/\\/g, '/').split('/').pop() || '';
+    const dot = clean.lastIndexOf('.');
+    const extension = dot >= 0 ? clean.slice(dot + 1).toLowerCase() : '';
+    const stem = dot >= 0 ? clean.slice(0, dot) : clean;
+    const safeStem = slugify(stem);
+    if (!safeStem || !/^(jpe?g|png|webp)$/.test(extension)) {
+      return '';
+    }
+    return `${safeStem}.${extension === 'jpeg' ? 'jpg' : extension}`;
+  }
+
+  function processedImagePathForFile(filename) {
+    const safeName = safeImageFileName(filename);
+    if (!safeName) {
+      return '';
+    }
+    return `images/posts/${safeName.replace(/\.[^.]+$/, '')}-hero.webp`;
+  }
+
   function readState() {
     return {
       title: fields.title.value,
@@ -844,13 +1005,30 @@
     fields.draft.checked = state.draft !== false;
     fields.cover.value = state.cover || '';
     fields.content.value = state.content || '';
-    images = Array.isArray(state.images) && state.images.length ? state.images : [emptyImage()];
+    images = Array.isArray(state.images) && state.images.length ? state.images.map(normaliseImageState) : [emptyImage()];
     slugEdited = Boolean(state.slug);
     renderImageRows();
   }
 
   function emptyImage() {
-    return { path: '', alt: '', caption: '' };
+    return { id: imageId(), path: '', alt: '', caption: '', fileName: '' };
+  }
+
+  function normaliseImageState(image) {
+    return {
+      id: image.id || imageId(),
+      path: image.path || '',
+      alt: image.alt || '',
+      caption: image.caption || '',
+      fileName: image.fileName || ''
+    };
+  }
+
+  function imageId() {
+    if (crypto.randomUUID) {
+      return crypto.randomUUID();
+    }
+    return `image-${Date.now()}-${Math.floor(performance.now() * 1000)}`;
   }
 
   function normalisePathForPreview(path) {
@@ -903,7 +1081,8 @@
       const pathField = createImageInput(index, 'path', 'Image path', image.path, false);
       const altField = createImageInput(index, 'alt', 'Alt text', image.alt, Boolean(image.path.trim()));
       const captionField = createImageInput(index, 'caption', 'Caption', image.caption, false);
-      grid.append(pathField, altField, captionField);
+      const fileField = createImageFileInput(index, image);
+      grid.append(fileField, pathField, altField, captionField);
 
       const code = document.createElement('code');
       code.className = 'vc-code-chip';
@@ -939,6 +1118,25 @@
     return field;
   }
 
+  function createImageFileInput(index, image) {
+    const field = document.createElement('label');
+    field.className = 'vc-field';
+    const label = document.createElement('span');
+    label.className = 'vc-label';
+    label.textContent = 'Local image file';
+    const input = document.createElement('input');
+    input.className = 'vc-input';
+    input.type = 'file';
+    input.accept = 'image/jpeg,image/png,image/webp';
+    input.dataset.action = 'select-file';
+    input.dataset.index = String(index);
+    const note = document.createElement('span');
+    note.className = 'vc-file-note';
+    note.textContent = image.fileName ? `Selected: ${image.fileName}` : 'Optional. Uploaded files are committed as self-owned source images.';
+    field.append(label, input, note);
+    return field;
+  }
+
   function imageButton(label, action, index, disabled) {
     const button = document.createElement('button');
     button.className = action === 'remove-image' ? 'vc-button vc-button--danger' : 'vc-button';
@@ -961,6 +1159,9 @@
     images.forEach((image, index) => {
       if (image.path.trim() && !image.alt.trim()) {
         errors.push(`Image ${index + 1} needs alt text`);
+      }
+      if (imageFiles.has(image.id) && !image.alt.trim()) {
+        errors.push(`Uploaded image ${index + 1} needs alt text`);
       }
     });
     return errors;
@@ -1213,8 +1414,150 @@
     `;
   }
 
+  function resetPublishProgress() {
+    fields.publishProgress.querySelectorAll('li').forEach((item) => {
+      item.dataset.state = '';
+    });
+  }
+
+  function setPublishStep(step, state) {
+    const item = fields.publishProgress.querySelector(`[data-step="${step}"]`);
+    if (item) {
+      item.dataset.state = state;
+    }
+  }
+
+  function setPublishBusy(isBusy) {
+    fields.saveGithubDraft.disabled = isBusy;
+    fields.publishGithub.disabled = isBusy;
+  }
+
+  function publishApiUrl() {
+    const value = fields.publishApiUrl.value.trim() || DEFAULT_PUBLISH_API;
+    return new URL(value, window.location.origin).toString();
+  }
+
+  function buildPublishRequest(draftValue) {
+    fields.draft.checked = draftValue;
+    const state = readState();
+    const markdown = buildMarkdown(state);
+    const errors = validateState(state);
+    fields.output.value = markdown;
+    fields.status.dataset.state = errors.length ? 'error' : 'ok';
+    fields.status.textContent = errors.length ? errors.join(' · ') : 'Markdown ready';
+    renderPreview(state);
+    saveDraft();
+
+    const payloadImages = images.map((image, index) => {
+      const file = imageFiles.get(image.id);
+      return {
+        path: image.path.trim(),
+        alt: image.alt.trim(),
+        caption: image.caption.trim(),
+        fileField: file ? `image_${index}` : ''
+      };
+    });
+
+    const payload = {
+      title: state.title,
+      slug: slugify(state.slug || state.title),
+      description: state.description,
+      category: state.category,
+      tags: splitList(state.tags),
+      date: state.date,
+      lastmod: state.lastmod,
+      draft: state.draft,
+      cover: state.cover,
+      body: state.content,
+      markdown,
+      generatedMarkdownFullContent: markdown,
+      images: payloadImages
+    };
+
+    const formData = new FormData();
+    formData.append('payload', JSON.stringify(payload));
+    images.forEach((image, index) => {
+      const file = imageFiles.get(image.id);
+      if (file) {
+        formData.append(`image_${index}`, file, file.name);
+      }
+    });
+
+    return { formData, payload, errors };
+  }
+
+  function renderPublishResult(data) {
+    const commit = data.commit_sha ? `<div>Commit: <code>${escapeHtml(data.commit_sha)}</code></div>` : '';
+    const article = data.article_url
+      ? `<div>Article: <a href="${escapeAttr(data.article_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(data.article_url)}</a></div>`
+      : '';
+    const deploy = data.deploy && data.deploy.status
+      ? `<div>Deploy: ${escapeHtml(data.deploy.status)}${data.deploy.error ? ` · ${escapeHtml(data.deploy.error)}` : ''}</div>`
+      : '';
+    fields.publishResult.dataset.state = data.status === 'published_with_deploy_error' ? 'error' : 'ok';
+    fields.publishResult.innerHTML = `${commit}${article}${deploy}`;
+  }
+
+  async function publishToGithub(draftValue) {
+    resetPublishProgress();
+    fields.publishResult.dataset.state = '';
+    fields.publishResult.textContent = '';
+    fields.draftState.textContent = draftValue ? 'Saving draft to GitHub' : 'Publishing to GitHub';
+
+    try {
+      setPublishBusy(true);
+      setPublishStep('validate', 'active');
+
+      const token = fields.adminToken.value.trim();
+      if (!token) {
+        throw new Error('Admin token is required');
+      }
+
+      const request = buildPublishRequest(draftValue);
+      if (request.errors.length) {
+        fields.form.reportValidity();
+        throw new Error(request.errors.join(' · '));
+      }
+
+      saveApiUrl();
+      setPublishStep('validate', 'done');
+      setPublishStep('upload', 'active');
+
+      const response = await fetch(publishApiUrl(), {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${token}`
+        },
+        body: request.formData
+      });
+
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        throw new Error(data.message || `Publish failed with HTTP ${response.status}`);
+      }
+
+      setPublishStep('upload', 'done');
+      setPublishStep('commit', 'done');
+      setPublishStep('deploy', data.deploy && data.deploy.status === 'failed' ? 'error' : 'done');
+      setPublishStep('done', data.deploy && data.deploy.status === 'failed' ? 'error' : 'done');
+      renderPublishResult(data);
+      fields.draftState.textContent = draftValue ? 'Draft saved to GitHub' : 'Published to GitHub';
+    } catch (error) {
+      const active = fields.publishProgress.querySelector('[data-state="active"]');
+      if (active) {
+        active.dataset.state = 'error';
+      }
+      fields.publishResult.dataset.state = 'error';
+      fields.publishResult.textContent = error instanceof Error ? error.message : 'Publish failed';
+      fields.draftState.textContent = 'Publish failed';
+    } finally {
+      setPublishBusy(false);
+    }
+  }
+
   function initialise() {
     const saved = loadDraft();
+    fields.publishApiUrl.value = loadApiUrl();
     applyState(saved || {
       title: '',
       slug: '',
@@ -1282,6 +1625,8 @@
     updateOutput();
   });
 
+  fields.publishApiUrl.addEventListener('change', saveApiUrl);
+
   fields.imageList.addEventListener('input', (event) => {
     const target = event.target;
     if (!target.matches('[data-image-field]')) {
@@ -1299,6 +1644,38 @@
     updateOutput();
   });
 
+  fields.imageList.addEventListener('change', (event) => {
+    const target = event.target;
+    if (!target.matches('[data-action="select-file"]')) {
+      return;
+    }
+    const index = Number(target.dataset.index);
+    const file = target.files && target.files[0] ? target.files[0] : null;
+    const image = images[index];
+    if (!image || !file) {
+      return;
+    }
+
+    const markdownPath = processedImagePathForFile(file.name);
+    if (!markdownPath) {
+      fields.status.dataset.state = 'error';
+      fields.status.textContent = `Image validation fail: ${file.name}`;
+      target.value = '';
+      return;
+    }
+
+    imageFiles.set(image.id, file);
+    image.fileName = file.name;
+    if (!image.path.trim()) {
+      image.path = markdownPath;
+    }
+    if (!fields.cover.value.trim()) {
+      fields.cover.value = image.path;
+    }
+    renderImageRows();
+    updateOutput();
+  });
+
   fields.imageList.addEventListener('click', async (event) => {
     const button = event.target.closest('button[data-action]');
     if (!button) {
@@ -1309,6 +1686,7 @@
     const syntax = imageSyntax(image);
 
     if (button.dataset.action === 'remove-image') {
+      imageFiles.delete(image.id);
       images.splice(index, 1);
       if (!images.length) {
         images.push(emptyImage());
@@ -1331,6 +1709,14 @@
       await copyText(syntax);
       fields.draftState.textContent = 'Image syntax copied';
     }
+  });
+
+  fields.saveGithubDraft.addEventListener('click', () => {
+    publishToGithub(true);
+  });
+
+  fields.publishGithub.addEventListener('click', () => {
+    publishToGithub(false);
   });
 
   fields.copy.addEventListener('click', async () => {
@@ -1358,6 +1744,7 @@
     } catch (error) {
       // Ignore storage failures; the form reset still restores a clean draft.
     }
+    imageFiles.clear();
     applyState({
       title: '',
       slug: '',
