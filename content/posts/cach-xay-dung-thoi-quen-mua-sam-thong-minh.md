@@ -1,13 +1,31 @@
 ---
-title: "Cách xây dựng thói quen mua sắm thông minh"
-date: 2026-06-28T10:00:00+07:00
-description: "Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu quả hơn."
-categories: ["doi-song", "tai-chinh"]
-tags: ["mua sắm thông minh", "thói quen", "quản lý chi tiêu"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80"
+ai_summary:
+  collapsed: false
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
+  enabled: true
+  items:
+  - Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức
+    giá hợp lý.
+  - Luôn đi mua sắm với một danh sách cụ thể.
+  - Dành ra một khoản cố định cho mua sắm cá nhân mỗi tháng.
+  - '"Không" là câu nói quyền năng nhất trong mua sắm thông minh.'
+  title: Tóm tắt bài viết
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- doi-song
+- tai-chinh
+date: 2026-06-28 10:00:00+07:00
+description: Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu
+  quả hơn.
 draft: false
+image: https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80
+tags:
+- mua sắm thông minh
+- thói quen
+- quản lý chi tiêu
+title: Cách xây dựng thói quen mua sắm thông minh
 ---
 
 Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Dưới đây là những thói quen giúp bạn làm được điều đó.

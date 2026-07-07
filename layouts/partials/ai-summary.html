@@ -1,0 +1,18 @@
+{{ with .Params.ai_summary }}
+{{ if and .enabled .items }}
+<details class="ai-summary"{{ if not .collapsed }} open{{ end }}>
+  <summary class="ai-summary__header">
+    <span class="ai-summary__title">{{ .title | default "Tóm tắt bài viết" }}</span>
+    <span class="ai-summary__toggle">Thu gọn</span>
+  </summary>
+  <ul class="ai-summary__list">
+    {{ range .items }}
+    <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+  {{ with .disclaimer }}
+  <p class="ai-summary__disclaimer">{{ . }}</p>
+  {{ end }}
+</details>
+{{ end }}
+{{ end }}

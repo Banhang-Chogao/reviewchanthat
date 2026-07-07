@@ -1,19 +1,36 @@
 ---
-title: "Cách đọc một bài review để không bị dắt mũi"
-date: 2026-06-15T10:00:00+07:00
-description: "Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật, đâu là quảng cáo trá hình."
-categories: ["review"]
-tags: ["kỹ năng đọc review", "tiêu dùng thông minh"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80"
-draft: false
+ai_summary:
+  collapsed: false
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
+  enabled: true
+  items:
+  - Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook,
+    rồi vào Shopee đặt mua.
+  - Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
+  - 'Trước khi tin vào bất kỳ bài review nào, hãy tự hỏi: Người này được gì khi khen/spam
+    sản phẩm này?.'
+  - Hãy đọc ít nhất 3-5 bài từ các nguồn khác nhau.
+  title: Tóm tắt bài viết
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- review
 checklist:
-  - "Xác định động cơ người viết review"
-  - "Đọc ít nhất 3-5 nguồn khác nhau"
-  - "Tìm chi tiết cụ thể, không tin lời mơ hồ"
-  - "Kiểm tra lịch sử tài khoản người viết"
-  - "Đọc phần bình luận trước khi quyết định"
+- Xác định động cơ người viết review
+- Đọc ít nhất 3-5 nguồn khác nhau
+- Tìm chi tiết cụ thể, không tin lời mơ hồ
+- Kiểm tra lịch sử tài khoản người viết
+- Đọc phần bình luận trước khi quyết định
+date: 2026-06-15 10:00:00+07:00
+description: Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật,
+  đâu là quảng cáo trá hình.
+draft: false
+image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80
+tags:
+- kỹ năng đọc review
+- tiêu dùng thông minh
+title: Cách đọc một bài review để không bị dắt mũi
 ---
 
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".

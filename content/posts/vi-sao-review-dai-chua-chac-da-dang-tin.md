@@ -1,13 +1,29 @@
 ---
-title: "Vì sao review dài chưa chắc đã đáng tin?"
-date: 2026-06-22T10:00:00+07:00
-description: "Review dài hàng nghìn chữ có thể là dấu hiệu của content marketing, không phải trải nghiệm thật."
-categories: ["review"]
-tags: ["review dài", "content marketing", "cảnh giác"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80"
+ai_summary:
+  collapsed: false
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
+  enabled: true
+  items:
+  - Nhiều người cho rằng review càng dài càng đáng tin.
+  - Dưới đây là những dấu hiệu cho thấy một bài review dài nhưng thiếu trung thực.
+  - Bài review dài 2000 chữ với đầy đủ thông số kỹ thuật, benchmark, so sánh con số.
+  - Nếu bài review không đề cập một điểm yếu nào, đó là dấu hiệu đỏ.
+  title: Tóm tắt bài viết
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- review
+date: 2026-06-22 10:00:00+07:00
+description: Review dài hàng nghìn chữ có thể là dấu hiệu của content marketing, không
+  phải trải nghiệm thật.
 draft: false
+image: https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80
+tags:
+- review dài
+- content marketing
+- cảnh giác
+title: Vì sao review dài chưa chắc đã đáng tin?
 ---
 
 Nhiều người cho rằng review càng dài càng đáng tin. Nhưng thực tế không phải vậy. Dưới đây là những dấu hiệu cho thấy một bài review dài nhưng thiếu trung thực.

@@ -1,13 +1,32 @@
 ---
-title: "Review công nghệ: nên tin benchmark hay trải nghiệm thật?"
-date: 2026-06-18T10:00:00+07:00
-description: "Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ."
-categories: ["review", "cong-nghe"]
-tags: ["benchmark", "trải nghiệm thật", "review công nghệ"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
+ai_summary:
+  collapsed: false
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
+  enabled: true
+  items:
+  - Bạn thấy một chiếc laptop đạt điểm benchmark cao ngất ngưởng.
+  - Nhưng dùng một thời gian thì thấy nóng máy, pin yếu, phần mềm lag.
+  - 'Benchmark đo hiệu năng trong điều kiện lý tưởng: máy nguội, không cài phần mềm
+    nặng nề, test trong phòng máy lạnh.'
+  - 'Trải nghiệm thật phụ thuộc vào: Phần mềm và tối ưu: iOS hay Android, MIUI hay
+    OneUI đều ảnh hưởng khác nhau.'
+  title: Tóm tắt bài viết
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- review
+- cong-nghe
+date: 2026-06-18 10:00:00+07:00
+description: Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải
+  thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ.
 draft: false
+image: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80
+tags:
+- benchmark
+- trải nghiệm thật
+- review công nghệ
+title: 'Review công nghệ: nên tin benchmark hay trải nghiệm thật?'
 ---
 
 Bạn thấy một chiếc laptop đạt điểm benchmark cao ngất ngưởng. Giá rẻ, cấu hình khủng. Bạn mua ngay. Nhưng dùng một thời gian thì thấy nóng máy, pin yếu, phần mềm lag. Chuyện gì đã xảy ra?
