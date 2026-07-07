@@ -1,13 +1,30 @@
 ---
-title: "Checklist trước khi mua một sản phẩm online"
-date: 2026-06-20T14:00:00+07:00
-description: "6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tránh hối hận sau khi nhận hàng."
-categories: ["review", "doi-song"]
-tags: ["mua sắm online", "checklist", "tiêu dùng thông minh"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80"
+ai_summary:
+  collapsed: false
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
+  enabled: true
+  items:
+  - Mua sắm online tiện lợi, nhưng cũng đầy rủi ro.
+  - Dưới đây là checklist bạn nên in ra và kiểm tra trước mỗi lần mua hàng.
+  - Cơn sốt mua sắm thường qua đi sau một giấc ngủ.
+  - Đọc review từ người mua trước, ưu tiên review có ảnh thật.
+  title: Tóm tắt bài viết
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- review
+- doi-song
+date: 2026-06-20 14:00:00+07:00
+description: 6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tránh hối hận sau khi
+  nhận hàng.
 draft: false
+image: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80
+tags:
+- mua sắm online
+- checklist
+- tiêu dùng thông minh
+title: Checklist trước khi mua một sản phẩm online
 ---
 
 Mua sắm online tiện lợi, nhưng cũng đầy rủi ro. Dưới đây là checklist bạn nên in ra và kiểm tra trước mỗi lần mua hàng.

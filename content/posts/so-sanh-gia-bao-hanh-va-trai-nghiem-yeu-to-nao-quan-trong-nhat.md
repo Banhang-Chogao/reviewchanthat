@@ -1,13 +1,33 @@
 ---
-title: "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-date: 2026-06-25T10:00:00+07:00
-description: "Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo hành tốt và trải nghiệm sử dụng. Bài viết này giúp bạn xác định ưu tiên."
-categories: ["review", "tai-chinh"]
-tags: ["so sánh", "giá cả", "bảo hành", "trải nghiệm"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80"
+ai_summary:
+  collapsed: false
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
+  enabled: true
+  items:
+  - 'Bạn đứng trước hai lựa chọn: Sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng.'
+  - Sản phẩm B đắt hơn nhưng bảo hành 2 năm và có nhiều đánh giá trải nghiệm tốt.
+  - 'Giá rẻ luôn hấp dẫn, nhưng thường đi kèm với: Chất lượng thấp hơn Bảo hành ngắn
+    hơn Dễ hỏng hóc Quy tắc "tiền nào của nấy" vẫn đúng trong đa số trường hợp.'
+  - Một sản phẩm có bảo hành 2 năm tại trung tâm uy tín đáng giá hơn sản phẩm rẻ hơn
+    nhưng không có bảo hành.
+  title: Tóm tắt bài viết
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- review
+- tai-chinh
+date: 2026-06-25 10:00:00+07:00
+description: Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo hành tốt và trải nghiệm
+  sử dụng. Bài viết này giúp bạn xác định ưu tiên.
 draft: false
+image: https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80
+tags:
+- so sánh
+- giá cả
+- bảo hành
+- trải nghiệm
+title: 'So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?'
 ---
 
 Bạn đứng trước hai lựa chọn: Sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng. Sản phẩm B đắt hơn nhưng bảo hành 2 năm và có nhiều đánh giá trải nghiệm tốt. Bạn chọn cái nào?

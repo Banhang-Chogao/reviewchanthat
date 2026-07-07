@@ -24,6 +24,7 @@
     <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" width="800" height="450">
   </div>
   {{ end }}
+  {{ partial "ai-summary.html" . }}
   <div class="post-content">
     {{ .Content }}
   </div>
