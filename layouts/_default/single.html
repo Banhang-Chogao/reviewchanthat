@@ -26,7 +26,7 @@
   </header>
   {{ with .Params.image }}
   <div class="post-featured-image">
-    <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" width="800" height="450">
+    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" width="800" height="450">
   </div>
   {{ end }}
   <div class="post-content">

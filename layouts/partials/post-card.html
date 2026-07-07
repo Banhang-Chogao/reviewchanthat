@@ -28,7 +28,7 @@
     {{ with .Params.image }}
     <div class="post-card-thumb">
       <a href="{{ $.RelPermalink }}">
-        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" width="220" height="165">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" width="220" height="165">
       </a>
     </div>
     {{ end }}

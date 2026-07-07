@@ -38,7 +38,10 @@ jobs:
           python-version: "3.12"
 
       - name: Install Python dependencies
-        run: pip install pyyaml
+        run: pip install -r requirements.txt
+
+      - name: Process images
+        run: python scripts/process_images.py
 
       - name: QA blog
         run: python scripts/qa_blog.py
