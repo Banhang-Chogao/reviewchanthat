@@ -1,0 +1,1381 @@
+{{ define "head" }}
+<style>
+  :root {
+    --vc-bg: #f6f4ef;
+    --vc-surface: #fffdf8;
+    --vc-surface-2: #ffffff;
+    --vc-text: #171717;
+    --vc-muted: #68625a;
+    --vc-border: #ded8cc;
+    --vc-accent: #e66a00;
+    --vc-accent-2: #2563eb;
+    --vc-danger: #b42318;
+    --vc-success: #067647;
+    --vc-shadow: 0 16px 36px rgba(28, 23, 18, 0.08);
+    --vc-mono: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    --vc-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    min-width: 320px;
+    background: var(--vc-bg);
+    color: var(--vc-text);
+    font-family: var(--vc-sans);
+    line-height: 1.5;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(246, 244, 239, 0) 280px),
+      var(--vc-bg);
+  }
+
+  button,
+  input,
+  textarea {
+    font: inherit;
+  }
+
+  button {
+    min-height: 38px;
+    border: 1px solid var(--vc-border);
+    border-radius: 8px;
+    background: var(--vc-surface-2);
+    color: var(--vc-text);
+    cursor: pointer;
+  }
+
+  button:hover {
+    border-color: #bcb3a4;
+  }
+
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 3px solid rgba(37, 99, 235, 0.22);
+    outline-offset: 2px;
+  }
+
+  button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.55;
+  }
+
+  .vc-admin {
+    width: min(100% - 32px, 1480px);
+    margin-inline: auto;
+    padding: 18px 0 28px;
+  }
+
+  .vc-admin__topbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 58px;
+    margin-bottom: 16px;
+  }
+
+  .vc-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--vc-text);
+    text-decoration: none;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .vc-brand__mark {
+    display: inline-grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background: var(--vc-accent);
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 0;
+  }
+
+  .vc-brand__name {
+    overflow-wrap: anywhere;
+  }
+
+  .vc-admin__title {
+    min-width: 0;
+    color: var(--vc-muted);
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
+
+  .vc-admin__spacer {
+    flex: 1 1 auto;
+  }
+
+  .vc-admin__status {
+    color: var(--vc-muted);
+    font-size: 0.86rem;
+    text-align: right;
+  }
+
+  .vc-admin__grid {
+    display: grid;
+    grid-template-columns: minmax(270px, 0.86fr) minmax(360px, 1.1fr) minmax(360px, 1.04fr);
+    grid-template-areas:
+      "meta editor output"
+      "images editor preview";
+    gap: 14px;
+    align-items: start;
+  }
+
+  .vc-pane {
+    min-width: 0;
+    border: 1px solid var(--vc-border);
+    border-radius: 8px;
+    background: rgba(255, 253, 248, 0.92);
+    box-shadow: var(--vc-shadow);
+  }
+
+  .vc-pane--meta {
+    grid-area: meta;
+  }
+
+  .vc-pane--images {
+    grid-area: images;
+  }
+
+  .vc-pane--editor {
+    grid-area: editor;
+  }
+
+  .vc-pane--output {
+    grid-area: output;
+  }
+
+  .vc-pane--preview {
+    grid-area: preview;
+  }
+
+  .vc-pane__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--vc-border);
+  }
+
+  .vc-pane__title {
+    margin: 0;
+    font-size: 0.96rem;
+    line-height: 1.25;
+  }
+
+  .vc-pane__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .vc-pane__body {
+    display: grid;
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .vc-field {
+    display: grid;
+    gap: 6px;
+    min-width: 0;
+  }
+
+  .vc-field--inline {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .vc-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    color: var(--vc-muted);
+    font-size: 0.82rem;
+    font-weight: 750;
+  }
+
+  .vc-required {
+    color: var(--vc-danger);
+    font-size: 0.76rem;
+  }
+
+  .vc-input,
+  .vc-textarea {
+    width: 100%;
+    min-width: 0;
+    border: 1px solid var(--vc-border);
+    border-radius: 8px;
+    background: var(--vc-surface-2);
+    color: var(--vc-text);
+  }
+
+  .vc-input {
+    min-height: 42px;
+    padding: 9px 10px;
+  }
+
+  .vc-textarea {
+    min-height: 142px;
+    padding: 11px 12px;
+    line-height: 1.58;
+    resize: vertical;
+  }
+
+  .vc-editor {
+    min-height: 620px;
+    font-family: var(--vc-mono);
+    font-size: 0.92rem;
+  }
+
+  .vc-output {
+    min-height: 400px;
+    font-family: var(--vc-mono);
+    font-size: 0.84rem;
+    white-space: pre;
+  }
+
+  .vc-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+
+  .vc-row .vc-input {
+    flex: 1 1 auto;
+  }
+
+  .vc-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 12px;
+    font-weight: 750;
+    white-space: nowrap;
+  }
+
+  .vc-button--primary {
+    border-color: var(--vc-accent);
+    background: var(--vc-accent);
+    color: #fff;
+  }
+
+  .vc-button--primary:hover {
+    border-color: #ca5e00;
+    background: #ca5e00;
+  }
+
+  .vc-button--quiet {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .vc-button--danger {
+    color: var(--vc-danger);
+  }
+
+  .vc-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--vc-text);
+    font-weight: 750;
+  }
+
+  .vc-toggle input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--vc-accent);
+  }
+
+  .vc-image-list {
+    display: grid;
+    gap: 10px;
+  }
+
+  .vc-image-row {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid var(--vc-border);
+    border-radius: 8px;
+    background: var(--vc-surface-2);
+  }
+
+  .vc-image-row__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .vc-image-row__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .vc-code-chip {
+    display: block;
+    max-width: 100%;
+    overflow: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #334155;
+    font-family: var(--vc-mono);
+    font-size: 0.76rem;
+    line-height: 1.45;
+    padding: 8px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .vc-status {
+    min-height: 22px;
+    color: var(--vc-muted);
+    font-size: 0.86rem;
+  }
+
+  .vc-status[data-state="error"] {
+    color: var(--vc-danger);
+  }
+
+  .vc-status[data-state="ok"] {
+    color: var(--vc-success);
+  }
+
+  .vc-preview {
+    display: grid;
+    gap: 16px;
+    min-height: 400px;
+    padding: 18px;
+    border: 1px solid var(--vc-border);
+    border-radius: 8px;
+    background: #fff;
+    overflow-wrap: anywhere;
+  }
+
+  .vc-preview__meta {
+    display: grid;
+    gap: 8px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--vc-border);
+  }
+
+  .vc-preview__category {
+    color: var(--vc-accent-2);
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .vc-preview h1 {
+    margin: 0;
+    font-size: clamp(1.35rem, 3vw, 2rem);
+    line-height: 1.18;
+    letter-spacing: 0;
+  }
+
+  .vc-preview__description {
+    margin: 0;
+    color: var(--vc-muted);
+  }
+
+  .vc-preview__cover {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--vc-border);
+    background: #f3f4f6;
+  }
+
+  .vc-preview__content {
+    color: var(--vc-text);
+    font-size: 1rem;
+    line-height: 1.76;
+  }
+
+  .vc-preview__content h2 {
+    margin: 1.6em 0 0.55em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid var(--vc-border);
+    font-size: 1.35rem;
+    line-height: 1.25;
+  }
+
+  .vc-preview__content h3 {
+    margin: 1.3em 0 0.45em;
+    font-size: 1.12rem;
+  }
+
+  .vc-preview__content p,
+  .vc-preview__content ul,
+  .vc-preview__content ol,
+  .vc-preview__content blockquote,
+  .vc-preview__content pre,
+  .vc-preview__content figure {
+    margin: 0 0 1rem;
+  }
+
+  .vc-preview__content ul,
+  .vc-preview__content ol {
+    padding-left: 1.35rem;
+  }
+
+  .vc-preview__content blockquote {
+    border-left: 3px solid var(--vc-accent-2);
+    border-radius: 0 8px 8px 0;
+    background: #eff6ff;
+    color: #344054;
+    padding: 12px 14px;
+  }
+
+  .vc-preview__content pre,
+  .vc-preview__content code {
+    font-family: var(--vc-mono);
+  }
+
+  .vc-preview__content pre {
+    overflow: auto;
+    border: 1px solid #fed7aa;
+    border-radius: 8px;
+    background: #fff7ed;
+    padding: 12px;
+    font-size: 0.86rem;
+  }
+
+  .vc-preview__content code {
+    border-radius: 5px;
+    background: #f1f5f9;
+    padding: 0.12rem 0.28rem;
+    font-size: 0.9em;
+  }
+
+  .vc-preview__content pre code {
+    background: transparent;
+    padding: 0;
+  }
+
+  .vc-preview__content a {
+    color: var(--vc-accent-2);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .vc-preview__content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--vc-border);
+  }
+
+  .vc-preview__content figcaption {
+    margin-top: 6px;
+    color: var(--vc-muted);
+    font-size: 0.86rem;
+    text-align: center;
+  }
+
+  .vc-meta-line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: var(--vc-muted);
+    font-size: 0.86rem;
+  }
+
+  .vc-tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .vc-tag {
+    border-radius: 6px;
+    background: #f1f5f9;
+    color: #334155;
+    padding: 3px 8px;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  @media (max-width: 1180px) {
+    .vc-admin__grid {
+      grid-template-columns: minmax(280px, 0.85fr) minmax(420px, 1.15fr);
+      grid-template-areas:
+        "meta editor"
+        "images editor"
+        "output preview";
+    }
+  }
+
+  @media (max-width: 820px) {
+    .vc-admin {
+      width: min(100% - 20px, 760px);
+      padding-top: 10px;
+    }
+
+    .vc-admin__topbar {
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+
+    .vc-admin__spacer {
+      display: none;
+    }
+
+    .vc-admin__status {
+      flex: 1 1 100%;
+      text-align: left;
+    }
+
+    .vc-admin__grid {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "meta"
+        "editor"
+        "images"
+        "output"
+        "preview";
+    }
+
+    .vc-editor {
+      min-height: 420px;
+    }
+
+    .vc-output {
+      min-height: 320px;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .vc-pane__head,
+    .vc-row,
+    .vc-field--inline {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: stretch;
+    }
+
+    .vc-pane__actions {
+      justify-content: stretch;
+    }
+
+    .vc-button {
+      width: 100%;
+      white-space: normal;
+    }
+  }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<main class="vc-admin" data-vc-writer>
+  <header class="vc-admin__topbar">
+    <a class="vc-brand" href="{{ "" | relURL }}" aria-label="Veritable Content">
+      <span class="vc-brand__mark" aria-hidden="true">V</span>
+      <span class="vc-brand__name">Veritable Content</span>
+    </a>
+    <span class="vc-admin__title">VC Writer</span>
+    <span class="vc-admin__spacer"></span>
+    <span class="vc-admin__status" id="draft-state" role="status">Local draft ready</span>
+    <button class="vc-button vc-button--quiet vc-button--danger" type="button" id="clear-draft">Clear draft</button>
+  </header>
+
+  <form class="vc-admin__grid" id="writer-form">
+    <section class="vc-pane vc-pane--meta" aria-labelledby="meta-title">
+      <div class="vc-pane__head">
+        <h1 class="vc-pane__title" id="meta-title">Metadata</h1>
+        <label class="vc-toggle" for="draft">
+          <input id="draft" name="draft" type="checkbox" checked>
+          Draft
+        </label>
+      </div>
+      <div class="vc-pane__body">
+        <div class="vc-field">
+          <label class="vc-label" for="title">Title <span class="vc-required">Required</span></label>
+          <input class="vc-input" id="title" name="title" type="text" autocomplete="off" required>
+        </div>
+
+        <div class="vc-field">
+          <label class="vc-label" for="slug">Slug</label>
+          <div class="vc-row">
+            <input class="vc-input" id="slug" name="slug" type="text" autocomplete="off">
+            <button class="vc-button" type="button" id="regenerate-slug">Regenerate</button>
+          </div>
+        </div>
+
+        <div class="vc-field">
+          <label class="vc-label" for="description">Description</label>
+          <textarea class="vc-textarea" id="description" name="description" rows="4"></textarea>
+        </div>
+
+        <div class="vc-field">
+          <label class="vc-label" for="category">Category</label>
+          <input class="vc-input" id="category" name="category" type="text" value="Công nghệ" list="category-options">
+          <datalist id="category-options">
+            <option value="Công nghệ"></option>
+            <option value="Review"></option>
+            <option value="Đời sống"></option>
+            <option value="Tài chính"></option>
+          </datalist>
+        </div>
+
+        <div class="vc-field">
+          <label class="vc-label" for="tags">Tags</label>
+          <input class="vc-input" id="tags" name="tags" type="text" autocomplete="off">
+        </div>
+
+        <div class="vc-field vc-field--inline">
+          <div class="vc-field">
+            <label class="vc-label" for="date">Date</label>
+            <input class="vc-input" id="date" name="date" type="date" required>
+          </div>
+          <div class="vc-field">
+            <label class="vc-label" for="lastmod">Lastmod</label>
+            <input class="vc-input" id="lastmod" name="lastmod" type="date" required>
+          </div>
+        </div>
+
+        <div class="vc-field">
+          <label class="vc-label" for="cover">Cover image path</label>
+          <input class="vc-input" id="cover" name="cover" type="text" autocomplete="off">
+        </div>
+      </div>
+    </section>
+
+    <section class="vc-pane vc-pane--editor" aria-labelledby="editor-title">
+      <div class="vc-pane__head">
+        <h2 class="vc-pane__title" id="editor-title">Content Markdown</h2>
+        <button class="vc-button vc-button--primary" type="button" id="generate-markdown">Generate Markdown</button>
+      </div>
+      <div class="vc-pane__body">
+        <div class="vc-field">
+          <label class="vc-label" for="content">Body <span class="vc-required">Required</span></label>
+          <textarea class="vc-textarea vc-editor" id="content" name="content" spellcheck="true" required></textarea>
+        </div>
+      </div>
+    </section>
+
+    <section class="vc-pane vc-pane--images" aria-labelledby="images-title">
+      <div class="vc-pane__head">
+        <h2 class="vc-pane__title" id="images-title">Images</h2>
+        <button class="vc-button" type="button" id="add-image">Add image</button>
+      </div>
+      <div class="vc-pane__body">
+        <div class="vc-image-list" id="image-list"></div>
+      </div>
+    </section>
+
+    <section class="vc-pane vc-pane--output" aria-labelledby="output-title">
+      <div class="vc-pane__head">
+        <h2 class="vc-pane__title" id="output-title">Markdown output</h2>
+        <div class="vc-pane__actions">
+          <button class="vc-button" type="button" id="copy-markdown">Copy</button>
+          <button class="vc-button" type="button" id="download-markdown">Download .md</button>
+        </div>
+      </div>
+      <div class="vc-pane__body">
+        <textarea class="vc-textarea vc-output" id="markdown-output" readonly></textarea>
+        <div class="vc-status" id="validation-status" role="status"></div>
+      </div>
+    </section>
+
+    <section class="vc-pane vc-pane--preview" aria-labelledby="preview-title">
+      <div class="vc-pane__head">
+        <h2 class="vc-pane__title" id="preview-title">Preview</h2>
+      </div>
+      <div class="vc-pane__body">
+        <article class="vc-preview" id="preview" aria-live="polite"></article>
+      </div>
+    </section>
+  </form>
+</main>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(() => {
+  const STORAGE_KEY = 'veritable-content-writer-draft-v1';
+  const SITE_BASE = '{{ "" | relURL }}';
+  const fallbackTitle = 'Untitled draft';
+  const defaultCategory = 'Công nghệ';
+
+  const fields = {
+    form: document.getElementById('writer-form'),
+    title: document.getElementById('title'),
+    slug: document.getElementById('slug'),
+    description: document.getElementById('description'),
+    category: document.getElementById('category'),
+    tags: document.getElementById('tags'),
+    date: document.getElementById('date'),
+    lastmod: document.getElementById('lastmod'),
+    draft: document.getElementById('draft'),
+    cover: document.getElementById('cover'),
+    content: document.getElementById('content'),
+    imageList: document.getElementById('image-list'),
+    output: document.getElementById('markdown-output'),
+    status: document.getElementById('validation-status'),
+    draftState: document.getElementById('draft-state'),
+    addImage: document.getElementById('add-image'),
+    clearDraft: document.getElementById('clear-draft'),
+    regenerateSlug: document.getElementById('regenerate-slug'),
+    generate: document.getElementById('generate-markdown'),
+    copy: document.getElementById('copy-markdown'),
+    download: document.getElementById('download-markdown'),
+    preview: document.getElementById('preview')
+  };
+
+  let images = [];
+  let slugEdited = false;
+  let saveTimer = 0;
+
+  function todayInHoChiMinh() {
+    const parts = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Asia/Ho_Chi_Minh',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    }).formatToParts(new Date());
+    const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+    return `${values.year}-${values.month}-${values.day}`;
+  }
+
+  function loadDraft() {
+    try {
+      const raw = window.localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function saveDraft() {
+    window.clearTimeout(saveTimer);
+    saveTimer = window.setTimeout(() => {
+      try {
+        window.localStorage.setItem(STORAGE_KEY, JSON.stringify(readState()));
+        fields.draftState.textContent = 'Local draft saved';
+      } catch (error) {
+        fields.draftState.textContent = 'Local draft unavailable';
+      }
+    }, 150);
+  }
+
+  function splitList(value) {
+    return value
+      .split(',')
+      .map((item) => item.trim())
+      .filter(Boolean);
+  }
+
+  function yamlString(value) {
+    return `"${String(value || '')
+      .replace(/\\/g, '\\\\')
+      .replace(/"/g, '\\"')
+      .replace(/\n/g, '\\n')}"`;
+  }
+
+  function yamlList(key, items) {
+    if (!items.length) {
+      return `${key}: []`;
+    }
+    return `${key}:\n${items.map((item) => `  - ${yamlString(item)}`).join('\n')}`;
+  }
+
+  function slugify(value) {
+    return String(value || '')
+      .trim()
+      .toLowerCase()
+      .replace(/đ/g, 'd')
+      .replace(/Đ/g, 'd')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .replace(/-{2,}/g, '-');
+  }
+
+  function readState() {
+    return {
+      title: fields.title.value,
+      slug: fields.slug.value,
+      description: fields.description.value,
+      category: fields.category.value,
+      tags: fields.tags.value,
+      date: fields.date.value,
+      lastmod: fields.lastmod.value,
+      draft: fields.draft.checked,
+      cover: fields.cover.value,
+      content: fields.content.value,
+      images
+    };
+  }
+
+  function applyState(state) {
+    fields.title.value = state.title || '';
+    fields.slug.value = state.slug || slugify(state.title || '');
+    fields.description.value = state.description || '';
+    fields.category.value = state.category || defaultCategory;
+    fields.tags.value = state.tags || '';
+    fields.date.value = state.date || todayInHoChiMinh();
+    fields.lastmod.value = state.lastmod || todayInHoChiMinh();
+    fields.draft.checked = state.draft !== false;
+    fields.cover.value = state.cover || '';
+    fields.content.value = state.content || '';
+    images = Array.isArray(state.images) && state.images.length ? state.images : [emptyImage()];
+    slugEdited = Boolean(state.slug);
+    renderImageRows();
+  }
+
+  function emptyImage() {
+    return { path: '', alt: '', caption: '' };
+  }
+
+  function normalisePathForPreview(path) {
+    const raw = String(path || '').trim();
+    if (!raw) {
+      return '';
+    }
+    if (/^(https?:|data:|blob:|\/)/i.test(raw)) {
+      return raw;
+    }
+    return `${SITE_BASE}${raw.replace(/^\/+/, '')}`;
+  }
+
+  function escapeHtml(value) {
+    return String(value || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function escapeAttr(value) {
+    return escapeHtml(value).replace(/`/g, '&#96;');
+  }
+
+  function shortcodeAttr(value) {
+    return String(value || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"').trim();
+  }
+
+  function imageSyntax(image) {
+    if (!image.path.trim()) {
+      return '';
+    }
+    const caption = image.caption.trim();
+    const captionAttr = caption ? ` caption="${shortcodeAttr(caption)}"` : '';
+    return '{' + `{< figure-img src="${shortcodeAttr(image.path)}" alt="${shortcodeAttr(image.alt)}" width="800" height="450"${captionAttr} >}` + '}';
+  }
+
+  function renderImageRows() {
+    fields.imageList.innerHTML = '';
+    images.forEach((image, index) => {
+      const row = document.createElement('div');
+      row.className = 'vc-image-row';
+      row.dataset.index = String(index);
+
+      const grid = document.createElement('div');
+      grid.className = 'vc-image-row__grid';
+
+      const pathField = createImageInput(index, 'path', 'Image path', image.path, false);
+      const altField = createImageInput(index, 'alt', 'Alt text', image.alt, Boolean(image.path.trim()));
+      const captionField = createImageInput(index, 'caption', 'Caption', image.caption, false);
+      grid.append(pathField, altField, captionField);
+
+      const code = document.createElement('code');
+      code.className = 'vc-code-chip';
+      code.textContent = imageSyntax(image) || ' ';
+
+      const actions = document.createElement('div');
+      actions.className = 'vc-image-row__actions';
+      actions.append(
+        imageButton('Insert at cursor', 'insert-image', index, !image.path.trim()),
+        imageButton('Copy syntax', 'copy-image', index, !image.path.trim()),
+        imageButton('Remove', 'remove-image', index, images.length <= 1)
+      );
+
+      row.append(grid, code, actions);
+      fields.imageList.append(row);
+    });
+  }
+
+  function createImageInput(index, key, labelText, value, required) {
+    const field = document.createElement('label');
+    field.className = 'vc-field';
+    const label = document.createElement('span');
+    label.className = 'vc-label';
+    label.textContent = labelText;
+    const input = document.createElement('input');
+    input.className = 'vc-input';
+    input.type = 'text';
+    input.value = value || '';
+    input.required = required;
+    input.dataset.imageField = key;
+    input.dataset.index = String(index);
+    field.append(label, input);
+    return field;
+  }
+
+  function imageButton(label, action, index, disabled) {
+    const button = document.createElement('button');
+    button.className = action === 'remove-image' ? 'vc-button vc-button--danger' : 'vc-button';
+    button.type = 'button';
+    button.textContent = label;
+    button.dataset.action = action;
+    button.dataset.index = String(index);
+    button.disabled = disabled;
+    return button;
+  }
+
+  function validateState(state) {
+    const errors = [];
+    if (!state.title.trim()) {
+      errors.push('Title is required');
+    }
+    if (!state.content.trim()) {
+      errors.push('Content Markdown is required');
+    }
+    images.forEach((image, index) => {
+      if (image.path.trim() && !image.alt.trim()) {
+        errors.push(`Image ${index + 1} needs alt text`);
+      }
+    });
+    return errors;
+  }
+
+  function buildMarkdown(state) {
+    const title = state.title.trim();
+    const slug = slugify(state.slug || title);
+    const categories = splitList(state.category || defaultCategory);
+    const tags = splitList(state.tags);
+    const lines = [
+      '---',
+      `title: ${yamlString(title)}`,
+      `description: ${yamlString(state.description.trim())}`,
+      `date: ${state.date || todayInHoChiMinh()}`,
+      `lastmod: ${state.lastmod || todayInHoChiMinh()}`,
+      `draft: ${state.draft ? 'true' : 'false'}`,
+      `slug: ${yamlString(slug)}`,
+      yamlList('categories', categories.length ? categories : [defaultCategory]),
+      yamlList('tags', tags)
+    ];
+
+    if (state.cover.trim()) {
+      lines.push(`image: ${yamlString(state.cover.trim())}`);
+      lines.push(`thumbnail: ${yamlString(state.cover.trim())}`);
+    }
+
+    lines.push('---', '', state.content.trim(), '');
+    return lines.join('\n');
+  }
+
+  function updateOutput() {
+    const state = readState();
+    const markdown = buildMarkdown(state);
+    const errors = validateState(state);
+    fields.output.value = markdown;
+    fields.status.dataset.state = errors.length ? 'error' : 'ok';
+    fields.status.textContent = errors.length ? errors.join(' · ') : 'Markdown ready';
+    renderPreview(state);
+    saveDraft();
+    return { markdown, errors };
+  }
+
+  function setContentAtCursor(text) {
+    const textarea = fields.content;
+    const start = textarea.selectionStart ?? textarea.value.length;
+    const end = textarea.selectionEnd ?? textarea.value.length;
+    const before = textarea.value.slice(0, start);
+    const after = textarea.value.slice(end);
+    const prefix = before && !before.endsWith('\n') ? '\n\n' : '';
+    const suffix = after && !after.startsWith('\n') ? '\n\n' : '';
+    const insert = `${prefix}${text}${suffix}`;
+    textarea.value = before + insert + after;
+    const cursor = before.length + insert.length;
+    textarea.focus();
+    textarea.setSelectionRange(cursor, cursor);
+    updateOutput();
+  }
+
+  async function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.setAttribute('readonly', '');
+    textarea.style.position = 'fixed';
+    textarea.style.inset = '0 auto auto 0';
+    textarea.style.opacity = '0';
+    document.body.append(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    textarea.remove();
+  }
+
+  function downloadMarkdown(markdown) {
+    const slug = slugify(fields.slug.value || fields.title.value) || 'veritable-content-draft';
+    const blob = new Blob([markdown], { type: 'text/markdown;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${slug}.md`;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  function inlineMarkdown(value) {
+    let html = escapeHtml(value);
+    html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_match, alt, src) => {
+      return `<img src="${escapeAttr(normalisePathForPreview(src))}" alt="${escapeAttr(alt)}">`;
+    });
+    html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, label, href) => {
+      return `<a href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+    });
+    html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+    html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    return html;
+  }
+
+  function parseShortcodeAttrs(value) {
+    const attrs = {};
+    const pattern = /([a-zA-Z_][\w-]*)="((?:\\"|[^"])*)"/g;
+    let match = pattern.exec(value);
+    while (match) {
+      attrs[match[1]] = match[2].replace(/\\"/g, '"');
+      match = pattern.exec(value);
+    }
+    return attrs;
+  }
+
+  function renderFigureShortcode(line) {
+    const pattern = /^\s*\{\{<\s*figure-img\s+([^>]*)>\}\}\s*$/;
+    const match = line.match(pattern);
+    if (!match) {
+      return '';
+    }
+    const attrs = parseShortcodeAttrs(match[1]);
+    const src = normalisePathForPreview(attrs.src || '');
+    if (!src) {
+      return '';
+    }
+    const caption = attrs.caption ? `<figcaption>${escapeHtml(attrs.caption)}</figcaption>` : '';
+    return `<figure><img src="${escapeAttr(src)}" alt="${escapeAttr(attrs.alt || '')}">${caption}</figure>`;
+  }
+
+  function renderMarkdown(markdown) {
+    const lines = String(markdown || '').replace(/\r\n/g, '\n').split('\n');
+    const html = [];
+    let paragraph = [];
+    let listType = '';
+    let inCode = false;
+    let codeLines = [];
+
+    function flushParagraph() {
+      if (paragraph.length) {
+        html.push(`<p>${inlineMarkdown(paragraph.join(' '))}</p>`);
+        paragraph = [];
+      }
+    }
+
+    function flushList() {
+      if (listType) {
+        html.push(`</${listType}>`);
+        listType = '';
+      }
+    }
+
+    lines.forEach((line) => {
+      if (/^```/.test(line)) {
+        if (inCode) {
+          html.push(`<pre><code>${escapeHtml(codeLines.join('\n'))}</code></pre>`);
+          codeLines = [];
+          inCode = false;
+        } else {
+          flushParagraph();
+          flushList();
+          inCode = true;
+        }
+        return;
+      }
+
+      if (inCode) {
+        codeLines.push(line);
+        return;
+      }
+
+      const figure = renderFigureShortcode(line);
+      if (figure) {
+        flushParagraph();
+        flushList();
+        html.push(figure);
+        return;
+      }
+
+      if (!line.trim()) {
+        flushParagraph();
+        flushList();
+        return;
+      }
+
+      const heading = line.match(/^(#{2,3})\s+(.+)$/);
+      if (heading) {
+        flushParagraph();
+        flushList();
+        const level = heading[1].length;
+        html.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
+        return;
+      }
+
+      const quote = line.match(/^>\s?(.+)$/);
+      if (quote) {
+        flushParagraph();
+        flushList();
+        html.push(`<blockquote><p>${inlineMarkdown(quote[1])}</p></blockquote>`);
+        return;
+      }
+
+      const unordered = line.match(/^\s*[-*]\s+(.+)$/);
+      const ordered = line.match(/^\s*\d+\.\s+(.+)$/);
+      if (unordered || ordered) {
+        flushParagraph();
+        const nextType = unordered ? 'ul' : 'ol';
+        if (listType !== nextType) {
+          flushList();
+          listType = nextType;
+          html.push(`<${listType}>`);
+        }
+        html.push(`<li>${inlineMarkdown((unordered || ordered)[1])}</li>`);
+        return;
+      }
+
+      paragraph.push(line.trim());
+    });
+
+    if (inCode) {
+      html.push(`<pre><code>${escapeHtml(codeLines.join('\n'))}</code></pre>`);
+    }
+    flushParagraph();
+    flushList();
+    return html.join('\n') || '<p></p>';
+  }
+
+  function renderPreview(state) {
+    const title = state.title.trim() || fallbackTitle;
+    const category = splitList(state.category || defaultCategory).join(' · ') || defaultCategory;
+    const tags = splitList(state.tags);
+    const cover = state.cover.trim();
+    const meta = [state.date || todayInHoChiMinh(), state.draft ? 'Draft' : 'Ready'].filter(Boolean).join(' · ');
+    const tagHtml = tags.length
+      ? `<div class="vc-tag-list">${tags.map((tag) => `<span class="vc-tag">${escapeHtml(tag)}</span>`).join('')}</div>`
+      : '';
+    const coverHtml = cover
+      ? `<img class="vc-preview__cover" src="${escapeAttr(normalisePathForPreview(cover))}" alt="${escapeAttr(title)}">`
+      : '';
+
+    fields.preview.innerHTML = `
+      <header class="vc-preview__meta">
+        <span class="vc-preview__category">${escapeHtml(category)}</span>
+        <h1>${escapeHtml(title)}</h1>
+        <p class="vc-preview__description">${escapeHtml(state.description.trim())}</p>
+        <div class="vc-meta-line">${escapeHtml(meta)}</div>
+        ${tagHtml}
+      </header>
+      ${coverHtml}
+      <div class="vc-preview__content">${renderMarkdown(state.content)}</div>
+    `;
+  }
+
+  function initialise() {
+    const saved = loadDraft();
+    applyState(saved || {
+      title: '',
+      slug: '',
+      description: '',
+      category: defaultCategory,
+      tags: '',
+      date: todayInHoChiMinh(),
+      lastmod: todayInHoChiMinh(),
+      draft: true,
+      cover: '',
+      content: '',
+      images: [emptyImage()]
+    });
+
+    updateOutput();
+  }
+
+  fields.title.addEventListener('input', () => {
+    if (!slugEdited) {
+      fields.slug.value = slugify(fields.title.value);
+    }
+    updateOutput();
+  });
+
+  fields.slug.addEventListener('input', () => {
+    slugEdited = true;
+    updateOutput();
+  });
+
+  fields.slug.addEventListener('blur', () => {
+    fields.slug.value = slugify(fields.slug.value);
+    updateOutput();
+  });
+
+  fields.regenerateSlug.addEventListener('click', () => {
+    fields.slug.value = slugify(fields.title.value);
+    slugEdited = false;
+    updateOutput();
+  });
+
+  [
+    fields.description,
+    fields.category,
+    fields.tags,
+    fields.date,
+    fields.lastmod,
+    fields.draft,
+    fields.cover,
+    fields.content
+  ].forEach((field) => {
+    field.addEventListener('input', updateOutput);
+    field.addEventListener('change', updateOutput);
+  });
+
+  fields.generate.addEventListener('click', () => {
+    const result = updateOutput();
+    if (result.errors.length) {
+      fields.form.reportValidity();
+    }
+  });
+
+  fields.addImage.addEventListener('click', () => {
+    images.push(emptyImage());
+    renderImageRows();
+    updateOutput();
+  });
+
+  fields.imageList.addEventListener('input', (event) => {
+    const target = event.target;
+    if (!target.matches('[data-image-field]')) {
+      return;
+    }
+    const index = Number(target.dataset.index);
+    const key = target.dataset.imageField;
+    images[index][key] = target.value;
+    renderImageRows();
+    const next = fields.imageList.querySelector(`[data-index="${index}"][data-image-field="${key}"]`);
+    if (next) {
+      next.focus();
+      next.setSelectionRange(target.selectionStart || 0, target.selectionEnd || 0);
+    }
+    updateOutput();
+  });
+
+  fields.imageList.addEventListener('click', async (event) => {
+    const button = event.target.closest('button[data-action]');
+    if (!button) {
+      return;
+    }
+    const index = Number(button.dataset.index);
+    const image = images[index];
+    const syntax = imageSyntax(image);
+
+    if (button.dataset.action === 'remove-image') {
+      images.splice(index, 1);
+      if (!images.length) {
+        images.push(emptyImage());
+      }
+      renderImageRows();
+      updateOutput();
+      return;
+    }
+
+    if (!syntax) {
+      return;
+    }
+
+    if (button.dataset.action === 'insert-image') {
+      setContentAtCursor(syntax);
+      return;
+    }
+
+    if (button.dataset.action === 'copy-image') {
+      await copyText(syntax);
+      fields.draftState.textContent = 'Image syntax copied';
+    }
+  });
+
+  fields.copy.addEventListener('click', async () => {
+    const result = updateOutput();
+    if (result.errors.length) {
+      fields.form.reportValidity();
+      return;
+    }
+    await copyText(result.markdown);
+    fields.draftState.textContent = 'Markdown copied';
+  });
+
+  fields.download.addEventListener('click', () => {
+    const result = updateOutput();
+    if (result.errors.length) {
+      fields.form.reportValidity();
+      return;
+    }
+    downloadMarkdown(result.markdown);
+  });
+
+  fields.clearDraft.addEventListener('click', () => {
+    try {
+      window.localStorage.removeItem(STORAGE_KEY);
+    } catch (error) {
+      // Ignore storage failures; the form reset still restores a clean draft.
+    }
+    applyState({
+      title: '',
+      slug: '',
+      description: '',
+      category: defaultCategory,
+      tags: '',
+      date: todayInHoChiMinh(),
+      lastmod: todayInHoChiMinh(),
+      draft: true,
+      cover: '',
+      content: '',
+      images: [emptyImage()]
+    });
+    fields.draftState.textContent = 'Local draft cleared';
+    updateOutput();
+  });
+
+  initialise();
+})();
+</script>
+{{ end }}
