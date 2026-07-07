@@ -1,0 +1,42 @@
+{{ $now := now | time.Format "2006-01-02" }}
+<section class="sitemap-wireframe">
+  <h2 class="sitemap-wireframe-title">Sitemap</h2>
+  <div class="sitemap-wireframe-content">
+    <pre class="sitemap-wireframe-tree"><code>{{ .Site.Title }}
+│
+├── 🏠 Home
+│   └── /
+│
+├── 📄 Pages
+{{- $standalone := where .Site.RegularPages "Section" "" }}
+{{- range $standalone }}
+│   ├── {{ .Title }}
+│   │   └── {{ strings.TrimPrefix site.BaseURL .Permalink }}
+{{- end }}
+│
+├── 📝 Blog Posts
+{{- $posts := where .Site.RegularPages "Section" "posts" }}
+{{- range $posts }}
+│   ├── {{ .Title }}
+│   │   └── {{ strings.TrimPrefix site.BaseURL .Permalink }}
+{{- else }}
+│   └── (no posts yet)
+{{- end }}
+│
+├── 📂 Categories
+{{- range $name, $taxonomy := .Site.Taxonomies.categories }}
+│   ├── {{ $name | title }}
+│   │   └── /{{ $name }}/
+{{- end }}
+│
+├── 🏷️ Tags
+│   └── /tags/
+│
+├── 📋 Sitemap XML
+│   └── /sitemap.xml
+│
+└── 🤖 Robots.txt
+    └── /robots.txt</code></pre>
+  </div>
+  <p class="sitemap-wireframe-date">Cập nhật sitemap: {{ $now }}</p>
+</section>
