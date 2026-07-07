@@ -13,14 +13,18 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .site-header{background:rgba(255,255,255,.85);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
 .header-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
 .site-brand{flex-shrink:0}
-.brand-link{display:flex;align-items:center;gap:8px}
-.brand-name{font-size:1.2rem;font-weight:800;letter-spacing:-.02em;color:var(--text);transition:color .2s}
-.brand-link:hover .brand-name{color:var(--accent)}
-.site-logo{height:46px;width:auto;display:block;flex-shrink:0}
-@media(max-width:768px){.site-logo{height:38px}}
-@media(max-width:480px){.site-logo{height:32px}}
-.logo-dark{display:none}
-@media(prefers-color-scheme:dark){.logo-light{display:none}.logo-dark{display:block}}
+.site-logo{display:inline-flex;align-items:center;gap:10px;padding:6px 16px 6px 8px;border-radius:10px;background:#ff7a00;color:#fff;text-decoration:none;white-space:nowrap;line-height:1;min-height:42px;transition:background .15s;max-width:280px}
+.site-logo:hover{background:#e66a00;color:#fff}
+.site-logo__mark{width:30px;height:30px;flex:0 0 auto;color:#fff;display:inline-flex;align-items:center;justify-content:center}
+.site-logo__mark svg{display:block;width:100%;height:auto}
+.site-logo__text{font-weight:800;font-size:clamp(.92rem,1.8vw,1.05rem);letter-spacing:.02em;text-transform:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:768px){.site-logo{min-height:38px;padding:5px 14px 5px 6px;gap:8px}
+.site-logo__mark{width:26px;height:26px}
+.site-logo__text{font-size:.88rem;letter-spacing:.01em}}
+@media(max-width:480px){.site-logo{padding:4px 10px 4px 5px;gap:6px;max-width:200px}
+.site-logo__mark{width:22px;height:22px}
+.site-logo__text{font-size:.82rem;letter-spacing:0;overflow:hidden;text-overflow:ellipsis}}
+@media(prefers-color-scheme:dark){.site-logo{background:#e66600}}
 .site-nav{min-width:0;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none}
 .site-nav::-webkit-scrollbar{display:none}
 .site-nav .nav-list{display:flex;list-style:none;gap:clamp(12px,2.5vw,28px);align-items:center}
