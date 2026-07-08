@@ -61,6 +61,9 @@ jobs:
       - name: Build Hugo
         run: hugo --minify --baseURL "https://banhang-chogao.github.io/reviewchanthat/"
 
+      - name: QA sitemap
+        run: python scripts/qa_sitemap.py
+
       - name: Link audit
         run: python scripts/audit_links.py || true
 

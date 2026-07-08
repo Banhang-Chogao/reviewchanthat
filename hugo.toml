@@ -64,6 +64,6 @@ disableKinds = []
     notAlternative = true
 
 [outputs]
-  home = ["HTML", "RSS", "searchIndex"]
+  home = ["HTML", "RSS", "SITEMAP", "searchIndex"]
   page = ["HTML"]
   section = ["HTML", "RSS"]
