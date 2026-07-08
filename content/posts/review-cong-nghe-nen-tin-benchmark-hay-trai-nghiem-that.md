@@ -1,13 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Chủ đề
-    value: Benchmark vs trải nghiệm thực tế khi review công nghệ
-  - label: Mục đích
-    value: Giúp người đọc hiểu điểm mạnh/yếu của từng loại review
-  - label: Hợp với
-    value: 'Người quan tâm công nghệ, người đọc review sản phẩm'
-  - label: Điểm chính
-    value: 'Benchmark đo hiệu năng thuần, trải nghiệm thật mới phản ánh dùng hàng ngày'
 ai_summary:
   collapsed: false
   enabled: true
@@ -45,20 +36,31 @@ faq:
 - answer: Kết hợp cả benchmark (so sánh thông số) và review trải nghiệm thực tế từ
     nhiều nguồn khác nhau. Ưu tiên review dài hạn sau 1-3 tháng sử dụng.
   question: Nên tin vào đâu khi mua đồ công nghệ?
-image: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80
+image: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
 image_commercial_use: true
-image_license: Unsplash License
+image_creator: Firmbee
+image_license: Pixabay Content License
 image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1518770660439-4636190af475
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/di-%C4%91%E1%BB%99ng-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-samsung-%C3%A2m-nh%E1%BA%A1c-605422/
 slug: review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that
 tags:
 - benchmark
 - trải nghiệm thật
 - review công nghệ
-thumbnail: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80
+thumbnail: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
 title: 'Review công nghệ: nên tin benchmark hay trải nghiệm thật?'
+tom_tat_nhanh:
+- label: Chủ đề
+  value: Benchmark vs trải nghiệm thực tế khi review công nghệ
+- label: Mục đích
+  value: Giúp người đọc hiểu điểm mạnh/yếu của từng loại review
+- label: Hợp với
+  value: Người quan tâm công nghệ, người đọc review sản phẩm
+- label: Điểm chính
+  value: Benchmark đo hiệu năng thuần, trải nghiệm thật mới phản ánh dùng hàng ngày
 ---
+
 Bạn thấy một chiếc laptop đạt điểm benchmark cao ngất ngưởng. Giá rẻ, cấu hình khủng. Bạn mua ngay. Nhưng dùng một thời gian thì thấy nóng máy, pin yếu, phần mềm lag. Quen không?
 
 Chuyện này xảy ra vì benchmark đo hiệu năng trong điều kiện lý tưởng: máy nguội, chưa cài phần mềm, test trong phòng máy lạnh. Còn bạn thì dùng máy ngoài đời thường, mở cả chục tab Chrome, cày game giữa trưa hè. Hai môi trường hoàn toàn khác nhau.

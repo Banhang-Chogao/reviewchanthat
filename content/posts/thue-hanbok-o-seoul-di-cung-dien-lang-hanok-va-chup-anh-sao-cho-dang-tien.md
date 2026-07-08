@@ -1,17 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Jongno-gu, Seoul (quanh Gyeongbokgung, Samcheong-dong)'
-  - label: Loại trải nghiệm
-    value: 'Văn hóa, chụp ảnh'
-  - label: Hợp với
-    value: 'Lần đầu, cặp đôi, nhóm bạn, gia đình'
-  - label: Thời gian nên dành
-    value: 2–4 giờ (gói cơ bản) hoặc cả ngày
-  - label: Đi mùa nào hợp
-    value: 'Xuân (hoa anh đào), thu (lá vàng), đông (tuyết) chụp ảnh đẹp nhất'
-  - label: Có cần đặt trước không
-    value: Nên đặt cuối tuần và mùa cao điểm
 ai_summary:
   collapsed: false
   enabled: true
@@ -46,7 +33,14 @@ external_links:
   url: https://www.royalpalace.go.kr/>
 - title: https://english.visitseoul.net/>
   url: https://english.visitseoul.net/>
-title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
+image: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
+image_commercial_use: true
+image_creator: image4you
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/c%C4%83n-nh%C3%A0-k%E1%BA%BFt-c%E1%BA%A5u-b%E1%BA%A5t-%C4%91%E1%BB%99ng-s%E1%BA%A3n-1353389/
+slug: thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc 2026
@@ -56,15 +50,23 @@ tags:
 - cung điện Seoul
 - chụp ảnh Hàn Quốc
 - series du lịch
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien
+thumbnail: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
+title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Jongno-gu, Seoul (quanh Gyeongbokgung, Samcheong-dong)
+- label: Loại trải nghiệm
+  value: Văn hóa, chụp ảnh
+- label: Hợp với
+  value: Lần đầu, cặp đôi, nhóm bạn, gia đình
+- label: Thời gian nên dành
+  value: 2–4 giờ (gói cơ bản) hoặc cả ngày
+- label: Đi mùa nào hợp
+  value: Xuân (hoa anh đào), thu (lá vàng), đông (tuyết) chụp ảnh đẹp nhất
+- label: Có cần đặt trước không
+  value: Nên đặt cuối tuần và mùa cao điểm
 ---
+
 Thuê Hanbok dạo cung điện là hoạt động số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và mình không ngạc nhiên chút nào. Đây là trải nghiệm được du khách Việt mê nhất khi đến Seoul, và theo mình thì ai đi Hàn lần đầu cũng nên thử ít nhất một lần.
 
 **Tại sao thuê Hanbok lại đáng tiền?**

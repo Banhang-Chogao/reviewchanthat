@@ -1,13 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Chủ đề
-    value: 'Xây dựng thói quen mua sắm thông minh, có kế hoạch'
-  - label: Mục đích
-    value: 'Giảm mua sắm bốc đồng, tối ưu chi tiêu'
-  - label: Hợp với
-    value: 'Người muốn kiểm soát chi tiêu, mua sắm có trách nhiệm'
-  - label: Điểm chính
-    value: 'Lên danh sách trước khi mua, đợi 24h trước khi quyết định'
 ai_summary:
   collapsed: false
   enabled: true
@@ -48,20 +39,31 @@ faq:
 - answer: 'Một số app phổ biến: Money Lover, Spendee, Sổ Thu Chi. Quan trọng nhất
     là bạn duy trì thói quen ghi chép mỗi ngày.'
   question: App nào giúp quản lý chi tiêu tốt?
-image: https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80
+image: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
 image_commercial_use: true
-image_license: Unsplash License
+image_creator: Photographer2575
+image_license: Pixabay Content License
 image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1553729459-afe8e2e1a6e0
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/r%E1%BB%89-s%C3%A9t-c%C5%A9-kim-lo%E1%BA%A1i-b%E1%BB%8B-h%E1%BB%8Fng-2674855/
 slug: cach-xay-dung-thoi-quen-mua-sam-thong-minh
 tags:
 - mua sắm thông minh
 - thói quen
 - quản lý chi tiêu
-thumbnail: https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80
+thumbnail: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
 title: Cách xây dựng thói quen mua sắm thông minh
+tom_tat_nhanh:
+- label: Chủ đề
+  value: Xây dựng thói quen mua sắm thông minh, có kế hoạch
+- label: Mục đích
+  value: Giảm mua sắm bốc đồng, tối ưu chi tiêu
+- label: Hợp với
+  value: Người muốn kiểm soát chi tiêu, mua sắm có trách nhiệm
+- label: Điểm chính
+  value: Lên danh sách trước khi mua, đợi 24h trước khi quyết định
 ---
+
 Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Nghe đơn giản, nhưng mình mất kha khá thời gian mới áp dụng được. Dưới đây là những thói quen giúp bạn làm được điều đó.
 
 ### Nguyên tắc 30 ngày

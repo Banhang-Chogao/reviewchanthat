@@ -1,13 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Chủ đề
-    value: 'Kỹ năng đọc review, phân biệt review thật và quảng cáo'
-  - label: Mục đích
-    value: Giúp người tiêu dùng không bị lừa khi đọc review
-  - label: Hợp với
-    value: 'Người thường xuyên mua sắm online, người đọc review'
-  - label: Mẹo quan trọng
-    value: 'Kiểm tra động cơ người viết, đọc ít nhất 3–5 nguồn'
 ai_summary:
   collapsed: false
   enabled: true
@@ -51,19 +42,30 @@ faq:
     review từ người dùng thật trên các diễn đàn như Reddit, Tinhte, hoặc các nhóm
     Facebook chất lượng.
   question: Nên đọc review ở đâu để tin tưởng nhất?
-image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80
+image: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
 image_commercial_use: true
-image_license: Unsplash License
+image_creator: athree23
+image_license: Pixabay Content License
 image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1434030216411-0b793f4b4173
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/h%E1%BB%99i-%C4%91%E1%BB%93ng-qu%E1%BA%A3n-tr%E1%BB%8B-ph%E1%BA%A5n-%C4%91%E1%BA%A7u-3700375/
 slug: cach-doc-mot-bai-review-de-khong-bi-dat-mui
 tags:
 - kỹ năng đọc review
 - tiêu dùng thông minh
-thumbnail: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80
+thumbnail: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
 title: Cách đọc một bài review để không bị dắt mũi
+tom_tat_nhanh:
+- label: Chủ đề
+  value: Kỹ năng đọc review, phân biệt review thật và quảng cáo
+- label: Mục đích
+  value: Giúp người tiêu dùng không bị lừa khi đọc review
+- label: Hợp với
+  value: Người thường xuyên mua sắm online, người đọc review
+- label: Mẹo quan trọng
+  value: Kiểm tra động cơ người viết, đọc ít nhất 3–5 nguồn
 ---
+
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
 
 Mình cá ai từng mua đồ online cũng từng rơi vào tình huống này ít nhất một lần. Làm sao để đọc review mà không bị dắt mũi?

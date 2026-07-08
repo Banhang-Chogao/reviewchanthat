@@ -1,13 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Chủ đề
-    value: Checklist kiểm tra trước khi mua hàng online
-  - label: Mục đích
-    value: 'Tránh mua phải hàng kém chất lượng, hối hận sau khi mua'
-  - label: Hợp với
-    value: 'Người thường xuyên mua sắm online, người muốn tiêu tiền thông minh'
-  - label: Điểm chính
-    value: 'Kiểm tra người bán, chính sách đổi trả, đọc kỹ mô tả sản phẩm'
 ai_summary:
   collapsed: false
   enabled: true
@@ -48,20 +39,31 @@ faq:
 - answer: Luôn kiểm tra shop (sao, số đơn, review có ảnh), đọc kỹ mô tả, chụp lại
     màn hình đơn hàng, và ưu tiên thanh toán khi nhận hàng (COD) cho lần mua đầu.
   question: Làm sao để không bị lừa khi mua online?
-image: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80
+image: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
 image_commercial_use: true
-image_license: Unsplash License
+image_creator: Pexels
+image_license: Pixabay Content License
 image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1556742049-0cfed4f6a45d
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/t%C3%A1o-th%E1%BB%8B-tr%C6%B0%E1%BB%9Dng-c%E1%BB%A7a-ng%C6%B0%E1%BB%9Di-n%C3%B4ng-d%C3%A2n-1841132/
 slug: checklist-truoc-khi-mua-mot-san-pham-online
 tags:
 - mua sắm online
 - checklist
 - tiêu dùng thông minh
-thumbnail: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80
+thumbnail: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
 title: Checklist trước khi mua một sản phẩm online
+tom_tat_nhanh:
+- label: Chủ đề
+  value: Checklist kiểm tra trước khi mua hàng online
+- label: Mục đích
+  value: Tránh mua phải hàng kém chất lượng, hối hận sau khi mua
+- label: Hợp với
+  value: Người thường xuyên mua sắm online, người muốn tiêu tiền thông minh
+- label: Điểm chính
+  value: Kiểm tra người bán, chính sách đổi trả, đọc kỹ mô tả sản phẩm
 ---
+
 Mua sắm online tiện thật đấy, nhưng mua xong mới hối hận thì cũng nhiều. Mình từng mua không biết bao nhiêu thứ vì "giá rẻ quá không mua uổng" — kết quả là để xó hoặc đem bán lại.
 
 Dưới đây là 6 bước mình vẫn kiểm tra trước mỗi lần bấm "Đặt mua". Làm theo thì chưa chắc giàu, nhưng chắc chắn đỡ tiếc tiền.

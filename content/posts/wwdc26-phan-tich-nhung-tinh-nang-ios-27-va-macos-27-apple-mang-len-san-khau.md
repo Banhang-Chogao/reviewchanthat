@@ -1,13 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Chủ đề
-    value: WWDC26 phân tích tính năng iOS 27 và macOS 27
-  - label: Mục đích
-    value: 'Tổng hợp kỳ vọng, tin đồn và thông tin Apple xác nhận trước sự kiện'
-  - label: Hợp với
-    value: 'Người quan tâm Apple, công nghệ, hệ sinh thái Apple'
-  - label: Điểm chính
-    value: 'Siri AI, iOS 27, macOS Golden Gate 27, iPhone gập không xuất hiện'
 ai_summary:
   collapsed: false
   enabled: true
@@ -65,12 +56,13 @@ faq:
 - answer: Không. iPhone Ultra (foldable) vẫn là tin đồn phần cứng hướng tới sự kiện
     riêng, không phải keynote phần mềm 8/6/2026.
   question: WWDC26 có công bố iPhone gập không?
-image: https://www.apple.com/newsroom/images/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/article/Apple-OS-27-updates-260608_big.jpg.large.jpg
+image: images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp
 image_commercial_use: true
-image_license: Apple Press Usage
+image_creator: AS_Photography
+image_license: Pixabay Content License
 image_owner: external
-image_source: Apple Newsroom
-image_source_url: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/ti%E1%BA%BFp-th%E1%BB%8B-s%E1%BB%91-seo-google-emarketing-1725340/
 lastmod: 2026-07-08 00:00:00+07:00
 slug: wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau
 tags:
@@ -81,9 +73,19 @@ tags:
 - Apple Intelligence
 - iPhone
 - Mac
-thumbnail: https://www.apple.com/newsroom/images/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/article/Apple-OS-27-updates-260608_big.jpg.large.jpg
+thumbnail: images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp
 title: 'WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu'
+tom_tat_nhanh:
+- label: Chủ đề
+  value: WWDC26 phân tích tính năng iOS 27 và macOS 27
+- label: Mục đích
+  value: Tổng hợp kỳ vọng, tin đồn và thông tin Apple xác nhận trước sự kiện
+- label: Hợp với
+  value: Người quan tâm Apple, công nghệ, hệ sinh thái Apple
+- label: Điểm chính
+  value: Siri AI, iOS 27, macOS Golden Gate 27, iPhone gập không xuất hiện
 ---
+
 Bạn có nhớ cảm giác mỗi lần WWDC tới gần không? Cộng đồng Apple lại chia làm hai phe: một phe chỉ muốn biết có đáng lên iOS mới không, phe kia soi từng dòng code trong beta developer. **WWDC26** cũng không ngoại lệ — nhưng năm nay áp lực cao hơn nhiều.
 
 Sau một năm Apple Intelligence chưa thực sự thuyết phục, Apple buộc phải chứng minh họ vẫn kiểm soát được trải nghiệm AI. Theo mình, họ đã làm được — dù vẫn còn những điểm cần để mắt.

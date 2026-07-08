@@ -1,17 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Jongno, Seongsu, Gwangjin (Seoul)'
-  - label: Loại trải nghiệm
-    value: 'Văn hóa, giải trí, chụp ảnh'
-  - label: Hợp với
-    value: 'Fan K-drama, thích chụp ảnh, nhóm bạn'
-  - label: Thời gian nên dành
-    value: 2–4 giờ
-  - label: Đi mùa nào hợp
-    value: Quanh năm
-  - label: Có cần đặt trước không
-    value: Không
 ai_summary:
   collapsed: false
   enabled: true
@@ -42,7 +29,14 @@ external_links:
   url: https://english.visitseoul.net/>
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
-title: 'Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic'
+image: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
+image_commercial_use: true
+image_creator: viarami
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/kinh-doanh-ti%E1%BB%81n-nh%C3%A0-h%C3%A0ng-d%E1%BA%A5u-hi%E1%BB%87u-5475283/
+slug: dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc 2026
@@ -52,15 +46,23 @@ tags:
 - Vincenzo
 - Reborn Rich
 - series du lịch
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic
+thumbnail: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
+title: 'Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Jongno, Seongsu, Gwangjin (Seoul)
+- label: Loại trải nghiệm
+  value: Văn hóa, giải trí, chụp ảnh
+- label: Hợp với
+  value: Fan K-drama, thích chụp ảnh, nhóm bạn
+- label: Thời gian nên dành
+  value: 2–4 giờ
+- label: Đi mùa nào hợp
+  value: Quanh năm
+- label: Có cần đặt trước không
+  value: Không
 ---
+
 Có một cách khám phá Seoul mà mình thấy cực kỳ thú vị nhưng không bị "touristic" — đó là đi theo dấu các bộ phim Hàn Quốc. Hoạt động này xếp hạng 9 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình thì nó xứng đáng cao hơn nếu bạn là fan K-drama.
 
 Cái hay là nhiều địa điểm quay phim là những khu phố bình thường, quán cà phê hay tòa nhà cũ vẫn đang hoạt động hàng ngày. Bạn sẽ không cảm thấy mình đang ở phim trường giả tạo — mà là đang sống trong một tập phim vậy.

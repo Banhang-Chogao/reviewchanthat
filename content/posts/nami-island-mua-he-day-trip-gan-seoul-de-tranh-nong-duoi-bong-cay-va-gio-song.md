@@ -1,15 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Chuncheon, Gangwon-do'
-  - label: Loại trải nghiệm
-    value: 'Đảo, thiên nhiên, đi bộ, xe đạp'
-  - label: Hợp với
-    value: 'Gia đình, cặp đôi, nhóm bạn'
-  - label: Thời gian nên dành
-    value: Nửa ngày đến một ngày
-  - label: Lưu ý mùa hè
-    value: 'Vẫn nóng nếu đi giữa trưa, nên đi sớm và mang nước'
 ai_summary:
   collapsed: false
   enabled: true
@@ -19,45 +8,51 @@ ai_summary:
   - Có thể zipline hoặc đi ferry vào đảo, thuê xe đạp vòng quanh.
   - Kết hợp Petite France, Garden of Morning Calm cho một ngày trọn vẹn.
   title: Tóm tắt bài viết
-faq:
-- question: Nami Island có đông không?
-  answer: Khu vực này thường đông vào cuối tuần và mùa cao điểm, đặc biệt cuối tuần
-    và tháng 7–8. Nên đi sớm trước 10:00.
-- question: Có nên mua vé trước không?
-  answer: nên kiểm tra tình trạng vé trên website chính thức của điểm đến.
-- question: Zipline có an toàn không?
-  answer: Zipline được vận hành theo tiêu chuẩn kỹ thuật. Bạn nên kiểm tra điều kiện
-    sức khỏe và yêu cầu tham gia trên website chính thức trước khi trải nghiệm.
-- question: Nami Island có phù hợp với người già không?
-  answer: Khu vực này có dịch vụ xe điện hỗ trợ, bạn nên kiểm tra thông tin chi tiết
-    trên website chính thức.
-internal_links:
-- title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-- title: 'Wolmido Incheon: biển, boardwalk cho gia đình'
-  ref: posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md
-- title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul'
-  ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
-external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-- title: https://www.namisum.com/
-  url: https://www.namisum.com/
 attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.namisum.com/.'
-title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió
-  sông'
-description: 'Nami Island mùa hè là day trip lý tưởng từ Seoul để tránh nóng: tán
-  cây Metasequoia xanh mát, zipline vào đảo, đi thuyền trên sông Bukhan.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
-draft: false
 categories:
 - du-lich
+date: 2026-07-08 07:00:00+07:00
+description: 'Nami Island mùa hè là day trip lý tưởng từ Seoul để tránh nóng: tán
+  cây Metasequoia xanh mát, zipline vào đảo, đi thuyền trên sông Bukhan.'
+draft: false
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+- title: https://www.namisum.com/
+  url: https://www.namisum.com/
+faq:
+- answer: Khu vực này thường đông vào cuối tuần và mùa cao điểm, đặc biệt cuối tuần
+    và tháng 7–8. Nên đi sớm trước 10:00.
+  question: Nami Island có đông không?
+- answer: nên kiểm tra tình trạng vé trên website chính thức của điểm đến.
+  question: Có nên mua vé trước không?
+- answer: Zipline được vận hành theo tiêu chuẩn kỹ thuật. Bạn nên kiểm tra điều kiện
+    sức khỏe và yêu cầu tham gia trên website chính thức trước khi trải nghiệm.
+  question: Zipline có an toàn không?
+- answer: Khu vực này có dịch vụ xe điện hỗ trợ, bạn nên kiểm tra thông tin chi tiết
+    trên website chính thức.
+  question: Nami Island có phù hợp với người già không?
+image: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
+image_commercial_use: true
+image_creator: wasi1370
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/%C4%91i-du-l%E1%BB%8Bch-k%E1%BB%B3-ngh%E1%BB%89-m%C3%B9a-h%E1%BA%A1-du-l%E1%BB%8Bch-3571077/
+internal_links:
+- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
+  title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
+- ref: posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md
+  title: 'Wolmido Incheon: biển, boardwalk cho gia đình'
+- ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
+  title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul'
+slug: nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc mùa hè
@@ -65,15 +60,22 @@ tags:
 - day trip Seoul
 - Chuncheon
 - series du lịch
-image: https://images.unsplash.com/photo-1572492371162-cf453ed8b6ff?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1572492371162-cf453ed8b6ff?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1572492371162-cf453ed8b6ff
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song
+thumbnail: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
+title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió
+  sông'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Chuncheon, Gangwon-do
+- label: Loại trải nghiệm
+  value: Đảo, thiên nhiên, đi bộ, xe đạp
+- label: Hợp với
+  value: Gia đình, cặp đôi, nhóm bạn
+- label: Thời gian nên dành
+  value: Nửa ngày đến một ngày
+- label: Lưu ý mùa hè
+  value: Vẫn nóng nếu đi giữa trưa, nên đi sớm và mang nước
 ---
+
 Ai cũng biết Nami Island mùa thu lá vàng đẹp như phim _Winter Sonata_. Nhưng theo mình, Nami mùa hè mới thực sự là chốn tránh nóng lý tưởng — tán Metasequoia xanh mướt che kín lối đi, gió từ sông Bukhan thổi lồng lộng, khác hẳn cái oi bức ở Seoul.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Nami đứng thứ 5. Mình nghĩ nó xứng đáng cao hơn nếu tính riêng nhóm day trip gần Seoul.

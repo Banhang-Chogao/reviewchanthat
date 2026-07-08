@@ -1,46 +1,59 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Wonju, Gangwon-do (100 km từ Seoul)'
-  - label: Loại trải nghiệm
-    value: 'Trượt tuyết beginner, nghỉ dưỡng nhẹ'
-  - label: Hợp với
-    value: 'Người mới bắt đầu, gia đình có trẻ nhỏ, người thích yên tĩnh'
-  - label: Thời gian nên dành
-    value: Trong ngày hoặc 1 đêm
-  - label: Đi mùa nào hợp
-    value: Mùa đông (tháng 12–2)
-  - label: Có cần đặt trước không
-    value: 'Có (shuttle bus, vé)'
 ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Oak Valley (Oak Hills CC) là ski resort nhỏ, yên tĩnh ở Wonju, cách Seoul khoảng 100 km.
-  - Chỉ có 3–9 slope (tùy nguồn), 2 ski lift — phù hợp người mới và gia đình, không dành cho người trượt cao cấp.
+  - Oak Valley (Oak Hills CC) là ski resort nhỏ, yên tĩnh ở Wonju, cách Seoul khoảng
+    100 km.
+  - Chỉ có 3–9 slope (tùy nguồn), 2 ski lift — phù hợp người mới và gia đình, không
+    dành cho người trượt cao cấp.
   - Khu nghỉ dưỡng có condo, golf course, và shuttle bus cuối tuần từ Seoul.
   - Less crowded hơn các resort gần Seoul — thích hợp nếu muốn tránh đám đông.
   title: Tóm tắt bài viết
-faq:
-- question: Oak Valley có gần Seoul không? Đi trong ngày được không?
-  answer: 'Cách Seoul khoảng 100 km, di chuyển khoảng 1,5–2 giờ. Có thể đi trong ngày — shuttle bus cuối tuần từ Hongdae và Myeongdong. Ngày thường có thể đi KTX đến ga Manjong (71 phút) + taxi 20 phút.'
-- question: Oak Valley hợp với ai?
-  answer: 'Người mới bắt đầu, gia đình có trẻ em, người muốn tránh resort đông đúc. Slope rộng và êm, rất an toàn.'
-- question: Oak Valley có bao nhiêu slope?
-  answer: 'Tùy nguồn thông tin: có nguồn nói 3 slope (1 beginner, 2 intermediate), nguồn khác nói 9 slope (2 beginner, 5 intermediate, 2 advanced). Thực tế resort này thiên về beginner/intermediate.'
-- question: Giá vé và mùa mở cửa thế nào?
-  answer: 'Mùa 2025–26: mở cửa từ 12/12/2025, Snow Playground từ 20/12/2025. Giờ hoạt động: ngày thường 10:00–17:00, có night ticket 18:00–21:00. Kiểm tra website oakvalley.co.kr để biết giá mới nhất.'
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
-  source_note: 'Nguồn tham khảo: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=195526, https://blog.trazy.com/guide-to-oak-valley-ski-resort/, https://oakvalley.co.kr/'
-title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju'
-description: 'Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Nguồn tham khảo: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=195526,
+    https://blog.trazy.com/guide-to-oak-valley-ski-resort/, https://oakvalley.co.kr/'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 09:00:00+07:00
-draft: false
 categories:
 - du-lich
+date: 2026-07-08 09:00:00+07:00
+description: Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù
+  hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế.
+draft: false
+faq:
+- answer: Cách Seoul khoảng 100 km, di chuyển khoảng 1,5–2 giờ. Có thể đi trong ngày
+    — shuttle bus cuối tuần từ Hongdae và Myeongdong. Ngày thường có thể đi KTX đến
+    ga Manjong (71 phút) + taxi 20 phút.
+  question: Oak Valley có gần Seoul không? Đi trong ngày được không?
+- answer: Người mới bắt đầu, gia đình có trẻ em, người muốn tránh resort đông đúc.
+    Slope rộng và êm, rất an toàn.
+  question: Oak Valley hợp với ai?
+- answer: 'Tùy nguồn thông tin: có nguồn nói 3 slope (1 beginner, 2 intermediate),
+    nguồn khác nói 9 slope (2 beginner, 5 intermediate, 2 advanced). Thực tế resort
+    này thiên về beginner/intermediate.'
+  question: Oak Valley có bao nhiêu slope?
+- answer: 'Mùa 2025–26: mở cửa từ 12/12/2025, Snow Playground từ 20/12/2025. Giờ hoạt
+    động: ngày thường 10:00–17:00, có night ticket 18:00–21:00. Kiểm tra website oakvalley.co.kr
+    để biết giá mới nhất.'
+  question: Giá vé và mùa mở cửa thế nào?
+image: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
+image_commercial_use: true
+image_creator: jarmoluk
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/k%C3%ADnh-b%E1%BA%A3o-h%E1%BB%99-m%C3%B9a-%C4%91%C3%B4ng-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-428610/
+internal_links:
+- ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
+  title: Top địa điểm trượt tuyết ở Hàn Quốc mùa đông
+- ref: posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md
+  title: Elysian Gangchon Ski
+- ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
+  title: Vivaldi Park Ski World
+slug: oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju
 tags:
 - du lịch Hàn Quốc
 - Oak Valley
@@ -50,22 +63,23 @@ tags:
 - beginner ski
 - gangwon-do
 - series trượt tuyết
-image: https://images.unsplash.com/photo-1529973565459-1e38c5c2c1e5?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1529973565459-1e38c5c2c1e5?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1529973565459-1e38c5c2c1e5
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju
-internal_links:
-- title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông'
-  ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
-- title: 'Elysian Gangchon Ski'
-  ref: posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md
-- title: 'Vivaldi Park Ski World'
-  ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
+thumbnail: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
+title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Wonju, Gangwon-do (100 km từ Seoul)
+- label: Loại trải nghiệm
+  value: Trượt tuyết beginner, nghỉ dưỡng nhẹ
+- label: Hợp với
+  value: Người mới bắt đầu, gia đình có trẻ nhỏ, người thích yên tĩnh
+- label: Thời gian nên dành
+  value: Trong ngày hoặc 1 đêm
+- label: Đi mùa nào hợp
+  value: Mùa đông (tháng 12–2)
+- label: Có cần đặt trước không
+  value: Có (shuttle bus, vé)
 ---
+
 Oak Valley là ski resort nhỏ nhất trong系列 bài này của mình, nhưng đôi khi nhỏ lại là cái hay. Nếu bạn đã đọc bài về [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}) và [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) mà thấy lo vì đông đúc, Oak Valley là phương án ngược lại hoàn toàn.
 
 Resort này nằm ở Wonju, Gangwon-do, cách Seoul khoảng 100 km. Tên cũ là Oak Hills CC, giờ đổi thành Oak Valley Snow Park.

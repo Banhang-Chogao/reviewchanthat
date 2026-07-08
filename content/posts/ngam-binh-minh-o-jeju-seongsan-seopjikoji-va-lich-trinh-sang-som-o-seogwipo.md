@@ -1,17 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Seongsan (đông bắc Jeju), Seopjikoji (gần Seongsan), Seogwipo (nam Jeju)'
-  - label: Loại trải nghiệm
-    value: 'Thiên nhiên, nhiếp ảnh'
-  - label: Hợp với
-    value: 'Cặp đôi, người thích đi bộ, nhiếp ảnh gia'
-  - label: Thời gian nên dành
-    value: 2–3 giờ sáng sớm
-  - label: Đi mùa nào hợp
-    value: Quanh năm (mùa xuân và thu đẹp nhất)
-  - label: Có cần đặt trước không
-    value: Không
 ai_summary:
   collapsed: false
   enabled: true
@@ -44,7 +31,14 @@ external_links:
   url: https://whc.unesco.org/en/list/1264/>
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
-title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo'
+image: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
+image_commercial_use: true
+image_creator: allybally4b
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/reed-ionantha-n%C3%A5ltillandsia-4026353/
+slug: ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc 2026
@@ -54,15 +48,23 @@ tags:
 - Seogwipo
 - Seopjikoji
 - series du lịch
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo
+thumbnail: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
+title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Seongsan (đông bắc Jeju), Seopjikoji (gần Seongsan), Seogwipo (nam Jeju)
+- label: Loại trải nghiệm
+  value: Thiên nhiên, nhiếp ảnh
+- label: Hợp với
+  value: Cặp đôi, người thích đi bộ, nhiếp ảnh gia
+- label: Thời gian nên dành
+  value: 2–3 giờ sáng sớm
+- label: Đi mùa nào hợp
+  value: Quanh năm (mùa xuân và thu đẹp nhất)
+- label: Có cần đặt trước không
+  value: Không
 ---
+
 Ngắm bình minh trên miệng núi lửa là trải nghiệm theo mình không thể bỏ qua khi đến Jeju. Hoạt động này được xếp hạng 5 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và Seongsan Ilchulbong là điểm đến số một cho việc này.
 
 

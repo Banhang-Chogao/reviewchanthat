@@ -1,13 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Nội dung
-    value: 'Top 10 điểm tránh nóng mùa hè Hàn Quốc: biển Jeju, bãi biển Busan, công viên nước, day trip gần Seoul'
-  - label: Số lượng điểm
-    value: '10 điểm chia làm 3 nhóm (Jeju, Busan, gần Seoul)'
-  - label: Hợp với
-    value: 'Người đi Hàn Quốc mùa hè, gia đình, cặp đôi'
-  - label: Thời gian đọc
-    value: 5–7 phút
 ai_summary:
   collapsed: false
   enabled: true
@@ -20,48 +11,23 @@ ai_summary:
   - Gợi ý lịch trình 7 ngày mix Seoul-Busan-Jeju cho người Việt lần đầu du lịch Hàn
     Quốc mùa hè.
   title: Tóm tắt bài viết
-faq:
-- question: Mùa hè Hàn Quốc nóng thế nào?
-  answer: Nhiệt độ trung bình tháng 7–8 dao động 25–32°C, độ ẩm cao, mưa nhiều vào
-    tháng 7 (mùa mưa Jangma). Đầu tháng 8 thường nóng nhất.
-- question: Có nên đi biển Hàn Quốc vào tháng 8?
-  answer: Có. Tháng 8 là tháng cao điểm nhưng nước ấm nhất và nhiều lễ hội biển nhất.
-    Tuy nhiên, lượng khách rất đông — bạn nên đặt chỗ trước.
-- question: Phương tiện di chuyển giữa các thành phố?
-  answer: KTX từ Seoul đến Busan mất khoảng 2 giờ 15 phút. Bay từ Seoul/Gimpo đến
-    Jeju mất khoảng 1 giờ. Giữa các điểm trong cùng thành phố có metro và bus.
-- question: Cần chuẩn bị gì khi đi biển Hàn Quốc?
-  answer: Kem chống nắng, mũ, kính mát, đồ bơi, dép xỏ ngón. Một số bãi biển có chỗ
-    thay đồ và tắm nước ngọt miễn phí. Lưu ý giờ an toàn bơi (thường 9:00–18:00).
-- question: Giá vé công viên nước có đắt không?
-  answer: Caribbean Bay và Shinhwa Water Park có giá vé dao động 40.000–60.000 KRW/người
-    nếu mua online trước. Mua tại quầy thường đắt hơn. Cần kiểm tra website chính
-    thức trước khi đi.
-internal_links:
-- title: 'Udo Jeju: đảo nhỏ, biển đá đen và hải đăng trắng'
-  ref: posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md
-- title: 'Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông'
-  ref: posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md
-- title: 'Gwangalli Beach Busan: bãi biển ngắm cầu, hợp đi chiều tối'
-  ref: posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md
-- title: 'Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động
-    nước'
-  ref: posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md
-- title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió
-    sông'
-  ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md
-- title: 'Wolmido Incheon: biển, boardwalk và điểm đi chơi gần Seoul cho gia đình'
-  ref: posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md
-- title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào'
-  ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
-- title: 'Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line
-    Park'
-  ref: posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md
-- title: 'Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ
-    dưỡng'
-  ref: posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md
-- title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun'
-  ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
+    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373,
+    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en,
+    https://www.busan.go.kr/eng/beaches/1325815, https://en.wikipedia.org/wiki/Caribbean_Bay
+    và các nguồn khác.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- du-lich
+date: 2026-07-08 07:00:00+07:00
+description: 'Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo
+  Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm
+  đi từ A-Z.'
+draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -79,25 +45,56 @@ external_links:
   url: https://www.shinhwaworld.com/
 - title: https://www.namisum.com/
   url: https://www.namisum.com/
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373,
-    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en,
-    https://www.busan.go.kr/eng/beaches/1325815, https://en.wikipedia.org/wiki/Caribbean_Bay
-    và các nguồn khác.'
-title: '10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước
-  và day trip dễ đi'
-description: 'Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo
-  Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm
-  đi từ A-Z.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
-draft: false
-categories:
-- du-lich
+faq:
+- answer: Nhiệt độ trung bình tháng 7–8 dao động 25–32°C, độ ẩm cao, mưa nhiều vào
+    tháng 7 (mùa mưa Jangma). Đầu tháng 8 thường nóng nhất.
+  question: Mùa hè Hàn Quốc nóng thế nào?
+- answer: Có. Tháng 8 là tháng cao điểm nhưng nước ấm nhất và nhiều lễ hội biển nhất.
+    Tuy nhiên, lượng khách rất đông — bạn nên đặt chỗ trước.
+  question: Có nên đi biển Hàn Quốc vào tháng 8?
+- answer: KTX từ Seoul đến Busan mất khoảng 2 giờ 15 phút. Bay từ Seoul/Gimpo đến
+    Jeju mất khoảng 1 giờ. Giữa các điểm trong cùng thành phố có metro và bus.
+  question: Phương tiện di chuyển giữa các thành phố?
+- answer: Kem chống nắng, mũ, kính mát, đồ bơi, dép xỏ ngón. Một số bãi biển có chỗ
+    thay đồ và tắm nước ngọt miễn phí. Lưu ý giờ an toàn bơi (thường 9:00–18:00).
+  question: Cần chuẩn bị gì khi đi biển Hàn Quốc?
+- answer: Caribbean Bay và Shinhwa Water Park có giá vé dao động 40.000–60.000 KRW/người
+    nếu mua online trước. Mua tại quầy thường đắt hơn. Cần kiểm tra website chính
+    thức trước khi đi.
+  question: Giá vé công viên nước có đắt không?
+image: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
+image_commercial_use: true
+image_creator: stux
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/h%C3%B3a-%C4%91%C6%A1n-10-eur-ti%E1%BB%81n-b%E1%BA%A1c-166307/
+internal_links:
+- ref: posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md
+  title: 'Udo Jeju: đảo nhỏ, biển đá đen và hải đăng trắng'
+- ref: posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md
+  title: 'Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông'
+- ref: posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md
+  title: 'Gwangalli Beach Busan: bãi biển ngắm cầu, hợp đi chiều tối'
+- ref: posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md
+  title: 'Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động
+    nước'
+- ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md
+  title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió
+    sông'
+- ref: posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md
+  title: 'Wolmido Incheon: biển, boardwalk và điểm đi chơi gần Seoul cho gia đình'
+- ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
+  title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào'
+- ref: posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md
+  title: 'Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line
+    Park'
+- ref: posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md
+  title: 'Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ
+    dưỡng'
+- ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
+  title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun'
+slug: 10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc mùa hè
@@ -107,15 +104,21 @@ tags:
 - Seoul
 - công viên nước
 - series du lịch
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: 10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di
+thumbnail: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
+title: '10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước
+  và day trip dễ đi'
+tom_tat_nhanh:
+- label: Nội dung
+  value: 'Top 10 điểm tránh nóng mùa hè Hàn Quốc: biển Jeju, bãi biển Busan, công
+    viên nước, day trip gần Seoul'
+- label: Số lượng điểm
+  value: 10 điểm chia làm 3 nhóm (Jeju, Busan, gần Seoul)
+- label: Hợp với
+  value: Người đi Hàn Quốc mùa hè, gia đình, cặp đôi
+- label: Thời gian đọc
+  value: 5–7 phút
 ---
+
 Mùa hè Hàn Quốc mà nói thật thì nóng kinh khủng — nhiệt độ vượt 30°C, độ ẩm cao, mưa lúc bất chợt. Trốn trong trung tâm thương mại cả ngày cũng chán. Cách hay hơn là tìm mấy điểm tránh nóng dưới nước.
 
 Bài này dựa trên dữ liệu Trip.Best của Trip.com, nhưng mình viết lại dưới góc nhìn thực tế — không phải brochure quảng cáo đâu.

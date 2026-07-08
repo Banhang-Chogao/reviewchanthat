@@ -1,17 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Seoul (Gwangjang, Namdaemun), Busan (Jagalchi, Gukje), Jeju (Dongmun)'
-  - label: Loại trải nghiệm
-    value: 'Ẩm thực, mua sắm, văn hóa'
-  - label: Hợp với
-    value: 'Ai cũng hợp, nhất là thích ăn uống'
-  - label: Thời gian nên dành
-    value: 1–3 giờ/chợ
-  - label: Đi mùa nào hợp
-    value: Quanh năm
-  - label: Có cần đặt trước không
-    value: Không
 ai_summary:
   collapsed: false
   enabled: true
@@ -47,7 +34,14 @@ external_links:
   url: https://www.visitjeju.net/>
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
-title: 'Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?'
+image: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
+image_commercial_use: true
+image_creator: naegeon
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/c%E1%BB%AD-kinh-doanh-v%C3%A0-qu%C3%A9t-kim-chi-2640909/
+slug: cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc 2026
@@ -58,15 +52,23 @@ tags:
 - ẩm thực Hàn Quốc
 - chợ Hàn Quốc
 - series du lịch
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju
+thumbnail: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
+title: 'Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Seoul (Gwangjang, Namdaemun), Busan (Jagalchi, Gukje), Jeju (Dongmun)
+- label: Loại trải nghiệm
+  value: Ẩm thực, mua sắm, văn hóa
+- label: Hợp với
+  value: Ai cũng hợp, nhất là thích ăn uống
+- label: Thời gian nên dành
+  value: 1–3 giờ/chợ
+- label: Đi mùa nào hợp
+  value: Quanh năm
+- label: Có cần đặt trước không
+  value: Không
 ---
+
 Một điều thú vị mình để ý trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) là chủ đề "chợ địa phương" xuất hiện tới 3 lần — Seoul, Busan và Jeju. Nói lên rằng du khách bây giờ muốn ăn uống và mua sắm như người địa phương, chứ không chỉ la cà trung tâm thương mại.
 
 **Seoul — Gwangjang Market vs Namdaemun**

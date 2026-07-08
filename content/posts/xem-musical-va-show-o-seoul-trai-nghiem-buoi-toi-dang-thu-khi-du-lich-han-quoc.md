@@ -1,17 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Daehangno (Jongno-gu, Seoul)'
-  - label: Loại trải nghiệm
-    value: 'Giải trí, văn hóa'
-  - label: Hợp với
-    value: 'Cặp đôi, nhóm bạn, fan nhạc kịch'
-  - label: Thời gian nên dành
-    value: 2–3 giờ (một show)
-  - label: Đi mùa nào hợp
-    value: Quanh năm
-  - label: Có cần đặt trước không
-    value: 'Nên đặt, nhất cuối tuần'
 ai_summary:
   collapsed: false
   enabled: true
@@ -42,8 +29,14 @@ external_links:
   url: https://english.visitseoul.net/>
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
-title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
-  Quốc'
+image: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
+image_commercial_use: true
+image_creator: HeungSoon
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/v%C3%B5ng-m%E1%BA%A1c-th%C3%A1ng-c%C3%B4ng-ty-seoul-fall-3780627/
+slug: xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc 2026
@@ -53,15 +46,24 @@ tags:
 - Daehangno
 - giải trí Hàn Quốc
 - series du lịch
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc
+thumbnail: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
+title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
+  Quốc'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Daehangno (Jongno-gu, Seoul)
+- label: Loại trải nghiệm
+  value: Giải trí, văn hóa
+- label: Hợp với
+  value: Cặp đôi, nhóm bạn, fan nhạc kịch
+- label: Thời gian nên dành
+  value: 2–3 giờ (một show)
+- label: Đi mùa nào hợp
+  value: Quanh năm
+- label: Có cần đặt trước không
+  value: Nên đặt, nhất cuối tuần
 ---
+
 Buổi tối ở Seoul không chỉ có Myeongdong mua sắm hay cà phê — theo mình, một trong những trải nghiệm đáng giá nhất là xem musical tại Daehangno. Hoạt động này xếp hạng 3 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và mình thấy xứng đáng vì đây là thứ bạn khó tìm được ở Việt Nam với chất lượng tương đương.
 
 **Daehangno — "Broadway của Hàn Quốc"**

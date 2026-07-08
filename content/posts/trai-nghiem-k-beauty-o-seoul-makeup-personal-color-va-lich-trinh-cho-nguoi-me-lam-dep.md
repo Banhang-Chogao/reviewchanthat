@@ -1,17 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Myeongdong, Seongsu, Mapo (Seoul)'
-  - label: Loại trải nghiệm
-    value: 'Làm đẹp, mua sắm'
-  - label: Hợp với
-    value: 'Người mê skincare, makeup, thích mỹ phẩm Hàn'
-  - label: Thời gian nên dành
-    value: '2–4 giờ (mua sắm), 2–3 giờ (workshop)'
-  - label: Đi mùa nào hợp
-    value: Quanh năm
-  - label: Có cần đặt trước không
-    value: 'Cần đặt workshop, không cần mua sắm'
 ai_summary:
   collapsed: false
   enabled: true
@@ -42,8 +29,14 @@ external_links:
   url: https://english.visitseoul.net/>
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
-title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người
-  mê làm đẹp'
+image: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
+image_commercial_use: true
+image_creator: viarami
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/kinh-doanh-ti%E1%BB%81n-nh%C3%A0-h%C3%A0ng-d%E1%BA%A5u-hi%E1%BB%87u-5475283/
+slug: trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc 2026
@@ -53,15 +46,24 @@ tags:
 - personal color
 - mỹ phẩm Hàn Quốc
 - series du lịch
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep
+thumbnail: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
+title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người
+  mê làm đẹp'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Myeongdong, Seongsu, Mapo (Seoul)
+- label: Loại trải nghiệm
+  value: Làm đẹp, mua sắm
+- label: Hợp với
+  value: Người mê skincare, makeup, thích mỹ phẩm Hàn
+- label: Thời gian nên dành
+  value: 2–4 giờ (mua sắm), 2–3 giờ (workshop)
+- label: Đi mùa nào hợp
+  value: Quanh năm
+- label: Có cần đặt trước không
+  value: Cần đặt workshop, không cần mua sắm
 ---
+
 Seoul là kinh đô làm đẹp của châu Á, và mình dám chắc nếu bạn mê skincare hay makeup thì trải nghiệm K-beauty sẽ là một trong những khoản chi đáng đồng tiền nhất chuyến đi. Hoạt động này xếp hạng 10 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình, nó xứng đáng ở vị trí cao hơn nếu bạn thuộc tuýp người thích làm đẹp.
 
 **Mua sắm mỹ phẩm ở Myeongdong**

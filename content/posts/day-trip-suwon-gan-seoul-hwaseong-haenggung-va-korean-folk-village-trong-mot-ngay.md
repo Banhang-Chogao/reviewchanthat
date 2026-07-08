@@ -1,17 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Suwon và Yongin, Gyeonggi-do (cách Seoul 30–50 phút tàu)'
-  - label: Loại trải nghiệm
-    value: 'Di sản, văn hóa, lịch sử'
-  - label: Hợp với
-    value: 'Ai cũng hợp — gia đình, bạn bè, đi một mình'
-  - label: Thời gian nên dành
-    value: 5–8 giờ (cả ngày)
-  - label: Đi mùa nào hợp
-    value: Xuân và thu đẹp nhất
-  - label: Có cần đặt trước không
-    value: Không cần (trừ Korean Folk Village có thể đặt trước)
 ai_summary:
   collapsed: false
   enabled: true
@@ -45,8 +32,14 @@ external_links:
   url: https://www.koreanfolkvillage.co.kr/>
 - title: https://www.suwon.go.kr/>
   url: https://www.suwon.go.kr/>
-title: 'Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong
-  một ngày'
+image: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
+image_commercial_use: true
+image_creator: viarami
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/kinh-doanh-ti%E1%BB%81n-nh%C3%A0-h%C3%A0ng-d%E1%BA%A5u-hi%E1%BB%87u-5475283/
+slug: day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc 2026
@@ -56,15 +49,24 @@ tags:
 - Korean Folk Village
 - day trip Seoul
 - series du lịch
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay
+thumbnail: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
+title: 'Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong
+  một ngày'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Suwon và Yongin, Gyeonggi-do (cách Seoul 30–50 phút tàu)
+- label: Loại trải nghiệm
+  value: Di sản, văn hóa, lịch sử
+- label: Hợp với
+  value: Ai cũng hợp — gia đình, bạn bè, đi một mình
+- label: Thời gian nên dành
+  value: 5–8 giờ (cả ngày)
+- label: Đi mùa nào hợp
+  value: Xuân và thu đẹp nhất
+- label: Có cần đặt trước không
+  value: Không cần (trừ Korean Folk Village có thể đặt trước)
 ---
+
 Nếu bạn chỉ có một ngày và muốn trải nghiệm văn hóa Hàn Quốc đúng nghĩa, Suwon là lựa chọn dễ nhất. Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), Suwon có ba điểm: Hwaseong Fortress (hạng 13), Hwaseong Haenggung (hạng 14) và Korean Folk Village (hạng 19).
 
 Cả ba đều đi được trong một ngày. Nhưng theo mình, nếu bạn muốn thoải mái, chọn 2 trong 3 là vừa.

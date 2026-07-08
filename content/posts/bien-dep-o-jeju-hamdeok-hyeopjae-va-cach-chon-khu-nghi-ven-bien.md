@@ -1,17 +1,4 @@
 ---
-tom_tat_nhanh:
-  - label: Khu vực
-    value: 'Hamdeok (đông Jeju), Hyeopjae (tây Jeju), Seogwipo (nam Jeju)'
-  - label: Loại trải nghiệm
-    value: 'Nghỉ dưỡng, tắm biển'
-  - label: Hợp với
-    value: 'Gia đình (Hamdeok), cặp đôi (Hyeopjae), ai cũng được'
-  - label: Thời gian nên dành
-    value: Nửa ngày đến 1 ngày/bãi
-  - label: Đi mùa nào hợp
-    value: 'Hè (tháng 6–8) tắm biển, xuân thu đi dạo'
-  - label: Có cần đặt trước không
-    value: 'Không (bãi biển), có (resort)'
 ai_summary:
   collapsed: false
   enabled: true
@@ -43,7 +30,14 @@ external_links:
   url: https://www.visitjeju.net/>
 - title: https://www.visitjeju.net/en/>
   url: https://www.visitjeju.net/en/>
-title: 'Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển'
+image: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
+image_commercial_use: true
+image_creator: allybally4b
+image_license: Pixabay Content License
+image_owner: external
+image_source: Pixabay
+image_source_url: https://pixabay.com/vi/photos/reed-ionantha-n%C3%A5ltillandsia-4026353/
+slug: bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien
 tags:
 - du lịch Hàn Quốc
 - Hàn Quốc 2026
@@ -53,15 +47,23 @@ tags:
 - Hyeopjae
 - resort Jeju
 - series du lịch
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-image_license: Unsplash License
-image_commercial_use: true
-image_owner: external
-slug: bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien
+thumbnail: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
+title: 'Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển'
+tom_tat_nhanh:
+- label: Khu vực
+  value: Hamdeok (đông Jeju), Hyeopjae (tây Jeju), Seogwipo (nam Jeju)
+- label: Loại trải nghiệm
+  value: Nghỉ dưỡng, tắm biển
+- label: Hợp với
+  value: Gia đình (Hamdeok), cặp đôi (Hyeopjae), ai cũng được
+- label: Thời gian nên dành
+  value: Nửa ngày đến 1 ngày/bãi
+- label: Đi mùa nào hợp
+  value: Hè (tháng 6–8) tắm biển, xuân thu đi dạo
+- label: Có cần đặt trước không
+  value: Không (bãi biển), có (resort)
 ---
+
 Jeju không chỉ có núi lửa với bình minh — hòn đảo này còn sở hữu những bãi biển khiến nhiều người gọi Hamdeok là "Maldives của Hàn Quốc". Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), biển và resort Jeju đứng thứ 7, theo mình là hoàn toàn xứng đáng.
 
 
