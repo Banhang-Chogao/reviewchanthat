@@ -1,29 +1,6 @@
 {
-  "total_source_urls": 25,
-  "duplicate_source_urls": {
-    "https://unsplash.com/photos/1529973565459-1e38c5c2c1e5": [
-      "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
-      "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju"
-    ],
-    "https://unsplash.com/photos/1534274988757-a28bf1a57c17": [
-      "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
-      "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
-      "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
-      "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
-      "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
-      "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
-      "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
-      "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
-      "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
-      "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
-      "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
-      "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep"
-    ],
-    "https://unsplash.com/photos/1551698618-1dfe5facc91d": [
-      "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
-      "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong"
-    ]
-  },
+  "total_source_urls": 65,
+  "duplicate_source_urls": {},
   "duplicate_output_files": {},
   "perceptual_duplicates": [],
   "whitelisted_urls": []
