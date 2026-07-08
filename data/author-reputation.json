@@ -102,6 +102,37 @@
       "tier": 5,
       "icon": "👑",
       "rule": { "type": "min_posts", "value": 20 }
+    },
+    {
+      "id": "encyclopedia",
+      "name": "Bách Khoa Toàn Thư",
+      "description": "Đã chinh phục tất cả 5 chuyên mục trên blog.",
+      "tier": 4,
+      "icon": "📚",
+      "rule": { "type": "min_categories", "value": 5 }
+    },
+    {
+      "id": "writing-machine",
+      "name": "Cỗ Máy Bài",
+      "description": "Đã xuất bản ít nhất 50 bài viết — con số của một cỗ máy.",
+      "tier": 5,
+      "icon": "🤖",
+      "rule": { "type": "min_posts", "value": 50 }
+    },
+    {
+      "id": "versatile-hunter",
+      "name": "Thợ Săn Đa Năng",
+      "description": "Viết ít nhất 3 bài ở mỗi chuyên mục: Đời sống, Tài chính và Du lịch.",
+      "tier": 4,
+      "icon": "🏆",
+      "rule": {
+        "type": "multi_category_min",
+        "categories": {
+          "doi-song": 3,
+          "tai-chinh": 3,
+          "du-lich": 3
+        }
+      }
     }
   ],
   "founding_author_ids": ["minh-hoang"]

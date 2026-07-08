@@ -7,24 +7,18 @@
 {{- $published := where $authorPosts "Draft" false -}}
 {{- $postCount := len $published -}}
 
-{{- $categoryScratch := slice -}}
+{{- $categoryCounts := dict -}}
 {{- range $published -}}
   {{- range .Params.categories -}}
-    {{- $categoryScratch = $categoryScratch | append . -}}
+    {{- $key := . -}}
+    {{- $current := index $categoryCounts $key | default 0 -}}
+    {{- $categoryCounts = merge $categoryCounts (dict $key (add $current 1)) -}}
   {{- end -}}
 {{- end -}}
-{{- $categoryCount := len ($categoryScratch | uniq) -}}
+{{- $categoryCount := len $categoryCounts -}}
 
-{{- $techCount := 0 -}}
-{{- $reviewCount := 0 -}}
-{{- range $published -}}
-  {{- if in .Params.categories "cong-nghe" -}}
-    {{- $techCount = add $techCount 1 -}}
-  {{- end -}}
-  {{- if in .Params.categories "review" -}}
-    {{- $reviewCount = add $reviewCount 1 -}}
-  {{- end -}}
-{{- end -}}
+{{- $techCount := index $categoryCounts "cong-nghe" | default 0 -}}
+{{- $reviewCount := index $categoryCounts "review" | default 0 -}}
 
 {{- $isFounding := false -}}
 {{- with $rep.founding_author_ids -}}
@@ -77,14 +71,20 @@
       {{- $unlocked = true -}}
     {{- end -}}
   {{- else if eq $rule.type "min_category_posts" -}}
-    {{- if eq $rule.category "cong-nghe" -}}
-      {{- if ge $techCount $rule.value -}}
-        {{- $unlocked = true -}}
+    {{- $catCount := index $categoryCounts $rule.category | default 0 -}}
+    {{- if ge $catCount $rule.value -}}
+      {{- $unlocked = true -}}
+    {{- end -}}
+  {{- else if eq $rule.type "multi_category_min" -}}
+    {{- $allMet := true -}}
+    {{- range $cat, $min := $rule.categories -}}
+      {{- $count := index $categoryCounts $cat | default 0 -}}
+      {{- if lt $count $min -}}
+        {{- $allMet = false -}}
       {{- end -}}
-    {{- else if eq $rule.category "review" -}}
-      {{- if ge $reviewCount $rule.value -}}
-        {{- $unlocked = true -}}
-      {{- end -}}
+    {{- end -}}
+    {{- if $allMet -}}
+      {{- $unlocked = true -}}
     {{- end -}}
   {{- else if eq $rule.type "founding" -}}
     {{- if $isFounding -}}
@@ -99,6 +99,7 @@
   "categoryCount" $categoryCount
   "techCount" $techCount
   "reviewCount" $reviewCount
+  "categoryCounts" $categoryCounts
   "currentTier" $currentTier
   "nextTier" $nextTier
   "hasNextTier" $hasNextTier
