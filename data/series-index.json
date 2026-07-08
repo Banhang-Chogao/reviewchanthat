@@ -111,7 +111,7 @@
           "date": "2026-07-08"
         },
         {
-          "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền",
+          "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực",
           "url": "european-commission-duoc-gi-khi-thang-apple/",
           "order": 7,
           "date": "2026-07-08"
@@ -596,6 +596,50 @@
           "title": "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app",
           "url": "chuan-bi-macbook-truoc-khi-len-macos-27/",
           "order": 9,
+          "date": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "id": "starbucks-vietnam",
+      "title": "Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế",
+      "url": "series/starbucks-vietnam/",
+      "count": 6,
+      "posts": [
+        {
+          "title": "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam",
+          "url": "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam/",
+          "order": 1,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon",
+          "url": "starbucks-nguyen-van-troi-sai-gon-review/",
+          "order": 2,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu",
+          "url": "starbucks-vietnam-menu-do-uong-nen-thu/",
+          "order": 3,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt",
+          "url": "starbucks-vietnam-nhan-vien-va-dich-vu/",
+          "order": 4,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\"",
+          "url": "starbucks-vietnam-khong-gian-va-trai-nghiem/",
+          "order": 5,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu",
+          "url": "starbucks-vietnam-meo-goi-order-va-rewards/",
+          "order": 6,
           "date": "2026-07-08"
         }
       ]
