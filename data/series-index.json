@@ -205,6 +205,80 @@
       ]
     },
     {
+      "id": "di-han-thang-11",
+      "title": "Đi Hàn tháng 11",
+      "url": "series/di-han-thang-11/",
+      "count": 11,
+      "posts": [
+        {
+          "title": "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên",
+          "url": "di-han-thang-11-co-dep-khong/",
+          "order": 1,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
+          "url": "thoi-tiet-han-quoc-thang-11/",
+          "order": 2,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
+          "url": "han-quoc-thang-11-co-la-do-chua/",
+          "order": 3,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
+          "url": "di-han-thang-11-mac-gi/",
+          "order": 4,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Seoul tháng 11 nên đi đâu? Lịch trình 3 ngày ngắm peak lá đỏ",
+          "url": "seoul-thang-11-nen-di-dau/",
+          "order": 5,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul",
+          "url": "nami-thang-11-co-dang-di-khong/",
+          "order": 6,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?",
+          "url": "seoraksan-thang-11-ngam-la-do/",
+          "order": 7,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ",
+          "url": "busan-thang-11-nen-di-dau/",
+          "order": 8,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày",
+          "url": "jeju-thang-11-co-dep-khong/",
+          "order": 9,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
+          "url": "lich-trinh-di-han-thang-11-5-ngay-4-dem/",
+          "order": 10,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Chi phí đi Hàn tháng 11 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
+          "url": "chi-phi-di-han-thang-11-tu-tuc/",
+          "order": 11,
+          "date": "2026-07-08"
+        }
+      ]
+    },
+    {
       "id": "du-lich",
       "title": "Du lịch Hàn Quốc 2026",
       "url": "series/du-lich/",
