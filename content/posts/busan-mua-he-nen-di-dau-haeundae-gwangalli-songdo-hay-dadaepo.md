@@ -3,30 +3,37 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Busan có 4 bãi biển chính: Haeundae (sầm uất), Gwangalli (ngắm cầu), Songdo (cable car), Dadaepo (gia đình).
-  - Mỗi bãi biển có đặc điểm riêng — Haeundae đông nhất, Gwangalli lãng mạn nhất, Songdo yên tĩnh nhất.
+  - Busan có 4 bãi biển chính: Haeundae (sầm uất), Gwangalli (ngắm cầu), Songdo (cable
+      car), Dadaepo (gia đình).
+  - Mỗi bãi biển có đặc điểm riêng — Haeundae đông nhất, Gwangalli lãng mạn nhất,
+    Songdo yên tĩnh nhất.
   - Bài viết so sánh chi tiết và gợi ý lịch trình 3 ngày Busan mùa hè.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.visitbusan.net, https://www.koreatodo.com/busan.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo và Dadaepo — bãi biển nào phù hợp nhất cho chuyến đi của bạn?'
+description: Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo và Dadaepo
+  — bãi biển nào phù hợp nhất cho chuyến đi của bạn?
 draft: false
 faq:
-- answer: Haeundae nếu thích sầm uất, Gwangalli nếu thích lãng mạn, Dadaepo nếu đi gia đình.
+- answer: Haeundae nếu thích sầm uất, Gwangalli nếu thích lãng mạn, Dadaepo nếu đi
+    gia đình.
   question: Bãi biển Busan nào đẹp nhất?
 - answer: Haeundae. Gần ga KTX Busan, metro tuyến 2, nhiều nhà hàng và khách sạn.
   question: Bãi biển nào thuận tiện nhất?
-- answer: Songdo và Dadaepo. Songdo có cable car, Dadaepo có bãi tắm nông và công viên.
+- answer: Songdo và Dadaepo. Songdo có cable car, Dadaepo có bãi tắm nông và công
+    viên.
   question: Bãi biển nào yên tĩnh nhất?
 image: images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp
 image_commercial_use: true
-image_creator: Lee Minho
+image_creator: thuan Nguyen
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -48,6 +55,9 @@ internal_links:
   title: Hàn Quốc tháng 8 nên đi đâu?
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng
+series: du-lich-han-quoc-mua-he
+series_order: 5
+series_title: Du lịch Hàn Quốc mùa hè
 slug: busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo
 tags:
 - Busan
@@ -57,10 +67,7 @@ tags:
 - Gwangalli
 - series du lịch
 thumbnail: images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 5
-title: 'Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?'
+title: Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?
 tom_tat_nhanh:
 - label: Thời gian
   value: 2–3 ngày

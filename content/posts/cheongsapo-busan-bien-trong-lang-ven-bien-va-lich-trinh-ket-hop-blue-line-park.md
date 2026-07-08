@@ -40,6 +40,7 @@ faq:
 image: images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp
 image_commercial_use: true
 image_creator: Alvin & Chelsea
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

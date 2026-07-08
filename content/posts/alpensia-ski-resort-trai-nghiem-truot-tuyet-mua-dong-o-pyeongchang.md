@@ -41,6 +41,7 @@ faq:
 image: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
 image_commercial_use: true
 image_creator: 정규송 Nui MALAMA
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

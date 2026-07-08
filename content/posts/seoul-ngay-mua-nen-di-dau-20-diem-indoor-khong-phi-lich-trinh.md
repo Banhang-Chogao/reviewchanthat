@@ -35,6 +35,7 @@ faq:
 image: images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp
 image_commercial_use: true
 image_creator: Nuhyil Ahammed
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

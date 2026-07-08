@@ -31,6 +31,7 @@ faq:
 image: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
 image_commercial_use: true
 image_creator: Lu Zhao
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

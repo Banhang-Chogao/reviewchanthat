@@ -41,6 +41,7 @@ faq:
 image: images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp
 image_commercial_use: true
 image_creator: Stanislav Kondratiev
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

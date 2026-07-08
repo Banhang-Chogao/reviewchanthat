@@ -49,6 +49,7 @@ faq:
 image: images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp
 image_commercial_use: true
 image_creator: Kharl Anthony Paica
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

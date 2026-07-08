@@ -37,6 +37,7 @@ faq:
 image: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
 image_commercial_use: true
 image_creator: joon young, Park
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

@@ -30,6 +30,8 @@ image: images/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/thai-candle-festival-sculpture-5712567/
 slug: ubon-ratchathani-candle-festival-thai-lan-thang-7

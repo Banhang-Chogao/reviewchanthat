@@ -83,6 +83,7 @@ faq:
 image: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
 image_commercial_use: true
 image_creator: Tuấn Kiệt Jr.
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

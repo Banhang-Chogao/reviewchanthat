@@ -34,6 +34,7 @@ external_links:
 image: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
 image_commercial_use: true
 image_creator: tom  Lok
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

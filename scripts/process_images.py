@@ -21,6 +21,22 @@ POSTS_DIR = "static/images/posts"
 CONTENT_DIR = "content/posts"
 
 
+def clean_text(value):
+    if isinstance(value, str):
+        return value.strip()
+    return ""
+
+
+def watermark_attribution(source, creator):
+    source = clean_text(source)
+    creator = clean_text(creator)
+    if not source:
+        return ""
+    if creator:
+        return f"Source: {source} / {creator}"
+    return f"Source: {source}"
+
+
 def load_manifest():
     if not os.path.exists(IMAGES_MANIFEST_PATH):
         print(f"ERROR: {IMAGES_MANIFEST_PATH} not found. Run select_images.py first.")
@@ -126,7 +142,8 @@ def clear_post_image(slug):
             if post.metadata.get("slug") == slug:
                 meta = post.metadata
                 for key in ["image", "thumbnail", "image_source", "image_source_url",
-                            "image_license", "image_commercial_use", "image_owner", "image_creator"]:
+                            "image_license", "image_commercial_use", "image_owner",
+                            "image_creator", "image_creator_url"]:
                     meta.pop(key, None)
                 meta["image_status"] = "needs_image"
                 with open(os.path.join(CONTENT_DIR, f), "w", encoding="utf-8") as fh:
@@ -138,7 +155,8 @@ def clear_post_image(slug):
 
 
 def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url,
-                            license_val, commercial_use, owner="external", creator=""):
+                            license_val, commercial_use, owner="external", creator="",
+                            creator_url=""):
     import frontmatter
     fname = None
     for f in os.listdir(CONTENT_DIR):
@@ -163,8 +181,8 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
     meta["image_license"] = license_val
     meta["image_commercial_use"] = commercial_use
     meta["image_owner"] = owner
-    if creator:
-        meta["image_creator"] = creator
+    meta["image_creator"] = clean_text(creator)
+    meta["image_creator_url"] = clean_text(creator_url) if clean_text(creator) else ""
     meta.pop("image_status", None)
     with open(fpath, "w", encoding="utf-8") as f:
         f.write(frontmatter.dumps(post))
@@ -184,7 +202,13 @@ def main():
         direct_url = entry.get("direct_url", "")
         src_path = entry.get("local_source_path", f"static/images/posts-src/{slug}.jpg")
         dest_path = entry.get("output_path", f"static/images/posts/{slug}.webp")
-        watermark = entry.get("watermark_text", "")
+        source = entry.get("source_platform", "")
+        source_url = entry.get("source_url", "")
+        license_val = entry.get("license", "")
+        commercial = entry.get("commercial_use", False)
+        creator = entry.get("creator", "")
+        creator_url = entry.get("creator_url", "") if clean_text(creator) else ""
+        watermark = watermark_attribution(source, creator)
 
         print(f"\n  [{slug}]")
 
@@ -198,6 +222,18 @@ def main():
             fsize = os.path.getsize(dest_path)
             if fsize > 5000 and not has_placeholder_characteristics(dest_path):
                 print(f"    Already processed (real image): {dest_path} ({fsize} bytes)")
+                update_post_frontmatter(
+                    slug=slug,
+                    image_path=f"images/posts/{slug}.webp",
+                    thumbnail_path=f"images/posts/{slug}.webp",
+                    source=source,
+                    source_url=source_url,
+                    license_val=license_val,
+                    commercial_use=commercial,
+                    owner="external",
+                    creator=creator,
+                    creator_url=creator_url,
+                )
                 skipped += 1
                 continue
             else:
@@ -232,12 +268,6 @@ def main():
             failed += 1
             continue
 
-        source = entry.get("source_platform", "")
-        source_url = entry.get("source_url", "")
-        license_val = entry.get("license", "")
-        commercial = entry.get("commercial_use", False)
-        creator = entry.get("creator", "")
-
         update_post_frontmatter(
             slug=slug,
             image_path=f"images/posts/{slug}.webp",
@@ -248,6 +278,7 @@ def main():
             commercial_use=commercial,
             owner="external",
             creator=creator,
+            creator_url=creator_url,
         )
         success += 1
 

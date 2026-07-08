@@ -41,6 +41,7 @@ faq:
 image: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
 image_commercial_use: true
 image_creator: Nghia .8pm
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

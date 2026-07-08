@@ -22,6 +22,8 @@ image: images/posts/chiang-mai-mua-mua-co-gi-dep.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/golden-buddha-statue-at-doi-suthep-chiang-mai-14211124/
 slug: chiang-mai-mua-mua-co-gi-dep

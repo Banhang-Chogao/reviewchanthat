@@ -24,6 +24,8 @@ image: images/posts/checklist-vali-di-thai-mua-mua.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/couple-packing-clothes-and-belongings-in-suitcase-4245895/
 slug: checklist-vali-di-thai-mua-mua

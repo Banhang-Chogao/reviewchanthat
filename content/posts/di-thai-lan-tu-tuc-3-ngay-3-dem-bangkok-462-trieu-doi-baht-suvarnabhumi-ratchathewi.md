@@ -35,6 +35,8 @@ image: images/posts/di-thai-lan-tu-tuc-bangkok-3-ngay-3-dem.webp
 image_commercial_use: true
 image_license: Pixabay Content License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pixabay
 image_source_url: https://pixabay.com/photos/bangkok-river-market-boats-5863391/
 series: du-lich-thai-lan

@@ -39,6 +39,7 @@ faq:
 image: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
 image_commercial_use: true
 image_creator: AlphaTradeZone
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

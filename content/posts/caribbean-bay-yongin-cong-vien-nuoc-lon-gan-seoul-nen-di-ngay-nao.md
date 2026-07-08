@@ -42,6 +42,7 @@ faq:
 image: images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp
 image_commercial_use: true
 image_creator: KOREAN JH
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

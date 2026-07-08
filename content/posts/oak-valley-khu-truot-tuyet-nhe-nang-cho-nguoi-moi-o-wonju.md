@@ -42,6 +42,7 @@ faq:
 image: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
 image_commercial_use: true
 image_creator: pipop kunachon
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

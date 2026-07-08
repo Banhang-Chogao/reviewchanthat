@@ -22,6 +22,8 @@ image: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/bangkok-cityscape-at-sunset-with-traffic-37835945/
 slug: bangkok-3-ngay-3-dem-mua-mua

@@ -22,6 +22,8 @@ image: images/posts/phuket-mua-mua-co-nen-di-khong.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/tropical-beach-in-phuket-thailand-with-scenic-views-36687407/
 slug: phuket-mua-mua-co-nen-di-khong

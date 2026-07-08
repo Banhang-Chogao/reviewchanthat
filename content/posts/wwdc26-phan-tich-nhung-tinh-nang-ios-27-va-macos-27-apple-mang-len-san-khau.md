@@ -59,6 +59,7 @@ faq:
 image: images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp
 image_commercial_use: true
 image_creator: Thien Le Duy
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

@@ -30,6 +30,8 @@ image: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/thai-baht-banknotes-and-coins-730564/
 slug: doi-baht-o-viet-nam-hay-thai-lan

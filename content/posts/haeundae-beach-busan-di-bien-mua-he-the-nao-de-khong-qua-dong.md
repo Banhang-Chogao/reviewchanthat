@@ -44,6 +44,7 @@ faq:
 image: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
 image_commercial_use: true
 image_creator: Jhany Blue
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

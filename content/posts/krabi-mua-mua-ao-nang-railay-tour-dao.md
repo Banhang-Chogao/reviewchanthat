@@ -22,6 +22,8 @@ image: images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/railay-beach-in-krabi-thailand-27104227/
 slug: krabi-mua-mua-ao-nang-railay-tour-dao

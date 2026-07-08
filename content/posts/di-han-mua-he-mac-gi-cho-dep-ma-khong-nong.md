@@ -3,30 +3,37 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Mặc đồ chất liệu cotton, lanh, modal — thoáng mát, thấm hút mồ hôi, phù hợp thời tiết nóng ẩm Hàn Quốc.
-  - Phối đồ theo concept: năng động (jeans + áo thun), dịu dàng (đầm maxi), Hàn Quốc (blouse + chân váy).
+  - Mặc đồ chất liệu cotton, lanh, modal — thoáng mát, thấm hút mồ hôi, phù hợp thời
+    tiết nóng ẩm Hàn Quốc.
+  - Phối đồ theo concept: năng động (jeans + áo thun), dịu dàng (đầm maxi), Hàn Quốc
+      (blouse + chân váy).
   - Giày thể thao trắng là item không thể thiếu cho mọi outfit mùa hè.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn thời trang và du lịch.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, kinh nghiệm thực tế.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    thời trang và du lịch.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
+    kinh nghiệm thực tế.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Đi Hàn Quốc mùa hè mặc gì cho đẹp mà không nóng? Gợi ý outfit, chất liệu vải, phối đồ theo concept và mẹo chống nóng.'
+description: Đi Hàn Quốc mùa hè mặc gì cho đẹp mà không nóng? Gợi ý outfit, chất liệu
+  vải, phối đồ theo concept và mẹo chống nóng.
 draft: false
 faq:
 - answer: Cotton, lanh (linen), modal, bamboo — thoáng khí, thấm hút tốt.
   question: Mặc chất liệu gì cho mát?
-- answer: Đầm maxi hoặc blouse + chân váy chữ A. Giày thể thao trắng. Tóc buộc hoặc tết.
+- answer: Đầm maxi hoặc blouse + chân váy chữ A. Giày thể thao trắng. Tóc buộc hoặc
+    tết.
   question: Mặc gì cho ra dáng Hàn Quốc?
 - answer: Áo chống nắng, mũ, kính râm, kem chống nắng. Tránh vải nilon, bó sát.
   question: Cần tránh mặc gì?
 image: images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp
 image_commercial_use: true
-image_creator: IU
+image_creator: Huy Phan
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -52,6 +59,9 @@ internal_links:
   title: Top 20 hoạt động
 - ref: posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md
   title: Đi Jeju tháng 7-8
+series: du-lich-han-quoc-mua-he
+series_order: 13
+series_title: Du lịch Hàn Quốc mùa hè
 slug: di-han-mua-he-mac-gi-cho-dep-ma-khong-nong
 tags:
 - thời trang Hàn Quốc
@@ -60,10 +70,7 @@ tags:
 - mùa hè Hàn Quốc
 - series du lịch
 thumbnail: images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 13
-title: 'Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?'
+title: Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?
 tom_tat_nhanh:
 - label: Chất liệu
   value: Cotton, lanh, modal

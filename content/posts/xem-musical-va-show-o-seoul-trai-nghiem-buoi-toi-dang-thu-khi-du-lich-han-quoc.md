@@ -32,6 +32,7 @@ external_links:
 image: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
 image_commercial_use: true
 image_creator: Jeffry Surianto
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

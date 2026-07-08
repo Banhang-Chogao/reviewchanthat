@@ -36,6 +36,7 @@ external_links:
 image: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
 image_commercial_use: true
 image_creator: alde saputro
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

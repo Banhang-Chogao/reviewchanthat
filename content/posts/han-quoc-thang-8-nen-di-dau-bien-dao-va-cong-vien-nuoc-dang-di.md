@@ -32,6 +32,7 @@ faq:
 image: images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp
 image_commercial_use: true
 image_creator: piu aka
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

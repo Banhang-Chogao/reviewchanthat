@@ -37,6 +37,7 @@ faq:
 image: images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp
 image_commercial_use: true
 image_creator: Hiếu Lê
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

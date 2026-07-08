@@ -3,22 +3,74 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Chuẩn bị vali đi Hàn Quốc mùa hè cần chú trọng quần áo thoáng mát, đồ chống nắng và áo mưa gấp gọn.
-  - Nên mang 5–7 bộ quần áo, giày thể thao + dép, túi chống nước và kem chống nắng SPF 50+.
+  - Chuẩn bị vali đi Hàn Quốc mùa hè cần chú trọng quần áo thoáng mát, đồ chống nắng
+    và áo mưa gấp gọn.
+  - Nên mang 5–7 bộ quần áo, giày thể thao + dép, túi chống nước và kem chống nắng
+    SPF 50+.
   - Checklist chi tiết theo danh mục giúp bạn không quên món đồ quan trọng nào.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tổng hợp từ kinh nghiệm thực tế và tham khảo từ https://english.visitkorea.or.kr.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: Bài viết tổng hợp từ kinh nghiệm thực tế và tham khảo từ https://english.visitkorea.or.kr.
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
+checklist:
+- items:
+  - Hộ chiếu (còn hạn 6 tháng)
+  - Visa Hàn Quốc (nếu cần)
+  - KVE (K-ETA) bản in / ảnh chụp
+  - Bảo hiểm du lịch
+  - Đặt phòng, vé máy bay (bản mềm)
+  title: Giấy tờ
+- items:
+  - Áo thun cotton/lanh (5–7 cái)
+  - Quần short / chân váy (3–4 cái)
+  - Đầm maxi (2 cái — đi biển, đi chơi tối)
+  - Áo khoác mỏng / áo chống nắng
+  - Đồ bơi (nếu đi biển, công viên nước)
+  - Áo mưa gấp gọn (bắt buộc)
+  title: Quần áo
+- items:
+  - Giày thể thao thoáng khí
+  - Dép quai hậu / sandal
+  title: Giày dép
+- items:
+  - Kem chống nắng SPF 50+
+  - Sữa rửa mặt, dưỡng ẩm
+  - Lăn khử mùi
+  - Khăn giấy ướt
+  - Băng vệ sinh (nếu cần)
+  title: Mỹ phẩm & vệ sinh
+- items:
+  - Sạc dự phòng (10.000 mAh+)
+  - Cáp sạc (nhiều loại)
+  - Adapter chuyển đổi (Hàn dùng 2 chấu tròn)
+  - Tai nghe
+  - Máy ảnh (nếu có)
+  title: Đồ điện tử
+- items:
+  - Thuốc cảm, đau bụng
+  - Băng cá nhân
+  - Thuốc chống muỗi
+  - Men tiêu hóa
+  title: Thuốc & y tế
+- items:
+  - Túi chống nước (cho điện thoại)
+  - Mũ rộng vành
+  - Kính râm
+  - Túi đựng đồ ướt
+  - Gối cổ (máy bay)
+  title: Khác
 date: 2026-07-08 10:00:00+07:00
-description: 'Checklist vali đi Hàn Quốc mùa hè: mặc gì, mang gì? Danh sách đồ cần mang theo — quần áo, mỹ phẩm, thuốc, giấy tờ và đồ điện tử.'
+description: 'Checklist vali đi Hàn Quốc mùa hè: mặc gì, mang gì? Danh sách đồ cần
+  mang theo — quần áo, mỹ phẩm, thuốc, giấy tờ và đồ điện tử.'
 draft: false
 faq:
-- answer: Vải cotton, lanh, modal — thoáng mát, thấm hút mồ hôi. Áo thun, váy, quần short.
+- answer: Vải cotton, lanh, modal — thoáng mát, thấm hút mồ hôi. Áo thun, váy, quần
+    short.
   question: Mặc gì cho mát?
 - answer: Kem chống nắng SPF 50+, mũ rộng vành, kính râm, áo chống nắng.
   question: Cần đồ chống nắng gì?
@@ -26,7 +78,8 @@ faq:
   question: Vali 7kg có đủ không?
 image: images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp
 image_commercial_use: true
-image_creator: Bae Suzy
+image_creator: Mizuno K
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -56,6 +109,9 @@ internal_links:
   title: 10 điểm tránh nóng
 - ref: posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md
   title: Đi Jeju tháng 7-8
+series: du-lich-han-quoc-mua-he
+series_order: 12
+series_title: Du lịch Hàn Quốc mùa hè
 slug: checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua
 tags:
 - checklist
@@ -64,9 +120,6 @@ tags:
 - mùa hè Hàn Quốc
 - series du lịch
 thumbnail: images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 12
 title: 'Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa'
 tom_tat_nhanh:
 - label: Thời gian
@@ -79,53 +132,6 @@ tom_tat_nhanh:
   value: 1 giày + 1 dép
 - label: Mẹo
   value: Gấp gọn, dùng túi hút chân không
-checklist:
-- title: Giấy tờ
-  items:
-  - Hộ chiếu (còn hạn 6 tháng)
-  - Visa Hàn Quốc (nếu cần)
-  - KVE (K-ETA) bản in / ảnh chụp
-  - Bảo hiểm du lịch
-  - Đặt phòng, vé máy bay (bản mềm)
-- title: Quần áo
-  items:
-  - Áo thun cotton/lanh (5–7 cái)
-  - Quần short / chân váy (3–4 cái)
-  - Đầm maxi (2 cái — đi biển, đi chơi tối)
-  - Áo khoác mỏng / áo chống nắng
-  - Đồ bơi (nếu đi biển, công viên nước)
-  - Áo mưa gấp gọn (bắt buộc)
-- title: Giày dép
-  items:
-  - Giày thể thao thoáng khí
-  - Dép quai hậu / sandal
-- title: Mỹ phẩm & vệ sinh
-  items:
-  - Kem chống nắng SPF 50+
-  - Sữa rửa mặt, dưỡng ẩm
-  - Lăn khử mùi
-  - Khăn giấy ướt
-  - Băng vệ sinh (nếu cần)
-- title: Đồ điện tử
-  items:
-  - Sạc dự phòng (10.000 mAh+)
-  - Cáp sạc (nhiều loại)
-  - Adapter chuyển đổi (Hàn dùng 2 chấu tròn)
-  - Tai nghe
-  - Máy ảnh (nếu có)
-- title: Thuốc & y tế
-  items:
-  - Thuốc cảm, đau bụng
-  - Băng cá nhân
-  - Thuốc chống muỗi
-  - Men tiêu hóa
-- title: Khác
-  items:
-  - Túi chống nước (cho điện thoại)
-  - Mũ rộng vành
-  - Kính râm
-  - Túi đựng đồ ướt
-  - Gối cổ (máy bay)
 ---
 
 Chuẩn bị vali cho chuyến đi Hàn Quốc mùa hè không khó — chỉ cần biết mang gì và bỏ gì. Bài viết này là checklist đầy đủ giúp bạn không quên thứ gì.

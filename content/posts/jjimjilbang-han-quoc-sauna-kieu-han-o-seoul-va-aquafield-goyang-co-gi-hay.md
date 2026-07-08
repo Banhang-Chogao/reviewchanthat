@@ -36,6 +36,7 @@ external_links:
 image: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
 image_commercial_use: true
 image_creator: Pixabay
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

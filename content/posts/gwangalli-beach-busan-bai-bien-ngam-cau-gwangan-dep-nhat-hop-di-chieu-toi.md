@@ -49,6 +49,7 @@ faq:
 image: images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp
 image_commercial_use: true
 image_creator: Dennis Park
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

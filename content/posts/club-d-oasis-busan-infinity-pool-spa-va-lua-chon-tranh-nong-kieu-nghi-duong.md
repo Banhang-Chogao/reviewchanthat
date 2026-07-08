@@ -37,6 +37,7 @@ faq:
 image: images/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.webp
 image_commercial_use: true
 image_creator: Zsuzsa ZSUZSA
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

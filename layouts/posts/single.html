@@ -23,6 +23,7 @@
   {{ $image := .Params.image | default "images/posts/fallback.webp" }}
   <div class="post-featured-image">
     <img src="{{ $image | relURL }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
+    {{ $imageCreator := .Params.image_creator | default "" | strings.TrimSpace }}
     {{ with .Params.image_source }}
     <div class="post-image-attribution">
       Nguồn ảnh:
@@ -31,7 +32,7 @@
       {{ else }}
       {{ . }}
       {{ end }}
-      {{ with $.Params.image_creator }} / {{ . }}{{ end }}
+      {{ with $imageCreator }} / {{ . }}{{ end }}
     </div>
     {{ end }}
   </div>

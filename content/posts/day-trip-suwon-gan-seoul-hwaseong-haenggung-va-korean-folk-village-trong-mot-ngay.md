@@ -35,6 +35,7 @@ external_links:
 image: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
 image_commercial_use: true
 image_creator: CK Seng
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

@@ -40,6 +40,7 @@ faq:
 image: images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp
 image_commercial_use: true
 image_creator: nana liu
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

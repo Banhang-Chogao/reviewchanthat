@@ -3,30 +3,36 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Jeju tháng 7–8 có mưa nhưng không quá nhiều — trung bình 10–13 ngày mưa/tháng, mưa rào ngắn.
+  - Jeju tháng 7–8 có mưa nhưng không quá nhiều — trung bình 10–13 ngày mưa/tháng,
+    mưa rào ngắn.
   - Nên xếp lịch linh hoạt: sáng đi ngoài trời, chiều dự phòng indoor.
   - Các điểm indoor ở Jeju: thủy cung, bảo tàng, trung tâm thương mại, quán cà phê.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.kma.go.kr, https://www.visitjeju.net.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch trình dự phòng indoor cho chuyến đi không lo mưa.'
+description: Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch
+  trình dự phòng indoor cho chuyến đi không lo mưa.
 draft: false
 faq:
 - answer: Tháng 7 mưa 12–15 ngày, tháng 8 mưa 8–10 ngày. Mưa rào ngắn 1–3 tiếng.
   question: Jeju tháng 7-8 mưa nhiều không?
-- answer: Aqua Planet Jeju, Jeju Stone Park, bảo tàng, trung tâm thương mại, quán cà phê.
+- answer: Aqua Planet Jeju, Jeju Stone Park, bảo tàng, trung tâm thương mại, quán
+    cà phê.
   question: Jeju có điểm indoor nào không?
-- answer: Xếp điểm ngoài trời vào sáng sớm, điểm indoor vào chiều. Theo dõi dự báo trên app.
+- answer: Xếp điểm ngoài trời vào sáng sớm, điểm indoor vào chiều. Theo dõi dự báo
+    trên app.
   question: Làm sao để tránh mưa?
 image: images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp
 image_commercial_use: true
-image_creator: Yoo Jaesuk
+image_creator: nana liu
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -52,6 +58,9 @@ internal_links:
   title: Mặc gì mùa hè
 - ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
   title: Lịch trình Seoul 3 ngày mùa mưa
+series: du-lich-han-quoc-mua-he
+series_order: 8
+series_title: Du lịch Hàn Quốc mùa hè
 slug: di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong
 tags:
 - Jeju
@@ -60,10 +69,7 @@ tags:
 - mùa mưa
 - series du lịch
 thumbnail: images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 8
-title: 'Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng'
+title: Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng
 tom_tat_nhanh:
 - label: Tháng 7
   value: 12–15 ngày mưa

@@ -14,8 +14,76 @@ IMAGES_POSTS_DIR = "static/images/posts"
 AUDIT_REPORT_PATH = "data/image-audit-report.json"
 DEDUPE_REPORT_PATH = "data/image-dedupe-report.json"
 WHITELIST_PATH = "data/dupe-whitelist.json"
+IMAGES_MANIFEST_PATH = "data/images.json"
 
 FALLBACK_PATHS = {"images/posts/fallback.webp", "images/fallback.webp"}
+
+BLOCKED_CREATOR_NAMES = {
+    "park bogum",
+    "park bo-gum",
+    "bae suzy",
+    "iu",
+    "yoo jaesuk",
+    "choi wooshik",
+    "lee minho",
+    "lee min ho",
+    "kim soo hyun",
+    "song hye kyo",
+}
+
+BLOCKED_CREATOR_PHRASES = {
+    "unknown photographer",
+    "photographer unknown",
+    "unknown creator",
+    "creator unknown",
+    "placeholder",
+}
+
+
+def clean_text(value):
+    if isinstance(value, str):
+        return value.strip()
+    return ""
+
+
+def normalized(value):
+    return " ".join(clean_text(value).casefold().split())
+
+
+def is_blocked_creator(value):
+    value_norm = normalized(value)
+    if not value_norm:
+        return False
+    if value_norm in BLOCKED_CREATOR_NAMES:
+        return True
+    return any(phrase in value_norm for phrase in BLOCKED_CREATOR_PHRASES)
+
+
+def generated_creator_value(value, meta, fname):
+    creator_norm = normalized(value)
+    if not creator_norm:
+        return False
+    generated_values = {
+        normalized(meta.get("title", "")),
+        normalized(meta.get("slug", "")),
+        normalized(fname),
+        normalized(os.path.splitext(fname)[0]),
+        normalized(meta.get("image", "")),
+        normalized(os.path.splitext(os.path.basename(meta.get("image", "")))[0]),
+    }
+    return creator_norm in {v for v in generated_values if v}
+
+
+def load_manifest_by_slug():
+    if not os.path.exists(IMAGES_MANIFEST_PATH):
+        return {}
+    with open(IMAGES_MANIFEST_PATH) as f:
+        manifest = json.load(f)
+    return {
+        clean_text(entry.get("slug")): entry
+        for entry in manifest.get("posts", [])
+        if clean_text(entry.get("slug"))
+    }
 
 
 def load_whitelist():
@@ -49,6 +117,7 @@ def has_placeholder_characteristics(filepath):
 def qa():
     errors = []
     whitelist = load_whitelist()
+    manifest_by_slug = load_manifest_by_slug()
     posts_dir = os.path.join(os.getcwd(), CONTENT_DIR)
     if not os.path.exists(posts_dir):
         print(f"FAIL: {CONTENT_DIR} not found")
@@ -78,6 +147,8 @@ def qa():
         commercial = meta.get("image_commercial_use", False)
         image_status = meta.get("image_status", "")
         image_source = meta.get("image_source", "")
+        image_creator = clean_text(meta.get("image_creator", ""))
+        image_creator_url = clean_text(meta.get("image_creator_url", ""))
 
         if not image:
             errors.append(f"[MISSING_IMAGE] {slug}")
@@ -114,6 +185,30 @@ def qa():
             errors.append(f"[COMMERCIAL_USE_NOT_TRUE] {slug}")
         if not image_source:
             errors.append(f"[MISSING_IMAGE_SOURCE] {slug}")
+
+        if is_blocked_creator(image_creator):
+            errors.append(f"[INVALID_IMAGE_CREATOR] {slug}: blocked creator value ({image_creator})")
+        if generated_creator_value(image_creator, meta, fname):
+            errors.append(f"[GENERATED_IMAGE_CREATOR] {slug}: creator appears derived from title/slug/file ({image_creator})")
+
+        manifest_entry = manifest_by_slug.get(slug)
+        if manifest_entry:
+            expected_creator = clean_text(manifest_entry.get("creator", ""))
+            expected_creator_url = clean_text(manifest_entry.get("creator_url", ""))
+            if expected_creator:
+                if not image_creator:
+                    errors.append(f"[MISSING_IMAGE_CREATOR] {slug}: manifest has provider creator ({expected_creator})")
+                elif image_creator != expected_creator:
+                    errors.append(f"[IMAGE_CREATOR_MISMATCH] {slug}: frontmatter={image_creator} manifest={expected_creator}")
+            elif image_creator:
+                errors.append(f"[UNVERIFIED_IMAGE_CREATOR] {slug}: no provider creator in manifest, frontmatter={image_creator}")
+
+            if image_creator_url and not image_creator:
+                errors.append(f"[IMAGE_CREATOR_URL_WITHOUT_CREATOR] {slug}: {image_creator_url}")
+            elif image_creator_url and not expected_creator_url:
+                errors.append(f"[UNVERIFIED_IMAGE_CREATOR_URL] {slug}: no provider creator_url in manifest, frontmatter={image_creator_url}")
+            elif image_creator_url and expected_creator_url and image_creator_url != expected_creator_url:
+                errors.append(f"[IMAGE_CREATOR_URL_MISMATCH] {slug}: frontmatter={image_creator_url} manifest={expected_creator_url}")
 
         if image_status == "needs_image":
             errors.append(f"[NEEDS_IMAGE] {slug}: post still needs a real image")

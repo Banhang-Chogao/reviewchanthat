@@ -33,6 +33,7 @@ external_links:
 image: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
 image_commercial_use: true
 image_creator: Kharl Anthony Paica
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

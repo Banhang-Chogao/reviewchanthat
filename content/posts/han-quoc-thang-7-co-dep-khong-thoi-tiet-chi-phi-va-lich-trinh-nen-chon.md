@@ -32,6 +32,7 @@ faq:
 image: images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp
 image_commercial_use: true
 image_creator: Nguyen Hung
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

@@ -3,8 +3,10 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Haeundae và Gwangalli là hai bãi biển nổi tiếng nhất Busan, mỗi nơi có phong cách khác nhau.
-  - Haeundae sầm uất, nhiều hoạt động thể thao nước, thích hợp nhóm bạn. Gwangalli lãng mạn, ngắm cầu Gwangan, thích hợp cặp đôi.
+  - Haeundae và Gwangalli là hai bãi biển nổi tiếng nhất Busan, mỗi nơi có phong cách
+    khác nhau.
+  - Haeundae sầm uất, nhiều hoạt động thể thao nước, thích hợp nhóm bạn. Gwangalli
+    lãng mạn, ngắm cầu Gwangan, thích hợp cặp đôi.
   - Bài viết so sánh chi tiết 10 tiêu chí giúp bạn chọn bãi biển phù hợp nhất.
   title: Tóm tắt bài viết
 attribution:
@@ -15,18 +17,22 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Haeundae vs Gwangalli: so sánh chi tiết hai bãi biển nổi tiếng nhất Busan. Nên chọn bãi nào cho chuyến du lịch mùa hè?'
+description: 'Haeundae vs Gwangalli: so sánh chi tiết hai bãi biển nổi tiếng nhất
+  Busan. Nên chọn bãi nào cho chuyến du lịch mùa hè?'
 draft: false
 faq:
-- answer: Haeundae cho nhóm bạn, Gwangalli cho cặp đôi. Haeundae đông vui, Gwangalli lãng mạn.
+- answer: Haeundae cho nhóm bạn, Gwangalli cho cặp đôi. Haeundae đông vui, Gwangalli
+    lãng mạn.
   question: Nên chọn Haeundae hay Gwangalli?
-- answer: Haeundae xa hơn (ga Haeundae, tuyến 2). Gwangalli gần trung tâm hơn (ga Gwangan, tuyến 2).
+- answer: Haeundae xa hơn (ga Haeundae, tuyến 2). Gwangalli gần trung tâm hơn (ga
+    Gwangan, tuyến 2).
   question: Bãi biển nào gần trung tâm hơn?
 - answer: Haeundae có nhiều hoạt động hơn. Gwangalli cũng có nhưng ít lựa chọn.
   question: Bãi nào có nhiều hoạt động thể thao nước hơn?
 image: images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp
 image_commercial_use: true
-image_creator: Park Bogum
+image_creator: Jhany Blue
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -52,6 +58,9 @@ internal_links:
   title: 10 điểm tránh nóng
 - ref: posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md
   title: Chợ địa phương Hàn Quốc
+series: du-lich-han-quoc-mua-he
+series_order: 6
+series_title: Du lịch Hàn Quốc mùa hè
 slug: haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan
 tags:
 - Busan
@@ -60,9 +69,6 @@ tags:
 - biển Hàn Quốc
 - series du lịch
 thumbnail: images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 6
 title: 'Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?'
 tom_tat_nhanh:
 - label: Haeundae

@@ -29,6 +29,8 @@ image: images/posts/o-khu-nao-bangkok-mua-mua.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/bangkok-skytrain-bts-at-siam-station-28503555/
 slug: o-khu-nao-bangkok-mua-mua

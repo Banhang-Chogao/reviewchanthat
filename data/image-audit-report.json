@@ -1,11 +1,12 @@
 {
   "total_posts": 65,
   "summary": {
-    "valid": 52,
+    "valid": 65,
     "missing_image": 0,
-    "broken_image_path": 13,
+    "broken_image_path": 0,
     "missing_license_metadata": 0,
-    "duplicate_image": 0
+    "duplicate_image": 0,
+    "invalid_image_creator": 0
   },
   "duplicates": {},
   "posts": [
@@ -21,6 +22,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Pixabay",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -47,6 +50,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "정규송 Nui MALAMA",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Alpensia",
@@ -73,6 +78,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Bangkok 3 ngày 3 đêm",
         "lịch trình Bangkok mùa mưa",
@@ -96,6 +103,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Bangkok ngày mưa",
         "điểm indoor Bangkok",
@@ -119,6 +128,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Kharl Anthony Paica",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -136,10 +147,8 @@
     {
       "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
       "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp",
       "thumbnail": "images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp",
       "image_source": "Pexels",
@@ -147,6 +156,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "thuan Nguyen",
+      "image_creator_url": "",
       "tags": [
         "Busan",
         "biển Hàn Quốc",
@@ -171,6 +182,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Ron Lach",
+      "image_creator_url": "",
       "tags": [
         "kỹ năng đọc review",
         "tiêu dùng thông minh"
@@ -191,6 +204,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Thanh Long Bùi",
+      "image_creator_url": "",
       "tags": [
         "mua sắm thông minh",
         "thói quen",
@@ -204,10 +219,8 @@
     {
       "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
       "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp",
       "thumbnail": "images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp",
       "image_source": "Pexels",
@@ -215,6 +228,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "marclyc li",
+      "image_creator_url": "",
       "tags": [
         "Caribbean Bay",
         "Everland",
@@ -238,6 +253,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "KOREAN JH",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -263,6 +280,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Tara Winstead",
+      "image_creator_url": "",
       "tags": [
         "mua sắm online",
         "checklist",
@@ -276,10 +295,8 @@
     {
       "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
       "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp",
       "thumbnail": "images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp",
       "image_source": "Pexels",
@@ -287,6 +304,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Mizuno K",
+      "image_creator_url": "",
       "tags": [
         "checklist",
         "vali đi Hàn Quốc",
@@ -310,6 +329,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "checklist vali Thái Lan",
         "đi Thái Lan mùa mưa",
@@ -333,6 +354,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Alvin & Chelsea",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -358,6 +381,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Chiang Mai mùa mưa",
         "du lịch Thái Lan",
@@ -381,6 +406,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Đan Thy Nguyễn Mai",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -408,6 +435,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Zsuzsa ZSUZSA",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -434,6 +463,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "CK Seng",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -460,6 +491,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Theodore Nguyen",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -478,10 +511,8 @@
     {
       "slug": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
       "title": "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp",
       "thumbnail": "images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp",
       "image_source": "Pexels",
@@ -489,6 +520,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Huy Phan",
+      "image_creator_url": "",
       "tags": [
         "thời trang Hàn Quốc",
         "mặc gì đi Hàn Quốc",
@@ -503,10 +536,8 @@
     {
       "slug": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
       "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp",
       "thumbnail": "images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp",
       "image_source": "Pexels",
@@ -514,6 +545,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "nana liu",
+      "image_creator_url": "",
       "tags": [
         "Jeju",
         "thời tiết Jeju",
@@ -537,6 +570,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "đi Thái Lan tháng 7",
         "du lịch Thái Lan tháng 7",
@@ -560,6 +595,8 @@
       "image_license": "Pixabay Content License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "du lịch Thái Lan",
         "Bangkok tự túc",
@@ -584,6 +621,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Co Hai",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -610,6 +649,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "đổi baht",
         "tỷ giá Thái Lan",
@@ -624,17 +665,17 @@
     {
       "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
       "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp",
       "thumbnail": "images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/seoul-cityscape-summer-29188036/",
+      "image_source_url": "https://www.pexels.com/photo/crowd-of-tourists-on-the-walkway-in-bukchon-hanok-village-20325769/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Line Knipst",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -658,6 +699,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "du lịch Thái Lan mùa mưa",
         "Bangkok mùa mưa",
@@ -681,6 +724,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Zszen John",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Elysian Gangchon",
@@ -707,6 +752,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Dennis Park",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -732,6 +779,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Jhany Blue",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -747,10 +796,8 @@
     {
       "slug": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
       "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp",
       "thumbnail": "images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp",
       "image_source": "Pexels",
@@ -758,6 +805,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Jhany Blue",
+      "image_creator_url": "",
       "tags": [
         "Busan",
         "Haeundae",
@@ -772,17 +821,17 @@
     {
       "slug": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
       "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp",
       "thumbnail": "images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/busan-rainy-summer-29188038/",
+      "image_source_url": "https://www.pexels.com/photo/woman-in-hanbok-dress-holding-umbrella-11095924/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Nguyen Hung",
+      "image_creator_url": "",
       "tags": [
         "Hàn Quốc tháng 7",
         "du lịch Hàn Quốc",
@@ -796,17 +845,17 @@
     {
       "slug": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
       "title": "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp",
       "thumbnail": "images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/jeju-summer-beach-29188039/",
+      "image_source_url": "https://www.pexels.com/photo/aerial-photography-of-city-buildings-13045678/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "piu aka",
+      "image_creator_url": "",
       "tags": [
         "Hàn Quốc tháng 8",
         "du lịch Hàn Quốc",
@@ -830,6 +879,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Dominik Gryzbon",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "High1",
@@ -847,17 +898,17 @@
     {
       "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
       "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp",
       "thumbnail": "images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/jeju-island-summer-beach-29188042/",
+      "image_source_url": "https://www.pexels.com/photo/traditional-huts-in-village-18023250/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "SOO CHUL PARK",
+      "image_creator_url": "",
       "tags": [
         "Jeju",
         "du lịch Jeju",
@@ -881,6 +932,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Pixabay",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -907,6 +960,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "nana liu",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -931,6 +986,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Koh Samui mùa hè",
         "du lịch Thái Lan",
@@ -954,6 +1011,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Krabi mùa mưa",
         "du lịch Thái Lan",
@@ -968,17 +1027,17 @@
     {
       "slug": "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau",
       "title": "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp",
       "thumbnail": "images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/seoul-rainy-street-29188046/",
+      "image_source_url": "https://www.pexels.com/photo/light-display-over-illuminated-city-at-night-18495176/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Gije Cho",
+      "image_creator_url": "",
       "tags": [
         "Seoul",
         "lịch trình Seoul",
@@ -1002,6 +1061,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Nghia .8pm",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -1026,6 +1087,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "tom  Lok",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -1052,6 +1115,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "ở khu nào Bangkok",
         "Siam Bangkok",
@@ -1075,6 +1140,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "pipop kunachon",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Oak Valley",
@@ -1092,17 +1159,17 @@
     {
       "slug": "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul",
       "title": "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp",
       "thumbnail": "images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/water-park-aerial-view-29188045/",
+      "image_source_url": "https://www.pexels.com/photo/silhouette-of-a-man-standing-in-front-of-a-huge-tank-in-an-aquarium-10431750/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Lu Zhao",
+      "image_creator_url": "",
       "tags": [
         "công viên nước Hàn Quốc",
         "Caribbean Bay",
@@ -1126,6 +1193,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Phuket mùa mưa",
         "du lịch Thái Lan tháng 7",
@@ -1149,6 +1218,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "AlphaTradeZone",
+      "image_creator_url": "",
       "tags": [
         "benchmark",
         "trải nghiệm thật",
@@ -1162,17 +1233,17 @@
     {
       "slug": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
       "title": "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình",
-      "status": "broken_image_path",
-      "issues": [
-        "local_file_not_found"
-      ],
+      "status": "valid",
+      "issues": [],
       "image": "images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp",
       "thumbnail": "images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/coex-mall-seoul-29188037/",
+      "image_source_url": "https://www.pexels.com/photo/people-walking-in-town-in-rain-17691635/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Nuhyil Ahammed",
+      "image_creator_url": "",
       "tags": [
         "Seoul",
         "mùa mưa Hàn Quốc",
@@ -1196,6 +1267,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Kharl Anthony Paica",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -1221,6 +1294,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Quang Nguyen Vinh",
+      "image_creator_url": "",
       "tags": [
         "so sánh",
         "giá cả",
@@ -1244,6 +1319,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Suvarnabhumi",
         "Airport Rail Link",
@@ -1267,6 +1344,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "alde saputro",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -1293,6 +1372,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Tuấn Kiệt Jr.",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -1321,6 +1402,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Ditmar Tabacaru",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "trượt tuyết Hàn Quốc",
@@ -1347,6 +1430,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Đặng Nhật",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -1373,6 +1458,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Ubon Ratchathani Candle Festival",
         "lễ hội nến Thái Lan",
@@ -1396,6 +1483,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Kharl Anthony Paica",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -1421,6 +1510,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Tran Nhu Tuan",
+      "image_creator_url": "",
       "tags": [
         "Veritable Content",
         "Hugo",
@@ -1446,6 +1537,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Hiếu Lê",
+      "image_creator_url": "",
       "tags": [
         "review dài",
         "content marketing",
@@ -1467,6 +1560,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Stanislav Kondratiev",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Vivaldi Park",
@@ -1492,6 +1587,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "joon young, Park",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc mùa hè",
@@ -1517,6 +1614,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Ivan Babydov",
+      "image_creator_url": "",
       "tags": [
         "WWDC26",
         "iOS 27",
@@ -1541,6 +1640,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Thien Le Duy",
+      "image_creator_url": "",
       "tags": [
         "WWDC26",
         "iOS 27",
@@ -1566,6 +1667,8 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "Jeffry Surianto",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Hàn Quốc 2026",
@@ -1592,6 +1695,8 @@
       "image_license": "Pixabay Content License",
       "image_commercial_use": true,
       "image_owner": "external",
+      "image_creator": "jarmoluk",
+      "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
         "Yongpyong",

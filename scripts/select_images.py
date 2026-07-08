@@ -23,6 +23,28 @@ SOURCE_CACHE_PATH = "data/image-source-cache.json"
 FALLBACK_KEYWORDS = ["fallback", "placeholder", "generated", "navy", "solid"]
 
 
+def clean_text(value):
+    if isinstance(value, str):
+        return value.strip()
+    return ""
+
+
+def nested_dict(value):
+    if isinstance(value, dict):
+        return value
+    return {}
+
+
+def attribution_text(platform, creator, prefix="Source:"):
+    platform = clean_text(platform)
+    creator = clean_text(creator)
+    if not platform:
+        return ""
+    if creator:
+        return f"{prefix} {platform} / {creator}"
+    return f"{prefix} {platform}"
+
+
 def load_audit():
     if not os.path.exists(AUDIT_REPORT_PATH):
         print(f"ERROR: Run audit_post_images.py first -- {AUDIT_REPORT_PATH} not found")
@@ -42,6 +64,19 @@ def save_manifest(manifest):
     os.makedirs("data", exist_ok=True)
     with open(IMAGES_MANIFEST_PATH, "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
+
+
+def load_source_cache():
+    if os.path.exists(SOURCE_CACHE_PATH):
+        with open(SOURCE_CACHE_PATH) as f:
+            return json.load(f)
+    return {}
+
+
+def save_source_cache(cache):
+    os.makedirs("data", exist_ok=True)
+    with open(SOURCE_CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
 def load_dotenv():
@@ -115,11 +150,13 @@ class PexelsProvider(BaseProvider):
                 data = resp.json()
                 candidates = []
                 for photo in data.get("photos", []):
+                    src = nested_dict(photo.get("src"))
                     candidates.append({
                         "source_platform": "Pexels",
-                        "source_url": photo.get("url", ""),
-                        "direct_url": photo.get("src", {}).get("large2x", "") or photo.get("src", {}).get("large", ""),
-                        "creator": photo.get("photographer", ""),
+                        "source_url": clean_text(photo.get("url")),
+                        "direct_url": clean_text(src.get("large2x")) or clean_text(src.get("large")),
+                        "creator": clean_text(photo.get("photographer")),
+                        "creator_url": clean_text(photo.get("photographer_url")),
                         "license": "Pexels License",
                         "commercial_use": True,
                         "width": photo.get("width", 0),
@@ -163,11 +200,13 @@ class PixabayProvider(BaseProvider):
                 data = resp.json()
                 candidates = []
                 for hit in data.get("hits", []):
+                    creator = clean_text(hit.get("user"))
                     candidates.append({
                         "source_platform": "Pixabay",
-                        "source_url": hit.get("pageURL", ""),
-                        "direct_url": hit.get("largeImageURL", ""),
-                        "creator": hit.get("user", ""),
+                        "source_url": clean_text(hit.get("pageURL")),
+                        "direct_url": clean_text(hit.get("largeImageURL")),
+                        "creator": creator,
+                        "creator_url": clean_text(hit.get("pageURL")) if creator else "",
                         "license": "Pixabay Content License",
                         "commercial_use": True,
                         "width": hit.get("imageWidth", 0),
@@ -197,11 +236,16 @@ class UnsplashProvider(BaseProvider):
                 data = resp.json()
                 candidates = []
                 for photo in data.get("results", []):
+                    links = nested_dict(photo.get("links"))
+                    urls = nested_dict(photo.get("urls"))
+                    user = nested_dict(photo.get("user"))
+                    user_links = nested_dict(user.get("links"))
                     candidates.append({
                         "source_platform": "Unsplash",
-                        "source_url": photo.get("links", {}).get("html", ""),
-                        "direct_url": photo.get("urls", {}).get("regular", ""),
-                        "creator": photo.get("user", {}).get("name", ""),
+                        "source_url": clean_text(links.get("html")),
+                        "direct_url": clean_text(urls.get("regular")),
+                        "creator": clean_text(user.get("name")),
+                        "creator_url": clean_text(user_links.get("html")),
                         "license": "Unsplash License",
                         "commercial_use": True,
                         "width": photo.get("width", 0),
@@ -231,11 +275,15 @@ class FreepikProvider(BaseProvider):
                 data = resp.json()
                 candidates = []
                 for resource in data.get("data", []):
+                    image = nested_dict(resource.get("image"))
+                    image_source = nested_dict(image.get("source"))
+                    author = nested_dict(resource.get("author"))
                     candidates.append({
                         "source_platform": "Freepik",
-                        "source_url": resource.get("url", ""),
-                        "direct_url": resource.get("image", {}).get("source", {}).get("url", ""),
-                        "creator": resource.get("author", {}).get("name", ""),
+                        "source_url": clean_text(resource.get("url")),
+                        "direct_url": clean_text(image_source.get("url")),
+                        "creator": clean_text(author.get("name")),
+                        "creator_url": clean_text(author.get("url")),
                         "license": "Freepik License",
                         "commercial_use": True,
                         "width": resource.get("width", 0),
@@ -288,8 +336,6 @@ def validate_candidate(candidate, post, used_urls):
             return False, f"too_small:{w}x{h}"
         if w / h < 1.2:
             return False, f"not_landscape_enough:{w}x{h}"
-    if not candidate.get("creator", ""):
-        return False, "no_creator_attribution"
     return True, "valid"
 
 
@@ -323,6 +369,7 @@ def main():
     print("=== Image Selection: Provider Cascade ===")
     audit = load_audit()
     manifest = load_manifest()
+    source_cache = load_source_cache()
     existing_slugs = {e["slug"] for e in manifest.get("posts", []) if e.get("direct_url")}
     used_urls = {e.get("source_url", "") for e in manifest.get("posts", []) if e.get("source_url")}
 
@@ -422,22 +469,27 @@ def main():
 
             if selected:
                 image_id = f"img-{hashlib.md5(slug.encode()).hexdigest()[:8]}"
+                source_platform = clean_text(selected["source_platform"])
+                creator = clean_text(selected.get("creator"))
+                creator_url = clean_text(selected.get("creator_url")) if creator else ""
                 entry = {
                     "slug": slug,
                     "title": title,
                     "image_id": image_id,
-                    "source_platform": selected["source_platform"],
+                    "source_platform": source_platform,
                     "source_url": selected["source_url"],
                     "direct_url": selected["direct_url"],
-                    "creator": selected.get("creator", ""),
+                    "creator": creator,
+                    "creator_url": creator_url,
                     "license": selected["license"],
                     "commercial_use": selected["commercial_use"],
                     "local_source_path": f"static/images/posts-src/{slug}.jpg",
                     "output_path": f"static/images/posts/{slug}.webp",
-                    "watermark_text": f"Source: {selected['source_platform']}",
+                    "watermark_text": attribution_text(source_platform, creator),
                     "provider_used": selected_provider,
                 }
                 upsert_entry(entry)
+                source_cache[slug] = entry
                 used_urls.add(selected.get("source_url", ""))
                 selection_report["summary"]["selected"] += 1
                 selection_report["selected"].append({
@@ -466,11 +518,13 @@ def main():
                     if e["slug"] == slug:
                         del manifest["posts"][i]
                         break
+                source_cache.pop(slug, None)
 
             selection_report["summary"]["posts_checked"] += 1
             time.sleep(0.3)
 
     save_manifest(manifest)
+    save_source_cache(source_cache)
 
     os.makedirs("data", exist_ok=True)
     with open(SELECTION_REPORT_PATH, "w", encoding="utf-8") as f:
@@ -508,7 +562,8 @@ def _mark_needs_image(slug):
             if post.metadata.get("slug") == slug:
                 meta = post.metadata
                 for key in ["image", "thumbnail", "image_source", "image_source_url",
-                            "image_license", "image_commercial_use", "image_owner", "image_creator"]:
+                            "image_license", "image_commercial_use", "image_owner",
+                            "image_creator", "image_creator_url"]:
                     meta.pop(key, None)
                 meta["image_status"] = "needs_image"
                 with open(fpath, "w", encoding="utf-8") as f:

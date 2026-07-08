@@ -52,6 +52,7 @@ faq:
 image: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
 image_commercial_use: true
 image_creator: Ivan Babydov
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

@@ -22,6 +22,8 @@ image: images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/wat-phra-singh-in-chiang-rai-thailand-10119144/
 slug: du-lich-thai-lan-mua-mua-co-nen-di-khong

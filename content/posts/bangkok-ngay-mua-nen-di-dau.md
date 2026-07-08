@@ -22,6 +22,8 @@ image: images/posts/bangkok-ngay-mua-nen-di-dau.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/siam-paragon-shopping-mall-in-bangkok-27662996/
 slug: bangkok-ngay-mua-nen-di-dau

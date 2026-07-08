@@ -3,19 +3,22 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Caribbean Bay là công viên nước lớn nhất Hàn Quốc, thuộc Everland Resort, Yongin — cách Seoul 40 phút.
+  - Caribbean Bay là công viên nước lớn nhất Hàn Quốc, thuộc Everland Resort, Yongin
+    — cách Seoul 40 phút.
   - Wave pool cao 2,4 m, lazy river dài nhất thế giới, spa mở cửa quanh năm.
   - Nên đi ngày thường, mua vé online trước, mang đồ bơi và dép chống trượt.
   title: Tóm tắt bài viết
 attribution:
   copyright: © 2026 Review Chân Thật. Bài tham khảo từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.everland.com/web/caribbean/main.html, https://www.koreatodo.com/caribbean-bay.'
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.everland.com/web/caribbean/main.html,
+    https://www.koreatodo.com/caribbean-bay.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, giá vé, giờ mở cửa, kinh nghiệm đi ngày thường và mẹo tiết kiệm.'
+description: 'Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, giá vé, giờ mở cửa, kinh
+  nghiệm đi ngày thường và mẹo tiết kiệm.'
 draft: false
 faq:
 - answer: 40 phút từ Seoul. Đi xe bus Everland từ ga Gangnam hoặc xe buýt từ ga Suwon.
@@ -26,7 +29,8 @@ faq:
   question: Có nên đi ngày thường không?
 image: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
 image_commercial_use: true
-image_creator: Choi Wooshik
+image_creator: marclyc li
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -52,6 +56,9 @@ internal_links:
   title: Lịch trình Seoul 3 ngày
 - ref: posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md
   title: Đi chơi gần Seoul
+series: du-lich-han-quoc-mua-he
+series_order: 9
+series_title: Du lịch Hàn Quốc mùa hè
 slug: caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong
 tags:
 - Caribbean Bay
@@ -60,9 +67,6 @@ tags:
 - Seoul
 - series du lịch
 thumbnail: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 9
 title: 'Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?'
 tom_tat_nhanh:
 - label: Vị trí

@@ -11,6 +11,7 @@ draft: false
 image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
 image_commercial_use: true
 image_creator: Tran Nhu Tuan
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

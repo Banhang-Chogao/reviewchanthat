@@ -37,6 +37,7 @@ external_links:
 image: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
 image_commercial_use: true
 image_creator: Đan Thy Nguyễn Mai
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

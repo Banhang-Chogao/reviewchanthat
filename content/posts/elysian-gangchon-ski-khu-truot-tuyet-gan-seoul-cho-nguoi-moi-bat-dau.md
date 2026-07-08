@@ -42,6 +42,7 @@ faq:
 image: images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp
 image_commercial_use: true
 image_creator: Zszen John
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

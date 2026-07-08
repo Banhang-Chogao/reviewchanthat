@@ -45,6 +45,7 @@ faq:
 image: images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp
 image_commercial_use: true
 image_creator: Dominik Gryzbon
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

@@ -44,6 +44,7 @@ faq:
 image: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
 image_commercial_use: true
 image_creator: jarmoluk
+image_creator_url: ""
 image_license: Pixabay Content License
 image_owner: external
 image_source: Pixabay

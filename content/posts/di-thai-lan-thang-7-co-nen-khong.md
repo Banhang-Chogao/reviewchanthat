@@ -22,6 +22,8 @@ image: images/posts/di-thai-lan-thang-7-co-nen-khong.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/scenic-riverside-in-bangkok-with-thai-architecture-31026228/
 slug: di-thai-lan-thang-7-co-nen-khong

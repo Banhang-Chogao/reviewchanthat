@@ -22,6 +22,8 @@ image: images/posts/koh-samui-mua-he-so-voi-phuket.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
+image_creator: ""
+image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/aerial-view-of-koh-samui-beach-9103211/
 slug: koh-samui-mua-he-so-voi-phuket

@@ -32,6 +32,7 @@ external_links:
 image: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
 image_commercial_use: true
 image_creator: Co Hai
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

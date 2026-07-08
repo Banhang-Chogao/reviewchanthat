@@ -49,6 +49,7 @@ faq:
 image: images/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.webp
 image_commercial_use: true
 image_creator: Kharl Anthony Paica
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

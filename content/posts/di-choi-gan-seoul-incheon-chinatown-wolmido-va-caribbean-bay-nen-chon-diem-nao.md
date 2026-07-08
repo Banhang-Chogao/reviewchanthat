@@ -37,6 +37,7 @@ external_links:
 image: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
 image_commercial_use: true
 image_creator: Theodore Nguyen
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

@@ -55,6 +55,7 @@ faq:
 image: images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp
 image_commercial_use: true
 image_creator: Ditmar Tabacaru
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
