@@ -3,8 +3,7 @@
 QA audit for SEO indexing policy.
 
 Verifies the built `public/` output:
-- Blog posts (.Section == "posts", not noindex) are indexed.
-- Category, tag, about, home, and pagination pages are noindex,follow.
+- All pages are indexed by default unless they have noindex, private, or draft in frontmatter.
 - sitemap.xml contains only post URLs (no category/tag/about/pagination).
 
 Usage:
@@ -63,16 +62,16 @@ for p in post_pages:
         errors.append(f"POST NOT INDEXED: {p}")
 ok.append(f"Posts indexed: {indexed_posts}/{len(post_pages)}")
 
-# Noindex pages
-check_file(os.path.join(PUBLIC, "index.html"), False, "home")
-check_file(os.path.join(PUBLIC, "about", "index.html"), False, "about")
-check_file(os.path.join(PUBLIC, "review", "index.html"), False, "category review")
-check_file(os.path.join(PUBLIC, "cong-nghe", "index.html"), False, "category cong-nghe")
-check_file(os.path.join(PUBLIC, "doi-song", "index.html"), False, "category doi-song")
-check_file(os.path.join(PUBLIC, "tai-chinh", "index.html"), False, "category tai-chinh")
-check_file(os.path.join(PUBLIC, "tags", "index.html"), False, "tags index")
-check_file(os.path.join(PUBLIC, "page", "2", "index.html"), False, "pagination page/2")
-check_file(os.path.join(PUBLIC, "review", "page", "2", "index.html"), False, "pagination review/page/2 (if present)")
+# Indexable pages (home, about, categories, tags, pagination should all be indexable now)
+check_file(os.path.join(PUBLIC, "index.html"), True, "home")
+check_file(os.path.join(PUBLIC, "about", "index.html"), True, "about")
+check_file(os.path.join(PUBLIC, "review", "index.html"), True, "category review")
+check_file(os.path.join(PUBLIC, "cong-nghe", "index.html"), True, "category cong-nghe")
+check_file(os.path.join(PUBLIC, "doi-song", "index.html"), True, "category doi-song")
+check_file(os.path.join(PUBLIC, "tai-chinh", "index.html"), True, "category tai-chinh")
+check_file(os.path.join(PUBLIC, "tags", "index.html"), True, "tags index")
+check_file(os.path.join(PUBLIC, "page", "2", "index.html"), True, "pagination page/2")
+check_file(os.path.join(PUBLIC, "review", "page", "2", "index.html"), True, "pagination review/page/2 (if present)")
 
 # Sitemap
 sitemap_path = os.path.join(PUBLIC, "sitemap.xml")

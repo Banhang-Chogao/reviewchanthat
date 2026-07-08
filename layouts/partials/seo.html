@@ -16,9 +16,8 @@
 <title>{{ if .IsHome }}{{ site.Title }} - {{ site.Params.description }}{{ else }}{{ $pageTitle }} - {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 160 }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
-{{- $isPost := and .IsPage (eq .Section "posts") -}}
 {{- $frontNoindex := or .Params.noindex .Params.private .Draft -}}
-{{- $isIndexable := and $isPost (not $frontNoindex) -}}
+{{- $isIndexable := not $frontNoindex -}}
 {{- if $isIndexable -}}
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 {{- else -}}
