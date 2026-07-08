@@ -35,6 +35,8 @@
   <script src="{{ $siteJs.RelPermalink }}" integrity="{{ $siteJs.Data.Integrity }}" defer></script>
   {{ $searchJs := resources.Get "js/search.js" | minify | fingerprint }}
   <script src="{{ $searchJs.RelPermalink }}" integrity="{{ $searchJs.Data.Integrity }}" defer></script>
+  {{ $svcJs := resources.Get "js/service-status.js" | minify | fingerprint }}
+  <script src="{{ $svcJs.RelPermalink }}" integrity="{{ $svcJs.Data.Integrity }}" defer></script>
   {{ if $isBlogPost }}
   {{ $scrollJs := resources.Get "js/scroll-jump.js" | minify | fingerprint }}
   <script src="{{ $scrollJs.RelPermalink }}" integrity="{{ $scrollJs.Data.Integrity }}" defer></script>

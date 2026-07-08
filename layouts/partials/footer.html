@@ -18,6 +18,24 @@
       and a lot of
       <span class="footer-tagline-icon" data-icon="robot" aria-hidden="true">🤖</span>
     </div>
+    <div class="service-status" id="service-status">
+      <div class="service-status__header">
+        <span class="service-status__icon">🔗</span>
+        <span class="service-status__label">Kết nối dịch vụ</span>
+      </div>
+      <div class="service-status__list">
+        <div class="service-status__item" data-service="ga">
+          <span class="service-status__dot" id="status-dot-ga"></span>
+          <span class="service-status__name">Google Analytics</span>
+          <span class="service-status__badge" id="status-badge-ga">Đang kiểm tra…</span>
+        </div>
+        <div class="service-status__item" data-service="sc">
+          <span class="service-status__dot" id="status-dot-sc"></span>
+          <span class="service-status__name">Search Console</span>
+          <span class="service-status__badge" id="status-badge-sc">Đang kiểm tra…</span>
+        </div>
+      </div>
+    </div>
     <div class="footer-copy">
       {{ with .Site.Params.footer_text }}{{ . | safeHTML }}{{ end }}
     </div>
