@@ -72,6 +72,21 @@
     {{ $seriesURL = printf "series/%s/" $currentSlug | relURL }}
   {{ end }}
 
+  {{ $listStart := 0 }}
+  {{ $listEnd := sub $total 1 }}
+  {{ $listTruncated := false }}
+  {{ if gt $total 10 }}
+    {{ $listTruncated = true }}
+    {{ $listStart = sub $currentIdx 3 }}
+    {{ if lt $listStart 0 }}
+      {{ $listStart = 0 }}
+    {{ end }}
+    {{ $listEnd = add $currentIdx 3 }}
+    {{ if ge $listEnd $total }}
+      {{ $listEnd = sub $total 1 }}
+    {{ end }}
+  {{ end }}
+
 <section class="series-box" aria-labelledby="series-box-title">
   <div class="series-box__header">
     <div>
@@ -90,30 +105,36 @@
 
   <ol class="series-box__list">
     {{ range $i, $p := $seriesPosts }}
-      {{ $isCurrent := eq $p.RelPermalink $.RelPermalink }}
-      {{ $isPrev := eq $i (sub $currentIdx 1) }}
-      {{ $isNext := eq $i (add $currentIdx 1) }}
-      <li class="series-box__item{{ if $isCurrent }} is-current{{ else if $isPrev }} is-past{{ else if $isNext }} is-next{{ end }}">
-        {{ if $isCurrent }}
-          <div class="series-box__link" aria-current="page">
-            <span class="series-box__number">{{ add $i 1 }}</span>
-            <span class="series-box__item-title">{{ $p.Title }}</span>
-            <span class="series-box__badge">Đang đọc</span>
-          </div>
-        {{ else }}
-          <a class="series-box__link" href="{{ $p.RelPermalink }}">
-            <span class="series-box__number">{{ add $i 1 }}</span>
-            <span class="series-box__item-title">{{ $p.Title }}</span>
-            {{ if $isPrev }}
-              <span class="series-box__badge series-box__badge--past">Đã qua</span>
-            {{ else if $isNext }}
-              <span class="series-box__badge series-box__badge--next">Tiếp theo</span>
-            {{ end }}
-          </a>
-        {{ end }}
-      </li>
+      {{ if and (ge $i $listStart) (le $i $listEnd) }}
+        {{ $isCurrent := eq $p.RelPermalink $.RelPermalink }}
+        {{ $isPrev := eq $i (sub $currentIdx 1) }}
+        {{ $isNext := eq $i (add $currentIdx 1) }}
+        <li class="series-box__item{{ if $isCurrent }} is-current{{ else if $isPrev }} is-past{{ else if $isNext }} is-next{{ end }}">
+          {{ if $isCurrent }}
+            <div class="series-box__link" aria-current="page">
+              <span class="series-box__number">{{ add $i 1 }}</span>
+              <span class="series-box__item-title">{{ $p.Title }}</span>
+              <span class="series-box__badge">Đang đọc</span>
+            </div>
+          {{ else }}
+            <a class="series-box__link" href="{{ $p.RelPermalink }}">
+              <span class="series-box__number">{{ add $i 1 }}</span>
+              <span class="series-box__item-title">{{ $p.Title }}</span>
+              {{ if $isPrev }}
+                <span class="series-box__badge series-box__badge--past">Đã qua</span>
+              {{ else if $isNext }}
+                <span class="series-box__badge series-box__badge--next">Tiếp theo</span>
+              {{ end }}
+            </a>
+          {{ end }}
+        </li>
+      {{ end }}
     {{ end }}
   </ol>
+
+  {{ if $listTruncated }}
+    <a class="series-box__all" href="{{ $seriesURL }}">Xem toàn bộ series →</a>
+  {{ end }}
 
   {{ if or $prevPost $nextPost }}
   <div class="series-box__nav">
