@@ -751,6 +751,7 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .site-search__toggle{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:44px;min-height:44px;padding:0 10px;border-radius:12px;border:1px solid var(--chip-sky-border);background:var(--chip-sky);color:var(--chip-sky-text);cursor:pointer;font-weight:700}
 .site-search__kbd{font-size:.68rem;opacity:.75;border:1px solid currentColor;border-radius:6px;padding:1px 5px}
 .site-search__panel{position:absolute;right:0;top:calc(100% + 8px);width:min(92vw,420px);padding:12px;border-radius:14px;border:1px solid var(--border);background:var(--surface);box-shadow:var(--shadow-hover);z-index:120}
+.site-search__panel[hidden]{display:none}
 .site-search__form{display:flex;gap:8px;align-items:center}
 .site-search__input{flex:1;min-height:44px;border:1px solid var(--border);border-radius:10px;padding:10px 12px;background:var(--surface);color:var(--text);font-size:16px}
 .site-search__close{min-width:44px;min-height:44px;border-radius:10px;border:1px solid var(--border);background:var(--bg);cursor:pointer}
