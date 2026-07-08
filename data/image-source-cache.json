@@ -6,12 +6,12 @@
     "source_platform": "Pexels",
     "source_url": "https://www.pexels.com/photo/bundle-of-assorted-denomination-euro-banknotes-259234/",
     "direct_url": "https://images.pexels.com/photos/259234/pexels-photo-259234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "creator": "Pixabay",
+    "creator": "",
     "license": "Pexels License",
     "commercial_use": true,
     "local_source_path": "static/images/posts-src/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.jpg",
     "output_path": "static/images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp",
-    "watermark_text": "Source: Pexels / Pixabay",
+    "watermark_text": "Source: Pexels",
     "creator_url": ""
   },
   "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang": {
@@ -261,12 +261,12 @@
     "source_platform": "Pexels",
     "source_url": "https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/",
     "direct_url": "https://images.pexels.com/photos/269110/pexels-photo-269110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "creator": "Pixabay",
+    "creator": "",
     "license": "Pexels License",
     "commercial_use": true,
     "local_source_path": "static/images/posts-src/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.jpg",
     "output_path": "static/images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp",
-    "watermark_text": "Source: Pexels / Pixabay",
+    "watermark_text": "Source: Pexels",
     "creator_url": ""
   },
   "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc": {

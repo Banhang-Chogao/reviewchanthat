@@ -27,6 +27,23 @@ def clean_text(value):
     return ""
 
 
+BLOCKED_CREATORS = {
+    "pexels", "pixabay", "unsplash", "freepik",
+    "unknown photographer", "photographer unknown", "unknown creator",
+    "creator unknown", "placeholder", "anonymous", "admin",
+}
+
+
+def normalized(value):
+    return " ".join(clean_text(value).casefold().split())
+
+
+def sanitize_creator(creator: str, creator_url: str = "") -> tuple[str, str]:
+    if normalized(creator) in BLOCKED_CREATORS:
+        return "", ""
+    return clean_text(creator), clean_text(creator_url) if clean_text(creator) else ""
+
+
 def watermark_attribution(source, creator):
     source = clean_text(source)
     creator = clean_text(creator)
@@ -206,8 +223,10 @@ def main():
         source_url = entry.get("source_url", "")
         license_val = entry.get("license", "")
         commercial = entry.get("commercial_use", False)
-        creator = entry.get("creator", "")
-        creator_url = entry.get("creator_url", "") if clean_text(creator) else ""
+        creator, creator_url = sanitize_creator(
+            entry.get("creator", ""),
+            entry.get("creator_url", ""),
+        )
         watermark = watermark_attribution(source, creator)
 
         print(f"\n  [{slug}]")

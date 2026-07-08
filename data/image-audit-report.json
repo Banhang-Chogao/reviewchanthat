@@ -1,7 +1,7 @@
 {
-  "total_posts": 83,
+  "total_posts": 99,
   "summary": {
-    "valid": 83,
+    "valid": 99,
     "missing_image": 0,
     "broken_image_path": 0,
     "missing_license_metadata": 0,
@@ -22,7 +22,7 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Pixabay",
+      "image_creator": "",
       "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
@@ -214,6 +214,78 @@
       "categories": [
         "doi-song",
         "tai-chinh"
+      ]
+    },
+    {
+      "slug": "camera-control-iphone-16-pro-max-co-tien-khong",
+      "title": "Camera Control iPhone 16 Pro Max có tiện không?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp",
+      "thumbnail": "images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/modern-smartphone-with-clear-case-on-wooden-table-34391718/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 16 Pro Max",
+        "Camera Control",
+        "camera",
+        "trên tay"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "camera-iphone-15-pro-max-nam-2026-con-du-tot-khong",
+      "title": "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.webp",
+      "thumbnail": "images/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-blank-screen-indoors-36985833/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 15 Pro Max",
+        "camera iPhone",
+        "tele 5x",
+        "đánh giá camera"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "camera-iphone-16-pro-max-so-voi-15-pro-max",
+      "title": "Camera iPhone 16 Pro Max so với 15 Pro Max",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp",
+      "thumbnail": "images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 16 Pro Max",
+        "iPhone 15 Pro Max",
+        "so sánh camera",
+        "tele 5x"
+      ],
+      "categories": [
+        "cong-nghe"
       ]
     },
     {
@@ -613,8 +685,8 @@
       "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?",
       "status": "valid",
       "issues": [],
-      "image": "images/posts/di-thai-lan-tu-tuc-bangkok-3-ngay-3-dem.webp",
-      "thumbnail": "images/posts/di-thai-lan-tu-tuc-bangkok-3-ngay-3-dem.webp",
+      "image": "images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp",
+      "thumbnail": "images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp",
       "image_source": "Pixabay",
       "image_source_url": "https://pixabay.com/photos/bangkok-river-market-boats-5863391/",
       "image_license": "Pixabay Content License",
@@ -1147,6 +1219,224 @@
       ]
     },
     {
+      "slug": "iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao",
+      "title": "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp",
+      "thumbnail": "images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/elegant-smartphone-beside-potted-plants-on-desk-30466740/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 15 Pro Max",
+        "Black Titanium",
+        "White Titanium",
+        "chọn màu"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-15-pro-max-blue-titanium-co-dang-san",
+      "title": "iPhone 15 Pro Max Blue Titanium có đáng săn?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp",
+      "thumbnail": "images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/a-smartphone-on-the-table-14121456/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 15 Pro Max",
+        "Blue Titanium",
+        "màu titan",
+        "mua iPhone cũ"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi",
+      "title": "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp",
+      "thumbnail": "images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/sylt-2024-27195697/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 15 Pro Max",
+        "iPhone 16 Pro Max",
+        "so sánh",
+        "lên đời"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-15-pro-max-mau-titan-con-dang-mua-khong",
+      "title": "iPhone 15 Pro Max màu titan có còn đáng mua không?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp",
+      "thumbnail": "images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/unboxing-iphone-15-pro-max-box-in-natural-titanium-color-mention-zana-qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana-qaradaghy-18525574/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 15 Pro Max",
+        "màu titan",
+        "Natural Titanium",
+        "đánh giá iPhone",
+        "mua iPhone cũ"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-15-pro-max-natural-titanium-danh-gia-mau",
+      "title": "iPhone 15 Pro Max Natural Titanium: đánh giá màu",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp",
+      "thumbnail": "images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/modern-smartphone-on-wooden-table-21424632/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 15 Pro Max",
+        "Natural Titanium",
+        "màu titan",
+        "đánh giá màu"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-16-pro-max-desert-titanium-hop-ai",
+      "title": "iPhone 16 Pro Max Desert Titanium hợp ai?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp",
+      "thumbnail": "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/black-mobile-phone-on-white-wooden-table-8148741/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 16 Pro Max",
+        "Desert Titanium",
+        "chọn màu",
+        "màu titan"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-16-pro-max-desert-titanium-tren-tay",
+      "title": "iPhone 16 Pro Max Desert Titanium trên tay",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp",
+      "thumbnail": "images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/a-mobile-phone-on-wooden-table-14557519/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 16 Pro Max",
+        "Desert Titanium",
+        "màu titan",
+        "Camera Control",
+        "6.9 inch"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-16-pro-max-nam-2026-nen-mua-khong",
+      "title": "iPhone 16 Pro Max năm 2026 nên mua không?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-16-pro-max-nam-2026-nen-mua-khong.webp",
+      "thumbnail": "images/posts/iphone-16-pro-max-nam-2026-nen-mua-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/man-using-smartphone-at-outdoor-cafe-table-33369112/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 16 Pro Max",
+        "có nên mua",
+        "2026",
+        "đánh giá"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao",
+      "title": "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp",
+      "thumbnail": "images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/a-mobile-phone-near-the-notebook-with-green-leaves-on-a-wooden-table-8092450/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 16 Pro Max",
+        "Natural Titanium",
+        "Black Titanium",
+        "White Titanium"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
       "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
       "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
       "status": "valid",
@@ -1183,7 +1473,7 @@
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Pixabay",
+      "image_creator": "",
       "image_creator_url": "",
       "tags": [
         "du lịch Hàn Quốc",
@@ -1659,6 +1949,54 @@
       ]
     },
     {
+      "slug": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
+      "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp",
+      "thumbnail": "images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-modern-interface-outdoors-36665172/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 15 Pro Max",
+        "pin iPhone",
+        "mua máy cũ",
+        "Battery Health"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "pin-iphone-16-pro-max-co-dang-chon",
+      "title": "Pin iPhone 16 Pro Max có đáng chọn?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/pin-iphone-16-pro-max-co-dang-chon.webp",
+      "thumbnail": "images/posts/pin-iphone-16-pro-max-co-dang-chon.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/young-woman-using-smartphone-in-cozy-cafe-31446172/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 16 Pro Max",
+        "pin iPhone",
+        "thời lượng pin",
+        "A18 Pro"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
       "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
       "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
       "status": "valid",
@@ -1896,6 +2234,54 @@
       ],
       "categories": [
         "du-lich"
+      ]
+    },
+    {
+      "slug": "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong",
+      "title": "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp",
+      "thumbnail": "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-xos-operating-system-34396237/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 15 Pro Max",
+        "khung titan",
+        "titan vs thép",
+        "trên tay"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch",
+      "title": "Trên tay iPhone 16 Pro Max màn hình 6.9 inch",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp",
+      "thumbnail": "images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/sleek-smartphone-on-wooden-table-indoors-34602867/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 16 Pro Max",
+        "màn hình 6.9 inch",
+        "trên tay",
+        "Super Retina"
+      ],
+      "categories": [
+        "cong-nghe"
       ]
     },
     {

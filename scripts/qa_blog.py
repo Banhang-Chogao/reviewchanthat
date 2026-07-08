@@ -21,6 +21,7 @@ IMAGES_MANIFEST_PATH = "data/images.json"
 FALLBACK_PATHS = {"images/posts/fallback.webp", "images/fallback.webp"}
 
 BLOCKED_CREATOR_NAMES = {
+    "pexels", "pixabay", "unsplash", "freepik",
     "park bogum",
     "park bo-gum",
     "bae suzy",
@@ -102,7 +103,7 @@ def has_placeholder_characteristics(filepath):
         w, h = img.size
         if w < 400 or h < 300:
             return True
-        pixels = list(img.getdata())
+        pixels = list(img.get_flattened_data())
         r_vals = [p[0] for p in pixels[::200]]
         g_vals = [p[1] for p in pixels[::200]]
         b_vals = [p[2] for p in pixels[::200]]
