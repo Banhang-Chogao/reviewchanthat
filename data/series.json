@@ -7,6 +7,12 @@
       "order": 10
     },
     {
+      "slug": "du-lich-han-quoc-mua-he",
+      "label": "Du lịch Hàn Quốc mùa hè",
+      "description": "Cẩm nang du lịch Hàn Quốc mùa hè từ tháng 7 đến tháng 8 — điểm tránh nóng, lịch trình mùa mưa, biển đảo, công viên nước và kinh nghiệm đi Busan, Jeju, Seoul.",
+      "order": 15
+    },
+    {
       "slug": "truot-tuyet",
       "label": "Trượt tuyết Hàn Quốc",
       "description": "Cẩm nang trượt tuyết cho người mới bắt đầu — địa điểm, chi phí, mẹo chọn khu nghỉ dưỡng và kinh nghiệm thực tế.",
@@ -17,6 +23,12 @@
       "label": "Du lịch Thái Lan tự túc",
       "description": "Kinh nghiệm du lịch Thái Lan tự túc — vé máy bay, khách sạn, ăn uống và di chuyển.",
       "order": 30
+    },
+    {
+      "slug": "du-lich-thai-lan-mua-mua",
+      "label": "Du lịch Thái Lan mùa mưa",
+      "description": "Cẩm nang du lịch Thái Lan mùa mưa (tháng 7–8) — điểm đến, lịch trình, chi phí, đổi tiền, di chuyển và kinh nghiệm thực tế cho người Việt đi tự túc.",
+      "order": 35
     }
   ]
 }

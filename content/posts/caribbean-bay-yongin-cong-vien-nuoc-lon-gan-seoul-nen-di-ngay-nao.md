@@ -55,6 +55,8 @@ internal_links:
   title: 'Wolmido Incheon: biển, boardwalk cho gia đình'
 - ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
   title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
+- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
+  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
 slug: caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao
 tags:
 - du lịch Hàn Quốc

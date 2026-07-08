@@ -62,6 +62,8 @@ internal_links:
   title: 'Cheongsapo Busan: biển trong và Blue Line Park'
 - ref: posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md
   title: 'Club D Oasis Busan: infinity pool spa'
+- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
+  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
 slug: gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi
 tags:
 - du lịch Hàn Quốc
