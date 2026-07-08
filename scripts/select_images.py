@@ -55,10 +55,13 @@ def save_cache(cache):
 
 def generate_keywords(post):
     """Generate image search keywords from post metadata."""
+    import re
     title = post.get("title", "")
     tags = post.get("tags", [])
     categories = post.get("categories", [])
-    all_words = title.lower().split() + tags + categories
+    # Clean punctuation, split into words
+    title_clean = re.sub(r"[^\w\s]", " ", title.lower())
+    all_words = title_clean.split() + tags + categories
     stopwords = {"và", "của", "cho", "với", "là", "trong", "có", "không", "ở",
                  "khi", "từ", "đến", "những", "đã", "đang", "được", "các", "về",
                  "hay", "nên", "mới", "cũ", "ra", "lại", "qua", "sau", "trước",
@@ -68,7 +71,7 @@ def generate_keywords(post):
     return list(dict.fromkeys(keywords))  # unique, preserve order
 
 
-def try_api_search(keywords, platform):
+def try_api_search(keywords, platform, post):
     """
     Try to search images via platform API.
     Returns list of candidate dicts or empty list if no API key.
@@ -84,7 +87,36 @@ def try_api_search(keywords, platform):
         import requests
 
         if platform == "pixabay":
-            url = f"https://pixabay.com/api/?key={api_key}&q={query}&image_type=photo&per_page=5&safesearch=true"
+            category_map = {
+                "technology": "technology", "tech": "technology",
+                "ai": "technology", "artificial-intelligence": "technology",
+                "programming": "computer", "coding": "computer", "code": "computer", "software": "computer",
+                "crypto": "business", "blockchain": "business", "finance": "business", "startup": "business", "marketing": "business",
+                "science": "science", "research": "science",
+                "nature": "nature", "environment": "nature",
+                "education": "education", "learning": "education",
+                "health": "health", "medical": "health",
+                "travel": "travel", "tourism": "travel",
+                "food": "food", "cooking": "food",
+                "music": "music",
+                "sport": "sports",
+                "fashion": "fashion",
+                "design": "computer",
+                "people": "people",
+            }
+            post_cats = [c.lower() for c in post.get("categories", [])]
+            pix_category = "business"
+            for cat in post_cats:
+                for k, v in category_map.items():
+                    if k in cat:
+                        pix_category = v
+                        break
+            url = (
+                f"https://pixabay.com/api/"
+                f"?key={api_key}&q={query}&lang=vi&image_type=photo"
+                f"&orientation=horizontal&category={pix_category}"
+                f"&min_width=1200&order=popular&safesearch=true&per_page=5"
+            )
             resp = requests.get(url, timeout=10)
             if resp.status_code == 200:
                 data = resp.json()
@@ -99,6 +131,8 @@ def try_api_search(keywords, platform):
                         "width": hit.get("imageWidth", 0),
                         "height": hit.get("imageHeight", 0),
                     })
+            else:
+                print(f"    Pixabay API error: {resp.status_code}")
 
         elif platform == "pexels":
             headers = {"Authorization": api_key}
@@ -175,14 +209,35 @@ def update_frontmatter(slug, image_entry):
     pass  # Implemented in process_images.py
 
 
+def load_dotenv():
+    """Load .env file manually (no external deps)."""
+    env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
+    if os.path.exists(env_path):
+        with open(env_path) as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    os.environ.setdefault(k.strip(), v.strip())
+
+
 def main():
+    load_dotenv()
     print("=== AI-Assisted Image Selection ===")
     audit = load_audit()
     manifest = load_manifest()
     cache = load_cache()
 
-    already_done = {e["slug"] for e in manifest.get("posts", []) if e.get("image_id")}
+    already_done = {e["slug"] for e in manifest.get("posts", []) if e.get("direct_url")}
+    existing_slugs = {e["slug"] for e in manifest.get("posts", [])}
     used_urls = {e.get("source_url", "") for e in manifest.get("posts", []) if e.get("source_url")}
+
+    def upsert_entry(entry):
+        for i, e in enumerate(manifest["posts"]):
+            if e["slug"] == entry["slug"]:
+                manifest["posts"][i] = entry
+                return
+        manifest["posts"].append(entry)
 
     need_images = []
     for post in audit.get("posts", []):
@@ -208,7 +263,7 @@ def main():
 
             candidates = []
             for platform in ("pixabay", "pexels", "unsplash"):
-                results = try_api_search(keywords, platform)
+                results = try_api_search(keywords, platform, post)
                 candidates.extend(results)
                 if results:
                     print(f"    {platform}: {len(results)} candidates")
@@ -232,7 +287,7 @@ def main():
                     "output_path": f"static/images/posts/{slug}.webp",
                     "watermark_text": f"Source: {best['source_platform']}",
                 }
-                manifest["posts"].append(entry)
+                upsert_entry(entry)
                 used_urls.add(best.get("direct_url", ""))
                 cache[slug] = entry
             else:
@@ -252,7 +307,7 @@ def main():
                     "watermark_text": "",
                     "suggested_keywords": kw_str,
                 }
-                manifest["posts"].append(entry)
+                upsert_entry(entry)
                 cache[slug] = {"status": "manual", "keywords": kw_str}
 
     save_manifest(manifest)
