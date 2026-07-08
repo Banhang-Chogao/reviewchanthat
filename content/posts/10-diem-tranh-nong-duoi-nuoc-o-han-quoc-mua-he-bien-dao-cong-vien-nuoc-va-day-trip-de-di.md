@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Nội dung
+    value: 'Top 10 điểm tránh nóng mùa hè Hàn Quốc: biển Jeju, bãi biển Busan, công viên nước, day trip gần Seoul'
+  - label: Số lượng điểm
+    value: '10 điểm chia làm 3 nhóm (Jeju, Busan, gần Seoul)'
+  - label: Hợp với
+    value: 'Người đi Hàn Quốc mùa hè, gia đình, cặp đôi'
+  - label: Thời gian đọc
+    value: 5–7 phút
 ai_summary:
   collapsed: false
   enabled: true
@@ -107,7 +116,6 @@ image_commercial_use: true
 image_owner: external
 slug: 10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di
 ---
-
 Mùa hè Hàn Quốc mà nói thật thì nóng kinh khủng — nhiệt độ vượt 30°C, độ ẩm cao, mưa lúc bất chợt. Trốn trong trung tâm thương mại cả ngày cũng chán. Cách hay hơn là tìm mấy điểm tránh nóng dưới nước.
 
 Bài này dựa trên dữ liệu Trip.Best của Trip.com, nhưng mình viết lại dưới góc nhìn thực tế — không phải brochure quảng cáo đâu.

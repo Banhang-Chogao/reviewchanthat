@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Nội dung
+    value: So sánh 6 ski resort Hàn Quốc cho người mới bắt đầu
+  - label: Số lượng điểm
+    value: '6 resort tại Gangwon-do'
+  - label: Hợp với
+    value: 'Người lần đầu trượt tuyết, gia đình, day trip từ Seoul'
+  - label: Thời gian đọc
+    value: 5–7 phút
 ai_summary:
   collapsed: false
   enabled: true
@@ -63,7 +72,6 @@ internal_links:
 - title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju'
   ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
 ---
-
 Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì hơi phí. Nhưng giữa 6 resort ở Gangwon-do, chọn cái nào? Câu trả lời không phải "cái nào đẹp nhất" mà là "cái nào hợp với bạn nhất". Bài này mình tổng hợp để bạn dễ quyết định.
 
 ## Nếu bạn mới tập — Elysian Gangchon hoặc Oak Valley

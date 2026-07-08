@@ -1,4 +1,15 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Jungmun, Seogwipo, Jeju'
+  - label: Loại trải nghiệm
+    value: 'Bãi biển, thể thao nước, nghỉ dưỡng'
+  - label: Hợp với
+    value: 'Gia đình, cặp đôi, người thích ảnh đẹp'
+  - label: Thời gian nên dành
+    value: Nửa ngày đến cả ngày
+  - label: Lưu ý mùa hè
+    value: 'Sóng có thể lớn hơn các bãi biển Busan, cần chú ý an toàn'
 ai_summary:
   collapsed: false
   enabled: true
@@ -61,21 +72,9 @@ image_commercial_use: true
 image_owner: external
 slug: jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc
 ---
-
 Jungmun Beach nằm trong khu nghỉ dưỡng Jungmun phía nam Jeju, gần Seogwipo. Đây là một trong những bãi biển có phong cảnh đẹp nhất Jeju với hình dáng mũi tên độc đáo, nước trong vắt và bờ cát mềm.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Jungmun là đại diện cho nhóm biển Jeju. Theo mình đây là bãi biển đẹp nhất nếu bạn ở khu nghỉ dưỡng Jungmun.
-
-
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Jungmun, Seogwipo, Jeju |
-| Loại trải nghiệm | Bãi biển, thể thao nước, nghỉ dưỡng |
-| Hợp với | Gia đình, cặp đôi, người thích ảnh đẹp |
-| Thời gian nên dành | Nửa ngày đến cả ngày |
-| Lưu ý mùa hè | Sóng có thể lớn hơn các bãi biển Busan, cần chú ý an toàn |
 
 
 ## Có gì đáng đi?

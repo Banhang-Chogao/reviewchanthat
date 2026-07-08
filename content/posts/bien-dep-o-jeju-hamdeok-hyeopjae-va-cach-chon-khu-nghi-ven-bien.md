@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Hamdeok (đông Jeju), Hyeopjae (tây Jeju), Seogwipo (nam Jeju)'
+  - label: Loại trải nghiệm
+    value: 'Nghỉ dưỡng, tắm biển'
+  - label: Hợp với
+    value: 'Gia đình (Hamdeok), cặp đôi (Hyeopjae), ai cũng được'
+  - label: Thời gian nên dành
+    value: Nửa ngày đến 1 ngày/bãi
+  - label: Đi mùa nào hợp
+    value: 'Hè (tháng 6–8) tắm biển, xuân thu đi dạo'
+  - label: Có cần đặt trước không
+    value: 'Không (bãi biển), có (resort)'
 ai_summary:
   collapsed: false
   enabled: true
@@ -49,20 +62,7 @@ image_commercial_use: true
 image_owner: external
 slug: bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien
 ---
-
 Jeju không chỉ có núi lửa với bình minh — hòn đảo này còn sở hữu những bãi biển khiến nhiều người gọi Hamdeok là "Maldives của Hàn Quốc". Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), biển và resort Jeju đứng thứ 7, theo mình là hoàn toàn xứng đáng.
-
-
-## Tóm tắt nhanh
-
-| Mục | Thông tin |
-|-----|-----------|
-| Khu vực | Hamdeok (đông Jeju), Hyeopjae (tây Jeju), Seogwipo (nam Jeju) |
-| Loại trải nghiệm | Nghỉ dưỡng, tắm biển |
-| Hợp với | Gia đình (Hamdeok), cặp đôi (Hyeopjae), ai cũng được |
-| Thời gian nên dành | Nửa ngày đến 1 ngày/bãi |
-| Đi mùa nào hợp | Hè (tháng 6–8) tắm biển, xuân thu đi dạo |
-| Có cần đặt trước không | Không (bãi biển), có (resort) |
 
 
 ## Hamdeok Beach — "Maldives của Hàn Quốc"

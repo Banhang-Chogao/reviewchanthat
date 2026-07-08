@@ -1,0 +1,18 @@
+{{ with .Params.tom_tat_nhanh }}
+<table class="quick-summary">
+  <thead>
+    <tr>
+      <th>Mục</th>
+      <th>Thông tin</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range . }}
+    <tr>
+      <td>{{ .label }}</td>
+      <td>{{ .value | markdownify }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+{{ end }}

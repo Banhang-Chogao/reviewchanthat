@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Nội dung
+    value: 20 hoạt động du lịch Hàn Quốc 2026 theo Trip.Best Trip.com
+  - label: Số lượng điểm
+    value: '20 hoạt động chia 4 nhóm (Seoul, Busan, Jeju, gần Seoul)'
+  - label: Hợp với
+    value: 'Người lần đầu đi Hàn Quốc, cặp đôi, gia đình, bạn bè'
+  - label: Thời gian đọc
+    value: 8–10 phút
 ai_summary:
   collapsed: false
   enabled: true
@@ -130,7 +139,6 @@ image_commercial_use: true
 image_owner: external
 slug: top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul
 ---
-
 Hàn Quốc 2026 không chỉ có K-pop và ẩm thực đường phố. Nếu bạn lần đầu đi tự túc, câu hỏi lớn nhất là: chơi gì, bắt đầu từ đâu, cái nào thực sự đáng tiền?
 
 Bài này dựa trên danh sách Trip.Best của Trip.com, kết hợp thông tin từ Visit Korea, Visit Seoul, Visit Busan và Visit Jeju. Nhưng mình viết lại dưới góc nhìn thực tế — không phải brochure bán tour.

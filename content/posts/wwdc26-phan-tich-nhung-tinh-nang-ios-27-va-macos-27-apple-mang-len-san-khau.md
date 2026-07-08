@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Chủ đề
+    value: WWDC26 phân tích tính năng iOS 27 và macOS 27
+  - label: Mục đích
+    value: 'Tổng hợp kỳ vọng, tin đồn và thông tin Apple xác nhận trước sự kiện'
+  - label: Hợp với
+    value: 'Người quan tâm Apple, công nghệ, hệ sinh thái Apple'
+  - label: Điểm chính
+    value: 'Siri AI, iOS 27, macOS Golden Gate 27, iPhone gập không xuất hiện'
 ai_summary:
   collapsed: false
   enabled: true
@@ -75,7 +84,6 @@ tags:
 thumbnail: https://www.apple.com/newsroom/images/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/article/Apple-OS-27-updates-260608_big.jpg.large.jpg
 title: 'WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu'
 ---
-
 Bạn có nhớ cảm giác mỗi lần WWDC tới gần không? Cộng đồng Apple lại chia làm hai phe: một phe chỉ muốn biết có đáng lên iOS mới không, phe kia soi từng dòng code trong beta developer. **WWDC26** cũng không ngoại lệ — nhưng năm nay áp lực cao hơn nhiều.
 
 Sau một năm Apple Intelligence chưa thực sự thuyết phục, Apple buộc phải chứng minh họ vẫn kiểm soát được trải nghiệm AI. Theo mình, họ đã làm được — dù vẫn còn những điểm cần để mắt.

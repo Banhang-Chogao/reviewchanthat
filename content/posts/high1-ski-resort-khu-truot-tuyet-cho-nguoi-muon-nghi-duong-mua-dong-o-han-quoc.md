@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Jeongseon, Gangwon-do (200 km từ Seoul)'
+  - label: Loại trải nghiệm
+    value: 'Trượt tuyết, nghỉ dưỡng, casino, spa'
+  - label: Hợp với
+    value: 'Người muốn nghỉ dưỡng kết hợp trượt tuyết, gia đình'
+  - label: Thời gian nên dành
+    value: 2–3 ngày
+  - label: Đi mùa nào hợp
+    value: Mùa đông (tháng 12–2)
+  - label: Có cần đặt trước không
+    value: 'Có (resort, vé trượt tuyết)'
 ai_summary:
   collapsed: false
   enabled: true
@@ -53,7 +66,6 @@ internal_links:
 - title: 'Alpensia Ski Resort'
   ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md
 ---
-
 High1 là ski resort mình ấn tượng nhất trong系列 bài này. Không phải vì lớn nhất (Yongpyong mới là số một) hay gần nhất (Elysian giữ kỷ lục đó), mà vì trải nghiệm tổng thể — từ Sky 1340, nhà hàng xoay trên đỉnh núi 1.340 m, đến thiết kế thân thiện môi trường.
 
 Resort nằm ở Jeongseon, xa nhất trong các resort mình viết — cách Seoul tới 220 km, 3,5 giờ di chuyển. Nhưng nếu bạn đã đọc bài [Yongpyong]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}) và [Alpensia]({{< ref "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md" >}}), bạn biết các resort xa thường mang lại trải nghiệm khác hẳn.

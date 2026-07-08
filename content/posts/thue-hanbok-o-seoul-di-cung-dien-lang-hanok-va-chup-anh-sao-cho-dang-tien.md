@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Jongno-gu, Seoul (quanh Gyeongbokgung, Samcheong-dong)'
+  - label: Loại trải nghiệm
+    value: 'Văn hóa, chụp ảnh'
+  - label: Hợp với
+    value: 'Lần đầu, cặp đôi, nhóm bạn, gia đình'
+  - label: Thời gian nên dành
+    value: 2–4 giờ (gói cơ bản) hoặc cả ngày
+  - label: Đi mùa nào hợp
+    value: 'Xuân (hoa anh đào), thu (lá vàng), đông (tuyết) chụp ảnh đẹp nhất'
+  - label: Có cần đặt trước không
+    value: Nên đặt cuối tuần và mùa cao điểm
 ai_summary:
   collapsed: false
   enabled: true
@@ -52,21 +65,7 @@ image_commercial_use: true
 image_owner: external
 slug: thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien
 ---
-
 Thuê Hanbok dạo cung điện là hoạt động số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và mình không ngạc nhiên chút nào. Đây là trải nghiệm được du khách Việt mê nhất khi đến Seoul, và theo mình thì ai đi Hàn lần đầu cũng nên thử ít nhất một lần.
-
-## Tóm tắt nhanh
-
-| Mục | Thông tin |
-|-----|-----------|
-| Khu vực | Jongno-gu, Seoul (quanh Gyeongbokgung, Samcheong-dong) |
-| Loại trải nghiệm | Văn hóa, chụp ảnh |
-| Hợp với | Lần đầu, cặp đôi, nhóm bạn, gia đình |
-| Thời gian nên dành | 2–4 giờ (gói cơ bản) hoặc cả ngày |
-| Đi mùa nào hợp | Xuân (hoa anh đào), thu (lá vàng), đông (tuyết) chụp ảnh đẹp nhất |
-| Có cần đặt trước không | Nên đặt cuối tuần và mùa cao điểm |
-
-
 
 **Tại sao thuê Hanbok lại đáng tiền?**
 

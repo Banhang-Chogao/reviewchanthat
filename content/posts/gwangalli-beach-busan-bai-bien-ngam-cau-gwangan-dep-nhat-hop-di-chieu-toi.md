@@ -1,4 +1,15 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Suyeong-gu, Busan'
+  - label: Loại trải nghiệm
+    value: 'Bãi biển, cà phê, ngắm cầu đêm, hải sản'
+  - label: Hợp với
+    value: 'Cặp đôi, nhóm bạn, người thích ảnh đẹp'
+  - label: Thời gian nên dành
+    value: 'Chiều tối (17:00–22:00)'
+  - label: Lưu ý mùa hè
+    value: 'Đông vào cuối tuần, nên tới trước 17:00 để có chỗ ngồi đẹp'
 ai_summary:
   collapsed: false
   enabled: true
@@ -73,21 +84,9 @@ image_commercial_use: true
 image_owner: external
 slug: gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi
 ---
-
 Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm — khung cảnh bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.
 
 Trong [danh sách 10 điểm tránh nóng mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Gwangalli đứng thứ ba và theo mình là lựa chọn số một nếu bạn muốn kết hợp tắm biển với ngắm thành phố về đêm.
-
-
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Suyeong-gu, Busan |
-| Loại trải nghiệm | Bãi biển, cà phê, ngắm cầu đêm, hải sản |
-| Hợp với | Cặp đôi, nhóm bạn, người thích ảnh đẹp |
-| Thời gian nên dành | Chiều tối (17:00–22:00) |
-| Lưu ý mùa hè | Đông vào cuối tuần, nên tới trước 17:00 để có chỗ ngồi đẹp |
 
 
 ## Có gì đáng đi?

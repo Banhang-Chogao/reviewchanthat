@@ -1,4 +1,15 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Haeundae-gu, Busan (phía đông Haeundae Beach)'
+  - label: Loại trải nghiệm
+    value: 'Làng chài, biển trong, tàu ven biển'
+  - label: Hợp với
+    value: 'Cặp đôi, đi một mình, người thích yên tĩnh'
+  - label: Thời gian nên dành
+    value: 1–2 giờ
+  - label: Lưu ý mùa hè
+    value: 'Nắng gắt trưa, nên đi sáng sớm hoặc chiều muộn'
 ai_summary:
   collapsed: false
   enabled: true
@@ -65,21 +76,9 @@ image_commercial_use: true
 image_owner: external
 slug: cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park
 ---
-
 Cheongsapo là một làng chài nhỏ nằm phía đông Haeundae, Busan. Trong nhịp sống sôi động của thành phố biển lớn nhất Hàn Quốc, Cheongsapo là một khoảng lặng — nước biển trong vắt, dãy nhà ven biển sơn màu pastel và nhịp sống chậm rãi.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Cheongsapo đứng thứ 8. Theo mình đây là điểm đến lý tưởng cho ai muốn tránh đám đông Haeundae chỉ vài phút di chuyển.
-
-
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Haeundae-gu, Busan (phía đông Haeundae Beach) |
-| Loại trải nghiệm | Làng chài, biển trong, tàu ven biển |
-| Hợp với | Cặp đôi, đi một mình, người thích yên tĩnh |
-| Thời gian nên dành | 1–2 giờ |
-| Lưu ý mùa hè | Nắng gắt trưa, nên đi sáng sớm hoặc chiều muộn |
 
 
 ## Có gì đáng đi?

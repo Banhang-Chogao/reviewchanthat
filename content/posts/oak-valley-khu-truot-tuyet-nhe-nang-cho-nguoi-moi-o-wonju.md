@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Wonju, Gangwon-do (100 km từ Seoul)'
+  - label: Loại trải nghiệm
+    value: 'Trượt tuyết beginner, nghỉ dưỡng nhẹ'
+  - label: Hợp với
+    value: 'Người mới bắt đầu, gia đình có trẻ nhỏ, người thích yên tĩnh'
+  - label: Thời gian nên dành
+    value: Trong ngày hoặc 1 đêm
+  - label: Đi mùa nào hợp
+    value: Mùa đông (tháng 12–2)
+  - label: Có cần đặt trước không
+    value: 'Có (shuttle bus, vé)'
 ai_summary:
   collapsed: false
   enabled: true
@@ -53,7 +66,6 @@ internal_links:
 - title: 'Vivaldi Park Ski World'
   ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
 ---
-
 Oak Valley là ski resort nhỏ nhất trong系列 bài này của mình, nhưng đôi khi nhỏ lại là cái hay. Nếu bạn đã đọc bài về [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}) và [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) mà thấy lo vì đông đúc, Oak Valley là phương án ngược lại hoàn toàn.
 
 Resort này nằm ở Wonju, Gangwon-do, cách Seoul khoảng 100 km. Tên cũ là Oak Hills CC, giờ đổi thành Oak Valley Snow Park.

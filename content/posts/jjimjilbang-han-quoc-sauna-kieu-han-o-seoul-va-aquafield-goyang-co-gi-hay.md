@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Seoul (Sparex Dongdaemun), Goyang (Aquafield Goyang, 30–40 phút Seoul)'
+  - label: Loại trải nghiệm
+    value: 'Thư giãn, văn hóa, spa'
+  - label: Hợp với
+    value: 'Ai cũng hợp — gia đình, cặp đôi, đi một mình'
+  - label: Thời gian nên dành
+    value: 2–5 giờ
+  - label: Đi mùa nào hợp
+    value: 'Quanh năm (đông: lý tưởng, hè: máy lạnh)'
+  - label: Có cần đặt trước không
+    value: Nên đặt với Aquafield Goyang
 ai_summary:
   collapsed: false
   enabled: true
@@ -52,21 +65,7 @@ image_commercial_use: true
 image_owner: external
 slug: jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay
 ---
-
 Jjimjilbang — nhà tắm hơi kiểu Hàn — là thứ mà mình nghĩ ai đi Hàn Quốc cũng nên thử ít nhất một lần. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa thuần chất Hàn mà bạn khó tìm thấy ở nơi khác.
-
-## Tóm tắt nhanh
-
-| Mục | Thông tin |
-|-----|-----------|
-| Khu vực | Seoul (Sparex Dongdaemun), Goyang (Aquafield Goyang, 30–40 phút Seoul) |
-| Loại trải nghiệm | Thư giãn, văn hóa, spa |
-| Hợp với | Ai cũng hợp — gia đình, cặp đôi, đi một mình |
-| Thời gian nên dành | 2–5 giờ |
-| Đi mùa nào hợp | Quanh năm (đông: lý tưởng, hè: máy lạnh) |
-| Có cần đặt trước không | Nên đặt với Aquafield Goyang |
-
-
 
 **Sparex Dongdaemun — jjimjilbang bình dân ở trung tâm Seoul**
 

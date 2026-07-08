@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Chủ đề
+    value: Checklist kiểm tra trước khi mua hàng online
+  - label: Mục đích
+    value: 'Tránh mua phải hàng kém chất lượng, hối hận sau khi mua'
+  - label: Hợp với
+    value: 'Người thường xuyên mua sắm online, người muốn tiêu tiền thông minh'
+  - label: Điểm chính
+    value: 'Kiểm tra người bán, chính sách đổi trả, đọc kỹ mô tả sản phẩm'
 ai_summary:
   collapsed: false
   enabled: true
@@ -53,7 +62,6 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80
 title: Checklist trước khi mua một sản phẩm online
 ---
-
 Mua sắm online tiện thật đấy, nhưng mua xong mới hối hận thì cũng nhiều. Mình từng mua không biết bao nhiêu thứ vì "giá rẻ quá không mua uổng" — kết quả là để xó hoặc đem bán lại.
 
 Dưới đây là 6 bước mình vẫn kiểm tra trước mỗi lần bấm "Đặt mua". Làm theo thì chưa chắc giàu, nhưng chắc chắn đỡ tiếc tiền.

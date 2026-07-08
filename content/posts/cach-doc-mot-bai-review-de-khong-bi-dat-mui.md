@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Chủ đề
+    value: 'Kỹ năng đọc review, phân biệt review thật và quảng cáo'
+  - label: Mục đích
+    value: Giúp người tiêu dùng không bị lừa khi đọc review
+  - label: Hợp với
+    value: 'Người thường xuyên mua sắm online, người đọc review'
+  - label: Mẹo quan trọng
+    value: 'Kiểm tra động cơ người viết, đọc ít nhất 3–5 nguồn'
 ai_summary:
   collapsed: false
   enabled: true
@@ -55,7 +64,6 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80
 title: Cách đọc một bài review để không bị dắt mũi
 ---
-
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
 
 Mình cá ai từng mua đồ online cũng từng rơi vào tình huống này ít nhất một lần. Làm sao để đọc review mà không bị dắt mũi?

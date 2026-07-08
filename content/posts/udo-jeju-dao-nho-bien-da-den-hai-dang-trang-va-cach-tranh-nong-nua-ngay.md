@@ -1,4 +1,15 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Seongsan-eup, phía đông Jeju'
+  - label: Loại trải nghiệm
+    value: 'Đảo, biển, đi xe đạp, ngắm cảnh'
+  - label: Hợp với
+    value: 'Cặp đôi, đi một mình, người thích chụp ảnh'
+  - label: Thời gian nên dành
+    value: Nửa ngày (4–6 giờ)
+  - label: Lưu ý mùa hè
+    value: 'Nắng gắt giữa trưa, nên đi sáng sớm hoặc chiều muộn'
 ai_summary:
   collapsed: false
   enabled: true
@@ -71,21 +82,9 @@ image_commercial_use: true
 image_owner: external
 slug: udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay
 ---
-
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm dưới chân Seongsan Ilchulbong có sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng, view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.
 
 Nếu bạn đang xem [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Udo là điểm đến không thể bỏ qua khi ở Jeju.
-
-
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Seongsan-eup, phía đông Jeju |
-| Loại trải nghiệm | Đảo, biển, đi xe đạp, ngắm cảnh |
-| Hợp với | Cặp đôi, đi một mình, người thích chụp ảnh |
-| Thời gian nên dành | Nửa ngày (4–6 giờ) |
-| Lưu ý mùa hè | Nắng gắt giữa trưa, nên đi sáng sớm hoặc chiều muộn |
 
 
 ## Có gì đáng đi?

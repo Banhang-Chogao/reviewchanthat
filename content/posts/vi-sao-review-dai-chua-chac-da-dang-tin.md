@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Chủ đề
+    value: Review dài chưa chắc đã đáng tin — dấu hiệu nhận biết content marketing
+  - label: Mục đích
+    value: Cảnh giác người đọc trước các bài review dài nhưng thiếu trung thực
+  - label: Hợp với
+    value: Người thường xuyên đọc review trước khi mua hàng
+  - label: Điểm chính
+    value: 'Review thật có cả ưu và nhược điểm, ngôn ngữ tự nhiên, không tập trung link mua hàng'
 ai_summary:
   collapsed: false
   enabled: true
@@ -48,7 +57,6 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80
 title: Vì sao review dài chưa chắc đã đáng tin?
 ---
-
 Bạn có bao giờ tự hỏi: review dài 2000 chữ, đầy đủ thông số kỹ thuật, benchmark, so sánh con số — vậy có đáng tin không?
 
 Theo mình thì chưa chắc. Review dài chưa đồng nghĩa với review chất lượng. Nhiều bài viết dài nhưng thực chất là content marketing được thiết kế để bán hàng, không phải để chia sẻ trải nghiệm thật. Dưới đây là những dấu hiệu nhận biết.

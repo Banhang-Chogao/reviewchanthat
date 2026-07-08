@@ -27,8 +27,16 @@ tags:
 thumbnail: images/posts/coffeebean-cover-hero.webp
 title: 'Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công
   nghệ phía sau blog'
+tom_tat_nhanh:
+  - label: Chủ đề
+    value: 'Tổng quan về giao diện, content và kiến trúc công nghệ blog Veritable Content'
+  - label: Mục đích
+    value: 'Giải thích triết lý thiết kế, lựa chọn công nghệ và quy trình vận hành blog'
+  - label: Hợp với
+    value: 'Người làm blog, quan tâm Hugo, Flat Design, content architecture'
+  - label: Điểm chính
+    value: 'Text-first, Hugo + Python + GitHub Actions, Flat Design, không JavaScript nặng'
 ---
-
 Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh, CI/CD tự động, và quan trọng nhất: một triết lý rất rõ về tốc độ.
 
 **Veritable Content** thuộc nhóm thứ hai. Blog này không chỉ là nơi review sản phẩm. Nó là một thử nghiệm nghiêm túc về cách xây blog tĩnh hiện đại: trung thực trong nội dung, gọn trong giao diện, nhanh trong tốc độ tải.

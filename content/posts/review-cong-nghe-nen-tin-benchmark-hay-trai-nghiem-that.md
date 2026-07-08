@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Chủ đề
+    value: Benchmark vs trải nghiệm thực tế khi review công nghệ
+  - label: Mục đích
+    value: Giúp người đọc hiểu điểm mạnh/yếu của từng loại review
+  - label: Hợp với
+    value: 'Người quan tâm công nghệ, người đọc review sản phẩm'
+  - label: Điểm chính
+    value: 'Benchmark đo hiệu năng thuần, trải nghiệm thật mới phản ánh dùng hàng ngày'
 ai_summary:
   collapsed: false
   enabled: true
@@ -50,7 +59,6 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80
 title: 'Review công nghệ: nên tin benchmark hay trải nghiệm thật?'
 ---
-
 Bạn thấy một chiếc laptop đạt điểm benchmark cao ngất ngưởng. Giá rẻ, cấu hình khủng. Bạn mua ngay. Nhưng dùng một thời gian thì thấy nóng máy, pin yếu, phần mềm lag. Quen không?
 
 Chuyện này xảy ra vì benchmark đo hiệu năng trong điều kiện lý tưởng: máy nguội, chưa cài phần mềm, test trong phòng máy lạnh. Còn bạn thì dùng máy ngoài đời thường, mở cả chục tab Chrome, cày game giữa trưa hè. Hai môi trường hoàn toàn khác nhau.

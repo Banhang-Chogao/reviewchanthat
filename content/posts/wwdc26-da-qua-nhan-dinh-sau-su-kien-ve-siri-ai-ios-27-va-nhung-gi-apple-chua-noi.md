@@ -51,6 +51,17 @@ faq:
 attribution:
   copyright: © 2026 Review Chân Thật. Nhận định sau sự kiện; không đại diện Apple.
   source_note: Bài viết đối ứng với bài phân tích WWDC26 trên blog; dữ liệu từ Apple Newsroom, báo chí công nghệ và phản hồi beta tuần đầu.
+tom_tat_nhanh:
+  - label: Chủ đề
+    value: 'WWDC26 nhận định sau sự kiện — Siri AI, iOS 27 và những gì Apple chưa nói'
+  - label: Sản phẩm chính
+    value: 'Siri AI, iOS 27, macOS Golden Gate 27'
+  - label: Tính năng đáng chú ý
+    value: 'Siri AI hội thoại đa lượt, cải thiện hiệu năng, gói an toàn trẻ em'
+  - label: Mức độ hoàn thiện
+    value: 'Beta tuần đầu: Siri AI còn giới hạn ngôn ngữ, hiệu năng shell khả quan'
+  - label: Hợp với
+    value: 'Người dùng Apple, người quan tâm công nghệ'
 ai_summary:
   enabled: true
   collapsed: false
@@ -60,7 +71,6 @@ ai_summary:
     - Beta developer tuần đầu: hiệu năng shell tốt hơn kỳ vọng, Siri AI còn giới hạn ngôn ngữ và độ ổn định.
     - Người dùng Việt Nam nên chờ public beta và bảng tương thích chính thức trước khi cài lên máy chính.
 ---
-
 WWDC26 kết thúc được một tháng rồi. Đủ để bản beta về tay developer, đủ để báo chí chuyển từ "Apple sắp làm gì?" sang "Apple làm được gì rồi?", và cũng đủ để người dùng phổ thông bắt đầu đặt câu hỏi thực tế hơn: **có nên cài thử, hay chờ bản chính thức?**
 
 Trước sự kiện, tụi mình có [bài phân tích WWDC26](/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/) tổng hợp kỳ vọng, tin đồn và thông tin Apple xác nhận trên sân khấu. Bài này không lặp lại keynote — nó trả lời ba câu hỏi mà một người dùng bình thường (không phải developer) thực sự cần:
@@ -77,17 +87,6 @@ Nhãn nguồn giống bài trước, để bạn tự đánh giá độ tin cậ
 
 ---
 
-
-## Tóm tắt nhanh: kỳ vọng trước WWDC vs thực tế sau WWDC
-
-| Hạng mục | Trước WWDC (phân tích) | Sau WWDC (thực tế) |
-| -------- | ---------------------- | ------------------- |
-| Siri đời mới | Tin đồn chat đa lượt, app riêng | **[Apple đã xác nhận]** Siri AI — đúng hướng |
-| iOS 27 / macOS 27 | Đổi tên theo năm, không đại tu UI | **[Apple đã xác nhận]** iOS 27, macOS Golden Gate 27 |
-| iPhone gập | Không kỳ vọng tại WWDC | **Không công bố** — đúng dự đoán |
-| Hiệu năng shell | Cần bù cho AI nặng hơn | **[Apple đã xác nhận]** số liệu 30%/70%/80% — beta tuần đầu **khá khớp** trên máy tương thích |
-| Tiếng Việt AI | Có trong nhóm ngôn ngữ mở rộng | **Rollout từng phần** — chưa đủ để kết luận “đã xong” |
-| Liquid Glass | Tinh chỉnh, không lật ngược | **[Apple đã xác nhận]** slider trong Settings — phản hồi tích cực |
 
 **[Phân tích]** WWDC26 không phải keynote gây sốc kiểu “một tính năng thay đổi ngành”. Đây là keynote **khép vòng** sau một năm Apple Intelligence bị soi kỹ: Apple chọn con đường an toàn hơn — ship nhiều thứ vừa sức, đo được, và có lý do nâng cấp rõ cho máy cũ.
 

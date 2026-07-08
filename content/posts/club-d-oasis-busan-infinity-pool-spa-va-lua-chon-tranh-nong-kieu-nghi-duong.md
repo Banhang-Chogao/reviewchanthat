@@ -1,4 +1,15 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Haeundae, Busan'
+  - label: Loại trải nghiệm
+    value: 'Infinity pool, spa, nghỉ dưỡng'
+  - label: Hợp với
+    value: 'Cặp đôi, người muốn thư giãn, du lịch hạng sang'
+  - label: Thời gian nên dành
+    value: Nửa ngày đến 1 ngày
+  - label: Lưu ý mùa hè
+    value: Đặt trước vì lượng khách có hạn
 ai_summary:
   collapsed: false
   enabled: true
@@ -62,21 +73,9 @@ image_commercial_use: true
 image_owner: external
 slug: club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong
 ---
-
 Club D Oasis là điểm đến khác biệt — không phải bãi biển công cộng hay công viên nước, mà là khu phức hợp spa, infinity pool và nghỉ dưỡng cao cấp tại Haeundae. Đây là lựa chọn tránh nóng kiểu "không cần xuống biển nhưng vẫn mát" — lý tưởng nếu bạn muốn thư giãn mà không phải chen chúc.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Club D Oasis đứng thứ 9 và là lựa chọn duy nhất thiên về nghỉ dưỡng và spa.
-
-
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Haeundae, Busan |
-| Loại trải nghiệm | Infinity pool, spa, nghỉ dưỡng |
-| Hợp với | Cặp đôi, người muốn thư giãn, du lịch hạng sang |
-| Thời gian nên dành | Nửa ngày đến 1 ngày |
-| Lưu ý mùa hè | Đặt trước vì lượng khách có hạn |
 
 
 ## Có gì đáng đi?

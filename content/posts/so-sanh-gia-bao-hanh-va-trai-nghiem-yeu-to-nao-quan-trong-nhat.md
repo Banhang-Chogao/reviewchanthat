@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Chủ đề
+    value: 'So sánh giá, bảo hành và trải nghiệm khi mua sản phẩm'
+  - label: Mục đích
+    value: Giúp người tiêu dùng quyết định yếu tố nào quan trọng nhất
+  - label: Hợp với
+    value: 'Người đang cân nhắc mua sản phẩm, người muốn tiêu tiền đúng'
+  - label: Điểm chính
+    value: Trải nghiệm thực tế quan trọng hơn giá rẻ nếu không dùng được lâu dài
 ai_summary:
   collapsed: false
   enabled: true
@@ -54,7 +63,6 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80
 title: 'So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?'
 ---
-
 Bạn đứng trước hai lựa chọn: sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng. Sản phẩm B đắt hơn nhưng bảo hành 2 năm và nhiều review tốt. Bạn chọn cái nào?
 
 Câu hỏi này mình gặp hoài khi mua đồ công nghệ. Và câu trả lời của mình là: tùy.

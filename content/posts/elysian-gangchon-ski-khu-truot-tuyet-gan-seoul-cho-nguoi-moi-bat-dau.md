@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Gangchon, Gangwon-do (75 km từ Seoul)'
+  - label: Loại trải nghiệm
+    value: 'Trượt tuyết trong ngày, ski school'
+  - label: Hợp với
+    value: 'Người mới bắt đầu, day trip từ Seoul'
+  - label: Thời gian nên dành
+    value: Trong ngày hoặc 1 đêm
+  - label: Đi mùa nào hợp
+    value: Mùa đông (tháng 12–2)
+  - label: Có cần đặt trước không
+    value: 'Có (shuttle bus, thuê đồ, vé)'
 ai_summary:
   collapsed: false
   enabled: true
@@ -53,7 +66,6 @@ internal_links:
 - title: 'Oak Valley'
   ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
 ---
-
 Bạn mới tập trượt và chỉ có một ngày rảnh ở Seoul? Elysian Gangchon là cái tên đầu tiên mình nghĩ đến. Lý do đơn giản: đây là resort gần Seoul nhất trong tất cả, đi tàu điện đến được, không cần thuê xe.
 
 Trong系列 bài về ski resort Hàn Quốc này, mình đã viết về [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) và [Oak Valley]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}}), nhưng nếu bạn hỏi mình resort nào dễ tiếp cận nhất cho người lần đầu trượt, câu trả lời vẫn là Elysian.

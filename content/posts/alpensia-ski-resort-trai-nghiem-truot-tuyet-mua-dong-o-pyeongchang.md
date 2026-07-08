@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Daegwallyeong, Pyeongchang (Gangwon-do)'
+  - label: Loại trải nghiệm
+    value: 'Trượt tuyết, nghỉ dưỡng, water park'
+  - label: Hợp với
+    value: 'Gia đình, người mới bắt đầu, người muốn nghỉ dưỡng'
+  - label: Thời gian nên dành
+    value: 1–2 ngày (nên ở lại qua đêm)
+  - label: Đi mùa nào hợp
+    value: Mùa đông (tháng 12–2)
+  - label: Có cần đặt trước không
+    value: 'Có (resort, vé trượt tuyết)'
 ai_summary:
   collapsed: false
   enabled: true
@@ -53,7 +66,6 @@ internal_links:
 - title: 'High1 Ski Resort'
   ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
 ---
-
 Alpensia và Yongpyong nằm cùng khu vực Pyeongchang, nhưng trải nghiệm hoàn toàn khác nhau. Nếu bạn đã đọc bài [Yongpyong]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}), bạn biết đó là resort lớn, chuyên sâu, cho dân trượt có kinh nghiệm. Alpensia thì ngược lại — nhỏ hơn, yên tĩnh hơn, và thiên về nghỉ dưỡng gia đình.
 
 Alpensia từng là địa điểm Olympic mùa đông 2018. Nhưng ngày nay nó được định vị như một khu nghỉ dưỡng tổng hợp hơn là điểm trượt thuần túy.

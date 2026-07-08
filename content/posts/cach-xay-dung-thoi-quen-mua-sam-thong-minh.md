@@ -1,4 +1,13 @@
 ---
+tom_tat_nhanh:
+  - label: Chủ đề
+    value: 'Xây dựng thói quen mua sắm thông minh, có kế hoạch'
+  - label: Mục đích
+    value: 'Giảm mua sắm bốc đồng, tối ưu chi tiêu'
+  - label: Hợp với
+    value: 'Người muốn kiểm soát chi tiêu, mua sắm có trách nhiệm'
+  - label: Điểm chính
+    value: 'Lên danh sách trước khi mua, đợi 24h trước khi quyết định'
 ai_summary:
   collapsed: false
   enabled: true
@@ -53,7 +62,6 @@ tags:
 thumbnail: https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80
 title: Cách xây dựng thói quen mua sắm thông minh
 ---
-
 Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Nghe đơn giản, nhưng mình mất kha khá thời gian mới áp dụng được. Dưới đây là những thói quen giúp bạn làm được điều đó.
 
 ### Nguyên tắc 30 ngày

@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Seoul (Gwangjang, Namdaemun), Busan (Jagalchi, Gukje), Jeju (Dongmun)'
+  - label: Loại trải nghiệm
+    value: 'Ẩm thực, mua sắm, văn hóa'
+  - label: Hợp với
+    value: 'Ai cũng hợp, nhất là thích ăn uống'
+  - label: Thời gian nên dành
+    value: 1–3 giờ/chợ
+  - label: Đi mùa nào hợp
+    value: Quanh năm
+  - label: Có cần đặt trước không
+    value: Không
 ai_summary:
   collapsed: false
   enabled: true
@@ -54,21 +67,7 @@ image_commercial_use: true
 image_owner: external
 slug: cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju
 ---
-
 Một điều thú vị mình để ý trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) là chủ đề "chợ địa phương" xuất hiện tới 3 lần — Seoul, Busan và Jeju. Nói lên rằng du khách bây giờ muốn ăn uống và mua sắm như người địa phương, chứ không chỉ la cà trung tâm thương mại.
-
-## Tóm tắt nhanh
-
-| Mục | Thông tin |
-|-----|-----------|
-| Khu vực | Seoul (Gwangjang, Namdaemun), Busan (Jagalchi, Gukje), Jeju (Dongmun) |
-| Loại trải nghiệm | Ẩm thực, mua sắm, văn hóa |
-| Hợp với | Ai cũng hợp, nhất là thích ăn uống |
-| Thời gian nên dành | 1–3 giờ/chợ |
-| Đi mùa nào hợp | Quanh năm |
-| Có cần đặt trước không | Không |
-
-
 
 **Seoul — Gwangjang Market vs Namdaemun**
 

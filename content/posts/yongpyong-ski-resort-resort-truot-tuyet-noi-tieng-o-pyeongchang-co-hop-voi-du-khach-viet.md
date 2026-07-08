@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Daegwallyeong, Pyeongchang (Gangwon-do, 200 km từ Seoul)'
+  - label: Loại trải nghiệm
+    value: 'Trượt tuyết chuyên sâu, nghỉ dưỡng'
+  - label: Hợp với
+    value: 'Người trượt trung bình–cao cấp, người muốn resort lớn'
+  - label: Thời gian nên dành
+    value: 1–2 ngày (nên ở lại qua đêm)
+  - label: Đi mùa nào hợp
+    value: Mùa đông (tháng 12–2)
+  - label: Có cần đặt trước không
+    value: 'Có (resort, vé trượt tuyết)'
 ai_summary:
   collapsed: false
   enabled: true
@@ -53,7 +66,6 @@ internal_links:
 - title: 'High1 Ski Resort'
   ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
 ---
-
 Yongpyong là cái tên ai tìm kiếm ski resort Hàn Quốc cũng gặp — resort lớn nhất xứ Hàn với 28 slope, từng là địa điểm Olympic 2018. Nhưng lớn nhất không có nghĩa là phù hợp nhất với tất cả mọi người.
 
 Trong系列 bài này, mình đã viết về mấy resort gần Seoul cho người mới như [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}), [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}), và [Oak Valley]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}}). Yongpyong khác hẳn — đây là resort cho người đã biết trượt, muốn trượt chuyên sâu.

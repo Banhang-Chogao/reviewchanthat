@@ -1,4 +1,17 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Hongcheon, Gangwon-do (khoảng 1,5–2 giờ từ Seoul)'
+  - label: Loại trải nghiệm
+    value: 'Trượt tuyết, công viên nước, nghỉ dưỡng'
+  - label: Hợp với
+    value: 'Gia đình, nhóm bạn, người muốn day trip hoặc nghỉ qua đêm'
+  - label: Thời gian nên dành
+    value: Trong ngày hoặc 1–2 đêm
+  - label: Đi mùa nào hợp
+    value: Mùa đông (tháng 12–2) — Ocean World mở cửa hè
+  - label: Có cần đặt trước không
+    value: 'Có (shuttle bus, vé, thuê đồ)'
 ai_summary:
   collapsed: false
   enabled: true
@@ -52,7 +65,6 @@ internal_links:
 - title: 'Oak Valley'
   ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
 ---
-
 Vivaldi Park là cái tên được khách Việt nhắc đến nhiều nhất khi hỏi về trượt tuyết gần Seoul. Mình cũng không ngạc nhiên — resort này thuộc Daemyung Resort, một khu nghỉ dưỡng lớn ở Hongcheon, có shuttle bus từ Seoul, giờ hoạt động từ sáng tới tận 1h đêm.
 
 So với [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}), Vivaldi xa hơn một chút nhưng bù lại có nhiều lựa chọn về giờ giấc và tiện nghi. Còn nếu so với [Oak Valley]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}}), Vivaldi đông hơn hẳn nhưng slope nhiều hơn và dịch vụ đa dạng hơn.

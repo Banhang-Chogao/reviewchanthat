@@ -1,4 +1,15 @@
 ---
+tom_tat_nhanh:
+  - label: Khu vực
+    value: 'Haeundae-gu, Busan'
+  - label: Loại trải nghiệm
+    value: 'Bãi biển công cộng, thể thao nước, ẩm thực'
+  - label: Hợp với
+    value: 'Mọi đối tượng — gia đình, nhóm bạn, cặp đôi'
+  - label: Thời gian nên dành
+    value: Cả ngày hoặc nửa ngày
+  - label: Lưu ý mùa hè
+    value: 'Rất đông cuối tuần, nắng mạnh, cần kem chống nắng'
 ai_summary:
   collapsed: false
   enabled: true
@@ -67,19 +78,7 @@ image_commercial_use: true
 image_owner: external
 slug: haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong
 ---
-
 Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc biển Hàn Quốc — bãi biển dài 1,5 km cát trắng, sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ. Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Haeundae đứng thứ hai.
-
-
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Haeundae-gu, Busan |
-| Loại trải nghiệm | Bãi biển công cộng, thể thao nước, ẩm thực |
-| Hợp với | Mọi đối tượng — gia đình, nhóm bạn, cặp đôi |
-| Thời gian nên dành | Cả ngày hoặc nửa ngày |
-| Lưu ý mùa hè | Rất đông cuối tuần, nắng mạnh, cần kem chống nắng |
 
 
 ## Có gì đáng đi?
