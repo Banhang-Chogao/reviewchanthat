@@ -63,8 +63,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong
-
-  - /posts/club-d-oasis-busan-infinity-pool-spa-v%C3%A0-l%E1%BB%B1a-ch%E1%BB%8Dn-tr%C3%A1nh-n%C3%B3ng-ki%E1%BB%83u-ngh%E1%BB%89-d%C6%B0%E1%BB%A1ng/
 ---
 
 Club D Oasis là một điểm đến khác biệt trong danh sách — không phải bãi biển công cộng hay công viên nước, mà là một khu phức hợp spa, infinity pool và nghỉ dưỡng cao cấp tại Haeundae, Busan. Đây là lựa chọn tránh nóng kiểu "không cần xuống biển nhưng vẫn mát" — lý tưởng cho những ai muốn thư giãn mà không phải chen chúc.

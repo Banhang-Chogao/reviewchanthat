@@ -50,8 +50,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc
-
-  - /posts/xem-musical-v%C3%A0-show-%E1%BB%9F-seoul-tr%E1%BA%A3i-nghi%E1%BB%87m-bu%E1%BB%95i-t%E1%BB%91i-%C4%91%C3%A1ng-th%E1%BB%AD-khi-du-l%E1%BB%8Bch-h%C3%A0n-qu%E1%BB%91c/
 ---
 
 Buổi tối ở Seoul không chỉ có Myeongdong mua sắm hay quán cà phê — một trong những trải nghiệm được xếp hạng cao trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) là xem musical và biểu diễn tại Daehangno, khu vực nghệ thuật biểu diễn lớn nhất Hàn Quốc.

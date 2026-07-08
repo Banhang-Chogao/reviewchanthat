@@ -68,8 +68,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao
-
-  - /posts/caribbean-bay-yongin-c%C3%B4ng-vi%C3%AAn-n%C6%B0%E1%BB%9Bc-l%E1%BB%9Bn-g%E1%BA%A7n-seoul-n%C3%AAn-%C4%91i-ng%C3%A0y-n%C3%A0o/
 ---
 
 Caribbean Bay là một trong những công viên nước nổi tiếng nhất châu Á, nằm trong khu Everland Resort tại Yongin, Gyeonggi-do. Khai trương năm 1996, công viên có cả khu nước trong nhà và ngoài trời, vận hành quanh năm — nhưng mùa hè là lúc các khu nước ngoài trời hoạt động hết công suất.

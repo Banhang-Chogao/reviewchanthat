@@ -56,8 +56,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao
-
-  - /posts/%C4%91i-ch%C6%A1i-g%E1%BA%A7n-seoul-incheon-chinatown-wolmido-v%C3%A0-caribbean-bay-n%C3%AAn-ch%E1%BB%8Dn-%C4%91i%E1%BB%83m-n%C3%A0o/
 ---
 
 Một trong những điểm bất ngờ của danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best là số lượng điểm đến ở khu vực gần Seoul chiếm đến một nửa. Nếu bạn có 1–2 ngày để khám phá ngoài trung tâm, đây là những lựa chọn đáng cân nhắc.

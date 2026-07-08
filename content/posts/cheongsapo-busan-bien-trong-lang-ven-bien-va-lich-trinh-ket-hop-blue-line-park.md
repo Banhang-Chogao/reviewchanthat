@@ -66,8 +66,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park
-
-  - /posts/cheongsapo-busan-bi%E1%BB%83n-trong-l%C3%A0ng-ven-bi%E1%BB%83n-v%C3%A0-l%E1%BB%8Bch-tr%C3%ACnh-k%E1%BA%BFt-h%E1%BB%A3p-blue-line-park/
 ---
 
 Cheongsapo (Cheongsapo) là một làng chài nhỏ nằm ở phía đông Haeundae, Busan. Trong nhịp sống sôi động của thành phố biển lớn nhất Hàn Quốc, Cheongsapo là một khoảng lặng: nước biển trong vắt, dãy nhà ven biển sơn màu pastel và nhịp sống chậm rãi.

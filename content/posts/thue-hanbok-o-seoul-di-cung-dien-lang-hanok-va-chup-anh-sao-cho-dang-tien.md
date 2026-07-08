@@ -53,8 +53,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien
-
-  - /posts/thu%C3%AA-hanbok-%E1%BB%9F-seoul-%C4%91i-cung-%C4%91i%E1%BB%87n-l%C3%A0ng-hanok-v%C3%A0-ch%E1%BB%A5p-%E1%BA%A3nh-sao-cho-%C4%91%C3%A1ng-ti%E1%BB%81n/
 ---
 
 Thuê Hanbok dạo cung điện là hoạt động được xếp hạng số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) của Trip.Best — và không khó hiểu khi đây là trải nghiệm được nhiều du khách Việt Nam yêu thích nhất khi đến Seoul.

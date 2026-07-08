@@ -53,8 +53,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay
-
-  - /posts/day-trip-suwon-g%E1%BA%A7n-seoul-hwaseong-haenggung-v%C3%A0-korean-folk-village-trong-m%E1%BB%99t-ng%C3%A0y/
 ---
 
 Nếu bạn đang tìm một day trip từ Seoul để trải nghiệm văn hóa và lịch sử Hàn Quốc, Suwon là lựa chọn hàng đầu. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) của Trip.Best, Suwon góp mặt với ba điểm đến: Hwaseong Fortress (hạng 13), Hwaseong Haenggung (hạng 14) và Korean Folk Village (hạng 19). Cả ba đều có thể đi trong một ngày.

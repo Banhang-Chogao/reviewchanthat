@@ -68,8 +68,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong
-
-  - /posts/haeundae-beach-busan-%C4%91i-bi%E1%BB%83n-m%C3%B9a-h%C3%A8-th%E1%BA%BF-n%C3%A0o-%C4%91%E1%BB%83-kh%C3%B4ng-qu%C3%A1-%C4%91%C3%B4ng/
 ---
 
 Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc đến biển Hàn Quốc. Bãi biển dài 1,5 km cát trắng mịn, làn sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ biển — đó là hình ảnh kinh điển của Haeundae.

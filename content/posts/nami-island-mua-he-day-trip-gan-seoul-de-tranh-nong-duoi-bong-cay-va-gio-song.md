@@ -64,8 +64,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song
-
-  - /posts/nami-island-m%C3%B9a-h%C3%A8-day-trip-g%E1%BA%A7n-seoul-%C4%91%E1%BB%83-tr%C3%A1nh-n%C3%B3ng-d%C6%B0%E1%BB%9Bi-b%C3%B3ng-c%C3%A2y-v%C3%A0-gi%C3%B3-s%C3%B4ng/
 ---
 
 Khi nhắc đến Nami Island, nhiều người nghĩ ngay đến _Winter Sonata_ và mùa thu lá vàng. Nhưng Nami Island mùa hè lại có một sức hút khác: những tán cây Metasequoia cao vút xanh mướt che bóng mát, gió thổi từ sông Bukhan mát rượi — khác hẳn cái nóng oi bức ở Seoul.

@@ -74,8 +74,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi
-
-  - /posts/gwangalli-beach-busan-b%C3%A3i-bi%E1%BB%83n-ng%E1%BA%AFm-c%E1%BA%A7u-gwangan-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-h%E1%BB%A3p-%C4%91i-chi%E1%BB%81u-t%E1%BB%91i/
 ---
 
 Gwangalli Beach là đại diện thứ hai của Busan trong top 10. Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan (Gwangandaegyo) bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm, tạo nên một khung cảnh mà bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.

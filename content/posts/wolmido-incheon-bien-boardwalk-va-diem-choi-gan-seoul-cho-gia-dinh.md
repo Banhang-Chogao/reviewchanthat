@@ -60,8 +60,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh
-
-  - /posts/wolmido-incheon-bi%E1%BB%83n-boardwalk-v%C3%A0-%C4%91i%E1%BB%83m-ch%C6%A1i-g%E1%BA%A7n-seoul-cho-gia-%C4%91%C3%ACnh/
 ---
 
 Wolmido là một hòn đảo nhỏ thuộc Incheon, nhưng thực tế đã được nối liền với đất liền. Đây là điểm đến ven biển phổ biến nhất cho các gia đình sống ở khu vực Seoul và Incheon — vì vừa gần, vừa có nhiều hoạt động giải trí.

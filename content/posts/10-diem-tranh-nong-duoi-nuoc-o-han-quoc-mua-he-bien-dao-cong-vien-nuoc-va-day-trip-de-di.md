@@ -108,8 +108,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: 10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di
-
-  - /posts/10-%C4%91i%E1%BB%83m-tr%C3%A1nh-n%C3%B3ng-d%C6%B0%E1%BB%9Bi-n%C6%B0%E1%BB%9Bc-%E1%BB%9F-h%C3%A0n-qu%E1%BB%91c-m%C3%B9a-h%C3%A8-bi%E1%BB%83n-%C4%91%E1%BA%A3o-c%C3%B4ng-vi%C3%AAn-n%C6%B0%E1%BB%9Bc-v%C3%A0-day-trip-d%E1%BB%85-%C4%91i/
 ---
 
 Mùa hè ở Hàn Quốc có thể rất nóng, với nhiệt độ thường xuyên vượt 30°C và độ ẩm cao từ tháng 6 đến tháng 8. Thay vì chỉ trốn trong trung tâm thương mại hay quán cà phê điều hòa, du khách hoàn toàn có thể chọn những điểm tránh nóng dưới nước — từ bãi biển, hòn đảo, công viên nước đến các day trip dưới tán cây ven sông.

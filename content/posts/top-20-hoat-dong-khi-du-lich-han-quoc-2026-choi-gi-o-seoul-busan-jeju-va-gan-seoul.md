@@ -131,8 +131,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul
-
-  - /posts/top-20-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-khi-du-l%E1%BB%8Bch-h%C3%A0n-qu%E1%BB%91c-2026-ch%C6%A1i-g%C3%AC-%E1%BB%9F-seoul-busan-jeju-v%C3%A0-g%E1%BA%A7n-seoul/
 ---
 
 Hàn Quốc năm 2026 không chỉ có K-pop và ẩm thực đường phố — mà còn là một điểm đến đa dạng trải nghiệm, từ mặc Hanbok dạo cung điện, xem musical ở Daehangno, đến ngắm bình minh trên miệng núi lửa Seongsan Ilchulbong ở Jeju. Nhưng với lần đầu đi tự túc, bạn có thể băn khoăn: nên chơi gì, bắt đầu từ đâu và hoạt động nào thực sự đáng thời gian?

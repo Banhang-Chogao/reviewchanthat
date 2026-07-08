@@ -49,8 +49,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic
-
-  - /posts/%C4%91%E1%BB%8Ba-%C4%91i%E1%BB%83m-quay-phim-h%C3%A0n-qu%E1%BB%91c-%E1%BB%9F-seoul-%C4%91i-theo-d%E1%BA%A5u-k-drama-m%C3%A0-kh%C3%B4ng-b%E1%BB%8B-qu%C3%A1-touristic/
 ---
 
 Một trong những cách thú vị nhất để khám phá Seoul là đi theo dấu các bộ phim Hàn Quốc — và đây cũng là hoạt động xếp hạng 9 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) của Trip.Best.

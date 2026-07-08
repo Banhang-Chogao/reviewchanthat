@@ -50,8 +50,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep
-
-  - /posts/tr%E1%BA%A3i-nghi%E1%BB%87m-k-beauty-%E1%BB%9F-seoul-makeup-personal-color-v%C3%A0-l%E1%BB%8Bch-tr%C3%ACnh-cho-ng%C6%B0%E1%BB%9Di-m%C3%AA-l%C3%A0m-%C4%91%E1%BA%B9p/
 ---
 
 Seoul là kinh đô làm đẹp của châu Á, và trải nghiệm K-beauty là một trong những hoạt động được yêu thích nhất trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best — xếp hạng 10, ngang hàng với các trải nghiệm văn hóa truyền thống.

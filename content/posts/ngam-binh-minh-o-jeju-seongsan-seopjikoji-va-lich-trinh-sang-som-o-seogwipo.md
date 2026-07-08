@@ -51,8 +51,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo
-
-  - /posts/ng%E1%BA%AFm-b%C3%ACnh-minh-%E1%BB%9F-jeju-seongsan-seopjikoji-v%C3%A0-l%E1%BB%8Bch-tr%C3%ACnh-s%C3%A1ng-s%E1%BB%9Bm-%E1%BB%9F-seogwipo/
 ---
 
 Ngắm bình minh trên miệng núi lửa là một trong những trải nghiệm không thể bỏ lỡ khi đến Jeju, và đây cũng là hoạt động được xếp hạng 5 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) của Trip.Best. Seongsan Ilchulbong ("Sunrise Peak") là điểm đến số một cho hoạt động này.

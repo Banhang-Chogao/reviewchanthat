@@ -74,8 +74,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun
-
-  - /posts/shinhwa-theme-park-jeju-water-slides-v%C3%A0-%C4%91i%E1%BB%83m-ch%C6%A1i-n%C6%B0%E1%BB%9Bc-cho-gia-%C4%91%C3%ACnh-%E1%BB%9F-jungmun/
 ---
 
 Shinhwa Theme Park nằm trong tổ hợp Jeju Shinhwa World rộng lớn ở Andeok-myeon, Seogwipo, phía nam Jeju. Đây không chỉ là theme park với các trò chơi cảm giác mạnh dành cho trẻ em và người lớn, mà còn có khu Shinhwa Water Park riêng — lý tưởng để tránh nóng mùa hè.

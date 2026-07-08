@@ -62,8 +62,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc
-
-  - /posts/jungmun-beach-jeju-b%C3%A3i-bi%E1%BB%83n-cho-ng%C6%B0%E1%BB%9Di-th%C3%ADch-s%C3%B3ng-%E1%BA%A3nh-%C4%91%E1%BA%B9p-v%C3%A0-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-n%C6%B0%E1%BB%9Bc/
 ---
 
 Jungmun Beach là bãi biển nằm trong khu nghỉ dưỡng Jungmun (Jungmun Tourist Complex) ở phía nam Jeju, gần thành phố Seogwipo. Đây là một trong những bãi biển có phong cảnh đẹp nhất Jeju với hình dáng mũi tên độc đáo, nước biển trong vắt và bờ cát mềm.

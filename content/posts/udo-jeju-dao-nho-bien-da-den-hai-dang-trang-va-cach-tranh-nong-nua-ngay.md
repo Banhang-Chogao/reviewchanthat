@@ -72,8 +72,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay
-
-  - /posts/udo-jeju-%C4%91%E1%BA%A3o-nh%E1%BB%8F-bi%E1%BB%83n-%C4%91%C3%A1-%C4%91en-h%E1%BA%A3i-%C4%91%C4%83ng-tr%E1%BA%AFng-v%C3%A0-c%C3%A1ch-tr%C3%A1nh-n%C3%B3ng-n%E1%BB%ADa-ng%C3%A0y/
 ---
 
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm nghỉ dưới chân Seongsan Ilchulbong này có một sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng và view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.
