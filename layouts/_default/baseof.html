@@ -12,8 +12,9 @@
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 </head>
-<body data-site-base="{{ "" | relURL }}"{{ if eq .Section "posts" }} class="has-print-watermark"{{ end }}>
-  {{ if eq .Section "posts" }}{{ partial "print-watermark.html" . }}{{ end }}
+{{- $isBlogPost := partial "is-blog-post.html" . -}}
+<body data-site-base="{{ "" | relURL }}"{{ if $isBlogPost }} class="has-print-watermark"{{ end }}>
+  {{ if $isBlogPost }}{{ partial "print-watermark.html" . }}{{ end }}
   <a class="skip-link" href="#main-content">Bỏ qua đến nội dung</a>
   {{ partial "header.html" . }}
   <main id="main-content" tabindex="-1">
@@ -24,7 +25,7 @@
   <script src="{{ $siteJs.RelPermalink }}" integrity="{{ $siteJs.Data.Integrity }}" defer></script>
   {{ $searchJs := resources.Get "js/search.js" | minify | fingerprint }}
   <script src="{{ $searchJs.RelPermalink }}" integrity="{{ $searchJs.Data.Integrity }}" defer></script>
-  {{ if eq .Section "posts" }}
+  {{ if $isBlogPost }}
   {{ $printJs := resources.Get "js/print-watermark.js" | minify | fingerprint }}
   <script src="{{ $printJs.RelPermalink }}" integrity="{{ $printJs.Data.Integrity }}" defer></script>
   {{ end }}

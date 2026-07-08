@@ -1,0 +1,11 @@
+{{- $isBlogPost := false -}}
+{{- if eq .Kind "page" -}}
+  {{- if eq .Section "posts" -}}
+    {{- $isBlogPost = true -}}
+  {{- else if .File -}}
+    {{- if or (eq .File.Dir "posts/") (hasPrefix .File.Dir "posts/") -}}
+      {{- $isBlogPost = true -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $isBlogPost -}}

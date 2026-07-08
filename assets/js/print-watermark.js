@@ -47,14 +47,33 @@
   }
 
   function applyWatermark() {
+    root.removeAttribute('hidden');
+    root.setAttribute('aria-hidden', 'false');
     renderTiles(buildWatermarkText());
   }
 
-  window.addEventListener('beforeprint', applyWatermark);
-  window.addEventListener('afterprint', () => {
+  function clearWatermark() {
     root.innerHTML = '';
     root.dataset.text = '';
-  });
+    root.setAttribute('aria-hidden', 'true');
+  }
 
-  applyWatermark();
+  window.addEventListener('beforeprint', applyWatermark);
+  window.addEventListener('afterprint', clearWatermark);
+
+  if (window.matchMedia) {
+    const printMedia = window.matchMedia('print');
+    const onPrintChange = (event) => {
+      if (event.matches) {
+        applyWatermark();
+      } else {
+        clearWatermark();
+      }
+    };
+    if (typeof printMedia.addEventListener === 'function') {
+      printMedia.addEventListener('change', onPrintChange);
+    } else if (typeof printMedia.addListener === 'function') {
+      printMedia.addListener(onPrintChange);
+    }
+  }
 })();
