@@ -1,7 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác
   enabled: true
   items:
   - Elysian Gangchon cách Seoul khoảng 75 km, đi tàu điện đến ga Baegyang-ri rồi bắt shuttle bus — là resort dễ tiếp cận nhất từ Seoul.

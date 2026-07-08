@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - '20 hoạt động du lịch Hàn Quốc 2026 theo Trip.Best Trip.com, chia 4 nhóm: Seoul

@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Wolmido là đảo nhỏ ở Incheon, nối với đất liền, có boardwalk dài và khu vui chơi
@@ -65,6 +63,18 @@ slug: wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh
 Wolmido thực ra không phải đảo nữa — nó đã được nối với đất liền từ lâu. Nhưng cái tên "đảo" vẫn gắn liền với khu vui chơi ven biển nổi tiếng nhất Incheon, chỉ 1 tiếng metro từ Seoul.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Wolmido đứng thứ 6. Theo mình, cái hạng này hơi thấp nếu bạn đi cùng gia đình có trẻ nhỏ — vì Wolmido thực sự rất dễ đi và dễ chơi.
+
+
+## Tóm tắt nhanh
+
+| Thông tin | Chi tiết |
+|-----------|---------|
+| Khu vực | Jung-gu, Incheon |
+| Loại trải nghiệm | Boardwalk, công viên giải trí, hải sản |
+| Hợp với | Gia đình có trẻ em, nhóm bạn |
+| Thời gian nên dành | Nửa ngày (3–5 giờ) |
+| Lưu ý mùa hè | Rất nóng giữa trưa vì ít bóng cây, nên đi chiều tối |
+
 
 ## Điểm mạnh — và điểm yếu — của Wolmido
 

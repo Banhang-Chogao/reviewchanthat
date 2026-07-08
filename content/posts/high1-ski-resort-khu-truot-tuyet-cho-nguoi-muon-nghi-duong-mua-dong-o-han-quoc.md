@@ -1,7 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác
   enabled: true
   items:
   - High1 Ski Resort tọa lạc ở Jeongseon, Gangwon-do, được đánh giá là resort thân thiện môi trường với cảnh đẹp bốn mùa.

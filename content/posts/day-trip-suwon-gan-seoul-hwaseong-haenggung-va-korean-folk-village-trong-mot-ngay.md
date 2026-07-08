@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Day trip Suwon gần Seoul xếp hạng 13-14 và 19 trong top 20 hoạt động du lịch Hàn
@@ -58,6 +56,19 @@ slug: day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-m
 Nếu bạn chỉ có một ngày và muốn trải nghiệm văn hóa Hàn Quốc đúng nghĩa, Suwon là lựa chọn dễ nhất. Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), Suwon có ba điểm: Hwaseong Fortress (hạng 13), Hwaseong Haenggung (hạng 14) và Korean Folk Village (hạng 19).
 
 Cả ba đều đi được trong một ngày. Nhưng theo mình, nếu bạn muốn thoải mái, chọn 2 trong 3 là vừa.
+
+
+## Tóm tắt nhanh
+
+| Mục | Thông tin |
+|-----|-----------|
+| Khu vực | Suwon và Yongin, Gyeonggi-do (cách Seoul 30–50 phút tàu) |
+| Loại trải nghiệm | Di sản, văn hóa, lịch sử |
+| Hợp với | Ai cũng hợp — gia đình, bạn bè, đi một mình |
+| Thời gian nên dành | 5–8 giờ (cả ngày) |
+| Đi mùa nào hợp | Xuân và thu đẹp nhất |
+| Có cần đặt trước không | Không cần (trừ Korean Folk Village có thể đặt trước) |
+
 
 ## Hwaseong Fortress — di sản UNESCO ngay sát Seoul
 

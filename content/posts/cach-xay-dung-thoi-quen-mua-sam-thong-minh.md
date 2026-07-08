@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức

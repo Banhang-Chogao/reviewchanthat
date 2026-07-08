@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Nhiều người cho rằng review càng dài càng đáng tin.

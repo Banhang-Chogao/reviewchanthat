@@ -1,7 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác
   enabled: true
   items:
   - Alpensia Ski Resort nằm ở Daegwallyeong, Pyeongchang, độ cao 700 m — từng là địa điểm Olympic mùa đông 2018.

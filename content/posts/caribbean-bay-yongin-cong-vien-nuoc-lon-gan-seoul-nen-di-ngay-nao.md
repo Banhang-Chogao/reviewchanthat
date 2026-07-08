@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Caribbean Bay là công viên nước trong nhà và ngoài trời lớn nhất Hàn Quốc, thuộc
@@ -72,6 +70,18 @@ slug: caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
 Caribbean Bay là công viên nước lớn nhất Hàn Quốc, thuộc Everland Resort ở Yongin. Nó có cả khu trong nhà lẫn ngoài trời, mở cửa quanh năm — nhưng mùa hè mới là lúc "lên đời" thực sự.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Caribbean Bay đứng thứ 7 và là công viên nước duy nhất trong top 10 thuộc khu vực Seoul. Theo mình, nó nên ở top 5 nếu bạn đi ngày thường — nhưng cuối tuần thì hạng nào cũng không cứu nổi cái đông.
+
+
+## Tóm tắt nhanh
+
+| Thông tin | Chi tiết |
+|-----------|---------|
+| Khu vực | Yongin, Gyeonggi-do (50 km từ Seoul) |
+| Loại trải nghiệm | Công viên nước, spa, giải trí |
+| Hợp với | Gia đình có trẻ em, nhóm bạn, cặp đôi |
+| Thời gian nên dành | Cả ngày (6–8 giờ) |
+| Lưu ý mùa hè | Rất đông tháng 7–8, nên mua vé online trước |
+
 
 ## Có gì chơi?
 

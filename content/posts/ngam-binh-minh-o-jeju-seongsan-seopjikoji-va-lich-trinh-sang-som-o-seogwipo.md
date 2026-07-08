@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Ngắm bình minh Seongsan Ilchulbong là hoạt động số 5 trong top 20 hoạt động du
@@ -54,6 +52,19 @@ slug: ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwip
 ---
 
 Ngắm bình minh trên miệng núi lửa là trải nghiệm theo mình không thể bỏ qua khi đến Jeju. Hoạt động này được xếp hạng 5 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và Seongsan Ilchulbong là điểm đến số một cho việc này.
+
+
+## Tóm tắt nhanh
+
+| Mục | Thông tin |
+|-----|-----------|
+| Khu vực | Seongsan (đông bắc Jeju), Seopjikoji (gần Seongsan), Seogwipo (nam Jeju) |
+| Loại trải nghiệm | Thiên nhiên, nhiếp ảnh |
+| Hợp với | Cặp đôi, người thích đi bộ, nhiếp ảnh gia |
+| Thời gian nên dành | 2–3 giờ sáng sớm |
+| Đi mùa nào hợp | Quanh năm (mùa xuân và thu đẹp nhất) |
+| Có cần đặt trước không | Không |
+
 
 ## Có gì đáng thử?
 

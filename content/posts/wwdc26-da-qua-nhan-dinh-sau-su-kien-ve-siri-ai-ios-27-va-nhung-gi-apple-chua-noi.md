@@ -54,7 +54,6 @@ attribution:
 ai_summary:
   enabled: true
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác
   title: Tóm tắt bài viết
   items:
     - WWDC26 (8/6/2026) đã diễn ra — Apple ship Siri AI, iOS 27 và macOS Golden Gate 27 đúng hướng leak trước sự kiện.
@@ -77,6 +76,23 @@ Nhãn nguồn giống bài trước, để bạn tự đánh giá độ tin cậ
 - **[Dự đoán]** — chưa được Apple xác nhận
 
 ---
+
+
+## Tóm tắt nhanh: kỳ vọng trước WWDC vs thực tế sau WWDC
+
+| Hạng mục | Trước WWDC (phân tích) | Sau WWDC (thực tế) |
+| -------- | ---------------------- | ------------------- |
+| Siri đời mới | Tin đồn chat đa lượt, app riêng | **[Apple đã xác nhận]** Siri AI — đúng hướng |
+| iOS 27 / macOS 27 | Đổi tên theo năm, không đại tu UI | **[Apple đã xác nhận]** iOS 27, macOS Golden Gate 27 |
+| iPhone gập | Không kỳ vọng tại WWDC | **Không công bố** — đúng dự đoán |
+| Hiệu năng shell | Cần bù cho AI nặng hơn | **[Apple đã xác nhận]** số liệu 30%/70%/80% — beta tuần đầu **khá khớp** trên máy tương thích |
+| Tiếng Việt AI | Có trong nhóm ngôn ngữ mở rộng | **Rollout từng phần** — chưa đủ để kết luận “đã xong” |
+| Liquid Glass | Tinh chỉnh, không lật ngược | **[Apple đã xác nhận]** slider trong Settings — phản hồi tích cực |
+
+**[Phân tích]** WWDC26 không phải keynote gây sốc kiểu “một tính năng thay đổi ngành”. Đây là keynote **khép vòng** sau một năm Apple Intelligence bị soi kỹ: Apple chọn con đường an toàn hơn — ship nhiều thứ vừa sức, đo được, và có lý do nâng cấp rõ cho máy cũ.
+
+---
+
 
 ## WWDC26: không gây sốc, nhưng có trách nhiệm
 

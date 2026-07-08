@@ -1,7 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác
   enabled: true
   items:
   - Oak Valley (Oak Hills CC) là ski resort nhỏ, yên tĩnh ở Wonju, cách Seoul khoảng 100 km.

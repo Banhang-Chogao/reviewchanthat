@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - WWDC26 (8/6/2026) tập trung Siri AI, Apple Intelligence thế hệ hai và iOS 27 /

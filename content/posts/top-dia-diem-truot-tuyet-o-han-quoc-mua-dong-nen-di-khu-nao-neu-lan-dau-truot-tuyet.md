@@ -1,7 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác
   enabled: true
   items:
   - 6 ski resort tại Gangwon-do được xác minh từ nguồn chính thức và VisitKorea, phân loại theo nhu cầu: day trip, beginner, gia đình, nghỉ dưỡng.

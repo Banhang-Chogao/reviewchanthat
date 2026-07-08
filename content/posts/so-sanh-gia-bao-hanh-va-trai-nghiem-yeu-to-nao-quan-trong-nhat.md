@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - 'Bạn đứng trước hai lựa chọn: Sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng.'

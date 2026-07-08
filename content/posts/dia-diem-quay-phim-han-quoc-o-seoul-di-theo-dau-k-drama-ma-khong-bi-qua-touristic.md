@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Địa điểm quay phim K-drama ở Seoul xếp hạng 9 trong top 20 hoạt động du lịch Hàn
@@ -52,6 +50,19 @@ slug: dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-to
 ---
 
 Có một cách khám phá Seoul mà mình thấy cực kỳ thú vị nhưng không bị "touristic" — đó là đi theo dấu các bộ phim Hàn Quốc. Hoạt động này xếp hạng 9 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình thì nó xứng đáng cao hơn nếu bạn là fan K-drama.
+
+## Tóm tắt nhanh
+
+| Mục | Thông tin |
+|-----|-----------|
+| Khu vực | Jongno, Seongsu, Gwangjin (Seoul) |
+| Loại trải nghiệm | Văn hóa, giải trí, chụp ảnh |
+| Hợp với | Fan K-drama, thích chụp ảnh, nhóm bạn |
+| Thời gian nên dành | 2–4 giờ |
+| Đi mùa nào hợp | Quanh năm |
+| Có cần đặt trước không | Không |
+
+
 
 Cái hay là nhiều địa điểm quay phim là những khu phố bình thường, quán cà phê hay tòa nhà cũ vẫn đang hoạt động hàng ngày. Bạn sẽ không cảm thấy mình đang ở phim trường giả tạo — mà là đang sống trong một tập phim vậy.
 

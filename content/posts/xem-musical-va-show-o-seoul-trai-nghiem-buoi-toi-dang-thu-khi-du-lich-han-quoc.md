@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Xem musical ở Daehangno Seoul là hoạt động số 3 trong top 20 hoạt động du lịch
@@ -53,6 +51,19 @@ slug: xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-
 ---
 
 Buổi tối ở Seoul không chỉ có Myeongdong mua sắm hay cà phê — theo mình, một trong những trải nghiệm đáng giá nhất là xem musical tại Daehangno. Hoạt động này xếp hạng 3 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và mình thấy xứng đáng vì đây là thứ bạn khó tìm được ở Việt Nam với chất lượng tương đương.
+
+## Tóm tắt nhanh
+
+| Mục | Thông tin |
+|-----|-----------|
+| Khu vực | Daehangno (Jongno-gu, Seoul) |
+| Loại trải nghiệm | Giải trí, văn hóa |
+| Hợp với | Cặp đôi, nhóm bạn, fan nhạc kịch |
+| Thời gian nên dành | 2–3 giờ (một show) |
+| Đi mùa nào hợp | Quanh năm |
+| Có cần đặt trước không | Nên đặt, nhất cuối tuần |
+
+
 
 **Daehangno — "Broadway của Hàn Quốc"**
 

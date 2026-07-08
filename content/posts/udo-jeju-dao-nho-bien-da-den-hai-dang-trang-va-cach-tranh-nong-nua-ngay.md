@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Udo là đảo nhỏ cách Jeju 15 phút phà, nổi tiếng với biển đá đen núi lửa, hải đăng
@@ -77,6 +75,18 @@ slug: udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm dưới chân Seongsan Ilchulbong có sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng, view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.
 
 Nếu bạn đang xem [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Udo là điểm đến không thể bỏ qua khi ở Jeju.
+
+
+## Tóm tắt nhanh
+
+| Thông tin | Chi tiết |
+|-----------|---------|
+| Khu vực | Seongsan-eup, phía đông Jeju |
+| Loại trải nghiệm | Đảo, biển, đi xe đạp, ngắm cảnh |
+| Hợp với | Cặp đôi, đi một mình, người thích chụp ảnh |
+| Thời gian nên dành | Nửa ngày (4–6 giờ) |
+| Lưu ý mùa hè | Nắng gắt giữa trưa, nên đi sáng sớm hoặc chiều muộn |
+
 
 ## Có gì đáng đi?
 

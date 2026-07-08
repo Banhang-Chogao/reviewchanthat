@@ -1,7 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác
   enabled: true
   items:
   - Vivaldi Park Ski World thuộc Daemyung Resort, Hongcheon, Gangwon-do — cách Seoul khoảng 1,5–2 giờ.

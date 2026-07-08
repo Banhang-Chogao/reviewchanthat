@@ -1,7 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác
   enabled: true
   items:
   - Yongpyong là ski resort lớn nhất Hàn Quốc với 28 slope, từng là địa điểm thi đấu Olympic mùa đông PyeongChang 2018.

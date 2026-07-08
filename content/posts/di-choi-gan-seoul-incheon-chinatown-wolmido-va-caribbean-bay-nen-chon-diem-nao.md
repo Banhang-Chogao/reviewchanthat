@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - '5 điểm đến gần Seoul trong top 20 hoạt động du lịch Hàn Quốc 2026: Gwangmyeong
@@ -61,6 +59,18 @@ slug: di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem
 Một điều bất ngờ trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best là gần một nửa số điểm nằm ở khu vực gần Seoul. Nếu bạn có 1–2 ngày rảnh, đây là những lựa chọn đáng cân nhắc.
 
 Vấn đề là chọn cái nào? Theo mình, tùy hoàn toàn vào gu của bạn.
+
+
+## Tóm tắt nhanh
+
+| Địa điểm | Khu vực | Loại | Hợp với | Thời gian | Đặt trước |
+|----------|---------|------|----------|-----------|-----------|
+| Gwangmyeong Cave | Gwangmyeong | Tham quan, văn hóa | Gia đình, bạn bè | 2–3 giờ | Không |
+| Songwol-dong Fairy Tale Village | Incheon | Chụp ảnh, đi dạo | Gia đình, trẻ em | 1–2 giờ | Không |
+| Incheon Chinatown | Incheon | Ẩm thực, văn hóa | Thích ăn uống | 1–2 giờ | Không |
+| Wolmido | Incheon | Giải trí, biển | Gia đình, cặp đôi | 2–3 giờ | Không |
+| Caribbean Bay | Yongin | Công viên nước | Gia đình, nhóm bạn | Cả ngày | Nên đặt |
+
 
 ## Gwangmyeong Cave — lạ, mát, khác biệt
 

@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Trải nghiệm K-beauty xếp hạng 10 trong top 20 hoạt động du lịch Hàn Quốc 2026,
@@ -53,6 +51,19 @@ slug: trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi
 ---
 
 Seoul là kinh đô làm đẹp của châu Á, và mình dám chắc nếu bạn mê skincare hay makeup thì trải nghiệm K-beauty sẽ là một trong những khoản chi đáng đồng tiền nhất chuyến đi. Hoạt động này xếp hạng 10 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình, nó xứng đáng ở vị trí cao hơn nếu bạn thuộc tuýp người thích làm đẹp.
+
+## Tóm tắt nhanh
+
+| Mục | Thông tin |
+|-----|-----------|
+| Khu vực | Myeongdong, Seongsu, Mapo (Seoul) |
+| Loại trải nghiệm | Làm đẹp, mua sắm |
+| Hợp với | Người mê skincare, makeup, thích mỹ phẩm Hàn |
+| Thời gian nên dành | 2–4 giờ (mua sắm), 2–3 giờ (workshop) |
+| Đi mùa nào hợp | Quanh năm |
+| Có cần đặt trước không | Cần đặt workshop, không cần mua sắm |
+
+
 
 **Mua sắm mỹ phẩm ở Myeongdong**
 

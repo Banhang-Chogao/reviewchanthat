@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Nami Island là đảo hình bán nguyệt cách Seoul 1,5 giờ, nổi tiếng với tán Metasequoia
@@ -69,6 +67,18 @@ slug: nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-s
 Ai cũng biết Nami Island mùa thu lá vàng đẹp như phim _Winter Sonata_. Nhưng theo mình, Nami mùa hè mới thực sự là chốn tránh nóng lý tưởng — tán Metasequoia xanh mướt che kín lối đi, gió từ sông Bukhan thổi lồng lộng, khác hẳn cái oi bức ở Seoul.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Nami đứng thứ 5. Mình nghĩ nó xứng đáng cao hơn nếu tính riêng nhóm day trip gần Seoul.
+
+
+## Tóm tắt nhanh
+
+| Thông tin | Chi tiết |
+|-----------|---------|
+| Khu vực | Chuncheon, Gangwon-do |
+| Loại trải nghiệm | Đảo, thiên nhiên, đi bộ, xe đạp |
+| Hợp với | Gia đình, cặp đôi, nhóm bạn |
+| Thời gian nên dành | Nửa ngày đến một ngày |
+| Lưu ý mùa hè | Vẫn nóng nếu đi giữa trưa, nên đi sớm và mang nước |
+
 
 ## Có gì ở Nami Island mùa hè?
 

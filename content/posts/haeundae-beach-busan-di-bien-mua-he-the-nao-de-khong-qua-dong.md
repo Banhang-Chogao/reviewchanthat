@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Haeundae Beach là bãi biển nổi tiếng nhất Busan, dài 1,5 km cát trắng, thu hút
@@ -71,6 +69,18 @@ slug: haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong
 ---
 
 Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc biển Hàn Quốc — bãi biển dài 1,5 km cát trắng, sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ. Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Haeundae đứng thứ hai.
+
+
+## Tóm tắt nhanh
+
+| Thông tin | Chi tiết |
+|-----------|---------|
+| Khu vực | Haeundae-gu, Busan |
+| Loại trải nghiệm | Bãi biển công cộng, thể thao nước, ẩm thực |
+| Hợp với | Mọi đối tượng — gia đình, nhóm bạn, cặp đôi |
+| Thời gian nên dành | Cả ngày hoặc nửa ngày |
+| Lưu ý mùa hè | Rất đông cuối tuần, nắng mạnh, cần kem chống nắng |
+
 
 ## Có gì đáng đi?
 

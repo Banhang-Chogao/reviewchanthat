@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - '10 điểm tránh nóng dưới nước ở Hàn Quốc theo Trip.Best: từ biển Jeju, bãi biển

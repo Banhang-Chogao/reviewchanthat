@@ -1,8 +1,6 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
-    xác
   enabled: true
   items:
   - Shinhwa Theme Park thuộc tổ hợp Jeju Shinhwa World, có công viên nước và theme
@@ -79,6 +77,18 @@ slug: shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jung
 Shinhwa Theme Park nằm trong tổ hợp Jeju Shinhwa World — khu resort khổng lồ ở phía nam Jeju. Không chỉ có theme park với các trò cảm giác mạnh, mà còn có Shinhwa Water Park riêng. Một combo "khô + ướt" cho cả ngày.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Shinhwa đứng thứ 10. Hạng này hơi thấp theo mình, vì nó phù hợp nhất với gia đình có trẻ em.
+
+
+## Tóm tắt nhanh
+
+| Thông tin | Chi tiết |
+|-----------|---------|
+| Khu vực | Andeok-myeon, Seogwipo, Jeju |
+| Loại trải nghiệm | Theme park, công viên nước, resort |
+| Hợp với | Gia đình có trẻ em, nhóm bạn |
+| Thời gian nên dành | Cả ngày |
+| Lưu ý mùa hè | Mùa vận hành water park có thể thay đổi — kiểm tra trước |
+
 
 ## Có gì ở Shinhwa?
 
