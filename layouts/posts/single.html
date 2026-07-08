@@ -54,7 +54,17 @@
     <h3>Checklist nhanh</h3>
     <ul>
       {{ range .Params.checklist }}
+      {{ if reflect.IsMap . }}
+      <li><strong>{{ .title }}</strong>
+        <ul>
+          {{ range .items }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </li>
+      {{ else }}
       <li>{{ . }}</li>
+      {{ end }}
       {{ end }}
     </ul>
   </div>

@@ -125,6 +125,80 @@
       ]
     },
     {
+      "id": "di-han-thang-10",
+      "title": "Đi Hàn tháng 10",
+      "url": "series/di-han-thang-10/",
+      "count": 11,
+      "posts": [
+        {
+          "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
+          "url": "di-han-thang-10-co-dep-khong/",
+          "order": 1,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
+          "url": "thoi-tiet-han-quoc-thang-10/",
+          "order": 2,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
+          "url": "han-quoc-thang-10-co-la-do-chua/",
+          "order": 3,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
+          "url": "di-han-thang-10-mac-gi/",
+          "order": 4,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
+          "url": "seoul-thang-10-nen-di-dau/",
+          "order": 5,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
+          "url": "nami-thang-10-co-dang-di-khong/",
+          "order": 6,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
+          "url": "seoraksan-thang-10-ngam-la-do/",
+          "order": 7,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng",
+          "url": "busan-thang-10-nen-di-dau/",
+          "order": 8,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày",
+          "url": "jeju-thang-10-co-dep-khong/",
+          "order": 9,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
+          "url": "lich-trinh-di-han-thang-10-5-ngay-4-dem/",
+          "order": 10,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
+          "url": "chi-phi-di-han-thang-10-tu-tuc/",
+          "order": 11,
+          "date": "2026-07-08"
+        }
+      ]
+    },
+    {
       "id": "du-lich",
       "title": "Du lịch Hàn Quốc 2026",
       "url": "series/du-lich/",

@@ -1,7 +1,7 @@
 {
-  "total_posts": 107,
+  "total_posts": 135,
   "summary": {
-    "valid": 107,
+    "valid": 133,
     "missing_image": 0,
     "broken_image_path": 0,
     "missing_license_metadata": 0,
@@ -251,6 +251,31 @@
       ]
     },
     {
+      "slug": "busan-thang-10-nen-di-dau",
+      "title": "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/busan-thang-10-nen-di-dau.webp",
+      "thumbnail": "images/posts/busan-thang-10-nen-di-dau.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-12787322/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Busan",
+        "du lịch Hàn Quốc tháng 10",
+        "biển Busan",
+        "Haeundae",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
       "slug": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
       "title": "Cách đọc một bài review để không bị dắt mũi",
       "status": "valid",
@@ -363,6 +388,32 @@
         "iPhone 15 Pro Max",
         "so sánh camera",
         "tele 5x"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "camera-iphone-18-co-gi-moi",
+      "title": "Camera iPhone 18 có gì mới? Selfie 24MP, variable aperture và kỳ vọng chụp ảnh",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/camera-iphone-18-co-gi-moi.webp",
+      "thumbnail": "images/posts/camera-iphone-18-co-gi-moi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-788882/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 18",
+        "Camera iPhone 18",
+        "variable aperture",
+        "selfie 24MP",
+        "tin đồn iPhone",
+        "chụp ảnh iPhone"
       ],
       "categories": [
         "cong-nghe"
@@ -522,6 +573,31 @@
       ]
     },
     {
+      "slug": "chi-phi-di-han-thang-10-tu-tuc",
+      "title": "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/chi-phi-di-han-thang-10-tu-tuc.webp",
+      "thumbnail": "images/posts/chi-phi-di-han-thang-10-tu-tuc.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-4042807/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "chi phí du lịch Hàn Quốc",
+        "đi Hàn tự túc",
+        "du lịch Hàn Quốc tháng 10",
+        "ngân sách",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
       "slug": "chiang-mai-mua-mua-co-gi-dep",
       "title": "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng",
       "status": "valid",
@@ -629,6 +705,31 @@
       ]
     },
     {
+      "slug": "co-nen-cho-iphone-18-khong",
+      "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/co-nen-cho-iphone-18-khong.webp",
+      "thumbnail": "images/posts/co-nen-cho-iphone-18-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-1092671/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "có nên chờ iPhone 18",
+        "iPhone 15",
+        "iPhone 16",
+        "iPhone 17",
+        "mua iPhone 2026"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
       "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
       "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
       "status": "valid",
@@ -704,6 +805,55 @@
         "mặc gì đi Hàn Quốc",
         "du lịch Hàn Quốc",
         "mùa hè Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "di-han-thang-10-co-dep-khong",
+      "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/di-han-thang-10-co-dep-khong.webp",
+      "thumbnail": "images/posts/di-han-thang-10-co-dep-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-2131627/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "đi Hàn tháng 10",
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa thu",
+        "lá đỏ Hàn Quốc",
+        "Seoul tháng 10"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "di-han-thang-10-mac-gi",
+      "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/di-han-thang-10-mac-gi.webp",
+      "thumbnail": "images/posts/di-han-thang-10-mac-gi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-175039/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "mặc gì đi Hàn tháng 10",
+        "phối đồ mùa thu",
+        "du lịch Hàn Quốc",
         "series du lịch"
       ],
       "categories": [
@@ -952,7 +1102,7 @@
       "image": "images/posts/european-commission-duoc-gi-khi-thang-apple.webp",
       "thumbnail": "images/posts/european-commission-duoc-gi-khi-thang-apple.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/european-union-flag-4173239/",
+      "image_source_url": "https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
@@ -1047,6 +1197,11 @@
       "categories": [
         "du-lich"
       ]
+    },
+    {
+      "slug": "han-quoc-thang-10-co-la-do-chua.md",
+      "status": "parse_error",
+      "error": "while scanning a simple key\n  in \"<unicode string>\", line 9, column 5\ncould not find expected ':'\n  in \"<unicode string>\", line 10, column 3"
     },
     {
       "slug": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
@@ -1596,6 +1751,235 @@
       ]
     },
     {
+      "slug": "iphone-18-chip-a20-2nm",
+      "title": "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-18-chip-a20-2nm.webp",
+      "thumbnail": "images/posts/iphone-18-chip-a20-2nm.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-788884/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "A20",
+        "chip iPhone 18",
+        "TSMC 2nm",
+        "Apple Silicon",
+        "tin đồn iPhone"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-18-co-gi-moi",
+      "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-18-co-gi-moi.webp",
+      "thumbnail": "images/posts/iphone-18-co-gi-moi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-169400/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 18",
+        "iPhone 18 có gì mới",
+        "tin đồn iPhone",
+        "Apple",
+        "iPhone Fold"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-18-dynamic-island-nho-hon-under-display-face-id",
+      "title": "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp",
+      "thumbnail": "images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-788883/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 18",
+        "Dynamic Island",
+        "Under-display Face ID",
+        "iPhone 18 Pro",
+        "tin đồn iPhone",
+        "màn hình iPhone"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-18-gia-bao-nhieu",
+      "title": "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-18-gia-bao-nhieu.webp",
+      "thumbnail": "images/posts/iphone-18-gia-bao-nhieu.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-788881/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 18",
+        "giá iPhone 18",
+        "iPhone 18 Pro giá",
+        "iPhone Fold giá",
+        "tin đồn iPhone",
+        "mua iPhone Việt Nam"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-18-khi-nao-ra-mat",
+      "title": "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-18-khi-nao-ra-mat.webp",
+      "thumbnail": "images/posts/iphone-18-khi-nao-ra-mat.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-1092675/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 18",
+        "iPhone 18 khi nào ra mắt",
+        "split launch Apple",
+        "iPhone Fold",
+        "tin đồn iPhone"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-18-mau-gi-dark-cherry",
+      "title": "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-18-mau-gi-dark-cherry.webp",
+      "thumbnail": "images/posts/iphone-18-mau-gi-dark-cherry.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-47261/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 18",
+        "Dark Cherry",
+        "màu iPhone 18",
+        "iPhone 18 Pro màu",
+        "tin đồn iPhone",
+        "chọn màu iPhone"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-18-pro-max-co-gi-moi",
+      "title": "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-18-pro-max-co-gi-moi.webp",
+      "thumbnail": "images/posts/iphone-18-pro-max-co-gi-moi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-1092672/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 18 Pro Max",
+        "iPhone 18 Pro",
+        "A20 Pro",
+        "Dark Cherry",
+        "tin đồn iPhone"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-18-vs-iphone-17",
+      "title": "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-18-vs-iphone-17.webp",
+      "thumbnail": "images/posts/iphone-18-vs-iphone-17.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-788880/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone 18",
+        "iPhone 17",
+        "so sánh iPhone",
+        "có nên chờ iPhone 18",
+        "mua iPhone 2026",
+        "tin đồn iPhone"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "iphone-fold-iphone-ultra-la-gi",
+      "title": "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/iphone-fold-iphone-ultra-la-gi.webp",
+      "thumbnail": "images/posts/iphone-fold-iphone-ultra-la-gi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-1092670/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iPhone Fold",
+        "iPhone Ultra",
+        "điện thoại gập Apple",
+        "tin đồn iPhone",
+        "iPhone 18"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
       "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
       "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
       "status": "valid",
@@ -1613,6 +1997,31 @@
         "Jeju",
         "du lịch Jeju",
         "Hàn Quốc mùa hè",
+        "biển Jeju",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "jeju-thang-10-co-dep-khong",
+      "title": "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/jeju-thang-10-co-dep-khong.webp",
+      "thumbnail": "images/posts/jeju-thang-10-co-dep-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-12787321/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Jeju",
+        "du lịch Hàn Quốc tháng 10",
+        "Hallasan",
         "biển Jeju",
         "series du lịch"
       ],
@@ -1719,6 +2128,31 @@
         "Ao Nang",
         "Railay Beach",
         "tour đảo Thái Lan"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
+      "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp",
+      "thumbnail": "images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-69918/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "lịch trình Hàn Quốc",
+        "du lịch Hàn Quốc tháng 10",
+        "Seoul",
+        "Nami Island",
+        "series du lịch"
       ],
       "categories": [
         "du-lich"
@@ -1970,6 +2404,31 @@
         "Nami Island",
         "day trip Seoul",
         "Chuncheon",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "nami-thang-10-co-dang-di-khong",
+      "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/nami-thang-10-co-dang-di-khong.webp",
+      "thumbnail": "images/posts/nami-thang-10-co-dang-di-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-12787324/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Nami Island tháng 10",
+        "day trip Seoul",
+        "lá vàng Nami",
+        "Gapyeong",
         "series du lịch"
       ],
       "categories": [
@@ -2233,6 +2692,31 @@
       ]
     },
     {
+      "slug": "seoraksan-thang-10-ngam-la-do",
+      "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/seoraksan-thang-10-ngam-la-do.webp",
+      "thumbnail": "images/posts/seoraksan-thang-10-ngam-la-do.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-12787323/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Seoraksan",
+        "lá đỏ Hàn Quốc",
+        "du lịch Hàn Quốc tháng 10",
+        "Sokcho",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
       "slug": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
       "title": "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình",
       "status": "valid",
@@ -2256,6 +2740,11 @@
       "categories": [
         "du-lich"
       ]
+    },
+    {
+      "slug": "seoul-thang-10-nen-di-dau.md",
+      "status": "parse_error",
+      "error": "mapping values are not allowed in this context\n  in \"<unicode string>\", line 8, column 58"
     },
     {
       "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
@@ -2310,6 +2799,156 @@
       ]
     },
     {
+      "slug": "starbucks-nguyen-van-troi-sai-gon-review",
+      "title": "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp",
+      "thumbnail": "images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp",
+      "image_source": "self",
+      "image_source_url": "https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg",
+      "image_license": "Self-owned",
+      "image_commercial_use": true,
+      "image_owner": "self",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Starbucks Nguyễn Văn Trỗi",
+        "Starbucks Phú Nhuận",
+        "review quán cà phê",
+        "Sài Gòn",
+        "Starbucks Vietnam"
+      ],
+      "categories": [
+        "review"
+      ]
+    },
+    {
+      "slug": "starbucks-vietnam-khong-gian-va-trai-nghiem",
+      "title": "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\"",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp",
+      "thumbnail": "images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/people-sitting-inside-room-1457847/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "không gian Starbucks",
+        "làm việc tại quán cà phê",
+        "Starbucks Nguyễn Văn Trỗi",
+        "third place",
+        "Wi-Fi"
+      ],
+      "categories": [
+        "review"
+      ]
+    },
+    {
+      "slug": "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
+      "title": "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp",
+      "thumbnail": "images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/starbucks-coffee-sign-302899/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Starbucks",
+        "Starbucks Vietnam",
+        "cà phê Sài Gòn",
+        "lịch sử Starbucks",
+        "review quán cà phê"
+      ],
+      "categories": [
+        "review"
+      ]
+    },
+    {
+      "slug": "starbucks-vietnam-menu-do-uong-nen-thu",
+      "title": "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/starbucks-vietnam-menu-do-uong-nen-thu.webp",
+      "thumbnail": "images/posts/starbucks-vietnam-menu-do-uong-nen-thu.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/coffee-cup-on-table-1709003/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Starbucks menu",
+        "đồ uống Starbucks",
+        "Frappuccino",
+        "Caramel Macchiato",
+        "Starbucks Vietnam"
+      ],
+      "categories": [
+        "review"
+      ]
+    },
+    {
+      "slug": "starbucks-vietnam-meo-goi-order-va-rewards",
+      "title": "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp",
+      "thumbnail": "images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-using-macbook-pro-on-brown-wooden-table-1001969/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Starbucks Rewards",
+        "mẹo order Starbucks",
+        "app Starbucks",
+        "Starbucks Vietnam",
+        "Starbucks Nguyễn Văn Trỗi"
+      ],
+      "categories": [
+        "review"
+      ]
+    },
+    {
+      "slug": "starbucks-vietnam-nhan-vien-va-dich-vu",
+      "title": "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp",
+      "thumbnail": "images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-holding-starbucks-disposable-cup-324028/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "dịch vụ Starbucks",
+        "nhân viên Starbucks",
+        "barista",
+        "Starbucks Nguyễn Văn Trỗi",
+        "trải nghiệm khách hàng"
+      ],
+      "categories": [
+        "review"
+      ]
+    },
+    {
       "slug": "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab",
       "title": "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?",
       "status": "valid",
@@ -2329,6 +2968,30 @@
         "Bangkok taxi",
         "đi Bangkok mùa mưa",
         "Grab Bangkok"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "thoi-tiet-han-quoc-thang-10",
+      "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/thoi-tiet-han-quoc-thang-10.webp",
+      "thumbnail": "images/posts/thoi-tiet-han-quoc-thang-10.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/pexels-photo-2131626/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "thời tiết Hàn Quốc tháng 10",
+        "du lịch Hàn Quốc",
+        "mùa thu Hàn Quốc",
+        "series du lịch"
       ],
       "categories": [
         "du-lich"
