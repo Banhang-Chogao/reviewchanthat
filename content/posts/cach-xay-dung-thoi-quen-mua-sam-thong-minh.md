@@ -42,7 +42,7 @@ faq:
 image: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
 image_commercial_use: true
 image_creator: Thanh Long Bùi
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

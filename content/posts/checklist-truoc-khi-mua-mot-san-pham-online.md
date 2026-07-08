@@ -42,7 +42,7 @@ faq:
 image: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
 image_commercial_use: true
 image_creator: Tara Winstead
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

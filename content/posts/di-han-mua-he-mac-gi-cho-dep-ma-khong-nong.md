@@ -37,7 +37,7 @@ image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/korean-fashion-summer-29188048/
+image_source_url: https://www.pexels.com/photo/people-walking-with-umbrellas-on-the-pavement-in-city-19271589/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè

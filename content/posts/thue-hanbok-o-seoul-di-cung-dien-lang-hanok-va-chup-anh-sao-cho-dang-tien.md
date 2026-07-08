@@ -36,11 +36,14 @@ external_links:
 image: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
 image_commercial_use: true
 image_creator: alde saputro
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/cheerful-woman-standing-against-pagoda-in-cloudy-weather-860090/
+series: du-lich
+series_order: 4
+series_title: Du lịch Hàn Quốc 2026
 slug: thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien
 tags:
 - du lịch Hàn Quốc
@@ -52,9 +55,6 @@ tags:
 - chụp ảnh Hàn Quốc
 - series du lịch
 thumbnail: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 4
 title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
 tom_tat_nhanh:
 - label: Khu vực

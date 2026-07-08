@@ -37,7 +37,7 @@ image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/busan-summer-beach-aerial-29188040/
+image_source_url: https://www.pexels.com/photo/vibrant-nighttime-skyline-of-busan-south-korea-29861385/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

@@ -41,7 +41,7 @@ faq:
 image: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
 image_commercial_use: true
 image_creator: 정규송 Nui MALAMA
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -53,6 +53,9 @@ internal_links:
   title: Yongpyong Ski Resort
 - ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
   title: High1 Ski Resort
+series: truot-tuyet
+series_order: 5
+series_title: Trượt tuyết Hàn Quốc
 slug: alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang
 tags:
 - du lịch Hàn Quốc
@@ -64,9 +67,6 @@ tags:
 - gangwon-do
 - series trượt tuyết
 thumbnail: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
-series: truot-tuyet
-series_title: "Trượt tuyết Hàn Quốc"
-series_order: 5
 title: 'Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang'
 tom_tat_nhanh:
 - label: Khu vực

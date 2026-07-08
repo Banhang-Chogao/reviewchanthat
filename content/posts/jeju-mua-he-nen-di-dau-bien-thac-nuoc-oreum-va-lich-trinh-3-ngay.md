@@ -33,7 +33,7 @@ faq:
 image: images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp
 image_commercial_use: true
 image_creator: SOO CHUL PARK
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

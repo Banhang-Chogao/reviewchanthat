@@ -40,7 +40,7 @@ faq:
 image: images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp
 image_commercial_use: true
 image_creator: nana liu
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -52,6 +52,9 @@ internal_links:
   title: 'Udo Jeju: đảo nhỏ, biển đá đen'
 - ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
   title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
+series: du-lich
+series_order: 19
+series_title: Du lịch Hàn Quốc 2026
 slug: jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc
 tags:
 - du lịch Hàn Quốc
@@ -61,9 +64,6 @@ tags:
 - bãi biển Jeju
 - series du lịch
 thumbnail: images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 19
 title: 'Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước'
 tom_tat_nhanh:
 - label: Khu vực

@@ -37,7 +37,7 @@ faq:
 image: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
 image_commercial_use: true
 image_creator: joon young, Park
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -49,6 +49,9 @@ internal_links:
   title: 'Nami Island mùa hè: day trip gần Seoul'
 - ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
   title: 'Caribbean Bay Yongin: công viên nước lớn'
+series: du-lich
+series_order: 13
+series_title: Du lịch Hàn Quốc 2026
 slug: wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh
 tags:
 - du lịch Hàn Quốc
@@ -59,9 +62,6 @@ tags:
 - gia đình
 - series du lịch
 thumbnail: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 13
 title: 'Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình'
 tom_tat_nhanh:
 - label: Khu vực

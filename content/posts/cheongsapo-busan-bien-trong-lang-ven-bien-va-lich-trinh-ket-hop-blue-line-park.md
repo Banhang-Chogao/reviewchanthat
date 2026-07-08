@@ -40,7 +40,7 @@ faq:
 image: images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp
 image_commercial_use: true
 image_creator: Alvin & Chelsea
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -54,6 +54,9 @@ internal_links:
   title: Gwangalli Beach Busan
 - ref: posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md
   title: Club D Oasis Busan
+series: du-lich
+series_order: 16
+series_title: Du lịch Hàn Quốc 2026
 slug: cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park
 tags:
 - du lịch Hàn Quốc
@@ -64,9 +67,6 @@ tags:
 - Haeundae
 - series du lịch
 thumbnail: images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 16
 title: 'Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line
   Park'
 tom_tat_nhanh:

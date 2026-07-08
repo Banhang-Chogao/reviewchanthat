@@ -32,11 +32,11 @@ faq:
 image: images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp
 image_commercial_use: true
 image_creator: Jhany Blue
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/busan-night-beach-gwangan-29188041/
+image_source_url: https://www.pexels.com/photo/vibrant-night-view-of-busan-s-cityscape-and-bridge-36046039/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

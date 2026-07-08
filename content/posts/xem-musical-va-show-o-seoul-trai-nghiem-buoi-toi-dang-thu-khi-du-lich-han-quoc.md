@@ -32,11 +32,14 @@ external_links:
 image: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
 image_commercial_use: true
 image_creator: Jeffry Surianto
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/traditional-korean-gayageum-performance-indoors-36853090/
+series: du-lich
+series_order: 6
+series_title: Du lịch Hàn Quốc 2026
 slug: xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc
 tags:
 - du lịch Hàn Quốc
@@ -48,9 +51,6 @@ tags:
 - giải trí Hàn Quốc
 - series du lịch
 thumbnail: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 6
 title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
   Quốc'
 tom_tat_nhanh:

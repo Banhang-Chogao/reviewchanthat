@@ -37,11 +37,14 @@ external_links:
 image: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
 image_commercial_use: true
 image_creator: Theodore Nguyen
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/seoul-arex-subway-station-entrance-with-signage-32211611/
+series: du-lich
+series_order: 12
+series_title: Du lịch Hàn Quốc 2026
 slug: di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao
 tags:
 - du lịch Hàn Quốc
@@ -54,9 +57,6 @@ tags:
 - day trip Seoul
 - series du lịch
 thumbnail: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 12
 title: 'Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm
   nào?'
 tom_tat_nhanh:

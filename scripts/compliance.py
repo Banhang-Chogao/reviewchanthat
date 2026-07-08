@@ -547,8 +547,11 @@ class ComplianceChecker:
         series = normalized(meta.get("series"))
         if "cong-nghe" in categories and (
             re.search(r"https?://(?:www\.)?apple\.com/", body)
+            or re.search(r"https?://support\.apple\.com/", body)
             or series.startswith("ios-27")
             or series.startswith("macos-27")
+            or series.startswith("iphone-15")
+            or series.startswith("iphone-16")
         ):
             if ATTRIBUTION_TAGS.search(body) or MARKDOWN_LINK.search(body):
                 return True

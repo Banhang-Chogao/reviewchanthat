@@ -42,7 +42,7 @@ faq:
 image: images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp
 image_commercial_use: true
 image_creator: Zszen John
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -54,6 +54,9 @@ internal_links:
   title: Vivaldi Park Ski World
 - ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
   title: Oak Valley
+series: truot-tuyet
+series_order: 3
+series_title: Trượt tuyết Hàn Quốc
 slug: elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau
 tags:
 - du lịch Hàn Quốc
@@ -65,9 +68,6 @@ tags:
 - gangwon-do
 - series trượt tuyết
 thumbnail: images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp
-series: truot-tuyet
-series_title: "Trượt tuyết Hàn Quốc"
-series_order: 3
 title: 'Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu'
 tom_tat_nhanh:
 - label: Khu vực

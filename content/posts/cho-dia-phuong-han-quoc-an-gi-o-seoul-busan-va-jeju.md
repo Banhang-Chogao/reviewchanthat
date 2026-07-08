@@ -37,11 +37,14 @@ external_links:
 image: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
 image_commercial_use: true
 image_creator: Đan Thy Nguyễn Mai
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/bustling-scene-at-ch-da-l-t-market-in-vietnam-38404534/
+series: du-lich
+series_order: 7
+series_title: Du lịch Hàn Quốc 2026
 slug: cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju
 tags:
 - du lịch Hàn Quốc
@@ -54,9 +57,6 @@ tags:
 - chợ Hàn Quốc
 - series du lịch
 thumbnail: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 7
 title: 'Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?'
 tom_tat_nhanh:
 - label: Khu vực

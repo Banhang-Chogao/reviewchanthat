@@ -45,7 +45,7 @@ faq:
 image: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
 image_commercial_use: true
 image_creator: Ron Lach
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

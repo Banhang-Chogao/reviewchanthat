@@ -49,7 +49,7 @@ faq:
 image: images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp
 image_commercial_use: true
 image_creator: Kharl Anthony Paica
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -63,6 +63,9 @@ internal_links:
   title: 'Udo Jeju: đảo nhỏ, biển đá đen'
 - ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
   title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul'
+series: du-lich
+series_order: 22
+series_title: Du lịch Hàn Quốc 2026
 slug: shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun
 tags:
 - du lịch Hàn Quốc
@@ -73,9 +76,6 @@ tags:
 - Shinhwa World
 - series du lịch
 thumbnail: images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 22
 title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun'
 tom_tat_nhanh:
 - label: Khu vực

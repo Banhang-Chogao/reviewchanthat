@@ -30,11 +30,11 @@ faq:
 image: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
 image_commercial_use: true
 image_creator: marclyc li
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/caribbean-bay-water-park-29188044/
+image_source_url: https://www.pexels.com/photo/thrill-ride-fun-at-amusement-park-38331866/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

@@ -44,7 +44,7 @@ faq:
 image: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
 image_commercial_use: true
 image_creator: Jhany Blue
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -60,6 +60,9 @@ internal_links:
   title: 'Club D Oasis Busan: infinity pool spa'
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?
+series: du-lich
+series_order: 14
+series_title: Du lịch Hàn Quốc 2026
 slug: haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong
 tags:
 - du lịch Hàn Quốc
@@ -69,9 +72,6 @@ tags:
 - biển Hàn Quốc
 - series du lịch
 thumbnail: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 14
 title: 'Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?'
 tom_tat_nhanh:
 - label: Khu vực

@@ -42,7 +42,7 @@ faq:
 image: images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

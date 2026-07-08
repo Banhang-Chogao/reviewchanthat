@@ -37,7 +37,7 @@ faq:
 image: images/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.webp
 image_commercial_use: true
 image_creator: Zsuzsa ZSUZSA
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -51,6 +51,9 @@ internal_links:
   title: Gwangalli Beach Busan
 - ref: posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md
   title: Cheongsapo Busan làng biển Blue Line Park
+series: du-lich
+series_order: 17
+series_title: Du lịch Hàn Quốc 2026
 slug: club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong
 tags:
 - du lịch Hàn Quốc
@@ -62,9 +65,6 @@ tags:
 - infinity pool
 - series du lịch
 thumbnail: images/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 17
 title: 'Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng'
 tom_tat_nhanh:
 - label: Khu vực

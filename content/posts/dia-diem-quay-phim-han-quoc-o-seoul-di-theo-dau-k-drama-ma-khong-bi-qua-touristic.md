@@ -32,11 +32,14 @@ external_links:
 image: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
 image_commercial_use: true
 image_creator: Co Hai
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/ninh-ki-u-cruise-docked-in-c-n-th-vietnam-35508138/
+series: du-lich
+series_order: 3
+series_title: Du lịch Hàn Quốc 2026
 slug: dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic
 tags:
 - du lịch Hàn Quốc
@@ -48,9 +51,6 @@ tags:
 - Reborn Rich
 - series du lịch
 thumbnail: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 3
 title: 'Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic'
 tom_tat_nhanh:
 - label: Khu vực

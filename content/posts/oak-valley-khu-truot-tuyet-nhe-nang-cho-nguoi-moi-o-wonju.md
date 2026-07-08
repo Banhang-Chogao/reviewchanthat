@@ -42,7 +42,7 @@ faq:
 image: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
 image_commercial_use: true
 image_creator: pipop kunachon
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -54,6 +54,9 @@ internal_links:
   title: Elysian Gangchon Ski
 - ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
   title: Vivaldi Park Ski World
+series: truot-tuyet
+series_order: 7
+series_title: Trượt tuyết Hàn Quốc
 slug: oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju
 tags:
 - du lịch Hàn Quốc
@@ -65,9 +68,6 @@ tags:
 - gangwon-do
 - series trượt tuyết
 thumbnail: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
-series: truot-tuyet
-series_title: "Trượt tuyết Hàn Quốc"
-series_order: 7
 title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju'
 tom_tat_nhanh:
 - label: Khu vực

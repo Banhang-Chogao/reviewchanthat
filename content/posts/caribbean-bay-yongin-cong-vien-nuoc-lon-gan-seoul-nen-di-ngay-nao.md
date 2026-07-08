@@ -42,7 +42,7 @@ faq:
 image: images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp
 image_commercial_use: true
 image_creator: KOREAN JH
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -58,6 +58,9 @@ internal_links:
   title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?
+series: du-lich
+series_order: 11
+series_title: Du lịch Hàn Quốc 2026
 slug: caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao
 tags:
 - du lịch Hàn Quốc
@@ -68,9 +71,6 @@ tags:
 - Yongin
 - series du lịch
 thumbnail: images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 11
 title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?'
 tom_tat_nhanh:
 - label: Khu vực

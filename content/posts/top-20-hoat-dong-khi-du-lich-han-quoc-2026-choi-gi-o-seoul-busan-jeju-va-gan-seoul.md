@@ -83,7 +83,7 @@ faq:
 image: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
 image_commercial_use: true
 image_creator: Tuấn Kiệt Jr.
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -116,6 +116,9 @@ internal_links:
     điểm nào'
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè
+series: du-lich
+series_order: 1
+series_title: Du lịch Hàn Quốc 2026
 slug: top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul
 tags:
 - du lịch Hàn Quốc
@@ -129,9 +132,6 @@ tags:
 - ẩm thực Hàn Quốc
 - series du lịch
 thumbnail: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 1
 title: 'Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và
   gần Seoul?'
 tom_tat_nhanh:

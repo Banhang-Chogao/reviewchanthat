@@ -35,11 +35,14 @@ external_links:
 image: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
 image_commercial_use: true
 image_creator: CK Seng
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/gyeongbokgung-palace-entrance-under-clear-sky-35396663/
+series: du-lich
+series_order: 9
+series_title: Du lịch Hàn Quốc 2026
 slug: day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay
 tags:
 - du lịch Hàn Quốc
@@ -51,9 +54,6 @@ tags:
 - day trip Seoul
 - series du lịch
 thumbnail: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 9
 title: 'Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong
   một ngày'
 tom_tat_nhanh:

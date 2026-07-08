@@ -41,7 +41,7 @@ faq:
 image: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
 image_commercial_use: true
 image_creator: Nghia .8pm
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -53,6 +53,9 @@ internal_links:
   title: 'Wolmido Incheon: biển, boardwalk cho gia đình'
 - ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
   title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul'
+series: du-lich
+series_order: 10
+series_title: Du lịch Hàn Quốc 2026
 slug: nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song
 tags:
 - du lịch Hàn Quốc
@@ -62,9 +65,6 @@ tags:
 - Chuncheon
 - series du lịch
 thumbnail: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 10
 title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió
   sông'
 tom_tat_nhanh:

@@ -49,7 +49,7 @@ faq:
 image: images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp
 image_commercial_use: true
 image_creator: Dennis Park
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -65,6 +65,9 @@ internal_links:
   title: 'Club D Oasis Busan: infinity pool spa'
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?
+series: du-lich
+series_order: 15
+series_title: Du lịch Hàn Quốc 2026
 slug: gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi
 tags:
 - du lịch Hàn Quốc
@@ -75,9 +78,6 @@ tags:
 - biển Hàn Quốc
 - series du lịch
 thumbnail: images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 15
 title: 'Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối'
 tom_tat_nhanh:
 - label: Khu vực

@@ -34,11 +34,14 @@ external_links:
 image: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
 image_commercial_use: true
 image_creator: tom  Lok
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/body-of-water-near-trees-during-sunset-6476882/
+series: du-lich
+series_order: 20
+series_title: Du lịch Hàn Quốc 2026
 slug: ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo
 tags:
 - du lịch Hàn Quốc
@@ -50,9 +53,6 @@ tags:
 - Seopjikoji
 - series du lịch
 thumbnail: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 20
 title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo'
 tom_tat_nhanh:
 - label: Khu vực

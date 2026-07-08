@@ -33,7 +33,7 @@ faq:
 image: images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp
 image_commercial_use: true
 image_creator: Gije Cho
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

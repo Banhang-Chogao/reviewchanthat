@@ -79,11 +79,11 @@ faq:
 image: images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp
 image_commercial_use: true
 image_creator: Mizuno K
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/travel-packing-summer-29188047/
+image_source_url: https://www.pexels.com/photo/girls-looking-through-clothes-in-a-suitcase-13929267/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?
