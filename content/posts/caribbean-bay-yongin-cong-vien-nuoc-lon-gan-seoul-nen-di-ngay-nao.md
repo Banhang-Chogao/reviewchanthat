@@ -1,28 +1,4 @@
 ---
-title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?'
-date: 2026-07-08 07:00:00+07:00
-description: Caribbean Bay Yongin là công viên nước lớn nhất gần Seoul, có wave pool
-  2,4 m, lazy river dài nhất thế giới, spa. Thuộc khu Everland Resort.
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Caribbean Bay
-- công viên nước
-- Everland
-- Yongin
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1544102392-3399ca7b21a3
-thumbnail: https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
@@ -34,27 +10,19 @@ ai_summary:
   - Có wave pool cao 2,4 m, lazy river dài nhất thế giới và spa mở cửa quanh năm.
   - Nên đi ngày thường và mua vé online trước để tránh đông và tiết kiệm.
   title: Tóm tắt bài viết
-faq:
-- question: Caribbean Bay có đông không?
-  answer: Cực kỳ đông vào cuối tuần tháng 7–8. Một số đường trượt có thể chờ 40–60
-    phút. Đi ngày thường là lời khuyên số một.
-- question: Có cần mua vé trước không?
-  answer: nên kiểm tra tình trạng vé trên website chính thức của điểm đến. Vào mùa
-    cao điểm, vé tại quầy có thể hết.
-- question: Trẻ em bao nhiêu tuổi được vào?
-  answer: Không giới hạn độ tuổi, nhưng trẻ dưới 37 tháng cần mặc tã bơi.
-- question: Caribbean Bay khác Everland thế nào?
-  answer: Caribbean Bay là công viên nước, Everland là công viên giải trí với tàu
-    lượn và thú. Hai khu có vé riêng nhưng nằm gần nhau.
-internal_links:
-- title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
-- title: 'Nami Island mùa hè: day trip gần Seoul'
-  url: /nami-island-mua-he-day-trip-gan-seoul/
-- title: 'Wolmido Incheon: biển, boardwalk cho gia đình'
-  url: /wolmido-incheon-bien-boardwalk-gan-seoul/
-- title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
-  url: /shinhwa-theme-park-jeju-water-slides/
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
+    https://en.wikipedia.org/wiki/Caribbean_Bay, https://www.everland.com/web/caribbean/main.html.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- du-lich
+date: 2026-07-08 07:00:00+07:00
+description: Caribbean Bay Yongin là công viên nước lớn nhất gần Seoul, có wave pool
+  2,4 m, lazy river dài nhất thế giới, spa. Thuộc khu Everland Resort.
+draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -62,16 +30,49 @@ external_links:
   url: https://en.wikipedia.org/wiki/Caribbean_Bay
 - title: https://www.everland.com/web/caribbean/main.html
   url: https://www.everland.com/web/caribbean/main.html
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https://en.wikipedia.org/wiki/Caribbean_Bay, https://www.everland.com/web/caribbean/main.html.'
+faq:
+- answer: Cực kỳ đông vào cuối tuần tháng 7–8. Một số đường trượt có thể chờ 40–60
+    phút. Đi ngày thường là lời khuyên số một.
+  question: Caribbean Bay có đông không?
+- answer: nên kiểm tra tình trạng vé trên website chính thức của điểm đến. Vào mùa
+    cao điểm, vé tại quầy có thể hết.
+  question: Có cần mua vé trước không?
+- answer: Không giới hạn độ tuổi, nhưng trẻ dưới 37 tháng cần mặc tã bơi.
+  question: Trẻ em bao nhiêu tuổi được vào?
+- answer: Caribbean Bay là công viên nước, Everland là công viên giải trí với tàu
+    lượn và thú. Hai khu có vé riêng nhưng nằm gần nhau.
+  question: Caribbean Bay khác Everland thế nào?
+image: https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80
+image_commercial_use: true
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1544102392-3399ca7b21a3
+internal_links:
+- title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
+  url: /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/
+- title: 'Nami Island mùa hè: day trip gần Seoul'
+  url: /posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/
+- title: 'Wolmido Incheon: biển, boardwalk cho gia đình'
+  url: /posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh/
+- title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
+  url: /posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/
+slug: caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc mùa hè
+- Caribbean Bay
+- công viên nước
+- Everland
+- Yongin
+- series du lịch
+thumbnail: https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80
+title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?'
 ---
 
 Caribbean Bay là một trong những công viên nước nổi tiếng nhất châu Á, nằm trong khu Everland Resort tại Yongin, Gyeonggi-do. Khai trương năm 1996, công viên có cả khu nước trong nhà và ngoài trời, vận hành quanh năm — nhưng mùa hè là lúc các khu nước ngoài trời hoạt động hết công suất.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/), Caribbean Bay đứng thứ 7 và là công viên nước duy nhất trong top 10 thuộc khu vực Seoul.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/), Caribbean Bay đứng thứ 7 và là công viên nước duy nhất trong top 10 thuộc khu vực Seoul.
 
 ## Tóm tắt nhanh
 
@@ -131,6 +132,6 @@ Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mu
 ## Nên kết hợp với đâu?
 
 - **Everland**: Công viên giải trí nằm kế cạnh, nếu có thời gian bạn có thể mua vé ghép.
-- **Nami Island**: Hai điểm cách nhau không xa, nếu nghỉ qua đêm thì kết hợp dễ dàng. Xem thêm [Nami Island mùa hè](/nami-island-mua-he-day-trip-gan-seoul/).
-- **Wolmido**: Điểm đến tối nhẹ nhàng hơn nếu bạn không muốn cả ngày nước. Xem thêm [Wolmido Incheon](/wolmido-incheon-bien-boardwalk-gan-seoul/).
-- Xem toàn bộ [danh sách điểm tránh nóng](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/).
+- **Nami Island**: Hai điểm cách nhau không xa, nếu nghỉ qua đêm thì kết hợp dễ dàng. Xem thêm [Nami Island mùa hè](/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/).
+- **Wolmido**: Điểm đến tối nhẹ nhàng hơn nếu bạn không muốn cả ngày nước. Xem thêm [Wolmido Incheon](/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh/).
+- Xem toàn bộ [danh sách điểm tránh nóng](/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/).

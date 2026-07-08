@@ -1,0 +1,51 @@
+{{- /* 
+  Link resolver — resolves internal links to canonical Hugo permalinks.
+  Expects: .href (the raw href), .text (link text, optional)
+  Returns: dict with "href" and "text"
+  
+  If href is /some-slug/ or /posts/some-slug/ or https://banhang-chogao.github.io/...,
+  it resolves to the post's .RelPermalink if found.
+  If the target cannot be resolved, the original href is returned unchanged.
+*/ -}}
+
+{{- $href := .href -}}
+{{- $text := .text -}}
+{{- $resolved := false -}}
+
+{{- $cleanHref := $href | strings.TrimSuffix "/" -}}
+
+{{- /* Remove baseURL prefix if present */ -}}
+{{- if hasPrefix $cleanHref site.BaseURL -}}
+  {{- $cleanHref = strings.TrimPrefix site.BaseURL $cleanHref -}}
+{{- end -}}
+
+{{- /* Remove /reviewchanthat prefix if present */ -}}
+{{- if hasPrefix $cleanHref "/reviewchanthat" -}}
+  {{- $cleanHref = strings.TrimPrefix "/reviewchanthat" $cleanHref -}}
+{{- end -}}
+
+{{- /* Now try to find a matching post */ -}}
+{{- range where site.RegularPages "Section" "posts" -}}
+  {{- $pageRel := .RelPermalink | strings.TrimSuffix "/" -}}
+  {{- $pageSlug := strings.TrimPrefix "/posts/" $pageRel -}}
+
+  {{- /* Match /slug/ or /posts/slug/ */ -}}
+  {{- if or (eq $cleanHref (printf "/posts/%s" $pageSlug)) (eq $cleanHref (printf "/%s" $pageSlug)) -}}
+    {{- $href = .RelPermalink -}}
+    {{- $resolved = true -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* If not resolved, try Hugo ref/relref */ -}}
+{{- if not $resolved -}}
+  {{- $ref := "" -}}
+  {{- if hasPrefix $href "/" -}}
+    {{- $slug := strings.TrimPrefix "/posts/" $href | strings.TrimPrefix "/" | strings.TrimSuffix "/" -}}
+    {{- with site.GetPage (printf "/posts/%s" $slug) -}}
+      {{- $href = .RelPermalink -}}
+      {{- $resolved = true -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (dict "href" $href "text" $text "resolved" $resolved) -}}

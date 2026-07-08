@@ -12,8 +12,6 @@ ai_summary:
   - Một sản phẩm có bảo hành 2 năm tại trung tâm uy tín đáng giá hơn sản phẩm rẻ hơn
     nhưng không có bảo hành.
   title: Tóm tắt bài viết
-aliases:
-- /so-sánh-giá-bảo-hành-và-trải-nghiệm-yếu-tố-nào-quan-trọng-nhất/
 attribution:
   copyright: © 2026 Veritable Content. Vui lòng ghi nguồn khi trích dẫn.
   source_note: Bài viết tổng hợp từ trải nghiệm cá nhân và các nguyên tắc tài chính
@@ -49,6 +47,7 @@ image_license: Unsplash License
 image_owner: external
 image_source: Unsplash
 image_source_url: https://unsplash.com/photos/1563013544-824ae1b704d3
+slug: so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat
 tags:
 - so sánh
 - giá cả

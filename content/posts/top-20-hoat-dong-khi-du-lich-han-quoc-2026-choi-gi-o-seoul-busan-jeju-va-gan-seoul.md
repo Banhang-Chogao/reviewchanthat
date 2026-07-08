@@ -1,33 +1,4 @@
 ---
-title: 'Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và
-  gần Seoul?'
-date: 2026-07-08 07:00:00+07:00
-description: 'Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, chợ địa phương,
-  musical, jjimjilbang, ngắm bình minh Jeju, K-beauty, day trip Suwon, Incheon và
-  Yongin. Kèm lịch trình mẫu 3-10 ngày.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- Busan
-- Jeju
-- trải nghiệm Hàn Quốc
-- K-beauty
-- K-drama
-- ẩm thực Hàn Quốc
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
@@ -43,65 +14,22 @@ ai_summary:
   - 'Gợi ý chọn hoạt động theo kiểu du khách: lần đầu, cặp đôi, gia đình, bạn bè,
     mê K-drama, thích ẩm thực.'
   title: Tóm tắt bài viết
-faq:
-- question: Du lịch Hàn Quốc 2026 nên chơi gì?
-  answer: 'Tùy vào sở thích, nhưng top 3 hoạt động nên thử: thuê Hanbok tham quan
-    cung điện Seoul, ăn chợ địa phương (Gwangjang, Jagalchi) và một buổi tối xem musical/jjimjilbang.
-    Nếu có thời gian, nên dành ít nhất 2 ngày cho Jeju hoặc Busan.'
-- question: Lần đầu đi Hàn Quốc nên chọn hoạt động nào?
-  answer: 'Bắt đầu với các hoạt động trung tâm Seoul: Hanbok + Gyeongbokgung, chợ
-    Gwangjang, Sparex Dongdaemun. Sau đó, một day trip Suwon là đủ để có trải nghiệm
-    văn hóa đa dạng mà không tốn nhiều thời gian di chuyển.'
-- question: Seoul có hoạt động nào hợp người Việt?
-  answer: 'Hầu hết đều hợp, nhưng đặc biệt: ăn uống tại chợ Gwangjang (giá phải chăng,
-    có món quen như cháo, bánh xèo), mua mỹ phẩm tại Myeongdong và tắm jjimjilbang
-    (văn hóa tắm công cộng khá gần gũi với người Việt).'
-- question: Có nên đi Busan hoặc Jeju nếu chỉ có 5 ngày?
-  answer: Nếu bạn ở Seoul, 5 ngày chỉ đủ để khám phá Seoul và làm một day trip gần
-    Seoul. Để đi Busan hoặc Jeju, bạn nên có ít nhất 7 ngày — nếu không, chi phí di
-    chuyển sẽ không xứng với thời gian thực tế ở điểm đến.
-- question: Nên đặt trước hoạt động nào?
-  answer: 'Các hoạt động nên đặt trước: vé máy bay nội địa Seoul–Jeju (mùa cao điểm),
-    vé musical/show, gói Hanbok vào cuối tuần, vé Caribbean Bay và Aquafield Goyang.
-    Các hoạt động như chợ, cung điện, đi bộ tường thành Hwaseong thường không cần
-    đặt trước.'
-- question: Có hoạt động nào hợp gia đình/trẻ em?
-  answer: Caribbean Bay (Yongin), Korean Folk Village (Yongin), Songwol-dong Fairy
-    Tale Village (Incheon), Gwangmyeong Cave và Aquafield Goyang đều phù hợp với gia
-    đình có trẻ em. Biển Hamdeok (Jeju) cũng an toàn với trẻ nhỏ.
-- question: Nên đi Hàn Quốc mùa nào để trải nghiệm nhiều nhất?
-  answer: Mùa xuân (tháng 4–5) và mùa thu (tháng 9–11) là thời điểm lý tưởng nhất.
-    Mùa hè (tháng 6–8) nóng và ẩm nhưng phù hợp cho biển và công viên nước. Mùa đông
-    (tháng 12–2) rất lạnh, thích hợp cho jjimjilbang và trải nghiệm văn hóa trong
-    nhà.
-internal_links:
-- title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
-  url: /thue-hanbok-o-seoul-cung-dien-lang-hanok/
-- title: 'Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju'
-  url: /cho-dia-phuong-han-quoc-seoul-busan-jeju/
-- title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
-    Quốc'
-  url: /xem-musical-show-o-seoul/
-- title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo'
-  url: /ngam-binh-minh-jeju-seongsan-seogwipo/
-- title: 'Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển'
-  url: /bien-dep-jeju-hamdeok-hyeopjae-resort/
-- title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay'
-  url: /jjimjilbang-han-quoc-seoul-aquafield-goyang/
-- title: 'Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá
-    touristic'
-  url: /dia-diem-quay-phim-han-quoc-seoul-kdrama/
-- title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người
-    mê làm đẹp'
-  url: /k-beauty-makeup-personal-color-seoul/
-- title: 'Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong
-    một ngày'
-  url: /day-trip-suwon-hwaseong-haenggung-korean-folk-village/
-- title: 'Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn
-    điểm nào'
-  url: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/
-- title: 10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè
-  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>,
+    https://english.visitkorea.or.kr/>, https://english.visitseoul.net/>, https://www.visitbusan.net/>
+    và các nguồn khác.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- du-lich
+date: 2026-07-08 07:00:00+07:00
+description: 'Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, chợ địa phương,
+  musical, jjimjilbang, ngắm bình minh Jeju, K-beauty, day trip Suwon, Incheon và
+  Yongin. Kèm lịch trình mẫu 3-10 ngày.'
+draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
   url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
@@ -123,13 +51,86 @@ external_links:
   url: https://www.koreanfolkvillage.co.kr/>
 - title: https://www.gmcave.or.kr/>
   url: https://www.gmcave.or.kr/>
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
-    https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>,
-    https://english.visitkorea.or.kr/>, https://english.visitseoul.net/>, https://www.visitbusan.net/>
-    và các nguồn khác.'
+faq:
+- answer: 'Tùy vào sở thích, nhưng top 3 hoạt động nên thử: thuê Hanbok tham quan
+    cung điện Seoul, ăn chợ địa phương (Gwangjang, Jagalchi) và một buổi tối xem musical/jjimjilbang.
+    Nếu có thời gian, nên dành ít nhất 2 ngày cho Jeju hoặc Busan.'
+  question: Du lịch Hàn Quốc 2026 nên chơi gì?
+- answer: 'Bắt đầu với các hoạt động trung tâm Seoul: Hanbok + Gyeongbokgung, chợ
+    Gwangjang, Sparex Dongdaemun. Sau đó, một day trip Suwon là đủ để có trải nghiệm
+    văn hóa đa dạng mà không tốn nhiều thời gian di chuyển.'
+  question: Lần đầu đi Hàn Quốc nên chọn hoạt động nào?
+- answer: 'Hầu hết đều hợp, nhưng đặc biệt: ăn uống tại chợ Gwangjang (giá phải chăng,
+    có món quen như cháo, bánh xèo), mua mỹ phẩm tại Myeongdong và tắm jjimjilbang
+    (văn hóa tắm công cộng khá gần gũi với người Việt).'
+  question: Seoul có hoạt động nào hợp người Việt?
+- answer: Nếu bạn ở Seoul, 5 ngày chỉ đủ để khám phá Seoul và làm một day trip gần
+    Seoul. Để đi Busan hoặc Jeju, bạn nên có ít nhất 7 ngày — nếu không, chi phí di
+    chuyển sẽ không xứng với thời gian thực tế ở điểm đến.
+  question: Có nên đi Busan hoặc Jeju nếu chỉ có 5 ngày?
+- answer: 'Các hoạt động nên đặt trước: vé máy bay nội địa Seoul–Jeju (mùa cao điểm),
+    vé musical/show, gói Hanbok vào cuối tuần, vé Caribbean Bay và Aquafield Goyang.
+    Các hoạt động như chợ, cung điện, đi bộ tường thành Hwaseong thường không cần
+    đặt trước.'
+  question: Nên đặt trước hoạt động nào?
+- answer: Caribbean Bay (Yongin), Korean Folk Village (Yongin), Songwol-dong Fairy
+    Tale Village (Incheon), Gwangmyeong Cave và Aquafield Goyang đều phù hợp với gia
+    đình có trẻ em. Biển Hamdeok (Jeju) cũng an toàn với trẻ nhỏ.
+  question: Có hoạt động nào hợp gia đình/trẻ em?
+- answer: Mùa xuân (tháng 4–5) và mùa thu (tháng 9–11) là thời điểm lý tưởng nhất.
+    Mùa hè (tháng 6–8) nóng và ẩm nhưng phù hợp cho biển và công viên nước. Mùa đông
+    (tháng 12–2) rất lạnh, thích hợp cho jjimjilbang và trải nghiệm văn hóa trong
+    nhà.
+  question: Nên đi Hàn Quốc mùa nào để trải nghiệm nhiều nhất?
+image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
+image_commercial_use: true
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+internal_links:
+- title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
+  url: /posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/
+- title: 'Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju'
+  url: /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/
+- title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
+    Quốc'
+  url: /posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/
+- title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo'
+  url: /posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/
+- title: 'Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển'
+  url: /posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/
+- title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay'
+  url: /posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/
+- title: 'Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá
+    touristic'
+  url: /posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/
+- title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người
+    mê làm đẹp'
+  url: /posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep/
+- title: 'Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong
+    một ngày'
+  url: /posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/
+- title: 'Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn
+    điểm nào'
+  url: /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/
+- title: 10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè
+  url: /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/
+slug: top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc 2026
+- Seoul
+- Busan
+- Jeju
+- trải nghiệm Hàn Quốc
+- K-beauty
+- K-drama
+- ẩm thực Hàn Quốc
+- series du lịch
+thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
+title: 'Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và
+  gần Seoul?'
 ---
 
 Hàn Quốc năm 2026 không chỉ có K-pop và ẩm thực đường phố — mà còn là một điểm đến đa dạng trải nghiệm, từ mặc Hanbok dạo cung điện, xem musical ở Daehangno, đến ngắm bình minh trên miệng núi lửa Seongsan Ilchulbong ở Jeju. Nhưng với lần đầu đi tự túc, bạn có thể băn khoăn: nên chơi gì, bắt đầu từ đâu và hoạt động nào thực sự đáng thời gian?
@@ -142,26 +143,26 @@ Dưới đây là bảng tổng quan 20 hoạt động được Trip.Best xếp 
 
 | Hạng | Hoạt động | Khu vực | Loại trải nghiệm | Hợp với | Nên dành bao lâu | Bài liên quan |
 |------|-----------|---------|-----------------|---------|-----------------|---------------|
-| 1 | Thuê Hanbok ở Seoul | Seoul | Văn hóa | Lần đầu, cặp đôi, chụp ảnh | 2–4 giờ | [Thuê Hanbok ở Seoul](/thue-hanbok-o-seoul-cung-dien-lang-hanok/) |
-| 2 | Chợ địa phương Seoul | Seoul | Ẩm thực, mua sắm | Nhóm bạn, thích ăn uống | 1–3 giờ/chợ | [Chợ địa phương Hàn Quốc](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) |
-| 3 | Xem musical/show ở Seoul | Seoul | Giải trí | Cặp đôi, nhóm bạn | 2–3 giờ/tối | [Xem musical và show ở Seoul](/xem-musical-show-o-seoul/) |
-| 4 | Chợ địa phương Busan | Busan | Ẩm thực, mua sắm | Thích ăn uống, thích biển | 1–3 giờ/chợ | [Chợ địa phương Hàn Quốc](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) |
-| 5 | Ngắm bình minh Seogwipo | Jeju (Seogwipo) | Thiên nhiên | Cặp đôi, nhiếp ảnh | 2–3 giờ sáng | [Ngắm bình minh Jeju](/ngam-binh-minh-jeju-seongsan-seogwipo/) |
-| 6 | Chợ địa phương Jeju | Jeju | Ẩm thực, mua sắm | Thích ăn uống, mua đặc sản | 1–2 giờ | [Chợ địa phương Hàn Quốc](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) |
-| 7 | Biển và khu nghỉ Jeju | Jeju | Nghỉ dưỡng, tắm biển | Gia đình, cặp đôi | Nửa ngày–1 ngày | [Biển đẹp ở Jeju](/bien-dep-jeju-hamdeok-hyeopjae-resort/) |
-| 8 | Jjimjilbang / sauna Hàn Quốc | Seoul | Thư giãn, văn hóa | Ai cũng hợp, nhất là mệt | 2–4 giờ | [Jjimjilbang Hàn Quốc](/jjimjilbang-han-quoc-seoul-aquafield-goyang/) |
-| 9 | Địa điểm quay phim K-drama | Seoul | Văn hóa, giải trí | Fan K-drama, thích ảnh | 2–4 giờ | [Địa điểm quay phim Hàn Quốc](/dia-diem-quay-phim-han-quoc-seoul-kdrama/) |
-| 10 | Trải nghiệm K-beauty Seoul | Seoul | Làm đẹp | Mê skincare, makeup | 2–3 giờ | [K-beauty Seoul](/k-beauty-makeup-personal-color-seoul/) |
-| 11 | AQUAFIELD GOYANG | Goyang (gần Seoul) | Spa, sauna cao cấp | Cặp đôi, thích chill | 3–5 giờ | [Jjimjilbang Hàn Quốc](/jjimjilbang-han-quoc-seoul-aquafield-goyang/) |
-| 12 | Gwangmyeong Cave | Gwangmyeong (gần Seoul) | Tham quan, văn hóa | Gia đình, bạn bè | 2–3 giờ | [Đi chơi gần Seoul](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/) |
-| 13 | Hwaseong Fortress | Suwon (gần Seoul) | Di sản UNESCO | Ai cũng hợp | 2–3 giờ | [Day trip Suwon](/day-trip-suwon-hwaseong-haenggung-korean-folk-village/) |
-| 14 | Hwaseong Haenggung | Suwon (gần Seoul) | Cung điện lịch sử | Ai cũng hợp | 1–2 giờ | [Day trip Suwon](/day-trip-suwon-hwaseong-haenggung-korean-folk-village/) |
-| 15 | Songwol-dong Fairy Tale Village | Incheon (gần Seoul) | Tham quan, chụp ảnh | Gia đình, trẻ em | 1–2 giờ | [Đi chơi gần Seoul](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/) |
-| 16 | Incheon Chinatown | Incheon (gần Seoul) | Ẩm thực, văn hóa | Thích ăn uống | 1–2 giờ | [Đi chơi gần Seoul](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/) |
-| 17 | Wolmido | Incheon (gần Seoul) | Giải trí, biển | Gia đình, cặp đôi | 2–3 giờ | [Đi chơi gần Seoul](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/) |
-| 18 | Caribbean Bay | Yongin (gần Seoul) | Công viên nước | Gia đình, nhóm bạn, mùa hè | Cả ngày | [Đi chơi gần Seoul](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/) |
-| 19 | Korean Folk Village | Yongin (gần Seoul) | Văn hóa, lịch sử | Gia đình, muốn hiểu văn hóa | 3–5 giờ | [Day trip Suwon](/day-trip-suwon-hwaseong-haenggung-korean-folk-village/) |
-| 20 | Hwadamsup (Hwadam Botanic Garden) | Gwangju, Gyeonggi (gần Seoul) | Thiên nhiên | Cặp đôi, thích cây cối | 2–4 giờ | [Đi chơi gần Seoul](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/) |
+| 1 | Thuê Hanbok ở Seoul | Seoul | Văn hóa | Lần đầu, cặp đôi, chụp ảnh | 2–4 giờ | [Thuê Hanbok ở Seoul](/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/) |
+| 2 | Chợ địa phương Seoul | Seoul | Ẩm thực, mua sắm | Nhóm bạn, thích ăn uống | 1–3 giờ/chợ | [Chợ địa phương Hàn Quốc](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/) |
+| 3 | Xem musical/show ở Seoul | Seoul | Giải trí | Cặp đôi, nhóm bạn | 2–3 giờ/tối | [Xem musical và show ở Seoul](/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/) |
+| 4 | Chợ địa phương Busan | Busan | Ẩm thực, mua sắm | Thích ăn uống, thích biển | 1–3 giờ/chợ | [Chợ địa phương Hàn Quốc](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/) |
+| 5 | Ngắm bình minh Seogwipo | Jeju (Seogwipo) | Thiên nhiên | Cặp đôi, nhiếp ảnh | 2–3 giờ sáng | [Ngắm bình minh Jeju](/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/) |
+| 6 | Chợ địa phương Jeju | Jeju | Ẩm thực, mua sắm | Thích ăn uống, mua đặc sản | 1–2 giờ | [Chợ địa phương Hàn Quốc](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/) |
+| 7 | Biển và khu nghỉ Jeju | Jeju | Nghỉ dưỡng, tắm biển | Gia đình, cặp đôi | Nửa ngày–1 ngày | [Biển đẹp ở Jeju](/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/) |
+| 8 | Jjimjilbang / sauna Hàn Quốc | Seoul | Thư giãn, văn hóa | Ai cũng hợp, nhất là mệt | 2–4 giờ | [Jjimjilbang Hàn Quốc](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/) |
+| 9 | Địa điểm quay phim K-drama | Seoul | Văn hóa, giải trí | Fan K-drama, thích ảnh | 2–4 giờ | [Địa điểm quay phim Hàn Quốc](/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/) |
+| 10 | Trải nghiệm K-beauty Seoul | Seoul | Làm đẹp | Mê skincare, makeup | 2–3 giờ | [K-beauty Seoul](/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep/) |
+| 11 | AQUAFIELD GOYANG | Goyang (gần Seoul) | Spa, sauna cao cấp | Cặp đôi, thích chill | 3–5 giờ | [Jjimjilbang Hàn Quốc](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/) |
+| 12 | Gwangmyeong Cave | Gwangmyeong (gần Seoul) | Tham quan, văn hóa | Gia đình, bạn bè | 2–3 giờ | [Đi chơi gần Seoul](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/) |
+| 13 | Hwaseong Fortress | Suwon (gần Seoul) | Di sản UNESCO | Ai cũng hợp | 2–3 giờ | [Day trip Suwon](/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/) |
+| 14 | Hwaseong Haenggung | Suwon (gần Seoul) | Cung điện lịch sử | Ai cũng hợp | 1–2 giờ | [Day trip Suwon](/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/) |
+| 15 | Songwol-dong Fairy Tale Village | Incheon (gần Seoul) | Tham quan, chụp ảnh | Gia đình, trẻ em | 1–2 giờ | [Đi chơi gần Seoul](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/) |
+| 16 | Incheon Chinatown | Incheon (gần Seoul) | Ẩm thực, văn hóa | Thích ăn uống | 1–2 giờ | [Đi chơi gần Seoul](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/) |
+| 17 | Wolmido | Incheon (gần Seoul) | Giải trí, biển | Gia đình, cặp đôi | 2–3 giờ | [Đi chơi gần Seoul](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/) |
+| 18 | Caribbean Bay | Yongin (gần Seoul) | Công viên nước | Gia đình, nhóm bạn, mùa hè | Cả ngày | [Đi chơi gần Seoul](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/) |
+| 19 | Korean Folk Village | Yongin (gần Seoul) | Văn hóa, lịch sử | Gia đình, muốn hiểu văn hóa | 3–5 giờ | [Day trip Suwon](/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/) |
+| 20 | Hwadamsup (Hwadam Botanic Garden) | Gwangju, Gyeonggi (gần Seoul) | Thiên nhiên | Cặp đôi, thích cây cối | 2–4 giờ | [Đi chơi gần Seoul](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/) |
 
 ## Seoul văn hóa & lifestyle
 
@@ -169,43 +170,43 @@ Dưới đây là bảng tổng quan 20 hoạt động được Trip.Best xếp 
 
 Thuê Hanbok là một trong những trải nghiệm đầu tiên mà nhiều người Việt nghĩ đến khi đặt chân đến Seoul. Bạn có thể thuê hanbok tại các cửa hàng quanh Gyeongbokgung, Changdeokgung, Deoksugung hoặc Changgyeonggung — và khi mặc hanbok, bạn được miễn phí vào các cung điện này. Gói thuê thường bao gồm hanbok, túi nhỏ và một số phụ kiện, trong khoảng 2–4 giờ hoặc cả ngày.
 
-Đọc thêm: [Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền](/thue-hanbok-o-seoul-cung-dien-lang-hanok/)
+Đọc thêm: [Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền](/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/)
 
 ### 2. Khám phá chợ địa phương Seoul
 
 Seoul có nhiều khu chợ truyền thống và khu mua sắm sầm uất: Gwangjang Market (nổi tiếng với bánh xèo mung bean, yukhoe), Namdaemun Market (mở cửa từ khuya đến tối muộn, bán đủ thứ), và khu Myeongdong (thiên đường mỹ phẩm và ẩm thực đường phố). Mỗi chợ có một phong cách riêng — bạn nên dành ít nhất 1–3 giờ cho mỗi chợ tùy theo sở thích.
 
-Đọc thêm: [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/cho-dia-phuong-han-quoc-seoul-busan-jeju/)
+Đọc thêm: [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
 
 ### 3. Xem musical và show ở Daehangno
 
 Daehangno (khu vực Đại học Jongno) là trung tâm nghệ thuật biểu diễn của Seoul với khoảng 150 rạp hát. Bạn có thể xem các vở musical Hàn Quốc nổi tiếng, show không lời hoặc các buổi biểu diễn đường phố. Đây là hoạt động buổi tối lý tưởng cho cặp đôi hoặc nhóm bạn muốn thử một trải nghiệm văn hóa khác ngoài ăn uống và mua sắm.
 
-Đọc thêm: [Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc](/xem-musical-show-o-seoul/)
+Đọc thêm: [Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc](/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/)
 
 ### 4. Jjimjilbang — sauna kiểu Hàn
 
 Jjimjilbang là một phần không thể thiếu của văn hóa Hàn Quốc. Ở Seoul, bạn có thể trải nghiệm từ các jjimjilbang bình dân như Sparex Dongdaemun (mở 24 giờ) đến các spa cao cấp như Aquafield Goyang với hồ bơi vô cực nhìn ra sông Hán. Đây là hoạt động phù hợp với mọi đối tượng, đặc biệt là khi bạn mệt sau một ngày tham quan.
 
-Đọc thêm: [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/jjimjilbang-han-quoc-seoul-aquafield-goyang/)
+Đọc thêm: [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
 
 ### 5. Đi theo dấu K-drama
 
 Seoul có rất nhiều địa điểm từng xuất hiện trong các bộ phim Hàn Quốc nổi tiếng — từ Sewoon Arcade trong Vincenzo, Common Ground, đến Baek In-je House trong Reborn Rich. Nếu bạn là fan K-drama, đây là cách thú vị để khám phá thành phố dưới một góc nhìn khác. Các địa điểm nằm rải rác ở Jongno, Seongsu và Gwangjin.
 
-Đọc thêm: [Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic](/dia-diem-quay-phim-han-quoc-seoul-kdrama/)
+Đọc thêm: [Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic](/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/)
 
 ### 6. Trải nghiệm K-beauty
 
 Myeongdong là thiên đường mỹ phẩm, nhưng nếu bạn muốn một trải nghiệm làm đẹp bài bản hơn, các lớp học makeup và tư vấn personal color tại JUNGSAEMMOOL 101 (Seongsu) hoặc Atelier Su (Mapo) là lựa chọn đáng cân nhắc. Bạn sẽ được hướng dẫn bởi các chuyên gia trang điểm từng làm việc với người nổi tiếng.
 
-Đọc thêm: [Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp](/k-beauty-makeup-personal-color-seoul/)
+Đọc thêm: [Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp](/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep/)
 
 ## Busan — chợ, biển và ẩm thực
 
 Busan không có nhiều hoạt động trong top 20 seed list của Trip.Best bằng Seoul, nhưng bù lại, mỗi hoạt động ở Busan đều mang tính trải nghiệm cao. Nổi bật nhất là các khu chợ địa phương — đặc biệt là Jagalchi Fish Market (chợ hải sản lớn nhất Hàn Quốc) và Gukje Market (khu chợ hình thành sau chiến tranh, từng xuất hiện trong phim Ode to My Father). Nếu bạn có 2–3 ngày ở Busan, đây là những điểm không thể bỏ qua.
 
-Đọc thêm: [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/cho-dia-phuong-han-quoc-seoul-busan-jeju/)
+Đọc thêm: [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
 
 ## Jeju — bình minh, chợ và biển
 
@@ -213,7 +214,7 @@ Busan không có nhiều hoạt động trong top 20 seed list của Trip.Best b
 
 Seongsan Ilchulbong là di sản thiên nhiên thế giới UNESCO, một miệng núi lửa tuff cao 180 m nằm ở bờ biển phía đông Jeju. Leo khoảng 30 phút lên đỉnh là bạn có thể ngắm toàn cảnh bình minh trên biển. Đây là một trong những cảnh đẹp nhất Jeju và là hoạt động không thể bỏ lỡ nếu bạn ở phía đông đảo.
 
-Đọc thêm: [Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo](/ngam-binh-minh-jeju-seongsan-seogwipo/)
+Đọc thêm: [Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo](/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/)
 
 ### 8. Chợ Dongmun Jeju
 
@@ -223,7 +224,7 @@ Chợ Dongmun là chợ lâu đời nhất và lớn nhất ở Jeju, nằm tạ
 
 Jeju có những bãi biển đẹp như Hamdeok (phía đông, nước xanh ngọc, cạn, hợp gia đình) và Hyeopjae (phía tây, cát trắng, hoàng hôn đẹp). Nếu bạn muốn nghỉ dưỡng ven biển, Jeju có nhiều khu resort từ bình dân đến cao cấp dọc theo bờ biển phía nam và phía tây.
 
-Đọc thêm: [Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển](/bien-dep-jeju-hamdeok-hyeopjae-resort/)
+Đọc thêm: [Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển](/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/)
 
 ## Gần Seoul — day trip đa dạng
 
@@ -241,7 +242,7 @@ Từng là mỏ vàng khai thác từ 1912 đến 1972, Gwangmyeong Cave hiện 
 
 Thành Hwaseong (UNESCO World Heritage, xây dựng 1794–1796) và Hwaseong Haenggung (cung điện tạm thời lớn nhất Hàn Quốc) nằm ở Suwon, cách Seoul khoảng 30–40 phút tàu điện. Đi bộ trên tường thành dài 5,7 km là hoạt động chính; Haenggung có các buổi biểu diễn văn hóa truyền thống.
 
-Đọc thêm: [Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày](/day-trip-suwon-hwaseong-haenggung-korean-folk-village/)
+Đọc thêm: [Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày](/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/)
 
 ### 15–17. Incheon: Songwol-dong, Chinatown và Wolmido
 
@@ -259,7 +260,7 @@ Korean Folk Village (Yongin) là bảo tàng sống tái hiện cuộc sống tr
 
 Hwadamsup là vườn thực vật sinh thái thuộc Konjiam Resort, Gwangju, Gyeonggi-do. Có 16 khu vườn theo chủ đề (vườn rêu, vườn non bộ, vườn đất ngập nước) và đường monorail đưa khách tham quan. Cách Seoul khoảng 40 phút lái xe.
 
-Đọc thêm: [Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/)
+Đọc thêm: [Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/)
 
 ## Nên chọn hoạt động nào theo kiểu du khách?
 

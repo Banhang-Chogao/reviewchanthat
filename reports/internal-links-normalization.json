@@ -1,0 +1,261 @@
+{
+  "total_links_rewritten": 184,
+  "files_modified": [
+    "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md",
+    "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md",
+    "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md",
+    "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md",
+    "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md",
+    "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md",
+    "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md",
+    "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md",
+    "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md",
+    "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md",
+    "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md",
+    "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md",
+    "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md",
+    "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md",
+    "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md",
+    "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md",
+    "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md",
+    "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md",
+    "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.md",
+    "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md",
+    "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md",
+    "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md",
+    "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md"
+  ],
+  "changes": {
+    "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md": [
+      "internal_links: /udo-jeju-dao-bien-den-hai-dang-trang/ -> /posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/",
+      "internal_links: /haeundae-busan-bai-bien-mua-he/ -> /posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/",
+      "internal_links: /gwangalli-busan-bai-bien-cau-gwangandaegyo/ -> /posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/",
+      "internal_links: /jungmun-beach-jeju-hoat-dong-nuoc/ -> /posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/",
+      "internal_links: /nami-island-mua-he-day-trip-gan-seoul/ -> /posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/",
+      "internal_links: /wolmido-incheon-bien-boardwalk-gan-seoul/ -> /posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh/",
+      "internal_links: /caribbean-bay-yongin-cong-vien-nuoc/ -> /posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/",
+      "internal_links: /cheongsapo-busan-bien-blue-line-park/ -> /posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+      "internal_links: /club-d-oasis-busan-infinity-pool-spa/ -> /posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/",
+      "internal_links: /shinhwa-theme-park-jeju-water-slides/ -> /posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/",
+      "body: /udo-jeju-dao-bien-den-hai-dang-trang/ -> /posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/",
+      "body: /jungmun-beach-jeju-hoat-dong-nuoc/ -> /posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/",
+      "body: /shinhwa-theme-park-jeju-water-slides/ -> /posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/",
+      "body: /haeundae-busan-bai-bien-mua-he/ -> /posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/",
+      "body: /gwangalli-busan-bai-bien-cau-gwangandaegyo/ -> /posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/",
+      "body: /cheongsapo-busan-bien-blue-line-park/ -> /posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+      "body: /club-d-oasis-busan-infinity-pool-spa/ -> /posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/",
+      "body: /nami-island-mua-he-day-trip-gan-seoul/ -> /posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/",
+      "body: /wolmido-incheon-bien-boardwalk-gan-seoul/ -> /posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh/",
+      "body: /caribbean-bay-yongin-cong-vien-nuoc/ -> /posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/"
+    ],
+    "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /ngam-binh-minh-jeju-seongsan-seogwipo/ -> /posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/"
+    ],
+    "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /nami-island-mua-he-day-trip-gan-seoul/ -> /posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/",
+      "internal_links: /wolmido-incheon-bien-boardwalk-gan-seoul/ -> /posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh/",
+      "internal_links: /shinhwa-theme-park-jeju-water-slides/ -> /posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /nami-island-mua-he-day-trip-gan-seoul/ -> /posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/",
+      "body: /wolmido-incheon-bien-boardwalk-gan-seoul/ -> /posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /haeundae-busan-bai-bien-mua-he/ -> /posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/",
+      "internal_links: /gwangalli-busan-bai-bien-cau-gwangandaegyo/ -> /posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/",
+      "internal_links: /club-d-oasis-busan-infinity-pool-spa/ -> /posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /haeundae-busan-bai-bien-mua-he/ -> /posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/",
+      "body: /gwangalli-busan-bai-bien-cau-gwangandaegyo/ -> /posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/",
+      "body: /club-d-oasis-busan-infinity-pool-spa/ -> /posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /thue-hanbok-o-seoul-cung-dien-lang-hanok/ -> /posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/",
+      "body: /bien-dep-jeju-hamdeok-hyeopjae-resort/ -> /posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/",
+      "body: /ngam-binh-minh-jeju-seongsan-seogwipo/ -> /posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/"
+    ],
+    "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /haeundae-busan-bai-bien-mua-he/ -> /posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/",
+      "internal_links: /gwangalli-busan-bai-bien-cau-gwangandaegyo/ -> /posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/",
+      "internal_links: /cheongsapo-busan-bien-blue-line-park/ -> /posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /haeundae-busan-bai-bien-mua-he/ -> /posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/",
+      "body: /cheongsapo-busan-bien-blue-line-park/ -> /posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+      "body: /gwangalli-busan-bai-bien-cau-gwangandaegyo/ -> /posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/"
+    ],
+    "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /jjimjilbang-han-quoc-seoul-aquafield-goyang/ -> /posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/"
+    ],
+    "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+      "body: /k-beauty-makeup-personal-color-seoul/ -> /posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep/",
+      "body: /thue-hanbok-o-seoul-cung-dien-lang-hanok/ -> /posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/"
+    ],
+    "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /haeundae-busan-bai-bien-mua-he/ -> /posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/",
+      "internal_links: /cheongsapo-busan-bien-blue-line-park/ -> /posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+      "internal_links: /club-d-oasis-busan-infinity-pool-spa/ -> /posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /haeundae-busan-bai-bien-mua-he/ -> /posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/",
+      "body: /cheongsapo-busan-bien-blue-line-park/ -> /posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+      "body: /club-d-oasis-busan-infinity-pool-spa/ -> /posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /gwangalli-busan-bai-bien-cau-gwangandaegyo/ -> /posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/",
+      "internal_links: /cheongsapo-busan-bien-blue-line-park/ -> /posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+      "internal_links: /club-d-oasis-busan-infinity-pool-spa/ -> /posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /cheongsapo-busan-bien-blue-line-park/ -> /posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+      "body: /cheongsapo-busan-bien-blue-line-park/ -> /posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+      "body: /gwangalli-busan-bai-bien-cau-gwangandaegyo/ -> /posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/",
+      "body: /club-d-oasis-busan-infinity-pool-spa/ -> /posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/"
+    ],
+    "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /udo-jeju-dao-bien-den-hai-dang-trang/ -> /posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/",
+      "internal_links: /shinhwa-theme-park-jeju-water-slides/ -> /posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /udo-jeju-dao-bien-den-hai-dang-trang/ -> /posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/",
+      "body: /shinhwa-theme-park-jeju-water-slides/ -> /posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /wolmido-incheon-bien-boardwalk-gan-seoul/ -> /posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh/",
+      "internal_links: /caribbean-bay-yongin-cong-vien-nuoc/ -> /posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /wolmido-incheon-bien-boardwalk-gan-seoul/ -> /posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh/",
+      "body: /caribbean-bay-yongin-cong-vien-nuoc/ -> /posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /bien-dep-jeju-hamdeok-hyeopjae-resort/ -> /posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/"
+    ],
+    "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /jungmun-beach-jeju-hoat-dong-nuoc/ -> /posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/",
+      "internal_links: /udo-jeju-dao-bien-den-hai-dang-trang/ -> /posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/",
+      "internal_links: /caribbean-bay-yongin-cong-vien-nuoc/ -> /posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /jungmun-beach-jeju-hoat-dong-nuoc/ -> /posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/",
+      "body: /udo-jeju-dao-bien-den-hai-dang-trang/ -> /posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/",
+      "body: /caribbean-bay-yongin-cong-vien-nuoc/ -> /posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /xem-musical-show-o-seoul/ -> /posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+      "body: /dia-diem-quay-phim-han-quoc-seoul-kdrama/ -> /posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/"
+    ],
+    "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md": [
+      "internal_links: /thue-hanbok-o-seoul-cung-dien-lang-hanok/ -> /posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/",
+      "internal_links: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+      "internal_links: /xem-musical-show-o-seoul/ -> /posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/",
+      "internal_links: /ngam-binh-minh-jeju-seongsan-seogwipo/ -> /posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/",
+      "internal_links: /bien-dep-jeju-hamdeok-hyeopjae-resort/ -> /posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/",
+      "internal_links: /jjimjilbang-han-quoc-seoul-aquafield-goyang/ -> /posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/",
+      "internal_links: /dia-diem-quay-phim-han-quoc-seoul-kdrama/ -> /posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/",
+      "internal_links: /k-beauty-makeup-personal-color-seoul/ -> /posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep/",
+      "internal_links: /day-trip-suwon-hwaseong-haenggung-korean-folk-village/ -> /posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/",
+      "internal_links: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/",
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /thue-hanbok-o-seoul-cung-dien-lang-hanok/ -> /posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+      "body: /xem-musical-show-o-seoul/ -> /posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+      "body: /ngam-binh-minh-jeju-seongsan-seogwipo/ -> /posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+      "body: /bien-dep-jeju-hamdeok-hyeopjae-resort/ -> /posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/",
+      "body: /jjimjilbang-han-quoc-seoul-aquafield-goyang/ -> /posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/",
+      "body: /dia-diem-quay-phim-han-quoc-seoul-kdrama/ -> /posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/",
+      "body: /k-beauty-makeup-personal-color-seoul/ -> /posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep/",
+      "body: /jjimjilbang-han-quoc-seoul-aquafield-goyang/ -> /posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/",
+      "body: /day-trip-suwon-hwaseong-haenggung-korean-folk-village/ -> /posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/",
+      "body: /day-trip-suwon-hwaseong-haenggung-korean-folk-village/ -> /posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/",
+      "body: /day-trip-suwon-hwaseong-haenggung-korean-folk-village/ -> /posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/",
+      "body: /thue-hanbok-o-seoul-cung-dien-lang-hanok/ -> /posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+      "body: /xem-musical-show-o-seoul/ -> /posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/",
+      "body: /jjimjilbang-han-quoc-seoul-aquafield-goyang/ -> /posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/",
+      "body: /dia-diem-quay-phim-han-quoc-seoul-kdrama/ -> /posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/",
+      "body: /k-beauty-makeup-personal-color-seoul/ -> /posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+      "body: /ngam-binh-minh-jeju-seongsan-seogwipo/ -> /posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/",
+      "body: /bien-dep-jeju-hamdeok-hyeopjae-resort/ -> /posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/",
+      "body: /day-trip-suwon-hwaseong-haenggung-korean-folk-village/ -> /posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/",
+      "body: /incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/ -> /posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/"
+    ],
+    "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+      "body: /dia-diem-quay-phim-han-quoc-seoul-kdrama/ -> /posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/",
+      "body: /dia-diem-quay-phim-han-quoc-seoul-kdrama/ -> /posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/",
+      "body: /thue-hanbok-o-seoul-cung-dien-lang-hanok/ -> /posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/"
+    ],
+    "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /jungmun-beach-jeju-hoat-dong-nuoc/ -> /posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/",
+      "internal_links: /shinhwa-theme-park-jeju-water-slides/ -> /posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /jungmun-beach-jeju-hoat-dong-nuoc/ -> /posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/",
+      "body: /shinhwa-theme-park-jeju-water-slides/ -> /posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md": [
+      "internal_links: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "internal_links: /nami-island-mua-he-day-trip-gan-seoul/ -> /posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/",
+      "internal_links: /caribbean-bay-yongin-cong-vien-nuoc/ -> /posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+      "body: /nami-island-mua-he-day-trip-gan-seoul/ -> /posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/",
+      "body: /caribbean-bay-yongin-cong-vien-nuoc/ -> /posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/",
+      "body: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/ -> /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/"
+    ],
+    "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md": [
+      "internal_links: /posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/ -> /posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/",
+      "body: /posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/ -> /posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/",
+      "body: /posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/ -> /posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/",
+      "body: /posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/ -> /posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/",
+      "body: /posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/ -> /posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/"
+    ],
+    "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md": [
+      "body: /top-20-hoat-dong-du-lich-han-quoc-2026/ -> /posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+      "body: /thue-hanbok-o-seoul-cung-dien-lang-hanok/ -> /posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/",
+      "body: /dia-diem-quay-phim-han-quoc-seoul-kdrama/ -> /posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/",
+      "body: /cho-dia-phuong-han-quoc-seoul-busan-jeju/ -> /posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/"
+    ]
+  },
+  "unresolved": []
+}

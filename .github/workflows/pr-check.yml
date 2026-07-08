@@ -80,11 +80,17 @@ jobs:
       - name: Process images
         run: python scripts/process_images.py
 
+      - name: Slug audit
+        run: python scripts/audit_slugs.py
+
       - name: QA blog
         run: python scripts/qa_blog.py
 
       - name: Build Hugo
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://banhang-chogao.github.io/reviewchanthat/"
+
+      - name: Link audit
+        run: python scripts/audit_links.py || true
 
       - name: Build search index
         run: python scripts/build_search_index.py

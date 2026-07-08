@@ -10,8 +10,6 @@ ai_summary:
   - Bài review dài 2000 chữ với đầy đủ thông số kỹ thuật, benchmark, so sánh con số.
   - Nếu bài review không đề cập một điểm yếu nào, đó là dấu hiệu đỏ.
   title: Tóm tắt bài viết
-aliases:
-- /vì-sao-review-dài-chưa-chắc-đã-đáng-tin/
 attribution:
   copyright: © 2026 Veritable Content. Bài viết thuộc bản quyền tác giả.
   source_note: Nội dung dựa trên các nghiên cứu về hành vi người tiêu dùng và quy
@@ -44,6 +42,7 @@ image_license: Unsplash License
 image_owner: external
 image_source: Unsplash
 image_source_url: https://unsplash.com/photos/1455390582262-044cdead277a
+slug: vi-sao-review-dai-chua-chac-da-dang-tin
 tags:
 - review dài
 - content marketing

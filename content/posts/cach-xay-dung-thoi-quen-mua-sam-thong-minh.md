@@ -11,8 +11,6 @@ ai_summary:
   - Dành ra một khoản cố định cho mua sắm cá nhân mỗi tháng.
   - '"Không" là câu nói quyền năng nhất trong mua sắm thông minh.'
   title: Tóm tắt bài viết
-aliases:
-- /cách-xây-dựng-thói-quen-mua-sắm-thông-minh/
 attribution:
   copyright: © 2026 Veritable Content. Nội dung do tác giả biên tập, vui lòng ghi
     nguồn khi trích dẫn.
@@ -49,6 +47,7 @@ image_license: Unsplash License
 image_owner: external
 image_source: Unsplash
 image_source_url: https://unsplash.com/photos/1553729459-afe8e2e1a6e0
+slug: cach-xay-dung-thoi-quen-mua-sam-thong-minh
 tags:
 - mua sắm thông minh
 - thói quen

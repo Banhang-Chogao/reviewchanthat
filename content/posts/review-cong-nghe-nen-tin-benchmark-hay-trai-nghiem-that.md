@@ -12,8 +12,6 @@ ai_summary:
   - 'Trải nghiệm thật phụ thuộc vào: Phần mềm và tối ưu: iOS hay Android, MIUI hay
     OneUI đều ảnh hưởng khác nhau.'
   title: Tóm tắt bài viết
-aliases:
-- /review-công-nghệ-nên-tin-benchmark-hay-trải-nghiệm-thật/
 attribution:
   copyright: © 2026 Veritable Content. Nội dung được biên tập dựa trên trải nghiệm
     thực tế.
@@ -46,6 +44,7 @@ image_license: Unsplash License
 image_owner: external
 image_source: Unsplash
 image_source_url: https://unsplash.com/photos/1518770660439-4636190af475
+slug: review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that
 tags:
 - benchmark
 - trải nghiệm thật

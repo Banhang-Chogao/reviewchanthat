@@ -1,0 +1,4 @@
+{{- $href := .Destination -}}
+{{- $text := .Text -}}
+{{- $resolved := partial "link-resolver.html" (dict "href" $href "text" $text) -}}
+<a href="{{ $resolved.href }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ $resolved.text | safeHTML }}</a>
