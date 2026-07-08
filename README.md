@@ -121,6 +121,34 @@ python scripts/new_post.py "Tiêu đề bài viết" \
 
 ## 🧪 Quality Assurance
 
+**Trước khi commit/publish**, chạy bắt buộc:
+
+```bash
+python scripts/compliance.py --strict --no-public
+python scripts/qa_blog.py
+hugo --minify
+```
+
+Hoặc dùng helper:
+
+```bash
+bash scripts/precommit.sh
+```
+
+### Content compliance (`scripts/compliance.py`)
+
+Kiểm tra authenticity, ảnh, creator, AI summary, claim có nguồn, AdSense risk, tone quảng cáo, section cuối bài thủ công, SEO và duplicate. Exit `1` nếu có ERROR.
+
+```bash
+python scripts/compliance.py                    # check (mặc định)
+python scripts/compliance.py --fix              # sửa an toàn (creator, map[], path ảnh, FAQ cuối bài)
+python scripts/compliance.py --strict           # nâng WARN → ERROR
+python scripts/compliance.py --report-json data/compliance-report.json
+python scripts/compliance.py --self-test        # fixture nội bộ
+```
+
+### QA pipeline khác
+
 ```bash
 # 🖼️ Audit post images (thiếu ảnh, path sai, metadata, trùng)
 python scripts/audit_post_images.py
@@ -219,9 +247,10 @@ Mỗi lần push lên `main`, CI tự động:
 
 1. 🖼️ **Audit ảnh** → phát hiện thiếu/metadata/trùng
 2. 🔎 **Dedupe check** → kiểm tra ảnh trùng
-3. ✅ **QA** → fail nếu thiếu ảnh, license, source_url, path sai
-4. 🏗️ **Build Hugo** → `hugo --minify`
-5. 🌐 **Deploy lên GitHub Pages**
+3. 🛡️ **Compliance** → authenticity, creator, claim, AdSense guard (`--strict`)
+4. ✅ **QA** → fail nếu thiếu ảnh, license, source_url, path sai
+5. 🏗️ **Build Hugo** → `hugo --minify`
+6. 🌐 **Deploy lên GitHub Pages**
 
 > ⚠️ **Cần bật GitHub Pages**: Settings → Pages → Source: **GitHub Actions**
 
@@ -252,7 +281,9 @@ Mỗi lần push lên `main`, CI tự động:
 | `scripts/select_images.py` | AI-assisted chọn ảnh từ API Unsplash/Pexels/Pixabay |
 | `scripts/process_images.py` | Download → crop → WebP → watermark → update frontmatter |
 | `scripts/image_dedupe.py` | Detect ảnh trùng (URL, file, perceptual hash) |
+| `scripts/compliance.py` | Content compliance: creator, claim, AdSense, tone, duplicate, manual FAQ |
 | `scripts/qa_blog.py` | QA cứng: fail nếu thiếu image, thumbnail, source, license, path sai |
+| `scripts/precommit.sh` | Chạy compliance + QA + hugo build trước commit |
 | `data/images.json` | Manifest ảnh của toàn bộ blog |
 | `data/dupe-whitelist.json` | Danh sách URL ảnh được phép dùng nhiều bài |
 

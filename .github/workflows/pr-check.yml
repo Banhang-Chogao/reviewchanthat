@@ -49,6 +49,9 @@ jobs:
       - name: Normalize AI summaries
         run: python scripts/normalize_ai_summaries.py --check
 
+      - name: Content compliance
+        run: python scripts/compliance.py --strict --no-public --report-json data/compliance-report.json
+
       - name: QA blog
         run: python scripts/qa_blog.py
 

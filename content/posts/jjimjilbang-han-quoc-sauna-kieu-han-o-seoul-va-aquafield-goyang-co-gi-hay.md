@@ -35,12 +35,15 @@ external_links:
   url: https://www.aquafield.kr/>
 image: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
 image_commercial_use: true
-image_creator: Pixabay
-image_creator_url: ""
+image_creator: ''
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/
+series: du-lich
+series_order: 8
+series_title: Du lịch Hàn Quốc 2026
 slug: jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay
 tags:
 - du lịch Hàn Quốc
@@ -52,9 +55,6 @@ tags:
 - spa Hàn Quốc
 - series du lịch
 thumbnail: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 8
 title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?'
 tom_tat_nhanh:
 - label: Khu vực

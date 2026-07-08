@@ -154,18 +154,3 @@ Nếu bạn dùng iPhone XR, XS hoặc cũ hơn:
 2. **Không cài profile beta** iOS 27 — có thể brick hoặc không chạy
 3. **Cân nhắc đổi máy** nếu cần app yêu cầu iOS mới hoặc bảo mật lâu dài
 4. So sánh [iOS 27 vs iOS 26](/posts/ios-27-so-voi-ios-26/) để biết bạn đang bỏ lỡ gì
-
-## Câu hỏi thường gặp
-
-**iPhone 11 có lag không sau iOS 27?**
-**[Phản hồi beta]** Một số beta build báo cáo animation chậm hơn iOS 26 trên iPhone 11; public release thường tối ưu hơn. Nếu máy đã chậm từ iOS 26, đừng kỳ vọng phép màu.
-
-**iPad có liên quan không?**
-iPadOS 27 chia sẻ nhiều tính năng nhưng danh sách tương thích khác — bài này chỉ nói iPhone.
-
-**Có thể jailbreak để bật AI trên máy cũ?**
-**[Phân tích]** Không khuyến nghị — vi phạm bảo hành, rủi ro bảo mật, và Apple Intelligence phụ thuộc chip + firmware ký.
-
-## Kết luận
-
-iOS 27 **rộng** (iPhone 11+) nhưng Apple Intelligence **hẹp** (15 Pro/16+). Trước khi mua máy cũ hoặc bấm Update, hãy xác định bạn cần lớp nào. Quay lại [tổng quan iOS 27](/posts/ios-27-co-gi-moi/) hoặc đọc tiếp [AI trên iPhone cũ](/posts/ios-27-apple-intelligence-iphone-cu/) nếu mục tiêu là Siri AI.

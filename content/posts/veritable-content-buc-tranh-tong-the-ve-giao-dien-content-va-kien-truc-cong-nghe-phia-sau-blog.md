@@ -11,7 +11,7 @@ draft: false
 image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
 image_commercial_use: true
 image_creator: Tran Nhu Tuan
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -202,21 +202,3 @@ Một blog review đáng tin không chỉ nằm ở câu chữ "trung thực". N
 ## Bản quyền & Ghi nguồn
 
 © 2026 Veritable Content. Vui lòng ghi nguồn khi trích dẫn lại nội dung. Các ví dụ code mang tính minh họa, cần đối chiếu với cấu trúc repo thực tế trước khi áp dụng.
-
-## FAQ
-
-### Veritable Content dùng Hugo hay Zola?
-
-Dùng Hugo làm static site generator, kết hợp Python scripts và GitHub Actions.
-
-### Vì sao không dùng nhiều hiệu ứng đẹp mắt?
-
-Vì blog ưu tiên text-first và tốc độ tải. Hiệu ứng nặng như blur, GIF, video background, Lottie có thể làm trang chậm hơn mà không giúp người đọc hiểu nội dung tốt hơn.
-
-### Dynamic sitemap wireframe có cần JavaScript không?
-
-Không. Sinh wireframe ở build-time, render như HTML tĩnh.
-
-## Kết luận
-
-Veritable Content là một blog nhỏ nhưng có tư duy hệ thống: giao diện gọn, content có cấu trúc, macro giảm lặp, ảnh có pipeline, deploy tự động. Đó là hướng đi bền vững cho một blog review muốn vừa đẹp, vừa nhanh, vừa đáng tin.

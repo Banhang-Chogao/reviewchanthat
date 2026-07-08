@@ -41,6 +41,9 @@ jobs:
       - name: Check image deduplication
         run: python scripts/image_dedupe.py
 
+      - name: Content compliance
+        run: python scripts/compliance.py --strict --no-public --report-json data/compliance-report.json
+
       - name: QA blog
         run: python scripts/qa_blog.py
 

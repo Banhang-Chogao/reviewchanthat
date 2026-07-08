@@ -64,8 +64,8 @@ faq:
   question: Giá vé công viên nước có đắt không?
 image: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
 image_commercial_use: true
-image_creator: Pixabay
-image_creator_url: ""
+image_creator: ''
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -97,6 +97,9 @@ internal_links:
   title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun'
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?
+series: du-lich
+series_order: 2
+series_title: Du lịch Hàn Quốc 2026
 slug: 10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di
 tags:
 - du lịch Hàn Quốc
@@ -108,9 +111,6 @@ tags:
 - công viên nước
 - series du lịch
 thumbnail: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 2
 title: '10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước
   và day trip dễ đi'
 tom_tat_nhanh:
