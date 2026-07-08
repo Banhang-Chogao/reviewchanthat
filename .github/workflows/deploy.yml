@@ -50,6 +50,8 @@ jobs:
         run: python scripts/qa_blog.py
 
       - name: Build Hugo site
+        env:
+          GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
         run: hugo --minify --baseURL "https://banhang-chogao.github.io/reviewchanthat/"
 
       - name: Link audit

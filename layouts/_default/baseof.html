@@ -11,6 +11,15 @@
   {{- partial "schema.html" . }}
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- $gaId := or (os.Getenv "GA_MEASUREMENT_ID") site.Params.google_analytics_id }}{{ with $gaId }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+{{- end }}
 </head>
 {{- $isBlogPost := partial "is-blog-post.html" . -}}
 <body data-site-base="{{ "" | relURL }}"{{ if $isBlogPost }} class="has-print-watermark"{{ end }}>
