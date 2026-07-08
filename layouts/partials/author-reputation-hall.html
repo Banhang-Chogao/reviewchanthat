@@ -77,7 +77,21 @@
                     {{- $hint = printf "Cần thêm %d chuyên mục nữa" (int $need) -}}
                   {{- end -}}
                 {{- else if eq $rule.type "min_category_posts" -}}
-                  {{- $hint = "Viết thêm bài trong chuyên mục tương ứng" -}}
+                  {{- $catCount := index $stats.categoryCounts $rule.category | default 0 -}}
+                  {{- $need := sub $rule.value $catCount -}}
+                  {{- if gt $need 0 -}}
+                    {{- $hint = printf "Cần thêm %d bài ở chuyên mục này nữa" (int $need) -}}
+                  {{- end -}}
+                {{- else if eq $rule.type "multi_category_min" -}}
+                  {{- $missing := slice -}}
+                  {{- range $cat, $min := $rule.categories -}}
+                    {{- $count := index $stats.categoryCounts $cat | default 0 -}}
+                    {{- $need := sub $min $count -}}
+                    {{- if gt $need 0 -}}
+                      {{- $missing = $missing | append (printf "%s (cần %d)" $cat (int $need)) -}}
+                    {{- end -}}
+                  {{- end -}}
+                  {{- $hint = printf "Còn thiếu: %s" (delimit $missing ", ") -}}
                 {{- else if eq $rule.type "founding" -}}
                   {{- $hint = "Dành cho tác giả sáng lập blog" -}}
                 {{- end -}}
