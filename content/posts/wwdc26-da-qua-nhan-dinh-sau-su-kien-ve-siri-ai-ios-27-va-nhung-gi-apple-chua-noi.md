@@ -5,8 +5,8 @@ ai_summary:
   items:
   - WWDC26 (8/6/2026) đã diễn ra — Apple ship Siri AI, iOS 27 và macOS Golden Gate
     27 đúng hướng leak trước sự kiện.
-  - Beta developer tuần đầu: hiệu năng shell tốt hơn kỳ vọng, Siri AI còn giới hạn
-      ngôn ngữ và độ ổn định.
+  - 'Beta developer tuần đầu: hiệu năng shell tốt hơn kỳ vọng, Siri AI còn giới hạn
+    ngôn ngữ và độ ổn định.'
   - Người dùng Việt Nam nên chờ public beta và bảng tương thích chính thức trước khi
     cài lên máy chính.
   title: Tóm tắt bài viết
@@ -52,7 +52,7 @@ faq:
 image: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
 image_commercial_use: true
 image_creator: Ivan Babydov
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

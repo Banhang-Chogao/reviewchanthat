@@ -3,29 +3,41 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Bangkok có hơn 20 điểm indoor chất lượng cho ngày mưa, trải đều từ Siam, Sukhumvit, Silom đến Rattanakosin — tất cả đều kết nối BTS/MRT.
-  - Nhóm điểm mua sắm (Siam Paragon, CentralWorld, EmQuartier) chiếm ưu thế nhờ skywalk có mái che và điều hòa; nhóm văn hóa (bảo tàng, chùa có mái che) phù hợp người thích khám phá.
-  - Lịch trình 2 ngày mùa mưa được thiết kế với nguyên tắc: sáng ngoài trời, chiều trong nhà, luôn có skywalk hoặc BTS kết nối.
-  - Di chuyển bằng BTS và MRT là cách thông minh nhất để né mưa và kẹt xe — mỗi lượt 17–62 THB tùy khoảng cách.
+  - Bangkok có hơn 20 điểm indoor chất lượng cho ngày mưa, trải đều từ Siam, Sukhumvit,
+    Silom đến Rattanakosin — tất cả đều kết nối BTS/MRT.
+  - Nhóm điểm mua sắm (Siam Paragon, CentralWorld, EmQuartier) chiếm ưu thế nhờ skywalk
+    có mái che và điều hòa; nhóm văn hóa (bảo tàng, chùa có mái che) phù hợp người
+    thích khám phá.
+  - 'Lịch trình 2 ngày mùa mưa được thiết kế với nguyên tắc: sáng ngoài trời, chiều
+    trong nhà, luôn có skywalk hoặc BTS kết nối.'
+  - Di chuyển bằng BTS và MRT là cách thông minh nhất để né mưa và kẹt xe — mỗi lượt
+    17–62 THB tùy khoảng cách.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.tourismthailand.org, https://www.bts.co.th, https://www.bangkokairportonline.com, https://www.pexels.com.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.tourismthailand.org,
+    https://www.bts.co.th, https://www.bangkokairportonline.com, https://www.pexels.com.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, bảo tàng, chợ trong nhà, massage, food tour — kèm lịch trình 2 ngày mùa mưa và cách di chuyển.'
+description: Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, bảo tàng, chợ trong
+  nhà, massage, food tour — kèm lịch trình 2 ngày mùa mưa và cách di chuyển.
 draft: false
 image: images/posts/bangkok-ngay-mua-nen-di-dau.webp
 image_commercial_use: true
+image_creator: ''
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
-image_creator: ""
-image_creator_url: ""
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/siam-paragon-shopping-mall-in-bangkok-27662996/
+series:
+- du-lich-thai-lan-mua-mua
+series_order: 3
+series_title: Du lịch Thái Lan mùa mưa
 slug: bangkok-ngay-mua-nen-di-dau
 tags:
 - Bangkok ngày mưa
@@ -34,10 +46,7 @@ tags:
 - lịch trình Bangkok mưa
 - BTS Bangkok
 thumbnail: images/posts/bangkok-ngay-mua-nen-di-dau.webp
-series: ["du-lich-thai-lan-mua-mua"]
-series_title: "Du lịch Thái Lan mùa mưa"
-series_order: 3
-title: 'Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour'
+title: Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour
 tom_tat_nhanh:
 - label: Khu vực
   value: Siam, Sukhumvit, Silom, Rattanakosin

@@ -5,8 +5,8 @@ ai_summary:
   items:
   - Mặc đồ chất liệu cotton, lanh, modal — thoáng mát, thấm hút mồ hôi, phù hợp thời
     tiết nóng ẩm Hàn Quốc.
-  - Phối đồ theo concept: năng động (jeans + áo thun), dịu dàng (đầm maxi), Hàn Quốc
-      (blouse + chân váy).
+  - 'Phối đồ theo concept: năng động (jeans + áo thun), dịu dàng (đầm maxi), Hàn Quốc
+    (blouse + chân váy).'
   - Giày thể thao trắng là item không thể thiếu cho mọi outfit mùa hè.
   title: Tóm tắt bài viết
 attribution:
@@ -33,7 +33,7 @@ faq:
 image: images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp
 image_commercial_use: true
 image_creator: Huy Phan
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

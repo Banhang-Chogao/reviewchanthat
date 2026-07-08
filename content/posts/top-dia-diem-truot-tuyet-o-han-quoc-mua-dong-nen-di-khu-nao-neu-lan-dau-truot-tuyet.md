@@ -3,14 +3,14 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - 6 ski resort tại Gangwon-do được xác minh từ nguồn chính thức và VisitKorea, phân loại theo nhu cầu: day
-      trip, beginner, gia đình, nghỉ dưỡng.
-  - Bảng so sánh nhanh: resort, khu vực, khoảng cách Seoul, phù hợp ai, chi phí tham
-      khảo.
-  - Gợi ý chọn resort theo 6 nhóm: lần đầu, gia đình, gần Seoul, resort lớn, nghỉ
-      qua đêm, cảnh đẹp.
-  - Lưu ý thực tế: mùa trượt thay đổi theo tuyết, cần check lịch trước khi đặt, bảo
-      hiểm du lịch và đồ giữ nhiệt.
+  - '6 ski resort tại Gangwon-do được xác minh từ nguồn chính thức và VisitKorea,
+    phân loại theo nhu cầu: day trip, beginner, gia đình, nghỉ dưỡng.'
+  - 'Bảng so sánh nhanh: resort, khu vực, khoảng cách Seoul, phù hợp ai, chi phí tham
+    khảo.'
+  - 'Gợi ý chọn resort theo 6 nhóm: lần đầu, gia đình, gần Seoul, resort lớn, nghỉ
+    qua đêm, cảnh đẹp.'
+  - 'Lưu ý thực tế: mùa trượt thay đổi theo tuyết, cần check lịch trước khi đặt, bảo
+    hiểm du lịch và đồ giữ nhiệt.'
   title: Tóm tắt bài viết
 attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
@@ -55,7 +55,7 @@ faq:
 image: images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp
 image_commercial_use: true
 image_creator: Ditmar Tabacaru
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
@@ -75,6 +75,9 @@ internal_links:
     Quốc'
 - ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
   title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju'
+series: truot-tuyet
+series_order: 1
+series_title: Trượt tuyết Hàn Quốc
 slug: top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet
 tags:
 - du lịch Hàn Quốc
@@ -86,9 +89,6 @@ tags:
 - beginner ski
 - series trượt tuyết
 thumbnail: images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp
-series: truot-tuyet
-series_title: "Trượt tuyết Hàn Quốc"
-series_order: 1
 title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt
   tuyết?'
 tom_tat_nhanh:

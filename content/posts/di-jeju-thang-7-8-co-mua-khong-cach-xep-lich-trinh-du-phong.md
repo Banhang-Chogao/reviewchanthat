@@ -5,8 +5,8 @@ ai_summary:
   items:
   - Jeju tháng 7–8 có mưa nhưng không quá nhiều — trung bình 10–13 ngày mưa/tháng,
     mưa rào ngắn.
-  - Nên xếp lịch linh hoạt: sáng đi ngoài trời, chiều dự phòng indoor.
-  - Các điểm indoor ở Jeju: thủy cung, bảo tàng, trung tâm thương mại, quán cà phê.
+  - 'Nên xếp lịch linh hoạt: sáng đi ngoài trời, chiều dự phòng indoor.'
+  - 'Các điểm indoor ở Jeju: thủy cung, bảo tàng, trung tâm thương mại, quán cà phê.'
   title: Tóm tắt bài viết
 attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
@@ -32,7 +32,7 @@ faq:
 image: images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp
 image_commercial_use: true
 image_creator: nana liu
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

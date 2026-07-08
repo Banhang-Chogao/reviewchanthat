@@ -7,7 +7,20 @@
   </summary>
   <ul class="ai-summary__list">
     {{ range .items }}
-    <li>{{ . }}</li>
+    {{- $text := "" -}}
+    {{- if reflect.IsMap . -}}
+      {{- range $k, $v := . -}}
+        {{- if $text -}}{{- $text = printf "%s; %s: %s" $text $k $v -}}{{- else -}}{{- $text = printf "%s: %s" $k $v -}}{{- end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- $text = printf "%s" . -}}
+    {{- end -}}
+    {{- $text = strings.TrimSpace $text -}}
+    {{- $text = replaceRE "^[-•*]\\s+" "" $text -}}
+    {{- $text = replaceRE "\\s+" " " $text -}}
+    {{- if and $text (not (hasPrefix $text "map[")) -}}
+    <li>{{ $text }}</li>
+    {{- end -}}
     {{ end }}
   </ul>
   {{ with .disclaimer }}

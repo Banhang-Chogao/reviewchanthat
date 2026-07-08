@@ -3,8 +3,8 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Seoul có 20+ điểm indoor miễn phí và có phí: bảo tàng, thủy cung, trung tâm thương
-      mại, quán cà phê.
+  - 'Seoul có 20+ điểm indoor miễn phí và có phí: bảo tàng, thủy cung, trung tâm thương
+    mại, quán cà phê.'
   - Bảo tàng Quốc gia, War Memorial, COEX Aquarium, Lotte World là gợi ý hàng đầu
     cho ngày mưa.
   - Bài viết kèm lịch trình 2 ngày mùa mưa và cách di chuyển giữa các điểm.
@@ -35,7 +35,7 @@ faq:
 image: images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp
 image_commercial_use: true
 image_creator: Nuhyil Ahammed
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

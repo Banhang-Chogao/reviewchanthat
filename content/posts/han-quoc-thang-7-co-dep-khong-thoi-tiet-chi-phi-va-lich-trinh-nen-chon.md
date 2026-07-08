@@ -4,7 +4,7 @@ ai_summary:
   enabled: true
   items:
   - Tháng 7 là mùa mưa tại Hàn Quốc, nhiệt độ 23–28°C, độ ẩm cao, mưa rào thường xuyên.
-  - Vẫn đi được nếu chọn điểm phù hợp: indoor ở Seoul, biển Busan, Jeju.
+  - 'Vẫn đi được nếu chọn điểm phù hợp: indoor ở Seoul, biển Busan, Jeju.'
   - Chi phí tháng 7 thấp hơn tháng 8 vì chưa vào cao điểm, nhiều khuyến mãi vé máy
     bay.
   title: Tóm tắt bài viết
@@ -32,7 +32,7 @@ faq:
 image: images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp
 image_commercial_use: true
 image_creator: Nguyen Hung
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

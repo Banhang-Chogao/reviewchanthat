@@ -3,8 +3,8 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Busan có 4 bãi biển chính: Haeundae (sầm uất), Gwangalli (ngắm cầu), Songdo (cable
-      car), Dadaepo (gia đình).
+  - 'Busan có 4 bãi biển chính: Haeundae (sầm uất), Gwangalli (ngắm cầu), Songdo (cable
+    car), Dadaepo (gia đình).'
   - Mỗi bãi biển có đặc điểm riêng — Haeundae đông nhất, Gwangalli lãng mạn nhất,
     Songdo yên tĩnh nhất.
   - Bài viết so sánh chi tiết và gợi ý lịch trình 3 ngày Busan mùa hè.
@@ -33,7 +33,7 @@ faq:
 image: images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp
 image_commercial_use: true
 image_creator: thuan Nguyen
-image_creator_url: ""
+image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

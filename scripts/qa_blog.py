@@ -5,11 +5,13 @@ Hard failures on: fallback images, missing images, missing metadata, duplicates,
 """
 
 import os
+import re
 import sys
 import json
 import frontmatter
 
 CONTENT_DIR = "content/posts"
+PUBLIC_DIR = "public"
 IMAGES_POSTS_DIR = "static/images/posts"
 AUDIT_REPORT_PATH = "data/image-audit-report.json"
 DEDUPE_REPORT_PATH = "data/image-dedupe-report.json"
@@ -112,6 +114,35 @@ def has_placeholder_characteristics(filepath):
         return False
     except Exception:
         return False
+
+
+def ai_summary_item_issues(items):
+    issues = []
+    for index, item in enumerate(items or []):
+        if not isinstance(item, str):
+            issues.append((index, type(item).__name__))
+        elif "map[" in item:
+            issues.append((index, "contains map["))
+    return issues
+
+
+def scan_public_ai_summary_map_literals(public_dir):
+    hits = []
+    if not os.path.isdir(public_dir):
+        return hits
+    pattern = re.compile(r'<ul[^>]*\bai-summary__list\b[^>]*>.*?</ul>', re.DOTALL)
+    for dirpath, _, filenames in os.walk(public_dir):
+        for fname in filenames:
+            if not fname.endswith(".html"):
+                continue
+            fpath = os.path.join(dirpath, fname)
+            with open(fpath, encoding="utf-8", errors="replace") as handle:
+                content = handle.read()
+            for match in pattern.finditer(content):
+                if "map[" in match.group(0):
+                    hits.append(fpath)
+                    break
+    return hits
 
 
 def qa():
@@ -221,6 +252,15 @@ def qa():
                     errors.append(f"[DUPLICATE_URL] {slug} shares source_url with {prev}: {source_url}")
             else:
                 seen_urls[source_url] = slug
+
+        ai_summary = meta.get("ai_summary", {})
+        if ai_summary and ai_summary.get("items"):
+            for index, issue in ai_summary_item_issues(ai_summary.get("items", [])):
+                errors.append(f"[AI_SUMMARY_ITEM] {slug}: items[{index}] {issue}")
+
+    for fpath in scan_public_ai_summary_map_literals(os.path.join(os.getcwd(), PUBLIC_DIR)):
+        rel = os.path.relpath(fpath, os.getcwd())
+        errors.append(f"[AI_SUMMARY_MAP_LITERAL] {rel}")
 
     if errors:
         print(f"QA FAILED: {len(errors)} error(s)\n")

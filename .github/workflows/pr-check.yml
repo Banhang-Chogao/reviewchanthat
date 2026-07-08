@@ -46,6 +46,9 @@ jobs:
       - name: Slug audit
         run: python scripts/audit_slugs.py
 
+      - name: Normalize AI summaries
+        run: python scripts/normalize_ai_summaries.py --check
+
       - name: QA blog
         run: python scripts/qa_blog.py
 
