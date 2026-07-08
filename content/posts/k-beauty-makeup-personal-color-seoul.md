@@ -61,9 +61,12 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
     https://english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'
+slug: trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep
+aliases:
+  - /posts/tr%E1%BA%A3i-nghi%E1%BB%87m-k-beauty-%E1%BB%9F-seoul-makeup-personal-color-v%C3%A0-l%E1%BB%8Bch-tr%C3%ACnh-cho-ng%C6%B0%E1%BB%9Di-m%C3%AA-l%C3%A0m-%C4%91%E1%BA%B9p/
 ---
 
-Seoul là kinh đô làm đẹp của châu Á, và trải nghiệm K-beauty là một trong những hoạt động được yêu thích nhất trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) từ Trip.Best — xếp hạng 10, ngang hàng với các trải nghiệm văn hóa truyền thống.
+Seoul là kinh đô làm đẹp của châu Á, và trải nghiệm K-beauty là một trong những hoạt động được yêu thích nhất trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}) từ Trip.Best — xếp hạng 10, ngang hàng với các trải nghiệm văn hóa truyền thống.
 
 ## Tóm tắt nhanh
 
@@ -109,4 +112,4 @@ Personal color analysis là dịch vụ xác định tông màu da phù hợp nh
 
 ## Nên kết hợp với đâu?
 
-Myeongdong nằm gần [khu ẩm thực chợ Gwangjang](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) và [N Seoul Tower](/dia-diem-quay-phim-han-quoc-seoul-kdrama/). Seongsu gần [khu quay phim Common Ground](/dia-diem-quay-phim-han-quoc-seoul-kdrama/) và các quán cà phê K-drama. [Thuê Hanbok](/thue-hanbok-o-seoul-cung-dien-lang-hanok/) buổi sáng và K-beauty buổi chiều là một ngày văn hóa + làm đẹp lý tưởng.
+Myeongdong nằm gần [khu ẩm thực chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-seoul-busan-jeju.md" >}}) và [N Seoul Tower]({{< ref "posts/dia-diem-quay-phim-han-quoc-seoul-kdrama.md" >}}). Seongsu gần [khu quay phim Common Ground]({{< ref "posts/dia-diem-quay-phim-han-quoc-seoul-kdrama.md" >}}) và các quán cà phê K-drama. [Thuê Hanbok]({{< ref "posts/thue-hanbok-o-seoul-cung-dien-lang-hanok.md" >}}) buổi sáng và K-beauty buổi chiều là một ngày văn hóa + làm đẹp lý tưởng.

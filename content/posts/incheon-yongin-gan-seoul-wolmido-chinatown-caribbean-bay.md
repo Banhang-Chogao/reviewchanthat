@@ -65,9 +65,12 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
     https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>,
     https://www.gmcave.or.kr/>, https://www.incheon.go.kr/>, https://www.everland.com/>.'
+slug: di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao
+aliases:
+  - /posts/%C4%91i-ch%C6%A1i-g%E1%BA%A7n-seoul-incheon-chinatown-wolmido-v%C3%A0-caribbean-bay-n%C3%AAn-ch%E1%BB%8Dn-%C4%91i%E1%BB%83m-n%C3%A0o/
 ---
 
-Một trong những điểm bất ngờ của danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) từ Trip.Best là số lượng điểm đến ở khu vực gần Seoul chiếm đến một nửa. Nếu bạn có 1–2 ngày để khám phá ngoài trung tâm, đây là những lựa chọn đáng cân nhắc.
+Một trong những điểm bất ngờ của danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}) từ Trip.Best là số lượng điểm đến ở khu vực gần Seoul chiếm đến một nửa. Nếu bạn có 1–2 ngày để khám phá ngoài trung tâm, đây là những lựa chọn đáng cân nhắc.
 
 ## Tóm tắt nhanh
 
@@ -139,4 +142,4 @@ Caribbean Bay là công viên nước lớn nhất Hàn Quốc (thuộc Everland
 
 ## Nên kết hợp với đâu?
 
-Nếu đi Incheon, bạn có thể kết hợp với [Aquafield Goyang](/jjimjilbang-han-quoc-seoul-aquafield-goyang/) (cùng hướng). Nếu đi Caribbean Bay, Everland Resort ngay bên cạnh. Trên đường về Seoul từ Incheon, có thể ghé [chợ Gwangjang](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) để ăn tối.
+Nếu đi Incheon, bạn có thể kết hợp với [Aquafield Goyang]({{< ref "posts/jjimjilbang-han-quoc-seoul-aquafield-goyang.md" >}}) (cùng hướng). Nếu đi Caribbean Bay, Everland Resort ngay bên cạnh. Trên đường về Seoul từ Incheon, có thể ghé [chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-seoul-busan-jeju.md" >}}) để ăn tối.

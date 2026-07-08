@@ -4,6 +4,8 @@ aliases:
 categories:
 - cong-nghe
 date: 2026-07-07
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 description: 'Tường thuật quá trình tinh chỉnh Veritable Content: từ logo, header,
   footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions
   và triết lý text-first.'

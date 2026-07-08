@@ -59,9 +59,12 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
     https://www.visitjeju.net/>, https://www.visitjeju.net/en/>.'
+slug: bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien
+aliases:
+  - /posts/bi%E1%BB%83n-%C4%91%E1%BA%B9p-%E1%BB%9F-jeju-hamdeok-hyeopjae-v%C3%A0-c%C3%A1ch-ch%E1%BB%8Dn-khu-ngh%E1%BB%89-ven-bi%E1%BB%83n/
 ---
 
-Jeju không chỉ có núi lửa và bình minh — hòn đảo này còn sở hữu những bãi biển đẹp đến mức nhiều người gọi Hamdeok là "Maldives của Hàn Quốc". Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) từ Trip.Best, biển và khu nghỉ dưỡng Jeju đứng thứ 7.
+Jeju không chỉ có núi lửa và bình minh — hòn đảo này còn sở hữu những bãi biển đẹp đến mức nhiều người gọi Hamdeok là "Maldives của Hàn Quốc". Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}) từ Trip.Best, biển và khu nghỉ dưỡng Jeju đứng thứ 7.
 
 ## Tóm tắt nhanh
 
@@ -124,4 +127,4 @@ Jeju có ba khu vực resort chính:
 
 ## Nên kết hợp với đâu?
 
-Hamdeok kết hợp tốt với [Seongsan Ilchulbong](/ngam-binh-minh-jeju-seongsan-seogwipo/) (cùng phía đông). Hyeopjae kết hợp với công viên Hallim và các điểm tham quan phía tây Jeju. Không nên bỏ qua [chợ Dongmun](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) khi về Jeju City.
+Hamdeok kết hợp tốt với [Seongsan Ilchulbong]({{< ref "posts/ngam-binh-minh-jeju-seongsan-seogwipo.md" >}}) (cùng phía đông). Hyeopjae kết hợp với công viên Hallim và các điểm tham quan phía tây Jeju. Không nên bỏ qua [chợ Dongmun]({{< ref "posts/cho-dia-phuong-han-quoc-seoul-busan-jeju.md" >}}) khi về Jeju City.

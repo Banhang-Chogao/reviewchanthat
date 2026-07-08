@@ -1,4 +1,11 @@
-{{- $internalLinks := partial "post-internal-links-collect.html" . -}}
+{{- $page := . -}}
+{{- $resolvedInternal := slice -}}
+{{- range .Params.internal_links -}}
+  {{- $r := partial "link-resolver.html" (dict "page" $page "item" .) -}}
+  {{- if $r -}}
+    {{- $resolvedInternal = $resolvedInternal | append (dict "url" $r "title" (.title | default $r)) -}}
+  {{- end -}}
+{{- end -}}
 
 <div class="post-footer-macro" aria-label="Thông tin bổ sung cuối bài viết">
   <section class="post-footer-block post-footer-block--internal">
@@ -7,9 +14,9 @@
       <h2>Liên kết nội bộ được sử dụng trong bài viết</h2>
     </header>
     <div class="post-footer-block__body">
-      {{ if $internalLinks }}
+      {{ if $resolvedInternal }}
       <ol class="post-footer-link-list">
-        {{ range $internalLinks }}
+        {{ range $resolvedInternal }}
         <li class="post-footer-link-item">
           <a href="{{ .url }}">{{ .title }}</a>
         </li>

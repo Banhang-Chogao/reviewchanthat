@@ -48,13 +48,13 @@ faq:
     lượn và thú. Hai khu có vé riêng nhưng nằm gần nhau.
 internal_links:
 - title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
+  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
 - title: 'Nami Island mùa hè: day trip gần Seoul'
-  url: /nami-island-mua-he-day-trip-gan-seoul/
+  ref: posts/nami-island-mua-he-day-trip-gan-seoul.md
 - title: 'Wolmido Incheon: biển, boardwalk cho gia đình'
-  url: /wolmido-incheon-bien-boardwalk-gan-seoul/
+  ref: posts/wolmido-incheon-bien-boardwalk-gan-seoul.md
 - title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
-  url: /shinhwa-theme-park-jeju-water-slides/
+  ref: posts/shinhwa-theme-park-jeju-water-slides.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -67,11 +67,14 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://en.wikipedia.org/wiki/Caribbean_Bay, https://www.everland.com/web/caribbean/main.html.'
+slug: caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao
+aliases:
+  - /posts/caribbean-bay-yongin-c%C3%B4ng-vi%C3%AAn-n%C6%B0%E1%BB%9Bc-l%E1%BB%9Bn-g%E1%BA%A7n-seoul-n%C3%AAn-%C4%91i-ng%C3%A0y-n%C3%A0o/
 ---
 
 Caribbean Bay là một trong những công viên nước nổi tiếng nhất châu Á, nằm trong khu Everland Resort tại Yongin, Gyeonggi-do. Khai trương năm 1996, công viên có cả khu nước trong nhà và ngoài trời, vận hành quanh năm — nhưng mùa hè là lúc các khu nước ngoài trời hoạt động hết công suất.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/), Caribbean Bay đứng thứ 7 và là công viên nước duy nhất trong top 10 thuộc khu vực Seoul.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Caribbean Bay đứng thứ 7 và là công viên nước duy nhất trong top 10 thuộc khu vực Seoul.
 
 ## Tóm tắt nhanh
 
@@ -131,6 +134,6 @@ Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mu
 ## Nên kết hợp với đâu?
 
 - **Everland**: Công viên giải trí nằm kế cạnh, nếu có thời gian bạn có thể mua vé ghép.
-- **Nami Island**: Hai điểm cách nhau không xa, nếu nghỉ qua đêm thì kết hợp dễ dàng. Xem thêm [Nami Island mùa hè](/nami-island-mua-he-day-trip-gan-seoul/).
-- **Wolmido**: Điểm đến tối nhẹ nhàng hơn nếu bạn không muốn cả ngày nước. Xem thêm [Wolmido Incheon](/wolmido-incheon-bien-boardwalk-gan-seoul/).
-- Xem toàn bộ [danh sách điểm tránh nóng](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/).
+- **Nami Island**: Hai điểm cách nhau không xa, nếu nghỉ qua đêm thì kết hợp dễ dàng. Xem thêm [Nami Island mùa hè]({{< ref "posts/nami-island-mua-he-day-trip-gan-seoul.md" >}}).
+- **Wolmido**: Điểm đến tối nhẹ nhàng hơn nếu bạn không muốn cả ngày nước. Xem thêm [Wolmido Incheon]({{< ref "posts/wolmido-incheon-bien-boardwalk-gan-seoul.md" >}}).
+- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}).

@@ -52,11 +52,11 @@ faq:
     tránh được dòng người đổ về từ 10 giờ trở đi.
 internal_links:
 - title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
+  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
 - title: 'Jungmun Beach Jeju: bãi biển cho người thích sóng và ảnh đẹp'
-  url: /jungmun-beach-jeju-hoat-dong-nuoc/
+  ref: posts/jungmun-beach-jeju-hoat-dong-nuoc.md
 - title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
-  url: /shinhwa-theme-park-jeju-water-slides/
+  ref: posts/shinhwa-theme-park-jeju-water-slides.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -71,11 +71,14 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.visitjeju.net/u/kN, https://www.koreaetour.com/udo-island-jeju/, https://www.itimaker.com/blog/udo-island-day-trip-from-jeju.'
+slug: udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay
+aliases:
+  - /posts/udo-jeju-%C4%91%E1%BA%A3o-nh%E1%BB%8F-bi%E1%BB%83n-%C4%91%C3%A1-%C4%91en-h%E1%BA%A3i-%C4%91%C4%83ng-tr%E1%BA%AFng-v%C3%A0-c%C3%A1ch-tr%C3%A1nh-n%C3%B3ng-n%E1%BB%ADa-ng%C3%A0y/
 ---
 
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm nghỉ dưới chân Seongsan Ilchulbong này có một sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng và view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.
 
-Nếu bạn đang xem [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/), Udo là điểm đến không thể bỏ qua khi ở Jeju.
+Nếu bạn đang xem [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Udo là điểm đến không thể bỏ qua khi ở Jeju.
 
 ## Tóm tắt nhanh
 
@@ -129,6 +132,6 @@ Trên đảo, không được phép mang ô tô cá nhân. Bạn có thể:
 ## Nên kết hợp với đâu?
 
 - **Seongsan Ilchulbong**: Nên đi Udo sau khi leo Seongsan sáng sớm. Hai điểm cách nhau 5 phút đi bộ.
-- **Jungmun Beach**: Có thể ghé Jungmun vào ngày khác nếu bạn ở Jeju dài hơn. Xem thêm [Jungmun Beach Jeju](/jungmun-beach-jeju-hoat-dong-nuoc/).
-- **Shinhwa Theme Park**: Nếu đi cùng gia đình, Shinhwa là điểm kết hợp tốt. Xem thêm [Shinhwa Theme Park Jeju](/shinhwa-theme-park-jeju-water-slides/).
-- Các điểm Jeju khác trong [danh sách chính](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/).
+- **Jungmun Beach**: Có thể ghé Jungmun vào ngày khác nếu bạn ở Jeju dài hơn. Xem thêm [Jungmun Beach Jeju]({{< ref "posts/jungmun-beach-jeju-hoat-dong-nuoc.md" >}}).
+- **Shinhwa Theme Park**: Nếu đi cùng gia đình, Shinhwa là điểm kết hợp tốt. Xem thêm [Shinhwa Theme Park Jeju]({{< ref "posts/shinhwa-theme-park-jeju-water-slides.md" >}}).
+- Các điểm Jeju khác trong [danh sách chính]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}).

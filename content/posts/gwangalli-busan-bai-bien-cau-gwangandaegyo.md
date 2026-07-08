@@ -51,13 +51,13 @@ faq:
     có thể thay đổi theo mùa.
 internal_links:
 - title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
+  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
 - title: Haeundae Beach Busan
-  url: /haeundae-busan-bai-bien-mua-he/
+  ref: posts/haeundae-busan-bai-bien-mua-he.md
 - title: 'Cheongsapo Busan: biển trong và Blue Line Park'
-  url: /cheongsapo-busan-bien-blue-line-park/
+  ref: posts/cheongsapo-busan-bien-blue-line-park.md
 - title: 'Club D Oasis Busan: infinity pool spa'
-  url: /club-d-oasis-busan-infinity-pool-spa/
+  ref: posts/club-d-oasis-busan-infinity-pool-spa.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -73,11 +73,14 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en,
     https://www.busan.go.kr/eng/beaches/1326145, https://www.koreatodo.com/gwangalli-beach.'
+slug: gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi
+aliases:
+  - /posts/gwangalli-beach-busan-b%C3%A3i-bi%E1%BB%83n-ng%E1%BA%AFm-c%E1%BA%A7u-gwangan-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-h%E1%BB%A3p-%C4%91i-chi%E1%BB%81u-t%E1%BB%91i/
 ---
 
 Gwangalli Beach là đại diện thứ hai của Busan trong top 10. Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan (Gwangandaegyo) bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm, tạo nên một khung cảnh mà bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/), Gwangalli đứng thứ ba và là lựa chọn số một nếu bạn muốn kết hợp tắm biển và ngắm thành phố về đêm.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Gwangalli đứng thứ ba và là lựa chọn số một nếu bạn muốn kết hợp tắm biển và ngắm thành phố về đêm.
 
 ## Tóm tắt nhanh
 
@@ -129,7 +132,7 @@ Nếu bạn muốn xem drone show, cần kiểm tra lịch cụ thể trên webs
 
 ## Nên kết hợp với đâu?
 
-- **Haeundae Beach**: Hai bãi biển cách nhau khoảng 2,5 km, có thể kết hợp trong ngày. Xem thêm [Haeundae Beach Busan](/haeundae-busan-bai-bien-mua-he/).
-- **Cheongsapo**: Ghé Cheongsapo ban ngày, tối trở về Gwangalli. Xem thêm [Cheongsapo Busan](/cheongsapo-busan-bien-blue-line-park/).
-- **Club D Oasis**: Spa và infinity pool nếu bạn muốn thư giãn cuối ngày. Xem thêm [Club D Oasis Busan](/club-d-oasis-busan-infinity-pool-spa/).
-- Xem toàn bộ [danh sách điểm tránh nóng ở Hàn Quốc](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/).
+- **Haeundae Beach**: Hai bãi biển cách nhau khoảng 2,5 km, có thể kết hợp trong ngày. Xem thêm [Haeundae Beach Busan]({{< ref "posts/haeundae-busan-bai-bien-mua-he.md" >}}).
+- **Cheongsapo**: Ghé Cheongsapo ban ngày, tối trở về Gwangalli. Xem thêm [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-blue-line-park.md" >}}).
+- **Club D Oasis**: Spa và infinity pool nếu bạn muốn thư giãn cuối ngày. Xem thêm [Club D Oasis Busan]({{< ref "posts/club-d-oasis-busan-infinity-pool-spa.md" >}}).
+- Xem toàn bộ [danh sách điểm tránh nóng ở Hàn Quốc]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}).

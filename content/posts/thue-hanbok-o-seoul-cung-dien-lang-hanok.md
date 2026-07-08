@@ -64,9 +64,12 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
     https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616>, https://www.royalpalace.go.kr/>,
     https://english.visitseoul.net/>.'
+slug: thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien
+aliases:
+  - /posts/thu%C3%AA-hanbok-%E1%BB%9F-seoul-%C4%91i-cung-%C4%91i%E1%BB%87n-l%C3%A0ng-hanok-v%C3%A0-ch%E1%BB%A5p-%E1%BA%A3nh-sao-cho-%C4%91%C3%A1ng-ti%E1%BB%81n/
 ---
 
-Thuê Hanbok dạo cung điện là hoạt động được xếp hạng số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) của Trip.Best — và không khó hiểu khi đây là trải nghiệm được nhiều du khách Việt Nam yêu thích nhất khi đến Seoul.
+Thuê Hanbok dạo cung điện là hoạt động được xếp hạng số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}) của Trip.Best — và không khó hiểu khi đây là trải nghiệm được nhiều du khách Việt Nam yêu thích nhất khi đến Seoul.
 
 ## Tóm tắt nhanh
 
@@ -114,4 +117,4 @@ Nếu bạn muốn đi thêm Changdeokgung hoặc Bukchon Hanok Village, hãy th
 
 ## Nên kết hợp với đâu?
 
-Sau khi trả Hanbok, bạn có thể đi bộ lên Samcheong-dong để ăn trưa và uống cà phê, hoặc sang [Bukchon Hanok Village](/xem-musical-show-o-seoul/) — khu làng Hanok giữa lòng Seoul. Buổi chiều có thể ghé [chợ Gwangjang](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) để ăn bánh xèo mung bean và yukhoe. Nếu bạn là fan K-drama, nhiều [địa điểm quay phim](/dia-diem-quay-phim-han-quoc-seoul-kdrama/) nằm cách đó không xa.
+Sau khi trả Hanbok, bạn có thể đi bộ lên Samcheong-dong để ăn trưa và uống cà phê, hoặc sang [Bukchon Hanok Village]({{< ref "posts/xem-musical-show-o-seoul.md" >}}) — khu làng Hanok giữa lòng Seoul. Buổi chiều có thể ghé [chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-seoul-busan-jeju.md" >}}) để ăn bánh xèo mung bean và yukhoe. Nếu bạn là fan K-drama, nhiều [địa điểm quay phim]({{< ref "posts/dia-diem-quay-phim-han-quoc-seoul-kdrama.md" >}}) nằm cách đó không xa.
