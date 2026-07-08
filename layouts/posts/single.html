@@ -20,11 +20,21 @@
       </div>
     </div>
   </header>
-  {{ with .Params.image }}
+  {{ $image := .Params.image | default "images/posts/fallback.webp" }}
   <div class="post-featured-image">
-    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
+    <img src="{{ $image | relURL }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
+    {{ with .Params.image_source }}
+    <div class="post-image-attribution">
+      Nguồn ảnh:
+      {{ if $.Params.image_source_url }}
+      <a href="{{ $.Params.image_source_url }}" target="_blank" rel="noopener">{{ . }}</a>
+      {{ else }}
+      {{ . }}
+      {{ end }}
+      {{ with $.Params.image_creator }} / {{ . }}{{ end }}
+    </div>
+    {{ end }}
   </div>
-  {{ end }}
   {{ partial "ai-summary.html" . }}
   {{ partial "quick-summary.html" . }}
   <div class="post-content">

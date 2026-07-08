@@ -122,47 +122,83 @@ python scripts/new_post.py "Tiêu đề bài viết" \
 ## 🧪 Quality Assurance
 
 ```bash
-# 📋 Kiểm tra front matter
-python scripts/normalize_frontmatter.py
+# 🖼️ Audit post images (thiếu ảnh, path sai, metadata, trùng)
+python scripts/audit_post_images.py
 
-# 🔎 QA tổng thể (draft, date, slug, ảnh, link hỏng)
+# 🔎 Kiểm tra ảnh trùng
+python scripts/image_dedupe.py
+
+# ✅ QA tổng thể (draft, date, slug, ảnh, metadata, link)
 python scripts/qa_blog.py
-
-# 🏗️ Build search index
-hugo && python scripts/build_search_index.py
 ```
 
 ---
 
-## 🖼️ Image Pipeline (xịn xò)
+## 🖼️ Image Pipeline (AI-assisted + Deduplication)
 
-Blog này có một pipeline xử lý ảnh tự động cực kỳ pro:
+Blog có pipeline ảnh khoa học gồm 4 giai đoạn:
 
 ```
-                     ┌─────────────┐
-  Ảnh gốc (JPEG/PNG) │  Python +   │  WebP 800×450 (hero)
- ───────────────────►│   Pillow    ├──► WebP 220×165 (card)
-                     │             │  Watermark (self-owned)
-                     └─────────────┘  Manifest JSON
+                          ┌──────────────────┐
+  content/posts/*.md ────►│ audit_post_images │──► data/image-audit-report.json
+                          └──────────────────┘
+                                    │
+                                    ▼
+                          ┌──────────────────┐
+                          │  select_images   │──► data/images.json (manifest)
+                          │  (AI-assisted)   │──► data/image-source-cache.json
+                          └──────────────────┘
+                                    │
+                                    ▼
+                          ┌──────────────────┐
+                          │ process_images   │──► static/images/posts/*.webp
+                          │ (resize + WebP   │──► frontmatter updated
+                          │  + watermark)    │
+                          └──────────────────┘
+                                    │
+                                    ▼
+                          ┌──────────────────┐
+                          │  image_dedupe    │──► data/image-dedupe-report.json
+                          └──────────────────┘
 ```
 
 | Tính năng | Mô tả |
 |:---|---:|
-| 🔄 **Resize + Crop** | Center-fit theo preset: hero 800×450, card 220×165 |
-| 🎨 **WebP** | Chuyển sang WebP — nhẹ hơn, trong hơn |
-| 💧 **Watermark** | Tự động đóng watermark cho ảnh tự sở hữu (góc phải dưới, opacity 50%) |
-| 🛡️ **Bảo vệ** | Ảnh external không bị watermark |
-| 📦 **Manifest** | Sinh file `data/images.json` để template dùng |
+| 🔍 **Audit** | Scan toàn bộ post, phát hiện thiếu ảnh, path sai, thiếu metadata, ảnh trùng |
+| 🤖 **AI Selection** | Sinh keywords từ nội dung, tra API Pixabay/Pexels/Unsplash (nếu có key), chấm điểm relevance |
+| 🖼️ **Process** | Download → crop 16:9 → resize 800×450 → WebP → watermark attribution text |
+| 🔄 **Dedupe** | Kiểm tra source_url trùng, perceptual hash, output file trùng |
+| ✅ **QA** | FAIL nếu thiếu ảnh, license, source_url, commercial_use, path sai, ảnh trùng |
 
-### Cách dùng
+### Watermark attribution
+
+- Góc dưới phải, text nhỏ, nền mờ
+- Chỉ ghi: `"Source: Pixabay"`, `"Source: Unsplash / Photographer Name"`
+- Không dùng logo nền tảng
+- Ảnh external: attribution watermark theo source
+- Fallback image: `static/images/posts/fallback.webp`
+
+### Cách dùng pipeline
 
 ```bash
-# Đặt ảnh gốc vào static/images/posts-src/
-# Ảnh external cần file metadata kèm .meta.json
+# 1. Audit post images
+python scripts/audit_post_images.py
 
-# Chạy pipeline:
-pip install -r requirements.txt
+# 2. Select images (AI-assisted — yêu cầu API keys hoặc chạy chế độ suggest)
+#    Cần env vars: UNSPLASH_ACCESS_KEY, PEXELS_API_KEY, PIXABAY_API_KEY
+python scripts/select_images.py
+
+# 3. Process images (resize + WebP + watermark)
 python scripts/process_images.py
+
+# 4. Check deduplication
+python scripts/image_dedupe.py
+
+# 5. QA blog
+python scripts/qa_blog.py
+
+# 6. Build
+hugo
 ```
 
 ---
@@ -179,12 +215,12 @@ hugo --minify
 
 ## 🚀 Deploy (GitHub Actions)
 
-Mỗi lần push lên `main`, robot tự động:
+Mỗi lần push lên `main`, CI tự động:
 
-1. 🖼️ **Xử lý ảnh** → resize, crop, WebP, watermark
-2. 🧪 **Chạy QA** → kiểm tra toàn bộ bài viết
-3. 🏗️ **Build Hugo** → `hugo --minify`
-4. 🔍 **Build search index**
+1. 🖼️ **Audit ảnh** → phát hiện thiếu/metadata/trùng
+2. 🔎 **Dedupe check** → kiểm tra ảnh trùng
+3. ✅ **QA** → fail nếu thiếu ảnh, license, source_url, path sai
+4. 🏗️ **Build Hugo** → `hugo --minify`
 5. 🌐 **Deploy lên GitHub Pages**
 
 > ⚠️ **Cần bật GitHub Pages**: Settings → Pages → Source: **GitHub Actions**
@@ -201,12 +237,24 @@ Mỗi lần push lên `main`, robot tự động:
  ┃ ┣ 📂 partials
  ┃ ┗ 📂 posts
  ┣ 📂 assets/css           # 🎯 CSS (Hugo Pipes)
- ┣ 📂 scripts              # 🐍 Python scripts
- ┣ 📂 static               # 📎 File tĩnh
+ ┣ 📂 scripts              # 🐍 Python scripts xử lý ảnh & QA
+ ┣ 📂 data                 # 📊 Dữ liệu pipeline (manifest, report, cache)
+ ┣ 📂 static/images/posts  # 🖼️ Ảnh đã xử lý (WebP, có watermark)
+ ┣ 📂 static/images/posts-src # 📥 Ảnh gốc (chưa xử lý)
  ┣ 📂 .github/workflows    # 🤖 CI/CD
  ┣ 📜 hugo.toml            # ⚙️ Config
  ┗ 📜 requirements.txt     # 📦 Python deps
 ```
+
+| File Pipeline | Chức năng |
+|:---|---:|
+| `scripts/audit_post_images.py` | Scan frontmatter ảnh, phát hiện thiếu/trùng/sai |
+| `scripts/select_images.py` | AI-assisted chọn ảnh từ API Unsplash/Pexels/Pixabay |
+| `scripts/process_images.py` | Download → crop → WebP → watermark → update frontmatter |
+| `scripts/image_dedupe.py` | Detect ảnh trùng (URL, file, perceptual hash) |
+| `scripts/qa_blog.py` | QA cứng: fail nếu thiếu image, thumbnail, source, license, path sai |
+| `data/images.json` | Manifest ảnh của toàn bộ blog |
+| `data/dupe-whitelist.json` | Danh sách URL ảnh được phép dùng nhiều bài |
 
 ---
 

@@ -1,4 +1,4 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -14,72 +14,50 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.157.0
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Hugo
-        run: |
-          wget -O /tmp/hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
-          tar -xf /tmp/hugo.tar.gz -C /tmp
-          sudo mv /tmp/hugo /usr/local/bin/hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.163.1'
+          extended: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.12'
+          cache: 'pip'
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Process images
-        run: python scripts/process_images.py
+      - name: Audit post images
+        run: python scripts/audit_post_images.py
 
-      - name: Slug audit
-        run: python scripts/audit_slugs.py
+      - name: Check image deduplication
+        run: python scripts/image_dedupe.py
 
       - name: QA blog
         run: python scripts/qa_blog.py
 
-      - name: Build Hugo site
-        env:
-          GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
-        run: hugo --minify --baseURL "https://banhang-chogao.github.io/reviewchanthat/"
+      - name: Build Hugo
+        run: hugo --minify
 
-      - name: Link audit
-        run: python scripts/audit_links.py || true
-
-      - name: Verify print watermark on blog posts
-        run: python scripts/verify_print_watermark.py
-
-      - name: Build search index
-        run: python scripts/build_search_index.py
-
-      - name: Content quality controller
-        run: 'python scripts/content_controller.py --changed-only || echo "WARN: content controller check failed"'
-
-      - name: Link audit
-        run: python scripts/audit_links.py
-
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

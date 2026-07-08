@@ -1,0 +1,1017 @@
+{
+  "total_posts": 38,
+  "summary": {
+    "valid": 22,
+    "missing_image": 0,
+    "broken_image_path": 0,
+    "missing_license_metadata": 0,
+    "duplicate_image": 16
+  },
+  "duplicates": {
+    "https://unsplash.com/photos/1534274988757-a28bf1a57c17": [
+      "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+      "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
+      "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
+      "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
+      "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
+      "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
+      "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
+      "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
+      "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
+      "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+      "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
+      "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc"
+    ],
+    "https://unsplash.com/photos/1529973565459-1e38c5c2c1e5": [
+      "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+      "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju"
+    ],
+    "https://unsplash.com/photos/1551698618-1dfe5facc91d": [
+      "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
+      "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong"
+    ]
+  },
+  "posts": [
+    {
+      "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+      "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "biển Hàn Quốc",
+        "Busan",
+        "Jeju",
+        "Seoul",
+        "công viên nước",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang",
+      "title": "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1531366936337-5c912a4589c2?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1531366936337-5c912a4589c2?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1531366936337-5c912a4589c2",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Alpensia",
+        "Pyeongchang",
+        "trượt tuyết Hàn Quốc",
+        "ski resort Hàn Quốc",
+        "Olympic PyeongChang",
+        "gangwon-do",
+        "series trượt tuyết"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
+      "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Jeju",
+        "biển Jeju",
+        "Hamdeok",
+        "Hyeopjae",
+        "resort Jeju",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
+      "title": "Cách đọc một bài review để không bị dắt mũi",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1434030216411-0b793f4b4173",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "kỹ năng đọc review",
+        "tiêu dùng thông minh"
+      ],
+      "categories": [
+        "review"
+      ]
+    },
+    {
+      "slug": "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
+      "title": "Cách xây dựng thói quen mua sắm thông minh",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1553729459-afe8e2e1a6e0",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "mua sắm thông minh",
+        "thói quen",
+        "quản lý chi tiêu"
+      ],
+      "categories": [
+        "doi-song",
+        "tai-chinh"
+      ]
+    },
+    {
+      "slug": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md",
+      "title": "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1544102392-3399ca7b21a3",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Caribbean Bay",
+        "công viên nước",
+        "Everland",
+        "Yongin",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "checklist-truoc-khi-mua-mot-san-pham-online",
+      "title": "Checklist trước khi mua một sản phẩm online",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1556742049-0cfed4f6a45d",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "mua sắm online",
+        "checklist",
+        "tiêu dùng thông minh"
+      ],
+      "categories": [
+        "review",
+        "doi-song"
+      ]
+    },
+    {
+      "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
+      "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1603383893542-b17166a6ef5b?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1603383893542-b17166a6ef5b?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1603383893542-b17166a6ef5b",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Busan",
+        "Cheongsapo",
+        "Blue Line Park",
+        "Haeundae",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
+      "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Seoul",
+        "Busan",
+        "Jeju",
+        "chợ địa phương",
+        "ẩm thực Hàn Quốc",
+        "chợ Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
+      "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1560072810-1cffb09faf0f?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1560072810-1cffb09faf0f?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1560072810-1cffb09faf0f",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Busan",
+        "Club D Oasis",
+        "Haeundae",
+        "spa",
+        "infinity pool",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
+      "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Suwon",
+        "Hwaseong Fortress",
+        "Hwaseong Haenggung",
+        "Korean Folk Village",
+        "day trip Seoul",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
+      "title": "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Incheon",
+        "Yongin",
+        "Wolmido",
+        "Caribbean Bay",
+        "Gwangmyeong Cave",
+        "day trip Seoul",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
+      "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Seoul",
+        "K-drama",
+        "địa điểm quay phim Hàn Quốc",
+        "Vincenzo",
+        "Reborn Rich",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
+      "title": "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2a8b?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1464822759023-fed622ff2a8b?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1464822759023-fed622ff2a8b",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Elysian Gangchon",
+        "Chuncheon",
+        "trượt tuyết Hàn Quốc",
+        "ski resort Hàn Quốc",
+        "beginner ski",
+        "gangwon-do",
+        "series trượt tuyết"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
+      "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1619841795949-208f0c17f5db?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1619841795949-208f0c17f5db?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1619841795949-208f0c17f5db",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Busan",
+        "Gwangalli",
+        "cầu Gwangan",
+        "biển Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
+      "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1598266663439-2056e6900339?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1598266663439-2056e6900339?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1598266663439-2056e6900339",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Busan",
+        "Haeundae",
+        "biển Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+      "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1529973565459-1e38c5c2c1e5"
+      ],
+      "image": "https://images.unsplash.com/photo-1529973565459-1e38c5c2c1e5?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1529973565459-1e38c5c2c1e5?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1529973565459-1e38c5c2c1e5",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "High1",
+        "Jeongseon",
+        "trượt tuyết Hàn Quốc",
+        "ski resort Hàn Quốc",
+        "gangwon-do",
+        "Sky 1340",
+        "series trượt tuyết"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
+      "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Seoul",
+        "jjimjilbang",
+        "sauna Hàn Quốc",
+        "Aquafield Goyang",
+        "spa Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
+      "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1509515837298-2c67a3933321",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Jeju",
+        "Jungmun",
+        "bãi biển Jeju",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
+      "title": "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1572492371162-cf453ed8b6ff?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1572492371162-cf453ed8b6ff?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1572492371162-cf453ed8b6ff",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Nami Island",
+        "day trip Seoul",
+        "Chuncheon",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
+      "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Jeju",
+        "Seongsan Ilchulbong",
+        "bình minh",
+        "Seogwipo",
+        "Seopjikoji",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
+      "title": "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1529973565459-1e38c5c2c1e5"
+      ],
+      "image": "https://images.unsplash.com/photo-1529973565459-1e38c5c2c1e5?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1529973565459-1e38c5c2c1e5?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1529973565459-1e38c5c2c1e5",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Oak Valley",
+        "Wonju",
+        "trượt tuyết Hàn Quốc",
+        "ski resort Hàn Quốc",
+        "beginner ski",
+        "gangwon-do",
+        "series trượt tuyết"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
+      "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1518770660439-4636190af475",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "benchmark",
+        "trải nghiệm thật",
+        "review công nghệ"
+      ],
+      "categories": [
+        "review",
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
+      "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1570488543964-c1d413605328",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Jeju",
+        "Shinhwa Theme Park",
+        "công viên nước",
+        "Shinhwa World",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
+      "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1563013544-824ae1b704d3",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "so sánh",
+        "giá cả",
+        "bảo hành",
+        "trải nghiệm"
+      ],
+      "categories": [
+        "review",
+        "tai-chinh"
+      ]
+    },
+    {
+      "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
+      "title": "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Seoul",
+        "Hanbok",
+        "trải nghiệm Hàn Quốc",
+        "cung điện Seoul",
+        "chụp ảnh Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+      "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Seoul",
+        "Busan",
+        "Jeju",
+        "trải nghiệm Hàn Quốc",
+        "K-beauty",
+        "K-drama",
+        "ẩm thực Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
+      "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1551698618-1dfe5facc91d"
+      ],
+      "image": "https://images.unsplash.com/photo-1551698618-1dfe5facc91d?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1551698618-1dfe5facc91d?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1551698618-1dfe5facc91d",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "trượt tuyết Hàn Quốc",
+        "ski resort Hàn Quốc",
+        "mùa đông Hàn Quốc",
+        "gangwon-do",
+        "day trip Seoul",
+        "beginner ski",
+        "series trượt tuyết"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
+      "title": "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Seoul",
+        "K-beauty",
+        "makeup Hàn Quốc",
+        "personal color",
+        "mỹ phẩm Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
+      "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1577717903312-5ada32cb1972?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1577717903312-5ada32cb1972?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1577717903312-5ada32cb1972",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Jeju",
+        "Udo",
+        "đảo Udo",
+        "biển Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
+      "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/coffeebean-cover-hero.webp",
+      "thumbnail": "images/posts/coffeebean-cover-hero.webp",
+      "image_source": "Veritable Content",
+      "image_source_url": "https://banhang-chogao.github.io/reviewchanthat/",
+      "image_license": "Owned by Veritable Content",
+      "image_commercial_use": true,
+      "image_owner": "self",
+      "tags": [
+        "Veritable Content",
+        "Hugo",
+        "Python",
+        "GitHub Actions",
+        "Flat Design",
+        "Content Architecture",
+        "SEO"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "vi-sao-review-dai-chua-chac-da-dang-tin",
+      "title": "Vì sao review dài chưa chắc đã đáng tin?",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1455390582262-044cdead277a",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "review dài",
+        "content marketing",
+        "cảnh giác"
+      ],
+      "categories": [
+        "review"
+      ]
+    },
+    {
+      "slug": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
+      "title": "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1551698618-1dfe5facc91d"
+      ],
+      "image": "https://images.unsplash.com/photo-1551698618-1dfe5facc91d?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1551698618-1dfe5facc91d?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1551698618-1dfe5facc91d",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Vivaldi Park",
+        "Hongcheon",
+        "trượt tuyết Hàn Quốc",
+        "ski resort Hàn Quốc",
+        "gangwon-do",
+        "series trượt tuyết"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
+      "title": "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1578894381163-e72c17f2d45f?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1578894381163-e72c17f2d45f?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1578894381163-e72c17f2d45f",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc mùa hè",
+        "Incheon",
+        "Wolmido",
+        "Seoul",
+        "gia đình",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+      "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
+      "status": "valid",
+      "issues": [],
+      "image": "https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-AI-260608_big.jpg.large.jpg",
+      "thumbnail": "https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-AI-260608_big.jpg.large.jpg",
+      "image_source": "Apple Newsroom",
+      "image_source_url": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+      "image_license": "Apple Press Usage",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "WWDC26",
+        "iOS 27",
+        "macOS 27",
+        "Siri AI",
+        "Apple Intelligence",
+        "nhận định sau sự kiện"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
+      "title": "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu",
+      "status": "valid",
+      "issues": [],
+      "image": "https://www.apple.com/newsroom/images/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/article/Apple-OS-27-updates-260608_big.jpg.large.jpg",
+      "thumbnail": "https://www.apple.com/newsroom/images/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/article/Apple-OS-27-updates-260608_big.jpg.large.jpg",
+      "image_source": "Apple Newsroom",
+      "image_source_url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+      "image_license": "Apple Press Usage",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "WWDC26",
+        "iOS 27",
+        "macOS 27",
+        "Siri AI",
+        "Apple Intelligence",
+        "iPhone",
+        "Mac"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
+      "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
+      "status": "duplicate_image",
+      "issues": [
+        "duplicate_image:https://unsplash.com/photos/1534274988757-a28bf1a57c17"
+      ],
+      "image": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1534274988757-a28bf1a57c17",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc 2026",
+        "Seoul",
+        "musical",
+        "show Hàn Quốc",
+        "Daehangno",
+        "giải trí Hàn Quốc",
+        "series du lịch"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    },
+    {
+      "slug": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
+      "title": "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?",
+      "status": "valid",
+      "issues": [],
+      "image": "https://images.unsplash.com/photo-1551009175-15bdfbbdc49a?w=800&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1551009175-15bdfbbdc49a?w=800&q=80",
+      "image_source": "Unsplash",
+      "image_source_url": "https://unsplash.com/photos/1551009175-15bdfbbdc49a",
+      "image_license": "Unsplash License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Yongpyong",
+        "Pyeongchang",
+        "trượt tuyết Hàn Quốc",
+        "ski resort Hàn Quốc",
+        "Olympic PyeongChang",
+        "gangwon-do",
+        "series trượt tuyết"
+      ],
+      "categories": [
+        "du-lich"
+      ]
+    }
+  ]
+}
