@@ -1,28 +1,64 @@
 ---
-title: "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển"
-date: 2026-07-08T07:00:00+07:00
-description: "Bãi biển đẹp nhất Jeju: Hamdeok nước xanh như Maldives, Hyeopjae hoàng hôn lãng mạn. So sánh và gợi ý chọn resort ven biển Jeju."
-categories: ["du-lich"]
-tags: ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Jeju", "biển Jeju", "Hamdeok", "Hyeopjae", "resort Jeju", "series du lịch"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+title: 'Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển'
+date: 2026-07-08 07:00:00+07:00
+description: 'Bãi biển đẹp nhất Jeju: Hamdeok nước xanh như Maldives, Hyeopjae hoàng
+  hôn lãng mạn. So sánh và gợi ý chọn resort ven biển Jeju.'
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc 2026
+- Jeju
+- biển Jeju
+- Hamdeok
+- Hyeopjae
+- resort Jeju
+- series du lịch
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 image_commercial_use: true
-image_license: "Unsplash License"
-image_owner: "external"
-image_source: "Unsplash"
-image_source_url: "https://unsplash.com/photos/1534274988757-a28bf1a57c17"
-thumbnail: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 draft: false
 ai_summary:
   collapsed: false
-  disclaimer: "Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác"
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
   enabled: true
   items:
-  - "Biển và khu nghỉ dưỡng Jeju xếp hạng 7 trong top 20 hoạt động du lịch Hàn Quốc 2026, phù hợp gia đình và cặp đôi."
-  - "Hamdeok Beach (đông Jeju) nước xanh ngọc, nông, hợp gia đình; Hyeopjae Beach (tây Jeju) cát trắng, hoàng hôn đẹp."
-  - "Khu nghỉ ven biển Jeju tập trung ở phía nam (Seogwipo) và tây nam, từ bình dân đến cao cấp."
-  title: "Tóm tắt bài viết"
+  - Biển và khu nghỉ dưỡng Jeju xếp hạng 7 trong top 20 hoạt động du lịch Hàn Quốc
+    2026, phù hợp gia đình và cặp đôi.
+  - Hamdeok Beach (đông Jeju) nước xanh ngọc, nông, hợp gia đình; Hyeopjae Beach (tây
+    Jeju) cát trắng, hoàng hôn đẹp.
+  - Khu nghỉ ven biển Jeju tập trung ở phía nam (Seogwipo) và tây nam, từ bình dân
+    đến cao cấp.
+  title: Tóm tắt bài viết
+faq:
+- question: Biển Jeju có đông như biển Busan không?
+  answer: Không. Jeju đông vào mùa hè cao điểm (tháng 7–8) nhưng ít hơn Haeundae Busan
+    nhiều. Hamdeok và Hyeopjae thoáng hơn các bãi biển nổi tiếng ở Seoul và Busan.
+- question: Nên ở resort ven biển hay homestay trong đất liền?
+  answer: Tùy ngân sách. Resort ven biển Jeju đắt hơn nhưng tiện cho việc tắm biển.
+    Homestay trong đất liền rẻ hơn và gần ẩm thực địa phương.
+- question: Tháng 7–8 có nên đi biển Jeju không?
+  answer: Có — đây là mùa tắm biển đẹp nhất. Nhưng cần đặt resort và xe thuê trước
+    vì mùa cao điểm.
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.visitjeju.net/>
+  url: https://www.visitjeju.net/>
+- title: https://www.visitjeju.net/en/>
+  url: https://www.visitjeju.net/en/>
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://www.visitjeju.net/>, https://www.visitjeju.net/en/>.'
 ---
 
 Jeju không chỉ có núi lửa và bình minh — hòn đảo này còn sở hữu những bãi biển đẹp đến mức nhiều người gọi Hamdeok là "Maldives của Hàn Quốc". Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) từ Trip.Best, biển và khu nghỉ dưỡng Jeju đứng thứ 7.
@@ -89,20 +125,3 @@ Jeju có ba khu vực resort chính:
 ## Nên kết hợp với đâu?
 
 Hamdeok kết hợp tốt với [Seongsan Ilchulbong](/ngam-binh-minh-jeju-seongsan-seogwipo/) (cùng phía đông). Hyeopjae kết hợp với công viên Hallim và các điểm tham quan phía tây Jeju. Không nên bỏ qua [chợ Dongmun](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) khi về Jeju City.
-
-## Câu hỏi thường gặp
-
-### Biển Jeju có đông như biển Busan không?
-Không. Jeju đông vào mùa hè cao điểm (tháng 7–8) nhưng ít hơn Haeundae Busan nhiều. Hamdeok và Hyeopjae thoáng hơn các bãi biển nổi tiếng ở Seoul và Busan.
-
-### Nên ở resort ven biển hay homestay trong đất liền?
-Tùy ngân sách. Resort ven biển Jeju đắt hơn nhưng tiện cho việc tắm biển. Homestay trong đất liền rẻ hơn và gần ẩm thực địa phương.
-
-### Tháng 7–8 có nên đi biển Jeju không?
-Có — đây là mùa tắm biển đẹp nhất. Nhưng cần đặt resort và xe thuê trước vì mùa cao điểm.
-
-## Nguồn tham khảo
-
-- Trip.Best — Trip.com: "South Korea Best Activities" — <https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
-- Visit Jeju — Beaches — <https://www.visitjeju.net/>
-- Jeju Tourism Organization — <https://www.visitjeju.net/en/>

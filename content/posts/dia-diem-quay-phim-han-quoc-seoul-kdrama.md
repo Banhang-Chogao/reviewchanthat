@@ -1,28 +1,63 @@
 ---
-title: "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic"
-date: 2026-07-08T07:00:00+07:00
-description: "Địa điểm quay phim Hàn Quốc ở Seoul từ Vincenzo, Reborn Rich: Sewoon Arcade, Common Ground, Baek In-je House. Lịch trình và mẹo check-in."
-categories: ["du-lich"]
-tags: ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "K-drama", "địa điểm quay phim Hàn Quốc", "Vincenzo", "Reborn Rich", "series du lịch"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+title: 'Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic'
+date: 2026-07-08 07:00:00+07:00
+description: 'Địa điểm quay phim Hàn Quốc ở Seoul từ Vincenzo, Reborn Rich: Sewoon
+  Arcade, Common Ground, Baek In-je House. Lịch trình và mẹo check-in.'
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc 2026
+- Seoul
+- K-drama
+- địa điểm quay phim Hàn Quốc
+- Vincenzo
+- Reborn Rich
+- series du lịch
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 image_commercial_use: true
-image_license: "Unsplash License"
-image_owner: "external"
-image_source: "Unsplash"
-image_source_url: "https://unsplash.com/photos/1534274988757-a28bf1a57c17"
-thumbnail: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 draft: false
 ai_summary:
   collapsed: false
-  disclaimer: "Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác"
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
   enabled: true
   items:
-  - "Địa điểm quay phim K-drama ở Seoul xếp hạng 9 trong top 20 hoạt động du lịch Hàn Quốc 2026 từ Trip.Best."
-  - "Các địa điểm nổi bật: Sewoon Arcade (Vincenzo), Common Ground, Baek In-je House (Reborn Rich), N Seoul Tower."
-  - "Phần lớn nằm ở Jongno, Seongsu, Gwangjin — có thể đi bằng tàu điện ngầm."
-  title: "Tóm tắt bài viết"
+  - Địa điểm quay phim K-drama ở Seoul xếp hạng 9 trong top 20 hoạt động du lịch Hàn
+    Quốc 2026 từ Trip.Best.
+  - 'Các địa điểm nổi bật: Sewoon Arcade (Vincenzo), Common Ground, Baek In-je House
+    (Reborn Rich), N Seoul Tower.'
+  - Phần lớn nằm ở Jongno, Seongsu, Gwangjin — có thể đi bằng tàu điện ngầm.
+  title: Tóm tắt bài viết
+faq:
+- question: Có cần mua tour để đi theo dấu K-drama không?
+  answer: Không. Hầu hết địa điểm đều miễn phí và có thể đi bằng tàu điện ngầm. Một
+    số quán cà phê có tính phí đồ uống.
+- question: Địa điểm nào chụp ảnh đẹp nhất?
+  answer: Common Ground và Seoullo 7017 có background đẹp, ánh sáng tốt. N Seoul Tower
+    đẹp nhất vào hoàng hôn.
+- question: Có nên đi Namsan Tower không?
+  answer: Có — đây là địa điểm biểu tượng, view toàn cảnh Seoul rất đẹp. Tuy nhiên,
+    cuối tuần rất đông và cáp treo phải xếp hàng dài.
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://english.visitseoul.net/>
+  url: https://english.visitseoul.net/>
+- title: https://english.visitkorea.or.kr/>
+  url: https://english.visitkorea.or.kr/>
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'
 ---
 
 Một trong những cách thú vị nhất để khám phá Seoul là đi theo dấu các bộ phim Hàn Quốc — và đây cũng là hoạt động xếp hạng 9 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) của Trip.Best.
@@ -89,20 +124,3 @@ Công viên trên cầu cạn từng được xây dựng lại, xuất hiện t
 ## Nên kết hợp với đâu?
 
 Sewoon Arcade và Cheonggyecheon nằm gần [khu chợ Gwangjang](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) — bạn có thể đi bộ và ăn trưa. Seongsu gần [khu vực học makeup K-beauty](/k-beauty-makeup-personal-color-seoul/). Nếu thích văn hóa tổng hợp, [thuê Hanbok](/thue-hanbok-o-seoul-cung-dien-lang-hanok/) buổi sáng và tour K-drama buổi chiều là một combo hợp lý.
-
-## Câu hỏi thường gìp
-
-### Có cần mua tour để đi theo dấu K-drama không?
-Không. Hầu hết địa điểm đều miễn phí và có thể đi bằng tàu điện ngầm. Một số quán cà phê có tính phí đồ uống.
-
-### Địa điểm nào chụp ảnh đẹp nhất?
-Common Ground và Seoullo 7017 có background đẹp, ánh sáng tốt. N Seoul Tower đẹp nhất vào hoàng hôn.
-
-### Có nên đi Namsan Tower không?
-Có — đây là địa điểm biểu tượng, view toàn cảnh Seoul rất đẹp. Tuy nhiên, cuối tuần rất đông và cáp treo phải xếp hàng dài.
-
-## Nguồn tham khảo
-
-- Trip.Best — Trip.com: "South Korea Best Activities" — <https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
-- Visit Seoul — K-drama Filming Locations — <https://english.visitseoul.net/>
-- Korea Tourism Organization — K-drama Locations — <https://english.visitkorea.or.kr/>

@@ -1,28 +1,66 @@
 ---
-title: "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp"
-date: 2026-07-08T07:00:00+07:00
-description: "Trải nghiệm K-beauty Seoul: học makeup tại JUNGSAEMMOOL 101, tư vấn personal color, mua mỹ phẩm Myeongdong. Lịch trình làm đẹp 1 ngày."
-categories: ["du-lich"]
-tags: ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "K-beauty", "makeup Hàn Quốc", "personal color", "mỹ phẩm Hàn Quốc", "series du lịch"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người
+  mê làm đẹp'
+date: 2026-07-08 07:00:00+07:00
+description: 'Trải nghiệm K-beauty Seoul: học makeup tại JUNGSAEMMOOL 101, tư vấn
+  personal color, mua mỹ phẩm Myeongdong. Lịch trình làm đẹp 1 ngày.'
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc 2026
+- Seoul
+- K-beauty
+- makeup Hàn Quốc
+- personal color
+- mỹ phẩm Hàn Quốc
+- series du lịch
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 image_commercial_use: true
-image_license: "Unsplash License"
-image_owner: "external"
-image_source: "Unsplash"
-image_source_url: "https://unsplash.com/photos/1534274988757-a28bf1a57c17"
-thumbnail: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 draft: false
 ai_summary:
   collapsed: false
-  disclaimer: "Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác"
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
   enabled: true
   items:
-  - "Trải nghiệm K-beauty xếp hạng 10 trong top 20 hoạt động du lịch Hàn Quốc 2026, hợp với người mê skincare và makeup."
-  - "Myeongdong là thiên đường mỹ phẩm, JUNGSAEMMOOL 101 (Seongsu) có lớp học makeup chuyên nghiệp."
-  - "Dịch vụ personal color analysis giúp xác định tông màu phù hợp với từng người."
-  title: "Tóm tắt bài viết"
+  - Trải nghiệm K-beauty xếp hạng 10 trong top 20 hoạt động du lịch Hàn Quốc 2026,
+    hợp với người mê skincare và makeup.
+  - Myeongdong là thiên đường mỹ phẩm, JUNGSAEMMOOL 101 (Seongsu) có lớp học makeup
+    chuyên nghiệp.
+  - Dịch vụ personal color analysis giúp xác định tông màu phù hợp với từng người.
+  title: Tóm tắt bài viết
+faq:
+- question: Cần bao nhiêu tiền cho trải nghiệm K-beauty?
+  answer: Tùy nhu cầu. Mua sắm mỹ phẩm Myeongdong có thể từ 50.000–500.000 won. Workshop
+    makeup và personal color có giá cao hơn — bạn cần kiểm tra trên website chính
+    thức.
+- question: Personal color analysis có đáng không?
+  answer: Nếu bạn quan tâm đến makeup và thời trang, đây là dịch vụ hữu ích. Bạn sẽ
+    biết chính xác tông màu nào hợp với da mình.
+- question: Có nên mua mỹ phẩm Hàn Quốc ở Myeongdong không?
+  answer: Có — Myeongdong có nhiều cửa hàng chính hãng và thường có khuyến mãi cho
+    khách du lịch. Tuy nhiên, một số sản phẩm có thể rẻ hơn khi mua online trên Coupang
+    hoặc Gmarket.
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://english.visitseoul.net/>
+  url: https://english.visitseoul.net/>
+- title: https://english.visitkorea.or.kr/>
+  url: https://english.visitkorea.or.kr/>
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'
 ---
 
 Seoul là kinh đô làm đẹp của châu Á, và trải nghiệm K-beauty là một trong những hoạt động được yêu thích nhất trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) từ Trip.Best — xếp hạng 10, ngang hàng với các trải nghiệm văn hóa truyền thống.
@@ -72,20 +110,3 @@ Personal color analysis là dịch vụ xác định tông màu da phù hợp nh
 ## Nên kết hợp với đâu?
 
 Myeongdong nằm gần [khu ẩm thực chợ Gwangjang](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) và [N Seoul Tower](/dia-diem-quay-phim-han-quoc-seoul-kdrama/). Seongsu gần [khu quay phim Common Ground](/dia-diem-quay-phim-han-quoc-seoul-kdrama/) và các quán cà phê K-drama. [Thuê Hanbok](/thue-hanbok-o-seoul-cung-dien-lang-hanok/) buổi sáng và K-beauty buổi chiều là một ngày văn hóa + làm đẹp lý tưởng.
-
-## Câu hỏi thường gặp
-
-### Cần bao nhiêu tiền cho trải nghiệm K-beauty?
-Tùy nhu cầu. Mua sắm mỹ phẩm Myeongdong có thể từ 50.000–500.000 won. Workshop makeup và personal color có giá cao hơn — bạn cần kiểm tra trên website chính thức.
-
-### Personal color analysis có đáng không?
-Nếu bạn quan tâm đến makeup và thời trang, đây là dịch vụ hữu ích. Bạn sẽ biết chính xác tông màu nào hợp với da mình.
-
-### Có nên mua mỹ phẩm Hàn Quốc ở Myeongdong không?
-Có — Myeongdong có nhiều cửa hàng chính hãng và thường có khuyến mãi cho khách du lịch. Tuy nhiên, một số sản phẩm có thể rẻ hơn khi mua online trên Coupang hoặc Gmarket.
-
-## Nguồn tham khảo
-
-- Trip.Best — Trip.com: "South Korea Best Activities" — <https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
-- Visit Seoul — Myeongdong — <https://english.visitseoul.net/>
-- Korea Tourism Organization — K-beauty — <https://english.visitkorea.or.kr/>

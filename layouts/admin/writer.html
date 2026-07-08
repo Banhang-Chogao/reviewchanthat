@@ -1132,7 +1132,12 @@
     if (alias) {
       return alias;
     }
-    return slugify(raw);
+    const slugified = slugify(raw);
+    const slugMatch = categoryCatalog.items.find((item) => item.slug === slugified);
+    if (slugMatch) {
+      return slugMatch.slug;
+    }
+    return slugified;
   }
 
   function normalizeCategoryList(values) {
@@ -1550,13 +1555,44 @@
     return button;
   }
 
+  const HARDCODED_SECTION_PATTERNS = [
+    /^##\s+Câu hỏi thường gặp\s*$/m,
+    /^##\s+FAQ\s*$/m,
+    /^##\s+Liên kết bên trong\s*$/m,
+    /^##\s+Nguồn tham khảo\s*$/m,
+  ];
+
+  function detectHardcodedSections(content) {
+    const found = [];
+    HARDCODED_SECTION_PATTERNS.forEach((pattern) => {
+      const match = content.match(pattern);
+      if (match) {
+        found.push(match[0].trim());
+      }
+    });
+    return found;
+  }
+
   function validateState(state) {
     const errors = [];
+    const warnings = [];
     if (!state.title.trim()) {
       errors.push('Title is required');
     }
     if (!state.content.trim()) {
       errors.push('Content Markdown is required');
+    }
+
+    // Validate category against catalog
+    const categorySlug = normalizeCategorySlug(state.category || defaultCategory);
+    const catExists = categoryCatalog.items.some((item) => item.slug === categorySlug);
+    if (!catExists) {
+      errors.push(`Category '${state.category}' not found in category catalog. Use an existing category or add it via Category Management.`);
+    }
+
+    const hardcoded = detectHardcodedSections(state.content);
+    if (hardcoded.length) {
+      warnings.push(`Hardcoded repeated sections detected: ${hardcoded.join(', ')}. Use front matter fields instead (faq, external_links, internal_links, attribution).`);
     }
     images.forEach((image, index) => {
       if (image.path.trim() && !image.alt.trim()) {
@@ -1566,7 +1602,7 @@
         errors.push(`Uploaded image ${index + 1} needs alt text`);
       }
     });
-    return errors;
+    return { errors, warnings };
   }
 
   function buildMarkdown(state) {
@@ -1598,13 +1634,22 @@
   function updateOutput() {
     const state = readState();
     const markdown = buildMarkdown(state);
-    const errors = validateState(state);
+    const { errors, warnings } = validateState(state);
     fields.output.value = markdown;
-    fields.status.dataset.state = errors.length ? 'error' : 'ok';
-    fields.status.textContent = errors.length ? errors.join(' · ') : 'Markdown ready';
+    const statusParts = [];
+    if (errors.length) {
+      statusParts.push(errors.join(' · '));
+      fields.status.dataset.state = 'error';
+    } else {
+      fields.status.dataset.state = 'ok';
+    }
+    if (warnings.length) {
+      statusParts.push(warnings.join(' · '));
+    }
+    fields.status.textContent = statusParts.length ? statusParts.join(' · ') : 'Markdown ready';
     renderPreview(state);
     saveDraft();
-    return { markdown, errors };
+    return { markdown, errors, warnings };
   }
 
   function setContentAtCursor(text) {

@@ -1,28 +1,67 @@
 ---
-title: "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
-date: 2026-07-08T07:00:00+07:00
-description: "Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang, Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu."
-categories: ["du-lich"]
-tags: ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "jjimjilbang", "sauna Hàn Quốc", "Aquafield Goyang", "spa Hàn Quốc", "series du lịch"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?'
+date: 2026-07-08 07:00:00+07:00
+description: 'Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang,
+  Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu.'
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc 2026
+- Seoul
+- jjimjilbang
+- sauna Hàn Quốc
+- Aquafield Goyang
+- spa Hàn Quốc
+- series du lịch
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 image_commercial_use: true
-image_license: "Unsplash License"
-image_owner: "external"
-image_source: "Unsplash"
-image_source_url: "https://unsplash.com/photos/1534274988757-a28bf1a57c17"
-thumbnail: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 draft: false
 ai_summary:
   collapsed: false
-  disclaimer: "Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác"
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
   enabled: true
   items:
-  - "Jjimjilbang là hoạt động văn hóa đặc trưng của Hàn Quốc, xếp hạng 8 trong top 20 hoạt động du lịch Hàn Quốc 2026."
-  - "Sparex Dongdaemun là lựa chọn bình dân mở 24h; Aquafield Goyang là spa cao cấp với hồ bơi vô cực view sông Hán."
-  - "Aquafield Goyang (Starfield Mall) có 8 phòng xông theo chủ đề, hồ bơi vô cực trên mái, kết hợp mua sắm."
-  title: "Tóm tắt bài viết"
+  - Jjimjilbang là hoạt động văn hóa đặc trưng của Hàn Quốc, xếp hạng 8 trong top
+    20 hoạt động du lịch Hàn Quốc 2026.
+  - Sparex Dongdaemun là lựa chọn bình dân mở 24h; Aquafield Goyang là spa cao cấp
+    với hồ bơi vô cực view sông Hán.
+  - Aquafield Goyang (Starfield Mall) có 8 phòng xông theo chủ đề, hồ bơi vô cực trên
+    mái, kết hợp mua sắm.
+  title: Tóm tắt bài viết
+faq:
+- question: Có cần biết tiếng Hàn để đi jjimjilbang không?
+  answer: 'Không. Các jjimjilbang lớn (Sparex, Aquafield) có hướng dẫn bằng tiếng
+    Anh. Bạn chỉ cần làm theo quy trình: nhận đồng phục → cất giày → tắm → xông hơi.'
+- question: Jjimjilbang có an toàn cho trẻ em không?
+  answer: Có. Aquafield Goyang có khu riêng cho gia đình. Tuy nhiên, phòng xông nhiệt
+    độ cao (60–80°C) không phù hợp với trẻ nhỏ.
+- question: Có nên ngủ lại jjimjilbang qua đêm không?
+  answer: Sparex Dongdaemun cho phép nghỉ qua đêm và có phòng ngủ tập thể. Aquafield
+    Goyang không phải là chỗ ngủ qua đêm.
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>
+  url: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>
+- title: https://english.visitseoul.net/>
+  url: https://english.visitseoul.net/>
+- title: https://www.aquafield.kr/>
+  url: https://www.aquafield.kr/>
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>,
+    https://english.visitseoul.net/>, https://www.aquafield.kr/>.'
 ---
 
 Jjimjilbang — nhà tắm hơi kiểu Hàn — là một phần không thể thiếu của văn hóa Hàn Quốc. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa "phải thử" khi đến Hàn.
@@ -78,21 +117,3 @@ Aquafield Goyang mở cửa quanh năm. Cuối tuần và ngày lễ rất đôn
 ## Nên kết hợp với đâu?
 
 Aquafield Goyang nằm trong Starfield Mall — bạn có thể kết hợp mua sắm trước hoặc sau khi spa. Gần đó là [Gwangmyeong Cave](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/), đi thêm 20 phút tàu điện. Nếu bạn đang ở Seoul, kết hợp Aquafield với một ngày đi [Incheon hoặc Wolmido](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/).
-
-## Câu hỏi thường gặp
-
-### Có cần biết tiếng Hàn để đi jjimjilbang không?
-Không. Các jjimjilbang lớn (Sparex, Aquafield) có hướng dẫn bằng tiếng Anh. Bạn chỉ cần làm theo quy trình: nhận đồng phục → cất giày → tắm → xông hơi.
-
-### Jjimjilbang có an toàn cho trẻ em không?
-Có. Aquafield Goyang có khu riêng cho gia đình. Tuy nhiên, phòng xông nhiệt độ cao (60–80°C) không phù hợp với trẻ nhỏ.
-
-### Có nên ngủ lại jjimjilbang qua đêm không?
-Sparex Dongdaemun cho phép nghỉ qua đêm và có phòng ngủ tập thể. Aquafield Goyang không phải là chỗ ngủ qua đêm.
-
-## Nguồn tham khảo
-
-- Trip.Best — Trip.com: "South Korea Best Activities" — <https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
-- Trip.Best — Trip.com: "Seoul Best Things To Do" — <https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>
-- Visit Seoul — Jjimjilbang — <https://english.visitseoul.net/>
-- Aquafield Official — <https://www.aquafield.kr/>

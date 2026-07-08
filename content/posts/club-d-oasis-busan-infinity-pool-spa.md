@@ -1,28 +1,67 @@
 ---
-title: "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
-date: 2026-07-08T07:00:00+07:00
-description: "Club D Oasis Busan là khu infinity pool và spa cao cấp tại Haeundae, view biển-trời, phù hợp cho cặp đôi muốn thư giãn và tránh đám đông mùa hè."
-categories: ["du-lich"]
-tags: ["du lịch Hàn Quốc", "Hàn Quốc mùa hè", "Busan", "Club D Oasis", "Haeundae", "spa", "infinity pool", "series du lịch"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1560072810-1cffb09faf0f?w=800&q=80"
+title: 'Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng'
+date: 2026-07-08 07:00:00+07:00
+description: Club D Oasis Busan là khu infinity pool và spa cao cấp tại Haeundae,
+  view biển-trời, phù hợp cho cặp đôi muốn thư giãn và tránh đám đông mùa hè.
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc mùa hè
+- Busan
+- Club D Oasis
+- Haeundae
+- spa
+- infinity pool
+- series du lịch
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+image: https://images.unsplash.com/photo-1560072810-1cffb09faf0f?w=800&q=80
 image_commercial_use: true
-image_license: "Unsplash License"
-image_owner: "external"
-image_source: "Unsplash"
-image_source_url: "https://unsplash.com/photos/1560072810-1cffb09faf0f"
-thumbnail: "https://images.unsplash.com/photo-1560072810-1cffb09faf0f?w=800&q=80"
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1560072810-1cffb09faf0f
+thumbnail: https://images.unsplash.com/photo-1560072810-1cffb09faf0f?w=800&q=80
 draft: false
 ai_summary:
   collapsed: false
-  disclaimer: "Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác"
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
   enabled: true
   items:
-  - "Club D Oasis là khu nghỉ dưỡng với infinity pool view biển tại Haeundae, Busan."
-  - "Phù hợp cho cặp đôi muốn tránh đám đông bãi biển công cộng."
-  - "Gần Haeundae, Cheongsapo và Gwangalli — dễ kết hợp trong lịch trình."
-  title: "Tóm tắt bài viết"
+  - Club D Oasis là khu nghỉ dưỡng với infinity pool view biển tại Haeundae, Busan.
+  - Phù hợp cho cặp đôi muốn tránh đám đông bãi biển công cộng.
+  - Gần Haeundae, Cheongsapo và Gwangalli — dễ kết hợp trong lịch trình.
+  title: Tóm tắt bài viết
+faq:
+- question: Club D Oasis có đắt không?
+  answer: Có, so với bãi biển công cộng. Chi phí phụ thuộc vào gói dịch vụ bạn chọn.
+    Cần kiểm tra giá trên website chính thức.
+- question: Cần đặt trước không?
+  answer: Có, đặc biệt vào mùa hè. Nên đặt ít nhất 1–2 tuần trước.
+- question: Có phù hợp với trẻ em không?
+  answer: Club D Oasis hướng đến người lớn và cặp đôi. Có thể có giới hạn tuổi ở khu
+    spa.
+internal_links:
+- title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
+  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
+- title: Haeundae Beach Busan
+  url: /haeundae-busan-bai-bien-mua-he/
+- title: Gwangalli Beach Busan
+  url: /gwangalli-busan-bai-bien-cau-gwangandaegyo/
+- title: Cheongsapo Busan làng biển Blue Line Park
+  url: /cheongsapo-busan-bien-blue-line-park/
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+- title: https://www.visitbusan.net/
+  url: https://www.visitbusan.net/
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
+    https://www.visitbusan.net/.'
 ---
 
 Club D Oasis là một điểm đến khác biệt trong danh sách — không phải bãi biển công cộng hay công viên nước, mà là một khu phức hợp spa, infinity pool và nghỉ dưỡng cao cấp tại Haeundae, Busan. Đây là lựa chọn tránh nóng kiểu "không cần xuống biển nhưng vẫn mát" — lý tưởng cho những ai muốn thư giãn mà không phải chen chúc.
@@ -83,29 +122,3 @@ Thời điểm lý tưởng: từ 14:00–18:00 để tận hưởng pool buổi
 - **Cheongsapo**: Buổi sáng khám phá Cheongsapo — chiều thư giãn tại Club D Oasis. Xem thêm [Cheongsapo Busan](/cheongsapo-busan-bien-blue-line-park/).
 - **Gwangalli Beach**: Tối đến Gwangalli ngắm cầu. Xem thêm [Gwangalli Beach Busan](/gwangalli-busan-bai-bien-cau-gwangandaegyo/).
 - Xem toàn bộ [danh sách điểm tránh nóng](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/).
-
-## Câu hỏi thường gặp
-
-### Club D Oasis có đắt không?
-
-Có, so với bãi biển công cộng. Chi phí phụ thuộc vào gói dịch vụ bạn chọn. Cần kiểm tra giá trên website chính thức.
-
-### Cần đặt trước không?
-
-Có, đặc biệt vào mùa hè. Nên đặt ít nhất 1–2 tuần trước.
-
-### Có phù hợp với trẻ em không?
-
-Club D Oasis hướng đến người lớn và cặp đôi. Có thể có giới hạn tuổi ở khu spa.
-
-## Liên kết bên trong
-
-- [10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/)
-- [Haeundae Beach Busan](/haeundae-busan-bai-bien-mua-he/)
-- [Gwangalli Beach Busan](/gwangalli-busan-bai-bien-cau-gwangandaegyo/)
-- [Cheongsapo Busan làng biển Blue Line Park](/cheongsapo-busan-bien-blue-line-park/)
-
-## Nguồn tham khảo
-
-- Trip.Best — Trip.com: "Top 10 Cool Water Escapes in South Korea" — https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-- Visit Busan: https://www.visitbusan.net/

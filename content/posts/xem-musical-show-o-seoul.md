@@ -1,28 +1,64 @@
 ---
-title: "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc"
-date: 2026-07-08T07:00:00+07:00
-description: "Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, giờ, chọn show nào, cách đặt vé và kết hợp với lịch trình buổi tối."
-categories: ["du-lich"]
-tags: ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "musical", "show Hàn Quốc", "Daehangno", "giải trí Hàn Quốc", "series du lịch"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
+  Quốc'
+date: 2026-07-08 07:00:00+07:00
+description: 'Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, giờ, chọn show
+  nào, cách đặt vé và kết hợp với lịch trình buổi tối.'
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc 2026
+- Seoul
+- musical
+- show Hàn Quốc
+- Daehangno
+- giải trí Hàn Quốc
+- series du lịch
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 image_commercial_use: true
-image_license: "Unsplash License"
-image_owner: "external"
-image_source: "Unsplash"
-image_source_url: "https://unsplash.com/photos/1534274988757-a28bf1a57c17"
-thumbnail: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 draft: false
 ai_summary:
   collapsed: false
-  disclaimer: "Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác"
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
   enabled: true
   items:
-  - "Xem musical ở Daehangno Seoul là hoạt động số 3 trong top 20 hoạt động du lịch Hàn Quốc 2026, lý tưởng cho buổi tối."
-  - "Daehangno có khoảng 150 rạp hát với các show không lời, nhạc kịch và biểu diễn đường phố quanh năm."
-  - "Nên đặt vé trước qua các nền tảng trực tuyến, đặc biệt cuối tuần và mùa cao điểm."
-  title: "Tóm tắt bài viết"
+  - Xem musical ở Daehangno Seoul là hoạt động số 3 trong top 20 hoạt động du lịch
+    Hàn Quốc 2026, lý tưởng cho buổi tối.
+  - Daehangno có khoảng 150 rạp hát với các show không lời, nhạc kịch và biểu diễn
+    đường phố quanh năm.
+  - Nên đặt vé trước qua các nền tảng trực tuyến, đặc biệt cuối tuần và mùa cao điểm.
+  title: Tóm tắt bài viết
+faq:
+- question: Có show nào không cần biết tiếng Hàn không?
+  answer: Có. "Nanta" là show không lời nổi tiếng nhất, kể chuyện bằng âm nhạc và
+    hài kịch. Ngoài ra còn có "Drawing Show", "Fireman" và "Drumcat".
+- question: Giá vé musical Seoul bao nhiêu?
+  answer: Tùy show và vị trí ghế. Bạn cần kiểm tra trên website bán vé chính thức
+    vì giá thay đổi theo từng vở diễn.
+- question: Nên mua vé trước bao lâu?
+  answer: Nên mua 1–2 tuần trước, đặc biệt cuối tuần. Các show nổi tiếng có thể hết
+    vé.
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://english.visitseoul.net/>
+  url: https://english.visitseoul.net/>
+- title: https://english.visitkorea.or.kr/>
+  url: https://english.visitkorea.or.kr/>
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'
 ---
 
 Buổi tối ở Seoul không chỉ có Myeongdong mua sắm hay quán cà phê — một trong những trải nghiệm được xếp hạng cao trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) là xem musical và biểu diễn tại Daehangno, khu vực nghệ thuật biểu diễn lớn nhất Hàn Quốc.
@@ -77,20 +113,3 @@ Giá vé thay đổi tùy vở diễn, vị trí ghế và thời điểm. Bạn
 ## Nên kết hợp với đâu?
 
 Daehangno nằm gần [khu Insa-dong và Bukchon Hanok Village](/thue-hanbok-o-seoul-cung-dien-lang-hanok/). Bạn có thể kết hợp: chiều tham quan Insa-dong → ăn tối Hàn Quốc → tối xem musical. Cũng gần [khu quay phim K-drama](/dia-diem-quay-phim-han-quoc-seoul-kdrama/) và [chợ Gwangjang](/cho-dia-phuong-han-quoc-seoul-busan-jeju/).
-
-## Câu hỏi thường gặp
-
-### Có show nào không cần biết tiếng Hàn không?
-Có. "Nanta" là show không lời nổi tiếng nhất, kể chuyện bằng âm nhạc và hài kịch. Ngoài ra còn có "Drawing Show", "Fireman" và "Drumcat".
-
-### Giá vé musical Seoul bao nhiêu?
-Tùy show và vị trí ghế. Bạn cần kiểm tra trên website bán vé chính thức vì giá thay đổi theo từng vở diễn.
-
-### Nên mua vé trước bao lâu?
-Nên mua 1–2 tuần trước, đặc biệt cuối tuần. Các show nổi tiếng có thể hết vé.
-
-## Nguồn tham khảo
-
-- Trip.Best — Trip.com: "South Korea Best Activities" — <https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
-- Visit Seoul — Daehangno — <https://english.visitseoul.net/>
-- Korean Tourism Organization — Performing Arts — <https://english.visitkorea.or.kr/>

@@ -2,12 +2,36 @@
 """Create a new Hugo blog post with proper front matter and slug."""
 
 import argparse
+import json
 import os
 import re
 import sys
 from datetime import datetime
 
 CONTENT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "posts")
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
+
+
+def load_category_slugs():
+    """Load valid category slugs from data/categories.json."""
+    path = os.path.join(DATA_DIR, "categories.json")
+    if not os.path.exists(path):
+        return set()
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return set()
+    slugs = set()
+    for item in data.get("items", []):
+        slug = item.get("slug", "").strip()
+        if slug:
+            slugs.add(slug)
+    aliases = data.get("aliases", {})
+    for alias, canonical in aliases.items():
+        if canonical:
+            slugs.add(alias.lower())
+    return slugs
 
 
 def slugify(text: str) -> str:
@@ -39,6 +63,16 @@ def main():
 
     if not args.category:
         args.category = ["review"]
+
+    valid_slugs = load_category_slugs()
+    for cat in args.category:
+        if valid_slugs and cat.lower() not in valid_slugs:
+            print(
+                f"ERROR: Category '{cat}' not found in data/categories.json. "
+                f"Valid categories: {sorted(valid_slugs)}",
+                file=sys.stderr,
+            )
+            sys.exit(1)
 
     slug = slugify(args.title)
     date = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+07:00")

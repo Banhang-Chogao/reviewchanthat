@@ -1,28 +1,78 @@
 ---
-title: "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối"
-date: 2026-07-08T07:00:00+07:00
-description: "Gwangalli Beach Busan nổi tiếng với view cầu Gwangan về đêm, quán cà phê biển, drone light show, Millak Raw Fish Street. Hướng dẫn đi metro và lịch trình tối."
-categories: ["du-lich"]
-tags: ["du lịch Hàn Quốc", "Hàn Quốc mùa hè", "Busan", "Gwangalli", "cầu Gwangan", "biển Hàn Quốc", "series du lịch"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1619841795949-208f0c17f5db?w=800&q=80"
+title: 'Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối'
+date: 2026-07-08 07:00:00+07:00
+description: Gwangalli Beach Busan nổi tiếng với view cầu Gwangan về đêm, quán cà
+  phê biển, drone light show, Millak Raw Fish Street. Hướng dẫn đi metro và lịch trình
+  tối.
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc mùa hè
+- Busan
+- Gwangalli
+- cầu Gwangan
+- biển Hàn Quốc
+- series du lịch
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+image: https://images.unsplash.com/photo-1619841795949-208f0c17f5db?w=800&q=80
 image_commercial_use: true
-image_license: "Unsplash License"
-image_owner: "external"
-image_source: "Unsplash"
-image_source_url: "https://unsplash.com/photos/1619841795949-208f0c17f5db"
-thumbnail: "https://images.unsplash.com/photo-1619841795949-208f0c17f5db?w=800&q=80"
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1619841795949-208f0c17f5db
+thumbnail: https://images.unsplash.com/photo-1619841795949-208f0c17f5db?w=800&q=80
 draft: false
 ai_summary:
   collapsed: false
-  disclaimer: "Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác"
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
   enabled: true
   items:
-  - "Gwangalli Beach có hình lưỡi liềm, nổi bật với view cầu Gwangan về đêm — điểm đến lý tưởng cho buổi tối mùa hè."
-  - "Bãi biển dài 1,4 km, miễn phí vào cửa, gần metro Gwangan Station."
-  - "Không nên chỉ đến ban ngày — Gwangalli lên đẹp nhất từ 18:00 với đèn cầu, drone show và quán bar biển."
-  title: "Tóm tắt bài viết"
+  - Gwangalli Beach có hình lưỡi liềm, nổi bật với view cầu Gwangan về đêm — điểm
+    đến lý tưởng cho buổi tối mùa hè.
+  - Bãi biển dài 1,4 km, miễn phí vào cửa, gần metro Gwangan Station.
+  - Không nên chỉ đến ban ngày — Gwangalli lên đẹp nhất từ 18:00 với đèn cầu, drone
+    show và quán bar biển.
+  title: Tóm tắt bài viết
+faq:
+- question: Gwangalli có miễn phí không?
+  answer: Có, vào cửa bãi biển miễn phí. Chỉ trả tiền khi ăn uống, thuê đồ thể thao
+    nước.
+- question: Gwangalli hay Haeundae đẹp hơn?
+  answer: 'Tùy sở thích: Haeundae rộng, nhộn nhịp, hợp ban ngày. Gwangalli lãng mạn,
+    hợp chiều tối và ngắm cầu.'
+- question: Có nên ở khách sạn gần Gwangalli không?
+  answer: Có nhiều khách sạn và capsule hotel view biển dọc bờ Gwangalli, giá thường
+    thấp hơn Haeundae cùng phân khúc.
+- question: Drone light show diễn ra mấy giờ?
+  answer: Thường 20:00 và 22:00 thứ 7. Cần kiểm tra lịch thực tế trước khi đi vì lịch
+    có thể thay đổi theo mùa.
+internal_links:
+- title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
+  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
+- title: Haeundae Beach Busan
+  url: /haeundae-busan-bai-bien-mua-he/
+- title: 'Cheongsapo Busan: biển trong và Blue Line Park'
+  url: /cheongsapo-busan-bien-blue-line-park/
+- title: 'Club D Oasis Busan: infinity pool spa'
+  url: /club-d-oasis-busan-infinity-pool-spa/
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+- title: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en
+  url: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en
+- title: https://www.busan.go.kr/eng/beaches/1326145
+  url: https://www.busan.go.kr/eng/beaches/1326145
+- title: https://www.koreatodo.com/gwangalli-beach
+  url: https://www.koreatodo.com/gwangalli-beach
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
+    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en,
+    https://www.busan.go.kr/eng/beaches/1326145, https://www.koreatodo.com/gwangalli-beach.'
 ---
 
 Gwangalli Beach là đại diện thứ hai của Busan trong top 10. Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan (Gwangandaegyo) bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm, tạo nên một khung cảnh mà bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.
@@ -83,35 +133,3 @@ Nếu bạn muốn xem drone show, cần kiểm tra lịch cụ thể trên webs
 - **Cheongsapo**: Ghé Cheongsapo ban ngày, tối trở về Gwangalli. Xem thêm [Cheongsapo Busan](/cheongsapo-busan-bien-blue-line-park/).
 - **Club D Oasis**: Spa và infinity pool nếu bạn muốn thư giãn cuối ngày. Xem thêm [Club D Oasis Busan](/club-d-oasis-busan-infinity-pool-spa/).
 - Xem toàn bộ [danh sách điểm tránh nóng ở Hàn Quốc](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/).
-
-## Câu hỏi thường gặp
-
-### Gwangalli có miễn phí không?
-
-Có, vào cửa bãi biển miễn phí. Chỉ trả tiền khi ăn uống, thuê đồ thể thao nước.
-
-### Gwangalli hay Haeundae đẹp hơn?
-
-Tùy sở thích: Haeundae rộng, nhộn nhịp, hợp ban ngày. Gwangalli lãng mạn, hợp chiều tối và ngắm cầu.
-
-### Có nên ở khách sạn gần Gwangalli không?
-
-Có nhiều khách sạn và capsule hotel view biển dọc bờ Gwangalli, giá thường thấp hơn Haeundae cùng phân khúc.
-
-### Drone light show diễn ra mấy giờ?
-
-Thường 20:00 và 22:00 thứ 7. Cần kiểm tra lịch thực tế trước khi đi vì lịch có thể thay đổi theo mùa.
-
-## Liên kết bên trong
-
-- [10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/)
-- [Haeundae Beach Busan](/haeundae-busan-bai-bien-mua-he/)
-- [Cheongsapo Busan: biển trong và Blue Line Park](/cheongsapo-busan-bien-blue-line-park/)
-- [Club D Oasis Busan: infinity pool spa](/club-d-oasis-busan-infinity-pool-spa/)
-
-## Nguồn tham khảo
-
-- Trip.Best — Trip.com: "Top 10 Cool Water Escapes in South Korea" — https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-- Visit Busan — Gwangalli Beach: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en
-- Busan Metropolitan City — Gwangalli Beach: https://www.busan.go.kr/eng/beaches/1326145
-- KoreaToDo — Gwangalli Beach Guide: https://www.koreatodo.com/gwangalli-beach

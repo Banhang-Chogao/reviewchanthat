@@ -18,6 +18,14 @@ except ImportError:
     sys.exit(1)
 
 POSTS_GLOB = "content/posts/**/*.md"
+
+HARDCODED_SECTION_PATTERNS = [
+    r"^##\s+Câu hỏi thường gặp",
+    r"^##\s+FAQ$",
+    r"^##\s+Liên kết bên trong\s*$",
+    r"^##\s+Nguồn tham khảo\s*$",
+]
+
 REQUIRED_FIELDS = {
     "title": "missing title",
     "image": "missing main image",
@@ -79,6 +87,19 @@ def main():
             elif field == "image_commercial_use":
                 if val is not True:
                     errors.append(f"  [FAIL] {label}: image_commercial_use must be true")
+
+        # Check body for hardcoded repeated sections
+        body = post.content
+        if body:
+            body_lines = body.split("\n")
+            for i, line in enumerate(body_lines):
+                stripped = line.strip()
+                for pattern in HARDCODED_SECTION_PATTERNS:
+                    if re.match(pattern, stripped):
+                        warnings.append(
+                            f"  [WARN] {label}: hardcoded section at body line {i+1}: '{stripped}'"
+                            f" — must use front matter instead"
+                        )
 
         # Check no field starts with /images/ (must use relative images/posts/)
         image = meta.get("image", "")

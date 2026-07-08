@@ -1,28 +1,69 @@
 ---
-title: "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền"
-date: 2026-07-08T07:00:00+07:00
-description: "Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok, cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp."
-categories: ["du-lich"]
-tags: ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "Hanbok", "trải nghiệm Hàn Quốc", "cung điện Seoul", "chụp ảnh Hàn Quốc", "series du lịch"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
+date: 2026-07-08 07:00:00+07:00
+description: 'Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok,
+  cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp.'
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc 2026
+- Seoul
+- Hanbok
+- trải nghiệm Hàn Quốc
+- cung điện Seoul
+- chụp ảnh Hàn Quốc
+- series du lịch
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 image_commercial_use: true
-image_license: "Unsplash License"
-image_owner: "external"
-image_source: "Unsplash"
-image_source_url: "https://unsplash.com/photos/1534274988757-a28bf1a57c17"
-thumbnail: "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80"
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
 draft: false
 ai_summary:
   collapsed: false
-  disclaimer: "Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác"
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
   enabled: true
   items:
-  - "Thuê Hanbok là hoạt động số 1 trong top 20 hoạt động du lịch Hàn Quốc 2026, phù hợp với lần đầu đi Seoul, cặp đôi và nhóm bạn."
-  - "Bốn cung điện chính (Gyeongbokgung, Changdeokgung, Deoksugung, Changgyeonggung) miễn phí vào cửa khi mặc Hanbok."
-  - "Cửa hàng thuê tập trung quanh Gyeongbokgung, gói 2-4 giờ bao gồm Hanbok, túi và phụ kiện."
-  title: "Tóm tắt bài viết"
+  - Thuê Hanbok là hoạt động số 1 trong top 20 hoạt động du lịch Hàn Quốc 2026, phù
+    hợp với lần đầu đi Seoul, cặp đôi và nhóm bạn.
+  - Bốn cung điện chính (Gyeongbokgung, Changdeokgung, Deoksugung, Changgyeonggung)
+    miễn phí vào cửa khi mặc Hanbok.
+  - Cửa hàng thuê tập trung quanh Gyeongbokgung, gói 2-4 giờ bao gồm Hanbok, túi và
+    phụ kiện.
+  title: Tóm tắt bài viết
+faq:
+- question: Có cần đặt trước khi thuê Hanbok không?
+  answer: Cuối tuần và mùa cao điểm (tháng 4–5, tháng 10–11) nên đặt trước. Ngày thường
+    có thể đến trực tiếp.
+- question: Nên chọn Hanbok kiểu nào?
+  answer: 'Có hai loại chính: Hanbok truyền thống (vải dày, form rộng) và Hanbok cải
+    tiến (vải nhẹ hơn, ôm hơn, dễ mặc). Người Việt thường chọn Hanbok cải tiến vì
+    thoải mái hơn khi đi bộ.'
+- question: Có thể mặc Hanbok đi những đâu khác ngoài cung điện?
+  answer: Bukchon Hanok Village, Samcheong-dong, đường ven tường thành Seoul và khu
+    Insa-dong. Tuy nhiên, việc mặc Hanbok không miễn phí vé vào các địa điểm này —
+    chỉ miễn tại 4 cung điện chính.
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616>
+  url: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616>
+- title: https://www.royalpalace.go.kr/>
+  url: https://www.royalpalace.go.kr/>
+- title: https://english.visitseoul.net/>
+  url: https://english.visitseoul.net/>
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616>, https://www.royalpalace.go.kr/>,
+    https://english.visitseoul.net/>.'
 ---
 
 Thuê Hanbok dạo cung điện là hoạt động được xếp hạng số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) của Trip.Best — và không khó hiểu khi đây là trải nghiệm được nhiều du khách Việt Nam yêu thích nhất khi đến Seoul.
@@ -74,21 +115,3 @@ Nếu bạn muốn đi thêm Changdeokgung hoặc Bukchon Hanok Village, hãy th
 ## Nên kết hợp với đâu?
 
 Sau khi trả Hanbok, bạn có thể đi bộ lên Samcheong-dong để ăn trưa và uống cà phê, hoặc sang [Bukchon Hanok Village](/xem-musical-show-o-seoul/) — khu làng Hanok giữa lòng Seoul. Buổi chiều có thể ghé [chợ Gwangjang](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) để ăn bánh xèo mung bean và yukhoe. Nếu bạn là fan K-drama, nhiều [địa điểm quay phim](/dia-diem-quay-phim-han-quoc-seoul-kdrama/) nằm cách đó không xa.
-
-## Câu hỏi thường gặp
-
-### Có cần đặt trước khi thuê Hanbok không?
-Cuối tuần và mùa cao điểm (tháng 4–5, tháng 10–11) nên đặt trước. Ngày thường có thể đến trực tiếp.
-
-### Nên chọn Hanbok kiểu nào?
-Có hai loại chính: Hanbok truyền thống (vải dày, form rộng) và Hanbok cải tiến (vải nhẹ hơn, ôm hơn, dễ mặc). Người Việt thường chọn Hanbok cải tiến vì thoải mái hơn khi đi bộ.
-
-### Có thể mặc Hanbok đi những đâu khác ngoài cung điện?
-Bukchon Hanok Village, Samcheong-dong, đường ven tường thành Seoul và khu Insa-dong. Tuy nhiên, việc mặc Hanbok không miễn phí vé vào các địa điểm này — chỉ miễn tại 4 cung điện chính.
-
-## Nguồn tham khảo
-
-- Trip.Best — Trip.com: "South Korea Best Activities" — <https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
-- Visit Korea — Hanbok Culture Experience — <https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616>
-- Gyeongbokgung Official — <https://www.royalpalace.go.kr/>
-- Visit Seoul — Hanbok Rental — <https://english.visitseoul.net/>

@@ -1,28 +1,78 @@
 ---
-title: "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun"
-date: 2026-07-08T07:00:00+07:00
-description: "Shinhwa Theme Park Jeju thuộc tổ hợp Jeju Shinhwa World, có công viên nước với water slides, wave pool, khu vui chơi Larva cho trẻ em. Hướng dẫn đi và vé."
-categories: ["du-lich"]
-tags: ["du lịch Hàn Quốc", "Hàn Quốc mùa hè", "Jeju", "Shinhwa Theme Park", "công viên nước", "Shinhwa World", "series du lịch"]
-author: "Minh Hoàng"
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-image: "https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80"
+title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun'
+date: 2026-07-08 07:00:00+07:00
+description: Shinhwa Theme Park Jeju thuộc tổ hợp Jeju Shinhwa World, có công viên
+  nước với water slides, wave pool, khu vui chơi Larva cho trẻ em. Hướng dẫn đi và
+  vé.
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc mùa hè
+- Jeju
+- Shinhwa Theme Park
+- công viên nước
+- Shinhwa World
+- series du lịch
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+image: https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80
 image_commercial_use: true
-image_license: "Unsplash License"
-image_owner: "external"
-image_source: "Unsplash"
-image_source_url: "https://unsplash.com/photos/1570488543964-c1d413605328"
-thumbnail: "https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80"
+image_license: Unsplash License
+image_owner: external
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1570488543964-c1d413605328
+thumbnail: https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80
 draft: false
 ai_summary:
   collapsed: false
-  disclaimer: "Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính xác"
+  disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
+    xác
   enabled: true
   items:
-  - "Shinhwa Theme Park thuộc tổ hợp Jeju Shinhwa World, có công viên nước và theme park với nhân vật Larva."
-  - "Shinhwa Water Park là công viên nước lớn nhất Jeju với 18 hồ bơi, wave pool, double water slides."
-  - "Kết hợp với Jungmun Beach, Udo trong hành trình Jeju mùa hè."
-  title: "Tóm tắt bài viết"
+  - Shinhwa Theme Park thuộc tổ hợp Jeju Shinhwa World, có công viên nước và theme
+    park với nhân vật Larva.
+  - Shinhwa Water Park là công viên nước lớn nhất Jeju với 18 hồ bơi, wave pool, double
+    water slides.
+  - Kết hợp với Jungmun Beach, Udo trong hành trình Jeju mùa hè.
+  title: Tóm tắt bài viết
+faq:
+- question: Giá vé Shinhwa Theme Park thế nào?
+  answer: Vé theme park khoảng 40.000 KRW/người lớn (giá niêm yết). Vé water park
+    tính riêng. Có thể mua vé online trước để được giảm giá.
+- question: Shinhwa Water Park có mở cửa mùa đông không?
+  answer: Thường chỉ mở từ tháng 6 đến tháng 9. Mùa đông chỉ có theme park và spa.
+    Kiểm tra website chính thức trước khi đi.
+- question: Có cần cả ngày không?
+  answer: Có, nếu bạn muốn chơi cả theme park và water park. Nếu chỉ chơi water park,
+    nửa ngày cũng đủ.
+- question: Shinhwa World có phù hợp trẻ em không?
+  answer: Rất phù hợp. Khu Larva được thiết kế riêng cho trẻ em, các trò chơi nhẹ
+    nhàng và nhiều màu sắc.
+internal_links:
+- title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
+  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
+- title: 'Jungmun Beach Jeju: bãi biển hoạt động nước'
+  url: /jungmun-beach-jeju-hoat-dong-nuoc/
+- title: 'Udo Jeju: đảo nhỏ, biển đá đen'
+  url: /udo-jeju-dao-bien-den-hai-dang-trang/
+- title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul'
+  url: /caribbean-bay-yongin-cong-vien-nuoc/
+external_links:
+- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+- title: https://www.shinhwaworld.com/
+  url: https://www.shinhwaworld.com/
+- title: https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771
+  url: https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771
+- title: https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409
+  url: https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
+    https://www.shinhwaworld.com/, https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771,
+    https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409.'
 ---
 
 Shinhwa Theme Park nằm trong tổ hợp Jeju Shinhwa World rộng lớn ở Andeok-myeon, Seogwipo, phía nam Jeju. Đây không chỉ là theme park với các trò chơi cảm giác mạnh dành cho trẻ em và người lớn, mà còn có khu Shinhwa Water Park riêng — lý tưởng để tránh nóng mùa hè.
@@ -82,35 +132,3 @@ Nên đi ngày thường để tránh đông. Nếu đi cuối tuần, đến tr
 - **Udo**: Nếu bạn có 3 ngày Jeju, Udo nên đi vào ngày riêng. Xem thêm [Udo Jeju](/udo-jeju-dao-bien-den-hai-dang-trang/).
 - **Caribbean Bay**: Nếu bạn đang so sánh hai công viên nước giữa Jeju và Yongin. Xem thêm [Caribbean Bay Yongin](/caribbean-bay-yongin-cong-vien-nuoc/).
 - Xem toàn bộ [danh sách điểm tránh nóng](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/).
-
-## Câu hỏi thường gặp
-
-### Giá vé Shinhwa Theme Park thế nào?
-
-Vé theme park khoảng 40.000 KRW/người lớn (giá niêm yết). Vé water park tính riêng. Có thể mua vé online trước để được giảm giá.
-
-### Shinhwa Water Park có mở cửa mùa đông không?
-
-Thường chỉ mở từ tháng 6 đến tháng 9. Mùa đông chỉ có theme park và spa. Kiểm tra website chính thức trước khi đi.
-
-### Có cần cả ngày không?
-
-Có, nếu bạn muốn chơi cả theme park và water park. Nếu chỉ chơi water park, nửa ngày cũng đủ.
-
-### Shinhwa World có phù hợp trẻ em không?
-
-Rất phù hợp. Khu Larva được thiết kế riêng cho trẻ em, các trò chơi nhẹ nhàng và nhiều màu sắc.
-
-## Liên kết bên trong
-
-- [10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/)
-- [Jungmun Beach Jeju: bãi biển hoạt động nước](/jungmun-beach-jeju-hoat-dong-nuoc/)
-- [Udo Jeju: đảo nhỏ, biển đá đen](/udo-jeju-dao-bien-den-hai-dang-trang/)
-- [Caribbean Bay Yongin: công viên nước lớn gần Seoul](/caribbean-bay-yongin-cong-vien-nuoc/)
-
-## Nguồn tham khảo
-
-- Trip.Best — Trip.com: "Top 10 Cool Water Escapes in South Korea" — https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-- Shinhwa World Official: https://www.shinhwaworld.com/
-- Visit Jeju — Shinhwa Theme Park: https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771
-- Visit Jeju — Shinhwa Water Park: https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409
