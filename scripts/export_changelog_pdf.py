@@ -6,6 +6,7 @@ import sys
 import os
 import json
 import re
+import glob
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 
@@ -336,6 +337,10 @@ def main():
     # Save marker
     save_export_hash(head_hash)
 
+    # Generate MD report
+    md_path = os.path.join(CHANGELOG_DIR, f"seomoney-changelog-v{version}.md")
+    _generate_md_report(commits, grouped, export_date, head_short, branch, range_desc, base_url, md_path, filepath)
+
     # Output summary
     total_cats = sum(1 for v in grouped.values() if v)
     print(f"=== cl0: Changelog Export ===")
@@ -347,6 +352,127 @@ def main():
         if grouped[cat]:
             print(f"  {cat}: {len(grouped[cat])}")
     print(f"PDF stored in repo but excluded from public blog output.")
+
+    # Print wireframe MD report to terminal
+    _print_wireframe_report(commits, grouped, export_date, head_short, branch, range_desc, base_url, filepath)
+
+
+def _generate_md_report(commits, grouped, export_date, head_short, branch, range_desc, base_url, md_path, pdf_path):
+    """Generate a visual wireframe-style MD report saved to disk."""
+    lines = []
+    sep = "=" * 72
+    lines.append(f"# SEOMONEY Changelog Report")
+    lines.append(f"")
+    lines.append(f"| Field | Value |")
+    lines.append(f"|-------|-------|")
+    lines.append(f"| Export date | {export_date} |")
+    lines.append(f"| Branch | {branch} |")
+    lines.append(f"| HEAD | {head_short} |")
+    lines.append(f"| Range | {range_desc} |")
+    lines.append(f"| Total changes | {len(commits)} |")
+    lines.append(f"| PDF | [{os.path.basename(pdf_path)}]({pdf_path}) |")
+    lines.append(f"")
+    lines.append(f"---")
+    lines.append(f"")
+    lines.append(f"## Summary")
+    lines.append(f"")
+    lines.append(f"| Category | Count |")
+    lines.append(f"|----------|-------|")
+    for cat in sorted(grouped.keys()):
+        count = len(grouped[cat])
+        if count > 0:
+            lines.append(f"| {cat} | {count} |")
+    lines.append(f"")
+    lines.append(f"---")
+    lines.append(f"")
+    lines.append(f"## Detailed Changes")
+    lines.append(f"")
+    for cat in sorted(grouped.keys()):
+        items = grouped.get(cat, [])
+        if not items:
+            continue
+        lines.append(f"### {cat}")
+        lines.append(f"")
+    lines.append(f"| # | Hash | Date | Message | Files")
+    lines.append(f"|---|------|------|---------|-------")
+    for idx, c in enumerate(items, 1):
+        hash_short = c["hash"][:7]
+        msg = c["message"]
+        files_s = run_git(["diff-tree", "--no-commit-id", "--name-only", "-r", c["hash"]])
+        file_list = files_s.replace("\n", ", ") if files_s else "-"
+        lines.append(f"| {idx} | `{hash_short}` | {c['date']} | {msg} | {file_list}")
+        lines.append(f"")
+
+    os.makedirs(os.path.dirname(md_path), exist_ok=True)
+    with open(md_path, "w") as f:
+        f.write("\n".join(lines))
+    print(f"MD report: {md_path}")
+
+
+def _print_wireframe_report(commits, grouped, export_date, head_short, branch, range_desc, base_url, pdf_path=None):
+    """Print a wireframe/excel-style table report to terminal."""
+    W = 72
+    def T(text=""): return str(text)[:W-4] if len(str(text)) > W-4 else str(text)
+
+    # Header
+    print(f"┌{'─' * (W-2)}┐")
+    print(f"│{' SEOMONEY Changelog Report ':-^{W-4}}│")
+    print(f"├{'─' * (W-2)}┤")
+    print(f"│ Export: {T(export_date):<{W-12}}│")
+    print(f"│ Branch: {T(branch):<{W-12}}│")
+    print(f"│ HEAD:   {T(head_short):<{W-12}}│")
+    print(f"│ Range:  {T(range_desc):<{W-12}}│")
+    print(f"│ Total:  {len(commits)} commit(s) {'':<{W-21}}│")
+    print(f"└{'─' * (W-2)}┘")
+    print()
+
+    # Summary table
+    print(f"┌{'─' * (W-2)}┐")
+    print(f"│{' SUMMARY ':-^{W-4}}│")
+    print(f"├{'─' * (W-2)}┤")
+    print(f"│ {'Category':<{W//2-3}} │ {'Count':<5} │")
+    print(f"├{'─' * (W-2)}┤")
+    for cat in sorted(grouped.keys()):
+        count = len(grouped[cat])
+        if count > 0:
+            print(f"│ {T(cat):<{W//2-3}} │ {count:<5} │")
+    print(f"└{'─' * (W-2)}┘")
+    print()
+
+    # Detailed changes
+    print(f"┌{'─' * (W-2)}┐")
+    print(f"│{' DETAILED CHANGES ':-^{W-4}}│")
+    print(f"└{'─' * (W-2)}┘")
+    print()
+
+    for cat in sorted(grouped.keys()):
+        items = grouped.get(cat, [])
+        if not items:
+            continue
+        print(f"┌{'─' * (W-2)}┐")
+        print(f"│ {T(cat):^{W-4}} │")
+        print(f"├{'─' * (W-2)}┤")
+        print(f"│ {'#':<3} {'Date':<12} {'Message':<{W-22}} │")
+        print(f"├{'─' * (W-2)}┤")
+        for idx, c in enumerate(items, 1):
+            msg = c["message"]
+            files_str = run_git(["diff-tree", "--no-commit-id", "--name-only", "-r", c["hash"]])
+            fcount = len(files_str.strip().split("\n")) if files_str.strip() else 0
+            line = f"{idx:<3} {c['date']:<12} {T(msg):<{W-22}}"
+            print(f"│ {line} │")
+            if files_str.strip():
+                flist = files_str.strip().split("\n")
+                for fn in flist[:3]:
+                    print(f"│ {'':3} {'':12} {T('  '+fn):<{W-22}} │")
+                if len(flist) > 3:
+                    print(f"│ {'':3} {'':12} {T(f'  ... +{len(flist)-3} more'):<{W-22}} │")
+        print(f"└{'─' * (W-2)}┘")
+        print()
+
+    pdf_name = os.path.basename(pdf_path) if pdf_path else "N/A"
+    print(f"┌{'─' * (W-2)}┐")
+    print(f"│ PDF: {T(pdf_name):<{W-8}} │")
+    print(f"└{'─' * (W-2)}┘")
 
 
 if __name__ == "__main__":
