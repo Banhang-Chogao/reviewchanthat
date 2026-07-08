@@ -15,6 +15,14 @@
     {{- range $authors -}}
       {{- $stats := partial "author-reputation-compute.html" (dict "author" .) -}}
       {{- $image := .image | default (printf "%simages/authors/default.svg" (relURL "")) -}}
+      {{- $totalBadges := len $stats.badgeStates -}}
+      {{- $unlockedBadges := len (where $stats.badgeStates "unlocked" true) -}}
+      {{- $maxLevel := 0 -}}
+      {{- range $rep.tiers -}}
+        {{- if gt .level $maxLevel -}}{{- $maxLevel = .level -}}{{- end -}}
+      {{- end -}}
+      {{- $currentLevel := $stats.currentTier.level -}}
+      {{- $badgeTagline := partial "author-badge-tagline.html" (dict "currentLevel" $currentLevel "maxLevel" $maxLevel "unlockedBadges" $unlockedBadges "totalBadges" $totalBadges) -}}
       <article class="reputation-card reputation-reveal">
         <div class="reputation-card__hero">
           <div class="reputation-card__avatar-wrap">
@@ -56,11 +64,12 @@
           </div>
         </div>
         {{- else -}}
-        <p class="reputation-card__maxed">Đã đạt cấp tối đa — huyền thoại đang ngồi đây.</p>
+        <p class="reputation-card__maxed">{{ $badgeTagline }}</p>
         {{- end -}}
 
         <div class="reputation-card__collection">
           <h4 class="reputation-card__collection-title">Badge Collection</h4>
+          <p class="reputation-card__collection-progress">Đã mở khóa {{ $unlockedBadges }}/{{ $totalBadges }} badge</p>
           <div class="badge-collection">
             {{- range $stats.badgeStates -}}
               {{- $hint := "" -}}

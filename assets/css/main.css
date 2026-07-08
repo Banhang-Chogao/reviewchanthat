@@ -503,6 +503,7 @@ img,video,svg{max-width:100%;height:auto;display:block}
 .reputation-card__progress-fill{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#38bdf8,#0ea5e9);transition:width .6s ease}
 .reputation-card__maxed{font-size:.82rem;color:#0369a1;background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:10px 12px}
 .reputation-card__collection-title{font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:8px}
+.reputation-card__collection-progress{font-size:.78rem;color:var(--muted);margin:0 0 10px}
 .badge-collection{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:10px}
 .badge-medal{position:relative;display:grid;justify-items:center;gap:6px;padding:8px 6px;border-radius:12px;border:1px solid transparent;cursor:default;outline:none}
 .badge-medal--unlocked{background:#fff;border-color:#e8edf5;transition:transform .2s ease,box-shadow .2s ease}
