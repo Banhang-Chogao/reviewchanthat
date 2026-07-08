@@ -21,11 +21,14 @@
     {{- block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ if $isBlogPost }}{{ partial "scroll-jump.html" . }}{{ end }}
   {{ $siteJs := resources.Get "js/site.js" | minify | fingerprint }}
   <script src="{{ $siteJs.RelPermalink }}" integrity="{{ $siteJs.Data.Integrity }}" defer></script>
   {{ $searchJs := resources.Get "js/search.js" | minify | fingerprint }}
   <script src="{{ $searchJs.RelPermalink }}" integrity="{{ $searchJs.Data.Integrity }}" defer></script>
   {{ if $isBlogPost }}
+  {{ $scrollJs := resources.Get "js/scroll-jump.js" | minify | fingerprint }}
+  <script src="{{ $scrollJs.RelPermalink }}" integrity="{{ $scrollJs.Data.Integrity }}" defer></script>
   {{ $printJs := resources.Get "js/print-watermark.js" | minify | fingerprint }}
   <script src="{{ $printJs.RelPermalink }}" integrity="{{ $printJs.Data.Integrity }}" defer></script>
   {{ end }}
