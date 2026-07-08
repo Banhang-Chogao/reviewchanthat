@@ -1,31 +1,68 @@
-{{ $currentSlugRaw := .Params.series }}
-{{ $currentSlug := printf "%v" $currentSlugRaw }}
-{{ $currentSlug = replace $currentSlug "[" "" }}
-{{ $currentSlug = replace $currentSlug "]" "" }}
+{{ $currentSlug := "" }}
+{{ with .Params.series }}
+  {{ if reflect.IsSlice . }}
+    {{ with index . 0 }}
+      {{ $currentSlug = printf "%v" . }}
+    {{ end }}
+  {{ else }}
+    {{ $currentSlug = printf "%v" . }}
+  {{ end }}
+{{ end }}
 
 {{ $seriesPages := slice }}
 {{ range site.RegularPages }}
-  {{ $pageSlug := printf "%v" .Params.series }}
-  {{ $pageSlug = replace $pageSlug "[" "" }}
-  {{ $pageSlug = replace $pageSlug "]" "" }}
-  {{ if eq $pageSlug $currentSlug }}
+  {{ $pageSlugs := slice }}
+  {{ with .Params.series }}
+    {{ if reflect.IsSlice . }}
+      {{ range . }}
+        {{ $pageSlugs = $pageSlugs | append (printf "%v" .) }}
+      {{ end }}
+    {{ else }}
+      {{ $pageSlugs = $pageSlugs | append (printf "%v" .) }}
+    {{ end }}
+  {{ end }}
+  {{ if and $currentSlug (in $pageSlugs $currentSlug) }}
     {{ $seriesPages = $seriesPages | append . }}
   {{ end }}
 {{ end }}
 
 {{ if gt (len $seriesPages) 1 }}
-  {{ $sorted := sort $seriesPages ".Params.series_order" "asc" }}
-  {{ $total := len $sorted }}
+  {{ $orderedPages := slice }}
+  {{ $datedPages := slice }}
+  {{ range $seriesPages }}
+    {{ if isset .Params "series_order" }}
+      {{ $orderedPages = $orderedPages | append . }}
+    {{ else }}
+      {{ $datedPages = $datedPages | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ $seriesPosts := slice }}
+  {{ range sort $orderedPages ".Params.series_order" "asc" }}
+    {{ $seriesPosts = $seriesPosts | append . }}
+  {{ end }}
+  {{ range sort $datedPages "Date" "asc" }}
+    {{ $seriesPosts = $seriesPosts | append . }}
+  {{ end }}
+
+  {{ $total := len $seriesPosts }}
   {{ $currentIdx := -1 }}
-  {{ range $i, $p := $sorted }}
+  {{ range $i, $p := $seriesPosts }}
     {{ if eq $p.RelPermalink $.RelPermalink }}
       {{ $currentIdx = $i }}
     {{ end }}
   {{ end }}
 
+  {{ if ge $currentIdx 0 }}
   {{ $seriesLabel := $.Params.series_title }}
-  {{ $prevPost := index $sorted (sub $currentIdx 1) }}
-  {{ $nextPost := index $sorted (add $currentIdx 1) }}
+  {{ $prevPost := false }}
+  {{ $nextPost := false }}
+  {{ if gt $currentIdx 0 }}
+    {{ $prevPost = index $seriesPosts (sub $currentIdx 1) }}
+  {{ end }}
+  {{ if lt (add $currentIdx 1) $total }}
+    {{ $nextPost = index $seriesPosts (add $currentIdx 1) }}
+  {{ end }}
 
   {{ $tx := index $.Site.Taxonomies.series $currentSlug }}
   {{ $seriesURL := "" }}
@@ -52,9 +89,12 @@
   </div>
 
   <ol class="series-box__list">
-    {{ range $i, $p := $sorted }}
-      <li class="series-box__item{{ if eq $p.RelPermalink $.RelPermalink }} is-current{{ end }}">
-        {{ if eq $p.RelPermalink $.RelPermalink }}
+    {{ range $i, $p := $seriesPosts }}
+      {{ $isCurrent := eq $p.RelPermalink $.RelPermalink }}
+      {{ $isPrev := eq $i (sub $currentIdx 1) }}
+      {{ $isNext := eq $i (add $currentIdx 1) }}
+      <li class="series-box__item{{ if $isCurrent }} is-current{{ else if $isPrev }} is-past{{ else if $isNext }} is-next{{ end }}">
+        {{ if $isCurrent }}
           <div class="series-box__link" aria-current="page">
             <span class="series-box__number">{{ add $i 1 }}</span>
             <span class="series-box__item-title">{{ $p.Title }}</span>
@@ -64,6 +104,11 @@
           <a class="series-box__link" href="{{ $p.RelPermalink }}">
             <span class="series-box__number">{{ add $i 1 }}</span>
             <span class="series-box__item-title">{{ $p.Title }}</span>
+            {{ if $isPrev }}
+              <span class="series-box__badge series-box__badge--past">Đã qua</span>
+            {{ else if $isNext }}
+              <span class="series-box__badge series-box__badge--next">Tiếp theo</span>
+            {{ end }}
           </a>
         {{ end }}
       </li>
@@ -87,4 +132,5 @@
   </div>
   {{ end }}
 </section>
+  {{ end }}
 {{ end }}
