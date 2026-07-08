@@ -1889,6 +1889,22 @@
       "output_path": "static/images/posts/chi-phi-di-han-thang-10-tu-tuc.webp",
       "watermark_text": "Source: Pexels",
       "provider_used": "manual-curate"
+    },
+    {
+      "slug": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
+      "title": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
+      "image_id": "img-fed3d61c",
+      "source_platform": "Pexels",
+      "source_url": "https://www.pexels.com/photo/pexels-photo-32077765/",
+      "direct_url": "https://images.pexels.com/photos/32077765/pexels-photo-32077765.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "creator": "",
+      "creator_url": "",
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/lich-trinh-di-han-thang-10-7-ngay-6-dem.jpg",
+      "output_path": "static/images/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.webp",
+      "watermark_text": "Source: Pexels",
+      "provider_used": "manual-curate"
     }
   ]
 }

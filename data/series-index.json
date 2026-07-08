@@ -128,7 +128,7 @@
       "id": "di-han-thang-10",
       "title": "Đi Hàn tháng 10",
       "url": "series/di-han-thang-10/",
-      "count": 11,
+      "count": 12,
       "posts": [
         {
           "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
@@ -191,9 +191,15 @@
           "date": "2026-07-08"
         },
         {
+          "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
+          "url": "lich-trinh-di-han-thang-10-7-ngay-6-dem/",
+          "order": 11,
+          "date": "2026-07-08"
+        },
+        {
           "title": "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
           "url": "chi-phi-di-han-thang-10-tu-tuc/",
-          "order": 11,
+          "order": 12,
           "date": "2026-07-08"
         }
       ]

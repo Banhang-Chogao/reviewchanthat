@@ -196,6 +196,8 @@ Chi tiết từng giờ: [Lịch trình 5N4Đ](/posts/lich-trinh-di-han-thang-10
 
 ### 7 ngày 6 đêm — thêm Seoraksan hoặc Busan
 
+Chi tiết từng ngày: [Lịch trình 7N6Đ](/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem/).
+
 | Ngày | Hoạt động |
 |------|-----------|
 | 1–3 | Seoul (như 5N4Đ) |
@@ -260,7 +262,8 @@ Tổng **5N4Đ** thường **18–30 triệu/người** tùy mức tiêu. Chi ti
 | 8 | Busan | [Busan tháng 10](/posts/busan-thang-10-nen-di-dau/) |
 | 9 | Jeju | [Jeju tháng 10](/posts/jeju-thang-10-co-dep-khong/) |
 | 10 | 5N4Đ | [Lịch trình 5N4Đ](/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem/) |
-| 11 | Chi phí | [Chi phí tự túc](/posts/chi-phi-di-han-thang-10-tu-tuc/) |
+| 11 | 7N6Đ | [Lịch trình 7N6Đ](/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem/) |
+| 12 | Chi phí | [Chi phí tự túc](/posts/chi-phi-di-han-thang-10-tu-tuc/) |
 
 ## Kết luận
 

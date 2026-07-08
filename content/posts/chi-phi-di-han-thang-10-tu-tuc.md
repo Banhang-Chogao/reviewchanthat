@@ -57,7 +57,7 @@ internal_links:
 - ref: posts/jeju-thang-10-co-dep-khong.md
   title: Jeju tháng 10
 series: di-han-thang-10
-series_order: 11
+series_order: 12
 series_title: Đi Hàn tháng 10
 slug: chi-phi-di-han-thang-10-tu-tuc
 tags:

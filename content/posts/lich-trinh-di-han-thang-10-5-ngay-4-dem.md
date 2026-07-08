@@ -201,9 +201,9 @@ Mức giá **có thể thay đổi** theo thời điểm đặt và tỷ giá. C
 
 Đổi ngày 3 (Nami) sang thứ Hai/Tư — tránh Chủ nhật đông. Dành Chủ nhật cho cung điện (vào sớm) hoặc Haneul Park.
 
-### Nếu muốn thêm Busan
+### Nếu muốn thêm Busan hoặc Seoraksan đầy đủ
 
-Rút ngắn Seoul còn 3 ngày, thêm 2 ngày Busan — tổng 7N6Đ. KTX Seoul–Busan khoảng 2,5 giờ. Không khả thi trong 5N4Đ nếu muốn trải nghiệm thoải mái.
+Rút ngắn Seoul còn 3 ngày, thêm Sokcho/Busan — tổng 7N6Đ. KTX Seoul–Busan khoảng 2,5 giờ. Không khả thi trong 5N4Đ nếu muốn trải nghiệm thoải mái. Xem [Lịch trình 7 ngày 6 đêm]({{< ref "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem" >}}).
 
 ### Nếu đi đầu tháng 10 (1–10)
 
