@@ -36,6 +36,9 @@ image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/portrait-of-woman-with-flowers-drawn-on-face-on-pink-back-13720024/
+series: du-lich
+series_order: 5
+series_title: Du lịch Hàn Quốc 2026
 slug: trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep
 tags:
 - du lịch Hàn Quốc
@@ -47,9 +50,6 @@ tags:
 - mỹ phẩm Hàn Quốc
 - series du lịch
 thumbnail: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
-series: du-lich
-series_title: "Du lịch Hàn Quốc 2026"
-series_order: 5
 title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người
   mê làm đẹp'
 tom_tat_nhanh:

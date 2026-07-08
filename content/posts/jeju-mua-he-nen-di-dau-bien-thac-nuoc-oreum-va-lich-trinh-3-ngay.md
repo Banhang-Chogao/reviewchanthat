@@ -3,34 +3,40 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Jeju mùa hè là điểm đến lý tưởng với biển đẹp, thác nước mát và các oreum (núi nhỏ) thoáng gió.
-  - Biển Hamdeok, Hyeopjae, thác Cheonjiyeon, đỉnh Hallasan và Seongsan Ilchulbong là những điểm không thể bỏ lỡ.
+  - Jeju mùa hè là điểm đến lý tưởng với biển đẹp, thác nước mát và các oreum (núi
+    nhỏ) thoáng gió.
+  - Biển Hamdeok, Hyeopjae, thác Cheonjiyeon, đỉnh Hallasan và Seongsan Ilchulbong
+    là những điểm không thể bỏ lỡ.
   - Bài viết gợi ý lịch trình 3 ngày Jeju mùa hè cho người đi lần đầu.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.visitjeju.net, https://www.koreatodo.com/jeju.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Jeju mùa hè nên đi đâu? Gợi ý biển, thác nước, oreum và lịch trình 3 ngày chi tiết cho kỳ nghỉ hè tại đảo Jeju.'
+description: Jeju mùa hè nên đi đâu? Gợi ý biển, thác nước, oreum và lịch trình 3
+  ngày chi tiết cho kỳ nghỉ hè tại đảo Jeju.
 draft: false
 faq:
-- answer: Biển Hamdeok, Hyeopjae, Jungmun. Thác Cheonjiyeon, Cheonjeyeon. Seongsan Ilchulbong.
+- answer: Biển Hamdeok, Hyeopjae, Jungmun. Thác Cheonjiyeon, Cheonjeyeon. Seongsan
+    Ilchulbong.
   question: Jeju mùa hè nên đi đâu?
 - answer: 25–31°C, có gió biển nên dễ chịu hơn Seoul. Tháng 8 nóng nhất.
   question: Thời tiết Jeju mùa hè thế nào?
-- answer: Thuê xe tự lái (khoảng 50.000–80.000 KRW/ngày) là tiện nhất. Taxi và tour cũng là lựa chọn.
+- answer: Thuê xe tự lái (khoảng 50.000–80.000 KRW/ngày) là tiện nhất. Taxi và tour
+    cũng là lựa chọn.
   question: Di chuyển ở Jeju thế nào?
 image: images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp
 image_commercial_use: true
-image_creator: Kang Daniel
+image_creator: SOO CHUL PARK
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/jeju-island-summer-beach-29188042/
+image_source_url: https://www.pexels.com/photo/traditional-huts-in-village-18023250/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?
@@ -52,6 +58,9 @@ internal_links:
   title: Checklist vali
 - ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
   title: Mặc gì mùa hè
+series: du-lich-han-quoc-mua-he
+series_order: 7
+series_title: Du lịch Hàn Quốc mùa hè
 slug: jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay
 tags:
 - Jeju
@@ -60,10 +69,7 @@ tags:
 - biển Jeju
 - series du lịch
 thumbnail: images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 7
-title: 'Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày'
+title: Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày
 tom_tat_nhanh:
 - label: Thời gian
   value: 3 ngày

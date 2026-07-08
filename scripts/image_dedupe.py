@@ -1,9 +1,10 @@
 """
 scripts/image_dedupe.py
-Check for duplicate images across posts:
-1. Duplicate source_url
-2. Duplicate local output files reused
-3. Perceptual similarity via image hash
+Strict image deduplication check.
+- Duplicate source_url -> error (unless whitelisted)
+- Duplicate local output file -> error
+- Perceptual similarity warning
+- Whitelist in data/image-dedupe-whitelist.json
 """
 
 import os
@@ -15,8 +16,7 @@ CONTENT_DIR = "content/posts"
 POSTS_DIR = "static/images/posts"
 MANIFEST_PATH = "data/images.json"
 REPORT_PATH = "data/image-dedupe-report.json"
-WHITELIST_PATH = "data/dupe-whitelist.json"
-AUDIT_REPORT_PATH = "data/image-audit-report.json"
+WHITELIST_PATH = "data/image-dedupe-whitelist.json"
 
 
 def load_whitelist():
@@ -34,7 +34,6 @@ def load_manifest():
 
 
 def get_perceptual_hash(image_path):
-    """Compute perceptual hash for an image."""
     try:
         from PIL import Image
         import imagehash
@@ -48,8 +47,8 @@ def dedupe():
     print("=== Image Deduplication Check ===")
     whitelist = load_whitelist()
     manifest = load_manifest()
+    errors = []
 
-    # Load frontmatter image_source_url from all posts
     import frontmatter
     source_urls = defaultdict(list)
     for fname in os.listdir(CONTENT_DIR):
@@ -65,13 +64,13 @@ def dedupe():
         except Exception:
             continue
 
-    # Check source_url duplicates
     url_dupes = {}
     for url, slugs in source_urls.items():
-        if len(slugs) > 1 and url not in whitelist:
-            url_dupes[url] = slugs
+        if len(slugs) > 1:
+            if url not in whitelist:
+                url_dupes[url] = slugs
+                errors.append(f"DUPLICATE source_url: {url} used by {slugs}")
 
-    # Check file-level duplicates
     output_usage = defaultdict(list)
     for entry in manifest.get("posts", []):
         out_path = entry.get("output_path", "")
@@ -79,8 +78,9 @@ def dedupe():
             output_usage[out_path].append(entry["slug"])
 
     file_dupes = {path: slugs for path, slugs in output_usage.items() if len(slugs) > 1}
+    for path, slugs in file_dupes.items():
+        errors.append(f"DUPLICATE output file: {path} used by {slugs}")
 
-    # Perceptual similarity check
     perceptual_dupes = []
     processed_files = []
     for fname in sorted(os.listdir(POSTS_DIR)):
@@ -94,12 +94,16 @@ def dedupe():
                     perceptual_dupes.append((pf, fpath, phash))
             processed_files.append((fpath, phash))
 
+    for a, b, h in perceptual_dupes:
+        print(f"  WARNING: Perceptual duplicate: {a} <-> {b} (hash: {h})")
+
     report = {
         "total_source_urls": len(source_urls),
         "duplicate_source_urls": {url: slugs for url, slugs in url_dupes.items()},
         "duplicate_output_files": dict(file_dupes),
         "perceptual_duplicates": [(a, b, h) for a, b, h in perceptual_dupes],
         "whitelisted_urls": list(whitelist),
+        "errors": errors,
     }
 
     os.makedirs("data", exist_ok=True)
@@ -113,6 +117,12 @@ def dedupe():
     print(f"  Duplicate output files: {len(file_dupes)}")
     print(f"  Perceptual duplicates: {len(perceptual_dupes)}")
 
+    if errors:
+        for err in errors:
+            print(f"  ERROR: {err}")
+        sys.exit(1)
+
+    print("  No duplicate errors found.")
     return report
 
 

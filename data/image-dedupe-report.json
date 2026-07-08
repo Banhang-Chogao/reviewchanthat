@@ -3,5 +3,6 @@
   "duplicate_source_urls": {},
   "duplicate_output_files": {},
   "perceptual_duplicates": [],
-  "whitelisted_urls": []
+  "whitelisted_urls": [],
+  "errors": []
 }

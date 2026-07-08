@@ -3,8 +3,10 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Caribbean Bay và Ocean World là hai công viên nước lớn nhất gần Seoul, mỗi nơi có ưu nhược điểm riêng.
-  - Caribbean Bay lớn hơn, nhiều trò chơi hơn nhưng đông và đắt hơn. Ocean World rẻ hơn, vắng hơn.
+  - Caribbean Bay và Ocean World là hai công viên nước lớn nhất gần Seoul, mỗi nơi
+    có ưu nhược điểm riêng.
+  - Caribbean Bay lớn hơn, nhiều trò chơi hơn nhưng đông và đắt hơn. Ocean World rẻ
+    hơn, vắng hơn.
   - Bài viết so sánh 10 tiêu chí giúp bạn chọn công viên phù hợp nhất.
   title: Tóm tắt bài viết
 attribution:
@@ -15,10 +17,12 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Ocean World vs Caribbean Bay: so sánh chi tiết giá vé, khoảng cách, trò chơi, độ đông. Nên chọn công viên nước nào gần Seoul?'
+description: 'Ocean World vs Caribbean Bay: so sánh chi tiết giá vé, khoảng cách,
+  trò chơi, độ đông. Nên chọn công viên nước nào gần Seoul?'
 draft: false
 faq:
-- answer: Caribbean Bay nếu thích nhiều trò, không ngại đông. Ocean World nếu muốn rẻ và vắng.
+- answer: Caribbean Bay nếu thích nhiều trò, không ngại đông. Ocean World nếu muốn
+    rẻ và vắng.
   question: Nên chọn công viên nước nào?
 - answer: Caribbean Bay 40 phút, Ocean World 60 phút.
   question: Công viên nào gần Seoul hơn?
@@ -26,11 +30,11 @@ faq:
   question: Công viên nào rẻ hơn?
 image: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
 image_commercial_use: true
-image_creator: Jang Donggun
+image_creator: Lu Zhao
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/water-park-aerial-view-29188045/
+image_source_url: https://www.pexels.com/photo/silhouette-of-a-man-standing-in-front-of-a-huge-tank-in-an-aquarium-10431750/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?
@@ -50,6 +54,9 @@ internal_links:
   title: Checklist vali
 - ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
   title: Mặc gì mùa hè
+series: du-lich-han-quoc-mua-he
+series_order: 10
+series_title: Du lịch Hàn Quốc mùa hè
 slug: ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul
 tags:
 - công viên nước Hàn Quốc
@@ -58,9 +65,6 @@ tags:
 - Seoul
 - series du lịch
 thumbnail: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 10
 title: 'Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?'
 tom_tat_nhanh:
 - label: Caribbean Bay

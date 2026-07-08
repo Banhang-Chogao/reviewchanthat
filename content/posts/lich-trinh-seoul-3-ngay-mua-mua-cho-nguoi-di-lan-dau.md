@@ -3,19 +3,25 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - 'Lịch trình Seoul 3 ngày mùa mưa với các điểm indoor, kết hợp tàu điện ngầm và đi bộ có mái che.'
-  - 'Ngày 1: trung tâm lịch sử. Ngày 2: mua sắm và giải trí. Ngày 3: văn hóa và ẩm thực.'
-  - 'Tổng chi phí tham quan: khoảng 50.000–80.000 KRW/người, chưa bao gồm ăn uống và mua sắm.'
+  - Lịch trình Seoul 3 ngày mùa mưa với các điểm indoor, kết hợp tàu điện ngầm và
+    đi bộ có mái che.
+  - 'Ngày 1: trung tâm lịch sử. Ngày 2: mua sắm và giải trí. Ngày 3: văn hóa và ẩm
+    thực.'
+  - 'Tổng chi phí tham quan: khoảng 50.000–80.000 KRW/người, chưa bao gồm ăn uống
+    và mua sắm.'
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.koreatodo.com.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
+    https://www.koreatodo.com.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu — điểm tham quan indoor, ăn uống và di chuyển. Kèm ngân sách chi tiết.'
+description: Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu — điểm tham quan
+  indoor, ăn uống và di chuyển. Kèm ngân sách chi tiết.
 draft: false
 faq:
 - answer: Bảo tàng Quốc gia (miễn phí), DDP, COEX Mall, Lotte World indoor.
@@ -26,11 +32,11 @@ faq:
   question: Đi lại trong Seoul thế nào?
 image: images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp
 image_commercial_use: true
-image_creator: Song Hye-kyo
+image_creator: Gije Cho
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/seoul-rainy-street-29188046/
+image_source_url: https://www.pexels.com/photo/light-display-over-illuminated-city-at-night-18495176/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?
@@ -54,6 +60,9 @@ internal_links:
   title: Mặc gì mùa hè
 - ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md
   title: Caribbean Bay
+series: du-lich-han-quoc-mua-he
+series_order: 11
+series_title: Du lịch Hàn Quốc mùa hè
 slug: lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau
 tags:
 - Seoul
@@ -62,10 +71,7 @@ tags:
 - du lịch Hàn Quốc
 - series du lịch
 thumbnail: images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 11
-title: 'Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu'
+title: Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu
 tom_tat_nhanh:
 - label: Thời gian
   value: 3 ngày

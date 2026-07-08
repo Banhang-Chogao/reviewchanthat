@@ -3,19 +3,25 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Hàn Quốc mùa hè (tháng 7–8) nóng ẩm, mưa nhiều nhưng vẫn đi được nếu biết chọn điểm tránh nóng, tránh mưa phù hợp.
-  - Top điểm đến gồm biển Busan, Jeju, công viên nước, indoor ở Seoul, làng cổ và khu nghỉ dưỡng.
-  - Bài viết tổng hợp 15 điểm đến kèm lịch trình gợi ý cho 3–7 ngày, phù hợp mọi đối tượng.
+  - Hàn Quốc mùa hè (tháng 7–8) nóng ẩm, mưa nhiều nhưng vẫn đi được nếu biết chọn
+    điểm tránh nóng, tránh mưa phù hợp.
+  - Top điểm đến gồm biển Busan, Jeju, công viên nước, indoor ở Seoul, làng cổ và
+    khu nghỉ dưỡng.
+  - Bài viết tổng hợp 15 điểm đến kèm lịch trình gợi ý cho 3–7 ngày, phù hợp mọi đối
+    tượng.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.koreatodo.com, https://www.trip.com.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
+    https://www.koreatodo.com, https://www.trip.com.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Du lịch Hàn Quốc mùa hè nên đi đâu? Gợi ý 15 điểm tránh nóng, tránh mưa ở Seoul, Busan, Jeju kèm lịch trình chi tiết 3–7 ngày cho người đi lần đầu.'
+description: Du lịch Hàn Quốc mùa hè nên đi đâu? Gợi ý 15 điểm tránh nóng, tránh mưa
+  ở Seoul, Busan, Jeju kèm lịch trình chi tiết 3–7 ngày cho người đi lần đầu.
 draft: false
 external_links:
 - title: https://english.visitkorea.or.kr
@@ -27,17 +33,20 @@ external_links:
 faq:
 - answer: Tháng 6–8. Tháng 7 mưa nhiều (mùa mưa), tháng 8 nóng nhất nhưng biển đẹp.
   question: Mùa hè Hàn Quốc từ tháng mấy?
-- answer: Busan, Jeju biển đẹp. Seoul có công viên nước, indoor. Đà Lạt kiểu Hàn có Gapyeong, Nami Island.
+- answer: Busan, Jeju biển đẹp. Seoul có công viên nước, indoor. Đà Lạt kiểu Hàn có
+    Gapyeong, Nami Island.
   question: Đi đâu để tránh nóng?
-- answer: Mang áo mưa nhẹ, giày chống nước, lên lịch dự phòng indoor. Xem [Seoul ngày mưa nên đi đâu]({{< ref "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh" >}}).
+- answer: Mang áo mưa nhẹ, giày chống nước, lên lịch dự phòng indoor. Xem [Seoul ngày
+    mưa nên đi đâu]({{< ref "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh"
+    >}}).
   question: Đi Hàn Quốc mùa mưa có ổn không?
 image: images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp
 image_commercial_use: true
-image_creator: Hannah Kim
+image_creator: Line Knipst
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/seoul-cityscape-summer-29188036/
+image_source_url: https://www.pexels.com/photo/crowd-of-tourists-on-the-walkway-in-bukchon-hanok-village-20325769/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng dưới nước ở Hàn Quốc
@@ -63,6 +72,9 @@ internal_links:
   title: Haeundae Beach Busan
 - ref: posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md
   title: Biển đẹp ở Jeju
+series: du-lich-han-quoc-mua-he
+series_order: 1
+series_title: Du lịch Hàn Quốc mùa hè
 slug: du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di
 tags:
 - du lịch Hàn Quốc
@@ -71,10 +83,8 @@ tags:
 - lịch trình Hàn Quốc
 - series du lịch
 thumbnail: images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 1
-title: 'Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi'
+title: Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình
+  dễ đi
 tom_tat_nhanh:
 - label: Thời gian
   value: Tháng 7–8 (cao điểm hè)

@@ -3,34 +3,39 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Tháng 8 là tháng nóng nhất Hàn Quốc, nhiệt độ 25–33°C, nắng gắt, ít mưa hơn tháng 7.
+  - Tháng 8 là tháng nóng nhất Hàn Quốc, nhiệt độ 25–33°C, nắng gắt, ít mưa hơn tháng
+    7.
   - Thời điểm lý tưởng cho biển, đảo và công viên nước — Busan, Jeju, Caribbean Bay.
   - Cần đặt phòng sớm vì đây là cao điểm du lịch hè, giá tăng 20–40%.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.koreatodo.com.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
+    https://www.koreatodo.com.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Hàn Quốc tháng 8 nên đi đâu? Gợi ý biển, đảo, công viên nước và điểm tránh nóng tốt nhất. Kèm lịch trình 5 ngày cho kỳ nghỉ hè.'
+description: Hàn Quốc tháng 8 nên đi đâu? Gợi ý biển, đảo, công viên nước và điểm
+  tránh nóng tốt nhất. Kèm lịch trình 5 ngày cho kỳ nghỉ hè.
 draft: false
 faq:
 - answer: 25–33°C, nắng gắt, độ ẩm 70–80%. Mưa giảm so với tháng 7.
   question: Thời tiết Hàn Quốc tháng 8 thế nào?
-- answer: Biển Busan (Haeundae, Gwangalli), Jeju, công viên nước Caribbean Bay, Ocean World.
+- answer: Biển Busan (Haeundae, Gwangalli), Jeju, công viên nước Caribbean Bay, Ocean
+    World.
   question: Đi đâu tháng 8?
 - answer: Đặt phòng trước 1 tháng, mua vé online, mang kem chống nắng và nước uống.
   question: Cần lưu ý gì?
 image: images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp
 image_commercial_use: true
-image_creator: Kim Yuna
+image_creator: piu aka
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/jeju-summer-beach-29188039/
+image_source_url: https://www.pexels.com/photo/aerial-photography-of-city-buildings-13045678/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?
@@ -56,6 +61,9 @@ internal_links:
   title: Top 20 hoạt động du lịch Hàn Quốc
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng
+series: du-lich-han-quoc-mua-he
+series_order: 4
+series_title: Du lịch Hàn Quốc mùa hè
 slug: han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di
 tags:
 - Hàn Quốc tháng 8
@@ -64,10 +72,7 @@ tags:
 - công viên nước Hàn Quốc
 - series du lịch
 thumbnail: images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp
-series: du-lich-han-quoc-mua-he
-series_title: "Du lịch Hàn Quốc mùa hè"
-series_order: 4
-title: 'Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi'
+title: Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi
 tom_tat_nhanh:
 - label: Nhiệt độ
   value: 25–33°C

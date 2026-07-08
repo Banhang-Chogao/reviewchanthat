@@ -1,17 +1,19 @@
 """
 scripts/process_images.py
-Image processing pipeline:
-1. Download images from source URLs (if direct_url available)
-2. Convert to WebP
-3. Add watermark attribution text
-4. Update post frontmatter to point to local images
+Image processing pipeline for real images only:
+1. Download images from source URLs (direct_url required)
+2. Convert to WebP (800x450, 16:9)
+3. Add watermark attribution
+4. Update post frontmatter
+5. Fail if no real source image available
 """
 
 import os
 import sys
 import json
 import hashlib
-from urllib.parse import urlparse
+import requests
+from PIL import Image, ImageDraw, ImageFont
 
 IMAGES_MANIFEST_PATH = "data/images.json"
 POSTS_SRC_DIR = "static/images/posts-src"
@@ -28,11 +30,9 @@ def load_manifest():
 
 
 def download_image(url, dest_path):
-    """Download an image from URL to local path."""
     if not url:
         return False
     try:
-        import requests
         print(f"    Downloading: {url}")
         resp = requests.get(url, timeout=30, stream=True)
         if resp.status_code == 200:
@@ -41,90 +41,75 @@ def download_image(url, dest_path):
                 for chunk in resp.iter_content(1024 * 1024):
                     f.write(chunk)
             return True
+        print(f"    Download failed: HTTP {resp.status_code}")
     except Exception as e:
         print(f"    Download failed: {e}")
     return False
 
 
-def process_image(src_path, dest_path, watermark_text=""):
-    """
-    Process image:
-    - Resize/crop to 800x450 (16:9)
-    - Convert to WebP
-    - Add watermark text attribution
-    """
+def has_placeholder_characteristics(img_path):
+    """Detect if an image is likely a fake/solid-color placeholder."""
     try:
-        from PIL import Image, ImageDraw, ImageFont
-    except ImportError:
-        print("    Pillow not installed. Install: pip install Pillow")
+        img = Image.open(img_path).convert("RGB")
+        if img.size[0] < 400 or img.size[1] < 300:
+            return True
+        pixels = list(img.getdata())
+        r_vals = [p[0] for p in pixels[::100]]
+        g_vals = [p[1] for p in pixels[::100]]
+        b_vals = [p[2] for p in pixels[::100]]
+        r_range = max(r_vals) - min(r_vals)
+        g_range = max(g_vals) - min(g_vals)
+        b_range = max(b_vals) - min(b_vals)
+        if r_range < 30 and g_range < 30 and b_range < 30:
+            return True
+        return False
+    except Exception:
         return False
 
-    if not os.path.exists(src_path):
-        print(f"    Source not found: {src_path}")
-        return False
 
+def process_image(src_path, dest_path, watermark_text=""):
     try:
         img = Image.open(src_path).convert("RGB")
-
-        # Resize/crop to 16:9 (800x450)
         target_w, target_h = 800, 450
         img_w, img_h = img.size
-
-        # Crop to 16:9 aspect ratio
         target_ratio = target_w / target_h
         img_ratio = img_w / img_h
-
         if img_ratio > target_ratio:
-            # Image is wider — crop width
             new_w = int(img_h * target_ratio)
             offset = (img_w - new_w) // 2
             img = img.crop((offset, 0, offset + new_w, img_h))
         elif img_ratio < target_ratio:
-            # Image is taller — crop height
             new_h = int(img_w / target_ratio)
             offset = (img_h - new_h) // 2
             img = img.crop((0, offset, img_w, offset + new_h))
-
         img = img.resize((target_w, target_h), Image.LANCZOS)
-
-        # Add watermark text
         if watermark_text:
             draw = ImageDraw.Draw(img, "RGBA")
             try:
                 font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 12)
             except (IOError, OSError):
                 font = ImageFont.load_default()
-
-            # Measure text
             bbox = draw.textbbox((0, 0), watermark_text, font=font)
             tw = bbox[2] - bbox[0]
             th = bbox[3] - bbox[1]
-
             padding = 6
             margin = 10
             x = target_w - tw - margin - padding * 2
             y = target_h - th - margin - padding * 2
-
-            # Background bar
             draw.rectangle(
                 [x, y, x + tw + padding * 2, y + th + padding * 2],
                 fill=(0, 0, 0, 100),
             )
-
-            # Text
             draw.text(
                 (x + padding, y + padding),
                 watermark_text,
                 fill=(255, 255, 255, 220),
                 font=font,
             )
-
-        # Save as WebP
         os.makedirs(os.path.dirname(dest_path), exist_ok=True)
         img.save(dest_path, "WebP", quality=85)
-        print(f"    Saved: {dest_path}")
+        print(f"    Saved: {dest_path} ({os.path.getsize(dest_path)} bytes)")
         return True
-
     except Exception as e:
         print(f"    Processing failed: {e}")
         return False
@@ -132,9 +117,7 @@ def process_image(src_path, dest_path, watermark_text=""):
 
 def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url,
                             license_val, commercial_use, owner="external", creator=""):
-    """Update post frontmatter with local image paths."""
     import frontmatter
-
     fname = None
     for f in os.listdir(CONTENT_DIR):
         if f.endswith(".md"):
@@ -145,16 +128,12 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
                     break
             except Exception:
                 continue
-
     if not fname:
         print(f"    Post not found for slug: {slug}")
         return False
-
     fpath = os.path.join(CONTENT_DIR, fname)
     post = frontmatter.load(fpath)
     meta = post.metadata
-
-    # Update image fields
     meta["image"] = image_path
     meta["thumbnail"] = thumbnail_path
     meta["image_source"] = source
@@ -164,8 +143,7 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
     meta["image_owner"] = owner
     if creator:
         meta["image_creator"] = creator
-
-    # Write back preserving YAML
+    meta.pop("image_status", None)
     with open(fpath, "w", encoding="utf-8") as f:
         f.write(frontmatter.dumps(post))
     print(f"    Updated frontmatter: {fname}")
@@ -173,9 +151,8 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
 
 
 def main():
-    print("=== Image Processing + Watermark ===")
+    print("=== Image Processing (Real Images Only) ===")
     manifest = load_manifest()
-
     success = 0
     skipped = 0
     failed = 0
@@ -189,36 +166,44 @@ def main():
 
         print(f"\n  [{slug}]")
 
-        # Check if already processed
-        if os.path.exists(dest_path):
-            print(f"    Already processed: {dest_path}")
-            skipped += 1
-            continue
-
-        # Try to download if direct URL exists
-        if direct_url and not os.path.exists(src_path):
-            downloaded = download_image(direct_url, src_path)
-            if not downloaded:
-                print(f"    Cannot download. Place image manually at: {src_path}")
-                failed += 1
-                continue
-
-        # If no direct URL and no local file, skip
-        if not os.path.exists(src_path) and not direct_url:
-            print(f"    No source available. Place image at: {src_path}")
+        if not direct_url:
+            print(f"    FAIL: No direct_url in manifest for {slug}")
             failed += 1
             continue
 
-        # Process image
-        if os.path.exists(src_path):
-            ok = process_image(src_path, dest_path, watermark)
-            if ok:
-                success += 1
+        if os.path.exists(dest_path):
+            fsize = os.path.getsize(dest_path)
+            if fsize > 5000 and not has_placeholder_characteristics(dest_path):
+                print(f"    Already processed (real image): {dest_path} ({fsize} bytes)")
+                skipped += 1
+                continue
             else:
+                print(f"    Replacing existing file ({fsize} bytes)")
+
+        if not os.path.exists(src_path):
+            print(f"    Downloading source image...")
+            ok = download_image(direct_url, src_path)
+            if not ok:
+                print(f"    FAIL: Could not download from {direct_url}")
                 failed += 1
                 continue
 
-        # Update frontmatter
+        if not os.path.exists(src_path):
+            print(f"    FAIL: Source file not found at {src_path}")
+            failed += 1
+            continue
+
+        if has_placeholder_characteristics(src_path):
+            print(f"    FAIL: Downloaded source appears to be a placeholder/solid color")
+            os.remove(src_path)
+            failed += 1
+            continue
+
+        ok = process_image(src_path, dest_path, watermark)
+        if not ok:
+            failed += 1
+            continue
+
         source = entry.get("source_platform", "")
         source_url = entry.get("source_url", "")
         license_val = entry.get("license", "")
@@ -236,11 +221,15 @@ def main():
             owner="external",
             creator=creator,
         )
+        success += 1
 
     print(f"\n=== Summary ===")
     print(f"  Processed: {success}")
     print(f"  Skipped (already done): {skipped}")
     print(f"  Failed: {failed}")
+
+    if failed > 0:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
