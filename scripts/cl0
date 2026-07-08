@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT"
+
+echo "=== cl0: Export Changelog to Private PDF ==="
+
+# 1. Ensure .artifacts is gitignored from public
+if [ ! -f .gitignore ] || ! grep -q '^\.artifacts/' .gitignore 2>/dev/null; then
+  echo "" >> .gitignore
+  echo "# cl0: private artifacts (never publish)" >> .gitignore
+  echo ".artifacts/" >> .gitignore
+  echo "Updated .gitignore to exclude .artifacts/"
+fi
+
+# 2. Ensure directory exists
+mkdir -p .artifacts/changelog-pdf
+
+# 3. Run Python export
+echo "[cl0] Running changelog export..."
+python3 scripts/export_changelog_pdf.py
+
+echo "=== cl0: Done ==="

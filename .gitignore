@@ -5,3 +5,6 @@ public/
 .DS_Store
 .dev.vars
 .dev.vars.*
+
+# cl0: private artifacts (never publish)
+.artifacts/
