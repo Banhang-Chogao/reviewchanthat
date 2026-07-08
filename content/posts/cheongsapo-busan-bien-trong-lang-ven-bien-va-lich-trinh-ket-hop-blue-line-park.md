@@ -39,11 +39,11 @@ faq:
   question: Cheongsapo có đông không?
 image: images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp
 image_commercial_use: true
-image_creator: Norman_Gil
-image_license: Pixabay Content License
+image_creator: Alvin & Chelsea
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/ai-%C4%91%C6%B0%E1%BB%A3c-t%E1%BA%A1o-ra-ng%C6%B0-d%C3%A2n-thuy%E1%BB%81n-10282989/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/tourist-train-crossing-at-cheongsapo-station-17318386/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

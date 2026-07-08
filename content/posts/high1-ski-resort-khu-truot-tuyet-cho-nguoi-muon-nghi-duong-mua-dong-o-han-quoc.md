@@ -41,11 +41,11 @@ faq:
   question: Giá vé trượt tuyết ở High1 thế nào?
 image: images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp
 image_commercial_use: true
-image_creator: cegoh
-image_license: Pixabay Content License
+image_creator: Dominik Gryzbon
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/%C4%91%C6%B0%E1%BB%9Dng-ch%C3%A2n-tr%E1%BB%9Di-c%E1%BA%A3nh-quan-th%C3%A0nh-ph%E1%BB%91-255116/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/ski-lift-in-bialka-tatrzanska-poland-30786149/
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
   title: Top địa điểm trượt tuyết ở Hàn Quốc mùa đông

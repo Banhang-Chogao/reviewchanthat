@@ -41,11 +41,11 @@ faq:
   question: App nào giúp quản lý chi tiêu tốt?
 image: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
 image_commercial_use: true
-image_creator: Photographer2575
-image_license: Pixabay Content License
+image_creator: Thanh Long Bùi
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/r%E1%BB%89-s%C3%A9t-c%C5%A9-kim-lo%E1%BA%A1i-b%E1%BB%8B-h%E1%BB%8Fng-2674855/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/female-pickleball-player-in-action-at-h-i-phong-29665449/
 slug: cach-xay-dung-thoi-quen-mua-sam-thong-minh
 tags:
 - mua sắm thông minh

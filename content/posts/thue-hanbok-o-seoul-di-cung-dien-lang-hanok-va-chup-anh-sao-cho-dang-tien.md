@@ -35,11 +35,11 @@ external_links:
   url: https://english.visitseoul.net/>
 image: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
 image_commercial_use: true
-image_creator: image4you
-image_license: Pixabay Content License
+image_creator: alde saputro
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/c%C4%83n-nh%C3%A0-k%E1%BA%BFt-c%E1%BA%A5u-b%E1%BA%A5t-%C4%91%E1%BB%99ng-s%E1%BA%A3n-1353389/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/cheerful-woman-standing-against-pagoda-in-cloudy-weather-860090/
 slug: thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien
 tags:
 - du lịch Hàn Quốc

@@ -36,11 +36,11 @@ external_links:
   url: https://english.visitkorea.or.kr/>
 image: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
 image_commercial_use: true
-image_creator: naegeon
-image_license: Pixabay Content License
+image_creator: Đan Thy Nguyễn Mai
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/c%E1%BB%AD-kinh-doanh-v%C3%A0-qu%C3%A9t-kim-chi-2640909/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/bustling-scene-at-ch-da-l-t-market-in-vietnam-38404534/
 slug: cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju
 tags:
 - du lịch Hàn Quốc

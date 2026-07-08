@@ -115,7 +115,7 @@ def try_api_search(keywords, platform, post):
                 f"https://pixabay.com/api/"
                 f"?key={api_key}&q={query}&lang=vi&image_type=photo"
                 f"&orientation=horizontal&category={pix_category}"
-                f"&min_width=1200&order=popular&safesearch=true&per_page=5"
+                f"&min_width=1200&order=popular&safesearch=true&per_page=3"
             )
             resp = requests.get(url, timeout=10)
             if resp.status_code == 200:
@@ -136,39 +136,25 @@ def try_api_search(keywords, platform, post):
 
         elif platform == "pexels":
             headers = {"Authorization": api_key}
-            url = f"https://api.pexels.com/v1/search?query={query}&per_page=5"
-            resp = requests.get(url, headers=headers, timeout=10)
+            url = f"https://api.pexels.com/v1/search?query={query}&orientation=landscape&per_page=3"
+            resp = requests.get(url, headers=headers, timeout=15)
             if resp.status_code == 200:
                 data = resp.json()
                 for photo in data.get("photos", []):
                     candidates.append({
                         "source_platform": "Pexels",
                         "source_url": photo.get("url", ""),
-                        "direct_url": photo.get("src", {}).get("large", ""),
+                        "direct_url": photo.get("src", {}).get("large2x", "") or photo.get("src", {}).get("large", ""),
                         "creator": photo.get("photographer", ""),
                         "license": "Pexels License",
                         "commercial_use": True,
                         "width": photo.get("width", 0),
                         "height": photo.get("height", 0),
                     })
+            else:
+                print(f"    Pexels API error: {resp.status_code}")
 
-        elif platform == "unsplash":
-            url = f"https://api.unsplash.com/search/photos?query={query}&per_page=5"
-            headers = {"Authorization": f"Client-ID {api_key}"}
-            resp = requests.get(url, headers=headers, timeout=10)
-            if resp.status_code == 200:
-                data = resp.json()
-                for result in data.get("results", []):
-                    candidates.append({
-                        "source_platform": "Unsplash",
-                        "source_url": result.get("links", {}).get("html", ""),
-                        "direct_url": result.get("urls", {}).get("regular", ""),
-                        "creator": result.get("user", {}).get("name", ""),
-                        "license": "Unsplash License",
-                        "commercial_use": True,
-                        "width": result.get("width", 0),
-                        "height": result.get("height", 0),
-                    })
+
 
     except Exception as e:
         print(f"  API search failed for {platform}: {e}")
@@ -193,10 +179,12 @@ def score_candidate(candidate, post, used_urls):
     if candidate.get("direct_url", "") in used_urls:
         score -= 30
 
-    # Prefer known platforms
+    # Prefer higher quality platforms
     platform = candidate.get("source_platform", "")
-    if platform in ("Pixabay", "Pexels", "Unsplash"):
-        score += 10
+    if platform == "Pexels":
+        score += 20
+    elif platform == "Pixabay":
+        score += 5
 
     return max(0, min(100, score))
 
@@ -262,11 +250,18 @@ def main():
             print(f"    Keywords: {kw_str}")
 
             candidates = []
-            for platform in ("pixabay", "pexels", "unsplash"):
-                results = try_api_search(keywords, platform, post)
-                candidates.extend(results)
-                if results:
-                    print(f"    {platform}: {len(results)} candidates")
+            from concurrent.futures import ThreadPoolExecutor
+            with ThreadPoolExecutor(max_workers=2) as pool:
+                futures = {pool.submit(try_api_search, keywords, p, post): p for p in ("pixabay", "pexels")}
+                for f in futures:
+                    platform = futures[f]
+                    try:
+                        results = f.result(timeout=20)
+                        candidates.extend(results)
+                        if results:
+                            print(f"    {platform}: {len(results)} candidates")
+                    except Exception as e:
+                        print(f"    {platform} error: {e}")
 
             if candidates:
                 candidates.sort(key=lambda c: score_candidate(c, post, used_urls), reverse=True)

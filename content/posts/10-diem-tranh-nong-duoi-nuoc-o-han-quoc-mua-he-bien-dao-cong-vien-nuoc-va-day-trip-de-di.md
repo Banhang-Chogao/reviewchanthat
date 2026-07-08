@@ -64,11 +64,11 @@ faq:
   question: Giá vé công viên nước có đắt không?
 image: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
 image_commercial_use: true
-image_creator: stux
-image_license: Pixabay Content License
+image_creator: Pixabay
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/h%C3%B3a-%C4%91%C6%A1n-10-eur-ti%E1%BB%81n-b%E1%BA%A1c-166307/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/bundle-of-assorted-denomination-euro-banknotes-259234/
 internal_links:
 - ref: posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md
   title: 'Udo Jeju: đảo nhỏ, biển đá đen và hải đăng trắng'

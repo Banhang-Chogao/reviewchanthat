@@ -58,11 +58,11 @@ faq:
   question: WWDC26 có công bố iPhone gập không?
 image: images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp
 image_commercial_use: true
-image_creator: AS_Photography
-image_license: Pixabay Content License
+image_creator: Thien Le Duy
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/ti%E1%BA%BFp-th%E1%BB%8B-s%E1%BB%91-seo-google-emarketing-1725340/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/vibrant-gerbera-daisy-close-up-photography-31102157/
 lastmod: 2026-07-08 00:00:00+07:00
 slug: wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau
 tags:

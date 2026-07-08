@@ -34,11 +34,11 @@ external_links:
   url: https://www.suwon.go.kr/>
 image: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
 image_commercial_use: true
-image_creator: viarami
-image_license: Pixabay Content License
+image_creator: CK Seng
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/kinh-doanh-ti%E1%BB%81n-nh%C3%A0-h%C3%A0ng-d%E1%BA%A5u-hi%E1%BB%87u-5475283/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/gyeongbokgung-palace-entrance-under-clear-sky-35396663/
 slug: day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay
 tags:
 - du lịch Hàn Quốc

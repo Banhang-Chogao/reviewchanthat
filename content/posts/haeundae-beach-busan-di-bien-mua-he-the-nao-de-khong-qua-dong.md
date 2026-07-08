@@ -43,11 +43,11 @@ faq:
   question: Tháng 8 nước biển có lạnh không?
 image: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
 image_commercial_use: true
-image_creator: AKuptsova
-image_license: Pixabay Content License
+image_creator: Jhany Blue
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/lkae-c%C3%A1c-t%C3%B2a-nh%C3%A0-%C4%91%C3%B4-th%E1%BB%8B-hi%E1%BB%87n-%C4%91%E1%BA%A1i-5935110/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/aerial-night-view-of-haeundae-beach-busan-29188035/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

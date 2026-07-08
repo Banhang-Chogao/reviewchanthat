@@ -31,11 +31,11 @@ external_links:
   url: https://english.visitkorea.or.kr/>
 image: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
 image_commercial_use: true
-image_creator: viarami
-image_license: Pixabay Content License
+image_creator: Đặng Nhật
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/kinh-doanh-ti%E1%BB%81n-nh%C3%A0-h%C3%A0ng-d%E1%BA%A5u-hi%E1%BB%87u-5475283/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/portrait-of-woman-with-flowers-drawn-on-face-on-pink-back-13720024/
 slug: trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep
 tags:
 - du lịch Hàn Quốc

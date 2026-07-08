@@ -31,11 +31,11 @@ external_links:
   url: https://english.visitkorea.or.kr/>
 image: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
 image_commercial_use: true
-image_creator: HeungSoon
-image_license: Pixabay Content License
+image_creator: Jeffry Surianto
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/v%C3%B5ng-m%E1%BA%A1c-th%C3%A1ng-c%C3%B4ng-ty-seoul-fall-3780627/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/traditional-korean-gayageum-performance-indoors-36853090/
 slug: xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc
 tags:
 - du lịch Hàn Quốc

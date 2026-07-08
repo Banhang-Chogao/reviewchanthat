@@ -31,11 +31,11 @@ external_links:
   url: https://english.visitkorea.or.kr/>
 image: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
 image_commercial_use: true
-image_creator: viarami
-image_license: Pixabay Content License
+image_creator: Co Hai
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/kinh-doanh-ti%E1%BB%81n-nh%C3%A0-h%C3%A0ng-d%E1%BA%A5u-hi%E1%BB%87u-5475283/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/ninh-ki-u-cruise-docked-in-c-n-th-vietnam-35508138/
 slug: dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic
 tags:
 - du lịch Hàn Quốc

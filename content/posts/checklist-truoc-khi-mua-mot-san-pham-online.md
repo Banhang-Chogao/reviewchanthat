@@ -41,11 +41,11 @@ faq:
   question: Làm sao để không bị lừa khi mua online?
 image: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
 image_commercial_use: true
-image_creator: Pexels
-image_license: Pixabay Content License
+image_creator: Tara Winstead
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/t%C3%A1o-th%E1%BB%8B-tr%C6%B0%E1%BB%9Dng-c%E1%BB%A7a-ng%C6%B0%E1%BB%9Di-n%C3%B4ng-d%C3%A2n-1841132/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/red-check-mark-in-a-box-8850721/
 slug: checklist-truoc-khi-mua-mot-san-pham-online
 tags:
 - mua sắm online

@@ -38,11 +38,11 @@ faq:
   question: Nên tin vào đâu khi mua đồ công nghệ?
 image: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
 image_commercial_use: true
-image_creator: Firmbee
-image_license: Pixabay Content License
+image_creator: AlphaTradeZone
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/di-%C4%91%E1%BB%99ng-%C4%91i%E1%BB%87n-tho%E1%BA%A1i-samsung-%C3%A2m-nh%E1%BA%A1c-605422/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/fingers-on-ipad-with-graph-on-screen-5833772/
 slug: review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that
 tags:
 - benchmark

@@ -41,11 +41,11 @@ faq:
   question: Trải nghiệm sử dụng có quan trọng hơn thông số không?
 image: images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp
 image_commercial_use: true
-image_creator: WikiImages
-image_license: Pixabay Content License
+image_creator: Quang Nguyen Vinh
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/sao-kim-tr%C3%A1i-%C4%91%E1%BA%A5t-so-s%C3%A1nh-k%C3%ADch-th%C6%B0%E1%BB%9Bc-11588/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/honda-mechanics-at-work-12741630/
 slug: so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat
 tags:
 - so sánh

@@ -48,11 +48,11 @@ faq:
   question: Mùa hè có đông không?
 image: images/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.webp
 image_commercial_use: true
-image_creator: allybally4b
-image_license: Pixabay Content License
+image_creator: Kharl Anthony Paica
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/reed-ionantha-n%C3%A5ltillandsia-4026353/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/a-view-of-the-ocean-and-a-lighthouse-16663090/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

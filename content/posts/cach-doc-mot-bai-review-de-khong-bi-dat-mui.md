@@ -44,11 +44,11 @@ faq:
   question: Nên đọc review ở đâu để tin tưởng nhất?
 image: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
 image_commercial_use: true
-image_creator: athree23
-image_license: Pixabay Content License
+image_creator: Ron Lach
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/h%E1%BB%99i-%C4%91%E1%BB%93ng-qu%E1%BA%A3n-tr%E1%BB%8B-ph%E1%BA%A5n-%C4%91%E1%BA%A7u-3700375/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/
 slug: cach-doc-mot-bai-review-de-khong-bi-dat-mui
 tags:
 - kỹ năng đọc review

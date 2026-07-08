@@ -40,11 +40,11 @@ faq:
   question: Giá vé và thuê đồ ở Alpensia thế nào?
 image: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
 image_commercial_use: true
-image_creator: AS_Photography
-image_license: Pixabay Content License
+image_creator: 정규송 Nui MALAMA
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/%C4%91i%E1%BB%87n-tho%E1%BA%A1i-th%C3%B4ng-minh-m%C3%A1y-t%C3%ADnh-3179295/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/people-on-a-cable-car-in-a-mountain-valley-20465675/
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
   title: Top địa điểm trượt tuyết ở Hàn Quốc mùa đông

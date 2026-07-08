@@ -35,11 +35,11 @@ external_links:
   url: https://www.aquafield.kr/>
 image: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
 image_commercial_use: true
-image_creator: naegeon
-image_license: Pixabay Content License
+image_creator: Pixabay
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/c%E1%BB%AD-kinh-doanh-v%C3%A0-qu%C3%A9t-kim-chi-2640909/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/
 slug: jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay
 tags:
 - du lịch Hàn Quốc

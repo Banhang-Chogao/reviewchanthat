@@ -32,11 +32,11 @@ external_links:
   url: https://www.visitjeju.net/en/>
 image: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
 image_commercial_use: true
-image_creator: allybally4b
-image_license: Pixabay Content License
+image_creator: Kharl Anthony Paica
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/reed-ionantha-n%C3%A5ltillandsia-4026353/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/a-rocky-shoreline-with-a-waterfall-and-a-rocky-cliff-16663092/
 slug: bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien
 tags:
 - du lịch Hàn Quốc

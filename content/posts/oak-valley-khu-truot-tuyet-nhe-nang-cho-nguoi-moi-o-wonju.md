@@ -41,11 +41,11 @@ faq:
   question: Giá vé và mùa mở cửa thế nào?
 image: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
 image_commercial_use: true
-image_creator: jarmoluk
-image_license: Pixabay Content License
+image_creator: pipop kunachon
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/k%C3%ADnh-b%E1%BA%A3o-h%E1%BB%99-m%C3%B9a-%C4%91%C3%B4ng-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-428610/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/photo-of-people-skiing-on-a-slope-20900182/
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
   title: Top địa điểm trượt tuyết ở Hàn Quốc mùa đông

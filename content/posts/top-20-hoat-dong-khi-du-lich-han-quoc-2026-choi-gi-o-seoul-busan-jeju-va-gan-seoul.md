@@ -82,11 +82,11 @@ faq:
   question: Nên đi Hàn Quốc mùa nào để trải nghiệm nhiều nhất?
 image: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
 image_commercial_use: true
-image_creator: No-longer-here
-image_license: Pixabay Content License
+image_creator: Tuấn Kiệt Jr.
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/ti%E1%BB%81n-b%E1%BA%A1c-ti%E1%BB%81n-m%E1%BA%B7t-ti%E1%BA%BFng-anh-164032/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/woman-holding-celebratory-floral-bouquet-indoors-29015820/
 internal_links:
 - ref: posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md
   title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'

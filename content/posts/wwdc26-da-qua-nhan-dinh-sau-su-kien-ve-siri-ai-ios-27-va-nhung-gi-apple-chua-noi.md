@@ -51,11 +51,11 @@ faq:
   question: Người dùng Việt Nam cần theo dõi gì sau WWDC26?
 image: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
 image_commercial_use: true
-image_creator: stevepb
-image_license: Pixabay Content License
+image_creator: Ivan Babydov
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/h%E1%BB%A3p-%C4%91%E1%BB%93ng-r%C3%A0ng-bu%E1%BB%99c-h%E1%BB%A3p-%C4%91%E1%BB%93ng-948442/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/apple-logo-on-purple-background-7789851/
 internal_links:
 - ref: posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md
   title: 'WWDC26: Phân tích tính năng iOS 27 và macOS 27 trước và tại sự kiện'

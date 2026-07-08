@@ -36,11 +36,11 @@ faq:
   question: Làm sao phân biệt content marketing và review thật?
 image: images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp
 image_commercial_use: true
-image_creator: jyliagorbacheva
-image_license: Pixabay Content License
+image_creator: Hiếu Lê
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/%C4%91i%E1%BB%87n-tho%E1%BA%A1i-tr%E1%BB%91ng-di-%C4%91%E1%BB%99ng-hi%E1%BB%87n-%C4%91%E1%BA%A1i-2288456/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/team-collaboration-meeting-with-paperwork-indoors-38460673/
 slug: vi-sao-review-dai-chua-chac-da-dang-tin
 tags:
 - review dài

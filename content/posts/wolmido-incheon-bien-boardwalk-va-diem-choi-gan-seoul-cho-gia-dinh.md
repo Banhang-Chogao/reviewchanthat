@@ -36,11 +36,11 @@ faq:
   question: Wolmido có phù hợp với trẻ nhỏ không?
 image: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
 image_commercial_use: true
-image_creator: dldusdn
-image_license: Pixabay Content License
+image_creator: joon young, Park
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/hoa-hu%E1%BB%87-nh%E1%BB%87n-%C4%91%E1%BB%8F-h%C3%A0n-qu%E1%BB%91c-incheon-2805197/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/view-of-the-yeongjong-bridge-in-incheon-south-korea-during-sunset-14958503/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

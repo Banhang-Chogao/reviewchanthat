@@ -54,11 +54,11 @@ faq:
   question: Cần chuẩn bị gì khi đi trượt tuyết ở Hàn Quốc?
 image: images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp
 image_commercial_use: true
-image_creator: jarmoluk
-image_license: Pixabay Content License
+image_creator: Ditmar Tabacaru
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/k%C3%ADnh-b%E1%BA%A3o-h%E1%BB%99-m%C3%B9a-%C4%91%C3%B4ng-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-428610/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/scenic-ski-resort-in-parang-mountains-romania-30125664/
 internal_links:
 - ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
   title: 'Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?'

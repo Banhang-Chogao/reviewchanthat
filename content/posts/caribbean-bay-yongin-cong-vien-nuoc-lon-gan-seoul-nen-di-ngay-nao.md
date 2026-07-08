@@ -41,10 +41,11 @@ faq:
   question: Caribbean Bay khác Everland thế nào?
 image: images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp
 image_commercial_use: true
-image_license: Pixabay Content License
+image_creator: KOREAN JH
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/h%E1%BB%8Dc-sinh-%C4%91%C3%A1nh-m%C3%A1y-b%C3%A0n-ph%C3%ADm-ch%E1%BB%AF-849825/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/a-man-in-a-conical-hat-riding-a-boat-7446376/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

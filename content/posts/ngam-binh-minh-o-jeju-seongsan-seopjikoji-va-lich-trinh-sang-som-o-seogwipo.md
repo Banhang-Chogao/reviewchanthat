@@ -33,11 +33,11 @@ external_links:
   url: https://english.visitkorea.or.kr/>
 image: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
 image_commercial_use: true
-image_creator: allybally4b
-image_license: Pixabay Content License
+image_creator: tom  Lok
+image_license: Pexels License
 image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/reed-ionantha-n%C3%A5ltillandsia-4026353/
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/body-of-water-near-trees-during-sunset-6476882/
 slug: ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo
 tags:
 - du lịch Hàn Quốc
