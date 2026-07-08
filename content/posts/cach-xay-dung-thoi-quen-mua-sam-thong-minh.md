@@ -96,3 +96,20 @@ Với sale, với khuyến mãi, với "chỉ hôm nay". "Không" là câu nói 
 ### Kết luận
 
 Mua sắm thông minh là một kỹ năng có thể rèn luyện mỗi ngày. Bắt đầu từ hôm nay: áp dụng nguyên tắc 30 ngày cho món đồ tiếp theo bạn định mua. Sau 6 tháng, bạn sẽ thấy sự khác biệt trong tài khoản ngân hàng của mình.
+
+## Gợi ý đọc thêm và áp dụng
+
+Khi đọc review hoặc bài tổng hợp, hãy đối chiếu **ngày đăng**, **ngữ cảnh người viết** và **nguồn tham khảo** thay vì lấy một ý kiến làm chân lý. Một trải nghiệm tốt với người này có thể không lặp lại với người khác vì khác ngân sách, mùa đi và kỳ vọng.
+
+### Cách tự kiểm chứng
+- Tìm ít nhất hai nguồn độc lập cho thông tin giá, giờ hoạt động hoặc quy định
+- Ưu tiên trang chính thức, hiệp hội du lịch hoặc báo địa phương
+- Ghi chú điều kiện của bạn: đi một mình, gia đình, ngân sách, thời gian
+
+### Hợp với ai
+- Người muốn khung tư duy trước khi mua hoặc đặt tour
+- Độc giả thích đọc có cấu trúc, có phần cân bằng
+
+### Không hợp với ai
+- Ai cần số liệu realtime tuyệt đối — vẫn phải kiểm tra lại trước ngày đi
+- Người chỉ muốn danh sách địa chỉ copy-paste mà không đọc ngữ cảnh

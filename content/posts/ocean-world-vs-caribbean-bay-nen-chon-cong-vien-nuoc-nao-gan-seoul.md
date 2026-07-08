@@ -117,3 +117,31 @@ Cả Caribbean Bay và Ocean World đều là công viên nước hàng đầu g
 - Đồ ăn nhẹ: kiểm tra quy định mang đồ từ ngoài.
 
 Xem chi tiết [Caribbean Bay]({{< ref "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong" >}}) và [Hàn Quốc tháng 8]({{< ref "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di" >}}).
+
+## Gợi ý thực tế bổ sung
+
+Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **phí tham quan** và **tuyến di chuyển** trên [Visit Korea](https://english.visitkorea.or.kr/) hoặc trang chính thức của địa điểm. Thông tin trong bài mang tính tham khảo; giá vé, tỷ giá và lịch trình có thể thay đổi theo mùa, ngày lễ và năm.
+
+### Hợp với ai
+- Người đi lần đầu, cần khung thời gian và điểm đến rõ ràng
+- Nhóm bạn hoặc gia đình muốn cân bằng tham quan và nghỉ ngơi
+- Du khách thích kết hợp ẩm thực địa phương với trải nghiệm ngoài trời
+
+### Không hợp với ai
+- Người chỉ transit vài giờ — nên chọn điểm gần ga, tránh lộ trình dài
+- Ai ngại đông cuối tuần — ưu tiên đi sớm hoặc ngày thường
+- Người cần hỗ trợ di chuyển đầy đủ — nên gọi trước để hỏi lối đi và thang máy
+
+### Di chuyển và chi phí
+Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Mẹo hay quên
+Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.
+
+## Cân nhắc thêm trước ngày đi
+
+**Thời tiết:** Mùa hè Hàn Quốc nóng ẩm; mùa đông lạnh và khô. Kiểm tra dự báo 3–5 ngày trước để điều chỉnh trang phục và lịch ngoài trời. Mưa rào ngắn vẫn có thể xảy ra — ô hoặc áo mưa gấp gọn nên nằm trong túi xách hàng ngày.
+
+**Đặt chỗ:** Nhà hàng nổi tiếng, spa và một số điểm tham quan nên đặt trước qua app hoặc hotline, nhất là cuối tuần. Khách sạn gần ga thường đắt hơn nhưng tiết kiệm thời gian — hợp nếu lịch trình dày.
+
+**An toàn và tiện ích:** Giữ hộ chiếu bản sao điện tử; mang ít tiền mặt nhưng vẫn cần won cho quán nhỏ. Ứng dụng dịch và bản đồ offline giúp ích khi sóng yếu trong hầm metro.

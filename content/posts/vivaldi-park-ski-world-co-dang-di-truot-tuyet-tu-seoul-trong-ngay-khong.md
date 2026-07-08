@@ -125,3 +125,11 @@ Nếu ở lại qua đêm, resort có khách sạn và condominium. Buổi tối
 ## Trước khi đi
 
 Check lịch mở cửa và điều kiện tuyết. Đặt vé lift, shuttle bus, và lesson trước — nhất là cuối tuần. Mang đồ giữ nhiệt, găng chống nước, kính. Và mua bảo hiểm du lịch có coverage trượt tuyết — khoản này nhiều người quên nhưng cực kỳ quan trọng.
+
+## Chuẩn bị thêm cho trượt tuyết
+
+**Trang phục:** Lớp trong thấm mồ hôi, lớp giữ nhiệt, áo khoác chống gió và chống nước; găng tay, mũ và kính bảo vệ mắt. Thuê đồ tại resort tiện nhưng size có thể hết cuối tuần — đến sớm hoặc đặt trước nếu có dịch vụ.
+
+**An toàn:** Người mới nên học lớp cơ bản 2–3 giờ thay vì tự lên slope cao. Kiểm tra điều kiện tuyết và gió trên bảng resort trước khi vào khu vực khó.
+
+**Chi phí:** Giá vé lift, thuê thiết bị và phí xe trượt thay đổi theo mùa và ngày trong tuần. Theo [Visit Korea](https://english.visitkorea.or.kr/), nên đối chiếu bảng giá resort trước khi đi.

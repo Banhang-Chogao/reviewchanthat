@@ -96,3 +96,13 @@ Giá sản phẩm + phí ship + thuế (nếu có) = ? Có voucher giảm giá k
 ### Kết luận
 
 Mất 5 phút kiểm tra 6 bước này có thể tiết kiệm cho bạn cả triệu đồng. Mình từng áp dụng và thấy số lần mua hối hận giảm hẳn. Nếu muốn tìm hiểu sâu hơn về cách xây dựng thói quen mua sắm, bạn có thể xem bài [cách xây dựng thói quen mua sắm thông minh](/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh/).
+
+## Giải thích nhanh từng nhóm đồ
+
+**Giấy tờ:** Hộ chiếu còn hạn theo quy định hãng bay; visa hoặc K-ETA tùy quốc tịch — kiểm tra trên cổng chính thức trước khi bay. Bản in hoặc ảnh chụp đặt phòng và vé giúp check-in nhanh khi mạng chập chờn.
+
+**Quần áo mùa hè:** Vải cotton, lanh hoặc thoáng khí; mang thêm 1–2 bộ dự phòng vì mồ hôi và mưa rào. Áo chống nắng dài tay hữu ích khi đi biển hoặc công viên nước.
+
+**Đồ điện tử:** Adapter Hàn dùng ổ 2 chấu tròn (220V). Sạc dự phòng đủ cho cả ngày dài; cáp dự phòng tránh hỏng cáp chính giữa chuyến.
+
+**Thuốc và y tế:** Mang thuốc cá nhân đang dùng; thuốc cảm, men tiêu hóa, băng cá nhân cho trường hợp nhẹ. Bảo hiểm du lịch nên mua trước chuyến theo [khuyến nghị chung](https://english.visitkorea.or.kr/).

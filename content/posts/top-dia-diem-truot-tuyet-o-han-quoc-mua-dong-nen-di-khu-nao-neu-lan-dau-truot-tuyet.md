@@ -147,3 +147,11 @@ Gondola lên đỉnh 1.340 m, nhà hàng xoay view dãy Taebaek. Cái này khôn
 **Người mới**: đặt ít nhất 1 buổi lesson cơ bản. Đừng tự học — dễ nguy hiểm cho mình và người khác.
 
 **Đặt trước**: vé lift, rental, lesson, shuttle bus — tất cả nên đặt trước, nhất là cuối tuần.
+
+## Chuẩn bị thêm cho trượt tuyết
+
+**Trang phục:** Lớp trong thấm mồ hôi, lớp giữ nhiệt, áo khoác chống gió và chống nước; găng tay, mũ và kính bảo vệ mắt. Thuê đồ tại resort tiện nhưng size có thể hết cuối tuần — đến sớm hoặc đặt trước nếu có dịch vụ.
+
+**An toàn:** Người mới nên học lớp cơ bản 2–3 giờ thay vì tự lên slope cao. Kiểm tra điều kiện tuyết và gió trên bảng resort trước khi vào khu vực khó.
+
+**Chi phí:** Giá vé lift, thuê thiết bị và phí xe trượt thay đổi theo mùa và ngày trong tuần. Theo [Visit Korea](https://english.visitkorea.or.kr/), nên đối chiếu bảng giá resort trước khi đi.

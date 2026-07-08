@@ -130,3 +130,23 @@ Wolmido là điểm kết hợp tốt — Nami cho buổi sáng thiên nhiên, W
 Nếu đi gia đình, [Caribbean Bay Yongin]({{< ref "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md" >}}) cũng dễ dàng kết hợp.
 
 Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}) để lên lịch đầy đủ.
+
+## Gợi ý thực tế bổ sung
+
+Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **phí tham quan** và **tuyến di chuyển** trên [Visit Korea](https://english.visitkorea.or.kr/) hoặc trang chính thức của địa điểm. Thông tin trong bài mang tính tham khảo; giá vé, tỷ giá và lịch trình có thể thay đổi theo mùa, ngày lễ và năm.
+
+### Hợp với ai
+- Người đi lần đầu, cần khung thời gian và điểm đến rõ ràng
+- Nhóm bạn hoặc gia đình muốn cân bằng tham quan và nghỉ ngơi
+- Du khách thích kết hợp ẩm thực địa phương với trải nghiệm ngoài trời
+
+### Không hợp với ai
+- Người chỉ transit vài giờ — nên chọn điểm gần ga, tránh lộ trình dài
+- Ai ngại đông cuối tuần — ưu tiên đi sớm hoặc ngày thường
+- Người cần hỗ trợ di chuyển đầy đủ — nên gọi trước để hỏi lối đi và thang máy
+
+### Di chuyển và chi phí
+Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Mẹo hay quên
+Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

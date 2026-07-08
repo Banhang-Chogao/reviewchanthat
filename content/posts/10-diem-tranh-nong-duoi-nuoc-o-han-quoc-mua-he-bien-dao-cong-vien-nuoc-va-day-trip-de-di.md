@@ -64,7 +64,7 @@ faq:
   question: Giá vé công viên nước có đắt không?
 image: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
 image_commercial_use: true
-image_creator: Pixabay
+image_creator: ''
 image_creator_url: ''
 image_license: Pexels License
 image_owner: external

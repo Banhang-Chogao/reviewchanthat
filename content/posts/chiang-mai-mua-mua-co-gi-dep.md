@@ -120,7 +120,7 @@ Cách Chiang Mai 60km về phía bắc, thác Bua Thong đặc biệt vì nướ
 
 | Thời gian | Hoạt động | Ghi chú |
 |-----------|----------|---------|
-| 8:00–9:00 | Ăn sáng — thử **Khao Soi** (mì cà ri Chiang Mai) | Món đặc sản không thể bỏ lỡ |
+| 8:00–9:00 | Ăn sáng — thử **Khao Soi** (mì cà ri Chiang Mai) | Món đặc sản nên thử ít nhất một lần |
 | 9:00–10:30 | **Wat Chedi Luang** | Chùa cổ nhất Chiang Mai, miễn phí |
 | 10:30–11:30 | **Wat Phra Singh** | Kiến trúc Lanna đẹp nhất |
 | 11:30–12:30 | Đi bộ phố cổ — chụp ảnh cổng thành Tha Phae | |
@@ -182,7 +182,7 @@ Nếu bạn không muốn thuê xe riêng, tour Doi Inthanon có giá 800–1.20
 
 Chiang Mai mùa mưa là một trong những trải nghiệm du lịch bị đánh giá thấp nhất ở Thái Lan. Không khói bụi, không nắng gắt, cây cối xanh mướt — đây là thời điểm lý tưởng để khám phá văn hoá, ẩm thực và thiên nhiên vùng Bắc Thái Lan.
 
-Nếu bạn đang lên lịch cho chuyến đi Thái Lan mùa mưa, hãy cân nhắc dành 3–4 ngày cho Chiang Mai để làm mới trải nghiệm sau những ngày ở [Phuket]({{< ref "posts/phuket-mua-mua-co-nen-di-khong" >}}) hoặc [Bangkok]({{< ref "posts/bangkok-3-ngay-3-dem-mua-mua" >}}). Không khí mát mẻ và nhịp sống chậm rãi của Chiang Mai sẽ là "liều thuốc giải" hoàn hảo cho cái nóng oi bức của miền nam.
+Nếu bạn đang lên lịch cho chuyến đi Thái Lan mùa mưa, hãy cân nhắc dành 3–4 ngày cho Chiang Mai để làm mới trải nghiệm sau những ngày ở [Phuket]({{< ref "posts/phuket-mua-mua-co-nen-di-khong" >}}) hoặc [Bangkok]({{< ref "posts/bangkok-3-ngay-3-dem-mua-mua" >}}). Không khí mát mẻ và nhịp sống chậm rãi của Chiang Mai có thể là lựa chọn hợp lý để đổi nhịp sau những ngày nóng oi bức ở miền nam.
 
 Đừng quên xem thêm [bài tổng quan du lịch Thái Lan mùa mưa]({{< ref "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong" >}}) và [checklist vali đi Thái mùa mưa]({{< ref "posts/checklist-vali-di-thai-mua-mua" >}}) để chuẩn bị kỹ lưỡng nhất.
 

@@ -126,3 +126,23 @@ Xem danh sách [10 điểm tránh nóng dưới nước]({{< ref "posts/10-diem-
 - Tránh ra nắng 11:00–15:00.
 
 Xem [Checklist vali đi Hàn mùa hè]({{< ref "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua" >}}) và [Đi Hàn mùa hè mặc gì]({{< ref "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong" >}}) để chuẩn bị tốt nhất.
+
+## Gợi ý thực tế bổ sung
+
+Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **phí tham quan** và **tuyến di chuyển** trên [Visit Korea](https://english.visitkorea.or.kr/) hoặc trang chính thức của địa điểm. Thông tin trong bài mang tính tham khảo; giá vé, tỷ giá và lịch trình có thể thay đổi theo mùa, ngày lễ và năm.
+
+### Hợp với ai
+- Người đi lần đầu, cần khung thời gian và điểm đến rõ ràng
+- Nhóm bạn hoặc gia đình muốn cân bằng tham quan và nghỉ ngơi
+- Du khách thích kết hợp ẩm thực địa phương với trải nghiệm ngoài trời
+
+### Không hợp với ai
+- Người chỉ transit vài giờ — nên chọn điểm gần ga, tránh lộ trình dài
+- Ai ngại đông cuối tuần — ưu tiên đi sớm hoặc ngày thường
+- Người cần hỗ trợ di chuyển đầy đủ — nên gọi trước để hỏi lối đi và thang máy
+
+### Di chuyển và chi phí
+Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Mẹo hay quên
+Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

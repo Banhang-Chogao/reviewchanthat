@@ -159,3 +159,33 @@ Xem bài viết riêng: [Đi Hàn mùa hè mặc gì cho đẹp mà không nóng
 - **Mẹo:** Mang vali rỗng + balo — chất vali đầy khi về.
 
 Xem thêm [Du lịch Hàn Quốc mùa hè nên đi đâu]({{< ref "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di" >}}) để lên lịch trình chi tiết.
+
+## Giải thích nhanh từng nhóm đồ
+
+**Giấy tờ:** Hộ chiếu còn hạn theo quy định hãng bay; visa hoặc K-ETA tùy quốc tịch — kiểm tra trên cổng chính thức trước khi bay. Bản in hoặc ảnh chụp đặt phòng và vé giúp check-in nhanh khi mạng chập chờn.
+
+**Quần áo mùa hè:** Vải cotton, lanh hoặc thoáng khí; mang thêm 1–2 bộ dự phòng vì mồ hôi và mưa rào. Áo chống nắng dài tay hữu ích khi đi biển hoặc công viên nước.
+
+**Đồ điện tử:** Adapter Hàn dùng ổ 2 chấu tròn (220V). Sạc dự phòng đủ cho cả ngày dài; cáp dự phòng tránh hỏng cáp chính giữa chuyến.
+
+**Thuốc và y tế:** Mang thuốc cá nhân đang dùng; thuốc cảm, men tiêu hóa, băng cá nhân cho trường hợp nhẹ. Bảo hiểm du lịch nên mua trước chuyến theo [khuyến nghị chung](https://english.visitkorea.or.kr/).
+
+## Gợi ý thực tế bổ sung
+
+Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **phí tham quan** và **tuyến di chuyển** trên [Visit Korea](https://english.visitkorea.or.kr/) hoặc trang chính thức của địa điểm. Thông tin trong bài mang tính tham khảo; giá vé, tỷ giá và lịch trình có thể thay đổi theo mùa, ngày lễ và năm.
+
+### Hợp với ai
+- Người đi lần đầu, cần khung thời gian và điểm đến rõ ràng
+- Nhóm bạn hoặc gia đình muốn cân bằng tham quan và nghỉ ngơi
+- Du khách thích kết hợp ẩm thực địa phương với trải nghiệm ngoài trời
+
+### Không hợp với ai
+- Người chỉ transit vài giờ — nên chọn điểm gần ga, tránh lộ trình dài
+- Ai ngại đông cuối tuần — ưu tiên đi sớm hoặc ngày thường
+- Người cần hỗ trợ di chuyển đầy đủ — nên gọi trước để hỏi lối đi và thang máy
+
+### Di chuyển và chi phí
+Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Mẹo hay quên
+Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

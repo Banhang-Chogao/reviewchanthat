@@ -8,6 +8,11 @@ description: 'Tường thuật quá trình tinh chỉnh Veritable Content: từ 
   footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions
   và triết lý text-first.'
 draft: false
+external_links:
+  - title: Hugo Documentation
+    url: https://gohugo.io/documentation/
+  - title: GitHub Actions Documentation
+    url: https://docs.github.com/en/actions
 image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
 image_commercial_use: true
 image_creator: Tran Nhu Tuan
