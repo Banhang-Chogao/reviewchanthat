@@ -20,6 +20,15 @@
 {{- $techCount := index $categoryCounts "cong-nghe" | default 0 -}}
 {{- $reviewCount := index $categoryCounts "review" | default 0 -}}
 
+{{- $tagCounts := dict -}}
+{{- range $published -}}
+  {{- range .Params.tags -}}
+    {{- $key := . -}}
+    {{- $current := index $tagCounts $key | default 0 -}}
+    {{- $tagCounts = merge $tagCounts (dict $key (add $current 1)) -}}
+  {{- end -}}
+{{- end -}}
+
 {{- $isFounding := false -}}
 {{- with $rep.founding_author_ids -}}
   {{- if in . $authorId -}}
@@ -75,6 +84,11 @@
     {{- if ge $catCount $rule.value -}}
       {{- $unlocked = true -}}
     {{- end -}}
+  {{- else if eq $rule.type "min_tag_posts" -}}
+    {{- $tagCount := index $tagCounts $rule.tag | default 0 -}}
+    {{- if ge $tagCount $rule.value -}}
+      {{- $unlocked = true -}}
+    {{- end -}}
   {{- else if eq $rule.type "multi_category_min" -}}
     {{- $allMet := true -}}
     {{- range $cat, $min := $rule.categories -}}
@@ -100,6 +114,7 @@
   "techCount" $techCount
   "reviewCount" $reviewCount
   "categoryCounts" $categoryCounts
+  "tagCounts" $tagCounts
   "currentTier" $currentTier
   "nextTier" $nextTier
   "hasNextTier" $hasNextTier
