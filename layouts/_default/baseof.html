@@ -7,6 +7,7 @@
   <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
   <link rel="apple-touch-icon" href="{{ "favicon.svg" | relURL }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} RSS" href="{{ "index.xml" | absURL }}">
+  <script>(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark-mode')}catch(e){}})()</script>
   {{- block "seo" . }}{{ partial "seo.html" . }}{{ end }}
   {{- partial "schema.html" . }}
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
@@ -37,6 +38,8 @@
   <script src="{{ $clockJs.RelPermalink }}" integrity="{{ $clockJs.Data.Integrity }}" defer></script>
   {{ $searchJs := resources.Get "js/search.js" | minify | fingerprint }}
   <script src="{{ $searchJs.RelPermalink }}" integrity="{{ $searchJs.Data.Integrity }}" defer></script>
+  {{ $themeJs := resources.Get "js/theme-toggle.js" | minify | fingerprint }}
+  <script src="{{ $themeJs.RelPermalink }}" integrity="{{ $themeJs.Data.Integrity }}" defer></script>
   {{ if $isBlogPost }}
   {{ $scrollJs := resources.Get "js/scroll-jump.js" | minify | fingerprint }}
   <script src="{{ $scrollJs.RelPermalink }}" integrity="{{ $scrollJs.Data.Integrity }}" defer></script>
