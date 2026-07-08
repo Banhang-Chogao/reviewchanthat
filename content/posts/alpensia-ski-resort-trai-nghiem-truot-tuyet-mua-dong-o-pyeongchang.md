@@ -25,7 +25,7 @@ title: 'Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Py
 description: 'Alpensia Ski 700 Pyeongchang — ski resort từng đăng cai Olympic 2018. 6 slope, beginner-friendly, kết hợp nghỉ dưỡng và water park. So sánh với Yongpyong.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:20:00+07:00
 draft: false
 categories:
 - du-lich

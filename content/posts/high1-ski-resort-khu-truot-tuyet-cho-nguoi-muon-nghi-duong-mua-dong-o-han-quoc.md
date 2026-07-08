@@ -25,7 +25,7 @@ title: 'High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡ
 description: 'High1 Ski Resort Jeongseon — ski resort thân thiện môi trường với nhà hàng xoay Sky 1340, slope đa dạng và trải nghiệm nghỉ dưỡng 2-3 ngày. So sánh chi phí và di chuyển.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:10:00+07:00
 draft: false
 categories:
 - du-lich

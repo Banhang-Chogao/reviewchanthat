@@ -29,7 +29,7 @@ title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đ
 description: 'So sánh 6 ski resort Hàn Quốc: Vivaldi Park, Elysian Gangchon, Yongpyong, Alpensia, High1 và Oak Valley. Bảng so sánh, gợi ý chọn theo nhu cầu, chi phí và lưu ý thực tế cho người Việt.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 10:00:00+07:00
 draft: false
 categories:
 - du-lich

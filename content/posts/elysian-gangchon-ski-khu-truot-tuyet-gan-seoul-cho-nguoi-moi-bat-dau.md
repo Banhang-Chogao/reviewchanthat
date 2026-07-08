@@ -25,7 +25,7 @@ title: 'Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mớ
 description: 'Elysian Gangchon Ski Resort Chuncheon — resort trượt tuyết gần Seoul nhất, phù hợp beginner, day trip, gia đình. Hướng dẫn di chuyển, chi phí, ski lesson và kinh nghiệm thực tế.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:40:00+07:00
 draft: false
 categories:
 - du-lich

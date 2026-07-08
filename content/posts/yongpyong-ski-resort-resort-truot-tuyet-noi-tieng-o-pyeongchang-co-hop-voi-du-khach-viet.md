@@ -25,7 +25,7 @@ title: 'Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongch
 description: 'Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên thực tế.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:30:00+07:00
 draft: false
 categories:
 - du-lich

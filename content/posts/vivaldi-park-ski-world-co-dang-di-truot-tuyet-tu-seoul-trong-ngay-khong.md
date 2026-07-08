@@ -25,7 +25,7 @@ title: 'Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong
 description: 'Vivaldi Park Ski World Hongcheon: day trip trượt tuyết từ Seoul, giờ hoạt động, giá vé, ski lesson, shuttle bus và những lưu ý thực tế cho người mới.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:50:00+07:00
 draft: false
 categories:
 - du-lich

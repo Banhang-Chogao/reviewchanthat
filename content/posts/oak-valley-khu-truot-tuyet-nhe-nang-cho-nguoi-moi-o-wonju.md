@@ -25,7 +25,7 @@ title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Won
 description: 'Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:00:00+07:00
 draft: false
 categories:
 - du-lich
