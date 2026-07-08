@@ -121,19 +121,22 @@ python scripts/new_post.py "Tiêu đề bài viết" \
 
 ## 🧪 Quality Assurance
 
-**Trước khi commit/publish**, chạy bắt buộc:
-
-```bash
-python scripts/compliance.py --strict --no-public
-python scripts/qa_blog.py
-hugo --minify
-```
-
-Hoặc dùng helper:
+**Trước khi commit/publish**, chạy bắt buộc (một lệnh):
 
 ```bash
 bash scripts/precommit.sh
 ```
+
+Script này chạy tuần tự: `fix_attribution` → `process_images` → `normalize_ai_summaries --check` → `compliance --strict` → `qa_blog` → `hugo --minify` — giống CI.
+
+**Git hook (khuyến nghị):**
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+Hook dùng `.pre-commit-config.yaml` và gọi `scripts/precommit.sh` trước mỗi commit.
 
 ### Content compliance (`scripts/compliance.py`)
 
@@ -281,9 +284,11 @@ Mỗi lần push lên `main`, CI tự động:
 | `scripts/select_images.py` | AI-assisted chọn ảnh từ API Unsplash/Pexels/Pixabay |
 | `scripts/process_images.py` | Download → crop → WebP → watermark → update frontmatter |
 | `scripts/image_dedupe.py` | Detect ảnh trùng (URL, file, perceptual hash) |
+| `scripts/creator_policy.py` | Chính sách creator dùng chung (chặn Pexels/Pixabay/fake names) |
+| `scripts/fix_attribution.py` | Chuẩn hóa manifest/cache/frontmatter creator trước pipeline ảnh |
 | `scripts/compliance.py` | Content compliance: creator, claim, AdSense, tone, duplicate, manual FAQ |
 | `scripts/qa_blog.py` | QA cứng: fail nếu thiếu image, thumbnail, source, license, path sai |
-| `scripts/precommit.sh` | Chạy compliance + QA + hugo build trước commit |
+| `scripts/precommit.sh` | Gate local: attribution + images + compliance + QA + hugo |
 | `data/images.json` | Manifest ảnh của toàn bộ blog |
 | `data/dupe-whitelist.json` | Danh sách URL ảnh được phép dùng nhiều bài |
 

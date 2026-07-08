@@ -10,6 +10,8 @@ import sys
 import json
 import frontmatter
 
+from creator_policy import is_blocked_creator, is_generated_creator
+
 CONTENT_DIR = "content/posts"
 PUBLIC_DIR = "public"
 IMAGES_POSTS_DIR = "static/images/posts"
@@ -20,61 +22,10 @@ IMAGES_MANIFEST_PATH = "data/images.json"
 
 FALLBACK_PATHS = {"images/posts/fallback.webp", "images/fallback.webp"}
 
-BLOCKED_CREATOR_NAMES = {
-    "pexels", "pixabay", "unsplash", "freepik",
-    "park bogum",
-    "park bo-gum",
-    "bae suzy",
-    "iu",
-    "yoo jaesuk",
-    "choi wooshik",
-    "lee minho",
-    "lee min ho",
-    "kim soo hyun",
-    "song hye kyo",
-}
-
-BLOCKED_CREATOR_PHRASES = {
-    "unknown photographer",
-    "photographer unknown",
-    "unknown creator",
-    "creator unknown",
-    "placeholder",
-}
-
-
 def clean_text(value):
     if isinstance(value, str):
         return value.strip()
     return ""
-
-
-def normalized(value):
-    return " ".join(clean_text(value).casefold().split())
-
-
-def is_blocked_creator(value):
-    value_norm = normalized(value)
-    if not value_norm:
-        return False
-    if value_norm in BLOCKED_CREATOR_NAMES:
-        return True
-    return any(phrase in value_norm for phrase in BLOCKED_CREATOR_PHRASES)
-
-
-def generated_creator_value(value, meta, fname):
-    creator_norm = normalized(value)
-    if not creator_norm:
-        return False
-    generated_values = {
-        normalized(meta.get("title", "")),
-        normalized(meta.get("slug", "")),
-        normalized(fname),
-        normalized(os.path.splitext(fname)[0]),
-        normalized(meta.get("image", "")),
-        normalized(os.path.splitext(os.path.basename(meta.get("image", "")))[0]),
-    }
-    return creator_norm in {v for v in generated_values if v}
 
 
 def load_manifest_by_slug():
@@ -220,7 +171,7 @@ def qa():
 
         if is_blocked_creator(image_creator):
             errors.append(f"[INVALID_IMAGE_CREATOR] {slug}: blocked creator value ({image_creator})")
-        if generated_creator_value(image_creator, meta, fname):
+        if is_generated_creator(image_creator, meta, fname):
             errors.append(f"[GENERATED_IMAGE_CREATOR] {slug}: creator appears derived from title/slug/file ({image_creator})")
 
         manifest_entry = manifest_by_slug.get(slug)

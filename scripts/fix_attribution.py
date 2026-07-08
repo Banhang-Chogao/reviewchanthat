@@ -10,59 +10,16 @@ import os
 import re
 import sys
 
+from creator_policy import (
+    attribution_text,
+    clean_text,
+    is_blocked_creator,
+    sanitize_manifest_entry,
+)
+
 CONTENT_DIR = "content/posts"
 IMAGES_MANIFEST_PATH = "data/images.json"
 SOURCE_CACHE_PATH = "data/image-source-cache.json"
-
-BLOCKED_CREATOR_NAMES = {
-    "park bogum",
-    "park bo-gum",
-    "bae suzy",
-    "iu",
-    "yoo jaesuk",
-    "choi wooshik",
-    "lee minho",
-    "lee min ho",
-    "kim soo hyun",
-    "song hye kyo",
-}
-
-BLOCKED_CREATOR_PHRASES = {
-    "unknown photographer",
-    "photographer unknown",
-    "unknown creator",
-    "creator unknown",
-    "placeholder",
-}
-
-
-def clean_text(value):
-    if isinstance(value, str):
-        return value.strip()
-    return ""
-
-
-def normalized(value):
-    return " ".join(clean_text(value).casefold().split())
-
-
-def is_blocked_creator(value):
-    value_norm = normalized(value)
-    if not value_norm:
-        return False
-    if value_norm in BLOCKED_CREATOR_NAMES:
-        return True
-    return any(phrase in value_norm for phrase in BLOCKED_CREATOR_PHRASES)
-
-
-def attribution_text(platform, creator):
-    platform = clean_text(platform)
-    creator = clean_text(creator)
-    if not platform:
-        return ""
-    if creator:
-        return f"Source: {platform} / {creator}"
-    return f"Source: {platform}"
 
 
 def load_json(path, default):
@@ -79,20 +36,6 @@ def save_json(path, data):
         f.write("\n")
 
 
-def normalize_entry(entry):
-    if not isinstance(entry, dict):
-        return False
-    before = json.dumps(entry, ensure_ascii=False, sort_keys=True)
-    creator = clean_text(entry.get("creator"))
-    if is_blocked_creator(creator):
-        creator = ""
-    entry["creator"] = creator
-    entry["creator_url"] = clean_text(entry.get("creator_url")) if creator else ""
-    entry["watermark_text"] = attribution_text(entry.get("source_platform"), creator)
-    after = json.dumps(entry, ensure_ascii=False, sort_keys=True)
-    return before != after
-
-
 def load_manifest():
     if not os.path.exists(IMAGES_MANIFEST_PATH):
         print(f"ERROR: {IMAGES_MANIFEST_PATH} not found")
@@ -100,7 +43,7 @@ def load_manifest():
     manifest = load_json(IMAGES_MANIFEST_PATH, {"posts": []})
     changed = 0
     for entry in manifest.get("posts", []):
-        if normalize_entry(entry):
+        if sanitize_manifest_entry(entry):
             changed += 1
     return manifest, changed
 
@@ -110,7 +53,7 @@ def normalize_source_cache():
     changed = 0
     if isinstance(cache, dict):
         for entry in cache.values():
-            if normalize_entry(entry):
+            if sanitize_manifest_entry(entry):
                 changed += 1
     return cache, changed
 

@@ -15,64 +15,30 @@ import hashlib
 import time
 from urllib.parse import quote
 
+from creator_policy import (
+    attribution_text,
+    clean_text,
+    is_blocked_creator,
+    normalized,
+    sanitize_candidate,
+)
+
 AUDIT_REPORT_PATH = "data/image-audit-report.json"
 IMAGES_MANIFEST_PATH = "data/images.json"
 SELECTION_REPORT_PATH = "data/image-selection-report.json"
 SOURCE_CACHE_PATH = "data/image-source-cache.json"
 
 FALLBACK_KEYWORDS = ["fallback", "placeholder", "generated", "navy", "solid"]
-BLOCKED_CREATOR_NAMES = {
-    "pexels", "pixabay", "unsplash", "freepik", "park bogum", "park bo-gum",
-    "bae suzy", "iu", "yoo jaesuk", "choi wooshik", "lee minho", "lee min ho",
-    "kim soo hyun", "song hye kyo",
-}
-BLOCKED_CREATOR_PHRASES = {
-    "unknown photographer", "photographer unknown", "unknown creator",
-    "creator unknown", "placeholder",
-}
-
-
-def clean_text(value):
-    if isinstance(value, str):
-        return value.strip()
-    return ""
-
-
-def normalized(value):
-    return " ".join(clean_text(value).casefold().split())
-
-
-def is_blocked_creator(value):
-    value_norm = normalized(value)
-    if not value_norm:
-        return False
-    if value_norm in BLOCKED_CREATOR_NAMES:
-        return True
-    return any(phrase in value_norm for phrase in BLOCKED_CREATOR_PHRASES)
 
 
 def sanitize_creator(candidate):
-    creator = clean_text(candidate.get("creator"))
-    if is_blocked_creator(creator):
-        candidate["creator"] = ""
-        candidate["creator_url"] = ""
-    return candidate
+    return sanitize_candidate(candidate)
 
 
 def nested_dict(value):
     if isinstance(value, dict):
         return value
     return {}
-
-
-def attribution_text(platform, creator, prefix="Source:"):
-    platform = clean_text(platform)
-    creator = clean_text(creator)
-    if not platform:
-        return ""
-    if creator:
-        return f"{prefix} {platform} / {creator}"
-    return f"{prefix} {platform}"
 
 
 def load_audit():

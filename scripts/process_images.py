@@ -15,43 +15,16 @@ import hashlib
 import requests
 from PIL import Image, ImageDraw, ImageFont
 
+from creator_policy import attribution_text, clean_text, sanitize_creator_pair
+
 IMAGES_MANIFEST_PATH = "data/images.json"
 POSTS_SRC_DIR = "static/images/posts-src"
 POSTS_DIR = "static/images/posts"
 CONTENT_DIR = "content/posts"
 
 
-def clean_text(value):
-    if isinstance(value, str):
-        return value.strip()
-    return ""
-
-
-BLOCKED_CREATORS = {
-    "pexels", "pixabay", "unsplash", "freepik",
-    "unknown photographer", "photographer unknown", "unknown creator",
-    "creator unknown", "placeholder", "anonymous", "admin",
-}
-
-
-def normalized(value):
-    return " ".join(clean_text(value).casefold().split())
-
-
-def sanitize_creator(creator: str, creator_url: str = "") -> tuple[str, str]:
-    if normalized(creator) in BLOCKED_CREATORS:
-        return "", ""
-    return clean_text(creator), clean_text(creator_url) if clean_text(creator) else ""
-
-
 def watermark_attribution(source, creator):
-    source = clean_text(source)
-    creator = clean_text(creator)
-    if not source:
-        return ""
-    if creator:
-        return f"Source: {source} / {creator}"
-    return f"Source: {source}"
+    return attribution_text(source, creator)
 
 
 def load_manifest():
@@ -223,7 +196,7 @@ def main():
         source_url = entry.get("source_url", "")
         license_val = entry.get("license", "")
         commercial = entry.get("commercial_use", False)
-        creator, creator_url = sanitize_creator(
+        creator, creator_url = sanitize_creator_pair(
             entry.get("creator", ""),
             entry.get("creator_url", ""),
         )

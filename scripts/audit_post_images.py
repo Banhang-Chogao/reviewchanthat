@@ -10,51 +10,12 @@ import sys
 from collections import defaultdict
 import frontmatter
 
+from creator_policy import clean_text, is_blocked_creator, normalized
+
 CONTENT_DIR = "content/posts"
 REPORT_PATH = "data/image-audit-report.json"
 IMAGES_POSTS_DIR = "static/images/posts"
 IMAGES_MANIFEST_PATH = "data/images.json"
-
-BLOCKED_CREATOR_NAMES = {
-    "park bogum",
-    "park bo-gum",
-    "bae suzy",
-    "iu",
-    "yoo jaesuk",
-    "choi wooshik",
-    "lee minho",
-    "lee min ho",
-    "kim soo hyun",
-    "song hye kyo",
-}
-
-BLOCKED_CREATOR_PHRASES = {
-    "unknown photographer",
-    "photographer unknown",
-    "unknown creator",
-    "creator unknown",
-    "placeholder",
-}
-
-
-def clean_text(value):
-    if isinstance(value, str):
-        return value.strip()
-    return ""
-
-
-def normalized(value):
-    return " ".join(clean_text(value).casefold().split())
-
-
-def is_blocked_creator(value):
-    value_norm = normalized(value)
-    if not value_norm:
-        return False
-    if value_norm in BLOCKED_CREATOR_NAMES:
-        return True
-    return any(phrase in value_norm for phrase in BLOCKED_CREATOR_PHRASES)
-
 
 def load_manifest_by_slug():
     if not os.path.exists(IMAGES_MANIFEST_PATH):

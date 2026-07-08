@@ -29,6 +29,9 @@ except ImportError:
     print("python-frontmatter not installed. Run: pip install python-frontmatter")
     sys.exit(2)
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from creator_policy import is_blocked_creator
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIRS = [
     os.path.join(ROOT, "content", "posts"),
@@ -51,13 +54,6 @@ IMAGE_REQUIRED = (
 )
 FALLBACK_MARKERS = ("fallback", "placeholder", "default", "generated", "navy")
 DATE_PLACEHOLDERS = {"2025-01-01", "2026-01-01"}
-BLOCKED_CREATORS = {
-    "park bogum", "park bo-gum", "bae suzy", "iu", "yoo jaesuk", "choi wooshik",
-    "lee minho", "lee min ho", "kim soo hyun", "song hye kyo",
-    "unknown photographer", "photographer unknown", "unknown creator", "creator unknown",
-    "anonymous", "admin", "review chân thật", "review chan that", "pexels", "pixabay",
-    "unsplash", "freepik", "placeholder",
-}
 ALLOWED_IMAGE_SOURCES = {"pexels", "pixabay", "unsplash", "freepik", "self", "self-owned"}
 SOURCE_DOMAINS = {
     "pexels": ("pexels.com",),
@@ -467,7 +463,7 @@ class ComplianceChecker:
 
     def _verified_creator(self, slug: str, creator: str) -> bool:
         creator_norm = normalized(creator)
-        if not creator_norm or creator_norm in BLOCKED_CREATORS:
+        if not creator_norm or is_blocked_creator(creator):
             return False
         entry = self.manifest_by_slug.get(slug) or self.cache_by_slug.get(slug)
         if not entry:
@@ -480,7 +476,7 @@ class ComplianceChecker:
         if not creator:
             return
         creator_norm = normalized(creator)
-        if creator_norm in BLOCKED_CREATORS:
+        if is_blocked_creator(creator):
             self.add_issue(
                 "ERROR",
                 "FAKE_IMAGE_CREATOR",
