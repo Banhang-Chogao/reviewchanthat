@@ -25,7 +25,7 @@ title: 'High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡ
 description: 'High1 Ski Resort Jeongseon — ski resort thân thiện môi trường với nhà hàng xoay Sky 1340, slope đa dạng và trải nghiệm nghỉ dưỡng 2-3 ngày. So sánh chi phí và di chuyển.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:10:00+07:00
 draft: false
 categories:
 - du-lich
@@ -46,6 +46,13 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc
+internal_links:
+- title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông'
+  ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
+- title: 'Yongpyong Ski Resort'
+  ref: posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md
+- title: 'Alpensia Ski Resort'
+  ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md
 ---
 
 High1 Ski Resort là một trong những ski resort lớn và được yêu thích nhất ở Hàn Quốc, nằm ở Jeongseon, Gangwon-do. Điểm đặc biệt của High1 không chỉ nằm ở chất lượng slope mà còn ở trải nghiệm nghỉ dưỡng tổng thể — từ nhà hàng xoay Sky 1340 trên đỉnh núi đến thiết kế thân thiện môi trường.
@@ -98,8 +105,3 @@ Lịch mở cửa phụ thuộc thời tiết và điều kiện tuyết. Cần 
 - Bảo hiểm du lịch
 - Nếu đi KTX, đặt vé ga Seoul → ga Gohan trước
 
-## Link nội bộ
-
-Xem thêm bài tổng hợp [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông]({{< ref "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md" >}}).
-
-Resort quy mô lớn tương tự: [Yongpyong Ski Resort]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}), khu vực Pyeongchang: [Alpensia Ski Resort]({{< ref "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md" >}}).

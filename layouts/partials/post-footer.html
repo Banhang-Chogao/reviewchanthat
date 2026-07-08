@@ -1,11 +1,11 @@
 {{- $page := . -}}
-{{- $resolvedInternal := slice -}}
-{{- range .Params.internal_links -}}
-  {{- $r := partial "link-resolver.html" (dict "page" $page "item" .) -}}
-  {{- if $r -}}
-    {{- $resolvedInternal = $resolvedInternal | append (dict "url" $r "title" (.title | default $r)) -}}
-  {{- end -}}
-{{- end -}}
+{{- /*
+The "auto macro": collect internal links from BOTH the curated
+internal_links front matter and any {{< ref >}} / markdown links
+found in the rendered body. This keeps the footer accurate even when
+an author forgets to populate internal_links.
+*/ -}}
+{{- $resolvedInternal := partial "post-internal-links-collect.html" $page -}}
 
 <div class="post-footer-macro" aria-label="Thông tin bổ sung cuối bài viết">
   <section class="post-footer-block post-footer-block--internal">

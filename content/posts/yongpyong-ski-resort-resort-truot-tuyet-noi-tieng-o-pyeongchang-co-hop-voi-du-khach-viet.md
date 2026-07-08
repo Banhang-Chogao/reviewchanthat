@@ -25,7 +25,7 @@ title: 'Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongch
 description: 'Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên thực tế.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:30:00+07:00
 draft: false
 categories:
 - du-lich
@@ -46,6 +46,13 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet
+internal_links:
+- title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông'
+  ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
+- title: 'Alpensia Ski Resort'
+  ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md
+- title: 'High1 Ski Resort'
+  ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
 ---
 
 Yongpyong (hay MONA YongPyong) là ski resort lớn nhất Hàn Quốc với tổng diện tích slope hơn 1,1 triệu mét vuông và 28 đường trượt. Đây từng là địa điểm thi đấu môn trượt tuyết đổ đèo (alpine skiing) tại Thế vận hội mùa đông PyeongChang 2018.
@@ -95,8 +102,3 @@ Giá vé và lịch mở cửa thay đổi theo mùa. Cần kiểm tra trạng t
 - Đồ giữ nhiệt, găng tay chống nước, kính trượt
 - Bảo hiểm du lịch
 
-## Link nội bộ
-
-Xem thêm bài tổng hợp [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông]({{< ref "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md" >}}).
-
-Resort cùng khu vực Pyeongchang: [Alpensia Ski Resort]({{< ref "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md" >}}), và resort xa hơn nhưng lớn: [High1 Ski Resort]({{< ref "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md" >}}).

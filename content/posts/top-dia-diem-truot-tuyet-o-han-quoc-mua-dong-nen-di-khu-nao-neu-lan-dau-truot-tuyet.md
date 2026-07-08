@@ -29,7 +29,7 @@ title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đ
 description: 'So sánh 6 ski resort Hàn Quốc: Vivaldi Park, Elysian Gangchon, Yongpyong, Alpensia, High1 và Oak Valley. Bảng so sánh, gợi ý chọn theo nhu cầu, chi phí và lưu ý thực tế cho người Việt.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 10:00:00+07:00
 draft: false
 categories:
 - du-lich
@@ -50,6 +50,19 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet
+internal_links:
+- title: 'Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?'
+  ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
+- title: 'Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu'
+  ref: posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md
+- title: 'Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?'
+  ref: posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md
+- title: 'Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang'
+  ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md
+- title: 'High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc'
+  ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
+- title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju'
+  ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
 ---
 
 Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì tiếc — nhưng chọn resort nào giữa hàng chục lựa chọn ở Gangwon-do? Bài viết này so sánh 6 ski resort đã được xác minh thông tin từ nguồn chính thức, giúp bạn quyết định nên đi đâu dựa trên lịch trình, ngân sách và trình độ.
@@ -132,12 +145,3 @@ Gondola Sky 1340 lên đỉnh núi cao 1.340 m với nhà hàng xoay — view to
 
 **Đặt trước**: Vé lift, rental, lesson và shuttle bus nên đặt trước, đặc biệt nếu đi cuối tuần hoặc dịp lễ. Resort thường hết chỗ và giá cao hơn nếu mua tại chỗ.
 
-## Link nội bộ
-
-Bài viết chi tiết từng resort:
-- [Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}})
-- [Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}})
-- [Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}})
-- [Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang]({{< ref "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md" >}})
-- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc]({{< ref "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md" >}})
-- [Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}})

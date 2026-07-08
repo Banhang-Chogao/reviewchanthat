@@ -25,7 +25,7 @@ title: 'Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Py
 description: 'Alpensia Ski 700 Pyeongchang — ski resort từng đăng cai Olympic 2018. 6 slope, beginner-friendly, kết hợp nghỉ dưỡng và water park. So sánh với Yongpyong.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:20:00+07:00
 draft: false
 categories:
 - du-lich
@@ -46,6 +46,13 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang
+internal_links:
+- title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông'
+  ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
+- title: 'Yongpyong Ski Resort'
+  ref: posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md
+- title: 'High1 Ski Resort'
+  ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
 ---
 
 Alpensia Ski Resort tọa lạc ở độ cao 700 m tại Daegwallyeong, Pyeongchang — cùng khu vực với Yongpyong nhưng mang một trải nghiệm khác. Alpensia từng là nơi tổ chức các nội dung thi đấu tại Olympic mùa đông PyeongChang 2018, nhưng ngày nay resort này hướng đến đối tượng gia đình và người muốn kết hợp trượt tuyết với nghỉ dưỡng.
@@ -92,8 +99,3 @@ Lịch mở cửa và giá vé thay đổi theo mùa và điều kiện tuyết 
 - Nếu đi cùng người không trượt, xem combo ski + Ocean700
 - Đồ giữ nhiệt, găng tay chống nước, kính trượt, bảo hiểm du lịch
 
-## Link nội bộ
-
-Xem thêm bài tổng hợp [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông]({{< ref "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md" >}}).
-
-Resort cùng khu vực: [Yongpyong Ski Resort]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}). Resort xa hơn: [High1 Ski Resort]({{< ref "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md" >}}).

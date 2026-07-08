@@ -10,31 +10,30 @@
 
 {{- with $page.Params.internal_links -}}
   {{- range . -}}
-    {{- $href := strings.TrimSpace (.url | default "") -}}
-    {{- if not $href -}}{{- continue -}}{{- end -}}
-    {{- $title := strings.TrimSpace (.title | default "") -}}
-    {{- if not $title -}}{{- $title = $href -}}{{- end -}}
-    {{- $effectiveHref := $href -}}
-    {{- if hasPrefix $href "http" -}}
-      {{- with urls.Parse $href -}}
-        {{- if eq .Host $siteHost -}}
-          {{- $effectiveHref = .Path -}}
-        {{- end -}}
+    {{- $candidate := "" -}}
+    {{- with .ref }}{{ $candidate = printf "posts/%s" (strings.TrimPrefix "posts/" .) }}{{ end -}}
+    {{- if not $candidate }}{{ with .file }}{{ $candidate = printf "posts/%s" (strings.TrimPrefix "posts/" .) }}{{ end }}{{ end -}}
+    {{- if not $candidate }}{{ with .path }}{{ $candidate = . }}{{ end }}{{ end -}}
+    {{- if not $candidate }}{{ with .slug }}{{ $candidate = printf "posts/%s" . }}{{ end }}{{ end -}}
+    {{- if not $candidate -}}
+      {{- with .url -}}
+        {{- $u := . -}}
+        {{- if hasPrefix $u "http" }}{{ with urls.Parse $u }}{{ $u = .Path }}{{ end }}{{ end -}}
+        {{- $u = strings.TrimPrefix "/reviewchanthat" $u | strings.TrimPrefix "/" | strings.TrimSuffix "/" -}}
+        {{- if $u }}{{ $candidate = $u }}{{ end -}}
       {{- end -}}
     {{- end -}}
-    {{- $slug := $effectiveHref | strings.TrimPrefix "/" | strings.TrimPrefix "posts/" | strings.TrimSuffix "/" -}}
-    {{- $target := site.GetPage (path.Join "posts" $slug) -}}
-    {{- $url := "" -}}
-    {{- if $target -}}
-      {{- $url = $target.RelPermalink -}}
-    {{- else if ne $effectiveHref $href -}}
-      {{- $url = $href -}}
-    {{- else -}}
-      {{- $url = $effectiveHref | strings.TrimPrefix "/" | relURL -}}
-    {{- end -}}
+    {{- if not $candidate }}{{ continue }}{{ end -}}
+    {{- $target := site.GetPage $candidate -}}
+    {{- if not $target }}{{ with $page.Site.GetPage (printf "/%s" $candidate) }}{{ $target = . }}{{ end }}{{ end -}}
+    {{- if not $target }}{{ continue }}{{ end -}}
+    {{- $url := $target.RelPermalink -}}
     {{- $key := $url | strings.TrimSuffix "/" -}}
-    {{- if or (eq $key $selfKey) (index $seen $key) -}}{{- continue -}}{{- end -}}
+    {{- if or (eq $key $selfKey) (index $seen $key) }}{{ continue }}{{ end -}}
     {{- $seen = merge $seen (dict $key true) -}}
+    {{- $title := strings.TrimSpace (.title | default "") -}}
+    {{- if not $title }}{{ $title = $target.Title }}{{ end -}}
+    {{- if not $title }}{{ $title = $key }}{{ end -}}
     {{- $items = $items | append (dict "url" $url "title" $title) -}}
   {{- end -}}
 {{- end -}}

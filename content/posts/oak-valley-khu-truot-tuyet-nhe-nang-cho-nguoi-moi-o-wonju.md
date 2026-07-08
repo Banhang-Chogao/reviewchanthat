@@ -25,7 +25,7 @@ title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Won
 description: 'Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-date: 2026-07-08 07:00:00+07:00
+date: 2026-07-08 09:00:00+07:00
 draft: false
 categories:
 - du-lich
@@ -46,6 +46,13 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju
+internal_links:
+- title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông'
+  ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
+- title: 'Elysian Gangchon Ski'
+  ref: posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md
+- title: 'Vivaldi Park Ski World'
+  ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
 ---
 
 Oak Valley (tên đầy đủ: Oak Valley Snow Park, trước đây gọi là Oak Hills CC) là một ski resort nhỏ nằm ở Wonju, Gangwon-do. Nếu bạn muốn một ngày trượt tuyết nhẹ nhàng, không đông đúc và gần Seoul, Oak Valley là lựa chọn đáng cân nhắc.
@@ -100,8 +107,3 @@ Shuttle bus từ Seoul chỉ hoạt động cuối tuần — ngày thường ph
 - Đồ giữ nhiệt, găng tay, kính, bảo hiểm du lịch
 - Oak Valley ít đông, nhưng cuối tuần vẫn nên đến sớm
 
-## Link nội bộ
-
-Xem thêm bài tổng hợp [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông]({{< ref "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md" >}}).
-
-Resort gần Seoul phù hợp beginner khác: [Elysian Gangchon Ski]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}), [Vivaldi Park Ski World]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}).
