@@ -4,30 +4,12 @@
       "id": "[\"du-lich-thai-lan-mua-mua\"]",
       "title": "Du lịch Thái Lan mùa mưa",
       "url": "series/[\"du-lich-thai-lan-mua-mua\"]/",
-      "count": 13,
+      "count": 10,
       "posts": [
-        {
-          "title": "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu",
-          "url": "du-lich-thai-lan-mua-mua-co-nen-di-khong/",
-          "order": 1,
-          "date": "2026-07-08"
-        },
         {
           "title": "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý",
           "url": "di-thai-lan-thang-7-co-nen-khong/",
           "order": 2,
-          "date": "2026-07-08"
-        },
-        {
-          "title": "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour",
-          "url": "bangkok-ngay-mua-nen-di-dau/",
-          "order": 3,
-          "date": "2026-07-08"
-        },
-        {
-          "title": "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu",
-          "url": "bangkok-3-ngay-3-dem-mua-mua/",
-          "order": 4,
           "date": "2026-07-08"
         },
         {
@@ -233,7 +215,7 @@
       "count": 13,
       "posts": [
         {
-          "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
+          "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình",
           "url": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/",
           "order": 1,
           "date": "2026-07-08"
@@ -322,6 +304,130 @@
           "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn",
           "url": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi/",
           "order": 1,
+          "date": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "id": "ios-27-co-gi-moi",
+      "title": "iOS 27 có gì mới",
+      "url": "series/ios-27-co-gi-moi/",
+      "count": 9,
+      "posts": [
+        {
+          "title": "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone",
+          "url": "ios-27-co-gi-moi/",
+          "order": 1,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới Apple Intelligence",
+          "url": "ios-27-ho-tro-iphone-nao/",
+          "order": 2,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?",
+          "url": "ios-27-apple-intelligence-iphone-cu/",
+          "order": 3,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ",
+          "url": "ios-27-cai-thien-pin-iphone/",
+          "order": 4,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?",
+          "url": "ios-27-camera-anh-video-iphone/",
+          "order": 5,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
+          "url": "ios-27-co-nen-cap-nhat-ngay-khong/",
+          "order": 6,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về bản ổn định",
+          "url": "ios-27-beta-co-nen-cai-khong/",
+          "order": 7,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?",
+          "url": "ios-27-quyen-rieng-tu-iphone/",
+          "order": 8,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?",
+          "url": "ios-27-so-voi-ios-26/",
+          "order": 9,
+          "date": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "id": "macos-27-co-gi-moi",
+      "title": "macOS 27 có gì mới",
+      "url": "series/macos-27-co-gi-moi/",
+      "count": 9,
+      "posts": [
+        {
+          "title": "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac",
+          "url": "macos-27-co-gi-moi/",
+          "order": 1,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
+          "url": "macos-27-ho-tro-may-mac-nao/",
+          "order": 2,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
+          "url": "macos-27-apple-intelligence-macbook/",
+          "order": 3,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
+          "url": "macos-27-hieu-nang-pin-macbook/",
+          "order": 4,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?",
+          "url": "macos-27-cho-van-phong-creator-lap-trinh-vien/",
+          "order": 5,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
+          "url": "macos-27-co-nen-nang-cap-ngay-khong/",
+          "order": 6,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
+          "url": "macos-27-beta-co-nen-cai-khong/",
+          "order": 7,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "macOS 27 so với macOS 26: khác gì với người dùng Mac?",
+          "url": "macos-27-so-voi-macos-26/",
+          "order": 8,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app",
+          "url": "chuan-bi-macbook-truoc-khi-len-macos-27/",
+          "order": 9,
           "date": "2026-07-08"
         }
       ]

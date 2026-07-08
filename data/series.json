@@ -29,6 +29,18 @@
       "label": "Du lịch Thái Lan mùa mưa",
       "description": "Cẩm nang du lịch Thái Lan mùa mưa (tháng 7–8) — điểm đến, lịch trình, chi phí, đổi tiền, di chuyển và kinh nghiệm thực tế cho người Việt đi tự túc.",
       "order": 35
+    },
+    {
+      "slug": "ios-27-co-gi-moi",
+      "label": "iOS 27 có gì mới",
+      "description": "Series 9 bài về iOS 27 sau WWDC26 — Siri AI, Apple Intelligence, tương thích iPhone, pin, camera, beta và checklist nâng cấp cho người dùng Việt Nam.",
+      "order": 5
+    },
+    {
+      "slug": "macos-27-co-gi-moi",
+      "label": "macOS 27 có gì mới",
+      "description": "Series 9 bài về macOS Golden Gate 27 — Siri AI, Apple Intelligence trên Mac, tương thích, hiệu năng, workflow và checklist nâng cấp.",
+      "order": 6
     }
   ]
 }

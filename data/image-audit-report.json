@@ -1,7 +1,7 @@
 {
-  "total_posts": 65,
+  "total_posts": 83,
   "summary": {
-    "valid": 65,
+    "valid": 83,
     "missing_image": 0,
     "broken_image_path": 0,
     "missing_license_metadata": 0,
@@ -152,7 +152,7 @@
       "image": "images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp",
       "thumbnail": "images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/busan-summer-beach-aerial-29188040/",
+      "image_source_url": "https://www.pexels.com/photo/vibrant-nighttime-skyline-of-busan-south-korea-29861385/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
@@ -224,7 +224,7 @@
       "image": "images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp",
       "thumbnail": "images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/caribbean-bay-water-park-29188044/",
+      "image_source_url": "https://www.pexels.com/photo/thrill-ride-fun-at-amusement-park-38331866/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
@@ -300,7 +300,7 @@
       "image": "images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp",
       "thumbnail": "images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/travel-packing-summer-29188047/",
+      "image_source_url": "https://www.pexels.com/photo/girls-looking-through-clothes-in-a-suitcase-13929267/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
@@ -424,6 +424,31 @@
       ]
     },
     {
+      "slug": "chuan-bi-macbook-truoc-khi-len-macos-27",
+      "title": "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp",
+      "thumbnail": "images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/silver-macbook-on-brown-wooden-table-442150/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "macOS 27",
+        "chuẩn bị Mac",
+        "backup Mac",
+        "Time Machine",
+        "nâng cấp macOS"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
       "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
       "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
       "status": "valid",
@@ -516,7 +541,7 @@
       "image": "images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp",
       "thumbnail": "images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/korean-fashion-summer-29188048/",
+      "image_source_url": "https://www.pexels.com/photo/people-walking-with-umbrellas-on-the-pavement-in-city-19271589/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
@@ -541,7 +566,7 @@
       "image": "images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp",
       "thumbnail": "images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/jeju-rainy-day-29188043/",
+      "image_source_url": "https://www.pexels.com/photo/scenic-rocky-coastline-in-jeju-island-korea-34350262/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
@@ -801,7 +826,7 @@
       "image": "images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp",
       "thumbnail": "images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/busan-night-beach-gwangan-29188041/",
+      "image_source_url": "https://www.pexels.com/photo/vibrant-night-view-of-busan-s-cityscape-and-bridge-36046039/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
@@ -893,6 +918,232 @@
       ],
       "categories": [
         "du-lich"
+      ]
+    },
+    {
+      "slug": "ios-27-apple-intelligence-iphone-cu",
+      "title": "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-27-apple-intelligence-iphone-cu.webp",
+      "thumbnail": "images/posts/ios-27-apple-intelligence-iphone-cu.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/close-up-of-a-person-holding-an-iphone-15-pro-19060767/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Apple Intelligence",
+        "iOS 27",
+        "Siri AI",
+        "iPhone",
+        "AI trên iPhone"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "ios-27-beta-co-nen-cai-khong",
+      "title": "iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về bản ổn định",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-27-beta-co-nen-cai-khong.webp",
+      "thumbnail": "images/posts/ios-27-beta-co-nen-cai-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/iphone-smartphone-desk-laptop-699122/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iOS 27 beta",
+        "public beta",
+        "developer beta",
+        "iPhone",
+        "cài beta"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "ios-27-cai-thien-pin-iphone",
+      "title": "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-27-cai-thien-pin-iphone.webp",
+      "thumbnail": "images/posts/ios-27-cai-thien-pin-iphone.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/man-in-blue-shirt-holding-iphone-8052289/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iOS 27",
+        "pin iPhone",
+        "Battery Health",
+        "Siri AI",
+        "tiết kiệm pin"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "ios-27-camera-anh-video-iphone",
+      "title": "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-27-camera-anh-video-iphone.webp",
+      "thumbnail": "images/posts/ios-27-camera-anh-video-iphone.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/iphone-6-on-macbook-pro-404139/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iOS 27",
+        "Camera iPhone",
+        "Photos",
+        "Spatial Reframing",
+        "Visual Intelligence"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "ios-27-co-gi-moi",
+      "title": "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-27-co-gi-moi.webp",
+      "thumbnail": "images/posts/ios-27-co-gi-moi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/white-apple-iphone-on-wooden-table-48605/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iOS 27",
+        "iOS 27 có gì mới",
+        "Siri AI",
+        "Apple Intelligence",
+        "iPhone",
+        "WWDC26"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "ios-27-co-nen-cap-nhat-ngay-khong",
+      "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp",
+      "thumbnail": "images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/black-iphone-4-on-white-book-1092644/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iOS 27",
+        "cập nhật iOS",
+        "checklist",
+        "iPhone",
+        "nâng cấp iOS"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "ios-27-ho-tro-iphone-nao",
+      "title": "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới Apple Intelligence",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-27-ho-tro-iphone-nao.webp",
+      "thumbnail": "images/posts/ios-27-ho-tro-iphone-nao.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/apple-smartphone-iphone-14-on-the-palmrest-of-macbook-pro-laptop-18311094/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iOS 27",
+        "tương thích iPhone",
+        "iPhone 11",
+        "iPhone 15 Pro",
+        "iPhone 16"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "ios-27-quyen-rieng-tu-iphone",
+      "title": "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-27-quyen-rieng-tu-iphone.webp",
+      "thumbnail": "images/posts/ios-27-quyen-rieng-tu-iphone.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/iphone-ipad-laptop-788946/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iOS 27",
+        "quyền riêng tư",
+        "Private Cloud Compute",
+        "Apple Intelligence",
+        "an toàn trẻ em"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "ios-27-so-voi-ios-26",
+      "title": "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-27-so-voi-ios-26.webp",
+      "thumbnail": "images/posts/ios-27-so-voi-ios-26.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-holding-black-iphone-6476589/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "iOS 27",
+        "iOS 26",
+        "so sánh iOS",
+        "Siri AI",
+        "nâng cấp iOS"
+      ],
+      "categories": [
+        "cong-nghe"
       ]
     },
     {
@@ -1047,6 +1298,207 @@
       ],
       "categories": [
         "du-lich"
+      ]
+    },
+    {
+      "slug": "macos-27-apple-intelligence-macbook",
+      "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/macos-27-apple-intelligence-macbook.webp",
+      "thumbnail": "images/posts/macos-27-apple-intelligence-macbook.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-coding-on-a-macbook-pro-4974912/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Apple Intelligence",
+        "macOS 27",
+        "Siri AI",
+        "MacBook",
+        "AI trên Mac"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "macos-27-beta-co-nen-cai-khong",
+      "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/macos-27-beta-co-nen-cai-khong.webp",
+      "thumbnail": "images/posts/macos-27-beta-co-nen-cai-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/macbook-pro-on-rooftop-with-code-editor-open-37085305/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "macOS 27 beta",
+        "public beta",
+        "developer beta",
+        "Mac",
+        "cài beta"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "macos-27-cho-van-phong-creator-lap-trinh-vien",
+      "title": "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp",
+      "thumbnail": "images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-using-macbook-pro-574077/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "macOS 27",
+        "lập trình viên Mac",
+        "creator",
+        "văn phòng",
+        "workflow Mac"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "macos-27-co-gi-moi",
+      "title": "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/macos-27-co-gi-moi.webp",
+      "thumbnail": "images/posts/macos-27-co-gi-moi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/macbook-pro-92904/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "macOS 27",
+        "macOS Golden Gate",
+        "Siri AI",
+        "Apple Intelligence",
+        "Mac",
+        "WWDC26"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "macos-27-co-nen-nang-cap-ngay-khong",
+      "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/macos-27-co-nen-nang-cap-ngay-khong.webp",
+      "thumbnail": "images/posts/macos-27-co-nen-nang-cap-ngay-khong.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/modern-workspace-with-coding-laptop-and-coffee-34803979/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "macOS 27",
+        "nâng cấp macOS",
+        "checklist",
+        "Mac",
+        "Golden Gate"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "macos-27-hieu-nang-pin-macbook",
+      "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/macos-27-hieu-nang-pin-macbook.webp",
+      "thumbnail": "images/posts/macos-27-hieu-nang-pin-macbook.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/workplace-with-modern-laptop-with-program-code-on-screen-3888151/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "macOS 27",
+        "hiệu năng Mac",
+        "pin MacBook",
+        "MacBook Air",
+        "MacBook Pro"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "macos-27-ho-tro-may-mac-nao",
+      "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/macos-27-ho-tro-may-mac-nao.webp",
+      "thumbnail": "images/posts/macos-27-ho-tro-may-mac-nao.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/turned-on-macbook-pro-693859/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "macOS 27",
+        "tương thích Mac",
+        "Mac Intel",
+        "Apple Silicon",
+        "MacBook"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "macos-27-so-voi-macos-26",
+      "title": "macOS 27 so với macOS 26: khác gì với người dùng Mac?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/macos-27-so-voi-macos-26.webp",
+      "thumbnail": "images/posts/macos-27-so-voi-macos-26.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/apple-macbook-on-the-table-450035/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "macOS 27",
+        "macOS 26",
+        "so sánh macOS",
+        "Golden Gate",
+        "nâng cấp"
+      ],
+      "categories": [
+        "cong-nghe"
       ]
     },
     {

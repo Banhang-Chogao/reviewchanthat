@@ -21,12 +21,42 @@ SELECTION_REPORT_PATH = "data/image-selection-report.json"
 SOURCE_CACHE_PATH = "data/image-source-cache.json"
 
 FALLBACK_KEYWORDS = ["fallback", "placeholder", "generated", "navy", "solid"]
+BLOCKED_CREATOR_NAMES = {
+    "pexels", "pixabay", "unsplash", "freepik", "park bogum", "park bo-gum",
+    "bae suzy", "iu", "yoo jaesuk", "choi wooshik", "lee minho", "lee min ho",
+    "kim soo hyun", "song hye kyo",
+}
+BLOCKED_CREATOR_PHRASES = {
+    "unknown photographer", "photographer unknown", "unknown creator",
+    "creator unknown", "placeholder",
+}
 
 
 def clean_text(value):
     if isinstance(value, str):
         return value.strip()
     return ""
+
+
+def normalized(value):
+    return " ".join(clean_text(value).casefold().split())
+
+
+def is_blocked_creator(value):
+    value_norm = normalized(value)
+    if not value_norm:
+        return False
+    if value_norm in BLOCKED_CREATOR_NAMES:
+        return True
+    return any(phrase in value_norm for phrase in BLOCKED_CREATOR_PHRASES)
+
+
+def sanitize_creator(candidate):
+    creator = clean_text(candidate.get("creator"))
+    if is_blocked_creator(creator):
+        candidate["creator"] = ""
+        candidate["creator_url"] = ""
+    return candidate
 
 
 def nested_dict(value):
@@ -151,7 +181,7 @@ class PexelsProvider(BaseProvider):
                 candidates = []
                 for photo in data.get("photos", []):
                     src = nested_dict(photo.get("src"))
-                    candidates.append({
+                    candidates.append(sanitize_creator({
                         "source_platform": "Pexels",
                         "source_url": clean_text(photo.get("url")),
                         "direct_url": clean_text(src.get("large2x")) or clean_text(src.get("large")),
@@ -161,7 +191,7 @@ class PexelsProvider(BaseProvider):
                         "commercial_use": True,
                         "width": photo.get("width", 0),
                         "height": photo.get("height", 0),
-                    })
+                    }))
                 return candidates
             else:
                 print(f"    [{self.name}] API error: {resp.status_code}")
@@ -201,7 +231,7 @@ class PixabayProvider(BaseProvider):
                 candidates = []
                 for hit in data.get("hits", []):
                     creator = clean_text(hit.get("user"))
-                    candidates.append({
+                    candidates.append(sanitize_creator({
                         "source_platform": "Pixabay",
                         "source_url": clean_text(hit.get("pageURL")),
                         "direct_url": clean_text(hit.get("largeImageURL")),
@@ -211,7 +241,7 @@ class PixabayProvider(BaseProvider):
                         "commercial_use": True,
                         "width": hit.get("imageWidth", 0),
                         "height": hit.get("imageHeight", 0),
-                    })
+                    }))
                 return candidates
             else:
                 print(f"    [{self.name}] API error: {resp.status_code}")
