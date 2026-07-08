@@ -31,17 +31,30 @@ external_links:
   url: https://english.visitseoul.net/>
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
-    https://english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'
+title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người
+  mê làm đẹp'
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc 2026
+- Seoul
+- K-beauty
+- makeup Hàn Quốc
+- personal color
+- mỹ phẩm Hàn Quốc
+- series du lịch
+image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
+thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+image_license: Unsplash License
+image_commercial_use: true
+image_owner: external
 slug: trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep
-aliases:
+
   - /posts/tr%E1%BA%A3i-nghi%E1%BB%87m-k-beauty-%E1%BB%9F-seoul-makeup-personal-color-v%C3%A0-l%E1%BB%8Bch-tr%C3%ACnh-cho-ng%C6%B0%E1%BB%9Di-m%C3%AA-l%C3%A0m-%C4%91%E1%BA%B9p/
 ---
 
-Seoul là kinh đô làm đẹp của châu Á, và trải nghiệm K-beauty là một trong những hoạt động được yêu thích nhất trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}) từ Trip.Best — xếp hạng 10, ngang hàng với các trải nghiệm văn hóa truyền thống.
+Seoul là kinh đô làm đẹp của châu Á, và trải nghiệm K-beauty là một trong những hoạt động được yêu thích nhất trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best — xếp hạng 10, ngang hàng với các trải nghiệm văn hóa truyền thống.
 
 ## Tóm tắt nhanh
 
@@ -87,4 +100,4 @@ Personal color analysis là dịch vụ xác định tông màu da phù hợp nh
 
 ## Nên kết hợp với đâu?
 
-Myeongdong nằm gần [khu ẩm thực chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-seoul-busan-jeju.md" >}}) và [N Seoul Tower]({{< ref "posts/dia-diem-quay-phim-han-quoc-seoul-kdrama.md" >}}). Seongsu gần [khu quay phim Common Ground]({{< ref "posts/dia-diem-quay-phim-han-quoc-seoul-kdrama.md" >}}) và các quán cà phê K-drama. [Thuê Hanbok]({{< ref "posts/thue-hanbok-o-seoul-cung-dien-lang-hanok.md" >}}) buổi sáng và K-beauty buổi chiều là một ngày văn hóa + làm đẹp lý tưởng.
+Myeongdong nằm gần [khu ẩm thực chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md" >}}) và [N Seoul Tower]({{< ref "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md" >}}). Seongsu gần [khu quay phim Common Ground]({{< ref "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md" >}}) và các quán cà phê K-drama. [Thuê Hanbok]({{< ref "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md" >}}) buổi sáng và K-beauty buổi chiều là một ngày văn hóa + làm đẹp lý tưởng.

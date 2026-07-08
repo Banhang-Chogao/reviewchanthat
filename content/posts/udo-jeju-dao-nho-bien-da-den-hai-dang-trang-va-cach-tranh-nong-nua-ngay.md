@@ -28,11 +28,11 @@ faq:
     tránh được dòng người đổ về từ 10 giờ trở đi.
 internal_links:
 - title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
+  ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - title: 'Jungmun Beach Jeju: bãi biển cho người thích sóng và ảnh đẹp'
-  ref: posts/jungmun-beach-jeju-hoat-dong-nuoc.md
+  ref: posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md
 - title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
-  ref: posts/shinhwa-theme-park-jeju-water-slides.md
+  ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -47,14 +47,38 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.visitjeju.net/u/kN, https://www.koreaetour.com/udo-island-jeju/, https://www.itimaker.com/blog/udo-island-day-trip-from-jeju.'
+title: 'Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày'
+description: 'Kinh nghiệm đi Udo Jeju mùa hè: phà Seongsan 15 phút, thuê xe đạp vòng
+  quanh đảo, biển đá đen núi lửa, hải đăng Udobong và kem lạc Udo.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+date: 2026-07-08 07:00:00+07:00
+draft: false
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc mùa hè
+- Jeju
+- Udo
+- đảo Udo
+- biển Hàn Quốc
+- series du lịch
+image: https://images.unsplash.com/photo-1577717903312-5ada32cb1972?w=800&q=80
+thumbnail: https://images.unsplash.com/photo-1577717903312-5ada32cb1972?w=800&q=80
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1577717903312-5ada32cb1972
+image_license: Unsplash License
+image_commercial_use: true
+image_owner: external
 slug: udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay
-aliases:
+
   - /posts/udo-jeju-%C4%91%E1%BA%A3o-nh%E1%BB%8F-bi%E1%BB%83n-%C4%91%C3%A1-%C4%91en-h%E1%BA%A3i-%C4%91%C4%83ng-tr%E1%BA%AFng-v%C3%A0-c%C3%A1ch-tr%C3%A1nh-n%C3%B3ng-n%E1%BB%ADa-ng%C3%A0y/
 ---
 
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm nghỉ dưới chân Seongsan Ilchulbong này có một sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng và view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.
 
-Nếu bạn đang xem [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Udo là điểm đến không thể bỏ qua khi ở Jeju.
+Nếu bạn đang xem [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Udo là điểm đến không thể bỏ qua khi ở Jeju.
 
 ## Tóm tắt nhanh
 
@@ -108,6 +132,6 @@ Trên đảo, không được phép mang ô tô cá nhân. Bạn có thể:
 ## Nên kết hợp với đâu?
 
 - **Seongsan Ilchulbong**: Nên đi Udo sau khi leo Seongsan sáng sớm. Hai điểm cách nhau 5 phút đi bộ.
-- **Jungmun Beach**: Có thể ghé Jungmun vào ngày khác nếu bạn ở Jeju dài hơn. Xem thêm [Jungmun Beach Jeju]({{< ref "posts/jungmun-beach-jeju-hoat-dong-nuoc.md" >}}).
-- **Shinhwa Theme Park**: Nếu đi cùng gia đình, Shinhwa là điểm kết hợp tốt. Xem thêm [Shinhwa Theme Park Jeju]({{< ref "posts/shinhwa-theme-park-jeju-water-slides.md" >}}).
-- Các điểm Jeju khác trong [danh sách chính]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}).
+- **Jungmun Beach**: Có thể ghé Jungmun vào ngày khác nếu bạn ở Jeju dài hơn. Xem thêm [Jungmun Beach Jeju]({{< ref "posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md" >}}).
+- **Shinhwa Theme Park**: Nếu đi cùng gia đình, Shinhwa là điểm kết hợp tốt. Xem thêm [Shinhwa Theme Park Jeju]({{< ref "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md" >}}).
+- Các điểm Jeju khác trong [danh sách chính]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}).

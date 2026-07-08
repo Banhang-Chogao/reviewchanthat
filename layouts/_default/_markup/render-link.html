@@ -1,4 +1,8 @@
 {{- $href := .Destination -}}
 {{- $text := .Text -}}
-{{- $resolved := partial "link-resolver.html" (dict "href" $href "text" $text) -}}
-<a href="{{ $resolved.href }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ $resolved.text | safeHTML }}</a>
+{{- $resolved := partial "link-resolver.html" (dict "page" .Page "item" (dict "url" $href "title" $text)) -}}
+{{- $target := $href -}}
+{{- if $resolved -}}
+  {{- $target = $resolved -}}
+{{- end -}}
+<a href="{{ $target }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ $text | safeHTML }}</a>

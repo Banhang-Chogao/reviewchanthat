@@ -23,11 +23,11 @@ faq:
   answer: Có nhiều nhà hàng và quán cà phê trong khu Jungmun Tourist Complex.
 internal_links:
 - title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
+  ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - title: 'Udo Jeju: đảo nhỏ, biển đá đen'
-  ref: posts/udo-jeju-dao-bien-den-hai-dang-trang.md
+  ref: posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md
 - title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
-  ref: posts/shinhwa-theme-park-jeju-water-slides.md
+  ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -38,14 +38,37 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.visitjeju.net/.'
+title: 'Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước'
+description: Jungmun Beach Jeju là bãi biển hình mũi tên ở khu nghỉ dưỡng Jungmun,
+  nổi tiếng với hoạt động thể thao nước, resort cao cấp và view biển xanh.
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+date: 2026-07-08 07:00:00+07:00
+draft: false
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc mùa hè
+- Jeju
+- Jungmun
+- bãi biển Jeju
+- series du lịch
+image: https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=800&q=80
+thumbnail: https://images.unsplash.com/photo-1509515837298-2c67a3933321?w=800&q=80
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1509515837298-2c67a3933321
+image_license: Unsplash License
+image_commercial_use: true
+image_owner: external
 slug: jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc
-aliases:
+
   - /posts/jungmun-beach-jeju-b%C3%A3i-bi%E1%BB%83n-cho-ng%C6%B0%E1%BB%9Di-th%C3%ADch-s%C3%B3ng-%E1%BA%A3nh-%C4%91%E1%BA%B9p-v%C3%A0-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-n%C6%B0%E1%BB%9Bc/
 ---
 
 Jungmun Beach là bãi biển nằm trong khu nghỉ dưỡng Jungmun (Jungmun Tourist Complex) ở phía nam Jeju, gần thành phố Seogwipo. Đây là một trong những bãi biển có phong cảnh đẹp nhất Jeju với hình dáng mũi tên độc đáo, nước biển trong vắt và bờ cát mềm.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Jungmun là đại diện cho nhóm biển Jeju và là điểm đến lý tưởng nếu bạn ở khu nghỉ dưỡng Jungmun.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Jungmun là đại diện cho nhóm biển Jeju và là điểm đến lý tưởng nếu bạn ở khu nghỉ dưỡng Jungmun.
 
 ## Tóm tắt nhanh
 
@@ -95,6 +118,6 @@ Buổi sáng (8:00–10:00) là thời điểm đẹp nhất để chụp ảnh 
 
 ## Nên kết hợp với đâu?
 
-- **Udo**: Nếu bạn ở Jeju 2–3 ngày, nên dành riêng một ngày cho Udo. Xem thêm [Udo Jeju]({{< ref "posts/udo-jeju-dao-bien-den-hai-dang-trang.md" >}}).
-- **Shinhwa Theme Park**: Cách Jungmun khoảng 15 phút đi xe. Kết hợp nếu đi cùng gia đình. Xem thêm [Shinhwa Theme Park Jeju]({{< ref "posts/shinhwa-theme-park-jeju-water-slides.md" >}}).
-- Các điểm Jeju khác trong [danh sách chính]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}).
+- **Udo**: Nếu bạn ở Jeju 2–3 ngày, nên dành riêng một ngày cho Udo. Xem thêm [Udo Jeju]({{< ref "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md" >}}).
+- **Shinhwa Theme Park**: Cách Jungmun khoảng 15 phút đi xe. Kết hợp nếu đi cùng gia đình. Xem thêm [Shinhwa Theme Park Jeju]({{< ref "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md" >}}).
+- Các điểm Jeju khác trong [danh sách chính]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}).

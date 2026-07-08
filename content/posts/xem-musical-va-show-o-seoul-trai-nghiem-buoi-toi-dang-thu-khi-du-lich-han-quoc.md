@@ -31,17 +31,30 @@ external_links:
   url: https://english.visitseoul.net/>
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
-    https://english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'
+title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
+  Quốc'
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc 2026
+- Seoul
+- musical
+- show Hàn Quốc
+- Daehangno
+- giải trí Hàn Quốc
+- series du lịch
+image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
+thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+image_license: Unsplash License
+image_commercial_use: true
+image_owner: external
 slug: xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc
-aliases:
+
   - /posts/xem-musical-v%C3%A0-show-%E1%BB%9F-seoul-tr%E1%BA%A3i-nghi%E1%BB%87m-bu%E1%BB%95i-t%E1%BB%91i-%C4%91%C3%A1ng-th%E1%BB%AD-khi-du-l%E1%BB%8Bch-h%C3%A0n-qu%E1%BB%91c/
 ---
 
-Buổi tối ở Seoul không chỉ có Myeongdong mua sắm hay quán cà phê — một trong những trải nghiệm được xếp hạng cao trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}) là xem musical và biểu diễn tại Daehangno, khu vực nghệ thuật biểu diễn lớn nhất Hàn Quốc.
+Buổi tối ở Seoul không chỉ có Myeongdong mua sắm hay quán cà phê — một trong những trải nghiệm được xếp hạng cao trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) là xem musical và biểu diễn tại Daehangno, khu vực nghệ thuật biểu diễn lớn nhất Hàn Quốc.
 
 ## Tóm tắt nhanh
 
@@ -92,4 +105,4 @@ Giá vé thay đổi tùy vở diễn, vị trí ghế và thời điểm. Bạn
 
 ## Nên kết hợp với đâu?
 
-Daehangno nằm gần [khu Insa-dong và Bukchon Hanok Village]({{< ref "posts/thue-hanbok-o-seoul-cung-dien-lang-hanok.md" >}}). Bạn có thể kết hợp: chiều tham quan Insa-dong → ăn tối Hàn Quốc → tối xem musical. Cũng gần [khu quay phim K-drama]({{< ref "posts/dia-diem-quay-phim-han-quoc-seoul-kdrama.md" >}}) và [chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-seoul-busan-jeju.md" >}}).
+Daehangno nằm gần [khu Insa-dong và Bukchon Hanok Village]({{< ref "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md" >}}). Bạn có thể kết hợp: chiều tham quan Insa-dong → ăn tối Hàn Quốc → tối xem musical. Cũng gần [khu quay phim K-drama]({{< ref "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md" >}}) và [chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md" >}}).

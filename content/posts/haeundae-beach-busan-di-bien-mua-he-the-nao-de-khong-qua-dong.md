@@ -21,13 +21,13 @@ faq:
   answer: Không. Nhiệt độ nước biển tháng 7–8 dao động 22–25°C, rất dễ chịu.
 internal_links:
 - title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
+  ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - title: 'Gwangalli Beach Busan: bãi biển ngắm cầu'
-  ref: posts/gwangalli-busan-bai-bien-cau-gwangandaegyo.md
+  ref: posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md
 - title: 'Cheongsapo Busan: biển trong, Blue Line Park'
-  ref: posts/cheongsapo-busan-bien-blue-line-park.md
+  ref: posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md
 - title: 'Club D Oasis Busan: infinity pool spa'
-  ref: posts/club-d-oasis-busan-infinity-pool-spa.md
+  ref: posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -43,14 +43,38 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373,
     https://www.busan.go.kr/eng/beaches/1325815, https://www.koreatodo.com/haeundae-beach.'
+title: 'Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?'
+description: 'Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm
+  biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue
+  Line Park.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+date: 2026-07-08 07:00:00+07:00
+draft: false
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc mùa hè
+- Busan
+- Haeundae
+- biển Hàn Quốc
+- series du lịch
+image: https://images.unsplash.com/photo-1598266663439-2056e6900339?w=800&q=80
+thumbnail: https://images.unsplash.com/photo-1598266663439-2056e6900339?w=800&q=80
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1598266663439-2056e6900339
+image_license: Unsplash License
+image_commercial_use: true
+image_owner: external
 slug: haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong
-aliases:
+
   - /posts/haeundae-beach-busan-%C4%91i-bi%E1%BB%83n-m%C3%B9a-h%C3%A8-th%E1%BA%BF-n%C3%A0o-%C4%91%E1%BB%83-kh%C3%B4ng-qu%C3%A1-%C4%91%C3%B4ng/
 ---
 
 Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc đến biển Hàn Quốc. Bãi biển dài 1,5 km cát trắng mịn, làn sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ biển — đó là hình ảnh kinh điển của Haeundae.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Haeundae đứng thứ hai và là đại diện số một cho nhóm biển Busan.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Haeundae đứng thứ hai và là đại diện số một cho nhóm biển Busan.
 
 ## Tóm tắt nhanh
 
@@ -92,7 +116,7 @@ Haeundae mở cửa bãi tắm chính thức từ tháng 7 đến tháng 8. Tuy 
 - 9:30: Tắm biển hoặc thuê phao/thể thao nước
 - 12:00: Ăn trưa tại Haeundae Traditional Market
 - 13:30: Ghé Busan Aquarium nếu đi cùng trẻ em
-- 15:00: Di chuyển đến Cheongsapo (Blue Line Park) — xem [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-blue-line-park.md" >}})
+- 15:00: Di chuyển đến Cheongsapo (Blue Line Park) — xem [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}})
 - 18:00: Quay lại Haeundae, ăn tối và ngắm hoàng hôn tại The Bay 101
 
 ## Lưu ý
@@ -104,7 +128,7 @@ Haeundae mở cửa bãi tắm chính thức từ tháng 7 đến tháng 8. Tuy 
 
 ## Nên kết hợp với đâu?
 
-- **Cheongsapo**: Cách 10–15 phút đi taxi hoặc bus, nằm trên tuyến Blue Line Park. Xem thêm [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-blue-line-park.md" >}}).
-- **Gwangalli Beach**: Bãi biển lân cận, hợp đi chiều tối ngắm cầu Gwangan. Xem thêm [Gwangalli Beach Busan]({{< ref "posts/gwangalli-busan-bai-bien-cau-gwangandaegyo.md" >}}).
-- **Club D Oasis**: Spa và infinity pool tại Haeundae, thích hợp thư giãn cuối ngày. Xem thêm [Club D Oasis Busan]({{< ref "posts/club-d-oasis-busan-infinity-pool-spa.md" >}}).
-- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}) để lên lịch phù hợp.
+- **Cheongsapo**: Cách 10–15 phút đi taxi hoặc bus, nằm trên tuyến Blue Line Park. Xem thêm [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}}).
+- **Gwangalli Beach**: Bãi biển lân cận, hợp đi chiều tối ngắm cầu Gwangan. Xem thêm [Gwangalli Beach Busan]({{< ref "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md" >}}).
+- **Club D Oasis**: Spa và infinity pool tại Haeundae, thích hợp thư giãn cuối ngày. Xem thêm [Club D Oasis Busan]({{< ref "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md" >}}).
+- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}) để lên lịch phù hợp.

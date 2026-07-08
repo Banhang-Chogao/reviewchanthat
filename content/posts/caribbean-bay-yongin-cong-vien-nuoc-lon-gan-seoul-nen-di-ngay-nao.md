@@ -24,13 +24,13 @@ faq:
     lượn và thú. Hai khu có vé riêng nhưng nằm gần nhau.
 internal_links:
 - title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
+  ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - title: 'Nami Island mùa hè: day trip gần Seoul'
-  ref: posts/nami-island-mua-he-day-trip-gan-seoul.md
+  ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md
 - title: 'Wolmido Incheon: biển, boardwalk cho gia đình'
-  ref: posts/wolmido-incheon-bien-boardwalk-gan-seoul.md
+  ref: posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md
 - title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
-  ref: posts/shinhwa-theme-park-jeju-water-slides.md
+  ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -43,14 +43,38 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://en.wikipedia.org/wiki/Caribbean_Bay, https://www.everland.com/web/caribbean/main.html.'
+title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?'
+description: Caribbean Bay Yongin là công viên nước lớn nhất gần Seoul, có wave pool
+  2,4 m, lazy river dài nhất thế giới, spa. Thuộc khu Everland Resort.
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+date: 2026-07-08 07:00:00+07:00
+draft: false
+categories:
+- du-lich
+tags:
+- du lịch Hàn Quốc
+- Hàn Quốc mùa hè
+- Caribbean Bay
+- công viên nước
+- Everland
+- Yongin
+- series du lịch
+image: https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80
+thumbnail: https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80
+image_source: Unsplash
+image_source_url: https://unsplash.com/photos/1544102392-3399ca7b21a3
+image_license: Unsplash License
+image_commercial_use: true
+image_owner: external
 slug: caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao
-aliases:
+
   - /posts/caribbean-bay-yongin-c%C3%B4ng-vi%C3%AAn-n%C6%B0%E1%BB%9Bc-l%E1%BB%9Bn-g%E1%BA%A7n-seoul-n%C3%AAn-%C4%91i-ng%C3%A0y-n%C3%A0o/
 ---
 
 Caribbean Bay là một trong những công viên nước nổi tiếng nhất châu Á, nằm trong khu Everland Resort tại Yongin, Gyeonggi-do. Khai trương năm 1996, công viên có cả khu nước trong nhà và ngoài trời, vận hành quanh năm — nhưng mùa hè là lúc các khu nước ngoài trời hoạt động hết công suất.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Caribbean Bay đứng thứ 7 và là công viên nước duy nhất trong top 10 thuộc khu vực Seoul.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Caribbean Bay đứng thứ 7 và là công viên nước duy nhất trong top 10 thuộc khu vực Seoul.
 
 ## Tóm tắt nhanh
 
@@ -110,6 +134,6 @@ Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "pos
 ## Nên kết hợp với đâu?
 
 - **Everland**: Công viên giải trí nằm kế cạnh, nếu có thời gian bạn có thể mua vé ghép.
-- **Nami Island**: Hai điểm cách nhau không xa, nếu nghỉ qua đêm thì kết hợp dễ dàng. Xem thêm [Nami Island mùa hè]({{< ref "posts/nami-island-mua-he-day-trip-gan-seoul.md" >}}).
-- **Wolmido**: Điểm đến tối nhẹ nhàng hơn nếu bạn không muốn cả ngày nước. Xem thêm [Wolmido Incheon]({{< ref "posts/wolmido-incheon-bien-boardwalk-gan-seoul.md" >}}).
-- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}).
+- **Nami Island**: Hai điểm cách nhau không xa, nếu nghỉ qua đêm thì kết hợp dễ dàng. Xem thêm [Nami Island mùa hè]({{< ref "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md" >}}).
+- **Wolmido**: Điểm đến tối nhẹ nhàng hơn nếu bạn không muốn cả ngày nước. Xem thêm [Wolmido Incheon]({{< ref "posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md" >}}).
+- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}).
