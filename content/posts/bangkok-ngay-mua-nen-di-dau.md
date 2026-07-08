@@ -28,8 +28,8 @@ description: Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, b�
 draft: false
 image: images/posts/bangkok-ngay-mua-nen-di-dau.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: ""
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

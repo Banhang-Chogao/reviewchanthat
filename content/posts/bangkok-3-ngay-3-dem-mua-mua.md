@@ -27,8 +27,8 @@ description: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết ch
 draft: false
 image: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: ""
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels

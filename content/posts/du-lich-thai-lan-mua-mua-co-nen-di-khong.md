@@ -28,8 +28,8 @@ description: Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết 
 draft: false
 image: images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: ""
+image_creator_url: ""
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
