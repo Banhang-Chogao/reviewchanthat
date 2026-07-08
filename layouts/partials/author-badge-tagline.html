@@ -1,0 +1,37 @@
+{{- $currentLevel := .currentLevel | default 0 -}}
+{{- $maxLevel := .maxLevel | default 0 -}}
+{{- $unlockedBadges := .unlockedBadges | default 0 -}}
+{{- $totalBadges := .totalBadges | default 0 -}}
+{{- $safeTotal := 0 -}}
+{{- if gt (int $totalBadges) 0 -}}{{- $safeTotal = int $totalBadges -}}{{- end -}}
+{{- $safeUnlocked := 0 -}}
+{{- if gt (int $unlockedBadges) 0 -}}{{- $safeUnlocked = int $unlockedBadges -}}{{- end -}}
+{{- $ratePercent := 0 -}}
+{{- if gt $safeTotal 0 -}}
+  {{- $ratePercent = div (mul $safeUnlocked 100) $safeTotal -}}
+{{- end -}}
+{{- $tagline := "" -}}
+{{- if eq $safeTotal 0 -}}
+  {{- $tagline = "Badge collection đang được khởi tạo." -}}
+{{- else if eq $safeUnlocked 0 -}}
+  {{- $tagline = "Hành trình vừa bắt đầu — mở khóa badge đầu tiên thôi." -}}
+{{- else if and (eq $safeUnlocked $safeTotal) (ge $currentLevel $maxLevel) -}}
+  {{- $tagline = "Đã đạt cấp tối đa và hoàn thiện bộ sưu tập — huyền thoại đang ngồi đây." -}}
+{{- else if and (eq $safeUnlocked $safeTotal) (lt $currentLevel $maxLevel) -}}
+  {{- $tagline = "Đã hoàn thiện badge collection — tiếp tục tích lũy để lên cấp cao hơn." -}}
+{{- else if and (ge $currentLevel $maxLevel) (lt $safeUnlocked $safeTotal) -}}
+  {{- if ge $ratePercent 80 -}}
+    {{- $tagline = "Đã đạt L5 và gần hoàn thiện bộ sưu tập — vài badge nữa là trọn bộ." -}}
+  {{- else -}}
+    {{- $tagline = "Đã đạt L5 — tiếp tục săn badge để hoàn thiện bộ sưu tập." -}}
+  {{- end -}}
+{{- else if ge $ratePercent 80 -}}
+  {{- $tagline = "Gần hoàn thiện bộ sưu tập — vài badge nữa là chạm đỉnh." -}}
+{{- else if ge $ratePercent 50 -}}
+  {{- $tagline = "Đã chinh phục hơn nửa hành trình — tiến gần tới huyền thoại." -}}
+{{- else if ge $ratePercent 25 -}}
+  {{- $tagline = "Bộ sưu tập đang sáng dần — còn nhiều badge đang chờ." -}}
+{{- else -}}
+  {{- $tagline = "Đã có những dấu ấn đầu tiên — tiếp tục mở khóa bộ sưu tập." -}}
+{{- end -}}
+{{- return $tagline -}}
