@@ -2,11 +2,17 @@
   "summary": {
     "total": 31,
     "errors": 0,
-    "warnings": 17
+    "warnings": 10
   },
   "results": [
     {
-      "file": "bien-dep-jeju-hamdeok-hyeopjae-resort.md",
+      "file": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md",
+      "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước",
+      "expected_slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc",
+      "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di"
+    },
+    {
+      "file": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md",
       "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
       "expected_slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
       "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien"
@@ -15,16 +21,16 @@
       "file": "cach-doc-mot-bai-review-de-khong-bi-dat-mui.md",
       "title": "Cách đọc một bài review để không bị dắt mũi",
       "expected_slug": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
-      "slug": ""
+      "slug": "cach-doc-mot-bai-review-de-khong-bi-dat-mui"
     },
     {
       "file": "cach-xay-dung-thoi-quen-mua-sam-thong-minh.md",
       "title": "Cách xây dựng thói quen mua sắm thông minh",
       "expected_slug": "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
-      "slug": ""
+      "slug": "cach-xay-dung-thoi-quen-mua-sam-thong-minh"
     },
     {
-      "file": "caribbean-bay-yongin-cong-vien-nuoc.md",
+      "file": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md",
       "title": "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?",
       "expected_slug": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao",
       "slug": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao"
@@ -33,88 +39,76 @@
       "file": "checklist-truoc-khi-mua-mot-san-pham-online.md",
       "title": "Checklist trước khi mua một sản phẩm online",
       "expected_slug": "checklist-truoc-khi-mua-mot-san-pham-online",
-      "slug": ""
+      "slug": "checklist-truoc-khi-mua-mot-san-pham-online"
     },
     {
-      "file": "cheongsapo-busan-bien-blue-line-park.md",
+      "file": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md",
       "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line",
       "expected_slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line",
       "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park"
     },
     {
-      "file": "cho-dia-phuong-han-quoc-seoul-busan-jeju.md",
+      "file": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md",
       "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
       "expected_slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
       "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju"
     },
     {
-      "file": "club-d-oasis-busan-infinity-pool-spa.md",
+      "file": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md",
       "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
       "expected_slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
       "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong"
     },
     {
-      "file": "day-trip-suwon-hwaseong-haenggung-korean-folk-village.md",
+      "file": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md",
       "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong",
       "expected_slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong",
       "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay"
     },
     {
-      "file": "dia-diem-quay-phim-han-quoc-seoul-kdrama.md",
-      "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
-      "expected_slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
-      "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic"
-    },
-    {
-      "file": "gwangalli-busan-bai-bien-cau-gwangandaegyo.md",
-      "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
-      "expected_slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
-      "slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi"
-    },
-    {
-      "file": "haeundae-busan-bai-bien-mua-he.md",
-      "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
-      "expected_slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
-      "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong"
-    },
-    {
-      "file": "han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md",
-      "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước",
-      "expected_slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc",
-      "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di"
-    },
-    {
-      "file": "incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay.md",
+      "file": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md",
       "title": "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm",
       "expected_slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem",
       "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao"
     },
     {
-      "file": "jjimjilbang-han-quoc-seoul-aquafield-goyang.md",
+      "file": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md",
+      "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
+      "expected_slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
+      "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic"
+    },
+    {
+      "file": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md",
+      "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
+      "expected_slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
+      "slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi"
+    },
+    {
+      "file": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md",
+      "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
+      "expected_slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
+      "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong"
+    },
+    {
+      "file": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md",
       "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
       "expected_slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
       "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay"
     },
     {
-      "file": "jungmun-beach-jeju-hoat-dong-nuoc.md",
+      "file": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md",
       "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
       "expected_slug": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
       "slug": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc"
     },
     {
-      "file": "k-beauty-makeup-personal-color-seoul.md",
-      "title": "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người",
-      "expected_slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi",
-      "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep"
-    },
-    {
-      "file": "nami-island-mua-he-day-trip-gan-seoul.md",
+      "file": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md",
       "title": "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió",
       "expected_slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio",
       "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song"
     },
     {
-      "file": "ngam-binh-minh-jeju-seongsan-seogwipo.md",
+      "file": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md",
       "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
       "expected_slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
       "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo"
@@ -123,10 +117,10 @@
       "file": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.md",
       "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
       "expected_slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
-      "slug": ""
+      "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that"
     },
     {
-      "file": "shinhwa-theme-park-jeju-water-slides.md",
+      "file": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md",
       "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
       "expected_slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
       "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun"
@@ -135,58 +129,64 @@
       "file": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md",
       "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
       "expected_slug": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
-      "slug": ""
+      "slug": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat"
     },
     {
-      "file": "thue-hanbok-o-seoul-cung-dien-lang-hanok.md",
+      "file": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md",
       "title": "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền",
       "expected_slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
       "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien"
     },
     {
-      "file": "top-20-hoat-dong-du-lich-han-quoc-2026.md",
+      "file": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md",
       "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và",
       "expected_slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va",
       "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul"
     },
     {
-      "file": "udo-jeju-dao-bien-den-hai-dang-trang.md",
+      "file": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.md",
+      "title": "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người",
+      "expected_slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi",
+      "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep"
+    },
+    {
+      "file": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md",
       "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
       "expected_slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
       "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay"
     },
     {
-      "file": "veritable-content-giao-dien-content-kien-truc-cong-nghe.md",
+      "file": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md",
       "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công",
       "expected_slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong",
-      "slug": "veritable-content-giao-dien-content-kien-truc-cong-nghe"
+      "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog"
     },
     {
       "file": "vi-sao-review-dai-chua-chac-da-dang-tin.md",
       "title": "Vì sao review dài chưa chắc đã đáng tin?",
       "expected_slug": "vi-sao-review-dai-chua-chac-da-dang-tin",
-      "slug": ""
+      "slug": "vi-sao-review-dai-chua-chac-da-dang-tin"
     },
     {
-      "file": "wolmido-incheon-bien-boardwalk-gan-seoul.md",
+      "file": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md",
       "title": "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình",
       "expected_slug": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
       "slug": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh"
     },
     {
-      "file": "wwdc26-nhan-dinh-sau-su-kien-ios-27-macos-27.md",
+      "file": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md",
       "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple",
       "expected_slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple",
-      "slug": "wwdc26-nhan-dinh-sau-su-kien-ios-27-macos-27"
+      "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi"
     },
     {
-      "file": "wwdc26-phan-tich-tinh-nang-ios-27-macos-27.md",
+      "file": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md",
       "title": "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu",
       "expected_slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
-      "slug": "wwdc26-phan-tich-tinh-nang-ios-27-macos-27"
+      "slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau"
     },
     {
-      "file": "xem-musical-show-o-seoul.md",
+      "file": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md",
       "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn",
       "expected_slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han",
       "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc"
@@ -194,22 +194,15 @@
   ],
   "errors": [],
   "warnings": [
-    "cach-doc-mot-bai-review-de-khong-bi-dat-mui.md: no `slug` (legacy published post, URL unchanged)",
-    "cach-xay-dung-thoi-quen-mua-sam-thong-minh.md: no `slug` (legacy published post, URL unchanged)",
-    "checklist-truoc-khi-mua-mot-san-pham-online.md: no `slug` (legacy published post, URL unchanged)",
-    "cheongsapo-busan-bien-blue-line-park.md: slug 'cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park' != expected 'cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line' (legacy published post)",
-    "day-trip-suwon-hwaseong-haenggung-korean-folk-village.md: slug 'day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay' != expected 'day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong' (legacy published post)",
-    "han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md: slug '10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di' != expected '10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc' (legacy published post)",
-    "incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay.md: slug 'di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao' != expected 'di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem' (legacy published post)",
-    "k-beauty-makeup-personal-color-seoul.md: slug 'trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep' != expected 'trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi' (legacy published post)",
-    "nami-island-mua-he-day-trip-gan-seoul.md: slug 'nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song' != expected 'nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio' (legacy published post)",
-    "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.md: no `slug` (legacy published post, URL unchanged)",
-    "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md: no `slug` (legacy published post, URL unchanged)",
-    "top-20-hoat-dong-du-lich-han-quoc-2026.md: slug 'top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul' != expected 'top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va' (legacy published post)",
-    "veritable-content-giao-dien-content-kien-truc-cong-nghe.md: slug 'veritable-content-giao-dien-content-kien-truc-cong-nghe' != expected 'veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong' (legacy published post)",
-    "vi-sao-review-dai-chua-chac-da-dang-tin.md: no `slug` (legacy published post, URL unchanged)",
-    "wwdc26-nhan-dinh-sau-su-kien-ios-27-macos-27.md: slug 'wwdc26-nhan-dinh-sau-su-kien-ios-27-macos-27' != expected 'wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple' (legacy published post)",
-    "wwdc26-phan-tich-tinh-nang-ios-27-macos-27.md: slug 'wwdc26-phan-tich-tinh-nang-ios-27-macos-27' != expected 'wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau' (legacy published post)",
-    "xem-musical-show-o-seoul.md: slug 'xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc' != expected 'xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han' (legacy published post)"
+    "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md: slug '10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di' != expected '10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc' (legacy published post)",
+    "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md: slug 'cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park' != expected 'cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line' (legacy published post)",
+    "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md: slug 'day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay' != expected 'day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong' (legacy published post)",
+    "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md: slug 'di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao' != expected 'di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem' (legacy published post)",
+    "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md: slug 'nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song' != expected 'nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio' (legacy published post)",
+    "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md: slug 'top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul' != expected 'top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va' (legacy published post)",
+    "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.md: slug 'trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep' != expected 'trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi' (legacy published post)",
+    "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md: slug 'veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog' != expected 'veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong' (legacy published post)",
+    "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md: slug 'wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi' != expected 'wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple' (legacy published post)",
+    "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md: slug 'xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc' != expected 'xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han' (legacy published post)"
   ]
 }
