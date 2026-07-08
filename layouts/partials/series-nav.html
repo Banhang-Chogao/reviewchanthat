@@ -1,18 +1,32 @@
-  {{ $currentSlug := .Params.series }}
-  {{ $seriesPages := slice }}
-  {{ range site.RegularPages }}
-    {{ if eq (printf "%v" .Params.series) $currentSlug }}
-      {{ $seriesPages = $seriesPages | append . }}
-    {{ end }}
+{{ $currentSlugRaw := .Params.series }}
+{{ $currentSlug := printf "%v" $currentSlugRaw }}
+{{ $currentSlug = replace $currentSlug "[" "" }}
+{{ $currentSlug = replace $currentSlug "]" "" }}
+
+{{ $seriesPages := slice }}
+{{ range site.RegularPages }}
+  {{ $pageSlug := printf "%v" .Params.series }}
+  {{ $pageSlug = replace $pageSlug "[" "" }}
+  {{ $pageSlug = replace $pageSlug "]" "" }}
+  {{ if eq $pageSlug $currentSlug }}
+    {{ $seriesPages = $seriesPages | append . }}
   {{ end }}
+{{ end }}
+
 {{ if gt (len $seriesPages) 1 }}
   {{ $sorted := sort $seriesPages ".Params.series_order" "asc" }}
+  {{ $total := len $sorted }}
   {{ $currentIdx := -1 }}
   {{ range $i, $p := $sorted }}
     {{ if eq $p.RelPermalink $.RelPermalink }}
       {{ $currentIdx = $i }}
     {{ end }}
   {{ end }}
+
+  {{ $seriesLabel := $.Params.series_title }}
+  {{ $prevPost := index $sorted (sub $currentIdx 1) }}
+  {{ $nextPost := index $sorted (add $currentIdx 1) }}
+
   {{ $tx := index $.Site.Taxonomies.series $currentSlug }}
   {{ $seriesURL := "" }}
   {{ if $tx }}
@@ -20,37 +34,57 @@
   {{ else }}
     {{ $seriesURL = printf "series/%s/" $currentSlug | relURL }}
   {{ end }}
-  <div class="series-nav">
-    <div class="series-nav__header">
-      <span class="series-nav__label">Bài trong series</span>
-      {{ with $.Params.series_title }}
-      <a href="{{ $seriesURL }}" class="series-nav__title">{{ . }}</a>
-      {{ else }}
-      <a href="{{ $seriesURL }}" class="series-nav__title">Xem tất cả</a>
-      {{ end }}
+
+<section class="series-box" aria-labelledby="series-box-title">
+  <div class="series-box__header">
+    <div>
+      <span class="series-box__eyebrow">Series</span>
+      <a href="{{ $seriesURL }}" class="series-box__title-link">
+        <h2 id="series-box-title" class="series-box__title">
+          Bài trong series {{ $seriesLabel }}
+        </h2>
+      </a>
+      <p class="series-box__desc">
+        Theo dõi trọn bộ bài viết theo đúng thứ tự để không bỏ sót phần quan trọng.
+      </p>
     </div>
-    <ol class="series-nav__list">
-      {{ range $i, $p := $sorted }}
-        <li class="series-nav__item{{ if eq $i $currentIdx }} series-nav__item--current{{ end }}">
-          {{ if eq $i $currentIdx }}
-            <span class="series-nav__link series-nav__link--current">{{ $p.Title }}</span>
-          {{ else }}
-            <a href="{{ $p.RelPermalink }}" class="series-nav__link">{{ $p.Title }}</a>
-          {{ end }}
-        </li>
-      {{ end }}
-    </ol>
-    {{ $prev := index $sorted (sub $currentIdx 1) }}
-    {{ $next := index $sorted (add $currentIdx 1) }}
-    {{ if or $prev $next }}
-    <div class="series-nav__pager">
-      {{ with $prev }}
-      <a href="{{ .RelPermalink }}" class="series-nav__pager-link series-nav__pager-link--prev">← Bài trước</a>
-      {{ end }}
-      {{ with $next }}
-      <a href="{{ .RelPermalink }}" class="series-nav__pager-link series-nav__pager-link--next">Bài tiếp theo →</a>
-      {{ end }}
-    </div>
+    <span class="series-box__progress">Bài {{ add $currentIdx 1 }} / {{ $total }}</span>
+  </div>
+
+  <ol class="series-box__list">
+    {{ range $i, $p := $sorted }}
+      <li class="series-box__item{{ if eq $p.RelPermalink $.RelPermalink }} is-current{{ end }}">
+        {{ if eq $p.RelPermalink $.RelPermalink }}
+          <div class="series-box__link" aria-current="page">
+            <span class="series-box__number">{{ add $i 1 }}</span>
+            <span class="series-box__item-title">{{ $p.Title }}</span>
+            <span class="series-box__badge">Đang đọc</span>
+          </div>
+        {{ else }}
+          <a class="series-box__link" href="{{ $p.RelPermalink }}">
+            <span class="series-box__number">{{ add $i 1 }}</span>
+            <span class="series-box__item-title">{{ $p.Title }}</span>
+          </a>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ol>
+
+  {{ if or $prevPost $nextPost }}
+  <div class="series-box__nav">
+    {{ with $prevPost }}
+      <a class="series-box__nav-card series-box__nav-card--prev" href="{{ .RelPermalink }}">
+        <span>← Bài trước</span>
+        <strong>{{ .Title }}</strong>
+      </a>
+    {{ end }}
+    {{ with $nextPost }}
+      <a class="series-box__nav-card series-box__nav-card--next" href="{{ .RelPermalink }}">
+        <span>Bài tiếp theo →</span>
+        <strong>{{ .Title }}</strong>
+      </a>
     {{ end }}
   </div>
+  {{ end }}
+</section>
 {{ end }}
