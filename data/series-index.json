@@ -69,6 +69,62 @@
       ]
     },
     {
+      "id": "apple-ec-dma-app-store-ios",
+      "title": "Apple vs EC: App Store, iOS và Digital Markets Act",
+      "url": "series/apple-ec-dma-app-store-ios/",
+      "count": 8,
+      "posts": [
+        {
+          "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
+          "url": "apple-thua-kien-eu-app-store-ios-dma/",
+          "order": 1,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
+          "url": "digital-markets-act-la-gi-eu-siet-apple-google-meta/",
+          "order": 2,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "App Store gatekeeper: Apple sợ mất điều gì?",
+          "url": "app-store-gatekeeper-apple-so-mat-dieu-gi/",
+          "order": 3,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
+          "url": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma/",
+          "order": 4,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa",
+          "url": "ios-mo-hon-nguoi-dung-chau-au-mat-gi/",
+          "order": 5,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple",
+          "url": "nha-phat-trien-app-duoc-loi-gi-tu-dma/",
+          "order": 6,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền",
+          "url": "european-commission-duoc-gi-khi-thang-apple/",
+          "order": 7,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
+          "url": "apple-vs-ec-dma-tuong-lai-iphone/",
+          "order": 8,
+          "date": "2026-07-08"
+        }
+      ]
+    },
+    {
       "id": "du-lich",
       "title": "Du lịch Hàn Quốc 2026",
       "url": "series/du-lich/",
@@ -436,49 +492,49 @@
           "title": "iPhone 16 Pro Max Desert Titanium trên tay",
           "url": "iphone-16-pro-max-desert-titanium-tren-tay/",
           "order": 1,
-          "date": "2026-07-09"
+          "date": "2026-07-08"
         },
         {
           "title": "iPhone 16 Pro Max Desert Titanium hợp ai?",
           "url": "iphone-16-pro-max-desert-titanium-hop-ai/",
           "order": 2,
-          "date": "2026-07-09"
+          "date": "2026-07-08"
         },
         {
           "title": "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?",
           "url": "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao/",
           "order": 3,
-          "date": "2026-07-09"
+          "date": "2026-07-08"
         },
         {
           "title": "Trên tay iPhone 16 Pro Max màn hình 6.9 inch",
           "url": "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch/",
           "order": 4,
-          "date": "2026-07-09"
+          "date": "2026-07-08"
         },
         {
           "title": "Camera Control iPhone 16 Pro Max có tiện không?",
           "url": "camera-control-iphone-16-pro-max-co-tien-khong/",
           "order": 5,
-          "date": "2026-07-09"
+          "date": "2026-07-08"
         },
         {
           "title": "Camera iPhone 16 Pro Max so với 15 Pro Max",
           "url": "camera-iphone-16-pro-max-so-voi-15-pro-max/",
           "order": 6,
-          "date": "2026-07-09"
+          "date": "2026-07-08"
         },
         {
           "title": "Pin iPhone 16 Pro Max có đáng chọn?",
           "url": "pin-iphone-16-pro-max-co-dang-chon/",
           "order": 7,
-          "date": "2026-07-09"
+          "date": "2026-07-08"
         },
         {
           "title": "iPhone 16 Pro Max năm 2026 nên mua không?",
           "url": "iphone-16-pro-max-nam-2026-nen-mua-khong/",
           "order": 8,
-          "date": "2026-07-09"
+          "date": "2026-07-08"
         }
       ]
     },

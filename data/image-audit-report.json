@@ -1,7 +1,7 @@
 {
-  "total_posts": 99,
+  "total_posts": 107,
   "summary": {
-    "valid": 99,
+    "valid": 107,
     "missing_image": 0,
     "broken_image_path": 0,
     "missing_license_metadata": 0,
@@ -64,6 +64,86 @@
       ],
       "categories": [
         "du-lich"
+      ]
+    },
+    {
+      "slug": "app-store-gatekeeper-apple-so-mat-dieu-gi",
+      "title": "App Store gatekeeper: Apple sợ mất điều gì?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp",
+      "thumbnail": "images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/black-smartphone-on-white-table-1181677/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Apple",
+        "European Commission",
+        "Digital Markets Act",
+        "App Store",
+        "iOS",
+        "EU",
+        "gatekeeper"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "apple-thua-kien-eu-app-store-ios-dma",
+      "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/apple-thua-kien-eu-app-store-ios-dma.webp",
+      "thumbnail": "images/posts/apple-thua-kien-eu-app-store-ios-dma.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/modern-high-glass-building-with-a-european-union-flag-6791897/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Apple",
+        "European Commission",
+        "Digital Markets Act",
+        "App Store",
+        "iOS",
+        "EU",
+        "gatekeeper"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "apple-vs-ec-dma-tuong-lai-iphone",
+      "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp",
+      "thumbnail": "images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/silver-iphone-6-on-book-699122/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Apple",
+        "European Commission",
+        "DMA",
+        "iPhone",
+        "App Store",
+        "tương lai iOS"
+      ],
+      "categories": [
+        "cong-nghe"
       ]
     },
     {
@@ -735,6 +815,33 @@
       ]
     },
     {
+      "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
+      "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp",
+      "thumbnail": "images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/flag-of-european-columns-between-columns-22046935/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Apple",
+        "European Commission",
+        "Digital Markets Act",
+        "App Store",
+        "iOS",
+        "EU",
+        "gatekeeper"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
       "slug": "doi-baht-o-viet-nam-hay-thai-lan",
       "title": "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc",
       "status": "valid",
@@ -835,6 +942,32 @@
       ],
       "categories": [
         "du-lich"
+      ]
+    },
+    {
+      "slug": "european-commission-duoc-gi-khi-thang-apple",
+      "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/european-commission-duoc-gi-khi-thang-apple.webp",
+      "thumbnail": "images/posts/european-commission-duoc-gi-khi-thang-apple.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/european-union-flag-4173239/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "European Commission",
+        "DMA",
+        "Apple",
+        "gatekeeper",
+        "anti-steering",
+        "luật chống độc quyền"
+      ],
+      "categories": [
+        "cong-nghe"
       ]
     },
     {
@@ -1213,6 +1346,32 @@
         "so sánh iOS",
         "Siri AI",
         "nâng cấp iOS"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
+      "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp",
+      "thumbnail": "images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-holding-black-iphone-7-3861969/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Apple",
+        "DMA",
+        "iOS",
+        "App Store",
+        "người dùng EU",
+        "bảo mật iPhone"
       ],
       "categories": [
         "cong-nghe"
@@ -1843,6 +2002,59 @@
       ],
       "categories": [
         "du-lich"
+      ]
+    },
+    {
+      "slug": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
+      "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp",
+      "thumbnail": "images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/photo-of-person-holding-smartphone-3760263/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Apple",
+        "European Commission",
+        "Digital Markets Act",
+        "App Store",
+        "iOS",
+        "EU",
+        "gatekeeper"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
+      "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp",
+      "thumbnail": "images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-using-macbook-pro-6476589/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [
+        "Apple",
+        "DMA",
+        "App Store",
+        "developer",
+        "Core Technology Fee",
+        "anti-steering"
+      ],
+      "categories": [
+        "cong-nghe"
       ]
     },
     {

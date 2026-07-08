@@ -25,6 +25,12 @@
       "order": 8
     },
     {
+      "slug": "apple-ec-dma-app-store-ios",
+      "label": "Apple vs EC: App Store, iOS và Digital Markets Act",
+      "description": "Series 8 bài phân tích Apple đối đầu European Commission quanh DMA — gatekeeper, anti-steering, lợi ích/rủi ro cho người dùng EU, developer và tương lai iPhone.",
+      "order": 9
+    },
+    {
       "slug": "du-lich",
       "label": "Du lịch Hàn Quốc 2026",
       "description": "Hành trình khám phá Hàn Quốc từ A đến Z — kinh nghiệm, lịch trình tự túc, ăn uống, mua sắm và những điểm đến không thể bỏ lỡ.",
