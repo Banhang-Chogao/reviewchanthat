@@ -462,6 +462,10 @@ def main():
                     "providers_tried": providers_tried,
                     "reason": "no_valid_candidate",
                 })
+                for i, e in enumerate(manifest["posts"]):
+                    if e["slug"] == slug:
+                        del manifest["posts"][i]
+                        break
 
             selection_report["summary"]["posts_checked"] += 1
             time.sleep(0.3)
@@ -492,6 +496,7 @@ def main():
 
 
 def _mark_needs_image(slug):
+    """Clear all image fields and mark needs_image. No trace of placeholder left."""
     import frontmatter
     content_dir = "content/posts"
     for fname in os.listdir(content_dir):
@@ -501,10 +506,14 @@ def _mark_needs_image(slug):
         try:
             post = frontmatter.load(fpath)
             if post.metadata.get("slug") == slug:
-                post.metadata["image_status"] = "needs_image"
+                meta = post.metadata
+                for key in ["image", "thumbnail", "image_source", "image_source_url",
+                            "image_license", "image_commercial_use", "image_owner", "image_creator"]:
+                    meta.pop(key, None)
+                meta["image_status"] = "needs_image"
                 with open(fpath, "w", encoding="utf-8") as f:
                     f.write(frontmatter.dumps(post))
-                print(f"    Marked {slug}: image_status = needs_image")
+                print(f"    Cleared image fields, set needs_image: {slug}")
                 return
         except Exception:
             continue

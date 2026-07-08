@@ -115,6 +115,28 @@ def process_image(src_path, dest_path, watermark_text=""):
         return False
 
 
+def clear_post_image(slug):
+    """Remove all image fields and mark needs_image when no real image available."""
+    import frontmatter
+    for f in os.listdir(CONTENT_DIR):
+        if not f.endswith(".md"):
+            continue
+        try:
+            post = frontmatter.load(os.path.join(CONTENT_DIR, f))
+            if post.metadata.get("slug") == slug:
+                meta = post.metadata
+                for key in ["image", "thumbnail", "image_source", "image_source_url",
+                            "image_license", "image_commercial_use", "image_owner", "image_creator"]:
+                    meta.pop(key, None)
+                meta["image_status"] = "needs_image"
+                with open(os.path.join(CONTENT_DIR, f), "w", encoding="utf-8") as fh:
+                    fh.write(frontmatter.dumps(post))
+                print(f"    Cleared image data, set needs_image: {f}")
+                return
+        except Exception:
+            continue
+
+
 def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url,
                             license_val, commercial_use, owner="external", creator=""):
     import frontmatter
@@ -168,6 +190,7 @@ def main():
 
         if not direct_url:
             print(f"    FAIL: No direct_url in manifest for {slug}")
+            clear_post_image(slug)
             failed += 1
             continue
 
@@ -185,22 +208,27 @@ def main():
             ok = download_image(direct_url, src_path)
             if not ok:
                 print(f"    FAIL: Could not download from {direct_url}")
+                clear_post_image(slug)
                 failed += 1
                 continue
 
         if not os.path.exists(src_path):
             print(f"    FAIL: Source file not found at {src_path}")
+            clear_post_image(slug)
             failed += 1
             continue
 
         if has_placeholder_characteristics(src_path):
             print(f"    FAIL: Downloaded source appears to be a placeholder/solid color")
             os.remove(src_path)
+            clear_post_image(slug)
             failed += 1
             continue
 
         ok = process_image(src_path, dest_path, watermark)
         if not ok:
+            print(f"    FAIL: Image processing failed for {slug}")
+            clear_post_image(slug)
             failed += 1
             continue
 
