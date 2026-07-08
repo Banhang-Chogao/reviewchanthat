@@ -13,4 +13,6 @@
 </div>
 {{ $repJs := resources.Get "js/reputation-hall.js" | minify | fingerprint }}
 <script src="{{ $repJs.RelPermalink }}" integrity="{{ $repJs.Data.Integrity }}" defer></script>
+{{ $sitemapJs := resources.Get "js/about-sitemap.js" | minify | fingerprint }}
+<script src="{{ $sitemapJs.RelPermalink }}" integrity="{{ $sitemapJs.Data.Integrity }}" defer></script>
 {{ end }}
