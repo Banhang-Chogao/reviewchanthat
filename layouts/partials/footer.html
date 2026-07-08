@@ -1,8 +1,11 @@
 <footer id="site-footer" class="site-footer">
   <div class="footer-inner container">
-    <div class="footer-brand">
-      {{ partial "site-logo.html" (dict "context" . "modifier" "site-logo--footer") }}
-      <p class="footer-desc">{{ .Site.Params.description }}</p>
+    <div class="footer-top">
+      <div class="footer-brand">
+        {{ partial "site-logo.html" (dict "context" . "modifier" "site-logo--footer") }}
+        <p class="footer-desc">{{ .Site.Params.description }}</p>
+      </div>
+      {{ partial "footer-ga4-box.html" . }}
     </div>
     <nav class="footer-nav">
       <a href="{{ "about/" | relURL }}" class="footer-nav-link">Về chúng tôi</a>

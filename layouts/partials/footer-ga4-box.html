@@ -1,0 +1,50 @@
+{{- $ga := site.Data.ga4_footer -}}
+{{- $ok := and $ga (eq $ga.status "ok") -}}
+<div class="footer-ga4-box" aria-label="Thống kê truy cập GA4">
+  <div class="footer-ga4-box__eyebrow">GA4 Analytics</div>
+  {{- with $ga.range_label -}}
+  <p class="footer-ga4-box__range">{{ . }}</p>
+  {{- end -}}
+  <div class="footer-ga4-box__grid">
+    <div class="footer-ga4-box__metric">
+      <span class="footer-ga4-box__label">Organic Search</span>
+      <strong class="footer-ga4-box__value">
+        {{- if $ok -}}
+          {{- $organic := $ga.organic_search_users -}}
+          {{- if not (isset $ga "organic_search_users") -}}
+            {{- $organic = $ga.organic_search_sessions -}}
+          {{- end -}}
+          {{- $organic | lang.FormatNumber 0 -}}
+        {{- else -}}
+          —
+        {{- end -}}
+      </strong>
+    </div>
+    <div class="footer-ga4-box__metric">
+      <span class="footer-ga4-box__label">Tổng truy cập</span>
+      <strong class="footer-ga4-box__value">
+        {{- if $ok -}}
+          {{- $total := $ga.total_users -}}
+          {{- if not (isset $ga "total_users") -}}
+            {{- $total = $ga.total_sessions -}}
+          {{- end -}}
+          {{- $total | lang.FormatNumber 0 -}}
+        {{- else -}}
+          —
+        {{- end -}}
+      </strong>
+    </div>
+  </div>
+  <p class="footer-ga4-box__updated">
+    {{- if $ok -}}
+      {{- with $ga.updated_at -}}
+        {{- $t := time.AsTime . -}}
+        Cập nhật: {{ $t.Format "02/01/2006 15:04" }}
+      {{- else -}}
+        Cập nhật: —
+      {{- end -}}
+    {{- else -}}
+      GA4 đang cập nhật
+    {{- end -}}
+  </p>
+</div>

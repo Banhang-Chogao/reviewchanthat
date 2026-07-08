@@ -214,6 +214,26 @@ def qa():
         rel = os.path.relpath(fpath, os.getcwd())
         errors.append(f"[AI_SUMMARY_MAP_LITERAL] {rel}")
 
+    warnings = []
+    ga4_path = os.path.join("data", "ga4_footer.json")
+    if not os.path.exists(ga4_path):
+        warnings.append("[GA4_FOOTER_MISSING] data/ga4_footer.json not found")
+    else:
+        try:
+            with open(ga4_path, encoding="utf-8") as fh:
+                ga4_data = json.load(fh)
+            if ga4_data.get("status") != "ok":
+                warnings.append(
+                    f"[GA4_FOOTER_PENDING] footer GA4 status={ga4_data.get('status', 'unknown')}"
+                )
+        except (json.JSONDecodeError, OSError) as exc:
+            warnings.append(f"[GA4_FOOTER_INVALID] data/ga4_footer.json unreadable: {exc}")
+
+    if warnings:
+        print(f"QA WARN: {len(warnings)} warning(s)\n")
+        for warn in warnings:
+            print(f"  {warn}")
+
     if errors:
         print(f"QA FAILED: {len(errors)} error(s)\n")
         for err in errors:
