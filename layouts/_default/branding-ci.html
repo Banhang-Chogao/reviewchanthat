@@ -1,0 +1,454 @@
+{{ define "main" }}
+<div class="container">
+  <article class="branding-ci">
+    {{/* Hero */}}
+    <header class="branding-ci__hero">
+      <div class="branding-ci__hero-chips">
+        <span class="branding-ci__chip">Trust‑first</span>
+        <span class="branding-ci__chip">Text‑first</span>
+        <span class="branding-ci__chip">Static‑fast</span>
+      </div>
+      <h1 class="branding-ci__title">Branding CI</h1>
+      <p class="branding-ci__subtitle">Bộ nguyên tắc nhận diện và phát triển UI/UX cho Review Chân Thật. Một hệ thống nhỏ, rõ ràng, nhất quán — giúp từng bài review nhìn đáng tin hơn và dễ đọc hơn.</p>
+    </header>
+
+    {{/* Brand Essence */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">Brand Essence</h2>
+      <div class="branding-ci__card-grid">
+        <div class="branding-ci__card">
+          <span class="branding-ci__card-label">Brand name</span>
+          <span class="branding-ci__card-value">Review Chân Thật</span>
+        </div>
+        <div class="branding-ci__card">
+          <span class="branding-ci__card-label">Tagline</span>
+          <span class="branding-ci__card-value">Review thật, trải nghiệm thật, quyết định thông minh hơn.</span>
+        </div>
+        <div class="branding-ci__card">
+          <span class="branding-ci__card-label">Brand promise</span>
+          <span class="branding-ci__card-value">Giúp người đọc ra quyết định tốt hơn bằng nội dung rõ ràng, trung thực, có cấu trúc và dễ kiểm chứng.</span>
+        </div>
+        <div class="branding-ci__card">
+          <span class="branding-ci__card-label">Personality</span>
+          <span class="branding-ci__card-value">Trung thực · Thực tế · Gọn gàng · Có chiều sâu · Không phô trương</span>
+        </div>
+      </div>
+    </section>
+
+    {{/* Voice & Tone */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">Voice &amp; Tone</h2>
+      <p class="branding-ci__section-desc">Cách chúng tôi viết — và cách chúng tôi không viết.</p>
+      <div class="branding-ci__table-wrap">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th class="branding-ci__table-th branding-ci__table-th--do">Nên viết</th>
+              <th class="branding-ci__table-th branding-ci__table-th--dont">Không nên viết</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nói thẳng, giải thích rõ vì sao.</td>
+              <td>Giật tít quá đà.</td>
+            </tr>
+            <tr>
+              <td>Ưu tiên trải nghiệm thật, dữ kiện, checklist.</td>
+              <td>Khẳng định khi chưa có nguồn.</td>
+            </tr>
+            <tr>
+              <td>Cảnh báo rủi ro và giới hạn.</td>
+              <td>Dùng quá nhiều emoji.</td>
+            </tr>
+            <tr>
+              <td>Viết như một người bạn có chuyên môn.</td>
+              <td>Nhồi từ khóa SEO.</td>
+            </tr>
+            <tr>
+              <td>Trích nguồn rõ ràng, dễ kiểm chứng.</td>
+              <td>Review kiểu quảng cáo trá hình.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {{/* Typography */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">Typography</h2>
+      <p class="branding-ci__section-desc">Hệ thống chữ được định nghĩa qua CSS variables, fallback qua hệ thống font của trình duyệt để đảm bảo tải nhanh mà không phụ thuộc vào bên thứ ba.</p>
+      <pre class="branding-ci__code"><code>:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Noto Sans", system-ui, sans-serif;
+
+  --font-mono: "SF Mono", Menlo, Monaco, Consolas,
+    "Roboto Mono", "Noto Mono", monospace;
+}</code></pre>
+      <p class="branding-ci__section-desc">Font không được load từ CDN hay server bên ngoài. Trình duyệt tự chọn font phù hợp nhất với hệ điều hành của người dùng — macOS dùng San Francisco, Windows dùng Segoe UI, Linux dùng Noto Sans. Cách này giúp blog tải nhanh hơn, không bị phụ thuộc vào bên thứ ba, và chữ luôn sắc nét trên mọi nền tảng.</p>
+      <div class="branding-ci__table-wrap">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th>Level</th>
+              <th>Spec</th>
+              <th>Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="branding-ci__font-demo" style="font-size:clamp(1.5rem,4vw,2.2rem);font-weight:800">H1</span></td>
+              <td><code>clamp(1.5rem, 4vw, 2.2rem)</code> · ExtraBold 800 · <code>letter-spacing: -.03em</code></td>
+              <td>Hero title (trang chủ)</td>
+            </tr>
+            <tr>
+              <td><span class="branding-ci__font-demo" style="font-size:clamp(1.4rem,3vw,1.8rem);font-weight:800">H2</span></td>
+              <td><code>clamp(1.4rem, 3vw, 1.8rem)</code> · ExtraBold 800 · <code>letter-spacing: -.02em</code></td>
+              <td>Post title, section heading</td>
+            </tr>
+            <tr>
+              <td><span class="branding-ci__font-demo" style="font-size:1.15rem;font-weight:800">H3</span></td>
+              <td><code>1.15rem</code> · ExtraBold 800</td>
+              <td>Card title, block heading</td>
+            </tr>
+            <tr>
+              <td><span class="branding-ci__font-demo" style="font-size:1.02rem">Body</span></td>
+              <td><code>1.02rem</code> · Regular 400 · <code>line-height: 1.7</code></td>
+              <td>Nội dung bài viết</td>
+            </tr>
+            <tr>
+              <td><span class="branding-ci__font-demo" style="font-size:.82rem;font-weight:700">Nav</span></td>
+              <td><code>.82rem</code> · Bold 700 · <code>letter-spacing: 0</code></td>
+              <td>Nav pill, badge, chip</td>
+            </tr>
+            <tr>
+              <td><span class="branding-ci__font-demo" style="font-size:.72rem;font-weight:700;text-transform:uppercase">Label</span></td>
+              <td><code>.72rem</code> · Bold 700 · Uppercase · <code>letter-spacing: .03em</code></td>
+              <td>Category badge, footnote</td>
+            </tr>
+            <tr>
+              <td><span class="branding-ci__font-demo" style="font-size:.68rem;font-weight:600">Small</span></td>
+              <td><code>.68rem</code> · SemiBold 600</td>
+              <td>Tag, metadata, caption</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {{/* Color Palette */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">Color Palette</h2>
+      <p class="branding-ci__section-desc">Tất cả màu sắc được định nghĩa qua CSS variables. Light mode là mặc định; dark mode dùng class <code>html.dark-mode</code> ghi đè từng token.</p>
+
+      <h3 class="branding-ci__subsection-title">Neutral</h3>
+      <div class="branding-ci__swatch-grid">
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#f8f7f4;border:1px solid #e8e6e1"></span>
+          <span class="branding-ci__swatch-label">--bg</span>
+          <span class="branding-ci__swatch-value">#f8f7f4</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#fff;border:1px solid #e8e6e1"></span>
+          <span class="branding-ci__swatch-label">--surface</span>
+          <span class="branding-ci__swatch-value">#ffffff</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#1a1a1a"></span>
+          <span class="branding-ci__swatch-label">--text</span>
+          <span class="branding-ci__swatch-value">#1a1a1a</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#555"></span>
+          <span class="branding-ci__swatch-label">--text-secondary</span>
+          <span class="branding-ci__swatch-value">#555555</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#888"></span>
+          <span class="branding-ci__swatch-label">--muted</span>
+          <span class="branding-ci__swatch-value">#888888</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#e8e6e1"></span>
+          <span class="branding-ci__swatch-label">--border</span>
+          <span class="branding-ci__swatch-value">#e8e6e1</span>
+        </div>
+      </div>
+
+      <h3 class="branding-ci__subsection-title">Accent</h3>
+      <div class="branding-ci__swatch-grid">
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#2563eb"></span>
+          <span class="branding-ci__swatch-label">--accent</span>
+          <span class="branding-ci__swatch-value">#2563eb</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#eef2ff;border:1px solid #e8e6e1"></span>
+          <span class="branding-ci__swatch-label">--accent-soft</span>
+          <span class="branding-ci__swatch-value">#eef2ff</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#1d4ed8"></span>
+          <span class="branding-ci__swatch-label">--accent-hover</span>
+          <span class="branding-ci__swatch-value">#1d4ed8</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#d97706"></span>
+          <span class="branding-ci__swatch-label">--amber</span>
+          <span class="branding-ci__swatch-value">#d97706</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#fffbeb;border:1px solid #e8e6e1"></span>
+          <span class="branding-ci__swatch-label">--amber-soft</span>
+          <span class="branding-ci__swatch-value">#fffbeb</span>
+        </div>
+      </div>
+
+      <h3 class="branding-ci__subsection-title">Chip palette (8 semantic colors)</h3>
+      <div class="branding-ci__swatch-grid">
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#fef2f2;border:1px solid #fecaca"></span>
+          <span class="branding-ci__swatch-label">--chip-red</span>
+          <span class="branding-ci__swatch-value">rgba(255,77,77,.14)</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#fff7ed;border:1px solid #fed7aa"></span>
+          <span class="branding-ci__swatch-label">--chip-orange</span>
+          <span class="branding-ci__swatch-value">rgba(255,138,0,.14)</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#fefce8;border:1px solid #fde68a"></span>
+          <span class="branding-ci__swatch-label">--chip-yellow</span>
+          <span class="branding-ci__swatch-value">rgba(255,193,7,.16)</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#f0fdf4;border:1px solid #bbf7d0"></span>
+          <span class="branding-ci__swatch-label">--chip-green</span>
+          <span class="branding-ci__swatch-value">rgba(0,200,83,.14)</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#eff6ff;border:1px solid #bfdbfe"></span>
+          <span class="branding-ci__swatch-label">--chip-blue</span>
+          <span class="branding-ci__swatch-value">rgba(33,150,243,.14)</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#f0f9ff;border:1px solid #bae6fd"></span>
+          <span class="branding-ci__swatch-label">--chip-sky</span>
+          <span class="branding-ci__swatch-value">rgba(56,189,248,.18)</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#f5f3ff;border:1px solid #ddd6fe"></span>
+          <span class="branding-ci__swatch-label">--chip-purple</span>
+          <span class="branding-ci__swatch-value">rgba(124,77,255,.14)</span>
+        </div>
+        <div class="branding-ci__swatch">
+          <span class="branding-ci__swatch-sample" style="background:#fdf2f8;border:1px solid #fbcfe8"></span>
+          <span class="branding-ci__swatch-label">--chip-pink</span>
+          <span class="branding-ci__swatch-value">rgba(224,64,251,.14)</span>
+        </div>
+      </div>
+
+      <h3 class="branding-ci__subsection-title">Dark mode</h3>
+      <p class="branding-ci__section-desc">Khi thêm class <code>html.dark-mode</code>, các token được ghi đè đồng bộ. Nền tối (<code>#0f172a</code>), text sáng (<code>#f1f5f9</code>), chip palette chuyển sang phiên bản tối với text neon.</p>
+      <div class="branding-ci__table-wrap">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th>Token</th>
+              <th>Light</th>
+              <th>Dark</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><code>--bg</code></td><td><span class="branding-ci__color-dot" style="background:#f8f7f4;border:1px solid #ccc"></span> #f8f7f4</td><td><span class="branding-ci__color-dot" style="background:#0f172a"></span> #0f172a</td></tr>
+            <tr><td><code>--surface</code></td><td><span class="branding-ci__color-dot" style="background:#fff;border:1px solid #ccc"></span> #ffffff</td><td><span class="branding-ci__color-dot" style="background:#1e293b"></span> #1e293b</td></tr>
+            <tr><td><code>--text</code></td><td><span class="branding-ci__color-dot" style="background:#1a1a1a"></span> #1a1a1a</td><td><span class="branding-ci__color-dot" style="background:#f1f5f9"></span> #f1f5f9</td></tr>
+            <tr><td><code>--border</code></td><td><span class="branding-ci__color-dot" style="background:#e8e6e1"></span> #e8e6e1</td><td><span class="branding-ci__color-dot" style="background:#334155"></span> #334155</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {{/* Spacing & Layout */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">Spacing &amp; Layout</h2>
+      <p class="branding-ci__section-desc">Hệ thống spacing dùng <code>clamp()</code> để responsive mượt, không breakpoint cứng.</p>
+      <div class="branding-ci__table-wrap">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th>Token</th>
+              <th>Value</th>
+              <th>Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><code>--site-max-width</code></td><td><code>1240px</code></td><td>Container lớn nhất của toàn bộ layout</td></tr>
+            <tr><td><code>--content-max-width</code></td><td><code>800px</code></td><td>Giới hạn chiều rộng nội dung bài viết</td></tr>
+            <tr><td><code>--page-padding</code></td><td><code>clamp(1rem, 4vw, 2rem)</code></td><td>Padding ngang của container</td></tr>
+            <tr><td><code>--section-gap</code></td><td><code>clamp(2.5rem, 6vw, 5rem)</code></td><td>Khoảng cách giữa các section</td></tr>
+            <tr><td><code>--card-gap</code></td><td><code>clamp(1.5rem, 4vw, 3.5rem)</code></td><td>Gap trong grid</td></tr>
+            <tr><td><code>--radius-sm</code></td><td><code>10px</code></td><td>Tag, badge, icon nhỏ</td></tr>
+            <tr><td><code>--radius-md</code></td><td><code>16px</code></td><td>Card, block, post item</td></tr>
+            <tr><td><code>--radius-lg</code></td><td><code>22px</code></td><td>Section container, hero block</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="branding-ci__table-wrap" style="margin-top:1rem">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th>Shadow token</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><code>--shadow</code></td><td><code>0 1px 3px rgba(0,0,0,.04), 0 1px 2px rgba(0,0,0,.06)</code></td></tr>
+            <tr><td><code>--shadow-hover</code></td><td><code>0 10px 25px rgba(0,0,0,.06), 0 4px 10px rgba(0,0,0,.04)</code></td></tr>
+            <tr><td><code>--bounce-spring</code></td><td><code>cubic-bezier(.34, 1.56, .64, 1)</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {{/* Component Pattern */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">Component Pattern</h2>
+      <p class="branding-ci__section-desc">Mỗi component interactive phải có đủ 4 trạng thái: default, hover, active, focus-visible.</p>
+      <div class="branding-ci__table-wrap">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th>Component</th>
+              <th>Pattern</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>.nav-pill</code></td>
+              <td>Chip nền với border, hover translateY(-4px) scale(1.06), active translateY(-1px), focus-visible outline 3px</td>
+            </tr>
+            <tr>
+              <td><code>.category-badge</code></td>
+              <td>Giống nav-pill, dùng chip semantic color theo category slug</td>
+            </tr>
+            <tr>
+              <td><code>.site-logo</code></td>
+              <td>Gradient sky-blue, hover translateY(-3px) scale(1.03), drop-shadow</td>
+            </tr>
+            <tr>
+              <td><code>.theme-toggle</code></td>
+              <td>Icon button 44×44px, chip-sky nền, hover scale(1.05)</td>
+            </tr>
+            <tr>
+              <td><code>.post-card / .home-post-block</code></td>
+              <td>Aspect-ratio 1/1 (homepage grid) hoặc horizontal row (category). Border + surface + shadow + hover translate</td>
+            </tr>
+            <tr>
+              <td><code>.tag-badge</code></td>
+              <td><code>#f3f4f6</code> nền, font-size .68rem, border-radius 8px, min-height 44px</td>
+            </tr>
+            <tr>
+              <td><code>.hero-chip</code></td>
+              <td>Pill với ::before checkmark, chip color, hover translateY(-3px) scale(1.04)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {{/* Image & Thumbnail */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">Image &amp; Thumbnail Guidelines</h2>
+      <div class="branding-ci__table-wrap">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th>Spec</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Kích thước</td><td>800×450px (16:9)</td></tr>
+            <tr><td>Format</td><td>WebP, quality 85</td></tr>
+            <tr><td>Nguồn ưu tiên</td><td>Pexels (20pts), Pixabay (5pts)</td></tr>
+            <tr><td>Giấy phép</td><td>Commercial use bắt buộc</td></tr>
+            <tr><td>Watermark</td><td>Góc dưới phải, nền đen 100 alpha, chữ "Source: [platform]"</td></tr>
+            <tr><td>Frontmatter bắt buộc</td><td><code>image</code>, <code>thumbnail</code>, <code>image_source</code>, <code>image_source_url</code>, <code>image_license</code>, <code>image_commercial_use=true</code>, <code>image_owner</code></td></tr>
+            <tr><td>Path</td><td><code>images/posts/{slug}.webp</code> (không slash đầu)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {{/* SEO & Noindex Policy */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">SEO &amp; Noindex Policy</h2>
+      <div class="branding-ci__table-wrap">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th>Trang / Loại</th>
+              <th>Policy</th>
+              <th>Cách áp dụng</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Bài viết (posts)</td><td><code>index,follow</code></td><td>Mặc định; thêm tags meta keywords nếu có tags</td></tr>
+            <tr><td>Danh mục (categories)</td><td><code>noindex,follow</code></td><td>Dùng <code>noindex: true</code> trong frontmatter của mỗi category page</td></tr>
+            <tr><td>Trang tĩnh (about, privacy, contact)</td><td><code>noindex,follow</code></td><td>Setting <code>noindex: true</code> trong frontmatter</td></tr>
+            <tr><td>Trang guideline (branding-ci)</td><td><code>noindex,follow</code></td><td><code>noindex: true</code> + <code>_build.list: false</code> (không vào sitemap)</td></tr>
+            <tr><td>Tác giả (authors)</td><td><code>noindex,follow</code></td><td>Template mặc định</td></tr>
+            <tr><td>Tags</td><td><code>noindex,follow</code></td><td>Template mặc định</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="branding-ci__section-desc" style="margin-top:1rem">Tất cả các trang đều dùng <code>rel="canonical"</code> trỏ về URL gốc. Robots meta được render qua partial <code>seo.html</code>, đọc từ <code>.Params.noindex</code>.</p>
+    </section>
+
+    {{/* Motion & Interaction */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">UI Motion &amp; Interaction</h2>
+      <div class="branding-ci__table-wrap">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th>Rule</th>
+              <th>Detail</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Transition easing</td><td><code>cubic-bezier(.34, 1.56, .64, 1)</code> (bounce spring) cho interactive elements</td></tr>
+            <tr><td>Hover duration</td><td><code>.15s–.35s</code> tùy component; scale + translateY phổ biến</td></tr>
+            <tr><td>Reduce motion</td><td>Tất cả transition và animation bị vô hiệu khi <code>@media (prefers-reduced-motion: reduce)</code></td></tr>
+            <tr><td>Focus style</td><td><code>outline: 3px solid rgba(37,99,235,.35); outline-offset: 2px</code> trên tất cả interactive elements</td></tr>
+            <tr><td>Tap target</td><td>Min 44×44px cho tất cả nút và link điều hướng</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {{/* Technology Stack */}}
+    <section class="branding-ci__section">
+      <h2 class="branding-ci__section-title">Technology Stack</h2>
+      <div class="branding-ci__table-wrap">
+        <table class="branding-ci__table">
+          <thead>
+            <tr>
+              <th>Layer</th>
+              <th>Technology</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Static site generator</td><td>Hugo v0.163.1 (extended)</td></tr>
+            <tr><td>Hosting</td><td>GitHub Pages</td></tr>
+            <tr><td>CSS</td><td>Single file, CSS variables, minified + fingerprinted</td></tr>
+            <tr><td>JavaScript</td><td>Vanilla JS, deferred, per-page khi cần (theme, clock, search, scroll-jump, reputation)</td></tr>
+            <tr><td>Image pipeline</td><td>Python (Pillow) — API search → download → crop 16:9 → WebP 85% → watermark</td></tr>
+            <tr><td>CI/CD</td><td>GitHub Actions: audit → dedupe → QA → Hugo build → deploy</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </article>
+</div>
+{{ end }}
