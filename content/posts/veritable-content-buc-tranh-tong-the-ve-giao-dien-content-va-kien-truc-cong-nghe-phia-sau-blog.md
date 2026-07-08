@@ -1,19 +1,20 @@
 ---
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: 2026-07-07
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 description: 'Tường thuật quá trình tinh chỉnh Veritable Content: từ logo, header,
   footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions
   và triết lý text-first.'
 draft: false
-image: images/posts/coffeebean-cover-hero.webp
+image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
 image_commercial_use: true
-image_license: Owned by Veritable Content
-image_owner: self
-image_source: Veritable Content
-image_source_url: https://banhang-chogao.github.io/reviewchanthat/
+image_creator: Tran Nhu Tuan
+image_license: Pexels License
+image_owner: external
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/
 lastmod: 2026-07-07
 slug: veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog
 tags:
@@ -24,19 +25,21 @@ tags:
 - Flat Design
 - Content Architecture
 - SEO
-thumbnail: images/posts/coffeebean-cover-hero.webp
+thumbnail: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
 title: 'Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công
   nghệ phía sau blog'
 tom_tat_nhanh:
-  - label: Chủ đề
-    value: 'Tổng quan về giao diện, content và kiến trúc công nghệ blog Veritable Content'
-  - label: Mục đích
-    value: 'Giải thích triết lý thiết kế, lựa chọn công nghệ và quy trình vận hành blog'
-  - label: Hợp với
-    value: 'Người làm blog, quan tâm Hugo, Flat Design, content architecture'
-  - label: Điểm chính
-    value: 'Text-first, Hugo + Python + GitHub Actions, Flat Design, không JavaScript nặng'
+- label: Chủ đề
+  value: Tổng quan về giao diện, content và kiến trúc công nghệ blog Veritable Content
+- label: Mục đích
+  value: Giải thích triết lý thiết kế, lựa chọn công nghệ và quy trình vận hành blog
+- label: Hợp với
+  value: Người làm blog, quan tâm Hugo, Flat Design, content architecture
+- label: Điểm chính
+  value: Text-first, Hugo + Python + GitHub Actions, Flat Design, không JavaScript
+    nặng
 ---
+
 Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh, CI/CD tự động, và quan trọng nhất: một triết lý rất rõ về tốc độ.
 
 **Veritable Content** thuộc nhóm thứ hai. Blog này không chỉ là nơi review sản phẩm. Nó là một thử nghiệm nghiêm túc về cách xây blog tĩnh hiện đại: trung thực trong nội dung, gọn trong giao diện, nhanh trong tốc độ tải.

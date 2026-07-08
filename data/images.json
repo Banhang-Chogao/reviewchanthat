@@ -517,6 +517,20 @@
       "local_source_path": "static/images/posts-src/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.jpg",
       "output_path": "static/images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp",
       "watermark_text": "Source: Pixabay"
+    },
+    {
+      "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
+      "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
+      "image_id": "img-1aea1406",
+      "source_platform": "Pexels",
+      "source_url": "https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/",
+      "direct_url": "https://images.pexels.com/photos/7936747/pexels-photo-7936747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Tran Nhu Tuan",
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.jpg",
+      "output_path": "static/images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp",
+      "watermark_text": "Source: Pexels"
     }
   ]
 }

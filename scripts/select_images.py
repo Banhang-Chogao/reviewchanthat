@@ -232,9 +232,14 @@ def main():
         slug = post["slug"]
         if slug in already_done:
             continue
+        img_path = post.get("image", "")
         if post["status"] in ("missing_image", "duplicate_image", "missing_license_metadata", "valid"):
-            if post.get("image", "").startswith("http") or post["status"] in ("missing_image", "duplicate_image"):
+            if img_path.startswith("http") or post["status"] in ("missing_image", "duplicate_image"):
                 need_images.append(post)
+            elif post["status"] == "valid" and img_path and not img_path.startswith("http"):
+                local_file = os.path.join("static", img_path)
+                if not os.path.exists(local_file):
+                    need_images.append(post)
 
     if not need_images:
         print("All posts already have images in manifest.")
