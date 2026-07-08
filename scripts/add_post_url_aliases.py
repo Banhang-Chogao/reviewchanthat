@@ -16,7 +16,17 @@ except ImportError:
     print("python-frontmatter not installed. Run: pip install python-frontmatter")
     sys.exit(1)
 
-SITE_BASE_PATH = "/reviewchanthat"
+def load_base_path() -> str:
+    """Read baseURL from hugo.toml and extract the path component."""
+    import tomllib
+    with open("hugo.toml", "rb") as f:
+        cfg = tomllib.load(f)
+    base_url = cfg.get("baseURL", "https://banhang-chogao.github.io/reviewchanthat/")
+    parsed = urlparse(base_url)
+    return parsed.path.rstrip("/") or "/reviewchanthat"
+
+
+SITE_BASE_PATH = load_base_path()
 
 
 def legacy_alias(permalink: str) -> str:

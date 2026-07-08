@@ -7,6 +7,7 @@ import os
 import json
 import re
 from datetime import datetime, timezone
+from urllib.parse import urlparse
 
 CHANGELOG_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".artifacts", "changelog-pdf")
 MARKER_FILE = os.path.join(CHANGELOG_DIR, ".last-export")
@@ -314,6 +315,13 @@ def main():
 
     # Get base URL from Hugo config
     base_url = "https://banhang-chogao.github.io/reviewchanthat/"
+    try:
+        import tomllib
+        with open(os.path.join(os.path.dirname(os.path.dirname(__file__)), "hugo.toml"), "rb") as f:
+            cfg = tomllib.load(f)
+        base_url = cfg.get("baseURL", base_url)
+    except Exception:
+        pass
 
     # Generate PDF
     pdf = generate_pdf(commits, grouped, export_date, head_short, branch, range_desc, base_url)

@@ -8,3 +8,10 @@ public/
 
 # cl0: private artifacts (never publish)
 .artifacts/
+
+# Private content quality reports (never publish)
+reports/
+
+# Python cache
+__pycache__/
+*.pyc

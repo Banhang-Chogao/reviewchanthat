@@ -2,6 +2,7 @@
 {{- $items := slice -}}
 {{- $seen := dict -}}
 {{- $selfKey := $page.RelPermalink | strings.TrimSuffix "/" -}}
+{{- $siteBase := "" | relURL -}}
 {{- $siteHost := "" -}}
 {{- with urls.Parse (site.BaseURL | absURL) -}}
   {{- $siteHost = .Host -}}
@@ -13,17 +14,28 @@
     {{- if not $href -}}{{- continue -}}{{- end -}}
     {{- $title := strings.TrimSpace (.title | default "") -}}
     {{- if not $title -}}{{- $title = $href -}}{{- end -}}
-    {{- $key := $href | strings.TrimSuffix "/" -}}
+    {{- $effectiveHref := $href -}}
     {{- if hasPrefix $href "http" -}}
       {{- with urls.Parse $href -}}
         {{- if eq .Host $siteHost -}}
-          {{- $key = .Path | strings.TrimSuffix "/" -}}
+          {{- $effectiveHref = .Path -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}
+    {{- $slug := $effectiveHref | strings.TrimPrefix "/" | strings.TrimPrefix "posts/" | strings.TrimSuffix "/" -}}
+    {{- $target := site.GetPage (path.Join "posts" $slug) -}}
+    {{- $url := "" -}}
+    {{- if $target -}}
+      {{- $url = $target.RelPermalink -}}
+    {{- else if ne $effectiveHref $href -}}
+      {{- $url = $href -}}
+    {{- else -}}
+      {{- $url = $effectiveHref | strings.TrimPrefix "/" | relURL -}}
+    {{- end -}}
+    {{- $key := $url | strings.TrimSuffix "/" -}}
     {{- if or (eq $key $selfKey) (index $seen $key) -}}{{- continue -}}{{- end -}}
     {{- $seen = merge $seen (dict $key true) -}}
-    {{- $items = $items | append (dict "url" $href "title" $title) -}}
+    {{- $items = $items | append (dict "url" $url "title" $title) -}}
   {{- end -}}
 {{- end -}}
 
@@ -38,9 +50,19 @@
   {{- $key := "" -}}
   {{- $displayURL := $href -}}
 
-  {{- if or (hasPrefix $href "/") (and (not (hasPrefix $href "http://")) (not (hasPrefix $href "https://")) (not (hasPrefix $href "//"))) -}}
+  {{- if hasPrefix $href $siteBase -}}
     {{- $isInternal = true -}}
-    {{- $displayURL = $href | relURL -}}
+    {{- $displayURL = $href -}}
+    {{- $key = $href | strings.TrimSuffix "/" -}}
+  {{- else if hasPrefix $href "/" -}}
+    {{- $isInternal = true -}}
+    {{- $slug := $href | strings.TrimPrefix "/" | strings.TrimPrefix "posts/" | strings.TrimSuffix "/" -}}
+    {{- $target := site.GetPage (path.Join "posts" $slug) -}}
+    {{- if $target -}}
+      {{- $displayURL = $target.RelPermalink -}}
+    {{- else -}}
+      {{- $displayURL = $href | strings.TrimPrefix "/" | relURL -}}
+    {{- end -}}
     {{- $key = $displayURL | strings.TrimSuffix "/" -}}
   {{- else if or (hasPrefix $href "http://") (hasPrefix $href "https://") -}}
     {{- with urls.Parse $href -}}
