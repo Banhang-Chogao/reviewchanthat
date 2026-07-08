@@ -3,10 +3,10 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Lịch trình Seoul 3 ngày tháng 10 ưu tiên cung điện, công viên và khu Hanok —
-    kết hợp ngắm lá đỏ và văn hóa.
-  - "Ngày 1: Gyeongbokgung, Bukchon, Samcheongdong. Ngày 2: Haneul Park, Seoul Forest.
-    Ngày 3: Changdeokgung, Insadong, Cheonggyecheon."
+  - Lịch trình Seoul 3 ngày tháng 10 ưu tiên cung điện, công viên và khu Hanok — kết
+    hợp ngắm lá đỏ và văn hóa.
+  - 'Ngày 1: Gyeongbokgung, Bukchon, Samcheongdong. Ngày 2: Haneul Park, Seoul Forest.
+    Ngày 3: Changdeokgung, Insadong, Cheonggyecheon.'
   - Giữa–cuối tháng 10 phù hợp ngắm foliage; đầu tháng lá còn xanh–vàng nhạt.
   - Chi phí tham quan 3 ngày khoảng 50.000–100.000 KRW — giá có thể thay đổi theo
     mùa, ngày đi và tỷ giá.
@@ -21,8 +21,8 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu —
-  cung điện, công viên lá đỏ, Hanok và ẩm thực. Kèm ngân sách và mẹo di chuyển.
+description: Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu — cung
+  điện, công viên lá đỏ, Hanok và ẩm thực. Kèm ngân sách và mẹo di chuyển.
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
@@ -46,7 +46,7 @@ image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/gyeongbokgung-palace-during-daytime-2373337/
+image_source_url: https://www.pexels.com/photo/pexels-photo-12787325/
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
   title: Đi Hàn tháng 10 có đẹp không?

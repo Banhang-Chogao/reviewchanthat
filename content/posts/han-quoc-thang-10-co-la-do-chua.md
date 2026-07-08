@@ -5,8 +5,8 @@ ai_summary:
   items:
   - Tháng 10 là tháng bắt đầu mùa lá đỏ ở Hàn Quốc — mức độ phụ thuộc địa điểm và
     tuần trong tháng.
-  - "Seoraksan lá đỏ sớm nhất (dự báo 2025: đầu 30/9, đỉnh 23/10); Seoul và Bukhansan
-    muộn hơn (đầu 17/10, đỉnh 4/11)."
+  - 'Seoraksan lá đỏ sớm nhất (dự báo 2025: đầu 30/9, đỉnh 23/10); Seoul và Bukhansan
+    muộn hơn (đầu 17/10, đỉnh 4/11).'
   - Nami Island thường đẹp từ giữa đến cuối tháng 10; đầu tháng còn xanh–vàng nhạt.
   - Ngày lá đỏ thay đổi theo năm — luôn kiểm tra dự báo Visit Korea trước khi đặt
     vé.
@@ -48,7 +48,7 @@ image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/red-and-yellow-leaves-on-trees-33109/
+image_source_url: https://www.pexels.com/photo/pexels-photo-2131625/
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
   title: Đi Hàn tháng 10 có đẹp không?
