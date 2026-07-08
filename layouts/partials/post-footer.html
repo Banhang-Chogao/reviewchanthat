@@ -1,37 +1,78 @@
-<section class="post-footer-block post-footer-block--links">
-  <h2>Liên kết bên ngoài được sử dụng trong bài viết</h2>
-  {{ with .Params.external_links }}
-  <ol>
-    {{ range . }}
-    <li><a href="{{ .url }}" rel="nofollow noopener noreferrer" target="_blank">{{ .title }}</a></li>
-    {{ end }}
-  </ol>
-  {{ else }}
-  <p class="post-footer-empty">Hiện chưa có liên kết ngoài nào được sử dụng trong bài viết này.</p>
-  {{ end }}
-</section>
+{{- $internalLinks := partial "post-internal-links-collect.html" . -}}
 
-<section class="post-footer-block post-footer-block--attribution">
-  <h2>Bản quyền &amp; Ghi nguồn</h2>
-  {{ with .Params.attribution }}
-  {{ with .copyright }}<p>{{ . }}</p>{{ end }}
-  {{ with .source_note }}<p>{{ . }}</p>{{ end }}
-  {{ else }}
-  <p>© {{ now.Format "2006" }} {{ site.Title }}. Bảo lưu mọi quyền.</p>
-  <p>Nội dung được biên tập bởi đội ngũ {{ site.Title }}. Vui lòng ghi nguồn khi trích dẫn hoặc chia sẻ.</p>
-  {{ end }}
-</section>
+<div class="post-footer-macro" aria-label="Thông tin bổ sung cuối bài viết">
+  <section class="post-footer-block post-footer-block--internal">
+    <header class="post-footer-block__head">
+      <span class="post-footer-block__icon" aria-hidden="true">↩</span>
+      <h2>Liên kết nội bộ được sử dụng trong bài viết</h2>
+    </header>
+    <div class="post-footer-block__body">
+      {{ if $internalLinks }}
+      <ol class="post-footer-link-list">
+        {{ range $internalLinks }}
+        <li class="post-footer-link-item">
+          <a href="{{ .url | relURL }}">{{ .title }}</a>
+        </li>
+        {{ end }}
+      </ol>
+      {{ else }}
+      <p class="post-footer-empty">Hiện chưa có liên kết nội bộ nào được sử dụng trong bài viết này.</p>
+      {{ end }}
+    </div>
+  </section>
 
-<section class="post-footer-block post-footer-block--faq">
-  <h2>FAQ - Câu hỏi thường gặp</h2>
-  {{ with .Params.faq }}
-  {{ range . }}
-  <details class="post-faq-item">
-    <summary>{{ .question }}</summary>
-    <p>{{ .answer }}</p>
-  </details>
-  {{ end }}
-  {{ else }}
-  <p class="post-footer-empty">Hiện chưa có câu hỏi thường gặp cho bài viết này.</p>
-  {{ end }}
-</section>
+  <section class="post-footer-block post-footer-block--external">
+    <header class="post-footer-block__head">
+      <span class="post-footer-block__icon" aria-hidden="true">↗</span>
+      <h2>Liên kết bên ngoài được sử dụng trong bài viết</h2>
+    </header>
+    <div class="post-footer-block__body">
+      {{ with .Params.external_links }}
+      <ol class="post-footer-link-list">
+        {{ range . }}
+        <li class="post-footer-link-item">
+          <a href="{{ .url }}" rel="nofollow noopener noreferrer" target="_blank">{{ .title }}</a>
+        </li>
+        {{ end }}
+      </ol>
+      {{ else }}
+      <p class="post-footer-empty">Hiện chưa có liên kết ngoài nào được sử dụng trong bài viết này.</p>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="post-footer-block post-footer-block--attribution">
+    <header class="post-footer-block__head">
+      <span class="post-footer-block__icon" aria-hidden="true">©</span>
+      <h2>Bản quyền &amp; Ghi nguồn</h2>
+    </header>
+    <div class="post-footer-block__body post-footer-block__body--text">
+      {{ with .Params.attribution }}
+      {{ with .copyright }}<p>{{ . }}</p>{{ end }}
+      {{ with .source_note }}<p>{{ . }}</p>{{ end }}
+      {{ else }}
+      <p>© {{ now.Format "2006" }} {{ site.Title }}. Bảo lưu mọi quyền.</p>
+      <p>Nội dung được biên tập bởi đội ngũ {{ site.Title }}. Vui lòng ghi nguồn khi trích dẫn hoặc chia sẻ.</p>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="post-footer-block post-footer-block--faq">
+    <header class="post-footer-block__head">
+      <span class="post-footer-block__icon" aria-hidden="true">?</span>
+      <h2>FAQ - Câu hỏi thường gặp</h2>
+    </header>
+    <div class="post-footer-block__body">
+      {{ with .Params.faq }}
+      {{ range . }}
+      <details class="post-faq-item">
+        <summary>{{ .question }}</summary>
+        <p>{{ .answer }}</p>
+      </details>
+      {{ end }}
+      {{ else }}
+      <p class="post-footer-empty">Hiện chưa có câu hỏi thường gặp cho bài viết này.</p>
+      {{ end }}
+    </div>
+  </section>
+</div>

@@ -13,6 +13,7 @@ image_license: "Pixabay Content License"
 image_commercial_use: true
 image_owner: "external"
 draft: true
+internal_links: []
 external_links: []
 attribution:
   copyright: ""

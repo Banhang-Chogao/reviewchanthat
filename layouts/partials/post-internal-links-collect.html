@@ -1,0 +1,66 @@
+{{- $page := . -}}
+{{- $items := slice -}}
+{{- $seen := dict -}}
+{{- $selfKey := $page.RelPermalink | strings.TrimSuffix "/" -}}
+{{- $siteHost := "" -}}
+{{- with urls.Parse (site.BaseURL | absURL) -}}
+  {{- $siteHost = .Host -}}
+{{- end -}}
+
+{{- with $page.Params.internal_links -}}
+  {{- range . -}}
+    {{- $href := strings.TrimSpace (.url | default "") -}}
+    {{- if not $href -}}{{- continue -}}{{- end -}}
+    {{- $title := strings.TrimSpace (.title | default "") -}}
+    {{- if not $title -}}{{- $title = $href -}}{{- end -}}
+    {{- $key := $href | strings.TrimSuffix "/" -}}
+    {{- if hasPrefix $href "http" -}}
+      {{- with urls.Parse $href -}}
+        {{- if eq .Host $siteHost -}}
+          {{- $key = .Path | strings.TrimSuffix "/" -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if or (eq $key $selfKey) (index $seen $key) -}}{{- continue -}}{{- end -}}
+    {{- $seen = merge $seen (dict $key true) -}}
+    {{- $items = $items | append (dict "url" $href "title" $title) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range findRESubmatch `<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)</a>` $page.Content -}}
+  {{- $href := index . 1 | strings.TrimSpace -}}
+  {{- $label := index . 2 | plainify | strings.TrimSpace -}}
+  {{- if or (not $href) (hasPrefix $href "#") (hasPrefix $href "mailto:") (hasPrefix $href "tel:") -}}
+    {{- continue -}}
+  {{- end -}}
+
+  {{- $isInternal := false -}}
+  {{- $key := "" -}}
+  {{- $displayURL := $href -}}
+
+  {{- if or (hasPrefix $href "/") (and (not (hasPrefix $href "http://")) (not (hasPrefix $href "https://")) (not (hasPrefix $href "//"))) -}}
+    {{- $isInternal = true -}}
+    {{- $displayURL = $href | relURL -}}
+    {{- $key = $displayURL | strings.TrimSuffix "/" -}}
+  {{- else if or (hasPrefix $href "http://") (hasPrefix $href "https://") -}}
+    {{- with urls.Parse $href -}}
+      {{- if and $siteHost (eq .Host $siteHost) -}}
+        {{- $isInternal = true -}}
+        {{- $displayURL = .Path -}}
+        {{- with .RawQuery -}}
+          {{- if . -}}{{- $displayURL = printf "%s?%s" $displayURL . -}}{{- end -}}
+        {{- end -}}
+        {{- $key = .Path | strings.TrimSuffix "/" -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if not $isInternal -}}{{- continue -}}{{- end -}}
+  {{- if or (eq $key $selfKey) (index $seen $key) -}}{{- continue -}}{{- end -}}
+  {{- $seen = merge $seen (dict $key true) -}}
+  {{- $title := $label -}}
+  {{- if not $title -}}{{- $title = $key -}}{{- end -}}
+  {{- $items = $items | append (dict "url" $displayURL "title" $title) -}}
+{{- end -}}
+
+{{- return $items -}}
