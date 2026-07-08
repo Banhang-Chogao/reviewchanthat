@@ -7,25 +7,6 @@ import pathlib
 import sys
 
 PUBLIC_DIR = pathlib.Path("public")
-SKIP_PREFIXES = (
-    "about/",
-    "admin/",
-    "authors/",
-    "categories/",
-    "cong-nghe/",
-    "contact/",
-    "css/",
-    "disclaimer/",
-    "doi-song/",
-    "images/",
-    "js/",
-    "page/",
-    "posts/",
-    "privacy/",
-    "review/",
-    "tags/",
-    "tai-chinh/",
-)
 REQUIRED_MARKERS = (
     "has-print-watermark",
     "id=print-watermark",
@@ -35,9 +16,13 @@ REQUIRED_MARKERS = (
 
 def is_post_page(path: pathlib.Path) -> bool:
     rel = path.relative_to(PUBLIC_DIR).as_posix()
-    if rel in {"index.html", "404.html"}:
+    if rel in {"index.html", "404.html", "posts/index.html"}:
         return False
-    return not rel.startswith(SKIP_PREFIXES)
+    if "/page/" in rel:
+        return False
+    if rel.startswith("posts/") and rel.endswith("/index.html"):
+        return rel.count("/") >= 2
+    return False
 
 
 def main() -> int:

@@ -719,7 +719,7 @@ function workflowHasPushForBranch(workflowText, branch) {
 
 function buildArticleUrl(slug, env) {
   const base = env.CMS_PUBLIC_SITE_BASE || DEFAULT_PUBLIC_SITE_BASE;
-  return `${base.replace(/\/+$/, '')}/${slug}/`;
+  return `${base.replace(/\/+$/, '')}/posts/${slug}/`;
 }
 
 function repoPath(env) {

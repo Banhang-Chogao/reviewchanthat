@@ -11,6 +11,13 @@ ai_summary:
   - Dành ra một khoản cố định cho mua sắm cá nhân mỗi tháng.
   - '"Không" là câu nói quyền năng nhất trong mua sắm thông minh.'
   title: Tóm tắt bài viết
+aliases:
+- /cách-xây-dựng-thói-quen-mua-sắm-thông-minh/
+attribution:
+  copyright: © 2026 Veritable Content. Nội dung do tác giả biên tập, vui lòng ghi
+    nguồn khi trích dẫn.
+  source_note: Bài viết tổng hợp từ trải nghiệm cá nhân và các nguồn tham khảo công
+    khai được liệt kê ở trên.
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
@@ -21,20 +28,21 @@ description: Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi t
   quả hơn.
 draft: false
 external_links:
-  - title: "Consumer Reports - Smart Shopping Tips"
-    url: "https://www.consumerreports.org/shopping/"
-  - title: "Investopedia - Personal Finance Guide"
-    url: "https://www.investopedia.com/personal-finance/"
-attribution:
-  copyright: "© 2026 Veritable Content. Nội dung do tác giả biên tập, vui lòng ghi nguồn khi trích dẫn."
-  source_note: "Bài viết tổng hợp từ trải nghiệm cá nhân và các nguồn tham khảo công khai được liệt kê ở trên."
+- title: Consumer Reports - Smart Shopping Tips
+  url: https://www.consumerreports.org/shopping/
+- title: Investopedia - Personal Finance Guide
+  url: https://www.investopedia.com/personal-finance/
 faq:
-  - question: "Làm sao để bắt đầu mua sắm thông minh?"
-    answer: "Bắt đầu bằng cách lập danh sách mua sắm trước mỗi lần đi chợ hoặc mua online, và áp dụng nguyên tắc 30 ngày với các món đồ đắt tiền."
-  - question: "Có nên dùng thẻ tín dụng để mua sắm không?"
-    answer: "Thẻ tín dụng có thể hữu ích nếu bạn kiểm soát được chi tiêu và trả đúng hạn. Tuy nhiên, nếu bạn dễ bị cám dỗ chi tiêu quá mức, hãy dùng tiền mặt hoặc thẻ ghi nợ."
-  - question: "App nào giúp quản lý chi tiêu tốt?"
-    answer: "Một số app phổ biến: Money Lover, Spendee, Sổ Thu Chi. Quan trọng nhất là bạn duy trì thói quen ghi chép mỗi ngày."
+- answer: Bắt đầu bằng cách lập danh sách mua sắm trước mỗi lần đi chợ hoặc mua online,
+    và áp dụng nguyên tắc 30 ngày với các món đồ đắt tiền.
+  question: Làm sao để bắt đầu mua sắm thông minh?
+- answer: Thẻ tín dụng có thể hữu ích nếu bạn kiểm soát được chi tiêu và trả đúng
+    hạn. Tuy nhiên, nếu bạn dễ bị cám dỗ chi tiêu quá mức, hãy dùng tiền mặt hoặc
+    thẻ ghi nợ.
+  question: Có nên dùng thẻ tín dụng để mua sắm không?
+- answer: 'Một số app phổ biến: Money Lover, Spendee, Sổ Thu Chi. Quan trọng nhất
+    là bạn duy trì thói quen ghi chép mỗi ngày.'
+  question: App nào giúp quản lý chi tiêu tốt?
 image: https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80
 image_commercial_use: true
 image_license: Unsplash License

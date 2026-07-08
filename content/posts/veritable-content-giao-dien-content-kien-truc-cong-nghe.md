@@ -1,27 +1,32 @@
 ---
-title: "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-description: "Tường thuật quá trình tinh chỉnh Veritable Content: từ logo, header, footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions và triết lý text-first."
-date: 2026-07-07
-lastmod: 2026-07-07
-draft: false
-slug: "veritable-content-giao-dien-content-kien-truc-cong-nghe"
+aliases:
+- /veritable-content-giao-dien-content-kien-truc-cong-nghe/
 categories:
-  - cong-nghe
-tags:
-  - "Veritable Content"
-  - "Hugo"
-  - "Python"
-  - "GitHub Actions"
-  - "Flat Design"
-  - "Content Architecture"
-  - "SEO"
-image: "images/posts/coffeebean-cover-hero.webp"
-thumbnail: "images/posts/coffeebean-cover-hero.webp"
-image_source: "Veritable Content"
-image_source_url: "https://banhang-chogao.github.io/reviewchanthat/"
-image_license: "Owned by Veritable Content"
+- cong-nghe
+date: 2026-07-07
+description: 'Tường thuật quá trình tinh chỉnh Veritable Content: từ logo, header,
+  footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions
+  và triết lý text-first.'
+draft: false
+image: images/posts/coffeebean-cover-hero.webp
 image_commercial_use: true
-image_owner: "self"
+image_license: Owned by Veritable Content
+image_owner: self
+image_source: Veritable Content
+image_source_url: https://banhang-chogao.github.io/reviewchanthat/
+lastmod: 2026-07-07
+slug: veritable-content-giao-dien-content-kien-truc-cong-nghe
+tags:
+- Veritable Content
+- Hugo
+- Python
+- GitHub Actions
+- Flat Design
+- Content Architecture
+- SEO
+thumbnail: images/posts/coffeebean-cover-hero.webp
+title: 'Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công
+  nghệ phía sau blog'
 ---
 
 Có những blog được dựng lên chỉ để có một nơi đăng bài. Nhưng cũng có những blog được xây như một hệ thống: có giao diện riêng, có quy tắc nội dung, có pipeline ảnh, có QA, có sitemap cho bot lẫn người đọc, có CI/CD tự động, và có một triết lý rất rõ về tốc độ.

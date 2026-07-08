@@ -23,7 +23,7 @@ disableKinds = []
   author = "authors"
 
 [permalinks]
-  posts = "/:slug/"
+  posts = "/posts/:slug/"
   categories = "/:slug/"
   tags = "/tags/:slug/"
 
