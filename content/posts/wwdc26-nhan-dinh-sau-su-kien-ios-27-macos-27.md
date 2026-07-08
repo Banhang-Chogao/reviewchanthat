@@ -65,7 +65,7 @@ image_source: Apple Newsroom
 image_source_url: https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/
 internal_links:
 - title: 'WWDC26: Phân tích tính năng iOS 27 và macOS 27 trước và tại sự kiện'
-  url: /posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/
+  ref: posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27.md
 lastmod: 2026-07-08 00:00:00+07:00
 slug: wwdc26-nhan-dinh-sau-su-kien-ios-27-macos-27
 tags:

@@ -62,9 +62,12 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
     https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>,
     https://english.visitseoul.net/>, https://www.aquafield.kr/>.'
+slug: jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay
+aliases:
+  - /posts/jjimjilbang-h%C3%A0n-qu%E1%BB%91c-sauna-ki%E1%BB%83u-h%C3%A0n-%E1%BB%9F-seoul-v%C3%A0-aquafield-goyang-c%C3%B3-g%C3%AC-hay/
 ---
 
-Jjimjilbang — nhà tắm hơi kiểu Hàn — là một phần không thể thiếu của văn hóa Hàn Quốc. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa "phải thử" khi đến Hàn.
+Jjimjilbang — nhà tắm hơi kiểu Hàn — là một phần không thể thiếu của văn hóa Hàn Quốc. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa "phải thử" khi đến Hàn.
 
 ## Tóm tắt nhanh
 
@@ -116,4 +119,4 @@ Aquafield Goyang mở cửa quanh năm. Cuối tuần và ngày lễ rất đôn
 
 ## Nên kết hợp với đâu?
 
-Aquafield Goyang nằm trong Starfield Mall — bạn có thể kết hợp mua sắm trước hoặc sau khi spa. Gần đó là [Gwangmyeong Cave](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/), đi thêm 20 phút tàu điện. Nếu bạn đang ở Seoul, kết hợp Aquafield với một ngày đi [Incheon hoặc Wolmido](/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay/).
+Aquafield Goyang nằm trong Starfield Mall — bạn có thể kết hợp mua sắm trước hoặc sau khi spa. Gần đó là [Gwangmyeong Cave]({{< ref "posts/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay.md" >}}), đi thêm 20 phút tàu điện. Nếu bạn đang ở Seoul, kết hợp Aquafield với một ngày đi [Incheon hoặc Wolmido]({{< ref "posts/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay.md" >}}).

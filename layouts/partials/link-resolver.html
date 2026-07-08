@@ -1,0 +1,44 @@
+{{- /*
+link-resolver.html
+Resolve an internal link item to an actual Hugo page .RelPermalink.
+
+Accepts a dict with one or more of:
+  ref   - content path, e.g. "posts/my-post.md"
+  file  - alias for ref
+  path  - content path
+  slug  - fallback: posts/<slug>
+  url   - internal url (absolute or root-relative) to normalize & match
+  title - fallback: posts/<urlize title>
+
+Output: the resolved URL string (page.RelPermalink) or "" if not found.
+The caller decides what to render when resolution fails (no silent 404).
+*/ -}}
+
+{{- $page := .page -}}
+{{- $item := .item -}}
+{{- $resolved := "" -}}
+{{- $candidate := "" -}}
+
+{{/* priority 1: explicit ref/file/path */}}
+{{- with $item.ref }}{{ $candidate = printf "posts/%s" (strings.TrimPrefix "posts/" .) }}{{ end -}}
+{{- if not $candidate }}{{ with $item.file }}{{ $candidate = printf "posts/%s" (strings.TrimPrefix "posts/" .) }}{{ end }}{{ end -}}
+{{- if not $candidate }}{{ with $item.path }}{{ $candidate = . }}{{ end }}{{ end -}}
+
+{{/* priority 2: slug -> posts/<slug> */}}
+{{- if not $candidate }}{{ with $item.slug }}{{ $candidate = printf "posts/%s" . }}{{ end }}{{ end -}}
+
+{{/* priority 3: url -> normalize to content path */}}
+{{- if not $candidate }}{{ with $item.url }}{{ $u := . }}{{ if hasPrefix $u "http" }}{{ with urls.Parse $u }}{{ $u = .Path }}{{ end }}{{ end }}{{ $u = strings.TrimPrefix "/reviewchanthat" $u }}{{ $u = strings.TrimPrefix "/" $u }}{{ $u = strings.TrimSuffix "/" $u }}{{ if $u }}{{ $candidate = $u }}{{ end }}{{ end }}{{ end -}}
+
+{{/* resolve via Site.GetPage */}}
+{{- with $candidate -}}
+  {{- with $page.Site.GetPage . -}}
+    {{- $resolved = .RelPermalink -}}
+  {{- else -}}
+    {{- with $page.Site.GetPage (printf "/%s" .) -}}
+      {{- $resolved = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $resolved -}}

@@ -58,9 +58,12 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
     https://english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'
+slug: dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic
+aliases:
+  - /posts/%C4%91%E1%BB%8Ba-%C4%91i%E1%BB%83m-quay-phim-h%C3%A0n-qu%E1%BB%91c-%E1%BB%9F-seoul-%C4%91i-theo-d%E1%BA%A5u-k-drama-m%C3%A0-kh%C3%B4ng-b%E1%BB%8B-qu%C3%A1-touristic/
 ---
 
-Một trong những cách thú vị nhất để khám phá Seoul là đi theo dấu các bộ phim Hàn Quốc — và đây cũng là hoạt động xếp hạng 9 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/top-20-hoat-dong-du-lich-han-quoc-2026/) của Trip.Best.
+Một trong những cách thú vị nhất để khám phá Seoul là đi theo dấu các bộ phim Hàn Quốc — và đây cũng là hoạt động xếp hạng 9 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}) của Trip.Best.
 
 ## Tóm tắt nhanh
 
@@ -123,4 +126,4 @@ Công viên trên cầu cạn từng được xây dựng lại, xuất hiện t
 
 ## Nên kết hợp với đâu?
 
-Sewoon Arcade và Cheonggyecheon nằm gần [khu chợ Gwangjang](/cho-dia-phuong-han-quoc-seoul-busan-jeju/) — bạn có thể đi bộ và ăn trưa. Seongsu gần [khu vực học makeup K-beauty](/k-beauty-makeup-personal-color-seoul/). Nếu thích văn hóa tổng hợp, [thuê Hanbok](/thue-hanbok-o-seoul-cung-dien-lang-hanok/) buổi sáng và tour K-drama buổi chiều là một combo hợp lý.
+Sewoon Arcade và Cheonggyecheon nằm gần [khu chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-seoul-busan-jeju.md" >}}) — bạn có thể đi bộ và ăn trưa. Seongsu gần [khu vực học makeup K-beauty]({{< ref "posts/k-beauty-makeup-personal-color-seoul.md" >}}). Nếu thích văn hóa tổng hợp, [thuê Hanbok]({{< ref "posts/thue-hanbok-o-seoul-cung-dien-lang-hanok.md" >}}) buổi sáng và tour K-drama buổi chiều là một combo hợp lý.
