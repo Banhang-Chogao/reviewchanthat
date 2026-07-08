@@ -46,11 +46,11 @@ faq:
   answer: Có nhiều nhà hàng và quán cà phê trong khu Jungmun Tourist Complex.
 internal_links:
 - title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
+  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
 - title: 'Udo Jeju: đảo nhỏ, biển đá đen'
-  url: /udo-jeju-dao-bien-den-hai-dang-trang/
+  ref: posts/udo-jeju-dao-bien-den-hai-dang-trang.md
 - title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
-  url: /shinhwa-theme-park-jeju-water-slides/
+  ref: posts/shinhwa-theme-park-jeju-water-slides.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -61,11 +61,14 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.visitjeju.net/.'
+slug: jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc
+aliases:
+  - /posts/jungmun-beach-jeju-b%C3%A3i-bi%E1%BB%83n-cho-ng%C6%B0%E1%BB%9Di-th%C3%ADch-s%C3%B3ng-%E1%BA%A3nh-%C4%91%E1%BA%B9p-v%C3%A0-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-n%C6%B0%E1%BB%9Bc/
 ---
 
 Jungmun Beach là bãi biển nằm trong khu nghỉ dưỡng Jungmun (Jungmun Tourist Complex) ở phía nam Jeju, gần thành phố Seogwipo. Đây là một trong những bãi biển có phong cảnh đẹp nhất Jeju với hình dáng mũi tên độc đáo, nước biển trong vắt và bờ cát mềm.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/), Jungmun là đại diện cho nhóm biển Jeju và là điểm đến lý tưởng nếu bạn ở khu nghỉ dưỡng Jungmun.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Jungmun là đại diện cho nhóm biển Jeju và là điểm đến lý tưởng nếu bạn ở khu nghỉ dưỡng Jungmun.
 
 ## Tóm tắt nhanh
 
@@ -115,6 +118,6 @@ Buổi sáng (8:00–10:00) là thời điểm đẹp nhất để chụp ảnh 
 
 ## Nên kết hợp với đâu?
 
-- **Udo**: Nếu bạn ở Jeju 2–3 ngày, nên dành riêng một ngày cho Udo. Xem thêm [Udo Jeju](/udo-jeju-dao-bien-den-hai-dang-trang/).
-- **Shinhwa Theme Park**: Cách Jungmun khoảng 15 phút đi xe. Kết hợp nếu đi cùng gia đình. Xem thêm [Shinhwa Theme Park Jeju](/shinhwa-theme-park-jeju-water-slides/).
-- Các điểm Jeju khác trong [danh sách chính](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/).
+- **Udo**: Nếu bạn ở Jeju 2–3 ngày, nên dành riêng một ngày cho Udo. Xem thêm [Udo Jeju]({{< ref "posts/udo-jeju-dao-bien-den-hai-dang-trang.md" >}}).
+- **Shinhwa Theme Park**: Cách Jungmun khoảng 15 phút đi xe. Kết hợp nếu đi cùng gia đình. Xem thêm [Shinhwa Theme Park Jeju]({{< ref "posts/shinhwa-theme-park-jeju-water-slides.md" >}}).
+- Các điểm Jeju khác trong [danh sách chính]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}).

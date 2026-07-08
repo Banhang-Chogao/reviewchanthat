@@ -45,13 +45,13 @@ faq:
     spa.
 internal_links:
 - title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  url: /han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/
+  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
 - title: Haeundae Beach Busan
-  url: /haeundae-busan-bai-bien-mua-he/
+  ref: posts/haeundae-busan-bai-bien-mua-he.md
 - title: Gwangalli Beach Busan
-  url: /gwangalli-busan-bai-bien-cau-gwangandaegyo/
+  ref: posts/gwangalli-busan-bai-bien-cau-gwangandaegyo.md
 - title: Cheongsapo Busan làng biển Blue Line Park
-  url: /cheongsapo-busan-bien-blue-line-park/
+  ref: posts/cheongsapo-busan-bien-blue-line-park.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -62,11 +62,14 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.visitbusan.net/.'
+slug: club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong
+aliases:
+  - /posts/club-d-oasis-busan-infinity-pool-spa-v%C3%A0-l%E1%BB%B1a-ch%E1%BB%8Dn-tr%C3%A1nh-n%C3%B3ng-ki%E1%BB%83u-ngh%E1%BB%89-d%C6%B0%E1%BB%A1ng/
 ---
 
 Club D Oasis là một điểm đến khác biệt trong danh sách — không phải bãi biển công cộng hay công viên nước, mà là một khu phức hợp spa, infinity pool và nghỉ dưỡng cao cấp tại Haeundae, Busan. Đây là lựa chọn tránh nóng kiểu "không cần xuống biển nhưng vẫn mát" — lý tưởng cho những ai muốn thư giãn mà không phải chen chúc.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/), Club D Oasis đứng thứ 9 và là lựa chọn duy nhất thiên về nghỉ dưỡng và spa.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Club D Oasis đứng thứ 9 và là lựa chọn duy nhất thiên về nghỉ dưỡng và spa.
 
 ## Tóm tắt nhanh
 
@@ -118,7 +121,7 @@ Thời điểm lý tưởng: từ 14:00–18:00 để tận hưởng pool buổi
 
 ## Nên kết hợp với đâu?
 
-- **Haeundae Beach**: Cách đó vài phút — có thể tắm biển vào sáng sớm rồi đến Club D Oasis buổi chiều. Xem thêm [Haeundae Beach Busan](/haeundae-busan-bai-bien-mua-he/).
-- **Cheongsapo**: Buổi sáng khám phá Cheongsapo — chiều thư giãn tại Club D Oasis. Xem thêm [Cheongsapo Busan](/cheongsapo-busan-bien-blue-line-park/).
-- **Gwangalli Beach**: Tối đến Gwangalli ngắm cầu. Xem thêm [Gwangalli Beach Busan](/gwangalli-busan-bai-bien-cau-gwangandaegyo/).
-- Xem toàn bộ [danh sách điểm tránh nóng](/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc/).
+- **Haeundae Beach**: Cách đó vài phút — có thể tắm biển vào sáng sớm rồi đến Club D Oasis buổi chiều. Xem thêm [Haeundae Beach Busan]({{< ref "posts/haeundae-busan-bai-bien-mua-he.md" >}}).
+- **Cheongsapo**: Buổi sáng khám phá Cheongsapo — chiều thư giãn tại Club D Oasis. Xem thêm [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-blue-line-park.md" >}}).
+- **Gwangalli Beach**: Tối đến Gwangalli ngắm cầu. Xem thêm [Gwangalli Beach Busan]({{< ref "posts/gwangalli-busan-bai-bien-cau-gwangandaegyo.md" >}}).
+- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}).
