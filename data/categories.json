@@ -27,6 +27,13 @@
       "description": "Quyết định tiền bạc rõ ràng hơn",
       "nav": true,
       "order": 40
+    },
+    {
+      "slug": "du-lich",
+      "label": "Du lịch",
+      "description": "Du lịch Hàn Quốc, trải nghiệm và lịch trình tự túc",
+      "nav": true,
+      "order": 50
     }
   ],
   "aliases": {
@@ -39,6 +46,10 @@
     "doi-song": "doi-song",
     "tài chính": "tai-chinh",
     "tai chinh": "tai-chinh",
-    "tai-chinh": "tai-chinh"
+    "tai-chinh": "tai-chinh",
+    "du lịch": "du-lich",
+    "du lich": "du-lich",
+    "du-lich": "du-lich",
+    "travel": "du-lich"
   }
 }

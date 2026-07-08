@@ -13,11 +13,19 @@
       <a class="breadcrumb__link" href="{{ site.Home.RelPermalink }}">Trang chủ</a>
     </li>
     {{- range $crumbs -}}
+    {{- $crumbTitle := .LinkTitle -}}
+    {{- if eq .Kind "term" -}}
+      {{- with site.Data.categories.items -}}
+        {{- range . -}}
+          {{- if eq .slug $.Data.Term -}}{{- $crumbTitle = .label -}}{{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
     <li class="breadcrumb__item">
       {{- if eq . $.Page -}}
-      <span class="breadcrumb__current" aria-current="page">{{ .LinkTitle }}</span>
+      <span class="breadcrumb__current" aria-current="page">{{ $crumbTitle }}</span>
       {{- else -}}
-      <a class="breadcrumb__link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      <a class="breadcrumb__link" href="{{ .RelPermalink }}">{{ $crumbTitle }}</a>
       {{- end -}}
     </li>
     {{- end -}}
