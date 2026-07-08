@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://banhang-chogao.github.io/reviewchanthat/sitemap.xml
