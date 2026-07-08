@@ -1,30 +1,4 @@
 ---
-title: 'Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?'
-date: 2026-07-08 07:00:00+07:00
-description: 'Chợ địa phương Hàn Quốc: Gwangjang, Namdaemun (Seoul), Jagalchi, Gukje
-  (Busan), Dongmun (Jeju). So sánh, gợi ý món ăn và lịch trình khám phá chợ.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- Busan
-- Jeju
-- chợ địa phương
-- ẩm thực Hàn Quốc
-- chợ Hàn Quốc
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
@@ -37,17 +11,20 @@ ai_summary:
     hải sản lớn nhất Hàn Quốc; Dongmun (Jeju) có đặc sản hallabong.
   - Mỗi chợ hợp với 1-2 giờ, nên đi buổi trưa hoặc chiều tối, không cần đặt trước.
   title: Tóm tắt bài viết
-faq:
-- question: Chợ nào nên đi nhất nếu chỉ có thời gian cho một chợ?
-  answer: Gwangjang Market (Seoul) nếu bạn thích ẩm thực. Jagalchi (Busan) nếu bạn
-    muốn trải nghiệm chợ hải sản lớn nhất Hàn Quốc.
-- question: Chợ nào hợp mua quà lưu niệm?
-  answer: Namdaemun (Seoul) và Gukje (Busan) có nhiều đồ lưu niệm giá rẻ. Dongmun
-    (Jeju) có đặc sản địa phương như hallabong và socola Jeju.
-- question: Ăn chợ Hàn Quốc có đắt không?
-  answer: Rẻ hơn nhà hàng. Một suất bánh xèo mung bean ở Gwangjang khoảng 4.000–5.000
-    won. Tuy nhiên, giá có thể thay đổi theo thời điểm, bạn nên kiểm tra trên website
-    chính thức hoặc hỏi trực tiếp trước khi gọi món.
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://english.visitseoul.net/>, https://www.visitbusan.net/>, https://www.visitjeju.net/>,
+    https://english.visitkorea.or.kr/>.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- du-lich
+date: 2026-07-08 07:00:00+07:00
+description: 'Chợ địa phương Hàn Quốc: Gwangjang, Namdaemun (Seoul), Jagalchi, Gukje
+  (Busan), Dongmun (Jeju). So sánh, gợi ý món ăn và lịch trình khám phá chợ.'
+draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
   url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>

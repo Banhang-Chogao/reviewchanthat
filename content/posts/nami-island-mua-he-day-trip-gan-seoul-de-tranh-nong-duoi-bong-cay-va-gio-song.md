@@ -1,28 +1,4 @@
 ---
-title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió
-  sông'
-date: 2026-07-08 07:00:00+07:00
-description: 'Nami Island mùa hè là day trip lý tưởng từ Seoul để tránh nóng: tán
-  cây Metasequoia xanh mát, zipline vào đảo, đi thuyền trên sông Bukhan.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Nami Island
-- day trip Seoul
-- Chuncheon
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1572492371162-cf453ed8b6ff?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1572492371162-cf453ed8b6ff
-thumbnail: https://images.unsplash.com/photo-1572492371162-cf453ed8b6ff?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính

@@ -1,29 +1,4 @@
 ---
-title: 'Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối'
-date: 2026-07-08 07:00:00+07:00
-description: Gwangalli Beach Busan nổi tiếng với view cầu Gwangan về đêm, quán cà
-  phê biển, drone light show, Millak Raw Fish Street. Hướng dẫn đi metro và lịch trình
-  tối.
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Busan
-- Gwangalli
-- cầu Gwangan
-- biển Hàn Quốc
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1619841795949-208f0c17f5db?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1619841795949-208f0c17f5db
-thumbnail: https://images.unsplash.com/photo-1619841795949-208f0c17f5db?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính

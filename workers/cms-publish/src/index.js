@@ -551,10 +551,11 @@ function normalizePayload(payload) {
   const tags = Array.isArray(payload.tags)
     ? payload.tags.map((item) => String(item).trim()).filter(Boolean)
     : splitCommaList(payload.tags);
+  const title = String(payload.title || '').trim();
 
   return {
-    title: String(payload.title || '').trim(),
-    slug: slugify(String(payload.slug || payload.title || '')),
+    title,
+    slug: slugify(title),
     description: String(payload.description || '').trim(),
     category: String(payload.category || '').trim(),
     tags,
@@ -582,11 +583,9 @@ function validatePublishPayload(payload) {
   if (!payload.title) {
     throw new HttpError(400, 'title required');
   }
-  if (!payload.slug) {
-    throw new HttpError(400, 'slug required');
-  }
-  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(payload.slug)) {
-    throw new HttpError(400, 'slug must be lowercase letters, numbers, and hyphens only');
+  const expectedSlug = slugify(payload.title);
+  if (payload.slug !== expectedSlug) {
+    throw new HttpError(400, `slug must match title. Expected: "${expectedSlug}"`);
   }
   if (!payload.body) {
     throw new HttpError(400, 'body required');

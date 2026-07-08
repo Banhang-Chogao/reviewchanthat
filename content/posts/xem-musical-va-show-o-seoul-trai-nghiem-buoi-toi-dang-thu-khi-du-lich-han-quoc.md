@@ -1,30 +1,4 @@
 ---
-title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
-  Quốc'
-date: 2026-07-08 07:00:00+07:00
-description: 'Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, giờ, chọn show
-  nào, cách đặt vé và kết hợp với lịch trình buổi tối.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- musical
-- show Hàn Quốc
-- Daehangno
-- giải trí Hàn Quốc
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
@@ -37,16 +11,19 @@ ai_summary:
     đường phố quanh năm.
   - Nên đặt vé trước qua các nền tảng trực tuyến, đặc biệt cuối tuần và mùa cao điểm.
   title: Tóm tắt bài viết
-faq:
-- question: Có show nào không cần biết tiếng Hàn không?
-  answer: Có. "Nanta" là show không lời nổi tiếng nhất, kể chuyện bằng âm nhạc và
-    hài kịch. Ngoài ra còn có "Drawing Show", "Fireman" và "Drumcat".
-- question: Giá vé musical Seoul bao nhiêu?
-  answer: Tùy show và vị trí ghế. Bạn cần kiểm tra trên website bán vé chính thức
-    vì giá thay đổi theo từng vở diễn.
-- question: Nên mua vé trước bao lâu?
-  answer: Nên mua 1–2 tuần trước, đặc biệt cuối tuần. Các show nổi tiếng có thể hết
-    vé.
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- du-lich
+date: 2026-07-08 07:00:00+07:00
+description: 'Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, giờ, chọn show
+  nào, cách đặt vé và kết hợp với lịch trình buổi tối.'
+draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
   url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>

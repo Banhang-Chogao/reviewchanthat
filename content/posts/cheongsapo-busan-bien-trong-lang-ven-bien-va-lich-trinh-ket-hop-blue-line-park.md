@@ -1,29 +1,4 @@
 ---
-title: 'Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line
-  Park'
-date: 2026-07-08 07:00:00+07:00
-description: Cheongsapo Busan là làng chài ven biển gần Haeundae, nước trong xanh,
-  có tàu Blue Line Park chạy dọc bờ biển. Hướng dẫn đi và lịch trình.
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Busan
-- Cheongsapo
-- Blue Line Park
-- Haeundae
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1603383893542-b17166a6ef5b?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1603383893542-b17166a6ef5b
-thumbnail: https://images.unsplash.com/photo-1603383893542-b17166a6ef5b?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính

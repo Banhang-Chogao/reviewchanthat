@@ -1,28 +1,4 @@
 ---
-title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?'
-date: 2026-07-08 07:00:00+07:00
-description: Caribbean Bay Yongin là công viên nước lớn nhất gần Seoul, có wave pool
-  2,4 m, lazy river dài nhất thế giới, spa. Thuộc khu Everland Resort.
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Caribbean Bay
-- công viên nước
-- Everland
-- Yongin
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1544102392-3399ca7b21a3
-thumbnail: https://images.unsplash.com/photo-1544102392-3399ca7b21a3?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính

@@ -1,29 +1,4 @@
 ---
-title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
-date: 2026-07-08 07:00:00+07:00
-description: 'Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok,
-  cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- Hanbok
-- trải nghiệm Hàn Quốc
-- cung điện Seoul
-- chụp ảnh Hàn Quốc
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
@@ -37,18 +12,20 @@ ai_summary:
   - Cửa hàng thuê tập trung quanh Gyeongbokgung, gói 2-4 giờ bao gồm Hanbok, túi và
     phụ kiện.
   title: Tóm tắt bài viết
-faq:
-- question: Có cần đặt trước khi thuê Hanbok không?
-  answer: Cuối tuần và mùa cao điểm (tháng 4–5, tháng 10–11) nên đặt trước. Ngày thường
-    có thể đến trực tiếp.
-- question: Nên chọn Hanbok kiểu nào?
-  answer: 'Có hai loại chính: Hanbok truyền thống (vải dày, form rộng) và Hanbok cải
-    tiến (vải nhẹ hơn, ôm hơn, dễ mặc). Người Việt thường chọn Hanbok cải tiến vì
-    thoải mái hơn khi đi bộ.'
-- question: Có thể mặc Hanbok đi những đâu khác ngoài cung điện?
-  answer: Bukchon Hanok Village, Samcheong-dong, đường ven tường thành Seoul và khu
-    Insa-dong. Tuy nhiên, việc mặc Hanbok không miễn phí vé vào các địa điểm này —
-    chỉ miễn tại 4 cung điện chính.
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616>, https://www.royalpalace.go.kr/>,
+    https://english.visitseoul.net/>.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- du-lich
+date: 2026-07-08 07:00:00+07:00
+description: 'Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok,
+  cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp.'
+draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
   url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>

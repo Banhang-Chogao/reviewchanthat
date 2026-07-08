@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a new Hugo blog post with proper front matter and slug."""
+"""Create a new Hugo blog post — title is single source of truth for slug/url/file."""
 
 import argparse
 import json
@@ -37,25 +37,9 @@ def load_category_slugs():
     return slugs
 
 
-def slugify(text: str) -> str:
-    text = text.lower().strip()
-    text = re.sub(r"[àáạảãâầấậẩẫăằắặẳẵ]", "a", text)
-    text = re.sub(r"[èéẹẻẽêềếệểễ]", "e", text)
-    text = re.sub(r"[ìíịỉĩ]", "i", text)
-    text = re.sub(r"[òóọỏõôồốộổỗơờớợởỡ]", "o", text)
-    text = re.sub(r"[ùúụủũưừứựửữ]", "u", text)
-    text = re.sub(r"[ỳýỵỷỹ]", "y", text)
-    text = re.sub(r"[đ]", "d", text)
-    text = re.sub(r"[^a-z0-9\s-]", "", text)
-    text = re.sub(r"[\s]+", "-", text)
-    text = re.sub(r"-+", "-", text)
-    text = text.strip("-")
-    return text
-
-
 def main():
-    parser = argparse.ArgumentParser(description="Create a new Hugo blog post")
-    parser.add_argument("title", help="Post title")
+    parser = argparse.ArgumentParser(description="Create a new Hugo blog post (title = slug)")
+    parser.add_argument("title", help="Post title — single source of truth for slug/url")
     parser.add_argument("--author", default="Admin", help="Author name")
     parser.add_argument("--category", action="append", default=[], help="Category (can be repeated)")
     parser.add_argument("--tag", action="append", default=[], help="Tag (can be repeated)")
@@ -80,7 +64,7 @@ def main():
     slug = slugify(args.title)
     canonical_slug = slugify_vi(args.title)
     date = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+07:00")
-    filename = f"{date[:10]}-{slug}.md"
+    filename = f"{slug}.md"
     filepath = os.path.join(CONTENT_DIR, filename)
 
     description = args.description or args.title
@@ -98,16 +82,23 @@ tags: {tags}
 author: "{args.author}"
 avatar: "{args.avatar}"
 image: "{args.image}"
+slug: "{slug}"
 draft: false
 ---
 """
 
     os.makedirs(CONTENT_DIR, exist_ok=True)
+    if os.path.exists(filepath):
+        print(f"ERROR: {filepath} already exists", file=sys.stderr)
+        sys.exit(1)
+
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(front_matter)
 
     print(f"Created: {filepath}")
+    print(f"Title: {args.title}")
     print(f"Slug: {slug}")
+    print(f"URL: {url_from_slug(slug)}")
 
 
 if __name__ == "__main__":

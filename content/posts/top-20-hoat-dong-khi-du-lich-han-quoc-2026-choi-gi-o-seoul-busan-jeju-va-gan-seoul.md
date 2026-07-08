@@ -1,33 +1,4 @@
 ---
-title: 'Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và
-  gần Seoul?'
-date: 2026-07-08 07:00:00+07:00
-description: 'Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, chợ địa phương,
-  musical, jjimjilbang, ngắm bình minh Jeju, K-beauty, day trip Suwon, Incheon và
-  Yongin. Kèm lịch trình mẫu 3-10 ngày.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- Busan
-- Jeju
-- trải nghiệm Hàn Quốc
-- K-beauty
-- K-drama
-- ẩm thực Hàn Quốc
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính

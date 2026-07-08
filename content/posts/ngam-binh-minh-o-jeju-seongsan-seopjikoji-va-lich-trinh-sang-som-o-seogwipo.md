@@ -1,29 +1,4 @@
 ---
-title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo'
-date: 2026-07-08 07:00:00+07:00
-description: 'Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji
-  và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Jeju
-- Seongsan Ilchulbong
-- bình minh
-- Seogwipo
-- Seopjikoji
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
@@ -36,16 +11,19 @@ ai_summary:
     bình minh trên biển.
   - Seopjikoji và khu vực Seogwipo là điểm kết hợp lý tưởng sau khi ngắm bình minh.
   title: Tóm tắt bài viết
-faq:
-- question: Có cần leo Seongsan không? Có đường nào dễ hơn không?
-  answer: Không có đường khác — chỉ có một đường bậc đá lên đỉnh. Nếu không leo được,
-    bạn có thể ngắm bình minh dưới chân núi hoặc đến Seopjikoji.
-- question: Ngắm bình minh Jeju mùa nào đẹp nhất?
-  answer: 'Mùa thu (tháng 9–11) là thời điểm lý tưởng: trời quang, ít mây, tầm nhìn
-    xa. Mùa xuân đẹp nhưng sương mù sáng sớm có thể che khuất mặt trời.'
-- question: Có nên ngủ lại Seongsan để kịp bình minh?
-  answer: Nếu bạn ở Jeju City hoặc Seogwipo, có thể đi sáng sớm. Nhưng nếu muốn thoải
-    mái, có homestay và pension quanh làng Seongsan.
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://www.visitjeju.net/>, https://whc.unesco.org/en/list/1264/>, https://english.visitkorea.or.kr/>.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- du-lich
+date: 2026-07-08 07:00:00+07:00
+description: 'Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji
+  và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc.'
+draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
   url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>

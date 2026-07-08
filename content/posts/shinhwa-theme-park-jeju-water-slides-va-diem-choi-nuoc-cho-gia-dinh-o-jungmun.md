@@ -1,29 +1,4 @@
 ---
-title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun'
-date: 2026-07-08 07:00:00+07:00
-description: Shinhwa Theme Park Jeju thuộc tổ hợp Jeju Shinhwa World, có công viên
-  nước với water slides, wave pool, khu vui chơi Larva cho trẻ em. Hướng dẫn đi và
-  vé.
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Jeju
-- Shinhwa Theme Park
-- công viên nước
-- Shinhwa World
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1570488543964-c1d413605328
-thumbnail: https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính

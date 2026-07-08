@@ -1,30 +1,4 @@
 ---
-title: 'Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong
-  một ngày'
-date: 2026-07-08 07:00:00+07:00
-description: 'Day trip Suwon từ Seoul: tham quan Hwaseong Fortress UNESCO, Hwaseong
-  Haenggung và Korean Folk Village Yongin. Lịch trình 1 ngày tự túc.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Suwon
-- Hwaseong Fortress
-- Hwaseong Haenggung
-- Korean Folk Village
-- day trip Seoul
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
@@ -38,16 +12,19 @@ ai_summary:
   - Korean Folk Village tái hiện cuộc sống Joseon với 270+ công trình kiến trúc, biểu
     diễn truyền thống.
   title: Tóm tắt bài viết
-faq:
-- question: Có nên đi Suwon trong nửa ngày không?
-  answer: Có thể, nhưng hơi gấp. Nửa ngày (4–5 giờ) chỉ kịp Hwaseong Fortress và Haenggung.
-    Korean Folk Village cần thêm 3 giờ.
-- question: Nên đi Suwon mùa nào?
-  answer: Mùa xuân (tháng 4–5, hoa đào nở quanh thành) và mùa thu (tháng 10–11, lá
-    phong) đẹp nhất. Mùa hè quá nóng để đi bộ trên tường thành.
-- question: Korean Folk Village có gì cho trẻ em?
-  answer: Có — trẻ em thích xem biểu diễn nhào lộn, cưỡi ngựa và các hoạt động thủ
-    công. Khu ẩm thực có đồ ăn dễ ăn.
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://whc.unesco.org/en/list/817/>, https://www.koreanfolkvillage.co.kr/>, https://www.suwon.go.kr/>.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- du-lich
+date: 2026-07-08 07:00:00+07:00
+description: 'Day trip Suwon từ Seoul: tham quan Hwaseong Fortress UNESCO, Hwaseong
+  Haenggung và Korean Folk Village Yongin. Lịch trình 1 ngày tự túc.'
+draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
   url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>

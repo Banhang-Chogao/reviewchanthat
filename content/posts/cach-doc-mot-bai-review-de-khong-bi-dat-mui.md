@@ -12,8 +12,6 @@ ai_summary:
     sản phẩm này?.'
   - Hãy đọc ít nhất 3-5 bài từ các nguồn khác nhau.
   title: Tóm tắt bài viết
-aliases:
-- /cách-đọc-một-bài-review-để-không-bị-dắt-mũi/
 attribution:
   copyright: © 2026 Veritable Content. Nội dung mang tính tham khảo, vui lòng kiểm
     chứng từ nhiều nguồn.
@@ -52,6 +50,7 @@ image_license: Unsplash License
 image_owner: external
 image_source: Unsplash
 image_source_url: https://unsplash.com/photos/1434030216411-0b793f4b4173
+slug: cach-doc-mot-bai-review-de-khong-bi-dat-mui
 tags:
 - kỹ năng đọc review
 - tiêu dùng thông minh

@@ -10,8 +10,6 @@ ai_summary:
   - Cơn sốt mua sắm thường qua đi sau một giấc ngủ.
   - Đọc review từ người mua trước, ưu tiên review có ảnh thật.
   title: Tóm tắt bài viết
-aliases:
-- /checklist-trước-khi-mua-một-sản-phẩm-online/
 attribution:
   copyright: © 2026 Veritable Content. Vui lòng ghi nguồn khi chia sẻ.
   source_note: Checklist được xây dựng từ kinh nghiệm mua sắm online nhiều năm và
@@ -49,6 +47,7 @@ image_license: Unsplash License
 image_owner: external
 image_source: Unsplash
 image_source_url: https://unsplash.com/photos/1556742049-0cfed4f6a45d
+slug: checklist-truoc-khi-mua-mot-san-pham-online
 tags:
 - mua sắm online
 - checklist

@@ -1,31 +1,4 @@
 ---
-title: 'Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm
-  nào?'
-date: 2026-07-08 07:00:00+07:00
-description: 'So sánh 5 điểm đi chơi gần Seoul: Incheon Chinatown, Songwol-dong Fairy
-  Tale Village, Wolmido, Gwangmyeong Cave, Caribbean Bay. Lịch trình day trip.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Incheon
-- Yongin
-- Wolmido
-- Caribbean Bay
-- Gwangmyeong Cave
-- day trip Seoul
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính
@@ -38,16 +11,20 @@ ai_summary:
     Bay cần cả ngày riêng.
   - Gwangmyeong Cave là mỏ vàng cũ cải tạo thành khu tham quan dưới lòng đất.
   title: Tóm tắt bài viết
-faq:
-- question: Nên chọn Incheon hay Caribbean Bay nếu chỉ có 1 ngày?
-  answer: Incheon nếu bạn muốn đa dạng (văn hóa + ẩm thực + biển). Caribbean Bay nếu
-    bạn đi mùa hè và muốn chơi nước.
-- question: Gwangmyeong Cave có đáng đi không?
-  answer: Có, nếu bạn thích không gian khác lạ. Đây là một trong những điểm tham quan
-    độc đáo nhất vùng thủ đô.
-- question: Có cần thuê xe để đi không?
-  answer: Không. Tất cả điểm đều có thể đi bằng tàu điện ngầm hoặc xe buýt từ Seoul.
-    Caribbean Bay cần chuyển tuyến 1 lần.
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>,
+    https://www.gmcave.or.kr/>, https://www.incheon.go.kr/>, https://www.everland.com/>.'
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+categories:
+- du-lich
+date: 2026-07-08 07:00:00+07:00
+description: 'So sánh 5 điểm đi chơi gần Seoul: Incheon Chinatown, Songwol-dong Fairy
+  Tale Village, Wolmido, Gwangmyeong Cave, Caribbean Bay. Lịch trình day trip.'
+draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
   url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>

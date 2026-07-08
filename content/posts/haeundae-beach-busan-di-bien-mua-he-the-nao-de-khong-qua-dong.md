@@ -1,28 +1,4 @@
 ---
-title: 'Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?'
-date: 2026-07-08 07:00:00+07:00
-description: 'Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm
-  biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue
-  Line Park.'
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Busan
-- Haeundae
-- biển Hàn Quốc
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1598266663439-2056e6900339?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1598266663439-2056e6900339
-thumbnail: https://images.unsplash.com/photo-1598266663439-2056e6900339?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính

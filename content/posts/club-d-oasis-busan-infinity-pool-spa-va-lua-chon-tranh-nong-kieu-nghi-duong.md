@@ -1,29 +1,4 @@
 ---
-title: 'Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng'
-date: 2026-07-08 07:00:00+07:00
-description: Club D Oasis Busan là khu infinity pool và spa cao cấp tại Haeundae,
-  view biển-trời, phù hợp cho cặp đôi muốn thư giãn và tránh đám đông mùa hè.
-categories:
-- du-lich
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Busan
-- Club D Oasis
-- Haeundae
-- spa
-- infinity pool
-- series du lịch
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-image: https://images.unsplash.com/photo-1560072810-1cffb09faf0f?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1560072810-1cffb09faf0f
-thumbnail: https://images.unsplash.com/photo-1560072810-1cffb09faf0f?w=800&q=80
-draft: false
 ai_summary:
   collapsed: false
   disclaimer: Nội dung này được tóm tắt bằng AI và có thể chứa thông tin không chính

@@ -13,8 +13,6 @@ ai_summary:
   - Người dùng Việt Nam nên chờ public beta và bảng tương thích chính thức trước khi
     cài lên máy chính.
   title: Tóm tắt bài viết
-aliases:
-- /wwdc26-nhan-dinh-sau-su-kien-ios-27-macos-27/
 attribution:
   copyright: © 2026 Review Chân Thật. Nhận định sau sự kiện; không đại diện Apple.
   source_note: Bài viết đối ứng với bài phân tích WWDC26 trên blog; dữ liệu từ Apple
@@ -67,7 +65,7 @@ internal_links:
 - title: 'WWDC26: Phân tích tính năng iOS 27 và macOS 27 trước và tại sự kiện'
   ref: posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27.md
 lastmod: 2026-07-08 00:00:00+07:00
-slug: wwdc26-nhan-dinh-sau-su-kien-ios-27-macos-27
+slug: wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi
 tags:
 - WWDC26
 - iOS 27
@@ -80,7 +78,7 @@ title: 'WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và
   chưa nói'
 ---
 
-Keynote **WWDC26** ngày 8/6/2026 đã khép lại được một thời gian — đủ để beta developer về tay cộng đồng, đủ để báo chí công nghệ chuyển từ “Apple sẽ làm gì?” sang “Apple đã làm được gì?”. Trước đó, chúng tôi đã có [bài phân tích WWDC26](/posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/) ghi lại kỳ vọng, tin đồn và thông tin Apple xác nhận tại sân khấu.
+Keynote **WWDC26** ngày 8/6/2026 đã khép lại được một thời gian — đủ để beta developer về tay cộng đồng, đủ để báo chí công nghệ chuyển từ “Apple sẽ làm gì?” sang “Apple đã làm được gì?”. Trước đó, chúng tôi đã có [bài phân tích WWDC26](/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/) ghi lại kỳ vọng, tin đồn và thông tin Apple xác nhận tại sân khấu.
 
 Bài viết này là **nhận định sau sự kiện**: không lặp lại keynote, mà trả lời ba câu hỏi thực dụng:
 
@@ -123,7 +121,7 @@ Nhãn nguồn giữ nguyên như bài trước:
 - Tìm kiếm xuyên Messages / Mail / Photos
 - Chế độ trong Camera (visual lookup)
 
-So với [bài phân tích trước WWDC](/posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/), đây là **điểm trúng** lớn nhất: Apple không chỉ vá Siri cũ mà đổi mô hình tương tác.
+So với [bài phân tích trước WWDC](/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/), đây là **điểm trúng** lớn nhất: Apple không chỉ vá Siri cũ mà đổi mô hình tương tác.
 
 ### Điều beta tuần đầu cho thấy chưa xong
 
@@ -206,7 +204,7 @@ Apple tiếp tục đặt **Siri AI** làm mặt tiền. Tích hợp sâu chatbo
 
 **[Phân tích]** Sau WWDC, đây có thể là lý do nâng cấp **gia đình** mạnh hơn AI: không cần iPhone đời mới nhất, vẫn nhận được kiểm soát tốt hơn trên Safari và Messages.
 
-Nếu bạn đọc [bài phân tích WWDC26](/posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/) và thấy phần AI dài nhưng phần Screen Time ngắn — bài nhận định này **nâng tầm** phần đó: đây là “insurance policy” của Apple trước áp lực quản lý nội dung trẻ em trên toàn cầu.
+Nếu bạn đọc [bài phân tích WWDC26](/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/) và thấy phần AI dài nhưng phần Screen Time ngắn — bài nhận định này **nâng tầm** phần đó: đây là “insurance policy” của Apple trước áp lực quản lý nội dung trẻ em trên toàn cầu.
 
 ---
 
@@ -241,7 +239,7 @@ Nếu bạn đọc [bài phân tích WWDC26](/posts/wwdc26-phan-tich-tinh-nang-i
 
 ## So với bài phân tích trước: bài này bổ sung gì?
 
-[Bài phân tích WWDC26](/posts/wwdc26-phan-tich-tinh-nang-ios-27-macos-27/) trả lời: **“Apple sẽ / đã công bố gì?”** và phân loại tin đồn.
+[Bài phân tích WWDC26](/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/) trả lời: **“Apple sẽ / đã công bố gì?”** và phân loại tin đồn.
 
 Bài nhận định này trả lời: **“Sau sự kiện, điều đó có nghĩa gì với người dùng thật?”**
 

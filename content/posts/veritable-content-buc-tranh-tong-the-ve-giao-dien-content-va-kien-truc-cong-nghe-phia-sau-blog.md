@@ -1,6 +1,4 @@
 ---
-aliases:
-- /veritable-content-giao-dien-content-kien-truc-cong-nghe/
 categories:
 - cong-nghe
 date: 2026-07-07
@@ -17,7 +15,7 @@ image_owner: self
 image_source: Veritable Content
 image_source_url: https://banhang-chogao.github.io/reviewchanthat/
 lastmod: 2026-07-07
-slug: veritable-content-giao-dien-content-kien-truc-cong-nghe
+slug: veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog
 tags:
 - Veritable Content
 - Hugo

@@ -13,8 +13,6 @@ ai_summary:
   - Người dùng Việt Nam cần theo dõi mức hỗ trợ tiếng Việt và danh sách máy tương
     thích trước khi cài beta.
   title: Tóm tắt bài viết
-aliases:
-- /wwdc26-phan-tich-tinh-nang-ios-27-macos-27/
 attribution:
   copyright: © 2026 Review Chân Thật. Phân tích dựa trên nguồn công khai; không đại
     diện Apple.
@@ -67,7 +65,7 @@ image_owner: external
 image_source: Apple Newsroom
 image_source_url: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/
 lastmod: 2026-07-08 00:00:00+07:00
-slug: wwdc26-phan-tich-tinh-nang-ios-27-macos-27
+slug: wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau
 tags:
 - WWDC26
 - iOS 27
