@@ -11,6 +11,12 @@
       "label": "Trượt tuyết Hàn Quốc",
       "description": "Cẩm nang trượt tuyết cho người mới bắt đầu — địa điểm, chi phí, mẹo chọn khu nghỉ dưỡng và kinh nghiệm thực tế.",
       "order": 20
+    },
+    {
+      "slug": "du-lich-thai-lan",
+      "label": "Du lịch Thái Lan tự túc",
+      "description": "Kinh nghiệm du lịch Thái Lan tự túc — vé máy bay, khách sạn, ăn uống và di chuyển.",
+      "order": 30
     }
   ]
 }

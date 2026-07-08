@@ -54,6 +54,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 12
 title: 'Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm
   nào?'
 tom_tat_nhanh:

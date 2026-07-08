@@ -61,6 +61,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 19
 title: 'Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước'
 tom_tat_nhanh:
 - label: Khu vực

@@ -64,6 +64,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 16
 title: 'Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line
   Park'
 tom_tat_nhanh:

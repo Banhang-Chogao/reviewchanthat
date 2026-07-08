@@ -51,6 +51,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 9
 title: 'Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong
   một ngày'
 tom_tat_nhanh:

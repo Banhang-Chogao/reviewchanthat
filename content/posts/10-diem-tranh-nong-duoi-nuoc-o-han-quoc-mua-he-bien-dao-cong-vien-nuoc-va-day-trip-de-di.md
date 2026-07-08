@@ -106,6 +106,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 2
 title: '10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước
   và day trip dễ đi'
 tom_tat_nhanh:

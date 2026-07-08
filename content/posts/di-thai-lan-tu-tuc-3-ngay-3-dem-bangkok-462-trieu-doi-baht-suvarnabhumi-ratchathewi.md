@@ -37,7 +37,9 @@ image_license: Pixabay Content License
 image_owner: external
 image_source: Pixabay
 image_source_url: https://pixabay.com/photos/bangkok-river-market-boats-5863391/
-series: du-lich
+series: du-lich-thai-lan
+series_title: "Du lịch Thái Lan tự túc"
+series_order: 1
 tags:
 - du lịch Thái Lan
 - Bangkok tự túc

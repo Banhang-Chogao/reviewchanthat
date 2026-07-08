@@ -11,6 +11,16 @@
         {{ end }}
       {{ end }}
     {{ end }}
+  {{ else if and (eq .Data.Singular "series") .Data.Term }}
+    {{ $slug := .Data.Term }}
+    {{ with site.Data.series.items }}
+      {{ range . }}
+        {{ if eq .slug $slug }}
+          {{ $listTitle = .label }}
+          {{ $desc = .description }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
   {{ end }}
   {{ partial "breadcrumb.html" . }}
   <section class="category-header">
@@ -18,6 +28,14 @@
     {{ if $desc }}<p class="list-desc">{{ $desc }}</p>{{ end }}
   </section>
   {{ if eq .Data.Singular "category" }}
+  <section class="category-post-list">
+    {{ $paginator := .Paginate .Pages 10 }}
+    {{ range $paginator.Pages }}
+      {{ .Render "category-post-row" }}
+    {{ end }}
+    {{ partial "pagination.html" . }}
+  </section>
+  {{ else if eq .Data.Singular "series" }}
   <section class="category-post-list">
     {{ $paginator := .Paginate .Pages 10 }}
     {{ range $paginator.Pages }}

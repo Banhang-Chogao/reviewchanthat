@@ -73,6 +73,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 15
 title: 'Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối'
 tom_tat_nhanh:
 - label: Khu vực

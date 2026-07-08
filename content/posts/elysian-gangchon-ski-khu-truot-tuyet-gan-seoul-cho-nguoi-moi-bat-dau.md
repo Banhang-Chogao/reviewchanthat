@@ -65,6 +65,8 @@ tags:
 - series trượt tuyết
 thumbnail: images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp
 series: truot-tuyet
+series_title: "Trượt tuyết Hàn Quốc"
+series_order: 3
 title: 'Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu'
 tom_tat_nhanh:
 - label: Khu vực

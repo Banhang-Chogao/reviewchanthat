@@ -48,6 +48,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 5
 title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người
   mê làm đẹp'
 tom_tat_nhanh:

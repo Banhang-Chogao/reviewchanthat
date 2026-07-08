@@ -21,8 +21,10 @@
     <div class="series-section__grid">
       {{ range $sorted }}
         {{ $slug := .slug }}
+        {{ $tx := index $.Site.Taxonomies.series $slug }}
+        {{ $url := cond (not (not $tx)) ($tx.Page.RelPermalink) (printf "series/%s/" $slug | relURL) }}
         {{ $count := len (where $seriesPages ".Params.series" $slug) }}
-        <a href="{{ "/series/" | relURL }}{{ $slug }}/" class="series-card series-card--slim">
+        <a href="{{ $url }}" class="series-card series-card--slim">
           <div class="series-card__body">
             <h3 class="series-card__title">{{ .label }}</h3>
             <p class="series-card__desc">{{ .description }}</p>
@@ -33,7 +35,7 @@
       {{ end }}
     </div>
     <footer class="series-section__footer">
-      <a href="{{ "/series/" | relURL }}" class="series-section__all">Xem tất cả series →</a>
+      <a href="{{ "series/" | relURL }}" class="series-section__all">Xem tất cả series →</a>
     </footer>
   </div>
 </section>

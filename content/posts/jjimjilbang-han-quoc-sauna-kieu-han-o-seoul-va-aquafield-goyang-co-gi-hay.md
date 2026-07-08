@@ -52,6 +52,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 8
 title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?'
 tom_tat_nhanh:
 - label: Khu vực

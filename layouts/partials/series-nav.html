@@ -1,0 +1,56 @@
+  {{ $currentSlug := .Params.series }}
+  {{ $seriesPages := slice }}
+  {{ range site.RegularPages }}
+    {{ if eq (printf "%v" .Params.series) $currentSlug }}
+      {{ $seriesPages = $seriesPages | append . }}
+    {{ end }}
+  {{ end }}
+{{ if gt (len $seriesPages) 1 }}
+  {{ $sorted := sort $seriesPages ".Params.series_order" "asc" }}
+  {{ $currentIdx := -1 }}
+  {{ range $i, $p := $sorted }}
+    {{ if eq $p.RelPermalink $.RelPermalink }}
+      {{ $currentIdx = $i }}
+    {{ end }}
+  {{ end }}
+  {{ $tx := index $.Site.Taxonomies.series $currentSlug }}
+  {{ $seriesURL := "" }}
+  {{ if $tx }}
+    {{ $seriesURL = $tx.Page.RelPermalink }}
+  {{ else }}
+    {{ $seriesURL = printf "series/%s/" $currentSlug | relURL }}
+  {{ end }}
+  <div class="series-nav">
+    <div class="series-nav__header">
+      <span class="series-nav__label">Bài trong series</span>
+      {{ with $.Params.series_title }}
+      <a href="{{ $seriesURL }}" class="series-nav__title">{{ . }}</a>
+      {{ else }}
+      <a href="{{ $seriesURL }}" class="series-nav__title">Xem tất cả</a>
+      {{ end }}
+    </div>
+    <ol class="series-nav__list">
+      {{ range $i, $p := $sorted }}
+        <li class="series-nav__item{{ if eq $i $currentIdx }} series-nav__item--current{{ end }}">
+          {{ if eq $i $currentIdx }}
+            <span class="series-nav__link series-nav__link--current">{{ $p.Title }}</span>
+          {{ else }}
+            <a href="{{ $p.RelPermalink }}" class="series-nav__link">{{ $p.Title }}</a>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ol>
+    {{ $prev := index $sorted (sub $currentIdx 1) }}
+    {{ $next := index $sorted (add $currentIdx 1) }}
+    {{ if or $prev $next }}
+    <div class="series-nav__pager">
+      {{ with $prev }}
+      <a href="{{ .RelPermalink }}" class="series-nav__pager-link series-nav__pager-link--prev">← Bài trước</a>
+      {{ end }}
+      {{ with $next }}
+      <a href="{{ .RelPermalink }}" class="series-nav__pager-link series-nav__pager-link--next">Bài tiếp theo →</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+{{ end }}

@@ -7,23 +7,25 @@
       <p class="series-page__subtitle">Tổng hợp các bài viết theo từng chủ đề — đọc liền mạch từ đầu đến cuối.</p>
     </header>
     <div class="series-page__grid">
-      {{ range .Pages.ByTitle }}
-        {{ $slug := .Data.Term }}
-        {{ $info := dict }}
-        {{ with site.Data.series.items }}
-          {{ range . }}
-            {{ if eq .slug $slug }}
-              {{ $info = . }}
-            {{ end }}
-          {{ end }}
+      {{ $sortedSeries := slice }}
+      {{ range site.Data.series.items }}
+        {{ $tx := index $.Site.Taxonomies.series .slug }}
+        {{ if $tx }}
+          {{ $sortedSeries = $sortedSeries | append (dict "slug" .slug "label" .label "description" .description "order" (int .order) "tx" $tx) }}
         {{ end }}
-        <a href="{{ .RelPermalink }}" class="series-card">
+      {{ end }}
+      {{ range sort $sortedSeries "order" "asc" }}
+        {{ $slug := .slug }}
+        {{ $label := .label }}
+        {{ $desc := .description }}
+        {{ $tx := .tx }}
+        <a href="{{ $tx.Page.RelPermalink }}" class="series-card">
           <div class="series-card__body">
-            <h2 class="series-card__title">{{ with $info.label }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h2>
-            {{ with $info.description }}
+            <h2 class="series-card__title">{{ $label }}</h2>
+            {{ with $desc }}
             <p class="series-card__desc">{{ . }}</p>
             {{ end }}
-            <span class="series-card__count">{{ len .Pages }} bài viết</span>
+            <span class="series-card__count">{{ len $tx.Pages }} bài viết</span>
           </div>
           <span class="series-card__arrow" aria-hidden="true">→</span>
         </a>

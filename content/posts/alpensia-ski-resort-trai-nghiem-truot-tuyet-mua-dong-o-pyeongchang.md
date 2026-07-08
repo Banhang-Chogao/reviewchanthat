@@ -64,6 +64,8 @@ tags:
 - series trượt tuyết
 thumbnail: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
 series: truot-tuyet
+series_title: "Trượt tuyết Hàn Quốc"
+series_order: 5
 title: 'Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang'
 tom_tat_nhanh:
 - label: Khu vực

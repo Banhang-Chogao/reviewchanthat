@@ -1,3 +1,6 @@
+{{ define "seo" }}
+<meta name="robots" content="noindex,follow">
+{{ end }}
 {{ define "main" }}
 <div class="container">
   {{ partial "breadcrumb.html" . }}
@@ -19,9 +22,11 @@
       <p class="series-detail__meta">{{ len .Pages }} bài viết trong series</p>
     </header>
     <div class="series-detail__list">
-      {{ range .Pages }}
+      {{ $paginator := .Paginate .Pages 10 }}
+      {{ range $paginator.Pages }}
         {{ .Render "category-post-row" }}
       {{ end }}
+      {{ partial "pagination.html" . }}
     </div>
   </section>
 </div>

@@ -65,6 +65,8 @@ tags:
 - series trượt tuyết
 thumbnail: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
 series: truot-tuyet
+series_title: "Trượt tuyết Hàn Quốc"
+series_order: 7
 title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju'
 tom_tat_nhanh:
 - label: Khu vực

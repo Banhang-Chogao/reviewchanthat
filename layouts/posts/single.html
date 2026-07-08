@@ -37,6 +37,9 @@
   </div>
   {{ partial "ai-summary.html" . }}
   {{ partial "quick-summary.html" . }}
+  {{ with .Params.series }}
+  {{ partial "series-nav.html" $ }}
+  {{ end }}
   <div class="post-content">
     {{ .Content }}
   </div>

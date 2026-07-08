@@ -48,6 +48,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 6
 title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
   Quốc'
 tom_tat_nhanh:

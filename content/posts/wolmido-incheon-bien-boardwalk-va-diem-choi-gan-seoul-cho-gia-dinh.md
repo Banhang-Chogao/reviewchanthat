@@ -59,6 +59,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 13
 title: 'Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình'
 tom_tat_nhanh:
 - label: Khu vực

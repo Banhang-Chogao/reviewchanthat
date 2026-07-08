@@ -52,6 +52,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 4
 title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
 tom_tat_nhanh:
 - label: Khu vực

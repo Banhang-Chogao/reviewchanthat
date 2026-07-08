@@ -66,6 +66,8 @@ tags:
 - series du lịch
 thumbnail: images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp
 series: du-lich
+series_title: "Du lịch Hàn Quốc 2026"
+series_order: 11
 title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?'
 tom_tat_nhanh:
 - label: Khu vực

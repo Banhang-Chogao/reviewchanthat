@@ -1,0 +1,208 @@
+{
+  "series": [
+    {
+      "id": "du-lich",
+      "title": "Du lịch Hàn Quốc 2026",
+      "url": "series/du-lich/",
+      "count": 22,
+      "posts": [
+        {
+          "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và",
+          "url": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/",
+          "order": 1,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước",
+          "url": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/",
+          "order": 2,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
+          "url": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/",
+          "order": 3,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền",
+          "url": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien/",
+          "order": 4,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người",
+          "url": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep/",
+          "order": 5,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn",
+          "url": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/",
+          "order": 6,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
+          "url": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/",
+          "order": 7,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
+          "url": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/",
+          "order": 8,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong",
+          "url": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/",
+          "order": 9,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió",
+          "url": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/",
+          "order": 10,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?",
+          "url": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/",
+          "order": 11,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm",
+          "url": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/",
+          "order": 12,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình",
+          "url": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh/",
+          "order": 13,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
+          "url": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/",
+          "order": 14,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
+          "url": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/",
+          "order": 15,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line",
+          "url": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/",
+          "order": 16,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
+          "url": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/",
+          "order": 17,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
+          "url": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/",
+          "order": 18,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
+          "url": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/",
+          "order": 19,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
+          "url": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/",
+          "order": 20,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
+          "url": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/",
+          "order": 21,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
+          "url": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/",
+          "order": 22,
+          "date": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "id": "du-lich-thai-lan",
+      "title": "Du lịch Thái Lan tự túc",
+      "url": "series/du-lich-thai-lan/",
+      "count": 1,
+      "posts": [
+        {
+          "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn",
+          "url": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi/",
+          "order": 1,
+          "date": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "id": "truot-tuyet",
+      "title": "Trượt tuyết Hàn Quốc",
+      "url": "series/truot-tuyet/",
+      "count": 7,
+      "posts": [
+        {
+          "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt",
+          "url": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet/",
+          "order": 1,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?",
+          "url": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong/",
+          "order": 2,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu",
+          "url": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau/",
+          "order": 3,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với",
+          "url": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet/",
+          "order": 4,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang",
+          "url": "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang/",
+          "order": 5,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn",
+          "url": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/",
+          "order": 6,
+          "date": "2026-07-08"
+        },
+        {
+          "title": "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju",
+          "url": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju/",
+          "order": 7,
+          "date": "2026-07-08"
+        }
+      ]
+    }
+  ]
+}

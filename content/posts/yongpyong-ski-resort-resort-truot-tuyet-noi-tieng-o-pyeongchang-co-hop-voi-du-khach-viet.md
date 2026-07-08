@@ -67,6 +67,8 @@ tags:
 - series trượt tuyết
 thumbnail: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
 series: truot-tuyet
+series_title: "Trượt tuyết Hàn Quốc"
+series_order: 4
 title: 'Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với
   du khách Việt?'
 tom_tat_nhanh:
