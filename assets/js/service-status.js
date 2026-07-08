@@ -2,23 +2,20 @@
   const container = document.getElementById('service-status');
   if (!container) return;
 
-  const dot = (id) => document.getElementById(id);
-  const badge = (id) => document.getElementById(id);
+  const byId = (id) => document.getElementById(id);
   const setStatus = (dotId, badgeId, status, label) => {
-    const d = dot(dotId);
-    const b = badge(badgeId);
+    const d = byId(dotId);
+    const b = byId(badgeId);
     if (d) d.setAttribute('data-status', status);
     if (b) { b.setAttribute('data-status', status); b.textContent = label; }
   };
 
-  const checkGA = () => {
-    const check = () => {
-      const loaded = typeof window.gtag === 'function';
-      setStatus('status-dot-ga', 'status-badge-ga', loaded ? 'connected' : 'disconnected', loaded ? 'Đã kết nối' : 'Chưa kết nối');
-    };
-    if (document.readyState === 'complete') { check(); }
-    else { window.addEventListener('load', check); }
-    setTimeout(() => setStatus('status-dot-ga', 'status-badge-ga', 'disconnected', 'Chưa kết nối'), 8000);
+  const checkGA = (retries = 5) => {
+    const loaded = typeof window.gtag === 'function';
+    setStatus('status-dot-ga', 'status-badge-ga', loaded ? 'connected' : 'disconnected', loaded ? 'Đã kết nối' : 'Chưa kết nối');
+    if (!loaded && retries > 0) {
+      setTimeout(() => checkGA(retries - 1), 1000);
+    }
   };
 
   const checkSC = async () => {
