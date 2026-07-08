@@ -42,50 +42,70 @@
     {
       "id": "first-post",
       "name": "Mực Đầu Tiên",
-      "description": "Xuất bản bài viết đầu tiên trên blog.",
+      "description": "Xuất bản ít nhất 2 bài viết trên blog.",
       "tier": 1,
       "icon": "✍️",
-      "rule": { "type": "min_posts", "value": 1 }
+      "rule": {
+        "type": "min_posts",
+        "value": 2
+      }
     },
     {
       "id": "steady-writer",
       "name": "Bút Đều Tay",
-      "description": "Đã xuất bản ít nhất 5 bài.",
+      "description": "Đã xuất bản ít nhất 10 bài.",
       "tier": 2,
       "icon": "📝",
-      "rule": { "type": "min_posts", "value": 5 }
+      "rule": {
+        "type": "min_posts",
+        "value": 10
+      }
     },
     {
       "id": "prolific",
       "name": "Máy Viết",
-      "description": "Đã xuất bản ít nhất 15 bài.",
+      "description": "Đã xuất bản ít nhất 30 bài.",
       "tier": 3,
       "icon": "⚡",
-      "rule": { "type": "min_posts", "value": 15 }
+      "rule": {
+        "type": "min_posts",
+        "value": 30
+      }
     },
     {
       "id": "category-explorer",
       "name": "Kẻ Lang Thang",
-      "description": "Viết bài thuộc ít nhất 3 chuyên mục khác nhau.",
+      "description": "Viết bài thuộc ít nhất 6 chuyên mục khác nhau.",
       "tier": 2,
       "icon": "🧭",
-      "rule": { "type": "min_categories", "value": 3 }
+      "rule": {
+        "type": "min_categories",
+        "value": 6
+      }
     },
     {
       "id": "tech-specialist",
       "name": "Dân Công Nghệ",
-      "description": "Ít nhất 3 bài trong chuyên mục Công nghệ.",
+      "description": "Ít nhất 6 bài trong chuyên mục Công nghệ.",
       "tier": 2,
       "icon": "💻",
-      "rule": { "type": "min_category_posts", "category": "cong-nghe", "value": 3 }
+      "rule": {
+        "type": "min_category_posts",
+        "category": "cong-nghe",
+        "value": 6
+      }
     },
     {
       "id": "review-veteran",
       "name": "Tướng Review",
-      "description": "Ít nhất 5 bài trong chuyên mục Review.",
+      "description": "Ít nhất 10 bài trong chuyên mục Review.",
       "tier": 3,
       "icon": "🎖️",
-      "rule": { "type": "min_category_posts", "category": "review", "value": 5 }
+      "rule": {
+        "type": "min_category_posts",
+        "category": "review",
+        "value": 10
+      }
     },
     {
       "id": "founding-pen",
@@ -93,135 +113,191 @@
       "description": "Tác giả sáng lập và cây bút gốc của Veritable Content.",
       "tier": 4,
       "icon": "🏛️",
-      "rule": { "type": "founding", "value": 1 }
+      "rule": {
+        "type": "founding",
+        "value": 2
+      }
     },
     {
       "id": "legend-quill",
       "name": "Lông Vũ Huyền Thoại",
-      "description": "Đạt cấp Huyền Thoại Chân Thật (20+ bài).",
+      "description": "Đạt cấp Huyền Thoại Chân Thật (40+ bài).",
       "tier": 5,
       "icon": "👑",
-      "rule": { "type": "min_posts", "value": 20 }
+      "rule": {
+        "type": "min_posts",
+        "value": 40
+      }
     },
     {
       "id": "encyclopedia",
       "name": "Bách Khoa Toàn Thư",
-      "description": "Đã chinh phục tất cả 5 chuyên mục trên blog.",
+      "description": "Đã chinh phục tất cả các chuyên mục trên blog (chuẩn 2x: 10 chuyên mục).",
       "tier": 4,
       "icon": "📚",
-      "rule": { "type": "min_categories", "value": 5 }
+      "rule": {
+        "type": "min_categories",
+        "value": 10
+      }
     },
     {
       "id": "writing-machine",
       "name": "Cỗ Máy Bài",
-      "description": "Đã xuất bản ít nhất 50 bài viết — con số của một cỗ máy.",
+      "description": "Đã xuất bản ít nhất 100 bài viết — con số của một cỗ máy.",
       "tier": 5,
       "icon": "🤖",
-      "rule": { "type": "min_posts", "value": 50 }
+      "rule": {
+        "type": "min_posts",
+        "value": 100
+      }
     },
     {
       "id": "versatile-hunter",
       "name": "Thợ Săn Đa Năng",
-      "description": "Viết ít nhất 3 bài ở mỗi chuyên mục: Đời sống, Tài chính và Du lịch.",
+      "description": "Viết ít nhất 6 bài ở mỗi chuyên mục: Đời sống, Tài chính và Du lịch.",
       "tier": 4,
       "icon": "🏆",
       "rule": {
         "type": "multi_category_min",
         "categories": {
-          "doi-song": 3,
-          "tai-chinh": 3,
-          "du-lich": 3
+          "doi-song": 6,
+          "tai-chinh": 6,
+          "du-lich": 6
         }
       }
     },
     {
       "id": "apple-devotee",
       "name": "Tín Đồ Apple",
-      "description": "Viết ít nhất 2 bài về Apple Intelligence / WWDC / hệ sinh thái Apple.",
+      "description": "Viết ít nhất 4 bài về Apple Intelligence / WWDC / hệ sinh thái Apple.",
       "tier": 2,
       "icon": "🍎",
-      "rule": { "type": "min_tag_posts", "tag": "Apple Intelligence", "value": 2 }
+      "rule": {
+        "type": "min_tag_posts",
+        "tag": "Apple Intelligence",
+        "value": 4
+      }
     },
     {
       "id": "seoul-roamer",
       "name": "Kẻ Rong Chơi Seoul",
-      "description": "Viết ít nhất 5 bài về Seoul.",
+      "description": "Viết ít nhất 10 bài về Seoul.",
       "tier": 2,
       "icon": "🏙️",
-      "rule": { "type": "min_tag_posts", "tag": "Seoul", "value": 5 }
+      "rule": {
+        "type": "min_tag_posts",
+        "tag": "Seoul",
+        "value": 10
+      }
     },
     {
       "id": "busan-lover",
       "name": "Người Tình Busan",
-      "description": "Viết ít nhất 3 bài về Busan.",
+      "description": "Viết ít nhất 6 bài về Busan.",
       "tier": 2,
       "icon": "🌊",
-      "rule": { "type": "min_tag_posts", "tag": "Busan", "value": 3 }
+      "rule": {
+        "type": "min_tag_posts",
+        "tag": "Busan",
+        "value": 6
+      }
     },
     {
       "id": "jeju-wizard",
       "name": "Phù Thủy Jeju",
-      "description": "Viết ít nhất 3 bài về Jeju.",
+      "description": "Viết ít nhất 6 bài về Jeju.",
       "tier": 2,
       "icon": "🏝️",
-      "rule": { "type": "min_tag_posts", "tag": "Jeju", "value": 3 }
+      "rule": {
+        "type": "min_tag_posts",
+        "tag": "Jeju",
+        "value": 6
+      }
     },
     {
       "id": "winter-expert",
       "name": "Chuyên Gia Mùa Đông",
-      "description": "Viết ít nhất 5 bài về trượt tuyết và mùa đông Hàn Quốc.",
+      "description": "Viết ít nhất 10 bài về trượt tuyết và mùa đông Hàn Quốc.",
       "tier": 3,
       "icon": "❄️",
-      "rule": { "type": "min_tag_posts", "tag": "trượt tuyết Hàn Quốc", "value": 5 }
+      "rule": {
+        "type": "min_tag_posts",
+        "tag": "trượt tuyết Hàn Quốc",
+        "value": 10
+      }
     },
     {
       "id": "day-trip-king",
       "name": "Vua Day Trip",
-      "description": "Viết ít nhất 3 bài về day trip từ Seoul.",
+      "description": "Viết ít nhất 6 bài về day trip từ Seoul.",
       "tier": 2,
       "icon": "🚌",
-      "rule": { "type": "min_tag_posts", "tag": "day trip Seoul", "value": 3 }
+      "rule": {
+        "type": "min_tag_posts",
+        "tag": "day trip Seoul",
+        "value": 6
+      }
     },
     {
       "id": "food-reporter",
       "name": "Phóng Viên Ẩm Thực",
-      "description": "Viết ít nhất 2 bài về ẩm thực và chợ địa phương Hàn Quốc.",
+      "description": "Viết ít nhất 4 bài về ẩm thực và chợ địa phương Hàn Quốc.",
       "tier": 2,
       "icon": "🍜",
-      "rule": { "type": "min_tag_posts", "tag": "ẩm thực Hàn Quốc", "value": 2 }
+      "rule": {
+        "type": "min_tag_posts",
+        "tag": "ẩm thực Hàn Quốc",
+        "value": 4
+      }
     },
     {
       "id": "review-wizard",
       "name": "Phù Thủy Review",
-      "description": "Viết ít nhất 5 bài trong chuyên mục Review.",
+      "description": "Viết ít nhất 10 bài trong chuyên mục Review.",
       "tier": 3,
       "icon": "🔮",
-      "rule": { "type": "min_category_posts", "category": "review", "value": 5 }
+      "rule": {
+        "type": "min_category_posts",
+        "category": "review",
+        "value": 10
+      }
     },
     {
       "id": "tech-guru",
       "name": "Dân Chơi Công Nghệ",
-      "description": "Viết ít nhất 5 bài trong chuyên mục Công nghệ.",
+      "description": "Viết ít nhất 10 bài trong chuyên mục Công nghệ.",
       "tier": 3,
       "icon": "⚙️",
-      "rule": { "type": "min_category_posts", "category": "cong-nghe", "value": 5 }
+      "rule": {
+        "type": "min_category_posts",
+        "category": "cong-nghe",
+        "value": 10
+      }
     },
     {
       "id": "content-tycoon",
       "name": "Đại Gia Nội Dung",
-      "description": "Đã xuất bản ít nhất 40 bài viết — một gia tài nội dung thực thụ.",
+      "description": "Đã xuất bản ít nhất 80 bài viết — một gia tài nội dung thực thụ.",
       "tier": 4,
       "icon": "💎",
-      "rule": { "type": "min_posts", "value": 40 }
+      "rule": {
+        "type": "min_posts",
+        "value": 80
+      }
     },
     {
       "id": "golden-ink-legend",
       "name": "Huyền Thoại Mực Vàng",
-      "description": "Đã xuất bản ít nhất 75 bài viết — đỉnh cao của cây bút.",
+      "description": "Đã xuất bản ít nhất 150 bài viết — đỉnh cao của cây bút.",
       "tier": 5,
       "icon": "✨",
-      "rule": { "type": "min_posts", "value": 75 }
+      "rule": {
+        "type": "min_posts",
+        "value": 150
+      }
     }
   ],
-  "founding_author_ids": ["minh-hoang"]
+  "founding_author_ids": [
+    "minh-hoang"
+  ]
 }
