@@ -133,6 +133,94 @@
           "du-lich": 3
         }
       }
+    },
+    {
+      "id": "apple-devotee",
+      "name": "Tín Đồ Apple",
+      "description": "Viết ít nhất 2 bài về Apple Intelligence / WWDC / hệ sinh thái Apple.",
+      "tier": 2,
+      "icon": "🍎",
+      "rule": { "type": "min_tag_posts", "tag": "Apple Intelligence", "value": 2 }
+    },
+    {
+      "id": "seoul-roamer",
+      "name": "Kẻ Rong Chơi Seoul",
+      "description": "Viết ít nhất 5 bài về Seoul.",
+      "tier": 2,
+      "icon": "🏙️",
+      "rule": { "type": "min_tag_posts", "tag": "Seoul", "value": 5 }
+    },
+    {
+      "id": "busan-lover",
+      "name": "Người Tình Busan",
+      "description": "Viết ít nhất 3 bài về Busan.",
+      "tier": 2,
+      "icon": "🌊",
+      "rule": { "type": "min_tag_posts", "tag": "Busan", "value": 3 }
+    },
+    {
+      "id": "jeju-wizard",
+      "name": "Phù Thủy Jeju",
+      "description": "Viết ít nhất 3 bài về Jeju.",
+      "tier": 2,
+      "icon": "🏝️",
+      "rule": { "type": "min_tag_posts", "tag": "Jeju", "value": 3 }
+    },
+    {
+      "id": "winter-expert",
+      "name": "Chuyên Gia Mùa Đông",
+      "description": "Viết ít nhất 5 bài về trượt tuyết và mùa đông Hàn Quốc.",
+      "tier": 3,
+      "icon": "❄️",
+      "rule": { "type": "min_tag_posts", "tag": "trượt tuyết Hàn Quốc", "value": 5 }
+    },
+    {
+      "id": "day-trip-king",
+      "name": "Vua Day Trip",
+      "description": "Viết ít nhất 3 bài về day trip từ Seoul.",
+      "tier": 2,
+      "icon": "🚌",
+      "rule": { "type": "min_tag_posts", "tag": "day trip Seoul", "value": 3 }
+    },
+    {
+      "id": "food-reporter",
+      "name": "Phóng Viên Ẩm Thực",
+      "description": "Viết ít nhất 2 bài về ẩm thực và chợ địa phương Hàn Quốc.",
+      "tier": 2,
+      "icon": "🍜",
+      "rule": { "type": "min_tag_posts", "tag": "ẩm thực Hàn Quốc", "value": 2 }
+    },
+    {
+      "id": "review-wizard",
+      "name": "Phù Thủy Review",
+      "description": "Viết ít nhất 5 bài trong chuyên mục Review.",
+      "tier": 3,
+      "icon": "🔮",
+      "rule": { "type": "min_category_posts", "category": "review", "value": 5 }
+    },
+    {
+      "id": "tech-guru",
+      "name": "Dân Chơi Công Nghệ",
+      "description": "Viết ít nhất 5 bài trong chuyên mục Công nghệ.",
+      "tier": 3,
+      "icon": "⚙️",
+      "rule": { "type": "min_category_posts", "category": "cong-nghe", "value": 5 }
+    },
+    {
+      "id": "content-tycoon",
+      "name": "Đại Gia Nội Dung",
+      "description": "Đã xuất bản ít nhất 40 bài viết — một gia tài nội dung thực thụ.",
+      "tier": 4,
+      "icon": "💎",
+      "rule": { "type": "min_posts", "value": 40 }
+    },
+    {
+      "id": "golden-ink-legend",
+      "name": "Huyền Thoại Mực Vàng",
+      "description": "Đã xuất bản ít nhất 75 bài viết — đỉnh cao của cây bút.",
+      "tier": 5,
+      "icon": "✨",
+      "rule": { "type": "min_posts", "value": 75 }
     }
   ],
   "founding_author_ids": ["minh-hoang"]

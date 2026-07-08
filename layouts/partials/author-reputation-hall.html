@@ -82,6 +82,12 @@
                   {{- if gt $need 0 -}}
                     {{- $hint = printf "Cần thêm %d bài ở chuyên mục này nữa" (int $need) -}}
                   {{- end -}}
+                {{- else if eq $rule.type "min_tag_posts" -}}
+                  {{- $tagCount := index $stats.tagCounts $rule.tag | default 0 -}}
+                  {{- $need := sub $rule.value $tagCount -}}
+                  {{- if gt $need 0 -}}
+                    {{- $hint = printf "Cần thêm %d bài về chủ đề này nữa" (int $need) -}}
+                  {{- end -}}
                 {{- else if eq $rule.type "multi_category_min" -}}
                   {{- $missing := slice -}}
                   {{- range $cat, $min := $rule.categories -}}
