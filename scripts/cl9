@@ -41,15 +41,20 @@ python scripts/qa_blog.py || {
   exit 1
 }
 python scripts/normalize_frontmatter.py || true
+python scripts/content_controller.py || {
+  echo "ERROR: Content Controller failed. Fix issues and try again."
+  exit 1
+}
 
 # 6. Commit
-echo "[5/7] Committing..."
+echo "[5/7] Content Controller done."
+echo "[6/7] Committing..."
 git checkout -b "$BRANCH"
 git add -A
 git commit -m "cl9: auto deploy $(date '+%Y-%m-%d %H:%M')" || echo "Nothing to commit."
 
 # 7. Push
-echo "[6/7] Pushing..."
+echo "[7/7] Pushing..."
 git remote set-url origin "https://Banhang-Chogao:${GIT_TOKEN}@github.com/Banhang-Chogao/reviewchanthat.git"
 git push origin "$BRANCH" 2>/dev/null || {
   echo "Push failed; retrying with token..."
@@ -57,7 +62,7 @@ git push origin "$BRANCH" 2>/dev/null || {
 }
 
 # 8. PR
-echo "[7/7] Creating PR..."
+echo "[8/8] Creating PR..."
 PR_JSON=$(curl -sf -X POST \
   -H "Authorization: token ${GIT_TOKEN}" \
   -H "Accept: application/vnd.github+json" \

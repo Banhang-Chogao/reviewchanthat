@@ -1,44 +1,52 @@
 #!/usr/bin/env python3
-"""Slug utilities for Review Chân Thật — deterministic Vietnamese slug generation."""
+"""Shared Vietnamese slug utilities for Review Chân Thật.
+
+Rule: title -> deterministic ASCII slug.
+- lowercase
+- strip Vietnamese diacritics (NFC decompose -> drop combining marks)
+- 'đ' -> 'd'
+- '&' -> 'va'
+- remove all other punctuation / special chars
+- whitespace and runs of non-alphanumerics collapse to single '-'
+- trim leading/trailing '-'
+- keep only [a-z0-9-]
+"""
 
 import re
 import unicodedata
 
 
-VIETNAMESE_MAP = {
-    'à': 'a', 'á': 'a', 'ạ': 'a', 'ả': 'a', 'ã': 'a',
-    'â': 'a', 'ầ': 'a', 'ấ': 'a', 'ậ': 'a', 'ẩ': 'a', 'ẫ': 'a',
-    'ă': 'a', 'ằ': 'a', 'ắ': 'a', 'ặ': 'a', 'ẳ': 'a', 'ẵ': 'a',
-    'è': 'e', 'é': 'e', 'ẹ': 'e', 'ẻ': 'e', 'ẽ': 'e',
-    'ê': 'e', 'ề': 'e', 'ế': 'e', 'ệ': 'e', 'ể': 'e', 'ễ': 'e',
-    'ì': 'i', 'í': 'i', 'ị': 'i', 'ỉ': 'i', 'ĩ': 'i',
-    'ò': 'o', 'ó': 'o', 'ọ': 'o', 'ỏ': 'o', 'õ': 'o',
-    'ô': 'o', 'ồ': 'o', 'ố': 'o', 'ộ': 'o', 'ổ': 'o', 'ỗ': 'o',
-    'ơ': 'o', 'ờ': 'o', 'ớ': 'o', 'ợ': 'o', 'ở': 'o', 'ỡ': 'o',
-    'ù': 'u', 'ú': 'u', 'ụ': 'u', 'ủ': 'u', 'ũ': 'u',
-    'ư': 'u', 'ừ': 'u', 'ứ': 'u', 'ự': 'u', 'ử': 'u', 'ữ': 'u',
-    'ỳ': 'y', 'ý': 'y', 'ỵ': 'y', 'ỷ': 'y', 'ỹ': 'y',
-    'đ': 'd',
-}
-
-
 def slugify_vi(title: str) -> str:
-    text = title.lower().strip()
-    text = text.replace('&', ' va ')
-    for viet_char, ascii_char in VIETNAMESE_MAP.items():
-        text = text.replace(viet_char, ascii_char)
-    text = unicodedata.normalize('NFKD', text)
-    text = text.encode('ascii', 'ignore').decode('ascii')
-    text = re.sub(r'[^a-z0-9\s-]', '', text)
-    text = re.sub(r'[\s]+', '-', text)
-    text = re.sub(r'-+', '-', text)
-    text = text.strip('-')
-    return text
+    if not title:
+        return ""
+    s = title.lower().strip()
+    # decompose accented chars
+    s = unicodedata.normalize("NFKD", s)
+    # drop combining marks (diacritics)
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    # 'đ' becomes 'd' (đ is not a combining diacritic)
+    s = s.replace("đ", "d")
+    # '&' -> 'va'
+    s = s.replace("&", "va")
+    # remove punctuation / special characters (keep alnum, spaces, hyphens)
+    s = re.sub(r"[^a-z0-9\s-]", " ", s)
+    # collapse whitespace/hyphen runs into single hyphen
+    s = re.sub(r"[\s-]+", "-", s)
+    # trim
+    s = s.strip("-")
+    return s
 
 
-def url_from_slug(slug: str) -> str:
-    return f'/posts/{slug}/'
+if __name__ == "__main__":
+    import sys
 
-
-def expected_permalink(slug: str) -> str:
-    return f'https://banhang-chogao.github.io/reviewchanthat/posts/{slug}/'
+    tests = [
+        "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
+        "Lotte World Adventure Seoul: có hợp đi cùng trẻ em và gia đình không?",
+    ]
+    if len(sys.argv) > 1:
+        print(slugify_vi(" ".join(sys.argv[1:])))
+    else:
+        for t in tests:
+            print(f"{t}\n  -> {slugify_vi(t)}\n")

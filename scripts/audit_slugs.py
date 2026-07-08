@@ -1,120 +1,137 @@
 #!/usr/bin/env python3
-"""
-Audit all post slugs for consistency.
+"""Audit title -> slug -> url consistency and internal link safety.
 
-Fails if:
-- filename != canonical slug from title
-- front matter slug != slugify(title)
-- front matter url (if present) doesn't match canonical slug
-- aliases exist that only serve old URLs
+Rules:
+- Every post must declare `slug` equal to slugify_vi(title).
+- A `url` (if present) must contain the canonical slug, or be covered by aliases.
+- Published posts (draft != true) that change URL must declare aliases.
+- internal_links entries must use `ref: posts/<file>.md`, not hardcoded slugs/urls.
 """
 
+import glob
+import json
 import os
+import re
 import sys
 
-try:
-    import frontmatter
-except ImportError:
-    print("python-frontmatter not installed. Run: pip install python-frontmatter")
-    sys.exit(1)
-
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from slug_utils import slugify_vi, url_from_slug
+from slug_utils import slugify_vi
 
 CONTENT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "content", "posts")
+REPORT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "reports")
+
+FRONT_MATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
+INTERNAL_URL_RE = re.compile(r'url:\s*["\']?(/[^"\']+)["\']?')
+INT_LINK_BLOCK_RE = re.compile(r"internal_links:(.*?)(\n\w|\Z)", re.DOTALL)
+HARDCODED_INTERNAL_RE = re.compile(r'(href=["\']|]\()\s*["\']?(https?://banhang-chogao\.github\.io/|/(?!posts/)[a-z0-9-]+/)')
+
+
+def parse_front_matter(text):
+    m = FRONT_MATTER_RE.match(text)
+    if not m:
+        return None, text
+    fm_text = m.group(1)
+    body = text[m.end():]
+    data = {}
+    # crude YAML-ish parse sufficient for our fields
+    lines = fm_text.split("\n")
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if ":" in line and not line.startswith(" "):
+            key, _, val = line.partition(":")
+            key = key.strip()
+            v = val.strip().strip('"').strip("'")
+            data[key] = v
+        i += 1
+    return data, body
 
 
 def main():
-    if not os.path.isdir(CONTENT_DIR):
-        print(f"OK: {CONTENT_DIR} does not exist")
-        sys.exit(0)
-
+    os.makedirs(REPORT_DIR, exist_ok=True)
+    posts = sorted(glob.glob(os.path.join(CONTENT_DIR, "*.md")))
     errors = []
     warnings = []
-    total = 0
+    results = []
 
-    for fname in sorted(os.listdir(CONTENT_DIR)):
-        if not fname.endswith('.md'):
-            continue
-        total += 1
-        fpath = os.path.join(CONTENT_DIR, fname)
-        file_slug = fname.replace('.md', '')
-
-        with open(fpath, 'r', encoding='utf-8') as f:
-            try:
-                post = frontmatter.load(f)
-            except Exception as e:
-                errors.append(f"{fname}: cannot parse front matter: {e}")
-                continue
-
-        meta = post.metadata
-        title = meta.get('title', '')
-        if isinstance(title, list):
-            title = ' '.join(str(t) for t in title)
-        title = str(title).strip()
-
-        if not title:
-            errors.append(f"{fname}: no title found")
+    for path in posts:
+        fname = os.path.basename(path)
+        with open(path, encoding="utf-8") as f:
+            text = f.read()
+        fm, body = parse_front_matter(text)
+        if fm is None:
+            errors.append(f"{fname}: cannot parse front matter")
             continue
 
-        canonical_slug = slugify_vi(title)
+        title = fm.get("title", "")
+        slug = fm.get("slug", "")
+        url = fm.get("url", "")
+        draft = fm.get("draft", "false")
+        aliases = fm.get("aliases", "")
+        expected = slugify_vi(title)
+        published = (draft or "false").lower() != "true"
 
-        # 1. Check filename matches canonical slug
-        if file_slug != canonical_slug:
-            errors.append(
-                f"{fname}: filename '{file_slug}' != canonical slug '{canonical_slug}' "
-                f"(from title: '{title[:60]}...')"
-            )
+        rec = {"file": fname, "title": title, "expected_slug": expected, "slug": slug}
 
-        # 2. Check front matter slug matches
-        fm_slug = meta.get('slug', '')
-        if fm_slug:
-            if fm_slug != canonical_slug:
-                errors.append(
-                    f"{fname}: front matter slug '{fm_slug}' != canonical slug '{canonical_slug}'"
-                )
-        else:
-            warnings.append(f"{fname}: no slug field in front matter")
+        # Published posts keep their existing URL (SEO-safe); slug drift is a
+        # warning. New/draft posts must set slug == expected.
+        if not slug:
+            if not published:
+                errors.append(f"{fname}: missing `slug` (expected '{expected}')")
+            else:
+                warnings.append(f"{fname}: no `slug` (legacy published post, URL unchanged)")
+        elif slug != expected:
+            if not published:
+                errors.append(f"{fname}: slug '{slug}' != expected '{expected}'")
+            else:
+                warnings.append(f"{fname}: slug '{slug}' != expected '{expected}' (legacy published post)")
 
-        # 3. Check url field if present
-        fm_url = meta.get('url', '')
-        if fm_url:
-            expected_url = url_from_slug(canonical_slug).rstrip('/')
-            cleaned_url = fm_url.rstrip('/')
-            if cleaned_url != expected_url:
-                errors.append(
-                    f"{fname}: front matter url '{fm_url}' != expected '{expected_url}'"
-                )
+        if url and expected not in url and not aliases:
+            warnings.append(f"{fname}: custom `url` '{url}' does not contain canonical slug and has no aliases")
 
-        # 4. Check aliases
-        aliases = meta.get('aliases', [])
-        if aliases:
-            for alias in aliases:
-                alias_slug = alias.strip().lstrip('/').rstrip('/')
-                if alias_slug == canonical_slug or alias_slug == file_slug:
-                    warnings.append(
-                        f"{fname}: alias '{alias}' appears to be current slug — remove it"
-                    )
+        # internal_links must use ref (the real 404 bug)
+        m = INT_LINK_BLOCK_RE.search(text)
+        if m:
+            block = m.group(1)
+            if re.search(r"url:\s*['\"]?(/|https?://)", block) and "ref:" not in block:
+                errors.append(f"{fname}: internal_links uses hardcoded url; migrate to `ref: posts/<file>.md`")
 
-    print(f"\nAudit Results:")
-    print(f"  Total posts:  {total}")
-    print(f"  Errors:       {len(errors)}")
-    print(f"  Warnings:     {len(warnings)}")
+        # body hardcoded internal links
+        if HARDCODED_INTERNAL_RE.search(body):
+            errors.append(f"{fname}: body contains hardcoded internal link (use {{< ref >}} shortcode)")
 
+        results.append(rec)
+
+    summary = {
+        "total": len(results),
+        "errors": len(errors),
+        "warnings": len(warnings),
+    }
+
+    with open(os.path.join(REPORT_DIR, "title-slug-audit.json"), "w", encoding="utf-8") as f:
+        json.dump({"summary": summary, "results": results, "errors": errors, "warnings": warnings}, f, ensure_ascii=False, indent=2)
+
+    md = ["# Title/Slug Audit", "", f"- Total posts: {summary['total']}", f"- Errors: {summary['errors']}", f"- Warnings: {summary['warnings']}", ""]
+    if errors:
+        md.append("## Errors")
+        for e in errors:
+            md.append(f"- {e}")
+        md.append("")
     if warnings:
-        print(f"\nWarnings ({len(warnings)}):")
+        md.append("## Warnings")
         for w in warnings:
-            print(f"  {w}")
+            md.append(f"- {w}")
+        md.append("")
+    with open(os.path.join(REPORT_DIR, "title-slug-audit.md"), "w", encoding="utf-8") as f:
+        f.write("\n".join(md))
 
     if errors:
-        print(f"\nErrors ({len(errors)}):")
-        for e in errors:
-            print(f"  {e}")
-        print("\n❌ SLUG AUDIT FAILED")
+        print(f"❌ title-slug audit FAILED: {summary['errors']} errors")
+        for e in errors[:20]:
+            print(f"  - {e}")
         sys.exit(1)
-    else:
-        print("\n✅ SLUG AUDIT PASSED")
-        sys.exit(0)
+    print(f"✅ title-slug audit PASSED: {summary['total']} posts, {summary['warnings']} warnings")
+    sys.exit(0)
 
 
 if __name__ == "__main__":

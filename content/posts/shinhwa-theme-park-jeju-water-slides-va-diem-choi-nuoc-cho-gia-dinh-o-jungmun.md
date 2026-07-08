@@ -11,21 +11,28 @@ ai_summary:
     water slides.
   - Kết hợp với Jungmun Beach, Udo trong hành trình Jeju mùa hè.
   title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https://www.shinhwaworld.com/, https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771,
-    https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: 2026-07-08 07:00:00+07:00
-description: Shinhwa Theme Park Jeju thuộc tổ hợp Jeju Shinhwa World, có công viên
-  nước với water slides, wave pool, khu vui chơi Larva cho trẻ em. Hướng dẫn đi và
-  vé.
-draft: false
+faq:
+- question: Giá vé Shinhwa Theme Park thế nào?
+  answer: Vé theme park khoảng 40.000 KRW/người lớn (giá niêm yết). Vé water park
+    tính riêng. Có thể mua vé online trước để được giảm giá.
+- question: Shinhwa Water Park có mở cửa mùa đông không?
+  answer: Thường chỉ mở từ tháng 6 đến tháng 9. Mùa đông chỉ có theme park và spa.
+    Kiểm tra website chính thức trước khi đi.
+- question: Có cần cả ngày không?
+  answer: Có, nếu bạn muốn chơi cả theme park và water park. Nếu chỉ chơi water park,
+    nửa ngày cũng đủ.
+- question: Shinhwa World có phù hợp trẻ em không?
+  answer: Rất phù hợp. Khu Larva được thiết kế riêng cho trẻ em, các trò chơi nhẹ
+    nhàng và nhiều màu sắc.
+internal_links:
+- title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
+  ref: posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md
+- title: 'Jungmun Beach Jeju: bãi biển hoạt động nước'
+  ref: posts/jungmun-beach-jeju-hoat-dong-nuoc.md
+- title: 'Udo Jeju: đảo nhỏ, biển đá đen'
+  ref: posts/udo-jeju-dao-bien-den-hai-dang-trang.md
+- title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul'
+  ref: posts/caribbean-bay-yongin-cong-vien-nuoc.md
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
@@ -35,50 +42,20 @@ external_links:
   url: https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771
 - title: https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409
   url: https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409
-faq:
-- answer: Vé theme park khoảng 40.000 KRW/người lớn (giá niêm yết). Vé water park
-    tính riêng. Có thể mua vé online trước để được giảm giá.
-  question: Giá vé Shinhwa Theme Park thế nào?
-- answer: Thường chỉ mở từ tháng 6 đến tháng 9. Mùa đông chỉ có theme park và spa.
-    Kiểm tra website chính thức trước khi đi.
-  question: Shinhwa Water Park có mở cửa mùa đông không?
-- answer: Có, nếu bạn muốn chơi cả theme park và water park. Nếu chỉ chơi water park,
-    nửa ngày cũng đủ.
-  question: Có cần cả ngày không?
-- answer: Rất phù hợp. Khu Larva được thiết kế riêng cho trẻ em, các trò chơi nhẹ
-    nhàng và nhiều màu sắc.
-  question: Shinhwa World có phù hợp trẻ em không?
-image: https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1570488543964-c1d413605328
-internal_links:
-- title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-  url: /posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/
-- title: 'Jungmun Beach Jeju: bãi biển hoạt động nước'
-  url: /posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/
-- title: 'Udo Jeju: đảo nhỏ, biển đá đen'
-  url: /posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/
-- title: 'Caribbean Bay Yongin: công viên nước lớn gần Seoul'
-  url: /posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
+    https://www.shinhwaworld.com/, https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771,
+    https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409.'
 slug: shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Jeju
-- Shinhwa Theme Park
-- công viên nước
-- Shinhwa World
-- series du lịch
-thumbnail: https://images.unsplash.com/photo-1570488543964-c1d413605328?w=800&q=80
-title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun'
+aliases:
+  - /posts/shinhwa-theme-park-jeju-water-slides-v%C3%A0-%C4%91i%E1%BB%83m-ch%C6%A1i-n%C6%B0%E1%BB%9Bc-cho-gia-%C4%91%C3%ACnh-%E1%BB%9F-jungmun/
 ---
 
 Shinhwa Theme Park nằm trong tổ hợp Jeju Shinhwa World rộng lớn ở Andeok-myeon, Seogwipo, phía nam Jeju. Đây không chỉ là theme park với các trò chơi cảm giác mạnh dành cho trẻ em và người lớn, mà còn có khu Shinhwa Water Park riêng — lý tưởng để tránh nóng mùa hè.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè](/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/), Shinhwa đứng thứ 10 và là lựa chọn cho gia đình muốn trải nghiệm cả theme park lẫn công viên nước trong cùng một tổ hợp.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}), Shinhwa đứng thứ 10 và là lựa chọn cho gia đình muốn trải nghiệm cả theme park lẫn công viên nước trong cùng một tổ hợp.
 
 ## Tóm tắt nhanh
 
@@ -129,7 +106,7 @@ Nên đi ngày thường để tránh đông. Nếu đi cuối tuần, đến tr
 
 ## Nên kết hợp với đâu?
 
-- **Jungmun Beach**: Cách Shinhwa World khoảng 10–15 phút đi xe. Bãi biển Jungmun có thể kết hợp nửa ngày. Xem thêm [Jungmun Beach Jeju](/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/).
-- **Udo**: Nếu bạn có 3 ngày Jeju, Udo nên đi vào ngày riêng. Xem thêm [Udo Jeju](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/).
-- **Caribbean Bay**: Nếu bạn đang so sánh hai công viên nước giữa Jeju và Yongin. Xem thêm [Caribbean Bay Yongin](/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/).
-- Xem toàn bộ [danh sách điểm tránh nóng](/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/).
+- **Jungmun Beach**: Cách Shinhwa World khoảng 10–15 phút đi xe. Bãi biển Jungmun có thể kết hợp nửa ngày. Xem thêm [Jungmun Beach Jeju]({{< ref "posts/jungmun-beach-jeju-hoat-dong-nuoc.md" >}}).
+- **Udo**: Nếu bạn có 3 ngày Jeju, Udo nên đi vào ngày riêng. Xem thêm [Udo Jeju]({{< ref "posts/udo-jeju-dao-bien-den-hai-dang-trang.md" >}}).
+- **Caribbean Bay**: Nếu bạn đang so sánh hai công viên nước giữa Jeju và Yongin. Xem thêm [Caribbean Bay Yongin]({{< ref "posts/caribbean-bay-yongin-cong-vien-nuoc.md" >}}).
+- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/han-quoc-mua-he-diem-tranh-nong-duoi-nuoc.md" >}}).

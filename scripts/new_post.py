@@ -9,7 +9,7 @@ import sys
 from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from slug_utils import slugify_vi, url_from_slug
+from slug_utils import slugify_vi
 
 CONTENT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "posts")
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
@@ -61,7 +61,8 @@ def main():
             )
             sys.exit(1)
 
-    slug = slugify_vi(args.title)
+    slug = slugify(args.title)
+    canonical_slug = slugify_vi(args.title)
     date = datetime.now().strftime("%Y-%m-%dT%H:%M:%S+07:00")
     filename = f"{slug}.md"
     filepath = os.path.join(CONTENT_DIR, filename)
@@ -75,6 +76,7 @@ def main():
 title: "{args.title}"
 date: {date}
 description: "{description}"
+slug: {canonical_slug}
 categories: {categories}
 tags: {tags}
 author: "{args.author}"

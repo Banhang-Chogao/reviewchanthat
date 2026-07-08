@@ -35,39 +35,18 @@ external_links:
   url: https://www.royalpalace.go.kr/>
 - title: https://english.visitseoul.net/>
   url: https://english.visitseoul.net/>
-faq:
-- answer: Cuối tuần và mùa cao điểm (tháng 4–5, tháng 10–11) nên đặt trước. Ngày thường
-    có thể đến trực tiếp.
-  question: Có cần đặt trước khi thuê Hanbok không?
-- answer: 'Có hai loại chính: Hanbok truyền thống (vải dày, form rộng) và Hanbok cải
-    tiến (vải nhẹ hơn, ôm hơn, dễ mặc). Người Việt thường chọn Hanbok cải tiến vì
-    thoải mái hơn khi đi bộ.'
-  question: Nên chọn Hanbok kiểu nào?
-- answer: Bukchon Hanok Village, Samcheong-dong, đường ven tường thành Seoul và khu
-    Insa-dong. Tuy nhiên, việc mặc Hanbok không miễn phí vé vào các địa điểm này —
-    chỉ miễn tại 4 cung điện chính.
-  question: Có thể mặc Hanbok đi những đâu khác ngoài cung điện?
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616>, https://www.royalpalace.go.kr/>,
+    https://english.visitseoul.net/>.'
 slug: thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- Hanbok
-- trải nghiệm Hàn Quốc
-- cung điện Seoul
-- chụp ảnh Hàn Quốc
-- series du lịch
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
+aliases:
+  - /posts/thu%C3%AA-hanbok-%E1%BB%9F-seoul-%C4%91i-cung-%C4%91i%E1%BB%87n-l%C3%A0ng-hanok-v%C3%A0-ch%E1%BB%A5p-%E1%BA%A3nh-sao-cho-%C4%91%C3%A1ng-ti%E1%BB%81n/
 ---
 
-Thuê Hanbok dạo cung điện là hoạt động được xếp hạng số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/) của Trip.Best — và không khó hiểu khi đây là trải nghiệm được nhiều du khách Việt Nam yêu thích nhất khi đến Seoul.
+Thuê Hanbok dạo cung điện là hoạt động được xếp hạng số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}) của Trip.Best — và không khó hiểu khi đây là trải nghiệm được nhiều du khách Việt Nam yêu thích nhất khi đến Seoul.
 
 ## Tóm tắt nhanh
 
@@ -115,4 +94,4 @@ Nếu bạn muốn đi thêm Changdeokgung hoặc Bukchon Hanok Village, hãy th
 
 ## Nên kết hợp với đâu?
 
-Sau khi trả Hanbok, bạn có thể đi bộ lên Samcheong-dong để ăn trưa và uống cà phê, hoặc sang [Bukchon Hanok Village](/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/) — khu làng Hanok giữa lòng Seoul. Buổi chiều có thể ghé [chợ Gwangjang](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/) để ăn bánh xèo mung bean và yukhoe. Nếu bạn là fan K-drama, nhiều [địa điểm quay phim](/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/) nằm cách đó không xa.
+Sau khi trả Hanbok, bạn có thể đi bộ lên Samcheong-dong để ăn trưa và uống cà phê, hoặc sang [Bukchon Hanok Village]({{< ref "posts/xem-musical-show-o-seoul.md" >}}) — khu làng Hanok giữa lòng Seoul. Buổi chiều có thể ghé [chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-seoul-busan-jeju.md" >}}) để ăn bánh xèo mung bean và yukhoe. Nếu bạn là fan K-drama, nhiều [địa điểm quay phim]({{< ref "posts/dia-diem-quay-phim-han-quoc-seoul-kdrama.md" >}}) nằm cách đó không xa.

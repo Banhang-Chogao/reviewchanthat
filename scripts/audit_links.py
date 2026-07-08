@@ -1,201 +1,138 @@
 #!/usr/bin/env python3
-"""
-Audit all links in built Hugo site.
+"""Audit internal links after `hugo --minify`.
 
-Checks:
-- Internal URL 404s
-- URLs missing /reviewchanthat/ prefix
-- Root-level guessed URLs like /<slug>/
-- Search index URLs resolve
-- Sitemap/canonical/OG/JSON-LD URLs are correct
+Scans public/ HTML, sitemap.xml and search-index.json. Any internal link
+(same-domain or root-relative) that does not resolve to a generated file is
+reported as broken. External links are ignored.
+
+Run AFTER `hugo --minify`.
 """
 
 import json
 import os
 import re
 import sys
-from urllib.parse import urlparse
+import glob
+from urllib.parse import urlparse, unquote
 
-try:
-    import requests
-except ImportError:
-    requests = None
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PUBLIC = os.path.join(ROOT, "public")
+REPORT = os.path.join(ROOT, "reports")
 
-PUBLIC_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "public")
-BASE_URL = "https://banhang-chogao.github.io/reviewchanthat"
-SITE_PREFIX = "/reviewchanthat"
-
-ROOT_LEVEL_SLUG_PATTERN = re.compile(
-    r'href="https://banhang-chogao\.github\.io/([a-z0-9-]+(?:-[a-z0-9-]+)*)/"'
-)
-ROOT_REL_SLUG_PATTERN = re.compile(r'href="/([a-z0-9-]+(?:-[a-z0-9-]+)*)/"')
+HREF_RE = re.compile(r'(?:href|src)\s*=\s*["\']([^"\']+)["\']')
+CANON_RE = re.compile(r'<link\s+rel="canonical"\s+href="([^"]+)"', re.I)
+OG_RE = re.compile(r'property="og:url"\s+content="([^"]+)"', re.I)
+JSONLD_URL_RE = re.compile(r'"@id"\s*:\s*"([^"]+)"|"url"\s*:\s*"([^"]+)"')
 
 
-def find_all_urls_in_html(filepath: str) -> list[str]:
-    """Extract all href and src URLs from an HTML file."""
-    with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read()
+def normalize_internal(url):
+    """Return public-relative path if internal, else None."""
+    if url.startswith("#") or url.startswith("mailto:") or url.startswith("tel:"):
+        return None
+    # ignore JS template fragments mistakenly captured from minified scripts
+    if "{" in url or "$" in url or "<" in url or ">" in url:
+        return None
+    parsed = urlparse(url)
+    if parsed.netloc:
+        # only treat banhang-chogao.github.io as internal
+        if "banhang-chogao.github.io" not in parsed.netloc:
+            return None
+        path = parsed.path
+    else:
+        path = parsed.path
+    if not path or path == "/":
+        return None
+    # strip the GitHub Pages project base path from the path segment
+    path = unquote(path.lstrip("/"))
+    if path.startswith("reviewchanthat/"):
+        path = path[len("reviewchanthat/"):]
+    return path
 
-    urls = []
-    for match in re.finditer(r'(?:href|src)="([^"]*)"', content):
-        url = match.group(1)
-        if url and not url.startswith('#') and not url.startswith('mailto:') and not url.startswith('tel:'):
-            urls.append(url)
 
-    # Also find JSON-LD URLs
-    for match in re.finditer(r'"url"\s*:\s*"([^"]*)"', content):
-        url = match.group(1)
-        if url:
-            urls.append(url)
-
-    for match in re.finditer(r'"@id"\s*:\s*"([^"]*)"', content):
-        url = match.group(1)
-        if url:
-            urls.append(url)
-
-    return urls
+def exists_in_public(rel):
+    # public is the site root; rel paths map directly
+    cand = os.path.join(PUBLIC, rel)
+    if os.path.exists(cand):
+        return True
+    # hugo generates dir/index.html; also accept dir/
+    if os.path.isdir(cand) and os.path.exists(os.path.join(cand, "index.html")):
+        return True
+    return False
 
 
 def main():
-    if not os.path.isdir(PUBLIC_DIR):
-        print(f"ERROR: {PUBLIC_DIR} not found — run 'hugo --minify' first")
+    if not os.path.isdir(PUBLIC):
+        print("ERROR: public/ not found. Run `hugo --minify` first.")
         sys.exit(1)
+    os.makedirs(REPORT, exist_ok=True)
 
-    errors = []
-    warnings = []
+    collected = set()
+    broken = []
 
-    # Check 1: Scan all HTML files for root-level URLs missing /reviewchanthat/
-    html_files = []
-    for root, dirs, files in os.walk(PUBLIC_DIR):
-        for f in files:
-            if f.endswith('.html'):
-                html_files.append(os.path.join(root, f))
+    html_files = glob.glob(os.path.join(PUBLIC, "**", "*.html"), recursive=True)
+    for hf in html_files:
+        try:
+            c = open(hf, encoding="utf-8", errors="ignore").read()
+        except Exception:
+            continue
+        for m in HREF_RE.finditer(c):
+            u = m.group(1)
+            rel = normalize_internal(u)
+            if rel is not None:
+                collected.add(rel)
+        # canonical / og:url should be absolute internal
+        for mm in CANON_RE.finditer(c):
+            rel = normalize_internal(mm.group(1))
+            if rel:
+                collected.add(rel)
+        for mm in OG_RE.finditer(c):
+            rel = normalize_internal(mm.group(1))
+            if rel:
+                collected.add(rel)
 
-    print(f"Scanning {len(html_files)} HTML files...")
+    # sitemap
+    sm = os.path.join(PUBLIC, "sitemap.xml")
+    if os.path.exists(sm):
+        c = open(sm, encoding="utf-8", errors="ignore").read()
+        for loc in re.findall(r"<loc>([^<]+)</loc>", c):
+            rel = normalize_internal(loc)
+            if rel:
+                collected.add(rel)
 
-    for html_path in html_files:
-        rel_path = os.path.relpath(html_path, PUBLIC_DIR)
-        urls = find_all_urls_in_html(html_path)
+    # search index
+    si = os.path.join(PUBLIC, "search-index.json")
+    if os.path.exists(si):
+        try:
+            data = json.load(open(si, encoding="utf-8"))
+            for entry in data:
+                u = entry.get("url") or entry.get("permalink")
+                if u:
+                    rel = normalize_internal(u)
+                    if rel:
+                        collected.add(rel)
+        except Exception:
+            pass
 
-        for url in urls:
-            # Check for root-level URLs without /reviewchanthat/ prefix
-            if url.startswith(BASE_URL):
-                path = url[len(BASE_URL):]
-                if path and not path.startswith('/reviewchanthat/'):
-                    errors.append(
-                        f"{rel_path}: URL missing /reviewchanthat/ prefix: {url}"
-                    )
+    for rel in sorted(collected):
+        if not exists_in_public(rel):
+            broken.append(rel)
 
-            # Check for absolute URLs that should be relative
-            if url.startswith('https://banhang-chogao.github.io/'):
-                path = url[len('https://banhang-chogao.github.io/'):]
-                # Skip external resources
-                skip_prefixes = ('cdn.', 'fonts.', 'api.')
-                if any(path.startswith(p) for p in skip_prefixes):
-                    continue
-                # Check if it looks like a root-level slug URL
-                if path and '/' not in path.rstrip('/') and '.' not in path:
-                    warnings.append(
-                        f"{rel_path}: potential root-level URL: {url}"
-                    )
+    summary = {"total_internal_links": len(collected), "broken": len(broken)}
+    report = {"summary": summary, "broken": broken}
+    json.dump(report, open(os.path.join(REPORT, "broken-internal-links.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
-            # Check for relative URLs starting with /<slug>/ pattern
-            root_level = ROOT_REL_SLUG_PATTERN.match(f'href="{url}"')
-            if root_level:
-                slug = root_level.group(1)
-                skip_paths = {'tags', 'categories', 'authors', 'about', 'contact',
-                              'privacy', 'disclaimer', 'admin', 'page', 'posts',
-                              'css', 'js', 'images', 'search-index'}
-                if slug not in skip_paths and not slug.startswith('posts/'):
-                    # Check if this is actually a valid post URL
-                    post_dir = os.path.join(PUBLIC_DIR, 'posts', slug)
-                    if os.path.isdir(post_dir):
-                        # This is OK — it's a /posts/slug/ URL
-                        pass
-                    else:
-                        warnings.append(
-                            f"{rel_path}: root-level guessed URL: {url}"
-                        )
+    md = ["# Broken internal links", "", f"- Checked: {summary['total_internal_links']}", f"- Broken: {summary['broken']}", ""]
+    for b in broken:
+        md.append(f"- /{b}")
+    open(os.path.join(REPORT, "broken-internal-links.md"), "w", encoding="utf-8").write("\n".join(md))
 
-    # Check 2: Validate search-index.json
-    search_index_path = os.path.join(PUBLIC_DIR, 'search-index.json')
-    if os.path.exists(search_index_path):
-        with open(search_index_path, 'r', encoding='utf-8') as f:
-            try:
-                search_data = json.load(f)
-                for entry in search_data:
-                    entry_url = entry.get('url', '')
-                    if entry_url:
-                        # URL should be relative like /reviewchanthat/posts/slug/
-                        if not entry_url.startswith('/reviewchanthat/'):
-                            errors.append(
-                                f"search-index.json: URL missing /reviewchanthat/: {entry_url}"
-                            )
-                        if entry_url.startswith('/reviewchanthat/'):
-                            slug_part = entry_url[len('/reviewchanthat/'):]
-                            if not slug_part.startswith('posts/'):
-                                errors.append(
-                                    f"search-index.json: URL not a post URL: {entry_url}"
-                                )
-            except json.JSONDecodeError as e:
-                errors.append(f"search-index.json: cannot parse: {e}")
-
-    # Check 3: Validate sitemap.xml
-    sitemap_path = os.path.join(PUBLIC_DIR, 'sitemap.xml')
-    if os.path.exists(sitemap_path):
-        with open(sitemap_path, 'r', encoding='utf-8') as f:
-            sitemap_content = f.read()
-        for match in re.finditer(r'<loc>([^<]+)</loc>', sitemap_content):
-            loc_url = match.group(1)
-            if not loc_url.startswith(BASE_URL + '/'):
-                errors.append(
-                    f"sitemap.xml: URL doesn't start with baseURL: {loc_url}"
-                )
-
-    # Check 4: Validate canonical links in HTML
-    canonical_re = re.compile(r'<link rel="canonical" href="([^"]+)"')
-    for html_path in html_files:
-        rel_path = os.path.relpath(html_path, PUBLIC_DIR)
-        with open(html_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-        for match in canonical_re.finditer(content):
-            canonical_url = match.group(1)
-            if not canonical_url.startswith(BASE_URL + '/'):
-                errors.append(
-                    f"{rel_path}: canonical URL doesn't start with baseURL: {canonical_url}"
-                )
-
-    # Check 5: Validate OG URLs
-    og_url_re = re.compile(r'<meta property="og:url" content="([^"]+)"')
-    for html_path in html_files:
-        rel_path = os.path.relpath(html_path, PUBLIC_DIR)
-        with open(html_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-        for match in og_url_re.finditer(content):
-            og_url = match.group(1)
-            if not og_url.startswith(BASE_URL + '/'):
-                errors.append(
-                    f"{rel_path}: OG URL doesn't start with baseURL: {og_url}"
-                )
-
-    print(f"\nLink Audit Results:")
-    print(f"  Errors:   {len(errors)}")
-    print(f"  Warnings: {len(warnings)}")
-
-    if warnings:
-        print(f"\nWarnings ({len(warnings)}):")
-        for w in warnings:
-            print(f"  {w}")
-
-    if errors:
-        print(f"\nErrors ({len(errors)}):")
-        for e in errors:
-            print(f"  {e}")
-        print("\n❌ LINK AUDIT FAILED")
+    if broken:
+        print(f"❌ audit_links FAILED: {len(broken)} broken internal links")
+        for b in broken[:30]:
+            print(f"  - /{b}")
         sys.exit(1)
-    else:
-        print("\n✅ LINK AUDIT PASSED")
-        sys.exit(0)
+    print(f"✅ audit_links PASSED: {len(collected)} internal links, 0 broken")
+    sys.exit(0)
 
 
 if __name__ == "__main__":

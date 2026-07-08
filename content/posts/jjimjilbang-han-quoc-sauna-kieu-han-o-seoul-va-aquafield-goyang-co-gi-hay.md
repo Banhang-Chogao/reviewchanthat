@@ -35,37 +35,18 @@ external_links:
   url: https://english.visitseoul.net/>
 - title: https://www.aquafield.kr/>
   url: https://www.aquafield.kr/>
-faq:
-- answer: 'Không. Các jjimjilbang lớn (Sparex, Aquafield) có hướng dẫn bằng tiếng
-    Anh. Bạn chỉ cần làm theo quy trình: nhận đồng phục → cất giày → tắm → xông hơi.'
-  question: Có cần biết tiếng Hàn để đi jjimjilbang không?
-- answer: Có. Aquafield Goyang có khu riêng cho gia đình. Tuy nhiên, phòng xông nhiệt
-    độ cao (60–80°C) không phù hợp với trẻ nhỏ.
-  question: Jjimjilbang có an toàn cho trẻ em không?
-- answer: Sparex Dongdaemun cho phép nghỉ qua đêm và có phòng ngủ tập thể. Aquafield
-    Goyang không phải là chỗ ngủ qua đêm.
-  question: Có nên ngủ lại jjimjilbang qua đêm không?
-image: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-image_commercial_use: true
-image_license: Unsplash License
-image_owner: external
-image_source: Unsplash
-image_source_url: https://unsplash.com/photos/1534274988757-a28bf1a57c17
+attribution:
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
+    https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>,
+    https://english.visitseoul.net/>, https://www.aquafield.kr/>.'
 slug: jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- jjimjilbang
-- sauna Hàn Quốc
-- Aquafield Goyang
-- spa Hàn Quốc
-- series du lịch
-thumbnail: https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=800&q=80
-title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?'
+aliases:
+  - /posts/jjimjilbang-h%C3%A0n-qu%E1%BB%91c-sauna-ki%E1%BB%83u-h%C3%A0n-%E1%BB%9F-seoul-v%C3%A0-aquafield-goyang-c%C3%B3-g%C3%AC-hay/
 ---
 
-Jjimjilbang — nhà tắm hơi kiểu Hàn — là một phần không thể thiếu của văn hóa Hàn Quốc. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026](/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa "phải thử" khi đến Hàn.
+Jjimjilbang — nhà tắm hơi kiểu Hàn — là một phần không thể thiếu của văn hóa Hàn Quốc. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-du-lich-han-quoc-2026.md" >}}), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa "phải thử" khi đến Hàn.
 
 ## Tóm tắt nhanh
 
@@ -117,4 +98,4 @@ Aquafield Goyang mở cửa quanh năm. Cuối tuần và ngày lễ rất đôn
 
 ## Nên kết hợp với đâu?
 
-Aquafield Goyang nằm trong Starfield Mall — bạn có thể kết hợp mua sắm trước hoặc sau khi spa. Gần đó là [Gwangmyeong Cave](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/), đi thêm 20 phút tàu điện. Nếu bạn đang ở Seoul, kết hợp Aquafield với một ngày đi [Incheon hoặc Wolmido](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/).
+Aquafield Goyang nằm trong Starfield Mall — bạn có thể kết hợp mua sắm trước hoặc sau khi spa. Gần đó là [Gwangmyeong Cave]({{< ref "posts/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay.md" >}}), đi thêm 20 phút tàu điện. Nếu bạn đang ở Seoul, kết hợp Aquafield với một ngày đi [Incheon hoặc Wolmido]({{< ref "posts/incheon-yongin-gan-seoul-wolmido-chinatown-caribbean-bay.md" >}}).
