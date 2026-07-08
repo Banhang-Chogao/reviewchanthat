@@ -61,6 +61,7 @@ tags:
 - infinity pool
 - series du lịch
 thumbnail: images/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.webp
+series: du-lich
 title: 'Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng'
 tom_tat_nhanh:
 - label: Khu vực

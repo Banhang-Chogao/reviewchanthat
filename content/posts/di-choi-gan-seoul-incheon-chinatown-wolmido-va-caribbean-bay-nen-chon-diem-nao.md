@@ -53,6 +53,7 @@ tags:
 - day trip Seoul
 - series du lịch
 thumbnail: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
+series: du-lich
 title: 'Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm
   nào?'
 tom_tat_nhanh:

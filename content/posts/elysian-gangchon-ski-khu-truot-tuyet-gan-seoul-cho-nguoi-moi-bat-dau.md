@@ -64,6 +64,7 @@ tags:
 - gangwon-do
 - series trượt tuyết
 thumbnail: images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp
+series: truot-tuyet
 title: 'Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu'
 tom_tat_nhanh:
 - label: Khu vực

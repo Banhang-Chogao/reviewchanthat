@@ -64,6 +64,7 @@ tags:
 - gangwon-do
 - series trượt tuyết
 thumbnail: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
+series: truot-tuyet
 title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju'
 tom_tat_nhanh:
 - label: Khu vực

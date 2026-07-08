@@ -1,0 +1,40 @@
+{{ $seriesPages := where site.RegularPages ".Params.series" "!=" nil }}
+{{ $seriesSlugs := slice }}
+{{ range $seriesPages }}
+  {{ if not (in $seriesSlugs .Params.series) }}
+    {{ $seriesSlugs = $seriesSlugs | append .Params.series }}
+  {{ end }}
+{{ end }}
+{{ $sorted := slice }}
+{{ range site.Data.series.items }}
+  {{ if in $seriesSlugs .slug }}
+    {{ $sorted = $sorted | append . }}
+  {{ end }}
+{{ end }}
+{{ if $sorted }}
+<section class="series-section">
+  <div class="series-section__inner">
+    <header class="series-section__header">
+      <h2 class="series-section__title">Danh sách Series</h2>
+      <p class="series-section__subtitle">Tổng hợp bài viết theo chủ đề — đọc liền mạch từ đầu đến cuối.</p>
+    </header>
+    <div class="series-section__grid">
+      {{ range $sorted }}
+        {{ $slug := .slug }}
+        {{ $count := len (where $seriesPages ".Params.series" $slug) }}
+        <a href="{{ "/series/" | relURL }}{{ $slug }}/" class="series-card series-card--slim">
+          <div class="series-card__body">
+            <h3 class="series-card__title">{{ .label }}</h3>
+            <p class="series-card__desc">{{ .description }}</p>
+            <span class="series-card__count">{{ $count }} bài viết</span>
+          </div>
+          <span class="series-card__arrow" aria-hidden="true">→</span>
+        </a>
+      {{ end }}
+    </div>
+    <footer class="series-section__footer">
+      <a href="{{ "/series/" | relURL }}" class="series-section__all">Xem tất cả series →</a>
+    </footer>
+  </div>
+</section>
+{{ end }}

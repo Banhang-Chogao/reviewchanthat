@@ -26,11 +26,13 @@ disableKinds = []
   category = "categories"
   tag = "tags"
   author = "authors"
+  series = "series"
 
 [permalinks]
   posts = "/posts/:slug/"
   categories = "/:slug/"
   tags = "/tags/:slug/"
+  series = "/series/:slug/"
 
 [markup]
   [markup.goldmark]

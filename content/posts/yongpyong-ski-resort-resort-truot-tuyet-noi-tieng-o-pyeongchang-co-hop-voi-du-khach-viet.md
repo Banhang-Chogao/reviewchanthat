@@ -66,6 +66,7 @@ tags:
 - gangwon-do
 - series trượt tuyết
 thumbnail: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
+series: truot-tuyet
 title: 'Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với
   du khách Việt?'
 tom_tat_nhanh:

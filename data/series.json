@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "slug": "du-lich",
+      "label": "Du lịch Hàn Quốc 2026",
+      "description": "Hành trình khám phá Hàn Quốc từ A đến Z — kinh nghiệm, lịch trình tự túc, ăn uống, mua sắm và những điểm đến không thể bỏ lỡ.",
+      "order": 10
+    },
+    {
+      "slug": "truot-tuyet",
+      "label": "Trượt tuyết Hàn Quốc",
+      "description": "Cẩm nang trượt tuyết cho người mới bắt đầu — địa điểm, chi phí, mẹo chọn khu nghỉ dưỡng và kinh nghiệm thực tế.",
+      "order": 20
+    }
+  ]
+}

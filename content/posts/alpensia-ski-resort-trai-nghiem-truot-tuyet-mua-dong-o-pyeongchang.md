@@ -63,6 +63,7 @@ tags:
 - gangwon-do
 - series trượt tuyết
 thumbnail: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
+series: truot-tuyet
 title: 'Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang'
 tom_tat_nhanh:
 - label: Khu vực

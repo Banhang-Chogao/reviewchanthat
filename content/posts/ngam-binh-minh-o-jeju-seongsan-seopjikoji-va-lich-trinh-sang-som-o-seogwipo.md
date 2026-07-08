@@ -49,6 +49,7 @@ tags:
 - Seopjikoji
 - series du lịch
 thumbnail: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
+series: du-lich
 title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo'
 tom_tat_nhanh:
 - label: Khu vực

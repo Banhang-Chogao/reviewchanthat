@@ -61,6 +61,7 @@ tags:
 - Chuncheon
 - series du lịch
 thumbnail: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
+series: du-lich
 title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió
   sông'
 tom_tat_nhanh:

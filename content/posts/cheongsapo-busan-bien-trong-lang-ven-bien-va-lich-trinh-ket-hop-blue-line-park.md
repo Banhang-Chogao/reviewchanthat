@@ -63,6 +63,7 @@ tags:
 - Haeundae
 - series du lịch
 thumbnail: images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp
+series: du-lich
 title: 'Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line
   Park'
 tom_tat_nhanh:

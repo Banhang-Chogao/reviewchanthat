@@ -64,6 +64,7 @@ tags:
 - Sky 1340
 - series trượt tuyết
 thumbnail: images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp
+series: truot-tuyet
 title: 'High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn
   Quốc'
 tom_tat_nhanh:

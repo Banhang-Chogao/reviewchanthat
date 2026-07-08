@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="container">
+  {{ partial "breadcrumb.html" . }}
+  {{ $slug := .Data.Term }}
+  {{ $info := dict }}
+  {{ with site.Data.series.items }}
+    {{ range . }}
+      {{ if eq .slug $slug }}
+        {{ $info = . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  <section class="series-detail">
+    <header class="series-detail__header">
+      <h1 class="series-detail__title">{{ with $info.label }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+      {{ with $info.description }}
+      <p class="series-detail__desc">{{ . }}</p>
+      {{ end }}
+      <p class="series-detail__meta">{{ len .Pages }} bài viết trong series</p>
+    </header>
+    <div class="series-detail__list">
+      {{ range .Pages }}
+        {{ .Render "category-post-row" }}
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

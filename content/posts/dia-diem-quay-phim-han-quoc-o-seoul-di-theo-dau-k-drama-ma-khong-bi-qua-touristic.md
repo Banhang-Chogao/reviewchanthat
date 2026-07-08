@@ -47,6 +47,7 @@ tags:
 - Reborn Rich
 - series du lịch
 thumbnail: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
+series: du-lich
 title: 'Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic'
 tom_tat_nhanh:
 - label: Khu vực

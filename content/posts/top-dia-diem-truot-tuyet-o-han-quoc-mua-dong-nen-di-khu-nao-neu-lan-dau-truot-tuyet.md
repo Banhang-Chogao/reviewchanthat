@@ -85,6 +85,7 @@ tags:
 - beginner ski
 - series trượt tuyết
 thumbnail: images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp
+series: truot-tuyet
 title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt
   tuyết?'
 tom_tat_nhanh:

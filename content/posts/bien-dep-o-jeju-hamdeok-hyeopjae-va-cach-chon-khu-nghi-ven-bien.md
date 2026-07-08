@@ -48,6 +48,7 @@ tags:
 - resort Jeju
 - series du lịch
 thumbnail: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
+series: du-lich
 title: 'Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển'
 tom_tat_nhanh:
 - label: Khu vực

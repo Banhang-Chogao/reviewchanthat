@@ -128,6 +128,7 @@ tags:
 - ẩm thực Hàn Quốc
 - series du lịch
 thumbnail: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
+series: du-lich
 title: 'Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và
   gần Seoul?'
 tom_tat_nhanh:

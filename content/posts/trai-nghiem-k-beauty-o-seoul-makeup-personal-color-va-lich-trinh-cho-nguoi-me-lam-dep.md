@@ -47,6 +47,7 @@ tags:
 - mỹ phẩm Hàn Quốc
 - series du lịch
 thumbnail: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
+series: du-lich
 title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người
   mê làm đẹp'
 tom_tat_nhanh:

@@ -62,6 +62,7 @@ tags:
 - gangwon-do
 - series trượt tuyết
 thumbnail: images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp
+series: truot-tuyet
 title: 'Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?'
 tom_tat_nhanh:
 - label: Khu vực

@@ -51,6 +51,7 @@ tags:
 - spa Hàn Quốc
 - series du lịch
 thumbnail: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
+series: du-lich
 title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?'
 tom_tat_nhanh:
 - label: Khu vực

@@ -70,6 +70,7 @@ tags:
 - biển Hàn Quốc
 - series du lịch
 thumbnail: images/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.webp
+series: du-lich
 title: 'Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày'
 tom_tat_nhanh:
 - label: Khu vực

@@ -58,6 +58,7 @@ tags:
 - gia đình
 - series du lịch
 thumbnail: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
+series: du-lich
 title: 'Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình'
 tom_tat_nhanh:
 - label: Khu vực

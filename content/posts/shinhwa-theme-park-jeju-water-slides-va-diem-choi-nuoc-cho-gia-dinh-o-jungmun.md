@@ -72,6 +72,7 @@ tags:
 - Shinhwa World
 - series du lịch
 thumbnail: images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp
+series: du-lich
 title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun'
 tom_tat_nhanh:
 - label: Khu vực

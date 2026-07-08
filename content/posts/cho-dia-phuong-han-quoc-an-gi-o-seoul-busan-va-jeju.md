@@ -53,6 +53,7 @@ tags:
 - chợ Hàn Quốc
 - series du lịch
 thumbnail: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
+series: du-lich
 title: 'Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?'
 tom_tat_nhanh:
 - label: Khu vực

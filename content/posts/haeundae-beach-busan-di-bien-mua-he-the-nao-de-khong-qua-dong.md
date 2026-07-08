@@ -66,6 +66,7 @@ tags:
 - biển Hàn Quốc
 - series du lịch
 thumbnail: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
+series: du-lich
 title: 'Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?'
 tom_tat_nhanh:
 - label: Khu vực
