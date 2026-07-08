@@ -55,8 +55,6 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju
-
-  - /posts/ch%E1%BB%A3-%C4%91%E1%BB%8Ba-ph%C6%B0%C6%A1ng-h%C3%A0n-qu%E1%BB%91c-%C4%83n-g%C3%AC-%E1%BB%9F-seoul-busan-v%C3%A0-jeju/
 ---
 
 Một trong những điểm thú vị của danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best là chủ đề "chợ địa phương" xuất hiện đến 3 lần: chợ Seoul, chợ Busan và chợ Jeju. Điều này phản ánh đúng sở thích của du khách — muốn ăn uống và mua sắm như người địa phương, không chỉ ở các khu trung tâm thương mại.

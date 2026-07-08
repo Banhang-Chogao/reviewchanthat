@@ -46,6 +46,13 @@ image_license: Unsplash License
 image_commercial_use: true
 image_owner: external
 slug: elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau
+internal_links:
+- title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông'
+  ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
+- title: 'Vivaldi Park Ski World'
+  ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
+- title: 'Oak Valley'
+  ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
 ---
 
 Elysian Gangchon Ski Resort là ski resort gần Seoul nhất, nổi tiếng với khả năng tiếp cận dễ dàng bằng tàu điện. Nếu bạn muốn trải nghiệm trượt tuyết mà không muốn mất nửa ngày di chuyển, đây là lựa chọn đáng cân nhắc đầu tiên.
@@ -101,8 +108,3 @@ Nếu có ô tô, bạn có thể kết hợp ghé Chuncheon ăn dakgalbi (gà x
 - Đồ giữ nhiệt, găng tay chống nước, kính trượt
 - Bảo hiểm du lịch
 
-## Link nội bộ
-
-Xem thêm bài tổng hợp [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông]({{< ref "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md" >}}).
-
-Resort gần Seoul tương tự: [Vivaldi Park Ski World]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}), [Oak Valley]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}}).
