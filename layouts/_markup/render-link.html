@@ -1,0 +1,11 @@
+{{- $href := .Destination | safeURL -}}
+{{- if and (strings.HasPrefix $href "/") (not (strings.HasPrefix $href "//")) -}}
+  {{- $slug := $href | strings.TrimPrefix "/" | strings.TrimPrefix "posts/" | strings.TrimSuffix "/" -}}
+  {{- $target := site.GetPage (path.Join "posts" $slug) -}}
+  {{- if $target -}}
+    {{- $href = $target.RelPermalink -}}
+  {{- else -}}
+    {{- $href = $href | strings.TrimPrefix "/" | relURL -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $href }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>

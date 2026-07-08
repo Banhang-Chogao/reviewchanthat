@@ -55,6 +55,12 @@ jobs:
       - name: Build search index
         run: python scripts/build_search_index.py
 
+      - name: Content quality controller
+        run: 'python scripts/content_controller.py --changed-only || echo "WARN: content controller check failed"'
+
+      - name: Link audit
+        run: python scripts/audit_links.py
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

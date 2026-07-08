@@ -15,6 +15,7 @@ import json
 import os
 import re
 from pathlib import Path
+from urllib.parse import urlparse
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -22,7 +23,19 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SRC_DIR = REPO_ROOT / "static" / "images" / "posts-src"
 OUT_DIR = REPO_ROOT / "static" / "images" / "posts"
 MANIFEST_PATH = REPO_ROOT / "data" / "images.json"
-BLOG_URL = "https://banhang-chogao.github.io/reviewchanthat/"
+
+
+def load_blog_url() -> str:
+    try:
+        import tomllib
+        with open(REPO_ROOT / "hugo.toml", "rb") as f:
+            cfg = tomllib.load(f)
+        return cfg.get("baseURL", "https://banhang-chogao.github.io/reviewchanthat/")
+    except Exception:
+        return "https://banhang-chogao.github.io/reviewchanthat/"
+
+
+BLOG_URL = load_blog_url()
 
 PRESETS = {
     "hero": (800, 450),
