@@ -21,10 +21,47 @@ IMAGES_MANIFEST_PATH = "data/images.json"
 POSTS_SRC_DIR = "static/images/posts-src"
 POSTS_DIR = "static/images/posts"
 CONTENT_DIR = "content/posts"
+SITE_BASE_URL = "https://banhang-chogao.github.io/reviewchanthat"
+SELF_SOURCE_PLATFORMS = {"self", "self-owned"}
 
 
 def watermark_attribution(source, creator):
     return attribution_text(source, creator)
+
+
+def normalized(value):
+    return clean_text(str(value)).lower()
+
+
+def is_self_owned_entry(entry):
+    platform = normalized(entry.get("source_platform", ""))
+    license_val = normalized(entry.get("license", ""))
+    return platform in SELF_SOURCE_PLATFORMS or license_val in SELF_SOURCE_PLATFORMS
+
+
+def resolve_image_attribution(entry):
+    """Map manifest entry to frontmatter image fields."""
+    source_platform = clean_text(entry.get("source_platform", ""))
+    source_url = clean_text(entry.get("source_url", ""))
+    license_val = entry.get("license", "")
+
+    if is_self_owned_entry(entry):
+        src_path = clean_text(entry.get("local_source_path", ""))
+        if not source_url and src_path.startswith("static/"):
+            source_url = f"{SITE_BASE_URL}/{src_path.removeprefix('static/')}"
+        return {
+            "source": "self",
+            "source_url": source_url,
+            "owner": "self",
+            "license_val": license_val or "Self-owned",
+        }
+
+    return {
+        "source": source_platform,
+        "source_url": source_url,
+        "owner": "external",
+        "license_val": license_val,
+    }
 
 
 def load_manifest():
@@ -192,15 +229,20 @@ def main():
         direct_url = entry.get("direct_url", "")
         src_path = entry.get("local_source_path", f"static/images/posts-src/{slug}.jpg")
         dest_path = entry.get("output_path", f"static/images/posts/{slug}.webp")
-        source = entry.get("source_platform", "")
-        source_url = entry.get("source_url", "")
-        license_val = entry.get("license", "")
+        attribution = resolve_image_attribution(entry)
+        source = attribution["source"]
+        source_url = attribution["source_url"]
+        license_val = attribution["license_val"]
+        owner = attribution["owner"]
         commercial = entry.get("commercial_use", False)
         creator, creator_url = sanitize_creator_pair(
             entry.get("creator", ""),
             entry.get("creator_url", ""),
         )
-        watermark = watermark_attribution(source, creator)
+        watermark = entry.get("watermark_text") or watermark_attribution(
+            entry.get("source_platform", source),
+            creator,
+        )
 
         print(f"\n  [{slug}]")
 
@@ -222,7 +264,7 @@ def main():
                     source_url=source_url,
                     license_val=license_val,
                     commercial_use=commercial,
-                    owner="external",
+                    owner=owner,
                     creator=creator,
                     creator_url=creator_url,
                 )
@@ -268,7 +310,7 @@ def main():
             source_url=source_url,
             license_val=license_val,
             commercial_use=commercial,
-            owner="external",
+            owner=owner,
             creator=creator,
             creator_url=creator_url,
         )

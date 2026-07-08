@@ -9,8 +9,8 @@ ai_summary:
     gatekeeper khác, cộng quyền giám sát liên tục theo DMA.
   - 'Rủi ro cho EC: kháng cáo kéo dài, cáo buộc phạt Mỹ, và kết quả thị trường chưa
     chứng minh giá app giảm hoặc đổi mới tăng mạnh.'
-  - Người theo dõi VN nên xem DMA như mô hình luật nền tảng — có thể ảnh hưởng
-    tranh luận quản trị app store tại châu Á.
+  - Người theo dõi VN nên xem DMA như mô hình luật nền tảng — có thể ảnh hưởng tranh
+    luận quản trị app store tại châu Á.
   title: Tóm tắt bài viết
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
@@ -18,8 +18,8 @@ categories:
 - cong-nghe
 date: 2026-07-08 11:00:00+07:00
 description: 'EC được gì khi thắng Apple trong tranh chấp DMA: tiền phạt, tiền lệ
-  pháp lý, quyền giám sát gatekeeper — và những rủi ro chính trị, thị trường EC
-  phải gánh.'
+  pháp lý, quyền giám sát gatekeeper — và những rủi ro chính trị, thị trường EC phải
+  gánh.'
 draft: false
 external_links:
 - title: EC — Apple và Meta vi phạm DMA (23/4/2025)
@@ -35,7 +35,7 @@ image_creator_url: ''
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/european-union-flag-4173239/
+image_source_url: https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/
 series: apple-ec-dma-app-store-ios
 series_order: 7
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
@@ -48,8 +48,8 @@ tags:
 - anti-steering
 - luật chống độc quyền
 thumbnail: images/posts/european-commission-duoc-gi-khi-thang-apple.webp
-title: 'European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền
-  lực mới'
+title: European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực
+  mới
 tom_tat_nhanh:
 - label: Chủ đề
   value: Lợi ích chiến lược EC trong vụ Apple DMA
