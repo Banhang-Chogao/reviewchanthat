@@ -66,68 +66,52 @@ image_owner: external
 slug: nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song
 ---
 
-Khi nhắc đến Nami Island, nhiều người nghĩ ngay đến _Winter Sonata_ và mùa thu lá vàng. Nhưng Nami Island mùa hè lại có một sức hút khác: những tán cây Metasequoia cao vút xanh mướt che bóng mát, gió thổi từ sông Bukhan mát rượi — khác hẳn cái nóng oi bức ở Seoul.
+Ai cũng biết Nami Island mùa thu lá vàng đẹp như phim _Winter Sonata_. Nhưng theo mình, Nami mùa hè mới thực sự là chốn tránh nóng lý tưởng — tán Metasequoia xanh mướt che kín lối đi, gió từ sông Bukhan thổi lồng lộng, khác hẳn cái oi bức ở Seoul.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Nami Island đứng thứ 5 và là lựa chọn hàng đầu cho nhóm day trip gần Seoul.
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Nami đứng thứ 5. Mình nghĩ nó xứng đáng cao hơn nếu tính riêng nhóm day trip gần Seoul.
 
-## Tóm tắt nhanh
+## Có gì ở Nami Island mùa hè?
 
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Chuncheon, Gangwon-do |
-| Loại trải nghiệm | Đảo, thiên nhiên, đi bộ, xe đạp |
-| Hợp với | Gia đình, cặp đôi, nhóm bạn |
-| Thời gian nên dành | Nửa ngày đến một ngày |
-| Lưu ý mùa hè | Vẫn nóng nếu đi giữa trưa, nên đi sớm và mang nước |
+**Metasequoia Road** — con đường hai bên cây cao vút, xanh mướt. Đây là nơi chụp ảnh đẹp nhất và cũng mát nhất nhờ bóng rợp. Đi giữa trưa cũng không quá nóng.
 
-## Có gì đáng đi?
+**Zipline vào đảo** — bay từ đất liền vào đảo cao 80 m, view toàn cảnh dòng sông. Chỉ 1,5 phút nhưng cảm giác phê lắm. Vé hơi mắc (38.000 KRW) so với ferry (11.000 KRW), nhưng đáng để thử một lần.
 
-**Metasequoia Road**: Con đường hai bên là cây Metasequoia cao chót vót, xanh mướt vào mùa hè. Đây là nơi chụp ảnh đẹp nhất trên đảo và cũng là góc mát nhất nhờ bóng cây rợp.
+**Xe đạp vòng quanh đảo** — đường bằng phẳng, mát dưới tán cây. Có xe đơn, xe đôi, xe điện. Thuê một chiếc đạp vài vòng là cách tận hưởng Nami đúng kiểu nhất.
 
-**Zipline vào đảo**: Có thể bay zipline từ đất liền vào đảo Nami với độ cao 80 m và tầm nhìn toàn cảnh dòng sông. Chỉ mất khoảng 1,5 phút nhưng là trải nghiệm đáng nhớ.
+**Gió sông** — toàn bộ đảo bao quanh bởi sông Bukhan, gió thổi đều khắp nơi. Đây là lý do chính khiến Nami mát hơn Seoul dù chỉ cách có 1,5 giờ.
 
-**Xe đạp vòng quanh đảo**: Thuê xe đạp đơn, đôi hoặc xe điện chạy vòng quanh đảo. Đường nhỏ, bằng phẳng, mát dưới tán cây.
+## Khi nào nên đi?
 
-**Gió sông**: Toàn bộ đảo được bao quanh bởi sông Bukhan, gió thổi đều quanh đảo. Đây là lý do chính khiến Nami mát mẻ hơn Seoul dù nằm gần.
+Mùa hè (tháng 6–8) cây xanh nhất, nhưng nếu bạn muốn tránh nóng tối đa, tháng 5 hoặc tháng 9 nhiệt độ dễ chịu hơn.
 
-## Nên đi khi nào?
+Trong ngày, đi chuyến ITX đầu tiên (7:30–8:00 từ Seoul) để đến đảo trước 10:00. Đây là khung giờ vắng và mát nhất. Từ 11:00 trở đi, đặc biệt cuối tuần, Metasequoia Road sẽ đông như Haeundae mùa hè.
 
-Nami Island đẹp quanh năm nhưng mùa hè (tháng 6–8) là mùa cây xanh nhất. Nếu muốn tránh nóng tối đa, đi vào tháng 5 hoặc tháng 9 khi nhiệt độ còn dễ chịu.
+## Di chuyển thế nào?
 
-Trong ngày, nên đi chuyến đầu (7:30–8:00 từ Seoul) để đến đảo trước 10:00. Đây là khung giờ mát và vắng nhất.
+Đi ITX từ ga Yongsan hoặc Cheongnyangni đến Gapyeong (khoảng 1 giờ), rồi taxi hoặc bus shuttle 5 phút ra bến tàu. Ferry hoặc zipline vào đảo.
 
-## Cách đi gợi ý
+Giá vé ferry khứ hồi 11.000 KRW/người lớn. Zipline một chiều 38.000 KRW.
 
-**Cách 1: ITX — Gapyeong Station**
-- Từ ga Yongsan hoặc Cheongnyangni, đi ITX Chuncheon đến ga Gapyeong (khoảng 1 giờ).
-- Từ Gapyeong, đi taxi đến bến tàu Nami (5 phút) hoặc bus shuttle.
-
-**Cách 2: Tour day trip**
-- Nhiều công ty du lịch Hàn Quốc tổ chức tour Nami Island + Petite France + Garden of Morning Calm.
-
-**Vào đảo:**
-- Ferry: Vé khứ hồi khoảng 11.000 KRW/người lớn.
-- Zipline: Vé một chiều khoảng 38.000 KRW.
-
-## Lịch trình một ngày gợi ý
+## Lịch trình một ngày
 
 - 8:00: Rời Seoul bằng ITX
-- 9:30: Đến Gapyeong, bắt ferry hoặc zipline vào Nami Island
-- 10:00–12:30: Đi bộ, đạp xe vòng quanh đảo
-- 12:30: Ăn trưa tại nhà hàng trên đảo
-- 13:30: Ghé Petite France (cách 15 phút)
-- 15:00: Tham quan Garden of Morning Calm
-- 17:00: Quay về Seoul
+- 9:30: Đến Gapyeong, ferry hoặc zipline vào đảo
+- 10:00–12:30: Đi bộ, đạp xe vòng quanh
+- 12:30: Ăn trưa trên đảo
+- 13:30: Ghé Petite France
+- 15:00: Garden of Morning Calm
+- 17:00: Về Seoul
 
-## Lưu ý
+## Mấy cái cần biết
 
-- **Nước uống**: Trên đảo có bán nước nhưng giá cao hơn. Nên mang theo ít nhất 1 chai nước mát.
-- **Giày**: Đi bộ nhiều, nên mang giày thể thao.
-- **Passport**: Có thể cần khi mua vé ferry và vé zipline.
-- **Điểm đông**: Khu Metasequoia Road và khu vực trung tâm đảo rất đông vào cuối tuần.
+Mang nước uống theo — trên đảo bán nhưng giá cao hơn. Đi giày thể thao vì đi bộ nhiều. Passport có thể cần khi mua vé ferry và zipline.
 
-## Nên kết hợp với đâu?
+Nếu bạn đi cuối tuần, chuẩn bị tinh thần chen chúc ở Metasequoia Road và khu trung tâm đảo.
 
-- **Wolmido**: Nếu bạn muốn thêm một điểm gần Seoul, Wolmido ở Incheon có thể kết hợp trong một hành trình. Xem thêm [Wolmido Incheon]({{< ref "posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md" >}}).
-- **Caribbean Bay**: Nếu đi cùng gia đình, công viên nước Caribbean Bay ở Yongin là lựa chọn tốt. Xem thêm [Caribbean Bay Yongin]({{< ref "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md" >}}).
-- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}) để lên lịch đầy đủ.
+## Kết hợp với đâu?
+
+Wolmido là điểm kết hợp tốt — Nami cho buổi sáng thiên nhiên, Wolmido cho chiều tối ven biển. Xem thêm [Wolmido Incheon]({{< ref "posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md" >}}).
+
+Nếu đi gia đình, [Caribbean Bay Yongin]({{< ref "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md" >}}) cũng dễ dàng kết hợp.
+
+Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}) để lên lịch đầy đủ.

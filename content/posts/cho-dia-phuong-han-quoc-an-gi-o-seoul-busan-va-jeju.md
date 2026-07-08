@@ -57,63 +57,28 @@ image_owner: external
 slug: cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju
 ---
 
-Một trong những điểm thú vị của danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best là chủ đề "chợ địa phương" xuất hiện đến 3 lần: chợ Seoul, chợ Busan và chợ Jeju. Điều này phản ánh đúng sở thích của du khách — muốn ăn uống và mua sắm như người địa phương, không chỉ ở các khu trung tâm thương mại.
+Một điều thú vị mình để ý trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) là chủ đề "chợ địa phương" xuất hiện tới 3 lần — Seoul, Busan và Jeju. Nói lên rằng du khách bây giờ muốn ăn uống và mua sắm như người địa phương, chứ không chỉ la cà trung tâm thương mại.
 
-## Tóm tắt nhanh
+**Seoul — Gwangjang Market vs Namdaemun**
 
-| Mục | Thông tin |
-|-----|-----------|
-| Khu vực | Seoul (Gwangjang, Namdaemun), Busan (Jagalchi, Gukje), Jeju (Dongmun) |
-| Loại trải nghiệm | Ẩm thực, mua sắm, văn hóa |
-| Hợp với | Ai cũng hợp, nhất là thích ăn uống |
-| Thời gian nên dành | 1–3 giờ/chợ |
-| Đi mùa nào hợp | Quanh năm |
-| Có cần đặt trước không | Không |
+Gwangjang là chợ lâu đời nhất Seoul (từ 1905), nằm ở Jongno 5-ga. Món nhất định phải ăn: bánh xèo mung bean (nokdujeon), yukhoe (thịt bò sống trộn) và tteokbokki. Tầng 2 bán vải và hanbok — tiện thể ngắm luôn. Nên đi buổi trưa hoặc chiều tối, cuối tuần đông lắm.
 
-## Chợ ở Seoul
+Namdaemun thì khác — lớn nhất Hàn Quốc với hơn 10.000 cửa hàng, bán đủ thứ từ quần áo, nhân sâm đến đồ điện tử. Khu ẩm thực nằm ở ngõ phía sau. Nên đi sáng sớm (chợ mở từ 0:00 đêm!) hoặc trưa. Nhưng đừng đi Chủ nhật — nhiều cửa hàng đóng cửa, đi uổng lắm.
 
-### Gwangjang Market
+**Busan — Jagalchi và Gukje**
 
-Gwangjang là chợ truyền thống lâu đời nhất Seoul (hoạt động từ 1905), nằm ở Jongno 5-ga. Đây là điểm đến ẩm thực đường phố nổi tiếng nhất với các món như bánh xèo mung bean (nokdujeon), yukhoe (thịt bò sống trộn), gimbap và tteokbokki. Tầng 2 bán vải và hanbok.
+Jagalchi là chợ hải sản lớn nhất Hàn Quốc, nằm cạnh bến cảng Nampo. Bạn xuống tầng trệt chọn hải sản tươi sống, mang lên tầng trên nhờ chế biến ăn sashimi (hwoe) ngay tại chỗ — cảm giác rất đã. Nên đi buổi sáng 9:00–11:00 để thấy không khí nhộn nhịp nhất.
 
-**Nên đi:** Buổi trưa hoặc chiều tối. Chợ đông nhất cuối tuần.
+Cạnh đó là Gukje Market — chợ hình thành sau chiến tranh Triều Tiên, từng là bối cảnh phim "Ode to My Father". Cấu trúc mê cung với nhiều ngõ nhỏ, bán đồ cũ, quần áo, lưu niệm. Kết hợp cả hai chợ trong một buổi sáng là hợp lý.
 
-### Namdaemun Market
+**Jeju — Dongmun Market**
 
-Namdaemun là chợ lớn nhất Hàn Quốc với hơn 10.000 cửa hàng. Khác với Gwangjang thiên về ẩm thực, Namdaemun bán đủ thứ từ quần áo, giày dép, nhân sâm đến đồ điện tử. Khu ẩm thực đường phố nằm ở ngõ phía sau.
+Chợ lâu đời nhất Jeju (từ 1965), tập trung đặc sản địa phương: hallabong (quýt Jeju), mì heo, hải sản tươi và rượu địa phương. Có khu night market riêng mở đến tối muộn — mình thích ghé buổi chiều tối vì vừa mát vừa có không khí.
 
-**Nên đi:** Sáng sớm (mở cửa từ 0:00 đêm) hoặc trưa. Không nên đi Chủ nhật — nhiều cửa hàng đóng cửa.
+**Mẹo chung khi đi chợ Hàn Quốc**
 
-## Chợ ở Busan
+Mang tiền mặt — nhiều quầy nhỏ không nhận thẻ. Mấy chợ lớn có bảng menu tiếng Anh, chợ nhỏ thì chỉ tiếng Hàn, nên dùng Google Translate hoặc chỉ vào hình. Văn hóa ăn tại quầy là phổ biến — gọi món, trả tiền, ăn ngay tại chỗ. Đa số chợ truyền thống đóng cửa Chủ nhật hoặc ngày lễ, check trước kẻo hụt. Đồ ăn đường phố Hàn Quốc nhìn chung sạch, nhưng nếu dạ dày yếu thì tránh đồ sống nhé.
 
-### Jagalchi Fish Market
+**Kết hợp với đâu?**
 
-Jagalchi là chợ hải sản lớn nhất Hàn Quốc, nằm ngay cạnh bến cảng Nampo. Tầng trệt bán hải sản tươi sống; tầng trên là khu ăn sashimi (hwoe) với view ra biển. Bạn có thể chọn hải sản tươi ở tầng dưới, mang lên tầng trên nhờ chế biến tại chỗ.
-
-**Nên đi:** Buổi sáng (khoảng 9:00–11:00) để thấy không khí nhộn nhịp nhất.
-
-### Gukje Market
-
-Nằm ngay gần Jagalchi, Gukje Market hình thành sau chiến tranh Triều Tiên và từng là bối cảnh trong phim "Ode to My Father". Chợ có cấu trúc mê cung với nhiều ngõ nhỏ, bán đồ cũ, quần áo, giày dép và đồ lưu niệm.
-
-**Nên đi:** Kết hợp với Jagalchi trong cùng buổi sáng hoặc chiều.
-
-## Chợ ở Jeju
-
-### Dongmun Market
-
-Dongmun là chợ lâu đời nhất Jeju (từ 1965) và là nơi tập trung đặc sản địa phương: hallabong (quýt Jeju), mì heo, hải sản tươi, và các loại rượu địa phương. Chợ có khu night market riêng, mở cửa đến tối muộn.
-
-**Nên đi:** Chiều tối — kết hợp tham quan trung tâm Jeju City và ăn tối tại chợ.
-
-## Lưu ý khi đi chợ Hàn Quốc
-
-- **Tiền mặt:** Nhiều quầy hàng nhỏ không nhận thẻ. Nên mang tiền mặt won.
-- **Ngôn ngữ:** Các chợ lớn (Gwangjang, Jagalchi) có bảng menu tiếng Anh. Chợ nhỏ hầu như chỉ tiếng Hàn — nên dùng Google Translate hoặc chỉ vào hình ảnh.
-- **Văn hóa ăn uống:** Ở Hàn Quốc, ăn tại quầy là phổ biến. Bạn gọi món, trả tiền và ăn ngay tại quầy hoặc khu vực ăn chung.
-- **Giờ mở cửa:** Đa số chợ truyền thống đóng cửa Chủ nhật hoặc ngày lễ. Nên kiểm tra trên website chính thức trước khi đi.
-- **Vệ sinh:** Đồ ăn đường phố Hàn Quốc nhìn chung sạch. Tuy nhiên, nếu bạn có dạ dày yếu, nên tránh đồ sống (yukhoe, sashimi) hoặc hỏi người bán về độ tươi.
-
-## Nên kết hợp với đâu?
-
-Ở Seoul: kết hợp Gwangjang với tham quan [Gyeongbokgung và thuê Hanbok]({{< ref "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md" >}}) (cách nhau 1 ga tàu). Ở Busan: Jagalchi và Gukje đi cùng nhau, sau đó có thể ra [bãi biển Gwangalli hoặc Haeundae]({{< ref "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md" >}}). Ở Jeju: Dongmun gần trung tâm thành phố, dễ kết hợp với lịch trình [ngắm bình minh Seongsan]({{< ref "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md" >}}) sáng sớm hôm trước.
+Ở Seoul: Gwangjang gần [Gyeongbokgung và chỗ thuê Hanbok]({{< ref "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md" >}}). Ở Busan: Jagalchi với Gukje đi cùng nhau xong ra [bãi biển Gwangalli hoặc Haeundae]({{< ref "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md" >}}). Ở Jeju: Dongmun gần trung tâm, dễ kết hợp với lịch trình [ngắm bình minh Seongsan]({{< ref "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md" >}}).

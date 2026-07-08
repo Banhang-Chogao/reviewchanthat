@@ -70,63 +70,41 @@ image_owner: external
 slug: haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong
 ---
 
-Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc đến biển Hàn Quốc. Bãi biển dài 1,5 km cát trắng mịn, làn sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ biển — đó là hình ảnh kinh điển của Haeundae.
-
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Haeundae đứng thứ hai và là đại diện số một cho nhóm biển Busan.
-
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Haeundae-gu, Busan |
-| Loại trải nghiệm | Bãi biển công cộng, thể thao nước, ẩm thực |
-| Hợp với | Mọi đối tượng — gia đình, nhóm bạn, cặp đôi |
-| Thời gian nên dành | Cả ngày hoặc nửa ngày |
-| Lưu ý mùa hè | Rất đông cuối tuần, nắng mạnh, cần kem chống nắng |
+Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc biển Hàn Quốc — bãi biển dài 1,5 km cát trắng, sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ. Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Haeundae đứng thứ hai.
 
 ## Có gì đáng đi?
 
-Haeundae không chỉ là tắm biển. Bạn có thể:
-- **Thể thao nước**: Jet ski, phao chuối, paddleboarding, lướt ván.
-- **Lễ hội biển Busan Sea Festival**: Tổ chức vào tháng 7 hằng năm với âm nhạc, trình diễn đường phố.
-- **Haeundae Traditional Market**: Chợ truyền thống gần bãi biển, nổi tiếng với gukbap (cơm súp).
-- **Dongbaekseom**: Đảo nhỏ cuối bờ biển Haeundae, có đường đi bộ ven biển đẹp.
-- **The Bay 101**: Khu nhà hàng, bar ngắm hoàng hôn và skyline Marine City.
+Haeundae không chỉ có tắm biển. Bạn có thể chơi jet ski, phao chuối, paddleboarding. Tháng 7 có Busan Sea Festival với âm nhạc và trình diễn đường phố.
 
-## Nên đi khi nào?
+Gần đó có chợ Haeundae Traditional Market nổi tiếng với gukbap. Đầu bờ biển là Dongbaekseom — đảo nhỏ có đường đi bộ ven biển rất đẹp. Nếu thích ngắm skyline, The Bay 101 là điểm ngắm hoàng hôn và thành phố về đêm.
 
-Haeundae mở cửa bãi tắm chính thức từ tháng 7 đến tháng 8. Tuy nhiên, nếu bạn muốn tắm biển sớm hơn, tháng 6 nước đã đủ ấm.
+## Nên đi khi nào? — và làm sao để không đông
 
-**Cách tránh đông:**
-- Đi ngày thường (thứ 2–5) thay vì cuối tuần.
-- Đi sáng sớm (trước 9:00) hoặc chiều muộn (sau 17:00).
-- Tránh 2 tuần giữa tháng 8 — đỉnh điểm mùa hè Hàn Quốc.
+Bãi tắm chính thức mở tháng 7–8, nhưng tháng 6 nước đã đủ ấm để bơi.
+
+**Cách tránh đông theo mình:**
+- Đi ngày thường (thứ 2–5) thay vì cuối tuần
+- Đi sáng sớm trước 9:00 hoặc chiều muộn sau 17:00
+- Tránh 2 tuần giữa tháng 8 — đỉnh điểm mùa hè
+
+Nếu bạn đi nhóm đông, Haeundae vẫn ổn vì bãi rộng. Nhưng nếu đi cặp đôi muốn yên tĩnh, theo mình nên chọn Gwangalli hoặc Cheongsapo.
 
 ## Cách đi gợi ý
 
-- **Metro**: Tuyến số 2, ga Haeundae, lối ra 3 hoặc 5, đi bộ 5 phút.
-- **Bus**: Số 139, 307, 1003 xuống trạm Haeundae Beach.
-- **Từ ga Busan (KTX)**: Đi metro tuyến 1 → chuyển sang tuyến 2 tại ga Seomyeon. Tổng cộng khoảng 45 phút.
+Metro tuyến số 2, ga Haeundae, lối ra 3 hoặc 5, đi bộ 5 phút. Từ ga Busan (KTX) đi metro tuyến 1 → chuyển tuyến 2 tại Seomyeon, tổng cộng khoảng 45 phút.
 
-## Lịch trình một ngày gợi ý
+## Lịch trình một ngày
 
-- 8:00: Đi bộ dọc bờ biển Haeundae, ngắm Dongbaekseom
-- 9:30: Tắm biển hoặc thuê phao/thể thao nước
-- 12:00: Ăn trưa tại Haeundae Traditional Market
-- 13:30: Ghé Busan Aquarium nếu đi cùng trẻ em
-- 15:00: Di chuyển đến Cheongsapo (Blue Line Park) — xem [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}})
-- 18:00: Quay lại Haeundae, ăn tối và ngắm hoàng hôn tại The Bay 101
+Sáng đi bộ dọc bờ biển, ngắm Dongbaekseom. Tắm biển hoặc thuê thể thao nước. Trưa ăn tại Haeundae Traditional Market. Chiều ghé Busan Aquarium nếu đi cùng trẻ em. Khoảng 15:00 di chuyển đến [Cheongsapo (Blue Line Park)]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}}). Tối về ngắm hoàng hôn tại The Bay 101.
 
 ## Lưu ý
 
-- **Giờ an toàn bơi**: 9:00–18:00. Ngoài giờ này có nhân viên cứu hộ nhưng nên thận trọng.
-- **Đồ bơi và tắm tráng**: Có phòng thay đồ và tắm nước ngọt miễn phí.
-- **Gửi đồ**: Tủ locker tính phí khoảng 5.000–10.000 KRW.
-- **Dinh dưỡng**: Mang nước uống vì giá đồ uống trên bãi cao hơn bình thường.
+- **Giờ an toàn bơi:** 9:00–18:00. Ngoài giờ vẫn có cứu hộ nhưng nên thận trọng.
+- **Tủ locker:** Khoảng 5.000–10.000 KRW. Phòng thay đồ và tắm nước ngọt miễn phí.
+- **Đồ uống:** Nên mang theo vì giá trên bãi cao hơn bình thường.
 
 ## Nên kết hợp với đâu?
 
-- **Cheongsapo**: Cách 10–15 phút đi taxi hoặc bus, nằm trên tuyến Blue Line Park. Xem thêm [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}}).
-- **Gwangalli Beach**: Bãi biển lân cận, hợp đi chiều tối ngắm cầu Gwangan. Xem thêm [Gwangalli Beach Busan]({{< ref "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md" >}}).
-- **Club D Oasis**: Spa và infinity pool tại Haeundae, thích hợp thư giãn cuối ngày. Xem thêm [Club D Oasis Busan]({{< ref "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md" >}}).
-- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}) để lên lịch phù hợp.
+- [Cheongsapo]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}}): Cách 10–15 phút taxi
+- [Gwangalli Beach]({{< ref "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md" >}}): Đi chiều tối ngắm cầu Gwangan
+- [Club D Oasis]({{< ref "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md" >}}): Spa và infinity pool thư giãn cuối ngày

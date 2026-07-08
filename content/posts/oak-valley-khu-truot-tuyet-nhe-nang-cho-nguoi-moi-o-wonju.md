@@ -55,55 +55,43 @@ internal_links:
   ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
 ---
 
-Oak Valley (tên đầy đủ: Oak Valley Snow Park, trước đây gọi là Oak Hills CC) là một ski resort nhỏ nằm ở Wonju, Gangwon-do. Nếu bạn muốn một ngày trượt tuyết nhẹ nhàng, không đông đúc và gần Seoul, Oak Valley là lựa chọn đáng cân nhắc.
+Oak Valley là ski resort nhỏ nhất trong系列 bài này của mình, nhưng đôi khi nhỏ lại là cái hay. Nếu bạn đã đọc bài về [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}) và [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) mà thấy lo vì đông đúc, Oak Valley là phương án ngược lại hoàn toàn.
 
-## Vị trí và di chuyển
+Resort này nằm ở Wonju, Gangwon-do, cách Seoul khoảng 100 km. Tên cũ là Oak Hills CC, giờ đổi thành Oak Valley Snow Park.
 
-Oak Valley nằm tại 58 Oak Valley 2-gil, Jijeong-myeon, Wonju-si, Gangwon-do.
+## Vì sao bạn nên chọn Oak Valley (mà không phải Elysian hay Vivaldi)?
 
-- **Từ Seoul**: Khoảng 100 km, 1,5–2 giờ di chuyển
-- **Shuttle bus**: Có shuttle cuối tuần từ Hongdae và Myeongdong (mùa cao điểm)
-- **Bằng KTX**: Ga Seoul → ga Manjong (71 phút), taxi 20 phút đến resort
-- **Bằng bus**: Dong Seoul Bus Terminal → Wonju, sau đó shuttle bus của resort
+Lý do số một: yên tĩnh. Oak Valley ít đông hơn hẳn hai resort kia. Nếu bạn là người mới, việc có không gian riêng để tập mà không bị ai xô đẩy là một lợi thế lớn. Slope rộng, êm, thiết kế hài hòa với rừng thông xung quanh.
 
-## Ai nên chọn Oak Valley?
+Lý do thứ hai: phù hợp gia đình có trẻ em. Khu Snow Park có sledding riêng, không khí trong lành, an toàn.
 
-- **Người mới bắt đầu**: Slope rộng, êm — một trong những resort an toàn nhất cho beginner
-- **Gia đình có trẻ em**: Có khu sledding riêng, không khí yên tĩnh, an toàn
-- **Người muốn tránh đông đúc**: Oak Valley ít đông hơn Vivaldi Park và Elysian Gangchon
-- **Người muốn day trip từ Seoul**: Khoảng cách hợp lý, shuttle bus cuối tuần
+Lý do thứ ba: bạn muốn tránh cảnh xếp hàng dài như Elysian hay Vivaldi. Oak Valley mà đông cũng không bằng ngày thường của hai resort kia.
 
-Ai không nên chọn: Người trượt cao cấp (slope ngắn, ít thử thách). Người muốn resort lớn nhiều tiện nghi. Người đi ngày thường không có xe riêng (shuttle bus chỉ hoạt động cuối tuần).
+## Nhưng Oak Valley không phải cho tất cả mọi người
 
-## Điểm mạnh
+Resort này nhỏ. Số slope tùy nguồn — có chỗ nói 3 slope, chỗ nói 9. Thực tế thì tập trung vào beginner và intermediate. Nếu bạn đã trượt được và muốn thử thách, bạn sẽ chán sau nửa ngày.
 
-Oak Valley ít đông đúc — đây là lợi thế lớn nhất so với các resort gần Seoul. Slope được thiết kế hài hòa với thiên nhiên, xung quanh là rừng thông. Resort có condo ở lại nếu muốn nghỉ qua đêm.
+Shuttle bus từ Seoul chỉ hoạt động cuối tuần. Ngày thường bạn phải đi KTX từ ga Seoul đến ga Manjong (71 phút) rồi bắt taxi thêm 20 phút. Không phải bất tiện, nhưng không tiện bằng Elysian đi tàu điện thẳng.
 
-Khu Snow Park có sledding riêng cho trẻ em. Resort cũng có golf course (mùa hè) — không gian nghỉ dưỡng 4 mùa.
+Giờ hoạt động cũng hạn chế hơn: ngày thường 10:00–17:00, night ticket 18:00–21:00. Slope bảo trì từ 16:30–18:00.
 
-## Điểm cần cân nhắc
+## Đi thế nào?
 
-Oak Valley nhỏ — slope hạn chế, không phù hợp nếu bạn muốn trượt nhiều ngày. Mùa 2025–26 có thông tin mở cửa từ 12/12/2025 nhưng lịch thay đổi theo thời tiết.
+Cuối tuần: bắt shuttle bus từ Hongdae hoặc Myeongdong. Đặt trước vì mùa đông hay đầy.
 
-Giờ hoạt động ngày thường: 10:00–17:00, night ticket: 18:00–21:00. Slope bảo trì 16:30–18:00.
+Ngày thường: KTX ga Seoul → ga Manjong, rồi taxi lên resort. Hoặc bus từ Dong Seoul Bus Terminal xuống Wonju, sau đó shuttle bus của resort.
 
-Shuttle bus từ Seoul chỉ hoạt động cuối tuần — ngày thường phải đi KTX hoặc ô tô riêng.
+Nếu có xe riêng thì khoảng 1,5–2 giờ từ Seoul.
 
-## Gợi ý lịch trình
+## Gợi ý lịch
 
-**Day trip cuối tuần**:
-- 7:00: Đón shuttle bus tại Hongdae hoặc Myeongdong
-- 9:00: Đến resort, thuê đồ
-- 10:00–12:30: Trượt
-- 12:30–13:30: Ăn trưa
-- 13:30–16:30: Trượt tiếp
-- 16:30: Trả đồ, bus về Seoul
+- 7:00 — Đón shuttle bus tại Hongdae
+- 9:00 — Đến resort, thuê đồ
+- 10:00–12:30 — Trượt
+- 12:30–13:30 — Ăn trưa
+- 13:30–16:30 — Trượt tiếp
+- 16:30 — Trả đồ, về Seoul
 
-## Checklist trước khi đi
+Resort cũng có condo nếu bạn muốn ở lại qua đêm. Mùa hè còn có golf course — Oak Valley là khu nghỉ dưỡng 4 mùa.
 
-- Kiểm tra lịch mở cửa trên oakvalley.co.kr
-- Đặt vé lift và shuttle bus (cuối tuần) trước
-- Nếu đi ngày thường bằng KTX, kiểm tra giờ tàu ga Manjong
-- Đồ giữ nhiệt, găng tay, kính, bảo hiểm du lịch
-- Oak Valley ít đông, nhưng cuối tuần vẫn nên đến sớm
-
+Mùa 2025–26 dự kiến mở từ 12/12. Kiểm tra giá và lịch trên oakvalley.co.kr trước khi đi nhé.

@@ -65,83 +65,48 @@ internal_links:
   ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
 ---
 
-Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì tiếc — nhưng chọn resort nào giữa hàng chục lựa chọn ở Gangwon-do? Bài viết này so sánh 6 ski resort đã được xác minh thông tin từ nguồn chính thức, giúp bạn quyết định nên đi đâu dựa trên lịch trình, ngân sách và trình độ.
+Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì hơi phí. Nhưng giữa 6 resort ở Gangwon-do, chọn cái nào? Câu trả lời không phải "cái nào đẹp nhất" mà là "cái nào hợp với bạn nhất". Bài này mình tổng hợp để bạn dễ quyết định.
 
-## Bảng so sánh nhanh
+## Nếu bạn mới tập — Elysian Gangchon hoặc Oak Valley
 
-| Resort | Khu vực | Cách Seoul | Phù hợp | Day trip? | Điểm mạnh |
-|--------|---------|-------------|---------|-----------|-----------|
-| Elysian Gangchon | Chuncheon | 75 km (~1,5h) | Beginner, day trip | ✅ Tốt nhất | Gần Seoul nhất, đi tàu điện được |
-| Vivaldi Park | Hongcheon | ~1,5–2h | Beginner–Int, gia đình | ✅ Được | 12 slope, giờ linh hoạt, shuttle bus |
-| Oak Valley | Wonju | 100 km (~1,5–2h) | Beginner, gia đình | ✅ Được (cuối tuần) | Yên tĩnh, ít đông, an toàn |
-| Yongpyong | Pyeongchang | ~3h | Int–Adv, resort lớn | ❌ Không | 28 slope, Olympic 2018, lớn nhất |
-| Alpensia | Pyeongchang | ~3–3,5h | Gia đình, nghỉ dưỡng | ❌ Không | 6 slope, Ocean700, InterContinental |
-| High1 | Jeongseon | ~3,5h | Mọi level, nghỉ dưỡng | ❌ Không | Sky 1340, thân thiện môi trường |
+Hai resort này đều thiết kế cho người chưa biết trượt. Elysian gần Seoul hơn (75 km, đi tàu điện được), slope dạng thung lũng êm. Oak Valley thì nhỏ, yên tĩnh — ít áp lực hơn nếu bạn ngại đám đông.
 
-## Chọn resort theo nhu cầu
+Xem chi tiết: [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}) và [Oak Valley]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}}).
 
-### Lần đầu trượt tuyết — chọn Elysian Gangchon hoặc Oak Valley
+## Nếu đi cùng gia đình — Vivaldi Park hoặc Alpensia
 
-Elysian Gangchon là lựa chọn số một cho người mới nhờ slope dạng thung lũng êm, gần Seoul, đi tàu điện đến được. Oak Valley là phương án dự phòng tốt — nhỏ, yên tĩnh, ít áp lực.
+Vivaldi có Snow Sled cho trẻ em, giờ trượt linh hoạt, shuttle bus từ Seoul. Alpensia có Ocean700 water park, beginner slope riêng Alpha, free helmet cho thanh thiếu niên. Cả hai đều có đồ cho người không trượt làm.
 
-Xem chi tiết: [Elysian Gangchon Ski cho người mới]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}) và [Oak Valley cho beginner]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}}).
+Xem chi tiết: [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) và [Alpensia]({{< ref "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md" >}}).
 
-### Đi cùng gia đình — chọn Vivaldi Park hoặc Alpensia
+## Nếu chỉ có 1 ngày từ Seoul — Elysian Gangchon là số một
 
-Vivaldi Park có Snow Sled khu riêng cho trẻ em, nhiều tiện nghi. Alpensia có Ocean700 water park, beginner-exclusive slope Alpha và free helmet cho thanh thiếu niên.
+Gần nhất (75 km), tàu điện + shuttle bus, không cần ô tô. Vivaldi cũng được nhưng xa hơn chút. Oak Valley chỉ có shuttle cuối tuần.
 
-Xem chi tiết: [Vivaldi Park Ski World]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) và [Alpensia Ski Resort]({{< ref "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md" >}}).
+## Nếu muốn resort lớn, trượt chuyên sâu — Yongpyong hoặc High1
 
-### Muốn gần Seoul — Elysian Gangchon là số một
+Yongpyong có 28 slope, lớn nhất Hàn Quốc, từng tổ chức Olympic 2018. High1 cũng lớn, thêm Sky 1340 — nhà hàng xoay trên đỉnh núi. Cả hai đều cách Seoul 3+ tiếng, nên ở lại qua đêm.
 
-Nếu bạn ở Seoul và chỉ có 1 ngày, Elysian Gangchon là lựa chọn thực tế nhất: 75 km, tàu điện + shuttle bus. Vivaldi Park và Oak Valley cũng khả thi nhưng xa hơn một chút và cần shuttle bus hoặc ô tô.
+Xem chi tiết: [Yongpyong]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}) và [High1]({{< ref "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md" >}}).
 
-### Muốn resort lớn — Yongpyong hoặc High1
+## Nếu muốn nghỉ dưỡng + trượt — High1 hoặc Alpensia
 
-Yongpyong với 28 slope là lớn nhất Hàn Quốc — dành cho người đã biết trượt và muốn trải nghiệm slope đẳng cấp Olympic. High1 cũng lớn, thêm trải nghiệm Sky 1340.
+High1 thiên về nghỉ dưỡng kết hợp casino (Kangwon Land gần đó). Alpensia thiên về gia đình + water park. Yongpyong thì tập trung vào trượt là chính.
 
-Xem chi tiết: [Yongpyong Ski Resort]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}) và [High1 Ski Resort]({{< ref "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md" >}}).
+## Nếu muốn cảnh đẹp mùa đông — High1 Sky 1340
 
-### Muốn nghỉ qua đêm — High1, Yongpyong hoặc Alpensia
+Gondola lên đỉnh 1.340 m, nhà hàng xoay view dãy Taebaek. Cái này không resort nào ở Hàn có được.
 
-Cả ba resort này đều có khách sạn/condo chất lượng. High1 thiên về nghỉ dưỡng + casino. Yongpyong thiên về trượt tuyết chuyên sâu. Alpensia thiên về gia đình + water park.
+## Mấy cái lưu ý thực tế
 
-### Muốn cảnh đẹp mùa đông — High1 Sky 1340
+**Mùa trượt** thường tháng 12 đến tháng 2, nhưng thay đổi theo tuyết hàng năm. Luôn check website resort trước khi đặt vé.
 
-Gondola Sky 1340 lên đỉnh núi cao 1.340 m với nhà hàng xoay — view toàn dãy Taebaek. Trải nghiệm này không resort nào khác ở Hàn Quốc có được.
+**Giá vé** thay đổi theo mùa. Lift 50,000–100,000 won/người/ngày. Thuê đồ 25,000–55,000 won. Lesson 150,000–380,000 won. Tổng một ngày tầm 100,000–200,000 won chưa tính ăn uống.
 
-## Hướng dẫn chọn resort theo lịch trình
+**Đồ cần mang**: đồ giữ nhiệt, áo chống nước, găng tay chống nước (găng len thấm nước — đừng dùng), kính trượt, mũ len. Áo trượt có thể thuê tại resort.
 
-**Nếu chỉ có 1 ngày (day trip từ Seoul)**:
-- Chọn Elysian Gangchon (gần nhất, tàu điện + shuttle bus)
-- Hoặc Vivaldi Park (shuttle bus, giờ linh hoạt)
-- Hoặc Oak Valley (shuttle bus cuối tuần)
+**Bảo hiểm**: mua loại có coverage tai nạn trượt tuyết. Chi phí y tế Hàn Quốc không rẻ.
 
-**Nếu có 2 ngày 1 đêm**:
-- Yongpyong, Alpensia hoặc High1 — đều có chỗ ở và đủ hoạt động cho 2 ngày
-- Hoặc Vivaldi Park với gói nghỉ tại Daemyung Resort
+**Người mới**: đặt ít nhất 1 buổi lesson cơ bản. Đừng tự học — dễ nguy hiểm cho mình và người khác.
 
-**Nếu đi tự túc không ô tô**:
-- Elysian Gangchon (tàu điện + shuttle bus)
-- Vivaldi Park hoặc Oak Valley (shuttle bus từ Seoul)
-- Nếu đi KTX: Yongpyong (ga Jinbu), Alpensia (ga Jinbu), High1 (ga Gohan)
-
-**Nếu đi với trẻ em hoặc người lớn tuổi**:
-- Vivaldi Park (khu sledding, nhiều dịch vụ)
-- Alpensia (Ocean700, beginner slope riêng)
-- Oak Valley (yên tĩnh, ít đông, dễ di chuyển)
-
-## Lưu ý thực tế khi đi trượt tuyết ở Hàn Quốc
-
-**Mùa trượt tuyết** thường từ tháng 12 đến tháng 2, nhưng lịch mở cửa và điều kiện tuyết thay đổi theo thời tiết hàng năm. Một số resort mở cửa cuối tháng 11 nếu có tuyết sớm. **Luôn kiểm tra website chính thức của resort trước khi đặt vé máy bay và phòng.**
-
-**Giá vé và lịch lift/rental** thay đổi theo mùa và thường được công bố sát ngày. Thông tin giá trong bài viết này là tham khảo từ các mùa trước — kiểm tra giá thực tế trên website resort.
-
-**Đồ cần mang**: Đồ giữ nhiệt (thermal inner layer), áo khoác chống nước, găng tay chống nước (không phải găng len — sẽ thấm nước và lạnh), kính trượt tuyết (goggle), mũ len/beanie. Nếu không có áo trượt, có thể thuê tại resort.
-
-**Bảo hiểm du lịch**: Khuyến khích mua bảo hiểm có coverage tai nạn trượt tuyết. Tai nạn trên slope có thể xảy ra, và chi phí y tế ở Hàn Quốc không rẻ.
-
-**Người mới**: Nên đặt ít nhất 1 buổi ski lesson cơ bản (basic lesson) — thường 1–2 giờ, học cách dừng, rẽ và kiểm soát tốc độ. Đừng tự học nếu không có người hướng dẫn — dễ gây nguy hiểm cho bản thân và người khác.
-
-**Đặt trước**: Vé lift, rental, lesson và shuttle bus nên đặt trước, đặc biệt nếu đi cuối tuần hoặc dịp lễ. Resort thường hết chỗ và giá cao hơn nếu mua tại chỗ.
-
+**Đặt trước**: vé lift, rental, lesson, shuttle bus — tất cả nên đặt trước, nhất là cuối tuần.

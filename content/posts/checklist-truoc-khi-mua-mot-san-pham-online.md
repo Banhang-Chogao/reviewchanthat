@@ -56,38 +56,34 @@ thumbnail: https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80
 title: Checklist trước khi mua một sản phẩm online
 ---
 
-Mua sắm online tiện lợi, nhưng cũng đầy rủi ro. Dưới đây là checklist bạn nên in ra và kiểm tra trước mỗi lần mua hàng.
+Mua sắm online tiện thật đấy, nhưng mua xong mới hối hận thì cũng nhiều. Mình từng mua không biết bao nhiêu thứ vì "giá rẻ quá không mua uổng" — kết quả là để xó hoặc đem bán lại.
 
-## Bước 1: Xác định nhu cầu thực sự
+Dưới đây là 6 bước mình vẫn kiểm tra trước mỗi lần bấm "Đặt mua". Làm theo thì chưa chắc giàu, nhưng chắc chắn đỡ tiếc tiền.
 
-Bạn cần nó hay chỉ muốn nó? Hãy đợi 24 giờ trước khi quyết định. Cơn sốt mua sắm thường qua đi sau một giấc ngủ.
+### Bước 1: Bạn cần nó hay chỉ muốn nó?
 
-## Bước 2: Nghiên cứu kỹ người bán
+Đây là câu hỏi khó nhất. Trước khi mua bất kỳ thứ gì online, hãy đợi 24 giờ. Bỏ vào giỏ hàng, ngủ một đêm, hôm sau mở ra xem còn muốn mua không. Cơn sốt mua sắm thường qua sau một giấc ngủ. Nếu vẫn muốn, lúc đó hãy mua.
 
-- Shop có uy tín không? Bao nhiêu sao? Đã bán bao nhiêu đơn?
-- Đọc review từ người mua trước, ưu tiên review có ảnh thật.
-- Cảnh giác với shop mới mở, giá rẻ bất thường.
+### Bước 2: Người bán có đáng tin không?
 
-## Bước 3: So sánh giá trên nhiều sàn
+Shop có sao không? Đã bán bao nhiêu đơn? Đọc review — ưu tiên review có ảnh thật, có cả ảnh chê. Nếu shop mới mở, giá rẻ bất thường, bạn nên cảnh giác. Mình từng suýt mua một cục sạc dự phòng giá chỉ bằng nửa thị trường — may mà check kỹ thì thấy toàn review ảo.
 
-Đừng mua liền trên một sàn. Hãy so sánh giá giữa Shopee, Lazada, Tiki, và cả website chính hãng. Đôi khi mua trực tiếp từ brand lại rẻ hơn.
+### Bước 3: Đừng mua liền trên một sàn
 
-## Bước 4: Kiểm tra chính sách bảo hành và đổi trả
+So sánh giá giữa Shopee, Lazada, Tiki và cả website chính hãng. Nhiều khi mua trực tiếp từ brand lại rẻ hơn, nhất là đợt sale. Cùng một cái tai nghe, mình từng thấy chênh đến 200,000đ giữa các sàn.
 
-- Bảo hành bao lâu? Ai chịu trách nhiệm?
-- Có được đổi trả trong 7 ngày không?
-- Phí ship trả hàng ai trả?
+### Bước 4: Bảo hành và đổi trả — khoản này dễ bỏ qua
 
-## Bước 5: Đọc kỹ mô tả sản phẩm
+Bảo hành bao lâu, ai chịu trách nhiệm? Có được đổi trả trong 7 ngày không? Phí ship trả hàng ai trả? Nếu shop không trả lời rõ mấy câu này, mình khuyên không nên mua. Khoản tiết kiệm vài chục nghìn không đáng để mất cả trăm nghìn phí ship trả hàng.
 
-- Kích thước, chất liệu, màu sắc có đúng như ảnh?
-- Thông số kỹ thuật có rõ ràng?
-- Hàng chính hãng hay xách tay?
+### Bước 5: Đọc kỹ mô tả sản phẩm
 
-## Bước 6: Kiểm tra tổng chi phí
+Kích thước, chất liệu, màu sắc có đúng như ảnh? Hàng chính hãng hay xách tay? Nhiều người chỉ nhìn ảnh đẹp rồi mua, về mới thấy không giống tưởng tượng. Đọc phần "thông số kỹ thuật" trước khi đọc phần "mô tả" — vì phần mô tả thường được viết để bán hàng.
 
-Giá sản phẩm + phí ship + thuế (nếu có) = ? Có voucher giảm giá không?
+### Bước 6: Tính tổng chi phí
 
----
+Giá sản phẩm + phí ship + thuế (nếu có) = ? Có voucher giảm giá không? Đừng để đến khi thanh toán mới giật mình vì phí ship cao hơn giá hàng.
 
-**Kết luận:** Mất 5 phút kiểm tra checklist có thể tiết kiệm cho bạn cả triệu đồng và nỗi thất vọng khi nhận hàng.
+### Kết luận
+
+Mất 5 phút kiểm tra 6 bước này có thể tiết kiệm cho bạn cả triệu đồng. Mình từng áp dụng và thấy số lần mua hối hận giảm hẳn. Nếu muốn tìm hiểu sâu hơn về cách xây dựng thói quen mua sắm, bạn có thể xem bài [cách xây dựng thói quen mua sắm thông minh](/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh/).

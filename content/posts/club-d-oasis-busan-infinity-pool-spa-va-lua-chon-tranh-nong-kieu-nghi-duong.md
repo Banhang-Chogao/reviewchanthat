@@ -65,61 +65,41 @@ image_owner: external
 slug: club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong
 ---
 
-Club D Oasis là một điểm đến khác biệt trong danh sách — không phải bãi biển công cộng hay công viên nước, mà là một khu phức hợp spa, infinity pool và nghỉ dưỡng cao cấp tại Haeundae, Busan. Đây là lựa chọn tránh nóng kiểu "không cần xuống biển nhưng vẫn mát" — lý tưởng cho những ai muốn thư giãn mà không phải chen chúc.
+Club D Oasis là điểm đến khác biệt — không phải bãi biển công cộng hay công viên nước, mà là khu phức hợp spa, infinity pool và nghỉ dưỡng cao cấp tại Haeundae. Đây là lựa chọn tránh nóng kiểu "không cần xuống biển nhưng vẫn mát" — lý tưởng nếu bạn muốn thư giãn mà không phải chen chúc.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Club D Oasis đứng thứ 9 và là lựa chọn duy nhất thiên về nghỉ dưỡng và spa.
 
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Haeundae, Busan |
-| Loại trải nghiệm | Infinity pool, spa, nghỉ dưỡng |
-| Hợp với | Cặp đôi, người muốn thư giãn, du lịch hạng sang |
-| Thời gian nên dành | Nửa ngày đến 1 ngày |
-| Lưu ý mùa hè | Đặt trước vì lượng khách có hạn |
-
 ## Có gì đáng đi?
 
-**Infinity pool**: Hồ bơi vô cực nhìn ra biển Haeundae. Đây là điểm nhấn ấn tượng nhất — vừa bơi vừa ngắm đường chân trời biển và trời hòa vào nhau.
+**Infinity pool:** Hồ bơi vô cực nhìn ra biển Haeundae — vừa bơi vừa ngắm đường chân trời hòa vào nhau. Theo mình đây là điểm nhấn ấn tượng nhất của cả khu.
 
-**Spa và phòng xông hơi**: Club D Oasis có các dịch vụ spa, massage, xông hơi kiểu Hàn Quốc và quốc tế.
+**Spa và phòng xông hơi:** Có các dịch vụ massage, xông hơi kiểu Hàn Quốc và quốc tế. Nếu bạn đi cặp đôi, đây là trải nghiệm đáng thử.
 
-**Khu thư giãn**: Có khu vực ghế dài, quầy bar, nhà hàng — phục vụ đồ uống giải nhiệt và bữa nhẹ.
-
-**View hoàng hôn**: Ban công nhìn ra biển Haeundae là một trong những điểm ngắm hoàng hôn đẹp nhất Busan.
+**View hoàng hôn:** Ban công nhìn ra biển Haeundae là một trong những điểm ngắm hoàng hôn đẹp nhất Busan — bonus thêm mà không mất thêm phí.
 
 ## Nên đi khi nào?
 
-Club D Oasis hoạt động quanh năm. Mùa hè là cao điểm vì infinity pool ngoài trời mát mẻ. Nên đặt trước ít nhất 1–2 tuần vào tháng 7–8.
+Club D Oasis hoạt động quanh năm. Mùa hè là cao điểm vì infinity pool ngoài trời. Nên đặt trước ít nhất 1–2 tuần vào tháng 7–8.
 
-Thời điểm lý tưởng: từ 14:00–18:00 để tận hưởng pool buổi chiều và hoàng hôn.
+Thời điểm lý tưởng: 14:00–18:00 để tận hưởng pool buổi chiều và hoàng hôn. Tuy nhiên, nếu budget eo hẹp, theo mình bạn nên cân nhắc — giá ở đây cao hơn nhiều so với bãi biển công cộng.
 
 ## Cách đi gợi ý
 
-- **Từ Haeundae Station**: Đi bộ 10–15 phút hoặc taxi 5 phút.
-- **Từ trung tâm Busan**: Metro tuyến 2 đến ga Haeundae, sau đó đi bộ.
-- **Xe riêng**: Có bãi đỗ xe.
+Từ ga Haeundae (tuyến metro số 2) đi bộ 10–15 phút hoặc taxi 5 phút. Có bãi đỗ xe nếu bạn đi xe riêng.
 
-## Lịch trình nửa ngày gợi ý
+## Lịch trình nửa ngày
 
-- 14:00: Đến Club D Oasis, check-in khu spa
-- 14:30: Thư giãn tại infinity pool
-- 16:00: Massage hoặc spa
-- 17:30: Ngắm hoàng hôn từ khu bar/view
-- 18:30: Dùng bữa tối nhẹ
-- 19:30: Kết thúc, đi dạo Haeundae tối
+14:00 đến Club D Oasis, check-in khu spa. 14:30 thư giãn tại infinity pool. 16:00 massage hoặc spa. 17:30 ngắm hoàng hôn từ khu bar. 18:30 dùng bữa tối nhẹ. 19:30 kết thúc, đi dạo Haeundae tối.
 
 ## Lưu ý
 
-- **Giá vé/dịch vụ**: Club D Oasis có mức giá cao hơn so với bãi biển công cộng. Cần kiểm tra website chính thức để biết giá cụ thể.
-- **Đặt trước**: Bắt buộc đặt trước vào mùa hè.
-- **Trang phục**: Đồ bơi và đồ thoải mái.
-- **Tuổi**: Có thể có giới hạn độ tuổi cho khu spa. Kiểm tra trước khi đặt.
+- **Giá vé/dịch vụ:** Cao hơn so với bãi biển công cộng. Kiểm tra website chính thức trước khi đi.
+- **Đặt trước:** Bắt buộc vào mùa hè.
+- **Trang phục:** Đồ bơi và đồ thoải mái.
+- **Giới hạn tuổi:** Khu spa có thể giới hạn độ tuổi — kiểm tra trước khi đặt.
 
 ## Nên kết hợp với đâu?
 
-- **Haeundae Beach**: Cách đó vài phút — có thể tắm biển vào sáng sớm rồi đến Club D Oasis buổi chiều. Xem thêm [Haeundae Beach Busan]({{< ref "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md" >}}).
-- **Cheongsapo**: Buổi sáng khám phá Cheongsapo — chiều thư giãn tại Club D Oasis. Xem thêm [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}}).
-- **Gwangalli Beach**: Tối đến Gwangalli ngắm cầu. Xem thêm [Gwangalli Beach Busan]({{< ref "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md" >}}).
-- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}).
+- [Haeundae Beach]({{< ref "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md" >}}): Tắm biển sáng sớm, chiều đến Club D Oasis
+- [Cheongsapo]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}}): Sáng khám phá làng chài, chiều thư giãn
+- [Gwangalli Beach]({{< ref "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md" >}}): Tối ngắm cầu Gwangan sau một ngày dài

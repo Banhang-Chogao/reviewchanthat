@@ -55,53 +55,40 @@ internal_links:
   ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md
 ---
 
-High1 Ski Resort là một trong những ski resort lớn và được yêu thích nhất ở Hàn Quốc, nằm ở Jeongseon, Gangwon-do. Điểm đặc biệt của High1 không chỉ nằm ở chất lượng slope mà còn ở trải nghiệm nghỉ dưỡng tổng thể — từ nhà hàng xoay Sky 1340 trên đỉnh núi đến thiết kế thân thiện môi trường.
+High1 là ski resort mình ấn tượng nhất trong系列 bài này. Không phải vì lớn nhất (Yongpyong mới là số một) hay gần nhất (Elysian giữ kỷ lục đó), mà vì trải nghiệm tổng thể — từ Sky 1340, nhà hàng xoay trên đỉnh núi 1.340 m, đến thiết kế thân thiện môi trường.
 
-## Vị trí và di chuyển
-
-High1 tọa lạc tại 500 High1-gil, Jeongseon-gun, Gangwon-do.
-
-- **Từ Seoul**: Khoảng 220 km, 3,5 giờ ô tô hoặc bus
-- **Bằng KTX**: Ga Seoul → ga Gohan (tuyến Taebaek, khoảng 2 giờ), taxi 10 phút đến resort
-- **Shuttle bus**: Resort có shuttle bus từ Seoul theo mùa
+Resort nằm ở Jeongseon, xa nhất trong các resort mình viết — cách Seoul tới 220 km, 3,5 giờ di chuyển. Nhưng nếu bạn đã đọc bài [Yongpyong]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}) và [Alpensia]({{< ref "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md" >}}), bạn biết các resort xa thường mang lại trải nghiệm khác hẳn.
 
 ## Ai nên chọn High1?
 
-- **Người muốn nghỉ dưỡng 2–3 ngày**: Resort có đầy đủ khách sạn, nhà hàng, spa, giải trí
-- **Người muốn cảnh đẹp**: Sky 1340 — gondola và nhà hàng xoay, view toàn dãy Taebaek
-- **Người trượt trung cấp trở lên**: Slope đa dạng, chất lượng tuyết cao
-- **Người muốn kết hợp casino**: Kangwon Land casino nằm gần đó (dành cho người trên 19 tuổi)
+Theo mình, High1 hợp nhất với người muốn biến chuyến trượt tuyết thành kỳ nghỉ đúng nghĩa.
 
-Ai không nên chọn: Người chỉ muốn day trip (quá xa). Người ngân sách thấp (resort cao cấp). Người không thích không khí resort đông đúc cuối tuần.
+Bạn muốn cảnh đẹp — Sky 1340 là điểm nhấn mà không resort nào ở Hàn Quốc có. Gondola antique và crystal đưa bạn lên đỉnh núi, nhà hàng xoay ngắm toàn cảnh dãy Taebaek. Ăn tối trên đó một lần là nhớ.
 
-## Điểm mạnh
+Bạn trượt trung cấp trở lên — High1 có slope đa dạng từ dễ đến cực khó, chất lượng tuyết cao. Hệ thống lift và gondola hiện đại.
 
-High1 tự hào là ski resort thân thiện môi trường nhất Hàn Quốc — slope được thiết kế hài hòa với tự nhiên, mùa xuân rau dại mọc, mùa hè hoa dại nở.
+Bạn muốn kết hợp giải trí — Kangwon Land casino nằm ngay gần đó (dành cho trên 19 tuổi). Có Snow World cho trẻ em, ski school riêng, spa, nhiều nhà hàng.
 
-Hệ thống lift/gondola hiện đại, slope trải dài từ dễ đến cực khó. Sky 1340 (gondola antique và crystal) đưa bạn lên đỉnh núi 1.340 m — nhà hàng xoay ngắm toàn cảnh.
+## Ai không nên chọn?
 
-Mùa 2023–24 có giá lift: 58,000–100,000 won/người lớn (tùy giờ), thuê ski/board all-day: 54,000 won. Giá có thể thay đổi, kiểm tra high1.com.
+Người chỉ có 1 ngày — quá xa, đừng cố. Người ngân sách thấp — High1 thuộc phân khúc cao cấp hơn. Và nếu bạn không thích không khí resort đông đúc cuối tuần, hãy đi ngày thường.
 
-Có Snow World (sledding), ski school riêng cho trẻ em, và hệ thống locker gửi đồ tiện lợi.
+## Di chuyển
 
-## Điểm cần cân nhắc
+KTX từ ga Seoul đến ga Gohan (tuyến Taebaek, khoảng 2 giờ) rồi taxi 10 phút — tiện nhất. Hoặc ô tô/bus khoảng 3,5 giờ. Resort cũng có shuttle bus theo mùa từ Seoul.
 
-Xa Seoul — không thể day trip. Giá cao hơn các resort gần Seoul. Thông tin tiếng Anh trên website hạn chế. Mùa cao điểm rất đông — cần đặt trước.
+## Giá cả
 
-Lịch mở cửa phụ thuộc thời tiết và điều kiện tuyết. Cần kiểm tra trạng thái slope trên high1.com trước khi đi.
+Mùa 2023–24 tham khảo: lift 58,000–100,000 won tùy giờ, thuê ski/board all-day 54,000 won. Giá có thể thay đổi — check high1.com trước khi đi.
 
-## Gợi ý lịch trình
+## Mấy điểm trừ
 
-**2 ngày 1 đêm hoặc 3 ngày 2 đêm**:
+Xa — không thể linh hoạt. Giá cao hơn resort gần Seoul. Thông tin tiếng Anh trên website hạn chế, hơi khó tra. Mùa cao điểm rất đông — cần đặt trước cả tháng.
+
+## Gợi ý lịch 2-3 ngày
+
 - Ngày 1: Đến resort, nhận phòng, trượt chiều + tối, ăn tối trên Sky 1340
 - Ngày 2: Trượt cả ngày, tối thư giãn spa hoặc ghé Kangwon Land
 - Ngày 3 (nếu có): Trượt sáng, trả phòng, khám phá Jeongseon trước khi về
 
-## Checklist trước khi đi
-
-- Đặt phòng trước — mùa đông thường full
-- Kiểm tra lịch mở cửa trên high1.com
-- Đồ giữ nhiệt, găng tay, kính — gió trên đỉnh 1.340 m rất mạnh
-- Bảo hiểm du lịch
-- Nếu đi KTX, đặt vé ga Seoul → ga Gohan trước
-
+Đặt phòng trước — mùa đông thường full. Mang đồ giữ nhiệt — gió trên đỉnh 1.340 m rất mạnh. Đừng quên bảo hiểm du lịch. Nếu đi KTX, đặt vé ga Seoul → ga Gohan trước.

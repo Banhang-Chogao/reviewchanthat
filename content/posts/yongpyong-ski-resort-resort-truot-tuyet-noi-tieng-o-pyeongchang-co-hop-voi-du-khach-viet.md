@@ -55,50 +55,39 @@ internal_links:
   ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
 ---
 
-Yongpyong (hay MONA YongPyong) là ski resort lớn nhất Hàn Quốc với tổng diện tích slope hơn 1,1 triệu mét vuông và 28 đường trượt. Đây từng là địa điểm thi đấu môn trượt tuyết đổ đèo (alpine skiing) tại Thế vận hội mùa đông PyeongChang 2018.
+Yongpyong là cái tên ai tìm kiếm ski resort Hàn Quốc cũng gặp — resort lớn nhất xứ Hàn với 28 slope, từng là địa điểm Olympic 2018. Nhưng lớn nhất không có nghĩa là phù hợp nhất với tất cả mọi người.
 
-## Vị trí và di chuyển
+Trong系列 bài này, mình đã viết về mấy resort gần Seoul cho người mới như [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}), [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}), và [Oak Valley]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}}). Yongpyong khác hẳn — đây là resort cho người đã biết trượt, muốn trượt chuyên sâu.
 
-Yongpyong tọa lạc tại 715 Olympic-ro, Daegwanryeong-myeon, Pyeongchang-gun, Gangwon-do.
+## Yongpyong hợp với ai?
 
-- **Từ Seoul**: Khoảng 3 giờ bằng ô tô hoặc bus liên tỉnh
-- **Bằng KTX**: Ga Seoul → ga Jinbu (khoảng 1,5 giờ), sau đó taxi 30 phút đến resort
+Theo mình, bạn nên chọn Yongpyong nếu bạn đã trượt cơ bản (biết dừng, biết rẽ) và muốn lên trình. 28 slope trải từ intermediate đến advanced, địa hình Olympic chuẩn quốc tế — đủ để bạn tập luyện 2-3 ngày không chán.
 
-Resort có shuttle bus từ Seoul theo mùa — cần kiểm tra lịch trên website yongpyong.co.kr.
+Nếu bạn muốn ở lại 2-3 ngày, resort có khách sạn, condominium, golf, nhiều nhà hàng — tiện nghi đầy đủ.
 
-## Ai nên chọn Yongpyong?
+Nếu bạn thích cảnh đẹp — Yongpyong nằm trên núi Balwangsan, view toàn Daegwanryeong. Hệ thống gondola và cable lift hiện đại, tổng chiều dài slope hơn 29 km.
 
-- **Người trượt trung cấp trở lên**: 28 slope với đa dạng độ khó, địa hình Olympic chuẩn quốc tế
-- **Người muốn ở lại 2–3 ngày**: Resort có khách sạn, condominium, golf, ẩm thực đầy đủ
-- **Người muốn cảnh đẹp**: Nằm trên núi Balwangsan, view toàn cảnh Daegwanryeong
+## Và ai không nên chọn?
 
-Ai không nên chọn: Người chỉ muốn trượt 1 ngày rồi về Seoul (quá xa). Người mới hoàn toàn (nên bắt đầu ở resort nhỏ hơn gần Seoul).
+Nếu bạn chỉ có 1 ngày ở Seoul và muốn trượt — đừng chọn Yongpyong. Mất 3 tiếng mỗi chiều, thời gian trượt thực tế chỉ 4-5 tiếng. Mệt hơn vui.
 
-## Điểm mạnh
+Nếu bạn là người mới hoàn toàn — Yongpyong có slope beginner nhưng không phải thế mạnh. Bạn sẽ thấy các resort gần Seoul như Elysian hoặc Vivaldi phù hợp hơn nhiều.
 
-Yongpyong là resort có quy mô lớn nhất: 28 slope, 14 cable lifts (gồm gondola), tổng chiều dài slope 29,1 km. Hệ thống tuyết nhân tạo đảm bảo điều kiện trượt ổn định.
+## Di chuyển thế nào?
 
-Resort vận hành cả ngày lẫn đêm: Daytime 9:00–17:00, Nighttime 19:00–22:00 (và 19:00–23:30 tùy khu vực).
+Yongpyong cách Seoul khoảng 180 km, 3 giờ ô tô hoặc bus. Có thể đi KTX từ ga Seoul đến ga Jinbu (1,5 tiếng) rồi taxi 30 phút lên resort. Resort cũng có shuttle bus theo mùa — check lịch trên yongpyong.co.kr.
 
-Đã tổ chức các sự kiện quốc tế như YongPyong International Ski Festival — nói lên chất lượng slope và dịch vụ.
+So với [Alpensia]({{< ref "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md" >}}) ở cùng khu vực, Yongpyong xa hơn một chút nhưng đáng để đi nếu bạn nghiêm túc với việc trượt.
 
-## Điểm cần cân nhắc
+## Mấy điểm trừ
 
-Xa Seoul — không lý tưởng cho day trip. Giá cao hơn các resort gần Seoul. Thông tin bằng tiếng Anh trên website có hạn, chủ yếu là tiếng Hàn.
+Giá cao hơn các resort gần Seoul. Thông tin tiếng Anh trên website hạn chế — chủ yếu là tiếng Hàn, hơi khó tra cứu. Và xa — không thể day trip.
 
-Giá vé và lịch mở cửa thay đổi theo mùa. Cần kiểm tra trạng thái slope trên website trước khi đi.
+Resort vận hành cả ngày lẫn đêm: Daytime 9:00–17:00, Nighttime 19:00–22:00. Có thể trượt tối nếu bạn ở lại.
 
-## Gợi ý lịch trình
+## Gợi ý lịch 2 ngày 1 đêm
 
-**2 ngày 1 đêm**:
 - Ngày 1: Sáng đi từ Seoul, đến trưa, thuê đồ, trượt chiều + tối
 - Ngày 2: Trượt sáng, ăn trưa, trả đồ, chiều về Seoul
 
-## Checklist trước khi đi
-
-- Đặt phòng resort trước — mùa đông thường đầy
-- Kiểm tra lịch mở cửa trên website chính thức: yongpyong.co.kr
-- Thuê đồ tại chỗ hoặc mang theo nếu có
-- Đồ giữ nhiệt, găng tay chống nước, kính trượt
-- Bảo hiểm du lịch
-
+Đặt phòng trước — mùa đông full rất nhanh. Kiểm tra trạng thái slope trên yongpyong.co.kr. Mang đồ giữ nhiệt, găng chống nước, kính. Bảo hiểm du lịch — đừng quên.

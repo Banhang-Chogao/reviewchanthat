@@ -68,59 +68,41 @@ image_owner: external
 slug: cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park
 ---
 
-Cheongsapo (Cheongsapo) là một làng chài nhỏ nằm ở phía đông Haeundae, Busan. Trong nhịp sống sôi động của thành phố biển lớn nhất Hàn Quốc, Cheongsapo là một khoảng lặng: nước biển trong vắt, dãy nhà ven biển sơn màu pastel và nhịp sống chậm rãi.
+Cheongsapo là một làng chài nhỏ nằm phía đông Haeundae, Busan. Trong nhịp sống sôi động của thành phố biển lớn nhất Hàn Quốc, Cheongsapo là một khoảng lặng — nước biển trong vắt, dãy nhà ven biển sơn màu pastel và nhịp sống chậm rãi.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Cheongsapo đứng thứ 8 và là điểm đến lý tưởng cho ai muốn tránh đám đông Haeundae chỉ vài phút di chuyển.
-
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Haeundae-gu, Busan (phía đông Haeundae Beach) |
-| Loại trải nghiệm | Làng chài, biển trong, tàu ven biển |
-| Hợp với | Cặp đôi, đi một mình, người thích yên tĩnh |
-| Thời gian nên dành | 1–2 giờ |
-| Lưu ý mùa hè | Nắng gắt trưa, nên đi sáng sớm hoặc chiều muộn |
+Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Cheongsapo đứng thứ 8. Theo mình đây là điểm đến lý tưởng cho ai muốn tránh đám đông Haeundae chỉ vài phút di chuyển.
 
 ## Có gì đáng đi?
 
-**Biển trong tại Cheongsapo**: Không phải bãi tắm chính thức, nhưng nước biển ở Cheongsapo trong hơn Haeundae. Bạn có thể ngồi trên bờ hoặc đi dạo dọc theo mép nước.
+**Biển trong:** Cheongsapo không phải bãi tắm chính thức, nhưng nước biển trong hơn Haeundae. Bạn có thể ngồi trên bờ hoặc đi dọc mép nước. Nếu muốn tắm biển thực sự, hãy quay lại Haeundae.
 
-**Tàu Blue Line Park (Haeundae Ocean Train)**: Đây là trải nghiệm nổi bật nhất. Tàu chạy từ ga Mipo (gần Haeundae) đến ga Cheongsapo và tiếp đến Songjeong, men theo bờ biển với tầm nhìn rộng. Tàu có hai loại: tàu kín và tàu trần (sky capsule).
+**Tàu Blue Line Park:** Đây là trải nghiệm nổi bật nhất. Tàu chạy từ ga Mipo đến Cheongsapo và tiếp đến Songjeong, men theo bờ biển. Có hai loại: tàu kín và tàu trần sky capsule. Theo mình sky capsule thú vị hơn vì ngồi lộng gió, chụp ảnh đẹp, nhưng vé đắt hơn.
 
-**Làng ven biển**: Khu vực Cheongsapo có những con đường nhỏ quanh co, homestay và quán cà phê view biển. Thích hợp đi dạo nhẹ nhàng.
+**Làng ven biển:** Những con đường nhỏ quanh co, homestay và quán cà phê view biển — thích hợp đi dạo nhẹ nhàng.
 
-**Hải sản tươi sống**: Có các nhà hàng hải sản nhỏ phục vụ sashimi và hải sản nướng — đơn giản hơn Millak nhưng chất lượng tốt.
+**Hải sản:** Có các nhà hàng nhỏ phục vụ sashimi và hải sản nướng. Đơn giản hơn Millak nhưng chất lượng tốt, giá mềm hơn.
 
 ## Nên đi khi nào?
 
-Tháng 5 đến tháng 10 là thời gian lý tưởng. Trong ngày, nên đi từ 15:00 để tránh nắng và kết hợp với tàu Blue Line Park chiều tối.
+Tháng 5 đến tháng 10 là thời gian lý tưởng. Trong ngày, nên đi từ 15:00 để tránh nắng và kết hợp tàu Blue Line Park chiều tối.
 
 ## Cách đi gợi ý
 
-- **Từ Haeundae Beach**: Đi bộ dọc bờ biển hoặc đi taxi 5 phút.
-- **Tàu Blue Line Park**: Mua vé tại ga Mipo, đi đến ga Cheongsapo (khoảng 10 phút).
-- **Metro**: Ga Haeundae (tuyến 2), sau đó đi bus hoặc taxi.
+Từ Haeundae Beach đi bộ dọc bờ biển hoặc taxi 5 phút. Hoặc mua vé tàu Blue Line Park tại ga Mipo, đi đến ga Cheongsapo (khoảng 10 phút).
 
-## Lịch trình nửa ngày gợi ý
+## Lịch trình nửa ngày
 
-- 14:00: Xuất phát từ Haeundae
-- 14:30: Đi tàu Blue Line Park từ ga Mipo đến Cheongsapo
-- 15:00: Khám phá làng Cheongsapo, đi dạo, chụp ảnh
-- 16:00: Uống cà phê view biển tại một quán địa phương
-- 17:00: Ăn nhẹ hải sản
-- 17:30: Đi tàu hoặc taxi về Haeundae, chuẩn bị ngắm hoàng hôn
+14:00 xuất phát từ Haeundae. 14:30 đi tàu Blue Line Park từ ga Mipo. 15:00 khám phá làng Cheongsapo. 16:00 uống cà phê view biển. 17:00 ăn nhẹ hải sản. 17:30 đi tàu hoặc taxi về Haeundae ngắm hoàng hôn.
 
 ## Lưu ý
 
-- **Vé Blue Line Park**: Nên mua vé trực tuyến trước để tránh hết vé vào cuối tuần.
-- **Giày dép**: Đi giày thoải mái vì đường đi có đoạn dốc và cầu thang.
-- **Thời tiết**: Tàu có thể ngừng chạy khi mưa bão, kiểm tra trước khi đi.
-- **Cheongsapo không có bãi tắm**: Điểm này là làng chài ngắm cảnh, không phải bãi tắm chính thức.
+- **Vé tàu:** Nên mua trực tuyến để tránh hết vé cuối tuần.
+- **Giày dép:** Đường có đoạn dốc và cầu thang — đi giày thoải mái.
+- **Thời tiết:** Tàu có thể ngừng chạy khi mưa bão.
+- **Không có bãi tắm:** Cheongsapo là làng chài ngắm cảnh, không phải bãi tắm chính thức.
 
 ## Nên kết hợp với đâu?
 
-- **Haeundae Beach**: Cách 5 phút taxi, có thể kết hợp tắm biển. Xem thêm [Haeundae Beach Busan]({{< ref "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md" >}}).
-- **Gwangalli Beach**: Chiều tối sau Cheongsapo có thể xuống Gwangalli ngắm cầu Gwangan. Xem thêm [Gwangalli Beach Busan]({{< ref "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md" >}}).
-- **Club D Oasis**: Spa và infinity pool nếu muốn thư giãn thêm. Xem thêm [Club D Oasis Busan]({{< ref "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md" >}}).
-- Xem toàn bộ [danh sách điểm tránh nóng]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}).
+- [Haeundae Beach]({{< ref "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md" >}}): Cách 5 phút taxi, kết hợp tắm biển
+- [Gwangalli Beach]({{< ref "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md" >}}): Tối xuống đây ngắm cầu Gwangan
+- [Club D Oasis]({{< ref "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md" >}}): Spa và infinity pool nếu muốn thư giãn thêm

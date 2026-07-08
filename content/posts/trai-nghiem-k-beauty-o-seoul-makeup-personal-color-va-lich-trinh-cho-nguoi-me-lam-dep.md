@@ -52,50 +52,28 @@ image_owner: external
 slug: trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep
 ---
 
-Seoul là kinh đô làm đẹp của châu Á, và trải nghiệm K-beauty là một trong những hoạt động được yêu thích nhất trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best — xếp hạng 10, ngang hàng với các trải nghiệm văn hóa truyền thống.
+Seoul là kinh đô làm đẹp của châu Á, và mình dám chắc nếu bạn mê skincare hay makeup thì trải nghiệm K-beauty sẽ là một trong những khoản chi đáng đồng tiền nhất chuyến đi. Hoạt động này xếp hạng 10 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình, nó xứng đáng ở vị trí cao hơn nếu bạn thuộc tuýp người thích làm đẹp.
 
-## Tóm tắt nhanh
+**Mua sắm mỹ phẩm ở Myeongdong**
 
-| Mục | Thông tin |
-|-----|-----------|
-| Khu vực | Myeongdong, Seongsu, Mapo (Seoul) |
-| Loại trải nghiệm | Làm đẹp, mua sắm |
-| Hợp với | Người mê skincare, makeup, thích mỹ phẩm Hàn |
-| Thời gian nên dành | 2–4 giờ (mua sắm), 2–3 giờ (workshop) |
-| Đi mùa nào hợp | Quanh năm |
-| Có cần đặt trước không | Cần đặt workshop, không cần mua sắm |
+Myeongdong là thiên đường mỹ phẩm, không bàn cãi. Hàng chục cửa hàng của Innisfree, Laneige, Sulwhasoo, Etude House nằm san sát nhau, nhân viên tư vấn nói tiếng Anh, Trung, Nhật thoải mái. Mẹo nhỏ của mình là đừng vội mua ở cửa hàng đầu tiên — đi hết dãy phố rồi hãy quyết định, vì chương trình khuyến mãi mua 1 tặng 1 khác nhau giữa các shop, và sample tặng kèm cũng khác.
 
-## Trải nghiệm K-beauty có gì?
+**Học makeup tại JUNGSAEMMOOL 101**
 
-### Mua sắm mỹ phẩm Myeongdong
+Nếu bạn muốn học kỹ thuật "glass skin" kiểu Hàn, studio của chuyên gia Jung Saem-mool ở Seongsu là chỗ đáng thử nhất. Lớp học kéo dài 2–3 giờ, hướng dẫn từng bước từ dưỡng da đến trang điểm hoàn chỉnh. Có hướng dẫn viên nói tiếng Anh nên bạn đừng lo. Giá không rẻ, nhưng theo mình là xứng đáng vì bạn học được kỹ thuật chứ không chỉ được makeup cho.
 
-Myeongdong là thiên đường mỹ phẩm với hàng chục cửa hàng của các thương hiệu Hàn Quốc như Innisfree, Laneige, Sulwhasoo, Etude House, Missha. Đường phố Myeongdong có nhiều nhân viên tư vấn đa ngôn ngữ.
+**Tư vấn Personal Color**
 
-**Mẹo:** Các cửa hàng thường có khuyến mãi mua 1 tặng 1 hoặc tặng sample. Nên so sánh giá giữa các cửa hàng trước khi mua — đôi khi cùng một sản phẩm nhưng mức giảm giá khác nhau.
+Personal color analysis giúp bạn biết mình thuộc tông màu nào (xuân, hạ, thu, đông) và nên chọn son, phấn mắt, quần áo ra sao. Mình thấy dịch vụ này khá thú vị, nhất là với bạn nào hay phân vân khi mua mỹ phẩm. Các studio như Atelier Su (Mapo) hoặc một số cửa hàng cao cấp có làm dịch vụ này. Nhưng thành thật mà nói, nếu bạn đã biết rõ tông da của mình thì có thể skip để dành thời gian cho mục khác.
 
-### Học makeup tại JUNGSAEMMOOL 101 (Seongsu)
+**Lịch trình 1 ngày làm đẹp**
 
-JUNGSAEMMOOL 101 là studio của chuyên gia trang điểm nổi tiếng Jung Saem-mool — người từng makeup cho nhiều ngôi sao K-pop và diễn viên Hàn Quốc. Lớp học kéo dài 2–3 giờ, hướng dẫn kỹ thuật "glass skin" và makeup Hàn Quốc.
+Buổi sáng đi personal color analysis ở Mapo hoặc Seongsu, trưa ăn quanh khu Seongsu (nhiều quán cà phê cực kỳ xịn), chiều học makeup tại JUNGSAEMMOOL 101, cuối chiều tranh thủ Myeongdong mua sắm. Tối về khách sạn ngồi ngắm chiến lợi phẩm — cảm giác rất chi là tự thưởng.
 
-### Tư vấn Personal Color
+**Mấy cái cần nhớ**
 
-Personal color analysis là dịch vụ xác định tông màu da phù hợp nhất với bạn (mùa xuân, hạ, thu, đông). Dịch vụ có tại các studio như Atelier Su (Mapo) hoặc một số cửa hàng mỹ phẩm cao cấp. Kết quả giúp bạn chọn màu son, phấn mắt và quần áo phù hợp.
+Workshop makeup và personal color analysis nhớ đặt trước qua website hoặc Klook, chứ tới nơi xếp hàng thì hên xui lắm. Mỹ phẩm chỉ mua tại cửa hàng thương hiệu chính hãng, đừng ham rẻ mua ngoài vỉa hè. Budget cụ thể bao nhiêu thì bạn nên check trực tiếp trên website, vì giá thay đổi theo mùa.
 
-## Lịch trình 1 ngày làm đẹp
+**Kết hợp với đâu cho trọn vẹn?**
 
-- **9:00–11:00:** Personal color analysis (Mapo hoặc Seongsu).
-- **11:30–13:00:** Ăn trưa tại khu Seongsu (nhiều quán cà phê đẹp).
-- **13:30–15:30:** Workshop makeup tại JUNGSAEMMOOL 101.
-- **16:00–18:00:** Mua sắm mỹ phẩm Myeongdong.
-- **19:00:** Tối về khách sạn, dùng thử sản phẩm mới mua.
-
-## Lưu ý
-
-- **Đặt trước:** Workshop makeup và personal color analysis cần đặt trước qua website hoặc Klook. Myeongdong shopping không cần đặt.
-- **Mỹ phẩm giả:** Mua tại cửa hàng thương hiệu chính hãng, không mua ngoài vỉa hè.
-- **Ngôn ngữ:** JUNGSAEMMOOL 101 có hướng dẫn tiếng Anh. Personal color analysis thường có bảng màu và hình ảnh.
-- **Budget:** Workshop makeup và personal color có giá dao động. Bạn nên kiểm tra trên website chính thức trước khi đặt.
-
-## Nên kết hợp với đâu?
-
-Myeongdong nằm gần [khu ẩm thực chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md" >}}) và [N Seoul Tower]({{< ref "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md" >}}). Seongsu gần [khu quay phim Common Ground]({{< ref "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md" >}}) và các quán cà phê K-drama. [Thuê Hanbok]({{< ref "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md" >}}) buổi sáng và K-beauty buổi chiều là một ngày văn hóa + làm đẹp lý tưởng.
+Myeongdong nằm gần [khu ẩm thực chợ Gwangjang]({{< ref "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md" >}}) và [N Seoul Tower]({{< ref "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md" >}}). Seongsu cũng gần [Common Ground]({{< ref "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md" >}}) — bối cảnh quen thuộc trong mấy MV K-pop. Nếu bạn thuê [Hanbok]({{< ref "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md" >}}) buổi sáng rồi K-beauty buổi chiều, đó là một ngày vừa truyền thống vừa hiện đại, quá đã.

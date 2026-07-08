@@ -74,62 +74,43 @@ image_owner: external
 slug: udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay
 ---
 
-Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm nghỉ dưới chân Seongsan Ilchulbong này có một sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng và view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.
+Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm dưới chân Seongsan Ilchulbong có sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng, view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.
 
 Nếu bạn đang xem [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Udo là điểm đến không thể bỏ qua khi ở Jeju.
 
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Seongsan-eup, phía đông Jeju |
-| Loại trải nghiệm | Đảo, biển, đi xe đạp, ngắm cảnh |
-| Hợp với | Cặp đôi, đi một mình, người thích chụp ảnh |
-| Thời gian nên dành | Nửa ngày (4–6 giờ) |
-| Lưu ý mùa hè | Nắng gắt giữa trưa, nên đi sáng sớm hoặc chiều muộn |
-
 ## Có gì đáng đi?
 
-Udo có bốn bãi biển chính, trong đó nổi bật nhất là Seobinbaeksa với bãi cát san hô trắng hiếm thấy. Bờ biển phía đông là những vách đá đen được tạo thành từ dung nham núi lửa — tương phản mạnh với màu xanh của nước biển.
+Udo có bốn bãi biển chính, nổi bật nhất là Seobinbaeksa với bãi cát san hô trắng hiếm thấy. Bờ biển phía đông là những vách đá đen từ dung nham núi lửa — tương phản mạnh với nước biển xanh.
 
-Hải đăng Udobong nằm trên đỉnh đồi cao nhất đảo, từ đây bạn có thể nhìn thấy toàn bộ đảo Udo và núi Hallasan ở phía xa. Vào những ngày trời trong, tầm nhìn rất xa.
+Hải đăng Udobong nằm trên đỉnh đồi cao nhất, từ đây nhìn thấy toàn bộ đảo và núi Hallasan phía xa. Trời trong thì tầm nhìn rất xa.
 
-Điểm đặc biệt: kem lạc Udo (_ttang kong_) — một loại kem đậu phộng địa phương mà hầu như ai lên đảo cũng thử. Giá khoảng 3.000–4.000 KRW/que.
+Điểm đặc biệt: kem lạc Udo (kem đậu phộng) — hầu như ai lên đảo cũng thử. Giá khoảng 3.000–4.000 KRW/que, theo mình khá ngon và đáng để thử.
 
 ## Nên đi khi nào?
 
-Tháng 5 đến tháng 10 là thời điểm lý tưởng. Mùa hè (tháng 7–8) nước ấm, thích hợp tắm biển. Tuy nhiên, đây cũng là mùa cao điểm nên phà thường đông.
+Tháng 5 đến tháng 10 là lý tưởng. Mùa hè nước ấm, thích hợp tắm biển nhưng cũng là cao điểm — phà thường đông.
 
-Trong ngày, nên đi chuyến phà sớm nhất (khoảng 7:30–8:00) để tránh nắng và đông đúc. Trưa nắng rất gay gắt vì đảo ít bóng cây.
+Nên đi chuyến phà sớm nhất (khoảng 7:30–8:00) để tránh nắng và đông. Trưa nắng rất gay gắt vì đảo ít bóng cây — nhớ mang nước và kem chống nắng.
 
 ## Cách đi gợi ý
 
-Từ Jeju City, đi xe bus đến cảng Seongsan (Seongsan Port) mất khoảng 1 giờ. Phà từ Seongsan sang Udo mất 15 phút. Có hai hãng phà luân phiên — giá vé khứ hồi khoảng 7.700 KRW/người lớn.
+Từ Jeju City đi bus đến cảng Seongsan khoảng 1 giờ. Phà từ Seongsan sang Udo mất 15 phút. Vé khứ hồi khoảng 7.700 KRW/người lớn.
 
-Trên đảo, không được phép mang ô tô cá nhân. Bạn có thể:
-- Thuê xe đạp (khoảng 10.000 KRW/giờ)
-- Thuê xe điện/golf cart (cần bằng lái quốc tế)
-- Đi bus tour vòng quanh đảo
+Trên đảo không được mang ô tô cá nhân. Bạn có thể thuê xe đạp (khoảng 10.000 KRW/giờ), xe điện (cần bằng lái quốc tế), hoặc đi bus tour.
 
-## Lịch trình nửa ngày gợi ý
+## Lịch trình nửa ngày
 
-- 7:00: Đến Seongsan Ilchulbong, leo lên đón bình minh
-- 8:30: Xuống cảng, mua vé phà đi Udo
-- 9:00: Đến Udo, thuê xe đạp hoặc xe điện
-- 9:00–11:30: Chạy vòng quanh đảo, ghé các bãi biển, hải đăng
-- 11:30: Ăn trưa nhẹ, thử kem lạc Udo
-- 12:30: Lên phà về Seongsan
+7:00 đến Seongsan Ilchulbong leo đón bình minh. 8:30 xuống cảng mua vé phà. 9:00 đến Udo, thuê xe. 9:00–11:30 chạy vòng quanh đảo, ghé các bãi biển và hải đăng. 11:30 ăn trưa, thử kem lạc. 12:30 lên phà về Seongsan.
 
 ## Lưu ý
 
-- **Mang passport**: Bạn cần passport để mua vé phà.
-- **Chống nắng**: Đội mũ, bôi kem chống nắng, mang nước uống.
-- **Giờ phà**: Chuyến cuối từ Udo về Jeju khoảng 17:30–18:00 tùy mùa. Kiểm tra giờ cụ thể tại cảng.
-- **Giày dép**: Nên đi giày thể thao nếu định đạp xe, kèm dép xỏ ngón cho bãi biển.
+- **Passport:** Cần mang theo để mua vé phà.
+- **Chống nắng:** Đội mũ, bôi kem, mang nước uống.
+- **Giờ phà:** Chuyến cuối từ Udo về Jeju khoảng 17:30–18:00 tùy mùa. Kiểm tra trước kẻo lỡ.
+- **Giày dép:** Nên đi giày thể thao nếu định đạp xe, kèm dép xỏ ngón cho bãi biển.
 
 ## Nên kết hợp với đâu?
 
-- **Seongsan Ilchulbong**: Nên đi Udo sau khi leo Seongsan sáng sớm. Hai điểm cách nhau 5 phút đi bộ.
-- **Jungmun Beach**: Có thể ghé Jungmun vào ngày khác nếu bạn ở Jeju dài hơn. Xem thêm [Jungmun Beach Jeju]({{< ref "posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md" >}}).
-- **Shinhwa Theme Park**: Nếu đi cùng gia đình, Shinhwa là điểm kết hợp tốt. Xem thêm [Shinhwa Theme Park Jeju]({{< ref "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md" >}}).
-- Các điểm Jeju khác trong [danh sách chính]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}).
+- **Seongsan Ilchulbong:** Leo núi ngắm bình minh rồi sang Udo — hai điểm cách nhau 5 phút đi bộ.
+- [Jungmun Beach]({{< ref "posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md" >}}): Ghé vào ngày khác nếu ở Jeju dài hơn
+- [Shinhwa Theme Park]({{< ref "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md" >}}): Kết hợp nếu đi cùng gia đình

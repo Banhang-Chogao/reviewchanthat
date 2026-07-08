@@ -56,32 +56,34 @@ thumbnail: https://images.unsplash.com/photo-1553729459-afe8e2e1a6e0?w=800&q=80
 title: Cách xây dựng thói quen mua sắm thông minh
 ---
 
-Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Dưới đây là những thói quen giúp bạn làm được điều đó.
+Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Nghe đơn giản, nhưng mình mất kha khá thời gian mới áp dụng được. Dưới đây là những thói quen giúp bạn làm được điều đó.
 
-## 1. Nguyên tắc 30 ngày
+### Nguyên tắc 30 ngày
 
-Với bất kỳ món đồ nào trên 1 triệu đồng, hãy đợi 30 ngày trước khi mua. Nếu sau 30 ngày bạn vẫn thấy cần, hãy mua. Nếu không, bạn vừa tiết kiệm được một khoản tiền.
+Với bất kỳ món đồ nào trên 1 triệu đồng, hãy đợi 30 ngày trước khi mua. Nếu sau 30 ngày bạn vẫn thấy cần, hãy mua. Còn không, bạn vừa tiết kiệm được một khoản.
 
-## 2. Danh sách mua sắm
+Mình áp dụng nguyên tắc này từ hồi đại học và nó đã cứu mình khỏi không biết bao nhiêu lần mua sắm bốc đồng. Có những món tưởng "cần lắm rồi" nhưng sau 2 tuần đã quên mất nó tồn tại.
 
-Luôn đi mua sắm với một danh sách cụ thể. Đừng để cửa hàng quyết định bạn mua gì qua các chương trình khuyến mãi.
+### Luôn có danh sách trước khi mua
 
-## 3. Định mức chi tiêu mỗi tháng
+Đi mua sắm mà không có danh sách thì khác nào lạc vào ma trận. Cửa hàng sẽ quyết định bạn mua gì qua các chương trình khuyến mãi, chứ không phải bạn. Hãy viết danh sách trước và bám sát nó. Nếu thấy món không có trong danh sách mà "cũng hay hay", hãy chụp lại và về nhà suy nghĩ thêm.
 
-Dành ra một khoản cố định cho mua sắm cá nhân mỗi tháng. Khi hết là dừng. Không mượn từ tháng sau.
+### Định mức chi tiêu mỗi tháng
 
-## 4. So sánh trước khi mua
+Dành ra một khoản cố định cho mua sắm cá nhân mỗi tháng. Khi hết là dừng. Không mượn từ tháng sau. Cách này giúp bạn kiểm soát chi tiêu mà không cần quá nhiều kỷ luật — chỉ cần một con số và một ranh giới.
 
-Dành 15 phút so sánh giá trên ít nhất 3 nền tảng trước khi quyết định. 15 phút này có thể tiết kiệm cho bạn 10-20% chi phí.
+### So sánh trước khi mua
 
-## 5. Tránh mua sắm theo cảm xúc
+Dành 15 phút so sánh giá trên ít nhất 3 nền tảng. Mình từng thấy cùng một sản phẩm chênh lệch đến 20% giữa các sàn. 15 phút đó đáng giá đấy. Bạn có thể xem thêm [checklist trước khi mua online](/posts/checklist-truoc-khi-mua-mot-san-pham-online/) để biết chi tiết từng bước.
 
-Không mua đồ khi đang buồn, chán, hay vui quá mức. Cảm xúc là kẻ thù của quyết định tài chính sáng suốt.
+### Tránh mua sắm theo cảm xúc
 
-## 6. Học cách nói "không" với sale
+Không mua đồ khi đang buồn, chán, hay vui quá mức. Cảm xúc là kẻ thù của quyết định tài chính sáng suốt. Nếu bạn đang có tâm trạng bất thường, hãy đóng tab mua sắm lại và đi làm việc khác. Ngày mai tỉnh táo hãy quyết định.
 
-Không sao cả. Bạn không cần món đồ đó. "Không" là câu nói quyền năng nhất trong mua sắm thông minh.
+### Học cách nói "không"
 
----
+Với sale, với khuyến mãi, với "chỉ hôm nay". "Không" là câu nói quyền năng nhất trong mua sắm thông minh. Bạn không cần món đồ đó. Thật đấy. Nhân viên sale được đào tạo để khiến bạn mua — bạn cũng nên được đào tạo để từ chối.
 
-**Kết luận:** Mua sắm thông minh là một kỹ năng, có thể rèn luyện mỗi ngày. Bắt đầu từ hôm nay, bạn sẽ thấy sự khác biệt trong tài khoản ngân hàng của mình sau 6 tháng.
+### Kết luận
+
+Mua sắm thông minh là một kỹ năng có thể rèn luyện mỗi ngày. Bắt đầu từ hôm nay: áp dụng nguyên tắc 30 ngày cho món đồ tiếp theo bạn định mua. Sau 6 tháng, bạn sẽ thấy sự khác biệt trong tài khoản ngân hàng của mình.

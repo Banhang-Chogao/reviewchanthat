@@ -76,61 +76,42 @@ image_owner: external
 slug: gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi
 ---
 
-Gwangalli Beach là đại diện thứ hai của Busan trong top 10. Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan (Gwangandaegyo) bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm, tạo nên một khung cảnh mà bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.
+Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm — khung cảnh bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.
 
-Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Gwangalli đứng thứ ba và là lựa chọn số một nếu bạn muốn kết hợp tắm biển và ngắm thành phố về đêm.
-
-## Tóm tắt nhanh
-
-| Thông tin | Chi tiết |
-|-----------|---------|
-| Khu vực | Suyeong-gu, Busan |
-| Loại trải nghiệm | Bãi biển, cà phê, ngắm cầu đêm, hải sản |
-| Hợp với | Cặp đôi, nhóm bạn, người thích ảnh đẹp |
-| Thời gian nên dành | Chiều tối (17:00–22:00) |
-| Lưu ý mùa hè | Đông vào cuối tuần, nên tới trước 17:00 để có chỗ ngồi đẹp |
+Trong [danh sách 10 điểm tránh nóng mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Gwangalli đứng thứ ba và theo mình là lựa chọn số một nếu bạn muốn kết hợp tắm biển với ngắm thành phố về đêm.
 
 ## Có gì đáng đi?
 
-**Ngắm cầu Gwangan về đêm**: Đây là điểm nhấn tuyệt đối. Cầu được thắp sáng bằng 13.000 bóng LED với các chủ đề màu thay đổi theo mùa. Từ bãi biển nhìn ra, toàn bộ cầu như một dải ánh sáng vắt ngang mặt biển.
+**Ngắm cầu Gwangan về đêm:** Đây là điểm nhấn tuyệt đối. Cầu được thắp sáng bằng 13.000 bóng LED với chủ đề màu thay đổi theo mùa. Từ bãi biển nhìn ra, cả cầu như một dải ánh sáng vắt ngang mặt biển.
 
-**Drone light show**: Chương trình Gwangalli M Drone Light Show diễn ra vào tối thứ 7 hằng tuần với khoảng 1.000 drone bay tạo hình trên bầu trời. Không có lịch cố định cả năm, cần kiểm tra trước khi đi.
+**Drone light show:** Chương trình Gwangalli M Drone Light Show diễn ra tối thứ 7 với khoảng 1.000 drone bay tạo hình. Lịch không cố định, nên kiểm tra trước.
 
-**Millak Raw Fish Street**: Cuối bãi biển Gwangalli là khu chợ hải sản tươi sống Millak, nơi bạn có thể chọn cá và nhờ chế biến ngay tại chỗ. Giá dao động tùy loại cá.
+**Millak Raw Fish Street:** Cuối bãi biển là chợ hải sản tươi sống Millak — chọn cá, nhờ chế biến ngay tại chỗ. Giá tùy loại nhưng theo mình chất lượng rất tốt so với mặt bằng chung.
 
-**Quán cà phê view biển**: Dọc bờ biển Gwangalli là hàng loạt quán cà phê và nhà hàng có view nhìn thẳng ra cầu và biển. Đây là đặc điểm khiến Gwangalli trở nên khác biệt so với Haeundae.
+**Quán cà phê view biển:** Dọc bờ biển có hàng loạt quán view thẳng ra cầu — đây là điểm khiến Gwangalli khác biệt so với Haeundae.
 
 ## Nên đi khi nào?
 
-Gwangalli đẹp nhất vào chiều tối. Khoảng 17:00–18:00 là thời điểm bắt đầu lý tưởng: trời dịu nắng, bạn có thể đi dạo hoặc uống cà phê trước khi trời tối và cầu lên đèn.
+Gwangalli đẹp nhất chiều tối. Khoảng 17:00–18:00 là lúc lý tưởng — trời dịu nắng, đi dạo hoặc uống cà phê trước khi cầu lên đèn.
 
-Mùa hè, mặt trời lặn khoảng 19:30–20:00. Đây cũng là lúc Gwangalli đông nhất, vì vậy nếu muốn chụp ảnh vắng người, hãy đến vào chiều thứ 2–5.
-
-Nếu bạn muốn xem drone show, cần kiểm tra lịch cụ thể trên website du lịch Busan.
+Mùa hè mặt trời lặn khoảng 19:30–20:00. Đây cũng là lúc Gwangalli đông nhất. Nếu muốn chụp ảnh vắng người, đến chiều thứ 2–5.
 
 ## Cách đi gợi ý
 
-- **Metro**: Tuyến số 2, ga Gwangan, lối ra 3 hoặc 5, đi bộ 10–12 phút.
-- **Bus**: Số 41, 42, 140, 239, 240.
-- **Từ Haeundae**: Taxi khoảng 10–15 phút, ít tốn kém.
+Metro tuyến số 2, ga Gwangan, lối ra 3 hoặc 5, đi bộ 10–12 phút. Từ Haeundae đi taxi khoảng 10–15 phút, không tốn kém.
 
-## Lịch trình chiều tối gợi ý
+## Lịch trình chiều tối
 
-- 16:30: Đến Gwangalli, đi dạo dọc bờ biển
-- 17:00: Vào quán cà phê view cầu, uống đồ uống mát
-- 18:30: Đi bộ sang Millak Raw Fish Street ăn hải sản
-- 20:00: Ra bãi biển ngắm cầu lên đèn, chụp ảnh
-- 21:00: Nếu là thứ 7, xem drone light show
+16:30 đến Gwangalli, đi dạo dọc bờ biển. 17:00 vào quán cà phê view cầu. 18:30 đi bộ sang Millak ăn hải sản. 20:00 ra bãi biển ngắm cầu lên đèn. Nếu là thứ 7, xem drone show lúc 21:00.
 
 ## Lưu ý
 
-- **Giờ an toàn bơi**: Tương tự Haeundae, thường từ 9:00–18:00. Tuy nhiên, đa số du khách đến Gwangalli không tắm muộn.
-- **Đồ ăn nhẹ**: Mang theo đồ uống vì quán cà phê dọc bờ biển có thể đông khách vào tối thứ 7.
-- **Giày dép**: Đi giày thoải mái vì quãng đường đi bộ dọc biển khá dài.
+- **Giờ bơi an toàn:** 9:00–18:00, nhưng đa số du khách đến Gwangalli không tắm muộn.
+- **Giày dép:** Quãng đường đi bộ dọc biển khá dài, nên đi giày thoải mái.
+- **Cuối tuần:** Quán cà phê rất đông, nên đến sớm để có chỗ đẹp.
 
 ## Nên kết hợp với đâu?
 
-- **Haeundae Beach**: Hai bãi biển cách nhau khoảng 2,5 km, có thể kết hợp trong ngày. Xem thêm [Haeundae Beach Busan]({{< ref "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md" >}}).
-- **Cheongsapo**: Ghé Cheongsapo ban ngày, tối trở về Gwangalli. Xem thêm [Cheongsapo Busan]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}}).
-- **Club D Oasis**: Spa và infinity pool nếu bạn muốn thư giãn cuối ngày. Xem thêm [Club D Oasis Busan]({{< ref "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md" >}}).
-- Xem toàn bộ [danh sách điểm tránh nóng ở Hàn Quốc]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}).
+- [Haeundae Beach]({{< ref "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md" >}}): Hai bãi cách nhau 2,5 km, có thể kết hợp trong ngày
+- [Cheongsapo]({{< ref "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md" >}}): Ghé ban ngày, tối về Gwangalli
+- [Club D Oasis]({{< ref "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md" >}}): Spa và infinity pool thư giãn trước khi ra biển tối

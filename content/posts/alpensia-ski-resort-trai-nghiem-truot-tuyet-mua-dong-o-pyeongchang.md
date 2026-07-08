@@ -55,47 +55,39 @@ internal_links:
   ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
 ---
 
-Alpensia Ski Resort tọa lạc ở độ cao 700 m tại Daegwallyeong, Pyeongchang — cùng khu vực với Yongpyong nhưng mang một trải nghiệm khác. Alpensia từng là nơi tổ chức các nội dung thi đấu tại Olympic mùa đông PyeongChang 2018, nhưng ngày nay resort này hướng đến đối tượng gia đình và người muốn kết hợp trượt tuyết với nghỉ dưỡng.
+Alpensia và Yongpyong nằm cùng khu vực Pyeongchang, nhưng trải nghiệm hoàn toàn khác nhau. Nếu bạn đã đọc bài [Yongpyong]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}), bạn biết đó là resort lớn, chuyên sâu, cho dân trượt có kinh nghiệm. Alpensia thì ngược lại — nhỏ hơn, yên tĩnh hơn, và thiên về nghỉ dưỡng gia đình.
 
-## Vị trí và di chuyển
-
-Alpensia nằm tại 325 Solbong-ro, Daegwallyeong-myeon, Pyeongchang-gun, Gangwon-do. Từ Seoul đi ô tô hoặc bus liên tỉnh mất khoảng 3–3,5 giờ. Có shuttle bus từ Seoul theo mùa — kiểm tra trên website alpensia.com.
-
-Nếu đi KTX, bạn xuống ga Jinbu (tuyến Gyeonggang) rồi bắt taxi đến resort (khoảng 25 phút).
+Alpensia từng là địa điểm Olympic mùa đông 2018. Nhưng ngày nay nó được định vị như một khu nghỉ dưỡng tổng hợp hơn là điểm trượt thuần túy.
 
 ## Ai nên chọn Alpensia?
 
-- **Gia đình có trẻ em**: Có beginner-exclusive slope Alpha và lift riêng, free helmet cho thanh thiếu niên, khu water park Ocean700 giải trí ngoài giờ trượt
-- **Người muốn trượt + nghỉ dưỡng**: Có InterContinental Hotel, spa, nhà hàng
-- **Người muốn tránh đông đúc**: Alpensia thường ít đông hơn Yongpyong (theo các review)
-- **Người mới tập trượt**: Slope Alpha dành riêng cho beginner, có ski school
+Theo mình, Alpensia hợp với bạn nhất nếu bạn thuộc một trong ba nhóm này.
 
-Ai không nên chọn: Người trượt cao cấp muốn slope dài và thử thách (chỉ 6 slope). Người muốn day trip từ Seoul (quá xa).
+Một: gia đình có trẻ em. Alpensia có slope Alpha dành riêng cho beginner với lift riêng, free helmet cho thanh thiếu niên. Tất cả lift đều có U-Block chống rơi — an tâm hơn nếu cho con tập.
 
-## Điểm mạnh
+Hai: bạn muốn kết hợp trượt với nghỉ dưỡng. Ocean700 — công viên nước trong nhà — là điểm cộng lớn. Nếu đi cùng người không trượt, họ có chỗ chơi thay vì ngồi chờ cả ngày. InterContinental Hotel, spa, nhà hàng — đủ cho 2-3 ngày không chán.
 
-Alpensia có 6 slope chính thức với thiết kế an toàn: tất cả lift đều có U-Block chống rơi cho trẻ em. Khu vực Apron rộng 100.000 m² vào mùa hè biến thành vườn hoa — nhưng vào mùa đông là không gian trượt tuyết thoải mái.
+Ba: bạn muốn tránh đám đông của Yongpyong. Alpensia chỉ có 6 slope, nên khách ít hơn hẳn. Thời gian chờ lift ngắn — trượt được nhiều hơn.
 
-Resort có hệ thống y tế liên kết với bệnh viện đa khoa — an tâm nếu có sự cố. Thời gian chờ lift ngắn hơn các resort lớn nhờ lượng khách vừa phải.
+## Và ai không nên chọn?
 
-Ngoài trượt tuyết, bạn có thể kết hợp Ocean700 (công viên nước trong nhà) — một lựa chọn tốt nếu đi cùng người không trượt tuyết.
+Người trượt cao cấp — 6 slope, dù có từ beginner đến expert, cũng không đủ cho bạn trượt 2-3 ngày. Bạn sẽ thấy nhàm.
 
-## Điểm cần cân nhắc
+Người muốn day trip từ Seoul — Alpensia cách Seoul khoảng 200 km, mất 3-3,5 giờ. Đi về trong ngày thì mệt hơn trượt. Nên ở lại ít nhất 1 đêm.
 
-Xa Seoul. Ít slope — người trượt trung cấp trở lên có thể cảm thấy nhàm nếu ở nhiều ngày. Dịch vụ ăn uống trong resort không đa dạng bằng Yongpyong.
+## Di chuyển
 
-Lịch mở cửa và giá vé thay đổi theo mùa và điều kiện tuyết — cần kiểm tra trước.
+Từ Seoul có thể đi ô tô, bus liên tỉnh, hoặc shuttle bus theo mùa (kiểm tra trên alpensia.com). Nếu đi KTX, xuống ga Jinbu (tuyến Gyeonggang) rồi taxi khoảng 25 phút.
 
-## Gợi ý lịch trình
+## Mấy điểm trừ
 
-**2 ngày 1 đêm**:
+Alpensia xa Seoul — không thể linh hoạt như Elysian hay Vivaldi. Dịch vụ ăn uống trong resort cũng không đa dạng bằng Yongpyong. Và đã nói rồi — ít slope.
+
+Cá nhân mình thấy nếu bạn đi gia đình hoặc cặp đôi muốn một chuyến nghỉ dưỡng mùa đông có trượt tuyết nhẹ nhàng, Alpensia là lựa chọn rất tốt. Nếu bạn đi vì đam mê trượt, hãy chọn Yongpyong hoặc High1.
+
+## Gợi ý lịch 2 ngày 1 đêm
+
 - Ngày 1: Đến trưa, nhận phòng, trượt chiều, tối đi Ocean700 hoặc spa
 - Ngày 2: Trượt sáng, ăn trưa, trả đồ, tham quan Daegwallyeong trước khi về
 
-## Checklist trước khi đi
-
-- Kiểm tra lịch mở cửa trên alpensia.com
-- Đặt phòng InterContinental hoặc condo trước mùa đông
-- Nếu đi cùng người không trượt, xem combo ski + Ocean700
-- Đồ giữ nhiệt, găng tay chống nước, kính trượt, bảo hiểm du lịch
-
+Đặt phòng trước — mùa đông hay full. Check lịch mở cửa trên alpensia.com. Đừng quên bảo hiểm du lịch.
