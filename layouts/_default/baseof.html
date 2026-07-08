@@ -33,6 +33,8 @@
   {{ if $isBlogPost }}{{ partial "scroll-jump.html" . }}{{ end }}
   {{ $siteJs := resources.Get "js/site.js" | minify | fingerprint }}
   <script src="{{ $siteJs.RelPermalink }}" integrity="{{ $siteJs.Data.Integrity }}" defer></script>
+  {{ $clockJs := resources.Get "js/live-clock.js" | minify | fingerprint }}
+  <script src="{{ $clockJs.RelPermalink }}" integrity="{{ $clockJs.Data.Integrity }}" defer></script>
   {{ $searchJs := resources.Get "js/search.js" | minify | fingerprint }}
   <script src="{{ $searchJs.RelPermalink }}" integrity="{{ $searchJs.Data.Integrity }}" defer></script>
   {{ if $isBlogPost }}
