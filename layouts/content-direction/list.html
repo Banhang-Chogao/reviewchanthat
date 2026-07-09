@@ -48,7 +48,7 @@
             <tr>
               <td>{{ $cat }}</td>
               <td>{{ $count }}</td>
-              <td>{{ lang.FormatNumber 0 (div (mul $count 100) $.overview.total_posts) }}%</td>
+              <td>{{ lang.FormatNumber 0 (div (mul $count 100) (math.Max $data.overview.total_posts 1)) }}%</td>
             </tr>
             {{ end }}
             </tbody>
