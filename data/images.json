@@ -3170,6 +3170,34 @@
       "image_total_score": 67.76,
       "image_alt": "Ảnh minh họa Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất? — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
+      "title": "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident",
+      "image_id": "img-self-recovered-july-9",
+      "source_platform": "self",
+      "image_provider": "self",
+      "source_url": "https://banhang-chogao.github.io/reviewchanthat/images/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.webp",
+      "direct_url": "",
+      "creator": "",
+      "creator_url": "",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "self-owned",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.webp",
+      "output_path": "static/images/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.webp",
+      "watermark_text": "",
+      "provider_used": "self",
+      "attribution_verified": false,
+      "attribution_source": "not_found",
+      "image_query": "",
+      "image_semantic_score": 0.0,
+      "image_color_score": 0.0,
+      "image_total_score": 50.0,
+      "image_alt": "Editorial illustration showing the GitHub Actions CI/CD pipeline back to a healthy operational state after recovery from the July 9, 2026 incident.",
+      "gate_verified": true
     }
   ]
 }
