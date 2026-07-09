@@ -6,9 +6,9 @@ categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
 draft = false
-image = ""
-thumbnail = ""
-image_status = "needs_image"
+image = "images/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.webp"
+thumbnail = "images/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.webp"
+image_status = "verified"
 related_posts = [
   "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"
 ]
@@ -33,6 +33,20 @@ items = [
   "Hook trong 3 giây đầu là tất cả—nếu người xem không dừng lại, họ sẽ scroll qua, không quan tâm nội dung sâu sắc.",
   "Call-to-action phải là link blog trong bio, không phải \"follow để xem phần tiếp theo\" vì mục đích cuối cùng là tối ưu hóa conversion từ TikTok về blog của bạn."
 ]
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/smiling-man-with-smartphone-and-microphone-14772069/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Benjamin  Dominguez"
+image_creator_url = "https://www.pexels.com/@benjamin-dominguez-3363409"
+image_creator_id = "3363409"
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_alt = "Ảnh minh họa — Pexels / Benjamin  Dominguez"
+
 +++
 
 Nếu bạn đã xây dựng một blog Hugo với nội dung chất lượng cao, bước tiếp theo là **đưa nó tới đúng người cần đọc.**

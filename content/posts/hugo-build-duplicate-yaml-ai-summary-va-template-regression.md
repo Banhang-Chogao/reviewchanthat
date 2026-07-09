@@ -19,25 +19,23 @@ description: Gom hugo_build_error, deploy_not_completed, template_or_render_regr
   ai_summary_map_artifact, table_layout_ux_regression, duplicate_yaml_keys — cách
   đọc log assemble và fix an toàn.
 draft: false
-image: images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp
-image_alt: 'Ảnh minh họa Hugo build error: duplicate YAML, ai_summary map[], template
-  regression và deploy không complete — nguồn Pexels'
+image: "images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp"
+image_alt: "Ảnh minh họa — Pexels / Alicia Christin Gerald"
 image_attribution_checked_at: '2026-07-10T04:52:58+07:00'
-image_attribution_source: pexels_api
+image_attribution_source: "pexels_api"
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: Stanislav Kondratiev
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@technobulka
-image_generation_method: context_aware_programmatic_pillow
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
+image_creator: "Alicia Christin Gerald"
+image_creator_id: "1447380217"
+image_creator_url: "https://www.pexels.com/@alicia-christin-gerald-1447380217"
+image_license: "Pexels License"
+image_license_url: "https://www.pexels.com/license/"
+image_owner: "external"
+image_provider: "pexels"
 image_query: hugo build error duplicate yaml
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/screen-with-code-10816120/
-image_status: verified
+image_source: "Pexels"
+image_source_url: "https://www.pexels.com/photo/programming-code-on-laptop-with-developer-hands-37880001/"
+image_status: "verified"
 related_posts:
 - ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
 - baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi
@@ -53,7 +51,7 @@ tags:
 - template
 - CI/CD
 - duplicate keys
-thumbnail: images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp
+thumbnail: "images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp"
 title: 'Hugo build error: duplicate YAML, ai_summary map[], template regression và
   deploy không complete'
 ---

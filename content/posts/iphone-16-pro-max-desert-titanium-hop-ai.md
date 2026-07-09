@@ -16,24 +16,23 @@ date: '2026-07-08 09:20:00+07:00'
 description: 'Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu, phối phụ
   kiện, so với Natural/Black và có nên chọn làm màu chính.'
 draft: false
-image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp
-image_alt: Ảnh minh họa iPhone 16 Pro Max Desert Titanium hợp ai? — nguồn Pexels
+image: "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp"
+image_alt: "Ảnh minh họa — Pexels / Saliha Büyükkaya Gülhan"
 image_attribution_checked_at: '2026-07-10T04:53:00+07:00'
-image_attribution_source: pexels_api
+image_attribution_source: "pexels_api"
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: Arpit Brandings
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@arpit-brandings-1363149455
-image_generation_method: programmatic_pillow
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
+image_creator: "Saliha Büyükkaya Gülhan"
+image_creator_id: "42708724"
+image_creator_url: "https://www.pexels.com/@sa72"
+image_license: "Pexels License"
+image_license_url: "https://www.pexels.com/license/"
+image_owner: "external"
+image_provider: "pexels"
 image_query: iphone 16 pro max desert
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/smartphone-mockup-on-sandy-log-in-kamala-beach-31833728/
-image_status: verified
+image_source: "Pexels"
+image_source_url: "https://www.pexels.com/photo/a-person-sitting-at-a-round-table-using-a-laptop-11556293/"
+image_status: "verified"
 inline_illustrations:
 - heading: Bảng tóm tắt nhanh
 - heading: 1. Desert hợp ai về mặt thẩm mỹ?
@@ -94,7 +93,7 @@ tags:
 - Desert Titanium
 - chọn màu
 - màu titan
-thumbnail: images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp
+thumbnail: "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp"
 title: iPhone 16 Pro Max Desert Titanium hợp ai?
 tom_tat_nhanh:
 - label: Màu

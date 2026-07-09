@@ -19,25 +19,23 @@ description: 'Playbook phân loại root cause CI/CD (safe/unsafe): runner delay
   limit, fan-out, QA debt, image pipeline, timezone, Content Direction, Pages lag,
   baseURL, Hugo YAML — kèm 10 bài vệ tinh.'
 draft: false
-image: images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp
-image_alt: 'Ảnh minh họa CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog
-  Hugo trên GitHub Pages — nguồn Pexels'
+image: "images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp"
+image_alt: "Ảnh minh họa — Pexels / Anete Lusina"
 image_attribution_checked_at: '2026-07-10T04:52:56+07:00'
-image_attribution_source: pexels_api
+image_attribution_source: "pexels_api"
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: Zulfugar Karimov
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@zulfugarkarimov
-image_generation_method: context_aware_programmatic_pillow
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
+image_creator: "Anete Lusina"
+image_creator_id: "2202476"
+image_creator_url: "https://www.pexels.com/@anete-lusina"
+image_license: "Pexels License"
+image_license_url: "https://www.pexels.com/license/"
+image_owner: "external"
+image_provider: "pexels"
 image_query: ci cd root cause playbook
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-holding-a-reflective-cd-disc-in-hand-37028744/
-image_status: verified
+image_source: "Pexels"
+image_source_url: "https://www.pexels.com/photo/crop-ethnic-worker-with-notebook-and-laptop-in-street-cafe-5721013/"
+image_status: "verified"
 related_posts:
 - github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code
 - github-api-va-pages-rate-limit-cach-doc-va-giam-tai
@@ -63,7 +61,7 @@ tags:
 - Deployment Doctor
 - Hugo
 - DevOps
-thumbnail: images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp
+thumbnail: "images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp"
 title: 'CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub
   Pages'
 ---
