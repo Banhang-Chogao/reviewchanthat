@@ -96,3 +96,26 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  submit-google-sitemap:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Submit sitemap to Google Search Console
+        continue-on-error: true
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
+          GSC_SITE_URL: "https://banhang-chogao.github.io/reviewchanthat/"
+          GSC_SITEMAP_URL: "https://banhang-chogao.github.io/reviewchanthat/sitemap.xml"
+        run: python scripts/submit_google_sitemap.py

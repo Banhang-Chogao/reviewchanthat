@@ -15,6 +15,18 @@
       <a href="{{ "branding-ci/" | relURL }}" class="footer-nav-link">Branding CI</a>
       <a href="{{ "content-direction/" | relURL }}" class="footer-nav-link">SEO Report</a>
       <a href="{{ "deployment-snapshot/" | relURL }}" class="footer-nav-link">Deployment Snapshot</a>
+      <a
+        href="https://github.com/Banhang-Chogao/reviewchanthat/actions/workflows/deploy.yml"
+        class="footer-deploy-badge"
+        aria-label="Deploy to GitHub Pages workflow status"
+        rel="noopener"
+      >
+        <img
+          src="https://github.com/Banhang-Chogao/reviewchanthat/actions/workflows/deploy.yml/badge.svg?branch=main"
+          alt="Deploy to GitHub Pages"
+          loading="lazy"
+        >
+      </a>
       {{ partial "footer-ga4-box.html" . }}
     </nav>
     <div class="footer-tagline">
