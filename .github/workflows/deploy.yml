@@ -78,6 +78,9 @@ jobs:
       - name: Build Hugo
         run: hugo --minify
 
+      - name: Generate posts-only sitemap
+        run: python scripts/gen_posts_sitemap.py --public-dir public
+
       - name: QA sitemap
         run: python scripts/qa_sitemap.py
 
@@ -112,10 +115,10 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Submit sitemap to Google Search Console
+      - name: Submit posts sitemap to Google Search Console
         continue-on-error: true
         env:
           GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
           GSC_SITE_URL: "https://banhang-chogao.github.io/reviewchanthat/"
-          GSC_SITEMAP_URL: "https://banhang-chogao.github.io/reviewchanthat/sitemap.xml"
+          GSC_SITEMAP_URL: "https://banhang-chogao.github.io/reviewchanthat/sitemap-posts.xml"
         run: python scripts/submit_google_sitemap.py
