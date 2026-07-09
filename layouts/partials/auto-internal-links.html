@@ -9,7 +9,8 @@
 {{- $rendered := slice -}}
 {{- if $links -}}
 <section class="auto-internal-links">
-  <details class="auto-internal-links__details" open>
+  {{/* Collapsed by default — user expands via summary (native details/summary, no JS) */}}
+  <details class="auto-internal-links__details">
     <summary class="auto-internal-links__summary">Đọc tiếp trong cùng chủ đề</summary>
     <div class="auto-internal-links__grid">
       {{- range $links -}}
