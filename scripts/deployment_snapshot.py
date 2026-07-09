@@ -67,6 +67,41 @@ def run_gh(args: list[str]) -> str | None:
         return None
 
 
+# Cache PR lookups by commit SHA to avoid repeat gh calls.
+_PR_BY_SHA: dict[str, dict[str, Any] | None] = {}
+
+
+def get_pr_for_sha(sha: str) -> dict[str, Any] | None:
+    """Best-effort: find the PR associated with a commit SHA.
+
+    `gh run list` does not expose a pullRequests field, so correlate
+    separately. Any failure returns None (PR column just shows "—").
+    """
+    if not sha:
+        return None
+    if sha in _PR_BY_SHA:
+        return _PR_BY_SHA[sha]
+
+    pr = None
+    output = run_gh([
+        "pr", "list",
+        "--state", "all",
+        "--search", sha,
+        "--json", "number,title,url,state",
+        "--limit", "1",
+    ])
+    if output:
+        try:
+            data = json.loads(output)
+            if data:
+                pr = data[0]
+        except json.JSONDecodeError:
+            pr = None
+
+    _PR_BY_SHA[sha] = pr
+    return pr
+
+
 def parse_rootcause(logs: str) -> str:
     """Infer rootcause from logs."""
     if not logs:
@@ -105,7 +140,7 @@ def collect_runs(limit: int = 20, from_run_id: str | None = None) -> list[Deploy
             "--limit",
             str(limit * 2),
             "--json",
-            "databaseId,headBranch,headSha,name,conclusion,status,createdAt,updatedAt,url,pullRequests",
+            "databaseId,headBranch,headSha,name,conclusion,status,createdAt,updatedAt,url",
         ])
 
         if not output:
@@ -134,13 +169,12 @@ def collect_runs(limit: int = 20, from_run_id: str | None = None) -> list[Deploy
             pr_url = ""
             pr_status = "unknown"
 
-            prs = run.get("pullRequests", [])
-            if prs:
-                pr = prs[0]
+            pr = get_pr_for_sha(run.get("headSha", ""))
+            if pr:
                 pr_number = pr.get("number")
                 pr_title = pr.get("title", "")
                 pr_url = pr.get("url", "")
-                pr_status = pr.get("state", "unknown").lower()
+                pr_status = str(pr.get("state", "unknown")).lower()
 
             deploy_status = "queued" if status == "queued" else status
             if conclusion == "success":

@@ -25,6 +25,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
   actions: read
 
 jobs:
@@ -80,7 +81,7 @@ jobs:
       - name: Create PR branch
         if: steps.check.outputs.changed == 'true'
         run: |
-          BRANCH="automation/deployment-snapshot-${{ github.run_id }}"
+          BRANCH="ci/deployment-snapshot-${{ github.run_id }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
@@ -89,17 +90,23 @@ jobs:
           git push origin "$BRANCH"
           echo "branch=$BRANCH" >> "$GITHUB_ENV"
 
+      - name: Ensure labels exist
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          gh label create automerge  --color 0e8a16 --description "Auto-merge when checks pass" --force || true
+          gh label create automated  --color ededed --description "Created by automation"        --force || true
+          gh label create deployment --color 1d76db --description "Deployment snapshot update"    --force || true
+
       - name: Create PR
         if: steps.check.outputs.changed == 'true'
         run: |
-          gh pr create \
+          PR_URL=$(gh pr create \
             --base main \
             --head "${{ env.branch }}" \
             --title "chore(deploy): update deployment snapshot" \
-            --body "Automated deployment snapshot update. Checks decide merge eligibility." \
-            --label automerge \
-            --label automated \
-            --label deployment
+            --body "Automated deployment snapshot update. Checks decide merge eligibility.")
+          echo "Created $PR_URL"
+          gh pr edit "$PR_URL" --add-label automerge,automated,deployment || true
 
       - name: Report
         if: steps.check.outputs.changed == 'true'
