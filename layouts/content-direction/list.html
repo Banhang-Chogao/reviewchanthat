@@ -95,7 +95,7 @@ python scripts/qa_content_direction.py</pre>
         </div>
       </div>
       {{ if $opt }}
-      <div class="cd-grid cd-grid-3" style="margin-top:.5rem">
+      <div class="cd-grid cd-grid-4" style="margin-top:.5rem">
         <div class="cd-stat">
           <span class="cd-stat-value">{{ $opt.score_before }} → {{ $opt.score_after }}</span>
           <span class="cd-stat-label">Score change (last run)</span>
@@ -108,7 +108,21 @@ python scripts/qa_content_direction.py</pre>
           <span class="cd-stat-value">{{ $opt.changed_files_count }}</span>
           <span class="cd-stat-label">Files changed</span>
         </div>
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ $opt.safe_count }}</span>
+          <span class="cd-stat-label">Safe (auto-applied)</span>
+        </div>
       </div>
+      {{ if gt $opt.review_skipped_count 0 }}
+      <div class="cd-detail-card cd-detail-card-warn" style="margin-top:.5rem">
+        <p><strong>{{ $opt.review_skipped_count }}</strong> actions skipped (need review)</p>
+      </div>
+      {{ end }}
+      {{ if gt $opt.unsafe_skipped_count 0 }}
+      <div class="cd-detail-card cd-detail-card-warn" style="margin-top:.5rem">
+        <p><strong>{{ $opt.unsafe_skipped_count }}</strong> unsafe actions skipped</p>
+      </div>
+      {{ end }}
       {{ with $opt.last_applied }}
       <div class="cd-detail-card" style="margin-top:1rem">
         <h3>Last applied (top 20)</h3>
@@ -133,16 +147,50 @@ python scripts/qa_content_direction.py</pre>
       </div>
       {{ end }}
       {{ end }}
+      {{ if $opt.generated_at_display }}
+      <p style="margin-top:.5rem;font-size:.8rem;color:var(--muted,#6c757d)">
+        Optimizer report:
+        <a href="/reports/content-direction-optimizer.md" target="_blank">Markdown</a>
+        &bull;
+        <code>reports/content-direction-optimizer.json</code>
+        &bull; Last run: {{ $opt.generated_at_display }}
+      </p>
+      {{ end }}
       <div class="cd-detail-card" style="margin-top:1rem">
         <h3>Component breakdown</h3>
         <table class="cd-table">
-          <thead><tr><th>Component</th><th>Score</th><th>Target</th></tr></thead>
+          <thead><tr><th>Component</th><th>Score</th><th>Target</th><th>Remaining</th></tr></thead>
           <tbody>
           {{ range $key, $val := $score.components }}
           <tr>
             <td>{{ $key }}</td>
             <td>{{ $val }}</td>
-            <td>{{ if eq $key "internal_links" }}25{{ else if eq $key "orphan_posts" }}20{{ else if eq $key "seo_titles" }}15{{ else if eq $key "meta_descriptions" }}15{{ else if eq $key "freshness" }}10{{ else if eq $key "content_gaps" }}10{{ else if eq $key "data_integrity" }}5{{ else }}—{{ end }}</td>
+            <td>
+              {{- if eq $key "internal_links" }}25
+              {{- else if eq $key "orphan_posts" }}20
+              {{- else if eq $key "seo_titles" }}15
+              {{- else if eq $key "meta_descriptions" }}15
+              {{- else if eq $key "freshness" }}10
+              {{- else if eq $key "content_gaps" }}10
+              {{- else if eq $key "data_integrity" }}5
+              {{- else }}—{{ end }}
+            </td>
+            <td>
+              {{- $target := 0 }}
+              {{- if eq $key "internal_links" }}{{ $target = 25 }}
+              {{- else if eq $key "orphan_posts" }}{{ $target = 20 }}
+              {{- else if eq $key "seo_titles" }}{{ $target = 15 }}
+              {{- else if eq $key "meta_descriptions" }}{{ $target = 15 }}
+              {{- else if eq $key "freshness" }}{{ $target = 10 }}
+              {{- else if eq $key "content_gaps" }}{{ $target = 10 }}
+              {{- else if eq $key "data_integrity" }}{{ $target = 5 }}
+              {{- end }}
+              {{- if and (ge $target 1) (lt $val $target) }}
+              <span style="color:#e67e22">{{ sub $target $val }} left</span>
+              {{- else if ge $val $target }}
+              <span style="color:#27ae60">&#10003;</span>
+              {{- end }}
+            </td>
           </tr>
           {{ end }}
           </tbody>

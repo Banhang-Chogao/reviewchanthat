@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-10T00:20:44+07:00",
+  "generated_at_display": "10-07-2026 00:20:44",
+  "score": 90.6,
+  "components": {
+    "seo_titles": 4.0,
+    "meta_descriptions": 12.5,
+    "internal_links": 24.4,
+    "orphan_posts": 19.5,
+    "freshness": 9.9,
+    "content_gaps": 6,
+    "data_integrity": 5.0
+  },
+  "target": 100,
+  "remaining_action_items": 7
+}

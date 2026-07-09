@@ -2,65 +2,62 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Chiang Mai mùa mưa (tháng 6–10) là mùa xanh đẹp nhất trong năm, với cây cối tươi
-    tốt, thác nước đầy và không khí trong lành sau mùa khói bụi.
-  - Các điểm tham quan như Doi Suthep, thác Wachirathan, khu phố Nimman và Old City
-    temples vẫn hoạt động tốt, chỉ cần xếp lịch sáng ngoài trời - chiều indoor.
-  - Nên tránh thuê xe máy (scooter) vì đường trơn và ngập cục bộ; ưu tiên Grab, taxi
-    hoặc thuê ô tô có tài xế.
-  - Lịch trình 3 ngày kết hợp văn hoá (chùa, phố cổ), thiên nhiên (Doi Inthanon, thác)
-    và cafe (Nimman).
-  title: Tóm tắt bài viết
+  items: ["Chiang Mai mùa mưa (tháng 6–10) là mùa xanh đẹp nhất trong năm, với cây cối tươi tốt, thác nước đầy và không khí trong lành sau mùa khói bụi.", "Các điểm tham quan như Doi Suthep, thác Wachirathan, khu phố Nimman và Old City temples vẫn hoạt động tốt, chỉ cần xếp lịch sáng ngoài trời - chiều indoor.", "Nên tránh thuê xe máy (scooter) vì đường trơn và ngập cục bộ; ưu tiên Grab, taxi hoặc thuê ô tô có tài xế.", "Lịch trình 3 ngày kết hợp văn hoá (chùa, phố cổ), thiên nhiên (Doi Inthanon, thác) và cafe (Nimman)."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://offpaththailand.com, https://www.trip.com,
-    https://www.pexels.com.'
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://offpaththailand.com, https://www.trip.com, https://www.pexels.com."
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- du-lich
+  - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: Chiang Mai mùa mưa có gì đẹp? Gợi ý cafe, chùa, núi xanh, thác nước và
-  lịch trình nhẹ nhàng 3 ngày — mùa xanh nhất trong năm.
+description: Chiang Mai mùa mưa có gì đẹp? Gợi ý cafe, chùa, núi xanh, thác nước và lịch trình nhẹ nhàng 3 ngày — mùa xanh nhất trong năm.
 draft: false
 image: images/posts/chiang-mai-mua-mua-co-gi-dep.webp
-image_attribution_checked_at: '2026-07-09T10:41:24+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T10:41:24+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: 
 image_creator_id: 52729974
-image_creator_url: ''
+image_creator_url: 
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/golden-tower-near-a-golden-statue-14211124/
+image_source_url: >-
+  https://www.pexels.com/photo/golden-tower-near-a-golden-statue-14211124/
 series:
-- du-lich-thai-lan-mua-mua
+  - du-lich-thai-lan-mua-mua
 series_order: 8
 series_title: Du lịch Thái Lan mùa mưa
 slug: chiang-mai-mua-mua-co-gi-dep
 tags:
-- Chiang Mai mùa mưa
-- du lịch Thái Lan
-- Chiang Mai tháng 7
-- Doi Suthep
-- Nimman
+  - Chiang Mai mùa mưa
+tags:
+  - du lịch Thái Lan
+tags:
+  - Chiang Mai tháng 7
+tags:
+  - Doi Suthep
+tags:
+  - Nimman
 thumbnail: images/posts/chiang-mai-mua-mua-co-gi-dep.webp
 title: Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng
 tom_tat_nhanh:
-- label: Mùa
-  value: Tháng 6–10 (xanh nhất)
-- label: Nhiệt độ
-  value: 23–32°C
-- label: Thác nước
-  value: Đẹp nhất năm
-- label: Phù hợp
-  value: Chụp ảnh, cafe, văn hóa
+  - {"label": "Mùa", "value": "Tháng 6–10 (xanh nhất)"}
+tom_tat_nhanh:
+  - {"label": "Nhiệt độ", "value": "23–32°C"}
+tom_tat_nhanh:
+  - {"label": "Thác nước", "value": "Đẹp nhất năm"}
+tom_tat_nhanh:
+  - {"label": "Phù hợp", "value": "Chụp ảnh, cafe, văn hóa"}
+seo_title: Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch
 ---
 
 ## Chiang Mai mùa mưa — mùa đẹp nhất mà ít người nói đến

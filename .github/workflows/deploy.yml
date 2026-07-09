@@ -16,6 +16,11 @@ on:
       - 'data/ga4_footer.json'
       - 'data/content-direction-score.json'
       - 'data/content-direction-optimizer-summary.json'
+      - 'reports/content-direction-optimizer.json'
+      - 'reports/content-direction-optimizer.md'
+      - 'data/internal-links.json'
+      - 'reports/content-direction-optimizer.json'
+      - 'reports/content-direction-optimizer.md'
       - '.github/workflows/**'
   workflow_dispatch:
 
@@ -89,6 +94,14 @@ jobs:
 
       - name: QA Content Direction (public)
         run: python scripts/qa_content_direction.py --public
+
+      - name: Generate optimizer score
+        run: |
+          python scripts/content_direction_optimizer.py \
+            --write \
+            --max-changes 0 \
+            --report-json reports/content-direction-optimizer.json \
+            --report-md reports/content-direction-optimizer.md || true
 
       - name: Generate posts-only sitemap
         run: python scripts/gen_posts_sitemap.py --public-dir public

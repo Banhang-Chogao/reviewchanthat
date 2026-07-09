@@ -2,91 +2,87 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - 'Thời tiết tháng 11: 10–18°C ban ngày, gió biển mạnh — mát hơn tháng 10, không
-    phù hợp tắm biển dài.'
-  - 'Điểm nên ghé: Haeundae, Gwangalli (cầu đêm), Gamcheon Culture Village, Jagalchi
-    Market.'
-  - 'Lá đỏ: Busan không nổi bật bằng Seoul tháng 11 — thế mạnh là biển, ẩm thực và
-    phố đêm.'
-  - 'Di chuyển: KTX từ Seoul 2,5–3 giờ; metro nội thành đủ cho hầu hết điểm du lịch.'
-  title: Tóm tắt bài viết
+  items: ["Thời tiết tháng 11: 10–18°C ban ngày, gió biển mạnh — mát hơn tháng 10, không phù hợp tắm biển dài.", "Điểm nên ghé: Haeundae, Gwangalli (cầu đêm), Gamcheon Culture Village, Jagalchi Market.", "Lá đỏ: Busan không nổi bật bằng Seoul tháng 11 — thế mạnh là biển, ẩm thực và phố đêm.", "Di chuyển: KTX từ Seoul 2,5–3 giờ; metro nội thành đủ cho hầu hết điểm du lịch."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.kma.go.kr, https://www.koreatodo.com/top-autumn-foliage-sites-korea,
-    https://www.visitbusan.net'
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.kma.go.kr, https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.visitbusan.net"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- du-lich
+  - du-lich
 date: 2026-07-08 20:30:00+07:00
-description: Busan tháng 11 nên đi đâu? Gợi ý biển mát, phố đêm, làng văn hóa và lịch
-  trình 2–3 ngày nhẹ nhàng khi thời tiết lạnh hơn tháng 10.
+description: Busan tháng 11 nên đi đâu? Gợi ý biển mát, phố đêm, làng văn hóa và lịch trình 2–3 ngày nhẹ nhàng khi thời tiết lạnh hơn tháng 10.
 draft: false
 external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: Korea Meteorological Administration
-  url: https://www.kma.go.kr
-- title: KoreaToDo — Top Autumn Foliage Sites
-  url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
-- title: Visit Busan
-  url: https://www.visitbusan.net
+  - {"title": "Visit Korea — Fall Foliage Forecast", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"}
+external_links:
+  - {"title": "Korea Meteorological Administration", "url": "https://www.kma.go.kr"}
+external_links:
+  - {"title": "KoreaToDo — Top Autumn Foliage Sites", "url": "https://www.koreatodo.com/top-autumn-foliage-sites-korea"}
+external_links:
+  - {"title": "Visit Busan", "url": "https://www.visitbusan.net"}
 image: images/posts/busan-thang-11-nen-di-dau.webp
-image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:38:11+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Near Look
-image_creator_id: '110077'
-image_creator_url: https://www.pexels.com/@near-look-110077
+image_creator_id: 110077
+image_creator_url: >-
+  https://www.pexels.com/@near-look-110077
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-340138/
+image_source_url: >-
+  https://www.pexels.com/photo/pexels-photo-340138/
 internal_links:
-- ref: posts/di-han-thang-11-co-dep-khong.md
-  title: Đi Hàn tháng 11 có đẹp không?
-- ref: posts/thoi-tiet-han-quoc-thang-11.md
-  title: Thời tiết và mùa lá đỏ tháng 11
-- ref: posts/seoul-thang-11-nen-di-dau.md
-  title: Seoul tháng 11 nên đi đâu?
-- ref: posts/jeju-thang-11-co-dep-khong.md
-  title: Jeju tháng 11 có đẹp không?
-- ref: posts/seoraksan-thang-11-ngam-la-do.md
-  title: Seoraksan tháng 11
-- ref: posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md
-  title: Lịch trình 5 ngày 4 đêm tháng 11
-- ref: posts/chi-phi-di-han-thang-11-tu-tuc.md
-  title: Chi phí đi Hàn tháng 11 tự túc
-- ref: posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md
-  title: Busan mùa hè nên đi đâu?
+  - {"ref": "posts/di-han-thang-11-co-dep-khong.md", "title": "Đi Hàn tháng 11 có đẹp không?"}
+internal_links:
+  - {"ref": "posts/thoi-tiet-han-quoc-thang-11.md", "title": "Thời tiết và mùa lá đỏ tháng 11"}
+internal_links:
+  - {"ref": "posts/seoul-thang-11-nen-di-dau.md", "title": "Seoul tháng 11 nên đi đâu?"}
+internal_links:
+  - {"ref": "posts/jeju-thang-11-co-dep-khong.md", "title": "Jeju tháng 11 có đẹp không?"}
+internal_links:
+  - {"ref": "posts/seoraksan-thang-11-ngam-la-do.md", "title": "Seoraksan tháng 11"}
+internal_links:
+  - {"ref": "posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md", "title": "Lịch trình 5 ngày 4 đêm tháng 11"}
+internal_links:
+  - {"ref": "posts/chi-phi-di-han-thang-11-tu-tuc.md", "title": "Chi phí đi Hàn tháng 11 tự túc"}
+internal_links:
+  - {"ref": "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md", "title": "Busan mùa hè nên đi đâu?"}
 series: di-han-thang-11
 series_order: 8
 series_title: Đi Hàn tháng 11
 slug: busan-thang-11-nen-di-dau
 tags:
-- Busan
-- du lịch Hàn Quốc tháng 11
-- biển Busan
-- Haeundae
-- series du lịch
+  - Busan
+tags:
+  - du lịch Hàn Quốc tháng 11
+tags:
+  - biển Busan
+tags:
+  - Haeundae
+tags:
+  - series du lịch
 thumbnail: images/posts/busan-thang-11-nen-di-dau.webp
 title: Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ
 tom_tat_nhanh:
-- label: Thời tiết
-  value: 10–18°C, gió biển mạnh
-- label: Thời gian nên dành
-  value: 2–3 ngày
-- label: Điểm chính
-  value: Haeundae, Gwangalli, Gamcheon
-- label: Phù hợp
-  value: Cặp đôi, nhóm bạn, gia đình
-- label: Lưu ý
-  value: Không phải điểm peak lá đỏ
+  - {"label": "Thời tiết", "value": "10–18°C, gió biển mạnh"}
+tom_tat_nhanh:
+  - {"label": "Thời gian nên dành", "value": "2–3 ngày"}
+tom_tat_nhanh:
+  - {"label": "Điểm chính", "value": "Haeundae, Gwangalli, Gamcheon"}
+tom_tat_nhanh:
+  - {"label": "Phù hợp", "value": "Cặp đôi, nhóm bạn, gia đình"}
+tom_tat_nhanh:
+  - {"label": "Lưu ý", "value": "Không phải điểm peak lá đỏ"}
+seo_title: Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình
 ---
 
 Busan tháng 11 là lựa chọn nhiều du khách cân nhắc để **đổi không khí** sau vài ngày săn lá đỏ ở Seoul. Khí hậu ven biển **lạnh hơn tháng 10** — ban ngày thường 10–18°C, gió biển làm cảm giác mát hơn nhiệt độ thực. Bạn vẫn có thể đi bộ ven biển và ngắm cầu Gwangan về đêm, nhưng **tắm biển dài** không còn phù hợp như mùa hè.

@@ -2,88 +2,92 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Caribbean Bay là công viên nước lớn nhất Hàn Quốc, thuộc Everland Resort, Yongin
-    — cách Seoul 40 phút.
-  - Wave pool cao 2,4 m, lazy river dài nhất thế giới, spa mở cửa quanh năm.
-  - Nên đi ngày thường, mua vé online trước, mang đồ bơi và dép chống trượt.
-  title: Tóm tắt bài viết
+  items: ["Caribbean Bay là công viên nước lớn nhất Hàn Quốc, thuộc Everland Resort, Yongin — cách Seoul 40 phút.", "Wave pool cao 2,4 m, lazy river dài nhất thế giới, spa mở cửa quanh năm.", "Nên đi ngày thường, mua vé online trước, mang đồ bơi và dép chống trượt."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài tham khảo từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.everland.com/web/caribbean/main.html,
-    https://www.koreatodo.com/caribbean-bay.'
+  copyright: "© 2026 Review Chân Thật. Bài tham khảo từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.everland.com/web/caribbean/main.html, https://www.koreatodo.com/caribbean-bay."
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- du-lich
+  - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, giá vé, giờ mở cửa, kinh
-  nghiệm đi ngày thường và mẹo tiết kiệm.'
+description: >-
+  Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, giá vé, giờ mở cửa, kinh nghiệm đi ngày thường và mẹo tiết kiệm.
 draft: false
 faq:
-- answer: 40 phút từ Seoul. Đi xe bus Everland từ ga Gangnam hoặc xe buýt từ ga Suwon.
-  question: Caribbean Bay cách Seoul bao xa?
-- answer: 50.000–60.000 KRW người lớn. Vé online rẻ hơn 10–20%.
-  question: Vé Caribbean Bay bao nhiêu tiền?
-- answer: Nên. Đi thứ 3–5 ít đông nhất. Cuối tuần rất đông, phải xếp hàng lâu.
-  question: Có nên đi ngày thường không?
+  - {"answer": "40 phút từ Seoul. Đi xe bus Everland từ ga Gangnam hoặc xe buýt từ ga Suwon.", "question": "Caribbean Bay cách Seoul bao xa?"}
+faq:
+  - {"answer": "50.000–60.000 KRW người lớn. Vé online rẻ hơn 10–20%.", "question": "Vé Caribbean Bay bao nhiêu tiền?"}
+faq:
+  - {"answer": "Nên. Đi thứ 3–5 ít đông nhất. Cuối tuần rất đông, phải xếp hàng lâu.", "question": "Có nên đi ngày thường không?"}
 image: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
-image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:37:58+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: marclyc li
-image_creator_id: '2160558161'
-image_creator_url: https://www.pexels.com/@marclyc-li-2160558161
+image_creator_id: 2160558161
+image_creator_url: >-
+  https://www.pexels.com/@marclyc-li-2160558161
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/thrill-ride-fun-at-amusement-park-38331866/
+image_source_url: >-
+  https://www.pexels.com/photo/thrill-ride-fun-at-amusement-park-38331866/
 internal_links:
-- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
-- ref: posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md
-  title: Ocean World vs Caribbean Bay
-- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-  title: 10 điểm tránh nóng
-- ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
-  title: Hàn Quốc tháng 8 nên đi đâu?
-- ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-  title: Hàn Quốc tháng 7
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-  title: Top 20 hoạt động du lịch Hàn Quốc
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-  title: Checklist vali
-- ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
-  title: Mặc gì mùa hè
-- ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
-  title: Lịch trình Seoul 3 ngày
-- ref: posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md
-  title: Đi chơi gần Seoul
+  - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
+internal_links:
+  - {"ref": "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md", "title": "Ocean World vs Caribbean Bay"}
+internal_links:
+  - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng"}
+internal_links:
+  - {"ref": "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md", "title": "Hàn Quốc tháng 8 nên đi đâu?"}
+internal_links:
+  - {"ref": "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md", "title": "Hàn Quốc tháng 7"}
+internal_links:
+  - {"ref": "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md", "title": "Top 20 hoạt động du lịch Hàn Quốc"}
+internal_links:
+  - {"ref": "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md", "title": "Checklist vali"}
+internal_links:
+  - {"ref": "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md", "title": "Mặc gì mùa hè"}
+internal_links:
+  - {"ref": "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md", "title": "Lịch trình Seoul 3 ngày"}
+internal_links:
+  - {"ref": "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md", "title": "Đi chơi gần Seoul"}
 series: du-lich-han-quoc-mua-he
 series_order: 9
 series_title: Du lịch Hàn Quốc mùa hè
 slug: caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong
 tags:
-- Caribbean Bay
-- Everland
-- công viên nước Hàn Quốc
-- Seoul
-- series du lịch
+  - Caribbean Bay
+tags:
+  - Everland
+tags:
+  - công viên nước Hàn Quốc
+tags:
+  - Seoul
+tags:
+  - series du lịch
 thumbnail: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
-title: 'Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?'
+title: >-
+  Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?
 tom_tat_nhanh:
-- label: Vị trí
-  value: Yongin, 40 phút từ Seoul
-- label: Giá vé
-  value: 50.000–60.000 KRW
-- label: Giờ mở
-  value: 10:00–18:00 (mùa hè)
-- label: Phù hợp
-  value: Mọi lứa tuổi
-- label: Lưu ý
-  value: Đi ngày thường, mua vé online
+  - {"label": "Vị trí", "value": "Yongin, 40 phút từ Seoul"}
+tom_tat_nhanh:
+  - {"label": "Giá vé", "value": "50.000–60.000 KRW"}
+tom_tat_nhanh:
+  - {"label": "Giờ mở", "value": "10:00–18:00 (mùa hè)"}
+tom_tat_nhanh:
+  - {"label": "Phù hợp", "value": "Mọi lứa tuổi"}
+tom_tat_nhanh:
+  - {"label": "Lưu ý", "value": "Đi ngày thường, mua vé online"}
+seo_title: >-
+  Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé
 ---
 
 Caribbean Bay thuộc Everland Resort, Yongin — là công viên nước lớn nhất Hàn Quốc với khu trong nhà và ngoài trời. Cách Seoul 40 phút, đây là điểm đến lý tưởng cho ngày hè nóng bức.

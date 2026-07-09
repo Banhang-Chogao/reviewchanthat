@@ -2,78 +2,80 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Tòa Tổng Luxembourg ngày 8/7/2026 bác kiện Apple chống phân loại gatekeeper cho
-    App Store và iOS.
-  - Phán quyết xác nhận quyết định EC tháng 9/2023 — Apple phải tuân DMA ở EU, khác
-    vụ phạt anti-steering €500 triệu.
-  - Apple có thể kháng cáo lên Tòa Công lý EU trong 2 tháng 10 ngày; vụ phạt €500M
-    vẫn đang được Apple kháng cáo riêng.
-  - Series phân tích tiếp DMA là gì, Apple mất gì khi là gatekeeper, và lợi ích cho
-    người dùng iPhone EU.
-  title: Tóm tắt bài viết
+  items: ["Tòa Tổng Luxembourg ngày 8/7/2026 bác kiện Apple chống phân loại gatekeeper cho App Store và iOS.", "Phán quyết xác nhận quyết định EC tháng 9/2023 — Apple phải tuân DMA ở EU, khác vụ phạt anti-steering €500 triệu.", "Apple có thể kháng cáo lên Tòa Công lý EU trong 2 tháng 10 ngày; vụ phạt €500M vẫn đang được Apple kháng cáo riêng.", "Series phân tích tiếp DMA là gì, Apple mất gì khi là gatekeeper, và lợi ích cho người dùng iPhone EU."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Tổng hợp từ nguồn công khai; không đại diện
-    Apple hay EC.
-  source_note: Bài viết đối chiếu thông cáo Tòa Tổng (cp260096en.pdf), Reuters, EC
-    và tuyên bố Apple.
+  copyright: "© 2026 Review Chân Thật. Tổng hợp từ nguồn công khai; không đại diện Apple hay EC."
+  source_note: "Bài viết đối chiếu thông cáo Tòa Tổng (cp260096en.pdf), Reuters, EC và tuyên bố Apple."
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- cong-nghe
+  - cong-nghe
 date: 2026-07-08 09:00:00+07:00
-description: Tòa Tổng EU ngày 8/7/2026 bác kiện Apple về gatekeeper App Store và iOS.
-  Phân biệt vụ kiện này với phạt anti-steering €500M và kháng cáo của Apple.
+description: Tòa Tổng EU ngày 8/7/2026 bác kiện Apple về gatekeeper App Store và iOS. Phân biệt vụ kiện này với phạt anti-steering €500M và kháng cáo của Apple.
 draft: false
 external_links:
-- title: Reuters — EU court rejects Apple's challenge (8/7/2026)
-  url: https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/
-- title: Tòa Tổng EU — Thông cáo báo chí cp260096en.pdf
-  url: https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf
-- title: EC — Apple và Meta vi phạm DMA (23/4/2025)
-  url: https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act
-- title: CNBC — Apple kháng cáo phạt €500M (7/2025)
-  url: https://www.cnbc.com/2025/07/07/apple-appeal-eu-fine-app-store.html
-- title: Apple Newsroom — Tác động DMA lên người dùng EU
-  url: https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/
-- title: Digital Markets Act — Trang chính thức EC
-  url: https://digital-markets-act.ec.europa.eu/
+  - {"title": "Reuters — EU court rejects Apple's challenge (8/7/2026)", "url": "https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/"}
+external_links:
+  - {"title": "Tòa Tổng EU — Thông cáo báo chí cp260096en.pdf", "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf"}
+external_links:
+  - {"title": "EC — Apple và Meta vi phạm DMA (23/4/2025)", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act"}
+external_links:
+  - {"title": "CNBC — Apple kháng cáo phạt €500M (7/2025)", "url": "https://www.cnbc.com/2025/07/07/apple-appeal-eu-fine-app-store.html"}
+external_links:
+  - {"title": "Apple Newsroom — Tác động DMA lên người dùng EU", "url": "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/"}
+external_links:
+  - {"title": "Digital Markets Act — Trang chính thức EC", "url": "https://digital-markets-act.ec.europa.eu/"}
 image: images/posts/apple-thua-kien-eu-app-store-ios-dma.webp
-image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:38:06+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Adam B.
-image_creator_id: '1620746'
-image_creator_url: https://www.pexels.com/@adam-b-1620746
+image_creator_id: 1620746
+image_creator_url: >-
+  https://www.pexels.com/@adam-b-1620746
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/modern-high-glass-building-with-a-european-union-flag-6791897/
+image_source_url: >-
+  https://www.pexels.com/photo/modern-high-glass-building-with-a-european-union-flag-6791897/
 series: apple-ec-dma-app-store-ios
 series_order: 1
-series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
+series_title: >-
+  Apple vs EC: App Store, iOS và Digital Markets Act
 slug: apple-thua-kien-eu-app-store-ios-dma
 tags:
-- Apple
-- European Commission
-- Digital Markets Act
-- App Store
-- iOS
-- EU
-- gatekeeper
+  - Apple
+tags:
+  - European Commission
+tags:
+  - Digital Markets Act
+tags:
+  - App Store
+tags:
+  - iOS
+tags:
+  - EU
+tags:
+  - gatekeeper
 thumbnail: images/posts/apple-thua-kien-eu-app-store-ios-dma.webp
-title: 'Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA'
+title: >-
+  Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA
 tom_tat_nhanh:
-- label: Sự kiện
-  value: Tòa Tổng EU bác kiện Apple — 8/7/2026
-- label: Vụ việc
-  value: Gatekeeper App Store & iOS (T-1079/23…)
-- label: Khác với
-  value: Phạt anti-steering €500M (4/2025)
-- label: Bước tiếp
-  value: Kháng cáo Tòa Công lý EU trong 2 tháng 10 ngày
+  - {"label": "Sự kiện", "value": "Tòa Tổng EU bác kiện Apple — 8/7/2026"}
+tom_tat_nhanh:
+  - {"label": "Vụ việc", "value": "Gatekeeper App Store & iOS (T-1079/23…)"}
+tom_tat_nhanh:
+  - {"label": "Khác với", "value": "Phạt anti-steering €500M (4/2025)"}
+tom_tat_nhanh:
+  - {"label": "Bước tiếp", "value": "Kháng cáo Tòa Công lý EU trong 2 tháng 10 ngày"}
+seo_title: >-
+  Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và
 ---
 
 Ngày **8 tháng 7 năm 2026**, Tòa Tổng của Liên minh châu Âu (General Court) tại Luxembourg đã **bác toàn bộ các đơn kiện** của Apple nhằm chống lại việc European Commission (EC) phân loại công ty này là **gatekeeper** — “người gác cổng” — đối với **App Store** và **hệ điều hành iOS** theo **Digital Markets Act (DMA)**.

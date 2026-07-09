@@ -2,92 +2,85 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - High1 Ski Resort tọa lạc ở Jeongseon, Gangwon-do, được đánh giá là resort thân
-    thiện môi trường với cảnh đẹp bốn mùa.
-  - Có nhà hàng xoay Sky 1340 trên đỉnh núi cao 1.340 m — ngắm toàn cảnh dãy núi Taebaek.
-  - Phù hợp 2–3 ngày nghỉ dưỡng kết hợp trượt tuyết, không lý tưởng cho day trip từ
-    Seoul.
-  - Có hệ thống slope đa dạng, gondola, sledding, ski school, và casino (Kangwon Land)
-    gần đó.
-  title: Tóm tắt bài viết
+  items: ["High1 Ski Resort tọa lạc ở Jeongseon, Gangwon-do, được đánh giá là resort thân thiện môi trường với cảnh đẹp bốn mùa.", "Có nhà hàng xoay Sky 1340 trên đỉnh núi cao 1.340 m — ngắm toàn cảnh dãy núi Taebaek.", "Phù hợp 2–3 ngày nghỉ dưỡng kết hợp trượt tuyết, không lý tưởng cho day trip từ Seoul.", "Có hệ thống slope đa dạng, gondola, sledding, ski school, và casino (Kangwon Land) gần đó."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Nguồn tham khảo: https://www.high1.com/ski_eng/index.do, https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=102619'
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Nguồn tham khảo: https://www.high1.com/ski_eng/index.do, https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=102619"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- du-lich
+  - du-lich
 date: 2026-07-08 09:10:00+07:00
-description: High1 Ski Resort Jeongseon — ski resort thân thiện môi trường với nhà
-  hàng xoay Sky 1340, slope đa dạng và trải nghiệm nghỉ dưỡng 2-3 ngày. So sánh chi
-  phí và di chuyển.
+description: High1 Ski Resort Jeongseon — ski resort thân thiện môi trường với nhà hàng xoay Sky 1340, slope đa dạng và trải nghiệm nghỉ dưỡng 2-3 ngày. So sánh chi phí và
 draft: false
 faq:
-- answer: Cách Seoul khoảng 220 km, đi ô tô hoặc bus khoảng 3,5 giờ. Có KTX từ ga
-    Seoul đến ga Gohan (khoảng 2 giờ), sau đó taxi 10 phút đến resort.
-  question: High1 cách Seoul bao xa? Đi bằng gì?
-- answer: Có. Resort có Snow World (sledding), ski school cho trẻ em, nhiều nhà hàng
-    và khu nghỉ dưỡng. Tuy nhiên, vì xa Seoul nên nên ở lại ít nhất 1–2 đêm.
-  question: High1 có phù hợp gia đình không?
-- answer: Nhà hàng xoay Sky 1340 trên đỉnh núi — view 360 độ toàn cảnh Taebaek. Resort
-    được thiết kế thân thiện môi trường, mùa xuân có rau dại, mùa hè có hoa dại mọc
-    trên slope. Ngoài ra, casino Kangwon Land gần đó.
-  question: High1 có gì đặc biệt so với các resort khác?
-- answer: 'Giá lift: từ 58,000 won (3 giờ) đến 100,000 won (cả ngày) cho người lớn.
-    Thuê ski/board: khoảng 54,000 won cho người lớn (cả ngày). Giá tham khảo mùa 2023–24
-    — kiểm tra high1.com để biết giá mới nhất.'
-  question: Giá vé trượt tuyết ở High1 thế nào?
+  - {"answer": "Cách Seoul khoảng 220 km, đi ô tô hoặc bus khoảng 3,5 giờ. Có KTX từ ga Seoul đến ga Gohan (khoảng 2 giờ), sau đó taxi 10 phút đến resort.", "question": "High1 cách Seoul bao xa? Đi bằng gì?"}
+faq:
+  - {"answer": "Có. Resort có Snow World (sledding), ski school cho trẻ em, nhiều nhà hàng và khu nghỉ dưỡng. Tuy nhiên, vì xa Seoul nên nên ở lại ít nhất 1–2 đêm.", "question": "High1 có phù hợp gia đình không?"}
+faq:
+  - {"answer": "Nhà hàng xoay Sky 1340 trên đỉnh núi — view 360 độ toàn cảnh Taebaek. Resort được thiết kế thân thiện môi trường, mùa xuân có rau dại, mùa hè có hoa dại mọc trên slope. Ngoài ra, casino Kangwon Land gần đó.", "question": "High1 có gì đặc biệt so với các resort khác?"}
+faq:
+  - {"answer": "Giá lift: từ 58,000 won (3 giờ) đến 100,000 won (cả ngày) cho người lớn. Thuê ski/board: khoảng 54,000 won cho người lớn (cả ngày). Giá tham khảo mùa 2023–24 — kiểm tra high1.com để biết giá mới nhất.", "question": "Giá vé trượt tuyết ở High1 thế nào?"}
 image: images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp
-image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:38:00+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Dominik Gryzbon
-image_creator_id: '307186004'
-image_creator_url: https://www.pexels.com/@gryziu
+image_creator_id: 307186004
+image_creator_url: >-
+  https://www.pexels.com/@gryziu
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/ski-lift-in-bialka-tatrzanska-poland-30786149/
+image_source_url: >-
+  https://www.pexels.com/photo/ski-lift-in-bialka-tatrzanska-poland-30786149/
 internal_links:
-- ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
-  title: Top địa điểm trượt tuyết ở Hàn Quốc mùa đông
-- ref: posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md
-  title: Yongpyong Ski Resort
-- ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md
-  title: Alpensia Ski Resort
+  - {"ref": "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md", "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông"}
+internal_links:
+  - {"ref": "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md", "title": "Yongpyong Ski Resort"}
+internal_links:
+  - {"ref": "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md", "title": "Alpensia Ski Resort"}
 series: truot-tuyet
 series_order: 6
 series_title: Trượt tuyết Hàn Quốc
 slug: high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc
 tags:
-- du lịch Hàn Quốc
-- High1
-- Jeongseon
-- trượt tuyết Hàn Quốc
-- ski resort Hàn Quốc
-- gangwon-do
-- Sky 1340
-- series trượt tuyết
+  - du lịch Hàn Quốc
+tags:
+  - High1
+tags:
+  - Jeongseon
+tags:
+  - trượt tuyết Hàn Quốc
+tags:
+  - ski resort Hàn Quốc
+tags:
+  - gangwon-do
+tags:
+  - Sky 1340
+tags:
+  - series trượt tuyết
 thumbnail: images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp
-title: 'High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn
-  Quốc'
+title: >-
+  High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc
 tom_tat_nhanh:
-- label: Khu vực
-  value: Jeongseon, Gangwon-do (200 km từ Seoul)
-- label: Loại trải nghiệm
-  value: Trượt tuyết, nghỉ dưỡng, casino, spa
-- label: Hợp với
-  value: Người muốn nghỉ dưỡng kết hợp trượt tuyết, gia đình
-- label: Thời gian nên dành
-  value: 2–3 ngày
-- label: Đi mùa nào hợp
-  value: Mùa đông (tháng 12–2)
-- label: Có cần đặt trước không
-  value: Có (resort, vé trượt tuyết)
+  - {"label": "Khu vực", "value": "Jeongseon, Gangwon-do (200 km từ Seoul)"}
+tom_tat_nhanh:
+  - {"label": "Loại trải nghiệm", "value": "Trượt tuyết, nghỉ dưỡng, casino, spa"}
+tom_tat_nhanh:
+  - {"label": "Hợp với", "value": "Người muốn nghỉ dưỡng kết hợp trượt tuyết, gia đình"}
+tom_tat_nhanh:
+  - {"label": "Thời gian nên dành", "value": "2–3 ngày"}
+tom_tat_nhanh:
+  - {"label": "Đi mùa nào hợp", "value": "Mùa đông (tháng 12–2)"}
+tom_tat_nhanh:
+  - {"label": "Có cần đặt trước không", "value": "Có (resort, vé trượt tuyết)"}
 ---
 
 High1 là ski resort mình ấn tượng nhất trong系列 bài này. Không phải vì lớn nhất (Yongpyong mới là số một) hay gần nhất (Elysian giữ kỷ lục đó), mà vì trải nghiệm tổng thể — từ Sky 1340, nhà hàng xoay trên đỉnh núi 1.340 m, đến thiết kế thân thiện môi trường.
