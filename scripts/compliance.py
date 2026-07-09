@@ -429,8 +429,27 @@ class ComplianceChecker:
         if image and image != expected:
             self.add_issue("WARN", "IMAGE_PATH_MISMATCH", rel, f"Expected image path {expected}, got {image}")
 
-        if meta.get("image_status") == "needs_image":
-            self.add_issue("ERROR", "NEEDS_IMAGE", rel, "image_status=needs_image")
+        if meta.get("image_status") in {"needs_image", "needs_review"}:
+            self.add_issue("ERROR", "NEEDS_IMAGE", rel, f"image_status={meta.get('image_status')}")
+
+        if meta.get("image_reject_reason") and image:
+            self.add_issue(
+                "ERROR",
+                "IMAGE_REJECT_REASON_WITH_IMAGE",
+                rel,
+                f"image_reject_reason present while image is set: {meta.get('image_reject_reason')}",
+            )
+
+        if meta.get("image_status") == "verified":
+            score = meta.get("image_total_score")
+            if score not in (None, ""):
+                try:
+                    if float(score) < 72:
+                        self.add_issue("ERROR", "IMAGE_SCORE_LOW", rel, f"image_total_score below gate threshold: {score}")
+                except (TypeError, ValueError):
+                    self.add_issue("WARN", "IMAGE_SCORE_INVALID", rel, f"image_total_score not numeric: {score}")
+            if not clean_text(meta.get("image_source_url")):
+                self.add_issue("ERROR", "VERIFIED_IMAGE_NO_SOURCE", rel, "verified image missing image_source_url")
 
         for field_name in IMAGE_REQUIRED:
             if field_missing(meta, field_name):

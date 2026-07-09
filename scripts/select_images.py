@@ -2,8 +2,8 @@
 scripts/select_images.py
 Provider-cascade image selection for blog posts.
 - Reads audit report for posts needing images
-- Generates search keywords from post content
-- Tries providers in order: Pexels -> Pixabay -> Unsplash -> Freepik
+- Collects candidates from Pexels -> Pixabay -> Unsplash -> Freepik
+- Runs Image Relevance Gate before accepting any thumbnail
 - Never falls back to placeholder/fake images
 - Outputs data/image-selection-report.json
 """
@@ -11,35 +11,26 @@ Provider-cascade image selection for blog posts.
 import os
 import json
 import sys
-import hashlib
 import time
-from urllib.parse import quote
 
-from creator_policy import (
-    attribution_text,
-    clean_text,
-    is_blocked_creator,
-    normalized,
-    sanitize_candidate,
+import frontmatter
+
+from creator_policy import clean_text
+from fetch_relevant_image import manifest_entry_from_selection, select_best_image
+from image_providers import (
+    FreepikProvider,
+    PexelsProvider,
+    PixabayProvider,
+    UnsplashProvider,
+    is_placeholder_image,
+    load_dotenv,
+    validate_candidate,
 )
 
 AUDIT_REPORT_PATH = "data/image-audit-report.json"
 IMAGES_MANIFEST_PATH = "data/images.json"
 SELECTION_REPORT_PATH = "data/image-selection-report.json"
 SOURCE_CACHE_PATH = "data/image-source-cache.json"
-
-FALLBACK_KEYWORDS = ["fallback", "placeholder", "generated", "navy", "solid"]
-
-
-def sanitize_creator(candidate):
-    return sanitize_candidate(candidate)
-
-
-def nested_dict(value):
-    if isinstance(value, dict):
-        return value
-    return {}
-
 
 def load_audit():
     if not os.path.exists(AUDIT_REPORT_PATH):
@@ -75,267 +66,23 @@ def save_source_cache(cache):
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
-def load_dotenv():
-    env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
-    if os.path.exists(env_path):
-        with open(env_path) as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#") and "=" in line:
-                    k, v = line.split("=", 1)
-                    os.environ.setdefault(k.strip(), v.strip())
-
-
-def generate_keywords(post):
-    import re
-    title = post.get("title", "")
-    tags = post.get("tags", [])
-    categories = post.get("categories", [])
-    title_clean = re.sub(r"[^\w\s]", " ", title.lower())
-    all_words = title_clean.split() + tags + categories
-    stopwords = {"và", "của", "cho", "với", "là", "trong", "có", "không", "ở",
-                 "khi", "từ", "đến", "những", "đã", "đang", "được", "các", "về",
-                 "hay", "nên", "mới", "cũ", "ra", "lại", "qua", "sau", "trước",
-                 "the", "a", "an", "and", "or", "for", "of", "in", "to", "is",
-                 "it", "on", "that", "this", "with", "be", "at", "by", "from"}
-    keywords = [w for w in all_words if w not in stopwords and len(w) > 1]
-    return list(dict.fromkeys(keywords))
-
-
-def build_queries(keywords):
-    queries = []
-    if len(keywords) >= 3:
-        queries.append(" ".join(keywords[:3]))
-    if len(keywords) >= 2:
-        queries.append(" ".join(keywords[:2]))
-    if keywords:
-        queries.append(keywords[0])
-    if len(keywords) >= 3:
-        queries.append(" ".join(keywords[:3]) + " travel")
-        queries.append(" ".join(keywords[:2]) + " korea")
-    return queries
-
-
-class BaseProvider:
-    name = ""
-    env_key = ""
-
-    def is_enabled(self):
-        key = os.environ.get(self.env_key, "")
-        if not key:
-            print(f"    [{self.name}] SKIP: no API key ({self.env_key})")
-            return False
-        return True
-
-    def search(self, query, post):
-        raise NotImplementedError
-
-
-class PexelsProvider(BaseProvider):
-    name = "Pexels"
-    env_key = "PEXELS_API_KEY"
-
-    def search(self, query, post):
-        import requests
-        api_key = os.environ.get(self.env_key, "")
-        headers = {"Authorization": api_key}
-        url = f"https://api.pexels.com/v1/search?query={quote(query)}&orientation=landscape&per_page=5"
+def load_post_body(slug: str) -> str:
+    content_dir = "content/posts"
+    for fname in os.listdir(content_dir):
+        if not fname.endswith(".md"):
+            continue
+        fpath = os.path.join(content_dir, fname)
         try:
-            resp = requests.get(url, headers=headers, timeout=15)
-            if resp.status_code == 200:
-                data = resp.json()
-                candidates = []
-                for photo in data.get("photos", []):
-                    src = nested_dict(photo.get("src"))
-                    candidates.append(sanitize_creator({
-                        "source_platform": "Pexels",
-                        "source_url": clean_text(photo.get("url")),
-                        "direct_url": clean_text(src.get("large2x")) or clean_text(src.get("large")),
-                        "creator": clean_text(photo.get("photographer")),
-                        "creator_url": clean_text(photo.get("photographer_url")),
-                        "license": "Pexels License",
-                        "commercial_use": True,
-                        "width": photo.get("width", 0),
-                        "height": photo.get("height", 0),
-                    }))
-                return candidates
-            else:
-                print(f"    [{self.name}] API error: {resp.status_code}")
-                return []
-        except Exception as e:
-            print(f"    [{self.name}] request failed: {e}")
-            return []
-
-
-class PixabayProvider(BaseProvider):
-    name = "Pixabay"
-    env_key = "PIXABAY_API_KEY"
-
-    def search(self, query, post):
-        import requests
-        api_key = os.environ.get(self.env_key, "")
-        category_map = {
-            "technology": "technology", "tech": "technology",
-            "travel": "travel", "tourism": "travel",
-            "nature": "nature", "environment": "nature",
-        }
-        post_cats = [c.lower() for c in post.get("categories", [])]
-        pix_category = "travel"
-        for cat in post_cats:
-            for k, v in category_map.items():
-                if k in cat:
-                    pix_category = v
-                    break
-        url = (f"https://pixabay.com/api/"
-               f"?key={api_key}&q={quote(query)}&lang=vi&image_type=photo"
-               f"&orientation=horizontal&category={pix_category}"
-               f"&min_width=1200&order=popular&safesearch=true&per_page=5")
-        try:
-            resp = requests.get(url, timeout=10)
-            if resp.status_code == 200:
-                data = resp.json()
-                candidates = []
-                for hit in data.get("hits", []):
-                    creator = clean_text(hit.get("user"))
-                    candidates.append(sanitize_creator({
-                        "source_platform": "Pixabay",
-                        "source_url": clean_text(hit.get("pageURL")),
-                        "direct_url": clean_text(hit.get("largeImageURL")),
-                        "creator": creator,
-                        "creator_url": clean_text(hit.get("pageURL")) if creator else "",
-                        "license": "Pixabay Content License",
-                        "commercial_use": True,
-                        "width": hit.get("imageWidth", 0),
-                        "height": hit.get("imageHeight", 0),
-                    }))
-                return candidates
-            else:
-                print(f"    [{self.name}] API error: {resp.status_code}")
-                return []
-        except Exception as e:
-            print(f"    [{self.name}] request failed: {e}")
-            return []
-
-
-class UnsplashProvider(BaseProvider):
-    name = "Unsplash"
-    env_key = "UNSPLASH_ACCESS_KEY"
-
-    def search(self, query, post):
-        import requests
-        api_key = os.environ.get(self.env_key, "")
-        headers = {"Authorization": f"Client-ID {api_key}"}
-        url = f"https://api.unsplash.com/search/photos?query={quote(query)}&orientation=landscape&per_page=5"
-        try:
-            resp = requests.get(url, headers=headers, timeout=15)
-            if resp.status_code == 200:
-                data = resp.json()
-                candidates = []
-                for photo in data.get("results", []):
-                    links = nested_dict(photo.get("links"))
-                    urls = nested_dict(photo.get("urls"))
-                    user = nested_dict(photo.get("user"))
-                    user_links = nested_dict(user.get("links"))
-                    candidates.append({
-                        "source_platform": "Unsplash",
-                        "source_url": clean_text(links.get("html")),
-                        "direct_url": clean_text(urls.get("regular")),
-                        "creator": clean_text(user.get("name")),
-                        "creator_url": clean_text(user_links.get("html")),
-                        "license": "Unsplash License",
-                        "commercial_use": True,
-                        "width": photo.get("width", 0),
-                        "height": photo.get("height", 0),
-                    })
-                return candidates
-            else:
-                print(f"    [{self.name}] API error: {resp.status_code}")
-                return []
-        except Exception as e:
-            print(f"    [{self.name}] request failed: {e}")
-            return []
-
-
-class FreepikProvider(BaseProvider):
-    name = "Freepik"
-    env_key = "FREEPIK_API_KEY"
-
-    def search(self, query, post):
-        import requests
-        api_key = os.environ.get(self.env_key, "")
-        headers = {"Authorization": api_key}
-        url = f"https://api.freepik.com/v1/resources?term={quote(query)}&orientation=landscape&per_page=5"
-        try:
-            resp = requests.get(url, headers=headers, timeout=15)
-            if resp.status_code == 200:
-                data = resp.json()
-                candidates = []
-                for resource in data.get("data", []):
-                    image = nested_dict(resource.get("image"))
-                    image_source = nested_dict(image.get("source"))
-                    author = nested_dict(resource.get("author"))
-                    candidates.append({
-                        "source_platform": "Freepik",
-                        "source_url": clean_text(resource.get("url")),
-                        "direct_url": clean_text(image_source.get("url")),
-                        "creator": clean_text(author.get("name")),
-                        "creator_url": clean_text(author.get("url")),
-                        "license": "Freepik License",
-                        "commercial_use": True,
-                        "width": resource.get("width", 0),
-                        "height": resource.get("height", 0),
-                    })
-                return candidates
-            else:
-                print(f"    [{self.name}] API error: {resp.status_code}")
-                return []
-        except ImportError:
-            return []
-        except Exception as e:
-            print(f"    [{self.name}] request failed: {e}")
-            return []
-
-
-def is_placeholder_image(candidate):
-    direct_url = candidate.get("direct_url", "").lower()
-    for kw in FALLBACK_KEYWORDS:
-        if kw in direct_url:
-            return True
-    source_url = candidate.get("source_url", "").lower()
-    for kw in FALLBACK_KEYWORDS:
-        if kw in source_url:
-            return True
-    w = candidate.get("width", 0) or 0
-    h = candidate.get("height", 0) or 0
-    if w > 0 and h > 0 and (w < 400 or h < 300):
-        return True
-    return False
-
-
-def validate_candidate(candidate, post, used_urls):
-    if not candidate.get("source_url"):
-        return False, "no_source_url"
-    if not candidate.get("direct_url"):
-        return False, "no_direct_url"
-    if not candidate.get("license"):
-        return False, "no_license"
-    if not candidate.get("commercial_use"):
-        return False, "not_commercial"
-    if is_placeholder_image(candidate):
-        return False, "placeholder_detected"
-    if candidate.get("source_url", "") in used_urls:
-        return False, "duplicate_source_url"
-    w = candidate.get("width", 0) or 0
-    h = candidate.get("height", 0) or 0
-    if w > 0 and h > 0:
-        if w < 800 or h < 600:
-            return False, f"too_small:{w}x{h}"
-        if w / h < 1.2:
-            return False, f"not_landscape_enough:{w}x{h}"
-    return True, "valid"
+            post = frontmatter.load(fpath)
+            if post.metadata.get("slug") == slug:
+                return post.content or ""
+        except Exception:
+            continue
+    return ""
 
 
 def rank_candidates(valid_candidates, post, used_urls):
+    """Legacy ranking kept for provider unit compatibility; gate handles final choice."""
     scored = []
     for c in valid_candidates:
         score = 50
@@ -424,91 +171,51 @@ def main():
             title = post.get("title", slug)
             print(f"\n  [{slug}] {title}")
 
-            keywords = generate_keywords(post)
-            queries = build_queries(keywords)
-            print(f"    Keywords: {', '.join(keywords[:8])}")
-            print(f"    Queries: {queries[:3]}")
-
-            selected = None
-            selected_provider = None
-            providers_tried = []
-            queries_tried = []
-
-            for query in queries:
-                queries_tried.append(query)
-                for provider in enabled_providers:
-                    if provider.name not in providers_tried:
-                        providers_tried.append(provider.name)
-                    print(f"    Trying {provider.name} -- query: \"{query}\"")
-                    candidates = provider.search(query, post)
-                    if not candidates:
-                        print(f"      No candidates from {provider.name}")
-                        continue
-                    valid = []
-                    for c in candidates:
-                        ok, reason = validate_candidate(c, post, used_urls)
-                        if ok:
-                            valid.append(c)
-                        else:
-                            pass
-                    if not valid:
-                        print(f"      {provider.name}: {len(candidates)} found, 0 valid")
-                        continue
-                    ranked = rank_candidates(valid, post, used_urls)
-                    if ranked:
-                        selected = ranked[0]
-                        selected_provider = provider.name
-                        print(f"      SELECTED from {provider.name}: {selected['source_url']}")
-                        break
-                if selected:
-                    break
+            body = load_post_body(slug)
+            print(f"    Running Image Relevance Gate...")
+            gate_result = select_best_image(
+                post=post,
+                body=body,
+                providers=enabled_providers,
+                used_urls=used_urls,
+            )
+            selected = gate_result.get("candidate") if gate_result else None
+            selected_provider = clean_text(selected.get("source_platform")) if selected else None
 
             if selected:
-                image_id = f"img-{hashlib.md5(slug.encode()).hexdigest()[:8]}"
-                source_platform = clean_text(selected["source_platform"])
-                creator = clean_text(selected.get("creator"))
-                creator_url = clean_text(selected.get("creator_url")) if creator else ""
-                entry = {
-                    "slug": slug,
-                    "title": title,
-                    "image_id": image_id,
-                    "source_platform": source_platform,
-                    "source_url": selected["source_url"],
-                    "direct_url": selected["direct_url"],
-                    "creator": creator,
-                    "creator_url": creator_url,
-                    "license": selected["license"],
-                    "commercial_use": selected["commercial_use"],
-                    "local_source_path": f"static/images/posts-src/{slug}.jpg",
-                    "output_path": f"static/images/posts/{slug}.webp",
-                    "watermark_text": attribution_text(source_platform, creator),
-                    "provider_used": selected_provider,
-                }
-                upsert_entry(entry)
-                source_cache[slug] = entry
-                used_urls.add(selected.get("source_url", ""))
-                selection_report["summary"]["selected"] += 1
-                selection_report["selected"].append({
-                    "title": title,
-                    "slug": slug,
-                    "provider": selected_provider,
-                    "source_url": selected["source_url"],
-                })
-                prov_key = selected_provider
-                selection_report["summary"]["providers_used"][prov_key] = \
-                    selection_report["summary"]["providers_used"].get(prov_key, 0) + 1
-                print(f"    => Registered in manifest from {selected_provider}")
-            else:
-                print(f"    FAILED: No valid image found from any provider")
-                print(f"    Providers tried: {providers_tried}")
-                print(f"    Queries tried: {queries_tried}")
+                entry = manifest_entry_from_selection(slug, title, gate_result)
+                if not entry:
+                    selected = None
+                else:
+                    upsert_entry(entry)
+                    source_cache[slug] = entry
+                    used_urls.add(selected.get("source_url", ""))
+                    selection_report["summary"]["selected"] += 1
+                    selection_report["selected"].append({
+                        "title": title,
+                        "slug": slug,
+                        "provider": selected_provider,
+                        "source_url": selected["source_url"],
+                        "image_query": entry.get("image_query", ""),
+                        "image_total_score": entry.get("image_total_score", 0),
+                    })
+                    prov_key = selected_provider
+                    selection_report["summary"]["providers_used"][prov_key] = \
+                        selection_report["summary"]["providers_used"].get(prov_key, 0) + 1
+                    print(
+                        f"    => GATE ACCEPTED from {selected_provider}: "
+                        f"score={entry.get('image_total_score')} query={entry.get('image_query')}"
+                    )
+
+            if not selected:
+                reject_reason = (gate_result or {}).get("reject_reason", "no_valid_candidate")
+                print(f"    FAILED: {reject_reason}")
                 selection_report["summary"]["needs_image"] += 1
                 selection_report["needs_image"].append({
                     "title": title,
                     "slug": slug,
-                    "queries_tried": queries_tried,
-                    "providers_tried": providers_tried,
-                    "reason": "no_valid_candidate",
+                    "reason": reject_reason,
+                    "top_candidates": (gate_result or {}).get("top_candidates", [])[:5],
                 })
                 for i, e in enumerate(manifest["posts"]):
                     if e["slug"] == slug:
@@ -537,17 +244,16 @@ def main():
         print("\n  Posts still needing images:")
         for p in selection_report["needs_image"]:
             print(f"    - {p['title']} ({p['slug']})")
-        print("\nWARNING: Posts remain without images. Set image_status=needs_image in frontmatter.")
+        print("\nWARNING: Posts remain without verified images. Set image_status=needs_review in frontmatter.")
         for p in selection_report["needs_image"]:
-            _mark_needs_image(p["slug"])
+            _mark_needs_review(p["slug"], p.get("reason", "No candidate passed semantic/color/object gate"))
         sys.exit(1)
 
     print("\nAll posts have real images selected.")
 
 
-def _mark_needs_image(slug):
-    """Clear all image fields and mark needs_image. No trace of placeholder left."""
-    import frontmatter
+def _mark_needs_review(slug, reason: str):
+    """Clear image fields and mark needs_review when gate finds no acceptable candidate."""
     content_dir = "content/posts"
     for fname in os.listdir(content_dir):
         if not fname.endswith(".md"):
@@ -557,14 +263,20 @@ def _mark_needs_image(slug):
             post = frontmatter.load(fpath)
             if post.metadata.get("slug") == slug:
                 meta = post.metadata
-                for key in ["image", "thumbnail", "image_source", "image_source_url",
-                            "image_license", "image_commercial_use", "image_owner",
-                            "image_creator", "image_creator_url"]:
+                for key in [
+                    "image", "thumbnail", "image_source", "image_source_url",
+                    "image_license", "image_commercial_use", "image_owner",
+                    "image_creator", "image_creator_url", "image_provider",
+                    "image_query", "image_semantic_score", "image_color_score",
+                    "image_total_score", "image_alt",
+                ]:
                     meta.pop(key, None)
-                meta["image_status"] = "needs_image"
+                meta["image"] = ""
+                meta["image_status"] = "needs_review"
+                meta["image_reject_reason"] = reason
                 with open(fpath, "w", encoding="utf-8") as f:
                     f.write(frontmatter.dumps(post))
-                print(f"    Cleared image fields, set needs_image: {slug}")
+                print(f"    Cleared image fields, set needs_review: {slug}")
                 return
         except Exception:
             continue

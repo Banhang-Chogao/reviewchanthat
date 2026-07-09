@@ -172,7 +172,8 @@ def clear_post_image(slug):
                             "image_license", "image_commercial_use", "image_owner",
                             "image_creator", "image_creator_url"]:
                     meta.pop(key, None)
-                meta["image_status"] = "needs_image"
+                meta["image_status"] = "needs_review"
+                meta["image_reject_reason"] = "No verified image available after processing"
                 with open(os.path.join(CONTENT_DIR, f), "w", encoding="utf-8") as fh:
                     fh.write(frontmatter.dumps(post))
                 print(f"    Cleared image data, set needs_image: {f}")
@@ -183,7 +184,7 @@ def clear_post_image(slug):
 
 def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url,
                             license_val, commercial_use, owner="external", creator="",
-                            creator_url=""):
+                            creator_url="", gate_meta=None):
     import frontmatter
     fname = None
     for f in os.listdir(CONTENT_DIR):
@@ -210,7 +211,17 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
     meta["image_owner"] = owner
     meta["image_creator"] = clean_text(creator)
     meta["image_creator_url"] = clean_text(creator_url) if clean_text(creator) else ""
-    meta.pop("image_status", None)
+    meta["image_status"] = "verified"
+    meta.pop("image_reject_reason", None)
+    if gate_meta:
+        for key in (
+            "image_provider", "image_query", "image_semantic_score",
+            "image_color_score", "image_total_score", "image_alt",
+        ):
+            if gate_meta.get(key) not in (None, ""):
+                meta[key] = gate_meta[key]
+    if not meta.get("image_provider"):
+        meta["image_provider"] = clean_text(source).lower()
     with open(fpath, "w", encoding="utf-8") as f:
         f.write(frontmatter.dumps(post))
     print(f"    Updated frontmatter: {fname}")
@@ -256,6 +267,14 @@ def main():
             fsize = os.path.getsize(dest_path)
             if fsize > 5000 and not has_placeholder_characteristics(dest_path):
                 print(f"    Already processed (real image): {dest_path} ({fsize} bytes)")
+                gate_meta = {
+                    "image_provider": clean_text(entry.get("source_platform", source)).lower(),
+                    "image_query": entry.get("image_query", ""),
+                    "image_semantic_score": entry.get("image_semantic_score", 0),
+                    "image_color_score": entry.get("image_color_score", 0),
+                    "image_total_score": entry.get("image_total_score", 0),
+                    "image_alt": entry.get("image_alt", ""),
+                }
                 update_post_frontmatter(
                     slug=slug,
                     image_path=f"images/posts/{slug}.webp",
@@ -267,6 +286,7 @@ def main():
                     owner=owner,
                     creator=creator,
                     creator_url=creator_url,
+                    gate_meta=gate_meta,
                 )
                 skipped += 1
                 continue
@@ -302,6 +322,14 @@ def main():
             failed += 1
             continue
 
+        gate_meta = {
+            "image_provider": clean_text(entry.get("source_platform", source)).lower(),
+            "image_query": entry.get("image_query", ""),
+            "image_semantic_score": entry.get("image_semantic_score", 0),
+            "image_color_score": entry.get("image_color_score", 0),
+            "image_total_score": entry.get("image_total_score", 0),
+            "image_alt": entry.get("image_alt", ""),
+        }
         update_post_frontmatter(
             slug=slug,
             image_path=f"images/posts/{slug}.webp",
@@ -313,6 +341,7 @@ def main():
             owner=owner,
             creator=creator,
             creator_url=creator_url,
+            gate_meta=gate_meta,
         )
         success += 1
 

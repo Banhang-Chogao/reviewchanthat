@@ -1,0 +1,44 @@
+{{- $page := .context -}}
+{{- $mode := .mode -}}
+{{- $status := $page.Params.image_status | default "" -}}
+{{- $legacyOk := and (not $status) $page.Params.image -}}
+{{- $verified := or (eq $status "verified") $legacyOk -}}
+{{- $blocked := or (eq $status "needs_review") (eq $status "needs_image") -}}
+{{- if and $verified (not $blocked) $page.Params.image -}}
+  {{- $image := $page.Params.image -}}
+  {{- $alt := $page.Params.image_alt | default $page.Title -}}
+  {{- if eq $mode "hero" -}}
+  <div class="post-featured-image">
+    <img src="{{ $image | relURL }}" alt="{{ $alt }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
+    {{ $imageCreator := $page.Params.image_creator | default "" | strings.TrimSpace }}
+    {{ with $page.Params.image_source }}
+    <div class="post-image-attribution">
+      Nguồn ảnh:
+      {{ if $page.Params.image_source_url }}
+      <a href="{{ $page.Params.image_source_url }}" target="_blank" rel="noopener">{{ . }}</a>
+      {{ else }}
+      {{ . }}
+      {{ end }}
+      {{ with $imageCreator }} / {{ . }}{{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{- else if eq $mode "thumb" -}}
+  {{- $thumb := $page.Params.thumbnail | default $image -}}
+  <div class="post-card-thumb">
+    <a href="{{ $page.RelPermalink }}">
+      <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="220" height="165">
+    </a>
+  </div>
+  {{- else if eq $mode "row" -}}
+  {{- $thumb := $page.Params.thumbnail | default $image -}}
+  <a href="{{ $page.RelPermalink }}" class="category-post-row__image-link">
+    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="category-post-row__image" loading="lazy" decoding="async" width="168" height="126">
+  </a>
+  {{- else if eq $mode "home" -}}
+  {{- $thumb := $page.Params.thumbnail | default $image -}}
+  <a href="{{ $page.RelPermalink }}" class="home-post-block__image-link">
+    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="home-post-block__image" loading="lazy" decoding="async" width="220" height="165">
+  </a>
+  {{- end -}}
+{{- end -}}

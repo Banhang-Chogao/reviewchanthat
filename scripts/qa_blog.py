@@ -193,9 +193,17 @@ def qa():
             elif image_creator_url and expected_creator_url and image_creator_url != expected_creator_url:
                 errors.append(f"[IMAGE_CREATOR_URL_MISMATCH] {slug}: frontmatter={image_creator_url} manifest={expected_creator_url}")
 
-        if image_status == "needs_image":
-            errors.append(f"[NEEDS_IMAGE] {slug}: post still needs a real image")
+        if image_status in {"needs_image", "needs_review"}:
+            errors.append(f"[NEEDS_IMAGE] {slug}: post still needs a verified image ({image_status})")
             posts_with_needs_image += 1
+
+        if meta.get("image_reject_reason") and image:
+            errors.append(f"[IMAGE_REJECT_WITH_IMAGE] {slug}: reject_reason set but image still assigned")
+
+        if image_status == "verified":
+            score = meta.get("image_total_score")
+            if score not in (None, "") and float(score) < 72:
+                errors.append(f"[IMAGE_SCORE_LOW] {slug}: image_total_score={score}")
 
         if source_url:
             if source_url in seen_urls:

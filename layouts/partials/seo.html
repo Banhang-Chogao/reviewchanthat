@@ -1,7 +1,10 @@
 {{- $defaultOg := "images/posts/coffeebean-cover-hero.webp" | absURL -}}
 {{- $ogImage := $defaultOg -}}
-{{- with .Params.image -}}
-  {{- $ogImage = . | relURL | absURL -}}
+{{- $imgStatus := .Params.image_status | default "" -}}
+{{- $imgOk := or (eq $imgStatus "verified") (and (not $imgStatus) .Params.image) -}}
+{{- $imgBlocked := or (eq $imgStatus "needs_review") (eq $imgStatus "needs_image") -}}
+{{- if and $imgOk (not $imgBlocked) .Params.image -}}
+  {{- $ogImage = .Params.image | relURL | absURL -}}
 {{- end -}}
 {{- $pageTitle := .Title -}}
 {{- if and (eq .Data.Singular "category") .Data.Term -}}
@@ -38,6 +41,6 @@
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 160 }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
 <meta name="twitter:image" content="{{ $ogImage }}">
 {{ if not .IsHome }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
-{{- if and (eq .Section "posts") .Params.image -}}
+{{- if and (eq .Section "posts") $imgOk (not $imgBlocked) .Params.image -}}
 <link rel="preload" as="image" href="{{ .Params.image | relURL }}" fetchpriority="high">
 {{- end -}}

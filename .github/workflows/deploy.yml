@@ -56,6 +56,9 @@ jobs:
       - name: QA blog
         run: python scripts/qa_blog.py
 
+      - name: Check image relevance
+        run: python scripts/check_image_relevance.py
+
       - name: Build Hugo
         run: hugo --minify
 

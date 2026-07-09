@@ -19,12 +19,7 @@
       </div>
       <span class="post-read-time">{{ .ReadingTime }} phút đọc</span>
     </div>
-    {{ $thumb := .Params.thumbnail | default .Params.image | default "images/posts/fallback.webp" }}
-    <div class="post-card-thumb">
-      <a href="{{ $.RelPermalink }}">
-        <img src="{{ $thumb | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async" width="220" height="165">
-      </a>
-    </div>
+    {{ partial "post-verified-image.html" (dict "context" . "mode" "thumb") }}
     <p class="post-card-excerpt">{{ .Description | plainify | truncate 200 }}</p>
   </div>
 </article>
