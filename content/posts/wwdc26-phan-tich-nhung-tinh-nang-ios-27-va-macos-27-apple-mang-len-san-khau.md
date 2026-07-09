@@ -47,7 +47,7 @@ faq:
 - answer: Không. iPhone Ultra (foldable) vẫn là tin đồn phần cứng hướng tới sự kiện
     riêng, không phải keynote phần mềm 8/6/2026.
 image: images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp
-image_attribution_checked_at: '2026-07-10T04:52:35+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -60,6 +60,7 @@ image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/vibrant-gerbera-daisy-close-up-photography-31102157/
 lastmod: '2026-07-08 00:00:00+07:00'
+seo_title: 'WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple'
 slug: wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau
 tags:
 - WWDC26
@@ -77,8 +78,6 @@ tom_tat_nhanh:
 - label: Mục đích
 - label: Hợp với
 - label: Điểm chính
-seo_title: "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple"
-
 ---
 
 Bạn có nhớ cảm giác mỗi lần WWDC tới gần không? Cộng đồng Apple lại chia làm hai phe: một phe chỉ muốn biết có đáng lên iOS mới không, phe kia soi từng dòng code trong beta developer. **WWDC26** cũng không ngoại lệ — nhưng năm nay áp lực cao hơn nhiều.

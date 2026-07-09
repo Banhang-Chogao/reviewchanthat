@@ -34,7 +34,7 @@ faq:
 - answer: Khoảng 40 km, đi bus khoảng 50 phút.
 - answer: Có nhiều nhà hàng và quán cà phê trong khu Jungmun Tourist Complex.
 image: images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp
-image_attribution_checked_at: '2026-07-10T04:52:23+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -50,6 +50,7 @@ internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - ref: posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md
 - ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
+seo_title: 'Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp'
 series: du-lich
 series_order: 19
 series_title: Du lịch Hàn Quốc 2026
@@ -70,8 +71,6 @@ tom_tat_nhanh:
 - label: Hợp với
 - label: Thời gian nên dành
 - label: Lưu ý mùa hè
-seo_title: "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp"
-
 ---
 
 Jungmun Beach nằm trong khu nghỉ dưỡng Jungmun phía nam Jeju, gần Seogwipo. Đây là một trong những bãi biển có phong cảnh đẹp nhất Jeju với hình dáng mũi tên độc đáo, nước trong vắt và bờ cát mềm.

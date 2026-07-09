@@ -32,7 +32,7 @@ faq:
     với các hoạt động khác trong ngày.
 - answer: Có, rất phù hợp. Các trò chơi nhẹ nhàng, boardwalk rộng, có thủy cung.
 image: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
-image_attribution_checked_at: '2026-07-10T04:52:34+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -48,6 +48,7 @@ internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md
 - ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
+seo_title: 'Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho'
 series: du-lich
 series_order: 13
 series_title: Du lịch Hàn Quốc 2026
@@ -69,8 +70,6 @@ tom_tat_nhanh:
 - label: Hợp với
 - label: Thời gian nên dành
 - label: Lưu ý mùa hè
-seo_title: "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho"
-
 ---
 
 Wolmido thực ra không phải đảo nữa — nó đã được nối với đất liền từ lâu. Nhưng cái tên "đảo" vẫn gắn liền với khu vui chơi ven biển nổi tiếng nhất Incheon, chỉ 1 tiếng metro từ Seoul.

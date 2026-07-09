@@ -22,13 +22,13 @@ categories:
 date: "2026-07-08 10:00:00+07:00"
 description: "Ở khu nào tại Bangkok mùa mưa? So sánh Siam, Ratchathewi, Pratunam, Sukhumvit, Silom — giá, kết nối BTS, điểm indoor gần, phù hợp từng đối tượng."
 image: images/posts/o-khu-nao-bangkok-mua-mua.webp
-image_attribution_checked_at: '2026-07-09T10:41:35+07:00'
+image_attribution_checked_at: "2026-07-09T10:43:30+07:00"
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: Sururi Ballıdağ Director
 image_creator_id: 318819549
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@drector"
 image_license: Pexels License
 image_license_url: "https://www.pexels.com/license/"
 image_owner: external

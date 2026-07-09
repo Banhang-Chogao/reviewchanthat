@@ -29,7 +29,7 @@ external_links:
 - title: Starbucks — Customer experience
   url: https://www.starbucks.com/business/standards-of-business-conduct/
 image: images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp
-image_attribution_checked_at: '2026-07-10T04:52:41+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -41,6 +41,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/person-holding-starbucks-disposable-cup-324028/
+seo_title: 'Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo'
 series: starbucks-vietnam
 series_order: 4
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
@@ -59,8 +60,6 @@ tom_tat_nhanh:
 - label: Nguyễn Văn Trỗi
 - label: Barista
 - label: Mẹo
-seo_title: "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo"
-
 ---
 
 Một ly Starbucks ngon không chỉ đến từ hạt cà phê — mà còn từ **người pha** và **cách phục vụ**. Sau nhiều lần ghé các chi nhánh tại TP.HCM, mình nhận thấy dịch vụ là thứ khiến khách quay lại (hoặc không bao giờ quay lại) mạnh hơn cả vài nghìn đồng chênh lệch giá.

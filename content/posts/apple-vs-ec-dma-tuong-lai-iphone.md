@@ -34,7 +34,7 @@ external_links:
 - title: Digital Markets Act — Trang chính thức EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp
-image_attribution_checked_at: '2026-07-10T04:52:39+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
@@ -43,7 +43,7 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/silver-iphone-6-on-book-699122/

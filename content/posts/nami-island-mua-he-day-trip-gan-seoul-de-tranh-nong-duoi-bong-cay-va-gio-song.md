@@ -35,7 +35,7 @@ faq:
 - answer: Khu vực này có dịch vụ xe điện hỗ trợ, bạn nên kiểm tra thông tin chi tiết
     trên website chính thức.
 image: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
-image_attribution_checked_at: '2026-07-10T04:52:28+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -51,6 +51,7 @@ internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - ref: posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md
 - ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
+seo_title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới'
 series: du-lich
 series_order: 10
 series_title: Du lịch Hàn Quốc 2026
@@ -72,8 +73,6 @@ tom_tat_nhanh:
 - label: Hợp với
 - label: Thời gian nên dành
 - label: Lưu ý mùa hè
-seo_title: "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới"
-
 ---
 
 Ai cũng biết Nami Island mùa thu lá vàng đẹp như phim _Winter Sonata_. Nhưng theo mình, Nami mùa hè mới thực sự là chốn tránh nóng lý tưởng — tán Metasequoia xanh mướt che kín lối đi, gió từ sông Bukhan thổi lồng lộng, khác hẳn cái oi bức ở Seoul.

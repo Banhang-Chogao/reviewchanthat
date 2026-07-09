@@ -41,7 +41,7 @@ faq:
     review từ người dùng thật trên các diễn đàn như Reddit, Tinhte, hoặc các nhóm
     Facebook chất lượng.
 image: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
-image_attribution_checked_at: '2026-07-10T04:52:10+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

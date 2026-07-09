@@ -21,7 +21,7 @@ description: 'Hướng dẫn cài macOS 27 public/developer beta: rủi ro ổn 
   hàng, cách rollback và profile Apple Beta.'
 draft: false
 image: images/posts/macos-27-beta-co-nen-cai-khong.webp
-image_attribution_checked_at: '2026-07-10T04:52:25+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -33,6 +33,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/macbook-pro-on-rooftop-with-code-editor-open-37085305/
+seo_title: macOS 27 beta có nên cài không? Rủi ro, backup và cách quay
 series: macos-27-co-gi-moi
 series_order: 7
 series_title: macOS 27 có gì mới
@@ -51,8 +52,6 @@ tom_tat_nhanh:
 - label: Public beta
 - label: Rủi ro
 - label: Hợp với
-seo_title: "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay"
-
 ---
 
 Public beta macOS 27 dự kiến **tháng 7/2026** — đúng lúc nhiều người rảnh thử hệ điều hành mới. Nhưng beta trên Mac **không giống** beta game: rollback khó, dữ liệu công việc thật, app ngân hàng có thể từ chối chạy.

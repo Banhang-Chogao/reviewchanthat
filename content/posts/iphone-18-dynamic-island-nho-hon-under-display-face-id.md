@@ -17,6 +17,9 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 12:00:00+07:00'
+description: Từ iPhone 14 Pro, Dynamic Island đã trở thành “khuôn mặt” nhận diện iPhone
+  cao cấp — nhưng cũng là thứ nhiều người muốn biến mất. Với iPhone 18, cộng đồng
+  leak
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup
@@ -25,7 +28,7 @@ external_links:
 - title: AppleInsider — iPhone 18 expectations
 - title: MacRumors — iPhone 18 Pro rumored colors
 image: images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp
-image_attribution_checked_at: '2026-07-10T04:52:43+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -37,6 +40,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/pexels-photo-788883/
+seo_title: iPhone 18 có Dynamic Island nhỏ hơn không? Under-display
 series: iphone-18-co-gi-moi
 series_order: 7
 series_title: iPhone 18 có gì mới
@@ -56,9 +60,6 @@ tom_tat_nhanh:
 - label: Trạng thái
 - label: Hướng đồn mạnh
 - label: Đọc thêm
-seo_title: "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display"
-description: "Từ iPhone 14 Pro, Dynamic Island đã trở thành “khuôn mặt” nhận diện iPhone cao cấp — nhưng cũng là thứ nhiều người muốn biến mất. Với iPhone 18, cộng đồng leak"
-
 ---
 
 Từ iPhone 14 Pro, **Dynamic Island** đã trở thành “khuôn mặt” nhận diện iPhone cao cấp — nhưng cũng là thứ nhiều người muốn **biến mất**. Với **iPhone 18**, cộng đồng leak lại hỏi hai câu song song: **Dynamic Island có nhỏ hơn không?** và **Under-display Face ID** (Face ID dưới tấm nền) cuối cùng có tới không?

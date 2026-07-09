@@ -26,7 +26,7 @@ external_links:
 - title: Starbucks Vietnam
   url: https://www.starbucks.vn/
 image: images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp
-image_attribution_checked_at: '2026-07-10T04:52:41+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -38,6 +38,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/person-using-macbook-pro-on-brown-wooden-table-1001969/
+seo_title: 'Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng'
 series: starbucks-vietnam
 series_order: 6
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
@@ -56,8 +57,6 @@ tom_tat_nhanh:
 - label: App
 - label: Giờ đông
 - label: Chi nhánh quen
-seo_title: "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng"
-
 ---
 
 Lần đầu order Starbucks, bạn có thể nghe nhân viên hỏi một loạt: "Size gì ạ? Anh/chị uống tại chỗ hay mang đi? Có cần ít đá không?" — đừng ngại. Sau vài lần, bạn sẽ có **công thức order** riêng và tiết kiệm được thời gian lẫn tiền (nhờ Rewards).

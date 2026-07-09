@@ -25,19 +25,20 @@ date: '2026-07-08 10:00:00+07:00'
 description: "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu."
 draft: false
 image: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
-image_attribution_checked_at: '2026-07-09T10:43:16+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
+image_attribution_checked_at: "2026-07-10T06:10:00+07:00"
+image_attribution_error: source_page_no_creator; embedded_meta_no_creator
+image_attribution_source: not_found
+image_attribution_verified: false
 image_commercial_use: true
-image_creator: null
-image_creator_id: 2155962840
-image_creator_url: null
+image_creator: ""
+image_creator_id: ""
+image_creator_url: ""
 image_license: Pexels License
-image_license_url: ''
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: ''
+image_source_url: ""
 seo_title: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho'
 series:
 - du-lich-thai-lan-mua-mua

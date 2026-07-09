@@ -35,7 +35,7 @@ external_links:
 - title: KoreaToDo — Top Autumn Foliage Sites
   url: ''
 image: images/posts/seoraksan-thang-11-ngam-la-do.webp
-image_attribution_checked_at: '2026-07-10T04:52:50+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

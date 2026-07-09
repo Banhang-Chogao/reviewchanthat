@@ -22,13 +22,13 @@ categories:
 date: "2026-07-08 10:00:00+07:00"
 description: "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa."
 image: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
-image_attribution_checked_at: '2026-07-09T10:41:28+07:00'
+image_attribution_checked_at: "2026-07-09T10:43:23+07:00"
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: David McBee
 image_creator_id: 30082
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@davidmcbee"
 image_license: Pexels License
 image_license_url: "https://www.pexels.com/license/"
 image_owner: external

@@ -17,7 +17,7 @@ description: 'Trên tay iPhone 16 Pro Max Desert Titanium: màu sắc, màn 6.9 
   Control, 227g và đánh giá tổng thể series màu titan 2024.'
 draft: false
 image: images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp
-image_attribution_checked_at: '2026-07-10T04:52:21+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

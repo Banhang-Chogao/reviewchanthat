@@ -35,7 +35,7 @@ external_links:
 - title: Visit Busan
   url: https://www.visitbusan.net
 image: images/posts/busan-thang-11-nen-di-dau.webp
-image_attribution_checked_at: '2026-07-10T04:52:50+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -43,7 +43,7 @@ image_creator: Near Look
 image_creator_id: '110077'
 image_creator_url: https://www.pexels.com/@near-look-110077
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/pexels-photo-340138/

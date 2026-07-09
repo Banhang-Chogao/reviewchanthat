@@ -33,7 +33,7 @@ external_links:
 - title: KoreaToDo — Top Autumn Foliage Sites
   url: ''
 image: images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp
-image_attribution_checked_at: '2026-07-10T04:52:51+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -53,6 +53,7 @@ internal_links:
 - ref: posts/nami-thang-11-co-dang-di-khong.md
 - ref: posts/seoraksan-thang-11-ngam-la-do.md
 - ref: posts/chi-phi-di-han-thang-11-tu-tuc.md
+seo_title: 'Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và'
 series: di-han-thang-11
 series_order: 10
 series_title: Đi Hàn tháng 11
@@ -76,8 +77,6 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý
   value: ''
-seo_title: "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và"
-
 ---
 
 Năm ngày bốn đêm là khung thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để trải nghiệm **peak lá đỏ ở Seoul**, đi một day trip ra ngoại ô và dành thời gian cho cung điện, công viên. Khác với tháng 10, tháng 11 **Seoul thường đẹp hơn về foliage** nhưng **lạnh hơn rõ**; Nami và Seoraksan **đổ màu sớm hơn** nên cần xếp lịch khác.

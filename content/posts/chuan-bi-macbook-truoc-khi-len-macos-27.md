@@ -20,7 +20,7 @@ description: 'Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time M
   tra app, RAM và kế hoạch rollback.'
 draft: false
 image: images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp
-image_attribution_checked_at: '2026-07-10T04:52:11+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -28,7 +28,7 @@ image_creator: Field Engineer
 image_creator_id: '147254'
 image_creator_url: https://www.pexels.com/@field-engineer-147254
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/silver-macbook-on-brown-wooden-table-442150/

@@ -21,7 +21,7 @@ description: 'Apple Intelligence trên iOS 27: Siri AI, yêu cầu phần cứng
   Việt và giới hạn thực tế cho người dùng Việt Nam.'
 draft: false
 image: images/posts/ios-27-apple-intelligence-iphone-cu.webp
-image_attribution_checked_at: '2026-07-10T04:52:16+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: embedded_exif_iptc_xmp
 image_attribution_verified: true
 image_commercial_use: true
@@ -33,6 +33,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/close-up-of-a-person-holding-an-iphone-15-pro-19060767/
+seo_title: 'iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía'
 series: ios-27-co-gi-moi
 series_order: 3
 series_title: iOS 27 có gì mới
@@ -51,8 +52,6 @@ tom_tat_nhanh:
 - label: Yêu cầu
 - label: Tính năng
 - label: Hợp với
-seo_title: "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía"
-
 ---
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **iOS 27** là lần Apple cố biến AI thành thói quen trên iPhone — không chỉ demo keynote. Câu hỏi thực tế: **iPhone của bạn chạy được những gì, và tiếng Việt đến đâu?**

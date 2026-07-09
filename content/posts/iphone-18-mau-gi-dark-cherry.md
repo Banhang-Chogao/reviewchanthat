@@ -27,7 +27,7 @@ external_links:
 - title: MacRumors — iPhone Fold roundup
 - title: MacRumors — iPhone 18 roundup
 image: images/posts/iphone-18-mau-gi-dark-cherry.webp
-image_attribution_checked_at: '2026-07-10T04:52:44+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -39,6 +39,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/pexels-photo-47261/
+seo_title: iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có
 series: iphone-18-co-gi-moi
 series_order: 11
 series_title: iPhone 18 có gì mới
@@ -58,8 +59,6 @@ tom_tat_nhanh:
 - label: Màu nổi bật
 - label: Áp dụng
 - label: Lưu ý
-seo_title: "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có"
-
 ---
 
 Màu sắc hiếm khi thay đổi **cách máy chạy** — nhưng lại thay đổi **cảm giác mỗi lần cầm lên** và **giá bán lại** ở Việt Nam. Với **iPhone 18**, tin đồn đang tập trung vào **Dark Cherry** — tông đỏ cherry đậm gắn mã **Pantone 6076** — cho dòng **Pro** và có thể cả **iPhone Fold**. Apple **chưa công bố** bất kỳ màu nào; bài viết tổng hợp từ [MacRumors](https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/), [MacRumors iPhone 18 Pro roundup](https://www.macrumors.com/roundup/iphone-18-pro/) và [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more).

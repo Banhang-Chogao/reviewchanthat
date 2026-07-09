@@ -42,7 +42,7 @@ faq:
 - answer: Mức hỗ trợ tiếng Việt cho Siri AI từng giai đoạn, danh sách máy tương thích,
     và changelog từng beta — không chỉ slide keynote.
 image: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
-image_attribution_checked_at: '2026-07-10T04:52:34+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -57,6 +57,7 @@ image_source_url: https://www.pexels.com/photo/apple-logo-on-purple-background-7
 internal_links:
 - ref: posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md
 lastmod: '2026-07-08 00:00:00+07:00'
+seo_title: 'WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và'
 slug: wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi
 tags:
 - WWDC26
@@ -75,8 +76,6 @@ tom_tat_nhanh:
 - label: Tính năng đáng chú ý
 - label: Mức độ hoàn thiện
 - label: Hợp với
-seo_title: "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và"
-
 ---
 
 WWDC26 kết thúc được một tháng rồi. Đủ để bản beta về tay developer, đủ để báo chí chuyển từ "Apple sắp làm gì?" sang "Apple làm được gì rồi?", và cũng đủ để người dùng phổ thông bắt đầu đặt câu hỏi thực tế hơn: **có nên cài thử, hay chờ bản chính thức?**

@@ -42,7 +42,7 @@ faq:
 - answer: Thường 20:00 và 22:00 thứ 7. Cần kiểm tra lịch thực tế trước khi đi vì lịch
     có thể thay đổi theo mùa.
 image: images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp
-image_attribution_checked_at: '2026-07-10T04:52:14+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -60,6 +60,7 @@ internal_links:
 - ref: posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md
 - ref: posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
+seo_title: 'Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất'
 series: du-lich
 series_order: 15
 series_title: Du lịch Hàn Quốc 2026
@@ -85,8 +86,6 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý mùa hè
   value: ''
-seo_title: "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất"
-
 ---
 
 Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm — khung cảnh bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.

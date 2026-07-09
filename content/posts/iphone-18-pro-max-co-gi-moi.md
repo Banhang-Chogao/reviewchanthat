@@ -24,10 +24,10 @@ external_links:
 - title: MacRumors — iPhone 18 Pro colors rumor
 - title: AppleInsider — iPhone 18 expectations
 image: "images/posts/iphone-18-pro-max-co-gi-moi.webp"
-image_attribution_checked_at: '2026-07-09T10:47:11+07:00'
-image_attribution_source: "pexels_api"
+image_attribution_checked_at: "2026-07-10T06:10:05+07:00"
+image_attribution_source: pexels_api
 image_attribution_verified: true
-image_creator_id: "716707736"
+image_creator_id: 716707736
 image_license_url: "https://www.pexels.com/license/"
 image_reject_reason: No candidate passed semantic/color/object gate
 image_status: "verified"
@@ -49,13 +49,13 @@ tom_tat_nhanh:
 - label: Điểm nổi bật (đồn)
 - label: Hợp với
 thumbnail: "images/posts/iphone-18-pro-max-co-gi-moi.webp"
-image_source: "Pexels"
+image_source: Pexels
 image_source_url: "https://www.pexels.com/photo/pictures-of-pregnant-woman-on-laptop-19809358/"
-image_provider: "pexels"
-image_license: "Pexels License"
+image_provider: pexels
+image_license: Pexels License
 image_commercial_use: true
 image_owner: "external"
-image_creator: "juliane Monari"
+image_creator: juliane Monari
 image_creator_url: "https://www.pexels.com/@julianemonarifotografia"
 image_alt: "Ảnh minh họa — Pexels / juliane Monari"
 description: "iPhone 18 Pro Max là model flagship lớn nhất trong kỳ vọng đợt ra mắt mùa thu 2026 — nếu tin đồn split launch đúng, đây là máy “full option” Apple có thể giới"

@@ -21,7 +21,7 @@ description: 'Apple Intelligence trên macOS Golden Gate 27: Siri AI Spotlight, 
   cầu phần cứng Mac, tiếng Việt và giới hạn thực tế cho người dùng Việt Nam.'
 draft: false
 image: images/posts/macos-27-apple-intelligence-macbook.webp
-image_attribution_checked_at: '2026-07-10T04:52:24+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -33,6 +33,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/person-coding-on-a-macbook-pro-4974912/
+seo_title: 'macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI'
 series: macos-27-co-gi-moi
 series_order: 3
 series_title: macOS 27 có gì mới
@@ -51,8 +52,6 @@ tom_tat_nhanh:
 - label: Yêu cầu
 - label: Tính năng
 - label: Hợp với
-seo_title: "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI"
-
 ---
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **macOS Golden Gate 27** là lần Apple cố gắng biến AI thành thói quen trên desktop — không chỉ demo keynote. Câu hỏi thực tế: **MacBook của bạn chạy được những gì, và tiếng Việt đến đâu?**

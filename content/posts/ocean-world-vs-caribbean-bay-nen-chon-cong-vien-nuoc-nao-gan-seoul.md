@@ -27,7 +27,7 @@ faq:
 - answer: Caribbean Bay 40 phút, Ocean World 60 phút.
 - answer: Caribbean Bay (50.000–60.000 KRW). Ocean World (40.000–50.000 KRW).
 image: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
-image_attribution_checked_at: '2026-07-10T04:52:29+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -49,6 +49,7 @@ internal_links:
 - ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
 - ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
 - ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
+seo_title: 'Ocean World vs Caribbean Bay: nên chọn công viên nước nào'
 series: du-lich-han-quoc-mua-he
 series_order: 10
 series_title: Du lịch Hàn Quốc mùa hè
@@ -67,8 +68,6 @@ tom_tat_nhanh:
 - label: Ocean World
 - label: Khoảng cách
 - label: Giá vé
-seo_title: "Ocean World vs Caribbean Bay: nên chọn công viên nước nào"
-
 ---
 
 Cả Caribbean Bay và Ocean World đều là công viên nước hàng đầu gần Seoul. Bài viết so sánh giúp bạn chọn đúng.

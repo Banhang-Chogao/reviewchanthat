@@ -26,7 +26,7 @@ external_links:
 - title: Starbucks Stories — Store design
   url: https://stories.starbucks.com/stories/design/
 image: images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp
-image_attribution_checked_at: '2026-07-10T04:52:41+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -38,6 +38,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/people-sitting-inside-room-1457847/
+seo_title: 'Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải'
 series: starbucks-vietnam
 series_order: 5
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
@@ -56,8 +57,6 @@ tom_tat_nhanh:
 - label: Làm việc
 - label: Nguyễn Văn Trỗi
 - label: Giờ yên
-seo_title: "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải"
-
 ---
 
 Starbucks bán cà phê — nhưng rất nhiều khách trả tiền cho **chỗ ngồi**. Không gian là lý do người ta ở lại ba tiếng với một ly, mở laptop làm việc, hoặc hẹn bạn đọc sách. Bài này mô tả **không gian và trải nghiệm Starbucks Vietnam**, tập trung chi nhánh **Nguyễn Văn Trỗi** mà mình dùng như "văn phòng phụ" khá thường xuyên.

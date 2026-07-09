@@ -32,7 +32,7 @@ external_links:
 - title: Visit Korea — Seoul Fall Forests
 - title: Korea Meteorological Administration
 image: images/posts/di-han-thang-11-co-dep-khong.webp
-image_attribution_checked_at: '2026-07-10T04:52:48+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -44,6 +44,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/pexels-photo-2131620/
+seo_title: Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì
 series: di-han-thang-11
 series_order: 1
 series_title: Đi Hàn tháng 11
@@ -63,8 +64,6 @@ tom_tat_nhanh:
 - label: Lá đổi màu
 - label: Phù hợp
 - label: Lưu ý
-seo_title: "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì"
-
 ---
 
 Bạn đang cân nhắc **đi Hàn tháng 11** sau khi thấy ảnh lá đỏ rực ở Seoul, Bukchon hay cung điện — và tự hỏi: *tháng 11 có còn đẹp không, hay đã muộn so với tháng 10?* Câu trả lời ngắn: **tháng 11 thường là tháng peak lá đỏ ở Seoul và nhiều khu vực đô thị**, nhưng **lạnh hơn rõ** so với tháng 10 và một số núi cao có thể **đã rụng lá** vào cuối tháng. Trải nghiệm cụ thể phụ thuộc **bạn đi đầu hay cuối tháng 11**, và **năm đó lá đỏ đến sớm hay muộn**.

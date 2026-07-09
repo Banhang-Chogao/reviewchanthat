@@ -1,7 +1,7 @@
 {
   "summary": {
-    "files_scanned": 156,
-    "errors": 148,
+    "files_scanned": 173,
+    "errors": 257,
     "warnings": 0,
     "fixed": 0
   },
@@ -25,6 +25,363 @@
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/apple-vs-ec-dma-tuong-lai-iphone.md",
       "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/bangkok-3-ngay-3-dem-mua-mua.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_SOURCE_URL",
+      "file": "content/posts/bangkok-3-ngay-3-dem-mua-mua.md",
+      "message": "External image missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/bangkok-ngay-mua-nen-di-dau.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_SOURCE_URL",
+      "file": "content/posts/bangkok-ngay-mua-nen-di-dau.md",
+      "message": "External image missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.md",
+      "message": "Body has only 244 words (< 600)",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.md",
+      "message": "Body has only 158 words (< 600)",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: title",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: date",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: description",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: categories",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: tags",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: author",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: image",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: thumbnail",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_source",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_license",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_commercial_use",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_owner",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_TAGS",
+      "file": "content/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "tags is empty",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing required field: title",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing required field: date",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing required field: description",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing required field: categories",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing required field: tags",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing required field: author",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing required field: image",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing required field: thumbnail",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing image_source",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing image_license",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing image_commercial_use",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Missing image_owner",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_TAGS",
+      "file": "content/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md",
+      "message": "tags is empty",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: title",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: date",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: description",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: categories",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: tags",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: author",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: image",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing required field: thumbnail",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_source",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_license",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_commercial_use",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Missing image_owner",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_TAGS",
+      "file": "content/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md",
+      "message": "tags is empty",
       "suggestion": ""
     },
     {
@@ -57,9 +414,51 @@
     },
     {
       "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/checklist-vali-di-thai-mua-mua.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_SOURCE_URL",
+      "file": "content/posts/checklist-vali-di-thai-mua-mua.md",
+      "message": "External image missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/chiang-mai-mua-mua-co-gi-dep.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_SOURCE_URL",
+      "file": "content/posts/chiang-mai-mua-mua-co-gi-dep.md",
+      "message": "External image missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/chuan-bi-macbook-truoc-khi-len-macos-27.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
@@ -176,6 +575,132 @@
     },
     {
       "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/content-direction-empty-report-va-optimizer-frontmatter.md",
+      "message": "Body has only 161 words (< 600)",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing required field: title",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing required field: date",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing required field: description",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing required field: categories",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing required field: tags",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing required field: author",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing required field: image",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing required field: thumbnail",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing image_source",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing image_license",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing image_commercial_use",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Missing image_owner",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_TAGS",
+      "file": "content/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.md",
+      "message": "tags is empty",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_SOURCE_URL",
+      "file": "content/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md",
+      "message": "External image missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md",
       "message": "Image relevance score 40 below minimum 70 for topic apple_general",
@@ -281,13 +806,6 @@
     },
     {
       "severity": "ERROR",
-      "code": "THIN_CONTENT",
-      "file": "content/posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md",
-      "message": "Body has only 569 words (< 600)",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
       "code": "MISSING_TAGS",
       "file": "content/posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md",
       "message": "tags is empty",
@@ -396,6 +914,20 @@
       "code": "MISSING_TAGS",
       "file": "content/posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md",
       "message": "tags is empty",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_SOURCE_URL",
+      "file": "content/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md",
+      "message": "External image missing image_source_url",
       "suggestion": ""
     },
     {
@@ -603,6 +1135,41 @@
     },
     {
       "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.md",
+      "message": "Body has only 215 words (< 600)",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.md",
+      "message": "Body has only 263 words (< 600)",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.md",
+      "message": "Body has only 244 words (< 600)",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url.md",
+      "message": "Body has only 215 words (< 600)",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-27-apple-intelligence-iphone-cu.md",
       "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
@@ -695,6 +1262,13 @@
     {
       "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-16-pro-max-desert-titanium-hop-ai.md",
+      "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/iphone-16-pro-max-desert-titanium-tren-tay.md",
       "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
       "suggestion": ""
@@ -757,72 +1331,16 @@
     },
     {
       "severity": "ERROR",
-      "code": "MISSING_FIELD",
+      "code": "IMAGE_REJECT_REASON_WITH_IMAGE",
       "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "Missing required field: image",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_FIELD",
-      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "Missing required field: thumbnail",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "NEEDS_IMAGE",
-      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "image_status=needs_review",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "Missing image_source",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "Missing image_source_url",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "Missing image_license",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "Missing image_commercial_use",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "Missing image_owner",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "VERIFIED_WITHOUT_SOURCE_LICENSE",
-      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "image_attribution_verified but source/license missing",
+      "message": "image_reject_reason present while image is set: No candidate passed semantic/color/object gate",
       "suggestion": ""
     },
     {
       "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "Image relevance score 0 below minimum 80 for topic apple_iphone",
+      "message": "Image relevance score 50 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
@@ -837,6 +1355,13 @@
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/iphone-fold-iphone-ultra-la-gi.md",
       "message": "Image relevance score 25 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.md",
+      "message": "Body has only 194 words (< 600)",
       "suggestion": ""
     },
     {
@@ -921,6 +1446,20 @@
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/pin-iphone-16-pro-max-co-dang-chon.md",
       "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.md",
+      "message": "Body has only 183 words (< 600)",
       "suggestion": ""
     },
     {
@@ -1030,6 +1569,20 @@
     },
     {
       "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.md",
+      "message": "Body has only 225 words (< 600)",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
@@ -1040,6 +1593,216 @@
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md",
       "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing required field: title",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing required field: date",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing required field: description",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing required field: categories",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing required field: tags",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing required field: author",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing required field: image",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing required field: thumbnail",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing image_source",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing image_license",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing image_commercial_use",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Missing image_owner",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_TAGS",
+      "file": "content/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md",
+      "message": "tags is empty",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "DUPLICATE_AI_SUMMARY",
+      "file": "content/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.md",
+      "message": "Duplicate ai_summary with content/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.md, content/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.md, content/posts/content-direction-empty-report-va-optimizer-frontmatter.md, content/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.md, content/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.md, content/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.md, content/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url.md, content/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.md, content/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.md, content/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.md",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/index.xml",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/tài-sản-số-là-gì-việt-nam-thí-điểm-sàn-crypto-hợp-pháp-và-người-dùng-cần-hiểu-gì/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/baseurl-sitemap-noindex-va-series-hardcoded-url/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/content-direction-empty-report-va-optimizer-frontmatter/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact/index.html",
+      "message": "map[ found in built public output",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "PUBLIC_MAP_LITERAL",
+      "file": "public/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date/index.html",
+      "message": "map[ found in built public output",
       "suggestion": ""
     }
   ]

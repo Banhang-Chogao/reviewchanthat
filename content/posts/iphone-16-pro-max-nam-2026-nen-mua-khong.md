@@ -18,7 +18,7 @@ description: 'Có nên mua iPhone 16 Pro Max năm 2026: giá, thời điểm iPh
   15 Pro Max cũ và checklist quyết định cuối series.'
 draft: false
 image: images/posts/iphone-16-pro-max-nam-2026-nen-mua-khong.webp
-image_attribution_checked_at: '2026-07-10T04:52:22+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

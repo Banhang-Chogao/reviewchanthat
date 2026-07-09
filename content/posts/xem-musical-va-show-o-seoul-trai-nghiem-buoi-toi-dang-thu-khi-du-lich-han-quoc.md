@@ -30,7 +30,7 @@ external_links:
 - title: https://english.visitkorea.or.kr/
   url: https://english.visitkorea.or.kr/
 image: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
-image_attribution_checked_at: '2026-07-10T04:52:35+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -42,6 +42,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/traditional-korean-gayageum-performance-indoors-36853090/
+seo_title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử'
 series: du-lich
 series_order: 6
 series_title: Du lịch Hàn Quốc 2026
@@ -71,8 +72,6 @@ tom_tat_nhanh:
   value: ''
 - label: Có cần đặt trước không
   value: ''
-seo_title: "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử"
-
 ---
 
 Buổi tối ở Seoul không chỉ có Myeongdong mua sắm hay cà phê — theo mình, một trong những trải nghiệm đáng giá nhất là xem musical tại Daehangno. Hoạt động này xếp hạng 3 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và mình thấy xứng đáng vì đây là thứ bạn khó tìm được ở Việt Nam với chất lượng tương đương.

@@ -29,7 +29,7 @@ faq:
 - answer: Tổng khoảng 200.000–300.000 KRW (vé tham quan + ăn uống + di chuyển).
 - answer: Tàu điện ngầm là chính. Mua T-money card, nạp 20.000 KRW đủ đi 3 ngày.
 image: images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp
-image_attribution_checked_at: '2026-07-10T04:52:24+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

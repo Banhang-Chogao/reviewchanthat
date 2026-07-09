@@ -21,7 +21,7 @@ description: 'Quyền riêng tư trên iOS 27: Private Cloud Compute, Siri AI, p
   controls, quyền app và checklist cho người dùng iPhone tại Việt Nam.'
 draft: false
 image: images/posts/ios-27-quyen-rieng-tu-iphone.webp
-image_attribution_checked_at: '2026-07-10T04:52:19+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -33,6 +33,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/iphone-ipad-laptop-788946/
+seo_title: 'iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều'
 series: ios-27-co-gi-moi
 series_order: 8
 series_title: iOS 27 có gì mới
@@ -51,8 +52,6 @@ tom_tat_nhanh:
 - label: AI
 - label: Trẻ em
 - label: Hợp với
-seo_title: "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều"
-
 ---
 
 Mỗi lần Apple nhắc **AI**, câu hỏi tiếp theo luôn là: **dữ liệu của tôi đi đâu?** iOS 27 không ngoại lệ — Siri AI đọc Messages, Photos AI xử lý ảnh gia đình, Safari Notify Me theo dõi trang web. Apple hứa **on-device** và **Private Cloud Compute**, nhưng người dùng vẫn cần hiểu giới hạn thực tế.

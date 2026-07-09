@@ -39,7 +39,7 @@ faq:
 - answer: Áo len, áo giữ nhiệt, áo khoác parka hoặc phao mỏng, quần dài, găng tay
     mỏng, khăn quàng. Leo núi cần thêm lớp chống gió.
 image: images/posts/thoi-tiet-han-quoc-thang-11.webp
-image_attribution_checked_at: '2026-07-10T04:52:48+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -60,6 +60,7 @@ internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
 - ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
+seo_title: 'Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và'
 series: di-han-thang-11
 series_order: 2
 series_title: Đi Hàn tháng 11
@@ -77,8 +78,6 @@ tom_tat_nhanh:
 - label: Mưa
 - label: Đặc điểm
 - label: Lưu ý
-seo_title: "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và"
-
 ---
 
 Tháng 11 là thời điểm Hàn Quốc bước vào **cuối mùa thu** — lạnh hơn tháng 10 rõ rệt, trời tối sớm và gió tăng dần. Nhiều du khách chọn tháng này vì Seoul và các cung điện thường vào **peak lá đỏ**, nhưng cũng lo lắng: *lạnh thế nào, có mưa không, và cần mang gì trong vali?*

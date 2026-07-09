@@ -28,7 +28,7 @@ faq:
 - answer: Indoor Seoul, biển Busan, Jeju. Tránh leo núi Hallasan và đi dã ngoại ngoài
     trời.
 image: images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp
-image_attribution_checked_at: '2026-07-10T04:52:15+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -51,6 +51,7 @@ internal_links:
 - ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
 - ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
+seo_title: Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch
 series: du-lich-han-quoc-mua-he
 series_order: 3
 series_title: Du lịch Hàn Quốc mùa hè
@@ -69,8 +70,6 @@ tom_tat_nhanh:
 - label: Mưa
 - label: Chi phí
 - label: Phù hợp
-seo_title: "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch"
-
 ---
 
 ## Thời tiết tháng 7

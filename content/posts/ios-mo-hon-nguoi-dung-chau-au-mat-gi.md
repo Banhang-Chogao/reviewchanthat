@@ -33,7 +33,7 @@ external_links:
 - title: Digital Markets Act — Trang chính thức EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp
-image_attribution_checked_at: '2026-07-10T04:52:37+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: embedded_exif_iptc_xmp
 image_attribution_verified: true
 image_commercial_use: true
@@ -41,10 +41,11 @@ image_creator: Harry Parvin
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/person-holding-black-iphone-7-3861969/
+seo_title: 'iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store'
 series: apple-ec-dma-app-store-ios
 series_order: 5
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
@@ -68,8 +69,6 @@ tom_tat_nhanh:
   value: Thêm lựa chọn, nhưng giảm lớp bảo vệ tích hợp
 - label: Hợp với
   value: Người dùng iPhone EU, phụ huynh, ai quan tâm bảo mật hệ sinh thái
-seo_title: "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store"
-
 ---
 
 “Mở iOS là tốt cho người dùng” — câu đó xuất hiện liên tục trong thông cáo của European Commission (EC) và các nhóm ủng hộ cạnh tranh. Nhưng nếu bạn hỏi một người dùng iPhone bình thường ở Berlin hay Paris **họ sợ điều gì nhất**, câu trả lời thường không phải “thiếu marketplace thay thế”, mà là **lừa đảo, app giả, mất tiền không lấy lại được**.

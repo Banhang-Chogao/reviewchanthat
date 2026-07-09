@@ -28,6 +28,9 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-09 04:00:00+07:00'
+description: Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính "chưa đủ mạnh"?
+  Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính,
+  nhưng
 draft: false
 external_links:
 - title: Đại sứ quán Hàn Quốc tại Việt Nam — Thông báo mở rộng đối tượng miễn chứng
@@ -38,7 +41,7 @@ external_links:
 image: images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp
 image_alt: 'Ảnh minh họa Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm:
   hồ sơ, điều kiện và cách chuẩn bị — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T04:52:52+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_color_score: 12.0
@@ -56,6 +59,7 @@ image_source: Pexels
 image_source_url: https://www.pexels.com/photo/traditional-hanok-village-street-in-seoul-33019244/
 image_status: verified
 image_total_score: 64.52
+seo_title: Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000
 slug: xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd
 tags:
 - visa Hàn Quốc
@@ -72,9 +76,6 @@ tom_tat_nhanh:
 - label: Bằng chứng cốt lõi
 - label: Thị thực nhiều lần
 - label: Lưu ý quan trọng
-seo_title: "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000"
-description: "Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính \"chưa đủ mạnh\"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng"
-
 ---
 
 Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính "chưa đủ mạnh"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng không rõ điều đó có thật không, và phải chứng minh bằng lương, sao kê hay sổ tiết kiệm? Bạn sợ nộp sai diện, mất phí, rồi rớt visa mà không hiểu vì sao?

@@ -38,7 +38,7 @@ faq:
     mưa nên đi đâu]({{< ref "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh"
     >}}).
 image: images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp
-image_attribution_checked_at: '2026-07-10T04:52:14+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -63,6 +63,7 @@ internal_links:
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
 - ref: posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md
 - ref: posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md
+seo_title: Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng lich
 series: du-lich-han-quoc-mua-he
 series_order: 1
 series_title: Du lịch Hàn Quốc mùa hè
@@ -87,8 +88,6 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý
   value: ''
-seo_title: "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng lich"
-
 ---
 
 Hàn Quốc mùa hè — tháng 7 nóng ẩm, tháng 8 nắng rang — nhưng không phải là không đi được. Nếu chọn đúng điểm, bạn vẫn có một chuyến đi trọn vẹn: tắm biển Busan, lặn ngụp công viên nước, thăm làng cổ giữa rừng xanh, hoặc trốn trong quán cà phê indoor giữa cơn mưa rào.

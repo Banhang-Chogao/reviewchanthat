@@ -42,15 +42,16 @@ faq:
 image: images/posts/goi-y-du-lich-han-quoc-thang-7-2026.webp
 image_alt: 'Ảnh minh họa Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và
   lịch trình nào hợp nhất? — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T04:52:54+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_color_score: 12.0
 image_commercial_use: true
 image_creator: Jhany Blue
-image_creator_id: ''
+image_creator_id: '436502581'
 image_creator_url: https://www.pexels.com/@jhany-blue-436502581
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_query: busan korea skyline
@@ -67,6 +68,7 @@ internal_links:
 - ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
 - ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
 - ref: posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.md
+seo_title: 'Gợi ý du lịch Hàn Quốc tháng 7: hướng dẫn thực tế goi'
 slug: goi-y-du-lich-han-quoc-thang-7-2026
 tags:
 - du lịch Hàn Quốc
@@ -78,8 +80,6 @@ tags:
 thumbnail: images/posts/goi-y-du-lich-han-quoc-thang-7-2026.webp
 title: 'Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào
   hợp nhất?'
-seo_title: "Gợi ý du lịch Hàn Quốc tháng 7: hướng dẫn thực tế goi"
-
 ---
 
 Tháng 7 không phải là "mùa đẹp trong bưu thiếp" của Hàn Quốc — đó là mùa hè thật sự: nóng, ẩm, thỉnh thoảng mưa xối xả, nhưng đổi lại là biển, lễ hội và giá phòng chưa chạm đỉnh cao điểm tháng 8. Nếu bạn đang cân nhắc du lịch Hàn Quốc tháng 7 năm 2026, bài này gom lại những gì cần biết: thời tiết ra sao, nên chọn Seoul, Busan hay Jeju, mặc gì cho đúng và xếp lịch trình thế nào để mưa không phá hỏng chuyến đi.

@@ -22,6 +22,9 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
 date: '2026-07-08 14:00:00+07:00'
+description: Nếu bạn từng đứng trước quầy Starbucks ở Sài Gòn, gọi một ly Caramel
+  Macchiato rồi ngồi nhìn dòng xe qua lại, có lẽ ít ai nghĩ thương hiệu này mới chỉ
+  có mặt
 draft: false
 external_links:
 - title: Starbucks Stories — Debut flagship store Ho Chi Minh City (2013)
@@ -30,7 +33,7 @@ external_links:
 - title: Starbucks Stories — 10 years in Vietnam (2023)
 - title: GCR Magazine — First Starbucks opens in Vietnam
 image: images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp
-image_attribution_checked_at: '2026-07-10T04:52:39+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -42,6 +45,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/starbucks-coffee-sign-302899/
+seo_title: 'Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt'
 series: starbucks-vietnam
 series_order: 1
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
@@ -60,9 +64,6 @@ tom_tat_nhanh:
 - label: Cửa hàng đầu
 - label: Đối tác
 - label: Series
-seo_title: "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt"
-description: "Nếu bạn từng đứng trước quầy Starbucks ở Sài Gòn, gọi một ly Caramel Macchiato rồi ngồi nhìn dòng xe qua lại, có lẽ ít ai nghĩ thương hiệu này mới chỉ có mặt"
-
 ---
 
 Nếu bạn từng đứng trước quầy Starbucks ở Sài Gòn, gọi một ly Caramel Macchiato rồi ngồi nhìn dòng xe qua lại, có lẽ ít ai nghĩ thương hiệu này mới chỉ có mặt tại Việt Nam hơn một thập kỷ. Với nhiều người trẻ, Starbucks không chỉ là quán cà phê — mà là không gian làm việc, chỗ hẹn bạn bè, hoặc điểm dừng chân ngắn giữa các cuộc họp.

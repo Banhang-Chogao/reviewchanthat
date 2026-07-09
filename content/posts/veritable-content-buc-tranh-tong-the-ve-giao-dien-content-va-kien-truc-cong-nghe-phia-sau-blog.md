@@ -4,13 +4,16 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-07 09:00:00+07:00'
+description: Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog
+  được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh,
+  CI/CD tự
 draft: false
 external_links:
 - title: Hugo Documentation
   url: https://gohugo.io/documentation/
 - title: GitHub Actions Documentation
 image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
-image_attribution_checked_at: '2026-07-10T04:52:33+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -23,6 +26,7 @@ image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/
 lastmod: '2026-07-07 09:00:00+07:00'
+seo_title: 'Veritable Content: bức tranh tổng thể về giao diện, content'
 slug: veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog
 tags:
 - Veritable Content
@@ -41,9 +45,6 @@ tom_tat_nhanh:
 - label: Mục đích
 - label: Hợp với
 - label: Điểm chính nặng
-seo_title: "Veritable Content: bức tranh tổng thể về giao diện, content"
-description: "Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh, CI/CD tự"
-
 ---
 
 Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh, CI/CD tự động, và quan trọng nhất: một triết lý rất rõ về tốc độ.

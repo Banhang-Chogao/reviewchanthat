@@ -39,7 +39,7 @@ faq:
     resort trượt tuyết chính của Olympic 2018. Alpensia nghiêng về nghỉ dưỡng tổng
     hợp hơn.
 image: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
-image_attribution_checked_at: '2026-07-10T04:52:35+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pixabay_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -55,6 +55,7 @@ internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
 - ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md
 - ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
+seo_title: 'Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở'
 series: truot-tuyet
 series_order: 4
 series_title: Trượt tuyết Hàn Quốc
@@ -79,8 +80,6 @@ tom_tat_nhanh:
 - label: Thời gian nên dành
 - label: Đi mùa nào hợp
 - label: Có cần đặt trước không
-seo_title: "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở"
-
 ---
 
 Yongpyong là cái tên ai tìm kiếm ski resort Hàn Quốc cũng gặp — resort lớn nhất xứ Hàn với 28 slope, từng là địa điểm Olympic 2018. Nhưng lớn nhất không có nghĩa là phù hợp nhất với tất cả mọi người.

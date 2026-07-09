@@ -1,10 +1,10 @@
 {
-  "total_posts": 149,
+  "total_posts": 173,
   "summary": {
-    "valid": 149,
-    "missing_image": 0,
+    "valid": 155,
+    "missing_image": 11,
     "broken_image_path": 0,
-    "missing_license_metadata": 0,
+    "missing_license_metadata": 7,
     "duplicate_image": 0,
     "invalid_image_creator": 0
   },
@@ -25,13 +25,6 @@
       "image_creator": "",
       "image_creator_url": "",
       "tags": [
-        "du lịch Hàn Quốc",
-        "Hàn Quốc mùa hè",
-        "biển Hàn Quốc",
-        "Busan",
-        "Jeju",
-        "Seoul",
-        "công viên nước",
         "series du lịch"
       ],
       "categories": [
@@ -149,17 +142,19 @@
     {
       "slug": "bangkok-3-ngay-3-dem-mua-mua",
       "title": "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu",
-      "status": "valid",
-      "issues": [],
+      "status": "missing_license_metadata",
+      "issues": [
+        "missing_metadata:image_source_url"
+      ],
       "image": "images/posts/bangkok-3-ngay-3-dem-mua-mua.webp",
       "thumbnail": "images/posts/bangkok-3-ngay-3-dem-mua-mua.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/bangkok-cityscape-at-sunset-with-traffic-37835945/",
+      "image_source_url": "",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Ariyan",
-      "image_creator_url": "https://www.pexels.com/@ariyan",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Bangkok 3 ngày 3 đêm",
         "lịch trình Bangkok mùa mưa",
@@ -174,17 +169,19 @@
     {
       "slug": "bangkok-ngay-mua-nen-di-dau",
       "title": "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour",
-      "status": "valid",
-      "issues": [],
+      "status": "missing_license_metadata",
+      "issues": [
+        "missing_metadata:image_source_url"
+      ],
       "image": "images/posts/bangkok-ngay-mua-nen-di-dau.webp",
       "thumbnail": "images/posts/bangkok-ngay-mua-nen-di-dau.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/27662996/",
+      "image_source_url": "",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Subhd Suhail",
-      "image_creator_url": "https://www.pexels.com/@subhd-suhail-118636722",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Bangkok ngày mưa",
         "điểm indoor Bangkok",
@@ -195,6 +192,76 @@
       "categories": [
         "du-lich"
       ]
+    },
+    {
+      "slug": "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
+      "title": "Baseline debt chặn deploy và QA scope: chỉ bắt tính năng mới",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp",
+      "thumbnail": "images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/illustration-with-hands-of-debtor-with-tied-hands-6289036/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Monstera Production",
+      "image_creator_url": "https://www.pexels.com/@gabby-k",
+      "tags": [
+        "QA",
+        "baseline debt",
+        "CI/CD",
+        "GitHub Pages",
+        "unsafe"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
+      "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp",
+      "thumbnail": "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/a-graph-in-close-up-photography-7947635/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "RDNE Stock project",
+      "image_creator_url": "https://www.pexels.com/@rdne",
+      "tags": [
+        "baseURL",
+        "sitemap",
+        "SEO",
+        "Hugo",
+        "GitHub Pages"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
+      "title": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
     },
     {
       "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
@@ -223,6 +290,48 @@
       "categories": [
         "du-lich"
       ]
+    },
+    {
+      "slug": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
+      "title": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner",
+        "image_creator_missing_from_frontmatter"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
+    },
+    {
+      "slug": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
+      "title": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner",
+        "image_creator_missing_from_frontmatter"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
     },
     {
       "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
@@ -433,11 +542,6 @@
       "image_creator": "Ferdinand Frederik",
       "image_creator_url": "https://www.pexels.com/@ferdinand-frederik-257244",
       "tags": [
-        "iPhone 18",
-        "Camera iPhone 18",
-        "variable aperture",
-        "selfie 24MP",
-        "tin đồn iPhone",
         "chụp ảnh iPhone"
       ],
       "categories": [
@@ -548,17 +652,19 @@
     {
       "slug": "checklist-vali-di-thai-mua-mua",
       "title": "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm",
-      "status": "valid",
-      "issues": [],
+      "status": "missing_license_metadata",
+      "issues": [
+        "missing_metadata:image_source_url"
+      ],
       "image": "images/posts/checklist-vali-di-thai-mua-mua.webp",
       "thumbnail": "images/posts/checklist-vali-di-thai-mua-mua.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/couple-packing-clothes-and-belongings-in-suitcase-4245895/",
+      "image_source_url": "",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Ketut Subiyanto",
-      "image_creator_url": "https://www.pexels.com/@ketut-subiyanto",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "checklist vali Thái Lan",
         "đi Thái Lan mùa mưa",
@@ -650,17 +756,19 @@
     {
       "slug": "chiang-mai-mua-mua-co-gi-dep",
       "title": "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng",
-      "status": "valid",
-      "issues": [],
+      "status": "missing_license_metadata",
+      "issues": [
+        "missing_metadata:image_source_url"
+      ],
       "image": "images/posts/chiang-mai-mua-mua-co-gi-dep.webp",
       "thumbnail": "images/posts/chiang-mai-mua-mua-co-gi-dep.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/golden-tower-near-a-golden-statue-14211124/",
+      "image_source_url": "",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Maxence Vansteenkiste",
-      "image_creator_url": "https://www.pexels.com/@maxence-vansteenkiste-52729974",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "Chiang Mai mùa mưa",
         "du lịch Thái Lan",
@@ -727,6 +835,34 @@
       ]
     },
     {
+      "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
+      "title": "CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp",
+      "thumbnail": "images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-holding-a-reflective-cd-disc-in-hand-37028744/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Zulfugar Karimov",
+      "image_creator_url": "https://www.pexels.com/@zulfugarkarimov",
+      "tags": [
+        "CI/CD",
+        "GitHub Actions",
+        "GitHub Pages",
+        "root cause",
+        "autofix",
+        "Deployment Doctor",
+        "Hugo",
+        "DevOps"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
       "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
       "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
       "status": "valid",
@@ -762,18 +898,63 @@
       "image": "images/posts/co-nen-cho-iphone-18-khong.webp",
       "thumbnail": "images/posts/co-nen-cho-iphone-18-khong.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/person-holding-midnight-black-samsung-galaxy-s8-turn-on-near-macbook-pro-1092671/",
+      "image_source_url": "https://www.pexels.com/photo/digital-wallet-app-on-smartphone-6406691/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Lisa from Pexels",
-      "image_creator_url": "https://www.pexels.com/@fotios-photos",
+      "image_creator": "Tranmautritam",
+      "image_creator_url": "https://www.pexels.com/@tranmautritam",
       "tags": [
         "có nên chờ iPhone 18",
         "iPhone 15",
         "iPhone 16",
         "iPhone 17",
         "mua iPhone 2026"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "co-nen-len-ios-26-5-2-khong",
+      "title": "co-nen-len-ios-26-5-2-khong",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
+    },
+    {
+      "slug": "content-direction-empty-report-va-optimizer-frontmatter",
+      "title": "Content Direction empty report và optimizer fail vì front matter",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/content-direction-empty-report-va-optimizer-frontmatter.webp",
+      "thumbnail": "images/posts/content-direction-empty-report-va-optimizer-frontmatter.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-holding-pen-pointing-at-graph-590020/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Lukas Blazek",
+      "image_creator_url": "https://www.pexels.com/@goumbik",
+      "tags": [
+        "Content Direction",
+        "SEO",
+        "front matter",
+        "optimizer",
+        "safe"
       ],
       "categories": [
         "cong-nghe"
@@ -806,6 +987,26 @@
       "categories": [
         "du-lich"
       ]
+    },
+    {
+      "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
+      "title": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
     },
     {
       "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
@@ -1012,17 +1213,19 @@
     {
       "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
       "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?",
-      "status": "valid",
-      "issues": [],
+      "status": "missing_license_metadata",
+      "issues": [
+        "missing_metadata:image_source_url"
+      ],
       "image": "images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp",
       "thumbnail": "images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp",
       "image_source": "Pixabay",
-      "image_source_url": "https://pixabay.com/photos/bangkok-river-market-boats-5863391/",
+      "image_source_url": "",
       "image_license": "Pixabay Content License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "jprohaszka",
-      "image_creator_url": "https://pixabay.com/users/jprohaszka-75254/",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "du lịch Thái Lan",
         "Bangkok tự túc",
@@ -1116,6 +1319,26 @@
       ]
     },
     {
+      "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+      "title": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
+    },
+    {
       "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
       "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
       "status": "valid",
@@ -1141,19 +1364,41 @@
       ]
     },
     {
+      "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+      "title": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
+    },
+    {
       "slug": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
       "title": "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu",
-      "status": "valid",
-      "issues": [],
+      "status": "missing_license_metadata",
+      "issues": [
+        "missing_metadata:image_source_url"
+      ],
       "image": "images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp",
       "thumbnail": "images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/barren-tree-in-fog-10119144/",
+      "image_source_url": "",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Tasha_WhiteGold",
-      "image_creator_url": "https://www.pexels.com/@tasha_whitegold-75706404",
+      "image_creator": "",
+      "image_creator_url": "",
       "tags": [
         "du lịch Thái Lan mùa mưa",
         "Bangkok mùa mưa",
@@ -1217,6 +1462,122 @@
       ],
       "categories": [
         "cong-nghe"
+      ]
+    },
+    {
+      "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
+      "title": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
+    },
+    {
+      "slug": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
+      "title": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
+    },
+    {
+      "slug": "github-api-va-pages-rate-limit-cach-doc-va-giam-tai",
+      "title": "GitHub API rate limit và Pages rate limit: đọc log, backoff, giảm fan-out",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp",
+      "thumbnail": "images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-holding-a-black-and-white-paper-with-message-11035544/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "RealToughCandy.com",
+      "image_creator_url": "https://www.pexels.com/@realtoughcandy",
+      "tags": [
+        "GitHub API",
+        "rate limit",
+        "GitHub Pages",
+        "CI/CD",
+        "unsafe"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code",
+      "title": "Runner capacity delay và platform incident: khi job đỏ không phải vì bug code",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp",
+      "thumbnail": "images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp",
+      "image_source": "Pixabay",
+      "image_source_url": "https://pixabay.com/photos/wooden-bench-seat-sea-ocean-water-7110299/",
+      "image_license": "Pixabay Content License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "HeckiMG",
+      "image_creator_url": "https://pixabay.com/photos/wooden-bench-seat-sea-ocean-water-7110299/",
+      "tags": [
+        "GitHub Actions",
+        "runner",
+        "platform incident",
+        "CI/CD",
+        "unsafe"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "goi-y-du-lich-han-quoc-thang-7-2026",
+      "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/goi-y-du-lich-han-quoc-thang-7-2026.webp",
+      "thumbnail": "images/posts/goi-y-du-lich-han-quoc-thang-7-2026.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/vibrant-night-view-of-busan-s-coastal-skyline-29188029/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Jhany Blue",
+      "image_creator_url": "https://www.pexels.com/@jhany-blue-436502581",
+      "tags": [
+        "du lịch Hàn Quốc",
+        "Hàn Quốc tháng 7",
+        "du lịch Hàn Quốc 2026",
+        "Seoul tháng 7",
+        "Busan tháng 7",
+        "Jeju tháng 7"
+      ],
+      "categories": [
+        "du-lich"
       ]
     },
     {
@@ -1422,6 +1783,57 @@
       ],
       "categories": [
         "du-lich"
+      ]
+    },
+    {
+      "slug": "hugo-build-duplicate-yaml-ai-summary-va-template-regression",
+      "title": "Hugo build error: duplicate YAML, ai_summary map[], template regression và deploy không complete",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp",
+      "thumbnail": "images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/screen-with-code-10816120/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Stanislav Kondratiev",
+      "image_creator_url": "https://www.pexels.com/@technobulka",
+      "tags": [
+        "Hugo",
+        "YAML",
+        "ai_summary",
+        "template",
+        "CI/CD",
+        "duplicate keys"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
+      "slug": "image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url",
+      "title": "Image pipeline: hero thiếu, self-owned direct_url, creator rỗng hợp lệ và creator giả",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url.webp",
+      "thumbnail": "images/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/view-of-pipelines-in-a-forest-18784617/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Wolfgang Weiser",
+      "image_creator_url": "https://www.pexels.com/@wolfgang-weiser-467045605",
+      "tags": [
+        "images",
+        "attribution",
+        "hero image",
+        "CI/CD",
+        "compliance"
+      ],
+      "categories": [
+        "cong-nghe"
       ]
     },
     {
@@ -1781,12 +2193,12 @@
       "image": "images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp",
       "thumbnail": "images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/modern-smartphone-on-wooden-table-21424632/",
+      "image_source_url": "https://www.pexels.com/photo/iphone-15-pro-max-box-in-natural-titanium-color-mention-zana_qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana_qaradaghy-18525573/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Rohit Sharma",
-      "image_creator_url": "https://www.pexels.com/@rohit-sharma-1230131",
+      "image_creator": "Zana Latif",
+      "image_creator_url": "https://www.pexels.com/@zana-latif-2772032",
       "tags": [
         "iPhone 15 Pro Max",
         "Natural Titanium",
@@ -1805,12 +2217,12 @@
       "image": "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp",
       "thumbnail": "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/black-mobile-phone-on-white-wooden-table-8148741/",
+      "image_source_url": "https://www.pexels.com/photo/smartphone-mockup-on-sandy-log-in-kamala-beach-31833728/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Vie Studio",
-      "image_creator_url": "https://www.pexels.com/@vie-studio",
+      "image_creator": "Arpit Brandings",
+      "image_creator_url": "https://www.pexels.com/@arpit-brandings-1363149455",
       "tags": [
         "iPhone 16 Pro Max",
         "Desert Titanium",
@@ -2055,12 +2467,12 @@
       "image": "images/posts/iphone-18-pro-max-co-gi-moi.webp",
       "thumbnail": "images/posts/iphone-18-pro-max-co-gi-moi.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/animal-brown-clothe-up-nature-1092672/",
+      "image_source_url": "https://www.pexels.com/photo/pictures-of-pregnant-woman-on-laptop-19809358/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Iana Pugachova",
-      "image_creator_url": "https://www.pexels.com/@iana-pugachova-407924",
+      "image_creator": "juliane Monari",
+      "image_creator_url": "https://www.pexels.com/@julianemonarifotografia",
       "tags": [
         "iPhone 18 Pro Max",
         "iPhone 18 Pro",
@@ -2426,6 +2838,31 @@
       ],
       "categories": [
         "du-lich"
+      ]
+    },
+    {
+      "slug": "live-deploy-khong-phan-anh-va-pages-serving-old-artifact",
+      "title": "Live deploy không phản ánh: build-info.json và GitHub Pages serving old artifact",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp",
+      "thumbnail": "images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/illuminated-landmark-81-tower-at-night-31194682/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Thien Le Duy",
+      "image_creator_url": "https://www.pexels.com/@thienleduyphoto",
+      "tags": [
+        "GitHub Pages",
+        "CDN",
+        "deploy verification",
+        "build-info",
+        "CI/CD"
+      ],
+      "categories": [
+        "cong-nghe"
       ]
     },
     {
@@ -2938,6 +3375,31 @@
       ]
     },
     {
+      "slug": "post-date-timezone-vietnam-gmt7-tranh-stale-date",
+      "title": "Post date timezone Việt Nam (GMT+7): tránh stale_date và lệch homepage",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.webp",
+      "thumbnail": "images/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/stunning-night-view-of-ho-chi-minh-city-skyline-30281995/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Duy Nguyen",
+      "image_creator_url": "https://www.pexels.com/@duy-nguyen-489946968",
+      "tags": [
+        "timezone",
+        "Vietnam",
+        "front matter",
+        "Hugo",
+        "safe"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
       "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
       "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
       "status": "valid",
@@ -3141,13 +3603,15 @@
     {
       "slug": "starbucks-nguyen-van-troi-sai-gon-review",
       "title": "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon",
-      "status": "valid",
-      "issues": [],
+      "status": "missing_license_metadata",
+      "issues": [
+        "missing_metadata:image_source,image_license"
+      ],
       "image": "images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp",
       "thumbnail": "images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp",
-      "image_source": "self",
+      "image_source": "",
       "image_source_url": "https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg",
-      "image_license": "Self-owned",
+      "image_license": "",
       "image_commercial_use": true,
       "image_owner": "self",
       "image_creator": "",
@@ -3311,6 +3775,33 @@
       ],
       "categories": [
         "du-lich"
+      ]
+    },
+    {
+      "slug": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
+      "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp",
+      "thumbnail": "images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Tima Miroshnichenko",
+      "image_creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+      "tags": [
+        "tài sản số",
+        "crypto",
+        "Bitcoin",
+        "tài sản mã hóa",
+        "sàn crypto",
+        "tài chính cá nhân",
+        "Việt Nam"
+      ],
+      "categories": [
+        "tai-chinh"
       ]
     },
     {
@@ -3483,12 +3974,12 @@
       "image": "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp",
       "thumbnail": "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp",
       "image_source": "Pexels",
-      "image_source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-xos-operating-system-34396237/",
+      "image_source_url": "https://www.pexels.com/photo/person-holding-iphone-taking-photo-of-train-rails-815653/",
       "image_license": "Pexels License",
       "image_commercial_use": true,
       "image_owner": "external",
-      "image_creator": "Andrey Matveev",
-      "image_creator_url": "https://www.pexels.com/@zeleboba",
+      "image_creator": "Grant",
+      "image_creator_url": "https://www.pexels.com/@grant-267247",
       "tags": [
         "iPhone 15 Pro Max",
         "khung titan",
@@ -3680,6 +4171,51 @@
       ]
     },
     {
+      "slug": "workflow-failures-audit-recent-ci-cd-root-causes-action-items",
+      "title": "workflow-failures-audit-recent-ci-cd-root-causes-action-items",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
+    },
+    {
+      "slug": "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress",
+      "title": "Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix",
+      "status": "valid",
+      "issues": [],
+      "image": "images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp",
+      "thumbnail": "images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/white-dry-erase-board-with-red-diagram-1181311/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Christina Morillo",
+      "image_creator_url": "https://www.pexels.com/@divinetechygirl",
+      "tags": [
+        "workflow fanout",
+        "concurrency",
+        "GitHub Actions",
+        "CI/CD",
+        "safe"
+      ],
+      "categories": [
+        "cong-nghe"
+      ]
+    },
+    {
       "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
       "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
       "status": "valid",
@@ -3731,6 +4267,26 @@
       "categories": [
         "cong-nghe"
       ]
+    },
+    {
+      "slug": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
+      "title": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
     },
     {
       "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",

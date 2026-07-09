@@ -35,7 +35,7 @@ faq:
 - answer: Ngày thường (thứ 2–5) ít đông hơn, giá vé thường rẻ hơn. Cuối tuần rất đông,
     đặc biệt là khu vực thuê đồ và lesson.
 image: images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp
-image_attribution_checked_at: '2026-07-10T04:52:34+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -51,6 +51,7 @@ internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
 - ref: posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md
 - ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
+seo_title: 'Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul'
 series: truot-tuyet
 series_order: 2
 series_title: Trượt tuyết Hàn Quốc
@@ -73,8 +74,6 @@ tom_tat_nhanh:
 - label: Thời gian nên dành
 - label: Đi mùa nào hợp
 - label: Có cần đặt trước không
-seo_title: "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul"
-
 ---
 
 Vivaldi Park là cái tên được khách Việt nhắc đến nhiều nhất khi hỏi về trượt tuyết gần Seoul. Mình cũng không ngạc nhiên — resort này thuộc Daemyung Resort, một khu nghỉ dưỡng lớn ở Hongcheon, có shuttle bus từ Seoul, giờ hoạt động từ sáng tới tận 1h đêm.

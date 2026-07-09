@@ -37,7 +37,7 @@ faq:
 - answer: Đúng vậy. Một sản phẩm có thông số cao nhưng tối ưu kém vẫn có trải nghiệm
     tệ hơn sản phẩm thông số thấp hơn nhưng được tối ưu tốt.
 image: images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp
-image_attribution_checked_at: '2026-07-10T04:52:30+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -49,6 +49,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/honda-mechanics-at-work-12741630/
+seo_title: 'So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng'
 slug: so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat
 tags:
 - so sánh
@@ -63,8 +64,6 @@ tom_tat_nhanh:
 - label: Mục đích
 - label: Hợp với
 - label: Điểm chính
-seo_title: "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng"
-
 ---
 
 Bạn đứng trước hai lựa chọn: sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng. Sản phẩm B đắt hơn nhưng bảo hành 2 năm và nhiều review tốt. Bạn chọn cái nào?

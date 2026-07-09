@@ -36,7 +36,7 @@ faq:
     bus đến bến ferry.
 - answer: Nửa ngày đến một ngày. Nếu kết hợp Garden of Morning Calm, nên dành cả ngày.
 image: images/posts/nami-thang-10-co-dang-di-khong.webp
-image_attribution_checked_at: '2026-07-10T04:52:46+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -57,6 +57,7 @@ internal_links:
 - ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
 - ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
+seo_title: Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách
 series: di-han-thang-10
 series_order: 6
 series_title: Đi Hàn tháng 10
@@ -75,8 +76,6 @@ tom_tat_nhanh:
 - label: Tuần lý tưởng
 - label: Thời gian trên đảo
 - label: Lưu ý
-seo_title: "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách"
-
 ---
 
 Nami Island (đảo Nami) quanh năm là day trip phổ biến từ Seoul, nhưng **tháng 10** là một trong những thời điểm được nhắc nhiều nhờ hàng Metasequoia chuyển vàng. Visit Korea liệt kê Nami trong nhóm [điểm ngắm lá đỏ nổi tiếng ngoài Seoul](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), cùng Hwadam Botanic Garden và Garden of Morning Calm.
