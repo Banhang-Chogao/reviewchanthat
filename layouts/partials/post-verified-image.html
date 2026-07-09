@@ -2,7 +2,7 @@
 {{- $mode := .mode -}}
 {{- $status := $page.Params.image_status | default "" -}}
 {{- $legacyOk := and (not $status) $page.Params.image -}}
-{{- $verified := or (eq $status "verified") $legacyOk -}}
+{{- $verified := or (eq $status "verified") (eq $status "legacy") $legacyOk -}}
 {{- $blocked := or (eq $status "needs_review") (eq $status "needs_image") -}}
 {{- if and $verified (not $blocked) $page.Params.image -}}
   {{- $image := $page.Params.image -}}

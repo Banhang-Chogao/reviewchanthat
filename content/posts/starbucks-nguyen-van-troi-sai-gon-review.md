@@ -34,8 +34,10 @@ image_creator: ''
 image_creator_url: ''
 image_license: Self-owned
 image_owner: self
+image_provider: self
 image_source: self
 image_source_url: https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg
+image_status: verified
 series: starbucks-vietnam
 series_order: 2
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'

@@ -9,6 +9,9 @@ import sys
 
 import frontmatter
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
+from image_gate_policy import gate_score_passes, requires_gate_score
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIR = os.path.join(ROOT, "content", "posts")
 REPORT_JSON = os.path.join(ROOT, "reports", "image-relevance-report.json")
@@ -54,9 +57,12 @@ def scan_posts() -> tuple[list[dict], list[str]]:
         if status == "verified":
             if not meta.get("image_source_url"):
                 errors.append(f"{slug}: verified image missing image_source_url")
-            score = meta.get("image_total_score")
-            if score not in (None, "") and float(score) < 72:
-                errors.append(f"{slug}: image_total_score below threshold ({score})")
+            if requires_gate_score(meta):
+                score = meta.get("image_total_score")
+                if score in (None, ""):
+                    errors.append(f"{slug}: gate-verified image missing image_total_score")
+                elif not gate_score_passes(score):
+                    errors.append(f"{slug}: image_total_score below threshold ({score})")
 
         corpus = f"{title} {post.content[:1200]}".lower()
         if any(t in corpus for t in LEAF_TERMS):

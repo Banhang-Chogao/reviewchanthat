@@ -16,6 +16,12 @@ import requests
 from PIL import Image, ImageDraw, ImageFont
 
 from creator_policy import attribution_text, clean_text, sanitize_creator_pair
+from image_gate_policy import (
+    GATE_FIELDS,
+    gate_meta_from_entry,
+    is_gate_verified_entry,
+    resolve_image_status,
+)
 
 IMAGES_MANIFEST_PATH = "data/images.json"
 POSTS_SRC_DIR = "static/images/posts-src"
@@ -184,7 +190,7 @@ def clear_post_image(slug):
 
 def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url,
                             license_val, commercial_use, owner="external", creator="",
-                            creator_url="", gate_meta=None):
+                            creator_url="", gate_meta=None, image_status=None):
     import frontmatter
     fname = None
     for f in os.listdir(CONTENT_DIR):
@@ -211,16 +217,19 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
     meta["image_owner"] = owner
     meta["image_creator"] = clean_text(creator)
     meta["image_creator_url"] = clean_text(creator_url) if clean_text(creator) else ""
-    meta["image_status"] = "verified"
     meta.pop("image_reject_reason", None)
+    if image_status:
+        meta["image_status"] = image_status
+    else:
+        meta.pop("image_status", None)
+        for key in GATE_FIELDS:
+            meta.pop(key, None)
     if gate_meta:
-        for key in (
-            "image_provider", "image_query", "image_semantic_score",
-            "image_color_score", "image_total_score", "image_alt",
-        ):
-            if gate_meta.get(key) not in (None, ""):
-                meta[key] = gate_meta[key]
-    if not meta.get("image_provider"):
+        for key in GATE_FIELDS:
+            value = gate_meta.get(key)
+            if value not in (None, "") and not (key.endswith("_score") and value == 0):
+                meta[key] = value
+    elif image_status == "verified" and not gate_meta:
         meta["image_provider"] = clean_text(source).lower()
     with open(fpath, "w", encoding="utf-8") as f:
         f.write(frontmatter.dumps(post))
@@ -272,14 +281,12 @@ def main():
             fsize = os.path.getsize(dest_path)
             if fsize > 5000 and not has_placeholder_characteristics(dest_path):
                 print(f"    Already processed (real image): {dest_path} ({fsize} bytes)")
-                gate_meta = {
-                    "image_provider": clean_text(entry.get("source_platform", source)).lower(),
-                    "image_query": entry.get("image_query", ""),
-                    "image_semantic_score": entry.get("image_semantic_score", 0),
-                    "image_color_score": entry.get("image_color_score", 0),
-                    "image_total_score": entry.get("image_total_score", 0),
-                    "image_alt": entry.get("image_alt", ""),
-                }
+                gate_meta = gate_meta_from_entry(entry)
+                image_status = resolve_image_status(entry)
+                status_note = image_status or "legacy"
+                if is_gate_verified_entry(entry):
+                    status_note = "gate-verified"
+                print(f"    Frontmatter status: {status_note}")
                 update_post_frontmatter(
                     slug=slug,
                     image_path=f"images/posts/{slug}.webp",
@@ -292,6 +299,7 @@ def main():
                     creator=creator,
                     creator_url=creator_url,
                     gate_meta=gate_meta,
+                    image_status=image_status,
                 )
                 skipped += 1
                 continue
@@ -333,14 +341,8 @@ def main():
             failed += 1
             continue
 
-        gate_meta = {
-            "image_provider": clean_text(entry.get("source_platform", source)).lower(),
-            "image_query": entry.get("image_query", ""),
-            "image_semantic_score": entry.get("image_semantic_score", 0),
-            "image_color_score": entry.get("image_color_score", 0),
-            "image_total_score": entry.get("image_total_score", 0),
-            "image_alt": entry.get("image_alt", ""),
-        }
+        gate_meta = gate_meta_from_entry(entry)
+        image_status = resolve_image_status(entry)
         update_post_frontmatter(
             slug=slug,
             image_path=f"images/posts/{slug}.webp",
@@ -353,6 +355,7 @@ def main():
             creator=creator,
             creator_url=creator_url,
             gate_meta=gate_meta,
+            image_status=image_status,
         )
         success += 1
 

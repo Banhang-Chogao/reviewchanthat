@@ -201,9 +201,14 @@ def qa():
             errors.append(f"[IMAGE_REJECT_WITH_IMAGE] {slug}: reject_reason set but image still assigned")
 
         if image_status == "verified":
-            score = meta.get("image_total_score")
-            if score not in (None, "") and float(score) < 72:
-                errors.append(f"[IMAGE_SCORE_LOW] {slug}: image_total_score={score}")
+            from image_gate_policy import gate_score_passes, requires_gate_score
+
+            if requires_gate_score(meta):
+                score = meta.get("image_total_score")
+                if score in (None, ""):
+                    errors.append(f"[IMAGE_SCORE_MISSING] {slug}: gate-verified image missing score")
+                elif not gate_score_passes(score):
+                    errors.append(f"[IMAGE_SCORE_LOW] {slug}: image_total_score={score}")
 
         if source_url:
             if source_url in seen_urls:

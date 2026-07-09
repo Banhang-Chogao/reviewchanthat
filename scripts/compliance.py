@@ -31,6 +31,7 @@ except ImportError:
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from creator_policy import is_blocked_creator
+from image_gate_policy import gate_score_passes, is_meaningful_gate_score, is_self_owned_meta
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIRS = [
@@ -441,15 +442,31 @@ class ComplianceChecker:
             )
 
         if meta.get("image_status") == "verified":
-            score = meta.get("image_total_score")
-            if score not in (None, ""):
-                try:
-                    if float(score) < 72:
-                        self.add_issue("ERROR", "IMAGE_SCORE_LOW", rel, f"image_total_score below gate threshold: {score}")
-                except (TypeError, ValueError):
-                    self.add_issue("WARN", "IMAGE_SCORE_INVALID", rel, f"image_total_score not numeric: {score}")
             if not clean_text(meta.get("image_source_url")):
                 self.add_issue("ERROR", "VERIFIED_IMAGE_NO_SOURCE", rel, "verified image missing image_source_url")
+            score = meta.get("image_total_score")
+            if meta.get("image_query") and not is_self_owned_meta(meta):
+                if not is_meaningful_gate_score(score):
+                    self.add_issue(
+                        "ERROR",
+                        "IMAGE_SCORE_MISSING",
+                        rel,
+                        "gate-verified image missing image_total_score",
+                    )
+                elif not gate_score_passes(score):
+                    self.add_issue(
+                        "ERROR",
+                        "IMAGE_SCORE_LOW",
+                        rel,
+                        f"image_total_score below gate threshold: {score}",
+                    )
+            elif is_meaningful_gate_score(score) and float(score) < 52 and not is_self_owned_meta(meta):
+                self.add_issue(
+                    "ERROR",
+                    "IMAGE_SCORE_LOW",
+                    rel,
+                    f"legacy image_total_score below gate threshold: {score}",
+                )
 
         for field_name in IMAGE_REQUIRED:
             if field_missing(meta, field_name):
