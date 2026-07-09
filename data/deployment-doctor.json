@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T05:41:02+07:00",
-  "generated_at_display": "10-07-2026 05:41:02",
+  "generated_at": "2026-07-10T05:43:26+07:00",
+  "generated_at_display": "10-07-2026 05:43:26",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -11,13 +11,13 @@
     "safe_autofixes_available": 28,
     "unsafe_external_failures": 0,
     "open_action_items": 11,
-    "loop_guarded_attempts": 26,
+    "loop_guarded_attempts": 27,
     "by_type": {
-      "sitemap_noindex_mismatch": 12,
+      "sitemap_noindex_mismatch": 13,
       "qa_expectation_mismatch": 7,
       "workflow_fanout": 4,
       "ai_summary_map_artifact": 2,
-      "content_direction_optimizer_fail": 2,
+      "content_direction_optimizer_fail": 1,
       "duplicate_yaml_keys": 1
     }
   },
@@ -53,14 +53,14 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29052996627"
     },
     {
-      "run_id": "29052889420",
-      "workflow": "Deploy to GitHub Pages",
-      "commit": "a8730b2",
+      "run_id": "29055159255",
+      "workflow": "Content Direction",
+      "commit": "63a07b7",
       "status": "failure",
-      "rootcause": "content_direction_optimizer_fail",
+      "rootcause": "qa_expectation_mismatch",
       "safe_to_autofix": true,
-      "action": "Kiểm tra content/posts/ có file front matter lỗi",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29052889420"
+      "action": "Align QA with product rules.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29055159255"
     },
     {
       "run_id": "29055052132",
@@ -123,14 +123,14 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29053958546"
     },
     {
-      "run_id": "29052889506",
-      "workflow": "Content Direction",
-      "commit": "a8730b2",
+      "run_id": "29055241804",
+      "workflow": "Deployment Doctor",
+      "commit": "bc563c0",
       "status": "cancelled",
-      "rootcause": "qa_expectation_mismatch",
+      "rootcause": "sitemap_noindex_mismatch",
       "safe_to_autofix": true,
-      "action": "Align QA with product rules.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29052889506"
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29055241804"
     },
     {
       "run_id": "29055141617",
@@ -333,6 +333,12 @@
     "qa_debt": [
       {
         "failure_type": "qa_expectation_mismatch",
+        "run_id": "29055159255",
+        "rootcause": "QA expects a footer/product element that product intentionally removed.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "qa_expectation_mismatch",
         "run_id": "29055052132",
         "rootcause": "QA expects a footer/product element that product intentionally removed.",
         "safe_to_autofix": true
@@ -366,12 +372,6 @@
         "run_id": "29053958546",
         "rootcause": "QA expects a footer/product element that product intentionally removed.",
         "safe_to_autofix": true
-      },
-      {
-        "failure_type": "qa_expectation_mismatch",
-        "run_id": "29052889506",
-        "rootcause": "QA expects a footer/product element that product intentionally removed.",
-        "safe_to_autofix": true
       }
     ],
     "image_pipeline": [],
@@ -398,9 +398,9 @@
         "safe_to_autofix": true
       },
       {
-        "failure_type": "content_direction_optimizer_fail",
-        "run_id": "29052889420",
-        "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
+        "failure_type": "sitemap_noindex_mismatch",
+        "run_id": "29055241804",
+        "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
       },
       {
@@ -746,10 +746,10 @@
       "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
     },
     {
-      "run_id": "29052889420",
-      "failure_type": "content_direction_optimizer_fail",
+      "run_id": "29055159255",
+      "failure_type": "qa_expectation_mismatch",
       "result": "skipped",
-      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29055052132",
@@ -788,17 +788,17 @@
       "detail": "no script or already attempted this run"
     },
     {
-      "run_id": "29052889506",
-      "failure_type": "qa_expectation_mismatch",
+      "run_id": "29055241804",
+      "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "posts-only sitemap already in place",
+      "script": "fix_sitemap_noindex"
     },
     {
       "run_id": "29055141617",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
-      "detail": "posts-only sitemap already in place",
-      "script": "fix_sitemap_noindex"
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29054708851",
@@ -1053,6 +1053,12 @@
       "key": "417865a16fc5:sitemap_noindex_mismatch",
       "count": 2,
       "last_attempt_at": "2026-07-10T05:38:11+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "0c97454ca88f:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:43:26+07:00",
       "last_result": "skipped"
     }
   ],
