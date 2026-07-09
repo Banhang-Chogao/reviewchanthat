@@ -31,7 +31,6 @@ external_links:
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 - title: MacRumors — leaker downgrade iPhone 18 base
   url: https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/
-image: ''
 image_attribution_checked_at: '2026-07-09T10:46:55+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
