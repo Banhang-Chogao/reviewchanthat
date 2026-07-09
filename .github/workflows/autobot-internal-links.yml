@@ -13,6 +13,9 @@ concurrency:
   group: autobot-internal-links-main
   cancel-in-progress: true
 
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   internal_links:
     runs-on: ubuntu-latest

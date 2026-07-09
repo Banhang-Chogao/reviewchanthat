@@ -18,6 +18,9 @@ concurrency:
   group: content-direction-optimizer-main
   cancel-in-progress: true
 
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   optimize:
     runs-on: ubuntu-latest

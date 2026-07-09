@@ -13,6 +13,9 @@ concurrency:
   group: autobot-fixer-I-main
   cancel-in-progress: true
 
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   fixer:
     runs-on: ubuntu-latest
