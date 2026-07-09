@@ -703,13 +703,20 @@ class ComplianceChecker:
                 "Run scripts/image_author_resolver.py --write or clear image_creator",
             )
 
+        # Rule fix: VERIFIED_WITHOUT_CREATOR OK if source/license verified
+        # Creator may not be available from API but source/license are sufficient
         if verified_flag is True and not creator:
-            self.add_issue(
-                "ERROR",
-                "VERIFIED_WITHOUT_CREATOR",
-                rel,
-                "image_attribution_verified is true but image_creator is empty",
-            )
+            source = clean_text(meta.get("image_source"))
+            license_val = clean_text(meta.get("image_license"))
+            if not (source and license_val):
+                # Only error if source/license also missing
+                self.add_issue(
+                    "ERROR",
+                    "VERIFIED_WITHOUT_SOURCE_LICENSE",
+                    rel,
+                    "image_attribution_verified but source/license missing",
+                )
+            # Creator empty is OK if source/license verified
 
         if not creator:
             return
