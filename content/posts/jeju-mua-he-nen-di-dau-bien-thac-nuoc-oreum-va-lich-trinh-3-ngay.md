@@ -18,8 +18,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Jeju mùa hè nên đi đâu? Gợi ý biển, thác nước, oreum và lịch trình 3
-  ngày chi tiết cho kỳ nghỉ hè tại đảo Jeju.
+description: "Jeju mùa hè nên đi đâu? Gợi ý biển, thác nước, oreum và lịch trình 3 ngày chi tiết cho kỳ nghỉ hè tại đảo Jeju."
 draft: false
 faq:
 - answer: Biển Hamdeok, Hyeopjae, Jungmun. Thác Cheonjiyeon, Cheonjeyeon. Seongsan

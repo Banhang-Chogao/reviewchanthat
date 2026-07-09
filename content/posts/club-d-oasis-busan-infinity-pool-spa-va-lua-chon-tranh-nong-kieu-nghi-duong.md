@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: Club D Oasis Busan là khu infinity pool và spa cao cấp tại Haeundae, view biển-trời, phù hợp cho cặp đôi muốn thư giãn và tránh đám đông mùa hè.
+description: "Club D Oasis Busan là khu infinity pool và spa cao cấp tại Haeundae, view biển-trời, phù hợp cho cặp đôi muốn thư giãn và tránh đám đông mùa hè."
 draft: false
 external_links:
   - {"title": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX", "url": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"}

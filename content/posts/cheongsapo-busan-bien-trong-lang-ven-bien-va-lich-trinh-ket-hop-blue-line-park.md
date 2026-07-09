@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: Cheongsapo Busan là làng chài ven biển gần Haeundae, nước trong xanh, có tàu Blue Line Park chạy dọc bờ biển. Hướng dẫn đi và lịch trình.
+description: "Cheongsapo Busan là làng chài ven biển gần Haeundae, nước trong xanh, có tàu Blue Line Park chạy dọc bờ biển. Hướng dẫn đi và lịch trình."
 draft: false
 external_links:
   - {"title": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX", "url": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"}

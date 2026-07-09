@@ -21,8 +21,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 06:00:00+07:00"
-description: Đi Hàn tháng 10 có đẹp không? Thời tiết mùa thu, lá đỏ, mặc gì, lịch
-  trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt.
+description: "Đi Hàn tháng 10 có đẹp không? Thời tiết mùa thu, lá đỏ, mặc gì, lịch trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt."
 draft: false
 external_links:
 - title: Visit Korea — 2025 Fall Foliage Forecast

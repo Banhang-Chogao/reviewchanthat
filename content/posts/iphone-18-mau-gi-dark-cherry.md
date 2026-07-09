@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 16:00:00+07:00'
-description: >-
-  Tin đồn màu iPhone 18: Dark Cherry, các tùy chọn Pro/Fold và góc nhìn chọn màu bền, đẹp cho người mua Việt Nam — nguồn MacRumors, AppleInsider.'
+description: ">- Tin đồn màu iPhone 18: Dark Cherry, các tùy chọn Pro/Fold và góc nhìn chọn màu bền, đẹp cho người mua Việt Nam — nguồn MacRumors, AppleInsider."
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro rumored colors

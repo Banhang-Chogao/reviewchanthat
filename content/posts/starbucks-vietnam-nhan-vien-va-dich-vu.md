@@ -22,8 +22,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
 date: "2026-07-08 17:00:00+07:00"
-description: Đánh giá dịch vụ và nhân viên Starbucks Vietnam — chuẩn phục vụ, barista
-  pha chế, và vì sao chi nhánh Nguyễn Văn Trỗi được khen nhiệt tình.
+description: "Đánh giá dịch vụ và nhân viên Starbucks Vietnam — chuẩn phục vụ, barista pha chế, và vì sao chi nhánh Nguyễn Văn Trỗi được khen nhiệt tình."
 draft: false
 external_links:
 - title: Starbucks — Customer experience

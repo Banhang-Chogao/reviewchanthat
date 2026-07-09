@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: Caribbean Bay Yongin là công viên nước lớn nhất gần Seoul, có wave pool 2,4 m, lazy river dài nhất thế giới, spa. Thuộc khu Everland Resort.
+description: "Caribbean Bay Yongin là công viên nước lớn nhất gần Seoul, có wave pool 2,4 m, lazy river dài nhất thế giới, spa. Thuộc khu Everland Resort."
 draft: false
 external_links:
   - {"title": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX", "url": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"}

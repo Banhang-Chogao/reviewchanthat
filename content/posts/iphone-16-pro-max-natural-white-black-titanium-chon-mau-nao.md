@@ -13,8 +13,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 09:40:00+07:00'
-description: So sánh Natural, White và Black Titanium trên iPhone 16 Pro Max — chọn
-  màu theo thói quen, độ bều và giá máy cũ 2026.
+description: "So sánh Natural, White và Black Titanium trên iPhone 16 Pro Max — chọn màu theo thói quen, độ bều và giá máy cũ 2026."
 draft: false
 image: images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp
 image_attribution_checked_at: '2026-07-09T15:38:02+07:00'

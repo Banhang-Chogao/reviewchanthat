@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 09:40:00+07:00"
-description: Elysian Gangchon Ski Resort Chuncheon — resort trượt tuyết gần Seoul nhất, phù hợp beginner, day trip, gia đình. Hướng dẫn di chuyển, chi phí, ski lesson và
+description: "Elysian Gangchon Ski Resort Chuncheon — resort trượt tuyết gần Seoul nhất, phù hợp beginner, day trip, gia đình. Hướng dẫn di chuyển, chi phí, ski lesson và"
 draft: false
 faq:
   - {"answer": "Gần nhất trong các ski resort — chỉ khoảng 75 km. Bạn có thể đi tàu điện Seoul Metropolitan Subway (Gyeongchun Line) đến ga Baegyang-ri, sau đó bắt shuttle bus miễn phí từ exit 1 (20 phút/chuyến). Tổng thời gian khoảng 1,5 giờ.", "question": "Elysian Gangchon có gần Seoul không? Đi bằng gì?"}

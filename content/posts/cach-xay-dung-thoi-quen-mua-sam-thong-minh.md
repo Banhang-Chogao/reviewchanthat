@@ -20,8 +20,7 @@ categories:
 - doi-song
 - tai-chinh
 date: "2026-06-28 10:00:00+07:00"
-description: Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu
-  quả hơn.
+description: "Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu quả hơn."
 draft: false
 external_links:
 - title: Consumer Reports - Smart Shopping Tips

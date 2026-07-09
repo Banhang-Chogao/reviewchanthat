@@ -18,8 +18,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: Wolmido Incheon là khu vui chơi ven biển gần Seoul, có boardwalk, tàu
-  lượn, thủy cung và nhà hàng hải sản. Đi metro từ Seoul chỉ 1 giờ.
+description: "Wolmido Incheon là khu vui chơi ven biển gần Seoul, có boardwalk, tàu lượn, thủy cung và nhà hàng hải sản. Đi metro từ Seoul chỉ 1 giờ."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX

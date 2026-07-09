@@ -13,8 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: >-
-  Bãi biển đẹp nhất Jeju: Hamdeok nước xanh như Maldives, Hyeopjae hoàng hôn lãng mạn. So sánh và gợi ý chọn resort ven biển Jeju.
+description: ">- Bãi biển đẹp nhất Jeju: Hamdeok nước xanh như Maldives, Hyeopjae hoàng hôn lãng mạn. So sánh và gợi ý chọn resort ven biển Jeju."
 draft: false
 external_links:
   - {"title": "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>", "url": "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"}

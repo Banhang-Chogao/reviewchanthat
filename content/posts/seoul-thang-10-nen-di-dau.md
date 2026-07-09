@@ -21,8 +21,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu — cung
-  điện, công viên lá đỏ, Hanok và ẩm thực. Kèm ngân sách và mẹo di chuyển.
+description: "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu — cung điện, công viên lá đỏ, Hanok và ẩm thực. Kèm ngân sách và mẹo di chuyển."
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast

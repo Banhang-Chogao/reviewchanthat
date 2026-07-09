@@ -13,8 +13,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 11:00:00+07:00'
-description: >-
-  Đánh giá pin iPhone 16 Pro Max: thời lượng thực tế, so 15 Pro Max, mua máy cũ và ai cần Pro Max vì pin.'
+description: ">- Đánh giá pin iPhone 16 Pro Max: thời lượng thực tế, so 15 Pro Max, mua máy cũ và ai cần Pro Max vì pin."
 draft: false
 image: images/posts/pin-iphone-16-pro-max-co-dang-chon.webp
 image_attribution_checked_at: '2026-07-09T15:38:04+07:00'

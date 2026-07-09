@@ -16,8 +16,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 09:20:00+07:00"
-description: >-
-  Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual Intelligence và kỳ vọng thực tế theo từng dòng iPhone.'
+description: ">- Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual Intelligence và kỳ vọng thực tế theo từng dòng iPhone."
 draft: false
 image: images/posts/ios-27-camera-anh-video-iphone.webp
 image_attribution_checked_at: '2026-07-09T15:38:00+07:00'

@@ -18,8 +18,7 @@ categories:
 - review
 - doi-song
 date: "2026-06-20 14:00:00+07:00"
-description: 6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tránh hối hận sau khi
-  nhận hàng.
+description: "6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tránh hối hận sau khi nhận hàng."
 draft: false
 external_links:
 - title: Bộ Công Thương - Bảo vệ người tiêu dùng

@@ -19,8 +19,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
 date: "2026-07-08 12:00:00+07:00"
-description: Mẹo gọi đồ tại Starbucks Vietnam — size, tùy chỉnh, dùng app order trước
-  và tích điểm Rewards. Kinh nghiệm thực tế từ chi nhánh Nguyễn Văn Trỗi.
+description: "Mẹo gọi đồ tại Starbucks Vietnam — size, tùy chỉnh, dùng app order trước và tích điểm Rewards. Kinh nghiệm thực tế từ chi nhánh Nguyễn Văn Trỗi."
 draft: false
 external_links:
 - title: Starbucks Vietnam

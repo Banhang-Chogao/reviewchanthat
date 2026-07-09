@@ -22,8 +22,7 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: >-
-  Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu.
+description: ">- Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu."
 draft: false
 image: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
 image_attribution_checked_at: '2026-07-09T10:43:16+07:00'

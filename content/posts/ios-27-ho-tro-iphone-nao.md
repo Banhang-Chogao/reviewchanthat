@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 08:20:00+07:00"
-description: Danh sách iPhone tương thích iOS 27 theo Apple, phân tích Apple Intelligence,
-  iPhone cũ và lộ trình cho người dùng Việt Nam.
+description: "Danh sách iPhone tương thích iOS 27 theo Apple, phân tích Apple Intelligence, iPhone cũ và lộ trình cho người dùng Việt Nam."
 draft: false
 image: images/posts/ios-27-ho-tro-iphone-nao.webp
 image_attribution_checked_at: '2026-07-09T15:38:01+07:00'

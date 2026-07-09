@@ -20,8 +20,7 @@ categories:
 - review
 - tai-chinh
 date: "2026-06-25 10:00:00+07:00"
-description: Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo hành tốt và trải nghiệm
-  sử dụng. Bài viết này giúp bạn xác định ưu tiên.
+description: "Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo hành tốt và trải nghiệm sử dụng. Bài viết này giúp bạn xác định ưu tiên."
 draft: false
 external_links:
 - title: Consumer Reports - Product Buying Guide

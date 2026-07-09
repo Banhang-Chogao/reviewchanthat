@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 14:00:00+07:00'
-description: >-
-  Tin đồn giá iPhone 18: Pro có thể đắt hơn, Fold ~2.000 USD, base giữ giá — phân tích từ MacRumors, AppleInsider và góc nhìn người mua Việt Nam.'
+description: ">- Tin đồn giá iPhone 18: Pro có thể đắt hơn, Fold ~2.000 USD, base giữ giá — phân tích từ MacRumors, AppleInsider và góc nhìn người mua Việt Nam."
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup

@@ -19,8 +19,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-07 18:00:00+07:00"
-description: Một tháng sau keynote, đánh giá lại WWDC26 — Siri AI có đủ thuyết phục
-  không, beta iOS 27 thực tế ra sao, và người dùng Việt Nam nên làm gì tiếp theo.
+description: "Một tháng sau keynote, đánh giá lại WWDC26 — Siri AI có đủ thuyết phục không, beta iOS 27 thực tế ra sao, và người dùng Việt Nam nên làm gì tiếp theo."
 draft: false
 external_links:
 - title: Apple — WWDC26 Press Release

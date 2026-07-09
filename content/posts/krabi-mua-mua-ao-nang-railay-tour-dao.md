@@ -22,8 +22,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo,
-  Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch.
+description: "Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo, Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch."
 draft: false
 image: images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp
 image_attribution_checked_at: '2026-07-09T10:41:34+07:00'

@@ -22,8 +22,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: Thời tiết Hàn Quốc tháng 10 — nhiệt độ, mưa, gió và cách chuẩn bị trang
-  phục. Phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo.
+description: "Thời tiết Hàn Quốc tháng 10 — nhiệt độ, mưa, gió và cách chuẩn bị trang phục. Phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo."
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast

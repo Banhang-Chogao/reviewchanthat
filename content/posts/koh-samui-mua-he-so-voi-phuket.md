@@ -17,7 +17,7 @@ categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
 description: 'Koh Samui mùa hè tháng 7-8 có tốt hơn Phuket? So sánh thời tiết, biển, chi phí, tour đảo và lịch trình Koh Samui mùa mưa.'
-description: 'Koh Samui mùa hè tháng 7-8 có tốt hơn Phuket? So sánh thời tiết, biển, chi phí, tour đảo và lịch trình Koh Samui mùa mưa.'
+image: images/posts/koh-samui-mua-he-so-voi-phuket.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external

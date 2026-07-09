@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 09:10:00+07:00"
-description: High1 Ski Resort Jeongseon — ski resort thân thiện môi trường với nhà hàng xoay Sky 1340, slope đa dạng và trải nghiệm nghỉ dưỡng 2-3 ngày. So sánh chi phí và
+description: "High1 Ski Resort Jeongseon — ski resort thân thiện môi trường với nhà hàng xoay Sky 1340, slope đa dạng và trải nghiệm nghỉ dưỡng 2-3 ngày. So sánh chi phí và"
 draft: false
 faq:
   - {"answer": "Cách Seoul khoảng 220 km, đi ô tô hoặc bus khoảng 3,5 giờ. Có KTX từ ga Seoul đến ga Gohan (khoảng 2 giờ), sau đó taxi 10 phút đến resort.", "question": "High1 cách Seoul bao xa? Đi bằng gì?"}

@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 13:00:00+07:00"
-description: Busan tháng 10 nên đi đâu? Gợi ý biển, phố đêm, làng văn hóa và lịch trình 2–3 ngày nhẹ nhàng cho chuyến đi mùa thu.
+description: "Busan tháng 10 nên đi đâu? Gợi ý biển, phố đêm, làng văn hóa và lịch trình 2–3 ngày nhẹ nhàng cho chuyến đi mùa thu."
 draft: false
 external_links:
   - {"title": "Visit Korea — Fall Foliage Forecast", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"}

@@ -20,8 +20,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 11:00:00+07:00"
-description: Nami tháng 10 có đáng đi không? Lá vàng Metasequoia, lịch trình nửa ngày,
-  cách đi ITX từ Seoul và mẹo tránh đông mùa thu.
+description: "Nami tháng 10 có đáng đi không? Lá vàng Metasequoia, lịch trình nửa ngày, cách đi ITX từ Seoul và mẹo tránh đông mùa thu."
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast

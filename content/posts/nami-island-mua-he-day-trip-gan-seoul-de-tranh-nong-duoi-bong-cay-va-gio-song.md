@@ -18,8 +18,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: >-
-  Nami Island mùa hè là day trip lý tưởng từ Seoul để tránh nóng: tán cây Metasequoia xanh mát, zipline vào đảo, đi thuyền trên sông Bukhan.'
+description: ">- Nami Island mùa hè là day trip lý tưởng từ Seoul để tránh nóng: tán cây Metasequoia xanh mát, zipline vào đảo, đi thuyền trên sông Bukhan."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX

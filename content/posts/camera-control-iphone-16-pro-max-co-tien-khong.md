@@ -13,8 +13,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 10:20:00+07:00'
-description: >-
-  Đánh giá Camera Control trên iPhone 16 Pro Max: thao tác chụp, zoom, học curve và có đáng lên đời từ 15 Pro Max không.'
+description: ">- Đánh giá Camera Control trên iPhone 16 Pro Max: thao tác chụp, zoom, học curve và có đáng lên đời từ 15 Pro Max không."
 draft: false
 image: images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp
 image_attribution_checked_at: '2026-07-09T15:37:57+07:00'

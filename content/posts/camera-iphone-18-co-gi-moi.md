@@ -11,8 +11,7 @@ categories:
   - cong-nghe
 date: >-
   2026-07-08 13:00:00+07:00
-description: >-
-  Tin đồn camera iPhone 18: selfie 24MP, variable aperture trên Pro, sensor Samsung và kỳ vọng chụp ảnh — phân loại nguồn MacRumors, AppleInsider cho người mua
+description: ">- Tin đồn camera iPhone 18: selfie 24MP, variable aperture trên Pro, sensor Samsung và kỳ vọng chụp ảnh — phân loại nguồn MacRumors, AppleInsider cho người mua"
 draft: false
 external_links:
   - {"title": "AppleInsider — iPhone 18 expectations", "url": "https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more"}

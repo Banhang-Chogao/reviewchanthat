@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: >-
-  Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc.'
+description: ">- Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX

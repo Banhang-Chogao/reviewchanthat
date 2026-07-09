@@ -13,8 +13,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 10:40:00+07:00'
-description: >-
-  So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm A18, Camera Control và có nên đổi vì ảnh.'
+description: ">- So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm A18, Camera Control và có nên đổi vì ảnh."
 draft: false
 image: images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp
 image_attribution_checked_at: '2026-07-09T15:37:58+07:00'

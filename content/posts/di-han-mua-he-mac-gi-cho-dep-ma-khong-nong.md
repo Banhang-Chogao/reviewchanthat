@@ -19,8 +19,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Đi Hàn Quốc mùa hè mặc gì cho đẹp mà không nóng? Gợi ý outfit, chất liệu
-  vải, phối đồ theo concept và mẹo chống nóng.
+description: "Đi Hàn Quốc mùa hè mặc gì cho đẹp mà không nóng? Gợi ý outfit, chất liệu vải, phối đồ theo concept và mẹo chống nóng."
 draft: false
 faq:
 - answer: Cotton, lanh (linen), modal, bamboo — thoáng khí, thấm hút tốt.

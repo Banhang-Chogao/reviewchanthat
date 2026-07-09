@@ -22,8 +22,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 18:30:00+07:00"
-description: Đi Hàn tháng 11 mặc gì? Checklist phối đồ nhiều lớp ấm, màu sắc hợp mùa
-  thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan.
+description: "Đi Hàn tháng 11 mặc gì? Checklist phối đồ nhiều lớp ấm, màu sắc hợp mùa thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan."
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast

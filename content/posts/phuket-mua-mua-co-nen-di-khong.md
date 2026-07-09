@@ -22,8 +22,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Phuket mùa mưa có nên đi không? Phân tích biển động, tour đảo, chi phí
-  tháng 7-8 và cách xếp lịch an toàn — so sánh với Koh Samui.
+description: "Phuket mùa mưa có nên đi không? Phân tích biển động, tour đảo, chi phí tháng 7-8 và cách xếp lịch an toàn — so sánh với Koh Samui."
 draft: false
 image: images/posts/phuket-mua-mua-co-nen-di-khong.webp
 image_attribution_checked_at: '2026-07-09T10:43:31+07:00'

@@ -16,8 +16,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 11:00:00+07:00'
-description: iPhone 18 chip A20 có gì đáng chú ý? Tin đồn TSMC N2 2nm, A20 vs A20
-  Pro, hiệu năng, pin và Apple Intelligence — nguồn MacRumors, AppleInsider.
+description: "iPhone 18 chip A20 có gì đáng chú ý? Tin đồn TSMC N2 2nm, A20 vs A20 Pro, hiệu năng, pin và Apple Intelligence — nguồn MacRumors, AppleInsider."
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup

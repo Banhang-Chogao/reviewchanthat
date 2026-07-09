@@ -19,7 +19,7 @@ categories:
 - du-lich
 date: "2026-07-08 14:00:00+07:00"
 description: "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi Hallasan, ngày lá đỏ tham khảo và lịch trình 3 ngày cho người đi lần đầu."
-description: "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi Hallasan, ngày lá đỏ tham khảo và lịch trình 3 ngày cho người đi lần đầu."
+external_links:
 - title: Visit Korea — Fall Foliage Forecast
   url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: "KoreaToDo — Top Autumn Foliage Sites"

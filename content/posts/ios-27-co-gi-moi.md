@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 08:00:00+07:00"
-description: >-
-  Tổng quan iOS 27 sau WWDC26: Siri AI, Apple Intelligence, hiệu năng, quyền riêng tư và timeline beta/public cho người dùng iPhone tại Việt Nam.'
+description: ">- Tổng quan iOS 27 sau WWDC26: Siri AI, Apple Intelligence, hiệu năng, quyền riêng tư và timeline beta/public cho người dùng iPhone tại Việt Nam."
 draft: false
 image: images/posts/ios-27-co-gi-moi.webp
 image_attribution_checked_at: '2026-07-09T15:38:00+07:00'

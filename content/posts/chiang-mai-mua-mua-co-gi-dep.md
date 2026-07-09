@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Chiang Mai mùa mưa có gì đẹp? Gợi ý cafe, chùa, núi xanh, thác nước và lịch trình nhẹ nhàng 3 ngày — mùa xanh nhất trong năm.
+description: "Chiang Mai mùa mưa có gì đẹp? Gợi ý cafe, chùa, núi xanh, thác nước và lịch trình nhẹ nhàng 3 ngày — mùa xanh nhất trong năm."
 draft: false
 image: images/posts/chiang-mai-mua-mua-co-gi-dep.webp
 image_attribution_checked_at: >-

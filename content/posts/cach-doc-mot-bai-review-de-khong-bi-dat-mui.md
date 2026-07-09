@@ -26,8 +26,7 @@ checklist:
 - Kiểm tra lịch sử tài khoản người viết
 - Đọc phần bình luận trước khi quyết định
 date: "2026-06-15 10:00:00+07:00"
-description: Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật,
-  đâu là quảng cáo trá hình.
+description: "Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật, đâu là quảng cáo trá hình."
 draft: false
 external_links:
 - title: FTC - Endorsement Guides

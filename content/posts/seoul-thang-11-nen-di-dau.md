@@ -22,8 +22,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 19:00:00+07:00"
-description: Seoul tháng 11 nên đi đâu? Lịch trình 3 ngày ngắm peak lá đỏ — cung điện,
-  công viên, Hanok và ẩm thực. Kèm ngân sách và mẹo di chuyển.
+description: "Seoul tháng 11 nên đi đâu? Lịch trình 3 ngày ngắm peak lá đỏ — cung điện, công viên, Hanok và ẩm thực. Kèm ngân sách và mẹo di chuyển."
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast

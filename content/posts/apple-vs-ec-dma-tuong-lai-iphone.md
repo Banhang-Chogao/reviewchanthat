@@ -10,8 +10,7 @@ avatar: >-
 categories:
   - cong-nghe
 date: "2026-07-08 11:20:00+07:00"
-description: >-
-  Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người
+description: ">- Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người"
 draft: false
 external_links:
   - {"title": "Reuters — EU court rejects Apple's challenge (8/7/2026)", "url": "https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/"}

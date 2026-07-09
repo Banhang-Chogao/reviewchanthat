@@ -11,7 +11,7 @@ categories:
   - cong-nghe
 date: >-
   2026-07-08 09:00:00+07:00
-description: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17? Phân tích theo từng đời máy, split launch, tin đồn nâng cấp và ngân sách cho người dùng Việt
+description: "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17? Phân tích theo từng đời máy, split launch, tin đồn nâng cấp và ngân sách cho người dùng Việt"
 draft: false
 external_links:
   - {"title": "MacRumors — iPhone 18 roundup", "url": "https://www.macrumors.com/roundup/iphone-18/"}

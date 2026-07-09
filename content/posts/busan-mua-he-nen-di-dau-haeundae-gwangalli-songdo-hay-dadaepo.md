@@ -18,8 +18,7 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo và Dadaepo
-  — bãi biển nào phù hợp nhất cho chuyến đi của bạn?
+description: "Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo và Dadaepo — bãi biển nào phù hợp nhất cho chuyến đi của bạn?"
 draft: false
 faq:
 - answer: Haeundae nếu thích sầm uất, Gwangalli nếu thích lãng mạn, Dadaepo nếu đi

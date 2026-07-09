@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 10:00:00+07:00"
-description: iOS 27 public/developer beta có nên cài không? Rủi ro ổn định, app ngân
-  hàng, rollback và profile Apple Beta cho người dùng Việt Nam.
+description: "iOS 27 public/developer beta có nên cài không? Rủi ro ổn định, app ngân hàng, rollback và profile Apple Beta cho người dùng Việt Nam."
 draft: false
 image: images/posts/ios-27-beta-co-nen-cai-khong.webp
 image_attribution_checked_at: '2026-07-09T15:38:00+07:00'

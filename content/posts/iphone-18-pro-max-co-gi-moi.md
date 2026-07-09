@@ -16,9 +16,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 08:00:00+07:00'
-description: iPhone 18 Pro Max có gì mới? Tin đồn A20 Pro 2nm, pin lớn hơn, camera
-  khẩu độ biến đổi, Dynamic Island nhỏ, modem C2, màu Dark Cherry — nguồn MacRumors,
-  AppleInsider.
+description: "iPhone 18 Pro Max có gì mới? Tin đồn A20 Pro 2nm, pin lớn hơn, camera khẩu độ biến đổi, Dynamic Island nhỏ, modem C2, màu Dark Cherry — nguồn MacRumors, AppleInsider."
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup

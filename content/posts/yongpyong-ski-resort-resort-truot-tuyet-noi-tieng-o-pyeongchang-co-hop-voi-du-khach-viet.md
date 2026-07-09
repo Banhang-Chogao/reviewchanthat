@@ -20,9 +20,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 09:30:00+07:00"
-description: Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa
-  điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên
-  thực tế.
+description: "Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên thực tế."
 draft: false
 faq:
 - answer: Khoảng 180 km, di chuyển bằng ô tô hoặc bus mất khoảng 3 giờ. Có thể đi

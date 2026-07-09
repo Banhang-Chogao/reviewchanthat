@@ -21,8 +21,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 18:00:00+07:00"
-description: Hàn Quốc tháng 11 còn lá đỏ không? So sánh Seoul, Nami, Seoraksan theo
-  dự báo Visit Korea — nên đi tuần nào và lịch dự phòng.
+description: "Hàn Quốc tháng 11 còn lá đỏ không? So sánh Seoul, Nami, Seoraksan theo dự báo Visit Korea — nên đi tuần nào và lịch dự phòng."
 draft: false
 external_links:
 - title: Visit Korea — 2025 Fall Foliage Forecast

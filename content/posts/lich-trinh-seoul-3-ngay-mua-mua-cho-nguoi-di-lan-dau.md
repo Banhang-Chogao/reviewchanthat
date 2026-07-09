@@ -20,8 +20,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu — điểm tham quan
-  indoor, ăn uống và di chuyển. Kèm ngân sách chi tiết.
+description: "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu — điểm tham quan indoor, ăn uống và di chuyển. Kèm ngân sách chi tiết."
 draft: false
 faq:
 - answer: Bảo tàng Quốc gia (miễn phí), DDP, COEX Mall, Lotte World indoor.

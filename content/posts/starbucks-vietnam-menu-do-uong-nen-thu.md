@@ -20,9 +20,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
 date: "2026-07-08 16:00:00+07:00"
-description: Gợi ý menu Starbucks Vietnam — espresso, Frappuccino, trà, món mùa và
-  cách tùy chỉnh đá, đường, sữa cho đúng gu. Kinh nghiệm thực tế từ chi nhánh Nguyễn
-  Văn Trỗi.
+description: "Gợi ý menu Starbucks Vietnam — espresso, Frappuccino, trà, món mùa và cách tùy chỉnh đá, đường, sữa cho đúng gu. Kinh nghiệm thực tế từ chi nhánh Nguyễn Văn Trỗi."
 draft: false
 external_links:
 - title: Starbucks Vietnam — Menu

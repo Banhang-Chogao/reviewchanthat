@@ -10,7 +10,7 @@ avatar: >-
 categories:
   - cong-nghe
 date: "2026-07-08 10:20:00+07:00"
-description: Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu được gì và mất gì? Phân tích rủi ro bảo mật, hoàn tiền, trải nghiệm gia đình và những đánh đổi Apple không nói
+description: "Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu được gì và mất gì? Phân tích rủi ro bảo mật, hoàn tiền, trải nghiệm gia đình và những đánh đổi Apple không nói"
 draft: false
 external_links:
   - {"title": "EC — Apple và Meta vi phạm DMA (23/4/2025)", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act"}

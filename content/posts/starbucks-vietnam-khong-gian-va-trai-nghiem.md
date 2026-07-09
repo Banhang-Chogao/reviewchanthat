@@ -19,8 +19,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
 date: "2026-07-08 11:00:00+07:00"
-description: Không gian Starbucks Vietnam — thiết kế, chỗ ngồi làm việc, Wi-Fi, ổ
-  cắm. Review trải nghiệm tại chi nhánh Nguyễn Văn Trỗi Phú Nhuận.
+description: "Không gian Starbucks Vietnam — thiết kế, chỗ ngồi làm việc, Wi-Fi, ổ cắm. Review trải nghiệm tại chi nhánh Nguyễn Văn Trỗi Phú Nhuận."
 draft: false
 external_links:
 - title: Starbucks Stories — Store design

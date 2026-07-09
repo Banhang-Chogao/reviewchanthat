@@ -14,8 +14,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 13:20:00+07:00'
-description: >-
-  So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn hình, Camera Control, pin, màu titan và gợi ý nên mua hoặc lên đời.'
+description: ">- So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn hình, Camera Control, pin, màu titan và gợi ý nên mua hoặc lên đời."
 draft: false
 image: images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp
 image_attribution_checked_at: '2026-07-09T15:38:01+07:00'

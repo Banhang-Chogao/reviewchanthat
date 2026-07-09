@@ -21,8 +21,7 @@ categories:
 - review
 - cong-nghe
 date: "2026-06-18 10:00:00+07:00"
-description: Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải
-  thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ.
+description: "Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ."
 draft: false
 external_links:
 - title: AnandTech - Understanding Benchmarks

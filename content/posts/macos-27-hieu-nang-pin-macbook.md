@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 12:00:00+07:00"
-description: >-
-  Đánh giá hiệu năng và pin macOS Golden Gate 27: số liệu Apple, phản hồi beta developer và ảnh hưởng Siri AI lên MacBook Air/Pro.'
+description: ">- Đánh giá hiệu năng và pin macOS Golden Gate 27: số liệu Apple, phản hồi beta developer và ảnh hưởng Siri AI lên MacBook Air/Pro."
 draft: false
 image: images/posts/macos-27-hieu-nang-pin-macbook.webp
 image_attribution_checked_at: '2026-07-09T15:38:03+07:00'

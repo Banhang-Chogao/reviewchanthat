@@ -21,8 +21,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-07 09:00:00+07:00"
-description: Phân tích có cơ sở về iOS 27, macOS Golden Gate 27, Siri AI và Apple
-  Intelligence tại WWDC26 — phân loại tin đồn, dự đoán và thông tin Apple đã xác nhận.
+description: "Phân tích có cơ sở về iOS 27, macOS Golden Gate 27, Siri AI và Apple Intelligence tại WWDC26 — phân loại tin đồn, dự đoán và thông tin Apple đã xác nhận."
 draft: false
 external_links:
 - title: Apple — WWDC26 Press Release

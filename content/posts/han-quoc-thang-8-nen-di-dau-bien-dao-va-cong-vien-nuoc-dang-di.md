@@ -18,8 +18,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Hàn Quốc tháng 8 nên đi đâu? Gợi ý biển, đảo, công viên nước và điểm
-  tránh nóng tốt nhất. Kèm lịch trình 5 ngày cho kỳ nghỉ hè.
+description: "Hàn Quốc tháng 8 nên đi đâu? Gợi ý biển, đảo, công viên nước và điểm tránh nóng tốt nhất. Kèm lịch trình 5 ngày cho kỳ nghỉ hè."
 draft: false
 faq:
 - answer: 25–33°C, nắng gắt, độ ẩm 70–80%. Mưa giảm so với tháng 7.

@@ -16,8 +16,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 12:20:00+07:00"
-description: >-
-  macOS 27 mang lại gì cho nhân viên văn phòng, creator nội dung và lập trình viên: Spotlight, Safari, Photos, Xcode và rủi ro beta.'
+description: ">- macOS 27 mang lại gì cho nhân viên văn phòng, creator nội dung và lập trình viên: Spotlight, Safari, Photos, Xcode và rủi ro beta."
 draft: false
 image: images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp
 image_attribution_checked_at: '2026-07-09T15:38:02+07:00'

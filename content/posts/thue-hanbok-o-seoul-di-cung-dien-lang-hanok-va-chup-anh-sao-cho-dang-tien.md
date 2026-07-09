@@ -20,8 +20,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: >-
-  Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok, cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp.'
+description: ">- Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok, cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX

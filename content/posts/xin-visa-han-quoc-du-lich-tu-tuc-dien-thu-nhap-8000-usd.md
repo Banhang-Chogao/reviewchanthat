@@ -28,9 +28,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: '2026-07-09 04:00:00+07:00'
-description: Hướng dẫn chi tiết cách chuẩn bị hồ sơ xin visa Hàn Quốc du lịch tự túc
-  từ Việt Nam theo diện thu nhập hàng năm trên 8.000 USD, dựa trên nguồn chính thức
-  của Bộ Ngoại giao/Đại sứ quán Hàn Quốc và KVAC.
+description: "Hướng dẫn chi tiết cách chuẩn bị hồ sơ xin visa Hàn Quốc du lịch tự túc từ Việt Nam theo diện thu nhập hàng năm trên 8.000 USD, dựa trên nguồn chính thức của Bộ Ngoại giao/Đại sứ quán Hàn Quốc và KVAC."
 draft: false
 external_links:
 - title: Đại sứ quán Hàn Quốc tại Việt Nam — Thông báo mở rộng đối tượng miễn chứng

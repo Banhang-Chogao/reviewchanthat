@@ -16,8 +16,7 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 13:40:00+07:00'
-description: >-
-  Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time Machine, dọn SSD,   kiểm tra app, RAM và kế hoạch rollback.
+description: ">- Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time Machine, dọn SSD,   kiểm tra app, RAM và kế hoạch rollback."
 draft: false
 image: images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp
 image_attribution_checked_at: '2026-07-09T15:37:58+07:00'

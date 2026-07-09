@@ -21,7 +21,7 @@ categories:
 - du-lich
 date: "2026-07-08 20:00:00+07:00"
 description: "Seoraksan tháng 11 còn lá đỏ không? Phân tích thời điểm rụng lá, có nên leo núi khi trời lạnh và lịch trình 1–2 ngày từ Seoul."
-description: "Seoraksan tháng 11 còn lá đỏ không? Phân tích thời điểm rụng lá, có nên leo núi khi trời lạnh và lịch trình 1–2 ngày từ Seoul."
+external_links:
 - title: Visit Korea — Fall Foliage Forecast
   url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: "Korea Meteorological Administration"

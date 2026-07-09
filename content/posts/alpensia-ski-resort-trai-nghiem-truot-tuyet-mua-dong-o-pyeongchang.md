@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 09:20:00+07:00"
-description: Alpensia Ski 700 Pyeongchang — ski resort từng đăng cai Olympic 2018. 6 slope, beginner-friendly, kết hợp nghỉ dưỡng và water park. So sánh với Yongpyong.
+description: "Alpensia Ski 700 Pyeongchang — ski resort từng đăng cai Olympic 2018. 6 slope, beginner-friendly, kết hợp nghỉ dưỡng và water park. So sánh với Yongpyong."
 draft: false
 faq:
   - {"answer": "Cách Seoul khoảng 200 km — mất 3–3,5 giờ đi ô tô hoặc bus. Có thể đi trong ngày nhưng nên ở lại 1 đêm để tận dụng resort.", "question": "Alpensia cách Seoul bao xa? Có đi trong ngày được không?"}

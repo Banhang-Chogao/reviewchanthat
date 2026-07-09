@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 06:00:00+07:00'
-description: Tổng hợp tin đồn iPhone 18 trước mùa ra mắt — lịch tách đợt, A20 2nm,
-  iPhone Fold, camera, giá và checklist mua máy cho người dùng Việt Nam.
+description: "Tổng hợp tin đồn iPhone 18 trước mùa ra mắt — lịch tách đợt, A20 2nm, iPhone Fold, camera, giá và checklist mua máy cho người dùng Việt Nam."
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 roundup

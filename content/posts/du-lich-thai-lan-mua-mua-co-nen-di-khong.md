@@ -22,9 +22,7 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết Bangkok, Phuket,
-  Krabi, Chiang Mai, Koh Samui tháng 7-8 — ưu nhược điểm từng nơi, lịch trình gợi
-  ý và
+description: "Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết Bangkok, Phuket, Krabi, Chiang Mai, Koh Samui tháng 7-8 — ưu nhược điểm từng nơi, lịch trình gợi ý và"
 draft: false
 image: images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp
 image_attribution_checked_at: '2026-07-09T10:41:29+07:00'

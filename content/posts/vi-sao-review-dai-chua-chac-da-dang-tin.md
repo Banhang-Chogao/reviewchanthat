@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
 date: "2026-06-22 10:00:00+07:00"
-description: Review dài hàng nghìn chữ có thể là dấu hiệu của content marketing, không
-  phải trải nghiệm thật.
+description: "Review dài hàng nghìn chữ có thể là dấu hiệu của content marketing, không phải trải nghiệm thật."
 draft: false
 external_links:
 - title: FTC - Disclosures for Influencers

@@ -18,8 +18,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình du lịch
-  Hàn Quốc tháng 7 — mùa mưa vẫn đi được nếu biết cách.
+description: "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình du lịch Hàn Quốc tháng 7 — mùa mưa vẫn đi được nếu biết cách."
 draft: false
 faq:
 - answer: 23–28°C, mưa nhiều, độ ẩm 75–85%. Mưa rào thường đến chiều tối.

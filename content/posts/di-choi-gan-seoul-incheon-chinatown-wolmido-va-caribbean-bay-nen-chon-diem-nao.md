@@ -19,8 +19,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: >-
-  So sánh 5 điểm đi chơi gần Seoul: Incheon Chinatown, Songwol-dong Fairy Tale Village, Wolmido, Gwangmyeong Cave, Caribbean Bay. Lịch trình day trip.'
+description: ">- So sánh 5 điểm đi chơi gần Seoul: Incheon Chinatown, Songwol-dong Fairy Tale Village, Wolmido, Gwangmyeong Cave, Caribbean Bay. Lịch trình day trip."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX

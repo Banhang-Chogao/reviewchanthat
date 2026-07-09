@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - cong-nghe
 date: "2026-07-08 09:00:00+07:00"
-description: Tòa Tổng EU ngày 8/7/2026 bác kiện Apple về gatekeeper App Store và iOS. Phân biệt vụ kiện này với phạt anti-steering €500M và kháng cáo của Apple.
+description: "Tòa Tổng EU ngày 8/7/2026 bác kiện Apple về gatekeeper App Store và iOS. Phân biệt vụ kiện này với phạt anti-steering €500M và kháng cáo của Apple."
 draft: false
 external_links:
   - {"title": "Reuters — EU court rejects Apple's challenge (8/7/2026)", "url": "https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/"}

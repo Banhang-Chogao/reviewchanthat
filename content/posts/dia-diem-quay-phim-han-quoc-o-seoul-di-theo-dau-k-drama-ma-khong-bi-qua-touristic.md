@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: >-
-  Địa điểm quay phim Hàn Quốc ở Seoul từ Vincenzo, Reborn Rich: Sewoon Arcade, Common Ground, Baek In-je House. Lịch trình và mẹo check-in.'
+description: ">- Địa điểm quay phim Hàn Quốc ở Seoul từ Vincenzo, Reborn Rich: Sewoon Arcade, Common Ground, Baek In-je House. Lịch trình và mẹo check-in."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX

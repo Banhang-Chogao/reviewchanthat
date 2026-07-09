@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - cong-nghe
 date: "2026-07-08 09:20:00+07:00"
-description: Digital Markets Act (DMA) là gì? Cách EU siết Apple, Google, Meta qua gatekeeper, nghĩa vụ anti-steering và phạt không tuân thủ — phân biệt với vụ kiện tòa
+description: "Digital Markets Act (DMA) là gì? Cách EU siết Apple, Google, Meta qua gatekeeper, nghĩa vụ anti-steering và phạt không tuân thủ — phân biệt với vụ kiện tòa"
 draft: false
 external_links:
   - {"title": "Digital Markets Act — Trang chính thức EC", "url": "https://digital-markets-act.ec.europa.eu/"}

@@ -26,7 +26,7 @@ def extract_frontmatter(text: str) -> tuple[str | None, str]:
 def fix_description_only(fm_text: str) -> str:
     """
     ONLY fix description field: if it has multiline with colons,
-    convert to folded string (>-).
+    collapse to a single double-quoted line.
 
     Very conservative: don't touch anything else.
     """
@@ -37,43 +37,36 @@ def fix_description_only(fm_text: str) -> str:
     while i < len(lines):
         line = lines[i]
 
-        # Check if this is a description field
-        if re.match(r"^description:\s*['\"]", line):
-            # Check if it's a multi-line quoted string
-            if line.rstrip().endswith(("'", '"')) and line.count("'") + line.count('"') == 2:
-                # Single-line quoted string - leave it alone
+        # description: "..." single-line (balanced quotes) — leave alone
+        if re.match(r"^description:\s*", line):
+            stripped = line.rstrip()
+            # Already a complete single-line quoted value
+            if re.match(r'^description:\s*"[^"]*"\s*$', stripped) or re.match(
+                r"^description:\s*'[^']*'\s*$", stripped
+            ):
                 result.append(line)
                 i += 1
-            else:
-                # Multi-line string - collect all lines
-                m = re.match(r"^(description:\s*)['\"](.*)$", line)
-                if m:
-                    value_lines = [m.group(2)]
+                continue
+
+            # Multi-line quoted / unquoted description: gather until next top-level key
+            m = re.match(r"^(description:\s*)(.*)$", line)
+            if m:
+                prefix_rest = m.group(2)
+                value_parts = []
+                if prefix_rest.strip():
+                    value_parts.append(prefix_rest.strip().lstrip("'\""))
+                i += 1
+                while i < len(lines):
+                    next_line = lines[i]
+                    if re.match(r"^[A-Za-z0-9_]+:\s*", next_line):
+                        break
+                    if next_line.strip():
+                        value_parts.append(next_line.strip().rstrip("'\""))
                     i += 1
-
-                    # Collect continuation lines
-                    while i < len(lines):
-                        next_line = lines[i]
-                        # Stop at closing quote or next key
-                        if next_line.rstrip().endswith(("'", '"')):
-                            value_lines.append(next_line.rstrip().rstrip('"\''))
-                            i += 1
-                            break
-                        elif next_line.strip() and not next_line.startswith("  "):
-                            # Next key at top level
-                            break
-                        else:
-                            value_lines.append(next_line.strip())
-                            i += 1
-
-                    # Reconstruct as folded string only if it has colons
-                    full_value = " ".join(value_lines)
-                    if ":" in full_value:
-                        result.append("description: >-")
-                        result.append(f"  {full_value}")
-                    else:
-                        result.append(f"description: {full_value}")
-                    continue
+                full_value = " ".join(value_parts).strip().strip("'\"")
+                escaped = full_value.replace("\\", "\\\\").replace('"', '\\"')
+                result.append(f'description: "{escaped}"')
+                continue
 
         result.append(line)
         i += 1

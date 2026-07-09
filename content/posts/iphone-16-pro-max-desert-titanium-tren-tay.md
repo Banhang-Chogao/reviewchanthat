@@ -13,8 +13,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 09:00:00+07:00'
-description: >-
-  Trên tay iPhone 16 Pro Max Desert Titanium: màu sắc, màn 6.9 inch, Camera Control, 227g và đánh giá tổng thể series màu titan 2024.'
+description: ">- Trên tay iPhone 16 Pro Max Desert Titanium: màu sắc, màn 6.9 inch, Camera Control, 227g và đánh giá tổng thể series màu titan 2024."
 draft: false
 image: images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp
 image_attribution_checked_at: '2026-07-09T15:38:02+07:00'

@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 11:20:00+07:00"
-description: Danh sách Mac tương thích macOS Golden Gate 27 theo Apple, phân tích
-  Mac Intel bị loại, M1 vs M4 và lộ trình cho người dùng Việt Nam.
+description: "Danh sách Mac tương thích macOS Golden Gate 27 theo Apple, phân tích Mac Intel bị loại, M1 vs M4 và lộ trình cho người dùng Việt Nam."
 draft: false
 image: images/posts/macos-27-ho-tro-may-mac-nao.webp
 image_attribution_checked_at: '2026-07-09T15:38:03+07:00'

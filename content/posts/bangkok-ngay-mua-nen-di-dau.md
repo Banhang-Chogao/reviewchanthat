@@ -23,8 +23,7 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, bảo tàng, chợ trong
-  nhà, massage, food tour — kèm lịch trình 2 ngày mùa mưa và cách di chuyển.
+description: "Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, bảo tàng, chợ trong nhà, massage, food tour — kèm lịch trình 2 ngày mùa mưa và cách di chuyển."
 draft: false
 image: images/posts/bangkok-ngay-mua-nen-di-dau.webp
 image_attribution_checked_at: '2026-07-09T10:41:20+07:00'

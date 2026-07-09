@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch
-  trình dự phòng indoor cho chuyến đi không lo mưa.
+description: "Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch trình dự phòng indoor cho chuyến đi không lo mưa."
 draft: false
 faq:
 - answer: Tháng 7 mưa 12–15 ngày, tháng 8 mưa 8–10 ngày. Mưa rào ngắn 1–3 tiếng.

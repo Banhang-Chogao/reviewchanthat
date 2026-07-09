@@ -17,8 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 11:00:00+07:00"
-description: >-
-  Tổng quan macOS Golden Gate 27: Siri AI trong Spotlight, Safari Notify Me, Liquid Glass, Visual Intelligence và timeline beta/public cho người dùng Mac tại Việt Nam.'
+description: ">- Tổng quan macOS Golden Gate 27: Siri AI trong Spotlight, Safari Notify Me, Liquid Glass, Visual Intelligence và timeline beta/public cho người dùng Mac tại Việt Nam."
 draft: false
 image: images/posts/macos-27-co-gi-moi.webp
 image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
