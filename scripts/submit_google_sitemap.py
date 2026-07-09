@@ -59,6 +59,9 @@ def submit_sitemap(site_url: str, sitemap_url: str, credentials_info: dict) -> N
         f"{quote(site_url, safe='')}/sitemaps/{quote(sitemap_url, safe='')}"
     )
     response = session.put(endpoint, timeout=30)
+    if response.status_code == 403:
+        print(f"WARN: Search Console API not enabled (403) — sitemap submission skipped.", file=sys.stderr)
+        return
     if response.status_code not in (200, 204):
         print(f"ERROR: Search Console sitemap submit failed ({response.status_code})", file=sys.stderr)
         print(response.text[:1000], file=sys.stderr)
