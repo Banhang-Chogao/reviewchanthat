@@ -57,6 +57,10 @@ jobs:
       - name: Normalize AI summaries
         run: python scripts/normalize_ai_summaries.py --check
 
+      - name: Auto-fix frontmatter conflicts
+        continue-on-error: true
+        run: python scripts/auto_conflict_remover.py --verbose
+
       - name: Generate Content Direction report
         run: |
           python scripts/content_direction.py \
