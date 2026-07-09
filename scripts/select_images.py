@@ -8,6 +8,7 @@ Provider-cascade image selection for blog posts.
 - Outputs data/image-selection-report.json
 """
 
+import argparse
 import os
 import json
 import sys
@@ -31,6 +32,20 @@ AUDIT_REPORT_PATH = "data/image-audit-report.json"
 IMAGES_MANIFEST_PATH = "data/images.json"
 SELECTION_REPORT_PATH = "data/image-selection-report.json"
 SOURCE_CACHE_PATH = "data/image-source-cache.json"
+SELF_SOURCE_VALUES = {"self", "self-owned"}
+
+
+def is_self_owned_post(post: dict) -> bool:
+    owner = str(post.get("image_owner", "")).strip().lower()
+    source = str(post.get("image_source", "")).strip().lower()
+    return owner == "self" or source in SELF_SOURCE_VALUES
+
+
+def is_self_owned_entry(entry: dict) -> bool:
+    platform = str(entry.get("source_platform", "")).strip().lower()
+    provider = str(entry.get("provider_used", "")).strip().lower()
+    return platform in SELF_SOURCE_VALUES or provider in SELF_SOURCE_VALUES
+
 
 def load_audit():
     if not os.path.exists(AUDIT_REPORT_PATH):
@@ -108,11 +123,32 @@ def rank_candidates(valid_candidates, post, used_urls):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Select stock images with Image Relevance Gate")
+    parser.add_argument(
+        "--refresh-all",
+        action="store_true",
+        help="Re-run gate selection for all external posts (keeps self-owned images)",
+    )
+    parser.add_argument(
+        "--allow-partial",
+        action="store_true",
+        help="Exit 0 even if some posts fail the gate (marks needs_review)",
+    )
+    args = parser.parse_args()
+
     load_dotenv()
-    print("=== Image Selection: Provider Cascade ===")
+    title = "Image Selection: Provider Cascade + Gate"
+    if args.refresh_all:
+        title = "REFRESH ALL: Image Relevance Gate re-selection"
+    print(f"=== {title} ===")
     audit = load_audit()
     manifest = load_manifest()
     source_cache = load_source_cache()
+
+    if args.refresh_all:
+        manifest["posts"] = [e for e in manifest.get("posts", []) if is_self_owned_entry(e)]
+        source_cache = {k: v for k, v in source_cache.items() if is_self_owned_entry(v)}
+
     existing_slugs = {e["slug"] for e in manifest.get("posts", []) if e.get("direct_url")}
     used_urls = {e.get("source_url", "") for e in manifest.get("posts", []) if e.get("source_url")}
 
@@ -141,6 +177,11 @@ def main():
     needs_image = []
     for post in audit.get("posts", []):
         slug = post["slug"]
+        if is_self_owned_post(post):
+            continue
+        if args.refresh_all:
+            needs_image.append(post)
+            continue
         if slug in existing_slugs:
             continue
         img_path = post.get("image", "")
@@ -163,7 +204,10 @@ def main():
     }
 
     if not needs_image:
-        print("All posts already have valid real images.")
+        if args.refresh_all:
+            print("No external posts to refresh (only self-owned or empty audit).")
+        else:
+            print("All posts already have valid real images.")
     else:
         print(f"\nPosts needing real images: {len(needs_image)}")
         for post in needs_image:
@@ -247,7 +291,9 @@ def main():
         print("\nWARNING: Posts remain without verified images. Set image_status=needs_review in frontmatter.")
         for p in selection_report["needs_image"]:
             _mark_needs_review(p["slug"], p.get("reason", "No candidate passed semantic/color/object gate"))
-        sys.exit(1)
+        if not args.allow_partial:
+            sys.exit(1)
+        print("\nPartial refresh completed; some posts marked needs_review.")
 
     print("\nAll posts have real images selected.")
 

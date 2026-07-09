@@ -229,6 +229,11 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Download and process verified stock images")
+    parser.add_argument("--force", action="store_true", help="Re-download and reprocess existing images")
+    args = parser.parse_args()
+
     print("=== Image Processing (Real Images Only) ===")
     manifest = load_manifest()
     success = 0
@@ -263,7 +268,7 @@ def main():
             failed += 1
             continue
 
-        if os.path.exists(dest_path):
+        if os.path.exists(dest_path) and not args.force:
             fsize = os.path.getsize(dest_path)
             if fsize > 5000 and not has_placeholder_characteristics(dest_path):
                 print(f"    Already processed (real image): {dest_path} ({fsize} bytes)")
@@ -292,6 +297,12 @@ def main():
                 continue
             else:
                 print(f"    Replacing existing file ({fsize} bytes)")
+
+        if args.force:
+            for path in (dest_path, src_path):
+                if os.path.exists(path):
+                    os.remove(path)
+                    print(f"    Force refresh: removed {path}")
 
         if not os.path.exists(src_path):
             print(f"    Downloading source image...")
