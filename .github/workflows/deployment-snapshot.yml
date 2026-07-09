@@ -81,7 +81,7 @@ jobs:
       - name: Create PR branch
         if: steps.check.outputs.changed == 'true'
         run: |
-          BRANCH="automation/deployment-snapshot-${{ github.run_id }}"
+          BRANCH="ci/deployment-snapshot-${{ github.run_id }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
