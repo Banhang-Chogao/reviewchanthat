@@ -5,15 +5,20 @@ import hashlib
 import json
 import os
 import re
+import sys
 import textwrap
 
 import frontmatter
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib.dates import today_vietnam_date
 
 ROOT = os.path.dirname(os.path.dirname(__file__))
 POSTS_DIR = os.path.join(ROOT, "content", "posts")
 SERIES_JSON = os.path.join(ROOT, "data", "series.json")
 MANIFEST_JSON = os.path.join(ROOT, "data", "images.json")
-DATE_BASE = "2026-07-08"
+# Real day in Hồ Chí Minh time (GMT+7); override via SERIES_DATE_BASE to reproduce an older run.
+DATE_BASE = os.environ.get("SERIES_DATE_BASE", today_vietnam_date())
 AUTHOR = "Minh Hoàng"
 AVATAR = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 DISCLAIMER = (

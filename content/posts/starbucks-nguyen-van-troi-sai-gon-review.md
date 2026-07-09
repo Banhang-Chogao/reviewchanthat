@@ -21,7 +21,7 @@ author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
-date: 2026-07-08 15:00:00+07:00
+date: "2026-07-09 08:00:00+07:00"
 description: Review Starbucks Nguyễn Văn Trỗi Phú Nhuận — nhân viên nhiệt tình, đồ
   uống pha ngon, không gian thoải mái. Ảnh chụp thực tế kèm theo.
 draft: false

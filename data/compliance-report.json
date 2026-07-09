@@ -1,17 +1,9 @@
 {
   "summary": {
     "files_scanned": 149,
-    "errors": 1,
+    "errors": 0,
     "warnings": 0,
     "fixed": 0
   },
-  "issues": [
-    {
-      "severity": "ERROR",
-      "code": "FUTURE_DATE",
-      "file": "content/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.md",
-      "message": "date is in the future (VN): 2026-07-09 18:00:00+07:00",
-      "suggestion": ""
-    }
-  ]
+  "issues": []
 }

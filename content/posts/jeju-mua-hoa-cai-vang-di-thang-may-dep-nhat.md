@@ -14,7 +14,7 @@ attribution:
 author: Minh Hoàng
 categories:
 - du-lich
-date: "2026-07-08 18:00:00+07:00"
+date: "2026-07-09 10:00:00+07:00"
 description: Jeju mùa hoa cải vàng nên đi tháng mấy? Gợi ý thời điểm cuối tháng 3 đến đầu tháng 4, điểm ngắm đẹp, lễ hội 2026 và lịch trình thực tế.
 draft: false
 image_status: verified

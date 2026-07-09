@@ -4,16 +4,23 @@
 import hashlib
 import json
 import os
+import sys
 import textwrap
 
 import frontmatter
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib.dates import today_vietnam_date
 
 ROOT = os.path.dirname(os.path.dirname(__file__))
 POSTS_DIR = os.path.join(ROOT, "content", "posts")
 SERIES_JSON = os.path.join(ROOT, "data", "series.json")
 MANIFEST_JSON = os.path.join(ROOT, "data", "images.json")
-DATE_BASE_S1 = "2026-07-08"
-DATE_BASE_S2 = "2026-07-08"
+# Publish date must be the real day in Hồ Chí Minh time (GMT+7), never a
+# hardcoded/UTC day — otherwise new posts get stamped a day behind. Override via
+# the SERIES_DATE_BASE env var only for reproducing an older run.
+DATE_BASE_S1 = os.environ.get("SERIES_DATE_BASE", today_vietnam_date())
+DATE_BASE_S2 = DATE_BASE_S1
 AUTHOR = "Minh Hoàng"
 AVATAR = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 DISCLAIMER = (
