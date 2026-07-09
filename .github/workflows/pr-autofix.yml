@@ -34,28 +34,33 @@ jobs:
     steps:
       - name: Resolve PR and branch
         id: resolve
+        env:
+          # This step runs before checkout, so gh has no git remote to infer
+          # the repository from — point it at this repo explicitly.
+          GH_REPO: ${{ github.repository }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             PR_NUM=${{ inputs.pr_number }}
-            BRANCH=$(gh pr view "$PR_NUM" --json headRefName --jq '.headRefName' 2>/dev/null)
+            BRANCH=$(gh pr view "$PR_NUM" --json headRefName --jq '.headRefName' || true)
           else
             BRANCH="${{ github.event.workflow_run.head_branch }}"
-            PR_NUM=$(gh pr list --head "$BRANCH" --state OPEN --json number --jq '.[0].number // empty' 2>/dev/null)
+            PR_NUM=$(gh pr list --head "$BRANCH" --state OPEN --json number --jq '.[0].number // empty' || true)
           fi
 
-          echo "pr=$PR_NUM"
-          echo "branch=$BRANCH"
+          echo "pr=$PR_NUM" >> "$GITHUB_OUTPUT"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+          echo "Resolved PR #$PR_NUM branch=$BRANCH"
 
           if [ -z "$PR_NUM" ] || [ -z "$BRANCH" ]; then
-            echo "action=skip"
+            echo "action=skip" >> "$GITHUB_OUTPUT"
             echo "reason=no matching open PR or invalid branch"
             exit 0
           fi
 
-          AUTHOR=$(gh pr view "$PR_NUM" --json author --jq '.author.login' 2>/dev/null)
+          AUTHOR=$(gh pr view "$PR_NUM" --json author --jq '.author.login' || true)
           # Skip if author is bot (already tried autofix)
           if [ "$AUTHOR" = "github-actions[bot]" ]; then
-            echo "action=skip"
+            echo "action=skip" >> "$GITHUB_OUTPUT"
             echo "reason=PR author is bot — avoid loop"
             exit 0
           fi
@@ -63,7 +68,7 @@ jobs:
           case "$BRANCH" in
             content/*|fix/*|autofix/*|ci/*) echo "action=fix" ;;
             *) echo "action=skip" ; echo "reason=untrusted branch: $BRANCH" ;;
-          esac
+          esac >> "$GITHUB_OUTPUT"
 
       - name: Checkout PR branch
         if: steps.resolve.outputs.action == 'fix'
