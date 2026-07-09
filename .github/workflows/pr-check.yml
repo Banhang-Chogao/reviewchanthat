@@ -63,6 +63,3 @@ jobs:
 
       - name: Link audit
         run: python scripts/audit_links.py || true
-
-      - name: Build search index
-        run: python scripts/build_search_index.py
