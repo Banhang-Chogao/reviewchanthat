@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-10T00:56:50+07:00",
-  "generated_at_display": "10-07-2026 00:56:50",
+  "generated_at": "2026-07-10T00:58:22+07:00",
+  "generated_at_display": "10-07-2026 00:58:22",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 27,
-    "safe_autofixes_available": 27,
+    "failed_runs_scanned": 28,
+    "safe_autofixes_available": 28,
     "unsafe_external_failures": 0,
     "open_action_items": 8,
-    "loop_guarded_attempts": 4,
+    "loop_guarded_attempts": 5,
     "by_type": {
       "workflow_fanout": 18,
+      "qa_expectation_mismatch": 5,
       "ai_summary_map_artifact": 4,
-      "qa_expectation_mismatch": 4,
       "sitemap_noindex_mismatch": 1
     }
   },
@@ -59,6 +59,16 @@
       "safe_to_autofix": true,
       "action": "Run normalize_ai_summaries.py --fix.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29036927490"
+    },
+    {
+      "run_id": "29038801885",
+      "workflow": "Content Direction",
+      "commit": "9943f40",
+      "status": "failure",
+      "rootcause": "qa_expectation_mismatch",
+      "safe_to_autofix": true,
+      "action": "Align QA with product rules.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29038801885"
     },
     {
       "run_id": "29037940576",
@@ -405,6 +415,12 @@
     "qa_debt": [
       {
         "failure_type": "qa_expectation_mismatch",
+        "run_id": "29038801885",
+        "rootcause": "QA expects a footer/product element that product intentionally removed.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "qa_expectation_mismatch",
         "run_id": "29037940576",
         "rootcause": "QA expects a footer/product element that product intentionally removed.",
         "safe_to_autofix": true
@@ -673,15 +689,15 @@
     {
       "run_id": "29037370687",
       "failure_type": "ai_summary_map_artifact",
-      "result": "skipped",
-      "detail": "normalize_ai_summaries exit=0",
-      "script": "fix_ai_summary_map"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 7abfd3771b9b:ai_summary_map_artifact already attempted 2 times"
     },
     {
       "run_id": "29037283760",
       "failure_type": "ai_summary_map_artifact",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "normalize_ai_summaries exit=0",
+      "script": "fix_ai_summary_map"
     },
     {
       "run_id": "29037071903",
@@ -692,6 +708,12 @@
     {
       "run_id": "29036927490",
       "failure_type": "ai_summary_map_artifact",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29038801885",
+      "failure_type": "qa_expectation_mismatch",
       "result": "skipped",
       "detail": "no script or already attempted this run"
     },
@@ -722,9 +744,8 @@
     {
       "run_id": "29037413368",
       "failure_type": "sitemap_noindex_mismatch",
-      "result": "skipped",
-      "detail": "posts-only sitemap already in place",
-      "script": "fix_sitemap_noindex"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 7abfd3771b9b:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
       "run_id": "29038608221",
@@ -732,6 +753,108 @@
       "result": "skipped",
       "detail": "paths-ignore already present",
       "script": "fix_workflow_fanout"
+    },
+    {
+      "run_id": "29038608122",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29037322252",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29037120370",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036968579",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036365638",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036365541",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036365396",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036365316",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036365241",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036365197",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036365184",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036055215",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036055172",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29036054848",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29035173921",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29035173711",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29035173564",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
     }
   ],
   "loop_guarded": [
@@ -757,6 +880,12 @@
       "key": "7abfd3771b9b:sitemap_noindex_mismatch",
       "count": 2,
       "last_attempt_at": "2026-07-10T00:56:50+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "bfc5dec17670:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T00:58:22+07:00",
       "last_result": "skipped"
     }
   ],
