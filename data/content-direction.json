@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-10T04:30:42+07:00",
-  "generated_at_display": "10-07-2026 04:30:42",
+  "generated_at": "2026-07-10T04:54:50+07:00",
+  "generated_at_display": "10-07-2026 04:54:50",
   "summary": {
-    "total_posts": 157,
+    "total_posts": 168,
     "draft_posts": 0,
-    "total_words": 190334,
-    "average_words_per_post": 1212,
+    "total_words": 192980,
+    "average_words_per_post": 1149,
     "categories_count": 5,
-    "tags_count": 396,
+    "tags_count": 425,
     "authors_count": 1,
     "parse_warnings": 0
   },
@@ -18,7 +18,7 @@
     },
     {
       "name": "cong-nghe",
-      "count": 62
+      "count": 73
     },
     {
       "name": "review",
@@ -36,7 +36,7 @@
   "authors": [
     {
       "name": "Minh Hoàng",
-      "count": 157
+      "count": 168
     }
   ],
   "tags_top": [
@@ -51,6 +51,10 @@
     {
       "name": "Seoul",
       "count": 15
+    },
+    {
+      "name": "CI/CD",
+      "count": 12
     },
     {
       "name": "Jeju",
@@ -93,6 +97,10 @@
       "count": 9
     },
     {
+      "name": "GitHub Actions",
+      "count": 8
+    },
+    {
       "name": "Siri AI",
       "count": 8
     },
@@ -111,21 +119,13 @@
     {
       "name": "series trượt tuyết",
       "count": 7
-    },
-    {
-      "name": "App Store",
-      "count": 7
-    },
-    {
-      "name": "Haeundae",
-      "count": 7
     }
   ],
   "time": {
     "oldest": "2026-06-15T10:00:00+07:00",
     "oldest_display": "15-06-2026 10:00:00",
-    "newest": "2026-07-09T23:30:00+07:00",
-    "newest_display": "09-07-2026 23:30:00"
+    "newest": "2026-07-10T11:50:00+07:00",
+    "newest_display": "10-07-2026 11:50:00"
   },
   "seo": {
     "title_too_short": [],
@@ -154,6 +154,11 @@
         "slug": "bangkok-ngay-mua-nen-di-dau",
         "title": "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour",
         "length": 76
+      },
+      {
+        "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
+        "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
+        "length": 74
       },
       {
         "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
@@ -226,6 +231,11 @@
         "length": 70
       },
       {
+        "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
+        "title": "CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages",
+        "length": 81
+      },
+      {
         "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
         "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
         "length": 77
@@ -239,6 +249,11 @@
         "slug": "co-nen-len-ios-26-5-2-khong",
         "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì",
         "length": 68
+      },
+      {
+        "slug": "content-direction-empty-report-va-optimizer-frontmatter",
+        "title": "Content Direction empty report và optimizer fail vì front matter",
+        "length": 64
       },
       {
         "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
@@ -331,6 +346,16 @@
         "length": 117
       },
       {
+        "slug": "github-api-va-pages-rate-limit-cach-doc-va-giam-tai",
+        "title": "GitHub API rate limit và Pages rate limit: đọc log, backoff, giảm fan-out",
+        "length": 73
+      },
+      {
+        "slug": "github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code",
+        "title": "Runner capacity delay và platform incident: khi job đỏ không phải vì bug code",
+        "length": 77
+      },
+      {
         "slug": "goi-y-du-lich-han-quoc-thang-7-2026",
         "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
         "length": 83
@@ -369,6 +394,16 @@
         "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
         "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
         "length": 79
+      },
+      {
+        "slug": "hugo-build-duplicate-yaml-ai-summary-va-template-regression",
+        "title": "Hugo build error: duplicate YAML, ai_summary map[], template regression và deploy không complete",
+        "length": 96
+      },
+      {
+        "slug": "image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url",
+        "title": "Image pipeline: hero thiếu, self-owned direct_url, creator rỗng hợp lệ và creator giả",
+        "length": 85
       },
       {
         "slug": "ios-27-apple-intelligence-iphone-cu",
@@ -491,6 +526,11 @@
         "length": 65
       },
       {
+        "slug": "live-deploy-khong-phan-anh-va-pages-serving-old-artifact",
+        "title": "Live deploy không phản ánh: build-info.json và GitHub Pages serving old artifact",
+        "length": 80
+      },
+      {
         "slug": "macos-27-apple-intelligence-macbook",
         "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
         "length": 70
@@ -559,6 +599,11 @@
         "slug": "phuket-mua-mua-co-nen-di-khong",
         "title": "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn",
         "length": 76
+      },
+      {
+        "slug": "post-date-timezone-vietnam-gmt7-tranh-stale-date",
+        "title": "Post date timezone Việt Nam (GMT+7): tránh stale_date và lệch homepage",
+        "length": 70
       },
       {
         "slug": "seoraksan-thang-10-ngam-la-do",
@@ -681,6 +726,11 @@
         "length": 95
       },
       {
+        "slug": "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress",
+        "title": "Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix",
+        "length": 81
+      },
+      {
         "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
         "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
         "length": 82
@@ -710,6 +760,26 @@
     "description_too_short": [],
     "description_too_long": [
       {
+        "slug": "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
+        "title": "Baseline debt chặn deploy và QA scope: chỉ bắt tính năng mới",
+        "length": 178
+      },
+      {
+        "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
+        "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
+        "length": 177
+      },
+      {
+        "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
+        "title": "CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages",
+        "length": 191
+      },
+      {
+        "slug": "content-direction-empty-report-va-optimizer-frontmatter",
+        "title": "Content Direction empty report và optimizer fail vì front matter",
+        "length": 174
+      },
+      {
         "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
         "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm",
         "length": 177
@@ -723,6 +793,21 @@
         "slug": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
         "title": "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD",
         "length": 209
+      },
+      {
+        "slug": "github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code",
+        "title": "Runner capacity delay và platform incident: khi job đỏ không phải vì bug code",
+        "length": 166
+      },
+      {
+        "slug": "hugo-build-duplicate-yaml-ai-summary-va-template-regression",
+        "title": "Hugo build error: duplicate YAML, ai_summary map[], template regression và deploy không complete",
+        "length": 187
+      },
+      {
+        "slug": "image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url",
+        "title": "Image pipeline: hero thiếu, self-owned direct_url, creator rỗng hợp lệ và creator giả",
+        "length": 167
       },
       {
         "slug": "iphone-18-dynamic-island-nho-hon-under-display-face-id",
@@ -743,6 +828,11 @@
         "slug": "iphone-fold-iphone-ultra-la-gi",
         "title": "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?",
         "length": 169
+      },
+      {
+        "slug": "live-deploy-khong-phan-anh-va-pages-serving-old-artifact",
+        "title": "Live deploy không phản ánh: build-info.json và GitHub Pages serving old artifact",
+        "length": 161
       },
       {
         "slug": "macos-27-co-gi-moi",
@@ -873,6 +963,18 @@
         ]
       },
       {
+        "slug": "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
         "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
         "stop_words": [
           "va"
@@ -969,6 +1071,12 @@
         ]
       },
       {
+        "slug": "content-direction-empty-report-va-optimizer-frontmatter",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
         "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "stop_words": [
           "mot",
@@ -1044,6 +1152,18 @@
         ]
       },
       {
+        "slug": "github-api-va-pages-rate-limit-cach-doc-va-giam-tai",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
         "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
         "stop_words": [
           "de",
@@ -1083,6 +1203,18 @@
         "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
         "stop_words": [
           "cho"
+        ]
+      },
+      {
+        "slug": "hugo-build-duplicate-yaml-ai-summary-va-template-regression",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url",
+        "stop_words": [
+          "va"
         ]
       },
       {
@@ -1181,6 +1313,12 @@
         "slug": "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau",
         "stop_words": [
           "cho"
+        ]
+      },
+      {
+        "slug": "live-deploy-khong-phan-anh-va-pages-serving-old-artifact",
+        "stop_words": [
+          "va"
         ]
       },
       {
@@ -1392,6 +1530,12 @@
         ]
       },
       {
+        "slug": "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
         "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
         "stop_words": [
           "nhung",
@@ -1423,7 +1567,7 @@
     ]
   },
   "freshness": {
-    "average_age_days": 2,
+    "average_age_days": 1,
     "old_posts_over_365_days": [],
     "new_posts_under_30_days": [
       {
@@ -1467,6 +1611,18 @@
         "title": "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour",
         "age_days": 1,
         "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
+        "title": "Baseline debt chặn deploy và QA scope: chỉ bắt tính năng mới",
+        "age_days": -1,
+        "date": "10-07-2026 11:20:00"
+      },
+      {
+        "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
+        "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
+        "age_days": -1,
+        "date": "10-07-2026 11:45:00"
       },
       {
         "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
@@ -1595,6 +1751,12 @@
         "date": "08-07-2026 13:40:00"
       },
       {
+        "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
+        "title": "CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages",
+        "age_days": -1,
+        "date": "10-07-2026 11:00:00"
+      },
+      {
         "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
         "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
         "age_days": 1,
@@ -1611,6 +1773,12 @@
         "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì",
         "age_days": 0,
         "date": "09-07-2026 17:30:00"
+      },
+      {
+        "slug": "content-direction-empty-report-va-optimizer-frontmatter",
+        "title": "Content Direction empty report và optimizer fail vì front matter",
+        "age_days": -1,
+        "date": "10-07-2026 11:35:00"
       },
       {
         "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
@@ -1745,6 +1913,18 @@
         "date": "09-07-2026 20:21:28"
       },
       {
+        "slug": "github-api-va-pages-rate-limit-cach-doc-va-giam-tai",
+        "title": "GitHub API rate limit và Pages rate limit: đọc log, backoff, giảm fan-out",
+        "age_days": -1,
+        "date": "10-07-2026 11:10:00"
+      },
+      {
+        "slug": "github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code",
+        "title": "Runner capacity delay và platform incident: khi job đỏ không phải vì bug code",
+        "age_days": -1,
+        "date": "10-07-2026 11:05:00"
+      },
+      {
         "slug": "goi-y-du-lich-han-quoc-thang-7-2026",
         "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
         "age_days": 0,
@@ -1797,6 +1977,18 @@
         "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
         "age_days": 1,
         "date": "08-07-2026 09:10:00"
+      },
+      {
+        "slug": "hugo-build-duplicate-yaml-ai-summary-va-template-regression",
+        "title": "Hugo build error: duplicate YAML, ai_summary map[], template regression và deploy không complete",
+        "age_days": -1,
+        "date": "10-07-2026 11:50:00"
+      },
+      {
+        "slug": "image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url",
+        "title": "Image pipeline: hero thiếu, self-owned direct_url, creator rỗng hợp lệ và creator giả",
+        "age_days": -1,
+        "date": "10-07-2026 11:25:00"
       },
       {
         "slug": "ios-27-apple-intelligence-iphone-cu",
@@ -2039,6 +2231,12 @@
         "date": "08-07-2026 10:00:00"
       },
       {
+        "slug": "live-deploy-khong-phan-anh-va-pages-serving-old-artifact",
+        "title": "Live deploy không phản ánh: build-info.json và GitHub Pages serving old artifact",
+        "age_days": -1,
+        "date": "10-07-2026 11:40:00"
+      },
+      {
         "slug": "macos-27-apple-intelligence-macbook",
         "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
         "age_days": 1,
@@ -2157,6 +2355,12 @@
         "title": "Pin iPhone 16 Pro Max có đáng chọn?",
         "age_days": 1,
         "date": "08-07-2026 11:00:00"
+      },
+      {
+        "slug": "post-date-timezone-vietnam-gmt7-tranh-stale-date",
+        "title": "Post date timezone Việt Nam (GMT+7): tránh stale_date và lệch homepage",
+        "age_days": -1,
+        "date": "10-07-2026 11:30:00"
       },
       {
         "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
@@ -2339,6 +2543,12 @@
         "date": "09-07-2026 14:45:00"
       },
       {
+        "slug": "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress",
+        "title": "Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix",
+        "age_days": -1,
+        "date": "10-07-2026 11:15:00"
+      },
+      {
         "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
         "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
         "age_days": 2,
@@ -2371,8 +2581,8 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1463,
-    "average_outbound_per_post": 9.32,
+    "total_outbound_links": 1498,
+    "average_outbound_per_post": 8.92,
     "top_linked_posts": [
       {
         "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
@@ -2431,10 +2641,6 @@
         "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
       },
       {
-        "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
-        "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm"
-      },
-      {
         "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
         "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
       },
@@ -2478,11 +2684,19 @@
   ],
   "action_items": [
     {
+      "priority": "P0",
+      "type": "Content",
+      "title": "Mở rộng thin posts",
+      "detail": "10 bài dưới 300 từ.",
+      "affected_count": 10,
+      "suggested_fix": "Bổ sung nội dung thực tế, so sánh, FAQ nếu phù hợp."
+    },
+    {
       "priority": "P1",
       "type": "Internal Linking",
       "title": "Giảm orphan posts (không có inbound)",
-      "detail": "4 bài không nhận internal link.",
-      "affected_count": 4,
+      "detail": "3 bài không nhận internal link.",
+      "affected_count": 3,
       "suggested_fix": "Link tới orphan từ bài hub/pillar cùng cluster."
     },
     {
@@ -2497,16 +2711,16 @@
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài meta description",
-      "detail": "0 quá ngắn, 16 quá dài (chuẩn 50–160).",
-      "affected_count": 16,
+      "detail": "0 quá ngắn, 24 quá dài (chuẩn 50–160).",
+      "affected_count": 24,
       "suggested_fix": "Chỉnh description về 50–160 ký tự."
     },
     {
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài title tag",
-      "detail": "0 title quá ngắn, 115 title quá dài (chuẩn 30–60 ký tự).",
-      "affected_count": 115,
+      "detail": "0 title quá ngắn, 125 title quá dài (chuẩn 30–60 ký tự).",
+      "affected_count": 125,
       "suggested_fix": "Rút gọn/mở rộng title về 30–60 ký tự, giữ keyword đầu."
     },
     {
@@ -2529,8 +2743,8 @@
       "priority": "P2",
       "type": "SEO",
       "title": "Slug chứa stop words (report-only)",
-      "detail": "87 slug chứa stop words tiếng Việt.",
-      "affected_count": 87,
+      "detail": "96 slug chứa stop words tiếng Việt.",
+      "affected_count": 96,
       "suggested_fix": "Ghi nhận; chỉ đổi slug khi refactor có redirect."
     }
   ],
