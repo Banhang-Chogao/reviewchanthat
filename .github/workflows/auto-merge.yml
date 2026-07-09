@@ -31,9 +31,9 @@ jobs:
         id: pr
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "number=${{ inputs.pr_number }}"
+            echo "number=${{ inputs.pr_number }}" >> "$GITHUB_OUTPUT"
           else
-            echo "number=${{ github.event.number }}"
+            echo "number=${{ github.event.number }}" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Evaluate PR eligibility
@@ -41,7 +41,10 @@ jobs:
         shell: bash
         run: |
           PR=${{ steps.pr.outputs.number }}
-          DATA=$(gh pr view "$PR" --json headRefName,author,state,mergeable,labels,isCrossRepository 2>/dev/null)
+          if ! DATA=$(gh pr view "$PR" --json headRefName,author,state,mergeable,labels,isCrossRepository); then
+            echo "::error::Failed to fetch PR #$PR"
+            exit 1
+          fi
 
           BRANCH=$(echo "$DATA" | jq -r '.headRefName')
           AUTHOR=$(echo "$DATA" | jq -r '.author.login')
