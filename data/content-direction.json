@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-10T00:03:58+07:00",
-  "generated_at_display": "10-07-2026 00:03:58",
+  "generated_at": "2026-07-10T03:45:27+07:00",
+  "generated_at_display": "10-07-2026 03:45:27",
   "summary": {
     "total_posts": 157,
     "draft_posts": 0,
     "total_words": 190334,
     "average_words_per_post": 1212,
     "categories_count": 5,
-    "tags_count": 399,
+    "tags_count": 396,
     "authors_count": 1,
     "parse_warnings": 0
   },
@@ -46,22 +46,18 @@
     },
     {
       "name": "du lịch Hàn Quốc",
-      "count": 47
+      "count": 46
     },
     {
       "name": "Seoul",
-      "count": 16
-    },
-    {
-      "name": "Hàn Quốc mùa hè",
-      "count": 13
+      "count": 15
     },
     {
       "name": "Jeju",
-      "count": 13
+      "count": 12
     },
     {
-      "name": "Busan",
+      "name": "Hàn Quốc mùa hè",
       "count": 12
     },
     {
@@ -69,8 +65,8 @@
       "count": 11
     },
     {
-      "name": "tin đồn iPhone",
-      "count": 10
+      "name": "Busan",
+      "count": 11
     },
     {
       "name": "macOS 27",
@@ -93,16 +89,12 @@
       "count": 9
     },
     {
-      "name": "iPhone 18",
-      "count": 8
+      "name": "tin đồn iPhone",
+      "count": 9
     },
     {
       "name": "Siri AI",
       "count": 8
-    },
-    {
-      "name": "biển Hàn Quốc",
-      "count": 7
     },
     {
       "name": "trượt tuyết Hàn Quốc",
@@ -118,6 +110,14 @@
     },
     {
       "name": "series trượt tuyết",
+      "count": 7
+    },
+    {
+      "name": "App Store",
+      "count": 7
+    },
+    {
+      "name": "Haeundae",
       "count": 7
     }
   ],
@@ -710,48 +710,8 @@
     "description_too_short": [],
     "description_too_long": [
       {
-        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
-        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
-        "length": 166
-      },
-      {
-        "slug": "apple-vs-ec-dma-tuong-lai-iphone",
-        "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
-        "length": 180
-      },
-      {
-        "slug": "camera-iphone-18-co-gi-moi",
-        "title": "Camera iPhone 18 có gì mới? Selfie 24MP, variable aperture và kỳ vọng chụp ảnh",
-        "length": 167
-      },
-      {
-        "slug": "co-nen-cho-iphone-18-khong",
-        "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
-        "length": 161
-      },
-      {
         "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
         "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm",
-        "length": 177
-      },
-      {
-        "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
-        "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?",
-        "length": 231
-      },
-      {
-        "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
-        "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
-        "length": 165
-      },
-      {
-        "slug": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
-        "title": "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu",
-        "length": 183
-      },
-      {
-        "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
-        "title": "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu",
         "length": 177
       },
       {
@@ -763,16 +723,6 @@
         "slug": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
         "title": "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD",
         "length": 209
-      },
-      {
-        "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
-        "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
-        "length": 169
-      },
-      {
-        "slug": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
-        "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
-        "length": 163
       },
       {
         "slug": "iphone-18-dynamic-island-nho-hon-under-display-face-id",
@@ -2421,58 +2371,58 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1452,
-    "average_outbound_per_post": 9.25,
+    "total_outbound_links": 1478,
+    "average_outbound_per_post": 9.41,
     "top_linked_posts": [
-      {
-        "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
-        "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
-        "inbound": 34
-      },
       {
         "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
-        "inbound": 32
-      },
-      {
-        "slug": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
-        "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
-        "inbound": 29
-      },
-      {
-        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
-        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
-        "inbound": 27
+        "inbound": 34
       },
       {
         "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
-        "inbound": 26
+        "inbound": 27
       },
       {
-        "slug": "thoi-tiet-han-quoc-thang-10",
-        "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
-        "inbound": 23
+        "slug": "camera-control-iphone-16-pro-max-co-tien-khong",
+        "title": "Camera Control iPhone 16 Pro Max có tiện không?",
+        "inbound": 24
       },
       {
-        "slug": "di-han-thang-10-mac-gi",
-        "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
+        "slug": "han-quoc-thang-10-co-la-do-chua",
+        "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "inbound": 22
+      },
+      {
+        "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
+        "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
+        "inbound": 21
       },
       {
         "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
-        "inbound": 18
+        "inbound": 21
       },
       {
-        "slug": "seoraksan-thang-10-ngam-la-do",
-        "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
-        "inbound": 18
+        "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
+        "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
+        "inbound": 20
+      },
+      {
+        "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
+        "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
+        "inbound": 19
+      },
+      {
+        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "inbound": 19
       },
       {
         "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
-        "inbound": 17
+        "inbound": 19
       }
     ],
     "orphan_posts": [
@@ -2547,8 +2497,8 @@
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài meta description",
-      "detail": "0 quá ngắn, 26 quá dài (chuẩn 50–160).",
-      "affected_count": 26,
+      "detail": "0 quá ngắn, 16 quá dài (chuẩn 50–160).",
+      "affected_count": 16,
       "suggested_fix": "Chỉnh description về 50–160 ký tự."
     },
     {
