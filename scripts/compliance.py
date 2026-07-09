@@ -16,9 +16,11 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 import tempfile
 from dataclasses import asdict, dataclass, field
+from datetime import date as date_cls
 from datetime import datetime, timezone
 from typing import Any
 from urllib.parse import urlparse
@@ -30,6 +32,7 @@ except ImportError:
     sys.exit(2)
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib.dates import VN_TZ, vietnam_date_of
 from creator_policy import is_blocked_creator
 from image_gate_policy import (
     gate_score_passes,
@@ -211,19 +214,112 @@ def parse_date(value: Any) -> datetime | None:
     if not text:
         return None
     text = text.replace("Z", "+00:00")
-    for fmt in ("%Y-%m-%d %H:%M:%S%z", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d"):
-        try:
-            dt = datetime.strptime(text[:19] if "%" in fmt and len(text) > 19 else text[:10] if fmt == "%Y-%m-%d" else text, fmt)
-            if dt.tzinfo is None:
-                return dt.replace(tzinfo=timezone.utc)
-            return dt
-        except ValueError:
-            continue
-    return None
+    dt: datetime | None = None
+    # ISO 8601 first so an explicit offset (e.g. +07:00) is preserved, not truncated.
+    try:
+        dt = datetime.fromisoformat(text)
+    except ValueError:
+        for fmt in ("%Y-%m-%d %H:%M:%S%z", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d"):
+            try:
+                dt = datetime.strptime(text, fmt)
+                break
+            except ValueError:
+                continue
+    if dt is None:
+        return None
+    # A date without an offset is interpreted in Vietnam time (this is a VN blog),
+    # never UTC, so the calendar day it maps to is the intended publish day.
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=VN_TZ)
+    return dt
 
 
 def word_count(text: str) -> int:
     return len(re.findall(r"\b\w+\b", text, flags=re.UNICODE))
+
+
+_OFFSET_RE = re.compile(r"([+-]\d{2}:?\d{2}|Z)\s*$")
+
+
+def has_explicit_offset(raw: Any) -> bool:
+    """True if a front-matter date string carries an explicit timezone offset.
+
+    A bare ``2026-07-08`` or a naive datetime is ambiguous — depending on the tool
+    it is read as UTC and can land a post on the wrong Vietnam calendar day.
+    """
+    text = clean_text(str(raw))
+    return bool(_OFFSET_RE.search(text))
+
+
+def _git_output(*args: str) -> str | None:
+    try:
+        result = subprocess.run(
+            ["git", "-C", ROOT, *args],
+            capture_output=True,
+            text=True,
+            timeout=15,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return None
+    if result.returncode != 0:
+        return None
+    return result.stdout
+
+
+_ADDED_POST_DAYS: dict[str, date_cls] | None = None
+
+
+def added_post_reference_days() -> dict[str, date_cls]:
+    """Map of newly-added post path -> the VN calendar day it was actually created.
+
+    "Newly added" means added in the working tree/index (pre-commit) or in the HEAD
+    commit (CI/PR, works even on a shallow depth-1 checkout). The reference day is
+    "today" for uncommitted files and the HEAD author day for committed ones. Used
+    to catch a brand-new post whose front-matter date was stamped a day earlier due
+    to a UTC clock. Returns ``{}`` when git data is unavailable — never a false fail.
+    """
+    global _ADDED_POST_DAYS
+    if _ADDED_POST_DAYS is not None:
+        return _ADDED_POST_DAYS
+
+    result: dict[str, date_cls] = {}
+    today = vietnam_date_of(datetime.now(VN_TZ))
+
+    # Uncommitted additions (staged 'A' or untracked '??') — the pre-commit path.
+    porcelain = _git_output("status", "--porcelain", "--", "content/posts")
+    if porcelain:
+        for line in porcelain.splitlines():
+            if len(line) < 4:
+                continue
+            status, path = line[:2], line[3:].strip().strip('"')
+            if path.endswith(".md") and ("A" in status or "?" in status):
+                result[path] = today
+
+    # Additions in the HEAD commit — the CI/PR path.
+    head_date = _git_output("show", "-s", "--format=%aI", "HEAD")
+    head_files = _git_output("show", "--name-status", "--format=", "HEAD")
+    if head_date and head_files:
+        try:
+            head_day = vietnam_date_of(datetime.fromisoformat(head_date.strip()))
+        except ValueError:
+            head_day = None
+        if head_day:
+            added_md_files = 0
+            for line in head_files.splitlines():
+                parts = line.split("\t")
+                if len(parts) >= 2 and parts[0].startswith("A"):
+                    path = parts[-1].strip().strip('"')
+                    if path.endswith(".md"):
+                        result.setdefault(path, head_day)
+                        added_md_files += 1
+            # Shallow clone (--depth=1) on a merge commit can show ALL files as
+            # "A" because there's no parent history. Bail to avoid false STALE_DATE
+            # failures on existing posts. A real PR never adds dozens of posts.
+            if added_md_files > 10:
+                result.clear()
+
+    _ADDED_POST_DAYS = result
+    return result
 
 
 class ComplianceChecker:
@@ -394,6 +490,10 @@ class ComplianceChecker:
         if description and len(description) < 40:
             self.add_issue("WARN", "DESCRIPTION_TOO_SHORT", rel, "Description is short for SEO")
 
+        rel_posix = rel.replace(os.sep, "/")
+        is_post = "content/posts/" in rel_posix
+        today_vn = vietnam_date_of(datetime.now(VN_TZ))
+        created_vn = added_post_reference_days().get(rel_posix)
         for date_field in ("date", "lastmod", "updated"):
             raw = meta.get(date_field)
             if not raw:
@@ -405,9 +505,35 @@ class ComplianceChecker:
             day = dt.strftime("%Y-%m-%d")
             if day in DATE_PLACEHOLDERS or day.startswith("2099") or day.startswith("1970"):
                 self.add_issue("ERROR", "PLACEHOLDER_DATE", rel, f"{date_field} looks like placeholder: {day}")
-            now = datetime.now(timezone.utc)
-            if dt.astimezone(timezone.utc) > now:
-                self.add_issue("ERROR", "FUTURE_DATE", rel, f"{date_field} is in the future: {raw}")
+            # Publish dates must carry an explicit +07:00 offset so they can never be
+            # read as UTC and land on the wrong Vietnam day.
+            if is_post and not has_explicit_offset(raw):
+                self.add_issue(
+                    "ERROR",
+                    "DATE_MISSING_TZ",
+                    rel,
+                    f"{date_field} has no timezone offset ({raw}); use Asia/Ho_Chi_Minh, e.g. "
+                    f"\"{day} 09:00:00+07:00\"",
+                )
+            post_vn_day = vietnam_date_of(dt)
+            # Future-dated relative to the real VN instant. Hugo silently drops
+            # future-dated content from the build, so a post stamped even a few
+            # hours ahead of "now" would vanish from the homepage. Compare at
+            # instant granularity so QA fails loudly instead.
+            if dt.astimezone(VN_TZ) > datetime.now(VN_TZ):
+                self.add_issue("ERROR", "FUTURE_DATE", rel, f"{date_field} is in the future (VN): {raw}")
+            # A brand-new post stamped a day (or more) before it was actually
+            # created is the classic UTC/timezone bug — new post looks like
+            # yesterday and sinks below older posts on the homepage.
+            if date_field == "date" and created_vn is not None and post_vn_day < created_vn:
+                self.add_issue(
+                    "ERROR",
+                    "STALE_DATE",
+                    rel,
+                    f"date {post_vn_day.isoformat()} is before this new post's creation day "
+                    f"({created_vn.isoformat()} VN) — likely a UTC stamp; use GMT+7 today "
+                    f"({today_vn.isoformat()})",
+                )
 
         if slug and not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
             self.add_issue("WARN", "SLUG_NON_ASCII", rel, f"Slug may produce non-ASCII URL segment: {slug}")

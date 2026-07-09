@@ -3,7 +3,7 @@ author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: 2026-07-07
+date: "2026-07-07 09:00:00+07:00"
 description: 'Tường thuật quá trình tinh chỉnh Veritable Content: từ logo, header,
   footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions
   và triết lý text-first.'
@@ -27,7 +27,7 @@ image_license: Pexels License
 image_owner: external
 image_source: Pexels
 image_source_url: "https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/"
-lastmod: 2026-07-07
+lastmod: "2026-07-07 09:00:00+07:00"
 slug: veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog
 tags:
 - Veritable Content

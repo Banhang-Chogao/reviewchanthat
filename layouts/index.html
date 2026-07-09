@@ -10,7 +10,10 @@
     </ul>
   </section>
   <section class="home-post-grid">
-    {{ $paginator := .Paginate (where site.RegularPages "Section" "posts") 8 }}
+    {{/* Always newest-first: sort by date descending explicitly, never rely on
+         default weight/featured/sticky ordering so a new post is always on top. */}}
+    {{ $posts := where site.RegularPages "Section" "posts" }}
+    {{ $paginator := .Paginate ($posts.ByDate.Reverse) 8 }}
     {{ range $paginator.Pages }}
       {{ .Render "home-post-block" }}
     {{ end }}
