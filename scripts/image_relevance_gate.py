@@ -393,7 +393,7 @@ def accepts(score: GateScore, ctx: ArticleImageContext) -> tuple[bool, str]:
         return False, f"semantic_below_threshold:{score.semantic_score}"
     if ctx.desired_palette and score.color_score < COLOR_THRESHOLD:
         return False, f"color_below_threshold:{score.color_score}"
-    total_floor = 65 if not ctx.desired_palette else TOTAL_THRESHOLD
+    total_floor = 52 if not ctx.desired_palette else TOTAL_THRESHOLD
     if score.total_score < total_floor:
         return False, f"total_below_threshold:{score.total_score}"
     return True, "accepted"
