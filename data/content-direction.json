@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-09T23:31:48+07:00",
-  "generated_at_display": "09-07-2026 23:31:48",
+  "generated_at": "2026-07-09T23:35:42+07:00",
+  "generated_at_display": "09-07-2026 23:35:42",
   "summary": {
     "total_posts": 157,
     "draft_posts": 0,
-    "total_words": 189817,
-    "average_words_per_post": 1209,
+    "total_words": 190332,
+    "average_words_per_post": 1212,
     "categories_count": 5,
     "tags_count": 399,
     "authors_count": 1,
@@ -2421,8 +2421,8 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1449,
-    "average_outbound_per_post": 9.23,
+    "total_outbound_links": 1452,
+    "average_outbound_per_post": 9.25,
     "top_linked_posts": [
       {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -2491,20 +2491,12 @@
       {
         "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
         "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-      },
-      {
-        "slug": "workflow-failures-audit-recent-ci-cd-root-causes-action-items",
-        "title": "Workflow Failures Audit: How We Identified Recent CI/CD Failures, Root Causes, and Action Items"
       }
     ],
     "posts_missing_internal_links": [
       {
         "slug": "co-nen-len-ios-26-5-2-khong",
         "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
-      },
-      {
-        "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
-        "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm"
       },
       {
         "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
@@ -2539,16 +2531,16 @@
       "priority": "P1",
       "type": "Internal Linking",
       "title": "Giảm orphan posts (không có inbound)",
-      "detail": "5 bài không nhận internal link.",
-      "affected_count": 5,
+      "detail": "4 bài không nhận internal link.",
+      "affected_count": 4,
       "suggested_fix": "Link tới orphan từ bài hub/pillar cùng cluster."
     },
     {
       "priority": "P1",
       "type": "Internal Linking",
       "title": "Thêm internal links cho bài thiếu outbound",
-      "detail": "5 bài không có internal link outbound (MD/FM/graph).",
-      "affected_count": 5,
+      "detail": "4 bài không có internal link outbound (MD/FM/graph).",
+      "affected_count": 4,
       "suggested_fix": "Chèn 2–5 internal links liên quan trong thân bài hoặc graph."
     },
     {
