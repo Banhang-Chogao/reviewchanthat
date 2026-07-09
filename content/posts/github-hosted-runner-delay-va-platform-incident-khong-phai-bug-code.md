@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:05:00+07:00'
+date: "2026-07-10 04:10:00+07:00"
 description: 'Phân tích runner_capacity_delay và external_platform_incident (unsafe):
   job kẹt queue hosted runner, GitHub Actions/Pages degraded — checklist phân biệt
   với lỗi code.'

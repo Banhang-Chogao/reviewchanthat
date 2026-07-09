@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:50:00+07:00'
+date: "2026-07-10 04:55:00+07:00"
 description: Gom hugo_build_error, deploy_not_completed, template_or_render_regression,
   ai_summary_map_artifact, table_layout_ux_regression, duplicate_yaml_keys — cách
   đọc log assemble và fix an toàn.

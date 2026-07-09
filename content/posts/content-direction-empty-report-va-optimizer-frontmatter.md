@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:35:00+07:00'
+date: "2026-07-10 04:40:00+07:00"
 description: 'Phân tích content_direction_empty_report, content_direction_optimizer_fail,
   metadata_optimizer_fail (safe): sai path/data key, parser front matter, seo_title/description
   lỗi.'

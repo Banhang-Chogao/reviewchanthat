@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:20:00+07:00'
+date: "2026-07-10 04:25:00+07:00"
 description: 'Phân tích baseline_debt_blocking_unrelated_deploy (unsafe) và qa_expectation_mismatch
   (safe): nợ QA/image cũ fail full-site, chặn PR không liên quan — cách scope QA theo
   feature.'

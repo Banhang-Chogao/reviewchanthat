@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:25:00+07:00'
+date: "2026-07-10 04:30:00+07:00"
 description: Gom changed_post_image_missing, self_owned_image_direct_url, verified_creator_unavailable,
   fake_image_creator, image_asset_missing — quy tắc ảnh an toàn cho Hugo blog.
 draft: false

@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:30:00+07:00'
+date: "2026-07-10 04:35:00+07:00"
 description: 'Hướng dẫn date_only_or_wrong_timezone (safe): luôn gắn +07:00, không
   dùng date-only UTC khiến QA STALE_DATE và thứ tự bài sai.'
 draft: false
