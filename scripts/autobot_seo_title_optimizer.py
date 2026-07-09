@@ -35,7 +35,24 @@ def serialize_front_matter(meta: dict) -> str:
         elif isinstance(value, (int, float)):
             lines.append(f"{key}: {value}")
         elif isinstance(value, str):
-            if any(ch in value for ch in (":", "#", "{", "[", ">", "|", '"', "'", "\n")):
+            has_colon = ':' in value
+            has_newline = '\n' in value
+            has_quote = '"' in value or "'" in value
+
+            if has_newline or (has_colon and len(value) > 50):
+                # Use folded literal for long text or multiline
+                lines.append(f"{key}: >-")
+                lines.append(f"  {value}")
+            elif has_colon:
+                # Quote values with colons
+                if '"' not in value:
+                    lines.append(f"{key}: \"{value}\"")
+                elif "'" not in value:
+                    lines.append(f"{key}: '{value}'")
+                else:
+                    lines.append(f"{key}: >-")
+                    lines.append(f"  {value}")
+            elif any(ch in value for ch in ("#", "{", "[", ">", "|")):
                 lines.append(f"{key}: >-")
                 lines.append(f"  {value}")
             else:
