@@ -512,17 +512,17 @@ html.dark-mode .live-clock-box__time{color:#f0f9ff}
 .site-footer{border-top:2px solid var(--border);padding:clamp(32px,6vw,48px) 0 0;margin-top:var(--section-gap);background:var(--surface);position:relative;overflow:hidden}
 .site-footer::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#ff4d4d,#ff8a00,#ffd700,#00c853,#2196f3,#7c4dff,#e040fb)}
 .footer-inner{display:flex;flex-direction:column;align-items:flex-start;gap:clamp(20px,4vw,28px);text-align:left}
-.footer-top{display:grid;grid-template-columns:minmax(0,1fr) var(--footer-ga4-size,280px);gap:clamp(16px,3vw,24px);width:100%;align-items:start}
+.footer-top{display:grid;grid-template-columns:minmax(0,1fr) var(--footer-ga4-width,360px);gap:clamp(16px,3vw,24px);width:100%;align-items:start}
 .footer-brand{display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-width:0}
-.footer-ga4-box{--footer-ga4-size:280px;box-sizing:border-box;width:var(--footer-ga4-size);height:var(--footer-ga4-size);max-width:100%;justify-self:end;display:flex;flex-direction:column;min-width:0;padding:1rem;border-radius:20px;background:radial-gradient(circle at top left,rgba(37,99,235,.22),transparent 34%),linear-gradient(135deg,#eff6ff,#ecfeff 52%,#fff7ed);border:1px solid rgba(37,99,235,.18);box-shadow:0 16px 36px rgba(15,23,42,.08);color:#111827}
-.footer-ga4-box__eyebrow{flex-shrink:0;font-size:.75rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#2563eb;margin-bottom:.35rem}
-.footer-ga4-box__range{flex-shrink:0;margin:0 0 .5rem;font-size:.74rem;color:rgba(17,24,39,.58)}
-.footer-ga4-box__grid{flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr;gap:.55rem}
-.footer-ga4-box__metric{display:flex;flex-direction:column;justify-content:center;min-width:0;min-height:0;padding:.6rem;border-radius:16px;background:rgba(255,255,255,.72);border:1px solid rgba(15,23,42,.08)}
-.footer-ga4-box__label{display:block;font-size:.72rem;line-height:1.25;color:rgba(17,24,39,.62);margin-bottom:.2rem}
-.footer-ga4-box__value{display:block;font-size:clamp(1.1rem,2.4vw,1.45rem);font-weight:900;line-height:1;font-variant-numeric:tabular-nums;color:#111827}
-.footer-ga4-box__updated{flex-shrink:0;margin:.5rem 0 0;font-size:.72rem;line-height:1.3;color:rgba(17,24,39,.62)}
-@media(max-width:768px){.footer-top{grid-template-columns:1fr}.footer-ga4-box{width:min(100%,var(--footer-ga4-size));height:auto;aspect-ratio:1;justify-self:start}}
+.footer-ga4-box{--footer-ga4-width:360px;--footer-ga4-height:190px;box-sizing:border-box;width:var(--footer-ga4-width);height:var(--footer-ga4-height);max-width:100%;justify-self:end;display:flex;flex-direction:column;min-width:0;padding:.75rem 1rem;border-radius:18px;background:radial-gradient(circle at top left,rgba(37,99,235,.22),transparent 34%),linear-gradient(135deg,#eff6ff,#ecfeff 52%,#fff7ed);border:1px solid rgba(37,99,235,.18);box-shadow:0 16px 36px rgba(15,23,42,.08);color:#111827}
+.footer-ga4-box__eyebrow{flex-shrink:0;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#2563eb;margin-bottom:.2rem}
+.footer-ga4-box__range{flex-shrink:0;margin:0 0 .4rem;font-size:.7rem;color:rgba(17,24,39,.58)}
+.footer-ga4-box__grid{flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr;gap:.5rem}
+.footer-ga4-box__metric{display:flex;flex-direction:column;justify-content:center;min-width:0;min-height:0;padding:.5rem .65rem;border-radius:14px;background:rgba(255,255,255,.72);border:1px solid rgba(15,23,42,.08)}
+.footer-ga4-box__label{display:block;font-size:.7rem;line-height:1.2;color:rgba(17,24,39,.62);margin-bottom:.15rem}
+.footer-ga4-box__value{display:block;font-size:clamp(1.05rem,2vw,1.35rem);font-weight:900;line-height:1;font-variant-numeric:tabular-nums;color:#111827}
+.footer-ga4-box__updated{flex-shrink:0;margin:.35rem 0 0;font-size:.7rem;line-height:1.25;color:rgba(17,24,39,.62)}
+@media(max-width:768px){.footer-top{grid-template-columns:1fr}.footer-ga4-box{width:min(100%,var(--footer-ga4-width));height:auto;aspect-ratio:36/19;justify-self:start}}
 
 .footer-desc{font-size:.88rem;color:var(--text-secondary);max-width:440px;line-height:1.6;margin:0}
 .footer-nav{display:flex;gap:clamp(10px,1.5vw,16px);flex-wrap:wrap;align-items:center}
