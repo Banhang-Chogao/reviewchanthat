@@ -304,12 +304,19 @@ def added_post_reference_days() -> dict[str, date_cls]:
         except ValueError:
             head_day = None
         if head_day:
+            added_md_files = 0
             for line in head_files.splitlines():
                 parts = line.split("\t")
                 if len(parts) >= 2 and parts[0].startswith("A"):
                     path = parts[-1].strip().strip('"')
                     if path.endswith(".md"):
                         result.setdefault(path, head_day)
+                        added_md_files += 1
+            # Shallow clone (--depth=1) on a merge commit can show ALL files as
+            # "A" because there's no parent history. Bail to avoid false STALE_DATE
+            # failures on existing posts. A real PR never adds dozens of posts.
+            if added_md_files > 10:
+                result.clear()
 
     _ADDED_POST_DAYS = result
     return result
