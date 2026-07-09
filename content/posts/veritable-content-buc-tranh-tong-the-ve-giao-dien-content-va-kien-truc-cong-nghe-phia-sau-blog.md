@@ -1,6 +1,6 @@
 ---
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-07 09:00:00+07:00'
@@ -10,9 +10,8 @@ description: 'Tường thuật quá trình tinh chỉnh Veritable Content: từ 
 draft: false
 external_links:
 - title: Hugo Documentation
-  url: https://gohugo.io/documentation/
+  url: "https://gohugo.io/documentation/"
 - title: GitHub Actions Documentation
-  url: https://docs.github.com/en/actions
 image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
 image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
 image_attribution_source: pexels_api
@@ -20,12 +19,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Tran Nhu Tuan
 image_creator_id: '23251645'
-image_creator_url: https://www.pexels.com/@kooldark
+image_creator_url: "https://www.pexels.com/@kooldark"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/
+image_source_url: "https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/"
 lastmod: '2026-07-07 09:00:00+07:00'
 slug: veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog
 tags:
@@ -43,11 +42,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Tổng quan về giao diện, content và kiến trúc công nghệ blog Veritable Content
 - label: Mục đích
-  value: Giải thích triết lý thiết kế, lựa chọn công nghệ và quy trình vận hành blog
 - label: Hợp với
-  value: Người làm blog, quan tâm Hugo, Flat Design, content architecture
 - label: Điểm chính
-  value: Text-first, Hugo + Python + GitHub Actions, Flat Design, không JavaScript
     nặng
 ---
 

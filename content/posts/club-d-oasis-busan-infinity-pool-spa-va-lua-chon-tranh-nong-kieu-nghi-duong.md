@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: Club D Oasis Busan là khu infinity pool và spa cao cấp tại Haeundae, view biển-trời, phù hợp cho cặp đôi muốn thư giãn và tránh đám đông mùa hè.
 draft: false
 external_links:
@@ -31,14 +31,11 @@ image_commercial_use: true
 image_creator: Zsuzsa ZSUZSA
 image_creator_id: 127738300
 image_creator_url: >-
-  https://www.pexels.com/@zsuzsa-zsuzsa-127738300
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/rooftop-infinity-pool-with-city-view-31484542/
 internal_links:
   - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng ở Hàn Quốc mùa hè"}
   - {"ref": "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md", "title": "Haeundae Beach Busan"}

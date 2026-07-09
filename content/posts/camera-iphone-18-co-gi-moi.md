@@ -25,14 +25,11 @@ image_commercial_use: true
 image_creator: Ferdinand Frederik
 image_creator_id: 257244
 image_creator_url: >-
-  https://www.pexels.com/@ferdinand-frederik-257244
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/pexels-photo-788882/
 series: iphone-18-co-gi-moi
 series_order: 8
 series_title: iPhone 18 có gì mới

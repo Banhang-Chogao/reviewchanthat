@@ -16,13 +16,12 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.bangkokairportonline.com/bangkok-airport-rail-link/,
-    https://www.bts.co.th/eng/tickets/ticket-rabbit-farerate.html, https://www.grab.com/th,
-    https://www.tourismthailand.org.'
+    https: "//www.bts.co.th/eng/tickets/ticket-rabbit-farerate.html, https://www.grab.com/th,"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: 'Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link,
   BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa
   mưa.'
@@ -36,11 +35,11 @@ image_creator: ''
 image_creator_id: 2645690
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/ancient-city-bangkok-27941933/
+image_source_url: "https://www.pexels.com/photo/ancient-city-bangkok-27941933/"
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 10
@@ -59,11 +58,8 @@ tom_tat_nhanh:
 - label: ARL
   value: 15–45 THB, 30 phút
 - label: Taxi
-  value: 250–500 THB + toll
 - label: Grab
-  value: 400–800 THB
 - label: Nên chọn
-  value: ARL nếu nhẹ hành lý
 ---
 
 ## Từ sân bay Suvarnabhumi về trung tâm Bangkok

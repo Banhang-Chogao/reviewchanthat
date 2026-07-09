@@ -9,7 +9,7 @@ ai_summary:
   - Không phải lý do đổi máy nếu bạn ít dùng camera.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 10:20:00+07:00'
@@ -23,12 +23,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Andrey Matveev
 image_creator_id: '150820'
-image_creator_url: https://www.pexels.com/@zeleboba
+image_creator_url: "https://www.pexels.com/@zeleboba"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/modern-smartphone-with-clear-case-on-wooden-table-34391718/
+image_source_url: "https://www.pexels.com/photo/modern-smartphone-with-clear-case-on-wooden-table-34391718/"
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 5
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
@@ -44,11 +44,8 @@ tom_tat_nhanh:
 - label: Tính năng
   value: Nút cảm ứng Camera Control
 - label: Tiện khi
-  value: Chụp một tay, zoom nhanh
 - label: Ít giá trị khi
-  value: Ít chụp, hay dùng app third-party
 - label: So 15
-  value: 15 Pro Max không có nút này
 ---
 
 **Camera Control** là phần cứng mới dễ thấy nhất trên iPhone 16 Pro Max — nút **cảm ứng lực** cạnh máy, Apple kỳ vọng thay **vuốt trên màn** khi chụp. Sau các review công khai và vài tháng sử dụng tham khảo, câu hỏi thực tế: **có tiện đủ để bỏ 15 Pro Max không?**

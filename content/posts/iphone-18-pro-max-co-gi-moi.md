@@ -12,7 +12,7 @@ ai_summary:
   - Thuộc series iPhone 18 — liên kết chip, camera, giá và hướng dẫn có nên chờ.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 08:00:00+07:00'
@@ -22,19 +22,16 @@ description: iPhone 18 Pro Max có gì mới? Tin đồn A20 Pro 2nm, pin lớn 
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
+  url: "https://www.macrumors.com/roundup/iphone-18-pro/"
 - title: MacRumors — iPhone 18 roundup
-  url: https://www.macrumors.com/roundup/iphone-18/
 - title: MacRumors — iPhone 18 Pro colors rumor
-  url: https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/
 - title: AppleInsider — iPhone 18 expectations
-  url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 image: ''
 image_attribution_checked_at: '2026-07-09T10:47:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_creator_id: 407924
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_reject_reason: No candidate passed semantic/color/object gate
 image_status: needs_review
 series: iphone-18-co-gi-moi
@@ -52,11 +49,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Tin đồn iPhone 18 Pro Max
 - label: Ra mắt (đồn)
-  value: Tháng 9/2026 cùng dòng Pro
 - label: Điểm nổi bật (đồn)
-  value: A20 Pro 2nm, pin, camera, C2 modem
 - label: Hợp với
-  value: Người cân nhắc flagship Apple 2026
 ---
 
 **iPhone 18 Pro Max** là model flagship lớn nhất trong kỳ vọng đợt ra mắt **mùa thu 2026** — nếu tin đồn **split launch** đúng, đây là máy “full option” Apple có thể giới thiệu trước, trong khi bản iPhone 18 tiêu chuẩn chờ đến **đầu 2027**. Apple **chưa công bố** bất kỳ thông số nào; bài viết dưới đây phân loại tin đồn có nguồn để bạn biết điều gì **đáng chờ** và điều gì **chỉ là phỏng đoán**.

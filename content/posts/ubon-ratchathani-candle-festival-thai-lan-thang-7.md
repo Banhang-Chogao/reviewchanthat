@@ -17,12 +17,11 @@ attribution:
     lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.thailand.go.th/guide-book-detail/the-candle-festival,
     https://qa.thailand.go.th/event-detail/ubon-ratchathani-candle-festival-2026,
-    https://www.tourismthailand.org, https://www.tripadvisor.com.'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: 'Ubon Ratchathani Candle Festival 2026 — ngày 28–30/7, lịch trình, cách
   đi từ Bangkok, kinh nghiệm tham quan lễ hội nến lớn nhất Thái Lan.'
 draft: false
@@ -58,11 +57,8 @@ tom_tat_nhanh:
 - label: Ngày
   value: 28–30/7/2026
 - label: Địa điểm
-  value: Thung Si Mueang, Ubon
 - label: Di chuyển
-  value: Bay 1h từ Bangkok
 - label: Phù hợp
-  value: Người thích văn hóa
 ---
 
 ## Ubon Ratchathani Candle Festival là gì?

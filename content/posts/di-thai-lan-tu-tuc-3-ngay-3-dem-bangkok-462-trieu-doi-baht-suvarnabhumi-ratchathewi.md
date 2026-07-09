@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - doi-song
-date: 2026-07-08 09:00:00+07:00
+date: "2026-07-08 09:00:00+07:00"
 description: >-
   Phân tích thực tế cho người đi Bangkok tự túc lần đầu: giá vé máy bay và khách sạn 4,62 triệu có nên chốt, đổi baht ở TP.HCM sao cho an toàn, cách đi Airport
 draft: false
@@ -27,12 +27,10 @@ image_creator_id: 75254
 image_creator_url: 
 image_license: Pixabay Content License
 image_license_url: >-
-  https://pixabay.com/service/license-summary/
 image_owner: external
 image_provider: pixabay
 image_source: Pixabay
 image_source_url: >-
-  https://pixabay.com/photos/bangkok-river-market-boats-5863391/
 series: du-lich-thai-lan
 series_order: 1
 series_title: Du lịch Thái Lan tự túc

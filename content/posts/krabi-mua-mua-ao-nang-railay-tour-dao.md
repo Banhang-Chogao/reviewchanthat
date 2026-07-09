@@ -18,10 +18,10 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org,
     https://www.pexels.com.'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo,
   Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch.
 draft: false
@@ -34,11 +34,11 @@ image_creator: ''
 image_creator_id: 321945577
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/27104227/
+image_source_url: "https://www.pexels.com/photo/27104227/"
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 6
@@ -56,11 +56,8 @@ tom_tat_nhanh:
 - label: Mùa mưa
   value: Tháng 5–10
 - label: Biển
-  value: Sóng lớn Andaman
 - label: Tour chạy
-  value: Hong Islands, Railay, kayak
 - label: Tour rủi ro
-  value: Phi Phi, Maya Bay
 ---
 
 ## Krabi mùa mưa — còn gì để chơi?

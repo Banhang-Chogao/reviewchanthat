@@ -13,10 +13,10 @@ ai_summary:
     người dùng Việt Nam.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 11:00:00+07:00
+date: "2026-07-08 11:00:00+07:00"
 description: 'Tổng quan macOS Golden Gate 27: Siri AI trong Spotlight, Safari Notify
   Me, Liquid Glass, Visual Intelligence và timeline beta/public cho người dùng Mac
   tại Việt Nam.'
@@ -28,12 +28,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Negative Space
 image_creator_id: '3738'
-image_creator_url: https://www.pexels.com/@negativespace
+image_creator_url: "https://www.pexels.com/@negativespace"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/macbook-pro-92904/
+image_source_url: "https://www.pexels.com/photo/macbook-pro-92904/"
 series: macos-27-co-gi-moi
 series_order: 1
 series_title: macOS 27 có gì mới
@@ -51,11 +51,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Tổng quan macOS Golden Gate 27
 - label: Ra mắt
-  value: Preview WWDC26, public beta tháng 7/2026
 - label: Điểm nổi bật
-  value: Siri AI Spotlight, Safari Notify Me, sidebar màu
 - label: Hợp với
-  value: Người dùng Mac muốn biết có nên nâng cấp
 ---
 
 Mỗi năm sau WWDC, cộng đồng Mac Việt Nam lại hỏi cùng một câu: **có đáng lên macOS mới không, hay cứ ở bản cũ cho ổn định?** Năm nay câu hỏi còn gay cấn hơn vì Apple không chỉ vá lỗi — họ đặt cược lớn vào **Siri AI**, **Apple Intelligence** và một lớp thiết kế **Liquid Glass** đã gây tranh cãi từ macOS 26.

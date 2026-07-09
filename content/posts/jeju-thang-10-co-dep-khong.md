@@ -14,22 +14,20 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.visitjeju.net.'
+    https: "//www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.visitjeju.net.'"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 14:00:00+07:00
+date: "2026-07-08 14:00:00+07:00"
 description: Jeju tháng 10 có đẹp không? Thời tiết, biển, núi Hallasan, ngày lá đỏ
   tham khảo và lịch trình 3 ngày cho người đi lần đầu.
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: KoreaToDo — Top Autumn Foliage Sites
-  url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
 - title: Visit Jeju
-  url: https://www.visitjeju.net
 image: images/posts/jeju-thang-10-co-dep-khong.webp
 image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
 image_attribution_source: pexels_api
@@ -37,25 +35,19 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Светлана Конева
 image_creator_id: '269097219'
-image_creator_url: https://www.pexels.com/@269097219
+image_creator_url: "https://www.pexels.com/@269097219"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787321/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-12787321/"
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
-  title: Đi Hàn tháng 10 có đẹp không?
 - ref: posts/thoi-tiet-han-quoc-thang-10.md
-  title: Thời tiết và mùa lá đỏ tháng 10
 - ref: posts/busan-thang-10-nen-di-dau.md
-  title: Busan tháng 10 nên đi đâu?
 - ref: posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md
-  title: Lịch trình 5 ngày 4 đêm tháng 10
 - ref: posts/chi-phi-di-han-thang-10-tu-tuc.md
-  title: Chi phí đi Hàn tháng 10 tự túc
 - ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md
-  title: Jeju mùa hè nên đi đâu?
 series: di-han-thang-10
 series_order: 9
 series_title: Đi Hàn tháng 10
@@ -72,13 +64,9 @@ tom_tat_nhanh:
 - label: Nhiệt độ
   value: 16–22°C ban ngày
 - label: Lá đỏ Hallasan
-  value: Giữa–cuối tháng 10 (tùy năm)
 - label: Thời gian
-  value: 3 ngày trở lên
 - label: Di chuyển
-  value: Thuê xe tự lái tiện nhất
 - label: Lưu ý
-  value: Ngày đổ màu thay đổi hàng năm
 ---
 
 Jeju tháng 10 là thời điểm nhiều người Việt cân nhắc khi lên kế hoạch đi Hàn mùa thu. Đảo có khí hậu ôn hòa hơn đất liền, biển vẫn đẹp, và núi Hallasan bắt đầu chuyển màu. Tuy nhiên, Jeju không chỉ có cảnh quan — bạn cần tính thêm chi phí vé máy bay, thuê xe và thời gian di chuyển từ Seoul.

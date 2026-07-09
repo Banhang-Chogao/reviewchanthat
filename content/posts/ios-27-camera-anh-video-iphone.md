@@ -12,10 +12,10 @@ ai_summary:
     Pro/16+.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 09:20:00+07:00
+date: "2026-07-08 09:20:00+07:00"
 description: 'Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual
   Intelligence và kỳ vọng thực tế theo từng dòng iPhone.'
 draft: false
@@ -29,10 +29,10 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/iphone-6-on-macbook-pro-404139/
+image_source_url: "https://www.pexels.com/photo/iphone-6-on-macbook-pro-404139/"
 series: ios-27-co-gi-moi
 series_order: 5
 series_title: iOS 27 có gì mới
@@ -49,11 +49,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Camera/Photos iOS 27
 - label: Tính năng AI
-  value: Spatial Reframing, Clean Up, Siri in Camera
 - label: Hiệu năng
-  value: Load ảnh mới nhanh hơn tới 70%
 - label: Hợp với
-  value: Người hay chụp ảnh, quay video trên iPhone
 ---
 
 Với nhiều người Việt, iPhone là **máy ảnh chính** khi đi du lịch, ăn uống, chụp con. **iOS 27** không thay đổi cụm camera vật lý trên iPhone cũ, nhưng Apple đẩy mạnh **AI trong Photos** và **Siri mode in Camera** — biến phần mềm thành lý do nâng cấp.

@@ -16,17 +16,17 @@ attribution:
   source_note: Giá và món có thể thay đổi theo thời điểm; kiểm tra app hoặc quầy order
     khi ghé.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
-date: 2026-07-08 16:00:00+07:00
+date: "2026-07-08 16:00:00+07:00"
 description: Gợi ý menu Starbucks Vietnam — espresso, Frappuccino, trà, món mùa và
   cách tùy chỉnh đá, đường, sữa cho đúng gu. Kinh nghiệm thực tế từ chi nhánh Nguyễn
   Văn Trỗi.
 draft: false
 external_links:
 - title: Starbucks Vietnam — Menu
-  url: https://www.starbucks.vn/menu
+  url: "https://www.starbucks.vn/menu"
 image: images/posts/starbucks-vietnam-menu-do-uong-nen-thu.webp
 image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
 image_attribution_source: pexels_api
@@ -34,12 +34,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: ICSA
 image_creator_id: '833425'
-image_creator_url: https://www.pexels.com/@icsa-833425
+image_creator_url: "https://www.pexels.com/@icsa-833425"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/coffee-cup-on-table-1709003/
+image_source_url: "https://www.pexels.com/photo/coffee-cup-on-table-1709003/"
 series: starbucks-vietnam
 series_order: 3
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
@@ -56,11 +56,8 @@ tom_tat_nhanh:
 - label: Cho người mới
   value: Latte, Macchiato, Cold Brew
 - label: Tùy chỉnh
-  value: Ít đá, ít ngọt, đổi sữa oat
 - label: Mùa hè
-  value: Frappuccino, refresher, trà đào
 - label: Ghi chú
-  value: Giá và món seasonal có thể đổi
 ---
 
 Đứng trước bảng menu Starbucks lần đầu, nhiều người hơi choáng: tên tiếng Anh dài, size Tall-Grande-Venti, và hàng chục lựa chọn syrup. Bài này gom lại những đồ uống mình thấy **đáng thử** tại Starbucks Vietnam — dựa trên kinh nghiệm gọi tại nhiều chi nhánh, đặc biệt **Nguyễn Văn Trỗi** nơi chất lượng pha chế khá ổn định.

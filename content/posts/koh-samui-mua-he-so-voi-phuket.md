@@ -12,10 +12,10 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.insidesamui.com, https://www.tourismthailand.org, https://www.pexels.com.'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: 'Koh Samui mùa hè tháng 7-8 có tốt hơn Phuket? So sánh thời tiết, biển, chi phí, tour đảo và lịch trình Koh Samui mùa mưa.'
 draft: false
 image: images/posts/koh-samui-mua-he-so-voi-phuket.webp
@@ -49,11 +49,8 @@ tom_tat_nhanh:
 - label: Thời gian lý tưởng
   value: Tháng 1–8
 - label: So với Phuket
-  value: Khô hơn tháng 7-8
 - label: Biển
-  value: Lặng, tắm được
 - label: Chi phí
-  value: Trung bình
 ---
 
 ## Koh Samui vs Phuket — đâu là lựa chọn đúng cho tháng 7–8?

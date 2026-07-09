@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 16:00:00+07:00
+date: "2026-07-08 16:00:00+07:00"
 description: >-
   Chi phí đi Hàn tháng 10 tự túc: bảng giá tham khảo vé máy bay, khách sạn, ăn uống, di chuyển và mẹo tiết kiệm cho chuyến 5N4Đ.
 draft: false
@@ -29,14 +29,11 @@ image_commercial_use: true
 image_creator: Delyan Nedyalkov
 image_creator_id: 2400661
 image_creator_url: >-
-  https://www.pexels.com/@delyan-nedyalkov-2400661
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/pexels-photo-4042807/
 internal_links:
   - {"ref": "posts/di-han-thang-10-co-dep-khong.md", "title": "Đi Hàn tháng 10 có đẹp không?"}
   - {"ref": "posts/thoi-tiet-han-quoc-thang-10.md", "title": "Thời tiết và mùa lá đỏ tháng 10"}

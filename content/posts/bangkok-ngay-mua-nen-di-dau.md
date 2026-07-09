@@ -2,7 +2,7 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Bangkok có hơn 20 điểm indoor chất lượng cho ngày mưa, trải đều từ Siam, Sukhumvit, Silom đến Rattanakosin — tất cả đều kết nối BTS/MRT.", "Nhóm điểm mua sắm (Siam Paragon, CentralWorld, EmQuartier) chiếm ưu thế nhờ skywalk có mái che và điều hòa; nhóm văn hóa (bảo tàng, chùa có mái che) phù hợp người thích khám phá.", "Lịch trình 2 ngày mùa mưa được thiết kế với nguyên tắc: sáng ngoài trời, chiều trong nhà, luôn có skywalk hoặc BTS kết nối.", "Di chuyển bằng BTS và MRT là cách thông minh nhất để né mưa và kẹt xe — mỗi lượt 17–62 THB tùy khoảng cách."]
+  items: '["Bangkok có hơn 20 điểm indoor chất lượng cho ngày mưa, trải đều từ Siam, Sukhumvit, Silom đến Rattanakosin — tất cả đều kết nối BTS/MRT.", "Nhóm điểm mua sắm (Siam Paragon, CentralWorld, EmQuartier) chiếm ưu thế nhờ skywalk có mái che và điều hòa; nhóm văn hóa (bảo tàng, chùa có mái che) phù hợp người thích khám phá.", "Lịch trình 2 ngày mùa mưa được thiết kế với nguyên tắc: sáng ngoài trời, chiều trong nhà, luôn có skywalk hoặc BTS kết nối.", "Di chuyển bằng BTS và MRT là cách thông minh nhất để né mưa và kẹt xe — mỗi lượt 17–62 THB tùy khoảng cách."]'
   title: "Tóm tắt bài viết"
 attribution:
   copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, bảo tàng, chợ trong nhà, massage, food tour — kèm lịch trình 2 ngày mùa mưa và cách di chuyển.
 draft: false
 image: images/posts/bangkok-ngay-mua-nen-di-dau.webp
@@ -26,12 +26,10 @@ image_creator_id: 118636722
 image_creator_url: 
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/27662996/
 series:
   - du-lich-thai-lan-mua-mua
 series_order: 3

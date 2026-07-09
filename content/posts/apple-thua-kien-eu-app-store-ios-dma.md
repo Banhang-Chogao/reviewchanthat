@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - cong-nghe
-date: 2026-07-08 09:00:00+07:00
+date: "2026-07-08 09:00:00+07:00"
 description: Tòa Tổng EU ngày 8/7/2026 bác kiện Apple về gatekeeper App Store và iOS. Phân biệt vụ kiện này với phạt anti-steering €500M và kháng cáo của Apple.
 draft: false
 external_links:
@@ -31,14 +31,11 @@ image_commercial_use: true
 image_creator: Adam B.
 image_creator_id: 1620746
 image_creator_url: >-
-  https://www.pexels.com/@adam-b-1620746
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/modern-high-glass-building-with-a-european-union-flag-6791897/
 series: apple-ec-dma-app-store-ios
 series_order: 1
 series_title: >-

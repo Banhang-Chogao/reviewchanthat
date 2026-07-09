@@ -14,24 +14,21 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
-    https://whc.unesco.org/en/list/817/>, https://www.koreanfolkvillage.co.kr/>, https://www.suwon.go.kr/>.'
+    https: "//whc.unesco.org/en/list/817/>, https://www.koreanfolkvillage.co.kr/>, https://www.suwon.go.kr/>.'"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: 'Day trip Suwon từ Seoul: tham quan Hwaseong Fortress UNESCO, Hwaseong
   Haenggung và Korean Folk Village Yongin. Lịch trình 1 ngày tự túc.'
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
 - title: https://whc.unesco.org/en/list/817/>
-  url: https://whc.unesco.org/en/list/817/>
 - title: https://www.koreanfolkvillage.co.kr/>
-  url: https://www.koreanfolkvillage.co.kr/>
 - title: https://www.suwon.go.kr/>
-  url: https://www.suwon.go.kr/>
 image: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
 image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
 image_attribution_source: pexels_api
@@ -39,12 +36,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: CK Seng
 image_creator_id: '1622383570'
-image_creator_url: https://www.pexels.com/@keat007
+image_creator_url: "https://www.pexels.com/@keat007"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/gyeongbokgung-palace-entrance-under-clear-sky-35396663/
+image_source_url: "https://www.pexels.com/photo/gyeongbokgung-palace-entrance-under-clear-sky-35396663/"
 series: du-lich
 series_order: 9
 series_title: Du lịch Hàn Quốc 2026
@@ -65,15 +62,10 @@ tom_tat_nhanh:
 - label: Khu vực
   value: Suwon và Yongin, Gyeonggi-do (cách Seoul 30–50 phút tàu)
 - label: Loại trải nghiệm
-  value: Di sản, văn hóa, lịch sử
 - label: Hợp với
-  value: Ai cũng hợp — gia đình, bạn bè, đi một mình
 - label: Thời gian nên dành
-  value: 5–8 giờ (cả ngày)
 - label: Đi mùa nào hợp
-  value: Xuân và thu đẹp nhất
 - label: Có cần đặt trước không
-  value: Không cần (trừ Korean Folk Village có thể đặt trước)
 ---
 
 Nếu bạn chỉ có một ngày và muốn trải nghiệm văn hóa Hàn Quốc đúng nghĩa, Suwon là lựa chọn dễ nhất. Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), Suwon có ba điểm: Hwaseong Fortress (hạng 13), Hwaseong Haenggung (hạng 14) và Korean Folk Village (hạng 19).

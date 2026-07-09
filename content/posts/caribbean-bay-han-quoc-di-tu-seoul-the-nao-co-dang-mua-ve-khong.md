@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: >-
   Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, giá vé, giờ mở cửa, kinh nghiệm đi ngày thường và mẹo tiết kiệm.
 draft: false
@@ -29,14 +29,11 @@ image_commercial_use: true
 image_creator: marclyc li
 image_creator_id: 2160558161
 image_creator_url: >-
-  https://www.pexels.com/@marclyc-li-2160558161
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/thrill-ride-fun-at-amusement-park-38331866/
 internal_links:
   - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
   - {"ref": "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md", "title": "Ocean World vs Caribbean Bay"}

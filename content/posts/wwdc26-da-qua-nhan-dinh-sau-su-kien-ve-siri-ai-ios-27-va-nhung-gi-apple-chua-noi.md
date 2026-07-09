@@ -15,40 +15,32 @@ attribution:
   source_note: Bài viết đối ứng với bài phân tích WWDC26 trên blog; dữ liệu từ Apple
     Newsroom, báo chí công nghệ và phản hồi beta tuần đầu.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-07 18:00:00+07:00
+date: "2026-07-07 18:00:00+07:00"
 description: Một tháng sau keynote, đánh giá lại WWDC26 — Siri AI có đủ thuyết phục
   không, beta iOS 27 thực tế ra sao, và người dùng Việt Nam nên làm gì tiếp theo.
 draft: false
 external_links:
 - title: Apple — WWDC26 Press Release
-  url: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/
+  url: "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
 - title: Apple — Siri AI
-  url: https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/
 - title: MacRumors — Siri AI at WWDC 2026
-  url: https://www.macrumors.com/2026/06/08/apple-announces-siri-ai/
 - title: 9to5Mac — WWDC 2026 News Hub
-  url: https://9to5mac.com/2026/06/08/wwdc-2026-news-hub-live-from-apple-park-ios-27-new-siri-more/
 - title: Apple Developer — WWDC26 Platforms State of the Union
-  url: https://developer.apple.com/videos/play/wwdc2026/121/
 faq:
 - answer: Về phần mềm, có. Siri AI, iOS 27 và macOS Golden Gate 27 ra mắt đúng hướng
     leak. Phần cứng (iPhone gập) không xuất hiện — đúng như dự đoán trước sự kiện.
   question: WWDC26 đã kết thúc — Apple có làm đúng kỳ vọng không?
 - answer: Developer và người có máy phụ có thể thử. Người dùng phổ thông nên chờ public
     beta (thường tháng 7) và đánh giá thêm 2–3 tuần trước khi cài lên iPhone chính.
-  question: Siri AI sau WWDC26 có đáng dùng beta ngay không?
 - answer: Có thể. Apple nhấn mạnh mở app nhanh hơn, AirDrop nhanh hơn và tinh chỉnh
     Liquid Glass — lý do hợp lý cho máy đời cũ trong danh sách tương thích.
-  question: iOS 27 có đáng nâng cấp nếu không quan tâm AI?
 - answer: Thường trùng sự kiện iPhone mùa thu (khoảng tháng 9–10/2026). Developer
     beta có ngay sau WWDC; public beta theo sau vài tuần.
-  question: Khi nào iOS 27 bản chính thức ra?
 - answer: Mức hỗ trợ tiếng Việt cho Siri AI từng giai đoạn, danh sách máy tương thích,
     và changelog từng beta — không chỉ slide keynote.
-  question: Người dùng Việt Nam cần theo dõi gì sau WWDC26?
 image: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
 image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
 image_attribution_source: pexels_api
@@ -56,16 +48,15 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Ivan Babydov
 image_creator_id: '54154657'
-image_creator_url: https://www.pexels.com/@babydov
+image_creator_url: "https://www.pexels.com/@babydov"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/apple-logo-on-purple-background-7789851/
+image_source_url: "https://www.pexels.com/photo/apple-logo-on-purple-background-7789851/"
 internal_links:
 - ref: posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md
-  title: 'WWDC26: Phân tích tính năng iOS 27 và macOS 27 trước và tại sự kiện'
-lastmod: 2026-07-08 00:00:00+07:00
+lastmod: "2026-07-08 00:00:00+07:00"
 slug: wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi
 tags:
 - WWDC26
@@ -81,13 +72,9 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: WWDC26 nhận định sau sự kiện — Siri AI, iOS 27 và những gì Apple chưa nói
 - label: Sản phẩm chính
-  value: Siri AI, iOS 27, macOS Golden Gate 27
 - label: Tính năng đáng chú ý
-  value: Siri AI hội thoại đa lượt, cải thiện hiệu năng, gói an toàn trẻ em
 - label: Mức độ hoàn thiện
-  value: 'Beta tuần đầu: Siri AI còn giới hạn ngôn ngữ, hiệu năng shell khả quan'
 - label: Hợp với
-  value: Người dùng Apple, người quan tâm công nghệ
 ---
 
 WWDC26 kết thúc được một tháng rồi. Đủ để bản beta về tay developer, đủ để báo chí chuyển từ "Apple sắp làm gì?" sang "Apple làm được gì rồi?", và cũng đủ để người dùng phổ thông bắt đầu đặt câu hỏi thực tế hơn: **có nên cài thử, hay chờ bản chính thức?**

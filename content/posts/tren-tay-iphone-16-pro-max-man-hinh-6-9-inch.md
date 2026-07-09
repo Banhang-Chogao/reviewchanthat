@@ -10,7 +10,7 @@ ai_summary:
   - Tay nhỏ hoặc hay cầm một tay nên cầm thử trước khi mua.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 10:00:00+07:00'
@@ -24,12 +24,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Caleb Oquendo
 image_creator_id: '583126'
-image_creator_url: https://www.pexels.com/@caleboquendo
+image_creator_url: "https://www.pexels.com/@caleboquendo"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/sleek-smartphone-on-wooden-table-indoors-34602867/
+image_source_url: "https://www.pexels.com/photo/sleek-smartphone-on-wooden-table-indoors-34602867/"
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 4
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
@@ -45,11 +45,8 @@ tom_tat_nhanh:
 - label: Màn hình
   value: 6.9 inch — lớn nhất iPhone
 - label: Trọng lượng
-  value: 227g kèm màn lớn
 - label: Lợi ích
-  value: Đọc, video, edit
 - label: Cân nhắc
-  value: Một tay khó hơn 15 Pro Max
 ---
 
 Apple đẩy iPhone 16 Pro Max lên **6.9 inch** — con số nghe **nhỏ** (chỉ hơn 6.7 inch của 15 Pro Max 0.2 inch) nhưng trên khung Pro Max, **diện tích thực tế và cảm giác cầm** khác hẳn. Đây có phải upgrade đáng tiền, hay chỉ làm túi jeans chật hơn?

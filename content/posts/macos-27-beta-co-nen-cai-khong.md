@@ -13,10 +13,10 @@ ai_summary:
     trường hợp.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 13:00:00+07:00
+date: "2026-07-08 13:00:00+07:00"
 description: 'Hướng dẫn cài macOS 27 public/developer beta: rủi ro ổn định, app ngân
   hàng, cách rollback và profile Apple Beta.'
 draft: false
@@ -27,12 +27,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Meet Patel
 image_creator_id: '236003280'
-image_creator_url: https://www.pexels.com/@meet-patel-236003280
+image_creator_url: "https://www.pexels.com/@meet-patel-236003280"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/macbook-pro-on-rooftop-with-code-editor-open-37085305/
+image_source_url: "https://www.pexels.com/photo/macbook-pro-on-rooftop-with-code-editor-open-37085305/"
 series: macos-27-co-gi-moi
 series_order: 7
 series_title: macOS 27 có gì mới
@@ -49,11 +49,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Có nên cài macOS 27 beta
 - label: Public beta
-  value: Dự kiến tháng 7/2026
 - label: Rủi ro
-  value: Bug app, pin, không rollback dễ
 - label: Hợp với
-  value: Developer và người có Mac phụ
 ---
 
 Public beta macOS 27 dự kiến **tháng 7/2026** — đúng lúc nhiều người rảnh thử hệ điều hành mới. Nhưng beta trên Mac **không giống** beta game: rollback khó, dữ liệu công việc thật, app ngân hàng có thể từ chối chạy.

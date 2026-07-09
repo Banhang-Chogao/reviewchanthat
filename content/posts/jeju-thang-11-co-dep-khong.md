@@ -15,25 +15,21 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.kma.go.kr, https://www.koreatodo.com/top-autumn-foliage-sites-korea,
-    https://www.visitjeju.net'
+    https: "//www.kma.go.kr, https://www.koreatodo.com/top-autumn-foliage-sites-korea,"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 21:00:00+07:00
+date: "2026-07-08 21:00:00+07:00"
 description: Jeju tháng 11 có đẹp không? Thời tiết lạnh, gió mạnh, Hallasan và lịch
   trình 3 ngày cho người đi lần đầu.
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: Korea Meteorological Administration
-  url: https://www.kma.go.kr
 - title: KoreaToDo — Top Autumn Foliage Sites
-  url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
 - title: Visit Jeju
-  url: https://www.visitjeju.net
 image: images/posts/jeju-thang-11-co-dep-khong.webp
 image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
 image_attribution_source: pexels_api
@@ -41,27 +37,20 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Светлана Конева
 image_creator_id: '269097219'
-image_creator_url: https://www.pexels.com/@269097219
+image_creator_url: "https://www.pexels.com/@269097219"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787319/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-12787319/"
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
-  title: Đi Hàn tháng 11 có đẹp không?
 - ref: posts/thoi-tiet-han-quoc-thang-11.md
-  title: Thời tiết và mùa lá đỏ tháng 11
 - ref: posts/busan-thang-11-nen-di-dau.md
-  title: Busan tháng 11 nên đi đâu?
 - ref: posts/seoul-thang-11-nen-di-dau.md
-  title: Seoul tháng 11 nên đi đâu?
 - ref: posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md
-  title: Lịch trình 5 ngày 4 đêm tháng 11
 - ref: posts/chi-phi-di-han-thang-11-tu-tuc.md
-  title: Chi phí đi Hàn tháng 11 tự túc
 - ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md
-  title: Jeju mùa hè nên đi đâu?
 series: di-han-thang-11
 series_order: 9
 series_title: Đi Hàn tháng 11
@@ -78,13 +67,9 @@ tom_tat_nhanh:
 - label: Nhiệt độ
   value: 12–18°C ban ngày; gió mạnh
 - label: Lá đỏ Hallasan
-  value: Đầu tháng còn; cuối tháng rụng nhiều
 - label: Thời gian
-  value: 3 ngày trở lên
 - label: Di chuyển
-  value: Thuê xe tự lái tiện nhất
 - label: Lưu ý
-  value: Gió và mưa có thể ảnh hưởng lịch trình
 ---
 
 Jeju tháng 11 là thời điểm nhiều người cân nhắc khi lên kế hoạch đi Hàn mùa cuối thu. Đảo có khí hậu **ôn hòa hơn đất liền** nhưng **gió mạnh hơn** và **lạnh hơn tháng 10** — ban ngày thường 12–18°C, ban đêm có thể xuống 8–12°C. Biển vẫn đẹp cho đi bộ ven bờ, nhưng tắm biển dài không còn phổ biến. Núi Hallasan có thể còn lá đỏ **đầu tháng 11**, trong khi **cuối tháng** rủi ro rụng lá hoặc đóng tuyến khi thời tiết xấu.

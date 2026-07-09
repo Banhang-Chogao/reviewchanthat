@@ -15,16 +15,16 @@ attribution:
   source_note: Kiểm tra app Starbucks Vietnam hoặc quầy order để biết chương trình
     Rewards hiện hành.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
-date: 2026-07-08 12:00:00+07:00
+date: "2026-07-08 12:00:00+07:00"
 description: Mẹo gọi đồ tại Starbucks Vietnam — size, tùy chỉnh, dùng app order trước
   và tích điểm Rewards. Kinh nghiệm thực tế từ chi nhánh Nguyễn Văn Trỗi.
 draft: false
 external_links:
 - title: Starbucks Vietnam
-  url: https://www.starbucks.vn/
+  url: "https://www.starbucks.vn/"
 image: images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp
 image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
 image_attribution_source: pexels_api
@@ -32,12 +32,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Iván Rivero
 image_creator_id: '233620'
-image_creator_url: https://www.pexels.com/@osho
+image_creator_url: "https://www.pexels.com/@osho"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-using-macbook-pro-on-brown-wooden-table-1001969/
+image_source_url: "https://www.pexels.com/photo/person-using-macbook-pro-on-brown-wooden-table-1001969/"
 series: starbucks-vietnam
 series_order: 6
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
@@ -54,11 +54,8 @@ tom_tat_nhanh:
 - label: Order nhanh
   value: Nói size + ít đá + ít ngọt
 - label: App
-  value: Order trước, thanh toán, tích sao
 - label: Giờ đông
-  value: 11h30–13h30 — dùng app
 - label: Chi nhánh quen
-  value: Nguyễn Văn Trỗi — barista nhớ gu
 ---
 
 Lần đầu order Starbucks, bạn có thể nghe nhân viên hỏi một loạt: "Size gì ạ? Anh/chị uống tại chỗ hay mang đi? Có cần ít đá không?" — đừng ngại. Sau vài lần, bạn sẽ có **công thức order** riêng và tiết kiệm được thời gian lẫn tiền (nhờ Rewards).

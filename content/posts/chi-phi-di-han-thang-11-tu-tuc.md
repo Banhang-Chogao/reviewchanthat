@@ -2,7 +2,7 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Chi phí đi Hàn tháng 11 tự túc 5N4Đ: thường từ 10–20 triệu VND/người tùy vé máy bay và khách sạn.", "Tháng 11 có thể rẻ hơn nhẹ so với cuối tháng 10: sau peak Oct, giá phòng và tour có xu hướng giảm.", "Các khoản chính: vé máy bay, nghỉ, ăn uống, di chuyển nội địa và vé tham quan.", "Mức giá trong bài là tham khảo: giá thực tế có thể thay đổi theo thời điểm và tỷ giá."]
+  items: '["Chi phí đi Hàn tháng 11 tự túc 5N4Đ: thường từ 10–20 triệu VND/người tùy vé máy bay và khách sạn.", "Tháng 11 có thể rẻ hơn nhẹ so với cuối tháng 10: sau peak Oct, giá phòng và tour có xu hướng giảm.", "Các khoản chính: vé máy bay, nghỉ, ăn uống, di chuyển nội địa và vé tham quan.", "Mức giá trong bài là tham khảo: giá thực tế có thể thay đổi theo thời điểm và tỷ giá."]'
   title: "Tóm tắt bài viết"
 attribution:
   copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 22:00:00+07:00
+date: "2026-07-08 22:00:00+07:00"
 description: >-
   Chi phí đi Hàn tháng 11 tự túc: bảng giá tham khảo vé máy bay, khách sạn, ăn uống, di chuyển và mẹo tiết kiệm cho chuyến 5N4Đ.
 draft: false
@@ -29,14 +29,11 @@ image_commercial_use: true
 image_creator: Светлана Конева
 image_creator_id: 269097219
 image_creator_url: >-
-  https://www.pexels.com/@269097219
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/pexels-photo-12787317/
 internal_links:
   - {"ref": "posts/di-han-thang-11-co-dep-khong.md", "title": "Đi Hàn tháng 11 có đẹp không?"}
   - {"ref": "posts/thoi-tiet-han-quoc-thang-11.md", "title": "Thời tiết Hàn Quốc tháng 11"}

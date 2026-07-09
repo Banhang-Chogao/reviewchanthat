@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 09:10:00+07:00
+date: "2026-07-08 09:10:00+07:00"
 description: High1 Ski Resort Jeongseon — ski resort thân thiện môi trường với nhà hàng xoay Sky 1340, slope đa dạng và trải nghiệm nghỉ dưỡng 2-3 ngày. So sánh chi phí và
 draft: false
 faq:
@@ -29,14 +29,11 @@ image_commercial_use: true
 image_creator: Dominik Gryzbon
 image_creator_id: 307186004
 image_creator_url: >-
-  https://www.pexels.com/@gryziu
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/ski-lift-in-bialka-tatrzanska-poland-30786149/
 internal_links:
   - {"ref": "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md", "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông"}
   - {"ref": "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md", "title": "Yongpyong Ski Resort"}

@@ -13,10 +13,10 @@ ai_summary:
     dữ liệu rò qua bên thứ ba tùy cách dùng.'
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 10:20:00+07:00
+date: "2026-07-08 10:20:00+07:00"
 description: 'Quyền riêng tư trên iOS 27: Private Cloud Compute, Siri AI, parental
   controls, quyền app và checklist cho người dùng iPhone tại Việt Nam.'
 draft: false
@@ -27,12 +27,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jess Bailey Designs
 image_creator_id: '229739'
-image_creator_url: https://www.pexels.com/@jessbaileydesign
+image_creator_url: "https://www.pexels.com/@jessbaileydesign"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/iphone-ipad-laptop-788946/
+image_source_url: "https://www.pexels.com/photo/iphone-ipad-laptop-788946/"
 series: ios-27-co-gi-moi
 series_order: 8
 series_title: iOS 27 có gì mới
@@ -49,11 +49,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Privacy trên iOS 27
 - label: AI
-  value: On-device + Private Cloud Compute
 - label: Trẻ em
-  value: Communication Safety, Ask to Browse
 - label: Hợp với
-  value: Người quan tâm dữ liệu cá nhân và phụ huynh
 ---
 
 Mỗi lần Apple nhắc **AI**, câu hỏi tiếp theo luôn là: **dữ liệu của tôi đi đâu?** iOS 27 không ngoại lệ — Siri AI đọc Messages, Photos AI xử lý ảnh gia đình, Safari Notify Me theo dõi trang web. Apple hứa **on-device** và **Private Cloud Compute**, nhưng người dùng vẫn cần hiểu giới hạn thực tế.

@@ -13,10 +13,10 @@ ai_summary:
     hướng chatbot web thuần.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 08:40:00+07:00
+date: "2026-07-08 08:40:00+07:00"
 description: 'Apple Intelligence trên iOS 27: Siri AI, yêu cầu phần cứng iPhone, tiếng
   Việt và giới hạn thực tế cho người dùng Việt Nam.'
 draft: false
@@ -29,10 +29,10 @@ image_creator: ANA QUIROSA
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/close-up-of-a-person-holding-an-iphone-15-pro-19060767/
+image_source_url: "https://www.pexels.com/photo/close-up-of-a-person-holding-an-iphone-15-pro-19060767/"
 series: ios-27-co-gi-moi
 series_order: 3
 series_title: iOS 27 có gì mới
@@ -49,11 +49,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: AI trên iPhone với iOS 27
 - label: Yêu cầu
-  value: iPhone 15 Pro/Pro Max hoặc iPhone 16+
 - label: Tính năng
-  value: Siri AI, Photos, Writing Tools, Passwords
 - label: Hợp với
-  value: Người muốn dùng AI trên iPhone
 ---
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **iOS 27** là lần Apple cố biến AI thành thói quen trên iPhone — không chỉ demo keynote. Câu hỏi thực tế: **iPhone của bạn chạy được những gì, và tiếng Việt đến đâu?**

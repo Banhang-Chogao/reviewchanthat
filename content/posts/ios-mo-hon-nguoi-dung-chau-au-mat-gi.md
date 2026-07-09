@@ -9,7 +9,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - cong-nghe
-date: 2026-07-08 10:20:00+07:00
+date: "2026-07-08 10:20:00+07:00"
 description: Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu được gì và mất gì? Phân tích rủi ro bảo mật, hoàn tiền, trải nghiệm gia đình và những đánh đổi Apple không nói
 draft: false
 external_links:
@@ -28,11 +28,9 @@ image_creator_id:
 image_creator_url: 
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/person-holding-black-iphone-7-3861969/
 series: apple-ec-dma-app-store-ios
 series_order: 5
 series_title: >-

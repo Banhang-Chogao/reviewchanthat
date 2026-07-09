@@ -15,22 +15,20 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.koreatodo.com/top-autumn-foliage-sites-korea.'
+    https: "//www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.koreatodo.com/top-autumn-foliage-sites-korea.'"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 15:00:00+07:00
+date: "2026-07-08 15:00:00+07:00"
 description: 'Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami Island, điểm ngắm
   lá đỏ và mẹo sắp lịch theo ngày đổ màu thực tế.'
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: KoreaToDo — Gapyeong Day Trip Nami Island
-  url: https://www.koreatodo.com/gapyeong-day-trip-nami-island
 - title: KoreaToDo — Top Autumn Foliage Sites
-  url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
 image: images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp
 image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
 image_attribution_source: pexels_api
@@ -38,27 +36,20 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: sn arafat
 image_creator_id: '15946'
-image_creator_url: https://www.pexels.com/@sn-arafat-15946
+image_creator_url: "https://www.pexels.com/@sn-arafat-15946"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-69918/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-69918/"
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
-  title: Đi Hàn tháng 10 có đẹp không?
 - ref: posts/thoi-tiet-han-quoc-thang-10.md
-  title: Thời tiết và mùa lá đỏ tháng 10
 - ref: posts/di-han-thang-10-mac-gi.md
-  title: Đi Hàn tháng 10 mặc gì?
 - ref: posts/seoul-thang-10-nen-di-dau.md
-  title: Seoul tháng 10 nên đi đâu?
 - ref: posts/nami-thang-10-co-dang-di-khong.md
-  title: Nami Island tháng 10
 - ref: posts/seoraksan-thang-10-ngam-la-do.md
-  title: Seoraksan tháng 10
 - ref: posts/chi-phi-di-han-thang-10-tu-tuc.md
-  title: Chi phí đi Hàn tháng 10 tự túc
 series: di-han-thang-10
 series_order: 10
 series_title: Đi Hàn tháng 10
@@ -75,13 +66,9 @@ tom_tat_nhanh:
 - label: Thời gian
   value: 5 ngày 4 đêm
 - label: Trọng tâm
-  value: Seoul + Nami + lá đỏ
 - label: Di chuyển
-  value: Metro, ITX, xe buýt
 - label: Phù hợp
-  value: Người đi lần đầu
 - label: Lưu ý
-  value: Ngày lá đỏ thay đổi theo năm
 ---
 
 Năm ngày bốn đêm là khoảng thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để làm quen Seoul, đi một day trip ra ngoại ô, và dành thời gian cho mùa lá đỏ. Lịch trình dưới đây **không bao gồm Busan hay Jeju** vì thêm thành phố khác sẽ làm lịch trình quá gấp; nếu muốn mở rộng, xem [Busan tháng 10]({{< ref "posts/busan-thang-10-nen-di-dau" >}}) hoặc [Jeju tháng 10]({{< ref "posts/jeju-thang-10-co-dep-khong" >}}) và cân nhắc kéo dài thành 7–8 ngày.

@@ -18,22 +18,19 @@ attribution:
   source_note: 'Tham khảo: https://english.visitkorea.or.kr, https://www.kma.go.kr,
     https://www.koreatodo.com'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 17:00:00+07:00
+date: "2026-07-08 17:00:00+07:00"
 description: Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết lạnh, mặc gì, lịch
   trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt.
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: KoreaToDo — Top Autumn Foliage Sites
-  url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
 - title: Visit Korea — Seoul Fall Forests
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=230041
 - title: Korea Meteorological Administration
-  url: https://www.kma.go.kr
 image: images/posts/di-han-thang-11-co-dep-khong.webp
 image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
 image_attribution_source: pexels_api
@@ -41,12 +38,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
 image_creator_id: '222549'
-image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
+image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-2131620/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-2131620/"
 series: di-han-thang-11
 series_order: 1
 series_title: Đi Hàn tháng 11
@@ -64,11 +61,8 @@ tom_tat_nhanh:
 - label: Mùa
   value: Cuối thu — lạnh dần, peak lá nhiều nơi
 - label: Lá đổi màu
-  value: Peak Seoul thường đầu–giữa tháng 11
 - label: Phù hợp
-  value: Ngắm lá peak, cung đình, công viên
 - label: Lưu ý
-  value: Lạnh hơn tháng 10, trời tối sớm
 ---
 
 Bạn đang cân nhắc **đi Hàn tháng 11** sau khi thấy ảnh lá đỏ rực ở Seoul, Bukchon hay cung điện — và tự hỏi: *tháng 11 có còn đẹp không, hay đã muộn so với tháng 10?* Câu trả lời ngắn: **tháng 11 thường là tháng peak lá đỏ ở Seoul và nhiều khu vực đô thị**, nhưng **lạnh hơn rõ** so với tháng 10 và một số núi cao có thể **đã rụng lá** vào cuối tháng. Trải nghiệm cụ thể phụ thuộc **bạn đi đầu hay cuối tháng 11**, và **năm đó lá đỏ đến sớm hay muộn**.

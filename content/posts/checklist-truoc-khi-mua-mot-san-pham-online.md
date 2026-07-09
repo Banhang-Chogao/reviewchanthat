@@ -13,21 +13,19 @@ attribution:
   source_note: Checklist được xây dựng từ kinh nghiệm mua sắm online nhiều năm và
     tham khảo các chính sách từ sàn thương mại điện tử Việt Nam.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
 - doi-song
-date: 2026-06-20 14:00:00+07:00
+date: "2026-06-20 14:00:00+07:00"
 description: 6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tránh hối hận sau khi
   nhận hàng.
 draft: false
 external_links:
 - title: Bộ Công Thương - Bảo vệ người tiêu dùng
-  url: https://www.moit.gov.vn/
+  url: "https://www.moit.gov.vn/"
 - title: Shopee - Chính sách đổi trả
-  url: https://help.shopee.vn/portal/
 - title: Tiki - Chính sách bảo hành
-  url: https://tiki.vn/bao-hanh/
 faq:
 - answer: Có, nếu bạn mua từ shop uy tín, kiểm tra kỹ chính sách đổi trả, và thanh
     toán qua các kênh bảo vệ người mua như Shopee Pay, ví điện tử.
@@ -35,10 +33,8 @@ faq:
 - answer: 'Tùy sản phẩm: Shopee đa dạng và giá cạnh tranh, Tiki uy tín về hàng chính
     hãng và giao nhanh, Lazada phù hợp mua hàng quốc tế. Nên so sánh giá cả 3 sàn
     trước khi mua.'
-  question: Nên mua trên sàn nào tốt nhất?
 - answer: Luôn kiểm tra shop (sao, số đơn, review có ảnh), đọc kỹ mô tả, chụp lại
     màn hình đơn hàng, và ưu tiên thanh toán khi nhận hàng (COD) cho lần mua đầu.
-  question: Làm sao để không bị lừa khi mua online?
 image: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
 image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
 image_attribution_source: pexels_api
@@ -46,12 +42,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Tara Winstead
 image_creator_id: '2702888'
-image_creator_url: https://www.pexels.com/@tara-winstead
+image_creator_url: "https://www.pexels.com/@tara-winstead"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/red-check-mark-in-a-box-8850721/
+image_source_url: "https://www.pexels.com/photo/red-check-mark-in-a-box-8850721/"
 slug: checklist-truoc-khi-mua-mot-san-pham-online
 tags:
 - mua sắm online
@@ -63,11 +59,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Checklist kiểm tra trước khi mua hàng online
 - label: Mục đích
-  value: Tránh mua phải hàng kém chất lượng, hối hận sau khi mua
 - label: Hợp với
-  value: Người thường xuyên mua sắm online, người muốn tiêu tiền thông minh
 - label: Điểm chính
-  value: Kiểm tra người bán, chính sách đổi trả, đọc kỹ mô tả sản phẩm
 ---
 
 Mua sắm online tiện thật đấy, nhưng mua xong mới hối hận thì cũng nhiều. Mình từng mua không biết bao nhiêu thứ vì "giá rẻ quá không mua uổng" — kết quả là để xó hoặc đem bán lại.

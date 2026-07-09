@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: >-
   Bãi biển đẹp nhất Jeju: Hamdeok nước xanh như Maldives, Hyeopjae hoàng hôn lãng mạn. So sánh và gợi ý chọn resort ven biển Jeju.
 draft: false
@@ -29,14 +29,11 @@ image_commercial_use: true
 image_creator: Kharl Anthony Paica
 image_creator_id: 1701570
 image_creator_url: >-
-  https://www.pexels.com/@kharlitos
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/a-rocky-shoreline-with-a-waterfall-and-a-rocky-cliff-16663092/
 series: du-lich
 series_order: 18
 series_title: Du lịch Hàn Quốc 2026

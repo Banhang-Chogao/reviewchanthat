@@ -18,7 +18,7 @@ attribution:
   source_note: Review trải nghiệm thực tế; không đại diện Starbucks Corporation hay
     đối tác vận hành.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
 date: '2026-07-09 08:00:00+07:00'
@@ -27,7 +27,7 @@ description: Review Starbucks Nguyễn Văn Trỗi Phú Nhuận — nhân viên 
 draft: false
 external_links:
 - title: Starbucks Vietnam — Store locator
-  url: https://www.starbucks.vn/
+  url: "https://www.starbucks.vn/"
 image: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
 image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
@@ -42,7 +42,7 @@ image_license_url: ''
 image_owner: self
 image_provider: self
 image_source: self
-image_source_url: https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg
+image_source_url: "https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg"
 image_status: verified
 series: starbucks-vietnam
 series_order: 2
@@ -60,11 +60,8 @@ tom_tat_nhanh:
 - label: Địa điểm
   value: Nguyễn Văn Trỗi, Phú Nhuận, TP.HCM
 - label: Điểm cộng
-  value: Nhân viên thân thiện, đồ uống ổn định
 - label: Phù hợp
-  value: Làm việc, học nhóm, gặp gỡ ngắn
 - label: Ảnh
-  value: Chụp thực tế tại chi nhánh
 ---
 
 Có những chi nhánh Starbucks bạn ghé một lần rồi thôi, và có những nơi trở thành điểm quen mỗi tuần. Với mình, **Starbucks Nguyễn Văn Trỗi** (Phú Nhuận, TP.HCM) thuộc nhóm thứ hai — nơi mình đã ngồi làm việc, họp nhóm nhỏ, và gọi ly quen đến mức barista nhận ra trước khi mình kịp đọc tên đồ uống.

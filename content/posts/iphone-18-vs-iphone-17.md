@@ -13,7 +13,7 @@ ai_summary:
     mua ngay hay trì hoãn.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 15:00:00+07:00'
@@ -22,13 +22,10 @@ description: 'iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản 
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 roundup
-  url: https://www.macrumors.com/roundup/iphone-18/
+  url: "https://www.macrumors.com/roundup/iphone-18/"
 - title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
 - title: AppleInsider — iPhone 18 expectations
-  url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 - title: MacRumors — leaker downgrade iPhone 18
-  url: https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/
 image: images/posts/iphone-18-vs-iphone-17.webp
 image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
 image_attribution_source: pexels_api
@@ -36,12 +33,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Osama Saad
 image_creator_id: '257685'
-image_creator_url: https://www.pexels.com/@osama-saad-257685
+image_creator_url: "https://www.pexels.com/@osama-saad-257685"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-788880/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-788880/"
 series: iphone-18-co-gi-moi
 series_order: 10
 series_title: iPhone 18 có gì mới
@@ -59,11 +56,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: So sánh mua iPhone 17 vs chờ 18
 - label: iPhone 17
-  value: Sản phẩm thật — ProMotion base 6,3 inch
 - label: iPhone 18
-  value: Tin đồn — Pro 9/2026, base đầu 2027
 - label: Kết luận nhanh
-  value: 17 đủ cho đa số; chờ 18 Pro nếu từ 14 trở xuống
 ---
 
 Giữa **mua iPhone 17 ngay** và **chờ iPhone 18**, năm 2026 khó hơn mọi kỳ vì Apple **chưa công bố** thế hệ 18, trong khi iPhone 17 (đã ra mắt) lại là bước nhảy rõ trên **bản tiêu chuẩn** — **ProMotion 120Hz** và màn **6,3 inch**. Tin đồn thêm **split launch**: Pro tháng 9/2026, base có thể **đầu 2027** ([MacRumors](https://www.macrumors.com/roundup/iphone-18/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more)).

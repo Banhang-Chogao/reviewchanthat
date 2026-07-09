@@ -16,22 +16,20 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.koreatodo.com/top-autumn-foliage-sites-korea.'
+    https: "//www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.koreatodo.com/top-autumn-foliage-sites-korea.'"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 21:30:00+07:00
+date: "2026-07-08 21:30:00+07:00"
 description: 'Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ, Nami đầu
   chuyến, Bukhansan và mẹo sắp lịch theo tuần đổ màu thực tế.'
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: KoreaToDo — Gapyeong Day Trip Nami Island
-  url: https://www.koreatodo.com/gapyeong-day-trip-nami-island
 - title: KoreaToDo — Top Autumn Foliage Sites
-  url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
 image: images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp
 image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
 image_attribution_source: pexels_api
@@ -39,27 +37,20 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Светлана Конева
 image_creator_id: '269097219'
-image_creator_url: https://www.pexels.com/@269097219
+image_creator_url: "https://www.pexels.com/@269097219"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787318/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-12787318/"
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
-  title: Đi Hàn tháng 11 có đẹp không?
 - ref: posts/thoi-tiet-han-quoc-thang-11.md
-  title: Thời tiết Hàn Quốc tháng 11
 - ref: posts/di-han-thang-11-mac-gi.md
-  title: Đi Hàn tháng 11 mặc gì?
 - ref: posts/seoul-thang-11-nen-di-dau.md
-  title: Seoul tháng 11 nên đi đâu?
 - ref: posts/nami-thang-11-co-dang-di-khong.md
-  title: Nami Island tháng 11
 - ref: posts/seoraksan-thang-11-ngam-la-do.md
-  title: Seoraksan tháng 11
 - ref: posts/chi-phi-di-han-thang-11-tu-tuc.md
-  title: Chi phí đi Hàn tháng 11 tự túc
 series: di-han-thang-11
 series_order: 10
 series_title: Đi Hàn tháng 11
@@ -76,13 +67,9 @@ tom_tat_nhanh:
 - label: Thời gian
   value: 5 ngày 4 đêm
 - label: Trọng tâm
-  value: Seoul peak lá đỏ + Nami
 - label: Di chuyển
-  value: Metro, ITX, xe buýt
 - label: Phù hợp
-  value: Săn peak foliage đô thị
 - label: Lưu ý
-  value: Nami đi sớm; lạnh hơn tháng 10
 ---
 
 Năm ngày bốn đêm là khung thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để trải nghiệm **peak lá đỏ ở Seoul**, đi một day trip ra ngoại ô và dành thời gian cho cung điện, công viên. Khác với tháng 10, tháng 11 **Seoul thường đẹp hơn về foliage** nhưng **lạnh hơn rõ**; Nami và Seoraksan **đổ màu sớm hơn** nên cần xếp lịch khác.

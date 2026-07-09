@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 09:20:00+07:00
+date: "2026-07-08 09:20:00+07:00"
 description: Alpensia Ski 700 Pyeongchang — ski resort từng đăng cai Olympic 2018. 6 slope, beginner-friendly, kết hợp nghỉ dưỡng và water park. So sánh với Yongpyong.
 draft: false
 faq:
@@ -29,14 +29,11 @@ image_commercial_use: true
 image_creator: 정규송 Nui MALAMA
 image_creator_id: 169330637
 image_creator_url: >-
-  https://www.pexels.com/@nui-malama-169330637
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/people-on-a-cable-car-in-a-mountain-valley-20465675/
 internal_links:
   - {"ref": "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md", "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông"}
   - {"ref": "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md", "title": "Yongpyong Ski Resort"}

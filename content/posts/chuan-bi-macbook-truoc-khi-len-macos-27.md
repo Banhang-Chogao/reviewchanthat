@@ -2,14 +2,14 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Backup Time Machine hoặc clone SSD là bước bắt buộc trước macOS 27 beta hoặc public release ngày đầu.", "Giải phóng 25–35GB SSD; beta và index Spotlight AI cần không gian tạm lớn.", "Kiểm tra app công việc, plugin và license trên trang nhà phát triển trước khi nâng cấp.", "Lập kế hoạch rollback: biết cách khôi phục từ backup nếu beta làm máy không boot được."]
+  items: '["Backup Time Machine hoặc clone SSD là bước bắt buộc trước macOS 27 beta hoặc public release ngày đầu.", "Giải phóng 25–35GB SSD; beta và index Spotlight AI cần không gian tạm lớn.", "Kiểm tra app công việc, plugin và license trên trang nhà phát triển trước khi nâng cấp.", "Lập kế hoạch rollback: biết cách khôi phục từ backup nếu beta làm máy không boot được."]'
   title: "Tóm tắt bài viết"
 author: Minh Hoàng
 avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - cong-nghe
-date: 2026-07-08 13:40:00+07:00
+date: "2026-07-08 13:40:00+07:00"
 description: >-
   Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time Machine, dọn SSD, kiểm tra app, RAM và kế hoạch rollback.
 draft: false
@@ -22,14 +22,11 @@ image_commercial_use: true
 image_creator: Field Engineer
 image_creator_id: 147254
 image_creator_url: >-
-  https://www.pexels.com/@field-engineer-147254
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/silver-macbook-on-brown-wooden-table-442150/
 series: macos-27-co-gi-moi
 series_order: 9
 series_title: macOS 27 có gì mới

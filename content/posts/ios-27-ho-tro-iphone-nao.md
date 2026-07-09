@@ -13,10 +13,10 @@ ai_summary:
     hoặc đổi máy.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 08:20:00+07:00
+date: "2026-07-08 08:20:00+07:00"
 description: Danh sách iPhone tương thích iOS 27 theo Apple, phân tích Apple Intelligence,
   iPhone cũ và lộ trình cho người dùng Việt Nam.
 draft: false
@@ -30,10 +30,10 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/apple-smartphone-iphone-14-on-the-palmrest-of-macbook-pro-laptop-18311094/
+image_source_url: "https://www.pexels.com/photo/apple-smartphone-iphone-14-on-the-palmrest-of-macbook-pro-laptop-18311094/"
 series: ios-27-co-gi-moi
 series_order: 2
 series_title: iOS 27 có gì mới
@@ -50,11 +50,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: iPhone nào chạy được iOS 27
 - label: Nguồn
-  value: apple.com/os/ios — Apple đã công bố
 - label: Điểm then chốt
-  value: iOS 27 từ iPhone 11; AI cần 15 Pro hoặc 16+
 - label: Hợp với
-  value: Ai đang dùng iPhone cũ hoặc cân nhắc mua máy second-hand
 ---
 
 “iPhone của mình còn lên iOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **iPhone 11**, **iPhone 12 mini** hoặc **iPhone 13** mua từ 2020–2022. Câu trả lời ngắn theo Apple: **hầu hết iPhone từ 2019 trở lên đều trong danh sách** — nhưng **Apple Intelligence** lại là câu chuyện khác.

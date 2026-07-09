@@ -13,7 +13,7 @@ ai_summary:
     chờ hay mua ngay.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 14:00:00+07:00'
@@ -22,13 +22,10 @@ description: 'Tin đồn giá iPhone 18: Pro có thể đắt hơn, Fold ~2.000 
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
+  url: "https://www.macrumors.com/roundup/iphone-18-pro/"
 - title: MacRumors — iPhone 18 roundup
-  url: https://www.macrumors.com/roundup/iphone-18/
 - title: MacRumors — iPhone Fold roundup
-  url: https://www.macrumors.com/roundup/iphone-fold/
 - title: AppleInsider — iPhone 18 expectations
-  url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 image: images/posts/iphone-18-gia-bao-nhieu.webp
 image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
 image_attribution_source: pexels_api
@@ -36,12 +33,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Osama Saad
 image_creator_id: '257685'
-image_creator_url: https://www.pexels.com/@osama-saad-257685
+image_creator_url: "https://www.pexels.com/@osama-saad-257685"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-788881/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-788881/"
 series: iphone-18-co-gi-moi
 series_order: 9
 series_title: iPhone 18 có gì mới
@@ -59,11 +56,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Tin đồn giá iPhone 18
 - label: Pro
-  value: Có thể +~200 USD (IDC/WSJ qua MacRumors)
 - label: Fold
-  value: ~2.000 USD (tin đồn)
 - label: Việt Nam
-  value: Cộng VAT, tỷ giá; so sánh khuyến mãi iPhone 17
 ---
 
 “**iPhone 18 giá bao nhiêu?**” là câu hỏi đến sớm hơn mọi năm — vì tin đồn **tách lịch ra mắt** (Pro trước, base sau) và vì chi phí **chip 2nm**, **RAM 12GB** hay **iPhone Fold** được đồn sẽ đẩy biên lợi nhuận lên. Apple **chưa công bố** bất kỳ mức giá nào cho iPhone 18; số liệu dưới đây là **ước tính analyst** và **[Tin đồn / chưa xác nhận]** từ [MacRumors](https://www.macrumors.com/roundup/iphone-18-pro/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more).

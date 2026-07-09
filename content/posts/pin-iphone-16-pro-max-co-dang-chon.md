@@ -9,7 +9,7 @@ ai_summary:
   - Pro Max hợp người dùng cả ngày không sạc giữa chiều.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 11:00:00+07:00'
@@ -23,12 +23,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jobert Enamno
 image_creator_id: '1689872'
-image_creator_url: https://www.pexels.com/@jobzky
+image_creator_url: "https://www.pexels.com/@jobzky"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/young-woman-using-smartphone-in-cozy-cafe-31446172/
+image_source_url: "https://www.pexels.com/photo/young-woman-using-smartphone-in-cozy-cafe-31446172/"
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 7
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
@@ -44,11 +44,8 @@ tom_tat_nhanh:
 - label: Pin
   value: Lớn hơn thế hệ trước theo Apple
 - label: Chip
-  value: A18 Pro tiết kiệm hơn một số tác vụ
 - label: So 15
-  value: 16 thường trụ lâu hơn dùng nặng
 - label: Máy cũ
-  value: Kiểm tra Battery Health như 15
 ---
 
 **Pin** là lý do nhiều người chọn **Pro Max** thay Pro — không phải camera. iPhone 16 Pro Max **pin lớn hơn** và **A18 Pro** theo Apple, nhưng **màn 6.9 inch** cũng **ăn thêm**. Kết quả thực tế: **có đáng chọn 16 vì pin không?**

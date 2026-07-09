@@ -20,7 +20,7 @@ checklist:
   - {"items": ["Sạc dự phòng (10.000 mAh+)", "Cáp sạc (nhiều loại)", "Adapter chuyển đổi (Hàn dùng 2 chấu tròn)", "Tai nghe", "Máy ảnh (nếu có)"], "title": "Đồ điện tử"}
   - {"items": ["Thuốc cảm, đau bụng", "Băng cá nhân", "Thuốc chống muỗi", "Men tiêu hóa"], "title": "Thuốc & y tế"}
   - {"items": ["Túi chống nước (cho điện thoại)", "Mũ rộng vành", "Kính râm", "Túi đựng đồ ướt", "Gối cổ (máy bay)"], "title": "Khác"}
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: >-
   Checklist vali đi Hàn Quốc mùa hè: mặc gì, mang gì? Danh sách đồ cần mang theo — quần áo, mỹ phẩm, thuốc, giấy tờ và đồ điện tử.
 draft: false
@@ -37,14 +37,11 @@ image_commercial_use: true
 image_creator: Mizuno K
 image_creator_id: 264153375
 image_creator_url: >-
-  https://www.pexels.com/@mizunokozuki
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/girls-looking-through-clothes-in-a-suitcase-13929267/
 internal_links:
   - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
   - {"ref": "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md", "title": "Đi Hàn mùa hè mặc gì cho đẹp?"}

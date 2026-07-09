@@ -2,7 +2,7 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["10 điểm tránh nóng dưới nước ở Hàn Quốc theo Trip.Best: từ biển Jeju, bãi biển Busan đến công viên nước và day trip gần Seoul.", "Chia ba nhóm chính: Jeju (Udo, Jungmun, Shinhwa), Busan (Haeundae, Gwangalli, Cheongsapo, Club D Oasis), gần Seoul (Nami Island, Wolmido, Caribbean Bay).", "Mỗi điểm đều có hướng dẫn lịch trình, cách đi và nên kết hợp với điểm nào.", "Gợi ý lịch trình 7 ngày mix Seoul-Busan-Jeju cho người Việt lần đầu du lịch Hàn Quốc mùa hè."]
+  items: '["10 điểm tránh nóng dưới nước ở Hàn Quốc theo Trip.Best: từ biển Jeju, bãi biển Busan đến công viên nước và day trip gần Seoul.", "Chia ba nhóm chính: Jeju (Udo, Jungmun, Shinhwa), Busan (Haeundae, Gwangalli, Cheongsapo, Club D Oasis), gần Seoul (Nami Island, Wolmido, Caribbean Bay).", "Mỗi điểm đều có hướng dẫn lịch trình, cách đi và nên kết hợp với điểm nào.", "Gợi ý lịch trình 7 ngày mix Seoul-Busan-Jeju cho người Việt lần đầu du lịch Hàn Quốc mùa hè."]'
   title: "Tóm tắt bài viết"
 attribution:
   copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: >-
   Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm đi
 draft: false
@@ -29,11 +29,9 @@ image_attribution_verified: false
 image_commercial_use: true
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/bundle-of-assorted-denomination-euro-banknotes-259234/
 internal_links:
   - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
 series: du-lich

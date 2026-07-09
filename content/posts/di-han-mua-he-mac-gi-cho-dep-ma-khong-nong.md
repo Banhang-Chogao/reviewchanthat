@@ -15,10 +15,10 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
     kinh nghiệm thực tế.'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Đi Hàn Quốc mùa hè mặc gì cho đẹp mà không nóng? Gợi ý outfit, chất liệu
   vải, phối đồ theo concept và mẹo chống nóng.
 draft: false
@@ -27,9 +27,7 @@ faq:
   question: Mặc chất liệu gì cho mát?
 - answer: Đầm maxi hoặc blouse + chân váy chữ A. Giày thể thao trắng. Tóc buộc hoặc
     tết.
-  question: Mặc gì cho ra dáng Hàn Quốc?
 - answer: Áo chống nắng, mũ, kính râm, kem chống nắng. Tránh vải nilon, bó sát.
-  question: Cần tránh mặc gì?
 image: images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp
 image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
 image_attribution_source: pexels_api
@@ -37,33 +35,23 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Huy Phan
 image_creator_id: '316220'
-image_creator_url: https://www.pexels.com/@huy-phan-316220
+image_creator_url: "https://www.pexels.com/@huy-phan-316220"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/people-walking-with-umbrellas-on-the-pavement-in-city-19271589/
+image_source_url: "https://www.pexels.com/photo/people-walking-with-umbrellas-on-the-pavement-in-city-19271589/"
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-  title: Du lịch Hàn Quốc mùa hè
 - ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-  title: Checklist vali
 - ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-  title: Hàn Quốc tháng 7
 - ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
-  title: Hàn Quốc tháng 8
 - ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
-  title: Seoul ngày mưa
 - ref: posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md
-  title: Busan mùa hè
 - ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md
-  title: Jeju mùa hè
 - ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
-  title: Lịch trình Seoul 3 ngày
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-  title: Top 20 hoạt động
 - ref: posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md
-  title: Đi Jeju tháng 7-8
 series: du-lich-han-quoc-mua-he
 series_order: 13
 series_title: Du lịch Hàn Quốc mùa hè
@@ -80,13 +68,9 @@ tom_tat_nhanh:
 - label: Chất liệu
   value: Cotton, lanh, modal
 - label: Concept
-  value: Năng động, Hàn Quốc, biển
 - label: Giày
-  value: Thể thao trắng + sandal
 - label: Phụ kiện
-  value: Mũ, kính, túi chống nước
 - label: Lưu ý
-  value: Tránh vải nilon, bó sát
 ---
 
 Hàn Quốc mùa hè nóng ẩm — nhưng không phải vì thế mà phải mặc xấu. Chỉ cần chọn đúng chất liệu và phối đồ thông minh, bạn vẫn có outfit đẹp và mát mẻ.

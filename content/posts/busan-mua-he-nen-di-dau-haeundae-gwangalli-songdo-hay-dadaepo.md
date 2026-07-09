@@ -2,7 +2,7 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Busan có 4 bãi biển chính: Haeundae (sầm uất), Gwangalli (ngắm cầu), Songdo (cable car), Dadaepo (gia đình).", "Mỗi bãi biển có đặc điểm riêng — Haeundae đông nhất, Gwangalli lãng mạn nhất, Songdo yên tĩnh nhất.", "Bài viết so sánh chi tiết và gợi ý lịch trình 3 ngày Busan mùa hè."]
+  items: '["Busan có 4 bãi biển chính: Haeundae (sầm uất), Gwangalli (ngắm cầu), Songdo (cable car), Dadaepo (gia đình).", "Mỗi bãi biển có đặc điểm riêng — Haeundae đông nhất, Gwangalli lãng mạn nhất, Songdo yên tĩnh nhất.", "Bài viết so sánh chi tiết và gợi ý lịch trình 3 ngày Busan mùa hè."]'
   title: "Tóm tắt bài viết"
 attribution:
   copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo và Dadaepo — bãi biển nào phù hợp nhất cho chuyến đi của bạn?
 draft: false
 faq:
@@ -28,14 +28,11 @@ image_commercial_use: true
 image_creator: thuan Nguyen
 image_creator_id: 1317341160
 image_creator_url: >-
-  https://www.pexels.com/@thuan-nguyen-1317341160
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/vibrant-nighttime-skyline-of-busan-south-korea-29861385/
 internal_links:
   - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
   - {"ref": "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md", "title": "Haeundae Beach Busan"}

@@ -13,10 +13,10 @@ ai_summary:
     mùa thu 2026.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 11:20:00+07:00
+date: "2026-07-08 11:20:00+07:00"
 description: Danh sách Mac tương thích macOS Golden Gate 27 theo Apple, phân tích
   Mac Intel bị loại, M1 vs M4 và lộ trình cho người dùng Việt Nam.
 draft: false
@@ -27,12 +27,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: hitesh choudhary
 image_creator_id: '97941'
-image_creator_url: https://www.pexels.com/@hiteshchoudhary
+image_creator_url: "https://www.pexels.com/@hiteshchoudhary"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/turned-on-macbook-pro-693859/
+image_source_url: "https://www.pexels.com/photo/turned-on-macbook-pro-693859/"
 series: macos-27-co-gi-moi
 series_order: 2
 series_title: macOS 27 có gì mới
@@ -49,11 +49,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Mac nào chạy được macOS 27
 - label: Nguồn
-  value: apple.com/os/macos — Apple đã công bố
 - label: Điểm then chốt
-  value: Chỉ Apple Silicon 2020+ trong danh sách chính thức
 - label: Hợp với
-  value: Ai đang dùng Mac Intel hoặc M1 cũ
 ---
 
 “Mac của mình còn lên macOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **MacBook Pro Intel**, **iMac 27 inch Intel** hoặc **Mac mini Intel** mua từ 2018–2020. Câu trả lời ngắn theo Apple: **chỉ Mac Apple Silicon trong danh sách chính thức**.

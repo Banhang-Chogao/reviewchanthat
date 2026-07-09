@@ -18,10 +18,10 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org,
     https://www.pexels.com.'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Phuket mùa mưa có nên đi không? Phân tích biển động, tour đảo, chi phí
   tháng 7-8 và cách xếp lịch an toàn — so sánh với Koh Samui.
 draft: false
@@ -34,11 +34,11 @@ image_creator: ''
 image_creator_id: 2160388760
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/tropical-beach-in-phuket-thailand-with-scenic-views-36687407/
+image_source_url: "https://www.pexels.com/photo/tropical-beach-in-phuket-thailand-with-scenic-views-36687407/"
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 5
@@ -56,11 +56,8 @@ tom_tat_nhanh:
 - label: Mùa
   value: Tháng 5–10 (mưa nhiều nhất T9)
 - label: Biển
-  value: Sóng to, nước đục
 - label: Tour đảo
-  value: Rủi ro huỷ
 - label: Chi phí
-  value: Rẻ hơn 30–50% so với mùa khô
 ---
 
 ## Phuket mùa mưa — nên đi hay không?

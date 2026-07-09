@@ -13,7 +13,7 @@ ai_summary:
     17.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 06:00:00+07:00'
@@ -22,13 +22,10 @@ description: Tổng hợp tin đồn iPhone 18 trước mùa ra mắt — lịch
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 roundup
-  url: https://www.macrumors.com/roundup/iphone-18/
+  url: "https://www.macrumors.com/roundup/iphone-18/"
 - title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
 - title: MacRumors — iPhone Fold roundup
-  url: https://www.macrumors.com/roundup/iphone-fold/
 - title: AppleInsider — iPhone 18 expectations (Jan 2026)
-  url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 image: images/posts/iphone-18-co-gi-moi.webp
 image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
 image_attribution_source: pexels_api
@@ -36,12 +33,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Mariano Ruffa
 image_creator_id: '45855'
-image_creator_url: https://www.pexels.com/@mariano-ruffa-45855
+image_creator_url: "https://www.pexels.com/@mariano-ruffa-45855"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-169400/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-169400/"
 series: iphone-18-co-gi-moi
 series_order: 1
 series_title: iPhone 18 có gì mới
@@ -58,11 +55,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Tổng quan tin đồn iPhone 18
 - label: Trạng thái
-  value: Chưa có thông cáo Apple
 - label: Timeline đồn
-  value: Pro/Fold 9/2026; base 2027
 - label: Series
-  value: 11 bài — hướng dẫn mua máy
 ---
 
 Mỗi mùa thu, cộng đồng iPhone lại hỏi: **thế hệ mới có đáng chờ không?** Với **iPhone 18**, câu hỏi phức tạp hơn vì Apple được đồn sẽ **tách lịch ra mắt** — Pro và Fold trước, bản tiêu chuẩn sau. Apple **chưa xác nhận** bất kỳ chi tiết nào; bài này là bản đồ tin đồn có nguồn để bạn đọc trước khi quyết định mua hay chờ.

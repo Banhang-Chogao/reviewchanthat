@@ -15,19 +15,18 @@ attribution:
   source_note: Bài viết tổng hợp từ trải nghiệm cá nhân và các nguyên tắc tài chính
     cá nhân phổ biến.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
 - tai-chinh
-date: 2026-06-25 10:00:00+07:00
+date: "2026-06-25 10:00:00+07:00"
 description: Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo hành tốt và trải nghiệm
   sử dụng. Bài viết này giúp bạn xác định ưu tiên.
 draft: false
 external_links:
 - title: Consumer Reports - Product Buying Guide
-  url: https://www.consumerreports.org/products/
+  url: "https://www.consumerreports.org/products/"
 - title: Investopedia - Understanding Warranties
-  url: https://www.investopedia.com/articles/personal-finance/080716/truth-about-extended-warranties.asp
 faq:
 - answer: Với sản phẩm dưới 3 triệu đồng, thường không cần bảo hành mở rộng. Với sản
     phẩm trên 10 triệu đồng (laptop, điện thoại flagship), bảo hành mở rộng có thể
@@ -35,10 +34,8 @@ faq:
   question: Có nên mua bảo hành mở rộng không?
 - answer: Xác định ngân sách tối đa trước khi mua, sau đó tìm sản phẩm có đánh giá
     tốt nhất trong khoảng giá đó. Đừng chạy theo giá rẻ nhất hoặc đắt nhất.
-  question: Làm sao cân bằng giữa giá rẻ và chất lượng?
 - answer: Đúng vậy. Một sản phẩm có thông số cao nhưng tối ưu kém vẫn có trải nghiệm
     tệ hơn sản phẩm thông số thấp hơn nhưng được tối ưu tốt.
-  question: Trải nghiệm sử dụng có quan trọng hơn thông số không?
 image: images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp
 image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
 image_attribution_source: pexels_api
@@ -46,12 +43,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
 image_creator_id: '222549'
-image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
+image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/honda-mechanics-at-work-12741630/
+image_source_url: "https://www.pexels.com/photo/honda-mechanics-at-work-12741630/"
 slug: so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat
 tags:
 - so sánh
@@ -64,11 +61,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: So sánh giá, bảo hành và trải nghiệm khi mua sản phẩm
 - label: Mục đích
-  value: Giúp người tiêu dùng quyết định yếu tố nào quan trọng nhất
 - label: Hợp với
-  value: Người đang cân nhắc mua sản phẩm, người muốn tiêu tiền đúng
 - label: Điểm chính
-  value: Trải nghiệm thực tế quan trọng hơn giá rẻ nếu không dùng được lâu dài
 ---
 
 Bạn đứng trước hai lựa chọn: sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng. Sản phẩm B đắt hơn nhưng bảo hành 2 năm và nhiều review tốt. Bạn chọn cái nào?

@@ -16,13 +16,12 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.superrichthailand.com,
-    https://www.bangkokbank.com, https://www.vietcombank.com.vn, https://vnba.org.vn,
-    https://chinhphu.vn.'
+    https: "//www.bangkokbank.com, https://www.vietcombank.com.vn, https://vnba.org.vn,"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an
   toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa.
 draft: false
@@ -35,11 +34,11 @@ image_creator: ''
 image_creator_id: 30082
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/round-silver-and-gold-coins-730564/
+image_source_url: "https://www.pexels.com/photo/round-silver-and-gold-coins-730564/"
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 9
@@ -58,11 +57,8 @@ tom_tat_nhanh:
 - label: Tỷ giá
   value: Dao động 1 THB ≈ 650–720 VND
 - label: Đổi ở VN
-  value: An toàn, tiện
 - label: Đổi ở Thái
-  value: Ngang hoặc hơn
 - label: SuperRich
-  value: Tỷ giá tốt nhất
 ---
 
 ## Đổi baht ở Việt Nam hay Thái Lan lợi hơn?

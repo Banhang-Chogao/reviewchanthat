@@ -10,7 +10,7 @@ ai_summary:
   - 'Checklist: màn 6.9", Camera Control, Desert Titanium, pin và ngân sách.'
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 11:20:00+07:00'
@@ -24,12 +24,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Sóc Năng Động
 image_creator_id: '2150345854'
-image_creator_url: https://www.pexels.com/@soc-nang-d-ng-2150345854
+image_creator_url: "https://www.pexels.com/@soc-nang-d-ng-2150345854"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/man-using-smartphone-at-outdoor-cafe-table-33369112/
+image_source_url: "https://www.pexels.com/photo/man-using-smartphone-at-outdoor-cafe-table-33369112/"
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 8
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
@@ -45,11 +45,8 @@ tom_tat_nhanh:
 - label: Câu hỏi
   value: 16 Pro Max còn đáng mua 7/2026?
 - label: Nên mua
-  value: Giá tốt, cần 6.9", Camera Control, pin
 - label: Chờ
-  value: Sắp ra iPhone mới, không vội
 - label: Thay thế
-  value: 15 Pro Max cũ pin tốt — tiết kiệm
 ---
 
 Đây là **bài chốt series** iPhone 16 Pro Max màu titan: tháng 7/2026, **có nên bỏ tiền** cho Pro Max 2024 hay **chờ**, **mua 15 cũ**, hoặc **đợi iPhone mới**? Không fanboy — chỉ **bảng quyết định**.

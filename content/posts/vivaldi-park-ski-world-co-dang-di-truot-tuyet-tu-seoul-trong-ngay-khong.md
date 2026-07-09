@@ -14,12 +14,11 @@ attribution:
     du lịch uy tín.
   source_note: 'Nguồn tham khảo: https://en.trippose.com/tour/daemyung-vivaldi-park-ski-world,
     https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110591,
-    https://www.daemyungresort.com'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 09:50:00+07:00
+date: "2026-07-08 09:50:00+07:00"
 description: 'Vivaldi Park Ski World Hongcheon: day trip trượt tuyết từ Seoul, giờ
   hoạt động, giá vé, ski lesson, shuttle bus và những lưu ý thực tế cho người mới.'
 draft: false
@@ -30,14 +29,11 @@ faq:
   question: Vivaldi Park Ski World có đi trong ngày từ Seoul được không?
 - answer: Có. Resort có ski school với bài học cơ bản theo nhóm và riêng, slope riêng
     cho beginner. Nên đặt lesson trước vào cuối tuần vì dễ hết chỗ.
-  question: Người mới bắt đầu có học trượt tuyết ở Vivaldi Park được không?
 - answer: 'Giá thay đổi theo mùa và loại vé. Tham khảo: Lift Day Pass khoảng 61,000
     won (người lớn), thuê ski/board khoảng 28,000 won. Nên kiểm tra website daemyungresort.com
     trước khi đi.'
-  question: Giá vé và thuê đồ ở Vivaldi Park thế nào?
 - answer: Ngày thường (thứ 2–5) ít đông hơn, giá vé thường rẻ hơn. Cuối tuần rất đông,
     đặc biệt là khu vực thuê đồ và lesson.
-  question: Nên đi Vivaldi Park vào thứ mấy?
 image: images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp
 image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
 image_attribution_source: pexels_api
@@ -45,19 +41,16 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Stanislav Kondratiev
 image_creator_id: '1497515'
-image_creator_url: https://www.pexels.com/@technobulka
+image_creator_url: "https://www.pexels.com/@technobulka"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/snow-cannons-preparing-the-ski-slope-19777497/
+image_source_url: "https://www.pexels.com/photo/snow-cannons-preparing-the-ski-slope-19777497/"
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
-  title: Top địa điểm trượt tuyết ở Hàn Quốc mùa đông
 - ref: posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md
-  title: Elysian Gangchon Ski
 - ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
-  title: Oak Valley
 series: truot-tuyet
 series_order: 2
 series_title: Trượt tuyết Hàn Quốc
@@ -76,15 +69,10 @@ tom_tat_nhanh:
 - label: Khu vực
   value: Hongcheon, Gangwon-do (khoảng 1,5–2 giờ từ Seoul)
 - label: Loại trải nghiệm
-  value: Trượt tuyết, công viên nước, nghỉ dưỡng
 - label: Hợp với
-  value: Gia đình, nhóm bạn, người muốn day trip hoặc nghỉ qua đêm
 - label: Thời gian nên dành
-  value: Trong ngày hoặc 1–2 đêm
 - label: Đi mùa nào hợp
-  value: Mùa đông (tháng 12–2) — Ocean World mở cửa hè
 - label: Có cần đặt trước không
-  value: Có (shuttle bus, vé, thuê đồ)
 ---
 
 Vivaldi Park là cái tên được khách Việt nhắc đến nhiều nhất khi hỏi về trượt tuyết gần Seoul. Mình cũng không ngạc nhiên — resort này thuộc Daemyung Resort, một khu nghỉ dưỡng lớn ở Hongcheon, có shuttle bus từ Seoul, giờ hoạt động từ sáng tới tận 1h đêm.

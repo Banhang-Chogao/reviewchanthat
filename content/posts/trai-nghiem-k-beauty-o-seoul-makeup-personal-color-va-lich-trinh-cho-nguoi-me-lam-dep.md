@@ -13,22 +13,20 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
-    https://english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'
+    https: "//english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: 'Trải nghiệm K-beauty Seoul: học makeup tại JUNGSAEMMOOL 101, tư vấn
   personal color, mua mỹ phẩm Myeongdong. Lịch trình làm đẹp 1 ngày.'
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
 - title: https://english.visitseoul.net/>
-  url: https://english.visitseoul.net/>
 - title: https://english.visitkorea.or.kr/>
-  url: https://english.visitkorea.or.kr/>
 image: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
 image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
 image_attribution_source: pexels_api
@@ -36,12 +34,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Đặng Nhật
 image_creator_id: '262758705'
-image_creator_url: https://www.pexels.com/@d-ng-nh-t-262758705
+image_creator_url: "https://www.pexels.com/@d-ng-nh-t-262758705"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/portrait-of-woman-with-flowers-drawn-on-face-on-pink-back-13720024/
+image_source_url: "https://www.pexels.com/photo/portrait-of-woman-with-flowers-drawn-on-face-on-pink-back-13720024/"
 series: du-lich
 series_order: 5
 series_title: Du lịch Hàn Quốc 2026
@@ -62,15 +60,10 @@ tom_tat_nhanh:
 - label: Khu vực
   value: Myeongdong, Seongsu, Mapo (Seoul)
 - label: Loại trải nghiệm
-  value: Làm đẹp, mua sắm
 - label: Hợp với
-  value: Người mê skincare, makeup, thích mỹ phẩm Hàn
 - label: Thời gian nên dành
-  value: 2–4 giờ (mua sắm), 2–3 giờ (workshop)
 - label: Đi mùa nào hợp
-  value: Quanh năm
 - label: Có cần đặt trước không
-  value: Cần đặt workshop, không cần mua sắm
 ---
 
 Seoul là kinh đô làm đẹp của châu Á, và mình dám chắc nếu bạn mê skincare hay makeup thì trải nghiệm K-beauty sẽ là một trong những khoản chi đáng đồng tiền nhất chuyến đi. Hoạt động này xếp hạng 10 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình, nó xứng đáng ở vị trí cao hơn nếu bạn thuộc tuýp người thích làm đẹp.

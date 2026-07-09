@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Chiang Mai mùa mưa có gì đẹp? Gợi ý cafe, chùa, núi xanh, thác nước và lịch trình nhẹ nhàng 3 ngày — mùa xanh nhất trong năm.
 draft: false
 image: images/posts/chiang-mai-mua-mua-co-gi-dep.webp
@@ -26,12 +26,10 @@ image_creator_id: 52729974
 image_creator_url: 
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/golden-tower-near-a-golden-statue-14211124/
 series:
   - du-lich-thai-lan-mua-mua
 series_order: 8

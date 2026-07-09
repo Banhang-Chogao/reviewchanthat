@@ -9,7 +9,7 @@ ai_summary:
   - Đổi máy chỉ vì camera không cần thiết nếu 15 Pro Max còn pin tốt.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 10:40:00+07:00'
@@ -23,12 +23,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Andrey Matveev
 image_creator_id: '150820'
-image_creator_url: https://www.pexels.com/@zeleboba
+image_creator_url: "https://www.pexels.com/@zeleboba"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/
+image_source_url: "https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/"
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 6
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
@@ -44,11 +44,8 @@ tom_tat_nhanh:
 - label: Phần cứng
   value: Gần tương đương — 48MP + tele 5x
 - label: Khác biệt
-  value: A18 Pro, Camera Control, thuật toán mới
 - label: Giữ 15
-  value: Chất lượng ảnh đủ đa số nhu cầu
 - label: Lên 16
-  value: Thao tác chụp và AI xử lý ảnh
 ---
 
 So camera **16 Pro Max vs 15 Pro Max**, nhiều người kỳ vọng **bước nhảy như 3x sang 5x** năm 2023. Thực tế 2026: **ống kính gần nhau**, khác biệt nằm ở **chip xử lý**, **Camera Control** và **tính năng phần mềm** gắn A18 Pro.

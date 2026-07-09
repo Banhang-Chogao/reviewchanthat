@@ -18,16 +18,16 @@ attribution:
   source_note: Không đại diện Starbucks; đánh giá dịch vụ có thể khác theo thời điểm
     và địa điểm.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
-date: 2026-07-08 17:00:00+07:00
+date: "2026-07-08 17:00:00+07:00"
 description: Đánh giá dịch vụ và nhân viên Starbucks Vietnam — chuẩn phục vụ, barista
   pha chế, và vì sao chi nhánh Nguyễn Văn Trỗi được khen nhiệt tình.
 draft: false
 external_links:
 - title: Starbucks — Customer experience
-  url: https://www.starbucks.com/business/standards-of-business-conduct/
+  url: "https://www.starbucks.com/business/standards-of-business-conduct/"
 image: images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp
 image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
 image_attribution_source: pexels_api
@@ -35,12 +35,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Chevanon Photography
 image_creator_id: '93955'
-image_creator_url: https://www.pexels.com/@chevanon
+image_creator_url: "https://www.pexels.com/@chevanon"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-holding-starbucks-disposable-cup-324028/
+image_source_url: "https://www.pexels.com/photo/person-holding-starbucks-disposable-cup-324028/"
 series: starbucks-vietnam
 series_order: 4
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
@@ -57,11 +57,8 @@ tom_tat_nhanh:
 - label: Chuẩn chung
   value: Chào hỏi, tùy chỉnh order, gọi tên khi ly sẵn
 - label: Nguyễn Văn Trỗi
-  value: Nhân viên thân thiện, nhớ gu khách quen
 - label: Barista
-  value: Đào tạo pha chế, ảnh hưởng chất lượng ly
 - label: Mẹo
-  value: Gọi rõ yêu cầu; dùng app giờ cao điểm
 ---
 
 Một ly Starbucks ngon không chỉ đến từ hạt cà phê — mà còn từ **người pha** và **cách phục vụ**. Sau nhiều lần ghé các chi nhánh tại TP.HCM, mình nhận thấy dịch vụ là thứ khiến khách quay lại (hoặc không bao giờ quay lại) mạnh hơn cả vài nghìn đồng chênh lệch giá.

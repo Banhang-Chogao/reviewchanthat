@@ -18,30 +18,26 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
     https://www.kma.go.kr.'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: Thời tiết Hàn Quốc tháng 10 — nhiệt độ, mưa, gió và cách chuẩn bị trang
   phục. Phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo.
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: Korea Meteorological Administration (KMA)
-  url: https://www.kma.go.kr
 - title: KoreaToDo — Autumn Foliage Sites
-  url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
 faq:
 - answer: Seoul tháng 10 khoảng 10–19°C, mát dần về cuối tháng. Sáng sớm và tối lạnh
     hơn trưa.
   question: Tháng 10 ở Seoul lạnh chưa?
 - answer: Mưa ít hơn mùa hè. Tháng 10 thường khô hơn tháng 7–8, nhưng vẫn có ngày
     mưa rào ngắn.
-  question: Tháng 10 Hàn Quốc có mưa nhiều không?
 - answer: Áo khoác mỏng đến trung bình, áo len mỏng, quần dài, giày đi bộ thoải mái.
     Mang thêm lớp áo khi đi núi.
-  question: Tháng 10 đi Hàn nên mang gì?
 image: images/posts/thoi-tiet-han-quoc-thang-10.webp
 image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
 image_attribution_source: pexels_api
@@ -49,29 +45,21 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
 image_creator_id: '222549'
-image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
+image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-2131626/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-2131626/"
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
-  title: Đi Hàn tháng 10 có đẹp không?
 - ref: posts/han-quoc-thang-10-co-la-do-chua.md
-  title: Hàn Quốc tháng 10 có lá đỏ chưa?
 - ref: posts/di-han-thang-10-mac-gi.md
-  title: Đi Hàn tháng 10 mặc gì?
 - ref: posts/seoul-thang-10-nen-di-dau.md
-  title: Seoul tháng 10 nên đi đâu?
 - ref: posts/nami-thang-10-co-dang-di-khong.md
-  title: Nami tháng 10 có đáng đi không?
 - ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-  title: Hàn Quốc tháng 7
 - ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
-  title: Hàn Quốc tháng 8 nên đi đâu?
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-  title: Top 20 hoạt động du lịch Hàn Quốc
 series: di-han-thang-10
 series_order: 2
 series_title: Đi Hàn tháng 10
@@ -87,11 +75,8 @@ tom_tat_nhanh:
 - label: Nhiệt độ Seoul
   value: 10–19°C
 - label: Mưa
-  value: Ít hơn mùa hè
 - label: Đặc điểm
-  value: Chênh lệch ngày đêm lớn
 - label: Lưu ý
-  value: Theo dõi dự báo KMA
 ---
 
 Tháng 10 là thời điểm Hàn Quốc bước vào mùa thu — không còn nóng ẩm như mùa hè, cũng chưa lạnh như mùa đông. Nhiều du khách Việt chọn tháng này vì thời tiết dễ chịu hơn tháng 7–8 và bắt đầu có cảnh lá đổi màu. Tuy nhiên, “lạnh chưa” và “có mưa không” phụ thuộc vào tuần cụ thể trong tháng và khu vực bạn đến.

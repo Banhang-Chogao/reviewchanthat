@@ -13,10 +13,10 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo từ các nguồn du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.visitbusan.net, https://www.koreatodo.com.'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: 'Haeundae vs Gwangalli: so sánh chi tiết hai bãi biển nổi tiếng nhất
   Busan. Nên chọn bãi nào cho chuyến du lịch mùa hè?'
 draft: false
@@ -26,9 +26,7 @@ faq:
   question: Nên chọn Haeundae hay Gwangalli?
 - answer: Haeundae xa hơn (ga Haeundae, tuyến 2). Gwangalli gần trung tâm hơn (ga
     Gwangan, tuyến 2).
-  question: Bãi biển nào gần trung tâm hơn?
 - answer: Haeundae có nhiều hoạt động hơn. Gwangalli cũng có nhưng ít lựa chọn.
-  question: Bãi nào có nhiều hoạt động thể thao nước hơn?
 image: images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp
 image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
 image_attribution_source: pexels_api
@@ -36,33 +34,23 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jhany Blue
 image_creator_id: '436502581'
-image_creator_url: https://www.pexels.com/@jhany-blue-436502581
+image_creator_url: "https://www.pexels.com/@jhany-blue-436502581"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/vibrant-night-view-of-busan-s-cityscape-and-bridge-36046039/
+image_source_url: "https://www.pexels.com/photo/vibrant-night-view-of-busan-s-cityscape-and-bridge-36046039/"
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
 - ref: posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md
-  title: Haeundae Beach Busan
 - ref: posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md
-  title: Gwangalli Beach Busan
 - ref: posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md
-  title: Busan mùa hè nên đi đâu?
 - ref: posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md
-  title: Cheongsapo Busan
 - ref: posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md
-  title: Club D Oasis Busan
 - ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
-  title: Hàn Quốc tháng 8 nên đi đâu?
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-  title: Top 20 hoạt động du lịch Hàn Quốc
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-  title: 10 điểm tránh nóng
 - ref: posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md
-  title: Chợ địa phương Hàn Quốc
 series: du-lich-han-quoc-mua-he
 series_order: 6
 series_title: Du lịch Hàn Quốc mùa hè
@@ -79,13 +67,9 @@ tom_tat_nhanh:
 - label: Haeundae
   value: Sầm uất, nhiều hoạt động
 - label: Gwangalli
-  value: Lãng mạn, ngắm cầu
 - label: Chọn Haeundae nếu
-  value: Đi nhóm, thích sôi động
 - label: Chọn Gwangalli nếu
-  value: Đi cặp đôi, thích chill
 - label: Cả hai
-  value: Cách nhau 15 phút taxi
 ---
 
 Haeundae và Gwangalli là hai cái tên đầu tiên khi nhắc đến biển Busan. Cả hai đều đẹp, đều đáng đi — nhưng phong cách khác nhau. Bài viết so sánh 10 tiêu chí giúp bạn quyết định.

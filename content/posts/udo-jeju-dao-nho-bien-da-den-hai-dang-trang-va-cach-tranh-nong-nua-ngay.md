@@ -12,40 +12,33 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https://www.visitjeju.net/u/kN, https://www.koreaetour.com/udo-island-jeju/, https://www.itimaker.com/blog/udo-island-day-trip-from-jeju.'
+    https: "//www.visitjeju.net/u/kN, https://www.koreaetour.com/udo-island-jeju/, https://www.itimaker.com/blog/udo-island-day-trip-from-jeju.'"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: 'Kinh nghiệm đi Udo Jeju mùa hè: phà Seongsan 15 phút, thuê xe đạp vòng
   quanh đảo, biển đá đen núi lửa, hải đăng Udobong và kem lạc Udo.'
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+  url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
 - title: https://www.visitjeju.net/u/kN
-  url: https://www.visitjeju.net/u/kN
 - title: https://www.koreaetour.com/udo-island-jeju/
-  url: https://www.koreaetour.com/udo-island-jeju/
 - title: https://www.itimaker.com/blog/udo-island-day-trip-from-jeju
-  url: https://www.itimaker.com/blog/udo-island-day-trip-from-jeju
 faq:
 - answer: Khoảng 4–6 giờ, bao gồm cả phà khứ hồi. Nếu chỉ đi lướt qua, 3 giờ cũng
     đủ, nhưng sẽ không tham quan hết.
   question: Cần bao nhiêu thời gian cho Udo?
 - answer: Có một số homestay nhỏ, nhưng phần lớn du khách chọn về Jejo trong ngày.
     Cơ sở vật chất trên đảo cơ bản hạn chế.
-  question: Có nên ở lại Udo qua đêm không?
 - answer: Có, nếu trẻ thích đạp xe và tắm biển. Tuy nhiên, cần giám sát khi tắm vì
     một số bãi có sóng.
-  question: Udo có phù hợp với trẻ em không?
 - answer: Khu vực này có dịch vụ xe điện hỗ trợ, bạn nên kiểm tra thông tin chi tiết
     trên website chính thức.
-  question: Giá thuê xe trên đảo thế nào?
 - answer: Khu vực này thường đông vào cuối tuần và mùa cao điểm. Nếu đi sớm, bạn sẽ
     tránh được dòng người đổ về từ 10 giờ trở đi.
-  question: Mùa hè có đông không?
 image: images/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.webp
 image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
 image_attribution_source: pexels_api
@@ -53,19 +46,16 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Kharl Anthony Paica
 image_creator_id: '1701570'
-image_creator_url: https://www.pexels.com/@kharlitos
+image_creator_url: "https://www.pexels.com/@kharlitos"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-view-of-the-ocean-and-a-lighthouse-16663090/
+image_source_url: "https://www.pexels.com/photo/a-view-of-the-ocean-and-a-lighthouse-16663090/"
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-  title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
 - ref: posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md
-  title: 'Jungmun Beach Jeju: bãi biển cho người thích sóng và ảnh đẹp'
 - ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
-  title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
 series: du-lich
 series_order: 21
 series_title: Du lịch Hàn Quốc 2026
@@ -84,13 +74,9 @@ tom_tat_nhanh:
 - label: Khu vực
   value: Seongsan-eup, phía đông Jeju
 - label: Loại trải nghiệm
-  value: Đảo, biển, đi xe đạp, ngắm cảnh
 - label: Hợp với
-  value: Cặp đôi, đi một mình, người thích chụp ảnh
 - label: Thời gian nên dành
-  value: Nửa ngày (4–6 giờ)
 - label: Lưu ý mùa hè
-  value: Nắng gắt giữa trưa, nên đi sáng sớm hoặc chiều muộn
 ---
 
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm dưới chân Seongsan Ilchulbong có sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng, view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.

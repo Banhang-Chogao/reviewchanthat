@@ -16,12 +16,12 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.tourismthailand.org,
-    https://www.bts.co.th, https://www.agoda.com, https://www.tripadvisor.com.'
+    https: "//www.bts.co.th, https://www.agoda.com, https://www.tripadvisor.com.'"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Ở khu nào tại Bangkok mùa mưa? So sánh Siam, Ratchathewi, Pratunam, Sukhumvit,
   Silom — giá, kết nối BTS, điểm indoor gần, phù hợp từng đối tượng.
 draft: false
@@ -34,11 +34,11 @@ image_creator: ''
 image_creator_id: 318819549
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/28503555/
+image_source_url: "https://www.pexels.com/photo/28503555/"
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 11
@@ -56,11 +56,8 @@ tom_tat_nhanh:
 - label: Siam
   value: Trung tâm, nhiều mall
 - label: Ratchathewi
-  value: Gần Siam, giá rẻ
 - label: Sukhumvit
-  value: Tây, nhiều tiện ích
 - label: Pratunam
-  value: Chợ, bình dân
 ---
 
 ## Ở khu nào tại Bangkok mùa mưa?

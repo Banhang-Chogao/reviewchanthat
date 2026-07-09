@@ -10,7 +10,7 @@ ai_summary:
   - Cả hai đều hỗ trợ Apple Intelligence — không phải lý do bắt buộc đổi.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 13:20:00+07:00'
@@ -27,10 +27,10 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/sylt-2024-27195697/
+image_source_url: "https://www.pexels.com/photo/sylt-2024-27195697/"
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 8
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
@@ -46,11 +46,8 @@ tom_tat_nhanh:
 - label: So sánh
   value: 15 Pro Max vs 16 Pro Max
 - label: Chênh chính
-  value: Màn 6.9", Camera Control, A18 Pro, Desert Titanium
 - label: Giữ 15
-  value: Giá tốt, đủ AI, tele 5x
 - label: Lên 16
-  value: Màn lớn, thao tác camera, pin tốt hơn
 ---
 
 Đây là câu hỏi **cuối series** iPhone 15 Pro Max: đã có (hoặc sắp mua) 15 Pro Max, **có đáng bỏ thêm tiền lên 16 Pro Max** không? Không có đáp án chung — chỉ có **đáp án đúng với ngân sách và tay bạn**.

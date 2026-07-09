@@ -14,25 +14,21 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/seoraksan-national-park, https://www.koreatodo.com/gapyeong-day-trip-nami-island,
-    https://www.visitbusan.net.'
+    https: "//www.koreatodo.com/seoraksan-national-park, https://www.koreatodo.com/gapyeong-day-trip-nami-island,"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 14:30:00+07:00
+date: "2026-07-08 14:30:00+07:00"
 description: 'Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan
   — cách xếp ngày theo dự báo lá đỏ và mẹo di chuyển KTX.'
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: KoreaToDo — Seoraksan National Park
-  url: https://www.koreatodo.com/seoraksan-national-park
 - title: KoreaToDo — Gapyeong Day Trip Nami Island
-  url: https://www.koreatodo.com/gapyeong-day-trip-nami-island
 - title: Visit Busan
-  url: https://www.visitbusan.net
 image: images/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.webp
 image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
@@ -43,29 +39,20 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-32077765/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-32077765/"
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
-  title: Đi Hàn tháng 10 có đẹp không?
 - ref: posts/thoi-tiet-han-quoc-thang-10.md
-  title: Thời tiết và mùa lá đỏ tháng 10
 - ref: posts/di-han-thang-10-mac-gi.md
-  title: Đi Hàn tháng 10 mặc gì?
 - ref: posts/seoul-thang-10-nen-di-dau.md
-  title: Seoul tháng 10 nên đi đâu?
 - ref: posts/nami-thang-10-co-dang-di-khong.md
-  title: Nami Island tháng 10
 - ref: posts/seoraksan-thang-10-ngam-la-do.md
-  title: Seoraksan tháng 10
 - ref: posts/busan-thang-10-nen-di-dau.md
-  title: Busan tháng 10
 - ref: posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md
-  title: Lịch trình 5 ngày 4 đêm tháng 10
 - ref: posts/chi-phi-di-han-thang-10-tu-tuc.md
-  title: Chi phí đi Hàn tháng 10 tự túc
 series: di-han-thang-10
 series_order: 11
 series_title: Đi Hàn tháng 10
@@ -83,13 +70,9 @@ tom_tat_nhanh:
 - label: Thời gian
   value: 7 ngày 6 đêm
 - label: Trọng tâm
-  value: Seoul + Nami + núi/biển
 - label: Di chuyển
-  value: Metro, ITX, KTX, xe buýt
 - label: Phù hợp
-  value: Người muốn đa dạng điểm đến
 - label: Lưu ý
-  value: Ngày lá đỏ thay đổi theo năm
 ---
 
 Bảy ngày sáu đêm là khoảng thời gian nhiều du khách Việt chọn khi muốn **vừa khám phá Seoul, vừa săn lá đỏ, vừa chạm biển** — mà không phải chạy marathon như lịch 5 ngày 4 đêm. Nếu bạn đã đọc [lịch trình 5N4Đ]({{< ref "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem" >}}) và thấy thiếu Seoraksan hoặc Busan, bài này là khung **7N6Đ** cụ thể hơn, bám dự báo mùa thu từ [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292).

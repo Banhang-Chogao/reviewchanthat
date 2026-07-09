@@ -16,10 +16,10 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
     https://www.koreatodo.com.'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu — điểm tham quan
   indoor, ăn uống và di chuyển. Kèm ngân sách chi tiết.
 draft: false
@@ -27,9 +27,7 @@ faq:
 - answer: Bảo tàng Quốc gia (miễn phí), DDP, COEX Mall, Lotte World indoor.
   question: Seoul 3 ngày mùa mưa nên đi đâu?
 - answer: Tổng khoảng 200.000–300.000 KRW (vé tham quan + ăn uống + di chuyển).
-  question: Chi phí tham quan 3 ngày khoảng bao nhiêu?
 - answer: Tàu điện ngầm là chính. Mua T-money card, nạp 20.000 KRW đủ đi 3 ngày.
-  question: Đi lại trong Seoul thế nào?
 image: images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp
 image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
 image_attribution_source: pexels_api
@@ -37,35 +35,24 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Gije Cho
 image_creator_id: '1155759'
-image_creator_url: https://www.pexels.com/@gije
+image_creator_url: "https://www.pexels.com/@gije"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/light-display-over-illuminated-city-at-night-18495176/
+image_source_url: "https://www.pexels.com/photo/light-display-over-illuminated-city-at-night-18495176/"
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
 - ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
-  title: Seoul ngày mưa nên đi đâu?
 - ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-  title: Hàn Quốc tháng 7
 - ref: posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md
-  title: Chợ địa phương Hàn Quốc
 - ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
-  title: Địa điểm quay phim Hàn Quốc
 - ref: posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md
-  title: Jjimjilbang Hàn Quốc
 - ref: posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md
-  title: Thuê Hanbok ở Seoul
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-  title: Top 20 hoạt động du lịch Hàn Quốc
 - ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-  title: Checklist vali
 - ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
-  title: Mặc gì mùa hè
 - ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md
-  title: Caribbean Bay
 series: du-lich-han-quoc-mua-he
 series_order: 11
 series_title: Du lịch Hàn Quốc mùa hè
@@ -82,13 +69,9 @@ tom_tat_nhanh:
 - label: Thời gian
   value: 3 ngày
 - label: Chi phí
-  value: 200.000–300.000 KRW
 - label: Phù hợp
-  value: Người đi lần đầu
 - label: Di chuyển
-  value: Metro + đi bộ
 - label: Điểm nhấn
-  value: Indoor là chính
 ---
 
 Lịch trình này được thiết kế riêng cho mùa mưa — ưu tiên điểm indoor, kết nối bằng tàu điện ngầm và đi bộ có mái che.

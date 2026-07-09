@@ -9,7 +9,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - cong-nghe
-date: 2026-07-08 11:20:00+07:00
+date: "2026-07-08 11:20:00+07:00"
 description: >-
   Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người
 draft: false
@@ -31,11 +31,9 @@ image_creator_id:
 image_creator_url: 
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/silver-iphone-6-on-book-699122/
 series: apple-ec-dma-app-store-ios
 series_order: 8
 series_title: >-

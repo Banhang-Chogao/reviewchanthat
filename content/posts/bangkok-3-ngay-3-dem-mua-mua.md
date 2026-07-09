@@ -2,7 +2,7 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Lịch trình 3 ngày 3 đêm được thiết kế tối ưu cho người đi lần đầu: ngày 1 khám phá Siam, ngày 2 văn hóa và chợ, ngày 3 chợ nổi kết hợp massage và về.", "Mỗi ngày đều có backup plan cho mưa — buổi sáng dành cho ngoài trời, buổi chiều cho indoor, luôn có BTS/skywalk làm phương án di chuyển thay thế.", "Ngân sách 5–7 triệu VND gồm vé máy bay, khách sạn 3 đêm, ăn uống, di chuyển và tham quan — phù hợp với người đi tự túc tiết kiệm.", "Di chuyển chính là Airport Rail Link + BTS Skytrain, giúp né mưa và kẹt xe mà không phát sinh chi phí ngoài dự kiến."]
+  items: '["Lịch trình 3 ngày 3 đêm được thiết kế tối ưu cho người đi lần đầu: ngày 1 khám phá Siam, ngày 2 văn hóa và chợ, ngày 3 chợ nổi kết hợp massage và về.", "Mỗi ngày đều có backup plan cho mưa — buổi sáng dành cho ngoài trời, buổi chiều cho indoor, luôn có BTS/skywalk làm phương án di chuyển thay thế.", "Ngân sách 5–7 triệu VND gồm vé máy bay, khách sạn 3 đêm, ăn uống, di chuyển và tham quan — phù hợp với người đi tự túc tiết kiệm.", "Di chuyển chính là Airport Rail Link + BTS Skytrain, giúp né mưa và kẹt xe mà không phát sinh chi phí ngoài dự kiến."]'
   title: "Tóm tắt bài viết"
 attribution:
   copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: >-
   Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu.
 draft: false
@@ -27,12 +27,10 @@ image_creator_id: 2155962840
 image_creator_url: 
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/bangkok-cityscape-at-sunset-with-traffic-37835945/
 series:
   - du-lich-thai-lan-mua-mua
 series_order: 4

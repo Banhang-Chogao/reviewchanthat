@@ -9,7 +9,7 @@ ai_summary:
   - Nên cầm mẫu thật so với Natural trước khi đặt mua.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 09:20:00+07:00'
@@ -24,64 +24,40 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Review Chân Thật
 image_creator_id: review-chan-that-generated
-image_creator_url: https://banhang-chogao.github.io/reviewchanthat/
+image_creator_url: "https://banhang-chogao.github.io/reviewchanthat/"
 image_generation_method: programmatic_pillow
 image_license: Original self-hosted editorial illustration by Review Chân Thật
-image_license_url: https://banhang-chogao.github.io/reviewchanthat/branding-ci/
+image_license_url: "https://banhang-chogao.github.io/reviewchanthat/branding-ci/"
 image_owner: self
 image_provider: self-generated
 image_source: Review Chân Thật
-image_source_url: https://banhang-chogao.github.io/reviewchanthat/
+image_source_url: "https://banhang-chogao.github.io/reviewchanthat/"
 image_status: verified
 inline_illustrations:
 - heading: Bảng tóm tắt nhanh
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_b-ng-t-m-t-t-nhanh.webp
 - heading: 1. Desert hợp ai về mặt thẩm mỹ?
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_1-desert-h-p-ai-v-m-t-th-m-m.webp
 - heading: 2. Desert không hợp ai?
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_2-desert-kh-ng-h-p-ai.webp
 - heading: 3. Phối phụ kiện
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_3-ph-i-ph-ki-n.webp
 - heading: 4. Desert vs Natural 16
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_4-desert-vs-natural-16.webp
 - heading: 5. Mua máy cũ Desert
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_5-mua-m-y-c-desert.webp
 - heading: Điểm mình thích
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_i-m-m-nh-th-ch.webp
 - heading: Điểm cần cân nhắc
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_i-m-c-n-c-n-nh-c.webp
 - heading: Hợp với ai
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_h-p-v-i-ai.webp
 - heading: Không hợp với ai
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_kh-ng-h-p-v-i-ai.webp
 - heading: Kết luận
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_k-t-lu-n.webp
 - heading: 6. Desert trong văn phòng và dress code
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6-desert-trong-v-n-ph-ng-v-dress-code.webp
 - heading: 6b. Desert vs Natural 16 — chọn trong 30 phút tại store
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6b-desert-vs-natural-16-ch-n-trong-30-ph-t-t-i-store.webp
 - heading: 6c. Người từng dùng Blue 15 chuyển Desert
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6c-ng-i-t-ng-d-ng-blue-15-chuy-n-desert.webp
 - heading: 6d. Desert và giới tính / phong cách — bỏ stereotype
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6d-desert-v-gi-i-t-nh-phong-c-ch-b-stereotype.webp
 - heading: 7. Desert máy cũ — giá và độ hiếm
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_7-desert-m-y-c-gi-v-hi-m.webp
 - heading: 8. So ảnh seller — tránh filter
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_8-so-nh-seller-tr-nh-filter.webp
 - heading: 9. Desert + Camera Control — combo “creator ấm”
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_9-desert-camera-control-combo-creator-m.webp
 - heading: 10. Desert và mùa Tết / sự kiện ấm
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_10-desert-v-m-a-t-t-s-ki-n-m.webp
 - heading: 11. Kết
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_11-k-t.webp
 - heading: 12. Kết mở rộng
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_12-k-t-m-r-ng.webp
 - heading: 13. Desert và quà tặng / đổi máy cho người thân
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_13-desert-v-qu-t-ng-i-m-y-cho-ng-i-th-n.webp
 - heading: 14. Kết
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_14-k-t.webp
 - heading: 15. Lời kết
-  image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai_15-l-i-k-t.webp
 inline_image_count: 24
 inline_images:
 - images/posts/iphone-16-pro-max-desert-titanium-hop-ai_b-ng-t-m-t-t-nhanh.webp
@@ -123,11 +99,8 @@ tom_tat_nhanh:
 - label: Màu
   value: Desert Titanium — xám ấm, ngả cát
 - label: Hợp
-  value: Tone ấm, cafe, da nâu, không thích Blue lạnh
 - label: Không hợp
-  value: Fan màu lạnh, muốn máy “trung tính” resale
 - label: Đọc thêm
-  value: So Natural/White/Black trong series
 ---
 
 **Desert Titanium** là lý do nhiều người nhìn vào iPhone 16 Pro Max thay vì bản thường — không phải vì nhanh hơn (không đáng kể so với 16 Pro), mà vì **màu nói lên đời máy** mà không cần logo to. Nhưng Desert **không phải màu cho mọi người**.

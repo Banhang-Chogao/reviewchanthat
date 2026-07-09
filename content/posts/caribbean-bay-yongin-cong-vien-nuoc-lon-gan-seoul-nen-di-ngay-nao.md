@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: Caribbean Bay Yongin là công viên nước lớn nhất gần Seoul, có wave pool 2,4 m, lazy river dài nhất thế giới, spa. Thuộc khu Everland Resort.
 draft: false
 external_links:
@@ -33,14 +33,11 @@ image_commercial_use: true
 image_creator: KOREAN JH
 image_creator_id: 30666766
 image_creator_url: >-
-  https://www.pexels.com/@korean-jh-30666766
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/a-man-in-a-conical-hat-riding-a-boat-7446376/
 internal_links:
   - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng ở Hàn Quốc mùa hè"}
   - {"ref": "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md", "title": "Nami Island mùa hè: day trip gần Seoul"}

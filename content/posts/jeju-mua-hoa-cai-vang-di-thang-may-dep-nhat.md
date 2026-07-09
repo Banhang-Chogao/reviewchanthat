@@ -27,15 +27,11 @@ description: Jeju mùa hoa cải vàng nên đi tháng mấy? Gợi ý thời đ
 draft: false
 external_links:
 - title: VisitKorea - Jeju Canola Flower Festival
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104187
+  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104187"
 - title: VisitKorea - 2026 Guide to Korea's Best Spring Bloom Destinations
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1580801
 - title: VisitKorea - Noksan-ro Canola Flower Road
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=187155
 - title: VisitKorea - Seopjikoji
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=110723
 - title: VisitKorea - Sanbangsan Mountain
-  url: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94909
 image: images/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.webp
 image_owner: self
 image_source: self-generated
@@ -61,12 +57,9 @@ tom_tat_nhanh:
 - label: Trả lời nhanh
   value: Cuối tháng 3 đến đầu tháng 4 là khoảng nên nhắm nhất.
 - label: Có thể gặp hoa
-  value: Một số nơi có hoa từ giữa tháng 2 đến cuối tháng 4, tùy thời tiết và khu
     vực.
 - label: Lễ hội 2026
-  value: Jeju Canola Flower Festival diễn ra 04-05/04/2026 theo VisitKorea.
 - label: Số ngày hợp lý
-  value: 3-4 ngày nếu đi lần đầu và muốn ghép Seogwipo, Seopjikoji, Noksan-ro.
 ---
 
 Nếu chỉ cần một câu trả lời ngắn: **đi Jeju mùa xuân, đẹp nhất là cuối tháng 3 đến đầu tháng 4**. Đây là khoảng có xác suất cao để gặp những thảm hoa cải vàng rực ở phía đông và phía nam đảo, đồng thời vẫn còn cơ hội ghép với hoa anh đào ở một số tuyến đường như Noksan-ro hoặc khu Jeju City.

@@ -13,10 +13,10 @@ ai_summary:
     EU mới cần tính toán DMA compliance.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 10:40:00+07:00
+date: "2026-07-08 10:40:00+07:00"
 description: 'DMA mang lại gì cho nhà phát triển app ở EU: phân phối thay thế, giảm
   commission, anti-steering, analytics mở rộng — và chi phí CTF Apple đặt ra để cân
   bằng.'
@@ -28,12 +28,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: mktomasik
 image_creator_id: '245056204'
-image_creator_url: https://www.pexels.com/@mktomasik-245056204
+image_creator_url: "https://www.pexels.com/@mktomasik-245056204"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-person-holding-smartphones-12368095/
+image_source_url: "https://www.pexels.com/photo/a-person-holding-smartphones-12368095/"
 series: apple-ec-dma-app-store-ios
 series_order: 6
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
@@ -52,11 +52,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Lợi ích và chi phí DMA cho developer app iOS EU
 - label: Công cụ mới
-  value: MarketplaceKit, Web Distribution, External Purchase Link
 - label: Điểm then chốt
-  value: Lợi lớn cho app có doanh thu cao; indie cần tính kỹ CTF
 - label: Hợp với
-  value: Developer iOS, startup app, team phát hành game/streaming EU
 ---
 
 “Cuối cùng cũng không còn phải trả 30% cho Apple” — câu đó xuất hiện nhiều sau khi European Commission (EC) phạt Apple vì anti-steering và buộc mở thêm đường phân phối. Nhưng hỏi một indie developer ở Amsterdam hay Stockholm, câu trả lời thường phức tạp hơn: **“Được link ra web thanh toán, nhưng CTF ăn mất phần tiết kiệm — và mình vẫn ở App Store vì user không sideload.”**

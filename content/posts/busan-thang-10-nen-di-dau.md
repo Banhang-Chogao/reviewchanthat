@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 13:00:00+07:00
+date: "2026-07-08 13:00:00+07:00"
 description: Busan tháng 10 nên đi đâu? Gợi ý biển, phố đêm, làng văn hóa và lịch trình 2–3 ngày nhẹ nhàng cho chuyến đi mùa thu.
 draft: false
 external_links:
@@ -28,14 +28,11 @@ image_commercial_use: true
 image_creator: Светлана Конева
 image_creator_id: 269097219
 image_creator_url: >-
-  https://www.pexels.com/@269097219
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/pexels-photo-12787322/
 internal_links:
   - {"ref": "posts/di-han-thang-10-co-dep-khong.md", "title": "Đi Hàn tháng 10 có đẹp không?"}
   - {"ref": "posts/thoi-tiet-han-quoc-thang-10.md", "title": "Thời tiết và mùa lá đỏ tháng 10"}

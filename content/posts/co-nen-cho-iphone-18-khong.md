@@ -26,16 +26,13 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Review Chân Thật
 image_creator_url: >-
-  https://banhang-chogao.github.io/reviewchanthat/
 image_generation_method: programmatic_pillow
 image_license: Original self-hosted editorial illustration by Review Chân Thật
 image_license_url: >-
-  https://banhang-chogao.github.io/reviewchanthat/branding-ci/
 image_owner: self
 image_provider: self-generated
 image_source: Review Chân Thật
 image_source_url: >-
-  https://banhang-chogao.github.io/reviewchanthat/
 image_status: verified
 inline_illustrations:
   - {"heading": "Bảng tóm tắt nhanh", "image": "images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp"}

@@ -13,18 +13,17 @@ attribution:
   source_note: Nội dung dựa trên các nghiên cứu về hành vi người tiêu dùng và quy
     định quảng cáo của các cơ quan chức năng.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - review
-date: 2026-06-22 10:00:00+07:00
+date: "2026-06-22 10:00:00+07:00"
 description: Review dài hàng nghìn chữ có thể là dấu hiệu của content marketing, không
   phải trải nghiệm thật.
 draft: false
 external_links:
 - title: FTC - Disclosures for Influencers
-  url: https://www.ftc.gov/business-guidance/blog/2023/04/ftc-releases-new-advertising-rule-fake-reviews
+  url: "https://www.ftc.gov/business-guidance/blog/2023/04/ftc-releases-new-advertising-rule-fake-reviews"
 - title: Nielsen - Trust in Advertising Study
-  url: https://www.nielsen.com/insights/trust-in-advertising/
 faq:
 - answer: 'Không có con số cụ thể. Quan trọng là nội dung: review đáng tin thường
     có cả ưu và nhược điểm, có chi tiết cụ thể về trải nghiệm, và không quá tập trung
@@ -33,7 +32,6 @@ faq:
 - answer: 'Content marketing thường: không có nhược điểm, ngôn ngữ trau chuốt quá
     mức, ảnh chụp chuyên nghiệp, link affiliate dày đặc. Review thật thường: có cả
     điểm tốt và xấu, ngôn ngữ tự nhiên, ảnh chụp nhanh.'
-  question: Làm sao phân biệt content marketing và review thật?
 image: images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp
 image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
 image_attribution_source: pexels_api
@@ -41,12 +39,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Hiếu Lê
 image_creator_id: '921253873'
-image_creator_url: https://www.pexels.com/@hi-u-le-921253873
+image_creator_url: "https://www.pexels.com/@hi-u-le-921253873"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/team-collaboration-meeting-with-paperwork-indoors-38460673/
+image_source_url: "https://www.pexels.com/photo/team-collaboration-meeting-with-paperwork-indoors-38460673/"
 slug: vi-sao-review-dai-chua-chac-da-dang-tin
 tags:
 - review dài
@@ -58,11 +56,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Review dài chưa chắc đã đáng tin — dấu hiệu nhận biết content marketing
 - label: Mục đích
-  value: Cảnh giác người đọc trước các bài review dài nhưng thiếu trung thực
 - label: Hợp với
-  value: Người thường xuyên đọc review trước khi mua hàng
 - label: Điểm chính
-  value: Review thật có cả ưu và nhược điểm, ngôn ngữ tự nhiên, không tập trung link
     mua hàng
 ---
 

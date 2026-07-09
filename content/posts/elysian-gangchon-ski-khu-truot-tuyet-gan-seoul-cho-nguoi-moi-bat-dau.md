@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 09:40:00+07:00
+date: "2026-07-08 09:40:00+07:00"
 description: Elysian Gangchon Ski Resort Chuncheon — resort trượt tuyết gần Seoul nhất, phù hợp beginner, day trip, gia đình. Hướng dẫn di chuyển, chi phí, ski lesson và
 draft: false
 faq:
@@ -29,14 +29,11 @@ image_commercial_use: true
 image_creator: Zszen John
 image_creator_id: 1272697
 image_creator_url: >-
-  https://www.pexels.com/@zszen
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/a-person-in-black-and-green-jacket-wearing-helmet-and-goggles-12165429/
 internal_links:
   - {"ref": "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md", "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông"}
   - {"ref": "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md", "title": "Vivaldi Park Ski World"}

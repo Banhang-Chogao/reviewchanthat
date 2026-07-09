@@ -12,7 +12,7 @@ ai_summary:
   - Series iPhone 18 — liên kết Pro Max, có nên chờ và so sánh iPhone 17.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 11:00:00+07:00'
@@ -21,13 +21,10 @@ description: iPhone 18 chip A20 có gì đáng chú ý? Tin đồn TSMC N2 2nm, 
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
+  url: "https://www.macrumors.com/roundup/iphone-18-pro/"
 - title: MacRumors — iPhone 18 roundup
-  url: https://www.macrumors.com/roundup/iphone-18/
 - title: AppleInsider — A20 and spring 2027 iPhone 18
-  url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 - title: MacRumors — TSMC 2nm reports
-  url: https://www.macrumors.com/2025/08/20/tsmc-2nm-mass-production/
 image: images/posts/iphone-18-chip-a20-2nm.webp
 image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
 image_attribution_source: pexels_api
@@ -35,12 +32,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Ferdinand Frederik
 image_creator_id: '257244'
-image_creator_url: https://www.pexels.com/@ferdinand-frederik-257244
+image_creator_url: "https://www.pexels.com/@ferdinand-frederik-257244"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-788884/
+image_source_url: "https://www.pexels.com/photo/pexels-photo-788884/"
 series: iphone-18-co-gi-moi
 series_order: 6
 series_title: iPhone 18 có gì mới
@@ -57,11 +54,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Chip A20 và tiến trình 2nm (tin đồn)
 - label: Dòng chip (đồn)
-  value: A20 (base) / A20 Pro (Pro, Fold)
 - label: Lợi ích (đồn)
-  value: Nhanh hơn, ít điện hơn so với 3nm
 - label: Hợp với
-  value: Người quan tâm hiệu năng và pin iPhone mới
 ---
 
 Mỗi thế hệ iPhone, chip Apple Silicon là **trục kỹ thuật** quyết định hiệu năng, pin, nhiệt và khả năng chạy **Apple Intelligence**. Với **iPhone 18**, tin đồn tập trung vào **A20** và **A20 Pro** trên tiến trình **TSMC N2 (2nm)** — bước nhảy sau **A18/A19 3nm** trên iPhone 16/17. Apple **chưa công bố** chip hay tên A20; bài viết giải thích **vì sao 2nm được quan tâm** và **điều gì là tin đồn có nguồn**.

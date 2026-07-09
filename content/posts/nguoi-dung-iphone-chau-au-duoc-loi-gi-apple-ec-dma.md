@@ -16,24 +16,20 @@ attribution:
     lý.
   source_note: Tham chiếu Apple Newsroom DMA, EC, Tòa Tổng 8/7/2026 và Reuters.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Người dùng iPhone tại EU được lợi gì từ DMA, gatekeeper và phán quyết
   Apple vs EC 8/7/2026? Lợi ích, rủi ro và kỳ vọng thực tế.
 draft: false
 external_links:
 - title: Apple Newsroom — Tác động DMA lên người dùng EU
-  url: https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/
+  url: "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/"
 - title: Reuters — EU court rejects Apple (8/7/2026)
-  url: https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/
 - title: EC — Apple anti-steering breach (23/4/2025)
-  url: https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act
 - title: Tòa Tổng EU — cp260096en.pdf
-  url: https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf
 - title: Digital Markets Act — EC
-  url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp
 image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
 image_attribution_source: pexels_api
@@ -41,12 +37,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Andrea Piacquadio
 image_creator_id: '224453'
-image_creator_url: https://www.pexels.com/@olly
+image_creator_url: "https://www.pexels.com/@olly"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/photo-of-person-holding-smartphone-3760263/
+image_source_url: "https://www.pexels.com/photo/photo-of-person-holding-smartphone-3760263/"
 series: apple-ec-dma-app-store-ios
 series_order: 4
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
@@ -65,11 +61,8 @@ tom_tat_nhanh:
 - label: Đối tượng
   value: Người dùng iPhone tại EU/EEA
 - label: Lợi ích chính
-  value: Store thay thế, giá minh bạch, cạnh tranh app
 - label: Rủi ro
-  value: App nguồn lạ, trải nghiệm phân mảnh
 - label: Phán quyết 8/7
-  value: Củng cố DMA — không mở khóa ngay tức thì
 ---
 
 Sau headline “Apple thua kiện EU”, câu hỏi thực tế nhất không phải “Apple mất bao nhiêu tiền?” — mà **“iPhone của tôi thay đổi thế nào?”**

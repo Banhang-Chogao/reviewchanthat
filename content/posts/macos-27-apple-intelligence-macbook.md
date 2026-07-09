@@ -13,10 +13,10 @@ ai_summary:
     hướng chatbot web thuần.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 11:40:00+07:00
+date: "2026-07-08 11:40:00+07:00"
 description: 'Apple Intelligence trên macOS Golden Gate 27: Siri AI Spotlight, yêu
   cầu phần cứng Mac, tiếng Việt và giới hạn thực tế cho người dùng Việt Nam.'
 draft: false
@@ -27,12 +27,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: olia danilevich
 image_creator_id: '2638647'
-image_creator_url: https://www.pexels.com/@olia-danilevich
+image_creator_url: "https://www.pexels.com/@olia-danilevich"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-coding-on-a-macbook-pro-4974912/
+image_source_url: "https://www.pexels.com/photo/person-coding-on-a-macbook-pro-4974912/"
 series: macos-27-co-gi-moi
 series_order: 3
 series_title: macOS 27 có gì mới
@@ -49,11 +49,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: AI trên Mac với macOS 27
 - label: Yêu cầu
-  value: Mac M-series đủ RAM/chip
 - label: Tính năng
-  value: Siri AI Spotlight, Mail, Photos, Writing Tools
 - label: Hợp với
-  value: Người muốn dùng AI trên desktop
 ---
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **macOS Golden Gate 27** là lần Apple cố gắng biến AI thành thói quen trên desktop — không chỉ demo keynote. Câu hỏi thực tế: **MacBook của bạn chạy được những gì, và tiếng Việt đến đâu?**

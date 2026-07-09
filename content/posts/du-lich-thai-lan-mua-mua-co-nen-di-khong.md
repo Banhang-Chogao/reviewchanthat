@@ -2,7 +2,7 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Mùa mưa Thái Lan (tháng 6–10) vẫn đi được nếu chọn đúng điểm: Bangkok và Chiang Mai ít ảnh hưởng nhất, Koh Samui là lựa chọn tốt hơn Phuket trong tháng 7–8.", "Phuket và Krabi chịu ảnh hưởng mưa lớn từ biển Andaman, tour đảo dễ bị hủy, biển động — không phải lựa chọn lý tưởng cho người chỉ có vài ngày.", "Khách sạn, vé máy bay giảm 20–40% so với mùa cao điểm, điểm tham quan vắng khách hơn, nhưng cần linh hoạt lịch trình và có kế hoạch dự phòng cho mưa chiều.", "Bangkok là điểm đến an toàn nhất cho người lần đầu đi mùa mưa nhờ hệ thống BTS/MRT, mall và indoor attractions phong phú."]
+  items: '["Mùa mưa Thái Lan (tháng 6–10) vẫn đi được nếu chọn đúng điểm: Bangkok và Chiang Mai ít ảnh hưởng nhất, Koh Samui là lựa chọn tốt hơn Phuket trong tháng 7–8.", "Phuket và Krabi chịu ảnh hưởng mưa lớn từ biển Andaman, tour đảo dễ bị hủy, biển động — không phải lựa chọn lý tưởng cho người chỉ có vài ngày.", "Khách sạn, vé máy bay giảm 20–40% so với mùa cao điểm, điểm tham quan vắng khách hơn, nhưng cần linh hoạt lịch trình và có kế hoạch dự phòng cho mưa chiều.", "Bangkok là điểm đến an toàn nhất cho người lần đầu đi mùa mưa nhờ hệ thống BTS/MRT, mall và indoor attractions phong phú."]'
   title: "Tóm tắt bài viết"
 attribution:
   copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 10:00:00+07:00
+date: "2026-07-08 10:00:00+07:00"
 description: Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết Bangkok, Phuket, Krabi, Chiang Mai, Koh Samui tháng 7-8 — ưu nhược điểm từng nơi, lịch trình gợi ý và
 draft: false
 image: images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp
@@ -26,12 +26,10 @@ image_creator_id: 75706404
 image_creator_url: 
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/barren-tree-in-fog-10119144/
 series:
   - du-lich-thai-lan-mua-mua
 series_order: 1

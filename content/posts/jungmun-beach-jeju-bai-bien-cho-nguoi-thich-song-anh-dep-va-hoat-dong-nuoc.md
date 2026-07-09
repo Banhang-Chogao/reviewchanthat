@@ -14,29 +14,25 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.visitjeju.net/.'
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: Jungmun Beach Jeju là bãi biển hình mũi tên ở khu nghỉ dưỡng Jungmun,
   nổi tiếng với hoạt động thể thao nước, resort cao cấp và view biển xanh.
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+  url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
 - title: https://www.visitjeju.net/
-  url: https://www.visitjeju.net/
 faq:
 - answer: Có. Sóng vừa phải và có khu vực nước nông. Tuy nhiên, cần theo dõi trẻ vì
     không có rào chắn sóng.
   question: Jungmun Beach có phù hợp với trẻ em không?
 - answer: Có, nếu bạn có ngân sách. Khu Jungmun có các resort bậc nhất Jeju với view
     biển, hồ bơi và spa.
-  question: Có nên ở resort Jungmun không?
 - answer: Khoảng 40 km, đi bus khoảng 50 phút.
-  question: Jungmun cách trung tâm Jeju bao xa?
 - answer: Có nhiều nhà hàng và quán cà phê trong khu Jungmun Tourist Complex.
-  question: Bãi biển có đồ ăn không?
 image: images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp
 image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
 image_attribution_source: pexels_api
@@ -44,19 +40,16 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: nana liu
 image_creator_id: '2527431'
-image_creator_url: https://www.pexels.com/@nana-llj
+image_creator_url: "https://www.pexels.com/@nana-llj"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/scenic-rocky-coastline-of-jeju-island-south-korea-34350149/
+image_source_url: "https://www.pexels.com/photo/scenic-rocky-coastline-of-jeju-island-south-korea-34350149/"
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-  title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
 - ref: posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md
-  title: 'Udo Jeju: đảo nhỏ, biển đá đen'
 - ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
-  title: 'Shinhwa Theme Park Jeju: water slides cho gia đình'
 series: du-lich
 series_order: 19
 series_title: Du lịch Hàn Quốc 2026
@@ -74,13 +67,9 @@ tom_tat_nhanh:
 - label: Khu vực
   value: Jungmun, Seogwipo, Jeju
 - label: Loại trải nghiệm
-  value: Bãi biển, thể thao nước, nghỉ dưỡng
 - label: Hợp với
-  value: Gia đình, cặp đôi, người thích ảnh đẹp
 - label: Thời gian nên dành
-  value: Nửa ngày đến cả ngày
 - label: Lưu ý mùa hè
-  value: Sóng có thể lớn hơn các bãi biển Busan, cần chú ý an toàn
 ---
 
 Jungmun Beach nằm trong khu nghỉ dưỡng Jungmun phía nam Jeju, gần Seogwipo. Đây là một trong những bãi biển có phong cảnh đẹp nhất Jeju với hình dáng mũi tên độc đáo, nước trong vắt và bờ cát mềm.

@@ -12,7 +12,7 @@ avatar: >-
   https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
   - du-lich
-date: 2026-07-08 07:00:00+07:00
+date: "2026-07-08 07:00:00+07:00"
 description: Cheongsapo Busan là làng chài ven biển gần Haeundae, nước trong xanh, có tàu Blue Line Park chạy dọc bờ biển. Hướng dẫn đi và lịch trình.
 draft: false
 external_links:
@@ -32,14 +32,11 @@ image_commercial_use: true
 image_creator: Alvin & Chelsea
 image_creator_id: 230969113
 image_creator_url: >-
-  https://www.pexels.com/@alvin-chelsea-230969113
 image_license: Pexels License
 image_license_url: >-
-  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: >-
-  https://www.pexels.com/photo/tourist-train-crossing-at-cheongsapo-station-17318386/
 internal_links:
   - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng ở Hàn Quốc mùa hè"}
   - {"ref": "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md", "title": "Haeundae Beach Busan"}

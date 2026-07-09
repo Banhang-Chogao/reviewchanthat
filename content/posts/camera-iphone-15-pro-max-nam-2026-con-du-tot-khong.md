@@ -9,7 +9,7 @@ ai_summary:
   - Máy cũ cần kiểm tra đốm đen, rung OIS và lỗi camera trước khi mua.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 12:40:00+07:00'
@@ -23,12 +23,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jakub Zerdzicki
 image_creator_id: '494676239'
-image_creator_url: https://www.pexels.com/@jakubzerdzicki
+image_creator_url: "https://www.pexels.com/@jakubzerdzicki"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/hand-holding-smartphone-with-blank-screen-indoors-36985833/
+image_source_url: "https://www.pexels.com/photo/hand-holding-smartphone-with-blank-screen-indoors-36985833/"
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 6
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
@@ -44,11 +44,8 @@ tom_tat_nhanh:
 - label: Camera
   value: 48MP chính + tele 5x + ultra wide
 - label: Điểm mạnh
-  value: Zoom quang, video ổn định, ProRes
 - label: Hạn chế
-  value: Thiếu Camera Control, phần mềm ưu tiên A18
 - label: Hợp với
-  value: Người chụp du lịch, gia đình, không cần máy ảnh rời
 ---
 
 “Camera iPhone 15 Pro Max còn đủ không hay phải lên 16?” — câu hỏi này xuất hiện mỗi khi có sự kiện Apple mới. Thực tế 2026, **phần lớn người dùng không cần cảm biến mới nhất** — họ cần **zoom ổn, video không rung, chụp tối không bệt**. iPhone 15 Pro Max vẫn đáp ứng tốt ba điều đó.

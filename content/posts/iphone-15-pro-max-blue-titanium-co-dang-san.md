@@ -9,7 +9,7 @@ ai_summary:
   - Đáng săn nếu bạn thích look độc và không định bán lại sớm.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 11:40:00+07:00'
@@ -23,12 +23,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: C. ISO
 image_creator_id: '329101566'
-image_creator_url: https://www.pexels.com/@c-iso-329101566
+image_creator_url: "https://www.pexels.com/@c-iso-329101566"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-smartphone-on-the-table-14121456/
+image_source_url: "https://www.pexels.com/photo/a-smartphone-on-the-table-14121456/"
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 3
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
@@ -44,11 +44,8 @@ tom_tat_nhanh:
 - label: Màu
   value: Blue Titanium — xanh xám đặc trưng
 - label: Điểm mạnh
-  value: Nổi bật, khác Natural/Black
 - label: Rủi ro
-  value: Phai xanh, giá máy cũ biến động
 - label: Hợp với
-  value: Người muốn màu lạ, chấp nhận máy đã qua sử dụng
 ---
 
 Trong bốn màu titan của iPhone 15 Pro Max, **Blue Titanium** là màu **dễ nhận ra nhất** trên bàn cafe — tone xanh xám lạnh, khác hẳn Natural hay Black. Câu hỏi năm 2026: **còn đáng săn không khi nhiều máy đã phai màu?**

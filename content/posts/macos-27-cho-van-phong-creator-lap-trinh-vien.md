@@ -12,10 +12,10 @@ ai_summary:
   - Mỗi nhóm có trade-off khác nhau giữa tính năng mới và rủi ro phần mềm chuyên ngành.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 12:20:00+07:00
+date: "2026-07-08 12:20:00+07:00"
 description: 'macOS 27 mang lại gì cho nhân viên văn phòng, creator nội dung và lập
   trình viên: Spotlight, Safari, Photos, Xcode và rủi ro beta.'
 draft: false
@@ -26,12 +26,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Lukas Blazek
 image_creator_id: '89898'
-image_creator_url: https://www.pexels.com/@goumbik
+image_creator_url: "https://www.pexels.com/@goumbik"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-using-macbook-pro-574077/
+image_source_url: "https://www.pexels.com/photo/person-using-macbook-pro-574077/"
 series: macos-27-co-gi-moi
 series_order: 5
 series_title: macOS 27 có gì mới
@@ -48,11 +48,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: macOS 27 theo từng nhóm người dùng
 - label: Văn phòng
-  value: Mail AI, Spotlight, Safari Notify Me
 - label: Creator
-  value: Photos AI, Visual Intelligence
 - label: Lập trình viên
-  value: Spotlight, Xcode beta, ổn định app
 ---
 
 Cùng một bản macOS 27, **kế toán**, **YouTuber** và **backend dev** sẽ thấy giá trị ở chỗ khác nhau. Bài này map tính năng Golden Gate 27 theo **workflow thật** — không liệt kê slide keynote.

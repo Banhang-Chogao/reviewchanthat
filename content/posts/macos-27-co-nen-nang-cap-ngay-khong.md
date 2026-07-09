@@ -12,10 +12,10 @@ ai_summary:
   - Checklist 9 bước trong bài giúp quyết định trong 10 phút trước khi cài.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
-date: 2026-07-08 12:40:00+07:00
+date: "2026-07-08 12:40:00+07:00"
 description: 'Checklist quyết định nâng cấp macOS Golden Gate 27: máy tương thích,
   app công việc, backup, AI và thời điểm public release.'
 draft: false
@@ -26,12 +26,12 @@ image_attribution_verified: true
 image_commercial_use: true
 image_creator: Daniil Komov
 image_creator_id: '133960344'
-image_creator_url: https://www.pexels.com/@dkomov
+image_creator_url: "https://www.pexels.com/@dkomov"
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/modern-workspace-with-coding-laptop-and-coffee-34803979/
+image_source_url: "https://www.pexels.com/photo/modern-workspace-with-coding-laptop-and-coffee-34803979/"
 series: macos-27-co-gi-moi
 series_order: 6
 series_title: macOS 27 có gì mới
@@ -48,11 +48,8 @@ tom_tat_nhanh:
 - label: Chủ đề
   value: Có nên lên macOS 27 không
 - label: Khuyến nghị
-  value: Chờ public release trừ máy phụ/beta
 - label: Checklist
-  value: Backup, app, RAM, Intel/M-series
 - label: Hợp với
-  value: Mọi người dùng Mac đang cân nhắc
 ---
 
 “Có nên bấm Update ngay?” — với macOS 27, câu trả lời đúng cho **đa số người Việt** vào tháng 7/2026 là: **chưa, chờ bản chính thức mùa thu** — trừ khi bạn có Mac phụ hoặc là developer cần test sớm.
