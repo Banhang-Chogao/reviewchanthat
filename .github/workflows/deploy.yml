@@ -62,9 +62,6 @@ jobs:
         continue-on-error: true
         run: python scripts/check_image_relevance.py || true
 
-      - name: Generate content direction report
-        run: python scripts/content_direction.py
-
       - name: Build Hugo
         run: hugo --minify
 
