@@ -1,17 +1,9 @@
 {
-  "generated_at": "2026-07-09T14:39:01+07:00",
+  "generated_at": "2026-07-09T22:18:24+07:00",
   "processed": 1,
-  "hero_generated": 1,
-  "inline_generated": 6,
-  "skipped_hero": 0,
-  "inline_skipped": 0,
+  "api_selected": 0,
+  "self_generated": 0,
+  "skipped": 0,
   "errors": [],
-  "posts": [
-    {
-      "slug": "co-nen-cho-iphone-18-khong",
-      "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
-      "hero": "generated",
-      "inline_count": 6
-    }
-  ]
+  "posts": []
 }

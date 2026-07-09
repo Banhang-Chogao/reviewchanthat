@@ -16,15 +16,27 @@ def nested_dict(value):
     return {}
 
 
-def load_dotenv():
+def load_dotenv(*, override: bool = True) -> None:
+    """Load repo-root `.env` into os.environ.
+
+    override=True (default) so permanent keys in `.env` always win over empty
+    shell exports. Never commit real keys — `.env` is gitignored.
+    """
     env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
-    if os.path.exists(env_path):
-        with open(env_path) as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#") and "=" in line:
-                    k, v = line.split("=", 1)
-                    os.environ.setdefault(k.strip(), v.strip())
+    if not os.path.exists(env_path):
+        return
+    with open(env_path) as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            key = k.strip()
+            val = v.strip().strip('"').strip("'")
+            if not key:
+                continue
+            if override or key not in os.environ or not os.environ.get(key):
+                os.environ[key] = val
 
 
 class BaseProvider:
@@ -49,10 +61,13 @@ class PexelsProvider(BaseProvider):
     def search(self, query, post):
         import requests
         api_key = os.environ.get(self.env_key, "")
-        headers = {"Authorization": api_key}
-        url = f"https://api.pexels.com/v1/search?query={quote(query)}&orientation=landscape&per_page=5"
+        headers = {
+            "Authorization": api_key,
+            "User-Agent": "ReviewChanThat-ImagePipeline/1.0",
+        }
+        url = f"https://api.pexels.com/v1/search?query={quote(query)}&orientation=landscape&per_page=15"
         try:
-            resp = requests.get(url, headers=headers, timeout=15)
+            resp = requests.get(url, headers=headers, timeout=20)
             if resp.status_code == 200:
                 candidates = []
                 for photo in resp.json().get("photos", []):
@@ -96,10 +111,14 @@ class PixabayProvider(BaseProvider):
         api_key = os.environ.get(self.env_key, "")
         url = (
             f"https://pixabay.com/api/?key={api_key}&q={quote(query)}&lang=en&image_type=photo"
-            f"&orientation=horizontal&min_width=1200&order=popular&safesearch=true&per_page=5"
+            f"&orientation=horizontal&min_width=1200&order=popular&safesearch=true&per_page=15"
         )
+        headers = {
+            "User-Agent": "ReviewChanThat-ImagePipeline/1.0",
+            "Accept": "application/json",
+        }
         try:
-            resp = requests.get(url, timeout=10)
+            resp = requests.get(url, headers=headers, timeout=20)
             if resp.status_code == 200:
                 candidates = []
                 for hit in resp.json().get("hits", []):

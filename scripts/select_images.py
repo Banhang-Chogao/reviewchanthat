@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
 """
-select_images.py — API-first image selection with self-generated fallback.
+select_images.py — Stock API image selection (Pexels + Pixabay primary).
 
 Policy:
-  1. Try API providers (Pexels → Pixabay → Unsplash → Freepik)
-  2. Fall back to self-generated editorial images if API fails
-  3. Lightweight matching: no heavy compliance scoring
-  4. Strict attribution: never fake creator names
-  5. Create data/images.json manifest for process_images.py
+  1. Load permanent keys from repo `.env` (PEXELS_API_KEY, PIXABAY_API_KEY)
+  2. Try API providers: Pexels → Pixabay → (optional Unsplash/Freepik if keyed)
+  3. Do NOT auto-draw / self-generate placeholder art by default
+  4. Lightweight matching: no heavy compliance scoring that blocks deploy
+  5. Strict attribution: never fake creator names
+  6. Write data/images.json for process_images.py
 
 Usage:
   python scripts/select_images.py --post content/posts/example.md --fix
-  python scripts/select_images.py --post content/posts/example.md --fix --api-first
-  python scripts/select_images.py --all --fix --api-first --only-missing-or-bad
-  python scripts/select_images.py --post content/posts/example.md --fix --force-generated
+  python scripts/select_images.py --all --fix --only-missing-or-bad
 """
 
 from __future__ import annotations
@@ -110,9 +109,11 @@ def select_image_for_post(
     used_urls: set[str],
     force_generated: bool = False,
     api_first: bool = True,
+    allow_self_generated: bool = False,
 ) -> tuple[dict[str, Any] | None, str]:
     """
-    Select best image for post: API-first or force fallback.
+    Select best stock API image for post.
+    Self-generated art is OFF unless allow_self_generated/force_generated.
     Returns (manifest_entry, reason).
     """
     slug = post.get("slug", "")
@@ -124,35 +125,51 @@ def select_image_for_post(
             return entry, "force_generated"
         return None, "force_generated_but_not_found"
 
-    if api_first:
-        api_entry = try_api_image(post, body, used_urls)
-        if api_entry:
-            return api_entry, f"api_selected:{api_entry.get('source_platform', 'unknown')}"
+    # Default path: stock APIs only (Pexels / Pixabay / optional others)
+    api_entry = try_api_image(post, body, used_urls)
+    if api_entry:
+        return api_entry, f"api_selected:{api_entry.get('source_platform', 'unknown')}"
+
+    if allow_self_generated:
         fallback_entry = check_self_generated_image(slug, title)
         if fallback_entry:
             return fallback_entry, "api_failed_fallback_used"
         return None, "api_failed_no_fallback"
-    else:
-        fallback_entry = check_self_generated_image(slug, title)
-        if fallback_entry:
-            return fallback_entry, "self_generated_only"
-        return None, "self_generated_not_found"
+
+    return None, "api_failed_no_stock_image"
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Select images for posts: API-first with self-generated fallback")
+    parser = argparse.ArgumentParser(
+        description="Select images for posts from Pexels/Pixabay APIs (no auto-draw by default)"
+    )
     parser.add_argument("--post", type=str, help="Single post path (e.g. content/posts/iphone-...md)")
     parser.add_argument("--all", action="store_true", help="Process all posts in content/posts/")
     parser.add_argument("--fix", action="store_true", help="Write frontmatter and manifest")
     parser.add_argument("--api-first", action="store_true", default=True, help="Try API images first (default)")
-    parser.add_argument("--force-generated", action="store_true", help="Force self-generated fallback only")
+    parser.add_argument(
+        "--force-generated",
+        action="store_true",
+        help="DEPRECATED emergency: only use existing self-generated asset if present",
+    )
+    parser.add_argument(
+        "--allow-self-generated",
+        action="store_true",
+        help="Allow existing self-generated asset as last resort (off by default)",
+    )
     parser.add_argument("--only-missing-or-bad", action="store_true", help="Only process posts missing images")
     parser.add_argument("--dry-run", action="store_true", help="Print what would be done without writing")
     args = parser.parse_args()
 
-    # Ensure API keys are available
+    # Ensure permanent API keys from .env are available (override empty shell)
     from image_providers import load_dotenv
-    load_dotenv()
+    load_dotenv(override=True)
+    pexels = bool(os.environ.get("PEXELS_API_KEY"))
+    pixabay = bool(os.environ.get("PIXABAY_API_KEY"))
+    print(f"API keys: PEXELS={'yes' if pexels else 'NO'} PIXABAY={'yes' if pixabay else 'NO'}")
+    if not pexels and not pixabay:
+        print("ERROR: Set PEXELS_API_KEY and/or PIXABAY_API_KEY in repo .env")
+        return 1
 
     posts_to_process = []
 
@@ -172,7 +189,8 @@ def main() -> int:
         print("ERROR: Use --post <path> or --all")
         return 1
 
-    print(f"=== Image Selection (API-first with self-generated fallback) ===\n")
+    print("=== Image Selection (Pexels + Pixabay API; no auto-draw) ===\n")
+    allow_self = bool(args.allow_self_generated or args.force_generated)
 
     report = {
         "generated_at": None,
@@ -211,7 +229,9 @@ def main() -> int:
                 continue
 
         if args.dry_run:
-            entry, reason = select_image_for_post(meta, body, used_urls, args.force_generated, args.api_first)
+            entry, reason = select_image_for_post(
+                meta, body, used_urls, args.force_generated, args.api_first, allow_self
+            )
             if entry:
                 source = entry.get("source_platform", "unknown")
                 print(f"    Would select: {source} ({reason})")
@@ -220,8 +240,10 @@ def main() -> int:
             report["processed"] += 1
             continue
 
-        # Select image
-        entry, reason = select_image_for_post(meta, body, used_urls, args.force_generated, args.api_first)
+        # Select image (stock APIs only unless --allow-self-generated)
+        entry, reason = select_image_for_post(
+            meta, body, used_urls, args.force_generated, args.api_first, allow_self
+        )
         if not entry:
             print(f"    FAIL: {reason}")
             report["errors"].append({"slug": slug, "reason": reason})

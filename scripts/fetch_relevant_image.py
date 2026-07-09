@@ -42,15 +42,19 @@ def _provider_color_params(ctx: ArticleImageContext, provider_name: str) -> dict
 def _search_pexels(provider: PexelsProvider, query: str, ctx: ArticleImageContext) -> list[dict[str, Any]]:
     import requests
     api_key = os.environ.get(provider.env_key, "")
-    headers = {"Authorization": api_key}
+    headers = {
+        "Authorization": api_key,
+        "User-Agent": "ReviewChanThat-ImagePipeline/1.0",
+    }
     params = f"query={quote(query)}&orientation=landscape&size=large&per_page=15"
     color = _provider_color_params(ctx, provider.name).get("color")
     if color:
         params += f"&color={quote(color)}"
     url = f"https://api.pexels.com/v1/search?{params}"
     try:
-        resp = requests.get(url, headers=headers, timeout=15)
+        resp = requests.get(url, headers=headers, timeout=20)
         if resp.status_code != 200:
+            print(f"    [Pexels] API error: {resp.status_code}")
             return []
         candidates = []
         for photo in resp.json().get("photos", []):
@@ -85,9 +89,14 @@ def _search_pixabay(provider: PixabayProvider, query: str, ctx: ArticleImageCont
         f"&image_type=photo&orientation=horizontal&min_width=1200"
         f"&order=popular&safesearch=true&per_page=15{colors_param}"
     )
+    headers = {
+        "User-Agent": "ReviewChanThat-ImagePipeline/1.0",
+        "Accept": "application/json",
+    }
     try:
-        resp = requests.get(url, timeout=15)
+        resp = requests.get(url, headers=headers, timeout=20)
         if resp.status_code != 200:
+            print(f"    [Pixabay] API error: {resp.status_code}")
             return []
         candidates = []
         for hit in resp.json().get("hits", []):
