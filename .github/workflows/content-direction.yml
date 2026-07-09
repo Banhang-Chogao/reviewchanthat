@@ -32,8 +32,9 @@ jobs:
       - name: Checkout deployed SHA
         uses: actions/checkout@v4
         with:
-          # Prefer the commit Deploy just finished; fall back to default ref on manual run.
-          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          # Checkout main branch (not detached HEAD) so git push works.
+          # Deploy already ran and completed, so main is up-to-date.
+          ref: main
           fetch-depth: 0
 
       - name: Setup Python
