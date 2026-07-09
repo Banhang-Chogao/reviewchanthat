@@ -15,8 +15,6 @@ author: Minh Hoàng
 categories:
 - cong-nghe
 date: "2026-07-10 04:45:00+07:00"
-description: 'Phân tích live_deploy_not_reflected (safe) và github_pages_serving_old_artifact
-  (unsafe): merge/deploy OK nhưng site còn SHA cũ — cách verify và xử lý cache/CDN.'
 draft: false
 image: "images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp"
 image_alt: "Ảnh minh họa — Pexels / Daniil Komov"
@@ -51,6 +49,9 @@ tags:
 - CI/CD
 thumbnail: "images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp"
 title: 'Live deploy không phản ánh: build-info.json và GitHub Pages serving old artifact'
+seo_title: "Live deploy không phản ánh: build-info.json và GitHub Pages"
+description: "| Code | Safety | Mô tả | |------|--------|--------| | livedeploynotreflected | safe | Merge OK nhưng live vẫn artifact cũ — thường verify/process | |"
+
 ---
 
 ## Root cause

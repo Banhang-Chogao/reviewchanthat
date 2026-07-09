@@ -15,8 +15,6 @@ author: Minh Hoàng
 categories:
 - cong-nghe
 date: "2026-07-10 04:30:00+07:00"
-description: Gom changed_post_image_missing, self_owned_image_direct_url, verified_creator_unavailable,
-  fake_image_creator, image_asset_missing — quy tắc ảnh an toàn cho Hugo blog.
 draft: false
 image: "images/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url.webp"
 image_alt: "Ảnh minh họa — Pexels / Danny Meneses"
@@ -52,6 +50,9 @@ tags:
 thumbnail: "images/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url.webp"
 title: 'Image pipeline: hero thiếu, self-owned direct_url, creator rỗng hợp lệ và
   creator giả'
+seo_title: "Image pipeline: hero thiếu, self-owned direct_url, creator"
+description: "| Code | Safety | Mô tả | |------|--------|--------| | changedpostimagemissing | safe | Post mới/đổi thiếu hero đã verify | | selfownedimagedirecturl | safe |"
+
 ---
 
 ## Root cause

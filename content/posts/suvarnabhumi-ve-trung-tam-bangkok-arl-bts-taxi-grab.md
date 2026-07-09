@@ -56,6 +56,8 @@ tom_tat_nhanh:
 - label: Taxi
 - label: Grab
 - label: Nên chọn
+seo_title: "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS"
+
 ---
 
 ## Từ sân bay Suvarnabhumi về trung tâm Bangkok

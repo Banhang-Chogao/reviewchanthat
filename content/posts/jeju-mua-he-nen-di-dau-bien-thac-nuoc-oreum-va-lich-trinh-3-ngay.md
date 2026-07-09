@@ -70,6 +70,8 @@ tom_tat_nhanh:
 - label: Phương tiện
 - label: Chi phí
 - label: Phù hợp
+seo_title: "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình"
+
 ---
 
 Jeju là điểm đến lý tưởng cho mùa hè — nhiệt độ mát hơn Seoul nhờ gió biển, cảnh đẹp và nhiều hoạt động. Biển xanh, thác nước mát lạnh, oreum (núi nhỏ) thoáng gió — Jeju mùa hè có tất cả.

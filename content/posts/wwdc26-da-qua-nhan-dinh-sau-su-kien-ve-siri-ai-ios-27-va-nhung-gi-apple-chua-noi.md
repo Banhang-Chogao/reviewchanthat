@@ -75,6 +75,8 @@ tom_tat_nhanh:
 - label: Tính năng đáng chú ý
 - label: Mức độ hoàn thiện
 - label: Hợp với
+seo_title: "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và"
+
 ---
 
 WWDC26 kết thúc được một tháng rồi. Đủ để bản beta về tay developer, đủ để báo chí chuyển từ "Apple sắp làm gì?" sang "Apple làm được gì rồi?", và cũng đủ để người dùng phổ thông bắt đầu đặt câu hỏi thực tế hơn: **có nên cài thử, hay chờ bản chính thức?**

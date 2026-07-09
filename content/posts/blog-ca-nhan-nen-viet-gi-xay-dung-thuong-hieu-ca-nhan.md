@@ -1,7 +1,6 @@
 +++
 title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
 date = 2026-07-10T00:30:00+07:00
-description = "Muốn xây dựng thương hiệu cá nhân bằng blog, bạn không nên viết lan man. Hãy bắt đầu từ năng lực muốn được nhớ tới, vấn đề bạn giải quyết thật và cụm bài có thể liên kết với nhau."
 slug = "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "thương hiệu cá nhân", "viết blog", "personal branding", "content strategy", "SEO cá nhân"]
@@ -15,6 +14,8 @@ related_posts = [
   "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
   "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc"
 ]
+seo_title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền"
+description = "Nhiều người mở blog cá nhân với hứng khởi, viết được ba bài rồi dừng. Không phải vì lười. Phần lớn kẹt ở câu hỏi rất thật: blog cá nhân nên viết gì để vừa có"
 
 [ai_summary]
 enabled = true
@@ -40,6 +41,8 @@ image_creator_id = "2332540"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa blog ca nhan nen viet gi xay dung thuong hieu ca nhan — Pexels / www.kaboompics.com"
+
+
 
 +++
 

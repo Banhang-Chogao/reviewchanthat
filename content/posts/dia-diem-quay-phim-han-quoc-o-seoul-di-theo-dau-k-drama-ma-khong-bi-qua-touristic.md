@@ -70,6 +70,8 @@ tom_tat_nhanh:
   value: ''
 - label: Có cần đặt trước không
   value: ''
+seo_title: "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà"
+
 ---
 
 Có một cách khám phá Seoul mà mình thấy cực kỳ thú vị nhưng không bị "touristic" — đó là đi theo dấu các bộ phim Hàn Quốc. Hoạt động này xếp hạng 9 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình thì nó xứng đáng cao hơn nếu bạn là fan K-drama.

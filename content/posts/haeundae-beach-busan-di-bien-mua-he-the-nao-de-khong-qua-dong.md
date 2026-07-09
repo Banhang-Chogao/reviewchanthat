@@ -77,6 +77,8 @@ tom_tat_nhanh:
 - label: Hợp với
 - label: Thời gian nên dành
 - label: Lưu ý mùa hè
+seo_title: "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá"
+
 ---
 
 Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc biển Hàn Quốc — bãi biển dài 1,5 km cát trắng, sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ. Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Haeundae đứng thứ hai.

@@ -57,6 +57,8 @@ tom_tat_nhanh:
 - label: Biển
 - label: Tour chạy
 - label: Tour rủi ro
+seo_title: "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng"
+
 ---
 
 ## Krabi mùa mưa — còn gì để chơi?

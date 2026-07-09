@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-07-10T05:35:12+07:00",
+  "generated_at_display": "10-07-2026 05:35:12",
+  "policy": {
+    "no_long_articles_in_score_fix": true,
+    "statuses_count_as_mitigation": [
+      "planned",
+      "resolved",
+      "in_progress",
+      "briefed",
+      "queued"
+    ],
+    "notes": "Briefs mitigate matching content_gaps in content_direction.py without fabricating posts."
+  },
+  "briefs": [
+    {
+      "id": "gap-starbucks-pillar",
+      "title": "Starbucks Việt Nam: hướng dẫn tổng quan trải nghiệm, menu và tips",
+      "slug": "starbucks-vietnam-huong-dan-tong-quan",
+      "target_keyword": "starbucks việt nam",
+      "search_intent": "informational hub — người mới muốn map toàn bộ series Starbucks VN",
+      "outline": [
+        "Starbucks VN khác gì thị trường khác",
+        "Map series: lịch sử, không gian, menu, order, dịch vụ",
+        "Cách chọn cửa hàng theo nhu cầu (làm việc / gặp gỡ / mang đi)",
+        "Checklist order + rewards cơ bản",
+        "Liên kết sâu tới các bài vệ tinh"
+      ],
+      "linked_pillar": "starbucks-nguyen-van-troi-sai-gon-review",
+      "related_posts": [
+        "starbucks-nguyen-van-troi-sai-gon-review",
+        "starbucks-vietnam-khong-gian-va-trai-nghiem",
+        "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
+        "starbucks-vietnam-menu-do-uong-nen-thu",
+        "starbucks-vietnam-meo-goi-order-va-rewards",
+        "starbucks-vietnam-nhan-vien-va-dich-vu"
+      ],
+      "addresses_gap": {
+        "type": "missing_pillar",
+        "name": "starbucks"
+      },
+      "status": "planned",
+      "priority": "P1",
+      "notes": "Brief actionable — không viết full body trong batch score-fix này."
+    },
+    {
+      "id": "gap-tai-chinh-cluster",
+      "title": "Checklist tài chính cá nhân khi mua sắm công nghệ và du lịch",
+      "slug": "checklist-tai-chinh-mua-sam-va-du-lich",
+      "target_keyword": "checklist tài chính cá nhân",
+      "search_intent": "practical checklist — bổ sung cluster tai-chinh còn mỏng",
+      "outline": [
+        "Ngân sách trước khi mua thiết bị / book vé",
+        "Phân biệt chi phí cố định vs biến đổi",
+        "Câu hỏi cần trả lời trước khi chi",
+        "Liên kết bài so sánh giá / thói quen mua sắm thông minh"
+      ],
+      "linked_pillar": "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
+      "related_posts": [
+        "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
+        "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat"
+      ],
+      "addresses_gap": {
+        "type": "low_category_count",
+        "name": "tai-chinh"
+      },
+      "status": "planned",
+      "priority": "P0",
+      "notes": "Giảm content_gaps low_category tai-chinh khi brief được ghi nhận."
+    },
+    {
+      "id": "gap-personal-brand-system",
+      "title": "Hệ thống nội dung blog + TikTok để xây thương hiệu cá nhân bền",
+      "slug": "he-thong-noi-dung-blog-tiktok-thuong-hieu-ca-nhan",
+      "target_keyword": "xây dựng thương hiệu cá nhân blog tiktok",
+      "search_intent": "systems / how-to — nối các vệ tinh personal branding",
+      "outline": [
+        "Vì sao blog là nền, TikTok là kênh phân phối",
+        "Pipeline: idea → bài Hugo → cắt video",
+        "Chỉ số đo lường thực tế (không vanity)",
+        "Lịch xuất bản 2–4 tuần"
+      ],
+      "linked_pillar": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
+      "related_posts": [
+        "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
+        "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
+        "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
+        "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"
+      ],
+      "addresses_gap": {
+        "type": "cluster_opportunity",
+        "name": "personal-brand"
+      },
+      "status": "planned",
+      "priority": "P1",
+      "notes": "High-value opportunity brief theo cluster personal-brand."
+    },
+    {
+      "id": "gap-cicd-ops-runbook",
+      "title": "Runbook vận hành CI/CD blog Hugo trên GitHub Pages",
+      "slug": "runbook-van-hanh-ci-cd-hugo-github-pages",
+      "target_keyword": "runbook ci cd hugo github pages",
+      "search_intent": "ops reference — gom playbook + vệ tinh root-cause",
+      "outline": [
+        "Luồng deploy chuẩn và điểm kiểm tra",
+        "Phân loại safe vs unsafe failure",
+        "Checklist sau incident (SHA, sitemap, QA scope)",
+        "Liên kết playbook + audit + baseURL lessons"
+      ],
+      "linked_pillar": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
+      "related_posts": [
+        "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
+        "baseurl-sitemap-noindex-va-series-hardcoded-url",
+        "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
+        "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
+        "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
+        "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
+        "live-deploy-khong-phan-anh-va-pages-serving-old-artifact",
+        "workflow-failures-audit-recent-ci-cd-root-causes-action-items"
+      ],
+      "addresses_gap": {
+        "type": "cluster_opportunity",
+        "name": "ci-cd"
+      },
+      "status": "planned",
+      "priority": "P1",
+      "notes": "High-value opportunity brief theo cluster CI/CD lessons."
+    }
+  ]
+}

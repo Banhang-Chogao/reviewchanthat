@@ -50,6 +50,8 @@ tom_tat_nhanh:
 - label: Apple claim
 - label: Rủi ro
 - label: Hợp với
+seo_title: "iOS 27 có cải thiện pin không? Những điều người dùng iPhone"
+
 ---
 
 “Lên iOS mới xong pin tụt một nửa” — câu than trời quen thuộc trên group iPhone Việt Nam. **iOS 27** hứa hiệu năng tốt hơn, nhưng cũng mang **Siri AI**, indexing Photos và background AI — tất cả đều “ăn” pin.

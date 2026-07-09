@@ -69,6 +69,8 @@ tom_tat_nhanh:
 - label: Mưa
 - label: Chi phí
 - label: Phù hợp
+seo_title: "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch"
+
 ---
 
 ## Thời tiết tháng 7

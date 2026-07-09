@@ -77,6 +77,8 @@ tom_tat_nhanh:
 - label: Seoul/Bukhansan (đỉnh 2025)
 - label: Nami Island
 - label: Lưu ý
+seo_title: "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên"
+
 ---
 
 “Hàn Quốc tháng 10 có lá đỏ chưa?” là câu hỏi phổ biến nhất khi lên kế hoạch đi Hàn mùa thu. Câu trả lời không phải “có” hay “không” đơn giản — mà phụ thuộc **địa điểm**, **tuần trong tháng** và **điều kiện thời tiết từng năm**.

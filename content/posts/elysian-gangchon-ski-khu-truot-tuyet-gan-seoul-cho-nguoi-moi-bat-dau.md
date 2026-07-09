@@ -87,6 +87,8 @@ tom_tat_nhanh:
   value: Mùa đông (tháng 12–2)
 - label: Có cần đặt trước không
   value: Có (shuttle bus, thuê đồ, vé)
+seo_title: "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người"
+
 ---
 
 Bạn mới tập trượt và chỉ có một ngày rảnh ở Seoul? Elysian Gangchon là cái tên đầu tiên mình nghĩ đến. Lý do đơn giản: đây là resort gần Seoul nhất trong tất cả, đi tàu điện đến được, không cần thuê xe.

@@ -63,6 +63,8 @@ tom_tat_nhanh:
 - label: Mục đích
 - label: Hợp với
 - label: Điểm chính
+seo_title: "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng"
+
 ---
 
 Bạn đứng trước hai lựa chọn: sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng. Sản phẩm B đắt hơn nhưng bảo hành 2 năm và nhiều review tốt. Bạn chọn cái nào?

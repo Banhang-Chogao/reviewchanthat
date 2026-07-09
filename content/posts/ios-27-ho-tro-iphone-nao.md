@@ -52,6 +52,8 @@ tom_tat_nhanh:
 - label: Nguồn
 - label: Điểm then chốt
 - label: Hợp với
+seo_title: "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới"
+
 ---
 
 “iPhone của mình còn lên iOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **iPhone 11**, **iPhone 12 mini** hoặc **iPhone 13** mua từ 2020–2022. Câu trả lời ngắn theo Apple: **hầu hết iPhone từ 2019 trở lên đều trong danh sách** — nhưng **Apple Intelligence** lại là câu chuyện khác.

@@ -77,6 +77,8 @@ tom_tat_nhanh:
 - label: Mưa
 - label: Đặc điểm
 - label: Lưu ý
+seo_title: "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và"
+
 ---
 
 Tháng 11 là thời điểm Hàn Quốc bước vào **cuối mùa thu** — lạnh hơn tháng 10 rõ rệt, trời tối sớm và gió tăng dần. Nhiều du khách chọn tháng này vì Seoul và các cung điện thường vào **peak lá đỏ**, nhưng cũng lo lắng: *lạnh thế nào, có mưa không, và cần mang gì trong vali?*

@@ -15,9 +15,6 @@ author: Minh Hoàng
 categories:
 - cong-nghe
 date: "2026-07-10 04:55:00+07:00"
-description: Gom hugo_build_error, deploy_not_completed, template_or_render_regression,
-  ai_summary_map_artifact, table_layout_ux_regression, duplicate_yaml_keys — cách
-  đọc log assemble và fix an toàn.
 draft: false
 image: "images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp"
 image_alt: "Ảnh minh họa — Pexels / Alicia Christin Gerald"
@@ -54,6 +51,9 @@ tags:
 thumbnail: "images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp"
 title: 'Hugo build error: duplicate YAML, ai_summary map[], template regression và
   deploy không complete'
+seo_title: "Hugo build error: duplicate YAML, ai_summary map[], template"
+description: "| Code | Safety | Mô tả | |------|--------|--------| | hugobuilderror | unsafe | Build/render fail — cần đọc log, không đoán | | deploynotcompleted | unsafe |"
+
 ---
 
 ## Root cause

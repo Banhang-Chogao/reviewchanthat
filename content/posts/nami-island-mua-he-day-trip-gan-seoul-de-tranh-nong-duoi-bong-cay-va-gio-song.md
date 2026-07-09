@@ -72,6 +72,8 @@ tom_tat_nhanh:
 - label: Hợp với
 - label: Thời gian nên dành
 - label: Lưu ý mùa hè
+seo_title: "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới"
+
 ---
 
 Ai cũng biết Nami Island mùa thu lá vàng đẹp như phim _Winter Sonata_. Nhưng theo mình, Nami mùa hè mới thực sự là chốn tránh nóng lý tưởng — tán Metasequoia xanh mướt che kín lối đi, gió từ sông Bukhan thổi lồng lộng, khác hẳn cái oi bức ở Seoul.

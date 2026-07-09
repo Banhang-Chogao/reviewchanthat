@@ -20,9 +20,6 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
 date: '2026-07-08 16:00:00+07:00'
-description: Gợi ý menu Starbucks Vietnam — espresso, Frappuccino, trà, món mùa và
-  cách tùy chỉnh đá, đường, sữa cho đúng gu. Kinh nghiệm thực tế từ chi nhánh Nguyễn
-  Văn Trỗi.
 draft: false
 external_links:
 - title: Starbucks Vietnam — Menu
@@ -58,6 +55,9 @@ tom_tat_nhanh:
 - label: Tùy chỉnh
 - label: Mùa hè
 - label: Ghi chú
+seo_title: "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng"
+description: "Đứng trước bảng menu Starbucks lần đầu, nhiều người hơi choáng: tên tiếng Anh dài, size Tall-Grande-Venti, và hàng chục lựa chọn syrup. Bài này gom lại những đồ"
+
 ---
 
 Đứng trước bảng menu Starbucks lần đầu, nhiều người hơi choáng: tên tiếng Anh dài, size Tall-Grande-Venti, và hàng chục lựa chọn syrup. Bài này gom lại những đồ uống mình thấy **đáng thử** tại Starbucks Vietnam — dựa trên kinh nghiệm gọi tại nhiều chi nhánh, đặc biệt **Nguyễn Văn Trỗi** nơi chất lượng pha chế khá ổn định.

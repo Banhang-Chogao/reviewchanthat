@@ -78,6 +78,8 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý
   value: ''
+seo_title: "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách"
+
 ---
 
 Nami Island (đảo Nami) quanh năm là day trip phổ biến từ Seoul, nhưng **tháng 11** đòi hỏi bạn điều chỉnh kỳ vọng so với tháng 10. Trong khi Seoul và nhiều cung điện thường đạt **peak lá đỏ** vào đầu–giữa tháng 11, Nami — nằm ở Gapyeong với độ cao thấp hơn vùng núi phía bắc — có thể **đã qua đỉnh màu** nếu bạn đi cuối tháng. Visit Korea liệt kê Nami trong nhóm [điểm ngắm lá đỏ nổi tiếng ngoài Seoul](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), nhưng ngày cụ thể **thay đổi theo từng năm**.

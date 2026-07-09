@@ -19,9 +19,6 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: Seoul ngày mưa nên đi đâu? Gợi ý 20 điểm indoor không phí lịch trình
-  — bảo tàng, thủy cung, Coex Mall, Lotte World và quán cà phê. Kèm lịch trình 2 ngày
-  mùa mưa.
 draft: false
 faq:
 - answer: Bảo tàng Quốc gia Hàn Quốc (miễn phí), War Memorial, COEX Aquarium, Lotte
@@ -72,6 +69,9 @@ tom_tat_nhanh:
 - label: Phù hợp
 - label: Chi phí
 - label: Di chuyển
+seo_title: "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch"
+description: "Seoul mùa mưa không phải là ác mộng — nếu bạn biết điểm đến nào trong nhà, điểm nào kết nối bằng tàu điện ngầm và điểm nào mở cửa miễn phí."
+
 ---
 
 Seoul mùa mưa không phải là ác mộng — nếu bạn biết điểm đến nào trong nhà, điểm nào kết nối bằng tàu điện ngầm và điểm nào mở cửa miễn phí.

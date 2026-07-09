@@ -85,6 +85,8 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý mùa hè
   value: ''
+seo_title: "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất"
+
 ---
 
 Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm — khung cảnh bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.

@@ -15,9 +15,6 @@ author: Minh Hoàng
 categories:
 - cong-nghe
 date: "2026-07-10 04:25:00+07:00"
-description: 'Phân tích baseline_debt_blocking_unrelated_deploy (unsafe) và qa_expectation_mismatch
-  (safe): nợ QA/image cũ fail full-site, chặn PR không liên quan — cách scope QA theo
-  feature.'
 draft: false
 image: "images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp"
 image_alt: "Ảnh minh họa — Pexels / ROMAN ODINTSOV"
@@ -52,6 +49,8 @@ tags:
 - unsafe
 thumbnail: "images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp"
 title: 'Baseline debt chặn deploy và QA scope: chỉ bắt tính năng mới'
+description: "| Code | Safety | Mô tả | |------|--------|--------| | baselinedebtblockingunrelateddeploy | unsafe | Nợ QA/image cũ fail full-site, chặn deploy feature mới | |"
+
 ---
 
 ## Root cause

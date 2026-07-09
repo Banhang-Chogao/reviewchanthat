@@ -1,7 +1,6 @@
 +++
 title = "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm"
 date = 2026-07-09T23:30:00+07:00
-description = "Deployment Doctor là cách Review Chân Thật gom failed builds, phân loại root cause, lưu kinh nghiệm hệ thống và tự autofix lỗi deploy an toàn để giảm việc phải sửa bug thủ công."
 slug = "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix"
 categories = ["cong-nghe"]
 tags = ["Deployment Doctor", "GitHub Actions", "CI/CD", "autofix", "deployment", "DevOps", "Hugo"]
@@ -28,6 +27,8 @@ related_posts = [
   "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
   "workflow-failures-audit-recent-ci-cd-root-causes-action-items"
 ]
+seo_title = "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom"
+description = "Một blog cá nhân trông “nhỏ”, nhưng pipeline có thể rất đông: Deploy, Content Direction, QA debt, autofix, snapshot, doctor… Chỉ cần một fail không được phân"
 
 [ai_summary]
 enabled = true
@@ -40,6 +41,8 @@ items = [
   "Các lỗi như runner queue, GitHub outage hoặc rate limit không nên tạo hotfix code; hệ thống chỉ nên chờ, retry có kiểm soát hoặc cancel run cũ.",
   "Các lỗi có scope rõ như date-only, self-owned image thiếu direct_url, content direction rỗng hoặc URL hardcode có thể được autofix bằng script nhỏ, có retry cap và QA sau fix."
 ]
+
+
 +++
 
 Một blog cá nhân trông “nhỏ”, nhưng pipeline có thể rất đông: Deploy, Content Direction, QA debt, autofix, snapshot, doctor… Chỉ cần **một** fail không được phân loại, cả dây chuyền dễ chạy vòng: bot sửa, bot report, bot deploy lại, runner xếp hàng, và chủ blog thức đêm mở log.

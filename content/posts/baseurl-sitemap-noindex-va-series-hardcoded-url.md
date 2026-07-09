@@ -15,9 +15,6 @@ author: Minh Hoàng
 categories:
 - cong-nghe
 date: "2026-07-10 04:50:00+07:00"
-description: 'Phân tích baseurl_routing_error, sitemap_noindex_mismatch, series_hardcoded_url
-  (safe): path tuyệt đối thiếu /reviewchanthat/, noindex lọt sitemap, /series/ hardcode
-  vỡ baseURL.'
 draft: false
 image: "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp"
 image_alt: "Ảnh minh họa — Pexels / cottonbro studio"
@@ -52,6 +49,9 @@ tags:
 - GitHub Pages
 thumbnail: "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp"
 title: BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages
+seo_title: "BaseURL, sitemap noindex và series hardcoded URL trên GitHub"
+description: "| Code | Safety | Mô tả | |------|--------|--------| | baseurlroutingerror | safe | Path absolute bỏ prefix /reviewchanthat/ | | sitemapnoindexmismatch | safe |"
+
 ---
 
 ## Root cause

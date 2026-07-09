@@ -88,6 +88,8 @@ tom_tat_nhanh:
   value: Cân nhắc theo nhu cầu & timeline đồn
 - label: Hợp với
   value: Người phân vân mua hay chờ 2026–2027
+seo_title: "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc"
+
 ---
 
 “**Có nên chờ iPhone 18 không?**” — câu hỏi lặp lại mỗi năm, nhưng 2026–2027 phức tạp hơn vì tin đồn **split launch**: Pro ra **tháng 9/2026**, base có thể **đầu 2027**. Apple **chưa công bố** iPhone 18; bài này giúp bạn quyết định theo **máy đang dùng** (15, 16 hay 17), **ngân sách** và **mức chấp nhận rủi ro tin đồn** — không dựa trên tính năng Apple đã xác nhận.

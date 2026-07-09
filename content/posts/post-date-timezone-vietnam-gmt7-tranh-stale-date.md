@@ -51,6 +51,8 @@ tags:
 - safe
 thumbnail: "images/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.webp"
 title: 'Post date timezone Việt Nam (GMT+7): tránh stale_date và lệch homepage'
+seo_title: "Post date timezone Việt Nam (GMT+7): tránh stale_date và"
+
 ---
 
 ## Root cause

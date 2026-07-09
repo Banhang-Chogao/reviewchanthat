@@ -15,9 +15,6 @@ author: Minh Hoàng
 categories:
 - cong-nghe
 date: "2026-07-10 04:05:00+07:00"
-description: 'Playbook phân loại root cause CI/CD (safe/unsafe): runner delay, rate
-  limit, fan-out, QA debt, image pipeline, timezone, Content Direction, Pages lag,
-  baseURL, Hugo YAML — kèm 10 bài vệ tinh.'
 draft: false
 image: "images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp"
 image_alt: "Ảnh minh họa — Pexels / Anete Lusina"
@@ -64,6 +61,9 @@ tags:
 thumbnail: "images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp"
 title: 'CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub
   Pages'
+seo_title: "CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog"
+description: "Khi một blog tĩnh (Hugo) publish qua GitHub Actions + GitHub Pages, màn hình đỏ không tự nói \"đây là bug code\". Nhiều lần job fail vì runner chưa kịp start, API"
+
 ---
 
 ## Vì sao cần playbook root cause?

@@ -56,6 +56,8 @@ tom_tat_nhanh:
 - label: Làm việc
 - label: Nguyễn Văn Trỗi
 - label: Giờ yên
+seo_title: "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải"
+
 ---
 
 Starbucks bán cà phê — nhưng rất nhiều khách trả tiền cho **chỗ ngồi**. Không gian là lý do người ta ở lại ba tiếng với một ly, mở laptop làm việc, hoặc hẹn bạn đọc sách. Bài này mô tả **không gian và trải nghiệm Starbucks Vietnam**, tập trung chi nhánh **Nguyễn Văn Trỗi** mà mình dùng như "văn phòng phụ" khá thường xuyên.

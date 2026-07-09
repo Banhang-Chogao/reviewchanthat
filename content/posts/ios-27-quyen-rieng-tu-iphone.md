@@ -51,6 +51,8 @@ tom_tat_nhanh:
 - label: AI
 - label: Trẻ em
 - label: Hợp với
+seo_title: "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều"
+
 ---
 
 Mỗi lần Apple nhắc **AI**, câu hỏi tiếp theo luôn là: **dữ liệu của tôi đi đâu?** iOS 27 không ngoại lệ — Siri AI đọc Messages, Photos AI xử lý ảnh gia đình, Safari Notify Me theo dõi trang web. Apple hứa **on-device** và **Private Cloud Compute**, nhưng người dùng vẫn cần hiểu giới hạn thực tế.

@@ -15,9 +15,6 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 10:00:00+07:00'
-description: iPhone Fold hay iPhone Ultra là gì? Tin đồn smartphone gập đầu tiên của
-  Apple — thiết kế, giá ~2.000 USD, lịch ra mắt 9/2026, có nên chờ — nguồn MacRumors,
-  AppleInsider.
 draft: false
 external_links:
 - title: MacRumors — iPhone Fold roundup
@@ -57,6 +54,9 @@ tom_tat_nhanh:
 - label: Ra mắt (đồn)
 - label: Giá (đồn)
 - label: Hợp với
+seo_title: "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập"
+description: "Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung Quốc cũng có dòng fold riêng. Apple chưa từng công bố iPhone gập — nhưng từ 2024–2026"
+
 ---
 
 Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung Quốc cũng có dòng fold riêng. Apple **chưa từng công bố** iPhone gập — nhưng từ 2024–2026, **MacRumors**, **AppleInsider** và nhiều analyst liên tục nhắc tới **iPhone Fold** (đôi khi gọi tạm **iPhone Ultra**). Đây là gì, khác iPhone 18 Pro Max thế nào, và **có nên chờ** không? Bài viết phân loại tin đồn có nguồn — không khẳng định sản phẩm Apple sẽ ra đúng như leak.

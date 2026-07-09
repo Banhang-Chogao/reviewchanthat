@@ -1,7 +1,6 @@
 +++
 title = "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident"
 date = 2026-07-09T22:35:00+07:00
-description = "GitHub Status now shows systems operational after the July 9, 2026 Actions and Pages incident. Here is what developers and static-site owners should verify before assuming every CI/CD pipeline is healthy again."
 slug = "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident"
 categories = ["cong-nghe"]
 tags = ["GitHub Actions", "GitHub Pages", "CI/CD", "DevOps", "GitHub Status", "incident recovery"]
@@ -24,6 +23,8 @@ image_attribution_verified = true
 image_attribution_source = "pexels_api"
 draft = false
 related_posts = ["github-actions-run-start-delays-july-9-2026-ci-cd-protection"]
+seo_title = "GitHub Actions and Pages Have Recovered: What to Check After"
+description = "GitHub marked the Actions and Pages incident as resolved at 13:52 UTC on July 9, 2026. All systems now show green on the GitHub Status page. But a recovered"
 
 [ai_summary]
 enabled = true
@@ -36,6 +37,8 @@ items = [
   "Static-site owners should verify the live URL, the latest deployed commit, Pages build history, and any failed Actions runs before declaring the incident over for their own site.",
   "The best response after recovery is to rerun only the latest necessary deploy, cancel superseded jobs, and keep non-essential automation paused until the pipeline is stable."
 ]
+
+
 +++
 
 GitHub marked the Actions and Pages incident as **resolved** at 13:52 UTC on July 9, 2026. All systems now show green on the [GitHub Status page](https://www.githubstatus.com/). But a recovered status dashboard does not automatically mean your workflows, build artifacts, and live site are healthy.

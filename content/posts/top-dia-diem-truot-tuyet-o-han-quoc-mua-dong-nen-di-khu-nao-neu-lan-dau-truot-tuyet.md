@@ -22,9 +22,6 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: 'So sánh 6 ski resort Hàn Quốc: Vivaldi Park, Elysian Gangchon, Yongpyong,
-  Alpensia, High1 và Oak Valley. Bảng so sánh, gợi ý chọn theo nhu cầu, chi phí và
-  lưu ý thực tế cho người Việt.'
 draft: false
 faq:
 - answer: 'Tùy nhu cầu: Nếu đi trong ngày từ Seoul — Elysian Gangchon hoặc Vivaldi
@@ -91,6 +88,9 @@ tom_tat_nhanh:
 - label: Số lượng điểm
 - label: Hợp với
 - label: Thời gian đọc
+seo_title: "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào"
+description: "Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì hơi phí. Nhưng giữa 6 resort ở Gangwon-do, chọn cái nào? Câu trả lời không phải \"cái nào đẹp nhất\" mà là \"cái"
+
 ---
 
 Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì hơi phí. Nhưng giữa 6 resort ở Gangwon-do, chọn cái nào? Câu trả lời không phải "cái nào đẹp nhất" mà là "cái nào hợp với bạn nhất". Bài này mình tổng hợp để bạn dễ quyết định.

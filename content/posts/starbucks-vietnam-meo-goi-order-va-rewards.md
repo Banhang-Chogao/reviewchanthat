@@ -56,6 +56,8 @@ tom_tat_nhanh:
 - label: App
 - label: Giờ đông
 - label: Chi nhánh quen
+seo_title: "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng"
+
 ---
 
 Lần đầu order Starbucks, bạn có thể nghe nhân viên hỏi một loạt: "Size gì ạ? Anh/chị uống tại chỗ hay mang đi? Có cần ít đá không?" — đừng ngại. Sau vài lần, bạn sẽ có **công thức order** riêng và tiết kiệm được thời gian lẫn tiền (nhờ Rewards).

@@ -79,6 +79,8 @@ tom_tat_nhanh:
 - label: Thời gian nên dành
 - label: Đi mùa nào hợp
 - label: Có cần đặt trước không
+seo_title: "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở"
+
 ---
 
 Yongpyong là cái tên ai tìm kiếm ski resort Hàn Quốc cũng gặp — resort lớn nhất xứ Hàn với 28 slope, từng là địa điểm Olympic 2018. Nhưng lớn nhất không có nghĩa là phù hợp nhất với tất cả mọi người.

@@ -51,6 +51,8 @@ tom_tat_nhanh:
 - label: Public beta
 - label: Rủi ro
 - label: Hợp với
+seo_title: "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay"
+
 ---
 
 Public beta macOS 27 dự kiến **tháng 7/2026** — đúng lúc nhiều người rảnh thử hệ điều hành mới. Nhưng beta trên Mac **không giống** beta game: rollback khó, dữ liệu công việc thật, app ngân hàng có thể từ chối chạy.

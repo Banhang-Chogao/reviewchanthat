@@ -63,6 +63,8 @@ tom_tat_nhanh:
   value: Giá rẻ, vắng khách, cảnh xanh
 - label: Nhược điểm
   value: Mưa chiều, biển động Andaman
+seo_title: "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket"
+
 ---
 
 Mùa mưa Thái Lan kéo dài từ tháng 6 đến tháng 10, cao điểm vào tháng 7–9. Đây là khoảng thời gian nhiều người Việt phân vân nhất: vé máy bay rẻ, khách sạn giảm sâu, nhưng liệu có "đi mưa cả ngày" hay không? Câu trả lời ngắn gọn là: **tùy vào điểm đến và cách bạn lên lịch**.

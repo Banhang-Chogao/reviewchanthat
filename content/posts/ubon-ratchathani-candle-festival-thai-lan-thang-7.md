@@ -56,6 +56,8 @@ tom_tat_nhanh:
 - label: Địa điểm
 - label: Di chuyển
 - label: Phù hợp
+seo_title: "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào"
+
 ---
 
 ## Ubon Ratchathani Candle Festival là gì?

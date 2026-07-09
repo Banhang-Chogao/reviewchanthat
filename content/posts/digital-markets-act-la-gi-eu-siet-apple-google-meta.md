@@ -71,6 +71,8 @@ tom_tat_nhanh:
   value: Chỉ định, giám sát, phạt tiền, điều tra thị trường
 - label: Apple
   value: Gatekeeper App Store & iOS — Tòa EU xác nhận 8/7/2026
+seo_title: "Digital Markets Act là gì? EU siết Apple, Google, Meta như"
+
 ---
 
 Nếu bạn chỉ đọc một headline “Apple thua kiện EU”, rất dễ nhầm đó là **một luật, một vụ, một lần phạt**. Thực tế, Brussels đang vận hành một **bộ máy pháp lý nhiều tầng** — và **Digital Markets Act (DMA)** là trụ cột ở giữa.

@@ -1,7 +1,6 @@
 +++
 title = "Workflow Failures Audit: How We Identified Recent CI/CD Failures, Root Causes, and Action Items"
 date = 2026-07-09T14:45:00+07:00
-description = "A practical audit of recent CI/CD workflow failures: how to list failed runs, identify root causes, separate QA debt from deploy issues, and turn incidents into action items."
 slug = "workflow-failures-audit-recent-ci-cd-root-causes-action-items"
 categories = ["cong-nghe"]
 tags = ["GitHub Actions", "CI/CD", "DevOps", "workflow failures", "deployment", "incident response"]
@@ -27,6 +26,8 @@ related_posts = [
   "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
   "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident"
 ]
+seo_title = "Workflow Failures Audit: How We Identified Recent CI/CD"
+description = "When your CI/CD pipeline starts failing, the worst approach is to treat each failure as independent. A cluster of failures—three QA debt runs failing, two"
 
 [ai_summary]
 enabled = true
@@ -39,6 +40,8 @@ items = [
   "The best response is to list failed runs, classify root causes, define action items, and prevent unrelated debt from blocking feature deploys.",
   "A good CI/CD pipeline should distinguish platform delay, deploy mismatch, QA debt, and changed-file compliance failures before running autofix."
 ]
+
+
 +++
 
 When your CI/CD pipeline starts failing, the worst approach is to treat each failure as independent. A cluster of failures—three QA debt runs failing, two deploys failing, each at different commits—is not random noise. It is a signal that **the system** has accumulated debt, misalignment, or a platform issue.

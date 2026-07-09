@@ -52,6 +52,8 @@ tags:
 thumbnail: "images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp"
 title: 'Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng
   autofix'
+seo_title: "Workflow fan-out sau merge: concurrency group"
+
 ---
 
 ## Root cause

@@ -77,6 +77,8 @@ tom_tat_nhanh:
 - label: Mưa
 - label: Đặc điểm
 - label: Lưu ý
+seo_title: "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên"
+
 ---
 
 Tháng 10 là thời điểm Hàn Quốc bước vào mùa thu — không còn nóng ẩm như mùa hè, cũng chưa lạnh như mùa đông. Nhiều du khách Việt chọn tháng này vì thời tiết dễ chịu hơn tháng 7–8 và bắt đầu có cảnh lá đổi màu. Tuy nhiên, “lạnh chưa” và “có mưa không” phụ thuộc vào tuần cụ thể trong tháng và khu vực bạn đến.

@@ -77,6 +77,8 @@ tom_tat_nhanh:
 - label: Nami (peak 2025)
 - label: Seoraksan (peak 2025)
 - label: Lưu ý
+seo_title: "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan"
+
 ---
 
 "Hàn Quốc tháng 11 còn lá đỏ không?" là câu hỏi quan trọng khi lên kế hoạch đi Hàn cuối mùa thu. Khác với tháng 10 — khi lá mới bắt đầu đổi màu — tháng 11 thường là **tháng peak** ở Seoul và nhiều khu vực đô thị. Nhưng câu trả lời vẫn phụ thuộc **địa điểm**, **tuần trong tháng** và **điều kiện thời tiết từng năm**.

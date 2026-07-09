@@ -22,9 +22,6 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
 date: '2026-07-08 14:00:00+07:00'
-description: Hành trình Starbucks vào Việt Nam từ 2013 — cửa hàng đầu tiên tại Bitexco,
-  đối tác vận hành và cách thương hiệu trở thành điểm hẹn cà phê quen thuộc tại Sài
-  Gòn, Hà Nội.
 draft: false
 external_links:
 - title: Starbucks Stories — Debut flagship store Ho Chi Minh City (2013)
@@ -63,6 +60,9 @@ tom_tat_nhanh:
 - label: Cửa hàng đầu
 - label: Đối tác
 - label: Series
+seo_title: "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt"
+description: "Nếu bạn từng đứng trước quầy Starbucks ở Sài Gòn, gọi một ly Caramel Macchiato rồi ngồi nhìn dòng xe qua lại, có lẽ ít ai nghĩ thương hiệu này mới chỉ có mặt"
+
 ---
 
 Nếu bạn từng đứng trước quầy Starbucks ở Sài Gòn, gọi một ly Caramel Macchiato rồi ngồi nhìn dòng xe qua lại, có lẽ ít ai nghĩ thương hiệu này mới chỉ có mặt tại Việt Nam hơn một thập kỷ. Với nhiều người trẻ, Starbucks không chỉ là quán cà phê — mà là không gian làm việc, chỗ hẹn bạn bè, hoặc điểm dừng chân ngắn giữa các cuộc họp.

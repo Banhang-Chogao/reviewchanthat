@@ -51,6 +51,8 @@ tom_tat_nhanh:
 - label: Yêu cầu
 - label: Tính năng
 - label: Hợp với
+seo_title: "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI"
+
 ---
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **macOS Golden Gate 27** là lần Apple cố gắng biến AI thành thói quen trên desktop — không chỉ demo keynote. Câu hỏi thực tế: **MacBook của bạn chạy được những gì, và tiếng Việt đến đâu?**

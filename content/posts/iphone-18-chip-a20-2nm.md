@@ -56,6 +56,8 @@ tom_tat_nhanh:
 - label: Dòng chip (đồn)
 - label: Lợi ích (đồn)
 - label: Hợp với
+seo_title: "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm"
+
 ---
 
 Mỗi thế hệ iPhone, chip Apple Silicon là **trục kỹ thuật** quyết định hiệu năng, pin, nhiệt và khả năng chạy **Apple Intelligence**. Với **iPhone 18**, tin đồn tập trung vào **A20** và **A20 Pro** trên tiến trình **TSMC N2 (2nm)** — bước nhảy sau **A18/A19 3nm** trên iPhone 16/17. Apple **chưa công bố** chip hay tên A20; bài viết giải thích **vì sao 2nm được quan tâm** và **điều gì là tin đồn có nguồn**.

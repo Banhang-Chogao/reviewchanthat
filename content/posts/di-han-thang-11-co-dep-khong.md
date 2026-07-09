@@ -63,6 +63,8 @@ tom_tat_nhanh:
 - label: Lá đổi màu
 - label: Phù hợp
 - label: Lưu ý
+seo_title: "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì"
+
 ---
 
 Bạn đang cân nhắc **đi Hàn tháng 11** sau khi thấy ảnh lá đỏ rực ở Seoul, Bukchon hay cung điện — và tự hỏi: *tháng 11 có còn đẹp không, hay đã muộn so với tháng 10?* Câu trả lời ngắn: **tháng 11 thường là tháng peak lá đỏ ở Seoul và nhiều khu vực đô thị**, nhưng **lạnh hơn rõ** so với tháng 10 và một số núi cao có thể **đã rụng lá** vào cuối tháng. Trải nghiệm cụ thể phụ thuộc **bạn đi đầu hay cuối tháng 11**, và **năm đó lá đỏ đến sớm hay muộn**.

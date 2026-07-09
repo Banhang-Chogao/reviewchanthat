@@ -57,6 +57,8 @@ tom_tat_nhanh:
   value: ""
 - label: "Pratunam"
   value: ""
+seo_title: "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam"
+
 ---
 
 ## Ở khu nào tại Bangkok mùa mưa?
