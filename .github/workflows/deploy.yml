@@ -59,6 +59,9 @@ jobs:
       - name: Check image relevance
         run: python scripts/check_image_relevance.py
 
+      - name: Generate content direction report
+        run: python scripts/content_direction.py
+
       - name: Build Hugo
         run: hugo --minify
 
