@@ -28,7 +28,7 @@ POSTS_SRC_DIR = "static/images/posts-src"
 POSTS_DIR = "static/images/posts"
 CONTENT_DIR = "content/posts"
 SITE_BASE_URL = "https://banhang-chogao.github.io/reviewchanthat"
-SELF_SOURCE_PLATFORMS = {"self", "self-owned"}
+SELF_SOURCE_PLATFORMS = {"self", "self-owned", "self-generated"}
 
 
 def watermark_attribution(source, creator):
@@ -262,11 +262,12 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
 
 def main():
     import argparse
-    parser = argparse.ArgumentParser(description="Download and process verified stock images")
+    parser = argparse.ArgumentParser(description="Download and process verified stock images and self-generated fallbacks")
     parser.add_argument("--force", action="store_true", help="Re-download and reprocess existing images")
+    parser.add_argument("--skip-watermark", action="store_true", help="Skip adding watermark attribution")
     args = parser.parse_args()
 
-    print("=== Image Processing (Real Images Only) ===")
+    print("=== Image Processing (API images + self-generated fallback) ===")
     manifest = load_manifest()
     success = 0
     skipped = 0

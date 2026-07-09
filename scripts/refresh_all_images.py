@@ -68,28 +68,43 @@ def mark_self_owned_verified() -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Refresh all external post images through Image Relevance Gate")
+    parser = argparse.ArgumentParser(description="Refresh all post images (API-first with self-generated fallback)")
     parser.add_argument("--skip-audit", action="store_true")
     parser.add_argument("--skip-process", action="store_true")
     parser.add_argument("--dry-run", action="store_true", help="Only audit + key check")
+    parser.add_argument("--force", action="store_true", help="Force reprocess all images")
     args = parser.parse_args()
 
     py = python_bin()
     ensure_api_keys()
 
     if not args.skip_audit:
+        print(">>> Running image audit...")
         run_step([py, "scripts/audit_post_images.py"])
 
     if args.dry_run:
-        print("Dry run complete.")
+        print("\nDry run: auditing only. Use without --dry-run to actually select and process images.")
         return 0
 
-    run_step([py, "scripts/select_images.py", "--refresh-all", "--allow-partial"])
+    print("\n>>> Selecting images (API-first with self-generated fallback)...")
+    run_step([py, "scripts/select_images.py", "--all", "--fix", "--api-first", "--only-missing-or-bad"])
+
     if not args.skip_process:
-        run_step([py, "scripts/process_images.py", "--force"])
+        print("\n>>> Processing images (download/crop/watermark)...")
+        cmd = [py, "scripts/process_images.py"]
+        if args.force:
+            cmd.append("--force")
+        run_step(cmd)
+
     verified_self = mark_self_owned_verified()
     print(f"\nSelf-owned posts marked verified: {verified_self}")
-    run_step([py, "scripts/check_image_relevance.py"])
+
+    print("\n>>> Resolving missing creator attribution...")
+    run_step([py, "scripts/image_author_resolver.py", "--all", "--write"])
+
+    print("\n>>> Checking image attribution...")
+    run_step([py, "scripts/check_image_attribution.py"])
+
     print("\nRefresh all images: DONE")
     return 0
 

@@ -15,11 +15,7 @@ from urllib.parse import quote
 
 from article_image_context import ArticleImageContext, build_context_from_post
 from creator_policy import attribution_text, clean_text, sanitize_candidate
-from image_relevance_gate import (
-    build_vietnamese_alt,
-    rank_candidates,
-    save_candidates_debug,
-)
+from lightweight_image_matcher import choose_best_candidate
 
 from image_providers import (
     FreepikProvider,
@@ -239,11 +235,12 @@ def select_best_image(
     body: str = "",
     providers: list[Any] | None = None,
     used_urls: set[str] | None = None,
-    used_hashes: set[str] | None = None,
-    download_for_gate: bool = True,
-    provider_balance: dict[str, int] | None = None,
     custom_queries: list[str] | None = None,
 ) -> dict[str, Any] | None:
+    """
+    Select best API image using lightweight matching.
+    Returns result dict with selected candidate or None.
+    """
     load_dotenv()
     if providers is None:
         providers = [PexelsProvider(), PixabayProvider(), UnsplashProvider(), FreepikProvider()]
@@ -254,21 +251,14 @@ def select_best_image(
     if not pool:
         return None
 
-    ranked = rank_candidates(ctx, pool, used_hashes=used_hashes, download=download_for_gate)
-    slug = post.get("slug", "post")
-    save_candidates_debug(slug, ranked)
-
-    item = choose_accepted_candidate(ranked, provider_balance=provider_balance)
+    # Use lightweight matching instead of heavy relevance gate
+    item = choose_best_candidate(ctx, pool)
     if item:
-        gate = item.get("gate", {})
         return {
             "candidate": item,
             "context": ctx,
-            "image_alt": build_vietnamese_alt(ctx, item),
+            "image_alt": f"Ảnh minh họa {ctx.title or ctx.primary_topic} — nguồn {item.get('source_platform', 'stock')}",
             "image_query": item.get("query", ""),
-            "image_semantic_score": gate.get("semantic_score", 0),
-            "image_color_score": gate.get("color_score", 0),
-            "image_total_score": gate.get("total_score", 0),
             "watermark_text": attribution_text(
                 item.get("source_platform", ""),
                 item.get("creator", ""),
@@ -278,8 +268,8 @@ def select_best_image(
     return {
         "candidate": None,
         "context": ctx,
-        "reject_reason": "No candidate passed semantic/color/object gate",
-        "top_candidates": ranked[:5],
+        "reject_reason": "No candidate met lightweight matching criteria",
+        "top_candidates": pool[:5],
     }
 
 
