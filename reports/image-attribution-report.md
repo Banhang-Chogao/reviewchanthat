@@ -1,8 +1,8 @@
 # Image Attribution Report
 
-- Generated: `2026-07-10T06:10:07+07:00`
-- Total scanned: **173**
-- Verified creator: **144**
+- Generated: `2026-07-10T06:37:05+07:00`
+- Total scanned: **174**
+- Verified creator: **145**
 - Not found / empty: **29**
 - Cleared fake/unverified: **0**
 
@@ -161,6 +161,7 @@
 | tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap | pexels | yes | Tima Miroshnichenko | pexels_api | high |  |
 | thoi-tiet-han-quoc-thang-10 | pexels | yes | Quang Nguyen Vinh | pexels_api | high |  |
 | thoi-tiet-han-quoc-thang-11 | pexels | yes | Quang Nguyen Vinh | pexels_api | high |  |
+| thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue | pexels | yes | Ivan S | pexels_api | high |  |
 | thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien | pexels | yes | alde saputro | pexels_api | high |  |
 | top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul | pexels | yes | Tuấn Kiệt Jr. | pexels_api | high |  |
 | top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet | pexels | yes | Ditmar Tabacaru | pexels_api | high |  |

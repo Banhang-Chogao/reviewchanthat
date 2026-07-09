@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-10T06:10:07+07:00",
+  "generated_at": "2026-07-10T06:37:05+07:00",
   "summary": {
-    "total_scanned": 173,
-    "verified_creator": 144,
+    "total_scanned": 174,
+    "verified_creator": 145,
     "not_found": 29,
     "cleared_fake_or_unverified": 0
   },
@@ -109,11 +109,11 @@
       "confidence": "none",
       "error": "source_page_no_creator; embedded_meta_no_creator",
       "checked_at": "2026-07-10T06:10:00+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "",
-      "previous_verified": true,
-      "written": true
+      "previous_verified": false,
+      "written": false
     },
     {
       "slug": "bangkok-ngay-mua-nen-di-dau",
@@ -127,11 +127,11 @@
       "confidence": "none",
       "error": "source_page_no_creator; embedded_meta_no_creator",
       "checked_at": "2026-07-10T06:10:00+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "",
-      "previous_verified": true,
-      "written": true
+      "previous_verified": false,
+      "written": false
     },
     {
       "slug": "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
@@ -145,7 +145,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:01+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Monstera Production",
       "previous_verified": true,
@@ -163,7 +163,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:01+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "RDNE Stock project",
       "previous_verified": true,
@@ -179,7 +179,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:01+07:00",
+      "checked_at": "2026-07-10T06:37:04+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -211,7 +211,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:01+07:00",
+      "checked_at": "2026-07-10T06:37:04+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -225,7 +225,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:01+07:00",
+      "checked_at": "2026-07-10T06:37:04+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -475,11 +475,11 @@
       "confidence": "none",
       "error": "source_page_no_creator; embedded_meta_no_creator",
       "checked_at": "2026-07-10T06:10:01+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "",
-      "previous_verified": true,
-      "written": true
+      "previous_verified": false,
+      "written": false
     },
     {
       "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
@@ -547,11 +547,11 @@
       "confidence": "none",
       "error": "source_page_no_creator; embedded_meta_no_creator",
       "checked_at": "2026-07-10T06:10:01+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "",
-      "previous_verified": true,
-      "written": true
+      "previous_verified": false,
+      "written": false
     },
     {
       "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
@@ -601,7 +601,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:01+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Zulfugar Karimov",
       "previous_verified": true,
@@ -637,7 +637,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:02+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Tranmautritam",
       "previous_verified": true,
@@ -653,7 +653,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:02+07:00",
+      "checked_at": "2026-07-10T06:37:04+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -669,7 +669,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:02+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Lukas Blazek",
       "previous_verified": true,
@@ -703,7 +703,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:02+07:00",
+      "checked_at": "2026-07-10T06:37:04+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -847,9 +847,9 @@
       "checked_at": "2026-07-09T10:43:22+07:00",
       "from_cache": true,
       "cleared_fake": false,
-      "previous_creator": "",
+      "previous_creator": "Ali Kazal",
       "previous_verified": true,
-      "written": true
+      "written": false
     },
     {
       "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
@@ -863,11 +863,11 @@
       "confidence": "none",
       "error": "source_page_no_creator; embedded_meta_no_creator",
       "checked_at": "2026-07-10T06:10:02+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "",
-      "previous_verified": true,
-      "written": true
+      "previous_verified": false,
+      "written": false
     },
     {
       "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
@@ -919,9 +919,9 @@
       "checked_at": "2026-07-09T10:43:23+07:00",
       "from_cache": true,
       "cleared_fake": false,
-      "previous_creator": "",
+      "previous_creator": "David McBee",
       "previous_verified": true,
-      "written": true
+      "written": false
     },
     {
       "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
@@ -933,7 +933,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:02+07:00",
+      "checked_at": "2026-07-10T06:37:04+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -965,7 +965,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:02+07:00",
+      "checked_at": "2026-07-10T06:37:04+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -981,11 +981,11 @@
       "confidence": "none",
       "error": "source_page_no_creator; embedded_meta_no_creator",
       "checked_at": "2026-07-10T06:10:02+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "",
-      "previous_verified": true,
-      "written": true
+      "previous_verified": false,
+      "written": false
     },
     {
       "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
@@ -1033,7 +1033,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:02+07:00",
+      "checked_at": "2026-07-10T06:37:04+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -1047,7 +1047,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:02+07:00",
+      "checked_at": "2026-07-10T06:37:04+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -1063,7 +1063,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:02+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "RealToughCandy.com",
       "previous_verified": true,
@@ -1081,7 +1081,7 @@
       "confidence": "medium",
       "error": "",
       "checked_at": "2026-07-10T06:10:03+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "HeckiMG",
       "previous_verified": true,
@@ -1099,7 +1099,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:03+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Jhany Blue",
       "previous_verified": true,
@@ -1261,7 +1261,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:04+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Stanislav Kondratiev",
       "previous_verified": true,
@@ -1279,7 +1279,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:04+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Wolfgang Weiser",
       "previous_verified": true,
@@ -1567,7 +1567,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:04+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Arpit Brandings",
       "previous_verified": true,
@@ -1747,11 +1747,11 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:05+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "juliane Monari",
       "previous_verified": true,
-      "written": true
+      "written": false
     },
     {
       "slug": "iphone-18-vs-iphone-17",
@@ -1819,7 +1819,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:05+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Irina Iriser",
       "previous_verified": true,
@@ -1929,9 +1929,9 @@
       "checked_at": "2026-07-09T10:43:29+07:00",
       "from_cache": true,
       "cleared_fake": false,
-      "previous_creator": "",
+      "previous_creator": "Jahra Tasfia Reza",
       "previous_verified": true,
-      "written": true
+      "written": false
     },
     {
       "slug": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
@@ -2017,7 +2017,7 @@
       "confidence": "medium",
       "error": "",
       "checked_at": "2026-07-10T06:10:05+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Thien Le Duy",
       "previous_verified": true,
@@ -2269,7 +2269,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:06+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "mktomasik",
       "previous_verified": true,
@@ -2289,9 +2289,9 @@
       "checked_at": "2026-07-09T10:43:30+07:00",
       "from_cache": true,
       "cleared_fake": false,
-      "previous_creator": "",
+      "previous_creator": "Sururi Ballıdağ Director",
       "previous_verified": true,
-      "written": true
+      "written": false
     },
     {
       "slug": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
@@ -2343,9 +2343,9 @@
       "checked_at": "2026-07-09T10:43:31+07:00",
       "from_cache": true,
       "cleared_fake": false,
-      "previous_creator": "",
+      "previous_creator": "anmarinina",
       "previous_verified": true,
-      "written": true
+      "written": false
     },
     {
       "slug": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
@@ -2395,7 +2395,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:06+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Duy Nguyen",
       "previous_verified": true,
@@ -2667,9 +2667,9 @@
       "checked_at": "2026-07-09T10:43:33+07:00",
       "from_cache": true,
       "cleared_fake": false,
-      "previous_creator": "",
+      "previous_creator": "Kirandeep Singh Walia",
       "previous_verified": true,
-      "written": true
+      "written": false
     },
     {
       "slug": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
@@ -2682,7 +2682,7 @@
       "resolver_method": "pexels_api",
       "confidence": "high",
       "error": "",
-      "checked_at": "2026-07-10T06:10:07+07:00",
+      "checked_at": "2026-07-10T06:37:05+07:00",
       "from_cache": false,
       "cleared_fake": false,
       "previous_creator": "Tima Miroshnichenko",
@@ -2722,6 +2722,24 @@
       "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Quang Nguyen Vinh",
+      "previous_verified": true,
+      "written": true
+    },
+    {
+      "slug": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
+      "path": "content/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.md",
+      "provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/credit-cards-and-a-smartphone-on-a-white-wall-7621381/",
+      "verified": true,
+      "creator": "Ivan S",
+      "creator_url": "https://www.pexels.com/@ivan-s",
+      "resolver_method": "pexels_api",
+      "confidence": "high",
+      "error": "",
+      "checked_at": "2026-07-10T06:37:05+07:00",
+      "from_cache": false,
+      "cleared_fake": false,
+      "previous_creator": "Ivan S",
       "previous_verified": true,
       "written": true
     },
@@ -2951,7 +2969,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:07+07:00",
+      "checked_at": "2026-07-10T06:37:05+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -2967,7 +2985,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:07+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Christina Morillo",
       "previous_verified": true,
@@ -3019,7 +3037,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:10:07+07:00",
+      "checked_at": "2026-07-10T06:37:05+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -3053,7 +3071,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:10:07+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Saksham Vikram",
       "previous_verified": true,

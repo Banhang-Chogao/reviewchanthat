@@ -18,19 +18,19 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 draft: false
 image: images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp
 thumbnail: images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp
-image_alt: Ảnh minh họa tài sản số và giao dịch tài chính trên điện thoại — nguồn Pexels
+image_alt: Ảnh minh họa tài sản số và giao dịch crypto trên điện thoại — nguồn Pexels
 image_provider: pexels
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/"
-image_creator: Tima Miroshnichenko
-image_creator_id: 3088726
-image_creator_url: "https://www.pexels.com/@tima-miroshnichenko"
+image_source_url: "https://www.pexels.com/photo/a-hand-holding-a-cellphone-with-cryptograph-11279904/"
+image_creator: Roger Brown
+image_creator_id: 3435524
+image_creator_url: "https://www.pexels.com/@roger-brown-3435524"
 image_license: Pexels License
 image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_commercial_use: true
 image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-10T06:10:07+07:00"
+image_attribution_checked_at: "2026-07-10T06:37:05+07:00"
 image_attribution_verified: true
 image_status: verified
 external_links:

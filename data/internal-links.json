@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T06:11:53.789395",
+  "generated_at": "2026-07-10T06:37:16.429508",
   "links": {
     "workflow-failures-audit-recent-ci-cd-root-causes-action-items": [
       {
@@ -130,7 +130,7 @@
         "target": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
         "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?",
         "score": 114,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
@@ -166,13 +166,13 @@
         "target": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
         "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
         "score": 72,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 72,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
@@ -184,7 +184,7 @@
         "target": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
         "title": "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       }
     ],
     "thoi-tiet-han-quoc-thang-11": [
@@ -192,49 +192,49 @@
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 152,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "han-quoc-thang-11-co-la-do-chua",
         "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 133,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 133,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "jeju-thang-11-co-dep-khong",
         "title": "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày",
         "score": 122,
-        "reason": "korea-autumn, jeju, korea-summer"
+        "reason": "korea-summer, jeju, korea-autumn"
       },
       {
         "target": "jeju-thang-10-co-dep-khong",
         "title": "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày",
         "score": 122,
-        "reason": "korea-autumn, jeju, korea-summer"
+        "reason": "korea-summer, jeju, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 122,
-        "reason": "busan, korea-autumn, seoul"
+        "reason": "busan, seoul, korea-autumn"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 119,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
@@ -246,7 +246,7 @@
         "target": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
         "title": "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       }
     ],
     "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay": [
@@ -254,55 +254,55 @@
         "target": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
         "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
         "score": 108,
-        "reason": "jeju, review-tips, korea-summer"
+        "reason": "korea-summer, review-tips, jeju"
       },
       {
         "target": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
         "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
         "score": 105,
-        "reason": "jeju, review-tips, korea-summer"
+        "reason": "korea-summer, review-tips, jeju"
       },
       {
         "target": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
         "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
         "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
         "title": "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý",
         "score": 27,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
@@ -316,13 +316,13 @@
         "target": "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress",
         "title": "Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix",
         "score": 24,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "content-direction-empty-report-va-optimizer-frontmatter",
         "title": "Content Direction empty report và optimizer fail vì front matter",
         "score": 24,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -340,25 +340,25 @@
         "target": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
         "title": "",
         "score": 16,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
         "title": "",
         "score": 16,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
         "title": "",
         "score": 16,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
         "title": "",
         "score": 16,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
@@ -378,49 +378,49 @@
         "target": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
         "score": 127,
-        "reason": "apple-dma, korea-autumn, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, apple-dma"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 118,
-        "reason": "apple-dma, korea-autumn, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, apple-dma"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 113,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
         "score": 113,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
@@ -440,37 +440,37 @@
         "target": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
         "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
         "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
         "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
         "score": 111,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
         "score": 111,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
         "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
         "score": 108,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 102,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -490,37 +490,37 @@
         "target": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
         "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
         "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
         "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
         "score": 111,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
         "score": 111,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
         "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
         "score": 108,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 102,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -714,7 +714,7 @@
         "target": "iphone-18-co-gi-moi",
         "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
         "score": 147,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "iphone-18-khi-nao-ra-mat",
@@ -832,43 +832,43 @@
         "target": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-thua-kien-eu-app-store-ios-dma",
         "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
         "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
         "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-vs-ec-dma-tuong-lai-iphone",
         "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "european-commission-duoc-gi-khi-thang-apple",
         "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
         "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -932,19 +932,19 @@
         "target": "macos-27-ho-tro-may-mac-nao",
         "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
         "score": 121,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-hieu-nang-pin-macbook",
         "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
         "score": 121,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-apple-intelligence-macbook",
         "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
         "score": 121,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-co-nen-nang-cap-ngay-khong",
@@ -977,18 +977,68 @@
         "reason": "apple-macos"
       }
     ],
+    "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue": [
+      {
+        "target": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
+        "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
+        "score": 17,
+        "reason": "related"
+      },
+      {
+        "target": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
+        "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
+        "score": 5,
+        "reason": "related"
+      },
+      {
+        "target": "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
+        "title": "Cách xây dựng thói quen mua sắm thông minh",
+        "score": 5,
+        "reason": "related"
+      },
+      {
+        "target": "workflow-failures-audit-recent-ci-cd-root-causes-action-items",
+        "title": "",
+        "score": 0,
+        "reason": "related"
+      },
+      {
+        "target": "co-nen-cho-iphone-18-khong",
+        "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
+        "score": 0,
+        "reason": "related"
+      },
+      {
+        "target": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+        "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
+        "score": 0,
+        "reason": "related"
+      },
+      {
+        "target": "thoi-tiet-han-quoc-thang-11",
+        "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
+        "score": 0,
+        "reason": "related"
+      },
+      {
+        "target": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
+        "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
+        "score": 0,
+        "reason": "related"
+      }
+    ],
     "ubon-ratchathani-candle-festival-thai-lan-thang-7": [
       {
         "target": "koh-samui-mua-he-so-voi-phuket",
         "title": "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?",
         "score": 39,
-        "reason": "thailand-summer, thailand-festival, korea-summer"
+        "reason": "thailand-summer, korea-summer, thailand-festival"
       },
       {
         "target": "di-thai-lan-thang-7-co-nen-khong",
         "title": "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý",
         "score": 39,
-        "reason": "thailand-summer, thailand-festival, korea-summer"
+        "reason": "thailand-summer, korea-summer, thailand-festival"
       },
       {
         "target": "chiang-mai-mua-mua-co-gi-dep",
@@ -1044,31 +1094,31 @@
         "target": "jeju-thang-10-co-dep-khong",
         "title": "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày",
         "score": 131,
-        "reason": "korea-autumn, jeju, korea-summer"
+        "reason": "korea-summer, jeju, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 122,
-        "reason": "korea-autumn, jeju, korea-summer"
+        "reason": "korea-summer, jeju, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 122,
-        "reason": "korea-autumn, jeju, korea-summer"
+        "reason": "korea-summer, jeju, korea-autumn"
       },
       {
         "target": "han-quoc-thang-11-co-la-do-chua",
         "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 114,
-        "reason": "korea-autumn, korea-summer"
+        "reason": "korea-summer, korea-autumn"
       },
       {
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 114,
-        "reason": "korea-autumn, korea-summer"
+        "reason": "korea-summer, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
@@ -1100,7 +1150,7 @@
         "target": "iphone-18-gia-bao-nhieu",
         "title": "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn",
         "score": 147,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "iphone-18-khi-nao-ra-mat",
@@ -1300,49 +1350,49 @@
         "target": "di-han-thang-11-mac-gi",
         "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
         "score": 136,
-        "reason": "seoul, apple-dma, korea-autumn, review-tips"
+        "reason": "seoul, review-tips, korea-autumn, apple-dma"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-co-dep-khong",
         "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "busan-thang-10-nen-di-dau",
         "title": "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng",
         "score": 124,
-        "reason": "apple-dma, korea-autumn"
+        "reason": "korea-autumn, apple-dma"
       }
     ],
     "koh-samui-mua-he-so-voi-phuket": [
@@ -1350,13 +1400,13 @@
         "target": "ubon-ratchathani-candle-festival-thai-lan-thang-7",
         "title": "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?",
         "score": 39,
-        "reason": "thailand-summer, thailand-festival, korea-summer"
+        "reason": "thailand-summer, korea-summer, thailand-festival"
       },
       {
         "target": "di-thai-lan-thang-7-co-nen-khong",
         "title": "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý",
         "score": 39,
-        "reason": "thailand-summer, thailand-festival, korea-summer"
+        "reason": "thailand-summer, korea-summer, thailand-festival"
       },
       {
         "target": "chiang-mai-mua-mua-co-gi-dep",
@@ -1556,19 +1606,19 @@
         "target": "ios-27-quyen-rieng-tu-iphone",
         "title": "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?",
         "score": 122,
-        "reason": "apple-dma, apple-iphone, review-tips"
+        "reason": "apple-iphone, review-tips, apple-dma"
       },
       {
         "target": "macos-27-co-nen-nang-cap-ngay-khong",
         "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
         "score": 114,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "macos-27-hieu-nang-pin-macbook",
         "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
         "score": 111,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "ios-27-co-gi-moi",
@@ -1606,37 +1656,37 @@
         "target": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
         "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
         "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
         "score": 111,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
         "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park",
         "score": 111,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
         "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
         "score": 111,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 102,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -1656,49 +1706,49 @@
         "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
         "score": 123,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 120,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-11-ngam-la-do",
         "title": "Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-11-mac-gi",
         "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "di-han-thang-11-co-dep-khong": [
@@ -1706,49 +1756,49 @@
         "target": "di-han-thang-10-co-dep-khong",
         "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
         "score": 120,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-11-nen-di-dau",
         "title": "Seoul tháng 11 nên đi đâu? Lịch trình 3 ngày ngắm peak lá đỏ",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-11-mac-gi",
         "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi": [
@@ -1806,13 +1856,13 @@
         "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
         "score": 174,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
         "score": 154,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -1824,7 +1874,7 @@
         "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
         "score": 154,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
@@ -1906,55 +1956,55 @@
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 152,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 143,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "han-quoc-thang-11-co-la-do-chua",
         "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 133,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "jeju-thang-10-co-dep-khong",
         "title": "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày",
         "score": 132,
-        "reason": "korea-autumn, jeju, korea-summer"
+        "reason": "korea-summer, jeju, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 132,
-        "reason": "busan, korea-autumn, seoul"
+        "reason": "busan, seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "goi-y-du-lich-han-quoc-thang-7-2026",
         "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
         "score": 56,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       }
     ],
     "iphone-16-pro-max-desert-titanium-hop-ai": [
@@ -2012,55 +2062,49 @@
         "target": "checklist-truoc-khi-mua-mot-san-pham-online",
         "title": "Checklist trước khi mua một sản phẩm online",
         "score": 21,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
         "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "iphone-18-co-gi-moi",
         "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "ios-27-co-nen-cap-nhat-ngay-khong",
         "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
         "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "di-han-thang-11-mac-gi",
         "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
         "score": 16,
-        "reason": "apple-dma, review-tips"
-      },
-      {
-        "target": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
-        "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
-        "score": 5,
-        "reason": "related"
+        "reason": "review-tips, apple-dma"
       }
     ],
     "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong": [
@@ -2118,49 +2162,49 @@
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 130,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 130,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-co-dep-khong",
         "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress": [
@@ -2168,7 +2212,7 @@
         "target": "content-direction-empty-report-va-optimizer-frontmatter",
         "title": "Content Direction empty report và optimizer fail vì front matter",
         "score": 154,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
@@ -2218,43 +2262,43 @@
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
         "title": "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 105,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
@@ -2318,43 +2362,43 @@
         "target": "app-store-gatekeeper-apple-so-mat-dieu-gi",
         "title": "App Store gatekeeper: Apple sợ mất điều gì?",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-thua-kien-eu-app-store-ios-dma",
         "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
         "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
         "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-vs-ec-dma-tuong-lai-iphone",
         "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "european-commission-duoc-gi-khi-thang-apple",
         "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
         "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -2368,19 +2412,19 @@
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 165,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
         "title": "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi",
         "score": 165,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
         "score": 162,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
@@ -2518,13 +2562,13 @@
         "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
         "score": 157,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
         "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
         "score": 154,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
@@ -2536,7 +2580,7 @@
         "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
         "score": 154,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
@@ -2568,49 +2612,49 @@
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 133,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
         "score": 123,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi": [
@@ -2618,7 +2662,7 @@
         "target": "iphone-16-pro-max-nam-2026-nen-mua-khong",
         "title": "iPhone 16 Pro Max năm 2026 nên mua không?",
         "score": 199,
-        "reason": "apple-dma, apple-iphone, review-tips"
+        "reason": "apple-iphone, review-tips, apple-dma"
       },
       {
         "target": "iphone-15-pro-max-blue-titanium-co-dang-san",
@@ -2718,43 +2762,43 @@
         "target": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
         "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-vs-ec-dma-tuong-lai-iphone",
         "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "european-commission-duoc-gi-khi-thang-apple",
         "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "app-store-gatekeeper-apple-so-mat-dieu-gi",
         "title": "App Store gatekeeper: Apple sợ mất điều gì?",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-thua-kien-eu-app-store-ios-dma",
         "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
         "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -2768,49 +2812,49 @@
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
         "score": 121,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
         "score": 121,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 121,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet": [
@@ -3268,49 +3312,49 @@
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 136,
-        "reason": "seoul, apple-dma, korea-autumn, review-tips"
+        "reason": "seoul, review-tips, korea-autumn, apple-dma"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-11-nen-di-dau",
         "title": "Seoul tháng 11 nên đi đâu? Lịch trình 3 ngày ngắm peak lá đỏ",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-11-co-dep-khong",
         "title": "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên chọn",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "checklist-vali-di-thai-mua-mua": [
@@ -3418,43 +3462,43 @@
         "target": "app-store-gatekeeper-apple-so-mat-dieu-gi",
         "title": "App Store gatekeeper: Apple sợ mất điều gì?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
         "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-vs-ec-dma-tuong-lai-iphone",
         "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-thua-kien-eu-app-store-ios-dma",
         "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
         "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "european-commission-duoc-gi-khi-thang-apple",
         "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -3618,7 +3662,7 @@
         "target": "busan-thang-10-nen-di-dau",
         "title": "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng",
         "score": 131,
-        "reason": "apple-dma, korea-autumn, busan"
+        "reason": "busan, korea-autumn, apple-dma"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
@@ -3636,7 +3680,7 @@
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 114,
-        "reason": "apple-dma, korea-autumn"
+        "reason": "korea-autumn, apple-dma"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
@@ -3648,7 +3692,7 @@
         "target": "di-han-thang-11-mac-gi",
         "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
         "score": 114,
-        "reason": "apple-dma, korea-autumn"
+        "reason": "korea-autumn, apple-dma"
       },
       {
         "target": "jeju-thang-11-co-dep-khong",
@@ -3718,19 +3762,19 @@
         "target": "macos-27-apple-intelligence-macbook",
         "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
         "score": 127,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-hieu-nang-pin-macbook",
         "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
         "score": 124,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-beta-co-nen-cai-khong",
         "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
         "score": 121,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-cho-van-phong-creator-lap-trinh-vien",
@@ -3868,49 +3912,49 @@
         "target": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
         "score": 123,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "han-quoc-thang-11-co-la-do-chua",
         "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "jeju-thang-10-co-dep-khong": [
@@ -3918,25 +3962,25 @@
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 132,
-        "reason": "korea-autumn, jeju, korea-summer"
+        "reason": "korea-summer, jeju, korea-autumn"
       },
       {
         "target": "jeju-thang-11-co-dep-khong",
         "title": "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày",
         "score": 131,
-        "reason": "korea-autumn, jeju, korea-summer"
+        "reason": "korea-summer, jeju, korea-autumn"
       },
       {
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 124,
-        "reason": "korea-autumn, korea-summer"
+        "reason": "korea-summer, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 122,
-        "reason": "korea-autumn, jeju, korea-summer"
+        "reason": "korea-summer, jeju, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
@@ -4018,49 +4062,49 @@
         "target": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 105,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 105,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 105,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
         "score": 105,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
         "score": 105,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 102,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       }
     ],
     "bangkok-3-ngay-3-dem-mua-mua": [
@@ -4168,25 +4212,25 @@
         "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
         "score": 170,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
         "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
         "score": 165,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
         "title": "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi",
         "score": 165,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
         "score": 157,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
@@ -4210,13 +4254,13 @@
         "target": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
         "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
         "score": 154,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "goi-y-du-lich-han-quoc-thang-7-2026",
         "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
         "score": 56,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       }
     ],
     "cach-doc-mot-bai-review-de-khong-bi-dat-mui": [
@@ -4274,49 +4318,49 @@
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "nami-thang-11-co-dang-di-khong",
         "title": "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul",
         "score": 123,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "cach-xay-dung-thoi-quen-mua-sam-thong-minh": [
@@ -4367,12 +4411,6 @@
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 8,
         "reason": "review-tips"
-      },
-      {
-        "target": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
-        "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
-        "score": 5,
-        "reason": "related"
       }
     ],
     "du-lich-thai-lan-mua-mua-co-nen-di-khong": [
@@ -4430,49 +4468,49 @@
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 123,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-11-co-dep-khong",
         "title": "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên chọn",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-11-mac-gi",
         "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc": [
@@ -4480,55 +4518,55 @@
         "target": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
         "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
         "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
         "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
         "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
         "title": "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý",
         "score": 27,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       }
     ],
     "macos-27-cho-van-phong-creator-lap-trinh-vien": [
@@ -4736,49 +4774,49 @@
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 144,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 129,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 126,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
         "score": 113,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       }
     ],
     "busan-thang-10-nen-di-dau": [
@@ -4786,7 +4824,7 @@
         "target": "busan-thang-11-nen-di-dau",
         "title": "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ",
         "score": 131,
-        "reason": "apple-dma, korea-autumn, busan"
+        "reason": "busan, korea-autumn, apple-dma"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
@@ -4798,7 +4836,7 @@
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 124,
-        "reason": "apple-dma, korea-autumn"
+        "reason": "korea-autumn, apple-dma"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
@@ -4886,7 +4924,7 @@
         "target": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
         "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
         "score": 114,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
@@ -4986,49 +5024,49 @@
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-co-dep-khong",
         "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan": [
@@ -5036,25 +5074,25 @@
         "target": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
         "score": 24,
-        "reason": "apple-dma, review-tips, korea-summer"
+        "reason": "review-tips, korea-summer, apple-dma"
       },
       {
         "target": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
@@ -5066,19 +5104,19 @@
         "target": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
         "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
         "score": 16,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 16,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
         "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
         "score": 16,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       }
     ],
     "ios-27-co-gi-moi": [
@@ -5136,49 +5174,49 @@
         "target": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
         "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
         "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
         "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
         "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       }
     ],
     "iphone-15-pro-max-mau-titan-con-dang-mua-khong": [
@@ -5236,49 +5274,49 @@
         "target": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
         "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
         "score": 21,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "ios-27-co-nen-cap-nhat-ngay-khong",
         "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
         "score": 19,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
         "score": 19,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "macos-27-co-nen-nang-cap-ngay-khong",
         "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
         "score": 19,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
         "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "iphone-18-co-gi-moi",
         "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
         "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
@@ -5342,7 +5380,7 @@
         "target": "macos-27-apple-intelligence-macbook",
         "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
         "score": 117,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "ios-27-co-gi-moi",
@@ -5354,19 +5392,19 @@
         "target": "macos-27-beta-co-nen-cai-khong",
         "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
         "score": 111,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-ho-tro-may-mac-nao",
         "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
         "score": 111,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-hieu-nang-pin-macbook",
         "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
         "score": 111,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "ios-27-co-nen-cap-nhat-ngay-khong",
@@ -5442,7 +5480,7 @@
         "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
         "score": 160,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
@@ -5454,7 +5492,7 @@
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 154,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
@@ -5492,37 +5530,37 @@
         "target": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
         "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
         "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
         "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
         "score": 114,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
         "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
         "score": 111,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 102,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -5542,49 +5580,49 @@
         "target": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
         "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
         "score": 27,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
         "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
         "score": 27,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 27,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
         "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
         "score": 27,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 27,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
         "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
         "score": 27,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
         "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
         "score": 27,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 24,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       }
     ],
     "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd": [
@@ -5592,52 +5630,58 @@
         "target": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
         "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
         "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
         "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?",
         "score": 29,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       }
     ],
     "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap": [
+      {
+        "target": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
+        "title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
+        "score": 17,
+        "reason": "related"
+      },
       {
         "target": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
         "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
@@ -5677,12 +5721,6 @@
       {
         "target": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
         "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
-        "score": 0,
-        "reason": "related"
-      },
-      {
-        "target": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
-        "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
         "score": 0,
         "reason": "related"
       }
@@ -5892,43 +5930,43 @@
         "target": "app-store-gatekeeper-apple-so-mat-dieu-gi",
         "title": "App Store gatekeeper: Apple sợ mất điều gì?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
         "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
         "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-thua-kien-eu-app-store-ios-dma",
         "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
         "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "european-commission-duoc-gi-khi-thang-apple",
         "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -5992,19 +6030,19 @@
         "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
         "score": 133,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 132,
-        "reason": "busan, korea-autumn, seoul"
+        "reason": "busan, seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 130,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "busan-thang-10-nen-di-dau",
@@ -6016,25 +6054,25 @@
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay": [
@@ -6042,31 +6080,31 @@
         "target": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
         "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
         "score": 160,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 157,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
         "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
         "score": 154,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
         "score": 154,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
         "score": 154,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
@@ -6192,49 +6230,49 @@
         "target": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
         "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
         "score": 16,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
         "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "iphone-18-co-gi-moi",
         "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "ios-27-co-nen-cap-nhat-ngay-khong",
         "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       }
     ],
     "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju": [
@@ -6342,49 +6380,49 @@
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 139,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 133,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 133,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 120,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "seoraksan-thang-11-ngam-la-do",
         "title": "Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?",
         "score": 120,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "nami-thang-11-co-dang-di-khong",
         "title": "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "jeju-thang-11-co-dep-khong",
         "title": "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày",
         "score": 114,
-        "reason": "korea-autumn, korea-summer"
+        "reason": "korea-summer, korea-autumn"
       }
     ],
     "chi-phi-di-han-thang-10-tu-tuc": [
@@ -6498,49 +6536,49 @@
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 144,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 129,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 126,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
         "score": 122,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
         "score": 113,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       }
     ],
     "apple-thua-kien-eu-app-store-ios-dma": [
@@ -6548,43 +6586,43 @@
         "target": "app-store-gatekeeper-apple-so-mat-dieu-gi",
         "title": "App Store gatekeeper: Apple sợ mất điều gì?",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
         "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
         "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-vs-ec-dma-tuong-lai-iphone",
         "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "european-commission-duoc-gi-khi-thang-apple",
         "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
         "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -6698,49 +6736,49 @@
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 113,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
         "score": 113,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 110,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       }
     ],
     "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam": [
@@ -6798,49 +6836,49 @@
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 56,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 56,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 56,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 56,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 56,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 53,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 40,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
         "score": 40,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       }
     ],
     "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that": [
@@ -6898,49 +6936,49 @@
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 126,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 126,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 126,
-        "reason": "busan, korea-autumn, jeju, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, jeju, busan"
       },
       {
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 118,
-        "reason": "apple-dma, korea-autumn, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, apple-dma"
       },
       {
         "target": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
         "score": 118,
-        "reason": "apple-dma, korea-autumn, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, apple-dma"
       },
       {
         "target": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
         "score": 110,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
         "score": 110,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
         "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
         "score": 102,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       }
     ],
     "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo": [
@@ -6948,13 +6986,13 @@
         "target": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
         "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
         "score": 174,
-        "reason": "apple-dma, busan, korea-summer"
+        "reason": "busan, korea-summer, apple-dma"
       },
       {
         "target": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
         "score": 157,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -6966,7 +7004,7 @@
         "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
         "score": 154,
-        "reason": "apple-dma, korea-summer"
+        "reason": "korea-summer, apple-dma"
       },
       {
         "target": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
@@ -6998,49 +7036,49 @@
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
         "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
         "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
         "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
         "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 97,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
         "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
         "score": 97,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       }
     ],
     "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok": [
@@ -7048,49 +7086,49 @@
         "target": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
         "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
         "score": 16,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
         "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "iphone-18-co-gi-moi",
         "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "ios-27-co-nen-cap-nhat-ngay-khong",
         "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       }
     ],
     "o-khu-nao-bangkok-mua-mua": [
@@ -7198,19 +7236,19 @@
         "target": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
         "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
         "score": 165,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 165,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
         "score": 165,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
@@ -7448,7 +7486,7 @@
         "target": "macos-27-hieu-nang-pin-macbook",
         "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
         "score": 124,
-        "reason": "apple-dma, apple-macos"
+        "reason": "apple-macos, apple-dma"
       },
       {
         "target": "chuan-bi-macbook-truoc-khi-len-macos-27",
@@ -7498,7 +7536,7 @@
         "target": "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress",
         "title": "Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix",
         "score": 154,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -7548,49 +7586,49 @@
         "target": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
         "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
         "score": 108,
-        "reason": "jeju, review-tips, korea-summer"
+        "reason": "korea-summer, review-tips, jeju"
       },
       {
         "target": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
         "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
         "score": 105,
-        "reason": "jeju, review-tips, korea-summer"
+        "reason": "korea-summer, review-tips, jeju"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
         "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
         "score": 103,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
         "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
         "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       },
       {
         "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
         "score": 100,
-        "reason": "jeju, korea-summer"
+        "reason": "korea-summer, jeju"
       }
     ],
     "seoraksan-thang-11-ngam-la-do": [
@@ -7598,49 +7636,49 @@
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 123,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "han-quoc-thang-11-co-la-do-chua",
         "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 120,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 120,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 117,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-11-co-dep-khong",
         "title": "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên chọn",
         "score": 114,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "ios-27-quyen-rieng-tu-iphone": [
@@ -7648,19 +7686,19 @@
         "target": "ios-27-co-nen-cap-nhat-ngay-khong",
         "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
         "score": 122,
-        "reason": "apple-dma, apple-iphone, review-tips"
+        "reason": "apple-iphone, review-tips, apple-dma"
       },
       {
         "target": "macos-27-co-nen-nang-cap-ngay-khong",
         "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
         "score": 111,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "macos-27-hieu-nang-pin-macbook",
         "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
         "score": 111,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "ios-27-co-gi-moi",
@@ -7698,49 +7736,49 @@
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 127,
-        "reason": "apple-dma, korea-autumn, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, apple-dma"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
         "score": 122,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
         "score": 119,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 118,
-        "reason": "apple-dma, korea-autumn, korea-summer, seoul, korea-visa"
+        "reason": "korea-summer, korea-autumn, korea-visa, seoul, apple-dma"
       },
       {
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 113,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
         "score": 113,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
         "score": 108,
-        "reason": "korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-summer, korea-autumn"
       }
     ],
     "post-date-timezone-vietnam-gmt7-tranh-stale-date": [
@@ -7798,13 +7836,13 @@
         "target": "ubon-ratchathani-candle-festival-thai-lan-thang-7",
         "title": "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?",
         "score": 39,
-        "reason": "thailand-summer, thailand-festival, korea-summer"
+        "reason": "thailand-summer, korea-summer, thailand-festival"
       },
       {
         "target": "koh-samui-mua-he-so-voi-phuket",
         "title": "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?",
         "score": 39,
-        "reason": "thailand-summer, thailand-festival, korea-summer"
+        "reason": "thailand-summer, korea-summer, thailand-festival"
       },
       {
         "target": "phuket-mua-mua-co-nen-di-khong",
@@ -7848,43 +7886,43 @@
         "target": "app-store-gatekeeper-apple-so-mat-dieu-gi",
         "title": "App Store gatekeeper: Apple sợ mất điều gì?",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-thua-kien-eu-app-store-ios-dma",
         "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
         "score": 172,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
         "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-vs-ec-dma-tuong-lai-iphone",
         "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "european-commission-duoc-gi-khi-thang-apple",
         "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
         "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -8098,13 +8136,13 @@
         "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "score": 170,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
         "title": "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi",
         "score": 165,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul",
@@ -8116,7 +8154,7 @@
         "target": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
         "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
         "score": 162,
-        "reason": "korea-visa, korea-autumn, korea-summer"
+        "reason": "korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
@@ -8148,13 +8186,13 @@
         "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "score": 103,
-        "reason": "apple-dma, seoul"
+        "reason": "seoul, apple-dma"
       },
       {
         "target": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
         "score": 103,
-        "reason": "apple-dma, seoul"
+        "reason": "seoul, apple-dma"
       },
       {
         "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
@@ -8184,7 +8222,7 @@
         "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
         "score": 94,
-        "reason": "apple-dma, seoul"
+        "reason": "seoul, apple-dma"
       },
       {
         "target": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
@@ -8298,7 +8336,7 @@
         "target": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
         "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
         "score": 199,
-        "reason": "apple-dma, apple-iphone, review-tips"
+        "reason": "apple-iphone, review-tips, apple-dma"
       },
       {
         "target": "pin-iphone-16-pro-max-co-dang-chon",
@@ -8398,43 +8436,43 @@
         "target": "app-store-gatekeeper-apple-so-mat-dieu-gi",
         "title": "App Store gatekeeper: Apple sợ mất điều gì?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
         "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-vs-ec-dma-tuong-lai-iphone",
         "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "apple-thua-kien-eu-app-store-ios-dma",
         "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
         "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
         "score": 160,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
         "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
         "score": 157,
-        "reason": "apple-dma, apple-iphone"
+        "reason": "apple-iphone, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -8448,13 +8486,13 @@
         "target": "ios-27-apple-intelligence-iphone-cu",
         "title": "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?",
         "score": 33,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-apple-intelligence-macbook",
         "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
         "score": 30,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
@@ -8478,19 +8516,19 @@
         "target": "macos-27-beta-co-nen-cai-khong",
         "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
         "score": 24,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-ho-tro-may-mac-nao",
         "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
         "score": 24,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-hieu-nang-pin-macbook",
         "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
         "score": 24,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       }
     ],
     "macos-27-hieu-nang-pin-macbook": [
@@ -8498,25 +8536,25 @@
         "target": "macos-27-ho-tro-may-mac-nao",
         "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
         "score": 124,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-co-nen-nang-cap-ngay-khong",
         "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
         "score": 124,
-        "reason": "apple-dma, apple-macos"
+        "reason": "apple-macos, apple-dma"
       },
       {
         "target": "macos-27-apple-intelligence-macbook",
         "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
         "score": 124,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-beta-co-nen-cai-khong",
         "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
         "score": 121,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-cho-van-phong-creator-lap-trinh-vien",
@@ -8548,13 +8586,13 @@
         "target": "macos-27-ho-tro-may-mac-nao",
         "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
         "score": 127,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-hieu-nang-pin-macbook",
         "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
         "score": 124,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-co-gi-moi",
@@ -8566,13 +8604,13 @@
         "target": "macos-27-beta-co-nen-cai-khong",
         "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
         "score": 121,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "ios-27-apple-intelligence-iphone-cu",
         "title": "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?",
         "score": 117,
-        "reason": "apple-iphone, apple-macos"
+        "reason": "apple-macos, apple-iphone"
       },
       {
         "target": "macos-27-cho-van-phong-creator-lap-trinh-vien",
@@ -8648,49 +8686,49 @@
         "target": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
         "score": 143,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "han-quoc-thang-11-co-la-do-chua",
         "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
         "score": 139,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
         "score": 133,
-        "reason": "korea-visa, korea-autumn, seoul, korea-summer"
+        "reason": "seoul, korea-visa, korea-summer, korea-autumn"
       },
       {
         "target": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
         "score": 130,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
         "score": 127,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       },
       {
         "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
         "score": 124,
-        "reason": "korea-autumn, seoul"
+        "reason": "seoul, korea-autumn"
       }
     ],
     "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc": [
@@ -8698,49 +8736,49 @@
         "target": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
         "title": "",
         "score": 24,
-        "reason": "apple-dma, review-tips, content"
+        "reason": "content, review-tips, apple-dma"
       },
       {
         "target": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
         "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
         "score": 16,
-        "reason": "apple-dma, content"
+        "reason": "content, apple-dma"
       },
       {
         "target": "baseurl-sitemap-noindex-va-series-hardcoded-url",
         "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "iphone-18-co-gi-moi",
         "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       },
       {
         "target": "ios-27-co-nen-cap-nhat-ngay-khong",
         "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
         "score": 16,
-        "reason": "apple-dma, review-tips"
+        "reason": "review-tips, apple-dma"
       }
     ],
     "chi-phi-di-han-thang-11-tu-tuc": [
@@ -8845,7 +8883,7 @@
     ]
   },
   "inbound_counts": {
-    "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog": 11,
+    "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog": 10,
     "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay": 21,
     "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong": 11,
     "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park": 6,
@@ -8933,9 +8971,16 @@
     "macos-27-cho-van-phong-creator-lap-trinh-vien": 8,
     "chuan-bi-macbook-truoc-khi-len-macos-27": 8,
     "macos-27-so-voi-macos-26": 8,
+    "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap": 1,
+    "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat": 7,
+    "cach-xay-dung-thoi-quen-mua-sam-thong-minh": 2,
+    "workflow-failures-audit-recent-ci-cd-root-causes-action-items": 7,
+    "co-nen-cho-iphone-18-khong": 8,
+    "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc": 12,
+    "thoi-tiet-han-quoc-thang-11": 21,
+    "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay": 12,
     "di-thai-lan-thang-7-co-nen-khong": 3,
     "chiang-mai-mua-mua-co-gi-dep": 12,
-    "thoi-tiet-han-quoc-thang-11": 20,
     "lich-trinh-di-han-thang-11-5-ngay-4-dem": 8,
     "busan-thang-11-nen-di-dau": 3,
     "seoraksan-thang-11-ngam-la-do": 4,
@@ -8949,7 +8994,6 @@
     "iphone-16-pro-max-desert-titanium-hop-ai": 10,
     "iphone-15-pro-max-blue-titanium-co-dang-san": 15,
     "camera-iphone-16-pro-max-so-voi-15-pro-max": 10,
-    "co-nen-cho-iphone-18-khong": 7,
     "macos-27-beta-co-nen-cai-khong": 14,
     "pin-iphone-16-pro-max-co-dang-chon": 8,
     "di-han-thang-11-mac-gi": 6,
@@ -8981,15 +9025,11 @@
     "ios-27-co-nen-cap-nhat-ngay-khong": 14,
     "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song": 4,
     "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao": 4,
-    "workflow-failures-audit-recent-ci-cd-root-causes-action-items": 6,
     "doi-baht-o-viet-nam-hay-thai-lan": 4,
-    "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc": 11,
     "ios-27-ho-tro-iphone-nao": 3,
     "starbucks-vietnam-meo-goi-order-va-rewards": 9,
-    "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay": 11,
     "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh": 2,
     "di-han-thang-11-co-dep-khong": 3,
-    "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat": 6,
     "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh": 3,
     "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau": 3,
     "vi-sao-review-dai-chua-chac-da-dang-tin": 1,
@@ -8997,7 +9037,7 @@
     "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo": 4,
     "chi-phi-di-han-thang-10-tu-tuc": 2,
     "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao": 2,
-    "cach-xay-dung-thoi-quen-mua-sam-thong-minh": 1,
+    "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue": 1,
     "post-date-timezone-vietnam-gmt7-tranh-stale-date": 1,
     "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep": 1,
     "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien": 1,
@@ -9012,7 +9052,6 @@
     "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix": 2,
     "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat": 2,
     "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd": 2,
-    "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap": 2,
     "goi-y-du-lich-han-quoc-thang-7-2026": 2,
     "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that": 2,
     "o-khu-nao-bangkok-mua-mua": 2,
@@ -9173,6 +9212,7 @@
     "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
     "thoi-tiet-han-quoc-thang-10",
     "thoi-tiet-han-quoc-thang-11",
+    "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
     "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
     "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
     "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
