@@ -206,21 +206,21 @@ python scripts/qa_deployment_doctor.py</pre>
 
 <style>
 .dd-page{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;color:var(--text,#1a1a2e);line-height:1.6}
-.dd-hero{background:linear-gradient(135deg,#0f766e 0%,#115e59 50%,#134e4a 100%);color:#fff;padding:2.75rem 0 2rem;text-align:center}
+.dd-hero{background:#00a7a0;color:#fff;padding:2.75rem 0 2rem;text-align:center}
 .dd-hero h1{margin:0;font-size:2rem;font-weight:800}
 .dd-sub{margin:.5rem 0 0;opacity:.92;font-size:.95rem}
 .dd-live{margin:.75rem 0 0;font-size:.85rem}
-.dd-live a{color:#ccfbf1}
+.dd-live a{color:#ddf4f2}
 .dd-stale{background:rgba(255,255,255,.18);padding:.1rem .45rem;border-radius:4px}
 .dd-body{max-width:1040px;margin:0 auto;padding:2rem 1.25rem 4rem}
 .dd-section{margin-bottom:1.75rem}
-.dd-section h2{font-size:1.3rem;margin:0 0 1rem;padding-bottom:.4rem;border-bottom:2px solid #0f766e}
+.dd-section h2{font-size:1.3rem;margin:0 0 1rem;padding-bottom:.4rem;border-bottom:2px solid #00a7a0}
 .dd-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.85rem}
 .dd-card{background:var(--surface,#f8f9fa);border:1px solid var(--border,#e8e6e1);border-radius:12px;padding:1rem;text-align:center}
-.dd-n{display:block;font-size:1.75rem;font-weight:800;color:#0f766e}
+.dd-n{display:block;font-size:1.75rem;font-weight:800;color:#00a7a0}
 .dd-l{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted,#6c757d);margin-top:.25rem}
-.dd-ok .dd-n{color:#15803d}
-.dd-warn .dd-n{color:#c2410c}
+.dd-ok .dd-n{color:#00726d}
+.dd-warn .dd-n{color:#9a6a1a}
 
 /* Collapsible sections — closed by default */
 .dd-fold{
@@ -249,8 +249,8 @@ python scripts/qa_deployment_doctor.py</pre>
   content:"";
   display:inline-block;
   width:8px;height:8px;
-  border-right:2.2px solid #0f766e;
-  border-bottom:2.2px solid #0f766e;
+  border-right:2.2px solid #00a7a0;
+  border-bottom:2.2px solid #00a7a0;
   transform:rotate(-45deg);
   transition:transform .2s ease;
   flex-shrink:0;
@@ -261,37 +261,46 @@ python scripts/qa_deployment_doctor.py</pre>
   margin-top:2px;
 }
 .dd-fold[open] .dd-fold__summary{
-  border-bottom-color:#0f766e;
-  background:#f0fdfa;
+  border-bottom-color:#00a7a0;
+  background:#ddf4f2;
 }
-.dd-fold__summary:hover{background:#f8fffe}
+.dd-fold__summary:hover{background:#f7fafa}
 .dd-fold__title{flex:1 1 auto}
 .dd-fold__body{padding:1rem 1.1rem 1.25rem}
 
 .dd-table-wrap{overflow-x:auto;border:1px solid var(--border,#e8e6e1);border-radius:12px}
 .dd-table{width:100%;border-collapse:collapse;font-size:.88rem}
 .dd-table th,.dd-table td{padding:.55rem .7rem;border-bottom:1px solid var(--border,#e8e6e1);text-align:left;vertical-align:top}
-.dd-table th{background:#ecfdf5;font-size:.75rem;text-transform:uppercase;letter-spacing:.03em}
+.dd-table th{background:#ddf4f2;font-size:.75rem;text-transform:uppercase;letter-spacing:.03em}
 .dd-clusters{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
 .dd-cluster{background:var(--surface,#f8f9fa);border:1px solid var(--border,#e8e6e1);border-radius:12px;padding:1rem}
 .dd-cluster h3{margin:0 0 .6rem;font-size:1rem}
 .dd-subh{font-size:1rem;margin:1rem 0 .5rem}
-.dd-badge{display:inline-block;background:#ccfbf1;color:#115e59;border-radius:999px;padding:.05rem .45rem;font-size:.75rem;font-weight:700}
+.dd-badge{display:inline-block;background:#ddf4f2;color:#007f7a;border-radius:999px;padding:.05rem .45rem;font-size:.75rem;font-weight:700}
 .dd-actions{list-style:none;padding:0;margin:0}
 .dd-action{padding:.7rem .85rem;border:1px solid var(--border,#e8e6e1);border-radius:10px;margin-bottom:.55rem;background:var(--surface,#fff)}
-.dd-p0{border-left:4px solid #dc2626}
-.dd-p1{border-left:4px solid #ea580c}
-.dd-p2{border-left:4px solid #16a34a}
-.dd-pill{display:inline-block;font-size:.7rem;font-weight:800;padding:.1rem .45rem;border-radius:4px;background:#ecfdf5;color:#115e59;margin-right:.35rem}
-.dd-pill-ok{background:#dcfce7;color:#166534}
-.dd-pill-warn{background:#ffedd5;color:#9a3412}
+.dd-p0{border-left:4px solid #e07a7a}
+.dd-p1{border-left:4px solid #e8a838}
+.dd-p2{border-left:4px solid #00a7a0}
+.dd-pill{display:inline-block;font-size:.7rem;font-weight:800;padding:.1rem .45rem;border-radius:4px;background:#ddf4f2;color:#007f7a;margin-right:.35rem}
+.dd-pill-ok{background:#ddf4f2;color:#00726d}
+.dd-pill-warn{background:#fbefd8;color:#9a6a1a}
 .dd-owner{font-size:.75rem;color:var(--muted,#6c757d);text-transform:uppercase;margin-right:.4rem}
 .dd-muted{color:var(--muted,#6c757d);font-size:.88rem}
 .dd-empty{color:var(--muted,#6c757d);font-style:italic}
-.dd-note{margin-top:.75rem;font-size:.9rem;color:#9a3412}
-.dd-alert{background:#fef2f2;border:1px solid #fecaca;border-left:4px solid #dc2626;border-radius:12px;padding:1.25rem}
+.dd-note{margin-top:.75rem;font-size:.9rem;color:#9a6a1a}
+.dd-alert{background:#fdf1f1;border:1px solid #f3caca;border-left:4px solid #e07a7a;border-radius:12px;padding:1.25rem}
 .dd-code{background:#0f172a;color:#e2e8f0;padding:1rem;border-radius:10px;overflow-x:auto;font-size:.82rem;white-space:pre-wrap}
 .dd-lessons{padding-left:1.1rem}
 @media(max-width:640px){.dd-table{font-size:.8rem}}
+.dd-card{border-left:4px solid #00a7a0}
+.dd-card:nth-child(3n+1){background:#ddf4f2}
+.dd-card:nth-child(3n+2){background:#dceaf8}
+.dd-card:nth-child(3n+3){background:#ece7fa}
+.dd-n{font-variant-numeric:tabular-nums;color:#111111}
+.dd-ok .dd-n{color:#00726d}
+.dd-warn .dd-n{color:#9a6a1a}
+html.dark-mode .dd-card:nth-child(3n+1),html.dark-mode .dd-card:nth-child(3n+2),html.dark-mode .dd-card:nth-child(3n+3){background:var(--surface,#14201f)}
+html.dark-mode .dd-n{color:var(--text,#e2efee)}
 </style>
 {{ end }}
