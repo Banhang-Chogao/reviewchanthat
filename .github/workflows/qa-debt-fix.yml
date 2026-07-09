@@ -1,0 +1,102 @@
+name: QA Debt Fix
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"  # Every Monday 9 AM UTC
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max issues to fix"
+        default: "5"
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fix-debt:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Load baseline debt
+        id: debt
+        run: |
+          python -c "
+          import json
+          with open('data/qa-baseline-debt.json') as f:
+              debt = json.load(f)
+          auto_fixable = []
+          for issue_type, details in debt.get('known_issues', {}).items():
+              if details.get('auto_fix'):
+                  auto_fixable.extend(details.get('affected_posts', []))
+
+          limit = int('${{ inputs.limit || 5 }}')
+          to_fix = auto_fixable[:limit]
+
+          print(f'Found {len(auto_fixable)} auto-fixable issues')
+          print(f'Planning to fix: {to_fix}')
+
+          with open('/tmp/debt-fix-list.txt', 'w') as f:
+              for post in to_fix:
+                  f.write(post + '\n')
+          "
+
+      - name: Fix image metadata for baseline debt posts
+        run: |
+          python scripts/compliance.py \
+            --fix \
+            --report-json data/compliance-report.json || true
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet data/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create PR branch
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          BRANCH="fix/qa-debt-$(date +%s)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add data/ scripts/
+          git commit -m "fix(qa): resolve baseline compliance debt
+
+Auto-fix baseline QA issues:
+- Image metadata corrections
+- Creator field normalization
+- Source/license verification
+
+Non-blocking: does not affect active feature development
+
+Co-Authored-By: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+          git push origin "$BRANCH"
+          echo "branch=$BRANCH" >> "$GITHUB_ENV"
+
+      - name: Create PR
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          gh pr create \
+            --base main \
+            --head "${{ env.branch }}" \
+            --title "fix(qa): resolve baseline compliance debt" \
+            --body "Automated resolution of baseline QA issues. Non-blocking debt reduction." \
+            --label "automerge" \
+            --label "automated" \
+            --label "qa" || true

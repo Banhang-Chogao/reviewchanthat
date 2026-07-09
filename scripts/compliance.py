@@ -327,6 +327,7 @@ class ComplianceChecker:
         self.fix = fix
         self.strict = strict
         self.scan_public = scan_public
+        self.only_posts: set[str] = set()  # Empty = scan all; non-empty = scan only these
         self.report = ComplianceReport()
         self.manifest_by_slug = self._load_manifest()
         self.cache_by_slug = self._load_cache()
@@ -360,6 +361,10 @@ class ComplianceChecker:
         if os.path.isdir(posts_dir):
             for fname in sorted(os.listdir(posts_dir)):
                 if fname.endswith(".md"):
+                    post_name = fname.replace(".md", "")
+                    # If only_posts is set, skip posts not in the set
+                    if self.only_posts and post_name not in self.only_posts:
+                        continue
                     paths.append(os.path.join(posts_dir, fname))
         return paths
 
@@ -1080,6 +1085,8 @@ def main() -> int:
     parser.add_argument("--strict", action="store_true", help="Upgrade warnings to errors")
     parser.add_argument("--report-json", default="", help="Write JSON report to path")
     parser.add_argument("--no-public", action="store_true", help="Skip scanning public/ output")
+    parser.add_argument("--changed-files-only", action="store_true", help="Only check changed posts (PR mode)")
+    parser.add_argument("--qa-scope", default="", help="Path to qa-scope.json (used with --changed-files-only)")
     parser.add_argument("--self-test", action="store_true", help="Run internal self-test fixtures")
     args = parser.parse_args()
 
@@ -1089,6 +1096,20 @@ def main() -> int:
 
     try:
         checker = ComplianceChecker(fix=args.fix, strict=args.strict, scan_public=not args.no_public)
+
+        # If changed-files-only mode, load scope and filter posts
+        if args.changed_files_only:
+            qa_scope_path = args.qa_scope or "reports/qa-scope.json"
+            if os.path.exists(qa_scope_path):
+                with open(qa_scope_path) as f:
+                    scope = json.load(f)
+                    changed_posts = set(scope.get("changed_posts", []))
+                    if changed_posts:
+                        # Override CONTENT_DIRS to only include changed posts
+                        import sys as _sys
+                        checker.only_posts = changed_posts
+                        print(f"✅ Changed-files-only mode: checking {len(changed_posts)} posts")
+
         exit_code = checker.run()
         checker.print_console_report()
         report_path = args.report_json or DEFAULT_REPORT
