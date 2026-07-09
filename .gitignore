@@ -18,3 +18,10 @@ __pycache__/
 
 # API keys
 .env
+
+# Local SSL certs (hugo server --tlsAuto)
+cert.pem
+key.pem
+
+# Auto-generated image candidates
+data/image-candidates/
