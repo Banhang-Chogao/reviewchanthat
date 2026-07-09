@@ -17,15 +17,10 @@ description: Tòa Tổng EU ngày 8/7/2026 bác kiện Apple về gatekeeper App
 draft: false
 external_links:
   - {"title": "Reuters — EU court rejects Apple's challenge (8/7/2026)", "url": "https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/"}
-external_links:
   - {"title": "Tòa Tổng EU — Thông cáo báo chí cp260096en.pdf", "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf"}
-external_links:
   - {"title": "EC — Apple và Meta vi phạm DMA (23/4/2025)", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act"}
-external_links:
   - {"title": "CNBC — Apple kháng cáo phạt €500M (7/2025)", "url": "https://www.cnbc.com/2025/07/07/apple-appeal-eu-fine-app-store.html"}
-external_links:
   - {"title": "Apple Newsroom — Tác động DMA lên người dùng EU", "url": "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/"}
-external_links:
   - {"title": "Digital Markets Act — Trang chính thức EC", "url": "https://digital-markets-act.ec.europa.eu/"}
 image: images/posts/apple-thua-kien-eu-app-store-ios-dma.webp
 image_attribution_checked_at: >-
@@ -51,28 +46,19 @@ series_title: >-
 slug: apple-thua-kien-eu-app-store-ios-dma
 tags:
   - Apple
-tags:
   - European Commission
-tags:
   - Digital Markets Act
-tags:
   - App Store
-tags:
   - iOS
-tags:
   - EU
-tags:
   - gatekeeper
 thumbnail: images/posts/apple-thua-kien-eu-app-store-ios-dma.webp
 title: >-
   Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA
 tom_tat_nhanh:
   - {"label": "Sự kiện", "value": "Tòa Tổng EU bác kiện Apple — 8/7/2026"}
-tom_tat_nhanh:
   - {"label": "Vụ việc", "value": "Gatekeeper App Store & iOS (T-1079/23…)"}
-tom_tat_nhanh:
   - {"label": "Khác với", "value": "Phạt anti-steering €500M (4/2025)"}
-tom_tat_nhanh:
   - {"label": "Bước tiếp", "value": "Kháng cáo Tòa Công lý EU trong 2 tháng 10 ngày"}
 seo_title: >-
   Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và

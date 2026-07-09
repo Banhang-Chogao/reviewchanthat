@@ -17,15 +17,11 @@ description: Cheongsapo Busan là làng chài ven biển gần Haeundae, nước
 draft: false
 external_links:
   - {"title": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX", "url": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"}
-external_links:
   - {"title": "https://www.visitbusan.net/", "url": "https://www.visitbusan.net/"}
-external_links:
   - {"title": "https://www.koreatodo.com/haeundae-beach", "url": "https://www.koreatodo.com/haeundae-beach"}
 faq:
   - {"answer": "Cheongsapo không phải bãi tắm chính thức. Bạn có thể ngâm chân hoặc đi dạo ven nước, nhưng không có cứu hộ và khu vực tắm an toàn.", "question": "Cheongsapo có tắm biển được không?"}
-faq:
   - {"answer": "Vé tàu thường dao động 10.000–15.000 KRW/người lớn một chiều tùy loại tàu. Vé sky capsule (tàu trần) đắt hơn.", "question": "Giá vé tàu Blue Line Park thế nào?"}
-faq:
   - {"answer": "Đông hơn vào cuối tuần và mùa hè, nhưng vẫn yên tĩnh hơn Haeundae nhiều lần.", "question": "Cheongsapo có đông không?"}
 image: images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp
 image_attribution_checked_at: >-
@@ -46,11 +42,8 @@ image_source_url: >-
   https://www.pexels.com/photo/tourist-train-crossing-at-cheongsapo-station-17318386/
 internal_links:
   - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng ở Hàn Quốc mùa hè"}
-internal_links:
   - {"ref": "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md", "title": "Haeundae Beach Busan"}
-internal_links:
   - {"ref": "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md", "title": "Gwangalli Beach Busan"}
-internal_links:
   - {"ref": "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md", "title": "Club D Oasis Busan"}
 series: du-lich
 series_order: 16
@@ -58,30 +51,20 @@ series_title: Du lịch Hàn Quốc 2026
 slug: cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park
 tags:
   - du lịch Hàn Quốc
-tags:
   - Hàn Quốc mùa hè
-tags:
   - Busan
-tags:
   - Cheongsapo
-tags:
   - Blue Line Park
-tags:
   - Haeundae
-tags:
   - series du lịch
 thumbnail: images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp
 title: >-
   Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park
 tom_tat_nhanh:
   - {"label": "Khu vực", "value": "Haeundae-gu, Busan (phía đông Haeundae Beach)"}
-tom_tat_nhanh:
   - {"label": "Loại trải nghiệm", "value": "Làng chài, biển trong, tàu ven biển"}
-tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Cặp đôi, đi một mình, người thích yên tĩnh"}
-tom_tat_nhanh:
   - {"label": "Thời gian nên dành", "value": "1–2 giờ"}
-tom_tat_nhanh:
   - {"label": "Lưu ý mùa hè", "value": "Nắng gắt trưa, nên đi sáng sớm hoặc chiều muộn"}
 seo_title: >-
   Cheongsapo Busan: biển trong, làng ven biển và lịch trình

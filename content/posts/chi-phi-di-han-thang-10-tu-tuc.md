@@ -18,9 +18,7 @@ description: >-
 draft: false
 external_links:
   - {"title": "Visit Korea — Fall Foliage Forecast", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"}
-external_links:
   - {"title": "KoreaToDo — Seoraksan National Park", "url": "https://www.koreatodo.com/seoraksan-national-park"}
-external_links:
   - {"title": "KoreaToDo — Gapyeong Day Trip Nami Island", "url": "https://www.koreatodo.com/gapyeong-day-trip-nami-island"}
 image: images/posts/chi-phi-di-han-thang-10-tu-tuc.webp
 image_attribution_checked_at: >-
@@ -41,19 +39,12 @@ image_source_url: >-
   https://www.pexels.com/photo/pexels-photo-4042807/
 internal_links:
   - {"ref": "posts/di-han-thang-10-co-dep-khong.md", "title": "Đi Hàn tháng 10 có đẹp không?"}
-internal_links:
   - {"ref": "posts/thoi-tiet-han-quoc-thang-10.md", "title": "Thời tiết và mùa lá đỏ tháng 10"}
-internal_links:
   - {"ref": "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md", "title": "Lịch trình 5 ngày 4 đêm tháng 10"}
-internal_links:
   - {"ref": "posts/seoul-thang-10-nen-di-dau.md", "title": "Seoul tháng 10 nên đi đâu?"}
-internal_links:
   - {"ref": "posts/nami-thang-10-co-dang-di-khong.md", "title": "Nami Island tháng 10"}
-internal_links:
   - {"ref": "posts/seoraksan-thang-10-ngam-la-do.md", "title": "Seoraksan tháng 10"}
-internal_links:
   - {"ref": "posts/busan-thang-10-nen-di-dau.md", "title": "Busan tháng 10"}
-internal_links:
   - {"ref": "posts/jeju-thang-10-co-dep-khong.md", "title": "Jeju tháng 10"}
 series: di-han-thang-10
 series_order: 12
@@ -61,26 +52,18 @@ series_title: Đi Hàn tháng 10
 slug: chi-phi-di-han-thang-10-tu-tuc
 tags:
   - chi phí du lịch Hàn Quốc
-tags:
   - đi Hàn tự túc
-tags:
   - du lịch Hàn Quốc tháng 10
-tags:
   - ngân sách
-tags:
   - series du lịch
 thumbnail: images/posts/chi-phi-di-han-thang-10-tu-tuc.webp
 title: >-
   Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển
 tom_tat_nhanh:
   - {"label": "Ngân sách 5N4Đ", "value": "11–20 triệu VND/người"}
-tom_tat_nhanh:
   - {"label": "Khoản lớn nhất", "value": "Vé máy bay + khách sạn"}
-tom_tat_nhanh:
   - {"label": "Ăn uống", "value": "400.000–800.000 VND/ngày"}
-tom_tat_nhanh:
   - {"label": "Di chuyển", "value": "100.000–180.000 VND/ngày"}
-tom_tat_nhanh:
   - {"label": "Lưu ý", "value": "Giá có thể thay đổi"}
 seo_title: >-
   Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn

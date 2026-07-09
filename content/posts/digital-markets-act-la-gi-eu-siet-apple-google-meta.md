@@ -17,11 +17,8 @@ description: Digital Markets Act (DMA) là gì? Cách EU siết Apple, Google, M
 draft: false
 external_links:
   - {"title": "Digital Markets Act — Trang chính thức EC", "url": "https://digital-markets-act.ec.europa.eu/"}
-external_links:
   - {"title": "EC — Apple và Meta vi phạm DMA (23/4/2025)", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act"}
-external_links:
   - {"title": "Tòa Tổng EU — Thông cáo gatekeeper Apple (8/7/2026)", "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf"}
-external_links:
   - {"title": "Reuters — EU court rejects Apple challenge (8/7/2026)", "url": "https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/"}
 image: images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp
 image_attribution_checked_at: >-
@@ -47,27 +44,18 @@ series_title: >-
 slug: digital-markets-act-la-gi-eu-siet-apple-google-meta
 tags:
   - Apple
-tags:
   - European Commission
-tags:
   - Digital Markets Act
-tags:
   - App Store
-tags:
   - iOS
-tags:
   - EU
-tags:
   - gatekeeper
 thumbnail: images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp
 title: Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào
 tom_tat_nhanh:
   - {"label": "DMA", "value": "Luật EU 2022 — thị trường số công bằng, có thể cạnh tranh"}
-tom_tat_nhanh:
   - {"label": "Gatekeeper", "value": "Nền tảng lớn đủ ngưỡng — bị ràng buộc nghĩa vụ đặc biệt"}
-tom_tat_nhanh:
   - {"label": "Công cụ", "value": "Chỉ định, giám sát, phạt tiền, điều tra thị trường"}
-tom_tat_nhanh:
   - {"label": "Apple", "value": "Gatekeeper App Store & iOS — Tòa EU xác nhận 8/7/2026"}
 ---
 

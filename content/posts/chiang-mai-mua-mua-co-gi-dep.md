@@ -39,23 +39,16 @@ series_title: Du lịch Thái Lan mùa mưa
 slug: chiang-mai-mua-mua-co-gi-dep
 tags:
   - Chiang Mai mùa mưa
-tags:
   - du lịch Thái Lan
-tags:
   - Chiang Mai tháng 7
-tags:
   - Doi Suthep
-tags:
   - Nimman
 thumbnail: images/posts/chiang-mai-mua-mua-co-gi-dep.webp
 title: Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng
 tom_tat_nhanh:
   - {"label": "Mùa", "value": "Tháng 6–10 (xanh nhất)"}
-tom_tat_nhanh:
   - {"label": "Nhiệt độ", "value": "23–32°C"}
-tom_tat_nhanh:
   - {"label": "Thác nước", "value": "Đẹp nhất năm"}
-tom_tat_nhanh:
   - {"label": "Phù hợp", "value": "Chụp ảnh, cafe, văn hóa"}
 seo_title: Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch
 ---

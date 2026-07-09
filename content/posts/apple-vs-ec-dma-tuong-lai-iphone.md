@@ -15,13 +15,9 @@ description: >-
 draft: false
 external_links:
   - {"title": "Reuters — EU court rejects Apple's challenge (8/7/2026)", "url": "https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/"}
-external_links:
   - {"title": "EC — Apple và Meta vi phạm DMA (23/4/2025)", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act"}
-external_links:
   - {"title": "CNBC — Apple kháng cáo phạt €500M (7/2025)", "url": "https://www.cnbc.com/2025/07/07/apple-appeal-eu-fine-app-store.html"}
-external_links:
   - {"title": "Apple Newsroom — Tác động DMA lên người dùng EU", "url": "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/"}
-external_links:
   - {"title": "Digital Markets Act — Trang chính thức EC", "url": "https://digital-markets-act.ec.europa.eu/"}
 image: images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp
 image_attribution_checked_at: >-
@@ -47,26 +43,18 @@ series_title: >-
 slug: apple-vs-ec-dma-tuong-lai-iphone
 tags:
   - Apple
-tags:
   - European Commission
-tags:
   - DMA
-tags:
   - iPhone
-tags:
   - App Store
-tags:
   - tương lai iOS
 thumbnail: images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp
 title: >-
   Apple vs EC, DMA và tương lai iPhone: kết luận series
 tom_tat_nhanh:
   - {"label": "Chủ đề", "value": "Tổng kết series Apple vs EC và hướng iPhone"}
-tom_tat_nhanh:
   - {"label": "Hiện trạng", "value": "iOS hai tốc độ — EU mở, còn lại khép kín"}
-tom_tat_nhanh:
   - {"label": "Kịch bản", "value": "Kháng cáo, enforcement tiếp, luật tương tự nơi khác"}
-tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Ai đọc cả series hoặc cần bức tranh tổng thể nhanh"}
 ---
 

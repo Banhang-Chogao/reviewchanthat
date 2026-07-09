@@ -14,11 +14,8 @@ description: Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu đượ
 draft: false
 external_links:
   - {"title": "EC — Apple và Meta vi phạm DMA (23/4/2025)", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act"}
-external_links:
   - {"title": "Apple Newsroom — Tác động DMA lên người dùng EU", "url": "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/"}
-external_links:
   - {"title": "Apple Developer — Hỗ trợ DMA tại EU", "url": "https://developer.apple.com/support/dma-and-apps-in-the-eu/"}
-external_links:
   - {"title": "Digital Markets Act — Trang chính thức EC", "url": "https://digital-markets-act.ec.europa.eu/"}
 image: images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp
 image_attribution_checked_at: >-
@@ -43,26 +40,18 @@ series_title: >-
 slug: ios-mo-hon-nguoi-dung-chau-au-mat-gi
 tags:
   - Apple
-tags:
   - DMA
-tags:
   - iOS
-tags:
   - App Store
-tags:
   - người dùng EU
-tags:
   - bảo mật iPhone
 thumbnail: images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp
 title: >-
   iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?
 tom_tat_nhanh:
   - {"label": "Chủ đề", "value": "Đánh đổi cho người dùng EU khi iOS mở theo DMA"}
-tom_tat_nhanh:
   - {"label": "Bối cảnh", "value": "iOS 17.4+ ở 27 nước EU, phạt anti-steering 500 triệu euro (4/2025)"}
-tom_tat_nhanh:
   - {"label": "Điểm then chốt", "value": "Thêm lựa chọn, nhưng giảm lớp bảo vệ tích hợp"}
-tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Người dùng iPhone EU, phụ huynh, ai quan tâm bảo mật hệ sinh thái"}
 ---
 

@@ -40,24 +40,17 @@ series_title: Du lịch Thái Lan mùa mưa
 slug: checklist-vali-di-thai-mua-mua
 tags:
   - checklist vali Thái Lan
-tags:
   - đi Thái Lan mùa mưa
-tags:
   - du lịch Thái Lan
-tags:
   - đồ cần mang đi Thái
-tags:
   - packing list Thái Lan
 thumbnail: images/posts/checklist-vali-di-thai-mua-mua.webp
 title: >-
   Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm
 tom_tat_nhanh:
   - {"label": "Thời tiết", "value": "24–34°C, ẩm 80%+"}
-tom_tat_nhanh:
   - {"label": "Vải nên mặc", "value": "Cotton, linen, quick-dry"}
-tom_tat_nhanh:
   - {"label": "Giày", "value": "Sandals chống nước"}
-tom_tat_nhanh:
   - {"label": "Đồ chống mưa", "value": "Áo mưa gấp gọn"}
 seo_title: >-
   Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không

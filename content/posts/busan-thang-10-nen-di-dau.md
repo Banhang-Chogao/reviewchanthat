@@ -17,9 +17,7 @@ description: Busan tháng 10 nên đi đâu? Gợi ý biển, phố đêm, làng
 draft: false
 external_links:
   - {"title": "Visit Korea — Fall Foliage Forecast", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"}
-external_links:
   - {"title": "KoreaToDo — Top Autumn Foliage Sites", "url": "https://www.koreatodo.com/top-autumn-foliage-sites-korea"}
-external_links:
   - {"title": "Visit Busan", "url": "https://www.visitbusan.net"}
 image: images/posts/busan-thang-10-nen-di-dau.webp
 image_attribution_checked_at: >-
@@ -40,17 +38,11 @@ image_source_url: >-
   https://www.pexels.com/photo/pexels-photo-12787322/
 internal_links:
   - {"ref": "posts/di-han-thang-10-co-dep-khong.md", "title": "Đi Hàn tháng 10 có đẹp không?"}
-internal_links:
   - {"ref": "posts/thoi-tiet-han-quoc-thang-10.md", "title": "Thời tiết và mùa lá đỏ tháng 10"}
-internal_links:
   - {"ref": "posts/seoul-thang-10-nen-di-dau.md", "title": "Seoul tháng 10 nên đi đâu?"}
-internal_links:
   - {"ref": "posts/jeju-thang-10-co-dep-khong.md", "title": "Jeju tháng 10 có đẹp không?"}
-internal_links:
   - {"ref": "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md", "title": "Lịch trình 5 ngày 4 đêm tháng 10"}
-internal_links:
   - {"ref": "posts/chi-phi-di-han-thang-10-tu-tuc.md", "title": "Chi phí đi Hàn tháng 10 tự túc"}
-internal_links:
   - {"ref": "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md", "title": "Busan mùa hè nên đi đâu?"}
 series: di-han-thang-10
 series_order: 8
@@ -58,25 +50,17 @@ series_title: Đi Hàn tháng 10
 slug: busan-thang-10-nen-di-dau
 tags:
   - Busan
-tags:
   - du lịch Hàn Quốc tháng 10
-tags:
   - biển Busan
-tags:
   - Haeundae
-tags:
   - series du lịch
 thumbnail: images/posts/busan-thang-10-nen-di-dau.webp
 title: Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng
 tom_tat_nhanh:
   - {"label": "Thời tiết", "value": "15–22°C, mát, ít mưa hơn hè"}
-tom_tat_nhanh:
   - {"label": "Thời gian nên dành", "value": "2–3 ngày"}
-tom_tat_nhanh:
   - {"label": "Điểm chính", "value": "Haeundae, Gwangalli, Gamcheon"}
-tom_tat_nhanh:
   - {"label": "Phù hợp", "value": "Cặp đôi, nhóm bạn, gia đình"}
-tom_tat_nhanh:
   - {"label": "Lưu ý", "value": "Giá vé và phí có thể thay đổi"}
 seo_title: Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ
 ---

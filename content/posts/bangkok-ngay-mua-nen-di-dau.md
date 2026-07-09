@@ -39,23 +39,16 @@ series_title: Du lịch Thái Lan mùa mưa
 slug: bangkok-ngay-mua-nen-di-dau
 tags:
   - Bangkok ngày mưa
-tags:
   - điểm indoor Bangkok
-tags:
   - Bangkok mùa mưa
-tags:
   - lịch trình Bangkok mưa
-tags:
   - BTS Bangkok
 thumbnail: images/posts/bangkok-ngay-mua-nen-di-dau.webp
 title: Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour
 tom_tat_nhanh:
   - {"label": "Khu vực", "value": "Siam, Sukhumvit, Silom, Rattanakosin"}
-tom_tat_nhanh:
   - {"label": "Phù hợp", "value": "Mọi đối tượng"}
-tom_tat_nhanh:
   - {"label": "Chi phí", "value": "0–500 THB / điểm"}
-tom_tat_nhanh:
   - {"label": "Di chuyển", "value": "BTS + MRT"}
 seo_title: Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ,
 ---

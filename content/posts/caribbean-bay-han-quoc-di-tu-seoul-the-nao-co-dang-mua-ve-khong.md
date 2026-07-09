@@ -18,9 +18,7 @@ description: >-
 draft: false
 faq:
   - {"answer": "40 phút từ Seoul. Đi xe bus Everland từ ga Gangnam hoặc xe buýt từ ga Suwon.", "question": "Caribbean Bay cách Seoul bao xa?"}
-faq:
   - {"answer": "50.000–60.000 KRW người lớn. Vé online rẻ hơn 10–20%.", "question": "Vé Caribbean Bay bao nhiêu tiền?"}
-faq:
   - {"answer": "Nên. Đi thứ 3–5 ít đông nhất. Cuối tuần rất đông, phải xếp hàng lâu.", "question": "Có nên đi ngày thường không?"}
 image: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
 image_attribution_checked_at: >-
@@ -41,23 +39,14 @@ image_source_url: >-
   https://www.pexels.com/photo/thrill-ride-fun-at-amusement-park-38331866/
 internal_links:
   - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
-internal_links:
   - {"ref": "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md", "title": "Ocean World vs Caribbean Bay"}
-internal_links:
   - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng"}
-internal_links:
   - {"ref": "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md", "title": "Hàn Quốc tháng 8 nên đi đâu?"}
-internal_links:
   - {"ref": "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md", "title": "Hàn Quốc tháng 7"}
-internal_links:
   - {"ref": "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md", "title": "Top 20 hoạt động du lịch Hàn Quốc"}
-internal_links:
   - {"ref": "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md", "title": "Checklist vali"}
-internal_links:
   - {"ref": "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md", "title": "Mặc gì mùa hè"}
-internal_links:
   - {"ref": "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md", "title": "Lịch trình Seoul 3 ngày"}
-internal_links:
   - {"ref": "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md", "title": "Đi chơi gần Seoul"}
 series: du-lich-han-quoc-mua-he
 series_order: 9
@@ -65,26 +54,18 @@ series_title: Du lịch Hàn Quốc mùa hè
 slug: caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong
 tags:
   - Caribbean Bay
-tags:
   - Everland
-tags:
   - công viên nước Hàn Quốc
-tags:
   - Seoul
-tags:
   - series du lịch
 thumbnail: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
 title: >-
   Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?
 tom_tat_nhanh:
   - {"label": "Vị trí", "value": "Yongin, 40 phút từ Seoul"}
-tom_tat_nhanh:
   - {"label": "Giá vé", "value": "50.000–60.000 KRW"}
-tom_tat_nhanh:
   - {"label": "Giờ mở", "value": "10:00–18:00 (mùa hè)"}
-tom_tat_nhanh:
   - {"label": "Phù hợp", "value": "Mọi lứa tuổi"}
-tom_tat_nhanh:
   - {"label": "Lưu ý", "value": "Đi ngày thường, mua vé online"}
 seo_title: >-
   Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé

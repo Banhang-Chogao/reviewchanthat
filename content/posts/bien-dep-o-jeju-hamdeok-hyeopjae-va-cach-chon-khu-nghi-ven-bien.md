@@ -18,9 +18,7 @@ description: >-
 draft: false
 external_links:
   - {"title": "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>", "url": "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"}
-external_links:
   - {"title": "https://www.visitjeju.net/>", "url": "https://www.visitjeju.net/>"}
-external_links:
   - {"title": "https://www.visitjeju.net/en/>", "url": "https://www.visitjeju.net/en/>"}
 image: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
 image_attribution_checked_at: >-
@@ -45,34 +43,22 @@ series_title: Du lịch Hàn Quốc 2026
 slug: bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien
 tags:
   - du lịch Hàn Quốc
-tags:
   - Hàn Quốc 2026
-tags:
   - Jeju
-tags:
   - biển Jeju
-tags:
   - Hamdeok
-tags:
   - Hyeopjae
-tags:
   - resort Jeju
-tags:
   - series du lịch
 thumbnail: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
 title: >-
   Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển
 tom_tat_nhanh:
   - {"label": "Khu vực", "value": "Hamdeok (đông Jeju), Hyeopjae (tây Jeju), Seogwipo (nam Jeju)"}
-tom_tat_nhanh:
   - {"label": "Loại trải nghiệm", "value": "Nghỉ dưỡng, tắm biển"}
-tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Gia đình (Hamdeok), cặp đôi (Hyeopjae), ai cũng được"}
-tom_tat_nhanh:
   - {"label": "Thời gian nên dành", "value": "Nửa ngày đến 1 ngày/bãi"}
-tom_tat_nhanh:
   - {"label": "Đi mùa nào hợp", "value": "Hè (tháng 6–8) tắm biển, xuân thu đi dạo"}
-tom_tat_nhanh:
   - {"label": "Có cần đặt trước không", "value": "Không (bãi biển), có (resort)"}
 seo_title: >-
   Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ

@@ -17,17 +17,12 @@ description: Caribbean Bay Yongin là công viên nước lớn nhất gần Seo
 draft: false
 external_links:
   - {"title": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX", "url": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"}
-external_links:
   - {"title": "https://en.wikipedia.org/wiki/Caribbean_Bay", "url": "https://en.wikipedia.org/wiki/Caribbean_Bay"}
-external_links:
   - {"title": "https://www.everland.com/web/caribbean/main.html", "url": "https://www.everland.com/web/caribbean/main.html"}
 faq:
   - {"answer": "Cực kỳ đông vào cuối tuần tháng 7–8. Một số đường trượt có thể chờ 40–60 phút. Đi ngày thường là lời khuyên số một.", "question": "Caribbean Bay có đông không?"}
-faq:
   - {"answer": "nên kiểm tra tình trạng vé trên website chính thức của điểm đến. Vào mùa cao điểm, vé tại quầy có thể hết.", "question": "Có cần mua vé trước không?"}
-faq:
   - {"answer": "Không giới hạn độ tuổi, nhưng trẻ dưới 37 tháng cần mặc tã bơi.", "question": "Trẻ em bao nhiêu tuổi được vào?"}
-faq:
   - {"answer": "Caribbean Bay là công viên nước, Everland là công viên giải trí với tàu lượn và thú. Hai khu có vé riêng nhưng nằm gần nhau.", "question": "Caribbean Bay khác Everland thế nào?"}
 image: images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp
 image_attribution_checked_at: >-
@@ -48,13 +43,9 @@ image_source_url: >-
   https://www.pexels.com/photo/a-man-in-a-conical-hat-riding-a-boat-7446376/
 internal_links:
   - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng ở Hàn Quốc mùa hè"}
-internal_links:
   - {"ref": "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md", "title": "Nami Island mùa hè: day trip gần Seoul"}
-internal_links:
   - {"ref": "posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md", "title": "Wolmido Incheon: biển, boardwalk cho gia đình"}
-internal_links:
   - {"ref": "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md", "title": "Shinhwa Theme Park Jeju: water slides cho gia đình"}
-internal_links:
   - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
 series: du-lich
 series_order: 11
@@ -62,30 +53,20 @@ series_title: Du lịch Hàn Quốc 2026
 slug: caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao
 tags:
   - du lịch Hàn Quốc
-tags:
   - Hàn Quốc mùa hè
-tags:
   - Caribbean Bay
-tags:
   - công viên nước
-tags:
   - Everland
-tags:
   - Yongin
-tags:
   - series du lịch
 thumbnail: images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp
 title: >-
   Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?
 tom_tat_nhanh:
   - {"label": "Khu vực", "value": "Yongin, Gyeonggi-do (50 km từ Seoul)"}
-tom_tat_nhanh:
   - {"label": "Loại trải nghiệm", "value": "Công viên nước, spa, giải trí"}
-tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Gia đình có trẻ em, nhóm bạn, cặp đôi"}
-tom_tat_nhanh:
   - {"label": "Thời gian nên dành", "value": "Cả ngày (6–8 giờ)"}
-tom_tat_nhanh:
   - {"label": "Lưu ý mùa hè", "value": "Rất đông tháng 7–8, nên mua vé online trước"}
 seo_title: >-
   Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi

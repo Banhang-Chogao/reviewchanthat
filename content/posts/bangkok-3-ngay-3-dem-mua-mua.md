@@ -40,24 +40,17 @@ series_title: Du lịch Thái Lan mùa mưa
 slug: bangkok-3-ngay-3-dem-mua-mua
 tags:
   - Bangkok 3 ngày 3 đêm
-tags:
   - lịch trình Bangkok mùa mưa
-tags:
   - Bangkok tự túc
-tags:
   - du lịch Bangkok tiết kiệm
-tags:
   - lần đầu đi Bangkok
 thumbnail: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
 title: >-
   Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu
 tom_tat_nhanh:
   - {"label": "Thời gian", "value": "3 ngày 3 đêm"}
-tom_tat_nhanh:
   - {"label": "Ngân sách", "value": "5–7 triệu VND"}
-tom_tat_nhanh:
   - {"label": "Phù hợp", "value": "Người đi lần đầu"}
-tom_tat_nhanh:
   - {"label": "Di chuyển", "value": "ARL + BTS"}
 seo_title: >-
   Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho

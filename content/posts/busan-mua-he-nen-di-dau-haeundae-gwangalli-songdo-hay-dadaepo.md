@@ -17,9 +17,7 @@ description: Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo
 draft: false
 faq:
   - {"answer": "Haeundae nếu thích sầm uất, Gwangalli nếu thích lãng mạn, Dadaepo nếu đi gia đình.", "question": "Bãi biển Busan nào đẹp nhất?"}
-faq:
   - {"answer": "Haeundae. Gần ga KTX Busan, metro tuyến 2, nhiều nhà hàng và khách sạn.", "question": "Bãi biển nào thuận tiện nhất?"}
-faq:
   - {"answer": "Songdo và Dadaepo. Songdo có cable car, Dadaepo có bãi tắm nông và công viên.", "question": "Bãi biển nào yên tĩnh nhất?"}
 image: images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp
 image_attribution_checked_at: >-
@@ -40,19 +38,12 @@ image_source_url: >-
   https://www.pexels.com/photo/vibrant-nighttime-skyline-of-busan-south-korea-29861385/
 internal_links:
   - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
-internal_links:
   - {"ref": "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md", "title": "Haeundae Beach Busan"}
-internal_links:
   - {"ref": "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md", "title": "Gwangalli Beach Busan"}
-internal_links:
   - {"ref": "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md", "title": "Haeundae vs Gwangalli"}
-internal_links:
   - {"ref": "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md", "title": "Cheongsapo Busan"}
-internal_links:
   - {"ref": "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md", "title": "Club D Oasis Busan"}
-internal_links:
   - {"ref": "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md", "title": "Hàn Quốc tháng 8 nên đi đâu?"}
-internal_links:
   - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng"}
 series: du-lich-han-quoc-mua-he
 series_order: 5
@@ -60,25 +51,17 @@ series_title: Du lịch Hàn Quốc mùa hè
 slug: busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo
 tags:
   - Busan
-tags:
   - biển Hàn Quốc
-tags:
   - du lịch Hàn Quốc
-tags:
   - Haeundae
-tags:
   - Gwangalli
-tags:
   - series du lịch
 thumbnail: images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp
 title: Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?
 tom_tat_nhanh:
   - {"label": "Thời gian", "value": "2–3 ngày"}
-tom_tat_nhanh:
   - {"label": "Bãi biển", "value": "4 bãi chính"}
-tom_tat_nhanh:
   - {"label": "Phù hợp", "value": "Mọi đối tượng"}
-tom_tat_nhanh:
   - {"label": "Di chuyển", "value": "Metro Busan"}
 seo_title: Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay
 ---

@@ -15,11 +15,8 @@ description: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 ho�
 draft: false
 external_links:
   - {"title": "MacRumors — iPhone 18 roundup", "url": "https://www.macrumors.com/roundup/iphone-18/"}
-external_links:
   - {"title": "MacRumors — iPhone 18 Pro roundup", "url": "https://www.macrumors.com/roundup/iphone-18-pro/"}
-external_links:
   - {"title": "AppleInsider — iPhone 18 expectations", "url": "https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more"}
-external_links:
   - {"title": "MacRumors — leaker downgrade iPhone 18 base", "url": "https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/"}
 image: images/posts/co-nen-cho-iphone-18-khong.webp
 image_alt: >-
@@ -42,28 +39,18 @@ image_source_url: >-
 image_status: verified
 inline_illustrations:
   - {"heading": "Bảng tóm tắt nhanh", "image": "images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp"}
-inline_illustrations:
   - {"heading": "Tin đã có nguồn / Tin còn là đồn đoán", "image": "images/posts/co-nen-cho-iphone-18-khong_tin-c-ngu-n-tin-c-n-l-n-o-n.webp"}
-inline_illustrations:
   - {"heading": "Phân tích theo từng đời máy", "image": "images/posts/co-nen-cho-iphone-18-khong_ph-n-t-ch-theo-t-ng-i-m-y.webp"}
-inline_illustrations:
   - {"heading": "Yếu tố ngoài đời máy — nên cân nhắc trước khi chờ", "image": "images/posts/co-nen-cho-iphone-18-khong_y-u-t-ngo-i-i-m-y-n-n-c-n-nh-c-tr-c-khi-ch.webp"}
-inline_illustrations:
   - {"heading": "Ai nên chờ / Ai không nên chờ", "image": "images/posts/co-nen-cho-iphone-18-khong_ai-n-n-ch-ai-kh-ng-n-n-ch.webp"}
-inline_illustrations:
   - {"heading": "Kết luận", "image": "images/posts/co-nen-cho-iphone-18-khong_k-t-lu-n.webp"}
 inline_image_count: 6
 inline_images:
   - images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp
-inline_images:
   - images/posts/co-nen-cho-iphone-18-khong_tin-c-ngu-n-tin-c-n-l-n-o-n.webp
-inline_images:
   - images/posts/co-nen-cho-iphone-18-khong_ph-n-t-ch-theo-t-ng-i-m-y.webp
-inline_images:
   - images/posts/co-nen-cho-iphone-18-khong_y-u-t-ngo-i-i-m-y-n-n-c-n-nh-c-tr-c-khi-ch.webp
-inline_images:
   - images/posts/co-nen-cho-iphone-18-khong_ai-n-n-ch-ai-kh-ng-n-n-ch.webp
-inline_images:
   - images/posts/co-nen-cho-iphone-18-khong_k-t-lu-n.webp
 series: iphone-18-co-gi-moi
 series_order: 4
@@ -71,23 +58,16 @@ series_title: iPhone 18 có gì mới
 slug: co-nen-cho-iphone-18-khong
 tags:
   - có nên chờ iPhone 18
-tags:
   - iPhone 15
-tags:
   - iPhone 16
-tags:
   - iPhone 17
-tags:
   - mua iPhone 2026
 thumbnail: images/posts/co-nen-cho-iphone-18-khong.webp
 title: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?
 tom_tat_nhanh:
   - {"label": "Chủ đề", "value": "Có nên chờ iPhone 18?"}
-tom_tat_nhanh:
   - {"label": "iPhone 17", "value": "Thường không cần chờ"}
-tom_tat_nhanh:
   - {"label": "iPhone 15/16", "value": "Cân nhắc theo nhu cầu & timeline đồn"}
-tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Người phân vân mua hay chờ 2026–2027"}
 ---
 

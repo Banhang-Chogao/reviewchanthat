@@ -36,24 +36,17 @@ series_title: macOS 27 có gì mới
 slug: chuan-bi-macbook-truoc-khi-len-macos-27
 tags:
   - macOS 27
-tags:
   - chuẩn bị Mac
-tags:
   - backup Mac
-tags:
   - Time Machine
-tags:
   - nâng cấp macOS
 thumbnail: images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp
 title: >-
   Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app
 tom_tat_nhanh:
   - {"label": "Chủ đề", "value": "Chuẩn bị trước khi lên macOS 27"}
-tom_tat_nhanh:
   - {"label": "Bắt buộc", "value": "Backup Time Machine hoặc clone"}
-tom_tat_nhanh:
   - {"label": "Dung lượng", "value": "Trống ít nhất 25–35GB cho beta"}
-tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Ai sắp cài beta hoặc public release"}
 seo_title: >-
   Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và

@@ -17,11 +17,8 @@ description: Busan tháng 11 nên đi đâu? Gợi ý biển mát, phố đêm, 
 draft: false
 external_links:
   - {"title": "Visit Korea — Fall Foliage Forecast", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"}
-external_links:
   - {"title": "Korea Meteorological Administration", "url": "https://www.kma.go.kr"}
-external_links:
   - {"title": "KoreaToDo — Top Autumn Foliage Sites", "url": "https://www.koreatodo.com/top-autumn-foliage-sites-korea"}
-external_links:
   - {"title": "Visit Busan", "url": "https://www.visitbusan.net"}
 image: images/posts/busan-thang-11-nen-di-dau.webp
 image_attribution_checked_at: >-
@@ -42,19 +39,12 @@ image_source_url: >-
   https://www.pexels.com/photo/pexels-photo-340138/
 internal_links:
   - {"ref": "posts/di-han-thang-11-co-dep-khong.md", "title": "Đi Hàn tháng 11 có đẹp không?"}
-internal_links:
   - {"ref": "posts/thoi-tiet-han-quoc-thang-11.md", "title": "Thời tiết và mùa lá đỏ tháng 11"}
-internal_links:
   - {"ref": "posts/seoul-thang-11-nen-di-dau.md", "title": "Seoul tháng 11 nên đi đâu?"}
-internal_links:
   - {"ref": "posts/jeju-thang-11-co-dep-khong.md", "title": "Jeju tháng 11 có đẹp không?"}
-internal_links:
   - {"ref": "posts/seoraksan-thang-11-ngam-la-do.md", "title": "Seoraksan tháng 11"}
-internal_links:
   - {"ref": "posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md", "title": "Lịch trình 5 ngày 4 đêm tháng 11"}
-internal_links:
   - {"ref": "posts/chi-phi-di-han-thang-11-tu-tuc.md", "title": "Chi phí đi Hàn tháng 11 tự túc"}
-internal_links:
   - {"ref": "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md", "title": "Busan mùa hè nên đi đâu?"}
 series: di-han-thang-11
 series_order: 8
@@ -62,25 +52,17 @@ series_title: Đi Hàn tháng 11
 slug: busan-thang-11-nen-di-dau
 tags:
   - Busan
-tags:
   - du lịch Hàn Quốc tháng 11
-tags:
   - biển Busan
-tags:
   - Haeundae
-tags:
   - series du lịch
 thumbnail: images/posts/busan-thang-11-nen-di-dau.webp
 title: Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ
 tom_tat_nhanh:
   - {"label": "Thời tiết", "value": "10–18°C, gió biển mạnh"}
-tom_tat_nhanh:
   - {"label": "Thời gian nên dành", "value": "2–3 ngày"}
-tom_tat_nhanh:
   - {"label": "Điểm chính", "value": "Haeundae, Gwangalli, Gamcheon"}
-tom_tat_nhanh:
   - {"label": "Phù hợp", "value": "Cặp đôi, nhóm bạn, gia đình"}
-tom_tat_nhanh:
   - {"label": "Lưu ý", "value": "Không phải điểm peak lá đỏ"}
 seo_title: Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình
 ---
