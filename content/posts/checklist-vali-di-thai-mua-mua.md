@@ -22,9 +22,7 @@ image_attribution_checked_at: >-
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: 
 image_creator_id: 2515433
-image_creator_url: 
 image_license: Pexels License
 image_license_url: >-
   https://www.pexels.com/license/
@@ -232,5 +230,9 @@ Trước khi khóa vali, hãy check nhanh:
 **💵 Tiền:** baht (đã đổi) + thẻ tín dụng + USD dự phòng
 
 Đừng quên bài {{< ref "posts/doi-baht-o-viet-nam-hay-thai-lan" >}} để biết tỷ giá tốt nhất trước khi đổi baht. Nếu bạn đi Phuket, xem {{< ref "posts/phuket-mua-mua-co-nen-di-khong" >}} để chọn lịch trình biển phù hợp thời tiết.
+
+Xem thêm: [Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu](/posts/bangkok-3-ngay-3-dem-mua-mua/)
+Xem thêm: [Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour](/posts/bangkok-ngay-mua-nen-di-dau/)
+
 
 Cuối cùng, hãy chuẩn bị tinh thần: mưa ở Thái Lan thường là mưa rào 15–30 phút, tạnh rồi nắng lại. Đừng để mưa làm hỏng chuyến đi — chỉ cần vali đúng, bạn sẽ luôn sẵn sàng.

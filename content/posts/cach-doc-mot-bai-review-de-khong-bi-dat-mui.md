@@ -2,74 +2,59 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook,
-    rồi vào Shopee đặt mua.
-  - Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
-  - 'Trước khi tin vào bất kỳ bài review nào, hãy tự hỏi: Người này được gì khi khen/spam
-    sản phẩm này?.'
-  - Hãy đọc ít nhất 3-5 bài từ các nguồn khác nhau.
-  title: Tóm tắt bài viết
+  items: ["Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua.", "Một tuần sau, bạn nhận hàng và thất vọng vì nó không như \"review\".", "Trước khi tin vào bất kỳ bài review nào, hãy tự hỏi: Người này được gì khi khen/spam sản phẩm này?.", "Hãy đọc ít nhất 3-5 bài từ các nguồn khác nhau."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Veritable Content. Nội dung mang tính tham khảo, vui lòng kiểm
-    chứng từ nhiều nguồn.
-  source_note: Bài viết dựa trên kinh nghiệm cá nhân và tham khảo từ các tổ chức bảo
-    vệ người tiêu dùng.
+  copyright: "© 2026 Veritable Content. Nội dung mang tính tham khảo, vui lòng kiểm chứng từ nhiều nguồn."
+  source_note: "Bài viết dựa trên kinh nghiệm cá nhân và tham khảo từ các tổ chức bảo vệ người tiêu dùng."
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- review
+  - review
 checklist:
-- Xác định động cơ người viết review
-- Đọc ít nhất 3-5 nguồn khác nhau
-- Tìm chi tiết cụ thể, không tin lời mơ hồ
-- Kiểm tra lịch sử tài khoản người viết
-- Đọc phần bình luận trước khi quyết định
+  - Xác định động cơ người viết review
+  - Đọc ít nhất 3-5 nguồn khác nhau
+  - Tìm chi tiết cụ thể, không tin lời mơ hồ
+  - Kiểm tra lịch sử tài khoản người viết
+  - Đọc phần bình luận trước khi quyết định
 date: 2026-06-15 10:00:00+07:00
-description: Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật,
-  đâu là quảng cáo trá hình.
+description: Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật, đâu là quảng cáo trá hình.
 draft: false
 external_links:
-- title: FTC - Endorsement Guides
-  url: https://www.ftc.gov/legal-library/browse/guides/endorsements
-- title: Consumer Reports - How to Spot Fake Reviews
-  url: https://www.consumerreports.org/money/fake-reviews-how-to-spot-them/
+  - {"title": "FTC - Endorsement Guides", "url": "https://www.ftc.gov/legal-library/browse/guides/endorsements"}
+  - {"title": "Consumer Reports - How to Spot Fake Reviews", "url": "https://www.consumerreports.org/money/fake-reviews-how-to-spot-them/"}
 faq:
-- answer: 'Kiểm tra động cơ người viết: họ có link affiliate không? Họ có được tài
-    trợ không? Nếu bài viết chỉ khen mà không chê, đó là dấu hiệu cần cảnh giác.'
-  question: Làm sao biết một review có phải quảng cáo trá hình không?
-- answer: Các trang review chuyên nghiệp có chính sách công bố xung đột lợi ích, hoặc
-    review từ người dùng thật trên các diễn đàn như Reddit, Tinhte, hoặc các nhóm
-    Facebook chất lượng.
-  question: Nên đọc review ở đâu để tin tưởng nhất?
+  - {"answer": "Kiểm tra động cơ người viết: họ có link affiliate không? Họ có được tài trợ không? Nếu bài viết chỉ khen mà không chê, đó là dấu hiệu cần cảnh giác.", "question": "Làm sao biết một review có phải quảng cáo trá hình không?"}
+  - {"answer": "Các trang review chuyên nghiệp có chính sách công bố xung đột lợi ích, hoặc review từ người dùng thật trên các diễn đàn như Reddit, Tinhte, hoặc các nhóm Facebook chất lượng.", "question": "Nên đọc review ở đâu để tin tưởng nhất?"}
 image: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
-image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:37:57+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Ron Lach
-image_creator_id: '22992178'
-image_creator_url: https://www.pexels.com/@ron-lach
+image_creator_id: 22992178
+image_creator_url: >-
+  https://www.pexels.com/@ron-lach
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/
+image_source_url: >-
+  https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/
 slug: cach-doc-mot-bai-review-de-khong-bi-dat-mui
 tags:
-- kỹ năng đọc review
-- tiêu dùng thông minh
+  - kỹ năng đọc review
+  - tiêu dùng thông minh
 thumbnail: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
 title: Cách đọc một bài review để không bị dắt mũi
 tom_tat_nhanh:
-- label: Chủ đề
-  value: Kỹ năng đọc review, phân biệt review thật và quảng cáo
-- label: Mục đích
-  value: Giúp người tiêu dùng không bị lừa khi đọc review
-- label: Hợp với
-  value: Người thường xuyên mua sắm online, người đọc review
-- label: Mẹo quan trọng
-  value: Kiểm tra động cơ người viết, đọc ít nhất 3–5 nguồn
+  - {"label": "Chủ đề", "value": "Kỹ năng đọc review, phân biệt review thật và quảng cáo"}
+  - {"label": "Mục đích", "value": "Giúp người tiêu dùng không bị lừa khi đọc review"}
+  - {"label": "Hợp với", "value": "Người thường xuyên mua sắm online, người đọc review"}
+  - {"label": "Mẹo quan trọng", "value": "Kiểm tra động cơ người viết, đọc ít nhất 3–5 nguồn"}
 ---
 
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
@@ -124,5 +109,9 @@ Khi đọc review hoặc bài tổng hợp, hãy đối chiếu **ngày đăng**
 **Thời tiết:** Mùa hè Hàn Quốc nóng ẩm; mùa đông lạnh và khô. Kiểm tra dự báo 3–5 ngày trước để điều chỉnh trang phục và lịch ngoài trời. Mưa rào ngắn vẫn có thể xảy ra — ô hoặc áo mưa gấp gọn nên nằm trong túi xách hàng ngày.
 
 **Đặt chỗ:** Nhà hàng nổi tiếng, spa và một số điểm tham quan nên đặt trước qua app hoặc hotline, nhất là cuối tuần. Khách sạn gần ga thường đắt hơn nhưng tiết kiệm thời gian — hợp nếu lịch trình dày.
+
+Xem thêm: [Checklist trước khi mua một sản phẩm online](/posts/checklist-truoc-khi-mua-mot-san-pham-online/)
+Xem thêm: [Review công nghệ: nên tin benchmark hay trải nghiệm thật?](/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that/)
+
 
 **An toàn và tiện ích:** Giữ hộ chiếu bản sao điện tử; mang ít tiền mặt nhưng vẫn cần won cho quán nhỏ. Ứng dụng dịch và bản đồ offline giúp ích khi sóng yếu trong hầm metro.

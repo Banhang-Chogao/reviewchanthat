@@ -114,4 +114,8 @@ Sáng đi dạo rừng thông gần Hyeopjae, tắm biển. Trưa ăn tại Hall
 
 ## Nên kết hợp với đâu?
 
+Xem thêm: [Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng](/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong/)
+Xem thêm: [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
+
+
 Hamdeok kết hợp tốt với [Seongsan Ilchulbong]({{< ref "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md" >}}) (cùng phía đông). Hyeopjae nên đi cùng công viên Hallim. Đừng bỏ qua [chợ Dongmun]({{< ref "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md" >}}) khi về Jeju City — đồ ăn ngon và rẻ hơn nhiều so với khu resort.

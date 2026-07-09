@@ -99,4 +99,8 @@ Nếu bạn có 3 ngày ở Seoul: ngày 1 đi Nami Island, ngày 2 Caribbean Ba
 
 5 ngày Jeju: ngày 1 check-in Jungmun resort, ngày 2 Udo, ngày 3 Jungmun Beach, ngày 4 Shinhwa, ngày 5 tham quan Jeju — về.
 
+Xem thêm: [Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?](/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong/)
+Xem thêm: [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+
+
 7 ngày mix Seoul-Busan-Jeju: 2 ngày Seoul (Nami + Wolmido), 2 ngày Busan (Haeundae, Gwangalli, Cheongsapo), 3 ngày Jeju (Udo, Jungmun, Shinhwa).

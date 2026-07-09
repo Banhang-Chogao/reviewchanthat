@@ -22,9 +22,7 @@ image_attribution_checked_at: >-
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: 
 image_creator_id: 2155962840
-image_creator_url: 
 image_license: Pexels License
 image_license_url: >-
   https://www.pexels.com/license/
@@ -177,5 +175,9 @@ Dùng app Windy hoặc AccuWeather. Nếu thấy dự báo mưa lớn cả ngày
 Đi Bangkok 3 ngày 3 đêm mùa mưa với ngân sách 5–7 triệu VND là hoàn toàn khả thi. Bạn không cần phải lo mưa sẽ hủy chuyến đi của mình — chỉ cần lên lịch thông minh, chọn chỗ ở gần BTS, và luôn có kế hoạch B là bạn sẽ có một chuyến đi trọn vẹn.
 
 Cụm từ khóa cho chuyến đi này là: **sáng ngoài trời, chiều indoor, massage cuối ngày.** Làm đúng ba điều này, bạn sẽ về nhà với cảm giác đã đi được rất nhiều mà không hề bị stress vì thời tiết.
+
+Xem thêm: [Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour](/posts/bangkok-ngay-mua-nen-di-dau/)
+Xem thêm: [Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm](/posts/checklist-vali-di-thai-mua-mua/)
+
 
 Đừng quên xem [Bangkok ngày mưa nên đi đâu]({{< ref "posts/bangkok-ngay-mua-nen-di-dau" >}}) để có thêm danh sách 20 điểm indoor chi tiết, và [Checklist vali đi Thái mùa mưa]({{< ref "posts/checklist-vali-di-thai-mua-mua" >}}) để chuẩn bị hành lý gọn nhẹ trước chuyến đi.

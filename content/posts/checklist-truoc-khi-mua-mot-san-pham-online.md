@@ -2,72 +2,58 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Mua sắm online tiện lợi, nhưng cũng đầy rủi ro.
-  - Dưới đây là checklist bạn nên in ra và kiểm tra trước mỗi lần mua hàng.
-  - Cơn sốt mua sắm thường qua đi sau một giấc ngủ.
-  - Đọc review từ người mua trước, ưu tiên review có ảnh thật.
-  title: Tóm tắt bài viết
+  items: ["Mua sắm online tiện lợi, nhưng cũng đầy rủi ro.", "Dưới đây là checklist bạn nên in ra và kiểm tra trước mỗi lần mua hàng.", "Cơn sốt mua sắm thường qua đi sau một giấc ngủ.", "Đọc review từ người mua trước, ưu tiên review có ảnh thật."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Veritable Content. Vui lòng ghi nguồn khi chia sẻ.
-  source_note: Checklist được xây dựng từ kinh nghiệm mua sắm online nhiều năm và
-    tham khảo các chính sách từ sàn thương mại điện tử Việt Nam.
+  copyright: "© 2026 Veritable Content. Vui lòng ghi nguồn khi chia sẻ."
+  source_note: "Checklist được xây dựng từ kinh nghiệm mua sắm online nhiều năm và tham khảo các chính sách từ sàn thương mại điện tử Việt Nam."
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- review
-- doi-song
+  - review
+  - doi-song
 date: 2026-06-20 14:00:00+07:00
-description: 6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tránh hối hận sau khi
-  nhận hàng.
+description: >-
+  6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tránh hối hận sau khi nhận hàng.
 draft: false
 external_links:
-- title: Bộ Công Thương - Bảo vệ người tiêu dùng
-  url: https://www.moit.gov.vn/
-- title: Shopee - Chính sách đổi trả
-  url: https://help.shopee.vn/portal/
-- title: Tiki - Chính sách bảo hành
-  url: https://tiki.vn/bao-hanh/
+  - {"title": "Bộ Công Thương - Bảo vệ người tiêu dùng", "url": "https://www.moit.gov.vn/"}
+  - {"title": "Shopee - Chính sách đổi trả", "url": "https://help.shopee.vn/portal/"}
+  - {"title": "Tiki - Chính sách bảo hành", "url": "https://tiki.vn/bao-hanh/"}
 faq:
-- answer: Có, nếu bạn mua từ shop uy tín, kiểm tra kỹ chính sách đổi trả, và thanh
-    toán qua các kênh bảo vệ người mua như Shopee Pay, ví điện tử.
-  question: Mua online có an toàn không?
-- answer: 'Tùy sản phẩm: Shopee đa dạng và giá cạnh tranh, Tiki uy tín về hàng chính
-    hãng và giao nhanh, Lazada phù hợp mua hàng quốc tế. Nên so sánh giá cả 3 sàn
-    trước khi mua.'
-  question: Nên mua trên sàn nào tốt nhất?
-- answer: Luôn kiểm tra shop (sao, số đơn, review có ảnh), đọc kỹ mô tả, chụp lại
-    màn hình đơn hàng, và ưu tiên thanh toán khi nhận hàng (COD) cho lần mua đầu.
-  question: Làm sao để không bị lừa khi mua online?
+  - {"answer": "Có, nếu bạn mua từ shop uy tín, kiểm tra kỹ chính sách đổi trả, và thanh toán qua các kênh bảo vệ người mua như Shopee Pay, ví điện tử.", "question": "Mua online có an toàn không?"}
+  - {"answer": "Tùy sản phẩm: Shopee đa dạng và giá cạnh tranh, Tiki uy tín về hàng chính hãng và giao nhanh, Lazada phù hợp mua hàng quốc tế. Nên so sánh giá cả 3 sàn trước khi mua.", "question": "Nên mua trên sàn nào tốt nhất?"}
+  - {"answer": "Luôn kiểm tra shop (sao, số đơn, review có ảnh), đọc kỹ mô tả, chụp lại màn hình đơn hàng, và ưu tiên thanh toán khi nhận hàng (COD) cho lần mua đầu.", "question": "Làm sao để không bị lừa khi mua online?"}
 image: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
-image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:37:58+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Tara Winstead
-image_creator_id: '2702888'
-image_creator_url: https://www.pexels.com/@tara-winstead
+image_creator_id: 2702888
+image_creator_url: >-
+  https://www.pexels.com/@tara-winstead
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/red-check-mark-in-a-box-8850721/
+image_source_url: >-
+  https://www.pexels.com/photo/red-check-mark-in-a-box-8850721/
 slug: checklist-truoc-khi-mua-mot-san-pham-online
 tags:
-- mua sắm online
-- checklist
-- tiêu dùng thông minh
+  - mua sắm online
+  - checklist
+  - tiêu dùng thông minh
 thumbnail: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
 title: Checklist trước khi mua một sản phẩm online
 tom_tat_nhanh:
-- label: Chủ đề
-  value: Checklist kiểm tra trước khi mua hàng online
-- label: Mục đích
-  value: Tránh mua phải hàng kém chất lượng, hối hận sau khi mua
-- label: Hợp với
-  value: Người thường xuyên mua sắm online, người muốn tiêu tiền thông minh
-- label: Điểm chính
-  value: Kiểm tra người bán, chính sách đổi trả, đọc kỹ mô tả sản phẩm
+  - {"label": "Chủ đề", "value": "Checklist kiểm tra trước khi mua hàng online"}
+  - {"label": "Mục đích", "value": "Tránh mua phải hàng kém chất lượng, hối hận sau khi mua"}
+  - {"label": "Hợp với", "value": "Người thường xuyên mua sắm online, người muốn tiêu tiền thông minh"}
+  - {"label": "Điểm chính", "value": "Kiểm tra người bán, chính sách đổi trả, đọc kỹ mô tả sản phẩm"}
 ---
 
 Mua sắm online tiện thật đấy, nhưng mua xong mới hối hận thì cũng nhiều. Mình từng mua không biết bao nhiêu thứ vì "giá rẻ quá không mua uổng" — kết quả là để xó hoặc đem bán lại.
@@ -109,5 +95,9 @@ Mất 5 phút kiểm tra 6 bước này có thể tiết kiệm cho bạn cả t
 **Quần áo mùa hè:** Vải cotton, lanh hoặc thoáng khí; mang thêm 1–2 bộ dự phòng vì mồ hôi và mưa rào. Áo chống nắng dài tay hữu ích khi đi biển hoặc công viên nước.
 
 **Đồ điện tử:** Adapter Hàn dùng ổ 2 chấu tròn (220V). Sạc dự phòng đủ cho cả ngày dài; cáp dự phòng tránh hỏng cáp chính giữa chuyến.
+
+Xem thêm: [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
+Xem thêm: [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/)
+
 
 **Thuốc và y tế:** Mang thuốc cá nhân đang dùng; thuốc cảm, men tiêu hóa, băng cá nhân cho trường hợp nhẹ. Bảo hiểm du lịch nên mua trước chuyến theo [khuyến nghị chung](https://english.visitkorea.or.kr/).
