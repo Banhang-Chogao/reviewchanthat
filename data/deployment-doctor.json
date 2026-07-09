@@ -1,25 +1,36 @@
 {
-  "generated_at": "2026-07-10T06:56:49+07:00",
-  "generated_at_display": "10-07-2026 06:56:49",
+  "generated_at": "2026-07-10T06:58:36+07:00",
+  "generated_at_display": "10-07-2026 06:58:36",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 23,
-    "safe_autofixes_available": 23,
+    "failed_runs_scanned": 24,
+    "safe_autofixes_available": 24,
     "unsafe_external_failures": 0,
-    "open_action_items": 8,
+    "open_action_items": 10,
     "loop_guarded_attempts": 38,
     "by_type": {
       "workflow_fanout": 18,
       "sitemap_noindex_mismatch": 3,
+      "content_direction_optimizer_fail": 1,
       "metadata_optimizer_fail": 1,
       "duplicate_yaml_keys": 1
     }
   },
   "recent_failures": [
+    {
+      "run_id": "29058670095",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "0e436ef",
+      "status": "failure",
+      "rootcause": "content_direction_optimizer_fail",
+      "safe_to_autofix": true,
+      "action": "Kiểm tra content/posts/ có file front matter lỗi",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058670095"
+    },
     {
       "run_id": "29058373553",
       "workflow": "Content Direction Optimizer (all-safe nightly)",
@@ -369,6 +380,12 @@
     "ux_layout": [],
     "other": [
       {
+        "failure_type": "content_direction_optimizer_fail",
+        "run_id": "29058670095",
+        "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
+        "safe_to_autofix": true
+      },
+      {
         "failure_type": "metadata_optimizer_fail",
         "run_id": "29058373553",
         "rootcause": "Metadata optimizer (seo_title hoặc description) gặp lỗi front matter.",
@@ -401,6 +418,20 @@
     ]
   },
   "action_items": [
+    {
+      "priority": "P0",
+      "owner": "system",
+      "failure_type": "content_direction_optimizer_fail",
+      "title": "Kiểm tra content/posts/ có file front matter lỗi",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P0",
+      "owner": "system",
+      "failure_type": "content_direction_optimizer_fail",
+      "title": "Chạy autobot_dup_remover trước",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
     {
       "priority": "P0",
       "owner": "system",
@@ -623,6 +654,12 @@
     }
   ],
   "autofix_history": [
+    {
+      "run_id": "29058670095",
+      "failure_type": "content_direction_optimizer_fail",
+      "result": "skipped",
+      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
+    },
     {
       "run_id": "29058373553",
       "failure_type": "metadata_optimizer_fail",
