@@ -19,14 +19,14 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'Địa điểm quay phim Hàn Quốc ở Seoul từ Vincenzo, Reborn Rich: Sewoon
-  Arcade, Common Ground, Baek In-je House. Lịch trình và mẹo check-in.'
+description: >-
+  Địa điểm quay phim Hàn Quốc ở Seoul từ Vincenzo, Reborn Rich: Sewoon Arcade, Common Ground, Baek In-je House. Lịch trình và mẹo check-in.'
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://english.visitseoul.net/>
-- title: https://english.visitkorea.or.kr/>
+- title: https://english.visitseoul.net/
+- title: https://english.visitkorea.or.kr/
 image: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
 image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
 image_attribution_source: pexels_api

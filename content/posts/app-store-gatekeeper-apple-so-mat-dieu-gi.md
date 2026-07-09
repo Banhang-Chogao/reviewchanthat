@@ -20,8 +20,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 09:40:00+07:00"
-description: 'Khi Apple là gatekeeper App Store và iOS theo DMA: Apple mất quyền kiểm
-  soát gì, giữ được gì — sau phán quyết Tòa EU 8/7/2026.'
+description: >-
+  Khi Apple là gatekeeper App Store và iOS theo DMA: Apple mất quyền kiểm soát gì, giữ được gì — sau phán quyết Tòa EU 8/7/2026.'
 draft: false
 external_links:
 - title: Tòa Tổng EU — Gatekeeper Apple App Store & iOS (8/7/2026)

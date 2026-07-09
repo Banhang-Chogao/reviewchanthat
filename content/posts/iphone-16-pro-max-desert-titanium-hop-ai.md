@@ -13,8 +13,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 09:20:00+07:00'
-description: 'Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu, phối phụ
-  kiện, so với Natural/Black và có nên chọn làm màu chính.'
+description: >-
+  Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu, phối phụ kiện, so với Natural/Black và có nên chọn làm màu chính.'
 draft: false
 image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp
 image_alt: 'Editorial illustration for: iPhone 16 Pro Max Desert Titanium hợp ai?'

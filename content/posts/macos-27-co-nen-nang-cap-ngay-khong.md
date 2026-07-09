@@ -16,8 +16,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 12:40:00+07:00"
-description: 'Checklist quyết định nâng cấp macOS Golden Gate 27: máy tương thích,
-  app công việc, backup, AI và thời điểm public release.'
+description: >-
+  Checklist quyết định nâng cấp macOS Golden Gate 27: máy tương thích, app công việc, backup, AI và thời điểm public release.'
 draft: false
 image: images/posts/macos-27-co-nen-nang-cap-ngay-khong.webp
 image_attribution_checked_at: '2026-07-09T15:38:03+07:00'

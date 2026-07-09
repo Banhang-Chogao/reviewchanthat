@@ -19,8 +19,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 09:50:00+07:00"
-description: 'Vivaldi Park Ski World Hongcheon: day trip trượt tuyết từ Seoul, giờ
-  hoạt động, giá vé, ski lesson, shuttle bus và những lưu ý thực tế cho người mới.'
+description: >-
+  Vivaldi Park Ski World Hongcheon: day trip trượt tuyết từ Seoul, giờ hoạt động, giá vé, ski lesson, shuttle bus và những lưu ý thực tế cho người mới.'
 draft: false
 faq:
 - answer: Được. Resort có shuttle bus từ Seoul (khu vực Hongdae, Myeongdong) và thời

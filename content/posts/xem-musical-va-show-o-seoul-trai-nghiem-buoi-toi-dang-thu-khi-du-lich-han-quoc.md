@@ -19,14 +19,14 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, giờ, chọn show
-  nào, cách đặt vé và kết hợp với lịch trình buổi tối.'
+description: >-
+  Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, giờ, chọn show nào, cách đặt vé và kết hợp với lịch trình buổi tối.'
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://english.visitseoul.net/>
-- title: https://english.visitkorea.or.kr/>
+- title: https://english.visitseoul.net/
+- title: https://english.visitkorea.or.kr/
 image: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
 image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
 image_attribution_source: pexels_api

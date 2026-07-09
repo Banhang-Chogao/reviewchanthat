@@ -19,16 +19,16 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'Chợ địa phương Hàn Quốc: Gwangjang, Namdaemun (Seoul), Jagalchi, Gukje
-  (Busan), Dongmun (Jeju). So sánh, gợi ý món ăn và lịch trình khám phá chợ.'
+description: >-
+  Chợ địa phương Hàn Quốc: Gwangjang, Namdaemun (Seoul), Jagalchi, Gukje (Busan), Dongmun (Jeju). So sánh, gợi ý món ăn và lịch trình khám phá chợ.'
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://english.visitseoul.net/>
-- title: https://www.visitbusan.net/>
-- title: https://www.visitjeju.net/>
-- title: https://english.visitkorea.or.kr/>
+- title: https://english.visitseoul.net/
+- title: https://www.visitbusan.net/
+- title: https://www.visitjeju.net/
+- title: https://english.visitkorea.or.kr/
 image: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
 image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
 image_attribution_source: pexels_api

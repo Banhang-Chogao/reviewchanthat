@@ -13,8 +13,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 13:00:00+07:00'
-description: 'Hướng dẫn kiểm tra pin iPhone 15 Pro Max khi mua máy cũ: Battery Health,
-  chu kỳ sạc, dấu hiệu chai và checklist kỹ thuật đầy đủ.'
+description: >-
+  Hướng dẫn kiểm tra pin iPhone 15 Pro Max khi mua máy cũ: Battery Health, chu kỳ sạc, dấu hiệu chai và checklist kỹ thuật đầy đủ.'
 draft: false
 image: images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp
 image_attribution_checked_at: '2026-07-09T15:38:04+07:00'

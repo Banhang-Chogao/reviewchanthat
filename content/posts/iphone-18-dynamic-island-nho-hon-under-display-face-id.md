@@ -17,9 +17,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 12:00:00+07:00'
-description: 'Tin đồn Dynamic Island nhỏ hơn và under-display Face ID trên iPhone
-  18 Pro: phân loại nguồn MacRumors, AppleInsider và hướng dẫn ai nên chờ thiết kế
-  màn hình mới.'
+description: >-
+  Tin đồn Dynamic Island nhỏ hơn và under-display Face ID trên iPhone 18 Pro: phân loại nguồn MacRumors, AppleInsider và hướng dẫn ai nên chờ thiết kế màn hình mới.'
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup

@@ -16,8 +16,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 11:00:00+07:00'
-description: 'Đánh giá tổng thể iPhone 15 Pro Max màu titan năm 2026: giá máy cũ,
-  bốn màu, khung titan, camera, pin và ai nên chọn thay vì iPhone 16 Pro Max.'
+description: >-
+  Đánh giá tổng thể iPhone 15 Pro Max màu titan năm 2026: giá máy cũ, bốn màu, khung titan, camera, pin và ai nên chọn thay vì iPhone 16 Pro Max.'
 draft: false
 image: images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp
 image_attribution_checked_at: '2026-07-09T15:38:01+07:00'

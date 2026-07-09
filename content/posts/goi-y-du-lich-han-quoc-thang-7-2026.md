@@ -24,8 +24,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-09 08:00:00+07:00"
-description: 'Gợi ý du lịch Hàn Quốc tháng 7 năm 2026 cho người đi tự túc: thời tiết,
-  nên đi Seoul, Busan hay Jeju, mặc gì, lịch trình gợi ý và lưu ý mùa mưa.'
+description: >-
+  Gợi ý du lịch Hàn Quốc tháng 7 năm 2026 cho người đi tự túc: thời tiết, nên đi Seoul, Busan hay Jeju, mặc gì, lịch trình gợi ý và lưu ý mùa mưa.'
 draft: false
 faq:
 - answer: Có. Tháng 7 nằm trong mùa mưa Changma, thường là tháng mưa nhiều nhất năm

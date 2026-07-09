@@ -22,9 +22,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: 'So sánh 6 ski resort Hàn Quốc: Vivaldi Park, Elysian Gangchon, Yongpyong,
-  Alpensia, High1 và Oak Valley. Bảng so sánh, gợi ý chọn theo nhu cầu, chi phí và
-  lưu ý thực tế cho người Việt.'
+description: >-
+  So sánh 6 ski resort Hàn Quốc: Vivaldi Park, Elysian Gangchon, Yongpyong, Alpensia, High1 và Oak Valley. Bảng so sánh, gợi ý chọn theo nhu cầu, chi phí và lưu ý thực tế cho người Việt.'
 draft: false
 faq:
 - answer: 'Tùy nhu cầu: Nếu đi trong ngày từ Seoul — Elysian Gangchon hoặc Vivaldi

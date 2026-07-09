@@ -13,8 +13,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 11:20:00+07:00'
-description: 'Natural Titanium trên iPhone 15 Pro Max: màu gốc, độ bền viền, so với
-  các màu khác và có đáng chọn khi mua máy cũ năm 2026.'
+description: >-
+  Natural Titanium trên iPhone 15 Pro Max: màu gốc, độ bền viền, so với các màu khác và có đáng chọn khi mua máy cũ năm 2026.'
 draft: false
 image: images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp
 image_alt: 'Ảnh minh họa iPhone 15 Pro Max Natural Titanium: đánh giá màu — nguồn

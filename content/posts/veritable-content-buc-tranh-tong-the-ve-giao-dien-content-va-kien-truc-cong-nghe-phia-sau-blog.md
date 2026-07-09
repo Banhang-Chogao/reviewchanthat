@@ -4,9 +4,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-07 09:00:00+07:00'
-description: 'Tường thuật quá trình tinh chỉnh Veritable Content: từ logo, header,
-  footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions
-  và triết lý text-first.'
+description: >-
+  Tường thuật quá trình tinh chỉnh Veritable Content: từ logo, header, footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions và triết lý text-first.'
 draft: false
 external_links:
 - title: Hugo Documentation

@@ -17,9 +17,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 10:40:00+07:00"
-description: 'DMA mang lại gì cho nhà phát triển app ở EU: phân phối thay thế, giảm
-  commission, anti-steering, analytics mở rộng — và chi phí CTF Apple đặt ra để cân
-  bằng.'
+description: >-
+  DMA mang lại gì cho nhà phát triển app ở EU: phân phối thay thế, giảm commission, anti-steering, analytics mở rộng — và chi phí CTF Apple đặt ra để cân bằng.'
 draft: false
 image: images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp
 image_attribution_checked_at: '2026-07-09T15:38:06+07:00'

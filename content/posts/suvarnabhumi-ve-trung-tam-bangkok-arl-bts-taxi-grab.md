@@ -22,9 +22,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: 'Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link,
-  BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa
-  mưa.'
+description: >-
+  Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link, BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa mưa.'
 draft: false
 image: images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp
 image_attribution_checked_at: '2026-07-09T10:43:33+07:00'

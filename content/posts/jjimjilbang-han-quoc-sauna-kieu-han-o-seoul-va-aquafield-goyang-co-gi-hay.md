@@ -20,15 +20,15 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang,
-  Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu.'
+description: >-
+  Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang, Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu.'
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>
-- title: https://english.visitseoul.net/>
-- title: https://www.aquafield.kr/>
+- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
+- title: https://english.visitseoul.net/
+- title: https://www.aquafield.kr/
 image: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
 image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata

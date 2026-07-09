@@ -17,9 +17,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 07:00:00+07:00'
-description: 'iPhone 18 khi nào ra mắt? Phân tích tin đồn split launch: Pro/Pro Max/Fold
-  tháng 9/2026, iPhone 18 base đầu 2027 — nguồn MacRumors, AppleInsider cho người
-  dùng Việt Nam.'
+description: >-
+  iPhone 18 khi nào ra mắt? Phân tích tin đồn split launch: Pro/Pro Max/Fold tháng 9/2026, iPhone 18 base đầu 2027 — nguồn MacRumors, AppleInsider cho người dùng Việt Nam.'
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 roundup

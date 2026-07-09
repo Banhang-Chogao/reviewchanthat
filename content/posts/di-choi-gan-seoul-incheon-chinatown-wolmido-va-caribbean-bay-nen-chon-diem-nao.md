@@ -19,16 +19,16 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'So sánh 5 điểm đi chơi gần Seoul: Incheon Chinatown, Songwol-dong Fairy
-  Tale Village, Wolmido, Gwangmyeong Cave, Caribbean Bay. Lịch trình day trip.'
+description: >-
+  So sánh 5 điểm đi chơi gần Seoul: Incheon Chinatown, Songwol-dong Fairy Tale Village, Wolmido, Gwangmyeong Cave, Caribbean Bay. Lịch trình day trip.'
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>
-- title: https://www.gmcave.or.kr/>
-- title: https://www.incheon.go.kr/>
-- title: https://www.everland.com/>
+- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
+- title: https://www.gmcave.or.kr/
+- title: https://www.incheon.go.kr/
+- title: https://www.everland.com/
 image: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
 image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
 image_attribution_source: pexels_api

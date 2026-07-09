@@ -18,9 +18,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm
-  biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue
-  Line Park.'
+description: >-
+  Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue Line Park.'
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX

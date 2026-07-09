@@ -23,22 +23,21 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, chợ địa phương,
-  musical, jjimjilbang, ngắm bình minh Jeju, K-beauty, day trip Suwon, Incheon và
-  Yongin. Kèm lịch trình mẫu 3-10 ngày.'
+description: >-
+  Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, chợ địa phương, musical, jjimjilbang, ngắm bình minh Jeju, K-beauty, day trip Suwon, Incheon và Yongin. Kèm lịch trình mẫu 3-10 ngày.'
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>
-- title: https://english.visitkorea.or.kr/>
-- title: https://english.visitseoul.net/>
-- title: https://www.visitbusan.net/>
-- title: https://www.visitjeju.net/>
-- title: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616>
-- title: https://whc.unesco.org/en/list/817/>
-- title: https://www.koreanfolkvillage.co.kr/>
-- title: https://www.gmcave.or.kr/>
+- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
+- title: https://english.visitkorea.or.kr/
+- title: https://english.visitseoul.net/
+- title: https://www.visitbusan.net/
+- title: https://www.visitjeju.net/
+- title: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616
+- title: https://whc.unesco.org/en/list/817/
+- title: https://www.koreanfolkvillage.co.kr/
+- title: https://www.gmcave.or.kr/
 faq:
 - answer: 'Tùy vào sở thích, nhưng top 3 hoạt động nên thử: thuê Hanbok tham quan
     cung điện Seoul, ăn chợ địa phương (Gwangjang, Jagalchi) và một buổi tối xem musical/jjimjilbang.

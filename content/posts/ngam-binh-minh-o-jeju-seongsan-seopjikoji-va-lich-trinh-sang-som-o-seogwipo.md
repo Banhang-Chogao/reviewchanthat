@@ -19,15 +19,15 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji
-  và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc.'
+description: >-
+  Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc.'
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://www.visitjeju.net/>
-- title: https://whc.unesco.org/en/list/1264/>
-- title: https://english.visitkorea.or.kr/>
+- title: https://www.visitjeju.net/
+- title: https://whc.unesco.org/en/list/1264/
+- title: https://english.visitkorea.or.kr/
 image: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
 image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
 image_attribution_source: pexels_api

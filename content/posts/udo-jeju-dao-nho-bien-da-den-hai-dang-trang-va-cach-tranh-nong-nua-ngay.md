@@ -18,8 +18,8 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'Kinh nghiệm đi Udo Jeju mùa hè: phà Seongsan 15 phút, thuê xe đạp vòng
-  quanh đảo, biển đá đen núi lửa, hải đăng Udobong và kem lạc Udo.'
+description: >-
+  Kinh nghiệm đi Udo Jeju mùa hè: phà Seongsan 15 phút, thuê xe đạp vòng quanh đảo, biển đá đen núi lửa, hải đăng Udobong và kem lạc Udo.'
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX

@@ -20,15 +20,15 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: 'Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok,
-  cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp.'
+description: >-
+  Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok, cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp.'
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616>
-- title: https://www.royalpalace.go.kr/>
-- title: https://english.visitseoul.net/>
+- title: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616
+- title: https://www.royalpalace.go.kr/
+- title: https://english.visitseoul.net/
 image: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
 image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
 image_attribution_source: pexels_api
