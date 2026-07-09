@@ -1,94 +1,18 @@
 {
-  "generated_at": "2026-07-10T00:20:44+07:00",
-  "generated_at_display": "10-07-2026 00:20:44",
-  "score_before": 81.3,
-  "score_after": 90.6,
-  "applied_count": 31,
-  "safe_count": 31,
+  "generated_at": "2026-07-10T03:42:04+07:00",
+  "generated_at_display": "10-07-2026 03:42:04",
+  "score_before": 82.3,
+  "score_after": 82.6,
+  "applied_count": 1,
+  "safe_count": 1,
   "review_skipped_count": 0,
   "unsafe_skipped_count": 0,
-  "changed_files_count": 32,
+  "changed_files_count": 2,
   "remaining_action_items": 7,
   "last_applied": [
     {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/apple-thua-kien-eu-app-store-ios-dma.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/bangkok-3-ngay-3-dem-mua-mua.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/bangkok-ngay-mua-nen-di-dau.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/busan-thang-10-nen-di-dau.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/busan-thang-11-nen-di-dau.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/camera-iphone-18-co-gi-moi.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/checklist-vali-di-thai-mua-mua.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/chi-phi-di-han-thang-10-tu-tuc.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/chi-phi-di-han-thang-11-tu-tuc.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/chiang-mai-mua-mua-co-gi-dep.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/chuan-bi-macbook-truoc-khi-len-macos-27.md"
-    },
-    {
-      "action": "add_seo_title",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+      "action": "build_internal_link_graph",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/data/internal-links.json"
     }
   ]
 }

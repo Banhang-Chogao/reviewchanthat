@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T03:53:59+07:00",
-  "generated_at_display": "10-07-2026 03:53:59",
+  "generated_at": "2026-07-10T03:42:02+07:00",
+  "generated_at_display": "10-07-2026 03:42:02",
   "summary": {
     "total_posts": 157,
     "draft_posts": 0,
@@ -2371,13 +2371,13 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1478,
-    "average_outbound_per_post": 9.41,
+    "total_outbound_links": 1460,
+    "average_outbound_per_post": 9.3,
     "top_linked_posts": [
       {
         "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
-        "inbound": 34
+        "inbound": 35
       },
       {
         "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
@@ -2390,9 +2390,9 @@
         "inbound": 24
       },
       {
-        "slug": "han-quoc-thang-10-co-la-do-chua",
-        "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
-        "inbound": 22
+        "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
+        "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
+        "inbound": 23
       },
       {
         "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
@@ -2400,8 +2400,8 @@
         "inbound": 21
       },
       {
-        "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
-        "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
+        "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
+        "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
         "inbound": 21
       },
       {
@@ -2410,9 +2410,9 @@
         "inbound": 20
       },
       {
-        "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
-        "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
-        "inbound": 19
+        "slug": "han-quoc-thang-10-co-la-do-chua",
+        "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
+        "inbound": 20
       },
       {
         "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
@@ -2420,9 +2420,9 @@
         "inbound": 19
       },
       {
-        "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
-        "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
-        "inbound": 19
+        "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
+        "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
+        "inbound": 18
       }
     ],
     "orphan_posts": [
