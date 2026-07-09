@@ -10,10 +10,8 @@ ai_summary:
   - Dịch vụ personal color analysis giúp xác định tông màu phù hợp với từng người.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
-    https: "//english.visitseoul.net/>, https://english.visitkorea.or.kr/>.'"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://english.visitkorea.or.kr/, https://english.visitseoul.net/."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
@@ -25,8 +23,10 @@ draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://english.visitseoul.net/
-- title: https://english.visitkorea.or.kr/
+- title: "https://english.visitseoul.net/"
+  url: "https://english.visitseoul.net/"
+- title: "https://english.visitkorea.or.kr/"
+  url: "https://english.visitkorea.or.kr/"
 image: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
 image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
 image_attribution_source: pexels_api
@@ -59,11 +59,16 @@ title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch tr
 tom_tat_nhanh:
 - label: Khu vực
   value: Myeongdong, Seongsu, Mapo (Seoul)
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Đi mùa nào hợp
-- label: Có cần đặt trước không
+- label: "Loại trải nghiệm"
+  value: ""
+- label: "Hợp với"
+  value: ""
+- label: "Thời gian nên dành"
+  value: ""
+- label: "Đi mùa nào hợp"
+  value: ""
+- label: "Có cần đặt trước không"
+  value: ""
 ---
 
 Seoul là kinh đô làm đẹp của châu Á, và mình dám chắc nếu bạn mê skincare hay makeup thì trải nghiệm K-beauty sẽ là một trong những khoản chi đáng đồng tiền nhất chuyến đi. Hoạt động này xếp hạng 10 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình, nó xứng đáng ở vị trí cao hơn nếu bạn thuộc tuýp người thích làm đẹp.

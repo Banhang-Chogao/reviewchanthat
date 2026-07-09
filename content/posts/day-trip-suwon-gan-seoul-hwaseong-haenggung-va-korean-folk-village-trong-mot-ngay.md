@@ -11,10 +11,8 @@ ai_summary:
     diễn truyền thống.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
-    https: "//whc.unesco.org/en/list/817/>, https://www.koreanfolkvillage.co.kr/>, https://www.suwon.go.kr/>.'"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://www.koreanfolkvillage.co.kr/, https://www.suwon.go.kr/, https://whc.unesco.org/en/list/817/."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
@@ -26,9 +24,12 @@ draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: https://whc.unesco.org/en/list/817/
-- title: https://www.koreanfolkvillage.co.kr/
-- title: https://www.suwon.go.kr/
+- title: "https://whc.unesco.org/en/list/817/"
+  url: "https://whc.unesco.org/en/list/817/"
+- title: "https://www.koreanfolkvillage.co.kr/"
+  url: "https://www.koreanfolkvillage.co.kr/"
+- title: "https://www.suwon.go.kr/"
+  url: "https://www.suwon.go.kr/"
 image: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
 image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
 image_attribution_source: pexels_api
@@ -61,11 +62,16 @@ title: 'Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village 
 tom_tat_nhanh:
 - label: Khu vực
   value: Suwon và Yongin, Gyeonggi-do (cách Seoul 30–50 phút tàu)
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Đi mùa nào hợp
-- label: Có cần đặt trước không
+- label: "Loại trải nghiệm"
+  value: ""
+- label: "Hợp với"
+  value: ""
+- label: "Thời gian nên dành"
+  value: ""
+- label: "Đi mùa nào hợp"
+  value: ""
+- label: "Có cần đặt trước không"
+  value: ""
 ---
 
 Nếu bạn chỉ có một ngày và muốn trải nghiệm văn hóa Hàn Quốc đúng nghĩa, Suwon là lựa chọn dễ nhất. Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), Suwon có ba điểm: Hwaseong Fortress (hạng 13), Hwaseong Haenggung (hạng 14) và Korean Folk Village (hạng 19).

@@ -14,23 +14,22 @@ ai_summary:
     thức trước khi đi.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https: "//www.koreatodo.com/seoraksan-national-park, https://www.koreatodo.com/top-autumn-foliage-sites-korea.'"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.koreatodo.com/seoraksan-national-park."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 12:00:00+07:00"
-description: Seoraksan tháng 10 có đáng đi không? Phân tích thời điểm lá đỏ, cách
-  di chuyển từ Seoul, chi phí tham khảo và lịch trình 1–2 ngày tại Sokcho.
+description: "Seoraksan tháng 10 có đáng đi không? Phân tích thời điểm lá đỏ, cách di chuyển từ Seoul, chi phí tham khảo và lịch trình 1–2 ngày tại Sokcho."
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
   url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
-- title: KoreaToDo — Seoraksan National Park
-- title: KoreaToDo — Top Autumn Foliage Sites
+- title: "KoreaToDo — Seoraksan National Park"
+  url: ""
+- title: "KoreaToDo — Top Autumn Foliage Sites"
+  url: ""
 image: images/posts/seoraksan-thang-10-ngam-la-do.webp
 image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
 image_attribution_source: pexels_api
@@ -66,10 +65,14 @@ title: 'Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất H
 tom_tat_nhanh:
 - label: Khu vực
   value: Sokcho, Gangwon-do
-- label: Thời gian di chuyển
-- label: Lá đỏ tháng 10
-- label: Phù hợp
-- label: Lưu ý
+- label: "Thời gian di chuyển"
+  value: ""
+- label: "Lá đỏ tháng 10"
+  value: ""
+- label: "Phù hợp"
+  value: ""
+- label: "Lưu ý"
+  value: ""
 ---
 
 Nhiều người hỏi Seoraksan có phải điểm ngắm lá đỏ nổi bật nhất ở Hàn Quốc hay không. Câu trả lời ngắn gọn: đây là **một trong những điểm nổi tiếng và được nhắc đến nhiều** khi nói về mùa thu — cùng với Jirisan, Naejangsan hay Bukhansan — chứ không có một địa điểm duy nhất phù hợp với mọi người. Theo [dự báo lá đỏ của Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), Seoraksan thường là một trong những nơi đổ màu sớm; tuy nhiên **ngày cụ thể thay đổi theo thời tiết từng năm**, nên bạn nên theo dõi cập nhật gần ngày đi.

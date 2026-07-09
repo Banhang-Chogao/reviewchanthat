@@ -13,10 +13,8 @@ ai_summary:
     đặt.'
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https: "//www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.koreatodo.com/top-autumn-foliage-sites-korea.'"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.koreatodo.com/gapyeong-day-trip-nami-island."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
@@ -28,8 +26,10 @@ draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
   url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
-- title: KoreaToDo — Gapyeong Day Trip Nami Island
-- title: KoreaToDo — Top Autumn Foliage Sites
+- title: "KoreaToDo — Gapyeong Day Trip Nami Island"
+  url: ""
+- title: "KoreaToDo — Top Autumn Foliage Sites"
+  url: ""
 image: images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp
 image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
 image_attribution_source: pexels_api
@@ -66,10 +66,14 @@ title: 'Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ v
 tom_tat_nhanh:
 - label: Thời gian
   value: 5 ngày 4 đêm
-- label: Trọng tâm
-- label: Di chuyển
-- label: Phù hợp
-- label: Lưu ý
+- label: "Trọng tâm"
+  value: ""
+- label: "Di chuyển"
+  value: ""
+- label: "Phù hợp"
+  value: ""
+- label: "Lưu ý"
+  value: ""
 ---
 
 Năm ngày bốn đêm là khung thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để trải nghiệm **peak lá đỏ ở Seoul**, đi một day trip ra ngoại ô và dành thời gian cho cung điện, công viên. Khác với tháng 10, tháng 11 **Seoul thường đẹp hơn về foliage** nhưng **lạnh hơn rõ**; Nami và Seoraksan **đổ màu sớm hơn** nên cần xếp lịch khác.

@@ -2,56 +2,66 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: '["Lịch trình 3 ngày 3 đêm được thiết kế tối ưu cho người đi lần đầu: ngày 1 khám phá Siam, ngày 2 văn hóa và chợ, ngày 3 chợ nổi kết hợp massage và về.", "Mỗi ngày đều có backup plan cho mưa — buổi sáng dành cho ngoài trời, buổi chiều cho indoor, luôn có BTS/skywalk làm phương án di chuyển thay thế.", "Ngân sách 5–7 triệu VND gồm vé máy bay, khách sạn 3 đêm, ăn uống, di chuyển và tham quan — phù hợp với người đi tự túc tiết kiệm.", "Di chuyển chính là Airport Rail Link + BTS Skytrain, giúp né mưa và kẹt xe mà không phát sinh chi phí ngoài dự kiến."]'
-  title: "Tóm tắt bài viết"
+  items:
+  - 'Lịch trình 3 ngày 3 đêm được thiết kế tối ưu cho người đi lần đầu: ngày 1 khám
+    phá Siam, ngày 2 văn hóa và chợ, ngày 3 chợ nổi kết hợp massage và về.'
+  - Mỗi ngày đều có backup plan cho mưa — buổi sáng dành cho ngoài trời, buổi chiều
+    cho indoor, luôn có BTS/skywalk làm phương án di chuyển thay thế.
+  - Ngân sách 5–7 triệu VND gồm vé máy bay, khách sạn 3 đêm, ăn uống, di chuyển và
+    tham quan — phù hợp với người đi tự túc tiết kiệm.
+  - Di chuyển chính là Airport Rail Link + BTS Skytrain, giúp né mưa và kẹt xe mà
+    không phát sinh chi phí ngoài dự kiến.
+  title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://sg.trip.com, https://www.tourismthailand.org, https://www.bangkokairportonline.com, https://www.bts.co.th."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://sg.trip.com, https://www.tourismthailand.org,
+    https://www.bangkokairportonline.com, https://www.bts.co.th.'
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: >-
-  Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu.
+- du-lich
+date: '2026-07-08 10:00:00+07:00'
+description: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu
+  — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu.'
 draft: false
 image: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
-image_attribution_checked_at: >-
-  2026-07-09T10:43:16+07:00
+image_attribution_checked_at: '2026-07-09T10:43:16+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: 
+image_creator: null
 image_creator_id: 2155962840
-image_creator_url: 
+image_creator_url: null
 image_license: Pexels License
-image_license_url: >-
+image_license_url: ''
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: >-
+image_source_url: ''
+seo_title: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho'
 series:
-  - du-lich-thai-lan-mua-mua
+- du-lich-thai-lan-mua-mua
 series_order: 4
 series_title: Du lịch Thái Lan mùa mưa
 slug: bangkok-3-ngay-3-dem-mua-mua
 tags:
-  - Bangkok 3 ngày 3 đêm
-  - lịch trình Bangkok mùa mưa
-  - Bangkok tự túc
-  - du lịch Bangkok tiết kiệm
-  - lần đầu đi Bangkok
+- Bangkok 3 ngày 3 đêm
+- lịch trình Bangkok mùa mưa
+- Bangkok tự túc
+- du lịch Bangkok tiết kiệm
+- lần đầu đi Bangkok
 thumbnail: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
-title: >-
-  Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu
+title: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu'
 tom_tat_nhanh:
-  - {"label": "Thời gian", "value": "3 ngày 3 đêm"}
-  - {"label": "Ngân sách", "value": "5–7 triệu VND"}
-  - {"label": "Phù hợp", "value": "Người đi lần đầu"}
-  - {"label": "Di chuyển", "value": "ARL + BTS"}
-seo_title: >-
-  Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho
+- label: Thời gian
+  value: 3 ngày 3 đêm
+- label: Ngân sách
+  value: 5–7 triệu VND
+- label: Phù hợp
+  value: Người đi lần đầu
+- label: Di chuyển
+  value: ARL + BTS
 ---
 
 Đi Bangkok lần đầu vào mùa mưa có thể hơi lo, nhưng thực ra đây là thời điểm lý tưởng để khám phá thành phố nếu bạn có một lịch trình hợp lý. Giá vé rẻ, khách sạn giảm, điểm tham quan vắng — và quan trọng nhất, Bangkok có đủ indoor attractions để bạn không bao giờ cảm thấy "mất cả ngày vì mưa".

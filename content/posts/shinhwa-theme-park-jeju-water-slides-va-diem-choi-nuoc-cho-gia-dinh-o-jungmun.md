@@ -10,25 +10,24 @@ ai_summary:
   - Kết hợp với Jungmun Beach, Udo trong hành trình Jeju mùa hè.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https: "//www.shinhwaworld.com/, https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771,"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX, https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771, https://www.shinhwaworld.com/."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: Shinhwa Theme Park Jeju thuộc tổ hợp Jeju Shinhwa World, có công viên
-  nước với water slides, wave pool, khu vui chơi Larva cho trẻ em. Hướng dẫn đi và
-  vé.
+description: "Shinhwa Theme Park Jeju thuộc tổ hợp Jeju Shinhwa World, có công viên nước với water slides, wave pool, khu vui chơi Larva cho trẻ em. Hướng dẫn đi và vé."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
-- title: https://www.shinhwaworld.com/
-- title: https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771
-- title: https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409
+- title: "https://www.shinhwaworld.com/"
+  url: "https://www.shinhwaworld.com/"
+- title: "https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771"
+  url: "https://www.visitjeju.net/en/detail/view?contentsid=CNTS_000000000022771"
+- title: "https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409"
+  url: "https://m.visitjeju.net/en/detail/view?contentsid=CNTS_200000000007409"
 faq:
 - answer: Vé theme park khoảng 40.000 KRW/người lớn (giá niêm yết). Vé water park
     tính riêng. Có thể mua vé online trước để được giảm giá.
@@ -74,10 +73,14 @@ title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia 
 tom_tat_nhanh:
 - label: Khu vực
   value: Andeok-myeon, Seogwipo, Jeju
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Lưu ý mùa hè
+- label: "Loại trải nghiệm"
+  value: ""
+- label: "Hợp với"
+  value: ""
+- label: "Thời gian nên dành"
+  value: ""
+- label: "Lưu ý mùa hè"
+  value: ""
 ---
 
 Shinhwa Theme Park nằm trong tổ hợp Jeju Shinhwa World — khu resort khổng lồ ở phía nam Jeju. Không chỉ có theme park với các trò cảm giác mạnh, mà còn có Shinhwa Water Park riêng. Một combo "khô + ướt" cho cả ngày.

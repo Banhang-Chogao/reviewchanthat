@@ -2,51 +2,58 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: '["Backup Time Machine hoặc clone SSD là bước bắt buộc trước macOS 27 beta hoặc public release ngày đầu.", "Giải phóng 25–35GB SSD; beta và index Spotlight AI cần không gian tạm lớn.", "Kiểm tra app công việc, plugin và license trên trang nhà phát triển trước khi nâng cấp.", "Lập kế hoạch rollback: biết cách khôi phục từ backup nếu beta làm máy không boot được."]'
-  title: "Tóm tắt bài viết"
+  items:
+  - Backup Time Machine hoặc clone SSD là bước bắt buộc trước macOS 27 beta hoặc public
+    release ngày đầu.
+  - Giải phóng 25–35GB SSD; beta và index Spotlight AI cần không gian tạm lớn.
+  - Kiểm tra app công việc, plugin và license trên trang nhà phát triển trước khi
+    nâng cấp.
+  - 'Lập kế hoạch rollback: biết cách khôi phục từ backup nếu beta làm máy không boot
+    được.'
+  title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - cong-nghe
-date: "2026-07-08 13:40:00+07:00"
-description: >-
-  Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time Machine, dọn SSD, kiểm tra app, RAM và kế hoạch rollback.
+- cong-nghe
+date: '2026-07-08 13:40:00+07:00'
+description: 'Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time Machine, dọn SSD,
+  kiểm tra app, RAM và kế hoạch rollback.'
 draft: false
 image: images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp
-image_attribution_checked_at: >-
-  2026-07-09T15:37:58+07:00
+image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Field Engineer
 image_creator_id: 147254
-image_creator_url: >-
+image_creator_url: ''
 image_license: Pexels License
-image_license_url: >-
+image_license_url: ''
 image_owner: external
 image_source: Pexels
-image_source_url: >-
+image_source_url: ''
+seo_title: 'Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và'
 series: macos-27-co-gi-moi
 series_order: 9
 series_title: macOS 27 có gì mới
 slug: chuan-bi-macbook-truoc-khi-len-macos-27
 tags:
-  - macOS 27
-  - chuẩn bị Mac
-  - backup Mac
-  - Time Machine
-  - nâng cấp macOS
+- macOS 27
+- chuẩn bị Mac
+- backup Mac
+- Time Machine
+- nâng cấp macOS
 thumbnail: images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp
-title: >-
-  Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app
+title: 'Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app'
 tom_tat_nhanh:
-  - {"label": "Chủ đề", "value": "Chuẩn bị trước khi lên macOS 27"}
-  - {"label": "Bắt buộc", "value": "Backup Time Machine hoặc clone"}
-  - {"label": "Dung lượng", "value": "Trống ít nhất 25–35GB cho beta"}
-  - {"label": "Hợp với", "value": "Ai sắp cài beta hoặc public release"}
-seo_title: >-
-  Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và
+- label: Chủ đề
+  value: Chuẩn bị trước khi lên macOS 27
+- label: Bắt buộc
+  value: Backup Time Machine hoặc clone
+- label: Dung lượng
+  value: Trống ít nhất 25–35GB cho beta
+- label: Hợp với
+  value: Ai sắp cài beta hoặc public release
 ---
 
 Nâng cấp macOS mà không backup giống **đi du lịch không mang ví** — may mắn thì không sao, xui thì mất vài ngày làm lại máy. Golden Gate 27 còn thêm indexing Spotlight AI và dung lượng beta lớn — chuẩn bị trước sẽ tiết kiệm giờ (và nước mắt).

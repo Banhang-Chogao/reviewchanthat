@@ -11,17 +11,14 @@ ai_summary:
   - Less crowded hơn các resort gần Seoul — thích hợp nếu muốn tránh đám đông.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Nguồn tham khảo: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=195526,
-    https: "//blog.trazy.com/guide-to-oak-valley-ski-resort/, https://oakvalley.co.kr/'"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=195526, https://oakvalley.co.kr/, https://blog.trazy.com/guide-to-oak-valley-ski-resort/."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 09:00:00+07:00"
-description: Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù
-  hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế.
+description: "Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế."
 draft: false
 faq:
 - answer: Cách Seoul khoảng 100 km, di chuyển khoảng 1,5–2 giờ. Có thể đi trong ngày
@@ -71,11 +68,16 @@ title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Won
 tom_tat_nhanh:
 - label: Khu vực
   value: Wonju, Gangwon-do (100 km từ Seoul)
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Đi mùa nào hợp
-- label: Có cần đặt trước không
+- label: "Loại trải nghiệm"
+  value: ""
+- label: "Hợp với"
+  value: ""
+- label: "Thời gian nên dành"
+  value: ""
+- label: "Đi mùa nào hợp"
+  value: ""
+- label: "Có cần đặt trước không"
+  value: ""
 ---
 
 Oak Valley là ski resort nhỏ nhất trong系列 bài này của mình, nhưng đôi khi nhỏ lại là cái hay. Nếu bạn đã đọc bài về [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}) và [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) mà thấy lo vì đông đúc, Oak Valley là phương án ngược lại hoàn toàn.

@@ -10,25 +10,24 @@ ai_summary:
     show và quán bar biển.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en,
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX, https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: Gwangalli Beach Busan nổi tiếng với view cầu Gwangan về đêm, quán cà
-  phê biển, drone light show, Millak Raw Fish Street. Hướng dẫn đi metro và lịch trình
-  tối.
+description: "Gwangalli Beach Busan nổi tiếng với view cầu Gwangan về đêm, quán cà phê biển, drone light show, Millak Raw Fish Street. Hướng dẫn đi metro và lịch trình tối."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
-- title: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en
-- title: https://www.busan.go.kr/eng/beaches/1326145
-- title: https://www.koreatodo.com/gwangalli-beach
+- title: "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en"
+  url: "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en"
+- title: "https://www.busan.go.kr/eng/beaches/1326145"
+  url: "https://www.busan.go.kr/eng/beaches/1326145"
+- title: "https://www.koreatodo.com/gwangalli-beach"
+  url: "https://www.koreatodo.com/gwangalli-beach"
 faq:
 - answer: Có, vào cửa bãi biển miễn phí. Chỉ trả tiền khi ăn uống, thuê đồ thể thao
     nước.
@@ -75,10 +74,14 @@ title: 'Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, h
 tom_tat_nhanh:
 - label: Khu vực
   value: Suyeong-gu, Busan
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Lưu ý mùa hè
+- label: "Loại trải nghiệm"
+  value: ""
+- label: "Hợp với"
+  value: ""
+- label: "Thời gian nên dành"
+  value: ""
+- label: "Lưu ý mùa hè"
+  value: ""
 ---
 
 Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm — khung cảnh bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.
