@@ -31,12 +31,18 @@ external_links:
   url: https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/
 image: images/posts/iphone-18-vs-iphone-17.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Osama Saad
+image_creator_url: "https://www.pexels.com/@osama-saad-257685"
+image_creator_id: 257685
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:12+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-788880/
+image_source_url: "https://www.pexels.com/photo/beautiful-flowers-bee-green-nature-788880/"
 series: iphone-18-co-gi-moi
 series_order: 10
 series_title: iPhone 18 có gì mới

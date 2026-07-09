@@ -24,8 +24,15 @@ image_license: Pexels License
 image_owner: external
 image_creator: ""
 image_creator_url: ""
+image_creator_id: ""
+image_attribution_verified: false
+image_attribution_source: not_found
+image_attribution_checked_at: "2026-07-09T10:43:29+07:00"
+image_attribution_error: pexels_api_miss id=9103211; source_page_no_creator; embedded_meta_no_creator
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/aerial-view-of-koh-samui-beach-9103211/
+image_source_url: "https://www.pexels.com/photo/aerial-view-of-koh-samui-beach-9103211/"
 slug: koh-samui-mua-he-so-voi-phuket
 tags:
 - Koh Samui mùa hè

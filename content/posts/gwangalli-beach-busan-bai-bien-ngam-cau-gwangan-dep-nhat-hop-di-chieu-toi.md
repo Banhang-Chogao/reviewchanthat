@@ -49,11 +49,17 @@ faq:
 image: images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp
 image_commercial_use: true
 image_creator: Dennis Park
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@redbookpro"
+image_creator_id: 212563133
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:25+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/white-suspension-bridge-over-the-sea-12163892/
+image_source_url: "https://www.pexels.com/photo/white-suspension-bridge-over-the-sea-12163892/"
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

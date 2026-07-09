@@ -22,12 +22,18 @@ description: 'So sánh iOS 27 và iOS 26: Siri AI, Liquid Glass, hiệu năng, A
 draft: false
 image: images/posts/ios-27-so-voi-ios-26.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Mikael Blomkvist
+image_creator_url: "https://www.pexels.com/@mikael-blomkvist"
+image_creator_id: 2416688
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:03+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-holding-black-iphone-6476589/
+image_source_url: "https://www.pexels.com/photo/person-holding-white-ipad-on-brown-wooden-table-6476589/"
 series: ios-27-co-gi-moi
 series_order: 9
 series_title: iOS 27 có gì mới

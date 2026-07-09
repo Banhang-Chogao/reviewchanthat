@@ -506,18 +506,43 @@ class ComplianceChecker:
                     f"image_source={meta.get('image_source')} but URL host is {host}",
                 )
 
-    def _verified_creator(self, slug: str, creator: str) -> bool:
+    def _verified_creator(self, slug: str, creator: str, meta: dict | None = None) -> bool:
         creator_norm = normalized(creator)
         if not creator_norm or is_blocked_creator(creator):
             return False
+        # Explicit resolver flag is authoritative when true
+        if meta is not None and meta.get("image_attribution_verified") is True:
+            return True
         entry = self.manifest_by_slug.get(slug) or self.cache_by_slug.get(slug)
         if not entry:
             return False
+        if entry.get("attribution_verified") is True and normalized(entry.get("creator")) == creator_norm:
+            return True
         expected = normalized(entry.get("creator"))
-        return bool(expected) and creator_norm == expected
+        return bool(expected) and creator_norm == expected and bool(entry.get("attribution_verified"))
 
     def check_image_creator(self, rel: str, meta: dict, slug: str, fname: str) -> None:
         creator = clean_text(meta.get("image_creator"))
+        verified_flag = meta.get("image_attribution_verified")
+
+        # Hard rule: any creator value requires image_attribution_verified == true
+        if creator and verified_flag is not True:
+            self.add_issue(
+                "ERROR",
+                "CREATOR_WITHOUT_VERIFIED_FLAG",
+                rel,
+                f"image_creator={creator!r} but image_attribution_verified={verified_flag!r}",
+                "Run scripts/image_author_resolver.py --write or clear image_creator",
+            )
+
+        if verified_flag is True and not creator:
+            self.add_issue(
+                "ERROR",
+                "VERIFIED_WITHOUT_CREATOR",
+                rel,
+                "image_attribution_verified is true but image_creator is empty",
+            )
+
         if not creator:
             return
         creator_norm = normalized(creator)
@@ -527,7 +552,7 @@ class ComplianceChecker:
                 "FAKE_IMAGE_CREATOR",
                 rel,
                 f"Blocked creator value: {creator}",
-                "Set image_creator to empty unless verified by manifest/cache",
+                "Set image_creator to empty unless verified by provider API metadata",
             )
             return
 
@@ -540,13 +565,13 @@ class ComplianceChecker:
         if creator_norm in {v for v in generated if v}:
             self.add_issue("ERROR", "GENERATED_IMAGE_CREATOR", rel, f"Creator appears derived from title/slug/file: {creator}")
 
-        if not self._verified_creator(slug, creator):
+        if not self._verified_creator(slug, creator, meta):
             self.add_issue(
                 "ERROR",
                 "UNVERIFIED_IMAGE_CREATOR",
                 rel,
-                "image_creator is not verified by images.json or image-source-cache.json",
-                "Set image_creator to empty or verify from provider metadata",
+                "image_creator is not verified by resolver/manifest/cache",
+                "Set image_creator to empty or run image_author_resolver.py --write",
             )
 
     def check_ai_summary(self, rel: str, meta: dict) -> None:

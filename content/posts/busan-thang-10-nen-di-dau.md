@@ -34,12 +34,18 @@ external_links:
   url: https://www.visitbusan.net
 image: images/posts/busan-thang-10-nen-di-dau.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Светлана Конева
+image_creator_url: "https://www.pexels.com/@269097219"
+image_creator_id: 269097219
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:46:51+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787322/
+image_source_url: "https://www.pexels.com/photo/12787322/"
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
   title: Đi Hàn tháng 10 có đẹp không?

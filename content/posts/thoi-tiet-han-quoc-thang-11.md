@@ -44,12 +44,18 @@ faq:
   question: Tháng 11 đi Hàn nên mang gì?
 image: images/posts/thoi-tiet-han-quoc-thang-11.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Quang Nguyen Vinh
+image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_creator_id: 222549
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:26+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-2131624/
+image_source_url: "https://www.pexels.com/photo/2131624/"
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
   title: Đi Hàn tháng 11 có đẹp không?

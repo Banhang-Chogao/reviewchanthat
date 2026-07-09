@@ -18,12 +18,18 @@ description: 'So sánh Black Titanium và White Titanium trên iPhone 15 Pro Max
 draft: false
 image: images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Imad Clicks
+image_creator_url: "https://www.pexels.com/@imadclicks"
+image_creator_id: 2304239
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:04+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/elegant-smartphone-beside-potted-plants-on-desk-30466740/
+image_source_url: "https://www.pexels.com/photo/elegant-smartphone-beside-potted-plants-on-desk-30466740/"
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 4
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'

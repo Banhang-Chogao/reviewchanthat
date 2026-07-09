@@ -21,12 +21,18 @@ description: 'Checklist quyết định nâng cấp macOS Golden Gate 27: máy t
 draft: false
 image: images/posts/macos-27-co-nen-nang-cap-ngay-khong.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Daniil Komov
+image_creator_url: "https://www.pexels.com/@dkomov"
+image_creator_id: 133960344
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:18+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/modern-workspace-with-coding-laptop-and-coffee-34803979/
+image_source_url: "https://www.pexels.com/photo/modern-workspace-with-coding-laptop-and-coffee-34803979/"
 series: macos-27-co-gi-moi
 series_order: 6
 series_title: macOS 27 có gì mới

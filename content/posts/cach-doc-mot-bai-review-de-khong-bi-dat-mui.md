@@ -45,11 +45,17 @@ faq:
 image: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
 image_commercial_use: true
 image_creator: Ron Lach
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@ron-lach"
+image_creator_id: 22992178
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:17+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/
+image_source_url: "https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/"
 slug: cach-doc-mot-bai-review-de-khong-bi-dat-mui
 tags:
 - kỹ năng đọc review

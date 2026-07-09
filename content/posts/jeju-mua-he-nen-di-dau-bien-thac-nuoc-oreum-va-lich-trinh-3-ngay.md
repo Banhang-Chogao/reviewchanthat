@@ -33,11 +33,17 @@ faq:
 image: images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp
 image_commercial_use: true
 image_creator: SOO CHUL PARK
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@voltfather"
+image_creator_id: 695483041
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:27+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/traditional-huts-in-village-18023250/
+image_source_url: "https://www.pexels.com/photo/traditional-huts-in-village-18023250/"
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

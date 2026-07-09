@@ -52,11 +52,17 @@ faq:
 image: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
 image_commercial_use: true
 image_creator: Ivan Babydov
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@babydov"
+image_creator_id: 54154657
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:37+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/apple-logo-on-purple-background-7789851/
+image_source_url: "https://www.pexels.com/photo/apple-logo-on-purple-background-7789851/"
 internal_links:
 - ref: posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md
   title: 'WWDC26: Phân tích tính năng iOS 27 và macOS 27 trước và tại sự kiện'

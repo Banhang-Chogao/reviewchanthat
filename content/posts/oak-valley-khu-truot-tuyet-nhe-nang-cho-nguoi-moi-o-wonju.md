@@ -42,11 +42,17 @@ faq:
 image: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
 image_commercial_use: true
 image_creator: pipop kunachon
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@daddysky"
+image_creator_id: 1327332
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:31+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/photo-of-people-skiing-on-a-slope-20900182/
+image_source_url: "https://www.pexels.com/photo/photo-of-people-skiing-on-a-slope-20900182/"
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
   title: Top địa điểm trượt tuyết ở Hàn Quốc mùa đông

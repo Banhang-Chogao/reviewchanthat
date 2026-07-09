@@ -10,18 +10,7 @@
   {{- if eq $mode "hero" -}}
   <div class="post-featured-image">
     <img src="{{ $image | relURL }}" alt="{{ $alt }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
-    {{ $imageCreator := $page.Params.image_creator | default "" | strings.TrimSpace }}
-    {{ with $page.Params.image_source }}
-    <div class="post-image-attribution">
-      Nguồn ảnh:
-      {{ if $page.Params.image_source_url }}
-      <a href="{{ $page.Params.image_source_url }}" target="_blank" rel="noopener">{{ . }}</a>
-      {{ else }}
-      {{ . }}
-      {{ end }}
-      {{ with $imageCreator }} / {{ . }}{{ end }}
-    </div>
-    {{ end }}
+    {{ partial "image-credit.html" $page }}
   </div>
   {{- else if eq $mode "thumb" -}}
   {{- $thumb := $page.Params.thumbnail | default $image -}}

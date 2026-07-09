@@ -19,12 +19,18 @@ description: 'Có nên mua iPhone 16 Pro Max năm 2026: giá, thời điểm iPh
 draft: false
 image: images/posts/iphone-16-pro-max-nam-2026-nen-mua-khong.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Sóc Năng Động
+image_creator_url: "https://www.pexels.com/@soc-nang-d-ng-2150345854"
+image_creator_id: 2150345854
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:08+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/man-using-smartphone-at-outdoor-cafe-table-33369112/
+image_source_url: "https://www.pexels.com/photo/man-using-smartphone-at-outdoor-cafe-table-33369112/"
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 8
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'

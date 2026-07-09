@@ -21,12 +21,19 @@ description: 'Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera,
 draft: false
 image: images/posts/ios-27-camera-anh-video-iphone.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: ""
+image_creator_url: ""
+image_creator_id: ""
+image_attribution_verified: false
+image_attribution_source: not_found
+image_attribution_checked_at: "2026-07-09T10:47:01+07:00"
+image_attribution_error: pexels_api_miss id=6; source_page_no_creator; embedded_meta_no_creator
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/iphone-6-on-macbook-pro-404139/
+image_source_url: "https://www.pexels.com/photo/iphone-6-on-macbook-pro-404139/"
 series: ios-27-co-gi-moi
 series_order: 5
 series_title: iOS 27 có gì mới

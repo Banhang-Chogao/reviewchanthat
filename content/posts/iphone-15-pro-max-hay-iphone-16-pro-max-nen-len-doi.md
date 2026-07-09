@@ -19,12 +19,19 @@ description: 'So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn h�
 draft: false
 image: images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: ""
+image_creator_url: ""
+image_creator_id: ""
+image_attribution_verified: false
+image_attribution_source: not_found
+image_attribution_checked_at: "2026-07-09T10:47:07+07:00"
+image_attribution_error: pexels_api_miss id=2024; source_page_no_creator; embedded_meta_no_creator
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/sylt-2024-27195697/
+image_source_url: "https://www.pexels.com/photo/sylt-2024-27195697/"
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 8
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'

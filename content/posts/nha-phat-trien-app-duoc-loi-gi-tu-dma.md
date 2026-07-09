@@ -23,12 +23,18 @@ description: 'DMA mang lại gì cho nhà phát triển app ở EU: phân phối
 draft: false
 image: images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Mikael Blomkvist
+image_creator_url: "https://www.pexels.com/@mikael-blomkvist"
+image_creator_id: 2416688
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:20+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-using-macbook-pro-6476589/
+image_source_url: "https://www.pexels.com/photo/person-holding-white-ipad-on-brown-wooden-table-6476589/"
 series: apple-ec-dma-app-store-ios
 series_order: 6
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'

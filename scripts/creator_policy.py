@@ -11,15 +11,18 @@ import os
 from typing import Any
 
 BLOCKED_CREATOR_NAMES = frozenset({
-    "pexels", "pixabay", "unsplash", "freepik",
-    "park bogum", "park bo-gum", "bae suzy", "iu", "yoo jaesuk", "choi wooshik",
-    "lee minho", "lee min ho", "kim soo hyun", "song hye kyo",
-    "anonymous", "admin", "review chân thật", "review chan that",
+    "pexels", "pixabay", "unsplash", "freepik", "wikimedia", "wikimedia commons",
+    "commons", "getty", "shutterstock", "stock", "stock photo",
+    "park bogum", "park bo-gum", "park bo gum", "bae suzy", "iu", "yoo jaesuk",
+    "choi wooshik", "lee minho", "lee min ho", "kim soo hyun", "song hye kyo",
+    "anonymous", "unknown", "photographer", "creator", "author", "admin", "ai",
+    "generated", "placeholder", "n/a", "na", "none", "null", "undefined",
+    "review chân thật", "review chan that",
 })
 
 BLOCKED_CREATOR_PHRASES = frozenset({
     "unknown photographer", "photographer unknown", "unknown creator",
-    "creator unknown", "placeholder",
+    "creator unknown", "placeholder", "stock image",
 })
 
 
@@ -52,12 +55,18 @@ def sanitize_creator_pair(creator: Any, creator_url: Any = "") -> tuple[str, str
     return creator, creator_url
 
 
-def attribution_text(platform: Any, creator: Any, prefix: str = "Source:") -> str:
+def attribution_text(
+    platform: Any,
+    creator: Any,
+    prefix: str = "Source:",
+    verified: bool = False,
+) -> str:
+    """Watermark/credit text. Include creator only when verified."""
     platform = clean_text(platform)
     creator = clean_text(creator)
     if not platform:
         return ""
-    if creator:
+    if creator and verified and not is_blocked_creator(creator):
         return f"{prefix} {platform} / {creator}"
     return f"{prefix} {platform}"
 
@@ -71,9 +80,35 @@ def sanitize_manifest_entry(entry: dict[str, Any]) -> bool:
         entry.get("creator"),
         entry.get("creator_url"),
     )
-    entry["creator"] = creator
-    entry["creator_url"] = creator_url
-    entry["watermark_text"] = attribution_text(entry.get("source_platform"), creator)
+    verified = bool(entry.get("attribution_verified") or entry.get("image_attribution_verified"))
+    # Provider API candidates with a real name are considered verified
+    if creator and not verified and (
+        entry.get("raw_provider")
+        or entry.get("photo_id")
+        or entry.get("provider_used")
+        or entry.get("attribution_source", "").endswith("_api")
+    ):
+        verified = True
+        entry["attribution_source"] = entry.get("attribution_source") or (
+            f"{clean_text(entry.get('source_platform')).lower()}_api"
+            if entry.get("source_platform")
+            else "provider_api"
+        )
+    if creator and verified:
+        entry["creator"] = creator
+        entry["creator_url"] = creator_url
+        entry["attribution_verified"] = True
+    else:
+        entry["creator"] = ""
+        entry["creator_url"] = ""
+        entry["attribution_verified"] = False
+        if not entry.get("attribution_source"):
+            entry["attribution_source"] = "not_found"
+    entry["watermark_text"] = attribution_text(
+        entry.get("source_platform"),
+        entry.get("creator"),
+        verified=bool(entry.get("attribution_verified")),
+    )
     after = json.dumps(entry, ensure_ascii=False, sort_keys=True)
     return before != after
 
@@ -86,6 +121,15 @@ def sanitize_candidate(candidate: dict[str, Any]) -> dict[str, Any]:
     )
     candidate["creator"] = creator
     candidate["creator_url"] = creator_url
+    # API-sourced candidate with real name is provisionally verified from provider
+    if creator:
+        candidate["attribution_verified"] = True
+        if not candidate.get("attribution_source"):
+            platform = clean_text(candidate.get("source_platform")).lower()
+            candidate["attribution_source"] = f"{platform}_api" if platform else "provider_api"
+    else:
+        candidate["attribution_verified"] = False
+        candidate["attribution_source"] = candidate.get("attribution_source") or "not_found"
     return candidate
 
 

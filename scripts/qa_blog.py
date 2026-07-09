@@ -132,6 +132,7 @@ def qa():
         image_source = meta.get("image_source", "")
         image_creator = clean_text(meta.get("image_creator", ""))
         image_creator_url = clean_text(meta.get("image_creator_url", ""))
+        image_attribution_verified = meta.get("image_attribution_verified")
 
         if not image:
             errors.append(f"[MISSING_IMAGE] {slug}")
@@ -173,25 +174,33 @@ def qa():
             errors.append(f"[INVALID_IMAGE_CREATOR] {slug}: blocked creator value ({image_creator})")
         if is_generated_creator(image_creator, meta, fname):
             errors.append(f"[GENERATED_IMAGE_CREATOR] {slug}: creator appears derived from title/slug/file ({image_creator})")
+        if image_creator and image_attribution_verified is not True:
+            errors.append(
+                f"[CREATOR_WITHOUT_VERIFIED] {slug}: image_creator set but "
+                f"image_attribution_verified={image_attribution_verified!r}"
+            )
+        if image_attribution_verified is True and not image_creator:
+            errors.append(f"[VERIFIED_WITHOUT_CREATOR] {slug}: verified true but creator empty")
+        if image_creator_url and not image_creator:
+            errors.append(f"[IMAGE_CREATOR_URL_WITHOUT_CREATOR] {slug}: {image_creator_url}")
 
         manifest_entry = manifest_by_slug.get(slug)
         if manifest_entry:
             expected_creator = clean_text(manifest_entry.get("creator", ""))
-            expected_creator_url = clean_text(manifest_entry.get("creator_url", ""))
-            if expected_creator:
+            expected_verified = bool(manifest_entry.get("attribution_verified"))
+            if expected_verified and expected_creator:
                 if not image_creator:
-                    errors.append(f"[MISSING_IMAGE_CREATOR] {slug}: manifest has provider creator ({expected_creator})")
+                    errors.append(
+                        f"[MISSING_IMAGE_CREATOR] {slug}: verified manifest creator ({expected_creator})"
+                    )
                 elif image_creator != expected_creator:
-                    errors.append(f"[IMAGE_CREATOR_MISMATCH] {slug}: frontmatter={image_creator} manifest={expected_creator}")
-            elif image_creator:
-                errors.append(f"[UNVERIFIED_IMAGE_CREATOR] {slug}: no provider creator in manifest, frontmatter={image_creator}")
-
-            if image_creator_url and not image_creator:
-                errors.append(f"[IMAGE_CREATOR_URL_WITHOUT_CREATOR] {slug}: {image_creator_url}")
-            elif image_creator_url and not expected_creator_url:
-                errors.append(f"[UNVERIFIED_IMAGE_CREATOR_URL] {slug}: no provider creator_url in manifest, frontmatter={image_creator_url}")
-            elif image_creator_url and expected_creator_url and image_creator_url != expected_creator_url:
-                errors.append(f"[IMAGE_CREATOR_URL_MISMATCH] {slug}: frontmatter={image_creator_url} manifest={expected_creator_url}")
+                    errors.append(
+                        f"[IMAGE_CREATOR_MISMATCH] {slug}: frontmatter={image_creator} manifest={expected_creator}"
+                    )
+            elif image_creator and not expected_verified and image_attribution_verified is not True:
+                errors.append(
+                    f"[UNVERIFIED_IMAGE_CREATOR] {slug}: creator without verification, frontmatter={image_creator}"
+                )
 
         if image_status in {"needs_image", "needs_review"}:
             errors.append(f"[NEEDS_IMAGE] {slug}: post still needs a verified image ({image_status})")

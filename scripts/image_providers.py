@@ -63,11 +63,21 @@ class PexelsProvider(BaseProvider):
                         "direct_url": clean_text(src.get("large2x")) or clean_text(src.get("large")),
                         "creator": clean_text(photo.get("photographer")),
                         "creator_url": clean_text(photo.get("photographer_url")),
+                        "creator_id": clean_text(photo.get("photographer_id")),
+                        "photo_id": clean_text(photo.get("id")),
                         "license": "Pexels License",
                         "commercial_use": True,
                         "width": photo.get("width", 0),
                         "height": photo.get("height", 0),
                         "alt": clean_text(photo.get("alt")),
+                        "raw_provider": {
+                            "id": photo.get("id"),
+                            "photographer": photo.get("photographer"),
+                            "photographer_url": photo.get("photographer_url"),
+                            "photographer_id": photo.get("photographer_id"),
+                            "url": photo.get("url"),
+                        },
+                        "attribution_source": "pexels_api",
                     }))
                 return candidates
             print(f"    [{self.name}] API error: {resp.status_code}")
@@ -95,18 +105,31 @@ class PixabayProvider(BaseProvider):
                 for hit in resp.json().get("hits", []):
                     creator = clean_text(hit.get("user"))
                     tags = [t.strip() for t in str(hit.get("tags", "")).split(",") if t.strip()]
+                    user_id = clean_text(hit.get("user_id"))
+                    profile = ""
+                    if creator and user_id:
+                        profile = f"https://pixabay.com/users/{creator.replace(' ', '')}-{user_id}/"
                     candidates.append(sanitize_candidate({
                         "source_platform": "Pixabay",
                         "source_url": clean_text(hit.get("pageURL")),
                         "direct_url": clean_text(hit.get("largeImageURL")),
                         "creator": creator,
-                        "creator_url": clean_text(hit.get("pageURL")) if creator else "",
+                        "creator_url": profile or (clean_text(hit.get("pageURL")) if creator else ""),
+                        "creator_id": user_id,
+                        "photo_id": clean_text(hit.get("id")),
                         "license": "Pixabay Content License",
                         "commercial_use": True,
                         "width": hit.get("imageWidth", 0),
                         "height": hit.get("imageHeight", 0),
                         "alt": " ".join(tags[:6]),
                         "tags": tags,
+                        "raw_provider": {
+                            "id": hit.get("id"),
+                            "user": hit.get("user"),
+                            "user_id": hit.get("user_id"),
+                            "pageURL": hit.get("pageURL"),
+                        },
+                        "attribution_source": "pixabay_api",
                     }))
                 return candidates
             print(f"    [{self.name}] API error: {resp.status_code}")
@@ -140,11 +163,24 @@ class UnsplashProvider(BaseProvider):
                         "direct_url": clean_text(urls.get("regular")),
                         "creator": clean_text(user.get("name")),
                         "creator_url": clean_text(user_links.get("html")),
+                        "creator_id": clean_text(user.get("id")),
+                        "photo_id": clean_text(photo.get("id")),
                         "license": "Unsplash License",
                         "commercial_use": True,
                         "width": photo.get("width", 0),
                         "height": photo.get("height", 0),
                         "alt": clean_text(photo.get("alt_description")) or clean_text(photo.get("description")),
+                        "raw_provider": {
+                            "id": photo.get("id"),
+                            "user": {
+                                "name": user.get("name"),
+                                "id": user.get("id"),
+                                "username": user.get("username"),
+                                "links": {"html": user_links.get("html")},
+                            },
+                            "links": {"html": links.get("html")},
+                        },
+                        "attribution_source": "unsplash_api",
                     }))
                 return candidates
             print(f"    [{self.name}] API error: {resp.status_code}")

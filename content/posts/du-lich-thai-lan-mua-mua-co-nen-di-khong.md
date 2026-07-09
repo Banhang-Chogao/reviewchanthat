@@ -28,12 +28,18 @@ description: Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết 
 draft: false
 image: images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp
 image_commercial_use: true
-image_creator: ""
-image_creator_url: ""
+image_creator: Tasha_WhiteGold
+image_creator_url: "https://www.pexels.com/@tasha_whitegold-75706404"
+image_creator_id: 75706404
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:41:29+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/wat-phra-singh-in-chiang-rai-thailand-10119144/
+image_source_url: "https://www.pexels.com/photo/barren-tree-in-fog-10119144/"
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 1

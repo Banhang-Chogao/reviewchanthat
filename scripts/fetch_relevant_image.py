@@ -266,7 +266,11 @@ def select_best_image(
             "image_semantic_score": gate.get("semantic_score", 0),
             "image_color_score": gate.get("color_score", 0),
             "image_total_score": gate.get("total_score", 0),
-            "watermark_text": attribution_text(item.get("source_platform", ""), item.get("creator", "")),
+            "watermark_text": attribution_text(
+                item.get("source_platform", ""),
+                item.get("creator", ""),
+                verified=bool(item.get("attribution_verified") and item.get("creator")),
+            ),
         }
     return {
         "candidate": None,
@@ -283,21 +287,32 @@ def manifest_entry_from_selection(slug: str, title: str, selection: dict[str, An
     image_id = f"img-{hashlib.md5(slug.encode()).hexdigest()[:8]}"
     source_platform = clean_text(candidate["source_platform"])
     creator = clean_text(candidate.get("creator"))
+    verified = bool(candidate.get("attribution_verified")) and bool(creator)
     return {
         "slug": slug,
         "title": title,
         "image_id": image_id,
         "source_platform": source_platform,
+        "image_provider": source_platform.lower(),
         "source_url": candidate["source_url"],
         "direct_url": candidate["direct_url"],
-        "creator": creator,
-        "creator_url": clean_text(candidate.get("creator_url")) if creator else "",
+        "creator": creator if verified else "",
+        "creator_url": clean_text(candidate.get("creator_url")) if verified else "",
+        "creator_id": clean_text(candidate.get("creator_id")) if verified else "",
+        "photo_id": clean_text(candidate.get("photo_id")),
+        "raw_provider": candidate.get("raw_provider"),
         "license": candidate["license"],
         "commercial_use": candidate["commercial_use"],
         "local_source_path": f"static/images/posts-src/{slug}.jpg",
         "output_path": f"static/images/posts/{slug}.webp",
-        "watermark_text": selection.get("watermark_text") or attribution_text(source_platform, creator),
+        "watermark_text": selection.get("watermark_text") or attribution_text(
+            source_platform, creator, verified=verified
+        ),
         "provider_used": source_platform,
+        "attribution_verified": verified,
+        "attribution_source": candidate.get("attribution_source") or (
+            f"{source_platform.lower()}_api" if verified else "not_found"
+        ),
         "image_query": selection.get("image_query", ""),
         "image_semantic_score": selection.get("image_semantic_score", 0),
         "image_color_score": selection.get("image_color_score", 0),

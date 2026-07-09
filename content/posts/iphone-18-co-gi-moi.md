@@ -31,12 +31,18 @@ external_links:
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 image: images/posts/iphone-18-co-gi-moi.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Mariano Ruffa
+image_creator_url: "https://www.pexels.com/@mariano-ruffa-45855"
+image_creator_id: 45855
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:09+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-169400/
+image_source_url: "https://www.pexels.com/photo/river-ship-thames-vintage-169400/"
 series: iphone-18-co-gi-moi
 series_order: 1
 series_title: iPhone 18 có gì mới

@@ -18,12 +18,18 @@ description: 'Đánh giá camera iPhone 15 Pro Max năm 2026: 48MP, tele 5x, vid
 draft: false
 image: images/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Jakub Zerdzicki
+image_creator_url: "https://www.pexels.com/@jakubzerdzicki"
+image_creator_id: 494676239
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:46:52+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/hand-holding-smartphone-with-blank-screen-indoors-36985833/
+image_source_url: "https://www.pexels.com/photo/hand-holding-smartphone-with-blank-screen-indoors-36985833/"
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 6
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'

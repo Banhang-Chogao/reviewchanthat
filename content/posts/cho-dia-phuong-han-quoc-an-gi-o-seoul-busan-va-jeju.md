@@ -37,11 +37,17 @@ external_links:
 image: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
 image_commercial_use: true
 image_creator: Đan Thy Nguyễn Mai
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@peterdanthy"
+image_creator_id: 2152897629
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:20+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/bustling-scene-at-ch-da-l-t-market-in-vietnam-38404534/
+image_source_url: "https://www.pexels.com/photo/bustling-scene-at-ch-da-l-t-market-in-vietnam-38404534/"
 series: du-lich
 series_order: 7
 series_title: Du lịch Hàn Quốc 2026

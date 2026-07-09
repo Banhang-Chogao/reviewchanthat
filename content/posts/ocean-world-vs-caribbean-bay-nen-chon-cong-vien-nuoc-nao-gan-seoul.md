@@ -31,11 +31,17 @@ faq:
 image: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
 image_commercial_use: true
 image_creator: Lu Zhao
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@lu-zhao-145486608"
+image_creator_id: 145486608
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:31+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/silhouette-of-a-man-standing-in-front-of-a-huge-tank-in-an-aquarium-10431750/
+image_source_url: "https://www.pexels.com/photo/silhouette-of-a-man-standing-in-front-of-a-huge-tank-in-an-aquarium-10431750/"
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

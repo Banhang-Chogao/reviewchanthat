@@ -30,10 +30,16 @@ image: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
-image_creator: ""
-image_creator_url: ""
+image_creator: David McBee
+image_creator_url: "https://www.pexels.com/@davidmcbee"
+image_creator_id: 30082
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:41:28+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/thai-baht-banknotes-and-coins-730564/
+image_source_url: "https://www.pexels.com/photo/round-silver-and-gold-coins-730564/"
 slug: doi-baht-o-viet-nam-hay-thai-lan
 tags:
 - đổi baht

@@ -19,12 +19,18 @@ description: 'Trải nghiệm màn 6.9 inch trên iPhone 16 Pro Max: kích thư�
 draft: false
 image: images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Caleb Oquendo
+image_creator_url: "https://www.pexels.com/@caleboquendo"
+image_creator_id: 583126
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:26+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/sleek-smartphone-on-wooden-table-indoors-34602867/
+image_source_url: "https://www.pexels.com/photo/sleek-smartphone-on-wooden-table-indoors-34602867/"
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 4
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'

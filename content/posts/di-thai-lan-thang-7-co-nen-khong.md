@@ -22,10 +22,16 @@ image: images/posts/di-thai-lan-thang-7-co-nen-khong.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
-image_creator: ""
-image_creator_url: ""
+image_creator: Ali Kazal
+image_creator_url: "https://www.pexels.com/@lureofadventure"
+image_creator_id: 133607070
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:22+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/scenic-riverside-in-bangkok-with-thai-architecture-31026228/
+image_source_url: "https://www.pexels.com/photo/scenic-riverside-in-bangkok-with-thai-architecture-31026228/"
 slug: di-thai-lan-thang-7-co-nen-khong
 tags:
 - đi Thái Lan tháng 7

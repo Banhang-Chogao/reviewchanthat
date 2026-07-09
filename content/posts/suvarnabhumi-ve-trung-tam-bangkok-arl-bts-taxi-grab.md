@@ -30,10 +30,16 @@ image: images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
-image_creator: ""
-image_creator_url: ""
+image_creator: Kirandeep Singh Walia
+image_creator_url: "https://www.pexels.com/@kirandeepsingh"
+image_creator_id: 2645690
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:33+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/ancient-city-bangkok-27941933/
+image_source_url: "https://www.pexels.com/photo/ancient-city-bangkok-27941933/"
 slug: suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab
 tags:
 - Suvarnabhumi

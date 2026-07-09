@@ -1,0 +1,28 @@
+{{/*
+  Image credit — show creator only when image_attribution_verified is true.
+  Never hardcode absolute paths with a leading slash.
+*/}}
+{{ $provider := or .Params.image_provider .Params.image_source }}
+{{ $sourceURL := .Params.image_source_url }}
+{{ $creator := .Params.image_creator | default "" | strings.TrimSpace }}
+{{ $creatorURL := .Params.image_creator_url | default "" | strings.TrimSpace }}
+{{ $verified := .Params.image_attribution_verified }}
+
+{{ if $sourceURL }}
+<div class="post-image-attribution image-credit">
+  Nguồn ảnh:
+  {{ if and $creator $verified }}
+    {{ if $creatorURL }}
+      <a href="{{ $creatorURL }}" rel="nofollow noopener" target="_blank">{{ $creator }}</a>
+    {{ else }}
+      {{ $creator }}
+    {{ end }}
+    /
+  {{ end }}
+  <a href="{{ $sourceURL }}" rel="nofollow noopener" target="_blank">{{ or $provider "source" }}</a>
+</div>
+{{ else if $provider }}
+<div class="post-image-attribution image-credit">
+  Nguồn ảnh: {{ $provider }}
+</div>
+{{ end }}

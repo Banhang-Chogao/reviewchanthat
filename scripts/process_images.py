@@ -190,8 +190,11 @@ def clear_post_image(slug):
 
 def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url,
                             license_val, commercial_use, owner="external", creator="",
-                            creator_url="", gate_meta=None, image_status=None):
+                            creator_url="", creator_id="", gate_meta=None, image_status=None,
+                            attribution_verified=False, attribution_source="not_found",
+                            license_url=""):
     import frontmatter
+    from datetime import datetime, timedelta, timezone
     fname = None
     for f in os.listdir(CONTENT_DIR):
         if f.endswith(".md"):
@@ -208,15 +211,33 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
     fpath = os.path.join(CONTENT_DIR, fname)
     post = frontmatter.load(fpath)
     meta = post.metadata
-    meta["image"] = image_path
-    meta["thumbnail"] = thumbnail_path
+    original_date = meta.get("date")
+    meta["image"] = (image_path or "").lstrip("/")
+    meta["thumbnail"] = (thumbnail_path or "").lstrip("/")
     meta["image_source"] = source
     meta["image_source_url"] = source_url
     meta["image_license"] = license_val
+    if license_url:
+        meta["image_license_url"] = license_url
     meta["image_commercial_use"] = commercial_use
     meta["image_owner"] = owner
-    meta["image_creator"] = clean_text(creator)
-    meta["image_creator_url"] = clean_text(creator_url) if clean_text(creator) else ""
+    verified = bool(attribution_verified) and bool(clean_text(creator))
+    meta["image_creator"] = clean_text(creator) if verified else ""
+    meta["image_creator_url"] = clean_text(creator_url) if verified else ""
+    meta["image_creator_id"] = clean_text(creator_id) if verified else ""
+    meta["image_attribution_verified"] = verified
+    meta["image_attribution_source"] = (
+        attribution_source if attribution_source else ("not_found" if not verified else "")
+    )
+    meta["image_attribution_checked_at"] = datetime.now(
+        timezone(timedelta(hours=7))
+    ).replace(microsecond=0).isoformat()
+    if not verified:
+        meta["image_attribution_error"] = (
+            "Provider/source page did not expose verified creator metadata"
+        )
+    else:
+        meta.pop("image_attribution_error", None)
     meta.pop("image_reject_reason", None)
     if image_status:
         meta["image_status"] = image_status
@@ -231,6 +252,8 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
                 meta[key] = value
     elif image_status == "verified" and not gate_meta:
         meta["image_provider"] = clean_text(source).lower()
+    if original_date is not None:
+        meta["date"] = original_date
     with open(fpath, "w", encoding="utf-8") as f:
         f.write(frontmatter.dumps(post))
     print(f"    Updated frontmatter: {fname}")
@@ -260,13 +283,29 @@ def main():
         license_val = attribution["license_val"]
         owner = attribution["owner"]
         commercial = entry.get("commercial_use", False)
+        attr_verified = bool(entry.get("attribution_verified"))
         creator, creator_url = sanitize_creator_pair(
             entry.get("creator", ""),
             entry.get("creator_url", ""),
         )
-        watermark = entry.get("watermark_text") or watermark_attribution(
+        if not attr_verified:
+            creator, creator_url = "", ""
+        creator_id = clean_text(entry.get("creator_id", "")) if creator else ""
+        attr_source = clean_text(entry.get("attribution_source")) or (
+            "not_found" if not attr_verified else ""
+        )
+        from creator_policy import attribution_text as _attr_text
+        watermark = _attr_text(
             entry.get("source_platform", source),
             creator,
+            verified=attr_verified and bool(creator),
+        )
+        fm_attr = dict(
+            creator=creator,
+            creator_url=creator_url,
+            creator_id=creator_id,
+            attribution_verified=attr_verified and bool(creator),
+            attribution_source=attr_source,
         )
 
         print(f"\n  [{slug}]")
@@ -296,10 +335,9 @@ def main():
                     license_val=license_val,
                     commercial_use=commercial,
                     owner=owner,
-                    creator=creator,
-                    creator_url=creator_url,
                     gate_meta=gate_meta,
                     image_status=image_status,
+                    **fm_attr,
                 )
                 skipped += 1
                 continue
@@ -352,10 +390,9 @@ def main():
             license_val=license_val,
             commercial_use=commercial,
             owner=owner,
-            creator=creator,
-            creator_url=creator_url,
             gate_meta=gate_meta,
             image_status=image_status,
+            **fm_attr,
         )
         success += 1
 

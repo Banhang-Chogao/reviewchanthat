@@ -22,12 +22,18 @@ description: 'Apple Intelligence trên iOS 27: Siri AI, yêu cầu phần cứng
 draft: false
 image: images/posts/ios-27-apple-intelligence-iphone-cu.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: ANA QUIROSA
+image_creator_url: ""
+image_creator_id: ""
+image_attribution_verified: true
+image_attribution_source: embedded_exif_iptc_xmp
+image_attribution_checked_at: "2026-07-09T10:47:00+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/close-up-of-a-person-holding-an-iphone-15-pro-19060767/
+image_source_url: "https://www.pexels.com/photo/close-up-of-a-person-holding-an-iphone-15-pro-19060767/"
 series: ios-27-co-gi-moi
 series_order: 3
 series_title: iOS 27 có gì mới

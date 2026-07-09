@@ -24,10 +24,16 @@ image: images/posts/checklist-vali-di-thai-mua-mua.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
-image_creator: ""
-image_creator_url: ""
+image_creator: Ketut Subiyanto
+image_creator_url: "https://www.pexels.com/@ketut-subiyanto"
+image_creator_id: 2515433
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:19+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/couple-packing-clothes-and-belongings-in-suitcase-4245895/
+image_source_url: "https://www.pexels.com/photo/couple-packing-clothes-and-belongings-in-suitcase-4245895/"
 slug: checklist-vali-di-thai-mua-mua
 tags:
 - checklist vali Thái Lan

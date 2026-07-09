@@ -22,10 +22,16 @@ image: images/posts/chiang-mai-mua-mua-co-gi-dep.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
-image_creator: ""
-image_creator_url: ""
+image_creator: Maxence Vansteenkiste
+image_creator_url: "https://www.pexels.com/@maxence-vansteenkiste-52729974"
+image_creator_id: 52729974
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:41:24+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/golden-buddha-statue-at-doi-suthep-chiang-mai-14211124/
+image_source_url: "https://www.pexels.com/photo/golden-tower-near-a-golden-statue-14211124/"
 slug: chiang-mai-mua-mua-co-gi-dep
 tags:
 - Chiang Mai mùa mưa

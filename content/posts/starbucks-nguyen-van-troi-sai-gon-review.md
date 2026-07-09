@@ -30,13 +30,19 @@ external_links:
   url: https://www.starbucks.vn/
 image: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
-image_license: Self-owned
+image_creator: ""
+image_creator_url: ""
+image_creator_id: ""
+image_attribution_verified: false
+image_attribution_source: not_found
+image_attribution_checked_at: "2026-07-09T10:47:23+07:00"
+image_attribution_error: source_page_no_creator; embedded_meta_no_creator
+image_license_url: ""
+image_license: ""
 image_owner: self
-image_provider: self
-image_source: self
-image_source_url: https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg
+image_provider: ""
+image_source: ""
+image_source_url: "https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg"
 image_status: verified
 series: starbucks-vietnam
 series_order: 2

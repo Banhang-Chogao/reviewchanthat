@@ -16,11 +16,17 @@ external_links:
 image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
 image_commercial_use: true
 image_creator: Tran Nhu Tuan
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@kooldark"
+image_creator_id: 23251645
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:36+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/
+image_source_url: "https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/"
 lastmod: 2026-07-07
 slug: veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog
 tags:

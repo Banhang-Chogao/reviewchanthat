@@ -18,12 +18,18 @@ description: 'Phân tích khung titan iPhone 15 Pro Max so với thép đời c�
 draft: false
 image: images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Andrey Matveev
+image_creator_url: "https://www.pexels.com/@zeleboba"
+image_creator_id: 150820
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:26+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/hand-holding-smartphone-with-xos-operating-system-34396237/
+image_source_url: "https://www.pexels.com/photo/hand-holding-smartphone-with-xos-operating-system-34396237/"
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 5
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'

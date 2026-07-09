@@ -42,11 +42,17 @@ faq:
 image: images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_creator_id: 222549
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:33+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/honda-mechanics-at-work-12741630/
+image_source_url: "https://www.pexels.com/photo/honda-mechanics-at-work-12741630/"
 slug: so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat
 tags:
 - so sánh

@@ -35,12 +35,18 @@ external_links:
   url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
 image: images/posts/seoraksan-thang-10-ngam-la-do.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Светлана Конева
+image_creator_url: "https://www.pexels.com/@269097219"
+image_creator_id: 269097219
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:21+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787323/
+image_source_url: "https://www.pexels.com/photo/12787323/"
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
   title: Đi Hàn tháng 10 có đẹp không?

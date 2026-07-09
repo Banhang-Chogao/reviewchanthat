@@ -42,12 +42,18 @@ faq:
   question: Di chuyển trong Seoul thế nào?
 image: images/posts/seoul-thang-11-nen-di-dau.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Quang Nguyen Vinh
+image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_creator_id: 222549
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:22+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-2131616/
+image_source_url: "https://www.pexels.com/photo/orange-sky-over-village-at-sunset-2131616/"
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
   title: Đi Hàn tháng 11 có đẹp không?

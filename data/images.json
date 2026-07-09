@@ -13,7 +13,12 @@
       "local_source_path": "static/images/posts-src/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.jpg",
       "output_path": "static/images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp",
       "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "creator_url": "",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "rejected_generic",
+      "attribution_checked_at": "2026-07-09T10:43:15+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang",
@@ -28,7 +33,12 @@
       "local_source_path": "static/images/posts-src/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.jpg",
       "output_path": "static/images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp",
       "watermark_text": "Source: Pexels / 정규송 Nui MALAMA",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@nui-malama-169330637",
+      "creator_id": "169330637",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:15+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
@@ -43,7 +53,12 @@
       "local_source_path": "static/images/posts-src/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.jpg",
       "output_path": "static/images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp",
       "watermark_text": "Source: Pexels / Kharl Anthony Paica",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@kharlitos",
+      "creator_id": "1701570",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:16+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
@@ -59,7 +74,17 @@
       "output_path": "static/images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp",
       "watermark_text": "Source: Pexels / thuan Nguyen",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@thuan-nguyen-1317341160",
+      "creator_id": "1317341160",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:50+07:00",
+      "raw_provider": {
+        "id": 29861385,
+        "photographer": "thuan Nguyen",
+        "photographer_id": "1317341160"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
@@ -74,7 +99,12 @@
       "local_source_path": "static/images/posts-src/cach-doc-mot-bai-review-de-khong-bi-dat-mui.jpg",
       "output_path": "static/images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp",
       "watermark_text": "Source: Pexels / Ron Lach",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@ron-lach",
+      "creator_id": "22992178",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:17+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
@@ -89,7 +119,12 @@
       "local_source_path": "static/images/posts-src/cach-xay-dung-thoi-quen-mua-sam-thong-minh.jpg",
       "output_path": "static/images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp",
       "watermark_text": "Source: Pexels / Thanh Long Bùi",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@thanh-long-bui-483143920",
+      "creator_id": "483143920",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:17+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "camera-control-iphone-16-pro-max-co-tien-khong",
@@ -98,14 +133,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/modern-smartphone-with-clear-case-on-wooden-table-34391718/",
       "direct_url": "https://images.pexels.com/photos/34391718/pexels-photo-34391718.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Andrey Matveev",
+      "creator_url": "https://www.pexels.com/@zeleboba",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/camera-control-iphone-16-pro-max-co-tien-khong.jpg",
       "output_path": "static/images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Andrey Matveev",
+      "provider_used": "manual-curate",
+      "creator_id": "150820",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:52+07:00",
+      "raw_provider": {
+        "id": 34391718,
+        "photographer": "Andrey Matveev",
+        "photographer_id": "150820"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "camera-iphone-15-pro-max-nam-2026-con-du-tot-khong",
@@ -114,14 +159,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-blank-screen-indoors-36985833/",
       "direct_url": "https://images.pexels.com/photos/36985833/pexels-photo-36985833.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Jakub Zerdzicki",
+      "creator_url": "https://www.pexels.com/@jakubzerdzicki",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.jpg",
       "output_path": "static/images/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Jakub Zerdzicki",
+      "provider_used": "manual-curate",
+      "creator_id": "494676239",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:52+07:00",
+      "raw_provider": {
+        "id": 36985833,
+        "photographer": "Jakub Zerdzicki",
+        "photographer_id": "494676239"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "camera-iphone-16-pro-max-so-voi-15-pro-max",
@@ -130,14 +185,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/",
       "direct_url": "https://images.pexels.com/photos/33693823/pexels-photo-33693823.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Andrey Matveev",
+      "creator_url": "https://www.pexels.com/@zeleboba",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/camera-iphone-16-pro-max-so-voi-15-pro-max.jpg",
       "output_path": "static/images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Andrey Matveev",
+      "provider_used": "manual-curate",
+      "creator_id": "150820",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:53+07:00",
+      "raw_provider": {
+        "id": 33693823,
+        "photographer": "Andrey Matveev",
+        "photographer_id": "150820"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
@@ -153,7 +218,17 @@
       "output_path": "static/images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp",
       "watermark_text": "Source: Pexels / marclyc li",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@marclyc-li-2160558161",
+      "creator_id": "2160558161",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:53+07:00",
+      "raw_provider": {
+        "id": 38331866,
+        "photographer": "marclyc li",
+        "photographer_id": "2160558161"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao",
@@ -168,7 +243,12 @@
       "local_source_path": "static/images/posts-src/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.jpg",
       "output_path": "static/images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp",
       "watermark_text": "Source: Pexels / KOREAN JH",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@korean-jh-30666766",
+      "creator_id": "30666766",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:18+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "checklist-truoc-khi-mua-mot-san-pham-online",
@@ -183,7 +263,12 @@
       "local_source_path": "static/images/posts-src/checklist-truoc-khi-mua-mot-san-pham-online.jpg",
       "output_path": "static/images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp",
       "watermark_text": "Source: Pexels / Tara Winstead",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@tara-winstead",
+      "creator_id": "2702888",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:19+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
@@ -199,7 +284,12 @@
       "output_path": "static/images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp",
       "watermark_text": "Source: Pexels / Mizuno K",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@mizunokozuki",
+      "creator_id": "264153375",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:19+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
@@ -214,7 +304,12 @@
       "local_source_path": "static/images/posts-src/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.jpg",
       "output_path": "static/images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp",
       "watermark_text": "Source: Pexels / Alvin & Chelsea",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@alvin-chelsea-230969113",
+      "creator_id": "230969113",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:20+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
@@ -229,7 +324,12 @@
       "local_source_path": "static/images/posts-src/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.jpg",
       "output_path": "static/images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp",
       "watermark_text": "Source: Pexels / Đan Thy Nguyễn Mai",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@peterdanthy",
+      "creator_id": "2152897629",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:20+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "chuan-bi-macbook-truoc-khi-len-macos-27",
@@ -238,14 +338,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/silver-macbook-on-brown-wooden-table-442150/",
       "direct_url": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Field Engineer",
+      "creator_url": "https://www.pexels.com/@field-engineer-147254",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/chuan-bi-macbook-truoc-khi-len-macos-27.jpg",
       "output_path": "static/images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Field Engineer",
+      "provider_used": "manual-curate",
+      "creator_id": "147254",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:55+07:00",
+      "raw_provider": {
+        "id": 442150,
+        "photographer": "Field Engineer",
+        "photographer_id": "147254"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
@@ -260,7 +370,12 @@
       "local_source_path": "static/images/posts-src/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.jpg",
       "output_path": "static/images/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.webp",
       "watermark_text": "Source: Pexels / Zsuzsa ZSUZSA",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@zsuzsa-zsuzsa-127738300",
+      "creator_id": "127738300",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:21+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
@@ -275,7 +390,12 @@
       "local_source_path": "static/images/posts-src/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.jpg",
       "output_path": "static/images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp",
       "watermark_text": "Source: Pexels / CK Seng",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@keat007",
+      "creator_id": "1622383570",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:21+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
@@ -290,7 +410,12 @@
       "local_source_path": "static/images/posts-src/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.jpg",
       "output_path": "static/images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp",
       "watermark_text": "Source: Pexels / Theodore Nguyen",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@thejourneyofframes",
+      "creator_id": "898884684",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:21+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
@@ -306,7 +431,12 @@
       "output_path": "static/images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp",
       "watermark_text": "Source: Pexels / Huy Phan",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@huy-phan-316220",
+      "creator_id": "316220",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:22+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
@@ -322,7 +452,17 @@
       "output_path": "static/images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp",
       "watermark_text": "Source: Pexels / nana liu",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@nana-llj",
+      "creator_id": "2527431",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:57+07:00",
+      "raw_provider": {
+        "id": 34350262,
+        "photographer": "nana liu",
+        "photographer_id": "2527431"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
@@ -337,7 +477,12 @@
       "local_source_path": "static/images/posts-src/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.jpg",
       "output_path": "static/images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp",
       "watermark_text": "Source: Pexels / Co Hai",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@co-hai-712207000",
+      "creator_id": "712207000",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:23+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -353,7 +498,12 @@
       "output_path": "static/images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp",
       "watermark_text": "Source: Pexels / Line Knipst",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@line-knipst-574109081",
+      "creator_id": "574109081",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:24+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
@@ -368,7 +518,12 @@
       "local_source_path": "static/images/posts-src/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.jpg",
       "output_path": "static/images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp",
       "watermark_text": "Source: Pexels / Zszen John",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@zszen",
+      "creator_id": "1272697",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:25+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
@@ -383,7 +538,12 @@
       "local_source_path": "static/images/posts-src/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.jpg",
       "output_path": "static/images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp",
       "watermark_text": "Source: Pexels / Dennis Park",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@redbookpro",
+      "creator_id": "212563133",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:25+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
@@ -398,7 +558,12 @@
       "local_source_path": "static/images/posts-src/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.jpg",
       "output_path": "static/images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp",
       "watermark_text": "Source: Pexels / Jhany Blue",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@jhany-blue-436502581",
+      "creator_id": "436502581",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:25+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
@@ -414,7 +579,17 @@
       "output_path": "static/images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp",
       "watermark_text": "Source: Pexels / Jhany Blue",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@jhany-blue-436502581",
+      "creator_id": "436502581",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:58+07:00",
+      "raw_provider": {
+        "id": 36046039,
+        "photographer": "Jhany Blue",
+        "photographer_id": "436502581"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
@@ -430,7 +605,12 @@
       "output_path": "static/images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp",
       "watermark_text": "Source: Pexels / Nguyen Hung",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@mh92",
+      "creator_id": "1861858",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:26+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
@@ -446,7 +626,12 @@
       "output_path": "static/images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp",
       "watermark_text": "Source: Pexels / piu aka",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@piu-aka-283677100",
+      "creator_id": "283677100",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:26+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
@@ -461,7 +646,12 @@
       "local_source_path": "static/images/posts-src/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.jpg",
       "output_path": "static/images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp",
       "watermark_text": "Source: Pexels / Dominik Gryzbon",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@gryziu",
+      "creator_id": "307186004",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:27+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-27-apple-intelligence-iphone-cu",
@@ -470,14 +660,19 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/close-up-of-a-person-holding-an-iphone-15-pro-19060767/",
       "direct_url": "https://images.pexels.com/photos/19060767/pexels-photo-19060767.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
+      "creator": "ANA QUIROSA",
       "creator_url": "",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/ios-27-apple-intelligence-iphone-cu.jpg",
       "output_path": "static/images/posts/ios-27-apple-intelligence-iphone-cu.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / ANA QUIROSA",
+      "provider_used": "manual-curate",
+      "creator_id": "",
+      "attribution_verified": true,
+      "attribution_source": "embedded_exif_iptc_xmp",
+      "attribution_checked_at": "2026-07-09T10:47:00+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-27-beta-co-nen-cai-khong",
@@ -486,14 +681,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/iphone-smartphone-desk-laptop-699122/",
       "direct_url": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Tyler Lastovich",
+      "creator_url": "https://www.pexels.com/@lastly",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/ios-27-beta-co-nen-cai-khong.jpg",
       "output_path": "static/images/posts/ios-27-beta-co-nen-cai-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Tyler Lastovich",
+      "provider_used": "manual-curate",
+      "creator_id": "129858",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:00+07:00",
+      "raw_provider": {
+        "id": 699122,
+        "photographer": "Tyler Lastovich",
+        "photographer_id": "129858"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-27-cai-thien-pin-iphone",
@@ -502,14 +707,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/man-in-blue-shirt-holding-iphone-8052289/",
       "direct_url": "https://images.pexels.com/photos/8052289/pexels-photo-8052289.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "RDNE Stock project",
+      "creator_url": "https://www.pexels.com/@rdne",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/ios-27-cai-thien-pin-iphone.jpg",
       "output_path": "static/images/posts/ios-27-cai-thien-pin-iphone.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / RDNE Stock project",
+      "provider_used": "manual-curate",
+      "creator_id": "3149039",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:00+07:00",
+      "raw_provider": {
+        "id": 8052289,
+        "photographer": "RDNE Stock project",
+        "photographer_id": "3149039"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-27-camera-anh-video-iphone",
@@ -525,7 +740,12 @@
       "local_source_path": "static/images/posts-src/ios-27-camera-anh-video-iphone.jpg",
       "output_path": "static/images/posts/ios-27-camera-anh-video-iphone.webp",
       "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "provider_used": "manual-curate",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "not_found",
+      "attribution_checked_at": "2026-07-09T10:47:01+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-27-co-gi-moi",
@@ -534,14 +754,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/white-apple-iphone-on-wooden-table-48605/",
       "direct_url": "https://images.pexels.com/photos/48605/pexels-photo-48605.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Negative Space",
+      "creator_url": "https://www.pexels.com/@negativespace",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/ios-27-co-gi-moi.jpg",
       "output_path": "static/images/posts/ios-27-co-gi-moi.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Negative Space",
+      "provider_used": "manual-curate",
+      "creator_id": "3738",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:01+07:00",
+      "raw_provider": {
+        "id": 48605,
+        "photographer": "Negative Space",
+        "photographer_id": "3738"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-27-co-nen-cap-nhat-ngay-khong",
@@ -557,7 +787,12 @@
       "local_source_path": "static/images/posts-src/ios-27-co-nen-cap-nhat-ngay-khong.jpg",
       "output_path": "static/images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp",
       "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "provider_used": "manual-curate",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "not_found",
+      "attribution_checked_at": "2026-07-09T10:47:02+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-27-ho-tro-iphone-nao",
@@ -573,7 +808,12 @@
       "local_source_path": "static/images/posts-src/ios-27-ho-tro-iphone-nao.jpg",
       "output_path": "static/images/posts/ios-27-ho-tro-iphone-nao.webp",
       "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "provider_used": "manual-curate",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "not_found",
+      "attribution_checked_at": "2026-07-09T10:47:02+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-27-quyen-rieng-tu-iphone",
@@ -582,14 +822,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/iphone-ipad-laptop-788946/",
       "direct_url": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Jess Bailey Designs",
+      "creator_url": "https://www.pexels.com/@jessbaileydesign",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/ios-27-quyen-rieng-tu-iphone.jpg",
       "output_path": "static/images/posts/ios-27-quyen-rieng-tu-iphone.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Jess Bailey Designs",
+      "provider_used": "manual-curate",
+      "creator_id": "229739",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:02+07:00",
+      "raw_provider": {
+        "id": 788946,
+        "photographer": "Jess Bailey Designs",
+        "photographer_id": "229739"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-27-so-voi-ios-26",
@@ -598,14 +848,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/person-holding-black-iphone-6476589/",
       "direct_url": "https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Mikael Blomkvist",
+      "creator_url": "https://www.pexels.com/@mikael-blomkvist",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/ios-27-so-voi-ios-26.jpg",
       "output_path": "static/images/posts/ios-27-so-voi-ios-26.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Mikael Blomkvist",
+      "provider_used": "manual-curate",
+      "creator_id": "2416688",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:03+07:00",
+      "raw_provider": {
+        "id": 6476589,
+        "photographer": "Mikael Blomkvist",
+        "photographer_id": "2416688"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao",
@@ -614,14 +874,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/elegant-smartphone-beside-potted-plants-on-desk-30466740/",
       "direct_url": "https://images.pexels.com/photos/30466740/pexels-photo-30466740.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Imad Clicks",
+      "creator_url": "https://www.pexels.com/@imadclicks",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.jpg",
       "output_path": "static/images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Imad Clicks",
+      "provider_used": "manual-curate",
+      "creator_id": "2304239",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:04+07:00",
+      "raw_provider": {
+        "id": 30466740,
+        "photographer": "Imad Clicks",
+        "photographer_id": "2304239"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-15-pro-max-blue-titanium-co-dang-san",
@@ -630,14 +900,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/a-smartphone-on-the-table-14121456/",
       "direct_url": "https://images.pexels.com/photos/14121456/pexels-photo-14121456.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "C. ISO",
+      "creator_url": "https://www.pexels.com/@c-iso-329101566",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-15-pro-max-blue-titanium-co-dang-san.jpg",
       "output_path": "static/images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / C. ISO",
+      "provider_used": "manual-curate",
+      "creator_id": "329101566",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:04+07:00",
+      "raw_provider": {
+        "id": 14121456,
+        "photographer": "C. ISO",
+        "photographer_id": "329101566"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi",
@@ -653,7 +933,12 @@
       "local_source_path": "static/images/posts-src/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.jpg",
       "output_path": "static/images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp",
       "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "provider_used": "manual-curate",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "not_found",
+      "attribution_checked_at": "2026-07-09T10:47:07+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-15-pro-max-mau-titan-con-dang-mua-khong",
@@ -662,14 +947,19 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/unboxing-iphone-15-pro-max-box-in-natural-titanium-color-mention-zana-qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana-qaradaghy-18525574/",
       "direct_url": "https://images.pexels.com/photos/18525574/pexels-photo-18525574.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
+      "creator": "b'                                                                                                                                '",
       "creator_url": "",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-15-pro-max-mau-titan-con-dang-mua-khong.jpg",
       "output_path": "static/images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / b'                                                                                                                                '",
+      "provider_used": "manual-curate",
+      "creator_id": "",
+      "attribution_verified": true,
+      "attribution_source": "embedded_exif_iptc_xmp",
+      "attribution_checked_at": "2026-07-09T10:47:07+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-15-pro-max-natural-titanium-danh-gia-mau",
@@ -678,14 +968,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/modern-smartphone-on-wooden-table-21424632/",
       "direct_url": "https://images.pexels.com/photos/21424632/pexels-photo-21424632.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Rohit Sharma",
+      "creator_url": "https://www.pexels.com/@rohit-sharma-1230131",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-15-pro-max-natural-titanium-danh-gia-mau.jpg",
       "output_path": "static/images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Rohit Sharma",
+      "provider_used": "manual-curate",
+      "creator_id": "1230131",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:07+07:00",
+      "raw_provider": {
+        "id": 21424632,
+        "photographer": "Rohit Sharma",
+        "photographer_id": "1230131"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-16-pro-max-desert-titanium-hop-ai",
@@ -694,14 +994,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/black-mobile-phone-on-white-wooden-table-8148741/",
       "direct_url": "https://images.pexels.com/photos/8148741/pexels-photo-8148741.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Vie Studio",
+      "creator_url": "https://www.pexels.com/@vie-studio",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-16-pro-max-desert-titanium-hop-ai.jpg",
       "output_path": "static/images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Vie Studio",
+      "provider_used": "manual-curate",
+      "creator_id": "2282525",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:08+07:00",
+      "raw_provider": {
+        "id": 8148741,
+        "photographer": "Vie Studio",
+        "photographer_id": "2282525"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-16-pro-max-desert-titanium-tren-tay",
@@ -710,14 +1020,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/a-mobile-phone-on-wooden-table-14557519/",
       "direct_url": "https://images.pexels.com/photos/14557519/pexels-photo-14557519.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Luo Chris",
+      "creator_url": "https://www.pexels.com/@luo-chris-1659104",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-16-pro-max-desert-titanium-tren-tay.jpg",
       "output_path": "static/images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Luo Chris",
+      "provider_used": "manual-curate",
+      "creator_id": "1659104",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:08+07:00",
+      "raw_provider": {
+        "id": 14557519,
+        "photographer": "Luo Chris",
+        "photographer_id": "1659104"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-16-pro-max-nam-2026-nen-mua-khong",
@@ -726,14 +1046,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/man-using-smartphone-at-outdoor-cafe-table-33369112/",
       "direct_url": "https://images.pexels.com/photos/33369112/pexels-photo-33369112.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Sóc Năng Động",
+      "creator_url": "https://www.pexels.com/@soc-nang-d-ng-2150345854",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-16-pro-max-nam-2026-nen-mua-khong.jpg",
       "output_path": "static/images/posts/iphone-16-pro-max-nam-2026-nen-mua-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Sóc Năng Động",
+      "provider_used": "manual-curate",
+      "creator_id": "2150345854",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:08+07:00",
+      "raw_provider": {
+        "id": 33369112,
+        "photographer": "Sóc Năng Động",
+        "photographer_id": "2150345854"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao",
@@ -742,14 +1072,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/a-mobile-phone-near-the-notebook-with-green-leaves-on-a-wooden-table-8092450/",
       "direct_url": "https://images.pexels.com/photos/8092450/pexels-photo-8092450.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "www.kaboompics.com",
+      "creator_url": "https://www.pexels.com/@karola-g",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.jpg",
       "output_path": "static/images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / www.kaboompics.com",
+      "provider_used": "manual-curate",
+      "creator_id": "2332540",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:09+07:00",
+      "raw_provider": {
+        "id": 8092450,
+        "photographer": "www.kaboompics.com",
+        "photographer_id": "2332540"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
@@ -765,7 +1105,12 @@
       "output_path": "static/images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp",
       "watermark_text": "Source: Pexels / SOO CHUL PARK",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@voltfather",
+      "creator_id": "695483041",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:27+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
@@ -780,7 +1125,12 @@
       "local_source_path": "static/images/posts-src/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.jpg",
       "output_path": "static/images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp",
       "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "creator_url": "",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "rejected_generic",
+      "attribution_checked_at": "2026-07-09T10:43:27+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
@@ -795,7 +1145,12 @@
       "local_source_path": "static/images/posts-src/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.jpg",
       "output_path": "static/images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp",
       "watermark_text": "Source: Pexels / nana liu",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@nana-llj",
+      "creator_id": "2527431",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:28+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau",
@@ -811,7 +1166,12 @@
       "output_path": "static/images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp",
       "watermark_text": "Source: Pexels / Gije Cho",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@gije",
+      "creator_id": "1155759",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:29+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "macos-27-apple-intelligence-macbook",
@@ -820,14 +1180,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/person-coding-on-a-macbook-pro-4974912/",
       "direct_url": "https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "olia danilevich",
+      "creator_url": "https://www.pexels.com/@olia-danilevich",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/macos-27-apple-intelligence-macbook.jpg",
       "output_path": "static/images/posts/macos-27-apple-intelligence-macbook.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / olia danilevich",
+      "provider_used": "manual-curate",
+      "creator_id": "2638647",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:16+07:00",
+      "raw_provider": {
+        "id": 4974912,
+        "photographer": "olia danilevich",
+        "photographer_id": "2638647"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "macos-27-beta-co-nen-cai-khong",
@@ -836,14 +1206,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/macbook-pro-on-rooftop-with-code-editor-open-37085305/",
       "direct_url": "https://images.pexels.com/photos/37085305/pexels-photo-37085305.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Meet Patel",
+      "creator_url": "https://www.pexels.com/@meet-patel-236003280",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/macos-27-beta-co-nen-cai-khong.jpg",
       "output_path": "static/images/posts/macos-27-beta-co-nen-cai-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Meet Patel",
+      "provider_used": "manual-curate",
+      "creator_id": "236003280",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:17+07:00",
+      "raw_provider": {
+        "id": 37085305,
+        "photographer": "Meet Patel",
+        "photographer_id": "236003280"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "macos-27-cho-van-phong-creator-lap-trinh-vien",
@@ -852,14 +1232,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/person-using-macbook-pro-574077/",
       "direct_url": "https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Lukas Blazek",
+      "creator_url": "https://www.pexels.com/@goumbik",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/macos-27-cho-van-phong-creator-lap-trinh-vien.jpg",
       "output_path": "static/images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Lukas Blazek",
+      "provider_used": "manual-curate",
+      "creator_id": "89898",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:17+07:00",
+      "raw_provider": {
+        "id": 574077,
+        "photographer": "Lukas Blazek",
+        "photographer_id": "89898"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "macos-27-co-gi-moi",
@@ -868,14 +1258,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/macbook-pro-92904/",
       "direct_url": "https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Negative Space",
+      "creator_url": "https://www.pexels.com/@negativespace",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/macos-27-co-gi-moi.jpg",
       "output_path": "static/images/posts/macos-27-co-gi-moi.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Negative Space",
+      "provider_used": "manual-curate",
+      "creator_id": "3738",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:17+07:00",
+      "raw_provider": {
+        "id": 92904,
+        "photographer": "Negative Space",
+        "photographer_id": "3738"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "macos-27-co-nen-nang-cap-ngay-khong",
@@ -884,14 +1284,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/modern-workspace-with-coding-laptop-and-coffee-34803979/",
       "direct_url": "https://images.pexels.com/photos/34803979/pexels-photo-34803979.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Daniil Komov",
+      "creator_url": "https://www.pexels.com/@dkomov",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/macos-27-co-nen-nang-cap-ngay-khong.jpg",
       "output_path": "static/images/posts/macos-27-co-nen-nang-cap-ngay-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Daniil Komov",
+      "provider_used": "manual-curate",
+      "creator_id": "133960344",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:18+07:00",
+      "raw_provider": {
+        "id": 34803979,
+        "photographer": "Daniil Komov",
+        "photographer_id": "133960344"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "macos-27-hieu-nang-pin-macbook",
@@ -900,14 +1310,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/workplace-with-modern-laptop-with-program-code-on-screen-3888151/",
       "direct_url": "https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Rodrigo Santos",
+      "creator_url": "https://www.pexels.com/@rsantos1232",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/macos-27-hieu-nang-pin-macbook.jpg",
       "output_path": "static/images/posts/macos-27-hieu-nang-pin-macbook.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Rodrigo Santos",
+      "provider_used": "manual-curate",
+      "creator_id": "125824",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:18+07:00",
+      "raw_provider": {
+        "id": 3888151,
+        "photographer": "Rodrigo Santos",
+        "photographer_id": "125824"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "macos-27-ho-tro-may-mac-nao",
@@ -916,14 +1336,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/turned-on-macbook-pro-693859/",
       "direct_url": "https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "hitesh choudhary",
+      "creator_url": "https://www.pexels.com/@hiteshchoudhary",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/macos-27-ho-tro-may-mac-nao.jpg",
       "output_path": "static/images/posts/macos-27-ho-tro-may-mac-nao.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / hitesh choudhary",
+      "provider_used": "manual-curate",
+      "creator_id": "97941",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:18+07:00",
+      "raw_provider": {
+        "id": 693859,
+        "photographer": "hitesh choudhary",
+        "photographer_id": "97941"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "macos-27-so-voi-macos-26",
@@ -932,14 +1362,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/apple-macbook-on-the-table-450035/",
       "direct_url": "https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Mateusz Dach",
+      "creator_url": "https://www.pexels.com/@mateusz-dach-99805",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/macos-27-so-voi-macos-26.jpg",
       "output_path": "static/images/posts/macos-27-so-voi-macos-26.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Mateusz Dach",
+      "provider_used": "manual-curate",
+      "creator_id": "99805",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:19+07:00",
+      "raw_provider": {
+        "id": 450035,
+        "photographer": "Mateusz Dach",
+        "photographer_id": "99805"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
@@ -954,7 +1394,12 @@
       "local_source_path": "static/images/posts-src/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.jpg",
       "output_path": "static/images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp",
       "watermark_text": "Source: Pexels / Nghia .8pm",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@phamnghia",
+      "creator_id": "469193",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:29+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
@@ -969,7 +1414,12 @@
       "local_source_path": "static/images/posts-src/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.jpg",
       "output_path": "static/images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp",
       "watermark_text": "Source: Pexels / tom  Lok",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@tom-lok-18648978",
+      "creator_id": "18648978",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:30+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
@@ -984,7 +1434,12 @@
       "local_source_path": "static/images/posts-src/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.jpg",
       "output_path": "static/images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp",
       "watermark_text": "Source: Pexels / pipop kunachon",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@daddysky",
+      "creator_id": "1327332",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:31+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul",
@@ -1000,7 +1455,12 @@
       "output_path": "static/images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp",
       "watermark_text": "Source: Pexels / Lu Zhao",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@lu-zhao-145486608",
+      "creator_id": "145486608",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:31+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
@@ -1009,14 +1469,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-modern-interface-outdoors-36665172/",
       "direct_url": "https://images.pexels.com/photos/36665172/pexels-photo-36665172.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "RSK Photography Kekar",
+      "creator_url": "https://www.pexels.com/@rsk-photography-kekar-1108923782",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.jpg",
       "output_path": "static/images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / RSK Photography Kekar",
+      "provider_used": "manual-curate",
+      "creator_id": "1108923782",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:21+07:00",
+      "raw_provider": {
+        "id": 36665172,
+        "photographer": "RSK Photography Kekar",
+        "photographer_id": "1108923782"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "pin-iphone-16-pro-max-co-dang-chon",
@@ -1025,14 +1495,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/young-woman-using-smartphone-in-cozy-cafe-31446172/",
       "direct_url": "https://images.pexels.com/photos/31446172/pexels-photo-31446172.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Jobert Enamno",
+      "creator_url": "https://www.pexels.com/@jobzky",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/pin-iphone-16-pro-max-co-dang-chon.jpg",
       "output_path": "static/images/posts/pin-iphone-16-pro-max-co-dang-chon.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Jobert Enamno",
+      "provider_used": "manual-curate",
+      "creator_id": "1689872",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:21+07:00",
+      "raw_provider": {
+        "id": 31446172,
+        "photographer": "Jobert Enamno",
+        "photographer_id": "1689872"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
@@ -1047,7 +1527,12 @@
       "local_source_path": "static/images/posts-src/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.jpg",
       "output_path": "static/images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp",
       "watermark_text": "Source: Pexels / AlphaTradeZone",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@alphatradezone",
+      "creator_id": "3882745",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:32+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
@@ -1063,7 +1548,12 @@
       "output_path": "static/images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp",
       "watermark_text": "Source: Pexels / Nuhyil Ahammed",
       "provider_used": "Pexels",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@nuhyil-ahammed-282191113",
+      "creator_id": "282191113",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:32+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
@@ -1078,7 +1568,12 @@
       "local_source_path": "static/images/posts-src/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.jpg",
       "output_path": "static/images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp",
       "watermark_text": "Source: Pexels / Kharl Anthony Paica",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@kharlitos",
+      "creator_id": "1701570",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:32+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
@@ -1093,7 +1588,12 @@
       "local_source_path": "static/images/posts-src/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.jpg",
       "output_path": "static/images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp",
       "watermark_text": "Source: Pexels / Quang Nguyen Vinh",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
+      "creator_id": "222549",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:33+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
@@ -1108,7 +1608,12 @@
       "local_source_path": "static/images/posts-src/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.jpg",
       "output_path": "static/images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp",
       "watermark_text": "Source: Pexels / alde saputro",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@alde",
+      "creator_id": "293051",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:33+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
@@ -1123,7 +1628,12 @@
       "local_source_path": "static/images/posts-src/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.jpg",
       "output_path": "static/images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp",
       "watermark_text": "Source: Pexels / Tuấn Kiệt Jr.",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@soldiervip",
+      "creator_id": "312601",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:34+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
@@ -1138,7 +1648,12 @@
       "local_source_path": "static/images/posts-src/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.jpg",
       "output_path": "static/images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp",
       "watermark_text": "Source: Pexels / Ditmar Tabacaru",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@ditmar-tabacaru-1772573629",
+      "creator_id": "1772573629",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:34+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
@@ -1153,7 +1668,12 @@
       "local_source_path": "static/images/posts-src/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.jpg",
       "output_path": "static/images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp",
       "watermark_text": "Source: Pexels / Đặng Nhật",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@d-ng-nh-t-262758705",
+      "creator_id": "262758705",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:34+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong",
@@ -1162,14 +1682,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-xos-operating-system-34396237/",
       "direct_url": "https://images.pexels.com/photos/34396237/pexels-photo-34396237.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Andrey Matveev",
+      "creator_url": "https://www.pexels.com/@zeleboba",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.jpg",
       "output_path": "static/images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Andrey Matveev",
+      "provider_used": "manual-curate",
+      "creator_id": "150820",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:26+07:00",
+      "raw_provider": {
+        "id": 34396237,
+        "photographer": "Andrey Matveev",
+        "photographer_id": "150820"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch",
@@ -1178,14 +1708,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/sleek-smartphone-on-wooden-table-indoors-34602867/",
       "direct_url": "https://images.pexels.com/photos/34602867/pexels-photo-34602867.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Caleb Oquendo",
+      "creator_url": "https://www.pexels.com/@caleboquendo",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.jpg",
       "output_path": "static/images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Caleb Oquendo",
+      "provider_used": "manual-curate",
+      "creator_id": "583126",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:26+07:00",
+      "raw_provider": {
+        "id": 34602867,
+        "photographer": "Caleb Oquendo",
+        "photographer_id": "583126"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
@@ -1200,7 +1740,12 @@
       "local_source_path": "static/images/posts-src/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.jpg",
       "output_path": "static/images/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.webp",
       "watermark_text": "Source: Pexels / Kharl Anthony Paica",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@kharlitos",
+      "creator_id": "1701570",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:35+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
@@ -1215,7 +1760,12 @@
       "local_source_path": "static/images/posts-src/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.jpg",
       "output_path": "static/images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp",
       "watermark_text": "Source: Pexels / Tran Nhu Tuan",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@kooldark",
+      "creator_id": "23251645",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:36+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "vi-sao-review-dai-chua-chac-da-dang-tin",
@@ -1230,7 +1780,12 @@
       "local_source_path": "static/images/posts-src/vi-sao-review-dai-chua-chac-da-dang-tin.jpg",
       "output_path": "static/images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp",
       "watermark_text": "Source: Pexels / Hiếu Lê",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@hi-u-le-921253873",
+      "creator_id": "921253873",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:36+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
@@ -1245,7 +1800,12 @@
       "local_source_path": "static/images/posts-src/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.jpg",
       "output_path": "static/images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp",
       "watermark_text": "Source: Pexels / Stanislav Kondratiev",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@technobulka",
+      "creator_id": "1497515",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:36+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
@@ -1260,7 +1820,12 @@
       "local_source_path": "static/images/posts-src/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.jpg",
       "output_path": "static/images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp",
       "watermark_text": "Source: Pexels / joon young, Park",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@doldosa",
+      "creator_id": "3425379",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:37+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
@@ -1275,7 +1840,12 @@
       "local_source_path": "static/images/posts-src/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.jpg",
       "output_path": "static/images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp",
       "watermark_text": "Source: Pexels / Ivan Babydov",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@babydov",
+      "creator_id": "54154657",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:37+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
@@ -1290,7 +1860,12 @@
       "local_source_path": "static/images/posts-src/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.jpg",
       "output_path": "static/images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp",
       "watermark_text": "Source: Pexels / Thien Le Duy",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@thienleduyphoto",
+      "creator_id": "2148391928",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:38+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
@@ -1305,7 +1880,12 @@
       "local_source_path": "static/images/posts-src/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.jpg",
       "output_path": "static/images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp",
       "watermark_text": "Source: Pexels / Jeffry Surianto",
-      "creator_url": ""
+      "creator_url": "https://www.pexels.com/@andromeda99",
+      "creator_id": "3009141",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:43:38+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
@@ -1320,7 +1900,12 @@
       "local_source_path": "static/images/posts-src/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.jpg",
       "output_path": "static/images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp",
       "watermark_text": "Source: Pixabay / jarmoluk",
-      "creator_url": ""
+      "creator_url": "https://pixabay.com/users/jarmoluk-143740/",
+      "creator_id": "143740",
+      "attribution_verified": true,
+      "attribution_source": "pixabay_api",
+      "attribution_checked_at": "2026-07-09T10:43:52+07:00",
+      "image_provider": "pixabay"
     },
     {
       "slug": "apple-thua-kien-eu-app-store-ios-dma",
@@ -1329,13 +1914,23 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/modern-high-glass-building-with-a-european-union-flag-6791897/",
       "direct_url": "https://images.pexels.com/photos/6791897/pexels-photo-6791897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "creator": "",
+      "creator": "Adam B.",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/apple-thua-kien-eu-app-store-ios-dma.jpg",
       "output_path": "static/images/posts/apple-thua-kien-eu-app-store-ios-dma.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "watermark_text": "Source: Pexels / Adam B.",
+      "creator_url": "https://www.pexels.com/@adam-b-1620746",
+      "creator_id": "1620746",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:50+07:00",
+      "raw_provider": {
+        "id": 6791897,
+        "photographer": "Adam B.",
+        "photographer_id": "1620746"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
@@ -1344,13 +1939,23 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/flag-of-european-columns-between-columns-22046935/",
       "direct_url": "https://images.pexels.com/photos/22046935/pexels-photo-22046935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "creator": "",
+      "creator": "Petrit Nikolli",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/digital-markets-act-la-gi-eu-siet-apple-google-meta.jpg",
       "output_path": "static/images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "watermark_text": "Source: Pexels / Petrit Nikolli",
+      "creator_url": "https://www.pexels.com/@studioideahd",
+      "creator_id": "3768398",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:57+07:00",
+      "raw_provider": {
+        "id": 22046935,
+        "photographer": "Petrit Nikolli",
+        "photographer_id": "3768398"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "app-store-gatekeeper-apple-so-mat-dieu-gi",
@@ -1359,13 +1964,23 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/black-smartphone-on-white-table-1181677/",
       "direct_url": "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "creator": "",
+      "creator": "Christina Morillo",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/app-store-gatekeeper-apple-so-mat-dieu-gi.jpg",
       "output_path": "static/images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "watermark_text": "Source: Pexels / Christina Morillo",
+      "creator_url": "https://www.pexels.com/@divinetechygirl",
+      "creator_id": "473730",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:49+07:00",
+      "raw_provider": {
+        "id": 1181677,
+        "photographer": "Christina Morillo",
+        "photographer_id": "473730"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
@@ -1374,13 +1989,23 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/photo-of-person-holding-smartphone-3760263/",
       "direct_url": "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "creator": "",
+      "creator": "Andrea Piacquadio",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.jpg",
       "output_path": "static/images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "watermark_text": "Source: Pexels / Andrea Piacquadio",
+      "creator_url": "https://www.pexels.com/@olly",
+      "creator_id": "224453",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:20+07:00",
+      "raw_provider": {
+        "id": 3760263,
+        "photographer": "Andrea Piacquadio",
+        "photographer_id": "224453"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
@@ -1389,13 +2014,18 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/person-holding-black-iphone-7-3861969/",
       "direct_url": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "creator": "",
+      "creator": "Harry Parvin",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/ios-mo-hon-nguoi-dung-chau-au-mat-gi.jpg",
       "output_path": "static/images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "watermark_text": "Source: Pexels / Harry Parvin",
+      "creator_url": "",
+      "creator_id": "",
+      "attribution_verified": true,
+      "attribution_source": "embedded_exif_iptc_xmp",
+      "attribution_checked_at": "2026-07-09T10:47:03+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
@@ -1404,13 +2034,23 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/person-using-macbook-pro-6476589/",
       "direct_url": "https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "creator": "",
+      "creator": "Mikael Blomkvist",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/nha-phat-trien-app-duoc-loi-gi-tu-dma.jpg",
       "output_path": "static/images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "watermark_text": "Source: Pexels / Mikael Blomkvist",
+      "creator_url": "https://www.pexels.com/@mikael-blomkvist",
+      "creator_id": "2416688",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:20+07:00",
+      "raw_provider": {
+        "id": 6476589,
+        "photographer": "Mikael Blomkvist",
+        "photographer_id": "2416688"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "european-commission-duoc-gi-khi-thang-apple",
@@ -1419,13 +2059,23 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/",
       "direct_url": "https://images.pexels.com/photos/33401027/pexels-photo-33401027.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "creator": "",
+      "creator": "aleksandre lomadze",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/european-commission-duoc-gi-khi-thang-apple.jpg",
       "output_path": "static/images/posts/european-commission-duoc-gi-khi-thang-apple.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "watermark_text": "Source: Pexels / aleksandre lomadze",
+      "creator_url": "https://www.pexels.com/@aleksandre-lomadze-2154684396",
+      "creator_id": "2154684396",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:58+07:00",
+      "raw_provider": {
+        "id": 33401027,
+        "photographer": "aleksandre lomadze",
+        "photographer_id": "2154684396"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "apple-vs-ec-dma-tuong-lai-iphone",
@@ -1440,7 +2090,12 @@
       "local_source_path": "static/images/posts-src/apple-vs-ec-dma-tuong-lai-iphone.jpg",
       "output_path": "static/images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp",
       "watermark_text": "Source: Pexels",
-      "creator_url": ""
+      "creator_url": "",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "not_found",
+      "attribution_checked_at": "2026-07-09T10:46:50+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
@@ -1449,14 +2104,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/starbucks-coffee-sign-302899/",
       "direct_url": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
+      "creator": "Chevanon Photography",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.jpg",
       "output_path": "static/images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": "",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Chevanon Photography",
+      "creator_url": "https://www.pexels.com/@chevanon",
+      "provider_used": "manual-curate",
+      "creator_id": "93955",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:24+07:00",
+      "raw_provider": {
+        "id": 302899,
+        "photographer": "Chevanon Photography",
+        "photographer_id": "93955"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "starbucks-nguyen-van-troi-sai-gon-review",
@@ -1472,7 +2137,11 @@
       "output_path": "static/images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp",
       "watermark_text": "Source: Self",
       "creator_url": "",
-      "provider_used": "self-owned"
+      "provider_used": "self-owned",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "not_found",
+      "attribution_checked_at": "2026-07-09T10:47:23+07:00"
     },
     {
       "slug": "starbucks-vietnam-menu-do-uong-nen-thu",
@@ -1481,14 +2150,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/coffee-cup-on-table-1709003/",
       "direct_url": "https://images.pexels.com/photos/1709003/pexels-photo-1709003.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
+      "creator": "ICSA",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/starbucks-vietnam-menu-do-uong-nen-thu.jpg",
       "output_path": "static/images/posts/starbucks-vietnam-menu-do-uong-nen-thu.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": "",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / ICSA",
+      "creator_url": "https://www.pexels.com/@icsa-833425",
+      "provider_used": "manual-curate",
+      "creator_id": "833425",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:24+07:00",
+      "raw_provider": {
+        "id": 1709003,
+        "photographer": "ICSA",
+        "photographer_id": "833425"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "starbucks-vietnam-nhan-vien-va-dich-vu",
@@ -1497,14 +2176,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/person-holding-starbucks-disposable-cup-324028/",
       "direct_url": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
+      "creator": "Chevanon Photography",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/starbucks-vietnam-nhan-vien-va-dich-vu.jpg",
       "output_path": "static/images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": "",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Chevanon Photography",
+      "creator_url": "https://www.pexels.com/@chevanon",
+      "provider_used": "manual-curate",
+      "creator_id": "93955",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:25+07:00",
+      "raw_provider": {
+        "id": 324028,
+        "photographer": "Chevanon Photography",
+        "photographer_id": "93955"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "starbucks-vietnam-khong-gian-va-trai-nghiem",
@@ -1513,14 +2202,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/people-sitting-inside-room-1457847/",
       "direct_url": "https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
+      "creator": "Jean van der Meulen",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/starbucks-vietnam-khong-gian-va-trai-nghiem.jpg",
       "output_path": "static/images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": "",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Jean van der Meulen",
+      "creator_url": "https://www.pexels.com/@jvdm",
+      "provider_used": "manual-curate",
+      "creator_id": "642133",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:23+07:00",
+      "raw_provider": {
+        "id": 1457847,
+        "photographer": "Jean van der Meulen",
+        "photographer_id": "642133"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "starbucks-vietnam-meo-goi-order-va-rewards",
@@ -1529,14 +2228,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/person-using-macbook-pro-on-brown-wooden-table-1001969/",
       "direct_url": "https://images.pexels.com/photos/1001969/pexels-photo-1001969.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
+      "creator": "Iván Rivero",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/starbucks-vietnam-meo-goi-order-va-rewards.jpg",
       "output_path": "static/images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp",
-      "watermark_text": "Source: Pexels",
-      "creator_url": "",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Iván Rivero",
+      "creator_url": "https://www.pexels.com/@osho",
+      "provider_used": "manual-curate",
+      "creator_id": "233620",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:25+07:00",
+      "raw_provider": {
+        "id": 1001969,
+        "photographer": "Iván Rivero",
+        "photographer_id": "233620"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-18-co-gi-moi",
@@ -1545,14 +2254,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-169400/",
       "direct_url": "https://images.pexels.com/photos/169400/pexels-photo-169400.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Mariano Ruffa",
+      "creator_url": "https://www.pexels.com/@mariano-ruffa-45855",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-18-co-gi-moi.jpg",
       "output_path": "static/images/posts/iphone-18-co-gi-moi.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Mariano Ruffa",
+      "provider_used": "manual-curate",
+      "creator_id": "45855",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:09+07:00",
+      "raw_provider": {
+        "id": 169400,
+        "photographer": "Mariano Ruffa",
+        "photographer_id": "45855"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-18-khi-nao-ra-mat",
@@ -1561,14 +2280,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-1092675/",
       "direct_url": "https://images.pexels.com/photos/1092675/pexels-photo-1092675.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Pooja  K",
+      "creator_url": "https://www.pexels.com/@pooja1225",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-18-khi-nao-ra-mat.jpg",
       "output_path": "static/images/posts/iphone-18-khi-nao-ra-mat.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Pooja  K",
+      "provider_used": "manual-curate",
+      "creator_id": "236474",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:11+07:00",
+      "raw_provider": {
+        "id": 1092675,
+        "photographer": "Pooja  K",
+        "photographer_id": "236474"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-18-pro-max-co-gi-moi",
@@ -1577,14 +2306,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-1092672/",
       "direct_url": "https://images.pexels.com/photos/1092672/pexels-photo-1092672.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Iana Pugachova",
+      "creator_url": "https://www.pexels.com/@iana-pugachova-407924",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-18-pro-max-co-gi-moi.jpg",
       "output_path": "static/images/posts/iphone-18-pro-max-co-gi-moi.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Iana Pugachova",
+      "provider_used": "manual-curate",
+      "creator_id": "407924",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:11+07:00",
+      "raw_provider": {
+        "id": 1092672,
+        "photographer": "Iana Pugachova",
+        "photographer_id": "407924"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "co-nen-cho-iphone-18-khong",
@@ -1593,14 +2332,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-1092671/",
       "direct_url": "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Lisa from Pexels",
+      "creator_url": "https://www.pexels.com/@fotios-photos",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/co-nen-cho-iphone-18-khong.jpg",
       "output_path": "static/images/posts/co-nen-cho-iphone-18-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Lisa from Pexels",
+      "provider_used": "manual-curate",
+      "creator_id": "26735",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:55+07:00",
+      "raw_provider": {
+        "id": 1092671,
+        "photographer": "Lisa from Pexels",
+        "photographer_id": "26735"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-fold-iphone-ultra-la-gi",
@@ -1616,7 +2365,12 @@
       "local_source_path": "static/images/posts-src/iphone-fold-iphone-ultra-la-gi.jpg",
       "output_path": "static/images/posts/iphone-fold-iphone-ultra-la-gi.webp",
       "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "provider_used": "manual-curate",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "not_found",
+      "attribution_checked_at": "2026-07-09T10:47:14+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-18-chip-a20-2nm",
@@ -1625,14 +2379,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-788884/",
       "direct_url": "https://images.pexels.com/photos/788884/pexels-photo-788884.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Ferdinand Frederik",
+      "creator_url": "https://www.pexels.com/@ferdinand-frederik-257244",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-18-chip-a20-2nm.jpg",
       "output_path": "static/images/posts/iphone-18-chip-a20-2nm.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Ferdinand Frederik",
+      "provider_used": "manual-curate",
+      "creator_id": "257244",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:09+07:00",
+      "raw_provider": {
+        "id": 788884,
+        "photographer": "Ferdinand Frederik",
+        "photographer_id": "257244"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-18-dynamic-island-nho-hon-under-display-face-id",
@@ -1641,14 +2405,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-788883/",
       "direct_url": "https://images.pexels.com/photos/788883/pexels-photo-788883.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Adrian Trujillo",
+      "creator_url": "https://www.pexels.com/@adrian-trujillo-257684",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-18-dynamic-island-nho-hon-under-display-face-id.jpg",
       "output_path": "static/images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Adrian Trujillo",
+      "provider_used": "manual-curate",
+      "creator_id": "257684",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:10+07:00",
+      "raw_provider": {
+        "id": 788883,
+        "photographer": "Adrian Trujillo",
+        "photographer_id": "257684"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "camera-iphone-18-co-gi-moi",
@@ -1657,14 +2431,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-788882/",
       "direct_url": "https://images.pexels.com/photos/788882/pexels-photo-788882.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Ferdinand Frederik",
+      "creator_url": "https://www.pexels.com/@ferdinand-frederik-257244",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/camera-iphone-18-co-gi-moi.jpg",
       "output_path": "static/images/posts/camera-iphone-18-co-gi-moi.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Ferdinand Frederik",
+      "provider_used": "manual-curate",
+      "creator_id": "257244",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:53+07:00",
+      "raw_provider": {
+        "id": 788882,
+        "photographer": "Ferdinand Frederik",
+        "photographer_id": "257244"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-18-gia-bao-nhieu",
@@ -1673,14 +2457,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-788881/",
       "direct_url": "https://images.pexels.com/photos/788881/pexels-photo-788881.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Osama Saad",
+      "creator_url": "https://www.pexels.com/@osama-saad-257685",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-18-gia-bao-nhieu.jpg",
       "output_path": "static/images/posts/iphone-18-gia-bao-nhieu.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Osama Saad",
+      "provider_used": "manual-curate",
+      "creator_id": "257685",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:10+07:00",
+      "raw_provider": {
+        "id": 788881,
+        "photographer": "Osama Saad",
+        "photographer_id": "257685"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-18-vs-iphone-17",
@@ -1689,14 +2483,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-788880/",
       "direct_url": "https://images.pexels.com/photos/788880/pexels-photo-788880.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Osama Saad",
+      "creator_url": "https://www.pexels.com/@osama-saad-257685",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-18-vs-iphone-17.jpg",
       "output_path": "static/images/posts/iphone-18-vs-iphone-17.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Osama Saad",
+      "provider_used": "manual-curate",
+      "creator_id": "257685",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:12+07:00",
+      "raw_provider": {
+        "id": 788880,
+        "photographer": "Osama Saad",
+        "photographer_id": "257685"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "iphone-18-mau-gi-dark-cherry",
@@ -1705,14 +2509,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-47261/",
       "direct_url": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "MOHI SYED",
+      "creator_url": "https://www.pexels.com/@luckysam",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-18-mau-gi-dark-cherry.jpg",
       "output_path": "static/images/posts/iphone-18-mau-gi-dark-cherry.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / MOHI SYED",
+      "provider_used": "manual-curate",
+      "creator_id": "8247",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:11+07:00",
+      "raw_provider": {
+        "id": 47261,
+        "photographer": "MOHI SYED",
+        "photographer_id": "8247"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "di-han-thang-10-co-dep-khong",
@@ -1721,14 +2535,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-2131627/",
       "direct_url": "https://images.pexels.com/photos/2131627/pexels-photo-2131627.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Quang Nguyen Vinh",
+      "creator_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/di-han-thang-10-co-dep-khong.jpg",
       "output_path": "static/images/posts/di-han-thang-10-co-dep-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Quang Nguyen Vinh",
+      "provider_used": "manual-curate",
+      "creator_id": "222549",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:55+07:00",
+      "raw_provider": {
+        "id": 2131627,
+        "photographer": "Quang Nguyen Vinh",
+        "photographer_id": "222549"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "thoi-tiet-han-quoc-thang-10",
@@ -1737,14 +2561,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-2131626/",
       "direct_url": "https://images.pexels.com/photos/2131626/pexels-photo-2131626.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Quang Nguyen Vinh",
+      "creator_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/thoi-tiet-han-quoc-thang-10.jpg",
       "output_path": "static/images/posts/thoi-tiet-han-quoc-thang-10.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Quang Nguyen Vinh",
+      "provider_used": "manual-curate",
+      "creator_id": "222549",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:25+07:00",
+      "raw_provider": {
+        "id": 2131626,
+        "photographer": "Quang Nguyen Vinh",
+        "photographer_id": "222549"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "han-quoc-thang-10-co-la-do-chua",
@@ -1753,14 +2587,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-2131625/",
       "direct_url": "https://images.pexels.com/photos/2131625/pexels-photo-2131625.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Quang Nguyen Vinh",
+      "creator_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/han-quoc-thang-10-co-la-do-chua.jpg",
       "output_path": "static/images/posts/han-quoc-thang-10-co-la-do-chua.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Quang Nguyen Vinh",
+      "provider_used": "manual-curate",
+      "creator_id": "222549",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:59+07:00",
+      "raw_provider": {
+        "id": 2131625,
+        "photographer": "Quang Nguyen Vinh",
+        "photographer_id": "222549"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "di-han-thang-10-mac-gi",
@@ -1769,14 +2613,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-175039/",
       "direct_url": "https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "energepic.com",
+      "creator_url": "https://www.pexels.com/@energepic-com-27411",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/di-han-thang-10-mac-gi.jpg",
       "output_path": "static/images/posts/di-han-thang-10-mac-gi.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / energepic.com",
+      "provider_used": "manual-curate",
+      "creator_id": "27411",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:56+07:00",
+      "raw_provider": {
+        "id": 175039,
+        "photographer": "energepic.com",
+        "photographer_id": "27411"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "seoul-thang-10-nen-di-dau",
@@ -1785,14 +2639,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-12787325/",
       "direct_url": "https://images.pexels.com/photos/12787325/pexels-photo-12787325.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Светлана Конева",
+      "creator_url": "https://www.pexels.com/@269097219",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/seoul-thang-10-nen-di-dau.jpg",
       "output_path": "static/images/posts/seoul-thang-10-nen-di-dau.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Светлана Конева",
+      "provider_used": "manual-curate",
+      "creator_id": "269097219",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:22+07:00",
+      "raw_provider": {
+        "id": 12787325,
+        "photographer": "Светлана Конева",
+        "photographer_id": "269097219"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "nami-thang-10-co-dang-di-khong",
@@ -1801,14 +2665,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-12787324/",
       "direct_url": "https://images.pexels.com/photos/12787324/pexels-photo-12787324.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Светлана Конева",
+      "creator_url": "https://www.pexels.com/@269097219",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/nami-thang-10-co-dang-di-khong.jpg",
       "output_path": "static/images/posts/nami-thang-10-co-dang-di-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Светлана Конева",
+      "provider_used": "manual-curate",
+      "creator_id": "269097219",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:19+07:00",
+      "raw_provider": {
+        "id": 12787324,
+        "photographer": "Светлана Конева",
+        "photographer_id": "269097219"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "seoraksan-thang-10-ngam-la-do",
@@ -1817,14 +2691,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-12787323/",
       "direct_url": "https://images.pexels.com/photos/12787323/pexels-photo-12787323.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Светлана Конева",
+      "creator_url": "https://www.pexels.com/@269097219",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/seoraksan-thang-10-ngam-la-do.jpg",
       "output_path": "static/images/posts/seoraksan-thang-10-ngam-la-do.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Светлана Конева",
+      "provider_used": "manual-curate",
+      "creator_id": "269097219",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:21+07:00",
+      "raw_provider": {
+        "id": 12787323,
+        "photographer": "Светлана Конева",
+        "photographer_id": "269097219"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "busan-thang-10-nen-di-dau",
@@ -1833,14 +2717,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-12787322/",
       "direct_url": "https://images.pexels.com/photos/12787322/pexels-photo-12787322.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Светлана Конева",
+      "creator_url": "https://www.pexels.com/@269097219",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/busan-thang-10-nen-di-dau.jpg",
       "output_path": "static/images/posts/busan-thang-10-nen-di-dau.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Светлана Конева",
+      "provider_used": "manual-curate",
+      "creator_id": "269097219",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:51+07:00",
+      "raw_provider": {
+        "id": 12787322,
+        "photographer": "Светлана Конева",
+        "photographer_id": "269097219"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "jeju-thang-10-co-dep-khong",
@@ -1849,14 +2743,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-12787321/",
       "direct_url": "https://images.pexels.com/photos/12787321/pexels-photo-12787321.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Светлана Конева",
+      "creator_url": "https://www.pexels.com/@269097219",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/jeju-thang-10-co-dep-khong.jpg",
       "output_path": "static/images/posts/jeju-thang-10-co-dep-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Светлана Конева",
+      "provider_used": "manual-curate",
+      "creator_id": "269097219",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:14+07:00",
+      "raw_provider": {
+        "id": 12787321,
+        "photographer": "Светлана Конева",
+        "photographer_id": "269097219"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
@@ -1865,14 +2769,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-69918/",
       "direct_url": "https://images.pexels.com/photos/69918/pexels-photo-69918.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "sn arafat",
+      "creator_url": "https://www.pexels.com/@sn-arafat-15946",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/lich-trinh-di-han-thang-10-5-ngay-4-dem.jpg",
       "output_path": "static/images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / sn arafat",
+      "provider_used": "manual-curate",
+      "creator_id": "15946",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:15+07:00",
+      "raw_provider": {
+        "id": 69918,
+        "photographer": "sn arafat",
+        "photographer_id": "15946"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "chi-phi-di-han-thang-10-tu-tuc",
@@ -1881,14 +2795,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-4042807/",
       "direct_url": "https://images.pexels.com/photos/4042807/pexels-photo-4042807.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Delyan Nedyalkov",
+      "creator_url": "https://www.pexels.com/@delyan-nedyalkov-2400661",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/chi-phi-di-han-thang-10-tu-tuc.jpg",
       "output_path": "static/images/posts/chi-phi-di-han-thang-10-tu-tuc.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Delyan Nedyalkov",
+      "provider_used": "manual-curate",
+      "creator_id": "2400661",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:54+07:00",
+      "raw_provider": {
+        "id": 4042807,
+        "photographer": "Delyan Nedyalkov",
+        "photographer_id": "2400661"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
@@ -1904,7 +2828,12 @@
       "local_source_path": "static/images/posts-src/lich-trinh-di-han-thang-10-7-ngay-6-dem.jpg",
       "output_path": "static/images/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.webp",
       "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "provider_used": "manual-curate",
+      "creator_id": "",
+      "attribution_verified": false,
+      "attribution_source": "not_found",
+      "attribution_checked_at": "2026-07-09T10:47:16+07:00",
+      "image_provider": "pexels"
     },
     {
       "slug": "di-han-thang-11-co-dep-khong",
@@ -1913,14 +2842,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-2131620/",
       "direct_url": "https://images.pexels.com/photos/2131620/pexels-photo-2131620.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Quang Nguyen Vinh",
+      "creator_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/di-han-thang-11-co-dep-khong.jpg",
       "output_path": "static/images/posts/di-han-thang-11-co-dep-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Quang Nguyen Vinh",
+      "provider_used": "manual-curate",
+      "creator_id": "222549",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:56+07:00",
+      "raw_provider": {
+        "id": 2131620,
+        "photographer": "Quang Nguyen Vinh",
+        "photographer_id": "222549"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "thoi-tiet-han-quoc-thang-11",
@@ -1929,14 +2868,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-2131624/",
       "direct_url": "https://images.pexels.com/photos/2131624/pexels-photo-2131624.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Quang Nguyen Vinh",
+      "creator_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/thoi-tiet-han-quoc-thang-11.jpg",
       "output_path": "static/images/posts/thoi-tiet-han-quoc-thang-11.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Quang Nguyen Vinh",
+      "provider_used": "manual-curate",
+      "creator_id": "222549",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:26+07:00",
+      "raw_provider": {
+        "id": 2131624,
+        "photographer": "Quang Nguyen Vinh",
+        "photographer_id": "222549"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "han-quoc-thang-11-co-la-do-chua",
@@ -1945,14 +2894,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-2131618/",
       "direct_url": "https://images.pexels.com/photos/2131618/pexels-photo-2131618.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Quang Nguyen Vinh",
+      "creator_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/han-quoc-thang-11-co-la-do-chua.jpg",
       "output_path": "static/images/posts/han-quoc-thang-11-co-la-do-chua.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Quang Nguyen Vinh",
+      "provider_used": "manual-curate",
+      "creator_id": "222549",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:59+07:00",
+      "raw_provider": {
+        "id": 2131618,
+        "photographer": "Quang Nguyen Vinh",
+        "photographer_id": "222549"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "di-han-thang-11-mac-gi",
@@ -1961,14 +2920,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-32077763/",
       "direct_url": "https://images.pexels.com/photos/32077763/pexels-photo-32077763.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Eric Prouzet",
+      "creator_url": "https://www.pexels.com/@eric-prouzet-225470",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/di-han-thang-11-mac-gi.jpg",
       "output_path": "static/images/posts/di-han-thang-11-mac-gi.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Eric Prouzet",
+      "provider_used": "manual-curate",
+      "creator_id": "225470",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:56+07:00",
+      "raw_provider": {
+        "id": 32077763,
+        "photographer": "Eric Prouzet",
+        "photographer_id": "225470"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "seoul-thang-11-nen-di-dau",
@@ -1977,14 +2946,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-2131616/",
       "direct_url": "https://images.pexels.com/photos/2131616/pexels-photo-2131616.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Quang Nguyen Vinh",
+      "creator_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/seoul-thang-11-nen-di-dau.jpg",
       "output_path": "static/images/posts/seoul-thang-11-nen-di-dau.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Quang Nguyen Vinh",
+      "provider_used": "manual-curate",
+      "creator_id": "222549",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:22+07:00",
+      "raw_provider": {
+        "id": 2131616,
+        "photographer": "Quang Nguyen Vinh",
+        "photographer_id": "222549"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "nami-thang-11-co-dang-di-khong",
@@ -1993,14 +2972,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-12787316/",
       "direct_url": "https://images.pexels.com/photos/12787316/pexels-photo-12787316.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Светлана Конева",
+      "creator_url": "https://www.pexels.com/@269097219",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/nami-thang-11-co-dang-di-khong.jpg",
       "output_path": "static/images/posts/nami-thang-11-co-dang-di-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Светлана Конева",
+      "provider_used": "manual-curate",
+      "creator_id": "269097219",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:19+07:00",
+      "raw_provider": {
+        "id": 12787316,
+        "photographer": "Светлана Конева",
+        "photographer_id": "269097219"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "seoraksan-thang-11-ngam-la-do",
@@ -2009,14 +2998,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-340139/",
       "direct_url": "https://images.pexels.com/photos/340139/pexels-photo-340139.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Near Look",
+      "creator_url": "https://www.pexels.com/@near-look-110077",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/seoraksan-thang-11-ngam-la-do.jpg",
       "output_path": "static/images/posts/seoraksan-thang-11-ngam-la-do.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Near Look",
+      "provider_used": "manual-curate",
+      "creator_id": "110077",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:22+07:00",
+      "raw_provider": {
+        "id": 340139,
+        "photographer": "Near Look",
+        "photographer_id": "110077"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "busan-thang-11-nen-di-dau",
@@ -2025,14 +3024,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-340138/",
       "direct_url": "https://images.pexels.com/photos/340138/pexels-photo-340138.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Near Look",
+      "creator_url": "https://www.pexels.com/@near-look-110077",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/busan-thang-11-nen-di-dau.jpg",
       "output_path": "static/images/posts/busan-thang-11-nen-di-dau.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Near Look",
+      "provider_used": "manual-curate",
+      "creator_id": "110077",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:51+07:00",
+      "raw_provider": {
+        "id": 340138,
+        "photographer": "Near Look",
+        "photographer_id": "110077"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "jeju-thang-11-co-dep-khong",
@@ -2041,14 +3050,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-12787319/",
       "direct_url": "https://images.pexels.com/photos/12787319/pexels-photo-12787319.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Светлана Конева",
+      "creator_url": "https://www.pexels.com/@269097219",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/jeju-thang-11-co-dep-khong.jpg",
       "output_path": "static/images/posts/jeju-thang-11-co-dep-khong.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Светлана Конева",
+      "provider_used": "manual-curate",
+      "creator_id": "269097219",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:14+07:00",
+      "raw_provider": {
+        "id": 12787319,
+        "photographer": "Светлана Конева",
+        "photographer_id": "269097219"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
@@ -2057,14 +3076,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-12787318/",
       "direct_url": "https://images.pexels.com/photos/12787318/pexels-photo-12787318.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Светлана Конева",
+      "creator_url": "https://www.pexels.com/@269097219",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/lich-trinh-di-han-thang-11-5-ngay-4-dem.jpg",
       "output_path": "static/images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Светлана Конева",
+      "provider_used": "manual-curate",
+      "creator_id": "269097219",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:47:16+07:00",
+      "raw_provider": {
+        "id": 12787318,
+        "photographer": "Светлана Конева",
+        "photographer_id": "269097219"
+      },
+      "image_provider": "pexels"
     },
     {
       "slug": "chi-phi-di-han-thang-11-tu-tuc",
@@ -2073,14 +3102,24 @@
       "source_platform": "Pexels",
       "source_url": "https://www.pexels.com/photo/pexels-photo-12787317/",
       "direct_url": "https://images.pexels.com/photos/12787317/pexels-photo-12787317.jpeg?auto=compress&cs=tinysrgb&w=1920",
-      "creator": "",
-      "creator_url": "",
+      "creator": "Светлана Конева",
+      "creator_url": "https://www.pexels.com/@269097219",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/chi-phi-di-han-thang-11-tu-tuc.jpg",
       "output_path": "static/images/posts/chi-phi-di-han-thang-11-tu-tuc.webp",
-      "watermark_text": "Source: Pexels",
-      "provider_used": "manual-curate"
+      "watermark_text": "Source: Pexels / Светлана Конева",
+      "provider_used": "manual-curate",
+      "creator_id": "269097219",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "attribution_checked_at": "2026-07-09T10:46:54+07:00",
+      "raw_provider": {
+        "id": 12787317,
+        "photographer": "Светлана Конева",
+        "photographer_id": "269097219"
+      },
+      "image_provider": "pexels"
     }
   ]
 }

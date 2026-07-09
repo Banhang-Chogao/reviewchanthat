@@ -22,10 +22,16 @@ image: images/posts/phuket-mua-mua-co-nen-di-khong.webp
 image_commercial_use: true
 image_license: Pexels License
 image_owner: external
-image_creator: ""
-image_creator_url: ""
+image_creator: anmarinina
+image_creator_url: "https://www.pexels.com/@anmarinina-2160388760"
+image_creator_id: 2160388760
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:31+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/tropical-beach-in-phuket-thailand-with-scenic-views-36687407/
+image_source_url: "https://www.pexels.com/photo/tropical-beach-in-phuket-thailand-with-scenic-views-36687407/"
 slug: phuket-mua-mua-co-nen-di-khong
 tags:
 - Phuket mùa mưa

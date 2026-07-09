@@ -37,11 +37,17 @@ faq:
 image: images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp
 image_commercial_use: true
 image_creator: Hiếu Lê
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@hi-u-le-921253873"
+image_creator_id: 921253873
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:43:36+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/team-collaboration-meeting-with-paperwork-indoors-38460673/
+image_source_url: "https://www.pexels.com/photo/team-collaboration-meeting-with-paperwork-indoors-38460673/"
 slug: vi-sao-review-dai-chua-chac-da-dang-tin
 tags:
 - review dài

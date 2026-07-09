@@ -18,12 +18,18 @@ description: 'Đánh giá pin iPhone 16 Pro Max: thời lượng thực tế, so
 draft: false
 image: images/posts/pin-iphone-16-pro-max-co-dang-chon.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: Jobert Enamno
+image_creator_url: "https://www.pexels.com/@jobzky"
+image_creator_id: 1689872
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:21+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/young-woman-using-smartphone-in-cozy-cafe-31446172/
+image_source_url: "https://www.pexels.com/photo/young-woman-using-smartphone-in-cozy-cafe-31446172/"
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 7
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'

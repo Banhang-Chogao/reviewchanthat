@@ -29,12 +29,18 @@ external_links:
   url: https://www.starbucks.vn/menu
 image: images/posts/starbucks-vietnam-menu-do-uong-nen-thu.webp
 image_commercial_use: true
-image_creator: ''
-image_creator_url: ''
+image_creator: ICSA
+image_creator_url: "https://www.pexels.com/@icsa-833425"
+image_creator_id: 833425
+image_attribution_verified: true
+image_attribution_source: pexels_api
+image_attribution_checked_at: "2026-07-09T10:47:24+07:00"
+image_license_url: "https://www.pexels.com/license/"
+image_provider: pexels
 image_license: Pexels License
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/coffee-cup-on-table-1709003/
+image_source_url: "https://www.pexels.com/photo/man-standing-in-front-of-people-1709003/"
 series: starbucks-vietnam
 series_order: 3
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'

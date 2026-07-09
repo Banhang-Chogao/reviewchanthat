@@ -36,10 +36,16 @@ thumbnail: images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-ba
 image_commercial_use: true
 image_license: Pixabay Content License
 image_owner: external
-image_creator: ""
-image_creator_url: ""
+image_creator: jprohaszka
+image_creator_url: "https://pixabay.com/users/jprohaszka-75254/"
+image_creator_id: 75254
+image_attribution_verified: true
+image_attribution_source: pixabay_api
+image_attribution_checked_at: "2026-07-09T10:46:57+07:00"
+image_license_url: "https://pixabay.com/service/license-summary/"
+image_provider: pixabay
 image_source: Pixabay
-image_source_url: https://pixabay.com/photos/bangkok-river-market-boats-5863391/
+image_source_url: "https://pixabay.com/photos/bangkok-river-market-boats-5863391/"
 series: du-lich-thai-lan
 series_title: "Du lịch Thái Lan tự túc"
 series_order: 1
