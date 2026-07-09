@@ -2,65 +2,65 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Thời tiết Thái Lan mùa mưa (tháng 7–10) dao động 24–34°C, độ ẩm >80% — ưu tiên
-    vải cotton, linen hoặc quick-dry, tránh jeans dày và giày bít.
-  - Áo mưa gấp gọn hoặc ô dù nhỏ là vật dụng quan trọng nhất; túi chống nước cho điện
-    thoại và sạc dự phòng cũng thiết yếu.
-  - Giày sandals chống nước hoặc giày thể thao quick-dry tốt hơn giày vải hoặc da;
-    nên mang ít nhất 2 đôi giày để thay phiên.
-  - 'Thuốc cần mang: men tiêu hoá, than hoạt tính, thuốc chống muỗi, thuốc cảm/sốt
-    và thuốc say xe — hệ tiêu hoá dễ biểu tình nhất khi đi Thái.'
-  title: Tóm tắt bài viết
+  items: ["Thời tiết Thái Lan mùa mưa (tháng 7–10) dao động 24–34°C, độ ẩm >80% — ưu tiên vải cotton, linen hoặc quick-dry, tránh jeans dày và giày bít.", "Áo mưa gấp gọn hoặc ô dù nhỏ là vật dụng quan trọng nhất; túi chống nước cho điện thoại và sạc dự phòng cũng thiết yếu.", "Giày sandals chống nước hoặc giày thể thao quick-dry tốt hơn giày vải hoặc da; nên mang ít nhất 2 đôi giày để thay phiên.", "Thuốc cần mang: men tiêu hoá, than hoạt tính, thuốc chống muỗi, thuốc cảm/sốt và thuốc say xe — hệ tiêu hoá dễ biểu tình nhất khi đi Thái."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.tourismthailand.org,
-    https://www.accuweather.com, https://www.tripadvisor.com, https://www.who.int.'
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.tourismthailand.org, https://www.accuweather.com, https://www.tripadvisor.com, https://www.who.int."
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- du-lich
+  - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Checklist vali đi Thái Lan mùa mưa: quần áo, giày dép, đồ chống nước,
-  thuốc men và vật dụng cần thiết cho thời tiết nóng ẩm — từ người có kinh nghiệm.'
+description: >-
+  Checklist vali đi Thái Lan mùa mưa: quần áo, giày dép, đồ chống nước, thuốc men và vật dụng cần thiết cho thời tiết nóng ẩm — từ người có kinh nghiệm.
 draft: false
 image: images/posts/checklist-vali-di-thai-mua-mua.webp
-image_attribution_checked_at: '2026-07-09T10:43:19+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T10:43:19+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: 
 image_creator_id: 2515433
-image_creator_url: ''
+image_creator_url: 
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/couple-packing-clothes-and-belongings-in-suitcase-4245895/
+image_source_url: >-
+  https://www.pexels.com/photo/couple-packing-clothes-and-belongings-in-suitcase-4245895/
 series:
-- du-lich-thai-lan-mua-mua
+  - du-lich-thai-lan-mua-mua
 series_order: 12
 series_title: Du lịch Thái Lan mùa mưa
 slug: checklist-vali-di-thai-mua-mua
 tags:
-- checklist vali Thái Lan
-- đi Thái Lan mùa mưa
-- du lịch Thái Lan
-- đồ cần mang đi Thái
-- packing list Thái Lan
+  - checklist vali Thái Lan
+tags:
+  - đi Thái Lan mùa mưa
+tags:
+  - du lịch Thái Lan
+tags:
+  - đồ cần mang đi Thái
+tags:
+  - packing list Thái Lan
 thumbnail: images/posts/checklist-vali-di-thai-mua-mua.webp
-title: 'Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm'
+title: >-
+  Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm
 tom_tat_nhanh:
-- label: Thời tiết
-  value: 24–34°C, ẩm 80%+
-- label: Vải nên mặc
-  value: Cotton, linen, quick-dry
-- label: Giày
-  value: Sandals chống nước
-- label: Đồ chống mưa
-  value: Áo mưa gấp gọn
+  - {"label": "Thời tiết", "value": "24–34°C, ẩm 80%+"}
+tom_tat_nhanh:
+  - {"label": "Vải nên mặc", "value": "Cotton, linen, quick-dry"}
+tom_tat_nhanh:
+  - {"label": "Giày", "value": "Sandals chống nước"}
+tom_tat_nhanh:
+  - {"label": "Đồ chống mưa", "value": "Áo mưa gấp gọn"}
+seo_title: >-
+  Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không
 ---
 
 ## Checklist vali đi Thái mùa mưa

@@ -2,91 +2,93 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Apple chưa công bố iPhone 18; bài phân tích có nên chờ dựa trên tin đồn MacRumors,
-    AppleInsider và nhu cầu thực tế.
-  - Người dùng iPhone 15/16 thường có lý do chờ Pro hoặc base 18; iPhone 17 mới thường
-    không cần chờ trừ khi cần Fold hoặc camera Pro.
-  - Split launch — Pro tháng 9/2026, base đầu 2027 — ảnh hưởng trực tiếp quyết định
-    chờ hay mua iPhone 17 giảm giá.
-  - Series iPhone 18 — liên kết lịch ra mắt, Pro Max, giá và so sánh iPhone 17.
-  title: Tóm tắt bài viết
+  items: ["Apple chưa công bố iPhone 18; bài phân tích có nên chờ dựa trên tin đồn MacRumors, AppleInsider và nhu cầu thực tế.", "Người dùng iPhone 15/16 thường có lý do chờ Pro hoặc base 18; iPhone 17 mới thường không cần chờ trừ khi cần Fold hoặc camera Pro.", "Split launch — Pro tháng 9/2026, base đầu 2027 — ảnh hưởng trực tiếp quyết định chờ hay mua iPhone 17 giảm giá.", "Series iPhone 18 — liên kết lịch ra mắt, Pro Max, giá và so sánh iPhone 17."]
+  title: "Tóm tắt bài viết"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- cong-nghe
-date: '2026-07-08 09:00:00+07:00'
-description: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17? Phân
-  tích theo từng đời máy, split launch, tin đồn nâng cấp và ngân sách cho người dùng
-  Việt Nam.
+  - cong-nghe
+date: >-
+  2026-07-08 09:00:00+07:00
+description: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17? Phân tích theo từng đời máy, split launch, tin đồn nâng cấp và ngân sách cho người dùng Việt
 draft: false
 external_links:
-- title: MacRumors — iPhone 18 roundup
-  url: https://www.macrumors.com/roundup/iphone-18/
-- title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
-- title: AppleInsider — iPhone 18 expectations
-  url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
-- title: MacRumors — leaker downgrade iPhone 18 base
-  url: https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/
+  - {"title": "MacRumors — iPhone 18 roundup", "url": "https://www.macrumors.com/roundup/iphone-18/"}
+external_links:
+  - {"title": "MacRumors — iPhone 18 Pro roundup", "url": "https://www.macrumors.com/roundup/iphone-18-pro/"}
+external_links:
+  - {"title": "AppleInsider — iPhone 18 expectations", "url": "https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more"}
+external_links:
+  - {"title": "MacRumors — leaker downgrade iPhone 18 base", "url": "https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/"}
 image: images/posts/co-nen-cho-iphone-18-khong.webp
-image_alt: 'Editorial illustration for: Có nên chờ iPhone 18 không nếu đang dùng iPhone
-  15, 16 hoặc 17?'
+image_alt: >-
+  Editorial illustration for: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?
 image_attribution_source: self_generated
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Review Chân Thật
-image_creator_url: https://banhang-chogao.github.io/reviewchanthat/
+image_creator_url: >-
+  https://banhang-chogao.github.io/reviewchanthat/
 image_generation_method: programmatic_pillow
 image_license: Original self-hosted editorial illustration by Review Chân Thật
-image_license_url: https://banhang-chogao.github.io/reviewchanthat/branding-ci/
+image_license_url: >-
+  https://banhang-chogao.github.io/reviewchanthat/branding-ci/
 image_owner: self
 image_provider: self-generated
 image_source: Review Chân Thật
-image_source_url: https://banhang-chogao.github.io/reviewchanthat/
+image_source_url: >-
+  https://banhang-chogao.github.io/reviewchanthat/
 image_status: verified
 inline_illustrations:
-- heading: Bảng tóm tắt nhanh
-  image: images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp
-- heading: Tin đã có nguồn / Tin còn là đồn đoán
-  image: images/posts/co-nen-cho-iphone-18-khong_tin-c-ngu-n-tin-c-n-l-n-o-n.webp
-- heading: Phân tích theo từng đời máy
-  image: images/posts/co-nen-cho-iphone-18-khong_ph-n-t-ch-theo-t-ng-i-m-y.webp
-- heading: Yếu tố ngoài đời máy — nên cân nhắc trước khi chờ
-  image: images/posts/co-nen-cho-iphone-18-khong_y-u-t-ngo-i-i-m-y-n-n-c-n-nh-c-tr-c-khi-ch.webp
-- heading: Ai nên chờ / Ai không nên chờ
-  image: images/posts/co-nen-cho-iphone-18-khong_ai-n-n-ch-ai-kh-ng-n-n-ch.webp
-- heading: Kết luận
-  image: images/posts/co-nen-cho-iphone-18-khong_k-t-lu-n.webp
+  - {"heading": "Bảng tóm tắt nhanh", "image": "images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp"}
+inline_illustrations:
+  - {"heading": "Tin đã có nguồn / Tin còn là đồn đoán", "image": "images/posts/co-nen-cho-iphone-18-khong_tin-c-ngu-n-tin-c-n-l-n-o-n.webp"}
+inline_illustrations:
+  - {"heading": "Phân tích theo từng đời máy", "image": "images/posts/co-nen-cho-iphone-18-khong_ph-n-t-ch-theo-t-ng-i-m-y.webp"}
+inline_illustrations:
+  - {"heading": "Yếu tố ngoài đời máy — nên cân nhắc trước khi chờ", "image": "images/posts/co-nen-cho-iphone-18-khong_y-u-t-ngo-i-i-m-y-n-n-c-n-nh-c-tr-c-khi-ch.webp"}
+inline_illustrations:
+  - {"heading": "Ai nên chờ / Ai không nên chờ", "image": "images/posts/co-nen-cho-iphone-18-khong_ai-n-n-ch-ai-kh-ng-n-n-ch.webp"}
+inline_illustrations:
+  - {"heading": "Kết luận", "image": "images/posts/co-nen-cho-iphone-18-khong_k-t-lu-n.webp"}
 inline_image_count: 6
 inline_images:
-- images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp
-- images/posts/co-nen-cho-iphone-18-khong_tin-c-ngu-n-tin-c-n-l-n-o-n.webp
-- images/posts/co-nen-cho-iphone-18-khong_ph-n-t-ch-theo-t-ng-i-m-y.webp
-- images/posts/co-nen-cho-iphone-18-khong_y-u-t-ngo-i-i-m-y-n-n-c-n-nh-c-tr-c-khi-ch.webp
-- images/posts/co-nen-cho-iphone-18-khong_ai-n-n-ch-ai-kh-ng-n-n-ch.webp
-- images/posts/co-nen-cho-iphone-18-khong_k-t-lu-n.webp
+  - images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp
+inline_images:
+  - images/posts/co-nen-cho-iphone-18-khong_tin-c-ngu-n-tin-c-n-l-n-o-n.webp
+inline_images:
+  - images/posts/co-nen-cho-iphone-18-khong_ph-n-t-ch-theo-t-ng-i-m-y.webp
+inline_images:
+  - images/posts/co-nen-cho-iphone-18-khong_y-u-t-ngo-i-i-m-y-n-n-c-n-nh-c-tr-c-khi-ch.webp
+inline_images:
+  - images/posts/co-nen-cho-iphone-18-khong_ai-n-n-ch-ai-kh-ng-n-n-ch.webp
+inline_images:
+  - images/posts/co-nen-cho-iphone-18-khong_k-t-lu-n.webp
 series: iphone-18-co-gi-moi
 series_order: 4
 series_title: iPhone 18 có gì mới
 slug: co-nen-cho-iphone-18-khong
 tags:
-- có nên chờ iPhone 18
-- iPhone 15
-- iPhone 16
-- iPhone 17
-- mua iPhone 2026
+  - có nên chờ iPhone 18
+tags:
+  - iPhone 15
+tags:
+  - iPhone 16
+tags:
+  - iPhone 17
+tags:
+  - mua iPhone 2026
 thumbnail: images/posts/co-nen-cho-iphone-18-khong.webp
 title: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?
 tom_tat_nhanh:
-- label: Chủ đề
-  value: Có nên chờ iPhone 18?
-- label: iPhone 17
-  value: Thường không cần chờ
-- label: iPhone 15/16
-  value: Cân nhắc theo nhu cầu & timeline đồn
-- label: Hợp với
-  value: Người phân vân mua hay chờ 2026–2027
+  - {"label": "Chủ đề", "value": "Có nên chờ iPhone 18?"}
+tom_tat_nhanh:
+  - {"label": "iPhone 17", "value": "Thường không cần chờ"}
+tom_tat_nhanh:
+  - {"label": "iPhone 15/16", "value": "Cân nhắc theo nhu cầu & timeline đồn"}
+tom_tat_nhanh:
+  - {"label": "Hợp với", "value": "Người phân vân mua hay chờ 2026–2027"}
 ---
 
 “**Có nên chờ iPhone 18 không?**” — câu hỏi lặp lại mỗi năm, nhưng 2026–2027 phức tạp hơn vì tin đồn **split launch**: Pro ra **tháng 9/2026**, base có thể **đầu 2027**. Apple **chưa công bố** iPhone 18; bài này giúp bạn quyết định theo **máy đang dùng** (15, 16 hay 17), **ngân sách** và **mức chấp nhận rủi ro tin đồn** — không dựa trên tính năng Apple đã xác nhận.

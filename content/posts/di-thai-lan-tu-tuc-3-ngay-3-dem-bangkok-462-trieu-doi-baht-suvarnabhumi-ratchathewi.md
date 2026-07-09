@@ -2,73 +2,68 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Nếu 4,62 triệu đã gồm vé máy bay khứ hồi và 3 đêm hostel/khách sạn ở khu Ratchathewi
-    hoặc Siam thì đây là mức khá ổn, nhất là khi đi sát ngày.
-  - Từ sân bay Suvarnabhumi về Ratchathewi, Airport Rail Link đến Phaya Thai rồi đi
-    bộ hoặc nối BTS 1 trạm là lựa chọn tiết kiệm nhất.
-  - Đổi baht nên ưu tiên ngân hàng hoặc đại lý đổi ngoại tệ được cấp phép; không nên
-    đổi ở tiệm vàng không có phép dù tỷ giá nghe hấp dẫn.
-  - Siam Eco Hostel/Eco Siam hợp với người đi một mình vì vị trí tốt, gần BTS, nhưng
-    cần lưu ý chuyện cầu thang/no elevator và nên chọn phòng phù hợp hành lý.
-  title: Tóm tắt bài viết
+  items: ["Nếu 4,62 triệu đã gồm vé máy bay khứ hồi và 3 đêm hostel/khách sạn ở khu Ratchathewi hoặc Siam thì đây là mức khá ổn, nhất là khi đi sát ngày.", "Từ sân bay Suvarnabhumi về Ratchathewi, Airport Rail Link đến Phaya Thai rồi đi bộ hoặc nối BTS 1 trạm là lựa chọn tiết kiệm nhất.", "Đổi baht nên ưu tiên ngân hàng hoặc đại lý đổi ngoại tệ được cấp phép; không nên đổi ở tiệm vàng không có phép dù tỷ giá nghe hấp dẫn.", "Siam Eco Hostel/Eco Siam hợp với người đi một mình vì vị trí tốt, gần BTS, nhưng cần lưu ý chuyện cầu thang/no elevator và nên chọn phòng phù hợp hành lý."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/flights/ho-chi-minh-city-to-bangkok/tickets-sgn-bkk/,
-    https://www.bangkokairportonline.com/bangkok-airport-rail-link/, https://www.tripadvisor.com/Hotel_Review-g293916-d17463402-Reviews-Siam_Eco_Hostel-Bangkok.html,
-    https://www.hostelworld.com/hostels/p/296070/siam-eco-hostel/, https://vnba.org.vn/vi/ngan-hang-nha-nuoc-viet-nam-ban-hanh-thong-tu-23-2026-sua-doi-quy-dinh-ve-dai-ly-doi-ngoai-te-va-dai-ly-doi-tien-bien-gioi-22266.htm,
-    https://chinhphu.vn/?pageid=27160&docid=208141 và các nguồn khác.'
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/flights/ho-chi-minh-city-to-bangkok/tickets-sgn-bkk/, https://www.bangkokairportonline.com/bangkok-airport-rail-link/, https://www.tripadvisor.com/Hotel_Review-g293916-d17463402-Reviews-Siam_Eco_Hostel-Bangkok.html, https://www.hostelworld.com/hostels/p/296070/siam-eco-hostel/, https://vnba.org.vn/vi/ngan-hang-nha-nuoc-viet-nam-ban-hanh-thong-tu-23-2026-sua-doi-quy-dinh-ve-dai-ly-doi-ngoai-te-va-dai-ly-doi-tien-bien-gioi-22266.htm, https://chinhphu.vn/?pageid=27160&docid=208141 và các nguồn khác."
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- doi-song
+  - doi-song
 date: 2026-07-08 09:00:00+07:00
-description: 'Phân tích thực tế cho người đi Bangkok tự túc lần đầu: giá vé máy bay
-  và khách sạn 4,62 triệu có nên chốt, đổi baht ở TP.HCM sao cho an toàn, cách đi
-  Airport Rail Link từ Suvarnabhumi về Ratchathewi và review nhanh Siam Eco Hostel.'
+description: >-
+  Phân tích thực tế cho người đi Bangkok tự túc lần đầu: giá vé máy bay và khách sạn 4,62 triệu có nên chốt, đổi baht ở TP.HCM sao cho an toàn, cách đi Airport
 draft: false
 image: images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp
-image_attribution_checked_at: '2026-07-09T10:46:57+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T10:46:57+07:00
 image_attribution_source: pixabay_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: 
 image_creator_id: 75254
-image_creator_url: ''
+image_creator_url: 
 image_license: Pixabay Content License
-image_license_url: https://pixabay.com/service/license-summary/
+image_license_url: >-
+  https://pixabay.com/service/license-summary/
 image_owner: external
 image_provider: pixabay
 image_source: Pixabay
-image_source_url: https://pixabay.com/photos/bangkok-river-market-boats-5863391/
+image_source_url: >-
+  https://pixabay.com/photos/bangkok-river-market-boats-5863391/
 series: du-lich-thai-lan
 series_order: 1
 series_title: Du lịch Thái Lan tự túc
 slug: di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi
 tags:
-- du lịch Thái Lan
-- Bangkok tự túc
-- Suvarnabhumi
-- Ratchathewi
-- đổi baht
-- Siam Eco Hostel
+  - du lịch Thái Lan
+tags:
+  - Bangkok tự túc
+tags:
+  - Suvarnabhumi
+tags:
+  - Ratchathewi
+tags:
+  - đổi baht
+tags:
+  - Siam Eco Hostel
 thumbnail: images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp
-title: 'Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không,
-  đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?'
+title: >-
+  Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?
 tom_tat_nhanh:
-- label: Khu vực
-  value: Bangkok (Ratchathewi, Siam, Phaya Thai)
-- label: Ngân sách
-  value: ~4,62 triệu VND (vé máy bay + 3 đêm chỗ ở)
-- label: Hợp với
-  value: Người đi một mình, lần đầu đi Bangkok tự túc
-- label: Thời gian
-  value: 3 ngày 3 đêm
-- label: Di chuyển chính
-  value: Airport Rail Link + BTS Skytrain
-- label: Có cần visa không
-  value: Không (miễn visa Thái Lan cho Việt Nam)
+  - {"label": "Khu vực", "value": "Bangkok (Ratchathewi, Siam, Phaya Thai)"}
+tom_tat_nhanh:
+  - {"label": "Ngân sách", "value": "~4,62 triệu VND (vé máy bay + 3 đêm chỗ ở)"}
+tom_tat_nhanh:
+  - {"label": "Hợp với", "value": "Người đi một mình, lần đầu đi Bangkok tự túc"}
+tom_tat_nhanh:
+  - {"label": "Thời gian", "value": "3 ngày 3 đêm"}
+tom_tat_nhanh:
+  - {"label": "Di chuyển chính", "value": "Airport Rail Link + BTS Skytrain"}
+tom_tat_nhanh:
+  - {"label": "Có cần visa không", "value": "Không (miễn visa Thái Lan cho Việt Nam)"}
 ---
 
 ## Đi Thái Lan tự túc 3 ngày 3 đêm: 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?
