@@ -152,7 +152,7 @@ jobs:
             --base main \
             --head "$BRANCH" \
             --title "chore(content): apply Content Direction optimizer" \
-            --body "Nightly Content Direction all-safe run. Score targets 100. [content-direction-optimizer]" \
+            --body "Nightly Content Direction all-safe run. Score targets 100. Fixes applied will auto-merge and trigger content direction update." \
             --label automerge --label automated --label content-direction --label seo
 
           # Auto-resolve conflicts if any
@@ -162,8 +162,8 @@ jobs:
             CONFLICT=$(gh pr view "$PR_NUMBER" --json mergeable --jq '.mergeable' || true)
             if [ "$CONFLICT" = "CONFLICTING" ]; then
               echo "PR #$PR_NUMBER has conflicts — auto-resolving..."
-              python scripts/auto_resolve_pr_conflicts.py "$BRANCH"
+              python scripts/auto_resolve_pr_conflicts.py "$BRANCH" || true
               sleep 5
-              gh pr merge "$PR_NUMBER" --squash --subject "fix: auto-resolve conflicts [content-direction-optimizer]" --body "Auto-resolved by keeping main version." || true
+              gh pr merge "$PR_NUMBER" --auto --squash --subject "fix: auto-resolve conflicts [content-direction-optimizer]" --body "Auto-resolved by keeping main version." 2>/dev/null || true
             fi
           fi || true

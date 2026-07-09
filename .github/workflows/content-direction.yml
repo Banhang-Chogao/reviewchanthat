@@ -1,8 +1,9 @@
 name: Content Direction
 
-# Global rule: only run AFTER "Deploy to GitHub Pages" fully completes.
-# Avoids racing deploy for runners and reduces Content Direction failures
-# caused by concurrent builds / incomplete main checkout during deploy.
+# Triggers:
+# 1. After Deploy to GitHub Pages completes (normal flow)
+# 2. After push to main with content/data changes (optimizer merge)
+# 3. Manual dispatch
 on:
   workflow_dispatch:
   workflow_run:
@@ -10,6 +11,12 @@ on:
       - "Deploy to GitHub Pages"
     types:
       - completed
+  push:
+    branches: [main]
+    paths:
+      - 'content/posts/**'
+      - 'data/content-direction*.json'
+      - 'data/internal-links.json'
 
 concurrency:
   group: content-direction-main
@@ -22,28 +29,45 @@ permissions:
 
 jobs:
   content-direction:
-    # Manual dispatch always runs; after deploy only when deploy succeeded on main.
+    # Runs on: manual dispatch, after deploy success, or after optimizer merge
     if: >
       github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
       (github.event.workflow_run.conclusion == 'success' &&
        github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout deployed SHA
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Checkout main branch (not detached HEAD) so git push works.
-          # Deploy already ran and completed, so main is up-to-date.
           ref: main
           fetch-depth: 0
 
+      - name: Skip if recent content-direction commit
+        id: skip
+        run: |
+          LAST_CD_COMMIT=$(git log -1 --grep='\[content-direction' --oneline | head -1 || echo "")
+          LAST_COMMIT=$(git log -1 --oneline)
+          if [ -z "$LAST_CD_COMMIT" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$LAST_CD_COMMIT" = "$LAST_COMMIT" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Skipping: last commit is from content-direction"
+            exit 0
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
       - name: Setup Python
+        if: steps.skip.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Install Python dependencies
+        if: steps.skip.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: Setup Hugo
@@ -52,28 +76,37 @@ jobs:
           hugo-version: "0.163.1"
           extended: true
 
+      - name: Setup Hugo
+        if: steps.skip.outputs.skip != 'true'
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.163.1"
+          extended: true
+
       - name: Generate Content Direction report
+        if: steps.skip.outputs.skip != 'true'
         run: |
           python scripts/content_direction.py \
             --json data/content-direction.json \
             --md reports/content-direction-report.md
 
       - name: QA Content Direction (data)
+        if: steps.skip.outputs.skip != 'true'
         run: python scripts/qa_content_direction.py
 
       - name: Build Hugo
+        if: steps.skip.outputs.skip != 'true'
         run: hugo --minify --baseURL "https://banhang-chogao.github.io/reviewchanthat/"
 
       - name: QA Content Direction (public)
+        if: steps.skip.outputs.skip != 'true'
         run: python scripts/qa_content_direction.py --public
 
       - name: Commit report if changed (no deploy loop)
+        if: steps.skip.outputs.skip != 'true'
         id: commit
         run: |
           set -euo pipefail
-          # reports/** is permanently gitignored (private artifacts).
-          # Only track data/content-direction.json for Hugo dashboard.
-          # deploy.yml paths-ignore that JSON so this commit does not redeploy.
           if git diff --quiet -- data/content-direction.json; then
             echo "No content-direction data changes."
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -87,6 +120,6 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m "chore(content-direction): refresh report data [skip-report]"
+          git commit -m "chore(content-direction): refresh report data [content-direction]"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
