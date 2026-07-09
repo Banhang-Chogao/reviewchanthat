@@ -3138,5 +3138,38 @@
       "photographer_id": "269097219"
     },
     "image_provider": "pexels"
+  },
+  "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd": {
+    "slug": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
+    "title": "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị",
+    "image_id": "img-fa3ba2f1",
+    "source_platform": "Pexels",
+    "image_provider": "pexels",
+    "source_url": "https://www.pexels.com/photo/traditional-hanok-village-street-in-seoul-33019244/",
+    "direct_url": "https://images.pexels.com/photos/33019244/pexels-photo-33019244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "creator": "Saksham Vikram",
+    "creator_url": "https://www.pexels.com/@saksham-vikram-2148641748",
+    "creator_id": "2148641748",
+    "photo_id": "",
+    "raw_provider": {
+      "id": 33019244,
+      "photographer": "Saksham Vikram",
+      "photographer_id": "2148641748"
+    },
+    "license": "Pexels License",
+    "commercial_use": true,
+    "local_source_path": "static/images/posts-src/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.jpg",
+    "output_path": "static/images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp",
+    "watermark_text": "Source: Pexels / Saksham Vikram",
+    "provider_used": "Pexels",
+    "attribution_verified": true,
+    "attribution_source": "pexels_api",
+    "image_query": "bukchon hanok village korea",
+    "image_semantic_score": 29.02,
+    "image_color_score": 12.0,
+    "image_total_score": 64.52,
+    "image_alt": "Ảnh minh họa Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị — nguồn Pexels",
+    "gate_verified": true,
+    "attribution_checked_at": "2026-07-09T11:40:21+07:00"
   }
 }
