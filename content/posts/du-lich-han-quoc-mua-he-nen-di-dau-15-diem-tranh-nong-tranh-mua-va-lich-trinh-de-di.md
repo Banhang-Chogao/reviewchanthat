@@ -1,107 +1,77 @@
 ---
 ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Hàn Quốc mùa hè (tháng 7–8) nóng ẩm, mưa nhiều nhưng vẫn đi được nếu biết chọn
-    điểm tránh nóng, tránh mưa phù hợp.
-  - Top điểm đến gồm biển Busan, Jeju, công viên nước, indoor ở Seoul, làng cổ và
-    khu nghỉ dưỡng.
-  - Bài viết tổng hợp 15 điểm đến kèm lịch trình gợi ý cho 3–7 ngày, phù hợp mọi đối
-    tượng.
+  collapsed: False
+  enabled: True
+  items: ['Hàn Quốc mùa hè (tháng 7–8) nóng ẩm, mưa nhiều nhưng vẫn đi được nếu biết chọn điểm tránh nóng, tránh mưa phù hợp.', 'Top điểm đến gồm biển Busan, Jeju, công viên nước, indoor ở Seoul, làng cổ và khu nghỉ dưỡng.', 'Bài viết tổng hợp 15 điểm đến kèm lịch trình gợi ý cho 3–7 ngày, phù hợp mọi đối tượng.']
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.koreatodo.com, https://www.trip.com.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
+  source_note: Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.koreatodo.com, https://www.trip.com.
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- du-lich
+  - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: Du lịch Hàn Quốc mùa hè nên đi đâu? Gợi ý 15 điểm tránh nóng, tránh mưa
-  ở Seoul, Busan, Jeju kèm lịch trình chi tiết 3–7 ngày cho người đi lần đầu.
+description: Du lịch Hàn Quốc mùa hè nên đi đâu? Gợi ý 15 điểm tránh nóng, tránh mưa ở Seoul, Busan, Jeju kèm lịch trình chi tiết 3–7 ngày cho người đi lần đầu.
 draft: false
 external_links:
-- title: https://english.visitkorea.or.kr
-  url: https://english.visitkorea.or.kr
-- title: https://www.koreatodo.com
-  url: https://www.koreatodo.com
-- title: https://www.trip.com
-  url: https://www.trip.com
+  - {'title': 'https://english.visitkorea.or.kr', 'url': 'https://english.visitkorea.or.kr'}
+  - {'title': 'https://www.koreatodo.com', 'url': 'https://www.koreatodo.com'}
+  - {'title': 'https://www.trip.com', 'url': 'https://www.trip.com'}
 faq:
-- answer: Tháng 6–8. Tháng 7 mưa nhiều (mùa mưa), tháng 8 nóng nhất nhưng biển đẹp.
-  question: Mùa hè Hàn Quốc từ tháng mấy?
-- answer: Busan, Jeju biển đẹp. Seoul có công viên nước, indoor. Đà Lạt kiểu Hàn có
-    Gapyeong, Nami Island.
-  question: Đi đâu để tránh nóng?
-- answer: Mang áo mưa nhẹ, giày chống nước, lên lịch dự phòng indoor. Xem [Seoul ngày
-    mưa nên đi đâu]({{< ref "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh"
-    >}}).
-  question: Đi Hàn Quốc mùa mưa có ổn không?
+  - {'answer': 'Tháng 6–8. Tháng 7 mưa nhiều (mùa mưa), tháng 8 nóng nhất nhưng biển đẹp.', 'question': 'Mùa hè Hàn Quốc từ tháng mấy?'}
+  - {'answer': 'Busan, Jeju biển đẹp. Seoul có công viên nước, indoor. Đà Lạt kiểu Hàn có Gapyeong, Nami Island.', 'question': 'Đi đâu để tránh nóng?'}
+  - {'answer': 'Mang áo mưa nhẹ, giày chống nước, lên lịch dự phòng indoor. Xem [Seoul ngày mưa nên đi đâu]({{< ref "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh" >}}).', 'question': 'Đi Hàn Quốc mùa mưa có ổn không?'}
 image: images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp
-image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:37:59+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Line Knipst
-image_creator_id: '574109081'
-image_creator_url: https://www.pexels.com/@line-knipst-574109081
+image_creator_id: 574109081
+image_creator_url: >-
+  https://www.pexels.com/@line-knipst-574109081
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/crowd-of-tourists-on-the-walkway-in-bukchon-hanok-village-20325769/
+image_source_url: >-
+  https://www.pexels.com/photo/crowd-of-tourists-on-the-walkway-in-bukchon-hanok-village-20325769/
 internal_links:
-- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-  title: 10 điểm tránh nóng dưới nước ở Hàn Quốc
-- ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
-  title: Seoul ngày mưa nên đi đâu? 20 điểm indoor
-- ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-  title: Hàn Quốc tháng 7 có đẹp không?
-- ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
-  title: Hàn Quốc tháng 8 nên đi đâu?
-- ref: posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md
-  title: Busan mùa hè nên đi đâu?
-- ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md
-  title: Jeju mùa hè nên đi đâu?
-- ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md
-  title: Caribbean Bay Hàn Quốc
-- ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
-  title: Lịch trình Seoul 3 ngày mùa mưa
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-  title: Checklist vali đi Hàn mùa hè
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-  title: Top 20 hoạt động du lịch Hàn Quốc
-- ref: posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md
-  title: Haeundae Beach Busan
-- ref: posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md
-  title: Biển đẹp ở Jeju
+  - {'ref': 'posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md', 'title': '10 điểm tránh nóng dưới nước ở Hàn Quốc'}
+  - {'ref': 'posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md', 'title': 'Seoul ngày mưa nên đi đâu? 20 điểm indoor'}
+  - {'ref': 'posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md', 'title': 'Hàn Quốc tháng 7 có đẹp không?'}
+  - {'ref': 'posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md', 'title': 'Hàn Quốc tháng 8 nên đi đâu?'}
+  - {'ref': 'posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md', 'title': 'Busan mùa hè nên đi đâu?'}
+  - {'ref': 'posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md', 'title': 'Jeju mùa hè nên đi đâu?'}
+  - {'ref': 'posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md', 'title': 'Caribbean Bay Hàn Quốc'}
+  - {'ref': 'posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md', 'title': 'Lịch trình Seoul 3 ngày mùa mưa'}
+  - {'ref': 'posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md', 'title': 'Checklist vali đi Hàn mùa hè'}
+  - {'ref': 'posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md', 'title': 'Top 20 hoạt động du lịch Hàn Quốc'}
+  - {'ref': 'posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md', 'title': 'Haeundae Beach Busan'}
+  - {'ref': 'posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md', 'title': 'Biển đẹp ở Jeju'}
 series: du-lich-han-quoc-mua-he
 series_order: 1
 series_title: Du lịch Hàn Quốc mùa hè
 slug: du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di
 tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- tránh nóng
-- lịch trình Hàn Quốc
-- series du lịch
+  - du lịch Hàn Quốc
+  - Hàn Quốc mùa hè
+  - tránh nóng
+  - lịch trình Hàn Quốc
+  - series du lịch
 thumbnail: images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp
-title: Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình
-  dễ đi
+title: Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi
 tom_tat_nhanh:
-- label: Thời gian
-  value: Tháng 7–8 (cao điểm hè)
-- label: Điểm chính
-  value: Seoul, Busan, Jeju
-- label: Phù hợp
-  value: Mọi đối tượng
-- label: Ngân sách
-  value: 15–25 triệu VND / người / 5 ngày
-- label: Lưu ý
-  value: Mùa mưa tháng 7, nắng gắt tháng 8
+  - {'label': 'Thời gian', 'value': 'Tháng 7–8 (cao điểm hè)'}
+  - {'label': 'Điểm chính', 'value': 'Seoul, Busan, Jeju'}
+  - {'label': 'Phù hợp', 'value': 'Mọi đối tượng'}
+  - {'label': 'Ngân sách', 'value': '15–25 triệu VND / người / 5 ngày'}
+  - {'label': 'Lưu ý', 'value': 'Mùa mưa tháng 7, nắng gắt tháng 8'}
+seo_title: Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng
 ---
 
 Hàn Quốc mùa hè — tháng 7 nóng ẩm, tháng 8 nắng rang — nhưng không phải là không đi được. Nếu chọn đúng điểm, bạn vẫn có một chuyến đi trọn vẹn: tắm biển Busan, lặn ngụp công viên nước, thăm làng cổ giữa rừng xanh, hoặc trốn trong quán cà phê indoor giữa cơn mưa rào.

@@ -1,69 +1,59 @@
 ---
 ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - EC thắng trên nguyên tắc DMA — phạt Apple 500 triệu euro anti-steering, buộc mở
-    phân phối và giảm rào cản gatekeeper; củng cố uy tín luật chống độc quyền số.
-  - Tiền phạt chỉ là một phần; giá trị lớn hơn là tiền lệ cho Google, Meta và các
-    gatekeeper khác, cộng quyền giám sát liên tục theo DMA.
-  - 'Rủi ro cho EC: kháng cáo kéo dài, cáo buộc phạt Mỹ, và kết quả thị trường chưa
-    chứng minh giá app giảm hoặc đổi mới tăng mạnh.'
-  - Người theo dõi VN nên xem DMA như mô hình luật nền tảng — có thể ảnh hưởng tranh
-    luận quản trị app store tại châu Á.
+  collapsed: False
+  enabled: True
+  items: ['EC thắng trên nguyên tắc DMA — phạt Apple 500 triệu euro anti-steering, buộc mở phân phối và giảm rào cản gatekeeper; củng cố uy tín luật chống độc quyền số.', 'Tiền phạt chỉ là một phần; giá trị lớn hơn là tiền lệ cho Google, Meta và các gatekeeper khác, cộng quyền giám sát liên tục theo DMA.', 'Rủi ro cho EC: kháng cáo kéo dài, cáo buộc phạt Mỹ, và kết quả thị trường chưa chứng minh giá app giảm hoặc đổi mới tăng mạnh.', 'Người theo dõi VN nên xem DMA như mô hình luật nền tảng — có thể ảnh hưởng tranh luận quản trị app store tại châu Á.']
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- cong-nghe
+  - cong-nghe
 date: 2026-07-08 11:00:00+07:00
-description: 'EC được gì khi thắng Apple trong tranh chấp DMA: tiền phạt, tiền lệ
-  pháp lý, quyền giám sát gatekeeper — và những rủi ro chính trị, thị trường EC phải
-  gánh.'
+description: >-
+  EC được gì khi thắng Apple trong tranh chấp DMA: tiền phạt, tiền lệ pháp lý, quyền giám sát gatekeeper — và những rủi ro chính trị, thị trường EC phải gánh.
 draft: false
 external_links:
-- title: EC — Apple và Meta vi phạm DMA (23/4/2025)
-  url: https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act
-- title: Tòa Tổng EU — Thông cáo cp260096en.pdf (8/7/2026)
-  url: https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf
-- title: Digital Markets Act — Trang chính thức EC
-  url: https://digital-markets-act.ec.europa.eu/
+  - {'title': 'EC — Apple và Meta vi phạm DMA (23/4/2025)', 'url': 'https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act'}
+  - {'title': 'Tòa Tổng EU — Thông cáo cp260096en.pdf (8/7/2026)', 'url': 'https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf'}
+  - {'title': 'Digital Markets Act — Trang chính thức EC', 'url': 'https://digital-markets-act.ec.europa.eu/'}
 image: images/posts/european-commission-duoc-gi-khi-thang-apple.webp
-image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:38:07+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: aleksandre lomadze
-image_creator_id: '2154684396'
-image_creator_url: https://www.pexels.com/@aleksandre-lomadze-2154684396
+image_creator_id: 2154684396
+image_creator_url: >-
+  https://www.pexels.com/@aleksandre-lomadze-2154684396
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/
+image_source_url: >-
+  https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/
 series: apple-ec-dma-app-store-ios
 series_order: 7
-series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
+series_title: >-
+  Apple vs EC: App Store, iOS và Digital Markets Act
 slug: european-commission-duoc-gi-khi-thang-apple
 tags:
-- European Commission
-- DMA
-- Apple
-- gatekeeper
-- anti-steering
-- luật chống độc quyền
+  - European Commission
+  - DMA
+  - Apple
+  - gatekeeper
+  - anti-steering
+  - luật chống độc quyền
 thumbnail: images/posts/european-commission-duoc-gi-khi-thang-apple.webp
-title: European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực
-  mới
+title: European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới
 tom_tat_nhanh:
-- label: Chủ đề
-  value: Lợi ích chiến lược EC trong vụ Apple DMA
-- label: Mốc chính
-  value: Phạt 500M€ (4/2025), designation gatekeeper 9/2023
-- label: Điểm then chốt
-  value: Uy tín luật > tiền phạt; kết quả thị trường còn mở
-- label: Hợp với
-  value: Người theo dõi chính sách công nghệ, luật số, quan hệ EU–Mỹ
+  - {'label': 'Chủ đề', 'value': 'Lợi ích chiến lược EC trong vụ Apple DMA'}
+  - {'label': 'Mốc chính', 'value': 'Phạt 500M€ (4/2025), designation gatekeeper 9/2023'}
+  - {'label': 'Điểm then chốt', 'value': 'Uy tín luật > tiền phạt; kết quả thị trường còn mở'}
+  - {'label': 'Hợp với', 'value': 'Người theo dõi chính sách công nghệ, luật số, quan hệ EU–Mỹ'}
+seo_title: European Commission được gì khi thắng Apple? Tiền phạt
 ---
 
 500 triệu euro — con số EC công bố khi phạt Apple vì vi phạm Digital Markets Act (DMA) vào tháng 4/2025. Trên headline, đó là “EC thắng Apple”. Nhưng hỏi một policy analyst ở Brussels **EC thực sự nhận được gì**, câu trả lời dài hơn một tờ hóa đơn phạt: **tiền lệ pháp lý**, **quyền giám sát gatekeeper**, **đòn bẩy với Big Tech khác** — và cả **rủi ro chính trị** khi Washington xem đây là “phạt công ty Mỹ”.
