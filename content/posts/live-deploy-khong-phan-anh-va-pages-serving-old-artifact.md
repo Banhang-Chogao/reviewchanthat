@@ -14,29 +14,33 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: "2026-07-10 04:45:00+07:00"
+date: '2026-07-10 04:45:00+07:00'
+description: '| Code | Safety | Mô tả | |------|--------|--------| | livedeploynotreflected
+  | safe | Merge OK nhưng live vẫn artifact cũ — thường verify/process | |'
 draft: false
-image: "images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp"
-image_alt: "Ảnh minh họa — Pexels / Daniil Komov"
-image_attribution_checked_at: '2026-07-10T04:52:59+07:00'
-image_attribution_source: "pexels_api"
+image: images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp
+image_alt: 'Ảnh minh họa Live deploy không phản ánh: build-info.json và GitHub Pages
+  serving old artifact — nguồn Pexels'
+image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_source: pexels_manifest
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: "Daniil Komov"
-image_creator_id: "133960344"
-image_creator_url: "https://www.pexels.com/@dkomov"
-image_license: "Pexels License"
-image_license_url: "https://www.pexels.com/license/"
-image_owner: "external"
-image_provider: "pexels"
+image_creator: Thien Le Duy
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@thienleduyphoto
+image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
+image_owner: external
+image_provider: pexels
 image_query: live deploy phản ánh build-info
-image_source: "Pexels"
-image_source_url: "https://www.pexels.com/photo/laptop-with-code-editor-displaying-programming-code-34803985/"
-image_status: "verified"
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/illuminated-landmark-81-tower-at-night-31194682/
+image_status: verified
 related_posts:
 - ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
 - github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code
 - workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress
+seo_title: 'Live deploy không phản ánh: build-info.json và GitHub Pages'
 series: ci-cd-root-cause-lessons
 series_order: 9
 series_title: CI/CD Root Cause Lessons
@@ -47,11 +51,8 @@ tags:
 - deploy verification
 - build-info
 - CI/CD
-thumbnail: "images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp"
+thumbnail: images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp
 title: 'Live deploy không phản ánh: build-info.json và GitHub Pages serving old artifact'
-seo_title: "Live deploy không phản ánh: build-info.json và GitHub Pages"
-description: "| Code | Safety | Mô tả | |------|--------|--------| | livedeploynotreflected | safe | Merge OK nhưng live vẫn artifact cũ — thường verify/process | |"
-
 ---
 
 ## Root cause

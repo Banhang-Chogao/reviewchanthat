@@ -42,7 +42,7 @@ faq:
 - answer: Rất phù hợp. Khu Larva được thiết kế riêng cho trẻ em, các trò chơi nhẹ
     nhàng và nhiều màu sắc.
 image: images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp
-image_attribution_checked_at: '2026-07-10T04:52:30+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -59,6 +59,7 @@ internal_links:
 - ref: posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md
 - ref: posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md
 - ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
+seo_title: 'Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho'
 series: du-lich
 series_order: 22
 series_title: Du lịch Hàn Quốc 2026
@@ -84,8 +85,6 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý mùa hè
   value: ''
-seo_title: "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho"
-
 ---
 
 Shinhwa Theme Park nằm trong tổ hợp Jeju Shinhwa World — khu resort khổng lồ ở phía nam Jeju. Không chỉ có theme park với các trò cảm giác mạnh, mà còn có Shinhwa Water Park riêng. Một combo "khô + ướt" cho cả ngày.

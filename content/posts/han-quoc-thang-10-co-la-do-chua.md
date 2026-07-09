@@ -38,7 +38,7 @@ faq:
 - answer: Seoraksan sớm nhất trong các điểm phổ biến — dự báo 2025 đỉnh khoảng 23/10.
     Nên đi giữa–cuối tháng 10.
 image: images/posts/han-quoc-thang-10-co-la-do-chua.webp
-image_attribution_checked_at: '2026-07-10T04:52:45+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -59,6 +59,7 @@ internal_links:
 - ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
 - ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
+seo_title: Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên
 series: di-han-thang-10
 series_order: 3
 series_title: Đi Hàn tháng 10
@@ -77,8 +78,6 @@ tom_tat_nhanh:
 - label: Seoul/Bukhansan (đỉnh 2025)
 - label: Nami Island
 - label: Lưu ý
-seo_title: "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên"
-
 ---
 
 “Hàn Quốc tháng 10 có lá đỏ chưa?” là câu hỏi phổ biến nhất khi lên kế hoạch đi Hàn mùa thu. Câu trả lời không phải “có” hay “không” đơn giản — mà phụ thuộc **địa điểm**, **tuần trong tháng** và **điều kiện thời tiết từng năm**.

@@ -38,7 +38,7 @@ faq:
 - answer: Đầu tháng 11 vẫn đẹp. Cuối tháng 11 có thể qua peak hoặc gặp tuyết nhẹ —
     không còn foliage đỏ rực.
 image: images/posts/han-quoc-thang-11-co-la-do-chua.webp
-image_attribution_checked_at: '2026-07-10T04:52:48+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -59,6 +59,7 @@ internal_links:
 - ref: posts/nami-thang-10-co-dang-di-khong.md
 - ref: posts/seoraksan-thang-10-ngam-la-do.md
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
+seo_title: Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan
 series: di-han-thang-11
 series_order: 3
 series_title: Đi Hàn tháng 11
@@ -77,8 +78,6 @@ tom_tat_nhanh:
 - label: Nami (peak 2025)
 - label: Seoraksan (peak 2025)
 - label: Lưu ý
-seo_title: "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan"
-
 ---
 
 "Hàn Quốc tháng 11 còn lá đỏ không?" là câu hỏi quan trọng khi lên kế hoạch đi Hàn cuối mùa thu. Khác với tháng 10 — khi lá mới bắt đầu đổi màu — tháng 11 thường là **tháng peak** ở Seoul và nhiều khu vực đô thị. Nhưng câu trả lời vẫn phụ thuộc **địa điểm**, **tuần trong tháng** và **điều kiện thời tiết từng năm**.

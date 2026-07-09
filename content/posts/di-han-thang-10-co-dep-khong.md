@@ -31,7 +31,7 @@ external_links:
 - title: Visit Korea — Seoul's Top 5 Fall Forests
 - title: Korea Meteorological Administration
 image: images/posts/di-han-thang-10-co-dep-khong.webp
-image_attribution_checked_at: '2026-07-10T04:52:44+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -43,6 +43,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/pexels-photo-2131627/
+seo_title: Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và
 series: di-han-thang-10
 series_order: 1
 series_title: Đi Hàn tháng 10
@@ -61,8 +62,6 @@ tom_tat_nhanh:
 - label: Lá đổi màu
 - label: Phù hợp
 - label: Lưu ý
-seo_title: "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và"
-
 ---
 
 Bạn đang lên kế hoạch **đi Hàn tháng 10** và thấy trên mạng ảnh lá vàng, lá đỏ ở Seoul, Nami, Seoraksan — rồi tự hỏi: *tháng 10 có đẹp thật không, hay chỉ đẹp trên Instagram?* Câu trả lời ngắn: **tháng 10 là một trong những tháng đáng cân nhắc nhất** để du lịch Hàn Quốc nếu bạn thích mùa thu, đi bộ nhiều và chụp ảnh cảnh quan. Nhưng trải nghiệm cụ thể phụ thuộc **bạn đi đầu tháng hay cuối tháng**, **đi Seoul hay leo núi**, và **năm đó lá đỏ đến sớm hay muộn**.

@@ -29,23 +29,24 @@ external_links:
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 - title: MacRumors — leaker downgrade iPhone 18 base
   url: https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/
-image: "images/posts/co-nen-cho-iphone-18-khong.webp"
-image_alt: "Ảnh minh họa — Pexels / Jessica Lewis 🦋 thepaintedsquare"
-image_attribution_checked_at: '2026-07-10T04:52:56+07:00'
-image_attribution_source: "pexels_api"
+image: images/posts/co-nen-cho-iphone-18-khong.webp
+image_alt: Ảnh minh họa Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc
+  17? — nguồn Pexels
+image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: "Jessica Lewis 🦋 thepaintedsquare"
-image_creator_id: "52262"
-image_creator_url: "https://www.pexels.com/@thepaintedsquare"
-image_license: "Pexels License"
-image_license_url: "https://www.pexels.com/license/"
-image_owner: "external"
-image_provider: "pexels"
+image_creator: Tranmautritam
+image_creator_id: '8509'
+image_creator_url: https://www.pexels.com/@tranmautritam
+image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
+image_owner: external
+image_provider: pexels
 image_query: mobile banking payment app
-image_source: "Pexels"
-image_source_url: "https://www.pexels.com/photo/black-iphone-on-brown-wooden-surface-10024574/"
-image_status: "verified"
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/digital-wallet-app-on-smartphone-6406691/
+image_status: verified
 inline_illustrations:
 - heading: Bảng tóm tắt nhanh
   image: images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp
@@ -67,6 +68,7 @@ inline_images:
 - images/posts/co-nen-cho-iphone-18-khong_y-u-t-ngo-i-i-m-y-n-n-c-n-nh-c-tr-c-khi-ch.webp
 - images/posts/co-nen-cho-iphone-18-khong_ai-n-n-ch-ai-kh-ng-n-n-ch.webp
 - images/posts/co-nen-cho-iphone-18-khong_k-t-lu-n.webp
+seo_title: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc
 series: iphone-18-co-gi-moi
 series_order: 4
 series_title: iPhone 18 có gì mới
@@ -77,7 +79,7 @@ tags:
 - iPhone 16
 - iPhone 17
 - mua iPhone 2026
-thumbnail: "images/posts/co-nen-cho-iphone-18-khong.webp"
+thumbnail: images/posts/co-nen-cho-iphone-18-khong.webp
 title: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?
 tom_tat_nhanh:
 - label: Chủ đề
@@ -88,8 +90,6 @@ tom_tat_nhanh:
   value: Cân nhắc theo nhu cầu & timeline đồn
 - label: Hợp với
   value: Người phân vân mua hay chờ 2026–2027
-seo_title: "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc"
-
 ---
 
 “**Có nên chờ iPhone 18 không?**” — câu hỏi lặp lại mỗi năm, nhưng 2026–2027 phức tạp hơn vì tin đồn **split launch**: Pro ra **tháng 9/2026**, base có thể **đầu 2027**. Apple **chưa công bố** iPhone 18; bài này giúp bạn quyết định theo **máy đang dùng** (15, 16 hay 17), **ngân sách** và **mức chấp nhận rủi ro tin đồn** — không dựa trên tính năng Apple đã xác nhận.

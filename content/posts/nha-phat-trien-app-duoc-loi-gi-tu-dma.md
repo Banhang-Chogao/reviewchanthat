@@ -22,7 +22,7 @@ description: 'DMA mang lại gì cho nhà phát triển app ở EU: phân phối
   bằng.'
 draft: false
 image: images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp
-image_attribution_checked_at: '2026-07-10T04:52:38+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -34,6 +34,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/a-person-holding-smartphones-12368095/
+seo_title: Nhà phát triển app được lợi gì từ DMA? Phân phối, commission
 series: apple-ec-dma-app-store-ios
 series_order: 6
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
@@ -54,8 +55,6 @@ tom_tat_nhanh:
 - label: Công cụ mới
 - label: Điểm then chốt
 - label: Hợp với
-seo_title: "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission"
-
 ---
 
 “Cuối cùng cũng không còn phải trả 30% cho Apple” — câu đó xuất hiện nhiều sau khi European Commission (EC) phạt Apple vì anti-steering và buộc mở thêm đường phân phối. Nhưng hỏi một indie developer ở Amsterdam hay Stockholm, câu trả lời thường phức tạp hơn: **“Được link ra web thanh toán, nhưng CTF ăn mất phần tiết kiệm — và mình vẫn ở App Store vì user không sideload.”**

@@ -29,7 +29,7 @@ faq:
 - answer: Thuê xe tự lái (khoảng 50.000–80.000 KRW/ngày) là tiện nhất. Taxi và tour
     cũng là lựa chọn.
 image: images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp
-image_attribution_checked_at: '2026-07-10T04:52:23+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -52,6 +52,7 @@ internal_links:
 - ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
 - ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
 - ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
+seo_title: Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình
 series: du-lich-han-quoc-mua-he
 series_order: 7
 series_title: Du lịch Hàn Quốc mùa hè
@@ -70,8 +71,6 @@ tom_tat_nhanh:
 - label: Phương tiện
 - label: Chi phí
 - label: Phù hợp
-seo_title: "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình"
-
 ---
 
 Jeju là điểm đến lý tưởng cho mùa hè — nhiệt độ mát hơn Seoul nhờ gió biển, cảnh đẹp và nhiều hoạt động. Biển xanh, thác nước mát lạnh, oreum (núi nhỏ) thoáng gió — Jeju mùa hè có tất cả.

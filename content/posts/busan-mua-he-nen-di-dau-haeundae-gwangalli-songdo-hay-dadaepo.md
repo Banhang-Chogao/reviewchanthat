@@ -31,7 +31,7 @@ faq:
     viên.
   question: Bãi biển nào yên tĩnh nhất?
 image: images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp
-image_attribution_checked_at: '2026-07-10T04:52:10+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -39,7 +39,7 @@ image_creator: thuan Nguyen
 image_creator_id: '1317341160'
 image_creator_url: https://www.pexels.com/@thuan-nguyen-1317341160
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/vibrant-nighttime-skyline-of-busan-south-korea-29861385/

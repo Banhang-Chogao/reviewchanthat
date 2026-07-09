@@ -20,7 +20,7 @@ description: 'macOS 27 mang lại gì cho nhân viên văn phòng, creator nội
   trình viên: Spotlight, Safari, Photos, Xcode và rủi ro beta.'
 draft: false
 image: images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp
-image_attribution_checked_at: '2026-07-10T04:52:25+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -32,6 +32,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/person-using-macbook-pro-574077/
+seo_title: macOS 27 có gì mới cho dân văn phòng, creator và lập trình
 series: macos-27-co-gi-moi
 series_order: 5
 series_title: macOS 27 có gì mới
@@ -50,8 +51,6 @@ tom_tat_nhanh:
 - label: Văn phòng
 - label: Creator
 - label: Lập trình viên
-seo_title: "macOS 27 có gì mới cho dân văn phòng, creator và lập trình"
-
 ---
 
 Cùng một bản macOS 27, **kế toán**, **YouTuber** và **backend dev** sẽ thấy giá trị ở chỗ khác nhau. Bài này map tính năng Golden Gate 27 theo **workflow thật** — không liệt kê slide keynote.

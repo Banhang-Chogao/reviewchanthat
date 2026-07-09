@@ -16,20 +16,21 @@ date: "2026-07-08 09:00:00+07:00"
 description: "Phân tích thực tế cho người đi Bangkok tự túc lần đầu: giá vé máy bay và khách sạn 4,62 triệu có nên chốt, đổi baht ở TP.HCM sao cho an toàn, cách đi Airport"
 draft: false
 image: images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp
-image_attribution_checked_at: >-
+image_attribution_checked_at: "2026-07-10T06:10:02+07:00"
+image_attribution_error: source_page_no_creator; embedded_meta_no_creator
   2026-07-09T10:46:57+07:00
-image_attribution_source: pixabay_api
-image_attribution_verified: true
+image_attribution_source: not_found
+image_attribution_verified: false
 image_commercial_use: true
-image_creator: 
-image_creator_id: 75254
-image_creator_url: 
+image_creator: ""
+image_creator_id: ""
+image_creator_url: ""
 image_license: Pixabay Content License
-image_license_url: >-
+image_license_url: "https://pixabay.com/service/license-summary/"
 image_owner: external
 image_provider: pixabay
 image_source: Pixabay
-image_source_url: >-
+image_source_url: ""
 series: du-lich-thai-lan
 series_order: 1
 series_title: Du lịch Thái Lan tự túc

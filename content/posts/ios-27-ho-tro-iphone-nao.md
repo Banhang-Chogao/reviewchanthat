@@ -21,7 +21,7 @@ description: Danh sách iPhone tương thích iOS 27 theo Apple, phân tích App
   iPhone cũ và lộ trình cho người dùng Việt Nam.
 draft: false
 image: images/posts/ios-27-ho-tro-iphone-nao.webp
-image_attribution_checked_at: '2026-07-10T04:52:18+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
@@ -34,6 +34,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/apple-smartphone-iphone-14-on-the-palmrest-of-macbook-pro-laptop-18311094/
+seo_title: iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới
 series: ios-27-co-gi-moi
 series_order: 2
 series_title: iOS 27 có gì mới
@@ -52,8 +53,6 @@ tom_tat_nhanh:
 - label: Nguồn
 - label: Điểm then chốt
 - label: Hợp với
-seo_title: "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới"
-
 ---
 
 “iPhone của mình còn lên iOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **iPhone 11**, **iPhone 12 mini** hoặc **iPhone 13** mua từ 2020–2022. Câu trả lời ngắn theo Apple: **hầu hết iPhone từ 2019 trở lên đều trong danh sách** — nhưng **Apple Intelligence** lại là câu chuyện khác.

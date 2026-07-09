@@ -33,7 +33,7 @@ external_links:
 - title: https://www.aquafield.kr/
   url: https://www.aquafield.kr/
 image: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
-image_attribution_checked_at: '2026-07-10T04:52:23+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: rejected_generic
 image_attribution_verified: false
@@ -46,6 +46,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/
+seo_title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD'
 series: du-lich
 series_order: 8
 series_title: Du lịch Hàn Quốc 2026
@@ -69,8 +70,6 @@ tom_tat_nhanh:
 - label: Thời gian nên dành
 - label: Đi mùa nào hợp
 - label: Có cần đặt trước không
-seo_title: "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD"
-
 ---
 
 Jjimjilbang — nhà tắm hơi kiểu Hàn — là thứ mà mình nghĩ ai đi Hàn Quốc cũng nên thử ít nhất một lần. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa thuần chất Hàn mà bạn khó tìm thấy ở nơi khác.

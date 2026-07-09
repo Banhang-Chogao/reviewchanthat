@@ -27,7 +27,7 @@ external_links:
 - title: Tòa Tổng EU — Thông cáo cp260096en.pdf (8/7/2026)
 - title: Digital Markets Act — Trang chính thức EC
 image: images/posts/european-commission-duoc-gi-khi-thang-apple.webp
-image_attribution_checked_at: '2026-07-10T04:52:38+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -39,6 +39,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/
+seo_title: European Commission được gì khi thắng Apple? Tiền phạt, tiền
 series: apple-ec-dma-app-store-ios
 series_order: 7
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
@@ -59,8 +60,6 @@ tom_tat_nhanh:
 - label: Mốc chính
 - label: Điểm then chốt
 - label: Hợp với
-seo_title: "European Commission được gì khi thắng Apple? Tiền phạt, tiền"
-
 ---
 
 500 triệu euro — con số EC công bố khi phạt Apple vì vi phạm Digital Markets Act (DMA) vào tháng 4/2025. Trên headline, đó là “EC thắng Apple”. Nhưng hỏi một policy analyst ở Brussels **EC thực sự nhận được gì**, câu trả lời dài hơn một tờ hóa đơn phạt: **tiền lệ pháp lý**, **quyền giám sát gatekeeper**, **đòn bẩy với Big Tech khác** — và cả **rủi ro chính trị** khi Washington xem đây là “phạt công ty Mỹ”.

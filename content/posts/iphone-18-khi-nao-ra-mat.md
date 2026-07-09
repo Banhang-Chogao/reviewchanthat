@@ -17,6 +17,9 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 07:00:00+07:00'
+description: Mỗi năm tháng 9, Apple thường ra mắt iPhone mới cùng iOS bản chính thức
+  — thói quen đã ăn sâu vào tâm lý người mua tại Việt Nam. Với iPhone 18, nhiều nguồn
+  báo
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 roundup
@@ -25,7 +28,7 @@ external_links:
 - title: AppleInsider — Spring 2027 iPhone 18 expectations
 - title: MacRumors — iPhone Fold roundup
 image: images/posts/iphone-18-khi-nao-ra-mat.webp
-image_attribution_checked_at: '2026-07-10T04:52:42+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -37,6 +40,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/pexels-photo-1092675/
+seo_title: iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra
 series: iphone-18-co-gi-moi
 series_order: 2
 series_title: iPhone 18 có gì mới
@@ -55,9 +59,6 @@ tom_tat_nhanh:
 - label: Đợt 1 (đồn)
 - label: Đợt 2 (đồn)
 - label: Hợp với
-seo_title: "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra"
-description: "Mỗi năm tháng 9, Apple thường ra mắt iPhone mới cùng iOS bản chính thức — thói quen đã ăn sâu vào tâm lý người mua tại Việt Nam. Với iPhone 18, nhiều nguồn báo"
-
 ---
 
 Mỗi năm tháng 9, Apple thường ra mắt iPhone mới cùng iOS bản chính thức — thói quen đã ăn sâu vào tâm lý người mua tại Việt Nam. Với **iPhone 18**, nhiều nguồn báo chí và analyst đồn loạt một kịch bản khác: **không phải tất cả model cùng xuất hiện một lần**. Apple **chưa xác nhận** bất kỳ ngày ra mắt hay chiến lược tách đợt nào; bài viết này tổng hợp tin đồn có nguồn để bạn lên kế hoạch mua máy thực tế hơn.

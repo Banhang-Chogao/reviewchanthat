@@ -36,7 +36,7 @@ faq:
     thức trước khi đi.
   question: Giá vé công viên nước có đắt không?
 image: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
-image_attribution_checked_at: '2026-07-10T04:52:10+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: rejected_generic
 image_attribution_verified: false
@@ -45,7 +45,7 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/bundle-of-assorted-denomination-euro-banknotes-259234/

@@ -21,7 +21,7 @@ description: Danh sách Mac tương thích macOS Golden Gate 27 theo Apple, phâ
   Mac Intel bị loại, M1 vs M4 và lộ trình cho người dùng Việt Nam.
 draft: false
 image: images/posts/macos-27-ho-tro-may-mac-nao.webp
-image_attribution_checked_at: '2026-07-10T04:52:27+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -33,6 +33,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/turned-on-macbook-pro-693859/
+seo_title: macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu
 series: macos-27-co-gi-moi
 series_order: 2
 series_title: macOS 27 có gì mới
@@ -51,8 +52,6 @@ tom_tat_nhanh:
 - label: Nguồn
 - label: Điểm then chốt
 - label: Hợp với
-seo_title: "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu"
-
 ---
 
 “Mac của mình còn lên macOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **MacBook Pro Intel**, **iMac 27 inch Intel** hoặc **Mac mini Intel** mua từ 2018–2020. Câu trả lời ngắn theo Apple: **chỉ Mac Apple Silicon trong danh sách chính thức**.

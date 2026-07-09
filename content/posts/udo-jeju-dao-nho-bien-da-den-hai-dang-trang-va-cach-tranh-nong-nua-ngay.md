@@ -44,7 +44,7 @@ faq:
 - answer: Khu vực này thường đông vào cuối tuần và mùa cao điểm. Nếu đi sớm, bạn sẽ
     tránh được dòng người đổ về từ 10 giờ trở đi.
 image: images/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.webp
-image_attribution_checked_at: '2026-07-10T04:52:33+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -60,6 +60,7 @@ internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - ref: posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md
 - ref: posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md
+seo_title: 'Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh'
 series: du-lich
 series_order: 21
 series_title: Du lịch Hàn Quốc 2026
@@ -85,8 +86,6 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý mùa hè
   value: ''
-seo_title: "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh"
-
 ---
 
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm dưới chân Seongsan Ilchulbong có sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng, view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.

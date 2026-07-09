@@ -23,13 +23,13 @@ date: "2026-07-08 10:00:00+07:00"
 description: "Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link, BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa mưa."
 draft: false
 image: images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp
-image_attribution_checked_at: '2026-07-09T10:43:33+07:00'
+image_attribution_checked_at: "2026-07-09T10:43:33+07:00"
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: Kirandeep Singh Walia
 image_creator_id: 2645690
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@kirandeepsingh"
 image_license: Pexels License
 image_license_url: "https://www.pexels.com/license/"
 image_owner: external

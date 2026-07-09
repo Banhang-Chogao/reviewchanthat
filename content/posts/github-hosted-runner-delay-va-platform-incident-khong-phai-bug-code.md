@@ -14,29 +14,33 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: "2026-07-10 04:10:00+07:00"
+date: '2026-07-10 04:10:00+07:00'
+description: '| Code | Safety | Mô tả | |------|--------|--------| | runnercapacitydelay
+  | unsafe | GitHub-hosted runner thiếu capacity; job chờ lâu trước khi start | |'
 draft: false
-image: "images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp"
-image_alt: "Ảnh minh họa — Pexels / Daniil Komov"
-image_attribution_checked_at: '2026-07-10T04:52:59+07:00'
-image_attribution_source: "pexels_api"
+image: images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp
+image_alt: 'Ảnh minh họa Runner capacity delay và platform incident: khi job đỏ không
+  phải vì bug code — nguồn Pixabay'
+image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_source: pixabay_manifest
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: "Daniil Komov"
-image_creator_id: "133960344"
-image_creator_url: "https://www.pexels.com/@dkomov"
-image_license: "Pexels License"
-image_license_url: "https://www.pexels.com/license/"
-image_owner: "external"
-image_provider: "pexels"
+image_creator: HeckiMG
+image_creator_id: ''
+image_creator_url: https://pixabay.com/photos/wooden-bench-seat-sea-ocean-water-7110299/
+image_license: Pixabay Content License
+image_license_url: https://pixabay.com/service/license-summary/
+image_owner: external
+image_provider: pixabay
 image_query: runner capacity delay platform incident
-image_source: "Pexels"
-image_source_url: "https://www.pexels.com/photo/laptop-with-coding-software-and-coffee-mug-34803973/"
-image_status: "verified"
+image_source: Pixabay
+image_source_url: https://pixabay.com/photos/wooden-bench-seat-sea-ocean-water-7110299/
+image_status: verified
 related_posts:
 - ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
 - github-api-va-pages-rate-limit-cach-doc-va-giam-tai
 - live-deploy-khong-phan-anh-va-pages-serving-old-artifact
+seo_title: 'Runner capacity delay và platform incident: khi job đỏ không'
 series: ci-cd-root-cause-lessons
 series_order: 2
 series_title: CI/CD Root Cause Lessons
@@ -47,11 +51,8 @@ tags:
 - platform incident
 - CI/CD
 - unsafe
-thumbnail: "images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp"
+thumbnail: images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp
 title: 'Runner capacity delay và platform incident: khi job đỏ không phải vì bug code'
-seo_title: "Runner capacity delay và platform incident: khi job đỏ không"
-description: "| Code | Safety | Mô tả | |------|--------|--------| | runnercapacitydelay | unsafe | GitHub-hosted runner thiếu capacity; job chờ lâu trước khi start | |"
-
 ---
 
 ## Root cause

@@ -30,7 +30,7 @@ external_links:
 - title: https://english.visitkorea.or.kr/
   url: https://english.visitkorea.or.kr/
 image: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
-image_attribution_checked_at: '2026-07-10T04:52:13+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -42,6 +42,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/ninh-ki-u-cruise-docked-in-c-n-th-vietnam-35508138/
+seo_title: 'Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà'
 series: du-lich
 series_order: 3
 series_title: Du lịch Hàn Quốc 2026
@@ -70,8 +71,6 @@ tom_tat_nhanh:
   value: ''
 - label: Có cần đặt trước không
   value: ''
-seo_title: "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà"
-
 ---
 
 Có một cách khám phá Seoul mà mình thấy cực kỳ thú vị nhưng không bị "touristic" — đó là đi theo dấu các bộ phim Hàn Quốc. Hoạt động này xếp hạng 9 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình thì nó xứng đáng cao hơn nếu bạn là fan K-drama.

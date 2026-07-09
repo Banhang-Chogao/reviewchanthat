@@ -36,7 +36,7 @@ external_links:
 - title: Reuters — EU court rejects Apple challenge (8/7/2026)
   url: https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/
 image: images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp
-image_attribution_checked_at: '2026-07-10T04:52:36+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -44,10 +44,11 @@ image_creator: Petrit Nikolli
 image_creator_id: '3768398'
 image_creator_url: https://www.pexels.com/@studioideahd
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/flag-of-european-columns-between-columns-22046935/
+seo_title: Digital Markets Act là gì? EU siết Apple, Google, Meta như
 series: apple-ec-dma-app-store-ios
 series_order: 2
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
@@ -71,8 +72,6 @@ tom_tat_nhanh:
   value: Chỉ định, giám sát, phạt tiền, điều tra thị trường
 - label: Apple
   value: Gatekeeper App Store & iOS — Tòa EU xác nhận 8/7/2026
-seo_title: "Digital Markets Act là gì? EU siết Apple, Google, Meta như"
-
 ---
 
 Nếu bạn chỉ đọc một headline “Apple thua kiện EU”, rất dễ nhầm đó là **một luật, một vụ, một lần phạt**. Thực tế, Brussels đang vận hành một **bộ máy pháp lý nhiều tầng** — và **Digital Markets Act (DMA)** là trụ cột ở giữa.

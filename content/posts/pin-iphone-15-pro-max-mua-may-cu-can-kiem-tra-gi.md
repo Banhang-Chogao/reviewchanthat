@@ -17,7 +17,7 @@ description: 'Hướng dẫn kiểm tra pin iPhone 15 Pro Max khi mua máy cũ: 
   chu kỳ sạc, dấu hiệu chai và checklist kỹ thuật đầy đủ.'
 draft: false
 image: images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp
-image_attribution_checked_at: '2026-07-10T04:52:29+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -32,7 +32,7 @@ external_links:
 - title: KoreaToDo — Gapyeong Day Trip Nami Island
   url: https://www.koreatodo.com/gapyeong-day-trip-nami-island
 image: images/posts/chi-phi-di-han-thang-10-tu-tuc.webp
-image_attribution_checked_at: '2026-07-10T04:52:47+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -40,7 +40,7 @@ image_creator: Delyan Nedyalkov
 image_creator_id: '2400661'
 image_creator_url: https://www.pexels.com/@delyan-nedyalkov-2400661
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/pexels-photo-4042807/

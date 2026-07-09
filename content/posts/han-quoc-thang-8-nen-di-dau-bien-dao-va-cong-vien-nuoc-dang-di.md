@@ -28,7 +28,7 @@ faq:
     World.
 - answer: Đặt phòng trước 1 tháng, mua vé online, mang kem chống nắng và nước uống.
 image: images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp
-image_attribution_checked_at: '2026-07-10T04:52:15+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -53,6 +53,7 @@ internal_links:
 - ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
+seo_title: Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước
 series: du-lich-han-quoc-mua-he
 series_order: 4
 series_title: Du lịch Hàn Quốc mùa hè
@@ -72,8 +73,6 @@ tom_tat_nhanh:
 - label: Mưa
 - label: Phù hợp
 - label: Giá
-seo_title: "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước"
-
 ---
 
 ## Thời tiết tháng 8

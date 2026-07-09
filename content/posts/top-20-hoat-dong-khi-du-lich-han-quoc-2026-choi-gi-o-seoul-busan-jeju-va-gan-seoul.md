@@ -23,6 +23,8 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 07:00:00+07:00'
+description: 'Hàn Quốc 2026 không chỉ có K-pop và ẩm thực đường phố. Nếu bạn lần đầu
+  đi tự túc, câu hỏi lớn nhất là: chơi gì, bắt đầu từ đâu, cái nào thực sự đáng tiền?'
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
@@ -62,7 +64,7 @@ faq:
     (tháng 12–2) rất lạnh, thích hợp cho jjimjilbang và trải nghiệm văn hóa trong
     nhà.
 image: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
-image_attribution_checked_at: '2026-07-10T04:52:31+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -91,6 +93,7 @@ internal_links:
 - ref: posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md
     điểm nào'
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
+seo_title: 'Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul'
 series: du-lich
 series_order: 1
 series_title: Du lịch Hàn Quốc 2026
@@ -115,9 +118,6 @@ tom_tat_nhanh:
 - label: Số lượng điểm
 - label: Hợp với
 - label: Thời gian đọc
-seo_title: "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul"
-description: "Hàn Quốc 2026 không chỉ có K-pop và ẩm thực đường phố. Nếu bạn lần đầu đi tự túc, câu hỏi lớn nhất là: chơi gì, bắt đầu từ đâu, cái nào thực sự đáng tiền?"
-
 ---
 
 Hàn Quốc 2026 không chỉ có K-pop và ẩm thực đường phố. Nếu bạn lần đầu đi tự túc, câu hỏi lớn nhất là: chơi gì, bắt đầu từ đâu, cái nào thực sự đáng tiền?

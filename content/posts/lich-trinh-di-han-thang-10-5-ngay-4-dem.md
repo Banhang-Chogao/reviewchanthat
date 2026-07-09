@@ -32,7 +32,7 @@ external_links:
 - title: KoreaToDo — Top Autumn Foliage Sites
   url: ''
 image: images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp
-image_attribution_checked_at: '2026-07-10T04:52:46+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -52,6 +52,7 @@ internal_links:
 - ref: posts/nami-thang-10-co-dang-di-khong.md
 - ref: posts/seoraksan-thang-10-ngam-la-do.md
 - ref: posts/chi-phi-di-han-thang-10-tu-tuc.md
+seo_title: 'Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm'
 series: di-han-thang-10
 series_order: 10
 series_title: Đi Hàn tháng 10
@@ -75,8 +76,6 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý
   value: ''
-seo_title: "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm"
-
 ---
 
 Năm ngày bốn đêm là khoảng thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để làm quen Seoul, đi một day trip ra ngoại ô, và dành thời gian cho mùa lá đỏ. Lịch trình dưới đây **không bao gồm Busan hay Jeju** vì thêm thành phố khác sẽ làm lịch trình quá gấp; nếu muốn mở rộng, xem [Busan tháng 10]({{< ref "posts/busan-thang-10-nen-di-dau" >}}) hoặc [Jeju tháng 10]({{< ref "posts/jeju-thang-10-co-dep-khong" >}}) và cân nhắc kéo dài thành 7–8 ngày.

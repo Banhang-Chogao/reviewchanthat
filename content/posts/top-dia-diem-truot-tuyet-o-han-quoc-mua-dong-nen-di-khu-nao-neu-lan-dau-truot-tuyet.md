@@ -22,6 +22,9 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
+description: Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì hơi phí. Nhưng giữa
+  6 resort ở Gangwon-do, chọn cái nào? Câu trả lời không phải "cái nào đẹp nhất" mà
+  là "cái
 draft: false
 faq:
 - answer: 'Tùy nhu cầu: Nếu đi trong ngày từ Seoul — Elysian Gangchon hoặc Vivaldi
@@ -45,7 +48,7 @@ faq:
     kính trượt tuyết, mũ len/beanie. Nếu không có, có thể thuê áo trượt tại resort.
     Bảo hiểm du lịch có coverage tai nạn trượt tuyết là rất khuyến khích.
 image: images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp
-image_attribution_checked_at: '2026-07-10T04:52:32+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -66,6 +69,7 @@ internal_links:
 - ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
     Quốc'
 - ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
+seo_title: 'Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào'
 series: truot-tuyet
 series_order: 1
 series_title: Trượt tuyết Hàn Quốc
@@ -88,9 +92,6 @@ tom_tat_nhanh:
 - label: Số lượng điểm
 - label: Hợp với
 - label: Thời gian đọc
-seo_title: "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào"
-description: "Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì hơi phí. Nhưng giữa 6 resort ở Gangwon-do, chọn cái nào? Câu trả lời không phải \"cái nào đẹp nhất\" mà là \"cái"
-
 ---
 
 Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì hơi phí. Nhưng giữa 6 resort ở Gangwon-do, chọn cái nào? Câu trả lời không phải "cái nào đẹp nhất" mà là "cái nào hợp với bạn nhất". Bài này mình tổng hợp để bạn dễ quyết định.

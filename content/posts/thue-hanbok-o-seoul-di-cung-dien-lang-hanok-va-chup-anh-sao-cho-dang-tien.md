@@ -33,7 +33,7 @@ external_links:
 - title: https://english.visitseoul.net/
   url: https://english.visitseoul.net/
 image: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
-image_attribution_checked_at: '2026-07-10T04:52:31+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -45,6 +45,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/cheerful-woman-standing-against-pagoda-in-cloudy-weather-860090/
+seo_title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh'
 series: du-lich
 series_order: 4
 series_title: Du lịch Hàn Quốc 2026
@@ -68,8 +69,6 @@ tom_tat_nhanh:
 - label: Thời gian nên dành
 - label: Đi mùa nào hợp
 - label: Có cần đặt trước không
-seo_title: "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh"
-
 ---
 
 Thuê Hanbok dạo cung điện là hoạt động số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và mình không ngạc nhiên chút nào. Đây là trải nghiệm được du khách Việt mê nhất khi đến Seoul, và theo mình thì ai đi Hàn lần đầu cũng nên thử ít nhất một lần.

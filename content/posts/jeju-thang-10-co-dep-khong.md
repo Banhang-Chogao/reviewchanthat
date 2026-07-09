@@ -30,7 +30,7 @@ external_links:
 - title: Visit Jeju
   url: ''
 image: images/posts/jeju-thang-10-co-dep-khong.webp
-image_attribution_checked_at: '2026-07-10T04:52:46+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -49,6 +49,7 @@ internal_links:
 - ref: posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md
 - ref: posts/chi-phi-di-han-thang-10-tu-tuc.md
 - ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md
+seo_title: Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch
 series: di-han-thang-10
 series_order: 9
 series_title: Đi Hàn tháng 10
@@ -72,8 +73,6 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý
   value: ''
-seo_title: "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch"
-
 ---
 
 Jeju tháng 10 là thời điểm nhiều người Việt cân nhắc khi lên kế hoạch đi Hàn mùa thu. Đảo có khí hậu ôn hòa hơn đất liền, biển vẫn đẹp, và núi Hallasan bắt đầu chuyển màu. Tuy nhiên, Jeju không chỉ có cảnh quan — bạn cần tính thêm chi phí vé máy bay, thuê xe và thời gian di chuyển từ Seoul.

@@ -30,7 +30,7 @@ external_links:
 - title: https://english.visitkorea.or.kr/
   url: https://english.visitkorea.or.kr/
 image: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
-image_attribution_checked_at: '2026-07-10T04:52:32+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -42,6 +42,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/portrait-of-woman-with-flowers-drawn-on-face-on-pink-back-13720024/
+seo_title: 'Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch'
 series: du-lich
 series_order: 5
 series_title: Du lịch Hàn Quốc 2026
@@ -71,8 +72,6 @@ tom_tat_nhanh:
   value: ''
 - label: Có cần đặt trước không
   value: ''
-seo_title: "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch"
-
 ---
 
 Seoul là kinh đô làm đẹp của châu Á, và mình dám chắc nếu bạn mê skincare hay makeup thì trải nghiệm K-beauty sẽ là một trong những khoản chi đáng đồng tiền nhất chuyến đi. Hoạt động này xếp hạng 10 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình, nó xứng đáng ở vị trí cao hơn nếu bạn thuộc tuýp người thích làm đẹp.

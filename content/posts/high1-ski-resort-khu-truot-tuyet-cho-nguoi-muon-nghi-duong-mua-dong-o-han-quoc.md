@@ -40,7 +40,7 @@ faq:
     — kiểm tra high1.com để biết giá mới nhất.'
   question: Giá vé trượt tuyết ở High1 thế nào?
 image: images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp
-image_attribution_checked_at: '2026-07-10T04:52:16+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -48,7 +48,7 @@ image_creator: Dominik Gryzbon
 image_creator_id: '307186004'
 image_creator_url: https://www.pexels.com/@gryziu
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/ski-lift-in-bialka-tatrzanska-poland-30786149/
@@ -59,6 +59,7 @@ internal_links:
   title: Yongpyong Ski Resort
 - ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md
   title: Alpensia Ski Resort
+seo_title: 'High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng'
 series: truot-tuyet
 series_order: 6
 series_title: Trượt tuyết Hàn Quốc
@@ -88,8 +89,6 @@ tom_tat_nhanh:
   value: Mùa đông (tháng 12–2)
 - label: Có cần đặt trước không
   value: Có (resort, vé trượt tuyết)
-seo_title: "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng"
-
 ---
 
 High1 là ski resort mình ấn tượng nhất trong系列 bài này. Không phải vì lớn nhất (Yongpyong mới là số một) hay gần nhất (Elysian giữ kỷ lục đó), mà vì trải nghiệm tổng thể — từ Sky 1340, nhà hàng xoay trên đỉnh núi 1.340 m, đến thiết kế thân thiện môi trường.

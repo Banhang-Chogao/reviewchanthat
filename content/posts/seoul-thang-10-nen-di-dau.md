@@ -36,7 +36,7 @@ faq:
 - answer: Khoảng 50.000–100.000 KRW vé tham quan, chưa gồm ăn uống và di chuyển.
 - answer: Metro là chính. Mua T-money, nạp 15.000–20.000 KRW đủ 3 ngày.
 image: images/posts/seoul-thang-10-nen-di-dau.webp
-image_attribution_checked_at: '2026-07-10T04:52:45+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -57,6 +57,7 @@ internal_links:
 - ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
 - ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
 - ref: posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md
+seo_title: Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi
 series: di-han-thang-10
 series_order: 5
 series_title: Đi Hàn tháng 10
@@ -75,8 +76,6 @@ tom_tat_nhanh:
 - label: Chi phí vé
 - label: Phù hợp
 - label: Điểm nhấn
-seo_title: "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi"
-
 ---
 
 Seoul tháng 10 là thời điểm nhiều du khách chọn để kết hợp khám phá thành phố và ngắm mùa thu. Theo [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), các điểm ngắm lá đỏ phổ biến ở Seoul gồm Gyeongbokgung Palace, Seoul Forest, Olympic Park và Seokchon Lake — cùng Deoksugung Stone Wall Path.

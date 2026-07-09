@@ -34,7 +34,7 @@ external_links:
 - title: https://www.everland.com/
   url: https://www.everland.com/
 image: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
-image_attribution_checked_at: '2026-07-10T04:52:12+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -46,6 +46,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/seoul-arex-subway-station-entrance-with-signage-32211611/
+seo_title: 'Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean'
 series: du-lich
 series_order: 12
 series_title: Du lịch Hàn Quốc 2026
@@ -70,8 +71,6 @@ tom_tat_nhanh:
 - label: Số lượng điểm
 - label: Hợp với
 - label: Thời gian đọc
-seo_title: "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean"
-
 ---
 
 Một điều bất ngờ trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best là gần một nửa số điểm nằm ở khu vực gần Seoul. Nếu bạn có 1–2 ngày rảnh, đây là những lựa chọn đáng cân nhắc.

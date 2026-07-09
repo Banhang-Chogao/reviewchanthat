@@ -39,7 +39,7 @@ faq:
     Nhìn chung giá thấp hơn Yongpyong một chút.
   question: Giá vé và thuê đồ ở Alpensia thế nào?
 image: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
-image_attribution_checked_at: '2026-07-10T04:52:10+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -47,7 +47,7 @@ image_creator: 정규송 Nui MALAMA
 image_creator_id: '169330637'
 image_creator_url: https://www.pexels.com/@nui-malama-169330637
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/people-on-a-cable-car-in-a-mountain-valley-20465675/

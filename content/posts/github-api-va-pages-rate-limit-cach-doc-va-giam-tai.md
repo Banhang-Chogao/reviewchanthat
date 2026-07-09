@@ -14,31 +14,33 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: "2026-07-10 04:15:00+07:00"
+date: '2026-07-10 04:15:00+07:00'
 description: 'Hướng dẫn xử lý github_rate_limit và github_pages_rate_limit (unsafe):
   nhận diện 403/429, backoff, gom API call, tránh spam publish Pages.'
 draft: false
-image: "images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp"
-image_alt: "Ảnh minh họa — Pexels / Anastasia  Shuraeva"
-image_attribution_checked_at: '2026-07-10T04:52:57+07:00'
-image_attribution_source: "pexels_api"
+image: images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp
+image_alt: 'Ảnh minh họa GitHub API rate limit và Pages rate limit: đọc log, backoff,
+  giảm fan-out — nguồn Pexels'
+image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: "Anastasia  Shuraeva"
-image_creator_id: "2441340"
-image_creator_url: "https://www.pexels.com/@anastasia-shuraeva"
-image_license: "Pexels License"
-image_license_url: "https://www.pexels.com/license/"
-image_owner: "external"
-image_provider: "pexels"
+image_creator: RealToughCandy.com
+image_creator_id: '2238606'
+image_creator_url: https://www.pexels.com/@realtoughcandy
+image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
+image_owner: external
+image_provider: pexels
 image_query: github api rate limit pages
-image_source: "Pexels"
-image_source_url: "https://www.pexels.com/photo/person-using-laptop-5704728/"
-image_status: "verified"
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/person-holding-a-black-and-white-paper-with-message-11035544/
+image_status: verified
 related_posts:
 - ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
 - github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code
 - workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress
+seo_title: 'GitHub API rate limit và Pages rate limit: đọc log, backoff'
 series: ci-cd-root-cause-lessons
 series_order: 3
 series_title: CI/CD Root Cause Lessons
@@ -49,10 +51,8 @@ tags:
 - GitHub Pages
 - CI/CD
 - unsafe
-thumbnail: "images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp"
+thumbnail: images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp
 title: 'GitHub API rate limit và Pages rate limit: đọc log, backoff, giảm fan-out'
-seo_title: "GitHub API rate limit và Pages rate limit: đọc log, backoff"
-
 ---
 
 ## Root cause

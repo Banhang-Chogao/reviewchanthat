@@ -28,7 +28,7 @@ faq:
 - answer: Nên. Đi thứ 3–5 ít đông nhất. Cuối tuần rất đông, phải xếp hàng lâu.
   question: Có nên đi ngày thường không?
 image: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
-image_attribution_checked_at: '2026-07-10T04:52:11+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -36,7 +36,7 @@ image_creator: marclyc li
 image_creator_id: '2160558161'
 image_creator_url: https://www.pexels.com/@marclyc-li-2160558161
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/thrill-ride-fun-at-amusement-park-38331866/

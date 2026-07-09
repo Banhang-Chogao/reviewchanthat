@@ -20,12 +20,15 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
 date: '2026-07-08 16:00:00+07:00'
+description: 'Đứng trước bảng menu Starbucks lần đầu, nhiều người hơi choáng: tên
+  tiếng Anh dài, size Tall-Grande-Venti, và hàng chục lựa chọn syrup. Bài này gom
+  lại những đồ'
 draft: false
 external_links:
 - title: Starbucks Vietnam — Menu
   url: https://www.starbucks.vn/menu
 image: images/posts/starbucks-vietnam-menu-do-uong-nen-thu.webp
-image_attribution_checked_at: '2026-07-10T04:52:40+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -37,6 +40,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/coffee-cup-on-table-1709003/
+seo_title: 'Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng'
 series: starbucks-vietnam
 series_order: 3
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
@@ -55,9 +59,6 @@ tom_tat_nhanh:
 - label: Tùy chỉnh
 - label: Mùa hè
 - label: Ghi chú
-seo_title: "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng"
-description: "Đứng trước bảng menu Starbucks lần đầu, nhiều người hơi choáng: tên tiếng Anh dài, size Tall-Grande-Venti, và hàng chục lựa chọn syrup. Bài này gom lại những đồ"
-
 ---
 
 Đứng trước bảng menu Starbucks lần đầu, nhiều người hơi choáng: tên tiếng Anh dài, size Tall-Grande-Venti, và hàng chục lựa chọn syrup. Bài này gom lại những đồ uống mình thấy **đáng thử** tại Starbucks Vietnam — dựa trên kinh nghiệm gọi tại nhiều chi nhánh, đặc biệt **Nguyễn Văn Trỗi** nơi chất lượng pha chế khá ổn định.

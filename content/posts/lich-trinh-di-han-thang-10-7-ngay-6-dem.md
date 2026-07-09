@@ -33,7 +33,7 @@ external_links:
 - title: Visit Busan
   url: ''
 image: images/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.webp
-image_attribution_checked_at: '2026-07-10T04:52:48+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
@@ -56,6 +56,7 @@ internal_links:
 - ref: posts/busan-thang-10-nen-di-dau.md
 - ref: posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md
 - ref: posts/chi-phi-di-han-thang-10-tu-tuc.md
+seo_title: 'Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami lich'
 series: di-han-thang-10
 series_order: 11
 series_title: Đi Hàn tháng 10
@@ -76,8 +77,6 @@ tom_tat_nhanh:
 - label: Di chuyển
 - label: Phù hợp
 - label: Lưu ý
-seo_title: "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami lich"
-
 ---
 
 Bảy ngày sáu đêm là khoảng thời gian nhiều du khách Việt chọn khi muốn **vừa khám phá Seoul, vừa săn lá đỏ, vừa chạm biển** — mà không phải chạy marathon như lịch 5 ngày 4 đêm. Nếu bạn đã đọc [lịch trình 5N4Đ]({{< ref "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem" >}}) và thấy thiếu Seoraksan hoặc Busan, bài này là khung **7N6Đ** cụ thể hơn, bám dự báo mùa thu từ [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292).

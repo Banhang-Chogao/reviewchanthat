@@ -14,29 +14,34 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: "2026-07-10 04:50:00+07:00"
+date: '2026-07-10 04:50:00+07:00'
+description: '| Code | Safety | Mô tả | |------|--------|--------| | baseurlroutingerror
+  | safe | Path absolute bỏ prefix /reviewchanthat/ | | sitemapnoindexmismatch | safe
+  |'
 draft: false
-image: "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp"
-image_alt: "Ảnh minh họa — Pexels / cottonbro studio"
-image_attribution_checked_at: '2026-07-10T04:52:55+07:00'
-image_attribution_source: "pexels_api"
+image: images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp
+image_alt: Ảnh minh họa BaseURL, sitemap noindex và series hardcoded URL trên GitHub
+  project Pages — nguồn Pexels
+image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: "cottonbro studio"
-image_creator_id: "1437723"
-image_creator_url: "https://www.pexels.com/@cottonbro"
-image_license: "Pexels License"
-image_license_url: "https://www.pexels.com/license/"
-image_owner: "external"
-image_provider: "pexels"
+image_creator: RDNE Stock project
+image_creator_id: '3149039'
+image_creator_url: https://www.pexels.com/@rdne
+image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
+image_owner: external
+image_provider: pexels
 image_query: baseurl sitemap noindex series hardcoded
-image_source: "Pexels"
-image_source_url: "https://www.pexels.com/photo/person-typing-on-laptop-5473892/"
-image_status: "verified"
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/a-graph-in-close-up-photography-7947635/
+image_status: verified
 related_posts:
 - ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
 - live-deploy-khong-phan-anh-va-pages-serving-old-artifact
 - hugo-build-duplicate-yaml-ai-summary-va-template-regression
+seo_title: BaseURL, sitemap noindex và series hardcoded URL trên GitHub
 series: ci-cd-root-cause-lessons
 series_order: 10
 series_title: CI/CD Root Cause Lessons
@@ -47,11 +52,8 @@ tags:
 - SEO
 - Hugo
 - GitHub Pages
-thumbnail: "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp"
+thumbnail: images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp
 title: BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages
-seo_title: "BaseURL, sitemap noindex và series hardcoded URL trên GitHub"
-description: "| Code | Safety | Mô tả | |------|--------|--------| | baseurlroutingerror | safe | Path absolute bỏ prefix /reviewchanthat/ | | sitemapnoindexmismatch | safe |"
-
 ---
 
 ## Root cause

@@ -27,7 +27,7 @@ external_links:
 - title: MacRumors — iPhone Fold roundup
 - title: AppleInsider — iPhone 18 expectations
 image: images/posts/iphone-18-gia-bao-nhieu.webp
-image_attribution_checked_at: '2026-07-10T04:52:43+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

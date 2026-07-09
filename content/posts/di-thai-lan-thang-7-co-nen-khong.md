@@ -22,13 +22,13 @@ categories:
 date: "2026-07-08 10:00:00+07:00"
 description: "Đi Thái Lan tháng 7 có nên không? Phân tích thời tiết, chi phí, lịch trình tháng 7 và so sánh với tháng 8 — dành cho ngân sách thấp, muốn tránh đông."
 image: images/posts/di-thai-lan-thang-7-co-nen-khong.webp
-image_attribution_checked_at: '2026-07-09T10:43:22+07:00'
+image_attribution_checked_at: "2026-07-09T10:43:22+07:00"
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: Ali Kazal
 image_creator_id: 133607070
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@lureofadventure"
 image_license: Pexels License
 image_license_url: "https://www.pexels.com/license/"
 image_owner: external

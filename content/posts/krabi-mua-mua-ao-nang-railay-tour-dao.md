@@ -25,13 +25,13 @@ date: "2026-07-08 10:00:00+07:00"
 description: "Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo, Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch."
 draft: false
 image: images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp
-image_attribution_checked_at: '2026-07-09T10:41:34+07:00'
+image_attribution_checked_at: "2026-07-09T10:43:29+07:00"
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: Jahra Tasfia Reza
 image_creator_id: 321945577
-image_creator_url: ''
+image_creator_url: "https://www.pexels.com/@jahratreza"
 image_license: Pexels License
 image_license_url: "https://www.pexels.com/license/"
 image_owner: external

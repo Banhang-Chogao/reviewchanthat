@@ -26,19 +26,20 @@ date: '2026-07-08 10:00:00+07:00'
 description: "Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, bảo tàng, chợ trong nhà, massage, food tour — kèm lịch trình 2 ngày mùa mưa và cách di chuyển."
 draft: false
 image: images/posts/bangkok-ngay-mua-nen-di-dau.webp
-image_attribution_checked_at: '2026-07-09T10:41:20+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
+image_attribution_checked_at: "2026-07-10T06:10:00+07:00"
+image_attribution_error: source_page_no_creator; embedded_meta_no_creator
+image_attribution_source: not_found
+image_attribution_verified: false
 image_commercial_use: true
-image_creator: null
-image_creator_id: 118636722
-image_creator_url: null
+image_creator: ""
+image_creator_id: ""
+image_creator_url: ""
 image_license: Pexels License
-image_license_url: ''
+image_license_url: "https://www.pexels.com/license/"
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: ''
+image_source_url: ""
 seo_title: Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ,
 series:
 - du-lich-thai-lan-mua-mua

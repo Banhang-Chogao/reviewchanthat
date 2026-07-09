@@ -15,6 +15,8 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 10:00:00+07:00'
+description: Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung
+  Quốc cũng có dòng fold riêng. Apple chưa từng công bố iPhone gập — nhưng từ 2024–2026
 draft: false
 external_links:
 - title: MacRumors — iPhone Fold roundup
@@ -23,7 +25,7 @@ external_links:
 - title: MacRumors — iPhone 18 Pro colors (Fold colors)
 - title: AppleInsider — iPhone 18 expectations
 image: images/posts/iphone-fold-iphone-ultra-la-gi.webp
-image_attribution_checked_at: '2026-07-10T04:52:42+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
@@ -36,6 +38,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/pexels-photo-1092670/
+seo_title: iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập
 series: iphone-18-co-gi-moi
 series_order: 5
 series_title: iPhone 18 có gì mới
@@ -54,9 +57,6 @@ tom_tat_nhanh:
 - label: Ra mắt (đồn)
 - label: Giá (đồn)
 - label: Hợp với
-seo_title: "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập"
-description: "Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung Quốc cũng có dòng fold riêng. Apple chưa từng công bố iPhone gập — nhưng từ 2024–2026"
-
 ---
 
 Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung Quốc cũng có dòng fold riêng. Apple **chưa từng công bố** iPhone gập — nhưng từ 2024–2026, **MacRumors**, **AppleInsider** và nhiều analyst liên tục nhắc tới **iPhone Fold** (đôi khi gọi tạm **iPhone Ultra**). Đây là gì, khác iPhone 18 Pro Max thế nào, và **có nên chờ** không? Bài viết phân loại tin đồn có nguồn — không khẳng định sản phẩm Apple sẽ ra đúng như leak.

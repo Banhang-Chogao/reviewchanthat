@@ -20,7 +20,7 @@ description: 'Pin iPhone với iOS 27: kỳ vọng hiệu năng Apple công bố
   và mẹo tiết kiệm pin cho người dùng Việt Nam.'
 draft: false
 image: images/posts/ios-27-cai-thien-pin-iphone.webp
-image_attribution_checked_at: '2026-07-10T04:52:17+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -32,6 +32,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/man-in-blue-shirt-holding-iphone-8052289/
+seo_title: iOS 27 có cải thiện pin không? Những điều người dùng iPhone
 series: ios-27-co-gi-moi
 series_order: 4
 series_title: iOS 27 có gì mới
@@ -50,8 +51,6 @@ tom_tat_nhanh:
 - label: Apple claim
 - label: Rủi ro
 - label: Hợp với
-seo_title: "iOS 27 có cải thiện pin không? Những điều người dùng iPhone"
-
 ---
 
 “Lên iOS mới xong pin tụt một nửa” — câu than trời quen thuộc trên group iPhone Việt Nam. **iOS 27** hứa hiệu năng tốt hơn, nhưng cũng mang **Siri AI**, indexing Photos và background AI — tất cả đều “ăn” pin.

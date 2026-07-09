@@ -40,7 +40,7 @@ faq:
     Các review trên Trip.com và Reddit đều khuyên đi ngày thường.
   question: Resort này có đông không?
 image: images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp
-image_attribution_checked_at: '2026-07-10T04:52:14+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -48,7 +48,7 @@ image_creator: Zszen John
 image_creator_id: '1272697'
 image_creator_url: https://www.pexels.com/@zszen
 image_license: Pexels License
-image_license_url: ''
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/a-person-in-black-and-green-jacket-wearing-helmet-and-goggles-12165429/
@@ -59,6 +59,7 @@ internal_links:
   title: Vivaldi Park Ski World
 - ref: posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md
   title: Oak Valley
+seo_title: 'Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người'
 series: truot-tuyet
 series_order: 3
 series_title: Trượt tuyết Hàn Quốc
@@ -87,8 +88,6 @@ tom_tat_nhanh:
   value: Mùa đông (tháng 12–2)
 - label: Có cần đặt trước không
   value: Có (shuttle bus, thuê đồ, vé)
-seo_title: "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người"
-
 ---
 
 Bạn mới tập trượt và chỉ có một ngày rảnh ở Seoul? Elysian Gangchon là cái tên đầu tiên mình nghĩ đến. Lý do đơn giản: đây là resort gần Seoul nhất trong tất cả, đi tàu điện đến được, không cần thuê xe.

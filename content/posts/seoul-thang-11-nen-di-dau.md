@@ -37,7 +37,7 @@ faq:
 - answer: Khoảng 50.000–100.000 KRW vé tham quan, chưa gồm ăn uống và di chuyển.
 - answer: Metro là chính. Mua T-money, nạp 15.000–20.000 KRW đủ 3 ngày.
 image: images/posts/seoul-thang-11-nen-di-dau.webp
-image_attribution_checked_at: '2026-07-10T04:52:49+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

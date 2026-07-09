@@ -39,7 +39,7 @@ faq:
 - answer: Áo khoác mỏng đến trung bình, áo len mỏng, quần dài, giày đi bộ thoải mái.
     Mang thêm lớp áo khi đi núi.
 image: images/posts/thoi-tiet-han-quoc-thang-10.webp
-image_attribution_checked_at: '2026-07-10T04:52:44+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -60,6 +60,7 @@ internal_links:
 - ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
 - ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
 - ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
+seo_title: 'Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên'
 series: di-han-thang-10
 series_order: 2
 series_title: Đi Hàn tháng 10
@@ -77,8 +78,6 @@ tom_tat_nhanh:
 - label: Mưa
 - label: Đặc điểm
 - label: Lưu ý
-seo_title: "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên"
-
 ---
 
 Tháng 10 là thời điểm Hàn Quốc bước vào mùa thu — không còn nóng ẩm như mùa hè, cũng chưa lạnh như mùa đông. Nhiều du khách Việt chọn tháng này vì thời tiết dễ chịu hơn tháng 7–8 và bắt đầu có cảnh lá đổi màu. Tuy nhiên, “lạnh chưa” và “có mưa không” phụ thuộc vào tuần cụ thể trong tháng và khu vực bạn đến.

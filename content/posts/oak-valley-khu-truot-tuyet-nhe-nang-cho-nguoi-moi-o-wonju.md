@@ -36,7 +36,7 @@ faq:
     động: "ngày thường 10:00–17:00, có night ticket 18:00–21:00. Kiểm tra website
     oakvalley.co.kr" để biết giá mới nhất.'
 image: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
-image_attribution_checked_at: '2026-07-10T04:52:28+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

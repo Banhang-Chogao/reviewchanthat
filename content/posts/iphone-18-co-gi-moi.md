@@ -27,7 +27,7 @@ external_links:
 - title: MacRumors — iPhone Fold roundup
 - title: AppleInsider — iPhone 18 expectations (Jan 2026)
 image: images/posts/iphone-18-co-gi-moi.webp
-image_attribution_checked_at: '2026-07-10T04:52:41+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -39,6 +39,7 @@ image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/pexels-photo-169400/
+seo_title: iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra
 series: iphone-18-co-gi-moi
 series_order: 1
 series_title: iPhone 18 có gì mới
@@ -57,8 +58,6 @@ tom_tat_nhanh:
 - label: Trạng thái
 - label: Timeline đồn
 - label: Series
-seo_title: "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra"
-
 ---
 
 Mỗi mùa thu, cộng đồng iPhone lại hỏi: **thế hệ mới có đáng chờ không?** Với **iPhone 18**, câu hỏi phức tạp hơn vì Apple được đồn sẽ **tách lịch ra mắt** — Pro và Fold trước, bản tiêu chuẩn sau. Apple **chưa xác nhận** bất kỳ chi tiết nào; bài này là bản đồ tin đồn có nguồn để bạn đọc trước khi quyết định mua hay chờ.
