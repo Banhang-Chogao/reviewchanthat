@@ -8,7 +8,7 @@ tags = ["Deployment Doctor", "GitHub Actions", "CI/CD", "autofix", "deployment",
 author = "Minh Hoàng"
 image = "images/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.webp"
 thumbnail = "images/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.webp"
-image_alt = "Minh họa editorial Deployment Doctor: pipeline Collect → Diagnose → Decide → Report với tone teal, biểu tượng chẩn đoán CI/CD và trạng thái fail/safe/autofix."
+image_alt = "Minh họa editorial Deployment Doctor: dashboard tech teal, pipeline Collect Diagnose Autofix Verify, panel Failed runs / Safe Unsafe Report, không logo thương hiệu."
 image_status = "verified"
 image_provider = "self-generated"
 image_source = "Review Chân Thật"
@@ -43,188 +43,179 @@ items = [
 ]
 +++
 
-Có những đêm CI/CD đỏ hàng loạt: Deploy fail, QA debt fail, Content Direction fail — mỗi cái một commit, mỗi cái một log. Nếu cứ mở từng run, đoán root cause, vá tay rồi push lại, bạn sẽ kiệt sức trước cả khi blog ổn định.
+Một blog cá nhân trông “nhỏ”, nhưng pipeline có thể rất đông: Deploy, Content Direction, QA debt, autofix, snapshot, doctor… Chỉ cần **một** fail không được phân loại, cả dây chuyền dễ chạy vòng: bot sửa, bot report, bot deploy lại, runner xếp hàng, và chủ blog thức đêm mở log.
 
-**Deployment Doctor** ra đời từ đúng nỗi đau đó. Đây không phải “AI thần thánh tự sửa mọi bug”. Đây là một **lớp văn hoá deployment**: gom failed builds, phân loại root cause, lưu kinh nghiệm hệ thống, **chỉ autofix khi an toàn**, và đưa report ra dashboard để owner không phải sống trong GitHub Actions.
+Vấn đề không phải “có lỗi”. Lỗi luôn có. Vấn đề là **lỗi không được gắn ngữ cảnh**: runner queue trông giống bug code; GitHub outage trông giống template hỏng; nợ QA bài cũ trông giống feature PR mới hỏng. Khi mọi thứ đều “đỏ”, phản xạ tự nhiên là commit hotfix — và đó thường là phản xạ sai.
 
-Trang báo cáo nội bộ của blog: [Deployment Doctor]({{< relref "/deployment-doctor/" >}}).
-
-## Vấn đề thật: fail không phải luôn do code của bạn
-
-Trong vài ngày vận hành Review Chân Thật trên GitHub Actions + GitHub Pages, chúng tôi thấy rõ ba nhóm lỗi **không cùng một cách xử lý**:
-
-| Nhóm | Ví dụ | Có nên viết code hotfix ngay? |
-|------|--------|-------------------------------|
-| Platform / runner | `Waiting for a hosted runner…`, Actions delayed start, Pages incident | **Không** — chờ recovery, cancel run cũ, rerun latest |
-| QA debt / baseline | Post cũ thiếu image metadata, creator rỗng sai policy | **Không chặn deploy tính năng mới** — batch debt riêng |
-| Lỗi scope rõ | date-only, self-owned image bắt `direct_url`, report rỗng, hardcode `/series/` | **Có thể autofix** nếu script nhỏ + QA + retry cap |
-
-Nếu hệ thống **không phân biệt** ba nhóm này, mọi fail đều trông giống nhau: đỏ, và đều kích hoạt “sửa code gấp”. Đó là cách biến một sự cố runner thành một vòng lặp PR hotfix vô nghĩa.
+**Deployment Doctor** ra đời để biến failed builds thành **dữ liệu có hành động**: gom run, đọc log đã sanitize, gắn root cause, quyết định `safe_to_autofix`, rồi hoặc mở PR nhỏ, hoặc chỉ ghi report. Dashboard nội bộ nằm tại [Deployment Doctor](/deployment-doctor/). Bài này kể triết lý và design thật mà Review Chân Thật đang dùng, dựa trên một cụm failed runs gần đây trên `main` (không bịa run ID tuyệt đối nếu không cần).
 
 ## Deployment Doctor là gì?
 
-**Deployment Doctor** là pipeline Python + workflow GitHub Actions + trang Hugo (noindex) giúp blog:
+Deployment Doctor là một lớp **“bác sĩ deployment”** — không phải AI thay engineer, mà là **quy trình có máy hỗ trợ**:
 
-1. **Collect** — lấy danh sách run gần đây (`gh run list`), lọc failure / cancelled / timed_out / stuck queue.
-2. **Sanitize logs** — lưu excerpt đã redact token/API key (không đưa secret ra frontend).
-3. **Diagnose** — so khớp log với **knowledge base** root cause đã gặp.
-4. **Decide** — `safe_to_autofix: true|false`, action items, có nên mở PR hay chỉ report.
-5. **Autofix (có giới hạn)** — tối đa vài fix/lần, tối đa 2 attempt cho cùng `sha:failure_type`.
-6. **Export dashboard** — `data/deployment-doctor.json` → trang `/deployment-doctor/`.
+1. **Gom failed workflows** từ GitHub Actions (failure, cancelled, timed_out, hoặc queue bất thường).
+2. **Đọc log đã sanitize** — redact token, API key, private key; không đưa secret ra frontend.
+3. **Nhận diện root cause** bằng knowledge base (pattern log + heuristic).
+4. **Gắn `safe_to_autofix: true|false`** cùng action items.
+5. **Chạy script sửa lỗi nếu an toàn** và scope hẹp.
+6. **Mở PR nhỏ** hoặc **chỉ report** nếu không an toàn.
+7. **Lưu kinh nghiệm** vào knowledge base / attempt ledger để lần sau không “học lại từ zero”.
 
-Tên “Doctor” mang nghĩa **chẩn đoán trước khi kê thuốc**. Không phải tự động mổ mọi thứ.
+Nói cách khác: Doctor **chẩn đoán trước khi kê thuốc**. Tự động hoá không đồng nghĩa “cứ fail là sửa code”.
 
-## Knowledge base: biến incident thành trí nhớ hệ thống
+## Vì sao không nên auto-fix mọi lỗi?
 
-Mỗi lần fail “đã từng gặp” mà không ghi lại, lần sau team lại học lại từ đầu. Deployment Doctor giữ một knowledge base JSON với pattern kiểu:
+Automation thiếu phân loại nguy hiểm hơn không có automation. Một vài lý do thực tế:
 
-- `runner_capacity_delay` — runner queue, **không** autofix code  
-- `external_platform_incident` — GitHub Status / Actions delayed  
-- `baseline_debt_blocking_unrelated_deploy` — nợ QA cũ chặn feature  
-- `self_owned_image_direct_url` — ảnh self-generated không có `direct_url`  
-- `content_direction_empty_report` — report 0 posts / empty fallback  
-- `workflow_fanout` — một merge kích hoạt quá nhiều workflow song song  
-- `table_layout_ux_regression`, `qa_expectation_mismatch`, …
+**Runner queue không phải code bug.** Log kiểu *Waiting for a hosted runner to come online* nghĩa là job chưa kịp checkout. Commit hotfix Hugo template lúc này chỉ tạo thêm run xếp hàng.
 
-Mỗi pattern có:
+**GitHub outage / rate limit không phải lỗi repo.** Khi Actions/Pages degraded, “sửa blog” không làm platform xanh lại. Cần pause workflow phụ, cancel run superseded, rerun latest sau recovery.
 
-- **match strings** trong log  
-- **safe_to_autofix**  
-- **action items** rõ ràng  
-- script gợi ý (nếu có)
+**Old QA debt không nên block deploy tính năng mới.** Nếu mỗi PR nhỏ phải “chữa hết” metadata ảnh của hàng chục bài cũ, feature ship sẽ chết vì nợ không liên quan.
 
-Nhờ vậy, khi log hiện `No direct_url in manifest` trên ảnh `self-generated`, doctor **không** đề xuất “tải lại từ Pexels”. Nó đề xuất: bỏ yêu cầu `direct_url` với self-owned, kiểm tra file local dưới `static/images/posts/`.
+**Một số lỗi cần chờ / retry / cancel**, không cần commit. Deploy stale đôi khi chỉ cần rerun artifact mới nhất có kiểm soát.
 
-## Quy tắc vàng: an toàn trước, tự động sau
+**Auto-fix thiếu phân loại có thể làm site hỏng hơn:** bot “vá” sai file, tạo PR rỗng, hoặc loop commit report kích hoạt deploy vô hạn. Doctor cố tình **không** an toàn nếu không có pattern rõ.
 
-### Những gì **không** được autofix
+## Những nhóm lỗi Deployment Doctor phải nhận diện
 
-- Runner capacity / “waiting for hosted runner”  
-- GitHub outage / rate limit Pages  
-- Fake image creator (vi phạm policy attribution)  
-- Unknown failure chưa có pattern đủ tin cậy  
+Bảng dưới là “bảng bệnh án” tối thiểu — tín hiệu nhận diện, có được autofix trong deploy chính hay không, và action item gợi ý.
 
-Với các lỗi này, doctor **chỉ report**: owner thấy action item kiểu “đợi recovery rồi rerun latest deploy”, không có PR code lung tung lúc nửa đêm.
+| Nhóm lỗi | Tín hiệu nhận diện | Có nên autofix? | Action item |
+|----------|--------------------|-----------------|-------------|
+| Runner capacity delay | `Waiting for a runner…` / hosted runner chưa online | **Không** | Cancel run superseded; retry **latest** deploy sau khi hồi phục |
+| External platform incident | GitHub Status degraded, Actions delayed start | **Không** | Pause workflow phụ; không hotfix code repo |
+| Old QA debt blocking unrelated deploy | Bài cũ fail image/compliance dù PR không sửa bài đó | **Không** trong deploy chính | Baseline debt + batch PR riêng (`qa-debt-fix`) |
+| Changed post compliance issue | Bài mới/sửa thiếu metadata, date, image | **Có**, scoped | Chỉ sửa file changed/new |
+| Self-owned image `direct_url` | Ảnh self-generated fail vì không có provider `direct_url` | **Có** | Process local path dưới `static/images/posts/` |
+| Content Direction empty report | Report 0 posts dù repo có content | **Có** | Fail nếu scan 0 posts; không ghi JSON rỗng đè data |
+| Live deploy stale | Merge success nhưng live SHA cũ | **Có giới hạn** | `build-info.json` + verify live + rerun latest **một lần** |
+| Workflow fan-out | Một merge kích hoạt quá nhiều workflow | **Có** | Concurrency + `paths-ignore` + report-only skip |
 
-### Những gì **được** autofix (scope hẹp)
+Trong một cụm failed/cancelled runs gần đây trên `main` (lấy bằng `gh run list --limit 30`), ta thấy xen kẽ Deployment Doctor, Content Direction và Deploy — đúng kiểu **fan-out + cancel** hơn là “một bug bí ẩn duy nhất”. Điều quan trọng là hệ thống **phân nhóm** trước khi quyết định commit.
 
-- Chuẩn hoá date timezone Việt Nam khi pattern rõ  
-- Self-owned image: bỏ hard-fail `direct_url`  
-- Creator empty hợp lệ khi `source_verified_creator_unavailable`  
-- Content Direction: regenerate + guard không ghi JSON rỗng đè data thật  
-- `build-info.json` để verify live SHA  
-- paths-ignore / concurrency để giảm fan-out  
+## Kiến trúc đề xuất: 5 lớp
 
-Mỗi lần fix:
+### 1. Collector
 
-- **Max 3 fixes / run doctor**  
-- **Max 2 attempts / (SHA + failure_type)** — chống loop  
-- Không rewrite full site content  
-- Không mass-replace toàn bộ ảnh  
-- Không mở PR rỗng  
+Gọi GitHub CLI / API, lấy run gần đây, lọc conclusion thú vị, tải log (nếu được), sanitize, lưu excerpt. Nếu không auth được `gh`, collector **không fail build** — ghi `github_api_unavailable` và vẫn export dashboard một phần.
 
-## Loop guard và văn hoá “không tự bắn vào chân”
+### 2. Diagnosis engine
 
-Một deployment culture lành mạnh phải chấp nhận: **autofix cũng có thể tạo fail mới**.
+Map log + tên workflow → `failure_type` + `confidence` + `safe_to_autofix`. Ưu tiên đọc **nội dung log** hơn title commit (tránh false positive). Job chưa từng checkout → gần như chắc `runner_capacity_delay`.
 
-Deployment Doctor dùng ledger `data/deployment-doctor-attempts.json`. Nếu cùng `sha:failure_type` đã thử 2 lần → đánh dấu `needs_human_review`, không tạo PR thứ ba.
+### 3. Knowledge base
 
-Commit message có marker:
+JSON pattern: match strings, summary, action items, script gợi ý. Mỗi lần gặp fail mới “lạ” mà lặp lại → bổ sung pattern. Knowledge base là **trí nhớ team**, không phải đống log chết.
 
-- `[skip-autofix]`  
-- `[deployment-doctor] [skip-report]`  
+### 4. Scoped autofix
 
-Deploy workflow **paths-ignore** các file report/doctor data để commit dashboard **không** kích hoạt deploy → doctor → commit → deploy… vô hạn.
+Chỉ sửa khi:
 
-Content Direction cũng được tách: **chỉ chạy sau khi Deploy success** (workflow_run), không đua runner với Deploy — giảm fail giả do queue/capacity.
+- `safe_to_autofix == true`
+- có script đăng ký
+- attempt ledger chưa vượt cap (ví dụ max 2 lần / `sha:failure_type`)
+- max N fixes mỗi lần chạy doctor
 
-## Dashboard: owner nhìn một trang, không đào log
+Không full-site rewrite. Không mass-replace ảnh. Không PR rỗng.
 
-Trang [Deployment Doctor]({{< relref "/deployment-doctor/" >}}) (noindex, không vào sitemap) hiển thị:
+### 5. Dashboard
 
-- **Summary** luôn mở: số run fail, số safe autofix, số unsafe/external  
-- Các section còn lại **gập mặc định** (Recent failures, clusters, action items, lessons…) để UX không dài  
-- Action items P0/P1/P2  
-- “What owner should do” — thường trống; chỉ hiện khi cần secret, quyết định pháp lý, hoặc platform event  
+Trang noindex (không sitemap) cho owner: Summary luôn mở; các section dài gập mặc định. Action items P0/P1/P2. “What owner should do” thường trống — chỉ hiện khi cần secret, quyết định pháp lý, hoặc platform event.
 
-Mục tiêu UX: **ban đêm chỉ cần lướt Summary**. Cần sâu thì mới bấm mở.
-
-## Bài học từ fail thật của blog này
-
-Dưới đây là vài “bệnh án” đã gặp và cách doctor hoá:
-
-### 1. Runner queue / platform delay
-
-Log: *Waiting for a runner to pick up this job*.  
-**Thuốc sai:** sửa Hugo template.  
-**Thuốc đúng:** không đổi code; cancel run superseded; rerun latest sau recovery.  
-→ Pattern `runner_capacity_delay` / `external_platform_incident`.
-
-### 2. Self-owned image + `direct_url`
-
-Log: *FAIL: No direct_url in manifest*.  
-**Thuốc sai:** gán URL Pexels giả.  
-**Thuốc đúng:** self-generated không cần `direct_url`; verify file WebP local + metadata `image_owner=self`.  
-→ Pattern `self_owned_image_direct_url`.
-
-### 3. Content Direction rỗng / commit file gitignore
-
-UI hiện 0 bài dù repo có posts; hoặc job `git add reports/` bị `.gitignore` chặn.  
-**Thuốc đúng:** fail nếu scan 0 posts; không overwrite JSON rỗng; **chỉ commit** `data/content-direction.json`, không add `reports/**`.  
-→ Pattern `content_direction_empty_report` + fix workflow vĩnh viễn.
-
-### 4. Baseline debt chặn feature
-
-Deploy feature nhỏ fail vì post cũ thiếu license/creator.  
-**Thuốc đúng:** QA gate strict trên **changed/new**; debt cũ chạy batch workflow riêng.  
-→ Pattern `baseline_debt_blocking_unrelated_deploy`.
-
-## Kiến trúc tối giản bạn có thể copy
-
-Nếu muốn dựng “Doctor” cho repo static site của mình, giữ pipeline **đơn giản và kiểm soát được**:
+Luồng tóm tắt:
 
 ```text
-Deploy (main) ──success──► Content Direction / Doctor collect
-                              │
-                              ▼
-                     Diagnose vs knowledge base
-                              │
-              ┌───────────────┴───────────────┐
-              │                               │
-         unsafe/external                 safe + scoped
-              │                               │
-         report only                    autofix + QA
-              │                               │
-              └──────────► dashboard JSON ────┘
-                              │
-                              ▼
-                     /deployment-doctor/ (noindex)
+Failed runs
+    → Collector (sanitize logs)
+    → Diagnosis (knowledge base)
+    → Safe autofix?
+         ├─ yes → script scoped → QA → PR nhỏ (có cap)
+         └─ no  → report-only / dashboard
+    → Live verification (build-info + URL thật)
 ```
 
-Nguyên tắc thiết kế:
+## Lỗi nào được autofix, lỗi nào chỉ report?
 
-1. **Knowledge-first** — không match pattern thì không tự sửa.  
-2. **Scope-first** — chỉ đụng file liên quan.  
-3. **Cap-first** — giới hạn attempt và số PR.  
-4. **Report-first trên platform fail** — im lặng còn hơn hotfix sai.  
-5. **Dashboard cho người** — machine-readable JSON + UI gập gọn.
+| Failure type | Autofix? | Vì sao | Ví dụ action |
+|--------------|----------|--------|--------------|
+| date-only / timezone | **Yes** | Pattern rõ, script `fix-obvious` | Chuẩn hoá `+07:00`, không rewrite ngày mơ hồ |
+| self-owned image without `direct_url` | **Yes** | Ảnh local không cần provider URL | Skip hard-fail; verify file WebP local |
+| changed post missing image metadata | **Yes (scoped)** | Chỉ bài mới/sửa | Bổ sung metadata self-generated cho đúng slug |
+| Content Direction empty report | **Yes** | Guard + regenerate | Fail nếu 0 posts; chỉ commit `data/content-direction.json` |
+| hardcoded `/series/` hoặc `/images/` | **Yes** | Lỗi baseURL project pages | `relURL` / path có base path project |
+| runner queue | **No** | Không phải bug repo | Cancel + retry latest sau recovery |
+| GitHub outage | **No** | Platform | Pause nonessential workflows |
+| rate limit | **No** (hoặc backoff) | Platform | Backoff; giảm fan-out |
+| old QA debt | **Separate PR** | Không chặn deploy chính | Batch debt, baseline ledger |
+| unknown build error | **No** (trừ pattern đã biết) | Rủi ro cao | Human review + thêm knowledge |
 
-## Kết luận
+## Vì sao cần baseline debt?
 
-Deployment Doctor không thay thế engineer. Nó thay thế **thói quen phản xạ nửa đêm**: thấy đỏ là sửa lung tung.
+Blog có nhiều bài cũ. Metadata ảnh, license, creator — chuẩn ngày nay gắt hơn lúc viết bài. Nếu **mọi deploy** chạy compliance full-site, một PR “sửa CSS table” có thể fail vì bài du lịch tháng trước thiếu `image_license_url`.
 
-Khi blog (và team) biết:
+Cách đúng:
 
-- fail nào là **platform**,  
-- fail nào là **nợ cũ**,  
-- fail nào là **bug scope rõ**,  
+1. **Changed/new content: strict** — bài mới không được nợ.
+2. **Old debt → baseline** — ghi nhận, không chặn feature.
+3. **Batch PR** theo lịch / workflow tay — sửa dần.
+4. **Không hạ chuẩn** cho bài mới để “cho lẹ”.
 
-thì CI/CD trở thành hệ thống **học được**, không chỉ là đèn giao thông.
+Đây là điểm văn hoá: **strict ≠ trừng phạt quá khứ trong mọi PR**.
 
-Nếu bạn đang xây Hugo + GitHub Actions: hãy bắt đầu bằng **gom failed runs + knowledge base + safe_to_autofix**. Autofix chỉ là bước sau — khi bạn đã đủ khiêm tốn để không để robot “chữa” những thứ không thuộc về code.
+## Vì sao cần live verification?
 
-Đọc thêm trong cụm CI/CD của blog:
+Merge xanh trên GitHub **chưa chắc** live đã cập nhật. Deploy job success **chưa chắc** đúng artifact mới. Pages có thể serve bản cũ, cancel giữa chừng, hoặc rate-limit publish.
 
-- [GitHub Actions run start delays (9/7/2026)]({{< relref "/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection/" >}})  
-- [Pages recovered: checklist sau incident]({{< relref "/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident/" >}})  
-- [Workflow failures audit: root causes & action items]({{< relref "/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items/" >}})  
+Thực tế cần:
+
+- `static/build-info.json` (hoặc tương đương) ghi SHA lúc build
+- Kiểm tra live URL / `build-info` sau deploy
+- Nếu stale: **rerun latest deploy một lần**, không spam
+
+Tin badge workflow hơn live URL là cách hay để tự lừa mình.
+
+## Vì sao ảnh tự vẽ cũng cần được Deployment Doctor hiểu?
+
+Review Chân Thật chuyển sang **self-generated / self-hosted hero**. Ảnh không còn `direct_url` kiểu Pexels/Unsplash. Pipeline cũ từng fail:
+
+```text
+FAIL: No direct_url in manifest for <slug>
+```
+
+Đó là **false positive** với self-owned. Doctor (và `process_images`) phải hiểu:
+
+- `image_provider = self-generated`
+- `image_owner = self`
+- `image_creator = Review Chân Thật` (self, không bịa nghệ sĩ)
+- `image_attribution_source = self_generated`
+- file nằm dưới `static/images/posts/`
+
+**Không được fail chỉ vì thiếu external `direct_url`.** Cũng không được “vá” bằng creator giả hay fallback generic. Context-aware generation: đọc bài → prompt/visual brief → vẽ → metadata khớp content.
+
+## Bài học rút ra
+
+1. **Đừng để automation tự sửa mọi thứ.** Sửa sai đắt hơn fail có chủ đích.
+2. **Đừng để lỗi cũ block deploy mới.** Baseline debt + batch riêng.
+3. **Đừng xem mọi failed workflow là lỗi code.** Runner và platform tồn tại.
+4. **Đừng tin deploy badge hơn live URL.** Verify artifact/SHA.
+5. **Hãy lưu kinh nghiệm thành knowledge base.** Pattern lặp lại phải rẻ hơn lần đầu.
+6. **Hãy để bot làm việc lặp lại; con người quyết định mơ hồ.** Unknown = human review.
+7. **Giới hạn attempt và fan-out.** Loop guard, concurrency, paths-ignore report-only.
+8. **Content Direction / doctor không đua runner với Deploy.** Chạy sau success giảm fail giả.
+
+## Nhận xét của Review Chân Thật
+
+Deployment Doctor **không phải để che lỗi**. Nó làm lỗi **rõ hơn, có ngữ cảnh hơn**, và ít đánh thức chủ blog hơn.
+
+Một deployment culture tốt, ít nhất với static site + GitHub Actions, cần ba thứ:
+
+1. **Root cause rõ** — không gộp mọi đỏ thành một
+2. **Autofix có giới hạn** — scope, cap, ledger
+3. **Live verification sau deploy** — SHA thật trên site
+
+Với blog cá nhân / indie / Hugo: automation nên **hỗ trợ con người**, không tạo thêm ca trực. Doctor là công cụ để ban đêm chỉ cần mở Summary dashboard — còn bot chỉ đụng những vết thương đã biết cách băng.
+
+Nếu bạn đang dựng pipeline tương tự, hãy bắt đầu bằng collector + knowledge base + `safe_to_autofix`. Autofix là bước sau, khi bạn đủ khiêm tốn để không để robot “chữa” những thứ không thuộc về code.
+
+Đọc thêm các bài cùng cụm vận hành CI/CD trên blog: bảo vệ pipeline khi [GitHub Actions chậm start runner](/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection/), checklist sau khi [Pages/Actions hồi phục](/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident/), và [audit workflow failures → root causes → action items](/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items/).

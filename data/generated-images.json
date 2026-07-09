@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T14:39:01+07:00",
+  "generated_at": "2026-07-09T23:35:25+07:00",
   "items": {
     "co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh": {
       "path": "images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp",
@@ -297,6 +297,22 @@
       "title": "Workflow Failures Audit: CI/CD root causes and action items",
       "created_at": "2026-07-09T21:38:13.179414+07:00",
       "license": "Original self-hosted editorial illustration by Review Chân Thật"
+    },
+    "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix_hero": {
+      "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
+      "role": "hero",
+      "path": "images/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.webp",
+      "provider": "self-generated",
+      "owner": "self",
+      "creator": "Review Chân Thật",
+      "attribution_source": "self_generated",
+      "attribution_verified": true,
+      "commercial_use": true,
+      "generation_method": "context_aware_programmatic_pillow",
+      "context_analysis": "reports/image-context/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.json",
+      "prompt": "reports/image-prompts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.txt",
+      "relevance_notes": "Dashboard pipeline Collect-Diagnose-Autofix-Verify matching Deployment Doctor article",
+      "updated_at": "2026-07-09T23:35:25+07:00"
     }
   }
 }
