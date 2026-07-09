@@ -1,0 +1,116 @@
+name: Task to PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch name to create PR from"
+        required: true
+        type: string
+      title:
+        description: "PR title (optional — auto-generated if empty)"
+        required: false
+        type: string
+      body:
+        description: "PR body (optional — auto-generated if empty)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  pull-requests: write
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch }}
+          fetch-depth: 0
+
+      - name: Validate branch
+        id: validate
+        run: |
+          BRANCH="${{ inputs.branch }}"
+
+          # Check branch exists
+          if ! git rev-parse --verify "origin/$BRANCH" 2>/dev/null; then
+            echo "Branch '$BRANCH' does not exist on remote"
+            exit 1
+          fi
+
+          # Check for changes vs main
+          CHANGES=$(git diff --name-only "origin/main..origin/$BRANCH" 2>/dev/null | wc -l)
+          if [ "$CHANGES" -eq 0 ]; then
+            echo "No changes between main and $BRANCH"
+            exit 1
+          fi
+
+          # Check for merge conflict
+          if ! git merge-tree "$(git merge-base origin/main origin/$BRANCH)" origin/main origin/$BRANCH 2>/dev/null | grep -q "^changed in both"; then
+            CONFLICT_FILES=$(git merge-tree "$(git merge-base origin/main origin/$BRANCH)" origin/main origin/$BRANCH 2>/dev/null | grep -A4 "changed in both" | grep "base" | wc -l)
+            if [ "$CONFLICT_FILES" -gt 0 ]; then
+              echo "WARNING: branch may have conflicts"
+            fi
+          fi
+
+          echo "Branch '$BRANCH' validated — $CHANGES file(s) changed"
+
+          # Derive conventional title from branch name
+          TITLE="${{ inputs.title }}"
+          if [ -z "$TITLE" ]; then
+            case "$BRANCH" in
+              content/*)
+                TOPIC=$(echo "$BRANCH" | sed 's/^content\///' | sed 's/-/ /g' | sed 's/\b\(.\)/\u\1/g')
+                TITLE="feat: $TOPIC"
+                ;;
+              fix/*)
+                DESC=$(echo "$BRANCH" | sed 's/^fix\///' | sed 's/-/ /g')
+                TITLE="fix: $DESC"
+                ;;
+              autofix/*)
+                TITLE="fix(autofix): automated hotfix"
+                ;;
+              ci/*)
+                DESC=$(echo "$BRANCH" | sed 's/^ci\///' | sed 's/-/ /g')
+                TITLE="ci: $DESC"
+                ;;
+              *)
+                TITLE="chore: automated update"
+                ;;
+            esac
+          fi
+
+          BODY="${{ inputs.body }}"
+          if [ -z "$BODY" ]; then
+            BODY="Automated PR created by workflow. Checks will decide merge eligibility."
+          fi
+
+          echo "title=$TITLE" >> "$GITHUB_OUTPUT"
+          echo "body=$BODY" >> "$GITHUB_OUTPUT"
+
+      - name: Create PR
+        id: create
+        env:
+          BRANCH: ${{ inputs.branch }}
+          TITLE: ${{ steps.validate.outputs.title }}
+          BODY: ${{ steps.validate.outputs.body }}
+        run: |
+          PR_URL=$(gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "$TITLE" \
+            --body "$BODY" 2>&1) || {
+            echo "PR creation failed: $PR_URL"
+            exit 1
+          }
+          echo "url=$PR_URL" >> "$GITHUB_OUTPUT"
+          echo "PR created: $PR_URL"
+
+      - name: Report
+        run: |
+          echo "PR: ${{ steps.create.outputs.url }}"

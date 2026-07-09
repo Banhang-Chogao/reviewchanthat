@@ -1,0 +1,100 @@
+name: Auto Merge
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled, ready_for_review]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to auto-merge"
+        required: true
+        type: number
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+concurrency:
+  group: auto-merge-${{ github.event.number || inputs.pr_number }}
+  cancel-in-progress: false
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve PR
+        id: pr
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "number=${{ inputs.pr_number }}"
+          else
+            echo "number=${{ github.event.number }}"
+          fi
+
+      - name: Evaluate PR eligibility
+        id: eval
+        shell: bash
+        run: |
+          PR=${{ steps.pr.outputs.number }}
+          DATA=$(gh pr view "$PR" --json headRefName,author,state,mergeable,labels,isCrossRepository 2>/dev/null)
+
+          BRANCH=$(echo "$DATA" | jq -r '.headRefName')
+          AUTHOR=$(echo "$DATA" | jq -r '.author.login')
+          STATE=$(echo "$DATA" | jq -r '.state')
+          MERGEABLE=$(echo "$DATA" | jq -r '.mergeable')
+          IS_CROSS=$(echo "$DATA" | jq -r '.isCrossRepository')
+          LABELS=$(echo "$DATA" | jq -r '[.labels[].name] | join(",")')
+
+          echo "Found PR #$PR branch=$BRANCH author=$AUTHOR state=$STATE mergeable=$MERGEABLE"
+
+          if [ "$STATE" != "OPEN" ]; then
+            echo "action=skip" >> "$GITHUB_OUTPUT"; echo "reason=PR not open"; exit 0
+          fi
+
+          if echo "$LABELS" | grep -q "do-not-merge"; then
+            gh pr merge --disable "$PR" 2>/dev/null || true
+            echo "action=skip" >> "$GITHUB_OUTPUT"; echo "reason=do-not-merge label"; exit 0
+          fi
+
+          if [ "$IS_CROSS" = "true" ]; then
+            echo "action=skip" >> "$GITHUB_OUTPUT"; echo "reason=PR from fork"; exit 0
+          fi
+
+          case "$BRANCH" in
+            content/*|fix/*|autofix/*|ci/*)
+              echo "action=automerge" ;;
+            *)
+              echo "action=skip"; echo "reason=untrusted branch: $BRANCH" ;;
+          esac >> "$GITHUB_OUTPUT"
+
+      - name: Add labels
+        if: steps.eval.outputs.action == 'automerge'
+        env:
+          PR: ${{ steps.pr.outputs.number }}
+        run: |
+          gh pr edit "$PR" --add-label "automerge,automated" 2>/dev/null || true
+
+      - name: Enable auto-merge
+        if: steps.eval.outputs.action == 'automerge'
+        env:
+          PR: ${{ steps.pr.outputs.number }}
+        run: |
+          MERGEABLE=$(gh pr view "$PR" --json mergeable --jq '.mergeable')
+          if [ "$MERGEABLE" = "CONFLICTING" ]; then
+            echo "Merge conflict detected — cannot enable auto-merge"
+            exit 0
+          fi
+          gh pr merge "$PR" --auto --squash 2>&1 || echo "Auto-merge already enabled or not applicable"
+
+      - name: Disable auto-merge on do-not-merge
+        if: steps.eval.outputs.action == 'skip'
+        env:
+          PR: ${{ steps.pr.outputs.number }}
+        run: |
+          gh pr merge --disable "$PR" 2>/dev/null || true
+          echo "Auto-merge disabled for PR #$PR"

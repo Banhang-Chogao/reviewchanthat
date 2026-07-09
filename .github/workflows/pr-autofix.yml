@@ -1,0 +1,128 @@
+name: PR Autofix
+
+on:
+  workflow_run:
+    workflows: ["PR Check"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to fix"
+        required: true
+        type: number
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+concurrency:
+  group: pr-autofix-${{ github.event.workflow_run.head_branch || inputs.pr_number }}
+  cancel-in-progress: false
+
+jobs:
+  autofix:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'failure' &&
+       github.event.workflow_run.head_branch != 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Resolve PR and branch
+        id: resolve
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            PR_NUM=${{ inputs.pr_number }}
+            BRANCH=$(gh pr view "$PR_NUM" --json headRefName --jq '.headRefName' 2>/dev/null)
+          else
+            BRANCH="${{ github.event.workflow_run.head_branch }}"
+            PR_NUM=$(gh pr list --head "$BRANCH" --state OPEN --json number --jq '.[0].number // empty' 2>/dev/null)
+          fi
+
+          echo "pr=$PR_NUM"
+          echo "branch=$BRANCH"
+
+          if [ -z "$PR_NUM" ] || [ -z "$BRANCH" ]; then
+            echo "action=skip"
+            echo "reason=no matching open PR or invalid branch"
+            exit 0
+          fi
+
+          AUTHOR=$(gh pr view "$PR_NUM" --json author --jq '.author.login' 2>/dev/null)
+          # Skip if author is bot (already tried autofix)
+          if [ "$AUTHOR" = "github-actions[bot]" ]; then
+            echo "action=skip"
+            echo "reason=PR author is bot — avoid loop"
+            exit 0
+          fi
+
+          case "$BRANCH" in
+            content/*|fix/*|autofix/*|ci/*) echo "action=fix" ;;
+            *) echo "action=skip" ; echo "reason=untrusted branch: $BRANCH" ;;
+          esac
+
+      - name: Checkout PR branch
+        if: steps.resolve.outputs.action == 'fix'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.resolve.outputs.branch }}
+          fetch-depth: 5
+
+      - name: Skip if latest commit already has autofix
+        if: steps.resolve.outputs.action == 'fix'
+        run: |
+          LATEST_MSG=$(git log -1 --pretty=%s)
+          if echo "$LATEST_MSG" | grep -q "\[autofix\]"; then
+            echo "Latest commit already has [autofix] — skipping to prevent loop"
+            echo "skip=true" >> "$GITHUB_ENV"
+          else
+            echo "skip=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Setup Python
+        if: steps.resolve.outputs.action == 'fix' && env.skip != 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        if: steps.resolve.outputs.action == 'fix' && env.skip != 'true'
+        run: pip install -r requirements.txt
+
+      - name: Run safe autofixes
+        if: steps.resolve.outputs.action == 'fix' && env.skip != 'true'
+        continue-on-error: true
+        run: |
+          python scripts/fix_attribution.py || true
+          python scripts/process_images.py || true
+          python scripts/normalize_ai_summaries.py --fix || true
+          python scripts/compliance.py --fix --no-public --report-json /dev/null || true
+
+      - name: Commit and push fixes
+        if: steps.resolve.outputs.action == 'fix' && env.skip != 'true'
+        run: |
+          if git diff --quiet; then
+            echo "No changes to fix — PR is clean"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@noreply.github.com"
+
+          git add -A
+          git commit -m "fix(autofix): automated PR fix [autofix] [skip-autofix]"
+          git push origin "HEAD:${{ steps.resolve.outputs.branch }}"
+
+          echo "Autofix pushed to ${{ steps.resolve.outputs.branch }}"
+
+      - name: Report
+        if: always()
+        run: |
+          echo "=== PR Autofix Summary ==="
+          echo "PR: #${{ steps.resolve.outputs.pr }}"
+          echo "Branch: ${{ steps.resolve.outputs.branch }}"
+          echo "Action: ${{ steps.resolve.outputs.action }}"
