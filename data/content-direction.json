@@ -1,0 +1,2572 @@
+{
+  "generated_at": "2026-07-09T22:22:19+07:00",
+  "generated_at_display": "09-07-2026 22:22:19",
+  "summary": {
+    "total_posts": 156,
+    "draft_posts": 0,
+    "total_words": 188435,
+    "average_words_per_post": 1208,
+    "categories_count": 5,
+    "tags_count": 397,
+    "authors_count": 1,
+    "parse_warnings": 0
+  },
+  "categories": [
+    {
+      "name": "du-lich",
+      "count": 83
+    },
+    {
+      "name": "cong-nghe",
+      "count": 61
+    },
+    {
+      "name": "review",
+      "count": 11
+    },
+    {
+      "name": "doi-song",
+      "count": 3
+    },
+    {
+      "name": "tai-chinh",
+      "count": 2
+    }
+  ],
+  "authors": [
+    {
+      "name": "Minh Hoàng",
+      "count": 156
+    }
+  ],
+  "tags_top": [
+    {
+      "name": "series du lịch",
+      "count": 56
+    },
+    {
+      "name": "du lịch Hàn Quốc",
+      "count": 47
+    },
+    {
+      "name": "Seoul",
+      "count": 16
+    },
+    {
+      "name": "Hàn Quốc mùa hè",
+      "count": 13
+    },
+    {
+      "name": "Jeju",
+      "count": 13
+    },
+    {
+      "name": "Busan",
+      "count": 12
+    },
+    {
+      "name": "Hàn Quốc 2026",
+      "count": 11
+    },
+    {
+      "name": "tin đồn iPhone",
+      "count": 10
+    },
+    {
+      "name": "macOS 27",
+      "count": 10
+    },
+    {
+      "name": "iOS 27",
+      "count": 10
+    },
+    {
+      "name": "Apple",
+      "count": 9
+    },
+    {
+      "name": "iPhone 16 Pro Max",
+      "count": 9
+    },
+    {
+      "name": "iPhone 15 Pro Max",
+      "count": 9
+    },
+    {
+      "name": "iPhone 18",
+      "count": 8
+    },
+    {
+      "name": "Siri AI",
+      "count": 8
+    },
+    {
+      "name": "biển Hàn Quốc",
+      "count": 7
+    },
+    {
+      "name": "trượt tuyết Hàn Quốc",
+      "count": 7
+    },
+    {
+      "name": "ski resort Hàn Quốc",
+      "count": 7
+    },
+    {
+      "name": "gangwon-do",
+      "count": 7
+    },
+    {
+      "name": "series trượt tuyết",
+      "count": 7
+    }
+  ],
+  "time": {
+    "oldest": "2026-06-15T10:00:00+07:00",
+    "oldest_display": "15-06-2026 10:00:00",
+    "newest": "2026-07-09T22:35:00+07:00",
+    "newest_display": "09-07-2026 22:35:00"
+  },
+  "seo": {
+    "title_too_short": [],
+    "title_too_long": [
+      {
+        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "length": 91
+      },
+      {
+        "slug": "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang",
+        "title": "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang",
+        "length": 67
+      },
+      {
+        "slug": "apple-thua-kien-eu-app-store-ios-dma",
+        "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
+        "length": 69
+      },
+      {
+        "slug": "bangkok-3-ngay-3-dem-mua-mua",
+        "title": "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu",
+        "length": 74
+      },
+      {
+        "slug": "bangkok-ngay-mua-nen-di-dau",
+        "title": "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour",
+        "length": 76
+      },
+      {
+        "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
+        "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
+        "length": 65
+      },
+      {
+        "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
+        "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
+        "length": 65
+      },
+      {
+        "slug": "busan-thang-10-nen-di-dau",
+        "title": "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng",
+        "length": 64
+      },
+      {
+        "slug": "busan-thang-11-nen-di-dau",
+        "title": "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ",
+        "length": 62
+      },
+      {
+        "slug": "camera-iphone-18-co-gi-moi",
+        "title": "Camera iPhone 18 có gì mới? Selfie 24MP, variable aperture và kỳ vọng chụp ảnh",
+        "length": 78
+      },
+      {
+        "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
+        "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
+        "length": 66
+      },
+      {
+        "slug": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao",
+        "title": "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?",
+        "length": 68
+      },
+      {
+        "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
+        "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
+        "length": 70
+      },
+      {
+        "slug": "checklist-vali-di-thai-mua-mua",
+        "title": "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm",
+        "length": 71
+      },
+      {
+        "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
+        "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park",
+        "length": 80
+      },
+      {
+        "slug": "chi-phi-di-han-thang-10-tu-tuc",
+        "title": "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
+        "length": 75
+      },
+      {
+        "slug": "chi-phi-di-han-thang-11-tu-tuc",
+        "title": "Chi phí đi Hàn tháng 11 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
+        "length": 75
+      },
+      {
+        "slug": "chiang-mai-mua-mua-co-gi-dep",
+        "title": "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng",
+        "length": 74
+      },
+      {
+        "slug": "chuan-bi-macbook-truoc-khi-len-macos-27",
+        "title": "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app",
+        "length": 70
+      },
+      {
+        "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
+        "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
+        "length": 77
+      },
+      {
+        "slug": "co-nen-cho-iphone-18-khong",
+        "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
+        "length": 63
+      },
+      {
+        "slug": "co-nen-len-ios-26-5-2-khong",
+        "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì",
+        "length": 68
+      },
+      {
+        "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
+        "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
+        "length": 83
+      },
+      {
+        "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
+        "title": "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?",
+        "length": 81
+      },
+      {
+        "slug": "di-han-thang-10-co-dep-khong",
+        "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
+        "length": 77
+      },
+      {
+        "slug": "di-han-thang-11-co-dep-khong",
+        "title": "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên chọn",
+        "length": 82
+      },
+      {
+        "slug": "di-thai-lan-thang-7-co-nen-khong",
+        "title": "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý",
+        "length": 73
+      },
+      {
+        "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
+        "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?",
+        "length": 140
+      },
+      {
+        "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
+        "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
+        "length": 82
+      },
+      {
+        "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
+        "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
+        "length": 66
+      },
+      {
+        "slug": "doi-baht-o-viet-nam-hay-thai-lan",
+        "title": "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc",
+        "length": 81
+      },
+      {
+        "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+        "length": 80
+      },
+      {
+        "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
+        "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
+        "length": 85
+      },
+      {
+        "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+        "length": 81
+      },
+      {
+        "slug": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
+        "title": "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu",
+        "length": 93
+      },
+      {
+        "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
+        "title": "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu",
+        "length": 69
+      },
+      {
+        "slug": "european-commission-duoc-gi-khi-thang-apple",
+        "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
+        "length": 80
+      },
+      {
+        "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
+        "title": "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident",
+        "length": 92
+      },
+      {
+        "slug": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
+        "title": "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD",
+        "length": 117
+      },
+      {
+        "slug": "goi-y-du-lich-han-quoc-thang-7-2026",
+        "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
+        "length": 83
+      },
+      {
+        "slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
+        "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
+        "length": 75
+      },
+      {
+        "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
+        "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
+        "length": 63
+      },
+      {
+        "slug": "han-quoc-thang-10-co-la-do-chua",
+        "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
+        "length": 71
+      },
+      {
+        "slug": "han-quoc-thang-11-co-la-do-chua",
+        "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
+        "length": 73
+      },
+      {
+        "slug": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
+        "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
+        "length": 72
+      },
+      {
+        "slug": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
+        "title": "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi",
+        "length": 64
+      },
+      {
+        "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+        "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
+        "length": 79
+      },
+      {
+        "slug": "ios-27-apple-intelligence-iphone-cu",
+        "title": "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?",
+        "length": 68
+      },
+      {
+        "slug": "ios-27-beta-co-nen-cai-khong",
+        "title": "iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về bản ổn định",
+        "length": 72
+      },
+      {
+        "slug": "ios-27-cai-thien-pin-iphone",
+        "title": "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ",
+        "length": 68
+      },
+      {
+        "slug": "ios-27-co-nen-cap-nhat-ngay-khong",
+        "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
+        "length": 65
+      },
+      {
+        "slug": "ios-27-ho-tro-iphone-nao",
+        "title": "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới Apple Intelligence",
+        "length": 79
+      },
+      {
+        "slug": "ios-27-quyen-rieng-tu-iphone",
+        "title": "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?",
+        "length": 62
+      },
+      {
+        "slug": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
+        "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
+        "length": 83
+      },
+      {
+        "slug": "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao",
+        "title": "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?",
+        "length": 61
+      },
+      {
+        "slug": "iphone-18-chip-a20-2nm",
+        "title": "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm",
+        "length": 72
+      },
+      {
+        "slug": "iphone-18-co-gi-moi",
+        "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
+        "length": 64
+      },
+      {
+        "slug": "iphone-18-dynamic-island-nho-hon-under-display-face-id",
+        "title": "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?",
+        "length": 71
+      },
+      {
+        "slug": "iphone-18-khi-nao-ra-mat",
+        "title": "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone",
+        "length": 68
+      },
+      {
+        "slug": "iphone-18-mau-gi-dark-cherry",
+        "title": "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?",
+        "length": 72
+      },
+      {
+        "slug": "iphone-fold-iphone-ultra-la-gi",
+        "title": "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?",
+        "length": 77
+      },
+      {
+        "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
+        "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
+        "length": 67
+      },
+      {
+        "slug": "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
+        "title": "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý",
+        "length": 87
+      },
+      {
+        "slug": "jeju-thang-10-co-dep-khong",
+        "title": "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày",
+        "length": 69
+      },
+      {
+        "slug": "jeju-thang-11-co-dep-khong",
+        "title": "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày",
+        "length": 63
+      },
+      {
+        "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
+        "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
+        "length": 75
+      },
+      {
+        "slug": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
+        "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
+        "length": 76
+      },
+      {
+        "slug": "krabi-mua-mua-ao-nang-railay-tour-dao",
+        "title": "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?",
+        "length": 68
+      },
+      {
+        "slug": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
+        "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
+        "length": 71
+      },
+      {
+        "slug": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
+        "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
+        "length": 72
+      },
+      {
+        "slug": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
+        "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
+        "length": 65
+      },
+      {
+        "slug": "macos-27-apple-intelligence-macbook",
+        "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
+        "length": 70
+      },
+      {
+        "slug": "macos-27-beta-co-nen-cai-khong",
+        "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
+        "length": 74
+      },
+      {
+        "slug": "macos-27-cho-van-phong-creator-lap-trinh-vien",
+        "title": "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?",
+        "length": 64
+      },
+      {
+        "slug": "macos-27-co-gi-moi",
+        "title": "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac",
+        "length": 68
+      },
+      {
+        "slug": "macos-27-co-nen-nang-cap-ngay-khong",
+        "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
+        "length": 67
+      },
+      {
+        "slug": "macos-27-ho-tro-may-mac-nao",
+        "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
+        "length": 71
+      },
+      {
+        "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
+        "title": "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông",
+        "length": 78
+      },
+      {
+        "slug": "nami-thang-10-co-dang-di-khong",
+        "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
+        "length": 71
+      },
+      {
+        "slug": "nami-thang-11-co-dang-di-khong",
+        "title": "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul",
+        "length": 71
+      },
+      {
+        "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
+        "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
+        "length": 77
+      },
+      {
+        "slug": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
+        "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
+        "length": 84
+      },
+      {
+        "slug": "o-khu-nao-bangkok-mua-mua",
+        "title": "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom",
+        "length": 79
+      },
+      {
+        "slug": "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul",
+        "title": "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?",
+        "length": 68
+      },
+      {
+        "slug": "phuket-mua-mua-co-nen-di-khong",
+        "title": "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn",
+        "length": 76
+      },
+      {
+        "slug": "seoraksan-thang-10-ngam-la-do",
+        "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
+        "length": 62
+      },
+      {
+        "slug": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
+        "title": "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình",
+        "length": 62
+      },
+      {
+        "slug": "seoul-thang-10-nen-di-dau",
+        "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
+        "length": 65
+      },
+      {
+        "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
+        "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
+        "length": 78
+      },
+      {
+        "slug": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
+        "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
+        "length": 65
+      },
+      {
+        "slug": "starbucks-nguyen-van-troi-sai-gon-review",
+        "title": "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon",
+        "length": 73
+      },
+      {
+        "slug": "starbucks-vietnam-khong-gian-va-trai-nghiem",
+        "title": "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\"",
+        "length": 77
+      },
+      {
+        "slug": "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
+        "title": "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam",
+        "length": 64
+      },
+      {
+        "slug": "starbucks-vietnam-menu-do-uong-nen-thu",
+        "title": "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu",
+        "length": 63
+      },
+      {
+        "slug": "starbucks-vietnam-meo-goi-order-va-rewards",
+        "title": "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu",
+        "length": 63
+      },
+      {
+        "slug": "starbucks-vietnam-nhan-vien-va-dich-vu",
+        "title": "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt",
+        "length": 69
+      },
+      {
+        "slug": "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab",
+        "title": "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?",
+        "length": 79
+      },
+      {
+        "slug": "thoi-tiet-han-quoc-thang-10",
+        "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
+        "length": 72
+      },
+      {
+        "slug": "thoi-tiet-han-quoc-thang-11",
+        "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
+        "length": 75
+      },
+      {
+        "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
+        "title": "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền",
+        "length": 75
+      },
+      {
+        "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "length": 86
+      },
+      {
+        "slug": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
+        "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?",
+        "length": 85
+      },
+      {
+        "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
+        "title": "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp",
+        "length": 87
+      },
+      {
+        "slug": "ubon-ratchathani-candle-festival-thai-lan-thang-7",
+        "title": "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?",
+        "length": 91
+      },
+      {
+        "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
+        "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
+        "length": 74
+      },
+      {
+        "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
+        "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
+        "length": 96
+      },
+      {
+        "slug": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
+        "title": "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?",
+        "length": 73
+      },
+      {
+        "slug": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
+        "title": "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình",
+        "length": 68
+      },
+      {
+        "slug": "workflow-failures-audit-recent-ci-cd-root-causes-action-items",
+        "title": "Workflow Failures Audit: How We Identified Recent CI/CD Failures, Root Causes, and Action Items",
+        "length": 95
+      },
+      {
+        "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
+        "length": 82
+      },
+      {
+        "slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
+        "title": "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu",
+        "length": 76
+      },
+      {
+        "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
+        "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
+        "length": 79
+      },
+      {
+        "slug": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
+        "title": "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị",
+        "length": 95
+      },
+      {
+        "slug": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
+        "title": "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?",
+        "length": 90
+      }
+    ],
+    "description_missing": [],
+    "description_too_short": [],
+    "description_too_long": [
+      {
+        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "length": 166
+      },
+      {
+        "slug": "apple-vs-ec-dma-tuong-lai-iphone",
+        "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
+        "length": 180
+      },
+      {
+        "slug": "camera-iphone-18-co-gi-moi",
+        "title": "Camera iPhone 18 có gì mới? Selfie 24MP, variable aperture và kỳ vọng chụp ảnh",
+        "length": 167
+      },
+      {
+        "slug": "co-nen-cho-iphone-18-khong",
+        "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
+        "length": 161
+      },
+      {
+        "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
+        "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?",
+        "length": 231
+      },
+      {
+        "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
+        "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
+        "length": 165
+      },
+      {
+        "slug": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
+        "title": "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu",
+        "length": 183
+      },
+      {
+        "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
+        "title": "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu",
+        "length": 177
+      },
+      {
+        "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
+        "title": "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident",
+        "length": 210
+      },
+      {
+        "slug": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
+        "title": "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD",
+        "length": 209
+      },
+      {
+        "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+        "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
+        "length": 169
+      },
+      {
+        "slug": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
+        "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
+        "length": 163
+      },
+      {
+        "slug": "iphone-18-dynamic-island-nho-hon-under-display-face-id",
+        "title": "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?",
+        "length": 162
+      },
+      {
+        "slug": "iphone-18-khi-nao-ra-mat",
+        "title": "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone",
+        "length": 169
+      },
+      {
+        "slug": "iphone-18-pro-max-co-gi-moi",
+        "title": "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất",
+        "length": 166
+      },
+      {
+        "slug": "iphone-fold-iphone-ultra-la-gi",
+        "title": "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?",
+        "length": 169
+      },
+      {
+        "slug": "macos-27-co-gi-moi",
+        "title": "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac",
+        "length": 165
+      },
+      {
+        "slug": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
+        "title": "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình",
+        "length": 161
+      },
+      {
+        "slug": "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
+        "title": "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam",
+        "length": 169
+      },
+      {
+        "slug": "starbucks-vietnam-menu-do-uong-nen-thu",
+        "title": "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu",
+        "length": 162
+      },
+      {
+        "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "length": 186
+      },
+      {
+        "slug": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
+        "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?",
+        "length": 184
+      },
+      {
+        "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
+        "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
+        "length": 173
+      },
+      {
+        "slug": "workflow-failures-audit-recent-ci-cd-root-causes-action-items",
+        "title": "Workflow Failures Audit: How We Identified Recent CI/CD Failures, Root Causes, and Action Items",
+        "length": 174
+      },
+      {
+        "slug": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
+        "title": "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị",
+        "length": 201
+      }
+    ],
+    "slug_too_long": [
+      {
+        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "length": 88
+      },
+      {
+        "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
+        "length": 78
+      },
+      {
+        "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
+        "length": 81
+      },
+      {
+        "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
+        "length": 78
+      },
+      {
+        "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
+        "length": 83
+      },
+      {
+        "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
+        "length": 81
+      },
+      {
+        "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
+        "length": 83
+      },
+      {
+        "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
+        "length": 77
+      },
+      {
+        "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+        "length": 78
+      },
+      {
+        "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
+        "length": 77
+      },
+      {
+        "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
+        "length": 77
+      },
+      {
+        "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "length": 82
+      },
+      {
+        "slug": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
+        "length": 83
+      },
+      {
+        "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
+        "length": 85
+      },
+      {
+        "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
+        "length": 94
+      },
+      {
+        "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "length": 80
+      },
+      {
+        "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
+        "length": 78
+      },
+      {
+        "slug": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
+        "length": 88
+      }
+    ],
+    "slug_stop_words": [
+      {
+        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "stop_words": [
+          "de",
+          "va"
+        ]
+      },
+      {
+        "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
+        "stop_words": [
+          "de",
+          "mot"
+        ]
+      },
+      {
+        "slug": "camera-control-iphone-16-pro-max-co-tien-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "camera-iphone-16-pro-max-so-voi-15-pro-max",
+        "stop_words": [
+          "voi"
+        ]
+      },
+      {
+        "slug": "camera-iphone-18-co-gi-moi",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
+        "stop_words": [
+          "co",
+          "the",
+          "ve"
+        ]
+      },
+      {
+        "slug": "checklist-truoc-khi-mua-mot-san-pham-online",
+        "stop_words": [
+          "khi",
+          "mot"
+        ]
+      },
+      {
+        "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
+        "stop_words": [
+          "de"
+        ]
+      },
+      {
+        "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "chiang-mai-mua-mua-co-gi-dep",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
+        "stop_words": [
+          "cho",
+          "va"
+        ]
+      },
+      {
+        "slug": "chuan-bi-macbook-truoc-khi-len-macos-27",
+        "stop_words": [
+          "khi"
+        ]
+      },
+      {
+        "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "co-nen-cho-iphone-18-khong",
+        "stop_words": [
+          "cho",
+          "co"
+        ]
+      },
+      {
+        "slug": "co-nen-len-ios-26-5-2-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
+        "stop_words": [
+          "mot",
+          "va"
+        ]
+      },
+      {
+        "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
+        "stop_words": [
+          "cho"
+        ]
+      },
+      {
+        "slug": "di-han-thang-10-co-dep-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "di-han-thang-11-co-dep-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "di-thai-lan-thang-7-co-nen-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
+        "stop_words": [
+          "la"
+        ]
+      },
+      {
+        "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
+        "stop_words": [
+          "de",
+          "va"
+        ]
+      },
+      {
+        "slug": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
+        "stop_words": [
+          "cho"
+        ]
+      },
+      {
+        "slug": "european-commission-duoc-gi-khi-thang-apple",
+        "stop_words": [
+          "duoc",
+          "khi"
+        ]
+      },
+      {
+        "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
+        "stop_words": [
+          "de",
+          "the"
+        ]
+      },
+      {
+        "slug": "han-quoc-thang-10-co-la-do-chua",
+        "stop_words": [
+          "co",
+          "do",
+          "la"
+        ]
+      },
+      {
+        "slug": "han-quoc-thang-11-co-la-do-chua",
+        "stop_words": [
+          "co",
+          "do",
+          "la"
+        ]
+      },
+      {
+        "slug": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
+        "stop_words": [
+          "co",
+          "va"
+        ]
+      },
+      {
+        "slug": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+        "stop_words": [
+          "cho"
+        ]
+      },
+      {
+        "slug": "ios-27-beta-co-nen-cai-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "ios-27-co-gi-moi",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "ios-27-co-nen-cap-nhat-ngay-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "ios-27-so-voi-ios-26",
+        "stop_words": [
+          "voi"
+        ]
+      },
+      {
+        "slug": "iphone-15-pro-max-blue-titanium-co-dang-san",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "iphone-18-co-gi-moi",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "iphone-18-khi-nao-ra-mat",
+        "stop_words": [
+          "khi"
+        ]
+      },
+      {
+        "slug": "iphone-18-pro-max-co-gi-moi",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "iphone-fold-iphone-ultra-la-gi",
+        "stop_words": [
+          "la"
+        ]
+      },
+      {
+        "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "jeju-thang-10-co-dep-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "jeju-thang-11-co-dep-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
+        "stop_words": [
+          "co",
+          "va"
+        ]
+      },
+      {
+        "slug": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
+        "stop_words": [
+          "cho",
+          "va"
+        ]
+      },
+      {
+        "slug": "koh-samui-mua-he-so-voi-phuket",
+        "stop_words": [
+          "voi"
+        ]
+      },
+      {
+        "slug": "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau",
+        "stop_words": [
+          "cho"
+        ]
+      },
+      {
+        "slug": "macos-27-beta-co-nen-cai-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "macos-27-cho-van-phong-creator-lap-trinh-vien",
+        "stop_words": [
+          "cho"
+        ]
+      },
+      {
+        "slug": "macos-27-co-gi-moi",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "macos-27-co-nen-nang-cap-ngay-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "macos-27-so-voi-macos-26",
+        "stop_words": [
+          "voi"
+        ]
+      },
+      {
+        "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
+        "stop_words": [
+          "de",
+          "va"
+        ]
+      },
+      {
+        "slug": "nami-thang-10-co-dang-di-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "nami-thang-11-co-dang-di-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
+        "stop_words": [
+          "duoc"
+        ]
+      },
+      {
+        "slug": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
+        "stop_words": [
+          "duoc"
+        ]
+      },
+      {
+        "slug": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
+        "stop_words": [
+          "cho"
+        ]
+      },
+      {
+        "slug": "phuket-mua-mua-co-nen-di-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "pin-iphone-16-pro-max-co-dang-chon",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "seoraksan-thang-10-ngam-la-do",
+        "stop_words": [
+          "do",
+          "la"
+        ]
+      },
+      {
+        "slug": "seoraksan-thang-11-ngam-la-do",
+        "stop_words": [
+          "do",
+          "la"
+        ]
+      },
+      {
+        "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
+        "stop_words": [
+          "cho",
+          "va"
+        ]
+      },
+      {
+        "slug": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "starbucks-vietnam-khong-gian-va-trai-nghiem",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "starbucks-vietnam-menu-do-uong-nen-thu",
+        "stop_words": [
+          "do"
+        ]
+      },
+      {
+        "slug": "starbucks-vietnam-meo-goi-order-va-rewards",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "starbucks-vietnam-nhan-vien-va-dich-vu",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab",
+        "stop_words": [
+          "ve"
+        ]
+      },
+      {
+        "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
+        "stop_words": [
+          "cho",
+          "va"
+        ]
+      },
+      {
+        "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "stop_words": [
+          "khi",
+          "va"
+        ]
+      },
+      {
+        "slug": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
+        "stop_words": [
+          "neu"
+        ]
+      },
+      {
+        "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
+        "stop_words": [
+          "cho",
+          "va"
+        ]
+      },
+      {
+        "slug": "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
+        "stop_words": [
+          "the",
+          "va",
+          "ve"
+        ]
+      },
+      {
+        "slug": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
+        "stop_words": [
+          "cho",
+          "va"
+        ]
+      },
+      {
+        "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "stop_words": [
+          "nhung",
+          "va",
+          "ve"
+        ]
+      },
+      {
+        "slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
+        "stop_words": [
+          "nhung",
+          "va"
+        ]
+      },
+      {
+        "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
+        "stop_words": [
+          "khi",
+          "va"
+        ]
+      },
+      {
+        "slug": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
+        "stop_words": [
+          "co",
+          "voi"
+        ]
+      }
+    ]
+  },
+  "freshness": {
+    "average_age_days": 2,
+    "old_posts_over_365_days": [],
+    "new_posts_under_30_days": [
+      {
+        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang",
+        "title": "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang",
+        "age_days": 1,
+        "date": "08-07-2026 09:20:00"
+      },
+      {
+        "slug": "app-store-gatekeeper-apple-so-mat-dieu-gi",
+        "title": "App Store gatekeeper: Apple sợ mất điều gì?",
+        "age_days": 1,
+        "date": "08-07-2026 09:40:00"
+      },
+      {
+        "slug": "apple-thua-kien-eu-app-store-ios-dma",
+        "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
+        "age_days": 1,
+        "date": "08-07-2026 09:00:00"
+      },
+      {
+        "slug": "apple-vs-ec-dma-tuong-lai-iphone",
+        "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
+        "age_days": 1,
+        "date": "08-07-2026 11:20:00"
+      },
+      {
+        "slug": "bangkok-3-ngay-3-dem-mua-mua",
+        "title": "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "bangkok-ngay-mua-nen-di-dau",
+        "title": "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
+        "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
+        "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "busan-thang-10-nen-di-dau",
+        "title": "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng",
+        "age_days": 1,
+        "date": "08-07-2026 13:00:00"
+      },
+      {
+        "slug": "busan-thang-11-nen-di-dau",
+        "title": "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ",
+        "age_days": 1,
+        "date": "08-07-2026 20:30:00"
+      },
+      {
+        "slug": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
+        "title": "Cách đọc một bài review để không bị dắt mũi",
+        "age_days": 24,
+        "date": "15-06-2026 10:00:00"
+      },
+      {
+        "slug": "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
+        "title": "Cách xây dựng thói quen mua sắm thông minh",
+        "age_days": 11,
+        "date": "28-06-2026 10:00:00"
+      },
+      {
+        "slug": "camera-control-iphone-16-pro-max-co-tien-khong",
+        "title": "Camera Control iPhone 16 Pro Max có tiện không?",
+        "age_days": 1,
+        "date": "08-07-2026 10:20:00"
+      },
+      {
+        "slug": "camera-iphone-15-pro-max-nam-2026-con-du-tot-khong",
+        "title": "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?",
+        "age_days": 1,
+        "date": "08-07-2026 12:40:00"
+      },
+      {
+        "slug": "camera-iphone-16-pro-max-so-voi-15-pro-max",
+        "title": "Camera iPhone 16 Pro Max so với 15 Pro Max",
+        "age_days": 1,
+        "date": "08-07-2026 10:40:00"
+      },
+      {
+        "slug": "camera-iphone-18-co-gi-moi",
+        "title": "Camera iPhone 18 có gì mới? Selfie 24MP, variable aperture và kỳ vọng chụp ảnh",
+        "age_days": 1,
+        "date": "08-07-2026 13:00:00"
+      },
+      {
+        "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
+        "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao",
+        "title": "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "checklist-truoc-khi-mua-mot-san-pham-online",
+        "title": "Checklist trước khi mua một sản phẩm online",
+        "age_days": 19,
+        "date": "20-06-2026 14:00:00"
+      },
+      {
+        "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
+        "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "checklist-vali-di-thai-mua-mua",
+        "title": "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
+        "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "chi-phi-di-han-thang-10-tu-tuc",
+        "title": "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
+        "age_days": 1,
+        "date": "08-07-2026 16:00:00"
+      },
+      {
+        "slug": "chi-phi-di-han-thang-11-tu-tuc",
+        "title": "Chi phí đi Hàn tháng 11 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
+        "age_days": 1,
+        "date": "08-07-2026 22:00:00"
+      },
+      {
+        "slug": "chiang-mai-mua-mua-co-gi-dep",
+        "title": "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
+        "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "chuan-bi-macbook-truoc-khi-len-macos-27",
+        "title": "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app",
+        "age_days": 1,
+        "date": "08-07-2026 13:40:00"
+      },
+      {
+        "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
+        "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "co-nen-cho-iphone-18-khong",
+        "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
+        "age_days": 1,
+        "date": "08-07-2026 09:00:00"
+      },
+      {
+        "slug": "co-nen-len-ios-26-5-2-khong",
+        "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì",
+        "age_days": 0,
+        "date": "09-07-2026 17:30:00"
+      },
+      {
+        "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
+        "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
+        "title": "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
+        "title": "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "di-han-thang-10-co-dep-khong",
+        "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
+        "age_days": 1,
+        "date": "08-07-2026 06:00:00"
+      },
+      {
+        "slug": "di-han-thang-10-mac-gi",
+        "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
+        "age_days": 1,
+        "date": "08-07-2026 09:00:00"
+      },
+      {
+        "slug": "di-han-thang-11-co-dep-khong",
+        "title": "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên chọn",
+        "age_days": 1,
+        "date": "08-07-2026 17:00:00"
+      },
+      {
+        "slug": "di-han-thang-11-mac-gi",
+        "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
+        "age_days": 1,
+        "date": "08-07-2026 18:30:00"
+      },
+      {
+        "slug": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
+        "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "di-thai-lan-thang-7-co-nen-khong",
+        "title": "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
+        "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?",
+        "age_days": 1,
+        "date": "08-07-2026 09:00:00"
+      },
+      {
+        "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
+        "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
+        "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
+        "age_days": 1,
+        "date": "08-07-2026 09:20:00"
+      },
+      {
+        "slug": "doi-baht-o-viet-nam-hay-thai-lan",
+        "title": "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+        "age_days": 0,
+        "date": "09-07-2026 09:00:00"
+      },
+      {
+        "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
+        "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+        "age_days": 0,
+        "date": "09-07-2026 17:00:00"
+      },
+      {
+        "slug": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
+        "title": "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
+        "title": "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu",
+        "age_days": 1,
+        "date": "08-07-2026 09:40:00"
+      },
+      {
+        "slug": "european-commission-duoc-gi-khi-thang-apple",
+        "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
+        "age_days": 1,
+        "date": "08-07-2026 11:00:00"
+      },
+      {
+        "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
+        "title": "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident",
+        "age_days": -1,
+        "date": "09-07-2026 22:35:00"
+      },
+      {
+        "slug": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
+        "title": "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD",
+        "age_days": 0,
+        "date": "09-07-2026 20:21:28"
+      },
+      {
+        "slug": "goi-y-du-lich-han-quoc-thang-7-2026",
+        "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
+        "age_days": 0,
+        "date": "09-07-2026 08:00:00"
+      },
+      {
+        "slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
+        "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
+        "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
+        "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "han-quoc-thang-10-co-la-do-chua",
+        "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
+        "age_days": 1,
+        "date": "08-07-2026 08:00:00"
+      },
+      {
+        "slug": "han-quoc-thang-11-co-la-do-chua",
+        "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
+        "age_days": 1,
+        "date": "08-07-2026 18:00:00"
+      },
+      {
+        "slug": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
+        "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
+        "title": "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+        "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
+        "age_days": 1,
+        "date": "08-07-2026 09:10:00"
+      },
+      {
+        "slug": "ios-27-apple-intelligence-iphone-cu",
+        "title": "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?",
+        "age_days": 1,
+        "date": "08-07-2026 08:40:00"
+      },
+      {
+        "slug": "ios-27-beta-co-nen-cai-khong",
+        "title": "iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về bản ổn định",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "ios-27-cai-thien-pin-iphone",
+        "title": "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ",
+        "age_days": 1,
+        "date": "08-07-2026 09:00:00"
+      },
+      {
+        "slug": "ios-27-camera-anh-video-iphone",
+        "title": "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?",
+        "age_days": 1,
+        "date": "08-07-2026 09:20:00"
+      },
+      {
+        "slug": "ios-27-co-gi-moi",
+        "title": "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone",
+        "age_days": 1,
+        "date": "08-07-2026 08:00:00"
+      },
+      {
+        "slug": "ios-27-co-nen-cap-nhat-ngay-khong",
+        "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
+        "age_days": 1,
+        "date": "08-07-2026 09:40:00"
+      },
+      {
+        "slug": "ios-27-ho-tro-iphone-nao",
+        "title": "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới Apple Intelligence",
+        "age_days": 1,
+        "date": "08-07-2026 08:20:00"
+      },
+      {
+        "slug": "ios-27-quyen-rieng-tu-iphone",
+        "title": "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?",
+        "age_days": 1,
+        "date": "08-07-2026 10:20:00"
+      },
+      {
+        "slug": "ios-27-so-voi-ios-26",
+        "title": "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?",
+        "age_days": 1,
+        "date": "08-07-2026 10:40:00"
+      },
+      {
+        "slug": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
+        "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
+        "age_days": 1,
+        "date": "08-07-2026 10:20:00"
+      },
+      {
+        "slug": "iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao",
+        "title": "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?",
+        "age_days": 1,
+        "date": "08-07-2026 12:00:00"
+      },
+      {
+        "slug": "iphone-15-pro-max-blue-titanium-co-dang-san",
+        "title": "iPhone 15 Pro Max Blue Titanium có đáng săn?",
+        "age_days": 1,
+        "date": "08-07-2026 11:40:00"
+      },
+      {
+        "slug": "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi",
+        "title": "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?",
+        "age_days": 1,
+        "date": "08-07-2026 13:20:00"
+      },
+      {
+        "slug": "iphone-15-pro-max-mau-titan-con-dang-mua-khong",
+        "title": "iPhone 15 Pro Max màu titan có còn đáng mua không?",
+        "age_days": 1,
+        "date": "08-07-2026 11:00:00"
+      },
+      {
+        "slug": "iphone-15-pro-max-natural-titanium-danh-gia-mau",
+        "title": "iPhone 15 Pro Max Natural Titanium: đánh giá màu",
+        "age_days": 1,
+        "date": "08-07-2026 11:20:00"
+      },
+      {
+        "slug": "iphone-16-pro-max-desert-titanium-hop-ai",
+        "title": "iPhone 16 Pro Max Desert Titanium hợp ai?",
+        "age_days": 1,
+        "date": "08-07-2026 09:20:00"
+      },
+      {
+        "slug": "iphone-16-pro-max-desert-titanium-tren-tay",
+        "title": "iPhone 16 Pro Max Desert Titanium trên tay",
+        "age_days": 1,
+        "date": "08-07-2026 09:00:00"
+      },
+      {
+        "slug": "iphone-16-pro-max-nam-2026-nen-mua-khong",
+        "title": "iPhone 16 Pro Max năm 2026 nên mua không?",
+        "age_days": 1,
+        "date": "08-07-2026 11:20:00"
+      },
+      {
+        "slug": "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao",
+        "title": "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?",
+        "age_days": 1,
+        "date": "08-07-2026 09:40:00"
+      },
+      {
+        "slug": "iphone-18-chip-a20-2nm",
+        "title": "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm",
+        "age_days": 1,
+        "date": "08-07-2026 11:00:00"
+      },
+      {
+        "slug": "iphone-18-co-gi-moi",
+        "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
+        "age_days": 1,
+        "date": "08-07-2026 06:00:00"
+      },
+      {
+        "slug": "iphone-18-dynamic-island-nho-hon-under-display-face-id",
+        "title": "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?",
+        "age_days": 1,
+        "date": "08-07-2026 12:00:00"
+      },
+      {
+        "slug": "iphone-18-gia-bao-nhieu",
+        "title": "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn",
+        "age_days": 1,
+        "date": "08-07-2026 14:00:00"
+      },
+      {
+        "slug": "iphone-18-khi-nao-ra-mat",
+        "title": "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "iphone-18-mau-gi-dark-cherry",
+        "title": "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?",
+        "age_days": 1,
+        "date": "08-07-2026 16:00:00"
+      },
+      {
+        "slug": "iphone-18-pro-max-co-gi-moi",
+        "title": "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất",
+        "age_days": 1,
+        "date": "08-07-2026 08:00:00"
+      },
+      {
+        "slug": "iphone-18-vs-iphone-17",
+        "title": "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?",
+        "age_days": 1,
+        "date": "08-07-2026 15:00:00"
+      },
+      {
+        "slug": "iphone-fold-iphone-ultra-la-gi",
+        "title": "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
+        "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
+        "title": "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý",
+        "age_days": 0,
+        "date": "09-07-2026 10:00:00"
+      },
+      {
+        "slug": "jeju-thang-10-co-dep-khong",
+        "title": "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày",
+        "age_days": 1,
+        "date": "08-07-2026 14:00:00"
+      },
+      {
+        "slug": "jeju-thang-11-co-dep-khong",
+        "title": "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày",
+        "age_days": 1,
+        "date": "08-07-2026 21:00:00"
+      },
+      {
+        "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
+        "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
+        "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "koh-samui-mua-he-so-voi-phuket",
+        "title": "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "krabi-mua-mua-ao-nang-railay-tour-dao",
+        "title": "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
+        "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
+        "age_days": 1,
+        "date": "08-07-2026 15:00:00"
+      },
+      {
+        "slug": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
+        "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
+        "age_days": 1,
+        "date": "08-07-2026 14:30:00"
+      },
+      {
+        "slug": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
+        "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
+        "age_days": 1,
+        "date": "08-07-2026 21:30:00"
+      },
+      {
+        "slug": "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau",
+        "title": "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "macos-27-apple-intelligence-macbook",
+        "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
+        "age_days": 1,
+        "date": "08-07-2026 11:40:00"
+      },
+      {
+        "slug": "macos-27-beta-co-nen-cai-khong",
+        "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
+        "age_days": 1,
+        "date": "08-07-2026 13:00:00"
+      },
+      {
+        "slug": "macos-27-cho-van-phong-creator-lap-trinh-vien",
+        "title": "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?",
+        "age_days": 1,
+        "date": "08-07-2026 12:20:00"
+      },
+      {
+        "slug": "macos-27-co-gi-moi",
+        "title": "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac",
+        "age_days": 1,
+        "date": "08-07-2026 11:00:00"
+      },
+      {
+        "slug": "macos-27-co-nen-nang-cap-ngay-khong",
+        "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
+        "age_days": 1,
+        "date": "08-07-2026 12:40:00"
+      },
+      {
+        "slug": "macos-27-hieu-nang-pin-macbook",
+        "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
+        "age_days": 1,
+        "date": "08-07-2026 12:00:00"
+      },
+      {
+        "slug": "macos-27-ho-tro-may-mac-nao",
+        "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
+        "age_days": 1,
+        "date": "08-07-2026 11:20:00"
+      },
+      {
+        "slug": "macos-27-so-voi-macos-26",
+        "title": "macOS 27 so với macOS 26: khác gì với người dùng Mac?",
+        "age_days": 1,
+        "date": "08-07-2026 13:20:00"
+      },
+      {
+        "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
+        "title": "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "nami-thang-10-co-dang-di-khong",
+        "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
+        "age_days": 1,
+        "date": "08-07-2026 11:00:00"
+      },
+      {
+        "slug": "nami-thang-11-co-dang-di-khong",
+        "title": "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul",
+        "age_days": 1,
+        "date": "08-07-2026 19:30:00"
+      },
+      {
+        "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
+        "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
+        "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
+        "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
+        "age_days": 1,
+        "date": "08-07-2026 10:40:00"
+      },
+      {
+        "slug": "o-khu-nao-bangkok-mua-mua",
+        "title": "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
+        "title": "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju",
+        "age_days": 1,
+        "date": "08-07-2026 09:00:00"
+      },
+      {
+        "slug": "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul",
+        "title": "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "phuket-mua-mua-co-nen-di-khong",
+        "title": "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
+        "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
+        "age_days": 1,
+        "date": "08-07-2026 13:00:00"
+      },
+      {
+        "slug": "pin-iphone-16-pro-max-co-dang-chon",
+        "title": "Pin iPhone 16 Pro Max có đáng chọn?",
+        "age_days": 1,
+        "date": "08-07-2026 11:00:00"
+      },
+      {
+        "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
+        "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
+        "age_days": 21,
+        "date": "18-06-2026 10:00:00"
+      },
+      {
+        "slug": "seoraksan-thang-10-ngam-la-do",
+        "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
+        "age_days": 1,
+        "date": "08-07-2026 12:00:00"
+      },
+      {
+        "slug": "seoraksan-thang-11-ngam-la-do",
+        "title": "Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?",
+        "age_days": 1,
+        "date": "08-07-2026 20:00:00"
+      },
+      {
+        "slug": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
+        "title": "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "seoul-thang-10-nen-di-dau",
+        "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "seoul-thang-11-nen-di-dau",
+        "title": "Seoul tháng 11 nên đi đâu? Lịch trình 3 ngày ngắm peak lá đỏ",
+        "age_days": 1,
+        "date": "08-07-2026 19:00:00"
+      },
+      {
+        "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
+        "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
+        "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
+        "age_days": 14,
+        "date": "25-06-2026 10:00:00"
+      },
+      {
+        "slug": "starbucks-nguyen-van-troi-sai-gon-review",
+        "title": "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon",
+        "age_days": 0,
+        "date": "09-07-2026 08:00:00"
+      },
+      {
+        "slug": "starbucks-vietnam-khong-gian-va-trai-nghiem",
+        "title": "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\"",
+        "age_days": 1,
+        "date": "08-07-2026 11:00:00"
+      },
+      {
+        "slug": "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
+        "title": "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam",
+        "age_days": 1,
+        "date": "08-07-2026 14:00:00"
+      },
+      {
+        "slug": "starbucks-vietnam-menu-do-uong-nen-thu",
+        "title": "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu",
+        "age_days": 1,
+        "date": "08-07-2026 16:00:00"
+      },
+      {
+        "slug": "starbucks-vietnam-meo-goi-order-va-rewards",
+        "title": "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu",
+        "age_days": 1,
+        "date": "08-07-2026 12:00:00"
+      },
+      {
+        "slug": "starbucks-vietnam-nhan-vien-va-dich-vu",
+        "title": "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt",
+        "age_days": 1,
+        "date": "08-07-2026 17:00:00"
+      },
+      {
+        "slug": "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab",
+        "title": "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "thoi-tiet-han-quoc-thang-10",
+        "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "thoi-tiet-han-quoc-thang-11",
+        "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
+        "age_days": 1,
+        "date": "08-07-2026 17:30:00"
+      },
+      {
+        "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
+        "title": "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
+        "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
+        "title": "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong",
+        "title": "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?",
+        "age_days": 1,
+        "date": "08-07-2026 12:20:00"
+      },
+      {
+        "slug": "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch",
+        "title": "Trên tay iPhone 16 Pro Max màn hình 6.9 inch",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "ubon-ratchathani-candle-festival-thai-lan-thang-7",
+        "title": "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?",
+        "age_days": 1,
+        "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
+        "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
+        "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
+        "age_days": 2,
+        "date": "07-07-2026 09:00:00"
+      },
+      {
+        "slug": "vi-sao-review-dai-chua-chac-da-dang-tin",
+        "title": "Vì sao review dài chưa chắc đã đáng tin?",
+        "age_days": 17,
+        "date": "22-06-2026 10:00:00"
+      },
+      {
+        "slug": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
+        "title": "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?",
+        "age_days": 1,
+        "date": "08-07-2026 09:50:00"
+      },
+      {
+        "slug": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
+        "title": "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "workflow-failures-audit-recent-ci-cd-root-causes-action-items",
+        "title": "Workflow Failures Audit: How We Identified Recent CI/CD Failures, Root Causes, and Action Items",
+        "age_days": 0,
+        "date": "09-07-2026 14:45:00"
+      },
+      {
+        "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
+        "age_days": 2,
+        "date": "07-07-2026 18:00:00"
+      },
+      {
+        "slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
+        "title": "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu",
+        "age_days": 2,
+        "date": "07-07-2026 09:00:00"
+      },
+      {
+        "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
+        "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
+        "age_days": 1,
+        "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
+        "title": "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị",
+        "age_days": 0,
+        "date": "09-07-2026 04:00:00"
+      },
+      {
+        "slug": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
+        "title": "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?",
+        "age_days": 1,
+        "date": "08-07-2026 09:30:00"
+      }
+    ]
+  },
+  "internal_linking": {
+    "total_outbound_links": 1449,
+    "average_outbound_per_post": 9.29,
+    "top_linked_posts": [
+      {
+        "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
+        "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
+        "inbound": 34
+      },
+      {
+        "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "inbound": 32
+      },
+      {
+        "slug": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
+        "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
+        "inbound": 29
+      },
+      {
+        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "inbound": 27
+      },
+      {
+        "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
+        "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
+        "inbound": 26
+      },
+      {
+        "slug": "thoi-tiet-han-quoc-thang-10",
+        "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
+        "inbound": 23
+      },
+      {
+        "slug": "di-han-thang-10-mac-gi",
+        "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
+        "inbound": 22
+      },
+      {
+        "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
+        "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
+        "inbound": 18
+      },
+      {
+        "slug": "seoraksan-thang-10-ngam-la-do",
+        "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
+        "inbound": 18
+      },
+      {
+        "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
+        "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
+        "inbound": 17
+      }
+    ],
+    "orphan_posts": [
+      {
+        "slug": "co-nen-len-ios-26-5-2-khong",
+        "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
+      },
+      {
+        "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
+      },
+      {
+        "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
+      },
+      {
+        "slug": "workflow-failures-audit-recent-ci-cd-root-causes-action-items",
+        "title": "Workflow Failures Audit: How We Identified Recent CI/CD Failures, Root Causes, and Action Items"
+      }
+    ],
+    "posts_missing_internal_links": [
+      {
+        "slug": "co-nen-len-ios-26-5-2-khong",
+        "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
+      },
+      {
+        "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
+      },
+      {
+        "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
+      },
+      {
+        "slug": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
+        "title": "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD"
+      }
+    ]
+  },
+  "content_gaps": [
+    {
+      "type": "low_category_count",
+      "name": "tai-chinh",
+      "detail": "Danh mục 'tai-chinh' chỉ có 2 bài (ngưỡng 3).",
+      "count": 2
+    },
+    {
+      "type": "missing_pillar",
+      "name": "starbucks",
+      "detail": "Cluster 'starbucks' có 6 bài nhưng thiếu pillar/hub overview.",
+      "count": 6
+    }
+  ],
+  "action_items": [
+    {
+      "priority": "P1",
+      "type": "Internal Linking",
+      "title": "Giảm orphan posts (không có inbound)",
+      "detail": "4 bài không nhận internal link.",
+      "affected_count": 4,
+      "suggested_fix": "Link tới orphan từ bài hub/pillar cùng cluster."
+    },
+    {
+      "priority": "P1",
+      "type": "Internal Linking",
+      "title": "Thêm internal links cho bài thiếu outbound",
+      "detail": "4 bài không có internal link outbound (MD/FM/graph).",
+      "affected_count": 4,
+      "suggested_fix": "Chèn 2–5 internal links liên quan trong thân bài hoặc graph."
+    },
+    {
+      "priority": "P1",
+      "type": "SEO",
+      "title": "Tối ưu độ dài meta description",
+      "detail": "0 quá ngắn, 25 quá dài (chuẩn 50–160).",
+      "affected_count": 25,
+      "suggested_fix": "Chỉnh description về 50–160 ký tự."
+    },
+    {
+      "priority": "P1",
+      "type": "SEO",
+      "title": "Tối ưu độ dài title tag",
+      "detail": "0 title quá ngắn, 114 title quá dài (chuẩn 30–60 ký tự).",
+      "affected_count": 114,
+      "suggested_fix": "Rút gọn/mở rộng title về 30–60 ký tự, giữ keyword đầu."
+    },
+    {
+      "priority": "P2",
+      "type": "Content",
+      "title": "Lấp content gaps / thiếu pillar",
+      "detail": "2 khoảng trống nội dung được phát hiện.",
+      "affected_count": 2,
+      "suggested_fix": "Viết pillar hoặc mở rộng category/cluster yếu."
+    },
+    {
+      "priority": "P2",
+      "type": "SEO",
+      "title": "Rút ngắn slug quá dài",
+      "detail": "18 slug > 75 ký tự.",
+      "affected_count": 18,
+      "suggested_fix": "Rút gọn slug (report-only — đổi slug cần redirect)."
+    },
+    {
+      "priority": "P2",
+      "type": "SEO",
+      "title": "Slug chứa stop words (report-only)",
+      "detail": "87 slug chứa stop words tiếng Việt.",
+      "affected_count": 87,
+      "suggested_fix": "Ghi nhận; chỉ đổi slug khi refactor có redirect."
+    }
+  ],
+  "warnings": []
+}

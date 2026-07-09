@@ -1,22 +1,48 @@
 {{ define "main" }}
-{{ $data := index hugo.Data "content-direction" }}
-{{ if not $data }}
-  {{ $data = dict "overview" (dict "total_posts" 0 "total_words" 0) "generated_at" "" "action_items" slice }}
+{{/* Hyphenated data file: data/content-direction.json
+     Hugo ≥0.156: use hugo.Data (site.Data is deprecated). */}}
+{{ $report := index hugo.Data "content-direction" }}
+{{ $hasData := and $report $report.summary }}
+{{ $totalPosts := 0 }}
+{{ if $hasData }}
+  {{ $totalPosts = $report.summary.total_posts | default 0 }}
 {{ end }}
+{{ $isEmpty := or (not $hasData) (eq $totalPosts 0) }}
+
 <article class="content-direction">
   <header class="cd-header">
     <div class="container">
       <h1>Content Direction Report</h1>
       <p class="cd-subtitle">
-        Báo cáo định hướng nội dung tự động —
-        <time datetime="{{ $data.generated_at }}">{{ $data.generated_at_display | default $data.generated_at }}</time>
+        Báo cáo định hướng nội dung tự động
+        {{ if and $hasData $report.generated_at_display }}
+        —
+        <time datetime="{{ $report.generated_at }}">{{ $report.generated_at_display }}</time>
+        {{ else if not $hasData }}
+        — <span class="cd-stale">data missing</span>
+        {{ end }}
       </p>
     </div>
   </header>
 
   <div class="container cd-body">
 
-    {{ with $data.overview }}
+    {{ if $isEmpty }}
+    <section class="cd-section" id="error">
+      <div class="cd-error-card" role="alert">
+        <h2>Content Direction data is empty</h2>
+        <p>
+          Không có dữ liệu report hợp lệ (thiếu file hoặc <code>summary.total_posts == 0</code>).
+          Chạy:
+        </p>
+        <pre class="cd-code">python scripts/content_direction.py --json data/content-direction.json --md reports/content-direction-report.md
+python scripts/qa_content_direction.py</pre>
+        <p class="cd-error-note">UI không hiển thị dashboard giả lập 0. QA/CI phải fail khi data rỗng.</p>
+      </div>
+    </section>
+    {{ else }}
+
+    {{ with $report.summary }}
     <section class="cd-section" id="overview">
       <h2>1. Tổng quan</h2>
       <div class="cd-grid cd-grid-4">
@@ -29,274 +55,178 @@
           <span class="cd-stat-label">Tổng số từ</span>
         </div>
         <div class="cd-stat">
-          <span class="cd-stat-value">{{ lang.FormatNumber 0 .avg_words }}</span>
+          <span class="cd-stat-value">{{ lang.FormatNumber 0 .average_words_per_post }}</span>
           <span class="cd-stat-label">Trung bình từ/bài</span>
         </div>
         <div class="cd-stat">
-          <span class="cd-stat-value">{{ .draft_count }}</span>
+          <span class="cd-stat-value">{{ .draft_posts }}</span>
           <span class="cd-stat-label">Bài nháp</span>
         </div>
       </div>
-
-      <div class="cd-detail-grid">
-        <div class="cd-detail-card">
-          <h3>Danh mục</h3>
-          <table class="cd-table">
-            <thead><tr><th>Danh mục</th><th>Số bài</th><th>Tỉ lệ</th></tr></thead>
-            <tbody>
-            {{ range $cat, $count := .categories }}
-            <tr>
-              <td>{{ $cat }}</td>
-              <td>{{ $count }}</td>
-              <td>{{ lang.FormatNumber 0 (div (mul $count 100) (math.Max $data.overview.total_posts 1)) }}%</td>
-            </tr>
-            {{ end }}
-            </tbody>
-          </table>
+      <div class="cd-grid cd-grid-3">
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ .categories_count }}</span>
+          <span class="cd-stat-label">Danh mục</span>
         </div>
-        <div class="cd-detail-card">
-          <h3>Tác giả</h3>
-          <table class="cd-table">
-            <thead><tr><th>Tác giả</th><th>Số bài</th></tr></thead>
-            <tbody>
-            {{ range $author, $count := .authors }}
-            <tr><td>{{ $author }}</td><td>{{ $count }}</td></tr>
-            {{ end }}
-            </tbody>
-          </table>
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ .tags_count }}</span>
+          <span class="cd-stat-label">Tags</span>
         </div>
-        <div class="cd-detail-card">
-          <h3>Thời gian</h3>
-          <p><strong>Đầu:</strong> {{ partial "datetime.html" .date_range.first }}</p>
-          <p><strong>Mới nhất:</strong> {{ partial "datetime.html" .date_range.latest }}</p>
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ .authors_count }}</span>
+          <span class="cd-stat-label">Tác giả</span>
         </div>
       </div>
     </section>
     {{ end }}
 
-    {{ with $data.organic_search_direction }}
-    <section class="cd-section" id="organic-search">
-      <h2>2. Organic Search Direction</h2>
-      {{ if .ga4_data_available }}
-      <div class="cd-grid cd-grid-3">
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .total_users | default 0 }}</span>
-          <span class="cd-stat-label">Người dùng</span>
-        </div>
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .total_sessions | default 0 }}</span>
-          <span class="cd-stat-label">Phiên</span>
-        </div>
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .period_days | default 28 }}</span>
-          <span class="cd-stat-label">Ngày gần nhất</span>
-        </div>
-      </div>
-      {{ with .top_pages }}
+    <section class="cd-section" id="categories">
+      <h2>2. Danh mục</h2>
+      {{ with $report.categories }}
       <div class="cd-detail-card">
-        <h3>Trang xem nhiều nhất</h3>
         <table class="cd-table">
-          <thead><tr><th>Trang</th><th>Phiên</th></tr></thead>
+          <thead><tr><th>Danh mục</th><th>Số bài</th><th>Tỉ lệ</th></tr></thead>
           <tbody>
           {{ range . }}
-          <tr><td>{{ .title }}</td><td>{{ .sessions }}</td></tr>
+          <tr>
+            <td>{{ .name }}</td>
+            <td>{{ .count }}</td>
+            <td>{{ lang.FormatNumber 0 (div (mul .count 100) (math.Max $totalPosts 1)) }}%</td>
+          </tr>
           {{ end }}
           </tbody>
         </table>
       </div>
-      {{ end }}
       {{ else }}
-      <p class="cd-empty">Chưa có dữ liệu GA4. Dữ liệu sẽ cập nhật khi có lần fetch GA4 tiếp theo.</p>
+      <p class="cd-empty">Chưa có category nào trên các bài đã xuất bản.</p>
       {{ end }}
     </section>
-    {{ end }}
 
-    {{ with $data.google_seo }}
-    <section class="cd-section" id="seo">
-      <h2>3. Google SEO</h2>
-      <div class="cd-detail-grid">
-        <div class="cd-detail-card">
-          <h3>Meta Descriptions</h3>
-          {{ $descTotal := .meta_descriptions.total }}
-          <div class="cd-bar">
-            <div class="cd-bar-fill cd-bar-good" style="width:{{ div (mul .meta_descriptions.good 100) $descTotal }}%"></div>
-          </div>
-          <ul class="cd-metric-list">
-            <li><span class="cd-badge cd-badge-good">{{ .meta_descriptions.good }}</span> Đạt chuẩn (50-160 ký tự)</li>
-            <li><span class="cd-badge cd-badge-warn">{{ .meta_descriptions.short }}</span> Quá ngắn</li>
-            <li><span class="cd-badge cd-badge-warn">{{ .meta_descriptions.long }}</span> Quá dài</li>
-            <li><span class="cd-badge cd-badge-bad">{{ .meta_descriptions.missing }}</span> Thiếu</li>
-          </ul>
-        </div>
-        <div class="cd-detail-card">
-          <h3>Title Tags</h3>
-          {{ $titleTotal := .title_tags.total }}
-          <div class="cd-bar">
-            <div class="cd-bar-fill cd-bar-good" style="width:{{ div (mul .title_tags.good 100) $titleTotal }}%"></div>
-          </div>
-          <ul class="cd-metric-list">
-            <li><span class="cd-badge cd-badge-good">{{ .title_tags.good }}</span> Đạt chuẩn (30-60 ký tự)</li>
-            <li><span class="cd-badge cd-badge-warn">{{ .title_tags.too_short }}</span> Quá ngắn</li>
-            <li><span class="cd-badge cd-badge-warn">{{ .title_tags.too_long }}</span> Quá dài</li>
-          </ul>
-        </div>
-        <div class="cd-detail-card">
-          <h3>Slug Quality</h3>
-          <ul class="cd-metric-list">
-            <li><span class="cd-badge cd-badge-bad">{{ len .slug_issues }}</span> Slug chứa stop words</li>
-          </ul>
-        </div>
-        <div class="cd-detail-card">
-          <h3>Khác</h3>
-          <ul class="cd-metric-list">
-            <li><span class="cd-badge cd-badge-good">{{ .faq_present }}</span> Bài có FAQ schema</li>
-            <li><span class="cd-badge cd-badge-good">{{ .posts_with_schema }}</span> Bài có Schema</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    {{ end }}
-
-    {{ with $data.adsense_compliance }}
-    {{ if .total_violations }}
-    <section class="cd-section" id="adsense">
-      <h2>4. AdSense Compliance</h2>
-      <div class="cd-grid cd-grid-2">
-        <div class="cd-stat cd-stat-warn">
-          <span class="cd-stat-value">{{ .total_violations }}</span>
-          <span class="cd-stat-label">Vi phạm</span>
-        </div>
-        <div class="cd-stat cd-stat-good">
-          <span class="cd-stat-value">{{ .clean_posts }}</span>
-          <span class="cd-stat-label">Bài sạch</span>
-        </div>
-      </div>
-      {{ with .restricted_content }}
+    <section class="cd-section" id="authors">
+      <h2>3. Tác giả</h2>
+      {{ with $report.authors }}
       <div class="cd-detail-card">
-        <h3>Restricted Content</h3>
-        <ul class="cd-metric-list">
-        {{ range . }}
-          <li><span class="cd-badge cd-badge-bad">{{ .severity }}</span> {{ .post }} — {{ .message }}</li>
-        {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-    </section>
-    {{ end }}
-    {{ end }}
-
-    {{ with $data.content_quality }}
-    <section class="cd-section" id="quality">
-      <h2>5. Content Quality</h2>
-      <div class="cd-grid cd-grid-3">
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ lang.FormatNumber 0 .avg_word_count }}</span>
-          <span class="cd-stat-label">Từ/bài (TB)</span>
-        </div>
-        <div class="cd-stat cd-stat-warn">
-          <span class="cd-stat-value">{{ .missing_description }}</span>
-          <span class="cd-stat-label">Thiếu description</span>
-        </div>
-        <div class="cd-stat cd-stat-warn">
-          <span class="cd-stat-value">{{ .missing_image }}</span>
-          <span class="cd-stat-label">Thiếu hero image</span>
-        </div>
-      </div>
-      <div class="cd-detail-card">
-        <h3>Phân bố Word Count</h3>
         <table class="cd-table">
-          <thead><tr><th>Khoảng</th><th>Số bài</th></tr></thead>
+          <thead><tr><th>Tác giả</th><th>Số bài</th></tr></thead>
           <tbody>
-          {{ range $bucket, $count := .word_count_distribution }}
-          <tr><td>{{ $bucket }} từ</td><td>{{ $count }}</td></tr>
+          {{ range . }}
+          <tr><td>{{ .name }}</td><td>{{ .count }}</td></tr>
           {{ end }}
           </tbody>
         </table>
       </div>
-      {{ with .thin_posts }}
-      <div class="cd-detail-card cd-detail-card-warn">
-        <h3>Thin Posts (&lt;300 từ)</h3>
-        <ul class="cd-metric-list">
-        {{ range . }}
-          <li>{{ .title }} ({{ .words }} từ)</li>
-        {{ end }}
-        </ul>
-      </div>
+      {{ else }}
+      <p class="cd-empty">Chưa có author trong front matter.</p>
       {{ end }}
     </section>
-    {{ end }}
 
-    {{ with $data.internal_linking }}
-    <section class="cd-section" id="linking">
-      <h2>6. Internal Linking</h2>
-      <div class="cd-grid cd-grid-3">
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .total_internal_links }}</span>
-          <span class="cd-stat-label">Tổng internal links</span>
-        </div>
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .avg_per_post }}</span>
-          <span class="cd-stat-label">Trung bình/bài</span>
-        </div>
-        <div class="cd-stat cd-stat-warn">
-          <span class="cd-stat-value">{{ .orphan_count }}</span>
-          <span class="cd-stat-label">Orphan posts</span>
-        </div>
-      </div>
-      {{ with .orphan_posts }}
-      <div class="cd-detail-card cd-detail-card-warn">
-        <h3>Orphan Posts (không có link trỏ đến)</h3>
-        <details>
-          <summary>Xem {{ len . }} bài</summary>
-          <ul class="cd-metric-list">
-          {{ range . }}
-          <li>{{ .title }}</li>
-          {{ end }}
-          </ul>
-        </details>
+    <section class="cd-section" id="time-freshness">
+      <h2>4. Thời gian / Freshness</h2>
+      {{ with $report.time }}
+      <div class="cd-detail-card" style="margin-bottom:1rem">
+        <p><strong>Bài cũ nhất:</strong> {{ .oldest_display | default "—" }}</p>
+        <p><strong>Bài mới nhất:</strong> {{ .newest_display | default "—" }}</p>
       </div>
       {{ end }}
-      {{ with .top_linked_posts }}
-      <div class="cd-detail-card">
-        <h3>Top bài được link nhiều nhất</h3>
-        <table class="cd-table">
-          <thead><tr><th>Bài viết</th><th>Số link</th></tr></thead>
-          <tbody>
-          {{ range . }}
-          <tr><td>{{ .title }}</td><td>{{ .links }}</td></tr>
-          {{ end }}
-          </tbody>
-        </table>
-      </div>
-      {{ end }}
-    </section>
-    {{ end }}
-
-    {{ with $data.freshness }}
-    <section class="cd-section" id="freshness">
-      <h2>7. Freshness</h2>
+      {{ with $report.freshness }}
       <div class="cd-grid cd-grid-3">
         <div class="cd-stat">
-          <span class="cd-stat-value">{{ .avg_age_days }}</span>
+          <span class="cd-stat-value">{{ .average_age_days }}</span>
           <span class="cd-stat-label">Tuổi TB (ngày)</span>
         </div>
         <div class="cd-stat cd-stat-warn">
-          <span class="cd-stat-value">{{ .stale_count }}</span>
+          <span class="cd-stat-value">{{ len .old_posts_over_365_days }}</span>
           <span class="cd-stat-label">Bài cũ (&gt;365 ngày)</span>
         </div>
         <div class="cd-stat cd-stat-good">
-          <span class="cd-stat-value">{{ .recent_count }}</span>
+          <span class="cd-stat-value">{{ len .new_posts_under_30_days }}</span>
           <span class="cd-stat-label">Bài mới (&lt;30 ngày)</span>
         </div>
       </div>
-      {{ with .stale_posts }}
+      {{ with .old_posts_over_365_days }}
       <div class="cd-detail-card cd-detail-card-warn">
         <h3>Bài viết cần cập nhật</h3>
         <details>
           <summary>Xem {{ len . }} bài</summary>
           <ul class="cd-metric-list">
           {{ range . }}
-          <li>{{ .title }} — {{ .age_days }} ngày</li>
+            <li>{{ .title }} — {{ .age_days }} ngày</li>
+          {{ end }}
+          </ul>
+        </details>
+      </div>
+      {{ end }}
+      {{ end }}
+    </section>
+
+    {{ with $report.seo }}
+    <section class="cd-section" id="seo">
+      <h2>5. SEO Google</h2>
+      <div class="cd-detail-grid">
+        <div class="cd-detail-card">
+          <h3>Title tags</h3>
+          <ul class="cd-metric-list">
+            <li><span class="cd-badge cd-badge-warn">{{ len .title_too_short }}</span> Quá ngắn (&lt;30)</li>
+            <li><span class="cd-badge cd-badge-warn">{{ len .title_too_long }}</span> Quá dài (&gt;60)</li>
+          </ul>
+        </div>
+        <div class="cd-detail-card">
+          <h3>Meta description</h3>
+          <ul class="cd-metric-list">
+            <li><span class="cd-badge cd-badge-bad">{{ len .description_missing }}</span> Thiếu</li>
+            <li><span class="cd-badge cd-badge-warn">{{ len .description_too_short }}</span> Quá ngắn</li>
+            <li><span class="cd-badge cd-badge-warn">{{ len .description_too_long }}</span> Quá dài</li>
+          </ul>
+        </div>
+        <div class="cd-detail-card">
+          <h3>Slug quality</h3>
+          <ul class="cd-metric-list">
+            <li><span class="cd-badge cd-badge-warn">{{ len .slug_too_long }}</span> Slug quá dài</li>
+            <li><span class="cd-badge cd-badge-bad">{{ len .slug_stop_words }}</span> Chứa stop words (report-only)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    {{ end }}
+
+    {{ with $report.internal_linking }}
+    <section class="cd-section" id="linking">
+      <h2>6. Internal Linking</h2>
+      <div class="cd-grid cd-grid-3">
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ .total_outbound_links }}</span>
+          <span class="cd-stat-label">Outbound links</span>
+        </div>
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ .average_outbound_per_post }}</span>
+          <span class="cd-stat-label">TB outbound/bài</span>
+        </div>
+        <div class="cd-stat cd-stat-warn">
+          <span class="cd-stat-value">{{ len .orphan_posts }}</span>
+          <span class="cd-stat-label">Orphan posts</span>
+        </div>
+      </div>
+      {{ with .posts_missing_internal_links }}
+      <div class="cd-detail-card cd-detail-card-warn" style="margin-bottom:1rem">
+        <h3>Bài thiếu outbound internal links</h3>
+        <details>
+          <summary>Xem {{ len . }} bài</summary>
+          <ul class="cd-metric-list">
+          {{ range first 40 . }}
+            <li>{{ .title }}</li>
+          {{ end }}
+          </ul>
+        </details>
+      </div>
+      {{ end }}
+      {{ with .orphan_posts }}
+      <div class="cd-detail-card cd-detail-card-warn">
+        <h3>Orphan posts (không có inbound)</h3>
+        <details>
+          <summary>Xem {{ len . }} bài</summary>
+          <ul class="cd-metric-list">
+          {{ range first 40 . }}
+            <li>{{ .title }}</li>
           {{ end }}
           </ul>
         </details>
@@ -305,56 +235,74 @@
     </section>
     {{ end }}
 
-    {{ with $data.image_attribution_risk }}
-    <section class="cd-section" id="images">
-      <h2>8. Image / Attribution Risk</h2>
-      <div class="cd-grid cd-grid-3">
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .total_images }}</span>
-          <span class="cd-stat-label">Hero images</span>
-        </div>
-        <div class="cd-stat cd-stat-warn">
-          <span class="cd-stat-value">{{ .missing_credit_count }}</span>
-          <span class="cd-stat-label">Thiếu credit</span>
-        </div>
-        <div class="cd-stat cd-stat-warn">
-          <span class="cd-stat-value">{{ .dedup_count }}</span>
-          <span class="cd-stat-label">Trùng lặp</span>
-        </div>
-      </div>
-      {{ with .by_source }}
+    <section class="cd-section" id="gaps">
+      <h2>7. Content Gaps</h2>
+      {{ with $report.content_gaps }}
       <div class="cd-detail-card">
-        <h3>Nguồn ảnh</h3>
+        <ul class="cd-metric-list">
+        {{ range . }}
+          <li>
+            <span class="cd-badge cd-badge-warn">{{ .type }}</span>
+            {{ .detail }}
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+      {{ else }}
+      <p class="cd-empty">Không phát hiện content gap lớn.</p>
+      {{ end }}
+    </section>
+
+    <section class="cd-section" id="top-linked">
+      <h2>8. Top bài được link nhiều nhất</h2>
+      {{ with $report.internal_linking.top_linked_posts }}
+      <div class="cd-detail-card">
         <table class="cd-table">
-          <thead><tr><th>Nguồn</th><th>Số ảnh</th></tr></thead>
+          <thead><tr><th>#</th><th>Bài viết</th><th>Inbound</th></tr></thead>
           <tbody>
-          {{ range $source, $count := . }}
-          <tr><td>{{ $source }}</td><td>{{ $count }}</td></tr>
+          {{ range $i, $p := . }}
+          <tr>
+            <td>{{ add $i 1 }}</td>
+            <td>{{ $p.title }}</td>
+            <td>{{ $p.inbound }}</td>
+          </tr>
           {{ end }}
           </tbody>
         </table>
       </div>
+      {{ else }}
+      <p class="cd-empty">Chưa có dữ liệu inbound internal links.</p>
       {{ end }}
     </section>
-    {{ end }}
 
-    {{ with $data.action_items }}
     <section class="cd-section cd-section-actions" id="actions">
       <h2>9. Action Items</h2>
+      {{ with $report.action_items }}
       <div class="cd-actions-list">
       {{ range . }}
-        <div class="cd-action cd-action-{{ .priority }}">
+        {{ $prio := .priority | lower }}
+        <div class="cd-action cd-action-{{ $prio }}">
           <div class="cd-action-header">
-            <span class="cd-action-pill cd-pill-{{ .priority }}">{{ .priority | upper }}</span>
-            <span class="cd-action-area">{{ .area }}</span>
+            <span class="cd-action-pill cd-pill-{{ $prio }}">{{ .priority }}</span>
+            <span class="cd-action-area">{{ .type }}</span>
+            {{ with .affected_count }}
+            <span class="cd-action-count">{{ . }} affected</span>
+            {{ end }}
           </div>
           <h3 class="cd-action-title">{{ .title }}</h3>
           <p class="cd-action-detail">{{ .detail }}</p>
+          {{ with .suggested_fix }}
+          <p class="cd-action-fix"><strong>Gợi ý:</strong> {{ . }}</p>
+          {{ end }}
         </div>
       {{ end }}
       </div>
+      {{ else }}
+      <p class="cd-empty">Không có action item — tốt!</p>
+      {{ end }}
     </section>
-    {{ end }}
+
+    {{ end }}{{/* not empty */}}
 
   </div>
 </article>
@@ -365,6 +313,7 @@
 .cd-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 3rem 0 2rem; text-align: center; }
 .cd-header h1 { margin: 0; font-size: 2rem; font-weight: 700; }
 .cd-subtitle { margin-top: .5rem; opacity: .9; font-size: .9rem; }
+.cd-stale { background: rgba(255,255,255,.2); padding: .1rem .45rem; border-radius: 4px; }
 .cd-body { padding: 2rem 0 4rem; }
 .cd-section { margin-bottom: 3rem; }
 .cd-section h2 { font-size: 1.4rem; font-weight: 600; margin-bottom: 1.2rem; padding-bottom: .5rem; border-bottom: 2px solid #667eea; }
@@ -378,18 +327,13 @@
 .cd-stat-label { display: block; font-size: .8rem; color: var(--muted, #6c757d); margin-top: .25rem; text-transform: uppercase; letter-spacing: .03em; }
 .cd-stat-warn .cd-stat-value { color: #e67e22; }
 .cd-stat-good .cd-stat-value { color: #27ae60; }
-.cd-detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+.cd-detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin-bottom: 1rem; }
 .cd-detail-card { background: var(--card-bg, #f8f9fa); border: 1px solid var(--border-color, #e9ecef); border-radius: 10px; padding: 1.2rem; }
 .cd-detail-card h3 { font-size: 1rem; font-weight: 600; margin: 0 0 .8rem; }
 .cd-detail-card-warn { border-left: 3px solid #e67e22; }
 .cd-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
 .cd-table th, .cd-table td { padding: .5rem .75rem; text-align: left; border-bottom: 1px solid var(--border-color, #e9ecef); }
 .cd-table th { font-weight: 600; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted, #6c757d); }
-.cd-bar { height: 8px; background: var(--border-color, #e9ecef); border-radius: 4px; overflow: hidden; margin-bottom: .8rem; }
-.cd-bar-fill { height: 100%; border-radius: 4px; transition: width .5s; }
-.cd-bar-good { background: #27ae60; }
-.cd-bar-warn { background: #e67e22; }
-.cd-bar-bad { background: #e74c3c; }
 .cd-metric-list { list-style: none; padding: 0; margin: 0; }
 .cd-metric-list li { padding: .35rem 0; font-size: .9rem; border-bottom: 1px solid var(--border-color, #e9ecef); }
 .cd-metric-list li:last-child { border-bottom: none; }
@@ -398,27 +342,34 @@
 .cd-badge-warn { background: #fff3cd; color: #856404; }
 .cd-badge-bad { background: #f8d7da; color: #721c24; }
 .cd-empty { color: var(--muted, #6c757d); font-style: italic; padding: 1rem; }
+.cd-error-card { background: #fdf2f2; border: 1px solid #f5c2c7; border-left: 4px solid #e74c3c; border-radius: 10px; padding: 1.5rem; }
+.cd-error-card h2 { margin: 0 0 .75rem; color: #721c24; border: 0; padding: 0; font-size: 1.2rem; }
+.cd-code { background: #1a1a2e; color: #e8e8f0; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: .85rem; white-space: pre-wrap; }
+.cd-error-note { margin: .75rem 0 0; font-size: .9rem; color: #6c757d; }
 .cd-action { background: var(--card-bg, #f8f9fa); border: 1px solid var(--border-color, #e9ecef); border-radius: 10px; padding: 1.2rem; margin-bottom: 1rem; }
-.cd-action-high { border-left: 4px solid #e74c3c; }
-.cd-action-medium { border-left: 4px solid #e67e22; }
-.cd-action-low { border-left: 4px solid #27ae60; }
-.cd-action-header { display: flex; align-items: center; gap: .5rem; margin-bottom: .5rem; }
+.cd-action-p0, .cd-action-high { border-left: 4px solid #e74c3c; }
+.cd-action-p1, .cd-action-medium { border-left: 4px solid #e67e22; }
+.cd-action-p2, .cd-action-low { border-left: 4px solid #27ae60; }
+.cd-action-header { display: flex; align-items: center; gap: .5rem; margin-bottom: .5rem; flex-wrap: wrap; }
 .cd-action-pill { display: inline-block; padding: .15rem .6rem; border-radius: 3px; font-size: .7rem; font-weight: 700; letter-spacing: .05em; }
-.cd-pill-high { background: #f8d7da; color: #721c24; }
-.cd-pill-medium { background: #fff3cd; color: #856404; }
-.cd-pill-low { background: #d4edda; color: #155724; }
+.cd-pill-p0, .cd-pill-high { background: #f8d7da; color: #721c24; }
+.cd-pill-p1, .cd-pill-medium { background: #fff3cd; color: #856404; }
+.cd-pill-p2, .cd-pill-low { background: #d4edda; color: #155724; }
 .cd-action-area { font-size: .8rem; color: var(--muted, #6c757d); text-transform: uppercase; letter-spacing: .03em; }
+.cd-action-count { font-size: .75rem; color: var(--muted, #6c757d); margin-left: auto; }
 .cd-action-title { font-size: 1rem; font-weight: 600; margin: 0 0 .3rem; }
 .cd-action-detail { font-size: .9rem; color: var(--muted, #6c757d); margin: 0; }
+.cd-action-fix { font-size: .85rem; margin: .4rem 0 0; color: var(--text-color, #1a1a2e); }
 .dark-mode .cd-stat { background: #2d2d44; border-color: #3d3d5c; }
 .dark-mode .cd-detail-card { background: #2d2d44; border-color: #3d3d5c; }
 .dark-mode .cd-action { background: #2d2d44; border-color: #3d3d5c; }
-.dark-mode .cd-bar { background: #3d3d5c; }
 .dark-mode .cd-badge-good { background: #1e3a2e; color: #8fd9a8; }
 .dark-mode .cd-badge-warn { background: #3d3520; color: #f0d78c; }
 .dark-mode .cd-badge-bad { background: #3d2020; color: #f0a0a0; }
-.dark-mode .cd-pill-high { background: #3d2020; color: #f0a0a0; }
-.dark-mode .cd-pill-medium { background: #3d3520; color: #f0d78c; }
-.dark-mode .cd-pill-low { background: #1e3a2e; color: #8fd9a8; }
+.dark-mode .cd-pill-p0, .dark-mode .cd-pill-high { background: #3d2020; color: #f0a0a0; }
+.dark-mode .cd-pill-p1, .dark-mode .cd-pill-medium { background: #3d3520; color: #f0d78c; }
+.dark-mode .cd-pill-p2, .dark-mode .cd-pill-low { background: #1e3a2e; color: #8fd9a8; }
+.dark-mode .cd-error-card { background: #3d2020; border-color: #5c3030; }
+.dark-mode .cd-error-card h2 { color: #f0a0a0; }
 </style>
 {{ end }}
