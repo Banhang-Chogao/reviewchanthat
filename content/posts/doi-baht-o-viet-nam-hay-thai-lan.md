@@ -22,7 +22,6 @@ categories:
 date: "2026-07-08 10:00:00+07:00"
 description: "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa."
 description: "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa."
-image: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
 image_attribution_checked_at: '2026-07-09T10:41:28+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true

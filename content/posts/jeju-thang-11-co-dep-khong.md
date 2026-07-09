@@ -21,7 +21,6 @@ categories:
 date: "2026-07-08 21:00:00+07:00"
 description: "Jeju tháng 11 có đẹp không? Thời tiết lạnh, gió mạnh, Hallasan và lịch trình 3 ngày cho người đi lần đầu."
 description: "Jeju tháng 11 có đẹp không? Thời tiết lạnh, gió mạnh, Hallasan và lịch trình 3 ngày cho người đi lần đầu."
-external_links:
 - title: Visit Korea — Fall Foliage Forecast
   url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
 - title: "Korea Meteorological Administration"

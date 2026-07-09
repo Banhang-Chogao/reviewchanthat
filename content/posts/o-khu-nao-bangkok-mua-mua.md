@@ -22,7 +22,6 @@ categories:
 date: "2026-07-08 10:00:00+07:00"
 description: "Ở khu nào tại Bangkok mùa mưa? So sánh Siam, Ratchathewi, Pratunam, Sukhumvit, Silom — giá, kết nối BTS, điểm indoor gần, phù hợp từng đối tượng."
 description: "Ở khu nào tại Bangkok mùa mưa? So sánh Siam, Ratchathewi, Pratunam, Sukhumvit, Silom — giá, kết nối BTS, điểm indoor gần, phù hợp từng đối tượng."
-image: images/posts/o-khu-nao-bangkok-mua-mua.webp
 image_attribution_checked_at: '2026-07-09T10:41:35+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true

@@ -95,6 +95,43 @@ def fix_external_links_trailing_chars(fm_text: str) -> str:
 
     return "\n".join(result)
 
+def dedupe_top_level_keys(fm_text: str) -> tuple[str, list[str]]:
+    """Keep the first occurrence of each top-level key; drop later duplicates.
+
+    Hugo fails hard on duplicate keys (e.g. two description: lines).
+    """
+    lines = fm_text.split("\n")
+    seen: set[str] = set()
+    out: list[str] = []
+    removed: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        m = re.match(r"^([A-Za-z0-9_]+):\s*", line)
+        if m:
+            key = m.group(1)
+            if key in seen:
+                removed.append(key)
+                i += 1
+                # Skip indented continuation lines belonging to the duplicate key
+                while i < len(lines):
+                    nxt = lines[i]
+                    if not nxt.strip():
+                        i += 1
+                        continue
+                    if re.match(r"^[A-Za-z0-9_]+:\s*", nxt):
+                        break
+                    if nxt.startswith(" ") or nxt.startswith("\t"):
+                        i += 1
+                        continue
+                    break
+                continue
+            seen.add(key)
+        out.append(line)
+        i += 1
+    return "\n".join(out), removed
+
+
 def fix_frontmatter(text: str) -> tuple[str, list[str]]:
     """Apply fixes conservatively."""
     issues = []
@@ -102,6 +139,12 @@ def fix_frontmatter(text: str) -> tuple[str, list[str]]:
 
     if fm_text is None:
         return text, issues
+
+    # Step 0: Drop duplicate top-level keys (Hugo fatal)
+    fm_text_before = fm_text
+    fm_text, removed = dedupe_top_level_keys(fm_text)
+    if removed:
+        issues.append(f"deduped_keys:{','.join(removed)}")
 
     # Step 1: Fix description field ONLY
     fm_text_before = fm_text
