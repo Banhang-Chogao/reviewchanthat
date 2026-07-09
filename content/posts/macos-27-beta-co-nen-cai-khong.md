@@ -21,19 +21,18 @@ description: 'Hướng dẫn cài macOS 27 public/developer beta: rủi ro ổn 
   hàng, cách rollback và profile Apple Beta.'
 draft: false
 image: images/posts/macos-27-beta-co-nen-cai-khong.webp
+image_attribution_checked_at: '2026-07-09T15:38:52+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Meet Patel
-image_creator_url: "https://www.pexels.com/@meet-patel-236003280"
-image_creator_id: 236003280
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:17+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '236003280'
+image_creator_url: https://www.pexels.com/@meet-patel-236003280
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/macbook-pro-on-rooftop-with-code-editor-open-37085305/"
+image_source_url: https://www.pexels.com/photo/macbook-pro-on-rooftop-with-code-editor-open-37085305/
 series: macos-27-co-gi-moi
 series_order: 7
 series_title: macOS 27 có gì mới

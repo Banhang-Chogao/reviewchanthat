@@ -34,20 +34,19 @@ external_links:
 - title: https://www.aquafield.kr/>
   url: https://www.aquafield.kr/>
 image: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
-image_commercial_use: true
-image_creator: ""
-image_creator_url: ""
-image_creator_id: ""
-image_attribution_verified: false
+image_attribution_checked_at: '2026-07-09T15:38:52+07:00'
+image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: rejected_generic
-image_attribution_checked_at: "2026-07-09T10:43:27+07:00"
-image_attribution_error: "Creator rejected as generic/platform name: 'Pixabay'"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_attribution_verified: false
+image_commercial_use: true
+image_creator: ''
+image_creator_id: ''
+image_creator_url: ''
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/"
+image_source_url: https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/
 series: du-lich
 series_order: 8
 series_title: Du lịch Hàn Quốc 2026

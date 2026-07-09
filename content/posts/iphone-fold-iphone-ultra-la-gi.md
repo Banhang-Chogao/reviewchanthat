@@ -29,20 +29,19 @@ external_links:
 - title: AppleInsider — iPhone 18 expectations
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 image: images/posts/iphone-fold-iphone-ultra-la-gi.webp
-image_commercial_use: true
-image_creator: ""
-image_creator_url: ""
-image_creator_id: ""
-image_attribution_verified: false
+image_attribution_checked_at: '2026-07-09T15:38:57+07:00'
+image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
-image_attribution_checked_at: "2026-07-09T10:47:14+07:00"
-image_attribution_error: pexels_api_miss id=1092670; source_page_no_creator; embedded_meta_no_creator
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_attribution_verified: false
+image_commercial_use: true
+image_creator: ''
+image_creator_id: ''
+image_creator_url: ''
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-1092670/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-1092670/
 series: iphone-18-co-gi-moi
 series_order: 5
 series_title: iPhone 18 có gì mới

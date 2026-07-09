@@ -17,19 +17,18 @@ description: 'Natural Titanium trên iPhone 15 Pro Max: màu gốc, độ bền 
   các màu khác và có đáng chọn khi mua máy cũ năm 2026.'
 draft: false
 image: images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp
+image_attribution_checked_at: '2026-07-09T15:38:51+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Rohit Sharma
-image_creator_url: "https://www.pexels.com/@rohit-sharma-1230131"
-image_creator_id: 1230131
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:07+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '1230131'
+image_creator_url: https://www.pexels.com/@rohit-sharma-1230131
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/modern-smartphone-on-wooden-table-21424632/"
+image_source_url: https://www.pexels.com/photo/modern-smartphone-on-wooden-table-21424632/
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 2
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'

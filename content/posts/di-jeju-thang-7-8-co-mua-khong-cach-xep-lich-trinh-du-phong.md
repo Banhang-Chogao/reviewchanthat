@@ -30,19 +30,18 @@ faq:
     trên app.
   question: Làm sao để tránh mưa?
 image: images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp
+image_attribution_checked_at: '2026-07-09T15:38:49+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: nana liu
-image_creator_url: "https://www.pexels.com/@nana-llj"
-image_creator_id: 2527431
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:57+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '2527431'
+image_creator_url: https://www.pexels.com/@nana-llj
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/scenic-rocky-coastline-in-jeju-island-korea-34350262/"
+image_source_url: https://www.pexels.com/photo/scenic-rocky-coastline-in-jeju-island-korea-34350262/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

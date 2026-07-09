@@ -21,7 +21,7 @@ author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
-date: "2026-07-09 08:00:00+07:00"
+date: '2026-07-09 08:00:00+07:00'
 description: Review Starbucks Nguyễn Văn Trỗi Phú Nhuận — nhân viên nhiệt tình, đồ
   uống pha ngon, không gian thoải mái. Ảnh chụp thực tế kèm theo.
 draft: false
@@ -29,20 +29,20 @@ external_links:
 - title: Starbucks Vietnam — Store locator
   url: https://www.starbucks.vn/
 image: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
-image_commercial_use: true
-image_creator: ""
-image_creator_url: ""
-image_creator_id: ""
-image_attribution_verified: false
+image_attribution_checked_at: '2026-07-09T15:38:56+07:00'
+image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: self_owned
-image_attribution_checked_at: "2026-07-09T10:47:23+07:00"
-image_attribution_error: ""
-image_license_url: ""
+image_attribution_verified: false
+image_commercial_use: true
+image_creator: ''
+image_creator_id: ''
+image_creator_url: ''
 image_license: Self-owned
+image_license_url: ''
 image_owner: self
 image_provider: self
 image_source: self
-image_source_url: "https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg"
+image_source_url: https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg
 image_status: verified
 series: starbucks-vietnam
 series_order: 2

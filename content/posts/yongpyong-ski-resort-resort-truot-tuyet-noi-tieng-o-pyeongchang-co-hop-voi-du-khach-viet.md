@@ -42,19 +42,18 @@ faq:
     hợp hơn.
   question: Yongpyong có gì khác biệt so với Alpensia?
 image: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
+image_attribution_checked_at: '2026-07-09T15:38:55+07:00'
+image_attribution_source: pixabay_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: jarmoluk
-image_creator_url: "https://pixabay.com/users/jarmoluk-143740/"
-image_creator_id: 143740
-image_attribution_verified: true
-image_attribution_source: pixabay_api
-image_attribution_checked_at: "2026-07-09T10:43:52+07:00"
-image_license_url: "https://pixabay.com/service/license-summary/"
-image_provider: pixabay
+image_creator_id: '143740'
+image_creator_url: https://pixabay.com/users/jarmoluk-143740/
 image_license: Pixabay Content License
+image_license_url: https://pixabay.com/service/license-summary/
 image_owner: external
 image_source: Pixabay
-image_source_url: "https://pixabay.com/photos/goggles-winter-skiing-exhibition-428610/"
+image_source_url: https://pixabay.com/vi/photos/k%C3%ADnh-b%E1%BA%A3o-h%E1%BB%99-m%C3%B9a-%C4%91%C3%B4ng-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-428610/
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
   title: Top địa điểm trượt tuyết ở Hàn Quốc mùa đông

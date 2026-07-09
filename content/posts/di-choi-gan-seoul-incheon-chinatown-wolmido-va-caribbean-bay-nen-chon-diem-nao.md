@@ -35,19 +35,18 @@ external_links:
 - title: https://www.everland.com/>
   url: https://www.everland.com/>
 image: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
+image_attribution_checked_at: '2026-07-09T15:38:49+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Theodore Nguyen
-image_creator_url: "https://www.pexels.com/@thejourneyofframes"
-image_creator_id: 898884684
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:21+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '898884684'
+image_creator_url: https://www.pexels.com/@thejourneyofframes
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/seoul-arex-subway-station-entrance-with-signage-32211611/"
+image_source_url: https://www.pexels.com/photo/seoul-arex-subway-station-entrance-with-signage-32211611/
 series: du-lich
 series_order: 12
 series_title: Du lịch Hàn Quốc 2026

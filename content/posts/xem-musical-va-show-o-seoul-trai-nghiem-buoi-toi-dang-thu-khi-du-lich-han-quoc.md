@@ -30,19 +30,18 @@ external_links:
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
 image: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
+image_attribution_checked_at: '2026-07-09T15:38:55+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jeffry Surianto
-image_creator_url: "https://www.pexels.com/@andromeda99"
-image_creator_id: 3009141
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:38+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '3009141'
+image_creator_url: https://www.pexels.com/@andromeda99
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/traditional-korean-gayageum-performance-indoors-36853090/"
+image_source_url: https://www.pexels.com/photo/traditional-korean-gayageum-performance-indoors-36853090/
 series: du-lich
 series_order: 6
 series_title: Du lịch Hàn Quốc 2026
