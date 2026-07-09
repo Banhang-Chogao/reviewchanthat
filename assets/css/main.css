@@ -1209,3 +1209,12 @@ html.dark-mode .branding-ci__code{background:rgba(13,23,22,.8);color:#cbd5e1}
   .post-content>table td{padding:.65rem .7rem}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:0s!important;animation-duration:0s!important;animation-iteration-count:1!important;transform:none!important}}
+
+/* S-DNA card skin (skin-only: colors/border/shadow, no layout change) */
+.home-post-block,.category-post-row,.post-card{background:var(--skin-card-bg);border:1px solid var(--skin-card-border);border-left:4px solid var(--skin-card-accent);box-shadow:var(--skin-shadow-subtle)}
+.home-post-block:hover,.category-post-row:hover,.post-card:hover{border-color:rgba(0,167,160,.34);border-left-color:var(--skin-card-accent);box-shadow:var(--skin-shadow-card)}
+.home-post-block:nth-child(3n+1),.category-post-row:nth-child(3n+1),.post-card:nth-child(3n+1){background:var(--sdna-teal-soft)}
+.home-post-block:nth-child(3n+2),.category-post-row:nth-child(3n+2),.post-card:nth-child(3n+2){background:var(--sdna-blue-soft)}
+.home-post-block:nth-child(3n+3),.category-post-row:nth-child(3n+3),.post-card:nth-child(3n+3){background:var(--sdna-purple-soft)}
+.home-post-block__title a,.category-post-row__title a,.post-card-title a{color:var(--sdna-heading)}
+.home-post-block__excerpt,.category-post-row__excerpt,.post-card-excerpt{color:var(--sdna-body)}
