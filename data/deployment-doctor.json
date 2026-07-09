@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T05:43:26+07:00",
-  "generated_at_display": "10-07-2026 05:43:26",
+  "generated_at": "2026-07-10T05:46:10+07:00",
+  "generated_at_display": "10-07-2026 05:46:10",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -14,8 +14,8 @@
     "loop_guarded_attempts": 27,
     "by_type": {
       "sitemap_noindex_mismatch": 13,
-      "qa_expectation_mismatch": 7,
-      "workflow_fanout": 4,
+      "qa_expectation_mismatch": 8,
+      "workflow_fanout": 3,
       "ai_summary_map_artifact": 2,
       "content_direction_optimizer_fail": 1,
       "duplicate_yaml_keys": 1
@@ -51,6 +51,16 @@
       "safe_to_autofix": true,
       "action": "Kiểm tra content/posts/ có file front matter lỗi",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29052996627"
+    },
+    {
+      "run_id": "29055288197",
+      "workflow": "Content Direction",
+      "commit": "a1fa8dc",
+      "status": "failure",
+      "rootcause": "qa_expectation_mismatch",
+      "safe_to_autofix": true,
+      "action": "Align QA with product rules.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29055288197"
     },
     {
       "run_id": "29055159255",
@@ -121,6 +131,16 @@
       "safe_to_autofix": true,
       "action": "Align QA with product rules.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29053958546"
+    },
+    {
+      "run_id": "29055367473",
+      "workflow": "Deployment Doctor",
+      "commit": "6f6020c",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29055367473"
     },
     {
       "run_id": "29055241804",
@@ -243,16 +263,6 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29053064011"
     },
     {
-      "run_id": "29052967468",
-      "workflow": "Deployment Doctor",
-      "commit": "a8730b2",
-      "status": "cancelled",
-      "rootcause": "sitemap_noindex_mismatch",
-      "safe_to_autofix": true,
-      "action": "Keep posts-only sitemap.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29052967468"
-    },
-    {
       "run_id": "29053257563",
       "workflow": "Deployment Doctor",
       "commit": "7d4b95e",
@@ -291,16 +301,6 @@
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29055136289"
-    },
-    {
-      "run_id": "29052974408",
-      "workflow": "Deployment Doctor",
-      "commit": "cbc21a2",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29052974408"
     }
   ],
   "clusters": {
@@ -322,15 +322,15 @@
         "run_id": "29055136289",
         "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
         "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29052974408",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
       }
     ],
     "qa_debt": [
+      {
+        "failure_type": "qa_expectation_mismatch",
+        "run_id": "29055288197",
+        "rootcause": "QA expects a footer/product element that product intentionally removed.",
+        "safe_to_autofix": true
+      },
       {
         "failure_type": "qa_expectation_mismatch",
         "run_id": "29055159255",
@@ -395,6 +395,12 @@
         "failure_type": "content_direction_optimizer_fail",
         "run_id": "29052996627",
         "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "sitemap_noindex_mismatch",
+        "run_id": "29055367473",
+        "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
       },
       {
@@ -466,12 +472,6 @@
       {
         "failure_type": "sitemap_noindex_mismatch",
         "run_id": "29053064011",
-        "rootcause": "noindex pages incorrectly included in sitemap.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "sitemap_noindex_mismatch",
-        "run_id": "29052967468",
         "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
       },
@@ -746,6 +746,12 @@
       "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
     },
     {
+      "run_id": "29055288197",
+      "failure_type": "qa_expectation_mismatch",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
       "run_id": "29055159255",
       "failure_type": "qa_expectation_mismatch",
       "result": "skipped",
@@ -788,11 +794,17 @@
       "detail": "no script or already attempted this run"
     },
     {
-      "run_id": "29055241804",
+      "run_id": "29055367473",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
       "detail": "posts-only sitemap already in place",
       "script": "fix_sitemap_noindex"
+    },
+    {
+      "run_id": "29055241804",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29055141617",
@@ -861,12 +873,6 @@
       "detail": "no script or already attempted this run"
     },
     {
-      "run_id": "29052967468",
-      "failure_type": "sitemap_noindex_mismatch",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
-    },
-    {
       "run_id": "29053257563",
       "failure_type": "duplicate_yaml_keys",
       "result": "skipped",
@@ -875,27 +881,20 @@
     {
       "run_id": "29055136792",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 0c97454ca88f:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29055136334",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 0c97454ca88f:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29055136289",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
-    },
-    {
-      "run_id": "29052974408",
-      "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 0c97454ca88f:workflow_fanout already attempted 2 times"
     }
   ],
   "loop_guarded": [
