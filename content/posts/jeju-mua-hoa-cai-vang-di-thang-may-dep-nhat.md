@@ -33,7 +33,7 @@ external_links:
 - title: VisitKorea - Seopjikoji
 - title: VisitKorea - Sanbangsan Mountain
 image: images/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.webp
-image_attribution_checked_at: '2026-07-10T04:52:51+07:00'
+image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -41,6 +41,7 @@ image_creator: Irina Iriser
 image_creator_id: '135125'
 image_creator_url: https://www.pexels.com/@iriser
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/yellow-flower-field-under-blue-sky-4412373/
@@ -48,6 +49,7 @@ images:
 - images/posts/jeju-inline-months.webp
 - images/posts/jeju-inline-festival.webp
 - images/posts/jeju-inline-spots.webp
+seo_title: Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa
 series:
 - jeju-mua-hoa-cai-vang
 series_order: 1
@@ -68,8 +70,6 @@ tom_tat_nhanh:
 - label: Có thể gặp hoa vực.
 - label: Lễ hội 2026
 - label: Số ngày hợp lý
-seo_title: "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa"
-
 ---
 
 Nếu chỉ cần một câu trả lời ngắn: **đi Jeju mùa xuân, đẹp nhất là cuối tháng 3 đến đầu tháng 4**. Đây là khoảng có xác suất cao để gặp những thảm hoa cải vàng rực ở phía đông và phía nam đảo, đồng thời vẫn còn cơ hội ghép với hoa anh đào ở một số tuyến đường như Noksan-ro hoặc khu Jeju City.

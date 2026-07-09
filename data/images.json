@@ -1966,13 +1966,11 @@
       "creator_id": "245056204",
       "attribution_verified": true,
       "attribution_source": "pexels_api",
-      "attribution_checked_at": "2026-07-09T10:47:20+07:00",
+      "attribution_checked_at": "2026-07-10T06:10:06+07:00",
       "raw_provider": {
         "id": 12368095,
         "photographer": "mktomasik",
-        "photographer_url": "https://www.pexels.com/@mktomasik-245056204",
-        "photographer_id": 245056204,
-        "url": "https://www.pexels.com/photo/a-person-holding-smartphones-12368095/"
+        "photographer_id": "245056204"
       },
       "image_provider": "pexels",
       "photo_id": "12368095",
@@ -2066,7 +2064,7 @@
       "provider_used": "self-owned",
       "creator_id": "",
       "attribution_verified": false,
-      "attribution_source": "self_owned",
+      "attribution_source": "not_found",
       "attribution_checked_at": "2026-07-09T10:47:23+07:00"
     },
     {
@@ -3018,10 +3016,9 @@
       "raw_provider": {
         "id": 4412373,
         "photographer": "Irina Iriser",
-        "photographer_url": "https://www.pexels.com/@iriser",
-        "photographer_id": 135125,
-        "url": "https://www.pexels.com/photo/yellow-flower-field-under-blue-sky-4412373/"
-      }
+        "photographer_id": "135125"
+      },
+      "attribution_checked_at": "2026-07-10T06:10:05+07:00"
     },
     {
       "slug": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
@@ -3054,7 +3051,7 @@
       "image_total_score": 64.52,
       "image_alt": "Ảnh minh họa Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị — nguồn Pexels",
       "gate_verified": true,
-      "attribution_checked_at": "2026-07-09T11:40:21+07:00"
+      "attribution_checked_at": "2026-07-10T06:10:07+07:00"
     },
     {
       "slug": "iphone-15-pro-max-natural-titanium-danh-gia-mau",
@@ -3127,9 +3124,13 @@
       "direct_url": "https://images.pexels.com/photos/29188029/pexels-photo-29188029.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Jhany Blue",
       "creator_url": "https://www.pexels.com/@jhany-blue-436502581",
-      "creator_id": "",
+      "creator_id": "436502581",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 29188029,
+        "photographer": "Jhany Blue",
+        "photographer_id": "436502581"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/goi-y-du-lich-han-quoc-thang-7-2026.jpg",
@@ -3143,7 +3144,8 @@
       "image_color_score": 12.0,
       "image_total_score": 67.76,
       "image_alt": "Ảnh minh họa Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất? — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:03+07:00"
     },
     {
       "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
@@ -3183,9 +3185,13 @@
       "direct_url": "https://images.pexels.com/photos/7947635/pexels-photo-7947635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "RDNE Stock project",
       "creator_url": "https://www.pexels.com/@rdne",
-      "creator_id": "",
+      "creator_id": "3149039",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 7947635,
+        "photographer": "RDNE Stock project",
+        "photographer_id": "3149039"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/baseurl-sitemap-noindex-va-series-hardcoded-url.jpg",
@@ -3199,7 +3205,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:01+07:00"
     },
     {
       "slug": "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
@@ -3211,9 +3218,13 @@
       "direct_url": "https://images.pexels.com/photos/6289036/pexels-photo-6289036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Monstera Production",
       "creator_url": "https://www.pexels.com/@gabby-k",
-      "creator_id": "",
+      "creator_id": "3372733",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 6289036,
+        "photographer": "Monstera Production",
+        "photographer_id": "3372733"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.jpg",
@@ -3227,7 +3238,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Baseline debt chặn deploy và QA scope: chỉ bắt tính năng mới — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:01+07:00"
     },
     {
       "slug": "co-nen-cho-iphone-18-khong",
@@ -3239,9 +3251,13 @@
       "direct_url": "https://images.pexels.com/photos/6406691/pexels-photo-6406691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Tranmautritam",
       "creator_url": "https://www.pexels.com/@tranmautritam",
-      "creator_id": "",
+      "creator_id": "8509",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 6406691,
+        "photographer": "Tranmautritam",
+        "photographer_id": "8509"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/co-nen-cho-iphone-18-khong.jpg",
@@ -3255,7 +3271,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17? — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:02+07:00"
     },
     {
       "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
@@ -3267,9 +3284,13 @@
       "direct_url": "https://images.pexels.com/photos/37028744/pexels-photo-37028744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Zulfugar Karimov",
       "creator_url": "https://www.pexels.com/@zulfugarkarimov",
-      "creator_id": "",
+      "creator_id": "2150928041",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 37028744,
+        "photographer": "Zulfugar Karimov",
+        "photographer_id": "2150928041"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.jpg",
@@ -3283,7 +3304,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:01+07:00"
     },
     {
       "slug": "content-direction-empty-report-va-optimizer-frontmatter",
@@ -3295,9 +3317,13 @@
       "direct_url": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Lukas Blazek",
       "creator_url": "https://www.pexels.com/@goumbik",
-      "creator_id": "",
+      "creator_id": "89898",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 590020,
+        "photographer": "Lukas Blazek",
+        "photographer_id": "89898"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/content-direction-empty-report-va-optimizer-frontmatter.jpg",
@@ -3311,7 +3337,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Content Direction empty report và optimizer fail vì front matter — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:02+07:00"
     },
     {
       "slug": "github-api-va-pages-rate-limit-cach-doc-va-giam-tai",
@@ -3323,9 +3350,13 @@
       "direct_url": "https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "RealToughCandy.com",
       "creator_url": "https://www.pexels.com/@realtoughcandy",
-      "creator_id": "",
+      "creator_id": "2238606",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 11035544,
+        "photographer": "RealToughCandy.com",
+        "photographer_id": "2238606"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.jpg",
@@ -3339,7 +3370,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa GitHub API rate limit và Pages rate limit: đọc log, backoff, giảm fan-out — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:02+07:00"
     },
     {
       "slug": "hugo-build-duplicate-yaml-ai-summary-va-template-regression",
@@ -3351,9 +3383,13 @@
       "direct_url": "https://images.pexels.com/photos/10816120/pexels-photo-10816120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Stanislav Kondratiev",
       "creator_url": "https://www.pexels.com/@technobulka",
-      "creator_id": "",
+      "creator_id": "1497515",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 10816120,
+        "photographer": "Stanislav Kondratiev",
+        "photographer_id": "1497515"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/hugo-build-duplicate-yaml-ai-summary-va-template-regression.jpg",
@@ -3367,7 +3403,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Hugo build error: duplicate YAML, ai_summary map[], template regression và deploy không complete — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:04+07:00"
     },
     {
       "slug": "image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url",
@@ -3379,9 +3416,13 @@
       "direct_url": "https://images.pexels.com/photos/18784617/pexels-photo-18784617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Wolfgang Weiser",
       "creator_url": "https://www.pexels.com/@wolfgang-weiser-467045605",
-      "creator_id": "",
+      "creator_id": "467045605",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 18784617,
+        "photographer": "Wolfgang Weiser",
+        "photographer_id": "467045605"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url.jpg",
@@ -3395,7 +3436,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Image pipeline: hero thiếu, self-owned direct_url, creator rỗng hợp lệ và creator giả — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:04+07:00"
     },
     {
       "slug": "github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code",
@@ -3409,7 +3451,10 @@
       "creator_url": "https://pixabay.com/photos/wooden-bench-seat-sea-ocean-water-7110299/",
       "creator_id": "",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "from": "manifest",
+        "creator": "HeckiMG"
+      },
       "license": "Pixabay Content License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.jpg",
@@ -3417,13 +3462,14 @@
       "watermark_text": "Source: Pixabay / HeckiMG",
       "provider_used": "Pixabay",
       "attribution_verified": true,
-      "attribution_source": "pixabay_api",
+      "attribution_source": "pixabay_manifest",
       "image_query": "runner capacity delay platform incident",
       "image_semantic_score": 0,
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Runner capacity delay và platform incident: khi job đỏ không phải vì bug code — nguồn Pixabay",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:03+07:00"
     },
     {
       "slug": "live-deploy-khong-phan-anh-va-pages-serving-old-artifact",
@@ -3437,7 +3483,10 @@
       "creator_url": "https://www.pexels.com/@thienleduyphoto",
       "creator_id": "",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "from": "manifest",
+        "creator": "Thien Le Duy"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.jpg",
@@ -3445,13 +3494,14 @@
       "watermark_text": "Source: Pexels / Thien Le Duy",
       "provider_used": "Pexels",
       "attribution_verified": true,
-      "attribution_source": "pexels_api",
+      "attribution_source": "pexels_manifest",
       "image_query": "live deploy phản ánh build-info",
       "image_semantic_score": 0,
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Live deploy không phản ánh: build-info.json và GitHub Pages serving old artifact — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:05+07:00"
     },
     {
       "slug": "iphone-16-pro-max-desert-titanium-hop-ai",
@@ -3463,9 +3513,13 @@
       "direct_url": "https://images.pexels.com/photos/31833728/pexels-photo-31833728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Arpit Brandings",
       "creator_url": "https://www.pexels.com/@arpit-brandings-1363149455",
-      "creator_id": "",
+      "creator_id": "1363149455",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 31833728,
+        "photographer": "Arpit Brandings",
+        "photographer_id": "1363149455"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/iphone-16-pro-max-desert-titanium-hop-ai.jpg",
@@ -3479,7 +3533,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa iPhone 16 Pro Max Desert Titanium hợp ai? — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:04+07:00"
     },
     {
       "slug": "post-date-timezone-vietnam-gmt7-tranh-stale-date",
@@ -3491,9 +3546,13 @@
       "direct_url": "https://images.pexels.com/photos/30281995/pexels-photo-30281995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Duy Nguyen",
       "creator_url": "https://www.pexels.com/@duy-nguyen-489946968",
-      "creator_id": "",
+      "creator_id": "489946968",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 30281995,
+        "photographer": "Duy Nguyen",
+        "photographer_id": "489946968"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/post-date-timezone-vietnam-gmt7-tranh-stale-date.jpg",
@@ -3507,7 +3566,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Post date timezone Việt Nam (GMT+7): tránh stale_date và lệch homepage — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:06+07:00"
     },
     {
       "slug": "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress",
@@ -3519,9 +3579,13 @@
       "direct_url": "https://images.pexels.com/photos/1181311/pexels-photo-1181311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "creator": "Christina Morillo",
       "creator_url": "https://www.pexels.com/@divinetechygirl",
-      "creator_id": "",
+      "creator_id": "473730",
       "photo_id": "",
-      "raw_provider": null,
+      "raw_provider": {
+        "id": 1181311,
+        "photographer": "Christina Morillo",
+        "photographer_id": "473730"
+      },
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.jpg",
@@ -3535,7 +3599,8 @@
       "image_color_score": 0,
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix — nguồn Pexels",
-      "gate_verified": true
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:07+07:00"
     },
     {
       "slug": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
@@ -3570,7 +3635,124 @@
       "attribution_source": "pexels_api",
       "image_owner": "external",
       "image_query": "laptop and smartphone content creator desk"
+    },
+    {
+      "slug": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
+      "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
+      "image_id": "img-77831f15",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/",
+      "direct_url": "https://images.pexels.com/photos/5198284/pexels-photo-5198284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Tima Miroshnichenko",
+      "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+      "creator_id": "3088726",
+      "photo_id": "",
+      "raw_provider": {
+        "id": 5198284,
+        "photographer": "Tima Miroshnichenko",
+        "photographer_id": "3088726"
+      },
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.jpg",
+      "output_path": "static/images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp",
+      "watermark_text": "Source: Pexels / Tima Miroshnichenko",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "mobile banking payment app",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì — nguồn Pexels",
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:10:07+07:00"
+    },
+    {
+      "slug": "co-nen-len-ios-26-5-2-khong",
+      "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì",
+      "image_id": "img-635c44f6",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/iphone-smartphone-app-i-os-5437583/",
+      "direct_url": "https://images.pexels.com/photos/5437583/pexels-photo-5437583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Brett Jordan",
+      "creator_url": "https://www.pexels.com/@brettjordan",
+      "creator_id": "273840",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/co-nen-len-ios-26-5-2-khong.jpg",
+      "output_path": "static/images/posts/co-nen-len-ios-26-5-2-khong.webp",
+      "watermark_text": "Source: Pexels",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "mobile banking payment app",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì — nguồn Pexels",
+      "gate_verified": true
+    },
+    {
+      "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+      "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+      "image_id": "img-d4721492",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/woman-and-a-girl-walking-at-the-beach-14349710/",
+      "direct_url": "https://images.pexels.com/photos/14349710/pexels-photo-14349710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Trần Long",
+      "creator_url": "https://www.pexels.com/@tr-n-long-3093985",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.jpg",
+      "output_path": "static/images/posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.webp",
+      "watermark_text": "Source: Pexels / Trần Long",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "du lịch đà nẵng hè",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels",
+      "gate_verified": true
+    },
+    {
+      "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+      "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+      "image_id": "img-3615db63",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/tropical-resort-villas-and-pool-located-in-lush-garden-5041987/",
+      "direct_url": "https://images.pexels.com/photos/5041987/pexels-photo-5041987.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Quang Nguyen Vinh",
+      "creator_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.jpg",
+      "output_path": "static/images/posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.webp",
+      "watermark_text": "Source: Pexels / Quang Nguyen Vinh",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "du lịch phú quốc hè",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-09T22:14:18.876011+00:00"
+  "generated_at": "2026-07-09T23:12:05.989250+00:00"
 }
