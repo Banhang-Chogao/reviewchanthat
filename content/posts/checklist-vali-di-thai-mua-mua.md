@@ -22,7 +22,7 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: ">- Checklist vali đi Thái Lan mùa mưa: quần áo, giày dép, đồ chống nước,   thuốc men và vật dụng cần thiết cho thời tiết nóng ẩm — từ người có kinh nghiệm."
+description: "Checklist vali đi Thái Lan mùa mưa: quần áo, giày dép, đồ chống nước,   thuốc men và vật dụng cần thiết cho thời tiết nóng ẩm — từ người có kinh nghiệm."
 draft: false
 image: images/posts/checklist-vali-di-thai-mua-mua.webp
 image_attribution_checked_at: '2026-07-09T10:43:19+07:00'

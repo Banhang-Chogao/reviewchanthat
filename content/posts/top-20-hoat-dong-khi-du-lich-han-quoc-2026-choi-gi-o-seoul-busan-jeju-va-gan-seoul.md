@@ -23,7 +23,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: ">- Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, chợ địa phương, musical, jjimjilbang, ngắm bình minh Jeju, K-beauty, day trip Suwon, Incheon và Yongin. Kèm lịch trình mẫu 3-10 ngày."
+description: "Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, chợ địa phương, musical, jjimjilbang, ngắm bình minh Jeju, K-beauty, day trip Suwon, Incheon và Yongin. Kèm lịch trình mẫu 3-10 ngày."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX

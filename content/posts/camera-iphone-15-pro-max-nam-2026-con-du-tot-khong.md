@@ -13,7 +13,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 12:40:00+07:00'
-description: ">- Đánh giá camera iPhone 15 Pro Max năm 2026: 48MP, tele 5x, video ProRes, so với nhu cầu thực tế và iPhone 16 Pro Max."
+description: "Đánh giá camera iPhone 15 Pro Max năm 2026: 48MP, tele 5x, video ProRes, so với nhu cầu thực tế và iPhone 16 Pro Max."
 draft: false
 image: images/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.webp
 image_attribution_checked_at: '2026-07-09T15:37:58+07:00'

@@ -17,7 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 13:00:00+07:00"
-description: ">- Hướng dẫn cài macOS 27 public/developer beta: rủi ro ổn định, app ngân hàng, cách rollback và profile Apple Beta."
+description: "Hướng dẫn cài macOS 27 public/developer beta: rủi ro ổn định, app ngân hàng, cách rollback và profile Apple Beta."
 draft: false
 image: images/posts/macos-27-beta-co-nen-cai-khong.webp
 image_attribution_checked_at: '2026-07-09T15:38:02+07:00'

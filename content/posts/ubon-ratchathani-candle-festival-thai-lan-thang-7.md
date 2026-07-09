@@ -13,16 +13,14 @@ ai_summary:
     đậm chất Isaan — không phù hợp với người tìm tiệc tùng hoặc mua sắm.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du
-    lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.thailand.go.th/guide-book-detail/the-candle-festival,
-    https://qa.thailand.go.th/event-detail/ubon-ratchathani-candle-festival-2026,
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.thailand.go.th/guide-book-detail/the-candle-festival, https://qa.thailand.go.th/event-detail/ubon-ratchathani-candle-festival-2026."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: ">- Ubon Ratchathani Candle Festival 2026 — ngày 28–30/7, lịch trình, cách đi từ Bangkok, kinh nghiệm tham quan lễ hội nến lớn nhất Thái Lan."
+description: "Ubon Ratchathani Candle Festival 2026 — ngày 28–30/7, lịch trình, cách đi từ Bangkok, kinh nghiệm tham quan lễ hội nến lớn nhất Thái Lan."
 draft: false
 image: images/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.webp
 image_commercial_use: true

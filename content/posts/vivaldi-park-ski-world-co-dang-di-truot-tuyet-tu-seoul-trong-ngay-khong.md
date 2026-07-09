@@ -10,16 +10,14 @@ ai_summary:
   - Đông khách vào cuối tuần — nên đi ngày thường nếu muốn ít xếp hàng.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Nguồn tham khảo: https://en.trippose.com/tour/daemyung-vivaldi-park-ski-world,
-    https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110591,
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://en.trippose.com/tour/daemyung-vivaldi-park-ski-world, https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110591."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 09:50:00+07:00"
-description: ">- Vivaldi Park Ski World Hongcheon: day trip trượt tuyết từ Seoul, giờ hoạt động, giá vé, ski lesson, shuttle bus và những lưu ý thực tế cho người mới."
+description: "Vivaldi Park Ski World Hongcheon: day trip trượt tuyết từ Seoul, giờ hoạt động, giá vé, ski lesson, shuttle bus và những lưu ý thực tế cho người mới."
 draft: false
 faq:
 - answer: Được. Resort có shuttle bus từ Seoul (khu vực Hongdae, Myeongdong) và thời

@@ -21,7 +21,7 @@ checklist:
   - {"items": ["Thuốc cảm, đau bụng", "Băng cá nhân", "Thuốc chống muỗi", "Men tiêu hóa"], "title": "Thuốc & y tế"}
   - {"items": ["Túi chống nước (cho điện thoại)", "Mũ rộng vành", "Kính râm", "Túi đựng đồ ướt", "Gối cổ (máy bay)"], "title": "Khác"}
 date: "2026-07-08 10:00:00+07:00"
-description: ">- Checklist vali đi Hàn Quốc mùa hè: mặc gì, mang gì? Danh sách đồ cần mang theo — quần áo, mỹ phẩm, thuốc, giấy tờ và đồ điện tử."
+description: "Checklist vali đi Hàn Quốc mùa hè: mặc gì, mang gì? Danh sách đồ cần mang theo — quần áo, mỹ phẩm, thuốc, giấy tờ và đồ điện tử."
 draft: false
 faq:
   - {"answer": "Vải cotton, lanh, modal — thoáng mát, thấm hút mồ hôi. Áo thun, váy, quần short.", "question": "Mặc gì cho mát?"}

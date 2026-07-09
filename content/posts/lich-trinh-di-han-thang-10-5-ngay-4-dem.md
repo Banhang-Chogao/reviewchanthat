@@ -19,7 +19,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 15:00:00+07:00"
-description: ">- Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami Island, điểm ngắm lá đỏ và mẹo sắp lịch theo ngày đổ màu thực tế."
+description: "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami Island, điểm ngắm lá đỏ và mẹo sắp lịch theo ngày đổ màu thực tế."
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast

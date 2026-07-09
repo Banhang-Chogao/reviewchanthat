@@ -9,23 +9,24 @@ ai_summary:
   - Kết hợp với Cheongsapo, Gwangalli và Club D Oasis cho chuyến đi Busan trọn vẹn.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373,
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX, https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: ">- Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue Line Park."
+description: "Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue Line Park."
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+- title: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
   url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
-- title: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373
-- title: https://www.busan.go.kr/eng/beaches/1325815
-- title: https://www.koreatodo.com/haeundae-beach
+- title: "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373"
+  url: "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373"
+- title: "https://www.busan.go.kr/eng/beaches/1325815"
+  url: "https://www.busan.go.kr/eng/beaches/1325815"
+- title: "https://www.koreatodo.com/haeundae-beach"
+  url: "https://www.koreatodo.com/haeundae-beach"
 faq:
 - answer: Có. Bãi biển công cộng miễn phí. Bạn chỉ trả tiền khi thuê locker, phao,
     đồ thể thao nước.

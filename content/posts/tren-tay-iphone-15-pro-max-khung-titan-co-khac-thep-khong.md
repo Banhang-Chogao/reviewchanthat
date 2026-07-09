@@ -13,7 +13,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 12:20:00+07:00'
-description: ">- Phân tích khung titan iPhone 15 Pro Max so với thép đời cũ: trọng lượng 221g, độ bền, vết trầy, cảm giác cầm và lưu ý khi mua máy cũ."
+description: "Phân tích khung titan iPhone 15 Pro Max so với thép đời cũ: trọng lượng 221g, độ bền, vết trầy, cảm giác cầm và lưu ý khi mua máy cũ."
 draft: false
 image: images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp
 image_alt: 'Ảnh minh họa Trên tay iPhone 15 Pro Max: khung titan có khác thép không?

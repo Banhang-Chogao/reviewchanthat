@@ -13,7 +13,7 @@ avatar: >-
 categories:
   - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: ">- Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, giá vé, giờ mở cửa, kinh nghiệm đi ngày thường và mẹo tiết kiệm."
+description: "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, giá vé, giờ mở cửa, kinh nghiệm đi ngày thường và mẹo tiết kiệm."
 draft: false
 faq:
   - {"answer": "40 phút từ Seoul. Đi xe bus Everland từ ga Gangnam hoặc xe buýt từ ga Suwon.", "question": "Caribbean Bay cách Seoul bao xa?"}
