@@ -1,0 +1,556 @@
+#!/usr/bin/env python3
+"""
+Generate self-hosted editorial hero images when provider APIs cannot
+find relevant licensed images.
+
+Output: 1200x630 WebP in static/images/posts/<slug>.webp
+Source SVG: assets/generated-images/<slug>.svg (optional)
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import sys
+import tempfile
+from datetime import datetime, timezone
+from typing import Any
+
+try:
+    from PIL import Image, ImageDraw, ImageFont
+except ImportError:
+    print("Pillow not installed. Run: pip install Pillow")
+    sys.exit(2)
+
+WIDTH = 1200
+HEIGHT = 630
+OUTPUT_DIR = "static/images/posts"
+SVG_DIR = "assets/generated-images"
+REGISTRY_PATH = "data/generated-images.json"
+
+# Topic → style mapping
+TOPIC_STYLES: dict[str, dict[str, Any]] = {
+    "technology": {
+        "bg_gradient": ("#1a1a2e", "#16213e", "#0f3460"),
+        "accent": "#e94560",
+        "accent2": "#0f3460",
+        "shape_color": "#1a3a6a",
+        "title_color": "#ffffff",
+        "subtitle_color": "#a0aec0",
+        "deco": "pipeline",
+    },
+    "apple": {
+        "bg_gradient": ("#1c1c1e", "#2c2c2e", "#3a3a3c"),
+        "accent": "#007aff",
+        "accent2": "#636366",
+        "shape_color": "#2c2c2e",
+        "title_color": "#ffffff",
+        "subtitle_color": "#a1a1a6",
+        "deco": "device_outline",
+    },
+    "travel": {
+        "bg_gradient": ("#0f2027", "#203a43", "#2c5364"),
+        "accent": "#f2994a",
+        "accent2": "#f2c94c",
+        "shape_color": "#1a3d4a",
+        "title_color": "#ffffff",
+        "subtitle_color": "#cbd5e1",
+        "deco": "travel_map",
+    },
+    "finance": {
+        "bg_gradient": ("#0d1321", "#1d2b3a", "#2d3a4a"),
+        "accent": "#38b2ac",
+        "accent2": "#319795",
+        "shape_color": "#1a2a3a",
+        "title_color": "#ffffff",
+        "subtitle_color": "#a0aec0",
+        "deco": "chart",
+    },
+    "review": {
+        "bg_gradient": ("#1a202c", "#2d3748", "#4a5568"),
+        "accent": "#ed8936",
+        "accent2": "#48bb78",
+        "shape_color": "#2d3748",
+        "title_color": "#ffffff",
+        "subtitle_color": "#cbd5e1",
+        "deco": "checklist",
+    },
+    "default": {
+        "bg_gradient": ("#1a1a2e", "#16213e", "#0f3460"),
+        "accent": "#e94560",
+        "accent2": "#533483",
+        "shape_color": "#1a2a4a",
+        "title_color": "#ffffff",
+        "subtitle_color": "#a0aec0",
+        "deco": "abstract",
+    },
+}
+
+
+def detect_style(category: str, tags: list[str], title: str) -> str:
+    blob = f"{category} {' '.join(tags)} {title}".lower()
+    if any(k in blob for k in ("cong-nghe", "technology", "github", "ci/cd", "devops", "actions", "pipeline", "coding", "software")):
+        return "technology"
+    if any(k in blob for k in ("apple", "iphone", "ios", "macos", "ipad", "macbook", "imac", "watch", "airpods")):
+        return "apple"
+    if any(k in blob for k in ("du-lich", "travel", "tour", "destination", "beach", "mountain", "hotel", "flight")):
+        return "travel"
+    if any(k in blob for k in ("tai-chinh", "finance", "money", "invest", "bank", "stock", "crypto", "loan")):
+        return "finance"
+    if any(k in blob for k in ("review", "đánh giá", "shopping", "mua sắm", "product")):
+        return "review"
+    return "default"
+
+
+def hex_to_rgb(h: str) -> tuple[int, int, int]:
+    h = h.lstrip("#")
+    return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+
+
+def lerp_color(c1: tuple[int, int, int], c2: tuple[int, int, int], t: float) -> tuple[int, int, int]:
+    return tuple(int(a + (b - a) * t) for a, b in zip(c1, c2))
+
+
+def draw_gradient(draw: ImageDraw, style: dict) -> None:
+    colors = [hex_to_rgb(c) for c in style["bg_gradient"]]
+    n = len(colors)
+    for y in range(HEIGHT):
+        t = y / HEIGHT
+        seg = t * (n - 1)
+        i = int(seg)
+        frac = seg - i
+        if i >= n - 1:
+            c = colors[-1]
+        else:
+            c = lerp_color(colors[i], colors[i + 1], frac)
+        draw.line([(0, y), (WIDTH, y)], fill=c)
+
+
+def draw_pipeline(draw: ImageDraw, style: dict) -> None:
+    accent = hex_to_rgb(style["accent"])
+    accent2 = hex_to_rgb(style["accent2"])
+    shape = hex_to_rgb(style["shape_color"])
+
+    # Horizontal pipeline line
+    cy = HEIGHT // 2 + 40
+    draw.line([(80, cy), (WIDTH - 80, cy)], fill=accent2, width=2)
+
+    # Pipeline nodes
+    nodes_x = [200, 400, 600, 800, 1000]
+    for i, nx in enumerate(nodes_x):
+        radius = 18 if i != 2 else 24
+        draw.ellipse([nx - radius, cy - radius, nx + radius, cy + radius], fill=accent if i != 2 else accent2)
+
+    # Connector lines between nodes
+    for i in range(len(nodes_x) - 1):
+        x1, x2 = nodes_x[i] + 18, nodes_x[i + 1] - 18
+        draw.line([(x1, cy), (x2, cy)], fill=accent + (120,), width=2)
+
+    # Vertical lines from center node
+    draw.line([(600, cy + 24), (600, cy + 80)], fill=accent2, width=2)
+    draw.rectangle([570, cy + 80, 630, cy + 100], fill=accent2)
+
+
+def draw_device_outline(draw: ImageDraw, style: dict) -> None:
+    accent = hex_to_rgb(style["accent"])
+    shape = hex_to_rgb(style["shape_color"])
+    cx, cy = WIDTH // 2, HEIGHT // 2 - 20
+
+    # Simple device silhouette
+    w, h = 160, 280
+    rx = 20
+    draw.rounded_rectangle([cx - w // 2, cy - h // 2, cx + w // 2, cy + h // 2], radius=rx, outline=accent + (100,), width=3)
+    draw.rounded_rectangle([cx - w // 2 + 15, cy - h // 2 + 15, cx + w // 2 - 15, cy + h // 2 - 60], radius=8, outline=accent2 + (60,), width=1)
+
+    # Subtle grid lines on screen
+    for i in range(3):
+        sx = cx - w // 2 + 25 + i * 40
+        draw.line([(sx, cy - h // 2 + 25), (sx, cy + h // 2 - 60)], fill=accent + (30,), width=1)
+
+
+def draw_travel_map(draw: ImageDraw, style: dict) -> None:
+    accent = hex_to_rgb(style["accent"])
+    accent2 = hex_to_rgb(style["accent2"])
+    shape = hex_to_rgb(style["shape_color"])
+
+    cx, cy = WIDTH // 2, HEIGHT // 2 - 10
+
+    # Route line
+    points = [(100, cy + 60), (300, cy - 40), (500, cy), (700, cy - 50), (900, cy + 30), (1100, cy - 20)]
+    for i in range(len(points) - 1):
+        draw.line([points[i], points[i + 1]], fill=accent2 + (150,), width=2)
+
+    # Map pins
+    draw.ellipse([300 - 10, cy - 40 - 10, 300 + 10, cy - 40 + 10], fill=accent + (180,))
+    draw.ellipse([700 - 10, cy - 50 - 10, 700 + 10, cy - 50 + 10], fill=accent + (180,))
+
+    # Sun
+    draw.ellipse([950, 80, 1050, 180], fill=accent2 + (100,))
+
+
+def draw_chart(draw: ImageDraw, style: dict) -> None:
+    accent = hex_to_rgb(style["accent"])
+    accent2 = hex_to_rgb(style["accent2"])
+    shape = hex_to_rgb(style["shape_color"])
+    cx, cy = WIDTH // 2, HEIGHT // 2 + 10
+
+    # Bar chart
+    bars = [(150, 200), (250, 150), (350, 250), (500, 120), (600, 180), (700, 90), (850, 160), (950, 130), (1050, 200)]
+    for bx, bh in bars:
+        draw.rectangle([bx - 20, cy + 60 - bh, bx + 20, cy + 60], fill=accent2 + (150,))
+
+    # Trend line
+    trend = [(100, cy + 50), (300, cy - 10), (500, cy + 20), (700, cy - 30), (900, cy + 10), (1100, cy - 40)]
+    for i in range(len(trend) - 1):
+        draw.line([trend[i], trend[i + 1]], fill=accent, width=3)
+
+    # Card outlines
+    draw.rectangle([100, cy + 80, 350, cy + 120], outline=accent + (80,), width=1)
+    draw.rectangle([850, cy + 80, 1100, cy + 120], outline=accent + (80,), width=1)
+
+
+def draw_checklist(draw: ImageDraw, style: dict) -> None:
+    accent = hex_to_rgb(style["accent"])
+    accent2 = hex_to_rgb(style["accent2"])
+    shape = hex_to_rgb(style["shape_color"])
+    cx, cy = WIDTH // 2, HEIGHT // 2 + 10
+
+    items_y = [cy - 40, cy + 10, cy + 60]
+    for i, iy in enumerate(items_y):
+        # Checkbox
+        draw.rectangle([200, iy - 10, 230, iy + 10], outline=accent + (150,) if i < 2 else accent2, width=2)
+        # Line for text
+        draw.line([250, iy, 500, iy], fill=accent2 + (100,) if i < 2 else accent2, width=2)
+
+    # Star rating
+    stars_x = [700, 760, 820, 880, 940]
+    for j, sx in enumerate(stars_x):
+        draw.rectangle([sx, cy - 10, sx + 20, cy + 10], fill=accent if j < 3 else accent2 + (120,))
+
+
+def draw_abstract(draw: ImageDraw, style: dict) -> None:
+    accent = hex_to_rgb(style["accent"])
+    accent2 = hex_to_rgb(style["accent2"])
+    shape = hex_to_rgb(style["shape_color"])
+    cx, cy = WIDTH // 2, HEIGHT // 2
+
+    # Concentric circles
+    for r in range(100, 300, 40):
+        draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=accent + (40,), width=1)
+
+    # Geometric shapes
+    draw.polygon([(200, 400), (250, 300), (300, 400)], fill=accent + (100,))
+    draw.polygon([(800, 300), (900, 250), (950, 350), (850, 400)], fill=accent2 + (100,))
+
+
+def wrap_text(text: str, font: ImageFont.FreeTypeFont, max_width: int) -> list[str]:
+    words = text.split()
+    lines = []
+    current = ""
+    for word in words:
+        test = f"{current} {word}".strip()
+        try:
+            bbox = font.getbbox(test)
+            tw = bbox[2] - bbox[0]
+        except Exception:
+            tw = len(test) * 20
+        if tw > max_width and current:
+            lines.append(current)
+            current = word
+        else:
+            current = test
+    if current:
+        lines.append(current)
+    return lines
+
+
+def draw_text(draw: ImageDraw, title: str, subtitle: str, style: dict) -> None:
+    title_color = hex_to_rgb(style["title_color"])
+    sub_color = hex_to_rgb(style["subtitle_color"])
+
+    # Try to find a font
+    font_paths = [
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+        "/System/Library/Fonts/Helvetica.ttc",
+        "C:\\Windows\\Fonts\\arial.ttf",
+    ]
+    title_font = None
+    sub_font = None
+    for fp in font_paths:
+        if os.path.exists(fp):
+            try:
+                title_font = ImageFont.truetype(fp, 48)
+                sub_font = ImageFont.truetype(fp, 22)
+                break
+            except Exception:
+                continue
+
+    if title_font is None:
+        title_font = ImageFont.load_default()
+        sub_font = ImageFont.load_default()
+
+    # Title
+    max_title_w = WIDTH - 200
+    title_lines = wrap_text(title, title_font, max_title_w)
+    title_y = 100
+    for line in title_lines[:3]:
+        try:
+            bbox = title_font.getbbox(line)
+            tw = bbox[2] - bbox[0]
+        except Exception:
+            tw = len(line) * 28
+        tx = (WIDTH - tw) // 2
+        draw.text((tx, title_y), line, fill=title_color, font=title_font)
+        title_y += 60
+
+    # Subtitle
+    if subtitle and sub_font:
+        max_sub_w = WIDTH - 300
+        sub_lines = wrap_text(subtitle, sub_font, max_sub_w)
+        sy = HEIGHT - 120
+        for line in sub_lines[:2]:
+            try:
+                bbox = sub_font.getbbox(line)
+                sw = bbox[2] - bbox[0]
+            except Exception:
+                sw = len(line) * 12
+            sx = (WIDTH - sw) // 2
+            draw.text((sx, sy), line, fill=sub_color, font=sub_font)
+            sy += 32
+
+
+def draw_footer_mark(draw: ImageDraw) -> None:
+    gray = (180, 180, 190, 100)
+    try:
+        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 14)
+    except Exception:
+        font = ImageFont.load_default()
+    draw.text((WIDTH - 200, HEIGHT - 30), "Review Chân Thật", fill=gray, font=font)
+
+
+def generate_hero_image(
+    slug: str,
+    title: str,
+    description: str = "",
+    category: str = "",
+    tags: list[str] | None = None,
+    style_override: str | None = None,
+    write: bool = False,
+) -> dict[str, Any]:
+    tags = tags or []
+
+    # Detect style
+    style_key = style_override or detect_style(category, tags, title)
+    if style_key not in TOPIC_STYLES:
+        style_key = "default"
+    style = TOPIC_STYLES[style_key]
+
+    # Create image
+    img = Image.new("RGB", (WIDTH, HEIGHT), color="#1a1a2e")
+    draw = ImageDraw.Draw(img, "RGBA")
+
+    # Background gradient
+    draw_gradient(draw, style)
+
+    # Decorations
+    deco_map = {
+        "pipeline": draw_pipeline,
+        "device_outline": draw_device_outline,
+        "travel_map": draw_travel_map,
+        "chart": draw_chart,
+        "checklist": draw_checklist,
+        "abstract": draw_abstract,
+    }
+    deco_fn = deco_map.get(style["deco"], draw_abstract)
+    deco_fn(draw, style)
+
+    # Text
+    desc = description or ""
+    draw_text(draw, title, desc, style)
+    draw_footer_mark(draw)
+
+    # Ensure dirs
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(SVG_DIR, exist_ok=True)
+
+    # Output paths
+    webp_path = os.path.join(OUTPUT_DIR, f"{slug}.webp")
+    svg_path = os.path.join(SVG_DIR, f"{slug}.svg")
+
+    img.save(webp_path, "WEBP", quality=85)
+
+    # Save optional SVG (metadata reference)
+    svg_content = (
+        f'<svg width="{WIDTH}" height="{HEIGHT}" xmlns="http://www.w3.org/2000/svg">\n'
+        f'<rect width="{WIDTH}" height="{HEIGHT}" fill="#1a1a2e"/>\n'
+        f'<text x="50%" y="50%" text-anchor="middle" fill="#fff" font-size="48" font-family="sans-serif">{title}</text>\n'
+        f'</svg>\n'
+    )
+    with open(svg_path, "w") as f:
+        f.write(svg_content)
+
+    result = {
+        "slug": slug,
+        "path": f"images/posts/{slug}.webp",
+        "source_svg": f"assets/generated-images/{slug}.svg",
+        "method": "programmatic_pillow",
+        "style": style_key,
+        "title": title,
+        "category": category,
+        "topic_tags": tags,
+        "dimensions": f"{WIDTH}x{HEIGHT}",
+        "format": "webp",
+        "quality": 82,
+    }
+
+    # Update registry
+    now = datetime.now(timezone.utc)
+    now_vn = now.strftime("%Y-%m-%dT%H:%M:%S+07:00")
+    now_display = now.strftime("%d-%m-%Y %H:%M:%S")
+    registry_item = {
+        "path": result["path"],
+        "source_svg": result["source_svg"],
+        "method": result["method"],
+        "style": style_key,
+        "title": title,
+        "category": category,
+        "created_at": now_vn,
+        "created_at_display": now_display,
+        "license": "Original self-hosted editorial illustration by Review Chân Thật",
+    }
+
+    reg = _load_registry()
+    reg["items"][slug] = registry_item
+    reg["generated_at"] = now_vn
+    _save_registry(reg)
+
+    print(f"  Generated: {webp_path} ({os.path.getsize(webp_path)} bytes)")
+    print(f"  Style: {style_key} | Category: {category or 'none'}")
+
+    return result
+
+
+def _load_registry() -> dict:
+    if os.path.exists(REGISTRY_PATH):
+        try:
+            with open(REGISTRY_PATH) as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {"generated_at": "", "items": {}}
+
+
+def _save_registry(reg: dict) -> None:
+    os.makedirs(os.path.dirname(REGISTRY_PATH), exist_ok=True)
+    with open(REGISTRY_PATH, "w") as f:
+        json.dump(reg, f, indent=2, ensure_ascii=False)
+
+
+def get_image_frontmatter(slug: str, title: str) -> dict[str, Any]:
+    return {
+        "image": f"images/posts/{slug}.webp",
+        "thumbnail": f"images/posts/{slug}.webp",
+        "image_alt": f"Editorial illustration for: {title}",
+        "image_status": "verified",
+        "image_provider": "self-generated",
+        "image_source": "Review Chân Thật",
+        "image_source_url": "https://banhang-chogao.github.io/reviewchanthat/",
+        "image_license": "Original self-hosted editorial illustration by Review Chân Thật",
+        "image_license_url": "https://banhang-chogao.github.io/reviewchanthat/branding-ci/",
+        "image_commercial_use": True,
+        "image_owner": "self",
+        "image_creator": "Review Chân Thật",
+        "image_creator_url": "https://banhang-chogao.github.io/reviewchanthat/",
+        "image_creator_id": "review-chan-that-generated",
+        "image_attribution_verified": True,
+        "image_attribution_source": "self_generated",
+        "image_generation_method": "programmatic_pillow",
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Generate self-hosted editorial hero image")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--post", help="Path to markdown post file")
+    group.add_argument("--slug", help="Post slug")
+    parser.add_argument("--title", help="Post title (required if --slug used)")
+    parser.add_argument("--description", default="", help="Post description/subtitle")
+    parser.add_argument("--category", default="", help="Post category")
+    parser.add_argument("--tags", nargs="*", default=[], help="Post tags")
+    parser.add_argument("--style", choices=list(TOPIC_STYLES.keys()), help="Force visual style")
+    parser.add_argument("--dry-run", action="store_true", help="Print what would be done without writing")
+    parser.add_argument("--write", action="store_true", help="Actually generate and save image")
+
+    args = parser.parse_args()
+
+    if args.post:
+        try:
+            import frontmatter
+            post = frontmatter.load(args.post)
+            meta = post.metadata
+            slug = meta.get("slug", os.path.basename(args.post).replace(".md", ""))
+            title = meta.get("title", slug)
+            description = meta.get("description", "")
+            category = (meta.get("categories") or [None])[0] if isinstance(meta.get("categories"), list) else (meta.get("categories") or "")
+            if isinstance(category, list):
+                category = category[0] if category else ""
+            tags = list(meta.get("tags", []) or [])
+        except Exception as e:
+            print(f"ERROR: Could not read post: {e}")
+            return 1
+    else:
+        slug = args.slug
+        title = args.title
+        if not title:
+            print("ERROR: --title required with --slug")
+            return 1
+        description = args.description
+        category = args.category
+        tags = list(args.tags)
+
+    style = args.style
+
+    if args.dry_run:
+        style_key = style or detect_style(category, tags, title)
+        print(f"Would generate image for: {slug}")
+        print(f"  Title: {title}")
+        print(f"  Style: {style_key}")
+        print(f"  Category: {category}")
+        print(f"  Tags: {tags}")
+        print(f"  Output: images/posts/{slug}.webp")
+        print(f"  Registry: data/generated-images.json")
+        return 0
+
+    if args.write:
+        result = generate_hero_image(
+            slug=slug,
+            title=title,
+            description=description,
+            category=category,
+            tags=tags,
+            style_override=style,
+        )
+        fm = get_image_frontmatter(slug, title)
+        print(f"  Frontmatter image fields generated (use --update-post to apply)")
+
+        # Print frontmatter fields for convenience
+        print("\n# Frontmatter to add:")
+        for k, v in fm.items():
+            if isinstance(v, bool):
+                print(f"{k} = {str(v).lower()}")
+            elif isinstance(v, str):
+                escaped = v.replace('"', '\\"')
+                print(f'{k} = "{escaped}"')
+            else:
+                print(f"{k} = {v}")
+        return 0
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

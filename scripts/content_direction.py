@@ -301,7 +301,14 @@ def compute_image_risk(posts, audit_data):
             missing.append({"slug": p["slug"], "title": p["title"]})
     dedup_issues = []
     if audit_data:
-        dedup_issues = audit_data.get("duplicates") or audit_data.get("dedup_issues") or []
+        dedup_issues = (
+            audit_data.get("duplicates")
+            or audit_data.get("dedup_issues")
+            or audit_data.get("errors")
+            or []
+        )
+        if not isinstance(dedup_issues, list):
+            dedup_issues = list(dedup_issues) if dedup_issues else []
     return {
         "total_images": sum(1 for p in posts if p.get("image")),
         "by_source": dict(source_counter.most_common()),
