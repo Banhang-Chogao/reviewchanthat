@@ -37,18 +37,18 @@ external_links:
 - title: VisitKorea - Sanbangsan Mountain
   url: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94909
 image: images/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.webp
-image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
-image_attribution_source: pexels_api
+image_attribution_checked_at: '2026-07-09T15:40:00+07:00'
+image_attribution_source: self_generated
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: Irina Iriser
-image_creator_id: '135125'
-image_creator_url: https://www.pexels.com/@iriser
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/yellow-flower-field-under-blue-sky-4412373/
+image_creator: Review Chân Thật
+image_creator_id: 'rctt_generated'
+image_creator_url: https://banhang-chogao.github.io/reviewchanthat/
+image_license: Review Chân Thật
+image_license_url: https://banhang-chogao.github.io/reviewchanthat/branding-ci/
+image_owner: self
+image_source: Self-generated (Editorial Design)
+image_source_url: ''
 series:
 - jeju-mua-hoa-cai-vang
 series_order: 1
