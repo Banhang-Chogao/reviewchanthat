@@ -1,0 +1,169 @@
+name: Deployment Doctor
+
+on:
+  workflow_run:
+    workflows:
+      - "Deploy to GitHub Pages"
+      - "Post-Merge Autofix"
+      - "QA Debt Fix"
+      - "Content Direction"
+      - "PR Check"
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: deployment-doctor-main
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+
+jobs:
+  doctor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Skip report-only / doctor loop
+        id: skip
+        run: |
+          set -euo pipefail
+          ACTOR="${{ github.actor }}"
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            HEAD_SHA="${{ github.event.workflow_run.head_sha }}"
+            MSG=$(git log -1 --pretty=%B "$HEAD_SHA" 2>/dev/null || true)
+            if echo "$MSG" | grep -q '\[deployment-doctor\]\|\[skip-report\]\|\[skip-autofix\]'; then
+              echo "skip=true" >> "$GITHUB_OUTPUT"
+              echo "Skipping: marker in triggering commit"
+              exit 0
+            fi
+            # Only files doctor owns?
+            FILES=$(gh api "repos/${{ github.repository }}/commits/$HEAD_SHA" --jq '.files[].filename' 2>/dev/null || true)
+            if [ -n "$FILES" ]; then
+              NON_REPORT=$(echo "$FILES" | grep -vE '^(data/deployment-doctor|data/deployment-doctor-attempts|reports/deployment-doctor)' || true)
+              if [ -z "$NON_REPORT" ]; then
+                echo "skip=true" >> "$GITHUB_OUTPUT"
+                echo "Skipping: commit only touches doctor report files"
+                exit 0
+              fi
+            fi
+          fi
+          if [ "$ACTOR" = "github-actions[bot]" ] && [ "${{ github.event_name }}" = "push" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Python
+        if: steps.skip.outputs.skip != 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        if: steps.skip.outputs.skip != 'true'
+        run: pip install -r requirements.txt
+
+      - name: Collect failed runs
+        if: steps.skip.outputs.skip != 'true'
+        run: |
+          python scripts/deployment_doctor_collect.py \
+            --limit 80 \
+            --out-json reports/deployment-doctor-runs.json \
+            --out-md reports/deployment-doctor-runs.md
+
+      - name: Diagnose
+        if: steps.skip.outputs.skip != 'true'
+        run: |
+          python scripts/deployment_doctor_diagnose.py \
+            --runs reports/deployment-doctor-runs.json \
+            --knowledge data/deployment-doctor-knowledge.json \
+            --out-json reports/deployment-doctor-diagnosis.json \
+            --out-md reports/deployment-doctor-diagnosis.md
+
+      - name: Autofix (safe only)
+        if: steps.skip.outputs.skip != 'true'
+        run: |
+          python scripts/deployment_doctor_autofix.py \
+            --diagnosis reports/deployment-doctor-diagnosis.json \
+            --max-fixes 3 \
+            --out-md reports/deployment-doctor-autofix.md
+
+      - name: Export dashboard data
+        if: steps.skip.outputs.skip != 'true'
+        run: python scripts/deployment_doctor_export.py --out data/deployment-doctor.json
+
+      - name: QA Deployment Doctor
+        if: steps.skip.outputs.skip != 'true'
+        run: python scripts/qa_deployment_doctor.py
+
+      - name: Detect code changes for PR
+        if: steps.skip.outputs.skip != 'true'
+        id: changes
+        run: |
+          # Code changes exclude report-only paths
+          CODE_DIFF=$(git status --porcelain | grep -vE '^( M|M |A |A  |\?\?) (reports/|data/deployment-doctor\.json|data/deployment-doctor-attempts\.json)' || true)
+          REPORT_DIFF=$(git status --porcelain | grep -E 'reports/deployment-doctor|data/deployment-doctor' || true)
+          if [ -n "$CODE_DIFF" ]; then
+            echo "code=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "code=false" >> "$GITHUB_OUTPUT"
+          fi
+          if [ -n "$REPORT_DIFF" ]; then
+            echo "report=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "report=false" >> "$GITHUB_OUTPUT"
+          fi
+          git status --porcelain || true
+
+      - name: Open autofix PR when code changed
+        if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.code == 'true'
+        run: |
+          set -euo pipefail
+          FAIL_TYPE=$(python -c "import json;d=json.load(open('reports/deployment-doctor-autofix.json'));r=[x for x in d.get('results',[]) if x.get('result')=='fixed'];print(r[0]['failure_type'] if r else 'mixed')" 2>/dev/null || echo mixed)
+          RUN_ID=$(python -c "import json;d=json.load(open('reports/deployment-doctor-autofix.json'));r=[x for x in d.get('results',[]) if x.get('result')=='fixed'];print(r[0].get('run_id') or 'local')" 2>/dev/null || echo local)
+          BRANCH="doctor/autofix-${FAIL_TYPE}-${RUN_ID}"
+          BRANCH=$(echo "$BRANCH" | tr -cd '[:alnum:]//' | cut -c1-80)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -A
+          git commit -m "fix(doctor): safe autofix for ${FAIL_TYPE} [skip-autofix]" || exit 0
+          git push -u origin "$BRANCH" --force-with-lease || git push -u origin "$BRANCH"
+          # Avoid duplicate PR
+          EXISTING=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            echo "PR already open: #$EXISTING"
+            exit 0
+          fi
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "fix(doctor): safe autofix for ${FAIL_TYPE}" \
+            --body "Deployment Doctor applied safe autofix for \`${FAIL_TYPE}\` (run ${RUN_ID}). Checks decide merge eligibility. [skip-autofix]" \
+            --label automerge --label automated --label deployment-doctor --label autofix || true
+
+      - name: Commit report-only dashboard (no deploy loop)
+        if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.code != 'true' && steps.changes.outputs.report == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git pull --ff-only origin main || true
+          git add data/deployment-doctor.json data/deployment-doctor-attempts.json data/deployment-doctor-knowledge.json || true
+          # reports/ is gitignored — do not force-add huge logs
+          if git diff --cached --quiet; then
+            echo "No dashboard data changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(deployment-doctor): refresh dashboard data [deployment-doctor] [skip-report]"
+          git push origin main || true

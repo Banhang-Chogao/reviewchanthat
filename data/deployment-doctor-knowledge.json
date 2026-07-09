@@ -1,0 +1,488 @@
+{
+  "generated_at": "2026-07-09T23:59:00+07:00",
+  "generated_at_display": "09-07-2026 23:59:00",
+  "version": 1,
+  "patterns": [
+    {
+      "id": "runner_capacity_delay",
+      "severity": "external",
+      "match": [
+        "Waiting for a runner to pick up this job",
+        "Job is waiting for a hosted runner to come online",
+        "Requested labels: ubuntu-latest"
+      ],
+      "safe_to_autofix": false,
+      "summary": "GitHub-hosted runner capacity delay before job starts.",
+      "action_items": [
+        "Do not change code.",
+        "Cancel superseded runs.",
+        "Rerun only the latest deploy after recovery."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "external_platform_incident",
+      "severity": "external",
+      "match": [
+        "GitHub Status",
+        "Actions delayed starting runs",
+        "Pages builds affected",
+        "www.githubstatus.com",
+        "Incident with GitHub Actions"
+      ],
+      "safe_to_autofix": false,
+      "summary": "External GitHub platform incident (Actions/Pages start delays).",
+      "action_items": [
+        "Do not change application code.",
+        "Monitor GitHub Status.",
+        "Rerun latest deploy after platform recovery."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": true,
+      "should_pause_workflows": true
+    },
+    {
+      "id": "github_rate_limit",
+      "severity": "external",
+      "match": [
+        "API rate limit exceeded",
+        "secondary rate limit",
+        "X-RateLimit-Remaining: 0",
+        "rate limit"
+      ],
+      "safe_to_autofix": false,
+      "summary": "GitHub API rate limit hit.",
+      "action_items": [
+        "Back off retries.",
+        "Avoid fan-out workflows.",
+        "Reuse GITHUB_TOKEN carefully."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": true
+    },
+    {
+      "id": "github_pages_rate_limit",
+      "severity": "external",
+      "match": [
+        "Pages rate limit",
+        "exceeded the GitHub Pages rate limit",
+        "deployment_rate_limit"
+      ],
+      "safe_to_autofix": false,
+      "summary": "GitHub Pages publish rate limit.",
+      "action_items": [
+        "Do not push report-only commits that trigger deploy.",
+        "paths-ignore report data files.",
+        "Retry deploy later."
+      ],
+      "recommended_fix_script": "fix_workflow_fanout",
+      "should_retry_deploy": true,
+      "should_pause_workflows": true
+    },
+    {
+      "id": "workflow_fanout",
+      "severity": "ci",
+      "match": [
+        "concurrency cancelled",
+        "cancel-in-progress",
+        "too many workflows",
+        "workflow fan-out",
+        "fanout"
+      ],
+      "safe_to_autofix": true,
+      "summary": "One merge fans out into deploy + snapshot + content-direction + autofix loops.",
+      "action_items": [
+        "Add concurrency groups.",
+        "paths-ignore report-only data.",
+        "Skip doctor/autofix when only reports changed."
+      ],
+      "recommended_fix_script": "fix_workflow_fanout",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "baseline_debt_blocking_unrelated_deploy",
+      "severity": "qa_debt",
+      "match": [
+        "baseline debt",
+        "qa-baseline-debt",
+        "old posts missing image",
+        "MISSING_IMAGE",
+        "MISSING_LICENSE",
+        "scope-new-or-changed-only"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Old QA/image debt fails full-site checks and blocks unrelated deploys.",
+      "action_items": [
+        "Strict QA only on changed/new files for deploy gate.",
+        "Keep old debt in baseline ledger.",
+        "Batch debt fixes in separate qa-debt-fix PRs."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "changed_post_image_missing",
+      "severity": "image_pipeline",
+      "match": [
+        "MISSING_IMAGE",
+        "needs_image",
+        "image_status: needs_image",
+        "No image for slug"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Changed/new post is missing a verified hero image.",
+      "action_items": [
+        "Generate self-hosted hero for changed posts only.",
+        "Do not rewrite unrelated posts."
+      ],
+      "recommended_fix_script": "fix_changed_post_image_metadata",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "self_owned_image_direct_url",
+      "severity": "image_pipeline",
+      "match": [
+        "No direct_url in manifest",
+        "direct_url",
+        "self-generated",
+        "self_owned",
+        "image_provider = self-generated"
+      ],
+      "safe_to_autofix": true,
+      "summary": "process_images expected provider direct_url for a self-owned/generated image.",
+      "action_items": [
+        "Skip direct_url requirement for self-owned images.",
+        "Validate local file under static/images/posts/."
+      ],
+      "recommended_fix_script": "fix_self_owned_image_processing",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "verified_creator_unavailable",
+      "severity": "image_pipeline",
+      "match": [
+        "VERIFIED_WITHOUT_CREATOR",
+        "creator empty",
+        "source_verified_creator_unavailable",
+        "image_attribution_source"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Creator empty is valid when source/license verified but creator unavailable.",
+      "action_items": [
+        "Treat creator empty as OK when image_attribution_source indicates creator unavailable.",
+        "Keep fake creator values fatal."
+      ],
+      "recommended_fix_script": "fix_creator_unavailable_false_positive",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "fake_image_creator",
+      "severity": "image_pipeline",
+      "match": [
+        "INVALID_IMAGE_CREATOR",
+        "blocked creator",
+        "fake creator",
+        "Review Chân Thật"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Fake or blocked image creator values are policy-fatal.",
+      "action_items": [
+        "Do not invent creator names.",
+        "Use self_generated attribution for self-owned assets."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "date_only_or_wrong_timezone",
+      "severity": "content",
+      "match": [
+        "date-only",
+        "timezone",
+        "Asia/Ho_Chi_Minh",
+        "qa_dates",
+        "future-dated",
+        "missing +07:00"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Post date missing timezone or stamped in UTC instead of Vietnam time.",
+      "action_items": [
+        "Run qa_dates.py --fix-obvious only.",
+        "Never rewrite ambiguous dates."
+      ],
+      "recommended_fix_script": "fix_date_only_or_timezone",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "content_direction_empty_report",
+      "severity": "content_direction",
+      "match": [
+        "total_posts\": 0",
+        "Content Direction data is empty",
+        "scanned 0 published posts",
+        "content-direction",
+        "0 Bài viết"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Content Direction rendered empty (wrong path/data key/empty fallback).",
+      "action_items": [
+        "Fail if scan returns 0 posts.",
+        "Never overwrite valid JSON with empty report.",
+        "Remove Image / Attribution Risk from Content Direction."
+      ],
+      "recommended_fix_script": "fix_content_direction_empty",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "live_deploy_not_reflected",
+      "severity": "deploy_live",
+      "match": [
+        "live SHA mismatch",
+        "build-info.json",
+        "deploy not reflected",
+        "stale pages"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Merge succeeded but live site still serves old artifact.",
+      "action_items": [
+        "Write static/build-info.json with SHA.",
+        "Verify live SHA after deploy.",
+        "Rerun latest deploy once if stale."
+      ],
+      "recommended_fix_script": "fix_live_deploy_build_info",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "github_pages_serving_old_artifact",
+      "severity": "deploy_live",
+      "match": [
+        "old artifact",
+        "Pages serving previous",
+        "deployment not active"
+      ],
+      "safe_to_autofix": false,
+      "summary": "GitHub Pages still serving previous artifact after deploy job.",
+      "action_items": [
+        "Check Pages deployment status.",
+        "Rerun deploy once after cool-down."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "baseurl_routing_error",
+      "severity": "deploy_live",
+      "match": [
+        "baseURL",
+        "href=\"/posts/",
+        "src=\"/images/",
+        "missing /reviewchanthat/"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Hardcoded absolute paths omit /reviewchanthat/ base path.",
+      "action_items": [
+        "Use relURL / absURL helpers.",
+        "Never hardcode root-relative paths without base."
+      ],
+      "recommended_fix_script": "fix_series_relurl",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "sitemap_noindex_mismatch",
+      "severity": "seo",
+      "match": [
+        "noindex",
+        "sitemap",
+        "content-direction in sitemap",
+        "deployment-doctor in sitemap"
+      ],
+      "safe_to_autofix": true,
+      "summary": "noindex pages incorrectly included in sitemap.",
+      "action_items": [
+        "Keep posts-only sitemap.",
+        "Exclude noindex/admin/doctor pages."
+      ],
+      "recommended_fix_script": "fix_sitemap_noindex",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "series_hardcoded_url",
+      "severity": "ux_layout",
+      "match": [
+        "href=\"/series/",
+        "hardcoded /series/",
+        "series permalink"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Hardcoded /series/ paths break project-page baseURL.",
+      "action_items": [
+        "Replace with relURL helpers."
+      ],
+      "recommended_fix_script": "fix_series_relurl",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "ai_summary_map_artifact",
+      "severity": "content",
+      "match": [
+        "map[",
+        "ai_summary",
+        "normalize_ai_summaries"
+      ],
+      "safe_to_autofix": true,
+      "summary": "AI summary contains Go map[] serialization artifacts.",
+      "action_items": [
+        "Run normalize_ai_summaries.py --fix."
+      ],
+      "recommended_fix_script": "fix_ai_summary_map",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "qa_expectation_mismatch",
+      "severity": "qa_debt",
+      "match": [
+        "footer link",
+        "deployment-snapshot",
+        "QA still expects",
+        "product decision"
+      ],
+      "safe_to_autofix": true,
+      "summary": "QA expects a footer/product element that product intentionally removed.",
+      "action_items": [
+        "Align QA with product rules.",
+        "Do not re-add removed footer links just to pass QA."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "table_layout_ux_regression",
+      "severity": "ux_layout",
+      "match": [
+        "table-wrap",
+        "overflow-x:auto",
+        "Prior ity",
+        "article-wide-width",
+        "horizontal scroll"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Article/table UX regression: too wide or desktop table scroll.",
+      "action_items": [
+        "CSS/layout-only fix.",
+        "Desktop tables static, no H-scroll.",
+        "Do not rewrite post content."
+      ],
+      "recommended_fix_script": "fix_table_layout",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "hugo_build_error",
+      "severity": "build",
+      "match": [
+        "ERROR error building site",
+        "failed to render",
+        "TOCSS",
+        "execute of template failed",
+        "Error: error building site"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Hugo build/render error.",
+      "action_items": [
+        "Inspect Hugo template error line.",
+        "Autofix only if matched known template regression."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "deploy_not_completed",
+      "severity": "deploy_live",
+      "match": [
+        "deploy job cancelled",
+        "Upload Pages artifact",
+        "deploy-pages",
+        "deployment failed"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Deploy workflow did not complete successfully.",
+      "action_items": [
+        "Inspect deploy job logs.",
+        "Rerun latest deploy after rootcause fixed."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "template_or_render_regression",
+      "severity": "build",
+      "match": [
+        "nil pointer evaluating",
+        "can't evaluate field",
+        "partial",
+        "render hook"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Template/render regression in Hugo layouts.",
+      "action_items": [
+        "Fix layout/partial with minimal scoped change."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "image_asset_missing",
+      "severity": "image_pipeline",
+      "match": [
+        "static/images/posts",
+        "no such file",
+        "broken image",
+        "image not found"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Referenced image asset missing under static/images/posts.",
+      "action_items": [
+        "Regenerate hero for changed post only.",
+        "Do not mass-replace site images."
+      ],
+      "recommended_fix_script": "fix_changed_post_image_metadata",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "unknown",
+      "severity": "unknown",
+      "match": [],
+      "safe_to_autofix": false,
+      "summary": "Unrecognized failure — needs human review.",
+      "action_items": [
+        "Read sanitized log excerpt.",
+        "Add new pattern to knowledge base if recurring."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    }
+  ]
+}

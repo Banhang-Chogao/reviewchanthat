@@ -37,18 +37,12 @@ external_links:
 - title: VisitKorea - Sanbangsan Mountain
   url: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94909
 image: images/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.webp
-image_attribution_checked_at: '2026-07-09T15:40:00+07:00'
-image_attribution_source: self_generated
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Review Chân Thật
-image_creator_id: 'rctt_generated'
-image_creator_url: https://banhang-chogao.github.io/reviewchanthat/
-image_license: Review Chân Thật
-image_license_url: https://banhang-chogao.github.io/reviewchanthat/branding-ci/
 image_owner: self
-image_source: Self-generated (Editorial Design)
-image_source_url: ''
+image_source: self-generated
+images:
+  - images/posts/jeju-inline-months.webp
+  - images/posts/jeju-inline-festival.webp
+  - images/posts/jeju-inline-spots.webp
 series:
 - jeju-mua-hoa-cai-vang
 series_order: 1
@@ -91,6 +85,8 @@ Nếu đi muộn hơn, từ giữa đến cuối tháng 4, cơ hội vẫn còn 
 
 ## Tháng 2, tháng 3, tháng 4 khác nhau thế nào?
 
+![Comparison of months 2, 3, 4 in Jeju spring](/reviewchanthat/images/posts/jeju-inline-months.webp)
+
 **Tháng 2** hợp với người đã đi Jeju nhiều lần hoặc muốn săn cảm giác xuân sớm. Ưu điểm là vắng hơn, giá phòng có thể dễ chịu hơn mùa cao điểm, và một vài điểm hoa trồng sớm có thể đã vàng. Nhược điểm là khung cảnh tự nhiên chưa chắc rực, gió lạnh còn rõ, và nếu mục tiêu chính là ảnh hoa cải dày thì tháng 2 hơi rủi ro.
 
 **Tháng 3** là tháng chuyển mùa đẹp nhất nếu bạn thích cảm giác Jeju vừa tỉnh dậy sau mùa đông. Nửa đầu tháng 3 vẫn cần áo khoác, nửa cuối tháng 3 bắt đầu hợp để đi săn hoa hơn. Điểm hay của cuối tháng 3 là có thể ghép hoa cải với hoa anh đào, nhất là các tuyến đường có hai màu vàng - hồng trong cùng một khung cảnh. Bài **Jeju tháng 3 có gì đẹp** đi sâu hơn về cách xếp lịch cho giai đoạn này.
@@ -99,6 +95,8 @@ Nếu đi muộn hơn, từ giữa đến cuối tháng 4, cơ hội vẫn còn 
 
 ## Jeju Canola Flower Festival 2026 có nên là mốc đặt vé?
 
+![Jeju Canola Flower Festival 04-05/04/2026](/reviewchanthat/images/posts/jeju-inline-festival.webp)
+
 Theo VisitKorea, **Jeju Canola Flower Festival 2026 diễn ra ngày 04-05/04/2026** tại khu Pony Experience Park ở Gasi-ri, Seogwipo, gần Noksan-ro. Đây là nguồn chính thức quan trọng nhất nếu bạn đang hỏi về festival date.
 
 Tuy vậy, ngày lễ hội không đồng nghĩa với peak bloom cố định mọi năm. Lễ hội là một sự kiện được tổ chức vào ngày cụ thể; còn hoa nở là quá trình sinh học phụ thuộc thời tiết. Nếu bạn chỉ có thể đi một cuối tuần và muốn không khí đông vui, mốc 04-05/04/2026 rất hợp. Nếu bạn ưu tiên chụp ảnh ít người, hãy cân nhắc đến trước hoặc sau vài ngày, miễn là kiểm tra tình hình hoa sát ngày đi.
@@ -106,6 +104,8 @@ Tuy vậy, ngày lễ hội không đồng nghĩa với peak bloom cố định 
 Khi đi lễ hội, hãy chuẩn bị cho hai thực tế. Một là cuối tuần có thể đông, đặc biệt ở điểm check-in gần bãi xe hoặc lối vào. Hai là Jeju rộng hơn nhiều người tưởng; từ sân bay xuống Seogwipo hoặc Gasi-ri không phải kiểu "ghé ngang 15 phút". Nếu không thuê xe, bạn cần xếp bus/taxi kỹ hoặc chọn tour/ngày riêng cho phía đông nam đảo.
 
 ## Điểm ngắm hoa cải vàng nên đưa vào lịch
+
+![3 viewing spots: Noksan-ro, Seopjikoji, Sanbangsan](/reviewchanthat/images/posts/jeju-inline-spots.webp)
 
 **Noksan-ro Canola Flower Road** là điểm rất nên có nếu bạn đi cuối tháng 3 đến đầu tháng 4. VisitKorea mô tả đây là cung đường khoảng 10 km nơi hoa cải và hoa anh đào có thể nở cùng lúc. Điểm mạnh của Noksan-ro là cảm giác mùa xuân rất "Jeju": đường dài, hàng cây, gió, turbine xa xa và sắc vàng chạy hai bên. Điểm yếu là bạn cần xe hoặc lịch di chuyển rõ, vì đây là cung đường hơn là một điểm đứng cố định.
 

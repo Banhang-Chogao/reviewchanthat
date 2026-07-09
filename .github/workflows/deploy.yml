@@ -6,6 +6,8 @@ on:
     paths-ignore:
       - 'reports/**'
       - 'data/deployment-snapshot.json'
+      - 'data/deployment-doctor.json'
+      - 'data/deployment-doctor-attempts.json'
       - 'data/content-direction.json'
       - 'data/qa-baseline.json'
       - 'data/qa-baseline-debt.json'

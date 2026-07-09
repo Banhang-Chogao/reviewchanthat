@@ -1,10 +1,11 @@
 name: QA Debt Fix
 
 on:
+  # Manual only — never continuous. Old debt is batched, not deploy-blocking.
   workflow_dispatch:
     inputs:
       limit:
-        description: "Max issues to fix"
+        description: "Max issues to fix (batch)"
         default: "5"
         type: string
 
@@ -14,7 +15,7 @@ permissions:
 
 concurrency:
   group: qa-debt-fix-main
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   fix-debt:

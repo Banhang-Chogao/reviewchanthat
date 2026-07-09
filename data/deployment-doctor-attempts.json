@@ -1,0 +1,5 @@
+{
+  "attempts": {},
+  "updated_at": "",
+  "notes": "Ledger prevents autofix loops. Key = sha:failure_type. Max 2 attempts."
+}

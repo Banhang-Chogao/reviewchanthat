@@ -25,6 +25,15 @@ disableKinds = []
   cms_publish_api = "https://veritable-content-cms-publish.tamsudev-com.workers.dev/api/cms/publish"
   google_analytics_id = ""
 
+  # Image rules per blog post
+  [params.image_rules]
+    min_images = 2
+    max_images = 0  # 0 = unlimited
+    hero_required = true
+    inline_images_preferred = true
+    preferred_width = 800
+    preferred_height = 600
+
 
 [taxonomies]
   category = "categories"
