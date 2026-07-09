@@ -208,15 +208,21 @@ def main() -> int:
 
     for fpath in posts_to_process:
         try:
-            post_file = frontmatter.load(fpath)
+            raw = open(fpath, encoding="utf-8").read(32)
+            if raw.lstrip().startswith("+++"):
+                post_file = frontmatter.load(fpath, handler=frontmatter.TOMLHandler())
+            else:
+                post_file = frontmatter.load(fpath)
         except Exception as e:
             print(f"ERROR reading {fpath}: {e}")
             report["errors"].append({"file": fpath, "reason": str(e)})
             continue
 
-        meta = post_file.metadata
-        slug = meta.get("slug", os.path.basename(fpath).replace(".md", ""))
-        title = meta.get("title", slug)
+        meta = dict(post_file.metadata or {})
+        slug = meta.get("slug") or os.path.basename(fpath).replace(".md", "")
+        title = meta.get("title") or slug
+        meta["slug"] = slug
+        meta["title"] = title
         body = post_file.content or ""
 
         print(f"  [{slug}] {title}")
