@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-10T01:04:20+07:00",
-  "generated_at_display": "10-07-2026 01:04:20",
+  "generated_at": "2026-07-10T01:05:45+07:00",
+  "generated_at_display": "10-07-2026 01:05:45",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 30,
-    "safe_autofixes_available": 30,
+    "failed_runs_scanned": 31,
+    "safe_autofixes_available": 31,
     "unsafe_external_failures": 0,
     "open_action_items": 8,
-    "loop_guarded_attempts": 6,
+    "loop_guarded_attempts": 8,
     "by_type": {
       "workflow_fanout": 21,
+      "qa_expectation_mismatch": 5,
       "ai_summary_map_artifact": 4,
-      "qa_expectation_mismatch": 4,
       "sitemap_noindex_mismatch": 1
     }
   },
@@ -59,6 +59,16 @@
       "safe_to_autofix": true,
       "action": "Run normalize_ai_summaries.py --fix.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29036927490"
+    },
+    {
+      "run_id": "29039241898",
+      "workflow": "Content Direction",
+      "commit": "171d895",
+      "status": "failure",
+      "rootcause": "qa_expectation_mismatch",
+      "safe_to_autofix": true,
+      "action": "Align QA with product rules.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29039241898"
     },
     {
       "run_id": "29038801885",
@@ -309,16 +319,6 @@
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29035173711"
-    },
-    {
-      "run_id": "29035173564",
-      "workflow": "Auto Merge",
-      "commit": "ee0ff0a",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29035173564"
     }
   ],
   "clusters": {
@@ -451,6 +451,12 @@
       }
     ],
     "qa_debt": [
+      {
+        "failure_type": "qa_expectation_mismatch",
+        "run_id": "29039241898",
+        "rootcause": "QA expects a footer/product element that product intentionally removed.",
+        "safe_to_autofix": true
+      },
       {
         "failure_type": "qa_expectation_mismatch",
         "run_id": "29038801885",
@@ -727,19 +733,25 @@
     {
       "run_id": "29037283760",
       "failure_type": "ai_summary_map_artifact",
-      "result": "skipped",
-      "detail": "normalize_ai_summaries exit=0",
-      "script": "fix_ai_summary_map"
+      "result": "needs_human_review",
+      "detail": "loop-guard: f931e938f0ff:ai_summary_map_artifact already attempted 2 times"
     },
     {
       "run_id": "29037071903",
       "failure_type": "ai_summary_map_artifact",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "normalize_ai_summaries exit=0",
+      "script": "fix_ai_summary_map"
     },
     {
       "run_id": "29036927490",
       "failure_type": "ai_summary_map_artifact",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29039241898",
+      "failure_type": "qa_expectation_mismatch",
       "result": "skipped",
       "detail": "no script or already attempted this run"
     },
@@ -915,6 +927,12 @@
       "last_result": "skipped"
     },
     {
+      "key": "f4411c2bd47a:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T01:05:45+07:00",
+      "last_result": "skipped"
+    },
+    {
       "key": "7abfd3771b9b:ai_summary_map_artifact",
       "count": 2,
       "last_attempt_at": "2026-07-10T00:56:50+07:00",
@@ -936,6 +954,12 @@
       "key": "f931e938f0ff:ai_summary_map_artifact",
       "count": 2,
       "last_attempt_at": "2026-07-10T01:04:20+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "18cb600b75a2:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T01:05:45+07:00",
       "last_result": "skipped"
     }
   ],
