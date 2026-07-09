@@ -1,18 +1,16 @@
 {{ define "main" }}
 {{ $data := index .Site.Data "deployment-snapshot" }}
 {{ if not $data }}
-  {{ $data = dict "generated_at" "" "summary" (dict "total_items" 0 "success" 0 "failed" 0 "in_progress" 0) "items" slice }}
+  {{ $data = dict "generated_at" "" "summary" (dict "total_items" 0 "failed" 0 "fixed" 0) "items" slice }}
 {{ end }}
 <article class="deployment-snapshot">
   <header class="deployment-snapshot__hero">
     <div class="container">
-      <h1>Deployment Snapshot</h1>
-      <p class="deployment-snapshot__subtitle">
-        Theo dõi PR, Deploy ID, status, root cause và action items
-      </p>
+      <h1>Deployment Status</h1>
+      <p class="deployment-snapshot__subtitle">Failed runs & fixes</p>
       {{ if $data.generated_at }}
       <p class="deployment-snapshot__updated">
-        Cập nhật lúc: <time datetime="{{ $data.generated_at }}">{{ $data.generated_at_display | default $data.generated_at }}</time>
+        Updated: <time datetime="{{ $data.generated_at }}">{{ $data.generated_at_display | default $data.generated_at }}</time>
       </p>
       {{ end }}
     </div>
@@ -22,21 +20,13 @@
     {{ with $data.summary }}
     <section class="deployment-snapshot__summary">
       <div class="deployment-snapshot__cards">
-        <div class="deployment-snapshot__card">
-          <span class="deployment-snapshot__stat-value">{{ .total_items }}</span>
-          <span class="deployment-snapshot__stat-label">Tổng deploy</span>
-        </div>
-        <div class="deployment-snapshot__card deployment-snapshot__card--success">
-          <span class="deployment-snapshot__stat-value">{{ .success }}</span>
-          <span class="deployment-snapshot__stat-label">Thành công</span>
-        </div>
         <div class="deployment-snapshot__card deployment-snapshot__card--failed">
           <span class="deployment-snapshot__stat-value">{{ .failed }}</span>
-          <span class="deployment-snapshot__stat-label">Thất bại</span>
+          <span class="deployment-snapshot__stat-label">Failed</span>
         </div>
-        <div class="deployment-snapshot__card deployment-snapshot__card--in-progress">
-          <span class="deployment-snapshot__stat-value">{{ .in_progress }}</span>
-          <span class="deployment-snapshot__stat-label">Đang chạy</span>
+        <div class="deployment-snapshot__card deployment-snapshot__card--success">
+          <span class="deployment-snapshot__stat-value">{{ .fixed }}</span>
+          <span class="deployment-snapshot__stat-label">Fixed</span>
         </div>
       </div>
     </section>
@@ -44,73 +34,52 @@
 
     {{ with $data.items }}
     <section class="deployment-snapshot__results">
-      <h2>Lịch sử deploy</h2>
+      <h2>Recent Issues</h2>
       <div class="deployment-snapshot__table-wrapper">
         <table class="deployment-snapshot__table">
           <thead>
             <tr>
               <th>PR</th>
-              <th>Deploy ID</th>
+              <th>Run ID</th>
+              <th>Workflow</th>
               <th>Status</th>
-              <th>Root Cause</th>
               <th>Action Items</th>
-              <th>Remark</th>
-              <th>Cập nhật</th>
+              <th>Updated</th>
             </tr>
           </thead>
           <tbody>
           {{ range . }}
             <tr class="deployment-snapshot__row deployment-snapshot__row--{{ .deploy_status }}">
-              <td class="deployment-snapshot__cell deployment-snapshot__cell--pr">
+              <td class="deployment-snapshot__cell">
                 {{ if .pr_number }}
-                  <a href="{{ .pr_url }}" rel="nofollow noopener" target="_blank" class="deployment-snapshot__link">
-                    #{{ .pr_number }}
-                  </a>
-                  <span class="deployment-snapshot__pr-title">{{ .pr_title }}</span>
+                  <a href="{{ .pr_url }}" rel="nofollow noopener" target="_blank" class="deployment-snapshot__link">#{{ .pr_number }}: {{ .pr_title }}</a>
                 {{ else }}
                   <span class="deployment-snapshot__text-muted">—</span>
                 {{ end }}
               </td>
               <td class="deployment-snapshot__cell">
                 <a href="{{ .deploy_run_url }}" rel="nofollow noopener" target="_blank" class="deployment-snapshot__link">
-                  {{ .deploy_id | truncate 10 }}
+                  {{ .deploy_id | truncate 8 }}
                 </a>
               </td>
               <td class="deployment-snapshot__cell">
+                <code>{{ .workflow_name | truncate 20 }}</code>
+              </td>
+              <td class="deployment-snapshot__cell">
                 <span class="deployment-snapshot__badge deployment-snapshot__badge--{{ .deploy_status }}">
-                  {{ .deploy_status | upper }}
+                  {{ if .is_fixed }}FIXED{{ else }}FAILED{{ end }}
                 </span>
               </td>
               <td class="deployment-snapshot__cell">
-                {{ if .rootcause }}
-                  <code class="deployment-snapshot__code">{{ .rootcause }}</code>
-                {{ else }}
-                  <span class="deployment-snapshot__text-muted">—</span>
-                {{ end }}
-              </td>
-              <td class="deployment-snapshot__cell deployment-snapshot__cell--actions">
                 {{ if .action_items }}
                   <ul class="deployment-snapshot__list">
-                  {{ range .action_items }}
-                    <li>{{ . }}</li>
-                  {{ end }}
+                  {{ range .action_items }}<li>{{ . }}</li>{{ end }}
                   </ul>
-                {{ else }}
-                  <span class="deployment-snapshot__text-muted">—</span>
-                {{ end }}
+                {{ else }}<span class="deployment-snapshot__text-muted">—</span>{{ end }}
               </td>
               <td class="deployment-snapshot__cell">
-                {{ .remark }}
-              </td>
-              <td class="deployment-snapshot__cell deployment-snapshot__cell--time">
                 <time datetime="{{ .updated_at }}" title="{{ .updated_at }}">
-                  {{ if .updated_at_display }}
-                    {{ .updated_at_display }}
-                  {{ else if .updated_at }}
-                    {{ dateFormat "02-01-2006 15:04:05" (time.AsTime .updated_at) }}
-                  {{ else }}
-                    —
-                  {{ end }}
+                  {{ if .updated_at_display }}{{ .updated_at_display }}{{ else }}—{{ end }}
                 </time>
               </td>
             </tr>
@@ -121,10 +90,9 @@
     </section>
     {{ else }}
     <section class="deployment-snapshot__empty">
-      <p>Deployment Snapshot đang chờ dữ liệu từ lần chạy GitHub Actions tiếp theo.</p>
+      <p>No failed runs. All deployments are healthy.</p>
     </section>
     {{ end }}
-
   </div>
 </article>
 
