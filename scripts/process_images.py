@@ -197,41 +197,78 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
     from datetime import datetime, timedelta, timezone
     fname = None
     for f in os.listdir(CONTENT_DIR):
-        if f.endswith(".md"):
-            try:
-                post = frontmatter.load(os.path.join(CONTENT_DIR, f))
-                if post.metadata.get("slug") == slug:
-                    fname = f
-                    break
-            except Exception:
-                continue
+        if not f.endswith(".md"):
+            continue
+        fpath_try = os.path.join(CONTENT_DIR, f)
+        # Prefer filename stem match (works for TOML where frontmatter.load may fail/mangle)
+        if f.replace(".md", "") == slug:
+            fname = f
+            break
+        try:
+            post = frontmatter.load(fpath_try)
+            if post.metadata.get("slug") == slug:
+                fname = f
+                break
+        except Exception:
+            continue
     if not fname:
         print(f"    Post not found for slug: {slug}")
         return False
     fpath = os.path.join(CONTENT_DIR, fname)
+    checked_at = datetime.now(timezone(timedelta(hours=7))).replace(microsecond=0).isoformat()
+    verified = bool(attribution_verified) and bool(clean_text(creator))
+    img = (image_path or "").lstrip("/")
+    if img.startswith("static/"):
+        img = img[len("static/") :]
+    thumb = (thumbnail_path or img or "").lstrip("/")
+    if thumb.startswith("static/"):
+        thumb = thumb[len("static/") :]
+
+    fields = {
+        "image": img,
+        "thumbnail": thumb,
+        "image_source": source,
+        "image_source_url": source_url or "",
+        "image_license": license_val or "",
+        "image_license_url": license_url or "",
+        "image_commercial_use": bool(commercial_use),
+        "image_owner": owner or "external",
+        "image_creator": clean_text(creator) if verified else "",
+        "image_creator_url": clean_text(creator_url) if verified else "",
+        "image_creator_id": clean_text(creator_id) if verified else "",
+        "image_attribution_verified": verified,
+        "image_attribution_source": (
+            attribution_source if attribution_source else ("not_found" if not verified else "")
+        ),
+        "image_attribution_checked_at": checked_at,
+    }
+    if image_status:
+        fields["image_status"] = image_status
+    if image_status == "verified" and not gate_meta:
+        fields["image_provider"] = clean_text(source).lower()
+    if gate_meta:
+        for key in GATE_FIELDS:
+            value = gate_meta.get(key)
+            if value not in (None, "") and not (key.endswith("_score") and value == 0):
+                fields[key] = value
+
+    with open(fpath, encoding="utf-8") as fh:
+        raw_head = fh.read(12)
+    if raw_head.lstrip().startswith("+++"):
+        # Preserve TOML posts — frontmatter.dumps would convert them to YAML and corrupt body.
+        try:
+            from select_images import write_image_frontmatter_toml
+            write_image_frontmatter_toml(fpath, fields)
+            print(f"    Updated frontmatter (TOML): {fname}")
+            return True
+        except Exception as exc:
+            print(f"    WARNING: TOML frontmatter update failed for {fname}: {exc}")
+            return False
+
     post = frontmatter.load(fpath)
     meta = post.metadata
     original_date = meta.get("date")
-    meta["image"] = (image_path or "").lstrip("/")
-    meta["thumbnail"] = (thumbnail_path or "").lstrip("/")
-    meta["image_source"] = source
-    meta["image_source_url"] = source_url
-    meta["image_license"] = license_val
-    if license_url:
-        meta["image_license_url"] = license_url
-    meta["image_commercial_use"] = commercial_use
-    meta["image_owner"] = owner
-    verified = bool(attribution_verified) and bool(clean_text(creator))
-    meta["image_creator"] = clean_text(creator) if verified else ""
-    meta["image_creator_url"] = clean_text(creator_url) if verified else ""
-    meta["image_creator_id"] = clean_text(creator_id) if verified else ""
-    meta["image_attribution_verified"] = verified
-    meta["image_attribution_source"] = (
-        attribution_source if attribution_source else ("not_found" if not verified else "")
-    )
-    meta["image_attribution_checked_at"] = datetime.now(
-        timezone(timedelta(hours=7))
-    ).replace(microsecond=0).isoformat()
+    meta.update(fields)
     if not verified:
         meta["image_attribution_error"] = (
             "Provider/source page did not expose verified creator metadata"
@@ -239,19 +276,11 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
     else:
         meta.pop("image_attribution_error", None)
     meta.pop("image_reject_reason", None)
-    if image_status:
-        meta["image_status"] = image_status
-    else:
+    if not image_status:
         meta.pop("image_status", None)
         for key in GATE_FIELDS:
-            meta.pop(key, None)
-    if gate_meta:
-        for key in GATE_FIELDS:
-            value = gate_meta.get(key)
-            if value not in (None, "") and not (key.endswith("_score") and value == 0):
-                meta[key] = value
-    elif image_status == "verified" and not gate_meta:
-        meta["image_provider"] = clean_text(source).lower()
+            if key not in fields:
+                meta.pop(key, None)
     if original_date is not None:
         meta["date"] = original_date
     with open(fpath, "w", encoding="utf-8") as f:

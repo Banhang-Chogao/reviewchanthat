@@ -241,7 +241,22 @@ def main() -> int:
 
         # Filter by --only-missing-or-bad
         if args.only_missing_or_bad:
-            if slug in existing_slugs and meta.get("image") and meta.get("image_owner") != "self":
+            img_rel = str(meta.get("image") or "").lstrip("/")
+            if img_rel.startswith("static/"):
+                img_rel = img_rel[len("static/") :]
+            candidates = [
+                os.path.join("static", img_rel) if img_rel else "",
+                os.path.join("static/images/posts", f"{slug}.webp"),
+            ]
+            file_ok = any(p and os.path.isfile(p) and os.path.getsize(p) > 1000 for p in candidates)
+            status = str(meta.get("image_status") or "")
+            needs = (
+                not meta.get("image")
+                or not file_ok
+                or status in {"needs_review", "needs_image", "needs_replace", "missing"}
+                or meta.get("image_owner") == "self"
+            )
+            if not needs:
                 print(f"    Skipped (image already set)")
                 report["skipped"] += 1
                 continue
@@ -327,13 +342,97 @@ def main() -> int:
     return 0 if not report["errors"] else 1 if args.fix else 0
 
 
+def _toml_quote(value: Any) -> str:
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return str(value)
+    s = str(value).replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ")
+    return f'"{s}"'
+
+
+def _remove_toml_keys(fm: str, keys: list[str]) -> str:
+    lines = fm.splitlines(keepends=True)
+    out: list[str] = []
+    i = 0
+    key_re = re.compile(r"^(" + "|".join(re.escape(k) for k in keys) + r")\s*=")
+    while i < len(lines):
+        if key_re.match(lines[i]):
+            line = lines[i]
+            i += 1
+            if '"""' in line and line.count('"""') == 1:
+                while i < len(lines) and '"""' not in lines[i]:
+                    i += 1
+                if i < len(lines):
+                    i += 1
+            continue
+        out.append(lines[i])
+        i += 1
+    return "".join(out)
+
+
+def write_image_frontmatter_toml(post_path: str, fields: dict[str, Any]) -> None:
+    """Surgically update image_* keys in TOML (+++) front matter without converting to YAML."""
+    text = open(post_path, encoding="utf-8").read()
+    m = re.match(r"^(\+\+\+\r?\n)(.*?)(\r?\n\+\+\+)(\r?\n?)(.*)$", text, re.S)
+    if not m:
+        raise ValueError("invalid TOML front matter")
+    prefix, fm, close, nl, body = m.group(1), m.group(2), m.group(3), m.group(4), m.group(5)
+    keys = list(fields.keys())
+    fm = _remove_toml_keys(fm, keys)
+    block = "\n".join(f"{k} = {_toml_quote(v)}" for k, v in fields.items())
+    table_m = re.search(r"(?m)^\[", fm)
+    if table_m:
+        idx = table_m.start()
+        head = fm[:idx].rstrip("\n")
+        tail = fm[idx:]
+        fm = head + "\n" + block + "\n\n" + tail.lstrip("\n")
+    else:
+        fm = fm.rstrip("\n") + "\n" + block + "\n"
+    with open(post_path, "w", encoding="utf-8") as f:
+        f.write(f"{prefix}{fm}{close}{nl or chr(10)}{body}")
+
+
 def write_image_frontmatter(post_path: str, entry: dict[str, Any]) -> None:
-    """Update post frontmatter with selected image metadata."""
+    """Update post frontmatter with selected image metadata.
+
+    Hugo uses paths like images/posts/<slug>.webp (no static/ prefix).
+    TOML posts must stay TOML — never run frontmatter.dumps on them.
+    """
     try:
+        out = (entry.get("output_path") or "").lstrip("/")
+        if out.startswith("static/"):
+            out = out[len("static/") :]
+        if not out:
+            out = f"images/posts/{entry.get('slug', 'post')}.webp"
+
+        fields = {
+            "image": out,
+            "thumbnail": out,
+            "image_source": entry.get("source", entry.get("source_platform", "")),
+            "image_source_url": entry.get("source_url", ""),
+            "image_provider": entry.get("image_provider", ""),
+            "image_license": entry.get("license", ""),
+            "image_license_url": entry.get("license_url", "") or "",
+            "image_commercial_use": bool(entry.get("commercial_use", True)),
+            "image_owner": entry.get("image_owner", "external"),
+            "image_creator": entry.get("creator", "") or "",
+            "image_creator_url": entry.get("creator_url", "") or "",
+            "image_creator_id": entry.get("creator_id", "") or "",
+            "image_attribution_verified": bool(entry.get("attribution_verified", False)),
+            "image_attribution_source": entry.get("attribution_source", "not_found"),
+            "image_status": "verified",
+        }
+
+        with open(post_path, encoding="utf-8") as fh:
+            head = fh.read(8)
+        if head.lstrip().startswith("+++"):
+            write_image_frontmatter_toml(post_path, fields)
+            return
+
         post = frontmatter.load(post_path)
         meta = post.metadata
 
-        # Remove old scoring fields
         stale = [
             "image_reject_reason", "image_attribution_checked_at", "image_query",
             "image_semantic_score", "image_color_score", "image_total_score",
@@ -342,22 +441,7 @@ def write_image_frontmatter(post_path: str, entry: dict[str, Any]) -> None:
         for k in stale:
             meta.pop(k, None)
 
-        # Set image fields from entry
-        meta["image"] = entry.get("output_path", "").lstrip("/")
-        meta["thumbnail"] = entry.get("output_path", "").lstrip("/")
-        meta["image_source"] = entry.get("source", entry.get("source_platform", ""))
-        meta["image_source_url"] = entry.get("source_url", "")
-        meta["image_provider"] = entry.get("image_provider", "")
-        meta["image_license"] = entry.get("license", "")
-        meta["image_license_url"] = entry.get("license_url", "")
-        meta["image_commercial_use"] = entry.get("commercial_use", True)
-        meta["image_owner"] = entry.get("image_owner", "external")
-        meta["image_creator"] = entry.get("creator", "")
-        meta["image_creator_url"] = entry.get("creator_url", "")
-        meta["image_creator_id"] = entry.get("creator_id", "")
-        meta["image_attribution_verified"] = entry.get("attribution_verified", False)
-        meta["image_attribution_source"] = entry.get("attribution_source", "not_found")
-        meta["image_status"] = "verified"
+        meta.update(fields)
 
         with open(post_path, "w", encoding="utf-8") as f:
             f.write(frontmatter.dumps(post))
