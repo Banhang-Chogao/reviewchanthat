@@ -1,11 +1,18 @@
-<div class="table-wrap" role="region" aria-label="Scrollable table" tabindex="0">
+{{- /* Capture header labels for mobile stacked cards + a11y */ -}}
+{{- $labels := slice -}}
+{{- if .THead -}}
+  {{- range index .THead 0 -}}
+    {{- $labels = $labels | append (.Text | plainify | htmlUnescape) -}}
+  {{- end -}}
+{{- end -}}
+<div class="table-wrap" role="region" aria-label="Data table">
 <table{{ range $k, $v := .Attributes }}{{ if $v }} {{ printf "%s=%q" $k $v | safeHTMLAttr }}{{ end }}{{ end }}>
   {{- if .THead }}
   <thead>
     {{- range .THead }}
     <tr>
       {{- range . }}
-      <th{{ with .Alignment }} style="text-align:{{ . }}"{{ end }}>{{ .Text }}</th>
+      <th{{ with .Alignment }} style="text-align:{{ . }}"{{ end }}>{{ .Text | safeHTML }}</th>
       {{- end }}
     </tr>
     {{- end }}
@@ -14,8 +21,8 @@
   <tbody>
     {{- range .TBody }}
     <tr>
-      {{- range . }}
-      <td{{ with .Alignment }} style="text-align:{{ . }}"{{ end }}>{{ .Text }}</td>
+      {{- range $i, $cell := . }}
+      <td{{- with $cell.Alignment }} style="text-align:{{ . }}"{{- end }}{{- with index $labels $i }} data-label="{{ . }}"{{- end }}>{{ $cell.Text | safeHTML }}</td>
       {{- end }}
     </tr>
     {{- end }}
