@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:15:00+07:00'
+date: "2026-07-10 04:20:00+07:00"
 description: 'Phân tích workflow_fanout (safe): một merge kích hoạt deploy + content-direction
   + snapshot + autofix — cách thiết kế concurrency để không tự DDoS pipeline.'
 draft: false

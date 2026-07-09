@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:45:00+07:00'
+date: "2026-07-10 04:50:00+07:00"
 description: 'Phân tích baseurl_routing_error, sitemap_noindex_mismatch, series_hardcoded_url
   (safe): path tuyệt đối thiếu /reviewchanthat/, noindex lọt sitemap, /series/ hardcode
   vỡ baseURL.'

@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:10:00+07:00'
+date: "2026-07-10 04:15:00+07:00"
 description: 'Hướng dẫn xử lý github_rate_limit và github_pages_rate_limit (unsafe):
   nhận diện 403/429, backoff, gom API call, tránh spam publish Pages.'
 draft: false

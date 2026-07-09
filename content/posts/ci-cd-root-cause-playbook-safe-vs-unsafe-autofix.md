@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:00:00+07:00'
+date: "2026-07-10 04:05:00+07:00"
 description: 'Playbook phân loại root cause CI/CD (safe/unsafe): runner delay, rate
   limit, fan-out, QA debt, image pipeline, timezone, Content Direction, Pages lag,
   baseURL, Hugo YAML — kèm 10 bài vệ tinh.'

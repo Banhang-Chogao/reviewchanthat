@@ -14,7 +14,7 @@ ai_summary:
 author: Minh Hoàng
 categories:
 - cong-nghe
-date: '2026-07-10 11:40:00+07:00'
+date: "2026-07-10 04:45:00+07:00"
 description: 'Phân tích live_deploy_not_reflected (safe) và github_pages_serving_old_artifact
   (unsafe): merge/deploy OK nhưng site còn SHA cũ — cách verify và xử lý cache/CDN.'
 draft: false
