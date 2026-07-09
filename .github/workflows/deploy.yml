@@ -54,12 +54,12 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Normalize AI summaries
-        run: python scripts/normalize_ai_summaries.py --check
-
-      - name: Auto-fix frontmatter conflicts
+      - name: Auto-fix frontmatter conflicts (run first!)
         continue-on-error: true
         run: python scripts/auto_conflict_remover.py --verbose
+
+      - name: Normalize AI summaries
+        run: python scripts/normalize_ai_summaries.py --check
 
       - name: Generate Content Direction report
         run: |
