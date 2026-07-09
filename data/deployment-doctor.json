@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T06:04:58+07:00",
-  "generated_at_display": "10-07-2026 06:04:58",
+  "generated_at": "2026-07-10T06:21:30+07:00",
+  "generated_at_display": "10-07-2026 06:21:30",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -11,7 +11,7 @@
     "safe_autofixes_available": 25,
     "unsafe_external_failures": 0,
     "open_action_items": 7,
-    "loop_guarded_attempts": 34,
+    "loop_guarded_attempts": 35,
     "by_type": {
       "workflow_fanout": 12,
       "sitemap_noindex_mismatch": 8,
@@ -681,15 +681,15 @@
     {
       "run_id": "29056129980",
       "failure_type": "sitemap_noindex_mismatch",
-      "result": "skipped",
-      "detail": "posts-only sitemap already in place",
-      "script": "fix_sitemap_noindex"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 0144b80e317f:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
       "run_id": "29056029940",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "posts-only sitemap already in place",
+      "script": "fix_sitemap_noindex"
     },
     {
       "run_id": "29055987326",
@@ -991,6 +991,12 @@
       "key": "054b69ee7a10:workflow_fanout",
       "count": 2,
       "last_attempt_at": "2026-07-10T05:52:38+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "390501e92d12:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T06:21:29+07:00",
       "last_result": "skipped"
     },
     {
