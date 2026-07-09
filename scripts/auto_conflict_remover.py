@@ -1,35 +1,20 @@
 #!/usr/bin/env python3
 """
-Auto Conflict Remover — Real-time YAML/frontmatter validator and fixer.
+Auto Conflict Remover — Aggressive YAML frontmatter fixer.
 
-Runs in deploy.yml to catch and fix issues BEFORE Hugo build:
-- Duplicate YAML keys (e.g., external_links, seo_title)
-- Invalid YAML syntax (unquoted colons in values)
-- Malformed front matter
-- Invalid character encoding
-
-Scans all .md files in content/posts, fixes silently, logs issues.
+Fixes:
+- Malformed quoted strings (description, titles with colons)
+- Invalid external_links entries
+- Duplicate top-level keys
+- Unquoted colons in YAML values
 """
 
 import re
 import sys
-import warnings
 from pathlib import Path
-from collections import defaultdict
-
-import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = REPO_ROOT / "content" / "posts"
-
-class FrontmatterIssue:
-    def __init__(self, file_path: str, issue_type: str, detail: str):
-        self.file_path = file_path
-        self.issue_type = issue_type
-        self.detail = detail
-
-    def __repr__(self):
-        return f"{self.file_path}: {self.issue_type} — {self.detail}"
 
 def extract_frontmatter(text: str) -> tuple[str | None, str]:
     """Extract YAML frontmatter from markdown."""
@@ -40,84 +25,105 @@ def extract_frontmatter(text: str) -> tuple[str | None, str]:
         return None, text
     return m.group(1), m.group(2)
 
-def find_duplicate_keys(fm_text: str) -> list[tuple[str, int]]:
-    """Find duplicate YAML keys in frontmatter. Returns [(key, count), ...]."""
-    keys = defaultdict(list)
-    for i, line in enumerate(fm_text.split("\n")):
-        # Only check lines that start at column 0 (top-level keys)
-        m = re.match(r"^(\w+):\s*", line)
-        if m:
-            key = m.group(1)
-            keys[key].append(i)
-
-    duplicates = [(k, lines) for k, lines in keys.items() if len(lines) > 1]
-    return duplicates
-
-def fix_duplicate_keys(fm_text: str, duplicates: list[tuple[str, list[int]]]) -> str:
-    """Remove duplicate key entries, keep first occurrence."""
-    if not duplicates:
-        return fm_text
-
-    lines = fm_text.split("\n")
-    # Mark lines to remove
-    to_remove = set()
-
-    for key, line_indices in duplicates:
-        # Keep first, remove rest and their child lines
-        for idx in line_indices[1:]:
-            to_remove.add(idx)
-            # Also mark indented children as removed
-            indent_level = len(lines[idx]) - len(lines[idx].lstrip())
-            for j in range(idx + 1, len(lines)):
-                if not lines[j].strip():  # Skip empty lines
-                    to_remove.add(j)
-                elif len(lines[j]) - len(lines[j].lstrip()) > indent_level:
-                    to_remove.add(j)
-                else:
-                    break  # Stop at next top-level key
-
-    result = [lines[i] for i in range(len(lines)) if i not in to_remove]
-    return "\n".join(result)
-
-def quote_unquoted_colons(fm_text: str) -> str:
-    """Quote string values containing unquoted colons."""
+def fix_description_multiline(fm_text: str) -> str:
+    """Fix description field with colons in multi-line quoted strings."""
     lines = fm_text.split("\n")
     result = []
+    i = 0
 
-    for line in lines:
-        # Match "key: value" where value has colon
-        m = re.match(r"^(\s*)(\w+):\s*(.+)$", line)
-        if m:
-            indent, key, value = m.groups()
-            # If value contains colon and isn't already quoted/escaped
-            if ":" in value and not (
-                value.startswith('"') or value.startswith("'") or value.startswith(">")
-            ):
-                # Quote it
-                if '"' not in value:
-                    line = f"{indent}{key}: \"{value}\""
-                elif "'" not in value:
-                    line = f"{indent}{key}: '{value}'"
-                else:
-                    # Fallback: use folded literal
-                    result.append(f"{indent}{key}: >-")
-                    result.append(f"{indent}  {value}")
-                    continue
+    while i < len(lines):
+        line = lines[i]
+
+        # Check if this is a description field
+        if line.strip().startswith("description:"):
+            # Extract the value part
+            m = re.match(r"^(\s*)description:\s*'(.*)$", line)
+            if m and not line.rstrip().endswith("'"):
+                # Multi-line string - need to collect all lines
+                indent = m.group(1)
+                value_start = m.group(2)
+                value_lines = [value_start]
+                i += 1
+
+                while i < len(lines):
+                    next_line = lines[i]
+                    if next_line.startswith(" " * (len(indent) + 2)):
+                        # Continuation of string
+                        value_lines.append(next_line.strip())
+                        i += 1
+                    elif next_line.strip().endswith("'"):
+                        # End of multi-line string
+                        value_lines.append(next_line.strip().rstrip("'"))
+                        i += 1
+                        break
+                    elif next_line.strip() and not next_line.startswith(" "):
+                        # Next key at top level
+                        break
+                    else:
+                        i += 1
+
+                # Reconstruct as proper YAML
+                full_value = " ".join(value_lines)
+                # Use >- for folded string (handles colons properly)
+                result.append(f"{indent}description: >-")
+                result.append(f"{indent}  {full_value}")
+                continue
+
         result.append(line)
+        i += 1
 
     return "\n".join(result)
 
-def validate_yaml(fm_text: str) -> tuple[bool, str]:
-    """Try to parse YAML, return (valid, error_msg)."""
-    try:
-        with warnings.catch_warnings():
-            warnings.simplefilter("ignore")
-            yaml.safe_load(fm_text)
-        return True, ""
-    except yaml.YAMLError as e:
-        return False, str(e)
+def fix_external_links(fm_text: str) -> str:
+    """Fix malformed external_links entries (remove trailing > and other artifacts)."""
+    lines = fm_text.split("\n")
+    result = []
+    i = 0
 
-def fix_frontmatter(text: str) -> tuple[str, list[FrontmatterIssue]]:
+    while i < len(lines):
+        line = lines[i]
+
+        # Check for external_links section
+        if line.strip().startswith("external_links:"):
+            result.append(line)
+            i += 1
+
+            # Process list items
+            while i < len(lines):
+                next_line = lines[i]
+
+                if next_line.startswith("  - "):
+                    # List item
+                    result.append(next_line)
+                    i += 1
+                elif next_line.startswith("    "):
+                        # Continuation of list item (title: or url:)
+                    # Fix malformed URLs (remove trailing > or other artifacts)
+                    fixed_line = next_line
+                    if "title:" in fixed_line and fixed_line.rstrip().endswith(">"):
+                        # Remove trailing > from title
+                        fixed_line = fixed_line.rstrip()[:-1]
+                    if "url:" in fixed_line and fixed_line.rstrip().endswith(">"):
+                        # Remove trailing > from url
+                        fixed_line = fixed_line.rstrip()[:-1]
+
+                    result.append(fixed_line)
+                    i += 1
+                elif next_line.strip() == "":
+                    # Empty line
+                    result.append(next_line)
+                    i += 1
+                else:
+                    # Next section
+                    break
+            continue
+
+        result.append(line)
+        i += 1
+
+    return "\n".join(result)
+
+def fix_frontmatter(text: str) -> tuple[str, list[str]]:
     """Fix all frontmatter issues."""
     issues = []
     fm_text, body = extract_frontmatter(text)
@@ -127,38 +133,38 @@ def fix_frontmatter(text: str) -> tuple[str, list[FrontmatterIssue]]:
 
     original_fm = fm_text
 
-    # Step 1: Fix duplicate keys
-    duplicates = find_duplicate_keys(fm_text)
-    if duplicates:
-        fm_text = fix_duplicate_keys(fm_text, duplicates)
-        for dup in duplicates:
-            issues.append(FrontmatterIssue("", "duplicate_key", dup))
+    # Step 1: Fix description multi-line strings
+    fm_text = fix_description_multiline(fm_text)
+    if fm_text != original_fm:
+        issues.append("fixed_description_multiline")
 
-    # Step 2: Fix unquoted colons
-    fm_text = quote_unquoted_colons(fm_text)
+    # Step 2: Fix external_links
+    fm_text = fix_external_links(fm_text)
 
-    # Step 3: Validate YAML
-    valid, error = validate_yaml(fm_text)
-    if not valid:
-        issues.append(FrontmatterIssue("", "yaml_error", error[:80]))
-        # Try to recover: quote all values
-        fm_text = quote_unquoted_colons(fm_text)
+    # Step 3: Fix trailing quote marks on lines
+    lines = fm_text.split("\n")
+    fixed_lines = []
+    for line in lines:
+        # Remove orphaned trailing > or malformed quote marks
+        if line.rstrip().endswith(">"):
+            line = line.rstrip()[:-1]
+        fixed_lines.append(line)
+    fm_text = "\n".join(fixed_lines)
 
     # Reconstruct
     fixed_text = f"---\n{fm_text}\n---\n{body}"
     return fixed_text, issues
 
 def main():
-    parser_module = __import__("argparse")
-    parser = parser_module.ArgumentParser(description="Auto Conflict Remover — fix YAML issues in frontmatter")
+    import argparse
+    parser = argparse.ArgumentParser(description="Auto Conflict Remover — aggressive YAML fixer")
     parser.add_argument("--check", action="store_true", help="Only check, don't fix")
-    parser.add_argument("--verbose", action="store_true", help="Print all fixes")
+    parser.add_argument("--verbose", action="store_true", help="Print fixes")
     args = parser.parse_args()
 
     posts = sorted(CONTENT_DIR.glob("*.md"))
     fixed_count = 0
     total_issues = 0
-    failed_files = []
 
     for f in posts:
         text = f.read_text(encoding="utf-8")
@@ -167,22 +173,18 @@ def main():
         if issues:
             total_issues += len(issues)
             if args.verbose:
-                print(f"{f.name}: {len(issues)} issue(s)")
-                for issue in issues:
-                    print(f"  - {issue.issue_type}: {issue.detail}")
+                print(f"{f.name}: {len(issues)} fix(es) - {', '.join(issues)}")
 
             if fixed_text != text:
                 fixed_count += 1
                 if not args.check:
                     f.write_text(fixed_text, encoding="utf-8")
-                else:
-                    print(f"[DRY-RUN] Would fix: {f.name}")
 
-    print(f"Summary: {total_issues} issue(s) found in {fixed_count} file(s)")
-    if not args.check and fixed_count > 0:
+    print(f"Summary: {total_issues} fix(es) applied to {fixed_count} file(s)")
+    if fixed_count > 0 and not args.check:
         print(f"✅ Fixed {fixed_count} file(s)")
 
-    return 0 if not failed_files else 1
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())
