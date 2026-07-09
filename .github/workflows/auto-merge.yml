@@ -75,12 +75,32 @@ jobs:
               echo "action=skip"; echo "reason=untrusted branch: $BRANCH" ;;
           esac >> "$GITHUB_OUTPUT"
 
-      - name: Add labels
+      - name: Smart label
         if: steps.eval.outputs.action == 'automerge'
         env:
           PR: ${{ steps.pr.outputs.number }}
         run: |
-          gh pr edit "$PR" --add-label "automerge,automated" 2>/dev/null || true
+          BRANCH=$(gh pr view "$PR" --json headRefName --jq '.headRefName')
+          AUTHOR=$(gh pr view "$PR" --json author --jq '.author.login')
+          LABELS="automated,automerge"
+          case "$BRANCH" in
+            content/*) LABELS="$LABELS,content/new" ;;
+            fix/*)     LABELS="$LABELS,fix/bug" ;;
+            autofix/*) LABELS="$LABELS,autofix" ;;
+            ci/*)      LABELS="$LABELS,ci/cd" ;;
+          esac
+          if [ "$AUTHOR" = "github-actions[bot]" ]; then
+            LABELS="$LABELS,bot"
+          fi
+          FILES=$(gh pr diff "$PR" --name-only)
+          if echo "$FILES" | grep -q "^static/images/" || echo "$FILES" | grep -q "^scripts/image"; then
+            LABELS="$LABELS,image"
+          fi
+          if echo "$FILES" | grep -qE "^docs/|^README\.md$" && ! echo "$FILES" | grep -q "^content/"; then
+            LABELS="$LABELS,docs"
+          fi
+          gh pr edit "$PR" --add-label "$LABELS" 2>/dev/null || true
+          echo "Labels applied: $LABELS"
 
       - name: Auto-rebase on main if conflicted
         if: steps.eval.outputs.action == 'automerge'
