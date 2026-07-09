@@ -9,9 +9,12 @@ import os
 import re
 import subprocess
 import sys
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from datetime import datetime, timezone
 from typing import Any
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "lib"))
+from dates import format_vietnam_datetime
 
 WORKFLOW_NAMES = [
     "Deploy to GitHub Pages",
@@ -49,6 +52,8 @@ class DeploymentItem:
     rootcause: str
     action_items: list[str]
     remark: str
+    created_at_display: str = field(default="")
+    updated_at_display: str = field(default="")
 
 
 def run_gh(args: list[str]) -> str | None:
@@ -220,6 +225,8 @@ def collect_runs(limit: int = 20, from_run_id: str | None = None) -> list[Deploy
                 rootcause=rootcause,
                 action_items=action_items,
                 remark=remark,
+                created_at_display=format_vietnam_datetime(created_at) if created_at else "",
+                updated_at_display=format_vietnam_datetime(updated_at) if updated_at else "",
             )
             items.append(item)
 
@@ -248,6 +255,7 @@ def write_snapshot(items: list[DeploymentItem], out_path: str) -> None:
 
     data = {
         "generated_at": now,
+        "generated_at_display": format_vietnam_datetime(now),
         "site": "Review Chân Thật",
         "base_url": "https://banhang-chogao.github.io/reviewchanthat/",
         "summary": compute_summary(items),

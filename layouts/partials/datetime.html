@@ -1,0 +1,5 @@
+{{- /* Format datetime for display in Vietnam timezone: dd-mm-yyyy hh:mm:ss */ -}}
+{{- $value := . -}}
+{{- if $value -}}
+  {{- $value.Format "02-01-2006 15:04:05" -}}
+{{- end -}}

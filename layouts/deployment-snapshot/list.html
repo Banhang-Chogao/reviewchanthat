@@ -12,7 +12,7 @@
       </p>
       {{ if $data.generated_at }}
       <p class="deployment-snapshot__updated">
-        Cập nhật lúc: <time datetime="{{ $data.generated_at }}">{{ $data.generated_at }}</time>
+        Cập nhật lúc: <time datetime="{{ $data.generated_at }}">{{ $data.generated_at_display | default $data.generated_at }}</time>
       </p>
       {{ end }}
     </div>
@@ -104,8 +104,10 @@
               </td>
               <td class="deployment-snapshot__cell deployment-snapshot__cell--time">
                 <time datetime="{{ .updated_at }}" title="{{ .updated_at }}">
-                  {{ if .updated_at }}
-                    {{ dateFormat "02 Jan 15:04" (time.AsTime .updated_at) }}
+                  {{ if .updated_at_display }}
+                    {{ .updated_at_display }}
+                  {{ else if .updated_at }}
+                    {{ dateFormat "02-01-2006 15:04:05" (time.AsTime .updated_at) }}
                   {{ else }}
                     —
                   {{ end }}
