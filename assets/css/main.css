@@ -969,6 +969,22 @@ a.series-box__link:hover{transform:translateY(-2px);border-color:rgba(37,99,235,
 .series-page__subtitle{font-size:.95rem;color:var(--text-secondary)}
 .series-page__grid{display:grid;gap:clamp(14px,2.5vw,20px);grid-template-columns:1fr}
 
+/* Series directory (collapsible card) */
+.series-directory{margin:clamp(1rem,2vw,1.5rem) 0;border:1px solid rgba(15,23,42,.1);border-radius:22px;background:radial-gradient(circle at top left,rgba(59,130,246,.14),transparent 34%),linear-gradient(135deg,#ffffff,#f8fafc);box-shadow:0 14px 34px rgba(15,23,42,.07);overflow:visible}
+.series-directory__summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:clamp(1rem,2vw,1.25rem);min-height:72px}
+.series-directory__summary::-webkit-details-marker{display:none}
+.series-directory__summary-main{min-width:0;display:grid;gap:.25rem}
+.series-directory__eyebrow{width:max-content;padding:.18rem .55rem;border-radius:999px;background:rgba(37,99,235,.1);color:#2563eb;font-size:.72rem;font-weight:850;letter-spacing:.06em;text-transform:uppercase}
+.series-directory__title{font-size:clamp(1.05rem,2vw,1.35rem);line-height:1.2;color:#0f172a;font-weight:800}
+.series-directory__desc{color:rgba(15,23,42,.64);font-size:.92rem}
+.series-directory__summary-meta{flex:0 0 auto;display:inline-flex;align-items:center;gap:.55rem;padding:.5rem .7rem;border-radius:999px;background:rgba(255,255,255,.78);border:1px solid rgba(15,23,42,.08);font-size:.85rem;font-weight:750;color:#334155}
+.series-directory__chevron{display:inline-block;transition:transform .18s ease}
+.series-directory[open] .series-directory__chevron{transform:rotate(180deg)}
+.series-directory__content{padding:0 clamp(1rem,2vw,1.25rem) clamp(1rem,2vw,1.25rem);overflow:visible}
+.series-directory__content .series-page__grid,.series-directory__content .series-section__grid{max-height:none;overflow:visible}
+.series-directory__summary:focus-visible{outline:3px solid rgba(37,99,235,.35);outline-offset:4px;border-radius:18px}
+@media(max-width:640px){.series-directory__summary{align-items:flex-start;flex-direction:column}.series-directory__summary-meta{width:100%;justify-content:space-between}}
+
 /* Series detail (/series/:slug/) */
 .series-detail{padding:clamp(24px,6vw,48px) 0 clamp(40px,8vw,60px)}
 .series-detail__header{margin-bottom:clamp(20px,3vw,28px);padding-bottom:clamp(16px,2.5vw,24px);border-bottom:1px solid var(--border)}

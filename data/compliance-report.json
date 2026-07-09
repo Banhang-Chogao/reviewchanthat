@@ -1,7 +1,7 @@
 {
   "summary": {
     "files_scanned": 150,
-    "errors": 72,
+    "errors": 74,
     "warnings": 0,
     "fixed": 0
   },
@@ -144,6 +144,20 @@
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md",
       "message": "Image relevance score 40 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_FILE_MISSING",
+      "file": "content/posts/european-commission-duoc-gi-khi-thang-apple.md",
+      "message": "Local image not found: images/posts/european-commission-duoc-gi-khi-thang-apple.webp",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_FILE_MISSING",
+      "file": "content/posts/european-commission-duoc-gi-khi-thang-apple.md",
+      "message": "Local image not found: images/posts/european-commission-duoc-gi-khi-thang-apple.webp",
       "suggestion": ""
     },
     {

@@ -11,13 +11,21 @@
     {{ $sorted = $sorted | append . }}
   {{ end }}
 {{ end }}
+{{ $seriesCount := len $sorted }}
 {{ if $sorted }}
-<section class="series-section">
-  <div class="series-section__inner">
-    <header class="series-section__header">
-      <h2 class="series-section__title">Danh sách Series</h2>
-      <p class="series-section__subtitle">Tổng hợp bài viết theo chủ đề — đọc liền mạch từ đầu đến cuối.</p>
-    </header>
+<details class="series-directory" data-series-directory>
+  <summary class="series-directory__summary">
+    <span class="series-directory__summary-main">
+      <span class="series-directory__eyebrow">Series</span>
+      <strong class="series-directory__title">Danh sách Series</strong>
+      <span class="series-directory__desc">Tổng hợp bài viết theo chủ đề — đọc liền mạch từ đầu đến cuối.</span>
+    </span>
+    <span class="series-directory__summary-meta">
+      {{ with $seriesCount }}{{ . }} series{{ end }}
+      <span class="series-directory__chevron" aria-hidden="true">⌄</span>
+    </span>
+  </summary>
+  <div class="series-directory__content">
     <div class="series-section__grid">
       {{ range $sorted }}
         {{ $slug := .slug }}
@@ -38,5 +46,5 @@
       <a href="{{ "series/" | relURL }}" class="series-section__all">Xem tất cả series →</a>
     </footer>
   </div>
-</section>
+</details>
 {{ end }}
