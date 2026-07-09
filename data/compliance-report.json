@@ -1,7 +1,7 @@
 {
   "summary": {
     "files_scanned": 156,
-    "errors": 151,
+    "errors": 148,
     "warnings": 0,
     "fixed": 0
   },
@@ -60,13 +60,6 @@
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/chuan-bi-macbook-truoc-khi-len-macos-27.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "IMAGE_RELEVANCE_LOW",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
@@ -702,13 +695,6 @@
     {
       "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
-      "file": "content/posts/iphone-16-pro-max-desert-titanium-hop-ai.md",
-      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/iphone-16-pro-max-desert-titanium-tren-tay.md",
       "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
       "suggestion": ""
@@ -1054,13 +1040,6 @@
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md",
       "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "DUPLICATE_IMAGE_SOURCE_URL",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Shared source_url: content/posts/iphone-16-pro-max-desert-titanium-hop-ai.md",
       "suggestion": ""
     }
   ]
