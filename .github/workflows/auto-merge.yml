@@ -15,7 +15,9 @@ permissions:
   pull-requests: write
 
 env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  # PAT so merges to main trigger downstream workflows (deploy); GITHUB_TOKEN
+  # pushes are ignored by GitHub's recursive-trigger protection.
+  GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
 concurrency:
   group: auto-merge-global
@@ -26,6 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT || github.token }}
 
       - name: Resolve PR
         id: pr
