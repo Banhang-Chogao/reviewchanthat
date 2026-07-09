@@ -46,6 +46,7 @@ DEFAULT_INTERNAL_LINKS = DATA_DIR / "internal-links.json"
 DEFAULT_REPORT_JSON = REPORTS_DIR / "content-direction-optimizer.json"
 DEFAULT_REPORT_MD = REPORTS_DIR / "content-direction-optimizer.md"
 DEFAULT_SCORE_JSON = DATA_DIR / "content-direction-score.json"
+DEFAULT_OPTIMIZER_SUMMARY = DATA_DIR / "content-direction-optimizer-summary.json"
 
 TITLE_TARGET_MIN = 30
 TITLE_TARGET_MAX = 60
@@ -540,6 +541,22 @@ def main() -> int:
         with open(md_path, "w", encoding="utf-8") as f:
             f.write(report_md)
         print(f"Written MD: {md_path}")
+        DEFAULT_OPTIMIZER_SUMMARY.parent.mkdir(parents=True, exist_ok=True)
+        summary = {
+            "generated_at": now_vietnam().isoformat(),
+            "generated_at_display": format_vietnam_datetime(now_vietnam()),
+            "score_before": score_before.get("score", 0),
+            "score_after": score_after.get("score", 0),
+            "applied_count": len(applied),
+            "skipped_count": len(skipped),
+            "changed_files_count": len(changed_files),
+            "last_applied": [{"action": a["action"], "file": a["file"]} for a in applied[:20]],
+        }
+        with open(DEFAULT_OPTIMIZER_SUMMARY, "w", encoding="utf-8") as f:
+            json.dump(summary, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        changed_files.append(str(DEFAULT_OPTIMIZER_SUMMARY))
+        print(f"Written summary: {DEFAULT_OPTIMIZER_SUMMARY}")
 
     print(f"\nMode: {mode}")
     print(f"Score: {score_before['score']} → {score_after['score']} (est)")

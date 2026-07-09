@@ -15,6 +15,7 @@ on:
       - 'data/compliance-report.json'
       - 'data/ga4_footer.json'
       - 'data/content-direction-score.json'
+      - 'data/content-direction-optimizer-summary.json'
       - '.github/workflows/**'
   workflow_dispatch:
 

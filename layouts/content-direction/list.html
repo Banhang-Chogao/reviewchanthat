@@ -80,29 +80,61 @@ python scripts/qa_content_direction.py</pre>
     {{ end }}
 
     <section class="cd-section" id="optimizer-score">
-      <h2>2. Content Direction Score</h2>
+      <h2>2. Optimizer & Score</h2>
       {{ $score := index .Site.Data "content-direction-score" }}
+      {{ $opt := index .Site.Data "content-direction-optimizer-summary" }}
       {{ if $score }}
-      <div class="cd-grid cd-grid-4">
+      <div class="cd-grid cd-grid-2">
         <div class="cd-stat cd-stat-good">
-          <span class="cd-stat-value">{{ $score.score | default "?" }}</span>
-          <span class="cd-stat-label">Score / 100</span>
-        </div>
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ len (where $score.components "key" "ne" nil) }}</span>
-          <span class="cd-stat-label">Components</span>
+          <span class="cd-stat-value">{{ $score.score | default "?" }} / 100</span>
+          <span class="cd-stat-label">Content Score</span>
         </div>
         <div class="cd-stat">
           <span class="cd-stat-value">{{ $score.remaining_action_items | default "?" }}</span>
           <span class="cd-stat-label">Action items còn</span>
         </div>
-        <div class="cd-stat cd-stat-warn">
-          <span class="cd-stat-value">{{ sub 100 ($score.score | default 0) }}</span>
-          <span class="cd-stat-label">Cần cải thiện</span>
+      </div>
+      {{ if $opt }}
+      <div class="cd-grid cd-grid-3" style="margin-top:.5rem">
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ $opt.score_before }} → {{ $opt.score_after }}</span>
+          <span class="cd-stat-label">Score change (last run)</span>
+        </div>
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ $opt.applied_count }}</span>
+          <span class="cd-stat-label">Applied last run</span>
+        </div>
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ $opt.changed_files_count }}</span>
+          <span class="cd-stat-label">Files changed</span>
         </div>
       </div>
+      {{ with $opt.last_applied }}
       <div class="cd-detail-card" style="margin-top:1rem">
-        <h3>Chi tiết components</h3>
+        <h3>Last applied (top 20)</h3>
+        <div style="max-height:300px;overflow-y:auto;font-size:.85rem">
+          <table class="cd-table">
+          <thead><tr><th>Action</th><th>File</th></tr></thead>
+          <tbody>
+          {{ range . }}
+          <tr>
+            <td><code>{{ .action }}</code></td>
+            <td style="word-break:break-all;font-size:.8rem">{{ .file }}</td>
+          </tr>
+          {{ end }}
+          </tbody>
+          </table>
+        </div>
+        {{ if $opt.generated_at_display }}
+        <p style="margin-top:.8rem;font-size:.8rem;color:var(--muted,#6c757d)">
+          Last run: {{ $opt.generated_at_display }}
+        </p>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ end }}
+      <div class="cd-detail-card" style="margin-top:1rem">
+        <h3>Component breakdown</h3>
         <table class="cd-table">
           <thead><tr><th>Component</th><th>Score</th><th>Target</th></tr></thead>
           <tbody>
@@ -117,7 +149,7 @@ python scripts/qa_content_direction.py</pre>
         </table>
         {{ if $score.generated_at_display }}
         <p style="margin-top:.8rem;font-size:.8rem;color:var(--muted,#6c757d)">
-          Cập nhật: {{ $score.generated_at_display }}
+          Score updated: {{ $score.generated_at_display }}
         </p>
         {{ end }}
       </div>
