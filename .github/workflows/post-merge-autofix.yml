@@ -1,9 +1,11 @@
 name: Post-Merge Autofix
 
 on:
-  workflow_run:
-    workflows: ["Deploy to GitHub Pages"]
-    types: [completed]
+  # TEMPORARILY DISABLED: workflow_run auto-trigger
+  # To re-enable: add workflow_run trigger back after deploy completes
+  # workflow_run:
+  #   workflows: ["Deploy to GitHub Pages"]
+  #   types: [completed]
   workflow_dispatch:
     inputs:
       failed_run_id:
@@ -21,7 +23,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: post-merge-autofix
+  group: post-merge-autofix-${{ github.event.workflow_run.head_sha || github.sha }}
   cancel-in-progress: false
 
 env:

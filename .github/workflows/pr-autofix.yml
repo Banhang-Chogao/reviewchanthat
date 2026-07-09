@@ -1,9 +1,11 @@
 name: PR Autofix
 
 on:
-  workflow_run:
-    workflows: ["PR Check"]
-    types: [completed]
+  # TEMPORARILY DISABLED: workflow_run auto-trigger
+  # To re-enable: add workflow_run trigger back after PR check completes
+  # workflow_run:
+  #   workflows: ["PR Check"]
+  #   types: [completed]
   workflow_dispatch:
     inputs:
       pr_number:

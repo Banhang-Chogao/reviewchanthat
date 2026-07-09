@@ -1,8 +1,10 @@
 name: GA4 Footer Stats
 
 on:
-  schedule:
-    - cron: "0 */6 * * *"
+  # TEMPORARILY DISABLED: scheduled run
+  # To re-enable: uncomment schedule section below
+  # schedule:
+  #   - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
