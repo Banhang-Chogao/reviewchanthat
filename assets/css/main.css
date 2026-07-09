@@ -470,17 +470,17 @@ html.dark-mode .live-clock-box__time{color:#b0eace}
   position:sticky;
   top:0;
   z-index:1;
-  background:var(--accent-soft);
-  font-weight:700;
-  color:var(--text);
+  background:var(--sdna-teal-soft);
+  font-weight:800;
+  color:var(--sdna-heading);
   overflow-wrap:break-word;
   word-break:normal;
   hyphens:none;
   line-height:1.35;
 }
-.table-wrap td{background:var(--surface)}
-.table-wrap tr:nth-child(even) td{background:var(--bg)}
-.table-wrap tr:hover td{background:rgba(0,167,160,.06)}
+.table-wrap td{background:var(--surface);color:var(--sdna-body)}
+.table-wrap tr:nth-child(even) td{background:#f8fbfb}
+.table-wrap tr:hover td{background:var(--sdna-blue-soft)}
 .table-wrap tr:last-child td{border-bottom:0}
 .table-wrap td code,
 .table-wrap th code{white-space:normal;font-size:.84em;overflow-wrap:break-word}
@@ -1219,3 +1219,9 @@ html.dark-mode .branding-ci__code{background:rgba(13,23,22,.8);color:#cbd5e1}
 .home-post-block:nth-child(3n+3),.category-post-row:nth-child(3n+3),.post-card:nth-child(3n+3){background:var(--sdna-purple-soft)}
 .home-post-block__title a,.category-post-row__title a,.post-card-title a{color:var(--sdna-heading)}
 .home-post-block__excerpt,.category-post-row__excerpt,.post-card-excerpt{color:var(--sdna-body)}
+
+/* S-DNA table skin — dark mode zebra/hover */
+html.dark-mode .table-wrap tr:nth-child(even) td{background:#101c1b}
+html.dark-mode .table-wrap tr:hover td{background:rgba(158,201,245,.12)}
+html.dark-mode .table-wrap th{background:var(--accent-soft);color:var(--text)}
+html.dark-mode .table-wrap td{color:var(--text-secondary)}
