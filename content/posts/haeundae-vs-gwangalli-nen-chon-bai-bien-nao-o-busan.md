@@ -30,7 +30,7 @@ faq:
 - answer: Haeundae có nhiều hoạt động hơn. Gwangalli cũng có nhưng ít lựa chọn.
   question: Bãi nào có nhiều hoạt động thể thao nước hơn?
 image: images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp
-image_attribution_checked_at: '2026-07-09T15:25:08+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

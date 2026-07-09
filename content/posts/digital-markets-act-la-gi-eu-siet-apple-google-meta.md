@@ -36,7 +36,7 @@ external_links:
 - title: Reuters — EU court rejects Apple challenge (8/7/2026)
   url: https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/
 image: images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp
-image_attribution_checked_at: '2026-07-09T15:26:27+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

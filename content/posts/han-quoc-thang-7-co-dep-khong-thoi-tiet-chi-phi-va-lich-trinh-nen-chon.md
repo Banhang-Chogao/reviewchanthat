@@ -30,7 +30,7 @@ faq:
     trời.
   question: Nên đi đâu tháng 7?
 image: images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp
-image_attribution_checked_at: '2026-07-09T15:25:09+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

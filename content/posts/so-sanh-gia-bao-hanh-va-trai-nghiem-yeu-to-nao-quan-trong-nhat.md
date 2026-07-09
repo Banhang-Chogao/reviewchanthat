@@ -40,7 +40,7 @@ faq:
     tệ hơn sản phẩm thông số thấp hơn nhưng được tối ưu tốt.
   question: Trải nghiệm sử dụng có quan trọng hơn thông số không?
 image: images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp
-image_attribution_checked_at: '2026-07-09T15:26:00+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

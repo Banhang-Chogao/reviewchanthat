@@ -40,7 +40,7 @@ faq:
     Các review trên Trip.com và Reddit đều khuyên đi ngày thường.
   question: Resort này có đông không?
 image: images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp
-image_attribution_checked_at: '2026-07-09T15:25:05+07:00'
+image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

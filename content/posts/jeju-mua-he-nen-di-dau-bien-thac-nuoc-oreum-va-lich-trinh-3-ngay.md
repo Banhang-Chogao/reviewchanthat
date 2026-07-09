@@ -31,7 +31,7 @@ faq:
     cũng là lựa chọn.
   question: Di chuyển ở Jeju thế nào?
 image: images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp
-image_attribution_checked_at: '2026-07-09T15:25:38+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -29,7 +29,7 @@ external_links:
 - title: AppleInsider — iPhone 18 expectations
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 image: images/posts/iphone-fold-iphone-ultra-la-gi.webp
-image_attribution_checked_at: '2026-07-09T15:22:32+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false

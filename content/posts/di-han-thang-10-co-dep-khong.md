@@ -34,7 +34,7 @@ external_links:
 - title: Korea Meteorological Administration
   url: https://www.kma.go.kr
 image: images/posts/di-han-thang-10-co-dep-khong.webp
-image_attribution_checked_at: '2026-07-09T15:22:34+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

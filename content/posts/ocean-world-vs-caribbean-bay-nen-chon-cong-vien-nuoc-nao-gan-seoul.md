@@ -29,7 +29,7 @@ faq:
 - answer: Caribbean Bay (50.000–60.000 KRW). Ocean World (40.000–50.000 KRW).
   question: Công viên nào rẻ hơn?
 image: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
-image_attribution_checked_at: '2026-07-09T15:25:53+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

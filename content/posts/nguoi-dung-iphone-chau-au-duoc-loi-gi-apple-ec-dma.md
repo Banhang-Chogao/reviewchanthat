@@ -35,7 +35,7 @@ external_links:
 - title: Digital Markets Act — EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp
-image_attribution_checked_at: '2026-07-09T15:26:29+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

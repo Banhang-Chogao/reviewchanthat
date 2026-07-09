@@ -9,12 +9,12 @@ ai_summary:
     phù hợp cho người đi tự túc ngân sách vừa phải.
   - Sukhumvit (đoạn Asoke–Thong Lo) phù hợp dân công sở, nhà hàng và cuộc sống về
     đêm, nhưng giá cao và hay kẹt xe.
-  - Ở mùa mưa, ưu tiên khách sạn cách BTS dưới 5 phút đi bộ, có mái che liên tục
-    và khả năng đi indoor từ phòng đến ga tàu.
+  - Ở mùa mưa, ưu tiên khách sạn cách BTS dưới 5 phút đi bộ, có mái che liên tục và
+    khả năng đi indoor từ phòng đến ga tàu.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du
-    lịch uy tín.
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.tourismthailand.org,
     https://www.bts.co.th, https://www.agoda.com, https://www.tripadvisor.com.'
 author: Minh Hoàng
@@ -22,23 +22,27 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Ở khu nào tại Bangkok mùa mưa? So sánh Siam, Ratchathewi, Pratunam,
-  Sukhumvit, Silom — giá, kết nối BTS, điểm indoor gần, phù hợp từng đối tượng.'
+description: Ở khu nào tại Bangkok mùa mưa? So sánh Siam, Ratchathewi, Pratunam, Sukhumvit,
+  Silom — giá, kết nối BTS, điểm indoor gần, phù hợp từng đối tượng.
 draft: false
 image: images/posts/o-khu-nao-bangkok-mua-mua.webp
-image_commercial_use: true
-image_license: Pexels License
-image_owner: external
-image_creator: Sururi Ballıdağ Director
-image_creator_url: "https://www.pexels.com/@drector"
-image_creator_id: 318819549
-image_attribution_verified: true
+image_attribution_checked_at: '2026-07-09T10:41:35+07:00'
 image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:41:35+07:00"
-image_license_url: "https://www.pexels.com/license/"
+image_attribution_verified: true
+image_commercial_use: true
+image_creator: ''
+image_creator_id: 318819549
+image_creator_url: ''
+image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
+image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/28503555/"
+image_source_url: https://www.pexels.com/photo/28503555/
+series:
+- du-lich-thai-lan-mua-mua
+series_order: 11
+series_title: Du lịch Thái Lan mùa mưa
 slug: o-khu-nao-bangkok-mua-mua
 tags:
 - ở khu nào Bangkok
@@ -47,11 +51,7 @@ tags:
 - Sukhumvit
 - du lịch Bangkok mùa mưa
 thumbnail: images/posts/o-khu-nao-bangkok-mua-mua.webp
-series: ["du-lich-thai-lan-mua-mua"]
-series_title: "Du lịch Thái Lan mùa mưa"
-series_order: 11
-title: 'Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay
-  Silom'
+title: Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom
 tom_tat_nhanh:
 - label: Siam
   value: Trung tâm, nhiều mall

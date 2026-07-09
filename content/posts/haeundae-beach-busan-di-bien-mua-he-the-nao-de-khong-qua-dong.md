@@ -42,7 +42,7 @@ faq:
 - answer: Không. Nhiệt độ nước biển tháng 7–8 dao động 22–25°C, rất dễ chịu.
   question: Tháng 8 nước biển có lạnh không?
 image: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
-image_attribution_checked_at: '2026-07-09T15:25:07+07:00'
+image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

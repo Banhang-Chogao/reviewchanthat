@@ -20,7 +20,7 @@ description: 'Checklist quyết định nâng cấp macOS Golden Gate 27: máy t
   app công việc, backup, AI và thời điểm public release.'
 draft: false
 image: images/posts/macos-27-co-nen-nang-cap-ngay-khong.webp
-image_attribution_checked_at: '2026-07-09T15:25:46+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

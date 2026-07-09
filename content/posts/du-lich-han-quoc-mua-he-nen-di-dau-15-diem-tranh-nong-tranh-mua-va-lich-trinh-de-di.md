@@ -41,7 +41,7 @@ faq:
     >}}).
   question: Đi Hàn Quốc mùa mưa có ổn không?
 image: images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp
-image_attribution_checked_at: '2026-07-09T15:25:03+07:00'
+image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -30,7 +30,7 @@ faq:
 - answer: Đặt phòng trước 1 tháng, mua vé online, mang kem chống nắng và nước uống.
   question: Cần lưu ý gì?
 image: images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp
-image_attribution_checked_at: '2026-07-09T15:25:10+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

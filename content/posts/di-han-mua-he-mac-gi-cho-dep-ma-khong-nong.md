@@ -31,7 +31,7 @@ faq:
 - answer: Áo chống nắng, mũ, kính râm, kem chống nắng. Tránh vải nilon, bó sát.
   question: Cần tránh mặc gì?
 image: images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp
-image_attribution_checked_at: '2026-07-09T15:24:59+07:00'
+image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -39,7 +39,7 @@ faq:
     trên website chính thức.
   question: Nami Island có phù hợp với người già không?
 image: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
-image_attribution_checked_at: '2026-07-09T15:25:51+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

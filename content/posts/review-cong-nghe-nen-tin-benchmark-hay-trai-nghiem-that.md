@@ -37,7 +37,7 @@ faq:
     nhiều nguồn khác nhau. Ưu tiên review dài hạn sau 1-3 tháng sử dụng.
   question: Nên tin vào đâu khi mua đồ công nghệ?
 image: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
-image_attribution_checked_at: '2026-07-09T15:25:57+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

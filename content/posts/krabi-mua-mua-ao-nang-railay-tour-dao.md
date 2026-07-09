@@ -3,35 +3,46 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Krabi mùa mưa (tháng 5–10) có biển động, sóng lớn phía Andaman, nhưng nhiều tour vẫn chạy ở khu vực kín sóng như Hong Islands, Railay và kayak rừng ngập mặn.
-  - Tour 4 đảo tiêu chuẩn có rủi ro huỷ cao do đi qua biển hở; thay thế bằng tour Hong Islands hoặc kayak Bor Thor.
-  - Các điểm land-based như Tiger Cave Temple, Emerald Pool và Krabi Town vẫn hoạt động tốt bất kể thời tiết.
-  - Lịch trình 3 ngày Krabi mùa mưa tập trung vào Railay Beach, kayak và các điểm indoor trong nhà.
+  - Krabi mùa mưa (tháng 5–10) có biển động, sóng lớn phía Andaman, nhưng nhiều tour
+    vẫn chạy ở khu vực kín sóng như Hong Islands, Railay và kayak rừng ngập mặn.
+  - Tour 4 đảo tiêu chuẩn có rủi ro huỷ cao do đi qua biển hở; thay thế bằng tour
+    Hong Islands hoặc kayak Bor Thor.
+  - Các điểm land-based như Tiger Cave Temple, Emerald Pool và Krabi Town vẫn hoạt
+    động tốt bất kể thời tiết.
+  - Lịch trình 3 ngày Krabi mùa mưa tập trung vào Railay Beach, kayak và các điểm
+    indoor trong nhà.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org, https://www.pexels.com.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org,
+    https://www.pexels.com.'
 author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo, Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch.'
+description: Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo,
+  Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch.
 draft: false
 image: images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp
-image_commercial_use: true
-image_license: Pexels License
-image_owner: external
-image_creator: Jahra Tasfia Reza
-image_creator_url: "https://www.pexels.com/@jahratreza"
-image_creator_id: 321945577
-image_attribution_verified: true
+image_attribution_checked_at: '2026-07-09T10:41:34+07:00'
 image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:41:34+07:00"
-image_license_url: "https://www.pexels.com/license/"
+image_attribution_verified: true
+image_commercial_use: true
+image_creator: ''
+image_creator_id: 321945577
+image_creator_url: ''
+image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
+image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/27104227/"
+image_source_url: https://www.pexels.com/photo/27104227/
+series:
+- du-lich-thai-lan-mua-mua
+series_order: 6
+series_title: Du lịch Thái Lan mùa mưa
 slug: krabi-mua-mua-ao-nang-railay-tour-dao
 tags:
 - Krabi mùa mưa
@@ -40,9 +51,6 @@ tags:
 - Railay Beach
 - tour đảo Thái Lan
 thumbnail: images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp
-series: ["du-lich-thai-lan-mua-mua"]
-series_title: "Du lịch Thái Lan mùa mưa"
-series_order: 6
 title: 'Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?'
 tom_tat_nhanh:
 - label: Mùa mưa

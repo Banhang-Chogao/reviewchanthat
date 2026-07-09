@@ -31,7 +31,7 @@ external_links:
 - title: https://www.visitjeju.net/en/>
   url: https://www.visitjeju.net/en/>
 image: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
-image_attribution_checked_at: '2026-07-09T15:24:39+07:00'
+image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

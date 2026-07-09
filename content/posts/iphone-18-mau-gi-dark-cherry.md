@@ -30,7 +30,7 @@ external_links:
 - title: MacRumors — iPhone 18 roundup
   url: https://www.macrumors.com/roundup/iphone-18/
 image: images/posts/iphone-18-mau-gi-dark-cherry.webp
-image_attribution_checked_at: '2026-07-09T15:22:33+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

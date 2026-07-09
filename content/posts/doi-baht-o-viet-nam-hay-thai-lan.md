@@ -3,18 +3,18 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Đổi baht ở Việt Nam an toàn hơn nếu chọn ngân hàng hoặc đại lý được cấp phép; tỷ
-    giá thường bằng hoặc kém SuperRich Thái Lan 0.5–1.5%.
-  - SuperRich Thailand có tỷ giá mua vào bán ra tốt nhất tại Bangkok, đặc biệt là các
-    chi nhánh ở Ratchathewi, Phaya Thai, và Suvarnabhumi.
+  - Đổi baht ở Việt Nam an toàn hơn nếu chọn ngân hàng hoặc đại lý được cấp phép;
+    tỷ giá thường bằng hoặc kém SuperRich Thái Lan 0.5–1.5%.
+  - SuperRich Thailand có tỷ giá mua vào bán ra tốt nhất tại Bangkok, đặc biệt là
+    các chi nhánh ở Ratchathewi, Phaya Thai, và Suvarnabhumi.
   - Rút tiền ATM ở Thái Lan tính phí 220 THB/lần, không nên rút nhiều lần nhỏ; nên
     rút tối thiểu 5.000–10.000 THB mỗi lần.
   - Với 10.000 THB, tổng chi phí quy đổi từ VND qua ngân hàng Việt Nam thấp hơn khoảng
     30.000–50.000 VND so với rút ATM, nhưng kém SuperRich khoảng 20.000–40.000 VND.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du
-    lịch uy tín.
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.superrichthailand.com,
     https://www.bangkokbank.com, https://www.vietcombank.com.vn, https://vnba.org.vn,
     https://chinhphu.vn.'
@@ -23,23 +23,27 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: 'Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an
-  toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa.'
+description: Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an
+  toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa.
 draft: false
 image: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
-image_commercial_use: true
-image_license: Pexels License
-image_owner: external
-image_creator: David McBee
-image_creator_url: "https://www.pexels.com/@davidmcbee"
-image_creator_id: 30082
-image_attribution_verified: true
+image_attribution_checked_at: '2026-07-09T10:41:28+07:00'
 image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:41:28+07:00"
-image_license_url: "https://www.pexels.com/license/"
+image_attribution_verified: true
+image_commercial_use: true
+image_creator: ''
+image_creator_id: 30082
+image_creator_url: ''
+image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
+image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/round-silver-and-gold-coins-730564/"
+image_source_url: https://www.pexels.com/photo/round-silver-and-gold-coins-730564/
+series:
+- du-lich-thai-lan-mua-mua
+series_order: 9
+series_title: Du lịch Thái Lan mùa mưa
 slug: doi-baht-o-viet-nam-hay-thai-lan
 tags:
 - đổi baht
@@ -48,11 +52,8 @@ tags:
 - du lịch Thái Lan mùa mưa
 - ATM Thái Lan
 thumbnail: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
-series: ["du-lich-thai-lan-mua-mua"]
-series_title: "Du lịch Thái Lan mùa mưa"
-series_order: 9
-title: 'Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi
-  tự túc'
+title: Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi
+  tự túc
 tom_tat_nhanh:
 - label: Tỷ giá
   value: Dao động 1 THB ≈ 650–720 VND

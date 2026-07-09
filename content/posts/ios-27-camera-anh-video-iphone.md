@@ -20,7 +20,7 @@ description: 'Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera,
   Intelligence và kỳ vọng thực tế theo từng dòng iPhone.'
 draft: false
 image: images/posts/ios-27-camera-anh-video-iphone.webp
-image_attribution_checked_at: '2026-07-09T15:25:15+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false

@@ -22,7 +22,7 @@ description: 'DMA mang lại gì cho nhà phát triển app ở EU: phân phối
   bằng.'
 draft: false
 image: images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp
-image_attribution_checked_at: '2026-07-09T15:26:32+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

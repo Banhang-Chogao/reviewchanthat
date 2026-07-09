@@ -30,7 +30,7 @@ external_links:
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
 image: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
-image_attribution_checked_at: '2026-07-09T15:26:18+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

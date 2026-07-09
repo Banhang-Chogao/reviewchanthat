@@ -43,7 +43,7 @@ faq:
     Facebook chất lượng.
   question: Nên đọc review ở đâu để tin tưởng nhất?
 image: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
-image_attribution_checked_at: '2026-07-09T15:24:41+07:00'
+image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

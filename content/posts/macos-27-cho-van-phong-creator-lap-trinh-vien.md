@@ -20,7 +20,7 @@ description: 'macOS 27 mang lại gì cho nhân viên văn phòng, creator nội
   trình viên: Spotlight, Safari, Photos, Xcode và rủi ro beta.'
 draft: false
 image: images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp
-image_attribution_checked_at: '2026-07-09T15:25:44+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

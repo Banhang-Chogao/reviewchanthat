@@ -21,7 +21,7 @@ description: 'So sánh iOS 27 và iOS 26: Siri AI, Liquid Glass, hiệu năng, A
   khuyên nâng cấp cho từng nhóm người dùng iPhone tại Việt Nam.'
 draft: false
 image: images/posts/ios-27-so-voi-ios-26.webp
-image_attribution_checked_at: '2026-07-09T15:25:21+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:01+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

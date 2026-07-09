@@ -29,7 +29,7 @@ external_links:
 - title: Starbucks — Customer experience
   url: https://www.starbucks.com/business/standards-of-business-conduct/
 image: images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp
-image_attribution_checked_at: '2026-07-09T15:22:32+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

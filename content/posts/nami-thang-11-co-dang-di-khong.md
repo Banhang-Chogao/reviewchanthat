@@ -36,7 +36,7 @@ external_links:
 - title: Nami Island Official
   url: https://www.namisum.com/
 image: images/posts/nami-thang-11-co-dang-di-khong.webp
-image_attribution_checked_at: '2026-07-09T15:22:37+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

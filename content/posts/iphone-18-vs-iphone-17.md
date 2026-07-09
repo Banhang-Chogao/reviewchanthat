@@ -30,7 +30,7 @@ external_links:
 - title: MacRumors — leaker downgrade iPhone 18
   url: https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/
 image: images/posts/iphone-18-vs-iphone-17.webp
-image_attribution_checked_at: '2026-07-09T15:22:33+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

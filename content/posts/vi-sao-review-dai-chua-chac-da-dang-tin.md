@@ -35,7 +35,7 @@ faq:
     điểm tốt và xấu, ngôn ngữ tự nhiên, ảnh chụp nhanh.'
   question: Làm sao phân biệt content marketing và review thật?
 image: images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp
-image_attribution_checked_at: '2026-07-09T15:26:11+07:00'
+image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
