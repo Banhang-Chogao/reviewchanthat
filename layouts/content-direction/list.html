@@ -9,7 +9,7 @@
       <h1>Content Direction Report</h1>
       <p class="cd-subtitle">
         Báo cáo định hướng nội dung tự động —
-        <time datetime="{{ $data.generated_at }}">{{ $data.generated_at }}</time>
+        <time datetime="{{ $data.generated_at }}">{{ $data.generated_at_display | default $data.generated_at }}</time>
       </p>
     </div>
   </header>
@@ -67,8 +67,8 @@
         </div>
         <div class="cd-detail-card">
           <h3>Thời gian</h3>
-          <p><strong>Đầu:</strong> {{ dateFormat "2006-01-02" .date_range.first }}</p>
-          <p><strong>Mới nhất:</strong> {{ dateFormat "2006-01-02" .date_range.latest }}</p>
+          <p><strong>Đầu:</strong> {{ partial "datetime.html" .date_range.first }}</p>
+          <p><strong>Mới nhất:</strong> {{ partial "datetime.html" .date_range.latest }}</p>
         </div>
       </div>
     </section>

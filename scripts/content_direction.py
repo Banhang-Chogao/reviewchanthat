@@ -18,6 +18,9 @@ from pathlib import Path
 import frontmatter
 import yaml
 
+sys.path.insert(0, str(Path(__file__).parent / "lib"))
+from dates import format_vietnam_datetime
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = REPO_ROOT / "content" / "posts"
 DATA_DIR = REPO_ROOT / "data"
@@ -460,8 +463,10 @@ def main():
     compliance_data = load_json("compliance-report.json")
     ga4_data = load_json("ga4_footer.json")
     audit_data = load_json("image-audit-report.json")
+    now_dt = datetime.now(timezone.utc)
     report = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": now_dt.isoformat(),
+        "generated_at_display": format_vietnam_datetime(now_dt),
         "overview": compute_overview(posts),
         "organic_search_direction": compute_organic_search(ga4_data),
         "google_seo": compute_seo(posts),
