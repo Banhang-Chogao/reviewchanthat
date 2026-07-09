@@ -32,7 +32,7 @@ jobs:
   snapshot:
     runs-on: ubuntu-latest
     env:
-      GH_TOKEN: ${{ secrets.PAT_FOR_PR }}
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
         with:
