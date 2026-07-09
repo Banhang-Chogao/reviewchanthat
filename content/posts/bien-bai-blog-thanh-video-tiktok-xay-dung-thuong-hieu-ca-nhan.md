@@ -9,6 +9,18 @@ draft = false
 image = ""
 thumbnail = ""
 image_status = "needs_image"
+related_posts = [
+  "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"
+]
+
+[custom_image_queries]
+queries = [
+  "video production camera",
+  "content creation workspace",
+  "social media creator",
+  "filming setup",
+  "blog to video content"
+]
 
 [ai_summary]
 enabled = true

@@ -13,6 +13,15 @@ related_posts = [
   "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan"
 ]
 
+[custom_image_queries]
+queries = [
+  "blog laptop programming",
+  "content creation workspace",
+  "web development setup",
+  "personal brand blog",
+  "programmer desktop"
+]
+
 [ai_summary]
 enabled = true
 title = "Tóm tắt nhanh"
