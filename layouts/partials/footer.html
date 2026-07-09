@@ -5,15 +5,15 @@
         {{ partial "site-logo.html" (dict "context" . "modifier" "site-logo--footer") }}
         <p class="footer-desc">{{ .Site.Params.description }}</p>
       </div>
-      {{ partial "footer-ga4-box.html" . }}
     </div>
-    <nav class="footer-nav">
+    <nav class="footer-nav" aria-label="Footer">
       <a href="{{ "about/" | relURL }}" class="footer-nav-link">Về chúng tôi</a>
       <a href="{{ "privacy/" | relURL }}" class="footer-nav-link">Chính sách bảo mật</a>
       <a href="{{ "disclaimer/" | relURL }}" class="footer-nav-link">Miễn trừ trách nhiệm</a>
       <a href="{{ "contact/" | relURL }}" class="footer-nav-link">Liên hệ</a>
       <a href="{{ "sitemap.xml" | relURL }}" class="footer-nav-link">Sơ đồ trang</a>
       <a href="{{ "branding-ci/" | relURL }}" class="footer-nav-link">Branding CI</a>
+      {{ partial "footer-ga4-box.html" . }}
     </nav>
     <div class="footer-tagline">
       Made with

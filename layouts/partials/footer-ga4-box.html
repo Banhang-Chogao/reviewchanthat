@@ -20,9 +20,15 @@
     {{- $t := time.AsTime . -}}
     {{- $updated = $t.Format "02/01/2006 15:04" -}}
   {{- end -}}
-  {{- $tooltip = printf "Organic: %s · Tổng: %s · %s · Cập nhật: %s" $organic $total $range $updated -}}
+  {{- $tooltip = printf "GA4 · %s · Cập nhật: %s" $range $updated -}}
 {{- end -}}
-<div class="footer-ga4-mini" aria-label="Thống kê truy cập GA4" title="{{ $tooltip }}">
-  <span class="footer-ga4-mini__organic">{{ $organic }}</span>
-  <span class="footer-ga4-mini__total">{{ $total }}</span>
+<div class="footer-ga4-stats" aria-label="Thống kê truy cập GA4" title="{{ $tooltip }}">
+  <span class="footer-nav-stat footer-nav-stat--organic">
+    <span class="footer-nav-stat__label">Organic</span>
+    <strong class="footer-nav-stat__value">{{ $organic }}</strong>
+  </span>
+  <span class="footer-nav-stat footer-nav-stat--total">
+    <span class="footer-nav-stat__label">Tổng</span>
+    <strong class="footer-nav-stat__value">{{ $total }}</strong>
+  </span>
 </div>
