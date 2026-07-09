@@ -15,7 +15,7 @@ author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: '2026-07-08 08:00:00+07:00'
+date: 2026-07-08T08:00:00+07:00
 description: iPhone 18 Pro Max có gì mới? Tin đồn A20 Pro 2nm, pin lớn hơn, camera
   khẩu độ biến đổi, Dynamic Island nhỏ, modem C2, màu Dark Cherry — nguồn MacRumors,
   AppleInsider.
@@ -29,10 +29,13 @@ external_links:
   url: https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/
 - title: AppleInsider — iPhone 18 expectations
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
-image: ''
-image_attribution_checked_at: '2026-07-09T10:47:11+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
+image: images/posts/iphone-18-pro-max-co-gi-moi.webp
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/gold-iphone-11-box-on-white-surface-699122/
+image_license: Pexels License
+image_commercial_use: true
+image_owner: external
+image_status: verified
 image_creator_id: 407924
 image_license_url: https://www.pexels.com/license/
 image_reject_reason: No candidate passed semantic/color/object gate

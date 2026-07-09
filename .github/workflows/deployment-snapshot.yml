@@ -61,13 +61,15 @@ jobs:
           hugo-version: "0.163.1"
           extended: true
 
+      - name: Compliance check
+        run: python scripts/compliance.py --strict --report-json data/compliance-report.json
+        continue-on-error: false
+
       - name: Hugo build
         run: hugo --minify
-        continue-on-error: true
 
       - name: QA deployment snapshot page
         run: python scripts/qa_deployment_snapshot.py --public
-        continue-on-error: true
 
       - name: Check for changes
         id: check

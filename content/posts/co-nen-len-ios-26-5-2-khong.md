@@ -7,7 +7,12 @@ tags = ["iOS 26.5.2", "cập nhật iOS", "bảo mật iPhone", "iOS 26", "nâng
 author = "Minh Hoàng"
 image = "images/posts/co-nen-len-ios-26-5-2-khong.webp"
 thumbnail = "images/posts/co-nen-len-ios-26-5-2-khong.webp"
-image_status = "needs_review"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/app-applications-blur-connection-544400/"
+image_license = "Pexels License"
+image_commercial_use = true
+image_owner = "external"
+image_status = "verified"
 draft = false
 
 [ai_summary]

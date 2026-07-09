@@ -1,6 +1,12 @@
 ---
-image: ""
-thumbnail: ""
+image: images/posts/co-nen-cho-iphone-18-khong.webp
+thumbnail: images/posts/co-nen-cho-iphone-18-khong.webp
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/smartphone-displaying-a-call-screen-788946/
+image_license: Pexels License
+image_commercial_use: true
+image_owner: external
+image_status: verified
 ai_summary:
   collapsed: false
   enabled: true
@@ -17,7 +23,7 @@ author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: '2026-07-08 09:00:00+07:00'
+date: 2026-07-08T09:00:00+07:00
 description: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17? Phân
   tích theo từng đời máy, split launch, tin đồn nâng cấp và ngân sách cho người dùng
   Việt Nam.
@@ -31,13 +37,6 @@ external_links:
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 - title: MacRumors — leaker downgrade iPhone 18 base
   url: https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/
-image_attribution_checked_at: '2026-07-09T10:46:55+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_creator_id: 26735
-image_license_url: https://www.pexels.com/license/
-image_reject_reason: No candidate passed semantic/color/object gate
-image_status: needs_review
 series: iphone-18-co-gi-moi
 series_order: 4
 series_title: iPhone 18 có gì mới

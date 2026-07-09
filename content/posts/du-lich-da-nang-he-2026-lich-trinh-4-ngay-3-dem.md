@@ -7,7 +7,12 @@ tags = ["du lịch Đà Nẵng", "Đà Nẵng hè 2026", "lịch trình Đà N�
 author = "Minh Hoàng"
 image = "images/posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.webp"
 thumbnail = "images/posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.webp"
-image_status = "needs_review"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/aerial-view-of-da-nang-beach-30424774/"
+image_license = "Pexels License"
+image_commercial_use = true
+image_owner = "external"
+image_status = "verified"
 draft = false
 
 [ai_summary]

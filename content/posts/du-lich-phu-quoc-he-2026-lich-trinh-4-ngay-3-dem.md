@@ -7,7 +7,12 @@ tags = ["du lịch Phú Quốc", "Phú Quốc hè 2026", "lịch trình Phú Qu�
 author = "Minh Hoàng"
 image = "images/posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.webp"
 thumbnail = "images/posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.webp"
-image_status = "needs_review"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/tropical-beach-in-phu-quoc-vietnam-3789139/"
+image_license = "Pexels License"
+image_commercial_use = true
+image_owner = "external"
+image_status = "verified"
 draft = false
 
 [ai_summary]
