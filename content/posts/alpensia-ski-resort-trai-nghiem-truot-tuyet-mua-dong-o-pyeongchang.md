@@ -17,7 +17,7 @@ description: Alpensia Ski 700 Pyeongchang — ski resort từng đăng cai Olymp
 draft: false
 faq:
   - {"answer": "Cách Seoul khoảng 200 km — mất 3–3,5 giờ đi ô tô hoặc bus. Có thể đi trong ngày nhưng nên ở lại 1 đêm để tận dụng resort.", "question": "Alpensia cách Seoul bao xa? Có đi trong ngày được không?"}
-  - {"answer": "Alpensia nhỏ hơn (6 slope so với 28), nhưng ít đông hơn, có water park Ocean700, hotel InterContinental và không khí nghỉ dưỡng nhiều hơn. Yongpyong thiên về trượt tuyết chuyên sâu.", "question": "Alpensia có gì khác Yongpyong?"}
+- {"answer": "Alpensia nhỏ hơn (6 slope so với 28), nhưng ít đông hơn, có water park Ocean700, hotel InterContinental và không khí nghỉ dưỡng nhiều hơn. Yongpyong thiên về trượt tuyết chuyên sâu.", "question": "Alpensia có gì khác Yongpyong?"}
   - {"answer": "Có. Resort có beginner-exclusive slope Alpha và lift riêng, free helmet cho thanh thiếu niên, và các hoạt động ngoài trượt tuyết như Ocean700 water park.", "question": "Alpensia có phù hợp gia đình có trẻ em không?"}
   - {"answer": "Giá thay đổi theo mùa. Tham khảo website alpensia.com để biết giá mới nhất. Nhìn chung giá thấp hơn Yongpyong một chút.", "question": "Giá vé và thuê đồ ở Alpensia thế nào?"}
 image: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
