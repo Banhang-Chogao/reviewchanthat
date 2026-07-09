@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T23:29:24+07:00",
-  "generated_at_display": "09-07-2026 23:29:24",
+  "generated_at": "2026-07-09T23:31:48+07:00",
+  "generated_at_display": "09-07-2026 23:31:48",
   "summary": {
     "total_posts": 157,
     "draft_posts": 0,
@@ -1671,7 +1671,7 @@
       {
         "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
         "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm",
-        "age_days": -1,
+        "age_days": 0,
         "date": "09-07-2026 23:30:00"
       },
       {
