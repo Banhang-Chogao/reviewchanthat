@@ -1,0 +1,211 @@
+name: Post-Merge Autofix
+
+on:
+  workflow_run:
+    workflows: ["Deploy to GitHub Pages"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      failed_run_id:
+        description: "Override failed run ID (auto-detected if empty)"
+        required: false
+        type: string
+      reason:
+        description: "Reason for manual trigger"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+
+concurrency:
+  group: post-merge-autofix
+  cancel-in-progress: false
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  autofix:
+    if: >
+      (github.event_name == 'workflow_dispatch') ||
+      (github.event.workflow_run.conclusion == 'failure' &&
+       github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Resolve failed run and branch info
+        id: resolve
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          WORKFLOW_RUN_ID: ${{ github.event.workflow_run.id }}
+          WORKFLOW_HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          WORKFLOW_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          WORKFLOW_ACTOR: ${{ github.event.workflow_run.actor.login }}
+          DISPATCH_RUN_ID: ${{ inputs.failed_run_id }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            if [ -n "$DISPATCH_RUN_ID" ]; then
+              echo "run_id=$DISPATCH_RUN_ID" >> "$GITHUB_OUTPUT"
+              echo "sha=$(gh api repos/${{ github.repository }}/actions/runs/$DISPATCH_RUN_ID --jq .head_sha)" >> "$GITHUB_OUTPUT"
+            else
+              echo "run_id=manual" >> "$GITHUB_OUTPUT"
+              echo "sha=$(git rev-parse HEAD 2>/dev/null || gh api repos/${{ github.repository }}/branches/main --jq .commit.sha)" >> "$GITHUB_OUTPUT"
+            fi
+            echo "branch=main" >> "$GITHUB_OUTPUT"
+            echo "actor=${{ github.actor }}" >> "$GITHUB_OUTPUT"
+          elif [ "$EVENT_NAME" = "workflow_run" ]; then
+            echo "run_id=$WORKFLOW_RUN_ID" >> "$GITHUB_OUTPUT"
+            echo "branch=$WORKFLOW_HEAD_BRANCH" >> "$GITHUB_OUTPUT"
+            echo "sha=$WORKFLOW_HEAD_SHA" >> "$GITHUB_OUTPUT"
+            echo "actor=$WORKFLOW_ACTOR" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Infinite loop guard
+        env:
+          RUN_ID: ${{ steps.resolve.outputs.run_id }}
+          ACTOR: ${{ steps.resolve.outputs.actor }}
+          SHA: ${{ steps.resolve.outputs.sha }}
+        run: |
+          if [ "$ACTOR" = "github-actions[bot]" ] || [ "$ACTOR" = "githubbot[bot]" ]; then
+            echo "Skipping: triggered by bot ($ACTOR) — likely previous autofix loop"
+            exit 0
+          fi
+
+          # Check recent commits on main for [skip-autofix] marker
+          RECENT_MSGS=$(gh api repos/${{ github.repository }}/commits?per_page=5 --jq '.[].commit.message' 2>/dev/null || echo "")
+          if echo "$RECENT_MSGS" | grep -q "\[skip-autofix\]"; then
+            echo "Skipping: recent main commits contain [skip-autofix] marker"
+            exit 0
+          fi
+
+          # Check recent PRs from autofix bot — if a recent hotfix PR is still open, skip
+          OPEN_AUTOFIX_PRS=$(gh pr list --head "autofix/" --state OPEN --json number --jq 'length' 2>/dev/null || echo "0")
+          if [ "$OPEN_AUTOFIX_PRS" -gt 3 ]; then
+            echo "Skipping: $OPEN_AUTOFIX_PRS open autofix PRs already exist"
+            exit 0
+          fi
+
+          echo "Loop guard passed — proceeding with autofix"
+
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download failed run logs
+        env:
+          RUN_ID: ${{ steps.resolve.outputs.run_id }}
+        run: |
+          mkdir -p /tmp/failed-logs
+          gh run view "$RUN_ID" --log > /tmp/failed-logs/job.log 2>/dev/null || true
+          echo "Log size: $(wc -c < /tmp/failed-logs/job.log) bytes"
+
+      - name: Parse logs for failure reason
+        id: parse
+        run: |
+          LOG=/tmp/failed-logs/job.log
+          FAILURES=""
+
+          if grep -q "error\|FAILED\|exit code [12]" "$LOG" 2>/dev/null; then
+            FAILURES=$(grep -oP '\[error\].*|FAILED.*|exit code.*' "$LOG" | head -20 | tr '\n' ';' || true)
+          fi
+          echo "failures=$FAILURES" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Safe autofix — fix attribution
+        continue-on-error: true
+        run: python scripts/fix_attribution.py
+
+      - name: Safe autofix — process images
+        continue-on-error: true
+        run: python scripts/process_images.py
+
+      - name: Safe autofix — normalize AI summaries
+        continue-on-error: true
+        run: python scripts/normalize_ai_summaries.py --fix
+
+      - name: Safe autofix — compliance fix
+        continue-on-error: true
+        run: python scripts/compliance.py --fix --no-public --report-json /dev/null
+
+      - name: Re-check compliance
+        id: recheck
+        continue-on-error: true
+        run: |
+          set +e
+          python scripts/compliance.py --strict --no-public --report-json /dev/null 2>&1
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit. Exiting."
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create hotfix branch and PR
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          RUN_ID: ${{ steps.resolve.outputs.run_id }}
+        run: |
+          set -e
+          TIMESTAMP=$(date +%s)
+          BRANCH="autofix/hotfix-${TIMESTAMP}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@noreply.github.com"
+
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "fix(autofix): automated hotfix from failed run #${RUN_ID} [skip-autofix]"
+
+          git push origin "$BRANCH"
+
+          {
+            echo "## Automated Hotfix"
+            echo ""
+            echo "This PR was auto-generated after [failed run #${RUN_ID}]\(https://github.com/${{ github.repository }}/actions/runs/${RUN_ID})\)."
+            echo ""
+            echo "**Detected failures:**"
+            grep -oP '\[error\].*|FAILED.*' /tmp/failed-logs/job.log 2>/dev/null | head -10 | sed 's/^/- /' || echo "- Unknown"
+            echo ""
+            echo "**Changes applied:**"
+            git diff --stat --cached 2>/dev/null | while IFS= read -r line; do echo "- $line"; done || echo "- Various auto-fixes"
+            echo ""
+            echo "**Why?**"
+            echo "- Post-merge autofix detected deploy/build failure and applied safe automated fixes."
+            echo "- These are the same fixes run in CI (fix_attribution, process_images, normalize_ai_summaries, compliance)."
+            echo "- Manual review recommended before merge."
+            echo ""
+            echo "[skip-autofix]"
+          } > /tmp/pr-body.md
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "fix(autofix): automated hotfix from failed run #${RUN_ID}" \
+            --body-file /tmp/pr-body.md || echo "PR creation failed (may be duplicate)"
+
+      - name: Report status
+        if: always()
+        run: |
+          echo "=== Autofix Summary ==="
+          echo "Failed run: ${{ steps.resolve.outputs.run_id }}"
+          echo "Detected failures: ${{ steps.parse.outputs.failures }}"
+          echo "Changes committed: ${{ steps.changes.outputs.has_changes }}"
+          echo "Re-check compliance: ${{ steps.recheck.outputs.status }}"
