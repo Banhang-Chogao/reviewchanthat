@@ -31,6 +31,25 @@ SITE_BASE_URL = "https://banhang-chogao.github.io/reviewchanthat"
 SELF_SOURCE_PLATFORMS = {"self", "self-owned"}
 
 
+
+def is_self_owned_image(meta, entry=None):
+    """Self-owned/generated images do not require provider direct_url."""
+    entry = entry or {}
+    provider = str(meta.get("image_provider") or entry.get("provider") or "").lower()
+    owner = str(meta.get("image_owner") or entry.get("owner") or "").lower()
+    attr = str(meta.get("image_attribution_source") or "").lower()
+    method = str(meta.get("image_generation_method") or "").lower()
+    if provider in {"self-generated", "self_generated", "self"}:
+        return True
+    if owner in {"self", "review-chan-that", "review chân thật"}:
+        return True
+    if attr in {"self_generated", "self-generated"}:
+        return True
+    if "programmatic" in method or "pillow" in method:
+        return True
+    return False
+# DEPLOYMENT_DOCTOR_SELF_OWNED
+
 def watermark_attribution(source, creator):
     return attribution_text(source, creator)
 
