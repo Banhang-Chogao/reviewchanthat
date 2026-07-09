@@ -1,0 +1,19 @@
+{
+  "policy": "content_direction_auto_every_24h",
+  "auto_enabled": true,
+  "interval_hours": 24,
+  "cron_utc": "47 22 * * *",
+  "local_timezone": "Asia/Ho_Chi_Minh",
+  "local_clock": "05:47",
+  "anchor_local": "2026-07-10T05:47:00+07:00",
+  "anchor_note": "24h marks computed from this anchor; auto does not run after each post/deploy",
+  "triggers": {
+    "schedule": true,
+    "workflow_dispatch_manual": true,
+    "after_deploy": false,
+    "push_content_posts": false
+  },
+  "manual_does_not_reset_schedule": true,
+  "updated_at": "2026-07-10T05:47:24+07:00",
+  "updated_at_display": "10-07-2026 05:47:24"
+}
