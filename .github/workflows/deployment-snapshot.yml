@@ -1,0 +1,108 @@
+name: Deployment Snapshot
+
+on:
+  workflow_run:
+    workflows:
+      - "Deploy to GitHub Pages"
+      - "PR Check"
+      - "Post-Merge Autofix"
+      - "PR Autofix"
+    types:
+      - completed
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/deployment-snapshot.yml"
+      - "scripts/deployment_snapshot.py"
+      - "scripts/qa_deployment_snapshot.py"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max runs to collect"
+        default: "10"
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Collect deployment snapshot
+        run: |
+          python scripts/deployment_snapshot.py \
+            --limit ${{ inputs.limit || 10 }} \
+            --out data/deployment-snapshot.json
+        continue-on-error: true
+
+      - name: QA deployment snapshot data
+        run: python scripts/qa_deployment_snapshot.py
+        continue-on-error: true
+
+      - name: Build Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.163.1"
+          extended: true
+
+      - name: Hugo build
+        run: hugo --minify
+        continue-on-error: true
+
+      - name: QA deployment snapshot page
+        run: python scripts/qa_deployment_snapshot.py --public
+        continue-on-error: true
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet data/deployment-snapshot.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create PR branch
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          BRANCH="automation/deployment-snapshot-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add data/deployment-snapshot.json
+          git commit -m "chore(deploy): update deployment snapshot [deployment-snapshot]"
+          git push origin "$BRANCH"
+          echo "branch=$BRANCH" >> "$GITHUB_ENV"
+
+      - name: Create PR
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          gh pr create \
+            --base main \
+            --head "${{ env.branch }}" \
+            --title "chore(deploy): update deployment snapshot" \
+            --body "Automated deployment snapshot update. Checks decide merge eligibility." \
+            --label automerge \
+            --label automated \
+            --label deployment
+
+      - name: Report
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          echo "✅ Deployment snapshot updated and PR created"
+          echo "Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
