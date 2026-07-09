@@ -1,6 +1,6 @@
 +++
 title = "Workflow Failures Audit: How We Identified Recent CI/CD Failures, Root Causes, and Action Items"
-date = 2026-07-09T23:00:00+07:00
+date = 2026-07-09T14:45:00+07:00
 description = "A practical audit of recent CI/CD workflow failures: how to list failed runs, identify root causes, separate QA debt from deploy issues, and turn incidents into action items."
 slug = "workflow-failures-audit-recent-ci-cd-root-causes-action-items"
 categories = ["cong-nghe"]
