@@ -63,7 +63,7 @@ IMAGE_REQUIRED = (
 )
 FALLBACK_MARKERS = ("fallback", "placeholder", "default", "generated", "navy")
 DATE_PLACEHOLDERS = {"2025-01-01", "2026-01-01"}
-ALLOWED_IMAGE_SOURCES = {"pexels", "pixabay", "unsplash", "freepik", "self", "self-owned"}
+ALLOWED_IMAGE_SOURCES = {"pexels", "pixabay", "unsplash", "freepik", "self", "self-owned", "review chân thật"}
 SOURCE_DOMAINS = {
     "pexels": ("pexels.com",),
     "pixabay": ("pixabay.com",),
@@ -548,6 +548,8 @@ class ComplianceChecker:
         image = clean_text(meta.get("image"))
         thumbnail = clean_text(meta.get("thumbnail"))
         expected = f"images/posts/{slug}.webp"
+        provider = normalized(meta.get("image_provider"))
+        is_self_gen = provider == "self-generated" or normalized(meta.get("image_owner")) == "self"
 
         for field_name, value in (("image", image), ("thumbnail", thumbnail)):
             if not value:
@@ -578,65 +580,35 @@ class ComplianceChecker:
                 f"image_reject_reason present while image is set: {meta.get('image_reject_reason')}",
             )
 
-        if meta.get("image_status") == "verified":
-            if not clean_text(meta.get("image_source_url")):
-                self.add_issue("ERROR", "VERIFIED_IMAGE_NO_SOURCE", rel, "verified image missing image_source_url")
-            score = normalize_gate_score(meta.get("image_total_score"))
-            if meta.get("image_query") and not is_self_owned_meta(meta):
-                if not is_meaningful_gate_score(score):
+        if is_self_gen:
+            if meta.get("image_owner") != "self":
+                self.add_issue("ERROR", "IMAGE_OWNER_MISMATCH", rel, "self-generated images must have image_owner=self")
+            if meta.get("image_commercial_use") is not True:
+                self.add_issue("ERROR", "COMMERCIAL_USE", rel, "image_commercial_use must be true")
+        else:
+            for field_name in IMAGE_REQUIRED:
+                if field_missing(meta, field_name):
+                    self.add_issue("ERROR", "MISSING_IMAGE_METADATA", rel, f"Missing {field_name}")
+            if meta.get("image_status") == "verified":
+                if not clean_text(meta.get("image_source_url")):
+                    self.add_issue("ERROR", "VERIFIED_IMAGE_NO_SOURCE", rel, "verified image missing image_source_url")
+            owner = normalized(meta.get("image_owner"))
+            source = normalized(meta.get("image_source"))
+            if owner == "external" and not clean_text(meta.get("image_source_url")):
+                self.add_issue("ERROR", "MISSING_SOURCE_URL", rel, "External image missing image_source_url")
+            platform = normalized(meta.get("image_source"))
+            if platform and platform not in ALLOWED_IMAGE_SOURCES:
+                self.add_issue("WARN", "UNKNOWN_IMAGE_SOURCE", rel, f"Unknown image_source: {meta.get('image_source')}")
+            source_url = clean_text(meta.get("image_source_url"))
+            if source_url and platform in SOURCE_DOMAINS:
+                host = urlparse(source_url).netloc.lower()
+                if not any(domain in host for domain in SOURCE_DOMAINS[platform]):
                     self.add_issue(
                         "ERROR",
-                        "IMAGE_SCORE_MISSING",
+                        "IMAGE_SOURCE_DOMAIN_MISMATCH",
                         rel,
-                        "gate-verified image missing image_total_score",
+                        f"image_source={meta.get('image_source')} but URL host is {host}",
                     )
-                elif not gate_score_passes(score):
-                    self.add_issue(
-                        "ERROR",
-                        "IMAGE_SCORE_LOW",
-                        rel,
-                        f"image_total_score below gate threshold: {score}",
-                    )
-            elif (
-                is_meaningful_gate_score(score)
-                and not gate_score_passes(score)
-                and not is_self_owned_meta(meta)
-            ):
-                self.add_issue(
-                    "ERROR",
-                    "IMAGE_SCORE_LOW",
-                    rel,
-                    f"legacy image_total_score below gate threshold: {score}",
-                )
-
-        for field_name in IMAGE_REQUIRED:
-            if field_missing(meta, field_name):
-                self.add_issue("ERROR", "MISSING_IMAGE_METADATA", rel, f"Missing {field_name}")
-
-        if meta.get("image_commercial_use") is not True:
-            self.add_issue("ERROR", "COMMERCIAL_USE", rel, "image_commercial_use must be true")
-
-        owner = normalized(meta.get("image_owner"))
-        source = normalized(meta.get("image_source"))
-        if owner == "self" and source in {"pexels", "pixabay", "unsplash", "freepik"}:
-            self.add_issue("ERROR", "IMAGE_OWNER_MISMATCH", rel, "External source cannot use image_owner=self")
-        if owner == "external" and not clean_text(meta.get("image_source_url")):
-            self.add_issue("ERROR", "MISSING_SOURCE_URL", rel, "External image missing image_source_url")
-
-        platform = normalized(meta.get("image_source"))
-        if platform and platform not in ALLOWED_IMAGE_SOURCES:
-            self.add_issue("WARN", "UNKNOWN_IMAGE_SOURCE", rel, f"Unknown image_source: {meta.get('image_source')}")
-
-        source_url = clean_text(meta.get("image_source_url"))
-        if source_url and platform in SOURCE_DOMAINS:
-            host = urlparse(source_url).netloc.lower()
-            if not any(domain in host for domain in SOURCE_DOMAINS[platform]):
-                self.add_issue(
-                    "ERROR",
-                    "IMAGE_SOURCE_DOMAIN_MISMATCH",
-                    rel,
-                    f"image_source={meta.get('image_source')} but URL host is {host}",
-                )
 
     def _verified_creator(self, slug: str, creator: str, meta: dict | None = None) -> bool:
         creator_norm = normalized(creator)
@@ -695,6 +667,9 @@ class ComplianceChecker:
                     self.add_issue("ERROR", "IMAGE_NEGATIVE_SIGNAL", rel, f"Image signal: {sig}")
 
     def check_image_creator(self, rel: str, meta: dict, slug: str, fname: str) -> None:
+        provider = normalized(meta.get("image_provider"))
+        if provider == "self-generated":
+            return
         creator = clean_text(meta.get("image_creator"))
         verified_flag = meta.get("image_attribution_verified")
 

@@ -84,6 +84,63 @@ branch ──commit──> push ──> create PR ──> QA/build ──> auto-
 - **deploy.yml**: manual site deploy.
 - **refresh-images.yml**: refresh image processing.
 
+## Editorial Image Pipeline (Self-Generated Only)
+
+All images are generated in-house — no external provider API is called (Pexels, Pixabay, Unsplash, Freepik removed).
+
+### Pipeline
+
+```mermaid
+flowchart LR
+    A[content/posts/*.md] --> B[select_images.py --all]
+    B --> C{Has hero image?}
+    C -->|No| D[generate_hero_image.py]
+    D --> E[1200×630 WebP]
+    C -->|Yes| F{Has H2 headings?}
+    E --> F
+    F -->|Yes| G[800×600 inline WebP per H2]
+    G --> H[Write frontmatter + registry]
+    F -->|No| H
+```
+
+### Generator — `scripts/generate_hero_image.py`
+
+| Mode   | Size     | Purpose                     |
+|--------|----------|-----------------------------|
+| hero   | 1200×630 | Post's main `image` field   |
+| inline | 800×600  | Illustration for each H2    |
+
+- **Topic-based styles** per `detect_style()`: technology (pipeline), apple (device outline), travel (map pins), finance (chart bars), review (checklist/stars), default (abstract concentric).
+- **Hard rules**: no brand logo, no fake screenshot, no celebrity, no `fallback.webp`, no external API call.
+- Registry: `data/generated-images.json`.
+
+### Selection — `scripts/select_images.py`
+
+- `--all` / `--post <path>` — processes all posts or one post.
+- `--force` — regenerates hero + inline even if files exist.
+- `--skip-inline` — hero only, no section illustrations.
+- `--dry-run` — preview without writing.
+- Always exit 0 if generation succeeds (no `needs_review` path).
+
+### Metadata
+
+| Field | Value |
+|-------|-------|
+| `image_provider` | `"self-generated"` |
+| `image_source` | `"Review Chân Thật"` |
+| `image_owner` | `"self"` |
+| `image_status` | `"verified"` |
+| `image_attribution_verified` | `true` |
+| `image_attribution_source` | `"self_generated"` |
+| `image_commercial_use` | `true` |
+| `inline_images` | `[paths to H2 illustrations]` |
+
+### Compliance
+
+- `compliance.py` checks file exists, size > 5KB, no `FALLBACK_MARKERS`, owner is `"self"`.
+- `image_gate_policy.py` accepts `image_owner = "self"` → status `"verified"`.
+- Old provider-specific checks (source domain, gate score, external source URL) apply only to non-self-generated posts.
+
 ## Fail Cases Coverage
 
 | Fail Case                    | Covered By                          |
@@ -98,6 +155,7 @@ branch ──commit──> push ──> create PR ──> QA/build ──> auto-
 | Group/series missing         | compliance.py blocks pr-check       |
 | ai_summary map[] fail        | normalize_ai_summaries --check      |
 | Internal link fail           | audit_links.py (non-blocking)       |
+| Generated image fail         | qa_generated_images.py blocks pr-check |
 
 ## Auto-merge Eligibility
 

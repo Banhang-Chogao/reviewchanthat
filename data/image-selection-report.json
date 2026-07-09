@@ -1,21 +1,17 @@
 {
-  "summary": {
-    "posts_checked": 1,
-    "selected": 1,
-    "needs_image": 0,
-    "providers_used": {
-      "Pexels": 1
-    }
-  },
-  "needs_image": [],
-  "selected": [
+  "generated_at": "2026-07-09T14:39:01+07:00",
+  "processed": 1,
+  "hero_generated": 1,
+  "inline_generated": 6,
+  "skipped_hero": 0,
+  "inline_skipped": 0,
+  "errors": [],
+  "posts": [
     {
-      "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
-      "slug": "goi-y-du-lich-han-quoc-thang-7-2026",
-      "provider": "Pexels",
-      "source_url": "https://www.pexels.com/photo/vibrant-night-view-of-busan-s-coastal-skyline-29188029/",
-      "image_query": "busan korea skyline",
-      "image_total_score": 67.76
+      "slug": "co-nen-cho-iphone-18-khong",
+      "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
+      "hero": "generated",
+      "inline_count": 6
     }
   ]
 }

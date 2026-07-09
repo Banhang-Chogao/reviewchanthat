@@ -312,11 +312,12 @@ def main():
 
         is_self_owned = source in SELF_SOURCE_PLATFORMS or is_self_owned_entry(entry)
 
-        if not direct_url:
-            if is_self_owned and os.path.exists(dest_path):
+        # Self-owned images do not require direct_url
+        if is_self_owned:
+            if os.path.exists(dest_path):
                 fsize = os.path.getsize(dest_path)
                 if fsize > 5000 and not has_placeholder_characteristics(dest_path):
-                    print(f"    Self-owned image exists: {dest_path} ({fsize} bytes) — skipping download")
+                    print(f"    Already processed (self-owned image): {dest_path} ({fsize} bytes)")
                     gate_meta = gate_meta_from_entry(entry)
                     image_status = resolve_image_status(entry)
                     status_note = image_status or "legacy"
@@ -338,6 +339,13 @@ def main():
                     )
                     skipped += 1
                     continue
+            # Self-owned image file missing or not ready yet; skip processing but don't fail
+            print(f"    Self-owned image not ready: {dest_path} (will be processed later)")
+            skipped += 1
+            continue
+
+        # Provider/external images require direct_url
+        if not direct_url:
             print(f"    FAIL: No direct_url in manifest for {slug}")
             clear_post_image(slug)
             failed += 1

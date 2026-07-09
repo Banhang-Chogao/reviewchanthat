@@ -6,7 +6,7 @@ from typing import Any
 
 from image_relevance_gate import TOTAL_THRESHOLD
 
-SELF_SOURCE_VALUES = {"self", "self-owned"}
+SELF_SOURCE_VALUES = {"self", "self-owned", "self-generated"}
 GATE_MIN_TOTAL_SCORE = 52
 GATE_FIELDS = (
     "image_provider",

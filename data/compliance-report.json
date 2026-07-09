@@ -1,8 +1,8 @@
 {
   "summary": {
-    "files_scanned": 154,
-    "errors": 114,
-    "warnings": 22,
+    "files_scanned": 156,
+    "errors": 151,
+    "warnings": 0,
     "fixed": 0
   },
   "issues": [
@@ -21,7 +21,7 @@
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/apple-vs-ec-dma-tuong-lai-iphone.md",
       "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
@@ -56,7 +56,7 @@
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/chuan-bi-macbook-truoc-khi-len-macos-27.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
@@ -64,79 +64,9 @@
     },
     {
       "severity": "ERROR",
-      "code": "MISSING_FIELD",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Missing required field: image",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_FIELD",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Missing required field: thumbnail",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "NEEDS_IMAGE",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "image_status=needs_review",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Missing image_source",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Missing image_source_url",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Missing image_license",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Missing image_commercial_use",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "MISSING_IMAGE_METADATA",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Missing image_owner",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "COMMERCIAL_USE",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "image_commercial_use must be true",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
-      "code": "VERIFIED_WITHOUT_SOURCE_LICENSE",
-      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "image_attribution_verified but source/license missing",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/co-nen-cho-iphone-18-khong.md",
-      "message": "Image relevance score 0 below minimum 80 for topic apple_iphone",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
@@ -232,20 +162,13 @@
     },
     {
       "severity": "ERROR",
-      "code": "COMMERCIAL_USE",
-      "file": "content/posts/co-nen-len-ios-26-5-2-khong.md",
-      "message": "image_commercial_use must be true",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/co-nen-len-ios-26-5-2-khong.md",
       "message": "Image relevance score 0 below minimum 70 for topic apple_general",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "CLAIM_WITHOUT_SOURCE",
       "file": "content/posts/co-nen-len-ios-26-5-2-khong.md",
       "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
@@ -358,17 +281,17 @@
     },
     {
       "severity": "ERROR",
-      "code": "COMMERCIAL_USE",
-      "file": "content/posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md",
-      "message": "image_commercial_use must be true",
-      "suggestion": ""
-    },
-    {
-      "severity": "WARN",
       "code": "CLAIM_WITHOUT_SOURCE",
       "file": "content/posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md",
       "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
       "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "THIN_CONTENT",
+      "file": "content/posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md",
+      "message": "Body has only 569 words (< 600)",
+      "suggestion": ""
     },
     {
       "severity": "ERROR",
@@ -470,13 +393,6 @@
     },
     {
       "severity": "ERROR",
-      "code": "COMMERCIAL_USE",
-      "file": "content/posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md",
-      "message": "image_commercial_use must be true",
-      "suggestion": ""
-    },
-    {
-      "severity": "WARN",
       "code": "CLAIM_WITHOUT_SOURCE",
       "file": "content/posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md",
       "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
@@ -499,6 +415,104 @@
     {
       "severity": "ERROR",
       "code": "MISSING_FIELD",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing required field: title",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing required field: date",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing required field: description",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing required field: categories",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing required field: tags",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing required field: author",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing required field: image",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing required field: thumbnail",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing image_source",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing image_license",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing image_commercial_use",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "Missing image_owner",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_TAGS",
+      "file": "content/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md",
+      "message": "tags is empty",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
       "file": "content/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection.md",
       "message": "Missing required field: title",
       "suggestion": ""
@@ -589,76 +603,69 @@
     },
     {
       "severity": "ERROR",
-      "code": "COMMERCIAL_USE",
-      "file": "content/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection.md",
-      "message": "image_commercial_use must be true",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
       "code": "MISSING_TAGS",
       "file": "content/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection.md",
       "message": "tags is empty",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-27-apple-intelligence-iphone-cu.md",
       "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-27-beta-co-nen-cai-khong.md",
       "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-27-cai-thien-pin-iphone.md",
       "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-27-camera-anh-video-iphone.md",
       "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-27-co-gi-moi.md",
       "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-27-co-nen-cap-nhat-ngay-khong.md",
       "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-27-ho-tro-iphone-nao.md",
       "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-27-quyen-rieng-tu-iphone.md",
       "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md",
       "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
@@ -686,7 +693,7 @@
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.md",
       "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
@@ -696,7 +703,7 @@
       "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/iphone-16-pro-max-desert-titanium-hop-ai.md",
-      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
       "suggestion": ""
     },
     {
@@ -820,13 +827,6 @@
     },
     {
       "severity": "ERROR",
-      "code": "COMMERCIAL_USE",
-      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
-      "message": "image_commercial_use must be true",
-      "suggestion": ""
-    },
-    {
-      "severity": "ERROR",
       "code": "VERIFIED_WITHOUT_SOURCE_LICENSE",
       "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
       "message": "image_attribution_verified but source/license missing",
@@ -854,28 +854,28 @@
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/macos-27-apple-intelligence-macbook.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/macos-27-beta-co-nen-cai-khong.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/macos-27-co-gi-moi.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
@@ -896,14 +896,14 @@
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/macos-27-ho-tro-may-mac-nao.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/macos-27-so-voi-macos-26.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
@@ -945,7 +945,105 @@
       "suggestion": ""
     },
     {
-      "severity": "WARN",
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing required field: title",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing required field: date",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing required field: description",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing required field: categories",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing required field: tags",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing required field: author",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing required field: image",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing required field: thumbnail",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing image_source",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing image_license",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing image_commercial_use",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "Missing image_owner",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_TAGS",
+      "file": "content/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items.md",
+      "message": "tags is empty",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md",
       "message": "Image relevance score 65 below minimum 70 for topic apple_general",
@@ -956,6 +1054,13 @@
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md",
       "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "DUPLICATE_IMAGE_SOURCE_URL",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Shared source_url: content/posts/iphone-16-pro-max-desert-titanium-hop-ai.md",
       "suggestion": ""
     }
   ]
