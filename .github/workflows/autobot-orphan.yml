@@ -1,0 +1,104 @@
+name: autobot_orphan (nightly)
+
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: autobot-orphan-main
+  cancel-in-progress: true
+
+jobs:
+  orphan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Skip if last commit was from this bot
+        id: skip
+        run: |
+          MSG=$(git log -1 --pretty=%B)
+          if echo "$MSG" | grep -q '\[autobot-orphan\]'; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Skipping: last commit is from autobot_orphan"
+            exit 0
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Run autobot_orphan
+        if: steps.skip.outputs.skip != 'true'
+        id: optimize
+        run: |
+          python scripts/autobot_orphan_fixer.py --write
+
+      - name: Detect changes
+        if: steps.skip.outputs.skip != 'true'
+        id: changes
+        run: |
+          git status --porcelain
+          CODE_DIFF=$(git status --porcelain | grep -vE 'reports/' || true)
+          if [ -n "$CODE_DIFF" ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No changes needed"
+          fi
+
+      - name: Loop guard — abort if branch already exists from today
+        if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.has_changes == 'true'
+        id: loop_guard
+        run: |
+          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%Y%m%d)
+          BRANCH="bot/autobot-orphan-${TODAY}"
+          EXISTING=$(git ls-remote --heads origin "$BRANCH" | wc -l | tr -d ' ' || true)
+          if [ "$EXISTING" -gt 0 ] && [ "${GITHUB_REF_NAME}" != "$BRANCH" ]; then
+            echo "Branch $BRANCH already exists on remote — possible loop. Aborting PR creation."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Loop guard: branch $BRANCH exists, aborting"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and create PR
+        if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.has_changes == 'true' && steps.loop_guard.outputs.skip != 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%Y%m%d)
+          BRANCH="bot/autobot-orphan-${TODAY}"
+
+          git checkout -B "$BRANCH"
+          git add -A
+          git commit -m "chore(content): autobot_orphan nightly run [autobot-orphan]" || exit 0
+          git push -u origin "$BRANCH" --force-with-lease || git push -u origin "$BRANCH"
+
+          EXISTING=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            echo "PR already open: #$EXISTING"
+            exit 0
+          fi
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "chore(content): autobot_orphan nightly run" \
+            --body "Nightly autobot_orphan run. [autobot-orphan]" \
+            --label automerge --label automated --label content-direction || true
