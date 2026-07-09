@@ -85,17 +85,22 @@ def classify(run: dict, patterns: list[dict]) -> dict:
     for pat in patterns:
         if pat.get("id") == "unknown":
             continue
-        score = match_pattern(log, hay, pat)
+        # Prefer log body over workflow name/title to reduce false positives
+        score = match_pattern(log, hay if not log else "", pat)
+        if not log:
+            score = match_pattern("", hay, pat)
         if score > best_score:
             best_score = score
             best = pat
 
-    if best and best_score > 0:
+    # Require stronger evidence when matching only titles (no logs)
+    min_score = 1 if log else 2
+    if best and best_score >= min_score:
         confidence = "high" if best_score >= 3 else "medium" if best_score >= 2 else "low"
         return _result(run, best, confidence, best.get("summary") or "")
 
     # Heuristics without strong pattern hit
-    if conclusion in {"cancelled", "timed_out"} and status != "completed":
+    if conclusion in {"cancelled", "timed_out"}:
         pat = next((p for p in patterns if p["id"] == "workflow_fanout"), None)
         if pat:
             return _result(run, pat, "low", "Cancelled/timed out — possible fan-out/supersede.")
