@@ -310,7 +310,34 @@ def main():
 
         print(f"\n  [{slug}]")
 
+        is_self_owned = source in SELF_SOURCE_PLATFORMS or is_self_owned_entry(entry)
+
         if not direct_url:
+            if is_self_owned and os.path.exists(dest_path):
+                fsize = os.path.getsize(dest_path)
+                if fsize > 5000 and not has_placeholder_characteristics(dest_path):
+                    print(f"    Self-owned image exists: {dest_path} ({fsize} bytes) — skipping download")
+                    gate_meta = gate_meta_from_entry(entry)
+                    image_status = resolve_image_status(entry)
+                    status_note = image_status or "legacy"
+                    if is_gate_verified_entry(entry):
+                        status_note = "gate-verified"
+                    print(f"    Frontmatter status: {status_note}")
+                    update_post_frontmatter(
+                        slug=slug,
+                        image_path=f"images/posts/{slug}.webp",
+                        thumbnail_path=f"images/posts/{slug}.webp",
+                        source=source,
+                        source_url=source_url,
+                        license_val=license_val,
+                        commercial_use=commercial,
+                        owner=owner,
+                        gate_meta=gate_meta,
+                        image_status=image_status,
+                        **fm_attr,
+                    )
+                    skipped += 1
+                    continue
             print(f"    FAIL: No direct_url in manifest for {slug}")
             clear_post_image(slug)
             failed += 1
