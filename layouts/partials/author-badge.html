@@ -9,12 +9,13 @@
 {{- end -}}
 <div class="{{ $class }}" data-badge-id="{{ $badge.id }}" tabindex="0" role="img" aria-label="{{ $badge.name }}{{ if not $unlocked }} (chưa mở khóa){{ end }}">
   <div class="badge-medal__face" aria-hidden="true">
-    <span class="badge-medal__icon">{{ $badge.icon }}</span>
+    {{ partial "sdna-badge-icon.html" (dict "id" $badge.id) }}
     {{- if not $unlocked -}}
-    <span class="badge-medal__lock">🔒</span>
+    <span class="badge-medal__lock"><svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.5" width="13" height="9" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></svg></span>
     {{- end -}}
   </div>
   <p class="badge-medal__name">{{ $badge.name }}</p>
+  <span class="badge-medal__tier" aria-hidden="true">{{ if $unlocked }}Tier {{ int $badge.tier }}{{ else }}Đã khóa{{ end }}</span>
   <div class="badge-medal__tooltip" role="tooltip">
     <strong>{{ $badge.name }}</strong>
     <span>{{ $badge.description }}</span>

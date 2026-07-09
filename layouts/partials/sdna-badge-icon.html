@@ -1,0 +1,33 @@
+{{- /*
+  S-DNA outline icon for a badge id. 24px grid, 1.75 stroke, currentColor —
+  same icon language as sdna-icon / home-kpi-strip. Unknown id falls back to
+  the S-DNA diamond mark.
+*/ -}}
+{{- $id := .id | default "" -}}
+{{- $size := .size | default 20 -}}
+{{- $icons := dict
+  "first-post" `<path d="M4.5 19.5 6 15 16.5 4.5a2.12 2.12 0 0 1 3 3L9 18l-4.5 1.5z"/><path d="M14.5 6.5l3 3"/>`
+  "steady-writer" `<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/><path d="M10 12h5M10 15.5h5"/>`
+  "prolific" `<path d="M13 3 6 13h4.5L9 21l9-10h-4.5L13 3z"/>`
+  "category-explorer" `<circle cx="12" cy="12" r="8.5"/><path d="M15.2 8.8l-2 5-5 2 2-5z"/>`
+  "tech-specialist" `<rect x="5" y="5" width="14" height="10" rx="1.5"/><path d="M3 18.5h18"/>`
+  "review-veteran" `<circle cx="12" cy="15" r="4.5"/><path d="M9.7 11.2 7.5 4h3.2L12 8l1.3-4h3.2l-2.2 7.2"/>`
+  "founding-pen" `<path d="M4 9.5 12 4l8 5.5"/><path d="M6 9.5v8M10 9.5v8M14 9.5v8M18 9.5v8"/><path d="M4 20h16"/>`
+  "legend-quill" `<path d="M5 18 3.5 8.5l4.5 3.5L12 5l4 7 4.5-3.5L19 18z"/>`
+  "encyclopedia" `<path d="M12 6.5C10 5 7.5 4.5 4 4.5v14c3.5 0 6 .5 8 2 2-1.5 4.5-2 8-2v-14c-3.5 0-6 .5-8 2z"/><path d="M12 6.5v14"/>`
+  "writing-machine" `<rect x="5" y="8.5" width="14" height="10.5" rx="2"/><path d="M12 8.5v-3"/><circle cx="12" cy="4.2" r="1.2"/><path d="M9.5 13v2.5M14.5 13v2.5"/>`
+  "versatile-hunter" `<path d="M8 4h8v5.5a4 4 0 0 1-8 0z"/><path d="M8 5.5H5.5a2.6 2.6 0 0 0 2.8 3.4M16 5.5h2.5a2.6 2.6 0 0 1-2.8 3.4"/><path d="M12 13.5V17M9 20h6M9 20c0-1.8 1.2-3 3-3s3 1.2 3 3"/>`
+  "apple-devotee" `<path d="M12 7.5c-2.8-1.8-6.5-.4-6.5 3.6 0 3.6 2.7 8.4 5 8.4.9 0 1.5-.6 1.5-.6s.6.6 1.5.6c2.3 0 5-4.8 5-8.4 0-4-3.7-5.4-6.5-3.6z"/><path d="M12 7.5c0-2 1-3.2 2.8-3.9"/>`
+  "seoul-roamer" `<path d="M3 20.5h18"/><path d="M4.5 20.5V11h5v9.5"/><path d="M9.5 20.5V5.5h6v15"/><path d="M15.5 20.5V13h4v7.5"/>`
+  "busan-lover" `<path d="M3 10c2.25 0 2.25-2.2 4.5-2.2S9.75 10 12 10s2.25-2.2 4.5-2.2S18.75 10 21 10"/><path d="M3 16c2.25 0 2.25-2.2 4.5-2.2S9.75 16 12 16s2.25-2.2 4.5-2.2S18.75 16 21 16"/>`
+  "jeju-wizard" `<path d="M3 19.5l6-9.5 3.5 5.5 2-3 6.5 7z"/><circle cx="17.5" cy="6" r="2.2"/>`
+  "winter-expert" `<path d="M12 3v18M4.2 7.5l15.6 9M19.8 7.5l-15.6 9"/>`
+  "day-trip-king" `<rect x="4" y="4.5" width="16" height="12.5" rx="2"/><path d="M4 11h16"/><path d="M7.5 20v-3M16.5 20v-3"/><path d="M8 14.2h.01M16 14.2h.01"/>`
+  "food-reporter" `<path d="M4 12.5h16c0 4.2-3.2 7.5-8 7.5s-8-3.3-8-7.5z"/><path d="M8.5 12.5V9M12 12.5V8M15.5 12.5V9"/><path d="M9 5.5 19 3.5"/>`
+  "review-wizard" `<circle cx="12" cy="10" r="6.25"/><path d="M9 19.5h6l-1.2-3.2h-3.6z"/>`
+  "tech-guru" `<circle cx="12" cy="12" r="3.25"/><path d="M12 3.5v2.8M12 17.7v2.8M3.5 12h2.8M17.7 12h2.8M6 6l2 2M16 16l2 2M18 6l-2 2M8 16l-2 2"/>`
+  "content-tycoon" `<path d="M7.5 4h9L21 9l-9 11.5L3 9z"/><path d="M3 9h18M7.5 4l4.5 5 4.5-5M12 9v11.5"/>`
+  "golden-ink-legend" `<path d="M11 3.5c.65 4.2 2.3 5.85 6.5 6.5-4.2.65-5.85 2.3-6.5 6.5-.65-4.2-2.3-5.85-6.5-6.5 4.2-.65 5.85-2.3 6.5-6.5z"/><path d="M17.5 15.5v4M15.5 17.5h4"/>`
+-}}
+{{- $inner := index $icons $id | default `<path d="M12 3.5 20.5 12 12 20.5 3.5 12Z"/><path d="M12 8 16 12 12 16 8 12Z" opacity=".55"/>` -}}
+<svg viewBox="0 0 24 24" width="{{ $size }}" height="{{ $size }}" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ $inner | safeHTML }}</svg>
