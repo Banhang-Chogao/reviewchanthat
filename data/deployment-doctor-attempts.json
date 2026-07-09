@@ -1,5 +1,21 @@
 {
-  "attempts": {},
-  "updated_at": "",
+  "attempts": {
+    "2d8b3f0a6101:ai_summary_map_artifact": {
+      "count": 1,
+      "last_attempt_at": "2026-07-09T23:22:39+07:00",
+      "last_result": "skipped"
+    },
+    "bd05d058fcf5:self_owned_image_direct_url": {
+      "count": 1,
+      "last_attempt_at": "2026-07-09T23:22:39+07:00",
+      "last_result": "fixed"
+    },
+    "07ad75cf5122:sitemap_noindex_mismatch": {
+      "count": 1,
+      "last_attempt_at": "2026-07-09T23:22:39+07:00",
+      "last_result": "skipped"
+    }
+  },
+  "updated_at": "2026-07-09T23:22:39+07:00",
   "notes": "Ledger prevents autofix loops. Key = sha:failure_type. Max 2 attempts."
 }
