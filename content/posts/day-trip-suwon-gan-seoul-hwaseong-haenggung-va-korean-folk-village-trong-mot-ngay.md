@@ -25,7 +25,7 @@ description: 'Day trip Suwon từ Seoul: tham quan Hwaseong Fortress UNESCO, Hwa
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
 - title: https://whc.unesco.org/en/list/817/
   url: https://whc.unesco.org/en/list/817/
 - title: https://www.koreanfolkvillage.co.kr/

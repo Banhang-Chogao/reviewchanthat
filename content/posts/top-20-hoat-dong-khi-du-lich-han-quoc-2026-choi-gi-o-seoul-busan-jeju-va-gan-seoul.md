@@ -29,7 +29,7 @@ description: 'Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, ch
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
 - title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
 - title: https://english.visitkorea.or.kr/
 - title: https://english.visitseoul.net/

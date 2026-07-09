@@ -24,7 +24,7 @@ description: 'Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, ch�
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
 - title: https://www.visitjeju.net/
   url: https://www.visitjeju.net/
 - title: https://whc.unesco.org/en/list/1264/

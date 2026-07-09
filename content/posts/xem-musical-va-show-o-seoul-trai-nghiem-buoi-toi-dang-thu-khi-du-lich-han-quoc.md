@@ -24,7 +24,7 @@ description: 'Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, gi�
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
 - title: https://english.visitseoul.net/
   url: https://english.visitseoul.net/
 - title: https://english.visitkorea.or.kr/

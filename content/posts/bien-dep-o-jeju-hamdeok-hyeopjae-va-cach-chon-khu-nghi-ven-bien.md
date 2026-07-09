@@ -25,11 +25,11 @@ description: 'Bãi biển đẹp nhất Jeju: Hamdeok nước xanh như Maldives
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
 - title: https://www.visitjeju.net/>
-  url: https://www.visitjeju.net/>
+  url: https://www.visitjeju.net/
 - title: https://www.visitjeju.net/en/>
-  url: https://www.visitjeju.net/en/>
+  url: https://www.visitjeju.net/en/
 image: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
 image_attribution_checked_at: '2026-07-10T04:52:10+07:00'
 image_attribution_source: pexels_api
