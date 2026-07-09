@@ -1,0 +1,162 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a3a52;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d5a4a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGradient)"/>
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(15,217,200,0.03)" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+
+  <!-- Main title -->
+  <text x="600" y="80" font-size="56" font-weight="700" text-anchor="middle" fill="#0fd9c8" font-family="system-ui, -apple-system, sans-serif">
+    Workflow Failures Audit
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="130" font-size="28" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" opacity="0.9">
+    Recent incidents, root causes, and action items
+  </text>
+
+  <!-- Left panel: Failed runs -->
+  <rect x="50" y="180" width="280" height="420" rx="16" fill="rgba(30, 58, 138, 0.4)" stroke="#0fd9c8" stroke-width="2" opacity="0.8"/>
+  <text x="70" y="215" font-size="18" font-weight="600" fill="#0fd9c8" font-family="system-ui, -apple-system, sans-serif">
+    Failed Runs
+  </text>
+
+  <text x="70" y="260" font-size="14" fill="#e2e8f0" font-family="monospace">
+    qa-debt-fix #9
+  </text>
+  <circle cx="60" cy="250" r="4" fill="#ef4444"/>
+
+  <text x="70" y="300" font-size="14" fill="#e2e8f0" font-family="monospace">
+    Deploy #201
+  </text>
+  <circle cx="60" cy="290" r="4" fill="#ef4444"/>
+
+  <text x="70" y="340" font-size="14" fill="#e2e8f0" font-family="monospace">
+    qa-debt-fix #8
+  </text>
+  <circle cx="60" cy="330" r="4" fill="#ef4444"/>
+
+  <text x="70" y="380" font-size="14" fill="#e2e8f0" font-family="monospace">
+    Deploy #200
+  </text>
+  <circle cx="60" cy="370" r="4" fill="#ef4444"/>
+
+  <text x="70" y="420" font-size="14" fill="#e2e8f0" font-family="monospace">
+    qa-debt-fix #7
+  </text>
+  <circle cx="60" cy="410" r="4" fill="#ef4444"/>
+
+  <!-- Right panel: Issue signals -->
+  <rect x="870" y="180" width="280" height="420" rx="16" fill="rgba(30, 58, 138, 0.4)" stroke="#0fd9c8" stroke-width="2" opacity="0.8"/>
+  <text x="890" y="215" font-size="18" font-weight="600" fill="#0fd9c8" font-family="system-ui, -apple-system, sans-serif">
+    Issue Signals
+  </text>
+
+  <rect x="890" y="235" width="240" height="40" rx="8" fill="rgba(15, 217, 200, 0.1)" stroke="rgba(15, 217, 200, 0.3)" stroke-width="1"/>
+  <text x="905" y="262" font-size="13" fill="#0fd9c8" font-family="monospace">
+    workflow failures
+  </text>
+
+  <rect x="890" y="290" width="240" height="40" rx="8" fill="rgba(15, 217, 200, 0.1)" stroke="rgba(15, 217, 200, 0.3)" stroke-width="1"/>
+  <text x="905" y="317" font-size="13" fill="#0fd9c8" font-family="monospace">
+    deploy mismatch
+  </text>
+
+  <rect x="890" y="345" width="240" height="40" rx="8" fill="rgba(15, 217, 200, 0.1)" stroke="rgba(15, 217, 200, 0.3)" stroke-width="1"/>
+  <text x="905" y="372" font-size="13" fill="#0fd9c8" font-family="monospace">
+    runner queue
+  </text>
+
+  <rect x="890" y="400" width="240" height="40" rx="8" fill="rgba(15, 217, 200, 0.1)" stroke="rgba(15, 217, 200, 0.3)" stroke-width="1"/>
+  <text x="905" y="427" font-size="13" fill="#0fd9c8" font-family="monospace">
+    QA debt
+  </text>
+
+  <!-- Process flow: bottom center -->
+  <g>
+    <!-- Step 1: Scan -->
+    <circle cx="200" cy="580" r="28" fill="rgba(15, 217, 200, 0.2)" stroke="#0fd9c8" stroke-width="2"/>
+    <text x="200" y="588" font-size="16" font-weight="600" text-anchor="middle" fill="#0fd9c8" font-family="system-ui, -apple-system, sans-serif">
+      Scan
+    </text>
+
+    <!-- Arrow 1 -->
+    <line x1="228" y1="580" x2="272" y2="580" stroke="#0fd9c8" stroke-width="2" opacity="0.6"/>
+    <polygon points="280,580 270,575 270,585" fill="#0fd9c8" opacity="0.6"/>
+
+    <!-- Step 2: Diagnose -->
+    <circle cx="370" cy="580" r="28" fill="rgba(15, 217, 200, 0.2)" stroke="#0fd9c8" stroke-width="2"/>
+    <text x="370" y="588" font-size="12" font-weight="600" text-anchor="middle" fill="#0fd9c8" font-family="system-ui, -apple-system, sans-serif">
+      Diagnose
+    </text>
+
+    <!-- Arrow 2 -->
+    <line x1="398" y1="580" x2="442" y2="580" stroke="#0fd9c8" stroke-width="2" opacity="0.6"/>
+    <polygon points="450,580 440,575 440,585" fill="#0fd9c8" opacity="0.6"/>
+
+    <!-- Step 3: Action Items -->
+    <circle cx="540" cy="580" r="28" fill="rgba(15, 217, 200, 0.2)" stroke="#0fd9c8" stroke-width="2"/>
+    <text x="540" y="590" font-size="11" font-weight="600" text-anchor="middle" fill="#0fd9c8" font-family="system-ui, -apple-system, sans-serif">
+      Actions
+    </text>
+
+    <!-- Arrow 3 -->
+    <line x1="568" y1="580" x2="612" y2="580" stroke="#0fd9c8" stroke-width="2" opacity="0.6"/>
+    <polygon points="620,580 610,575 610,585" fill="#0fd9c8" opacity="0.6"/>
+
+    <!-- Step 4: Share -->
+    <circle cx="710" cy="580" r="28" fill="rgba(15, 217, 200, 0.2)" stroke="#0fd9c8" stroke-width="2"/>
+    <text x="710" y="588" font-size="16" font-weight="600" text-anchor="middle" fill="#0fd9c8" font-family="system-ui, -apple-system, sans-serif">
+      Share
+    </text>
+  </g>
+
+  <!-- Center panel: Key stats -->
+  <rect x="370" y="220" width="460" height="300" rx="16" fill="rgba(30, 58, 138, 0.3)" stroke="rgba(15, 217, 200, 0.2)" stroke-width="1" opacity="0.7"/>
+
+  <text x="600" y="270" font-size="32" font-weight="700" text-anchor="middle" fill="#0fd9c8" font-family="system-ui, -apple-system, sans-serif">
+    5 Failed Runs
+  </text>
+
+  <text x="600" y="330" font-size="16" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif">
+    3 Root Causes Identified
+  </text>
+
+  <text x="600" y="360" font-size="14" text-anchor="middle" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif">
+    • Self-owned image metadata
+  </text>
+
+  <text x="600" y="385" font-size="14" text-anchor="middle" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif">
+    • QA debt blocking deploys
+  </text>
+
+  <text x="600" y="410" font-size="14" text-anchor="middle" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif">
+    • Deploy/QA policy mismatch
+  </text>
+
+  <!-- Footer branding -->
+  <text x="600" y="650" font-size="12" text-anchor="middle" fill="rgba(148, 163, 184, 0.7)" font-family="system-ui, -apple-system, sans-serif">
+    Review Chân Thật Technology Analysis
+  </text>
+</svg>

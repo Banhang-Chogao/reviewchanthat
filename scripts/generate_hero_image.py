@@ -115,6 +115,16 @@ def detect_style(category: str, tags: list[str], title: str) -> str:
     return "default"
 
 
+DECO_PATTERNS = {
+    "pipeline": draw_pipeline,
+    "device_outline": draw_device_outline,
+    "travel_map": draw_travel_map,
+    "chart": draw_chart,
+    "checklist": draw_checklist,
+    "abstract": draw_abstract,
+}
+
+
 def hex_to_rgb(h: str) -> tuple[int, int, int]:
     h = h.lstrip("#")
     return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
@@ -221,15 +231,7 @@ def get_draw_image(w: int, h: int, style: dict, deco_label: str, text: str) -> I
     img = Image.new("RGB", (w, h), color="#1a1a2e")
     draw = ImageDraw.Draw(img, "RGBA")
     draw_gradient(draw, style, w, h)
-    deco_map = {
-        "pipeline": draw_pipeline,
-        "device_outline": draw_device_outline,
-        "travel_map": draw_travel_map,
-        "chart": draw_chart,
-        "checklist": draw_checklist,
-        "abstract": draw_abstract,
-    }
-    deco_fn = deco_map.get(style.get("deco", "abstract"), draw_abstract)
+    deco_fn = DECO_PATTERNS.get(style.get("deco", "abstract"), draw_abstract)
     deco_fn(draw, style, w, h)
 
     if w >= 600:
@@ -301,10 +303,21 @@ def generate_image(
     w: int = WIDTH,
     h: int = HEIGHT,
     write: bool = False,
+    seed_text: str = "",
 ) -> dict[str, Any]:
     if style_key not in TOPIC_STYLES:
         style_key = "default"
-    style = TOPIC_STYLES[style_key]
+    style = dict(TOPIC_STYLES[style_key])
+    seed = seed_text or title
+    hval = abs(hash(seed)) % 1000
+    deco_keys = list(DECO_PATTERNS.keys())
+    alt_deco = deco_keys[hval % len(deco_keys)]
+    if hval % 3 != 0:
+        style["deco"] = alt_deco
+    accent_rgb = hex_to_rgb(style["accent"])
+    shift = hval % 60 - 30
+    shifted = tuple(max(0, min(255, c + shift)) for c in accent_rgb)
+    style["accent"] = "#{:02x}{:02x}{:02x}".format(*shifted)
     img = get_draw_image(w, h, style, style_key, title)
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(SVG_DIR, exist_ok=True)
@@ -432,7 +445,7 @@ def generate_for_post(
     hero_exists = os.path.exists(hero_full) and not force
     if not hero_exists:
         print(f"  Generating hero: {slug}.webp")
-        result = generate_image(slug, title, style_key, WIDTH, HEIGHT, write=True)
+        result = generate_image(slug, title, style_key, WIDTH, HEIGHT, write=True, seed_text=title)
         register_metric(result)
         images["hero"] = result
         images["frontmatter_hero"] = get_image_meta(slug, title, result["path"])
@@ -456,7 +469,7 @@ def generate_for_post(
             images["frontmatter_inline"].append(get_image_meta(h2_key, h2, inline_path, is_inline=True))
             continue
         print(f"  Generating inline: {h2_key}.webp (h2: {h2[:50]})")
-        result = generate_image(h2_key, h2, style_key, INLINE_W, INLINE_H, write=True)
+        result = generate_image(h2_key, h2, style_key, INLINE_W, INLINE_H, write=True, seed_text=h2)
         register_metric(result)
         images["inline"].append({"path": result["path"], "heading": h2})
         images["frontmatter_inline"].append(get_image_meta(h2_key, h2, result["path"], is_inline=True))
