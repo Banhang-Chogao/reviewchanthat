@@ -1,0 +1,84 @@
+{{/*
+  S-DNA KPI strip — soft pastel cards, left accent, large value, whisper unit,
+  outline icon in circle. Data from published posts (no fake vanity metrics).
+*/}}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $total := len $posts }}
+{{ $cats := slice }}
+{{ range $posts }}
+  {{ range (.Params.categories | default slice) }}
+    {{ $cats = $cats | append . }}
+  {{ end }}
+{{ end }}
+{{ $catCount := len ($cats | uniq) }}
+{{ $report := index site.Data "content-direction" }}
+{{ $words := 0 }}
+{{ with $report }}
+  {{ with .summary }}
+    {{ $words = .total_words | default 0 }}
+  {{ end }}
+{{ end }}
+{{ if eq $words 0 }}
+  {{/* Fallback: rough word estimate from summaries if CD report missing */}}
+  {{ range first 50 $posts }}
+    {{ $words = add $words (len (split (.Summary | plainify) " ")) }}
+  {{ end }}
+{{ end }}
+{{ $score := "" }}
+{{ with index site.Data "content-direction-score" }}
+  {{ with .score }}{{ $score = . }}{{ end }}
+{{ end }}
+
+<section class="sdna-kpi-strip" aria-label="Chỉ số blog">
+  <article class="sdna-kpi sdna-kpi--teal">
+    <div class="sdna-kpi__head">
+      <span class="sdna-icon sdna-icon--teal" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"><path d="M12 3.5 L20.5 12 L12 20.5 L3.5 12 Z"/><path d="M12 8 L16 12 L12 16 L8 12 Z" opacity=".55"/></svg>
+      </span>
+      <span class="sdna-kpi__label">Bài viết</span>
+    </div>
+    <div class="sdna-kpi__value">{{ $total }} <span class="sdna-kpi__unit">posts</span></div>
+  </article>
+
+  <article class="sdna-kpi sdna-kpi--blue">
+    <div class="sdna-kpi__head">
+      <span class="sdna-icon sdna-icon--blue" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 12h8M8 15h5"/></svg>
+      </span>
+      <span class="sdna-kpi__label">Danh mục</span>
+    </div>
+    <div class="sdna-kpi__value">{{ $catCount }} <span class="sdna-kpi__unit">topics</span></div>
+  </article>
+
+  <article class="sdna-kpi sdna-kpi--purple">
+    <div class="sdna-kpi__head">
+      <span class="sdna-icon sdna-icon--purple" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M5 19V5h4.5a3.5 3.5 0 0 1 0 7H5"/><path d="M12 19l7-14"/></svg>
+      </span>
+      <span class="sdna-kpi__label">Quy mô nội dung</span>
+    </div>
+    <div class="sdna-kpi__value">
+      {{- if ge $words 1000 -}}
+        {{ div $words 1000 | int }}<span class="sdna-kpi__unit">k words</span>
+      {{- else -}}
+        {{ $words }} <span class="sdna-kpi__unit">words</span>
+      {{- end -}}
+    </div>
+  </article>
+
+  <article class="sdna-kpi sdna-kpi--white">
+    <div class="sdna-kpi__head">
+      <span class="sdna-icon sdna-icon--teal" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4L19 6"/></svg>
+      </span>
+      <span class="sdna-kpi__label">Content score</span>
+    </div>
+    <div class="sdna-kpi__value">
+      {{- if $score -}}
+        {{ $score }} <span class="sdna-kpi__unit">/ 100</span>
+      {{- else -}}
+        — <span class="sdna-kpi__unit">/ 100</span>
+      {{- end -}}
+    </div>
+  </article>
+</section>
