@@ -21,10 +21,16 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 from typing import Any
 
 import frontmatter
+
+try:
+    import tomllib  # py3.11+
+except ModuleNotFoundError:  # pragma: no cover
+    tomllib = None  # type: ignore
 
 from article_image_context import ArticleImageContext, build_context_from_post
 from creator_policy import clean_text, sanitize_candidate, is_blocked_creator
@@ -208,22 +214,28 @@ def main() -> int:
 
     for fpath in posts_to_process:
         try:
-            raw = open(fpath, encoding="utf-8").read(32)
-            if raw.lstrip().startswith("+++"):
-                post_file = frontmatter.load(fpath, handler=frontmatter.TOMLHandler())
+            text = open(fpath, encoding="utf-8").read()
+            if text.lstrip().startswith("+++"):
+                m = re.match(r"^\+\+\+\r?\n(.*?)\r?\n\+\+\+\r?\n?(.*)$", text, re.S)
+                if not m:
+                    raise ValueError("invalid TOML front matter (+++)")
+                if tomllib is None:
+                    raise ValueError("tomllib unavailable; cannot parse TOML front matter")
+                meta = dict(tomllib.loads(m.group(1)))
+                body = m.group(2) or ""
             else:
                 post_file = frontmatter.load(fpath)
+                meta = dict(post_file.metadata or {})
+                body = post_file.content or ""
         except Exception as e:
             print(f"ERROR reading {fpath}: {e}")
             report["errors"].append({"file": fpath, "reason": str(e)})
             continue
 
-        meta = dict(post_file.metadata or {})
         slug = meta.get("slug") or os.path.basename(fpath).replace(".md", "")
         title = meta.get("title") or slug
         meta["slug"] = slug
         meta["title"] = title
-        body = post_file.content or ""
 
         print(f"  [{slug}] {title}")
 
