@@ -40,58 +40,43 @@ def extract_frontmatter(text: str) -> tuple[str | None, str]:
         return None, text
     return m.group(1), m.group(2)
 
-def find_duplicate_keys(fm_text: str) -> list[str]:
-    """Find duplicate YAML keys in frontmatter."""
-    keys = defaultdict(int)
-    duplicates = []
-    for line in fm_text.split("\n"):
-        line = line.strip()
-        if line and not line.startswith("#"):
-            # Parse key (before colon at line start)
-            m = re.match(r"^(\w+):\s*", line)
-            if m:
-                key = m.group(1)
-                keys[key] += 1
-                if keys[key] > 1 and key not in duplicates:
-                    duplicates.append(key)
+def find_duplicate_keys(fm_text: str) -> list[tuple[str, int]]:
+    """Find duplicate YAML keys in frontmatter. Returns [(key, count), ...]."""
+    keys = defaultdict(list)
+    for i, line in enumerate(fm_text.split("\n")):
+        # Only check lines that start at column 0 (top-level keys)
+        m = re.match(r"^(\w+):\s*", line)
+        if m:
+            key = m.group(1)
+            keys[key].append(i)
+
+    duplicates = [(k, lines) for k, lines in keys.items() if len(lines) > 1]
     return duplicates
 
-def fix_duplicate_keys(fm_text: str, duplicates: list[str]) -> str:
-    """Remove duplicate key entries, keep last occurrence."""
+def fix_duplicate_keys(fm_text: str, duplicates: list[tuple[str, list[int]]]) -> str:
+    """Remove duplicate key entries, keep first occurrence."""
+    if not duplicates:
+        return fm_text
+
     lines = fm_text.split("\n")
-    seen = {dup: False for dup in duplicates}
-    result = []
-    skip_until_next_key = False
+    # Mark lines to remove
+    to_remove = set()
 
-    for i, line in enumerate(lines):
-        # Check if this line defines a duplicate key
-        m = re.match(r"^(\w+):\s*", line.strip())
-        if m and m.group(1) in duplicates:
-            key = m.group(1)
-            if not seen[key]:
-                # First occurrence: keep
-                seen[key] = True
-                result.append(line)
-                # If value is on next lines (list/dict), mark to skip
-                if line.rstrip().endswith(":"):
-                    skip_until_next_key = key
-            else:
-                # Duplicate: skip this and any indented lines
-                if line[0] not in (" ", "\t"):
-                    # This line starts a new key, include it
-                    result.append(line)
-                    skip_until_next_key = False
-                # else: skip indented continuation of duplicate
-        else:
-            if skip_until_next_key:
-                # Still in a list/dict block: check if we're still indented
-                if line and line[0] not in (" ", "\t"):
-                    skip_until_next_key = False
-                    result.append(line)
-                # else: skip
-            else:
-                result.append(line)
+    for key, line_indices in duplicates:
+        # Keep first, remove rest and their child lines
+        for idx in line_indices[1:]:
+            to_remove.add(idx)
+            # Also mark indented children as removed
+            indent_level = len(lines[idx]) - len(lines[idx].lstrip())
+            for j in range(idx + 1, len(lines)):
+                if not lines[j].strip():  # Skip empty lines
+                    to_remove.add(j)
+                elif len(lines[j]) - len(lines[j].lstrip()) > indent_level:
+                    to_remove.add(j)
+                else:
+                    break  # Stop at next top-level key
 
+    result = [lines[i] for i in range(len(lines)) if i not in to_remove]
     return "\n".join(result)
 
 def quote_unquoted_colons(fm_text: str) -> str:
