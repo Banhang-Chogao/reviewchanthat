@@ -15,7 +15,7 @@
     <div class="post-card-meta-row">
       <div class="post-card-author">
         {{ partial "author.html" . }}
-        <span class="post-date">{{ .Date.Format "02/01/2006" }}</span>
+        <span class="post-date">{{ partial "datetime.html" .Date }}</span>
       </div>
       <span class="post-read-time">{{ .ReadingTime }} phút đọc</span>
     </div>
