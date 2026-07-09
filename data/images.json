@@ -3536,7 +3536,41 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
+      "source_platform": "Pexels",
+      "source_url": "https://www.pexels.com/photo/person-writing-on-notebook-5387233/",
+      "direct_url": "https://images.pexels.com/photos/5387233/pexels-photo-5387233.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "www.kaboompics.com",
+      "creator_url": "https://www.pexels.com/@karola-g",
+      "creator_id": "2332540",
+      "license": "Pexels License",
+      "commercial_use": true,
+      "output_path": "static/images/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.webp",
+      "local_source_path": "static/images/posts-src/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.jpg",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_owner": "external",
+      "image_query": "person writing notebook laptop desk"
+    },
+    {
+      "slug": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
+      "source_platform": "Pexels",
+      "source_url": "https://www.pexels.com/photo/woman-using-smart-phone-on-tripod-and-a-laptop-computer-13929362/",
+      "direct_url": "https://images.pexels.com/photos/13929362/pexels-photo-13929362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Mizuno K",
+      "creator_url": "https://www.pexels.com/@mizunokozuki",
+      "creator_id": "264153375",
+      "license": "Pexels License",
+      "commercial_use": true,
+      "output_path": "static/images/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.webp",
+      "local_source_path": "static/images/posts-src/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.jpg",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_owner": "external",
+      "image_query": "laptop and smartphone content creator desk"
     }
   ],
-  "generated_at": "2026-07-09T21:52:05.425461+00:00"
+  "generated_at": "2026-07-09T22:14:18.876011+00:00"
 }
