@@ -126,8 +126,8 @@
       "last_result": "skipped"
     },
     "807bd0aa72a4:workflow_fanout": {
-      "count": 1,
-      "last_attempt_at": "2026-07-10T04:36:50+07:00",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:08:40+07:00",
       "last_result": "skipped"
     },
     "a8730b26d606:sitemap_noindex_mismatch": {
@@ -141,16 +141,16 @@
       "last_result": "skipped"
     },
     "7d4b95e338fe:ai_summary_map_artifact": {
-      "count": 1,
-      "last_attempt_at": "2026-07-10T05:02:47+07:00",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:08:40+07:00",
       "last_result": "skipped"
     },
     "7d4b95e338fe:sitemap_noindex_mismatch": {
-      "count": 1,
-      "last_attempt_at": "2026-07-10T05:02:47+07:00",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:08:40+07:00",
       "last_result": "skipped"
     }
   },
-  "updated_at": "2026-07-10T05:02:47+07:00",
+  "updated_at": "2026-07-10T05:08:40+07:00",
   "notes": "Ledger prevents autofix loops. Key = sha:failure_type. Max 2 attempts."
 }
