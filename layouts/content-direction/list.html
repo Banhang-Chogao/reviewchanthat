@@ -79,8 +79,57 @@ python scripts/qa_content_direction.py</pre>
     </section>
     {{ end }}
 
+    <section class="cd-section" id="optimizer-score">
+      <h2>2. Content Direction Score</h2>
+      {{ $score := index .Site.Data "content-direction-score" }}
+      {{ if $score }}
+      <div class="cd-grid cd-grid-4">
+        <div class="cd-stat cd-stat-good">
+          <span class="cd-stat-value">{{ $score.score | default "?" }}</span>
+          <span class="cd-stat-label">Score / 100</span>
+        </div>
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ len (where $score.components "key" "ne" nil) }}</span>
+          <span class="cd-stat-label">Components</span>
+        </div>
+        <div class="cd-stat">
+          <span class="cd-stat-value">{{ $score.remaining_action_items | default "?" }}</span>
+          <span class="cd-stat-label">Action items còn</span>
+        </div>
+        <div class="cd-stat cd-stat-warn">
+          <span class="cd-stat-value">{{ sub 100 ($score.score | default 0) }}</span>
+          <span class="cd-stat-label">Cần cải thiện</span>
+        </div>
+      </div>
+      <div class="cd-detail-card" style="margin-top:1rem">
+        <h3>Chi tiết components</h3>
+        <table class="cd-table">
+          <thead><tr><th>Component</th><th>Score</th><th>Target</th></tr></thead>
+          <tbody>
+          {{ range $key, $val := $score.components }}
+          <tr>
+            <td>{{ $key }}</td>
+            <td>{{ $val }}</td>
+            <td>{{ if eq $key "internal_links" }}25{{ else if eq $key "orphan_posts" }}20{{ else if eq $key "seo_titles" }}15{{ else if eq $key "meta_descriptions" }}15{{ else if eq $key "freshness" }}10{{ else if eq $key "content_gaps" }}10{{ else if eq $key "data_integrity" }}5{{ else }}—{{ end }}</td>
+          </tr>
+          {{ end }}
+          </tbody>
+        </table>
+        {{ if $score.generated_at_display }}
+        <p style="margin-top:.8rem;font-size:.8rem;color:var(--muted,#6c757d)">
+          Cập nhật: {{ $score.generated_at_display }}
+        </p>
+        {{ end }}
+      </div>
+      {{ else }}
+      <div class="cd-detail-card cd-detail-card-warn">
+        <p>Score chưa được generate. Chạy <code>autobot_fixer_I</code> hoặc <code>content_direction_optimizer.py</code>.</p>
+      </div>
+      {{ end }}
+    </section>
+
     <section class="cd-section" id="categories">
-      <h2>2. Danh mục</h2>
+      <h2>3. Danh mục</h2>
       {{ with $report.categories }}
       <div class="cd-detail-card">
         <table class="cd-table">
@@ -102,7 +151,7 @@ python scripts/qa_content_direction.py</pre>
     </section>
 
     <section class="cd-section" id="authors">
-      <h2>3. Tác giả</h2>
+      <h2>4. Tác giả</h2>
       {{ with $report.authors }}
       <div class="cd-detail-card">
         <table class="cd-table">
@@ -120,7 +169,7 @@ python scripts/qa_content_direction.py</pre>
     </section>
 
     <section class="cd-section" id="time-freshness">
-      <h2>4. Thời gian / Freshness</h2>
+      <h2>5. Thời gian / Freshness</h2>
       {{ with $report.time }}
       <div class="cd-detail-card" style="margin-bottom:1rem">
         <p><strong>Bài cũ nhất:</strong> {{ .oldest_display | default "—" }}</p>
@@ -160,7 +209,7 @@ python scripts/qa_content_direction.py</pre>
 
     {{ with $report.seo }}
     <section class="cd-section" id="seo">
-      <h2>5. SEO Google</h2>
+      <h2>6. SEO Google</h2>
       <div class="cd-detail-grid">
         <div class="cd-detail-card">
           <h3>Title tags</h3>
@@ -190,7 +239,7 @@ python scripts/qa_content_direction.py</pre>
 
     {{ with $report.internal_linking }}
     <section class="cd-section" id="linking">
-      <h2>6. Internal Linking</h2>
+      <h2>7. Internal Linking</h2>
       <div class="cd-grid cd-grid-3">
         <div class="cd-stat">
           <span class="cd-stat-value">{{ .total_outbound_links }}</span>
@@ -235,7 +284,7 @@ python scripts/qa_content_direction.py</pre>
     {{ end }}
 
     <section class="cd-section" id="gaps">
-      <h2>7. Content Gaps</h2>
+      <h2>8. Content Gaps</h2>
       {{ with $report.content_gaps }}
       <div class="cd-detail-card">
         <ul class="cd-metric-list">
@@ -253,7 +302,7 @@ python scripts/qa_content_direction.py</pre>
     </section>
 
     <section class="cd-section" id="top-linked">
-      <h2>8. Top bài được link nhiều nhất</h2>
+      <h2>9. Top bài được link nhiều nhất</h2>
       {{ with $report.internal_linking.top_linked_posts }}
       <div class="cd-detail-card">
         <table class="cd-table">

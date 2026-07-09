@@ -1,0 +1,95 @@
+name: autobot_fixer_I (nightly)
+
+on:
+  schedule:
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: autobot-fixer-I-main
+  cancel-in-progress: true
+
+jobs:
+  fixer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.163.1"
+          extended: true
+
+      - name: Skip if last commit was from this bot
+        id: skip
+        run: |
+          MSG=$(git log -1 --pretty=%B)
+          if echo "$MSG" | grep -q '\[content-direction-optimizer\]'; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Skipping: last commit is from optimizer"
+            exit 0
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Run autobot_fixer_I
+        if: steps.skip.outputs.skip != 'true'
+        id: optimize
+        run: |
+          python scripts/autobot_fixer_I.py --write --max-changes 30
+
+      - name: Detect changes
+        if: steps.skip.outputs.skip != 'true'
+        id: changes
+        run: |
+          git status --porcelain
+          CODE_DIFF=$(git status --porcelain | grep -vE 'reports/' || true)
+          if [ -n "$CODE_DIFF" ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No optimization changes needed"
+          fi
+
+      - name: Commit and create PR
+        if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.has_changes == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%Y%m%d)
+          BRANCH="bot/content-direction-optimizer-${TODAY}"
+
+          git checkout -B "$BRANCH"
+          git add -A
+          git commit -m "chore(content): apply Content Direction optimizer [content-direction-optimizer]" || exit 0
+          git push -u origin "$BRANCH" --force-with-lease || git push -u origin "$BRANCH"
+
+          EXISTING=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            echo "PR already open: #$EXISTING"
+            exit 0
+          fi
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "chore(content): apply Content Direction optimizer" \
+            --body "Nightly Content Direction Optimizer run. Checks decide merge eligibility. [content-direction-optimizer]" \
+            --label automerge --label automated --label content-direction --label seo || true
