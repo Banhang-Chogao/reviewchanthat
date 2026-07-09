@@ -39,9 +39,7 @@ image_source_url: >-
   https://www.pexels.com/photo/people-on-a-cable-car-in-a-mountain-valley-20465675/
 internal_links:
   - {"ref": "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md", "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông"}
-internal_links:
   - {"ref": "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md", "title": "Yongpyong Ski Resort"}
-internal_links:
   - {"ref": "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md", "title": "High1 Ski Resort"}
 series: truot-tuyet
 series_order: 5
@@ -49,34 +47,22 @@ series_title: Trượt tuyết Hàn Quốc
 slug: alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang
 tags:
   - du lịch Hàn Quốc
-tags:
   - Alpensia
-tags:
   - Pyeongchang
-tags:
   - trượt tuyết Hàn Quốc
-tags:
   - ski resort Hàn Quốc
-tags:
   - Olympic PyeongChang
-tags:
   - gangwon-do
-tags:
   - series trượt tuyết
 thumbnail: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
 title: >-
   Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang
 tom_tat_nhanh:
   - {"label": "Khu vực", "value": "Daegwallyeong, Pyeongchang (Gangwon-do)"}
-tom_tat_nhanh:
   - {"label": "Loại trải nghiệm", "value": "Trượt tuyết, nghỉ dưỡng, water park"}
-tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Gia đình, người mới bắt đầu, người muốn nghỉ dưỡng"}
-tom_tat_nhanh:
   - {"label": "Thời gian nên dành", "value": "1–2 ngày (nên ở lại qua đêm)"}
-tom_tat_nhanh:
   - {"label": "Đi mùa nào hợp", "value": "Mùa đông (tháng 12–2)"}
-tom_tat_nhanh:
   - {"label": "Có cần đặt trước không", "value": "Có (resort, vé trượt tuyết)"}
 seo_title: >-
   Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở
