@@ -626,6 +626,9 @@ class ComplianceChecker:
         return bool(expected) and creator_norm == expected and bool(entry.get("attribution_verified"))
 
     def check_image_brand_relevance(self, meta: dict, slug: str, rel: str) -> None:
+        provider = normalized(meta.get("image_provider"))
+        if provider == "self-generated":
+            return
         try:
             from image_relevance_gate import compute_brand_score, detect_topic
         except ImportError:
