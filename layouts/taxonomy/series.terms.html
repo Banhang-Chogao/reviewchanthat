@@ -1,36 +1,46 @@
 {{ define "main" }}
 <div class="container">
   {{ partial "breadcrumb.html" . }}
-  <section class="series-page">
-    <header class="series-page__header">
-      <h1 class="series-page__title">Danh sách Series</h1>
-      <p class="series-page__subtitle">Tổng hợp các bài viết theo từng chủ đề — đọc liền mạch từ đầu đến cuối.</p>
-    </header>
-    <div class="series-page__grid">
-      {{ $sortedSeries := slice }}
-      {{ range site.Data.series.items }}
-        {{ $tx := index $.Site.Taxonomies.series .slug }}
-        {{ if $tx }}
-          {{ $sortedSeries = $sortedSeries | append (dict "slug" .slug "label" .label "description" .description "order" (int .order) "tx" $tx) }}
+  {{ $sortedSeries := slice }}
+  {{ range site.Data.series.items }}
+    {{ $tx := index $.Site.Taxonomies.series .slug }}
+    {{ if $tx }}
+      {{ $sortedSeries = $sortedSeries | append (dict "slug" .slug "label" .label "description" .description "order" (int .order) "tx" $tx) }}
+    {{ end }}
+  {{ end }}
+  {{ $seriesCount := len $sortedSeries }}
+  <details class="series-directory" data-series-directory>
+    <summary class="series-directory__summary">
+      <span class="series-directory__summary-main">
+        <span class="series-directory__eyebrow">Series</span>
+        <strong class="series-directory__title">Danh sách Series</strong>
+        <span class="series-directory__desc">Tổng hợp các bài viết theo từng chủ đề — đọc liền mạch từ đầu đến cuối.</span>
+      </span>
+      <span class="series-directory__summary-meta">
+        {{ with $seriesCount }}{{ . }} series{{ end }}
+        <span class="series-directory__chevron" aria-hidden="true">⌄</span>
+      </span>
+    </summary>
+    <div class="series-directory__content">
+      <div class="series-page__grid">
+        {{ range sort $sortedSeries "order" "asc" }}
+          {{ $slug := .slug }}
+          {{ $label := .label }}
+          {{ $desc := .description }}
+          {{ $tx := .tx }}
+          <a href="{{ $tx.Page.RelPermalink }}" class="series-card">
+            <div class="series-card__body">
+              <h2 class="series-card__title">{{ $label }}</h2>
+              {{ with $desc }}
+              <p class="series-card__desc">{{ . }}</p>
+              {{ end }}
+              <span class="series-card__count">{{ len $tx.Pages }} bài viết</span>
+            </div>
+            <span class="series-card__arrow" aria-hidden="true">→</span>
+          </a>
         {{ end }}
-      {{ end }}
-      {{ range sort $sortedSeries "order" "asc" }}
-        {{ $slug := .slug }}
-        {{ $label := .label }}
-        {{ $desc := .description }}
-        {{ $tx := .tx }}
-        <a href="{{ $tx.Page.RelPermalink }}" class="series-card">
-          <div class="series-card__body">
-            <h2 class="series-card__title">{{ $label }}</h2>
-            {{ with $desc }}
-            <p class="series-card__desc">{{ . }}</p>
-            {{ end }}
-            <span class="series-card__count">{{ len $tx.Pages }} bài viết</span>
-          </div>
-          <span class="series-card__arrow" aria-hidden="true">→</span>
-        </a>
-      {{ end }}
+      </div>
     </div>
-  </section>
+  </details>
 </div>
 {{ end }}
