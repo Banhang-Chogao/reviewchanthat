@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T03:42:02+07:00",
-  "generated_at_display": "10-07-2026 03:42:02",
+  "generated_at": "2026-07-10T04:30:42+07:00",
+  "generated_at_display": "10-07-2026 04:30:42",
   "summary": {
     "total_posts": 157,
     "draft_posts": 0,
@@ -2359,7 +2359,7 @@
       {
         "slug": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
         "title": "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 04:00:00"
       },
       {
@@ -2371,13 +2371,13 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1460,
-    "average_outbound_per_post": 9.3,
+    "total_outbound_links": 1463,
+    "average_outbound_per_post": 9.32,
     "top_linked_posts": [
       {
-        "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
-        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
-        "inbound": 35
+        "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
+        "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
+        "inbound": 28
       },
       {
         "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
@@ -2385,44 +2385,44 @@
         "inbound": 27
       },
       {
+        "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
+        "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
+        "inbound": 25
+      },
+      {
         "slug": "camera-control-iphone-16-pro-max-co-tien-khong",
         "title": "Camera Control iPhone 16 Pro Max có tiện không?",
         "inbound": 24
       },
       {
-        "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
-        "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
+        "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
+        "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
         "inbound": 23
       },
       {
-        "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
-        "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
-        "inbound": 21
-      },
-      {
-        "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
-        "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
-        "inbound": 21
-      },
-      {
-        "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
-        "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
-        "inbound": 20
-      },
-      {
-        "slug": "han-quoc-thang-10-co-la-do-chua",
-        "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
-        "inbound": 20
+        "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "inbound": 22
       },
       {
         "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "inbound": 21
+      },
+      {
+        "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
+        "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
+        "inbound": 20
+      },
+      {
+        "slug": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
+        "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
         "inbound": 19
       },
       {
-        "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
-        "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
-        "inbound": 18
+        "slug": "han-quoc-thang-10-co-la-do-chua",
+        "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
+        "inbound": 19
       }
     ],
     "orphan_posts": [
