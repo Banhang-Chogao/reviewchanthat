@@ -57,6 +57,31 @@ jobs:
             --md reports/content-direction-report.md
           python scripts/qa_content_direction.py
 
+      - name: Write build-info for live verification
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+          import sys
+          sys.path.insert(0, "scripts/lib")
+          from dates import format_vietnam_datetime, now_vietnam
+          sha = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
+          now = now_vietnam()
+          payload = {
+              "sha": sha,
+              "short_sha": sha[:7],
+              "generated_at": now.isoformat(),
+              "generated_at_display": format_vietnam_datetime(now),
+              "repo": "Banhang-Chogao/reviewchanthat",
+              "site": "https://banhang-chogao.github.io/reviewchanthat/",
+          }
+          Path("static/build-info.json").parent.mkdir(parents=True, exist_ok=True)
+          Path("static/build-info.json").write_text(
+              json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+          )
+          print("Wrote static/build-info.json", payload["short_sha"])
+          PY
+
       - name: Build Hugo
         run: hugo --minify
 

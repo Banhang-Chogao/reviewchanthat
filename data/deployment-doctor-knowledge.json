@@ -230,7 +230,8 @@
         "total_posts\": 0",
         "Content Direction data is empty",
         "scanned 0 published posts",
-        "content-direction",
+        "refusing empty report",
+        "summary.total_posts must be > 0",
         "0 Bài viết"
       ],
       "safe_to_autofix": true,
