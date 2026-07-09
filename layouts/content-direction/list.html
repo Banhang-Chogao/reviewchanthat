@@ -1,7 +1,8 @@
 {{ define "main" }}
 {{/* Hyphenated data file: data/content-direction.json
-     Hugo ≥0.156: use hugo.Data (site.Data is deprecated). */}}
-{{ $report := index hugo.Data "content-direction" }}
+     Hugo ≥0.156: use hugo.Data (site.Data is deprecated).
+     Hugo converts hyphenated filenames to underscores in the data map. */}}
+{{ $report := index hugo.Data "content_direction" }}
 {{ $hasData := and $report $report.summary }}
 {{ $totalPosts := 0 }}
 {{ if $hasData }}
