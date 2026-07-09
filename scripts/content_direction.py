@@ -100,8 +100,8 @@ def compute_overview(posts):
         "categories": dict(categories.most_common()),
         "authors": dict(authors.most_common()),
         "date_range": {
-            "first": min(dates).isoformat() if dates else "",
-            "latest": max(dates).isoformat() if dates else "",
+            "first": min(dates).strftime("%d-%m-%Y %H:%M:%S") if dates else "",
+            "latest": max(dates).strftime("%d-%m-%Y %H:%M:%S") if dates else "",
         },
         "draft_count": sum(1 for p in posts if p["draft"]),
     }

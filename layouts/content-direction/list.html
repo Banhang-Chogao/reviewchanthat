@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $data := index .Site.Data "content-direction" }}
+{{ $data := index hugo.Data "content-direction" }}
 {{ if not $data }}
   {{ $data = dict "overview" (dict "total_posts" 0 "total_words" 0) "generated_at" "" "action_items" slice }}
 {{ end }}

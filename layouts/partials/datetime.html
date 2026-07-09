@@ -1,5 +1,9 @@
-{{- /* Format datetime for display in Vietnam timezone: dd-mm-yyyy hh:mm:ss */ -}}
+{{- /* Display datetime: handle both pre-formatted strings (dd-mm-yyyy hh:mm:ss) and time.Time objects */ -}}
 {{- $value := . -}}
 {{- if $value -}}
-  {{- $value.Format "02-01-2006 15:04:05" -}}
+  {{- if eq (printf "%T" $value) "string" -}}
+    {{- $value -}}
+  {{- else -}}
+    {{- $value.Format "02-01-2006 15:04:05" -}}
+  {{- end -}}
 {{- end -}}

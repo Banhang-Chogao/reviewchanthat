@@ -1,5 +1,5 @@
 baseURL = "https://banhang-chogao.github.io/reviewchanthat/"
-languageCode = "vi-vn"
+locale = "vi-vn"
 title = "Review Chân Thật"
 # Interpret dates without an explicit offset (and compute .Date sorting) in
 # Vietnam time so a bare front-matter date is never treated as UTC.
@@ -8,7 +8,8 @@ paginate = 10
 enableRobotsTXT = true
 canonifyURLs = false
 relativeURLs = false
-minify = true
+[minify]
+  minifyOutput = true
 disableKinds = []
 
 [build]
