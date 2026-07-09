@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-09T16:16:52.389657+07:00",
+  "site": "Review Chân Thật",
+  "base_url": "https://banhang-chogao.github.io/reviewchanthat/",
+  "summary": {
+    "total_items": 0,
+    "success": 0,
+    "failed": 0,
+    "in_progress": 0,
+    "latest_status": "unknown",
+    "latest_pr": null,
+    "latest_deploy_id": null
+  },
+  "items": []
+}

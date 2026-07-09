@@ -1,0 +1,442 @@
+{{ define "main" }}
+{{ $data := index .Site.Data "deployment-snapshot" }}
+{{ if not $data }}
+  {{ $data = dict "generated_at" "" "summary" (dict "total_items" 0 "success" 0 "failed" 0 "in_progress" 0) "items" slice }}
+{{ end }}
+<article class="deployment-snapshot">
+  <header class="deployment-snapshot__hero">
+    <div class="container">
+      <h1>Deployment Snapshot</h1>
+      <p class="deployment-snapshot__subtitle">
+        Theo dõi PR, Deploy ID, status, root cause và action items
+      </p>
+      {{ if $data.generated_at }}
+      <p class="deployment-snapshot__updated">
+        Cập nhật lúc: <time datetime="{{ $data.generated_at }}">{{ $data.generated_at }}</time>
+      </p>
+      {{ end }}
+    </div>
+  </header>
+
+  <div class="container deployment-snapshot__body">
+    {{ with $data.summary }}
+    <section class="deployment-snapshot__summary">
+      <div class="deployment-snapshot__cards">
+        <div class="deployment-snapshot__card">
+          <span class="deployment-snapshot__stat-value">{{ .total_items }}</span>
+          <span class="deployment-snapshot__stat-label">Tổng deploy</span>
+        </div>
+        <div class="deployment-snapshot__card deployment-snapshot__card--success">
+          <span class="deployment-snapshot__stat-value">{{ .success }}</span>
+          <span class="deployment-snapshot__stat-label">Thành công</span>
+        </div>
+        <div class="deployment-snapshot__card deployment-snapshot__card--failed">
+          <span class="deployment-snapshot__stat-value">{{ .failed }}</span>
+          <span class="deployment-snapshot__stat-label">Thất bại</span>
+        </div>
+        <div class="deployment-snapshot__card deployment-snapshot__card--in-progress">
+          <span class="deployment-snapshot__stat-value">{{ .in_progress }}</span>
+          <span class="deployment-snapshot__stat-label">Đang chạy</span>
+        </div>
+      </div>
+    </section>
+    {{ end }}
+
+    {{ with $data.items }}
+    <section class="deployment-snapshot__results">
+      <h2>Lịch sử deploy</h2>
+      <div class="deployment-snapshot__table-wrapper">
+        <table class="deployment-snapshot__table">
+          <thead>
+            <tr>
+              <th>PR</th>
+              <th>Deploy ID</th>
+              <th>Status</th>
+              <th>Root Cause</th>
+              <th>Action Items</th>
+              <th>Remark</th>
+              <th>Cập nhật</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{ range . }}
+            <tr class="deployment-snapshot__row deployment-snapshot__row--{{ .deploy_status }}">
+              <td class="deployment-snapshot__cell deployment-snapshot__cell--pr">
+                {{ if .pr_number }}
+                  <a href="{{ .pr_url }}" rel="nofollow noopener" target="_blank" class="deployment-snapshot__link">
+                    #{{ .pr_number }}
+                  </a>
+                  <span class="deployment-snapshot__pr-title">{{ .pr_title }}</span>
+                {{ else }}
+                  <span class="deployment-snapshot__text-muted">—</span>
+                {{ end }}
+              </td>
+              <td class="deployment-snapshot__cell">
+                <a href="{{ .deploy_run_url }}" rel="nofollow noopener" target="_blank" class="deployment-snapshot__link">
+                  {{ .deploy_id | truncate 10 }}
+                </a>
+              </td>
+              <td class="deployment-snapshot__cell">
+                <span class="deployment-snapshot__badge deployment-snapshot__badge--{{ .deploy_status }}">
+                  {{ .deploy_status | upper }}
+                </span>
+              </td>
+              <td class="deployment-snapshot__cell">
+                {{ if .rootcause }}
+                  <code class="deployment-snapshot__code">{{ .rootcause }}</code>
+                {{ else }}
+                  <span class="deployment-snapshot__text-muted">—</span>
+                {{ end }}
+              </td>
+              <td class="deployment-snapshot__cell deployment-snapshot__cell--actions">
+                {{ if .action_items }}
+                  <ul class="deployment-snapshot__list">
+                  {{ range .action_items }}
+                    <li>{{ . }}</li>
+                  {{ end }}
+                  </ul>
+                {{ else }}
+                  <span class="deployment-snapshot__text-muted">—</span>
+                {{ end }}
+              </td>
+              <td class="deployment-snapshot__cell">
+                {{ .remark }}
+              </td>
+              <td class="deployment-snapshot__cell deployment-snapshot__cell--time">
+                <time datetime="{{ .updated_at }}" title="{{ .updated_at }}">
+                  {{ if .updated_at }}
+                    {{ dateFormat "02 Jan 15:04" (time.AsTime .updated_at) }}
+                  {{ else }}
+                    —
+                  {{ end }}
+                </time>
+              </td>
+            </tr>
+          {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    {{ else }}
+    <section class="deployment-snapshot__empty">
+      <p>Deployment Snapshot đang chờ dữ liệu từ lần chạy GitHub Actions tiếp theo.</p>
+    </section>
+    {{ end }}
+
+  </div>
+</article>
+
+<style>
+.deployment-snapshot {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  color: var(--text-color, #1a1a2e);
+}
+
+.deployment-snapshot__hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 3rem 0 2rem;
+  text-align: center;
+}
+
+.deployment-snapshot__hero h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.deployment-snapshot__subtitle {
+  margin-top: 0.5rem;
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+.deployment-snapshot__updated {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.deployment-snapshot__body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.deployment-snapshot__summary {
+  margin-bottom: 3rem;
+}
+
+.deployment-snapshot__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.deployment-snapshot__card {
+  background: var(--card-bg, #f8f9fa);
+  border: 1px solid var(--border-color, #e9ecef);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.deployment-snapshot__card--success {
+  border-left: 4px solid #27ae60;
+}
+
+.deployment-snapshot__card--failed {
+  border-left: 4px solid #e74c3c;
+}
+
+.deployment-snapshot__card--in-progress {
+  border-left: 4px solid #3498db;
+}
+
+.deployment-snapshot__stat-value {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 0.5rem;
+}
+
+.deployment-snapshot__card--success .deployment-snapshot__stat-value {
+  color: #27ae60;
+}
+
+.deployment-snapshot__card--failed .deployment-snapshot__stat-value {
+  color: #e74c3c;
+}
+
+.deployment-snapshot__card--in-progress .deployment-snapshot__stat-value {
+  color: #3498db;
+}
+
+.deployment-snapshot__stat-label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted, #6c757d);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.deployment-snapshot__results {
+  margin-top: 2rem;
+}
+
+.deployment-snapshot__results h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #667eea;
+}
+
+.deployment-snapshot__table-wrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border-color, #e9ecef);
+}
+
+.deployment-snapshot__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.deployment-snapshot__table th,
+.deployment-snapshot__table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color, #e9ecef);
+}
+
+.deployment-snapshot__table th {
+  background: var(--table-header-bg, #f8f9fa);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--muted, #6c757d);
+}
+
+.deployment-snapshot__table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.deployment-snapshot__row--success {
+  background: rgba(39, 174, 96, 0.03);
+}
+
+.deployment-snapshot__row--failed {
+  background: rgba(231, 76, 60, 0.03);
+}
+
+.deployment-snapshot__row--in_progress {
+  background: rgba(52, 152, 219, 0.03);
+}
+
+.deployment-snapshot__badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.deployment-snapshot__badge--success {
+  background: #d4edda;
+  color: #155724;
+}
+
+.deployment-snapshot__badge--failed {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.deployment-snapshot__badge--in_progress {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.deployment-snapshot__badge--queued {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.deployment-snapshot__badge--cancelled {
+  background: #e2e3e5;
+  color: #383d41;
+}
+
+.deployment-snapshot__badge--unknown {
+  background: #e2e3e5;
+  color: #383d41;
+}
+
+.deployment-snapshot__link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.deployment-snapshot__link:hover {
+  text-decoration: underline;
+}
+
+.deployment-snapshot__code {
+  background: var(--code-bg, #f5f5f5);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-family: "Monaco", "Courier New", monospace;
+  font-size: 0.85rem;
+  color: var(--code-color, #d73a49);
+}
+
+.deployment-snapshot__text-muted {
+  color: var(--muted, #6c757d);
+}
+
+.deployment-snapshot__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.deployment-snapshot__list li {
+  padding: 0.25rem 0;
+  word-break: break-word;
+}
+
+.deployment-snapshot__pr-title {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted, #6c757d);
+  margin-top: 0.25rem;
+}
+
+.deployment-snapshot__cell--pr {
+  min-width: 200px;
+}
+
+.deployment-snapshot__cell--actions {
+  min-width: 200px;
+}
+
+.deployment-snapshot__cell--time {
+  white-space: nowrap;
+  font-size: 0.8rem;
+}
+
+.deployment-snapshot__empty {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  color: var(--muted, #6c757d);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .deployment-snapshot__hero {
+    padding: 2rem 0 1.5rem;
+  }
+
+  .deployment-snapshot__hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .deployment-snapshot__body {
+    padding: 1.5rem;
+  }
+
+  .deployment-snapshot__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .deployment-snapshot__table-wrapper {
+    font-size: 0.75rem;
+  }
+
+  .deployment-snapshot__table th,
+  .deployment-snapshot__table td {
+    padding: 0.5rem;
+  }
+
+  .deployment-snapshot__pr-title {
+    display: none;
+  }
+
+  .deployment-snapshot__cell--pr {
+    min-width: auto;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .deployment-snapshot__table th {
+    background: var(--table-header-bg, #2d2d44);
+  }
+
+  .deployment-snapshot__badge--success {
+    background: #1e3a2e;
+    color: #8fd9a8;
+  }
+
+  .deployment-snapshot__badge--failed {
+    background: #3d2020;
+    color: #f0a0a0;
+  }
+
+  .deployment-snapshot__badge--in_progress {
+    background: #1e3d4a;
+    color: #7ecce0;
+  }
+
+  .deployment-snapshot__code {
+    background: var(--code-bg, #3d3d5c);
+    color: var(--code-color, #ff7b72);
+  }
+}
+</style>
+{{ end }}
