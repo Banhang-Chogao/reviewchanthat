@@ -29,20 +29,14 @@ external_links:
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 - title: MacRumors — leaker downgrade iPhone 18 base
   url: https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/
-image: images/posts/co-nen-cho-iphone-18-khong.webp
-image_commercial_use: true
-image_creator: Lisa from Pexels
-image_creator_url: "https://www.pexels.com/@fotios-photos"
-image_creator_id: 26735
-image_attribution_verified: true
+image: ''
+image_attribution_checked_at: '2026-07-09T10:46:55+07:00'
 image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:55+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
-image_license: Pexels License
-image_owner: external
-image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/person-holding-midnight-black-samsung-galaxy-s8-turn-on-near-macbook-pro-1092671/"
+image_attribution_verified: true
+image_creator_id: 26735
+image_license_url: https://www.pexels.com/license/
+image_reject_reason: No candidate passed semantic/color/object gate
+image_status: needs_review
 series: iphone-18-co-gi-moi
 series_order: 4
 series_title: iPhone 18 có gì mới
@@ -53,7 +47,6 @@ tags:
 - iPhone 16
 - iPhone 17
 - mua iPhone 2026
-thumbnail: images/posts/co-nen-cho-iphone-18-khong.webp
 title: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?
 tom_tat_nhanh:
 - label: Chủ đề

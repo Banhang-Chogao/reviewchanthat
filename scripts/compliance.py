@@ -397,6 +397,7 @@ class ComplianceChecker:
         self.check_frontmatter(rel, meta, slug, fname)
         self.check_images(rel, meta, slug)
         self.check_image_creator(rel, meta, slug, fname)
+        self.check_image_brand_relevance(meta, slug, rel)
         self.check_ai_summary(rel, meta)
         self.check_claim_sources(rel, meta, body)
         self.check_adsense(rel, meta, body)
@@ -646,6 +647,47 @@ class ComplianceChecker:
             return True
         expected = normalized(entry.get("creator"))
         return bool(expected) and creator_norm == expected and bool(entry.get("attribution_verified"))
+
+    def check_image_brand_relevance(self, meta: dict, slug: str, rel: str) -> None:
+        try:
+            from image_relevance_gate import compute_brand_score, detect_topic
+        except ImportError:
+            return
+        post = {
+            "slug": slug,
+            "title": meta.get("title", ""),
+            "categories": meta.get("categories") or [],
+            "tags": meta.get("tags") or [],
+            "image": meta.get("image", ""),
+            "image_source_url": meta.get("image_source_url", ""),
+            "image_source": meta.get("image_source", ""),
+            "image_provider": meta.get("image_provider", ""),
+            "image_creator": meta.get("image_creator", ""),
+        }
+        result = compute_brand_score(post)
+        wrong_brand = result.get("detected_wrong_brand")
+        score = result["score"]
+        min_score = result["min_score_required"]
+        if wrong_brand:
+            self.add_issue(
+                "ERROR", "WRONG_BRAND_IMAGE", rel,
+                f"Wrong brand detected in post image: {', '.join(wrong_brand)} (score={score})",
+            )
+        if score < min_score:
+            topic = detect_topic(post)
+            if topic != "general":
+                # ERROR only for severe cases: wrong brand OR very low score
+                severity = "WARN"
+                if wrong_brand or score < 50:
+                    severity = "ERROR"
+                self.add_issue(
+                    severity, "IMAGE_RELEVANCE_LOW", rel,
+                    f"Image relevance score {score} below minimum {min_score} for topic {topic}",
+                )
+        if result.get("negative_signals"):
+            for sig in result["negative_signals"]:
+                if sig.startswith("brand_") or sig.startswith("xos_"):
+                    self.add_issue("ERROR", "IMAGE_NEGATIVE_SIGNAL", rel, f"Image signal: {sig}")
 
     def check_image_creator(self, rel: str, meta: dict, slug: str, fname: str) -> None:
         creator = clean_text(meta.get("image_creator"))

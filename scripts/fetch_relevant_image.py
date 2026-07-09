@@ -198,12 +198,14 @@ def collect_candidates(
     providers: list[Any],
     used_urls: set[str],
     per_provider_limit: int = 15,
+    custom_queries: list[str] | None = None,
 ) -> tuple[ArticleImageContext, list[dict[str, Any]]]:
     ctx = build_context_from_post(post, body)
     pool: list[dict[str, Any]] = []
     seen_urls: set[str] = set()
 
-    for query in ctx.all_queries():
+    queries = custom_queries if custom_queries else ctx.all_queries()
+    for query in queries:
         provider_order = list(providers)
         random.shuffle(provider_order)
         for provider in provider_order:
@@ -240,6 +242,7 @@ def select_best_image(
     used_hashes: set[str] | None = None,
     download_for_gate: bool = True,
     provider_balance: dict[str, int] | None = None,
+    custom_queries: list[str] | None = None,
 ) -> dict[str, Any] | None:
     load_dotenv()
     if providers is None:
@@ -247,7 +250,7 @@ def select_best_image(
         providers = [p for p in providers if p.is_enabled()]
     used_urls = used_urls or set()
 
-    ctx, pool = collect_candidates(post, body, providers, used_urls)
+    ctx, pool = collect_candidates(post, body, providers, used_urls, custom_queries=custom_queries)
     if not pool:
         return None
 
