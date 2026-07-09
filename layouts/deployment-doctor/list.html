@@ -34,7 +34,8 @@ python scripts/qa_deployment_doctor.py</pre>
     </div>
     {{ else }}
 
-    <section class="dd-section">
+    {{/* Summary always open */}}
+    <section class="dd-section dd-section--summary">
       <h2>Summary</h2>
       <div class="dd-grid">
         <div class="dd-card"><span class="dd-n">{{ $doc.summary.failed_runs_scanned }}</span><span class="dd-l">Failed runs scanned</span></div>
@@ -48,126 +49,156 @@ python scripts/qa_deployment_doctor.py</pre>
       {{ end }}
     </section>
 
-    <section class="dd-section">
-      <h2>Recent failures</h2>
-      {{ with $doc.recent_failures }}
-      <div class="dd-table-wrap">
-        <table class="dd-table">
-          <thead>
-            <tr>
-              <th>Run</th>
-              <th>Workflow</th>
-              <th>Commit</th>
-              <th>Status</th>
-              <th>Rootcause</th>
-              <th>Safe</th>
-              <th>Action</th>
-            </tr>
-          </thead>
-          <tbody>
-          {{ range . }}
-            <tr>
-              <td>{{ if .url }}<a href="{{ .url }}" rel="noopener">{{ .run_id }}</a>{{ else }}{{ .run_id }}{{ end }}</td>
-              <td>{{ .workflow }}</td>
-              <td><code>{{ .commit }}</code></td>
-              <td>{{ .status }}</td>
-              <td><code>{{ .rootcause }}</code></td>
-              <td>{{ if .safe_to_autofix }}yes{{ else }}no{{ end }}</td>
-              <td>{{ .action }}</td>
-            </tr>
-          {{ end }}
-          </tbody>
-        </table>
-      </div>
-      {{ else }}
-      <p class="dd-empty">No recent failures in last collect.</p>
-      {{ end }}
-    </section>
-
-    <section class="dd-section">
-      <h2>Root cause clusters</h2>
-      <div class="dd-clusters">
-      {{ range $name, $items := $doc.clusters }}
-        <div class="dd-cluster">
-          <h3>{{ $name }} <span class="dd-badge">{{ len $items }}</span></h3>
-          {{ if $items }}
-          <ul>
-          {{ range first 8 $items }}
-            <li><code>{{ .failure_type }}</code> — {{ .rootcause }}</li>
-          {{ end }}
-          </ul>
-          {{ else }}
-          <p class="dd-empty">None</p>
-          {{ end }}
+    {{/* Everything else collapsed by default */}}
+    <details class="dd-fold">
+      <summary class="dd-fold__summary">
+        <span class="dd-fold__title">Recent failures</span>
+        {{ with $doc.recent_failures }}<span class="dd-badge">{{ len . }}</span>{{ end }}
+      </summary>
+      <div class="dd-fold__body">
+        {{ with $doc.recent_failures }}
+        <div class="dd-table-wrap">
+          <table class="dd-table">
+            <thead>
+              <tr>
+                <th>Run</th>
+                <th>Workflow</th>
+                <th>Commit</th>
+                <th>Status</th>
+                <th>Rootcause</th>
+                <th>Safe</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+            {{ range . }}
+              <tr>
+                <td>{{ if .url }}<a href="{{ .url }}" rel="noopener">{{ .run_id }}</a>{{ else }}{{ .run_id }}{{ end }}</td>
+                <td>{{ .workflow }}</td>
+                <td><code>{{ .commit }}</code></td>
+                <td>{{ .status }}</td>
+                <td><code>{{ .rootcause }}</code></td>
+                <td>{{ if .safe_to_autofix }}yes{{ else }}no{{ end }}</td>
+                <td>{{ .action }}</td>
+              </tr>
+            {{ end }}
+            </tbody>
+          </table>
         </div>
-      {{ end }}
+        {{ else }}
+        <p class="dd-empty">No recent failures in last collect.</p>
+        {{ end }}
       </div>
-    </section>
+    </details>
 
-    <section class="dd-section">
-      <h2>Action items</h2>
-      {{ with $doc.action_items }}
-      <ul class="dd-actions">
-      {{ range . }}
-        <li class="dd-action dd-{{ .priority | lower }}">
-          <span class="dd-pill">{{ .priority }}</span>
-          <span class="dd-owner">{{ .owner }}</span>
-          <strong>{{ .title }}</strong>
-          <span class="dd-muted">→ {{ .expected_result }}</span>
-        </li>
-      {{ end }}
-      </ul>
-      {{ else }}
-      <p class="dd-empty">No open action items.</p>
-      {{ end }}
-    </section>
+    <details class="dd-fold">
+      <summary class="dd-fold__summary">
+        <span class="dd-fold__title">Root cause clusters</span>
+      </summary>
+      <div class="dd-fold__body">
+        <div class="dd-clusters">
+        {{ range $name, $items := $doc.clusters }}
+          <div class="dd-cluster">
+            <h3>{{ $name }} <span class="dd-badge">{{ len $items }}</span></h3>
+            {{ if $items }}
+            <ul>
+            {{ range first 8 $items }}
+              <li><code>{{ .failure_type }}</code> — {{ .rootcause }}</li>
+            {{ end }}
+            </ul>
+            {{ else }}
+            <p class="dd-empty">None</p>
+            {{ end }}
+          </div>
+        {{ end }}
+        </div>
+      </div>
+    </details>
 
-    <section class="dd-section">
-      <h2>Lessons learned</h2>
-      <ul class="dd-lessons">
-      {{ range $doc.lessons_learned }}
-        <li>
-          <code>{{ .id }}</code>
-          {{ if .safe_to_autofix }}<span class="dd-pill dd-pill-ok">safe</span>{{ else }}<span class="dd-pill dd-pill-warn">unsafe</span>{{ end }}
-          — {{ .summary }}
-        </li>
-      {{ end }}
-      </ul>
-    </section>
+    <details class="dd-fold">
+      <summary class="dd-fold__summary">
+        <span class="dd-fold__title">Action items</span>
+        {{ with $doc.action_items }}<span class="dd-badge">{{ len . }}</span>{{ end }}
+      </summary>
+      <div class="dd-fold__body">
+        {{ with $doc.action_items }}
+        <ul class="dd-actions">
+        {{ range . }}
+          <li class="dd-action dd-{{ .priority | lower }}">
+            <span class="dd-pill">{{ .priority }}</span>
+            <span class="dd-owner">{{ .owner }}</span>
+            <strong>{{ .title }}</strong>
+            <span class="dd-muted">→ {{ .expected_result }}</span>
+          </li>
+        {{ end }}
+        </ul>
+        {{ else }}
+        <p class="dd-empty">No open action items.</p>
+        {{ end }}
+      </div>
+    </details>
 
-    <section class="dd-section">
-      <h2>Autofix history</h2>
-      {{ with $doc.autofix_history }}
-      <ul>
-      {{ range . }}
-        <li><code>{{ .failure_type }}</code> — <strong>{{ .result }}</strong> — {{ .detail }}</li>
-      {{ end }}
-      </ul>
-      {{ else }}
-      <p class="dd-empty">No autofix attempts recorded in last export.</p>
-      {{ end }}
-      {{ with $doc.loop_guarded }}
-      <h3>Loop-guarded</h3>
-      <ul>
-      {{ range . }}
-        <li><code>{{ .key }}</code> count={{ .count }} last={{ .last_result }}</li>
-      {{ end }}
-      </ul>
-      {{ end }}
-    </section>
+    <details class="dd-fold">
+      <summary class="dd-fold__summary">
+        <span class="dd-fold__title">Lessons learned</span>
+        {{ with $doc.lessons_learned }}<span class="dd-badge">{{ len . }}</span>{{ end }}
+      </summary>
+      <div class="dd-fold__body">
+        <ul class="dd-lessons">
+        {{ range $doc.lessons_learned }}
+          <li>
+            <code>{{ .id }}</code>
+            {{ if .safe_to_autofix }}<span class="dd-pill dd-pill-ok">safe</span>{{ else }}<span class="dd-pill dd-pill-warn">unsafe</span>{{ end }}
+            — {{ .summary }}
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+    </details>
 
-    <section class="dd-section">
-      <h2>What owner should do</h2>
-      {{ with $doc.owner_should_do }}
-      <ul>
-      {{ range . }}
-        <li><code>{{ .failure_type }}</code> — {{ .action }} <span class="dd-muted">({{ .detail }})</span></li>
-      {{ end }}
-      </ul>
-      {{ else }}
-      <p class="dd-empty">Nothing required. System will wait on external failures and autofix only safe cases.</p>
-      {{ end }}
-    </section>
+    <details class="dd-fold">
+      <summary class="dd-fold__summary">
+        <span class="dd-fold__title">Autofix history</span>
+        {{ with $doc.autofix_history }}<span class="dd-badge">{{ len . }}</span>{{ end }}
+      </summary>
+      <div class="dd-fold__body">
+        {{ with $doc.autofix_history }}
+        <ul>
+        {{ range . }}
+          <li><code>{{ .failure_type }}</code> — <strong>{{ .result }}</strong> — {{ .detail }}</li>
+        {{ end }}
+        </ul>
+        {{ else }}
+        <p class="dd-empty">No autofix attempts recorded in last export.</p>
+        {{ end }}
+        {{ with $doc.loop_guarded }}
+        <h3 class="dd-subh">Loop-guarded</h3>
+        <ul>
+        {{ range . }}
+          <li><code>{{ .key }}</code> count={{ .count }} last={{ .last_result }}</li>
+        {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </details>
+
+    <details class="dd-fold">
+      <summary class="dd-fold__summary">
+        <span class="dd-fold__title">What owner should do</span>
+        {{ with $doc.owner_should_do }}<span class="dd-badge">{{ len . }}</span>{{ end }}
+      </summary>
+      <div class="dd-fold__body">
+        {{ with $doc.owner_should_do }}
+        <ul>
+        {{ range . }}
+          <li><code>{{ .failure_type }}</code> — {{ .action }} <span class="dd-muted">({{ .detail }})</span></li>
+        {{ end }}
+        </ul>
+        {{ else }}
+        <p class="dd-empty">Nothing required. System will wait on external failures and autofix only safe cases.</p>
+        {{ end }}
+      </div>
+    </details>
 
     {{ end }}
   </div>
@@ -182,7 +213,7 @@ python scripts/qa_deployment_doctor.py</pre>
 .dd-live a{color:#ccfbf1}
 .dd-stale{background:rgba(255,255,255,.18);padding:.1rem .45rem;border-radius:4px}
 .dd-body{max-width:1040px;margin:0 auto;padding:2rem 1.25rem 4rem}
-.dd-section{margin-bottom:2.5rem}
+.dd-section{margin-bottom:1.75rem}
 .dd-section h2{font-size:1.3rem;margin:0 0 1rem;padding-bottom:.4rem;border-bottom:2px solid #0f766e}
 .dd-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.85rem}
 .dd-card{background:var(--surface,#f8f9fa);border:1px solid var(--border,#e8e6e1);border-radius:12px;padding:1rem;text-align:center}
@@ -190,6 +221,53 @@ python scripts/qa_deployment_doctor.py</pre>
 .dd-l{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted,#6c757d);margin-top:.25rem}
 .dd-ok .dd-n{color:#15803d}
 .dd-warn .dd-n{color:#c2410c}
+
+/* Collapsible sections — closed by default */
+.dd-fold{
+  margin-bottom:.75rem;
+  border:1px solid var(--border,#e8e6e1);
+  border-radius:12px;
+  background:var(--surface,#fff);
+  overflow:hidden;
+}
+.dd-fold__summary{
+  display:flex;
+  align-items:center;
+  gap:.55rem;
+  padding:.9rem 1.1rem;
+  cursor:pointer;
+  list-style:none;
+  user-select:none;
+  font-weight:700;
+  font-size:1.05rem;
+  color:var(--text,#1a1a2e);
+  border-bottom:2px solid transparent;
+  transition:background .15s ease,border-color .15s ease;
+}
+.dd-fold__summary::-webkit-details-marker{display:none}
+.dd-fold__summary::before{
+  content:"";
+  display:inline-block;
+  width:8px;height:8px;
+  border-right:2.2px solid #0f766e;
+  border-bottom:2.2px solid #0f766e;
+  transform:rotate(-45deg);
+  transition:transform .2s ease;
+  flex-shrink:0;
+  margin-top:-2px;
+}
+.dd-fold[open] .dd-fold__summary::before{
+  transform:rotate(45deg);
+  margin-top:2px;
+}
+.dd-fold[open] .dd-fold__summary{
+  border-bottom-color:#0f766e;
+  background:#f0fdfa;
+}
+.dd-fold__summary:hover{background:#f8fffe}
+.dd-fold__title{flex:1 1 auto}
+.dd-fold__body{padding:1rem 1.1rem 1.25rem}
+
 .dd-table-wrap{overflow-x:auto;border:1px solid var(--border,#e8e6e1);border-radius:12px}
 .dd-table{width:100%;border-collapse:collapse;font-size:.88rem}
 .dd-table th,.dd-table td{padding:.55rem .7rem;border-bottom:1px solid var(--border,#e8e6e1);text-align:left;vertical-align:top}
@@ -197,7 +275,8 @@ python scripts/qa_deployment_doctor.py</pre>
 .dd-clusters{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
 .dd-cluster{background:var(--surface,#f8f9fa);border:1px solid var(--border,#e8e6e1);border-radius:12px;padding:1rem}
 .dd-cluster h3{margin:0 0 .6rem;font-size:1rem}
-.dd-badge{display:inline-block;background:#ccfbf1;color:#115e59;border-radius:999px;padding:.05rem .45rem;font-size:.75rem}
+.dd-subh{font-size:1rem;margin:1rem 0 .5rem}
+.dd-badge{display:inline-block;background:#ccfbf1;color:#115e59;border-radius:999px;padding:.05rem .45rem;font-size:.75rem;font-weight:700}
 .dd-actions{list-style:none;padding:0;margin:0}
 .dd-action{padding:.7rem .85rem;border:1px solid var(--border,#e8e6e1);border-radius:10px;margin-bottom:.55rem;background:var(--surface,#fff)}
 .dd-p0{border-left:4px solid #dc2626}
