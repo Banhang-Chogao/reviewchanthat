@@ -1,22 +1,25 @@
 name: Content Direction
 
-# Triggers:
-# 1. After Deploy to GitHub Pages completes (normal flow)
-# 2. After push to main with content/data changes (optimizer merge)
-# 3. Manual dispatch
+# Schedule policy (auto):
+# - Auto runs once every 24 hours via cron (UTC).
+# - Anchor (Vietnam / Asia/Ho_Chi_Minh): daily at 05:47 — first mark
+#   computed from 2026-07-10 05:47+07 (≈ "now" when this policy was set).
+# - Equivalent UTC cron: 47 22 * * *  (22:47 UTC = 05:47 +07 next day calendar
+#   for the evening-before UTC slot; same local clock each day).
+# - Does NOT run after each post / deploy / content push.
+# - workflow_dispatch (manual) is always allowed and does not change the
+#   24h auto cadence (manual is free; schedule keeps firing on the mark).
+
 on:
+  schedule:
+    # Every 24h at 22:47 UTC ≈ 05:47 Asia/Ho_Chi_Minh
+    - cron: "47 22 * * *"
   workflow_dispatch:
-  workflow_run:
-    workflows:
-      - "Deploy to GitHub Pages"
-    types:
-      - completed
-  push:
-    branches: [main]
-    paths:
-      - 'content/posts/**'
-      - 'data/content-direction*.json'
-      - 'data/internal-links.json'
+    inputs:
+      reason:
+        description: "Optional note for this manual run (does not affect auto schedule)"
+        required: false
+        default: "manual"
 
 concurrency:
   group: content-direction-main
@@ -29,12 +32,11 @@ permissions:
 
 jobs:
   content-direction:
-    # Runs on: manual dispatch, after deploy success, or after optimizer merge
+    # Auto: schedule only. Manual: workflow_dispatch.
+    # No post-push / no after-deploy triggers.
     if: >
       github.event_name == 'workflow_dispatch' ||
-      github.event_name == 'push' ||
-      (github.event.workflow_run.conclusion == 'success' &&
-       github.event.workflow_run.head_branch == 'main')
+      github.event_name == 'schedule'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -43,7 +45,16 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Skip if recent content-direction commit
+      - name: Log schedule policy
+        run: |
+          echo "event=${{ github.event_name }}"
+          echo "manual_reason=${{ github.event.inputs.reason || 'n/a' }}"
+          echo "policy=auto every 24h at 22:47 UTC (05:47 Asia/Ho_Chi_Minh)"
+          echo "anchor=2026-07-10T05:47:00+07:00"
+          TZ=Asia/Ho_Chi_Minh date '+now_vn=%Y-%m-%d %H:%M:%S %Z'
+          date -u '+now_utc=%Y-%m-%d %H:%M:%S UTC'
+
+      - name: Skip if last commit is content-direction loop guard
         id: skip
         run: |
           LAST_CD_COMMIT=$(git log -1 --grep='\[content-direction' --oneline | head -1 || echo "")
@@ -54,7 +65,7 @@ jobs:
           fi
           if [ "$LAST_CD_COMMIT" = "$LAST_COMMIT" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Skipping: last commit is from content-direction"
+            echo "Skipping: last commit is from content-direction (loop guard)"
             exit 0
           fi
           echo "skip=false" >> "$GITHUB_OUTPUT"
@@ -69,12 +80,6 @@ jobs:
       - name: Install Python dependencies
         if: steps.skip.outputs.skip != 'true'
         run: pip install -r requirements.txt
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "0.163.1"
-          extended: true
 
       - name: Setup Hugo
         if: steps.skip.outputs.skip != 'true'
