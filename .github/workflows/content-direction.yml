@@ -1,0 +1,74 @@
+name: Content Direction
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "content/posts/**"
+      - "scripts/content_direction.py"
+      - "scripts/qa_content_direction.py"
+      - "layouts/**/content-direction*"
+      - "layouts/content-direction/**"
+      - "content/content-direction/**"
+
+concurrency:
+  group: content-direction-main
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  actions: write
+  pull-requests: write
+
+jobs:
+  content-direction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.163.1"
+          extended: true
+
+      - name: Generate Content Direction report
+        run: |
+          python scripts/content_direction.py \
+            --json data/content-direction.json \
+            --md reports/content-direction-report.md
+
+      - name: QA Content Direction (data)
+        run: python scripts/qa_content_direction.py
+
+      - name: Build Hugo
+        run: hugo --minify --baseURL "https://banhang-chogao.github.io/reviewchanthat/"
+
+      - name: QA Content Direction (public)
+        run: python scripts/qa_content_direction.py --public
+
+      - name: Commit report if changed (no deploy loop)
+        id: commit
+        run: |
+          # data/content-direction.json is paths-ignored by deploy.yml — safe to commit without redeploy loop
+          if git diff --quiet -- data/content-direction.json reports/content-direction-report.md; then
+            echo "No content-direction report changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/content-direction.json reports/content-direction-report.md
+          git commit -m "chore(content-direction): refresh report data"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"

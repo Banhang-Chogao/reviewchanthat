@@ -48,8 +48,18 @@ jobs:
       - name: Normalize AI summaries
         run: python scripts/normalize_ai_summaries.py --check
 
+      - name: Generate Content Direction report
+        run: |
+          python scripts/content_direction.py \
+            --json data/content-direction.json \
+            --md reports/content-direction-report.md
+          python scripts/qa_content_direction.py
+
       - name: Build Hugo
         run: hugo --minify
+
+      - name: QA Content Direction (public)
+        run: python scripts/qa_content_direction.py --public
 
       - name: Generate posts-only sitemap
         run: python scripts/gen_posts_sitemap.py --public-dir public
