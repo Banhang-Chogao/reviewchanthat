@@ -20,13 +20,14 @@ img,video,svg{max-width:100%;height:auto;display:block}
 
 .site-header__left{display:flex;align-items:center;gap:clamp(.45rem,.8vw,.7rem);min-width:0;flex:0 1 auto}
 
-.site-logo{display:inline-flex;align-items:center;gap:10px;width:fit-content;max-width:100%;flex:0 1 auto;min-width:0;max-width:clamp(170px,20vw,260px);padding:clamp(.45rem,.65vw,.65rem) clamp(.65rem,.95vw,.9rem);border-radius:clamp(16px,1.3vw,22px);background:linear-gradient(135deg,var(--accent-subtle) 0%,var(--accent-soft) 50%,var(--accent-subtle) 100%);color:var(--accent-hover);text-decoration:none;white-space:nowrap;line-height:1;border:1px solid var(--accent-subtle);box-shadow:0 2px 8px rgba(0,167,160,.12);transition:transform .25s var(--ease-out),background .25s ease,color .25s ease,box-shadow .25s ease}
-.site-logo:hover{background:linear-gradient(135deg,var(--accent-soft) 0%,var(--accent-subtle) 52%,var(--accent-subtle) 100%);color:#00655f;transform:translateY(-3px) scale(1.03);box-shadow:0 8px 20px rgba(0,167,160,.2)}
-.site-logo__mark{width:clamp(26px,2.2vw,30px);height:clamp(26px,2.2vw,30px);flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;filter:drop-shadow(0 1px 2px rgba(14,165,233,.25))}
+/* S-DNA logo — outline diamond mark, soft teal fill, institutional calm */
+.site-logo{display:inline-flex;align-items:center;gap:10px;width:fit-content;max-width:100%;flex:0 1 auto;min-width:0;max-width:clamp(170px,20vw,260px);padding:clamp(.4rem,.6vw,.58rem) clamp(.6rem,.9vw,.85rem);border-radius:12px;background:var(--sdna-teal-soft);color:var(--sdna-teal);text-decoration:none;white-space:nowrap;line-height:1;border:1px solid var(--sdna-border);box-shadow:var(--skin-shadow-subtle);transition:transform .25s var(--ease-out),background .25s ease,color .25s ease,box-shadow .25s ease,border-color .2s}
+.site-logo:hover{background:#fff;color:#00726d;border-color:rgba(0,167,160,.4);transform:translateY(-2px);box-shadow:var(--skin-shadow-card)}
+.site-logo__mark{width:clamp(26px,2.2vw,30px);height:clamp(26px,2.2vw,30px);flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;color:var(--sdna-teal)}
 .site-logo__mark svg{display:block;width:100%;height:auto}
-.site-logo__text{font-weight:800;font-size:clamp(1rem,1.35vw,1.35rem);letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.92;min-width:0}
+.site-logo__text{font-weight:800;font-size:clamp(1rem,1.35vw,1.35rem);letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.96;min-width:0;color:var(--sdna-heading)}
 .site-logo--header{flex:0 1 auto;min-width:0;max-width:clamp(170px,20vw,260px)}
-.site-logo--footer{padding:6px 11px 6px 5px;gap:8px;border-radius:12px}
+.site-logo--footer{padding:6px 11px 6px 5px;gap:8px;border-radius:10px}
 .site-logo--footer .site-logo__mark{width:26px;height:26px}
 .site-logo--footer .site-logo__text{font-size:.95rem}
 
@@ -107,8 +108,10 @@ html.dark-mode .theme-toggle:hover{background:rgba(56,189,248,.28);color:#e0f2fe
 
 @media(max-width:420px){.live-clock-box{display:none}}
 
-html.dark-mode .site-logo{background:linear-gradient(135deg,rgba(0,127,122,.85) 0%,rgba(0,101,95,.75) 50%,rgba(0,167,160,.55) 100%);color:#9fe3de;border-color:rgba(0,167,160,.42);box-shadow:0 2px 10px rgba(0,167,160,.18)}
-html.dark-mode .site-logo:hover{background:linear-gradient(135deg,rgba(0,101,95,.95) 0%,rgba(0,127,122,.85) 100%);color:#cdeeec}
+html.dark-mode .site-logo{background:rgba(0,167,160,.14);color:#9fe3de;border-color:rgba(0,167,160,.38);box-shadow:none}
+html.dark-mode .site-logo:hover{background:rgba(0,167,160,.22);color:#cdeeec;border-color:rgba(0,167,160,.55)}
+html.dark-mode .site-logo__text{color:#e8f7f6}
+html.dark-mode .site-logo__mark{color:#9fe3de}
 html.dark-mode .site-header__menu-btn{background:rgba(0,167,160,.16);border-color:rgba(0,167,160,.35);color:#4fd6cf}
 html.dark-mode .site-header__menu-btn:hover{background:rgba(0,167,160,.28);color:#6fe3dc}
 html.dark-mode .site-header__mobile-dropdown{background:#121a14;border-color:#1a2a20}
@@ -1225,3 +1228,57 @@ html.dark-mode .table-wrap tr:nth-child(even) td{background:#101c1b}
 html.dark-mode .table-wrap tr:hover td{background:rgba(158,201,245,.12)}
 html.dark-mode .table-wrap th{background:var(--accent-soft);color:var(--text)}
 html.dark-mode .table-wrap td{color:var(--text-secondary)}
+
+/* ========== S-DNA Icons + KPI Cards (from seomoney.org/tools/s-dna) ========== */
+/* Outline icons in circle containers — institutional, thin stroke */
+.sdna-icon{display:inline-flex;width:32px;height:32px;border-radius:50%;border:1.5px solid currentColor;align-items:center;justify-content:center;flex:0 0 auto;line-height:1}
+.sdna-icon svg{display:block}
+.sdna-icon--teal{color:#00A7A0}
+.sdna-icon--blue{color:#5B9BD5}
+.sdna-icon--purple{color:#9B8FD4}
+.sdna-icon--amber{color:#E8A838}
+.sdna-icon--lg{width:40px;height:40px}
+
+/* KPI strip — soft pastel · left accent · large value · whisper unit */
+.sdna-kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:1rem;margin:0 0 clamp(1.5rem,4vw,2.25rem)}
+.sdna-kpi{background:var(--sdna-teal-soft);border:1px solid var(--sdna-border);border-left:4px solid #00A7A0;border-radius:4px;padding:1.15rem 1.25rem;min-width:0;box-shadow:none;transition:border-color .2s ease,box-shadow .2s ease}
+.sdna-kpi:hover{border-color:rgba(0,167,160,.35);box-shadow:var(--skin-shadow-subtle)}
+.sdna-kpi--teal{background:#DDF4F2;border-left-color:#00A7A0}
+.sdna-kpi--blue{background:#DCEAF8;border-left-color:#5B9BD5}
+.sdna-kpi--purple{background:#ECE7FA;border-left-color:#9B8FD4}
+.sdna-kpi--white{background:#FFFFFF;border-left-color:#00A7A0}
+.sdna-kpi__head{display:flex;align-items:center;gap:.5rem;margin-bottom:.45rem}
+.sdna-kpi__label{font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--sdna-muted)}
+.sdna-kpi__value{font-size:clamp(1.55rem,2.8vw,2rem);font-weight:800;color:var(--sdna-heading);line-height:1.1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.sdna-kpi__unit{font-size:.85rem;font-weight:600;color:var(--sdna-muted);margin-left:.15rem}
+
+/* Content Direction / generic stats map to S-DNA KPI */
+.cd-grid{display:grid;gap:1rem;margin-bottom:1rem}
+.cd-grid-2{grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))}
+.cd-grid-3{grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr))}
+.cd-grid-4{grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr))}
+.cd-stat,.reputation-stat{background:var(--sdna-teal-soft);border:1px solid var(--sdna-border);border-left:4px solid #00A7A0;border-radius:4px;padding:1.1rem 1.2rem;text-align:left}
+.cd-stat:nth-child(3n+2),.reputation-stat:nth-child(3n+2){background:var(--sdna-blue-soft);border-left-color:#5B9BD5}
+.cd-stat:nth-child(3n+3),.reputation-stat:nth-child(3n+3){background:var(--sdna-purple-soft);border-left-color:#9B8FD4}
+.cd-stat-good{background:#DDF4F2;border-left-color:#00A7A0}
+.cd-stat-warn{background:#FDF6E9;border-left-color:#E8A838}
+.cd-stat-value,.reputation-stat dd{display:block;font-size:clamp(1.45rem,2.5vw,1.9rem);font-weight:800;color:var(--sdna-heading);line-height:1.1;font-variant-numeric:tabular-nums}
+.cd-stat-label,.reputation-stat dt{display:block;font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--sdna-muted);margin-top:.4rem}
+.reputation-stat{text-align:left}
+.reputation-stat dt{margin-bottom:0;margin-top:0;order:-1}
+.reputation-stat dd{margin:0}
+
+/* Footer GA4 stats → KPI chip style */
+.footer-nav-stat{border-radius:4px;border-left-width:4px;background:var(--sdna-teal-soft)!important;border-color:var(--sdna-border)!important;color:var(--sdna-heading)!important}
+.footer-nav-stat__label{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--sdna-muted)!important;opacity:1}
+.footer-nav-stat__value{font-size:1.15rem;font-weight:800;color:var(--sdna-heading)!important;font-variant-numeric:tabular-nums}
+.footer-nav-stat--organic{border-left-color:#00A7A0!important;background:#DDF4F2!important}
+.footer-nav-stat--total{border-left-color:#5B9BD5!important;background:#DCEAF8!important}
+
+html.dark-mode .sdna-kpi{border-color:rgba(255,255,255,.08)}
+html.dark-mode .sdna-kpi--teal{background:rgba(0,167,160,.14)}
+html.dark-mode .sdna-kpi--blue{background:rgba(91,155,213,.14)}
+html.dark-mode .sdna-kpi--purple{background:rgba(155,143,212,.14)}
+html.dark-mode .sdna-kpi--white{background:rgba(255,255,255,.04)}
+html.dark-mode .sdna-kpi__value,html.dark-mode .cd-stat-value,html.dark-mode .reputation-stat dd{color:var(--text)}
+html.dark-mode .cd-stat,html.dark-mode .reputation-stat{background:rgba(0,167,160,.1);border-color:rgba(255,255,255,.08)}

@@ -44,37 +44,49 @@ python scripts/qa_content_direction.py</pre>
     {{ with $report.summary }}
     <section class="cd-section" id="overview">
       <h2>1. Tổng quan</h2>
-      <div class="cd-grid cd-grid-4">
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .total_posts }}</span>
-          <span class="cd-stat-label">Bài viết</span>
-        </div>
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ lang.FormatNumber 0 .total_words }}</span>
-          <span class="cd-stat-label">Tổng số từ</span>
-        </div>
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ lang.FormatNumber 0 .average_words_per_post }}</span>
-          <span class="cd-stat-label">Trung bình từ/bài</span>
-        </div>
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .draft_posts }}</span>
-          <span class="cd-stat-label">Bài nháp</span>
-        </div>
+      <div class="sdna-kpi-strip" style="margin-bottom:1rem">
+        <article class="sdna-kpi sdna-kpi--teal">
+          <div class="sdna-kpi__head">
+            <span class="sdna-icon sdna-icon--teal" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"><path d="M12 3.5 L20.5 12 L12 20.5 L3.5 12 Z"/></svg></span>
+            <span class="sdna-kpi__label">Bài viết</span>
+          </div>
+          <div class="sdna-kpi__value">{{ .total_posts }} <span class="sdna-kpi__unit">posts</span></div>
+        </article>
+        <article class="sdna-kpi sdna-kpi--blue">
+          <div class="sdna-kpi__head">
+            <span class="sdna-icon sdna-icon--blue" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M5 19V5h4.5a3.5 3.5 0 0 1 0 7H5"/><path d="M12 19l7-14"/></svg></span>
+            <span class="sdna-kpi__label">Tổng số từ</span>
+          </div>
+          <div class="sdna-kpi__value">{{ lang.FormatNumber 0 .total_words }} <span class="sdna-kpi__unit">words</span></div>
+        </article>
+        <article class="sdna-kpi sdna-kpi--purple">
+          <div class="sdna-kpi__head">
+            <span class="sdna-icon sdna-icon--purple" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="8"/></svg></span>
+            <span class="sdna-kpi__label">TB từ/bài</span>
+          </div>
+          <div class="sdna-kpi__value">{{ lang.FormatNumber 0 .average_words_per_post }} <span class="sdna-kpi__unit">avg</span></div>
+        </article>
+        <article class="sdna-kpi sdna-kpi--white">
+          <div class="sdna-kpi__head">
+            <span class="sdna-icon sdna-icon--teal" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="5" y="5" width="14" height="14" rx="2"/></svg></span>
+            <span class="sdna-kpi__label">Bài nháp</span>
+          </div>
+          <div class="sdna-kpi__value">{{ .draft_posts }} <span class="sdna-kpi__unit">drafts</span></div>
+        </article>
       </div>
-      <div class="cd-grid cd-grid-3">
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .categories_count }}</span>
-          <span class="cd-stat-label">Danh mục</span>
-        </div>
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .tags_count }}</span>
-          <span class="cd-stat-label">Tags</span>
-        </div>
-        <div class="cd-stat">
-          <span class="cd-stat-value">{{ .authors_count }}</span>
-          <span class="cd-stat-label">Tác giả</span>
-        </div>
+      <div class="sdna-kpi-strip">
+        <article class="sdna-kpi sdna-kpi--teal">
+          <div class="sdna-kpi__head"><span class="sdna-kpi__label">Danh mục</span></div>
+          <div class="sdna-kpi__value">{{ .categories_count }}</div>
+        </article>
+        <article class="sdna-kpi sdna-kpi--blue">
+          <div class="sdna-kpi__head"><span class="sdna-kpi__label">Tags</span></div>
+          <div class="sdna-kpi__value">{{ .tags_count }}</div>
+        </article>
+        <article class="sdna-kpi sdna-kpi--purple">
+          <div class="sdna-kpi__head"><span class="sdna-kpi__label">Tác giả</span></div>
+          <div class="sdna-kpi__value">{{ .authors_count }}</div>
+        </article>
       </div>
     </section>
     {{ end }}
