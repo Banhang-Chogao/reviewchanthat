@@ -1,4 +1,6 @@
 ---
+image = ""
+thumbnail = ""
 ai_summary:
   collapsed: false
   enabled: true
