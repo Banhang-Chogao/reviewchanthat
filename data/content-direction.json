@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-10T05:07:38+07:00",
-  "generated_at_display": "10-07-2026 05:07:38",
+  "generated_at": "2026-07-10T05:28:03+07:00",
+  "generated_at_display": "10-07-2026 05:28:03",
   "summary": {
-    "total_posts": 170,
+    "total_posts": 172,
     "draft_posts": 0,
-    "total_words": 195666,
-    "average_words_per_post": 1151,
+    "total_words": 199663,
+    "average_words_per_post": 1161,
     "categories_count": 5,
-    "tags_count": 430,
+    "tags_count": 433,
     "authors_count": 1,
     "parse_warnings": 0
   },
@@ -18,7 +18,7 @@
     },
     {
       "name": "cong-nghe",
-      "count": 75
+      "count": 77
     },
     {
       "name": "review",
@@ -36,7 +36,7 @@
   "authors": [
     {
       "name": "Minh Hoàng",
-      "count": 170
+      "count": 172
     }
   ],
   "tags_top": [
@@ -169,6 +169,16 @@
         "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
         "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
         "length": 65
+      },
+      {
+        "slug": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
+        "title": "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?",
+        "length": 65
+      },
+      {
+        "slug": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
+        "title": "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?",
+        "length": 66
       },
       {
         "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
@@ -783,6 +793,16 @@
         "slug": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
         "title": "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững",
         "length": 214
+      },
+      {
+        "slug": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
+        "title": "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?",
+        "length": 178
+      },
+      {
+        "slug": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
+        "title": "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?",
+        "length": 179
       },
       {
         "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
@@ -1655,6 +1675,18 @@
         "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
         "age_days": 1,
         "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
+        "title": "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?",
+        "age_days": 0,
+        "date": "10-07-2026 00:35:00"
+      },
+      {
+        "slug": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
+        "title": "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?",
+        "age_days": 0,
+        "date": "10-07-2026 00:30:00"
       },
       {
         "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
@@ -2613,8 +2645,8 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1498,
-    "average_outbound_per_post": 8.81,
+    "total_outbound_links": 1504,
+    "average_outbound_per_post": 8.74,
     "top_linked_posts": [
       {
         "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
@@ -2669,10 +2701,6 @@
     ],
     "orphan_posts": [
       {
-        "slug": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
-        "title": "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
-      },
-      {
         "slug": "co-nen-len-ios-26-5-2-khong",
         "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
       },
@@ -2683,10 +2711,6 @@
       {
         "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
         "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-      },
-      {
-        "slug": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
-        "title": "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
       }
     ],
     "posts_missing_internal_links": [
@@ -2743,8 +2767,8 @@
       "priority": "P1",
       "type": "Internal Linking",
       "title": "Giảm orphan posts (không có inbound)",
-      "detail": "5 bài không nhận internal link.",
-      "affected_count": 5,
+      "detail": "3 bài không nhận internal link.",
+      "affected_count": 3,
       "suggested_fix": "Link tới orphan từ bài hub/pillar cùng cluster."
     },
     {
@@ -2759,16 +2783,16 @@
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài meta description",
-      "detail": "0 quá ngắn, 26 quá dài (chuẩn 50–160).",
-      "affected_count": 26,
+      "detail": "0 quá ngắn, 28 quá dài (chuẩn 50–160).",
+      "affected_count": 28,
       "suggested_fix": "Chỉnh description về 50–160 ký tự."
     },
     {
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài title tag",
-      "detail": "0 title quá ngắn, 127 title quá dài (chuẩn 30–60 ký tự).",
-      "affected_count": 127,
+      "detail": "0 title quá ngắn, 129 title quá dài (chuẩn 30–60 ký tự).",
+      "affected_count": 129,
       "suggested_fix": "Rút gọn/mở rộng title về 30–60 ký tự, giữ keyword đầu."
     },
     {
