@@ -17,7 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: ">- Trải nghiệm K-beauty Seoul: học makeup tại JUNGSAEMMOOL 101, tư vấn personal color, mua mỹ phẩm Myeongdong. Lịch trình làm đẹp 1 ngày."
+description: "Trải nghiệm K-beauty Seoul: học makeup tại JUNGSAEMMOOL 101, tư vấn personal color, mua mỹ phẩm Myeongdong. Lịch trình làm đẹp 1 ngày."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX

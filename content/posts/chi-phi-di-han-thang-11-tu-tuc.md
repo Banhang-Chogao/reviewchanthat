@@ -21,7 +21,7 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 22:00:00+07:00'
-description: ">- Chi phí đi Hàn tháng 11 tự túc: bảng giá tham khảo vé máy bay, khách   sạn, ăn uống, di chuyển và mẹo tiết kiệm cho chuyến 5N4Đ."
+description: "Chi phí đi Hàn tháng 11 tự túc: bảng giá tham khảo vé máy bay, khách   sạn, ăn uống, di chuyển và mẹo tiết kiệm cho chuyến 5N4Đ."
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast

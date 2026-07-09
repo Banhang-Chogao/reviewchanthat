@@ -17,7 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: ">- Ocean World vs Caribbean Bay: so sánh chi tiết giá vé, khoảng cách, trò chơi, độ đông. Nên chọn công viên nước nào gần Seoul?"
+description: "Ocean World vs Caribbean Bay: so sánh chi tiết giá vé, khoảng cách, trò chơi, độ đông. Nên chọn công viên nước nào gần Seoul?"
 draft: false
 faq:
 - answer: Caribbean Bay nếu thích nhiều trò, không ngại đông. Ocean World nếu muốn

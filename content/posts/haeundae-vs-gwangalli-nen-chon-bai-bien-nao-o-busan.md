@@ -17,7 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: ">- Haeundae vs Gwangalli: so sánh chi tiết hai bãi biển nổi tiếng nhất Busan. Nên chọn bãi nào cho chuyến du lịch mùa hè?"
+description: "Haeundae vs Gwangalli: so sánh chi tiết hai bãi biển nổi tiếng nhất Busan. Nên chọn bãi nào cho chuyến du lịch mùa hè?"
 draft: false
 faq:
 - answer: Haeundae cho nhóm bạn, Gwangalli cho cặp đôi. Haeundae đông vui, Gwangalli

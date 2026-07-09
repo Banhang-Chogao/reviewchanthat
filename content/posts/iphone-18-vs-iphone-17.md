@@ -17,7 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 15:00:00+07:00'
-description: ">- iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản phẩm — nên mua iPhone 17 ngay hay chờ Pro/Fold 2026 cho người dùng Việt Nam."
+description: "iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản phẩm — nên mua iPhone 17 ngay hay chờ Pro/Fold 2026 cho người dùng Việt Nam."
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 roundup

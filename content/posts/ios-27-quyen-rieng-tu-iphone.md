@@ -17,7 +17,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 10:20:00+07:00"
-description: ">- Quyền riêng tư trên iOS 27: Private Cloud Compute, Siri AI, parental controls, quyền app và checklist cho người dùng iPhone tại Việt Nam."
+description: "Quyền riêng tư trên iOS 27: Private Cloud Compute, Siri AI, parental controls, quyền app và checklist cho người dùng iPhone tại Việt Nam."
 draft: false
 image: images/posts/ios-27-quyen-rieng-tu-iphone.webp
 image_attribution_checked_at: '2026-07-09T15:38:01+07:00'

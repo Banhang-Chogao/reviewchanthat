@@ -16,7 +16,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: "2026-07-08 09:00:00+07:00"
-description: ">- Pin iPhone với iOS 27: kỳ vọng hiệu năng Apple công bố, ảnh hưởng AI/Siri và mẹo tiết kiệm pin cho người dùng Việt Nam."
+description: "Pin iPhone với iOS 27: kỳ vọng hiệu năng Apple công bố, ảnh hưởng AI/Siri và mẹo tiết kiệm pin cho người dùng Việt Nam."
 draft: false
 image: images/posts/ios-27-cai-thien-pin-iphone.webp
 image_attribution_checked_at: '2026-07-09T15:38:00+07:00'

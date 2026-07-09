@@ -18,7 +18,7 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
-description: ">- Day trip Suwon từ Seoul: tham quan Hwaseong Fortress UNESCO, Hwaseong Haenggung và Korean Folk Village Yongin. Lịch trình 1 ngày tự túc."
+description: "Day trip Suwon từ Seoul: tham quan Hwaseong Fortress UNESCO, Hwaseong Haenggung và Korean Folk Village Yongin. Lịch trình 1 ngày tự túc."
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
