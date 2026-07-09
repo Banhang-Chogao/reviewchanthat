@@ -21,7 +21,9 @@ from article_image_context import ArticleImageContext
 
 TOTAL_THRESHOLD = 72
 SEMANTIC_THRESHOLD = 28
+SEMANTIC_THRESHOLD_PROXY = 14
 COLOR_THRESHOLD = 12
+CLIP_MAX_CHARS = 240
 
 FLOWER_TERMS = {
     "flower", "flowers", "rose", "roses", "bloom", "blooming", "bouquet",
@@ -222,12 +224,25 @@ def _clip_model():
         return None
 
 
+def _clip_text_prompt(ctx: ArticleImageContext, candidate: dict[str, Any]) -> str:
+    parts = [
+        ctx.primary_topic or ctx.title[:100],
+        ", ".join(ctx.positive_keywords[:6]),
+        candidate.get("alt") or "",
+    ]
+    text = ". ".join(p for p in parts if p)
+    return text[:CLIP_MAX_CHARS]
+
+
 def semantic_score(ctx: ArticleImageContext, image: Image.Image, candidate: dict[str, Any]) -> tuple[float, dict[str, Any]]:
     meta = candidate_metadata_text(candidate)
     positive_hits = sum(1 for kw in ctx.positive_keywords if _norm(kw) in meta)
     negative_hits = sum(1 for kw in ctx.negative_keywords if _norm(kw) in meta)
     proxy = max(0.0, min(45.0, 8 + positive_hits * 4 - negative_hits * 10))
     details: dict[str, Any] = {"mode": "keyword_proxy", "positive_hits": positive_hits, "negative_hits": negative_hits}
+
+    if os.environ.get("IMAGE_GATE_CLIP", "1").strip().lower() in {"0", "false", "no"}:
+        return proxy, details
 
     clip_bundle = _clip_model()
     if clip_bundle is None:
@@ -236,19 +251,21 @@ def semantic_score(ctx: ArticleImageContext, image: Image.Image, candidate: dict
     try:
         import torch
         model, processor = clip_bundle
-        prompts = [
-            ctx.semantic_prompt,
-            ", ".join(ctx.positive_keywords[:8]),
-            candidate.get("alt") or candidate.get("title") or ctx.primary_topic,
-        ]
-        text = ". ".join(p for p in prompts if p)
-        inputs = processor(text=[text], images=image, return_tensors="pt", padding=True)
+        text = _clip_text_prompt(ctx, candidate)
+        inputs = processor(
+            text=[text],
+            images=image,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+            max_length=77,
+        )
         with torch.no_grad():
             outputs = model(**inputs)
-            logits = outputs.logits_per_image.softmax(dim=1)[0][0].item()
-        clip_score = max(0.0, min(45.0, logits * 45))
-        blended = max(proxy, clip_score * 0.75 + proxy * 0.25)
-        details.update({"mode": "clip+proxy", "clip_raw": logits, "proxy": proxy})
+            raw = float(outputs.logits_per_image[0][0].item())
+        clip_score = max(0.0, min(45.0, (raw - 18.0) * 2.2))
+        blended = max(proxy, clip_score * 0.7 + proxy * 0.3)
+        details.update({"mode": "clip+proxy", "clip_raw": raw, "proxy": proxy})
         return blended, details
     except Exception as exc:
         details["clip_error"] = str(exc)
@@ -370,13 +387,23 @@ def score_candidate(
 def accepts(score: GateScore, ctx: ArticleImageContext) -> tuple[bool, str]:
     if score.hard_reject:
         return False, score.reject_reason or "hard_reject"
-    if score.semantic_score < SEMANTIC_THRESHOLD:
+    semantic_mode = (score.details.get("semantic") or {}).get("mode", "")
+    semantic_floor = SEMANTIC_THRESHOLD_PROXY if semantic_mode == "keyword_proxy" else SEMANTIC_THRESHOLD
+    if score.semantic_score < semantic_floor:
         return False, f"semantic_below_threshold:{score.semantic_score}"
     if ctx.desired_palette and score.color_score < COLOR_THRESHOLD:
         return False, f"color_below_threshold:{score.color_score}"
-    if score.total_score < TOTAL_THRESHOLD:
+    total_floor = 65 if not ctx.desired_palette else TOTAL_THRESHOLD
+    if score.total_score < total_floor:
         return False, f"total_below_threshold:{score.total_score}"
     return True, "accepted"
+
+
+def _metadata_prefilter_score(ctx: ArticleImageContext, candidate: dict[str, Any]) -> float:
+    hard, _ = check_hard_reject(ctx, candidate)
+    if hard:
+        return -1.0
+    return _keyword_overlap_score(ctx, candidate)
 
 
 def rank_candidates(
@@ -388,6 +415,8 @@ def rank_candidates(
 ) -> list[dict[str, Any]]:
     ranked: list[dict[str, Any]] = []
     pool = candidates[:limit] if limit else candidates
+    if download and len(pool) > 12:
+        pool = sorted(pool, key=lambda c: _metadata_prefilter_score(ctx, c), reverse=True)[:12]
     for candidate in pool:
         score = score_candidate(ctx, candidate, used_hashes=used_hashes, download=download)
         ok, reason = accepts(score, ctx)
