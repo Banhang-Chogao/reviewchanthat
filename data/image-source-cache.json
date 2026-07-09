@@ -106,13 +106,15 @@
     "source_platform": "Pexels",
     "source_url": "https://www.pexels.com/photo/a-man-in-a-conical-hat-riding-a-boat-7446376/",
     "direct_url": "https://images.pexels.com/photos/7446376/pexels-photo-7446376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "creator": "KOREAN JH",
+    "creator": "",
     "license": "Pexels License",
     "commercial_use": true,
     "local_source_path": "static/images/posts-src/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md.jpg",
     "output_path": "static/images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md.webp",
-    "watermark_text": "Source: Pexels / KOREAN JH",
-    "creator_url": ""
+    "watermark_text": "Source: Pexels",
+    "creator_url": "",
+    "attribution_verified": false,
+    "attribution_source": "not_found"
   },
   "checklist-truoc-khi-mua-mot-san-pham-online": {
     "slug": "checklist-truoc-khi-mua-mot-san-pham-online",
@@ -2153,7 +2155,7 @@
     "commercial_use": true,
     "local_source_path": "static/images/posts-src/starbucks-nguyen-van-troi.jpg",
     "output_path": "static/images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp",
-    "watermark_text": "Source: Self",
+    "watermark_text": "Source: self",
     "creator_url": "",
     "provider_used": "self-owned",
     "creator_id": "",

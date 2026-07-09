@@ -26,19 +26,18 @@ external_links:
 - title: Starbucks Stories — Store design
   url: https://stories.starbucks.com/stories/design/
 image: images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp
+image_attribution_checked_at: '2026-07-09T15:29:56+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jean van der Meulen
-image_creator_url: "https://www.pexels.com/@jvdm"
-image_creator_id: 642133
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:23+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '642133'
+image_creator_url: https://www.pexels.com/@jvdm
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/bathroom-interior-1457847/"
+image_source_url: https://www.pexels.com/photo/people-sitting-inside-room-1457847/
 series: starbucks-vietnam
 series_order: 5
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'

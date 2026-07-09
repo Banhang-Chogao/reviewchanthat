@@ -30,19 +30,18 @@ faq:
     trời.
   question: Nên đi đâu tháng 7?
 image: images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp
+image_attribution_checked_at: '2026-07-09T15:29:49+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Nguyen Hung
-image_creator_url: "https://www.pexels.com/@mh92"
-image_creator_id: 1861858
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:26+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '1861858'
+image_creator_url: https://www.pexels.com/@mh92
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/woman-in-hanbok-dress-holding-umbrella-11095924/"
+image_source_url: https://www.pexels.com/photo/woman-in-hanbok-dress-holding-umbrella-11095924/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

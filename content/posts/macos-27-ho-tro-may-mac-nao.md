@@ -21,19 +21,18 @@ description: Danh sách Mac tương thích macOS Golden Gate 27 theo Apple, phâ
   Mac Intel bị loại, M1 vs M4 và lộ trình cho người dùng Việt Nam.
 draft: false
 image: images/posts/macos-27-ho-tro-may-mac-nao.webp
+image_attribution_checked_at: '2026-07-09T15:29:52+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: hitesh choudhary
-image_creator_url: "https://www.pexels.com/@hiteshchoudhary"
-image_creator_id: 97941
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:18+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '97941'
+image_creator_url: https://www.pexels.com/@hiteshchoudhary
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/turned-on-macbook-pro-693859/"
+image_source_url: https://www.pexels.com/photo/turned-on-macbook-pro-693859/
 series: macos-27-co-gi-moi
 series_order: 2
 series_title: macOS 27 có gì mới

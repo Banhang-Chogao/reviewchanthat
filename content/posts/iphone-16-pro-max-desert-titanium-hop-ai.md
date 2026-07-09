@@ -17,19 +17,18 @@ description: 'Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu,
   kiện, so với Natural/Black và có nên chọn làm màu chính.'
 draft: false
 image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp
+image_attribution_checked_at: '2026-07-09T15:29:51+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Vie Studio
-image_creator_url: "https://www.pexels.com/@vie-studio"
-image_creator_id: 2282525
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:08+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '2282525'
+image_creator_url: https://www.pexels.com/@vie-studio
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/black-mobile-phone-on-white-wooden-table-8148741/"
+image_source_url: https://www.pexels.com/photo/black-mobile-phone-on-white-wooden-table-8148741/
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 2
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'

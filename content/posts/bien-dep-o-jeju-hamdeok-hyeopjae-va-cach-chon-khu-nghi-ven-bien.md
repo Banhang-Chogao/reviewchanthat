@@ -31,19 +31,18 @@ external_links:
 - title: https://www.visitjeju.net/en/>
   url: https://www.visitjeju.net/en/>
 image: images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp
+image_attribution_checked_at: '2026-07-09T15:29:46+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Kharl Anthony Paica
-image_creator_url: "https://www.pexels.com/@kharlitos"
-image_creator_id: 1701570
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:16+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '1701570'
+image_creator_url: https://www.pexels.com/@kharlitos
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/a-rocky-shoreline-with-a-waterfall-and-a-rocky-cliff-16663092/"
+image_source_url: https://www.pexels.com/photo/a-rocky-shoreline-with-a-waterfall-and-a-rocky-cliff-16663092/
 series: du-lich
 series_order: 18
 series_title: Du lịch Hàn Quốc 2026

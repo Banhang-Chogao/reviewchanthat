@@ -33,19 +33,18 @@ external_links:
 - title: Digital Markets Act — Trang chính thức EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp
+image_attribution_checked_at: '2026-07-09T15:29:56+07:00'
+image_attribution_source: embedded_exif_iptc_xmp
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Harry Parvin
-image_creator_url: ""
-image_creator_id: ""
-image_attribution_verified: true
-image_attribution_source: embedded_exif_iptc_xmp
-image_attribution_checked_at: "2026-07-09T10:47:03+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: ''
+image_creator_url: ''
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/person-holding-black-iphone-7-3861969/"
+image_source_url: https://www.pexels.com/photo/person-holding-black-iphone-7-3861969/
 series: apple-ec-dma-app-store-ios
 series_order: 5
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'

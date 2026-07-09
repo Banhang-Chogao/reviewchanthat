@@ -35,19 +35,18 @@ external_links:
 - title: Digital Markets Act — EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp
+image_attribution_checked_at: '2026-07-09T15:29:55+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Andrea Piacquadio
-image_creator_url: "https://www.pexels.com/@olly"
-image_creator_id: 224453
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:20+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '224453'
+image_creator_url: https://www.pexels.com/@olly
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/smiling-formal-male-with-laptop-chatting-via-phone-3760263/"
+image_source_url: https://www.pexels.com/photo/photo-of-person-holding-smartphone-3760263/
 series: apple-ec-dma-app-store-ios
 series_order: 4
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'

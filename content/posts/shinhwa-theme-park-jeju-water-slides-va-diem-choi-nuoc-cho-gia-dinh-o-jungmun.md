@@ -47,19 +47,18 @@ faq:
     nhàng và nhiều màu sắc.
   question: Shinhwa World có phù hợp trẻ em không?
 image: images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp
+image_attribution_checked_at: '2026-07-09T15:29:53+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Kharl Anthony Paica
-image_creator_url: "https://www.pexels.com/@kharlitos"
-image_creator_id: 1701570
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:32+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '1701570'
+image_creator_url: https://www.pexels.com/@kharlitos
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/view-of-a-road-along-the-coast-under-a-clear-blue-sky-16677692/"
+image_source_url: https://www.pexels.com/photo/view-of-a-road-along-the-coast-under-a-clear-blue-sky-16677692/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

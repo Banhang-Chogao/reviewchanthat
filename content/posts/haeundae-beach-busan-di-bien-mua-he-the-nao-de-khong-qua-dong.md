@@ -42,19 +42,18 @@ faq:
 - answer: Không. Nhiệt độ nước biển tháng 7–8 dao động 22–25°C, rất dễ chịu.
   question: Tháng 8 nước biển có lạnh không?
 image: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
+image_attribution_checked_at: '2026-07-09T15:29:49+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jhany Blue
-image_creator_url: "https://www.pexels.com/@jhany-blue-436502581"
-image_creator_id: 436502581
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:25+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '436502581'
+image_creator_url: https://www.pexels.com/@jhany-blue-436502581
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/aerial-night-view-of-haeundae-beach-busan-29188035/"
+image_source_url: https://www.pexels.com/photo/aerial-night-view-of-haeundae-beach-busan-29188035/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
