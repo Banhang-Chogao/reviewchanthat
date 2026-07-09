@@ -31,7 +31,12 @@ except ImportError:
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from creator_policy import is_blocked_creator
-from image_gate_policy import gate_score_passes, is_meaningful_gate_score, is_self_owned_meta
+from image_gate_policy import (
+    gate_score_passes,
+    is_meaningful_gate_score,
+    is_self_owned_meta,
+    normalize_gate_score,
+)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT_DIRS = [
@@ -444,7 +449,7 @@ class ComplianceChecker:
         if meta.get("image_status") == "verified":
             if not clean_text(meta.get("image_source_url")):
                 self.add_issue("ERROR", "VERIFIED_IMAGE_NO_SOURCE", rel, "verified image missing image_source_url")
-            score = meta.get("image_total_score")
+            score = normalize_gate_score(meta.get("image_total_score"))
             if meta.get("image_query") and not is_self_owned_meta(meta):
                 if not is_meaningful_gate_score(score):
                     self.add_issue(
@@ -460,7 +465,11 @@ class ComplianceChecker:
                         rel,
                         f"image_total_score below gate threshold: {score}",
                     )
-            elif is_meaningful_gate_score(score) and float(score) < 52 and not is_self_owned_meta(meta):
+            elif (
+                is_meaningful_gate_score(score)
+                and not gate_score_passes(score)
+                and not is_self_owned_meta(meta)
+            ):
                 self.add_issue(
                     "ERROR",
                     "IMAGE_SCORE_LOW",

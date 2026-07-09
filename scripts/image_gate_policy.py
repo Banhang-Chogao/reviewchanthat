@@ -67,11 +67,18 @@ def gate_meta_from_entry(entry: dict[str, Any]) -> dict[str, Any] | None:
     return cleaned or None
 
 
-def is_meaningful_gate_score(score: Any) -> bool:
+def normalize_gate_score(score: Any) -> Any:
+    """Treat zero placeholders as missing gate scores."""
+    if score in (None, ""):
+        return None
     try:
-        return float(score) > 0
+        return None if float(score) <= 0 else score
     except (TypeError, ValueError):
-        return False
+        return score
+
+
+def is_meaningful_gate_score(score: Any) -> bool:
+    return normalize_gate_score(score) is not None
 
 
 def requires_gate_score(meta: dict[str, Any]) -> bool:
