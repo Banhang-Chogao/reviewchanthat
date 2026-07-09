@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T05:48:19+07:00",
-  "generated_at_display": "10-07-2026 05:48:19",
+  "generated_at": "2026-07-10T05:50:03+07:00",
+  "generated_at_display": "10-07-2026 05:50:03",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -10,16 +10,25 @@
     "failed_runs_scanned": 25,
     "safe_autofixes_available": 25,
     "unsafe_external_failures": 0,
-    "open_action_items": 8,
-    "loop_guarded_attempts": 28,
+    "open_action_items": 7,
+    "loop_guarded_attempts": 30,
     "by_type": {
-      "qa_expectation_mismatch": 9,
+      "qa_expectation_mismatch": 10,
       "workflow_fanout": 8,
-      "sitemap_noindex_mismatch": 7,
-      "duplicate_yaml_keys": 1
+      "sitemap_noindex_mismatch": 7
     }
   },
   "recent_failures": [
+    {
+      "run_id": "29055542121",
+      "workflow": "Content Direction",
+      "commit": "37b0dbb",
+      "status": "failure",
+      "rootcause": "qa_expectation_mismatch",
+      "safe_to_autofix": true,
+      "action": "Align QA with product rules.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29055542121"
+    },
     {
       "run_id": "29055405962",
       "workflow": "Content Direction",
@@ -181,16 +190,6 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29053566327"
     },
     {
-      "run_id": "29053257563",
-      "workflow": "Deployment Doctor",
-      "commit": "7d4b95e",
-      "status": "cancelled",
-      "rootcause": "duplicate_yaml_keys",
-      "safe_to_autofix": true,
-      "action": "Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29053257563"
-    },
-    {
       "run_id": "29055556069",
       "workflow": "Auto Merge",
       "commit": "77fea58",
@@ -325,6 +324,12 @@
     "qa_debt": [
       {
         "failure_type": "qa_expectation_mismatch",
+        "run_id": "29055542121",
+        "rootcause": "QA expects a footer/product element that product intentionally removed.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "qa_expectation_mismatch",
         "run_id": "29055405962",
         "rootcause": "QA expects a footer/product element that product intentionally removed.",
         "safe_to_autofix": true
@@ -424,12 +429,6 @@
         "run_id": "29053566327",
         "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
-      },
-      {
-        "failure_type": "duplicate_yaml_keys",
-        "run_id": "29053257563",
-        "rootcause": "Hugo front matter chứa duplicate YAML keys, khiến build fail.",
-        "safe_to_autofix": true
       }
     ]
   },
@@ -460,13 +459,6 @@
       "owner": "system",
       "failure_type": "sitemap_noindex_mismatch",
       "title": "Exclude noindex/admin/doctor pages.",
-      "expected_result": "Unblock deploy / prevent recurrence"
-    },
-    {
-      "priority": "P1",
-      "owner": "system",
-      "failure_type": "duplicate_yaml_keys",
-      "title": "Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py",
       "expected_result": "Unblock deploy / prevent recurrence"
     },
     {
@@ -657,6 +649,12 @@
   ],
   "autofix_history": [
     {
+      "run_id": "29055542121",
+      "failure_type": "qa_expectation_mismatch",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
       "run_id": "29055405962",
       "failure_type": "qa_expectation_mismatch",
       "result": "skipped",
@@ -713,15 +711,15 @@
     {
       "run_id": "29055367473",
       "failure_type": "sitemap_noindex_mismatch",
-      "result": "skipped",
-      "detail": "posts-only sitemap already in place",
-      "script": "fix_sitemap_noindex"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 6f6020ce3aa3:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
       "run_id": "29055241804",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "posts-only sitemap already in place",
+      "script": "fix_sitemap_noindex"
     },
     {
       "run_id": "29055141617",
@@ -752,12 +750,6 @@
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
       "detail": "no script or already attempted this run"
-    },
-    {
-      "run_id": "29053257563",
-      "failure_type": "duplicate_yaml_keys",
-      "result": "skipped",
-      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
     },
     {
       "run_id": "29055556069",
@@ -973,9 +965,21 @@
       "last_result": "skipped"
     },
     {
+      "key": "bc563c09fabb:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:50:03+07:00",
+      "last_result": "skipped"
+    },
+    {
       "key": "6f6020ce3aa3:sitemap_noindex_mismatch",
       "count": 2,
       "last_attempt_at": "2026-07-10T05:48:19+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "77fea5827259:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:50:03+07:00",
       "last_result": "skipped"
     }
   ],
