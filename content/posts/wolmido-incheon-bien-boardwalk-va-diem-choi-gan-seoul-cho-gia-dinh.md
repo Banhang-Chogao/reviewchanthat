@@ -35,19 +35,18 @@ faq:
 - answer: Có, rất phù hợp. Các trò chơi nhẹ nhàng, boardwalk rộng, có thủy cung.
   question: Wolmido có phù hợp với trẻ nhỏ không?
 image: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
+image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: joon young, Park
-image_creator_url: "https://www.pexels.com/@doldosa"
-image_creator_id: 3425379
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:37+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '3425379'
+image_creator_url: https://www.pexels.com/@doldosa
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/view-of-the-yeongjong-bridge-in-incheon-south-korea-during-sunset-14958503/"
+image_source_url: https://www.pexels.com/photo/view-of-the-yeongjong-bridge-in-incheon-south-korea-during-sunset-14958503/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

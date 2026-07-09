@@ -21,19 +21,18 @@ description: 'Đánh giá hiệu năng và pin macOS Golden Gate 27: số liệu
   hồi beta developer và ảnh hưởng Siri AI lên MacBook Air/Pro.'
 draft: false
 image: images/posts/macos-27-hieu-nang-pin-macbook.webp
+image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Rodrigo Santos
-image_creator_url: "https://www.pexels.com/@rsantos1232"
-image_creator_id: 125824
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:18+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '125824'
+image_creator_url: https://www.pexels.com/@rsantos1232
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/workplace-with-modern-laptop-with-program-code-on-screen-3888151/"
+image_source_url: https://www.pexels.com/photo/workplace-with-modern-laptop-with-program-code-on-screen-3888151/
 series: macos-27-co-gi-moi
 series_order: 4
 series_title: macOS 27 có gì mới

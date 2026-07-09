@@ -32,19 +32,18 @@ external_links:
 - title: KoreaToDo — Gapyeong Day Trip Nami Island
   url: https://www.koreatodo.com/gapyeong-day-trip-nami-island
 image: images/posts/chi-phi-di-han-thang-11-tu-tuc.webp
+image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Светлана Конева
-image_creator_url: "https://www.pexels.com/@269097219"
-image_creator_id: 269097219
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:54+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '269097219'
+image_creator_url: https://www.pexels.com/@269097219
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/12787317/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-12787317/
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
   title: Đi Hàn tháng 11 có đẹp không?

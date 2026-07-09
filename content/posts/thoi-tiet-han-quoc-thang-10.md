@@ -43,19 +43,18 @@ faq:
     Mang thêm lớp áo khi đi núi.
   question: Tháng 10 đi Hàn nên mang gì?
 image: images/posts/thoi-tiet-han-quoc-thang-10.webp
+image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
-image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
-image_creator_id: 222549
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:25+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '222549'
+image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/2131626/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-2131626/
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
   title: Đi Hàn tháng 10 có đẹp không?

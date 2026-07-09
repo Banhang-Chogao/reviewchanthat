@@ -40,19 +40,18 @@ faq:
     là bạn duy trì thói quen ghi chép mỗi ngày.'
   question: App nào giúp quản lý chi tiêu tốt?
 image: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
+image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Thanh Long Bùi
-image_creator_url: "https://www.pexels.com/@thanh-long-bui-483143920"
-image_creator_id: 483143920
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:17+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '483143920'
+image_creator_url: https://www.pexels.com/@thanh-long-bui-483143920
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/female-pickleball-player-in-action-at-h-i-phong-29665449/"
+image_source_url: https://www.pexels.com/photo/female-pickleball-player-in-action-at-h-i-phong-29665449/
 slug: cach-xay-dung-thoi-quen-mua-sam-thong-minh
 tags:
 - mua sắm thông minh

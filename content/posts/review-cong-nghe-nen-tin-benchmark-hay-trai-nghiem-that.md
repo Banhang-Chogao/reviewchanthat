@@ -37,19 +37,18 @@ faq:
     nhiều nguồn khác nhau. Ưu tiên review dài hạn sau 1-3 tháng sử dụng.
   question: Nên tin vào đâu khi mua đồ công nghệ?
 image: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
+image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: AlphaTradeZone
-image_creator_url: "https://www.pexels.com/@alphatradezone"
-image_creator_id: 3882745
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:32+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '3882745'
+image_creator_url: https://www.pexels.com/@alphatradezone
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/fingers-on-ipad-with-graph-on-screen-5833772/"
+image_source_url: https://www.pexels.com/photo/fingers-on-ipad-with-graph-on-screen-5833772/
 slug: review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that
 tags:
 - benchmark

@@ -13,8 +13,8 @@ ai_summary:
     từ ga về khách sạn.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du
-    lịch uy tín.
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.bangkokairportonline.com/bangkok-airport-rail-link/,
     https://www.bts.co.th/eng/tickets/ticket-rabbit-farerate.html, https://www.grab.com/th,
     https://www.tourismthailand.org.'
@@ -24,22 +24,27 @@ categories:
 - du-lich
 date: 2026-07-08 10:00:00+07:00
 description: 'Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link,
-  BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa mưa.'
+  BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa
+  mưa.'
 draft: false
 image: images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp
-image_commercial_use: true
-image_license: Pexels License
-image_owner: external
-image_creator: Kirandeep Singh Walia
-image_creator_url: "https://www.pexels.com/@kirandeepsingh"
-image_creator_id: 2645690
-image_attribution_verified: true
+image_attribution_checked_at: '2026-07-09T10:43:33+07:00'
 image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:33+07:00"
-image_license_url: "https://www.pexels.com/license/"
+image_attribution_verified: true
+image_commercial_use: true
+image_creator: ''
+image_creator_id: 2645690
+image_creator_url: ''
+image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
+image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/ancient-city-bangkok-27941933/"
+image_source_url: https://www.pexels.com/photo/ancient-city-bangkok-27941933/
+series:
+- du-lich-thai-lan-mua-mua
+series_order: 10
+series_title: Du lịch Thái Lan mùa mưa
 slug: suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab
 tags:
 - Suvarnabhumi
@@ -48,9 +53,6 @@ tags:
 - đi Bangkok mùa mưa
 - Grab Bangkok
 thumbnail: images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp
-series: ["du-lich-thai-lan-mua-mua"]
-series_title: "Du lịch Thái Lan mùa mưa"
-series_order: 10
 title: 'Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn
   gì?'
 tom_tat_nhanh:

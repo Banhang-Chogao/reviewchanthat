@@ -39,19 +39,18 @@ external_links:
 - title: Digital Markets Act — Trang chính thức EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/apple-thua-kien-eu-app-store-ios-dma.webp
+image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Adam B.
-image_creator_url: "https://www.pexels.com/@adam-b-1620746"
-image_creator_id: 1620746
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:50+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '1620746'
+image_creator_url: https://www.pexels.com/@adam-b-1620746
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/modern-high-glass-building-with-a-european-union-flag-6791897/"
+image_source_url: https://www.pexels.com/photo/modern-high-glass-building-with-a-european-union-flag-6791897/
 series: apple-ec-dma-app-store-ios
 series_order: 1
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'

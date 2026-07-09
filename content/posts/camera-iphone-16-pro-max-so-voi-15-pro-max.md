@@ -17,19 +17,18 @@ description: 'So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, p
   A18, Camera Control và có nên đổi vì ảnh.'
 draft: false
 image: images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp
+image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Andrey Matveev
-image_creator_url: "https://www.pexels.com/@zeleboba"
-image_creator_id: 150820
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:53+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '150820'
+image_creator_url: https://www.pexels.com/@zeleboba
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/"
+image_source_url: https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 6
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'

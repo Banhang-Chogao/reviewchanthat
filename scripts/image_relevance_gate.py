@@ -459,3 +459,377 @@ def build_vietnamese_alt(ctx: ArticleImageContext, candidate: dict[str, Any]) ->
     topic = ctx.title or ctx.primary_topic
     provider = candidate.get("source_platform", "stock")
     return f"Ảnh minh họa {topic} — nguồn {provider}"
+
+
+# ═══════════════════════════════════════════════════
+# Brand / Topic Relevance Gate (appended module)
+# ═══════════════════════════════════════════════════
+
+import argparse
+import sys
+import re
+from collections import Counter
+from datetime import datetime, timezone
+from pathlib import Path
+
+import frontmatter
+
+_CONTENT_DIR = Path(__file__).resolve().parent.parent / "content" / "posts"
+_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+_REPORTS_DIR = Path(__file__).resolve().parent.parent / "reports"
+
+APPLE_NEGATIVE_BRANDS = [
+    "oppo", "samsung", "xiaomi", "huawei", "vivo", "realme", "oneplus",
+    "android", "galaxy", "xos", "infinix", "tecno", "itel", "nokia",
+    "motorola", "lg ", "sony xperia", "asus zen", "google pixel",
+]
+
+APPLE_TOPIC_KEYWORDS = [
+    "iphone", "ipad", "ios", "macos", "macbook", "imac", "apple",
+    "pro max", "titanium", "dynamic island", "a20", "a19", "a18",
+    "apple intelligence", "wwdc", "app store", "dma", "ipados",
+]
+
+TOPIC_MIN_SCORES = {
+    "apple_iphone": 80,
+    "apple_iphone_natural_titanium": 85,
+    "apple_general": 70,
+}
+
+
+def detect_topic(post):
+    title = (post.get("title") or "").lower()
+    slug = post.get("slug") or ""
+    tags = [t.lower() for t in (post.get("tags") or [])]
+    cats = [c.lower() for c in (post.get("categories") or [])]
+    combined = f"{title} {slug} {' '.join(tags)} {' '.join(cats)}"
+    if "natural titanium" in title:
+        return "apple_iphone_natural_titanium"
+    if "iphone" in combined:
+        return "apple_iphone"
+    if any(kw in combined for kw in APPLE_TOPIC_KEYWORDS):
+        return "apple_general"
+    return "general"
+
+
+def check_brand_in_string(text, negative_brands):
+    text_lower = text.lower()
+    found = []
+    for brand in negative_brands:
+        if brand in text_lower:
+            found.append(brand)
+    return found
+
+
+def compute_brand_score(post):
+    slug = post.get("slug", "")
+    title = post.get("title", "")
+    image = post.get("image", "")
+    source_url = post.get("image_source_url", "")
+    provider = post.get("image_provider", "")
+    creator = post.get("image_creator", "")
+    topic = detect_topic(post)
+    negative_brands = APPLE_NEGATIVE_BRANDS if topic.startswith("apple") else []
+    positive_signals = []
+    negative_signals = []
+    detected_wrong_brand = []
+    score = 0
+
+    if image:
+        score += 20
+        positive_signals.append("image_field_present")
+        filename = os.path.basename(image).lower()
+        brand_in_file = check_brand_in_string(filename, negative_brands)
+        if brand_in_file:
+            negative_signals.append(f"brand_in_filename:{','.join(brand_in_file)}")
+            detected_wrong_brand.extend(brand_in_file)
+            score -= 50
+    else:
+        negative_signals.append("no_image_field")
+
+    if source_url:
+        score += 10
+        positive_signals.append("source_url_present")
+        url_lower = source_url.lower()
+        brand_in_url = check_brand_in_string(url_lower, negative_brands)
+        if brand_in_url:
+            negative_signals.append(f"brand_in_source_url:{','.join(brand_in_url)}")
+            detected_wrong_brand.extend(brand_in_url)
+            score -= 50
+        if topic.startswith("apple"):
+            apple_kw = [kw for kw in APPLE_TOPIC_KEYWORDS if kw in url_lower]
+            if apple_kw:
+                positive_signals.append(f"apple_keywords_in_url:{','.join(apple_kw)}")
+                score += 20
+            safe_terms = ["smartphone", "mobile phone", "cell phone", "phone", "hand", "holding"]
+            if any(t in url_lower for t in safe_terms):
+                positive_signals.append("generic_smartphone_in_url")
+                score += 5
+            # Bonus for Apple posts with no negative brand and relevant image
+            if apple_kw and not detected_wrong_brand:
+                positive_signals.append("apple_positive_match")
+                score += 5
+            unrelated = ["animal", "cat", "dog", "nature", "landscape", "food", "car", "flower", "bee"]
+            if any(t in url_lower for t in unrelated):
+                negative_signals.append("unrelated_image_topic")
+                score -= 30
+        if "xos" in url_lower and topic.startswith("apple"):
+            negative_signals.append("xos_android_detected")
+            detected_wrong_brand.append("xos")
+            score -= 60
+    else:
+        negative_signals.append("no_source_url")
+
+    trusted = {"pexels", "unsplash", "pixabay"}
+    if provider and provider.lower() in trusted:
+        score += 10
+        positive_signals.append(f"trusted_provider:{provider}")
+
+    creator_clean = creator.strip().strip("b'").strip("'").strip()
+    if creator_clean and len(creator_clean) > 2:
+        score += 10
+        positive_signals.append("creator_present")
+    else:
+        negative_signals.append("empty_or_invalid_creator")
+        score -= 5
+
+    if topic == "apple_iphone_natural_titanium":
+        if "titanium" in source_url.lower() or "titanium" in title.lower():
+            positive_signals.append("titanium_relevant")
+            score += 10
+        if detected_wrong_brand:
+            score = min(score, 30)
+
+    score = max(0, min(100, score))
+    min_score = TOPIC_MIN_SCORES.get(topic, 60)
+    status = "fail" if score < min_score else "pass"
+    if detected_wrong_brand:
+        status = "fail"
+
+    recommended_queries = []
+    if status == "fail" and topic.startswith("apple"):
+        if "natural titanium" in title.lower():
+            recommended_queries = [
+                "iphone titanium smartphone hand",
+                "premium smartphone titanium close up",
+                "natural titanium smartphone",
+            ]
+        elif "iphone" in title.lower():
+            recommended_queries = [
+                "iphone premium smartphone hand",
+                "modern smartphone camera close up",
+                "premium smartphone on table",
+            ]
+        else:
+            recommended_queries = ["apple premium device", "modern technology device"]
+
+    return {
+        "slug": slug,
+        "title": title,
+        "topic": topic,
+        "image": image,
+        "source_url": source_url,
+        "score": score,
+        "status": status,
+        "min_score_required": min_score,
+        "positive_signals": positive_signals,
+        "negative_signals": negative_signals,
+        "detected_wrong_brand": detected_wrong_brand,
+        "recommended_queries": recommended_queries,
+    }
+
+
+def scan_all_posts(topic_filter=None):
+    results = []
+    posts = []
+    for md_file in sorted(_CONTENT_DIR.rglob("*.md")):
+        try:
+            post = frontmatter.load(md_file)
+            slug = md_file.stem
+            md = {
+                "slug": slug,
+                "title": post.metadata.get("title", ""),
+                "categories": post.metadata.get("categories") or [],
+                "tags": post.metadata.get("tags") or [],
+                "image": post.metadata.get("image", ""),
+                "image_source_url": post.metadata.get("image_source_url", ""),
+                "image_source": post.metadata.get("image_source", ""),
+                "image_provider": post.metadata.get("image_provider", ""),
+                "image_creator": post.metadata.get("image_creator", ""),
+            }
+            posts.append(md)
+        except Exception:
+            pass
+    for md in posts:
+        if topic_filter:
+            pt = detect_topic(md)
+            if pt != topic_filter and not pt.startswith(topic_filter):
+                continue
+        results.append(compute_brand_score(md))
+    return results
+
+
+def mark_needs_replace(post_path):
+    path = Path(post_path)
+    if not path.exists():
+        return False
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            content = f.read()
+    except Exception:
+        return False
+    if "image_status: needs_replace" in content:
+        return False
+    yaml_block = content.split("---", 2)[1] if content.startswith("---") else ""
+    body = content.split("---", 2)[2] if content.startswith("---") else content
+    lines = yaml_block.split("\n")
+    new_lines = []
+    inserted = False
+    for line in lines:
+        new_lines.append(line)
+        if line.strip().startswith("image:") and not inserted:
+            indent = " " * (len(line) - len(line.lstrip()))
+            new_lines.append(f"{indent}image_status: needs_replace")
+            inserted = True
+    new_yaml = "\n".join(new_lines)
+    new_content = f"---\n{new_yaml}\n---\n{body}"
+    temp_path = path.with_suffix(path.suffix + ".tmp")
+    with open(temp_path, "w", encoding="utf-8") as f:
+        f.write(new_content)
+    os.replace(temp_path, path)
+    return True
+
+
+def generate_brand_report(results, json_path, md_path):
+    total = len(results)
+    passed = sum(1 for r in results if r["status"] == "pass")
+    failed = sum(1 for r in results if r["status"] == "fail")
+    wrong_brand = [r for r in results if r.get("detected_wrong_brand")]
+    by_topic = Counter(r["topic"] for r in results)
+    report = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "summary": {
+            "total_posts": total,
+            "passed": passed,
+            "failed": failed,
+            "wrong_brand": len(wrong_brand),
+            "by_topic": dict(by_topic),
+        },
+        "wrong_brand_posts": [
+            {"slug": r["slug"], "title": r["title"], "topic": r["topic"],
+             "score": r["score"], "detected_brands": r.get("detected_wrong_brand", []),
+             "source_url": r.get("source_url", "")}
+            for r in wrong_brand
+        ],
+        "failed_posts": [
+            {"slug": r["slug"], "title": r["title"], "topic": r["topic"],
+             "score": r["score"], "min_score": r.get("min_score_required", 60),
+             "negative_signals": r.get("negative_signals", []),
+             "recommended_queries": r.get("recommended_queries", [])}
+            for r in results if r["status"] == "fail"
+        ],
+        "all_results": results,
+    }
+    p = Path(json_path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=2)
+    print(f"Report JSON: {p}")
+    md_lines = ["# Image Relevance Report\n",
+                f"_Generated: {report['generated_at']}_\n",
+                "## Summary\n",
+                f"- **Total posts:** {total}",
+                f"- **Passed:** {passed}",
+                f"- **Failed:** {failed}",
+                f"- **Wrong brand detected:** {len(wrong_brand)}\n"]
+    if wrong_brand:
+        md_lines.append("## Wrong Brand Detections\n")
+        for r in wrong_brand:
+            md_lines.append(f"- **{r['title']}** ({r['slug']}): {', '.join(r.get('detected_brands', []))} score={r['score']}")
+        md_lines.append("")
+    failed_list = [r for r in results if r["status"] == "fail"]
+    if failed_list:
+        md_lines.append("## Failed Posts\n")
+        for r in failed_list[:30]:
+            signals = "; ".join(r.get("negative_signals", []))
+            ms = r.get('min_score', 60)
+        md_lines.append(f"- {r['title']} ({r['slug']}): {r['score']}/{ms} {signals}")
+        md_lines.append("")
+    pm = Path(md_path)
+    pm.parent.mkdir(parents=True, exist_ok=True)
+    with open(pm, "w", encoding="utf-8") as f:
+        f.write("\n".join(md_lines))
+    print(f"Report MD: {pm}")
+    return report
+
+
+def brand_main():
+    parser = argparse.ArgumentParser(description="Image Brand/Topic Relevance Gate")
+    parser.add_argument("--all", action="store_true", help="Scan all posts")
+    parser.add_argument("--post", type=str, help="Single post path", nargs="*")
+    parser.add_argument("--topic", type=str, help="Topic filter (apple, apple_iphone)")
+    parser.add_argument("--fix", action="store_true", help="Mark failed posts with needs_replace")
+    parser.add_argument("--report-json", type=str, default="", help="JSON report path")
+    parser.add_argument("--report-md", type=str, default="", help="MD report path")
+    args = parser.parse_args()
+
+    if args.post:
+        results = []
+        for p in args.post:
+            path = Path(p)
+            if path.exists():
+                post = frontmatter.load(path)
+                md = {
+                    "slug": path.stem,
+                    "title": post.metadata.get("title", ""),
+                    "categories": post.metadata.get("categories") or [],
+                    "tags": post.metadata.get("tags") or [],
+                    "image": post.metadata.get("image", ""),
+                    "image_source_url": post.metadata.get("image_source_url", ""),
+                    "image_source": post.metadata.get("image_source", ""),
+                    "image_provider": post.metadata.get("image_provider", ""),
+                    "image_creator": post.metadata.get("image_creator", ""),
+                }
+                results.append(compute_brand_score(md))
+    elif args.all:
+        results = scan_all_posts(topic_filter=args.topic)
+    else:
+        parser.print_help()
+        sys.exit(1)
+
+    if not results:
+        print("No posts matched")
+        return
+
+    if args.fix:
+        print("Applying fixes...")
+        if args.post:
+            for p in args.post:
+                r = next((x for x in results if x["slug"] == Path(p).stem), None)
+                if r and r["status"] == "fail":
+                    mark_needs_replace(p)
+        else:
+            for r in results:
+                if r["status"] == "fail":
+                    p = _CONTENT_DIR / f"{r['slug']}.md"
+                    if p.exists():
+                        mark_needs_replace(p)
+
+    json_path = args.report_json or str(_REPORTS_DIR / "image-relevance-report.json")
+    md_path = args.report_md or str(_REPORTS_DIR / "image-relevance-report.md")
+    generate_brand_report(results, json_path, md_path)
+
+    failed = [r for r in results if r["status"] == "fail"]
+    wrong = [r for r in results if r.get("detected_wrong_brand")]
+    print(f"\n=== Summary ===")
+    print(f"Total: {len(results)}")
+    print(f"Pass: {sum(1 for r in results if r['status'] == 'pass')}")
+    print(f"Fail: {len(failed)}")
+    print(f"Wrong brand: {len(wrong)}")
+
+    if failed:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    brand_main()

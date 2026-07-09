@@ -30,19 +30,18 @@ faq:
 - answer: Đặt phòng trước 1 tháng, mua vé online, mang kem chống nắng và nước uống.
   question: Cần lưu ý gì?
 image: images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp
+image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: piu aka
-image_creator_url: "https://www.pexels.com/@piu-aka-283677100"
-image_creator_id: 283677100
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:26+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '283677100'
+image_creator_url: https://www.pexels.com/@piu-aka-283677100
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/aerial-photography-of-city-buildings-13045678/"
+image_source_url: https://www.pexels.com/photo/aerial-photography-of-city-buildings-13045678/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

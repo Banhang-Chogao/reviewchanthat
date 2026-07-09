@@ -34,20 +34,19 @@ external_links:
 - title: Visit Busan
   url: https://www.visitbusan.net
 image: images/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.webp
-image_commercial_use: true
-image_creator: ""
-image_creator_url: ""
-image_creator_id: ""
-image_attribution_verified: false
+image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
+image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
-image_attribution_checked_at: "2026-07-09T10:47:16+07:00"
-image_attribution_error: pexels_api_miss id=32077765; source_page_no_creator; embedded_meta_no_creator
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_attribution_verified: false
+image_commercial_use: true
+image_creator: ''
+image_creator_id: ''
+image_creator_url: ''
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-32077765/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-32077765/
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
   title: Đi Hàn tháng 10 có đẹp không?

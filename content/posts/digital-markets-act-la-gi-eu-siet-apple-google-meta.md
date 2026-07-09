@@ -36,19 +36,18 @@ external_links:
 - title: Reuters — EU court rejects Apple challenge (8/7/2026)
   url: https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/
 image: images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp
+image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Petrit Nikolli
-image_creator_url: "https://www.pexels.com/@studioideahd"
-image_creator_id: 3768398
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:57+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '3768398'
+image_creator_url: https://www.pexels.com/@studioideahd
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/flag-of-european-columns-between-columns-22046935/"
+image_source_url: https://www.pexels.com/photo/flag-of-european-columns-between-columns-22046935/
 series: apple-ec-dma-app-store-ios
 series_order: 2
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'

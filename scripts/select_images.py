@@ -122,6 +122,66 @@ def rank_candidates(valid_candidates, post, used_urls):
     return [c for _, c in scored]
 
 
+# Apple/iPhone negative brand keywords for filtering
+APPLE_NEGATIVE_BRANDS = [
+    "oppo", "samsung", "xiaomi", "huawei", "vivo", "realme", "oneplus",
+    "android", "galaxy", "xos", "infinix", "tecno", "itel",
+]
+
+
+def _is_apple_post(post):
+    """Check if a post is Apple/iPhone topic."""
+    title = (str(post.get("title", "")) + " " + str(post.get("slug", ""))).lower()
+    apple_kw = ["iphone", "ipad", "ios", "macos", "macbook", "imac", "apple",
+                "pro max", "titanium", "dynamic island", "iphone 18"]
+    return any(kw in title for kw in apple_kw)
+
+
+def _filter_brand_candidates(candidates):
+    """Filter out candidates whose metadata contains negative brand keywords."""
+    filtered = []
+    for c in candidates:
+        text = json.dumps(c).lower()
+        if any(b in text for b in APPLE_NEGATIVE_BRANDS):
+            continue
+        filtered.append(c)
+    return filtered
+
+
+def _apple_queries(post):
+    """Generate Apple-specific search queries for a post."""
+    title = (post.get("title") or "").lower()
+    slug = post.get("slug") or ""
+    if "natural titanium" in title:
+        return [
+            "iPhone titanium smartphone hand",
+            "premium smartphone titanium close up",
+            "natural titanium smartphone",
+            "silver smartphone camera close up",
+            "modern smartphone back camera",
+        ]
+    if "desert titanium" in title:
+        return [
+            "gold premium smartphone hand",
+            "desert titanium smartphone close up",
+            "premium smartphone golden edge",
+        ]
+    if "titanium" in title:
+        return [
+            "iPhone titanium smartphone hand",
+            "premium smartphone titanium",
+            "modern smartphone metal frame",
+        ]
+    if "iphone" in title:
+        return [
+            "iPhone premium smartphone hand",
+            "modern smartphone camera close up",
+            "premium smartphone on table",
+            "sleek smartphone technology",
+        ]
+    return []
+
+
 def main():
     parser = argparse.ArgumentParser(description="Select stock images with Image Relevance Gate")
     parser.add_argument(
@@ -133,6 +193,26 @@ def main():
         "--allow-partial",
         action="store_true",
         help="Exit 0 even if some posts fail the gate (marks needs_review)",
+    )
+    parser.add_argument(
+        "--post",
+        type=str,
+        help="Single post path to process (e.g. content/posts/iphone-...md)",
+    )
+    parser.add_argument(
+        "--queries",
+        type=str,
+        help="Comma-separated custom search queries (overrides auto-detection)",
+    )
+    parser.add_argument(
+        "--replace-bad",
+        action="store_true",
+        help="Force re-selection even if a valid image exists",
+    )
+    parser.add_argument(
+        "--topic",
+        type=str,
+        help="Topic filter (apple, etc.)",
     )
     args = parser.parse_args()
 
@@ -175,22 +255,52 @@ def main():
     print(f"  Enabled providers: {[p.name for p in enabled_providers]}")
 
     needs_image = []
-    for post in audit.get("posts", []):
-        slug = post["slug"]
-        if is_self_owned_post(post):
-            continue
-        if args.refresh_all:
-            needs_image.append(post)
-            continue
-        if slug in existing_slugs:
-            continue
-        img_path = post.get("image", "")
-        local_file = os.path.join("static", img_path) if img_path and not img_path.startswith("http") else ""
-        if local_file and os.path.exists(local_file):
-            fsize = os.path.getsize(local_file)
-            if fsize > 15000:
+
+    # Single post mode
+    if args.post:
+        post_path = args.post
+        if not os.path.exists(post_path):
+            print(f"ERROR: Post file not found: {post_path}")
+            sys.exit(1)
+        try:
+            single_post = frontmatter.load(post_path)
+            slug = os.path.splitext(os.path.basename(post_path))[0]
+            post = {
+                "slug": slug,
+                "title": single_post.metadata.get("title", ""),
+                "image": single_post.metadata.get("image", ""),
+                "image_owner": single_post.metadata.get("image_owner", ""),
+                "image_source": single_post.metadata.get("image_source", ""),
+                "image_status": single_post.metadata.get("image_status", ""),
+            }
+            if is_self_owned_post(post):
+                print(f"Post {slug} is self-owned — skipping")
+            else:
+                needs_image.append(post)
+                existing_slugs.discard(slug)
+                used_urls.discard(post.get("image_source_url", ""))
+                # Remove existing manifest entry
+                manifest["posts"] = [e for e in manifest.get("posts", []) if e.get("slug") != slug]
+        except Exception as e:
+            print(f"ERROR loading post {post_path}: {e}")
+            sys.exit(1)
+    else:
+        for post in audit.get("posts", []):
+            slug = post["slug"]
+            if is_self_owned_post(post):
                 continue
-        needs_image.append(post)
+            if args.refresh_all:
+                needs_image.append(post)
+                continue
+            if not args.replace_bad and slug in existing_slugs:
+                continue
+            img_path = post.get("image", "")
+            local_file = os.path.join("static", img_path) if img_path and not img_path.startswith("http") else ""
+            if not args.replace_bad and local_file and os.path.exists(local_file):
+                fsize = os.path.getsize(local_file)
+                if fsize > 15000:
+                    continue
+            needs_image.append(post)
 
     selection_report = {
         "summary": {
@@ -217,6 +327,16 @@ def main():
             print(f"\n  [{slug}] {title}")
 
             body = load_post_body(slug)
+
+            # Determine search queries
+            custom_queries = None
+            if args.queries:
+                custom_queries = [q.strip() for q in args.queries.split(",")]
+            elif _is_apple_post(post):
+                custom_queries = _apple_queries(post)
+                if custom_queries:
+                    print(f"    Apple-specific queries: {custom_queries}")
+
             print(f"    Running Image Relevance Gate...")
             gate_result = select_best_image(
                 post=post,
@@ -224,6 +344,7 @@ def main():
                 providers=enabled_providers,
                 used_urls=used_urls,
                 provider_balance=provider_balance,
+                custom_queries=custom_queries,
             )
             selected = gate_result.get("candidate") if gate_result else None
             selected_provider = clean_text(selected.get("source_platform")) if selected else None

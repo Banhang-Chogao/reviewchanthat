@@ -38,19 +38,18 @@ faq:
 - answer: Có nhiều nhà hàng và quán cà phê trong khu Jungmun Tourist Complex.
   question: Bãi biển có đồ ăn không?
 image: images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp
+image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: nana liu
-image_creator_url: "https://www.pexels.com/@nana-llj"
-image_creator_id: 2527431
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:28+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '2527431'
+image_creator_url: https://www.pexels.com/@nana-llj
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/scenic-rocky-coastline-of-jeju-island-south-korea-34350149/"
+image_source_url: https://www.pexels.com/photo/scenic-rocky-coastline-of-jeju-island-south-korea-34350149/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

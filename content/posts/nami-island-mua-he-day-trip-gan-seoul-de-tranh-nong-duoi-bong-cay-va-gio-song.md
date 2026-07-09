@@ -39,19 +39,18 @@ faq:
     trên website chính thức.
   question: Nami Island có phù hợp với người già không?
 image: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
+image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Nghia .8pm
-image_creator_url: "https://www.pexels.com/@phamnghia"
-image_creator_id: 469193
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:29+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '469193'
+image_creator_url: https://www.pexels.com/@phamnghia
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/signage-and-a-hanging-lamp-12622271/"
+image_source_url: https://www.pexels.com/photo/signage-and-a-hanging-lamp-12622271/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
   title: 10 điểm tránh nóng ở Hàn Quốc mùa hè

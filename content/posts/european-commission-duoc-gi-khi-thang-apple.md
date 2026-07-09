@@ -29,19 +29,18 @@ external_links:
 - title: Digital Markets Act — Trang chính thức EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/european-commission-duoc-gi-khi-thang-apple.webp
+image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: aleksandre lomadze
-image_creator_url: "https://www.pexels.com/@aleksandre-lomadze-2154684396"
-image_creator_id: 2154684396
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:58+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '2154684396'
+image_creator_url: https://www.pexels.com/@aleksandre-lomadze-2154684396
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/"
+image_source_url: https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/
 series: apple-ec-dma-app-store-ios
 series_order: 7
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'

@@ -21,19 +21,18 @@ description: 'Tổng quan iOS 27 sau WWDC26: Siri AI, Apple Intelligence, hiệu
   quyền riêng tư và timeline beta/public cho người dùng iPhone tại Việt Nam.'
 draft: false
 image: images/posts/ios-27-co-gi-moi.webp
+image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Negative Space
-image_creator_url: "https://www.pexels.com/@negativespace"
-image_creator_id: 3738
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:01+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '3738'
+image_creator_url: https://www.pexels.com/@negativespace
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/white-apple-iphone-on-wooden-table-48605/"
+image_source_url: https://www.pexels.com/photo/white-apple-iphone-on-wooden-table-48605/
 series: ios-27-co-gi-moi
 series_order: 1
 series_title: iOS 27 có gì mới

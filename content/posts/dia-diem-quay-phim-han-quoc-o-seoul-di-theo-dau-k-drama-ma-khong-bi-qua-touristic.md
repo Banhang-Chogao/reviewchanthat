@@ -30,19 +30,18 @@ external_links:
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
 image: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
+image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Co Hai
-image_creator_url: "https://www.pexels.com/@co-hai-712207000"
-image_creator_id: 712207000
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:23+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '712207000'
+image_creator_url: https://www.pexels.com/@co-hai-712207000
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/ninh-ki-u-cruise-docked-in-c-n-th-vietnam-35508138/"
+image_source_url: https://www.pexels.com/photo/ninh-ki-u-cruise-docked-in-c-n-th-vietnam-35508138/
 series: du-lich
 series_order: 3
 series_title: Du lịch Hàn Quốc 2026

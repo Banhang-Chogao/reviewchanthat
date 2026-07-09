@@ -39,19 +39,18 @@ faq:
     đặc biệt là khu vực thuê đồ và lesson.
   question: Nên đi Vivaldi Park vào thứ mấy?
 image: images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp
+image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Stanislav Kondratiev
-image_creator_url: "https://www.pexels.com/@technobulka"
-image_creator_id: 1497515
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:36+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '1497515'
+image_creator_url: https://www.pexels.com/@technobulka
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/snow-cannons-preparing-the-ski-slope-19777497/"
+image_source_url: https://www.pexels.com/photo/snow-cannons-preparing-the-ski-slope-19777497/
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
   title: Top địa điểm trượt tuyết ở Hàn Quốc mùa đông

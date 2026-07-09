@@ -33,19 +33,18 @@ external_links:
 - title: https://www.suwon.go.kr/>
   url: https://www.suwon.go.kr/>
 image: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
+image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: CK Seng
-image_creator_url: "https://www.pexels.com/@keat007"
-image_creator_id: 1622383570
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:21+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '1622383570'
+image_creator_url: https://www.pexels.com/@keat007
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/gyeongbokgung-palace-entrance-under-clear-sky-35396663/"
+image_source_url: https://www.pexels.com/photo/gyeongbokgung-palace-entrance-under-clear-sky-35396663/
 series: du-lich
 series_order: 9
 series_title: Du lịch Hàn Quốc 2026
