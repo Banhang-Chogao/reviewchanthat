@@ -46,9 +46,6 @@ jobs:
       - name: Process images
         run: python scripts/process_images.py
 
-      - name: Slug audit
-        run: python scripts/audit_slugs.py
-
       - name: Normalize AI summaries
         run: python scripts/normalize_ai_summaries.py --check
 
