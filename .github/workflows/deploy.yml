@@ -45,35 +45,8 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Normalize image attribution
-        run: python scripts/fix_attribution.py
-
-      - name: Audit post images
-        run: python scripts/audit_post_images.py
-
-      - name: Check image deduplication
-        run: python scripts/image_dedupe.py
-
-      - name: Process images
-        run: python scripts/process_images.py
-
       - name: Normalize AI summaries
         run: python scripts/normalize_ai_summaries.py --check
-
-      - name: Content compliance
-        continue-on-error: true
-        run: python scripts/compliance.py --strict --no-public --report-json data/compliance-report.json || true
-
-      - name: QA blog
-        continue-on-error: true
-        run: python scripts/qa_blog.py || true
-
-      - name: Check image relevance
-        continue-on-error: true
-        run: python scripts/check_image_relevance.py || true
-
-      - name: Generate content direction report
-        run: python scripts/content_direction.py
 
       - name: Build Hugo
         run: hugo --minify

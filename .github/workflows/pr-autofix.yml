@@ -104,10 +104,7 @@ jobs:
         if: steps.resolve.outputs.action == 'fix' && env.skip != 'true'
         continue-on-error: true
         run: |
-          python scripts/fix_attribution.py || true
-          python scripts/process_images.py || true
           python scripts/normalize_ai_summaries.py --fix || true
-          python scripts/compliance.py --fix --no-public --report-json /dev/null || true
 
       - name: Commit and push fixes
         if: steps.resolve.outputs.action == 'fix' && env.skip != 'true'

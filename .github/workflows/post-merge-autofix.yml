@@ -126,29 +126,9 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Safe autofix — fix attribution
-        continue-on-error: true
-        run: python scripts/fix_attribution.py
-
-      - name: Safe autofix — process images
-        continue-on-error: true
-        run: python scripts/process_images.py
-
       - name: Safe autofix — normalize AI summaries
         continue-on-error: true
         run: python scripts/normalize_ai_summaries.py --fix
-
-      - name: Safe autofix — compliance fix
-        continue-on-error: true
-        run: python scripts/compliance.py --fix --no-public --report-json /dev/null
-
-      - name: Re-check compliance
-        id: recheck
-        continue-on-error: true
-        run: |
-          set +e
-          python scripts/compliance.py --strict --no-public --report-json /dev/null 2>&1
-          echo "status=$?" >> "$GITHUB_OUTPUT"
 
       - name: Detect changes
         id: changes

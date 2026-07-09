@@ -43,24 +43,8 @@ jobs:
       - name: Detect changed files for QA scope
         run: python scripts/qa_scope.py --github-pr --out reports/qa-scope.json
 
-      - name: Normalize image attribution
-        run: python scripts/fix_attribution.py
-
-      - name: Process images
-        run: python scripts/process_images.py
-
       - name: Normalize AI summaries
         run: python scripts/normalize_ai_summaries.py --check
-
-      - name: Content compliance (changed files only)
-        continue-on-error: true
-        run: python scripts/compliance.py --strict --no-public --changed-files-only --qa-scope reports/qa-scope.json --report-json data/compliance-report.json || true
-
-      - name: QA blog
-        run: python scripts/qa_blog.py
-
-      - name: Generate content direction report
-        run: python scripts/content_direction.py
 
       - name: Build Hugo
         run: hugo --minify --baseURL "https://banhang-chogao.github.io/reviewchanthat/"

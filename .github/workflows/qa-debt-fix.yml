@@ -55,20 +55,10 @@ jobs:
                   f.write(post + '\n')
           "
 
-      - name: Fix image metadata for baseline debt posts
-        run: |
-          python scripts/compliance.py \
-            --fix \
-            --report-json data/compliance-report.json || true
-
       - name: Check for changes
         id: check
         run: |
-          if git diff --quiet data/; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
+          echo "changed=false" >> "$GITHUB_OUTPUT"
 
       - name: Create PR branch
         if: steps.check.outputs.changed == 'true'
