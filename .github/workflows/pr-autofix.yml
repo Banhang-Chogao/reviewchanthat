@@ -20,7 +20,7 @@ env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 concurrency:
-  group: pr-autofix-${{ github.event.workflow_run.head_branch || inputs.pr_number }}
+  group: pr-autofix-global
   cancel-in-progress: false
 
 jobs:

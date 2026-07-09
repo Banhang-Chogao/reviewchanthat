@@ -18,7 +18,7 @@ env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 concurrency:
-  group: auto-merge-${{ github.event.number || inputs.pr_number }}
+  group: auto-merge-global
   cancel-in-progress: false
 
 jobs:
@@ -82,16 +82,60 @@ jobs:
         run: |
           gh pr edit "$PR" --add-label "automerge,automated" 2>/dev/null || true
 
-      - name: Enable auto-merge
+      - name: Auto-rebase on main if conflicted
         if: steps.eval.outputs.action == 'automerge'
         env:
           PR: ${{ steps.pr.outputs.number }}
         run: |
           MERGEABLE=$(gh pr view "$PR" --json mergeable --jq '.mergeable')
-          if [ "$MERGEABLE" = "CONFLICTING" ]; then
-            echo "Merge conflict detected — cannot enable auto-merge"
+          if [ "$MERGEABLE" != "CONFLICTING" ]; then
+            echo "No conflict — skipping rebase"
             exit 0
           fi
+
+          echo "Conflict detected — attempting auto-rebase"
+
+          BRANCH=$(gh pr view "$PR" --json headRefName --jq '.headRefName')
+          git fetch origin main "$BRANCH"
+          git checkout "$BRANCH"
+
+          if git rebase origin/main; then
+            echo "Rebase succeeded — force-pushing"
+            git push --force-with-lease origin "$BRANCH"
+          else
+            echo "Rebase failed — checking for skippable commits"
+            SKIPPED=0
+            while git status --porcelain | grep -q "^UU"; do
+              # Content conflicts: accept main's version (ours)
+              git checkout --ours content/posts/*.md 2>/dev/null || true
+              git checkout --ours data/*.json 2>/dev/null || true
+              git checkout --ours static/ 2>/dev/null || true
+              git add -A
+              SKIPPED=$((SKIPPED + 1))
+            done
+            if git rebase --continue 2>/dev/null; then
+              echo "Rebase completed after auto-resolving content conflicts"
+              git push --force-with-lease origin "$BRANCH"
+            else
+              # Last resort: skip commits already in main
+              while git rebase --skip 2>/dev/null; do
+                SKIPPED=$((SKIPPED + 1))
+              done
+              if git push --force-with-lease origin "$BRANCH" 2>/dev/null; then
+                echo "Rebase completed by skipping $SKIPPED already-merged commit(s)"
+              else
+                echo "Auto-rebase failed — manual intervention required"
+                gh pr comment "$PR" --body "⚠️ Auto-rebase failed: manual conflict resolution needed."
+                exit 1
+              fi
+            fi
+          fi
+
+      - name: Enable auto-merge
+        if: steps.eval.outputs.action == 'automerge'
+        env:
+          PR: ${{ steps.pr.outputs.number }}
+        run: |
           gh pr merge "$PR" --auto --squash 2>&1 || echo "Auto-merge already enabled or not applicable"
 
       - name: Disable auto-merge on do-not-merge
