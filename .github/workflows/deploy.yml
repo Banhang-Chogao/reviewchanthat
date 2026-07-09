@@ -106,6 +106,12 @@ jobs:
       - name: Generate posts-only sitemap
         run: python scripts/gen_posts_sitemap.py --public-dir public
 
+      - name: QA dates
+        run: python scripts/qa_dates.py
+
+      - name: QA internal links
+        run: python scripts/qa_internal_links.py --public-dir public || true
+
       - name: QA sitemap
         run: python scripts/qa_sitemap.py
 
