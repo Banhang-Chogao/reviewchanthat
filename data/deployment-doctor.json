@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-10T00:34:16+07:00",
-  "generated_at_display": "10-07-2026 00:34:16",
+  "generated_at": "2026-07-10T00:42:27+07:00",
+  "generated_at_display": "10-07-2026 00:42:27",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 34,
-    "safe_autofixes_available": 34,
+    "failed_runs_scanned": 30,
+    "safe_autofixes_available": 30,
     "unsafe_external_failures": 0,
     "open_action_items": 8,
-    "loop_guarded_attempts": 2,
+    "loop_guarded_attempts": 5,
     "by_type": {
-      "workflow_fanout": 26,
+      "workflow_fanout": 22,
       "ai_summary_map_artifact": 4,
-      "qa_expectation_mismatch": 2,
-      "sitemap_noindex_mismatch": 2
+      "qa_expectation_mismatch": 3,
+      "sitemap_noindex_mismatch": 1
     }
   },
   "recent_failures": [
@@ -61,6 +61,16 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29036927490"
     },
     {
+      "run_id": "29037754164",
+      "workflow": "Content Direction",
+      "commit": "b4c60fd",
+      "status": "failure",
+      "rootcause": "qa_expectation_mismatch",
+      "safe_to_autofix": true,
+      "action": "Align QA with product rules.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29037754164"
+    },
+    {
       "run_id": "29035962107",
       "workflow": "Content Direction",
       "commit": "f835772",
@@ -89,16 +99,6 @@
       "safe_to_autofix": true,
       "action": "Keep posts-only sitemap.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29037413368"
-    },
-    {
-      "run_id": "29033702034",
-      "workflow": "Deployment Doctor",
-      "commit": "0e79c03",
-      "status": "cancelled",
-      "rootcause": "sitemap_noindex_mismatch",
-      "safe_to_autofix": true,
-      "action": "Keep posts-only sitemap.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29033702034"
     },
     {
       "run_id": "29037322252",
@@ -454,33 +454,15 @@
         "run_id": "29033779819",
         "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
         "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29033779668",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29033779655",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29033779442",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29033779346",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
       }
     ],
     "qa_debt": [
+      {
+        "failure_type": "qa_expectation_mismatch",
+        "run_id": "29037754164",
+        "rootcause": "QA expects a footer/product element that product intentionally removed.",
+        "safe_to_autofix": true
+      },
       {
         "failure_type": "qa_expectation_mismatch",
         "run_id": "29035962107",
@@ -526,12 +508,6 @@
       {
         "failure_type": "sitemap_noindex_mismatch",
         "run_id": "29037413368",
-        "rootcause": "noindex pages incorrectly included in sitemap.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "sitemap_noindex_mismatch",
-        "run_id": "29033702034",
         "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
       }
@@ -768,6 +744,12 @@
       "detail": "no script or already attempted this run"
     },
     {
+      "run_id": "29037754164",
+      "failure_type": "qa_expectation_mismatch",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
       "run_id": "29035962107",
       "failure_type": "qa_expectation_mismatch",
       "result": "skipped",
@@ -785,12 +767,6 @@
       "result": "skipped",
       "detail": "posts-only sitemap already in place",
       "script": "fix_sitemap_noindex"
-    },
-    {
-      "run_id": "29033702034",
-      "failure_type": "sitemap_noindex_mismatch",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29037322252",
@@ -811,6 +787,24 @@
       "key": "ef0a760db5d5:sitemap_noindex_mismatch",
       "count": 2,
       "last_attempt_at": "2026-07-10T00:29:06+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "7abfd3771b9b:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T00:42:26+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "7abfd3771b9b:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T00:42:26+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "f931e938f0ff:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T00:42:26+07:00",
       "last_result": "skipped"
     }
   ],
