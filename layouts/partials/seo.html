@@ -6,7 +6,7 @@
 {{- if and $imgOk (not $imgBlocked) .Params.image -}}
   {{- $ogImage = .Params.image | relURL | absURL -}}
 {{- end -}}
-{{- $pageTitle := .Title -}}
+{{- $pageTitle := or .Params.seo_title .Title -}}
 {{- if and (eq .Data.Singular "category") .Data.Term -}}
   {{- with site.Data.categories.items -}}
     {{- range . -}}

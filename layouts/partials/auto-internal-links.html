@@ -1,0 +1,35 @@
+{{- $slug := or .File.BaseFileName .Slug "" -}}
+{{- $linksData := index hugo.Data "internal-links" -}}
+{{- $links := slice -}}
+{{- if $linksData -}}
+  {{- $links = index $linksData.links $slug | default slice -}}
+{{- end -}}
+{{- $allPages := site.RegularPages -}}
+{{- $maxRender := 6 -}}
+{{- $rendered := slice -}}
+{{- if $links -}}
+<section class="auto-internal-links">
+  <details class="auto-internal-links__details" open>
+    <summary class="auto-internal-links__summary">Đọc tiếp trong cùng chủ đề</summary>
+    <div class="auto-internal-links__grid">
+      {{- range $links -}}
+        {{- if gt (len $rendered) $maxRender -}}{{- break -}}{{- end -}}
+        {{- $targetPage := where $allPages "Slug" .target | first 1 -}}
+        {{- if $targetPage -}}
+          {{- $p := index $targetPage 0 -}}
+          {{- if and (not $p.Params.noindex) (not $p.Draft) -}}
+            {{- $rendered = $rendered | append .target -}}
+            <a href="{{ $p.RelPermalink }}" class="auto-internal-links__card">
+              <span class="auto-internal-links__card-title">{{ $p.Title }}</span>
+              {{- with $p.Description -}}
+              <span class="auto-internal-links__card-desc">{{ . | plainify | truncate 100 }}</span>
+              {{- end -}}
+              <span class="auto-internal-links__card-topic">{{ .reason }}</span>
+            </a>
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    </div>
+  </details>
+</section>
+{{- end -}}
