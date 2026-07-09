@@ -22,9 +22,7 @@ image_attribution_checked_at: >-
 image_attribution_source: pixabay_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: 
 image_creator_id: 75254
-image_creator_url: 
 image_license: Pixabay Content License
 image_license_url: >-
   https://pixabay.com/service/license-summary/
@@ -39,21 +37,33 @@ series_title: Du lịch Thái Lan tự túc
 slug: di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi
 tags:
   - du lịch Thái Lan
+tags:
   - Bangkok tự túc
+tags:
   - Suvarnabhumi
+tags:
   - Ratchathewi
+tags:
   - đổi baht
+tags:
   - Siam Eco Hostel
 thumbnail: images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp
 title: >-
   Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?
 tom_tat_nhanh:
   - {"label": "Khu vực", "value": "Bangkok (Ratchathewi, Siam, Phaya Thai)"}
+tom_tat_nhanh:
   - {"label": "Ngân sách", "value": "~4,62 triệu VND (vé máy bay + 3 đêm chỗ ở)"}
+tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Người đi một mình, lần đầu đi Bangkok tự túc"}
+tom_tat_nhanh:
   - {"label": "Thời gian", "value": "3 ngày 3 đêm"}
+tom_tat_nhanh:
   - {"label": "Di chuyển chính", "value": "Airport Rail Link + BTS Skytrain"}
+tom_tat_nhanh:
   - {"label": "Có cần visa không", "value": "Không (miễn visa Thái Lan cho Việt Nam)"}
+seo_title: >-
+  Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn
 ---
 
 ## Đi Thái Lan tự túc 3 ngày 3 đêm: 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?

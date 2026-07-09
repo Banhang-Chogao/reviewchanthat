@@ -1,18 +1,94 @@
 {
-  "generated_at": "2026-07-10T03:42:04+07:00",
-  "generated_at_display": "10-07-2026 03:42:04",
+  "generated_at": "2026-07-10T03:59:41+07:00",
+  "generated_at_display": "10-07-2026 03:59:41",
   "score_before": 82.3,
-  "score_after": 82.6,
-  "applied_count": 1,
-  "safe_count": 1,
+  "score_after": 91.6,
+  "applied_count": 31,
+  "safe_count": 31,
   "review_skipped_count": 0,
   "unsafe_skipped_count": 0,
-  "changed_files_count": 2,
+  "changed_files_count": 32,
   "remaining_action_items": 7,
   "last_applied": [
     {
-      "action": "build_internal_link_graph",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/data/internal-links.json"
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/co-nen-cho-iphone-18-khong.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/di-han-thang-10-co-dep-khong.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/di-han-thang-11-co-dep-khong.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/di-thai-lan-thang-7-co-nen-khong.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/doi-baht-o-viet-nam-hay-thai-lan.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/european-commission-duoc-gi-khi-thang-apple.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/goi-y-du-lich-han-quoc-thang-7-2026.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/han-quoc-thang-10-co-la-do-chua.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/han-quoc-thang-11-co-la-do-chua.md"
+    },
+    {
+      "action": "add_seo_title",
+      "file": "/Users/duynguyen/Desktop/reviewchanthat/content/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
     }
   ]
 }

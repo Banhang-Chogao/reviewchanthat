@@ -2,89 +2,87 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Tháng 7 là mùa mưa tại Hàn Quốc, nhiệt độ 23–28°C, độ ẩm cao, mưa rào thường xuyên.
-  - 'Vẫn đi được nếu chọn điểm phù hợp: indoor ở Seoul, biển Busan, Jeju.'
-  - Chi phí tháng 7 thấp hơn tháng 8 vì chưa vào cao điểm, nhiều khuyến mãi vé máy
-    bay.
-  title: Tóm tắt bài viết
+  items: ["Tháng 7 là mùa mưa tại Hàn Quốc, nhiệt độ 23–28°C, độ ẩm cao, mưa rào thường xuyên.", "Vẫn đi được nếu chọn điểm phù hợp: indoor ở Seoul, biển Busan, Jeju.", "Chi phí tháng 7 thấp hơn tháng 8 vì chưa vào cao điểm, nhiều khuyến mãi vé máy bay."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.kma.go.kr.'
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.kma.go.kr."
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- du-lich
+  - du-lich
 date: 2026-07-08 10:00:00+07:00
-description: Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình du lịch
-  Hàn Quốc tháng 7 — mùa mưa vẫn đi được nếu biết cách.
+description: Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình du lịch Hàn Quốc tháng 7 — mùa mưa vẫn đi được nếu biết cách.
 draft: false
 faq:
-- answer: 23–28°C, mưa nhiều, độ ẩm 75–85%. Mưa rào thường đến chiều tối.
-  question: Thời tiết Hàn Quốc tháng 7 thế nào?
-- answer: Rẻ hơn tháng 8 15–20%. Vé máy bay và khách sạn chưa tăng giá cao điểm.
-  question: Đi tháng 7 có rẻ không?
-- answer: Indoor Seoul, biển Busan, Jeju. Tránh leo núi Hallasan và đi dã ngoại ngoài
-    trời.
-  question: Nên đi đâu tháng 7?
+  - {"answer": "23–28°C, mưa nhiều, độ ẩm 75–85%. Mưa rào thường đến chiều tối.", "question": "Thời tiết Hàn Quốc tháng 7 thế nào?"}
+faq:
+  - {"answer": "Rẻ hơn tháng 8 15–20%. Vé máy bay và khách sạn chưa tăng giá cao điểm.", "question": "Đi tháng 7 có rẻ không?"}
+faq:
+  - {"answer": "Indoor Seoul, biển Busan, Jeju. Tránh leo núi Hallasan và đi dã ngoại ngoài trời.", "question": "Nên đi đâu tháng 7?"}
 image: images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp
-image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:38:00+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Nguyen Hung
-image_creator_id: '1861858'
-image_creator_url: https://www.pexels.com/@mh92
+image_creator_id: 1861858
+image_creator_url: >-
+  https://www.pexels.com/@mh92
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/woman-in-hanbok-dress-holding-umbrella-11095924/
+image_source_url: >-
+  https://www.pexels.com/photo/woman-in-hanbok-dress-holding-umbrella-11095924/
 internal_links:
-- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
-- ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
-  title: Seoul ngày mưa nên đi đâu?
-- ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
-  title: Hàn Quốc tháng 8 nên đi đâu?
-- ref: posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md
-  title: Busan mùa hè nên đi đâu?
-- ref: posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md
-  title: Đi Jeju tháng 7-8 có mưa không?
-- ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
-  title: Lịch trình Seoul 3 ngày mùa mưa
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-  title: Checklist vali đi Hàn mùa hè
-- ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
-  title: Đi Hàn mùa hè mặc gì?
-- ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md
-  title: Caribbean Bay Hàn Quốc
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-  title: Top 20 hoạt động du lịch Hàn Quốc
+  - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
+internal_links:
+  - {"ref": "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md", "title": "Seoul ngày mưa nên đi đâu?"}
+internal_links:
+  - {"ref": "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md", "title": "Hàn Quốc tháng 8 nên đi đâu?"}
+internal_links:
+  - {"ref": "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md", "title": "Busan mùa hè nên đi đâu?"}
+internal_links:
+  - {"ref": "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md", "title": "Đi Jeju tháng 7-8 có mưa không?"}
+internal_links:
+  - {"ref": "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md", "title": "Lịch trình Seoul 3 ngày mùa mưa"}
+internal_links:
+  - {"ref": "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md", "title": "Checklist vali đi Hàn mùa hè"}
+internal_links:
+  - {"ref": "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md", "title": "Đi Hàn mùa hè mặc gì?"}
+internal_links:
+  - {"ref": "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md", "title": "Caribbean Bay Hàn Quốc"}
+internal_links:
+  - {"ref": "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md", "title": "Top 20 hoạt động du lịch Hàn Quốc"}
 series: du-lich-han-quoc-mua-he
 series_order: 3
 series_title: Du lịch Hàn Quốc mùa hè
 slug: han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon
 tags:
-- Hàn Quốc tháng 7
-- du lịch Hàn Quốc
-- mùa mưa Hàn Quốc
-- series du lịch
+  - Hàn Quốc tháng 7
+tags:
+  - du lịch Hàn Quốc
+tags:
+  - mùa mưa Hàn Quốc
+tags:
+  - series du lịch
 thumbnail: images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp
 title: Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn
 tom_tat_nhanh:
-- label: Nhiệt độ
-  value: 23–28°C
-- label: Độ ẩm
-  value: 75–85%
-- label: Mưa
-  value: 12–15 ngày / tháng
-- label: Chi phí
-  value: Thấp hơn tháng 8
-- label: Phù hợp
-  value: Indoor + biển
+  - {"label": "Nhiệt độ", "value": "23–28°C"}
+tom_tat_nhanh:
+  - {"label": "Độ ẩm", "value": "75–85%"}
+tom_tat_nhanh:
+  - {"label": "Mưa", "value": "12–15 ngày / tháng"}
+tom_tat_nhanh:
+  - {"label": "Chi phí", "value": "Thấp hơn tháng 8"}
+tom_tat_nhanh:
+  - {"label": "Phù hợp", "value": "Indoor + biển"}
+seo_title: Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch
 ---
 
 ## Thời tiết tháng 7

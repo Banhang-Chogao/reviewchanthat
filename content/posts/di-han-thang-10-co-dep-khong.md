@@ -2,71 +2,69 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Tháng 10 là mùa thu Hàn Quốc — nhiệt độ mát, ít nóng nực hơn hè, phù hợp đi bộ
-    và ngắm lá.
-  - Lá đỏ/lá vàng có ở nhiều nơi nhưng thời điểm peak thay đổi theo từng năm và từng
-    vùng.
-  - Đầu tháng 10 khác cuối tháng 10 — Seoraksan/Nami thường đẹp hơn nếu bạn săn foliage.
-  - Series 11 bài — thời tiết, mặc gì, Seoul, Nami, Seoraksan, Busan, Jeju, lịch trình
-    và chi phí.
-  title: Tóm tắt bài viết
+  items: ["Tháng 10 là mùa thu Hàn Quốc — nhiệt độ mát, ít nóng nực hơn hè, phù hợp đi bộ và ngắm lá.", "Lá đỏ/lá vàng có ở nhiều nơi nhưng thời điểm peak thay đổi theo từng năm và từng vùng.", "Đầu tháng 10 khác cuối tháng 10 — Seoraksan/Nami thường đẹp hơn nếu bạn săn foliage.", "Series 11 bài — thời tiết, mặc gì, Seoul, Nami, Seoraksan, Busan, Jeju, lịch trình và chi phí."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Tham khảo: https://english.visitkorea.or.kr, https://www.kma.go.kr,
-    https://www.koreatodo.com'
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Tham khảo: https://english.visitkorea.or.kr, https://www.kma.go.kr, https://www.koreatodo.com"
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- du-lich
+  - du-lich
 date: 2026-07-08 06:00:00+07:00
-description: Đi Hàn tháng 10 có đẹp không? Thời tiết mùa thu, lá đỏ, mặc gì, lịch
-  trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt.
+description: Đi Hàn tháng 10 có đẹp không? Thời tiết mùa thu, lá đỏ, mặc gì, lịch trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt.
 draft: false
 external_links:
-- title: Visit Korea — 2025 Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: KoreaToDo — Top Autumn Foliage Sites
-  url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
-- title: Visit Korea — Seoul's Top 5 Fall Forests
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=230041
-- title: Korea Meteorological Administration
-  url: https://www.kma.go.kr
+  - {"title": "Visit Korea — 2025 Fall Foliage Forecast", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"}
+external_links:
+  - {"title": "KoreaToDo — Top Autumn Foliage Sites", "url": "https://www.koreatodo.com/top-autumn-foliage-sites-korea"}
+external_links:
+  - {"title": "Visit Korea — Seoul's Top 5 Fall Forests", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=230041"}
+external_links:
+  - {"title": "Korea Meteorological Administration", "url": "https://www.kma.go.kr"}
 image: images/posts/di-han-thang-10-co-dep-khong.webp
-image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:38:09+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
-image_creator_id: '222549'
-image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
+image_creator_id: 222549
+image_creator_url: >-
+  https://www.pexels.com/@quang-nguyen-vinh-222549
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-2131627/
+image_source_url: >-
+  https://www.pexels.com/photo/pexels-photo-2131627/
 series: di-han-thang-10
 series_order: 1
 series_title: Đi Hàn tháng 10
 slug: di-han-thang-10-co-dep-khong
 tags:
-- đi Hàn tháng 10
-- du lịch Hàn Quốc
-- Hàn Quốc mùa thu
-- lá đỏ Hàn Quốc
-- Seoul tháng 10
+  - đi Hàn tháng 10
+tags:
+  - du lịch Hàn Quốc
+tags:
+  - Hàn Quốc mùa thu
+tags:
+  - lá đỏ Hàn Quốc
+tags:
+  - Seoul tháng 10
 thumbnail: images/posts/di-han-thang-10-co-dep-khong.webp
 title: Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn
 tom_tat_nhanh:
-- label: Mùa
-  value: Thu — mát, ít mưa hơn hè
-- label: Lá đổi màu
-  value: Có — peak khác nhau theo vùng/năm
-- label: Phù hợp
-  value: Ngắm lá, đi bộ, cung đình Seoul
-- label: Lưu ý
-  value: Đông hơn, giá có thể cao cuối tháng
+  - {"label": "Mùa", "value": "Thu — mát, ít mưa hơn hè"}
+tom_tat_nhanh:
+  - {"label": "Lá đổi màu", "value": "Có — peak khác nhau theo vùng/năm"}
+tom_tat_nhanh:
+  - {"label": "Phù hợp", "value": "Ngắm lá, đi bộ, cung đình Seoul"}
+tom_tat_nhanh:
+  - {"label": "Lưu ý", "value": "Đông hơn, giá có thể cao cuối tháng"}
+seo_title: Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và
 ---
 
 Bạn đang lên kế hoạch **đi Hàn tháng 10** và thấy trên mạng ảnh lá vàng, lá đỏ ở Seoul, Nami, Seoraksan — rồi tự hỏi: *tháng 10 có đẹp thật không, hay chỉ đẹp trên Instagram?* Câu trả lời ngắn: **tháng 10 là một trong những tháng đáng cân nhắc nhất** để du lịch Hàn Quốc nếu bạn thích mùa thu, đi bộ nhiều và chụp ảnh cảnh quan. Nhưng trải nghiệm cụ thể phụ thuộc **bạn đi đầu tháng hay cuối tháng**, **đi Seoul hay leo núi**, và **năm đó lá đỏ đến sớm hay muộn**.

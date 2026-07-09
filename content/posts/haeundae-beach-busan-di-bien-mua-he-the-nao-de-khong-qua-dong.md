@@ -2,93 +2,92 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items:
-  - Haeundae Beach là bãi biển nổi tiếng nhất Busan, dài 1,5 km cát trắng, thu hút
-    hơn 10 triệu lượt mỗi mùa hè.
-  - 'Mẹo tránh đông: đi sáng sớm ngày thường, tránh cuối tuần tháng 7-8.'
-  - Kết hợp với Cheongsapo, Gwangalli và Club D Oasis cho chuyến đi Busan trọn vẹn.
-  title: Tóm tắt bài viết
+  items: ["Haeundae Beach là bãi biển nổi tiếng nhất Busan, dài 1,5 km cát trắng, thu hút hơn 10 triệu lượt mỗi mùa hè.", "Mẹo tránh đông: đi sáng sớm ngày thường, tránh cuối tuần tháng 7-8.", "Kết hợp với Cheongsapo, Gwangalli và Club D Oasis cho chuyến đi Busan trọn vẹn."]
+  title: "Tóm tắt bài viết"
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373,
-    https://www.busan.go.kr/eng/beaches/1325815, https://www.koreatodo.com/haeundae-beach.'
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX, https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373, https://www.busan.go.kr/eng/beaches/1325815, https://www.koreatodo.com/haeundae-beach."
 author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: >-
+  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-- du-lich
+  - du-lich
 date: 2026-07-08 07:00:00+07:00
-description: 'Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm
-  biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue
-  Line Park.'
+description: >-
+  Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue Line Park.
 draft: false
 external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-- title: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373
-  url: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373
-- title: https://www.busan.go.kr/eng/beaches/1325815
-  url: https://www.busan.go.kr/eng/beaches/1325815
-- title: https://www.koreatodo.com/haeundae-beach
-  url: https://www.koreatodo.com/haeundae-beach
+  - {"title": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX", "url": "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"}
+external_links:
+  - {"title": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373", "url": "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373"}
+external_links:
+  - {"title": "https://www.busan.go.kr/eng/beaches/1325815", "url": "https://www.busan.go.kr/eng/beaches/1325815"}
+external_links:
+  - {"title": "https://www.koreatodo.com/haeundae-beach", "url": "https://www.koreatodo.com/haeundae-beach"}
 faq:
-- answer: Có. Bãi biển công cộng miễn phí. Bạn chỉ trả tiền khi thuê locker, phao,
-    đồ thể thao nước.
-  question: Haeundae có vào cửa miễn phí không?
-- answer: Nên. Khu vực Haeundae có rất nhiều khách sạn từ bình dân đến 5 sao. Ở gần
-    biển giúp bạn chủ động thời gian tắm và đi bộ dọc bờ biển sáng sớm.
-  question: Có nên ở khách sạn gần Haeundae không?
-- answer: Không. Nhiệt độ nước biển tháng 7–8 dao động 22–25°C, rất dễ chịu.
-  question: Tháng 8 nước biển có lạnh không?
+  - {"answer": "Có. Bãi biển công cộng miễn phí. Bạn chỉ trả tiền khi thuê locker, phao, đồ thể thao nước.", "question": "Haeundae có vào cửa miễn phí không?"}
+faq:
+  - {"answer": "Nên. Khu vực Haeundae có rất nhiều khách sạn từ bình dân đến 5 sao. Ở gần biển giúp bạn chủ động thời gian tắm và đi bộ dọc bờ biển sáng sớm.", "question": "Có nên ở khách sạn gần Haeundae không?"}
+faq:
+  - {"answer": "Không. Nhiệt độ nước biển tháng 7–8 dao động 22–25°C, rất dễ chịu.", "question": "Tháng 8 nước biển có lạnh không?"}
 image: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
-image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_checked_at: >-
+  2026-07-09T15:37:59+07:00
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jhany Blue
-image_creator_id: '436502581'
-image_creator_url: https://www.pexels.com/@jhany-blue-436502581
+image_creator_id: 436502581
+image_creator_url: >-
+  https://www.pexels.com/@jhany-blue-436502581
 image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
+image_license_url: >-
+  https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: https://www.pexels.com/photo/aerial-night-view-of-haeundae-beach-busan-29188035/
+image_source_url: >-
+  https://www.pexels.com/photo/aerial-night-view-of-haeundae-beach-busan-29188035/
 internal_links:
-- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-  title: 10 điểm tránh nóng ở Hàn Quốc mùa hè
-- ref: posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md
-  title: 'Gwangalli Beach Busan: bãi biển ngắm cầu'
-- ref: posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md
-  title: 'Cheongsapo Busan: biển trong, Blue Line Park'
-- ref: posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md
-  title: 'Club D Oasis Busan: infinity pool spa'
-- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
+  - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng ở Hàn Quốc mùa hè"}
+internal_links:
+  - {"ref": "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md", "title": "Gwangalli Beach Busan: bãi biển ngắm cầu"}
+internal_links:
+  - {"ref": "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md", "title": "Cheongsapo Busan: biển trong, Blue Line Park"}
+internal_links:
+  - {"ref": "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md", "title": "Club D Oasis Busan: infinity pool spa"}
+internal_links:
+  - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
 series: du-lich
 series_order: 14
 series_title: Du lịch Hàn Quốc 2026
 slug: haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong
 tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Busan
-- Haeundae
-- biển Hàn Quốc
-- series du lịch
+  - du lịch Hàn Quốc
+tags:
+  - Hàn Quốc mùa hè
+tags:
+  - Busan
+tags:
+  - Haeundae
+tags:
+  - biển Hàn Quốc
+tags:
+  - series du lịch
 thumbnail: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
-title: 'Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?'
+title: >-
+  Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?
 tom_tat_nhanh:
-- label: Khu vực
-  value: Haeundae-gu, Busan
-- label: Loại trải nghiệm
-  value: Bãi biển công cộng, thể thao nước, ẩm thực
-- label: Hợp với
-  value: Mọi đối tượng — gia đình, nhóm bạn, cặp đôi
-- label: Thời gian nên dành
-  value: Cả ngày hoặc nửa ngày
-- label: Lưu ý mùa hè
-  value: Rất đông cuối tuần, nắng mạnh, cần kem chống nắng
+  - {"label": "Khu vực", "value": "Haeundae-gu, Busan"}
+tom_tat_nhanh:
+  - {"label": "Loại trải nghiệm", "value": "Bãi biển công cộng, thể thao nước, ẩm thực"}
+tom_tat_nhanh:
+  - {"label": "Hợp với", "value": "Mọi đối tượng — gia đình, nhóm bạn, cặp đôi"}
+tom_tat_nhanh:
+  - {"label": "Thời gian nên dành", "value": "Cả ngày hoặc nửa ngày"}
+tom_tat_nhanh:
+  - {"label": "Lưu ý mùa hè", "value": "Rất đông cuối tuần, nắng mạnh, cần kem chống nắng"}
+seo_title: >-
+  Haeundae Beach Busan: đi biển mùa hè thế nào để không quá
 ---
 
 Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc biển Hàn Quốc — bãi biển dài 1,5 km cát trắng, sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ. Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Haeundae đứng thứ hai.
