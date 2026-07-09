@@ -101,4 +101,17 @@ jobs:
             --head "$BRANCH" \
             --title "chore(content): autobot_desc nightly run" \
             --body "Nightly autobot_desc run. [autobot-desc]" \
-            --label automerge --label automated --label content-direction || true
+            --label automerge --label automated --label content-direction
+
+          # Auto-resolve conflicts if any
+          sleep 10
+          PR_NUMBER=$(gh pr view "$BRANCH" --json number --jq '.number' || true)
+          if [ -n "$PR_NUMBER" ]; then
+            CONFLICT=$(gh pr view "$PR_NUMBER" --json mergeable --jq '.mergeable' || true)
+            if [ "$CONFLICT" = "CONFLICTING" ]; then
+              echo "PR #$PR_NUMBER has conflicts — auto-resolving..."
+              python scripts/auto_resolve_pr_conflicts.py "$BRANCH"
+              sleep 5
+              gh pr merge "$PR_NUMBER" --squash --subject "fix: auto-resolve conflicts [autobot-desc]" --body "Auto-resolved by keeping main version." || true
+            fi
+          fi || true
