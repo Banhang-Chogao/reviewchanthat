@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-07-10T06:12:09+07:00",
-  "generated_at_display": "10-07-2026 06:12:09",
+  "generated_at": "2026-07-10T06:37:24+07:00",
+  "generated_at_display": "10-07-2026 06:37:24",
   "summary": {
-    "total_posts": 173,
+    "total_posts": 174,
     "draft_posts": 0,
-    "total_words": 203436,
-    "average_words_per_post": 1176,
+    "total_words": 205747,
+    "average_words_per_post": 1182,
     "categories_count": 5,
-    "tags_count": 429,
+    "tags_count": 443,
     "authors_count": 1,
-    "parse_warnings": 3
+    "parse_warnings": 0
   },
   "categories": [
     {
       "name": "du-lich",
-      "count": 81
+      "count": 83
     },
     {
       "name": "cong-nghe",
-      "count": 76
+      "count": 77
     },
     {
       "name": "review",
       "count": 11
     },
     {
-      "name": "doi-song",
-      "count": 3
+      "name": "tai-chinh",
+      "count": 4
     },
     {
-      "name": "tai-chinh",
+      "name": "doi-song",
       "count": 3
     }
   ],
   "authors": [
     {
       "name": "Minh Hoàng",
-      "count": 170
+      "count": 174
     }
   ],
   "tags_top": [
@@ -124,19 +124,11 @@
   "time": {
     "oldest": "2026-06-15T10:00:00+07:00",
     "oldest_display": "15-06-2026 10:00:00",
-    "newest": "2026-07-10T05:58:08+07:00",
-    "newest_display": "10-07-2026 05:58:08"
+    "newest": "2026-07-10T06:32:00+07:00",
+    "newest_display": "10-07-2026 06:32:00"
   },
   "seo": {
-    "title_too_short": [
-      {
-        "slug": "co-nen-len-ios-26-5-2-khong",
-        "title": "co-nen-len-ios-26-5-2-khong",
-        "seo_title": "",
-        "effective_title": "co-nen-len-ios-26-5-2-khong",
-        "length": 27
-      }
-    ],
+    "title_too_short": [],
     "title_too_long": [
       {
         "slug": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
@@ -144,28 +136,27 @@
         "seo_title": "",
         "effective_title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
         "length": 81
-      }
-    ],
-    "description_missing": [
-      {
-        "slug": "co-nen-len-ios-26-5-2-khong",
-        "title": "co-nen-len-ios-26-5-2-khong"
       },
       {
-        "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
-        "title": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem"
-      },
-      {
-        "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
-        "title": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem"
+        "slug": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
+        "title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
+        "seo_title": "",
+        "effective_title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
+        "length": 77
       }
     ],
+    "description_missing": [],
     "description_too_short": [],
     "description_too_long": [
       {
         "slug": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
         "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
         "length": 213
+      },
+      {
+        "slug": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
+        "title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
+        "length": 238
       }
     ],
     "slug_too_long": [
@@ -764,6 +755,12 @@
         ]
       },
       {
+        "slug": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
         "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
         "stop_words": [
           "cho",
@@ -1081,6 +1078,12 @@
         "date": "08-07-2026 09:00:00"
       },
       {
+        "slug": "co-nen-len-ios-26-5-2-khong",
+        "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì",
+        "age_days": 0,
+        "date": "09-07-2026 17:30:00"
+      },
+      {
         "slug": "content-direction-empty-report-va-optimizer-frontmatter",
         "title": "Content Direction empty report và optimizer fail vì front matter",
         "age_days": 0,
@@ -1171,10 +1174,22 @@
         "date": "08-07-2026 10:00:00"
       },
       {
+        "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+        "age_days": 0,
+        "date": "09-07-2026 09:00:00"
+      },
+      {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
         "age_days": 1,
         "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+        "age_days": 0,
+        "date": "09-07-2026 17:00:00"
       },
       {
         "slug": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
@@ -1765,6 +1780,12 @@
         "date": "08-07-2026 17:30:00"
       },
       {
+        "slug": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
+        "title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
+        "age_days": 0,
+        "date": "10-07-2026 06:32:00"
+      },
+      {
         "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
         "title": "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền",
         "age_days": 1,
@@ -1887,8 +1908,8 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1654,
-    "average_outbound_per_post": 9.56,
+    "total_outbound_links": 1660,
+    "average_outbound_per_post": 9.54,
     "top_linked_posts": [
       {
         "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -1933,7 +1954,7 @@
       {
         "slug": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
-        "inbound": 20
+        "inbound": 21
       },
       {
         "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
@@ -1955,34 +1976,18 @@
       "suggested_fix": "Bổ sung nội dung thực tế, so sánh, FAQ nếu phù hợp."
     },
     {
-      "priority": "P0",
-      "type": "SEO",
-      "title": "Thêm meta description cho bài thiếu",
-      "detail": "3 bài chưa có meta description.",
-      "affected_count": 3,
-      "suggested_fix": "Viết description 50–160 ký tự, chứa keyword chính."
-    },
-    {
-      "priority": "P1",
-      "type": "Content",
-      "title": "Gán category cho bài thiếu",
-      "detail": "3 bài không có categories.",
-      "affected_count": 3,
-      "suggested_fix": "Thêm categories trong front matter."
-    },
-    {
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài meta description",
-      "detail": "0 quá ngắn, 1 quá dài (chuẩn 50–160).",
-      "affected_count": 1,
+      "detail": "0 quá ngắn, 2 quá dài (chuẩn 50–160).",
+      "affected_count": 2,
       "suggested_fix": "Chỉnh description về 50–160 ký tự."
     },
     {
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài title tag",
-      "detail": "1 title quá ngắn, 1 title quá dài (chuẩn 30–60 ký tự).",
+      "detail": "0 title quá ngắn, 2 title quá dài (chuẩn 30–60 ký tự).",
       "affected_count": 2,
       "suggested_fix": "Rút gọn/mở rộng title về 30–60 ký tự, giữ keyword đầu."
     },
@@ -1998,22 +2003,10 @@
       "priority": "P2",
       "type": "SEO",
       "title": "Slug chứa stop words (report-only)",
-      "detail": "97 slug chứa stop words tiếng Việt.",
-      "affected_count": 97,
+      "detail": "98 slug chứa stop words tiếng Việt.",
+      "affected_count": 98,
       "suggested_fix": "Ghi nhận; chỉ đổi slug khi refactor có redirect."
-    },
-    {
-      "priority": "P2",
-      "type": "Technical",
-      "title": "Sửa bài parse front matter lỗi / cảnh báo",
-      "detail": "3 cảnh báo khi scan posts.",
-      "affected_count": 3,
-      "suggested_fix": "Kiểm tra front matter YAML/TOML của các file bị cảnh báo."
     }
   ],
-  "warnings": [
-    "content/posts/co-nen-len-ios-26-5-2-khong.md: missing-title",
-    "content/posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md: missing-title",
-    "content/posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md: missing-title"
-  ]
+  "warnings": []
 }

@@ -1,10 +1,10 @@
 # Internal Link Graph Report
-Generated: 2026-07-10 06:11:53
+Generated: 2026-07-10 06:37:16
 
 ## Summary
-- Indexable posts: 173
-- Posts with outgoing links: 173
-- Total internal links generated: 1416
+- Indexable posts: 174
+- Posts with outgoing links: 174
+- Total internal links generated: 1422
 - Average links per post: 8.2
 - Orphan posts (no inbound): 0
 - Orphans before: 84 (estimated)
@@ -29,8 +29,8 @@ Generated: 2026-07-10 06:11:53
 | jeju-thang-11-co-dep-khong | 9 |
 | image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url | 9 |
 | thoi-tiet-han-quoc-thang-10 | 9 |
-| so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat | 9 |
 | du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di | 9 |
-| cach-xay-dung-thoi-quen-mua-sam-thong-minh | 9 |
 | jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc | 9 |
 | checklist-truoc-khi-mua-mot-san-pham-online | 9 |
+| chi-phi-di-han-thang-10-tu-tuc | 9 |
+| club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong | 8 |

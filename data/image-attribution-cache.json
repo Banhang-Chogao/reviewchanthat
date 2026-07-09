@@ -3055,13 +3055,13 @@
     "confidence": "high",
     "checked_at": "2026-07-10T06:10:06+07:00"
   },
-  "d47ca860e204afb13715a908f1d770a898a709b8e933aa28febad9ecffb9ff7d": {
-    "image_creator": "Tima Miroshnichenko",
-    "image_creator_url": "https://www.pexels.com/@tima-miroshnichenko",
-    "image_creator_id": "3088726",
+  "9beff9a2415eba314a7310b562040f2106c407e4f4316cb5f998aeedf06401c0": {
+    "image_creator": "Roger Brown",
+    "image_creator_url": "https://www.pexels.com/@roger-brown-3435524",
+    "image_creator_id": "3435524",
     "image_provider": "pexels",
     "image_source": "Pexels",
-    "image_source_url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/",
+    "image_source_url": "https://www.pexels.com/photo/a-hand-holding-a-cellphone-with-cryptograph-11279904/",
     "image_license": "Pexels License",
     "image_license_url": "https://www.pexels.com/license/",
     "image_attribution_verified": true,
@@ -3102,5 +3102,21 @@
     "image_attribution_checked_at": "2026-07-10T06:10:07+07:00",
     "confidence": "high",
     "checked_at": "2026-07-10T06:10:07+07:00"
+  },
+  "675345f980afed4f6ef12bd50ad131dc987fd822db94eb28cd3a756bae180ca1": {
+    "image_creator": "Ivan S",
+    "image_creator_url": "https://www.pexels.com/@ivan-s",
+    "image_creator_id": "2563618",
+    "image_provider": "pexels",
+    "image_source": "Pexels",
+    "image_source_url": "https://www.pexels.com/photo/credit-cards-and-a-smartphone-on-a-white-wall-7621381/",
+    "image_license": "Pexels License",
+    "image_license_url": "https://www.pexels.com/license/",
+    "image_attribution_verified": true,
+    "image_attribution_source": "pexels_api",
+    "image_attribution_error": "",
+    "image_attribution_checked_at": "2026-07-10T06:37:05+07:00",
+    "confidence": "high",
+    "checked_at": "2026-07-10T06:37:05+07:00"
   }
 }
