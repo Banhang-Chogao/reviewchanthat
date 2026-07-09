@@ -77,19 +77,18 @@ faq:
 - answer: 5–7 bộ quần áo, 2 đôi giày, 1 đôi dép, đồ vệ sinh cá nhân, túi chống nước.
   question: Vali 7kg có đủ không?
 image: images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp
+image_attribution_checked_at: '2026-07-09T15:24:51+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Mizuno K
-image_creator_url: "https://www.pexels.com/@mizunokozuki"
-image_creator_id: 264153375
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:19+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '264153375'
+image_creator_url: https://www.pexels.com/@mizunokozuki
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/girls-looking-through-clothes-in-a-suitcase-13929267/"
+image_source_url: https://www.pexels.com/photo/girls-looking-through-clothes-in-a-suitcase-13929267/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

@@ -29,19 +29,18 @@ external_links:
 - title: Starbucks — Customer experience
   url: https://www.starbucks.com/business/standards-of-business-conduct/
 image: images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp
+image_attribution_checked_at: '2026-07-09T15:22:32+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Chevanon Photography
-image_creator_url: "https://www.pexels.com/@chevanon"
-image_creator_id: 93955
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:25+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '93955'
+image_creator_url: https://www.pexels.com/@chevanon
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/close-up-of-coffee-cup-324028/"
+image_source_url: https://www.pexels.com/photo/person-holding-starbucks-disposable-cup-324028/
 series: starbucks-vietnam
 series_order: 4
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'

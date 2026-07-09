@@ -20,19 +20,18 @@ description: 'So sánh macOS Golden Gate 27 và macOS 26: Siri AI, Liquid Glass,
   tương thích Intel, hiệu năng và nên ở lại bản cũ khi nào.'
 draft: false
 image: images/posts/macos-27-so-voi-macos-26.webp
+image_attribution_checked_at: '2026-07-09T15:25:50+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Mateusz Dach
-image_creator_url: "https://www.pexels.com/@mateusz-dach-99805"
-image_creator_id: 99805
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:19+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '99805'
+image_creator_url: https://www.pexels.com/@mateusz-dach-99805
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/computer-set-up-on-a-workspace-450035/"
+image_source_url: https://www.pexels.com/photo/apple-macbook-on-the-table-450035/
 series: macos-27-co-gi-moi
 series_order: 8
 series_title: macOS 27 có gì mới

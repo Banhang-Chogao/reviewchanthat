@@ -63,20 +63,19 @@ faq:
     thức trước khi đi.
   question: Giá vé công viên nước có đắt không?
 image: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
-image_commercial_use: true
-image_creator: ""
-image_creator_url: ""
-image_creator_id: ""
-image_attribution_verified: false
+image_attribution_checked_at: '2026-07-09T15:24:36+07:00'
+image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: rejected_generic
-image_attribution_checked_at: "2026-07-09T10:43:15+07:00"
-image_attribution_error: "Creator rejected as generic/platform name: 'Pixabay'"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_attribution_verified: false
+image_commercial_use: true
+image_creator: ''
+image_creator_id: ''
+image_creator_url: ''
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/bundle-of-assorted-denomination-euro-banknotes-259234/"
+image_source_url: https://www.pexels.com/photo/bundle-of-assorted-denomination-euro-banknotes-259234/
 internal_links:
 - ref: posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md
   title: 'Udo Jeju: đảo nhỏ, biển đá đen và hải đăng trắng'

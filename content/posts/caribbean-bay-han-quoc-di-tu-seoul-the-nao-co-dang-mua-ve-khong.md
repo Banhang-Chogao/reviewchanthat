@@ -28,19 +28,18 @@ faq:
 - answer: Nên. Đi thứ 3–5 ít đông nhất. Cuối tuần rất đông, phải xếp hàng lâu.
   question: Có nên đi ngày thường không?
 image: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
+image_attribution_checked_at: '2026-07-09T15:24:47+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: marclyc li
-image_creator_url: "https://www.pexels.com/@marclyc-li-2160558161"
-image_creator_id: 2160558161
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:53+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '2160558161'
+image_creator_url: https://www.pexels.com/@marclyc-li-2160558161
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/thrill-ride-fun-at-amusement-park-38331866/"
+image_source_url: https://www.pexels.com/photo/thrill-ride-fun-at-amusement-park-38331866/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

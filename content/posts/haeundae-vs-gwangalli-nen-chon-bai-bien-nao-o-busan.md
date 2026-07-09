@@ -30,19 +30,18 @@ faq:
 - answer: Haeundae có nhiều hoạt động hơn. Gwangalli cũng có nhưng ít lựa chọn.
   question: Bãi nào có nhiều hoạt động thể thao nước hơn?
 image: images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp
+image_attribution_checked_at: '2026-07-09T15:25:08+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jhany Blue
-image_creator_url: "https://www.pexels.com/@jhany-blue-436502581"
-image_creator_id: 436502581
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:58+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '436502581'
+image_creator_url: https://www.pexels.com/@jhany-blue-436502581
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/vibrant-night-view-of-busan-s-cityscape-and-bridge-36046039/"
+image_source_url: https://www.pexels.com/photo/vibrant-night-view-of-busan-s-cityscape-and-bridge-36046039/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

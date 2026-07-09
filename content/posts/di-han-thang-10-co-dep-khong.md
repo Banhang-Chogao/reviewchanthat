@@ -34,19 +34,18 @@ external_links:
 - title: Korea Meteorological Administration
   url: https://www.kma.go.kr
 image: images/posts/di-han-thang-10-co-dep-khong.webp
+image_attribution_checked_at: '2026-07-09T15:22:34+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
-image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
-image_creator_id: 222549
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:55+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '222549'
+image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/2131627/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-2131627/
 series: di-han-thang-10
 series_order: 1
 series_title: Đi Hàn tháng 10

@@ -26,19 +26,18 @@ external_links:
 - title: Starbucks Vietnam
   url: https://www.starbucks.vn/
 image: images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp
+image_attribution_checked_at: '2026-07-09T15:22:32+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Iván Rivero
-image_creator_url: "https://www.pexels.com/@osho"
-image_creator_id: 233620
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:25+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '233620'
+image_creator_url: https://www.pexels.com/@osho
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/holy-week-religion-1001969/"
+image_source_url: https://www.pexels.com/photo/person-using-macbook-pro-on-brown-wooden-table-1001969/
 series: starbucks-vietnam
 series_order: 6
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'

@@ -31,19 +31,18 @@ faq:
     viên.
   question: Bãi biển nào yên tĩnh nhất?
 image: images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp
+image_attribution_checked_at: '2026-07-09T15:24:40+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: thuan Nguyen
-image_creator_url: "https://www.pexels.com/@thuan-nguyen-1317341160"
-image_creator_id: 1317341160
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:50+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '1317341160'
+image_creator_url: https://www.pexels.com/@thuan-nguyen-1317341160
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/vibrant-nighttime-skyline-of-busan-south-korea-29861385/"
+image_source_url: https://www.pexels.com/photo/vibrant-nighttime-skyline-of-busan-south-korea-29861385/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

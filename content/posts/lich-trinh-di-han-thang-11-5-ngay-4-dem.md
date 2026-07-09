@@ -33,19 +33,18 @@ external_links:
 - title: KoreaToDo — Top Autumn Foliage Sites
   url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
 image: images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp
+image_attribution_checked_at: '2026-07-09T15:22:37+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Светлана Конева
-image_creator_url: "https://www.pexels.com/@269097219"
-image_creator_id: 269097219
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:16+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '269097219'
+image_creator_url: https://www.pexels.com/@269097219
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/12787318/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-12787318/
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
   title: Đi Hàn tháng 11 có đẹp không?

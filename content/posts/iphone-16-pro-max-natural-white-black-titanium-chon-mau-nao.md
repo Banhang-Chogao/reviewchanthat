@@ -17,19 +17,18 @@ description: So sánh Natural, White và Black Titanium trên iPhone 16 Pro Max 
   màu theo thói quen, độ bều và giá máy cũ 2026.
 draft: false
 image: images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp
+image_attribution_checked_at: '2026-07-09T15:25:36+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: www.kaboompics.com
-image_creator_url: "https://www.pexels.com/@karola-g"
-image_creator_id: 2332540
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:09+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '2332540'
+image_creator_url: https://www.pexels.com/@karola-g
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/a-mobile-phone-near-the-notebook-with-green-leaves-on-a-wooden-table-8092450/"
+image_source_url: https://www.pexels.com/photo/a-mobile-phone-near-the-notebook-with-green-leaves-on-a-wooden-table-8092450/
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 3
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'

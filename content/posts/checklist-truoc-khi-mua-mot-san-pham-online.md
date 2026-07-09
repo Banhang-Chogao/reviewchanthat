@@ -40,19 +40,18 @@ faq:
     màn hình đơn hàng, và ưu tiên thanh toán khi nhận hàng (COD) cho lần mua đầu.
   question: Làm sao để không bị lừa khi mua online?
 image: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
+image_attribution_checked_at: '2026-07-09T15:24:49+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Tara Winstead
-image_creator_url: "https://www.pexels.com/@tara-winstead"
-image_creator_id: 2702888
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:19+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '2702888'
+image_creator_url: https://www.pexels.com/@tara-winstead
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/red-check-mark-in-a-box-8850721/"
+image_source_url: https://www.pexels.com/photo/red-check-mark-in-a-box-8850721/
 slug: checklist-truoc-khi-mua-mot-san-pham-online
 tags:
 - mua sắm online

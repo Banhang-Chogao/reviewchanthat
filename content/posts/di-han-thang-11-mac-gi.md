@@ -43,19 +43,18 @@ faq:
     giày trekking nhẹ, tất dày.
   question: Nên mang giày gì?
 image: images/posts/di-han-thang-11-mac-gi.webp
+image_attribution_checked_at: '2026-07-09T15:22:36+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Eric Prouzet
-image_creator_url: "https://www.pexels.com/@eric-prouzet-225470"
-image_creator_id: 225470
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:46:56+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '225470'
+image_creator_url: https://www.pexels.com/@eric-prouzet-225470
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/32077763/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-32077763/
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
   title: Đi Hàn tháng 11 có đẹp không?

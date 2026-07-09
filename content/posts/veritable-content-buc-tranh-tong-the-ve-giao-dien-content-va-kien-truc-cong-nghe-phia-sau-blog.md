@@ -3,7 +3,7 @@ author: Minh Hoàng
 avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: "2026-07-07 09:00:00+07:00"
+date: '2026-07-07 09:00:00+07:00'
 description: 'Tường thuật quá trình tinh chỉnh Veritable Content: từ logo, header,
   footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions
   và triết lý text-first.'
@@ -14,20 +14,19 @@ external_links:
 - title: GitHub Actions Documentation
   url: https://docs.github.com/en/actions
 image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
+image_attribution_checked_at: '2026-07-09T15:26:09+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Tran Nhu Tuan
-image_creator_url: "https://www.pexels.com/@kooldark"
-image_creator_id: 23251645
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:36+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '23251645'
+image_creator_url: https://www.pexels.com/@kooldark
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/"
-lastmod: "2026-07-07 09:00:00+07:00"
+image_source_url: https://www.pexels.com/photo/happy-ethnic-family-with-kid-on-sofa-7936747/
+lastmod: '2026-07-07 09:00:00+07:00'
 slug: veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog
 tags:
 - Veritable Content

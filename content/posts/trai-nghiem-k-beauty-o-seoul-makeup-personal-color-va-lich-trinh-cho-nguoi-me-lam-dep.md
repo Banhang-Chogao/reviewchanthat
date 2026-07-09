@@ -30,19 +30,18 @@ external_links:
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
 image: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
+image_attribution_checked_at: '2026-07-09T15:26:04+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Đặng Nhật
-image_creator_url: "https://www.pexels.com/@d-ng-nh-t-262758705"
-image_creator_id: 262758705
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:34+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '262758705'
+image_creator_url: https://www.pexels.com/@d-ng-nh-t-262758705
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/portrait-of-woman-with-flowers-drawn-on-face-on-pink-back-13720024/"
+image_source_url: https://www.pexels.com/photo/portrait-of-woman-with-flowers-drawn-on-face-on-pink-back-13720024/
 series: du-lich
 series_order: 5
 series_title: Du lịch Hàn Quốc 2026

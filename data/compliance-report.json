@@ -1,9 +1,514 @@
 {
   "summary": {
-    "files_scanned": 149,
-    "errors": 0,
+    "files_scanned": 150,
+    "errors": 72,
     "warnings": 0,
     "fixed": 0
   },
-  "issues": []
+  "issues": [
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md",
+      "message": "Image relevance score 45 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/apple-thua-kien-eu-app-store-ios-dma.md",
+      "message": "Image relevance score 40 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/apple-vs-ec-dma-tuong-lai-iphone.md",
+      "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/camera-control-iphone-16-pro-max-co-tien-khong.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/camera-iphone-18-co-gi-moi.md",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/chuan-bi-macbook-truoc-khi-len-macos-27.md",
+      "message": "Image relevance score 65 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Missing required field: image",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Missing required field: thumbnail",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "NEEDS_IMAGE",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "image_status=needs_review",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Missing image_source",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Missing image_license",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Missing image_commercial_use",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Missing image_owner",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "COMMERCIAL_USE",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "image_commercial_use must be true",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "VERIFIED_WITHOUT_CREATOR",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "image_attribution_verified is true but image_creator is empty",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/co-nen-cho-iphone-18-khong.md",
+      "message": "Image relevance score 0 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md",
+      "message": "Image relevance score 40 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/european-commission-duoc-gi-khi-thang-apple.md",
+      "message": "Image relevance score 40 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/ios-27-apple-intelligence-iphone-cu.md",
+      "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/ios-27-beta-co-nen-cai-khong.md",
+      "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/ios-27-cai-thien-pin-iphone.md",
+      "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/ios-27-camera-anh-video-iphone.md",
+      "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/ios-27-co-gi-moi.md",
+      "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/ios-27-co-nen-cap-nhat-ngay-khong.md",
+      "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/ios-27-ho-tro-iphone-nao.md",
+      "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/ios-27-quyen-rieng-tu-iphone.md",
+      "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md",
+      "message": "Image relevance score 70 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-15-pro-max-blue-titanium-co-dang-san.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.md",
+      "message": "Image relevance score 25 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.md",
+      "message": "Image relevance score 55 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-16-pro-max-desert-titanium-hop-ai.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-16-pro-max-desert-titanium-tren-tay.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-18-chip-a20-2nm.md",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-18-co-gi-moi.md",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-18-gia-bao-nhieu.md",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-18-khi-nao-ra-mat.md",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-18-mau-gi-dark-cherry.md",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "Missing required field: image",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "Missing required field: thumbnail",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "NEEDS_IMAGE",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "image_status=needs_review",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "Missing image_source",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "Missing image_source_url",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "Missing image_license",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "Missing image_commercial_use",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_IMAGE_METADATA",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "Missing image_owner",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "COMMERCIAL_USE",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "image_commercial_use must be true",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "VERIFIED_WITHOUT_CREATOR",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "image_attribution_verified is true but image_creator is empty",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-18-pro-max-co-gi-moi.md",
+      "message": "Image relevance score 0 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-18-vs-iphone-17.md",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/iphone-fold-iphone-ultra-la-gi.md",
+      "message": "Image relevance score 25 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/macos-27-apple-intelligence-macbook.md",
+      "message": "Image relevance score 65 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/macos-27-beta-co-nen-cai-khong.md",
+      "message": "Image relevance score 65 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md",
+      "message": "Image relevance score 65 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/macos-27-co-gi-moi.md",
+      "message": "Image relevance score 65 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/macos-27-co-nen-nang-cap-ngay-khong.md",
+      "message": "Image relevance score 40 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/macos-27-hieu-nang-pin-macbook.md",
+      "message": "Image relevance score 40 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/macos-27-ho-tro-may-mac-nao.md",
+      "message": "Image relevance score 65 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/macos-27-so-voi-macos-26.md",
+      "message": "Image relevance score 65 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md",
+      "message": "Image relevance score 45 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/pin-iphone-16-pro-max-co-dang-chon.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.md",
+      "message": "Image relevance score 45 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md",
+      "message": "Image relevance score 65 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_RELEVANCE_LOW",
+      "file": "content/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md",
+      "message": "Image relevance score 40 below minimum 80 for topic apple_iphone",
+      "suggestion": ""
+    }
+  ]
 }

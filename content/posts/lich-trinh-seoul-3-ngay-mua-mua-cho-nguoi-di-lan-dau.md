@@ -31,19 +31,18 @@ faq:
 - answer: Tàu điện ngầm là chính. Mua T-money card, nạp 20.000 KRW đủ đi 3 ngày.
   question: Đi lại trong Seoul thế nào?
 image: images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp
+image_attribution_checked_at: '2026-07-09T15:25:42+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Gije Cho
-image_creator_url: "https://www.pexels.com/@gije"
-image_creator_id: 1155759
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:43:29+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '1155759'
+image_creator_url: https://www.pexels.com/@gije
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/light-display-over-illuminated-city-at-night-18495176/"
+image_source_url: https://www.pexels.com/photo/light-display-over-illuminated-city-at-night-18495176/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

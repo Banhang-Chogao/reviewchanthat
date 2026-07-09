@@ -31,19 +31,18 @@ external_links:
 - title: MacRumors — iPhone 18 Pro rumored colors
   url: https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/
 image: images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp
+image_attribution_checked_at: '2026-07-09T15:22:33+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
 image_creator: Adrian Trujillo
-image_creator_url: "https://www.pexels.com/@adrian-trujillo-257684"
-image_creator_id: 257684
-image_attribution_verified: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-09T10:47:10+07:00"
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_creator_id: '257684'
+image_creator_url: https://www.pexels.com/@adrian-trujillo-257684
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/closer-desktop-wallpaper-flowers-focus-788883/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-788883/
 series: iphone-18-co-gi-moi
 series_order: 7
 series_title: iPhone 18 có gì mới

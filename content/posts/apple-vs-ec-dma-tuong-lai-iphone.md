@@ -35,20 +35,19 @@ external_links:
 - title: Digital Markets Act — Trang chính thức EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp
-image_commercial_use: true
-image_creator: ""
-image_creator_url: ""
-image_creator_id: ""
-image_attribution_verified: false
+image_attribution_checked_at: '2026-07-09T15:22:31+07:00'
+image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
-image_attribution_checked_at: "2026-07-09T10:46:50+07:00"
-image_attribution_error: pexels_api_miss id=6; source_page_no_creator; embedded_meta_no_creator
-image_license_url: "https://www.pexels.com/license/"
-image_provider: pexels
+image_attribution_verified: false
+image_commercial_use: true
+image_creator: ''
+image_creator_id: ''
+image_creator_url: ''
 image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/silver-iphone-6-on-book-699122/"
+image_source_url: https://www.pexels.com/photo/silver-iphone-6-on-book-699122/
 series: apple-ec-dma-app-store-ios
 series_order: 8
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
