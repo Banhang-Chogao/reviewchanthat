@@ -183,7 +183,9 @@ def check_public(total_posts: int) -> list[str]:
 
     if SITEMAP.exists():
         sm = SITEMAP.read_text(encoding="utf-8", errors="replace")
-        if "content-direction" in sm:
+        # Ban only the Content Direction *section page* URL, not post slugs that
+        # happen to contain the substring (e.g. .../posts/content-direction-empty-...).
+        if re.search(r"<loc>[^<]*/content-direction/?</loc>", sm):
             errors.append("sitemap.xml must not include content-direction")
         else:
             ok("sitemap excludes content-direction")
