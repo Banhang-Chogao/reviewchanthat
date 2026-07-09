@@ -47,7 +47,7 @@ faq:
     tránh được dòng người đổ về từ 10 giờ trở đi.
   question: Mùa hè có đông không?
 image: images/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.webp
-image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:04+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

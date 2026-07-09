@@ -21,7 +21,7 @@ description: 'Apple Intelligence trên macOS Golden Gate 27: Siri AI Spotlight, 
   cầu phần cứng Mac, tiếng Việt và giới hạn thực tế cho người dùng Việt Nam.'
 draft: false
 image: images/posts/macos-27-apple-intelligence-macbook.webp
-image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:02+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

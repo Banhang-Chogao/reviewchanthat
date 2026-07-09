@@ -20,7 +20,7 @@ description: 'Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time M
   kiểm tra app, RAM và kế hoạch rollback.'
 draft: false
 image: images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp
-image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_checked_at: '2026-07-09T15:40:58+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

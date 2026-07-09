@@ -40,7 +40,7 @@ faq:
     là bạn duy trì thói quen ghi chép mỗi ngày.'
   question: App nào giúp quản lý chi tiêu tốt?
 image: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
-image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
+image_attribution_checked_at: '2026-07-09T15:40:57+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -31,7 +31,7 @@ faq:
 - answer: Tàu điện ngầm là chính. Mua T-money card, nạp 20.000 KRW đủ đi 3 ngày.
   question: Đi lại trong Seoul thế nào?
 image: images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp
-image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:02+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

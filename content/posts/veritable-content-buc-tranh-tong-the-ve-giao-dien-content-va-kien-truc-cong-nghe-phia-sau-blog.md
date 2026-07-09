@@ -14,7 +14,7 @@ external_links:
 - title: GitHub Actions Documentation
   url: https://docs.github.com/en/actions
 image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
-image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:04+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

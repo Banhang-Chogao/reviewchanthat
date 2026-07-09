@@ -29,7 +29,7 @@ external_links:
 - title: Digital Markets Act — Trang chính thức EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/european-commission-duoc-gi-khi-thang-apple.webp
-image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:06+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

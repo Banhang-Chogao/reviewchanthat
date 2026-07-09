@@ -17,7 +17,7 @@ description: 'So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, p
   A18, Camera Control và có nên đổi vì ảnh.'
 draft: false
 image: images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp
-image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_checked_at: '2026-07-09T15:40:57+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

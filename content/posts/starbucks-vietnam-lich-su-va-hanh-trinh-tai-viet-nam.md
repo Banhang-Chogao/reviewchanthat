@@ -36,7 +36,7 @@ external_links:
 - title: GCR Magazine — First Starbucks opens in Vietnam
   url: https://www.gcrmag.com/first-starbucks-opens-in-vietnam/
 image: images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp
-image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:06+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

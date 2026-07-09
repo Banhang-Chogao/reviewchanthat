@@ -31,9 +31,9 @@ image_attribution_checked_at: '2026-07-09T10:41:29+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: ""
 image_creator_id: 75706404
-image_creator_url: ''
+image_creator_url: ""
 image_license: Pexels License
 image_license_url: https://www.pexels.com/license/
 image_owner: external

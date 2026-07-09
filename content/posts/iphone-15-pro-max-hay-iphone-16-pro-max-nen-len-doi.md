@@ -18,7 +18,7 @@ description: 'So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn h�
   Control, pin, màu titan và gợi ý nên mua hoặc lên đời.'
 draft: false
 image: images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp
-image_attribution_checked_at: '2026-07-09T15:38:01+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:01+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false

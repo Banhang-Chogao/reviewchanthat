@@ -42,7 +42,7 @@ faq:
     Nên đi giữa–cuối tháng 10.
   question: Seoraksan tháng 10 nên đi lúc nào?
 image: images/posts/han-quoc-thang-10-co-la-do-chua.webp
-image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:08+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

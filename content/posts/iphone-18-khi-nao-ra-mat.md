@@ -31,7 +31,7 @@ external_links:
 - title: MacRumors — iPhone Fold roundup
   url: https://www.macrumors.com/roundup/iphone-fold/
 image: images/posts/iphone-18-khi-nao-ra-mat.webp
-image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:07+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

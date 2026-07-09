@@ -33,7 +33,7 @@ faq:
 - answer: Áo mưa gọn, giày chống nước. Túi chống nước cho điện thoại và máy ảnh.
   question: Cần mang gì khi đi Seoul mùa mưa?
 image: images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:03+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

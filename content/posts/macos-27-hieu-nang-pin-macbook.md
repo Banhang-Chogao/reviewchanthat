@@ -21,7 +21,7 @@ description: 'Đánh giá hiệu năng và pin macOS Golden Gate 27: số liệu
   hồi beta developer và ảnh hưởng Siri AI lên MacBook Air/Pro.'
 draft: false
 image: images/posts/macos-27-hieu-nang-pin-macbook.webp
-image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:02+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

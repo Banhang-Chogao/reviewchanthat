@@ -42,7 +42,7 @@ faq:
     hợp hơn.
   question: Yongpyong có gì khác biệt so với Alpensia?
 image: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
-image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:05+07:00'
 image_attribution_source: pixabay_api
 image_attribution_verified: true
 image_commercial_use: true

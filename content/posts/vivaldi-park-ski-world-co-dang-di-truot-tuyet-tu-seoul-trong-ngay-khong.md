@@ -39,7 +39,7 @@ faq:
     đặc biệt là khu vực thuê đồ và lesson.
   question: Nên đi Vivaldi Park vào thứ mấy?
 image: images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp
-image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:05+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

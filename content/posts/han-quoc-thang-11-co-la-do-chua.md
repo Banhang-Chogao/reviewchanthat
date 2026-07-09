@@ -42,7 +42,7 @@ faq:
     không còn foliage đỏ rực.
   question: Seoraksan tháng 11 nên đi lúc nào?
 image: images/posts/han-quoc-thang-11-co-la-do-chua.webp
-image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

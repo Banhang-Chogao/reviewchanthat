@@ -40,7 +40,7 @@ faq:
 - answer: Nửa ngày đến một ngày. Nếu kết hợp Garden of Morning Calm, nên dành cả ngày.
   question: Ở Nami bao lâu?
 image: images/posts/nami-thang-10-co-dang-di-khong.webp
-image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:08+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

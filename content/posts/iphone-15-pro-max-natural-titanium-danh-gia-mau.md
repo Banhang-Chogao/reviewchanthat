@@ -19,7 +19,7 @@ draft: false
 image: images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp
 image_alt: 'Ảnh minh họa iPhone 15 Pro Max Natural Titanium: đánh giá màu — nguồn
   Pexels'
-image_attribution_checked_at: '2026-07-09T15:38:12+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:11+07:00'
 image_attribution_source: pexels_manifest
 image_attribution_verified: true
 image_color_score: 12.0

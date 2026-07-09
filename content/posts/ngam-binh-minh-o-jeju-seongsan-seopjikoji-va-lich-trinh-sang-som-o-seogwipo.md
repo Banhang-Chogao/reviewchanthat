@@ -32,7 +32,7 @@ external_links:
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
 image: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
-image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:03+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -31,7 +31,7 @@ external_links:
 - title: MacRumors — iPhone 18 Pro rumored colors
   url: https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/
 image: images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp
-image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:07+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

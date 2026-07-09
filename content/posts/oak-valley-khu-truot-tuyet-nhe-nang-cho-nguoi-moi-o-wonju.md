@@ -40,7 +40,7 @@ faq:
     để biết giá mới nhất.'
   question: Giá vé và mùa mở cửa thế nào?
 image: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
-image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:03+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

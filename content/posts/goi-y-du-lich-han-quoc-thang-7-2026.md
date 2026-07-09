@@ -45,7 +45,7 @@ faq:
 image: images/posts/goi-y-du-lich-han-quoc-thang-7-2026.webp
 image_alt: 'Ảnh minh họa Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và
   lịch trình nào hợp nhất? — nguồn Pexels'
-image_attribution_checked_at: '2026-07-09T15:38:12+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_color_score: 12.0

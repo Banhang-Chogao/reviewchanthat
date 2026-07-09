@@ -47,7 +47,7 @@ faq:
     nhàng và nhiều màu sắc.
   question: Shinhwa World có phù hợp trẻ em không?
 image: images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-09T15:41:03+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

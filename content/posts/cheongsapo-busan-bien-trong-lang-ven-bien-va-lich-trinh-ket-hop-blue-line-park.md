@@ -38,7 +38,7 @@ faq:
     lần.
   question: Cheongsapo có đông không?
 image: images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp
-image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_checked_at: '2026-07-09T15:40:57+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
