@@ -13,17 +13,14 @@ ai_summary:
     khả năng đi indoor từ phòng đến ga tàu.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.tourismthailand.org,
-    https: "//www.bts.co.th, https://www.agoda.com, https://www.tripadvisor.com.'"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.tourismthailand.org, https://www.agoda.com, https://www.tripadvisor.com, https://www.bts.co.th."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Ở khu nào tại Bangkok mùa mưa? So sánh Siam, Ratchathewi, Pratunam, Sukhumvit,
-  Silom — giá, kết nối BTS, điểm indoor gần, phù hợp từng đối tượng.
+description: "Ở khu nào tại Bangkok mùa mưa? So sánh Siam, Ratchathewi, Pratunam, Sukhumvit, Silom — giá, kết nối BTS, điểm indoor gần, phù hợp từng đối tượng."
 draft: false
 image: images/posts/o-khu-nao-bangkok-mua-mua.webp
 image_attribution_checked_at: '2026-07-09T10:41:35+07:00'
@@ -55,9 +52,12 @@ title: Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhum
 tom_tat_nhanh:
 - label: Siam
   value: Trung tâm, nhiều mall
-- label: Ratchathewi
-- label: Sukhumvit
-- label: Pratunam
+- label: "Ratchathewi"
+  value: ""
+- label: "Sukhumvit"
+  value: ""
+- label: "Pratunam"
+  value: ""
 ---
 
 ## Ở khu nào tại Bangkok mùa mưa?

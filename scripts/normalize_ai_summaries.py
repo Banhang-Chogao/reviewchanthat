@@ -7,6 +7,7 @@ Use --check to validate, --fix to rewrite affected posts.
 """
 
 import argparse
+import json
 import os
 import re
 import sys
@@ -16,6 +17,11 @@ try:
 except ImportError:
     print("python-frontmatter not installed. Run: pip install python-frontmatter")
     sys.exit(1)
+
+try:
+    import yaml
+except ImportError:  # pragma: no cover
+    yaml = None
 
 CONTENT_DIR = "content/posts"
 PUBLIC_DIR = "public"
@@ -97,9 +103,40 @@ def item_to_string(item):
     return sanitize_string(text)
 
 
+def coerce_items(items):
+    """Ensure items is a list. Handles JSON/YAML-encoded string lists from broken dumps."""
+    if items is None:
+        return []
+    if isinstance(items, list):
+        return items
+    if isinstance(items, tuple):
+        return list(items)
+    if isinstance(items, str):
+        text = items.strip()
+        if not text:
+            return []
+        if text.startswith("[") and text.endswith("]"):
+            try:
+                parsed = json.loads(text)
+                if isinstance(parsed, list):
+                    return parsed
+            except (json.JSONDecodeError, TypeError, ValueError):
+                pass
+            if yaml is not None:
+                try:
+                    parsed = yaml.safe_load(text)
+                    if isinstance(parsed, list):
+                        return parsed
+                except Exception:
+                    pass
+        return [text]
+    return [items]
+
+
 def normalize_items(items):
     normalized = []
     failures = []
+    items = coerce_items(items)
     for index, item in enumerate(items or []):
         if isinstance(item, dict):
             text = item_to_string(item)
@@ -160,15 +197,20 @@ def scan_posts():
             continue
 
         original_items = ai_summary.get("items", [])
-        normalized_items, failures = normalize_items(original_items)
-        changed = normalized_items != original_items or any(
-            not isinstance(item, str) for item in original_items
+        coerced_items = coerce_items(original_items)
+        normalized_items, failures = normalize_items(coerced_items)
+        changed = (
+            not isinstance(original_items, list)
+            or normalized_items != original_items
+            or any(not isinstance(item, str) for item in coerced_items)
         )
         issues = []
-        for index, item in enumerate(original_items):
+        if not isinstance(original_items, list):
+            issues.append((0, original_items, f"items was {type(original_items).__name__}, expected list"))
+        for index, item in enumerate(coerced_items):
             if not isinstance(item, str):
                 issues.append((index, item, f"was {type(item).__name__}"))
-            elif "map[" in item:
+            elif isinstance(item, str) and "map[" in item:
                 issues.append((index, item, "contains map["))
 
         results.append(

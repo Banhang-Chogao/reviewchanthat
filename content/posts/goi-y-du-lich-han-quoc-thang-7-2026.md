@@ -1,8 +1,7 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: Thời tiết, lễ hội và chi phí du lịch có thể thay đổi; hãy kiểm tra nguồn
-    chính thức và dự báo gần ngày đi.
+  disclaimer: "Thời tiết, lễ hội và chi phí du lịch có thể thay đổi; hãy kiểm tra nguồn chính thức và dự báo gần ngày đi."
   enabled: true
   items:
   - Tháng 7 ở Hàn Quốc hợp với người thích không khí mùa hè, biển, festival và lịch
@@ -15,10 +14,8 @@ ai_summary:
     cảnh báo thời tiết trước mỗi chặng.
   title: Tóm tắt nhanh
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https: "//www.kma.go.kr, https://mudfestival.or.kr.'"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://mudfestival.or.kr, https://www.kma.go.kr."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:

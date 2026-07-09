@@ -2,53 +2,69 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: '["Mùa mưa Thái Lan (tháng 6–10) vẫn đi được nếu chọn đúng điểm: Bangkok và Chiang Mai ít ảnh hưởng nhất, Koh Samui là lựa chọn tốt hơn Phuket trong tháng 7–8.", "Phuket và Krabi chịu ảnh hưởng mưa lớn từ biển Andaman, tour đảo dễ bị hủy, biển động — không phải lựa chọn lý tưởng cho người chỉ có vài ngày.", "Khách sạn, vé máy bay giảm 20–40% so với mùa cao điểm, điểm tham quan vắng khách hơn, nhưng cần linh hoạt lịch trình và có kế hoạch dự phòng cho mưa chiều.", "Bangkok là điểm đến an toàn nhất cho người lần đầu đi mùa mưa nhờ hệ thống BTS/MRT, mall và indoor attractions phong phú."]'
-  title: "Tóm tắt bài viết"
+  items:
+  - 'Mùa mưa Thái Lan (tháng 6–10) vẫn đi được nếu chọn đúng điểm: Bangkok và Chiang
+    Mai ít ảnh hưởng nhất, Koh Samui là lựa chọn tốt hơn Phuket trong tháng 7–8.'
+  - Phuket và Krabi chịu ảnh hưởng mưa lớn từ biển Andaman, tour đảo dễ bị hủy, biển
+    động — không phải lựa chọn lý tưởng cho người chỉ có vài ngày.
+  - Khách sạn, vé máy bay giảm 20–40% so với mùa cao điểm, điểm tham quan vắng khách
+    hơn, nhưng cần linh hoạt lịch trình và có kế hoạch dự phòng cho mưa chiều.
+  - Bangkok là điểm đến an toàn nhất cho người lần đầu đi mùa mưa nhờ hệ thống BTS/MRT,
+    mall và indoor attractions phong phú.
+  title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org, https://www.tatnews.org, https://www.pexels.com."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org,
+    https://www.tatnews.org, https://www.pexels.com.'
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết Bangkok, Phuket, Krabi, Chiang Mai, Koh Samui tháng 7-8 — ưu nhược điểm từng nơi, lịch trình gợi ý và
+- du-lich
+date: '2026-07-08 10:00:00+07:00'
+description: Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết Bangkok, Phuket,
+  Krabi, Chiang Mai, Koh Samui tháng 7-8 — ưu nhược điểm từng nơi, lịch trình gợi
+  ý và
 draft: false
 image: images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp
-image_attribution_checked_at: >-
-  2026-07-09T10:41:29+07:00
+image_attribution_checked_at: '2026-07-09T10:41:29+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: 
+image_creator: null
 image_creator_id: 75706404
-image_creator_url: 
+image_creator_url: null
 image_license: Pexels License
-image_license_url: >-
+image_license_url: ''
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: >-
+image_source_url: ''
 series:
-  - du-lich-thai-lan-mua-mua
+- du-lich-thai-lan-mua-mua
 series_order: 1
 series_title: Du lịch Thái Lan mùa mưa
 slug: du-lich-thai-lan-mua-mua-co-nen-di-khong
 tags:
-  - du lịch Thái Lan mùa mưa
-  - Bangkok mùa mưa
-  - Phuket mùa mưa
-  - Chiang Mai mùa mưa
-  - Koh Samui tháng 7
+- du lịch Thái Lan mùa mưa
+- Bangkok mùa mưa
+- Phuket mùa mưa
+- Chiang Mai mùa mưa
+- Koh Samui tháng 7
 thumbnail: images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp
-title: Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu
+title: Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh
+  Samui nên chọn đâu
 tom_tat_nhanh:
-  - {"label": "Thời gian", "value": "Tháng 7–8 (giữa mùa mưa)"}
-  - {"label": "Điểm đến chính", "value": "Bangkok, Phuket, Krabi, Chiang Mai, Koh Samui"}
-  - {"label": "Ngân sách", "value": "5–15 triệu VND / người"}
-  - {"label": "Ưu điểm", "value": "Giá rẻ, vắng khách, cảnh xanh"}
-  - {"label": "Nhược điểm", "value": "Mưa chiều, biển động Andaman"}
+- label: Thời gian
+  value: Tháng 7–8 (giữa mùa mưa)
+- label: Điểm đến chính
+  value: Bangkok, Phuket, Krabi, Chiang Mai, Koh Samui
+- label: Ngân sách
+  value: 5–15 triệu VND / người
+- label: Ưu điểm
+  value: Giá rẻ, vắng khách, cảnh xanh
+- label: Nhược điểm
+  value: Mưa chiều, biển động Andaman
 ---
 
 Mùa mưa Thái Lan kéo dài từ tháng 6 đến tháng 10, cao điểm vào tháng 7–9. Đây là khoảng thời gian nhiều người Việt phân vân nhất: vé máy bay rẻ, khách sạn giảm sâu, nhưng liệu có "đi mưa cả ngày" hay không? Câu trả lời ngắn gọn là: **tùy vào điểm đến và cách bạn lên lịch**.

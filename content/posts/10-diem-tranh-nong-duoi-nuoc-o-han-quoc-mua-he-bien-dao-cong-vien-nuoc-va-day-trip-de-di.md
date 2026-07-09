@@ -2,51 +2,67 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: '["10 điểm tránh nóng dưới nước ở Hàn Quốc theo Trip.Best: từ biển Jeju, bãi biển Busan đến công viên nước và day trip gần Seoul.", "Chia ba nhóm chính: Jeju (Udo, Jungmun, Shinhwa), Busan (Haeundae, Gwangalli, Cheongsapo, Club D Oasis), gần Seoul (Nami Island, Wolmido, Caribbean Bay).", "Mỗi điểm đều có hướng dẫn lịch trình, cách đi và nên kết hợp với điểm nào.", "Gợi ý lịch trình 7 ngày mix Seoul-Busan-Jeju cho người Việt lần đầu du lịch Hàn Quốc mùa hè."]'
-  title: "Tóm tắt bài viết"
+  items:
+  - '10 điểm tránh nóng dưới nước ở Hàn Quốc theo Trip.Best: từ biển Jeju, bãi biển
+    Busan đến công viên nước và day trip gần Seoul.'
+  - 'Chia ba nhóm chính: Jeju (Udo, Jungmun, Shinhwa), Busan (Haeundae, Gwangalli,
+    Cheongsapo, Club D Oasis), gần Seoul (Nami Island, Wolmido, Caribbean Bay).'
+  - Mỗi điểm đều có hướng dẫn lịch trình, cách đi và nên kết hợp với điểm nào.
+  - Gợi ý lịch trình 7 ngày mix Seoul-Busan-Jeju cho người Việt lần đầu du lịch Hàn
+    Quốc mùa hè.
+  title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX, https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373, https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en, https://www.busan.go.kr/eng/beaches/1325815, https://en.wikipedia.org/wiki/Caribbean_Bay và các nguồn khác."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
+    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373,
+    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000301001001000&uc_seq=377&lang_cd=en,
+    https://www.busan.go.kr/eng/beaches/1325815, https://en.wikipedia.org/wiki/Caribbean_Bay
+    và các nguồn khác.'
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - du-lich
-date: "2026-07-08 07:00:00+07:00"
-description: >-
-  Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm đi
+- du-lich
+date: '2026-07-08 07:00:00+07:00'
+description: 'Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo
+  Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm
+  đi'
 draft: false
 external_links:
-  - {"title": "https://www.namisum.com/", "url": "https://www.namisum.com/"}
+- title: https://www.namisum.com/
+  url: https://www.namisum.com/
 faq:
-  - {"answer": "Caribbean Bay và Shinhwa Water Park có giá vé dao động 40.000–60.000 KRW/người nếu mua online trước. Mua tại quầy thường đắt hơn. Cần kiểm tra website chính thức trước khi đi.", "question": "Giá vé công viên nước có đắt không?"}
+- answer: Caribbean Bay và Shinhwa Water Park có giá vé dao động 40.000–60.000 KRW/người
+    nếu mua online trước. Mua tại quầy thường đắt hơn. Cần kiểm tra website chính
+    thức trước khi đi.
+  question: Giá vé công viên nước có đắt không?
 image: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
-image_attribution_checked_at: >-
-  2026-07-09T15:37:57+07:00
+image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: rejected_generic
 image_attribution_verified: false
 image_commercial_use: true
 image_license: Pexels License
-image_license_url: >-
+image_license_url: ''
 image_owner: external
 image_source: Pexels
-image_source_url: >-
+image_source_url: ''
 internal_links:
-  - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
+- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
+  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
+seo_title: '10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo,'
 series: du-lich
 series_order: 2
 series_title: Du lịch Hàn Quốc 2026
 slug: 10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di
 tags:
-  - series du lịch
+- series du lịch
 thumbnail: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
-title: >-
-  10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi
+title: '10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước
+  và day trip dễ đi'
 tom_tat_nhanh:
-  - {"label": "Thời gian đọc", "value": "5–7 phút"}
-seo_title: >-
-  10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo,
+- label: Thời gian đọc
+  value: 5–7 phút
 ---
 
 Mùa hè Hàn Quốc mà nói thật thì nóng kinh khủng — nhiệt độ vượt 30°C, độ ẩm cao, mưa lúc bất chợt. Trốn trong trung tâm thương mại cả ngày cũng chán. Cách hay hơn là tìm mấy điểm tránh nóng dưới nước.

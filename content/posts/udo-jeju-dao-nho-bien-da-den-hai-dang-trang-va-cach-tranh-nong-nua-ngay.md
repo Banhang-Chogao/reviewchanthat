@@ -9,10 +9,8 @@ ai_summary:
   - Nên kết hợp với Seongsan Ilchulbong trong cùng buổi sáng.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https: "//www.visitjeju.net/u/kN, https://www.koreaetour.com/udo-island-jeju/, https://www.itimaker.com/blog/udo-island-day-trip-from-jeju.'"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX, https://www.koreaetour.com/udo-island-jeju/, https://www.itimaker.com/blog/udo-island-day-trip-from-jeju, https://www.visitjeju.net/u/kN."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
@@ -24,9 +22,12 @@ draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
-- title: https://www.visitjeju.net/u/kN
-- title: https://www.koreaetour.com/udo-island-jeju/
-- title: https://www.itimaker.com/blog/udo-island-day-trip-from-jeju
+- title: "https://www.visitjeju.net/u/kN"
+  url: "https://www.visitjeju.net/u/kN"
+- title: "https://www.koreaetour.com/udo-island-jeju/"
+  url: "https://www.koreaetour.com/udo-island-jeju/"
+- title: "https://www.itimaker.com/blog/udo-island-day-trip-from-jeju"
+  url: "https://www.itimaker.com/blog/udo-island-day-trip-from-jeju"
 faq:
 - answer: Khoảng 4–6 giờ, bao gồm cả phà khứ hồi. Nếu chỉ đi lướt qua, 3 giờ cũng
     đủ, nhưng sẽ không tham quan hết.
@@ -73,10 +74,14 @@ title: 'Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách
 tom_tat_nhanh:
 - label: Khu vực
   value: Seongsan-eup, phía đông Jeju
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Lưu ý mùa hè
+- label: "Loại trải nghiệm"
+  value: ""
+- label: "Hợp với"
+  value: ""
+- label: "Thời gian nên dành"
+  value: ""
+- label: "Lưu ý mùa hè"
+  value: ""
 ---
 
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm dưới chân Seongsan Ilchulbong có sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng, view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.

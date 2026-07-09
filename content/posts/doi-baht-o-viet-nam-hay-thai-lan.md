@@ -13,17 +13,14 @@ ai_summary:
     30.000–50.000 VND so với rút ATM, nhưng kém SuperRich khoảng 20.000–40.000 VND.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.superrichthailand.com,
-    https: "//www.bangkokbank.com, https://www.vietcombank.com.vn, https://vnba.org.vn,"
+  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+  source_note: "Bài viết tham khảo từ các nguồn: https://www.superrichthailand.com, https://www.vietcombank.com.vn, https://vnba.org.vn, https://www.bangkokbank.com."
 author: Minh Hoàng
 avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
-description: Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an
-  toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa.
+description: "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa."
 draft: false
 image: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
 image_attribution_checked_at: '2026-07-09T10:41:28+07:00'
@@ -51,14 +48,16 @@ tags:
 - du lịch Thái Lan mùa mưa
 - ATM Thái Lan
 thumbnail: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
-title: Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi
-  tự túc
+title: "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
 tom_tat_nhanh:
 - label: Tỷ giá
   value: Dao động 1 THB ≈ 650–720 VND
-- label: Đổi ở VN
-- label: Đổi ở Thái
-- label: SuperRich
+- label: "Đổi ở VN"
+  value: ""
+- label: "Đổi ở Thái"
+  value: ""
+- label: "SuperRich"
+  value: ""
 ---
 
 ## Đổi baht ở Việt Nam hay Thái Lan lợi hơn?
