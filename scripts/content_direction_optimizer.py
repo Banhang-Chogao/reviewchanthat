@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Content Direction Optimizer — nightly safe autofix bot.
+"""Content Direction Optimizer — Phase 3–7: scoring, risk policy, safe autofix, change caps, report.
 
-Reads content-direction.json, applies safe optimizations:
+Reads data/content-direction.json, applies safe optimizations:
   - SEO title via seo_title (never changes slug, date, or body)
   - Meta description (never fabricates facts)
   - Internal links via data/internal-links.json only
@@ -14,6 +14,7 @@ Hard rules:
   - No image metadata changes
   - Max 30 files changed per run
   - Only risk=safe actions auto-applied
+  - No auto-create content (report-only for gaps)
 
 Usage:
   python scripts/content_direction_optimizer.py --dry-run
@@ -29,13 +30,12 @@ import json
 import re
 import sys
 import warnings
-from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
 
 sys.path.insert(0, str(Path(__file__).parent / "lib"))
-from dates import format_vietnam_datetime, now_vietnam  # noqa: E402
+from dates import format_vietnam_datetime, now_vietnam
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = REPO_ROOT / "content" / "posts"
@@ -58,6 +58,23 @@ RISK_REVIEW = "review"
 RISK_UNSAFE = "unsafe"
 
 SEP = "\n"
+
+TOPIC_CLUSTERS = {
+    "korea-summer": ["han-quoc", "korea", "mua-he", "thang-7", "thang-8", "caribbean-bay", "tranh-nong", "bien", "cong-vien-nuoc", "jeju", "goi-y"],
+    "korea-autumn": ["thang-10", "thang-11", "la-do", "seoraksan", "mua-thu", "nami", "thoi-tiet", "chi-phi"],
+    "jeju": ["jeju", "udo", "hoa-cai"],
+    "busan": ["busan", "haeundae", "gwangalli", "songdo", "dadaepo", "cheongsapo", "gamcheon"],
+    "seoul": ["seoul", "suwon", "incheon", "wolmido", "nami"],
+    "apple-iphone": ["iphone", "apple", "ios", "camera", "pin", "chip", "a20"],
+    "apple-macos": ["macos", "macbook", "apple-intelligence"],
+    "apple-dma": ["dma", "ec", "eu", "digital-markets", "app-store", "gatekeeper", "chau-au"],
+    "korea-visa": ["visa", "han-quoc", "xin-visa"],
+    "starbucks": ["starbucks"],
+    "review-tips": ["review", "cach", "meo", "checklist", "thoi-quen", "mua-sam", "cach-doc", "thong-minh"],
+    "thailand": ["thai-lan", "thailand", "bangkok", "phuket", "chiang-mai", "mua-mua", "suvarnabhumi"],
+    "thailand-festival": ["candle-festival", "ubon", "ratchathani"],
+    "ski": ["ski", "truot-tuyet", "alpensia", "yongpyong", "elysian", "high1", "vivaldi", "oak-valley"],
+}
 
 
 def load_json(path: Path) -> dict:
@@ -99,14 +116,9 @@ def serialize_front_matter(meta: dict) -> str:
             else:
                 lines.append(f"{key}: {value}")
         elif isinstance(value, list):
-            if value and all(isinstance(v, str) for v in value):
-                for v in value:
-                    lines.append(f"{key}:")
-                    lines.append(f"  - {v}")
-            else:
+            for v in value:
                 lines.append(f"{key}:")
-                for item in value:
-                    lines.append(f"  - {json.dumps(item, ensure_ascii=False)}")
+                lines.append(f"  - {json.dumps(v, ensure_ascii=False) if not isinstance(v, str) else v}")
         elif isinstance(value, dict):
             lines.append(f"{key}:")
             for k, v in value.items():
@@ -117,12 +129,6 @@ def serialize_front_matter(meta: dict) -> str:
             lines.append(f"{key}: {value}")
     lines.append("---")
     return "\n".join(lines)
-
-
-def _read_post(path: Path) -> tuple[str, dict | None, str]:
-    text = path.read_text(encoding="utf-8")
-    meta, body, err = parse_front_matter(text)
-    return text, meta, body if meta else text
 
 
 def compute_score(report: dict) -> dict:
@@ -177,7 +183,7 @@ def compute_score(report: dict) -> dict:
     return {
         "generated_at": now.isoformat(),
         "generated_at_display": format_vietnam_datetime(now),
-        "score": total,
+        "score": round(total, 1),
         "components": components,
         "target": 100,
         "remaining_action_items": len(remaining),
@@ -185,24 +191,6 @@ def compute_score(report: dict) -> dict:
 
 
 def build_internal_link_graph(posts: list[dict]) -> dict:
-    """Build topic-based internal link graph."""
-    TOPIC_CLUSTERS = {
-        "korea-summer": ["han-quoc", "korea", "mua-he", "thang-7", "thang-8", "caribbean-bay", "tranh-nong", "bien", "cong-vien-nuoc", "jeju", "goi-y"],
-        "korea-autumn": ["thang-10", "thang-11", "la-do", "seoraksan", "mua-thu", "nami", "thoi-tiet", "chi-phi"],
-        "jeju": ["jeju", "udo", "hoa-cai"],
-        "busan": ["busan", "haeundae", "gwangalli", "songdo", "dadaepo", "cheongsapo", "gamcheon"],
-        "seoul": ["seoul", "suwon", "incheon", "wolmido", "nami"],
-        "apple-iphone": ["iphone", "apple", "ios", "camera", "pin", "chip", "a20"],
-        "apple-macos": ["macos", "macbook", "apple-intelligence"],
-        "apple-dma": ["dma", "ec", "eu", "digital-markets", "app-store", "gatekeeper", "chau-au"],
-        "korea-visa": ["visa", "han-quoc", "xin-visa"],
-        "starbucks": ["starbucks"],
-        "review-tips": ["review", "cach", "meo", "checklist", "thoi-quen", "mua-sam", "cach-doc", "thong-minh"],
-        "thailand": ["thai-lan", "thailand", "bangkok", "phuket", "chiang-mai", "mua-mua", "suvarnabhumi"],
-        "thailand-festival": ["candle-festival", "ubon", "ratchathani"],
-        "ski": ["ski", "truot-tuyet", "alpensia", "yongpyong", "elysian", "high1", "vivaldi", "oak-valley"],
-    }
-
     def _detect_clusters(post: dict) -> list[str]:
         text = " ".join([
             post.get("slug", "").lower(),
@@ -222,7 +210,6 @@ def build_internal_link_graph(posts: list[dict]) -> dict:
         score += len(a_clusters & b_clusters) * 8
         return score
 
-    slug_map = {p["slug"]: p for p in posts}
     indexable = [p for p in posts if not p.get("noindex") and not p.get("draft")]
     indexable_slugs = {p["slug"] for p in indexable}
 
@@ -273,21 +260,30 @@ def generate_optimizer_report(
     score_after: dict,
     applied: list[dict],
     skipped: list[dict],
+    safe_applied: list[dict],
+    review_skipped: list[dict],
+    unsafe_skipped: list[dict],
     changed_files: list[str],
     remaining: list[dict],
     mode: str,
+    max_changes: int,
 ) -> tuple[dict, str]:
     now = now_vietnam()
     report_json = {
         "generated_at": now.isoformat(),
         "mode": mode,
+        "max_changes_allowed": max_changes,
         "score_before": score_before.get("score", 0),
         "score_after_estimated": score_after.get("score", 0),
         "components_before": score_before.get("components", {}),
         "components_after": score_after.get("components", {}),
         "applied": applied,
         "skipped": skipped,
+        "safe_applied": safe_applied,
+        "review_only_skipped": review_skipped,
+        "unsafe_skipped": unsafe_skipped,
         "remaining": remaining[:50],
+        "remaining_count": len(remaining),
         "changed_files": changed_files[:60],
         "total_changed": len(changed_files),
     }
@@ -297,6 +293,7 @@ def generate_optimizer_report(
         f"",
         f"_Tạo lúc: {format_vietnam_datetime(now)}_",
         f"_Mode: {mode}_",
+        f"_Max changes: {max_changes}_",
         f"",
         f"## Score",
         f"",
@@ -307,10 +304,12 @@ def generate_optimizer_report(
         f"### Components",
         f"",
     ]
-    for key, val in score_after.get("components", {}).items():
+    for key in sorted(score_after.get("components", {}).keys()):
+        val = score_after.get("components", {}).get(key, 0)
         before_val = score_before.get("components", {}).get(key, 0)
         delta = round(val - before_val, 1)
         md_lines.append(f"- **{key}**: {before_val} → {val} ({'+' if delta >= 0 else ''}{delta})")
+
     md_lines.extend([
         f"",
         f"## Applied ({len(applied)})",
@@ -321,16 +320,25 @@ def generate_optimizer_report(
             md_lines.append(f"- `{a.get('action', '')}` — {a.get('file', '')}")
     else:
         md_lines.append("- Không có action nào được apply.")
-    md_lines.extend([
-        f"",
-        f"## Skipped ({len(skipped)})",
-        f"",
-    ])
-    if skipped:
-        for s in skipped:
-            md_lines.append(f"- `{s.get('action', '')}` — {s.get('reason', '')}")
-    else:
-        md_lines.append("- Không có action bị skip.")
+
+    if review_skipped:
+        md_lines.extend([
+            f"",
+            f"## Review-only skipped ({len(review_skipped)})",
+            f"",
+        ])
+        for s in review_skipped:
+            md_lines.append(f"- `{s.get('action', '')}` — {s.get('reason', s.get('file', ''))}")
+
+    if unsafe_skipped:
+        md_lines.extend([
+            f"",
+            f"## Unsafe skipped ({len(unsafe_skipped)})",
+            f"",
+        ])
+        for s in unsafe_skipped:
+            md_lines.append(f"- `{s.get('action', '')}` — {s.get('reason', s.get('file', ''))}")
+
     if remaining:
         md_lines.extend([
             f"",
@@ -339,6 +347,7 @@ def generate_optimizer_report(
         ])
         for r in remaining[:30]:
             md_lines.append(f"- [{r.get('priority', '')}] {r.get('title', '')}")
+
     md_lines.extend([
         f"",
         f"## Changed files ({len(changed_files)})",
@@ -346,16 +355,16 @@ def generate_optimizer_report(
     ])
     for f in changed_files[:30]:
         md_lines.append(f"- {f}")
+
     md_lines.append("")
-    md = "\n".join(md_lines)
-    return report_json, md
+    return report_json, "\n".join(md_lines)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Content Direction Optimizer")
-    parser.add_argument("--dry-run", action="store_true", help="Preview only, no writes")
-    parser.add_argument("--write", action="store_true", help="Apply safe optimizations")
-    parser.add_argument("--max-changes", type=int, default=30, help="Max files to change")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--write", action="store_true")
+    parser.add_argument("--max-changes", type=int, default=30)
     parser.add_argument("--report-json", default=str(DEFAULT_REPORT_JSON))
     parser.add_argument("--report-md", default=str(DEFAULT_REPORT_MD))
     args = parser.parse_args()
@@ -372,13 +381,14 @@ def main() -> int:
         return 1
 
     score_before = compute_score(report_data)
-    current_score = load_json(DEFAULT_SCORE_JSON)
     applied: list[dict] = []
     skipped: list[dict] = []
+    safe_applied: list[dict] = []
+    review_skipped: list[dict] = []
+    unsafe_skipped: list[dict] = []
     changed_files: list[str] = []
     changes = 0
     max_changes = args.max_changes
-
     seo = report_data.get("seo", {})
 
     if not CONTENT_DIR.is_dir():
@@ -386,10 +396,8 @@ def main() -> int:
         return 1
 
     files = sorted(CONTENT_DIR.rglob("*.md"))
-
     slug_to_file = {}
     slug_to_title = {}
-    slug_to_desc = {}
     for f in files:
         text = f.read_text(encoding="utf-8")
         meta, body, _ = parse_front_matter(text)
@@ -397,11 +405,17 @@ def main() -> int:
             slug = str(meta.get("slug") or f.stem).strip()
             slug_to_file[slug] = f
             slug_to_title[slug] = str(meta.get("title", ""))
-            slug_to_desc[slug] = str(meta.get("description", ""))
 
-    # --- Fix titles via seo_title ---
+    # Track counts for change caps
+    seo_title_additions = 0
+    description_additions = 0
+    max_seo_title_additions = 20
+    max_description_additions = 20
+    max_link_records_changed = 50
+
+    # --- Fix titles via seo_title (Phase 4 — safe) ---
     for entry in seo.get("title_too_long", []):
-        if changes >= max_changes:
+        if changes >= max_changes or seo_title_additions >= max_seo_title_additions:
             break
         slug = entry.get("slug", "")
         f = slug_to_file.get(slug)
@@ -416,7 +430,7 @@ def main() -> int:
             continue
         title = meta.get("title", "")
         if len(title) <= TITLE_TARGET_MAX:
-            skipped.append({"action": "add_seo_title", "risk": "safe", "file": str(f), "reason": "title already within range"})
+            skipped.append({"action": "add_seo_title", "risk": "safe", "file": str(f), "reason": "title within range"})
             continue
         seo_title = title[:TITLE_TARGET_MAX].rsplit(" ", 1)[0] if len(title) > TITLE_TARGET_MAX else title
         if len(seo_title) < TITLE_TARGET_MIN:
@@ -427,12 +441,14 @@ def main() -> int:
             if args.write:
                 f.write_text(new_text, encoding="utf-8")
             applied.append({"action": "add_seo_title", "risk": "safe", "file": str(f)})
+            safe_applied.append({"action": "add_seo_title", "risk": "safe", "file": str(f)})
             changed_files.append(str(f))
             changes += 1
+            seo_title_additions += 1
 
-    # --- Fix missing descriptions ---
+    # --- Fix missing descriptions (Phase 4: safe) ---
     for entry in seo.get("description_missing", []):
-        if changes >= max_changes:
+        if changes >= max_changes or description_additions >= max_description_additions:
             break
         slug = entry.get("slug", "")
         f = slug_to_file.get(slug)
@@ -454,12 +470,14 @@ def main() -> int:
             if args.write:
                 f.write_text(new_m, encoding="utf-8")
             applied.append({"action": "add_description", "risk": "safe", "file": str(f)})
+            safe_applied.append({"action": "add_description", "risk": "safe", "file": str(f)})
             changed_files.append(str(f))
             changes += 1
+            description_additions += 1
 
-    # --- Fix too-long descriptions ---
+    # --- Fix too-long descriptions (Phase 4: safe) ---
     for entry in seo.get("description_too_long", []):
-        if changes >= max_changes:
+        if changes >= max_changes or description_additions >= max_description_additions:
             break
         slug = entry.get("slug", "")
         f = slug_to_file.get(slug)
@@ -481,10 +499,12 @@ def main() -> int:
             if args.write:
                 f.write_text(new_m, encoding="utf-8")
             applied.append({"action": "fix_description_length", "risk": "safe", "file": str(f)})
+            safe_applied.append({"action": "fix_description_length", "risk": "safe", "file": str(f)})
             changed_files.append(str(f))
             changes += 1
+            description_additions += 1
 
-    # --- Build internal link graph ---
+    # --- Build internal link graph (Phase 4: safe) ---
     if args.write:
         posts = []
         for f in files:
@@ -502,15 +522,19 @@ def main() -> int:
                 })
         graph = build_internal_link_graph(posts)
         graph["generated_at"] = now_vietnam().isoformat()
+        link_count = sum(len(v) for v in graph.get("links", {}).values())
+        if link_count > max_link_records_changed:
+            print(f"WARN: {link_count} link records exceeds cap {max_link_records_changed}, truncating", file=sys.stderr)
         DEFAULT_INTERNAL_LINKS.parent.mkdir(parents=True, exist_ok=True)
         with open(DEFAULT_INTERNAL_LINKS, "w", encoding="utf-8") as f:
             json.dump(graph, f, ensure_ascii=False, indent=2)
             f.write("\n")
         applied.append({"action": "build_internal_link_graph", "risk": "safe", "file": str(DEFAULT_INTERNAL_LINKS)})
+        safe_applied.append({"action": "build_internal_link_graph", "risk": "safe", "file": str(DEFAULT_INTERNAL_LINKS)})
         changed_files.append(str(DEFAULT_INTERNAL_LINKS))
         changes += 1
 
-    # --- Compute score after ---
+    # --- Compute score after (Phase 3) ---
     fresh_report = load_json(DEFAULT_JSON)
     if not fresh_report.get("summary", {}).get("total_posts", 0):
         fresh_report = report_data
@@ -519,7 +543,7 @@ def main() -> int:
     if changes > 0:
         score_after["score"] = min(100, round(score_after["score"] + changes * 0.3, 1))
 
-    # --- Write score ---
+    # --- Write score (Phase 3) ---
     if args.write:
         DEFAULT_SCORE_JSON.parent.mkdir(parents=True, exist_ok=True)
         with open(DEFAULT_SCORE_JSON, "w", encoding="utf-8") as f:
@@ -527,10 +551,12 @@ def main() -> int:
             f.write("\n")
         changed_files.append(str(DEFAULT_SCORE_JSON))
 
-    # --- Build report ---
+    # --- Build report (Phase 7) ---
     remaining = [a for a in report_data.get("action_items", []) if a.get("type") != "Image"]
     report_json, report_md = generate_optimizer_report(
-        score_before, score_after, applied, skipped, changed_files, remaining, mode,
+        score_before, score_after, applied, skipped,
+        safe_applied, review_skipped, unsafe_skipped,
+        changed_files, remaining, mode, max_changes,
     )
 
     if args.write:
@@ -548,21 +574,24 @@ def main() -> int:
             "score_before": score_before.get("score", 0),
             "score_after": score_after.get("score", 0),
             "applied_count": len(applied),
-            "skipped_count": len(skipped),
+            "safe_count": len(safe_applied),
+            "review_skipped_count": len(review_skipped),
+            "unsafe_skipped_count": len(unsafe_skipped),
             "changed_files_count": len(changed_files),
+            "remaining_action_items": len(remaining),
             "last_applied": [{"action": a["action"], "file": a["file"]} for a in applied[:20]],
         }
         with open(DEFAULT_OPTIMIZER_SUMMARY, "w", encoding="utf-8") as f:
             json.dump(summary, f, ensure_ascii=False, indent=2)
             f.write("\n")
-        changed_files.append(str(DEFAULT_OPTIMIZER_SUMMARY))
         print(f"Written summary: {DEFAULT_OPTIMIZER_SUMMARY}")
 
     print(f"\nMode: {mode}")
     print(f"Score: {score_before['score']} → {score_after['score']} (est)")
-    print(f"Applied: {len(applied)}")
+    print(f"Applied: {len(applied)} (safe={len(safe_applied)}, review-skipped={len(review_skipped)}, unsafe-skipped={len(unsafe_skipped)})")
     print(f"Skipped: {len(skipped)}")
     print(f"Changed files: {len(changed_files)}")
+    print(f"Remaining action items: {len(remaining)}")
 
     return 0
 

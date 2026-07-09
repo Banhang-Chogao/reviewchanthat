@@ -16,6 +16,9 @@ on:
       - 'data/ga4_footer.json'
       - 'data/content-direction-score.json'
       - 'data/content-direction-optimizer-summary.json'
+      - 'data/internal-links.json'
+      - 'reports/content-direction-optimizer.json'
+      - 'reports/content-direction-optimizer.md'
       - '.github/workflows/**'
   workflow_dispatch:
 
