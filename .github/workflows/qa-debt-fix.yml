@@ -78,7 +78,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
           git add data/ scripts/
-          git commit -m "fix(qa): resolve baseline compliance debt
+          git commit -F- <<'EOF'
+fix(qa): resolve baseline compliance debt
 
 Auto-fix baseline QA issues:
 - Image metadata corrections
@@ -87,7 +88,8 @@ Auto-fix baseline QA issues:
 
 Non-blocking: does not affect active feature development
 
-Co-Authored-By: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+Co-Authored-By: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+EOF
           git push origin "$BRANCH"
           echo "branch=$BRANCH" >> "$GITHUB_ENV"
 
