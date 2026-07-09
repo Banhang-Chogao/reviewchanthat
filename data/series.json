@@ -83,6 +83,12 @@
       "label": "Du lịch Thái Lan mùa mưa",
       "description": "Cẩm nang du lịch Thái Lan mùa mưa (tháng 7–8) — điểm đến, lịch trình, chi phí, đổi tiền, di chuyển và kinh nghiệm thực tế cho người Việt đi tự túc.",
       "order": 35
+    },
+    {
+      "slug": "jeju-mua-hoa-cai-vang",
+      "label": "Jeju mùa hoa cải vàng",
+      "description": "Cẩm nang đi Jeju mùa xuân để ngắm hoa cải vàng, kết hợp hoa anh đào, lễ hội, điểm chụp ảnh và lịch trình thực tế cho người Việt đi Hàn Quốc tự túc.",
+      "order": 40
     }
   ]
 }

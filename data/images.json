@@ -2029,28 +2029,32 @@
     },
     {
       "slug": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
-      "title": "Nhà phát triển app và DMA",
+      "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
       "image_id": "img-0cb53097",
       "source_platform": "Pexels",
-      "source_url": "https://www.pexels.com/photo/person-using-macbook-pro-6476589/",
-      "direct_url": "https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "creator": "Mikael Blomkvist",
+      "source_url": "https://www.pexels.com/photo/a-person-holding-smartphones-12368095/",
+      "direct_url": "https://images.pexels.com/photos/12368095/pexels-photo-12368095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "mktomasik",
       "license": "Pexels License",
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/nha-phat-trien-app-duoc-loi-gi-tu-dma.jpg",
       "output_path": "static/images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp",
-      "watermark_text": "Source: Pexels / Mikael Blomkvist",
-      "creator_url": "https://www.pexels.com/@mikael-blomkvist",
-      "creator_id": "2416688",
+      "watermark_text": "Source: Pexels / mktomasik",
+      "creator_url": "https://www.pexels.com/@mktomasik-245056204",
+      "creator_id": "245056204",
       "attribution_verified": true,
       "attribution_source": "pexels_api",
       "attribution_checked_at": "2026-07-09T10:47:20+07:00",
       "raw_provider": {
-        "id": 6476589,
-        "photographer": "Mikael Blomkvist",
-        "photographer_id": "2416688"
+        "id": 12368095,
+        "photographer": "mktomasik",
+        "photographer_url": "https://www.pexels.com/@mktomasik-245056204",
+        "photographer_id": 245056204,
+        "url": "https://www.pexels.com/photo/a-person-holding-smartphones-12368095/"
       },
-      "image_provider": "pexels"
+      "image_provider": "pexels",
+      "photo_id": "12368095",
+      "provider_used": "Pexels"
     },
     {
       "slug": "european-commission-duoc-gi-khi-thang-apple",
@@ -2127,7 +2131,7 @@
       "slug": "starbucks-nguyen-van-troi-sai-gon-review",
       "title": "Review Starbucks Nguyễn Văn Trỗi",
       "image_id": "img-e8710582",
-      "source_platform": "Self",
+      "source_platform": "self",
       "source_url": "https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg",
       "direct_url": "https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg",
       "creator": "",
@@ -2135,12 +2139,12 @@
       "commercial_use": true,
       "local_source_path": "static/images/posts-src/starbucks-nguyen-van-troi.jpg",
       "output_path": "static/images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp",
-      "watermark_text": "Source: Self",
+      "watermark_text": "Source: self",
       "creator_url": "",
       "provider_used": "self-owned",
       "creator_id": "",
       "attribution_verified": false,
-      "attribution_source": "not_found",
+      "attribution_source": "self_owned",
       "attribution_checked_at": "2026-07-09T10:47:23+07:00"
     },
     {
@@ -3120,6 +3124,34 @@
         "photographer_id": "269097219"
       },
       "image_provider": "pexels"
+    },
+    {
+      "slug": "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
+      "title": "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý",
+      "image_id": "img-9159a6b5",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/yellow-flower-field-under-blue-sky-4412373/",
+      "direct_url": "https://images.pexels.com/photos/4412373/pexels-photo-4412373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Irina Iriser",
+      "creator_url": "https://www.pexels.com/@iriser",
+      "creator_id": "135125",
+      "photo_id": "4412373",
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.jpg",
+      "output_path": "static/images/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.webp",
+      "watermark_text": "Source: Pexels / Irina Iriser",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "raw_provider": {
+        "id": 4412373,
+        "photographer": "Irina Iriser",
+        "photographer_url": "https://www.pexels.com/@iriser",
+        "photographer_id": 135125,
+        "url": "https://www.pexels.com/photo/yellow-flower-field-under-blue-sky-4412373/"
+      }
     }
   ]
 }
