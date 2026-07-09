@@ -17,7 +17,7 @@ description: 'So sánh Black Titanium và White Titanium trên iPhone 15 Pro Max
   bều màu, vết trầy, giá máy cũ và gợi ý chọn theo nhu cầu năm 2026.'
 draft: false
 image: images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp
-image_attribution_checked_at: '2026-07-09T15:38:01+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:25+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

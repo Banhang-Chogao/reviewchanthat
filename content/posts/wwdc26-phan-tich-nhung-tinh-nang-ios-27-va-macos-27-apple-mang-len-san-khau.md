@@ -57,7 +57,7 @@ faq:
     riêng, không phải keynote phần mềm 8/6/2026.
   question: WWDC26 có công bố iPhone gập không?
 image: images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp
-image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:28+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

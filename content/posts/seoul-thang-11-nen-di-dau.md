@@ -41,7 +41,7 @@ faq:
 - answer: Metro là chính. Mua T-money, nạp 15.000–20.000 KRW đủ 3 ngày.
   question: Di chuyển trong Seoul thế nào?
 image: images/posts/seoul-thang-11-nen-di-dau.webp
-image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:32+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

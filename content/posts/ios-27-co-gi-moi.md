@@ -21,7 +21,7 @@ description: 'Tổng quan iOS 27 sau WWDC26: Siri AI, Apple Intelligence, hiệu
   quyền riêng tư và timeline beta/public cho người dùng iPhone tại Việt Nam.'
 draft: false
 image: images/posts/ios-27-co-gi-moi.webp
-image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:24+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

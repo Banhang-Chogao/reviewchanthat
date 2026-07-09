@@ -35,7 +35,7 @@ external_links:
 - title: Digital Markets Act — EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp
-image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:28+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

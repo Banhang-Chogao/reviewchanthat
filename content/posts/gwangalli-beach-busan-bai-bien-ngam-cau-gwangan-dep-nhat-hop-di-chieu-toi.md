@@ -47,7 +47,7 @@ faq:
     có thể thay đổi theo mùa.
   question: Drone light show diễn ra mấy giờ?
 image: images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp
-image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:23+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

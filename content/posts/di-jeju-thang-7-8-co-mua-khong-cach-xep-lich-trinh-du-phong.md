@@ -30,7 +30,7 @@ faq:
     trên app.
   question: Làm sao để tránh mưa?
 image: images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp
-image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:23+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

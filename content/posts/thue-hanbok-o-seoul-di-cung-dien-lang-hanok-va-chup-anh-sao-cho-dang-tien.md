@@ -34,7 +34,7 @@ external_links:
 - title: https://english.visitseoul.net/>
   url: https://english.visitseoul.net/>
 image: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:27+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

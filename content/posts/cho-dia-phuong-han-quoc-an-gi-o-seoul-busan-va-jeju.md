@@ -35,7 +35,7 @@ external_links:
 - title: https://english.visitkorea.or.kr/>
   url: https://english.visitkorea.or.kr/>
 image: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
-image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:23+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

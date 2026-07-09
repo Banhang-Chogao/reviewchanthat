@@ -53,7 +53,7 @@ faq:
     Bảo hiểm du lịch có coverage tai nạn trượt tuyết là rất khuyến khích.
   question: Cần chuẩn bị gì khi đi trượt tuyết ở Hàn Quốc?
 image: images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:27+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

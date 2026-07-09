@@ -35,7 +35,7 @@ external_links:
 - title: https://www.everland.com/>
   url: https://www.everland.com/>
 image: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
-image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:23+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

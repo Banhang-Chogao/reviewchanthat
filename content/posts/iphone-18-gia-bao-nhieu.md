@@ -30,7 +30,7 @@ external_links:
 - title: AppleInsider — iPhone 18 expectations
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 image: images/posts/iphone-18-gia-bao-nhieu.webp
-image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:30+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

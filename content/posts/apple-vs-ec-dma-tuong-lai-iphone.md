@@ -35,7 +35,7 @@ external_links:
 - title: Digital Markets Act — Trang chính thức EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp
-image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:29+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false

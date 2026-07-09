@@ -33,7 +33,7 @@ external_links:
 - title: Digital Markets Act — Trang chính thức EC
   url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp
-image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:29+07:00'
 image_attribution_source: embedded_exif_iptc_xmp
 image_attribution_verified: true
 image_commercial_use: true

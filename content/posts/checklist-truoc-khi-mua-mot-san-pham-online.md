@@ -40,7 +40,7 @@ faq:
     màn hình đơn hàng, và ưu tiên thanh toán khi nhận hàng (COD) cho lần mua đầu.
   question: Làm sao để không bị lừa khi mua online?
 image: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
-image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:22+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

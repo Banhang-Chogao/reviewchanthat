@@ -29,7 +29,7 @@ external_links:
 - title: MacRumors — TSMC 2nm reports
   url: https://www.macrumors.com/2025/08/20/tsmc-2nm-mass-production/
 image: images/posts/iphone-18-chip-a20-2nm.webp
-image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:30+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

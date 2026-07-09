@@ -35,7 +35,7 @@ faq:
 - answer: Có, rất phù hợp. Các trò chơi nhẹ nhàng, boardwalk rộng, có thủy cung.
   question: Wolmido có phù hợp với trẻ nhỏ không?
 image: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
-image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:28+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

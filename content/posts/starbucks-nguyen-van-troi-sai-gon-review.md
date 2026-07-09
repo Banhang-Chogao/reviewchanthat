@@ -29,7 +29,7 @@ external_links:
 - title: Starbucks Vietnam — Store locator
   url: https://www.starbucks.vn/
 image: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
-image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:29+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: self_owned
 image_attribution_verified: false

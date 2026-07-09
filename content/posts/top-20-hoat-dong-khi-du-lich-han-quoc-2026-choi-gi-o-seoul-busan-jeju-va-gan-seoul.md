@@ -81,7 +81,7 @@ faq:
     nhà.
   question: Nên đi Hàn Quốc mùa nào để trải nghiệm nhiều nhất?
 image: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:27+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

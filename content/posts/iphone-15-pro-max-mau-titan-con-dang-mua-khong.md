@@ -20,7 +20,7 @@ description: 'Đánh giá tổng thể iPhone 15 Pro Max màu titan năm 2026: g
   bốn màu, khung titan, camera, pin và ai nên chọn thay vì iPhone 16 Pro Max.'
 draft: false
 image: images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp
-image_attribution_checked_at: '2026-07-09T15:38:01+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:25+07:00'
 image_attribution_source: embedded_exif_iptc_xmp
 image_attribution_verified: true
 image_commercial_use: true

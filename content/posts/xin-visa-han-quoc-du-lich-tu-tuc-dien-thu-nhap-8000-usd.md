@@ -42,7 +42,7 @@ external_links:
 image: images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp
 image_alt: 'Ảnh minh họa Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm:
   hồ sơ, điều kiện và cách chuẩn bị — nguồn Pexels'
-image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:32+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_color_score: 12.0

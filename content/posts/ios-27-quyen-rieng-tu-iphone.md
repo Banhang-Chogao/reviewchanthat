@@ -21,7 +21,7 @@ description: 'Quyền riêng tư trên iOS 27: Private Cloud Compute, Siri AI, p
   controls, quyền app và checklist cho người dùng iPhone tại Việt Nam.'
 draft: false
 image: images/posts/ios-27-quyen-rieng-tu-iphone.webp
-image_attribution_checked_at: '2026-07-09T15:38:01+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:25+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

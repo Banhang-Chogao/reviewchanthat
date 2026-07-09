@@ -37,7 +37,7 @@ external_links:
 - title: VisitKorea - Sanbangsan Mountain
   url: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=94909
 image: images/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.webp
-image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:32+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

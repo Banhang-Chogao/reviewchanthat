@@ -43,7 +43,7 @@ faq:
     giày trekking nhẹ.
   question: Nên mang giày gì?
 image: images/posts/di-han-thang-10-mac-gi.webp
-image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:30+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -19,7 +19,7 @@ draft: false
 image: images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp
 image_alt: 'Ảnh minh họa Trên tay iPhone 15 Pro Max: khung titan có khác thép không?
   — nguồn Pexels'
-image_attribution_checked_at: '2026-07-09T15:38:12+07:00'
+image_attribution_checked_at: '2026-07-09T18:56:33+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_color_score: 12.0
