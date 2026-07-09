@@ -1,16 +1,15 @@
 name: Content Direction
 
+# Global rule: only run AFTER "Deploy to GitHub Pages" fully completes.
+# Avoids racing deploy for runners and reduces Content Direction failures
+# caused by concurrent builds / incomplete main checkout during deploy.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "content/posts/**"
-      - "scripts/content_direction.py"
-      - "scripts/qa_content_direction.py"
-      - "layouts/**/content-direction*"
-      - "layouts/content-direction/**"
-      - "content/content-direction/**"
+  workflow_run:
+    workflows:
+      - "Deploy to GitHub Pages"
+    types:
+      - completed
 
 concurrency:
   group: content-direction-main
@@ -23,9 +22,19 @@ permissions:
 
 jobs:
   content-direction:
+    # Manual dispatch always runs; after deploy only when deploy succeeded on main.
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout deployed SHA
+        uses: actions/checkout@v4
+        with:
+          # Prefer the commit Deploy just finished; fall back to default ref on manual run.
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -69,6 +78,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/content-direction.json reports/content-direction-report.md
-          git commit -m "chore(content-direction): refresh report data"
+          git commit -m "chore(content-direction): refresh report data [skip-report]"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
