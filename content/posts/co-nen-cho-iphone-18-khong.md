@@ -29,25 +29,23 @@ external_links:
   url: https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more
 - title: MacRumors — leaker downgrade iPhone 18 base
   url: https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two-ways/
-image: images/posts/co-nen-cho-iphone-18-khong.webp
-image_alt: Ảnh minh họa Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc
-  17? — nguồn Pexels
+image: "images/posts/co-nen-cho-iphone-18-khong.webp"
+image_alt: "Ảnh minh họa — Pexels / Jessica Lewis 🦋 thepaintedsquare"
 image_attribution_checked_at: '2026-07-10T04:52:56+07:00'
-image_attribution_source: pexels_api
+image_attribution_source: "pexels_api"
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: Tranmautritam
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@tranmautritam
-image_generation_method: programmatic_pillow
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
+image_creator: "Jessica Lewis 🦋 thepaintedsquare"
+image_creator_id: "52262"
+image_creator_url: "https://www.pexels.com/@thepaintedsquare"
+image_license: "Pexels License"
+image_license_url: "https://www.pexels.com/license/"
+image_owner: "external"
+image_provider: "pexels"
 image_query: mobile banking payment app
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/digital-wallet-app-on-smartphone-6406691/
-image_status: verified
+image_source: "Pexels"
+image_source_url: "https://www.pexels.com/photo/black-iphone-on-brown-wooden-surface-10024574/"
+image_status: "verified"
 inline_illustrations:
 - heading: Bảng tóm tắt nhanh
   image: images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp
@@ -79,7 +77,7 @@ tags:
 - iPhone 16
 - iPhone 17
 - mua iPhone 2026
-thumbnail: images/posts/co-nen-cho-iphone-18-khong.webp
+thumbnail: "images/posts/co-nen-cho-iphone-18-khong.webp"
 title: Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?
 tom_tat_nhanh:
 - label: Chủ đề

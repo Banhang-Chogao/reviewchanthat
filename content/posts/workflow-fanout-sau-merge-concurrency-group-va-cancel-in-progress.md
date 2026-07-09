@@ -18,25 +18,23 @@ date: "2026-07-10 04:20:00+07:00"
 description: 'Phân tích workflow_fanout (safe): một merge kích hoạt deploy + content-direction
   + snapshot + autofix — cách thiết kế concurrency để không tự DDoS pipeline.'
 draft: false
-image: images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp
-image_alt: 'Ảnh minh họa Workflow fan-out sau merge: concurrency group, cancel-in-progress
-  và vòng autofix — nguồn Pexels'
+image: "images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp"
+image_alt: "Ảnh minh họa — Pexels / Enzo Muñoz"
 image_attribution_checked_at: '2026-07-10T04:53:00+07:00'
-image_attribution_source: pexels_api
+image_attribution_source: "pexels_api"
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: Christina Morillo
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@divinetechygirl
-image_generation_method: context_aware_programmatic_pillow
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
+image_creator: "Enzo Muñoz"
+image_creator_id: "1378339"
+image_creator_url: "https://www.pexels.com/@enzoelgalgo"
+image_license: "Pexels License"
+image_license_url: "https://www.pexels.com/license/"
+image_owner: "external"
+image_provider: "pexels"
 image_query: workflow fan-out sau merge concurrency
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/white-dry-erase-board-with-red-diagram-1181311/
-image_status: verified
+image_source: "Pexels"
+image_source_url: "https://www.pexels.com/photo/photo-of-man-sitting-while-reading-a-book-2663853/"
+image_status: "verified"
 related_posts:
 - ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
 - github-api-va-pages-rate-limit-cach-doc-va-giam-tai
@@ -51,7 +49,7 @@ tags:
 - GitHub Actions
 - CI/CD
 - safe
-thumbnail: images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp
+thumbnail: "images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp"
 title: 'Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng
   autofix'
 ---

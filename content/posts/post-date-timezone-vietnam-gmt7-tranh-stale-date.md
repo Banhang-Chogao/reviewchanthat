@@ -18,25 +18,23 @@ date: "2026-07-10 04:35:00+07:00"
 description: 'Hướng dẫn date_only_or_wrong_timezone (safe): luôn gắn +07:00, không
   dùng date-only UTC khiến QA STALE_DATE và thứ tự bài sai.'
 draft: false
-image: images/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.webp
-image_alt: 'Ảnh minh họa Post date timezone Việt Nam (GMT+7): tránh stale_date và
-  lệch homepage — nguồn Pexels'
+image: "images/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.webp"
+image_alt: "Ảnh minh họa — Pexels / Daniil Komov"
 image_attribution_checked_at: '2026-07-10T04:53:00+07:00'
-image_attribution_source: pexels_api
+image_attribution_source: "pexels_api"
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: Duy Nguyen
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@duy-nguyen-489946968
-image_generation_method: context_aware_programmatic_pillow
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
+image_creator: "Daniil Komov"
+image_creator_id: "133960344"
+image_creator_url: "https://www.pexels.com/@dkomov"
+image_license: "Pexels License"
+image_license_url: "https://www.pexels.com/license/"
+image_owner: "external"
+image_provider: "pexels"
 image_query: post date timezone việt nam
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/stunning-night-view-of-ho-chi-minh-city-skyline-30281995/
-image_status: verified
+image_source: "Pexels"
+image_source_url: "https://www.pexels.com/photo/laptop-with-code-displayed-and-coffee-mug-nearby-34803976/"
+image_status: "verified"
 related_posts:
 - ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
 - hugo-build-duplicate-yaml-ai-summary-va-template-regression
@@ -51,7 +49,7 @@ tags:
 - front matter
 - Hugo
 - safe
-thumbnail: images/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.webp
+thumbnail: "images/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.webp"
 title: 'Post date timezone Việt Nam (GMT+7): tránh stale_date và lệch homepage'
 ---
 

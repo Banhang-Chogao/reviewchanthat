@@ -19,25 +19,23 @@ description: 'Phân tích baseurl_routing_error, sitemap_noindex_mismatch, serie
   (safe): path tuyệt đối thiếu /reviewchanthat/, noindex lọt sitemap, /series/ hardcode
   vỡ baseURL.'
 draft: false
-image: images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp
-image_alt: Ảnh minh họa BaseURL, sitemap noindex và series hardcoded URL trên GitHub
-  project Pages — nguồn Pexels
+image: "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp"
+image_alt: "Ảnh minh họa — Pexels / cottonbro studio"
 image_attribution_checked_at: '2026-07-10T04:52:55+07:00'
-image_attribution_source: pexels_api
+image_attribution_source: "pexels_api"
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: RDNE Stock project
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@rdne
-image_generation_method: context_aware_programmatic_pillow
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
+image_creator: "cottonbro studio"
+image_creator_id: "1437723"
+image_creator_url: "https://www.pexels.com/@cottonbro"
+image_license: "Pexels License"
+image_license_url: "https://www.pexels.com/license/"
+image_owner: "external"
+image_provider: "pexels"
 image_query: baseurl sitemap noindex series hardcoded
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-graph-in-close-up-photography-7947635/
-image_status: verified
+image_source: "Pexels"
+image_source_url: "https://www.pexels.com/photo/person-typing-on-laptop-5473892/"
+image_status: "verified"
 related_posts:
 - ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
 - live-deploy-khong-phan-anh-va-pages-serving-old-artifact
@@ -52,7 +50,7 @@ tags:
 - SEO
 - Hugo
 - GitHub Pages
-thumbnail: images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp
+thumbnail: "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp"
 title: BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages
 ---
 

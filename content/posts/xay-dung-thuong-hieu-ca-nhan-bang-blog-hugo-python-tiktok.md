@@ -6,9 +6,9 @@ categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
 draft = false
-image = ""
-thumbnail = ""
-image_status = "needs_image"
+image = "images/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.webp"
+thumbnail = "images/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.webp"
+image_status = "verified"
 related_posts = [
   "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan"
 ]
@@ -33,6 +33,20 @@ items = [
   "TikTok nên được xem là kênh phân phối và kiểm chứng ý tưởng nhanh, không phải nơi duy nhất lưu giữ thương hiệu cá nhân.",
   "Cách bền vững là viết bài trụ trên blog, cắt thành nhiều video ngắn cho TikTok, rồi kéo người xem quay về bài viết sâu hơn."
 ]
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-taking-picture-of-devices-4549411/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Plann"
+image_creator_url = "https://www.pexels.com/@plann-2999237"
+image_creator_id = "2999237"
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_alt = "Ảnh minh họa — Pexels / Plann"
+
 +++
 
 Bạn có thể nhận thấy rằng hầu hết những người xây dựng thương hiệu cá nhân ngày nay đều bắt đầu từ TikTok, Instagram hay YouTube. Nhưng có một vấn đề: **bạn không sở hữu độc lập nền tảng đó.**

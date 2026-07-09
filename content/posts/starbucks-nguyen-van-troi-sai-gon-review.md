@@ -28,22 +28,22 @@ draft: false
 external_links:
 - title: Starbucks Vietnam — Store locator
   url: https://www.starbucks.vn/
-image: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
+image: "images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp"
 image_attribution_checked_at: '2026-07-10T04:52:40+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
-image_attribution_source: self_owned
-image_attribution_verified: false
+image_attribution_source: "pexels_api"
+image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
-image_creator_id: ''
-image_creator_url: ''
-image_license: Self-owned
-image_license_url: ''
-image_owner: self
-image_provider: self
-image_source: self
-image_source_url: https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg
-image_status: verified
+image_creator: "Lisa from Pexels"
+image_creator_id: "26735"
+image_creator_url: "https://www.pexels.com/@fotios-photos"
+image_license: "Pexels License"
+image_license_url: "https://www.pexels.com/license/"
+image_owner: "external"
+image_provider: "pexels"
+image_source: "Pexels"
+image_source_url: "https://www.pexels.com/photo/woman-wearing-black-shirt-in-a-coffee-shop-1137745/"
+image_status: "verified"
 series: starbucks-vietnam
 series_order: 2
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
@@ -54,7 +54,7 @@ tags:
 - review quán cà phê
 - Sài Gòn
 - Starbucks Vietnam
-thumbnail: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
+thumbnail: "images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp"
 title: 'Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon'
 tom_tat_nhanh:
 - label: Địa điểm
@@ -62,6 +62,8 @@ tom_tat_nhanh:
 - label: Điểm cộng
 - label: Phù hợp
 - label: Ảnh
+image_alt: "Ảnh minh họa — Pexels / Lisa from Pexels"
+
 ---
 
 Có những chi nhánh Starbucks bạn ghé một lần rồi thôi, và có những nơi trở thành điểm quen mỗi tuần. Với mình, **Starbucks Nguyễn Văn Trỗi** (Phú Nhuận, TP.HCM) thuộc nhóm thứ hai — nơi mình đã ngồi làm việc, họp nhóm nhỏ, và gọi ly quen đến mức barista nhận ra trước khi mình kịp đọc tên đồ uống.
