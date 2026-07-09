@@ -11,26 +11,29 @@ ai_summary:
     mái, kết hợp mua sắm.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX,
+    https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 07:00:00+07:00"
-description: "Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang, Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu."
+date: '2026-07-08 07:00:00+07:00'
+description: 'Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang,
+  Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu.'
 draft: false
 external_links:
-- title: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
-  url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
-- title: "https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/"
-  url: "https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/"
-- title: "https://english.visitseoul.net/"
-  url: "https://english.visitseoul.net/"
-- title: "https://www.aquafield.kr/"
-  url: "https://www.aquafield.kr/"
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
+- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
+  url: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
+- title: https://english.visitseoul.net/
+  url: https://english.visitseoul.net/
+- title: https://www.aquafield.kr/
+  url: https://www.aquafield.kr/
 image: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
-image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:23+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: rejected_generic
 image_attribution_verified: false
@@ -39,10 +42,10 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/"
+image_source_url: https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/
 series: du-lich
 series_order: 8
 series_title: Du lịch Hàn Quốc 2026

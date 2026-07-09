@@ -9,25 +9,26 @@ ai_summary:
   - Series 8 bài về màu, màn hình, camera, pin và có nên mua 2026.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 09:00:00+07:00'
-description: "Trên tay iPhone 16 Pro Max Desert Titanium: màu sắc, màn 6.9 inch, Camera Control, 227g và đánh giá tổng thể series màu titan 2024."
+description: 'Trên tay iPhone 16 Pro Max Desert Titanium: màu sắc, màn 6.9 inch, Camera
+  Control, 227g và đánh giá tổng thể series màu titan 2024.'
 draft: false
 image: images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp
-image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:21+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Luo Chris
 image_creator_id: '1659104'
-image_creator_url: "https://www.pexels.com/@luo-chris-1659104"
+image_creator_url: https://www.pexels.com/@luo-chris-1659104
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/a-mobile-phone-on-wooden-table-14557519/"
+image_source_url: https://www.pexels.com/photo/a-mobile-phone-on-wooden-table-14557519/
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 1
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'

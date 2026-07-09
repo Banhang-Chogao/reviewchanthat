@@ -9,28 +9,30 @@ ai_summary:
   - Nên cầm mẫu thật so với Natural trước khi đặt mua.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 09:20:00+07:00'
-description: "Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu, phối phụ kiện, so với Natural/Black và có nên chọn làm màu chính."
+description: 'Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu, phối phụ
+  kiện, so với Natural/Black và có nên chọn làm màu chính.'
 draft: false
 image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp
-image_alt: 'Editorial illustration for: iPhone 16 Pro Max Desert Titanium hợp ai?'
-image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
-image_attribution_source: self_generated
+image_alt: Ảnh minh họa iPhone 16 Pro Max Desert Titanium hợp ai? — nguồn Pexels
+image_attribution_checked_at: '2026-07-10T04:53:00+07:00'
+image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: Review Chân Thật
-image_creator_id: review-chan-that-generated
-image_creator_url: "https://banhang-chogao.github.io/reviewchanthat/"
+image_creator: Arpit Brandings
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@arpit-brandings-1363149455
 image_generation_method: programmatic_pillow
-image_license: Original self-hosted editorial illustration by Review Chân Thật
-image_license_url: "https://banhang-chogao.github.io/reviewchanthat/branding-ci/"
-image_owner: self
-image_provider: self-generated
-image_source: Review Chân Thật
-image_source_url: "https://banhang-chogao.github.io/reviewchanthat/"
+image_license: Pexels License
+image_license_url: ''
+image_owner: external
+image_provider: pexels
+image_query: iphone 16 pro max desert
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/smartphone-mockup-on-sandy-log-in-kamala-beach-31833728/
 image_status: verified
 inline_illustrations:
 - heading: Bảng tóm tắt nhanh

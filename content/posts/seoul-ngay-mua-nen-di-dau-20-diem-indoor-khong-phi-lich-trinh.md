@@ -15,11 +15,13 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
     https://www.koreatodo.com/seoul-rainy-day.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: "Seoul ngày mưa nên đi đâu? Gợi ý 20 điểm indoor không phí lịch trình — bảo tàng, thủy cung, Coex Mall, Lotte World và quán cà phê. Kèm lịch trình 2 ngày mùa mưa."
+date: '2026-07-08 10:00:00+07:00'
+description: Seoul ngày mưa nên đi đâu? Gợi ý 20 điểm indoor không phí lịch trình
+  — bảo tàng, thủy cung, Coex Mall, Lotte World và quán cà phê. Kèm lịch trình 2 ngày
+  mùa mưa.
 draft: false
 faq:
 - answer: Bảo tàng Quốc gia Hàn Quốc (miễn phí), War Memorial, COEX Aquarium, Lotte
@@ -29,18 +31,18 @@ faq:
     nối hầu hết địa điểm.
 - answer: Áo mưa gọn, giày chống nước. Túi chống nước cho điện thoại và máy ảnh.
 image: images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:30+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Nuhyil Ahammed
 image_creator_id: '282191113'
-image_creator_url: "https://www.pexels.com/@nuhyil-ahammed-282191113"
+image_creator_url: https://www.pexels.com/@nuhyil-ahammed-282191113
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/people-walking-in-town-in-rain-17691635/"
+image_source_url: https://www.pexels.com/photo/people-walking-in-town-in-rain-17691635/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
 - ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md

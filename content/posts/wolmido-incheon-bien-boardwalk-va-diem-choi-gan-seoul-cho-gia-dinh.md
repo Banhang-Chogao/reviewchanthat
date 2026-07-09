@@ -14,15 +14,16 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
     https://www.incheon.go.kr/.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 07:00:00+07:00"
-description: "Wolmido Incheon là khu vui chơi ven biển gần Seoul, có boardwalk, tàu lượn, thủy cung và nhà hàng hải sản. Đi metro từ Seoul chỉ 1 giờ."
+date: '2026-07-08 07:00:00+07:00'
+description: Wolmido Incheon là khu vui chơi ven biển gần Seoul, có boardwalk, tàu
+  lượn, thủy cung và nhà hàng hải sản. Đi metro từ Seoul chỉ 1 giờ.
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-  url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
+  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
 - title: https://www.incheon.go.kr/
 faq:
 - answer: Không. Bạn chỉ trả tiền khi chơi trò chơi, ăn uống hoặc vào thủy cung.
@@ -31,18 +32,18 @@ faq:
     với các hoạt động khác trong ngày.
 - answer: Có, rất phù hợp. Các trò chơi nhẹ nhàng, boardwalk rộng, có thủy cung.
 image: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
-image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:34+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: joon young, Park
 image_creator_id: '3425379'
-image_creator_url: "https://www.pexels.com/@doldosa"
+image_creator_url: https://www.pexels.com/@doldosa
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/view-of-the-yeongjong-bridge-in-incheon-south-korea-during-sunset-14958503/"
+image_source_url: https://www.pexels.com/photo/view-of-the-yeongjong-bridge-in-incheon-south-korea-during-sunset-14958503/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md

@@ -21,7 +21,8 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 22:00:00+07:00'
-description: "Chi phí đi Hàn tháng 11 tự túc: bảng giá tham khảo vé máy bay, khách   sạn, ăn uống, di chuyển và mẹo tiết kiệm cho chuyến 5N4Đ."
+description: 'Chi phí đi Hàn tháng 11 tự túc: bảng giá tham khảo vé máy bay, khách   sạn,
+  ăn uống, di chuyển và mẹo tiết kiệm cho chuyến 5N4Đ.'
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
@@ -31,18 +32,18 @@ external_links:
 - title: KoreaToDo — Gapyeong Day Trip Nami Island
   url: https://www.koreatodo.com/gapyeong-day-trip-nami-island
 image: images/posts/chi-phi-di-han-thang-11-tu-tuc.webp
-image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:51+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Светлана Конева
-image_creator_id: 269097219
-image_creator_url: ''
+image_creator_id: '269097219'
+image_creator_url: https://www.pexels.com/@269097219
 image_license: Pexels License
 image_license_url: ''
 image_owner: external
 image_source: Pexels
-image_source_url: ''
+image_source_url: https://www.pexels.com/photo/pexels-photo-12787317/
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
   title: Đi Hàn tháng 11 có đẹp không?

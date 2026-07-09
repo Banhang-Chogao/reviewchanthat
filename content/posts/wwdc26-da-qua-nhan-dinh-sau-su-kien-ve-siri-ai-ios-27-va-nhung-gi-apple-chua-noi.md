@@ -15,15 +15,16 @@ attribution:
   source_note: Bài viết đối ứng với bài phân tích WWDC26 trên blog; dữ liệu từ Apple
     Newsroom, báo chí công nghệ và phản hồi beta tuần đầu.
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: "2026-07-07 18:00:00+07:00"
-description: "Một tháng sau keynote, đánh giá lại WWDC26 — Siri AI có đủ thuyết phục không, beta iOS 27 thực tế ra sao, và người dùng Việt Nam nên làm gì tiếp theo."
+date: '2026-07-07 18:00:00+07:00'
+description: Một tháng sau keynote, đánh giá lại WWDC26 — Siri AI có đủ thuyết phục
+  không, beta iOS 27 thực tế ra sao, và người dùng Việt Nam nên làm gì tiếp theo.
 draft: false
 external_links:
 - title: Apple — WWDC26 Press Release
-  url: "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+  url: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/
 - title: Apple — Siri AI
 - title: MacRumors — Siri AI at WWDC 2026
 - title: 9to5Mac — WWDC 2026 News Hub
@@ -41,21 +42,21 @@ faq:
 - answer: Mức hỗ trợ tiếng Việt cho Siri AI từng giai đoạn, danh sách máy tương thích,
     và changelog từng beta — không chỉ slide keynote.
 image: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
-image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:34+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Ivan Babydov
 image_creator_id: '54154657'
-image_creator_url: "https://www.pexels.com/@babydov"
+image_creator_url: https://www.pexels.com/@babydov
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/apple-logo-on-purple-background-7789851/"
+image_source_url: https://www.pexels.com/photo/apple-logo-on-purple-background-7789851/
 internal_links:
 - ref: posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md
-lastmod: "2026-07-08 00:00:00+07:00"
+lastmod: '2026-07-08 00:00:00+07:00'
 slug: wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi
 tags:
 - WWDC26

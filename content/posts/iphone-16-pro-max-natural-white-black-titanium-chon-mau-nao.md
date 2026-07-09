@@ -9,25 +9,26 @@ ai_summary:
   - Chọn theo ốp lưng, thói quen lau máy và mục đích mua cũ/mới.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 09:40:00+07:00'
-description: "So sánh Natural, White và Black Titanium trên iPhone 16 Pro Max — chọn màu theo thói quen, độ bều và giá máy cũ 2026."
+description: So sánh Natural, White và Black Titanium trên iPhone 16 Pro Max — chọn
+  màu theo thói quen, độ bều và giá máy cũ 2026.
 draft: false
 image: images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp
-image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:22+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: www.kaboompics.com
 image_creator_id: '2332540'
-image_creator_url: "https://www.pexels.com/@karola-g"
+image_creator_url: https://www.pexels.com/@karola-g
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/a-mobile-phone-near-the-notebook-with-green-leaves-on-a-wooden-table-8092450/"
+image_source_url: https://www.pexels.com/photo/a-mobile-phone-near-the-notebook-with-green-leaves-on-a-wooden-table-8092450/
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 3
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'

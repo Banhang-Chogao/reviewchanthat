@@ -13,30 +13,32 @@ ai_summary:
     luận quản trị app store tại châu Á.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: "2026-07-08 11:00:00+07:00"
-description: "EC được gì khi thắng Apple trong tranh chấp DMA: tiền phạt, tiền lệ pháp lý, quyền giám sát gatekeeper — và những rủi ro chính trị, thị trường EC phải gánh."
+date: '2026-07-08 11:00:00+07:00'
+description: 'EC được gì khi thắng Apple trong tranh chấp DMA: tiền phạt, tiền lệ
+  pháp lý, quyền giám sát gatekeeper — và những rủi ro chính trị, thị trường EC phải
+  gánh.'
 draft: false
 external_links:
 - title: EC — Apple và Meta vi phạm DMA (23/4/2025)
-  url: "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act"
+  url: https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act
 - title: Tòa Tổng EU — Thông cáo cp260096en.pdf (8/7/2026)
 - title: Digital Markets Act — Trang chính thức EC
 image: images/posts/european-commission-duoc-gi-khi-thang-apple.webp
-image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:38+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: aleksandre lomadze
 image_creator_id: '2154684396'
-image_creator_url: "https://www.pexels.com/@aleksandre-lomadze-2154684396"
+image_creator_url: https://www.pexels.com/@aleksandre-lomadze-2154684396
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/"
+image_source_url: https://www.pexels.com/photo/european-union-flag-waving-against-modern-building-33401027/
 series: apple-ec-dma-app-store-ios
 series_order: 7
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'

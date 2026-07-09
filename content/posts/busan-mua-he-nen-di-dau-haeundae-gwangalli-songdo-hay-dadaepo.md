@@ -18,7 +18,8 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: "Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo và Dadaepo — bãi biển nào phù hợp nhất cho chuyến đi của bạn?"
+description: Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo và Dadaepo
+  — bãi biển nào phù hợp nhất cho chuyến đi của bạn?
 draft: false
 faq:
 - answer: Haeundae nếu thích sầm uất, Gwangalli nếu thích lãng mạn, Dadaepo nếu đi
@@ -30,18 +31,18 @@ faq:
     viên.
   question: Bãi biển nào yên tĩnh nhất?
 image: images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp
-image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: thuan Nguyen
-image_creator_id: 1317341160
-image_creator_url: ''
+image_creator_id: '1317341160'
+image_creator_url: https://www.pexels.com/@thuan-nguyen-1317341160
 image_license: Pexels License
 image_license_url: ''
 image_owner: external
 image_source: Pexels
-image_source_url: ''
+image_source_url: https://www.pexels.com/photo/vibrant-nighttime-skyline-of-busan-south-korea-29861385/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

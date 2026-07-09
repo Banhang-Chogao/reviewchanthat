@@ -18,15 +18,16 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
     https://www.kma.go.kr.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 18:30:00+07:00"
-description: "Đi Hàn tháng 11 mặc gì? Checklist phối đồ nhiều lớp ấm, màu sắc hợp mùa thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan."
+date: '2026-07-08 18:30:00+07:00'
+description: Đi Hàn tháng 11 mặc gì? Checklist phối đồ nhiều lớp ấm, màu sắc hợp mùa
+  thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan.
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
 - title: Korea Meteorological Administration
 - title: KoreaToDo — Autumn Foliage Sites
 faq:
@@ -38,18 +39,18 @@ faq:
 - answer: Giày sneaker đế bằng, thoải mái đi bộ 12.000–18.000 bước/ngày. Leo núi nên
     giày trekking nhẹ, tất dày.
 image: images/posts/di-han-thang-11-mac-gi.webp
-image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:49+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Eric Prouzet
 image_creator_id: '225470'
-image_creator_url: "https://www.pexels.com/@eric-prouzet-225470"
+image_creator_url: https://www.pexels.com/@eric-prouzet-225470
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-32077763/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-32077763/
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
 - ref: posts/thoi-tiet-han-quoc-thang-11.md

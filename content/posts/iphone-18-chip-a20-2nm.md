@@ -12,31 +12,32 @@ ai_summary:
   - Series iPhone 18 — liên kết Pro Max, có nên chờ và so sánh iPhone 17.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 11:00:00+07:00'
-description: "iPhone 18 chip A20 có gì đáng chú ý? Tin đồn TSMC N2 2nm, A20 vs A20 Pro, hiệu năng, pin và Apple Intelligence — nguồn MacRumors, AppleInsider."
+description: iPhone 18 chip A20 có gì đáng chú ý? Tin đồn TSMC N2 2nm, A20 vs A20
+  Pro, hiệu năng, pin và Apple Intelligence — nguồn MacRumors, AppleInsider.
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup
-  url: "https://www.macrumors.com/roundup/iphone-18-pro/"
+  url: https://www.macrumors.com/roundup/iphone-18-pro/
 - title: MacRumors — iPhone 18 roundup
 - title: AppleInsider — A20 and spring 2027 iPhone 18
 - title: MacRumors — TSMC 2nm reports
 image: images/posts/iphone-18-chip-a20-2nm.webp
-image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:43+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Ferdinand Frederik
 image_creator_id: '257244'
-image_creator_url: "https://www.pexels.com/@ferdinand-frederik-257244"
+image_creator_url: https://www.pexels.com/@ferdinand-frederik-257244
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-788884/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-788884/
 series: iphone-18-co-gi-moi
 series_order: 6
 series_title: iPhone 18 có gì mới

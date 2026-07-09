@@ -22,22 +22,32 @@ author: Minh Hoàng
 categories:
 - du-lich
 date: '2026-07-09 10:00:00+07:00'
-description: "Jeju mùa hoa cải vàng nên đi tháng mấy? Gợi ý thời điểm cuối tháng 3 đến đầu tháng 4, điểm ngắm đẹp, lễ hội 2026 và lịch trình thực tế."
+description: Jeju mùa hoa cải vàng nên đi tháng mấy? Gợi ý thời điểm cuối tháng 3
+  đến đầu tháng 4, điểm ngắm đẹp, lễ hội 2026 và lịch trình thực tế.
 draft: false
 external_links:
 - title: VisitKorea - Jeju Canola Flower Festival
-  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104187"
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=104187
 - title: VisitKorea - 2026 Guide to Korea's Best Spring Bloom Destinations
 - title: VisitKorea - Noksan-ro Canola Flower Road
 - title: VisitKorea - Seopjikoji
 - title: VisitKorea - Sanbangsan Mountain
 image: images/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.webp
-image_owner: self
-image_source: self-generated
+image_attribution_checked_at: '2026-07-10T04:52:51+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
+image_commercial_use: true
+image_creator: Irina Iriser
+image_creator_id: '135125'
+image_creator_url: https://www.pexels.com/@iriser
+image_license: Pexels License
+image_owner: external
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/yellow-flower-field-under-blue-sky-4412373/
 images:
-  - images/posts/jeju-inline-months.webp
-  - images/posts/jeju-inline-festival.webp
-  - images/posts/jeju-inline-spots.webp
+- images/posts/jeju-inline-months.webp
+- images/posts/jeju-inline-festival.webp
+- images/posts/jeju-inline-spots.webp
 series:
 - jeju-mua-hoa-cai-vang
 series_order: 1
@@ -55,8 +65,7 @@ title: Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa
 tom_tat_nhanh:
 - label: Trả lời nhanh
   value: Cuối tháng 3 đến đầu tháng 4 là khoảng nên nhắm nhất.
-- label: Có thể gặp hoa
-    vực.
+- label: Có thể gặp hoa vực.
 - label: Lễ hội 2026
 - label: Số ngày hợp lý
 ---

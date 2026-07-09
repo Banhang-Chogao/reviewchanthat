@@ -11,14 +11,17 @@ ai_summary:
   - Less crowded hơn các resort gần Seoul — thích hợp nếu muốn tránh đám đông.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=195526, https://oakvalley.co.kr/, https://blog.trazy.com/guide-to-oak-valley-ski-resort/."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=195526,
+    https://oakvalley.co.kr/, https://blog.trazy.com/guide-to-oak-valley-ski-resort/.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 09:00:00+07:00"
-description: "Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế."
+date: '2026-07-08 09:00:00+07:00'
+description: Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù
+  hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế.
 faq:
 - answer: Cách Seoul khoảng 100 km, di chuyển khoảng 1,5–2 giờ. Có thể đi trong ngày
     — shuttle bus cuối tuần từ Hongdae và Myeongdong. Ngày thường có thể đi KTX đến
@@ -30,21 +33,21 @@ faq:
     nguồn khác nói 9 slope (2 beginner, 5 intermediate, 2 advanced). Thực tế resort
     này thiên về beginner/intermediate.'
 - answer: 'Mùa 2025–26: mở cửa từ 12/12/2025, Snow Playground từ 20/12/2025. Giờ hoạt
-    động: "ngày thường 10:00–17:00, có night ticket 18:00–21:00. Kiểm tra website oakvalley.co.kr"
-    để biết giá mới nhất.'
+    động: "ngày thường 10:00–17:00, có night ticket 18:00–21:00. Kiểm tra website
+    oakvalley.co.kr" để biết giá mới nhất.'
 image: images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp
-image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:28+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: pipop kunachon
 image_creator_id: '1327332'
-image_creator_url: "https://www.pexels.com/@daddysky"
+image_creator_url: https://www.pexels.com/@daddysky
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/photo-of-people-skiing-on-a-slope-20900182/"
+image_source_url: https://www.pexels.com/photo/photo-of-people-skiing-on-a-slope-20900182/
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
 - ref: posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md
@@ -67,16 +70,16 @@ title: 'Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Won
 tom_tat_nhanh:
 - label: Khu vực
   value: Wonju, Gangwon-do (100 km từ Seoul)
-- label: "Loại trải nghiệm"
-  value: ""
-- label: "Hợp với"
-  value: ""
-- label: "Thời gian nên dành"
-  value: ""
-- label: "Đi mùa nào hợp"
-  value: ""
-- label: "Có cần đặt trước không"
-  value: ""
+- label: Loại trải nghiệm
+  value: ''
+- label: Hợp với
+  value: ''
+- label: Thời gian nên dành
+  value: ''
+- label: Đi mùa nào hợp
+  value: ''
+- label: Có cần đặt trước không
+  value: ''
 ---
 
 Oak Valley là ski resort nhỏ nhất trong系列 bài này của mình, nhưng đôi khi nhỏ lại là cái hay. Nếu bạn đã đọc bài về [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}) và [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) mà thấy lo vì đông đúc, Oak Valley là phương án ngược lại hoàn toàn.

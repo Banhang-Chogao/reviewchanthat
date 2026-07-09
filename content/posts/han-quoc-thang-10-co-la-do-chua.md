@@ -17,15 +17,16 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
     https://www.kma.go.kr.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 08:00:00+07:00"
-description: "Hàn Quốc tháng 10 có lá đỏ chưa? So sánh Seoul, Nami, Seoraksan theo dự báo Visit Korea 2025 — nên đi tuần nào và lịch dự phòng."
+date: '2026-07-08 08:00:00+07:00'
+description: Hàn Quốc tháng 10 có lá đỏ chưa? So sánh Seoul, Nami, Seoraksan theo
+  dự báo Visit Korea 2025 — nên đi tuần nào và lịch dự phòng.
 draft: false
 external_links:
 - title: Visit Korea — 2025 Fall Foliage Forecast
-  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
 - title: KoreaToDo — Top Autumn Foliage Sites
 - title: Korea Meteorological Administration
 faq:
@@ -37,18 +38,18 @@ faq:
 - answer: Seoraksan sớm nhất trong các điểm phổ biến — dự báo 2025 đỉnh khoảng 23/10.
     Nên đi giữa–cuối tháng 10.
 image: images/posts/han-quoc-thang-10-co-la-do-chua.webp
-image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:45+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
 image_creator_id: '222549'
-image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-2131625/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-2131625/
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
 - ref: posts/thoi-tiet-han-quoc-thang-10.md

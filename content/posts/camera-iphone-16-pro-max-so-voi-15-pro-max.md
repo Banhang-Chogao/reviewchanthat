@@ -9,25 +9,26 @@ ai_summary:
   - Đổi máy chỉ vì camera không cần thiết nếu 15 Pro Max còn pin tốt.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 10:40:00+07:00'
-description: "So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm A18, Camera Control và có nên đổi vì ảnh."
+description: 'So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm
+  A18, Camera Control và có nên đổi vì ảnh.'
 draft: false
 image: images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp
-image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Andrey Matveev
 image_creator_id: '150820'
-image_creator_url: "https://www.pexels.com/@zeleboba"
+image_creator_url: https://www.pexels.com/@zeleboba
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/"
+image_source_url: https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/
 series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 6
 series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'

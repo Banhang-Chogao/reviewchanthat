@@ -13,11 +13,12 @@ attribution:
   copyright: © 2026 Review Chân Thật. Bài viết tham khảo từ các nguồn du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.everland.com, https://www.oceanworld.co.kr.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: "Ocean World vs Caribbean Bay: so sánh chi tiết giá vé, khoảng cách, trò chơi, độ đông. Nên chọn công viên nước nào gần Seoul?"
+date: '2026-07-08 10:00:00+07:00'
+description: 'Ocean World vs Caribbean Bay: so sánh chi tiết giá vé, khoảng cách,
+  trò chơi, độ đông. Nên chọn công viên nước nào gần Seoul?'
 draft: false
 faq:
 - answer: Caribbean Bay nếu thích nhiều trò, không ngại đông. Ocean World nếu muốn
@@ -26,18 +27,18 @@ faq:
 - answer: Caribbean Bay 40 phút, Ocean World 60 phút.
 - answer: Caribbean Bay (50.000–60.000 KRW). Ocean World (40.000–50.000 KRW).
 image: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
-image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:29+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Lu Zhao
 image_creator_id: '145486608'
-image_creator_url: "https://www.pexels.com/@lu-zhao-145486608"
+image_creator_url: https://www.pexels.com/@lu-zhao-145486608
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/silhouette-of-a-man-standing-in-front-of-a-huge-tank-in-an-aquarium-10431750/"
+image_source_url: https://www.pexels.com/photo/silhouette-of-a-man-standing-in-front-of-a-huge-tank-in-an-aquarium-10431750/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
 - ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md

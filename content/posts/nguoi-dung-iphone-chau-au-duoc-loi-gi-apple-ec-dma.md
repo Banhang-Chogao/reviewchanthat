@@ -16,32 +16,33 @@ attribution:
     lý.
   source_note: Tham chiếu Apple Newsroom DMA, EC, Tòa Tổng 8/7/2026 và Reuters.
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: "2026-07-08 10:00:00+07:00"
-description: "Người dùng iPhone tại EU được lợi gì từ DMA, gatekeeper và phán quyết Apple vs EC 8/7/2026? Lợi ích, rủi ro và kỳ vọng thực tế."
+date: '2026-07-08 10:00:00+07:00'
+description: Người dùng iPhone tại EU được lợi gì từ DMA, gatekeeper và phán quyết
+  Apple vs EC 8/7/2026? Lợi ích, rủi ro và kỳ vọng thực tế.
 draft: false
 external_links:
 - title: Apple Newsroom — Tác động DMA lên người dùng EU
-  url: "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/"
+  url: https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/
 - title: Reuters — EU court rejects Apple (8/7/2026)
 - title: EC — Apple anti-steering breach (23/4/2025)
 - title: Tòa Tổng EU — cp260096en.pdf
 - title: Digital Markets Act — EC
 image: images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp
-image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:37+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Andrea Piacquadio
 image_creator_id: '224453'
-image_creator_url: "https://www.pexels.com/@olly"
+image_creator_url: https://www.pexels.com/@olly
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/photo-of-person-holding-smartphone-3760263/"
+image_source_url: https://www.pexels.com/photo/photo-of-person-holding-smartphone-3760263/
 series: apple-ec-dma-app-store-ios
 series_order: 4
 series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'

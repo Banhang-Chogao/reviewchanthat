@@ -10,37 +10,40 @@ ai_summary:
   - Seopjikoji và khu vực Seogwipo là điểm kết hợp lý tưởng sau khi ngắm bình minh.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://whc.unesco.org/en/list/1264/, https://english.visitkorea.or.kr/, https://www.visitjeju.net/."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX,
+    https://whc.unesco.org/en/list/1264/, https://english.visitkorea.or.kr/, https://www.visitjeju.net/.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 07:00:00+07:00"
-description: "Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc."
+date: '2026-07-08 07:00:00+07:00'
+description: 'Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji
+  và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc.'
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
-- title: "https://www.visitjeju.net/"
-  url: "https://www.visitjeju.net/"
-- title: "https://whc.unesco.org/en/list/1264/"
-  url: "https://whc.unesco.org/en/list/1264/"
-- title: "https://english.visitkorea.or.kr/"
-  url: "https://english.visitkorea.or.kr/"
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
+- title: https://www.visitjeju.net/
+  url: https://www.visitjeju.net/
+- title: https://whc.unesco.org/en/list/1264/
+  url: https://whc.unesco.org/en/list/1264/
+- title: https://english.visitkorea.or.kr/
+  url: https://english.visitkorea.or.kr/
 image: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
-image_attribution_checked_at: '2026-07-09T15:38:03+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:28+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: tom  Lok
 image_creator_id: '18648978'
-image_creator_url: "https://www.pexels.com/@tom-lok-18648978"
+image_creator_url: https://www.pexels.com/@tom-lok-18648978
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/body-of-water-near-trees-during-sunset-6476882/"
+image_source_url: https://www.pexels.com/photo/body-of-water-near-trees-during-sunset-6476882/
 series: du-lich
 series_order: 20
 series_title: Du lịch Hàn Quốc 2026
@@ -59,16 +62,16 @@ title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng
 tom_tat_nhanh:
 - label: Khu vực
   value: Seongsan (đông bắc Jeju), Seopjikoji (gần Seongsan), Seogwipo (nam Jeju)
-- label: "Loại trải nghiệm"
-  value: ""
-- label: "Hợp với"
-  value: ""
-- label: "Thời gian nên dành"
-  value: ""
-- label: "Đi mùa nào hợp"
-  value: ""
-- label: "Có cần đặt trước không"
-  value: ""
+- label: Loại trải nghiệm
+  value: ''
+- label: Hợp với
+  value: ''
+- label: Thời gian nên dành
+  value: ''
+- label: Đi mùa nào hợp
+  value: ''
+- label: Có cần đặt trước không
+  value: ''
 ---
 
 Ngắm bình minh trên miệng núi lửa là trải nghiệm theo mình không thể bỏ qua khi đến Jeju. Hoạt động này được xếp hạng 5 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và Seongsan Ilchulbong là điểm đến số một cho việc này.

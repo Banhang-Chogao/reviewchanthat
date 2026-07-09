@@ -11,26 +11,29 @@ ai_summary:
   - Giá vé, KTX và phí tham quan có thể thay đổi theo mùa, ngày đi và tỷ giá.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.koreatodo.com/seoraksan-national-park."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
+    https://www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.koreatodo.com/seoraksan-national-park.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 14:30:00+07:00"
-description: "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan — cách xếp ngày theo dự báo lá đỏ và mẹo di chuyển KTX."
+date: '2026-07-08 14:30:00+07:00'
+description: 'Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan
+  — cách xếp ngày theo dự báo lá đỏ và mẹo di chuyển KTX.'
 draft: false
 external_links:
-- title: "Visit Korea — Fall Foliage Forecast"
-  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
-- title: "KoreaToDo — Seoraksan National Park"
-  url: ""
-- title: "KoreaToDo — Gapyeong Day Trip Nami Island"
-  url: ""
-- title: "Visit Busan"
-  url: ""
+- title: Visit Korea — Fall Foliage Forecast
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+- title: KoreaToDo — Seoraksan National Park
+  url: ''
+- title: KoreaToDo — Gapyeong Day Trip Nami Island
+  url: ''
+- title: Visit Busan
+  url: ''
 image: images/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.webp
-image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:48+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
@@ -39,10 +42,10 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-32077765/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-32077765/
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
 - ref: posts/thoi-tiet-han-quoc-thang-10.md

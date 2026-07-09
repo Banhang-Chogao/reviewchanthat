@@ -14,11 +14,12 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.visitjeju.net, https://www.koreatodo.com/jeju.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: "Jeju mùa hè nên đi đâu? Gợi ý biển, thác nước, oreum và lịch trình 3 ngày chi tiết cho kỳ nghỉ hè tại đảo Jeju."
+date: '2026-07-08 10:00:00+07:00'
+description: Jeju mùa hè nên đi đâu? Gợi ý biển, thác nước, oreum và lịch trình 3
+  ngày chi tiết cho kỳ nghỉ hè tại đảo Jeju.
 draft: false
 faq:
 - answer: Biển Hamdeok, Hyeopjae, Jungmun. Thác Cheonjiyeon, Cheonjeyeon. Seongsan
@@ -28,18 +29,18 @@ faq:
 - answer: Thuê xe tự lái (khoảng 50.000–80.000 KRW/ngày) là tiện nhất. Taxi và tour
     cũng là lựa chọn.
 image: images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp
-image_attribution_checked_at: '2026-07-09T15:38:02+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:23+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: SOO CHUL PARK
 image_creator_id: '695483041'
-image_creator_url: "https://www.pexels.com/@voltfather"
+image_creator_url: https://www.pexels.com/@voltfather
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/traditional-huts-in-village-18023250/"
+image_source_url: https://www.pexels.com/photo/traditional-huts-in-village-18023250/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
 - ref: posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md

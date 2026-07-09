@@ -16,21 +16,22 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 13:40:00+07:00'
-description: "Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time Machine, dọn SSD,   kiểm tra app, RAM và kế hoạch rollback."
+description: 'Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time Machine, dọn SSD,   kiểm
+  tra app, RAM và kế hoạch rollback.'
 draft: false
 image: images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp
-image_attribution_checked_at: '2026-07-09T15:37:58+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Field Engineer
-image_creator_id: 147254
-image_creator_url: ''
+image_creator_id: '147254'
+image_creator_url: https://www.pexels.com/@field-engineer-147254
 image_license: Pexels License
 image_license_url: ''
 image_owner: external
 image_source: Pexels
-image_source_url: ''
+image_source_url: https://www.pexels.com/photo/silver-macbook-on-brown-wooden-table-442150/
 seo_title: 'Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và'
 series: macos-27-co-gi-moi
 series_order: 9

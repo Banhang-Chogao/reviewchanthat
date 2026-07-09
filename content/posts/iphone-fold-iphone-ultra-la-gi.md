@@ -11,20 +11,22 @@ ai_summary:
   - Series iPhone 18 — liên kết lịch ra mắt, Pro Max, giá và hướng dẫn có nên chờ.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 10:00:00+07:00'
-description: "iPhone Fold hay iPhone Ultra là gì? Tin đồn smartphone gập đầu tiên của Apple — thiết kế, giá ~2.000 USD, lịch ra mắt 9/2026, có nên chờ — nguồn MacRumors, AppleInsider."
+description: iPhone Fold hay iPhone Ultra là gì? Tin đồn smartphone gập đầu tiên của
+  Apple — thiết kế, giá ~2.000 USD, lịch ra mắt 9/2026, có nên chờ — nguồn MacRumors,
+  AppleInsider.
 draft: false
 external_links:
 - title: MacRumors — iPhone Fold roundup
-  url: "https://www.macrumors.com/roundup/iphone-fold/"
+  url: https://www.macrumors.com/roundup/iphone-fold/
 - title: MacRumors — iPhone 18 roundup
 - title: MacRumors — iPhone 18 Pro colors (Fold colors)
 - title: AppleInsider — iPhone 18 expectations
 image: images/posts/iphone-fold-iphone-ultra-la-gi.webp
-image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:42+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
@@ -33,10 +35,10 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-1092670/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-1092670/
 series: iphone-18-co-gi-moi
 series_order: 5
 series_title: iPhone 18 có gì mới

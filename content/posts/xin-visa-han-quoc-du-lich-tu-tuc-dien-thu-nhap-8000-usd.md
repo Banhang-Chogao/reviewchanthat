@@ -24,37 +24,39 @@ attribution:
     KVAC (visaforkorea-vt.com). Đây là bài hướng dẫn chuẩn bị hồ sơ, không phải dịch
     vụ visa và không cam kết kết quả.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-09 04:00:00+07:00'
-description: "Hướng dẫn chi tiết cách chuẩn bị hồ sơ xin visa Hàn Quốc du lịch tự túc từ Việt Nam theo diện thu nhập hàng năm trên 8.000 USD, dựa trên nguồn chính thức của Bộ Ngoại giao/Đại sứ quán Hàn Quốc và KVAC."
+description: Hướng dẫn chi tiết cách chuẩn bị hồ sơ xin visa Hàn Quốc du lịch tự túc
+  từ Việt Nam theo diện thu nhập hàng năm trên 8.000 USD, dựa trên nguồn chính thức
+  của Bộ Ngoại giao/Đại sứ quán Hàn Quốc và KVAC.
 draft: false
 external_links:
 - title: Đại sứ quán Hàn Quốc tại Việt Nam — Thông báo mở rộng đối tượng miễn chứng
     minh tài chính và xét thị thực nhiều lần
-  url: "https://overseas.mofa.go.kr/vn-vi/brd/m_2164/view.do?seq=755003"
+  url: https://overseas.mofa.go.kr/vn-vi/brd/m_2164/view.do?seq=755003
 - title: Korea Visa Application Center (KVAC) — Trung tâm tiếp nhận hồ sơ visa Hàn
     Quốc tại Việt Nam
 image: images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp
 image_alt: 'Ảnh minh họa Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm:
   hồ sơ, điều kiện và cách chuẩn bị — nguồn Pexels'
-image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:52+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_color_score: 12.0
 image_commercial_use: true
 image_creator: Saksham Vikram
 image_creator_id: '2148641748'
-image_creator_url: "https://www.pexels.com/@saksham-vikram-2148641748"
+image_creator_url: https://www.pexels.com/@saksham-vikram-2148641748
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_query: bukchon hanok village korea
 image_semantic_score: 29.02
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/traditional-hanok-village-street-in-seoul-33019244/"
+image_source_url: https://www.pexels.com/photo/traditional-hanok-village-street-in-seoul-33019244/
 image_status: verified
 image_total_score: 64.52
 slug: xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd

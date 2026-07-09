@@ -13,31 +13,32 @@ ai_summary:
     mua ngay hay trì hoãn.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 15:00:00+07:00'
-description: "iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản phẩm — nên mua iPhone 17 ngay hay chờ Pro/Fold 2026 cho người dùng Việt Nam."
+description: 'iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản phẩm — nên mua
+  iPhone 17 ngay hay chờ Pro/Fold 2026 cho người dùng Việt Nam.'
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 roundup
-  url: "https://www.macrumors.com/roundup/iphone-18/"
+  url: https://www.macrumors.com/roundup/iphone-18/
 - title: MacRumors — iPhone 18 Pro roundup
 - title: AppleInsider — iPhone 18 expectations
 - title: MacRumors — leaker downgrade iPhone 18
 image: images/posts/iphone-18-vs-iphone-17.webp
-image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:44+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Osama Saad
 image_creator_id: '257685'
-image_creator_url: "https://www.pexels.com/@osama-saad-257685"
+image_creator_url: https://www.pexels.com/@osama-saad-257685
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-788880/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-788880/
 series: iphone-18-co-gi-moi
 series_order: 10
 series_title: iPhone 18 có gì mới

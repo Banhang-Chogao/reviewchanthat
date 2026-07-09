@@ -10,14 +10,15 @@ ai_summary:
   - Cả hai đều hỗ trợ Apple Intelligence — không phải lý do bắt buộc đổi.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 13:20:00+07:00'
-description: "So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn hình, Camera Control, pin, màu titan và gợi ý nên mua hoặc lên đời."
+description: 'So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn hình, Camera
+  Control, pin, màu titan và gợi ý nên mua hoặc lên đời.'
 draft: false
 image: images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp
-image_attribution_checked_at: '2026-07-09T15:38:01+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:21+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
@@ -26,10 +27,10 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/sylt-2024-27195697/"
+image_source_url: https://www.pexels.com/photo/sylt-2024-27195697/
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 8
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'

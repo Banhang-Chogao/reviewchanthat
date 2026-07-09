@@ -10,14 +10,17 @@ ai_summary:
   - Đông khách vào cuối tuần — nên đi ngày thường nếu muốn ít xếp hàng.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://en.trippose.com/tour/daemyung-vivaldi-park-ski-world, https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110591."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://en.trippose.com/tour/daemyung-vivaldi-park-ski-world,
+    https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=110591.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 09:50:00+07:00"
-description: "Vivaldi Park Ski World Hongcheon: day trip trượt tuyết từ Seoul, giờ hoạt động, giá vé, ski lesson, shuttle bus và những lưu ý thực tế cho người mới."
+date: '2026-07-08 09:50:00+07:00'
+description: 'Vivaldi Park Ski World Hongcheon: day trip trượt tuyết từ Seoul, giờ
+  hoạt động, giá vé, ski lesson, shuttle bus và những lưu ý thực tế cho người mới.'
 draft: false
 faq:
 - answer: Được. Resort có shuttle bus từ Seoul (khu vực Hongdae, Myeongdong) và thời
@@ -32,18 +35,18 @@ faq:
 - answer: Ngày thường (thứ 2–5) ít đông hơn, giá vé thường rẻ hơn. Cuối tuần rất đông,
     đặc biệt là khu vực thuê đồ và lesson.
 image: images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp
-image_attribution_checked_at: '2026-07-09T15:38:05+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:34+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Stanislav Kondratiev
 image_creator_id: '1497515'
-image_creator_url: "https://www.pexels.com/@technobulka"
+image_creator_url: https://www.pexels.com/@technobulka
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/snow-cannons-preparing-the-ski-slope-19777497/"
+image_source_url: https://www.pexels.com/photo/snow-cannons-preparing-the-ski-slope-19777497/
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
 - ref: posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md

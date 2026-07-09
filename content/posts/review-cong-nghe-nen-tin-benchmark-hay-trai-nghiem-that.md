@@ -16,16 +16,17 @@ attribution:
   source_note: Bài viết tham khảo từ các trang đánh giá công nghệ uy tín và trải nghiệm
     cá nhân của người dùng.
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
 - cong-nghe
-date: "2026-06-18 10:00:00+07:00"
-description: "Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ."
+date: '2026-06-18 10:00:00+07:00'
+description: Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải
+  thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ.
 draft: false
 external_links:
 - title: AnandTech - Understanding Benchmarks
-  url: "https://www.anandtech.com/bench/CPU/4"
+  url: https://www.anandtech.com/bench/CPU/4
 - title: GSMArena - Real-world Battery Test
 faq:
 - answer: Không. Benchmark hữu ích để so sánh tương đối giữa các sản phẩm cùng phân
@@ -34,18 +35,18 @@ faq:
 - answer: Kết hợp cả benchmark (so sánh thông số) và review trải nghiệm thực tế từ
     nhiều nguồn khác nhau. Ưu tiên review dài hạn sau 1-3 tháng sử dụng.
 image: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:30+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: AlphaTradeZone
 image_creator_id: '3882745'
-image_creator_url: "https://www.pexels.com/@alphatradezone"
+image_creator_url: https://www.pexels.com/@alphatradezone
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/fingers-on-ipad-with-graph-on-screen-5833772/"
+image_source_url: https://www.pexels.com/photo/fingers-on-ipad-with-graph-on-screen-5833772/
 slug: review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that
 tags:
 - benchmark

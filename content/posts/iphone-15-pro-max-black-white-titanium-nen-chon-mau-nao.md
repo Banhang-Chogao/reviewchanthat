@@ -9,25 +9,26 @@ ai_summary:
   - Chọn theo thói quen ốp lưng và màu phụ kiện bạn đang dùng.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 12:00:00+07:00'
-description: "So sánh Black Titanium và White Titanium trên iPhone 15 Pro Max: độ bều màu, vết trầy, giá máy cũ và gợi ý chọn theo nhu cầu năm 2026."
+description: 'So sánh Black Titanium và White Titanium trên iPhone 15 Pro Max: độ
+  bều màu, vết trầy, giá máy cũ và gợi ý chọn theo nhu cầu năm 2026.'
 draft: false
 image: images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp
-image_attribution_checked_at: '2026-07-09T15:38:01+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:20+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Imad Clicks
 image_creator_id: '2304239'
-image_creator_url: "https://www.pexels.com/@imadclicks"
+image_creator_url: https://www.pexels.com/@imadclicks
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/elegant-smartphone-beside-potted-plants-on-desk-30466740/"
+image_source_url: https://www.pexels.com/photo/elegant-smartphone-beside-potted-plants-on-desk-30466740/
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 4
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'

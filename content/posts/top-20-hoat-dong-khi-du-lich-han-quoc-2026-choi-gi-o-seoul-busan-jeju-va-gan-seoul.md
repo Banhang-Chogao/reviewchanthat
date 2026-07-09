@@ -19,15 +19,17 @@ attribution:
     https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>,
     và các nguồn khác.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 07:00:00+07:00"
-description: "Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, chợ địa phương, musical, jjimjilbang, ngắm bình minh Jeju, K-beauty, day trip Suwon, Incheon và Yongin. Kèm lịch trình mẫu 3-10 ngày."
+date: '2026-07-08 07:00:00+07:00'
+description: 'Top 20 hoạt động du lịch Hàn Quốc 2026: thuê Hanbok, chợ địa phương,
+  musical, jjimjilbang, ngắm bình minh Jeju, K-beauty, day trip Suwon, Incheon và
+  Yongin. Kèm lịch trình mẫu 3-10 ngày.'
 draft: false
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>"
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>
 - title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
 - title: https://english.visitkorea.or.kr/
 - title: https://english.visitseoul.net/
@@ -63,18 +65,18 @@ faq:
     (tháng 12–2) rất lạnh, thích hợp cho jjimjilbang và trải nghiệm văn hóa trong
     nhà.
 image: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:31+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Tuấn Kiệt Jr.
 image_creator_id: '312601'
-image_creator_url: "https://www.pexels.com/@soldiervip"
+image_creator_url: https://www.pexels.com/@soldiervip
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/woman-holding-celebratory-floral-bouquet-indoors-29015820/"
+image_source_url: https://www.pexels.com/photo/woman-holding-celebratory-floral-bouquet-indoors-29015820/
 internal_links:
 - ref: posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md
 - ref: posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md

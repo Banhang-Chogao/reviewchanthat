@@ -13,11 +13,12 @@ attribution:
     du lịch uy tín.
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.kma.go.kr, https://www.visitjeju.net.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: "Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch trình dự phòng indoor cho chuyến đi không lo mưa."
+date: '2026-07-08 10:00:00+07:00'
+description: Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch
+  trình dự phòng indoor cho chuyến đi không lo mưa.
 draft: false
 faq:
 - answer: Tháng 7 mưa 12–15 ngày, tháng 8 mưa 8–10 ngày. Mưa rào ngắn 1–3 tiếng.
@@ -27,18 +28,18 @@ faq:
 - answer: Xếp điểm ngoài trời vào sáng sớm, điểm indoor vào chiều. Theo dõi dự báo
     trên app.
 image: images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp
-image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:13+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: nana liu
 image_creator_id: '2527431'
-image_creator_url: "https://www.pexels.com/@nana-llj"
+image_creator_url: https://www.pexels.com/@nana-llj
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/scenic-rocky-coastline-in-jeju-island-korea-34350262/"
+image_source_url: https://www.pexels.com/photo/scenic-rocky-coastline-in-jeju-island-korea-34350262/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
 - ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md

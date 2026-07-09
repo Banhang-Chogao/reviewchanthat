@@ -2,79 +2,142 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Chuẩn bị vali đi Hàn Quốc mùa hè cần chú trọng quần áo thoáng mát, đồ chống nắng và áo mưa gấp gọn.", "Nên mang 5–7 bộ quần áo, giày thể thao + dép, túi chống nước và kem chống nắng SPF 50+.", "Checklist chi tiết theo danh mục giúp bạn không quên món đồ quan trọng nào."]
-  title: "Tóm tắt bài viết"
+  items:
+  - Chuẩn bị vali đi Hàn Quốc mùa hè cần chú trọng quần áo thoáng mát, đồ chống nắng
+    và áo mưa gấp gọn.
+  - Nên mang 5–7 bộ quần áo, giày thể thao + dép, túi chống nước và kem chống nắng
+    SPF 50+.
+  - Checklist chi tiết theo danh mục giúp bạn không quên món đồ quan trọng nào.
+  title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tổng hợp từ kinh nghiệm thực tế và tham khảo từ https://english.visitkorea.or.kr."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: Bài viết tổng hợp từ kinh nghiệm thực tế và tham khảo từ https://english.visitkorea.or.kr.
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - du-lich
+- du-lich
 checklist:
-  - {"items": ["Hộ chiếu (còn hạn 6 tháng)", "Visa Hàn Quốc (nếu cần)", "KVE (K-ETA) bản in / ảnh chụp", "Bảo hiểm du lịch", "Đặt phòng, vé máy bay (bản mềm)"], "title": "Giấy tờ"}
-  - {"items": ["Áo thun cotton/lanh (5–7 cái)", "Quần short / chân váy (3–4 cái)", "Đầm maxi (2 cái — đi biển, đi chơi tối)", "Áo khoác mỏng / áo chống nắng", "Đồ bơi (nếu đi biển, công viên nước)", "Áo mưa gấp gọn (bắt buộc)"], "title": "Quần áo"}
-  - {"items": ["Giày thể thao thoáng khí", "Dép quai hậu / sandal"], "title": "Giày dép"}
-  - {"items": ["Kem chống nắng SPF 50+", "Sữa rửa mặt, dưỡng ẩm", "Lăn khử mùi", "Khăn giấy ướt", "Băng vệ sinh (nếu cần)"], "title": "Mỹ phẩm & vệ sinh"}
-  - {"items": ["Sạc dự phòng (10.000 mAh+)", "Cáp sạc (nhiều loại)", "Adapter chuyển đổi (Hàn dùng 2 chấu tròn)", "Tai nghe", "Máy ảnh (nếu có)"], "title": "Đồ điện tử"}
-  - {"items": ["Thuốc cảm, đau bụng", "Băng cá nhân", "Thuốc chống muỗi", "Men tiêu hóa"], "title": "Thuốc & y tế"}
-  - {"items": ["Túi chống nước (cho điện thoại)", "Mũ rộng vành", "Kính râm", "Túi đựng đồ ướt", "Gối cổ (máy bay)"], "title": "Khác"}
-date: "2026-07-08 10:00:00+07:00"
-description: "Checklist vali đi Hàn Quốc mùa hè: mặc gì, mang gì? Danh sách đồ cần mang theo — quần áo, mỹ phẩm, thuốc, giấy tờ và đồ điện tử."
+- items:
+  - Hộ chiếu (còn hạn 6 tháng)
+  - Visa Hàn Quốc (nếu cần)
+  - KVE (K-ETA) bản in / ảnh chụp
+  - Bảo hiểm du lịch
+  - Đặt phòng, vé máy bay (bản mềm)
+  title: Giấy tờ
+- items:
+  - Áo thun cotton/lanh (5–7 cái)
+  - Quần short / chân váy (3–4 cái)
+  - Đầm maxi (2 cái — đi biển, đi chơi tối)
+  - Áo khoác mỏng / áo chống nắng
+  - Đồ bơi (nếu đi biển, công viên nước)
+  - Áo mưa gấp gọn (bắt buộc)
+  title: Quần áo
+- items:
+  - Giày thể thao thoáng khí
+  - Dép quai hậu / sandal
+  title: Giày dép
+- items:
+  - Kem chống nắng SPF 50+
+  - Sữa rửa mặt, dưỡng ẩm
+  - Lăn khử mùi
+  - Khăn giấy ướt
+  - Băng vệ sinh (nếu cần)
+  title: Mỹ phẩm & vệ sinh
+- items:
+  - Sạc dự phòng (10.000 mAh+)
+  - Cáp sạc (nhiều loại)
+  - Adapter chuyển đổi (Hàn dùng 2 chấu tròn)
+  - Tai nghe
+  - Máy ảnh (nếu có)
+  title: Đồ điện tử
+- items:
+  - Thuốc cảm, đau bụng
+  - Băng cá nhân
+  - Thuốc chống muỗi
+  - Men tiêu hóa
+  title: Thuốc & y tế
+- items:
+  - Túi chống nước (cho điện thoại)
+  - Mũ rộng vành
+  - Kính râm
+  - Túi đựng đồ ướt
+  - Gối cổ (máy bay)
+  title: Khác
+date: '2026-07-08 10:00:00+07:00'
+description: 'Checklist vali đi Hàn Quốc mùa hè: mặc gì, mang gì? Danh sách đồ cần
+  mang theo — quần áo, mỹ phẩm, thuốc, giấy tờ và đồ điện tử.'
 draft: false
 faq:
-  - {"answer": "Vải cotton, lanh, modal — thoáng mát, thấm hút mồ hôi. Áo thun, váy, quần short.", "question": "Mặc gì cho mát?"}
-  - {"answer": "Kem chống nắng SPF 50+, mũ rộng vành, kính râm, áo chống nắng.", "question": "Cần đồ chống nắng gì?"}
-  - {"answer": "5–7 bộ quần áo, 2 đôi giày, 1 đôi dép, đồ vệ sinh cá nhân, túi chống nước.", "question": "Vali 7kg có đủ không?"}
+- answer: Vải cotton, lanh, modal — thoáng mát, thấm hút mồ hôi. Áo thun, váy, quần
+    short.
+  question: Mặc gì cho mát?
+- answer: Kem chống nắng SPF 50+, mũ rộng vành, kính râm, áo chống nắng.
+  question: Cần đồ chống nắng gì?
+- answer: 5–7 bộ quần áo, 2 đôi giày, 1 đôi dép, đồ vệ sinh cá nhân, túi chống nước.
+  question: Vali 7kg có đủ không?
 image: images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp
-image_attribution_checked_at: >-
-  2026-07-09T15:37:58+07:00
+image_attribution_checked_at: '2026-07-10T04:52:11+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Mizuno K
-image_creator_id: 264153375
-image_creator_url: >-
+image_creator_id: '264153375'
+image_creator_url: https://www.pexels.com/@mizunokozuki
 image_license: Pexels License
-image_license_url: >-
+image_license_url: ''
 image_owner: external
 image_source: Pexels
-image_source_url: >-
+image_source_url: https://www.pexels.com/photo/girls-looking-through-clothes-in-a-suitcase-13929267/
 internal_links:
-  - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
-  - {"ref": "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md", "title": "Đi Hàn mùa hè mặc gì cho đẹp?"}
-  - {"ref": "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md", "title": "Hàn Quốc tháng 7"}
-  - {"ref": "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md", "title": "Hàn Quốc tháng 8"}
-  - {"ref": "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md", "title": "Seoul ngày mưa"}
-  - {"ref": "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md", "title": "Busan mùa hè"}
-  - {"ref": "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md", "title": "Jeju mùa hè"}
-  - {"ref": "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md", "title": "Caribbean Bay"}
-  - {"ref": "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md", "title": "Lịch trình Seoul 3 ngày"}
-  - {"ref": "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md", "title": "Top 20 hoạt động"}
-  - {"ref": "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md", "title": "10 điểm tránh nóng"}
-  - {"ref": "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md", "title": "Đi Jeju tháng 7-8"}
+- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
+  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
+- ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
+  title: Đi Hàn mùa hè mặc gì cho đẹp?
+- ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
+  title: Hàn Quốc tháng 7
+- ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
+  title: Hàn Quốc tháng 8
+- ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
+  title: Seoul ngày mưa
+- ref: posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md
+  title: Busan mùa hè
+- ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md
+  title: Jeju mùa hè
+- ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md
+  title: Caribbean Bay
+- ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
+  title: Lịch trình Seoul 3 ngày
+- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
+  title: Top 20 hoạt động
+- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
+  title: 10 điểm tránh nóng
+- ref: posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md
+  title: Đi Jeju tháng 7-8
+seo_title: 'Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ'
 series: du-lich-han-quoc-mua-he
 series_order: 12
 series_title: Du lịch Hàn Quốc mùa hè
 slug: checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua
 tags:
-  - checklist
-  - vali đi Hàn Quốc
-  - du lịch Hàn Quốc
-  - mùa hè Hàn Quốc
-  - series du lịch
+- checklist
+- vali đi Hàn Quốc
+- du lịch Hàn Quốc
+- mùa hè Hàn Quốc
+- series du lịch
 thumbnail: images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp
-title: >-
-  Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa
+title: 'Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa'
 tom_tat_nhanh:
-  - {"label": "Thời gian", "value": "5–7 ngày"}
-  - {"label": "Loại vali", "value": "Cabin 7kg hoặc ký gửi 20kg"}
-  - {"label": "Đồ chính", "value": "5–7 bộ quần áo"}
-  - {"label": "Giày", "value": "1 giày + 1 dép"}
-  - {"label": "Mẹo", "value": "Gấp gọn, dùng túi hút chân không"}
-seo_title: >-
-  Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ
+- label: Thời gian
+  value: 5–7 ngày
+- label: Loại vali
+  value: Cabin 7kg hoặc ký gửi 20kg
+- label: Đồ chính
+  value: 5–7 bộ quần áo
+- label: Giày
+  value: 1 giày + 1 dép
+- label: Mẹo
+  value: Gấp gọn, dùng túi hút chân không
 ---
 
 Chuẩn bị vali cho chuyến đi Hàn Quốc mùa hè không khó — chỉ cần biết mang gì và bỏ gì. Bài viết này là checklist đầy đủ giúp bạn không quên thứ gì.

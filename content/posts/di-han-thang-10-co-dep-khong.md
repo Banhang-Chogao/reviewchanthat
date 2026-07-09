@@ -17,31 +17,32 @@ attribution:
   source_note: 'Tham khảo: https://english.visitkorea.or.kr, https://www.kma.go.kr,
     https://www.koreatodo.com'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 06:00:00+07:00"
-description: "Đi Hàn tháng 10 có đẹp không? Thời tiết mùa thu, lá đỏ, mặc gì, lịch trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt."
+date: '2026-07-08 06:00:00+07:00'
+description: Đi Hàn tháng 10 có đẹp không? Thời tiết mùa thu, lá đỏ, mặc gì, lịch
+  trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt.
 draft: false
 external_links:
 - title: Visit Korea — 2025 Fall Foliage Forecast
-  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
 - title: KoreaToDo — Top Autumn Foliage Sites
 - title: Visit Korea — Seoul's Top 5 Fall Forests
 - title: Korea Meteorological Administration
 image: images/posts/di-han-thang-10-co-dep-khong.webp
-image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:44+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
 image_creator_id: '222549'
-image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-2131627/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-2131627/
 series: di-han-thang-10
 series_order: 1
 series_title: Đi Hàn tháng 10

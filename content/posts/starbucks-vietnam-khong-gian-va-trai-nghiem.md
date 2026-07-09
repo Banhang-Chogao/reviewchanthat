@@ -15,28 +15,29 @@ attribution:
   copyright: © 2026 Review Chân Thật. Trải nghiệm cá nhân tại nhiều chi nhánh TP.HCM.
   source_note: Tiện ích (Wi-Fi, ổ cắm) có thể khác từng chi nhánh và thời điểm.
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
-date: "2026-07-08 11:00:00+07:00"
-description: "Không gian Starbucks Vietnam — thiết kế, chỗ ngồi làm việc, Wi-Fi, ổ cắm. Review trải nghiệm tại chi nhánh Nguyễn Văn Trỗi Phú Nhuận."
+date: '2026-07-08 11:00:00+07:00'
+description: Không gian Starbucks Vietnam — thiết kế, chỗ ngồi làm việc, Wi-Fi, ổ
+  cắm. Review trải nghiệm tại chi nhánh Nguyễn Văn Trỗi Phú Nhuận.
 draft: false
 external_links:
 - title: Starbucks Stories — Store design
-  url: "https://stories.starbucks.com/stories/design/"
+  url: https://stories.starbucks.com/stories/design/
 image: images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp
-image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:41+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jean van der Meulen
 image_creator_id: '642133'
-image_creator_url: "https://www.pexels.com/@jvdm"
+image_creator_url: https://www.pexels.com/@jvdm
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/people-sitting-inside-room-1457847/"
+image_source_url: https://www.pexels.com/photo/people-sitting-inside-room-1457847/
 series: starbucks-vietnam
 series_order: 5
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'

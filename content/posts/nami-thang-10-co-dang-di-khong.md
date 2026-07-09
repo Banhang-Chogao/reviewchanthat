@@ -16,15 +16,16 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
     https://www.kma.go.kr.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 11:00:00+07:00"
-description: "Nami tháng 10 có đáng đi không? Lá vàng Metasequoia, lịch trình nửa ngày, cách đi ITX từ Seoul và mẹo tránh đông mùa thu."
+date: '2026-07-08 11:00:00+07:00'
+description: Nami tháng 10 có đáng đi không? Lá vàng Metasequoia, lịch trình nửa ngày,
+  cách đi ITX từ Seoul và mẹo tránh đông mùa thu.
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
 - title: KoreaToDo — Nami Island Day Trip
 - title: Nami Island Official
 faq:
@@ -35,18 +36,18 @@ faq:
     bus đến bến ferry.
 - answer: Nửa ngày đến một ngày. Nếu kết hợp Garden of Morning Calm, nên dành cả ngày.
 image: images/posts/nami-thang-10-co-dang-di-khong.webp
-image_attribution_checked_at: '2026-07-09T15:38:09+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:46+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Светлана Конева
 image_creator_id: '269097219'
-image_creator_url: "https://www.pexels.com/@269097219"
+image_creator_url: https://www.pexels.com/@269097219
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-12787324/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-12787324/
 internal_links:
 - ref: posts/di-han-thang-10-co-dep-khong.md
 - ref: posts/thoi-tiet-han-quoc-thang-10.md

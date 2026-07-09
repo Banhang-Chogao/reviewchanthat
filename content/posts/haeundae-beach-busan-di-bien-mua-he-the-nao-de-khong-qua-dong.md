@@ -9,24 +9,28 @@ ai_summary:
   - Kết hợp với Cheongsapo, Gwangalli và Club D Oasis cho chuyến đi Busan trọn vẹn.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX, https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
+    https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 07:00:00+07:00"
-description: "Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue Line Park."
+date: '2026-07-08 07:00:00+07:00'
+description: 'Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm
+  biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue
+  Line Park.'
 draft: false
 external_links:
-- title: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
-  url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
-- title: "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373"
-  url: "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373"
-- title: "https://www.busan.go.kr/eng/beaches/1325815"
-  url: "https://www.busan.go.kr/eng/beaches/1325815"
-- title: "https://www.koreatodo.com/haeundae-beach"
-  url: "https://www.koreatodo.com/haeundae-beach"
+- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
+- title: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373
+  url: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303011001000&uc_seq=373
+- title: https://www.busan.go.kr/eng/beaches/1325815
+  url: https://www.busan.go.kr/eng/beaches/1325815
+- title: https://www.koreatodo.com/haeundae-beach
+  url: https://www.koreatodo.com/haeundae-beach
 faq:
 - answer: Có. Bãi biển công cộng miễn phí. Bạn chỉ trả tiền khi thuê locker, phao,
     đồ thể thao nước.
@@ -35,18 +39,18 @@ faq:
     biển giúp bạn chủ động thời gian tắm và đi bộ dọc bờ biển sáng sớm.
 - answer: Không. Nhiệt độ nước biển tháng 7–8 dao động 22–25°C, rất dễ chịu.
 image: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
-image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:15+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Jhany Blue
 image_creator_id: '436502581'
-image_creator_url: "https://www.pexels.com/@jhany-blue-436502581"
+image_creator_url: https://www.pexels.com/@jhany-blue-436502581
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/aerial-night-view-of-haeundae-beach-busan-29188035/"
+image_source_url: https://www.pexels.com/photo/aerial-night-view-of-haeundae-beach-busan-29188035/
 internal_links:
 - ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
 - ref: posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md

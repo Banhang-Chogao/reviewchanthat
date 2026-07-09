@@ -10,39 +10,42 @@ ai_summary:
   - Gwangmyeong Cave là mỏ vàng cũ cải tạo thành khu tham quan dưới lòng đất.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX,
+    https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 07:00:00+07:00"
-description: "So sánh 5 điểm đi chơi gần Seoul: Incheon Chinatown, Songwol-dong Fairy Tale Village, Wolmido, Gwangmyeong Cave, Caribbean Bay. Lịch trình day trip."
+date: '2026-07-08 07:00:00+07:00'
+description: 'So sánh 5 điểm đi chơi gần Seoul: Incheon Chinatown, Songwol-dong Fairy
+  Tale Village, Wolmido, Gwangmyeong Cave, Caribbean Bay. Lịch trình day trip.'
 draft: false
 external_links:
-- title: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
-  url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
-- title: "https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/"
-  url: "https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/"
-- title: "https://www.gmcave.or.kr/"
-  url: "https://www.gmcave.or.kr/"
-- title: "https://www.incheon.go.kr/"
-  url: "https://www.incheon.go.kr/"
-- title: "https://www.everland.com/"
-  url: "https://www.everland.com/"
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
+- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
+  url: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
+- title: https://www.gmcave.or.kr/
+  url: https://www.gmcave.or.kr/
+- title: https://www.incheon.go.kr/
+  url: https://www.incheon.go.kr/
+- title: https://www.everland.com/
+  url: https://www.everland.com/
 image: images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp
-image_attribution_checked_at: '2026-07-09T15:37:59+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Theodore Nguyen
 image_creator_id: '898884684'
-image_creator_url: "https://www.pexels.com/@thejourneyofframes"
+image_creator_url: https://www.pexels.com/@thejourneyofframes
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/seoul-arex-subway-station-entrance-with-signage-32211611/"
+image_source_url: https://www.pexels.com/photo/seoul-arex-subway-station-entrance-with-signage-32211611/
 series: du-lich
 series_order: 12
 series_title: Du lịch Hàn Quốc 2026

@@ -18,31 +18,33 @@ attribution:
   source_note: Thông tin lịch sử tham khảo Starbucks Stories Asia, báo VnExpress,
     GCR Magazine và Wikipedia.
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
-date: "2026-07-08 14:00:00+07:00"
-description: "Hành trình Starbucks vào Việt Nam từ 2013 — cửa hàng đầu tiên tại Bitexco, đối tác vận hành và cách thương hiệu trở thành điểm hẹn cà phê quen thuộc tại Sài Gòn, Hà Nội."
+date: '2026-07-08 14:00:00+07:00'
+description: Hành trình Starbucks vào Việt Nam từ 2013 — cửa hàng đầu tiên tại Bitexco,
+  đối tác vận hành và cách thương hiệu trở thành điểm hẹn cà phê quen thuộc tại Sài
+  Gòn, Hà Nội.
 draft: false
 external_links:
 - title: Starbucks Stories — Debut flagship store Ho Chi Minh City (2013)
-  url: "https://stories.starbucks.com/asia/stories/2013/starbucks-debuts-iconic-flagship-store-in-ho-chi-minh-city-honoring-vietnam/"
+  url: https://stories.starbucks.com/asia/stories/2013/starbucks-debuts-iconic-flagship-store-in-ho-chi-minh-city-honoring-vietnam/
 - title: Starbucks Stories — Entry into Vietnam market (2013)
 - title: Starbucks Stories — 10 years in Vietnam (2023)
 - title: GCR Magazine — First Starbucks opens in Vietnam
 image: images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp
-image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:39+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Chevanon Photography
 image_creator_id: '93955'
-image_creator_url: "https://www.pexels.com/@chevanon"
+image_creator_url: https://www.pexels.com/@chevanon
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/starbucks-coffee-sign-302899/"
+image_source_url: https://www.pexels.com/photo/starbucks-coffee-sign-302899/
 series: starbucks-vietnam
 series_order: 1
 series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'

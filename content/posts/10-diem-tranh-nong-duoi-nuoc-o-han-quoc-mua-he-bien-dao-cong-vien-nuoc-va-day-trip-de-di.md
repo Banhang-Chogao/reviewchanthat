@@ -24,7 +24,8 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 07:00:00+07:00'
-description: "Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm   đi"
+description: 'Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo
+  Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm   đi'
 draft: false
 external_links:
 - title: https://www.namisum.com/
@@ -35,16 +36,19 @@ faq:
     thức trước khi đi.
   question: Giá vé công viên nước có đắt không?
 image: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
-image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:10+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: rejected_generic
 image_attribution_verified: false
 image_commercial_use: true
+image_creator: ''
+image_creator_id: ''
+image_creator_url: ''
 image_license: Pexels License
 image_license_url: ''
 image_owner: external
 image_source: Pexels
-image_source_url: ''
+image_source_url: https://www.pexels.com/photo/bundle-of-assorted-denomination-euro-banknotes-259234/
 internal_links:
 - ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
   title: Du lịch Hàn Quốc mùa hè nên đi đâu?

@@ -18,11 +18,13 @@ attribution:
   source_note: 'Nguồn tham khảo: https://www.trip.com/toplist/tripbest/south-korea-skiing-spots-10070100042190/,
     https://english.visitkorea.or.kr, website chính thức các resort.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: "So sánh 6 ski resort Hàn Quốc: Vivaldi Park, Elysian Gangchon, Yongpyong, Alpensia, High1 và Oak Valley. Bảng so sánh, gợi ý chọn theo nhu cầu, chi phí và lưu ý thực tế cho người Việt."
+date: '2026-07-08 10:00:00+07:00'
+description: 'So sánh 6 ski resort Hàn Quốc: Vivaldi Park, Elysian Gangchon, Yongpyong,
+  Alpensia, High1 và Oak Valley. Bảng so sánh, gợi ý chọn theo nhu cầu, chi phí và
+  lưu ý thực tế cho người Việt.'
 draft: false
 faq:
 - answer: 'Tùy nhu cầu: Nếu đi trong ngày từ Seoul — Elysian Gangchon hoặc Vivaldi
@@ -46,18 +48,18 @@ faq:
     kính trượt tuyết, mũ len/beanie. Nếu không có, có thể thuê áo trượt tại resort.
     Bảo hiểm du lịch có coverage tai nạn trượt tuyết là rất khuyến khích.
 image: images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:32+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Ditmar Tabacaru
 image_creator_id: '1772573629'
-image_creator_url: "https://www.pexels.com/@ditmar-tabacaru-1772573629"
+image_creator_url: https://www.pexels.com/@ditmar-tabacaru-1772573629
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/scenic-ski-resort-in-parang-mountains-romania-30125664/"
+image_source_url: https://www.pexels.com/photo/scenic-ski-resort-in-parang-mountains-romania-30125664/
 internal_links:
 - ref: posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md
 - ref: posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md

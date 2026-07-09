@@ -16,7 +16,7 @@ attribution:
   source_note: Bài viết dựa trên kinh nghiệm cá nhân và tham khảo từ các tổ chức bảo
     vệ người tiêu dùng.
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - review
 checklist:
@@ -25,12 +25,13 @@ checklist:
 - Tìm chi tiết cụ thể, không tin lời mơ hồ
 - Kiểm tra lịch sử tài khoản người viết
 - Đọc phần bình luận trước khi quyết định
-date: "2026-06-15 10:00:00+07:00"
-description: "Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật, đâu là quảng cáo trá hình."
+date: '2026-06-15 10:00:00+07:00'
+description: Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật,
+  đâu là quảng cáo trá hình.
 draft: false
 external_links:
 - title: FTC - Endorsement Guides
-  url: "https://www.ftc.gov/legal-library/browse/guides/endorsements"
+  url: https://www.ftc.gov/legal-library/browse/guides/endorsements
 - title: Consumer Reports - How to Spot Fake Reviews
 faq:
 - answer: 'Kiểm tra động cơ người viết: họ có link affiliate không? Họ có được tài
@@ -40,18 +41,18 @@ faq:
     review từ người dùng thật trên các diễn đàn như Reddit, Tinhte, hoặc các nhóm
     Facebook chất lượng.
 image: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
-image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Ron Lach
 image_creator_id: '22992178'
-image_creator_url: "https://www.pexels.com/@ron-lach"
+image_creator_url: https://www.pexels.com/@ron-lach
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/"
+image_source_url: https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/
 slug: cach-doc-mot-bai-review-de-khong-bi-dat-mui
 tags:
 - kỹ năng đọc review

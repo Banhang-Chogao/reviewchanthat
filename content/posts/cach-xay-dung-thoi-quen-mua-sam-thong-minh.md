@@ -15,16 +15,17 @@ attribution:
   source_note: Bài viết tổng hợp từ trải nghiệm cá nhân và các nguồn tham khảo công
     khai được liệt kê ở trên.
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - doi-song
 - tai-chinh
-date: "2026-06-28 10:00:00+07:00"
-description: "Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu quả hơn."
+date: '2026-06-28 10:00:00+07:00'
+description: Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu
+  quả hơn.
 draft: false
 external_links:
 - title: Consumer Reports - Smart Shopping Tips
-  url: "https://www.consumerreports.org/shopping/"
+  url: https://www.consumerreports.org/shopping/
 - title: Investopedia - Personal Finance Guide
 faq:
 - answer: Bắt đầu bằng cách lập danh sách mua sắm trước mỗi lần đi chợ hoặc mua online,
@@ -36,18 +37,18 @@ faq:
 - answer: 'Một số app phổ biến: Money Lover, Spendee, Sổ Thu Chi. Quan trọng nhất
     là bạn duy trì thói quen ghi chép mỗi ngày.'
 image: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
-image_attribution_checked_at: '2026-07-09T15:37:57+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Thanh Long Bùi
 image_creator_id: '483143920'
-image_creator_url: "https://www.pexels.com/@thanh-long-bui-483143920"
+image_creator_url: https://www.pexels.com/@thanh-long-bui-483143920
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/female-pickleball-player-in-action-at-h-i-phong-29665449/"
+image_source_url: https://www.pexels.com/photo/female-pickleball-player-in-action-at-h-i-phong-29665449/
 slug: cach-xay-dung-thoi-quen-mua-sam-thong-minh
 tags:
 - mua sắm thông minh

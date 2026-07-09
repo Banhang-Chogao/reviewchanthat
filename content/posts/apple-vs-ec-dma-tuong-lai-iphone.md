@@ -2,57 +2,73 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Cuộc đối đầu Apple–EC quanh DMA định hình iPhone EU thành “hai tốc độ” — mở hơn ở 27 nước EU, khép kín ở Việt Nam và phần lớn thế giới; Apple giữ kiểm soát qua CTF, Notarization và UX.", "Tương lai iPhone phụ thuộc kháng cáo Apple, enforcement DMA tiếp theo và áp lực luật tương tự từ UK, Nhật, Hàn — không có kịch bản “App Store sụp đổ” ngắn hạn.", "Người dùng EU đổi complexity lấy choice; developer lớn được leverage; EC có tiền lệ pháp lý nhưng chưa chứng minh thị trường đổi mới đại trà.", "Người dùng Việt Nam nên theo dõi series như bài học quản trị nền tảng — iPhone tại VN ít thay đổi trực tiếp nhưng chiến lược Apple toàn cầu có thể ảnh hưởng giá dịch vụ và tính năng rollout."]
-  title: "Tóm tắt bài viết"
+  items:
+  - Cuộc đối đầu Apple–EC quanh DMA định hình iPhone EU thành “hai tốc độ” — mở hơn
+    ở 27 nước EU, khép kín ở Việt Nam và phần lớn thế giới; Apple giữ kiểm soát qua
+    CTF, Notarization và UX.
+  - Tương lai iPhone phụ thuộc kháng cáo Apple, enforcement DMA tiếp theo và áp lực
+    luật tương tự từ UK, Nhật, Hàn — không có kịch bản “App Store sụp đổ” ngắn hạn.
+  - Người dùng EU đổi complexity lấy choice; developer lớn được leverage; EC có tiền
+    lệ pháp lý nhưng chưa chứng minh thị trường đổi mới đại trà.
+  - Người dùng Việt Nam nên theo dõi series như bài học quản trị nền tảng — iPhone
+    tại VN ít thay đổi trực tiếp nhưng chiến lược Apple toàn cầu có thể ảnh hưởng
+    giá dịch vụ và tính năng rollout.
+  title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - cong-nghe
-date: "2026-07-08 11:20:00+07:00"
-description: "Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người"
+- cong-nghe
+date: '2026-07-08 11:20:00+07:00'
+description: 'Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple
+  phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người'
 draft: false
 external_links:
-  - {"title": "Reuters — EU court rejects Apple's challenge (8/7/2026)", "url": "https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/"}
-  - {"title": "EC — Apple và Meta vi phạm DMA (23/4/2025)", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act"}
-  - {"title": "CNBC — Apple kháng cáo phạt €500M (7/2025)", "url": "https://www.cnbc.com/2025/07/07/apple-appeal-eu-fine-app-store.html"}
-  - {"title": "Apple Newsroom — Tác động DMA lên người dùng EU", "url": "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/"}
-  - {"title": "Digital Markets Act — Trang chính thức EC", "url": "https://digital-markets-act.ec.europa.eu/"}
+- title: Reuters — EU court rejects Apple's challenge (8/7/2026)
+  url: https://www.reuters.com/world/eu-court-rejects-apples-challenge-against-eu-rules-reining-big-tech-2026-07-08/
+- title: EC — Apple và Meta vi phạm DMA (23/4/2025)
+  url: https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act
+- title: CNBC — Apple kháng cáo phạt €500M (7/2025)
+  url: https://www.cnbc.com/2025/07/07/apple-appeal-eu-fine-app-store.html
+- title: Apple Newsroom — Tác động DMA lên người dùng EU
+  url: https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/
+- title: Digital Markets Act — Trang chính thức EC
+  url: https://digital-markets-act.ec.europa.eu/
 image: images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp
-image_attribution_checked_at: >-
-  2026-07-09T15:38:07+07:00
+image_attribution_checked_at: '2026-07-10T04:52:39+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
 image_commercial_use: true
-image_creator: 
-image_creator_id: 
-image_creator_url: 
+image_creator: ''
+image_creator_id: ''
+image_creator_url: ''
 image_license: Pexels License
-image_license_url: >-
+image_license_url: ''
 image_owner: external
 image_source: Pexels
-image_source_url: >-
+image_source_url: https://www.pexels.com/photo/silver-iphone-6-on-book-699122/
 series: apple-ec-dma-app-store-ios
 series_order: 8
-series_title: >-
-  Apple vs EC: App Store, iOS và Digital Markets Act
+series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
 slug: apple-vs-ec-dma-tuong-lai-iphone
 tags:
-  - Apple
-  - European Commission
-  - DMA
-  - iPhone
-  - App Store
-  - tương lai iOS
+- Apple
+- European Commission
+- DMA
+- iPhone
+- App Store
+- tương lai iOS
 thumbnail: images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp
-title: >-
-  Apple vs EC, DMA và tương lai iPhone: kết luận series
+title: 'Apple vs EC, DMA và tương lai iPhone: kết luận series'
 tom_tat_nhanh:
-  - {"label": "Chủ đề", "value": "Tổng kết series Apple vs EC và hướng iPhone"}
-  - {"label": "Hiện trạng", "value": "iOS hai tốc độ — EU mở, còn lại khép kín"}
-  - {"label": "Kịch bản", "value": "Kháng cáo, enforcement tiếp, luật tương tự nơi khác"}
-  - {"label": "Hợp với", "value": "Ai đọc cả series hoặc cần bức tranh tổng thể nhanh"}
+- label: Chủ đề
+  value: Tổng kết series Apple vs EC và hướng iPhone
+- label: Hiện trạng
+  value: iOS hai tốc độ — EU mở, còn lại khép kín
+- label: Kịch bản
+  value: Kháng cáo, enforcement tiếp, luật tương tự nơi khác
+- label: Hợp với
+  value: Ai đọc cả series hoặc cần bức tranh tổng thể nhanh
 ---
 
 Hai năm rưỡi sau khi Apple được chỉ định **gatekeeper** theo Digital Markets Act (DMA), iPhone ở châu Âu **không giống** iPhone ở Việt Nam. Cùng một logo táo khuyết, nhưng người dùng Berlin có thể thấy **browser choice screen**, **marketplace thay thế** và **cảnh báo thanh toán ngoài App Store** — còn người dùng Hà Nội vẫn **một cửa App Store, một Apple ID, một quy trình hoàn tiền quen thuộc**.

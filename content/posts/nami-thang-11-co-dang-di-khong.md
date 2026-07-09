@@ -13,36 +13,39 @@ ai_summary:
     đổi theo mùa.'
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.kma.go.kr."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
+    https://www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.kma.go.kr.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 19:30:00+07:00"
-description: "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình nửa ngày, cách đi ITX từ Seoul và mẹo chọn tuần đi khi thời tiết lạnh hơn tháng 10."
+date: '2026-07-08 19:30:00+07:00'
+description: Nami tháng 11 có đáng đi không? Lá rụng, lịch trình nửa ngày, cách đi
+  ITX từ Seoul và mẹo chọn tuần đi khi thời tiết lạnh hơn tháng 10.
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
-- title: "Korea Meteorological Administration"
-  url: ""
-- title: "KoreaToDo — Nami Island Day Trip"
-  url: ""
-- title: "Nami Island Official"
-  url: ""
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+- title: Korea Meteorological Administration
+  url: ''
+- title: KoreaToDo — Nami Island Day Trip
+  url: ''
+- title: Nami Island Official
+  url: ''
 image: images/posts/nami-thang-11-co-dang-di-khong.webp
-image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:49+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Светлана Конева
 image_creator_id: '269097219'
-image_creator_url: "https://www.pexels.com/@269097219"
+image_creator_url: https://www.pexels.com/@269097219
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-12787316/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-12787316/
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
 - ref: posts/thoi-tiet-han-quoc-thang-11.md
@@ -67,14 +70,14 @@ title: Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách
 tom_tat_nhanh:
 - label: Thời gian từ Seoul
   value: ~1–1,5 giờ (ITX)
-- label: "Tuần lý tưởng"
-  value: ""
-- label: "Thời gian trên đảo"
-  value: ""
-- label: "Nhiệt độ (tham khảo)"
-  value: ""
-- label: "Lưu ý"
-  value: ""
+- label: Tuần lý tưởng
+  value: ''
+- label: Thời gian trên đảo
+  value: ''
+- label: Nhiệt độ (tham khảo)
+  value: ''
+- label: Lưu ý
+  value: ''
 ---
 
 Nami Island (đảo Nami) quanh năm là day trip phổ biến từ Seoul, nhưng **tháng 11** đòi hỏi bạn điều chỉnh kỳ vọng so với tháng 10. Trong khi Seoul và nhiều cung điện thường đạt **peak lá đỏ** vào đầu–giữa tháng 11, Nami — nằm ở Gapyeong với độ cao thấp hơn vùng núi phía bắc — có thể **đã qua đỉnh màu** nếu bạn đi cuối tháng. Visit Korea liệt kê Nami trong nhóm [điểm ngắm lá đỏ nổi tiếng ngoài Seoul](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), nhưng ngày cụ thể **thay đổi theo từng năm**.

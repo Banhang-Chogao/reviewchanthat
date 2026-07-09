@@ -13,14 +13,15 @@ ai_summary:
     hoặc đổi máy.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: "2026-07-08 08:20:00+07:00"
-description: "Danh sách iPhone tương thích iOS 27 theo Apple, phân tích Apple Intelligence, iPhone cũ và lộ trình cho người dùng Việt Nam."
+date: '2026-07-08 08:20:00+07:00'
+description: Danh sách iPhone tương thích iOS 27 theo Apple, phân tích Apple Intelligence,
+  iPhone cũ và lộ trình cho người dùng Việt Nam.
 draft: false
 image: images/posts/ios-27-ho-tro-iphone-nao.webp
-image_attribution_checked_at: '2026-07-09T15:38:01+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:18+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
@@ -29,10 +30,10 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/apple-smartphone-iphone-14-on-the-palmrest-of-macbook-pro-laptop-18311094/"
+image_source_url: https://www.pexels.com/photo/apple-smartphone-iphone-14-on-the-palmrest-of-macbook-pro-laptop-18311094/
 series: ios-27-co-gi-moi
 series_order: 2
 series_title: iOS 27 có gì mới

@@ -16,11 +16,13 @@ attribution:
     du lịch uy tín.
   source_note: 'Nguồn tham khảo: https://www.yongpyong.co.kr/eng/index.do, https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111329'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 09:30:00+07:00"
-description: "Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên thực tế."
+date: '2026-07-08 09:30:00+07:00'
+description: Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa
+  điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên
+  thực tế.
 draft: false
 faq:
 - answer: Khoảng 180 km, di chuyển bằng ô tô hoặc bus mất khoảng 3 giờ. Có thể đi
@@ -37,18 +39,18 @@ faq:
     resort trượt tuyết chính của Olympic 2018. Alpensia nghiêng về nghỉ dưỡng tổng
     hợp hơn.
 image: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
-image_attribution_checked_at: '2026-07-09T15:38:06+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:35+07:00'
 image_attribution_source: pixabay_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: jarmoluk
 image_creator_id: '143740'
-image_creator_url: "https://pixabay.com/users/jarmoluk-143740/"
+image_creator_url: https://pixabay.com/users/jarmoluk-143740/
 image_license: Pixabay Content License
-image_license_url: "https://pixabay.com/service/license-summary/"
+image_license_url: https://pixabay.com/service/license-summary/
 image_owner: external
 image_source: Pixabay
-image_source_url: "https://pixabay.com/vi/photos/k%C3%ADnh-b%E1%BA%A3o-h%E1%BB%99-m%C3%B9a-%C4%91%C3%B4ng-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-428610/"
+image_source_url: https://pixabay.com/vi/photos/k%C3%ADnh-b%E1%BA%A3o-h%E1%BB%99-m%C3%B9a-%C4%91%C3%B4ng-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-428610/
 internal_links:
 - ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
 - ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md

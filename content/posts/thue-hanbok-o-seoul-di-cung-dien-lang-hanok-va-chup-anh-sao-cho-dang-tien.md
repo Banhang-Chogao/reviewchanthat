@@ -11,37 +11,40 @@ ai_summary:
     phụ kiện.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://www.royalpalace.go.kr/, https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX,
+    https://www.royalpalace.go.kr/, https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 07:00:00+07:00"
-description: "Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok, cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp."
+date: '2026-07-08 07:00:00+07:00'
+description: 'Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok,
+  cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp.'
 draft: false
 external_links:
-- title: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
-  url: "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
-- title: "https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616"
-  url: "https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616"
-- title: "https://www.royalpalace.go.kr/"
-  url: "https://www.royalpalace.go.kr/"
-- title: "https://english.visitseoul.net/"
-  url: "https://english.visitseoul.net/"
+- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
+  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
+- title: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616
+  url: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616
+- title: https://www.royalpalace.go.kr/
+  url: https://www.royalpalace.go.kr/
+- title: https://english.visitseoul.net/
+  url: https://english.visitseoul.net/
 image: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:31+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: alde saputro
 image_creator_id: '293051'
-image_creator_url: "https://www.pexels.com/@alde"
+image_creator_url: https://www.pexels.com/@alde
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/cheerful-woman-standing-against-pagoda-in-cloudy-weather-860090/"
+image_source_url: https://www.pexels.com/photo/cheerful-woman-standing-against-pagoda-in-cloudy-weather-860090/
 series: du-lich
 series_order: 4
 series_title: Du lịch Hàn Quốc 2026

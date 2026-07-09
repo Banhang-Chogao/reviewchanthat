@@ -18,15 +18,16 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
     https://www.kma.go.kr.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 17:30:00+07:00"
-description: "Thời tiết Hàn Quốc tháng 11 — nhiệt độ, mưa, gió và cách chuẩn bị trang phục. Phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo."
+date: '2026-07-08 17:30:00+07:00'
+description: Thời tiết Hàn Quốc tháng 11 — nhiệt độ, mưa, gió và cách chuẩn bị trang
+  phục. Phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo.
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
-  url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
 - title: Korea Meteorological Administration (KMA)
 - title: KoreaToDo — Autumn Foliage Sites
 faq:
@@ -38,18 +39,18 @@ faq:
 - answer: Áo len, áo giữ nhiệt, áo khoác parka hoặc phao mỏng, quần dài, găng tay
     mỏng, khăn quàng. Leo núi cần thêm lớp chống gió.
 image: images/posts/thoi-tiet-han-quoc-thang-11.webp
-image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:48+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
 image_creator_id: '222549'
-image_creator_url: "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-2131624/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-2131624/
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
 - ref: posts/han-quoc-thang-11-co-la-do-chua.md

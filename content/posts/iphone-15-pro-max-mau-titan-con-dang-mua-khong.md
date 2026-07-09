@@ -12,14 +12,15 @@ ai_summary:
     Max.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 11:00:00+07:00'
-description: "Đánh giá tổng thể iPhone 15 Pro Max màu titan năm 2026: giá máy cũ, bốn màu, khung titan, camera, pin và ai nên chọn thay vì iPhone 16 Pro Max."
+description: 'Đánh giá tổng thể iPhone 15 Pro Max màu titan năm 2026: giá máy cũ,
+  bốn màu, khung titan, camera, pin và ai nên chọn thay vì iPhone 16 Pro Max.'
 draft: false
 image: images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp
-image_attribution_checked_at: '2026-07-09T15:38:01+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:21+07:00'
 image_attribution_source: embedded_exif_iptc_xmp
 image_attribution_verified: true
 image_commercial_use: true
@@ -27,10 +28,10 @@ image_creator: b'                                                               
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/unboxing-iphone-15-pro-max-box-in-natural-titanium-color-mention-zana-qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana-qaradaghy-18525574/"
+image_source_url: https://www.pexels.com/photo/unboxing-iphone-15-pro-max-box-in-natural-titanium-color-mention-zana-qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana-qaradaghy-18525574/
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 1
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'

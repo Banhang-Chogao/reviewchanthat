@@ -12,14 +12,15 @@ ai_summary:
     Pro/16+.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: "2026-07-08 09:20:00+07:00"
-description: "Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual Intelligence và kỳ vọng thực tế theo từng dòng iPhone."
+date: '2026-07-08 09:20:00+07:00'
+description: 'Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual
+  Intelligence và kỳ vọng thực tế theo từng dòng iPhone.'
 draft: false
 image: images/posts/ios-27-camera-anh-video-iphone.webp
-image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:17+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false
@@ -28,10 +29,10 @@ image_creator: ''
 image_creator_id: ''
 image_creator_url: ''
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/iphone-6-on-macbook-pro-404139/"
+image_source_url: https://www.pexels.com/photo/iphone-6-on-macbook-pro-404139/
 series: ios-27-co-gi-moi
 series_order: 5
 series_title: iOS 27 có gì mới

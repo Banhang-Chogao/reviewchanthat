@@ -13,31 +13,33 @@ ai_summary:
     trước khi quyết định chờ hay mua iPhone 17.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 12:00:00+07:00'
-description: "Tin đồn Dynamic Island nhỏ hơn và under-display Face ID trên iPhone 18 Pro: phân loại nguồn MacRumors, AppleInsider và hướng dẫn ai nên chờ thiết kế màn hình mới."
+description: 'Tin đồn Dynamic Island nhỏ hơn và under-display Face ID trên iPhone
+  18 Pro: phân loại nguồn MacRumors, AppleInsider và hướng dẫn ai nên chờ thiết kế
+  màn hình mới.'
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup
-  url: "https://www.macrumors.com/roundup/iphone-18-pro/"
+  url: https://www.macrumors.com/roundup/iphone-18-pro/
 - title: MacRumors — iPhone 18 roundup
 - title: AppleInsider — iPhone 18 expectations
 - title: MacRumors — iPhone 18 Pro rumored colors
 image: images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp
-image_attribution_checked_at: '2026-07-09T15:38:08+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:43+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Adrian Trujillo
 image_creator_id: '257684'
-image_creator_url: "https://www.pexels.com/@adrian-trujillo-257684"
+image_creator_url: https://www.pexels.com/@adrian-trujillo-257684
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/pexels-photo-788883/"
+image_source_url: https://www.pexels.com/photo/pexels-photo-788883/
 series: iphone-18-co-gi-moi
 series_order: 7
 series_title: iPhone 18 có gì mới

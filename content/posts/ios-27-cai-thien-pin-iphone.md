@@ -12,25 +12,26 @@ ai_summary:
     pin trước khi nâng cấp.'
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
-date: "2026-07-08 09:00:00+07:00"
-description: "Pin iPhone với iOS 27: kỳ vọng hiệu năng Apple công bố, ảnh hưởng AI/Siri và mẹo tiết kiệm pin cho người dùng Việt Nam."
+date: '2026-07-08 09:00:00+07:00'
+description: 'Pin iPhone với iOS 27: kỳ vọng hiệu năng Apple công bố, ảnh hưởng AI/Siri
+  và mẹo tiết kiệm pin cho người dùng Việt Nam.'
 draft: false
 image: images/posts/ios-27-cai-thien-pin-iphone.webp
-image_attribution_checked_at: '2026-07-09T15:38:00+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:17+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: RDNE Stock project
 image_creator_id: '3149039'
-image_creator_url: "https://www.pexels.com/@rdne"
+image_creator_url: https://www.pexels.com/@rdne
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/man-in-blue-shirt-holding-iphone-8052289/"
+image_source_url: https://www.pexels.com/photo/man-in-blue-shirt-holding-iphone-8052289/
 series: ios-27-co-gi-moi
 series_order: 4
 series_title: iOS 27 có gì mới

@@ -9,25 +9,26 @@ ai_summary:
   - Giá nên điều chỉnh theo % pin và tình trạng khung.
   title: Tóm tắt bài viết
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 13:00:00+07:00'
-description: "Hướng dẫn kiểm tra pin iPhone 15 Pro Max khi mua máy cũ: Battery Health, chu kỳ sạc, dấu hiệu chai và checklist kỹ thuật đầy đủ."
+description: 'Hướng dẫn kiểm tra pin iPhone 15 Pro Max khi mua máy cũ: Battery Health,
+  chu kỳ sạc, dấu hiệu chai và checklist kỹ thuật đầy đủ.'
 draft: false
 image: images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp
-image_attribution_checked_at: '2026-07-09T15:38:04+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:29+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: RSK Photography Kekar
 image_creator_id: '1108923782'
-image_creator_url: "https://www.pexels.com/@rsk-photography-kekar-1108923782"
+image_creator_url: https://www.pexels.com/@rsk-photography-kekar-1108923782
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/hand-holding-smartphone-with-modern-interface-outdoors-36665172/"
+image_source_url: https://www.pexels.com/photo/hand-holding-smartphone-with-modern-interface-outdoors-36665172/
 series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
 series_order: 7
 series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'

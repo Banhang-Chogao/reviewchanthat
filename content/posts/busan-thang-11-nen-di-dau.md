@@ -22,7 +22,8 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 20:30:00+07:00'
-description: "Busan tháng 11 nên đi đâu? Gợi ý biển mát, phố đêm, làng văn hóa và lịch trình 2–3 ngày nhẹ nhàng khi thời tiết lạnh hơn tháng 10."
+description: Busan tháng 11 nên đi đâu? Gợi ý biển mát, phố đêm, làng văn hóa và lịch
+  trình 2–3 ngày nhẹ nhàng khi thời tiết lạnh hơn tháng 10.
 draft: false
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
@@ -34,18 +35,18 @@ external_links:
 - title: Visit Busan
   url: https://www.visitbusan.net
 image: images/posts/busan-thang-11-nen-di-dau.webp
-image_attribution_checked_at: '2026-07-09T15:38:11+07:00'
+image_attribution_checked_at: '2026-07-10T04:52:50+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Near Look
-image_creator_id: 110077
-image_creator_url: ''
+image_creator_id: '110077'
+image_creator_url: https://www.pexels.com/@near-look-110077
 image_license: Pexels License
 image_license_url: ''
 image_owner: external
 image_source: Pexels
-image_source_url: ''
+image_source_url: https://www.pexels.com/photo/pexels-photo-340138/
 internal_links:
 - ref: posts/di-han-thang-11-co-dep-khong.md
   title: Đi Hàn tháng 11 có đẹp không?
