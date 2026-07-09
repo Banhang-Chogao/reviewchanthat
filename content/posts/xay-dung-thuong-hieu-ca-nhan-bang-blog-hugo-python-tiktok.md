@@ -1,7 +1,6 @@
 +++
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
 date = 2026-07-10T00:10:00+07:00
-description = "Blog Hugo kết hợp Python giúp xây dựng thương hiệu cá nhân có nền tảng sở hữu lâu dài, còn TikTok đóng vai trò kênh phân phối nhanh để kiểm chứng ý tưởng và kéo người đọc về hệ sinh thái của riêng bạn."
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
@@ -12,6 +11,8 @@ image_status = "verified"
 related_posts = [
   "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan"
 ]
+seo_title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền"
+description = "Bạn có thể nhận thấy rằng hầu hết những người xây dựng thương hiệu cá nhân ngày nay đều bắt đầu từ TikTok, Instagram hay YouTube. Nhưng có một vấn đề: bạn không"
 
 [custom_image_queries]
 queries = [
@@ -46,6 +47,8 @@ image_creator_id = "2999237"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa — Pexels / Plann"
+
+
 
 +++
 

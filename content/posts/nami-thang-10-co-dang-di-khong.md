@@ -75,6 +75,8 @@ tom_tat_nhanh:
 - label: Tuần lý tưởng
 - label: Thời gian trên đảo
 - label: Lưu ý
+seo_title: "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách"
+
 ---
 
 Nami Island (đảo Nami) quanh năm là day trip phổ biến từ Seoul, nhưng **tháng 10** là một trong những thời điểm được nhắc nhiều nhờ hàng Metasequoia chuyển vàng. Visit Korea liệt kê Nami trong nhóm [điểm ngắm lá đỏ nổi tiếng ngoài Seoul](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), cùng Hwadam Botanic Garden và Garden of Morning Calm.

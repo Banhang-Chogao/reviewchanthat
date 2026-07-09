@@ -50,6 +50,8 @@ tom_tat_nhanh:
 - label: Văn phòng
 - label: Creator
 - label: Lập trình viên
+seo_title: "macOS 27 có gì mới cho dân văn phòng, creator và lập trình"
+
 ---
 
 Cùng một bản macOS 27, **kế toán**, **YouTuber** và **backend dev** sẽ thấy giá trị ở chỗ khác nhau. Bài này map tính năng Golden Gate 27 theo **workflow thật** — không liệt kê slide keynote.

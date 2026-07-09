@@ -58,6 +58,8 @@ tom_tat_nhanh:
 - label: Màu nổi bật
 - label: Áp dụng
 - label: Lưu ý
+seo_title: "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có"
+
 ---
 
 Màu sắc hiếm khi thay đổi **cách máy chạy** — nhưng lại thay đổi **cảm giác mỗi lần cầm lên** và **giá bán lại** ở Việt Nam. Với **iPhone 18**, tin đồn đang tập trung vào **Dark Cherry** — tông đỏ cherry đậm gắn mã **Pantone 6076** — cho dòng **Pro** và có thể cả **iPhone Fold**. Apple **chưa công bố** bất kỳ màu nào; bài viết tổng hợp từ [MacRumors](https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/), [MacRumors iPhone 18 Pro roundup](https://www.macrumors.com/roundup/iphone-18-pro/) và [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more).

@@ -85,6 +85,8 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý mùa hè
   value: ''
+seo_title: "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh"
+
 ---
 
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm dưới chân Seongsan Ilchulbong có sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng, view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.

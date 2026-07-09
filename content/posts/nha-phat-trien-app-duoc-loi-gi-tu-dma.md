@@ -54,6 +54,8 @@ tom_tat_nhanh:
 - label: Công cụ mới
 - label: Điểm then chốt
 - label: Hợp với
+seo_title: "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission"
+
 ---
 
 “Cuối cùng cũng không còn phải trả 30% cho Apple” — câu đó xuất hiện nhiều sau khi European Commission (EC) phạt Apple vì anti-steering và buộc mở thêm đường phân phối. Nhưng hỏi một indie developer ở Amsterdam hay Stockholm, câu trả lời thường phức tạp hơn: **“Được link ra web thanh toán, nhưng CTF ăn mất phần tiết kiệm — và mình vẫn ở App Store vì user không sideload.”**

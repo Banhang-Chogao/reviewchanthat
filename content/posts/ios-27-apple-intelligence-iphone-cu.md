@@ -51,6 +51,8 @@ tom_tat_nhanh:
 - label: Yêu cầu
 - label: Tính năng
 - label: Hợp với
+seo_title: "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía"
+
 ---
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **iOS 27** là lần Apple cố biến AI thành thói quen trên iPhone — không chỉ demo keynote. Câu hỏi thực tế: **iPhone của bạn chạy được những gì, và tiếng Việt đến đâu?**

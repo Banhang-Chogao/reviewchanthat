@@ -87,6 +87,8 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý
   value: ''
+seo_title: "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng lich"
+
 ---
 
 Hàn Quốc mùa hè — tháng 7 nóng ẩm, tháng 8 nắng rang — nhưng không phải là không đi được. Nếu chọn đúng điểm, bạn vẫn có một chuyến đi trọn vẹn: tắm biển Busan, lặn ngụp công viên nước, thăm làng cổ giữa rừng xanh, hoặc trốn trong quán cà phê indoor giữa cơn mưa rào.

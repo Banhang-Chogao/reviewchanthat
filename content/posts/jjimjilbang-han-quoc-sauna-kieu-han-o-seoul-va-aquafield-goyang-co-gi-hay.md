@@ -69,6 +69,8 @@ tom_tat_nhanh:
 - label: Thời gian nên dành
 - label: Đi mùa nào hợp
 - label: Có cần đặt trước không
+seo_title: "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD"
+
 ---
 
 Jjimjilbang — nhà tắm hơi kiểu Hàn — là thứ mà mình nghĩ ai đi Hàn Quốc cũng nên thử ít nhất một lần. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa thuần chất Hàn mà bạn khó tìm thấy ở nơi khác.

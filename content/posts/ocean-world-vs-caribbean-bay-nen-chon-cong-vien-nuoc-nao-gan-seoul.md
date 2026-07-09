@@ -67,6 +67,8 @@ tom_tat_nhanh:
 - label: Ocean World
 - label: Khoảng cách
 - label: Giá vé
+seo_title: "Ocean World vs Caribbean Bay: nên chọn công viên nước nào"
+
 ---
 
 Cả Caribbean Bay và Ocean World đều là công viên nước hàng đầu gần Seoul. Bài viết so sánh giúp bạn chọn đúng.

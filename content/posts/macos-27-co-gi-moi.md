@@ -17,9 +17,6 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-08 11:00:00+07:00'
-description: 'Tổng quan macOS Golden Gate 27: Siri AI trong Spotlight, Safari Notify
-  Me, Liquid Glass, Visual Intelligence và timeline beta/public cho người dùng Mac
-  tại Việt Nam.'
 draft: false
 image: images/posts/macos-27-co-gi-moi.webp
 image_attribution_checked_at: '2026-07-10T04:52:26+07:00'
@@ -53,6 +50,9 @@ tom_tat_nhanh:
 - label: Ra mắt
 - label: Điểm nổi bật
 - label: Hợp với
+seo_title: "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook"
+description: "Mỗi năm sau WWDC, cộng đồng Mac Việt Nam lại hỏi cùng một câu: có đáng lên macOS mới không, hay cứ ở bản cũ cho ổn định? Năm nay câu hỏi còn gay cấn hơn vì"
+
 ---
 
 Mỗi năm sau WWDC, cộng đồng Mac Việt Nam lại hỏi cùng một câu: **có đáng lên macOS mới không, hay cứ ở bản cũ cho ổn định?** Năm nay câu hỏi còn gay cấn hơn vì Apple không chỉ vá lỗi — họ đặt cược lớn vào **Siri AI**, **Apple Intelligence** và một lớp thiết kế **Liquid Glass** đã gây tranh cãi từ macOS 26.

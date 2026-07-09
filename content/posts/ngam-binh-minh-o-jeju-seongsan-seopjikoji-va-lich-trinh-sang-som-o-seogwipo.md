@@ -72,6 +72,8 @@ tom_tat_nhanh:
   value: ''
 - label: Có cần đặt trước không
   value: ''
+seo_title: "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình"
+
 ---
 
 Ngắm bình minh trên miệng núi lửa là trải nghiệm theo mình không thể bỏ qua khi đến Jeju. Hoạt động này được xếp hạng 5 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và Seongsan Ilchulbong là điểm đến số một cho việc này.

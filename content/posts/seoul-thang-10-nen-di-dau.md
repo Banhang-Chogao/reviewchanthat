@@ -75,6 +75,8 @@ tom_tat_nhanh:
 - label: Chi phí vé
 - label: Phù hợp
 - label: Điểm nhấn
+seo_title: "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi"
+
 ---
 
 Seoul tháng 10 là thời điểm nhiều du khách chọn để kết hợp khám phá thành phố và ngắm mùa thu. Theo [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), các điểm ngắm lá đỏ phổ biến ở Seoul gồm Gyeongbokgung Palace, Seoul Forest, Olympic Park và Seokchon Lake — cùng Deoksugung Stone Wall Path.

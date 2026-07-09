@@ -73,6 +73,8 @@ tom_tat_nhanh:
 - label: Thời gian nên dành
 - label: Đi mùa nào hợp
 - label: Có cần đặt trước không
+seo_title: "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul"
+
 ---
 
 Vivaldi Park là cái tên được khách Việt nhắc đến nhiều nhất khi hỏi về trượt tuyết gần Seoul. Mình cũng không ngạc nhiên — resort này thuộc Daemyung Resort, một khu nghỉ dưỡng lớn ở Hongcheon, có shuttle bus từ Seoul, giờ hoạt động từ sáng tới tận 1h đêm.

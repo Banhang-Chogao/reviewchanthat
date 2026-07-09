@@ -72,6 +72,8 @@ tom_tat_nhanh:
 - label: Mưa
 - label: Phù hợp
 - label: Giá
+seo_title: "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước"
+
 ---
 
 ## Thời tiết tháng 8

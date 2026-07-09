@@ -51,6 +51,8 @@ tom_tat_nhanh:
 - label: Nguồn
 - label: Điểm then chốt
 - label: Hợp với
+seo_title: "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu"
+
 ---
 
 “Mac của mình còn lên macOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **MacBook Pro Intel**, **iMac 27 inch Intel** hoặc **Mac mini Intel** mua từ 2018–2020. Câu trả lời ngắn theo Apple: **chỉ Mac Apple Silicon trong danh sách chính thức**.

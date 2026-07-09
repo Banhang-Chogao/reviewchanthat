@@ -76,6 +76,8 @@ tom_tat_nhanh:
 - label: Di chuyển
 - label: Phù hợp
 - label: Lưu ý
+seo_title: "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami lich"
+
 ---
 
 Bảy ngày sáu đêm là khoảng thời gian nhiều du khách Việt chọn khi muốn **vừa khám phá Seoul, vừa săn lá đỏ, vừa chạm biển** — mà không phải chạy marathon như lịch 5 ngày 4 đêm. Nếu bạn đã đọc [lịch trình 5N4Đ]({{< ref "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem" >}}) và thấy thiếu Seoraksan hoặc Busan, bài này là khung **7N6Đ** cụ thể hơn, bám dự báo mùa thu từ [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292).

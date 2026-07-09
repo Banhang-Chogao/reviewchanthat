@@ -70,6 +70,8 @@ tom_tat_nhanh:
 - label: Hợp với
 - label: Thời gian nên dành
 - label: Lưu ý mùa hè
+seo_title: "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp"
+
 ---
 
 Jungmun Beach nằm trong khu nghỉ dưỡng Jungmun phía nam Jeju, gần Seogwipo. Đây là một trong những bãi biển có phong cảnh đẹp nhất Jeju với hình dáng mũi tên độc đáo, nước trong vắt và bờ cát mềm.

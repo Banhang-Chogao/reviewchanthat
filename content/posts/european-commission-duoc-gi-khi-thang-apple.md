@@ -59,6 +59,8 @@ tom_tat_nhanh:
 - label: Mốc chính
 - label: Điểm then chốt
 - label: Hợp với
+seo_title: "European Commission được gì khi thắng Apple? Tiền phạt, tiền"
+
 ---
 
 500 triệu euro — con số EC công bố khi phạt Apple vì vi phạm Digital Markets Act (DMA) vào tháng 4/2025. Trên headline, đó là “EC thắng Apple”. Nhưng hỏi một policy analyst ở Brussels **EC thực sự nhận được gì**, câu trả lời dài hơn một tờ hóa đơn phạt: **tiền lệ pháp lý**, **quyền giám sát gatekeeper**, **đòn bẩy với Big Tech khác** — và cả **rủi ro chính trị** khi Washington xem đây là “phạt công ty Mỹ”.

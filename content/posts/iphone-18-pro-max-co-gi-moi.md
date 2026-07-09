@@ -16,7 +16,6 @@ avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories:
 - cong-nghe
 date: '2026-07-08 08:00:00+07:00'
-description: "iPhone 18 Pro Max có gì mới? Tin đồn A20 Pro 2nm, pin lớn hơn, camera khẩu độ biến đổi, Dynamic Island nhỏ, modem C2, màu Dark Cherry — nguồn MacRumors, AppleInsider."
 draft: false
 external_links:
 - title: MacRumors — iPhone 18 Pro roundup
@@ -59,6 +58,7 @@ image_owner: "external"
 image_creator: "juliane Monari"
 image_creator_url: "https://www.pexels.com/@julianemonarifotografia"
 image_alt: "Ảnh minh họa — Pexels / juliane Monari"
+description: "iPhone 18 Pro Max là model flagship lớn nhất trong kỳ vọng đợt ra mắt mùa thu 2026 — nếu tin đồn split launch đúng, đây là máy “full option” Apple có thể giới"
 
 ---
 

@@ -57,6 +57,8 @@ tom_tat_nhanh:
   value: ""
 - label: "SuperRich"
   value: ""
+seo_title: "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an"
+
 ---
 
 ## Đổi baht ở Việt Nam hay Thái Lan lợi hơn?

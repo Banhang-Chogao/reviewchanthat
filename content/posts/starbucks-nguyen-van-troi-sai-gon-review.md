@@ -63,6 +63,7 @@ tom_tat_nhanh:
 - label: Phù hợp
 - label: Ảnh
 image_alt: "Ảnh minh họa — Pexels / Lisa from Pexels"
+seo_title: "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha"
 
 ---
 

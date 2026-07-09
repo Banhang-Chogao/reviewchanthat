@@ -28,9 +28,6 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-09 04:00:00+07:00'
-description: Hướng dẫn chi tiết cách chuẩn bị hồ sơ xin visa Hàn Quốc du lịch tự túc
-  từ Việt Nam theo diện thu nhập hàng năm trên 8.000 USD, dựa trên nguồn chính thức
-  của Bộ Ngoại giao/Đại sứ quán Hàn Quốc và KVAC.
 draft: false
 external_links:
 - title: Đại sứ quán Hàn Quốc tại Việt Nam — Thông báo mở rộng đối tượng miễn chứng
@@ -75,6 +72,9 @@ tom_tat_nhanh:
 - label: Bằng chứng cốt lõi
 - label: Thị thực nhiều lần
 - label: Lưu ý quan trọng
+seo_title: "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000"
+description: "Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính \"chưa đủ mạnh\"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng"
+
 ---
 
 Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính "chưa đủ mạnh"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng không rõ điều đó có thật không, và phải chứng minh bằng lương, sao kê hay sổ tiết kiệm? Bạn sợ nộp sai diện, mất phí, rồi rớt visa mà không hiểu vì sao?

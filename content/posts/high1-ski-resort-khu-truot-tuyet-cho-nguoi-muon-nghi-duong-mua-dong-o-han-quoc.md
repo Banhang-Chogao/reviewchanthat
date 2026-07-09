@@ -88,6 +88,8 @@ tom_tat_nhanh:
   value: Mùa đông (tháng 12–2)
 - label: Có cần đặt trước không
   value: Có (resort, vé trượt tuyết)
+seo_title: "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng"
+
 ---
 
 High1 là ski resort mình ấn tượng nhất trong系列 bài này. Không phải vì lớn nhất (Yongpyong mới là số một) hay gần nhất (Elysian giữ kỷ lục đó), mà vì trải nghiệm tổng thể — từ Sky 1340, nhà hàng xoay trên đỉnh núi 1.340 m, đến thiết kế thân thiện môi trường.

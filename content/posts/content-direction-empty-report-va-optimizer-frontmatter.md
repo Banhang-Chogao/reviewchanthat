@@ -15,9 +15,6 @@ author: Minh Hoàng
 categories:
 - cong-nghe
 date: "2026-07-10 04:40:00+07:00"
-description: 'Phân tích content_direction_empty_report, content_direction_optimizer_fail,
-  metadata_optimizer_fail (safe): sai path/data key, parser front matter, seo_title/description
-  lỗi.'
 draft: false
 image: "images/posts/content-direction-empty-report-va-optimizer-frontmatter.webp"
 image_alt: "Ảnh minh họa — Pexels / Tima Miroshnichenko"
@@ -52,6 +49,9 @@ tags:
 - safe
 thumbnail: "images/posts/content-direction-empty-report-va-optimizer-frontmatter.webp"
 title: Content Direction empty report và optimizer fail vì front matter
+seo_title: "Content Direction empty report và optimizer fail vì front"
+description: "| Code | Safety | Mô tả | |------|--------|--------| | contentdirectionemptyreport | safe | Dashboard/report render rỗng (sai path/key/fallback) | |"
+
 ---
 
 ## Root cause

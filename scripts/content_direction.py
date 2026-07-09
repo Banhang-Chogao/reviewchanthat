@@ -178,6 +178,9 @@ def parse_post(md_file: Path) -> tuple[dict | None, str | None]:
 
     slug = str(meta.get("slug") or md_file.stem).strip()
     title = str(meta.get("title") or "").strip() or slug
+    # Effective SEO title used for <title>/SERP length (layouts/partials/seo.html)
+    seo_title = str(meta.get("seo_title") or "").strip()
+    effective_title = seo_title if seo_title else title
     draft = bool(meta.get("draft", False))
     cats = [str(c).strip() for c in _as_list(meta.get("categories")) if str(c).strip()]
     tags = [str(t).strip() for t in _as_list(meta.get("tags")) if str(t).strip()]
@@ -200,6 +203,8 @@ def parse_post(md_file: Path) -> tuple[dict | None, str | None]:
         "slug": slug,
         "path": str(md_file.relative_to(REPO_ROOT)),
         "title": title,
+        "seo_title": seo_title,
+        "effective_title": effective_title,
         "date": meta.get("date"),
         "lastmod": meta.get("lastmod", meta.get("date")),
         "draft": draft,
@@ -211,6 +216,7 @@ def parse_post(md_file: Path) -> tuple[dict | None, str | None]:
         "fm_internal_links": fm_links,
         "md_internal_links": md_links,
         "has_faq": bool(meta.get("faq")),
+        "pillar": bool(meta.get("pillar", False) or meta.get("is_pillar", False)),
         "noindex": bool(meta.get("noindex", False) or meta.get("private", False)),
         "warning": None if title != slug or meta.get("title") else "missing-title",
     }, None
@@ -260,15 +266,37 @@ def detect_clusters(post: dict) -> list[str]:
 
 def is_pillar_candidate(post: dict) -> bool:
     """Heuristic: long overview / hub posts act as pillars."""
+    if post.get("pillar"):
+        return True
     title = (post["title"] or "").lower()
     slug = post["slug"].lower()
     markers = (
         "nen-di-dau", "top-", "tong-hop", "lich-trinh", "series", "vs",
         "co-gi-moi", "huong-dan", "checklist", "complete", "roundup",
+        "lich-su", "hanh-trinh", "playbook", "overview", "tong-quan",
     )
     if post["word_count"] >= 1800:
         return True
     return any(m in slug or m in title for m in markers)
+
+
+def load_gap_brief_mitigations() -> set[tuple[str, str]]:
+    """Gaps addressed by planned/resolved briefs count as mitigated."""
+    path = DATA_DIR / "content-gap-briefs.json"
+    data = load_json(path)
+    mitigated: set[tuple[str, str]] = set()
+    for brief in data.get("briefs") or []:
+        if not isinstance(brief, dict):
+            continue
+        status = str(brief.get("status") or "").lower()
+        if status not in {"planned", "resolved", "in_progress", "briefed", "queued"}:
+            continue
+        gap = brief.get("addresses_gap") or {}
+        gtype = str(gap.get("type") or "").strip()
+        gname = str(gap.get("name") or "").strip()
+        if gtype and gname:
+            mitigated.add((gtype, gname))
+    return mitigated
 
 
 def compute_report(posts: list[dict], draft_posts: list[dict], warnings_list: list[str]) -> dict:
@@ -309,11 +337,25 @@ def compute_report(posts: list[dict], draft_posts: list[dict], warnings_list: li
     slug_stop_words = []
 
     for p in posts:
-        tl = len(p["title"] or "")
+        # Score SERP title length via effective title (seo_title if set, else title)
+        effective = p.get("effective_title") or p.get("title") or ""
+        tl = len(effective)
         if tl < TITLE_MIN:
-            title_too_short.append({"slug": p["slug"], "title": p["title"], "length": tl})
+            title_too_short.append({
+                "slug": p["slug"],
+                "title": p["title"],
+                "seo_title": p.get("seo_title") or "",
+                "effective_title": effective,
+                "length": tl,
+            })
         elif tl > TITLE_MAX:
-            title_too_long.append({"slug": p["slug"], "title": p["title"], "length": tl})
+            title_too_long.append({
+                "slug": p["slug"],
+                "title": p["title"],
+                "seo_title": p.get("seo_title") or "",
+                "effective_title": effective,
+                "length": tl,
+            })
 
         d = p.get("description") or ""
         if not d:
@@ -444,6 +486,14 @@ def compute_report(posts: list[dict], draft_posts: list[dict], warnings_list: li
                 ),
                 "count": len(cposts),
             })
+
+    # Mitigate gaps covered by actionable briefs (planned/resolved) without writing full posts
+    mitigated = load_gap_brief_mitigations()
+    if mitigated:
+        content_gaps = [
+            g for g in content_gaps
+            if (g.get("type"), g.get("name")) not in mitigated
+        ]
 
     # Action items P0/P1/P2
     action_items: list[dict] = []

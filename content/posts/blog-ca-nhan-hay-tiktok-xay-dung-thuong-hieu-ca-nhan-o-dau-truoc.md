@@ -1,7 +1,6 @@
 +++
 title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
 date = 2026-07-10T00:35:00+07:00
-description = "Blog cá nhân hay TikTok nên đi trước khi xây thương hiệu cá nhân? So sánh tài sản dài hạn, tốc độ tiếp cận, rủi ro thuật toán và lộ trình thực tế cho người mới — không hứa viral."
 slug = "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "TikTok", "thương hiệu cá nhân", "personal branding", "content strategy", "SEO cá nhân"]
@@ -15,6 +14,8 @@ related_posts = [
   "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
   "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan"
 ]
+seo_title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu"
+description = "Câu hỏi xuất hiện rất sớm khi ai đó muốn xây thương hiệu cá nhân: blog cá nhân hay TikTok nên đi trước? Một bên nghe “bền, SEO, chuyên nghiệp”. Một bên nghe"
 
 [ai_summary]
 enabled = true
@@ -40,6 +41,8 @@ image_creator_id = "264153375"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa blog ca nhan hay tiktok xay dung thuong hieu ca nhan o dau truoc — Pexels / Mizuno K"
+
+
 
 +++
 

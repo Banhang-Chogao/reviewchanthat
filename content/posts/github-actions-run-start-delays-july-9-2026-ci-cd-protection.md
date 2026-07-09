@@ -1,7 +1,6 @@
 +++
 title = "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD"
 date = 2026-07-09T20:21:28+07:00
-description = "GitHub Actions experienced hosted-runner start delays on July 9, 2026, while GitHub Pages builds were also affected. Here is what happened, why it was not a code bug, and how teams can protect CI/CD pipelines."
 slug = "github-actions-run-start-delays-july-9-2026-ci-cd-protection"
 categories = ["cong-nghe"]
 tags = ["GitHub Actions", "GitHub Pages", "CI/CD", "DevOps", "GitHub Status", "incident response"]
@@ -23,6 +22,8 @@ image_creator_id = "133960344"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 draft = false
+seo_title = "GitHub Actions Delays Starting Runs on July 9, 2026: What"
+description = "On July 9, 2026, GitHub reported an incident titled \"Delays starting Actions runs\". The practical symptom was simple: workflows that should have started on"
 
 [[external_links]]
 title = "GitHub Status - Delays starting Actions runs"
@@ -39,6 +40,8 @@ items = [
   "A queued workflow is not automatically a broken commit; if the job never reached checkout, your code has not been tested yet.",
   "Teams can reduce impact with concurrency controls, limited retries, platform-incident detection, non-essential workflow pauses, and post-deploy live verification."
 ]
+
+
 +++
 
 On July 9, 2026, GitHub reported an incident titled ["Delays starting Actions runs"](https://www.githubstatus.com/incidents/cstx3v63mklm). The practical symptom was simple: workflows that should have started on GitHub-hosted runners stayed in a queued or pending state, sometimes long enough for retries to be exhausted. During part of the same incident, GitHub Pages builds were also affected.

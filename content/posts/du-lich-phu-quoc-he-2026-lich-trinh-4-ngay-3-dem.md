@@ -9,6 +9,7 @@ image = "images/posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.webp"
 thumbnail = "images/posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.webp"
 image_status = "needs_review"
 draft = false
+seo_title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4"
 
 [ai_summary]
 enabled = true
@@ -19,6 +20,7 @@ items = [
   "Lịch trình 4 ngày 3 đêm: 1 ngày tour đảo Nam, 1 ngày Bắc đảo, chừa buổi nghỉ tránh nắng và dự phòng mưa.",
   "Không bịa chi phí: giá vé, phòng và tour đổi theo ngày và cách đặt; bài này giúp bạn tự tính và tự thiết kế lịch."
 ]
+
 +++
 
 ## Vì sao Phú Quốc hè 2026?

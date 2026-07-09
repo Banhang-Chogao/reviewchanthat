@@ -46,6 +46,8 @@ tom_tat_nhanh:
 - label: An toàn nhất
 - label: Sáng nhất
 - label: Đặc biệt
+seo_title: "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu"
+
 ---
 
 Không chọn Desert? Ba màu **Natural, White, Black** trên iPhone 16 Pro Max là **tam giác an toàn** — nhưng “an toàn” không có nghĩa **giống nhau**. Mỗi màu **lão hóa khác nhau** trên khung titan, và thị trường máy cũ 2026 **định giá khác nhau**.

@@ -15,9 +15,6 @@ author: Minh Hoàng
 categories:
 - cong-nghe
 date: "2026-07-10 04:10:00+07:00"
-description: 'Phân tích runner_capacity_delay và external_platform_incident (unsafe):
-  job kẹt queue hosted runner, GitHub Actions/Pages degraded — checklist phân biệt
-  với lỗi code.'
 draft: false
 image: "images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp"
 image_alt: "Ảnh minh họa — Pexels / Daniil Komov"
@@ -52,6 +49,9 @@ tags:
 - unsafe
 thumbnail: "images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp"
 title: 'Runner capacity delay và platform incident: khi job đỏ không phải vì bug code'
+seo_title: "Runner capacity delay và platform incident: khi job đỏ không"
+description: "| Code | Safety | Mô tả | |------|--------|--------| | runnercapacitydelay | unsafe | GitHub-hosted runner thiếu capacity; job chờ lâu trước khi start | |"
+
 ---
 
 ## Root cause

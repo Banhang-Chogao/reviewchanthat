@@ -76,6 +76,8 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý
   value: ''
+seo_title: "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3"
+
 ---
 
 Jeju tháng 11 là thời điểm nhiều người cân nhắc khi lên kế hoạch đi Hàn mùa cuối thu. Đảo có khí hậu **ôn hòa hơn đất liền** nhưng **gió mạnh hơn** và **lạnh hơn tháng 10** — ban ngày thường 12–18°C, ban đêm có thể xuống 8–12°C. Biển vẫn đẹp cho đi bộ ven bờ, nhưng tắm biển dài không còn phổ biến. Núi Hallasan có thể còn lá đỏ **đầu tháng 11**, trong khi **cuối tháng** rủi ro rụng lá hoặc đóng tuyến khi thời tiết xấu.

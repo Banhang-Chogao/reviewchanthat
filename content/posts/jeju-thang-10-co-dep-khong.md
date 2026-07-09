@@ -72,6 +72,8 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý
   value: ''
+seo_title: "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch"
+
 ---
 
 Jeju tháng 10 là thời điểm nhiều người Việt cân nhắc khi lên kế hoạch đi Hàn mùa thu. Đảo có khí hậu ôn hòa hơn đất liền, biển vẫn đẹp, và núi Hallasan bắt đầu chuyển màu. Tuy nhiên, Jeju không chỉ có cảnh quan — bạn cần tính thêm chi phí vé máy bay, thuê xe và thời gian di chuyển từ Seoul.

@@ -70,6 +70,8 @@ tom_tat_nhanh:
 - label: Số lượng điểm
 - label: Hợp với
 - label: Thời gian đọc
+seo_title: "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean"
+
 ---
 
 Một điều bất ngờ trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best là gần một nửa số điểm nằm ở khu vực gần Seoul. Nếu bạn có 1–2 ngày rảnh, đây là những lựa chọn đáng cân nhắc.

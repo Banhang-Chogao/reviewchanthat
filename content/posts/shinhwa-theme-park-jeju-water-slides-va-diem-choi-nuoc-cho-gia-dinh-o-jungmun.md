@@ -84,6 +84,8 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý mùa hè
   value: ''
+seo_title: "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho"
+
 ---
 
 Shinhwa Theme Park nằm trong tổ hợp Jeju Shinhwa World — khu resort khổng lồ ở phía nam Jeju. Không chỉ có theme park với các trò cảm giác mạnh, mà còn có Shinhwa Water Park riêng. Một combo "khô + ướt" cho cả ngày.

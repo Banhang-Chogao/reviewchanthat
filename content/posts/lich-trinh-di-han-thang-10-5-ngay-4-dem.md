@@ -75,6 +75,8 @@ tom_tat_nhanh:
   value: ''
 - label: Lưu ý
   value: ''
+seo_title: "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm"
+
 ---
 
 Năm ngày bốn đêm là khoảng thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để làm quen Seoul, đi một day trip ra ngoại ô, và dành thời gian cho mùa lá đỏ. Lịch trình dưới đây **không bao gồm Busan hay Jeju** vì thêm thành phố khác sẽ làm lịch trình quá gấp; nếu muốn mở rộng, xem [Busan tháng 10]({{< ref "posts/busan-thang-10-nen-di-dau" >}}) hoặc [Jeju tháng 10]({{< ref "posts/jeju-thang-10-co-dep-khong" >}}) và cân nhắc kéo dài thành 7–8 ngày.

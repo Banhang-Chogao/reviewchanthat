@@ -57,6 +57,8 @@ tom_tat_nhanh:
 - label: Biển
 - label: Tour đảo
 - label: Chi phí
+seo_title: "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách"
+
 ---
 
 ## Phuket mùa mưa — nên đi hay không?

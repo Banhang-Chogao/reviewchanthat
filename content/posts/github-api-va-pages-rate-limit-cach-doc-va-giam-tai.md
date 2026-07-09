@@ -51,6 +51,8 @@ tags:
 - unsafe
 thumbnail: "images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp"
 title: 'GitHub API rate limit và Pages rate limit: đọc log, backoff, giảm fan-out'
+seo_title: "GitHub API rate limit và Pages rate limit: đọc log, backoff"
+
 ---
 
 ## Root cause

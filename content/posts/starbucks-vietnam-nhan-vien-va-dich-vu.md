@@ -59,6 +59,8 @@ tom_tat_nhanh:
 - label: Nguyễn Văn Trỗi
 - label: Barista
 - label: Mẹo
+seo_title: "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo"
+
 ---
 
 Một ly Starbucks ngon không chỉ đến từ hạt cà phê — mà còn từ **người pha** và **cách phục vụ**. Sau nhiều lần ghé các chi nhánh tại TP.HCM, mình nhận thấy dịch vụ là thứ khiến khách quay lại (hoặc không bao giờ quay lại) mạnh hơn cả vài nghìn đồng chênh lệch giá.

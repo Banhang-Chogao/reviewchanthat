@@ -68,6 +68,8 @@ tom_tat_nhanh:
   value: Thêm lựa chọn, nhưng giảm lớp bảo vệ tích hợp
 - label: Hợp với
   value: Người dùng iPhone EU, phụ huynh, ai quan tâm bảo mật hệ sinh thái
+seo_title: "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store"
+
 ---
 
 “Mở iOS là tốt cho người dùng” — câu đó xuất hiện liên tục trong thông cáo của European Commission (EC) và các nhóm ủng hộ cạnh tranh. Nhưng nếu bạn hỏi một người dùng iPhone bình thường ở Berlin hay Paris **họ sợ điều gì nhất**, câu trả lời thường không phải “thiếu marketplace thay thế”, mà là **lừa đảo, app giả, mất tiền không lấy lại được**.

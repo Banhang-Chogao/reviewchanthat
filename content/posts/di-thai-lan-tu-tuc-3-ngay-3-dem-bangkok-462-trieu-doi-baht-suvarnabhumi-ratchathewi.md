@@ -51,6 +51,8 @@ tom_tat_nhanh:
   - {"label": "Thời gian", "value": "3 ngày 3 đêm"}
   - {"label": "Di chuyển chính", "value": "Airport Rail Link + BTS Skytrain"}
   - {"label": "Có cần visa không", "value": "Không (miễn visa Thái Lan cho Việt Nam)"}
+seo_title: "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62"
+
 ---
 
 ## Đi Thái Lan tự túc 3 ngày 3 đêm: 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?

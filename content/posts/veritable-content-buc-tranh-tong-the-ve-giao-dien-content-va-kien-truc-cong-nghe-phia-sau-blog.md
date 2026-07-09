@@ -4,9 +4,6 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - cong-nghe
 date: '2026-07-07 09:00:00+07:00'
-description: 'Tường thuật quá trình tinh chỉnh Veritable Content: từ logo, header,
-  footer, trang liên hệ, macro cuối bài đến kiến trúc Hugo, Python, GitHub Actions
-  và triết lý text-first.'
 draft: false
 external_links:
 - title: Hugo Documentation
@@ -44,6 +41,9 @@ tom_tat_nhanh:
 - label: Mục đích
 - label: Hợp với
 - label: Điểm chính nặng
+seo_title: "Veritable Content: bức tranh tổng thể về giao diện, content"
+description: "Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh, CI/CD tự"
+
 ---
 
 Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh, CI/CD tự động, và quan trọng nhất: một triết lý rất rõ về tốc độ.

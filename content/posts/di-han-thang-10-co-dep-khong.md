@@ -61,6 +61,8 @@ tom_tat_nhanh:
 - label: Lá đổi màu
 - label: Phù hợp
 - label: Lưu ý
+seo_title: "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và"
+
 ---
 
 Bạn đang lên kế hoạch **đi Hàn tháng 10** và thấy trên mạng ảnh lá vàng, lá đỏ ở Seoul, Nami, Seoraksan — rồi tự hỏi: *tháng 10 có đẹp thật không, hay chỉ đẹp trên Instagram?* Câu trả lời ngắn: **tháng 10 là một trong những tháng đáng cân nhắc nhất** để du lịch Hàn Quốc nếu bạn thích mùa thu, đi bộ nhiều và chụp ảnh cảnh quan. Nhưng trải nghiệm cụ thể phụ thuộc **bạn đi đầu tháng hay cuối tháng**, **đi Seoul hay leo núi**, và **năm đó lá đỏ đến sớm hay muộn**.

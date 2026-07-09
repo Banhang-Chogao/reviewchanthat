@@ -9,6 +9,7 @@ image = "images/posts/co-nen-len-ios-26-5-2-khong.webp"
 thumbnail = "images/posts/co-nen-len-ios-26-5-2-khong.webp"
 image_status = "needs_review"
 draft = false
+seo_title = "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần"
 
 [ai_summary]
 enabled = true
@@ -19,6 +20,7 @@ items = [
   "Bản cập nhật dành cho iPhone 11 trở lên; đã cài rồi thì iOS không thể hạ cấp về bản cũ.",
   "Trước khi cài: sao lưu, đủ pin và dung lượng; dung lượng tải khác nhau theo máy."
 ]
+
 +++
 
 ## iOS 26.5.2 là bản gì?

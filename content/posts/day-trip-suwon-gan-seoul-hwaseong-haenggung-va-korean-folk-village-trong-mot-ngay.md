@@ -74,6 +74,8 @@ tom_tat_nhanh:
   value: ''
 - label: Có cần đặt trước không
   value: ''
+seo_title: "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk"
+
 ---
 
 Nếu bạn chỉ có một ngày và muốn trải nghiệm văn hóa Hàn Quốc đúng nghĩa, Suwon là lựa chọn dễ nhất. Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), Suwon có ba điểm: Hwaseong Fortress (hạng 13), Hwaseong Haenggung (hạng 14) và Korean Folk Village (hạng 19).
