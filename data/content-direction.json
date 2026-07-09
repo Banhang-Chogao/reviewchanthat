@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-09T22:22:19+07:00",
-  "generated_at_display": "09-07-2026 22:22:19",
+  "generated_at": "2026-07-09T23:29:24+07:00",
+  "generated_at_display": "09-07-2026 23:29:24",
   "summary": {
-    "total_posts": 156,
+    "total_posts": 157,
     "draft_posts": 0,
-    "total_words": 188435,
-    "average_words_per_post": 1208,
+    "total_words": 189817,
+    "average_words_per_post": 1209,
     "categories_count": 5,
-    "tags_count": 397,
+    "tags_count": 399,
     "authors_count": 1,
     "parse_warnings": 0
   },
@@ -18,7 +18,7 @@
     },
     {
       "name": "cong-nghe",
-      "count": 61
+      "count": 62
     },
     {
       "name": "review",
@@ -36,7 +36,7 @@
   "authors": [
     {
       "name": "Minh Hoàng",
-      "count": 156
+      "count": 157
     }
   ],
   "tags_top": [
@@ -124,8 +124,8 @@
   "time": {
     "oldest": "2026-06-15T10:00:00+07:00",
     "oldest_display": "15-06-2026 10:00:00",
-    "newest": "2026-07-09T22:35:00+07:00",
-    "newest_display": "09-07-2026 22:35:00"
+    "newest": "2026-07-09T23:30:00+07:00",
+    "newest_display": "09-07-2026 23:30:00"
   },
   "seo": {
     "title_too_short": [],
@@ -244,6 +244,11 @@
         "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
         "length": 83
+      },
+      {
+        "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
+        "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm",
+        "length": 104
       },
       {
         "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
@@ -723,6 +728,11 @@
         "slug": "co-nen-cho-iphone-18-khong",
         "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
         "length": 161
+      },
+      {
+        "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
+        "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm",
+        "length": 177
       },
       {
         "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
@@ -1659,6 +1669,12 @@
         "date": "08-07-2026 07:00:00"
       },
       {
+        "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
+        "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm",
+        "age_days": -1,
+        "date": "09-07-2026 23:30:00"
+      },
+      {
         "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
         "title": "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?",
         "age_days": 1,
@@ -1769,7 +1785,7 @@
       {
         "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
         "title": "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident",
-        "age_days": -1,
+        "age_days": 0,
         "date": "09-07-2026 22:35:00"
       },
       {
@@ -2406,7 +2422,7 @@
   },
   "internal_linking": {
     "total_outbound_links": 1449,
-    "average_outbound_per_post": 9.29,
+    "average_outbound_per_post": 9.23,
     "top_linked_posts": [
       {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -2465,6 +2481,10 @@
         "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
       },
       {
+        "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
+        "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm"
+      },
+      {
         "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
         "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
       },
@@ -2481,6 +2501,10 @@
       {
         "slug": "co-nen-len-ios-26-5-2-khong",
         "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
+      },
+      {
+        "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
+        "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm"
       },
       {
         "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
@@ -2515,32 +2539,32 @@
       "priority": "P1",
       "type": "Internal Linking",
       "title": "Giảm orphan posts (không có inbound)",
-      "detail": "4 bài không nhận internal link.",
-      "affected_count": 4,
+      "detail": "5 bài không nhận internal link.",
+      "affected_count": 5,
       "suggested_fix": "Link tới orphan từ bài hub/pillar cùng cluster."
     },
     {
       "priority": "P1",
       "type": "Internal Linking",
       "title": "Thêm internal links cho bài thiếu outbound",
-      "detail": "4 bài không có internal link outbound (MD/FM/graph).",
-      "affected_count": 4,
+      "detail": "5 bài không có internal link outbound (MD/FM/graph).",
+      "affected_count": 5,
       "suggested_fix": "Chèn 2–5 internal links liên quan trong thân bài hoặc graph."
     },
     {
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài meta description",
-      "detail": "0 quá ngắn, 25 quá dài (chuẩn 50–160).",
-      "affected_count": 25,
+      "detail": "0 quá ngắn, 26 quá dài (chuẩn 50–160).",
+      "affected_count": 26,
       "suggested_fix": "Chỉnh description về 50–160 ký tự."
     },
     {
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài title tag",
-      "detail": "0 title quá ngắn, 114 title quá dài (chuẩn 30–60 ký tự).",
-      "affected_count": 114,
+      "detail": "0 title quá ngắn, 115 title quá dài (chuẩn 30–60 ký tự).",
+      "affected_count": 115,
       "suggested_fix": "Rút gọn/mở rộng title về 30–60 ký tự, giữ keyword đầu."
     },
     {
