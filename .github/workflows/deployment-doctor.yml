@@ -8,6 +8,15 @@ on:
       - "QA Debt Fix"
       - "Content Direction"
       - "PR Check"
+      - "Content Direction Optimizer (all-safe nightly)"
+      - "autobot_fixer_I (nightly)"
+      - "autobot_seo_title (nightly)"
+      - "autobot_desc (nightly)"
+      - "autobot_internal_links (nightly)"
+      - "autobot_orphan (nightly)"
+      - "autobot_content_updater (nightly)"
+      - "autobot_content_gap (nightly)"
+      - "autobot_dup_remover (nightly)"
     types: [completed]
   workflow_dispatch:
 

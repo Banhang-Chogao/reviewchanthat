@@ -484,6 +484,39 @@
       "recommended_fix_script": null,
       "should_retry_deploy": false,
       "should_pause_workflows": false
+    },
+    {
+      "id": "duplicate_yaml_keys",
+      "severity": "medium",
+      "match": ["mapping key.*already defined", "duplicate key", "faq:", "internal_links:", "tags:", "tom_tat_nhanh:"],
+      "safe_to_autofix": true,
+      "summary": "Hugo front matter chứa duplicate YAML keys, khiến build fail.",
+      "action_items": ["Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py"],
+      "recommended_fix_script": "python scripts/autobot_dup_remover.py --write",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "content_direction_optimizer_fail",
+      "severity": "medium",
+      "match": ["content_direction_optimizer", "Content Direction Optimizer", "optimizer score", "ERROR.*content_direction"],
+      "safe_to_autofix": true,
+      "summary": "Content Direction Optimizer script failed — thường do front matter parse error.",
+      "action_items": ["Kiểm tra content/posts/ có file front matter lỗi", "Chạy autobot_dup_remover trước"],
+      "recommended_fix_script": "python scripts/autobot_dup_remover.py --write",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "metadata_optimizer_fail",
+      "severity": "low",
+      "match": ["autobot_seo_title", "autobot_desc", "seo_title_optimizer", "desc_optimizer"],
+      "safe_to_autofix": true,
+      "summary": "Metadata optimizer (seo_title hoặc description) gặp lỗi front matter.",
+      "action_items": ["Kiểm tra front matter các file mới/thay đổi gần đây", "Chạy autobot_dup_remover"],
+      "recommended_fix_script": "python scripts/autobot_dup_remover.py --write",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
     }
   ]
 }
