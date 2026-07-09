@@ -18,7 +18,7 @@ categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
 description: "Shinhwa Theme Park Jeju thuộc tổ hợp Jeju Shinhwa World, có công viên nước với water slides, wave pool, khu vui chơi Larva cho trẻ em. Hướng dẫn đi và vé."
-draft: false
+description: "Shinhwa Theme Park Jeju thuộc tổ hợp Jeju Shinhwa World, có công viên nước với water slides, wave pool, khu vui chơi Larva cho trẻ em. Hướng dẫn đi và vé."
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"

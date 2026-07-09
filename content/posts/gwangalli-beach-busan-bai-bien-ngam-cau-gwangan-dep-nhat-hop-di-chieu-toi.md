@@ -18,7 +18,7 @@ categories:
 - du-lich
 date: "2026-07-08 07:00:00+07:00"
 description: "Gwangalli Beach Busan nổi tiếng với view cầu Gwangan về đêm, quán cà phê biển, drone light show, Millak Raw Fish Street. Hướng dẫn đi metro và lịch trình tối."
-draft: false
+description: "Gwangalli Beach Busan nổi tiếng với view cầu Gwangan về đêm, quán cà phê biển, drone light show, Millak Raw Fish Street. Hướng dẫn đi metro và lịch trình tối."
 external_links:
 - title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
   url: "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"

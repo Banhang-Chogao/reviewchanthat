@@ -19,7 +19,7 @@ categories:
 - du-lich
 date: "2026-07-08 10:00:00+07:00"
 description: "Du lịch Hàn Quốc mùa hè nên đi đâu? Gợi ý 15 điểm tránh nóng, tránh mưa ở Seoul, Busan, Jeju kèm lịch trình chi tiết 3–7 ngày cho người đi lần đầu."
-draft: false
+description: "Du lịch Hàn Quốc mùa hè nên đi đâu? Gợi ý 15 điểm tránh nóng, tránh mưa ở Seoul, Busan, Jeju kèm lịch trình chi tiết 3–7 ngày cho người đi lần đầu."
 external_links:
 - title: https://english.visitkorea.or.kr
   url: "https://english.visitkorea.or.kr"

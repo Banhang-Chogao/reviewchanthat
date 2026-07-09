@@ -19,7 +19,7 @@ categories:
 - du-lich
 date: "2026-07-08 09:00:00+07:00"
 description: "Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế."
-draft: false
+description: "Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế."
 faq:
 - answer: Cách Seoul khoảng 100 km, di chuyển khoảng 1,5–2 giờ. Có thể đi trong ngày
     — shuttle bus cuối tuần từ Hongdae và Myeongdong. Ngày thường có thể đi KTX đến

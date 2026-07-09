@@ -21,7 +21,7 @@ categories:
 - du-lich
 date: "2026-07-08 19:30:00+07:00"
 description: "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình nửa ngày, cách đi ITX từ Seoul và mẹo chọn tuần đi khi thời tiết lạnh hơn tháng 10."
-draft: false
+description: "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình nửa ngày, cách đi ITX từ Seoul và mẹo chọn tuần đi khi thời tiết lạnh hơn tháng 10."
 external_links:
 - title: Visit Korea — Fall Foliage Forecast
   url: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
