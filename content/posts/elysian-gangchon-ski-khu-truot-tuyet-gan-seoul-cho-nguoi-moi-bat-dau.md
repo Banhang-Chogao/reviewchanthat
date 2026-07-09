@@ -17,11 +17,8 @@ description: Elysian Gangchon Ski Resort Chuncheon — resort trượt tuyết g
 draft: false
 faq:
   - {"answer": "Gần nhất trong các ski resort — chỉ khoảng 75 km. Bạn có thể đi tàu điện Seoul Metropolitan Subway (Gyeongchun Line) đến ga Baegyang-ri, sau đó bắt shuttle bus miễn phí từ exit 1 (20 phút/chuyến). Tổng thời gian khoảng 1,5 giờ.", "question": "Elysian Gangchon có gần Seoul không? Đi bằng gì?"}
-faq:
   - {"answer": "Rất hợp. Slopes được thiết kế dạng thung lũng, độ dốc nhẹ, an toàn. Có ski lesson riêng và theo nhóm. Nhiều người chọn resort này để học trượt lần đầu.", "question": "Elysian Gangchon hợp với người mới không?"}
-faq:
   - {"answer": "Có. Đây là resort phổ biến nhất cho day trip từ Seoul nhờ vị trí gần và shuttle bus tiện lợi. Đi sáng về tối rất khả thi.", "question": "Có nên đi Elysian Gangchon trong ngày không?"}
-faq:
   - {"answer": "Rất đông vào cuối tuần và ngày lễ — đặc biệt là khu thuê đồ và slope beginner. Các review trên Trip.com và Reddit đều khuyên đi ngày thường.", "question": "Resort này có đông không?"}
 image: images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp
 image_attribution_checked_at: >-
@@ -42,9 +39,7 @@ image_source_url: >-
   https://www.pexels.com/photo/a-person-in-black-and-green-jacket-wearing-helmet-and-goggles-12165429/
 internal_links:
   - {"ref": "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md", "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông"}
-internal_links:
   - {"ref": "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md", "title": "Vivaldi Park Ski World"}
-internal_links:
   - {"ref": "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md", "title": "Oak Valley"}
 series: truot-tuyet
 series_order: 3
@@ -52,37 +47,23 @@ series_title: Trượt tuyết Hàn Quốc
 slug: elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau
 tags:
   - du lịch Hàn Quốc
-tags:
   - Elysian Gangchon
-tags:
   - Chuncheon
-tags:
   - trượt tuyết Hàn Quốc
-tags:
   - ski resort Hàn Quốc
-tags:
   - beginner ski
-tags:
   - gangwon-do
-tags:
   - series trượt tuyết
 thumbnail: images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp
 title: >-
   Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu
 tom_tat_nhanh:
   - {"label": "Khu vực", "value": "Gangchon, Gangwon-do (75 km từ Seoul)"}
-tom_tat_nhanh:
   - {"label": "Loại trải nghiệm", "value": "Trượt tuyết trong ngày, ski school"}
-tom_tat_nhanh:
   - {"label": "Hợp với", "value": "Người mới bắt đầu, day trip từ Seoul"}
-tom_tat_nhanh:
   - {"label": "Thời gian nên dành", "value": "Trong ngày hoặc 1 đêm"}
-tom_tat_nhanh:
   - {"label": "Đi mùa nào hợp", "value": "Mùa đông (tháng 12–2)"}
-tom_tat_nhanh:
   - {"label": "Có cần đặt trước không", "value": "Có (shuttle bus, thuê đồ, vé)"}
-seo_title: >-
-  Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người
 ---
 
 Bạn mới tập trượt và chỉ có một ngày rảnh ở Seoul? Elysian Gangchon là cái tên đầu tiên mình nghĩ đến. Lý do đơn giản: đây là resort gần Seoul nhất trong tất cả, đi tàu điện đến được, không cần thuê xe.

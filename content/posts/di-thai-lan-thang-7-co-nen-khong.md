@@ -2,62 +2,65 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Tháng 7 là tháng thấp điểm du lịch Thái Lan, giá vé máy bay và khách sạn rẻ hơn 10–20% so với tháng 8 và giảm đến 40–50% so với mùa cao điểm cuối năm.", "Mưa tháng 7 chủ yếu vào chiều tối, sáng và trưa vẫn nắng — phù hợp nếu bạn linh hoạt lịch và có kế hoạch dự phòng indoor.", "Điểm đến được khuyên cho tháng 7 là Bangkok, Koh Samui và Chiang Mai; hạn chế Phuket và Krabi nếu mục tiêu chính là tắm biển.", "Lịch trình 5 ngày cho tháng 7 nên dành sáng cho hoạt động ngoài trời và chiều cho mall, spa, massage hoặc food tour."]
-  title: "Tóm tắt bài viết"
+  items:
+  - Tháng 7 là tháng thấp điểm du lịch Thái Lan, giá vé máy bay và khách sạn rẻ hơn
+    10–20% so với tháng 8 và giảm đến 40–50% so với mùa cao điểm cuối năm.
+  - Mưa tháng 7 chủ yếu vào chiều tối, sáng và trưa vẫn nắng — phù hợp nếu bạn linh
+    hoạt lịch và có kế hoạch dự phòng indoor.
+  - Điểm đến được khuyên cho tháng 7 là Bangkok, Koh Samui và Chiang Mai; hạn chế
+    Phuket và Krabi nếu mục tiêu chính là tắm biển.
+  - Lịch trình 5 ngày cho tháng 7 nên dành sáng cho hoạt động ngoài trời và chiều
+    cho mall, spa, massage hoặc food tour.
+  title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://sg.trip.com, https://www.tourismthailand.org, https://www.tatnews.org, https://www.bangkokairportonline.com."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://sg.trip.com, https://www.tourismthailand.org,
+    https://www.tatnews.org, https://www.bangkokairportonline.com.'
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - du-lich
+- du-lich
 date: 2026-07-08 10:00:00+07:00
-description: Đi Thái Lan tháng 7 có nên không? Phân tích thời tiết, chi phí, lịch trình tháng 7 và so sánh với tháng 8 — dành cho ngân sách thấp, muốn tránh đông.
+description: Đi Thái Lan tháng 7 có nên không? Phân tích thời tiết, chi phí, lịch
+  trình tháng 7 và so sánh với tháng 8 — dành cho ngân sách thấp, muốn tránh đông.
 draft: false
 image: images/posts/di-thai-lan-thang-7-co-nen-khong.webp
-image_attribution_checked_at: >-
-  2026-07-09T10:43:22+07:00
+image_attribution_checked_at: '2026-07-09T10:43:22+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: 
+image_creator: ''
 image_creator_id: 133607070
-image_creator_url: 
+image_creator_url: ''
 image_license: Pexels License
-image_license_url: >-
-  https://www.pexels.com/license/
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_source: Pexels
-image_source_url: >-
-  https://www.pexels.com/photo/scenic-riverside-in-bangkok-with-thai-architecture-31026228/
+image_source_url: https://www.pexels.com/photo/scenic-riverside-in-bangkok-with-thai-architecture-31026228/
 series:
-  - du-lich-thai-lan-mua-mua
+- du-lich-thai-lan-mua-mua
 series_order: 2
 series_title: Du lịch Thái Lan mùa mưa
 slug: di-thai-lan-thang-7-co-nen-khong
 tags:
-  - đi Thái Lan tháng 7
-tags:
-  - du lịch Thái Lan tháng 7
-tags:
-  - thời tiết Thái Lan tháng 7
-tags:
-  - lịch trình Thái Lan 5 ngày
-tags:
-  - du lịch giá rẻ Thái Lan
+- đi Thái Lan tháng 7
+- du lịch Thái Lan tháng 7
+- thời tiết Thái Lan tháng 7
+- lịch trình Thái Lan 5 ngày
+- du lịch giá rẻ Thái Lan
 thumbnail: images/posts/di-thai-lan-thang-7-co-nen-khong.webp
 title: Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý
 tom_tat_nhanh:
-  - {"label": "Nhiệt độ", "value": "24–32°C"}
-tom_tat_nhanh:
-  - {"label": "Mưa", "value": "12–18 ngày/tháng, mưa chiều"}
-tom_tat_nhanh:
-  - {"label": "Chi phí", "value": "Thấp hơn tháng 8 10–20%"}
-tom_tat_nhanh:
-  - {"label": "Phù hợp", "value": "Ngân sách thấp, linh hoạt lịch"}
-seo_title: Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và
+- label: Nhiệt độ
+  value: 24–32°C
+- label: Mưa
+  value: 12–18 ngày/tháng, mưa chiều
+- label: Chi phí
+  value: Thấp hơn tháng 8 10–20%
+- label: Phù hợp
+  value: Ngân sách thấp, linh hoạt lịch
 ---
 
 Tháng 7 là tháng thấp điểm nhất trong năm của du lịch Thái Lan — và cũng là tháng gây nhiều tranh cãi nhất. Một bên là vé máy bay giá rẻ, khách sạn giảm sâu, điểm tham quan vắng vẻ. Bên kia là nỗi lo mưa bão, tour đảo bị hủy, và kỳ nghỉ không như mong đợi.

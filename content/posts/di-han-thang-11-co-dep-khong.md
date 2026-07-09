@@ -2,69 +2,73 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Tháng 11 là tháng peak lá đỏ ở nhiều khu vực Hàn Quốc — đặc biệt Seoul và cung điện, nhưng thời điểm cụ thể thay đổi theo năm.", "Thời tiết lạnh hơn tháng 10 — sáng tối có thể dưới 5°C ở Seoul, cần áo khoác ấm và lớp giữ nhiệt.", "Seoraksan đầu tháng 11 vẫn đẹp; cuối tháng 11 có thể rụng lá nhiều hoặc gặp tuyết nhẹ trên núi.", "Series 11 bài — thời tiết, mặc gì, Seoul, Nami, Seoraksan, Busan, Jeju, lịch trình và chi phí."]
-  title: "Tóm tắt bài viết"
+  items:
+  - Tháng 11 là tháng peak lá đỏ ở nhiều khu vực Hàn Quốc — đặc biệt Seoul và cung
+    điện, nhưng thời điểm cụ thể thay đổi theo năm.
+  - Thời tiết lạnh hơn tháng 10 — sáng tối có thể dưới 5°C ở Seoul, cần áo khoác ấm
+    và lớp giữ nhiệt.
+  - Seoraksan đầu tháng 11 vẫn đẹp; cuối tháng 11 có thể rụng lá nhiều hoặc gặp tuyết
+    nhẹ trên núi.
+  - Series 11 bài — thời tiết, mặc gì, Seoul, Nami, Seoraksan, Busan, Jeju, lịch trình
+    và chi phí.
+  title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Tham khảo: https://english.visitkorea.or.kr, https://www.kma.go.kr, https://www.koreatodo.com"
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Tham khảo: https://english.visitkorea.or.kr, https://www.kma.go.kr,
+    https://www.koreatodo.com'
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - du-lich
+- du-lich
 date: 2026-07-08 17:00:00+07:00
-description: Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết lạnh, mặc gì, lịch trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt.
+description: Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết lạnh, mặc gì, lịch
+  trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt.
 draft: false
 external_links:
-  - {"title": "Visit Korea — Fall Foliage Forecast", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"}
-external_links:
-  - {"title": "KoreaToDo — Top Autumn Foliage Sites", "url": "https://www.koreatodo.com/top-autumn-foliage-sites-korea"}
-external_links:
-  - {"title": "Visit Korea — Seoul Fall Forests", "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=230041"}
-external_links:
-  - {"title": "Korea Meteorological Administration", "url": "https://www.kma.go.kr"}
+- title: Visit Korea — Fall Foliage Forecast
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
+- title: KoreaToDo — Top Autumn Foliage Sites
+  url: https://www.koreatodo.com/top-autumn-foliage-sites-korea
+- title: Visit Korea — Seoul Fall Forests
+  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=230041
+- title: Korea Meteorological Administration
+  url: https://www.kma.go.kr
 image: images/posts/di-han-thang-11-co-dep-khong.webp
-image_attribution_checked_at: >-
-  2026-07-09T15:38:10+07:00
+image_attribution_checked_at: '2026-07-09T15:38:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Quang Nguyen Vinh
-image_creator_id: 222549
-image_creator_url: >-
-  https://www.pexels.com/@quang-nguyen-vinh-222549
+image_creator_id: '222549'
+image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
 image_license: Pexels License
-image_license_url: >-
-  https://www.pexels.com/license/
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: >-
-  https://www.pexels.com/photo/pexels-photo-2131620/
+image_source_url: https://www.pexels.com/photo/pexels-photo-2131620/
 series: di-han-thang-11
 series_order: 1
 series_title: Đi Hàn tháng 11
 slug: di-han-thang-11-co-dep-khong
 tags:
-  - đi Hàn tháng 11
-tags:
-  - du lịch Hàn Quốc
-tags:
-  - Hàn Quốc mùa thu
-tags:
-  - lá đỏ Hàn Quốc
-tags:
-  - Seoul tháng 11
+- đi Hàn tháng 11
+- du lịch Hàn Quốc
+- Hàn Quốc mùa thu
+- lá đỏ Hàn Quốc
+- Seoul tháng 11
 thumbnail: images/posts/di-han-thang-11-co-dep-khong.webp
-title: Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên chọn
+title: Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên
+  chọn
 tom_tat_nhanh:
-  - {"label": "Mùa", "value": "Cuối thu — lạnh dần, peak lá nhiều nơi"}
-tom_tat_nhanh:
-  - {"label": "Lá đổi màu", "value": "Peak Seoul thường đầu–giữa tháng 11"}
-tom_tat_nhanh:
-  - {"label": "Phù hợp", "value": "Ngắm lá peak, cung đình, công viên"}
-tom_tat_nhanh:
-  - {"label": "Lưu ý", "value": "Lạnh hơn tháng 10, trời tối sớm"}
-seo_title: Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì
+- label: Mùa
+  value: Cuối thu — lạnh dần, peak lá nhiều nơi
+- label: Lá đổi màu
+  value: Peak Seoul thường đầu–giữa tháng 11
+- label: Phù hợp
+  value: Ngắm lá peak, cung đình, công viên
+- label: Lưu ý
+  value: Lạnh hơn tháng 10, trời tối sớm
 ---
 
 Bạn đang cân nhắc **đi Hàn tháng 11** sau khi thấy ảnh lá đỏ rực ở Seoul, Bukchon hay cung điện — và tự hỏi: *tháng 11 có còn đẹp không, hay đã muộn so với tháng 10?* Câu trả lời ngắn: **tháng 11 thường là tháng peak lá đỏ ở Seoul và nhiều khu vực đô thị**, nhưng **lạnh hơn rõ** so với tháng 10 và một số núi cao có thể **đã rụng lá** vào cuối tháng. Trải nghiệm cụ thể phụ thuộc **bạn đi đầu hay cuối tháng 11**, và **năm đó lá đỏ đến sớm hay muộn**.

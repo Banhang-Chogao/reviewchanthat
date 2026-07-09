@@ -1,85 +1,93 @@
 ---
 ai_summary:
   collapsed: false
-  disclaimer: "Thời tiết, lễ hội và chi phí du lịch có thể thay đổi; hãy kiểm tra nguồn chính thức và dự báo gần ngày đi."
+  disclaimer: Thời tiết, lễ hội và chi phí du lịch có thể thay đổi; hãy kiểm tra nguồn
+    chính thức và dự báo gần ngày đi.
   enabled: true
-  items: ["Tháng 7 ở Hàn Quốc hợp với người thích không khí mùa hè, biển, festival và lịch trình linh hoạt, nhưng cần chuẩn bị cho nóng ẩm và mưa.", "Seoul hợp đi lần đầu vì dễ di chuyển và có nhiều điểm indoor; Busan hợp người muốn biển và không khí nghỉ dưỡng; Jeju hợp người thuê xe hoặc thích thiên nhiên.", "Lịch trình nên có phương án dự phòng ngày mưa, ưu tiên bảo tàng, mall, cafe, spa, thủy cung hoặc khu mua sắm trong nhà.", "Nên mang đồ mỏng nhẹ, áo khoác mưa, giày nhanh khô, kem chống nắng và kiểm tra cảnh báo thời tiết trước mỗi chặng."]
-  title: "Tóm tắt nhanh"
+  items:
+  - Tháng 7 ở Hàn Quốc hợp với người thích không khí mùa hè, biển, festival và lịch
+    trình linh hoạt, nhưng cần chuẩn bị cho nóng ẩm và mưa.
+  - Seoul hợp đi lần đầu vì dễ di chuyển và có nhiều điểm indoor; Busan hợp người
+    muốn biển và không khí nghỉ dưỡng; Jeju hợp người thuê xe hoặc thích thiên nhiên.
+  - Lịch trình nên có phương án dự phòng ngày mưa, ưu tiên bảo tàng, mall, cafe, spa,
+    thủy cung hoặc khu mua sắm trong nhà.
+  - Nên mang đồ mỏng nhẹ, áo khoác mưa, giày nhanh khô, kem chống nắng và kiểm tra
+    cảnh báo thời tiết trước mỗi chặng.
+  title: Tóm tắt nhanh
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.kma.go.kr, https://mudfestival.or.kr."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
+    https://www.kma.go.kr, https://mudfestival.or.kr.'
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - du-lich
+- du-lich
 date: 2026-07-09 08:00:00+07:00
-description: >-
-  Gợi ý du lịch Hàn Quốc tháng 7 năm 2026 cho người đi tự túc: thời tiết, nên đi Seoul, Busan hay Jeju, mặc gì, lịch trình gợi ý và lưu ý mùa mưa.
+description: 'Gợi ý du lịch Hàn Quốc tháng 7 năm 2026 cho người đi tự túc: thời tiết,
+  nên đi Seoul, Busan hay Jeju, mặc gì, lịch trình gợi ý và lưu ý mùa mưa.'
 draft: false
 faq:
-  - {"answer": "Có. Tháng 7 nằm trong mùa mưa Changma, thường là tháng mưa nhiều nhất năm ở Seoul. Mưa hay đến theo đợt, xen giữa vẫn có ngày nắng nóng. Nên xem dự báo KMA sát ngày đi.", "question": "Hàn Quốc tháng 7 có mưa không?"}
-faq:
-  - {"answer": "Đồ mỏng nhẹ, thoáng khí và nhanh khô. Mang thêm áo mưa gấp gọn hoặc ô, giày thoát nước tốt, và một lớp mỏng dài tay cho không gian máy lạnh trong nhà.", "question": "Hàn Quốc tháng 7 mặc gì?"}
-faq:
-  - {"answer": "Đi lần đầu nên chọn Seoul vì nhiều điểm trong nhà, dễ xoay lịch khi mưa. Muốn biển thì Busan. Jeju hợp người thuê xe và chấp nhận thời tiết thay đổi nhanh.", "question": "Tháng 7 nên đi Seoul, Busan hay Jeju?"}
-faq:
-  - {"answer": "Boryeong Mud Festival lần thứ 29 diễn ra từ 24/07 đến 09/08/2026 tại bãi biển Daecheon, theo trang chính thức của lễ hội. Nên kiểm tra lại lịch và chương trình trước khi đặt vé.", "question": "Tháng 7 năm 2026 ở Hàn có lễ hội gì lớn?"}
+- answer: Có. Tháng 7 nằm trong mùa mưa Changma, thường là tháng mưa nhiều nhất năm
+    ở Seoul. Mưa hay đến theo đợt, xen giữa vẫn có ngày nắng nóng. Nên xem dự báo
+    KMA sát ngày đi.
+  question: Hàn Quốc tháng 7 có mưa không?
+- answer: Đồ mỏng nhẹ, thoáng khí và nhanh khô. Mang thêm áo mưa gấp gọn hoặc ô, giày
+    thoát nước tốt, và một lớp mỏng dài tay cho không gian máy lạnh trong nhà.
+  question: Hàn Quốc tháng 7 mặc gì?
+- answer: Đi lần đầu nên chọn Seoul vì nhiều điểm trong nhà, dễ xoay lịch khi mưa.
+    Muốn biển thì Busan. Jeju hợp người thuê xe và chấp nhận thời tiết thay đổi nhanh.
+  question: Tháng 7 nên đi Seoul, Busan hay Jeju?
+- answer: Boryeong Mud Festival lần thứ 29 diễn ra từ 24/07 đến 09/08/2026 tại bãi
+    biển Daecheon, theo trang chính thức của lễ hội. Nên kiểm tra lại lịch và chương
+    trình trước khi đặt vé.
+  question: Tháng 7 năm 2026 ở Hàn có lễ hội gì lớn?
 image: images/posts/goi-y-du-lich-han-quoc-thang-7-2026.webp
-image_alt: >-
-  Ảnh minh họa Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất? — nguồn Pexels
-image_attribution_checked_at: >-
-  2026-07-09T15:38:12+07:00
+image_alt: 'Ảnh minh họa Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và
+  lịch trình nào hợp nhất? — nguồn Pexels'
+image_attribution_checked_at: '2026-07-09T15:38:12+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_color_score: 12.0
 image_commercial_use: true
 image_creator: Jhany Blue
-image_creator_id: 
-image_creator_url: >-
-  https://www.pexels.com/@jhany-blue-436502581
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@jhany-blue-436502581
 image_license: Pexels License
 image_owner: external
 image_provider: pexels
 image_query: busan korea skyline
 image_semantic_score: 32.26
 image_source: Pexels
-image_source_url: >-
-  https://www.pexels.com/photo/vibrant-night-view-of-busan-s-coastal-skyline-29188029/
+image_source_url: https://www.pexels.com/photo/vibrant-night-view-of-busan-s-coastal-skyline-29188029/
 image_status: verified
 image_total_score: 67.76
 internal_links:
-  - {"ref": "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md", "title": "Hàn Quốc tháng 7 có đẹp không?"}
-internal_links:
-  - {"ref": "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md", "title": "Du lịch Hàn Quốc mùa hè nên đi đâu?"}
-internal_links:
-  - {"ref": "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md", "title": "Seoul ngày mưa nên đi đâu?"}
-internal_links:
-  - {"ref": "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md", "title": "Đi Jeju tháng 7-8 có mưa không?"}
-internal_links:
-  - {"ref": "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md", "title": "Lịch trình Seoul 3 ngày mùa mưa"}
-internal_links:
-  - {"ref": "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md", "title": "Checklist vali đi Hàn mùa hè"}
-internal_links:
-  - {"ref": "posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.md", "title": "Xin visa Hàn Quốc du lịch tự túc"}
+- ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
+  title: Hàn Quốc tháng 7 có đẹp không?
+- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
+  title: Du lịch Hàn Quốc mùa hè nên đi đâu?
+- ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
+  title: Seoul ngày mưa nên đi đâu?
+- ref: posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md
+  title: Đi Jeju tháng 7-8 có mưa không?
+- ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
+  title: Lịch trình Seoul 3 ngày mùa mưa
+- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
+  title: Checklist vali đi Hàn mùa hè
+- ref: posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.md
+  title: Xin visa Hàn Quốc du lịch tự túc
 slug: goi-y-du-lich-han-quoc-thang-7-2026
 tags:
-  - du lịch Hàn Quốc
-tags:
-  - Hàn Quốc tháng 7
-tags:
-  - du lịch Hàn Quốc 2026
-tags:
-  - Seoul tháng 7
-tags:
-  - Busan tháng 7
-tags:
-  - Jeju tháng 7
+- du lịch Hàn Quốc
+- Hàn Quốc tháng 7
+- du lịch Hàn Quốc 2026
+- Seoul tháng 7
+- Busan tháng 7
+- Jeju tháng 7
 thumbnail: images/posts/goi-y-du-lich-han-quoc-thang-7-2026.webp
-title: >-
-  Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?
-seo_title: >-
-  Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và
+title: 'Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào
+  hợp nhất?'
 ---
 
 Tháng 7 không phải là "mùa đẹp trong bưu thiếp" của Hàn Quốc — đó là mùa hè thật sự: nóng, ẩm, thỉnh thoảng mưa xối xả, nhưng đổi lại là biển, lễ hội và giá phòng chưa chạm đỉnh cao điểm tháng 8. Nếu bạn đang cân nhắc du lịch Hàn Quốc tháng 7 năm 2026, bài này gom lại những gì cần biết: thời tiết ra sao, nên chọn Seoul, Busan hay Jeju, mặc gì cho đúng và xếp lịch trình thế nào để mưa không phá hỏng chuyến đi.

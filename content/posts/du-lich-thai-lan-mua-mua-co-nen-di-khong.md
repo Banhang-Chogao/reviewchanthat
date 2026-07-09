@@ -21,7 +21,9 @@ image_attribution_checked_at: >-
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
+image_creator: 
 image_creator_id: 75706404
+image_creator_url: 
 image_license: Pexels License
 image_license_url: >-
   https://www.pexels.com/license/
@@ -37,27 +39,18 @@ series_title: Du lịch Thái Lan mùa mưa
 slug: du-lich-thai-lan-mua-mua-co-nen-di-khong
 tags:
   - du lịch Thái Lan mùa mưa
-tags:
   - Bangkok mùa mưa
-tags:
   - Phuket mùa mưa
-tags:
   - Chiang Mai mùa mưa
-tags:
   - Koh Samui tháng 7
 thumbnail: images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp
 title: Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu
 tom_tat_nhanh:
   - {"label": "Thời gian", "value": "Tháng 7–8 (giữa mùa mưa)"}
-tom_tat_nhanh:
   - {"label": "Điểm đến chính", "value": "Bangkok, Phuket, Krabi, Chiang Mai, Koh Samui"}
-tom_tat_nhanh:
   - {"label": "Ngân sách", "value": "5–15 triệu VND / người"}
-tom_tat_nhanh:
   - {"label": "Ưu điểm", "value": "Giá rẻ, vắng khách, cảnh xanh"}
-tom_tat_nhanh:
   - {"label": "Nhược điểm", "value": "Mưa chiều, biển động Andaman"}
-seo_title: Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket,
 ---
 
 Mùa mưa Thái Lan kéo dài từ tháng 6 đến tháng 10, cao điểm vào tháng 7–9. Đây là khoảng thời gian nhiều người Việt phân vân nhất: vé máy bay rẻ, khách sạn giảm sâu, nhưng liệu có "đi mưa cả ngày" hay không? Câu trả lời ngắn gọn là: **tùy vào điểm đến và cách bạn lên lịch**.

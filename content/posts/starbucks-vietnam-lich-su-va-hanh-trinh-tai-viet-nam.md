@@ -2,70 +2,73 @@
 ai_summary:
   collapsed: false
   enabled: true
-  items: ["Starbucks chính thức vào Việt Nam năm 2013, cửa hàng đầu tiên mở tại Bitexco Financial Tower (Quận 1, TP.HCM).", "Thương hiệu hợp tác với Maxim's Caterers để vận hành chuỗi, mở rộng dần sang Hà Nội và nhiều thành phố lớn.", "Sau hơn một thập kỷ, Starbucks Vietnam trở thành điểm hẹn quen thuộc của người làm việc, học sinh sinh viên và khách du lịch.", "Series tiếp theo đi sâu vào trải nghiệm thực tế — đặc biệt chi nhánh Nguyễn Văn Trỗi tại Sài Gòn."]
-  title: "Tóm tắt bài viết"
+  items:
+  - Starbucks chính thức vào Việt Nam năm 2013, cửa hàng đầu tiên mở tại Bitexco Financial
+    Tower (Quận 1, TP.HCM).
+  - Thương hiệu hợp tác với Maxim's Caterers để vận hành chuỗi, mở rộng dần sang Hà
+    Nội và nhiều thành phố lớn.
+  - Sau hơn một thập kỷ, Starbucks Vietnam trở thành điểm hẹn quen thuộc của người
+    làm việc, học sinh sinh viên và khách du lịch.
+  - Series tiếp theo đi sâu vào trải nghiệm thực tế — đặc biệt chi nhánh Nguyễn Văn
+    Trỗi tại Sài Gòn.
+  title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Tổng hợp từ nguồn công khai và trải nghiệm cá nhân."
-  source_note: "Thông tin lịch sử tham khảo Starbucks Stories Asia, báo VnExpress, GCR Magazine và Wikipedia."
+  copyright: © 2026 Review Chân Thật. Tổng hợp từ nguồn công khai và trải nghiệm cá
+    nhân.
+  source_note: Thông tin lịch sử tham khảo Starbucks Stories Asia, báo VnExpress,
+    GCR Magazine và Wikipedia.
 author: Minh Hoàng
-avatar: >-
-  https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
-  - review
+- review
 date: 2026-07-08 14:00:00+07:00
-description: Hành trình Starbucks vào Việt Nam từ 2013 — cửa hàng đầu tiên tại Bitexco, đối tác vận hành và cách thương hiệu trở thành điểm hẹn cà phê quen thuộc tại Sài
+description: Hành trình Starbucks vào Việt Nam từ 2013 — cửa hàng đầu tiên tại Bitexco,
+  đối tác vận hành và cách thương hiệu trở thành điểm hẹn cà phê quen thuộc tại Sài
+  Gòn, Hà Nội.
 draft: false
 external_links:
-  - {"title": "Starbucks Stories — Debut flagship store Ho Chi Minh City (2013)", "url": "https://stories.starbucks.com/asia/stories/2013/starbucks-debuts-iconic-flagship-store-in-ho-chi-minh-city-honoring-vietnam/"}
-external_links:
-  - {"title": "Starbucks Stories — Entry into Vietnam market (2013)", "url": "https://stories.starbucks.com/asia/stories/2013/starbucks-announces-much-anticipated-entry-into-the-dynamic-vietnam-market/"}
-external_links:
-  - {"title": "Starbucks Stories — 10 years in Vietnam (2023)", "url": "https://stories.starbucks.com/asia/stories/2023/starbucks-celebrates-10-years-in-vietnam/"}
-external_links:
-  - {"title": "GCR Magazine — First Starbucks opens in Vietnam", "url": "https://www.gcrmag.com/first-starbucks-opens-in-vietnam/"}
+- title: Starbucks Stories — Debut flagship store Ho Chi Minh City (2013)
+  url: https://stories.starbucks.com/asia/stories/2013/starbucks-debuts-iconic-flagship-store-in-ho-chi-minh-city-honoring-vietnam/
+- title: Starbucks Stories — Entry into Vietnam market (2013)
+  url: https://stories.starbucks.com/asia/stories/2013/starbucks-announces-much-anticipated-entry-into-the-dynamic-vietnam-market/
+- title: Starbucks Stories — 10 years in Vietnam (2023)
+  url: https://stories.starbucks.com/asia/stories/2023/starbucks-celebrates-10-years-in-vietnam/
+- title: GCR Magazine — First Starbucks opens in Vietnam
+  url: https://www.gcrmag.com/first-starbucks-opens-in-vietnam/
 image: images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp
-image_attribution_checked_at: >-
-  2026-07-09T15:38:07+07:00
+image_attribution_checked_at: '2026-07-09T15:38:07+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Chevanon Photography
-image_creator_id: 93955
-image_creator_url: >-
-  https://www.pexels.com/@chevanon
+image_creator_id: '93955'
+image_creator_url: https://www.pexels.com/@chevanon
 image_license: Pexels License
-image_license_url: >-
-  https://www.pexels.com/license/
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_source: Pexels
-image_source_url: >-
-  https://www.pexels.com/photo/starbucks-coffee-sign-302899/
+image_source_url: https://www.pexels.com/photo/starbucks-coffee-sign-302899/
 series: starbucks-vietnam
 series_order: 1
-series_title: >-
-  Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế
+series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
 slug: starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam
 tags:
-  - Starbucks
-tags:
-  - Starbucks Vietnam
-tags:
-  - cà phê Sài Gòn
-tags:
-  - lịch sử Starbucks
-tags:
-  - review quán cà phê
+- Starbucks
+- Starbucks Vietnam
+- cà phê Sài Gòn
+- lịch sử Starbucks
+- review quán cà phê
 thumbnail: images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp
-title: >-
-  Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam
+title: 'Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam'
 tom_tat_nhanh:
-  - {"label": "Mốc thời gian", "value": "Vào thị trường Việt Nam năm 2013"}
-tom_tat_nhanh:
-  - {"label": "Cửa hàng đầu", "value": "Bitexco Financial Tower, Quận 1, TP.HCM"}
-tom_tat_nhanh:
-  - {"label": "Đối tác", "value": "Maxim's Caterers (Hong Kong)"}
-tom_tat_nhanh:
-  - {"label": "Series", "value": "6 bài — review Nguyễn Văn Trỗi ở bài 2"}
+- label: Mốc thời gian
+  value: Vào thị trường Việt Nam năm 2013
+- label: Cửa hàng đầu
+  value: Bitexco Financial Tower, Quận 1, TP.HCM
+- label: Đối tác
+  value: Maxim's Caterers (Hong Kong)
+- label: Series
+  value: 6 bài — review Nguyễn Văn Trỗi ở bài 2
 ---
 
 Nếu bạn từng đứng trước quầy Starbucks ở Sài Gòn, gọi một ly Caramel Macchiato rồi ngồi nhìn dòng xe qua lại, có lẽ ít ai nghĩ thương hiệu này mới chỉ có mặt tại Việt Nam hơn một thập kỷ. Với nhiều người trẻ, Starbucks không chỉ là quán cà phê — mà là không gian làm việc, chỗ hẹn bạn bè, hoặc điểm dừng chân ngắn giữa các cuộc họp.
