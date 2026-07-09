@@ -8,6 +8,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import random
 import time
 from typing import Any
 from urllib.parse import quote
@@ -158,6 +159,38 @@ PROVIDER_SEARCH = {
     "Unsplash": _search_unsplash,
 }
 
+MIX_PROVIDERS = ("Pexels", "Pixabay")
+
+
+def _provider_name(candidate: dict[str, Any]) -> str:
+    return clean_text(candidate.get("source_platform", ""))
+
+
+def choose_accepted_candidate(
+    ranked: list[dict[str, Any]],
+    provider_balance: dict[str, int] | None = None,
+) -> dict[str, Any] | None:
+    """Pick a gate-approved image, balancing Pexels/Pixabay with random tie-breaks."""
+    accepted = [item for item in ranked if item.get("accepted")]
+    if not accepted:
+        return None
+
+    mix_accepted = [a for a in accepted if _provider_name(a) in MIX_PROVIDERS]
+    pool = mix_accepted or accepted
+
+    if provider_balance:
+        counts = {name: provider_balance.get(name, 0) for name in MIX_PROVIDERS}
+        min_count = min(counts.values()) if counts else 0
+        underused = [name for name, count in counts.items() if count == min_count]
+        preferred = random.choice(underused)
+        preferred_pool = [a for a in pool if _provider_name(a) == preferred]
+        if preferred_pool:
+            pool = preferred_pool
+
+    max_score = max(item["gate"]["total_score"] for item in pool)
+    top = [item for item in pool if item["gate"]["total_score"] >= max_score - 5]
+    return random.choice(top)
+
 
 def collect_candidates(
     post: dict[str, Any],
@@ -171,7 +204,9 @@ def collect_candidates(
     seen_urls: set[str] = set()
 
     for query in ctx.all_queries():
-        for provider in providers:
+        provider_order = list(providers)
+        random.shuffle(provider_order)
+        for provider in provider_order:
             search_fn = PROVIDER_SEARCH.get(provider.name)
             if not search_fn:
                 raw = provider.search(query, post)
@@ -204,6 +239,7 @@ def select_best_image(
     used_urls: set[str] | None = None,
     used_hashes: set[str] | None = None,
     download_for_gate: bool = True,
+    provider_balance: dict[str, int] | None = None,
 ) -> dict[str, Any] | None:
     load_dotenv()
     if providers is None:
@@ -219,19 +255,19 @@ def select_best_image(
     slug = post.get("slug", "post")
     save_candidates_debug(slug, ranked)
 
-    for item in ranked:
-        if item.get("accepted"):
-            gate = item.get("gate", {})
-            return {
-                "candidate": item,
-                "context": ctx,
-                "image_alt": build_vietnamese_alt(ctx, item),
-                "image_query": item.get("query", ""),
-                "image_semantic_score": gate.get("semantic_score", 0),
-                "image_color_score": gate.get("color_score", 0),
-                "image_total_score": gate.get("total_score", 0),
-                "watermark_text": attribution_text(item.get("source_platform", ""), item.get("creator", "")),
-            }
+    item = choose_accepted_candidate(ranked, provider_balance=provider_balance)
+    if item:
+        gate = item.get("gate", {})
+        return {
+            "candidate": item,
+            "context": ctx,
+            "image_alt": build_vietnamese_alt(ctx, item),
+            "image_query": item.get("query", ""),
+            "image_semantic_score": gate.get("semantic_score", 0),
+            "image_color_score": gate.get("color_score", 0),
+            "image_total_score": gate.get("total_score", 0),
+            "watermark_text": attribution_text(item.get("source_platform", ""), item.get("creator", "")),
+        }
     return {
         "candidate": None,
         "context": ctx,

@@ -210,6 +210,7 @@ def main():
             print("All posts already have valid real images.")
     else:
         print(f"\nPosts needing real images: {len(needs_image)}")
+        provider_balance = {"Pexels": 0, "Pixabay": 0}
         for post in needs_image:
             slug = post["slug"]
             title = post.get("title", slug)
@@ -222,6 +223,7 @@ def main():
                 body=body,
                 providers=enabled_providers,
                 used_urls=used_urls,
+                provider_balance=provider_balance,
             )
             selected = gate_result.get("candidate") if gate_result else None
             selected_provider = clean_text(selected.get("source_platform")) if selected else None
@@ -246,9 +248,12 @@ def main():
                     prov_key = selected_provider
                     selection_report["summary"]["providers_used"][prov_key] = \
                         selection_report["summary"]["providers_used"].get(prov_key, 0) + 1
+                    if prov_key in provider_balance:
+                        provider_balance[prov_key] += 1
                     print(
                         f"    => GATE ACCEPTED from {selected_provider}: "
-                        f"score={entry.get('image_total_score')} query={entry.get('image_query')}"
+                        f"score={entry.get('image_total_score')} query={entry.get('image_query')} "
+                        f"mix={provider_balance}"
                     )
 
             if not selected:
