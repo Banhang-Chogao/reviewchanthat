@@ -42,9 +42,95 @@
     return data || { temp: '20-25°C', conditions: 'Pleasant' };
   }
 
-  function getCurrencySymbol(currency) {
-    var map = { 'JPY': '¥', 'KRW': '₩', 'THB': '฿', 'SGD': 'S$', 'EUR': '€', 'VND': '₫', 'AED': 'د.إ', 'GBP': '£', 'USD': '$' };
-    return map[currency] || currency;
+  var DEFAULT_CURRENCY = 'USD';
+
+  var BUDGET_RANGES = {
+    USD: { 'luxury': 300, 'mid-range': 150, 'budget': 80 },
+    JPY: { 'luxury': 45000, 'mid-range': 22000, 'budget': 12000 },
+    KRW: { 'luxury': 400000, 'mid-range': 200000, 'budget': 100000 },
+    THB: { 'luxury': 10000, 'mid-range': 5000, 'budget': 2500 },
+    SGD: { 'luxury': 450, 'mid-range': 220, 'budget': 110 },
+    EUR: { 'luxury': 280, 'mid-range': 140, 'budget': 75 },
+    VND: { 'luxury': 7000000, 'mid-range': 3500000, 'budget': 1800000 },
+    AED: { 'luxury': 1100, 'mid-range': 550, 'budget': 300 },
+    GBP: { 'luxury': 240, 'mid-range': 120, 'budget': 65 },
+    MYR: { 'luxury': 1200, 'mid-range': 600, 'budget': 300 },
+    PHP: { 'luxury': 17000, 'mid-range': 8500, 'budget': 4500 },
+    IDR: { 'luxury': 5000000, 'mid-range': 2500000, 'budget': 1300000 },
+    CNY: { 'luxury': 2200, 'mid-range': 1100, 'budget': 600 },
+    HKD: { 'luxury': 2400, 'mid-range': 1200, 'budget': 650 },
+    TWD: { 'luxury': 9500, 'mid-range': 4800, 'budget': 2500 },
+    AUD: { 'luxury': 450, 'mid-range': 230, 'budget': 120 },
+    INR: { 'luxury': 25000, 'mid-range': 12000, 'budget': 6500 },
+    TRY: { 'luxury': 10000, 'mid-range': 5000, 'budget': 2600 },
+    CHF: { 'luxury': 280, 'mid-range': 150, 'budget': 85 },
+    DKK: { 'luxury': 2100, 'mid-range': 1050, 'budget': 560 },
+    SEK: { 'luxury': 3200, 'mid-range': 1600, 'budget': 850 },
+    CZK: { 'luxury': 7000, 'mid-range': 3500, 'budget': 1900 },
+    HUF: { 'luxury': 110000, 'mid-range': 55000, 'budget': 30000 }
+  };
+
+  var COUNTRY_CURRENCY_MAP = {
+    'South Korea': 'KRW',
+    'Republic of Korea': 'KRW',
+    'Korea, Republic of': 'KRW',
+    'Japan': 'JPY',
+    'Thailand': 'THB',
+    'Vietnam': 'VND',
+    'Singapore': 'SGD',
+    'France': 'EUR',
+    'Italy': 'EUR',
+    'Spain': 'EUR',
+    'Germany': 'EUR',
+    'Netherlands': 'EUR',
+    'Portugal': 'EUR',
+    'Austria': 'EUR',
+    'Greece': 'EUR',
+    'Finland': 'EUR',
+    'United Arab Emirates': 'AED',
+    'UAE': 'AED',
+    'United Kingdom': 'GBP',
+    'UK': 'GBP',
+    'Malaysia': 'MYR',
+    'Philippines': 'PHP',
+    'Indonesia': 'IDR',
+    'China': 'CNY',
+    'Hong Kong': 'HKD',
+    'Taiwan': 'TWD',
+    'Australia': 'AUD',
+    'United States': 'USD',
+    'India': 'INR',
+    'Turkey': 'TRY',
+    'Switzerland': 'CHF',
+    'Denmark': 'DKK',
+    'Sweden': 'SEK',
+    'Czech Republic': 'CZK',
+    'Hungary': 'HUF'
+  };
+
+  function normalizeCurrency(currency) {
+    return (currency || DEFAULT_CURRENCY).toString().trim().toUpperCase();
+  }
+
+  function resolveCurrency(curated, destData) {
+    if (curated && curated.currency) return normalizeCurrency(curated.currency);
+    if (destData && destData.currency) return normalizeCurrency(destData.currency);
+    return COUNTRY_CURRENCY_MAP[destData && destData.country] || DEFAULT_CURRENCY;
+  }
+
+  function getDailyBudget(currency, budget) {
+    var ranges = BUDGET_RANGES[currency] || BUDGET_RANGES[DEFAULT_CURRENCY];
+    return ranges[budget] || ranges['mid-range'];
+  }
+
+  function getTravelerMultiplier(tripData) {
+    var adults = Math.max(parseInt(tripData.adults, 10) || 1, 1);
+    var children = Math.max(parseInt(tripData.children, 10) || 0, 0);
+    return adults + (children * 0.6);
+  }
+
+  function formatMoney(amount, currency) {
+    return currency + ' ' + Math.round(amount).toLocaleString('en-US');
   }
 
   function shuffle(arr) {
@@ -101,17 +187,23 @@
       var budget = tripData.budget || 'mid-range';
 
       var dailyItinerary = this.generateDailyActivities(curated, city, country, days, budget, tripData);
-      var budgetDaily = { 'luxury': 300, 'mid-range': 150, 'budget': 80 };
-      var daily = budgetDaily[budget] || 150;
-      var totalMin = daily * days;
-      var totalMax = Math.round(daily * 1.3 * days);
+      var currency = resolveCurrency(curated, destData);
+      var daily = getDailyBudget(currency, budget);
+      var travelerMultiplier = getTravelerMultiplier(tripData);
+      var totalMin = Math.round(daily * days * travelerMultiplier);
+      var totalMax = Math.round(totalMin * 1.3);
 
       return {
+        currency: currency,
+        budget: budget,
+        dailyBudget: daily,
+        estimatedBudgetMin: totalMin,
+        estimatedBudgetMax: totalMax,
         weather: weather.temp + ', ' + weather.conditions,
         weatherNotes: 'Packing: ' + this.getWeatherPackingAdvice(weather),
         hotelArea: curated ? curated.hotel_areas : 'Central district near main attractions',
         transportation: curated ? curated.transport : 'Public transit recommended. Download local ride-hailing app.',
-        estimatedBudget: getCurrencySymbol(curated && curated.currency) + totalMin.toLocaleString() + ' - ' + getCurrencySymbol(curated && curated.currency) + totalMax.toLocaleString() + ' (' + tripData.adults + ' adult(s)' + (tripData.children > 0 ? ', ' + tripData.children + ' child(ren)' : '') + ')',
+        estimatedBudget: formatMoney(totalMin, currency) + ' - ' + formatMoney(totalMax, currency) + ' (' + tripData.adults + ' adult(s)' + (tripData.children > 0 ? ', ' + tripData.children + ' child(ren)' : '') + ')',
         packingList: this.getPackingList(weather, budget),
         localTips: curated ? curated.local_tips : 'Check local customs and be respectful. Download offline maps. Learn basic phrases.',
         emergencyNumbers: curated ? curated.emergency_numbers : 'Call your embassy. Local 999/911 variants exist.',
