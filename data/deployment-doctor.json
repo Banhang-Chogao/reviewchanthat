@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T04:02:45+07:00",
-  "generated_at_display": "11-07-2026 04:02:45",
+  "generated_at": "2026-07-11T04:05:13+07:00",
+  "generated_at_display": "11-07-2026 04:05:13",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -352,28 +352,27 @@
     {
       "run_id": "29123081418",
       "failure_type": "date_only_or_wrong_timezone",
-      "result": "skipped",
-      "detail": "qa_dates exit=0 changed=False",
-      "script": "fix_date_only_or_timezone"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 4ebba49de86b:date_only_or_wrong_timezone already attempted 2 times"
     },
     {
       "run_id": "29123344012",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 7ba386227963:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29123340857",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 7ba386227963:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29123278252",
       "failure_type": "workflow_fanout",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
     },
     {
       "run_id": "29122761078",
