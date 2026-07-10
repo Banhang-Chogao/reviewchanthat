@@ -1,7 +1,7 @@
 +++
 title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
 description = "Goldman Sachs, JPMorgan dùng toán học gì? Học algorithmic trading, derivatives pricing, volatility smile, Greeks (delta, gamma, vega), stochastic models, machine learning."
-date = "2026-07-10T20:15:00+07:00"
+date = "2026-07-10T13:16:14+07:00"
 lastmod = "2026-07-10T20:15:00+07:00"
 seo_title = "Goldman Sachs, JPMorgan: derivatives pricing, Greeks, HFT"
 authors = ["Minh Hoàng"]

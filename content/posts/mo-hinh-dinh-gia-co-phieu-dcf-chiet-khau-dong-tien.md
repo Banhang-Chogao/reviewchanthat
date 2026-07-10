@@ -1,7 +1,7 @@
 +++
 title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
 description = "Định giá cổ phiếu dùng toán học nào? Học Discounted Cash Flow (DCF), P/E ratio, PEG, EV/EBITDA, terminal value, và so sánh tương đối."
-date = "2026-07-10T22:30:00+07:00"
+date = "2026-07-10T13:16:14+07:00"
 lastmod = "2026-07-10T22:30:00+07:00"
 seo_title = "Định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation"
 authors = ["Minh Hoàng"]

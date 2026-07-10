@@ -1,7 +1,7 @@
 +++
 title = "CFA dùng toán học gì? Những công thức quận lý tài sản"
 description = "CFA (Chartered Financial Analyst) dùng toán học nào? Học cash flow analysis, present value (PV), DCF, correlation, beta, tracking error, information ratio, và performance attribution."
-date = "2026-07-10T18:45:00+07:00"
+date = "2026-07-10T13:16:14+07:00"
 lastmod = "2026-07-10T18:45:00+07:00"
 seo_title = "CFA: DCF, PV, beta, tracking error, information ratio"
 authors = ["Minh Hoàng"]

@@ -1,7 +1,7 @@
 +++
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
 description = "FRM (Financial Risk Manager) dùng toán học nào? Học VaR (Value at Risk), Expected Shortfall (CVaR), extreme value theory, stress testing, backtesting, và mon itor rủi ro."
-date = "2026-07-10T19:30:00+07:00"
+date = "2026-07-10T13:16:14+07:00"
 lastmod = "2026-07-10T19:30:00+07:00"
 seo_title = "FRM: VaR, Expected Shortfall, quản trị rủi ro tài chính"
 authors = ["Minh Hoàng"]

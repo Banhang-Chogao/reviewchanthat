@@ -1,7 +1,7 @@
 +++
 title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
 description = "Renaissance Technologies - quỹ quantitative finance nổi tiếng nhất. Jim Simons dùng toán học, machine learning, pattern recognition để đạt 30%/năm lợi suất."
-date = "2026-07-10T21:45:00+07:00"
+date = "2026-07-10T13:16:14+07:00"
 lastmod = "2026-07-10T21:45:00+07:00"
 seo_title = "Renaissance Technologies: Jim Simons, Medallion Fund, quant trading"
 authors = ["Minh Hoàng"]
