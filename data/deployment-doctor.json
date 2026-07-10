@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-10T07:28:37+07:00",
-  "generated_at_display": "10-07-2026 07:28:37",
+  "generated_at": "2026-07-10T07:36:39+07:00",
+  "generated_at_display": "10-07-2026 07:36:39",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 39,
-    "safe_autofixes_available": 34,
+    "failed_runs_scanned": 38,
+    "safe_autofixes_available": 33,
     "unsafe_external_failures": 5,
     "open_action_items": 9,
-    "loop_guarded_attempts": 41,
+    "loop_guarded_attempts": 42,
     "by_type": {
       "workflow_fanout": 29,
       "hugo_build_error": 5,
-      "content_direction_optimizer_fail": 3,
+      "content_direction_optimizer_fail": 2,
       "sitemap_noindex_mismatch": 2
     }
   },
@@ -39,16 +39,6 @@
       "safe_to_autofix": true,
       "action": "Kiểm tra content/posts/ có file front matter lỗi",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059768324"
-    },
-    {
-      "run_id": "29058670095",
-      "workflow": "Deploy to GitHub Pages",
-      "commit": "0e436ef",
-      "status": "failure",
-      "rootcause": "content_direction_optimizer_fail",
-      "safe_to_autofix": true,
-      "action": "Kiểm tra content/posts/ có file front matter lỗi",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058670095"
     },
     {
       "run_id": "29059770605",
@@ -319,6 +309,16 @@
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058962827"
+    },
+    {
+      "run_id": "29058962793",
+      "workflow": "Auto Merge",
+      "commit": "efceafb",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058962793"
     }
   ],
   "clusters": {
@@ -513,12 +513,6 @@
       {
         "failure_type": "content_direction_optimizer_fail",
         "run_id": "29059768324",
-        "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "content_direction_optimizer_fail",
-        "run_id": "29058670095",
         "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
         "safe_to_autofix": true
       },
@@ -809,12 +803,6 @@
       "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
     },
     {
-      "run_id": "29058670095",
-      "failure_type": "content_direction_optimizer_fail",
-      "result": "skipped",
-      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
-    },
-    {
       "run_id": "29059770605",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
@@ -830,15 +818,15 @@
     {
       "run_id": "29059769929",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 6fefbd7b72e0:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059726186",
       "failure_type": "workflow_fanout",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
     },
     {
       "run_id": "29059542133",
@@ -1278,6 +1266,12 @@
       "key": "6fefbd7b72e0:workflow_fanout",
       "count": 2,
       "last_attempt_at": "2026-07-10T07:28:37+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "6fefbd7b72e0:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:36:39+07:00",
       "last_result": "skipped"
     }
   ],
