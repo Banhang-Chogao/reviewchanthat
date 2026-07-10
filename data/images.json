@@ -3904,7 +3904,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
+      "title": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
+      "image_id": "img-b143ed39",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/a-woman-using-her-smartphone-while-holding-a-credit-card-8938729/",
+      "direct_url": "https://images.pexels.com/photos/8938729/pexels-photo-8938729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Leeloo The First",
+      "creator_url": "https://www.pexels.com/@leeloothefirst",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.jpg",
+      "output_path": "static/images/posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.webp",
+      "watermark_text": "Source: Pexels / Leeloo The First",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "mobile banking payment app",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-10T00:05:49.699458+00:00"
+  "generated_at": "2026-07-10T00:07:53.263915+00:00"
 }
