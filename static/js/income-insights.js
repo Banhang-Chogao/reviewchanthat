@@ -4,9 +4,13 @@
   var ACCESS_HASH = '46eaa26621e4955c1675b55d446c6d03325f458b59a465f898d42924010e7286';
   var SESSION_KEY = 'income_insights_unlocked';
   var SESSION_PIN_KEY = 'income_insights_pin';
-  var DB_NAME = 'income_insights_db';
-  var STORE_NAME = 'encrypted_data';
   var APP_SALT = 'income-insights-v1-salt';
+  var GH_OWNER = 'banhang-chogao';
+  var GH_REPO = 'reviewchanthat';
+  var GH_PATH = 'data/income-insights.json';
+  var GH_BRANCH = 'main';
+  var GH_TOKEN_KEY = 'income_insights_gh_token';
+  var GH_CACHE_KEY = 'income_insights_cache';
   var UNDO_LIMIT = 20;
   var BASE_PATH = document.body && document.body.getAttribute('data-site-base') || '';
   var MAX_RETRY_CHART = 5;
@@ -83,51 +87,103 @@
     return arr;
   }
 
-  /* ─── IndexedDB ──────────────────────────────────────── */
-  function openDB() {
-    return new Promise(function(resolve, reject) {
-      var req = indexedDB.open(DB_NAME, 1);
-      req.onupgradeneeded = function(e) {
-        var db = e.target.result;
-        if (!db.objectStoreNames.contains(STORE_NAME)) {
-          db.createObjectStore(STORE_NAME, { keyPath: 'id' });
-        }
-      };
-      req.onsuccess = function(e) { resolve(e.target.result); };
-      req.onerror = function(e) { reject(e.target.error); };
-    });
+  /* ─── GitHub Storage ──────────────────────────────────── */
+  function getGitHubToken() {
+    return localStorage.getItem(GH_TOKEN_KEY) || '';
+  }
+
+  function setGitHubToken(token) {
+    if (token) {
+      localStorage.setItem(GH_TOKEN_KEY, token);
+    } else {
+      localStorage.removeItem(GH_TOKEN_KEY);
+    }
   }
 
   function saveToDB(data) {
-    return openDB().then(function(db) {
-      return new Promise(function(resolve, reject) {
-        var tx = db.transaction(STORE_NAME, 'readwrite');
-        tx.objectStore(STORE_NAME).put({ id: 'income-data', data: data, updated: Date.now() });
-        tx.oncomplete = function() { resolve(); };
-        tx.onerror = function(e) { reject(e.target.error); };
+    // Cache in localStorage for offline fallback + speed
+    try { localStorage.setItem(GH_CACHE_KEY, JSON.stringify(data)); } catch(e) { /* ignore */ }
+
+    var token = getGitHubToken();
+    if (!token) return Promise.resolve(); // silent skip if no token
+
+    var apiUrl = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO + '/contents/' + GH_PATH;
+
+    return fetch(apiUrl, {
+      headers: { 'Accept': 'application/vnd.github.v3+json' }
+    }).then(function(res) {
+      if (res.status === 404) return null;
+      if (!res.ok) throw new Error('GitHub read failed: ' + res.status);
+      return res.json();
+    }).then(function(existing) {
+      var json = JSON.stringify(data);
+      var content = btoa(unescape(encodeURIComponent(json)));
+      var body = {
+        message: 'Update income-insights data',
+        content: content,
+        branch: GH_BRANCH
+      };
+      if (existing) body.sha = existing.sha;
+      return fetch(apiUrl, {
+        method: 'PUT',
+        headers: {
+          'Authorization': 'token ' + token,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify(body)
       });
+    }).then(function(res) {
+      if (!res) return;
+      if (!res.ok) throw new Error('GitHub write failed: ' + res.status);
     });
   }
 
   function loadFromDB() {
-    return openDB().then(function(db) {
-      return new Promise(function(resolve, reject) {
-        var tx = db.transaction(STORE_NAME, 'readonly');
-        var req = tx.objectStore(STORE_NAME).get('income-data');
-        req.onsuccess = function(e) { resolve(e.target.result ? e.target.result.data : null); };
-        req.onerror = function(e) { reject(e.target.error); };
-      });
+    // Try localStorage cache first (instant)
+    var cached = localStorage.getItem(GH_CACHE_KEY);
+    if (cached) {
+      try { return Promise.resolve(JSON.parse(cached)); } catch(e) { /* ignore */ }
+    }
+
+    // Then try raw.githubusercontent.com (no auth needed)
+    var url = 'https://raw.githubusercontent.com/' + GH_OWNER + '/' + GH_REPO + '/' + GH_BRANCH + '/' + GH_PATH + '?_=' + Date.now();
+    return fetch(url, { cache: 'no-cache' }).then(function(res) {
+      if (res.status === 404) return null;
+      if (!res.ok) throw new Error('GitHub read failed: ' + res.status);
+      return res.json();
     });
   }
 
   function clearDB() {
-    return openDB().then(function(db) {
-      return new Promise(function(resolve, reject) {
-        var tx = db.transaction(STORE_NAME, 'readwrite');
-        tx.objectStore(STORE_NAME)['delete']('income-data');
-        tx.oncomplete = function() { resolve(); };
-        tx.onerror = function(e) { reject(e.target.error); };
+    localStorage.removeItem(GH_CACHE_KEY);
+    var token = getGitHubToken();
+    if (!token) return Promise.resolve();
+
+    var apiUrl = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO + '/contents/' + GH_PATH;
+    return fetch(apiUrl, {
+      headers: { 'Accept': 'application/vnd.github.v3+json' }
+    }).then(function(res) {
+      if (res.status === 404) return null;
+      if (!res.ok) throw new Error('GitHub read failed: ' + res.status);
+      return res.json();
+    }).then(function(existing) {
+      if (!existing) return;
+      return fetch(apiUrl, {
+        method: 'DELETE',
+        headers: {
+          'Authorization': 'token ' + token,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify({
+          message: 'Clear income-insights data',
+          sha: existing.sha,
+          branch: GH_BRANCH
+        })
       });
+    }).then(function(res) {
+      if (res && !res.ok) throw new Error('GitHub delete failed: ' + res.status);
     });
   }
 
@@ -181,6 +237,38 @@
     var lockBtn = document.getElementById('incomeLockBtn');
     var attemptCount = 0;
     var lastAttempt = 0;
+
+    /* ─── GitHub Token UI ─────────────────────────── */
+    var tokenInput = document.getElementById('incomeTokenInput');
+    var tokenBtn = document.getElementById('incomeTokenSave');
+    var tokenStatus = document.getElementById('incomeTokenStatus');
+
+    function updateTokenStatus() {
+      var token = getGitHubToken();
+      if (token) {
+        tokenStatus.textContent = 'Token đã cấu hình.';
+        tokenStatus.style.color = 'var(--color-primary, #00A7A0)';
+        if (tokenInput) tokenInput.value = token;
+      } else {
+        tokenStatus.textContent = 'Chưa có token — nhập token để lưu dữ liệu lên GitHub.';
+        tokenStatus.style.color = 'var(--color-muted, #999)';
+      }
+    }
+    updateTokenStatus();
+
+    if (tokenBtn && tokenInput) {
+      tokenBtn.addEventListener('click', function() {
+        var val = tokenInput.value.trim();
+        if (!val) {
+          tokenStatus.textContent = 'Vui lòng nhập GitHub Personal Access Token.';
+          tokenStatus.style.color = 'var(--chip-red, #e74c3c)';
+          return;
+        }
+        setGitHubToken(val);
+        tokenStatus.textContent = 'Token đã lưu!';
+        tokenStatus.style.color = 'var(--color-primary, #00A7A0)';
+      });
+    }
 
     // Gắn listener cho Reset button ngay lập tức (trước early return)
     lockBtn.addEventListener('click', function() {
