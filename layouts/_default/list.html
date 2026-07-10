@@ -63,12 +63,12 @@
       {{ end }}
     {{ end }}
   {{ end }}
-  <section class="post-listing">
+  <section class="{{ if $isCategorySection }}category-post-list{{ else }}post-listing{{ end }}">
     {{ if $isCategorySection }}
     {{ $categoryPosts := where (where site.RegularPages "Type" "posts") "Params.categories" "intersect" (slice $sectionSlug) }}
     {{ $paginator := .Paginate $categoryPosts 10 }}
     {{ range $paginator.Pages }}
-      {{ .Render "post-card" }}
+      {{ .Render "category-post-row" }}
     {{ end }}
     {{ else }}
     {{ $paginator := .Paginator }}
