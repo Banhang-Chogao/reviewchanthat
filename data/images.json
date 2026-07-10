@@ -3876,7 +3876,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+      "title": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+      "image_id": "img-9f417a66",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/drone-shot-of-a-city-at-night-10502162/",
+      "direct_url": "https://images.pexels.com/photos/10502162/pexels-photo-10502162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "kwon osu",
+      "creator_url": "https://www.pexels.com/@kwon-osu-147593907",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.jpg",
+      "output_path": "static/images/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.webp",
+      "watermark_text": "Source: Pexels / kwon osu",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "seoul korea cityscape",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-10T00:03:46.572987+00:00"
+  "generated_at": "2026-07-10T00:05:49.699458+00:00"
 }
