@@ -1,84 +1,98 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'Thời điểm lá đỏ: đầu tháng 11 vẫn đẹp; cuối tháng 11 có thể rụng lá nhiều hoặc
-    gặp tuyết nhẹ trên đỉnh.'
-  - 'Cách đi từ Seoul: xe buýt express 2,5–3 giờ đến Sokcho, sau đó bus 7/7-1 đến
-    cổng Seorakdong.'
-  - 'Leo núi tháng 11: nhiệt độ chân núi 5–12°C, trên cáp treo lạnh hơn; cần áo nhiều
-    lớp và kiểm tra tình trạng cáp treo.'
-  - 'Chi phí tham khảo: xe buýt từ ₩16.400, cáp treo ₩15.000 khứ hồi; giá có thể thay
-    đổi theo mùa.'
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/seoraksan-national-park, https://www.koreatodo.com/top-autumn-foliage-sites-korea,
-    https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 20:00:00+07:00'
-description: Seoraksan tháng 11 còn lá đỏ không? Phân tích thời điểm rụng lá, có nên
-  leo núi khi trời lạnh và lịch trình 1–2 ngày từ Seoul.
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: Korea Meteorological Administration
-  url: ''
-- title: KoreaToDo — Seoraksan National Park
-  url: ''
-- title: KoreaToDo — Top Autumn Foliage Sites
-  url: ''
-image: images/posts/seoraksan-thang-11-ngam-la-do.webp
-image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Near Look
-image_creator_id: '110077'
-image_creator_url: https://www.pexels.com/@near-look-110077
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-340139/
-internal_links:
-- ref: posts/di-han-thang-11-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-11.md
-- ref: posts/han-quoc-thang-11-co-la-do-chua.md
-- ref: posts/seoul-thang-11-nen-di-dau.md
-- ref: posts/nami-thang-11-co-dang-di-khong.md
-- ref: posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md
-- ref: posts/chi-phi-di-han-thang-11-tu-tuc.md
-series: di-han-thang-11
-series_order: 7
-series_title: Đi Hàn tháng 11
-slug: seoraksan-thang-11-ngam-la-do
-tags:
-- Seoraksan
-- lá đỏ Hàn Quốc
-- du lịch Hàn Quốc tháng 11
-- Sokcho
-- series du lịch
-thumbnail: images/posts/seoraksan-thang-11-ngam-la-do.webp
-title: 'Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?'
-tom_tat_nhanh:
-- label: Khu vực
-  value: Sokcho, Gangwon-do
-- label: Thời gian di chuyển
-  value: ''
-- label: Lá đỏ tháng 11
-  value: ''
-- label: Leo núi
-  value: ''
-- label: Lưu ý
-  value: ''
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T20:00:00+07:00"
+description = "Seoraksan tháng 11 còn lá đỏ không? Phân tích thời điểm rụng lá, có nên leo núi khi trời lạnh và lịch trình 1–2 ngày từ Seoul."
+image = "images/posts/seoraksan-thang-11-ngam-la-do.webp"
+image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Near Look"
+image_creator_id = "110077"
+image_creator_url = "https://www.pexels.com/@near-look-110077"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-340139/"
+series = "di-han-thang-11"
+series_order = 7
+series_title = "Đi Hàn tháng 11"
+slug = "seoraksan-thang-11-ngam-la-do"
+tags = ["Seoraksan", "lá đỏ Hàn Quốc", "du lịch Hàn Quốc tháng 11", "Sokcho", "series du lịch"]
+thumbnail = "images/posts/seoraksan-thang-11-ngam-la-do.webp"
+title = "Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?"
+date_display = "08-07-2026 20:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Thời điểm lá đỏ: đầu tháng 11 vẫn đẹp; cuối tháng 11 có thể rụng lá nhiều hoặc gặp tuyết nhẹ trên đỉnh.", "Cách đi từ Seoul: xe buýt express 2,5–3 giờ đến Sokcho, sau đó bus 7/7-1 đến cổng Seorakdong.", "Leo núi tháng 11: nhiệt độ chân núi 5–12°C, trên cáp treo lạnh hơn; cần áo nhiều lớp và kiểm tra tình trạng cáp treo.", "Chi phí tham khảo: xe buýt từ ₩16.400, cáp treo ₩15.000 khứ hồi; giá có thể thay đổi theo mùa."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/seoraksan-national-park, https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "Korea Meteorological Administration"
+url = ""
+
+[[external_links]]
+title = "KoreaToDo — Seoraksan National Park"
+url = ""
+
+[[external_links]]
+title = "KoreaToDo — Top Autumn Foliage Sites"
+url = ""
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-11-co-la-do-chua.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-11-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/nami-thang-11-co-dang-di-khong.md"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md"
+
+[[internal_links]]
+ref = "posts/chi-phi-di-han-thang-11-tu-tuc.md"
+
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Sokcho, Gangwon-do"
+
+[[tom_tat_nhanh]]
+label = "Thời gian di chuyển"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Lá đỏ tháng 11"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Leo núi"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
+value = ""
++++
 
 Nhiều người hỏi Seoraksan tháng 11 **còn lá đỏ không** và **có nên leo núi** khi trời đã lạnh hơn tháng 10. Câu trả lời ngắn: **đầu tháng 11** thường vẫn là cửa sổ đẹp cho Seoraksan — lá có thể còn đỏ–vàng ở độ cao trung bình; **cuối tháng 11** rủi ro **rụng lá nhiều** hoặc gặp **tuyết nhẹ** trên đỉnh cao hơn. Theo [dự báo lá đỏ của Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), Seoraksan đổ màu sớm hơn Seoul; tháng 11 là **giai đoạn cuối** của mùa foliage ở đây, không phải peak như cuối tháng 10.
 

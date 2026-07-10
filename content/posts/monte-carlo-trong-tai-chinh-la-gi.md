@@ -11,17 +11,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 13
 image = "images/posts/monte-carlo-trong-tai-chinh-la-gi.webp"
 image_alt = "Ảnh minh họa Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản — nguồn Pexels"
+date_display = "10-07-2026 12:15:00 GMT +7"
+lastmod_display = "10-07-2026 12:15:00 GMT +7"
 
 [ai_summary]
-items = [
-  "Monte Carlo: Mô phỏng N×10^6 kịch bản random để ước lượng option price, VaR, portfolio value",
-  "Brownian Motion: dS = μS dt + σS dW (random walk log-price)",
-  "Giả định: S tuân theo log-normal distribution, dW là Wiener process",
-  "Discretization: Δt nhỏ (1 ngày, 1 giờ) để discretize SDE",
-  "Pricing: E[Option Payoff] = (1/N) × Σ Payoff_i × e^(-rT)",
-  "VaR: Sort 10M outcomes, lấy 1% worst case",
-  "Variance Reduction: Antithetic sampling, control variates để giảm N needed"
-]
+items = ["Monte Carlo: Mô phỏng N×10^6 kịch bản random để ước lượng option price, VaR, portfolio value", "Brownian Motion: dS = μS dt + σS dW (random walk log-price)", "Giả định: S tuân theo log-normal distribution, dW là Wiener process", "Discretization: Δt nhỏ (1 ngày, 1 giờ) để discretize SDE", "Pricing: E[Option Payoff] = (1/N) × Σ Payoff_i × e^(-rT)", "VaR: Sort 10M outcomes, lấy 1% worst case", "Variance Reduction: Antithetic sampling, control variates để giảm N needed"]
 thumbnail = "images/posts/monte-carlo-trong-tai-chinh-la-gi.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/woman-using-an-automated-teller-machine-5699341/"

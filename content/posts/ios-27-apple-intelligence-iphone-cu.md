@@ -1,58 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - iOS 27 đưa Siri AI và Apple Intelligence thế hệ hai vào Photos, Messages, Mail
-    và Passwords.
-  - Apple liệt kê tiếng Việt trong nhóm ngôn ngữ Apple Intelligence nhưng một số tính
-    năng vẫn ghi Coming in English.
-  - iPhone 11–15 (thường) chạy iOS 27 nhưng không có AI đầy đủ; iPhone 15 Pro/16+
-    mới đủ điều kiện.
-  - Private Cloud Compute và on-device AI là trụ cột Apple nhấn tại WWDC26 — khác
-    hướng chatbot web thuần.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 08:40:00+07:00'
-description: 'Apple Intelligence trên iOS 27: Siri AI, yêu cầu phần cứng iPhone, tiếng
-  Việt và giới hạn thực tế cho người dùng Việt Nam.'
-draft: false
-image: images/posts/ios-27-apple-intelligence-iphone-cu.webp
-image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
-image_attribution_source: embedded_exif_iptc_xmp
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: ANA QUIROSA
-image_creator_id: ''
-image_creator_url: ''
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/close-up-of-a-person-holding-an-iphone-15-pro-19060767/
-seo_title: 'iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía'
-series: ios-27-co-gi-moi
-series_order: 3
-series_title: iOS 27 có gì mới
-slug: ios-27-apple-intelligence-iphone-cu
-tags:
-- Apple Intelligence
-- iOS 27
-- Siri AI
-- iPhone
-- AI trên iPhone
-thumbnail: images/posts/ios-27-apple-intelligence-iphone-cu.webp
-title: 'iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: AI trên iPhone với iOS 27
-- label: Yêu cầu
-- label: Tính năng
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T08:40:00+07:00"
+description = "Apple Intelligence trên iOS 27: Siri AI, yêu cầu phần cứng iPhone, tiếng Việt và giới hạn thực tế cho người dùng Việt Nam."
+draft = false
+image = "images/posts/ios-27-apple-intelligence-iphone-cu.webp"
+image_attribution_checked_at = "2026-07-10T14:01:30+07:00"
+image_attribution_source = "embedded_exif_iptc_xmp"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "ANA QUIROSA"
+image_creator_id = ""
+image_creator_url = ""
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/close-up-of-a-person-holding-an-iphone-15-pro-19060767/"
+seo_title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía"
+series = "ios-27-co-gi-moi"
+series_order = 3
+series_title = "iOS 27 có gì mới"
+slug = "ios-27-apple-intelligence-iphone-cu"
+tags = ["Apple Intelligence", "iOS 27", "Siri AI", "iPhone", "AI trên iPhone"]
+thumbnail = "images/posts/ios-27-apple-intelligence-iphone-cu.webp"
+title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
+date_display = "08-07-2026 08:40:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iOS 27 đưa Siri AI và Apple Intelligence thế hệ hai vào Photos, Messages, Mail và Passwords.", "Apple liệt kê tiếng Việt trong nhóm ngôn ngữ Apple Intelligence nhưng một số tính năng vẫn ghi Coming in English.", "iPhone 11–15 (thường) chạy iOS 27 nhưng không có AI đầy đủ; iPhone 15 Pro/16+ mới đủ điều kiện.", "Private Cloud Compute và on-device AI là trụ cột Apple nhấn tại WWDC26 — khác hướng chatbot web thuần."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "AI trên iPhone với iOS 27"
+
+[[tom_tat_nhanh]]
+label = "Yêu cầu"
+
+[[tom_tat_nhanh]]
+label = "Tính năng"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **iOS 27** là lần Apple cố biến AI thành thói quen trên iPhone — không chỉ demo keynote. Câu hỏi thực tế: **iPhone của bạn chạy được những gì, và tiếng Việt đến đâu?**
 

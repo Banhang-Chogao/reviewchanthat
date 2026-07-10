@@ -1,78 +1,79 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Xem musical ở Daehangno Seoul là hoạt động số 3 trong top 20 hoạt động du lịch
-    Hàn Quốc 2026, lý tưởng cho buổi tối.
-  - Daehangno có khoảng 150 rạp hát với các show không lời, nhạc kịch và biểu diễn
-    đường phố quanh năm.
-  - Nên đặt vé trước qua các nền tảng trực tuyến, đặc biệt cuối tuần và mùa cao điểm.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX,
-    https://english.visitkorea.or.kr/, https://english.visitseoul.net/.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 07:00:00+07:00'
-description: 'Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, giờ, chọn show
-  nào, cách đặt vé và kết hợp với lịch trình buổi tối.'
-draft: false
-external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-- title: https://english.visitseoul.net/
-  url: https://english.visitseoul.net/
-- title: https://english.visitkorea.or.kr/
-  url: https://english.visitkorea.or.kr/
-image: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
-image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Jeffry Surianto
-image_creator_id: '3009141'
-image_creator_url: https://www.pexels.com/@andromeda99
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/traditional-korean-gayageum-performance-indoors-36853090/
-seo_title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử'
-series: du-lich
-series_order: 6
-series_title: Du lịch Hàn Quốc 2026
-slug: xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- musical
-- show Hàn Quốc
-- Daehangno
-- giải trí Hàn Quốc
-- series du lịch
-thumbnail: images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp
-title: 'Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn
-  Quốc'
-tom_tat_nhanh:
-- label: Khu vực
-  value: Daehangno (Jongno-gu, Seoul)
-- label: Loại trải nghiệm
-  value: ''
-- label: Hợp với
-  value: ''
-- label: Thời gian nên dành
-  value: ''
-- label: Đi mùa nào hợp
-  value: ''
-- label: Có cần đặt trước không
-  value: ''
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T07:00:00+07:00"
+description = "Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, giờ, chọn show nào, cách đặt vé và kết hợp với lịch trình buổi tối."
+draft = false
+image = "images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp"
+image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Jeffry Surianto"
+image_creator_id = "3009141"
+image_creator_url = "https://www.pexels.com/@andromeda99"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/traditional-korean-gayageum-performance-indoors-36853090/"
+seo_title = "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử"
+series = "du-lich"
+series_order = 6
+series_title = "Du lịch Hàn Quốc 2026"
+slug = "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc"
+tags = ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "musical", "show Hàn Quốc", "Daehangno", "giải trí Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp"
+title = "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc"
+date_display = "08-07-2026 07:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Xem musical ở Daehangno Seoul là hoạt động số 3 trong top 20 hoạt động du lịch Hàn Quốc 2026, lý tưởng cho buổi tối.", "Daehangno có khoảng 150 rạp hát với các show không lời, nhạc kịch và biểu diễn đường phố quanh năm.", "Nên đặt vé trước qua các nền tảng trực tuyến, đặc biệt cuối tuần và mùa cao điểm."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://english.visitkorea.or.kr/, https://english.visitseoul.net/."
+
+[[external_links]]
+title = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+url = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+
+[[external_links]]
+title = "https://english.visitseoul.net/"
+url = "https://english.visitseoul.net/"
+
+[[external_links]]
+title = "https://english.visitkorea.or.kr/"
+url = "https://english.visitkorea.or.kr/"
+
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Daehangno (Jongno-gu, Seoul)"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Đi mùa nào hợp"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Có cần đặt trước không"
+value = ""
++++
 
 Buổi tối ở Seoul không chỉ có Myeongdong mua sắm hay cà phê — theo mình, một trong những trải nghiệm đáng giá nhất là xem musical tại Daehangno. Hoạt động này xếp hạng 3 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và mình thấy xứng đáng vì đây là thứ bạn khó tìm được ở Việt Nam với chất lượng tương đương.
 

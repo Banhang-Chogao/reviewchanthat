@@ -1,79 +1,105 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Tháng 8 là tháng nóng nhất Hàn Quốc, nhiệt độ 25–33°C, nắng gắt, ít mưa hơn tháng
-    7.
-  - Thời điểm lý tưởng cho biển, đảo và công viên nước — Busan, Jeju, Caribbean Bay.
-  - Cần đặt phòng sớm vì đây là cao điểm du lịch hè, giá tăng 20–40%.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.koreatodo.com.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: Hàn Quốc tháng 8 nên đi đâu? Gợi ý biển, đảo, công viên nước và điểm
-  tránh nóng tốt nhất. Kèm lịch trình 5 ngày cho kỳ nghỉ hè.
-draft: false
-faq:
-- answer: 25–33°C, nắng gắt, độ ẩm 70–80%. Mưa giảm so với tháng 7.
-  question: Thời tiết Hàn Quốc tháng 8 thế nào?
-- answer: Biển Busan (Haeundae, Gwangalli), Jeju, công viên nước Caribbean Bay, Ocean
-    World.
-- answer: Đặt phòng trước 1 tháng, mua vé online, mang kem chống nắng và nước uống.
-image: images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp
-image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: piu aka
-image_creator_id: '283677100'
-image_creator_url: https://www.pexels.com/@piu-aka-283677100
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/aerial-photography-of-city-buildings-13045678/
-internal_links:
-- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-- ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-- ref: posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md
-- ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md
-- ref: posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md
-- ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md
-- ref: posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md
-- ref: posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-- ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-seo_title: Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước
-series: du-lich-han-quoc-mua-he
-series_order: 4
-series_title: Du lịch Hàn Quốc mùa hè
-slug: han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di
-tags:
-- Hàn Quốc tháng 8
-- du lịch Hàn Quốc
-- biển Hàn Quốc
-- công viên nước Hàn Quốc
-- series du lịch
-thumbnail: images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp
-title: Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi
-tom_tat_nhanh:
-- label: Nhiệt độ
-  value: 25–33°C
-- label: Độ ẩm
-- label: Mưa
-- label: Phù hợp
-- label: Giá
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Hàn Quốc tháng 8 nên đi đâu? Gợi ý biển, đảo, công viên nước và điểm tránh nóng tốt nhất. Kèm lịch trình 5 ngày cho kỳ nghỉ hè."
+draft = false
+image = "images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp"
+image_attribution_checked_at = "2026-07-10T14:01:30+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "piu aka"
+image_creator_id = "283677100"
+image_creator_url = "https://www.pexels.com/@piu-aka-283677100"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/aerial-photography-of-city-buildings-13045678/"
+seo_title = "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước"
+series = "du-lich-han-quoc-mua-he"
+series_order = 4
+series_title = "Du lịch Hàn Quốc mùa hè"
+slug = "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di"
+tags = ["Hàn Quốc tháng 8", "du lịch Hàn Quốc", "biển Hàn Quốc", "công viên nước Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp"
+title = "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Tháng 8 là tháng nóng nhất Hàn Quốc, nhiệt độ 25–33°C, nắng gắt, ít mưa hơn tháng 7.", "Thời điểm lý tưởng cho biển, đảo và công viên nước — Busan, Jeju, Caribbean Bay.", "Cần đặt phòng sớm vì đây là cao điểm du lịch hè, giá tăng 20–40%."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.koreatodo.com."
+
+[[faq]]
+answer = "25–33°C, nắng gắt, độ ẩm 70–80%. Mưa giảm so với tháng 7."
+question = "Thời tiết Hàn Quốc tháng 8 thế nào?"
+
+[[faq]]
+answer = "Biển Busan (Haeundae, Gwangalli), Jeju, công viên nước Caribbean Bay, Ocean World."
+
+[[faq]]
+answer = "Đặt phòng trước 1 tháng, mua vé online, mang kem chống nắng và nước uống."
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+
+[[internal_links]]
+ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+
+[[internal_links]]
+ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
+
+[[internal_links]]
+ref = "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md"
+
+[[internal_links]]
+ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+
+[[internal_links]]
+ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
+
+[[tom_tat_nhanh]]
+label = "Nhiệt độ"
+value = "25–33°C"
+
+[[tom_tat_nhanh]]
+label = "Độ ẩm"
+
+[[tom_tat_nhanh]]
+label = "Mưa"
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+
+[[tom_tat_nhanh]]
+label = "Giá"
++++
 
 ## Thời tiết tháng 8
 

@@ -1,52 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Cụm camera hai đời gần tương đương về ống kính — khác ở chip và thao tác.
-  - iPhone 16 Pro Max có Camera Control; 15 Pro Max không có.
-  - A18 Pro xử lý ảnh và video tốt hơn theo Apple — khác biệt tinh chỉnh.
-  - Đổi máy chỉ vì camera không cần thiết nếu 15 Pro Max còn pin tốt.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 10:40:00+07:00'
-description: 'So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm
-  A18, Camera Control và có nên đổi vì ảnh.'
-draft: false
-image: images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp
-image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Andrey Matveev
-image_creator_id: '150820'
-image_creator_url: https://www.pexels.com/@zeleboba
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/
-series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 6
-series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
-slug: camera-iphone-16-pro-max-so-voi-15-pro-max
-tags:
-- iPhone 16 Pro Max
-- iPhone 15 Pro Max
-- so sánh camera
-- tele 5x
-thumbnail: images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp
-title: Camera iPhone 16 Pro Max so với 15 Pro Max
-tom_tat_nhanh:
-- label: Phần cứng
-  value: Gần tương đương — 48MP + tele 5x
-- label: Khác biệt
-- label: Giữ 15
-- label: Lên 16
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T10:40:00+07:00"
+description = "So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm A18, Camera Control và có nên đổi vì ảnh."
+draft = false
+image = "images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp"
+image_attribution_checked_at = "2026-07-10T14:01:29+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Andrey Matveev"
+image_creator_id = "150820"
+image_creator_url = "https://www.pexels.com/@zeleboba"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/"
+series = "iphone-16-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 6
+series_title = "iPhone 16 Pro Max màu titan: đánh giá trên tay"
+slug = "camera-iphone-16-pro-max-so-voi-15-pro-max"
+tags = ["iPhone 16 Pro Max", "iPhone 15 Pro Max", "so sánh camera", "tele 5x"]
+thumbnail = "images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp"
+title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
+date_display = "08-07-2026 10:40:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Cụm camera hai đời gần tương đương về ống kính — khác ở chip và thao tác.", "iPhone 16 Pro Max có Camera Control; 15 Pro Max không có.", "A18 Pro xử lý ảnh và video tốt hơn theo Apple — khác biệt tinh chỉnh.", "Đổi máy chỉ vì camera không cần thiết nếu 15 Pro Max còn pin tốt."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Phần cứng"
+value = "Gần tương đương — 48MP + tele 5x"
+
+[[tom_tat_nhanh]]
+label = "Khác biệt"
+
+[[tom_tat_nhanh]]
+label = "Giữ 15"
+
+[[tom_tat_nhanh]]
+label = "Lên 16"
++++
 
 So camera **16 Pro Max vs 15 Pro Max**, nhiều người kỳ vọng **bước nhảy như 3x sang 5x** năm 2023. Thực tế 2026: **ống kính gần nhau**, khác biệt nằm ở **chip xử lý**, **Camera Control** và **tính năng phần mềm** gắn A18 Pro.
 

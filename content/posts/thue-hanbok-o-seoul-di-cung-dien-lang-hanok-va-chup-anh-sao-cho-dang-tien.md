@@ -1,75 +1,78 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Thuê Hanbok là hoạt động số 1 trong top 20 hoạt động du lịch Hàn Quốc 2026, phù
-    hợp với lần đầu đi Seoul, cặp đôi và nhóm bạn.
-  - Bốn cung điện chính (Gyeongbokgung, Changdeokgung, Deoksugung, Changgyeonggung)
-    miễn phí vào cửa khi mặc Hanbok.
-  - Cửa hàng thuê tập trung quanh Gyeongbokgung, gói 2-4 giờ bao gồm Hanbok, túi và
-    phụ kiện.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX,
-    https://www.royalpalace.go.kr/, https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 07:00:00+07:00'
-description: 'Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok,
-  cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp.'
-draft: false
-external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-- title: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616
-  url: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616
-- title: https://www.royalpalace.go.kr/
-  url: https://www.royalpalace.go.kr/
-- title: https://english.visitseoul.net/
-  url: https://english.visitseoul.net/
-image: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
-image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: alde saputro
-image_creator_id: '293051'
-image_creator_url: https://www.pexels.com/@alde
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/cheerful-woman-standing-against-pagoda-in-cloudy-weather-860090/
-seo_title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh'
-series: du-lich
-series_order: 4
-series_title: Du lịch Hàn Quốc 2026
-slug: thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- Hanbok
-- trải nghiệm Hàn Quốc
-- cung điện Seoul
-- chụp ảnh Hàn Quốc
-- series du lịch
-thumbnail: images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp
-title: 'Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền'
-tom_tat_nhanh:
-- label: Khu vực
-  value: Jongno-gu, Seoul (quanh Gyeongbokgung, Samcheong-dong)
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Đi mùa nào hợp
-- label: Có cần đặt trước không
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T07:00:00+07:00"
+description = "Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok, cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp."
+draft = false
+image = "images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp"
+image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "alde saputro"
+image_creator_id = "293051"
+image_creator_url = "https://www.pexels.com/@alde"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/cheerful-woman-standing-against-pagoda-in-cloudy-weather-860090/"
+seo_title = "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh"
+series = "du-lich"
+series_order = 4
+series_title = "Du lịch Hàn Quốc 2026"
+slug = "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien"
+tags = ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "Hanbok", "trải nghiệm Hàn Quốc", "cung điện Seoul", "chụp ảnh Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp"
+title = "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền"
+date_display = "08-07-2026 07:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Thuê Hanbok là hoạt động số 1 trong top 20 hoạt động du lịch Hàn Quốc 2026, phù hợp với lần đầu đi Seoul, cặp đôi và nhóm bạn.", "Bốn cung điện chính (Gyeongbokgung, Changdeokgung, Deoksugung, Changgyeonggung) miễn phí vào cửa khi mặc Hanbok.", "Cửa hàng thuê tập trung quanh Gyeongbokgung, gói 2-4 giờ bao gồm Hanbok, túi và phụ kiện."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://www.royalpalace.go.kr/, https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616."
+
+[[external_links]]
+title = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+url = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+
+[[external_links]]
+title = "https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616"
+url = "https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616"
+
+[[external_links]]
+title = "https://www.royalpalace.go.kr/"
+url = "https://www.royalpalace.go.kr/"
+
+[[external_links]]
+title = "https://english.visitseoul.net/"
+url = "https://english.visitseoul.net/"
+
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Jongno-gu, Seoul (quanh Gyeongbokgung, Samcheong-dong)"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+
+[[tom_tat_nhanh]]
+label = "Đi mùa nào hợp"
+
+[[tom_tat_nhanh]]
+label = "Có cần đặt trước không"
++++
 
 Thuê Hanbok dạo cung điện là hoạt động số 1 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và mình không ngạc nhiên chút nào. Đây là trải nghiệm được du khách Việt mê nhất khi đến Seoul, và theo mình thì ai đi Hàn lần đầu cũng nên thử ít nhất một lần.
 

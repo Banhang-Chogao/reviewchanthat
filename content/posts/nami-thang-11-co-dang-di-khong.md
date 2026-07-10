@@ -1,85 +1,102 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'Thời điểm đẹp nhất: đầu tháng 11 — Metasequoia còn vàng–cam; cuối tháng 11 có
-    thể qua đỉnh, lá rụng nhiều.'
-  - 'Cách đi từ Seoul: ITX đến Gapyeong (~1 giờ) + taxi/bus đến bến ferry; tổng di
-    chuyển khoảng 1,5–2 giờ mỗi chiều.'
-  - 'Lưu ý thời tiết: lạnh hơn tháng 10 — ban ngày 5–12°C, gió sông Bukhan làm cảm
-    giác lạnh hơn; cần áo khoác ấm.'
-  - 'Chi phí tham khảo: 45.000–85.000 KRW/người tự túc; giá vé và tỷ giá có thể thay
-    đổi theo mùa.'
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 19:30:00+07:00'
-description: Nami tháng 11 có đáng đi không? Lá rụng, lịch trình nửa ngày, cách đi
-  ITX từ Seoul và mẹo chọn tuần đi khi thời tiết lạnh hơn tháng 10.
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: Korea Meteorological Administration
-  url: ''
-- title: KoreaToDo — Nami Island Day Trip
-  url: ''
-- title: Nami Island Official
-  url: ''
-image: images/posts/nami-thang-11-co-dang-di-khong.webp
-image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Светлана Конева
-image_creator_id: '269097219'
-image_creator_url: https://www.pexels.com/@269097219
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787316/
-internal_links:
-- ref: posts/di-han-thang-11-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-11.md
-- ref: posts/han-quoc-thang-11-co-la-do-chua.md
-- ref: posts/di-han-thang-11-mac-gi.md
-- ref: posts/seoul-thang-11-nen-di-dau.md
-- ref: posts/seoraksan-thang-11-ngam-la-do.md
-- ref: posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md
-- ref: posts/chi-phi-di-han-thang-11-tu-tuc.md
-seo_title: Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách
-series: di-han-thang-11
-series_order: 6
-series_title: Đi Hàn tháng 11
-slug: nami-thang-11-co-dang-di-khong
-tags:
-- Nami Island tháng 11
-- day trip Seoul
-- lá vàng Nami
-- Gapyeong
-- series du lịch
-thumbnail: images/posts/nami-thang-11-co-dang-di-khong.webp
-title: Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul
-tom_tat_nhanh:
-- label: Thời gian từ Seoul
-  value: ~1–1,5 giờ (ITX)
-- label: Tuần lý tưởng
-  value: ''
-- label: Thời gian trên đảo
-  value: ''
-- label: Nhiệt độ (tham khảo)
-  value: ''
-- label: Lưu ý
-  value: ''
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T19:30:00+07:00"
+description = "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình nửa ngày, cách đi ITX từ Seoul và mẹo chọn tuần đi khi thời tiết lạnh hơn tháng 10."
+image = "images/posts/nami-thang-11-co-dang-di-khong.webp"
+image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Светлана Конева"
+image_creator_id = "269097219"
+image_creator_url = "https://www.pexels.com/@269097219"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-12787316/"
+seo_title = "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách"
+series = "di-han-thang-11"
+series_order = 6
+series_title = "Đi Hàn tháng 11"
+slug = "nami-thang-11-co-dang-di-khong"
+tags = ["Nami Island tháng 11", "day trip Seoul", "lá vàng Nami", "Gapyeong", "series du lịch"]
+thumbnail = "images/posts/nami-thang-11-co-dang-di-khong.webp"
+title = "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul"
+date_display = "08-07-2026 19:30:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Thời điểm đẹp nhất: đầu tháng 11 — Metasequoia còn vàng–cam; cuối tháng 11 có thể qua đỉnh, lá rụng nhiều.", "Cách đi từ Seoul: ITX đến Gapyeong (~1 giờ) + taxi/bus đến bến ferry; tổng di chuyển khoảng 1,5–2 giờ mỗi chiều.", "Lưu ý thời tiết: lạnh hơn tháng 10 — ban ngày 5–12°C, gió sông Bukhan làm cảm giác lạnh hơn; cần áo khoác ấm.", "Chi phí tham khảo: 45.000–85.000 KRW/người tự túc; giá vé và tỷ giá có thể thay đổi theo mùa."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/gapyeong-day-trip-nami-island, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "Korea Meteorological Administration"
+url = ""
+
+[[external_links]]
+title = "KoreaToDo — Nami Island Day Trip"
+url = ""
+
+[[external_links]]
+title = "Nami Island Official"
+url = ""
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-11-co-la-do-chua.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-11-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/seoraksan-thang-11-ngam-la-do.md"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md"
+
+[[internal_links]]
+ref = "posts/chi-phi-di-han-thang-11-tu-tuc.md"
+
+[[tom_tat_nhanh]]
+label = "Thời gian từ Seoul"
+value = "~1–1,5 giờ (ITX)"
+
+[[tom_tat_nhanh]]
+label = "Tuần lý tưởng"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Thời gian trên đảo"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Nhiệt độ (tham khảo)"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
+value = ""
++++
 
 Nami Island (đảo Nami) quanh năm là day trip phổ biến từ Seoul, nhưng **tháng 11** đòi hỏi bạn điều chỉnh kỳ vọng so với tháng 10. Trong khi Seoul và nhiều cung điện thường đạt **peak lá đỏ** vào đầu–giữa tháng 11, Nami — nằm ở Gapyeong với độ cao thấp hơn vùng núi phía bắc — có thể **đã qua đỉnh màu** nếu bạn đi cuối tháng. Visit Korea liệt kê Nami trong nhóm [điểm ngắm lá đỏ nổi tiếng ngoài Seoul](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), nhưng ngày cụ thể **thay đổi theo từng năm**.
 

@@ -1,84 +1,100 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Tháng 11 Hàn Quốc lạnh hơn tháng 10 rõ rệt — nhiệt độ Seoul khoảng 3–14°C, chênh
-    lệch ngày đêm lớn, gió tăng và trời tối sớm.
-  - Đầu tháng 11 mát–lạnh vừa, cuối tháng 11 có thể xuống dưới 0°C ở vùng núi; cần
-    áo khoác ấm, lớp giữ nhiệt và phụ kiện chống gió.
-  - Mưa ít hơn mùa hè nhưng ngày lạnh ẩm vẫn có; Seoul peak lá đỏ thường đầu–giữa
-    tháng 11 — ngày cụ thể thay đổi theo năm.
-  - Nên theo dõi dự báo KMA và Visit Korea trước chuyến đi; giá vé, khách sạn có thể
-    thay đổi theo mùa, ngày đi và tỷ giá.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 17:30:00+07:00'
-description: Thời tiết Hàn Quốc tháng 11 — nhiệt độ, mưa, gió và cách chuẩn bị trang
-  phục. Phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo.
-draft: false
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: Korea Meteorological Administration (KMA)
-- title: KoreaToDo — Autumn Foliage Sites
-faq:
-- answer: Seoul tháng 11 khoảng 3–14°C, lạnh hơn tháng 10 rõ rệt. Sáng sớm và tối
-    có thể dưới 5°C; cần áo khoác ấm.
-  question: Tháng 11 ở Seoul lạnh thế nào?
-- answer: Mưa ít hơn mùa hè. Tháng 11 thường khô hơn tháng 7–8, nhưng vẫn có ngày
-    mưa rào ngắn hoặc lạnh ẩm.
-- answer: Áo len, áo giữ nhiệt, áo khoác parka hoặc phao mỏng, quần dài, găng tay
-    mỏng, khăn quàng. Leo núi cần thêm lớp chống gió.
-image: images/posts/thoi-tiet-han-quoc-thang-11.webp
-image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Quang Nguyen Vinh
-image_creator_id: '222549'
-image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-2131624/
-internal_links:
-- ref: posts/di-han-thang-11-co-dep-khong.md
-- ref: posts/han-quoc-thang-11-co-la-do-chua.md
-- ref: posts/di-han-thang-11-mac-gi.md
-- ref: posts/seoul-thang-11-nen-di-dau.md
-- ref: posts/thoi-tiet-han-quoc-thang-10.md
-- ref: posts/di-han-thang-10-co-dep-khong.md
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-- ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
-seo_title: 'Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và'
-series: di-han-thang-11
-series_order: 2
-series_title: Đi Hàn tháng 11
-slug: thoi-tiet-han-quoc-thang-11
-tags:
-- thời tiết Hàn Quốc tháng 11
-- du lịch Hàn Quốc
-- mùa thu Hàn Quốc
-- series du lịch
-thumbnail: images/posts/thoi-tiet-han-quoc-thang-11.webp
-title: 'Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?'
-tom_tat_nhanh:
-- label: Nhiệt độ Seoul
-  value: 3–14°C
-- label: Mưa
-- label: Đặc điểm
-- label: Lưu ý
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T17:30:00+07:00"
+description = "Thời tiết Hàn Quốc tháng 11 — nhiệt độ, mưa, gió và cách chuẩn bị trang phục. Phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo."
+draft = false
+image = "images/posts/thoi-tiet-han-quoc-thang-11.webp"
+image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Quang Nguyen Vinh"
+image_creator_id = "222549"
+image_creator_url = "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-2131624/"
+seo_title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và"
+series = "di-han-thang-11"
+series_order = 2
+series_title = "Đi Hàn tháng 11"
+slug = "thoi-tiet-han-quoc-thang-11"
+tags = ["thời tiết Hàn Quốc tháng 11", "du lịch Hàn Quốc", "mùa thu Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/thoi-tiet-han-quoc-thang-11.webp"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+date_display = "08-07-2026 17:30:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Tháng 11 Hàn Quốc lạnh hơn tháng 10 rõ rệt — nhiệt độ Seoul khoảng 3–14°C, chênh lệch ngày đêm lớn, gió tăng và trời tối sớm.", "Đầu tháng 11 mát–lạnh vừa, cuối tháng 11 có thể xuống dưới 0°C ở vùng núi; cần áo khoác ấm, lớp giữ nhiệt và phụ kiện chống gió.", "Mưa ít hơn mùa hè nhưng ngày lạnh ẩm vẫn có; Seoul peak lá đỏ thường đầu–giữa tháng 11 — ngày cụ thể thay đổi theo năm.", "Nên theo dõi dự báo KMA và Visit Korea trước chuyến đi; giá vé, khách sạn có thể thay đổi theo mùa, ngày đi và tỷ giá."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "Korea Meteorological Administration (KMA)"
+
+[[external_links]]
+title = "KoreaToDo — Autumn Foliage Sites"
+
+[[faq]]
+answer = "Seoul tháng 11 khoảng 3–14°C, lạnh hơn tháng 10 rõ rệt. Sáng sớm và tối có thể dưới 5°C; cần áo khoác ấm."
+question = "Tháng 11 ở Seoul lạnh thế nào?"
+
+[[faq]]
+answer = "Mưa ít hơn mùa hè. Tháng 11 thường khô hơn tháng 7–8, nhưng vẫn có ngày mưa rào ngắn hoặc lạnh ẩm."
+
+[[faq]]
+answer = "Áo len, áo giữ nhiệt, áo khoác parka hoặc phao mỏng, quần dài, găng tay mỏng, khăn quàng. Leo núi cần thêm lớp chống gió."
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-11-co-la-do-chua.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-11-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+
+[[internal_links]]
+ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
+
+[[tom_tat_nhanh]]
+label = "Nhiệt độ Seoul"
+value = "3–14°C"
+
+[[tom_tat_nhanh]]
+label = "Mưa"
+
+[[tom_tat_nhanh]]
+label = "Đặc điểm"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
++++
 
 Tháng 11 là thời điểm Hàn Quốc bước vào **cuối mùa thu** — lạnh hơn tháng 10 rõ rệt, trời tối sớm và gió tăng dần. Nhiều du khách chọn tháng này vì Seoul và các cung điện thường vào **peak lá đỏ**, nhưng cũng lo lắng: *lạnh thế nào, có mưa không, và cần mang gì trong vali?*
 

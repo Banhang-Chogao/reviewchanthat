@@ -11,17 +11,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 9
 image = "images/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.webp"
 image_alt = "Ảnh minh họa Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền — nguồn Pexels"
+date_display = "10-07-2026 11:45:00 GMT +7"
+lastmod_display = "10-07-2026 11:45:00 GMT +7"
 
 [ai_summary]
-items = [
-  "Renaissance Technologies: Quỹ quantitative do Jim Simons lập (nhà toán học)",
-  "Medallion Fund: Lợi suất ~30%/năm trước phí (40%/năm sau phí, nhưng vẫn đạt 11% net)",
-  "Jim Simons: Fields Medalist, thuyết phục tài năng toán học phục vụ trading",
-  "Pattern Recognition: Tìm correlation + causation trong 50 năm dữ liệu",
-  "Statistical Arbitrage: Mua undervalue + bán overvalue (long-short strategy)",
-  "Bayesian Networks: Graphical models để infer mối quan hệ biến",
-  "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"
-]
+items = ["Renaissance Technologies: Quỹ quantitative do Jim Simons lập (nhà toán học)", "Medallion Fund: Lợi suất ~30%/năm trước phí (40%/năm sau phí, nhưng vẫn đạt 11% net)", "Jim Simons: Fields Medalist, thuyết phục tài năng toán học phục vụ trading", "Pattern Recognition: Tìm correlation + causation trong 50 năm dữ liệu", "Statistical Arbitrage: Mua undervalue + bán overvalue (long-short strategy)", "Bayesian Networks: Graphical models để infer mối quan hệ biến", "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"]
 thumbnail = "images/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/woman-standing-in-front-of-an-automated-machine-holding-a-bank-card-5699339/"

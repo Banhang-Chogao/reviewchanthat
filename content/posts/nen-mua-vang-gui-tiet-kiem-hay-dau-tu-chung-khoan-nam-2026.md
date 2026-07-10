@@ -1,6 +1,6 @@
 +++
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
-date = "2026-07-09 20:00:00+07:00"
+date = "2026-07-09T20:00:00+07:00"
 draft = false
 categories = ["tai-chinh"]
 author = "Minh Hoàng"
@@ -22,6 +22,7 @@ image_status = "verified"
 image_provider = "pexels"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026? — nguồn Pexels"
+date_display = "09-07-2026 20:00:00 GMT +7"
 +++
 
 [ai_summary]

@@ -1,65 +1,65 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple chưa công bố màu iPhone 18; tin đồn nổi bật Dark Cherry (Pantone 6076) cho
-    dòng Pro và có thể iPhone Fold.
-  - MacRumors tháng 2/2026 tổng hợp màu đồn đoán từ nhiều nguồn — vẫn là tin đồn chưa
-    xác nhận.
-  - Màu titan và kính matte tiếp tục trên Pro; base có thể giữ palette quen thuộc
-    (tin đồn).
-  - Chọn màu nên cân nhắc ố vàng, giá resale và so với iPhone 17 — bài cuối series
-    iPhone 18 có gì mới.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 16:00:00+07:00'
-description: 'Tin đồn màu iPhone 18: Dark Cherry, các tùy chọn Pro/Fold và góc nhìn
-  chọn màu bền, đẹp cho người mua Việt Nam — nguồn MacRumors, AppleInsider.'
-draft: false
-external_links:
-- title: MacRumors — iPhone 18 Pro rumored colors
-  url: https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/
-- title: MacRumors — iPhone 18 Pro roundup
-- title: MacRumors — iPhone Fold roundup
-- title: MacRumors — iPhone 18 roundup
-image: images/posts/iphone-18-mau-gi-dark-cherry.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: MOHI SYED
-image_creator_id: '8247'
-image_creator_url: https://www.pexels.com/@luckysam
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-47261/
-seo_title: iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có
-series: iphone-18-co-gi-moi
-series_order: 11
-series_title: iPhone 18 có gì mới
-slug: iphone-18-mau-gi-dark-cherry
-tags:
-- iPhone 18
-- Dark Cherry
-- màu iPhone 18
-- iPhone 18 Pro màu
-- tin đồn iPhone
-- chọn màu iPhone
-thumbnail: images/posts/iphone-18-mau-gi-dark-cherry.webp
-title: iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Tin đồn màu iPhone 18
-- label: Màu nổi bật
-- label: Áp dụng
-- label: Lưu ý
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T16:00:00+07:00"
+description = "Tin đồn màu iPhone 18: Dark Cherry, các tùy chọn Pro/Fold và góc nhìn chọn màu bền, đẹp cho người mua Việt Nam — nguồn MacRumors, AppleInsider."
+draft = false
+image = "images/posts/iphone-18-mau-gi-dark-cherry.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "MOHI SYED"
+image_creator_id = "8247"
+image_creator_url = "https://www.pexels.com/@luckysam"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-47261/"
+seo_title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có"
+series = "iphone-18-co-gi-moi"
+series_order = 11
+series_title = "iPhone 18 có gì mới"
+slug = "iphone-18-mau-gi-dark-cherry"
+tags = ["iPhone 18", "Dark Cherry", "màu iPhone 18", "iPhone 18 Pro màu", "tin đồn iPhone", "chọn màu iPhone"]
+thumbnail = "images/posts/iphone-18-mau-gi-dark-cherry.webp"
+title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
+date_display = "08-07-2026 16:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple chưa công bố màu iPhone 18; tin đồn nổi bật Dark Cherry (Pantone 6076) cho dòng Pro và có thể iPhone Fold.", "MacRumors tháng 2/2026 tổng hợp màu đồn đoán từ nhiều nguồn — vẫn là tin đồn chưa xác nhận.", "Màu titan và kính matte tiếp tục trên Pro; base có thể giữ palette quen thuộc (tin đồn).", "Chọn màu nên cân nhắc ố vàng, giá resale và so với iPhone 17 — bài cuối series iPhone 18 có gì mới."]
+title = "Tóm tắt bài viết"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro rumored colors"
+url = "https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro roundup"
+
+[[external_links]]
+title = "MacRumors — iPhone Fold roundup"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 roundup"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Tin đồn màu iPhone 18"
+
+[[tom_tat_nhanh]]
+label = "Màu nổi bật"
+
+[[tom_tat_nhanh]]
+label = "Áp dụng"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
++++
 
 Màu sắc hiếm khi thay đổi **cách máy chạy** — nhưng lại thay đổi **cảm giác mỗi lần cầm lên** và **giá bán lại** ở Việt Nam. Với **iPhone 18**, tin đồn đang tập trung vào **Dark Cherry** — tông đỏ cherry đậm gắn mã **Pantone 6076** — cho dòng **Pro** và có thể cả **iPhone Fold**. Apple **chưa công bố** bất kỳ màu nào; bài viết tổng hợp từ [MacRumors](https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/), [MacRumors iPhone 18 Pro roundup](https://www.macrumors.com/roundup/iphone-18-pro/) và [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more).
 

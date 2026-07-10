@@ -1,107 +1,129 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Desert Titanium là màu độc quyền đáng chú ý nhất trên iPhone 16 Pro Max.
-  - Tone ấm hợp phụ kiện da, ốp trong và không gian nội thất gỗ.
-  - Không hợp người muốn màu trung tính dễ bán lại như Natural.
-  - Nên cầm mẫu thật so với Natural trước khi đặt mua.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 09:20:00+07:00'
-description: 'Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu, phối phụ
-  kiện, so với Natural/Black và có nên chọn làm màu chính.'
-draft: false
-image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp
-image_alt: Ảnh minh họa iPhone 16 Pro Max Desert Titanium hợp ai? — nguồn Pexels
-image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Arpit Brandings
-image_creator_id: '1363149455'
-image_creator_url: https://www.pexels.com/@arpit-brandings-1363149455
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_provider: pexels
-image_query: iphone 16 pro max desert
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/smartphone-mockup-on-sandy-log-in-kamala-beach-31833728/
-image_status: verified
-inline_illustrations:
-- heading: Bảng tóm tắt nhanh
-- heading: 1. Desert hợp ai về mặt thẩm mỹ?
-- heading: 2. Desert không hợp ai?
-- heading: 3. Phối phụ kiện
-- heading: 4. Desert vs Natural 16
-- heading: 5. Mua máy cũ Desert
-- heading: Điểm mình thích
-- heading: Điểm cần cân nhắc
-- heading: Hợp với ai
-- heading: Không hợp với ai
-- heading: Kết luận
-- heading: 6. Desert trong văn phòng và dress code
-- heading: 6b. Desert vs Natural 16 — chọn trong 30 phút tại store
-- heading: 6c. Người từng dùng Blue 15 chuyển Desert
-- heading: 6d. Desert và giới tính / phong cách — bỏ stereotype
-- heading: 7. Desert máy cũ — giá và độ hiếm
-- heading: 8. So ảnh seller — tránh filter
-- heading: 9. Desert + Camera Control — combo “creator ấm”
-- heading: 10. Desert và mùa Tết / sự kiện ấm
-- heading: 11. Kết
-- heading: 12. Kết mở rộng
-- heading: 13. Desert và quà tặng / đổi máy cho người thân
-- heading: 14. Kết
-- heading: 15. Lời kết
-inline_image_count: 24
-inline_images:
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_b-ng-t-m-t-t-nhanh.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_1-desert-h-p-ai-v-m-t-th-m-m.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_2-desert-kh-ng-h-p-ai.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_3-ph-i-ph-ki-n.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_4-desert-vs-natural-16.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_5-mua-m-y-c-desert.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_i-m-m-nh-th-ch.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_i-m-c-n-c-n-nh-c.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_h-p-v-i-ai.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_kh-ng-h-p-v-i-ai.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_k-t-lu-n.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6-desert-trong-v-n-ph-ng-v-dress-code.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6b-desert-vs-natural-16-ch-n-trong-30-ph-t-t-i-store.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6c-ng-i-t-ng-d-ng-blue-15-chuy-n-desert.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6d-desert-v-gi-i-t-nh-phong-c-ch-b-stereotype.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_7-desert-m-y-c-gi-v-hi-m.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_8-so-nh-seller-tr-nh-filter.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_9-desert-camera-control-combo-creator-m.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_10-desert-v-m-a-t-t-s-ki-n-m.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_11-k-t.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_12-k-t-m-r-ng.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_13-desert-v-qu-t-ng-i-m-y-cho-ng-i-th-n.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_14-k-t.webp
-- images/posts/iphone-16-pro-max-desert-titanium-hop-ai_15-l-i-k-t.webp
-series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 2
-series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
-slug: iphone-16-pro-max-desert-titanium-hop-ai
-tags:
-- iPhone 16 Pro Max
-- Desert Titanium
-- chọn màu
-- màu titan
-thumbnail: images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp
-title: iPhone 16 Pro Max Desert Titanium hợp ai?
-tom_tat_nhanh:
-- label: Màu
-  value: Desert Titanium — xám ấm, ngả cát
-- label: Hợp
-- label: Không hợp
-- label: Đọc thêm
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T09:20:00+07:00"
+description = "Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu, phối phụ kiện, so với Natural/Black và có nên chọn làm màu chính."
+draft = false
+image = "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp"
+image_alt = "Ảnh minh họa iPhone 16 Pro Max Desert Titanium hợp ai? — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:38+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Arpit Brandings"
+image_creator_id = "1363149455"
+image_creator_url = "https://www.pexels.com/@arpit-brandings-1363149455"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_provider = "pexels"
+image_query = "iphone 16 pro max desert"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/smartphone-mockup-on-sandy-log-in-kamala-beach-31833728/"
+image_status = "verified"
+inline_image_count = 24
+inline_images = ["images/posts/iphone-16-pro-max-desert-titanium-hop-ai_b-ng-t-m-t-t-nhanh.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_1-desert-h-p-ai-v-m-t-th-m-m.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_2-desert-kh-ng-h-p-ai.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_3-ph-i-ph-ki-n.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_4-desert-vs-natural-16.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_5-mua-m-y-c-desert.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_i-m-m-nh-th-ch.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_i-m-c-n-c-n-nh-c.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_h-p-v-i-ai.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_kh-ng-h-p-v-i-ai.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_k-t-lu-n.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6-desert-trong-v-n-ph-ng-v-dress-code.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6b-desert-vs-natural-16-ch-n-trong-30-ph-t-t-i-store.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6c-ng-i-t-ng-d-ng-blue-15-chuy-n-desert.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_6d-desert-v-gi-i-t-nh-phong-c-ch-b-stereotype.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_7-desert-m-y-c-gi-v-hi-m.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_8-so-nh-seller-tr-nh-filter.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_9-desert-camera-control-combo-creator-m.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_10-desert-v-m-a-t-t-s-ki-n-m.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_11-k-t.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_12-k-t-m-r-ng.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_13-desert-v-qu-t-ng-i-m-y-cho-ng-i-th-n.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_14-k-t.webp", "images/posts/iphone-16-pro-max-desert-titanium-hop-ai_15-l-i-k-t.webp"]
+series = "iphone-16-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 2
+series_title = "iPhone 16 Pro Max màu titan: đánh giá trên tay"
+slug = "iphone-16-pro-max-desert-titanium-hop-ai"
+tags = ["iPhone 16 Pro Max", "Desert Titanium", "chọn màu", "màu titan"]
+thumbnail = "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+date_display = "08-07-2026 09:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Desert Titanium là màu độc quyền đáng chú ý nhất trên iPhone 16 Pro Max.", "Tone ấm hợp phụ kiện da, ốp trong và không gian nội thất gỗ.", "Không hợp người muốn màu trung tính dễ bán lại như Natural.", "Nên cầm mẫu thật so với Natural trước khi đặt mua."]
+title = "Tóm tắt bài viết"
+
+[[inline_illustrations]]
+heading = "Bảng tóm tắt nhanh"
+
+[[inline_illustrations]]
+heading = "1. Desert hợp ai về mặt thẩm mỹ?"
+
+[[inline_illustrations]]
+heading = "2. Desert không hợp ai?"
+
+[[inline_illustrations]]
+heading = "3. Phối phụ kiện"
+
+[[inline_illustrations]]
+heading = "4. Desert vs Natural 16"
+
+[[inline_illustrations]]
+heading = "5. Mua máy cũ Desert"
+
+[[inline_illustrations]]
+heading = "Điểm mình thích"
+
+[[inline_illustrations]]
+heading = "Điểm cần cân nhắc"
+
+[[inline_illustrations]]
+heading = "Hợp với ai"
+
+[[inline_illustrations]]
+heading = "Không hợp với ai"
+
+[[inline_illustrations]]
+heading = "Kết luận"
+
+[[inline_illustrations]]
+heading = "6. Desert trong văn phòng và dress code"
+
+[[inline_illustrations]]
+heading = "6b. Desert vs Natural 16 — chọn trong 30 phút tại store"
+
+[[inline_illustrations]]
+heading = "6c. Người từng dùng Blue 15 chuyển Desert"
+
+[[inline_illustrations]]
+heading = "6d. Desert và giới tính / phong cách — bỏ stereotype"
+
+[[inline_illustrations]]
+heading = "7. Desert máy cũ — giá và độ hiếm"
+
+[[inline_illustrations]]
+heading = "8. So ảnh seller — tránh filter"
+
+[[inline_illustrations]]
+heading = "9. Desert + Camera Control — combo “creator ấm”"
+
+[[inline_illustrations]]
+heading = "10. Desert và mùa Tết / sự kiện ấm"
+
+[[inline_illustrations]]
+heading = "11. Kết"
+
+[[inline_illustrations]]
+heading = "12. Kết mở rộng"
+
+[[inline_illustrations]]
+heading = "13. Desert và quà tặng / đổi máy cho người thân"
+
+[[inline_illustrations]]
+heading = "14. Kết"
+
+[[inline_illustrations]]
+heading = "15. Lời kết"
+
+[[tom_tat_nhanh]]
+label = "Màu"
+value = "Desert Titanium — xám ấm, ngả cát"
+
+[[tom_tat_nhanh]]
+label = "Hợp"
+
+[[tom_tat_nhanh]]
+label = "Không hợp"
+
+[[tom_tat_nhanh]]
+label = "Đọc thêm"
++++
 
 **Desert Titanium** là lý do nhiều người nhìn vào iPhone 16 Pro Max thay vì bản thường — không phải vì nhanh hơn (không đáng kể so với 16 Pro), mà vì **màu nói lên đời máy** mà không cần logo to. Nhưng Desert **không phải màu cho mọi người**.
 

@@ -1,56 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'iPhone 15 Pro Max (2023) nặng 221g, có 4 màu titan: Natural, Blue, Black, White.'
-  - Máy dùng chip A17 Pro, camera 48MP + tele 5x; vẫn đủ dùng camera năm 2026 nếu
-    không đòi hỏi AI mới.
-  - iPhone 15 Pro Max nằm trong nhóm máy hỗ trợ Apple Intelligence — lợi thế so với
-    iPhone 15 thường.
-  - Series gồm 8 bài về từng màu, khung titan, pin máy cũ và so sánh iPhone 16 Pro
-    Max.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 11:00:00+07:00'
-description: 'Đánh giá tổng thể iPhone 15 Pro Max màu titan năm 2026: giá máy cũ,
-  bốn màu, khung titan, camera, pin và ai nên chọn thay vì iPhone 16 Pro Max.'
-draft: false
-image: images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_source: embedded_exif_iptc_xmp
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: b'                                                                                                                                '
-image_creator_id: ''
-image_creator_url: ''
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/unboxing-iphone-15-pro-max-box-in-natural-titanium-color-mention-zana-qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana-qaradaghy-18525574/
-series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 1
-series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
-slug: iphone-15-pro-max-mau-titan-con-dang-mua-khong
-tags:
-- iPhone 15 Pro Max
-- màu titan
-- Natural Titanium
-- đánh giá iPhone
-- mua iPhone cũ
-thumbnail: images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp
-title: iPhone 15 Pro Max màu titan có còn đáng mua không?
-tom_tat_nhanh:
-- label: Chủ đề
-  value: iPhone 15 Pro Max màu titan còn đáng mua 2026
-- label: Ra mắt
-- label: Trọng lượng
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T11:00:00+07:00"
+description = "Đánh giá tổng thể iPhone 15 Pro Max màu titan năm 2026: giá máy cũ, bốn màu, khung titan, camera, pin và ai nên chọn thay vì iPhone 16 Pro Max."
+draft = false
+image = "images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_source = "embedded_exif_iptc_xmp"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "b'                                                                                                                                '"
+image_creator_id = ""
+image_creator_url = ""
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/unboxing-iphone-15-pro-max-box-in-natural-titanium-color-mention-zana-qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana-qaradaghy-18525574/"
+series = "iphone-15-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 1
+series_title = "iPhone 15 Pro Max màu titan: đánh giá trên tay"
+slug = "iphone-15-pro-max-mau-titan-con-dang-mua-khong"
+tags = ["iPhone 15 Pro Max", "màu titan", "Natural Titanium", "đánh giá iPhone", "mua iPhone cũ"]
+thumbnail = "images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp"
+title = "iPhone 15 Pro Max màu titan có còn đáng mua không?"
+date_display = "08-07-2026 11:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iPhone 15 Pro Max (2023) nặng 221g, có 4 màu titan: Natural, Blue, Black, White.", "Máy dùng chip A17 Pro, camera 48MP + tele 5x; vẫn đủ dùng camera năm 2026 nếu không đòi hỏi AI mới.", "iPhone 15 Pro Max nằm trong nhóm máy hỗ trợ Apple Intelligence — lợi thế so với iPhone 15 thường.", "Series gồm 8 bài về từng màu, khung titan, pin máy cũ và so sánh iPhone 16 Pro Max."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "iPhone 15 Pro Max màu titan còn đáng mua 2026"
+
+[[tom_tat_nhanh]]
+label = "Ra mắt"
+
+[[tom_tat_nhanh]]
+label = "Trọng lượng"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Nửa đầu 2026, câu hỏi trên group iPhone Việt Nam không còn là “15 Pro Max có đẹp không” mà là **còn đáng mua không khi 16 Pro Max đã giảm giá và iPhone 17 sắp ra mắt?** iPhone 15 Pro Max là lần Apple đổi khung **thép không gỉ sang titan cấp hàng không**, bỏ nút gạt rung, thêm **Action Button** và **USB-C** — những thay đổi vẫn ảnh hưởng trực tiếp đến trải nghiệm hôm nay.
 

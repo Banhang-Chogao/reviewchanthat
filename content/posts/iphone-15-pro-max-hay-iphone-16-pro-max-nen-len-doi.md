@@ -1,54 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - iPhone 15 Pro Max (221g, 6.7") vs 16 Pro Max (227g, 6.9") — khác biệt lớn nhất
-    là màn và Camera Control.
-  - Giữ 15 Pro Max hợp lý nếu giá chênh lớn và không cần màn 6.9 inch.
-  - Lên 16 Pro Max nếu hay chụp một tay, muốn Desert Titanium hoặc pin tốt hơn.
-  - Cả hai đều hỗ trợ Apple Intelligence — không phải lý do bắt buộc đổi.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 13:20:00+07:00'
-description: 'So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn hình, Camera
-  Control, pin, màu titan và gợi ý nên mua hoặc lên đời.'
-draft: false
-image: images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_error: Provider/source page did not expose verified creator metadata
-image_attribution_source: not_found
-image_attribution_verified: false
-image_commercial_use: true
-image_creator: ''
-image_creator_id: ''
-image_creator_url: ''
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/sylt-2024-27195697/
-series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 8
-series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
-slug: iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi
-tags:
-- iPhone 15 Pro Max
-- iPhone 16 Pro Max
-- so sánh
-- lên đời
-thumbnail: images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp
-title: 'iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?'
-tom_tat_nhanh:
-- label: So sánh
-  value: 15 Pro Max vs 16 Pro Max
-- label: Chênh chính
-- label: Giữ 15
-- label: Lên 16
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T13:20:00+07:00"
+description = "So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn hình, Camera Control, pin, màu titan và gợi ý nên mua hoặc lên đời."
+draft = false
+image = "images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_source = "not_found"
+image_attribution_verified = false
+image_commercial_use = true
+image_creator = ""
+image_creator_id = ""
+image_creator_url = ""
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/sylt-2024-27195697/"
+series = "iphone-15-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 8
+series_title = "iPhone 15 Pro Max màu titan: đánh giá trên tay"
+slug = "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi"
+tags = ["iPhone 15 Pro Max", "iPhone 16 Pro Max", "so sánh", "lên đời"]
+thumbnail = "images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp"
+title = "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?"
+date_display = "08-07-2026 13:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iPhone 15 Pro Max (221g, 6.7\") vs 16 Pro Max (227g, 6.9\") — khác biệt lớn nhất là màn và Camera Control.", "Giữ 15 Pro Max hợp lý nếu giá chênh lớn và không cần màn 6.9 inch.", "Lên 16 Pro Max nếu hay chụp một tay, muốn Desert Titanium hoặc pin tốt hơn.", "Cả hai đều hỗ trợ Apple Intelligence — không phải lý do bắt buộc đổi."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "So sánh"
+value = "15 Pro Max vs 16 Pro Max"
+
+[[tom_tat_nhanh]]
+label = "Chênh chính"
+
+[[tom_tat_nhanh]]
+label = "Giữ 15"
+
+[[tom_tat_nhanh]]
+label = "Lên 16"
++++
 
 Đây là câu hỏi **cuối series** iPhone 15 Pro Max: đã có (hoặc sắp mua) 15 Pro Max, **có đáng bỏ thêm tiền lên 16 Pro Max** không? Không có đáp án chung — chỉ có **đáp án đúng với ngân sách và tay bạn**.
 

@@ -1,66 +1,66 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Bạn thấy một chiếc laptop đạt điểm benchmark cao ngất ngưởng.
-  - Nhưng dùng một thời gian thì thấy nóng máy, pin yếu, phần mềm lag.
-  - 'Benchmark đo hiệu năng trong điều kiện lý tưởng: máy nguội, không cài phần mềm
-    nặng nề, test trong phòng máy lạnh.'
-  - 'Trải nghiệm thật phụ thuộc vào: Phần mềm và tối ưu: iOS hay Android, MIUI hay
-    OneUI đều ảnh hưởng khác nhau.'
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Veritable Content. Nội dung được biên tập dựa trên trải nghiệm
-    thực tế.
-  source_note: Bài viết tham khảo từ các trang đánh giá công nghệ uy tín và trải nghiệm
-    cá nhân của người dùng.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- review
-- cong-nghe
-date: '2026-06-18 10:00:00+07:00'
-description: Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải
-  thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ.
-draft: false
-external_links:
-- title: AnandTech - Understanding Benchmarks
-  url: https://www.anandtech.com/bench/CPU/4
-- title: GSMArena - Real-world Battery Test
-faq:
-- answer: Không. Benchmark hữu ích để so sánh tương đối giữa các sản phẩm cùng phân
-    khúc, nhưng không phản ánh trải nghiệm thực tế hàng ngày.
-  question: Benchmark có hoàn toàn vô dụng không?
-- answer: Kết hợp cả benchmark (so sánh thông số) và review trải nghiệm thực tế từ
-    nhiều nguồn khác nhau. Ưu tiên review dài hạn sau 1-3 tháng sử dụng.
-image: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
-image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: AlphaTradeZone
-image_creator_id: '3882745'
-image_creator_url: https://www.pexels.com/@alphatradezone
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/fingers-on-ipad-with-graph-on-screen-5833772/
-slug: review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that
-tags:
-- benchmark
-- trải nghiệm thật
-- review công nghệ
-thumbnail: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
-title: 'Review công nghệ: nên tin benchmark hay trải nghiệm thật?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Benchmark vs trải nghiệm thực tế khi review công nghệ
-- label: Mục đích
-- label: Hợp với
-- label: Điểm chính
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["review", "cong-nghe"]
+date = "2026-06-18T10:00:00+07:00"
+description = "Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ."
+draft = false
+image = "images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp"
+image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "AlphaTradeZone"
+image_creator_id = "3882745"
+image_creator_url = "https://www.pexels.com/@alphatradezone"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/fingers-on-ipad-with-graph-on-screen-5833772/"
+slug = "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that"
+tags = ["benchmark", "trải nghiệm thật", "review công nghệ"]
+thumbnail = "images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp"
+title = "Review công nghệ: nên tin benchmark hay trải nghiệm thật?"
+date_display = "18-06-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Bạn thấy một chiếc laptop đạt điểm benchmark cao ngất ngưởng.", "Nhưng dùng một thời gian thì thấy nóng máy, pin yếu, phần mềm lag.", "Benchmark đo hiệu năng trong điều kiện lý tưởng: máy nguội, không cài phần mềm nặng nề, test trong phòng máy lạnh.", "Trải nghiệm thật phụ thuộc vào: Phần mềm và tối ưu: iOS hay Android, MIUI hay OneUI đều ảnh hưởng khác nhau."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Veritable Content. Nội dung được biên tập dựa trên trải nghiệm thực tế."
+source_note = "Bài viết tham khảo từ các trang đánh giá công nghệ uy tín và trải nghiệm cá nhân của người dùng."
+
+[[external_links]]
+title = "AnandTech - Understanding Benchmarks"
+url = "https://www.anandtech.com/bench/CPU/4"
+
+[[external_links]]
+title = "GSMArena - Real-world Battery Test"
+
+[[faq]]
+answer = "Không. Benchmark hữu ích để so sánh tương đối giữa các sản phẩm cùng phân khúc, nhưng không phản ánh trải nghiệm thực tế hàng ngày."
+question = "Benchmark có hoàn toàn vô dụng không?"
+
+[[faq]]
+answer = "Kết hợp cả benchmark (so sánh thông số) và review trải nghiệm thực tế từ nhiều nguồn khác nhau. Ưu tiên review dài hạn sau 1-3 tháng sử dụng."
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Benchmark vs trải nghiệm thực tế khi review công nghệ"
+
+[[tom_tat_nhanh]]
+label = "Mục đích"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Điểm chính"
++++
 
 Bạn thấy một chiếc laptop đạt điểm benchmark cao ngất ngưởng. Giá rẻ, cấu hình khủng. Bạn mua ngay. Nhưng dùng một thời gian thì thấy nóng máy, pin yếu, phần mềm lag. Quen không?
 

@@ -3,7 +3,7 @@ draft = true
 title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
 description = "Black-Scholes là công thức định giá option nổi tiếng. Học C = S×Φ(d1) - K×e^(-rT)×Φ(d2), Greeks, implied volatility, và ứng dụng thực tế."
 date = "2026-07-10T13:16:14+07:00"
-lastmod = "2026-07-10T23:15:00+07:00"
+lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "Black-Scholes: định giá option, call price, implied volatility"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
@@ -12,17 +12,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 11
 image = "images/posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.webp"
 image_alt = "Ảnh minh họa Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e — nguồn Pexels"
+date_display = "10-07-2026 13:16:14 GMT +7"
+lastmod_display = "10-07-2026 14:10:36 GMT +7"
 
 [ai_summary]
-items = [
-  "Black-Scholes: Công thức định giá call option được phát hiện năm 1973",
-  "C = S×Φ(d1) - K×e^(-rT)×Φ(d2) — thứ nhất thấy e^(-rT) từ Bài 1!",
-  "d1, d2 = công thức logarit + phân phối chuẩn để tính Φ (cumulative normal CDF)",
-  "Giả định: σ hằng số, không có dividend, European option (chỉ thực hiện khi expiry)",
-  "Implied Volatility: Đảo ngược công thức để tìm σ từ giá market",
-  "Put-Call Parity: C - P = S - K×e^(-rT) (mối quan hệ call/put)",
-  "Thực tế: Volatility Smile, American options, dividend adjustment cần mô hình phức tạp hơn"
-]
+items = ["Black-Scholes: Công thức định giá call option được phát hiện năm 1973", "C = S×Φ(d1) - K×e^(-rT)×Φ(d2) — thứ nhất thấy e^(-rT) từ Bài 1!", "d1, d2 = công thức logarit + phân phối chuẩn để tính Φ (cumulative normal CDF)", "Giả định: σ hằng số, không có dividend, European option (chỉ thực hiện khi expiry)", "Implied Volatility: Đảo ngược công thức để tìm σ từ giá market", "Put-Call Parity: C - P = S - K×e^(-rT) (mối quan hệ call/put)", "Thực tế: Volatility Smile, American options, dividend adjustment cần mô hình phức tạp hơn"]
 thumbnail = "images/posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/person-writing-on-white-paper-7821495/"

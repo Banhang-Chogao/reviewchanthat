@@ -1,59 +1,53 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Không nên cập nhật iOS 27 ngay ngày phát hành nếu iPhone là máy làm việc duy nhất
-    hoặc pin health dưới 80%.
-  - Nên chờ 1–2 tuần sau public release để app ngân hàng VN và plugin công việc xác
-    nhận tương thích.
-  - iPhone 16/17 và phụ huynh cần parental controls mới là nhóm hưởng lợi rõ nhất
-    khi bản chính thức ổn định.
-  - 'Checklist trước update: backup iCloud/Finder, kiểm tra storage ≥ 10GB trống,
-    đọc changelog và pin health.'
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 09:40:00+07:00'
-description: Checklist có nên cập nhật iOS 27 ngay không — ai nên chờ, ai nên lên,
-  backup và rủi ro app ngân hàng cho người dùng Việt Nam.
-draft: false
-image: images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_error: Provider/source page did not expose verified creator metadata
-image_attribution_source: not_found
-image_attribution_verified: false
-image_commercial_use: true
-image_creator: ''
-image_creator_id: ''
-image_creator_url: ''
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/black-iphone-4-on-white-book-1092644/
-seo_title: iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm
-series: ios-27-co-gi-moi
-series_order: 6
-series_title: iOS 27 có gì mới
-slug: ios-27-co-nen-cap-nhat-ngay-khong
-tags:
-- iOS 27
-- cập nhật iOS
-- checklist
-- iPhone
-- nâng cấp iOS
-thumbnail: images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp
-title: iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Có nên lên iOS 27 ngay
-- label: Khuyến nghị
-- label: Nên lên sớm
-- label: Nên chờ
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T09:40:00+07:00"
+description = "Checklist có nên cập nhật iOS 27 ngay không — ai nên chờ, ai nên lên, backup và rủi ro app ngân hàng cho người dùng Việt Nam."
+draft = false
+image = "images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_source = "not_found"
+image_attribution_verified = false
+image_commercial_use = true
+image_creator = ""
+image_creator_id = ""
+image_creator_url = ""
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/black-iphone-4-on-white-book-1092644/"
+seo_title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm"
+series = "ios-27-co-gi-moi"
+series_order = 6
+series_title = "iOS 27 có gì mới"
+slug = "ios-27-co-nen-cap-nhat-ngay-khong"
+tags = ["iOS 27", "cập nhật iOS", "checklist", "iPhone", "nâng cấp iOS"]
+thumbnail = "images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+date_display = "08-07-2026 09:40:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Không nên cập nhật iOS 27 ngay ngày phát hành nếu iPhone là máy làm việc duy nhất hoặc pin health dưới 80%.", "Nên chờ 1–2 tuần sau public release để app ngân hàng VN và plugin công việc xác nhận tương thích.", "iPhone 16/17 và phụ huynh cần parental controls mới là nhóm hưởng lợi rõ nhất khi bản chính thức ổn định.", "Checklist trước update: backup iCloud/Finder, kiểm tra storage ≥ 10GB trống, đọc changelog và pin health."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Có nên lên iOS 27 ngay"
+
+[[tom_tat_nhanh]]
+label = "Khuyến nghị"
+
+[[tom_tat_nhanh]]
+label = "Nên lên sớm"
+
+[[tom_tat_nhanh]]
+label = "Nên chờ"
++++
 
 Ngày Apple phát hành iOS mới, nút **Software Update** luôn đỏ lửa. Nhưng “có ngay trên máy” không đồng nghĩa “nên cài ngay”. **iOS 27** mang Siri AI, parental controls mới và thay đổi shell — đủ lý do lên, nhưng cũng đủ rủi ro nếu bạn làm việc trên một chiếc iPhone duy nhất.
 

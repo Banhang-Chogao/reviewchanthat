@@ -1,86 +1,84 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Yongpyong là ski resort lớn nhất Hàn Quốc với 28 slope, từng là địa điểm thi đấu
-    Olympic mùa đông PyeongChang 2018.
-  - Cách Seoul khoảng 3 giờ — phù hợp cho 2 ngày 1 đêm hơn là day trip.
-  - Phù hợp người trượt trung cấp và cao cấp, có slope dành riêng cho beginner nhưng
-    không phải thế mạnh chính.
-  - Resort có hệ thống lift hiện đại, gondola, khách sạn, golf và nhiều tiện nghi
-    nghỉ dưỡng.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Nguồn tham khảo: https://www.yongpyong.co.kr/eng/index.do, https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111329'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 09:30:00+07:00'
-description: Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa
-  điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên
-  thực tế.
-draft: false
-faq:
-- answer: Khoảng 180 km, di chuyển bằng ô tô hoặc bus mất khoảng 3 giờ. Có thể đi
-    KTX từ ga Seoul đến ga Jinbu (khoảng 1,5 giờ) rồi bắt taxi đến resort (khoảng
-    30 phút).
-  question: Yongpyong Resort cách Seoul bao xa?
-- answer: Có slope dành cho beginner, nhưng resort này nổi tiếng với slope trung cấp
-    và cao cấp hơn. Nếu bạn hoàn toàn mới, nên chọn Elysian Gangchon hoặc Vivaldi
-    Park trước. Nếu đã biết trượt cơ bản và muốn lên trình, Yongpyong là lựa chọn
-    tốt.
-- answer: Có thể nhưng không lý tưởng — mất 3 giờ di chuyển mỗi chiều, thời gian trượt
-    thực tế chỉ 4–5 giờ. Khuyến khích ở lại ít nhất 1 đêm.
-- answer: Yongpyong lớn hơn nhiều (28 slope so với 6), có lịch sử lâu đời hơn và là
-    resort trượt tuyết chính của Olympic 2018. Alpensia nghiêng về nghỉ dưỡng tổng
-    hợp hơn.
-image: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
-image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
-image_attribution_source: pixabay_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: jarmoluk
-image_creator_id: '143740'
-image_creator_url: https://pixabay.com/users/jarmoluk-143740/
-image_license: Pixabay Content License
-image_license_url: https://pixabay.com/service/license-summary/
-image_owner: external
-image_source: Pixabay
-image_source_url: https://pixabay.com/vi/photos/k%C3%ADnh-b%E1%BA%A3o-h%E1%BB%99-m%C3%B9a-%C4%91%C3%B4ng-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-428610/
-internal_links:
-- ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
-- ref: posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md
-- ref: posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md
-seo_title: 'Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở'
-series: truot-tuyet
-series_order: 4
-series_title: Trượt tuyết Hàn Quốc
-slug: yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet
-tags:
-- du lịch Hàn Quốc
-- Yongpyong
-- Pyeongchang
-- trượt tuyết Hàn Quốc
-- ski resort Hàn Quốc
-- Olympic PyeongChang
-- gangwon-do
-- series trượt tuyết
-thumbnail: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
-title: 'Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với
-  du khách Việt?'
-tom_tat_nhanh:
-- label: Khu vực
-  value: Daegwallyeong, Pyeongchang (Gangwon-do, 200 km từ Seoul)
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Đi mùa nào hợp
-- label: Có cần đặt trước không
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T09:30:00+07:00"
+description = "Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên thực tế."
+draft = false
+image = "images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp"
+image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image_attribution_source = "pixabay_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "jarmoluk"
+image_creator_id = "143740"
+image_creator_url = "https://pixabay.com/users/jarmoluk-143740/"
+image_license = "Pixabay Content License"
+image_license_url = "https://pixabay.com/service/license-summary/"
+image_owner = "external"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/vi/photos/k%C3%ADnh-b%E1%BA%A3o-h%E1%BB%99-m%C3%B9a-%C4%91%C3%B4ng-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-428610/"
+seo_title = "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở"
+series = "truot-tuyet"
+series_order = 4
+series_title = "Trượt tuyết Hàn Quốc"
+slug = "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet"
+tags = ["du lịch Hàn Quốc", "Yongpyong", "Pyeongchang", "trượt tuyết Hàn Quốc", "ski resort Hàn Quốc", "Olympic PyeongChang", "gangwon-do", "series trượt tuyết"]
+thumbnail = "images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp"
+title = "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?"
+date_display = "08-07-2026 09:30:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Yongpyong là ski resort lớn nhất Hàn Quốc với 28 slope, từng là địa điểm thi đấu Olympic mùa đông PyeongChang 2018.", "Cách Seoul khoảng 3 giờ — phù hợp cho 2 ngày 1 đêm hơn là day trip.", "Phù hợp người trượt trung cấp và cao cấp, có slope dành riêng cho beginner nhưng không phải thế mạnh chính.", "Resort có hệ thống lift hiện đại, gondola, khách sạn, golf và nhiều tiện nghi nghỉ dưỡng."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Nguồn tham khảo: https://www.yongpyong.co.kr/eng/index.do, https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111329"
+
+[[faq]]
+answer = "Khoảng 180 km, di chuyển bằng ô tô hoặc bus mất khoảng 3 giờ. Có thể đi KTX từ ga Seoul đến ga Jinbu (khoảng 1,5 giờ) rồi bắt taxi đến resort (khoảng 30 phút)."
+question = "Yongpyong Resort cách Seoul bao xa?"
+
+[[faq]]
+answer = "Có slope dành cho beginner, nhưng resort này nổi tiếng với slope trung cấp và cao cấp hơn. Nếu bạn hoàn toàn mới, nên chọn Elysian Gangchon hoặc Vivaldi Park trước. Nếu đã biết trượt cơ bản và muốn lên trình, Yongpyong là lựa chọn tốt."
+
+[[faq]]
+answer = "Có thể nhưng không lý tưởng — mất 3 giờ di chuyển mỗi chiều, thời gian trượt thực tế chỉ 4–5 giờ. Khuyến khích ở lại ít nhất 1 đêm."
+
+[[faq]]
+answer = "Yongpyong lớn hơn nhiều (28 slope so với 6), có lịch sử lâu đời hơn và là resort trượt tuyết chính của Olympic 2018. Alpensia nghiêng về nghỉ dưỡng tổng hợp hơn."
+
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+
+[[internal_links]]
+ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Daegwallyeong, Pyeongchang (Gangwon-do, 200 km từ Seoul)"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+
+[[tom_tat_nhanh]]
+label = "Đi mùa nào hợp"
+
+[[tom_tat_nhanh]]
+label = "Có cần đặt trước không"
++++
 
 Yongpyong là cái tên ai tìm kiếm ski resort Hàn Quốc cũng gặp — resort lớn nhất xứ Hàn với 28 slope, từng là địa điểm Olympic 2018. Nhưng lớn nhất không có nghĩa là phù hợp nhất với tất cả mọi người.
 

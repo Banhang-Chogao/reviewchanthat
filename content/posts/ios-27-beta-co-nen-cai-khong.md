@@ -1,58 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Developer beta có từ 8/6/2026; public beta dự kiến tháng 7 — ổn định hơn developer
-    nhưng vẫn không phải bản chính thức.
-  - Không cài beta trên iPhone làm việc/thu nhập duy nhất nếu chưa backup và chấp
-    nhận mất dữ liệu.
-  - App ngân hàng Việt Nam, eSIM du lịch và token công ty có thể lỗi đến sát public
-    release.
-  - 'Rollback iOS beta khó: backup Finder/iCloud trước khi cài; IPSW hạ cấp thường
-    không khả dụng sau vài tuần.'
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 10:00:00+07:00'
-description: iOS 27 public/developer beta có nên cài không? Rủi ro ổn định, app ngân
-  hàng, rollback và profile Apple Beta cho người dùng Việt Nam.
-draft: false
-image: images/posts/ios-27-beta-co-nen-cai-khong.webp
-image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Tyler Lastovich
-image_creator_id: '129858'
-image_creator_url: https://www.pexels.com/@lastly
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/iphone-smartphone-desk-laptop-699122/
-seo_title: iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về
-series: ios-27-co-gi-moi
-series_order: 7
-series_title: iOS 27 có gì mới
-slug: ios-27-beta-co-nen-cai-khong
-tags:
-- iOS 27 beta
-- public beta
-- developer beta
-- iPhone
-- cài beta
-thumbnail: images/posts/ios-27-beta-co-nen-cai-khong.webp
-title: iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về bản ổn định
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Có nên cài iOS 27 beta
-- label: Public beta
-- label: Rủi ro
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T10:00:00+07:00"
+description = "iOS 27 public/developer beta có nên cài không? Rủi ro ổn định, app ngân hàng, rollback và profile Apple Beta cho người dùng Việt Nam."
+draft = false
+image = "images/posts/ios-27-beta-co-nen-cai-khong.webp"
+image_attribution_checked_at = "2026-07-10T14:01:30+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Tyler Lastovich"
+image_creator_id = "129858"
+image_creator_url = "https://www.pexels.com/@lastly"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/iphone-smartphone-desk-laptop-699122/"
+seo_title = "iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về"
+series = "ios-27-co-gi-moi"
+series_order = 7
+series_title = "iOS 27 có gì mới"
+slug = "ios-27-beta-co-nen-cai-khong"
+tags = ["iOS 27 beta", "public beta", "developer beta", "iPhone", "cài beta"]
+thumbnail = "images/posts/ios-27-beta-co-nen-cai-khong.webp"
+title = "iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về bản ổn định"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Developer beta có từ 8/6/2026; public beta dự kiến tháng 7 — ổn định hơn developer nhưng vẫn không phải bản chính thức.", "Không cài beta trên iPhone làm việc/thu nhập duy nhất nếu chưa backup và chấp nhận mất dữ liệu.", "App ngân hàng Việt Nam, eSIM du lịch và token công ty có thể lỗi đến sát public release.", "Rollback iOS beta khó: backup Finder/iCloud trước khi cài; IPSW hạ cấp thường không khả dụng sau vài tuần."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Có nên cài iOS 27 beta"
+
+[[tom_tat_nhanh]]
+label = "Public beta"
+
+[[tom_tat_nhanh]]
+label = "Rủi ro"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Public beta iOS 27 dự kiến **tháng 7/2026** — đúng lúc nhiều người rảnh thử hệ điều hành mới. Nhưng beta trên iPhone **không giống** beta game: rollback khó, app ngân hàng có thể từ chối chạy, pin và nhiệt độ thất thường.
 

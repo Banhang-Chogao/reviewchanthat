@@ -1,58 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Developer beta có từ 8/6/2026; public beta dự kiến tháng 7 — ổn định hơn developer
-    nhưng vẫn không phải bản chính thức.
-  - Không cài beta trên Mac làm việc/thu nhập duy nhất nếu chưa backup và chấp nhận
-    mất dữ liệu.
-  - App ngân hàng Việt Nam, VPN công ty và plugin Adobe có thể lỗi đến sát public
-    release.
-  - Rollback về macOS 26 cần backup trước — APFS snapshot không đảm bảo trong mọi
-    trường hợp.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 13:00:00+07:00'
-description: 'Hướng dẫn cài macOS 27 public/developer beta: rủi ro ổn định, app ngân
-  hàng, cách rollback và profile Apple Beta.'
-draft: false
-image: images/posts/macos-27-beta-co-nen-cai-khong.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Meet Patel
-image_creator_id: '236003280'
-image_creator_url: https://www.pexels.com/@meet-patel-236003280
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/macbook-pro-on-rooftop-with-code-editor-open-37085305/
-seo_title: macOS 27 beta có nên cài không? Rủi ro, backup và cách quay
-series: macos-27-co-gi-moi
-series_order: 7
-series_title: macOS 27 có gì mới
-slug: macos-27-beta-co-nen-cai-khong
-tags:
-- macOS 27 beta
-- public beta
-- developer beta
-- Mac
-- cài beta
-thumbnail: images/posts/macos-27-beta-co-nen-cai-khong.webp
-title: macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Có nên cài macOS 27 beta
-- label: Public beta
-- label: Rủi ro
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T13:00:00+07:00"
+description = "Hướng dẫn cài macOS 27 public/developer beta: rủi ro ổn định, app ngân hàng, cách rollback và profile Apple Beta."
+draft = false
+image = "images/posts/macos-27-beta-co-nen-cai-khong.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Meet Patel"
+image_creator_id = "236003280"
+image_creator_url = "https://www.pexels.com/@meet-patel-236003280"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/macbook-pro-on-rooftop-with-code-editor-open-37085305/"
+seo_title = "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay"
+series = "macos-27-co-gi-moi"
+series_order = 7
+series_title = "macOS 27 có gì mới"
+slug = "macos-27-beta-co-nen-cai-khong"
+tags = ["macOS 27 beta", "public beta", "developer beta", "Mac", "cài beta"]
+thumbnail = "images/posts/macos-27-beta-co-nen-cai-khong.webp"
+title = "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định"
+date_display = "08-07-2026 13:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Developer beta có từ 8/6/2026; public beta dự kiến tháng 7 — ổn định hơn developer nhưng vẫn không phải bản chính thức.", "Không cài beta trên Mac làm việc/thu nhập duy nhất nếu chưa backup và chấp nhận mất dữ liệu.", "App ngân hàng Việt Nam, VPN công ty và plugin Adobe có thể lỗi đến sát public release.", "Rollback về macOS 26 cần backup trước — APFS snapshot không đảm bảo trong mọi trường hợp."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Có nên cài macOS 27 beta"
+
+[[tom_tat_nhanh]]
+label = "Public beta"
+
+[[tom_tat_nhanh]]
+label = "Rủi ro"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Public beta macOS 27 dự kiến **tháng 7/2026** — đúng lúc nhiều người rảnh thử hệ điều hành mới. Nhưng beta trên Mac **không giống** beta game: rollback khó, dữ liệu công việc thật, app ngân hàng có thể từ chối chạy.
 

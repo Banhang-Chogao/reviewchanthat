@@ -1,75 +1,95 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Jeju tháng 7–8 có mưa nhưng không quá nhiều — trung bình 10–13 ngày mưa/tháng,
-    mưa rào ngắn.
-  - 'Nên xếp lịch linh hoạt: sáng đi ngoài trời, chiều dự phòng indoor.'
-  - 'Các điểm indoor ở Jeju: thủy cung, bảo tàng, trung tâm thương mại, quán cà phê.'
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.kma.go.kr, https://www.visitjeju.net.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch
-  trình dự phòng indoor cho chuyến đi không lo mưa.
-draft: false
-faq:
-- answer: Tháng 7 mưa 12–15 ngày, tháng 8 mưa 8–10 ngày. Mưa rào ngắn 1–3 tiếng.
-  question: Jeju tháng 7-8 mưa nhiều không?
-- answer: Aqua Planet Jeju, Jeju Stone Park, bảo tàng, trung tâm thương mại, quán
-    cà phê.
-- answer: Xếp điểm ngoài trời vào sáng sớm, điểm indoor vào chiều. Theo dõi dự báo
-    trên app.
-image: images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp
-image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: nana liu
-image_creator_id: '2527431'
-image_creator_url: https://www.pexels.com/@nana-llj
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/scenic-rocky-coastline-in-jeju-island-korea-34350262/
-internal_links:
-- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-- ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md
-- ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-- ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
-- ref: posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md
-- ref: posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md
-- ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-- ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
-- ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
-series: du-lich-han-quoc-mua-he
-series_order: 8
-series_title: Du lịch Hàn Quốc mùa hè
-slug: di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong
-tags:
-- Jeju
-- thời tiết Jeju
-- du lịch Jeju
-- mùa mưa
-- series du lịch
-thumbnail: images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp
-title: Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng
-tom_tat_nhanh:
-- label: Tháng 7
-  value: 12–15 ngày mưa
-- label: Tháng 8
-- label: Nhiệt độ
-- label: Mẹo
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch trình dự phòng indoor cho chuyến đi không lo mưa."
+draft = false
+image = "images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp"
+image_attribution_checked_at = "2026-07-10T14:01:30+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "nana liu"
+image_creator_id = "2527431"
+image_creator_url = "https://www.pexels.com/@nana-llj"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/scenic-rocky-coastline-in-jeju-island-korea-34350262/"
+series = "du-lich-han-quoc-mua-he"
+series_order = 8
+series_title = "Du lịch Hàn Quốc mùa hè"
+slug = "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong"
+tags = ["Jeju", "thời tiết Jeju", "du lịch Jeju", "mùa mưa", "series du lịch"]
+thumbnail = "images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp"
+title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Jeju tháng 7–8 có mưa nhưng không quá nhiều — trung bình 10–13 ngày mưa/tháng, mưa rào ngắn.", "Nên xếp lịch linh hoạt: sáng đi ngoài trời, chiều dự phòng indoor.", "Các điểm indoor ở Jeju: thủy cung, bảo tàng, trung tâm thương mại, quán cà phê."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.kma.go.kr, https://www.visitjeju.net."
+
+[[faq]]
+answer = "Tháng 7 mưa 12–15 ngày, tháng 8 mưa 8–10 ngày. Mưa rào ngắn 1–3 tiếng."
+question = "Jeju tháng 7-8 mưa nhiều không?"
+
+[[faq]]
+answer = "Aqua Planet Jeju, Jeju Stone Park, bảo tàng, trung tâm thương mại, quán cà phê."
+
+[[faq]]
+answer = "Xếp điểm ngoài trời vào sáng sớm, điểm indoor vào chiều. Theo dõi dự báo trên app."
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
+
+[[internal_links]]
+ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
+
+[[internal_links]]
+ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
+
+[[internal_links]]
+ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+
+[[internal_links]]
+ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
+
+[[tom_tat_nhanh]]
+label = "Tháng 7"
+value = "12–15 ngày mưa"
+
+[[tom_tat_nhanh]]
+label = "Tháng 8"
+
+[[tom_tat_nhanh]]
+label = "Nhiệt độ"
+
+[[tom_tat_nhanh]]
+label = "Mẹo"
++++
 
 ## Thời tiết Jeju tháng 7–8
 

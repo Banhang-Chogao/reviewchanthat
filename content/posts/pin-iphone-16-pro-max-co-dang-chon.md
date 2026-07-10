@@ -1,52 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - iPhone 16 Pro Max có pin lớn hơn và chip A18 Pro theo Apple.
-  - Thời lượng thường tốt hơn 15 Pro Max khi dùng màn 6.9 inch và 5G nặng.
-  - Mua cũ vẫn cần kiểm tra Battery Health và nhiệt khi sạc.
-  - Pro Max hợp người dùng cả ngày không sạc giữa chiều.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 11:00:00+07:00'
-description: 'Đánh giá pin iPhone 16 Pro Max: thời lượng thực tế, so 15 Pro Max, mua
-  máy cũ và ai cần Pro Max vì pin.'
-draft: false
-image: images/posts/pin-iphone-16-pro-max-co-dang-chon.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Jobert Enamno
-image_creator_id: '1689872'
-image_creator_url: https://www.pexels.com/@jobzky
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/young-woman-using-smartphone-in-cozy-cafe-31446172/
-series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 7
-series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
-slug: pin-iphone-16-pro-max-co-dang-chon
-tags:
-- iPhone 16 Pro Max
-- pin iPhone
-- thời lượng pin
-- A18 Pro
-thumbnail: images/posts/pin-iphone-16-pro-max-co-dang-chon.webp
-title: Pin iPhone 16 Pro Max có đáng chọn?
-tom_tat_nhanh:
-- label: Pin
-  value: Lớn hơn thế hệ trước theo Apple
-- label: Chip
-- label: So 15
-- label: Máy cũ
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T11:00:00+07:00"
+description = "Đánh giá pin iPhone 16 Pro Max: thời lượng thực tế, so 15 Pro Max, mua máy cũ và ai cần Pro Max vì pin."
+draft = false
+image = "images/posts/pin-iphone-16-pro-max-co-dang-chon.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Jobert Enamno"
+image_creator_id = "1689872"
+image_creator_url = "https://www.pexels.com/@jobzky"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/young-woman-using-smartphone-in-cozy-cafe-31446172/"
+series = "iphone-16-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 7
+series_title = "iPhone 16 Pro Max màu titan: đánh giá trên tay"
+slug = "pin-iphone-16-pro-max-co-dang-chon"
+tags = ["iPhone 16 Pro Max", "pin iPhone", "thời lượng pin", "A18 Pro"]
+thumbnail = "images/posts/pin-iphone-16-pro-max-co-dang-chon.webp"
+title = "Pin iPhone 16 Pro Max có đáng chọn?"
+date_display = "08-07-2026 11:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iPhone 16 Pro Max có pin lớn hơn và chip A18 Pro theo Apple.", "Thời lượng thường tốt hơn 15 Pro Max khi dùng màn 6.9 inch và 5G nặng.", "Mua cũ vẫn cần kiểm tra Battery Health và nhiệt khi sạc.", "Pro Max hợp người dùng cả ngày không sạc giữa chiều."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Pin"
+value = "Lớn hơn thế hệ trước theo Apple"
+
+[[tom_tat_nhanh]]
+label = "Chip"
+
+[[tom_tat_nhanh]]
+label = "So 15"
+
+[[tom_tat_nhanh]]
+label = "Máy cũ"
++++
 
 **Pin** là lý do nhiều người chọn **Pro Max** thay Pro — không phải camera. iPhone 16 Pro Max **pin lớn hơn** và **A18 Pro** theo Apple, nhưng **màn 6.9 inch** cũng **ăn thêm**. Kết quả thực tế: **có đáng chọn 16 vì pin không?**
 

@@ -1,72 +1,44 @@
----
-ai_summary:
-  collapsed: false
-  disclaimer: Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + GitHub Pages; mỗi
-    repo cần điều chỉnh policy theo rủi ro riêng.
-  enabled: true
-  items:
-  - Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).
-  - 'Nhiều failure không phải bug code: runner queue, platform incident, rate limit,
-    Pages CDN lag.'
-  - 'Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng
-    feature không.'
-  title: Tóm tắt nhanh
-author: Minh Hoàng
-categories:
-- cong-nghe
-date: '2026-07-10 04:05:00+07:00'
-description: Khi một blog tĩnh (Hugo) publish qua GitHub Actions + GitHub Pages, màn
-  hình đỏ không tự nói "đây là bug code". Nhiều lần job fail vì runner chưa kịp start,
-  API
-draft: false
-image: images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp
-image_alt: 'Ảnh minh họa CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog
-  Hugo trên GitHub Pages — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Zulfugar Karimov
-image_creator_id: '2150928041'
-image_creator_url: https://www.pexels.com/@zulfugarkarimov
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_provider: pexels
-image_query: ci cd root cause playbook
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-holding-a-reflective-cd-disc-in-hand-37028744/
-image_status: verified
-related_posts:
-- github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code
-- github-api-va-pages-rate-limit-cach-doc-va-giam-tai
-- workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress
-- baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi
-- image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url
-- post-date-timezone-vietnam-gmt7-tranh-stale-date
-- content-direction-empty-report-va-optimizer-frontmatter
-- live-deploy-khong-phan-anh-va-pages-serving-old-artifact
-- baseurl-sitemap-noindex-va-series-hardcoded-url
-- hugo-build-duplicate-yaml-ai-summary-va-template-regression
-- deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix
-seo_title: 'CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog'
-series: ci-cd-root-cause-lessons
-series_order: 1
-series_title: CI/CD Root Cause Lessons
-slug: ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
-tags:
-- CI/CD
-- GitHub Actions
-- GitHub Pages
-- root cause
-- autofix
-- Deployment Doctor
-- Hugo
-- DevOps
-thumbnail: images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp
-title: 'CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub
-  Pages'
----
++++
+author = "Minh Hoàng"
+categories = ["cong-nghe"]
+date = "2026-07-10T04:05:00+07:00"
+description = "Khi một blog tĩnh (Hugo) publish qua GitHub Actions + GitHub Pages, màn hình đỏ không tự nói \"đây là bug code\". Nhiều lần job fail vì runner chưa kịp start, API"
+draft = false
+image = "images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp"
+image_alt = "Ảnh minh họa CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:38+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Zulfugar Karimov"
+image_creator_id = "2150928041"
+image_creator_url = "https://www.pexels.com/@zulfugarkarimov"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_provider = "pexels"
+image_query = "ci cd root cause playbook"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-holding-a-reflective-cd-disc-in-hand-37028744/"
+image_status = "verified"
+related_posts = ["github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code", "github-api-va-pages-rate-limit-cach-doc-va-giam-tai", "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress", "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi", "image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url", "post-date-timezone-vietnam-gmt7-tranh-stale-date", "content-direction-empty-report-va-optimizer-frontmatter", "live-deploy-khong-phan-anh-va-pages-serving-old-artifact", "baseurl-sitemap-noindex-va-series-hardcoded-url", "hugo-build-duplicate-yaml-ai-summary-va-template-regression", "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix"]
+seo_title = "CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog"
+series = "ci-cd-root-cause-lessons"
+series_order = 1
+series_title = "CI/CD Root Cause Lessons"
+slug = "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix"
+tags = ["CI/CD", "GitHub Actions", "GitHub Pages", "root cause", "autofix", "Deployment Doctor", "Hugo", "DevOps"]
+thumbnail = "images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp"
+title = "CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages"
+date_display = "10-07-2026 04:05:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + GitHub Pages; mỗi repo cần điều chỉnh policy theo rủi ro riêng."
+enabled = true
+items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
+title = "Tóm tắt nhanh"
++++
 
 ## Vì sao cần playbook root cause?
 

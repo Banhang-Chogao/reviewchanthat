@@ -1,79 +1,83 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Ngắm bình minh Seongsan Ilchulbong là hoạt động số 5 trong top 20 hoạt động du
-    lịch Hàn Quốc 2026, dành cho người thích thiên nhiên.
-  - Seongsan Ilchulbong là UNESCO World Heritage, leo 30 phút lên miệng núi lửa ngắm
-    bình minh trên biển.
-  - Seopjikoji và khu vực Seogwipo là điểm kết hợp lý tưởng sau khi ngắm bình minh.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX,
-    https://whc.unesco.org/en/list/1264/, https://english.visitkorea.or.kr/, https://www.visitjeju.net/.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 07:00:00+07:00'
-description: 'Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji
-  và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc.'
-draft: false
-external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-- title: https://www.visitjeju.net/
-  url: https://www.visitjeju.net/
-- title: https://whc.unesco.org/en/list/1264/
-  url: https://whc.unesco.org/en/list/1264/
-- title: https://english.visitkorea.or.kr/
-  url: https://english.visitkorea.or.kr/
-image: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: tom  Lok
-image_creator_id: '18648978'
-image_creator_url: https://www.pexels.com/@tom-lok-18648978
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/body-of-water-near-trees-during-sunset-6476882/
-seo_title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình'
-series: du-lich
-series_order: 20
-series_title: Du lịch Hàn Quốc 2026
-slug: ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Jeju
-- Seongsan Ilchulbong
-- bình minh
-- Seogwipo
-- Seopjikoji
-- series du lịch
-thumbnail: images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp
-title: 'Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo'
-tom_tat_nhanh:
-- label: Khu vực
-  value: Seongsan (đông bắc Jeju), Seopjikoji (gần Seongsan), Seogwipo (nam Jeju)
-- label: Loại trải nghiệm
-  value: ''
-- label: Hợp với
-  value: ''
-- label: Thời gian nên dành
-  value: ''
-- label: Đi mùa nào hợp
-  value: ''
-- label: Có cần đặt trước không
-  value: ''
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T07:00:00+07:00"
+description = "Kinh nghiệm ngắm bình minh Jeju: leo Seongsan Ilchulbong, chụp ảnh Seopjikoji và lịch trình sáng sớm cho chuyến du lịch Jeju tự túc."
+draft = false
+image = "images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "tom  Lok"
+image_creator_id = "18648978"
+image_creator_url = "https://www.pexels.com/@tom-lok-18648978"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/body-of-water-near-trees-during-sunset-6476882/"
+seo_title = "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình"
+series = "du-lich"
+series_order = 20
+series_title = "Du lịch Hàn Quốc 2026"
+slug = "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo"
+tags = ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Jeju", "Seongsan Ilchulbong", "bình minh", "Seogwipo", "Seopjikoji", "series du lịch"]
+thumbnail = "images/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.webp"
+title = "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo"
+date_display = "08-07-2026 07:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Ngắm bình minh Seongsan Ilchulbong là hoạt động số 5 trong top 20 hoạt động du lịch Hàn Quốc 2026, dành cho người thích thiên nhiên.", "Seongsan Ilchulbong là UNESCO World Heritage, leo 30 phút lên miệng núi lửa ngắm bình minh trên biển.", "Seopjikoji và khu vực Seogwipo là điểm kết hợp lý tưởng sau khi ngắm bình minh."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://whc.unesco.org/en/list/1264/, https://english.visitkorea.or.kr/, https://www.visitjeju.net/."
+
+[[external_links]]
+title = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+url = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+
+[[external_links]]
+title = "https://www.visitjeju.net/"
+url = "https://www.visitjeju.net/"
+
+[[external_links]]
+title = "https://whc.unesco.org/en/list/1264/"
+url = "https://whc.unesco.org/en/list/1264/"
+
+[[external_links]]
+title = "https://english.visitkorea.or.kr/"
+url = "https://english.visitkorea.or.kr/"
+
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Seongsan (đông bắc Jeju), Seopjikoji (gần Seongsan), Seogwipo (nam Jeju)"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Đi mùa nào hợp"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Có cần đặt trước không"
+value = ""
++++
 
 Ngắm bình minh trên miệng núi lửa là trải nghiệm theo mình không thể bỏ qua khi đến Jeju. Hoạt động này được xếp hạng 5 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và Seongsan Ilchulbong là điểm đến số một cho việc này.
 

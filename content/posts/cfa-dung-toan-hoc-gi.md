@@ -3,7 +3,7 @@ draft = true
 title = "CFA dùng toán học gì? Những công thức quận lý tài sản"
 description = "CFA (Chartered Financial Analyst) dùng toán học nào? Học cash flow analysis, present value (PV), DCF, correlation, beta, tracking error, information ratio, và performance attribution."
 date = "2026-07-10T13:16:14+07:00"
-lastmod = "2026-07-10T18:45:00+07:00"
+lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "CFA: DCF, PV, beta, tracking error, information ratio"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
@@ -12,17 +12,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 5
 image = "images/posts/cfa-dung-toan-hoc-gi.webp"
 image_alt = "Ảnh minh họa CFA dùng toán học gì? Những công thức quận lý tài sản — nguồn Pexels"
+date_display = "10-07-2026 13:16:14 GMT +7"
+lastmod_display = "10-07-2026 14:10:36 GMT +7"
 
 [ai_summary]
-items = [
-  "CFA Level 1: Tài chính cơ bản, DCF, PV = Σ CF_t × e^(-rt)",
-  "Beta = Cov(Ra, Rm) / Var(Rm) — độ nhạy so với thị trường",
-  "Tracking Error = σ(Return_fund - Return_benchmark)",
-  "Information Ratio = (Return_fund - Return_benchmark) / Tracking Error",
-  "CFA Level 2: Equity valuation (P/E, FCF), fixed income (duration, convexity)",
-  "CFA Level 3: Portfolio management, constraints, risk budgeting",
-  "Ứng dụng: Phân tích cổ phiếu, quản lý danh mục, đánh giá quỹ"
-]
+items = ["CFA Level 1: Tài chính cơ bản, DCF, PV = Σ CF_t × e^(-rt)", "Beta = Cov(Ra, Rm) / Var(Rm) — độ nhạy so với thị trường", "Tracking Error = σ(Return_fund - Return_benchmark)", "Information Ratio = (Return_fund - Return_benchmark) / Tracking Error", "CFA Level 2: Equity valuation (P/E, FCF), fixed income (duration, convexity)", "CFA Level 3: Portfolio management, constraints, risk budgeting", "Ứng dụng: Phân tích cổ phiếu, quản lý danh mục, đánh giá quỹ"]
 thumbnail = "images/posts/cfa-dung-toan-hoc-gi.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/credit-cards-and-financial-market-analysis-32642487/"

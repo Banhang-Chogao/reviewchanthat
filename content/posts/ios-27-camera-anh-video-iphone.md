@@ -1,57 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - iOS 27 mang Spatial Reframing, Clean Up nâng cấp và Siri mode in Camera theo Apple
-    preview WWDC26.
-  - Photos load ảnh mới nhanh hơn tới 70% — lợi cho thư viện lớn trên iPhone 15 Pro/16.
-  - Visual Intelligence nhận diện vật thể, landmark và dinh dưỡng ngay viewfinder
-    — cần máy đủ chip AI.
-  - Người dùng iPhone 11–14 vẫn có camera hardware cũ; AI chỉnh ảnh chủ yếu trên 15
-    Pro/16+.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 09:20:00+07:00'
-description: 'Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual
-  Intelligence và kỳ vọng thực tế theo từng dòng iPhone.'
-draft: false
-image: images/posts/ios-27-camera-anh-video-iphone.webp
-image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
-image_attribution_error: Provider/source page did not expose verified creator metadata
-image_attribution_source: not_found
-image_attribution_verified: false
-image_commercial_use: true
-image_creator: ''
-image_creator_id: ''
-image_creator_url: ''
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/iphone-6-on-macbook-pro-404139/
-series: ios-27-co-gi-moi
-series_order: 5
-series_title: iOS 27 có gì mới
-slug: ios-27-camera-anh-video-iphone
-tags:
-- iOS 27
-- Camera iPhone
-- Photos
-- Spatial Reframing
-- Visual Intelligence
-thumbnail: images/posts/ios-27-camera-anh-video-iphone.webp
-title: iOS 27 có gì mới cho camera, ảnh và video trên iPhone?
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Camera/Photos iOS 27
-- label: Tính năng AI
-- label: Hiệu năng
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T09:20:00+07:00"
+description = "Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual Intelligence và kỳ vọng thực tế theo từng dòng iPhone."
+draft = false
+image = "images/posts/ios-27-camera-anh-video-iphone.webp"
+image_attribution_checked_at = "2026-07-10T14:01:30+07:00"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_source = "not_found"
+image_attribution_verified = false
+image_commercial_use = true
+image_creator = ""
+image_creator_id = ""
+image_creator_url = ""
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/iphone-6-on-macbook-pro-404139/"
+series = "ios-27-co-gi-moi"
+series_order = 5
+series_title = "iOS 27 có gì mới"
+slug = "ios-27-camera-anh-video-iphone"
+tags = ["iOS 27", "Camera iPhone", "Photos", "Spatial Reframing", "Visual Intelligence"]
+thumbnail = "images/posts/ios-27-camera-anh-video-iphone.webp"
+title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
+date_display = "08-07-2026 09:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iOS 27 mang Spatial Reframing, Clean Up nâng cấp và Siri mode in Camera theo Apple preview WWDC26.", "Photos load ảnh mới nhanh hơn tới 70% — lợi cho thư viện lớn trên iPhone 15 Pro/16.", "Visual Intelligence nhận diện vật thể, landmark và dinh dưỡng ngay viewfinder — cần máy đủ chip AI.", "Người dùng iPhone 11–14 vẫn có camera hardware cũ; AI chỉnh ảnh chủ yếu trên 15 Pro/16+."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Camera/Photos iOS 27"
+
+[[tom_tat_nhanh]]
+label = "Tính năng AI"
+
+[[tom_tat_nhanh]]
+label = "Hiệu năng"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Với nhiều người Việt, iPhone là **máy ảnh chính** khi đi du lịch, ăn uống, chụp con. **iOS 27** không thay đổi cụm camera vật lý trên iPhone cũ, nhưng Apple đẩy mạnh **AI trong Photos** và **Siri mode in Camera** — biến phần mềm thành lý do nâng cấp.
 

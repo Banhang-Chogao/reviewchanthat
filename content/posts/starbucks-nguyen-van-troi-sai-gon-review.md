@@ -1,71 +1,64 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Starbucks Nguyễn Văn Trỗi (Phú Nhuận) là chi nhánh mình ghé thường xuyên nhất
-    tại Sài Gòn nhờ vị trí thuận tiện.
-  - Nhân viên ở đây thường nhiệt tình, nhớ gu khách quen và tư vấn menu rõ ràng khi
-    bạn chưa quen gọi.
-  - Đồ uống được pha ổn định — espresso cân bằng, Frappuccino mát, seasonal drink
-    đúng vị mô tả.
-  - Bài kèm ảnh chụp thực tế tại chi nhánh; trải nghiệm có thể khác tùy khung giờ
-    và nhân sự ca.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Ảnh và nội dung dựa trên trải nghiệm cá nhân
-    tại chi nhánh.
-  source_note: Review trải nghiệm thực tế; không đại diện Starbucks Corporation hay
-    đối tác vận hành.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- review
-date: '2026-07-09 08:00:00+07:00'
-description: Review Starbucks Nguyễn Văn Trỗi Phú Nhuận — nhân viên nhiệt tình, đồ
-  uống pha ngon, không gian thoải mái. Ảnh chụp thực tế kèm theo.
-draft: false
-external_links:
-- title: Starbucks Vietnam — Store locator
-  url: https://www.starbucks.vn/
-image: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
-image_alt: 'Ảnh minh họa Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha
-  nước rất ngon — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:43+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Ken Chuang
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@ken-chuang-34273
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
-image_query: review starbucks nguyễn văn trỗi
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-person-inside-a-starbucks-coffeeshop-9182859/
-image_status: verified
-seo_title: 'Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha'
-series: starbucks-vietnam
-series_order: 2
-series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
-slug: starbucks-nguyen-van-troi-sai-gon-review
-tags:
-- Starbucks Nguyễn Văn Trỗi
-- Starbucks Phú Nhuận
-- review quán cà phê
-- Sài Gòn
-- Starbucks Vietnam
-thumbnail: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
-title: 'Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon'
-tom_tat_nhanh:
-- label: Địa điểm
-  value: Nguyễn Văn Trỗi, Phú Nhuận, TP.HCM
-- label: Điểm cộng
-- label: Phù hợp
-- label: Ảnh
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["review"]
+date = "2026-07-09T08:00:00+07:00"
+description = "Review Starbucks Nguyễn Văn Trỗi Phú Nhuận — nhân viên nhiệt tình, đồ uống pha ngon, không gian thoải mái. Ảnh chụp thực tế kèm theo."
+draft = false
+image = "images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp"
+image_alt = "Ảnh minh họa Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:43+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Ken Chuang"
+image_creator_id = ""
+image_creator_url = "https://www.pexels.com/@ken-chuang-34273"
+image_license = "Pexels License"
+image_license_url = ""
+image_owner = "external"
+image_provider = "pexels"
+image_query = "review starbucks nguyễn văn trỗi"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/a-person-inside-a-starbucks-coffeeshop-9182859/"
+image_status = "verified"
+seo_title = "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha"
+series = "starbucks-vietnam"
+series_order = 2
+series_title = "Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế"
+slug = "starbucks-nguyen-van-troi-sai-gon-review"
+tags = ["Starbucks Nguyễn Văn Trỗi", "Starbucks Phú Nhuận", "review quán cà phê", "Sài Gòn", "Starbucks Vietnam"]
+thumbnail = "images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp"
+title = "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon"
+date_display = "09-07-2026 08:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Starbucks Nguyễn Văn Trỗi (Phú Nhuận) là chi nhánh mình ghé thường xuyên nhất tại Sài Gòn nhờ vị trí thuận tiện.", "Nhân viên ở đây thường nhiệt tình, nhớ gu khách quen và tư vấn menu rõ ràng khi bạn chưa quen gọi.", "Đồ uống được pha ổn định — espresso cân bằng, Frappuccino mát, seasonal drink đúng vị mô tả.", "Bài kèm ảnh chụp thực tế tại chi nhánh; trải nghiệm có thể khác tùy khung giờ và nhân sự ca."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Ảnh và nội dung dựa trên trải nghiệm cá nhân tại chi nhánh."
+source_note = "Review trải nghiệm thực tế; không đại diện Starbucks Corporation hay đối tác vận hành."
+
+[[external_links]]
+title = "Starbucks Vietnam — Store locator"
+url = "https://www.starbucks.vn/"
+
+[[tom_tat_nhanh]]
+label = "Địa điểm"
+value = "Nguyễn Văn Trỗi, Phú Nhuận, TP.HCM"
+
+[[tom_tat_nhanh]]
+label = "Điểm cộng"
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+
+[[tom_tat_nhanh]]
+label = "Ảnh"
++++
 
 Có những chi nhánh Starbucks bạn ghé một lần rồi thôi, và có những nơi trở thành điểm quen mỗi tuần. Với mình, **Starbucks Nguyễn Văn Trỗi** (Phú Nhuận, TP.HCM) thuộc nhóm thứ hai — nơi mình đã ngồi làm việc, họp nhóm nhỏ, và gọi ly quen đến mức barista nhận ra trước khi mình kịp đọc tên đồ uống.
 

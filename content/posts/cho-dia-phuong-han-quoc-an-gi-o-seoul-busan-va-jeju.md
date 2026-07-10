@@ -1,76 +1,81 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'Chợ địa phương là hoạt động xuất hiện nhiều nhất trong top 20 hoạt động du lịch
-    Hàn Quốc 2026: Seoul, Busan, Jeju đều có chợ riêng.'
-  - Gwangjang Market (Seoul) nổi tiếng bánh xèo mung bean; Jagalchi (Busan) là chợ
-    hải sản lớn nhất Hàn Quốc; Dongmun (Jeju) có đặc sản hallabong.
-  - Mỗi chợ hợp với 1-2 giờ, nên đi buổi trưa hoặc chiều tối, không cần đặt trước.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX,
-    https://www.visitbusan.net/, https://www.visitjeju.net/, https://english.visitseoul.net/.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 07:00:00+07:00'
-description: 'Chợ địa phương Hàn Quốc: Gwangjang, Namdaemun (Seoul), Jagalchi, Gukje
-  (Busan), Dongmun (Jeju). So sánh, gợi ý món ăn và lịch trình khám phá chợ.'
-draft: false
-external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-- title: https://english.visitseoul.net/
-  url: https://english.visitseoul.net/
-- title: https://www.visitbusan.net/
-  url: https://www.visitbusan.net/
-- title: https://www.visitjeju.net/
-  url: https://www.visitjeju.net/
-- title: https://english.visitkorea.or.kr/
-  url: https://english.visitkorea.or.kr/
-image: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
-image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Đan Thy Nguyễn Mai
-image_creator_id: '2152897629'
-image_creator_url: https://www.pexels.com/@peterdanthy
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/bustling-scene-at-ch-da-l-t-market-in-vietnam-38404534/
-series: du-lich
-series_order: 7
-series_title: Du lịch Hàn Quốc 2026
-slug: cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- Busan
-- Jeju
-- chợ địa phương
-- ẩm thực Hàn Quốc
-- chợ Hàn Quốc
-- series du lịch
-thumbnail: images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp
-title: 'Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?'
-tom_tat_nhanh:
-- label: Khu vực
-  value: Seoul (Gwangjang, Namdaemun), Busan (Jagalchi, Gukje), Jeju (Dongmun)
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Đi mùa nào hợp
-- label: Có cần đặt trước không
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T07:00:00+07:00"
+description = "Chợ địa phương Hàn Quốc: Gwangjang, Namdaemun (Seoul), Jagalchi, Gukje (Busan), Dongmun (Jeju). So sánh, gợi ý món ăn và lịch trình khám phá chợ."
+draft = false
+image = "images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp"
+image_attribution_checked_at = "2026-07-10T14:01:29+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Đan Thy Nguyễn Mai"
+image_creator_id = "2152897629"
+image_creator_url = "https://www.pexels.com/@peterdanthy"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/bustling-scene-at-ch-da-l-t-market-in-vietnam-38404534/"
+series = "du-lich"
+series_order = 7
+series_title = "Du lịch Hàn Quốc 2026"
+slug = "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju"
+tags = ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "Busan", "Jeju", "chợ địa phương", "ẩm thực Hàn Quốc", "chợ Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+date_display = "08-07-2026 07:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Chợ địa phương là hoạt động xuất hiện nhiều nhất trong top 20 hoạt động du lịch Hàn Quốc 2026: Seoul, Busan, Jeju đều có chợ riêng.", "Gwangjang Market (Seoul) nổi tiếng bánh xèo mung bean; Jagalchi (Busan) là chợ hải sản lớn nhất Hàn Quốc; Dongmun (Jeju) có đặc sản hallabong.", "Mỗi chợ hợp với 1-2 giờ, nên đi buổi trưa hoặc chiều tối, không cần đặt trước."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://www.visitbusan.net/, https://www.visitjeju.net/, https://english.visitseoul.net/."
+
+[[external_links]]
+title = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+url = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+
+[[external_links]]
+title = "https://english.visitseoul.net/"
+url = "https://english.visitseoul.net/"
+
+[[external_links]]
+title = "https://www.visitbusan.net/"
+url = "https://www.visitbusan.net/"
+
+[[external_links]]
+title = "https://www.visitjeju.net/"
+url = "https://www.visitjeju.net/"
+
+[[external_links]]
+title = "https://english.visitkorea.or.kr/"
+url = "https://english.visitkorea.or.kr/"
+
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Seoul (Gwangjang, Namdaemun), Busan (Jagalchi, Gukje), Jeju (Dongmun)"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+
+[[tom_tat_nhanh]]
+label = "Đi mùa nào hợp"
+
+[[tom_tat_nhanh]]
+label = "Có cần đặt trước không"
++++
 
 Một điều thú vị mình để ý trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) là chủ đề "chợ địa phương" xuất hiện tới 3 lần — Seoul, Busan và Jeju. Nói lên rằng du khách bây giờ muốn ăn uống và mua sắm như người địa phương, chứ không chỉ la cà trung tâm thương mại.
 

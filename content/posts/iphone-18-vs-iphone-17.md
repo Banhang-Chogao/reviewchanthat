@@ -1,64 +1,64 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple chưa công bố iPhone 18; so sánh dựa trên tin đồn MacRumors, AppleInsider
-    và sản phẩm iPhone 17 Apple đã bán.
-  - iPhone 17 base đã có ProMotion 6,3 inch — nâng cấp lớn; chờ iPhone 18 base đầu
-    2027 có thể không đáng nếu tin “ít đổi” đúng.
-  - Tin đồn iPhone 18 Pro tháng 9/2026 — A20 2nm, camera variable aperture, giá có
-    thể tăng — hợp người từ iPhone 14 trở xuống.
-  - Bài 10 trong series; kết hợp giá, camera, chip và bài “có nên chờ” để quyết định
-    mua ngay hay trì hoãn.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 15:00:00+07:00'
-description: 'iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản phẩm — nên mua
-  iPhone 17 ngay hay chờ Pro/Fold 2026 cho người dùng Việt Nam.'
-draft: false
-external_links:
-- title: MacRumors — iPhone 18 roundup
-  url: https://www.macrumors.com/roundup/iphone-18/
-- title: MacRumors — iPhone 18 Pro roundup
-- title: AppleInsider — iPhone 18 expectations
-- title: MacRumors — leaker downgrade iPhone 18
-image: images/posts/iphone-18-vs-iphone-17.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Osama Saad
-image_creator_id: '257685'
-image_creator_url: https://www.pexels.com/@osama-saad-257685
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-788880/
-series: iphone-18-co-gi-moi
-series_order: 10
-series_title: iPhone 18 có gì mới
-slug: iphone-18-vs-iphone-17
-tags:
-- iPhone 18
-- iPhone 17
-- so sánh iPhone
-- có nên chờ iPhone 18
-- mua iPhone 2026
-- tin đồn iPhone
-thumbnail: images/posts/iphone-18-vs-iphone-17.webp
-title: 'iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: So sánh mua iPhone 17 vs chờ 18
-- label: iPhone 17
-- label: iPhone 18
-- label: Kết luận nhanh
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T15:00:00+07:00"
+description = "iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản phẩm — nên mua iPhone 17 ngay hay chờ Pro/Fold 2026 cho người dùng Việt Nam."
+draft = false
+image = "images/posts/iphone-18-vs-iphone-17.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Osama Saad"
+image_creator_id = "257685"
+image_creator_url = "https://www.pexels.com/@osama-saad-257685"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-788880/"
+series = "iphone-18-co-gi-moi"
+series_order = 10
+series_title = "iPhone 18 có gì mới"
+slug = "iphone-18-vs-iphone-17"
+tags = ["iPhone 18", "iPhone 17", "so sánh iPhone", "có nên chờ iPhone 18", "mua iPhone 2026", "tin đồn iPhone"]
+thumbnail = "images/posts/iphone-18-vs-iphone-17.webp"
+title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
+date_display = "08-07-2026 15:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple chưa công bố iPhone 18; so sánh dựa trên tin đồn MacRumors, AppleInsider và sản phẩm iPhone 17 Apple đã bán.", "iPhone 17 base đã có ProMotion 6,3 inch — nâng cấp lớn; chờ iPhone 18 base đầu 2027 có thể không đáng nếu tin “ít đổi” đúng.", "Tin đồn iPhone 18 Pro tháng 9/2026 — A20 2nm, camera variable aperture, giá có thể tăng — hợp người từ iPhone 14 trở xuống.", "Bài 10 trong series; kết hợp giá, camera, chip và bài “có nên chờ” để quyết định mua ngay hay trì hoãn."]
+title = "Tóm tắt bài viết"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 roundup"
+url = "https://www.macrumors.com/roundup/iphone-18/"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro roundup"
+
+[[external_links]]
+title = "AppleInsider — iPhone 18 expectations"
+
+[[external_links]]
+title = "MacRumors — leaker downgrade iPhone 18"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "So sánh mua iPhone 17 vs chờ 18"
+
+[[tom_tat_nhanh]]
+label = "iPhone 17"
+
+[[tom_tat_nhanh]]
+label = "iPhone 18"
+
+[[tom_tat_nhanh]]
+label = "Kết luận nhanh"
++++
 
 Giữa **mua iPhone 17 ngay** và **chờ iPhone 18**, năm 2026 khó hơn mọi kỳ vì Apple **chưa công bố** thế hệ 18, trong khi iPhone 17 (đã ra mắt) lại là bước nhảy rõ trên **bản tiêu chuẩn** — **ProMotion 120Hz** và màn **6,3 inch**. Tin đồn thêm **split launch**: Pro tháng 9/2026, base có thể **đầu 2027** ([MacRumors](https://www.macrumors.com/roundup/iphone-18/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more)).
 

@@ -1,78 +1,101 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Lịch trình Seoul 3 ngày mùa mưa với các điểm indoor, kết hợp tàu điện ngầm và
-    đi bộ có mái che.
-  - 'Ngày 1: trung tâm lịch sử. Ngày 2: mua sắm và giải trí. Ngày 3: văn hóa và ẩm
-    thực.'
-  - 'Tổng chi phí tham quan: khoảng 50.000–80.000 KRW/người, chưa bao gồm ăn uống
-    và mua sắm.'
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.koreatodo.com.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu — điểm tham quan
-  indoor, ăn uống và di chuyển. Kèm ngân sách chi tiết.
-draft: false
-faq:
-- answer: Bảo tàng Quốc gia (miễn phí), DDP, COEX Mall, Lotte World indoor.
-  question: Seoul 3 ngày mùa mưa nên đi đâu?
-- answer: Tổng khoảng 200.000–300.000 KRW (vé tham quan + ăn uống + di chuyển).
-- answer: Tàu điện ngầm là chính. Mua T-money card, nạp 20.000 KRW đủ đi 3 ngày.
-image: images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Gije Cho
-image_creator_id: '1155759'
-image_creator_url: https://www.pexels.com/@gije
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/light-display-over-illuminated-city-at-night-18495176/
-internal_links:
-- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-- ref: posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md
-- ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-- ref: posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md
-- ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
-- ref: posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md
-- ref: posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-- ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
-- ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md
-series: du-lich-han-quoc-mua-he
-series_order: 11
-series_title: Du lịch Hàn Quốc mùa hè
-slug: lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau
-tags:
-- Seoul
-- lịch trình Seoul
-- mùa mưa Hàn Quốc
-- du lịch Hàn Quốc
-- series du lịch
-thumbnail: images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp
-title: Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu
-tom_tat_nhanh:
-- label: Thời gian
-  value: 3 ngày
-- label: Chi phí
-- label: Phù hợp
-- label: Di chuyển
-- label: Điểm nhấn
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu — điểm tham quan indoor, ăn uống và di chuyển. Kèm ngân sách chi tiết."
+draft = false
+image = "images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Gije Cho"
+image_creator_id = "1155759"
+image_creator_url = "https://www.pexels.com/@gije"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/light-display-over-illuminated-city-at-night-18495176/"
+series = "du-lich-han-quoc-mua-he"
+series_order = 11
+series_title = "Du lịch Hàn Quốc mùa hè"
+slug = "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau"
+tags = ["Seoul", "lịch trình Seoul", "mùa mưa Hàn Quốc", "du lịch Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp"
+title = "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Lịch trình Seoul 3 ngày mùa mưa với các điểm indoor, kết hợp tàu điện ngầm và đi bộ có mái che.", "Ngày 1: trung tâm lịch sử. Ngày 2: mua sắm và giải trí. Ngày 3: văn hóa và ẩm thực.", "Tổng chi phí tham quan: khoảng 50.000–80.000 KRW/người, chưa bao gồm ăn uống và mua sắm."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.koreatodo.com."
+
+[[faq]]
+answer = "Bảo tàng Quốc gia (miễn phí), DDP, COEX Mall, Lotte World indoor."
+question = "Seoul 3 ngày mùa mưa nên đi đâu?"
+
+[[faq]]
+answer = "Tổng khoảng 200.000–300.000 KRW (vé tham quan + ăn uống + di chuyển)."
+
+[[faq]]
+answer = "Tàu điện ngầm là chính. Mua T-money card, nạp 20.000 KRW đủ đi 3 ngày."
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+
+[[internal_links]]
+ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+
+[[internal_links]]
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+
+[[internal_links]]
+ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+
+[[internal_links]]
+ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
+
+[[tom_tat_nhanh]]
+label = "Thời gian"
+value = "3 ngày"
+
+[[tom_tat_nhanh]]
+label = "Chi phí"
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+
+[[tom_tat_nhanh]]
+label = "Di chuyển"
+
+[[tom_tat_nhanh]]
+label = "Điểm nhấn"
++++
 
 Lịch trình này được thiết kế riêng cho mùa mưa — ưu tiên điểm indoor, kết nối bằng tàu điện ngầm và đi bộ có mái che.
 

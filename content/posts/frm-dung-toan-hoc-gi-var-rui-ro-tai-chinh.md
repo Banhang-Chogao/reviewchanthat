@@ -3,7 +3,7 @@ draft = true
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
 description = "FRM (Financial Risk Manager) dùng toán học nào? Học VaR (Value at Risk), Expected Shortfall (CVaR), extreme value theory, stress testing, backtesting, và mon itor rủi ro."
 date = "2026-07-10T13:16:14+07:00"
-lastmod = "2026-07-10T19:30:00+07:00"
+lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "FRM: VaR, Expected Shortfall, quản trị rủi ro tài chính"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
@@ -12,17 +12,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 6
 image = "images/posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.webp"
 image_alt = "Ảnh minh họa FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro — nguồn Pexels"
+date_display = "10-07-2026 13:16:14 GMT +7"
+lastmod_display = "10-07-2026 14:10:36 GMT +7"
 
 [ai_summary]
-items = [
-  "FRM = Financial Risk Manager, chứng chỉ về quản trị rủi ro tài chính",
-  "VaR (Value at Risk): Mất tối đa $ với xác suất X% trong 1 ngày",
-  "VaR = Portfolio Value × |Z| × Volatility (với Z là z-score 1%, 5%, etc)",
-  "Expected Shortfall (CVaR) = mất lỗ trung bình trong các trường hợp tồi tệ",
-  "Lịch sử: Dùng log-return lịch sử để ước lượng VaR (Historical Simulation)",
-  "Monte Carlo: Mô phỏng 10k+ kịch bản để tính VaR",
-  "Backtesting: Kiểm tra VaR model có chính xác không (exceptions test)"
-]
+items = ["FRM = Financial Risk Manager, chứng chỉ về quản trị rủi ro tài chính", "VaR (Value at Risk): Mất tối đa $ với xác suất X% trong 1 ngày", "VaR = Portfolio Value × |Z| × Volatility (với Z là z-score 1%, 5%, etc)", "Expected Shortfall (CVaR) = mất lỗ trung bình trong các trường hợp tồi tệ", "Lịch sử: Dùng log-return lịch sử để ước lượng VaR (Historical Simulation)", "Monte Carlo: Mô phỏng 10k+ kịch bản để tính VaR", "Backtesting: Kiểm tra VaR model có chính xác không (exceptions test)"]
 thumbnail = "images/posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/person-counting-money-in-front-of-atm-5699376/"

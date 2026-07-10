@@ -1,83 +1,69 @@
----
-ai_summary:
-  collapsed: false
-  disclaimer: Bài viết chỉ nhằm mục đích giáo dục tài chính và không phải tư vấn thuế,
-    pháp lý hay đầu tư cá nhân. Trường hợp giao dịch lớn hoặc phức tạp nên hỏi chuyên
-    gia thuế/pháp lý.
-  enabled: true
-  items:
-  - Bán Bitcoin, USDT hoặc tài sản số có thể làm phát sinh câu hỏi về thuế nếu có
-    thu nhập, dòng tiền vào tài khoản ngân hàng hoặc hoạt động giao dịch thường xuyên.
-  - Việt Nam đã có những quy định đầu tiên — thuế 0,1% trên giá chuyển nhượng từng
-    lần trong khuôn khổ thí điểm và Luật Thuế TNCN mới — nhưng cách phân loại tài
-    sản số vẫn chưa đơn giản như chứng khoán, tiền gửi hay kinh doanh thông thường.
-  - Người dùng nên lưu lịch sử giao dịch, phí, giá mua, giá bán, dòng tiền vào/ra
-    và chứng từ liên quan thay vì chỉ dựa vào ảnh chụp app.
-  - Không nên xem việc chưa có câu trả lời phổ thông rõ ràng là lý do để bỏ qua nghĩa
-    vụ kê khai; với số tiền lớn, hãy hỏi chuyên gia thuế.
-  title: Tóm tắt nhanh
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- tai-chinh
-date: '2026-07-10 06:32:00+07:00'
-description: Crypto, Bitcoin, USDT và tài sản số có thể phát sinh câu hỏi về thuế
-  khi mua bán, chuyển đổi hoặc rút tiền về tài khoản ngân hàng. Bài viết giải thích
-  thận trọng những điều người dùng Việt Nam cần hiểu, không thay thế tư vấn thuế cá
-  nhân.
-draft: false
-external_links:
-- title: Luật Thuế thu nhập cá nhân số 109/2025/QH15 — toàn văn (Cổng thông tin Chính
-    phủ)
-  url: https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf
-- title: 5 thay đổi lớn của Luật Thuế thu nhập cá nhân 2025 từ 1/7 (VietnamNet)
-  url: https://vietnamnet.vn/5-thay-doi-lon-cua-luat-thue-thu-nhap-ca-nhan-2025-tu-1-7-2481753.html
-- title: Cá nhân chịu thuế 0,1% trên từng lần chuyển nhượng tài sản mã hóa từ 27/3/2026
-    — Thông tư 32/2026/TT-BTC (LuatVietnam)
-  url: https://luatvietnam.vn/tin-van-ban-moi/ca-nhan-chiu-thue-01-tren-tung-lan-chuyen-nhuong-tai-san-ma-hoa-tu-27-3-2026-186-108001-article.html
-- title: Chính thức áp thuế 0,1% cho cá nhân mỗi lần chuyển nhượng tài sản mã hóa
-    (VietnamBiz)
-  url: https://vietnambiz.vn/chinh-thuc-ap-thue-01-cho-ca-nhan-moi-lan-chuyen-nhuong-tai-san-ma-hoa-202633010274835.htm
-- title: Nghị quyết 05/2025/NQ-CP về triển khai thí điểm thị trường tài sản mã hóa
-    tại Việt Nam (Cổng thông tin Chính phủ)
-  url: https://vanban.chinhphu.vn/?pageid=27160&docid=215249
-- title: Luật Công nghiệp công nghệ số số 71/2025/QH15 (Cổng thông tin Chính phủ)
-  url: https://vanban.chinhphu.vn/?pageid=27160&docid=214609&classid=1&typegroupid=3
-- title: 'NHNN: Bitcoin và các loại tiền ảo tương tự không phải phương tiện thanh
-    toán hợp pháp (Báo Chính phủ)'
-  url: https://baochinhphu.vn/nhnn-cam-su-dung-bitcoin-102229280.htm
-image: images/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.webp
-image_alt: 'Ảnh minh họa Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có
-  phải nộp thuế không? — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:39+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Ivan S
-image_creator_id: '2563618'
-image_creator_url: https://www.pexels.com/@ivan-s
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_provider: pexels
-image_query: mobile banking payment app
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/credit-cards-and-a-smartphone-on-a-white-wall-7621381/
-image_status: verified
-related_posts:
-- tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap
-slug: thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue
-tags:
-- thuế crypto
-- Bitcoin
-- USDT
-- tài sản số
-- thuế tài sản số
-- tài chính cá nhân
-- Việt Nam
-thumbnail: images/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.webp
-title: 'Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?'
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["tai-chinh"]
+date = "2026-07-10T06:32:00+07:00"
+description = "Crypto, Bitcoin, USDT và tài sản số có thể phát sinh câu hỏi về thuế khi mua bán, chuyển đổi hoặc rút tiền về tài khoản ngân hàng. Bài viết giải thích thận trọng những điều người dùng Việt Nam cần hiểu, không thay thế tư vấn thuế cá nhân."
+draft = false
+image = "images/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.webp"
+image_alt = "Ảnh minh họa Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không? — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Ivan S"
+image_creator_id = "2563618"
+image_creator_url = "https://www.pexels.com/@ivan-s"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_provider = "pexels"
+image_query = "mobile banking payment app"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/credit-cards-and-a-smartphone-on-a-white-wall-7621381/"
+image_status = "verified"
+related_posts = ["tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap"]
+slug = "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue"
+tags = ["thuế crypto", "Bitcoin", "USDT", "tài sản số", "thuế tài sản số", "tài chính cá nhân", "Việt Nam"]
+thumbnail = "images/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.webp"
+title = "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?"
+date_display = "10-07-2026 06:32:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+disclaimer = "Bài viết chỉ nhằm mục đích giáo dục tài chính và không phải tư vấn thuế, pháp lý hay đầu tư cá nhân. Trường hợp giao dịch lớn hoặc phức tạp nên hỏi chuyên gia thuế/pháp lý."
+enabled = true
+items = ["Bán Bitcoin, USDT hoặc tài sản số có thể làm phát sinh câu hỏi về thuế nếu có thu nhập, dòng tiền vào tài khoản ngân hàng hoặc hoạt động giao dịch thường xuyên.", "Việt Nam đã có những quy định đầu tiên — thuế 0,1% trên giá chuyển nhượng từng lần trong khuôn khổ thí điểm và Luật Thuế TNCN mới — nhưng cách phân loại tài sản số vẫn chưa đơn giản như chứng khoán, tiền gửi hay kinh doanh thông thường.", "Người dùng nên lưu lịch sử giao dịch, phí, giá mua, giá bán, dòng tiền vào/ra và chứng từ liên quan thay vì chỉ dựa vào ảnh chụp app.", "Không nên xem việc chưa có câu trả lời phổ thông rõ ràng là lý do để bỏ qua nghĩa vụ kê khai; với số tiền lớn, hãy hỏi chuyên gia thuế."]
+title = "Tóm tắt nhanh"
+
+[[external_links]]
+title = "Luật Thuế thu nhập cá nhân số 109/2025/QH15 — toàn văn (Cổng thông tin Chính phủ)"
+url = "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat109-2025.pdf"
+
+[[external_links]]
+title = "5 thay đổi lớn của Luật Thuế thu nhập cá nhân 2025 từ 1/7 (VietnamNet)"
+url = "https://vietnamnet.vn/5-thay-doi-lon-cua-luat-thue-thu-nhap-ca-nhan-2025-tu-1-7-2481753.html"
+
+[[external_links]]
+title = "Cá nhân chịu thuế 0,1% trên từng lần chuyển nhượng tài sản mã hóa từ 27/3/2026 — Thông tư 32/2026/TT-BTC (LuatVietnam)"
+url = "https://luatvietnam.vn/tin-van-ban-moi/ca-nhan-chiu-thue-01-tren-tung-lan-chuyen-nhuong-tai-san-ma-hoa-tu-27-3-2026-186-108001-article.html"
+
+[[external_links]]
+title = "Chính thức áp thuế 0,1% cho cá nhân mỗi lần chuyển nhượng tài sản mã hóa (VietnamBiz)"
+url = "https://vietnambiz.vn/chinh-thuc-ap-thue-01-cho-ca-nhan-moi-lan-chuyen-nhuong-tai-san-ma-hoa-202633010274835.htm"
+
+[[external_links]]
+title = "Nghị quyết 05/2025/NQ-CP về triển khai thí điểm thị trường tài sản mã hóa tại Việt Nam (Cổng thông tin Chính phủ)"
+url = "https://vanban.chinhphu.vn/?pageid=27160&docid=215249"
+
+[[external_links]]
+title = "Luật Công nghiệp công nghệ số số 71/2025/QH15 (Cổng thông tin Chính phủ)"
+url = "https://vanban.chinhphu.vn/?pageid=27160&docid=214609&classid=1&typegroupid=3"
+
+[[external_links]]
+title = "NHNN: Bitcoin và các loại tiền ảo tương tự không phải phương tiện thanh toán hợp pháp (Báo Chính phủ)"
+url = "https://baochinhphu.vn/nhnn-cam-su-dung-bitcoin-102229280.htm"
++++
 
 Nhiều người Việt đã mua Bitcoin từ vài năm trước, tích USDT làm chỗ "gửi tạm", hoặc nhận token từ một dự án. Đến lúc bán ra và rút tiền về ngân hàng, câu hỏi mới thật sự xuất hiện: **khoản tiền này có phải nộp thuế không, và nếu có thì nộp thế nào?**
 

@@ -1,76 +1,79 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Jjimjilbang là hoạt động văn hóa đặc trưng của Hàn Quốc, xếp hạng 8 trong top
-    20 hoạt động du lịch Hàn Quốc 2026.
-  - Sparex Dongdaemun là lựa chọn bình dân mở 24h; Aquafield Goyang là spa cao cấp
-    với hồ bơi vô cực view sông Hán.
-  - Aquafield Goyang (Starfield Mall) có 8 phòng xông theo chủ đề, hồ bơi vô cực trên
-    mái, kết hợp mua sắm.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX,
-    https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 07:00:00+07:00'
-description: 'Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang,
-  Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu.'
-draft: false
-external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
-  url: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
-- title: https://english.visitseoul.net/
-  url: https://english.visitseoul.net/
-- title: https://www.aquafield.kr/
-  url: https://www.aquafield.kr/
-image: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_error: Provider/source page did not expose verified creator metadata
-image_attribution_source: rejected_generic
-image_attribution_verified: false
-image_commercial_use: true
-image_creator: ''
-image_creator_id: ''
-image_creator_url: ''
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/
-seo_title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD'
-series: du-lich
-series_order: 8
-series_title: Du lịch Hàn Quốc 2026
-slug: jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- jjimjilbang
-- sauna Hàn Quốc
-- Aquafield Goyang
-- spa Hàn Quốc
-- series du lịch
-thumbnail: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
-title: 'Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?'
-tom_tat_nhanh:
-- label: Khu vực
-  value: Seoul (Sparex Dongdaemun), Goyang (Aquafield Goyang, 30–40 phút Seoul)
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Đi mùa nào hợp
-- label: Có cần đặt trước không
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T07:00:00+07:00"
+description = "Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang, Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu."
+draft = false
+image = "images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_source = "rejected_generic"
+image_attribution_verified = false
+image_commercial_use = true
+image_creator = ""
+image_creator_id = ""
+image_creator_url = ""
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/woman-leaning-on-brown-wall-269110/"
+seo_title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD"
+series = "du-lich"
+series_order = 8
+series_title = "Du lịch Hàn Quốc 2026"
+slug = "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay"
+tags = ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "jjimjilbang", "sauna Hàn Quốc", "Aquafield Goyang", "spa Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+date_display = "08-07-2026 07:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Jjimjilbang là hoạt động văn hóa đặc trưng của Hàn Quốc, xếp hạng 8 trong top 20 hoạt động du lịch Hàn Quốc 2026.", "Sparex Dongdaemun là lựa chọn bình dân mở 24h; Aquafield Goyang là spa cao cấp với hồ bơi vô cực view sông Hán.", "Aquafield Goyang (Starfield Mall) có 8 phòng xông theo chủ đề, hồ bơi vô cực trên mái, kết hợp mua sắm."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX, https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/."
+
+[[external_links]]
+title = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+url = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+
+[[external_links]]
+title = "https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/"
+url = "https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/"
+
+[[external_links]]
+title = "https://english.visitseoul.net/"
+url = "https://english.visitseoul.net/"
+
+[[external_links]]
+title = "https://www.aquafield.kr/"
+url = "https://www.aquafield.kr/"
+
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Seoul (Sparex Dongdaemun), Goyang (Aquafield Goyang, 30–40 phút Seoul)"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+
+[[tom_tat_nhanh]]
+label = "Đi mùa nào hợp"
+
+[[tom_tat_nhanh]]
+label = "Có cần đặt trước không"
++++
 
 Jjimjilbang — nhà tắm hơi kiểu Hàn — là thứ mà mình nghĩ ai đi Hàn Quốc cũng nên thử ít nhất một lần. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa thuần chất Hàn mà bạn khó tìm thấy ở nơi khác.
 

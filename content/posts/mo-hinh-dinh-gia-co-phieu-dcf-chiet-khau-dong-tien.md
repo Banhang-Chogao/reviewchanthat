@@ -3,7 +3,7 @@ draft = true
 title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
 description = "Định giá cổ phiếu dùng toán học nào? Học Discounted Cash Flow (DCF), P/E ratio, PEG, EV/EBITDA, terminal value, và so sánh tương đối."
 date = "2026-07-10T13:16:14+07:00"
-lastmod = "2026-07-10T22:30:00+07:00"
+lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "Định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
@@ -12,17 +12,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 10
 image = "images/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.webp"
 image_alt = "Ảnh minh họa Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio — nguồn Pixabay"
+date_display = "10-07-2026 13:16:14 GMT +7"
+lastmod_display = "10-07-2026 14:10:36 GMT +7"
 
 [ai_summary]
-items = [
-  "DCF (Discounted Cash Flow): Giá = Σ FCF_t × e^(-rt) + Terminal Value × e^(-rT)",
-  "Terminal Value = Final Year FCF × Growth / (Discount Rate - Growth)",
-  "P/E Ratio = Giá / Lợi nhuận (cách nhanh nhất để so sánh)",
-  "PEG Ratio = P/E / Growth Rate (điều chỉnh cho tăng trưởng)",
-  "EV/EBITDA = Enterprise Value / EBITDA (so sánh khác branch)",
-  "Comparable Method: So sánh cổ phiếu tương tự, giá = Average P/E × Earnings",
-  "Intrinsic Value vs Market Price: Nếu Market < Intrinsic → BUY, ngược lại SELL"
-]
+items = ["DCF (Discounted Cash Flow): Giá = Σ FCF_t × e^(-rt) + Terminal Value × e^(-rT)", "Terminal Value = Final Year FCF × Growth / (Discount Rate - Growth)", "P/E Ratio = Giá / Lợi nhuận (cách nhanh nhất để so sánh)", "PEG Ratio = P/E / Growth Rate (điều chỉnh cho tăng trưởng)", "EV/EBITDA = Enterprise Value / EBITDA (so sánh khác branch)", "Comparable Method: So sánh cổ phiếu tương tự, giá = Average P/E × Earnings", "Intrinsic Value vs Market Price: Nếu Market < Intrinsic → BUY, ngược lại SELL"]
 thumbnail = "images/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.webp"
 image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/bugs-loan-green-7408590/"

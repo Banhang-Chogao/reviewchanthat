@@ -1,58 +1,43 @@
----
-ai_summary:
-  collapsed: false
-  disclaimer: Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + GitHub Pages; mỗi
-    repo cần điều chỉnh policy theo rủi ro riêng.
-  enabled: true
-  items:
-  - Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).
-  - 'Nhiều failure không phải bug code: runner queue, platform incident, rate limit,
-    Pages CDN lag.'
-  - 'Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng
-    feature không.'
-  title: Tóm tắt nhanh
-author: Minh Hoàng
-categories:
-- cong-nghe
-date: '2026-07-10 04:25:00+07:00'
-description: '| Code | Safety | Mô tả | |------|--------|--------| | baselinedebtblockingunrelateddeploy
-  | unsafe | Nợ QA/image cũ fail full-site, chặn deploy feature mới | |'
-draft: false
-image: images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp
-image_alt: 'Ảnh minh họa Baseline debt chặn deploy và QA scope: chỉ bắt tính năng
-  mới — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:37+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Monstera Production
-image_creator_id: '3372733'
-image_creator_url: https://www.pexels.com/@gabby-k
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_provider: pexels
-image_query: baseline debt chặn deploy qa
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/illustration-with-hands-of-debtor-with-tied-hands-6289036/
-image_status: verified
-related_posts:
-- ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
-- image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url
-- hugo-build-duplicate-yaml-ai-summary-va-template-regression
-series: ci-cd-root-cause-lessons
-series_order: 5
-series_title: CI/CD Root Cause Lessons
-slug: baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi
-tags:
-- QA
-- baseline debt
-- CI/CD
-- GitHub Pages
-- unsafe
-thumbnail: images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp
-title: 'Baseline debt chặn deploy và QA scope: chỉ bắt tính năng mới'
----
++++
+author = "Minh Hoàng"
+categories = ["cong-nghe"]
+date = "2026-07-10T04:25:00+07:00"
+description = "| Code | Safety | Mô tả | |------|--------|--------| | baselinedebtblockingunrelateddeploy | unsafe | Nợ QA/image cũ fail full-site, chặn deploy feature mới | |"
+draft = false
+image = "images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp"
+image_alt = "Ảnh minh họa Baseline debt chặn deploy và QA scope: chỉ bắt tính năng mới — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:37+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Monstera Production"
+image_creator_id = "3372733"
+image_creator_url = "https://www.pexels.com/@gabby-k"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_provider = "pexels"
+image_query = "baseline debt chặn deploy qa"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/illustration-with-hands-of-debtor-with-tied-hands-6289036/"
+image_status = "verified"
+related_posts = ["ci-cd-root-cause-playbook-safe-vs-unsafe-autofix", "image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url", "hugo-build-duplicate-yaml-ai-summary-va-template-regression"]
+series = "ci-cd-root-cause-lessons"
+series_order = 5
+series_title = "CI/CD Root Cause Lessons"
+slug = "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi"
+tags = ["QA", "baseline debt", "CI/CD", "GitHub Pages", "unsafe"]
+thumbnail = "images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp"
+title = "Baseline debt chặn deploy và QA scope: chỉ bắt tính năng mới"
+date_display = "10-07-2026 04:25:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + GitHub Pages; mỗi repo cần điều chỉnh policy theo rủi ro riêng."
+enabled = true
+items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
+title = "Tóm tắt nhanh"
++++
 
 ## Root cause
 

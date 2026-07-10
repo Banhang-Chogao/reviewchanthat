@@ -1,82 +1,93 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - WWDC26 (8/6/2026) đã diễn ra — Apple ship Siri AI, iOS 27 và macOS Golden Gate
-    27 đúng hướng leak trước sự kiện.
-  - 'Beta developer tuần đầu: hiệu năng shell tốt hơn kỳ vọng, Siri AI còn giới hạn
-    ngôn ngữ và độ ổn định.'
-  - Người dùng Việt Nam nên chờ public beta và bảng tương thích chính thức trước khi
-    cài lên máy chính.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Nhận định sau sự kiện; không đại diện Apple.
-  source_note: Bài viết đối ứng với bài phân tích WWDC26 trên blog; dữ liệu từ Apple
-    Newsroom, báo chí công nghệ và phản hồi beta tuần đầu.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-07 18:00:00+07:00'
-description: Một tháng sau keynote, đánh giá lại WWDC26 — Siri AI có đủ thuyết phục
-  không, beta iOS 27 thực tế ra sao, và người dùng Việt Nam nên làm gì tiếp theo.
-draft: false
-external_links:
-- title: Apple — WWDC26 Press Release
-  url: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/
-- title: Apple — Siri AI
-- title: MacRumors — Siri AI at WWDC 2026
-- title: 9to5Mac — WWDC 2026 News Hub
-- title: Apple Developer — WWDC26 Platforms State of the Union
-faq:
-- answer: Về phần mềm, có. Siri AI, iOS 27 và macOS Golden Gate 27 ra mắt đúng hướng
-    leak. Phần cứng (iPhone gập) không xuất hiện — đúng như dự đoán trước sự kiện.
-  question: WWDC26 đã kết thúc — Apple có làm đúng kỳ vọng không?
-- answer: Developer và người có máy phụ có thể thử. Người dùng phổ thông nên chờ public
-    beta (thường tháng 7) và đánh giá thêm 2–3 tuần trước khi cài lên iPhone chính.
-- answer: Có thể. Apple nhấn mạnh mở app nhanh hơn, AirDrop nhanh hơn và tinh chỉnh
-    Liquid Glass — lý do hợp lý cho máy đời cũ trong danh sách tương thích.
-- answer: Thường trùng sự kiện iPhone mùa thu (khoảng tháng 9–10/2026). Developer
-    beta có ngay sau WWDC; public beta theo sau vài tuần.
-- answer: Mức hỗ trợ tiếng Việt cho Siri AI từng giai đoạn, danh sách máy tương thích,
-    và changelog từng beta — không chỉ slide keynote.
-image: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
-image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Ivan Babydov
-image_creator_id: '54154657'
-image_creator_url: https://www.pexels.com/@babydov
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/apple-logo-on-purple-background-7789851/
-internal_links:
-- ref: posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md
-lastmod: '2026-07-08 00:00:00+07:00'
-seo_title: 'WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và'
-slug: wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi
-tags:
-- WWDC26
-- iOS 27
-- macOS 27
-- Siri AI
-- Apple Intelligence
-- nhận định sau sự kiện
-thumbnail: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
-title: 'WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple
-  chưa nói'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: WWDC26 nhận định sau sự kiện — Siri AI, iOS 27 và những gì Apple chưa nói
-- label: Sản phẩm chính
-- label: Tính năng đáng chú ý
-- label: Mức độ hoàn thiện
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-07T18:00:00+07:00"
+description = "Một tháng sau keynote, đánh giá lại WWDC26 — Siri AI có đủ thuyết phục không, beta iOS 27 thực tế ra sao, và người dùng Việt Nam nên làm gì tiếp theo."
+draft = false
+image = "images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Ivan Babydov"
+image_creator_id = "54154657"
+image_creator_url = "https://www.pexels.com/@babydov"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/apple-logo-on-purple-background-7789851/"
+lastmod = "2026-07-08T00:00:00+07:00"
+seo_title = "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và"
+slug = "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi"
+tags = ["WWDC26", "iOS 27", "macOS 27", "Siri AI", "Apple Intelligence", "nhận định sau sự kiện"]
+thumbnail = "images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp"
+title = "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói"
+date_display = "07-07-2026 18:00:00 GMT +7"
+lastmod_display = "08-07-2026 00:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["WWDC26 (8/6/2026) đã diễn ra — Apple ship Siri AI, iOS 27 và macOS Golden Gate 27 đúng hướng leak trước sự kiện.", "Beta developer tuần đầu: hiệu năng shell tốt hơn kỳ vọng, Siri AI còn giới hạn ngôn ngữ và độ ổn định.", "Người dùng Việt Nam nên chờ public beta và bảng tương thích chính thức trước khi cài lên máy chính."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Nhận định sau sự kiện; không đại diện Apple."
+source_note = "Bài viết đối ứng với bài phân tích WWDC26 trên blog; dữ liệu từ Apple Newsroom, báo chí công nghệ và phản hồi beta tuần đầu."
+
+[[external_links]]
+title = "Apple — WWDC26 Press Release"
+url = "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+
+[[external_links]]
+title = "Apple — Siri AI"
+
+[[external_links]]
+title = "MacRumors — Siri AI at WWDC 2026"
+
+[[external_links]]
+title = "9to5Mac — WWDC 2026 News Hub"
+
+[[external_links]]
+title = "Apple Developer — WWDC26 Platforms State of the Union"
+
+[[faq]]
+answer = "Về phần mềm, có. Siri AI, iOS 27 và macOS Golden Gate 27 ra mắt đúng hướng leak. Phần cứng (iPhone gập) không xuất hiện — đúng như dự đoán trước sự kiện."
+question = "WWDC26 đã kết thúc — Apple có làm đúng kỳ vọng không?"
+
+[[faq]]
+answer = "Developer và người có máy phụ có thể thử. Người dùng phổ thông nên chờ public beta (thường tháng 7) và đánh giá thêm 2–3 tuần trước khi cài lên iPhone chính."
+
+[[faq]]
+answer = "Có thể. Apple nhấn mạnh mở app nhanh hơn, AirDrop nhanh hơn và tinh chỉnh Liquid Glass — lý do hợp lý cho máy đời cũ trong danh sách tương thích."
+
+[[faq]]
+answer = "Thường trùng sự kiện iPhone mùa thu (khoảng tháng 9–10/2026). Developer beta có ngay sau WWDC; public beta theo sau vài tuần."
+
+[[faq]]
+answer = "Mức hỗ trợ tiếng Việt cho Siri AI từng giai đoạn, danh sách máy tương thích, và changelog từng beta — không chỉ slide keynote."
+
+[[internal_links]]
+ref = "posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "WWDC26 nhận định sau sự kiện — Siri AI, iOS 27 và những gì Apple chưa nói"
+
+[[tom_tat_nhanh]]
+label = "Sản phẩm chính"
+
+[[tom_tat_nhanh]]
+label = "Tính năng đáng chú ý"
+
+[[tom_tat_nhanh]]
+label = "Mức độ hoàn thiện"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 WWDC26 kết thúc được một tháng rồi. Đủ để bản beta về tay developer, đủ để báo chí chuyển từ "Apple sắp làm gì?" sang "Apple làm được gì rồi?", và cũng đủ để người dùng phổ thông bắt đầu đặt câu hỏi thực tế hơn: **có nên cài thử, hay chờ bản chính thức?**
 

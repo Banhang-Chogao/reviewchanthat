@@ -1,60 +1,58 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - iPhone 15 Pro Max nặng 221g với khung titan — nhẹ hơn 14 Pro Max thép.
-  - Titan nhẹ và mát tay hơn nhưng dễ lõm góc hơn thép không gỉ.
-  - Màu titan phai theo thời gian — không phải lỗi đơn lẻ.
-  - Nên dùng ốp lưng nếu hay rơi máy, bất kể titan hay thép.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 12:20:00+07:00'
-description: 'Phân tích khung titan iPhone 15 Pro Max so với thép đời cũ: trọng lượng
-  221g, độ bền, vết trầy, cảm giác cầm và lưu ý khi mua máy cũ.'
-draft: false
-image: images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp
-image_alt: 'Ảnh minh họa Trên tay iPhone 15 Pro Max: khung titan có khác thép không?
-  — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:37+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_color_score: 12.0
-image_commercial_use: true
-image_creator: Grant
-image_creator_id: '267247'
-image_creator_url: https://www.pexels.com/@grant-267247
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_provider: pexels
-image_query: iPhone titanium smartphone hand
-image_semantic_score: 32.07
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-holding-iphone-taking-photo-of-train-rails-815653/
-image_status: verified
-image_total_score: 64.07
-series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 5
-series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
-slug: tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong
-tags:
-- iPhone 15 Pro Max
-- khung titan
-- titan vs thép
-- trên tay
-thumbnail: images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp
-title: 'Trên tay iPhone 15 Pro Max: khung titan có khác thép không?'
-tom_tat_nhanh:
-- label: Vật liệu
-  value: Titan Grade 5 theo Apple
-- label: Trọng lượng
-- label: Khác thép
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T12:20:00+07:00"
+description = "Phân tích khung titan iPhone 15 Pro Max so với thép đời cũ: trọng lượng 221g, độ bền, vết trầy, cảm giác cầm và lưu ý khi mua máy cũ."
+draft = false
+image = "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp"
+image_alt = "Ảnh minh họa Trên tay iPhone 15 Pro Max: khung titan có khác thép không? — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:37+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_color_score = 12.0
+image_commercial_use = true
+image_creator = "Grant"
+image_creator_id = "267247"
+image_creator_url = "https://www.pexels.com/@grant-267247"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_provider = "pexels"
+image_query = "iPhone titanium smartphone hand"
+image_semantic_score = 32.07
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-holding-iphone-taking-photo-of-train-rails-815653/"
+image_status = "verified"
+image_total_score = 64.07
+series = "iphone-15-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 5
+series_title = "iPhone 15 Pro Max màu titan: đánh giá trên tay"
+slug = "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong"
+tags = ["iPhone 15 Pro Max", "khung titan", "titan vs thép", "trên tay"]
+thumbnail = "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+date_display = "08-07-2026 12:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iPhone 15 Pro Max nặng 221g với khung titan — nhẹ hơn 14 Pro Max thép.", "Titan nhẹ và mát tay hơn nhưng dễ lõm góc hơn thép không gỉ.", "Màu titan phai theo thời gian — không phải lỗi đơn lẻ.", "Nên dùng ốp lưng nếu hay rơi máy, bất kể titan hay thép."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Vật liệu"
+value = "Titan Grade 5 theo Apple"
+
+[[tom_tat_nhanh]]
+label = "Trọng lượng"
+
+[[tom_tat_nhanh]]
+label = "Khác thép"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Khi Apple chuyển iPhone Pro sang **khung titan** năm 2023, marketing nhấn **nhẹ hơn, bền hơn, cao cấp hơn**. Người dùng thực tế lại hỏi ngược: **“Titan có dễ trầy hơn thép không? Có đáng để đổi từ 14 Pro Max?”** Câu trả lời không phải một từ — mà là sự đánh đổi rõ ràng.
 

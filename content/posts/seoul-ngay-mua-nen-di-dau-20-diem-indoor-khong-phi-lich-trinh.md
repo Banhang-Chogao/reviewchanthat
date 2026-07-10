@@ -1,78 +1,96 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'Seoul có 20+ điểm indoor miễn phí và có phí: bảo tàng, thủy cung, trung tâm thương
-    mại, quán cà phê.'
-  - Bảo tàng Quốc gia, War Memorial, COEX Aquarium, Lotte World là gợi ý hàng đầu
-    cho ngày mưa.
-  - Bài viết kèm lịch trình 2 ngày mùa mưa và cách di chuyển giữa các điểm.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.koreatodo.com/seoul-rainy-day.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: Seoul mùa mưa không phải là ác mộng — nếu bạn biết điểm đến nào trong
-  nhà, điểm nào kết nối bằng tàu điện ngầm và điểm nào mở cửa miễn phí.
-draft: false
-faq:
-- answer: Bảo tàng Quốc gia Hàn Quốc (miễn phí), War Memorial, COEX Aquarium, Lotte
-    World indoor.
-  question: Seoul ngày mưa nên đi đâu miễn phí?
-- answer: Có. DDP, COEX Mall, bảo tàng đều có lối đi bộ trong nhà. Tàu điện ngầm kết
-    nối hầu hết địa điểm.
-- answer: Áo mưa gọn, giày chống nước. Túi chống nước cho điện thoại và máy ảnh.
-image: images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp
-image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Nuhyil Ahammed
-image_creator_id: '282191113'
-image_creator_url: https://www.pexels.com/@nuhyil-ahammed-282191113
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/people-walking-in-town-in-rain-17691635/
-internal_links:
-- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-- ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
-- ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
-- ref: posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md
-- ref: posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-- ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-- ref: posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md
-- ref: posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md
-seo_title: Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch
-series: du-lich-han-quoc-mua-he
-series_order: 2
-series_title: Du lịch Hàn Quốc mùa hè
-slug: seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh
-tags:
-- Seoul
-- mùa mưa Hàn Quốc
-- du lịch Hàn Quốc
-- indoor Seoul
-- series du lịch
-thumbnail: images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp
-title: Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình
-tom_tat_nhanh:
-- label: Thời gian
-  value: Cả ngày
-- label: Phù hợp
-- label: Chi phí
-- label: Di chuyển
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Seoul mùa mưa không phải là ác mộng — nếu bạn biết điểm đến nào trong nhà, điểm nào kết nối bằng tàu điện ngầm và điểm nào mở cửa miễn phí."
+draft = false
+image = "images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp"
+image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Nuhyil Ahammed"
+image_creator_id = "282191113"
+image_creator_url = "https://www.pexels.com/@nuhyil-ahammed-282191113"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/people-walking-in-town-in-rain-17691635/"
+seo_title = "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch"
+series = "du-lich-han-quoc-mua-he"
+series_order = 2
+series_title = "Du lịch Hàn Quốc mùa hè"
+slug = "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh"
+tags = ["Seoul", "mùa mưa Hàn Quốc", "du lịch Hàn Quốc", "indoor Seoul", "series du lịch"]
+thumbnail = "images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp"
+title = "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Seoul có 20+ điểm indoor miễn phí và có phí: bảo tàng, thủy cung, trung tâm thương mại, quán cà phê.", "Bảo tàng Quốc gia, War Memorial, COEX Aquarium, Lotte World là gợi ý hàng đầu cho ngày mưa.", "Bài viết kèm lịch trình 2 ngày mùa mưa và cách di chuyển giữa các điểm."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.koreatodo.com/seoul-rainy-day."
+
+[[faq]]
+answer = "Bảo tàng Quốc gia Hàn Quốc (miễn phí), War Memorial, COEX Aquarium, Lotte World indoor."
+question = "Seoul ngày mưa nên đi đâu miễn phí?"
+
+[[faq]]
+answer = "Có. DDP, COEX Mall, bảo tàng đều có lối đi bộ trong nhà. Tàu điện ngầm kết nối hầu hết địa điểm."
+
+[[faq]]
+answer = "Áo mưa gọn, giày chống nước. Túi chống nước cho điện thoại và máy ảnh."
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+
+[[internal_links]]
+ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
+
+[[internal_links]]
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+
+[[internal_links]]
+ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
+
+[[internal_links]]
+ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
+
+[[tom_tat_nhanh]]
+label = "Thời gian"
+value = "Cả ngày"
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+
+[[tom_tat_nhanh]]
+label = "Chi phí"
+
+[[tom_tat_nhanh]]
+label = "Di chuyển"
++++
 
 Seoul mùa mưa không phải là ác mộng — nếu bạn biết điểm đến nào trong nhà, điểm nào kết nối bằng tàu điện ngầm và điểm nào mở cửa miễn phí.
 

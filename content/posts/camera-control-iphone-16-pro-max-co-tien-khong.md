@@ -1,52 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Camera Control là nút cảm ứng mới trên iPhone 16 Pro Max để điều khiển camera.
-  - Hữu ích khi chụp một tay và đổi zoom/exposure nhanh.
-  - Cần vài ngày làm quen — ban đầu có thể chạm nhầm.
-  - Không phải lý do đổi máy nếu bạn ít dùng camera.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 10:20:00+07:00'
-description: 'Đánh giá Camera Control trên iPhone 16 Pro Max: thao tác chụp, zoom,
-  học curve và có đáng lên đời từ 15 Pro Max không.'
-draft: false
-image: images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp
-image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Andrey Matveev
-image_creator_id: '150820'
-image_creator_url: https://www.pexels.com/@zeleboba
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/modern-smartphone-with-clear-case-on-wooden-table-34391718/
-series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 5
-series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
-slug: camera-control-iphone-16-pro-max-co-tien-khong
-tags:
-- iPhone 16 Pro Max
-- Camera Control
-- camera
-- trên tay
-thumbnail: images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp
-title: Camera Control iPhone 16 Pro Max có tiện không?
-tom_tat_nhanh:
-- label: Tính năng
-  value: Nút cảm ứng Camera Control
-- label: Tiện khi
-- label: Ít giá trị khi
-- label: So 15
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T10:20:00+07:00"
+description = "Đánh giá Camera Control trên iPhone 16 Pro Max: thao tác chụp, zoom, học curve và có đáng lên đời từ 15 Pro Max không."
+draft = false
+image = "images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp"
+image_attribution_checked_at = "2026-07-10T14:01:29+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Andrey Matveev"
+image_creator_id = "150820"
+image_creator_url = "https://www.pexels.com/@zeleboba"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/modern-smartphone-with-clear-case-on-wooden-table-34391718/"
+series = "iphone-16-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 5
+series_title = "iPhone 16 Pro Max màu titan: đánh giá trên tay"
+slug = "camera-control-iphone-16-pro-max-co-tien-khong"
+tags = ["iPhone 16 Pro Max", "Camera Control", "camera", "trên tay"]
+thumbnail = "images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp"
+title = "Camera Control iPhone 16 Pro Max có tiện không?"
+date_display = "08-07-2026 10:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Camera Control là nút cảm ứng mới trên iPhone 16 Pro Max để điều khiển camera.", "Hữu ích khi chụp một tay và đổi zoom/exposure nhanh.", "Cần vài ngày làm quen — ban đầu có thể chạm nhầm.", "Không phải lý do đổi máy nếu bạn ít dùng camera."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Tính năng"
+value = "Nút cảm ứng Camera Control"
+
+[[tom_tat_nhanh]]
+label = "Tiện khi"
+
+[[tom_tat_nhanh]]
+label = "Ít giá trị khi"
+
+[[tom_tat_nhanh]]
+label = "So 15"
++++
 
 **Camera Control** là phần cứng mới dễ thấy nhất trên iPhone 16 Pro Max — nút **cảm ứng lực** cạnh máy, Apple kỳ vọng thay **vuốt trên màn** khi chụp. Sau các review công khai và vài tháng sử dụng tham khảo, câu hỏi thực tế: **có tiện đủ để bỏ 15 Pro Max không?**
 

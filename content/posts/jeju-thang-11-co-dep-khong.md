@@ -1,83 +1,99 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'Thời tiết tháng 11: 12–18°C ban ngày, gió mạnh — lạnh hơn tháng 10, cần áo gió
-    và lớp giữ nhiệt.'
-  - 'Hallasan: đầu tháng 11 có thể còn lá đỏ ở độ cao trung bình; cuối tháng rụng
-    nhiều hoặc đóng tuyến khi gió mạnh.'
-  - 'Lịch 3 ngày: Seongsan + Udo, Hallasan (hoặc Eoseungsaengak), Cheonjiyeon Falls.'
-  - 'Chi phí: vé bay nội địa và thuê xe là khoản lớn; giá có thể thay đổi theo hãng
-    và mùa.'
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 21:00:00+07:00'
-description: Jeju tháng 11 có đẹp không? Thời tiết lạnh, gió mạnh, Hallasan và lịch
-  trình 3 ngày cho người đi lần đầu.
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: Korea Meteorological Administration
-  url: ''
-- title: KoreaToDo — Top Autumn Foliage Sites
-  url: ''
-- title: Visit Jeju
-  url: ''
-image: images/posts/jeju-thang-11-co-dep-khong.webp
-image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Светлана Конева
-image_creator_id: '269097219'
-image_creator_url: https://www.pexels.com/@269097219
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787319/
-internal_links:
-- ref: posts/di-han-thang-11-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-11.md
-- ref: posts/busan-thang-11-nen-di-dau.md
-- ref: posts/seoul-thang-11-nen-di-dau.md
-- ref: posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md
-- ref: posts/chi-phi-di-han-thang-11-tu-tuc.md
-- ref: posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md
-seo_title: Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3
-series: di-han-thang-11
-series_order: 9
-series_title: Đi Hàn tháng 11
-slug: jeju-thang-11-co-dep-khong
-tags:
-- Jeju
-- du lịch Hàn Quốc tháng 11
-- Hallasan
-- biển Jeju
-- series du lịch
-thumbnail: images/posts/jeju-thang-11-co-dep-khong.webp
-title: Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày
-tom_tat_nhanh:
-- label: Nhiệt độ
-  value: 12–18°C ban ngày; gió mạnh
-- label: Lá đỏ Hallasan
-  value: ''
-- label: Thời gian
-  value: ''
-- label: Di chuyển
-  value: ''
-- label: Lưu ý
-  value: ''
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T21:00:00+07:00"
+description = "Jeju tháng 11 có đẹp không? Thời tiết lạnh, gió mạnh, Hallasan và lịch trình 3 ngày cho người đi lần đầu."
+image = "images/posts/jeju-thang-11-co-dep-khong.webp"
+image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Светлана Конева"
+image_creator_id = "269097219"
+image_creator_url = "https://www.pexels.com/@269097219"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-12787319/"
+seo_title = "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3"
+series = "di-han-thang-11"
+series_order = 9
+series_title = "Đi Hàn tháng 11"
+slug = "jeju-thang-11-co-dep-khong"
+tags = ["Jeju", "du lịch Hàn Quốc tháng 11", "Hallasan", "biển Jeju", "series du lịch"]
+thumbnail = "images/posts/jeju-thang-11-co-dep-khong.webp"
+title = "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày"
+date_display = "08-07-2026 21:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Thời tiết tháng 11: 12–18°C ban ngày, gió mạnh — lạnh hơn tháng 10, cần áo gió và lớp giữ nhiệt.", "Hallasan: đầu tháng 11 có thể còn lá đỏ ở độ cao trung bình; cuối tháng rụng nhiều hoặc đóng tuyến khi gió mạnh.", "Lịch 3 ngày: Seongsan + Udo, Hallasan (hoặc Eoseungsaengak), Cheonjiyeon Falls.", "Chi phí: vé bay nội địa và thuê xe là khoản lớn; giá có thể thay đổi theo hãng và mùa."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "Korea Meteorological Administration"
+url = ""
+
+[[external_links]]
+title = "KoreaToDo — Top Autumn Foliage Sites"
+url = ""
+
+[[external_links]]
+title = "Visit Jeju"
+url = ""
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+
+[[internal_links]]
+ref = "posts/busan-thang-11-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-11-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md"
+
+[[internal_links]]
+ref = "posts/chi-phi-di-han-thang-11-tu-tuc.md"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+
+[[tom_tat_nhanh]]
+label = "Nhiệt độ"
+value = "12–18°C ban ngày; gió mạnh"
+
+[[tom_tat_nhanh]]
+label = "Lá đỏ Hallasan"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Thời gian"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Di chuyển"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
+value = ""
++++
 
 Jeju tháng 11 là thời điểm nhiều người cân nhắc khi lên kế hoạch đi Hàn mùa cuối thu. Đảo có khí hậu **ôn hòa hơn đất liền** nhưng **gió mạnh hơn** và **lạnh hơn tháng 10** — ban ngày thường 12–18°C, ban đêm có thể xuống 8–12°C. Biển vẫn đẹp cho đi bộ ven bờ, nhưng tắm biển dài không còn phổ biến. Núi Hallasan có thể còn lá đỏ **đầu tháng 11**, trong khi **cuối tháng** rủi ro rụng lá hoặc đóng tuyến khi thời tiết xấu.
 

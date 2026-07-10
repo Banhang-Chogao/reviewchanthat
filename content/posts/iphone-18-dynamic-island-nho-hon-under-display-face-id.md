@@ -1,66 +1,65 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple chưa công bố iPhone 18; tin đồn mạnh nhất về màn hình Pro là Dynamic Island
-    thu hẹp, không phải Face ID dưới tấm nền ngay.
-  - Under-display Face ID từng được leak cho iPhone 17 Pro nhưng MacRumors ghi nhận
-    công nghệ có thể chưa sẵn sàng cho thế hệ 18.
-  - Leaker Ice Universe đồn Dynamic Island nhỏ hơn ~35% trên iPhone 18 Pro; CAD render
-    và dummy hỗ trợ một phần — vẫn là tin đồn.
-  - Bài nằm trong series iPhone 18 có gì mới; đọc thêm tổng quan, chip A20 và camera
-    trước khi quyết định chờ hay mua iPhone 17.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 12:00:00+07:00'
-description: Từ iPhone 14 Pro, Dynamic Island đã trở thành “khuôn mặt” nhận diện iPhone
-  cao cấp — nhưng cũng là thứ nhiều người muốn biến mất. Với iPhone 18, cộng đồng
-  leak
-draft: false
-external_links:
-- title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
-- title: MacRumors — iPhone 18 roundup
-- title: AppleInsider — iPhone 18 expectations
-- title: MacRumors — iPhone 18 Pro rumored colors
-image: images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Adrian Trujillo
-image_creator_id: '257684'
-image_creator_url: https://www.pexels.com/@adrian-trujillo-257684
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-788883/
-seo_title: iPhone 18 có Dynamic Island nhỏ hơn không? Under-display
-series: iphone-18-co-gi-moi
-series_order: 7
-series_title: iPhone 18 có gì mới
-slug: iphone-18-dynamic-island-nho-hon-under-display-face-id
-tags:
-- iPhone 18
-- Dynamic Island
-- Under-display Face ID
-- iPhone 18 Pro
-- tin đồn iPhone
-- màn hình iPhone
-thumbnail: images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp
-title: iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Dynamic Island và Face ID trên iPhone 18
-- label: Trạng thái
-- label: Hướng đồn mạnh
-- label: Đọc thêm
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T12:00:00+07:00"
+description = "Từ iPhone 14 Pro, Dynamic Island đã trở thành “khuôn mặt” nhận diện iPhone cao cấp — nhưng cũng là thứ nhiều người muốn biến mất. Với iPhone 18, cộng đồng leak"
+draft = false
+image = "images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Adrian Trujillo"
+image_creator_id = "257684"
+image_creator_url = "https://www.pexels.com/@adrian-trujillo-257684"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-788883/"
+seo_title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display"
+series = "iphone-18-co-gi-moi"
+series_order = 7
+series_title = "iPhone 18 có gì mới"
+slug = "iphone-18-dynamic-island-nho-hon-under-display-face-id"
+tags = ["iPhone 18", "Dynamic Island", "Under-display Face ID", "iPhone 18 Pro", "tin đồn iPhone", "màn hình iPhone"]
+thumbnail = "images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+date_display = "08-07-2026 12:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple chưa công bố iPhone 18; tin đồn mạnh nhất về màn hình Pro là Dynamic Island thu hẹp, không phải Face ID dưới tấm nền ngay.", "Under-display Face ID từng được leak cho iPhone 17 Pro nhưng MacRumors ghi nhận công nghệ có thể chưa sẵn sàng cho thế hệ 18.", "Leaker Ice Universe đồn Dynamic Island nhỏ hơn ~35% trên iPhone 18 Pro; CAD render và dummy hỗ trợ một phần — vẫn là tin đồn.", "Bài nằm trong series iPhone 18 có gì mới; đọc thêm tổng quan, chip A20 và camera trước khi quyết định chờ hay mua iPhone 17."]
+title = "Tóm tắt bài viết"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro roundup"
+url = "https://www.macrumors.com/roundup/iphone-18-pro/"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 roundup"
+
+[[external_links]]
+title = "AppleInsider — iPhone 18 expectations"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro rumored colors"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Dynamic Island và Face ID trên iPhone 18"
+
+[[tom_tat_nhanh]]
+label = "Trạng thái"
+
+[[tom_tat_nhanh]]
+label = "Hướng đồn mạnh"
+
+[[tom_tat_nhanh]]
+label = "Đọc thêm"
++++
 
 Từ iPhone 14 Pro, **Dynamic Island** đã trở thành “khuôn mặt” nhận diện iPhone cao cấp — nhưng cũng là thứ nhiều người muốn **biến mất**. Với **iPhone 18**, cộng đồng leak lại hỏi hai câu song song: **Dynamic Island có nhỏ hơn không?** và **Under-display Face ID** (Face ID dưới tấm nền) cuối cùng có tới không?
 

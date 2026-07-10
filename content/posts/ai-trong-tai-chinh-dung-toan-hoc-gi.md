@@ -11,17 +11,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 14
 image = "images/posts/ai-trong-tai-chinh-dung-toan-hoc-gi.webp"
 image_alt = "Ảnh minh họa AI trong tài chính: Deep learning, NLP, và reinforcement learning — nguồn Pexels"
+date_display = "10-07-2026 12:30:00 GMT +7"
+lastmod_display = "10-07-2026 12:30:00 GMT +7"
 
 [ai_summary]
-items = [
-  "Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)",
-  "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)",
-  "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài",
-  "NLP: Phân tích tin tức, social media → sentiment score → alpha signal",
-  "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)",
-  "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward",
-  "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"
-]
+items = ["Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)", "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)", "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài", "NLP: Phân tích tin tức, social media → sentiment score → alpha signal", "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)", "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward", "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"]
 thumbnail = "images/posts/ai-trong-tai-chinh-dung-toan-hoc-gi.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/black-framed-sunglasses-beside-white-paper-8062369/"

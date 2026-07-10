@@ -1,91 +1,107 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Chi phí đi Hàn tháng 10 tự túc 5N4Đ thường từ 11–20 triệu VND/người tùy vé máy
-    bay và khách sạn.
-  - Tháng 10 không phải cao điểm nhất nhưng cuối tuần mùa lá đỏ vẫn có thể tăng giá
-    phòng và tour.
-  - Các khoản chính gồm vé máy bay, nghỉ, ăn uống, di chuyển nội địa và vé tham quan.
-  - Mức giá trong bài là tham khảo; giá thực tế có thể thay đổi theo thời điểm và
-    tỷ giá.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/seoraksan-national-park, https://www.koreatodo.com/gapyeong-day-trip-nami-island.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 16:00:00+07:00'
-description: 'Chi phí đi Hàn tháng 10 tự túc: bảng giá tham khảo vé máy bay, khách
-  sạn, ăn uống, di chuyển và mẹo tiết kiệm cho chuyến 5N4Đ.'
-draft: false
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: KoreaToDo — Seoraksan National Park
-  url: https://www.koreatodo.com/seoraksan-national-park
-- title: KoreaToDo — Gapyeong Day Trip Nami Island
-  url: https://www.koreatodo.com/gapyeong-day-trip-nami-island
-image: images/posts/chi-phi-di-han-thang-10-tu-tuc.webp
-image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Delyan Nedyalkov
-image_creator_id: '2400661'
-image_creator_url: https://www.pexels.com/@delyan-nedyalkov-2400661
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-4042807/
-internal_links:
-- ref: posts/di-han-thang-10-co-dep-khong.md
-  title: Đi Hàn tháng 10 có đẹp không?
-- ref: posts/thoi-tiet-han-quoc-thang-10.md
-  title: Thời tiết và mùa lá đỏ tháng 10
-- ref: posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md
-  title: Lịch trình 5 ngày 4 đêm tháng 10
-- ref: posts/seoul-thang-10-nen-di-dau.md
-  title: Seoul tháng 10 nên đi đâu?
-- ref: posts/nami-thang-10-co-dang-di-khong.md
-  title: Nami Island tháng 10
-- ref: posts/seoraksan-thang-10-ngam-la-do.md
-  title: Seoraksan tháng 10
-- ref: posts/busan-thang-10-nen-di-dau.md
-  title: Busan tháng 10
-- ref: posts/jeju-thang-10-co-dep-khong.md
-  title: Jeju tháng 10
-seo_title: 'Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn'
-series: di-han-thang-10
-series_order: 12
-series_title: Đi Hàn tháng 10
-slug: chi-phi-di-han-thang-10-tu-tuc
-tags:
-- chi phí du lịch Hàn Quốc
-- đi Hàn tự túc
-- du lịch Hàn Quốc tháng 10
-- ngân sách
-- series du lịch
-thumbnail: images/posts/chi-phi-di-han-thang-10-tu-tuc.webp
-title: 'Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển'
-tom_tat_nhanh:
-- label: Ngân sách 5N4Đ
-  value: 11–20 triệu VND/người
-- label: Khoản lớn nhất
-  value: Vé máy bay + khách sạn
-- label: Ăn uống
-  value: 400.000–800.000 VND/ngày
-- label: Di chuyển
-  value: 100.000–180.000 VND/ngày
-- label: Lưu ý
-  value: Giá có thể thay đổi
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T16:00:00+07:00"
+description = "Chi phí đi Hàn tháng 10 tự túc: bảng giá tham khảo vé máy bay, khách sạn, ăn uống, di chuyển và mẹo tiết kiệm cho chuyến 5N4Đ."
+draft = false
+image = "images/posts/chi-phi-di-han-thang-10-tu-tuc.webp"
+image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Delyan Nedyalkov"
+image_creator_id = "2400661"
+image_creator_url = "https://www.pexels.com/@delyan-nedyalkov-2400661"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-4042807/"
+seo_title = "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn"
+series = "di-han-thang-10"
+series_order = 12
+series_title = "Đi Hàn tháng 10"
+slug = "chi-phi-di-han-thang-10-tu-tuc"
+tags = ["chi phí du lịch Hàn Quốc", "đi Hàn tự túc", "du lịch Hàn Quốc tháng 10", "ngân sách", "series du lịch"]
+thumbnail = "images/posts/chi-phi-di-han-thang-10-tu-tuc.webp"
+title = "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển"
+date_display = "08-07-2026 16:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Chi phí đi Hàn tháng 10 tự túc 5N4Đ thường từ 11–20 triệu VND/người tùy vé máy bay và khách sạn.", "Tháng 10 không phải cao điểm nhất nhưng cuối tuần mùa lá đỏ vẫn có thể tăng giá phòng và tour.", "Các khoản chính gồm vé máy bay, nghỉ, ăn uống, di chuyển nội địa và vé tham quan.", "Mức giá trong bài là tham khảo; giá thực tế có thể thay đổi theo thời điểm và tỷ giá."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/seoraksan-national-park, https://www.koreatodo.com/gapyeong-day-trip-nami-island."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "KoreaToDo — Seoraksan National Park"
+url = "https://www.koreatodo.com/seoraksan-national-park"
+
+[[external_links]]
+title = "KoreaToDo — Gapyeong Day Trip Nami Island"
+url = "https://www.koreatodo.com/gapyeong-day-trip-nami-island"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-co-dep-khong.md"
+title = "Đi Hàn tháng 10 có đẹp không?"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết và mùa lá đỏ tháng 10"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md"
+title = "Lịch trình 5 ngày 4 đêm tháng 10"
+
+[[internal_links]]
+ref = "posts/seoul-thang-10-nen-di-dau.md"
+title = "Seoul tháng 10 nên đi đâu?"
+
+[[internal_links]]
+ref = "posts/nami-thang-10-co-dang-di-khong.md"
+title = "Nami Island tháng 10"
+
+[[internal_links]]
+ref = "posts/seoraksan-thang-10-ngam-la-do.md"
+title = "Seoraksan tháng 10"
+
+[[internal_links]]
+ref = "posts/busan-thang-10-nen-di-dau.md"
+title = "Busan tháng 10"
+
+[[internal_links]]
+ref = "posts/jeju-thang-10-co-dep-khong.md"
+title = "Jeju tháng 10"
+
+[[tom_tat_nhanh]]
+label = "Ngân sách 5N4Đ"
+value = "11–20 triệu VND/người"
+
+[[tom_tat_nhanh]]
+label = "Khoản lớn nhất"
+value = "Vé máy bay + khách sạn"
+
+[[tom_tat_nhanh]]
+label = "Ăn uống"
+value = "400.000–800.000 VND/ngày"
+
+[[tom_tat_nhanh]]
+label = "Di chuyển"
+value = "100.000–180.000 VND/ngày"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
+value = "Giá có thể thay đổi"
++++
 
 Lên ngân sách trước khi đặt vé giúp bạn tránh chi tiêu vượt kế hoạch — đặc biệt khi đi Hàn tháng 10, mùa lá đỏ thu hút nhiều khách và có thể đẩy giá khách sạn cuối tuần. Bài viết liệt kê **mức giá tham khảo** cho chuyến 5 ngày 4 đêm tự túc, dựa trên thông tin công khai từ các nguồn du lịch; mọi con số **có thể thay đổi** theo hãng bay, tỷ giá và thời điểm đặt.
 

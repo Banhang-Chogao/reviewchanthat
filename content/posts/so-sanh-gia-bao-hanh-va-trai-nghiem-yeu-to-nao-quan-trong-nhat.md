@@ -1,70 +1,70 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'Bạn đứng trước hai lựa chọn: Sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng.'
-  - Sản phẩm B đắt hơn nhưng bảo hành 2 năm và có nhiều đánh giá trải nghiệm tốt.
-  - 'Giá rẻ luôn hấp dẫn, nhưng thường đi kèm với: Chất lượng thấp hơn Bảo hành ngắn
-    hơn Dễ hỏng hóc Quy tắc "tiền nào của nấy" vẫn đúng trong đa số trường hợp.'
-  - Một sản phẩm có bảo hành 2 năm tại trung tâm uy tín đáng giá hơn sản phẩm rẻ hơn
-    nhưng không có bảo hành.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Veritable Content. Vui lòng ghi nguồn khi trích dẫn.
-  source_note: Bài viết tổng hợp từ trải nghiệm cá nhân và các nguyên tắc tài chính
-    cá nhân phổ biến.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- review
-- tai-chinh
-date: '2026-06-25 10:00:00+07:00'
-description: Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo hành tốt và trải nghiệm
-  sử dụng. Bài viết này giúp bạn xác định ưu tiên.
-draft: false
-external_links:
-- title: Consumer Reports - Product Buying Guide
-  url: https://www.consumerreports.org/products/
-- title: Investopedia - Understanding Warranties
-faq:
-- answer: Với sản phẩm dưới 3 triệu đồng, thường không cần bảo hành mở rộng. Với sản
-    phẩm trên 10 triệu đồng (laptop, điện thoại flagship), bảo hành mở rộng có thể
-    đáng giá.
-  question: Có nên mua bảo hành mở rộng không?
-- answer: Xác định ngân sách tối đa trước khi mua, sau đó tìm sản phẩm có đánh giá
-    tốt nhất trong khoảng giá đó. Đừng chạy theo giá rẻ nhất hoặc đắt nhất.
-- answer: Đúng vậy. Một sản phẩm có thông số cao nhưng tối ưu kém vẫn có trải nghiệm
-    tệ hơn sản phẩm thông số thấp hơn nhưng được tối ưu tốt.
-image: images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp
-image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Quang Nguyen Vinh
-image_creator_id: '222549'
-image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/honda-mechanics-at-work-12741630/
-seo_title: 'So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng'
-slug: so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat
-tags:
-- so sánh
-- giá cả
-- bảo hành
-- trải nghiệm
-thumbnail: images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp
-title: 'So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: So sánh giá, bảo hành và trải nghiệm khi mua sản phẩm
-- label: Mục đích
-- label: Hợp với
-- label: Điểm chính
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["review", "tai-chinh"]
+date = "2026-06-25T10:00:00+07:00"
+description = "Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo hành tốt và trải nghiệm sử dụng. Bài viết này giúp bạn xác định ưu tiên."
+draft = false
+image = "images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp"
+image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Quang Nguyen Vinh"
+image_creator_id = "222549"
+image_creator_url = "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/honda-mechanics-at-work-12741630/"
+seo_title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng"
+slug = "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat"
+tags = ["so sánh", "giá cả", "bảo hành", "trải nghiệm"]
+thumbnail = "images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+date_display = "25-06-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Bạn đứng trước hai lựa chọn: Sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng.", "Sản phẩm B đắt hơn nhưng bảo hành 2 năm và có nhiều đánh giá trải nghiệm tốt.", "Giá rẻ luôn hấp dẫn, nhưng thường đi kèm với: Chất lượng thấp hơn Bảo hành ngắn hơn Dễ hỏng hóc Quy tắc \"tiền nào của nấy\" vẫn đúng trong đa số trường hợp.", "Một sản phẩm có bảo hành 2 năm tại trung tâm uy tín đáng giá hơn sản phẩm rẻ hơn nhưng không có bảo hành."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Veritable Content. Vui lòng ghi nguồn khi trích dẫn."
+source_note = "Bài viết tổng hợp từ trải nghiệm cá nhân và các nguyên tắc tài chính cá nhân phổ biến."
+
+[[external_links]]
+title = "Consumer Reports - Product Buying Guide"
+url = "https://www.consumerreports.org/products/"
+
+[[external_links]]
+title = "Investopedia - Understanding Warranties"
+
+[[faq]]
+answer = "Với sản phẩm dưới 3 triệu đồng, thường không cần bảo hành mở rộng. Với sản phẩm trên 10 triệu đồng (laptop, điện thoại flagship), bảo hành mở rộng có thể đáng giá."
+question = "Có nên mua bảo hành mở rộng không?"
+
+[[faq]]
+answer = "Xác định ngân sách tối đa trước khi mua, sau đó tìm sản phẩm có đánh giá tốt nhất trong khoảng giá đó. Đừng chạy theo giá rẻ nhất hoặc đắt nhất."
+
+[[faq]]
+answer = "Đúng vậy. Một sản phẩm có thông số cao nhưng tối ưu kém vẫn có trải nghiệm tệ hơn sản phẩm thông số thấp hơn nhưng được tối ưu tốt."
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "So sánh giá, bảo hành và trải nghiệm khi mua sản phẩm"
+
+[[tom_tat_nhanh]]
+label = "Mục đích"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Điểm chính"
++++
 
 Bạn đứng trước hai lựa chọn: sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng. Sản phẩm B đắt hơn nhưng bảo hành 2 năm và nhiều review tốt. Bạn chọn cái nào?
 

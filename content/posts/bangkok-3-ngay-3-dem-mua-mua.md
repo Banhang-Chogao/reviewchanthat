@@ -1,72 +1,63 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'Lịch trình 3 ngày 3 đêm được thiết kế tối ưu cho người đi lần đầu: ngày 1 khám
-    phá Siam, ngày 2 văn hóa và chợ, ngày 3 chợ nổi kết hợp massage và về.'
-  - Mỗi ngày đều có backup plan cho mưa — buổi sáng dành cho ngoài trời, buổi chiều
-    cho indoor, luôn có BTS/skywalk làm phương án di chuyển thay thế.
-  - Ngân sách 5–7 triệu VND gồm vé máy bay, khách sạn 3 đêm, ăn uống, di chuyển và
-    tham quan — phù hợp với người đi tự túc tiết kiệm.
-  - Di chuyển chính là Airport Rail Link + BTS Skytrain, giúp né mưa và kẹt xe mà
-    không phát sinh chi phí ngoài dự kiến.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://sg.trip.com, https://www.tourismthailand.org,
-    https://www.bangkokairportonline.com, https://www.bts.co.th.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   —
-  điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu.'
-draft: false
-image: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
-image_alt: 'Ảnh minh họa Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho
-  người đi lần đầu — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:39+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Tony  Wu
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@tonywuphotography
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
-image_query: đi bangkok ngày đêm mùa
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/people-walking-on-street-at-night-16959675/
-image_status: verified
-seo_title: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho'
-series:
-- du-lich-thai-lan-mua-mua
-series_order: 4
-series_title: Du lịch Thái Lan mùa mưa
-slug: bangkok-3-ngay-3-dem-mua-mua
-tags:
-- Bangkok 3 ngày 3 đêm
-- lịch trình Bangkok mùa mưa
-- Bangkok tự túc
-- du lịch Bangkok tiết kiệm
-- lần đầu đi Bangkok
-thumbnail: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
-title: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu'
-tom_tat_nhanh:
-- label: Thời gian
-  value: 3 ngày 3 đêm
-- label: Ngân sách
-  value: 5–7 triệu VND
-- label: Phù hợp
-  value: Người đi lần đầu
-- label: Di chuyển
-  value: ARL + BTS
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu."
+draft = false
+image = "images/posts/bangkok-3-ngay-3-dem-mua-mua.webp"
+image_alt = "Ảnh minh họa Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Tony  Wu"
+image_creator_id = ""
+image_creator_url = "https://www.pexels.com/@tonywuphotography"
+image_license = "Pexels License"
+image_license_url = ""
+image_owner = "external"
+image_provider = "pexels"
+image_query = "đi bangkok ngày đêm mùa"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/people-walking-on-street-at-night-16959675/"
+image_status = "verified"
+seo_title = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho"
+series = ["du-lich-thai-lan-mua-mua"]
+series_order = 4
+series_title = "Du lịch Thái Lan mùa mưa"
+slug = "bangkok-3-ngay-3-dem-mua-mua"
+tags = ["Bangkok 3 ngày 3 đêm", "lịch trình Bangkok mùa mưa", "Bangkok tự túc", "du lịch Bangkok tiết kiệm", "lần đầu đi Bangkok"]
+thumbnail = "images/posts/bangkok-3-ngay-3-dem-mua-mua.webp"
+title = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Lịch trình 3 ngày 3 đêm được thiết kế tối ưu cho người đi lần đầu: ngày 1 khám phá Siam, ngày 2 văn hóa và chợ, ngày 3 chợ nổi kết hợp massage và về.", "Mỗi ngày đều có backup plan cho mưa — buổi sáng dành cho ngoài trời, buổi chiều cho indoor, luôn có BTS/skywalk làm phương án di chuyển thay thế.", "Ngân sách 5–7 triệu VND gồm vé máy bay, khách sạn 3 đêm, ăn uống, di chuyển và tham quan — phù hợp với người đi tự túc tiết kiệm.", "Di chuyển chính là Airport Rail Link + BTS Skytrain, giúp né mưa và kẹt xe mà không phát sinh chi phí ngoài dự kiến."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://sg.trip.com, https://www.tourismthailand.org, https://www.bangkokairportonline.com, https://www.bts.co.th."
+
+[[tom_tat_nhanh]]
+label = "Thời gian"
+value = "3 ngày 3 đêm"
+
+[[tom_tat_nhanh]]
+label = "Ngân sách"
+value = "5–7 triệu VND"
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+value = "Người đi lần đầu"
+
+[[tom_tat_nhanh]]
+label = "Di chuyển"
+value = "ARL + BTS"
++++
 
 Đi Bangkok lần đầu vào mùa mưa có thể hơi lo, nhưng thực ra đây là thời điểm lý tưởng để khám phá thành phố nếu bạn có một lịch trình hợp lý. Giá vé rẻ, khách sạn giảm, điểm tham quan vắng — và quan trọng nhất, Bangkok có đủ indoor attractions để bạn không bao giờ cảm thấy "mất cả ngày vì mưa".
 

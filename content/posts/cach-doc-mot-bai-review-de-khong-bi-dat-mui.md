@@ -1,71 +1,67 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook,
-    rồi vào Shopee đặt mua.
-  - Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
-  - 'Trước khi tin vào bất kỳ bài review nào, hãy tự hỏi: Người này được gì khi khen/spam
-    sản phẩm này?.'
-  - Hãy đọc ít nhất 3-5 bài từ các nguồn khác nhau.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Veritable Content. Nội dung mang tính tham khảo, vui lòng kiểm
-    chứng từ nhiều nguồn.
-  source_note: Bài viết dựa trên kinh nghiệm cá nhân và tham khảo từ các tổ chức bảo
-    vệ người tiêu dùng.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- review
-checklist:
-- Xác định động cơ người viết review
-- Đọc ít nhất 3-5 nguồn khác nhau
-- Tìm chi tiết cụ thể, không tin lời mơ hồ
-- Kiểm tra lịch sử tài khoản người viết
-- Đọc phần bình luận trước khi quyết định
-date: '2026-06-15 10:00:00+07:00'
-description: Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật,
-  đâu là quảng cáo trá hình.
-draft: false
-external_links:
-- title: FTC - Endorsement Guides
-  url: https://www.ftc.gov/legal-library/browse/guides/endorsements
-- title: Consumer Reports - How to Spot Fake Reviews
-faq:
-- answer: 'Kiểm tra động cơ người viết: họ có link affiliate không? Họ có được tài
-    trợ không? Nếu bài viết chỉ khen mà không chê, đó là dấu hiệu cần cảnh giác.'
-  question: Làm sao biết một review có phải quảng cáo trá hình không?
-- answer: Các trang review chuyên nghiệp có chính sách công bố xung đột lợi ích, hoặc
-    review từ người dùng thật trên các diễn đàn như Reddit, Tinhte, hoặc các nhóm
-    Facebook chất lượng.
-image: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
-image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Ron Lach
-image_creator_id: '22992178'
-image_creator_url: https://www.pexels.com/@ron-lach
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/
-slug: cach-doc-mot-bai-review-de-khong-bi-dat-mui
-tags:
-- kỹ năng đọc review
-- tiêu dùng thông minh
-thumbnail: images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp
-title: Cách đọc một bài review để không bị dắt mũi
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Kỹ năng đọc review, phân biệt review thật và quảng cáo
-- label: Mục đích
-- label: Hợp với
-- label: Mẹo quan trọng
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["review"]
+checklist = ["Xác định động cơ người viết review", "Đọc ít nhất 3-5 nguồn khác nhau", "Tìm chi tiết cụ thể, không tin lời mơ hồ", "Kiểm tra lịch sử tài khoản người viết", "Đọc phần bình luận trước khi quyết định"]
+date = "2026-06-15T10:00:00+07:00"
+description = "Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật, đâu là quảng cáo trá hình."
+draft = false
+image = "images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp"
+image_attribution_checked_at = "2026-07-10T14:01:29+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Ron Lach"
+image_creator_id = "22992178"
+image_creator_url = "https://www.pexels.com/@ron-lach"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/"
+slug = "cach-doc-mot-bai-review-de-khong-bi-dat-mui"
+tags = ["kỹ năng đọc review", "tiêu dùng thông minh"]
+thumbnail = "images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp"
+title = "Cách đọc một bài review để không bị dắt mũi"
+date_display = "15-06-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua.", "Một tuần sau, bạn nhận hàng và thất vọng vì nó không như \"review\".", "Trước khi tin vào bất kỳ bài review nào, hãy tự hỏi: Người này được gì khi khen/spam sản phẩm này?.", "Hãy đọc ít nhất 3-5 bài từ các nguồn khác nhau."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Veritable Content. Nội dung mang tính tham khảo, vui lòng kiểm chứng từ nhiều nguồn."
+source_note = "Bài viết dựa trên kinh nghiệm cá nhân và tham khảo từ các tổ chức bảo vệ người tiêu dùng."
+
+[[external_links]]
+title = "FTC - Endorsement Guides"
+url = "https://www.ftc.gov/legal-library/browse/guides/endorsements"
+
+[[external_links]]
+title = "Consumer Reports - How to Spot Fake Reviews"
+
+[[faq]]
+answer = "Kiểm tra động cơ người viết: họ có link affiliate không? Họ có được tài trợ không? Nếu bài viết chỉ khen mà không chê, đó là dấu hiệu cần cảnh giác."
+question = "Làm sao biết một review có phải quảng cáo trá hình không?"
+
+[[faq]]
+answer = "Các trang review chuyên nghiệp có chính sách công bố xung đột lợi ích, hoặc review từ người dùng thật trên các diễn đàn như Reddit, Tinhte, hoặc các nhóm Facebook chất lượng."
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Kỹ năng đọc review, phân biệt review thật và quảng cáo"
+
+[[tom_tat_nhanh]]
+label = "Mục đích"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Mẹo quan trọng"
++++
 
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
 

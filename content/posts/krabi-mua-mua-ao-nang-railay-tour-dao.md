@@ -1,69 +1,60 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Krabi mùa mưa (tháng 5–10) có biển động, sóng lớn phía Andaman, nhưng nhiều tour
-    vẫn chạy ở khu vực kín sóng như Hong Islands, Railay và kayak rừng ngập mặn.
-  - Tour 4 đảo tiêu chuẩn có rủi ro huỷ cao do đi qua biển hở; thay thế bằng tour
-    Hong Islands hoặc kayak Bor Thor.
-  - Các điểm land-based như Tiger Cave Temple, Emerald Pool và Krabi Town vẫn hoạt
-    động tốt bất kể thời tiết.
-  - Lịch trình 3 ngày Krabi mùa mưa tập trung vào Railay Beach, kayak và các điểm
-    indoor trong nhà.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org,
-    https://www.pexels.com.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo,
-  Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch.
-draft: false
-image: images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp
-image_alt: 'Ảnh minh họa Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng
-  7-8 không? — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:40+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Александр
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@1386738
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
-image_query: krabi mùa mưa ao nang
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/two-men-playing-volleyball-at-the-beach-4981193/
-image_status: verified
-seo_title: 'Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng'
-series:
-- du-lich-thai-lan-mua-mua
-series_order: 6
-series_title: Du lịch Thái Lan mùa mưa
-slug: krabi-mua-mua-ao-nang-railay-tour-dao
-tags:
-- Krabi mùa mưa
-- du lịch Thái Lan
-- Ao Nang
-- Railay Beach
-- tour đảo Thái Lan
-thumbnail: images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp
-title: 'Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?'
-tom_tat_nhanh:
-- label: Mùa mưa
-  value: Tháng 5–10
-- label: Biển
-- label: Tour chạy
-- label: Tour rủi ro
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo, Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch."
+draft = false
+image = "images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp"
+image_alt = "Ảnh minh họa Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không? — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:40+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Александр"
+image_creator_id = ""
+image_creator_url = "https://www.pexels.com/@1386738"
+image_license = "Pexels License"
+image_license_url = ""
+image_owner = "external"
+image_provider = "pexels"
+image_query = "krabi mùa mưa ao nang"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/two-men-playing-volleyball-at-the-beach-4981193/"
+image_status = "verified"
+seo_title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng"
+series = ["du-lich-thai-lan-mua-mua"]
+series_order = 6
+series_title = "Du lịch Thái Lan mùa mưa"
+slug = "krabi-mua-mua-ao-nang-railay-tour-dao"
+tags = ["Krabi mùa mưa", "du lịch Thái Lan", "Ao Nang", "Railay Beach", "tour đảo Thái Lan"]
+thumbnail = "images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp"
+title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Krabi mùa mưa (tháng 5–10) có biển động, sóng lớn phía Andaman, nhưng nhiều tour vẫn chạy ở khu vực kín sóng như Hong Islands, Railay và kayak rừng ngập mặn.", "Tour 4 đảo tiêu chuẩn có rủi ro huỷ cao do đi qua biển hở; thay thế bằng tour Hong Islands hoặc kayak Bor Thor.", "Các điểm land-based như Tiger Cave Temple, Emerald Pool và Krabi Town vẫn hoạt động tốt bất kể thời tiết.", "Lịch trình 3 ngày Krabi mùa mưa tập trung vào Railay Beach, kayak và các điểm indoor trong nhà."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org, https://www.pexels.com."
+
+[[tom_tat_nhanh]]
+label = "Mùa mưa"
+value = "Tháng 5–10"
+
+[[tom_tat_nhanh]]
+label = "Biển"
+
+[[tom_tat_nhanh]]
+label = "Tour chạy"
+
+[[tom_tat_nhanh]]
+label = "Tour rủi ro"
++++
 
 ## Krabi mùa mưa — còn gì để chơi?
 

@@ -1,56 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - macOS 27 thêm Siri AI Spotlight, Safari Notify Me, Visual Intelligence và sidebar
-    icon có màu so với macOS 26.
-  - macOS 26 vẫn hỗ trợ một số Mac Intel; macOS 27 danh sách chính thức chỉ Apple
-    Silicon 2020+.
-  - Liquid Glass trên 27 có slider tùy chỉnh — phản hồi UX tốt hơn tranh cãi macOS
-    26.
-  - Ở lại macOS 26 hợp lý cho Mac Intel và ai không cần AI đến khi 27 stable mùa thu.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 13:20:00+07:00'
-description: 'So sánh macOS Golden Gate 27 và macOS 26: Siri AI, Liquid Glass, Safari,
-  tương thích Intel, hiệu năng và nên ở lại bản cũ khi nào.'
-draft: false
-image: images/posts/macos-27-so-voi-macos-26.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Mateusz Dach
-image_creator_id: '99805'
-image_creator_url: https://www.pexels.com/@mateusz-dach-99805
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/apple-macbook-on-the-table-450035/
-series: macos-27-co-gi-moi
-series_order: 8
-series_title: macOS 27 có gì mới
-slug: macos-27-so-voi-macos-26
-tags:
-- macOS 27
-- macOS 26
-- so sánh macOS
-- Golden Gate
-- nâng cấp
-thumbnail: images/posts/macos-27-so-voi-macos-26.webp
-title: 'macOS 27 so với macOS 26: khác gì với người dùng Mac?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: macOS 27 vs macOS 26
-- label: Khác biệt lớn
-- label: Giữ 26 khi
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T13:20:00+07:00"
+description = "So sánh macOS Golden Gate 27 và macOS 26: Siri AI, Liquid Glass, Safari, tương thích Intel, hiệu năng và nên ở lại bản cũ khi nào."
+draft = false
+image = "images/posts/macos-27-so-voi-macos-26.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Mateusz Dach"
+image_creator_id = "99805"
+image_creator_url = "https://www.pexels.com/@mateusz-dach-99805"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/apple-macbook-on-the-table-450035/"
+series = "macos-27-co-gi-moi"
+series_order = 8
+series_title = "macOS 27 có gì mới"
+slug = "macos-27-so-voi-macos-26"
+tags = ["macOS 27", "macOS 26", "so sánh macOS", "Golden Gate", "nâng cấp"]
+thumbnail = "images/posts/macos-27-so-voi-macos-26.webp"
+title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
+date_display = "08-07-2026 13:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["macOS 27 thêm Siri AI Spotlight, Safari Notify Me, Visual Intelligence và sidebar icon có màu so với macOS 26.", "macOS 26 vẫn hỗ trợ một số Mac Intel; macOS 27 danh sách chính thức chỉ Apple Silicon 2020+.", "Liquid Glass trên 27 có slider tùy chỉnh — phản hồi UX tốt hơn tranh cãi macOS 26.", "Ở lại macOS 26 hợp lý cho Mac Intel và ai không cần AI đến khi 27 stable mùa thu."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "macOS 27 vs macOS 26"
+
+[[tom_tat_nhanh]]
+label = "Khác biệt lớn"
+
+[[tom_tat_nhanh]]
+label = "Giữ 26 khi"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Bạn đang chạy **macOS 26** ổn định — có đáng nhảy sang **Golden Gate 27** không? Bài so sánh này tách **thay đổi thật**, **marketing** và **điểm nên ở lại 26**.
 

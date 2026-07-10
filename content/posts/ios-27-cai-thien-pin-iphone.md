@@ -1,57 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple nhấn iOS 27 cải thiện hiệu năng shell nhưng AI và indexing beta có thể làm
-    pin tụt nhanh hơn vài tuần đầu.
-  - iPhone 11–13 pin cũ dễ chịu ảnh hưởng nặng hơn iPhone 16 khi lên bản mới.
-  - Người dùng nên kiểm tra Battery Health, tắt tính năng AI không dùng và chờ 48–72h
-    sau update để pin ổn định.
-  - 'Kỳ vọng thực tế: iOS 27 không thay pin vật lý — máy health dưới 80% nên thay
-    pin trước khi nâng cấp.'
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 09:00:00+07:00'
-description: 'Pin iPhone với iOS 27: kỳ vọng hiệu năng Apple công bố, ảnh hưởng AI/Siri
-  và mẹo tiết kiệm pin cho người dùng Việt Nam.'
-draft: false
-image: images/posts/ios-27-cai-thien-pin-iphone.webp
-image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: RDNE Stock project
-image_creator_id: '3149039'
-image_creator_url: https://www.pexels.com/@rdne
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/man-in-blue-shirt-holding-iphone-8052289/
-seo_title: iOS 27 có cải thiện pin không? Những điều người dùng iPhone
-series: ios-27-co-gi-moi
-series_order: 4
-series_title: iOS 27 có gì mới
-slug: ios-27-cai-thien-pin-iphone
-tags:
-- iOS 27
-- pin iPhone
-- Battery Health
-- Siri AI
-- tiết kiệm pin
-thumbnail: images/posts/ios-27-cai-thien-pin-iphone.webp
-title: iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Pin iPhone khi lên iOS 27
-- label: Apple claim
-- label: Rủi ro
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T09:00:00+07:00"
+description = "Pin iPhone với iOS 27: kỳ vọng hiệu năng Apple công bố, ảnh hưởng AI/Siri và mẹo tiết kiệm pin cho người dùng Việt Nam."
+draft = false
+image = "images/posts/ios-27-cai-thien-pin-iphone.webp"
+image_attribution_checked_at = "2026-07-10T14:01:30+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "RDNE Stock project"
+image_creator_id = "3149039"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/man-in-blue-shirt-holding-iphone-8052289/"
+seo_title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone"
+series = "ios-27-co-gi-moi"
+series_order = 4
+series_title = "iOS 27 có gì mới"
+slug = "ios-27-cai-thien-pin-iphone"
+tags = ["iOS 27", "pin iPhone", "Battery Health", "Siri AI", "tiết kiệm pin"]
+thumbnail = "images/posts/ios-27-cai-thien-pin-iphone.webp"
+title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+date_display = "08-07-2026 09:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple nhấn iOS 27 cải thiện hiệu năng shell nhưng AI và indexing beta có thể làm pin tụt nhanh hơn vài tuần đầu.", "iPhone 11–13 pin cũ dễ chịu ảnh hưởng nặng hơn iPhone 16 khi lên bản mới.", "Người dùng nên kiểm tra Battery Health, tắt tính năng AI không dùng và chờ 48–72h sau update để pin ổn định.", "Kỳ vọng thực tế: iOS 27 không thay pin vật lý — máy health dưới 80% nên thay pin trước khi nâng cấp."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Pin iPhone khi lên iOS 27"
+
+[[tom_tat_nhanh]]
+label = "Apple claim"
+
+[[tom_tat_nhanh]]
+label = "Rủi ro"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 “Lên iOS mới xong pin tụt một nửa” — câu than trời quen thuộc trên group iPhone Việt Nam. **iOS 27** hứa hiệu năng tốt hơn, nhưng cũng mang **Siri AI**, indexing Photos và background AI — tất cả đều “ăn” pin.
 

@@ -1,57 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple công bố macOS 27 cải thiện mở app, index Spotlight và chuyển workspace so
-    với bản trước.
-  - 'Developer beta tuần đầu: shell Golden Gate 27 nhẹ hơn macOS 26 beta tương ứng
-    trên cùng máy M2.'
-  - Siri AI và Apple Intelligence chạy nền làm pin MacBook Air tụt nhanh hơn 10–25%
-    trong test không chuẩn hóa.
-  - Mac cắm nguồn hoặc Mac mini/Studio ít bị ảnh hưởng pin; MacBook 8GB dễ swap và
-    nóng khi bật AI.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 12:00:00+07:00'
-description: 'Đánh giá hiệu năng và pin macOS Golden Gate 27: số liệu Apple, phản
-  hồi beta developer và ảnh hưởng Siri AI lên MacBook Air/Pro.'
-draft: false
-image: images/posts/macos-27-hieu-nang-pin-macbook.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Rodrigo Santos
-image_creator_id: '125824'
-image_creator_url: https://www.pexels.com/@rsantos1232
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/workplace-with-modern-laptop-with-program-code-on-screen-3888151/
-series: macos-27-co-gi-moi
-series_order: 4
-series_title: macOS 27 có gì mới
-slug: macos-27-hieu-nang-pin-macbook
-tags:
-- macOS 27
-- hiệu năng Mac
-- pin MacBook
-- MacBook Air
-- MacBook Pro
-thumbnail: images/posts/macos-27-hieu-nang-pin-macbook.webp
-title: macOS 27 có cải thiện hiệu năng và pin MacBook không?
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Hiệu năng và pin macOS 27
-- label: Nguồn
-- label: Xu hướng
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T12:00:00+07:00"
+description = "Đánh giá hiệu năng và pin macOS Golden Gate 27: số liệu Apple, phản hồi beta developer và ảnh hưởng Siri AI lên MacBook Air/Pro."
+draft = false
+image = "images/posts/macos-27-hieu-nang-pin-macbook.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Rodrigo Santos"
+image_creator_id = "125824"
+image_creator_url = "https://www.pexels.com/@rsantos1232"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/workplace-with-modern-laptop-with-program-code-on-screen-3888151/"
+series = "macos-27-co-gi-moi"
+series_order = 4
+series_title = "macOS 27 có gì mới"
+slug = "macos-27-hieu-nang-pin-macbook"
+tags = ["macOS 27", "hiệu năng Mac", "pin MacBook", "MacBook Air", "MacBook Pro"]
+thumbnail = "images/posts/macos-27-hieu-nang-pin-macbook.webp"
+title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
+date_display = "08-07-2026 12:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple công bố macOS 27 cải thiện mở app, index Spotlight và chuyển workspace so với bản trước.", "Developer beta tuần đầu: shell Golden Gate 27 nhẹ hơn macOS 26 beta tương ứng trên cùng máy M2.", "Siri AI và Apple Intelligence chạy nền làm pin MacBook Air tụt nhanh hơn 10–25% trong test không chuẩn hóa.", "Mac cắm nguồn hoặc Mac mini/Studio ít bị ảnh hưởng pin; MacBook 8GB dễ swap và nóng khi bật AI."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Hiệu năng và pin macOS 27"
+
+[[tom_tat_nhanh]]
+label = "Nguồn"
+
+[[tom_tat_nhanh]]
+label = "Xu hướng"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 MacBook là máy mang đi — nên **pin và hiệu năng** thường quan trọng hơn sidebar đẹp hay AI demo. macOS Golden Gate 27 hứa cả hai: shell nhanh hơn nhưng AI nền có thể “ăn” pin. Bài này tách **số liệu Apple**, **phản hồi beta** và **khuyến nghị thực tế**.
 

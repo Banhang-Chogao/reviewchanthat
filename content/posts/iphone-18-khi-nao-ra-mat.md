@@ -1,65 +1,65 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple chưa công bố iPhone 18; lịch ra mắt hiện chỉ là tin đồn và phân tích từ
-    MacRumors, AppleInsider.
-  - Kỳ vọng split launch — iPhone 18 Pro, Pro Max và Fold tháng 9/2026; iPhone 18
-    base có thể đến đầu 2027.
-  - Apple có thể tách đợt để ưu tiên model cao cấp, chip 2nm và Fold trong khi base
-    model chờ linh kiện hoặc chiến lược giá.
-  - Bài thuộc series iPhone 18 — đọc cùng bài tổng quan và hướng dẫn có nên chờ trước
-    khi quyết định mua.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 07:00:00+07:00'
-description: Mỗi năm tháng 9, Apple thường ra mắt iPhone mới cùng iOS bản chính thức
-  — thói quen đã ăn sâu vào tâm lý người mua tại Việt Nam. Với iPhone 18, nhiều nguồn
-  báo
-draft: false
-external_links:
-- title: MacRumors — iPhone 18 roundup
-  url: https://www.macrumors.com/roundup/iphone-18/
-- title: MacRumors — iPhone 18 Pro roundup
-- title: AppleInsider — Spring 2027 iPhone 18 expectations
-- title: MacRumors — iPhone Fold roundup
-image: images/posts/iphone-18-khi-nao-ra-mat.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Pooja  K
-image_creator_id: '236474'
-image_creator_url: https://www.pexels.com/@pooja1225
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-1092675/
-seo_title: iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra
-series: iphone-18-co-gi-moi
-series_order: 2
-series_title: iPhone 18 có gì mới
-slug: iphone-18-khi-nao-ra-mat
-tags:
-- iPhone 18
-- iPhone 18 khi nào ra mắt
-- split launch Apple
-- iPhone Fold
-- tin đồn iPhone
-thumbnail: images/posts/iphone-18-khi-nao-ra-mat.webp
-title: iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Lịch ra mắt iPhone 18 (tin đồn)
-- label: Đợt 1 (đồn)
-- label: Đợt 2 (đồn)
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T07:00:00+07:00"
+description = "Mỗi năm tháng 9, Apple thường ra mắt iPhone mới cùng iOS bản chính thức — thói quen đã ăn sâu vào tâm lý người mua tại Việt Nam. Với iPhone 18, nhiều nguồn báo"
+draft = false
+image = "images/posts/iphone-18-khi-nao-ra-mat.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Pooja  K"
+image_creator_id = "236474"
+image_creator_url = "https://www.pexels.com/@pooja1225"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-1092675/"
+seo_title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra"
+series = "iphone-18-co-gi-moi"
+series_order = 2
+series_title = "iPhone 18 có gì mới"
+slug = "iphone-18-khi-nao-ra-mat"
+tags = ["iPhone 18", "iPhone 18 khi nào ra mắt", "split launch Apple", "iPhone Fold", "tin đồn iPhone"]
+thumbnail = "images/posts/iphone-18-khi-nao-ra-mat.webp"
+title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
+date_display = "08-07-2026 07:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple chưa công bố iPhone 18; lịch ra mắt hiện chỉ là tin đồn và phân tích từ MacRumors, AppleInsider.", "Kỳ vọng split launch — iPhone 18 Pro, Pro Max và Fold tháng 9/2026; iPhone 18 base có thể đến đầu 2027.", "Apple có thể tách đợt để ưu tiên model cao cấp, chip 2nm và Fold trong khi base model chờ linh kiện hoặc chiến lược giá.", "Bài thuộc series iPhone 18 — đọc cùng bài tổng quan và hướng dẫn có nên chờ trước khi quyết định mua."]
+title = "Tóm tắt bài viết"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 roundup"
+url = "https://www.macrumors.com/roundup/iphone-18/"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro roundup"
+
+[[external_links]]
+title = "AppleInsider — Spring 2027 iPhone 18 expectations"
+
+[[external_links]]
+title = "MacRumors — iPhone Fold roundup"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Lịch ra mắt iPhone 18 (tin đồn)"
+
+[[tom_tat_nhanh]]
+label = "Đợt 1 (đồn)"
+
+[[tom_tat_nhanh]]
+label = "Đợt 2 (đồn)"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Mỗi năm tháng 9, Apple thường ra mắt iPhone mới cùng iOS bản chính thức — thói quen đã ăn sâu vào tâm lý người mua tại Việt Nam. Với **iPhone 18**, nhiều nguồn báo chí và analyst đồn loạt một kịch bản khác: **không phải tất cả model cùng xuất hiện một lần**. Apple **chưa xác nhận** bất kỳ ngày ra mắt hay chiến lược tách đợt nào; bài viết này tổng hợp tin đồn có nguồn để bạn lên kế hoạch mua máy thực tế hơn.
 

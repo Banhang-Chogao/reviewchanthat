@@ -1,63 +1,65 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Chip A20 trên iPhone 18 chưa được Apple công bố; bài giải thích tin đồn TSMC 2nm
-    từ MacRumors và AppleInsider.
-  - Kỳ vọng — A20 cho base, A20 Pro cho Pro/Fold; hiệu năng và tiết kiệm điện tốt
-    hơn thế hệ 3nm theo analyst.
-  - Tiến trình 2nm quan trọng vì ảnh hưởng pin, nhiệt và Apple Intelligence trên iPhone
-    2026–2027.
-  - Series iPhone 18 — liên kết Pro Max, có nên chờ và so sánh iPhone 17.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 11:00:00+07:00'
-description: iPhone 18 chip A20 có gì đáng chú ý? Tin đồn TSMC N2 2nm, A20 vs A20
-  Pro, hiệu năng, pin và Apple Intelligence — nguồn MacRumors, AppleInsider.
-draft: false
-external_links:
-- title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
-- title: MacRumors — iPhone 18 roundup
-- title: AppleInsider — A20 and spring 2027 iPhone 18
-- title: MacRumors — TSMC 2nm reports
-image: images/posts/iphone-18-chip-a20-2nm.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Ferdinand Frederik
-image_creator_id: '257244'
-image_creator_url: https://www.pexels.com/@ferdinand-frederik-257244
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-788884/
-seo_title: iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm
-series: iphone-18-co-gi-moi
-series_order: 6
-series_title: iPhone 18 có gì mới
-slug: iphone-18-chip-a20-2nm
-tags:
-- A20
-- chip iPhone 18
-- TSMC 2nm
-- Apple Silicon
-- tin đồn iPhone
-thumbnail: images/posts/iphone-18-chip-a20-2nm.webp
-title: iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Chip A20 và tiến trình 2nm (tin đồn)
-- label: Dòng chip (đồn)
-- label: Lợi ích (đồn)
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T11:00:00+07:00"
+description = "iPhone 18 chip A20 có gì đáng chú ý? Tin đồn TSMC N2 2nm, A20 vs A20 Pro, hiệu năng, pin và Apple Intelligence — nguồn MacRumors, AppleInsider."
+draft = false
+image = "images/posts/iphone-18-chip-a20-2nm.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Ferdinand Frederik"
+image_creator_id = "257244"
+image_creator_url = "https://www.pexels.com/@ferdinand-frederik-257244"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-788884/"
+seo_title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm"
+series = "iphone-18-co-gi-moi"
+series_order = 6
+series_title = "iPhone 18 có gì mới"
+slug = "iphone-18-chip-a20-2nm"
+tags = ["A20", "chip iPhone 18", "TSMC 2nm", "Apple Silicon", "tin đồn iPhone"]
+thumbnail = "images/posts/iphone-18-chip-a20-2nm.webp"
+title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
+date_display = "08-07-2026 11:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Chip A20 trên iPhone 18 chưa được Apple công bố; bài giải thích tin đồn TSMC 2nm từ MacRumors và AppleInsider.", "Kỳ vọng — A20 cho base, A20 Pro cho Pro/Fold; hiệu năng và tiết kiệm điện tốt hơn thế hệ 3nm theo analyst.", "Tiến trình 2nm quan trọng vì ảnh hưởng pin, nhiệt và Apple Intelligence trên iPhone 2026–2027.", "Series iPhone 18 — liên kết Pro Max, có nên chờ và so sánh iPhone 17."]
+title = "Tóm tắt bài viết"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro roundup"
+url = "https://www.macrumors.com/roundup/iphone-18-pro/"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 roundup"
+
+[[external_links]]
+title = "AppleInsider — A20 and spring 2027 iPhone 18"
+
+[[external_links]]
+title = "MacRumors — TSMC 2nm reports"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Chip A20 và tiến trình 2nm (tin đồn)"
+
+[[tom_tat_nhanh]]
+label = "Dòng chip (đồn)"
+
+[[tom_tat_nhanh]]
+label = "Lợi ích (đồn)"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Mỗi thế hệ iPhone, chip Apple Silicon là **trục kỹ thuật** quyết định hiệu năng, pin, nhiệt và khả năng chạy **Apple Intelligence**. Với **iPhone 18**, tin đồn tập trung vào **A20** và **A20 Pro** trên tiến trình **TSMC N2 (2nm)** — bước nhảy sau **A18/A19 3nm** trên iPhone 16/17. Apple **chưa công bố** chip hay tên A20; bài viết giải thích **vì sao 2nm được quan tâm** và **điều gì là tin đồn có nguồn**.
 

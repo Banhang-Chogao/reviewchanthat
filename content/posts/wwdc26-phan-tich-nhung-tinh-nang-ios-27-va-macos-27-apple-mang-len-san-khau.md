@@ -1,84 +1,93 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - WWDC26 (8/6/2026) tập trung Siri AI, Apple Intelligence thế hệ hai và iOS 27 /
-    macOS Golden Gate 27.
-  - Apple nhấn hiệu năng (mở app nhanh hơn, AirDrop nhanh hơn) và kiểm soát phụ huynh
-    mở rộng.
-  - Tin đồn iPhone gập không xuất hiện tại WWDC — hướng sự kiện phần cứng riêng.
-  - Người dùng Việt Nam cần theo dõi mức hỗ trợ tiếng Việt và danh sách máy tương
-    thích trước khi cài beta.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Phân tích dựa trên nguồn công khai; không đại
-    diện Apple.
-  source_note: Bài viết phân loại rõ tin đồn, phân tích và thông tin Apple đã công
-    bố.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-07 09:00:00+07:00'
-description: Phân tích có cơ sở về iOS 27, macOS Golden Gate 27, Siri AI và Apple
-  Intelligence tại WWDC26 — phân loại tin đồn, dự đoán và thông tin Apple đã xác nhận.
-draft: false
-external_links:
-- title: Apple — WWDC26 Press Release
-  url: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/
-- title: Apple — Siri AI
-- title: Bloomberg — WWDC 2026 Preview
-- title: MacRumors — Siri AI at WWDC 2026
-- title: 9to5Mac — WWDC 2026 News Hub
-- title: Apple Developer — WWDC26
-faq:
-- answer: Ngày 8/6/2026 tại Apple Park. Apple công bố iOS 27, iPadOS 27, macOS Golden
-    Gate 27, watchOS 27, visionOS 27, Siri AI và thế hệ Apple Intelligence tiếp theo.
-  question: WWDC26 đã diễn ra khi nào và công bố gì?
-- answer: Siri AI, cải thiện hiệu năng (mở app, load ảnh, AirDrop), tùy chỉnh Liquid
-    Glass, và AI sâu hơn trong Photos/Messages — nếu máy bạn hỗ trợ đủ.
-- answer: Apple liệt kê tiếng Việt trong nhóm ngôn ngữ Apple Intelligence; tuy nhiên
-    một số tính năng có thể rollout theo giai đoạn hoặc giới hạn khu vực.
-- answer: Không khuyến nghị. Beta phù hợp máy phụ hoặc nhà phát triển; AI và pin thường
-    thay đổi nhiều giữa các bản beta.
-- answer: Apple gọi là macOS Golden Gate 27, với Siri trong Spotlight, Safari Notify
-    Me và thiết kế sidebar màu quen thuộc hơn.
-- answer: Không. iPhone Ultra (foldable) vẫn là tin đồn phần cứng hướng tới sự kiện
-    riêng, không phải keynote phần mềm 8/6/2026.
-image: images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp
-image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Thien Le Duy
-image_creator_id: '2148391928'
-image_creator_url: https://www.pexels.com/@thienleduyphoto
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/vibrant-gerbera-daisy-close-up-photography-31102157/
-lastmod: '2026-07-08 00:00:00+07:00'
-seo_title: 'WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple'
-slug: wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau
-tags:
-- WWDC26
-- iOS 27
-- macOS 27
-- Siri AI
-- Apple Intelligence
-- iPhone
-- Mac
-thumbnail: images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp
-title: 'WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: WWDC26 phân tích tính năng iOS 27 và macOS 27
-- label: Mục đích
-- label: Hợp với
-- label: Điểm chính
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-07T09:00:00+07:00"
+description = "Phân tích có cơ sở về iOS 27, macOS Golden Gate 27, Siri AI và Apple Intelligence tại WWDC26 — phân loại tin đồn, dự đoán và thông tin Apple đã xác nhận."
+draft = false
+image = "images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp"
+image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Thien Le Duy"
+image_creator_id = "2148391928"
+image_creator_url = "https://www.pexels.com/@thienleduyphoto"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/vibrant-gerbera-daisy-close-up-photography-31102157/"
+lastmod = "2026-07-08T00:00:00+07:00"
+seo_title = "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple"
+slug = "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau"
+tags = ["WWDC26", "iOS 27", "macOS 27", "Siri AI", "Apple Intelligence", "iPhone", "Mac"]
+thumbnail = "images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp"
+title = "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu"
+date_display = "07-07-2026 09:00:00 GMT +7"
+lastmod_display = "08-07-2026 00:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["WWDC26 (8/6/2026) tập trung Siri AI, Apple Intelligence thế hệ hai và iOS 27 / macOS Golden Gate 27.", "Apple nhấn hiệu năng (mở app nhanh hơn, AirDrop nhanh hơn) và kiểm soát phụ huynh mở rộng.", "Tin đồn iPhone gập không xuất hiện tại WWDC — hướng sự kiện phần cứng riêng.", "Người dùng Việt Nam cần theo dõi mức hỗ trợ tiếng Việt và danh sách máy tương thích trước khi cài beta."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Phân tích dựa trên nguồn công khai; không đại diện Apple."
+source_note = "Bài viết phân loại rõ tin đồn, phân tích và thông tin Apple đã công bố."
+
+[[external_links]]
+title = "Apple — WWDC26 Press Release"
+url = "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+
+[[external_links]]
+title = "Apple — Siri AI"
+
+[[external_links]]
+title = "Bloomberg — WWDC 2026 Preview"
+
+[[external_links]]
+title = "MacRumors — Siri AI at WWDC 2026"
+
+[[external_links]]
+title = "9to5Mac — WWDC 2026 News Hub"
+
+[[external_links]]
+title = "Apple Developer — WWDC26"
+
+[[faq]]
+answer = "Ngày 8/6/2026 tại Apple Park. Apple công bố iOS 27, iPadOS 27, macOS Golden Gate 27, watchOS 27, visionOS 27, Siri AI và thế hệ Apple Intelligence tiếp theo."
+question = "WWDC26 đã diễn ra khi nào và công bố gì?"
+
+[[faq]]
+answer = "Siri AI, cải thiện hiệu năng (mở app, load ảnh, AirDrop), tùy chỉnh Liquid Glass, và AI sâu hơn trong Photos/Messages — nếu máy bạn hỗ trợ đủ."
+
+[[faq]]
+answer = "Apple liệt kê tiếng Việt trong nhóm ngôn ngữ Apple Intelligence; tuy nhiên một số tính năng có thể rollout theo giai đoạn hoặc giới hạn khu vực."
+
+[[faq]]
+answer = "Không khuyến nghị. Beta phù hợp máy phụ hoặc nhà phát triển; AI và pin thường thay đổi nhiều giữa các bản beta."
+
+[[faq]]
+answer = "Apple gọi là macOS Golden Gate 27, với Siri trong Spotlight, Safari Notify Me và thiết kế sidebar màu quen thuộc hơn."
+
+[[faq]]
+answer = "Không. iPhone Ultra (foldable) vẫn là tin đồn phần cứng hướng tới sự kiện riêng, không phải keynote phần mềm 8/6/2026."
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "WWDC26 phân tích tính năng iOS 27 và macOS 27"
+
+[[tom_tat_nhanh]]
+label = "Mục đích"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Điểm chính"
++++
 
 Bạn có nhớ cảm giác mỗi lần WWDC tới gần không? Cộng đồng Apple lại chia làm hai phe: một phe chỉ muốn biết có đáng lên iOS mới không, phe kia soi từng dòng code trong beta developer. **WWDC26** cũng không ngoại lệ — nhưng năm nay áp lực cao hơn nhiều.
 

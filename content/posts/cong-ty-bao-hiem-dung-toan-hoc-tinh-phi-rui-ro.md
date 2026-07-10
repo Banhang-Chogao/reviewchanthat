@@ -11,17 +11,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 4
 image = "images/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.webp"
 image_alt = "Ảnh minh họa Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro? — nguồn Pexels"
+date_display = "10-07-2026 11:30:00 GMT +7"
+lastmod_display = "10-07-2026 11:30:00 GMT +7"
 
 [ai_summary]
-items = [
-  "Actuarial science là ngành học xác suất + thống kê + tài chính để quản lý rủi ro dài hạn",
-  "Xác suất sống còn: S(t) = e^(-λt), nơi λ là tỷ lệ nguy hiểm hàng năm",
-  "Phí bảo hiểm = Expected loss (khoản tiền trung bình sẽ trả) + overhead + lợi nhuận",
-  "Present value của quyền lợi bảo hiểm: PV = Benefit × e^(-rt) × P(survive)",
-  "Dự phòng kỹ thuật: tiền công ty giữ lại để trả bảo hiểm trong tương lai",
-  "Monte Carlo: mô phỏng hàng triệu kịch bản để ước lượng rủi ro tối đa",
-  "Ví dụ: Tính phí bảo hiểm nhân thọ 20 năm cho người 35 tuổi"
-]
+items = ["Actuarial science là ngành học xác suất + thống kê + tài chính để quản lý rủi ro dài hạn", "Xác suất sống còn: S(t) = e^(-λt), nơi λ là tỷ lệ nguy hiểm hàng năm", "Phí bảo hiểm = Expected loss (khoản tiền trung bình sẽ trả) + overhead + lợi nhuận", "Present value của quyền lợi bảo hiểm: PV = Benefit × e^(-rt) × P(survive)", "Dự phòng kỹ thuật: tiền công ty giữ lại để trả bảo hiểm trong tương lai", "Monte Carlo: mô phỏng hàng triệu kịch bản để ước lượng rủi ro tối đa", "Ví dụ: Tính phí bảo hiểm nhân thọ 20 năm cho người 35 tuổi"]
 thumbnail = "images/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/person-inserting-money-unto-an-atm-5849549/"

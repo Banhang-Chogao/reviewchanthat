@@ -1,75 +1,71 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - DMA buộc Apple mở iOS ở EU — cho phép sideload, marketplace thay thế và trình
-    duyệt không dùng WebKit; người dùng EU có thêm lựa chọn nhưng đánh đổi bằng lớp
-    bảo vệ tích hợp.
-  - Apple cảnh báo rủi ro lừa đảo, malware và hoàn tiền khó hơn khi app không qua
-    App Store; Notarization chỉ là kiểm tra cơ bản, không thay App Review đầy đủ.
-  - Người dùng EU mất một phần trải nghiệm “một chạm” — Family Sharing, Ask to Buy,
-    hoàn tiền qua Apple và một số tính năng Screen Time không áp dụng cho app ngoài
-    App Store.
-  - Người dùng Việt Nam không bị ảnh hưởng trực tiếp, nhưng nên theo dõi vì thay đổi
-    ở EU có thể lan sang luật tương tự hoặc ảnh hưởng giá dịch vụ toàn cầu.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 10:20:00+07:00'
-description: Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu được gì và mất gì? Phân
-  tích rủi ro bảo mật, hoàn tiền, trải nghiệm gia đình và những đánh đổi Apple không
-  nói
-draft: false
-external_links:
-- title: EC — Apple và Meta vi phạm DMA (23/4/2025)
-  url: https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act
-- title: Apple Newsroom — Tác động DMA lên người dùng EU
-  url: https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/
-- title: Apple Developer — Hỗ trợ DMA tại EU
-  url: https://developer.apple.com/support/dma-and-apps-in-the-eu/
-- title: Digital Markets Act — Trang chính thức EC
-  url: https://digital-markets-act.ec.europa.eu/
-image: images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp
-image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
-image_attribution_source: embedded_exif_iptc_xmp
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Harry Parvin
-image_creator_id: ''
-image_creator_url: ''
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-holding-black-iphone-7-3861969/
-seo_title: 'iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store'
-series: apple-ec-dma-app-store-ios
-series_order: 5
-series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
-slug: ios-mo-hon-nguoi-dung-chau-au-mat-gi
-tags:
-- Apple
-- DMA
-- iOS
-- App Store
-- người dùng EU
-- bảo mật iPhone
-thumbnail: images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp
-title: 'iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa
-  duy nhất?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Đánh đổi cho người dùng EU khi iOS mở theo DMA
-- label: Bối cảnh
-  value: iOS 17.4+ ở 27 nước EU, phạt anti-steering 500 triệu euro (4/2025)
-- label: Điểm then chốt
-  value: Thêm lựa chọn, nhưng giảm lớp bảo vệ tích hợp
-- label: Hợp với
-  value: Người dùng iPhone EU, phụ huynh, ai quan tâm bảo mật hệ sinh thái
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T10:20:00+07:00"
+description = "Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu được gì và mất gì? Phân tích rủi ro bảo mật, hoàn tiền, trải nghiệm gia đình và những đánh đổi Apple không nói"
+draft = false
+image = "images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image_attribution_source = "embedded_exif_iptc_xmp"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Harry Parvin"
+image_creator_id = ""
+image_creator_url = ""
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-holding-black-iphone-7-3861969/"
+seo_title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store"
+series = "apple-ec-dma-app-store-ios"
+series_order = 5
+series_title = "Apple vs EC: App Store, iOS và Digital Markets Act"
+slug = "ios-mo-hon-nguoi-dung-chau-au-mat-gi"
+tags = ["Apple", "DMA", "iOS", "App Store", "người dùng EU", "bảo mật iPhone"]
+thumbnail = "images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+date_display = "08-07-2026 10:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["DMA buộc Apple mở iOS ở EU — cho phép sideload, marketplace thay thế và trình duyệt không dùng WebKit; người dùng EU có thêm lựa chọn nhưng đánh đổi bằng lớp bảo vệ tích hợp.", "Apple cảnh báo rủi ro lừa đảo, malware và hoàn tiền khó hơn khi app không qua App Store; Notarization chỉ là kiểm tra cơ bản, không thay App Review đầy đủ.", "Người dùng EU mất một phần trải nghiệm “một chạm” — Family Sharing, Ask to Buy, hoàn tiền qua Apple và một số tính năng Screen Time không áp dụng cho app ngoài App Store.", "Người dùng Việt Nam không bị ảnh hưởng trực tiếp, nhưng nên theo dõi vì thay đổi ở EU có thể lan sang luật tương tự hoặc ảnh hưởng giá dịch vụ toàn cầu."]
+title = "Tóm tắt bài viết"
+
+[[external_links]]
+title = "EC — Apple và Meta vi phạm DMA (23/4/2025)"
+url = "https://digital-strategy.ec.europa.eu/en/news/commission-finds-apple-and-meta-breach-digital-markets-act"
+
+[[external_links]]
+title = "Apple Newsroom — Tác động DMA lên người dùng EU"
+url = "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/"
+
+[[external_links]]
+title = "Apple Developer — Hỗ trợ DMA tại EU"
+url = "https://developer.apple.com/support/dma-and-apps-in-the-eu/"
+
+[[external_links]]
+title = "Digital Markets Act — Trang chính thức EC"
+url = "https://digital-markets-act.ec.europa.eu/"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Đánh đổi cho người dùng EU khi iOS mở theo DMA"
+
+[[tom_tat_nhanh]]
+label = "Bối cảnh"
+value = "iOS 17.4+ ở 27 nước EU, phạt anti-steering 500 triệu euro (4/2025)"
+
+[[tom_tat_nhanh]]
+label = "Điểm then chốt"
+value = "Thêm lựa chọn, nhưng giảm lớp bảo vệ tích hợp"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+value = "Người dùng iPhone EU, phụ huynh, ai quan tâm bảo mật hệ sinh thái"
++++
 
 “Mở iOS là tốt cho người dùng” — câu đó xuất hiện liên tục trong thông cáo của European Commission (EC) và các nhóm ủng hộ cạnh tranh. Nhưng nếu bạn hỏi một người dùng iPhone bình thường ở Berlin hay Paris **họ sợ điều gì nhất**, câu trả lời thường không phải “thiếu marketplace thay thế”, mà là **lừa đảo, app giả, mất tiền không lấy lại được**.
 

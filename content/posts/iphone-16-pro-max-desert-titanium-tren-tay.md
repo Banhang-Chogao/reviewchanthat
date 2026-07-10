@@ -1,53 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - iPhone 16 Pro Max nặng 227g, màn 6.9 inch — lớn nhất từng có trên iPhone.
-  - Desert Titanium là màu mới, tone ấm — khác Natural và Blue của đời 15.
-  - Camera Control thay đổi cách chụp một tay so với 15 Pro Max.
-  - Series 8 bài về màu, màn hình, camera, pin và có nên mua 2026.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 09:00:00+07:00'
-description: 'Trên tay iPhone 16 Pro Max Desert Titanium: màu sắc, màn 6.9 inch, Camera
-  Control, 227g và đánh giá tổng thể series màu titan 2024.'
-draft: false
-image: images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Luo Chris
-image_creator_id: '1659104'
-image_creator_url: https://www.pexels.com/@luo-chris-1659104
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-mobile-phone-on-wooden-table-14557519/
-series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 1
-series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
-slug: iphone-16-pro-max-desert-titanium-tren-tay
-tags:
-- iPhone 16 Pro Max
-- Desert Titanium
-- màu titan
-- Camera Control
-- 6.9 inch
-thumbnail: images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp
-title: iPhone 16 Pro Max Desert Titanium trên tay
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Tổng quan iPhone 16 Pro Max Desert Titanium
-- label: Ra mắt
-- label: Trọng lượng
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T09:00:00+07:00"
+description = "Trên tay iPhone 16 Pro Max Desert Titanium: màu sắc, màn 6.9 inch, Camera Control, 227g và đánh giá tổng thể series màu titan 2024."
+draft = false
+image = "images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Luo Chris"
+image_creator_id = "1659104"
+image_creator_url = "https://www.pexels.com/@luo-chris-1659104"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/a-mobile-phone-on-wooden-table-14557519/"
+series = "iphone-16-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 1
+series_title = "iPhone 16 Pro Max màu titan: đánh giá trên tay"
+slug = "iphone-16-pro-max-desert-titanium-tren-tay"
+tags = ["iPhone 16 Pro Max", "Desert Titanium", "màu titan", "Camera Control", "6.9 inch"]
+thumbnail = "images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp"
+title = "iPhone 16 Pro Max Desert Titanium trên tay"
+date_display = "08-07-2026 09:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iPhone 16 Pro Max nặng 227g, màn 6.9 inch — lớn nhất từng có trên iPhone.", "Desert Titanium là màu mới, tone ấm — khác Natural và Blue của đời 15.", "Camera Control thay đổi cách chụp một tay so với 15 Pro Max.", "Series 8 bài về màu, màn hình, camera, pin và có nên mua 2026."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Tổng quan iPhone 16 Pro Max Desert Titanium"
+
+[[tom_tat_nhanh]]
+label = "Ra mắt"
+
+[[tom_tat_nhanh]]
+label = "Trọng lượng"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 iPhone 16 Pro Max là bước **phóng to** có chủ đích: **màn 6.9 inch**, **Camera Control**, chip **A18 Pro** và màu **Desert Titanium** — tone cát sa mạc ấm, khác hoàn toàn palette lạnh của iPhone 15 Pro Max. Nửa 2026, khi giá máy đã hạ nhiệt, đây là lúc đánh giá **lạnh lùng** xem Pro Max 2024 còn hợp người mua Việt Nam không.
 

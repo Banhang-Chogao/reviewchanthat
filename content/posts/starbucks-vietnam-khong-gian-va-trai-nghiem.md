@@ -1,63 +1,60 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Không gian Starbucks Vietnam thiết kế đồng bộ — sáng, nhận diện thương hiệu, bàn
-    ghế cho laptop.
-  - Chi nhánh Nguyễn Văn Trỗi có chỗ ngồi thoải mái, Wi-Fi dùng được, ổ cắm ở vài
-    vị trí.
-  - Giờ cao điểm hơi đông và ồn — sáng sớm hoặc chiều muộn yên hơn cho làm việc.
-  - Starbucks phù hợp làm việc nhóm nhỏ, học bài, hoặc hẹn gặp ngắn hơn là họp kín
-    cần im lặng tuyệt đối.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Trải nghiệm cá nhân tại nhiều chi nhánh TP.HCM.
-  source_note: Tiện ích (Wi-Fi, ổ cắm) có thể khác từng chi nhánh và thời điểm.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- review
-date: '2026-07-08 11:00:00+07:00'
-description: Không gian Starbucks Vietnam — thiết kế, chỗ ngồi làm việc, Wi-Fi, ổ
-  cắm. Review trải nghiệm tại chi nhánh Nguyễn Văn Trỗi Phú Nhuận.
-draft: false
-external_links:
-- title: Starbucks Stories — Store design
-  url: https://stories.starbucks.com/stories/design/
-image: images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp
-image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Jean van der Meulen
-image_creator_id: '642133'
-image_creator_url: https://www.pexels.com/@jvdm
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/people-sitting-inside-room-1457847/
-seo_title: 'Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải'
-series: starbucks-vietnam
-series_order: 5
-series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
-slug: starbucks-vietnam-khong-gian-va-trai-nghiem
-tags:
-- không gian Starbucks
-- làm việc tại quán cà phê
-- Starbucks Nguyễn Văn Trỗi
-- third place
-- Wi-Fi
-thumbnail: images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp
-title: 'Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm "third place"'
-tom_tat_nhanh:
-- label: Thiết kế
-  value: Sáng, đồng bộ thương hiệu
-- label: Làm việc
-- label: Nguyễn Văn Trỗi
-- label: Giờ yên
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["review"]
+date = "2026-07-08T11:00:00+07:00"
+description = "Không gian Starbucks Vietnam — thiết kế, chỗ ngồi làm việc, Wi-Fi, ổ cắm. Review trải nghiệm tại chi nhánh Nguyễn Văn Trỗi Phú Nhuận."
+draft = false
+image = "images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp"
+image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Jean van der Meulen"
+image_creator_id = "642133"
+image_creator_url = "https://www.pexels.com/@jvdm"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/people-sitting-inside-room-1457847/"
+seo_title = "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải"
+series = "starbucks-vietnam"
+series_order = 5
+series_title = "Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế"
+slug = "starbucks-vietnam-khong-gian-va-trai-nghiem"
+tags = ["không gian Starbucks", "làm việc tại quán cà phê", "Starbucks Nguyễn Văn Trỗi", "third place", "Wi-Fi"]
+thumbnail = "images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp"
+title = "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\""
+date_display = "08-07-2026 11:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Không gian Starbucks Vietnam thiết kế đồng bộ — sáng, nhận diện thương hiệu, bàn ghế cho laptop.", "Chi nhánh Nguyễn Văn Trỗi có chỗ ngồi thoải mái, Wi-Fi dùng được, ổ cắm ở vài vị trí.", "Giờ cao điểm hơi đông và ồn — sáng sớm hoặc chiều muộn yên hơn cho làm việc.", "Starbucks phù hợp làm việc nhóm nhỏ, học bài, hoặc hẹn gặp ngắn hơn là họp kín cần im lặng tuyệt đối."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Trải nghiệm cá nhân tại nhiều chi nhánh TP.HCM."
+source_note = "Tiện ích (Wi-Fi, ổ cắm) có thể khác từng chi nhánh và thời điểm."
+
+[[external_links]]
+title = "Starbucks Stories — Store design"
+url = "https://stories.starbucks.com/stories/design/"
+
+[[tom_tat_nhanh]]
+label = "Thiết kế"
+value = "Sáng, đồng bộ thương hiệu"
+
+[[tom_tat_nhanh]]
+label = "Làm việc"
+
+[[tom_tat_nhanh]]
+label = "Nguyễn Văn Trỗi"
+
+[[tom_tat_nhanh]]
+label = "Giờ yên"
++++
 
 Starbucks bán cà phê — nhưng rất nhiều khách trả tiền cho **chỗ ngồi**. Không gian là lý do người ta ở lại ba tiếng với một ly, mở laptop làm việc, hoặc hẹn bạn đọc sách. Bài này mô tả **không gian và trải nghiệm Starbucks Vietnam**, tập trung chi nhánh **Nguyễn Văn Trỗi** mà mình dùng như "văn phòng phụ" khá thường xuyên.
 

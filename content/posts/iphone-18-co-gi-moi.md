@@ -1,64 +1,65 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple chưa công bố iPhone 18; bài tổng hợp tin đồn từ MacRumors, AppleInsider
-    và analyst.
-  - 'Kỳ vọng: iPhone 18 Pro/Pro Max/Fold tháng 9/2026; iPhone 18/18e có thể đến đầu
-    2027.'
-  - 'Tin đồn nổi bật: chip A20 2nm, Dynamic Island nhỏ hơn, camera khẩu độ biến đổi,
-    modem C2.'
-  - Series 11 bài — từ lịch ra mắt, Pro Max, giá, màu sắc đến có nên chờ hay mua iPhone
-    17.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 06:00:00+07:00'
-description: Tổng hợp tin đồn iPhone 18 trước mùa ra mắt — lịch tách đợt, A20 2nm,
-  iPhone Fold, camera, giá và checklist mua máy cho người dùng Việt Nam.
-draft: false
-external_links:
-- title: MacRumors — iPhone 18 roundup
-  url: https://www.macrumors.com/roundup/iphone-18/
-- title: MacRumors — iPhone 18 Pro roundup
-- title: MacRumors — iPhone Fold roundup
-- title: AppleInsider — iPhone 18 expectations (Jan 2026)
-image: images/posts/iphone-18-co-gi-moi.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Mariano Ruffa
-image_creator_id: '45855'
-image_creator_url: https://www.pexels.com/@mariano-ruffa-45855
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-169400/
-seo_title: iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra
-series: iphone-18-co-gi-moi
-series_order: 1
-series_title: iPhone 18 có gì mới
-slug: iphone-18-co-gi-moi
-tags:
-- iPhone 18
-- iPhone 18 có gì mới
-- tin đồn iPhone
-- Apple
-- iPhone Fold
-thumbnail: images/posts/iphone-18-co-gi-moi.webp
-title: iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Tổng quan tin đồn iPhone 18
-- label: Trạng thái
-- label: Timeline đồn
-- label: Series
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T06:00:00+07:00"
+description = "Tổng hợp tin đồn iPhone 18 trước mùa ra mắt — lịch tách đợt, A20 2nm, iPhone Fold, camera, giá và checklist mua máy cho người dùng Việt Nam."
+draft = false
+image = "images/posts/iphone-18-co-gi-moi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Mariano Ruffa"
+image_creator_id = "45855"
+image_creator_url = "https://www.pexels.com/@mariano-ruffa-45855"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-169400/"
+seo_title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra"
+series = "iphone-18-co-gi-moi"
+series_order = 1
+series_title = "iPhone 18 có gì mới"
+slug = "iphone-18-co-gi-moi"
+tags = ["iPhone 18", "iPhone 18 có gì mới", "tin đồn iPhone", "Apple", "iPhone Fold"]
+thumbnail = "images/posts/iphone-18-co-gi-moi.webp"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+date_display = "08-07-2026 06:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple chưa công bố iPhone 18; bài tổng hợp tin đồn từ MacRumors, AppleInsider và analyst.", "Kỳ vọng: iPhone 18 Pro/Pro Max/Fold tháng 9/2026; iPhone 18/18e có thể đến đầu 2027.", "Tin đồn nổi bật: chip A20 2nm, Dynamic Island nhỏ hơn, camera khẩu độ biến đổi, modem C2.", "Series 11 bài — từ lịch ra mắt, Pro Max, giá, màu sắc đến có nên chờ hay mua iPhone 17."]
+title = "Tóm tắt bài viết"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 roundup"
+url = "https://www.macrumors.com/roundup/iphone-18/"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro roundup"
+
+[[external_links]]
+title = "MacRumors — iPhone Fold roundup"
+
+[[external_links]]
+title = "AppleInsider — iPhone 18 expectations (Jan 2026)"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Tổng quan tin đồn iPhone 18"
+
+[[tom_tat_nhanh]]
+label = "Trạng thái"
+
+[[tom_tat_nhanh]]
+label = "Timeline đồn"
+
+[[tom_tat_nhanh]]
+label = "Series"
++++
 
 Mỗi mùa thu, cộng đồng iPhone lại hỏi: **thế hệ mới có đáng chờ không?** Với **iPhone 18**, câu hỏi phức tạp hơn vì Apple được đồn sẽ **tách lịch ra mắt** — Pro và Fold trước, bản tiêu chuẩn sau. Apple **chưa xác nhận** bất kỳ chi tiết nào; bài này là bản đồ tin đồn có nguồn để bạn đọc trước khi quyết định mua hay chờ.
 

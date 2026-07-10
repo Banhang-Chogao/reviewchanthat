@@ -1,59 +1,44 @@
----
-ai_summary:
-  collapsed: false
-  disclaimer: Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + GitHub Pages; mỗi
-    repo cần điều chỉnh policy theo rủi ro riêng.
-  enabled: true
-  items:
-  - Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).
-  - 'Nhiều failure không phải bug code: runner queue, platform incident, rate limit,
-    Pages CDN lag.'
-  - 'Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng
-    feature không.'
-  title: Tóm tắt nhanh
-author: Minh Hoàng
-categories:
-- cong-nghe
-date: '2026-07-10 04:10:00+07:00'
-description: '| Code | Safety | Mô tả | |------|--------|--------| | runnercapacitydelay
-  | unsafe | GitHub-hosted runner thiếu capacity; job chờ lâu trước khi start | |'
-draft: false
-image: images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp
-image_alt: 'Ảnh minh họa Runner capacity delay và platform incident: khi job đỏ không
-  phải vì bug code — nguồn Pixabay'
-image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
-image_attribution_source: pixabay_manifest
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: HeckiMG
-image_creator_id: ''
-image_creator_url: https://pixabay.com/photos/wooden-bench-seat-sea-ocean-water-7110299/
-image_license: Pixabay Content License
-image_license_url: https://pixabay.com/service/license-summary/
-image_owner: external
-image_provider: pixabay
-image_query: runner capacity delay platform incident
-image_source: Pixabay
-image_source_url: https://pixabay.com/photos/wooden-bench-seat-sea-ocean-water-7110299/
-image_status: verified
-related_posts:
-- ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
-- github-api-va-pages-rate-limit-cach-doc-va-giam-tai
-- live-deploy-khong-phan-anh-va-pages-serving-old-artifact
-seo_title: 'Runner capacity delay và platform incident: khi job đỏ không'
-series: ci-cd-root-cause-lessons
-series_order: 2
-series_title: CI/CD Root Cause Lessons
-slug: github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code
-tags:
-- GitHub Actions
-- runner
-- platform incident
-- CI/CD
-- unsafe
-thumbnail: images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp
-title: 'Runner capacity delay và platform incident: khi job đỏ không phải vì bug code'
----
++++
+author = "Minh Hoàng"
+categories = ["cong-nghe"]
+date = "2026-07-10T04:10:00+07:00"
+description = "| Code | Safety | Mô tả | |------|--------|--------| | runnercapacitydelay | unsafe | GitHub-hosted runner thiếu capacity; job chờ lâu trước khi start | |"
+draft = false
+image = "images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp"
+image_alt = "Ảnh minh họa Runner capacity delay và platform incident: khi job đỏ không phải vì bug code — nguồn Pixabay"
+image_attribution_checked_at = "2026-07-10T14:01:38+07:00"
+image_attribution_source = "pixabay_manifest"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "HeckiMG"
+image_creator_id = ""
+image_creator_url = "https://pixabay.com/photos/wooden-bench-seat-sea-ocean-water-7110299/"
+image_license = "Pixabay Content License"
+image_license_url = "https://pixabay.com/service/license-summary/"
+image_owner = "external"
+image_provider = "pixabay"
+image_query = "runner capacity delay platform incident"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/wooden-bench-seat-sea-ocean-water-7110299/"
+image_status = "verified"
+related_posts = ["ci-cd-root-cause-playbook-safe-vs-unsafe-autofix", "github-api-va-pages-rate-limit-cach-doc-va-giam-tai", "live-deploy-khong-phan-anh-va-pages-serving-old-artifact"]
+seo_title = "Runner capacity delay và platform incident: khi job đỏ không"
+series = "ci-cd-root-cause-lessons"
+series_order = 2
+series_title = "CI/CD Root Cause Lessons"
+slug = "github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code"
+tags = ["GitHub Actions", "runner", "platform incident", "CI/CD", "unsafe"]
+thumbnail = "images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp"
+title = "Runner capacity delay và platform incident: khi job đỏ không phải vì bug code"
+date_display = "10-07-2026 04:10:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + GitHub Pages; mỗi repo cần điều chỉnh policy theo rủi ro riêng."
+enabled = true
+items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
+title = "Tóm tắt nhanh"
++++
 
 ## Root cause
 

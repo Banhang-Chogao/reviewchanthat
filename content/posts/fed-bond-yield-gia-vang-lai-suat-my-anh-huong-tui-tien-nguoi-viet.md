@@ -1,6 +1,6 @@
 +++
 title = "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?"
-date = "2026-07-10 03:30:00+07:00"
+date = "2026-07-10T03:30:00+07:00"
 categories = ["tai-chinh"]
 tags = ["Fed", "lãi suất", "giá vàng", "bond yield", "kinh tế Mỹ", "kinh tế Việt Nam", "tỷ giá"]
 author = "Minh Hoàng"
@@ -17,27 +17,17 @@ image_attribution_source = "pexels_api"
 image_attribution_verified = true
 seo_title = "Fed, lãi suất, giá vàng và ảnh hưởng đến nền kinh tế Việt Nam 2026"
 description = "Hiểu Fed, lãi suất Mỹ, bond yield và giá vàng: cơ chế hoạt động, mối quan hệ, và tác động trực tiếp đến người Việt tiết kiệm, vay tiền, và đầu tư."
+date_display = "10-07-2026 03:30:00 GMT +7"
 
 [custom_image_queries]
-queries = [
-  "US Federal Reserve building finance",
-  "gold bars precious metals",
-  "bond market trading finance",
-  "US dollar currency exchange",
-  "interest rates economics chart"
-]
+queries = ["US Federal Reserve building finance", "gold bars precious metals", "bond market trading finance", "US dollar currency exchange", "interest rates economics chart"]
 
 [ai_summary]
 enabled = true
 title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết giáo dục về Fed, lãi suất, giá vàng và tác động kinh tế; không phải tư vấn tài chính hay đầu tư. Luôn tìm tư vấn từ chuyên gia trước khi quyết định."
-items = [
-  "Fed (Cục Dự trữ Liên bang Mỹ) kiểm soát lãi suất cơ bản Mỹ; khi Fed tăng lãi → lãi suất toàn cầu tăng, đô la Mỹ mạnh, tài sản rủi cao bị bán (cổ phiếu, crypto).",
-  "Bond yield (lợi suất trái phiếu): khi lãi suất Fed tăng → bond yield tăng → rủi ro trái phiếu cũ giảm → nhà đầu tư bán cổ phiếu để mua bond an toàn.",
-  "Giá vàng và lãi suất có mối quan hệ ngược: lãi suất Fed tăng → vàng giảm (vì giữ tiền mặt lãi suất cao hơn giữ vàng không sinh lãi).",
-  "Ảnh hưởng Việt Nam: Fed tăng lãi → tỷ giá USD/VND tăng → chi phí import tăng → lạm phát Việt Nam tăng → SBV phải tăng lãi suất theo."
-]
+items = ["Fed (Cục Dự trữ Liên bang Mỹ) kiểm soát lãi suất cơ bản Mỹ; khi Fed tăng lãi → lãi suất toàn cầu tăng, đô la Mỹ mạnh, tài sản rủi cao bị bán (cổ phiếu, crypto).", "Bond yield (lợi suất trái phiếu): khi lãi suất Fed tăng → bond yield tăng → rủi ro trái phiếu cũ giảm → nhà đầu tư bán cổ phiếu để mua bond an toàn.", "Giá vàng và lãi suất có mối quan hệ ngược: lãi suất Fed tăng → vàng giảm (vì giữ tiền mặt lãi suất cao hơn giữ vàng không sinh lãi).", "Ảnh hưởng Việt Nam: Fed tăng lãi → tỷ giá USD/VND tăng → chi phí import tăng → lạm phát Việt Nam tăng → SBV phải tăng lãi suất theo."]
 image_commercial_use = true
 image_owner = "external"
 image_creator_id = ""

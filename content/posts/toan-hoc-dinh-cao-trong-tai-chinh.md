@@ -11,17 +11,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 15
 image = "images/posts/toan-hoc-dinh-cao-trong-tai-chinh.webp"
 image_alt = "Ảnh minh họa Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài — nguồn Pexels"
+date_display = "10-07-2026 12:45:00 GMT +7"
+lastmod_display = "10-07-2026 12:45:00 GMT +7"
 
 [ai_summary]
-items = [
-  "Bài 1 (Pillar Gốc): e^(rt) - compound interest, discount factor e^(-rt)",
-  "Bài 2-3: log-return, portfolio theory, Sharpe ratio, CAPM, beta",
-  "Bài 4-6: Insurance (S(t)=e^(-λt)), CFA, FRM, VaR, CVaR",
-  "Bài 7-9: Investment Banks (Greeks), BlackRock (Aladdin, factors), Renaissance (patterns)",
-  "Bài 10-13: Stock valuation (DCF, P/E), Black-Scholes, Risk Mgmt, Monte Carlo",
-  "Bài 14-15: AI (deep learning, NLP, RL), tổng kết & tương lai",
-  "Chiều sâu: Từ e^(-rt) (đơn giản) đến Transformer (phức tạp)"
-]
+items = ["Bài 1 (Pillar Gốc): e^(rt) - compound interest, discount factor e^(-rt)", "Bài 2-3: log-return, portfolio theory, Sharpe ratio, CAPM, beta", "Bài 4-6: Insurance (S(t)=e^(-λt)), CFA, FRM, VaR, CVaR", "Bài 7-9: Investment Banks (Greeks), BlackRock (Aladdin, factors), Renaissance (patterns)", "Bài 10-13: Stock valuation (DCF, P/E), Black-Scholes, Risk Mgmt, Monte Carlo", "Bài 14-15: AI (deep learning, NLP, RL), tổng kết & tương lai", "Chiều sâu: Từ e^(-rt) (đơn giản) đến Transformer (phức tạp)"]
 thumbnail = "images/posts/toan-hoc-dinh-cao-trong-tai-chinh.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/graphic-illustration-of-an-atm-6289062/"

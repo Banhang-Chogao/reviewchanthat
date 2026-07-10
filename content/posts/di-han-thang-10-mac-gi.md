@@ -1,83 +1,99 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Tháng 10 Hàn Quốc mát, chênh lệch ngày–đêm lớn — cần phối đồ nhiều lớp (layering)
-    thay vì một áo dày.
-  - Seoul ban ngày 15–20°C, sáng sớm và tối có thể dưới 10°C; leo núi cần thêm áo
-    ấm.
-  - Màu trung tính (be, nâu, đen, xám) dễ phối với cảnh lá đỏ–vàng; giày đi bộ thoải
-    mái là ưu tiên.
-  - Mang ô gấp, khăn cổ, áo khoác gió — giá đồ thời trang Hàn có thể thay đổi theo
-    mùa, ngày đi và tỷ giá.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 09:00:00+07:00'
-description: Đi Hàn tháng 10 mặc gì? Checklist phối đồ nhiều lớp, màu sắc hợp mùa
-  thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan.
-draft: false
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: Korea Meteorological Administration
-- title: KoreaToDo — Autumn Foliage Sites
-faq:
-- answer: Áo thun dài tay + áo len mỏng + áo khoác gió. Cuối tháng 10 thêm áo phao
-    mỏng hoặc áo len dày hơn.
-  question: Tháng 10 đi Seoul mặc gì?
-- answer: Có. Sáng sớm và tối ở Seoul có thể dưới 10°C; trên núi lạnh hơn 5–10°C so
-    với thành phố.
-- answer: Giày sneaker đế bằng, thoải mái đi bộ 15.000–20.000 bước/ngày. Leo núi nên
-    giày trekking nhẹ.
-image: images/posts/di-han-thang-10-mac-gi.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: energepic.com
-image_creator_id: '27411'
-image_creator_url: https://www.pexels.com/@energepic-com-27411
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-175039/
-internal_links:
-- ref: posts/di-han-thang-10-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-10.md
-- ref: posts/han-quoc-thang-10-co-la-do-chua.md
-- ref: posts/seoul-thang-10-nen-di-dau.md
-- ref: posts/nami-thang-10-co-dang-di-khong.md
-- ref: posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-- ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
-series: di-han-thang-10
-series_order: 4
-series_title: Đi Hàn tháng 10
-slug: di-han-thang-10-mac-gi
-tags:
-- mặc gì đi Hàn tháng 10
-- phối đồ mùa thu
-- du lịch Hàn Quốc
-- series du lịch
-thumbnail: images/posts/di-han-thang-10-mac-gi.webp
-title: Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm
-tom_tat_nhanh:
-- label: Nguyên tắc
-  value: Phối nhiều lớp (layering)
-- label: Nhiệt độ tham khảo
-- label: Màu gợi ý
-- label: Ưu tiên
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T09:00:00+07:00"
+description = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ nhiều lớp, màu sắc hợp mùa thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan."
+draft = false
+image = "images/posts/di-han-thang-10-mac-gi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "energepic.com"
+image_creator_id = "27411"
+image_creator_url = "https://www.pexels.com/@energepic-com-27411"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-175039/"
+series = "di-han-thang-10"
+series_order = 4
+series_title = "Đi Hàn tháng 10"
+slug = "di-han-thang-10-mac-gi"
+tags = ["mặc gì đi Hàn tháng 10", "phối đồ mùa thu", "du lịch Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/di-han-thang-10-mac-gi.webp"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+date_display = "08-07-2026 09:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Tháng 10 Hàn Quốc mát, chênh lệch ngày–đêm lớn — cần phối đồ nhiều lớp (layering) thay vì một áo dày.", "Seoul ban ngày 15–20°C, sáng sớm và tối có thể dưới 10°C; leo núi cần thêm áo ấm.", "Màu trung tính (be, nâu, đen, xám) dễ phối với cảnh lá đỏ–vàng; giày đi bộ thoải mái là ưu tiên.", "Mang ô gấp, khăn cổ, áo khoác gió — giá đồ thời trang Hàn có thể thay đổi theo mùa, ngày đi và tỷ giá."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "Korea Meteorological Administration"
+
+[[external_links]]
+title = "KoreaToDo — Autumn Foliage Sites"
+
+[[faq]]
+answer = "Áo thun dài tay + áo len mỏng + áo khoác gió. Cuối tháng 10 thêm áo phao mỏng hoặc áo len dày hơn."
+question = "Tháng 10 đi Seoul mặc gì?"
+
+[[faq]]
+answer = "Có. Sáng sớm và tối ở Seoul có thể dưới 10°C; trên núi lạnh hơn 5–10°C so với thành phố."
+
+[[faq]]
+answer = "Giày sneaker đế bằng, thoải mái đi bộ 15.000–20.000 bước/ngày. Leo núi nên giày trekking nhẹ."
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-10-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/nami-thang-10-co-dang-di-khong.md"
+
+[[internal_links]]
+ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+
+[[tom_tat_nhanh]]
+label = "Nguyên tắc"
+value = "Phối nhiều lớp (layering)"
+
+[[tom_tat_nhanh]]
+label = "Nhiệt độ tham khảo"
+
+[[tom_tat_nhanh]]
+label = "Màu gợi ý"
+
+[[tom_tat_nhanh]]
+label = "Ưu tiên"
++++
 
 Tháng 10 ở Hàn Quốc không lạnh như mùa đông, nhưng cũng không ấm như mùa hè. Nhiệt độ thay đổi nhanh trong ngày — trưa có thể 18–20°C, tối xuống 8–10°C. Nếu chỉ mang một chiếc áo khoác dày, ban ngày sẽ nóng; nếu chỉ mặc áo mỏng, tối sẽ lạnh.
 

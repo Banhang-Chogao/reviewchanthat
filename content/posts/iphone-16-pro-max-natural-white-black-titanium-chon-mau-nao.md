@@ -1,53 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'Ba màu trung tính trên 16 Pro Max: Natural, White, Black Titanium.'
-  - Black che vết trầy tốt; White đẹp nhưng nhạy ố viền; Natural cân bằng resale.
-  - Desert Titanium là lựa chọn thứ tư — ấm và khác biệt.
-  - Chọn theo ốp lưng, thói quen lau máy và mục đích mua cũ/mới.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 09:40:00+07:00'
-description: So sánh Natural, White và Black Titanium trên iPhone 16 Pro Max — chọn
-  màu theo thói quen, độ bều và giá máy cũ 2026.
-draft: false
-image: images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: www.kaboompics.com
-image_creator_id: '2332540'
-image_creator_url: https://www.pexels.com/@karola-g
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-mobile-phone-near-the-notebook-with-green-leaves-on-a-wooden-table-8092450/
-seo_title: 'iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu'
-series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 3
-series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
-slug: iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao
-tags:
-- iPhone 16 Pro Max
-- Natural Titanium
-- Black Titanium
-- White Titanium
-thumbnail: images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp
-title: 'iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?'
-tom_tat_nhanh:
-- label: Ba màu
-  value: Natural, White, Black Titanium
-- label: An toàn nhất
-- label: Sáng nhất
-- label: Đặc biệt
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T09:40:00+07:00"
+description = "So sánh Natural, White và Black Titanium trên iPhone 16 Pro Max — chọn màu theo thói quen, độ bều và giá máy cũ 2026."
+draft = false
+image = "images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "www.kaboompics.com"
+image_creator_id = "2332540"
+image_creator_url = "https://www.pexels.com/@karola-g"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/a-mobile-phone-near-the-notebook-with-green-leaves-on-a-wooden-table-8092450/"
+seo_title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu"
+series = "iphone-16-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 3
+series_title = "iPhone 16 Pro Max màu titan: đánh giá trên tay"
+slug = "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao"
+tags = ["iPhone 16 Pro Max", "Natural Titanium", "Black Titanium", "White Titanium"]
+thumbnail = "images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp"
+title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
+date_display = "08-07-2026 09:40:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Ba màu trung tính trên 16 Pro Max: Natural, White, Black Titanium.", "Black che vết trầy tốt; White đẹp nhưng nhạy ố viền; Natural cân bằng resale.", "Desert Titanium là lựa chọn thứ tư — ấm và khác biệt.", "Chọn theo ốp lưng, thói quen lau máy và mục đích mua cũ/mới."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Ba màu"
+value = "Natural, White, Black Titanium"
+
+[[tom_tat_nhanh]]
+label = "An toàn nhất"
+
+[[tom_tat_nhanh]]
+label = "Sáng nhất"
+
+[[tom_tat_nhanh]]
+label = "Đặc biệt"
++++
 
 Không chọn Desert? Ba màu **Natural, White, Black** trên iPhone 16 Pro Max là **tam giác an toàn** — nhưng “an toàn” không có nghĩa **giống nhau**. Mỗi màu **lão hóa khác nhau** trên khung titan, và thị trường máy cũ 2026 **định giá khác nhau**.
 

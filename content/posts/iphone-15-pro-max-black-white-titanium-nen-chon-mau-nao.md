@@ -1,52 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Black Titanium hướng tối, White Titanium hướng sáng — cùng chất liệu titan.
-  - Black thường che vết trầy góc tốt hơn; White nổi bật nhưng dễ lộ ố vàng viền.
-  - Giá máy cũ phụ thuộc tình trạng viền — White cần kiểm tra kỹ hơn.
-  - Chọn theo thói quen ốp lưng và màu phụ kiện bạn đang dùng.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 12:00:00+07:00'
-description: 'So sánh Black Titanium và White Titanium trên iPhone 15 Pro Max: độ
-  bều màu, vết trầy, giá máy cũ và gợi ý chọn theo nhu cầu năm 2026.'
-draft: false
-image: images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Imad Clicks
-image_creator_id: '2304239'
-image_creator_url: https://www.pexels.com/@imadclicks
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/elegant-smartphone-beside-potted-plants-on-desk-30466740/
-series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 4
-series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
-slug: iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao
-tags:
-- iPhone 15 Pro Max
-- Black Titanium
-- White Titanium
-- chọn màu
-thumbnail: images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp
-title: 'iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?'
-tom_tat_nhanh:
-- label: So sánh
-  value: Black Titanium vs White Titanium
-- label: Black
-- label: White
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T12:00:00+07:00"
+description = "So sánh Black Titanium và White Titanium trên iPhone 15 Pro Max: độ bều màu, vết trầy, giá máy cũ và gợi ý chọn theo nhu cầu năm 2026."
+draft = false
+image = "images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Imad Clicks"
+image_creator_id = "2304239"
+image_creator_url = "https://www.pexels.com/@imadclicks"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/elegant-smartphone-beside-potted-plants-on-desk-30466740/"
+series = "iphone-15-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 4
+series_title = "iPhone 15 Pro Max màu titan: đánh giá trên tay"
+slug = "iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao"
+tags = ["iPhone 15 Pro Max", "Black Titanium", "White Titanium", "chọn màu"]
+thumbnail = "images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp"
+title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
+date_display = "08-07-2026 12:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Black Titanium hướng tối, White Titanium hướng sáng — cùng chất liệu titan.", "Black thường che vết trầy góc tốt hơn; White nổi bật nhưng dễ lộ ố vàng viền.", "Giá máy cũ phụ thuộc tình trạng viền — White cần kiểm tra kỹ hơn.", "Chọn theo thói quen ốp lưng và màu phụ kiện bạn đang dùng."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "So sánh"
+value = "Black Titanium vs White Titanium"
+
+[[tom_tat_nhanh]]
+label = "Black"
+
+[[tom_tat_nhanh]]
+label = "White"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 **Black Titanium** và **White Titanium** là hai cực **tối — sáng** trong bốn màu iPhone 15 Pro Max. Cả hai đều “an toàn” hơn Blue về chuyện phai lạ, nhưng **cách lộ vết thời gian** khác nhau hẳn. Bài này giúp bạn chốt một màu thay vì đổi ý sau một tuần.
 

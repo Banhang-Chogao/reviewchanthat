@@ -1,72 +1,61 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Airport Rail Link từ Suvarnabhumi về Phaya Thai giá 45 THB, mất 26–30 phút, rẻ
-    và nhanh nhất nếu hành lý gọn và không đi sáng sớm/tối muộn.
-  - Taxi từ sân bay về trung tâm giá 250–500 THB + toll road 50–70 THB + phụ phí sân
-    bay 50 THB — phù hợp nhóm 2–4 người hoặc có vali lớn.
-  - Grab/Bolt giá 400–800 THB tùy thời điểm, tiện nhưng đắt hơn taxi truyền thống
-    khi không có khuyến mãi.
-  - Nếu đi mùa mưa, taxi hoặc Grab là lựa chọn an toàn hơn ARL vì không phải lội mưa
-    từ ga về khách sạn.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.bangkokairportonline.com/bangkok-airport-rail-link/,
-    https://www.grab.com/th, https://www.bts.co.th/eng/tickets/ticket-rabbit-farerate.html.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: 'Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link,
-  BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa
-  mưa.'
-draft: false
-image: images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp
-image_alt: 'Ảnh minh họa Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi,
-  Grab nên chọn gì? — nguồn Pixabay'
-image_attribution_checked_at: '2026-07-10T14:01:43+07:00'
-image_attribution_error: Provider/source page did not expose verified creator metadata
-image_attribution_source: not_found
-image_attribution_verified: false
-image_commercial_use: true
-image_creator: ''
-image_creator_id: ''
-image_creator_url: ''
-image_license: Pixabay Content License
-image_license_url: ''
-image_owner: external
-image_provider: pixabay
-image_query: sân bay suvarnabhumi trung tâm
-image_source: Pixabay
-image_source_url: https://pixabay.com/photos/architecture-bridge-buildings-city-1854220/
-image_status: verified
-seo_title: 'Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS'
-series:
-- du-lich-thai-lan-mua-mua
-series_order: 10
-series_title: Du lịch Thái Lan mùa mưa
-slug: suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab
-tags:
-- Suvarnabhumi
-- Airport Rail Link
-- Bangkok taxi
-- đi Bangkok mùa mưa
-- Grab Bangkok
-thumbnail: images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp
-title: 'Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn
-  gì?'
-tom_tat_nhanh:
-- label: ARL
-  value: 15–45 THB, 30 phút
-- label: Taxi
-- label: Grab
-- label: Nên chọn
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link, BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa mưa."
+draft = false
+image = "images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp"
+image_alt = "Ảnh minh họa Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì? — nguồn Pixabay"
+image_attribution_checked_at = "2026-07-10T14:01:43+07:00"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_source = "not_found"
+image_attribution_verified = false
+image_commercial_use = true
+image_creator = ""
+image_creator_id = ""
+image_creator_url = ""
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_owner = "external"
+image_provider = "pixabay"
+image_query = "sân bay suvarnabhumi trung tâm"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/architecture-bridge-buildings-city-1854220/"
+image_status = "verified"
+seo_title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS"
+series = ["du-lich-thai-lan-mua-mua"]
+series_order = 10
+series_title = "Du lịch Thái Lan mùa mưa"
+slug = "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab"
+tags = ["Suvarnabhumi", "Airport Rail Link", "Bangkok taxi", "đi Bangkok mùa mưa", "Grab Bangkok"]
+thumbnail = "images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp"
+title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Airport Rail Link từ Suvarnabhumi về Phaya Thai giá 45 THB, mất 26–30 phút, rẻ và nhanh nhất nếu hành lý gọn và không đi sáng sớm/tối muộn.", "Taxi từ sân bay về trung tâm giá 250–500 THB + toll road 50–70 THB + phụ phí sân bay 50 THB — phù hợp nhóm 2–4 người hoặc có vali lớn.", "Grab/Bolt giá 400–800 THB tùy thời điểm, tiện nhưng đắt hơn taxi truyền thống khi không có khuyến mãi.", "Nếu đi mùa mưa, taxi hoặc Grab là lựa chọn an toàn hơn ARL vì không phải lội mưa từ ga về khách sạn."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.bangkokairportonline.com/bangkok-airport-rail-link/, https://www.grab.com/th, https://www.bts.co.th/eng/tickets/ticket-rabbit-farerate.html."
+
+[[tom_tat_nhanh]]
+label = "ARL"
+value = "15–45 THB, 30 phút"
+
+[[tom_tat_nhanh]]
+label = "Taxi"
+
+[[tom_tat_nhanh]]
+label = "Grab"
+
+[[tom_tat_nhanh]]
+label = "Nên chọn"
++++
 
 ## Từ sân bay Suvarnabhumi về trung tâm Bangkok
 

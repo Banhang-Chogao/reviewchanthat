@@ -1,58 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple preview iOS 27 tại WWDC26 (8/6/2026) với Siri AI, Apple Intelligence thế
-    hệ mới và cải thiện hiệu năng hệ thống.
-  - 'Theo Apple: app mở nhanh hơn tới 30%, ảnh mới load nhanh hơn tới 70% và AirDrop
-    nhanh hơn tới 80%.'
-  - iOS 27 hỗ trợ iPhone 11 trở lên; Apple Intelligence yêu cầu iPhone 16+ hoặc iPhone
-    15 Pro/Pro Max.
-  - Series gồm 9 bài về tương thích, AI, pin, camera, beta và checklist nâng cấp cho
-    người dùng Việt Nam.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 08:00:00+07:00'
-description: 'Tổng quan iOS 27 sau WWDC26: Siri AI, Apple Intelligence, hiệu năng,
-  quyền riêng tư và timeline beta/public cho người dùng iPhone tại Việt Nam.'
-draft: false
-image: images/posts/ios-27-co-gi-moi.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Negative Space
-image_creator_id: '3738'
-image_creator_url: https://www.pexels.com/@negativespace
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/white-apple-iphone-on-wooden-table-48605/
-series: ios-27-co-gi-moi
-series_order: 1
-series_title: iOS 27 có gì mới
-slug: ios-27-co-gi-moi
-tags:
-- iOS 27
-- iOS 27 có gì mới
-- Siri AI
-- Apple Intelligence
-- iPhone
-- WWDC26
-thumbnail: images/posts/ios-27-co-gi-moi.webp
-title: iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Tổng quan iOS 27 cho iPhone
-- label: Ra mắt
-- label: Điểm nổi bật
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T08:00:00+07:00"
+description = "Tổng quan iOS 27 sau WWDC26: Siri AI, Apple Intelligence, hiệu năng, quyền riêng tư và timeline beta/public cho người dùng iPhone tại Việt Nam."
+draft = false
+image = "images/posts/ios-27-co-gi-moi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Negative Space"
+image_creator_id = "3738"
+image_creator_url = "https://www.pexels.com/@negativespace"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/white-apple-iphone-on-wooden-table-48605/"
+series = "ios-27-co-gi-moi"
+series_order = 1
+series_title = "iOS 27 có gì mới"
+slug = "ios-27-co-gi-moi"
+tags = ["iOS 27", "iOS 27 có gì mới", "Siri AI", "Apple Intelligence", "iPhone", "WWDC26"]
+thumbnail = "images/posts/ios-27-co-gi-moi.webp"
+title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
+date_display = "08-07-2026 08:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple preview iOS 27 tại WWDC26 (8/6/2026) với Siri AI, Apple Intelligence thế hệ mới và cải thiện hiệu năng hệ thống.", "Theo Apple: app mở nhanh hơn tới 30%, ảnh mới load nhanh hơn tới 70% và AirDrop nhanh hơn tới 80%.", "iOS 27 hỗ trợ iPhone 11 trở lên; Apple Intelligence yêu cầu iPhone 16+ hoặc iPhone 15 Pro/Pro Max.", "Series gồm 9 bài về tương thích, AI, pin, camera, beta và checklist nâng cấp cho người dùng Việt Nam."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Tổng quan iOS 27 cho iPhone"
+
+[[tom_tat_nhanh]]
+label = "Ra mắt"
+
+[[tom_tat_nhanh]]
+label = "Điểm nổi bật"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Mỗi năm sau WWDC, group iPhone Việt Nam lại hỏi cùng một câu: **có đáng lên iOS mới không, hay cứ ở bản cũ cho yên ổn?** Năm nay câu hỏi gay cấn hơn vì Apple không chỉ vá lỗi — họ đặt cược lớn vào **Siri AI**, **Apple Intelligence thế hệ hai** và lớp thiết kế **Liquid Glass** đã gây tranh cãi từ iOS 26.
 

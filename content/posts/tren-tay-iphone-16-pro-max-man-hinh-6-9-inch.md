@@ -1,53 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Màn 6.9 inch trên iPhone 16 Pro Max là điểm khác biệt lớn so với 15 Pro Max (6.7
-    inch).
-  - 227g — nặng hơn 6g nhưng diện tích hiển thị tăng đáng kể.
-  - Hợp người đọc nhiều, xem phim, edit video trên máy.
-  - Tay nhỏ hoặc hay cầm một tay nên cầm thử trước khi mua.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 10:00:00+07:00'
-description: 'Trải nghiệm màn 6.9 inch trên iPhone 16 Pro Max: kích thước, một tay,
-  so với 6.7 inch 15 Pro Max và ai nên chọn màn lớn nhất.'
-draft: false
-image: images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp
-image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Caleb Oquendo
-image_creator_id: '583126'
-image_creator_url: https://www.pexels.com/@caleboquendo
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/sleek-smartphone-on-wooden-table-indoors-34602867/
-series: iphone-16-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 4
-series_title: 'iPhone 16 Pro Max màu titan: đánh giá trên tay'
-slug: tren-tay-iphone-16-pro-max-man-hinh-6-9-inch
-tags:
-- iPhone 16 Pro Max
-- màn hình 6.9 inch
-- trên tay
-- Super Retina
-thumbnail: images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp
-title: Trên tay iPhone 16 Pro Max màn hình 6.9 inch
-tom_tat_nhanh:
-- label: Màn hình
-  value: 6.9 inch — lớn nhất iPhone
-- label: Trọng lượng
-- label: Lợi ích
-- label: Cân nhắc
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Trải nghiệm màn 6.9 inch trên iPhone 16 Pro Max: kích thước, một tay, so với 6.7 inch 15 Pro Max và ai nên chọn màn lớn nhất."
+draft = false
+image = "images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp"
+image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Caleb Oquendo"
+image_creator_id = "583126"
+image_creator_url = "https://www.pexels.com/@caleboquendo"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/sleek-smartphone-on-wooden-table-indoors-34602867/"
+series = "iphone-16-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 4
+series_title = "iPhone 16 Pro Max màu titan: đánh giá trên tay"
+slug = "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch"
+tags = ["iPhone 16 Pro Max", "màn hình 6.9 inch", "trên tay", "Super Retina"]
+thumbnail = "images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp"
+title = "Trên tay iPhone 16 Pro Max màn hình 6.9 inch"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Màn 6.9 inch trên iPhone 16 Pro Max là điểm khác biệt lớn so với 15 Pro Max (6.7 inch).", "227g — nặng hơn 6g nhưng diện tích hiển thị tăng đáng kể.", "Hợp người đọc nhiều, xem phim, edit video trên máy.", "Tay nhỏ hoặc hay cầm một tay nên cầm thử trước khi mua."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Màn hình"
+value = "6.9 inch — lớn nhất iPhone"
+
+[[tom_tat_nhanh]]
+label = "Trọng lượng"
+
+[[tom_tat_nhanh]]
+label = "Lợi ích"
+
+[[tom_tat_nhanh]]
+label = "Cân nhắc"
++++
 
 Apple đẩy iPhone 16 Pro Max lên **6.9 inch** — con số nghe **nhỏ** (chỉ hơn 6.7 inch của 15 Pro Max 0.2 inch) nhưng trên khung Pro Max, **diện tích thực tế và cảm giác cầm** khác hẳn. Đây có phải upgrade đáng tiền, hay chỉ làm túi jeans chật hơn?
 

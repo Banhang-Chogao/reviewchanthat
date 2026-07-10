@@ -1,69 +1,71 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Người dùng iPhone tại EU có thể cài app từ marketplace thay thế và biết ưu đãi
-    ngoài App Store nhờ DMA.
-  - Phán quyết gatekeeper 8/7/2026 củng cố khung pháp lý — không tự thay đổi iPhone
-    ngay lập tức.
-  - Lợi ích thực phụ thuộc developer có triển khai store/link ngoài; rủi ro bảo mật
-    cần cân nhắc.
-  - Người dùng ngoài EU (gồm VN) chưa hưởng trực tiếp; có thể thấy tín hiệu dài hạn.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Phân tích lợi ích người dùng; không tư vấn pháp
-    lý.
-  source_note: Tham chiếu Apple Newsroom DMA, EC, Tòa Tổng 8/7/2026 và Reuters.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 10:00:00+07:00'
-description: Người dùng iPhone tại EU được lợi gì từ DMA, gatekeeper và phán quyết
-  Apple vs EC 8/7/2026? Lợi ích, rủi ro và kỳ vọng thực tế.
-draft: false
-external_links:
-- title: Apple Newsroom — Tác động DMA lên người dùng EU
-  url: https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/
-- title: Reuters — EU court rejects Apple (8/7/2026)
-- title: EC — Apple anti-steering breach (23/4/2025)
-- title: Tòa Tổng EU — cp260096en.pdf
-- title: Digital Markets Act — EC
-image: images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp
-image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Andrea Piacquadio
-image_creator_id: '224453'
-image_creator_url: https://www.pexels.com/@olly
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/photo-of-person-holding-smartphone-3760263/
-series: apple-ec-dma-app-store-ios
-series_order: 4
-series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
-slug: nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma
-tags:
-- Apple
-- European Commission
-- Digital Markets Act
-- App Store
-- iOS
-- EU
-- gatekeeper
-thumbnail: images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp
-title: Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?
-tom_tat_nhanh:
-- label: Đối tượng
-  value: Người dùng iPhone tại EU/EEA
-- label: Lợi ích chính
-- label: Rủi ro
-- label: Phán quyết 8/7
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Người dùng iPhone tại EU được lợi gì từ DMA, gatekeeper và phán quyết Apple vs EC 8/7/2026? Lợi ích, rủi ro và kỳ vọng thực tế."
+draft = false
+image = "images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp"
+image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Andrea Piacquadio"
+image_creator_id = "224453"
+image_creator_url = "https://www.pexels.com/@olly"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/photo-of-person-holding-smartphone-3760263/"
+series = "apple-ec-dma-app-store-ios"
+series_order = 4
+series_title = "Apple vs EC: App Store, iOS và Digital Markets Act"
+slug = "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma"
+tags = ["Apple", "European Commission", "Digital Markets Act", "App Store", "iOS", "EU", "gatekeeper"]
+thumbnail = "images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp"
+title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Người dùng iPhone tại EU có thể cài app từ marketplace thay thế và biết ưu đãi ngoài App Store nhờ DMA.", "Phán quyết gatekeeper 8/7/2026 củng cố khung pháp lý — không tự thay đổi iPhone ngay lập tức.", "Lợi ích thực phụ thuộc developer có triển khai store/link ngoài; rủi ro bảo mật cần cân nhắc.", "Người dùng ngoài EU (gồm VN) chưa hưởng trực tiếp; có thể thấy tín hiệu dài hạn."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Phân tích lợi ích người dùng; không tư vấn pháp lý."
+source_note = "Tham chiếu Apple Newsroom DMA, EC, Tòa Tổng 8/7/2026 và Reuters."
+
+[[external_links]]
+title = "Apple Newsroom — Tác động DMA lên người dùng EU"
+url = "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/"
+
+[[external_links]]
+title = "Reuters — EU court rejects Apple (8/7/2026)"
+
+[[external_links]]
+title = "EC — Apple anti-steering breach (23/4/2025)"
+
+[[external_links]]
+title = "Tòa Tổng EU — cp260096en.pdf"
+
+[[external_links]]
+title = "Digital Markets Act — EC"
+
+[[tom_tat_nhanh]]
+label = "Đối tượng"
+value = "Người dùng iPhone tại EU/EEA"
+
+[[tom_tat_nhanh]]
+label = "Lợi ích chính"
+
+[[tom_tat_nhanh]]
+label = "Rủi ro"
+
+[[tom_tat_nhanh]]
+label = "Phán quyết 8/7"
++++
 
 Sau headline “Apple thua kiện EU”, câu hỏi thực tế nhất không phải “Apple mất bao nhiêu tiền?” — mà **“iPhone của tôi thay đổi thế nào?”**
 

@@ -1,57 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - iOS 27 là bản làm sâu AI và sửa UX sau iOS 26 — Siri AI, Photos Spatial Reframing
-    và parental controls mở rộng.
-  - iOS 26 mang Liquid Glass và Apple Intelligence đợt đầu; iOS 27 nhấn hiệu năng
-    shell và tùy chỉnh Liquid Glass.
-  - Người hài lòng iOS 26 và không cần AI có thể chờ thêm vài tuần sau khi iOS 27
-    GM ổn định.
-  - iPhone 11–14 trên iOS 26 và 27 đều không có Apple Intelligence đầy đủ — khác biệt
-    chủ yếu ở shell và bảo mật.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 10:40:00+07:00'
-description: 'So sánh iOS 27 và iOS 26: Siri AI, Liquid Glass, hiệu năng, AI và lời
-  khuyên nâng cấp cho từng nhóm người dùng iPhone tại Việt Nam.'
-draft: false
-image: images/posts/ios-27-so-voi-ios-26.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Mikael Blomkvist
-image_creator_id: '2416688'
-image_creator_url: https://www.pexels.com/@mikael-blomkvist
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-holding-black-iphone-6476589/
-series: ios-27-co-gi-moi
-series_order: 9
-series_title: iOS 27 có gì mới
-slug: ios-27-so-voi-ios-26
-tags:
-- iOS 27
-- iOS 26
-- so sánh iOS
-- Siri AI
-- nâng cấp iOS
-thumbnail: images/posts/ios-27-so-voi-ios-26.webp
-title: 'iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: iOS 27 vs iOS 26
-- label: Khác biệt lớn
-- label: Giữ iOS 26
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T10:40:00+07:00"
+description = "So sánh iOS 27 và iOS 26: Siri AI, Liquid Glass, hiệu năng, AI và lời khuyên nâng cấp cho từng nhóm người dùng iPhone tại Việt Nam."
+draft = false
+image = "images/posts/ios-27-so-voi-ios-26.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Mikael Blomkvist"
+image_creator_id = "2416688"
+image_creator_url = "https://www.pexels.com/@mikael-blomkvist"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-holding-black-iphone-6476589/"
+series = "ios-27-co-gi-moi"
+series_order = 9
+series_title = "iOS 27 có gì mới"
+slug = "ios-27-so-voi-ios-26"
+tags = ["iOS 27", "iOS 26", "so sánh iOS", "Siri AI", "nâng cấp iOS"]
+thumbnail = "images/posts/ios-27-so-voi-ios-26.webp"
+title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
+date_display = "08-07-2026 10:40:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iOS 27 là bản làm sâu AI và sửa UX sau iOS 26 — Siri AI, Photos Spatial Reframing và parental controls mở rộng.", "iOS 26 mang Liquid Glass và Apple Intelligence đợt đầu; iOS 27 nhấn hiệu năng shell và tùy chỉnh Liquid Glass.", "Người hài lòng iOS 26 và không cần AI có thể chờ thêm vài tuần sau khi iOS 27 GM ổn định.", "iPhone 11–14 trên iOS 26 và 27 đều không có Apple Intelligence đầy đủ — khác biệt chủ yếu ở shell và bảo mật."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "iOS 27 vs iOS 26"
+
+[[tom_tat_nhanh]]
+label = "Khác biệt lớn"
+
+[[tom_tat_nhanh]]
+label = "Giữ iOS 26"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Đang dùng **iOS 26** ổn định, bạn có **bắt buộc** lên iOS 27 không? Không — nhưng bỏ lỡ có thể đồng nghĩa thiếu **Siri AI**, **Photos Spatial Reframing** và bản vá bảo mật dài hạn. Bài so sánh này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/) giúp bạn cân bằng **giá trị** và **rủi ro**.
 

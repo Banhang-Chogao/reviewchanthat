@@ -3,7 +3,7 @@ draft = true
 title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
 description = "Goldman Sachs, JPMorgan dùng toán học gì? Học algorithmic trading, derivatives pricing, volatility smile, Greeks (delta, gamma, vega), stochastic models, machine learning."
 date = "2026-07-10T13:16:14+07:00"
-lastmod = "2026-07-10T20:15:00+07:00"
+lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "Goldman Sachs, JPMorgan: derivatives pricing, Greeks, HFT"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
@@ -12,17 +12,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 7
 image = "images/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.webp"
 image_alt = "Ảnh minh họa Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives — nguồn Pexels"
+date_display = "10-07-2026 13:16:14 GMT +7"
+lastmod_display = "10-07-2026 14:10:36 GMT +7"
 
 [ai_summary]
-items = [
-  "Goldman Sachs, JPMorgan: 2 ngân hàng đầu tư lớn nhất thế giới",
-  "Derivatives pricing: Black-Scholes, local volatility, stochastic volatility",
-  "Greeks: Delta (độ nhạy giá), Gamma (độ cong), Vega (độ nhạy volatility)",
-  "Volatility Smile: σ thay đổi theo strike price (không hằng số)",
-  "Algorithmic Trading: Machines tự động mua/bán hàng triệu giao dịch/ngày",
-  "Market Microstructure: Spread, latency, order flow prediction",
-  "Machine Learning: Neural networks dự báo giá, market impact models"
-]
+items = ["Goldman Sachs, JPMorgan: 2 ngân hàng đầu tư lớn nhất thế giới", "Derivatives pricing: Black-Scholes, local volatility, stochastic volatility", "Greeks: Delta (độ nhạy giá), Gamma (độ cong), Vega (độ nhạy volatility)", "Volatility Smile: σ thay đổi theo strike price (không hằng số)", "Algorithmic Trading: Machines tự động mua/bán hàng triệu giao dịch/ngày", "Market Microstructure: Spread, latency, order flow prediction", "Machine Learning: Neural networks dự báo giá, market impact models"]
 thumbnail = "images/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/man-using-atm-machine-11284045/"

@@ -1,68 +1,69 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức
-    giá hợp lý.
-  - Luôn đi mua sắm với một danh sách cụ thể.
-  - Dành ra một khoản cố định cho mua sắm cá nhân mỗi tháng.
-  - '"Không" là câu nói quyền năng nhất trong mua sắm thông minh.'
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Veritable Content. Nội dung do tác giả biên tập, vui lòng ghi
-    nguồn khi trích dẫn.
-  source_note: Bài viết tổng hợp từ trải nghiệm cá nhân và các nguồn tham khảo công
-    khai được liệt kê ở trên.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- doi-song
-- tai-chinh
-date: '2026-06-28 10:00:00+07:00'
-description: Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu
-  quả hơn.
-draft: false
-external_links:
-- title: Consumer Reports - Smart Shopping Tips
-  url: https://www.consumerreports.org/shopping/
-- title: Investopedia - Personal Finance Guide
-faq:
-- answer: Bắt đầu bằng cách lập danh sách mua sắm trước mỗi lần đi chợ hoặc mua online,
-    và áp dụng nguyên tắc 30 ngày với các món đồ đắt tiền.
-  question: Làm sao để bắt đầu mua sắm thông minh?
-- answer: Thẻ tín dụng có thể hữu ích nếu bạn kiểm soát được chi tiêu và trả đúng
-    hạn. Tuy nhiên, nếu bạn dễ bị cám dỗ chi tiêu quá mức, hãy dùng tiền mặt hoặc
-    thẻ ghi nợ.
-- answer: 'Một số app phổ biến: Money Lover, Spendee, Sổ Thu Chi. Quan trọng nhất
-    là bạn duy trì thói quen ghi chép mỗi ngày.'
-image: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
-image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Thanh Long Bùi
-image_creator_id: '483143920'
-image_creator_url: https://www.pexels.com/@thanh-long-bui-483143920
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/female-pickleball-player-in-action-at-h-i-phong-29665449/
-slug: cach-xay-dung-thoi-quen-mua-sam-thong-minh
-tags:
-- mua sắm thông minh
-- thói quen
-- quản lý chi tiêu
-thumbnail: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
-title: Cách xây dựng thói quen mua sắm thông minh
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Xây dựng thói quen mua sắm thông minh, có kế hoạch
-- label: Mục đích
-- label: Hợp với
-- label: Điểm chính
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["doi-song", "tai-chinh"]
+date = "2026-06-28T10:00:00+07:00"
+description = "Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu quả hơn."
+draft = false
+image = "images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp"
+image_attribution_checked_at = "2026-07-10T14:01:29+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Thanh Long Bùi"
+image_creator_id = "483143920"
+image_creator_url = "https://www.pexels.com/@thanh-long-bui-483143920"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/female-pickleball-player-in-action-at-h-i-phong-29665449/"
+slug = "cach-xay-dung-thoi-quen-mua-sam-thong-minh"
+tags = ["mua sắm thông minh", "thói quen", "quản lý chi tiêu"]
+thumbnail = "images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp"
+title = "Cách xây dựng thói quen mua sắm thông minh"
+date_display = "28-06-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý.", "Luôn đi mua sắm với một danh sách cụ thể.", "Dành ra một khoản cố định cho mua sắm cá nhân mỗi tháng.", "\"Không\" là câu nói quyền năng nhất trong mua sắm thông minh."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Veritable Content. Nội dung do tác giả biên tập, vui lòng ghi nguồn khi trích dẫn."
+source_note = "Bài viết tổng hợp từ trải nghiệm cá nhân và các nguồn tham khảo công khai được liệt kê ở trên."
+
+[[external_links]]
+title = "Consumer Reports - Smart Shopping Tips"
+url = "https://www.consumerreports.org/shopping/"
+
+[[external_links]]
+title = "Investopedia - Personal Finance Guide"
+
+[[faq]]
+answer = "Bắt đầu bằng cách lập danh sách mua sắm trước mỗi lần đi chợ hoặc mua online, và áp dụng nguyên tắc 30 ngày với các món đồ đắt tiền."
+question = "Làm sao để bắt đầu mua sắm thông minh?"
+
+[[faq]]
+answer = "Thẻ tín dụng có thể hữu ích nếu bạn kiểm soát được chi tiêu và trả đúng hạn. Tuy nhiên, nếu bạn dễ bị cám dỗ chi tiêu quá mức, hãy dùng tiền mặt hoặc thẻ ghi nợ."
+
+[[faq]]
+answer = "Một số app phổ biến: Money Lover, Spendee, Sổ Thu Chi. Quan trọng nhất là bạn duy trì thói quen ghi chép mỗi ngày."
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Xây dựng thói quen mua sắm thông minh, có kế hoạch"
+
+[[tom_tat_nhanh]]
+label = "Mục đích"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Điểm chính"
++++
 
 Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Nghe đơn giản, nhưng mình mất kha khá thời gian mới áp dụng được. Dưới đây là những thói quen giúp bạn làm được điều đó.
 

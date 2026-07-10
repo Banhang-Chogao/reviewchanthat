@@ -1,84 +1,100 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Tháng 10 là tháng bắt đầu mùa lá đỏ ở Hàn Quốc — mức độ phụ thuộc địa điểm và
-    tuần trong tháng.
-  - 'Seoraksan lá đỏ sớm nhất (dự báo 2025: đầu 30/9, đỉnh 23/10); Seoul và Bukhansan
-    muộn hơn (đầu 17/10, đỉnh 4/11).'
-  - Nami Island thường đẹp từ giữa đến cuối tháng 10; đầu tháng còn xanh–vàng nhạt.
-  - Ngày lá đỏ thay đổi theo năm — luôn kiểm tra dự báo Visit Korea trước khi đặt
-    vé.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 08:00:00+07:00'
-description: Hàn Quốc tháng 10 có lá đỏ chưa? So sánh Seoul, Nami, Seoraksan theo
-  dự báo Visit Korea 2025 — nên đi tuần nào và lịch dự phòng.
-draft: false
-external_links:
-- title: Visit Korea — 2025 Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: KoreaToDo — Top Autumn Foliage Sites
-- title: Korea Meteorological Administration
-faq:
-- answer: Có, nhưng mức độ tùy tuần. Đầu tháng 10 Seoul còn vàng nhạt; giữa–cuối tháng
-    nhiều điểm đổi màu rõ hơn.
-  question: Tháng 10 Seoul có lá đỏ chưa?
-- answer: Nami đẹp từ giữa đến cuối tháng 10. Đầu tháng cây Metasequoia còn xanh,
-    chuyển vàng dần.
-- answer: Seoraksan sớm nhất trong các điểm phổ biến — dự báo 2025 đỉnh khoảng 23/10.
-    Nên đi giữa–cuối tháng 10.
-image: images/posts/han-quoc-thang-10-co-la-do-chua.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Quang Nguyen Vinh
-image_creator_id: '222549'
-image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-2131625/
-internal_links:
-- ref: posts/di-han-thang-10-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-10.md
-- ref: posts/di-han-thang-10-mac-gi.md
-- ref: posts/seoul-thang-10-nen-di-dau.md
-- ref: posts/nami-thang-10-co-dang-di-khong.md
-- ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-- ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
-seo_title: Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên
-series: di-han-thang-10
-series_order: 3
-series_title: Đi Hàn tháng 10
-slug: han-quoc-thang-10-co-la-do-chua
-tags:
-- lá đỏ Hàn Quốc
-- mùa thu Hàn Quốc
-- Nami Island tháng 10
-- Seoraksan
-- series du lịch
-thumbnail: images/posts/han-quoc-thang-10-co-la-do-chua.webp
-title: Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?
-tom_tat_nhanh:
-- label: Seoraksan (đỉnh 2025)
-  value: Khoảng 23/10
-- label: Seoul/Bukhansan (đỉnh 2025)
-- label: Nami Island
-- label: Lưu ý
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T08:00:00+07:00"
+description = "Hàn Quốc tháng 10 có lá đỏ chưa? So sánh Seoul, Nami, Seoraksan theo dự báo Visit Korea 2025 — nên đi tuần nào và lịch dự phòng."
+draft = false
+image = "images/posts/han-quoc-thang-10-co-la-do-chua.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Quang Nguyen Vinh"
+image_creator_id = "222549"
+image_creator_url = "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-2131625/"
+seo_title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên"
+series = "di-han-thang-10"
+series_order = 3
+series_title = "Đi Hàn tháng 10"
+slug = "han-quoc-thang-10-co-la-do-chua"
+tags = ["lá đỏ Hàn Quốc", "mùa thu Hàn Quốc", "Nami Island tháng 10", "Seoraksan", "series du lịch"]
+thumbnail = "images/posts/han-quoc-thang-10-co-la-do-chua.webp"
+title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
+date_display = "08-07-2026 08:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Tháng 10 là tháng bắt đầu mùa lá đỏ ở Hàn Quốc — mức độ phụ thuộc địa điểm và tuần trong tháng.", "Seoraksan lá đỏ sớm nhất (dự báo 2025: đầu 30/9, đỉnh 23/10); Seoul và Bukhansan muộn hơn (đầu 17/10, đỉnh 4/11).", "Nami Island thường đẹp từ giữa đến cuối tháng 10; đầu tháng còn xanh–vàng nhạt.", "Ngày lá đỏ thay đổi theo năm — luôn kiểm tra dự báo Visit Korea trước khi đặt vé."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — 2025 Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "KoreaToDo — Top Autumn Foliage Sites"
+
+[[external_links]]
+title = "Korea Meteorological Administration"
+
+[[faq]]
+answer = "Có, nhưng mức độ tùy tuần. Đầu tháng 10 Seoul còn vàng nhạt; giữa–cuối tháng nhiều điểm đổi màu rõ hơn."
+question = "Tháng 10 Seoul có lá đỏ chưa?"
+
+[[faq]]
+answer = "Nami đẹp từ giữa đến cuối tháng 10. Đầu tháng cây Metasequoia còn xanh, chuyển vàng dần."
+
+[[faq]]
+answer = "Seoraksan sớm nhất trong các điểm phổ biến — dự báo 2025 đỉnh khoảng 23/10. Nên đi giữa–cuối tháng 10."
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-10-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/nami-thang-10-co-dang-di-khong.md"
+
+[[internal_links]]
+ref = "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+
+[[internal_links]]
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+
+[[tom_tat_nhanh]]
+label = "Seoraksan (đỉnh 2025)"
+value = "Khoảng 23/10"
+
+[[tom_tat_nhanh]]
+label = "Seoul/Bukhansan (đỉnh 2025)"
+
+[[tom_tat_nhanh]]
+label = "Nami Island"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
++++
 
 “Hàn Quốc tháng 10 có lá đỏ chưa?” là câu hỏi phổ biến nhất khi lên kế hoạch đi Hàn mùa thu. Câu trả lời không phải “có” hay “không” đơn giản — mà phụ thuộc **địa điểm**, **tuần trong tháng** và **điều kiện thời tiết từng năm**.
 

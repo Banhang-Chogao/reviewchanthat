@@ -1,66 +1,60 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Dịch vụ Starbucks Vietnam theo chuẩn quốc tế — chào hỏi, gọi tên size, ghi nhận
-    tùy chỉnh đồ uống.
-  - Chi nhánh Nguyễn Văn Trỗi nổi bật với nhân viên nhiệt tình, nhớ gu khách quen
-    và tư vấn menu rõ ràng.
-  - Barista được đào tạo pha chế; chất lượng ly nước phụ thuộc cả kỹ năng và khung
-    giờ đông.
-  - Mẹo nhỏ — gọi rõ yêu cầu, dùng app order trước giờ cao điểm — giúp trải nghiệm
-    mượt hơn.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Quan sát và trải nghiệm cá nhân tại nhiều chi
-    nhánh.
-  source_note: Không đại diện Starbucks; đánh giá dịch vụ có thể khác theo thời điểm
-    và địa điểm.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- review
-date: '2026-07-08 17:00:00+07:00'
-description: Đánh giá dịch vụ và nhân viên Starbucks Vietnam — chuẩn phục vụ, barista
-  pha chế, và vì sao chi nhánh Nguyễn Văn Trỗi được khen nhiệt tình.
-draft: false
-external_links:
-- title: Starbucks — Customer experience
-  url: https://www.starbucks.com/business/standards-of-business-conduct/
-image: images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp
-image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Chevanon Photography
-image_creator_id: '93955'
-image_creator_url: https://www.pexels.com/@chevanon
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-holding-starbucks-disposable-cup-324028/
-seo_title: 'Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo'
-series: starbucks-vietnam
-series_order: 4
-series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
-slug: starbucks-vietnam-nhan-vien-va-dich-vu
-tags:
-- dịch vụ Starbucks
-- nhân viên Starbucks
-- barista
-- Starbucks Nguyễn Văn Trỗi
-- trải nghiệm khách hàng
-thumbnail: images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp
-title: 'Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt'
-tom_tat_nhanh:
-- label: Chuẩn chung
-  value: Chào hỏi, tùy chỉnh order, gọi tên khi ly sẵn
-- label: Nguyễn Văn Trỗi
-- label: Barista
-- label: Mẹo
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["review"]
+date = "2026-07-08T17:00:00+07:00"
+description = "Đánh giá dịch vụ và nhân viên Starbucks Vietnam — chuẩn phục vụ, barista pha chế, và vì sao chi nhánh Nguyễn Văn Trỗi được khen nhiệt tình."
+draft = false
+image = "images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp"
+image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Chevanon Photography"
+image_creator_id = "93955"
+image_creator_url = "https://www.pexels.com/@chevanon"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-holding-starbucks-disposable-cup-324028/"
+seo_title = "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo"
+series = "starbucks-vietnam"
+series_order = 4
+series_title = "Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế"
+slug = "starbucks-vietnam-nhan-vien-va-dich-vu"
+tags = ["dịch vụ Starbucks", "nhân viên Starbucks", "barista", "Starbucks Nguyễn Văn Trỗi", "trải nghiệm khách hàng"]
+thumbnail = "images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp"
+title = "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt"
+date_display = "08-07-2026 17:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Dịch vụ Starbucks Vietnam theo chuẩn quốc tế — chào hỏi, gọi tên size, ghi nhận tùy chỉnh đồ uống.", "Chi nhánh Nguyễn Văn Trỗi nổi bật với nhân viên nhiệt tình, nhớ gu khách quen và tư vấn menu rõ ràng.", "Barista được đào tạo pha chế; chất lượng ly nước phụ thuộc cả kỹ năng và khung giờ đông.", "Mẹo nhỏ — gọi rõ yêu cầu, dùng app order trước giờ cao điểm — giúp trải nghiệm mượt hơn."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Quan sát và trải nghiệm cá nhân tại nhiều chi nhánh."
+source_note = "Không đại diện Starbucks; đánh giá dịch vụ có thể khác theo thời điểm và địa điểm."
+
+[[external_links]]
+title = "Starbucks — Customer experience"
+url = "https://www.starbucks.com/business/standards-of-business-conduct/"
+
+[[tom_tat_nhanh]]
+label = "Chuẩn chung"
+value = "Chào hỏi, tùy chỉnh order, gọi tên khi ly sẵn"
+
+[[tom_tat_nhanh]]
+label = "Nguyễn Văn Trỗi"
+
+[[tom_tat_nhanh]]
+label = "Barista"
+
+[[tom_tat_nhanh]]
+label = "Mẹo"
++++
 
 Một ly Starbucks ngon không chỉ đến từ hạt cà phê — mà còn từ **người pha** và **cách phục vụ**. Sau nhiều lần ghé các chi nhánh tại TP.HCM, mình nhận thấy dịch vụ là thứ khiến khách quay lại (hoặc không bao giờ quay lại) mạnh hơn cả vài nghìn đồng chênh lệch giá.
 

@@ -1,82 +1,100 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Lịch trình Seoul 3 ngày tháng 10 ưu tiên cung điện, công viên và khu Hanok — kết
-    hợp ngắm lá đỏ và văn hóa.
-  - 'Ngày 1: Gyeongbokgung, Bukchon, Samcheongdong. Ngày 2: Haneul Park, Seoul Forest.
-    Ngày 3: Changdeokgung, Insadong, Cheonggyecheon.'
-  - Giữa–cuối tháng 10 phù hợp ngắm foliage; đầu tháng lá còn xanh–vàng nhạt.
-  - Chi phí tham quan 3 ngày khoảng 50.000–100.000 KRW — giá có thể thay đổi theo
-    mùa, ngày đi và tỷ giá.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu — cung
-  điện, công viên lá đỏ, Hanok và ẩm thực. Kèm ngân sách và mẹo di chuyển.
-draft: false
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: KoreaToDo — Autumn Foliage in Seoul
-- title: Korea Meteorological Administration
-faq:
-- answer: Gyeongbokgung, Deoksugung Stone Wall, Haneul Park, Seoul Forest, Changdeokgung
-    Secret Garden, Olympic Park.
-  question: Seoul tháng 10 đi đâu ngắm lá?
-- answer: Khoảng 50.000–100.000 KRW vé tham quan, chưa gồm ăn uống và di chuyển.
-- answer: Metro là chính. Mua T-money, nạp 15.000–20.000 KRW đủ 3 ngày.
-image: images/posts/seoul-thang-10-nen-di-dau.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Светлана Конева
-image_creator_id: '269097219'
-image_creator_url: https://www.pexels.com/@269097219
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787325/
-internal_links:
-- ref: posts/di-han-thang-10-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-10.md
-- ref: posts/han-quoc-thang-10-co-la-do-chua.md
-- ref: posts/di-han-thang-10-mac-gi.md
-- ref: posts/nami-thang-10-co-dang-di-khong.md
-- ref: posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md
-- ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
-- ref: posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md
-seo_title: Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi
-series: di-han-thang-10
-series_order: 5
-series_title: Đi Hàn tháng 10
-slug: seoul-thang-10-nen-di-dau
-tags:
-- Seoul tháng 10
-- lịch trình Seoul
-- lá đỏ Seoul
-- du lịch Hàn Quốc
-- series du lịch
-thumbnail: images/posts/seoul-thang-10-nen-di-dau.webp
-title: Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu
-tom_tat_nhanh:
-- label: Thời gian
-  value: 3 ngày
-- label: Chi phí vé
-- label: Phù hợp
-- label: Điểm nhấn
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu — cung điện, công viên lá đỏ, Hanok và ẩm thực. Kèm ngân sách và mẹo di chuyển."
+draft = false
+image = "images/posts/seoul-thang-10-nen-di-dau.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Светлана Конева"
+image_creator_id = "269097219"
+image_creator_url = "https://www.pexels.com/@269097219"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-12787325/"
+seo_title = "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi"
+series = "di-han-thang-10"
+series_order = 5
+series_title = "Đi Hàn tháng 10"
+slug = "seoul-thang-10-nen-di-dau"
+tags = ["Seoul tháng 10", "lịch trình Seoul", "lá đỏ Seoul", "du lịch Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/seoul-thang-10-nen-di-dau.webp"
+title = "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Lịch trình Seoul 3 ngày tháng 10 ưu tiên cung điện, công viên và khu Hanok — kết hợp ngắm lá đỏ và văn hóa.", "Ngày 1: Gyeongbokgung, Bukchon, Samcheongdong. Ngày 2: Haneul Park, Seoul Forest. Ngày 3: Changdeokgung, Insadong, Cheonggyecheon.", "Giữa–cuối tháng 10 phù hợp ngắm foliage; đầu tháng lá còn xanh–vàng nhạt.", "Chi phí tham quan 3 ngày khoảng 50.000–100.000 KRW — giá có thể thay đổi theo mùa, ngày đi và tỷ giá."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "KoreaToDo — Autumn Foliage in Seoul"
+
+[[external_links]]
+title = "Korea Meteorological Administration"
+
+[[faq]]
+answer = "Gyeongbokgung, Deoksugung Stone Wall, Haneul Park, Seoul Forest, Changdeokgung Secret Garden, Olympic Park."
+question = "Seoul tháng 10 đi đâu ngắm lá?"
+
+[[faq]]
+answer = "Khoảng 50.000–100.000 KRW vé tham quan, chưa gồm ăn uống và di chuyển."
+
+[[faq]]
+answer = "Metro là chính. Mua T-money, nạp 15.000–20.000 KRW đủ 3 ngày."
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+
+[[internal_links]]
+ref = "posts/nami-thang-10-co-dang-di-khong.md"
+
+[[internal_links]]
+ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
+
+[[internal_links]]
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+
+[[internal_links]]
+ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
+
+[[tom_tat_nhanh]]
+label = "Thời gian"
+value = "3 ngày"
+
+[[tom_tat_nhanh]]
+label = "Chi phí vé"
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+
+[[tom_tat_nhanh]]
+label = "Điểm nhấn"
++++
 
 Seoul tháng 10 là thời điểm nhiều du khách chọn để kết hợp khám phá thành phố và ngắm mùa thu. Theo [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), các điểm ngắm lá đỏ phổ biến ở Seoul gồm Gyeongbokgung Palace, Seoul Forest, Olympic Park và Seokchon Lake — cùng Deoksugung Stone Wall Path.
 

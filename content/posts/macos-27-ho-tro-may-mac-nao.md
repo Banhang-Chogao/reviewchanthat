@@ -1,58 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Theo Apple, macOS 27 hỗ trợ MacBook Air/Pro Apple Silicon 2020+, iMac 2021+, Mac
-    mini 2020+, Mac Studio 2022+, Mac Pro M2 Ultra 2023 và MacBook Neo 2026.
-  - Danh sách chính thức không liệt kê bất kỳ Mac Intel nào — đây là thay đổi lớn
-    so với các năm trước.
-  - Mac M1 vẫn trong danh sách macOS nhưng Apple Intelligence có thể yêu cầu M2 trở
-    lên hoặc RAM 16GB.
-  - Người dùng Mac Intel nên lập kế hoạch giữ macOS 26 hoặc nâng cấp phần cứng trước
-    mùa thu 2026.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 11:20:00+07:00'
-description: Danh sách Mac tương thích macOS Golden Gate 27 theo Apple, phân tích
-  Mac Intel bị loại, M1 vs M4 và lộ trình cho người dùng Việt Nam.
-draft: false
-image: images/posts/macos-27-ho-tro-may-mac-nao.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: hitesh choudhary
-image_creator_id: '97941'
-image_creator_url: https://www.pexels.com/@hiteshchoudhary
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/turned-on-macbook-pro-693859/
-seo_title: macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu
-series: macos-27-co-gi-moi
-series_order: 2
-series_title: macOS 27 có gì mới
-slug: macos-27-ho-tro-may-mac-nao
-tags:
-- macOS 27
-- tương thích Mac
-- Mac Intel
-- Apple Silicon
-- MacBook
-thumbnail: images/posts/macos-27-ho-tro-may-mac-nao.webp
-title: macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Mac nào chạy được macOS 27
-- label: Nguồn
-- label: Điểm then chốt
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T11:20:00+07:00"
+description = "Danh sách Mac tương thích macOS Golden Gate 27 theo Apple, phân tích Mac Intel bị loại, M1 vs M4 và lộ trình cho người dùng Việt Nam."
+draft = false
+image = "images/posts/macos-27-ho-tro-may-mac-nao.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "hitesh choudhary"
+image_creator_id = "97941"
+image_creator_url = "https://www.pexels.com/@hiteshchoudhary"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/turned-on-macbook-pro-693859/"
+seo_title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu"
+series = "macos-27-co-gi-moi"
+series_order = 2
+series_title = "macOS 27 có gì mới"
+slug = "macos-27-ho-tro-may-mac-nao"
+tags = ["macOS 27", "tương thích Mac", "Mac Intel", "Apple Silicon", "MacBook"]
+thumbnail = "images/posts/macos-27-ho-tro-may-mac-nao.webp"
+title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
+date_display = "08-07-2026 11:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Theo Apple, macOS 27 hỗ trợ MacBook Air/Pro Apple Silicon 2020+, iMac 2021+, Mac mini 2020+, Mac Studio 2022+, Mac Pro M2 Ultra 2023 và MacBook Neo 2026.", "Danh sách chính thức không liệt kê bất kỳ Mac Intel nào — đây là thay đổi lớn so với các năm trước.", "Mac M1 vẫn trong danh sách macOS nhưng Apple Intelligence có thể yêu cầu M2 trở lên hoặc RAM 16GB.", "Người dùng Mac Intel nên lập kế hoạch giữ macOS 26 hoặc nâng cấp phần cứng trước mùa thu 2026."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Mac nào chạy được macOS 27"
+
+[[tom_tat_nhanh]]
+label = "Nguồn"
+
+[[tom_tat_nhanh]]
+label = "Điểm then chốt"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 “Mac của mình còn lên macOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **MacBook Pro Intel**, **iMac 27 inch Intel** hoặc **Mac mini Intel** mua từ 2018–2020. Câu trả lời ngắn theo Apple: **chỉ Mac Apple Silicon trong danh sách chính thức**.
 

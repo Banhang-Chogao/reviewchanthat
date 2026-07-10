@@ -1,83 +1,99 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Tháng 11 Hàn Quốc lạnh hơn tháng 10 rõ rệt — cần phối đồ nhiều lớp ấm hơn, không
-    chỉ áo khoác gió mỏng.
-  - Seoul ban ngày 5–14°C, sáng sớm và tối có thể dưới 5°C; leo núi cần parka hoặc
-    áo chống gió.
-  - Màu trung tính (be, nâu, đen, xám, đỏ đô) dễ phối với cảnh lá đỏ–vàng; giày đi
-    bộ thoải mái và tất dày là ưu tiên.
-  - Mang găng tay mỏng, khăn quàng, hot pack — giá đồ thời trang Hàn có thể thay đổi
-    theo mùa, ngày đi và tỷ giá.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 18:30:00+07:00'
-description: Đi Hàn tháng 11 mặc gì? Checklist phối đồ nhiều lớp ấm, màu sắc hợp mùa
-  thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan.
-draft: false
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: Korea Meteorological Administration
-- title: KoreaToDo — Autumn Foliage Sites
-faq:
-- answer: Áo giữ nhiệt + áo len + parka hoặc áo phao mỏng. Cuối tháng 11 thêm găng
-    tay, khăn quàng và tất dày.
-  question: Tháng 11 đi Seoul mặc gì?
-- answer: Có. Sáng sớm và tối ở Seoul có thể dưới 5°C; trên núi lạnh hơn 5–10°C so
-    với thành phố.
-- answer: Giày sneaker đế bằng, thoải mái đi bộ 12.000–18.000 bước/ngày. Leo núi nên
-    giày trekking nhẹ, tất dày.
-image: images/posts/di-han-thang-11-mac-gi.webp
-image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Eric Prouzet
-image_creator_id: '225470'
-image_creator_url: https://www.pexels.com/@eric-prouzet-225470
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-32077763/
-internal_links:
-- ref: posts/di-han-thang-11-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-11.md
-- ref: posts/han-quoc-thang-11-co-la-do-chua.md
-- ref: posts/seoul-thang-11-nen-di-dau.md
-- ref: posts/di-han-thang-10-mac-gi.md
-- ref: posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-- ref: posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md
-series: di-han-thang-11
-series_order: 4
-series_title: Đi Hàn tháng 11
-slug: di-han-thang-11-mac-gi
-tags:
-- mặc gì đi Hàn tháng 11
-- phối đồ mùa thu
-- du lịch Hàn Quốc
-- series du lịch
-thumbnail: images/posts/di-han-thang-11-mac-gi.webp
-title: Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp
-tom_tat_nhanh:
-- label: Nguyên tắc
-  value: Phối nhiều lớp ấm (layering)
-- label: Nhiệt độ tham khảo
-- label: Màu gợi ý
-- label: Ưu tiên
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T18:30:00+07:00"
+description = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ nhiều lớp ấm, màu sắc hợp mùa thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan."
+draft = false
+image = "images/posts/di-han-thang-11-mac-gi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Eric Prouzet"
+image_creator_id = "225470"
+image_creator_url = "https://www.pexels.com/@eric-prouzet-225470"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-32077763/"
+series = "di-han-thang-11"
+series_order = 4
+series_title = "Đi Hàn tháng 11"
+slug = "di-han-thang-11-mac-gi"
+tags = ["mặc gì đi Hàn tháng 11", "phối đồ mùa thu", "du lịch Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/di-han-thang-11-mac-gi.webp"
+title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
+date_display = "08-07-2026 18:30:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Tháng 11 Hàn Quốc lạnh hơn tháng 10 rõ rệt — cần phối đồ nhiều lớp ấm hơn, không chỉ áo khoác gió mỏng.", "Seoul ban ngày 5–14°C, sáng sớm và tối có thể dưới 5°C; leo núi cần parka hoặc áo chống gió.", "Màu trung tính (be, nâu, đen, xám, đỏ đô) dễ phối với cảnh lá đỏ–vàng; giày đi bộ thoải mái và tất dày là ưu tiên.", "Mang găng tay mỏng, khăn quàng, hot pack — giá đồ thời trang Hàn có thể thay đổi theo mùa, ngày đi và tỷ giá."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "Korea Meteorological Administration"
+
+[[external_links]]
+title = "KoreaToDo — Autumn Foliage Sites"
+
+[[faq]]
+answer = "Áo giữ nhiệt + áo len + parka hoặc áo phao mỏng. Cuối tháng 11 thêm găng tay, khăn quàng và tất dày."
+question = "Tháng 11 đi Seoul mặc gì?"
+
+[[faq]]
+answer = "Có. Sáng sớm và tối ở Seoul có thể dưới 5°C; trên núi lạnh hơn 5–10°C so với thành phố."
+
+[[faq]]
+answer = "Giày sneaker đế bằng, thoải mái đi bộ 12.000–18.000 bước/ngày. Leo núi nên giày trekking nhẹ, tất dày."
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-11-co-la-do-chua.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-11-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+
+[[internal_links]]
+ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+
+[[tom_tat_nhanh]]
+label = "Nguyên tắc"
+value = "Phối nhiều lớp ấm (layering)"
+
+[[tom_tat_nhanh]]
+label = "Nhiệt độ tham khảo"
+
+[[tom_tat_nhanh]]
+label = "Màu gợi ý"
+
+[[tom_tat_nhanh]]
+label = "Ưu tiên"
++++
 
 Tháng 11 ở Hàn Quốc **lạnh hơn tháng 10 rõ rệt** — sáng sớm và tối muộn thường "lạnh vừa đến khá", không còn mát dễ chịu như tháng 10. Nhiệt độ Seoul có thể 12°C lúc trưa nhưng xuống 4°C lúc 7 giờ sáng. Nếu chỉ mang áo khoác gió như tháng 10, bạn sẽ run khi chờ chụp ảnh ở Gyeongbokgung hoặc đi bộ Bukchon.
 

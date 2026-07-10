@@ -1,84 +1,100 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Tháng 11 thường là peak lá đỏ ở Seoul và vùng đô thị — mức độ phụ thuộc địa điểm
-    và tuần trong tháng.
-  - 'Seoul/Bukhansan peak khoảng đầu–giữa tháng 11 (dự báo 2025: Bukhansan ~4/11);
-    Nami peak sớm hơn (~24/10).'
-  - Seoraksan đầu tháng 11 vẫn đẹp; cuối tháng 11 có thể đã qua peak hoặc trụi lá.
-  - Ngày lá đỏ thay đổi theo năm — luôn kiểm tra dự báo Visit Korea trước khi đặt
-    vé.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 18:00:00+07:00'
-description: Hàn Quốc tháng 11 còn lá đỏ không? So sánh Seoul, Nami, Seoraksan theo
-  dự báo Visit Korea — nên đi tuần nào và lịch dự phòng.
-draft: false
-external_links:
-- title: Visit Korea — 2025 Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: KoreaToDo — Top Autumn Foliage Sites
-- title: Korea Meteorological Administration
-faq:
-- answer: Có — tháng 11 thường là peak ở Seoul và cung điện. Đầu–giữa tháng 11 đẹp
-    nhất; cuối tháng lá rụng dần.
-  question: Tháng 11 Seoul còn lá đỏ không?
-- answer: Nami peak thường trước Seoul. Đầu tháng 11 vẫn có vàng-cam; cuối tháng 11
-    có thể chủ yếu lá rụng.
-- answer: Đầu tháng 11 vẫn đẹp. Cuối tháng 11 có thể qua peak hoặc gặp tuyết nhẹ —
-    không còn foliage đỏ rực.
-image: images/posts/han-quoc-thang-11-co-la-do-chua.webp
-image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Quang Nguyen Vinh
-image_creator_id: '222549'
-image_creator_url: https://www.pexels.com/@quang-nguyen-vinh-222549
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-2131618/
-internal_links:
-- ref: posts/di-han-thang-11-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-11.md
-- ref: posts/di-han-thang-11-mac-gi.md
-- ref: posts/seoul-thang-11-nen-di-dau.md
-- ref: posts/han-quoc-thang-10-co-la-do-chua.md
-- ref: posts/nami-thang-10-co-dang-di-khong.md
-- ref: posts/seoraksan-thang-10-ngam-la-do.md
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-seo_title: Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan
-series: di-han-thang-11
-series_order: 3
-series_title: Đi Hàn tháng 11
-slug: han-quoc-thang-11-co-la-do-chua
-tags:
-- lá đỏ Hàn Quốc
-- mùa thu Hàn Quốc
-- Nami Island tháng 11
-- Seoraksan
-- series du lịch
-thumbnail: images/posts/han-quoc-thang-11-co-la-do-chua.webp
-title: Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?
-tom_tat_nhanh:
-- label: Seoul/Bukhansan (peak 2025)
-  value: Khoảng 4/11
-- label: Nami (peak 2025)
-- label: Seoraksan (peak 2025)
-- label: Lưu ý
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T18:00:00+07:00"
+description = "Hàn Quốc tháng 11 còn lá đỏ không? So sánh Seoul, Nami, Seoraksan theo dự báo Visit Korea — nên đi tuần nào và lịch dự phòng."
+draft = false
+image = "images/posts/han-quoc-thang-11-co-la-do-chua.webp"
+image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Quang Nguyen Vinh"
+image_creator_id = "222549"
+image_creator_url = "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-2131618/"
+seo_title = "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan"
+series = "di-han-thang-11"
+series_order = 3
+series_title = "Đi Hàn tháng 11"
+slug = "han-quoc-thang-11-co-la-do-chua"
+tags = ["lá đỏ Hàn Quốc", "mùa thu Hàn Quốc", "Nami Island tháng 11", "Seoraksan", "series du lịch"]
+thumbnail = "images/posts/han-quoc-thang-11-co-la-do-chua.webp"
+title = "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?"
+date_display = "08-07-2026 18:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Tháng 11 thường là peak lá đỏ ở Seoul và vùng đô thị — mức độ phụ thuộc địa điểm và tuần trong tháng.", "Seoul/Bukhansan peak khoảng đầu–giữa tháng 11 (dự báo 2025: Bukhansan ~4/11); Nami peak sớm hơn (~24/10).", "Seoraksan đầu tháng 11 vẫn đẹp; cuối tháng 11 có thể đã qua peak hoặc trụi lá.", "Ngày lá đỏ thay đổi theo năm — luôn kiểm tra dự báo Visit Korea trước khi đặt vé."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — 2025 Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "KoreaToDo — Top Autumn Foliage Sites"
+
+[[external_links]]
+title = "Korea Meteorological Administration"
+
+[[faq]]
+answer = "Có — tháng 11 thường là peak ở Seoul và cung điện. Đầu–giữa tháng 11 đẹp nhất; cuối tháng lá rụng dần."
+question = "Tháng 11 Seoul còn lá đỏ không?"
+
+[[faq]]
+answer = "Nami peak thường trước Seoul. Đầu tháng 11 vẫn có vàng-cam; cuối tháng 11 có thể chủ yếu lá rụng."
+
+[[faq]]
+answer = "Đầu tháng 11 vẫn đẹp. Cuối tháng 11 có thể qua peak hoặc gặp tuyết nhẹ — không còn foliage đỏ rực."
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-11-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
+
+[[internal_links]]
+ref = "posts/nami-thang-10-co-dang-di-khong.md"
+
+[[internal_links]]
+ref = "posts/seoraksan-thang-10-ngam-la-do.md"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+
+[[tom_tat_nhanh]]
+label = "Seoul/Bukhansan (peak 2025)"
+value = "Khoảng 4/11"
+
+[[tom_tat_nhanh]]
+label = "Nami (peak 2025)"
+
+[[tom_tat_nhanh]]
+label = "Seoraksan (peak 2025)"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
++++
 
 "Hàn Quốc tháng 11 còn lá đỏ không?" là câu hỏi quan trọng khi lên kế hoạch đi Hàn cuối mùa thu. Khác với tháng 10 — khi lá mới bắt đầu đổi màu — tháng 11 thường là **tháng peak** ở Seoul và nhiều khu vực đô thị. Nhưng câu trả lời vẫn phụ thuộc **địa điểm**, **tuần trong tháng** và **điều kiện thời tiết từng năm**.
 

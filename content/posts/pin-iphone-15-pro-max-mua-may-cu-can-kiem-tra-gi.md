@@ -1,52 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Pin là yếu tố quan trọng nhất khi mua iPhone 15 Pro Max cũ.
-  - Battery Health dưới 85% có thể ảnh hưởng trải nghiệm cả ngày.
-  - Cần kiểm tra thêm Face ID, camera, cổng USB-C và viền titan.
-  - Giá nên điều chỉnh theo % pin và tình trạng khung.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 13:00:00+07:00'
-description: 'Hướng dẫn kiểm tra pin iPhone 15 Pro Max khi mua máy cũ: Battery Health,
-  chu kỳ sạc, dấu hiệu chai và checklist kỹ thuật đầy đủ.'
-draft: false
-image: images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: RSK Photography Kekar
-image_creator_id: '1108923782'
-image_creator_url: https://www.pexels.com/@rsk-photography-kekar-1108923782
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/hand-holding-smartphone-with-modern-interface-outdoors-36665172/
-series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 7
-series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
-slug: pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi
-tags:
-- iPhone 15 Pro Max
-- pin iPhone
-- mua máy cũ
-- Battery Health
-thumbnail: images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp
-title: 'Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Pin và checklist máy cũ
-- label: Ngưỡng khuyến nghị
-- label: Kiểm tra
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T13:00:00+07:00"
+description = "Hướng dẫn kiểm tra pin iPhone 15 Pro Max khi mua máy cũ: Battery Health, chu kỳ sạc, dấu hiệu chai và checklist kỹ thuật đầy đủ."
+draft = false
+image = "images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "RSK Photography Kekar"
+image_creator_id = "1108923782"
+image_creator_url = "https://www.pexels.com/@rsk-photography-kekar-1108923782"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/hand-holding-smartphone-with-modern-interface-outdoors-36665172/"
+series = "iphone-15-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 7
+series_title = "iPhone 15 Pro Max màu titan: đánh giá trên tay"
+slug = "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi"
+tags = ["iPhone 15 Pro Max", "pin iPhone", "mua máy cũ", "Battery Health"]
+thumbnail = "images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+date_display = "08-07-2026 13:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Pin là yếu tố quan trọng nhất khi mua iPhone 15 Pro Max cũ.", "Battery Health dưới 85% có thể ảnh hưởng trải nghiệm cả ngày.", "Cần kiểm tra thêm Face ID, camera, cổng USB-C và viền titan.", "Giá nên điều chỉnh theo % pin và tình trạng khung."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Pin và checklist máy cũ"
+
+[[tom_tat_nhanh]]
+label = "Ngưỡng khuyến nghị"
+
+[[tom_tat_nhanh]]
+label = "Kiểm tra"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Mua iPhone 15 Pro Max cũ mà **không soi pin** giống mua xe không xem odo. Máy đẹp màu [Natural Titanium](/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau/) hay [Blue Titanium](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/) vẫn **chết giữa chiều** nếu pin đã qua nhiều chu kỳ hoặc từng sửa kém. Bài này là **checklist thực dụng** cho thị trường Việt Nam 2026.
 

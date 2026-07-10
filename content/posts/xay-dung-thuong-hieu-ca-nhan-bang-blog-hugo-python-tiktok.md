@@ -1,6 +1,6 @@
 +++
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
-date = "2026-07-10 00:10:00+07:00"
+date = "2026-07-10T00:10:00+07:00"
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
@@ -8,32 +8,20 @@ draft = false
 image = "images/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.webp"
 thumbnail = "images/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.webp"
 image_status = "verified"
-related_posts = [
-  "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan"
-]
+related_posts = ["bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan"]
 seo_title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền"
 description = "Bạn có thể nhận thấy rằng hầu hết những người xây dựng thương hiệu cá nhân ngày nay đều bắt đầu từ TikTok, Instagram hay YouTube. Nhưng có một vấn đề: bạn không"
+date_display = "10-07-2026 00:10:00 GMT +7"
 
 [custom_image_queries]
-queries = [
-  "blog laptop programming",
-  "content creation workspace",
-  "web development setup",
-  "personal brand blog",
-  "programmer desktop"
-]
+queries = ["blog laptop programming", "content creation workspace", "web development setup", "personal brand blog", "programmer desktop"]
 
 [ai_summary]
 enabled = true
 title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết chia sẻ góc nhìn vận hành content system cho thương hiệu cá nhân; hiệu quả thực tế phụ thuộc vào năng lực, thị trường ngách và mức độ duy trì của từng người."
-items = [
-  "Blog Hugo là tài sản dài hạn vì bạn kiểm soát nội dung, URL, cấu trúc SEO và dữ liệu xuất bản thay vì phụ thuộc hoàn toàn vào nền tảng mạng xã hội.",
-  "Python giúp biến blog cá nhân thành một hệ thống có thể kiểm tra metadata, gợi ý internal links, tạo báo cáo nội dung và giảm việc vận hành thủ công.",
-  "TikTok nên được xem là kênh phân phối và kiểm chứng ý tưởng nhanh, không phải nơi duy nhất lưu giữ thương hiệu cá nhân.",
-  "Cách bền vững là viết bài trụ trên blog, cắt thành nhiều video ngắn cho TikTok, rồi kéo người xem quay về bài viết sâu hơn."
-]
+items = ["Blog Hugo là tài sản dài hạn vì bạn kiểm soát nội dung, URL, cấu trúc SEO và dữ liệu xuất bản thay vì phụ thuộc hoàn toàn vào nền tảng mạng xã hội.", "Python giúp biến blog cá nhân thành một hệ thống có thể kiểm tra metadata, gợi ý internal links, tạo báo cáo nội dung và giảm việc vận hành thủ công.", "TikTok nên được xem là kênh phân phối và kiểm chứng ý tưởng nhanh, không phải nơi duy nhất lưu giữ thương hiệu cá nhân.", "Cách bền vững là viết bài trụ trên blog, cắt thành nhiều video ngắn cho TikTok, rồi kéo người xem quay về bài viết sâu hơn."]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/fish-market-in-vung-tau-vietnam-with-workers-35621429/"
 image_provider = "pexels"

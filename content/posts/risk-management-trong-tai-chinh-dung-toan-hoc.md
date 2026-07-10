@@ -11,17 +11,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 12
 image = "images/posts/risk-management-trong-tai-chinh-dung-toan-hoc.webp"
 image_alt = "Ảnh minh họa Risk Management trong tài chính: Từ VaR đến stress testing — nguồn Pexels"
+date_display = "10-07-2026 12:00:00 GMT +7"
+lastmod_display = "10-07-2026 12:00:00 GMT +7"
 
 [ai_summary]
-items = [
-  "Risk Management = Định lượng, monitor, minimize rủi ro tài chính",
-  "VaR_α = Tổn thất tối đa ở mức tin cậy α% (đã học ở Bài 6)",
-  "Historical VaR: Từ 250 ngày lịch sử, lấy 1% tồi nhất",
-  "Parametric VaR: VaR = Portfolio × Z × σ (giả định phân phối chuẩn)",
-  "Expected Shortfall: Mất lỗ trung bình vượt quá VaR",
-  "Correlation Breakdown: Khi thị trường crash, correlation → 1 (diversification fail!)",
-  "Stress Testing: Kịch bản cực đoan (2008 crisis, COVID, war, etc)"
-]
+items = ["Risk Management = Định lượng, monitor, minimize rủi ro tài chính", "VaR_α = Tổn thất tối đa ở mức tin cậy α% (đã học ở Bài 6)", "Historical VaR: Từ 250 ngày lịch sử, lấy 1% tồi nhất", "Parametric VaR: VaR = Portfolio × Z × σ (giả định phân phối chuẩn)", "Expected Shortfall: Mất lỗ trung bình vượt quá VaR", "Correlation Breakdown: Khi thị trường crash, correlation → 1 (diversification fail!)", "Stress Testing: Kịch bản cực đoan (2008 crisis, COVID, war, etc)"]
 thumbnail = "images/posts/risk-management-trong-tai-chinh-dung-toan-hoc.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/woman-with-gloves-inserting-a-card-into-an-automated-machine-5699338/"

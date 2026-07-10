@@ -1,74 +1,93 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Caribbean Bay và Ocean World là hai công viên nước lớn nhất gần Seoul, mỗi nơi
-    có ưu nhược điểm riêng.
-  - Caribbean Bay lớn hơn, nhiều trò chơi hơn nhưng đông và đắt hơn. Ocean World rẻ
-    hơn, vắng hơn.
-  - Bài viết so sánh 10 tiêu chí giúp bạn chọn công viên phù hợp nhất.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.everland.com, https://www.oceanworld.co.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: 'Ocean World vs Caribbean Bay: so sánh chi tiết giá vé, khoảng cách,
-  trò chơi, độ đông. Nên chọn công viên nước nào gần Seoul?'
-draft: false
-faq:
-- answer: Caribbean Bay nếu thích nhiều trò, không ngại đông. Ocean World nếu muốn
-    rẻ và vắng.
-  question: Nên chọn công viên nước nào?
-- answer: Caribbean Bay 40 phút, Ocean World 60 phút.
-- answer: Caribbean Bay (50.000–60.000 KRW). Ocean World (40.000–50.000 KRW).
-image: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Lu Zhao
-image_creator_id: '145486608'
-image_creator_url: https://www.pexels.com/@lu-zhao-145486608
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/silhouette-of-a-man-standing-in-front-of-a-huge-tank-in-an-aquarium-10431750/
-internal_links:
-- ref: posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md
-- ref: posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md
-- ref: posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md
-- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-- ref: posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md
-- ref: posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md
-- ref: posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md
-- ref: posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md
-seo_title: 'Ocean World vs Caribbean Bay: nên chọn công viên nước nào'
-series: du-lich-han-quoc-mua-he
-series_order: 10
-series_title: Du lịch Hàn Quốc mùa hè
-slug: ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul
-tags:
-- công viên nước Hàn Quốc
-- Caribbean Bay
-- Ocean World
-- Seoul
-- series du lịch
-thumbnail: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
-title: 'Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?'
-tom_tat_nhanh:
-- label: Caribbean Bay
-  value: Lớn, nhiều trò, đông
-- label: Ocean World
-- label: Khoảng cách
-- label: Giá vé
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Ocean World vs Caribbean Bay: so sánh chi tiết giá vé, khoảng cách, trò chơi, độ đông. Nên chọn công viên nước nào gần Seoul?"
+draft = false
+image = "images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Lu Zhao"
+image_creator_id = "145486608"
+image_creator_url = "https://www.pexels.com/@lu-zhao-145486608"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/silhouette-of-a-man-standing-in-front-of-a-huge-tank-in-an-aquarium-10431750/"
+seo_title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào"
+series = "du-lich-han-quoc-mua-he"
+series_order = 10
+series_title = "Du lịch Hàn Quốc mùa hè"
+slug = "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul"
+tags = ["công viên nước Hàn Quốc", "Caribbean Bay", "Ocean World", "Seoul", "series du lịch"]
+thumbnail = "images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp"
+title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Caribbean Bay và Ocean World là hai công viên nước lớn nhất gần Seoul, mỗi nơi có ưu nhược điểm riêng.", "Caribbean Bay lớn hơn, nhiều trò chơi hơn nhưng đông và đắt hơn. Ocean World rẻ hơn, vắng hơn.", "Bài viết so sánh 10 tiêu chí giúp bạn chọn công viên phù hợp nhất."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.everland.com, https://www.oceanworld.co.kr."
+
+[[faq]]
+answer = "Caribbean Bay nếu thích nhiều trò, không ngại đông. Ocean World nếu muốn rẻ và vắng."
+question = "Nên chọn công viên nước nào?"
+
+[[faq]]
+answer = "Caribbean Bay 40 phút, Ocean World 60 phút."
+
+[[faq]]
+answer = "Caribbean Bay (50.000–60.000 KRW). Ocean World (40.000–50.000 KRW)."
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+
+[[internal_links]]
+ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
+
+[[internal_links]]
+ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+
+[[internal_links]]
+ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+
+[[tom_tat_nhanh]]
+label = "Caribbean Bay"
+value = "Lớn, nhiều trò, đông"
+
+[[tom_tat_nhanh]]
+label = "Ocean World"
+
+[[tom_tat_nhanh]]
+label = "Khoảng cách"
+
+[[tom_tat_nhanh]]
+label = "Giá vé"
++++
 
 Cả Caribbean Bay và Ocean World đều là công viên nước hàng đầu gần Seoul. Bài viết so sánh giúp bạn chọn đúng.
 

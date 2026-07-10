@@ -1,82 +1,68 @@
----
-ai_summary:
-  collapsed: false
-  disclaimer: Bài viết dựa trên nguồn chính thức tại thời điểm cập nhật; quy định
-    visa có thể thay đổi và cần kiểm tra lại trên MOFA/KVAC trước khi nộp hồ sơ.
-  enabled: true
-  items:
-  - Diện thu nhập hàng năm trên 8.000 USD được Đại sứ quán Hàn Quốc tại Việt Nam nêu
-    trong nhóm được mở rộng miễn/giản lược chứng minh tài chính visa du lịch và xét
-    thị thực nhiều lần.
-  - Điểm quan trọng nhất là chứng minh thu nhập bằng sao kê tài khoản ngân hàng, không
-    chỉ ghi mức lương trong hợp đồng.
-  - Hồ sơ nên chuẩn bị theo logic nhất quán, chứng minh nhân thân, công việc, thu
-    nhập, lịch trình du lịch và ràng buộc quay về Việt Nam.
-  - Đủ điều kiện chỉ là điều kiện cần, không phải yếu tố quyết định được cấp visa;
-    Đại sứ quán vẫn có quyền từ chối nếu hồ sơ thiếu nhất quán hoặc có nghi vấn lưu
-    trú bất hợp pháp.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tổng hợp từ nguồn chính thức của Bộ
-    Ngoại giao/Đại sứ quán Hàn Quốc và Trung tâm tiếp nhận hồ sơ KVAC.
-  source_note: 'Nguồn kiểm chứng chính: thông báo mở rộng đối tượng miễn chứng minh
-    tài chính của Đại sứ quán Hàn Quốc tại Việt Nam (overseas.mofa.go.kr) và trang
-    KVAC (visaforkorea-vt.com). Đây là bài hướng dẫn chuẩn bị hồ sơ, không phải dịch
-    vụ visa và không cam kết kết quả.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-09 04:00:00+07:00'
-description: Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính "chưa đủ mạnh"?
-  Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính,
-  nhưng
-draft: false
-external_links:
-- title: Đại sứ quán Hàn Quốc tại Việt Nam — Thông báo mở rộng đối tượng miễn chứng
-    minh tài chính và xét thị thực nhiều lần
-  url: https://overseas.mofa.go.kr/vn-vi/brd/m_2164/view.do?seq=755003
-- title: Korea Visa Application Center (KVAC) — Trung tâm tiếp nhận hồ sơ visa Hàn
-    Quốc tại Việt Nam
-image: images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp
-image_alt: 'Ảnh minh họa Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm:
-  hồ sơ, điều kiện và cách chuẩn bị — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:37+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_color_score: 12.0
-image_commercial_use: true
-image_creator: Saksham Vikram
-image_creator_id: '2148641748'
-image_creator_url: https://www.pexels.com/@saksham-vikram-2148641748
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_provider: pexels
-image_query: bukchon hanok village korea
-image_semantic_score: 29.02
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/traditional-hanok-village-street-in-seoul-33019244/
-image_status: verified
-image_total_score: 64.52
-seo_title: Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000
-slug: xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd
-tags:
-- visa Hàn Quốc
-- visa Hàn Quốc 5 năm
-- visa du lịch Hàn Quốc
-- visa Hàn Quốc 8000 USD
-- du lịch Hàn Quốc tự túc
-thumbnail: images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp
-title: 'Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều
-  kiện và cách chuẩn bị'
-tom_tat_nhanh:
-- label: Diện áp dụng
-  value: Thu nhập năm trên 8.000 USD, chứng minh qua sao kê ngân hàng
-- label: Bằng chứng cốt lõi
-- label: Thị thực nhiều lần
-- label: Lưu ý quan trọng
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-09T04:00:00+07:00"
+description = "Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính \"chưa đủ mạnh\"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng"
+draft = false
+image = "images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp"
+image_alt = "Ảnh minh họa Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:37+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_color_score = 12.0
+image_commercial_use = true
+image_creator = "Saksham Vikram"
+image_creator_id = "2148641748"
+image_creator_url = "https://www.pexels.com/@saksham-vikram-2148641748"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_provider = "pexels"
+image_query = "bukchon hanok village korea"
+image_semantic_score = 29.02
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/traditional-hanok-village-street-in-seoul-33019244/"
+image_status = "verified"
+image_total_score = 64.52
+seo_title = "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000"
+slug = "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd"
+tags = ["visa Hàn Quốc", "visa Hàn Quốc 5 năm", "visa du lịch Hàn Quốc", "visa Hàn Quốc 8000 USD", "du lịch Hàn Quốc tự túc"]
+thumbnail = "images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp"
+title = "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị"
+date_display = "09-07-2026 04:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+disclaimer = "Bài viết dựa trên nguồn chính thức tại thời điểm cập nhật; quy định visa có thể thay đổi và cần kiểm tra lại trên MOFA/KVAC trước khi nộp hồ sơ."
+enabled = true
+items = ["Diện thu nhập hàng năm trên 8.000 USD được Đại sứ quán Hàn Quốc tại Việt Nam nêu trong nhóm được mở rộng miễn/giản lược chứng minh tài chính visa du lịch và xét thị thực nhiều lần.", "Điểm quan trọng nhất là chứng minh thu nhập bằng sao kê tài khoản ngân hàng, không chỉ ghi mức lương trong hợp đồng.", "Hồ sơ nên chuẩn bị theo logic nhất quán, chứng minh nhân thân, công việc, thu nhập, lịch trình du lịch và ràng buộc quay về Việt Nam.", "Đủ điều kiện chỉ là điều kiện cần, không phải yếu tố quyết định được cấp visa; Đại sứ quán vẫn có quyền từ chối nếu hồ sơ thiếu nhất quán hoặc có nghi vấn lưu trú bất hợp pháp."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tổng hợp từ nguồn chính thức của Bộ Ngoại giao/Đại sứ quán Hàn Quốc và Trung tâm tiếp nhận hồ sơ KVAC."
+source_note = "Nguồn kiểm chứng chính: thông báo mở rộng đối tượng miễn chứng minh tài chính của Đại sứ quán Hàn Quốc tại Việt Nam (overseas.mofa.go.kr) và trang KVAC (visaforkorea-vt.com). Đây là bài hướng dẫn chuẩn bị hồ sơ, không phải dịch vụ visa và không cam kết kết quả."
+
+[[external_links]]
+title = "Đại sứ quán Hàn Quốc tại Việt Nam — Thông báo mở rộng đối tượng miễn chứng minh tài chính và xét thị thực nhiều lần"
+url = "https://overseas.mofa.go.kr/vn-vi/brd/m_2164/view.do?seq=755003"
+
+[[external_links]]
+title = "Korea Visa Application Center (KVAC) — Trung tâm tiếp nhận hồ sơ visa Hàn Quốc tại Việt Nam"
+
+[[tom_tat_nhanh]]
+label = "Diện áp dụng"
+value = "Thu nhập năm trên 8.000 USD, chứng minh qua sao kê ngân hàng"
+
+[[tom_tat_nhanh]]
+label = "Bằng chứng cốt lõi"
+
+[[tom_tat_nhanh]]
+label = "Thị thực nhiều lần"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý quan trọng"
++++
 
 Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính "chưa đủ mạnh"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng không rõ điều đó có thật không, và phải chứng minh bằng lương, sao kê hay sổ tiết kiệm? Bạn sợ nộp sai diện, mất phí, rồi rớt visa mà không hiểu vì sao?
 

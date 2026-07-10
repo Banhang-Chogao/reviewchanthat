@@ -1,69 +1,71 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Gatekeeper App Store + iOS buộc Apple mở phân phối thay thế, anti-steering và
-    minh bạch hơn ở EU.
-  - Apple mất đòn bẩy độc quyền hoa hồng, kiểm soát luồng thanh toán và lập luận pháp
-    lý tách App Store.
-  - Tòa Tổng 8/7/2026 xác nhận gatekeeper — khác vụ phạt €500M anti-steering đang
-    kháng cáo.
-  - Apple vẫn giữ notarization, thương hiệu bảo mật và khả năng tách chính sách EU
-    vs toàn cầu.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Phân tích từ nguồn EC, Tòa EU và tuyên bố Apple.
-  source_note: Đối chiếu cp260096en.pdf, EC 23/4/2025, Apple Newsroom DMA impacts.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 09:40:00+07:00'
-description: 'Khi Apple là gatekeeper App Store và iOS theo DMA: Apple mất quyền kiểm
-  soát gì, giữ được gì — sau phán quyết Tòa EU 8/7/2026.'
-draft: false
-external_links:
-- title: Tòa Tổng EU — Gatekeeper Apple App Store & iOS (8/7/2026)
-  url: https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf
-- title: Apple Newsroom — Tác động DMA lên người dùng EU
-- title: EC — Quyết định anti-steering Apple (23/4/2025)
-- title: CNBC — Apple kháng cáo phạt €500M
-- title: Digital Markets Act — EC
-image: images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp
-image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Christina Morillo
-image_creator_id: '473730'
-image_creator_url: https://www.pexels.com/@divinetechygirl
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/black-smartphone-on-white-table-1181677/
-series: apple-ec-dma-app-store-ios
-series_order: 3
-series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
-slug: app-store-gatekeeper-apple-so-mat-dieu-gi
-tags:
-- Apple
-- European Commission
-- Digital Markets Act
-- App Store
-- iOS
-- EU
-- gatekeeper
-thumbnail: images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp
-title: 'App Store gatekeeper: Apple sợ mất điều gì?'
-tom_tat_nhanh:
-- label: Gatekeeper
-  value: App Store + iOS — Tòa EU xác nhận 8/7/2026
-- label: Apple mất
-- label: Apple giữ
-- label: Tách biệt
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T09:40:00+07:00"
+description = "Khi Apple là gatekeeper App Store và iOS theo DMA: Apple mất quyền kiểm soát gì, giữ được gì — sau phán quyết Tòa EU 8/7/2026."
+draft = false
+image = "images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Christina Morillo"
+image_creator_id = "473730"
+image_creator_url = "https://www.pexels.com/@divinetechygirl"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/black-smartphone-on-white-table-1181677/"
+series = "apple-ec-dma-app-store-ios"
+series_order = 3
+series_title = "Apple vs EC: App Store, iOS và Digital Markets Act"
+slug = "app-store-gatekeeper-apple-so-mat-dieu-gi"
+tags = ["Apple", "European Commission", "Digital Markets Act", "App Store", "iOS", "EU", "gatekeeper"]
+thumbnail = "images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+date_display = "08-07-2026 09:40:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Gatekeeper App Store + iOS buộc Apple mở phân phối thay thế, anti-steering và minh bạch hơn ở EU.", "Apple mất đòn bẩy độc quyền hoa hồng, kiểm soát luồng thanh toán và lập luận pháp lý tách App Store.", "Tòa Tổng 8/7/2026 xác nhận gatekeeper — khác vụ phạt €500M anti-steering đang kháng cáo.", "Apple vẫn giữ notarization, thương hiệu bảo mật và khả năng tách chính sách EU vs toàn cầu."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Phân tích từ nguồn EC, Tòa EU và tuyên bố Apple."
+source_note = "Đối chiếu cp260096en.pdf, EC 23/4/2025, Apple Newsroom DMA impacts."
+
+[[external_links]]
+title = "Tòa Tổng EU — Gatekeeper Apple App Store & iOS (8/7/2026)"
+url = "https://curia.europa.eu/site/upload/docs/application/pdf/2026-07/cp260096en.pdf"
+
+[[external_links]]
+title = "Apple Newsroom — Tác động DMA lên người dùng EU"
+
+[[external_links]]
+title = "EC — Quyết định anti-steering Apple (23/4/2025)"
+
+[[external_links]]
+title = "CNBC — Apple kháng cáo phạt €500M"
+
+[[external_links]]
+title = "Digital Markets Act — EC"
+
+[[tom_tat_nhanh]]
+label = "Gatekeeper"
+value = "App Store + iOS — Tòa EU xác nhận 8/7/2026"
+
+[[tom_tat_nhanh]]
+label = "Apple mất"
+
+[[tom_tat_nhanh]]
+label = "Apple giữ"
+
+[[tom_tat_nhanh]]
+label = "Tách biệt"
++++
 
 “Gatekeeper” nghe như tên phim — nhưng với Apple, đó là **nhãn pháp lý** gắn trực tiếp lên **App Store** và **iOS** tại EU. Ngày [8/7/2026, Tòa Tổng EU bác kiện Apple](/posts/apple-thua-kien-eu-app-store-ios-dma/) và **giữ nguyên** nhãn đó.
 

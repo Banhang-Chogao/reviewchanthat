@@ -12,17 +12,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 1
 image = "images/posts/ham-so-mu-e-trong-tai-chinh-la-gi.webp"
 image_alt = "Ảnh minh họa Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản — nguồn Pexels"
+date_display = "10-07-2026 13:16:14 GMT +7"
+lastmod_display = "10-07-2026 14:00:00 GMT +7"
 
 [ai_summary]
-items = [
-  "Số e là gì và tại sao nó xuất hiện trong tài chính khi số lần nhập lãi tăng dần",
-  "Giới hạn toán học (1 + r/n)^(nt) → e^(rt) và ứng dụng vào công thức lãi kép liên tục",
-  "Công thức A = Pe^(rt) để tính lãi kép liên tục và công thức chiết khấu PV = FV × e^(-rt)",
-  "Ví dụ thực tế: 100 triệu VND, lãi 6%/năm, 10 năm qua 5 cách tính (đơn, kép hàng năm, tháng, ngày, liên tục)",
-  "Bảng so sánh chênh lệch giữa các phương pháp tính lãi và khi nào chênh lệch có ý nghĩa",
-  "Vì sao tài chính chuyên nghiệp (quỹ, bảo hiểm, ngân hàng đầu tư) lại dùng e nhưng gửi tiết kiệm thông thường thì không",
-  "Ứng dụng thực tế của e trong định giá quyền chọn, quản trị rủi ro, actuarial science, và log-return"
-]
+items = ["Số e là gì và tại sao nó xuất hiện trong tài chính khi số lần nhập lãi tăng dần", "Giới hạn toán học (1 + r/n)^(nt) → e^(rt) và ứng dụng vào công thức lãi kép liên tục", "Công thức A = Pe^(rt) để tính lãi kép liên tục và công thức chiết khấu PV = FV × e^(-rt)", "Ví dụ thực tế: 100 triệu VND, lãi 6%/năm, 10 năm qua 5 cách tính (đơn, kép hàng năm, tháng, ngày, liên tục)", "Bảng so sánh chênh lệch giữa các phương pháp tính lãi và khi nào chênh lệch có ý nghĩa", "Vì sao tài chính chuyên nghiệp (quỹ, bảo hiểm, ngân hàng đầu tư) lại dùng e nhưng gửi tiết kiệm thông thường thì không", "Ứng dụng thực tế của e trong định giá quyền chọn, quản trị rủi ro, actuarial science, và log-return"]
 thumbnail = "images/posts/ham-so-mu-e-trong-tai-chinh-la-gi.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/person-deposits-money-on-an-atm-5699385/"

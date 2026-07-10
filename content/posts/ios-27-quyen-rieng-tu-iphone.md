@@ -1,58 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - iOS 27 tiếp tục on-device AI và Private Cloud Compute — Apple nhấn không train
-    model công khai bằng dữ liệu người dùng.
-  - 'Parental controls mở rộng: Communication Safety, Ask to Browse và Time Allowances
-    theo nhóm app.'
-  - Người dùng nên rà soát quyền Photos, Clipboard và Apple Intelligence sau khi lên
-    iOS 27.
-  - 'So với chatbot web: Apple Intelligence gắn chặt hệ sinh thái nhưng giảm rủi ro
-    dữ liệu rò qua bên thứ ba tùy cách dùng.'
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 10:20:00+07:00'
-description: 'Quyền riêng tư trên iOS 27: Private Cloud Compute, Siri AI, parental
-  controls, quyền app và checklist cho người dùng iPhone tại Việt Nam.'
-draft: false
-image: images/posts/ios-27-quyen-rieng-tu-iphone.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Jess Bailey Designs
-image_creator_id: '229739'
-image_creator_url: https://www.pexels.com/@jessbaileydesign
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/iphone-ipad-laptop-788946/
-seo_title: 'iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều'
-series: ios-27-co-gi-moi
-series_order: 8
-series_title: iOS 27 có gì mới
-slug: ios-27-quyen-rieng-tu-iphone
-tags:
-- iOS 27
-- quyền riêng tư
-- Private Cloud Compute
-- Apple Intelligence
-- an toàn trẻ em
-thumbnail: images/posts/ios-27-quyen-rieng-tu-iphone.webp
-title: 'iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Privacy trên iOS 27
-- label: AI
-- label: Trẻ em
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T10:20:00+07:00"
+description = "Quyền riêng tư trên iOS 27: Private Cloud Compute, Siri AI, parental controls, quyền app và checklist cho người dùng iPhone tại Việt Nam."
+draft = false
+image = "images/posts/ios-27-quyen-rieng-tu-iphone.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Jess Bailey Designs"
+image_creator_id = "229739"
+image_creator_url = "https://www.pexels.com/@jessbaileydesign"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/iphone-ipad-laptop-788946/"
+seo_title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều"
+series = "ios-27-co-gi-moi"
+series_order = 8
+series_title = "iOS 27 có gì mới"
+slug = "ios-27-quyen-rieng-tu-iphone"
+tags = ["iOS 27", "quyền riêng tư", "Private Cloud Compute", "Apple Intelligence", "an toàn trẻ em"]
+thumbnail = "images/posts/ios-27-quyen-rieng-tu-iphone.webp"
+title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+date_display = "08-07-2026 10:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iOS 27 tiếp tục on-device AI và Private Cloud Compute — Apple nhấn không train model công khai bằng dữ liệu người dùng.", "Parental controls mở rộng: Communication Safety, Ask to Browse và Time Allowances theo nhóm app.", "Người dùng nên rà soát quyền Photos, Clipboard và Apple Intelligence sau khi lên iOS 27.", "So với chatbot web: Apple Intelligence gắn chặt hệ sinh thái nhưng giảm rủi ro dữ liệu rò qua bên thứ ba tùy cách dùng."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Privacy trên iOS 27"
+
+[[tom_tat_nhanh]]
+label = "AI"
+
+[[tom_tat_nhanh]]
+label = "Trẻ em"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Mỗi lần Apple nhắc **AI**, câu hỏi tiếp theo luôn là: **dữ liệu của tôi đi đâu?** iOS 27 không ngoại lệ — Siri AI đọc Messages, Photos AI xử lý ảnh gia đình, Safari Notify Me theo dõi trang web. Apple hứa **on-device** và **Private Cloud Compute**, nhưng người dùng vẫn cần hiểu giới hạn thực tế.
 

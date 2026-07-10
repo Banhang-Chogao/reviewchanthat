@@ -1,76 +1,85 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Wolmido là đảo nhỏ ở Incheon, nối với đất liền, có boardwalk dài và khu vui chơi
-    giải trí.
-  - Đi metro từ Seoul mất khoảng 1 giờ — dễ dàng cho một buổi chiều tối.
-  - Phù hợp với gia đình có trẻ em nhờ khu vui chơi, thủy cung và tàu lượn.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https://www.incheon.go.kr/.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 07:00:00+07:00'
-description: Wolmido Incheon là khu vui chơi ven biển gần Seoul, có boardwalk, tàu
-  lượn, thủy cung và nhà hàng hải sản. Đi metro từ Seoul chỉ 1 giờ.
-draft: false
-external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-- title: https://www.incheon.go.kr/
-faq:
-- answer: Không. Bạn chỉ trả tiền khi chơi trò chơi, ăn uống hoặc vào thủy cung.
-  question: Wolmido có mất vé vào cửa không?
-- answer: Không cần thiết. Nửa ngày là đủ. Wolmido là điểm đến lý tưởng để kết hợp
-    với các hoạt động khác trong ngày.
-- answer: Có, rất phù hợp. Các trò chơi nhẹ nhàng, boardwalk rộng, có thủy cung.
-image: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
-image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: joon young, Park
-image_creator_id: '3425379'
-image_creator_url: https://www.pexels.com/@doldosa
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/view-of-the-yeongjong-bridge-in-incheon-south-korea-during-sunset-14958503/
-internal_links:
-- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-- ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md
-- ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
-seo_title: 'Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho'
-series: du-lich
-series_order: 13
-series_title: Du lịch Hàn Quốc 2026
-slug: wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Incheon
-- Wolmido
-- Seoul
-- gia đình
-- series du lịch
-thumbnail: images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp
-title: 'Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình'
-tom_tat_nhanh:
-- label: Khu vực
-  value: Jung-gu, Incheon
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Lưu ý mùa hè
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T07:00:00+07:00"
+description = "Wolmido Incheon là khu vui chơi ven biển gần Seoul, có boardwalk, tàu lượn, thủy cung và nhà hàng hải sản. Đi metro từ Seoul chỉ 1 giờ."
+draft = false
+image = "images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp"
+image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "joon young, Park"
+image_creator_id = "3425379"
+image_creator_url = "https://www.pexels.com/@doldosa"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/view-of-the-yeongjong-bridge-in-incheon-south-korea-during-sunset-14958503/"
+seo_title = "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho"
+series = "du-lich"
+series_order = 13
+series_title = "Du lịch Hàn Quốc 2026"
+slug = "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh"
+tags = ["du lịch Hàn Quốc", "Hàn Quốc mùa hè", "Incheon", "Wolmido", "Seoul", "gia đình", "series du lịch"]
+thumbnail = "images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp"
+title = "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình"
+date_display = "08-07-2026 07:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Wolmido là đảo nhỏ ở Incheon, nối với đất liền, có boardwalk dài và khu vui chơi giải trí.", "Đi metro từ Seoul mất khoảng 1 giờ — dễ dàng cho một buổi chiều tối.", "Phù hợp với gia đình có trẻ em nhờ khu vui chơi, thủy cung và tàu lượn."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX, https://www.incheon.go.kr/."
+
+[[external_links]]
+title = "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
+url = "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
+
+[[external_links]]
+title = "https://www.incheon.go.kr/"
+
+[[faq]]
+answer = "Không. Bạn chỉ trả tiền khi chơi trò chơi, ăn uống hoặc vào thủy cung."
+question = "Wolmido có mất vé vào cửa không?"
+
+[[faq]]
+answer = "Không cần thiết. Nửa ngày là đủ. Wolmido là điểm đến lý tưởng để kết hợp với các hoạt động khác trong ngày."
+
+[[faq]]
+answer = "Có, rất phù hợp. Các trò chơi nhẹ nhàng, boardwalk rộng, có thủy cung."
+
+[[internal_links]]
+ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
+
+[[internal_links]]
+ref = "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md"
+
+[[internal_links]]
+ref = "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md"
+
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Jung-gu, Incheon"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý mùa hè"
++++
 
 Wolmido thực ra không phải đảo nữa — nó đã được nối với đất liền từ lâu. Nhưng cái tên "đảo" vẫn gắn liền với khu vui chơi ven biển nổi tiếng nhất Incheon, chỉ 1 tiếng metro từ Seoul.
 

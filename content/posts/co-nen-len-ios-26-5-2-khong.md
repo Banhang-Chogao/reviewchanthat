@@ -1,6 +1,6 @@
 +++
 title = "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
-date = "2026-07-09 17:30:00+07:00"
+date = "2026-07-09T17:30:00+07:00"
 description = "iOS 26.5.2 là bản vá bảo mật cho iPhone. Giải thích vì sao nên cập nhật sớm, ai nên lên ngay, và những lưu ý trước khi cài như backup và không thể hạ cấp."
 categories = ["cong-nghe"]
 tags = ["iOS 26.5.2", "cập nhật iOS", "bảo mật iPhone", "iOS 26", "nâng cấp iPhone"]
@@ -23,16 +23,12 @@ image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
 draft = false
 seo_title = "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần"
+date_display = "09-07-2026 17:30:00 GMT +7"
 
 [ai_summary]
 enabled = true
 title = "Tóm tắt nhanh"
-items = [
-  "iOS 26.5.2 được Apple mô tả là bản cập nhật cung cấp các bản vá bảo mật cho iPhone.",
-  "Với bản vá bảo mật thì nên cập nhật sớm: Apple thường chỉ công bố chi tiết lỗ hổng sau khi bản vá đã phát hành rộng.",
-  "Bản cập nhật dành cho iPhone 11 trở lên; đã cài rồi thì iOS không thể hạ cấp về bản cũ.",
-  "Trước khi cài: sao lưu, đủ pin và dung lượng; dung lượng tải khác nhau theo máy."
-]
+items = ["iOS 26.5.2 được Apple mô tả là bản cập nhật cung cấp các bản vá bảo mật cho iPhone.", "Với bản vá bảo mật thì nên cập nhật sớm: Apple thường chỉ công bố chi tiết lỗ hổng sau khi bản vá đã phát hành rộng.", "Bản cập nhật dành cho iPhone 11 trở lên; đã cài rồi thì iOS không thể hạ cấp về bản cũ.", "Trước khi cài: sao lưu, đủ pin và dung lượng; dung lượng tải khác nhau theo máy."]
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì — nguồn Pexels"
 +++

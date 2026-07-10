@@ -1,52 +1,51 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Blue Titanium là màu cá tính nhất trong bốn màu iPhone 15 Pro Max.
-  - Màu dễ phai và lộ vết trầy góc — cần kiểm tra kỹ khi mua second-hand.
-  - Giá máy cũ Blue thường thấp hơn Natural nếu viền phai nhiều.
-  - Đáng săn nếu bạn thích look độc và không định bán lại sớm.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 11:40:00+07:00'
-description: 'Blue Titanium trên iPhone 15 Pro Max: độ đẹp khi mới, phai màu theo
-  thời gian, giá máy cũ và có nên săn màu này năm 2026.'
-draft: false
-image: images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp
-image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: C. ISO
-image_creator_id: '329101566'
-image_creator_url: https://www.pexels.com/@c-iso-329101566
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-smartphone-on-the-table-14121456/
-series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 3
-series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
-slug: iphone-15-pro-max-blue-titanium-co-dang-san
-tags:
-- iPhone 15 Pro Max
-- Blue Titanium
-- màu titan
-- mua iPhone cũ
-thumbnail: images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp
-title: iPhone 15 Pro Max Blue Titanium có đáng săn?
-tom_tat_nhanh:
-- label: Màu
-  value: Blue Titanium — xanh xám đặc trưng
-- label: Điểm mạnh
-- label: Rủi ro
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T11:40:00+07:00"
+description = "Blue Titanium trên iPhone 15 Pro Max: độ đẹp khi mới, phai màu theo thời gian, giá máy cũ và có nên săn màu này năm 2026."
+draft = false
+image = "images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp"
+image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "C. ISO"
+image_creator_id = "329101566"
+image_creator_url = "https://www.pexels.com/@c-iso-329101566"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/a-smartphone-on-the-table-14121456/"
+series = "iphone-15-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 3
+series_title = "iPhone 15 Pro Max màu titan: đánh giá trên tay"
+slug = "iphone-15-pro-max-blue-titanium-co-dang-san"
+tags = ["iPhone 15 Pro Max", "Blue Titanium", "màu titan", "mua iPhone cũ"]
+thumbnail = "images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+date_display = "08-07-2026 11:40:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Blue Titanium là màu cá tính nhất trong bốn màu iPhone 15 Pro Max.", "Màu dễ phai và lộ vết trầy góc — cần kiểm tra kỹ khi mua second-hand.", "Giá máy cũ Blue thường thấp hơn Natural nếu viền phai nhiều.", "Đáng săn nếu bạn thích look độc và không định bán lại sớm."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Màu"
+value = "Blue Titanium — xanh xám đặc trưng"
+
+[[tom_tat_nhanh]]
+label = "Điểm mạnh"
+
+[[tom_tat_nhanh]]
+label = "Rủi ro"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Trong bốn màu titan của iPhone 15 Pro Max, **Blue Titanium** là màu **dễ nhận ra nhất** trên bàn cafe — tone xanh xám lạnh, khác hẳn Natural hay Black. Câu hỏi năm 2026: **còn đáng săn không khi nhiều máy đã phai màu?**
 

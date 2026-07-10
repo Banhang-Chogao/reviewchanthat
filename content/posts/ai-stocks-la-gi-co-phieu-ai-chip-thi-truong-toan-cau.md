@@ -1,6 +1,6 @@
 +++
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-date = "2026-07-10 05:00:00+07:00"
+date = "2026-07-10T05:00:00+07:00"
 categories = ["tai-chinh"]
 tags = ["AI stocks", "chip semiconductors", "cổ phiếu công nghệ", "đầu tư AI", "NVIDIA", "thị trường toàn cầu"]
 author = "Minh Hoàng"
@@ -17,27 +17,17 @@ image_attribution_source = "pexels_api"
 image_attribution_verified = true
 seo_title = "AI stocks là gì? Cổ phiếu AI, chip và tác động toàn cầu lên nhà đầu tư Việt Nam"
 description = "AI stocks và chip stocks là công cụ đầu tư quan trọng trong kỷ nguyên AI. Bài viết giải thích cấu trúc thị trường chip, lãnh đạo như NVIDIA/TSMC, và ảnh hưởng đến Việt Nam."
+date_display = "10-07-2026 05:00:00 GMT +7"
 
 [custom_image_queries]
-queries = [
-  "artificial intelligence technology chip circuit",
-  "AI semiconductor manufacturing",
-  "tech stock market trading",
-  "computer chip processors",
-  "data center server farm"
-]
+queries = ["artificial intelligence technology chip circuit", "AI semiconductor manufacturing", "tech stock market trading", "computer chip processors", "data center server farm"]
 
 [ai_summary]
 enabled = true
 title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết giáo dục về cổ phiếu AI và chip; không phải tư vấn đầu tư cá nhân. Luôn yêu cầu tư vấn từ chuyên gia tài chính trước khi quyết định."
-items = [
-  "AI stocks là cổ phiếu của các công ty phát triển hoặc sử dụng công nghệ AI; chip stocks là cổ phiếu các hãng chế tạo chip (NVIDIA, TSMC, Intel).",
-  "Thị trường chip toàn cầu được thúc đẩy bởi nhu cầu AI, cloud computing, xe tự lái. NVIDIA dẫn đầu GPU supply; TSMC là nhà máy chính.",
-  "Ảnh hưởng đến Việt Nam: lương công nhân công ty chip tăng, chuỗi cung ứng thay đổi, nhập khẩu chip tăng, FDI tech dồi dào.",
-  "Rủi ro: bubble định giá, chiến tranh thương mại Mỹ-Trung, tập trung quá nhiều vào vài cổ phiếu mega-cap, biến động công nghệ."
-]
+items = ["AI stocks là cổ phiếu của các công ty phát triển hoặc sử dụng công nghệ AI; chip stocks là cổ phiếu các hãng chế tạo chip (NVIDIA, TSMC, Intel).", "Thị trường chip toàn cầu được thúc đẩy bởi nhu cầu AI, cloud computing, xe tự lái. NVIDIA dẫn đầu GPU supply; TSMC là nhà máy chính.", "Ảnh hưởng đến Việt Nam: lương công nhân công ty chip tăng, chuỗi cung ứng thay đổi, nhập khẩu chip tăng, FDI tech dồi dào.", "Rủi ro: bubble định giá, chiến tranh thương mại Mỹ-Trung, tập trung quá nhiều vào vài cổ phiếu mega-cap, biến động công nghệ."]
 image_commercial_use = true
 image_owner = "external"
 image_creator_id = ""

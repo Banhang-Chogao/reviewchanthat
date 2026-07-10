@@ -1,60 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple preview macOS Golden Gate 27 tại WWDC26 với Siri AI trong Spotlight, Safari
-    Notify Me và thiết kế Liquid Glass tinh chỉnh.
-  - Theo apple.com/os/macos, máy tương thích gồm Mac Apple Silicon từ 2020 trở lên;
-    danh sách chính thức không liệt kê Mac Intel.
-  - Public beta dự kiến tháng 7/2026, bản chính thức mùa thu 2026; Apple Intelligence
-    trên Mac yêu cầu chip M-series đủ điều kiện.
-  - Series gồm 9 bài về tương thích, AI, hiệu năng, beta và checklist nâng cấp cho
-    người dùng Việt Nam.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 11:00:00+07:00'
-description: 'Mỗi năm sau WWDC, cộng đồng Mac Việt Nam lại hỏi cùng một câu: có đáng
-  lên macOS mới không, hay cứ ở bản cũ cho ổn định? Năm nay câu hỏi còn gay cấn hơn
-  vì'
-draft: false
-image: images/posts/macos-27-co-gi-moi.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Negative Space
-image_creator_id: '3738'
-image_creator_url: https://www.pexels.com/@negativespace
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/macbook-pro-92904/
-seo_title: macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook
-series: macos-27-co-gi-moi
-series_order: 1
-series_title: macOS 27 có gì mới
-slug: macos-27-co-gi-moi
-tags:
-- macOS 27
-- macOS Golden Gate
-- Siri AI
-- Apple Intelligence
-- Mac
-- WWDC26
-thumbnail: images/posts/macos-27-co-gi-moi.webp
-title: macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Tổng quan macOS Golden Gate 27
-- label: Ra mắt
-- label: Điểm nổi bật
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T11:00:00+07:00"
+description = "Mỗi năm sau WWDC, cộng đồng Mac Việt Nam lại hỏi cùng một câu: có đáng lên macOS mới không, hay cứ ở bản cũ cho ổn định? Năm nay câu hỏi còn gay cấn hơn vì"
+draft = false
+image = "images/posts/macos-27-co-gi-moi.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Negative Space"
+image_creator_id = "3738"
+image_creator_url = "https://www.pexels.com/@negativespace"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/macbook-pro-92904/"
+seo_title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook"
+series = "macos-27-co-gi-moi"
+series_order = 1
+series_title = "macOS 27 có gì mới"
+slug = "macos-27-co-gi-moi"
+tags = ["macOS 27", "macOS Golden Gate", "Siri AI", "Apple Intelligence", "Mac", "WWDC26"]
+thumbnail = "images/posts/macos-27-co-gi-moi.webp"
+title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
+date_display = "08-07-2026 11:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple preview macOS Golden Gate 27 tại WWDC26 với Siri AI trong Spotlight, Safari Notify Me và thiết kế Liquid Glass tinh chỉnh.", "Theo apple.com/os/macos, máy tương thích gồm Mac Apple Silicon từ 2020 trở lên; danh sách chính thức không liệt kê Mac Intel.", "Public beta dự kiến tháng 7/2026, bản chính thức mùa thu 2026; Apple Intelligence trên Mac yêu cầu chip M-series đủ điều kiện.", "Series gồm 9 bài về tương thích, AI, hiệu năng, beta và checklist nâng cấp cho người dùng Việt Nam."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Tổng quan macOS Golden Gate 27"
+
+[[tom_tat_nhanh]]
+label = "Ra mắt"
+
+[[tom_tat_nhanh]]
+label = "Điểm nổi bật"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Mỗi năm sau WWDC, cộng đồng Mac Việt Nam lại hỏi cùng một câu: **có đáng lên macOS mới không, hay cứ ở bản cũ cho ổn định?** Năm nay câu hỏi còn gay cấn hơn vì Apple không chỉ vá lỗi — họ đặt cược lớn vào **Siri AI**, **Apple Intelligence** và một lớp thiết kế **Liquid Glass** đã gây tranh cãi từ macOS 26.
 

@@ -1,79 +1,88 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Nami Island là đảo hình bán nguyệt cách Seoul 1,5 giờ, nổi tiếng với tán Metasequoia
-    mát rượi mùa hè.
-  - Có thể zipline hoặc đi ferry vào đảo, thuê xe đạp vòng quanh.
-  - Kết hợp Petite France, Garden of Morning Calm cho một ngày trọn vẹn.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX,
-    https://www.namisum.com/.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 07:00:00+07:00'
-description: 'Nami Island mùa hè là day trip lý tưởng từ Seoul để tránh nóng: tán
-  cây Metasequoia xanh mát, zipline vào đảo, đi thuyền trên sông Bukhan.'
-draft: false
-external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX
-- title: https://www.namisum.com/
-faq:
-- answer: Khu vực này thường đông vào cuối tuần và mùa cao điểm, đặc biệt cuối tuần
-    và tháng 7–8. Nên đi sớm trước 10:00.
-  question: Nami Island có đông không?
-- answer: nên kiểm tra tình trạng vé trên website chính thức của điểm đến.
-- answer: Zipline được vận hành theo tiêu chuẩn kỹ thuật. Bạn nên kiểm tra điều kiện
-    sức khỏe và yêu cầu tham gia trên website chính thức trước khi trải nghiệm.
-- answer: Khu vực này có dịch vụ xe điện hỗ trợ, bạn nên kiểm tra thông tin chi tiết
-    trên website chính thức.
-image: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Nghia .8pm
-image_creator_id: '469193'
-image_creator_url: https://www.pexels.com/@phamnghia
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/signage-and-a-hanging-lamp-12622271/
-internal_links:
-- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-- ref: posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md
-- ref: posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md
-seo_title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới'
-series: du-lich
-series_order: 10
-series_title: Du lịch Hàn Quốc 2026
-slug: nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc mùa hè
-- Nami Island
-- day trip Seoul
-- Chuncheon
-- series du lịch
-thumbnail: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
-title: 'Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió
-  sông'
-tom_tat_nhanh:
-- label: Khu vực
-  value: Chuncheon, Gangwon-do
-- label: Loại trải nghiệm
-- label: Hợp với
-- label: Thời gian nên dành
-- label: Lưu ý mùa hè
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T07:00:00+07:00"
+description = "Nami Island mùa hè là day trip lý tưởng từ Seoul để tránh nóng: tán cây Metasequoia xanh mát, zipline vào đảo, đi thuyền trên sông Bukhan."
+draft = false
+image = "images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Nghia .8pm"
+image_creator_id = "469193"
+image_creator_url = "https://www.pexels.com/@phamnghia"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/signage-and-a-hanging-lamp-12622271/"
+seo_title = "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới"
+series = "du-lich"
+series_order = 10
+series_title = "Du lịch Hàn Quốc 2026"
+slug = "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song"
+tags = ["du lịch Hàn Quốc", "Hàn Quốc mùa hè", "Nami Island", "day trip Seoul", "Chuncheon", "series du lịch"]
+thumbnail = "images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp"
+title = "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông"
+date_display = "08-07-2026 07:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Nami Island là đảo hình bán nguyệt cách Seoul 1,5 giờ, nổi tiếng với tán Metasequoia mát rượi mùa hè.", "Có thể zipline hoặc đi ferry vào đảo, thuê xe đạp vòng quanh.", "Kết hợp Petite France, Garden of Morning Calm cho một ngày trọn vẹn."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX, https://www.namisum.com/."
+
+[[external_links]]
+title = "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
+url = "https://www.trip.com/toplist/tripbest/south-korea-summer-outings-10070100042140/?locale=en-XX"
+
+[[external_links]]
+title = "https://www.namisum.com/"
+
+[[faq]]
+answer = "Khu vực này thường đông vào cuối tuần và mùa cao điểm, đặc biệt cuối tuần và tháng 7–8. Nên đi sớm trước 10:00."
+question = "Nami Island có đông không?"
+
+[[faq]]
+answer = "nên kiểm tra tình trạng vé trên website chính thức của điểm đến."
+
+[[faq]]
+answer = "Zipline được vận hành theo tiêu chuẩn kỹ thuật. Bạn nên kiểm tra điều kiện sức khỏe và yêu cầu tham gia trên website chính thức trước khi trải nghiệm."
+
+[[faq]]
+answer = "Khu vực này có dịch vụ xe điện hỗ trợ, bạn nên kiểm tra thông tin chi tiết trên website chính thức."
+
+[[internal_links]]
+ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
+
+[[internal_links]]
+ref = "posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md"
+
+[[internal_links]]
+ref = "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md"
+
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Chuncheon, Gangwon-do"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý mùa hè"
++++
 
 Ai cũng biết Nami Island mùa thu lá vàng đẹp như phim _Winter Sonata_. Nhưng theo mình, Nami mùa hè mới thực sự là chốn tránh nóng lý tưởng — tán Metasequoia xanh mướt che kín lối đi, gió từ sông Bukhan thổi lồng lộng, khác hẳn cái oi bức ở Seoul.
 

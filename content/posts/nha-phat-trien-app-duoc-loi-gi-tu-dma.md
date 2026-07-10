@@ -1,61 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - DMA cho phép developer EU phân phối app qua marketplace thay thế, Web Distribution
-    và link thanh toán ngoài App Store — giảm phụ thuộc commission 15–30%.
-  - Apple phản ứng bằng Core Technology Fee (CTF), điều khoản kinh doanh thay thế
-    và Notarization — lợi ích thực tế phụ thuộc quy mô app và chiến lược phân phối.
-  - Developer nhỏ/indie thường ở lại App Store; studio lớn và game (Epic, Spotify)
-    được lợi nhiều hơn từ anti-steering và marketplace thay thế.
-  - Developer Việt Nam phân phối toàn cầu vẫn chịu luật App Store chuẩn; chỉ app target
-    EU mới cần tính toán DMA compliance.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 10:40:00+07:00'
-description: 'DMA mang lại gì cho nhà phát triển app ở EU: phân phối thay thế, giảm
-  commission, anti-steering, analytics mở rộng — và chi phí CTF Apple đặt ra để cân
-  bằng.'
-draft: false
-image: images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp
-image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: mktomasik
-image_creator_id: '245056204'
-image_creator_url: https://www.pexels.com/@mktomasik-245056204
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-person-holding-smartphones-12368095/
-seo_title: Nhà phát triển app được lợi gì từ DMA? Phân phối, commission
-series: apple-ec-dma-app-store-ios
-series_order: 6
-series_title: 'Apple vs EC: App Store, iOS và Digital Markets Act'
-slug: nha-phat-trien-app-duoc-loi-gi-tu-dma
-tags:
-- Apple
-- DMA
-- App Store
-- developer
-- Core Technology Fee
-- anti-steering
-thumbnail: images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp
-title: Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple
-  đặt ra
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Lợi ích và chi phí DMA cho developer app iOS EU
-- label: Công cụ mới
-- label: Điểm then chốt
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T10:40:00+07:00"
+description = "DMA mang lại gì cho nhà phát triển app ở EU: phân phối thay thế, giảm commission, anti-steering, analytics mở rộng — và chi phí CTF Apple đặt ra để cân bằng."
+draft = false
+image = "images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp"
+image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "mktomasik"
+image_creator_id = "245056204"
+image_creator_url = "https://www.pexels.com/@mktomasik-245056204"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/a-person-holding-smartphones-12368095/"
+seo_title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission"
+series = "apple-ec-dma-app-store-ios"
+series_order = 6
+series_title = "Apple vs EC: App Store, iOS và Digital Markets Act"
+slug = "nha-phat-trien-app-duoc-loi-gi-tu-dma"
+tags = ["Apple", "DMA", "App Store", "developer", "Core Technology Fee", "anti-steering"]
+thumbnail = "images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+date_display = "08-07-2026 10:40:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["DMA cho phép developer EU phân phối app qua marketplace thay thế, Web Distribution và link thanh toán ngoài App Store — giảm phụ thuộc commission 15–30%.", "Apple phản ứng bằng Core Technology Fee (CTF), điều khoản kinh doanh thay thế và Notarization — lợi ích thực tế phụ thuộc quy mô app và chiến lược phân phối.", "Developer nhỏ/indie thường ở lại App Store; studio lớn và game (Epic, Spotify) được lợi nhiều hơn từ anti-steering và marketplace thay thế.", "Developer Việt Nam phân phối toàn cầu vẫn chịu luật App Store chuẩn; chỉ app target EU mới cần tính toán DMA compliance."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Lợi ích và chi phí DMA cho developer app iOS EU"
+
+[[tom_tat_nhanh]]
+label = "Công cụ mới"
+
+[[tom_tat_nhanh]]
+label = "Điểm then chốt"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 “Cuối cùng cũng không còn phải trả 30% cho Apple” — câu đó xuất hiện nhiều sau khi European Commission (EC) phạt Apple vì anti-steering và buộc mở thêm đường phân phối. Nhưng hỏi một indie developer ở Amsterdam hay Stockholm, câu trả lời thường phức tạp hơn: **“Được link ra web thanh toán, nhưng CTF ăn mất phần tiết kiệm — và mình vẫn ở App Store vì user không sideload.”**
 

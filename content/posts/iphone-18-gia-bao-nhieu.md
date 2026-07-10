@@ -1,64 +1,64 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Apple chưa công bố giá iPhone 18; tin đồn phổ biến là dòng Pro tăng khoảng 200
-    USD do chip 2nm, RAM và modem đắt hơn.
-  - MacRumors trích IDC và Wall Street Journal — ước tính analyst, không phải bảng
-    giá chính thức.
-  - iPhone Fold được đồn quanh 2.000 USD; iPhone 18 base có thể ra đầu 2027 với chiến
-    lược giữ giá (tin đồn).
-  - Người mua Việt Nam nên cộng thuế, tỷ giá và khuyến mãi iPhone 17 khi cân nhắc
-    chờ hay mua ngay.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 14:00:00+07:00'
-description: 'Tin đồn giá iPhone 18: Pro có thể đắt hơn, Fold ~2.000 USD, base giữ
-  giá — phân tích từ MacRumors, AppleInsider và góc nhìn người mua Việt Nam.'
-draft: false
-external_links:
-- title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
-- title: MacRumors — iPhone 18 roundup
-- title: MacRumors — iPhone Fold roundup
-- title: AppleInsider — iPhone 18 expectations
-image: images/posts/iphone-18-gia-bao-nhieu.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Osama Saad
-image_creator_id: '257685'
-image_creator_url: https://www.pexels.com/@osama-saad-257685
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-788881/
-series: iphone-18-co-gi-moi
-series_order: 9
-series_title: iPhone 18 có gì mới
-slug: iphone-18-gia-bao-nhieu
-tags:
-- iPhone 18
-- giá iPhone 18
-- iPhone 18 Pro giá
-- iPhone Fold giá
-- tin đồn iPhone
-- mua iPhone Việt Nam
-thumbnail: images/posts/iphone-18-gia-bao-nhieu.webp
-title: iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Tin đồn giá iPhone 18
-- label: Pro
-- label: Fold
-- label: Việt Nam
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T14:00:00+07:00"
+description = "Tin đồn giá iPhone 18: Pro có thể đắt hơn, Fold ~2.000 USD, base giữ giá — phân tích từ MacRumors, AppleInsider và góc nhìn người mua Việt Nam."
+draft = false
+image = "images/posts/iphone-18-gia-bao-nhieu.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Osama Saad"
+image_creator_id = "257685"
+image_creator_url = "https://www.pexels.com/@osama-saad-257685"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-788881/"
+series = "iphone-18-co-gi-moi"
+series_order = 9
+series_title = "iPhone 18 có gì mới"
+slug = "iphone-18-gia-bao-nhieu"
+tags = ["iPhone 18", "giá iPhone 18", "iPhone 18 Pro giá", "iPhone Fold giá", "tin đồn iPhone", "mua iPhone Việt Nam"]
+thumbnail = "images/posts/iphone-18-gia-bao-nhieu.webp"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+date_display = "08-07-2026 14:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Apple chưa công bố giá iPhone 18; tin đồn phổ biến là dòng Pro tăng khoảng 200 USD do chip 2nm, RAM và modem đắt hơn.", "MacRumors trích IDC và Wall Street Journal — ước tính analyst, không phải bảng giá chính thức.", "iPhone Fold được đồn quanh 2.000 USD; iPhone 18 base có thể ra đầu 2027 với chiến lược giữ giá (tin đồn).", "Người mua Việt Nam nên cộng thuế, tỷ giá và khuyến mãi iPhone 17 khi cân nhắc chờ hay mua ngay."]
+title = "Tóm tắt bài viết"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro roundup"
+url = "https://www.macrumors.com/roundup/iphone-18-pro/"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 roundup"
+
+[[external_links]]
+title = "MacRumors — iPhone Fold roundup"
+
+[[external_links]]
+title = "AppleInsider — iPhone 18 expectations"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Tin đồn giá iPhone 18"
+
+[[tom_tat_nhanh]]
+label = "Pro"
+
+[[tom_tat_nhanh]]
+label = "Fold"
+
+[[tom_tat_nhanh]]
+label = "Việt Nam"
++++
 
 “**iPhone 18 giá bao nhiêu?**” là câu hỏi đến sớm hơn mọi năm — vì tin đồn **tách lịch ra mắt** (Pro trước, base sau) và vì chi phí **chip 2nm**, **RAM 12GB** hay **iPhone Fold** được đồn sẽ đẩy biên lợi nhuận lên. Apple **chưa công bố** bất kỳ mức giá nào cho iPhone 18; số liệu dưới đây là **ước tính analyst** và **[Tin đồn / chưa xác nhận]** từ [MacRumors](https://www.macrumors.com/roundup/iphone-18-pro/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more).
 

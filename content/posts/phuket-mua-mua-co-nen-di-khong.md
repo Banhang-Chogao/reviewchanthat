@@ -1,69 +1,60 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Phuket mùa mưa (tháng 5–10) có biển động, sóng to và nước đục, không lý tưởng
-    để tắm hay lặn ngắm san hô.
-  - Tour đảo Similan và Koh Tachai đóng cửa hoàn toàn; tour Phi Phi và James Bond
-    Island vẫn chạy nhưng dễ bị huỷ do thời tiết.
-  - Chi phí giảm 30–50% so với mùa khô, là lựa chọn tốt cho người muốn tiết kiệm và
-    tập trung vào hoạt động land-based.
-  - Lịch trình 4 ngày tập trung vào Old Phuket Town, Big Buddha, chùa Wat Chalong,
-    các quán cà phê view biển và các điểm indoor trong nhà.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org,
-    https://www.pexels.com.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 10:00:00+07:00'
-description: Phuket mùa mưa có nên đi không? Phân tích biển động, tour đảo, chi phí
-  tháng 7-8 và cách xếp lịch an toàn — so sánh với Koh Samui.
-draft: false
-image: images/posts/phuket-mua-mua-co-nen-di-khong.webp
-image_alt: Ảnh minh họa Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách
-  xếp lịch an toàn — nguồn Pexels
-image_attribution_checked_at: '2026-07-10T14:01:43+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Sarah Vivian
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@anhthu
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
-image_query: phuket mùa mưa đi biển
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/scenic-view-of-promthep-cape-in-phuket-thailand-34939155/
-image_status: verified
-seo_title: Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách
-series:
-- du-lich-thai-lan-mua-mua
-series_order: 5
-series_title: Du lịch Thái Lan mùa mưa
-slug: phuket-mua-mua-co-nen-di-khong
-tags:
-- Phuket mùa mưa
-- du lịch Thái Lan tháng 7
-- Phuket tháng 8
-- tour đảo Thái Lan
-- biển Thái Lan
-thumbnail: images/posts/phuket-mua-mua-co-nen-di-khong.webp
-title: Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn
-tom_tat_nhanh:
-- label: Mùa
-  value: Tháng 5–10 (mưa nhiều nhất T9)
-- label: Biển
-- label: Tour đảo
-- label: Chi phí
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T10:00:00+07:00"
+description = "Phuket mùa mưa có nên đi không? Phân tích biển động, tour đảo, chi phí tháng 7-8 và cách xếp lịch an toàn — so sánh với Koh Samui."
+draft = false
+image = "images/posts/phuket-mua-mua-co-nen-di-khong.webp"
+image_alt = "Ảnh minh họa Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:43+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Sarah Vivian"
+image_creator_id = ""
+image_creator_url = "https://www.pexels.com/@anhthu"
+image_license = "Pexels License"
+image_license_url = ""
+image_owner = "external"
+image_provider = "pexels"
+image_query = "phuket mùa mưa đi biển"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/scenic-view-of-promthep-cape-in-phuket-thailand-34939155/"
+image_status = "verified"
+seo_title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách"
+series = ["du-lich-thai-lan-mua-mua"]
+series_order = 5
+series_title = "Du lịch Thái Lan mùa mưa"
+slug = "phuket-mua-mua-co-nen-di-khong"
+tags = ["Phuket mùa mưa", "du lịch Thái Lan tháng 7", "Phuket tháng 8", "tour đảo Thái Lan", "biển Thái Lan"]
+thumbnail = "images/posts/phuket-mua-mua-co-nen-di-khong.webp"
+title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
+date_display = "08-07-2026 10:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Phuket mùa mưa (tháng 5–10) có biển động, sóng to và nước đục, không lý tưởng để tắm hay lặn ngắm san hô.", "Tour đảo Similan và Koh Tachai đóng cửa hoàn toàn; tour Phi Phi và James Bond Island vẫn chạy nhưng dễ bị huỷ do thời tiết.", "Chi phí giảm 30–50% so với mùa khô, là lựa chọn tốt cho người muốn tiết kiệm và tập trung vào hoạt động land-based.", "Lịch trình 4 ngày tập trung vào Old Phuket Town, Big Buddha, chùa Wat Chalong, các quán cà phê view biển và các điểm indoor trong nhà."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org, https://www.pexels.com."
+
+[[tom_tat_nhanh]]
+label = "Mùa"
+value = "Tháng 5–10 (mưa nhiều nhất T9)"
+
+[[tom_tat_nhanh]]
+label = "Biển"
+
+[[tom_tat_nhanh]]
+label = "Tour đảo"
+
+[[tom_tat_nhanh]]
+label = "Chi phí"
++++
 
 ## Phuket mùa mưa — nên đi hay không?
 

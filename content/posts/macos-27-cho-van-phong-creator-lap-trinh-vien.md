@@ -1,57 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Văn phòng hưởng lợi từ Siri AI Spotlight tìm tài liệu và Safari Notify Me theo
-    dõi trang web.
-  - Creator có Photos Spatial Reframing, Clean Up và Visual Intelligence qua Continuity
-    Camera.
-  - Lập trình viên cần test Xcode và Docker trên beta — không nên nâng cấp máy build
-    chính sớm.
-  - Mỗi nhóm có trade-off khác nhau giữa tính năng mới và rủi ro phần mềm chuyên ngành.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 12:20:00+07:00'
-description: 'macOS 27 mang lại gì cho nhân viên văn phòng, creator nội dung và lập
-  trình viên: Spotlight, Safari, Photos, Xcode và rủi ro beta.'
-draft: false
-image: images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Lukas Blazek
-image_creator_id: '89898'
-image_creator_url: https://www.pexels.com/@goumbik
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-using-macbook-pro-574077/
-seo_title: macOS 27 có gì mới cho dân văn phòng, creator và lập trình
-series: macos-27-co-gi-moi
-series_order: 5
-series_title: macOS 27 có gì mới
-slug: macos-27-cho-van-phong-creator-lap-trinh-vien
-tags:
-- macOS 27
-- lập trình viên Mac
-- creator
-- văn phòng
-- workflow Mac
-thumbnail: images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp
-title: macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?
-tom_tat_nhanh:
-- label: Chủ đề
-  value: macOS 27 theo từng nhóm người dùng
-- label: Văn phòng
-- label: Creator
-- label: Lập trình viên
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T12:20:00+07:00"
+description = "macOS 27 mang lại gì cho nhân viên văn phòng, creator nội dung và lập trình viên: Spotlight, Safari, Photos, Xcode và rủi ro beta."
+draft = false
+image = "images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Lukas Blazek"
+image_creator_id = "89898"
+image_creator_url = "https://www.pexels.com/@goumbik"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-using-macbook-pro-574077/"
+seo_title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình"
+series = "macos-27-co-gi-moi"
+series_order = 5
+series_title = "macOS 27 có gì mới"
+slug = "macos-27-cho-van-phong-creator-lap-trinh-vien"
+tags = ["macOS 27", "lập trình viên Mac", "creator", "văn phòng", "workflow Mac"]
+thumbnail = "images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp"
+title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
+date_display = "08-07-2026 12:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Văn phòng hưởng lợi từ Siri AI Spotlight tìm tài liệu và Safari Notify Me theo dõi trang web.", "Creator có Photos Spatial Reframing, Clean Up và Visual Intelligence qua Continuity Camera.", "Lập trình viên cần test Xcode và Docker trên beta — không nên nâng cấp máy build chính sớm.", "Mỗi nhóm có trade-off khác nhau giữa tính năng mới và rủi ro phần mềm chuyên ngành."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "macOS 27 theo từng nhóm người dùng"
+
+[[tom_tat_nhanh]]
+label = "Văn phòng"
+
+[[tom_tat_nhanh]]
+label = "Creator"
+
+[[tom_tat_nhanh]]
+label = "Lập trình viên"
++++
 
 Cùng một bản macOS 27, **kế toán**, **YouTuber** và **backend dev** sẽ thấy giá trị ở chỗ khác nhau. Bài này map tính năng Golden Gate 27 theo **workflow thật** — không liệt kê slide keynote.
 

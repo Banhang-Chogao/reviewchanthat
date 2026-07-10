@@ -1,6 +1,6 @@
 +++
 title = "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident"
-date = "2026-07-09 22:35:00+07:00"
+date = "2026-07-09T22:35:00+07:00"
 slug = "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident"
 categories = ["cong-nghe"]
 tags = ["GitHub Actions", "GitHub Pages", "CI/CD", "DevOps", "GitHub Status", "incident recovery"]
@@ -25,18 +25,14 @@ draft = false
 related_posts = ["github-actions-run-start-delays-july-9-2026-ci-cd-protection"]
 seo_title = "GitHub Actions and Pages Have Recovered: What to Check After"
 description = "GitHub marked the Actions and Pages incident as resolved at 13:52 UTC on July 9, 2026. All systems now show green on the GitHub Status page. But a recovered"
+date_display = "09-07-2026 22:35:00 GMT +7"
 
 [ai_summary]
 enabled = true
 title = "Quick summary"
 collapsed = false
 disclaimer = "This article is based on GitHub's public status information and should be verified against GitHub Status before operational decisions."
-items = [
-  "GitHub Status shows systems operational again after the July 9, 2026 Actions and Pages incident, but teams should still verify their own pipeline state.",
-  "A recovered platform does not automatically mean every queued, cancelled, or failed workflow has been redeployed successfully.",
-  "Static-site owners should verify the live URL, the latest deployed commit, Pages build history, and any failed Actions runs before declaring the incident over for their own site.",
-  "The best response after recovery is to rerun only the latest necessary deploy, cancel superseded jobs, and keep non-essential automation paused until the pipeline is stable."
-]
+items = ["GitHub Status shows systems operational again after the July 9, 2026 Actions and Pages incident, but teams should still verify their own pipeline state.", "A recovered platform does not automatically mean every queued, cancelled, or failed workflow has been redeployed successfully.", "Static-site owners should verify the live URL, the latest deployed commit, Pages build history, and any failed Actions runs before declaring the incident over for their own site.", "The best response after recovery is to rerun only the latest necessary deploy, cancel superseded jobs, and keep non-essential automation paused until the pipeline is stable."]
 image_attribution_checked_at = "2026-07-10T14:01:37+07:00"
 image_total_score = 50.0
 image_attribution_error = "Provider/source page did not expose verified creator metadata"

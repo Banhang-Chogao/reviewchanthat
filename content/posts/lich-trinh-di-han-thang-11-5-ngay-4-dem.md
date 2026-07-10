@@ -1,83 +1,96 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - 'Lịch trình 5N4Đ tháng 11: tập trung peak lá đỏ Seoul, Nami đầu chuyến nếu đi
-    đầu tháng.'
-  - 'Ngày 1–2: làm quen Seoul và Nami (ưu tiên sớm); ngày 3–4: cung điện, Bukhansan
-    hoặc công viên.'
-  - Phù hợp người săn peak foliage đô thị, không muốn di chuyển nhiều giữa các thành
-    phố.
-  - 'Giá vé, phí tham quan và chi phí di chuyển có thể thay đổi: kiểm tra trước khi
-    đặt.'
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.koreatodo.com/gapyeong-day-trip-nami-island.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 21:30:00+07:00'
-description: 'Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ, Nami đầu
-  chuyến, Bukhansan và mẹo sắp lịch theo tuần đổ màu thực tế.'
-draft: false
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: KoreaToDo — Gapyeong Day Trip Nami Island
-  url: ''
-- title: KoreaToDo — Top Autumn Foliage Sites
-  url: ''
-image: images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp
-image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Светлана Конева
-image_creator_id: '269097219'
-image_creator_url: https://www.pexels.com/@269097219
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787318/
-internal_links:
-- ref: posts/di-han-thang-11-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-11.md
-- ref: posts/di-han-thang-11-mac-gi.md
-- ref: posts/seoul-thang-11-nen-di-dau.md
-- ref: posts/nami-thang-11-co-dang-di-khong.md
-- ref: posts/seoraksan-thang-11-ngam-la-do.md
-- ref: posts/chi-phi-di-han-thang-11-tu-tuc.md
-seo_title: 'Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và'
-series: di-han-thang-11
-series_order: 10
-series_title: Đi Hàn tháng 11
-slug: lich-trinh-di-han-thang-11-5-ngay-4-dem
-tags:
-- lịch trình Hàn Quốc
-- du lịch Hàn Quốc tháng 11
-- Seoul
-- Nami Island
-- series du lịch
-thumbnail: images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp
-title: 'Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami'
-tom_tat_nhanh:
-- label: Thời gian
-  value: 5 ngày 4 đêm
-- label: Trọng tâm
-  value: ''
-- label: Di chuyển
-  value: ''
-- label: Phù hợp
-  value: ''
-- label: Lưu ý
-  value: ''
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T21:30:00+07:00"
+description = "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ, Nami đầu chuyến, Bukhansan và mẹo sắp lịch theo tuần đổ màu thực tế."
+draft = false
+image = "images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp"
+image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Светлана Конева"
+image_creator_id = "269097219"
+image_creator_url = "https://www.pexels.com/@269097219"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-12787318/"
+seo_title = "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và"
+series = "di-han-thang-11"
+series_order = 10
+series_title = "Đi Hàn tháng 11"
+slug = "lich-trinh-di-han-thang-11-5-ngay-4-dem"
+tags = ["lịch trình Hàn Quốc", "du lịch Hàn Quốc tháng 11", "Seoul", "Nami Island", "series du lịch"]
+thumbnail = "images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp"
+title = "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami"
+date_display = "08-07-2026 21:30:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Lịch trình 5N4Đ tháng 11: tập trung peak lá đỏ Seoul, Nami đầu chuyến nếu đi đầu tháng.", "Ngày 1–2: làm quen Seoul và Nami (ưu tiên sớm); ngày 3–4: cung điện, Bukhansan hoặc công viên.", "Phù hợp người săn peak foliage đô thị, không muốn di chuyển nhiều giữa các thành phố.", "Giá vé, phí tham quan và chi phí di chuyển có thể thay đổi: kiểm tra trước khi đặt."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.koreatodo.com/gapyeong-day-trip-nami-island."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "KoreaToDo — Gapyeong Day Trip Nami Island"
+url = ""
+
+[[external_links]]
+title = "KoreaToDo — Top Autumn Foliage Sites"
+url = ""
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-11-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/nami-thang-11-co-dang-di-khong.md"
+
+[[internal_links]]
+ref = "posts/seoraksan-thang-11-ngam-la-do.md"
+
+[[internal_links]]
+ref = "posts/chi-phi-di-han-thang-11-tu-tuc.md"
+
+[[tom_tat_nhanh]]
+label = "Thời gian"
+value = "5 ngày 4 đêm"
+
+[[tom_tat_nhanh]]
+label = "Trọng tâm"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Di chuyển"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
+value = ""
++++
 
 Năm ngày bốn đêm là khung thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để trải nghiệm **peak lá đỏ ở Seoul**, đi một day trip ra ngoại ô và dành thời gian cho cung điện, công viên. Khác với tháng 10, tháng 11 **Seoul thường đẹp hơn về foliage** nhưng **lạnh hơn rõ**; Nami và Seoraksan **đổ màu sớm hơn** nên cần xếp lịch khác.
 

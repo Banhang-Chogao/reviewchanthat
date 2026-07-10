@@ -1,82 +1,96 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Lịch trình 5 ngày 4 đêm tập trung Seoul, Nami Island và một điểm ngắm lá đỏ gần
-    thủ đô.
-  - Ngày 1–2 khám phá Seoul (cung điện, Haneul Park); ngày 3 day trip Nami; ngày 4–5
-    lá đỏ hoặc mua sắm.
-  - Phù hợp người đi lần đầu, không muốn di chuyển quá nhiều giữa các thành phố.
-  - Giá vé, phí tham quan và chi phí di chuyển có thể thay đổi; kiểm tra trước khi
-    đặt.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292,
-    https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.koreatodo.com/gapyeong-day-trip-nami-island.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 15:00:00+07:00'
-description: 'Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami Island, điểm ngắm
-  lá đỏ và mẹo sắp lịch theo ngày đổ màu thực tế.'
-draft: false
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: KoreaToDo — Gapyeong Day Trip Nami Island
-  url: ''
-- title: KoreaToDo — Top Autumn Foliage Sites
-  url: ''
-image: images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp
-image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: sn arafat
-image_creator_id: '15946'
-image_creator_url: https://www.pexels.com/@sn-arafat-15946
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-69918/
-internal_links:
-- ref: posts/di-han-thang-10-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-10.md
-- ref: posts/di-han-thang-10-mac-gi.md
-- ref: posts/seoul-thang-10-nen-di-dau.md
-- ref: posts/nami-thang-10-co-dang-di-khong.md
-- ref: posts/seoraksan-thang-10-ngam-la-do.md
-- ref: posts/chi-phi-di-han-thang-10-tu-tuc.md
-seo_title: 'Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm'
-series: di-han-thang-10
-series_order: 10
-series_title: Đi Hàn tháng 10
-slug: lich-trinh-di-han-thang-10-5-ngay-4-dem
-tags:
-- lịch trình Hàn Quốc
-- du lịch Hàn Quốc tháng 10
-- Seoul
-- Nami Island
-- series du lịch
-thumbnail: images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp
-title: 'Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ'
-tom_tat_nhanh:
-- label: Thời gian
-  value: 5 ngày 4 đêm
-- label: Trọng tâm
-  value: ''
-- label: Di chuyển
-  value: ''
-- label: Phù hợp
-  value: ''
-- label: Lưu ý
-  value: ''
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T15:00:00+07:00"
+description = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami Island, điểm ngắm lá đỏ và mẹo sắp lịch theo ngày đổ màu thực tế."
+draft = false
+image = "images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp"
+image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "sn arafat"
+image_creator_id = "15946"
+image_creator_url = "https://www.pexels.com/@sn-arafat-15946"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-69918/"
+seo_title = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm"
+series = "di-han-thang-10"
+series_order = 10
+series_title = "Đi Hàn tháng 10"
+slug = "lich-trinh-di-han-thang-10-5-ngay-4-dem"
+tags = ["lịch trình Hàn Quốc", "du lịch Hàn Quốc tháng 10", "Seoul", "Nami Island", "series du lịch"]
+thumbnail = "images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp"
+title = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ"
+date_display = "08-07-2026 15:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Lịch trình 5 ngày 4 đêm tập trung Seoul, Nami Island và một điểm ngắm lá đỏ gần thủ đô.", "Ngày 1–2 khám phá Seoul (cung điện, Haneul Park); ngày 3 day trip Nami; ngày 4–5 lá đỏ hoặc mua sắm.", "Phù hợp người đi lần đầu, không muốn di chuyển quá nhiều giữa các thành phố.", "Giá vé, phí tham quan và chi phí di chuyển có thể thay đổi; kiểm tra trước khi đặt."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292, https://www.koreatodo.com/top-autumn-foliage-sites-korea, https://www.koreatodo.com/gapyeong-day-trip-nami-island."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "KoreaToDo — Gapyeong Day Trip Nami Island"
+url = ""
+
+[[external_links]]
+title = "KoreaToDo — Top Autumn Foliage Sites"
+url = ""
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-10-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/nami-thang-10-co-dang-di-khong.md"
+
+[[internal_links]]
+ref = "posts/seoraksan-thang-10-ngam-la-do.md"
+
+[[internal_links]]
+ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
+
+[[tom_tat_nhanh]]
+label = "Thời gian"
+value = "5 ngày 4 đêm"
+
+[[tom_tat_nhanh]]
+label = "Trọng tâm"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Di chuyển"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
+value = ""
++++
 
 Năm ngày bốn đêm là khoảng thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để làm quen Seoul, đi một day trip ra ngoại ô, và dành thời gian cho mùa lá đỏ. Lịch trình dưới đây **không bao gồm Busan hay Jeju** vì thêm thành phố khác sẽ làm lịch trình quá gấp; nếu muốn mở rộng, xem [Busan tháng 10]({{< ref "posts/busan-thang-10-nen-di-dau" >}}) hoặc [Jeju tháng 10]({{< ref "posts/jeju-thang-10-co-dep-khong" >}}) và cân nhắc kéo dài thành 7–8 ngày.
 

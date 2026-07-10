@@ -3,7 +3,7 @@ draft = true
 title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
 description = "BlackRock ($10 triliệu quản lý) dùng toán học nào? Học factor models, machine learning, ESG scoring, risk management, Aladdin platform, optimization algorithms."
 date = "2026-07-10T13:16:14+07:00"
-lastmod = "2026-07-10T21:00:00+07:00"
+lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "BlackRock: factor models, machine learning, ESG, Aladdin"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
@@ -12,17 +12,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 8
 image = "images/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.webp"
 image_alt = "Ảnh minh họa BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ — nguồn Pexels"
+date_display = "10-07-2026 13:16:14 GMT +7"
+lastmod_display = "10-07-2026 14:10:36 GMT +7"
 
 [ai_summary]
-items = [
-  "BlackRock: Quản lý $10+ triliệu tài sản (lớn nhất thế giới)",
-  "Aladdin: Platform AI/ML xử lý dữ liệu khổng lồ, tối ưu danh mục",
-  "Factor Models: Fama-French 5 factor (market, size, value, profitability, investment)",
-  "α = Return - β₁×Factor₁ - β₂×Factor₂ - ... (phân tích alpha khác volatility)",
-  "Machine Learning: Deep learning dự báo return, risk, flow",
-  "ESG Scoring: Toán học tổng hợp environmental, social, governance scores",
-  "Optimization: Large-scale QP (quadratic programming) với 10k+ assets"
-]
+items = ["BlackRock: Quản lý $10+ triliệu tài sản (lớn nhất thế giới)", "Aladdin: Platform AI/ML xử lý dữ liệu khổng lồ, tối ưu danh mục", "Factor Models: Fama-French 5 factor (market, size, value, profitability, investment)", "α = Return - β₁×Factor₁ - β₂×Factor₂ - ... (phân tích alpha khác volatility)", "Machine Learning: Deep learning dự báo return, risk, flow", "ESG Scoring: Toán học tổng hợp environmental, social, governance scores", "Optimization: Large-scale QP (quadratic programming) với 10k+ assets"]
 thumbnail = "images/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/black-laptop-computer-on-the-table-7821758/"

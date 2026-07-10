@@ -1,82 +1,100 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Nami Island tháng 10 đáng đi nếu bạn thích cảnh lá vàng Metasequoia — nổi bật
-    từ giữa đến cuối tháng 10.
-  - Đi từ Seoul bằng ITX đến Gapyeong (~1–1,5 giờ) + ferry hoặc zipline vào đảo.
-  - Cuối tuần tháng 10 rất đông — nên đi sớm hoặc chọn ngày thường.
-  - Có thể kết hợp Garden of Morning Calm trong cùng ngày; giá vé có thể thay đổi
-    theo mùa, ngày đi và tỷ giá.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr,
-    https://www.kma.go.kr.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 11:00:00+07:00'
-description: Nami tháng 10 có đáng đi không? Lá vàng Metasequoia, lịch trình nửa ngày,
-  cách đi ITX từ Seoul và mẹo tránh đông mùa thu.
-draft: false
-external_links:
-- title: Visit Korea — Fall Foliage Forecast
-  url: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292
-- title: KoreaToDo — Nami Island Day Trip
-- title: Nami Island Official
-faq:
-- answer: Đáng đi từ giữa tháng 10 khi Metasequoia chuyển vàng. Đầu tháng 10 cây còn
-    xanh, vẫn đẹp nhưng chưa đúng mùa lá vàng.
-  question: Nami tháng 10 có đáng đi không?
-- answer: ITX từ Cheongnyangni hoặc Yongsan đến Gapyeong (~1 giờ), sau đó taxi hoặc
-    bus đến bến ferry.
-- answer: Nửa ngày đến một ngày. Nếu kết hợp Garden of Morning Calm, nên dành cả ngày.
-image: images/posts/nami-thang-10-co-dang-di-khong.webp
-image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Светлана Конева
-image_creator_id: '269097219'
-image_creator_url: https://www.pexels.com/@269097219
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/pexels-photo-12787324/
-internal_links:
-- ref: posts/di-han-thang-10-co-dep-khong.md
-- ref: posts/thoi-tiet-han-quoc-thang-10.md
-- ref: posts/han-quoc-thang-10-co-la-do-chua.md
-- ref: posts/di-han-thang-10-mac-gi.md
-- ref: posts/seoul-thang-10-nen-di-dau.md
-- ref: posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md
-- ref: posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md
-- ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
-seo_title: Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách
-series: di-han-thang-10
-series_order: 6
-series_title: Đi Hàn tháng 10
-slug: nami-thang-10-co-dang-di-khong
-tags:
-- Nami Island tháng 10
-- day trip Seoul
-- lá vàng Nami
-- Gapyeong
-- series du lịch
-thumbnail: images/posts/nami-thang-10-co-dang-di-khong.webp
-title: Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul
-tom_tat_nhanh:
-- label: Thời gian từ Seoul
-  value: ~1–1,5 giờ (ITX)
-- label: Tuần lý tưởng
-- label: Thời gian trên đảo
-- label: Lưu ý
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T11:00:00+07:00"
+description = "Nami tháng 10 có đáng đi không? Lá vàng Metasequoia, lịch trình nửa ngày, cách đi ITX từ Seoul và mẹo tránh đông mùa thu."
+draft = false
+image = "images/posts/nami-thang-10-co-dang-di-khong.webp"
+image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Светлана Конева"
+image_creator_id = "269097219"
+image_creator_url = "https://www.pexels.com/@269097219"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/pexels-photo-12787324/"
+seo_title = "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách"
+series = "di-han-thang-10"
+series_order = 6
+series_title = "Đi Hàn tháng 10"
+slug = "nami-thang-10-co-dang-di-khong"
+tags = ["Nami Island tháng 10", "day trip Seoul", "lá vàng Nami", "Gapyeong", "series du lịch"]
+thumbnail = "images/posts/nami-thang-10-co-dang-di-khong.webp"
+title = "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul"
+date_display = "08-07-2026 11:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Nami Island tháng 10 đáng đi nếu bạn thích cảnh lá vàng Metasequoia — nổi bật từ giữa đến cuối tháng 10.", "Đi từ Seoul bằng ITX đến Gapyeong (~1–1,5 giờ) + ferry hoặc zipline vào đảo.", "Cuối tuần tháng 10 rất đông — nên đi sớm hoặc chọn ngày thường.", "Có thể kết hợp Garden of Morning Calm trong cùng ngày; giá vé có thể thay đổi theo mùa, ngày đi và tỷ giá."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://english.visitkorea.or.kr, https://www.kma.go.kr."
+
+[[external_links]]
+title = "Visit Korea — Fall Foliage Forecast"
+url = "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292"
+
+[[external_links]]
+title = "KoreaToDo — Nami Island Day Trip"
+
+[[external_links]]
+title = "Nami Island Official"
+
+[[faq]]
+answer = "Đáng đi từ giữa tháng 10 khi Metasequoia chuyển vàng. Đầu tháng 10 cây còn xanh, vẫn đẹp nhưng chưa đúng mùa lá vàng."
+question = "Nami tháng 10 có đáng đi không?"
+
+[[faq]]
+answer = "ITX từ Cheongnyangni hoặc Yongsan đến Gapyeong (~1 giờ), sau đó taxi hoặc bus đến bến ferry."
+
+[[faq]]
+answer = "Nửa ngày đến một ngày. Nếu kết hợp Garden of Morning Calm, nên dành cả ngày."
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-co-dep-khong.md"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+
+[[internal_links]]
+ref = "posts/seoul-thang-10-nen-di-dau.md"
+
+[[internal_links]]
+ref = "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+
+[[internal_links]]
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+
+[[tom_tat_nhanh]]
+label = "Thời gian từ Seoul"
+value = "~1–1,5 giờ (ITX)"
+
+[[tom_tat_nhanh]]
+label = "Tuần lý tưởng"
+
+[[tom_tat_nhanh]]
+label = "Thời gian trên đảo"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
++++
 
 Nami Island (đảo Nami) quanh năm là day trip phổ biến từ Seoul, nhưng **tháng 10** là một trong những thời điểm được nhắc nhiều nhờ hàng Metasequoia chuyển vàng. Visit Korea liệt kê Nami trong nhóm [điểm ngắm lá đỏ nổi tiếng ngoài Seoul](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), cùng Hwadam Botanic Garden và Garden of Morning Calm.
 

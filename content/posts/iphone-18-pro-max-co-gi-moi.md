@@ -1,68 +1,68 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - iPhone 18 Pro Max chưa được Apple công bố; bài tổng hợp tin đồn từ MacRumors và
-    AppleInsider.
-  - Kỳ vọng nâng cấp — chip A20 Pro 2nm, pin lớn hơn, camera khẩu độ biến đổi, Dynamic
-    Island nhỏ hơn, modem C2.
-  - Màu Dark Cherry và thiết kế titanium được nhắc trong leak báo chí; chưa xác nhận
-    chính thức.
-  - Thuộc series iPhone 18 — liên kết chip, camera, giá và hướng dẫn có nên chờ.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 08:00:00+07:00'
-description: iPhone 18 Pro Max là model flagship lớn nhất trong kỳ vọng đợt ra mắt
-  mùa thu 2026 — nếu tin đồn split launch đúng, đây là máy “full option” Apple có
-  thể giới
-draft: false
-external_links:
-- title: MacRumors — iPhone 18 Pro roundup
-  url: https://www.macrumors.com/roundup/iphone-18-pro/
-- title: MacRumors — iPhone 18 roundup
-- title: MacRumors — iPhone 18 Pro colors rumor
-- title: AppleInsider — iPhone 18 expectations
-image: images/posts/iphone-18-pro-max-co-gi-moi.webp
-image_alt: Ảnh minh họa iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất
-  — nguồn Pexels
-image_attribution_checked_at: '2026-07-10T14:01:40+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Jan Makwela
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@sliqcue
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
-image_query: autumn fallen leaves brown orange
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/close-up-shot-of-dry-leaves-5266193/
-image_status: verified
-series: iphone-18-co-gi-moi
-series_order: 3
-series_title: iPhone 18 có gì mới
-slug: iphone-18-pro-max-co-gi-moi
-tags:
-- iPhone 18 Pro Max
-- iPhone 18 Pro
-- A20 Pro
-- Dark Cherry
-- tin đồn iPhone
-thumbnail: images/posts/iphone-18-pro-max-co-gi-moi.webp
-title: iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất
-tom_tat_nhanh:
-- label: Chủ đề
-  value: Tin đồn iPhone 18 Pro Max
-- label: Ra mắt (đồn)
-- label: Điểm nổi bật (đồn)
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T08:00:00+07:00"
+description = "iPhone 18 Pro Max là model flagship lớn nhất trong kỳ vọng đợt ra mắt mùa thu 2026 — nếu tin đồn split launch đúng, đây là máy “full option” Apple có thể giới"
+draft = false
+image = "images/posts/iphone-18-pro-max-co-gi-moi.webp"
+image_alt = "Ảnh minh họa iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:40+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Jan Makwela"
+image_creator_id = ""
+image_creator_url = "https://www.pexels.com/@sliqcue"
+image_license = "Pexels License"
+image_license_url = ""
+image_owner = "external"
+image_provider = "pexels"
+image_query = "autumn fallen leaves brown orange"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/close-up-shot-of-dry-leaves-5266193/"
+image_status = "verified"
+series = "iphone-18-co-gi-moi"
+series_order = 3
+series_title = "iPhone 18 có gì mới"
+slug = "iphone-18-pro-max-co-gi-moi"
+tags = ["iPhone 18 Pro Max", "iPhone 18 Pro", "A20 Pro", "Dark Cherry", "tin đồn iPhone"]
+thumbnail = "images/posts/iphone-18-pro-max-co-gi-moi.webp"
+title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
+date_display = "08-07-2026 08:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["iPhone 18 Pro Max chưa được Apple công bố; bài tổng hợp tin đồn từ MacRumors và AppleInsider.", "Kỳ vọng nâng cấp — chip A20 Pro 2nm, pin lớn hơn, camera khẩu độ biến đổi, Dynamic Island nhỏ hơn, modem C2.", "Màu Dark Cherry và thiết kế titanium được nhắc trong leak báo chí; chưa xác nhận chính thức.", "Thuộc series iPhone 18 — liên kết chip, camera, giá và hướng dẫn có nên chờ."]
+title = "Tóm tắt bài viết"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro roundup"
+url = "https://www.macrumors.com/roundup/iphone-18-pro/"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 roundup"
+
+[[external_links]]
+title = "MacRumors — iPhone 18 Pro colors rumor"
+
+[[external_links]]
+title = "AppleInsider — iPhone 18 expectations"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "Tin đồn iPhone 18 Pro Max"
+
+[[tom_tat_nhanh]]
+label = "Ra mắt (đồn)"
+
+[[tom_tat_nhanh]]
+label = "Điểm nổi bật (đồn)"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 **iPhone 18 Pro Max** là model flagship lớn nhất trong kỳ vọng đợt ra mắt **mùa thu 2026** — nếu tin đồn **split launch** đúng, đây là máy “full option” Apple có thể giới thiệu trước, trong khi bản iPhone 18 tiêu chuẩn chờ đến **đầu 2027**. Apple **chưa công bố** bất kỳ thông số nào; bài viết dưới đây phân loại tin đồn có nguồn để bạn biết điều gì **đáng chờ** và điều gì **chỉ là phỏng đoán**.
 

@@ -1,58 +1,52 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - macOS 27 đưa Siri AI vào Spotlight và mở rộng Apple Intelligence vào Mail, Photos,
-    Messages và Passwords.
-  - Apple liệt kê tiếng Việt trong nhóm ngôn ngữ Apple Intelligence nhưng một số tính
-    năng vẫn ghi Coming in English.
-  - Mac M1 có thể chạy macOS 27 nhưng trải nghiệm AI đầy đủ khả năng cao hơn trên
-    M2/M3/M4 với 16GB RAM.
-  - Private Cloud Compute và on-device AI là trụ cột Apple nhấn tại WWDC26 — khác
-    hướng chatbot web thuần.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 11:40:00+07:00'
-description: 'Apple Intelligence trên macOS Golden Gate 27: Siri AI Spotlight, yêu
-  cầu phần cứng Mac, tiếng Việt và giới hạn thực tế cho người dùng Việt Nam.'
-draft: false
-image: images/posts/macos-27-apple-intelligence-macbook.webp
-image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: olia danilevich
-image_creator_id: '2638647'
-image_creator_url: https://www.pexels.com/@olia-danilevich
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-coding-on-a-macbook-pro-4974912/
-seo_title: 'macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI'
-series: macos-27-co-gi-moi
-series_order: 3
-series_title: macOS 27 có gì mới
-slug: macos-27-apple-intelligence-macbook
-tags:
-- Apple Intelligence
-- macOS 27
-- Siri AI
-- MacBook
-- AI trên Mac
-thumbnail: images/posts/macos-27-apple-intelligence-macbook.webp
-title: 'macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?'
-tom_tat_nhanh:
-- label: Chủ đề
-  value: AI trên Mac với macOS 27
-- label: Yêu cầu
-- label: Tính năng
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T11:40:00+07:00"
+description = "Apple Intelligence trên macOS Golden Gate 27: Siri AI Spotlight, yêu cầu phần cứng Mac, tiếng Việt và giới hạn thực tế cho người dùng Việt Nam."
+draft = false
+image = "images/posts/macos-27-apple-intelligence-macbook.webp"
+image_attribution_checked_at = "2026-07-10T14:01:32+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "olia danilevich"
+image_creator_id = "2638647"
+image_creator_url = "https://www.pexels.com/@olia-danilevich"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-coding-on-a-macbook-pro-4974912/"
+seo_title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI"
+series = "macos-27-co-gi-moi"
+series_order = 3
+series_title = "macOS 27 có gì mới"
+slug = "macos-27-apple-intelligence-macbook"
+tags = ["Apple Intelligence", "macOS 27", "Siri AI", "MacBook", "AI trên Mac"]
+thumbnail = "images/posts/macos-27-apple-intelligence-macbook.webp"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+date_display = "08-07-2026 11:40:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["macOS 27 đưa Siri AI vào Spotlight và mở rộng Apple Intelligence vào Mail, Photos, Messages và Passwords.", "Apple liệt kê tiếng Việt trong nhóm ngôn ngữ Apple Intelligence nhưng một số tính năng vẫn ghi Coming in English.", "Mac M1 có thể chạy macOS 27 nhưng trải nghiệm AI đầy đủ khả năng cao hơn trên M2/M3/M4 với 16GB RAM.", "Private Cloud Compute và on-device AI là trụ cột Apple nhấn tại WWDC26 — khác hướng chatbot web thuần."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Chủ đề"
+value = "AI trên Mac với macOS 27"
+
+[[tom_tat_nhanh]]
+label = "Yêu cầu"
+
+[[tom_tat_nhanh]]
+label = "Tính năng"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **macOS Golden Gate 27** là lần Apple cố gắng biến AI thành thói quen trên desktop — không chỉ demo keynote. Câu hỏi thực tế: **MacBook của bạn chạy được những gì, và tiếng Việt đến đâu?**
 

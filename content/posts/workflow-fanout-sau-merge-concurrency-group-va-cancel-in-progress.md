@@ -1,60 +1,44 @@
----
-ai_summary:
-  collapsed: false
-  disclaimer: Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + GitHub Pages; mỗi
-    repo cần điều chỉnh policy theo rủi ro riêng.
-  enabled: true
-  items:
-  - Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).
-  - 'Nhiều failure không phải bug code: runner queue, platform incident, rate limit,
-    Pages CDN lag.'
-  - 'Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng
-    feature không.'
-  title: Tóm tắt nhanh
-author: Minh Hoàng
-categories:
-- cong-nghe
-date: '2026-07-10 04:20:00+07:00'
-description: 'Phân tích workflow_fanout (safe): một merge kích hoạt deploy + content-direction
-  + snapshot + autofix — cách thiết kế concurrency để không tự DDoS pipeline.'
-draft: false
-image: images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp
-image_alt: 'Ảnh minh họa Workflow fan-out sau merge: concurrency group, cancel-in-progress
-  và vòng autofix — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Christina Morillo
-image_creator_id: '473730'
-image_creator_url: https://www.pexels.com/@divinetechygirl
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_provider: pexels
-image_query: workflow fan-out sau merge concurrency
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/white-dry-erase-board-with-red-diagram-1181311/
-image_status: verified
-related_posts:
-- ci-cd-root-cause-playbook-safe-vs-unsafe-autofix
-- github-api-va-pages-rate-limit-cach-doc-va-giam-tai
-- live-deploy-khong-phan-anh-va-pages-serving-old-artifact
-seo_title: 'Workflow fan-out sau merge: concurrency group'
-series: ci-cd-root-cause-lessons
-series_order: 4
-series_title: CI/CD Root Cause Lessons
-slug: workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress
-tags:
-- workflow fanout
-- concurrency
-- GitHub Actions
-- CI/CD
-- safe
-thumbnail: images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp
-title: 'Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng
-  autofix'
----
++++
+author = "Minh Hoàng"
+categories = ["cong-nghe"]
+date = "2026-07-10T04:20:00+07:00"
+description = "Phân tích workflow_fanout (safe): một merge kích hoạt deploy + content-direction + snapshot + autofix — cách thiết kế concurrency để không tự DDoS pipeline."
+draft = false
+image = "images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp"
+image_alt = "Ảnh minh họa Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:38+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Christina Morillo"
+image_creator_id = "473730"
+image_creator_url = "https://www.pexels.com/@divinetechygirl"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_provider = "pexels"
+image_query = "workflow fan-out sau merge concurrency"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/white-dry-erase-board-with-red-diagram-1181311/"
+image_status = "verified"
+related_posts = ["ci-cd-root-cause-playbook-safe-vs-unsafe-autofix", "github-api-va-pages-rate-limit-cach-doc-va-giam-tai", "live-deploy-khong-phan-anh-va-pages-serving-old-artifact"]
+seo_title = "Workflow fan-out sau merge: concurrency group"
+series = "ci-cd-root-cause-lessons"
+series_order = 4
+series_title = "CI/CD Root Cause Lessons"
+slug = "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress"
+tags = ["workflow fanout", "concurrency", "GitHub Actions", "CI/CD", "safe"]
+thumbnail = "images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp"
+title = "Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix"
+date_display = "10-07-2026 04:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + GitHub Pages; mỗi repo cần điều chỉnh policy theo rủi ro riêng."
+enabled = true
+items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
+title = "Tóm tắt nhanh"
++++
 
 ## Root cause
 

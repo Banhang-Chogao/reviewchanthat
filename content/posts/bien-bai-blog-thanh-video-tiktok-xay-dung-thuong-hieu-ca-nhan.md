@@ -1,6 +1,6 @@
 +++
 title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
-date = "2026-07-10 00:15:00+07:00"
+date = "2026-07-10T00:15:00+07:00"
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
@@ -8,32 +8,20 @@ draft = false
 image = "images/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.webp"
 thumbnail = "images/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.webp"
 image_status = "verified"
-related_posts = [
-  "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"
-]
+related_posts = ["xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"]
 seo_title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để"
 description = "Nếu bạn đã xây dựng một blog Hugo với nội dung chất lượng cao, bước tiếp theo là đưa nó tới đúng người cần đọc. Bài phân tích thực tế về biến bài blog thành video TikTok để xây dựng thương hiệu cá nhân."
+date_display = "10-07-2026 00:15:00 GMT +7"
 
 [custom_image_queries]
-queries = [
-  "video production camera",
-  "content creation workspace",
-  "social media creator",
-  "filming setup",
-  "blog to video content"
-]
+queries = ["video production camera", "content creation workspace", "social media creator", "filming setup", "blog to video content"]
 
 [ai_summary]
 enabled = true
 title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết là hướng dẫn thực chiến dựa trên kinh nghiệm cắt nội dung từ blog sang video; hiệu quả phụ thuộc vào cách bạn chọn chủ đề, quay video và đăng bài."
-items = [
-  "Một bài blog 2.000+ từ có thể cắt thành 5-10 video TikTok ngắn, mỗi video tập trung vào một điểm chính hoặc một bước cụ thể.",
-  "Quy trình cắt nội dung: tìm ý tưởng mạnh → viết kịch bản video ngắn → quay video → thêm hook, text overlay, nhạc → đặt link blog.",
-  "Hook trong 3 giây đầu là tất cả—nếu người xem không dừng lại, họ sẽ scroll qua, không quan tâm nội dung sâu sắc.",
-  "Call-to-action phải là link blog trong bio, không phải \"follow để xem phần tiếp theo\" vì mục đích cuối cùng là tối ưu hóa conversion từ TikTok về blog của bạn."
-]
+items = ["Một bài blog 2.000+ từ có thể cắt thành 5-10 video TikTok ngắn, mỗi video tập trung vào một điểm chính hoặc một bước cụ thể.", "Quy trình cắt nội dung: tìm ý tưởng mạnh → viết kịch bản video ngắn → quay video → thêm hook, text overlay, nhạc → đặt link blog.", "Hook trong 3 giây đầu là tất cả—nếu người xem không dừng lại, họ sẽ scroll qua, không quan tâm nội dung sâu sắc.", "Call-to-action phải là link blog trong bio, không phải \"follow để xem phần tiếp theo\" vì mục đích cuối cùng là tối ưu hóa conversion từ TikTok về blog của bạn."]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/kitchen-kitchen-table-chief-food-blog-12673605/"
 image_provider = "pexels"

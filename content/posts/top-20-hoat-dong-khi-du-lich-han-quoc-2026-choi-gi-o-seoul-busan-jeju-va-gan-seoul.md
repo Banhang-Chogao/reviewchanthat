@@ -1,124 +1,142 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - '20 hoạt động du lịch Hàn Quốc 2026 theo Trip.Best Trip.com, chia 4 nhóm: Seoul
-    văn hóa & lifestyle, Busan, Jeju, gần Seoul.'
-  - Bảng tổng hợp top 20 kèm gợi ý thời gian, đối tượng phù hợp và bài vệ tinh liên
-    quan.
-  - Lịch trình mẫu 3 ngày Seoul, 5 ngày Seoul + gần Seoul, 7 ngày Seoul + Busan/Jeju,
-    10 ngày Seoul + Busan + Jeju.
-  - 'Gợi ý chọn hoạt động theo kiểu du khách: lần đầu, cặp đôi, gia đình, bạn bè,
-    mê K-drama, thích ẩm thực.'
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
-    du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>,
-    https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>,
-    và các nguồn khác.'
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- du-lich
-date: '2026-07-08 07:00:00+07:00'
-description: 'Hàn Quốc 2026 không chỉ có K-pop và ẩm thực đường phố. Nếu bạn lần đầu
-  đi tự túc, câu hỏi lớn nhất là: chơi gì, bắt đầu từ đâu, cái nào thực sự đáng tiền?'
-draft: false
-external_links:
-- title: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-  url: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX
-- title: https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/
-- title: https://english.visitkorea.or.kr/
-- title: https://english.visitseoul.net/
-- title: https://www.visitbusan.net/
-- title: https://www.visitjeju.net/
-- title: https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616
-- title: https://whc.unesco.org/en/list/817/
-- title: https://www.koreanfolkvillage.co.kr/
-- title: https://www.gmcave.or.kr/
-faq:
-- answer: 'Tùy vào sở thích, nhưng top 3 hoạt động nên thử: thuê Hanbok tham quan
-    cung điện Seoul, ăn chợ địa phương (Gwangjang, Jagalchi) và một buổi tối xem musical/jjimjilbang.
-    Nếu có thời gian, nên dành ít nhất 2 ngày cho Jeju hoặc Busan.'
-  question: Du lịch Hàn Quốc 2026 nên chơi gì?
-- answer: 'Bắt đầu với các hoạt động trung tâm Seoul: Hanbok + Gyeongbokgung, chợ
-    Gwangjang, Sparex Dongdaemun. Sau đó, một day trip Suwon là đủ để có trải nghiệm
-    văn hóa đa dạng mà không tốn nhiều thời gian di chuyển.'
-- answer: 'Hầu hết đều hợp, nhưng đặc biệt: ăn uống tại chợ Gwangjang (giá phải chăng,
-    có món quen như cháo, bánh xèo), mua mỹ phẩm tại Myeongdong và tắm jjimjilbang
-    (văn hóa tắm công cộng khá gần gũi với người Việt).'
-- answer: Nếu bạn ở Seoul, 5 ngày chỉ đủ để khám phá Seoul và làm một day trip gần
-    Seoul. Để đi Busan hoặc Jeju, bạn nên có ít nhất 7 ngày — nếu không, chi phí di
-    chuyển sẽ không xứng với thời gian thực tế ở điểm đến.
-- answer: 'Các hoạt động nên đặt trước: vé máy bay nội địa Seoul–Jeju (mùa cao điểm),
-    vé musical/show, gói Hanbok vào cuối tuần, vé Caribbean Bay và Aquafield Goyang.
-    Các hoạt động như chợ, cung điện, đi bộ tường thành Hwaseong thường không cần
-    đặt trước.'
-- answer: Caribbean Bay (Yongin), Korean Folk Village (Yongin), Songwol-dong Fairy
-    Tale Village (Incheon), Gwangmyeong Cave và Aquafield Goyang đều phù hợp với gia
-    đình có trẻ em. Biển Hamdeok (Jeju) cũng an toàn với trẻ nhỏ.
-- answer: Mùa xuân (tháng 4–5) và mùa thu (tháng 9–11) là thời điểm lý tưởng nhất.
-    Mùa hè (tháng 6–8) nóng và ẩm nhưng phù hợp cho biển và công viên nước. Mùa đông
-    (tháng 12–2) rất lạnh, thích hợp cho jjimjilbang và trải nghiệm văn hóa trong
-    nhà.
-image: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
-image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Tuấn Kiệt Jr.
-image_creator_id: '312601'
-image_creator_url: https://www.pexels.com/@soldiervip
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/woman-holding-celebratory-floral-bouquet-indoors-29015820/
-internal_links:
-- ref: posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md
-- ref: posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md
-- ref: posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md
-    Quốc'
-- ref: posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md
-- ref: posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md
-- ref: posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md
-- ref: posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md
-    touristic'
-- ref: posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.md
-    mê làm đẹp'
-- ref: posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md
-    một ngày'
-- ref: posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md
-    điểm nào'
-- ref: posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md
-seo_title: 'Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul'
-series: du-lich
-series_order: 1
-series_title: Du lịch Hàn Quốc 2026
-slug: top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul
-tags:
-- du lịch Hàn Quốc
-- Hàn Quốc 2026
-- Seoul
-- Busan
-- Jeju
-- trải nghiệm Hàn Quốc
-- K-beauty
-- K-drama
-- ẩm thực Hàn Quốc
-- series du lịch
-thumbnail: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
-title: 'Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và
-  gần Seoul?'
-tom_tat_nhanh:
-- label: Nội dung
-  value: 20 hoạt động du lịch Hàn Quốc 2026 theo Trip.Best Trip.com
-- label: Số lượng điểm
-- label: Hợp với
-- label: Thời gian đọc
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["du-lich"]
+date = "2026-07-08T07:00:00+07:00"
+description = "Hàn Quốc 2026 không chỉ có K-pop và ẩm thực đường phố. Nếu bạn lần đầu đi tự túc, câu hỏi lớn nhất là: chơi gì, bắt đầu từ đâu, cái nào thực sự đáng tiền?"
+draft = false
+image = "images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp"
+image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Tuấn Kiệt Jr."
+image_creator_id = "312601"
+image_creator_url = "https://www.pexels.com/@soldiervip"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/woman-holding-celebratory-floral-bouquet-indoors-29015820/"
+seo_title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul"
+series = "du-lich"
+series_order = 1
+series_title = "Du lịch Hàn Quốc 2026"
+slug = "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul"
+tags = ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "Busan", "Jeju", "trải nghiệm Hàn Quốc", "K-beauty", "K-drama", "ẩm thực Hàn Quốc", "series du lịch"]
+thumbnail = "images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp"
+title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+date_display = "08-07-2026 07:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["20 hoạt động du lịch Hàn Quốc 2026 theo Trip.Best Trip.com, chia 4 nhóm: Seoul văn hóa & lifestyle, Busan, Jeju, gần Seoul.", "Bảng tổng hợp top 20 kèm gợi ý thời gian, đối tượng phù hợp và bài vệ tinh liên quan.", "Lịch trình mẫu 3 ngày Seoul, 5 ngày Seoul + gần Seoul, 7 ngày Seoul + Busan/Jeju, 10 ngày Seoul + Busan + Jeju.", "Gợi ý chọn hoạt động theo kiểu du khách: lần đầu, cặp đôi, gia đình, bạn bè, mê K-drama, thích ẩm thực."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
+source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>, https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>, và các nguồn khác."
+
+[[external_links]]
+title = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+url = "https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX"
+
+[[external_links]]
+title = "https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/"
+
+[[external_links]]
+title = "https://english.visitkorea.or.kr/"
+
+[[external_links]]
+title = "https://english.visitseoul.net/"
+
+[[external_links]]
+title = "https://www.visitbusan.net/"
+
+[[external_links]]
+title = "https://www.visitjeju.net/"
+
+[[external_links]]
+title = "https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_6.jsp?cid=811616"
+
+[[external_links]]
+title = "https://whc.unesco.org/en/list/817/"
+
+[[external_links]]
+title = "https://www.koreanfolkvillage.co.kr/"
+
+[[external_links]]
+title = "https://www.gmcave.or.kr/"
+
+[[faq]]
+answer = "Tùy vào sở thích, nhưng top 3 hoạt động nên thử: thuê Hanbok tham quan cung điện Seoul, ăn chợ địa phương (Gwangjang, Jagalchi) và một buổi tối xem musical/jjimjilbang. Nếu có thời gian, nên dành ít nhất 2 ngày cho Jeju hoặc Busan."
+question = "Du lịch Hàn Quốc 2026 nên chơi gì?"
+
+[[faq]]
+answer = "Bắt đầu với các hoạt động trung tâm Seoul: Hanbok + Gyeongbokgung, chợ Gwangjang, Sparex Dongdaemun. Sau đó, một day trip Suwon là đủ để có trải nghiệm văn hóa đa dạng mà không tốn nhiều thời gian di chuyển."
+
+[[faq]]
+answer = "Hầu hết đều hợp, nhưng đặc biệt: ăn uống tại chợ Gwangjang (giá phải chăng, có món quen như cháo, bánh xèo), mua mỹ phẩm tại Myeongdong và tắm jjimjilbang (văn hóa tắm công cộng khá gần gũi với người Việt)."
+
+[[faq]]
+answer = "Nếu bạn ở Seoul, 5 ngày chỉ đủ để khám phá Seoul và làm một day trip gần Seoul. Để đi Busan hoặc Jeju, bạn nên có ít nhất 7 ngày — nếu không, chi phí di chuyển sẽ không xứng với thời gian thực tế ở điểm đến."
+
+[[faq]]
+answer = "Các hoạt động nên đặt trước: vé máy bay nội địa Seoul–Jeju (mùa cao điểm), vé musical/show, gói Hanbok vào cuối tuần, vé Caribbean Bay và Aquafield Goyang. Các hoạt động như chợ, cung điện, đi bộ tường thành Hwaseong thường không cần đặt trước."
+
+[[faq]]
+answer = "Caribbean Bay (Yongin), Korean Folk Village (Yongin), Songwol-dong Fairy Tale Village (Incheon), Gwangmyeong Cave và Aquafield Goyang đều phù hợp với gia đình có trẻ em. Biển Hamdeok (Jeju) cũng an toàn với trẻ nhỏ."
+
+[[faq]]
+answer = "Mùa xuân (tháng 4–5) và mùa thu (tháng 9–11) là thời điểm lý tưởng nhất. Mùa hè (tháng 6–8) nóng và ẩm nhưng phù hợp cho biển và công viên nước. Mùa đông (tháng 12–2) rất lạnh, thích hợp cho jjimjilbang và trải nghiệm văn hóa trong nhà."
+
+[[internal_links]]
+ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+
+[[internal_links]]
+ref = "posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md Quốc'"
+
+[[internal_links]]
+ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
+
+[[internal_links]]
+ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+
+[[internal_links]]
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md touristic'"
+
+[[internal_links]]
+ref = "posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.md mê làm đẹp'"
+
+[[internal_links]]
+ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md một ngày'"
+
+[[internal_links]]
+ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md điểm nào'"
+
+[[internal_links]]
+ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
+
+[[tom_tat_nhanh]]
+label = "Nội dung"
+value = "20 hoạt động du lịch Hàn Quốc 2026 theo Trip.Best Trip.com"
+
+[[tom_tat_nhanh]]
+label = "Số lượng điểm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian đọc"
++++
 
 Hàn Quốc 2026 không chỉ có K-pop và ẩm thực đường phố. Nếu bạn lần đầu đi tự túc, câu hỏi lớn nhất là: chơi gì, bắt đầu từ đâu, cái nào thực sự đáng tiền?
 

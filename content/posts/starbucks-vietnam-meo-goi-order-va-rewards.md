@@ -1,63 +1,60 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Gọi rõ size, đá, đường và sữa ngay từ đầu — giảm nhầm order khi quầy đông.
-  - App Starbucks Vietnam hỗ trợ order trước, thanh toán và tích điểm Rewards.
-  - Giờ cao điểm (11h30–13h30) nên order app để đỡ chờ; chi nhánh Nguyễn Văn Trỗi
-    vẫn nên ghé sớm nếu cần chỗ ngồi.
-  - Tùy chỉnh ít ngọt, ít đá, extra shot — barista thường làm theo nếu bạn nói rõ.
-  title: Tóm tắt bài viết
-attribution:
-  copyright: © 2026 Review Chân Thật. Mẹo từ trải nghiệm cá nhân; chính sách app có
-    thể thay đổi.
-  source_note: Kiểm tra app Starbucks Vietnam hoặc quầy order để biết chương trình
-    Rewards hiện hành.
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- review
-date: '2026-07-08 12:00:00+07:00'
-description: Mẹo gọi đồ tại Starbucks Vietnam — size, tùy chỉnh, dùng app order trước
-  và tích điểm Rewards. Kinh nghiệm thực tế từ chi nhánh Nguyễn Văn Trỗi.
-draft: false
-external_links:
-- title: Starbucks Vietnam
-  url: https://www.starbucks.vn/
-image: images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp
-image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Iván Rivero
-image_creator_id: '233620'
-image_creator_url: https://www.pexels.com/@osho
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/person-using-macbook-pro-on-brown-wooden-table-1001969/
-seo_title: 'Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng'
-series: starbucks-vietnam
-series_order: 6
-series_title: 'Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế'
-slug: starbucks-vietnam-meo-goi-order-va-rewards
-tags:
-- Starbucks Rewards
-- mẹo order Starbucks
-- app Starbucks
-- Starbucks Vietnam
-- Starbucks Nguyễn Văn Trỗi
-thumbnail: images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp
-title: 'Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu'
-tom_tat_nhanh:
-- label: Order nhanh
-  value: Nói size + ít đá + ít ngọt
-- label: App
-- label: Giờ đông
-- label: Chi nhánh quen
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["review"]
+date = "2026-07-08T12:00:00+07:00"
+description = "Mẹo gọi đồ tại Starbucks Vietnam — size, tùy chỉnh, dùng app order trước và tích điểm Rewards. Kinh nghiệm thực tế từ chi nhánh Nguyễn Văn Trỗi."
+draft = false
+image = "images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp"
+image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
+image_creator = "Iván Rivero"
+image_creator_id = "233620"
+image_creator_url = "https://www.pexels.com/@osho"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-using-macbook-pro-on-brown-wooden-table-1001969/"
+seo_title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng"
+series = "starbucks-vietnam"
+series_order = 6
+series_title = "Starbucks Vietnam: từ lịch sử đến trải nghiệm thực tế"
+slug = "starbucks-vietnam-meo-goi-order-va-rewards"
+tags = ["Starbucks Rewards", "mẹo order Starbucks", "app Starbucks", "Starbucks Vietnam", "Starbucks Nguyễn Văn Trỗi"]
+thumbnail = "images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+date_display = "08-07-2026 12:00:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Gọi rõ size, đá, đường và sữa ngay từ đầu — giảm nhầm order khi quầy đông.", "App Starbucks Vietnam hỗ trợ order trước, thanh toán và tích điểm Rewards.", "Giờ cao điểm (11h30–13h30) nên order app để đỡ chờ; chi nhánh Nguyễn Văn Trỗi vẫn nên ghé sớm nếu cần chỗ ngồi.", "Tùy chỉnh ít ngọt, ít đá, extra shot — barista thường làm theo nếu bạn nói rõ."]
+title = "Tóm tắt bài viết"
+
+[attribution]
+copyright = "© 2026 Review Chân Thật. Mẹo từ trải nghiệm cá nhân; chính sách app có thể thay đổi."
+source_note = "Kiểm tra app Starbucks Vietnam hoặc quầy order để biết chương trình Rewards hiện hành."
+
+[[external_links]]
+title = "Starbucks Vietnam"
+url = "https://www.starbucks.vn/"
+
+[[tom_tat_nhanh]]
+label = "Order nhanh"
+value = "Nói size + ít đá + ít ngọt"
+
+[[tom_tat_nhanh]]
+label = "App"
+
+[[tom_tat_nhanh]]
+label = "Giờ đông"
+
+[[tom_tat_nhanh]]
+label = "Chi nhánh quen"
++++
 
 Lần đầu order Starbucks, bạn có thể nghe nhân viên hỏi một loạt: "Size gì ạ? Anh/chị uống tại chỗ hay mang đi? Có cần ít đá không?" — đừng ngại. Sau vài lần, bạn sẽ có **công thức order** riêng và tiết kiệm được thời gian lẫn tiền (nhờ Rewards).
 

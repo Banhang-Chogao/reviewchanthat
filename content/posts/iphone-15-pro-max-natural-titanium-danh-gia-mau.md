@@ -1,60 +1,58 @@
----
-ai_summary:
-  collapsed: false
-  enabled: true
-  items:
-  - Natural Titanium là màu gần với titan thô nhất trong bốn màu iPhone 15 Pro Max.
-  - Màu trung tính, dễ phối ốp trong suốt hoặc da; thường được săn khi mua máy cũ.
-  - Viền dễ lộ vết trầy và ố vàng hơn Black Titanium nếu không vệ sinh thường xuyên.
-  - Nên so sánh với Blue và White trước khi chốt — mỗi màu phai khác nhau.
-  title: Tóm tắt bài viết
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-categories:
-- cong-nghe
-date: '2026-07-08 11:20:00+07:00'
-description: 'Natural Titanium trên iPhone 15 Pro Max: màu gốc, độ bền viền, so với
-  các màu khác và có đáng chọn khi mua máy cũ năm 2026.'
-draft: false
-image: images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp
-image_alt: 'Ảnh minh họa iPhone 15 Pro Max Natural Titanium: đánh giá màu — nguồn
-  Pexels'
-image_attribution_checked_at: '2026-07-10T14:01:37+07:00'
-image_attribution_source: pexels_manifest
-image_attribution_verified: true
-image_color_score: 12.0
-image_commercial_use: true
-image_creator: Zana Latif
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@zana-latif-2772032
-image_license: Pexels License
-image_license_url: https://www.pexels.com/license/
-image_owner: external
-image_provider: pexels
-image_query: iPhone titanium smartphone hand
-image_semantic_score: 35.2
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/iphone-15-pro-max-box-in-natural-titanium-color-mention-zana_qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana_qaradaghy-18525573/
-image_status: verified
-image_total_score: 73.2
-series: iphone-15-pro-max-mau-titan-danh-gia-tren-tay
-series_order: 2
-series_title: 'iPhone 15 Pro Max màu titan: đánh giá trên tay'
-slug: iphone-15-pro-max-natural-titanium-danh-gia-mau
-tags:
-- iPhone 15 Pro Max
-- Natural Titanium
-- màu titan
-- đánh giá màu
-thumbnail: images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp
-title: 'iPhone 15 Pro Max Natural Titanium: đánh giá màu'
-tom_tat_nhanh:
-- label: Màu
-  value: Natural Titanium — titan nguyên bản
-- label: Ưu điểm
-- label: Nhược điểm
-- label: Hợp với
----
++++
+author = "Minh Hoàng"
+avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+categories = ["cong-nghe"]
+date = "2026-07-08T11:20:00+07:00"
+description = "Natural Titanium trên iPhone 15 Pro Max: màu gốc, độ bền viền, so với các màu khác và có đáng chọn khi mua máy cũ năm 2026."
+draft = false
+image = "images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp"
+image_alt = "Ảnh minh họa iPhone 15 Pro Max Natural Titanium: đánh giá màu — nguồn Pexels"
+image_attribution_checked_at = "2026-07-10T14:01:37+07:00"
+image_attribution_source = "pexels_manifest"
+image_attribution_verified = true
+image_color_score = 12.0
+image_commercial_use = true
+image_creator = "Zana Latif"
+image_creator_id = ""
+image_creator_url = "https://www.pexels.com/@zana-latif-2772032"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_owner = "external"
+image_provider = "pexels"
+image_query = "iPhone titanium smartphone hand"
+image_semantic_score = 35.2
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/iphone-15-pro-max-box-in-natural-titanium-color-mention-zana_qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana_qaradaghy-18525573/"
+image_status = "verified"
+image_total_score = 73.2
+series = "iphone-15-pro-max-mau-titan-danh-gia-tren-tay"
+series_order = 2
+series_title = "iPhone 15 Pro Max màu titan: đánh giá trên tay"
+slug = "iphone-15-pro-max-natural-titanium-danh-gia-mau"
+tags = ["iPhone 15 Pro Max", "Natural Titanium", "màu titan", "đánh giá màu"]
+thumbnail = "images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp"
+title = "iPhone 15 Pro Max Natural Titanium: đánh giá màu"
+date_display = "08-07-2026 11:20:00 GMT +7"
+
+[ai_summary]
+collapsed = false
+enabled = true
+items = ["Natural Titanium là màu gần với titan thô nhất trong bốn màu iPhone 15 Pro Max.", "Màu trung tính, dễ phối ốp trong suốt hoặc da; thường được săn khi mua máy cũ.", "Viền dễ lộ vết trầy và ố vàng hơn Black Titanium nếu không vệ sinh thường xuyên.", "Nên so sánh với Blue và White trước khi chốt — mỗi màu phai khác nhau."]
+title = "Tóm tắt bài viết"
+
+[[tom_tat_nhanh]]
+label = "Màu"
+value = "Natural Titanium — titan nguyên bản"
+
+[[tom_tat_nhanh]]
+label = "Ưu điểm"
+
+[[tom_tat_nhanh]]
+label = "Nhược điểm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
++++
 
 **Natural Titanium** thường được Apple đặt làm màu “poster” trên ảnh quảng cáo — tone xám bạc ngả vàng nhẹ, gợi cảm giác **kim loại thật** hơn ba màu còn lại. Đây cũng là màu tranh luận nhiều nhất trên forum Việt Nam: đẹp khi mới, nhưng **có giữ được vẻ premium sau một năm không?**
 

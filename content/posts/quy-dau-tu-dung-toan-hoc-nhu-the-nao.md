@@ -11,17 +11,11 @@ series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 3
 image = "images/posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.webp"
 image_alt = "Ảnh minh họa Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục — nguồn Pexels"
+date_display = "10-07-2026 11:15:00 GMT +7"
+lastmod_display = "10-07-2026 11:15:00 GMT +7"
 
 [ai_summary]
-items = [
-  "Quỹ đầu tư đo lợi suất bằng expected return E[R] và rủi ro bằng volatility (σ)",
-  "Correlation và covariance giữa cổ phiếu: khi một tăng có nhất thiết cái khác phải tăng không?",
-  "Efficient frontier: tập hợp danh mục có lợi suất cao nhất với rủi ro nhỏ nhất",
-  "Sharpe ratio = (Expected Return - Risk-Free Rate) / Volatility — cách so sánh danh mục công bằng",
-  "CAPM (Capital Asset Pricing Model): E[R] = Rf + β(Rm - Rf) — liên hệ giữa rủi ro và lợi suất kỳ vọng",
-  "Beta (β): rủi ro hệ thống của tài sản, đo độ nhạy với thị trường chung",
-  "Ví dụ: danh mục cổ phiếu-trái phiếu-vàng, cách tính expected return, volatility, Sharpe ratio"
-]
+items = ["Quỹ đầu tư đo lợi suất bằng expected return E[R] và rủi ro bằng volatility (σ)", "Correlation và covariance giữa cổ phiếu: khi một tăng có nhất thiết cái khác phải tăng không?", "Efficient frontier: tập hợp danh mục có lợi suất cao nhất với rủi ro nhỏ nhất", "Sharpe ratio = (Expected Return - Risk-Free Rate) / Volatility — cách so sánh danh mục công bằng", "CAPM (Capital Asset Pricing Model): E[R] = Rf + β(Rm - Rf) — liên hệ giữa rủi ro và lợi suất kỳ vọng", "Beta (β): rủi ro hệ thống của tài sản, đo độ nhạy với thị trường chung", "Ví dụ: danh mục cổ phiếu-trái phiếu-vàng, cách tính expected return, volatility, Sharpe ratio"]
 thumbnail = "images/posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/graphis-illustration-of-100-on-monitor-5849551/"
