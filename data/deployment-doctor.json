@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T07:40:16+07:00",
-  "generated_at_display": "10-07-2026 07:40:16",
+  "generated_at": "2026-07-10T07:47:14+07:00",
+  "generated_at_display": "10-07-2026 07:47:14",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -8,13 +8,13 @@
   },
   "summary": {
     "failed_runs_scanned": 38,
-    "safe_autofixes_available": 32,
-    "unsafe_external_failures": 6,
+    "safe_autofixes_available": 31,
+    "unsafe_external_failures": 7,
     "open_action_items": 9,
-    "loop_guarded_attempts": 44,
+    "loop_guarded_attempts": 45,
     "by_type": {
-      "workflow_fanout": 28,
-      "hugo_build_error": 6,
+      "workflow_fanout": 27,
+      "hugo_build_error": 7,
       "content_direction_optimizer_fail": 2,
       "sitemap_noindex_mismatch": 2
     }
@@ -484,12 +484,6 @@
         "run_id": "29058962687",
         "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
         "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29058873327",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
       }
     ],
     "qa_debt": [],
@@ -521,6 +515,12 @@
         "run_id": "29059688893",
         "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
+      },
+      {
+        "failure_type": "hugo_build_error",
+        "run_id": "29060713497",
+        "rootcause": "Hugo build/render error.",
+        "safe_to_autofix": false
       },
       {
         "failure_type": "hugo_build_error",
@@ -978,10 +978,10 @@
       "detail": "no script or already attempted this run"
     },
     {
-      "run_id": "29058873327",
-      "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "run_id": "29060713497",
+      "failure_type": "hugo_build_error",
+      "result": "unsafe",
+      "detail": "safe_to_autofix=false — report only"
     },
     {
       "run_id": "29060377060",
@@ -1283,6 +1283,12 @@
       "key": "c19cb5931c5d:workflow_fanout",
       "count": 2,
       "last_attempt_at": "2026-07-10T07:38:31+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "447e0e5120f1:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:47:14+07:00",
       "last_result": "skipped"
     }
   ],
