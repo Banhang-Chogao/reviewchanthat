@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-10T15:01:36+07:00",
-  "generated_at_display": "10-07-2026 15:01:36",
+  "generated_at": "2026-07-11T03:56:26+07:00",
+  "generated_at_display": "11-07-2026 03:56:26",
   "summary": {
-    "total_posts": 208,
+    "total_posts": 217,
     "draft_posts": 0,
-    "total_words": 259431,
-    "average_words_per_post": 1247,
+    "total_words": 284380,
+    "average_words_per_post": 1311,
     "categories_count": 5,
-    "tags_count": 633,
+    "tags_count": 681,
     "authors_count": 1,
-    "parse_warnings": 1
+    "parse_warnings": 0
   },
   "categories": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "name": "doi-song",
-      "count": 13
+      "count": 22
     },
     {
       "name": "review",
@@ -73,6 +73,10 @@
       "count": 11
     },
     {
+      "name": "series cuộc sống số",
+      "count": 10
+    },
+    {
       "name": "macOS 27",
       "count": 10
     },
@@ -115,17 +119,13 @@
     {
       "name": "ski resort Hàn Quốc",
       "count": 7
-    },
-    {
-      "name": "gangwon-do",
-      "count": 7
     }
   ],
   "time": {
     "oldest": "2026-06-15T10:00:00+07:00",
     "oldest_display": "15-06-2026 10:00:00",
-    "newest": "2026-07-10T14:57:44+07:00",
-    "newest_display": "10-07-2026 14:57:44"
+    "newest": "2026-07-10T18:57:10+07:00",
+    "newest_display": "10-07-2026 18:57:10"
   },
   "seo": {
     "title_too_short": [],
@@ -159,11 +159,32 @@
         "length": 62
       },
       {
+        "slug": "checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi",
+        "title": "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị",
+        "seo_title": "Checklist cuộc sống số: 50 việc bảo vệ dữ liệu và thiết bị mỗi tháng",
+        "effective_title": "Checklist cuộc sống số: 50 việc bảo vệ dữ liệu và thiết bị mỗi tháng",
+        "length": 68
+      },
+      {
         "slug": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
         "title": "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?",
         "seo_title": "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới",
         "effective_title": "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới",
         "length": 79
+      },
+      {
+        "slug": "digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi",
+        "title": "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối",
+        "seo_title": "Digital Detox là gì? Cách giảm nghiện điện thoại không mất kết nối",
+        "effective_title": "Digital Detox là gì? Cách giảm nghiện điện thoại không mất kết nối",
+        "length": 66
+      },
+      {
+        "slug": "don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos",
+        "title": "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS",
+        "seo_title": "Dọn Mac đúng cách: tối ưu dung lượng, tăng tốc không cần cài lại",
+        "effective_title": "Dọn Mac đúng cách: tối ưu dung lượng, tăng tốc không cần cài lại",
+        "length": 64
       },
       {
         "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
@@ -175,8 +196,8 @@
       {
         "slug": "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien",
         "title": "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio",
-        "seo_title": "Định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation",
-        "effective_title": "Định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation",
+        "seo_title": "định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation",
+        "effective_title": "định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation",
         "length": 65
       },
       {
@@ -201,11 +222,25 @@
         "length": 117
       },
       {
+        "slug": "password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026",
+        "title": "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?",
+        "seo_title": "Password Manager là gì? Có nên dùng trình quản lý mật khẩu 2026?",
+        "effective_title": "Password Manager là gì? Có nên dùng trình quản lý mật khẩu 2026?",
+        "length": 64
+      },
+      {
         "slug": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
         "title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?",
         "seo_title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD là gì và emergency fund bao nhiêu là đủ?",
         "effective_title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD là gì và emergency fund bao nhiêu là đủ?",
         "length": 105
+      },
+      {
+        "slug": "quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac",
+        "title": "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc",
+        "seo_title": "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu không thất lạc",
+        "effective_title": "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu không thất lạc",
+        "length": 66
       },
       {
         "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
@@ -255,21 +290,9 @@
         "seo_title": "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào",
         "effective_title": "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào",
         "length": 63
-      },
-      {
-        "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
-        "title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
-        "seo_title": "",
-        "effective_title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
-        "length": 63
       }
     ],
-    "description_missing": [
-      {
-        "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
-        "title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai"
-      }
-    ],
+    "description_missing": [],
     "description_too_short": [],
     "description_too_long": [
       {
@@ -309,7 +332,7 @@
       },
       {
         "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
-        "title": "Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?",
+        "title": "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?",
         "length": 183
       },
       {
@@ -353,6 +376,11 @@
         "length": 173
       },
       {
+        "slug": "quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac",
+        "title": "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc",
+        "length": 161
+      },
+      {
         "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
         "title": "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục",
         "length": 200
@@ -381,6 +409,11 @@
         "slug": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
         "title": "VPBank NEO review 2026: app ngân hàng số này hợp với ai?",
         "length": 190
+      },
+      {
+        "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "title": "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI",
+        "length": 161
       }
     ],
     "slug_too_long": [
@@ -397,8 +430,16 @@
         "length": 77
       },
       {
+        "slug": "checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi",
+        "length": 78
+      },
+      {
         "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
         "length": 78
+      },
+      {
+        "slug": "cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon",
+        "length": 81
       },
       {
         "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
@@ -415,10 +456,6 @@
       {
         "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "length": 81
-      },
-      {
-        "slug": "digital-minimalism-trong-thoi-dai-ai-dung-it-ung-dung-hon-nhung-hieu-qua-hon",
-        "length": 76
       },
       {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -442,6 +479,10 @@
       },
       {
         "slug": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
+        "length": 76
+      },
+      {
+        "slug": "quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac",
         "length": 76
       },
       {
@@ -522,6 +563,12 @@
         ]
       },
       {
+        "slug": "backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai",
+        "stop_words": [
+          "de"
+        ]
+      },
+      {
         "slug": "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
         "stop_words": [
           "va"
@@ -581,6 +628,14 @@
         "stop_words": [
           "co",
           "the",
+          "ve"
+        ]
+      },
+      {
+        "slug": "checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi",
+        "stop_words": [
+          "de",
+          "va",
           "ve"
         ]
       },
@@ -654,6 +709,12 @@
         ]
       },
       {
+        "slug": "cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
         "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "stop_words": [
           "mot",
@@ -697,15 +758,42 @@
         ]
       },
       {
+        "slug": "digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi",
+        "stop_words": [
+          "la"
+        ]
+      },
+      {
         "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "stop_words": [
           "la"
         ]
       },
       {
-        "slug": "digital-minimalism-trong-thoi-dai-ai-dung-it-ung-dung-hon-nhung-hieu-qua-hon",
+        "slug": "digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi",
         "stop_words": [
-          "nhung"
+          "va"
+        ]
+      },
+      {
+        "slug": "don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi",
+        "stop_words": [
+          "mot"
+        ]
+      },
+      {
+        "slug": "don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho",
+        "stop_words": [
+          "de",
+          "nhu",
+          "the",
+          "va"
+        ]
+      },
+      {
+        "slug": "don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos",
+        "stop_words": [
+          "va"
         ]
       },
       {
@@ -1016,6 +1104,13 @@
         ]
       },
       {
+        "slug": "password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026",
+        "stop_words": [
+          "co",
+          "la"
+        ]
+      },
+      {
         "slug": "phuket-mua-mua-co-nen-di-khong",
         "stop_words": [
           "co"
@@ -1025,6 +1120,12 @@
         "slug": "pin-iphone-16-pro-max-co-dang-chon",
         "stop_words": [
           "co"
+        ]
+      },
+      {
+        "slug": "quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac",
+        "stop_words": [
+          "de"
         ]
       },
       {
@@ -1307,6 +1408,12 @@
         "date": "08-07-2026 11:20:00"
       },
       {
+        "slug": "backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai",
+        "title": "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại",
+        "age_days": 0,
+        "date": "10-07-2026 18:57:10"
+      },
+      {
         "slug": "bangkok-3-ngay-3-dem-mua-mua",
         "title": "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu",
         "age_days": 2,
@@ -1333,7 +1440,7 @@
       {
         "slug": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
         "title": "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững",
-        "age_days": 0,
+        "age_days": 1,
         "date": "10-07-2026 00:15:00"
       },
       {
@@ -1357,13 +1464,13 @@
       {
         "slug": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
         "title": "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?",
-        "age_days": 0,
+        "age_days": 1,
         "date": "10-07-2026 00:35:00"
       },
       {
         "slug": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
         "title": "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?",
-        "age_days": 0,
+        "age_days": 1,
         "date": "10-07-2026 00:30:00"
       },
       {
@@ -1381,7 +1488,7 @@
       {
         "slug": "busan-thang-11-nen-di-dau",
         "title": "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 20:30:00"
       },
       {
@@ -1439,6 +1546,12 @@
         "date": "10-07-2026 13:16:14"
       },
       {
+        "slug": "checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi",
+        "title": "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị",
+        "age_days": 0,
+        "date": "10-07-2026 18:57:10"
+      },
+      {
         "slug": "checklist-truoc-khi-mua-mot-san-pham-online",
         "title": "Checklist trước khi mua một sản phẩm online",
         "age_days": 20,
@@ -1465,13 +1578,13 @@
       {
         "slug": "chi-phi-di-han-thang-10-tu-tuc",
         "title": "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 16:00:00"
       },
       {
         "slug": "chi-phi-di-han-thang-11-tu-tuc",
         "title": "Chi phí đi Hàn tháng 11 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 22:00:00"
       },
       {
@@ -1519,12 +1632,12 @@
       {
         "slug": "co-nen-len-ios-26-5-2-khong",
         "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 17:30:00"
       },
       {
         "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
-        "title": "Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?",
+        "title": "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?",
         "age_days": 0,
         "date": "10-07-2026 11:30:00"
       },
@@ -1535,6 +1648,12 @@
         "date": "10-07-2026 04:40:00"
       },
       {
+        "slug": "cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon",
+        "title": "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn",
+        "age_days": 0,
+        "date": "10-07-2026 18:57:10"
+      },
+      {
         "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
         "age_days": 2,
@@ -1543,7 +1662,7 @@
       {
         "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
         "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 23:30:00"
       },
       {
@@ -1573,13 +1692,13 @@
       {
         "slug": "di-han-thang-11-co-dep-khong",
         "title": "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên chọn",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 17:00:00"
       },
       {
         "slug": "di-han-thang-11-mac-gi",
         "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 18:30:00"
       },
       {
@@ -1607,22 +1726,46 @@
         "date": "08-07-2026 07:00:00"
       },
       {
+        "slug": "digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi",
+        "title": "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối",
+        "age_days": 0,
+        "date": "10-07-2026 18:57:10"
+      },
+      {
         "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
         "age_days": 2,
         "date": "08-07-2026 09:20:00"
       },
       {
-        "slug": "digital-minimalism-trong-thoi-dai-ai-dung-it-ung-dung-hon-nhung-hieu-qua-hon",
-        "title": "Digital Minimalism trong thời đại AI: dùng ít ứng dụng hơn nhưng hiệu quả hơn",
+        "slug": "digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi",
+        "title": "Digital Minimalism: sống tối giản trong thời đại AI và mạng xã hội",
         "age_days": 0,
-        "date": "10-07-2026 14:51:44"
+        "date": "10-07-2026 18:57:10"
       },
       {
         "slug": "doi-baht-o-viet-nam-hay-thai-lan",
         "title": "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc",
         "age_days": 2,
         "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi",
+        "title": "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối",
+        "age_days": 0,
+        "date": "10-07-2026 18:57:10"
+      },
+      {
+        "slug": "don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho",
+        "title": "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?",
+        "age_days": 0,
+        "date": "10-07-2026 18:57:10"
+      },
+      {
+        "slug": "don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos",
+        "title": "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS",
+        "age_days": 0,
+        "date": "10-07-2026 18:57:10"
       },
       {
         "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
@@ -1639,7 +1782,7 @@
       {
         "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
         "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 17:00:00"
       },
       {
@@ -1663,7 +1806,7 @@
       {
         "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
         "title": "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?",
-        "age_days": 0,
+        "age_days": 1,
         "date": "10-07-2026 03:30:00"
       },
       {
@@ -1675,13 +1818,13 @@
       {
         "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
         "title": "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 22:35:00"
       },
       {
         "slug": "github-actions-run-start-delays-july-9-2026-ci-cd-protection",
         "title": "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 20:21:28"
       },
       {
@@ -1741,7 +1884,7 @@
       {
         "slug": "han-quoc-thang-11-co-la-do-chua",
         "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 18:00:00"
       },
       {
@@ -1782,7 +1925,7 @@
       },
       {
         "slug": "ios-27-beta-co-nen-cai-khong",
-        "title": "iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về bản ổn định",
+        "title": "iOS 27 beta có nên cài không? rủi ro, cách backup và quay về bản ổn định",
         "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
@@ -1921,7 +2064,7 @@
       {
         "slug": "iphone-18-mau-gi-dark-cherry",
         "title": "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 16:00:00"
       },
       {
@@ -1963,7 +2106,7 @@
       {
         "slug": "jeju-thang-11-co-dep-khong",
         "title": "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 21:00:00"
       },
       {
@@ -2005,7 +2148,7 @@
       {
         "slug": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 21:30:00"
       },
       {
@@ -2034,7 +2177,7 @@
       },
       {
         "slug": "macos-27-beta-co-nen-cai-khong",
-        "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
+        "title": "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định",
         "age_days": 2,
         "date": "08-07-2026 13:00:00"
       },
@@ -2113,13 +2256,13 @@
       {
         "slug": "nami-thang-11-co-dang-di-khong",
         "title": "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 19:30:00"
       },
       {
         "slug": "nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026",
         "title": "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 20:00:00"
       },
       {
@@ -2165,6 +2308,12 @@
         "date": "08-07-2026 10:00:00"
       },
       {
+        "slug": "password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026",
+        "title": "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?",
+        "age_days": 0,
+        "date": "10-07-2026 18:57:10"
+      },
+      {
         "slug": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
         "title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?",
         "age_days": 0,
@@ -2193,6 +2342,12 @@
         "title": "Post date timezone Việt Nam (GMT+7): tránh stale_date và lệch homepage",
         "age_days": 0,
         "date": "10-07-2026 04:35:00"
+      },
+      {
+        "slug": "quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac",
+        "title": "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc",
+        "age_days": 0,
+        "date": "10-07-2026 18:57:10"
       },
       {
         "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
@@ -2227,7 +2382,7 @@
       {
         "slug": "seoraksan-thang-11-ngam-la-do",
         "title": "Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 20:00:00"
       },
       {
@@ -2245,7 +2400,7 @@
       {
         "slug": "seoul-thang-11-nen-di-dau",
         "title": "Seoul tháng 11 nên đi đâu? Lịch trình 3 ngày ngắm peak lá đỏ",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 19:00:00"
       },
       {
@@ -2287,7 +2442,7 @@
       {
         "slug": "starbucks-vietnam-menu-do-uong-nen-thu",
         "title": "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 16:00:00"
       },
       {
@@ -2299,7 +2454,7 @@
       {
         "slug": "starbucks-vietnam-nhan-vien-va-dich-vu",
         "title": "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 17:00:00"
       },
       {
@@ -2329,7 +2484,7 @@
       {
         "slug": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 17:30:00"
       },
       {
@@ -2437,25 +2592,25 @@
       {
         "slug": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
         "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
-        "age_days": 2,
+        "age_days": 3,
         "date": "07-07-2026 18:00:00"
       },
       {
         "slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
-        "title": "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu",
+        "title": "WWDC26: phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu",
         "age_days": 3,
         "date": "07-07-2026 09:00:00"
       },
       {
         "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
-        "title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "title": "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI",
         "age_days": 0,
-        "date": "10-07-2026 14:50:44"
+        "date": "10-07-2026 14:58:30"
       },
       {
         "slug": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
         "title": "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok",
-        "age_days": 0,
+        "age_days": 1,
         "date": "10-07-2026 00:10:00"
       },
       {
@@ -2479,8 +2634,8 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1692,
-    "average_outbound_per_post": 8.13,
+    "total_outbound_links": 1726,
+    "average_outbound_per_post": 7.95,
     "top_linked_posts": [
       {
         "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -2575,12 +2730,12 @@
         "title": "CFA dùng toán học gì? Những công thức quản lý tài sản"
       },
       {
-        "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
-        "title": "Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+        "slug": "checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi",
+        "title": "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
       },
       {
-        "slug": "digital-minimalism-trong-thoi-dai-ai-dung-it-ung-dung-hon-nhung-hieu-qua-hon",
-        "title": "Digital Minimalism trong thời đại AI: dùng ít ứng dụng hơn nhưng hiệu quả hơn"
+        "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
+        "title": "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
       },
       {
         "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
@@ -2648,7 +2803,7 @@
       },
       {
         "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
-        "title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai"
+        "title": "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
       }
     ],
     "posts_missing_internal_links": [
@@ -2678,7 +2833,7 @@
       },
       {
         "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
-        "title": "Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+        "title": "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
       },
       {
         "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
@@ -2749,14 +2904,6 @@
   "content_gaps": [],
   "action_items": [
     {
-      "priority": "P0",
-      "type": "SEO",
-      "title": "Thêm meta description cho bài thiếu",
-      "detail": "1 bài chưa có meta description.",
-      "affected_count": 1,
-      "suggested_fix": "Viết description 50–160 ký tự, chứa keyword chính."
-    },
-    {
       "priority": "P1",
       "type": "Internal Linking",
       "title": "Giảm orphan posts (không có inbound)",
@@ -2776,44 +2923,34 @@
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài meta description",
-      "detail": "0 quá ngắn, 22 quá dài (chuẩn 50–160).",
-      "affected_count": 22,
+      "detail": "0 quá ngắn, 24 quá dài (chuẩn 50–160).",
+      "affected_count": 24,
       "suggested_fix": "Chỉnh description về 50–160 ký tự."
     },
     {
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài title tag",
-      "detail": "0 title quá ngắn, 19 title quá dài (chuẩn 30–60 ký tự).",
-      "affected_count": 19,
+      "detail": "0 title quá ngắn, 23 title quá dài (chuẩn 30–60 ký tự).",
+      "affected_count": 23,
       "suggested_fix": "Rút gọn/mở rộng title về 30–60 ký tự, giữ keyword đầu."
     },
     {
       "priority": "P2",
       "type": "SEO",
       "title": "Rút ngắn slug quá dài",
-      "detail": "23 slug > 75 ký tự.",
-      "affected_count": 23,
+      "detail": "25 slug > 75 ký tự.",
+      "affected_count": 25,
       "suggested_fix": "Rút gọn slug (report-only — đổi slug cần redirect)."
     },
     {
       "priority": "P2",
       "type": "SEO",
       "title": "Slug chứa stop words (report-only)",
-      "detail": "117 slug chứa stop words tiếng Việt.",
-      "affected_count": 117,
+      "detail": "126 slug chứa stop words tiếng Việt.",
+      "affected_count": 126,
       "suggested_fix": "Ghi nhận; chỉ đổi slug khi refactor có redirect."
-    },
-    {
-      "priority": "P2",
-      "type": "Technical",
-      "title": "Sửa bài parse front matter lỗi / cảnh báo",
-      "detail": "1 cảnh báo khi scan posts.",
-      "affected_count": 1,
-      "suggested_fix": "Kiểm tra front matter YAML/TOML của các file bị cảnh báo."
     }
   ],
-  "warnings": [
-    "content/posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md: missing-title"
-  ]
+  "warnings": []
 }
