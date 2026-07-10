@@ -3848,7 +3848,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+      "title": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+      "image_id": "img-960b5891",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/",
+      "direct_url": "https://images.pexels.com/photos/29502355/pexels-photo-29502355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Julio Lopez",
+      "creator_url": "https://www.pexels.com/@julio-lopez-75309646",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.jpg",
+      "output_path": "static/images/posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.webp",
+      "watermark_text": "Source: Pexels / Julio Lopez",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "mobile banking payment app",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-10T00:01:56.226838+00:00"
+  "generated_at": "2026-07-10T00:03:46.572987+00:00"
 }
