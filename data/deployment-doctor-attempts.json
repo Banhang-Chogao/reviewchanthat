@@ -286,11 +286,11 @@
       "last_result": "skipped"
     },
     "afc8f1894829:workflow_fanout": {
-      "count": 1,
-      "last_attempt_at": "2026-07-10T07:49:34+07:00",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:56:44+07:00",
       "last_result": "skipped"
     }
   },
-  "updated_at": "2026-07-10T07:49:34+07:00",
+  "updated_at": "2026-07-10T07:56:44+07:00",
   "notes": "Ledger prevents autofix loops. Key = sha:failure_type. Max 2 attempts."
 }
