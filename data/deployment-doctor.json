@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T04:17:38+07:00",
-  "generated_at_display": "11-07-2026 04:17:38",
+  "generated_at": "2026-07-11T04:25:54+07:00",
+  "generated_at_display": "11-07-2026 04:25:54",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -11,7 +11,7 @@
     "safe_autofixes_available": 11,
     "unsafe_external_failures": 0,
     "open_action_items": 9,
-    "loop_guarded_attempts": 82,
+    "loop_guarded_attempts": 84,
     "by_type": {
       "workflow_fanout": 7,
       "sitemap_noindex_mismatch": 2,
@@ -453,15 +453,15 @@
     {
       "run_id": "29123832012",
       "failure_type": "sitemap_noindex_mismatch",
-      "result": "skipped",
-      "detail": "posts-only sitemap already in place",
-      "script": "fix_sitemap_noindex"
+      "result": "needs_human_review",
+      "detail": "loop-guard: bf0963ee2610:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
       "run_id": "29123740568",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "posts-only sitemap already in place",
+      "script": "fix_sitemap_noindex"
     },
     {
       "run_id": "29123743955",
@@ -989,6 +989,12 @@
       "last_result": "skipped"
     },
     {
+      "key": "728ff045f65a:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:25:54+07:00",
+      "last_result": "skipped"
+    },
+    {
       "key": "91cdf971a3c6:workflow_fanout",
       "count": 2,
       "last_attempt_at": "2026-07-11T04:10:46+07:00",
@@ -998,6 +1004,12 @@
       "key": "bf0963ee2610:sitemap_noindex_mismatch",
       "count": 2,
       "last_attempt_at": "2026-07-11T04:17:38+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "728ff045f65a:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:25:54+07:00",
       "last_result": "skipped"
     }
   ],
