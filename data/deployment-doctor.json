@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T08:04:16+07:00",
-  "generated_at_display": "10-07-2026 08:04:16",
+  "generated_at": "2026-07-10T08:09:48+07:00",
+  "generated_at_display": "10-07-2026 08:09:48",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -841,63 +841,63 @@
     {
       "run_id": "29059535678",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 9dd69145cca8:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059535651",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 9dd69145cca8:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059535557",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 9dd69145cca8:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059535501",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 9dd69145cca8:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059535370",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 9dd69145cca8:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059535279",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 9dd69145cca8:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059535272",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 9dd69145cca8:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059535244",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 9dd69145cca8:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059535219",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 9dd69145cca8:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059532842",
       "failure_type": "workflow_fanout",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
     },
     {
       "run_id": "29059532812",
