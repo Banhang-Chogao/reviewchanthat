@@ -38,7 +38,13 @@
         <button class="income-app__btn" id="incomeSampleBtn">Dữ liệu mẫu</button>
         <button class="income-app__btn income-app__btn--danger" id="incomeRemoveSampleBtn">Xoá nhanh</button>
         <button class="income-app__btn" id="incomeTemplateBtn">Tải file mẫu</button>
-        <button class="income-app__btn" id="incomeCSVBtn">Export CSV</button>
+        <div class="income-app__export-wrap">
+          <button class="income-app__btn income-app__btn--export" id="incomeCSVBtn">Export ▼</button>
+          <div class="income-app__dropdown" id="incomeExportDropdown">
+            <button class="income-app__dropdown-item" data-export="csv">CSV</button>
+            <button class="income-app__dropdown-item" data-export="pdf">PDF</button>
+          </div>
+        </div>
       </div>
       <div class="income-app__undo">
         <button class="income-app__btn income-app__btn--small" id="incomeUndoBtn" disabled>↩ Hoàn tác</button>
@@ -139,6 +145,8 @@
 <link rel="stylesheet" href="{{ $insightsCss.RelPermalink }}" integrity="{{ $insightsCss.Data.Integrity }}">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.8.2/dist/jspdf.plugin.autotable.min.js" defer></script>
 <script src="{{ "js/income-insights-engine.js" | relURL }}" defer></script>
 <script src="{{ "js/income-insights.js" | relURL }}" defer></script>
 {{ end }}

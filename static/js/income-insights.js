@@ -628,13 +628,13 @@
     pushUndo();
     var sample = [
       { id: genId(), sequence: 1, income: 16000000, incomeLabel: 'Lương tháng 7', debt: -3900000, debtLabel: 'Trả thẻ tín dụng', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương chính tháng 7', day: 15, month: 7, year: 2026 },
-      { id: genId(), sequence: 2, income: 2500000, incomeLabel: 'Freelance web', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án web T7', day: 18, month: 7, year: 2026 },
-      { id: genId(), sequence: 3, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà T7', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà tháng 7', day: 5, month: 7, year: 2026 },
-      { id: genId(), sequence: 4, income: 0, incomeLabel: '', debt: -500000, debtLabel: 'Ăn uống T7', transactionType: 'Tiền mặt', route: 'Rút ATM', remark: 'Đi chợ tuần 1', day: 8, month: 7, year: 2026 },
+      { id: genId(), sequence: 2, income: 2500000, incomeLabel: 'Freelance web', debt: -800000, debtLabel: 'Phí dịch vụ', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án web T7', day: 18, month: 7, year: 2026 },
+      { id: genId(), sequence: 3, income: 5000000, incomeLabel: 'Bán hàng online', debt: -1200000, debtLabel: 'Tiền nhà T7', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà tháng 7', day: 5, month: 7, year: 2026 },
+      { id: genId(), sequence: 4, income: 2000000, incomeLabel: 'Thưởng dự án', debt: -500000, debtLabel: 'Ăn uống T7', transactionType: 'Tiền mặt', route: 'Rút ATM', remark: 'Đi chợ tuần 1', day: 8, month: 7, year: 2026 },
       { id: genId(), sequence: 5, income: 15000000, incomeLabel: 'Lương tháng 8', debt: -4200000, debtLabel: 'Trả thẻ TD T8', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương chính tháng 8', day: 15, month: 8, year: 2026 },
-      { id: genId(), sequence: 6, income: 3000000, incomeLabel: 'Freelance mobile', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án mobile T8', day: 20, month: 8, year: 2026 },
-      { id: genId(), sequence: 7, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà T8', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà tháng 8', day: 5, month: 8, year: 2026 },
-      { id: genId(), sequence: 8, income: 0, incomeLabel: '', debt: -600000, debtLabel: 'Ăn uống T8', transactionType: 'Tiền mặt', route: 'Rút ATM', remark: 'Đi chợ tuần 1', day: 10, month: 8, year: 2026 }
+      { id: genId(), sequence: 6, income: 3000000, incomeLabel: 'Freelance mobile', debt: -500000, debtLabel: 'Bảo hiểm', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án mobile T8', day: 20, month: 8, year: 2026 },
+      { id: genId(), sequence: 7, income: 4000000, incomeLabel: 'Thu nhập phụ', debt: -1200000, debtLabel: 'Tiền nhà T8', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà tháng 8', day: 5, month: 8, year: 2026 },
+      { id: genId(), sequence: 8, income: 1000000, incomeLabel: 'Việc vặt', debt: -600000, debtLabel: 'Ăn uống T8', transactionType: 'Tiền mặt', route: 'Rút ATM', remark: 'Đi chợ tuần 1', day: 10, month: 8, year: 2026 }
     ];
     for (var i = 0; i < sample.length; i++) { computeFormulas(sample[i]); sample[i]._sample = true; }
     state.transactions = state.transactions.concat(sample);
@@ -1147,7 +1147,7 @@
       return;
     }
     var rows = state.transactions;
-    var headers = ['STT', 'Income', 'Income_Label', 'Debt', 'Debt_Label', 'Sub_Total', 'Transaction_Type', 'Route', 'Remark', 'Date', 'Day', 'Month', 'Year'];
+    var headers = ['Sequence', 'Income', 'Income Label', 'Debt', 'Debt Label', 'Sub Total', 'Type', 'Route', 'Remark', 'Date', 'Day', 'Month', 'Year'];
     var csv = '\uFEFF' + headers.join(',') + '\n';
     for (var i = 0; i < rows.length; i++) {
       var t = rows[i];
@@ -1158,6 +1158,91 @@
       ].join(',') + '\n';
     }
     downloadFile(csv, 'income-insights-export.csv', 'text/csv;charset=utf-8');
+  }
+
+  function exportPDF() {
+    if (state.transactions.length === 0) {
+      alert('Không có dữ liệu để export PDF.');
+      return;
+    }
+    if (typeof jspdf === 'undefined' && typeof window.jspdf === 'undefined') {
+      alert('Thư viện PDF chưa sẵn sàng, thử lại sau.');
+      return;
+    }
+    var jsPDF = window.jspdf ? window.jspdf.jsPDF : jspdf;
+    var doc = new jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
+    var rows = state.transactions;
+    var totalInc = 0, totalDeb = 0;
+    for (var i = 0; i < rows.length; i++) {
+      totalInc += rows[i].income || 0;
+      totalDeb += Math.abs(rows[i].debt || 0);
+    }
+    var net = totalInc - totalDeb;
+    var ratio = totalInc > 0 ? ((totalDeb / totalInc) * 100).toFixed(1) : 'N/A';
+    var now = new Date();
+    var dateStr = now.getDate() + '-' + (now.getMonth() + 1) + '-' + now.getFullYear();
+    var pageWidth = doc.internal.pageSize.getWidth();
+    var pageHeight = doc.internal.pageSize.getHeight();
+    var margin = 15;
+
+    var colNames = ['Sequence', 'Income', 'Income Label', 'Debt', 'Debt Label', 'Sub Total', 'Type', 'Route', 'Remark', 'Date', 'Day', 'Month', 'Year'];
+    var colData = rows.map(function(t) {
+      return [
+        t.sequence, fmt(t.income), t.incomeLabel || '', fmt(Math.abs(t.debt || 0)), t.debtLabel || '',
+        fmt(t.subTotal), t.transactionType || '', t.route || '', t.remark || '',
+        t.date || '', t.day, t.month, t.year
+      ];
+    });
+    doc.autoTable({
+      head: [colNames],
+      body: colData,
+      startY: 45,
+      margin: { top: 30, bottom: 20, left: margin, right: margin },
+      styles: { fontSize: 7, cellPadding: 1.5, font: 'helvetica' },
+      headStyles: { fillColor: [0, 167, 160], textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 6.5, halign: 'center' },
+      bodyStyles: { textColor: [50, 50, 50] },
+      alternateRowStyles: { fillColor: [245, 245, 245] },
+      columnStyles: {
+        0: { halign: 'center' }, 1: { halign: 'right' }, 3: { halign: 'right' },
+        5: { halign: 'right' }, 10: { halign: 'center' }, 11: { halign: 'center' }, 12: { halign: 'center' }
+      },
+      didDrawPage: function(data) {
+        // Header watermark
+        doc.setFontSize(7);
+        doc.setTextColor(150, 150, 150);
+        doc.setFont('helvetica', 'normal');
+        doc.text('Review Chân Thật — Income Insights', margin, 10);
+        doc.text(dateStr, pageWidth - margin, 10, { align: 'right' });
+        // Footer watermark
+        doc.setFontSize(6);
+        doc.text('© 2026 Review Chân Thật — Bản quyền thuộc về Banhang-Chogao', pageWidth / 2, pageHeight - 8, { align: 'center' });
+      },
+      didParseCell: function(data) {
+        if (data.section === 'body' && data.column.index === 3) {
+          var val = parseFloat(String(data.cell.raw).replace(/[^0-9.\-]/g, ''));
+          if (val > 0) data.cell.styles.textColor = [200, 50, 50];
+        }
+      }
+    });
+    var totalPages = doc.internal.getNumberOfPages();
+    for (var p = 1; p <= totalPages; p++) {
+      doc.setPage(p);
+      // Page number
+      doc.setFontSize(7);
+      doc.setTextColor(100, 100, 100);
+      doc.text('Trang ' + p + ' / ' + totalPages, pageWidth - margin, pageHeight - 8, { align: 'right' });
+      if (p === 1) {
+        doc.setFontSize(16);
+        doc.setTextColor(0, 167, 160);
+        doc.setFont('helvetica', 'bold');
+        doc.text('Income Insights — Báo cáo thu nhập & nợ', pageWidth / 2, 25, { align: 'center' });
+        doc.setFontSize(8);
+        doc.setTextColor(100, 100, 100);
+        doc.setFont('helvetica', 'normal');
+        doc.text('Tổng Income: ' + fmt(totalInc) + '₫  |  Tổng Debt: ' + fmt(totalDeb) + '₫  |  Net: ' + fmt(net) + '₫  |  Debt/Income: ' + ratio + '%', pageWidth / 2, 32, { align: 'center' });
+      }
+    }
+    doc.save('income-insights-report-' + dateStr + '.pdf');
   }
 
   function csvEscape(str) {
@@ -1339,7 +1424,22 @@
     document.getElementById('incomeRemoveSampleBtn').addEventListener('click', removeSampleData);
     document.getElementById('incomeExportBtn').addEventListener('click', exportEncrypted);
     document.getElementById('incomeImportBtn').addEventListener('click', importEncrypted);
-    document.getElementById('incomeCSVBtn').addEventListener('click', exportCSV);
+    // Export dropdown toggle
+    var csvBtn = document.getElementById('incomeCSVBtn');
+    var dropdown = document.getElementById('incomeExportDropdown');
+    csvBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      dropdown.classList.toggle('income-app__dropdown--open');
+    });
+    dropdown.querySelectorAll('.income-app__dropdown-item').forEach(function(item) {
+      item.addEventListener('click', function(e) {
+        e.stopPropagation();
+        dropdown.classList.remove('income-app__dropdown--open');
+        if (this.dataset.export === 'csv') exportCSV();
+        else if (this.dataset.export === 'pdf') exportPDF();
+      });
+    });
+    document.addEventListener('click', function() { dropdown.classList.remove('income-app__dropdown--open'); });
     document.getElementById('incomeTemplateBtn').addEventListener('click', downloadExcelTemplate);
   }
 
