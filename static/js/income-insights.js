@@ -599,21 +599,11 @@
   function deleteRow(filteredIdx) {
     var actualIdx = state.transactions.indexOf(state.filtered[filteredIdx]);
     if (actualIdx === -1) return;
-    var t = state.transactions[actualIdx];
-    var label = t.incomeLabel || t.debtLabel || t.remark || 'dòng #' + t.sequence;
-    var code = prompt('Nhập mã truy cập để xóa "' + label + '"?\nHành động này không thể hoàn tác.');
-    if (!code) return;
-    sha256(code).then(function(hash) {
-      if (hash !== ACCESS_HASH) {
-        alert('Mã truy cập không đúng. Không thể xóa.');
-        return;
-      }
-      pushUndo();
-      state.transactions.splice(actualIdx, 1);
-      applyFilters();
-      renderAll();
-      scheduleAutosave();
-    });
+    pushUndo();
+    state.transactions.splice(actualIdx, 1);
+    applyFilters();
+    renderAll();
+    scheduleAutosave();
   }
 
   function duplicateRow(filteredIdx) {
