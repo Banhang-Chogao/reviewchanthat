@@ -32,3 +32,6 @@ data/image-candidates/
 # Generated hero images (Part 2)
 static/images/posts/*.webp
 static/images/posts/*.png
+
+# Auto-generated QA reports
+data/compliance-report.json
