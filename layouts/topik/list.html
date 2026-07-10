@@ -1,0 +1,84 @@
+{{ define "main" }}
+<article class="topik">
+  <div class="topik__hero container">
+    <div class="topik__hero-badge">TOPIK II Level 6</div>
+    <h1 class="topik__hero-title">Luyện thi TOPIK II<br><span>lên cấp 6</span></h1>
+    <p class="topik__hero-desc">{{ .Description }}</p>
+    <div class="topik__hero-stats">
+      <div class="topik__hero-stat">
+        <span class="topik__hero-stat-num">100+</span>
+        <span class="topik__hero-stat-label">Từ vựng</span>
+      </div>
+      <div class="topik__hero-stat">
+        <span class="topik__hero-stat-num">60</span>
+        <span class="topik__hero-stat-label">Câu hỏi</span>
+      </div>
+      <div class="topik__hero-stat">
+        <span class="topik__hero-stat-num">12</span>
+        <span class="topik__hero-stat-label">Đề viết</span>
+      </div>
+      <div class="topik__hero-stat">
+        <span class="topik__hero-stat-num">230+</span>
+        <span class="topik__hero-stat-label">Mục tiêu</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="topik__app container" id="topikApp">
+    <nav class="topik__nav" id="topikNav">
+      <button class="topik__nav-btn is-active" data-module="dashboard">Dashboard</button>
+      <button class="topik__nav-btn" data-module="strategy">Chiến lược</button>
+      <button class="topik__nav-btn" data-module="listening">Nghe</button>
+      <button class="topik__nav-btn" data-module="reading">Đọc</button>
+      <button class="topik__nav-btn" data-module="writing">Viết</button>
+      <button class="topik__nav-btn" data-module="vocab">Từ vựng</button>
+      <button class="topik__nav-btn" data-module="diagnostic">Thi thử</button>
+      <button class="topik__nav-btn" data-module="errors">Sổ lỗi</button>
+      <button class="topik__nav-btn" data-module="plan">30 ngày</button>
+    </nav>
+
+    <div class="topik__modules" id="topikModules">
+      <section class="topik__module is-active" data-module="dashboard">
+        <div class="topik__module-inner" id="topikDashboard"></div>
+      </section>
+      <section class="topik__module" data-module="strategy">
+        <div class="topik__module-inner" id="topikStrategy"></div>
+      </section>
+      <section class="topik__module" data-module="listening">
+        <div class="topik__module-inner" id="topikListening"></div>
+      </section>
+      <section class="topik__module" data-module="reading">
+        <div class="topik__module-inner" id="topikReading"></div>
+      </section>
+      <section class="topik__module" data-module="writing">
+        <div class="topik__module-inner" id="topikWriting"></div>
+      </section>
+      <section class="topik__module" data-module="vocab">
+        <div class="topik__module-inner" id="topikVocab"></div>
+      </section>
+      <section class="topik__module" data-module="diagnostic">
+        <div class="topik__module-inner" id="topikDiagnostic"></div>
+      </section>
+      <section class="topik__module" data-module="errors">
+        <div class="topik__module-inner" id="topikErrors"></div>
+      </section>
+      <section class="topik__module" data-module="plan">
+        <div class="topik__module-inner" id="topikPlan"></div>
+      </section>
+    </div>
+  </div>
+
+  <div class="topik__faq container">
+    <h2 class="topik__faq-title">Câu hỏi thường gặp</h2>
+    {{- range .Page.Params.faq }}
+    <details class="topik__faq-item">
+      <summary class="topik__faq-q">{{ .question }}</summary>
+      <p class="topik__faq-a">{{ .answer }}</p>
+    </details>
+    {{- end }}
+  </div>
+</article>
+
+{{- $js := resources.Get "js/topik.js" | minify | fingerprint }}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+{{ end }}
