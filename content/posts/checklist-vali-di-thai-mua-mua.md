@@ -22,23 +22,27 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: "Checklist vali đi Thái Lan mùa mưa: quần áo, giày dép, đồ chống nước,   thuốc men và vật dụng cần thiết cho thời tiết nóng ẩm — từ người có kinh nghiệm."
+description: 'Checklist vali đi Thái Lan mùa mưa: quần áo, giày dép, đồ chống nước,   thuốc
+  men và vật dụng cần thiết cho thời tiết nóng ẩm — từ người có kinh nghiệm.'
 draft: false
 image: images/posts/checklist-vali-di-thai-mua-mua.webp
-image_attribution_checked_at: "2026-07-10T06:10:01+07:00"
-image_attribution_error: source_page_no_creator; embedded_meta_no_creator
-image_attribution_source: not_found
-image_attribution_verified: false
+image_alt: 'Ảnh minh họa Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không
+  khổ vì nóng ẩm — nguồn Pexels'
+image_attribution_checked_at: '2026-07-10T14:01:39+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
-image_creator: ""
-image_creator_id: ""
-image_creator_url: ""
+image_creator: Ivan S
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@ivan-s
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: ''
 image_owner: external
 image_provider: pexels
+image_query: checklist vali đi thái mùa
 image_source: Pexels
-image_source_url: ""
+image_source_url: https://www.pexels.com/photo/women-packing-clothes-in-a-suitcase-4784045/
+image_status: verified
 seo_title: 'Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không'
 series:
 - du-lich-thai-lan-mua-mua

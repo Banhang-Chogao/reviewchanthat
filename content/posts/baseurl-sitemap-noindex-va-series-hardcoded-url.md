@@ -22,7 +22,7 @@ draft: false
 image: images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp
 image_alt: Ảnh minh họa BaseURL, sitemap noindex và series hardcoded URL trên GitHub
   project Pages — nguồn Pexels
-image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:37+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

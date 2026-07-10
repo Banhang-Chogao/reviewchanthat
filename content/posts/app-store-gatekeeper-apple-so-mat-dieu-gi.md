@@ -31,7 +31,7 @@ external_links:
 - title: CNBC — Apple kháng cáo phạt €500M
 - title: Digital Markets Act — EC
 image: images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

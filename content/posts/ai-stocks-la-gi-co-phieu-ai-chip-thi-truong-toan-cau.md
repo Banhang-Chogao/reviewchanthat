@@ -1,6 +1,6 @@
 +++
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-date = 2026-07-10T05:00:00+07:00
+date = "2026-07-10 05:00:00+07:00"
 categories = ["tai-chinh"]
 tags = ["AI stocks", "chip semiconductors", "cổ phiếu công nghệ", "đầu tư AI", "NVIDIA", "thị trường toàn cầu"]
 author = "Minh Hoàng"
@@ -38,7 +38,13 @@ items = [
   "Ảnh hưởng đến Việt Nam: lương công nhân công ty chip tăng, chuỗi cung ứng thay đổi, nhập khẩu chip tăng, FDI tech dồi dào.",
   "Rủi ro: bubble định giá, chiến tranh thương mại Mỹ-Trung, tập trung quá nhiều vào vài cổ phiếu mega-cap, biến động công nghệ."
 ]
-
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = ""
+image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
+image_provider = "pexels"
+image_query = "ai stocks gì cổ phiếu"
+image_alt = "Ảnh minh họa AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam — nguồn Pexels"
 +++
 
 Năm 2024–2026, một từ khóa lặp lại ở mọi nơi: **AI.** Và theo AI, có từ **chip.** Nếu bạn là nhà đầu tư, bạn chắc chắn nghe nói về cổ phiếu công nghệ, NVIDIA, TSMC, và nhu cầu chip "vô tận."

@@ -31,7 +31,7 @@ faq:
     viên.
   question: Bãi biển nào yên tĩnh nhất?
 image: images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp
-image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

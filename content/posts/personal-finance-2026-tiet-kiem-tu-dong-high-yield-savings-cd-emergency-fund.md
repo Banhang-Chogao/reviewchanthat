@@ -1,6 +1,6 @@
 +++
 title = "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?"
-date = 2026-07-10T06:00:00+07:00
+date = "2026-07-10 06:00:00+07:00"
 categories = ["tai-chinh"]
 tags = ["personal finance", "tiết kiệm tự động", "high yield savings", "chứng chỉ tiền gửi", "emergency fund", "quản lý tài chính cá nhân", "financial health"]
 author = "Minh Hoàng"
@@ -43,8 +43,9 @@ items = [
   "Tiết kiệm tự động (automated savings) là thiết lập chuyển tiền định kỳ từ tài khoản chính vào tài khoản tiết kiệm, giúp duy trì kỷ luật tài chính.",
   "Emergency fund (quỹ khẩn cấp) là khoản tiền dành cho tình huống bất ngờ; quy tắc phổ biến là 3–6 tháng chi phí sinh hoạt."
 ]
-
-+++
+image_attribution_checked_at = "2026-07-10T13:50:12+07:00"
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì? — nguồn Pixabay"
 
 Bạn có bao giờ tự hỏi: **"Mình kiếm tiền cũng khá, nhưng sao cuối tháng lại không còn đồng nào?"**
 

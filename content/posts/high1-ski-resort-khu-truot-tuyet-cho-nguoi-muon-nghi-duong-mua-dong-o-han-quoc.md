@@ -40,7 +40,7 @@ faq:
     — kiểm tra high1.com để biết giá mới nhất.'
   question: Giá vé trượt tuyết ở High1 thế nào?
 image: images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

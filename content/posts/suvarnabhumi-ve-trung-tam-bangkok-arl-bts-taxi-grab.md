@@ -13,29 +13,39 @@ ai_summary:
     từ ga về khách sạn.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.bangkokairportonline.com/bangkok-airport-rail-link/, https://www.grab.com/th, https://www.bts.co.th/eng/tickets/ticket-rabbit-farerate.html."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.bangkokairportonline.com/bangkok-airport-rail-link/,
+    https://www.grab.com/th, https://www.bts.co.th/eng/tickets/ticket-rabbit-farerate.html.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: "Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link, BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa mưa."
+date: '2026-07-08 10:00:00+07:00'
+description: 'Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link,
+  BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa
+  mưa.'
 draft: false
 image: images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp
-image_attribution_checked_at: "2026-07-09T10:43:33+07:00"
-image_attribution_source: pexels_api
-image_attribution_verified: true
+image_alt: 'Ảnh minh họa Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi,
+  Grab nên chọn gì? — nguồn Pixabay'
+image_attribution_checked_at: '2026-07-10T14:01:43+07:00'
+image_attribution_error: Provider/source page did not expose verified creator metadata
+image_attribution_source: not_found
+image_attribution_verified: false
 image_commercial_use: true
-image_creator: Kirandeep Singh Walia
-image_creator_id: 2645690
-image_creator_url: "https://www.pexels.com/@kirandeepsingh"
-image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_creator: ''
+image_creator_id: ''
+image_creator_url: ''
+image_license: Pixabay Content License
+image_license_url: ''
 image_owner: external
-image_provider: pexels
-image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/ancient-city-bangkok-27941933/"
+image_provider: pixabay
+image_query: sân bay suvarnabhumi trung tâm
+image_source: Pixabay
+image_source_url: https://pixabay.com/photos/architecture-bridge-buildings-city-1854220/
+image_status: verified
+seo_title: 'Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS'
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 10
@@ -56,8 +66,6 @@ tom_tat_nhanh:
 - label: Taxi
 - label: Grab
 - label: Nên chọn
-seo_title: "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS"
-
 ---
 
 ## Từ sân bay Suvarnabhumi về trung tâm Bangkok

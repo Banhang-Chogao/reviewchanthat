@@ -27,7 +27,7 @@ external_links:
 - title: MacRumors — iPhone Fold roundup
 - title: MacRumors — iPhone 18 roundup
 image: images/posts/iphone-18-mau-gi-dark-cherry.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

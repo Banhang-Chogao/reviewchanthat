@@ -21,7 +21,7 @@ draft: false
 image: images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp
 image_alt: 'Ảnh minh họa Baseline debt chặn deploy và QA scope: chỉ bắt tính năng
   mới — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:37+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

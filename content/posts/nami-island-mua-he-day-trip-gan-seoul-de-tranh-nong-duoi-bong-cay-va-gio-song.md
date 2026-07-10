@@ -35,7 +35,7 @@ faq:
 - answer: Khu vực này có dịch vụ xe điện hỗ trợ, bạn nên kiểm tra thông tin chi tiết
     trên website chính thức.
 image: images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp
-image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

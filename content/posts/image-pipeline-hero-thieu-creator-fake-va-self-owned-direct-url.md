@@ -21,7 +21,7 @@ draft: false
 image: images/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url.webp
 image_alt: 'Ảnh minh họa Image pipeline: hero thiếu, self-owned direct_url, creator
   rỗng hợp lệ và creator giả — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

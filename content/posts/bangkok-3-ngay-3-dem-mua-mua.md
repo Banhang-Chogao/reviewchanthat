@@ -22,23 +22,27 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu."
+description: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   —
+  điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu.'
 draft: false
 image: images/posts/bangkok-3-ngay-3-dem-mua-mua.webp
-image_attribution_checked_at: "2026-07-10T06:10:00+07:00"
-image_attribution_error: source_page_no_creator; embedded_meta_no_creator
-image_attribution_source: not_found
-image_attribution_verified: false
+image_alt: 'Ảnh minh họa Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho
+  người đi lần đầu — nguồn Pexels'
+image_attribution_checked_at: '2026-07-10T14:01:39+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
-image_creator: ""
-image_creator_id: ""
-image_creator_url: ""
+image_creator: Tony  Wu
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@tonywuphotography
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: ''
 image_owner: external
 image_provider: pexels
+image_query: đi bangkok ngày đêm mùa
 image_source: Pexels
-image_source_url: ""
+image_source_url: https://www.pexels.com/photo/people-walking-on-street-at-night-16959675/
+image_status: verified
 seo_title: 'Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho'
 series:
 - du-lich-thai-lan-mua-mua

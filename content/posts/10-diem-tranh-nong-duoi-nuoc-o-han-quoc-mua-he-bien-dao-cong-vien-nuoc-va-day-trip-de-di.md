@@ -36,7 +36,7 @@ faq:
     thức trước khi đi.
   question: Giá vé công viên nước có đắt không?
 image: images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp
-image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:28+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: rejected_generic
 image_attribution_verified: false

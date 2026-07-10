@@ -33,7 +33,7 @@ external_links:
 - title: https://www.suwon.go.kr/
   url: https://www.suwon.go.kr/
 image: images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

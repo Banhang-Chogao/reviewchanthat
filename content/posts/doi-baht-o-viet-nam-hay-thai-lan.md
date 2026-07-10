@@ -13,28 +13,36 @@ ai_summary:
     30.000–50.000 VND so với rút ATM, nhưng kém SuperRich khoảng 20.000–40.000 VND.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.superrichthailand.com, https://www.vietcombank.com.vn, https://vnba.org.vn, https://www.bangkokbank.com."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.superrichthailand.com,
+    https://www.vietcombank.com.vn, https://vnba.org.vn, https://www.bangkokbank.com.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa."
+date: '2026-07-08 10:00:00+07:00'
+description: Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an
+  toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa.
 image: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
-image_attribution_checked_at: "2026-07-09T10:43:23+07:00"
+image_alt: Ảnh minh họa Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn
+  cho người đi tự túc — nguồn Pexels
+image_attribution_checked_at: '2026-07-10T14:01:40+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: David McBee
-image_creator_id: 30082
-image_creator_url: "https://www.pexels.com/@davidmcbee"
+image_creator: SHVETS production
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@shvets-production
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: ''
 image_owner: external
 image_provider: pexels
+image_query: mobile banking payment app
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/round-silver-and-gold-coins-730564/"
+image_source_url: https://www.pexels.com/photo/person-using-smartphone-and-credit-card-7545118/
+image_status: verified
+seo_title: Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 9
@@ -47,18 +55,17 @@ tags:
 - du lịch Thái Lan mùa mưa
 - ATM Thái Lan
 thumbnail: images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp
-title: "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
+title: Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi
+  tự túc
 tom_tat_nhanh:
 - label: Tỷ giá
   value: Dao động 1 THB ≈ 650–720 VND
-- label: "Đổi ở VN"
-  value: ""
-- label: "Đổi ở Thái"
-  value: ""
-- label: "SuperRich"
-  value: ""
-seo_title: "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an"
-
+- label: Đổi ở VN
+  value: ''
+- label: Đổi ở Thái
+  value: ''
+- label: SuperRich
+  value: ''
 ---
 
 ## Đổi baht ở Việt Nam hay Thái Lan lợi hơn?

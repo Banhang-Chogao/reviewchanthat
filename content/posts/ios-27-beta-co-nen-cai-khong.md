@@ -21,7 +21,7 @@ description: iOS 27 public/developer beta có nên cài không? Rủi ro ổn đ
   hàng, rollback và profile Apple Beta cho người dùng Việt Nam.
 draft: false
 image: images/posts/ios-27-beta-co-nen-cai-khong.webp
-image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

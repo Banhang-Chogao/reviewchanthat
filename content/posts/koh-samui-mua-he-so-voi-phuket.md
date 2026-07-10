@@ -3,35 +3,49 @@ ai_summary:
   collapsed: false
   enabled: true
   items:
-  - Koh Samui mùa hè (tháng 7–8) có thời tiết khô hơn Phuket nhờ nằm ở vịnh Thái Lan, biển lặng và vẫn tắm được.
-  - Phuket chi phí thấp hơn và nhiều hoạt động land-based hơn, nhưng biển động và nước đục.
-  - Koh Samui phù hợp với du khách muốn trải nghiệm biển trọn vẹn mà vẫn tiết kiệm hơn mùa cao điểm.
-  - Lịch trình 4 ngày Koh Samui bao gồm Ang Thong Marine Park, Big Buddha, Chaweng Beach và các điểm indoor.
+  - Koh Samui mùa hè (tháng 7–8) có thời tiết khô hơn Phuket nhờ nằm ở vịnh Thái Lan,
+    biển lặng và vẫn tắm được.
+  - Phuket chi phí thấp hơn và nhiều hoạt động land-based hơn, nhưng biển động và
+    nước đục.
+  - Koh Samui phù hợp với du khách muốn trải nghiệm biển trọn vẹn mà vẫn tiết kiệm
+    hơn mùa cao điểm.
+  - Lịch trình 4 ngày Koh Samui bao gồm Ang Thong Marine Park, Big Buddha, Chaweng
+    Beach và các điểm indoor.
   title: Tóm tắt bài viết
 attribution:
-  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín.
-  source_note: 'Bài viết tham khảo từ các nguồn: https://www.insidesamui.com, https://www.tourismthailand.org, https://www.pexels.com.'
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.insidesamui.com, https://www.tourismthailand.org,
+    https://www.pexels.com.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: 'Koh Samui mùa hè tháng 7-8 có tốt hơn Phuket? So sánh thời tiết, biển, chi phí, tour đảo và lịch trình Koh Samui mùa mưa.'
+date: '2026-07-08 10:00:00+07:00'
+description: Koh Samui mùa hè tháng 7-8 có tốt hơn Phuket? So sánh thời tiết, biển,
+  chi phí, tour đảo và lịch trình Koh Samui mùa mưa.
 image: images/posts/koh-samui-mua-he-so-voi-phuket.webp
+image_alt: Ảnh minh họa Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không? —
+  nguồn Pexels
+image_attribution_checked_at: '2026-07-10T14:01:40+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
+image_creator: Mike To
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@mike-to-323754
 image_license: Pexels License
+image_license_url: ''
 image_owner: external
-image_creator: ""
-image_creator_url: ""
-image_creator_id: ""
-image_attribution_verified: false
-image_attribution_source: not_found
-image_attribution_checked_at: "2026-07-09T10:43:29+07:00"
-image_attribution_error: pexels_api_miss id=9103211; source_page_no_creator; embedded_meta_no_creator
-image_license_url: "https://www.pexels.com/license/"
 image_provider: pexels
+image_query: koh samui mùa hè phải
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/aerial-view-of-koh-samui-beach-9103211/"
+image_source_url: https://www.pexels.com/photo/beautiful-natural-landscape-near-body-of-water-5567082/
+image_status: verified
+series:
+- du-lich-thai-lan-mua-mua
+series_order: 7
+series_title: Du lịch Thái Lan mùa mưa
 slug: koh-samui-mua-he-so-voi-phuket
 tags:
 - Koh Samui mùa hè
@@ -40,10 +54,7 @@ tags:
 - so sánh Phuket Koh Samui
 - du lịch biển Thái Lan
 thumbnail: images/posts/koh-samui-mua-he-so-voi-phuket.webp
-series: ["du-lich-thai-lan-mua-mua"]
-series_title: "Du lịch Thái Lan mùa mưa"
-series_order: 7
-title: 'Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?'
+title: Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?
 tom_tat_nhanh:
 - label: Thời gian lý tưởng
   value: Tháng 1–8

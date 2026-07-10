@@ -18,10 +18,8 @@ from creator_policy import attribution_text, clean_text, sanitize_candidate
 from lightweight_image_matcher import choose_best_candidate
 
 from image_providers import (
-    FreepikProvider,
     PixabayProvider,
     PexelsProvider,
-    UnsplashProvider,
     is_placeholder_image,
     load_dotenv,
     nested_dict,
@@ -32,8 +30,6 @@ from image_providers import (
 def _provider_color_params(ctx: ArticleImageContext, provider_name: str) -> dict[str, str]:
     if provider_name == "Pexels" and ctx.pexels_color:
         return {"color": ctx.pexels_color}
-    if provider_name == "Unsplash" and ctx.unsplash_color:
-        return {"color": ctx.unsplash_color}
     if provider_name == "Pixabay" and ctx.pixabay_colors:
         return {"colors": ctx.pixabay_colors}
     return {}
@@ -121,47 +117,9 @@ def _search_pixabay(provider: PixabayProvider, query: str, ctx: ArticleImageCont
         return []
 
 
-def _search_unsplash(provider: UnsplashProvider, query: str, ctx: ArticleImageContext) -> list[dict[str, Any]]:
-    import requests
-    api_key = os.environ.get(provider.env_key, "")
-    headers = {"Authorization": f"Client-ID {api_key}"}
-    color = _provider_color_params(ctx, provider.name).get("color")
-    color_param = f"&color={quote(color)}" if color else ""
-    url = f"https://api.unsplash.com/search/photos?query={quote(query)}&orientation=landscape&per_page=15{color_param}"
-    try:
-        resp = requests.get(url, headers=headers, timeout=15)
-        if resp.status_code != 200:
-            return []
-        candidates = []
-        for photo in resp.json().get("results", []):
-            links = nested_dict(photo.get("links"))
-            urls = nested_dict(photo.get("urls"))
-            user = nested_dict(photo.get("user"))
-            user_links = nested_dict(user.get("links"))
-            alt = clean_text(photo.get("alt_description")) or clean_text(photo.get("description"))
-            candidates.append(sanitize_candidate({
-                "source_platform": "Unsplash",
-                "source_url": clean_text(links.get("html")),
-                "direct_url": clean_text(urls.get("regular")),
-                "creator": clean_text(user.get("name")),
-                "creator_url": clean_text(user_links.get("html")),
-                "license": "Unsplash License",
-                "commercial_use": True,
-                "width": photo.get("width", 0),
-                "height": photo.get("height", 0),
-                "alt": alt,
-                "tags": [clean_text(t.get("title")) for t in photo.get("tags", []) or [] if clean_text(t.get("title"))],
-                "query": query,
-            }))
-        return candidates
-    except Exception:
-        return []
-
-
 PROVIDER_SEARCH = {
     "Pexels": _search_pexels,
     "Pixabay": _search_pixabay,
-    "Unsplash": _search_unsplash,
 }
 
 MIX_PROVIDERS = ("Pexels", "Pixabay")
@@ -252,7 +210,7 @@ def select_best_image(
     """
     load_dotenv()
     if providers is None:
-        providers = [PexelsProvider(), PixabayProvider(), UnsplashProvider(), FreepikProvider()]
+        providers = [PexelsProvider(), PixabayProvider()]
         providers = [p for p in providers if p.is_enabled()]
     used_urls = used_urls or set()
 

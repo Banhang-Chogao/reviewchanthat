@@ -33,7 +33,7 @@ external_links:
 - title: KoreaToDo — Top Autumn Foliage Sites
   url: ''
 image: images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp
-image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

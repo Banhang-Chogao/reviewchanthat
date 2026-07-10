@@ -29,7 +29,7 @@ faq:
 - answer: Thuê xe tự lái (khoảng 50.000–80.000 KRW/ngày) là tiện nhất. Taxi và tour
     cũng là lựa chọn.
 image: images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp
-image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -42,7 +42,7 @@ faq:
 - answer: Mức hỗ trợ tiếng Việt cho Siri AI từng giai đoạn, danh sách máy tương thích,
     và changelog từng beta — không chỉ slide keynote.
 image: images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

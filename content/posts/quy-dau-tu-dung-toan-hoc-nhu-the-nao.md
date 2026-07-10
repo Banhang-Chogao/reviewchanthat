@@ -9,8 +9,8 @@ categories = ["tai-chinh"]
 tags = ["quỹ đầu tư", "portfolio optimization", "Sharpe ratio", "CAPM", "efficient frontier", "beta", "correlation"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 3
-image = "needs_api_image"
-image_alt = "Portfolio optimization, efficient frontier, Sharpe ratio"
+image = "images/posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.webp"
+image_alt = "Ảnh minh họa Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -22,7 +22,22 @@ items = [
   "Beta (β): rủi ro hệ thống của tài sản, đo độ nhạy với thị trường chung",
   "Ví dụ: danh mục cổ phiếu-trái phiếu-vàng, cách tính expected return, volatility, Sharpe ratio"
 ]
-
+thumbnail = "images/posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/graphis-illustration-of-100-on-monitor-5849551/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Monstera Production"
+image_creator_url = "https://www.pexels.com/@gabby-k"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "atm banking transaction"
 +++
 
 Khi bạn cho 10 triệu vào một quỹ đầu tư, quỹ sẽ dùng **toán học gì** để quyết định mua cổ phiếu, trái phiếu, vàng hay gì?

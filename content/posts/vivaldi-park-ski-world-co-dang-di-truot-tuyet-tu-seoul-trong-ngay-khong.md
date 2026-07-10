@@ -35,7 +35,7 @@ faq:
 - answer: Ngày thường (thứ 2–5) ít đông hơn, giá vé thường rẻ hơn. Cuối tuần rất đông,
     đặc biệt là khu vực thuê đồ và lesson.
 image: images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

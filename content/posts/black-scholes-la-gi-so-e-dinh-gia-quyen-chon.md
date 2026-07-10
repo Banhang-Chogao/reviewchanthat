@@ -10,8 +10,8 @@ categories = ["tai-chinh"]
 tags = ["Black-Scholes", "option pricing", "call option", "put option", "implied volatility", "Greeks", "derivative"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 11
-image = "needs_api_image"
-image_alt = "Black-Scholes formula: option pricing using e^(-rT)"
+image = "images/posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.webp"
+image_alt = "Ảnh minh họa Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -23,7 +23,22 @@ items = [
   "Put-Call Parity: C - P = S - K×e^(-rT) (mối quan hệ call/put)",
   "Thực tế: Volatility Smile, American options, dividend adjustment cần mô hình phức tạp hơn"
 ]
-
+thumbnail = "images/posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-writing-on-white-paper-7821495/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "credit card finance desk"
 +++
 
 **Black-Scholes** — công thức định giá **quyền chọn (option)** nổi tiếng nhất.

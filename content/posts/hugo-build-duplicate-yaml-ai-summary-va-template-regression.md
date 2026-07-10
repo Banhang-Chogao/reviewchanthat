@@ -22,7 +22,7 @@ draft: false
 image: images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp
 image_alt: 'Ảnh minh họa Hugo build error: duplicate YAML, ai_summary map[], template
   regression và deploy không complete — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

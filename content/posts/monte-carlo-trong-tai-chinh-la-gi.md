@@ -9,8 +9,8 @@ categories = ["tai-chinh"]
 tags = ["Monte Carlo", "simulation", "Brownian motion", "random sampling", "exotic options", "VaR calculation"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 13
-image = "needs_api_image"
-image_alt = "Monte Carlo simulation: Brownian paths, random sampling"
+image = "images/posts/monte-carlo-trong-tai-chinh-la-gi.webp"
+image_alt = "Ảnh minh họa Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -22,7 +22,22 @@ items = [
   "VaR: Sort 10M outcomes, lấy 1% worst case",
   "Variance Reduction: Antithetic sampling, control variates để giảm N needed"
 ]
-
+thumbnail = "images/posts/monte-carlo-trong-tai-chinh-la-gi.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/woman-using-an-automated-teller-machine-5699341/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "atm banking transaction"
 +++
 
 **Monte Carlo** — phương pháp mô phỏng dựa trên **random sampling**.

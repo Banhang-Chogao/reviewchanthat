@@ -10,8 +10,8 @@ categories = ["tai-chinh"]
 tags = ["FRM", "VaR", "Expected Shortfall", "rủi ro tài chính", "backtesting", "stress test"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 6
-image = "needs_api_image"
-image_alt = "FRM: VaR, CVaR, stress test, risk monitoring"
+image = "images/posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.webp"
+image_alt = "Ảnh minh họa FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -23,7 +23,22 @@ items = [
   "Monte Carlo: Mô phỏng 10k+ kịch bản để tính VaR",
   "Backtesting: Kiểm tra VaR model có chính xác không (exceptions test)"
 ]
-
+thumbnail = "images/posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-counting-money-in-front-of-atm-5699376/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "atm banking transaction"
 +++
 
 FRM (Financial Risk Manager) là chứng chỉ quản trị rủi ro của GARP. FRMs dùng **toán học xác suất cao cấp** để:

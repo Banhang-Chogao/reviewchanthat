@@ -28,7 +28,7 @@ external_links:
 - title: AppleInsider — Spring 2027 iPhone 18 expectations
 - title: MacRumors — iPhone Fold roundup
 image: images/posts/iphone-18-khi-nao-ra-mat.webp
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -1,24 +1,24 @@
 +++
 title = "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD"
-date = 2026-07-09T20:21:28+07:00
+date = "2026-07-09 20:21:28+07:00"
 slug = "github-actions-run-start-delays-july-9-2026-ci-cd-protection"
 categories = ["cong-nghe"]
 tags = ["GitHub Actions", "GitHub Pages", "CI/CD", "DevOps", "GitHub Status", "incident response"]
 author = "Minh Hoàng"
 image = "images/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection.webp"
 thumbnail = "images/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection.webp"
-image_alt = "Ảnh minh họa — Pexels / Daniil Komov"
+image_alt = "Ảnh minh họa GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD — nguồn Pexels"
 image_status = "verified"
 image_provider = "pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/modern-laptop-on-wooden-desk-with-code-displayed-34803994/"
+image_source_url = "https://www.pexels.com/photo/person-in-blue-leggings-8692281/"
 image_license = "Pexels License"
 image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Daniil Komov"
-image_creator_url = "https://www.pexels.com/@dkomov"
-image_creator_id = "133960344"
+image_creator = "Yaroslav Shuraev"
+image_creator_url = "https://www.pexels.com/@yaroslav-shuraev"
+image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 draft = false
@@ -40,8 +40,8 @@ items = [
   "A queued workflow is not automatically a broken commit; if the job never reached checkout, your code has not been tested yet.",
   "Teams can reduce impact with concurrency controls, limited retries, platform-incident detection, non-essential workflow pauses, and post-deploy live verification."
 ]
-
-
+image_attribution_checked_at = "2026-07-10T14:01:40+07:00"
+image_query = "github actions delays starting runs"
 +++
 
 On July 9, 2026, GitHub reported an incident titled ["Delays starting Actions runs"](https://www.githubstatus.com/incidents/cstx3v63mklm). The practical symptom was simple: workflows that should have started on GitHub-hosted runners stayed in a queued or pending state, sometimes long enough for retries to be exhausted. During part of the same incident, GitHub Pages builds were also affected.

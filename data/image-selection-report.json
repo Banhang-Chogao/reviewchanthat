@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-07-10T02:14:49+07:00",
-  "processed": 1,
-  "api_selected": 1,
+  "generated_at": "2026-07-10T06:59:28+07:00",
+  "processed": 0,
+  "api_selected": 0,
   "self_generated": 0,
-  "skipped": 0,
-  "errors": [],
-  "posts": [
+  "skipped": 194,
+  "errors": [
     {
-      "slug": "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026",
-      "title": "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026",
-      "source": "Pixabay",
-      "reason": "api_selected:Pixabay"
+      "file": "content/posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md",
+      "reason": "Invalid statement (at line 49, column 1)"
+    },
+    {
+      "file": "content/posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md",
+      "reason": "Expected '=' after a key in a key/value pair (at line 49, column 3)"
+    },
+    {
+      "file": "content/posts/ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien.md",
+      "reason": "Expected '=' after a key in a key/value pair (at line 50, column 3)"
+    },
+    {
+      "file": "content/posts/personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund.md",
+      "reason": "Expected '=' after a key in a key/value pair (at line 49, column 2)"
     }
-  ]
+  ],
+  "posts": []
 }

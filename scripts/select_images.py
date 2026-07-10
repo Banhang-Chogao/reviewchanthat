@@ -4,8 +4,8 @@ select_images.py — Stock API image selection (Pexels + Pixabay primary).
 
 Policy:
   1. Load permanent keys from repo `.env` (PEXELS_API_KEY, PIXABAY_API_KEY)
-  2. Try API providers: Pexels → Pixabay → (optional Unsplash/Freepik if keyed)
-  3. Do NOT auto-draw / self-generate placeholder art by default
+  2. Try API providers: Pexels → Pixabay only
+  3. Do NOT auto-draw / self-generate placeholder art
   4. Lightweight matching: no heavy compliance scoring that blocks deploy
   5. Strict attribution: never fake creator names
   6. Write data/images.json for process_images.py
@@ -18,7 +18,6 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import os
 import re
@@ -39,7 +38,6 @@ from fetch_relevant_image import select_best_image, manifest_entry_from_selectio
 CONTENT_DIR = "content/posts"
 IMAGES_MANIFEST_PATH = "data/images.json"
 SELECTION_REPORT_PATH = "data/image-selection-report.json"
-SITE_BASE_URL = "https://banhang-chogao.github.io/reviewchanthat"
 
 
 def load_images_manifest() -> dict:
@@ -53,10 +51,15 @@ def load_images_manifest() -> dict:
     return {"posts": [], "generated_at": ""}
 
 
-def try_api_image(post: dict[str, Any], body: str, used_urls: set[str]) -> dict[str, Any] | None:
+def try_api_image(
+    post: dict[str, Any],
+    body: str,
+    used_urls: set[str],
+    providers: list[Any] | None = None,
+) -> dict[str, Any] | None:
     """Try to select best API image. Returns manifest entry or None."""
     try:
-        result = select_best_image(post, body, used_urls=used_urls)
+        result = select_best_image(post, body, providers=providers, used_urls=used_urls)
         if not result or not result.get("candidate"):
             return None
         entry = manifest_entry_from_selection(post.get("slug", ""), post.get("title", ""), result)
@@ -66,49 +69,6 @@ def try_api_image(post: dict[str, Any], body: str, used_urls: set[str]) -> dict[
         return None
 
 
-def check_self_generated_image(slug: str, title: str) -> dict[str, Any] | None:
-    """Check if self-generated image already exists in assets."""
-    candidate_paths = [
-        f"assets/generated-images/{slug}.png",
-        f"assets/generated-images/{slug}.jpg",
-        f"assets/generated-images/{slug}.webp",
-    ]
-
-    existing_path = None
-    for path in candidate_paths:
-        if os.path.exists(path):
-            existing_path = path
-            break
-
-    if not existing_path:
-        return None
-
-    return {
-        "slug": slug,
-        "title": title,
-        "image_id": f"img-{hashlib.md5(slug.encode()).hexdigest()[:8]}",
-        "source_platform": "self",
-        "image_provider": "self-generated",
-        "source_url": f"{SITE_BASE_URL}/",
-        "source": "self",
-        "direct_url": "",
-        "creator": "Review Chân Thật",
-        "creator_url": f"{SITE_BASE_URL}/",
-        "creator_id": "review-chan-that-generated",
-        "license": "Original self-hosted editorial illustration by Review Chân Thật",
-        "license_url": f"{SITE_BASE_URL}/branding-ci/",
-        "commercial_use": True,
-        "image_owner": "self",
-        "local_source_path": existing_path,
-        "output_path": f"static/images/posts/{slug}.webp",
-        "watermark_text": "Source: Review Chân Thật",
-        "provider_used": "self-generated",
-        "attribution_verified": True,
-        "attribution_source": "self_generated",
-        "image_generation_method": "context_aware_ai_assisted",
-    }
-
-
 def select_image_for_post(
     post: dict[str, Any],
     body: str,
@@ -116,38 +76,31 @@ def select_image_for_post(
     force_generated: bool = False,
     api_first: bool = True,
     allow_self_generated: bool = False,
+    providers: list[Any] | None = None,
 ) -> tuple[dict[str, Any] | None, str]:
     """
     Select best stock API image for post.
-    Self-generated art is OFF unless allow_self_generated/force_generated.
+    Self-generated art is disabled by policy.
     Returns (manifest_entry, reason).
     """
     slug = post.get("slug", "")
-    title = post.get("title", "")
-
     if force_generated:
-        entry = check_self_generated_image(slug, title)
-        if entry:
-            return entry, "force_generated"
-        return None, "force_generated_but_not_found"
+        return None, "self_generated_disabled_by_policy"
 
-    # Default path: stock APIs only (Pexels / Pixabay / optional others)
-    api_entry = try_api_image(post, body, used_urls)
+    # Default path: stock APIs only (Pexels / Pixabay)
+    api_entry = try_api_image(post, body, used_urls, providers=providers)
     if api_entry:
         return api_entry, f"api_selected:{api_entry.get('source_platform', 'unknown')}"
 
     if allow_self_generated:
-        fallback_entry = check_self_generated_image(slug, title)
-        if fallback_entry:
-            return fallback_entry, "api_failed_fallback_used"
-        return None, "api_failed_no_fallback"
+        return None, "self_generated_disabled_by_policy"
 
     return None, "api_failed_no_stock_image"
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Select images for posts from Pexels/Pixabay APIs (no auto-draw by default)"
+        description="Select images for posts from Pexels/Pixabay APIs (no auto-draw)"
     )
     parser.add_argument("--post", type=str, help="Single post path (e.g. content/posts/iphone-...md)")
     parser.add_argument("--all", action="store_true", help="Process all posts in content/posts/")
@@ -156,16 +109,20 @@ def main() -> int:
     parser.add_argument(
         "--force-generated",
         action="store_true",
-        help="DEPRECATED emergency: only use existing self-generated asset if present",
+        help="Disabled by policy: article images must come from Pexels/Pixabay APIs",
     )
     parser.add_argument(
         "--allow-self-generated",
         action="store_true",
-        help="Allow existing self-generated asset as last resort (off by default)",
+        help="Disabled by policy: article images must come from Pexels/Pixabay APIs",
     )
     parser.add_argument("--only-missing-or-bad", action="store_true", help="Only process posts missing images")
     parser.add_argument("--dry-run", action="store_true", help="Print what would be done without writing")
     args = parser.parse_args()
+
+    if args.force_generated or args.allow_self_generated:
+        print("ERROR: self-generated article images are disabled; use Pexels/Pixabay APIs.")
+        return 1
 
     # Ensure permanent API keys from .env are available (override empty shell)
     from image_providers import load_dotenv
@@ -241,7 +198,10 @@ def main() -> int:
 
         # Filter by --only-missing-or-bad
         if args.only_missing_or_bad:
-            if slug in existing_slugs and meta.get("image") and meta.get("image_owner") != "self":
+            img = meta.get("image", "")
+            if img and "needs_api_image" not in img and "needs_image" not in img \
+               and img != "needs_api_image" and slug in existing_slugs \
+               and meta.get("image_owner") != "self":
                 print(f"    Skipped (image already set)")
                 report["skipped"] += 1
                 continue
@@ -258,7 +218,7 @@ def main() -> int:
             report["processed"] += 1
             continue
 
-        # Select image (stock APIs only unless --allow-self-generated)
+        # Select image (Pexels/Pixabay stock APIs only)
         entry, reason = select_image_for_post(
             meta, body, used_urls, args.force_generated, args.api_first, allow_self
         )
@@ -330,37 +290,61 @@ def main() -> int:
 def write_image_frontmatter(post_path: str, entry: dict[str, Any]) -> None:
     """Update post frontmatter with selected image metadata."""
     try:
-        post = frontmatter.load(post_path)
-        meta = post.metadata
+        from lib.toml_util import has_toml_fm, read_fm, update_post_file as _toml_update
 
-        # Remove old scoring fields
+        text = open(post_path, encoding="utf-8").read()
+
         stale = [
             "image_reject_reason", "image_attribution_checked_at", "image_query",
             "image_semantic_score", "image_color_score", "image_total_score",
             "image_attribution_error",
         ]
-        for k in stale:
-            meta.pop(k, None)
 
-        # Set image fields from entry
-        meta["image"] = entry.get("output_path", "").lstrip("/")
-        meta["thumbnail"] = entry.get("output_path", "").lstrip("/")
-        meta["image_source"] = entry.get("source", entry.get("source_platform", ""))
-        meta["image_source_url"] = entry.get("source_url", "")
-        meta["image_provider"] = entry.get("image_provider", "")
-        meta["image_license"] = entry.get("license", "")
-        meta["image_license_url"] = entry.get("license_url", "")
-        meta["image_commercial_use"] = entry.get("commercial_use", True)
-        meta["image_owner"] = entry.get("image_owner", "external")
-        meta["image_creator"] = entry.get("creator", "")
-        meta["image_creator_url"] = entry.get("creator_url", "")
-        meta["image_creator_id"] = entry.get("creator_id", "")
-        meta["image_attribution_verified"] = entry.get("attribution_verified", False)
-        meta["image_attribution_source"] = entry.get("attribution_source", "not_found")
-        meta["image_status"] = "verified"
+        _out = entry.get("output_path", "").lstrip("/")
+        if _out.startswith("static/"):
+            _out = _out[len("static/"):]
+        updates = {
+            "image": _out,
+            "thumbnail": _out,
+            "image_source": entry.get("source", entry.get("source_platform", "")),
+            "image_source_url": entry.get("source_url", ""),
+            "image_provider": entry.get("image_provider", ""),
+            "image_license": entry.get("license", ""),
+            "image_license_url": entry.get("license_url", ""),
+            "image_commercial_use": entry.get("commercial_use", True),
+            "image_owner": entry.get("image_owner", "external"),
+            "image_creator": entry.get("creator", ""),
+            "image_creator_url": entry.get("creator_url", ""),
+            "image_creator_id": entry.get("creator_id", ""),
+            "image_attribution_verified": entry.get("attribution_verified", False),
+            "image_attribution_source": entry.get("attribution_source", "not_found"),
+            "image_status": "verified",
+        }
 
-        with open(post_path, "w", encoding="utf-8") as f:
-            f.write(frontmatter.dumps(post))
+        if has_toml_fm(text):
+            from lib.toml_util import remove_key as _rm, set_field as _set
+
+            parts = read_fm(text)
+            if not parts:
+                print(f"    WARNING: Invalid TOML frontmatter in {post_path}")
+                return
+            fm_text = parts[1]
+            for k in stale:
+                fm_text = _rm(fm_text, k)
+            for k, v in updates.items():
+                fm_text = _set(fm_text, k, v)
+            new_text = parts[0] + fm_text.strip() + "\n+++" + parts[2]
+            with open(post_path, "w", encoding="utf-8") as f:
+                f.write(new_text)
+        else:
+            post = frontmatter.load(post_path)
+            meta = post.metadata
+            for k in stale:
+                meta.pop(k, None)
+            for k, v in updates.items():
+                meta[k] = v
+            with open(post_path, "w", encoding="utf-8") as f:
+                f.write(frontmatter.dumps(post))
     except Exception as e:
         print(f"    WARNING: Could not write frontmatter for {post_path}: {e}")
 

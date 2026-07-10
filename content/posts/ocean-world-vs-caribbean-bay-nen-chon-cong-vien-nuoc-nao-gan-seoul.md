@@ -27,7 +27,7 @@ faq:
 - answer: Caribbean Bay 40 phút, Ocean World 60 phút.
 - answer: Caribbean Bay (50.000–60.000 KRW). Ocean World (40.000–50.000 KRW).
 image: images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp
-image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -10,8 +10,8 @@ categories = ["tai-chinh"]
 tags = ["toán học tài chính", "lãi kép liên tục", "số e", "e mũ rt", "định giá tài sản", "quantitative finance"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 1
-image = "needs_api_image"
-image_alt = "Hàm số mũ e và lãi kép liên tục trong tài chính"
+image = "images/posts/ham-so-mu-e-trong-tai-chinh-la-gi.webp"
+image_alt = "Ảnh minh họa Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -23,7 +23,22 @@ items = [
   "Vì sao tài chính chuyên nghiệp (quỹ, bảo hiểm, ngân hàng đầu tư) lại dùng e nhưng gửi tiết kiệm thông thường thì không",
   "Ứng dụng thực tế của e trong định giá quyền chọn, quản trị rủi ro, actuarial science, và log-return"
 ]
-
+thumbnail = "images/posts/ham-so-mu-e-trong-tai-chinh-la-gi.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-deposits-money-on-an-atm-5699385/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "atm banking transaction"
 +++
 
 Khi bạn gửi 100 triệu đồng vào ngân hàng với lãi suất 6%/năm, lãi bạn nhận phụ thuộc vào cách tính: lãi đơn, lãi kép hàng năm, hay lãi kép liên tục. Câu hỏi đặt ra: nếu nhập lãi càng nhiều lần thì kết quả cuối cùng sẽ như thế nào?

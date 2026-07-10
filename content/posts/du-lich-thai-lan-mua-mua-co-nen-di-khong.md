@@ -22,23 +22,29 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: "Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết Bangkok, Phuket, Krabi, Chiang Mai, Koh Samui tháng 7-8 — ưu nhược điểm từng nơi, lịch trình gợi ý và"
+description: Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết Bangkok, Phuket,
+  Krabi, Chiang Mai, Koh Samui tháng 7-8 — ưu nhược điểm từng nơi, lịch trình gợi
+  ý và
 draft: false
 image: images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp
-image_attribution_checked_at: "2026-07-10T06:10:02+07:00"
-image_attribution_error: source_page_no_creator; embedded_meta_no_creator
-image_attribution_source: not_found
-image_attribution_verified: false
+image_alt: Ảnh minh họa Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket,
+  Chiang Mai, Koh Samui nên chọn đâu — nguồn Pexels
+image_attribution_checked_at: '2026-07-10T14:01:40+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
-image_creator: ""
-image_creator_id: ""
-image_creator_url: ""
+image_creator: Vietnam Tri Duong Photographer
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@triduhi-youtuber
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: ''
 image_owner: external
 image_provider: pexels
+image_query: du lịch thái lan mùa
 image_source: Pexels
-image_source_url: ""
+image_source_url: https://www.pexels.com/photo/kinh-thanh-hu-vi-t-nam-27418878/
+image_status: verified
+seo_title: Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 1
@@ -64,8 +70,6 @@ tom_tat_nhanh:
   value: Giá rẻ, vắng khách, cảnh xanh
 - label: Nhược điểm
   value: Mưa chiều, biển động Andaman
-seo_title: "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket"
-
 ---
 
 Mùa mưa Thái Lan kéo dài từ tháng 6 đến tháng 10, cao điểm vào tháng 7–9. Đây là khoảng thời gian nhiều người Việt phân vân nhất: vé máy bay rẻ, khách sạn giảm sâu, nhưng liệu có "đi mưa cả ngày" hay không? Câu trả lời ngắn gọn là: **tùy vào điểm đến và cách bạn lên lịch**.

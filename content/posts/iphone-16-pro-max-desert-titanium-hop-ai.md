@@ -18,7 +18,7 @@ description: 'Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu,
 draft: false
 image: images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp
 image_alt: Ảnh minh họa iPhone 16 Pro Max Desert Titanium hợp ai? — nguồn Pexels
-image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

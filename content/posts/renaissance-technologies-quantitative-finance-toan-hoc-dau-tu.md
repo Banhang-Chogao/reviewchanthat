@@ -9,8 +9,8 @@ categories = ["tai-chinh"]
 tags = ["Renaissance Technologies", "Jim Simons", "Medallion Fund", "pattern recognition", "quant trading", "mathematical models"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 9
-image = "needs_api_image"
-image_alt = "Renaissance Technologies: Medallion Fund, quant patterns"
+image = "images/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.webp"
+image_alt = "Ảnh minh họa Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -22,7 +22,22 @@ items = [
   "Bayesian Networks: Graphical models để infer mối quan hệ biến",
   "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"
 ]
-
+thumbnail = "images/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/woman-standing-in-front-of-an-automated-machine-holding-a-bank-card-5699339/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "atm banking transaction"
 +++
 
 **Renaissance Technologies** — quỹ quantitative **nổi tiếng nhất thế giới**, do **Jim Simons** (nhà toán học) sáng lập.

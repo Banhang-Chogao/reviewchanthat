@@ -18,26 +18,32 @@ attribution:
   source_note: 'Bài viết tham khảo từ các nguồn: https://www.trip.com, https://www.tourismthailand.org,
     https://www.pexels.com.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: "Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo, Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch."
+date: '2026-07-08 10:00:00+07:00'
+description: Krabi mùa mưa có đáng đi? Phân tích Ao Nang, Railay Beach, tour 4 đảo,
+  Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch.
 draft: false
 image: images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp
-image_attribution_checked_at: "2026-07-09T10:43:29+07:00"
+image_alt: 'Ảnh minh họa Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng
+  7-8 không? — nguồn Pexels'
+image_attribution_checked_at: '2026-07-10T14:01:40+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
-image_creator: Jahra Tasfia Reza
-image_creator_id: 321945577
-image_creator_url: "https://www.pexels.com/@jahratreza"
+image_creator: Александр
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@1386738
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: ''
 image_owner: external
 image_provider: pexels
+image_query: krabi mùa mưa ao nang
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/27104227/"
+image_source_url: https://www.pexels.com/photo/two-men-playing-volleyball-at-the-beach-4981193/
+image_status: verified
+seo_title: 'Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng'
 series:
 - du-lich-thai-lan-mua-mua
 series_order: 6
@@ -57,8 +63,6 @@ tom_tat_nhanh:
 - label: Biển
 - label: Tour chạy
 - label: Tour rủi ro
-seo_title: "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng"
-
 ---
 
 ## Krabi mùa mưa — còn gì để chơi?

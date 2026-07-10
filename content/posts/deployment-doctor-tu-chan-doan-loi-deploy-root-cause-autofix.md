@@ -1,24 +1,24 @@
 +++
 title = "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm"
-date = 2026-07-09T23:30:00+07:00
+date = "2026-07-09 23:30:00+07:00"
 slug = "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix"
 categories = ["cong-nghe"]
 tags = ["Deployment Doctor", "GitHub Actions", "CI/CD", "autofix", "deployment", "DevOps", "Hugo"]
 author = "Minh Hoàng"
 image = "images/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.webp"
 thumbnail = "images/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix.webp"
-image_alt = "Ảnh minh họa — Pexels / fauxels"
+image_alt = "Ảnh minh họa Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm — nguồn Pexels"
 image_status = "verified"
 image_provider = "pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/photo-of-person-writing-on-notebook-3184666/"
+image_source_url = "https://www.pexels.com/photo/female-soldier-saying-goodbye-to-her-son-putting-on-her-backpack-7983759/"
 image_license = "Pexels License"
 image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "fauxels"
-image_creator_url = "https://www.pexels.com/@fauxels"
-image_creator_id = "1281351"
+image_creator = "George Pak"
+image_creator_url = "https://www.pexels.com/@george-pak"
+image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 draft = false
@@ -41,8 +41,8 @@ items = [
   "Các lỗi như runner queue, GitHub outage hoặc rate limit không nên tạo hotfix code; hệ thống chỉ nên chờ, retry có kiểm soát hoặc cancel run cũ.",
   "Các lỗi có scope rõ như date-only, self-owned image thiếu direct_url, content direction rỗng hoặc URL hardcode có thể được autofix bằng script nhỏ, có retry cap và QA sau fix."
 ]
-
-
+image_attribution_checked_at = "2026-07-10T14:01:40+07:00"
+image_query = "deployment doctor cách blog tự"
 +++
 
 Một blog cá nhân trông “nhỏ”, nhưng pipeline có thể rất đông: Deploy, Content Direction, QA debt, autofix, snapshot, doctor… Chỉ cần **một** fail không được phân loại, cả dây chuyền dễ chạy vòng: bot sửa, bot report, bot deploy lại, runner xếp hàng, và chủ blog thức đêm mở log.

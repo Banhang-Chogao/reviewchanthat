@@ -10,8 +10,8 @@ categories = ["tai-chinh"]
 tags = ["CFA", "DCF", "present value", "beta", "tracking error", "information ratio", "quản lý tài sản"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 5
-image = "needs_api_image"
-image_alt = "CFA Level 1/2/3: DCF, PV, beta, performance analysis"
+image = "images/posts/cfa-dung-toan-hoc-gi.webp"
+image_alt = "Ảnh minh họa CFA dùng toán học gì? Những công thức quận lý tài sản — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -23,7 +23,22 @@ items = [
   "CFA Level 3: Portfolio management, constraints, risk budgeting",
   "Ứng dụng: Phân tích cổ phiếu, quản lý danh mục, đánh giá quỹ"
 ]
-
+thumbnail = "images/posts/cfa-dung-toan-hoc-gi.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/credit-cards-and-financial-market-analysis-32642487/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "DΛVΞ GΛRCIΛ"
+image_creator_url = "https://www.pexels.com/@davegarcia"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "credit card finance desk"
 +++
 
 CFA (Chartered Financial Analyst) là chứng chỉ cao nhất trong quản lý tài sản. CFAs dùng **toán học cao cấp** để:

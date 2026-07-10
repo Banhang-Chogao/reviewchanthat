@@ -38,7 +38,7 @@ faq:
     mưa nên đi đâu]({{< ref "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh"
     >}}).
 image: images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

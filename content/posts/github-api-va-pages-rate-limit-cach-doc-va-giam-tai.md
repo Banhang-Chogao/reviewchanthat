@@ -21,7 +21,7 @@ draft: false
 image: images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp
 image_alt: 'Ảnh minh họa GitHub API rate limit và Pages rate limit: đọc log, backoff,
   giảm fan-out — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

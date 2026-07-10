@@ -38,7 +38,7 @@ faq:
 - answer: Đầu tháng 11 vẫn đẹp. Cuối tháng 11 có thể qua peak hoặc gặp tuyết nhẹ —
     không còn foliage đỏ rực.
 image: images/posts/han-quoc-thang-11-co-la-do-chua.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -33,7 +33,7 @@ external_links:
 - title: Visit Busan
   url: ''
 image: images/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false

@@ -33,7 +33,7 @@ external_links:
 - title: Visit Busan
   url: https://www.visitbusan.net
 image: images/posts/busan-thang-10-nen-di-dau.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

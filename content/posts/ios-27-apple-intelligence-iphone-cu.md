@@ -21,7 +21,7 @@ description: 'Apple Intelligence trên iOS 27: Siri AI, yêu cầu phần cứng
   Việt và giới hạn thực tế cho người dùng Việt Nam.'
 draft: false
 image: images/posts/ios-27-apple-intelligence-iphone-cu.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
 image_attribution_source: embedded_exif_iptc_xmp
 image_attribution_verified: true
 image_commercial_use: true

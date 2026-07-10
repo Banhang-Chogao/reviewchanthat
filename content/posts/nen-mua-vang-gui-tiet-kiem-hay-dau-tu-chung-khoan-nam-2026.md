@@ -1,11 +1,27 @@
 +++
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
-date = 2026-07-09T20:00:00+07:00
+date = "2026-07-09 20:00:00+07:00"
 draft = false
 categories = ["tai-chinh"]
 author = "Minh Hoàng"
 description = "Tiền nhàn rỗi năm 2026 nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán phụ thuộc vào khẩu vị rủi ro, thời gian cần dùng tiền và khả năng chịu biến động của mỗi người."
 image = "images/posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.webp"
+thumbnail = "images/posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/brown-leather-wallet-on-beige-surface-8062364/"
+image_license = "Pexels License"
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Nataliya Vaitkevich"
+image_creator_url = "https://www.pexels.com/@n-voitkevich"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-10T14:01:43+07:00"
+image_status = "verified"
+image_provider = "pexels"
+image_query = "credit card finance desk"
+image_alt = "Ảnh minh họa Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026? — nguồn Pexels"
 +++
 
 [ai_summary]

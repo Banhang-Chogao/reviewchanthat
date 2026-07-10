@@ -1,6 +1,6 @@
 +++
 title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-date = 2026-07-10T09:00:00+07:00
+date = "2026-07-10 09:00:00+07:00"
 categories = ["tai-chinh"]
 tags = ["Apple Pay Việt Nam", "Apple Pay ngân hàng nào hỗ trợ", "cách thêm thẻ vào Apple Pay", "Apple Pay có an toàn không", "Apple Pay lỗi", "thanh toán không tiếp xúc", "Visa Apple Pay", "Mastercard Apple Pay"]
 author = "Minh Hoàng"
@@ -11,14 +11,14 @@ image_status = "verified"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
-image_creator = "Julio Lopez"
+image_creator = "Leeloo The First"
 image_creator_id = ""
-image_creator_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_creator_url = "https://www.pexels.com/@leeloothefirst"
 image_license = "Pexels License"
 image_owner = "external"
 image_provider = "pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_source_url = "https://www.pexels.com/photo/a-woman-using-her-smartphone-while-holding-a-credit-card-8938729/"
 
 seo_title = "Apple Pay Việt Nam 2026: danh sách ngân hàng hỗ trợ, cách thêm thẻ và xử lý lỗi thường gặp"
 description = "Apple Pay Việt Nam đã chính thức hoạt động. Danh sách ngân hàng hỗ trợ (Vietcombank, ACB, Techcombank, VPBank...), cách thêm thẻ chi tiết và các lỗi thường gặp kèm cách khắc phục."
@@ -43,7 +43,9 @@ items = [
   "Các lỗi phổ biến: thẻ không hỗ trợ, sai vùng Apple ID, thẻ hết hạn, lỗi kết nối — hầu hết có thể tự khắc phục tại nhà.",
   "Apple Pay sử dụng token hóa và Face ID/Touch ID, an toàn hơn thẻ vật lý vì không lưu số thẻ thật trên thiết bị."
 ]
-+++
+image_attribution_checked_at = "2026-07-10T13:50:12+07:00"
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp — nguồn Pexels"
 
 **Apple Pay Việt Nam** đã chính thức có mặt, cho phép người dùng iPhone thanh toán không tiếp xúc (contactless) tại các cửa hàng, máy POS, và trên web.
 

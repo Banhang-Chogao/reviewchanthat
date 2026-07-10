@@ -1,6 +1,6 @@
 +++
 title = "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?"
-date = 2026-07-10T03:30:00+07:00
+date = "2026-07-10 03:30:00+07:00"
 categories = ["tai-chinh"]
 tags = ["Fed", "lãi suất", "giá vàng", "bond yield", "kinh tế Mỹ", "kinh tế Việt Nam", "tỷ giá"]
 author = "Minh Hoàng"
@@ -8,10 +8,10 @@ draft = false
 image = "images/posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.webp"
 thumbnail = "images/posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.webp"
 image_status = "verified"
-image_creator = "Julio Lopez"
-image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator = "DΛVΞ GΛRCIΛ"
+image_creator_url = "https://www.pexels.com/@davegarcia"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_source_url = "https://www.pexels.com/photo/bitcoin-and-credit-cards-with-financial-data-34067360/"
 image_license = "Pexels License"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
@@ -38,7 +38,13 @@ items = [
   "Giá vàng và lãi suất có mối quan hệ ngược: lãi suất Fed tăng → vàng giảm (vì giữ tiền mặt lãi suất cao hơn giữ vàng không sinh lãi).",
   "Ảnh hưởng Việt Nam: Fed tăng lãi → tỷ giá USD/VND tăng → chi phí import tăng → lạm phát Việt Nam tăng → SBV phải tăng lãi suất theo."
 ]
-
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = ""
+image_attribution_checked_at = "2026-07-10T14:01:40+07:00"
+image_provider = "pexels"
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào? — nguồn Pexels"
 +++
 
 Bạn nghe tin tức: **"Fed tăng lãi suất"** hoặc **"10-year yield tăng lên 4%"** hoặc **"vàng giảm giá.** Nhưng bạn thắc mắc:

@@ -17,7 +17,7 @@ description: 'Đánh giá pin iPhone 16 Pro Max: thời lượng thực tế, so
   máy cũ và ai cần Pro Max vì pin.'
 draft: false
 image: images/posts/pin-iphone-16-pro-max-co-dang-chon.webp
-image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:32+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

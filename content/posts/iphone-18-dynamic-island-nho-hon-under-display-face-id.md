@@ -28,7 +28,7 @@ external_links:
 - title: AppleInsider — iPhone 18 expectations
 - title: MacRumors — iPhone 18 Pro rumored colors
 image: images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

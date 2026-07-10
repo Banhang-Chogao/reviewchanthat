@@ -40,7 +40,7 @@ faq:
     lượn và thú. Hai khu có vé riêng nhưng nằm gần nhau.
   question: Caribbean Bay khác Everland thế nào?
 image: images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp
-image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

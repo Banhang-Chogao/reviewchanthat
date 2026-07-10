@@ -39,7 +39,7 @@ faq:
     biển giúp bạn chủ động thời gian tắm và đi bộ dọc bờ biển sáng sớm.
 - answer: Không. Nhiệt độ nước biển tháng 7–8 dao động 22–25°C, rất dễ chịu.
 image: images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:30+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

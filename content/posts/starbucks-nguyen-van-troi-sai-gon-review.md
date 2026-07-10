@@ -29,21 +29,22 @@ external_links:
 - title: Starbucks Vietnam — Store locator
   url: https://www.starbucks.vn/
 image: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
-image_alt: Ảnh minh họa — Pexels / Lisa from Pexels
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
-image_attribution_error: Provider/source page did not expose verified creator metadata
-image_attribution_source: not_found
-image_attribution_verified: false
+image_alt: 'Ảnh minh họa Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha
+  nước rất ngon — nguồn Pexels'
+image_attribution_checked_at: '2026-07-10T14:01:43+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
-image_creator: ''
+image_creator: Ken Chuang
 image_creator_id: ''
-image_creator_url: ''
-image_license: Self-owned
+image_creator_url: https://www.pexels.com/@ken-chuang-34273
+image_license: Pexels License
 image_license_url: ''
-image_owner: self
-image_provider: self
-image_source: self
-image_source_url: https://banhang-chogao.github.io/reviewchanthat/images/posts-src/starbucks-nguyen-van-troi.jpg
+image_owner: external
+image_provider: pexels
+image_query: review starbucks nguyễn văn trỗi
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/a-person-inside-a-starbucks-coffeeshop-9182859/
 image_status: verified
 seo_title: 'Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha'
 series: starbucks-vietnam

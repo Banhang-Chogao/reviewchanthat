@@ -9,8 +9,8 @@ categories = ["tai-chinh"]
 tags = ["bảo hiểm", "actuarial science", "xác suất", "phí bảo hiểm", "rủi ro", "e^(-λt)"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 4
-image = "needs_api_image"
-image_alt = "Actuarial science, xác suất sống còn, phí bảo hiểm"
+image = "images/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.webp"
+image_alt = "Ảnh minh họa Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro? — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -22,7 +22,22 @@ items = [
   "Monte Carlo: mô phỏng hàng triệu kịch bản để ước lượng rủi ro tối đa",
   "Ví dụ: Tính phí bảo hiểm nhân thọ 20 năm cho người 35 tuổi"
 ]
-
+thumbnail = "images/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-inserting-money-unto-an-atm-5849549/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Monstera Production"
+image_creator_url = "https://www.pexels.com/@gabby-k"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "atm banking transaction"
 +++
 
 Khi bạn mua bảo hiểm nhân thọ, công ty bảo hiểm không chỉ "đoán" phí. Họ dùng **toán học cao cấp** để:

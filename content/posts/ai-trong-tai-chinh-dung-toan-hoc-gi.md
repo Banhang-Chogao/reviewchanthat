@@ -9,8 +9,8 @@ categories = ["tai-chinh"]
 tags = ["AI", "machine learning", "deep learning", "NLP", "reinforcement learning", "neural network", "time series"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 14
-image = "needs_api_image"
-image_alt = "AI in finance: neural networks, LSTM, NLP, reinforcement learning"
+image = "images/posts/ai-trong-tai-chinh-dung-toan-hoc-gi.webp"
+image_alt = "Ảnh minh họa AI trong tài chính: Deep learning, NLP, và reinforcement learning — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -22,7 +22,22 @@ items = [
   "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward",
   "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"
 ]
-
+thumbnail = "images/posts/ai-trong-tai-chinh-dung-toan-hoc-gi.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/black-framed-sunglasses-beside-white-paper-8062369/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Nataliya Vaitkevich"
+image_creator_url = "https://www.pexels.com/@n-voitkevich"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "credit card finance desk"
 +++
 
 **AI/Machine Learning** trong tài chính không phải huyền thoại — nó **thực tế & hiệu quả**.

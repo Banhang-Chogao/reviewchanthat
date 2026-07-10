@@ -1,6 +1,6 @@
 +++
 title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-date = 2026-07-09T17:00:00+07:00
+date = "2026-07-09 17:00:00+07:00"
 description = "Gợi ý du lịch Phú Quốc hè 2026 cho người đi tự túc: nên ở khu nào, tour đảo nào đáng đi, lịch trình 4 ngày 3 đêm và cách né mưa giữa mùa thấp điểm."
 categories = ["du-lich"]
 tags = ["du lịch Phú Quốc", "Phú Quốc hè 2026", "lịch trình Phú Quốc", "du lịch hè", "tour đảo Phú Quốc"]
@@ -20,7 +20,7 @@ image_creator_url = "https://www.pexels.com/@quang-nguyen-vinh-222549"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-10T12:00:00+07:00"
+image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
 draft = false
 seo_title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4"
 
@@ -33,7 +33,8 @@ items = [
   "Lịch trình 4 ngày 3 đêm: 1 ngày tour đảo Nam, 1 ngày Bắc đảo, chừa buổi nghỉ tránh nắng và dự phòng mưa.",
   "Không bịa chi phí: giá vé, phòng và tour đổi theo ngày và cách đặt; bài này giúp bạn tự tính và tự thiết kế lịch."
 ]
-
+image_query = "du lịch phú quốc hè"
+image_alt = "Ảnh minh họa Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels"
 +++
 
 ## Vì sao Phú Quốc hè 2026?

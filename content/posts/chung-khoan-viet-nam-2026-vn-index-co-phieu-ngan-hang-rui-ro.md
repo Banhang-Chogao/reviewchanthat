@@ -1,6 +1,6 @@
 +++
 title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
-date = 2026-07-10T06:30:00+07:00
+date = "2026-07-10 06:30:00+07:00"
 categories = ["tai-chinh"]
 tags = ["chứng khoán Việt Nam", "VN-Index", "cổ phiếu ngân hàng", "đầu tư", "rủi ro thị trường", "người mới chứng khoán"]
 author = "Minh Hoàng"
@@ -8,10 +8,10 @@ draft = false
 image = "images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp"
 thumbnail = "images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp"
 image_status = "verified"
-image_creator = "Julio Lopez"
-image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator = "Tima Miroshnichenko"
+image_creator_url = "https://www.pexels.com/@tima-miroshnichenko"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_source_url = "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/"
 image_license = "Pexels License"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
@@ -38,7 +38,13 @@ items = [
   "Rủi ro năm 2026: biến động lãi suất SBV, tâm lý thị trường, định giá cao, margin buying, tin tức quốc tế ảnh hưởng khía cạnh vĩ mô.",
   "Sai lầm phổ biến: FOMO vào rally không hiểu định giá, margin buying tràn lan, tập trung toàn bộ vào một mã, không có kế hoạch thoát, bỏ qua quản lý rủi ro."
 ]
-
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = "3088726"
+image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
+image_provider = "pexels"
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào? — nguồn Pexels"
 +++
 
 Chứng khoán Việt Nam hấp dẫn. Lợi nhuận cao, câu chuyện tăng trưởng, và hàng triệu người cùng chơi—tất cả đều khiến mới chủ dễ **cảm xúc hóa quyết định**.

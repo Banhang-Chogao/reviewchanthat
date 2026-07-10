@@ -9,8 +9,8 @@ categories = ["tai-chinh"]
 tags = ["series finale", "tổng kết", "toán học tài chính", "định lượng", "quant finance", "machine learning finance"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 15
-image = "needs_api_image"
-image_alt = "Series 15/15: Hàm số mũ e, toán học, tài chính đỉnh cao"
+image = "images/posts/toan-hoc-dinh-cao-trong-tai-chinh.webp"
+image_alt = "Ảnh minh họa Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -22,7 +22,22 @@ items = [
   "Bài 14-15: AI (deep learning, NLP, RL), tổng kết & tương lai",
   "Chiều sâu: Từ e^(-rt) (đơn giản) đến Transformer (phức tạp)"
 ]
-
+thumbnail = "images/posts/toan-hoc-dinh-cao-trong-tai-chinh.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/graphic-illustration-of-an-atm-6289062/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Monstera Production"
+image_creator_url = "https://www.pexels.com/@gabby-k"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:45+07:00"
+image_query = "atm banking transaction"
 +++
 
 **Series 15/15 — Tổng kết.**

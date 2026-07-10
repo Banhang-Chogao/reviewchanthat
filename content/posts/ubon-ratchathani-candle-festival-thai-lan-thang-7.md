@@ -13,30 +13,41 @@ ai_summary:
     đậm chất Isaan — không phù hợp với người tìm tiệc tùng hoặc mua sắm.
   title: Tóm tắt bài viết
 attribution:
-  copyright: "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
-  source_note: "Bài viết tham khảo từ các nguồn: https://www.thailand.go.th/guide-book-detail/the-candle-festival, https://qa.thailand.go.th/event-detail/ubon-ratchathani-candle-festival-2026."
+  copyright: © 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn
+    du lịch uy tín.
+  source_note: 'Bài viết tham khảo từ các nguồn: https://www.thailand.go.th/guide-book-detail/the-candle-festival,
+    https://qa.thailand.go.th/event-detail/ubon-ratchathani-candle-festival-2026.'
 author: Minh Hoàng
-avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
-date: "2026-07-08 10:00:00+07:00"
-description: "Ubon Ratchathani Candle Festival 2026 — ngày 28–30/7, lịch trình, cách đi từ Bangkok, kinh nghiệm tham quan lễ hội nến lớn nhất Thái Lan."
+date: '2026-07-08 10:00:00+07:00'
+description: Ubon Ratchathani Candle Festival 2026 — ngày 28–30/7, lịch trình, cách
+  đi từ Bangkok, kinh nghiệm tham quan lễ hội nến lớn nhất Thái Lan.
 draft: false
 image: images/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.webp
+image_alt: Ảnh minh họa Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch
+  trình Thái Lan tháng 7 không? — nguồn Pexels
+image_attribution_checked_at: '2026-07-10T14:01:43+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
+image_creator: saw sing
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@saw-sing-809441970
 image_license: Pexels License
+image_license_url: ''
 image_owner: external
-image_creator: ""
-image_creator_url: ""
-image_creator_id: ""
-image_attribution_verified: false
-image_attribution_source: not_found
-image_attribution_checked_at: "2026-07-09T10:43:35+07:00"
-image_attribution_error: pexels_api_miss id=5712567; source_page_no_creator; embedded_meta_no_creator
-image_license_url: "https://www.pexels.com/license/"
 image_provider: pexels
+image_query: ubon ratchathani candle festival gì
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/thai-candle-festival-sculpture-5712567/"
+image_source_url: https://www.pexels.com/photo/illustration-of-colorful-lights-on-the-ground-and-on-a-tent-under-the-sky-of-star-trails-20471213/
+image_status: verified
+seo_title: Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào
+series:
+- du-lich-thai-lan-mua-mua
+series_order: 13
+series_title: Du lịch Thái Lan mùa mưa
 slug: ubon-ratchathani-candle-festival-thai-lan-thang-7
 tags:
 - Ubon Ratchathani Candle Festival
@@ -45,19 +56,14 @@ tags:
 - du lịch Isaan
 - tháng 7 Thái Lan
 thumbnail: images/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.webp
-series: ["du-lich-thai-lan-mua-mua"]
-series_title: "Du lịch Thái Lan mùa mưa"
-series_order: 13
-title: 'Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan
-  tháng 7 không?'
+title: Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan
+  tháng 7 không?
 tom_tat_nhanh:
 - label: Ngày
   value: 28–30/7/2026
 - label: Địa điểm
 - label: Di chuyển
 - label: Phù hợp
-seo_title: "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào"
-
 ---
 
 ## Ubon Ratchathani Candle Festival là gì?

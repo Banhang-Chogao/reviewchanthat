@@ -35,7 +35,7 @@ faq:
     spa.
   question: Có phù hợp với trẻ em không?
 image: images/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -35,7 +35,7 @@ faq:
 - answer: Kết hợp cả benchmark (so sánh thông số) và review trải nghiệm thực tế từ
     nhiều nguồn khác nhau. Ưu tiên review dài hạn sau 1-3 tháng sử dụng.
 image: images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp
-image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

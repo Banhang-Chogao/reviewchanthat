@@ -31,7 +31,7 @@ external_links:
 - title: Visit Korea — Seoul's Top 5 Fall Forests
 - title: Korea Meteorological Administration
 image: images/posts/di-han-thang-10-co-dep-khong.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

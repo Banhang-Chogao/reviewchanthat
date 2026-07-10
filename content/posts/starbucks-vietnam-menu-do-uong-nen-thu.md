@@ -28,7 +28,7 @@ external_links:
 - title: Starbucks Vietnam — Menu
   url: https://www.starbucks.vn/menu
 image: images/posts/starbucks-vietnam-menu-do-uong-nen-thu.webp
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

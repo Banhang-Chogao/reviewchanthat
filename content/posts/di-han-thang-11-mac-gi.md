@@ -39,7 +39,7 @@ faq:
 - answer: Giày sneaker đế bằng, thoải mái đi bộ 12.000–18.000 bước/ngày. Leo núi nên
     giày trekking nhẹ, tất dày.
 image: images/posts/di-han-thang-11-mac-gi.webp
-image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

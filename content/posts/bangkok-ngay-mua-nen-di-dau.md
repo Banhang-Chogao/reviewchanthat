@@ -23,23 +23,27 @@ avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - du-lich
 date: '2026-07-08 10:00:00+07:00'
-description: "Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, bảo tàng, chợ trong nhà, massage, food tour — kèm lịch trình 2 ngày mùa mưa và cách di chuyển."
+description: Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, bảo tàng, chợ trong
+  nhà, massage, food tour — kèm lịch trình 2 ngày mùa mưa và cách di chuyển.
 draft: false
 image: images/posts/bangkok-ngay-mua-nen-di-dau.webp
-image_attribution_checked_at: "2026-07-10T06:10:00+07:00"
-image_attribution_error: source_page_no_creator; embedded_meta_no_creator
-image_attribution_source: not_found
-image_attribution_verified: false
+image_alt: Ảnh minh họa Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage
+  và food tour — nguồn Pexels
+image_attribution_checked_at: '2026-07-10T14:01:39+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
 image_commercial_use: true
-image_creator: ""
-image_creator_id: ""
-image_creator_url: ""
+image_creator: Julio Lopez
+image_creator_id: ''
+image_creator_url: https://www.pexels.com/@julio-lopez-75309646
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: ''
 image_owner: external
 image_provider: pexels
+image_query: mobile banking payment app
 image_source: Pexels
-image_source_url: ""
+image_source_url: https://www.pexels.com/photo/unionpay-mobile-payment-with-online-shopping-setup-29502363/
+image_status: verified
 seo_title: Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ,
 series:
 - du-lich-thai-lan-mua-mua

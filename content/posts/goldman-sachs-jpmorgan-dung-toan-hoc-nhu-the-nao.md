@@ -10,8 +10,8 @@ categories = ["tai-chinh"]
 tags = ["Goldman Sachs", "JPMorgan", "derivatives", "Greeks", "high-frequency trading", "volatility smile"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 7
-image = "needs_api_image"
-image_alt = "Investment banks: derivatives, Greeks, algorithmic trading"
+image = "images/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.webp"
+image_alt = "Ảnh minh họa Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -23,7 +23,22 @@ items = [
   "Market Microstructure: Spread, latency, order flow prediction",
   "Machine Learning: Neural networks dự báo giá, market impact models"
 ]
-
+thumbnail = "images/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/man-using-atm-machine-11284045/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Centre for Ageing Better"
+image_creator_url = "https://www.pexels.com/@centre-for-ageing-better-55954677"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "atm banking transaction"
 +++
 
 Goldman Sachs & JPMorgan là 2 ngân hàng đầu tư lớn nhất. Họ dùng **toán học cực kỳ phức tạp** cho:

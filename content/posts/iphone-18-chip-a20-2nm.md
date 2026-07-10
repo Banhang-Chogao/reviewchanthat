@@ -26,7 +26,7 @@ external_links:
 - title: AppleInsider — A20 and spring 2027 iPhone 18
 - title: MacRumors — TSMC 2nm reports
 image: images/posts/iphone-18-chip-a20-2nm.webp
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

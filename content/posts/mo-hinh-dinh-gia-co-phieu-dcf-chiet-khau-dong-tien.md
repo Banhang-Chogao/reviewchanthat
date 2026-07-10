@@ -10,8 +10,8 @@ categories = ["tai-chinh"]
 tags = ["định giá cổ phiếu", "DCF", "P/E ratio", "terminal value", "comparable valuation", "intrinsic value"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 10
-image = "needs_api_image"
-image_alt = "Stock valuation: DCF, P/E ratio, intrinsic value"
+image = "images/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.webp"
+image_alt = "Ảnh minh họa Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio — nguồn Pixabay"
 
 [ai_summary]
 items = [
@@ -23,7 +23,22 @@ items = [
   "Comparable Method: So sánh cổ phiếu tương tự, giá = Average P/E × Earnings",
   "Intrinsic Value vs Market Price: Nếu Market < Intrinsic → BUY, ngược lại SELL"
 ]
-
+thumbnail = "images/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.webp"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/bugs-loan-green-7408590/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "jarino47"
+image_creator_url = "https://pixabay.com/photos/bugs-loan-green-7408590/"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pixabay_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_query = "atm banking transaction"
 +++
 
 Làm sao biết cổ phiếu là **rẻ hay đắt**?

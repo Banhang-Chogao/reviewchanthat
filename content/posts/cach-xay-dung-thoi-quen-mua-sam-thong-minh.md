@@ -37,7 +37,7 @@ faq:
 - answer: 'Một số app phổ biến: Money Lover, Spendee, Sổ Thu Chi. Quan trọng nhất
     là bạn duy trì thói quen ghi chép mỗi ngày.'
 image: images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp
-image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:29+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -1,6 +1,6 @@
 +++
 title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
-date = 2026-07-10T04:30:00+07:00
+date = "2026-07-10 04:30:00+07:00"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "Techcombank Mobile", "app ngân hàng", "sinh lời tự động", "chuyển tiền", "review app"]
 author = "Minh Hoàng"
@@ -8,10 +8,10 @@ draft = false
 image = "images/posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.webp"
 thumbnail = "images/posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.webp"
 image_status = "verified"
-image_creator = "Julio Lopez"
-image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator = "Tima Miroshnichenko"
+image_creator_url = "https://www.pexels.com/@tima-miroshnichenko"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_source_url = "https://www.pexels.com/photo/close-up-shot-of-a-person-using-an-ipad-while-holding-a-credit-card-4841691/"
 image_license = "Pexels License"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
@@ -38,7 +38,13 @@ items = [
   "Sinh lời tự động: liên kết với sản phẩm tiền gửi/tiết kiệm; lãi suất thay đổi theo SBV policy; cần tài khoản xác thực đầy đủ (KYC).",
   "Phù hợp: người cần ngân hàng số cơ bản, chuyển tiền thường xuyên, giữ tiền gửi tiết kiệm; cần cân nhắc nếu muốn dịch vụ vay/đầu tư phức tạp."
 ]
-
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = ""
+image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
+image_provider = "pexels"
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien — nguồn Pexels"
 +++
 
 Ngân hàng số là xu hướng, nhưng **không phải cái nào cũng phù hợp với bạn.**

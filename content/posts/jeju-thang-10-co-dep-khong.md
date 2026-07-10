@@ -30,7 +30,7 @@ external_links:
 - title: Visit Jeju
   url: ''
 image: images/posts/jeju-thang-10-co-dep-khong.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:36+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

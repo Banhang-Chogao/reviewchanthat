@@ -25,7 +25,7 @@ external_links:
 - title: MacRumors — iPhone 18 Pro colors (Fold colors)
 - title: AppleInsider — iPhone 18 expectations
 image: images/posts/iphone-fold-iphone-ultra-la-gi.webp
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:35+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false

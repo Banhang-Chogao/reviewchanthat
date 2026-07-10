@@ -9,8 +9,8 @@ categories = ["tai-chinh"]
 tags = ["risk management", "VaR", "CVaR", "correlation", "stress test", "tail risk", "backtesting"]
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 12
-image = "needs_api_image"
-image_alt = "Risk management: VaR calculation, stress testing"
+image = "images/posts/risk-management-trong-tai-chinh-dung-toan-hoc.webp"
+image_alt = "Ảnh minh họa Risk Management trong tài chính: Từ VaR đến stress testing — nguồn Pexels"
 
 [ai_summary]
 items = [
@@ -22,7 +22,22 @@ items = [
   "Correlation Breakdown: Khi thị trường crash, correlation → 1 (diversification fail!)",
   "Stress Testing: Kịch bản cực đoan (2008 crisis, COVID, war, etc)"
 ]
-
+thumbnail = "images/posts/risk-management-trong-tai-chinh-dung-toan-hoc.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/woman-with-gloves-inserting-a-card-into-an-automated-machine-5699338/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:01:45+07:00"
+image_query = "atm banking transaction"
 +++
 
 **Risk Management** — quản lý rủi ro trong tài chính.

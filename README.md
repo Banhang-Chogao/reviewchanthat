@@ -196,7 +196,7 @@ Blog có pipeline ảnh khoa học gồm 4 giai đoạn:
 | Tính năng | Mô tả |
 |:---|---:|
 | 🔍 **Audit** | Scan toàn bộ post, phát hiện thiếu ảnh, path sai, thiếu metadata, ảnh trùng |
-| 🤖 **AI Selection** | Sinh keywords từ nội dung, tra API Pixabay/Pexels/Unsplash (nếu có key), chấm điểm relevance |
+| 🤖 **AI Selection** | Sinh keywords từ nội dung, tra API Pixabay/Pexels, chấm điểm relevance |
 | 🖼️ **Process** | Download → crop 16:9 → resize 800×450 → WebP → watermark attribution text |
 | 🔄 **Dedupe** | Kiểm tra source_url trùng, perceptual hash, output file trùng |
 | ✅ **QA** | FAIL nếu thiếu ảnh, license, source_url, commercial_use, path sai, ảnh trùng |
@@ -204,10 +204,10 @@ Blog có pipeline ảnh khoa học gồm 4 giai đoạn:
 ### Watermark attribution
 
 - Góc dưới phải, text nhỏ, nền mờ
-- Chỉ ghi: `"Source: Pixabay"`, `"Source: Unsplash / Photographer Name"`
+- Chỉ ghi: `"Source: Pixabay"` hoặc `"Source: Pexels / Photographer Name"` khi creator được provider xác thực
 - Không dùng logo nền tảng
 - Ảnh external: attribution watermark theo source
-- Fallback image: `static/images/posts/fallback.webp`
+- Không dùng fallback/self-generated cho bài viết; nếu Pexels/Pixabay không trả ảnh hợp lệ thì QA fail
 
 ### Cách dùng pipeline
 
@@ -215,8 +215,8 @@ Blog có pipeline ảnh khoa học gồm 4 giai đoạn:
 # 1. Audit post images
 python scripts/audit_post_images.py
 
-# 2. Select images (AI-assisted — yêu cầu API keys hoặc chạy chế độ suggest)
-#    Cần env vars: UNSPLASH_ACCESS_KEY, PEXELS_API_KEY, PIXABAY_API_KEY
+# 2. Select images (AI-assisted — yêu cầu Pexels/Pixabay API keys)
+#    Cần env vars: PEXELS_API_KEY, PIXABAY_API_KEY
 python scripts/select_images.py
 
 # 3. Process images (resize + WebP + watermark)
@@ -281,7 +281,7 @@ Mỗi lần push lên `main`, CI tự động:
 | File Pipeline | Chức năng |
 |:---|---:|
 | `scripts/audit_post_images.py` | Scan frontmatter ảnh, phát hiện thiếu/trùng/sai |
-| `scripts/select_images.py` | AI-assisted chọn ảnh từ API Unsplash/Pexels/Pixabay |
+| `scripts/select_images.py` | AI-assisted chọn ảnh từ API Pexels/Pixabay |
 | `scripts/process_images.py` | Download → crop → WebP → watermark → update frontmatter |
 | `scripts/image_dedupe.py` | Detect ảnh trùng (URL, file, perceptual hash) |
 | `scripts/creator_policy.py` | Chính sách creator dùng chung (chặn Pexels/Pixabay/fake names) |
@@ -305,4 +305,3 @@ Mỗi lần push lên `main`, CI tự động:
 <p align="center">
   <b>Review Chân Thật</b> — Made with ❤️, ☕, and a lot of 🤖
 </p>
-

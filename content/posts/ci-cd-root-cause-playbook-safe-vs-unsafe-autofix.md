@@ -22,7 +22,7 @@ draft: false
 image: images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp
 image_alt: 'Ảnh minh họa CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog
   Hugo trên GitHub Pages — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

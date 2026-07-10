@@ -42,7 +42,7 @@ faq:
 - answer: Rất phù hợp. Khu Larva được thiết kế riêng cho trẻ em, các trò chơi nhẹ
     nhàng và nhiều màu sắc.
 image: images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:33+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

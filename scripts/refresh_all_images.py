@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Re-run the full image pipeline for all external posts:
-audit -> gate selection -> process -> self-owned verify -> relevance QA
+Re-run the image pipeline for external posts:
+audit -> Pexels/Pixabay selection -> process -> self-owned verify -> attribution QA
 """
 
 from __future__ import annotations
@@ -35,9 +35,7 @@ def ensure_api_keys() -> None:
     from image_providers import load_dotenv
 
     load_dotenv()
-    has_key = any(os.environ.get(k) for k in (
-        "PEXELS_API_KEY", "PIXABAY_API_KEY", "UNSPLASH_ACCESS_KEY", "FREEPIK_API_KEY"
-    ))
+    has_key = any(os.environ.get(k) for k in ("PEXELS_API_KEY", "PIXABAY_API_KEY"))
     if not has_key:
         print("ERROR: No image API keys found.")
         print("Create .env from .env.example with at least PEXELS_API_KEY or PIXABAY_API_KEY.")
@@ -68,7 +66,7 @@ def mark_self_owned_verified() -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Refresh all post images (API-first with self-generated fallback)")
+    parser = argparse.ArgumentParser(description="Refresh all post images (Pexels/Pixabay API-first)")
     parser.add_argument("--skip-audit", action="store_true")
     parser.add_argument("--skip-process", action="store_true")
     parser.add_argument("--dry-run", action="store_true", help="Only audit + key check")
@@ -86,7 +84,7 @@ def main() -> int:
         print("\nDry run: auditing only. Use without --dry-run to actually select and process images.")
         return 0
 
-    print("\n>>> Selecting images (API-first with self-generated fallback)...")
+    print("\n>>> Selecting images (Pexels/Pixabay API-first)...")
     run_step([py, "scripts/select_images.py", "--all", "--fix", "--api-first", "--only-missing-or-bad"])
 
     if not args.skip_process:

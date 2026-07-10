@@ -1,6 +1,6 @@
 """
 scripts/process_images.py
-Image processing pipeline for real images only:
+Image processing pipeline for verified provider images only:
 1. Download images from source URLs (direct_url required)
 2. Convert to WebP (800x450, 16:9)
 3. Add watermark attribution
@@ -167,11 +167,47 @@ def process_image(src_path, dest_path, watermark_text=""):
 def apply_fallback(slug):
     """Set fallback.webp when no real image is available. Prevents broken image links."""
     import frontmatter
+    from lib.toml_util import has_toml_fm, read_fm, set_field, remove_key
+    import tomllib
+
     for f in os.listdir(CONTENT_DIR):
         if not f.endswith(".md"):
             continue
         try:
-            post = frontmatter.load(os.path.join(CONTENT_DIR, f))
+            fpath = os.path.join(CONTENT_DIR, f)
+            text = open(fpath, encoding="utf-8").read()
+
+            if has_toml_fm(text):
+                parts = read_fm(text)
+                if not parts:
+                    continue
+                fm_text = parts[1]
+                meta = tomllib.loads(fm_text)
+                # Match by slug or filename
+                if meta.get("slug") != slug and f.replace(".md", "") != slug:
+                    continue
+                updates = {
+                    "image": "images/posts/fallback.webp",
+                    "thumbnail": "images/posts/fallback.webp",
+                    "image_source": "self",
+                    "image_license": "Self-owned",
+                    "image_commercial_use": True,
+                    "image_owner": "self",
+                    "image_status": "needs_review",
+                    "image_reject_reason": "No verified image available after processing",
+                }
+                removes = ["image_creator", "image_creator_url"]
+                for k in removes:
+                    fm_text = remove_key(fm_text, k)
+                for k, v in updates.items():
+                    fm_text = set_field(fm_text, k, v)
+                new_text = parts[0] + fm_text.strip() + "\n+++" + parts[2]
+                with open(fpath, "w", encoding="utf-8") as fh:
+                    fh.write(new_text)
+                print(f"    Applied fallback: {f}")
+                return
+
+            post = frontmatter.load(fpath)
             if post.metadata.get("slug") == slug:
                 meta = post.metadata
                 meta["image"] = "images/posts/fallback.webp"
@@ -185,7 +221,7 @@ def apply_fallback(slug):
                 meta.pop("image_creator_url", None)
                 meta["image_status"] = "needs_review"
                 meta["image_reject_reason"] = "No verified image available after processing"
-                with open(os.path.join(CONTENT_DIR, f), "w", encoding="utf-8") as fh:
+                with open(fpath, "w", encoding="utf-8") as fh:
                     fh.write(frontmatter.dumps(post))
                 print(f"    Applied fallback: {f}")
                 return
@@ -200,53 +236,114 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
                             license_url=""):
     import frontmatter
     from datetime import datetime, timedelta, timezone
+    from lib.toml_util import has_toml_fm, read_fm, set_field, remove_key
+    import tomllib
+
     fname = None
     for f in os.listdir(CONTENT_DIR):
-        if f.endswith(".md"):
-            try:
-                post = frontmatter.load(os.path.join(CONTENT_DIR, f))
-                if post.metadata.get("slug") == slug:
-                    fname = f
-                    break
-            except Exception:
-                continue
+        if not f.endswith(".md"):
+            continue
+        try:
+            fpath = os.path.join(CONTENT_DIR, f)
+            # Match by slug field first, fall back to filename match
+            if f.replace(".md", "") == slug:
+                fname = f
+                break
+            text = open(fpath, encoding="utf-8").read()
+            if has_toml_fm(text):
+                parts = read_fm(text)
+                if parts:
+                    meta = tomllib.loads(parts[1])
+                    if meta.get("slug") == slug:
+                        fname = f
+                        break
+            post = frontmatter.load(fpath)
+            if post.metadata.get("slug") == slug:
+                fname = f
+                break
+        except Exception:
+            continue
+
     if not fname:
         print(f"    Post not found for slug: {slug}")
         return False
+
     fpath = os.path.join(CONTENT_DIR, fname)
+    text = open(fpath, encoding="utf-8").read()
+
+    verified = bool(attribution_verified) and bool(clean_text(creator))
+    now_iso = datetime.now(timezone(timedelta(hours=7))).replace(microsecond=0).isoformat()
+    removes = ["image_reject_reason", "image_attribution_error"]
+    updates = {
+        "image": (image_path or "").lstrip("/"),
+        "thumbnail": (thumbnail_path or "").lstrip("/"),
+        "image_source": source,
+        "image_source_url": source_url,
+        "image_license": license_val,
+        "image_commercial_use": commercial_use,
+        "image_owner": owner,
+        "image_creator": clean_text(creator) if verified else "",
+        "image_creator_url": clean_text(creator_url) if verified else "",
+        "image_creator_id": clean_text(creator_id) if verified else "",
+        "image_attribution_verified": verified,
+        "image_attribution_source": attribution_source or ("not_found" if not verified else ""),
+        "image_attribution_checked_at": now_iso,
+    }
+    if license_url:
+        updates["image_license_url"] = license_url
+    if not verified:
+        updates["image_attribution_error"] = "Provider/source page did not expose verified creator metadata"
+    if image_status:
+        updates["image_status"] = image_status
+
+    if has_toml_fm(text):
+        parts = read_fm(text)
+        if not parts:
+            print(f"    ERROR: Invalid TOML frontmatter: {fname}")
+            return False
+        fm_text = parts[1]
+        try:
+            meta = tomllib.loads(fm_text)
+        except Exception as e:
+            print(f"    ERROR: Corrupt TOML frontmatter: {fname}: {e}")
+            return False
+        original_date = meta.get("date")
+
+        for k in removes:
+            fm_text = remove_key(fm_text, k)
+        if not image_status:
+            fm_text = remove_key(fm_text, "image_status")
+            for key in GATE_FIELDS:
+                fm_text = remove_key(fm_text, key)
+
+        for k, v in updates.items():
+            fm_text = set_field(fm_text, k, v)
+
+        if gate_meta:
+            for key in GATE_FIELDS:
+                value = gate_meta.get(key)
+                if value not in (None, "") and not (key.endswith("_score") and value == 0):
+                    fm_text = set_field(fm_text, key, value)
+        elif image_status == "verified" and not gate_meta:
+            fm_text = set_field(fm_text, "image_provider", clean_text(source).lower())
+        if original_date is not None:
+            fm_text = set_field(fm_text, "date", original_date)
+
+        new_text = parts[0] + fm_text.strip() + "\n+++" + parts[2]
+        with open(fpath, "w", encoding="utf-8") as f:
+            f.write(new_text)
+        print(f"    Updated TOML frontmatter: {fname}")
+        return True
+
+    # YAML path
     post = frontmatter.load(fpath)
     meta = post.metadata
     original_date = meta.get("date")
-    meta["image"] = (image_path or "").lstrip("/")
-    meta["thumbnail"] = (thumbnail_path or "").lstrip("/")
-    meta["image_source"] = source
-    meta["image_source_url"] = source_url
-    meta["image_license"] = license_val
-    if license_url:
-        meta["image_license_url"] = license_url
-    meta["image_commercial_use"] = commercial_use
-    meta["image_owner"] = owner
-    verified = bool(attribution_verified) and bool(clean_text(creator))
-    meta["image_creator"] = clean_text(creator) if verified else ""
-    meta["image_creator_url"] = clean_text(creator_url) if verified else ""
-    meta["image_creator_id"] = clean_text(creator_id) if verified else ""
-    meta["image_attribution_verified"] = verified
-    meta["image_attribution_source"] = (
-        attribution_source if attribution_source else ("not_found" if not verified else "")
-    )
-    meta["image_attribution_checked_at"] = datetime.now(
-        timezone(timedelta(hours=7))
-    ).replace(microsecond=0).isoformat()
-    if not verified:
-        meta["image_attribution_error"] = (
-            "Provider/source page did not expose verified creator metadata"
-        )
-    else:
-        meta.pop("image_attribution_error", None)
-    meta.pop("image_reject_reason", None)
-    if image_status:
-        meta["image_status"] = image_status
-    else:
+    for k in removes:
+        meta.pop(k, None)
+    for k, v in updates.items():
+        meta[k] = v
+    if not image_status:
         meta.pop("image_status", None)
         for key in GATE_FIELDS:
             meta.pop(key, None)
@@ -267,12 +364,12 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
 
 def main():
     import argparse
-    parser = argparse.ArgumentParser(description="Download and process verified stock images and self-generated fallbacks")
+    parser = argparse.ArgumentParser(description="Download and process verified Pexels/Pixabay stock images")
     parser.add_argument("--force", action="store_true", help="Re-download and reprocess existing images")
     parser.add_argument("--skip-watermark", action="store_true", help="Skip adding watermark attribution")
     args = parser.parse_args()
 
-    print("=== Image Processing (API images + self-generated fallback) ===")
+    print("=== Image Processing (verified API images) ===")
     manifest = load_manifest()
     success = 0
     skipped = 0

@@ -17,7 +17,7 @@ description: 'Blue Titanium trên iPhone 15 Pro Max: độ đẹp khi mới, pha
   thời gian, giá máy cũ và có nên săn màu này năm 2026.'
 draft: false
 image: images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp
-image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:31+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -33,7 +33,7 @@ external_links:
 - title: Starbucks Stories — 10 years in Vietnam (2023)
 - title: GCR Magazine — First Starbucks opens in Vietnam
 image: images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:34+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

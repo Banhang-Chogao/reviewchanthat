@@ -1,6 +1,6 @@
 +++
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
-date = 2026-07-10T04:00:00+07:00
+date = "2026-07-10 04:00:00+07:00"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "VPBank NEO", "app ngân hàng", "digital banking", "review app"]
 author = "Minh Hoàng"
@@ -8,10 +8,10 @@ draft = false
 image = "images/posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.webp"
 thumbnail = "images/posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.webp"
 image_status = "verified"
-image_creator = "Julio Lopez"
-image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_source_url = "https://www.pexels.com/photo/credit-cards-on-the-table-7821730/"
 image_license = "Pexels License"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
@@ -38,7 +38,13 @@ items = [
   "Điểm mạnh: giao diện thân thiện, chuyển tiền 24/7, tiết kiệm dễ dàng, hỗ trợ vay nhỏ (nếu qualified). Điểm cần cân nhắc: lãi suất không cạnh tranh, tính năng vay có yêu cầu cao.",
   "Phù hợp: người dùng muốn app đơn giản, chuyển tiền nhanh, tiết kiệm cơ bản; cần xem xét khác nếu muốn lãi suất cao hoặc ecosystem fintech đầy đủ."
 ]
-
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = ""
+image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
+image_provider = "pexels"
+image_query = "credit card finance desk"
+image_alt = "Ảnh minh họa VPBank NEO review 2026: app ngân hàng số này hợp với ai? — nguồn Pexels"
 +++
 
 Có hàng chục app ngân hàng ở Việt Nam, và bạn có thể cảm thấy **choáng ngợp khi chọn.**

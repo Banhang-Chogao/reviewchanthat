@@ -1,6 +1,6 @@
 +++
 title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-date = 2026-07-09T09:00:00+07:00
+date = "2026-07-09 09:00:00+07:00"
 description = "Gợi ý du lịch Đà Nẵng hè 2026 cho người đi tự túc: nên ở khu nào, đi biển nào, kết hợp Hội An/Huế, lịch trình 4 ngày 3 đêm và checklist tránh nóng."
 categories = ["du-lich"]
 tags = ["du lịch Đà Nẵng", "Đà Nẵng hè 2026", "lịch trình Đà Nẵng", "du lịch hè", "Đà Nẵng Hội An Huế"]
@@ -20,7 +20,7 @@ image_creator_url = "https://www.pexels.com/@tr-n-long-3093985"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-10T12:00:00+07:00"
+image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
 draft = false
 seo_title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4"
 
@@ -33,7 +33,8 @@ items = [
   "Chọn khu ở theo nhu cầu: gần biển cho nghỉ, sông Hàn cho ăn uống.",
   "Đặt phòng sớm, tránh outdoor giữa trưa, có phương án khi mưa/nắng gắt."
 ]
-
+image_query = "du lịch đà nẵng hè"
+image_alt = "Ảnh minh họa Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels"
 +++
 
 ## Vì sao Đà Nẵng hè 2026?

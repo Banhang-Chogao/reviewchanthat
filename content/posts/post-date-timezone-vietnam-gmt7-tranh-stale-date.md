@@ -21,7 +21,7 @@ draft: false
 image: images/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.webp
 image_alt: 'Ảnh minh họa Post date timezone Việt Nam (GMT+7): tránh stale_date và
   lệch homepage — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T06:15:17+07:00'
+image_attribution_checked_at: '2026-07-10T14:01:38+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

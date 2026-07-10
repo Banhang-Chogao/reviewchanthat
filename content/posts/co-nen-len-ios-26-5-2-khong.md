@@ -1,6 +1,6 @@
 +++
 title = "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
-date = 2026-07-09T17:30:00+07:00
+date = "2026-07-09 17:30:00+07:00"
 description = "iOS 26.5.2 là bản vá bảo mật cho iPhone. Giải thích vì sao nên cập nhật sớm, ai nên lên ngay, và những lưu ý trước khi cài như backup và không thể hạ cấp."
 categories = ["cong-nghe"]
 tags = ["iOS 26.5.2", "cập nhật iOS", "bảo mật iPhone", "iOS 26", "nâng cấp iPhone"]
@@ -20,7 +20,7 @@ image_creator_url = "https://www.pexels.com/@brettjordan"
 image_creator_id = "273840"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-10T12:00:00+07:00"
+image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
 draft = false
 seo_title = "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần"
 
@@ -33,7 +33,8 @@ items = [
   "Bản cập nhật dành cho iPhone 11 trở lên; đã cài rồi thì iOS không thể hạ cấp về bản cũ.",
   "Trước khi cài: sao lưu, đủ pin và dung lượng; dung lượng tải khác nhau theo máy."
 ]
-
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì — nguồn Pexels"
 +++
 
 ## iOS 26.5.2 là bản gì?

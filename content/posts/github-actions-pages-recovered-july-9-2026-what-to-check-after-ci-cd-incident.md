@@ -1,26 +1,26 @@
 +++
 title = "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident"
-date = 2026-07-09T22:35:00+07:00
+date = "2026-07-09 22:35:00+07:00"
 slug = "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident"
 categories = ["cong-nghe"]
 tags = ["GitHub Actions", "GitHub Pages", "CI/CD", "DevOps", "GitHub Status", "incident recovery"]
 author = "Minh Hoàng"
 image = "images/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.webp"
 thumbnail = "images/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.webp"
-image_alt = "Ảnh minh họa — Pexels / Daniil Komov"
+image_alt = "Editorial illustration showing the GitHub Actions CI/CD pipeline back to a healthy operational state after recovery from the July 9, 2026 incident."
 image_status = "verified"
-image_provider = "pexels"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/focused-coding-session-with-laptop-and-coffee-34803969/"
-image_license = "Pexels License"
+image_provider = "self"
+image_source = "self"
+image_source_url = "https://banhang-chogao.github.io/reviewchanthat/images/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.webp"
+image_license = "self-owned"
 image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
-image_owner = "external"
-image_creator = "Daniil Komov"
-image_creator_url = "https://www.pexels.com/@dkomov"
-image_creator_id = "133960344"
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
+image_owner = "self"
+image_creator = ""
+image_creator_url = ""
+image_creator_id = ""
+image_attribution_verified = false
+image_attribution_source = "not_found"
 draft = false
 related_posts = ["github-actions-run-start-delays-july-9-2026-ci-cd-protection"]
 seo_title = "GitHub Actions and Pages Have Recovered: What to Check After"
@@ -37,8 +37,9 @@ items = [
   "Static-site owners should verify the live URL, the latest deployed commit, Pages build history, and any failed Actions runs before declaring the incident over for their own site.",
   "The best response after recovery is to rerun only the latest necessary deploy, cancel superseded jobs, and keep non-essential automation paused until the pipeline is stable."
 ]
-
-
+image_attribution_checked_at = "2026-07-10T14:01:37+07:00"
+image_total_score = 50.0
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 GitHub marked the Actions and Pages incident as **resolved** at 13:52 UTC on July 9, 2026. All systems now show green on the [GitHub Status page](https://www.githubstatus.com/). But a recovered status dashboard does not automatically mean your workflows, build artifacts, and live site are healthy.

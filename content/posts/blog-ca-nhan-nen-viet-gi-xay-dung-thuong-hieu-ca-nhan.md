@@ -1,6 +1,6 @@
 +++
 title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
-date = 2026-07-10T00:30:00+07:00
+date = "2026-07-10 00:30:00+07:00"
 slug = "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "thương hiệu cá nhân", "viết blog", "personal branding", "content strategy", "SEO cá nhân"]
@@ -8,7 +8,6 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.webp"
 thumbnail = "images/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.webp"
-image_status = "verified"
 related_posts = [
   "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
   "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
@@ -30,7 +29,6 @@ items = [
 ]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/person-writing-on-notebook-5387233/"
-image_provider = "pexels"
 image_license = "Pexels License"
 image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
@@ -40,10 +38,7 @@ image_creator_url = "https://www.pexels.com/@karola-g"
 image_creator_id = "2332540"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_alt = "Ảnh minh họa blog ca nhan nen viet gi xay dung thuong hieu ca nhan — Pexels / www.kaboompics.com"
-
-
-
+image_attribution_checked_at = "2026-07-10T14:01:38+07:00"
 +++
 
 Nhiều người mở blog cá nhân với hứng khởi, viết được ba bài rồi dừng. Không phải vì lười. Phần lớn kẹt ở câu hỏi rất thật: **blog cá nhân nên viết gì** để vừa có người đọc, vừa xây được thương hiệu cá nhân, chứ không chỉ “viết cho vui” rồi bỏ dở.

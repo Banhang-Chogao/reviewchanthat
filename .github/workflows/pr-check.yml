@@ -43,6 +43,12 @@ jobs:
       - name: Detect changed files for QA scope
         run: python scripts/qa_scope.py --github-pr --out reports/qa-scope.json
 
+      - name: QA blog images for changed posts
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: python scripts/qa_blog.py --scope-report reports/qa-scope.json --autofix-missing-images
+
       - name: Normalize AI summaries
         run: python scripts/normalize_ai_summaries.py --check
 
