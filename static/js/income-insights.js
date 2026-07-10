@@ -1018,9 +1018,10 @@
           var inc = parseNumber(getVal('income'));
           var deb = parseNumber(getVal('debt'));
           if (deb > 0) deb = -deb;
-          var d = parseInt(getVal('day'), 10) || 1;
-          var m = parseInt(getVal('month'), 10) || 1;
-          var y = parseInt(getVal('year'), 10) || 2026;
+          var rawDay = getVal('day'), rawMonth = getVal('month'), rawYear = getVal('year');
+          var d = parseInt(rawDay, 10) || 1;
+          var m = parseInt(rawMonth, 10) || 1;
+          var y = parseInt(rawYear, 10) || 2026;
           var seq = parseInt(getVal('sequence'), 10) || 0;
 
           var txn = computeFormulas({
@@ -1041,11 +1042,15 @@
           });
           // Skip row nếu tất cả các trường nhập liệu đều rỗng/mặc định
           if (!inc && !deb && !txn.incomeLabel && !txn.debtLabel && !txn.transactionType && !txn.route && !txn.remark) continue;
-          // Validate: Income Label, Debt Label, Type bắt buộc phải có dữ liệu
+          // Validate: tất cả các trường bắt buộc phải có dữ liệu
           var missing = [];
           if (!txn.incomeLabel) missing.push('Income Label (dòng ' + (r + 1) + ')');
           if (!txn.debtLabel) missing.push('Debt Label (dòng ' + (r + 1) + ')');
           if (!txn.transactionType) missing.push('Transaction Type (dòng ' + (r + 1) + ')');
+          if (!txn.route) missing.push('Route (dòng ' + (r + 1) + ')');
+          if (!txn.remark) missing.push('Remark (dòng ' + (r + 1) + ')');
+          if (!txn.income && !txn.debt) missing.push('Income hoặc Debt (dòng ' + (r + 1) + ')');
+          if (!rawDay || !rawMonth || !rawYear) missing.push('Day/Month/Year (dòng ' + (r + 1) + ')');
           if (missing.length > 0) {
             throw new Error('Thiếu dữ liệu bắt buộc:\n' + missing.join('\n'));
           }
