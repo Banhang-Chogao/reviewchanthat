@@ -996,6 +996,10 @@
   margin: 2rem 0;
 }
 
+#tpVisaDocument[data-print-only="true"] {
+  display: none;
+}
+
 .visa-header {
   text-align: center;
   margin-bottom: 2rem;
@@ -1113,16 +1117,23 @@
     text-shadow: none !important;
   }
 
-  body {
+  html, body {
     font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     font-size: 9.5pt;
     line-height: 1.4;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+    background: #fff !important;
   }
 
-  /* Hide everything except visa itinerary document */
+  /* Hide chrome + interactive UI; keep only itinerary document */
   .site-footer,
+  .site-header,
+  .site-search,
+  .skip-link,
+  .tp-gate,
   .travel-planner__hero,
   .travel-planner__input-section,
   .travel-planner__progress,
@@ -1138,19 +1149,35 @@
   .travel-planner__summary-cards,
   .travel-planner__timeline-section,
   .travel-planner__info-cards,
-  .site-header,
-  .travel-planner__version {
+  .travel-planner__version,
+  .travel-planner__lock-btn {
     display: none !important;
   }
 
-  .travel-planner__main {
-    max-width: 100%;
-    padding: 0 !important;
-    margin: 0 !important;
+  /* Force ancestor chain visible — inline display:none on #tpApp/#tpResult must not blank print */
+  #main-content,
+  .travel-planner,
+  .travel-planner__main,
+  #tpApp,
+  #tpResult,
+  #tpVisaDocument,
+  #tpVisaDocument[data-print-only="true"],
+  #tpVisaDocument[data-print-ready="true"] {
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    position: static !important;
+    opacity: 1 !important;
   }
 
-  #tpResult {
-    display: block !important;
+  .travel-planner__main,
+  #tpApp {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
   }
 
   #tpResult > *:not(#tpVisaDocument) {
@@ -1159,8 +1186,14 @@
 
   .visa-itinerary-document {
     display: block !important;
+    visibility: visible !important;
     margin: 0;
     padding: 0;
+    width: 100% !important;
+  }
+
+  .visa-itinerary-document * {
+    visibility: visible !important;
   }
 
   .visa-header {

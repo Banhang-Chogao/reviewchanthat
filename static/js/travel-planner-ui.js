@@ -208,9 +208,18 @@
       this.renderPackingList(itinerary);
       this.renderRecommendations(itinerary, tripData);
 
-      // Render professional visa itinerary document (only when visa mode is active)
-      if (tripData.visaMode === 'visa' && window.VisaItineraryRenderer) {
+      // Always build the formal itinerary document so Print/PDF never goes blank.
+      // Normal mode: hide on screen (data-print-only). Visa mode: show on screen.
+      const visaDocument = document.getElementById('tpVisaDocument');
+      if (window.VisaItineraryRenderer) {
         window.VisaItineraryRenderer.renderDocument(itinerary, tripData);
+      }
+      if (visaDocument) {
+        if (tripData.visaMode === 'visa') {
+          visaDocument.removeAttribute('data-print-only');
+        } else {
+          visaDocument.setAttribute('data-print-only', 'true');
+        }
       }
 
       // Show result container

@@ -85,13 +85,23 @@
         this.clearForm();
       });
 
-      // Export buttons
+      // Export buttons — both PDF and Print use the same printable document
       document.getElementById('tpExportPDF').addEventListener('click', () => {
         this.exportPDF();
       });
 
       document.getElementById('tpExportPrint').addEventListener('click', () => {
-        window.print();
+        this.exportPDF();
+      });
+
+      window.addEventListener('beforeprint', () => {
+        this.ensurePrintableDocument();
+        document.body.classList.add('tp-printing');
+      });
+
+      window.addEventListener('afterprint', () => {
+        document.body.classList.remove('tp-printing');
+        this.restoreAfterPrint();
       });
 
       // History buttons
@@ -112,16 +122,11 @@
         }
       });
 
-      // Visa mode change
+      // Visa mode change — keep printable document in sync for both modes
       document.getElementById('tpVisaMode').addEventListener('change', (e) => {
-        if (e.target.value === 'visa' && this.currentTrip) {
-          if (window.VisaItineraryRenderer) {
-            window.VisaItineraryRenderer.renderDocument(
-              this.currentTrip.itinerary,
-              this.currentTrip
-            );
-          }
-        }
+        if (!this.currentTrip) return;
+        this.currentTrip.visaMode = e.target.value;
+        this.syncVisaDocumentVisibility();
       });
     }
 
@@ -256,8 +261,148 @@
     }
 
     exportPDF() {
+      if (!this.currentTrip) {
+        alert('Chưa có lịch trình để in. Vui lòng tạo lịch trình trước.');
+        return;
+      }
+      this.ensurePrintableDocument();
+      // Allow layout to paint print-only content before the browser snapshot
+      document.body.classList.add('tp-printing');
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          window.print();
+        });
+      });
+    }
+
+    /**
+     * Build (or refresh) the professional itinerary document used for Print/PDF.
+     * Same content for both "Bình thường" and "Tối ưu cho xin Visa".
+     */
+    ensurePrintableDocument() {
       if (!this.currentTrip) return;
-      window.print();
+
+      const visaDocument = document.getElementById('tpVisaDocument');
+      const app = document.getElementById('tpApp');
+      const result = document.getElementById('tpResult');
+      if (!visaDocument) return;
+
+      // Parents must not stay display:none during print
+      if (app) app.style.display = 'block';
+      if (result) result.style.display = 'block';
+
+      if (window.VisaItineraryRenderer) {
+        window.VisaItineraryRenderer.renderDocument(
+          this.currentTrip.itinerary,
+          this.currentTrip
+        );
+      } else {
+        // Fallback: print the on-screen summary/timeline if renderer is missing
+        this.renderFallbackPrintDocument(visaDocument);
+      }
+
+      // Keep screen UI clean in normal mode; @media print forces this visible.
+      // Never wipe innerHTML — empty DOM was the root cause of blank PDF pages.
+      visaDocument.setAttribute('data-print-ready', 'true');
+      if (this.currentTrip.visaMode === 'visa') {
+        visaDocument.removeAttribute('data-print-only');
+      } else {
+        visaDocument.setAttribute('data-print-only', 'true');
+      }
+    }
+
+    /**
+     * After print dialog closes, restore screen visibility rules.
+     * Content stays in DOM for the next print.
+     */
+    restoreAfterPrint() {
+      const visaDocument = document.getElementById('tpVisaDocument');
+      if (visaDocument) visaDocument.removeAttribute('data-print-ready');
+      this.syncVisaDocumentVisibility();
+    }
+
+    /**
+     * Visa mode: show formal document on screen.
+     * Normal mode: keep it in DOM for print, but hide on screen.
+     */
+    syncVisaDocumentVisibility() {
+      const visaDocument = document.getElementById('tpVisaDocument');
+      if (!visaDocument || !this.currentTrip) return;
+
+      const hasContent = !!visaDocument.querySelector('.visa-itinerary-document');
+      if (!hasContent && window.VisaItineraryRenderer) {
+        window.VisaItineraryRenderer.renderDocument(
+          this.currentTrip.itinerary,
+          this.currentTrip
+        );
+      }
+
+      if (this.currentTrip.visaMode === 'visa') {
+        visaDocument.removeAttribute('data-print-only');
+      } else {
+        visaDocument.setAttribute('data-print-only', 'true');
+      }
+    }
+
+    /** Minimal HTML print fallback when VisaItineraryRenderer is unavailable */
+    renderFallbackPrintDocument(container) {
+      const trip = this.currentTrip;
+      const itinerary = trip.itinerary || {};
+      const dest = trip.destinationData || {};
+      const city = dest.city || trip.destination || '';
+      const country = dest.country || '';
+      const days = itinerary.dailyItinerary || [];
+      const start = trip.departure ? new Date(trip.departure) : null;
+
+      const dayRows = days.map((day, idx) => {
+        const date = start ? new Date(start) : null;
+        if (date) date.setDate(date.getDate() + idx);
+        const dateStr = date
+          ? date.toLocaleDateString('vi-VN')
+          : `Day ${idx + 1}`;
+        return `<tr>
+          <td>${idx + 1}</td>
+          <td>${dateStr}</td>
+          <td>${day.morning || '-'}</td>
+          <td>${day.lunch || '-'}</td>
+          <td>${day.afternoon || '-'}</td>
+          <td>${day.dinner || '-'}</td>
+          <td>${day.notes || '-'}</td>
+        </tr>`;
+      }).join('');
+
+      container.innerHTML = `
+        <div class="visa-itinerary-document">
+          <div class="visa-header">
+            <h1>TRAVEL ITINERARY</h1>
+            <p>${city}${country ? ', ' + country : ''} · ${trip.departure || ''} → ${trip.returnDate || ''}</p>
+          </div>
+          <div class="visa-section">
+            <h2>Daily Itinerary</h2>
+            <div class="visa-table-wrapper">
+              <table class="visa-table visa-table--striped">
+                <thead>
+                  <tr>
+                    <th>Day</th><th>Date</th><th>Morning</th><th>Lunch</th>
+                    <th>Afternoon</th><th>Dinner</th><th>Notes</th>
+                  </tr>
+                </thead>
+                <tbody>${dayRows || '<tr><td colspan="7">No itinerary data</td></tr>'}</tbody>
+              </table>
+            </div>
+          </div>
+          <div class="visa-section">
+            <h2>Summary</h2>
+            <table class="visa-table">
+              <tbody>
+                <tr><td class="visa-table__label">Budget</td><td>${itinerary.estimatedBudget || trip.budget || '-'}</td></tr>
+                <tr><td class="visa-table__label">Hotel area</td><td>${itinerary.hotelArea || '-'}</td></tr>
+                <tr><td class="visa-table__label">Transport</td><td>${itinerary.transportation || '-'}</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      `;
     }
 
     duplicateTrip() {
