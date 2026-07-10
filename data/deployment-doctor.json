@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T21:41:08+07:00",
-  "generated_at_display": "10-07-2026 21:41:08",
+  "generated_at": "2026-07-10T21:59:21+07:00",
+  "generated_at_display": "10-07-2026 21:59:21",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -11,7 +11,7 @@
     "safe_autofixes_available": 14,
     "unsafe_external_failures": 0,
     "open_action_items": 6,
-    "loop_guarded_attempts": 76,
+    "loop_guarded_attempts": 77,
     "by_type": {
       "workflow_fanout": 11,
       "sitemap_noindex_mismatch": 2,
@@ -1005,6 +1005,12 @@
       "key": "b36080485f4c:workflow_fanout",
       "count": 2,
       "last_attempt_at": "2026-07-10T21:21:55+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "d1f6bba30881:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T21:59:21+07:00",
       "last_result": "skipped"
     }
   ],
