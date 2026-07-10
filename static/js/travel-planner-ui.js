@@ -195,31 +195,6 @@
       `;
     }
 
-    /**
-     * Render visa itinerary table
-     */
-    static renderVisaItinerary(itinerary) {
-      const visaSection = document.getElementById('tpVisaSection');
-      const visaTableBody = document.getElementById('tpVisaTableBody');
-
-      if (!visaSection || !visaTableBody) return;
-
-      const visaData = itinerary.visaItinerary || [];
-      if (visaData.length === 0) {
-        visaSection.style.display = 'none';
-        return;
-      }
-
-      visaTableBody.innerHTML = visaData.map(entry => `
-        <tr>
-          <td>${entry.date || 'TBD'}</td>
-          <td>${entry.activity || 'TBD'}</td>
-          <td>${entry.accommodation || 'TBD'}</td>
-        </tr>
-      `).join('');
-
-      visaSection.style.display = 'block';
-    }
 
     /**
      * Display all results
@@ -231,7 +206,11 @@
       this.renderInfoCards(itinerary);
       this.renderPackingList(itinerary);
       this.renderRecommendations(itinerary);
-      this.renderVisaItinerary(itinerary);
+
+      // Render professional visa itinerary document
+      if (window.VisaItineraryRenderer) {
+        window.VisaItineraryRenderer.renderDocument(itinerary, tripData);
+      }
 
       // Show result container
       document.getElementById('tpResult').style.display = 'block';
