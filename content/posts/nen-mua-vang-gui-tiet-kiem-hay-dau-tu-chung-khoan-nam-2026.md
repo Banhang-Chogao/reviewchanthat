@@ -4,9 +4,9 @@ date = 2026-07-09T20:00:00+07:00
 draft = false
 categories = ["tai-chinh"]
 author = "Minh Hoàng"
+description = "Tiền nhàn rỗi năm 2026 nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán phụ thuộc vào khẩu vị rủi ro, thời gian cần dùng tiền và khả năng chịu biến động của mỗi người."
 image = "images/posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.webp"
 +++
-description = "Tiền nhàn rỗi năm 2026 nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán phụ thuộc vào khẩu vị rủi ro, thời gian cần dùng tiền và khả năng chịu biến động của mỗi người."
 
 [ai_summary]
 enabled = true
@@ -18,6 +18,7 @@ items = [
   "Vàng có thể đóng vai trò phòng thủ và đa dạng hóa, nhưng giá có thể biến động mạnh và không tạo dòng tiền đều như lãi tiết kiệm.",
   "Chứng khoán có tiềm năng tăng trưởng dài hạn hơn, nhưng rủi ro giảm giá và sai thời điểm cao hơn nếu người đầu tư thiếu kiến thức.",
   "Cách bền vững thường không phải chọn 100% một kênh, mà là phân bổ theo mục tiêu: quỹ dự phòng, tiền ngắn hạn, tiền trung hạn và phần chấp nhận rủi ro."
+description = "Tiền nhàn rỗi năm 2026 nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán phụ thuộc vào khẩu vị rủi ro, thời gian cần dùng tiền và khả năng chịu biến động của mỗi người."
 ]
 +++
 
