@@ -41,9 +41,4 @@ private-data/
 data/private-income-insights*.json
 static/private-income-insights*.json
 *.income-insights.private.json
-
-# Private data — Expense Management
-data/private-expense-management*.json
-static/private-expense-management*.json
-*.expense-management.private.json
 .env.*
