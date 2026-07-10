@@ -70,3 +70,45 @@ title = "Tóm tắt nhanh"
 
 Fan-out làm nặng rate limit: [Workflow fan-out](/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress/).  
 Playbook: [Root cause playbook](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/).
+<!-- thin-expand:v1 -->
+
+## So sánh loại limit
+
+| Loại | Dấu hiệu | Có fix bằng code repo? |
+|------|----------|-------------------------|
+| Primary REST rate limit | 403 + Remaining 0 | Giảm gọi, cache, PAT hợp lý |
+| Secondary rate limit | 403/429 “secondary” | Backoff mạnh, bớt parallel |
+| Pages publish throttle | Publish fail dù build OK | Chờ cửa sổ; giảm spam deploy |
+| Runner queue (khác limit API) | Queued lâu, chưa checkout | Platform capacity |
+
+Nhầm secondary limit với “bug script” dẫn tới retry càng dày → càng bị khóa.
+
+## Cách giảm tải thực tế trên blog
+
+1. Gộp collect log Deployment Doctor thành **một** job.
+2. Cache `gh run list` trong step thay vì mỗi script tự gọi.
+3. Nightly bots staggered (không cùng phút).
+4. Tắt tạm bot không critical khi đang nóng rate limit.
+5. Sau publish: verify bằng `build-info.json`, không redeploy “cho chắc” 10 lần.
+
+## FAQ
+
+**Hỏi: Dùng PAT riêng có hết rate limit?**  
+Trả lời: Tăng trần theo account/app, **không** vô hạn. Vẫn cần backoff và giảm fan-out.
+
+**Hỏi: GraphQL có “rẻ” hơn REST?**  
+Trả lời: Có thể lấy nhiều field một request — tốt nếu thiết kế query gọn. Lạm dụng vẫn cháy quota.
+
+**Hỏi: Khi nào coi là unsafe autofix?**  
+Trả lời: Khi root cause là platform throttle — **không** sinh commit “sửa code” giả. Ghi Doctor knowledge: unsafe.
+
+**Hỏi: Liên hệ fan-out?**  
+Trả lời: Trực tiếp — xem [workflow fan-out](/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress/). Một merge 6 workflow × nhiều `gh api` = công thức 429.
+
+## Checklist khi log có 429
+
+1. Đọc header reset time.
+2. Dừng bot không cần.
+3. Backoff + jitter.
+4. Xác minh Pages bằng build-info sau khi hết cửa sổ.
+5. Chỉ bật lại fan-out khi Remaining ổn định.

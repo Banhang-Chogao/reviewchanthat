@@ -62,3 +62,43 @@ title = "Tóm tắt nhanh"
 Khi deploy job **xanh** nhưng Pages vẫn SHA cũ lâu: có thể publish step no-op, environment protection, hoặc platform lag. **Không** kết luận "code sai" vội — và **không** spam redeploy 20 lần (rate limit).
 
 Xem: [Runner/platform](/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code/), [Fan-out](/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress/), [Playbook](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/).
+<!-- thin-expand:v1 -->
+
+## So sánh các lớp “đã deploy”
+
+| Lớp | Ý nghĩa | Cách kiểm |
+|-----|---------|-----------|
+| Git `main` SHA | Code đã merge | `git rev-parse origin/main` |
+| Actions Deploy success | Workflow xong | Tab Actions |
+| Artifact upload | Bundle Hugo đã đóng gói | Step “Upload Pages artifact” |
+| Pages serving | CDN/host đang trả HTML | `/build-info.json` trên live |
+| Trình duyệt | Cache local | Soft refresh / ẩn danh |
+
+Job **xanh** chỉ chứng minh pipeline chạy xong — **chưa** chứng minh user đang xem đúng SHA.
+
+## Quy trình điều tra 10 phút
+
+1. Ghi SHA commit vừa merge.
+2. Mở `https://…/build-info.json` → so `sha`.
+3. Nếu khớp: feature “không thấy” có thể do CSS cache, feature flag, hoặc selector QA sai.
+4. Nếu lệch < 10 phút: chờ CDN; kiểm tra lại.
+5. Nếu lệch > 30 phút + deploy xanh: nghi publish no-op / environment protection / platform lag — **không** spam 20 lần redeploy.
+6. Xem [rate limit](/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai/) nếu bị 429 khi retry.
+
+## FAQ
+
+**Hỏi: build-info đúng SHA nhưng UI cũ?**  
+Trả lời: Hard refresh; so hash file CSS `main.min.<hash>.css`. Có thể partials HTML đúng nhưng asset cache.
+
+**Hỏi: Có nên force-push để “ép” Pages?**  
+Trả lời: Không. Force-push không thay cho chẩn đoán publish path và dễ làm rối history.
+
+**Hỏi: Autofix có giúp khi Pages serve artifact cũ?**  
+Trả lời: Thường **không** — đây là unsafe/platform. Autofix content không đổi cách Pages chọn artifact.
+
+**Hỏi: Làm sao chứng minh với team?**  
+Trả lời: Screenshot Actions SHA + JSON `build-info` + thời điểm UTC/VN. Deployment Doctor nên ghi pattern `github_pages_serving_old_artifact`.
+
+## Gợi ý vận hành
+
+Mỗi deploy ghi `build-info.json` (đã có trên blog). QA live chỉ cần so một field — rẻ hơn full visual regression khi nghi “deploy không lên”.

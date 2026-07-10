@@ -76,3 +76,43 @@ date: "2026-07-10 04:33:00+07:00"
 - CI chỉ fail date trên **file trong diff**, không quét 150 bài mỗi PR UI.
 
 Xem: [Playbook](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/), [Hugo YAML](/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression/).
+<!-- thin-expand:v1 -->
+
+## So sánh UTC vs Asia/Ho_Chi_Minh
+
+| Nguồn “now” | Ví dụ 10/07/2026 01:30 VN | Date stamp nếu lỡ UTC |
+|-------------|---------------------------|------------------------|
+| `datetime.utcnow()` | ~09/07 18:30 UTC | Dễ ra **09-07** nếu chỉ lấy date |
+| `now_vietnam()` (+07:00) | 10/07 01:30 +07 | **10-07** đúng lịch độc giả |
+| Date-only `2026-07-10` | Midnight UTC | Lệch sort homepage theo múi máy runner |
+
+Blog phục vụ độc giả Việt Nam: **mọi publish date phải quyết định theo GMT+7**, không theo múi của GitHub Actions (UTC).
+
+## Pattern generator / autobot
+
+- Gọi helper `scripts/lib/dates.py` (`now_vietnam`, `publish_datetime_iso`).
+- Không dùng `date.today()` trên runner.
+- Front matter lưu ISO có offset: `"2026-07-10T09:00:00+07:00"`.
+- Field hiển thị (nếu có) dạng `dd-mm-yyyy hh:mm:ss GMT +7`.
+- Pre-deploy: `python scripts/rule.py --fix` chuẩn hóa future/fake date.
+
+## FAQ
+
+**Hỏi: Date “hôm qua” nhưng vừa tạo bài?**  
+Trả lời: Thường do stamp UTC gần nửa đêm VN, hoặc date-only bị parse UTC. So file `date` với giờ máy VN và log CI.
+
+**Hỏi: Có cho phép future date?**  
+Trả lời: Không — coi là fake. Rule pre-deploy fail hoặc kéo về “now” VN khi `--fix`.
+
+**Hỏi: PR chỉ đổi CSS có bị fail date post cũ?**  
+Trả lời: Nên **scope QA theo diff**. Quét 150 bài mỗi PR UI tạo baseline debt chặn deploy không liên quan — xem [baseline debt](/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi/).
+
+**Hỏi: TOML vs YAML date?**  
+Trả lời: Cùng quy tắc offset. Blog chuẩn hóa TOML (`+++`) + ISO `+07:00` qua `rule.py`.
+
+## Checklist trước khi merge bài mới
+
+1. `date` / `lastmod` có `+07:00`?
+2. Không future hơn “now” VN quá tolerance nhỏ.
+3. Generator không hardcode UTC.
+4. CI date chỉ bắt file trong PR (trừ nightly full audit).

@@ -73,3 +73,40 @@ Trang `branding-ci`, admin, một số landing: `noindex: true` **và** `_build.
 Dùng `relLangURL` / `permalink` thay vì chuỗi `"/series/foo/"`. Hardcode phá cả local `localhost` lẫn project base path.
 
 Xem: [Live verify](/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact/), [Playbook](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/).
+<!-- thin-expand:v1 -->
+
+## So sánh: absolute path vs helper Hugo
+
+| Cách viết | Local `hugo server` | Project Pages `/reviewchanthat/` | Custom domain root |
+|-----------|---------------------|----------------------------------|--------------------|
+| `href="/css/main.css"` | Thường “may mắn” OK | **Gãy** (trỏ về `github.io/css/...`) | OK nếu site ở root |
+| `relURL` / `absURL` | OK | OK | OK |
+| Hardcode host full URL | Sai môi trường staging | Sai khi đổi domain | Khó migrate |
+
+Quy tắc thực tế trên blog này: **không hardcode** path bắt đầu bằng `/` trong template nếu path đó thuộc site (CSS, permalink series, link nội bộ). Ảnh trong markdown cũng nên qua partial/`relURL` thay vì host tuyệt đối.
+
+## Checklist QA trước merge
+
+1. Bật site project Pages (baseURL có subpath) trên preview nếu có.
+2. Mở DevTools → Network: CSS/JS 200, không 404 về root host.
+3. So sitemap: URL nào có `noindex` trong front matter thì **không** được nằm trong `sitemap.xml`.
+4. Trang series: click từ card series → URL vẫn giữ prefix `/reviewchanthat/`.
+5. So với [live deploy verify](/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact/) sau khi merge.
+
+## FAQ
+
+**Hỏi: Vì sao local không lỗi nhưng production gãy CSS?**  
+Trả lời: Local Hugo thường serve tại `/` hoặc port không có subpath. Production GitHub project Pages luôn có prefix repo name. Absolute path `/css/...` bỏ prefix → 404.
+
+**Hỏi: Có nên dùng `canonifyURLs = true`?**  
+Trả lời: Có thể giúp một số link, nhưng không thay cho việc viết template đúng (`relURL`). Blog này ưu tiên helper + QA thay vì dựa một flag “magic”.
+
+**Hỏi: Series hardcode `/series/foo/` sửa thế nào?**  
+Trả lời: Dùng `.Permalink`, `relLangURL`, hoặc `site.GetPage`. Mọi chuỗi path tĩnh trong layout đều là debt.
+
+**Hỏi: Sitemap vẫn còn trang admin?**  
+Trả lời: Kiểm tra `_build.list`, `noindex`, và script gen sitemap. Lệch hai nguồn sự thật → fail `sitemap_noindex_mismatch`.
+
+## Gợi ý vận hành
+
+Khi thêm layout mới (dashboard, doctor, admin), thêm test nhanh: “URL trong HTML có chứa base path không?” và “trang private có lọt sitemap không?”. Một lần quên hardcode series đủ để cả cụm link series vỡ trên production dù CI local xanh.

@@ -77,3 +77,44 @@ Hai lỗi này **không nên kích hoạt autofix code**. Không có diff nào t
 Xem taxonomy full: [CI/CD Root Cause Playbook](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/).
 
 Khi runner đã start mà fail ở Hugo/YAML → chuyển sang [Hugo build & YAML](/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression/).
+<!-- thin-expand:v1 -->
+
+## So sánh queued vs failed step
+
+| Triệu chứng | Job đã start? | Hướng xử lý |
+|-------------|---------------|-------------|
+| Waiting for runner 40 phút | Chưa | Platform capacity — chờ/status |
+| Fail tại step test sau 2 phút | Rồi | Đọc log — có thể bug code |
+| Mọi repo đều queue | Chưa | Incident rộng |
+| Chỉ 1 workflow queue | Chưa | Có thể concurrency group no-op / label runner |
+
+**Không** có patch trong `content/` hay `layouts/` sửa được việc GitHub hết runner.
+
+## Việc nên / không nên
+
+**Nên:** đọc [GitHub Status](https://www.githubstatus.com/); hủy run kẹt; bật concurrency hợp lý; retry sau khi status xanh; ghi Doctor *unsafe*.
+
+**Không nên:** push commit rỗng “để kích”; autofix front matter; force-push; spam `workflow_dispatch` 20 lần (dễ dính rate limit).
+
+## FAQ
+
+**Hỏi: Làm sao phân biệt runner delay và script hang?**  
+Trả lời: Script hang thường đã qua Checkout/Setup, log có timestamp step. Runner delay: chưa có step nào chạy.
+
+**Hỏi: Self-hosted runner có phải lời giải?**  
+Trả lời: Có thể cho team lớn; với blog cá nhân/gh-pages tradeoff vận hành cao. Ưu tiên giảm fan-out trước.
+
+**Hỏi: Incident 9/7/2026 học được gì?**  
+Trả lời: Document trong series CI — verify bằng status + build-info, không đổ lỗi content random.
+
+**Hỏi: Doctor có được mở PR “fix delay”?**  
+Trả lời: Không. Pattern unsafe: chỉ quan sát, alert, có thể tạm disable bot gây queue.
+
+## Checklist khi queue bất thường
+
+1. Mở githubstatus.com  
+2. Xem job đã có step chưa  
+3. So multi-repo  
+4. Không commit rỗng  
+5. Giảm fan-out nếu đang bão  
+6. Retry có kiểm soát sau recovery  

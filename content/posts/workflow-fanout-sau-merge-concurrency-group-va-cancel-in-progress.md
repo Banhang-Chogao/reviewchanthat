@@ -82,3 +82,50 @@ concurrency:
 - [ ] Có giới hạn `max-parallel` cho matrix?
 
 Đọc tiếp: [Playbook](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/), [Rate limit](/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai/).
+<!-- thin-expand:v1 -->
+
+## So sánh concurrency strategies
+
+| Workflow | `cancel-in-progress` | Lý do |
+|----------|----------------------|-------|
+| Deploy Pages | `false` | Không hủy giữa chừng — tránh artifact dở |
+| Content Direction / report | `true` | Job mới thay job cũ, tiết kiệm runner |
+| Autofix on fail | group riêng | Tránh đè deploy đang chạy |
+| Nightly bots | group theo bot | Song song có kiểm soát, không fan-out từ mọi push |
+
+## Anti-patterns đã gặp
+
+1. **Autofix commit rỗng** → push → deploy → fail → autofix… (vòng lặp).
+2. **Content Direction trên mọi push data/** → queue dài, report “chạy trước live”.
+3. **Năm workflow cùng `gh api`** sau một merge → rate limit.
+4. **Không `paths-ignore`** cho `reports/**` khiến bot tự kích deploy.
+
+## Pattern khuyến nghị (tóm tắt vận hành)
+
+- Deploy: concurrency group `pages`, không cancel.
+- Report: cancel-in-progress true.
+- `paths-ignore` bot-only outputs.
+- Thứ tự: **Deploy xong → Content Direction**.
+- Autofix chỉ commit khi `git diff` thật sự có fix (đã wire `rule.py --fix`).
+
+## FAQ
+
+**Hỏi: cancel-in-progress trên deploy có lợi không?**  
+Trả lời: Đôi khi giảm queue, nhưng rủi ro artifact dở cao. Blog này ưu tiên deploy ổn định hơn tốc độ cancel.
+
+**Hỏi: Làm sao biết đang fan-out?**  
+Trả lời: Một push `main` mở 4–6 workflow cùng lúc (deploy, doctor, autofix, direction…). Đếm trên tab Actions.
+
+**Hỏi: PR có cần cùng concurrency?**  
+Trả lời: PR check group riêng; đừng dùng group `pages` cho PR kẻo hủy nhầm deploy production.
+
+**Hỏi: Fan-out có liên quan runner delay?**  
+Trả lời: Có — càng nhiều job càng dễ `runner_capacity_delay`. Xem [runner/platform](/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code/).
+
+## Checklist PR đụng workflow
+
+- [ ] Có concurrency group rõ tên
+- [ ] `cancel-in-progress` đúng loại job
+- [ ] `paths-ignore` cho output bot
+- [ ] Không trigger deploy từ commit data-only nếu không cần
+- [ ] Autofix không commit khi không đổi file

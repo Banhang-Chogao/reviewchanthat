@@ -72,3 +72,52 @@ Kết quả: **UI xanh không lên live** dù diff không liên quan content.
 Khi product gỡ footer AdSense/macro cũ, QA vẫn assert selector → fail. Fix: cập nhật test cho khớp product, không "thêm lại UI chỉ để test xanh".
 
 Xem thêm: [Playbook](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/), [Image pipeline](/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url/).
+<!-- thin-expand:v1 -->
+
+## So sánh full-site QA vs scoped QA
+
+| Chế độ | Ưu | Nhược | Dùng khi |
+|--------|----|-------|----------|
+| Full-site | Bắt hết debt | Chặn PR không liên quan | Nightly / audit |
+| Diff-scoped | Ship feature nhanh | Có thể sót debt cũ | PR tính năng/UI |
+| Hybrid | Gate cứng full + debt report | Cần thiết kế pipeline | Production blog này |
+
+Rule trong AGENTS: **deploy tính năng mới → QA chỉ bắt tính năng đó**.
+
+## Case: branding/CSS bị chặn
+
+Diff chỉ `main.css` nhưng CI fail vì:
+
+- Post cũ duplicate description  
+- AI summary hỏng  
+- Ảnh thiếu từ tuần trước  
+
+→ UI không lên live. Đúng hướng: tách **gate cứng** (Hugo build, critical path) khỏi **debt report** (full image audit).
+
+## Cách cấu hình gợi ý
+
+1. `git diff --name-only` → danh sách file → QA map theo loại (content / layout / workflow).
+2. Content QA chỉ trên `content/posts/*` trong diff.
+3. Full audit: schedule riêng, mở issue, không `exit 1` trên PR CSS.
+4. Baseline debt: ticket + autofix riêng (`rule.py`, image batch), không gánh PR màu footer.
+
+## FAQ
+
+**Hỏi: Scoped QA có che giấu lỗi production?**  
+Trả lời: Có rủi ro nếu không có nightly. Hybrid: PR scope + nightly full + alert.
+
+**Hỏi: Nợ ảnh 10 bài thin có được fail PR docs?**  
+Trả lời: Không trên PR không đụng 10 bài đó. Nightly/content-direction action P0 theo dõi riêng.
+
+**Hỏi: `continue-on-error` có phải giải pháp?**  
+Trả lời: Chỉ cho debt đã phân loại. Không cho Hugo assemble error hay test critical.
+
+**Hỏi: Ai quyết safe/unsafe?**  
+Trả lời: Deployment Doctor knowledge + playbook. Baseline debt blocking = unsafe cho “sửa bằng commit rỗng”; safe direction là sửa scope QA.
+
+## Checklist PR feature
+
+- [ ] QA list file từ diff  
+- [ ] Không bật full image audit fail-on-error  
+- [ ] Hugo build vẫn hard-fail  
+- [ ] Debt cũ có issue, không block  

@@ -81,3 +81,44 @@ Bảng wide trong article: bọc container scroll, giới hạn width token CSS 
 Job cancel giữa chừng (fan-out) hoặc fail step sớm. Xem concurrency + log step đỏ — đừng mark "fixed" khi chưa có artifact Pages mới.
 
 Liên hệ: [QA scope](/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi/), [Content Direction](/posts/content-direction-empty-report-va-optimizer-frontmatter/), [Playbook](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/).
+<!-- thin-expand:v1 -->
+
+## So sánh lớp lỗi build
+
+| Lỗi | Giai đoạn | Safe autofix? |
+|-----|-----------|---------------|
+| Duplicate YAML/TOML key | Assemble | Có — dedupe |
+| `ai_summary` map/string | Render template | Có — normalize |
+| Partial nil pointer | Render | Thường **không** đoán — đọc stack |
+| Minify/assets | Post-render | Tùy |
+| Deploy not completed | Actions | Unsafe nếu platform |
+
+Nguyên tắc: **đọc log Hugo**, không đoán “chắc do cache”.
+
+## Case study ngắn
+
+1. **Duplicate `description`:** script SEO append dòng mới thay vì replace → assemble die. Fix: một key duy nhất.
+2. **`range` ai_summary:** items thành JSON string → normalize list string.
+3. **Partial AI summary đổi cấu trúc:** thiếu `with`/`default` → nil. Fix template + fixture.
+4. **Bảng quá rộng:** UX safe fix CSS scroll; không phải build-breaker nhưng Doctor có thể gắn `table_layout_ux_regression`.
+
+## FAQ
+
+**Hỏi: Local `hugo` xanh, CI đỏ?**  
+Trả lời: Khác version Hugo extended, khác env `GA_MEASUREMENT_ID`, hoặc CI có step normalize trước build. So version trong workflow.
+
+**Hỏi: TOML có duplicate key không?**  
+Trả lời: Parser khác YAML; vẫn tránh hai `draft =` / field lặp. `rule.py` dump lại front matter giúp canonical.
+
+**Hỏi: Có nên `continue-on-error` trên Hugo build?**  
+Trả lời: **Không.** Build fail = không publish. Debt khác (image audit full site) mới tách report.
+
+**Hỏi: Liên quan Content Direction optimizer?**  
+Trả lời: Optimizer ghi front matter hỏng → build/render fail. Dry-run + normalize trước batch.
+
+## Checklist sau khi đụng template
+
+1. `hugo --minify` local cùng version CI.
+2. Mở 1 trang post + homepage + series.
+3. Trang có `ai_summary` và trang không có.
+4. Không introduce absolute path gãy baseURL.

@@ -66,3 +66,37 @@ title = "Tóm tắt nhanh"
 **Fix:** parse → validate → write; dry-run trên 1 file; không batch 100 file khi parser đang gãy.
 
 Liên hệ: [YAML/Hugo](/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression/), [Playbook](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/).
+<!-- thin-expand:v1 -->
+
+## So sánh empty report vs optimizer fail
+
+| Hiện tượng | Nguyên nhân hay gặp | Safe fix? |
+|------------|---------------------|-----------|
+| Dashboard trống | JSON chưa generate / sai path template | Có — path & order job |
+| Report JSON `{}` | Script crash sớm / exception nuốt | Có — đọc log, sửa script |
+| Optimizer fail 1 file | Front matter vỡ (duplicate key, quote) | Có — sửa file đó |
+| Metadata SEO fail hàng loạt | Autobot write không round-trip | Có — dry-run + normalize |
+
+Empty UI **không** luôn nghĩa là “không có bài”. Hay gặp hơn: data không được copy vào `data/` trước Hugo, hoặc partial đọc key cũ sau khi schema đổi.
+
+## Checklist khôi phục dashboard
+
+1. Chạy local: `python scripts/content_direction.py` → có file JSON/MD trong `data/` và `reports/`.
+2. So key template với schema hiện tại (`total_posts`, nested paths…).
+3. Workflow: generate **trước** `hugo`, hoặc commit data nếu site đọc từ git.
+4. Tránh race: Content Direction **sau** deploy live (rule vận hành).
+5. `paths-ignore` bot data: đừng để bot tự trigger deploy loop — xem [fan-out](/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress/).
+
+## FAQ
+
+**Hỏi: Optimizer có được tự merge khi fail một bài?**  
+Trả lời: Không batch “cứ chạy tiếp” che lỗi parse. Fail fast trên file lỗi; sửa front matter rồi chạy lại.
+
+**Hỏi: Có liên quan thin posts?**  
+Trả lời: Có gián tiếp — Content Direction đo word count và action “Mở rộng thin posts”. Report rỗng thì action P0 cũng biến mất khỏi dashboard dù debt vẫn còn.
+
+**Hỏi: Sửa front matter tay hay script?**  
+Trả lời: Script khi pattern rõ (duplicate key, AI summary map). Tay khi nội dung SEO cần biên tập. Luôn `rule.py`/normalize sau.
+
+**Hỏi: Làm sao tránh tái phát?**  
+Trả lời: Fixture test 1 post YAML/TOML tối thiểu trong CI; dry-run optimizer trên PR chỉ đụng content.
