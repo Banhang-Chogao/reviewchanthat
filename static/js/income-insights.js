@@ -181,6 +181,26 @@
     var attemptCount = 0;
     var lastAttempt = 0;
 
+    // Gắn listener cho Reset button ngay lập tức (trước early return)
+    lockBtn.addEventListener('click', function() {
+      var code = prompt('Nhập mã truy cập để RESET toàn bộ dữ liệu?\nHành động này xoá tất cả giao dịch và không thể hoàn tác.');
+      if (!code) return;
+      sha256(code).then(function(hash) {
+        if (hash !== ACCESS_HASH) {
+          alert('Mã truy cập không đúng. Không thể reset.');
+          return;
+        }
+        if (!confirm('Xác nhận RESET toàn bộ dữ liệu? Tất cả giao dịch sẽ bị xoá vĩnh viễn.')) return;
+        pushUndo();
+        state.transactions = [];
+        clearDB()['catch'](function(e) { console.warn('Clear DB error:', e); });
+        applyFilters();
+        renderAll();
+        scheduleAutosave();
+        alert('Đã reset toàn bộ dữ liệu. Bạn có thể bắt đầu nhập lại từ đầu.');
+      });
+    });
+
     if (sessionStorage.getItem(SESSION_KEY) === '1') {
       gate.style.display = 'none';
       app.style.display = '';
@@ -232,24 +252,6 @@
     });
     input.focus();
 
-    lockBtn.addEventListener('click', function() {
-      var code = prompt('Nhập mã truy cập để RESET toàn bộ dữ liệu?\nHành động này xoá tất cả giao dịch và không thể hoàn tác.');
-      if (!code) return;
-      sha256(code).then(function(hash) {
-        if (hash !== ACCESS_HASH) {
-          alert('Mã truy cập không đúng. Không thể reset.');
-          return;
-        }
-        if (!confirm('Xác nhận RESET toàn bộ dữ liệu? Tất cả giao dịch sẽ bị xoá vĩnh viễn.')) return;
-        pushUndo();
-        state.transactions = [];
-        clearDB()['catch'](function(e) { console.warn('Clear DB error:', e); });
-        applyFilters();
-        renderAll();
-        scheduleAutosave();
-        alert('Đã reset toàn bộ dữ liệu. Bạn có thể bắt đầu nhập lại từ đầu.');
-      });
-    });
   }
 
   /* ─── After Unlock ───────────────────────────────────── */
