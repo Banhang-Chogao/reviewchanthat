@@ -9,14 +9,53 @@
     minChars: 2,
     apiBaseUrl: '/api/destination/search',
     fallbackCities: {
-      'ICN': { city: 'Incheon', country: 'South Korea', iata: 'ICN', timezone: 'Asia/Seoul', flag: '🇰🇷' },
+      'ICN': { city: 'Seoul', country: 'South Korea', iata: 'ICN', timezone: 'Asia/Seoul', flag: '🇰🇷' },
       'NRT': { city: 'Tokyo', country: 'Japan', iata: 'NRT', timezone: 'Asia/Tokyo', flag: '🇯🇵' },
+      'HND': { city: 'Tokyo Haneda', country: 'Japan', iata: 'HND', timezone: 'Asia/Tokyo', flag: '🇯🇵' },
+      'KIX': { city: 'Osaka', country: 'Japan', iata: 'KIX', timezone: 'Asia/Tokyo', flag: '🇯🇵' },
       'BKK': { city: 'Bangkok', country: 'Thailand', iata: 'BKK', timezone: 'Asia/Bangkok', flag: '🇹🇭' },
+      'CNX': { city: 'Chiang Mai', country: 'Thailand', iata: 'CNX', timezone: 'Asia/Bangkok', flag: '🇹🇭' },
       'SGN': { city: 'Ho Chi Minh City', country: 'Vietnam', iata: 'SGN', timezone: 'Asia/Ho_Chi_Minh', flag: '🇻🇳' },
       'HAN': { city: 'Hanoi', country: 'Vietnam', iata: 'HAN', timezone: 'Asia/Ho_Chi_Minh', flag: '🇻🇳' },
+      'DAD': { city: 'Da Nang', country: 'Vietnam', iata: 'DAD', timezone: 'Asia/Ho_Chi_Minh', flag: '🇻🇳' },
       'CDG': { city: 'Paris', country: 'France', iata: 'CDG', timezone: 'Europe/Paris', flag: '🇫🇷' },
+      'LHR': { city: 'London', country: 'United Kingdom', iata: 'LHR', timezone: 'Europe/London', flag: '🇬🇧' },
+      'FCO': { city: 'Rome', country: 'Italy', iata: 'FCO', timezone: 'Europe/Rome', flag: '🇮🇹' },
+      'BCN': { city: 'Barcelona', country: 'Spain', iata: 'BCN', timezone: 'Europe/Madrid', flag: '🇪🇸' },
+      'MUC': { city: 'Munich', country: 'Germany', iata: 'MUC', timezone: 'Europe/Berlin', flag: '🇩🇪' },
+      'AMS': { city: 'Amsterdam', country: 'Netherlands', iata: 'AMS', timezone: 'Europe/Amsterdam', flag: '🇳🇱' },
       'DXB': { city: 'Dubai', country: 'UAE', iata: 'DXB', timezone: 'Asia/Dubai', flag: '🇦🇪' },
-      'SIN': { city: 'Singapore', country: 'Singapore', iata: 'SIN', timezone: 'Asia/Singapore', flag: '🇸🇬' }
+      'AUH': { city: 'Abu Dhabi', country: 'UAE', iata: 'AUH', timezone: 'Asia/Dubai', flag: '🇦🇪' },
+      'SIN': { city: 'Singapore', country: 'Singapore', iata: 'SIN', timezone: 'Asia/Singapore', flag: '🇸🇬' },
+      'KUL': { city: 'Kuala Lumpur', country: 'Malaysia', iata: 'KUL', timezone: 'Asia/Kuala_Lumpur', flag: '🇲🇾' },
+      'MNL': { city: 'Manila', country: 'Philippines', iata: 'MNL', timezone: 'Asia/Manila', flag: '🇵🇭' },
+      'CGK': { city: 'Jakarta', country: 'Indonesia', iata: 'CGK', timezone: 'Asia/Jakarta', flag: '🇮🇩' },
+      'DPS': { city: 'Bali', country: 'Indonesia', iata: 'DPS', timezone: 'Asia/Makassar', flag: '🇮🇩' },
+      'PVG': { city: 'Shanghai', country: 'China', iata: 'PVG', timezone: 'Asia/Shanghai', flag: '🇨🇳' },
+      'PEK': { city: 'Beijing', country: 'China', iata: 'PEK', timezone: 'Asia/Shanghai', flag: '🇨🇳' },
+      'HKG': { city: 'Hong Kong', country: 'China', iata: 'HKG', timezone: 'Asia/Hong_Kong', flag: '🇭🇰' },
+      'TPE': { city: 'Taipei', country: 'Taiwan', iata: 'TPE', timezone: 'Asia/Taipei', flag: '🇹🇼' },
+      'SYD': { city: 'Sydney', country: 'Australia', iata: 'SYD', timezone: 'Australia/Sydney', flag: '🇦🇺' },
+      'MEL': { city: 'Melbourne', country: 'Australia', iata: 'MEL', timezone: 'Australia/Melbourne', flag: '🇦🇺' },
+      'JFK': { city: 'New York', country: 'United States', iata: 'JFK', timezone: 'America/New_York', flag: '🇺🇸' },
+      'LAX': { city: 'Los Angeles', country: 'United States', iata: 'LAX', timezone: 'America/Los_Angeles', flag: '🇺🇸' },
+      'SFO': { city: 'San Francisco', country: 'United States', iata: 'SFO', timezone: 'America/Los_Angeles', flag: '🇺🇸' },
+      'ORD': { city: 'Chicago', country: 'United States', iata: 'ORD', timezone: 'America/Chicago', flag: '🇺🇸' },
+      'DEL': { city: 'Delhi', country: 'India', iata: 'DEL', timezone: 'Asia/Kolkata', flag: '🇮🇳' },
+      'BOM': { city: 'Mumbai', country: 'India', iata: 'BOM', timezone: 'Asia/Kolkata', flag: '🇮🇳' },
+      'IST': { city: 'Istanbul', country: 'Turkey', iata: 'IST', timezone: 'Europe/Istanbul', flag: '🇹🇷' },
+      'ZRH': { city: 'Zurich', country: 'Switzerland', iata: 'ZRH', timezone: 'Europe/Zurich', flag: '🇨🇭' },
+      'CPH': { city: 'Copenhagen', country: 'Denmark', iata: 'CPH', timezone: 'Europe/Copenhagen', flag: '🇩🇰' },
+      'ARN': { city: 'Stockholm', country: 'Sweden', iata: 'ARN', timezone: 'Europe/Stockholm', flag: '🇸🇪' },
+      'MAD': { city: 'Madrid', country: 'Spain', iata: 'MAD', timezone: 'Europe/Madrid', flag: '🇪🇸' },
+      'LIS': { city: 'Lisbon', country: 'Portugal', iata: 'LIS', timezone: 'Europe/Lisbon', flag: '🇵🇹' },
+      'VIE': { city: 'Vienna', country: 'Austria', iata: 'VIE', timezone: 'Europe/Vienna', flag: '🇦🇹' },
+      'FRA': { city: 'Frankfurt', country: 'Germany', iata: 'FRA', timezone: 'Europe/Berlin', flag: '🇩🇪' },
+      'BER': { city: 'Berlin', country: 'Germany', iata: 'BER', timezone: 'Europe/Berlin', flag: '🇩🇪' },
+      'PRG': { city: 'Prague', country: 'Czech Republic', iata: 'PRG', timezone: 'Europe/Prague', flag: '🇨🇿' },
+      'BUD': { city: 'Budapest', country: 'Hungary', iata: 'BUD', timezone: 'Europe/Budapest', flag: '🇭🇺' },
+      'ATH': { city: 'Athens', country: 'Greece', iata: 'ATH', timezone: 'Europe/Athens', flag: '🇬🇷' },
+      'HEL': { city: 'Helsinki', country: 'Finland', iata: 'HEL', timezone: 'Europe/Helsinki', flag: '🇫🇮' }
     }
   };
 
@@ -136,7 +175,14 @@
         'South Korea': '🇰🇷', 'Japan': '🇯🇵', 'Thailand': '🇹🇭',
         'Vietnam': '🇻🇳', 'Singapore': '🇸🇬', 'France': '🇫🇷',
         'UAE': '🇦🇪', 'United Kingdom': '🇬🇧', 'China': '🇨🇳',
-        'India': '🇮🇳', 'Australia': '🇦🇺', 'United States': '🇺🇸'
+        'India': '🇮🇳', 'Australia': '🇦🇺', 'United States': '🇺🇸',
+        'Malaysia': '🇲🇾', 'Philippines': '🇵🇭', 'Indonesia': '🇮🇩',
+        'Taiwan': '🇹🇼', 'Hong Kong': '🇭🇰', 'Turkey': '🇹🇷',
+        'Switzerland': '🇨🇭', 'Denmark': '🇩🇰', 'Sweden': '🇸🇪',
+        'Italy': '🇮🇹', 'Spain': '🇪🇸', 'Germany': '🇩🇪',
+        'Netherlands': '🇳🇱', 'Portugal': '🇵🇹', 'Austria': '🇦🇹',
+        'Czech Republic': '🇨🇿', 'Hungary': '🇭🇺', 'Greece': '🇬🇷',
+        'Finland': '🇫🇮'
       };
       return flagMap[country] || '🌍';
     }
@@ -157,15 +203,14 @@
       this.abortController = new AbortController();
 
       try {
-        // Try Aviationstack API directly (CORS)
-        const aviationResults = await this.searchAviationstack(query);
-        if (aviationResults && aviationResults.length > 0) {
-          // Cache results
+        // Call aviationstack API directly
+        const apiResults = await this.searchAviationstack(query);
+        if (apiResults && apiResults.length > 0) {
           this.searchCache.set(query, {
-            results: aviationResults,
+            results: apiResults,
             timestamp: Date.now()
           });
-          this.displayResults(aviationResults, query);
+          this.displayResults(apiResults, query);
           return;
         }
       } catch (error) {
@@ -173,7 +218,7 @@
         console.warn('Aviationstack API failed:', error);
       }
 
-      // Fallback to local cache
+      // Fallback to local city cache
       this.showFallbackResults(query);
     }
 
@@ -182,7 +227,6 @@
       const API_URL = 'https://api.aviationstack.com/v1';
 
       try {
-        // Try cities endpoint
         let response = await fetch(
           `${API_URL}/cities?access_key=${API_KEY}&search=${encodeURIComponent(query)}&limit=10`,
           { signal: this.abortController.signal }
@@ -228,6 +272,7 @@
         return [];
       } catch (error) {
         throw error;
+      }
     }
 
     showFallbackResults(query) {
@@ -328,6 +373,7 @@
       this.selectedBadge.style.display = 'none';
       this.closeDropdown();
       localStorage.removeItem('travelPlannerDestination');
+      window.dispatchEvent(new CustomEvent('destinationSelected', { detail: null }));
     }
 
     showSkeleton() {

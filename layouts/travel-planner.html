@@ -1,12 +1,12 @@
 {{ define "main" }}
 <div class="travel-planner">
-  <!-- Version Badge -->
-  <div class="travel-planner__version" id="tpVersionBadge">Phiên bản dịch vụ: {{ .Site.Data.version.version_date }}-{{ .Site.Data.version.commit_short }}</div>
-
   <!-- Hero Section -->
   <div class="travel-planner__hero">
     <div class="travel-planner__hero-content container">
-      <h1 class="travel-planner__hero-title">AI Travel Planner</h1>
+      <div class="travel-planner__hero-title-row">
+        <h1 class="travel-planner__hero-title">AI Travel Planner</h1>
+        <div class="travel-planner__version" id="tpVersionBadge">Phiên bản dịch vụ: {{ .Site.Data.version.version_date }}-{{ .Site.Data.version.commit_short }}</div>
+      </div>
       <p class="travel-planner__hero-subtitle">Lập kế hoạch chuyến đi chuyên nghiệp với AI. Phù hợp để nộp hồ sơ xin visa.</p>
     </div>
   </div>
@@ -28,9 +28,24 @@
               autocomplete="off"
               aria-label="Tìm kiếm điểm đến">
             <div class="travel-planner__destination-selected" id="tpDestinationSelected" style="display:none">
-              <span id="tpDestinationBadge"></span>
+              <div class="travel-planner__destination-badge" id="tpDestinationBadge">
+                <span id="tpDestinationFlag"></span>
+                <span id="tpDestinationName"></span>
+                <span id="tpDestinationCode"></span>
+                <button type="button" class="travel-planner__destination-clear" id="tpDestinationClear" aria-label="Xoá điểm đến">&times;</button>
+              </div>
             </div>
             <div class="travel-planner__search-dropdown" id="tpDestinationList" style="display:none"></div>
+            <div class="travel-planner__search-skeleton" id="tpSearchSkeleton" style="display:none">
+              <div class="travel-planner__skeleton-item"></div>
+              <div class="travel-planner__skeleton-item"></div>
+              <div class="travel-planner__skeleton-item"></div>
+            </div>
+            <div class="travel-planner__search-empty" id="tpSearchEmpty" style="display:none">Không tìm thấy điểm đến phù hợp.</div>
+            <div class="travel-planner__search-error" id="tpSearchError" style="display:none">
+              <span id="tpSearchErrorText">Có lỗi xảy ra.</span>
+              <button type="button" class="travel-planner__search-retry" id="tpSearchRetry">Thử lại</button>
+            </div>
           </div>
         </div>
 

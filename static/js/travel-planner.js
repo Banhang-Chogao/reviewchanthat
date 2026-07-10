@@ -12,9 +12,8 @@
     'HAN': { city: 'Hanoi', country: 'Vietnam', airport: 'Noi Bai International Airport' },
     'CDG': { city: 'Paris', country: 'France', airport: 'Charles de Gaulle Airport' },
     'DXB': { city: 'Dubai', country: 'UAE', airport: 'Dubai International Airport' },
-    'LHR': { city: 'London', country: 'UK', airport: 'Heathrow Airport' },
-    'NRT': { city: 'Tokyo', country: 'Japan', airport: 'Narita International Airport' }
-  };
+      'LHR': { city: 'London', country: 'UK', airport: 'Heathrow Airport' }
+    };
 
   const CITY_ALIASES = {
     'seoul': 'ICN',
@@ -437,15 +436,15 @@
     }
 
     clearForm() {
-      document.getElementById('tpDestination').value = '';
+      if (window.DestinationSearch) {
+        window.DestinationSearch.clearSelection();
+      }
       document.getElementById('tpDeparture').value = '';
       document.getElementById('tpReturn').value = '';
       document.getElementById('tpAdults').value = '1';
       document.getElementById('tpChildren').value = '0';
       document.getElementById('tpVisaMode').value = 'none';
-      document.getElementById('tpDestinationInfo').style.display = 'none';
       document.getElementById('tpAdvancedFields').style.display = 'none';
-      document.querySelector('.travel-planner__toggle-icon').classList.remove('rotated');
       document.getElementById('tpError').style.display = 'none';
     }
 
