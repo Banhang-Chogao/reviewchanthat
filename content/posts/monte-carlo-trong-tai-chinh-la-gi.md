@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản"
 description = "Monte Carlo simulation là gì? Học Brownian motion, random sampling, pricing exotic options, VaR calculation, portfolio simulation, và variance reduction techniques."
 date = "2026-07-11T00:45:00+07:00"

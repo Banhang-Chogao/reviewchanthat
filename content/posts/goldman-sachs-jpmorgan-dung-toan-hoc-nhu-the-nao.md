@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
 description = "Goldman Sachs, JPMorgan dùng toán học gì? Học algorithmic trading, derivatives pricing, volatility smile, Greeks (delta, gamma, vega), stochastic models, machine learning."
 date = "2026-07-10T13:16:14+07:00"

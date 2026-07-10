@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
 description = "BlackRock ($10 triliệu quản lý) dùng toán học nào? Học factor models, machine learning, ESG scoring, risk management, Aladdin platform, optimization algorithms."
 date = "2026-07-10T13:16:14+07:00"

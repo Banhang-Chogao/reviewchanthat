@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
 description = "Black-Scholes là công thức định giá option nổi tiếng. Học C = S×Φ(d1) - K×e^(-rT)×Φ(d2), Greeks, implied volatility, và ứng dụng thực tế."
 date = "2026-07-10T13:16:14+07:00"

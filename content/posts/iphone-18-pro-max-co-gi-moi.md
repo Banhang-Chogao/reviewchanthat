@@ -29,7 +29,6 @@ image_attribution_source: pexels_api
 image_attribution_verified: true
 image_creator_id: 716707736
 image_license_url: "https://www.pexels.com/license/"
-image_reject_reason: No candidate passed semantic/color/object gate
 image_status: "verified"
 series: iphone-18-co-gi-moi
 series_order: 3

@@ -551,6 +551,7 @@ class ComplianceChecker:
         provider = normalized(meta.get("image_provider"))
         is_self_gen = provider == "self-generated" or normalized(meta.get("image_owner")) == "self"
 
+        FALLBACK_MARKERS = ("fallback", "placeholder", "default", "generated", "navy")
         for field_name, value in (("image", image), ("thumbnail", thumbnail)):
             if not value:
                 continue
@@ -559,12 +560,15 @@ class ComplianceChecker:
             low = value.lower()
             if any(marker in low for marker in FALLBACK_MARKERS):
                 self.add_issue("ERROR", "FALLBACK_IMAGE", rel, f"{field_name} looks like fallback/placeholder: {value}")
-            if not value.startswith("http"):
-                local = os.path.join(ROOT, "static", value)
-                if not os.path.exists(local):
-                    self.add_issue("ERROR", "IMAGE_FILE_MISSING", rel, f"Local image not found: {value}")
-                elif os.path.getsize(local) < 5000:
-                    self.add_issue("ERROR", "IMAGE_TOO_SMALL", rel, f"Image file suspiciously small: {value}")
+
+        # Hard failure: if image/thumbnail points to a real local path, file must exist
+        for field, val in [("image", image), ("thumbnail", thumbnail)]:
+            if val and not val.startswith("http") and not val.startswith("/") and val not in FALLBACK_MARKERS:
+                local_path = os.path.join(ROOT, "static", val)
+                if not os.path.exists(local_path):
+                    self.add_issue("ERROR", "IMAGE_FILE_MISSING", rel, f"Local image not found: {val}")
+                elif os.path.getsize(local_path) < 5000:
+                    self.add_issue("ERROR", "IMAGE_TOO_SMALL", rel, f"Image file suspiciously small: {val}")
 
         if image and image != expected:
             self.add_issue("WARN", "IMAGE_PATH_MISMATCH", rel, f"Expected image path {expected}, got {image}")

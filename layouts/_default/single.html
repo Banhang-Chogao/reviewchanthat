@@ -19,11 +19,10 @@
       </div>
     </div>
   </header>
-  {{ with .Params.image }}
+  {{ $image := .Params.image | default "images/posts/fallback.webp" }}
   <div class="post-featured-image">
-    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
+    <img src="{{ $image | relURL }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
   </div>
-  {{ end }}
   {{ partial "ai-summary.html" . }}
   <div class="post-content">
     {{ .Content }}

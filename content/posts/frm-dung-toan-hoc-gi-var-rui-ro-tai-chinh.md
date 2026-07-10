@@ -1,4 +1,5 @@
 +++
+draft = true
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
 description = "FRM (Financial Risk Manager) dùng toán học nào? Học VaR (Value at Risk), Expected Shortfall (CVaR), extreme value theory, stress testing, backtesting, và mon itor rủi ro."
 date = "2026-07-10T13:16:14+07:00"

@@ -164,8 +164,8 @@ def process_image(src_path, dest_path, watermark_text=""):
         return False
 
 
-def clear_post_image(slug):
-    """Remove all image fields and mark needs_image when no real image available."""
+def apply_fallback(slug):
+    """Set fallback.webp when no real image is available. Prevents broken image links."""
     import frontmatter
     for f in os.listdir(CONTENT_DIR):
         if not f.endswith(".md"):
@@ -174,15 +174,20 @@ def clear_post_image(slug):
             post = frontmatter.load(os.path.join(CONTENT_DIR, f))
             if post.metadata.get("slug") == slug:
                 meta = post.metadata
-                for key in ["image", "thumbnail", "image_source", "image_source_url",
-                            "image_license", "image_commercial_use", "image_owner",
-                            "image_creator", "image_creator_url"]:
-                    meta.pop(key, None)
+                meta["image"] = "images/posts/fallback.webp"
+                meta["thumbnail"] = "images/posts/fallback.webp"
+                meta["image_source"] = "self"
+                meta["image_source_url"] = meta.get("image_source_url", "")
+                meta["image_license"] = "Self-owned"
+                meta["image_commercial_use"] = True
+                meta["image_owner"] = "self"
+                meta.pop("image_creator", None)
+                meta.pop("image_creator_url", None)
                 meta["image_status"] = "needs_review"
                 meta["image_reject_reason"] = "No verified image available after processing"
                 with open(os.path.join(CONTENT_DIR, f), "w", encoding="utf-8") as fh:
                     fh.write(frontmatter.dumps(post))
-                print(f"    Cleared image data, set needs_image: {f}")
+                print(f"    Applied fallback: {f}")
                 return
         except Exception:
             continue
@@ -348,7 +353,7 @@ def main():
         # Provider/external images require direct_url
         if not direct_url:
             print(f"    FAIL: No direct_url in manifest for {slug}")
-            clear_post_image(slug)
+            apply_fallback(slug)
             failed += 1
             continue
 
@@ -391,27 +396,27 @@ def main():
             ok = download_image(direct_url, src_path)
             if not ok:
                 print(f"    FAIL: Could not download from {direct_url}")
-                clear_post_image(slug)
+                apply_fallback(slug)
                 failed += 1
                 continue
 
         if not os.path.exists(src_path):
             print(f"    FAIL: Source file not found at {src_path}")
-            clear_post_image(slug)
+            apply_fallback(slug)
             failed += 1
             continue
 
         if has_placeholder_characteristics(src_path):
             print(f"    FAIL: Downloaded source appears to be a placeholder/solid color")
             os.remove(src_path)
-            clear_post_image(slug)
+            apply_fallback(slug)
             failed += 1
             continue
 
         ok = process_image(src_path, dest_path, watermark)
         if not ok:
             print(f"    FAIL: Image processing failed for {slug}")
-            clear_post_image(slug)
+            apply_fallback(slug)
             failed += 1
             continue
 

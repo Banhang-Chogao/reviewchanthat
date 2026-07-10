@@ -98,6 +98,8 @@ jobs:
           PY
 
       - name: Build Hugo
+        env:
+          GA_MEASUREMENT_ID: G-JCSEKBLP40
         run: hugo --minify
 
       - name: QA Content Direction (public)
