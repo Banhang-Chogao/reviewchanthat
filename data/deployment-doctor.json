@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-10T14:25:56+07:00",
-  "generated_at_display": "10-07-2026 14:25:56",
+  "generated_at": "2026-07-10T14:41:20+07:00",
+  "generated_at_display": "10-07-2026 14:41:20",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 42,
-    "safe_autofixes_available": 31,
-    "unsafe_external_failures": 11,
+    "failed_runs_scanned": 40,
+    "safe_autofixes_available": 30,
+    "unsafe_external_failures": 10,
     "open_action_items": 8,
-    "loop_guarded_attempts": 61,
+    "loop_guarded_attempts": 62,
     "by_type": {
-      "workflow_fanout": 26,
-      "unknown": 11,
+      "workflow_fanout": 25,
+      "unknown": 10,
       "ai_summary_map_artifact": 3,
       "sitemap_noindex_mismatch": 2
     }
@@ -472,12 +472,6 @@
         "run_id": "29072868843",
         "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
         "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29072868761",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
       }
     ],
     "qa_debt": [],
@@ -573,12 +567,6 @@
       {
         "failure_type": "unknown",
         "run_id": "29072879062",
-        "rootcause": "No knowledge pattern matched.",
-        "safe_to_autofix": false
-      },
-      {
-        "failure_type": "unknown",
-        "run_id": "29072865109",
         "rootcause": "No knowledge pattern matched.",
         "safe_to_autofix": false
       }
@@ -816,15 +804,15 @@
     {
       "run_id": "29073393203",
       "failure_type": "ai_summary_map_artifact",
-      "result": "skipped",
-      "detail": "normalize_ai_summaries exit=0",
-      "script": "fix_ai_summary_map"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 0927840ee75e:ai_summary_map_artifact already attempted 2 times"
     },
     {
       "run_id": "29073200539",
       "failure_type": "ai_summary_map_artifact",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "normalize_ai_summaries exit=0",
+      "script": "fix_ai_summary_map"
     },
     {
       "run_id": "29075541943",
@@ -990,12 +978,6 @@
       "detail": "no script or already attempted this run"
     },
     {
-      "run_id": "29072868761",
-      "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
-    },
-    {
       "run_id": "29075477159",
       "failure_type": "unknown",
       "result": "unsafe",
@@ -1051,12 +1033,6 @@
     },
     {
       "run_id": "29072879062",
-      "failure_type": "unknown",
-      "result": "unsafe",
-      "detail": "safe_to_autofix=false — report only"
-    },
-    {
-      "run_id": "29072865109",
       "failure_type": "unknown",
       "result": "unsafe",
       "detail": "safe_to_autofix=false — report only"
@@ -1427,6 +1403,12 @@
       "key": "0927840ee75e:ai_summary_map_artifact",
       "count": 2,
       "last_attempt_at": "2026-07-10T14:25:56+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "4a579ebe3c77:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T14:41:20+07:00",
       "last_result": "skipped"
     }
   ],
