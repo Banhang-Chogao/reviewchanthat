@@ -1,19 +1,29 @@
-/* AI Travel Planner — S-DNA Design Language (reusing Income Insights patterns) */
+/* AI Travel Planner — Premium S-DNA Design Language */
 
 :root {
   --tp-radius: 6px;
   --tp-radius-lg: 12px;
   --tp-gap: 0.75rem;
   --tp-gap-lg: 1.5rem;
+  --tp-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --tp-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --tp-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --tp-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.travel-planner {
+  background: var(--color-bg, #fafafa);
+  min-height: 100vh;
 }
 
 /* === Hero Section === */
 .travel-planner__hero {
   background: linear-gradient(135deg, var(--color-primary, #00A7A0) 0%, #008f88 100%);
   color: #fff;
-  padding: 3rem 1rem;
+  padding: 4rem 1rem 3rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  box-shadow: var(--tp-shadow-md);
 }
 
 .travel-planner__hero-content {
@@ -22,15 +32,17 @@
 }
 
 .travel-planner__hero-title {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 700;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.75rem 0;
+  letter-spacing: -0.5px;
 }
 
 .travel-planner__hero-subtitle {
-  font-size: 1rem;
+  font-size: 1.05rem;
   margin: 0;
   opacity: 0.95;
+  font-weight: 500;
 }
 
 /* === Version Badge === */
@@ -43,6 +55,10 @@
   font-weight: 700;
   letter-spacing: 0.5px;
   z-index: 999;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--tp-radius);
+  box-shadow: var(--tp-shadow-sm);
 }
 
 /* === Main Container === */
@@ -57,14 +73,15 @@
   background: var(--color-surface, #fff);
   border: 1px solid var(--color-border, #e0e0e0);
   border-radius: var(--tp-radius-lg);
-  padding: 1.5rem;
+  padding: 2rem;
   margin-bottom: var(--tp-gap-lg);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  box-shadow: var(--tp-shadow-md);
+  transition: var(--tp-transition);
 }
 
 .travel-planner__form {
   display: grid;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .travel-planner__field {
@@ -76,7 +93,7 @@
 .travel-planner__field-group {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 @media (max-width: 768px) {
@@ -89,25 +106,75 @@
   font-weight: 600;
   font-size: 0.875rem;
   color: var(--color-text, #333);
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
 }
 
 .travel-planner__input,
 .travel-planner__select {
-  padding: 0.5rem 0.75rem;
-  border: 1px solid var(--color-border, #e0e0e0);
+  padding: 0.625rem 0.875rem;
+  border: 1.5px solid var(--color-border, #e0e0e0);
   border-radius: var(--tp-radius);
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
   background: var(--color-surface, #fff);
   color: var(--color-text, #333);
   font-family: inherit;
   min-height: 44px;
+  transition: var(--tp-transition);
+}
+
+.travel-planner__input::placeholder {
+  color: var(--color-muted, #999);
+  font-weight: 400;
+}
+
+.travel-planner__input:hover,
+.travel-planner__select:hover {
+  border-color: var(--color-primary, #00A7A0);
 }
 
 .travel-planner__input:focus,
 .travel-planner__select:focus {
   outline: none;
   border-color: var(--color-primary, #00A7A0);
-  box-shadow: 0 0 0 3px rgba(0, 167, 160, 0.1);
+  box-shadow: 0 0 0 4px rgba(0, 167, 160, 0.12);
+  background: var(--color-surface, #fff);
+}
+
+.travel-planner__search-wrap {
+  position: relative;
+}
+
+.travel-planner__destination-selected {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.travel-planner__destination-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(0, 167, 160, 0.1);
+  color: var(--color-primary, #00A7A0);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--tp-radius);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.travel-planner__search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e0e0e0);
+  border-top: none;
+  border-radius: 0 0 var(--tp-radius) var(--tp-radius);
+  box-shadow: var(--tp-shadow-md);
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 /* === Radio & Checkbox === */
