@@ -1,27 +1,45 @@
 {
-  "generated_at": "2026-07-10T07:23:14+07:00",
-  "generated_at_display": "10-07-2026 07:23:14",
+  "generated_at": "2026-07-10T07:28:37+07:00",
+  "generated_at_display": "10-07-2026 07:28:37",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 38,
-    "safe_autofixes_available": 33,
+    "failed_runs_scanned": 39,
+    "safe_autofixes_available": 34,
     "unsafe_external_failures": 5,
-    "open_action_items": 12,
-    "loop_guarded_attempts": 40,
+    "open_action_items": 9,
+    "loop_guarded_attempts": 41,
     "by_type": {
       "workflow_fanout": 29,
       "hugo_build_error": 5,
-      "content_direction_optimizer_fail": 1,
-      "metadata_optimizer_fail": 1,
-      "sitemap_noindex_mismatch": 1,
-      "duplicate_yaml_keys": 1
+      "content_direction_optimizer_fail": 3,
+      "sitemap_noindex_mismatch": 2
     }
   },
   "recent_failures": [
+    {
+      "run_id": "29059940624",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "9392358",
+      "status": "failure",
+      "rootcause": "content_direction_optimizer_fail",
+      "safe_to_autofix": true,
+      "action": "Kiểm tra content/posts/ có file front matter lỗi",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059940624"
+    },
+    {
+      "run_id": "29059768324",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "6fefbd7",
+      "status": "failure",
+      "rootcause": "content_direction_optimizer_fail",
+      "safe_to_autofix": true,
+      "action": "Kiểm tra content/posts/ có file front matter lỗi",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059768324"
+    },
     {
       "run_id": "29058670095",
       "workflow": "Deploy to GitHub Pages",
@@ -33,14 +51,14 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058670095"
     },
     {
-      "run_id": "29058373553",
-      "workflow": "Content Direction Optimizer (all-safe nightly)",
-      "commit": "6c576db",
-      "status": "failure",
-      "rootcause": "metadata_optimizer_fail",
+      "run_id": "29059770605",
+      "workflow": "Deployment Doctor",
+      "commit": "6fefbd7",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
       "safe_to_autofix": true,
-      "action": "Kiểm tra front matter các file mới/thay đổi gần đây",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058373553"
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059770605"
     },
     {
       "run_id": "29059688893",
@@ -51,16 +69,6 @@
       "safe_to_autofix": true,
       "action": "Keep posts-only sitemap.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059688893"
-    },
-    {
-      "run_id": "29058408603",
-      "workflow": "Deployment Doctor",
-      "commit": "6c576db",
-      "status": "cancelled",
-      "rootcause": "duplicate_yaml_keys",
-      "safe_to_autofix": true,
-      "action": "Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058408603"
     },
     {
       "run_id": "29059769929",
@@ -311,16 +319,6 @@
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058962827"
-    },
-    {
-      "run_id": "29058962793",
-      "workflow": "Auto Merge",
-      "commit": "efceafb",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058962793"
     }
   ],
   "clusters": {
@@ -508,26 +506,32 @@
     "other": [
       {
         "failure_type": "content_direction_optimizer_fail",
+        "run_id": "29059940624",
+        "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "content_direction_optimizer_fail",
+        "run_id": "29059768324",
+        "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "content_direction_optimizer_fail",
         "run_id": "29058670095",
         "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
         "safe_to_autofix": true
       },
       {
-        "failure_type": "metadata_optimizer_fail",
-        "run_id": "29058373553",
-        "rootcause": "Metadata optimizer (seo_title hoặc description) gặp lỗi front matter.",
+        "failure_type": "sitemap_noindex_mismatch",
+        "run_id": "29059770605",
+        "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
       },
       {
         "failure_type": "sitemap_noindex_mismatch",
         "run_id": "29059688893",
         "rootcause": "noindex pages incorrectly included in sitemap.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "duplicate_yaml_keys",
-        "run_id": "29058408603",
-        "rootcause": "Hugo front matter chứa duplicate YAML keys, khiến build fail.",
         "safe_to_autofix": true
       },
       {
@@ -578,20 +582,6 @@
       "expected_result": "Unblock deploy / prevent recurrence"
     },
     {
-      "priority": "P0",
-      "owner": "system",
-      "failure_type": "metadata_optimizer_fail",
-      "title": "Kiểm tra front matter các file mới/thay đổi gần đây",
-      "expected_result": "Unblock deploy / prevent recurrence"
-    },
-    {
-      "priority": "P0",
-      "owner": "system",
-      "failure_type": "metadata_optimizer_fail",
-      "title": "Chạy autobot_dup_remover",
-      "expected_result": "Unblock deploy / prevent recurrence"
-    },
-    {
       "priority": "P1",
       "owner": "system",
       "failure_type": "sitemap_noindex_mismatch",
@@ -603,13 +593,6 @@
       "owner": "system",
       "failure_type": "sitemap_noindex_mismatch",
       "title": "Exclude noindex/admin/doctor pages.",
-      "expected_result": "Unblock deploy / prevent recurrence"
-    },
-    {
-      "priority": "P1",
-      "owner": "system",
-      "failure_type": "duplicate_yaml_keys",
-      "title": "Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py",
       "expected_result": "Unblock deploy / prevent recurrence"
     },
     {
@@ -814,29 +797,35 @@
   ],
   "autofix_history": [
     {
+      "run_id": "29059940624",
+      "failure_type": "content_direction_optimizer_fail",
+      "result": "skipped",
+      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
+    },
+    {
+      "run_id": "29059768324",
+      "failure_type": "content_direction_optimizer_fail",
+      "result": "skipped",
+      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
+    },
+    {
       "run_id": "29058670095",
       "failure_type": "content_direction_optimizer_fail",
       "result": "skipped",
       "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
     },
     {
-      "run_id": "29058373553",
-      "failure_type": "metadata_optimizer_fail",
-      "result": "skipped",
-      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
-    },
-    {
-      "run_id": "29059688893",
+      "run_id": "29059770605",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
       "detail": "posts-only sitemap already in place",
       "script": "fix_sitemap_noindex"
     },
     {
-      "run_id": "29058408603",
-      "failure_type": "duplicate_yaml_keys",
+      "run_id": "29059688893",
+      "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
-      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29059769929",
@@ -1283,6 +1272,12 @@
       "key": "84a0da8c2b7c:workflow_fanout",
       "count": 2,
       "last_attempt_at": "2026-07-10T07:12:59+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "6fefbd7b72e0:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:28:37+07:00",
       "last_result": "skipped"
     }
   ],
