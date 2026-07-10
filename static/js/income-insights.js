@@ -993,9 +993,10 @@
           return String(h).toLowerCase().replace(/[^a-z0-9]/g, '');
         });
         for (var e = 0; e < expected.length; e++) {
-          var idx = headerNorm.indexOf(expected[e]);
-          if (idx === -1) idx = headerNorm.indexOf(expected[e].replace('label', ''));
-          if (idx === -1 && expected[e] === 'transactiontype') idx = headerNorm.indexOf('type');
+          var normKey = expected[e].toLowerCase();
+          var idx = headerNorm.indexOf(normKey);
+          if (idx === -1) idx = headerNorm.indexOf(normKey.replace('label', ''));
+          if (idx === -1 && normKey === 'transactiontype') idx = headerNorm.indexOf('type');
           if (idx !== -1) colMap[expected[e]] = idx;
         }
 
