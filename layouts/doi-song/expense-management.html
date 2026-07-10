@@ -1,0 +1,112 @@
+{{ define "main" }}
+<article class="expense-management">
+  <div class="expense-management__header container">
+    <h1 class="expense-management__title">Expense Management</h1>
+    <div class="expense-management__header-right">
+      <span class="expense-management__version" id="expenseVersion"></span>
+      <button class="expense-management__lock-btn" id="expenseLockBtn" style="display:none">Khoa</button>
+    </div>
+  </div>
+
+  <div class="expense-gate" id="expenseGate">
+    <div class="expense-gate__card">
+      <h2 class="expense-gate__heading">Expense Management</h2>
+      <p class="expense-gate__desc">Nhap ma truy cap de su dung cong cu quan ly chi phi.</p>
+      <div class="expense-gate__form">
+        <input type="password" id="expenseGateInput" class="expense-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="Ma so">
+        <button class="expense-gate__unlock" id="expenseGateUnlock">Mo khoa</button>
+      </div>
+      <p class="expense-gate__error" id="expenseGateError"></p>
+      <p class="expense-gate__hint">Dung lai ma truy cap cua muc Author trong About.</p>
+    </div>
+  </div>
+
+  <div class="expense-app container" id="expenseApp" style="display:none">
+    <div class="expense-app__toolbar">
+      <div class="expense-app__month-picker">
+        <label class="expense-app__label">Thang</label>
+        <select id="expenseFilterMonth" class="expense-app__select"></select>
+        <label class="expense-app__label">Nam</label>
+        <select id="expenseFilterYear" class="expense-app__select"></select>
+      </div>
+      <div class="expense-app__search">
+        <input type="search" id="expenseSearch" class="expense-app__select" placeholder="Tim kiem..." style="min-width:160px">
+      </div>
+      <div class="expense-app__actions">
+        <button class="expense-app__btn expense-app__btn--save" id="expenseSaveBtn">Luu</button>
+        <button class="expense-app__btn" id="expenseAddRow">+ Them dong</button>
+        <button class="expense-app__btn" id="expenseImportBtn">Import</button>
+        <button class="expense-app__btn expense-app__btn--export" id="expenseExportBtn">Export</button>
+        <button class="expense-app__btn" id="expenseSampleBtn">Du lieu mau</button>
+        <button class="expense-app__btn expense-app__btn--danger" id="expenseClearBtn">Xoa tat ca</button>
+        <div class="expense-app__export-wrap">
+          <button class="expense-app__btn expense-app__btn--export" id="expenseCSVBtn">CSV</button>
+        </div>
+      </div>
+      <div class="expense-app__undo">
+        <button class="expense-app__btn expense-app__btn--small" id="expenseUndoBtn" disabled>^ Hoan tac</button>
+      </div>
+    </div>
+
+    <div class="expense-kpis">
+      <div class="expense-kpi" data-status="safe"><div class="expense-kpi__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><span class="expense-kpi__value" id="kpiTotalExpense">0</span><span class="expense-kpi__label">Tong chi</span><span class="expense-kpi__delta" id="kpiDeltaExpense"></span></div>
+      <div class="expense-kpi" data-status="safe"><div class="expense-kpi__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><span class="expense-kpi__value" id="kpiTotalIncome">0</span><span class="expense-kpi__label">Tong thu</span><span class="expense-kpi__delta" id="kpiDeltaIncome"></span></div>
+      <div class="expense-kpi" data-status="safe"><div class="expense-kpi__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div><span class="expense-kpi__value" id="kpiNetCashflow">0</span><span class="expense-kpi__label">Dong tien rong</span><span class="expense-kpi__delta" id="kpiDeltaNet"></span></div>
+      <div class="expense-kpi" data-status="safe"><div class="expense-kpi__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/></svg></div><span class="expense-kpi__value" id="kpiMaxExpense">0</span><span class="expense-kpi__label">Chi lon nhat</span><span class="expense-kpi__delta" id="kpiDeltaMax"></span></div>
+      <div class="expense-kpi" data-status="safe"><div class="expense-kpi__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><span class="expense-kpi__value" id="kpiTransactionCount">0</span><span class="expense-kpi__label">So giao dich</span><span class="expense-kpi__delta" id="kpiDeltaCount"></span></div>
+      <div class="expense-kpi" data-status="safe"><div class="expense-kpi__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><span class="expense-kpi__value" id="kpiAvgDaily">0</span><span class="expense-kpi__label">Chi TB/ngay</span><span class="expense-kpi__delta" id="kpiDeltaAvg"></span></div>
+    </div>
+
+    <div class="expense-table-wrap">
+      <table class="expense-table" id="expenseTable">
+        <thead><tr>
+          <th class="expense-table__col-seq">A - Seq</th>
+          <th class="expense-table__col-income">B - Income</th>
+          <th class="expense-table__col-expense">C - Expense</th>
+          <th class="expense-table__col-label">D - Exp.Label</th>
+          <th class="expense-table__col-type">E - Exp.Type</th>
+          <th class="expense-table__col-txn">F - Txn Type</th>
+          <th class="expense-table__col-route">G - Route</th>
+          <th class="expense-table__col-bank">H - Bank Rte</th>
+          <th class="expense-table__col-remark">I - Remark</th>
+          <th class="expense-table__col-date">J - Date</th>
+          <th class="expense-table__col-d">K - D</th>
+          <th class="expense-table__col-m">L - M</th>
+          <th class="expense-table__col-y">M - Y</th>
+          <th class="expense-table__col-actions">Actions</th>
+        </tr></thead>
+        <tbody id="expenseTableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="expense-charts">
+      <h2 class="expense-charts__heading">Bieu do</h2>
+      <div class="expense-charts__grid">
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Chi tieu theo ngay</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartDailyExpense"></canvas></div></div>
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Thu nhap vs chi tieu</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartIncomeVsExpense"></canvas></div></div>
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Chi tieu theo Expense Type</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartExpenseType"></canvas></div></div>
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Chi tieu theo Expense Label</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartExpenseLabel"></canvas></div></div>
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Transaction Type</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartTransactionType"></canvas></div></div>
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Bank Route</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartBankRoute"></canvas></div></div>
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Top 10 khoan chi</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartTopExpenses"></canvas></div></div>
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Xu huong thang</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartMonthlyTrend"></canvas></div></div>
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Chi TB/ngay</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartAvgDaily"></canvas></div></div>
+        <div class="expense-chart-box"><h3 class="expense-chart-box__title">Heatmap ngay chi cao</h3><div class="expense-chart-box__canvas-wrap"><canvas id="chartHeatmap"></canvas></div></div>
+      </div>
+    </div>
+
+    <div class="expense-insights-box" id="expenseInsightsBox">
+      <h2 class="expense-insights-box__title">Expense Insights</h2>
+      <p class="expense-insights-box__disclaimer">Nhan xet duoc tao tu dong tu du lieu ban nhap, chi dung de tham khao va khong phai tu van tai chinh.</p>
+      <div class="expense-insights-box__content" id="expenseInsightsContent">
+        <p class="expense-insights-box__empty">Chua co du lieu de phan tich.</p>
+      </div>
+    </div>
+  </div>
+</article>
+{{ $css := resources.Get "css/expense-management.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+<script src="{{ "js/expense-insights-engine.js" | relURL }}" defer></script>
+<script src="{{ "js/expense-management.js" | relURL }}" defer></script>
+{{ end }}
