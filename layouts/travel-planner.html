@@ -201,8 +201,13 @@
   </div>
 </div>
 
-<!-- Print watermark (visible only when printing) -->
-<div class="tp-print-watermark" data-watermark="{{ substr .Site.Data.version.commit_full 0 16 }} — Banhang-Chogao/reviewchanthat"></div>
+{{ $hash := substr .Site.Data.version.commit_full 0 16 }}
+{{ $repo := "Banhang-Chogao/reviewchanthat" }}
+{{ $watermark := printf "%s — %s" $hash $repo }}
+<!-- Print watermarks (visible only when printing) -->
+<div class="tp-print-watermark tp-print-watermark--header" data-watermark="{{ $watermark }}"></div>
+<div class="tp-print-watermark tp-print-watermark--footer" data-watermark="{{ $watermark }}"></div>
+<div class="tp-print-watermark tp-print-watermark--left" data-watermark="{{ $watermark }}"></div>
 
 <!-- Scripts -->
 <script src="/reviewchanthat/js/travel-destination-search.js"></script>
