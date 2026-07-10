@@ -157,6 +157,23 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+.income-app__chain-info {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  color: var(--color-muted, #888);
+  white-space: nowrap;
+}
+.income-app__chain-info::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: var(--color-primary, #00A7A0);
+  border-radius: 2px;
+  opacity: 0.5;
+}
 .income-app__undo {
   margin-left: auto;
 }
