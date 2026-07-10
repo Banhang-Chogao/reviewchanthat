@@ -7,7 +7,14 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.webp"
 thumbnail = "images/posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.webp"
-image_status = "pending"
+image_status = "verified"
+image_creator = "Julio Lopez"
+image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_license = "Pexels License"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
 seo_title = "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào"
 description = "VPBank NEO là app ngân hàng số dành cho người dùng muốn giao dịch, quản lý tài khoản và thanh toán online; bài viết đánh giá tính năng, phí cần kiểm tra và nhóm người phù hợp trong năm 2026."
 

@@ -7,7 +7,14 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp"
 thumbnail = "images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp"
-image_status = "pending"
+image_status = "verified"
+image_creator = "Julio Lopez"
+image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_license = "Pexels License"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
 seo_title = "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới"
 description = "Người mới theo dõi chứng khoán Việt Nam năm 2026 nên hiểu VN-Index, nhóm cổ phiếu ngân hàng, rủi ro biến động và nguyên tắc quản trị vốn trước khi xuống tiền."
 

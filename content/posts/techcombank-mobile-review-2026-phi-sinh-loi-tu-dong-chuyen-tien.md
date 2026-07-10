@@ -7,7 +7,14 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.webp"
 thumbnail = "images/posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.webp"
-image_status = "pending"
+image_status = "verified"
+image_creator = "Julio Lopez"
+image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_license = "Pexels License"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
 seo_title = "Techcombank Mobile review 2026: phí chuyển tiền, sinh lời tự động và ai nên dùng"
 description = "Techcombank Mobile là app ngân hàng số nổi bật với chuyển tiền, quản lý tài khoản và tính năng sinh lời tự động; bài viết đánh giá phí, trải nghiệm và nhóm người phù hợp trong năm 2026."
 

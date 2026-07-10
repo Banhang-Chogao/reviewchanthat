@@ -7,7 +7,14 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.webp"
 thumbnail = "images/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.webp"
-image_status = "pending"
+image_status = "verified"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/close-up-shot-of-a-graph-7947742/"
+image_license = "Pexels License"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
 seo_title = "AI stocks là gì? Cổ phiếu AI, chip và tác động toàn cầu lên nhà đầu tư Việt Nam"
 description = "AI stocks và chip stocks là công cụ đầu tư quan trọng trong kỷ nguyên AI. Bài viết giải thích cấu trúc thị trường chip, lãnh đạo như NVIDIA/TSMC, và ảnh hưởng đến Việt Nam."
 

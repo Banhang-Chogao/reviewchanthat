@@ -7,7 +7,14 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.webp"
 thumbnail = "images/posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.webp"
-image_status = "pending"
+image_status = "verified"
+image_creator = "Julio Lopez"
+image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/"
+image_license = "Pexels License"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
 seo_title = "Fed, lãi suất, giá vàng và ảnh hưởng đến nền kinh tế Việt Nam 2026"
 description = "Hiểu Fed, lãi suất Mỹ, bond yield và giá vàng: cơ chế hoạt động, mối quan hệ, và tác động trực tiếp đến người Việt tiết kiệm, vay tiền, và đầu tư."
 
