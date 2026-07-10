@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-11T03:28:54+07:00",
-  "generated_at_display": "11-07-2026 03:28:54",
+  "generated_at": "2026-07-11T03:35:23+07:00",
+  "generated_at_display": "11-07-2026 03:35:23",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 12,
-    "safe_autofixes_available": 12,
+    "failed_runs_scanned": 11,
+    "safe_autofixes_available": 11,
     "unsafe_external_failures": 0,
     "open_action_items": 5,
     "loop_guarded_attempts": 77,
     "by_type": {
       "workflow_fanout": 10,
-      "sitemap_noindex_mismatch": 2
+      "sitemap_noindex_mismatch": 1
     }
   },
   "recent_failures": [
@@ -27,16 +27,6 @@
       "safe_to_autofix": true,
       "action": "Keep posts-only sitemap.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29099305468"
-    },
-    {
-      "run_id": "29097563894",
-      "workflow": "Deployment Doctor",
-      "commit": "6d9df26",
-      "status": "cancelled",
-      "rootcause": "sitemap_noindex_mismatch",
-      "safe_to_autofix": true,
-      "action": "Keep posts-only sitemap.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29097563894"
     },
     {
       "run_id": "29099804292",
@@ -211,12 +201,6 @@
       {
         "failure_type": "sitemap_noindex_mismatch",
         "run_id": "29099305468",
-        "rootcause": "noindex pages incorrectly included in sitemap.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "sitemap_noindex_mismatch",
-        "run_id": "29097563894",
         "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
       }
@@ -429,12 +413,6 @@
       "failure_type": "sitemap_noindex_mismatch",
       "result": "needs_human_review",
       "detail": "loop-guard: 168abc786732:sitemap_noindex_mismatch already attempted 2 times"
-    },
-    {
-      "run_id": "29097563894",
-      "failure_type": "sitemap_noindex_mismatch",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 6d9df26a6d1b:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
       "run_id": "29099804292",
