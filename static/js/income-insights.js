@@ -463,13 +463,13 @@
       actDiv.className = 'income-table__row-actions';
       var dupBtn = document.createElement('button');
       dupBtn.className = 'income-table__row-btn';
-      dupBtn.textContent = '⧉';
+      dupBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
       dupBtn.title = 'Nhân bản';
       dupBtn.addEventListener('click', (function(idx) { return function() { duplicateRow(idx); }; })(i));
       actDiv.appendChild(dupBtn);
       var delBtn = document.createElement('button');
       delBtn.className = 'income-table__row-btn income-table__row-btn--danger';
-      delBtn.textContent = '✕';
+      delBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/></svg>';
       delBtn.title = 'Xóa';
       delBtn.addEventListener('click', (function(idx) { return function() { deleteRow(idx); }; })(i));
       actDiv.appendChild(delBtn);
@@ -599,11 +599,21 @@
   function deleteRow(filteredIdx) {
     var actualIdx = state.transactions.indexOf(state.filtered[filteredIdx]);
     if (actualIdx === -1) return;
-    pushUndo();
-    state.transactions.splice(actualIdx, 1);
-    applyFilters();
-    renderAll();
-    scheduleAutosave();
+    var t = state.transactions[actualIdx];
+    var label = t.incomeLabel || t.debtLabel || t.remark || 'dòng #' + t.sequence;
+    var code = prompt('Nhập mã truy cập để xóa "' + label + '"?\nHành động này không thể hoàn tác.');
+    if (!code) return;
+    sha256(code).then(function(hash) {
+      if (hash !== ACCESS_HASH) {
+        alert('Mã truy cập không đúng. Không thể xóa.');
+        return;
+      }
+      pushUndo();
+      state.transactions.splice(actualIdx, 1);
+      applyFilters();
+      renderAll();
+      scheduleAutosave();
+    });
   }
 
   function duplicateRow(filteredIdx) {
@@ -1169,14 +1179,121 @@
     container.insertBefore(searchInput, container.querySelector('.income-app__undo'));
   }
 
+  /* ─── Export Report ─────────────────────────────────────── */
+  function exportReport() {
+    var rows = state.transactions;
+    var now = new Date();
+    var dateStr = now.getDate() + '-' + (now.getMonth() + 1) + '-' + now.getFullYear();
+    var timeStr = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0') + ':' + now.getSeconds().toString().padStart(2, '0');
+    var totalInc = 0, totalDeb = 0, count = rows.length;
+    for (var i = 0; i < rows.length; i++) {
+      totalInc += rows[i].income || 0;
+      totalDeb += Math.abs(rows[i].debt || 0);
+    }
+    var net = totalInc - totalDeb;
+    var ratio = totalInc > 0 ? ((totalDeb / totalInc) * 100).toFixed(1) : 'N/A';
+
+    // Generate a deterministic blockchain-like address from data
+    var dataStr = JSON.stringify(rows) + 'https://banhang-chogao.github.io/reviewchanthat/';
+    var addrHash = 0;
+    for (var j = 0; j < dataStr.length; j++) {
+      addrHash = ((addrHash << 5) - addrHash) + dataStr.charCodeAt(j);
+      addrHash = addrHash & addrHash;
+    }
+    var blockAddr = '0x' + Math.abs(addrHash).toString(16).toUpperCase().slice(0, 14).padStart(14, '0');
+
+    var lines = [];
+    lines.push('═══════════════════════════════════════════════════');
+    lines.push('  Insights Report of Review Chân Thật — ' + dateStr);
+    lines.push('═══════════════════════════════════════════════════');
+    lines.push('');
+    lines.push('  Thời gian xuất: ' + dateStr + ' ' + timeStr + ' GMT +7');
+    lines.push('  Tổng số giao dịch: ' + count);
+    lines.push('');
+    lines.push('  ─── TỔNG QUAN ───');
+    lines.push('  Tổng Income:        ' + fmt(totalInc));
+    lines.push('  Tổng Debt:          ' + fmt(totalDeb));
+    lines.push('  Net:                ' + fmt(net));
+    lines.push('  Debt/Income Ratio:  ' + ratio + '%');
+    lines.push('');
+    lines.push('  ─── CHI TIẾT ───');
+    for (var k = 0; k < rows.length; k++) {
+      var t = rows[k];
+      var line = '  ' + (k + 1) + '. ';
+      if (t.date) line += '[' + t.date + '] ';
+      line += 'Income: ' + fmt(t.income || 0);
+      if (t.incomeLabel) line += ' (' + t.incomeLabel + ')';
+      line += ' | Debt: ' + fmt(Math.abs(t.debt || 0));
+      if (t.debtLabel) line += ' (' + t.debtLabel + ')';
+      if (t.transactionType) line += ' | ' + t.transactionType;
+      if (t.route) line += ' | ' + t.route;
+      if (t.remark) line += ' | ' + t.remark;
+      lines.push(line);
+    }
+    lines.push('');
+    lines.push('═══════════════════════════════════════════════════');
+    lines.push('  Blockchain: ' + blockAddr);
+    lines.push('  ' + 'https://banhang-chogao.github.io/reviewchanthat/');
+    lines.push('═══════════════════════════════════════════════════');
+
+    var blob = new Blob([lines.join('\n')], { type: 'text/plain;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'insights-report-' + dateStr.replace(/\//g, '-') + '.txt';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  /* ─── Save ────────────────────────────────────────────── */
+  function saveNow() {
+    var msg = document.getElementById('incomeSaveMsg');
+    if (msg) {
+      msg.classList.remove('income-toast--hidden');
+      msg.classList.add('income-toast--show');
+      return;
+    }
+    doAutosave();
+    var messages = [
+      'Bạn đã quan tâm thu nhập của mình rồi đó — lưu thành công! 🎉',
+      'Dữ liệu đã an toàn rồi, chủ nhân yên tâm nhé! 💪',
+      'Lưu xong rồi! Càng theo dõi, càng giàu to. 📈',
+      'Số liệu đã ghi nhận — tiếp tục làm chủ tài chính nhé! 🔥',
+      'Lưu rồi! Bạn giỏi quá, hôm nay lại có thêm 1 sao. ⭐'
+    ];
+    var text = messages[Math.floor(Math.random() * messages.length)];
+    var toast = document.createElement('div');
+    toast.className = 'income-toast';
+    toast.id = 'incomeSaveMsg';
+    toast.textContent = text;
+    document.body.appendChild(toast);
+    requestAnimationFrame(function() {
+      toast.classList.add('income-toast--show');
+    });
+    setTimeout(function() {
+      toast.classList.remove('income-toast--show');
+      toast.classList.add('income-toast--hidden');
+      setTimeout(function() { if (toast.parentNode) toast.parentNode.removeChild(toast); }, 400);
+    }, 3500);
+  }
+
+  function fmt(num) {
+    if (Math.abs(num) >= 1000000) return (num / 1000000).toFixed(1) + 'M';
+    if (Math.abs(num) >= 1000) return (num / 1000).toFixed(0) + 'k';
+    return num.toString();
+  }
+
   /* ─── Init ────────────────────────────────────────────── */
   function init() {
     initGate();
     initSearch();
 
     document.getElementById('incomeAddRow').addEventListener('click', addRow);
+    document.getElementById('incomeSaveBtn').addEventListener('click', saveNow);
     document.getElementById('incomeUndoBtn').addEventListener('click', undo);
-    document.getElementById('incomeClearBtn').addEventListener('click', clearAllData);
+    document.getElementById('incomeReportBtn').addEventListener('click', exportReport);
     document.getElementById('incomeSampleBtn').addEventListener('click', loadSampleData);
     document.getElementById('incomeExportBtn').addEventListener('click', exportEncrypted);
     document.getElementById('incomeImportBtn').addEventListener('click', importEncrypted);
