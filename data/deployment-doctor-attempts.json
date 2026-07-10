@@ -386,11 +386,11 @@
       "last_result": "skipped"
     },
     "a9823ea97375:ai_summary_map_artifact": {
-      "count": 1,
-      "last_attempt_at": "2026-07-10T14:41:20+07:00",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T14:55:05+07:00",
       "last_result": "skipped"
     }
   },
-  "updated_at": "2026-07-10T14:41:20+07:00",
+  "updated_at": "2026-07-10T14:55:05+07:00",
   "notes": "Ledger prevents autofix loops. Key = sha:failure_type. Max 2 attempts."
 }
