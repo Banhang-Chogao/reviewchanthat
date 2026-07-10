@@ -1,21 +1,20 @@
 {
-  "generated_at": "2026-07-10T21:59:21+07:00",
-  "generated_at_display": "10-07-2026 21:59:21",
+  "generated_at": "2026-07-10T22:06:04+07:00",
+  "generated_at_display": "10-07-2026 22:06:04",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 14,
-    "safe_autofixes_available": 14,
+    "failed_runs_scanned": 13,
+    "safe_autofixes_available": 13,
     "unsafe_external_failures": 0,
-    "open_action_items": 6,
+    "open_action_items": 5,
     "loop_guarded_attempts": 77,
     "by_type": {
       "workflow_fanout": 11,
-      "sitemap_noindex_mismatch": 2,
-      "duplicate_yaml_keys": 1
+      "sitemap_noindex_mismatch": 2
     }
   },
   "recent_failures": [
@@ -38,16 +37,6 @@
       "safe_to_autofix": true,
       "action": "Keep posts-only sitemap.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29097563894"
-    },
-    {
-      "run_id": "29092424885",
-      "workflow": "Auto Merge",
-      "commit": "c68656d",
-      "status": "failure",
-      "rootcause": "duplicate_yaml_keys",
-      "safe_to_autofix": true,
-      "action": "Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29092424885"
     },
     {
       "run_id": "29099804292",
@@ -246,12 +235,6 @@
         "run_id": "29097563894",
         "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
-      },
-      {
-        "failure_type": "duplicate_yaml_keys",
-        "run_id": "29092424885",
-        "rootcause": "Hugo front matter chứa duplicate YAML keys, khiến build fail.",
-        "safe_to_autofix": true
       }
     ]
   },
@@ -268,13 +251,6 @@
       "owner": "system",
       "failure_type": "sitemap_noindex_mismatch",
       "title": "Exclude noindex/admin/doctor pages.",
-      "expected_result": "Unblock deploy / prevent recurrence"
-    },
-    {
-      "priority": "P1",
-      "owner": "system",
-      "failure_type": "duplicate_yaml_keys",
-      "title": "Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py",
       "expected_result": "Unblock deploy / prevent recurrence"
     },
     {
@@ -477,77 +453,70 @@
       "detail": "loop-guard: 6d9df26a6d1b:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
-      "run_id": "29092424885",
-      "failure_type": "duplicate_yaml_keys",
-      "result": "skipped",
-      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
-    },
-    {
       "run_id": "29099804292",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d1f6bba30881:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29099804007",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d1f6bba30881:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29099803826",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d1f6bba30881:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29099803781",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d1f6bba30881:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29099803758",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d1f6bba30881:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29099803696",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d1f6bba30881:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29099803632",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d1f6bba30881:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29099803607",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d1f6bba30881:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29099803538",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d1f6bba30881:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29099253489",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: b36080485f4c:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29097493150",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 960d4b04fd7c:workflow_fanout already attempted 2 times"
     }
   ],
   "loop_guarded": [
