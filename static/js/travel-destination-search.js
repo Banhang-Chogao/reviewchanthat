@@ -131,6 +131,16 @@
       });
     }
 
+    getCountryFlag(country) {
+      const flagMap = {
+        'South Korea': '🇰🇷', 'Japan': '🇯🇵', 'Thailand': '🇹🇭',
+        'Vietnam': '🇻🇳', 'Singapore': '🇸🇬', 'France': '🇫🇷',
+        'UAE': '🇦🇪', 'United Kingdom': '🇬🇧', 'China': '🇨🇳',
+        'India': '🇮🇳', 'Australia': '🇦🇺', 'United States': '🇺🇸'
+      };
+      return flagMap[country] || '🌍';
+    }
+
     async search(query) {
       // Check cache first
       const cached = this.searchCache.get(query);
@@ -147,31 +157,77 @@
       this.abortController = new AbortController();
 
       try {
-        const response = await fetch(
-          `${CONFIG.apiBaseUrl}?q=${encodeURIComponent(query)}`,
+        // Try Aviationstack API directly (CORS)
+        const aviationResults = await this.searchAviationstack(query);
+        if (aviationResults && aviationResults.length > 0) {
+          // Cache results
+          this.searchCache.set(query, {
+            results: aviationResults,
+            timestamp: Date.now()
+          });
+          this.displayResults(aviationResults, query);
+          return;
+        }
+      } catch (error) {
+        if (error.name === 'AbortError') return;
+        console.warn('Aviationstack API failed:', error);
+      }
+
+      // Fallback to local cache
+      this.showFallbackResults(query);
+    }
+
+    async searchAviationstack(query) {
+      const API_KEY = 'f03fa98d3d7917445de7afdec55ddb94';
+      const API_URL = 'https://api.aviationstack.com/v1';
+
+      try {
+        // Try cities endpoint
+        let response = await fetch(
+          `${API_URL}/cities?access_key=${API_KEY}&search=${encodeURIComponent(query)}&limit=10`,
           { signal: this.abortController.signal }
         );
 
-        if (!response.ok) {
-          throw new Error(`API error: ${response.status}`);
+        if (response.ok) {
+          const data = await response.json();
+          if (data.data && data.data.length > 0) {
+            return data.data.map(city => ({
+              city: city.city_name,
+              country: city.country_name,
+              iata: city.iata_code || '',
+              timezone: city.timezone || '',
+              flag: this.getCountryFlag(city.country_name),
+              latitude: city.latitude,
+              longitude: city.longitude
+            }));
+          }
         }
 
-        const data = await response.json();
-        const results = data.results || [];
+        // Try airports endpoint if cities returns nothing
+        response = await fetch(
+          `${API_URL}/airports?access_key=${API_KEY}&search=${encodeURIComponent(query)}&limit=10`,
+          { signal: this.abortController.signal }
+        );
 
-        // Cache results
-        this.searchCache.set(query, {
-          results,
-          timestamp: Date.now()
-        });
+        if (response.ok) {
+          const data = await response.json();
+          if (data.data && data.data.length > 0) {
+            return data.data.map(airport => ({
+              city: airport.city_name,
+              airport_name: airport.airport_name,
+              country: airport.country_name,
+              iata: airport.iata_code || '',
+              timezone: airport.timezone || '',
+              flag: this.getCountryFlag(airport.country_name),
+              latitude: airport.latitude,
+              longitude: airport.longitude
+            }));
+          }
+        }
 
-        this.displayResults(results, query);
+        return [];
       } catch (error) {
-        if (error.name === 'AbortError') return;
-
-        console.warn('Search API failed, using fallback:', error);
-        this.showFallbackResults(query);
-      }
+        throw error;
     }
 
     showFallbackResults(query) {
