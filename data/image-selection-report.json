@@ -1,9 +1,16 @@
 {
-  "generated_at": "2026-07-10T07:18:16+07:00",
+  "generated_at": "2026-07-10T11:56:12+07:00",
   "processed": 1,
-  "api_selected": 0,
+  "api_selected": 1,
   "self_generated": 0,
   "skipped": 0,
   "errors": [],
-  "posts": []
+  "posts": [
+    {
+      "slug": "don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos",
+      "title": "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    }
+  ]
 }

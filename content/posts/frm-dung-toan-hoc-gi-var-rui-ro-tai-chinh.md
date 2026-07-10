@@ -11,25 +11,21 @@ tags = ["FRM", "VaR", "Expected Shortfall", "rủi ro tài chính", "backtesting
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 6
 image = "images/posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.webp"
-image_alt = "Ảnh minh họa frm dung toan hoc gi var rui ro tai chinh — nguồn Pexels"
 date_display = "10-07-2026 13:16:14 GMT +7"
 lastmod_display = "10-07-2026 14:10:36 GMT +7"
 thumbnail = "images/posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/a-person-holding-a-report-paper-7876387/"
-image_provider = "pexels"
 image_license = "Pexels License"
 image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
 image_creator = "www.kaboompics.com"
 image_creator_url = "https://www.pexels.com/@karola-g"
-image_creator_id = "2332540"
+image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:20:03+07:00"
-image_query = "financial risk dashboard charts"
+image_attribution_source = ""
+image_attribution_checked_at = "2026-07-10T18:56:47+07:00"
 
 [ai_summary]
 items = ["FRM = Financial Risk Manager, chứng chỉ về quản trị rủi ro tài chính", "VaR (Value at Risk): Mất tối đa $ với xác suất X% trong 1 ngày", "VaR = Portfolio Value × |Z| × Volatility (với Z là z-score 1%, 5%, etc)", "Expected Shortfall (CVaR) = mất lỗ trung bình trong các trường hợp tồi tệ", "Lịch sử: Dùng log-return lịch sử để ước lượng VaR (Historical Simulation)", "Monte Carlo: Mô phỏng 10k+ kịch bản để tính VaR", "Backtesting: Kiểm tra VaR model có chính xác không (exceptions test)"]

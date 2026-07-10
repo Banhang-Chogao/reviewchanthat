@@ -11,25 +11,21 @@ tags = ["CFA", "DCF", "present value", "beta", "tracking error", "information ra
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 5
 image = "images/posts/cfa-dung-toan-hoc-gi.webp"
-image_alt = "Ảnh minh họa cfa dung toan hoc gi — nguồn Pexels"
 date_display = "10-07-2026 13:16:14 GMT +7"
 lastmod_display = "10-07-2026 14:10:36 GMT +7"
 thumbnail = "images/posts/cfa-dung-toan-hoc-gi.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/a-man-in-corporate-attire-reading-a-book-on-a-couch-7821903/"
-image_provider = "pexels"
 image_license = "Pexels License"
 image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
 image_creator = "RDNE Stock project"
 image_creator_url = "https://www.pexels.com/@rdne"
-image_creator_id = "3149039"
+image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:20:00+07:00"
-image_query = "finance professional studying books certification"
+image_attribution_source = ""
+image_attribution_checked_at = "2026-07-10T18:56:47+07:00"
 
 [ai_summary]
 items = ["CFA Level 1: Tài chính cơ bản, DCF, PV = Σ CF_t × e^(-rt)", "Beta = Cov(Ra, Rm) / Var(Rm) — độ nhạy so với thị trường", "Tracking Error = σ(Return_fund - Return_benchmark)", "Information Ratio = (Return_fund - Return_benchmark) / Tracking Error", "CFA Level 2: Equity valuation (P/E, FCF), fixed income (duration, convexity)", "CFA Level 3: Portfolio management, constraints, risk budgeting", "Ứng dụng: phân tích cổ phiếu, quản lý danh mục, đánh giá quỹ"]

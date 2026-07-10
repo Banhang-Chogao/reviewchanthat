@@ -32,7 +32,7 @@ title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Danh sách ngân hàng hỗ trợ Apple Pay cập nhật tháng 7/2026 từ Apple Support. Thông tin có thể thay đổi theo chính sách từng ngân hàng và Apple."
 items = ["Apple Pay chính thức hoạt động tại Việt Nam, hỗ trợ 11+ ngân hàng gồm Vietcombank, ACB, MB Bank, Techcombank, Sacombank, VPBank, VietinBank, TPBank, VIB, Eximbank, BIDV.", "Cách thêm thẻ: mở Wallet → + → quét thẻ/camera hoặc nhập thủ công → xác thực OTP hoặc app ngân hàng.", "Các lỗi phổ biến: thẻ không hỗ trợ, sai vùng Apple ID, thẻ hết hạn, lỗi kết nối — hầu hết có thể tự khắc phục tại nhà.", "Apple Pay sử dụng token hóa và Face ID/Touch ID, an toàn hơn thẻ vật lý vì không lưu số thẻ thật trên thiết bị."]
-image_attribution_checked_at = "2026-07-10T13:50:12+07:00"
+image_attribution_checked_at = "2026-07-10T18:56:45+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp — nguồn Pexels"
 +++

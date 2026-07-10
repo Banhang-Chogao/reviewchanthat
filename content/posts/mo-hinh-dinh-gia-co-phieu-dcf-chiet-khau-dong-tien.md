@@ -11,25 +11,21 @@ tags = ["định giá cổ phiếu", "DCF", "P/E ratio", "terminal value", "comp
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 10
 image = "images/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.webp"
-image_alt = "Ảnh minh họa mo hinh dinh gia co phieu dcf chiet khau dong tien — nguồn Pexels"
 date_display = "10-07-2026 13:16:14 GMT +7"
 lastmod_display = "10-07-2026 14:10:36 GMT +7"
 thumbnail = "images/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/gray-laptop-on-the-table-7693142/"
-image_provider = "pexels"
 image_license = "Pexels License"
 image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
 image_creator = "Yan Krukau"
 image_creator_url = "https://www.pexels.com/@yankrukov"
-image_creator_id = "2905570"
+image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:20:16+07:00"
-image_query = "business valuation financial modeling laptop"
+image_attribution_source = ""
+image_attribution_checked_at = "2026-07-10T18:56:47+07:00"
 
 [ai_summary]
 items = ["DCF (Discounted Cash Flow): Giá = Σ FCF_t × e^(-rt) + Terminal Value × e^(-rT)", "Terminal Value = Final Year FCF × Growth / (Discount Rate - Growth)", "P/E Ratio = Giá / Lợi nhuận (cách nhanh nhất để so sánh)", "PEG Ratio = P/E / Growth Rate (điều chỉnh cho tăng trưởng)", "EV/EBITDA = Enterprise Value / EBITDA (so sánh khác branch)", "Comparable Method: So sánh cổ phiếu tương tự, giá = Average P/E × Earnings", "Intrinsic Value vs Market Price: Nếu Market < Intrinsic → BUY, ngược lại SELL"]

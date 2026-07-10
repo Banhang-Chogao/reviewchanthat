@@ -6,8 +6,7 @@ date = "2026-07-08T09:40:00+07:00"
 description = "Checklist có nên cập nhật iOS 27 ngay không — ai nên chờ, ai nên lên, backup và rủi ro app ngân hàng cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp"
-image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_checked_at = "2026-07-10T18:56:36+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -47,6 +46,7 @@ label = "Nên lên sớm"
 
 [[tom_tat_nhanh]]
 label = "Nên chờ"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Ngày Apple phát hành iOS mới, nút **Software Update** luôn đỏ lửa. Nhưng “có ngay trên máy” không đồng nghĩa “nên cài ngay”. **iOS 27** mang Siri AI, parental controls mới và thay đổi shell — đủ lý do lên, nhưng cũng đủ rủi ro nếu bạn làm việc trên một chiếc iPhone duy nhất.

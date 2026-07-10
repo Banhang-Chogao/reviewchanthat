@@ -30,7 +30,7 @@ image_creator_url = "https://www.pexels.com/@karola-g"
 image_creator_id = "2332540"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-10T14:01:38+07:00"
+image_attribution_checked_at = "2026-07-10T18:56:44+07:00"
 +++
 
 Nhiều người mở blog cá nhân với hứng khởi, viết được ba bài rồi dừng. Không phải vì lười. Phần lớn kẹt ở câu hỏi rất thật: **blog cá nhân nên viết gì** để vừa có người đọc, vừa xây được thương hiệu cá nhân, chứ không chỉ “viết cho vui” rồi bỏ dở.

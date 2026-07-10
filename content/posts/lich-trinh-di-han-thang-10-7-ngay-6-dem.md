@@ -6,8 +6,7 @@ date = "2026-07-08T14:30:00+07:00"
 description = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan — cách xếp ngày theo dự báo lá đỏ và mẹo di chuyển KTX."
 draft = false
 image = "images/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.webp"
-image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_checked_at = "2026-07-10T18:56:42+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -97,6 +96,7 @@ label = "Phù hợp"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Bảy ngày sáu đêm là khoảng thời gian nhiều du khách Việt chọn khi muốn **vừa khám phá Seoul, vừa săn lá đỏ, vừa chạm biển** — mà không phải chạy marathon như lịch 5 ngày 4 đêm. Nếu bạn đã đọc [lịch trình 5N4Đ]({{< ref "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem" >}}) và thấy thiếu Seoraksan hoặc Busan, bài này là khung **7N6Đ** cụ thể hơn, bám dự báo mùa thu từ [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292).

@@ -6,8 +6,7 @@ date = "2026-07-08T08:20:00+07:00"
 description = "Danh sách iPhone tương thích iOS 27 theo Apple, phân tích Apple Intelligence, iPhone cũ và lộ trình cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-ho-tro-iphone-nao.webp"
-image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_checked_at = "2026-07-10T18:56:36+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -47,6 +46,7 @@ label = "Điểm then chốt"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 “iPhone của mình còn lên iOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **iPhone 11**, **iPhone 12 mini** hoặc **iPhone 13** mua từ 2020–2022. Câu trả lời ngắn theo Apple: **hầu hết iPhone từ 2019 trở lên đều trong danh sách** — nhưng **Apple Intelligence** lại là câu chuyện khác.

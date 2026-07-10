@@ -6,8 +6,7 @@ date = "2026-07-08T13:20:00+07:00"
 description = "So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn hình, Camera Control, pin, màu titan và gợi ý nên mua hoặc lên đời."
 draft = false
 image = "images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp"
-image_attribution_checked_at = "2026-07-10T14:01:31+07:00"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_checked_at = "2026-07-10T18:56:36+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -46,6 +45,7 @@ label = "Giữ 15"
 
 [[tom_tat_nhanh]]
 label = "Lên 16"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Đây là câu hỏi **cuối series** iPhone 15 Pro Max: đã có (hoặc sắp mua) 15 Pro Max, **có đáng bỏ thêm tiền lên 16 Pro Max** không? Không có đáp án chung — chỉ có **đáp án đúng với ngân sách và tay bạn**.

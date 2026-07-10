@@ -33,7 +33,7 @@ title = "Quick summary"
 collapsed = false
 disclaimer = "This article is based on GitHub's public status information and should be verified against GitHub Status before operational decisions."
 items = ["GitHub Status shows systems operational again after the July 9, 2026 Actions and Pages incident, but teams should still verify their own pipeline state.", "A recovered platform does not automatically mean every queued, cancelled, or failed workflow has been redeployed successfully.", "Static-site owners should verify the live URL, the latest deployed commit, Pages build history, and any failed Actions runs before declaring the incident over for their own site.", "The best response after recovery is to rerun only the latest necessary deploy, cancel superseded jobs, and keep non-essential automation paused until the pipeline is stable."]
-image_attribution_checked_at = "2026-07-10T14:01:37+07:00"
+image_attribution_checked_at = "2026-07-10T18:56:43+07:00"
 image_total_score = 50.0
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++

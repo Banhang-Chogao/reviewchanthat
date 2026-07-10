@@ -5,18 +5,16 @@ categories = ["du-lich"]
 date = "2026-07-08T09:30:00+07:00"
 description = "Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên thực tế."
 draft = false
-image = "images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp"
-image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
+image = "images/posts/fallback.webp"
+image_attribution_checked_at = "2026-07-10T18:47:50+07:00"
 image_attribution_source = "pixabay_api"
 image_attribution_verified = true
 image_commercial_use = true
-image_creator = "jarmoluk"
 image_creator_id = "143740"
-image_creator_url = "https://pixabay.com/users/jarmoluk-143740/"
-image_license = "Pixabay Content License"
+image_license = "Self-owned"
 image_license_url = "https://pixabay.com/service/license-summary/"
-image_owner = "external"
-image_source = "Pixabay"
+image_owner = "self"
+image_source = "self"
 image_source_url = "https://pixabay.com/vi/photos/k%C3%ADnh-b%E1%BA%A3o-h%E1%BB%99-m%C3%B9a-%C4%91%C3%B4ng-tr%C6%B0%E1%BB%A3t-tuy%E1%BA%BFt-428610/"
 seo_title = "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở"
 series = "truot-tuyet"
@@ -24,7 +22,7 @@ series_order = 4
 series_title = "Trượt tuyết Hàn Quốc"
 slug = "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet"
 tags = ["du lịch Hàn Quốc", "Yongpyong", "Pyeongchang", "trượt tuyết Hàn Quốc", "ski resort Hàn Quốc", "Olympic PyeongChang", "gangwon-do", "series trượt tuyết"]
-thumbnail = "images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp"
+thumbnail = "images/posts/fallback.webp"
 title = "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?"
 date_display = "08-07-2026 09:30:00 GMT +7"
 
@@ -78,6 +76,8 @@ label = "Đi mùa nào hợp"
 
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
+image_status = "needs_review"
+image_reject_reason = "No verified image available after processing"
 +++
 
 Yongpyong là cái tên ai tìm kiếm ski resort Hàn Quốc cũng gặp — resort lớn nhất xứ Hàn với 28 slope, từng là địa điểm Olympic 2018. Nhưng lớn nhất không có nghĩa là phù hợp nhất với tất cả mọi người.
