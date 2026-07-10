@@ -415,22 +415,67 @@
     duplicateTrip() {
       if (!this.currentTrip) return;
 
+      fetch('/api/travel-planner/duplicate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source_trip_id: this.currentTrip.id })
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (data.success) {
+          this.showSuccess('Chuyến đi đã được nhân bản');
+          this.loadTripsFromR2();
+        } else {
+          this.showError('Failed to duplicate trip');
+        }
+      })
+      .catch(err => {
+        console.error('Duplicate error:', err);
+        this.showError('Error duplicating trip. Using local fallback.');
+        this.duplicateTripLocally();
+      });
+    }
+
+    duplicateTripLocally() {
+      // Fallback if API fails
+      if (!this.currentTrip) return;
       const trip = JSON.parse(JSON.stringify(this.currentTrip));
       trip.id = Date.now();
       trip.createdAt = new Date().toISOString();
-
       this.trips.push(trip);
-      this.saveTrips();
-
-      this.showSuccess('Chuyến đi đã được nhân bản');
+      this.saveTripsLocally();
+      this.showSuccess('Chuyến đi đã được nhân bản (local cache)');
     }
 
     deleteTrip() {
       if (!this.currentTrip) return;
 
-      this.trips = this.trips.filter(t => t.id !== this.currentTrip.id);
-      this.saveTrips();
+      fetch(`/api/travel-planner/${this.currentTrip.id}`, {
+        method: 'DELETE'
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (data.success) {
+          this.currentTrip = null;
+          document.getElementById('tpResult').style.display = 'none';
+          this.clearForm();
+          this.loadTripsFromR2();
+        } else {
+          this.showError('Failed to delete trip');
+        }
+      })
+      .catch(err => {
+        console.error('Delete error:', err);
+        this.showError('Error deleting trip. Using local fallback.');
+        this.deleteTripLocally();
+      });
+    }
 
+    deleteTripLocally() {
+      // Fallback if API fails
+      if (!this.currentTrip) return;
+      this.trips = this.trips.filter(t => t.id !== this.currentTrip.id);
+      this.saveTripsLocally();
       this.currentTrip = null;
       document.getElementById('tpResult').style.display = 'none';
       this.clearForm();
@@ -501,12 +546,95 @@
       return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     }
 
+    loadTripsFromR2() {
+      // Load trips from R2 via API
+      fetch('/api/travel-planner/list')
+        .then(r => r.json())
+        .then(data => {
+          if (data.success) {
+            // Map R2 trip format to local format
+            this.trips = (data.trips || []).map(t => ({
+              trip_id: t.trip_id,
+              destination: t.destination,
+              country: t.country,
+              departure: t.departure,
+              return_date: t.return_date,
+              updated_at: t.updated_at,
+              created_at: t.created_at
+            }));
+            // Also cache locally for offline use
+            this.saveTripsLocally();
+          }
+        })
+        .catch(err => {
+          console.warn('Failed to load trips from R2, using local cache:', err);
+          this.loadTripsLocally();
+        });
+    }
+
+    saveToR2() {
+      // Save current trip to R2
+      if (!this.currentTrip) return;
+
+      fetch('/api/travel-planner/save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(this.currentTrip)
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (data.success) {
+          this.currentTrip = data.data;
+          console.log('Trip saved to R2:', data.trip_id);
+          // Show cloud saved indicator (if UI has one)
+          this.showCloudSavedBadge();
+          // Also cache locally
+          this.saveTripsLocally();
+        }
+      })
+      .catch(err => {
+        console.error('Failed to save to R2:', err);
+        // Fall back to local storage
+        this.saveTripsLocally();
+      });
+    }
+
+    showCloudSavedBadge() {
+      // TODO: Add UI indicator that trip is synced to cloud
+      const badge = document.createElement('div');
+      badge.className = 'travel-planner__cloud-saved-badge';
+      badge.textContent = '☁️ Saved to R2';
+      badge.style.position = 'fixed';
+      badge.style.bottom = '20px';
+      badge.style.right = '20px';
+      badge.style.padding = '8px 12px';
+      badge.style.background = '#10b981';
+      badge.style.color = 'white';
+      badge.style.borderRadius = '4px';
+      badge.style.fontSize = '12px';
+      badge.style.zIndex = '9999';
+      document.body.appendChild(badge);
+      setTimeout(() => badge.remove(), 3000);
+    }
+
     loadTrips() {
+      // On page load, try to load from R2 first, fall back to local
+      this.loadTripsFromR2();
+    }
+
+    loadTripsLocally() {
+      // Load from browser localStorage (offline cache)
       const stored = localStorage.getItem('travelPlannerTrips');
       this.trips = stored ? JSON.parse(stored) : [];
     }
 
     saveTrips() {
+      // Save to R2 with local fallback
+      this.saveToR2();
+    }
+
+    saveTripsLocally() {
+      // Save to browser localStorage (offline cache)
       localStorage.setItem('travelPlannerTrips', JSON.stringify(this.trips));
     }
   }
