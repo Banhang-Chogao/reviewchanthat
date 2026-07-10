@@ -1,23 +1,3 @@
----
-date: 2026-07-10T06:00:00+07:00
-image: static/images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-10T06:58:19+07:00"
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Tima Miroshnichenko
-image_creator_id: 3088726
-image_creator_url: "https://www.pexels.com/@tima-miroshnichenko"
-image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
-image_owner: external
-image_provider: pexels
-image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/"
-image_status: verified
-thumbnail: static/images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp
----
-
 +++
 title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
 date = 2026-07-10T08:00:00+07:00
