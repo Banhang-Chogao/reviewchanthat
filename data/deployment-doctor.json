@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T04:30:22+07:00",
-  "generated_at_display": "11-07-2026 04:30:22",
+  "generated_at": "2026-07-11T04:42:11+07:00",
+  "generated_at_display": "11-07-2026 04:42:11",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -517,15 +517,14 @@
     {
       "run_id": "29123278252",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: d568b489ac01:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29122761078",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 892f854b0429:workflow_fanout already attempted 2 times"
     }
   ],
   "loop_guarded": [
