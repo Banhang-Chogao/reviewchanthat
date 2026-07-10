@@ -1,0 +1,137 @@
+{{ define "main" }}
+<article class="income-insights">
+  <div class="income-insights__header container">
+    <h1 class="income-insights__title">Income Insights</h1>
+    <button class="income-insights__lock-btn" id="incomeLockBtn" title="Khóa truy cập" style="display:none">Khóa</button>
+  </div>
+
+  <div class="income-gate" id="incomeGate">
+    <div class="income-gate__card">
+      <h2 class="income-gate__heading">Income Insights</h2>
+      <p class="income-gate__desc">Nhập mã truy cập để sử dụng công cụ quản lý thu nhập &amp; nợ.</p>
+      <div class="income-gate__form">
+        <input type="password" id="incomeGateInput" class="income-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="Mã số">
+        <button class="income-gate__unlock" id="incomeGateUnlock">Mở khóa</button>
+      </div>
+      <p class="income-gate__error" id="incomeGateError"></p>
+      <p class="income-gate__hint">Dùng lại mã truy cập của mục Author trong About.</p>
+    </div>
+  </div>
+
+  <div class="income-app container" id="incomeApp" style="display:none">
+    <div class="income-app__toolbar">
+      <div class="income-app__month-picker">
+        <label class="income-app__label">Tháng</label>
+        <select id="incomeFilterMonth" class="income-app__select"></select>
+        <label class="income-app__label">Năm</label>
+        <select id="incomeFilterYear" class="income-app__select"></select>
+      </div>
+      <div class="income-app__actions">
+        <button class="income-app__btn" id="incomeAddRow">+ Thêm dòng</button>
+        <button class="income-app__btn" id="incomeImportBtn">Import</button>
+        <button class="income-app__btn income-app__btn--export" id="incomeExportBtn">Export</button>
+        <button class="income-app__btn income-app__btn--danger" id="incomeClearBtn">Xóa dữ liệu</button>
+        <button class="income-app__btn" id="incomeSampleBtn">Dữ liệu mẫu</button>
+        <button class="income-app__btn" id="incomeCSVBtn">Export CSV</button>
+      </div>
+      <div class="income-app__undo">
+        <button class="income-app__btn income-app__btn--small" id="incomeUndoBtn" disabled>↩ Hoàn tác</button>
+      </div>
+    </div>
+
+    <div class="income-kpis">
+      <div class="income-kpi">
+        <span class="income-kpi__label">Tổng Income</span>
+        <span class="income-kpi__value" id="kpiIncome">0</span>
+      </div>
+      <div class="income-kpi">
+        <span class="income-kpi__label">Tổng Debt</span>
+        <span class="income-kpi__value income-kpi__value--danger" id="kpiDebt">0</span>
+      </div>
+      <div class="income-kpi">
+        <span class="income-kpi__label">Net</span>
+        <span class="income-kpi__value" id="kpiNet">0</span>
+      </div>
+      <div class="income-kpi">
+        <span class="income-kpi__label">Debt/Income</span>
+        <span class="income-kpi__value" id="kpiRatio">0%</span>
+      </div>
+    </div>
+
+    <div class="income-table-wrap">
+      <table class="income-table" id="incomeTable">
+        <thead>
+          <tr>
+            <th class="income-table__col-seq" data-col="sequence">STT</th>
+            <th class="income-table__col-income" data-col="income">Income</th>
+            <th class="income-table__col-label" data-col="incomeLabel">Income Label</th>
+            <th class="income-table__col-debt" data-col="debt">Debt</th>
+            <th class="income-table__col-label" data-col="debtLabel">Debt Label</th>
+            <th class="income-table__col-total" data-col="subTotal">Sub Total</th>
+            <th class="income-table__col-type" data-col="transactionType">Type</th>
+            <th class="income-table__col-route" data-col="route">Route</th>
+            <th class="income-table__col-remark" data-col="remark">Remark</th>
+            <th class="income-table__col-date" data-col="date">Date</th>
+            <th class="income-table__col-d" data-col="day">Day</th>
+            <th class="income-table__col-m" data-col="month">Month</th>
+            <th class="income-table__col-y" data-col="year">Year</th>
+            <th class="income-table__col-actions">Hành động</th>
+          </tr>
+        </thead>
+        <tbody id="incomeTableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="income-charts" id="incomeCharts">
+      <div class="income-charts__grid">
+        <div class="income-chart-box">
+          <h3 class="income-chart-box__title">Income vs Debt</h3>
+          <div class="income-chart-box__canvas-wrap"><canvas id="chartIncomeVsDebt"></canvas></div>
+        </div>
+        <div class="income-chart-box">
+          <h3 class="income-chart-box__title">Net Cash Flow</h3>
+          <div class="income-chart-box__canvas-wrap"><canvas id="chartCashFlow"></canvas></div>
+        </div>
+        <div class="income-chart-box">
+          <h3 class="income-chart-box__title">Nợ theo nhóm</h3>
+          <div class="income-chart-box__canvas-wrap"><canvas id="chartDebtByLabel"></canvas></div>
+        </div>
+        <div class="income-chart-box">
+          <h3 class="income-chart-box__title">Thu nhập theo nhóm</h3>
+          <div class="income-chart-box__canvas-wrap"><canvas id="chartIncomeByLabel"></canvas></div>
+        </div>
+        <div class="income-chart-box">
+          <h3 class="income-chart-box__title">Loại giao dịch</h3>
+          <div class="income-chart-box__canvas-wrap"><canvas id="chartTransactionType"></canvas></div>
+        </div>
+        <div class="income-chart-box">
+          <h3 class="income-chart-box__title">Route</h3>
+          <div class="income-chart-box__canvas-wrap"><canvas id="chartRoute"></canvas></div>
+        </div>
+        <div class="income-chart-box">
+          <h3 class="income-chart-box__title">Xu hướng tháng</h3>
+          <div class="income-chart-box__canvas-wrap"><canvas id="chartMonthlyTrend"></canvas></div>
+        </div>
+        <div class="income-chart-box">
+          <h3 class="income-chart-box__title">Debt/Income Ratio</h3>
+          <div class="income-chart-box__canvas-wrap"><canvas id="chartRatio"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="income-insights-box" id="incomeInsightsBox">
+      <h2 class="income-insights-box__title">AI Insights</h2>
+      <p class="income-insights-box__disclaimer">Nhận xét được tạo tự động từ dữ liệu bạn nhập, chỉ dùng để tham khảo. Đây không phải tư vấn tài chính.</p>
+      <div class="income-insights-box__content" id="incomeInsightsContent">
+        <p class="income-insights-box__empty">Chưa có dữ liệu để phân tích.</p>
+      </div>
+    </div>
+  </div>
+</article>
+
+{{ $insightsCss := resources.Get "css/income-insights.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $insightsCss.RelPermalink }}" integrity="{{ $insightsCss.Data.Integrity }}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+<script src="{{ "js/income-insights-engine.js" | relURL }}" defer></script>
+<script src="{{ "js/income-insights.js" | relURL }}" defer></script>
+{{ end }}
