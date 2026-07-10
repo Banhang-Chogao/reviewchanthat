@@ -6,13 +6,28 @@
       <div class="travel-planner__hero-title-row">
         <h1 class="travel-planner__hero-title">AI Travel Planner</h1>
         <div class="travel-planner__version" id="tpVersionBadge">Phiên bản dịch vụ: {{ .Site.Data.version.version_date }}-{{ .Site.Data.version.commit_short }}</div>
+        <button class="travel-planner__lock-btn" id="tpLockBtn" style="display:none">Reset</button>
       </div>
       <p class="travel-planner__hero-subtitle">Lập kế hoạch chuyến đi chuyên nghiệp với AI. Phù hợp để nộp hồ sơ xin visa.</p>
     </div>
   </div>
 
+  <!-- Access Gate -->
+  <div class="tp-gate" id="tpGate">
+    <div class="tp-gate__card">
+      <h2 class="tp-gate__heading">AI Travel Planner</h2>
+      <p class="tp-gate__desc">Nhập mã truy cập để sử dụng công cụ lập kế hoạch du lịch.</p>
+      <div class="tp-gate__form">
+        <input type="password" id="tpGateInput" class="tp-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="Mã số">
+        <button class="tp-gate__unlock" id="tpGateUnlock">Mở khóa</button>
+      </div>
+      <p class="tp-gate__error" id="tpGateError"></p>
+      <p class="tp-gate__hint">Dùng lại mã truy cập của mục Author trong About.</p>
+    </div>
+  </div>
+
   <!-- Main Content -->
-  <div class="travel-planner__main container">
+  <div class="travel-planner__main container" id="tpApp" style="display:none">
     <!-- Input Section -->
     <div class="travel-planner__input-section">
       <form class="travel-planner__form">
@@ -185,8 +200,6 @@
         <h3 class="travel-planner__section-title">💾 Xuất dữ liệu</h3>
         <div class="travel-planner__export-buttons">
           <button class="travel-planner__export-btn" id="tpExportPDF">📄 PDF</button>
-          <button class="travel-planner__export-btn" id="tpExportExcel">📊 Excel</button>
-          <button class="travel-planner__export-btn" id="tpExportMarkdown">📝 Markdown</button>
           <button class="travel-planner__export-btn" id="tpExportPrint">🖨️ In</button>
         </div>
       </div>

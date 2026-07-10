@@ -1298,3 +1298,83 @@
 .tp-print-watermark {
   display: none;
 }
+
+/* === Access Gate === */
+.tp-gate {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+.tp-gate__card {
+  background: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e0e0e0);
+  border-radius: var(--radius-lg, 12px);
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.tp-gate__heading {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.tp-gate__desc {
+  font-size: 0.9rem;
+  color: var(--color-muted, #666);
+  margin-bottom: 1.5rem;
+}
+.tp-gate__form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.tp-gate__input {
+  width: 100px;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.5em;
+  padding: 0.5rem;
+  border: 2px solid var(--color-border, #e0e0e0);
+  border-radius: var(--radius, 6px);
+  font-family: inherit;
+}
+.tp-gate__input:focus {
+  outline: none;
+  border-color: var(--color-primary, #00A7A0);
+}
+.tp-gate__unlock {
+  background: var(--color-primary, #00A7A0);
+  color: #fff;
+  border: 0;
+  padding: 0.5rem 1.5rem;
+  border-radius: var(--radius, 6px);
+  cursor: pointer;
+  font-size: 1rem;
+  min-height: 44px;
+  font-family: inherit;
+}
+.tp-gate__error {
+  color: var(--chip-red, #e74c3c);
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+  min-height: 1.2em;
+}
+.tp-gate__hint {
+  font-size: 0.8rem;
+  color: var(--color-muted, #999);
+  margin-top: 1rem;
+}
+.travel-planner__lock-btn {
+  background: var(--chip-red, #e74c3c);
+  color: #fff;
+  border: 0;
+  padding: 0.5rem 1.25rem;
+  border-radius: var(--radius, 6px);
+  cursor: pointer;
+  font-size: 0.875rem;
+  min-height: 44px;
+}
+.dark-mode .tp-gate__card {
+  background: var(--color-surface, #1e1e1e);
+}

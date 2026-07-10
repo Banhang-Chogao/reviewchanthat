@@ -1,425 +1,300 @@
 (function() {
   'use strict';
 
-  const IATA_DATABASE = {
-    'ICN': { city: 'Incheon', country: 'South Korea', timezone: 'Asia/Seoul' },
-    'NRT': { city: 'Tokyo', country: 'Japan', timezone: 'Asia/Tokyo' },
-    'HND': { city: 'Tokyo', country: 'Japan', timezone: 'Asia/Tokyo' },
-    'KIX': { city: 'Osaka', country: 'Japan', timezone: 'Asia/Tokyo' },
-    'BKK': { city: 'Bangkok', country: 'Thailand', timezone: 'Asia/Bangkok' },
-    'SIN': { city: 'Singapore', country: 'Singapore', timezone: 'Asia/Singapore' },
-    'SGN': { city: 'Ho Chi Minh City', country: 'Vietnam', timezone: 'Asia/Ho_Chi_Minh' },
-    'HAN': { city: 'Hanoi', country: 'Vietnam', timezone: 'Asia/Ho_Chi_Minh' },
-    'CDG': { city: 'Paris', country: 'France', timezone: 'Europe/Paris' },
-    'DXB': { city: 'Dubai', country: 'UAE', timezone: 'Asia/Dubai' },
-    'LHR': { city: 'London', country: 'UK', timezone: 'Europe/London' }
-  };
+  var DESTINATIONS_DATA = null;
+  var DATA_LOADED = false;
 
-  const WEATHER_PATTERNS = {
-    'ICN': { season: 'Fall/Winter', temp: '5-15°C', conditions: 'Clear, sometimes cold' },
-    'NRT': { season: 'Fall', temp: '10-20°C', conditions: 'Pleasant, occasional rain' },
-    'KIX': { season: 'Fall', temp: '12-22°C', conditions: 'Clear, moderate humidity' },
-    'BKK': { season: 'Cool', temp: '25-35°C', conditions: 'Hot, humid, occasional rain' },
-    'SIN': { season: 'Tropical', temp: '24-32°C', conditions: 'Hot, humid, frequent rain' },
-    'SGN': { season: 'Cool', temp: '20-30°C', conditions: 'Warm, occasional rain' },
-    'HAN': { season: 'Cool', temp: '15-25°C', conditions: 'Pleasant, clear' },
-    'CDG': { season: 'Summer', temp: '15-25°C', conditions: 'Pleasant, occasional rain' },
-    'DXB': { season: 'Winter', temp: '15-28°C', conditions: 'Sunny, warm days, cool nights' },
-    'LHR': { season: 'Summer', temp: '12-20°C', conditions: 'Variable, frequent rain' }
-  };
+  function getSeason(month) {
+    if (month >= 3 && month <= 5) return 'spring';
+    if (month >= 6 && month <= 8) return 'summer';
+    if (month >= 9 && month <= 11) return 'autumn';
+    return 'winter';
+  }
 
-  const BUDGET_RANGES = {
-    'luxury': { daily: 300, hotel: 150, food: 80, activities: 70 },
-    'mid-range': { daily: 150, hotel: 60, food: 50, activities: 40 },
-    'budget': { daily: 80, hotel: 30, food: 30, activities: 20 }
-  };
+  function getSeasonSouthern(month) {
+    if (month >= 9 && month <= 11) return 'spring';
+    if (month >= 12 || month <= 2) return 'summer';
+    if (month >= 3 && month <= 5) return 'autumn';
+    return 'winter';
+  }
+
+  function getTropicalSeason(month) {
+    if (month >= 11 || month <= 2) return 'cool';
+    if (month >= 3 && month <= 6) return 'hot';
+    return 'rainy';
+  }
+
+  function resolveWeather(dest, month) {
+    var weather = dest && dest.weather;
+    if (!weather) return { temp: '20-30°C', conditions: 'Variable' };
+
+    // Check tropical pattern (Bangkok, HCMC, Singapore)
+    var tropical = weather['cool'] || weather['hot'];
+    if (tropical) {
+      var key = getTropicalSeason(month);
+      var data = weather[key] || weather['year_round'];
+      return data || { temp: '25-33°C', conditions: 'Tropical' };
+    }
+
+    // Spring/Summer/Autumn/Winter pattern
+    var season = weather['spring'] ? getSeason(month) : getSeasonSouthern(month);
+    var data = weather[season] || weather['year_round'];
+    return data || { temp: '20-25°C', conditions: 'Pleasant' };
+  }
+
+  function getCurrencySymbol(currency) {
+    var map = { 'JPY': '¥', 'KRW': '₩', 'THB': '฿', 'SGD': 'S$', 'EUR': '€', 'VND': '₫', 'AED': 'د.إ', 'GBP': '£', 'USD': '$' };
+    return map[currency] || currency;
+  }
+
+  function shuffle(arr) {
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+    }
+    return a;
+  }
 
   class TravelAIEngine {
+    static getData() {
+      return DESTINATIONS_DATA;
+    }
+
+    static async ensureDataLoaded() {
+      if (DATA_LOADED) return;
+      try {
+        var resp = await fetch('/reviewchanthat/data/travel-destinations.json');
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        DESTINATIONS_DATA = await resp.json();
+        DATA_LOADED = true;
+      } catch (e) {
+        console.warn('Could not load curated dataset, using built-in fallback');
+        DESTINATIONS_DATA = {};
+        DATA_LOADED = true;
+      }
+    }
+
+    static lookupDest(iataOrCity) {
+      if (!DESTINATIONS_DATA) return null;
+      var key = iataOrCity ? iataOrCity.toUpperCase() : '';
+      var entry = DESTINATIONS_DATA[key] || DESTINATIONS_DATA[iataOrCity ? iataOrCity.toLowerCase().replace(/\s+/g, '_') : ''];
+      return entry || null;
+    }
+
     static async generateItinerary(tripData) {
-      try {
-        // Stage 1: Validate destination with hybrid pipeline
-        const destValidation = await this.validateDestinationWithPipeline(tripData);
-        if (!destValidation.success) {
-          console.warn('Destination validation failed, using local generation');
-          return this.generateLocalItinerary(tripData);
-        }
-
-        // Stage 2: Build prompt with validated destination context
-        const prompt = this.buildPrompt(tripData);
-
-        // Stage 3: Call backend AI service with pipeline context
-        const response = await fetch('/api/ai/generate-itinerary', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            destination: tripData.destination,
-            departure: tripData.departure,
-            returnDate: tripData.returnDate,
-            days: tripData.days,
-            adults: tripData.adults,
-            children: tripData.children,
-            budget: tripData.budget,
-            purposes: tripData.purposes,
-            visaMode: tripData.visaMode,
-            prompt: prompt,
-            destinationContext: destValidation.context
-          })
-        });
-
-        if (!response.ok) {
-          return this.generateLocalItinerary(tripData);
-        }
-
-        let itinerary = await response.json();
-        itinerary = this.formatItinerary(itinerary, tripData);
-
-        // Stage 4: Validate quality with hybrid pipeline
-        const qualityValidation = await this.validateQualityWithPipeline(itinerary, destValidation.context);
-        itinerary.quality = qualityValidation;
-
-        return itinerary;
-      } catch (error) {
-        console.warn('AI API failed, using local generation:', error);
-        return this.generateLocalItinerary(tripData);
-      }
-    }
-
-    static async validateDestinationWithPipeline(tripData) {
-      try {
-        const response = await fetch('/api/hybrid-planner/validate-destination', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(tripData.destinationData || {})
-        });
-
-        if (!response.ok) return { success: false };
-        return await response.json();
-      } catch (error) {
-        console.warn('Pipeline validation failed:', error);
-        return { success: false };
-      }
-    }
-
-    static async validateQualityWithPipeline(itinerary, destinationContext) {
-      try {
-        const response = await fetch('/api/hybrid-planner/validate-quality', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ itinerary, destination_context: destinationContext })
-        });
-
-        if (!response.ok) return { is_acceptable: true };
-        return await response.json();
-      } catch (error) {
-        console.warn('Quality validation failed:', error);
-        return { is_acceptable: true };
-      }
-    }
-
-    static buildPrompt(tripData) {
-      // Use full destination data from API instead of hardcoded IATA database
-      const destData = tripData.destinationData || {};
-      const city = destData.city || tripData.destination;
-      const country = destData.country || 'Unknown';
-      const iata = destData.iata || tripData.destination;
-      const timezone = destData.timezone || 'Unknown';
-      const coordinates = destData.latitude && destData.longitude
-        ? `${destData.latitude}, ${destData.longitude}`
-        : 'Unknown';
-      const budget = tripData.budget;
-      const purpose = tripData.purposes.join(', ') || 'tourism';
-
-      return `Create a professional ${tripData.days}-day travel itinerary for ${city}, ${country}.
-
-Destination Details (DO NOT HALLUCINATE - USE THESE EXACT VALUES):
-- City: ${city}
-- Country: ${country}
-- IATA Code: ${iata}
-- Timezone: ${timezone}
-- Coordinates: ${coordinates}
-
-Trip Details:
-- Duration: ${tripData.days} days (${tripData.departure} to ${tripData.returnDate})
-- Travelers: ${tripData.adults} adult(s), ${tripData.children} child(ren)
-- Budget Level: ${budget}
-- Purpose: ${purpose}
-
-Requirements:
-1. Daily schedule with Morning, Lunch, Afternoon, Dinner activities
-2. Optimize route (no backtracking, group nearby attractions)
-3. Mix cultural, entertainment, dining, and rest activities
-4. Include transportation tips and walking times
-5. Weather-aware recommendations
-6. Estimated budget breakdown
-7. Packing list recommendations
-8. Local emergency contacts and tips
-9. Airport arrival/departure instructions
-${tripData.visaMode === 'visa' ? '10. Professional visa application itinerary format' : ''}
-
-Format as JSON with structure:
-{
-  "weather": "description",
-  "weatherNotes": "what to pack/expect",
-  "hotelArea": "recommended neighborhood",
-  "transportation": "how to get around",
-  "estimatedBudget": "total estimate",
-  "packingList": ["item1", "item2", ...],
-  "localTips": "useful information",
-  "emergencyNumbers": "emergency contacts",
-  "airportNotes": "airport instructions",
-  "dailyItinerary": [
-    {
-      "morning": "activity",
-      "lunch": "recommendation",
-      "afternoon": "activity",
-      "dinner": "recommendation",
-      "notes": "special notes"
-    }
-  ],
-  "visaItinerary": [
-    {
-      "date": "YYYY-MM-DD",
-      "day": "Day 1",
-      "activity": "description",
-      "accommodation": "hotel area"
-    }
-  ]
-}`;
+      await this.ensureDataLoaded();
+      return this.generateLocalItinerary(tripData);
     }
 
     static generateLocalItinerary(tripData) {
-      // Use full destination data from API
-      const destData = tripData.destinationData || {};
-      const dest = {
-        city: destData.city || tripData.destination,
-        country: destData.country || 'Unknown',
-        iata: destData.iata || ''
-      };
+      var destData = tripData.destinationData || {};
+      var iata = destData.iata || '';
+      var city = destData.city || tripData.destination;
+      var country = destData.country || '';
+      var days = tripData.days || 1;
 
-      // Look up weather pattern by IATA or city name
-      const weatherKey = destData.iata || tripData.destination;
-      const weather = WEATHER_PATTERNS[weatherKey] || {
-        season: 'Seasonal',
-        temp: '20-25°C',
-        conditions: 'Variable'
-      };
-      const budget = BUDGET_RANGES[tripData.budget];
+      // Look up curated data
+      var curated = this.lookupDest(iata) || this.lookupDest(city);
+      var month = new Date(tripData.departure).getMonth() + 1;
+      var weather = resolveWeather(curated, month);
+      var budget = tripData.budget || 'mid-range';
 
-      const days = tripData.days;
-      const dailyItinerary = this.generateDailyActivities(dest, days, tripData.budget);
+      var dailyItinerary = this.generateDailyActivities(curated, city, country, days, budget, tripData);
+      var budgetDaily = { 'luxury': 300, 'mid-range': 150, 'budget': 80 };
+      var daily = budgetDaily[budget] || 150;
+      var totalMin = daily * days;
+      var totalMax = Math.round(daily * 1.3 * days);
 
       return {
-        weather: `${weather.season} (${weather.temp})`,
-        weatherNotes: weather.conditions,
-        hotelArea: this.suggestHotelArea(dest.city),
-        transportation: this.suggestTransport(dest.city),
-        estimatedBudget: `$${budget.daily * days} - $${budget.daily * 1.2 * days} (${tripData.adults} adult${tripData.adults > 1 ? 's' : ''}${tripData.children > 0 ? `, ${tripData.children} child(ren)` : ''})`,
-        packingList: this.getPackingList(weather, tripData.budget),
-        localTips: this.getLocalTips(dest.city),
-        emergencyNumbers: this.getEmergencyNumbers(dest.country),
-        airportNotes: this.getAirportNotes(dest.city),
+        weather: weather.temp + ', ' + weather.conditions,
+        weatherNotes: 'Packing: ' + this.getWeatherPackingAdvice(weather),
+        hotelArea: curated ? curated.hotel_areas : 'Central district near main attractions',
+        transportation: curated ? curated.transport : 'Public transit recommended. Download local ride-hailing app.',
+        estimatedBudget: getCurrencySymbol(curated && curated.currency) + totalMin.toLocaleString() + ' - ' + getCurrencySymbol(curated && curated.currency) + totalMax.toLocaleString() + ' (' + tripData.adults + ' adult(s)' + (tripData.children > 0 ? ', ' + tripData.children + ' child(ren)' : '') + ')',
+        packingList: this.getPackingList(weather, budget),
+        localTips: curated ? curated.local_tips : 'Check local customs and be respectful. Download offline maps. Learn basic phrases.',
+        emergencyNumbers: curated ? curated.emergency_numbers : 'Call your embassy. Local 999/911 variants exist.',
+        airportNotes: curated ? curated.airport_notes : 'Ask hotel for airport transfer recommendations.',
         dailyItinerary: dailyItinerary,
         visaItinerary: this.generateVisaItinerary(tripData, dailyItinerary)
       };
     }
 
-    static generateDailyActivities(dest, days, budget) {
-      const activities = [];
+    static getWeatherPackingAdvice(weather) {
+      var temp = weather.temp || '';
+      var cond = weather.conditions || '';
+      var avgTemp = 25;
+      var matches = temp.match(/(\d+)/g);
+      if (matches && matches.length > 0) {
+        var sum = 0;
+        for (var i = 0; i < matches.length; i++) sum += parseInt(matches[i], 10);
+        avgTemp = sum / matches.length;
+      }
 
-      for (let i = 0; i < days; i++) {
-        let activity = {
-          morning: this.getActivity(dest.city, 'morning', i),
-          lunch: this.getActivity(dest.city, 'lunch', i),
-          afternoon: this.getActivity(dest.city, 'afternoon', i),
-          dinner: this.getActivity(dest.city, 'dinner', i),
-          notes: ''
-        };
+      if (avgTemp > 30) return 'Light cotton clothing, sunscreen, hat, sunglasses, reusable water bottle. Avoid synthetic fabrics.';
+      if (avgTemp > 25) return 'Light layers, T-shirts, shorts/skirts, sunscreen, rain jacket for sudden showers.';
+      if (avgTemp > 18) return 'Light jacket or sweater for evenings. Comfortable walking shoes. Versatile layers work best.';
+      if (avgTemp > 10) return 'Warm layers, medium jacket, closed shoes. Umbrella recommended. Scarf for windy days.';
+      return 'Winter coat, thermal layers, gloves, warm hat, scarf, waterproof boots. Pack hand warmers for extreme cold.';
+    }
+
+    static generateDailyActivities(curated, city, country, days, budget, tripData) {
+      var fallbackActs = {
+        morning: ['Explore the city center and main landmarks', 'Visit the local market', 'Walking tour of historic district', 'Visit a local museum'],
+        lunch: ['Try local cuisine at a recommended restaurant', 'Street food lunch at popular spot', 'Lunch with a view of main square', 'Market food court lunch'],
+        afternoon: ['Shopping at local boutiques', 'Visit cultural sites', 'Explore neighborhoods', 'Relax at a cafe'],
+        dinner: ['Dinner at local specialty restaurant', 'Night market exploration', 'Rooftop dining', 'Local cuisine experience']
+      };
+
+      var curatedActs = curated && curated.activities || fallbackActs;
+      var pool = {};
+      var tods = ['morning', 'lunch', 'afternoon', 'dinner'];
+      for (var t = 0; t < tods.length; t++) {
+        var tod = tods[t];
+        var items = curatedActs[tod] || fallbackActs[tod] || [];
+        pool[tod] = shuffle(items);
+      }
+
+      var activities = [];
+      for (var i = 0; i < days; i++) {
+        var act = { morning: '', lunch: '', afternoon: '', dinner: '', notes: '' };
 
         if (i === 0) {
-          activity.morning = `Arrival at airport, take AREX/taxi to hotel`;
-          activity.notes = 'Rest and acclimatize, explore hotel area';
+          act.morning = 'Arrival at airport and transfer to hotel. Check-in and rest.';
+          act.notes = 'Rest and acclimatize. Explore the hotel area in the evening.';
+          // For remaining day 1 activities, use curated picks
+          act.lunch = this.pickActivity(pool, 'lunch', i);
+          act.afternoon = this.pickActivity(pool, 'afternoon', i);
+          act.dinner = this.pickActivity(pool, 'dinner', i);
         } else if (i === days - 1) {
-          activity.morning = `Hotel checkout, prepare for departure`;
-          activity.lunch = 'Lunch at airport or en route';
-          activity.afternoon = 'Depart for airport';
-          activity.dinner = 'In-flight meal';
+          act.morning = 'Hotel checkout and prepare for departure. Last-minute souvenir shopping.';
+          act.lunch = 'Lunch at airport or en route to airport.';
+          act.afternoon = 'Transfer to airport, check-in, and security.';
+          act.dinner = 'In-flight meal or dinner at departure airport.';
+          act.notes = 'Departure day. Arrive at airport 3 hours before international flight.';
+        } else {
+          act.morning = this.pickActivity(pool, 'morning', i);
+          act.lunch = this.pickActivity(pool, 'lunch', i);
+          act.afternoon = this.pickActivity(pool, 'afternoon', i);
+          act.dinner = this.pickActivity(pool, 'dinner', i);
+
+          // Add day-specific notes
+          var dayNotes = this.getDayNotes(i, days, city);
+          if (dayNotes) act.notes = dayNotes;
         }
 
-        activities.push(activity);
+        activities.push(act);
       }
 
       return activities;
     }
 
-    static getActivity(city, timeOfDay, dayIndex) {
-      const activities = {
-        'Tokyo': {
-          morning: ['Visit Senso-ji Temple', 'Explore Tsukiji Market', 'Shibuya Crossing walk', 'Meiji Shrine visit'],
-          lunch: ['Conveyor belt sushi', 'Ramen at Ichiran', 'Tonkatsu at Maisen', 'Izakaya lunch'],
-          afternoon: ['Harajuku street fashion shopping', 'Teamlab Digital Museum', 'Shinjuku neon district', 'Museum visit'],
-          dinner: ['Kaiseki experience', 'Yakitori at local izakaya', 'Okonomiyaki in Hiroshima-style', 'Tempura omakase']
-        },
-        'Seoul': {
-          morning: ['Gyeongbokgung Palace tour', 'N Seoul Tower sunrise', 'Bukchon Hanok Village', 'Insadong art street'],
-          lunch: ['Bibimbap at Myeongdong', 'Banchan experience', 'Samgyetang (ginseng chicken)', 'Korean BBQ'],
-          afternoon: ['Myeongdong shopping', 'Ewha University street', 'Tricks Eye Museum', 'Gangnam district'],
-          dinner: ['Korean BBQ', 'Street food at Myeongdong', 'Pojangmacha (street stall)', 'Galbijjim']
-        },
-        'Bangkok': {
-          morning: ['Wat Phra Kaew (Grand Palace)', 'Wat Arun temple', 'Chao Phraya River cruise', 'Floating markets'],
-          lunch: ['Tom Yum at Pratunam', 'Pad Thai street vendor', 'Mango sticky rice', 'Seafood at Or Tor Kor'],
-          afternoon: ['Chatuchak Weekend Market', 'Lumphini Park', 'Jim Thompson House', 'Shopping mall exploration'],
-          dinner: ['Rooftop bar at Vertigo', 'Street food tour', 'Thai massage + dinner', 'Riverside restaurant']
-        },
-        'Singapore': {
-          morning: ['Gardens by the Bay', 'Marina Bay Sands observation deck', 'Merlion Park photo', 'Botanic Gardens'],
-          lunch: ['Hawker center at Tiong Bahru', 'Laksa at Zion Road', 'Dim sum in Chinatown', 'Food court meal'],
-          afternoon: ['Orchard Road shopping', 'National Museum', 'Arab Street exploration', 'ArtScience Museum'],
-          dinner: ['Fine dining at Marina Bay', 'Chinatown street food', 'Kampong Glam experience', 'Rooftop dinner']
-        },
-        'Paris': {
-          morning: ['Eiffel Tower visit', 'Louvre Museum', 'Arc de Triomphe', 'Notre-Dame Cathedral'],
-          lunch: ['Cafe at Seine', 'Bistro classic', 'Croissant + coffee', 'Market fresh lunch'],
-          afternoon: ['Sacré-Cœur basilica', 'Montmartre walk', 'Musée d\'Orsay', 'Shopping on Champs-Élysées'],
-          dinner: ['Traditional bistro', 'Brasserie dinner', 'Seine river dinner cruise', 'Latin Quarter dining']
-        },
-        'Hanoi': {
-          morning: ['Hoan Kiem Lake sunrise', 'Old Quarter exploration', 'Temple of Literature', 'Ho Tay (West Lake)'],
-          lunch: ['Pho at local restaurant', 'Egg coffee with traditional Vietnamese', 'Bun Cha', 'Fresh spring rolls'],
-          afternoon: ['Water puppet theater', 'Hanoi night market', 'Temple visit', 'Cycling around Old Quarter'],
-          dinner: ['Street food tour', 'Traditional Vietnamese', 'Rooftop bar', 'Local market dining']
-        }
-      };
-
-      const cityActivities = activities[city] || activities['Bangkok'];
-      const timeActivities = cityActivities[timeOfDay] || [];
-
-      return timeActivities[dayIndex % timeActivities.length] || `Explore ${city}`;
+    static pickActivity(pool, tod, dayIndex) {
+      var items = pool[tod] || [];
+      if (items.length === 0) return 'Explore ' + tod;
+      // Use dayIndex modulo but shuffled, so different each time
+      return items[dayIndex % items.length];
     }
 
-    static suggestHotelArea(city) {
-      const areas = {
-        'Tokyo': 'Shinjuku, Shibuya, or Asakusa (central, good transit)',
-        'Seoul': 'Myeongdong, Gangnam, or Insadong (close to attractions)',
-        'Bangkok': 'Silom, Sukhumvit, or Riverside (easy BTS access)',
-        'Singapore': 'Marina Bay, Chinatown, or Orchard (central, walkable)',
-        'Paris': '5th/6th Arrondissement, Marais, or near Eiffel Tower',
-        'Hanoi': 'Old Quarter, Hoan Kiem area (walkable, vibrant)',
-        'Ho Chi Minh City': 'District 1 (Dong Khoi), Ben Thanh area',
-        'Osaka': 'Dotonbori, Umeda, or Namba (central, lively)'
-      };
-
-      return areas[city] || 'Central district near main attractions';
-    }
-
-    static suggestTransport(city) {
-      const transports = {
-        'Tokyo': 'IC Card (Suica/Pasmo) for train/subway. Efficient rail system covers entire city.',
-        'Seoul': 'T-money card for subway/bus. Clean, fast metro system with English signage.',
-        'Bangkok': 'BTS Skytrain pass recommended. Tuk-tuk for local flavor (negotiate fare first).',
-        'Singapore': 'EZ-Link card for MRT/bus. Uber/Grab apps work well.',
-        'Paris': 'Paris Visite pass or carnet of 10 tickets. Excellent metro system.',
-        'Hanoi': 'Grab/Uber for reliable transport. Taxis or motorbike taxis (Grab Bike).',
-        'Ho Chi Minh City': 'Grab app for taxis/bikes. Buses available, taxis recommended.',
-        'Osaka': 'ICOCA card for trains/subway. Excellent transport connections.'
-      };
-
-      return transports[city] || 'Local taxi apps (Grab/Uber) or public transport cards recommended.';
+    static getDayNotes(dayIndex, totalDays, city) {
+      var notes = [
+        'Consider booking popular restaurants in advance for dinner.',
+        'Stay hydrated and wear comfortable walking shoes.',
+        'Check opening hours for attractions before heading out.',
+        'Try to experience local transportation at least once during your stay.',
+        'Take a morning walk to photograph the city before crowds arrive.',
+      ];
+      var midTrip = [
+        'Halfway through your trip — review your remaining must-sees and adjust plans.',
+        'Consider a local cooking class or cultural experience today.',
+        'Take it easy today — a relaxed day is part of a great vacation.',
+        'Visit a viewpoint or observation deck for panoramic city photos.',
+        'Explore a neighborhood outside the tourist center for authentic experiences.',
+      ];
+      var pool = dayIndex < totalDays / 2 ? notes : midTrip;
+      return pool[dayIndex % pool.length];
     }
 
     static getPackingList(weather, budget) {
-      const baseList = [
-        'Passport & copies',
+      var base = [
+        'Passport & photocopies',
         'Travel insurance documents',
-        'Credit cards & cash',
-        'Phone chargers',
-        'Universal adapter',
-        'Comfortable walking shoes',
-        'Casual clothing (2-3 sets)',
-        'Underwear & socks',
-        'Light jacket/sweater',
-        'Toiletries (or buy locally)',
-        'Medications (if needed)',
-        'Sunscreen & sunglasses',
-        'Small umbrella'
+        'Credit/debit cards & emergency cash',
+        'Smartphone & charger cables',
+        'Universal power adapter',
+        'Comfortable walking shoes (already broken in)',
+        'Casual clothing sets (3-4)',
+        'Underwear & socks (1 pair per day + 2 extra)',
+        'Light jacket or hoodie',
+        'Toiletries travel kit (toothbrush, deodorant, etc.)',
+        'Prescription medications + basic first aid kit',
+        'Sunscreen SPF 50+ & lip balm with SPF',
+        'Reusable water bottle',
+        'Power bank (10,000 mAh+)',
+        'Small backpack/daypack for excursions'
       ];
 
-      if (weather.conditions.includes('Rain') || weather.season.includes('Monsoon')) {
-        baseList.push('Raincoat or poncho');
-        baseList.push('Waterproof bag');
+      var avgTemp = 25;
+      var matches = (weather.temp || '').match(/(\d+)/g);
+      if (matches && matches.length > 0) {
+        var sum = 0;
+        for (var i = 0; i < matches.length; i++) sum += parseInt(matches[i], 10);
+        avgTemp = sum / matches.length;
       }
 
-      if (weather.temp.includes('5-15') || weather.temp.includes('15-') && weather.temp.includes('25')) {
-        baseList.push('Layers (hoodie, long sleeves)');
+      if (avgTemp > 30) {
+        base.push('Sunglasses & wide-brim hat');
+        base.push('Cooling towel or small fan');
+        base.push('Electrolyte packets for hydration');
+      }
+      if (avgTemp > 25) {
+        base.push('Rain jacket or collapsible umbrella');
+        base.push('Breathable fabrics (linen, cotton)');
+      }
+      if (avgTemp > 10 && avgTemp <= 25) {
+        base.push('Versatile layers (cardigan, fleece)');
+        base.push('Light scarf for wind or sun protection');
+      }
+      if (avgTemp <= 10) {
+        base.push('Thermal underwear (top & bottom)');
+        base.push('Insulated winter coat');
+        base.push('Warm hat, gloves, scarf');
+        base.push('Wool socks (thick)');
+      }
+
+      if (weather.conditions && (weather.conditions.toLowerCase().indexOf('rain') !== -1 || weather.conditions.toLowerCase().indexOf('monsoon') !== -1)) {
+        base.push('Waterproof jacket or poncho');
+        base.push('Water-resistant shoes');
+        base.push('Dry bag for electronics');
       }
 
       if (budget === 'budget') {
-        baseList.push('Reusable water bottle');
-        baseList.push('Local SIM card or WiFi plans');
+        base.push('Local SIM card or eSIM data plan');
+        base.push('Padlock for hostel lockers');
+        base.push('Earplugs & sleep mask');
       }
 
-      return baseList;
-    }
-
-    static getLocalTips(city) {
-      const tips = {
-        'Tokyo': 'Download Suica app. Convenience stores (7-11, Family Mart) open 24h. Free WiFi in many places.',
-        'Seoul': 'Many places cash-only, also accept cards. Download Naver Map app. Street food abundant & cheap.',
-        'Bangkok': 'Haggle at markets. Stay hydrated. Respect monarchy. Smile (Thai way of saying thanks).',
-        'Singapore': 'Very clean & safe. Expensive compared to neighbors. Excellent food courts for budget dining.',
-        'Paris': 'Book popular restaurants ahead. Say "Bonjour" when entering shops. Tipping not required.',
-        'Hanoi': 'Cross streets confidently (drivers expect it). Try street food - it\'s safe & delicious. Bargain in markets.',
-        'Ho Chi Minh City': 'Pho & coffee everywhere for under $2. Grab/Uber cheaper than taxis. Chaotic traffic.',
-        'Osaka': 'Cash preferred at smaller shops. Less crowded than Tokyo. Great street food scene.'
-      };
-
-      return tips[city] || 'Check local customs and be respectful. Download offline maps. Learn basic phrases.';
-    }
-
-    static getEmergencyNumbers(country) {
-      const numbers = {
-        'Japan': '911 (Police), 119 (Ambulance/Fire)',
-        'South Korea': '112 (Police), 119 (Ambulance/Fire)',
-        'Thailand': '191 (Police), 1669 (Tourist Police), 1554 (Ambulance)',
-        'Singapore': '999 (Police/Ambulance)',
-        'France': '15 (Emergency), 17 (Police), 18 (Fire)',
-        'Vietnam': '113 (Police), 114 (Fire)',
-        'UAE': '999 (Emergency)',
-        'UK': '999 (Emergency)'
-      };
-
-      return numbers[country] || 'Call your embassy. Local 999/911 variants exist.';
-    }
-
-    static getAirportNotes(city) {
-      const notes = {
-        'Tokyo': 'Narita: 60km east (Express train 1h). Haneda: 15km south (Monorail 30min). Haneda recommended.',
-        'Seoul': 'Incheon: 50km west (AREX train 43min). Gimpo: 20km west (subway 30min). AREX has luggage service.',
-        'Bangkok': 'Suvarnabhumi: 30km east (ARL train 28min, or Grab 45min). Luggage storage available.',
-        'Singapore': 'Changi: 15km east (MRT 30min). Excellent facilities. Many lounge access options.',
-        'Paris': 'CDG: 25km northeast (RER B 30min). Orly: 14km south (Orlyval 15min). CDG most international.',
-        'Hanoi': 'Noi Bai: 30km north (bus/train 45min). Grab most reliable. Check ride before boarding.',
-        'Dubai': 'DXB: 5km south (Metro 15min). Modern, efficient. Check visa requirements (many are visa-free).'
-      };
-
-      return notes[city] || 'Ask hotel for airport transfer recommendations. Pre-book Grab/Uber if unsure.';
+      return base;
     }
 
     static generateVisaItinerary(tripData, dailyItinerary) {
-      const visaItinerary = [];
-      const startDate = new Date(tripData.departure);
+      var visaItinerary = [];
+      var startDate = new Date(tripData.departure);
+      var destData = tripData.destinationData || {};
+      var city = destData.city || tripData.destination;
 
-      for (let i = 0; i < tripData.days; i++) {
-        const date = new Date(startDate);
+      for (var i = 0; i < tripData.days; i++) {
+        var date = new Date(startDate);
         date.setDate(date.getDate() + i);
-        const dateStr = date.toISOString().split('T')[0];
-        const dayNum = i + 1;
+        var dateStr = date.toISOString().split('T')[0];
+        var dayNum = i + 1;
 
         visaItinerary.push({
           date: dateStr,
-          day: `Day ${dayNum}`,
+          day: 'Day ' + dayNum,
           activity: this.getVisaActivityDescription(dailyItinerary[i]),
-          accommodation: IATA_DATABASE[tripData.destination]?.city || tripData.destination
+          accommodation: city
         });
       }
 
@@ -428,40 +303,12 @@ Format as JSON with structure:
 
     static getVisaActivityDescription(dayActivity) {
       if (!dayActivity) return 'TBD';
-
-      const activities = [];
-      if (dayActivity.morning) activities.push(dayActivity.morning);
-      if (dayActivity.lunch) activities.push(dayActivity.lunch);
-      if (dayActivity.afternoon) activities.push(dayActivity.afternoon);
-      if (dayActivity.dinner) activities.push(dayActivity.dinner);
-
-      return activities.join(' | ') || 'Tourism activities';
-    }
-
-    static formatItinerary(data, tripData) {
-      // Parse AI response if it's a JSON string
-      if (typeof data === 'string') {
-        try {
-          data = JSON.parse(data);
-        } catch (e) {
-          // Fallback to local generation
-          return this.generateLocalItinerary(tripData);
-        }
-      }
-
-      return {
-        weather: data.weather || 'TBD',
-        weatherNotes: data.weatherNotes || 'N/A',
-        hotelArea: data.hotelArea || 'TBD',
-        transportation: data.transportation || 'TBD',
-        estimatedBudget: data.estimatedBudget || 'TBD',
-        packingList: data.packingList || [],
-        localTips: data.localTips || 'N/A',
-        emergencyNumbers: data.emergencyNumbers || 'N/A',
-        airportNotes: data.airportNotes || 'N/A',
-        dailyItinerary: data.dailyItinerary || [],
-        visaItinerary: data.visaItinerary || []
-      };
+      var parts = [];
+      if (dayActivity.morning) parts.push(dayActivity.morning);
+      if (dayActivity.lunch) parts.push(dayActivity.lunch);
+      if (dayActivity.afternoon) parts.push(dayActivity.afternoon);
+      if (dayActivity.dinner) parts.push(dayActivity.dinner);
+      return parts.join(' | ') || 'Tourism activities';
     }
   }
 

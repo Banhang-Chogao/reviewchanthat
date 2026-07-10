@@ -162,14 +162,15 @@
     /**
      * Render AI recommendations
      */
-    static renderRecommendations(itinerary) {
+    static renderRecommendations(itinerary, tripData) {
       const container = document.getElementById('tpRecommendations');
       if (!container) return;
+      const days = tripData?.days || itinerary?.days || 'N/A';
 
       const recommendations = [
         {
           severity: 'info',
-          text: `Chuyến du lịch ${itinerary.days || 'N/A'} ngày. Thời gian lý tưởng để khám phá và thư giãn.`
+          text: `Chuyến du lịch ${days} ngày. Thời gian lý tưởng để khám phá và thư giãn.`
         },
         {
           severity: 'success',
@@ -205,10 +206,10 @@
       this.renderTimeline(itinerary, tripData);
       this.renderInfoCards(itinerary);
       this.renderPackingList(itinerary);
-      this.renderRecommendations(itinerary);
+      this.renderRecommendations(itinerary, tripData);
 
-      // Render professional visa itinerary document
-      if (window.VisaItineraryRenderer) {
+      // Render professional visa itinerary document (only when visa mode is active)
+      if (tripData.visaMode === 'visa' && window.VisaItineraryRenderer) {
         window.VisaItineraryRenderer.renderDocument(itinerary, tripData);
       }
 
@@ -234,12 +235,4 @@
 
   // Expose globally
   window.TravelPlannerUI = TravelPlannerUI;
-
-  // Hook into existing displayResult function if available
-  if (window.TravelPlanner && typeof window.TravelPlanner.displayResult === 'function') {
-    const originalDisplay = window.TravelPlanner.displayResult.bind(window.TravelPlanner);
-    window.TravelPlanner.displayResult = function(itinerary, tripData) {
-      TravelPlannerUI.displayResults(itinerary, tripData);
-    };
-  }
 })();

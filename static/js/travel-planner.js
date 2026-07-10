@@ -30,6 +30,19 @@
     'busan': 'PUS'
   };
 
+  var ACCESS_HASH = '46eaa26621e4955c1675b55d446c6d03325f458b59a465f898d42924010e7286';
+  var SESSION_KEY = 'travel_planner_unlocked';
+
+  function sha256(str) {
+    var buf = new TextEncoder().encode(str);
+    return crypto.subtle.digest('SHA-256', buf).then(function(hash) {
+      var hex = '';
+      var bytes = new Uint8Array(hash);
+      for (var i = 0; i < bytes.length; i++) hex += bytes[i].toString(16).padStart(2, '0');
+      return hex;
+    });
+  }
+
   class TravelPlanner {
     constructor() {
       this.currentTrip = null;
@@ -77,14 +90,6 @@
         this.exportPDF();
       });
 
-      document.getElementById('tpExportExcel').addEventListener('click', () => {
-        this.exportExcel();
-      });
-
-      document.getElementById('tpExportMarkdown').addEventListener('click', () => {
-        this.exportMarkdown();
-      });
-
       document.getElementById('tpExportPrint').addEventListener('click', () => {
         window.print();
       });
@@ -109,8 +114,13 @@
 
       // Visa mode change
       document.getElementById('tpVisaMode').addEventListener('change', (e) => {
-        if (e.target.value === 'visa') {
-          this.generateVisaItinerary();
+        if (e.target.value === 'visa' && this.currentTrip) {
+          if (window.VisaItineraryRenderer) {
+            window.VisaItineraryRenderer.renderDocument(
+              this.currentTrip.itinerary,
+              this.currentTrip
+            );
+          }
         }
       });
     }
@@ -240,163 +250,14 @@
     }
 
     displayResult(itinerary, tripData) {
-      document.getElementById('tpError').style.display = 'none';
-      document.getElementById('tpResult').style.display = 'block';
-
-      // Update summary - use destination data from API
-      const destData = tripData.destinationData || {};
-      const city = destData.city || tripData.destination;
-      const country = destData.country || '';
-      document.getElementById('tpSummaryDest').textContent = country ? `${city}, ${country}` : city;
-      document.getElementById('tpSummaryDuration').textContent = `${tripData.days} ngày`;
-      document.getElementById('tpSummaryWeather').textContent = itinerary.weather || 'N/A';
-      document.getElementById('tpSummaryBudget').textContent = itinerary.estimatedBudget || 'TBD';
-
-      // Update daily itinerary
-      const timeline = document.getElementById('tpTimeline');
-      timeline.innerHTML = itinerary.dailyItinerary.map((day, idx) => `
-        <div class="travel-planner__day-card">
-          <div class="travel-planner__day-header">
-            <h3 class="travel-planner__day-title">Day ${idx + 1}</h3>
-            <span class="travel-planner__day-date">${this.formatDate(new Date(tripData.departure).getTime() + idx * 24 * 60 * 60 * 1000)}</span>
-          </div>
-          ${day.morning ? `<div class="travel-planner__time-block">
-            <span class="travel-planner__time-label">Morning</span>
-            <div class="travel-planner__activity">${day.morning}</div>
-          </div>` : ''}
-          ${day.lunch ? `<div class="travel-planner__time-block">
-            <span class="travel-planner__time-label">Lunch</span>
-            <div class="travel-planner__activity">${day.lunch}</div>
-          </div>` : ''}
-          ${day.afternoon ? `<div class="travel-planner__time-block">
-            <span class="travel-planner__time-label">Afternoon</span>
-            <div class="travel-planner__activity">${day.afternoon}</div>
-          </div>` : ''}
-          ${day.dinner ? `<div class="travel-planner__time-block">
-            <span class="travel-planner__time-label">Dinner</span>
-            <div class="travel-planner__activity">${day.dinner}</div>
-          </div>` : ''}
-          ${day.notes ? `<div class="travel-planner__activity-detail">${day.notes}</div>` : ''}
-        </div>
-      `).join('');
-
-      // Update hotel & transportation
-      document.getElementById('tpHotelArea').textContent = itinerary.hotelArea || 'TBD';
-      document.getElementById('tpTransport').textContent = itinerary.transportation || 'TBD';
-
-      // Update packing list
-      const packingList = document.getElementById('tpPackingList');
-      packingList.innerHTML = (itinerary.packingList || []).map(item => `<li>${item}</li>`).join('');
-
-      // Update weather & tips
-      const weatherTips = document.getElementById('tpWeatherTips');
-      weatherTips.innerHTML = `
-        <p><strong>Weather:</strong> ${itinerary.weatherNotes || 'N/A'}</p>
-        <p><strong>Tips:</strong> ${itinerary.localTips || 'N/A'}</p>
-      `;
-
-      // Update emergency info
-      const emergencyInfo = document.getElementById('tpEmergencyInfo');
-      emergencyInfo.innerHTML = `
-        <p><strong>Emergency:</strong> ${itinerary.emergencyNumbers || 'N/A'}</p>
-        <p><strong>Airport Notes:</strong> ${itinerary.airportNotes || 'N/A'}</p>
-      `;
-
-      // Show visa section if applicable
-      if (tripData.visaMode === 'visa') {
-        this.displayVisaItinerary(itinerary);
+      if (window.TravelPlannerUI && window.TravelPlannerUI.displayResults) {
+        window.TravelPlannerUI.displayResults(itinerary, tripData);
       }
-
-      // Scroll to result
-      document.getElementById('tpResult').scrollIntoView({ behavior: 'smooth' });
-    }
-
-    displayVisaItinerary(itinerary) {
-      const visaSection = document.getElementById('tpVisaSection');
-      const visaTableBody = document.getElementById('tpVisaTableBody');
-
-      visaTableBody.innerHTML = itinerary.visaItinerary.map(entry => `
-        <tr>
-          <td>${entry.date}</td>
-          <td>${entry.day}</td>
-          <td>${entry.activity}</td>
-          <td>${entry.accommodation}</td>
-        </tr>
-      `).join('');
-
-      visaSection.style.display = 'block';
-    }
-
-    generateVisaItinerary() {
-      if (!this.currentTrip) return;
-      this.displayVisaItinerary(this.currentTrip.itinerary);
     }
 
     exportPDF() {
       if (!this.currentTrip) return;
       window.print();
-    }
-
-    exportExcel() {
-      if (!this.currentTrip) return;
-
-      const docTitle = `Travel-Itinerary-${this.currentTrip.destination}`;
-      const url = `/api/export/excel?trip=${encodeURIComponent(JSON.stringify(this.currentTrip))}`;
-
-      fetch(url)
-        .then(r => r.blob())
-        .then(blob => {
-          const a = document.createElement('a');
-          a.href = URL.createObjectURL(blob);
-          a.download = `${docTitle}.xlsx`;
-          a.click();
-        })
-        .catch(err => this.showError('Export Excel failed: ' + err.message));
-    }
-
-    exportMarkdown() {
-      if (!this.currentTrip) return;
-
-      const md = this.generateMarkdown();
-      const blob = new Blob([md], { type: 'text/markdown' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = `Travel-Itinerary-${this.currentTrip.destination}.md`;
-      a.click();
-    }
-
-    generateMarkdown() {
-      const trip = this.currentTrip;
-      const itinerary = trip.itinerary;
-      const city = IATA_DATABASE[trip.destination]?.city || trip.destination;
-
-      let md = `# Travel Itinerary: ${city}\n\n`;
-      md += `**Departure:** ${trip.departure}\n`;
-      md += `**Return:** ${trip.returnDate}\n`;
-      md += `**Duration:** ${trip.days} days\n\n`;
-
-      md += `## Summary\n\n`;
-      md += `- Weather: ${itinerary.weather}\n`;
-      md += `- Hotel Area: ${itinerary.hotelArea}\n`;
-      md += `- Estimated Budget: ${itinerary.estimatedBudget}\n\n`;
-
-      md += `## Daily Itinerary\n\n`;
-      itinerary.dailyItinerary.forEach((day, idx) => {
-        md += `### Day ${idx + 1}\n`;
-        if (day.morning) md += `- **Morning:** ${day.morning}\n`;
-        if (day.lunch) md += `- **Lunch:** ${day.lunch}\n`;
-        if (day.afternoon) md += `- **Afternoon:** ${day.afternoon}\n`;
-        if (day.dinner) md += `- **Dinner:** ${day.dinner}\n`;
-        if (day.notes) md += `- *Notes:* ${day.notes}\n`;
-        md += '\n';
-      });
-
-      md += `## Packing List\n\n`;
-      itinerary.packingList.forEach(item => {
-        md += `- ${item}\n`;
-      });
-
-      return md;
     }
 
     duplicateTrip() {
@@ -498,6 +359,76 @@
     }
   }
 
-  // Initialize
-  window.TravelPlanner = new TravelPlanner();
+  // ─── Access Gate ─────────────────────────────────────
+  function initGate() {
+    var gate = document.getElementById('tpGate');
+    var app = document.getElementById('tpApp');
+    var input = document.getElementById('tpGateInput');
+    var btn = document.getElementById('tpGateUnlock');
+    var err = document.getElementById('tpGateError');
+    var lockBtn = document.getElementById('tpLockBtn');
+    var attemptCount = 0;
+    var lastAttempt = 0;
+
+    lockBtn.addEventListener('click', function() {
+      sessionStorage.removeItem(SESSION_KEY);
+      gate.style.display = 'flex';
+      app.style.display = 'none';
+      lockBtn.style.display = 'none';
+      input.value = '';
+      err.textContent = '';
+      attemptCount = 0;
+      input.focus();
+    });
+
+    if (sessionStorage.getItem(SESSION_KEY) === '1') {
+      gate.style.display = 'none';
+      app.style.display = '';
+      lockBtn.style.display = '';
+      window.TravelPlanner = new TravelPlanner();
+      return;
+    }
+
+    function doUnlock() {
+      var code = input.value.trim();
+      if (!code || code.length !== 4) {
+        err.textContent = 'Vui lòng nhập đủ 4 số.';
+        return;
+      }
+      var now = Date.now();
+      if (now - lastAttempt < 2000) {
+        err.textContent = 'Quá nhanh. Vui lòng đợi 2 giây.';
+        return;
+      }
+      lastAttempt = now;
+      attemptCount++;
+      if (attemptCount > 5) {
+        err.textContent = 'Quá nhiều lần thử. Tải lại trang để thử lại.';
+        btn.disabled = true;
+        input.disabled = true;
+        return;
+      }
+      sha256(code).then(function(hash) {
+        if (hash === ACCESS_HASH) {
+          sessionStorage.setItem(SESSION_KEY, '1');
+          gate.style.display = 'none';
+          app.style.display = '';
+          lockBtn.style.display = '';
+          window.TravelPlanner = new TravelPlanner();
+        } else {
+          err.textContent = 'Mã truy cập không đúng. Còn ' + (5 - attemptCount) + ' lần thử.';
+          input.value = '';
+          input.focus();
+        }
+      });
+    }
+
+    btn.addEventListener('click', doUnlock);
+    input.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') doUnlock();
+    });
+    input.focus();
+  }
+
+  initGate();
 })();
