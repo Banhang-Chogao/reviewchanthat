@@ -89,6 +89,12 @@
       "label": "Jeju mùa hoa cải vàng",
       "description": "Cẩm nang đi Jeju mùa xuân để ngắm hoa cải vàng, kết hợp hoa anh đào, lễ hội, điểm chụp ảnh và lịch trình thực tế cho người Việt đi Hàn Quốc tự túc.",
       "order": 40
+    },
+    {
+      "slug": "song-thong-minh-trong-thoi-dai-ai",
+      "label": "Sống thông minh trong thời đại AI",
+      "description": "Series 10 bài về cách dùng AI để tiết kiệm thời gian, tiền bạc và nâng cao chất lượng sống — productivity, tối giản số, tài chính, học tiếng Hàn, du lịch và thử nghiệm 24 giờ.",
+      "order": 41
     }
   ]
 }
