@@ -1309,10 +1309,27 @@
     return num.toString();
   }
 
+  function loadVersion() {
+    fetch(BASE_PATH.replace(/\/$/, '') + '/build-info.json').then(function(r) {
+      if (!r.ok) return null;
+      return r.json();
+    })['catch'](function() { return null; }).then(function(info) {
+      var el = document.getElementById('incomeVersion');
+      if (!el) return;
+      if (!info) {
+        el.textContent = 'Phiên bản dịch vụ: ' + new Date().toLocaleDateString('vi-VN') + '-dev';
+        return;
+      }
+      var datePart = info.generated_at_display ? info.generated_at_display.split(' ')[0] : new Date().toLocaleDateString('vi-VN');
+      el.textContent = 'Phiên bản dịch vụ: ' + datePart + '-' + info.short_sha;
+    });
+  }
+
   /* ─── Init ────────────────────────────────────────────── */
   function init() {
     initGate();
     initSearch();
+    loadVersion();
 
     document.getElementById('incomeAddRow').addEventListener('click', addRow);
     document.getElementById('incomeSaveBtn').addEventListener('click', saveNow);
