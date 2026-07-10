@@ -1,8 +1,0 @@
-{
-  "buildCommand": "hugo --gc --minify",
-  "outputDirectory": "public",
-  "framework": "hugo",
-  "env": [
-    "AVIATIONSTACK_API_KEY"
-  ]
-}
