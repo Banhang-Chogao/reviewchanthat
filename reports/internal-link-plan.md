@@ -1,10 +1,10 @@
 # Internal Link Graph Report
-Generated: 2026-07-10 06:37:16
+Generated: 2026-07-10 06:57:55
 
 ## Summary
-- Indexable posts: 174
-- Posts with outgoing links: 174
-- Total internal links generated: 1422
+- Indexable posts: 176
+- Posts with outgoing links: 176
+- Total internal links generated: 1442
 - Average links per post: 8.2
 - Orphan posts (no inbound): 0
 - Orphans before: 84 (estimated)
@@ -21,6 +21,8 @@ Generated: 2026-07-10 06:37:16
 | udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay | 10 |
 | veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog | 10 |
 | jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay | 10 |
+| club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong | 10 |
+| cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park | 10 |
 | starbucks-vietnam-meo-goi-order-va-rewards | 10 |
 | baseurl-sitemap-noindex-va-series-hardcoded-url | 10 |
 | chiang-mai-mua-mua-co-gi-dep | 10 |
@@ -32,5 +34,3 @@ Generated: 2026-07-10 06:37:16
 | du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di | 9 |
 | jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc | 9 |
 | checklist-truoc-khi-mua-mot-san-pham-online | 9 |
-| chi-phi-di-han-thang-10-tu-tuc | 9 |
-| club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong | 8 |

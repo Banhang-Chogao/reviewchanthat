@@ -3669,7 +3669,7 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa tài sản số và giao dịch crypto trên điện thoại — nguồn Pexels",
       "gate_verified": true,
-      "attribution_checked_at": "2026-07-10T06:37:05+07:00"
+      "attribution_checked_at": "2026-07-10T06:10:07+07:00"
     },
     {
       "slug": "co-nen-len-ios-26-5-2-khong",
@@ -3787,7 +3787,40 @@
       "image_alt": "Ảnh minh họa Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không? — nguồn Pexels",
       "gate_verified": true,
       "attribution_checked_at": "2026-07-10T06:37:05+07:00"
+    },
+    {
+      "slug": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+      "title": "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?",
+      "image_id": "img-abeff7c3",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/",
+      "direct_url": "https://images.pexels.com/photos/5198284/pexels-photo-5198284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Tima Miroshnichenko",
+      "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+      "creator_id": "3088726",
+      "photo_id": "",
+      "raw_provider": {
+        "id": 5198284,
+        "photographer": "Tima Miroshnichenko",
+        "photographer_id": "3088726"
+      },
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.jpg",
+      "output_path": "static/images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp",
+      "watermark_text": "Source: Pexels / Tima Miroshnichenko",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "mobile banking payment app",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào? — nguồn Pexels",
+      "gate_verified": true,
+      "attribution_checked_at": "2026-07-10T06:58:19+07:00"
     }
   ],
-  "generated_at": "2026-07-09T23:36:37.632245+00:00"
+  "generated_at": "2026-07-09T23:58:03.760108+00:00"
 }
