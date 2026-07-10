@@ -466,6 +466,6 @@
       "last_result": "skipped"
     }
   },
-  "updated_at": "2026-07-10T22:11:25+07:00",
+  "updated_at": "2026-07-10T22:17:41+07:00",
   "notes": "Ledger prevents autofix loops. Key = sha:failure_type. Max 2 attempts."
 }
