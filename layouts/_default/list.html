@@ -21,6 +21,16 @@
         {{ end }}
       {{ end }}
     {{ end }}
+  {{ else }}
+    {{ $sectionSlug := .Section }}
+    {{ with site.Data.categories.items }}
+      {{ range . }}
+        {{ if eq .slug $sectionSlug }}
+          {{ $listTitle = .label }}
+          {{ $desc = .description }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
   {{ end }}
   {{ partial "breadcrumb.html" . }}
   <section class="category-header">
@@ -44,10 +54,27 @@
     {{ partial "pagination.html" . }}
   </section>
   {{ else }}
+  {{ $sectionSlug := .Section }}
+  {{ $isCategorySection := false }}
+  {{ with site.Data.categories.items }}
+    {{ range . }}
+      {{ if eq .slug $sectionSlug }}
+        {{ $isCategorySection = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
   <section class="post-listing">
+    {{ if $isCategorySection }}
+    {{ $categoryPosts := where (where site.RegularPages "Type" "posts") "Params.categories" "intersect" (slice $sectionSlug) }}
+    {{ $paginator := .Paginate $categoryPosts 10 }}
+    {{ range $paginator.Pages }}
+      {{ .Render "post-card" }}
+    {{ end }}
+    {{ else }}
     {{ $paginator := .Paginator }}
     {{ range $paginator.Pages }}
       {{ .Render "post-card" }}
+    {{ end }}
     {{ end }}
     {{ partial "pagination.html" . }}
   </section>
