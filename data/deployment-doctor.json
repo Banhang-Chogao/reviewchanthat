@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T10:45:21+07:00",
-  "generated_at_display": "10-07-2026 10:45:21",
+  "generated_at": "2026-07-10T12:03:42+07:00",
+  "generated_at_display": "10-07-2026 12:03:42",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -8,16 +8,17 @@
   },
   "summary": {
     "failed_runs_scanned": 13,
-    "safe_autofixes_available": 9,
-    "unsafe_external_failures": 4,
-    "open_action_items": 10,
-    "loop_guarded_attempts": 51,
+    "safe_autofixes_available": 7,
+    "unsafe_external_failures": 6,
+    "open_action_items": 12,
+    "loop_guarded_attempts": 52,
     "by_type": {
-      "hugo_build_error": 4,
       "ai_summary_map_artifact": 3,
-      "date_only_or_wrong_timezone": 2,
-      "sitemap_noindex_mismatch": 2,
-      "workflow_fanout": 2
+      "hugo_build_error": 3,
+      "unknown": 3,
+      "workflow_fanout": 2,
+      "date_only_or_wrong_timezone": 1,
+      "sitemap_noindex_mismatch": 1
     }
   },
   "recent_failures": [
@@ -62,16 +63,6 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059940624"
     },
     {
-      "run_id": "29059768324",
-      "workflow": "Deploy to GitHub Pages",
-      "commit": "6fefbd7",
-      "status": "failure",
-      "rootcause": "date_only_or_wrong_timezone",
-      "safe_to_autofix": true,
-      "action": "Run qa_dates.py --fix-obvious only.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059768324"
-    },
-    {
       "run_id": "29059770605",
       "workflow": "Deployment Doctor",
       "commit": "6fefbd7",
@@ -82,34 +73,24 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059770605"
     },
     {
-      "run_id": "29059688893",
-      "workflow": "Deployment Doctor",
-      "commit": "ca599c5",
-      "status": "cancelled",
-      "rootcause": "sitemap_noindex_mismatch",
-      "safe_to_autofix": true,
-      "action": "Keep posts-only sitemap.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059688893"
-    },
-    {
-      "run_id": "29059769929",
-      "workflow": "Deployment Doctor",
-      "commit": "6fefbd7",
+      "run_id": "29067907004",
+      "workflow": "Auto Merge",
+      "commit": "43db3fc",
       "status": "cancelled",
       "rootcause": "workflow_fanout",
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059769929"
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29067907004"
     },
     {
-      "run_id": "29059726186",
-      "workflow": "Deploy to GitHub Pages",
-      "commit": "c19cb59",
+      "run_id": "29067907002",
+      "workflow": "Auto Merge",
+      "commit": "43db3fc",
       "status": "cancelled",
       "rootcause": "workflow_fanout",
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059726186"
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29067907002"
     },
     {
       "run_id": "29060713497",
@@ -142,27 +123,47 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29060317071"
     },
     {
-      "run_id": "29059694103",
-      "workflow": "Deploy to GitHub Pages",
-      "commit": "40be65e",
+      "run_id": "29070408137",
+      "workflow": ".github/workflows/crawl-doctor.yml",
+      "commit": "20b87e0",
       "status": "failure",
-      "rootcause": "hugo_build_error",
+      "rootcause": "unknown",
       "safe_to_autofix": false,
-      "action": "Inspect Hugo template error line.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059694103"
+      "action": "Read sanitized log excerpt.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29070408137"
+    },
+    {
+      "run_id": "29070355254",
+      "workflow": ".github/workflows/crawl-doctor.yml",
+      "commit": "d21b98f",
+      "status": "failure",
+      "rootcause": "unknown",
+      "safe_to_autofix": false,
+      "action": "Read sanitized log excerpt.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29070355254"
+    },
+    {
+      "run_id": "29067880173",
+      "workflow": ".github/workflows/crawl-doctor.yml",
+      "commit": "43db3fc",
+      "status": "failure",
+      "rootcause": "unknown",
+      "safe_to_autofix": false,
+      "action": "Read sanitized log excerpt.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29067880173"
     }
   ],
   "clusters": {
     "runner_platform": [
       {
         "failure_type": "workflow_fanout",
-        "run_id": "29059769929",
+        "run_id": "29067907004",
         "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
         "safe_to_autofix": true
       },
       {
         "failure_type": "workflow_fanout",
-        "run_id": "29059726186",
+        "run_id": "29067907002",
         "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
         "safe_to_autofix": true
       }
@@ -198,20 +199,8 @@
         "safe_to_autofix": true
       },
       {
-        "failure_type": "date_only_or_wrong_timezone",
-        "run_id": "29059768324",
-        "rootcause": "Post date missing timezone or stamped in UTC instead of Vietnam time.",
-        "safe_to_autofix": true
-      },
-      {
         "failure_type": "sitemap_noindex_mismatch",
         "run_id": "29059770605",
-        "rootcause": "noindex pages incorrectly included in sitemap.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "sitemap_noindex_mismatch",
-        "run_id": "29059688893",
         "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
       },
@@ -234,9 +223,21 @@
         "safe_to_autofix": false
       },
       {
-        "failure_type": "hugo_build_error",
-        "run_id": "29059694103",
-        "rootcause": "Hugo build/render error.",
+        "failure_type": "unknown",
+        "run_id": "29070408137",
+        "rootcause": "No knowledge pattern matched.",
+        "safe_to_autofix": false
+      },
+      {
+        "failure_type": "unknown",
+        "run_id": "29070355254",
+        "rootcause": "No knowledge pattern matched.",
+        "safe_to_autofix": false
+      },
+      {
+        "failure_type": "unknown",
+        "run_id": "29067880173",
+        "rootcause": "No knowledge pattern matched.",
         "safe_to_autofix": false
       }
     ]
@@ -310,6 +311,20 @@
       "owner": "owner",
       "failure_type": "hugo_build_error",
       "title": "Autofix only if matched known template regression.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P2",
+      "owner": "owner",
+      "failure_type": "unknown",
+      "title": "Read sanitized log excerpt.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P2",
+      "owner": "owner",
+      "failure_type": "unknown",
+      "title": "Add new pattern to knowledge base if recurring.",
       "expected_result": "Unblock deploy / prevent recurrence"
     }
   ],
@@ -504,34 +519,23 @@
       "detail": "loop-guard: 939235888fdb:date_only_or_wrong_timezone already attempted 2 times"
     },
     {
-      "run_id": "29059768324",
-      "failure_type": "date_only_or_wrong_timezone",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 6fefbd7b72e0:date_only_or_wrong_timezone already attempted 2 times"
-    },
-    {
       "run_id": "29059770605",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "needs_human_review",
       "detail": "loop-guard: 6fefbd7b72e0:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
-      "run_id": "29059688893",
-      "failure_type": "sitemap_noindex_mismatch",
-      "result": "needs_human_review",
-      "detail": "loop-guard: ca599c58447d:sitemap_noindex_mismatch already attempted 2 times"
+      "run_id": "29067907004",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
     },
     {
-      "run_id": "29059769929",
+      "run_id": "29067907002",
       "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 6fefbd7b72e0:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29059726186",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: c19cb5931c5d:workflow_fanout already attempted 2 times"
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29060713497",
@@ -552,8 +556,20 @@
       "detail": "safe_to_autofix=false — report only"
     },
     {
-      "run_id": "29059694103",
-      "failure_type": "hugo_build_error",
+      "run_id": "29070408137",
+      "failure_type": "unknown",
+      "result": "unsafe",
+      "detail": "safe_to_autofix=false — report only"
+    },
+    {
+      "run_id": "29070355254",
+      "failure_type": "unknown",
+      "result": "unsafe",
+      "detail": "safe_to_autofix=false — report only"
+    },
+    {
+      "run_id": "29067880173",
+      "failure_type": "unknown",
       "result": "unsafe",
       "detail": "safe_to_autofix=false — report only"
     }
@@ -863,6 +879,12 @@
       "key": "6fefbd7b72e0:date_only_or_wrong_timezone",
       "count": 2,
       "last_attempt_at": "2026-07-10T09:08:49+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "07ecf08e6199:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T12:03:42+07:00",
       "last_result": "skipped"
     }
   ],
