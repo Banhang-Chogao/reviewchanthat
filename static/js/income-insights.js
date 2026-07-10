@@ -422,58 +422,58 @@
 
     for (var i = 0; i < rows.length; i++) {
       var t = rows[i];
-      var isLocked = t.locked === true;
       var tr = document.createElement('tr');
 
-      tr.appendChild(cellInput('text', t.sequence, 'sequence', i, { cls: 'income-table__col-seq', locked: isLocked }));
-      tr.appendChild(cellInput('text', formatVND(t.income), 'income', i, { cls: 'income-table__col-income', align: 'right', locked: isLocked }));
-      tr.appendChild(cellInput('text', t.incomeLabel || '', 'incomeLabel', i, { cls: 'income-table__col-label', locked: isLocked }));
-      tr.appendChild(cellInput('text', formatVND(t.debt || 0), 'debt', i, { cls: 'income-table__col-debt', align: 'right', locked: isLocked }));
-      tr.appendChild(cellInput('text', t.debtLabel || '', 'debtLabel', i, { cls: 'income-table__col-label', locked: isLocked }));
+      tr.appendChild(cellInput('text', t.sequence, 'sequence', i, { cls: 'income-table__col-seq' }));
+      tr.appendChild(cellInput('text', formatVND(t.income), 'income', i, { cls: 'income-table__col-income', align: 'right' }));
+      tr.appendChild(cellInput('text', t.incomeLabel || '', 'incomeLabel', i, { cls: 'income-table__col-label' }));
+      tr.appendChild(cellInput('text', formatVND(t.debt || 0), 'debt', i, { cls: 'income-table__col-debt', align: 'right' }));
+      tr.appendChild(cellInput('text', t.debtLabel || '', 'debtLabel', i, { cls: 'income-table__col-label' }));
       tr.appendChild(cellInput('text', formatVND(t.subTotal), 'subTotal', i, { cls: 'income-table__col-total', readonly: true, align: 'right' }));
 
       // Type select
       var tdType = document.createElement('td');
       tdType.setAttribute('data-label', 'Type');
-      if (isLocked) {
-        tdType.textContent = t.transactionType || '';
-        tdType.style.padding = '0.3rem 0.4rem';
-        tdType.style.fontSize = '0.8rem';
-      } else {
-        var sel = document.createElement('select');
-        for (var k = 0; k < TRANSACTION_TYPES.length; k++) {
-          var opt = document.createElement('option');
-          opt.value = TRANSACTION_TYPES[k];
-          opt.textContent = TRANSACTION_TYPES[k] || 'Chọn...';
-          sel.appendChild(opt);
-        }
-        sel.value = t.transactionType || '';
-        sel.dataset.idx = i;
-        sel.dataset.field = 'transactionType';
-        sel.addEventListener('change', onFieldChange);
-        tdType.appendChild(sel);
+      var sel = document.createElement('select');
+      for (var k = 0; k < TRANSACTION_TYPES.length; k++) {
+        var opt = document.createElement('option');
+        opt.value = TRANSACTION_TYPES[k];
+        opt.textContent = TRANSACTION_TYPES[k] || 'Chọn...';
+        sel.appendChild(opt);
       }
+      sel.value = t.transactionType || '';
+      sel.dataset.idx = i;
+      sel.dataset.field = 'transactionType';
+      sel.addEventListener('change', onFieldChange);
+      tdType.appendChild(sel);
       tr.appendChild(tdType);
 
-      tr.appendChild(cellInput('text', t.route || '', 'route', i, { cls: 'income-table__col-route', locked: isLocked }));
-      tr.appendChild(cellInput('text', t.remark || '', 'remark', i, { cls: 'income-table__col-remark', locked: isLocked }));
+      tr.appendChild(cellInput('text', t.route || '', 'route', i, { cls: 'income-table__col-route' }));
+      tr.appendChild(cellInput('text', t.remark || '', 'remark', i, { cls: 'income-table__col-remark' }));
       tr.appendChild(cellInput('text', t.date || '', 'date', i, { cls: 'income-table__col-date', readonly: true }));
-      tr.appendChild(cellInput('number', t.day || '', 'day', i, { cls: 'income-table__col-d', locked: isLocked }));
-      tr.appendChild(cellInput('number', t.month || '', 'month', i, { cls: 'income-table__col-m', locked: isLocked }));
-      tr.appendChild(cellInput('number', t.year || '', 'year', i, { cls: 'income-table__col-y', locked: isLocked }));
+      tr.appendChild(cellInput('number', t.day || '', 'day', i, { cls: 'income-table__col-d' }));
+      tr.appendChild(cellInput('number', t.month || '', 'month', i, { cls: 'income-table__col-m' }));
+      tr.appendChild(cellInput('number', t.year || '', 'year', i, { cls: 'income-table__col-y' }));
 
-      // Actions column — blockchain badge
+      // Actions
       var tdActions = document.createElement('td');
-      tdActions.setAttribute('data-label', '');
+      tdActions.setAttribute('data-label', 'Hành động');
       tdActions.className = 'income-table__col-actions';
-      tdActions.style.textAlign = 'center';
-      if (isLocked) {
-        tdActions.innerHTML = '<svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="var(--color-primary,#00A7A0)" stroke-width="1.2" opacity="0.6"><rect x="2" y="2" width="12" height="12" rx="2"/><path d="M5 8l2 2 4-4"/></svg>';
-        tdActions.title = 'Đã ghi vào blockchain';
-      } else {
-        tdActions.innerHTML = '<span style="font-size:0.7rem;color:var(--chip-yellow,#f39c12)">● mới</span>';
-        tdActions.title = 'Chờ nhập dữ liệu';
-      }
+      var actDiv = document.createElement('div');
+      actDiv.className = 'income-table__row-actions';
+      var dupBtn = document.createElement('button');
+      dupBtn.className = 'income-table__row-btn';
+      dupBtn.textContent = '⧉';
+      dupBtn.title = 'Nhân bản';
+      dupBtn.addEventListener('click', (function(idx) { return function() { duplicateRow(idx); }; })(i));
+      actDiv.appendChild(dupBtn);
+      var delBtn = document.createElement('button');
+      delBtn.className = 'income-table__row-btn income-table__row-btn--danger';
+      delBtn.textContent = '✕';
+      delBtn.title = 'Xóa';
+      delBtn.addEventListener('click', (function(idx) { return function() { deleteRow(idx); }; })(i));
+      actDiv.appendChild(delBtn);
+      tdActions.appendChild(actDiv);
       tr.appendChild(tdActions);
 
       tbody.appendChild(tr);
@@ -482,7 +482,7 @@
     if (rows.length === 0) {
       var emptyTr = document.createElement('tr');
       var emptyTd = document.createElement('td');
-      emptyTd.colSpan = 13;
+      emptyTd.colSpan = 14;
       emptyTd.style.textAlign = 'center';
       emptyTd.style.padding = '2rem';
       emptyTd.style.color = '#888';
@@ -499,14 +499,6 @@
     var td = document.createElement('td');
     td.setAttribute('data-label', getColumnLabel(field));
     if (opts.align) td.style.textAlign = opts.align;
-    var isLocked = opts.locked === true;
-    if (isLocked) {
-      td.textContent = val !== null && val !== undefined ? val : '';
-      td.style.padding = '0.3rem 0.4rem';
-      td.style.fontSize = '0.8rem';
-      if (opts.cls) { var clsParts = opts.cls.split(' '); for (var c = 0; c < clsParts.length; c++) td.classList.add(clsParts[c]); }
-      return td;
-    }
     var input = document.createElement('input');
     input.type = type;
     input.value = val !== null && val !== undefined ? val : '';
@@ -536,9 +528,9 @@
   }
 
   function onFieldChange(e) {
-    var target = e.target;
-    var idx = parseInt(target.dataset.idx, 10);
-    var field = target.dataset.field;
+    var input = e.target;
+    var idx = parseInt(input.dataset.idx, 10);
+    var field = input.dataset.field;
 
     if (idx < 0 || idx >= state.filtered.length) return;
 
@@ -546,14 +538,11 @@
     var actualIdx = state.transactions.indexOf(state.filtered[idx]);
     if (actualIdx === -1) return;
 
-    var t = state.transactions[actualIdx];
-
-    // Blockchain: skip if already locked
-    if (t.locked) return;
-
     pushUndo();
 
-    var raw = target.value;
+    var raw = input.value;
+    var t = state.transactions[actualIdx];
+
     if (field === 'income' || field === 'debt') {
       var parsed = parseNumber(raw);
       t[field] = (field === 'debt' && parsed > 0) ? -parsed : parsed;
@@ -578,9 +567,6 @@
       }
     }
 
-    // Blockchain: lock row after first data entry
-    t.locked = true;
-
     applyFilters();
     renderAll();
     scheduleAutosave();
@@ -591,7 +577,6 @@
     pushUndo();
     state.transactions.push(computeFormulas({
       id: genId(),
-      locked: false,
       sequence: state.transactions.length + 1,
       income: 0,
       incomeLabel: '',
@@ -634,34 +619,25 @@
   }
 
   function clearAllData() {
-    var code = prompt('Xóa toàn bộ blockchain?\n\nNhập mã truy cập 9898 để xác nhận xóa sạch dữ liệu.\nHành động này không thể hoàn tác.');
-    if (!code) return;
-    sha256(code).then(function(hash) {
-      if (hash !== ACCESS_HASH) {
-        alert('Mã truy cập không đúng. Không thể xóa blockchain.');
-        return;
-      }
-      if (!confirm('Xác nhận lần cuối: xóa toàn bộ ' + state.transactions.length + ' block dữ liệu?')) return;
-      pushUndo();
-      state.transactions = [];
-      clearDB()['catch'](function(e) { console.warn('Clear DB error:', e); });
-      applyFilters();
-      renderAll();
-      alert('Đã xóa sạch blockchain.');
-    });
+    if (!confirm('Xóa toàn bộ dữ liệu? Hành động này không thể hoàn tác.')) return;
+    pushUndo();
+    state.transactions = [];
+    clearDB()['catch'](function(e) { console.warn('Clear DB error:', e); });
+    applyFilters();
+    renderAll();
   }
 
   function loadSampleData() {
     pushUndo();
     var sample = [
-      { id: genId(), locked: true, sequence: 1, income: 16000000, incomeLabel: 'Lương tháng 7', debt: -3900000, debtLabel: 'Trả thẻ tín dụng', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương chính', day: 15, month: 7, year: 2026 },
-      { id: genId(), locked: true, sequence: 2, income: 2500000, incomeLabel: 'Freelance', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án web', day: 18, month: 7, year: 2026 },
-      { id: genId(), locked: true, sequence: 3, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà T7', day: 5, month: 7, year: 2026 },
-      { id: genId(), locked: true, sequence: 4, income: 0, incomeLabel: '', debt: -500000, debtLabel: 'Ăn uống', transactionType: 'Tiền mặt', route: 'ATM', remark: 'Đi chợ', day: 8, month: 7, year: 2026 },
-      { id: genId(), locked: true, sequence: 5, income: 15000000, incomeLabel: 'Lương tháng 8', debt: -4200000, debtLabel: 'Trả thẻ tín dụng', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương T8', day: 15, month: 8, year: 2026 },
-      { id: genId(), locked: true, sequence: 6, income: 3000000, incomeLabel: 'Freelance', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án mobile', day: 20, month: 8, year: 2026 },
-      { id: genId(), locked: true, sequence: 7, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà T8', day: 5, month: 8, year: 2026 },
-      { id: genId(), locked: true, sequence: 8, income: 0, incomeLabel: '', debt: -600000, debtLabel: 'Ăn uống', transactionType: 'Tiền mặt', route: 'ATM', remark: 'Đi chợ', day: 10, month: 8, year: 2026 }
+      { id: genId(), sequence: 1, income: 16000000, incomeLabel: 'Lương tháng 7', debt: -3900000, debtLabel: 'Trả thẻ tín dụng', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương chính', day: 15, month: 7, year: 2026 },
+      { id: genId(), sequence: 2, income: 2500000, incomeLabel: 'Freelance', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án web', day: 18, month: 7, year: 2026 },
+      { id: genId(), sequence: 3, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà T7', day: 5, month: 7, year: 2026 },
+      { id: genId(), sequence: 4, income: 0, incomeLabel: '', debt: -500000, debtLabel: 'Ăn uống', transactionType: 'Tiền mặt', route: 'ATM', remark: 'Đi chợ', day: 8, month: 7, year: 2026 },
+      { id: genId(), sequence: 5, income: 15000000, incomeLabel: 'Lương tháng 8', debt: -4200000, debtLabel: 'Trả thẻ tín dụng', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương T8', day: 15, month: 8, year: 2026 },
+      { id: genId(), sequence: 6, income: 3000000, incomeLabel: 'Freelance', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án mobile', day: 20, month: 8, year: 2026 },
+      { id: genId(), sequence: 7, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà T8', day: 5, month: 8, year: 2026 },
+      { id: genId(), sequence: 8, income: 0, incomeLabel: '', debt: -600000, debtLabel: 'Ăn uống', transactionType: 'Tiền mặt', route: 'ATM', remark: 'Đi chợ', day: 10, month: 8, year: 2026 }
     ];
     for (var i = 0; i < sample.length; i++) computeFormulas(sample[i]);
     state.transactions = state.transactions.concat(sample);
@@ -687,17 +663,6 @@
     document.getElementById('kpiNet').style.color = net < 0 ? 'var(--chip-red, #e74c3c)' : '';
     document.getElementById('kpiRatio').textContent = Math.round(ratio) + '%';
     document.getElementById('kpiRatio').style.color = ratio > 50 ? 'var(--chip-red, #e74c3c)' : ratio > 30 ? 'var(--chip-yellow, #f39c12)' : '';
-
-    // Blockchain block count
-    var chainEl = document.getElementById('incomeChainInfo');
-    if (chainEl) {
-      var total = state.transactions.length;
-      if (total > 0) {
-        chainEl.textContent = total + ' block' + (total > 1 ? 's' : '');
-      } else {
-        chainEl.textContent = '0 block';
-      }
-    }
   }
 
   /* ─── Charts ──────────────────────────────────────────── */
@@ -1057,7 +1022,6 @@
 
           var txn = computeFormulas({
             id: genId(),
-            locked: true,
             sequence: imported.length + 1,
             income: inc,
             incomeLabel: String(getVal('incomeLabel') || ''),
@@ -1125,8 +1089,6 @@
           decryptData({ iv: data.iv, ct: data.ct }, state.cryptoKey).then(function(json) {
             var transactions = JSON.parse(json);
             if (!Array.isArray(transactions)) { alert('File không chứa dữ liệu giao dịch.'); return; }
-            // Blockchain: lock all imported rows
-            for (var xi = 0; xi < transactions.length; xi++) transactions[xi].locked = true;
             pushUndo();
             state.transactions = transactions;
             applyFilters();
