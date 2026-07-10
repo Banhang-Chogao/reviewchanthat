@@ -7,8 +7,7 @@ description = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airp
 draft = false
 image = "images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp"
 image_alt = "Ảnh minh họa Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì? — nguồn Pixabay"
-image_attribution_checked_at = "2026-07-10T14:01:43+07:00"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_checked_at = "2026-07-10T18:56:46+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -55,6 +54,7 @@ label = "Grab"
 
 [[tom_tat_nhanh]]
 label = "Nên chọn"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 ## Từ sân bay Suvarnabhumi về trung tâm Bangkok

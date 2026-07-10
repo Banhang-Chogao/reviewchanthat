@@ -30,7 +30,7 @@ image_creator_url = "https://www.pexels.com/@mizunokozuki"
 image_creator_id = "264153375"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
+image_attribution_checked_at = "2026-07-10T18:56:44+07:00"
 +++
 
 Câu hỏi xuất hiện rất sớm khi ai đó muốn xây thương hiệu cá nhân: **blog cá nhân hay TikTok nên đi trước?** Một bên nghe “bền, SEO, chuyên nghiệp”. Một bên nghe “nhanh, đông, dễ thấy kết quả”. Chọn sai thứ tự không làm bạn thất bại vĩnh viễn — nhưng có thể khiến bạn **kiệt sức** hoặc **xây trên đất thuê** mà tưởng đã có tài sản.

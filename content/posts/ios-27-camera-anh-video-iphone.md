@@ -6,8 +6,7 @@ date = "2026-07-08T09:20:00+07:00"
 description = "Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual Intelligence và kỳ vọng thực tế theo từng dòng iPhone."
 draft = false
 image = "images/posts/ios-27-camera-anh-video-iphone.webp"
-image_attribution_checked_at = "2026-07-10T14:01:30+07:00"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_checked_at = "2026-07-10T18:56:36+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -46,6 +45,7 @@ label = "Hiệu năng"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Với nhiều người Việt, iPhone là **máy ảnh chính** khi đi du lịch, ăn uống, chụp con. **iOS 27** không thay đổi cụm camera vật lý trên iPhone cũ, nhưng Apple đẩy mạnh **AI trong Photos** và **Siri mode in Camera** — biến phần mềm thành lý do nâng cấp.

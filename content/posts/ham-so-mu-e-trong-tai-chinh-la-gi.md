@@ -11,25 +11,21 @@ tags = ["toán học tài chính", "lãi kép liên tục", "số e", "e mũ rt"
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 1
 image = "images/posts/ham-so-mu-e-trong-tai-chinh-la-gi.webp"
-image_alt = "Ảnh minh họa ham so mu e trong tai chinh la gi — nguồn Pexels"
 date_display = "10-07-2026 13:16:14 GMT +7"
 lastmod_display = "10-07-2026 14:00:00 GMT +7"
 thumbnail = "images/posts/ham-so-mu-e-trong-tai-chinh-la-gi.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/black-smartphone-beside-the-black-magnifying-glass-6120207/"
-image_provider = "pexels"
 image_license = "Pexels License"
 image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
 image_creator = "Nataliya Vaitkevich"
 image_creator_url = "https://www.pexels.com/@n-voitkevich"
-image_creator_id = "2906295"
+image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:19:45+07:00"
-image_query = "compound interest growth chart finance"
+image_attribution_source = ""
+image_attribution_checked_at = "2026-07-10T18:56:47+07:00"
 
 [ai_summary]
 items = ["Số e là gì và tại sao nó xuất hiện trong tài chính khi số lần nhập lãi tăng dần", "Giới hạn toán học (1 + r/n)^(nt) → e^(rt) và ứng dụng vào công thức lãi kép liên tục", "Công thức A = Pe^(rt) để tính lãi kép liên tục và công thức chiết khấu PV = FV × e^(-rt)", "Ví dụ thực tế: 100 triệu VND, lãi 6%/năm, 10 năm qua 5 cách tính (đơn, kép hàng năm, tháng, ngày, liên tục)", "Bảng so sánh chênh lệch giữa các phương pháp tính lãi và khi nào chênh lệch có ý nghĩa", "Vì sao tài chính chuyên nghiệp (quỹ, bảo hiểm, ngân hàng đầu tư) lại dùng e nhưng gửi tiết kiệm thông thường thì không", "Ứng dụng thực tế của e trong định giá quyền chọn, quản trị rủi ro, actuarial science, và log-return"]

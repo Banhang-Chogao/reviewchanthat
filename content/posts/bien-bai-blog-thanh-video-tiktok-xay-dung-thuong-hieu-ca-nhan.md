@@ -35,7 +35,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững — nguồn Pexels"
-image_attribution_checked_at = "2026-07-10T14:01:39+07:00"
+image_attribution_checked_at = "2026-07-10T18:56:45+07:00"
 image_query = "biến bài blog thành video"
 +++
 

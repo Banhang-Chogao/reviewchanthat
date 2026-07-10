@@ -7,7 +7,7 @@ description = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 h
 draft = false
 image = "images/posts/co-nen-cho-iphone-18-khong.webp"
 image_alt = "Ảnh minh họa Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17? — nguồn Pexels"
-image_attribution_checked_at = "2026-07-10T14:01:37+07:00"
+image_attribution_checked_at = "2026-07-10T18:56:43+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -58,27 +58,27 @@ url = "https://www.macrumors.com/2026/04/22/leaker-apple-downgrade-iphone-18-two
 
 [[inline_illustrations]]
 heading = "Bảng tóm tắt nhanh"
-image = "images/posts/co-nen-cho-iphone-18-khong_b-ng-t-m-t-t-nhanh.webp"
+image = "images/posts/co-nen-cho-iphone-18-khong.webp"
 
 [[inline_illustrations]]
 heading = "Tin đã có nguồn / Tin còn là đồn đoán"
-image = "images/posts/co-nen-cho-iphone-18-khong_tin-c-ngu-n-tin-c-n-l-n-o-n.webp"
+image = "images/posts/co-nen-cho-iphone-18-khong.webp"
 
 [[inline_illustrations]]
 heading = "phân tích theo từng đời máy"
-image = "images/posts/co-nen-cho-iphone-18-khong_ph-n-t-ch-theo-t-ng-i-m-y.webp"
+image = "images/posts/co-nen-cho-iphone-18-khong.webp"
 
 [[inline_illustrations]]
 heading = "Yếu tố ngoài đời máy — nên cân nhắc trước khi chờ"
-image = "images/posts/co-nen-cho-iphone-18-khong_y-u-t-ngo-i-i-m-y-n-n-c-n-nh-c-tr-c-khi-ch.webp"
+image = "images/posts/co-nen-cho-iphone-18-khong.webp"
 
 [[inline_illustrations]]
 heading = "Ai nên chờ / Ai không nên chờ"
-image = "images/posts/co-nen-cho-iphone-18-khong_ai-n-n-ch-ai-kh-ng-n-n-ch.webp"
+image = "images/posts/co-nen-cho-iphone-18-khong.webp"
 
 [[inline_illustrations]]
 heading = "Kết luận"
-image = "images/posts/co-nen-cho-iphone-18-khong_k-t-lu-n.webp"
+image = "images/posts/co-nen-cho-iphone-18-khong.webp"
 
 [[tom_tat_nhanh]]
 label = "Chủ đề"

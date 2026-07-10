@@ -33,7 +33,7 @@ title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết chia sẻ kinh nghiệm kỹ thuật từ quá trình vận hành blog; mỗi hệ thống CI/CD cần điều chỉnh theo cấu trúc repo và mức độ rủi ro riêng."
 items = ["Deployment Doctor là lớp chẩn đoán deployment tự động: gom failed runs, đọc log, phân loại root cause và đề xuất action items.", "Điểm quan trọng không phải là tự sửa mọi thứ, mà là biết lỗi nào an toàn để autofix và lỗi nào phải chỉ báo cáo.", "Các lỗi như runner queue, GitHub outage hoặc rate limit không nên tạo hotfix code; hệ thống chỉ nên chờ, retry có kiểm soát hoặc cancel run cũ.", "Các lỗi có scope rõ như date-only, self-owned image thiếu direct_url, content direction rỗng hoặc URL hardcode có thể được autofix bằng script nhỏ, có retry cap và QA sau fix."]
-image_attribution_checked_at = "2026-07-10T14:01:40+07:00"
+image_attribution_checked_at = "2026-07-10T18:56:45+07:00"
 image_query = "deployment doctor cách blog tự"
 +++
 

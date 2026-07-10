@@ -6,8 +6,7 @@ date = "2026-07-08T11:20:00+07:00"
 description = "Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người"
 draft = false
 image = "images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp"
-image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_checked_at = "2026-07-10T18:56:40+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -69,6 +68,7 @@ value = "Kháng cáo, enforcement tiếp, luật tương tự nơi khác"
 [[tom_tat_nhanh]]
 label = "Hợp với"
 value = "Ai đọc cả series hoặc cần bức tranh tổng thể nhanh"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Hai năm rưỡi sau khi Apple được chỉ định **gatekeeper** theo Digital Markets Act (DMA), iPhone ở châu Âu **không giống** iPhone ở Việt Nam. Cùng một logo táo khuyết, nhưng người dùng Berlin có thể thấy **browser choice screen**, **marketplace thay thế** và **cảnh báo thanh toán ngoài App Store** — còn người dùng Hà Nội vẫn **một cửa App Store, một Apple ID, một quy trình hoàn tiền quen thuộc**.

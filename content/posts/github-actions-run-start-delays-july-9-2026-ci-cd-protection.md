@@ -36,7 +36,7 @@ title = "Quick summary"
 collapsed = false
 disclaimer = "This article is based on GitHub's public status updates. Operational details may change if GitHub publishes follow-up information."
 items = ["GitHub reported degraded availability for Actions on July 9, 2026, with hosted-runner jobs delayed or failing to start.", "GitHub Pages builds were also affected during part of the incident, while existing Pages sites remained accessible according to GitHub's update.", "A queued workflow is not automatically a broken commit; if the job never reached checkout, your code has not been tested yet.", "Teams can reduce impact with concurrency controls, limited retries, platform-incident detection, non-essential workflow pauses, and post-deploy live verification."]
-image_attribution_checked_at = "2026-07-10T14:01:40+07:00"
+image_attribution_checked_at = "2026-07-10T18:56:46+07:00"
 image_query = "github actions delays starting runs"
 +++
 

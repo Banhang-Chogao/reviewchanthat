@@ -6,8 +6,7 @@ date = "2026-07-08T10:00:00+07:00"
 description = "Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung Quốc cũng có dòng fold riêng. Apple chưa từng công bố iPhone gập — nhưng từ 2024–2026"
 draft = false
 image = "images/posts/iphone-fold-iphone-ultra-la-gi.webp"
-image_attribution_checked_at = "2026-07-10T14:01:35+07:00"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_checked_at = "2026-07-10T18:56:41+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -60,6 +59,7 @@ label = "Giá (đồn)"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung Quốc cũng có dòng fold riêng. Apple **chưa từng công bố** iPhone gập — nhưng từ 2024–2026, **MacRumors**, **AppleInsider** và nhiều analyst liên tục nhắc tới **iPhone Fold** (đôi khi gọi tạm **iPhone Ultra**). Đây là gì, khác iPhone 18 Pro Max thế nào, và **có nên chờ** không? Bài viết phân loại tin đồn có nguồn — không khẳng định sản phẩm Apple sẽ ra đúng như leak.

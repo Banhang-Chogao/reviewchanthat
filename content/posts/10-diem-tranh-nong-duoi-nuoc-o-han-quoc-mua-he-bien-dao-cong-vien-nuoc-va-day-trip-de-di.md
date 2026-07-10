@@ -6,8 +6,7 @@ date = "2026-07-08T07:00:00+07:00"
 description = "Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm   đi"
 draft = false
 image = "images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp"
-image_attribution_checked_at = "2026-07-10T14:01:28+07:00"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
+image_attribution_checked_at = "2026-07-10T18:56:33+07:00"
 image_attribution_source = "rejected_generic"
 image_attribution_verified = false
 image_commercial_use = true
@@ -54,6 +53,7 @@ title = "Du lịch Hàn Quốc mùa hè nên đi đâu?"
 [[tom_tat_nhanh]]
 label = "Thời gian đọc"
 value = "5–7 phút"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Mùa hè Hàn Quốc mà nói thật thì nóng kinh khủng — nhiệt độ vượt 30°C, độ ẩm cao, mưa lúc bất chợt. Trốn trong trung tâm thương mại cả ngày cũng chán. Cách hay hơn là tìm mấy điểm tránh nóng dưới nước.
