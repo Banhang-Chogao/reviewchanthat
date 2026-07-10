@@ -214,13 +214,24 @@
   </div>
 </div>
 
-{{ $hash := substr .Site.Data.version.commit_full 0 16 }}
-{{ $repo := "Banhang-Chogao/reviewchanthat" }}
-{{ $watermark := printf "%s — %s" $hash $repo }}
-<!-- Print watermarks (visible only when printing) -->
+{{ $versionDate := .Site.Data.version.version_date | default (now.Format "02-01-2006") }}
+{{ $commitShort := .Site.Data.version.commit_short | default (substr .Site.Data.version.commit_full 0 7) }}
+{{ $pagePath := strings.TrimSuffix "/" .RelPermalink }}
+{{ $watermark := printf "%s-%s_banhang-chogao.github.io%s" $versionDate $commitShort $pagePath }}
+<style>
+@media print {
+  @page {
+    @bottom-center {
+      content: "ISO A4: 210 mm × 297 mm  |  " counter(page) " / " counter(pages) "  |  {{ $watermark }}";
+      font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      font-size: 6.2pt;
+      color: #555;
+    }
+  }
+}
+</style>
+<!-- Print watermark, visible only in paper margins. -->
 <div class="tp-print-watermark tp-print-watermark--header" data-watermark="{{ $watermark }}"></div>
-<div class="tp-print-watermark tp-print-watermark--footer" data-watermark="{{ $watermark }}"></div>
-<div class="tp-print-watermark tp-print-watermark--left" data-watermark="{{ $watermark }}"></div>
 
 <!-- Scripts -->
 <script src="/reviewchanthat/js/travel-destination-search.js"></script>

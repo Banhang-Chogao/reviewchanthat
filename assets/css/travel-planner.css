@@ -1254,7 +1254,7 @@
     border-bottom: 1px solid #000;
   }
 
-  /* ===== Watermark: bold + red, 3 positions ===== */
+  /* ===== Watermark: paper-margin only, never over content ===== */
   .tp-print-watermark {
     display: block !important;
     position: fixed;
@@ -1269,29 +1269,13 @@
   }
 
   .tp-print-watermark--header {
-    top: 2mm;
-    left: 0;
-    right: 0;
+    top: 4mm;
+    left: 12mm;
+    right: 12mm;
     text-align: center;
-    font-size: 7pt;
-  }
-
-  .tp-print-watermark--footer {
-    bottom: 22mm;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 7pt;
-  }
-
-  .tp-print-watermark--left {
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%) rotate(-90deg);
-    transform-origin: center center;
-    font-size: 7pt;
+    font-size: 6.2pt;
+    line-height: 1;
     white-space: nowrap;
-    letter-spacing: 1px;
   }
 }
 
