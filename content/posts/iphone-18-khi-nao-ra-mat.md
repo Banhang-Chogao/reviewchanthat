@@ -69,7 +69,7 @@ Mỗi năm tháng 9, Apple thường ra mắt iPhone mới cùng iOS bản chín
 - **[Apple đã xác nhận]** — chỉ dùng khi có Newsroom/keynote/trang sản phẩm
 - **[Báo chí / analyst]** — MacRumors, AppleInsider, Bloomberg, Ming-Chi Kuo…
 - **[Tin đồn / chưa xác nhận]** — leak, CAD, dummy, chuỗi cung ứng
-- **[Phân tích]** — suy luận từ hành vi sản phẩm Apple
+- **[phân tích]** — suy luận từ hành vi sản phẩm Apple
 
 Quay lại bản đồ tổng thể series tại [iPhone 18 có gì mới?](/posts/iphone-18-co-gi-moi/) trước khi đi sâu vào timeline.
 
@@ -99,11 +99,11 @@ Quay lại bản đồ tổng thể series tại [iPhone 18 có gì mới?](/pos
 - **Ngày cụ thể** (ví dụ thứ Ba tuần thứ hai tháng 9): Apple chưa gửi thư mời; mọi ngày trên lịch là **ước lượng** từ pattern các năm trước. **[Tin đồn / chưa xác nhận]**
 - **iPhone Fold trễ bán đến tháng 12/2026** do sản xuất phức tạp: một số leak nói pre-order tháng 9 nhưng giao hàng loạt cuối năm — **chưa có xác nhận Apple**. **[Tin đồn / chưa xác nhận]**
 - **iPhone 18e thay thế iPhone 16e** cùng đợt spring 2027: hợp lý về mặt sản phẩm nhưng **chưa có tên chính thức**. **[Tin đồn / chưa xác nhận]**
-- **Việt Nam nhận hàng cùng ngày Mỹ**: thường trễ 2–4 tuần với đợt đầu; timeline VN phụ thuộc AAR/PET và chưa được Apple công bố. **[Phân tích]**
+- **Việt Nam nhận hàng cùng ngày Mỹ**: thường trễ 2–4 tuần với đợt đầu; timeline VN phụ thuộc AAR/PET và chưa được Apple công bố. **[phân tích]**
 
 ## Vì sao Apple có thể đổi lịch ra mắt?
 
-**[Phân tích]** Split launch không phải ý tưởng mới trong ngành — Samsung, Google từng tách đợt — nhưng với iPhone, đây sẽ là **thay đổi thói quen tiêu dùng** lớn. Các lý do analyst thường nêu:
+**[phân tích]** Split launch không phải ý tưởng mới trong ngành — Samsung, Google từng tách đợt — nhưng với iPhone, đây sẽ là **thay đổi thói quen tiêu dùng** lớn. Các lý do analyst thường nêu:
 
 ### 1. Chip 2nm và năng lực sản xuất
 
@@ -115,7 +115,7 @@ Fold là dòng mới, giá đồn **~2.000 USD**. Ra cùng base model tháng 9 d
 
 ### 3. Base model chờ tối ưu giá
 
-**[Báo chí / analyst]** AppleInsider và MacRumors đều nhắc base iPhone 18 có thể **ít thay đổi thiết kế**, tập trung vào **giá cạnh tranh** và bán số lượng lớn vào **đầu năm** — thời điểm nhiều người đổi máy sau Tết (đặc biệt thị trường châu Á). **[Phân tích]** Với người Việt, đợt spring 2027 có thể trùng **sau Tết Âm lịch 2027** — hợp vòng mua sắm truyền thống.
+**[Báo chí / analyst]** AppleInsider và MacRumors đều nhắc base iPhone 18 có thể **ít thay đổi thiết kế**, tập trung vào **giá cạnh tranh** và bán số lượng lớn vào **đầu năm** — thời điểm nhiều người đổi máy sau Tết (đặc biệt thị trường châu Á). **[phân tích]** Với người Việt, đợt spring 2027 có thể trùng **sau Tết Âm lịch 2027** — hợp vòng mua sắm truyền thống.
 
 ### 4. Tránh “cannibalize” iPhone 17
 
@@ -131,7 +131,7 @@ iPhone 17 vừa ra (2025) với ProMotion trên base. Nếu iPhone 18 base xuấ
 | Q1/2027 | Sự kiện spring — iPhone 18, 18e |
 | Cùng năm | iOS 27 đã có trên máy cũ; máy mới ship sẵn iOS mới nhất |
 
-**[Phân tích]** Nếu bạn đang dùng iPhone 15/16/17 và phân vân chờ hay không, timeline này ảnh hưởng trực tiếp: **chờ base 18** có nghĩa chờ **thêm ~6 tháng** so với Pro. Bài chuyên sâu: [Có nên chờ iPhone 18 không?](/posts/co-nen-cho-iphone-18-khong/).
+**[phân tích]** Nếu bạn đang dùng iPhone 15/16/17 và phân vân chờ hay không, timeline này ảnh hưởng trực tiếp: **chờ base 18** có nghĩa chờ **thêm ~6 tháng** so với Pro. Bài chuyên sâu: [Có nên chờ iPhone 18 không?](/posts/co-nen-cho-iphone-18-khong/).
 
 ## Ảnh hưởng tới người mua Việt Nam
 

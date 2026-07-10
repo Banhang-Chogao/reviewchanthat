@@ -91,7 +91,7 @@ Nếu bạn hay **theo dõi giá, lịch, tuyển dụng** trên web, Notify Me 
 **macOS 26:** Cửa còn cho Mac Intel đời cuối.  
 **macOS 27:** Chỉ Apple Silicon trong list — [chi tiết](/posts/macos-27-ho-tro-may-mac-nao/).
 
-**[Phân tích]** Đây là lý do **ở lại 26** hợp lý nhất cho Intel.
+**[phân tích]** Đây là lý do **ở lại 26** hợp lý nhất cho Intel.
 
 ## Hiệu năng và pin
 
@@ -115,7 +115,7 @@ macOS 26 vẫn nhận **security update** một thời gian sau khi 27 ra — Ap
 
 ## Tin đồn macOS 28 — có nên đợi?
 
-**[Tin đồn / chưa xác nhận]** Một số leak nói 2027 mới đại tu UI lớn. **[Phân tích]** Đừi 27 vì sợ 28 trừ khi máy Intel sắp retire — khi đó cân nhắc **đổi Mac**, không phải skip 27.
+**[Tin đồn / chưa xác nhận]** Một số leak nói 2027 mới đại tu UI lớn. **[phân tích]** Đừi 27 vì sợ 28 trừ khi máy Intel sắp retire — khi đó cân nhắc **đổi Mac**, không phải skip 27.
 
 
 ## Chi tiết từng app hệ thống
@@ -146,7 +146,7 @@ Cả hai đều có Apple Intelligence framework; **27** mở rộng Passwords t
 
 ## Nâng cấp nhảy cóc từ macOS 25 hoặc cũ hơn?
 
-**[Phân tích]** Apple khuyến nghị lên **phiên bản gần nhất** trước khi nhảy lớn. Nếu bạn đang 25 hoặc 24, cân nhắc lên **26 stable** trước, làm quen Liquid Glass, rồi mới 27 — giảm shock UX và lỗi migration profile.
+**[phân tích]** Apple khuyến nghị lên **phiên bản gần nhất** trước khi nhảy lớn. Nếu bạn đang 25 hoặc 24, cân nhắc lên **26 stable** trước, làm quen Liquid Glass, rồi mới 27 — giảm shock UX và lỗi migration profile.
 
 ## Tóm lại bằng một câu
 

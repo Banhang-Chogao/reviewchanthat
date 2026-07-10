@@ -71,7 +71,7 @@ Apple **chưa công bố** iPhone 18. Bài viết phân loại tin từ [MacRumo
 - **[Apple đã xác nhận]** — chỉ dùng khi có Newsroom/keynote/trang sản phẩm
 - **[Báo chí / analyst]** — MacRumors, AppleInsider, Bloomberg, Ming-Chi Kuo…
 - **[Tin đồn / chưa xác nhận]** — leak, CAD, dummy, chuỗi cung ứng
-- **[Phân tích]** — suy luận từ hành vi sản phẩm Apple
+- **[phân tích]** — suy luận từ hành vi sản phẩm Apple
 
 ## Bảng tóm tắt nhanh
 
@@ -85,7 +85,7 @@ Apple **chưa công bố** iPhone 18. Bài viết phân loại tin từ [MacRumo
 
 ## Under-display Face ID là gì?
 
-**[Phân tích]** **Under-display Face ID** là cách Apple (hoặc OEM khác) đặt các cảm biến nhận diện khuôn mặt **bên dưới lớp OLED**, thay vì nằm trong vùng “tai thỏ” hoặc **Dynamic Island** nhô lên. Mục tiêu: màn hình **gần full viền**, không còn khối đen cố định ở trên.
+**[phân tích]** **Under-display Face ID** là cách Apple (hoặc OEM khác) đặt các cảm biến nhận diện khuôn mặt **bên dưới lớp OLED**, thay vì nằm trong vùng “tai thỏ” hoặc **Dynamic Island** nhô lên. Mục tiêu: màn hình **gần full viền**, không còn khối đen cố định ở trên.
 
 Cơ chế kỹ thuật phức tạp hơn camera selfie ẩn dưới màn hình vì Face ID cần **dot projector**, **flood illuminator** và camera hồng ngoại — ánh sáng hồng ngoại xuyên qua tấm nền kém hiệu quả hơn ánh sáng thường. Đó là lý do tin đồn “Face ID trọn vẹn dưới màn hình” thường **bị hoãn** từ thế hệ này sang thế hệ khác.
 
@@ -113,11 +113,11 @@ Cơ chế kỹ thuật phức tạp hơn camera selfie ẩn dưới màn hình v
 
 - **Under-display Face ID trên iPhone 18 Pro:** từng là leak “bom tấn” nhưng [MacRumors](https://www.macrumors.com/roundup/iphone-18-pro/) ghi nhận công nghệ **có thể chưa sẵn sàng**; hướng đồn **mạnh hơn** hiện là Island thu nhỏ + hole-punch selfie.
 - **Island biến mất hoàn toàn trên toàn dòng:** chưa có chuỗi cung ứng độc lập nào khẳng định; Apple thường đưa tính năng thiết kế mới lên **Pro trước**, base sau 1–2 năm.
-- **Always-On / ProMotion thay đổi vì Island:** **[Phân tích]** ProMotion đã có trên iPhone 17 base (sản phẩm Apple đã bán); tin đồn Island chủ yếu ảnh hưởng **vùng che nội dung**, không phải tần số quét.
+- **Always-On / ProMotion thay đổi vì Island:** **[phân tích]** ProMotion đã có trên iPhone 17 base (sản phẩm Apple đã bán); tin đồn Island chủ yếu ảnh hưởng **vùng che nội dung**, không phải tần số quét.
 
 ## Ảnh hưởng tới trải nghiệm hàng ngày
 
-**[Phân tích]** Dynamic Island nhỏ hơn **không** tự động làm máy “xịn” hơn — nhưng có ba lợi ích thực tế nếu tin đồn đúng:
+**[phân tích]** Dynamic Island nhỏ hơn **không** tự động làm máy “xịn” hơn — nhưng có ba lợi ích thực tế nếu tin đồn đúng:
 
 1. **Xem video, chơi game:** vùng notch/Island chiếm ít pixel hơn ở mép trên; với màn 6,3–6,9 inch, mỗi phần trăm diện tích hiển thị đều đáng kể.
 2. **Live Activities:** Island nhỏ vẫn cần đủ rộng cho animation — Apple có thể tối ưu **phần mềm** thay vì chỉ thu phần cứng.

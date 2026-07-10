@@ -71,7 +71,7 @@ Theo Apple, nút hỗ trợ:
 - **Exposure, depth** tùy ngữ cảnh
 - Tích hợp **Visual Intelligence** (theo roadmap Apple)
 
-**[Phân tích]** Giá trị lớn nhất là **giảm chạm màn** khi cầm một tay — đặc biệt tele 5x rung nếu thao tác không chắc.
+**[phân tích]** giá trị lớn nhất là **giảm chạm màn** khi cầm một tay — đặc biệt tele 5x rung nếu thao tác không chắc.
 
 ## 2. Khi nào “có tiện”?
 

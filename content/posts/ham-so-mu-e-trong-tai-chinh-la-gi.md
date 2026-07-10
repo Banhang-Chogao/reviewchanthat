@@ -163,7 +163,7 @@ A = P × e^(rt)
 ⟹  PV = FV × e^(-rt)
 ```
 
-**Ví dụ:** Bạn sẽ nhận 182.21 triệu sau 10 năm. Giá trị hiện tại (hôm nay) của khoản tiền đó là bao nhiêu, với lãi suất 6%?
+**Ví dụ:** Bạn sẽ nhận 182.21 triệu sau 10 năm. giá trị hiện tại (hôm nay) của khoản tiền đó là bao nhiêu, với lãi suất 6%?
 
 ```
 PV = 182.21 × e^(-0.06 × 10)
@@ -183,14 +183,14 @@ Quỹ tính **log-return**: `R = ln(Pt/Pt-1)`
 
 Log-return có tính chất **cộng dồn hoàn hảo** - nếu bạn có lợi suất 5% rồi -3%, tổng = ln(1.05) + ln(0.97) = ln(1.05 × 0.97). Đây là lý do giới định lượng dùng log-return thay vì simple return.
 
-### 2. **Định giá quyền chọn (Options)**
+### 2. **định giá quyền chọn (Options)**
 **Black-Scholes formula** dùng `e^(-rT)` để chiết khấu lợi tức kỳ vọng.
 
 ### 3. **Quản trị rủi ro**
 Xác suất **default** (mặc định) dùng mô hình survival: `P(survive) = e^(-λt)`, nơi λ là tỷ lệ mặc định.
 
 ### 4. **Bảo hiểm (Actuarial Science)**
-Giá trị hiện tại của **annuity** (niên kim) tính bằng:
+giá trị hiện tại của **annuity** (niên kim) tính bằng:
 ```
 PV = C × ∫ e^(-rt) dt
 ```
@@ -230,7 +230,7 @@ Ngân hàng bán lẻ phải công khai lãi suất theo chuẩn nhất định 
 
 ✅ **Số e ≈ 2.71828** — xuất hiện từ giới hạn (1 + 1/n)^n  
 ✅ **Lãi kép liên tục:** A = Pe^(rt)  
-✅ **Chiết khấu:** PV = FV × e^(-rt)  
+✅ **chiết khấu:** PV = FV × e^(-rt)  
 ✅ **Chênh lệch nhỏ:** Với 10 năm 6%/năm, chỉ hơn 0.01% so với lãi kép hàng ngày  
 ✅ **Khi nào dùng:** Quỹ đầu tư, định giá quyền chọn, bảo hiểm, quản trị rủi ro  
 ✅ **Khi nào không cần:** Gửi tiết kiệm thông thường  
@@ -247,7 +247,7 @@ Từ đây, series này sẽ đi sâu:
 - **Bài 4:** Bảo hiểm và xác suất sống còn (e^(-λt))
 - **Bài 5-6:** CFA, FRM—chứng chỉ tài chính dùng công thức gì
 - **Bài 7-9:** Goldman Sachs, JPMorgan, BlackRock, Renaissance Technologies—định chế tài chính dùng toán học như thế nào
-- **Bài 10-14:** Định giá (DCF, Black-Scholes), Risk Management, Monte Carlo, AI tài chính
+- **Bài 10-14:** định giá (DCF, Black-Scholes), Risk Management, Monte Carlo, AI tài chính
 - **Bài 15:** Tổng bản đồ—từ e đến quỹ định lượng
 
 Bước tiếp theo: hiểu **ln (log tự nhiên)** và **log-return**—nó là hàm ngược của e, và giới tài chính dùng nó mỗi ngày để tính lợi suất cổ phiếu, crypto, và tài sản khác.

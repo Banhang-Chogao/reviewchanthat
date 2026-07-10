@@ -106,7 +106,7 @@ Tuy nhiên, **dự báo không bao giờ chắc chắn**—thị trường có t
 - **Phòng thủ lạm phát**: Nếu lạm phát cao, giá vàng thường tăng theo
 - **Dễ bán**: Bạn có thể bán vàng bất cứ lúc nào tại các tiệm vàng hay các công ty vàng bạc
 - **Không cần kỹ thuật**: Mua vàng miếng rồi cất giữ, không cần hiểu gì về kinh tế vĩ mô
-- **Giá trị bảo tồn**: Vàng là tài sản được giá qua thế kỷ, ít bị "bay màu" so với tiền tệ
+- **giá trị bảo tồn**: Vàng là tài sản được giá qua thế kỷ, ít bị "bay màu" so với tiền tệ
 
 **Nhược điểm:**
 - **Giá biến động mạnh**: Trong cùng một tháng, vàng SJC có thể tăng hay giảm 2–5 triệu đồng/lượng. Nếu bạn mua hôm nay với giá 150 triệu, và sau 1 tháng xuống còn 145 triệu, bạn đã bị lỗ 5 triệu (hoặc 3% vốn)
@@ -130,7 +130,7 @@ Tuy nhiên, **dự báo không bao giờ chắc chắn**—thị trường có t
 - **Bắt kịp tăng trưởng kinh tế**: Bằng cách đầu tư vào các công ty Việt Nam, bạn tham gia vào tăng trưởng của nền kinh tế
 
 **Nhược điểm:**
-- **Rủi ro cao**: Giá cổ phiếu có thể giảm 10%, 20%, thậm chí 50% trong một năm nếu công ty gặp khó khăn hay thị trường sụt giảm
+- **rủi ro cao**: Giá cổ phiếu có thể giảm 10%, 20%, thậm chí 50% trong một năm nếu công ty gặp khó khăn hay thị trường sụt giảm
 - **Cần kiến thức**: Nếu bạn không hiểu về công ty hay ngành, bạn sẽ dễ mắc sai lầm trong chọn cổ phiếu
 - **Sai thời điểm**: Nhiều người mua khi thị trường tăng nóng, bán khi thị trường sợ hãi—điều này gây lỗ. Thời điểm vào và ra rất quan trọng.
 - **Cảm xúc**: Khi thấy cổ phiếu giảm, nhiều người bán tức thời (chốt lỗ sớm), làm mất cơ hội tăng trở lại

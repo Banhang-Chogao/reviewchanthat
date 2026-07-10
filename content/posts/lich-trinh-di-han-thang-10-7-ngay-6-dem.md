@@ -258,7 +258,7 @@ Chi tiết 5N4Đ: [Lịch trình 5 ngày 4 đêm]({{< ref "posts/lich-trinh-di-h
 | Vé tham quan (cung, Nami, Seoraksan, Busan) | 800.000 – 1.500.000 |
 | **Tổng** | **14.800.000 – 26.100.000** |
 
-Mức giá **có thể thay đổi** theo thời điểm đặt và tỷ giá. Phân tích chi tiết: [Chi phí đi Hàn tháng 10 tự túc]({{< ref "posts/chi-phi-di-han-thang-10-tu-tuc" >}}).
+Mức giá **có thể thay đổi** theo thời điểm đặt và tỷ giá. phân tích chi tiết: [Chi phí đi Hàn tháng 10 tự túc]({{< ref "posts/chi-phi-di-han-thang-10-tu-tuc" >}}).
 
 ## 7. Hợp với ai / Không hợp với ai
 

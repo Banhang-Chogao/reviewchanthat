@@ -164,7 +164,7 @@ Seoraksan National Park ở Sokcho, Gangwon-do, là một trong những điểm 
 - **Lá đỏ đầu tiên:** 30/9
 - **Đỉnh lá đỏ:** 23/10
 
-**Phân tích theo tuần tháng 10:**
+**phân tích theo tuần tháng 10:**
 
 | Tuần | Seoraksan | Gợi ý |
 |---|---|---|

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:20:00+07:00"
-description = "Phân tích khung titan iPhone 15 Pro Max so với thép đời cũ: trọng lượng 221g, độ bền, vết trầy, cảm giác cầm và lưu ý khi mua máy cũ."
+description = "phân tích khung titan iPhone 15 Pro Max so với thép đời cũ: trọng lượng 221g, độ bền, vết trầy, cảm giác cầm và lưu ý khi mua máy cũ."
 draft = false
 image = "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp"
 image_alt = "Ảnh minh họa Trên tay iPhone 15 Pro Max: khung titan có khác thép không? — nguồn Pexels"
@@ -149,7 +149,7 @@ Khung titan trên iPhone 15 Pro Max **khác thép rõ rệt** về **trọng lư
 
 ## 7. Titan và tín hiệu — có đồn không?
 
-**[Phân tích]** Một số forum từng đồn khung kim loại ảnh hưởng **sóng**. Với 15/16 Pro Max, Apple thiết kế **anten xuyên kính** — đừng kỳ vọng titan **cải thiện sóng** so thép; cũng **không nên** lo titan **kém** hơn đáng kể trong đô thị VN.
+**[phân tích]** Một số forum từng đồn khung kim loại ảnh hưởng **sóng**. Với 15/16 Pro Max, Apple thiết kế **anten xuyên kính** — đừng kỳ vọng titan **cải thiện sóng** so thép; cũng **không nên** lo titan **kém** hơn đáng kể trong đô thị VN.
 
 ## 8. Nhiệt khi chơi game / quay video
 

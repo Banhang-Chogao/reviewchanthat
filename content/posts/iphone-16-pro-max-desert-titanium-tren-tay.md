@@ -70,7 +70,7 @@ iPhone 16 Pro Max là bước **phóng to** có chủ đích: **màn 6.9 inch**,
 
 Desert không phải vàng gold đời cũ, cũng không phải hồng rose — là **xám ấm, ngả cát**. Mình thích màu này vì **ít “lạnh”** như Natural, **ít “ẩn”** như Black, và **không phai lạ** như Blue 15 từng gây tranh cãi. Trên bàn gỗ hoặc quán cafe tone ấm, Desert **hòa màu** đẹp hơn White.
 
-Phân tích ai hợp Desert: [Desert Titanium](/posts/iphone-16-pro-max-desert-titanium-hop-ai/). So ba màu còn lại: [Natural, White và Black Titanium](/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao/).
+phân tích ai hợp Desert: [Desert Titanium](/posts/iphone-16-pro-max-desert-titanium-hop-ai/). So ba màu còn lại: [Natural, White và Black Titanium](/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao/).
 
 ## 2. Kích thước 6.9 inch — không phải upgrade nhỏ
 
@@ -140,7 +140,7 @@ iPhone 16 Pro Max Desert Titanium là **Pro Max đầy đủ nhất** của Appl
 
 ## 7. Giá iPhone 16 Pro Max nửa 2026 — đọc đúng
 
-**[Phân tích]** Giá máy **mới** tại TTBH và **cũ** trên chợ tự do **chênh lớn**. Pro Max **512GB Desert** cũ pin 90% có thể **cạnh tranh** với 15 Pro Max 256GB pin 88% — đừng so **đời khác dung lượng khác** mà không quy đổi. Ghi bảng so sánh **cùng 256GB, cùng khu vực** (VN/A, LL/A) trước khi quyết định.
+**[phân tích]** Giá máy **mới** tại TTBH và **cũ** trên chợ tự do **chênh lớn**. Pro Max **512GB Desert** cũ pin 90% có thể **cạnh tranh** với 15 Pro Max 256GB pin 88% — đừng so **đời khác dung lượng khác** mà không quy đổi. Ghi bảng so sánh **cùng 256GB, cùng khu vực** (VN/A, LL/A) trước khi quyết định.
 
 ## 7b. Dynamic Island và thông báo — vẫn là Pro
 
@@ -204,7 +204,7 @@ Quay **4K60** và **ProRes** — cân **512GB** trở lên. Người chủ yếu
 
 ## 14. Đồng bộ với Mac và iPad
 
-AirDrop file lớn, Universal Clipboard — **không đổi** vì 16 Pro Max. **iPhone Mirroring** trên macOS — tiện **nhắn tin** khi làm việc. Giá trị **hệ sinh thái** không **phụ thuộc** Desert hay Natural.
+AirDrop file lớn, Universal Clipboard — **không đổi** vì 16 Pro Max. **iPhone Mirroring** trên macOS — tiện **nhắn tin** khi làm việc. giá trị **hệ sinh thái** không **phụ thuộc** Desert hay Natural.
 
 ## 15. Kết luận mở rộng
 

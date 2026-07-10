@@ -76,11 +76,11 @@ Return_i = α + β₁×Factor_Market + β₂×Factor_Size + β₃×Factor_Value 
 ```
 
 **Các factor:**
-- **Market Factor:** Lợi suất thị trường - lãi suất phi rủi ro
+- **Market Factor:** lợi suất thị trường - lãi suất phi rủi ro
 - **Size Factor:** Cổ phiếu nhỏ vượt trội so cổ phiếu lớn
 - **Value Factor:** Cổ phiếu rẻ vượt trội so cổ phiếu đắt
-- **Profitability:** Công ty lợi nhuận cao vượt trội
-- **Investment:** Công ty đầu tư ít vượt trội
+- **Profitability:** công ty lợi nhuận cao vượt trội
+- **Investment:** công ty đầu tư ít vượt trội
 
 ### Ví dụ: Cổ phiếu VietcomBank
 
@@ -115,7 +115,7 @@ Volatility_{t+1} = NN(Historical_Vol, Market_Microstructure, Options_Implied_Vol
 
 ### 3. Sentiment Analysis
 
-Phân tích tin tức, social media → sentiment score → alpha signal.
+phân tích tin tức, social media → sentiment score → alpha signal.
 
 ---
 
@@ -132,7 +132,7 @@ ESG_Score = w₁×E_Score + w₂×S_Score + w₃×G_Score
 - S_Score = Labor practices, community relations, diversity
 - G_Score = Board independence, executive pay, shareholder rights
 
-**Ví dụ:** Công ty A
+**Ví dụ:** công ty A
 
 ```
 E_Score = 75 (trung bình)

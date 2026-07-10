@@ -53,7 +53,7 @@ Bài viết này so sánh chi tiết ba ví điện tử lớn nhất Việt Nam
 | **Người dùng** | 40M+ | 20M+ | 20M+ |
 | **Thị phần (2025–2026)** | ~40% | ~15% | ~20% |
 | **Năm ra mắt** | 2007 (tiên phong) | 2017 | 2018 |
-| **Công ty chủ quản** | M_Service | Zion (VNG Corp) | Shopee (Sea Limited) |
+| **công ty chủ quản** | M_Service | Zion (VNG Corp) | Shopee (Sea Limited) |
 | **Liên kết ngân hàng** | 70+ ngân hàng | 40+ ngân hàng | 30+ ngân hàng |
 | **Điểm chấp nhận QR** | 140.000+ | 50.000+ | 10.000+ |
 | **Định vị** | Financial super app | Social payments | E-commerce payments |
@@ -75,7 +75,7 @@ Bài viết này so sánh chi tiết ba ví điện tử lớn nhất Việt Nam
 
 **Cashback ổn định:** MoMo có chương trình cashback 3–15% tại các đối tác lớn (Grab, Gojek, The Coffee House, Highlands, Phúc Long) với các chương trình giảm giá định kỳ.
 
-**Vốn hóa lớn:** MoMo đã huy động tổng cộng $434 triệu từ các quỹ đầu tư như Warburg Pincus, Mizuho, Standard Chartered. Định giá trên $2 tỷ (Reuters, 4/2026).
+**Vốn hóa lớn:** MoMo đã huy động tổng cộng $434 triệu từ các quỹ đầu tư như Warburg Pincus, Mizuho, Standard Chartered. định giá trên $2 tỷ (Reuters, 4/2026).
 
 ### Điểm yếu
 

@@ -83,7 +83,7 @@ Bảng dưới đây giúp định vị các khái niệm hay bị dùng lẫn:
 | **Tiền mã hóa / crypto** | Cách gọi phổ biến cho các tài sản mã hóa như Bitcoin, Ether | Không phải tiền tệ hợp pháp; không được dùng để thanh toán tại Việt Nam |
 | **Token** | Đơn vị giá trị phát hành trên một blockchain có sẵn; có loại gắn quyền sử dụng dịch vụ (utility), có loại thuần đầu cơ | Nhiều dự án phát hành token chỉ để huy động tiền rồi biến mất |
 | **Stablecoin** | Token được thiết kế neo giá vào tiền pháp định (như USDT neo theo USD) | "Neo giá" là cam kết của bên phát hành, không phải bảo đảm của ngân hàng trung ương |
-| **NFT** | Token đại diện cho một vật phẩm số "duy nhất" (ảnh, vật phẩm game) | Giá trị phụ thuộc hoàn toàn vào người mua sau; thanh khoản có thể về gần 0 |
+| **NFT** | Token đại diện cho một vật phẩm số "duy nhất" (ảnh, vật phẩm game) | giá trị phụ thuộc hoàn toàn vào người mua sau; thanh khoản có thể về gần 0 |
 | **Tiền trong tài khoản ngân hàng** | Tiền pháp định ghi nhận dạng số tại ngân hàng, được pháp luật bảo vệ, có bảo hiểm tiền gửi | KHÔNG phải "tài sản mã hóa" — đừng để tên gọi "tiền số" gây nhầm |
 
 ## Tài sản số khác gì với "tiền ảo" và crypto?
@@ -130,14 +130,14 @@ Lưu ý trung thực: khung pháp lý này **đang hoàn thiện và có thể t
 
 Khung pháp lý mới không xóa được rủi ro cố hữu của loại tài sản này:
 
-| Rủi ro | Ví dụ | Cách tự bảo vệ |
+| rủi ro | Ví dụ | Cách tự bảo vệ |
 |---|---|---|
 | **Biến động giá** | Tài sản mã hóa từng nhiều lần mất 50–80% giá trị trong một chu kỳ giảm | Chỉ dùng số tiền mà nếu mất hết, cuộc sống không bị ảnh hưởng |
 | **Sàn không rõ pháp lý** | Sàn quốc tế sập hoặc khóa rút tiền, người dùng Việt không có cơ chế đòi quyền lợi | Theo dõi danh sách tổ chức được cấp phép từ Bộ Tài chính |
 | **Lừa đảo hứa hẹn lợi nhuận** | "Lãi cố định 30%/tháng", trả lãi người trước bằng tiền người sau | Lợi nhuận cao bất thường + mời tuyến dưới = mô hình Ponzi, rời đi ngay |
 | **Mất private key/seed phrase** | Mất điện thoại, quên cụm từ khôi phục — tài sản trong ví tự lưu ký mất vĩnh viễn | Sao lưu seed phrase ngoại tuyến, không chụp màn hình, không lưu trên mây |
-| **Rủi ro stablecoin** | Stablecoin mất neo giá (depeg) khi bên phát hành khủng hoảng thanh khoản | "Ổn định" là lời hứa của một công ty, không phải của ngân hàng trung ương |
-| **Rủi ro thuế/pháp lý** | Khung quản lý hoàn thiện có thể phát sinh nghĩa vụ kê khai cho giao dịch quá khứ | Lưu toàn bộ lịch sử giao dịch, chứng từ nạp/rút ngay từ bây giờ |
+| **rủi ro stablecoin** | Stablecoin mất neo giá (depeg) khi bên phát hành khủng hoảng thanh khoản | "Ổn định" là lời hứa của một công ty, không phải của ngân hàng trung ương |
+| **rủi ro thuế/pháp lý** | Khung quản lý hoàn thiện có thể phát sinh nghĩa vụ kê khai cho giao dịch quá khứ | Lưu toàn bộ lịch sử giao dịch, chứng từ nạp/rút ngay từ bây giờ |
 | **Dùng tiền vay để giao dịch** | Vay tín dụng để "bắt đáy", thị trường giảm tiếp, mất khả năng trả nợ | Không giao dịch tài sản biến động mạnh bằng tiền vay — không ngoại lệ |
 | **Nghe theo KOL/nhóm tín hiệu** | Nhóm "kèo VIP" hô mua để thoát hàng lên đầu người vào sau | Không ai chia sẻ miễn phí cơ hội làm giàu thật; hỏi xem họ kiếm tiền từ đâu |
 

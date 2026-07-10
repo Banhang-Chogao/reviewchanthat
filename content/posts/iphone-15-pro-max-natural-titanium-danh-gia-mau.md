@@ -80,7 +80,7 @@ So với [Blue Titanium](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/): B
 
 ## 2. Độ bều màu theo thời gian
 
-**[Phân tích]** Titan được phun màu và xử lý bề mặt; Natural ít “lạ” nhất nên khi phai, máy vẫn trông **hợp lý** hơn Blue. Tuy nhiên:
+**[phân tích]** Titan được phun màu và xử lý bề mặt; Natural ít “lạ” nhất nên khi phai, máy vẫn trông **hợp lý** hơn Blue. Tuy nhiên:
 
 - **Góc viền** tiếp xúc bàn, túi jeans dễ **lõm và sáng vết**
 - **Mặt lưng kính** vẫn bám vân tay — màu khung không cứu được

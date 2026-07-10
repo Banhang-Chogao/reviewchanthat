@@ -39,7 +39,7 @@ draft = false
 **Monte Carlo** — phương pháp mô phỏng dựa trên **random sampling**.
 
 Ứng dụng:
-1. **Định giá exotic options** (American, barrier, lookback)
+1. **định giá exotic options** (American, barrier, lookback)
 2. **Tính VaR, rủi ro danh mục**
 3. **Quản trị rủi ro**: Mô phỏng portfolio values
 
@@ -193,7 +193,7 @@ N = 10,000,000: Lỗi ~ ±0.03%
 
 ## Ứng dụng thực tế
 
-1. **Investment Banks:** Định giá Bermudan swaptions, barrier options
+1. **Investment Banks:** định giá Bermudan swaptions, barrier options
 2. **Insurance:** Mô phỏng claims, rủi ro dài hạn
 3. **Pension Funds:** ALM (asset-liability management)
 4. **Risk Management:** Scenario analysis

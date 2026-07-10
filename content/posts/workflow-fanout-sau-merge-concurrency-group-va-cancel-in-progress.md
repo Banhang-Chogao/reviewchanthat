@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:20:00+07:00"
-description = "Phân tích workflow_fanout (safe): một merge kích hoạt deploy + content-direction + snapshot + autofix — cách thiết kế concurrency để không tự DDoS pipeline."
+description = "phân tích workflow_fanout (safe): một merge kích hoạt deploy + content-direction + snapshot + autofix — cách thiết kế concurrency để không tự DDoS pipeline."
 draft = false
 image = "images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp"
 image_alt = "Ảnh minh họa Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix — nguồn Pexels"

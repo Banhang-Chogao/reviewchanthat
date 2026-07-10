@@ -61,7 +61,7 @@ Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **macOS G
 - **Đa nhiệm** — AI chạy nền trong khi bạn code, edit video
 - **Private Cloud Compute** — tác vụ nặng lên server Apple, không train model công khai trên dữ liệu bạn
 
-**[Phân tích]** Mac không có Dynamic Island hay Camera Siri mode như iPhone, nhưng bù bằng **Visual Intelligence** qua Continuity Camera và kéo-thả ảnh.
+**[phân tích]** Mac không có Dynamic Island hay Camera Siri mode như iPhone, nhưng bù bằng **Visual Intelligence** qua Continuity Camera và kéo-thả ảnh.
 
 ## Siri AI trong Spotlight — tính năng đáng dùng nhất
 
@@ -93,7 +93,7 @@ Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **macOS G
 - **Ngôn ngữ hệ thống** trong danh sách hỗ trợ (có **tiếng Việt**)
 - Một số tính năng **theo khu vực** và **theo giai đoạn rollout**
 
-**[Phân tích / phản hồi beta]** Trải nghiệm mượt nhất trên **M2 Pro trở lên, 16GB RAM**. M1 8GB: macOS 27 chạy được, AI hay bị giới hạn hoặc queue cloud.
+**[phân tích / phản hồi beta]** Trải nghiệm mượt nhất trên **M2 Pro trở lên, 16GB RAM**. M1 8GB: macOS 27 chạy được, AI hay bị giới hạn hoặc queue cloud.
 
 Chi tiết máy: [macOS 27 hỗ trợ máy Mac nào](/posts/macos-27-ho-tro-may-mac-nao/).
 
@@ -111,7 +111,7 @@ Chi tiết máy: [macOS 27 hỗ trợ máy Mac nào](/posts/macos-27-ho-tro-may-
 - Private Cloud Compute cho tác vụ cần server — không lưu request, không dùng train model
 - Không bán dữ liệu Siri AI cho quảng cáo
 
-**[Phân tích]** Đây là điểm khác biệt marketing so với chatbot miễn phí — phù hợp doanh nghiệp và người làm việc với dữ liệu nhạy cảm.
+**[phân tích]** Đây là điểm khác biệt marketing so với chatbot miễn phí — phù hợp doanh nghiệp và người làm việc với dữ liệu nhạy cảm.
 
 ## Khi nào AI trên Mac “đáng tiền”?
 
@@ -130,7 +130,7 @@ Xem thêm: [hiệu năng pin](/posts/macos-27-hieu-nang-pin-macbook/), [workflow
 
 ## So sánh nhanh: Mac vs ChatGPT / Copilot trên web
 
-**[Phân tích]** Nhiều người hỏi: “Siri AI có thay ChatGPT không?”
+**[phân tích]** Nhiều người hỏi: “Siri AI có thay ChatGPT không?”
 
 | Tiêu chí | Siri AI / Apple Intelligence | ChatGPT web/app |
 |---|---|---|
@@ -153,7 +153,7 @@ Nếu công ty bạn có policy **cấm đưa dữ liệu khách hàng lên clou
 
 ## Tắt hoặc giới hạn Apple Intelligence
 
-**[Phân tích]** Settings → Apple Intelligence & Siri — thường có toggle tắt từng nhóm tính năng. Nếu pin hoặc compliance là ưu tiên, tắt AI sau khi nâng cấp vẫn giữ được Safari Notify Me và UI mới — cần xác nhận lại trên public beta.
+**[phân tích]** Settings → Apple Intelligence & Siri — thường có toggle tắt từng nhóm tính năng. Nếu pin hoặc compliance là ưu tiên, tắt AI sau khi nâng cấp vẫn giữ được Safari Notify Me và UI mới — cần xác nhận lại trên public beta.
 
 ## Roadmap theo dõi sau public beta
 
@@ -165,4 +165,4 @@ Nếu công ty bạn có policy **cấm đưa dữ liệu khách hàng lên clou
 
 ## Kết luận
 
-Apple Intelligence trên macOS 27 là bước tiến rõ so với năm đầu — **Siri AI Spotlight** là điểm sáng nhất. Giá trị với bạn phụ thuộc **chip + RAM**, **mức tiếng Việt khi public**, và **việc bạn có thật sự dùng Mail/Photos AI hay không**. Đừng mua Mac mới chỉ vì keynote; đọc [checklist nâng cấp](/posts/macos-27-co-nen-nang-cap-ngay-khong/) trước.
+Apple Intelligence trên macOS 27 là bước tiến rõ so với năm đầu — **Siri AI Spotlight** là điểm sáng nhất. giá trị với bạn phụ thuộc **chip + RAM**, **mức tiếng Việt khi public**, và **việc bạn có thật sự dùng Mail/Photos AI hay không**. Đừng mua Mac mới chỉ vì keynote; đọc [checklist nâng cấp](/posts/macos-27-co-nen-nang-cap-ngay-khong/) trước.

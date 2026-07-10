@@ -62,7 +62,7 @@ Starbucks bán cà phê — nhưng rất nhiều khách trả tiền cho **chỗ
 
 **[Starbucks/đã công bố]** Thương hiệu từ lâu định vị cửa hàng là **third place** — không phải nhà, không phải công sở, mà là nơi thứ ba để thư giãn và kết nối. [Starbucks Stories về thiết kế](https://stories.starbucks.com/stories/design/) nhấn mạnh ánh sáng ấm, vật liệu tự nhiên, và bố cục khuyến khích ở lại.
 
-**[Phân tích]** Tại Việt Nam, mô hình này hợp với người trẻ thiếu không gian yên tĩnh ở nhà (đặc biệt TP.HCM), sinh viên cần chỗ học nhóm, và dân văn phòng muốn họp ngoài công ty.
+**[phân tích]** Tại Việt Nam, mô hình này hợp với người trẻ thiếu không gian yên tĩnh ở nhà (đặc biệt TP.HCM), sinh viên cần chỗ học nhóm, và dân văn phòng muốn họp ngoài công ty.
 
 ## Thiết kế chung các chi nhánh Starbucks Vietnam
 
@@ -98,7 +98,7 @@ Câu hỏi hay gặp nhất: **"Ngồi Starbucks làm việc có ổn không?"**
 | Máy lạnh | Ổn định — Sài Gòn nắng thì đáng kể |
 | Thời gian ngồi | Không bị đuổi nếu bạn vẫn gọi thêm |
 
-**[Phân tích]** Đừng kỳ vọng như thư viện im lặng. Starbucks là **coworking bình dân** — ồn vừa, nhiều người qua lại. Nếu cần họp kín quan trọng, văn phòng riêng vẫn tốt hơn.
+**[phân tích]** Đừng kỳ vọng như thư viện im lặng. Starbucks là **coworking bình dân** — ồn vừa, nhiều người qua lại. Nếu cần họp kín quan trọng, văn phòng riêng vẫn tốt hơn.
 
 ## Khung giờ nào yên nhất?
 

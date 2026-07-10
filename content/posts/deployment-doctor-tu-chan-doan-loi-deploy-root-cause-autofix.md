@@ -142,7 +142,7 @@ Failed runs
 | GitHub outage | **No** | Platform | Pause nonessential workflows |
 | rate limit | **No** (hoặc backoff) | Platform | Backoff; giảm fan-out |
 | old QA debt | **Separate PR** | Không chặn deploy chính | Batch debt, baseline ledger |
-| unknown build error | **No** (trừ pattern đã biết) | Rủi ro cao | Human review + thêm knowledge |
+| unknown build error | **No** (trừ pattern đã biết) | rủi ro cao | Human review + thêm knowledge |
 
 ## Vì sao cần baseline debt?
 

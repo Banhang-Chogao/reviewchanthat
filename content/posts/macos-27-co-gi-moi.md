@@ -70,7 +70,7 @@ Tại WWDC26 (8/6/2026), Apple giới thiệu **macOS Golden Gate 27** — tên 
 **Nhãn nguồn trong bài:**
 - **[Apple đã xác nhận]** — keynote, Newsroom, trang sản phẩm
 - **[Phản hồi beta]** — developer, forum sau WWDC
-- **[Phân tích]** — suy luận từ hành vi sản phẩm
+- **[phân tích]** — suy luận từ hành vi sản phẩm
 - **[Tin đồn / chưa xác nhận]** — leak, báo chí không được Apple xác nhận
 
 ## 1. Siri AI trong Spotlight — thay đổi lớn nhất cho người dùng phổ thông
@@ -91,7 +91,7 @@ Với người hay săn deal, theo dõi sự kiện hoặc đặt hàng online, 
 
 **[Apple đã xác nhận]** Visual Intelligence — trước đây nổi bật trên iPhone — được Apple đưa lên Mac. Bạn có thể kéo ảnh vào hoặc dùng Continuity Camera để nhận diện vật thể, landmark, thông tin sản phẩm. Hướng đi hợp lý cho creator và nhân viên marketing cần tra cứu nhanh mà không rời workflow.
 
-**[Phân tích]** Tính năng phụ thuộc camera iPhone/iPad hoặc webcam chất lượng; trên Mac mini hoặc Mac Studio không có camera tích hợp, Continuity Camera là bắt buộc.
+**[phân tích]** Tính năng phụ thuộc camera iPhone/iPad hoặc webcam chất lượng; trên Mac mini hoặc Mac Studio không có camera tích hợp, Continuity Camera là bắt buộc.
 
 ## 4. Thiết kế Liquid Glass và sidebar có màu
 
@@ -140,7 +140,7 @@ Theo trang chính thức Apple, macOS 27 tương thích:
 
 ## 8. Ai dùng Mac để làm gì — có gì thay đổi?
 
-**[Phân tích]** Golden Gate 27 không chỉ cho “fan Apple”:
+**[phân tích]** Golden Gate 27 không chỉ cho “fan Apple”:
 
 - **Văn phòng**: Mail AI, Spotlight tìm tài liệu, Safari Notify Me
 - **Creator**: Photos Spatial Reframing, Visual Intelligence, AirDrop nhanh hơn
@@ -175,7 +175,7 @@ Workflow theo từng nhóm: [macOS 27 cho văn phòng, creator và lập trình 
 
 **[Apple đã xác nhận]** App Passwords trên macOS 27 mở rộng khả năng **tự phát hiện và đổi mật khẩu yếu hoặc đã lộ** trong các vụ rò rỉ công khai. Với người dùng Việt Nam — vốn hay tái sử dụng mật khẩu giữa ngân hàng, email công ty và mạng xã hội — đây là tính năng “thực dụng” hơn nhiều so với Image Playground.
 
-**[Phân tích]** Tính năng vẫn phụ thuộc website hỗ trợ đổi mật khẩu tự động và bạn dùng iCloud Keychain làm nguồn chính. Nếu đang dùng 1Password hoặc Bitwarden, hãy kiểm tra xem app đó có tích hợp tốt trên beta 27 hay không trước khi nâng cấp máy làm việc.
+**[phân tích]** Tính năng vẫn phụ thuộc website hỗ trợ đổi mật khẩu tự động và bạn dùng iCloud Keychain làm nguồn chính. Nếu đang dùng 1Password hoặc Bitwarden, hãy kiểm tra xem app đó có tích hợp tốt trên beta 27 hay không trước khi nâng cấp máy làm việc.
 
 ## 11. Hệ sinh thái Apple — Continuity và Handoff
 
@@ -222,4 +222,4 @@ Lập trình viên độc lập có thể thử developer beta trên máy phụ 
 
 ## Kết luận
 
-macOS Golden Gate 27 là bản cập nhật “AI + UX fix” hơn là đại tu giao diện. Giá trị thực với người Việt phụ thuộc **tiếng Việt cho Siri AI**, **máy bạn có trong danh sách tương thích** và **mức ổn định public beta**. Đọc tiếp các bài trong series trước khi bấm Update — đặc biệt [tương thích](/posts/macos-27-ho-tro-may-mac-nao/), [AI](/posts/macos-27-apple-intelligence-macbook/) và [checklist nâng cấp](/posts/macos-27-co-nen-nang-cap-ngay-khong/).
+macOS Golden Gate 27 là bản cập nhật “AI + UX fix” hơn là đại tu giao diện. giá trị thực với người Việt phụ thuộc **tiếng Việt cho Siri AI**, **máy bạn có trong danh sách tương thích** và **mức ổn định public beta**. Đọc tiếp các bài trong series trước khi bấm Update — đặc biệt [tương thích](/posts/macos-27-ho-tro-may-mac-nao/), [AI](/posts/macos-27-apple-intelligence-macbook/) và [checklist nâng cấp](/posts/macos-27-co-nen-nang-cap-ngay-khong/).

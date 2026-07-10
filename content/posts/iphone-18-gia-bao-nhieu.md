@@ -82,7 +82,7 @@ Bài thuộc [series iPhone 18 có gì mới](/posts/iphone-18-co-gi-moi/) — g
 
 **[Tin đồn / chưa xác nhận]** TSMC **N2 (2nm)** đắt hơn đáng kể so với 3nm của **A18/A19**. [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more) và nhiều báo chuyên ngành cho rằng Apple sẽ **chuyển chi phí** sang người mua Pro trước — đọc thêm [chip A20 2nm](/posts/iphone-18-chip-a20-2nm/).
 
-**[Phân tích]** Apple có thể **hấp thụ** một phần chi phí ở model base (bán volume lớn) nhưng **tăng giá Pro** — nhóm khách ít nhạy cảm giá hơn và cần margin cao cho R&D Fold.
+**[phân tích]** Apple có thể **hấp thụ** một phần chi phí ở model base (bán volume lớn) nhưng **tăng giá Pro** — nhóm khách ít nhạy cảm giá hơn và cần margin cao cho R&D Fold.
 
 ### 2. RAM và Apple Intelligence
 
@@ -110,11 +110,11 @@ Bài thuộc [series iPhone 18 có gì mới](/posts/iphone-18-co-gi-moi/) — g
 
 - **Mức tăng chính xác từng model VNĐ:** không ai biết trước Apple — đại lý chỉ nhận giá khi **chính sách FPT/SPT/Apple** công bố.
 - **iPhone 18e thay SE:** giá ~499 USD (tin đồn cũ) — chưa chắc vẫn đúng 2027.
-- **Thuế / tariff Mỹ ảnh hưởng giá VN:** **[Phân tích]** thị trường VN chủ yếu **nhập chính hãng**; biến động tỷ giá USD/VND thường **nhạy hơn** tariff đối với người tiêu dùng cuối.
+- **Thuế / tariff Mỹ ảnh hưởng giá VN:** **[phân tích]** thị trường VN chủ yếu **nhập chính hãng**; biến động tỷ giá USD/VND thường **nhạy hơn** tariff đối với người tiêu dùng cuối.
 
 ## Quy đổi sang Việt Nam Nam — cách ước lượng thực tế
 
-**[Phân tích]** Apple không bán trực tiếp giá Mỹ sang VN. Kinh nghiệm các đời trước:
+**[phân tích]** Apple không bán trực tiếp giá Mỹ sang VN. Kinh nghiệm các đời trước:
 
 | Bước | Việc cần làm |
 |------|----------------|
@@ -129,7 +129,7 @@ Bài thuộc [series iPhone 18 có gì mới](/posts/iphone-18-co-gi-moi/) — g
 
 ### Ngân sách ~15–20 triệu VNĐ
 
-**[Phân tích]** Chờ iPhone 18 base **đầu 2027** có thể mất **6 tháng** sau khi bạn cần máy. Trong lúc đó, **iPhone 16/17** giảm giá mạnh — đọc [iPhone 18 vs iPhone 17](/posts/iphone-18-vs-iphone-17/).
+**[phân tích]** Chờ iPhone 18 base **đầu 2027** có thể mất **6 tháng** sau khi bạn cần máy. Trong lúc đó, **iPhone 16/17** giảm giá mạnh — đọc [iPhone 18 vs iPhone 17](/posts/iphone-18-vs-iphone-17/).
 
 ### Ngân sách ~25–35 triệu VNĐ (Pro)
 

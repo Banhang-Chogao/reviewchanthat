@@ -128,7 +128,7 @@ Nếu bạn muốn cả hai loại hoa trong cùng chuyến, lịch 3 ngày nên
 
 **4 ngày 3 đêm** phù hợp nếu bạn muốn đi chậm, chụp ảnh nhiều, có trẻ nhỏ hoặc không thuê xe. Thêm một ngày giúp bạn né mưa, né gió và không bị áp lực phải check-in đủ điểm trong điều kiện đông.
 
-## Phân tích thực tế theo từng nhóm người đi
+## phân tích thực tế theo từng nhóm người đi
 
 **Cặp đôi thích chụp ảnh** nên nhắm cuối tháng 3 đến đầu tháng 4, chọn 2-3 điểm hoa có bối cảnh khác nhau: một điểm đường hoa như Noksan-ro, một điểm biển như Seopjikoji, một điểm núi như Sanbangsan. Nên đi sáng sớm hoặc cuối chiều để ánh sáng mềm hơn và tránh đám đông.
 

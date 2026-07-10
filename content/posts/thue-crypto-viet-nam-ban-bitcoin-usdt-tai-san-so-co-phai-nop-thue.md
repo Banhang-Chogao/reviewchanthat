@@ -92,7 +92,7 @@ Nói cách khác, câu "chưa có luật về crypto nên khỏi lo thuế" đã
 - **Bạn là cá nhân hay doanh nghiệp?** Doanh nghiệp Việt Nam kinh doanh tài sản mã hóa thuộc diện thuế thu nhập doanh nghiệp 20% — khác hẳn cá nhân.
 - **Bán một lần hay giao dịch thường xuyên?** Giao dịch dày đặc, có tổ chức có thể bị nhìn nhận khác một lần bán tài sản nắm giữ lâu năm.
 - **Có lợi nhuận hay chỉ chuyển đổi?** Mức 0,1% hiện tính trên giá chuyển nhượng, nên kể cả bán lỗ vẫn có thể phát sinh nghĩa vụ khi giao dịch qua kênh được quản lý.
-- **Tiền có rút về ngân hàng không?** Dòng tiền về tài khoản là thứ dễ được nhìn thấy nhất và cũng dễ bị hỏi nguồn gốc nhất.
+- **Tiền có rút về ngân hàng không?** dòng tiền về tài khoản là thứ dễ được nhìn thấy nhất và cũng dễ bị hỏi nguồn gốc nhất.
 - **Bạn có chứng từ không?** Không có lịch sử giao dịch, bạn sẽ rất khó giải thích khoản tiền của chính mình.
 
 Với giao dịch **ngoài** các kênh được cấp phép — sàn nước ngoài, mua bán tay đôi — hướng dẫn chi tiết vẫn chưa đầy đủ. Đó chính là vùng nên hỏi chuyên gia thuế thay vì tự suy diễn theo hướng có lợi cho mình.
@@ -124,7 +124,7 @@ Bảng dưới đây không phải danh mục nghĩa vụ thuế — nó là dan
 | Staking/yield/farming | Sinh ra tài sản mới định kỳ, tương tự thu nhập từ tài sản | Sao kê nền tảng, số lượng, ngày nhận |
 | Nhận thanh toán bằng crypto | Có thể được xem là doanh thu bán hàng/dịch vụ; lưu ý crypto không phải phương tiện thanh toán hợp pháp tại VN | Hợp đồng/hóa đơn, giá trị quy đổi, ví nhận |
 | Đào coin (mining) | Tạo tài sản mới từ hoạt động có đầu tư máy móc, điện — bản chất gần kinh doanh | Chi phí đầu tư, sản lượng, ngày ghi nhận |
-| Mua bán P2P/OTC | Dòng tiền vào–ra tài khoản ngân hàng liên tục, khó tự chứng minh nếu thiếu chứng từ | Chat thỏa thuận, biên nhận, sao kê, thông tin đối tác |
+| Mua bán P2P/OTC | dòng tiền vào–ra tài khoản ngân hàng liên tục, khó tự chứng minh nếu thiếu chứng từ | Chat thỏa thuận, biên nhận, sao kê, thông tin đối tác |
 | Chuyển crypto giữa ví cá nhân | Bản thân việc chuyển thường không phải bán, nhưng bạn cần chứng minh hai ví cùng chủ | TxID, địa chỉ ví, ghi chú mục đích |
 
 ## Người dùng nên lưu hồ sơ gì?
@@ -145,7 +145,7 @@ Nếu chỉ làm được một việc sau khi đọc bài này, hãy làm việ
 
 Ảnh chụp màn hình app chỉ nên là **hồ sơ phụ**. Screenshot dễ thất lạc, không có tính liên tục và khó đối chiếu; file xuất từ sàn (CSV, báo cáo giao dịch) cộng với sao kê ngân hàng mới là bộ khung chính.
 
-## Rủi ro khi không lưu hồ sơ
+## rủi ro khi không lưu hồ sơ
 
 Thiếu hồ sơ không làm nghĩa vụ thuế biến mất — nó chỉ làm bạn yếu thế hơn khi cần giải thích:
 

@@ -65,12 +65,12 @@ Hộp thư đông — AI xếp thư quan trọng lên đầu. Phù hợp sales, 
 ### Safari Notify Me
 Theo dõi trang đấu thầu, vé sự kiện, restock hàng — không cần extension.
 
-**Rủi ro:** App ngân hàng/công ty trên beta có thể lỗi — không nâng cấp máy làm chính sớm. [beta có nên cài](/posts/macos-27-beta-co-nen-cai-khong/).
+**rủi ro:** App ngân hàng/công ty trên beta có thể lỗi — không nâng cấp máy làm chính sớm. [beta có nên cài](/posts/macos-27-beta-co-nen-cai-khong/).
 
 ## Creator — Photos, Visual Intelligence, AirDrop
 
 ### Photos Spatial Reframing & Clean Up
-Chỉnh crop/composition sau khi chụp; xóa vật thể nền. **[Phân tích]** Trên Mac màn Retina, preview chính xác hơn iPhone — nhưng cần [Apple Intelligence](/posts/macos-27-apple-intelligence-macbook/) đủ chip.
+Chỉnh crop/composition sau khi chụp; xóa vật thể nền. **[phân tích]** Trên Mac màn Retina, preview chính xác hơn iPhone — nhưng cần [Apple Intelligence](/posts/macos-27-apple-intelligence-macbook/) đủ chip.
 
 ### Visual Intelligence
 Kéo ảnh sản phẩm vào hoặc Continuity Camera → tra cứu nhanh. Hữu ích unboxing, review.
@@ -78,7 +78,7 @@ Kéo ảnh sản phẩm vào hoặc Continuity Camera → tra cứu nhanh. Hữu
 ### AirDrop nhanh hơn (theo Apple)
 Gửi file RAW/video giữa iPhone và Mac — workflow shoot → edit nhanh hơn nếu số liệu đúng thực tế.
 
-**Rủi ro:** Adobe Premiere, DaVinci, plugin LUT — **bắt buộc** đọc release note tương thích macOS 27 beta trước khi cài.
+**rủi ro:** Adobe Premiere, DaVinci, plugin LUT — **bắt buộc** đọc release note tương thích macOS 27 beta trước khi cài.
 
 ## Lập trình viên — Xcode, Docker, terminal
 
@@ -117,7 +117,7 @@ Apple Silicon đã ổn với container; beta có thể gãy networking hoặc f
 
 **Chiều:** Mail AI gợi ý trả lời email khách — chỉnh lại giọng văn trước khi gửi; đừng auto-send nếu là hợp đồng pháp lý.
 
-**[Phân tích]** Với nhân viên chỉ dùng Excel web + Teams, macOS 27 không bắt buộc — 26 vẫn đủ nếu IT chưa approve 27.
+**[phân tích]** Với nhân viên chỉ dùng Excel web + Teams, macOS 27 không bắt buộc — 26 vẫn đủ nếu IT chưa approve 27.
 
 ## Creator — pipeline shoot → edit → publish
 
@@ -126,7 +126,7 @@ Apple Silicon đã ổn với container; beta có thể gãy networking hoặc f
 3. **Visual Intelligence** tra cứu prop/product trong frame
 4. **Thumbnail** — Image Playground mockup nhanh, hoàn thiện bằng Figma/PS
 
-**Rủi ro:** LUT và plugin third-party — đọc forum DaVinci/Premiere trước beta. Một số build beta làm **GPU Metal** crash khi export H.265.
+**rủi ro:** LUT và plugin third-party — đọc forum DaVinci/Premiere trước beta. Một số build beta làm **GPU Metal** crash khi export H.265.
 
 ## Lập trình viên — stack phổ biến tại VN
 
@@ -154,7 +154,7 @@ Sau khi xác định nhóm người dùng của bạn, chuyển sang checklist n
 
 ## Remote work và họp online
 
-**[Phân tích]** Zoom, Google Meet, Teams trên macOS 27 beta thường chạy được ngay ngày public beta, nhưng **virtual background** và **screen share** đôi khi lỗi một vài build. Nếu 100% thu nhập từ họp online, đừng beta trước khách hàng quan trọng. macOS 26 stable vẫn là lựa chọn an toàn cho consultant và trainer.
+**[phân tích]** Zoom, Google Meet, Teams trên macOS 27 beta thường chạy được ngay ngày public beta, nhưng **virtual background** và **screen share** đôi khi lỗi một vài build. Nếu 100% thu nhập từ họp online, đừng beta trước khách hàng quan trọng. macOS 26 stable vẫn là lựa chọn an toàn cho consultant và trainer.
 
 Với creator livestream, kiểm tra **OBS** và driver capture màn hình — community thường cập nhật plugin trong 1–2 tuần sau WWDC, không đồng bộ ngày một với Apple.
 

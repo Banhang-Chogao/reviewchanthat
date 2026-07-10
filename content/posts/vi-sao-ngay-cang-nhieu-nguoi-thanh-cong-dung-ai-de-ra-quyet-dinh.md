@@ -125,7 +125,7 @@ Không dán cap table, lương team, bí mật đàm phán vào bot công cộng
 ## Hạn chế
 
 - Hype và subscription.  
-- Rủi ro dữ liệu.  
+- rủi ro dữ liệu.  
 - Ảo tưởng AI luôn đúng.
 
 ## FAQ mở rộng

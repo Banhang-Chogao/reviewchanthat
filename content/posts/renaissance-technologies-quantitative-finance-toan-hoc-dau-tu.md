@@ -32,13 +32,13 @@ image_query = "quantitative trading algorithms computer screens"
 draft = false
 
 [ai_summary]
-items = ["Renaissance Technologies: Quỹ quantitative do Jim Simons lập (nhà toán học)", "Medallion Fund: Lợi suất ~30%/năm trước phí (40%/năm sau phí, nhưng vẫn đạt 11% net)", "Jim Simons: Fields Medalist, thuyết phục tài năng toán học phục vụ trading", "Pattern Recognition: Tìm correlation + causation trong 50 năm dữ liệu", "Statistical Arbitrage: Mua undervalue + bán overvalue (long-short strategy)", "Bayesian Networks: Graphical models để infer mối quan hệ biến", "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"]
+items = ["Renaissance Technologies: Quỹ quantitative do Jim Simons lập (nhà toán học)", "Medallion Fund: lợi suất ~30%/năm trước phí (40%/năm sau phí, nhưng vẫn đạt 11% net)", "Jim Simons: Fields Medalist, thuyết phục tài năng toán học phục vụ trading", "Pattern Recognition: Tìm correlation + causation trong 50 năm dữ liệu", "Statistical Arbitrage: Mua undervalue + bán overvalue (long-short strategy)", "Bayesian Networks: Graphical models để infer mối quan hệ biến", "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"]
 draft = false
 +++
 
 **Renaissance Technologies** — quỹ quantitative **nổi tiếng nhất thế giới**, do **Jim Simons** (nhà toán học) sáng lập.
 
-Lợi suất **~30%/năm** (trước phí) trong 40 năm.
+lợi suất **~30%/năm** (trước phí) trong 40 năm.
 
 Bí mật: **Toán học + Pattern Recognition**.
 
@@ -65,7 +65,7 @@ Năm 1982: Sáng lập **Renaissance Technologies**.
 
 **Medallion Fund** = Quỹ core của Renaissance.
 
-Lợi suất:
+lợi suất:
 - **1988-2020:** ~30%/năm (trước phí)
 - **Phí 5/44:** 5% quản lý, 44% hiệu suất → lấy 40% lợi nhuận
 - **Sau phí:** ~11%/năm (vẫn vượt trội!)
@@ -157,6 +157,6 @@ Renaissance **rebalance hàng ngày** (hoặc hàng giờ):
 
 ---
 
-## Tiếp theo: Định giá cổ phiếu
+## Tiếp theo: định giá cổ phiếu
 
 Bài 10: Mô hình định giá cổ phiếu (DCF, comparables)

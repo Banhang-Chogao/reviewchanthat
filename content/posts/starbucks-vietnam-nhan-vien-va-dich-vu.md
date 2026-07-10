@@ -69,7 +69,7 @@ Starbucks xây thương hiệu quanh "third place" — không gian thân thiện
 - **Gọi tên trên ly** — tiện khi quầy đông.
 - **Giao ly với lời cảm ơn** — chi tiết nhỏ nhưng tạo cảm giác được đón tiếp.
 
-**[Phân tích]** Đây là F&B quy mô lớn — bạn sẽ gặp ca tuyệt vời và ca bình thường. Điều quan trọng là **xác suất** gặp trải nghiệm tốt ở chi nhánh cụ thể, không phải một lần duy nhất.
+**[phân tích]** Đây là F&B quy mô lớn — bạn sẽ gặp ca tuyệt vời và ca bình thường. Điều quan trọng là **xác suất** gặp trải nghiệm tốt ở chi nhánh cụ thể, không phải một lần duy nhất.
 
 ## Barista — người quyết định ly nước có "ngon" không
 
@@ -103,7 +103,7 @@ Kiểu tư vấn này giúp khách không gọi nhầm rồi thất vọng — v
 
 Sau vài lần ghé, có barista nhớ mình hay gọi **Iced Latte, ít đá, ít ngọt**. Họ xác nhận nhanh: "Như mọi khi ạ?" — tiết kiệm thời gian và tạo cảm giác **được quan tâm**.
 
-**[Phân tích]** Đây không phải chính sách công ty bắt buộc — mà là năng lực cá nhân và thái độ làm việc. Chi nhánh may mắn có đội ngũ ổn định sẽ có lợi thế rõ rệt.
+**[phân tích]** Đây không phải chính sách công ty bắt buộc — mà là năng lực cá nhân và thái độ làm việc. Chi nhánh may mắn có đội ngũ ổn định sẽ có lợi thế rõ rệt.
 
 ## Khi dịch vụ chưa như mong đợi — nên làm gì?
 

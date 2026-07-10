@@ -35,3 +35,10 @@ static/images/posts/*.png
 
 # Auto-generated QA reports
 data/compliance-report.json
+
+# Private data — Income Insights
+private-data/
+data/private-income-insights*.json
+static/private-income-insights*.json
+*.income-insights.private.json
+.env.*

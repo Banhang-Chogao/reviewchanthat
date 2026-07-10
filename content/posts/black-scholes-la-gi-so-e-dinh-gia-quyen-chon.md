@@ -162,9 +162,9 @@ Find: σ sao cho C(σ) = 16,000
 
 ## Ứng dụng
 
-1. **Hedging:** Công ty bảo vệ rủi ro bằng options
+1. **Hedging:** công ty bảo vệ rủi ro bằng options
 2. **Speculation:** Trader kiếm lợi từ chênh lệch price vs Black-Scholes
-3. **Employee Stock Options:** Công ty tính giá trị compensation cho nhân viên
+3. **Employee Stock Options:** công ty tính giá trị compensation cho nhân viên
 
 ---
 

@@ -56,7 +56,7 @@ Bài này giải thích **FRM mathematics**.
 ### Định nghĩa
 
 ```
-VaR_α = Giá trị (tổn thất) tối đa ở mức tin cậy α%
+VaR_α = giá trị (tổn thất) tối đa ở mức tin cậy α%
 ```
 
 **Ví dụ:** VaR_99% = $1 triệu với 1 ngày
@@ -75,10 +75,10 @@ VaR = Portfolio Value × |Z_α| × σ
 - σ = volatility (độ lệch chuẩn log-return)
 - Portfolio Value = tổng giá trị danh mục
 
-### Ví dụ: Danh mục 100 tỷ VND
+### Ví dụ: danh mục 100 tỷ VND
 
 Giả định:
-- Danh mục = 100 tỷ VND
+- danh mục = 100 tỷ VND
 - Volatility = 15%/năm = 0.95%/ngày (15% / √252)
 - Mức tin cậy = 99%
 

@@ -32,7 +32,7 @@ image_query = "artificial intelligence finance technology trading"
 draft = false
 
 [ai_summary]
-items = ["Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)", "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)", "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài", "NLP: Phân tích tin tức, social media → sentiment score → alpha signal", "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)", "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward", "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"]
+items = ["Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)", "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)", "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài", "NLP: phân tích tin tức, social media → sentiment score → alpha signal", "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)", "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward", "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"]
 draft = false
 +++
 

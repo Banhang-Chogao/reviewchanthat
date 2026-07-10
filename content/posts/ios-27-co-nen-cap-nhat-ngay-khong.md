@@ -66,7 +66,7 @@ Bài checklist này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/
 
 ## Checklist 10 bước trước khi Update
 
-**[Phân tích]** Dùng danh sách này cho **bản chính thức** (không beta):
+**[phân tích]** Dùng danh sách này cho **bản chính thức** (không beta):
 
 1. **Backup** — iCloud hoặc Finder trên Mac; xác nhận backup xong 100%
 2. **Storage** — còn ≥ 10GB trống (Apple khuyến nghị thêm)
@@ -82,7 +82,7 @@ Bài checklist này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/
 
 ## Ai **nên** cập nhật sớm (sau release vài ngày)?
 
-**[Phân tích]**
+**[phân tích]**
 
 - **iPhone 16/17** — tận dụng Siri AI, Photos AI ([camera iOS 27](/posts/ios-27-camera-anh-video-iphone/))
 - **Phụ huynh** — parental controls, Communication Safety mới
@@ -98,7 +98,7 @@ Bài checklist này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/
 
 ## App ngân hàng Việt Nam — rủi ro thực tế
 
-**[Phân tích / phản hồi beta]** Lịch sử iOS cho thấy:
+**[phân tích / phản hồi beta]** Lịch sử iOS cho thấy:
 
 - Một số app VN báo “chưa hỗ trợ” 1–3 tuần đầu
 - Face ID / OTP vẫn chạy nhưng app có thể crash hoặc chặn jailbreak detection nhầm beta
@@ -119,7 +119,7 @@ Chi tiết beta: [iOS 27 beta có nên cài không](/posts/ios-27-beta-co-nen-ca
 
 **[Apple đã xác nhận]** iPhone 11+ vẫn trong list iOS 27.
 
-**[Phân tích]** Nếu chỉ cần vá bảo mật và không care AI:
+**[phân tích]** Nếu chỉ cần vá bảo mật và không care AI:
 
 - iPhone 13/14: **nên** lên khi stable
 - iPhone 11 pin yếu: **cân nhắc** — có thể giữ iOS 26 đến khi thay máy

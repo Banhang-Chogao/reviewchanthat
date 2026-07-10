@@ -27,7 +27,7 @@ enabled = true
 title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết giáo dục về chứng khoán Việt Nam, VN-Index và rủi ro thị trường; không phải tư vấn đầu tư cá nhân. Luôn yêu cầu tư vấn từ các chuyên gia và quản trị rủi ro tài chính một cách cẩn trọng trước khi quyết định."
-items = ["VN-Index gồm khoảng 30 cổ phiếu blue-chip (VCB, CTG, BID, ACB, v.v.); cổ phiếu ngân hàng chiếm ~35–45% trọng số chỉ số.", "Người mới cần hiểu: VN-Index là gì → cổ phiếu ngân hàng ảnh hưởng thị trường → rủi ro lãi suất, nợ xấu, thanh khoản, tâm lý đám đông → kỷ luật quản trị vốn.", "Rủi ro năm 2026: biến động lãi suất SBV, tâm lý thị trường, định giá cao, margin buying, tin tức quốc tế ảnh hưởng khía cạnh vĩ mô.", "Sai lầm phổ biến: FOMO vào rally không hiểu định giá, margin buying tràn lan, tập trung toàn bộ vào một mã, không có kế hoạch thoát, bỏ qua quản lý rủi ro."]
+items = ["VN-Index gồm khoảng 30 cổ phiếu blue-chip (VCB, CTG, BID, ACB, v.v.); cổ phiếu ngân hàng chiếm ~35–45% trọng số chỉ số.", "Người mới cần hiểu: VN-Index là gì → cổ phiếu ngân hàng ảnh hưởng thị trường → rủi ro lãi suất, nợ xấu, thanh khoản, tâm lý đám đông → kỷ luật quản trị vốn.", "rủi ro năm 2026: biến động lãi suất SBV, tâm lý thị trường, định giá cao, margin buying, tin tức quốc tế ảnh hưởng khía cạnh vĩ mô.", "Sai lầm phổ biến: FOMO vào rally không hiểu định giá, margin buying tràn lan, tập trung toàn bộ vào một mã, không có kế hoạch thoát, bỏ qua quản lý rủi ro."]
 image_commercial_use = true
 image_owner = "external"
 image_creator_id = "3088726"
@@ -87,27 +87,27 @@ Cổ phiếu ngân hàng chiếm khoảng **35–45% trọng số của VN-Index
 
 Không có cổ phiếu hay thị trường nào không có rủi ro. Dưới đây là những rủi ro chính mà người mới cần biết.
 
-### 1. Rủi ro lãi suất
+### 1. rủi ro lãi suất
 
 SBV kiểm soát lãi suất cơ bản. Nếu lãi suất cơ bản tăng, các ngân hàng có thể tăng lãi suất huy động để cạnh tranh, khiến chi phí tăng. Lợi nhuận có thể bị ép, cổ phiếu ngân hàng giảm.
 
-### 2. Rủi ro lợi nhuận doanh nghiệp
+### 2. rủi ro lợi nhuận doanh nghiệp
 
-Năm 2026, nền kinh tế Việt Nam sẽ phát triển bao nhiêu? Công ty có kiếm được lợi nhuận dự kiến không? Nếu lợi nhuận thực tế thấp hơn dự báo, cổ phiếu sẽ giảm (tức là "thất vọng lợi nhuận").
+Năm 2026, nền kinh tế Việt Nam sẽ phát triển bao nhiêu? công ty có kiếm được lợi nhuận dự kiến không? Nếu lợi nhuận thực tế thấp hơn dự báo, cổ phiếu sẽ giảm (tức là "thất vọng lợi nhuận").
 
-### 3. Rủi ro thanh khoản
+### 3. rủi ro thanh khoản
 
 Thanh khoản là khả năng **mua bán dễ dàng.** Nếu thị trường bớt thanh khoản (ít người giao dịch), giá có thể swing (biến động) lớn hơn và bạn khó thoát vị trí.
 
-### 4. Rủi ro margin buying
+### 4. rủi ro margin buying
 
 Rất nhiều người mua chứng khoán bằng **margin** (vay tiền từ sàn giao dịch). Khi thị trường tăng, mọi người đều kiếm tiền. Nhưng khi thị trường giảm, các nhà đầu tư margin **bị ép bán tất cả** để trả nợ, tạo ra **cascade selling** (bán tạp nham).
 
-### 5. Rủi ro tâm lý đám đông
+### 5. rủi ro tâm lý đám đông
 
 Thị trường chứng khoán điều khiển bởi **cảm xúc**. FOMO (sợ bỏ lỡ), FUD (sợ hãi), hình thành bubble (bong bóng định giá). Khi tâm lý lật ngược, mọi người bán ra cùng lúc.
 
-### 6. Rủi ro quốc tế
+### 6. rủi ro quốc tế
 
 Chiến tranh thương mại Mỹ-Trung, lãi suất Fed, giá dầu, hay sự kiện địa chính trị có thể ảnh hưởng thị trường Việt Nam.
 
@@ -118,8 +118,8 @@ Chiến tranh thương mại Mỹ-Trung, lãi suất Fed, giá dầu, hay sự k
 | **VN-Index** | Sentiment chung của thị trường |
 | **Lãi suất SBV** | Ảnh hưởng trực tiếp lợi nhuận ngân hàng |
 | **GDP, CPI (lạm phát)** | Sức khỏe kinh tế |
-| **Nợ xấu ngân hàng** | Rủi ro loan loss của ngân hàng |
-| **P/E ratio** | Định giá (rẻ hay đắt?) |
+| **Nợ xấu ngân hàng** | rủi ro loan loss của ngân hàng |
+| **P/E ratio** | định giá (rẻ hay đắt?) |
 | **Trading volume** | Thanh khoản (dễ hay khó mua bán?) |
 | **VIX (volatility index)** | Biến động kỳ vọng; VIX cao = thị trường lo âu |
 | **Tin Fed, bond yield Mỹ** | Ảnh hưởng tâm lý nhà đầu tư toàn cầu |
@@ -129,10 +129,10 @@ Chiến tranh thương mại Mỹ-Trung, lãi suất Fed, giá dầu, hay sự k
 | Sai lầm | Ảnh hưởng | Cách tránh |
 |---|---|---|
 | **FOMO buying** (mua vì mọi người đang mua) | Mua ở đỉnh, mất tiền khi thị trường quay đầu | Chỉ mua sau khi đã hiểu công ty/ngành; bỏ qua buzz |
-| **Margin buying không kế hoạch** | Rủi ro phá sản nhanh; bị ép bán tất cả khi thị trường giảm | Margin tối đa 30% danh mục; luôn có kế hoạch thoát |
+| **Margin buying không kế hoạch** | rủi ro phá sản nhanh; bị ép bán tất cả khi thị trường giảm | Margin tối đa 30% danh mục; luôn có kế hoạch thoát |
 | **Tập trung toàn bộ vào một mã** | Nếu mã đó có vấn đề, bạn mất toàn bộ | Phân tán: tối đa 10–15% danh mục cho một mã |
 | **Không có stop-loss** | Nếu cổ phiếu giảm, bạn cứ giữ hy vọng sẽ tăng lại; mất tiền liên tục | Đặt stop-loss ở −10% (ví dụ: mua 100k, bán nếu xuống 90k) |
-| **Bỏ qua quản lý rủi ro** | Rủi ro không được kiểm soát; một tin xấu có thể xóa sạch | Luôn biết: nếu tài khoản giảm 20%, tôi sẽ làm gì? |
+| **Bỏ qua quản lý rủi ro** | rủi ro không được kiểm soát; một tin xấu có thể xóa sạch | Luôn biết: nếu tài khoản giảm 20%, tôi sẽ làm gì? |
 | **Không theo dõi tin tức** | Bất ngờ khi sự kiện xảy ra (thay CEO, phát hành cổ phiếu mới, v.v.) | Đăng ký alerts; theo dõi tin tức hàng ngày |
 
 ## Checklist trước khi mua cổ phiếu

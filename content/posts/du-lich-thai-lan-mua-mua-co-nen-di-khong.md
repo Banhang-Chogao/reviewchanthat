@@ -140,7 +140,7 @@ Nếu mục tiêu của bạn là **biển + resort + tắm nắng** trong thán
 | Chi phí (so với cao điểm) | Giảm 30–50% | Giảm 40–60% | Giảm 40–60% | Giảm 30–50% | Giảm 20–40% |
 | Đông khách | Ít | Ít (trừ resort) | Rất ít | Ít | Trung bình |
 | Hoạt động indoor | Rất nhiều | Hạn chế | Hạn chế | Trung bình | Hạn chế |
-| Tắm biển | Không | Rủi ro cao | Rủi ro cao | Không | An toàn |
+| Tắm biển | Không | rủi ro cao | rủi ro cao | Không | An toàn |
 | Phù hợp ai | Người thích mua sắm, văn hóa | Người muốn resort giá rẻ, không ngại mưa | Người thích chụp ảnh, phiêu lưu | Người thích thiên nhiên, trekking | Người muốn biển đẹp, resort |
 
 ## 7. Lời khuyên chọn điểm theo sở thích

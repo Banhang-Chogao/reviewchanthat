@@ -65,7 +65,7 @@ label = "Máy cũ"
 
 ## 1. So với iPhone 15 Pro Max
 
-**[Phân tích]** Review công khai thường ghi 16 Pro Max **trụ lâu hơn** 30–60 phút trong **mixed use** — không magic cả ngày gấp đôi. 15 pin tốt ([pin 15 Pro Max](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)) vẫn **đủ** nếu bạn không phải power user.
+**[phân tích]** Review công khai thường ghi 16 Pro Max **trụ lâu hơn** 30–60 phút trong **mixed use** — không magic cả ngày gấp đôi. 15 pin tốt ([pin 15 Pro Max](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)) vẫn **đủ** nếu bạn không phải power user.
 
 Chênh **không đủ** để đổi máy **chỉ** vì pin nếu 15 còn **88%+**.
 

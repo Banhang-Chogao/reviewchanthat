@@ -41,7 +41,7 @@ value = "Blue Titanium — xanh xám đặc trưng"
 label = "Điểm mạnh"
 
 [[tom_tat_nhanh]]
-label = "Rủi ro"
+label = "rủi ro"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
@@ -69,7 +69,7 @@ Khi ra mắt 2023, Blue là màu **không trùng bất kỳ iPhone nào trước
 
 ## 2. Phai màu — chuyện thật, không phải đồn
 
-**[Phân tích]** Nhiều người dùng báo cáo công khai viền Blue **chuyển sang xám nhạt** sau 6–12 tháng cầm trần. Đây không hẳn là “lỗi” mà do **ma sát và dầu tay** trên bề mặt titan phun màu. Góc máy — nơi tiếp xúc túi jeans — **lõm và sáng vết** rõ hơn Black.
+**[phân tích]** Nhiều người dùng báo cáo công khai viền Blue **chuyển sang xám nhạt** sau 6–12 tháng cầm trần. Đây không hẳn là “lỗi” mà do **ma sát và dầu tay** trên bề mặt titan phun màu. Góc máy — nơi tiếp xúc túi jeans — **lõm và sáng vết** rõ hơn Black.
 
 Khi mua máy cũ Blue:
 - So ảnh **cạnh máy Natural** cùng đời — phai không đồng đều

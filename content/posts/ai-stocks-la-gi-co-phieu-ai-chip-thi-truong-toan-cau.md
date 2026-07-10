@@ -27,7 +27,7 @@ enabled = true
 title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết giáo dục về cổ phiếu AI và chip; không phải tư vấn đầu tư cá nhân. Luôn yêu cầu tư vấn từ chuyên gia tài chính trước khi quyết định."
-items = ["AI stocks là cổ phiếu của các công ty phát triển hoặc sử dụng công nghệ AI; chip stocks là cổ phiếu các hãng chế tạo chip (NVIDIA, TSMC, Intel).", "Thị trường chip toàn cầu được thúc đẩy bởi nhu cầu AI, cloud computing, xe tự lái. NVIDIA dẫn đầu GPU supply; TSMC là nhà máy chính.", "Ảnh hưởng đến Việt Nam: lương công nhân công ty chip tăng, chuỗi cung ứng thay đổi, nhập khẩu chip tăng, FDI tech dồi dào.", "Rủi ro: bubble định giá, chiến tranh thương mại Mỹ-Trung, tập trung quá nhiều vào vài cổ phiếu mega-cap, biến động công nghệ."]
+items = ["AI stocks là cổ phiếu của các công ty phát triển hoặc sử dụng công nghệ AI; chip stocks là cổ phiếu các hãng chế tạo chip (NVIDIA, TSMC, Intel).", "Thị trường chip toàn cầu được thúc đẩy bởi nhu cầu AI, cloud computing, xe tự lái. NVIDIA dẫn đầu GPU supply; TSMC là nhà máy chính.", "Ảnh hưởng đến Việt Nam: lương công nhân công ty chip tăng, chuỗi cung ứng thay đổi, nhập khẩu chip tăng, FDI tech dồi dào.", "rủi ro: bubble định giá, chiến tranh thương mại Mỹ-Trung, tập trung quá nhiều vào vài cổ phiếu mega-cap, biến động công nghệ."]
 image_commercial_use = true
 image_owner = "external"
 image_creator_id = ""
@@ -86,7 +86,7 @@ End users → trả phí sử dụng AI
 
 **Kết quả:** Nếu TSMC không thể sản xuất đủ chip, cả chuỗi AI bị chậm lại. Nếu NVIDIA không có GPU đủ, customers phải chờ (hoặc chuyển sang AMD). Đó là lý do NVIDIA stock tăng 3–5x trong 2 năm gần đây—mọi người muốn AI, tất cả cần GPU từ NVIDIA.
 
-## Rủi ro và sự thay đổi thị trường chip toàn cầu (2026)
+## rủi ro và sự thay đổi thị trường chip toàn cầu (2026)
 
 ### 1. Sự cô lập công nghệ: Mỹ vs Trung Quốc
 
@@ -119,14 +119,14 @@ Mỹ đưa ra CHIPS Act (2022) để **tài trợ TSMC xây nhà máy ở Arizon
 - Giảm phụ thuộc chip từ Đài Loan.
 - Bảo vệ chuỗi cung ứng từ rủi ro địa chính trị.
 
-**Rủi ro:** TSMC nước Mỹ có chi phí cao hơn Đài Loan. Doanh lợi giảm. Khi TSMC profit margin bị ép, stock giảm.
+**rủi ro:** TSMC nước Mỹ có chi phí cao hơn Đài Loan. Doanh lợi giảm. Khi TSMC profit margin bị ép, stock giảm.
 
 ## Ảnh hưởng lên Việt Nam
 
 Việt Nam không có TSMC, NVIDIA hay chip manufacturer lớn. Nhưng thị trường chip toàn cầu vẫn ảnh hưởng:
 
 ### 1. **Lương công nhân tech tăng**
-Công ty Samsung, Intel, TSMC mở nhà máy hoặc R&D center tại Việt Nam → cạnh tranh tuyển dụng kỹ sư → lương tech tăng → chi phí cho startup Việt tăng.
+công ty Samsung, Intel, TSMC mở nhà máy hoặc R&D center tại Việt Nam → cạnh tranh tuyển dụng kỹ sư → lương tech tăng → chi phí cho startup Việt tăng.
 
 ### 2. **Nhập khẩu chip tăng**
 Nếu chip thiếu hụt toàn cầu → giá nhập khẩu tăng → chi phí sản xuất điện thoại, laptop, IoT tại Việt Nam tăng.
@@ -140,7 +140,7 @@ Tech giants (Apple supply chain, Samsung, Intel) muốn diversify khỏi Trung Q
 
 ## Bảng: Các AI/chip stocks quan trọng và level rủi ro
 
-| Công ty | Mô tả | Rủi ro | P/E (2026) |
+| công ty | Mô tả | rủi ro | P/E (2026) |
 |---|---|---|---|
 | **NVIDIA** | GPU leader, chiếm 80%+ thị phần | Cao (bubble risk, cạnh tranh) | ~30–40 |
 | **TSMC** | Nhà máy chế tạo chip, bán cho tất cả | Trung bình (chính trị Mỹ-Đài Loan) | ~15–20 |

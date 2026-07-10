@@ -83,14 +83,14 @@ Hai năm rưỡi sau khi Apple được chỉ định **gatekeeper** theo Digita
 |---|---|---|
 | **Người dùng EU** | Lựa chọn phân phối, browser, link giá ngoài app | Lớp bảo vệ App Review, hoàn tiền Apple, đơn giản gia đình |
 | **Developer** | Đa kênh, anti-steering, analytics mở | CTF, compliance, tự xử lý billing/fraud |
-| **EC** | Tiền lệ DMA, phạt 500M€, uy tín quy định | Rủi ro kháng cáo, chưa chứng minh thị trường đổi mới |
+| **EC** | Tiền lệ DMA, phạt 500M€, uy tín quy định | rủi ro kháng cáo, chưa chứng minh thị trường đổi mới |
 | **Apple** | Giữ lõi iOS, CTF, Notarization, đa số user ở App Store | Phạt tiền, chia đôi trải nghiệm EU, chi phí tuân thủ |
 | **Người dùng VN** | iPhone ổn định như cũ, học được bài học nền tảng | Không được lợi sideload; có thể ảnh hưởng gián tiếp dịch vụ |
 
 **Nhãn nguồn trong bài:**
 - **[Apple đã xác nhận]** — developer.apple.com, apple.com/legal/dma
 - **[EC đã xác nhận]** — digital-strategy.ec.europa.eu
-- **[Phân tích]** — tổng hợp series, dự báo có căn cứ
+- **[phân tích]** — tổng hợp series, dự báo có căn cứ
 - **[Phản hồi thực tế]** — thị trường EU 2024–2026
 - **[Tin đồn / chưa xác nhận]** — mở rộng DMA ra toàn cầu, thay đổi CTF
 
@@ -102,7 +102,7 @@ Hai năm rưỡi sau khi Apple được chỉ định **gatekeeper** theo Digita
 | 2 | [DMA là gì, gatekeeper và yêu cầu EC](/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta/) | Khung pháp lý |
 | 3 | [Apple thay đổi iOS/App Store EU](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/) | Kỹ thuật, API, Notarization |
 | 4 | [Anti-steering, phạt Apple và kháng cáo](/posts/apple-thua-kien-eu-app-store-ios-dma/) | Vụ phạt 500M€, Điều 5(4) |
-| 5 | [Người dùng EU mất gì](/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi/) | Rủi ro, hoàn tiền, gia đình |
+| 5 | [Người dùng EU mất gì](/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi/) | rủi ro, hoàn tiền, gia đình |
 | 6 | [Developer được lợi gì](/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma/) | Commission, CTF, phân phối |
 | 7 | [EC được gì khi thắng](/posts/european-commission-duoc-gi-khi-thang-apple/) | Tiền lệ, chính trị |
 | 8 | **Bài này** — tương lai iPhone | Kết luận, kịch bản |
@@ -113,7 +113,7 @@ Hai năm rưỡi sau khi Apple được chỉ định **gatekeeper** theo Digita
 
 **[Apple đã xác nhận]** Apple vẫn kiểm soát **Notarization**, **chứng chỉ cài đặt**, **CTF**, **UX cảnh báo** và **phần lớn user vẫn ở App Store**. iOS EU **mở có kiểm soát**, không phải Android化 hoàn toàn.
 
-**[Phân tích]** Kết quả thực tế là **cân bằng động bất ổn**:
+**[phân tích]** Kết quả thực tế là **cân bằng động bất ổn**:
 - EC có luật và phạt
 - Apple có kỹ thuật và kinh tế học (CTF, friction)
 - Người dùng và developer **ở giữa**, chưa có “người thắng tuyệt đối”
@@ -124,7 +124,7 @@ Hai năm rưỡi sau khi Apple được chỉ định **gatekeeper** theo Digita
 
 **[Apple đã xác nhận]** Thay đổi DMA **chỉ geofence EU** — build và policy tách theo region. Apple tránh rollout global để **không** mất mô hình App Store ở Mỹ, VN, Nhật.
 
-**[Phân tích]** “Hai tốc độ” có hệ quả:
+**[phân tích]** “Hai tốc độ” có hệ quả:
 - **Chi phí phát triển** tăng — hai luồng compliance, test, support
 - **Truyền thông** khó — người dùng VN đọc tin “iPhone mở sideload” nhưng **không áp dụng**
 - **Rò rỉ tính năng** — một số thay đổi EU (default app controls) có thể **lan dần** sang region khác nếu Apple thấy lợi UX
@@ -135,7 +135,7 @@ Hai năm rưỡi sau khi Apple được chỉ định **gatekeeper** theo Digita
 
 ### Kịch bản A: EC giữ áp lực, Apple tối ưu tuân thủ
 
-**[Phân tích]** Khả năng cao nhất. Thêm vụ điều tra DMA (interoperability, self-preferencing Safari), phạt bổ sung nếu Apple lách. Apple điều chỉnh CTF/UX từng bước, **không** rút khỏi EU. iPhone vẫn bán mạnh — EU là thị trường quá lớn để bỏ.
+**[phân tích]** Khả năng cao nhất. Thêm vụ điều tra DMA (interoperability, self-preferencing Safari), phạt bổ sung nếu Apple lách. Apple điều chỉnh CTF/UX từng bước, **không** rút khỏi EU. iPhone vẫn bán mạnh — EU là thị trường quá lớn để bỏ.
 
 ### Kịch bản B: Tòa EU giảm phạt, thắt steering
 
@@ -147,7 +147,7 @@ DMA thành **template**. Apple phải mở thêm region hoặc **thương lượ
 
 ## 4. App Store có biến mất không?
 
-**[Phân tích]** **Không** trong horizon 3–5 năm. Lý do:
+**[phân tích]** **Không** trong horizon 3–5 năm. Lý do:
 - **Network effect** — user EU vẫn tìm app trên App Store đầu tiên
 - **Trust** — ngân hàng, y tế, app con vẫn ưu tiên App Store
 - **CTF** — làm sideload đắt với app viral
@@ -165,7 +165,7 @@ Tóm tắt [bài 6](/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma/): studio lớn
 
 ## 6. Góc nhìn người dùng Việt Nam — theo dõi từ xa nhưng không vô hại
 
-**[Phân tích]** Ba điều thực tế cho độc giả VN:
+**[phân tích]** Ba điều thực tế cho độc giả VN:
 
 1. **iPhone VN không sideload** — đừng đợi DMA copy sang VN ngắn hạn; luật số VN khác EU.
 2. **App VN lên store global** — nếu có user EU, team dev cần hiểu DMA; đọc [bài developer](/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma/).

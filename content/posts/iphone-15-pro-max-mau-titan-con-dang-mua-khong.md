@@ -73,7 +73,7 @@ Ba lý do chính khiến máy không “lỗi thời” ngay:
 
 1. **Apple Intelligence** — iPhone 15 Pro Max vẫn trong nhóm máy đủ điều kiện AI on-device, khác hẳn iPhone 15/15 Plus. Nếu bạn cần Siri AI và tính năng Photos AI trong vài năm tới, đây là mức giá Pro Max rẻ hơn 16.
 2. **Camera tele 5x** — chất lượng zoom quang vẫn đủ tốt cho du lịch, concert, chụp con. Chi tiết: [camera iPhone 15 Pro Max](/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong/).
-3. **Khung titan** — nhẹ hơn Pro Max thép đời trước, cảm giác cao cấp khác iPhone 14 Pro Max. Phân tích vật liệu: [khung titan](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/).
+3. **Khung titan** — nhẹ hơn Pro Max thép đời trước, cảm giác cao cấp khác iPhone 14 Pro Max. phân tích vật liệu: [khung titan](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/).
 
 Điểm trừ rõ ràng: **màn 6.7 inch** nhỏ hơn **6.9 inch** của 16 Pro Max, **không có Camera Control**, và **viền bezel** dày hơn đời mới.
 
@@ -92,7 +92,7 @@ Mình thích **Natural Titanium** vì không quá “trình làng” nhưng vẫ
 
 **[Apple đã xác nhận]** Apple dùng **titan Grade 5** trên khung, kết hợp **kính trước Ceramic Shield** và **kính mặt sau**. Titan nhẹ hơn thép nhưng **mềm hơn** — va đập góc dễ lõm hơn trầy sơn thép.
 
-**[Phân tích]** Nhiều review công khai mô tả cảm giác **mát tay, bám vân tay hơn thép đánh bóng**, và **màu titan phai dần** tùy màu. Không phải lỗi sản xuất mà đặc tính hoàn thiện bề mặt. Nếu bạn hay rơi máy, ốp lưng quan trọng hơn chất liệu khung.
+**[phân tích]** Nhiều review công khai mô tả cảm giác **mát tay, bám vân tay hơn thép đánh bóng**, và **màu titan phai dần** tùy màu. Không phải lỗi sản xuất mà đặc tính hoàn thiện bề mặt. Nếu bạn hay rơi máy, ốp lưng quan trọng hơn chất liệu khung.
 
 ## 4. Hiệu năng A17 Pro — còn đủ cho 2026?
 
@@ -109,7 +109,7 @@ Cụm camera 48MP + tele 5x + ultra wide vẫn là **top tier thực dụng** ch
 - Thiếu **Camera Control** — thao tác chụp nhanh kém tiện hơn (xem series 16).
 - Một số tính năng phần mềm mới có thể ưu tiên chip A18 Pro.
 
-Phân tích chi tiết năm 2026: [camera iPhone 15 Pro Max](/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong/).
+phân tích chi tiết năm 2026: [camera iPhone 15 Pro Max](/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong/).
 
 ## 6. Pin và mua máy cũ
 
@@ -180,7 +180,7 @@ iPhone 15 Pro Max màu titan **vẫn đáng mua năm 2026** nếu bạn tìm **P
 
 **[Apple đã xác nhận]** iPhone 15 Pro Max là thế hệ Pro Max đầu tiên dùng **USB-C** — đồng nghĩa sạc MacBook, iPad, máy ảnh và mic rời **một cáp** cho nhiều người. Tại Việt Nam, phụ kiện USB-C đã rẻ và phổ biến hơn 2023; lợi ích “thực” tích lũy theo thời gian sở hữu.
 
-**[Phân tích]** Hãy kiểm tra cáp **USB-C có chứng nhận** (MFi hoặc thương hiệu uy tín) — cổng lỏng do cáp kém vẫn xảy ra trên máy cũ. Khi mua second-hand, **lắc nhẹ cổng** và thử **sạc + data** trong 5 phút.
+**[phân tích]** Hãy kiểm tra cáp **USB-C có chứng nhận** (MFi hoặc thương hiệu uy tín) — cổng lỏng do cáp kém vẫn xảy ra trên máy cũ. Khi mua second-hand, **lắc nhẹ cổng** và thử **sạc + data** trong 5 phút.
 
 ## 9. Action Button — vẫn hữu ích sau 2 năm
 

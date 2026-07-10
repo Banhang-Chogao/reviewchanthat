@@ -73,7 +73,7 @@ Bài này là **bài trụ** của series **Đi Hàn tháng 11** — tổng hợ
 - **[Visit Korea / KTO]** — dự báo lá đỏ, điểm đến chính thống
 - **[KMA]** — xu hướng nhiệt độ, mưa
 - **[KoreaToDo]** — điểm ngắm lá, cách di chuyển
-- **[Phân tích]** — gợi ý lịch trình, không thay thế bảng giá chính thức
+- **[phân tích]** — gợi ý lịch trình, không thay thế bảng giá chính thức
 
 ## Bảng tóm tắt nhanh
 
@@ -91,7 +91,7 @@ Bài này là **bài trụ** của series **Đi Hàn tháng 11** — tổng hợ
 
 **[Visit Korea]** Mùa thu ở Hàn Quốc kéo dài **tháng 10–11**; tháng 11 thường là **giai đoạn cuối mùa foliage** ở miền Bắc và peak ở nhiều khu vực thấp hơn như Seoul ([Fall Foliage Forecast](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292)). Cuối tháng 11, một số khu vựn núi có thể chuyển sang **tuyết nhẹ** hoặc lá rụng — không phải năm nào cũng giống nhau.
 
-**[Phân tích]** So với [đi Hàn tháng 10](/posts/di-han-thang-10-co-dep-khong/), tháng 11 **lạnh hơn** nhưng **Seoul và cung đình thường đẹp hơn về lá đỏ** nếu bạn đi đúng tuần. Đổi lại, Seoraksan đầu tháng 11 có thể vẫn đẹp; **cuối tháng 11** cây trên núi cao có thể trụi lá.
+**[phân tích]** So với [đi Hàn tháng 10](/posts/di-han-thang-10-co-dep-khong/), tháng 11 **lạnh hơn** nhưng **Seoul và cung đình thường đẹp hơn về lá đỏ** nếu bạn đi đúng tuần. Đổi lại, Seoraksan đầu tháng 11 có thể vẫn đẹp; **cuối tháng 11** cây trên núi cao có thể trụi lá.
 
 ## Thời tiết Hàn Quốc tháng 11
 
@@ -142,7 +142,7 @@ Chi tiết: [Hàn Quốc tháng 11 có lá đỏ không?](/posts/han-quoc-thang-
 
 ### Seoraksan — đi sớm trong tháng
 
-**[Phân tích]** Nếu mục tiêu là lá đỏ núi lớn, **đầu tháng 11** hợp hơn cuối tháng. Cuối tháng 11 có thể gặp **tuyết nhẹ** — đẹp theo kiểu khác nhưng không còn foliage đỏ rực.
+**[phân tích]** Nếu mục tiêu là lá đỏ núi lớn, **đầu tháng 11** hợp hơn cuối tháng. Cuối tháng 11 có thể gặp **tuyết nhẹ** — đẹp theo kiểu khác nhưng không còn foliage đỏ rực.
 
 [Seoraksan tháng 11](/posts/seoraksan-thang-11-ngam-la-do/).
 

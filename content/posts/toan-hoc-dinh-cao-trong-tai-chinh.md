@@ -43,7 +43,7 @@ Chúng ta đã học:
 - **Bài 2-3:** log-return, portfolio
 - **Bài 4-6:** Bảo hiểm, CFA, FRM
 - **Bài 7-9:** Investment banks, BlackRock, Renaissance
-- **Bài 10-13:** Định giá, Black-Scholes, Risk, Monte Carlo
+- **Bài 10-13:** định giá, Black-Scholes, Risk, Monte Carlo
 - **Bài 14:** AI/ML
 - **Bài 15 (đây):** Tổng kết + tương lai
 
@@ -95,7 +95,7 @@ BlackRock: Factor Models + ML
 Renaissance: Pattern Recognition + Statistical Arb
 ```
 
-### Layer 4: Định giá (Bài 10-11)
+### Layer 4: định giá (Bài 10-11)
 
 ```
 DCF: PV = Σ CF_t × e^(-rt)
@@ -152,7 +152,7 @@ Optimal Policy: Khi nào mua/bán để maximize Sharpe
 **Câu hỏi:** Ngân hàng, quỹ dùng toán học nào?  
 **Trả lời:** DCF, VaR, Greeks, patterns
 
-### Layer 4: Định giá chính xác
+### Layer 4: định giá chính xác
 
 **Câu hỏi:** Cái gì giá bao nhiêu?  
 **Trả lời:** Black-Scholes, Monte Carlo

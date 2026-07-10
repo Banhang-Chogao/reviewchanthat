@@ -37,7 +37,7 @@ image_provider = "pexels"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = ["Sống thông minh với AI nghĩa là dùng AI cho việc lặp lại, còn người giữ quyết định và giá trị cá nhân.", "AI đã len vào nhắn tin, tìm kiếm, ngân hàng số, học ngoại ngữ và lên lịch du lịch — không chỉ dân IT.", "Lợi ích chính: tiết kiệm thời gian, giảm ma sát quyết định nhỏ, tăng khả năng học và so sánh thông tin.", "Rủi ro thật: ảo tưởng AI luôn đúng, lười suy nghĩ, lộ dữ liệu, và chi phí subscription chồng chéo.", "Framework 4 bước: chọn 1–2 việc lặp lại → dùng AI có kiểm chứng → đo thời gian tiết kiệm → cắt công cụ thừa."]
+items = ["Sống thông minh với AI nghĩa là dùng AI cho việc lặp lại, còn người giữ quyết định và giá trị cá nhân.", "AI đã len vào nhắn tin, tìm kiếm, ngân hàng số, học ngoại ngữ và lên lịch du lịch — không chỉ dân IT.", "Lợi ích chính: tiết kiệm thời gian, giảm ma sát quyết định nhỏ, tăng khả năng học và so sánh thông tin.", "rủi ro thật: ảo tưởng AI luôn đúng, lười suy nghĩ, lộ dữ liệu, và chi phí subscription chồng chéo.", "Framework 4 bước: chọn 1–2 việc lặp lại → dùng AI có kiểm chứng → đo thời gian tiết kiệm → cắt công cụ thừa."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết tổng hợp trải nghiệm thực tế và nguồn công khai uy tín."

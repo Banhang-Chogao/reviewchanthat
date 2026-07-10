@@ -53,7 +53,7 @@ Bài này là phần 8 trong [series iPhone 18 có gì mới](/posts/iphone-18-c
 - **[Apple đã xác nhận]** — Newsroom, keynote, trang sản phẩm
 - **[Báo chí / analyst]** — MacRumors, AppleInsider…
 - **[Tin đồn / chưa xác nhận]** — leak, CAD, chuỗi cung ứng
-- **[Phân tích]** — suy luận từ dòng sản phẩm Apple
+- **[phân tích]** — suy luận từ dòng sản phẩm Apple
 
 ## Bảng tóm tắt nhanh
 
@@ -74,7 +74,7 @@ Bài này là phần 8 trong [series iPhone 18 có gì mới](/posts/iphone-18-c
 - **Chụp nhóm** rộng hơn với pixel dư để chỉnh khung hình sau.
 - **Center Stage / video call** có thêm dữ liệu để theo dõi khuôn mặt (phụ thuộc phần mềm).
 
-**[Phân tích]** Apple đã từng “bỏ qua” cuộc đua megapixel camera sau để ưu tiên pixel lớn và xử lý Deep Fusion. Việc nâng selfie lên 24MP **hợp lý** cho thời đại video ngắn — nhưng chất lượng thực tế vẫn phụ thuộc **ống kính, HDR và Photonic Engine**, không chỉ con số MP.
+**[phân tích]** Apple đã từng “bỏ qua” cuộc đua megapixel camera sau để ưu tiên pixel lớn và xử lý Deep Fusion. Việc nâng selfie lên 24MP **hợp lý** cho thời đại video ngắn — nhưng chất lượng thực tế vẫn phụ thuộc **ống kính, HDR và Photonic Engine**, không chỉ con số MP.
 
 ## Variable aperture trên Pro — điều gì khác iPhone 17?
 
@@ -82,7 +82,7 @@ Bài này là phần 8 trong [series iPhone 18 có gì mới](/posts/iphone-18-c
 
 **[Tin đồn / chưa xác nhận]** Kèm theo là tin sensor **xếp lớp (stacked)** từ Samsung — giảm rolling shutter, đọc pixel nhanh hơn, lợi cho **chụp đêm và chuyển động**. Apple từng dùng Sony là chính; nếu đa nhà cung ứng đúng, đó là thay đổi **chuỗi cung ứng** lớn, không chỉ marketing.
 
-**[Phân tích]** Với người Việt hay chụp **đèn neon ban đêm, quán cà phê tối, tiệc trong nhà**, variable aperture có thể giảm hiện tượng **blow highlight** hoặc cải thiện **bokeh** ở f lớn hơn — nhưng cần **ảnh thật** từ sự kiện Apple mới kết luận được.
+**[phân tích]** Với người Việt hay chụp **đèn neon ban đêm, quán cà phê tối, tiệc trong nhà**, variable aperture có thể giảm hiện tượng **blow highlight** hoặc cải thiện **bokeh** ở f lớn hơn — nhưng cần **ảnh thật** từ sự kiện Apple mới kết luận được.
 
 ## Tin đã có nguồn / Tin còn là đồn đoán
 
@@ -110,7 +110,7 @@ Bài này là phần 8 trong [series iPhone 18 có gì mới](/posts/iphone-18-c
 
 **[Tin đồn / chưa xác nhận]** Camera 2026 không chỉ là phần cứng: **A20 / A20 Pro** (TSMC 2nm — tin đồn) và ISP mới quyết định **Night mode, video LOG, codec**. Chi tiết chip: [iPhone 18 chip A20 2nm](/posts/iphone-18-chip-a20-2nm/).
 
-**[Phân tích]** Apple Intelligence và tính năng **Siri mode in Camera** trên **iOS 27** (Apple đã preview tại WWDC26) sẽ chạy tốt hơn trên máy mới — nhưng đó là **phần mềm**, không độc quyền iPhone 18. Người dùng iPhone 16/17 đủ điều kiện vẫn hưởng một phần AI camera khi cập nhật iOS.
+**[phân tích]** Apple Intelligence và tính năng **Siri mode in Camera** trên **iOS 27** (Apple đã preview tại WWDC26) sẽ chạy tốt hơn trên máy mới — nhưng đó là **phần mềm**, không độc quyền iPhone 18. Người dùng iPhone 16/17 đủ điều kiện vẫn hưởng một phần AI camera khi cập nhật iOS.
 
 ## Góc nhìn người chụp ảnh Việt Nam
 

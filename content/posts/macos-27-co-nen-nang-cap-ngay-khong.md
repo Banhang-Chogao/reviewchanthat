@@ -70,7 +70,7 @@ Thiếu ≥ 3 mục → **hoãn**.
 
 ## Nên nâng cấp ngay (khi stable mùa thu)
 
-**[Phân tích]**
+**[phân tích]**
 
 - Mac **M2/M3/M4**, 16GB+, trong list Apple
 - Cần **Safari Notify Me**, **sidebar màu**, **Spotlight AI**

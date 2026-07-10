@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "CFA dùng toán học gì? Những công thức quận lý tài sản"
+title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
 description = "CFA (Chartered Financial Analyst) dùng toán học nào? Học cash flow analysis, present value (PV), DCF, correlation, beta, tracking error, information ratio, và performance attribution."
 date = "2026-07-10T13:16:14+07:00"
 lastmod = "2026-07-10T14:10:36+07:00"
@@ -32,11 +32,11 @@ image_attribution_checked_at = "2026-07-10T14:20:00+07:00"
 image_query = "finance professional studying books certification"
 
 [ai_summary]
-items = ["CFA Level 1: Tài chính cơ bản, DCF, PV = Σ CF_t × e^(-rt)", "Beta = Cov(Ra, Rm) / Var(Rm) — độ nhạy so với thị trường", "Tracking Error = σ(Return_fund - Return_benchmark)", "Information Ratio = (Return_fund - Return_benchmark) / Tracking Error", "CFA Level 2: Equity valuation (P/E, FCF), fixed income (duration, convexity)", "CFA Level 3: Portfolio management, constraints, risk budgeting", "Ứng dụng: Phân tích cổ phiếu, quản lý danh mục, đánh giá quỹ"]
+items = ["CFA Level 1: Tài chính cơ bản, DCF, PV = Σ CF_t × e^(-rt)", "Beta = Cov(Ra, Rm) / Var(Rm) — độ nhạy so với thị trường", "Tracking Error = σ(Return_fund - Return_benchmark)", "Information Ratio = (Return_fund - Return_benchmark) / Tracking Error", "CFA Level 2: Equity valuation (P/E, FCF), fixed income (duration, convexity)", "CFA Level 3: Portfolio management, constraints, risk budgeting", "Ứng dụng: phân tích cổ phiếu, quản lý danh mục, đánh giá quỹ"]
 +++
 
 CFA (Chartered Financial Analyst) là chứng chỉ cao nhất trong quản lý tài sản. CFAs dùng **toán học cao cấp** để:
-1. Phân tích giá trị công ty (DCF, PV)
+1. phân tích giá trị công ty (DCF, PV)
 2. Đo rủi ro danh mục (beta, tracking error)
 3. Đánh giá hiệu suất quỹ (information ratio, attribution)
 
@@ -52,11 +52,11 @@ Bài này giải thích **CFA mathematics**.
 *Nguồn: Pexels / Tima Miroshnichenko*
 
 
-**Chartered Financial Analyst** = Chứng chỉ do CFA Institute cấp.
+**Chartered Financial Analyst** = chứng chỉ do CFA Institute cấp.
 
 3 cấp:
 - **Level 1:** Tài chính cơ bản, định giá, quản lý danh mục
-- **Level 2:** Phân tích sâu (equity, bond, derivatives), wording chuẩn
+- **Level 2:** phân tích sâu (equity, bond, derivatives), wording chuẩn
 - **Level 3:** Portfolio management, performance attribution
 
 ---
@@ -81,9 +81,9 @@ PV = CF_1 × e^(-r) + CF_2 × e^(-2r) + ... + CF_n × e^(-nr)
 - t = năm
 - e = số Euler
 
-### Ví dụ: Định giá công ty
+### Ví dụ: định giá công ty
 
-Công ty dự kiến dòng tiền tự do (FCF):
+công ty dự kiến dòng tiền tự do (FCF):
 - Năm 1-5: 10 tỷ VND/năm
 - Năm 6-10: 12 tỷ VND/năm
 - Terminal value (năm 11+): 150 tỷ VND
@@ -96,11 +96,11 @@ PV = 10×e^(-0.08) + 10×e^(-0.16) + ... + 150×e^(-0.8)
    ≈ 95 tỷ VND
 ```
 
-**Giá trị công ty ≈ 95 tỷ VND**
+**giá trị công ty ≈ 95 tỷ VND**
 
 ---
 
-## Beta và Rủi ro Hệ thống
+## Beta và rủi ro Hệ thống
 
 ### Công thức
 

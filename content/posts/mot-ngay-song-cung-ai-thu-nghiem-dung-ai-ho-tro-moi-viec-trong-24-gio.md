@@ -117,7 +117,7 @@ Sau 10 bài: bạn có pillar tư duy, menu tool, OS cá nhân, minimalism, quy�
 ## Hạn chế
 
 - Hype và subscription.  
-- Rủi ro dữ liệu.  
+- rủi ro dữ liệu.  
 - Ảo tưởng AI luôn đúng.
 
 ## FAQ mở rộng

@@ -81,7 +81,7 @@ Màu sắc hiếm khi thay đổi **cách máy chạy** — nhưng lại thay đ
 
 **[Tin đồn / chưa xác nhận]** [MacRumors tháng 2/2026](https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/) và Macworld tổng hợp: **Dark Cherry** là đỏ **đậm, trầm**, không chói như Product RED — phù hợp **titan xám** hoặc **đen** và marketing “màu năm” kiểu Desert Titanium từng làm với iPhone 16 Pro.
 
-**[Phân tích]** Apple luân phiên **màu signature** mỗi 1–2 năm (Natural, Desert, Blue Titanium…) để kích **upgrade cảm xúc** — người từ 17 Pro Natural có thể thấy Dark Cherry **đủ khác** để đổi máy dù spec tin đồn không nhảy vọt.
+**[phân tích]** Apple luân phiên **màu signature** mỗi 1–2 năm (Natural, Desert, Blue Titanium…) để kích **upgrade cảm xúc** — người từ 17 Pro Natural có thể thấy Dark Cherry **đủ khác** để đổi máy dù spec tin đồn không nhảy vọt.
 
 **[Tin đồn / chưa xác nhận]** Một số render CAD đặt Dark Cherry trên **khung titan** viền đỏ nhạt — **không** được Apple xác nhận; màu thật thường **lệch** render leak.
 
@@ -96,7 +96,7 @@ Màu sắc hiếm khi thay đổi **cách máy chạy** — nhưng lại thay đ
 - **Natural / Gray Titanium** — trung tính, dễ bán lại ở VN.
 - **Dark Cherry** — điểm nhấn đời mới.
 
-**[Phân tích]** Apple hiếm khi **bỏ hẳn** màu bán chạy đời trước cùng lúc ra màu mới — thường **thay một ô** trong palette 4 màu Pro.
+**[phân tích]** Apple hiếm khi **bỏ hẳn** màu bán chạy đời trước cùng lúc ra màu mới — thường **thay một ô** trong palette 4 màu Pro.
 
 ### iPhone Fold
 
@@ -124,7 +124,7 @@ Màu sắc hiếm khi thay đổi **cách máy chạy** — nhưng lại thay đ
 
 ### Khí hậu, ố vàng và vỏ case
 
-**[Phân tích]** Việt Nam **nóng ẩm, nhiều tay ra mồ hôi**:
+**[phân tích]** Việt Nam **nóng ẩm, nhiều tay ra mồ hôi**:
 
 | Màu (tin đồn) | Ưu | Nhược ở VN |
 |---------------|-----|------------|
@@ -133,11 +133,11 @@ Màu sắc hiếm khi thay đổi **cách máy chạy** — nhưng lại thay đ
 | Natural / Gray | Dễ bán lại | Một số đời **ố vàng** viền — cần ố viền |
 | White | Sạch, nổi trên bàn | **Ố vàng** rõ nếu không vệ sinh |
 
-**[Phân tích]** Nếu bạn hay dùng **ố trong suốt**, Natural và White lịch sử dễ **ố viền** sau 6–12 tháng — Dark Cherry **chưa có** kinh nghiệm thực tế vì chưa ra mắt.
+**[phân tích]** Nếu bạn hay dùng **ố trong suốt**, Natural và White lịch sử dễ **ố viền** sau 6–12 tháng — Dark Cherry **chưa có** kinh nghiệm thực tế vì chưa ra mắt.
 
 ### Giá resale và tâm lý “màu lạ”
 
-**[Phân tích]** Tại chợ máy cũ VN:
+**[phân tích]** Tại chợ máy cũ VN:
 
 - **Đen, Natural** thanh khoản nhanh nhất trên Pro.
 - **Màu signature** (Desert, Blue…) — giá resale **cao hơn nhẹ** nếu còn hype 3–6 tháng đầu, sau đó **khó khăn** hơn đen một chút.
@@ -145,7 +145,7 @@ Màu sắc hiếm khi thay đổi **cách máy chạy** — nhưng lại thay đ
 
 ## Màu có đáng chờ cả thế hệ?
 
-**[Phân tích]** Chỉ nên chờ iPhone 18 **vì màu** nếu:
+**[phân tích]** Chỉ nên chờ iPhone 18 **vì màu** nếu:
 
 - Bạn **chán** palette 17 Pro và Dark Cherry **đúng gu** thẩm mỹ.
 - Mua **Fold** — form factor mới, màu là phần **nhận diện**.
