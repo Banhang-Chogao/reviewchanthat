@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T07:05:42+07:00",
-  "generated_at_display": "10-07-2026 07:05:42",
+  "generated_at": "2026-07-10T07:07:43+07:00",
+  "generated_at_display": "10-07-2026 07:07:43",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -8,14 +8,14 @@
   },
   "summary": {
     "failed_runs_scanned": 27,
-    "safe_autofixes_available": 25,
-    "unsafe_external_failures": 2,
+    "safe_autofixes_available": 24,
+    "unsafe_external_failures": 3,
     "open_action_items": 12,
     "loop_guarded_attempts": 39,
     "by_type": {
       "workflow_fanout": 19,
-      "sitemap_noindex_mismatch": 3,
-      "hugo_build_error": 2,
+      "hugo_build_error": 3,
+      "sitemap_noindex_mismatch": 2,
       "content_direction_optimizer_fail": 1,
       "metadata_optimizer_fail": 1,
       "duplicate_yaml_keys": 1
@@ -61,16 +61,6 @@
       "safe_to_autofix": true,
       "action": "Keep posts-only sitemap.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29056029940"
-    },
-    {
-      "run_id": "29055987326",
-      "workflow": "Deployment Doctor",
-      "commit": "413e41e",
-      "status": "cancelled",
-      "rootcause": "sitemap_noindex_mismatch",
-      "safe_to_autofix": true,
-      "action": "Keep posts-only sitemap.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29055987326"
     },
     {
       "run_id": "29058408603",
@@ -273,6 +263,16 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29057193349"
     },
     {
+      "run_id": "29059082765",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "ca5571f",
+      "status": "failure",
+      "rootcause": "hugo_build_error",
+      "safe_to_autofix": false,
+      "action": "Inspect Hugo template error line.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059082765"
+    },
+    {
       "run_id": "29058972550",
       "workflow": "Deploy to GitHub Pages",
       "commit": "81bb16b",
@@ -441,16 +441,16 @@
         "safe_to_autofix": true
       },
       {
-        "failure_type": "sitemap_noindex_mismatch",
-        "run_id": "29055987326",
-        "rootcause": "noindex pages incorrectly included in sitemap.",
-        "safe_to_autofix": true
-      },
-      {
         "failure_type": "duplicate_yaml_keys",
         "run_id": "29058408603",
         "rootcause": "Hugo front matter chứa duplicate YAML keys, khiến build fail.",
         "safe_to_autofix": true
+      },
+      {
+        "failure_type": "hugo_build_error",
+        "run_id": "29059082765",
+        "rootcause": "Hugo build/render error.",
+        "safe_to_autofix": false
       },
       {
         "failure_type": "hugo_build_error",
@@ -742,12 +742,6 @@
       "detail": "loop-guard: 390501e92d12:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
-      "run_id": "29055987326",
-      "failure_type": "sitemap_noindex_mismatch",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 413e41e04dc1:sitemap_noindex_mismatch already attempted 2 times"
-    },
-    {
       "run_id": "29058408603",
       "failure_type": "duplicate_yaml_keys",
       "result": "skipped",
@@ -756,27 +750,27 @@
     {
       "run_id": "29058962827",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: efceafb6e555:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29058962793",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: efceafb6e555:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29058962687",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: efceafb6e555:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29058873327",
       "failure_type": "workflow_fanout",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
     },
     {
       "run_id": "29058873179",
@@ -867,6 +861,12 @@
       "failure_type": "workflow_fanout",
       "result": "skipped",
       "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29059082765",
+      "failure_type": "hugo_build_error",
+      "result": "unsafe",
+      "detail": "safe_to_autofix=false — report only"
     },
     {
       "run_id": "29058972550",
