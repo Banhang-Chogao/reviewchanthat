@@ -111,7 +111,7 @@ Sống thông minh = **ít bề mặt, sâu quy trình**.
 | Thời gian unlock/ngày | cao, phân mảnh | giảm phiên ban đêm |
 | Việc deep work | hiếm | block lịch 90' |
 
-## Rủi ro “tối giản giả”
+## rủi ro “tối giản giả”
 
 Gỡ app nhưng vẫn doomscroll web. Minimalism là **hành vi**, không phải wallpaper.
 
@@ -136,7 +136,7 @@ Remote worker: tắt Slack ngoài 19h; AI tóm channel sáng hôm sau. Phụ huy
 ## Hạn chế
 
 - Hype và subscription.  
-- Rủi ro dữ liệu.  
+- rủi ro dữ liệu.  
 - Ảo tưởng AI luôn đúng.
 
 ## FAQ mở rộng

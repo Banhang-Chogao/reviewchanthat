@@ -75,13 +75,13 @@ Bài này mở đầu series **Starbucks Vietnam**: kể lại hành trình thư
 
 **[Starbucks/đã công bố]** Cửa hàng đầu tiên khai trương tại **Bitexco Financial Tower**, Quận 1, TP.HCM — tòa nhà biểu tượng ven sông Sài Gòn. [GCR Magazine](https://www.gcrmag.com/first-starbucks-opens-in-vietnam/) và nhiều báo địa phương ghi nhận sự kiện này như một dấu mốc: lần đầu logo Starbucks xuất hiện rộng rãi trên đường phố thành phố lớn nhất phía Nam.
 
-**[Phân tích]** Thời điểm 2013 trùng với giai đoạn người Việt — đặc biệt thế hệ trẻ tại TP.HCM và Hà Nội — bắt đầu quen với mô hình "third place": nơi thứ ba ngoài nhà và công sở để làm việc, đọc sách, học nhóm. Starbucks đến đúng lúc nhu cầu đó tăng mạnh.
+**[phân tích]** Thời điểm 2013 trùng với giai đoạn người Việt — đặc biệt thế hệ trẻ tại TP.HCM và Hà Nội — bắt đầu quen với mô hình "third place": nơi thứ ba ngoài nhà và công sở để làm việc, đọc sách, học nhóm. Starbucks đến đúng lúc nhu cầu đó tăng mạnh.
 
 ## Ai vận hành Starbucks tại Việt Nam?
 
 **[Starbucks/đã công bố]** Starbucks không tự mở cửa hàng trực tiếp mà hợp tác với **Maxim's Caterers** — tập đoàn F&B có trụ sở tại Hong Kong, từng vận hành Starbucks ở nhiều thị trường châu Á. Mô hình franchise/master licensee giúp thương hiệu Mỹ thích nghi nhanh hơn với thói quen địa phương: cách phục vụ, tốc độ mở rộng, và vị trí mặt bằng.
 
-**[Phân tích]** Với người tiêu dùng, điều này ít khi hiện ra trên menu — nhưng nó giải thích vì sao trải nghiệm tại các chi nhánh lớn ở Việt Nam thường bám sát chuẩn quốc tế: quy trình pha chế, cách gọi tên size, chương trình Rewards, và thiết kế nội thất nhận diện.
+**[phân tích]** Với người tiêu dùng, điều này ít khi hiện ra trên menu — nhưng nó giải thích vì sao trải nghiệm tại các chi nhánh lớn ở Việt Nam thường bám sát chuẩn quốc tế: quy trình pha chế, cách gọi tên size, chương trình Rewards, và thiết kế nội thất nhận diện.
 
 ## Mười năm và hơn thế nữa
 
@@ -91,7 +91,7 @@ Bài này mở đầu series **Starbucks Vietnam**: kể lại hành trình thư
 
 ## Starbucks khác gì quán cà phê Việt truyền thống?
 
-**[Phân tích]** Cà phê phin, quán vỉa hè, và cà phê take-away giá mềm vẫn là "mặc định" của đại đa số người Việt. Starbucks định vị ở phân khúc khác: giá cao hơn, menu phong phú (espresso, Frappuccino, trà, bánh), và trải nghiệm không gian được đầu tư.
+**[phân tích]** Cà phê phin, quán vỉa hè, và cà phê take-away giá mềm vẫn là "mặc định" của đại đa số người Việt. Starbucks định vị ở phân khúc khác: giá cao hơn, menu phong phú (espresso, Frappuccino, trà, bánh), và trải nghiệm không gian được đầu tư.
 
 Điều đó không có nghĩa thay thế hoàn toàn văn hóa cà phê bản địa — mà bổ sung thêm lựa chọn khi bạn cần Wi-Fi ổn định, ổ cắm, hoặc chỗ họp nhóm có điều hòa. Nhiều người dùng Starbucks như "văn phòng di động" hơn là chỉ để uống cà phê.
 

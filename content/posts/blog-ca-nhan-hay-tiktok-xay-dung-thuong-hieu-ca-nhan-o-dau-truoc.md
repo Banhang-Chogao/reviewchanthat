@@ -75,7 +75,7 @@ Thương hiệu cá nhân là **nhận thức lặp lại trong đầu người 
 | Độ sâu | Rất tốt | Hạn chế bởi format ngắn |
 | Phụ thuộc thuật toán | Có (Google) nhưng URL vẫn truy cập được | Rất cao (For You) |
 | Phù hợp portfolio xin việc / client | Cao | Trung bình–cao tùy ngành |
-| Rủi ro account / policy | Thấp hơn nếu bạn giữ source | Cao hơn (khóa, shadowban, đổi rule) |
+| rủi ro account / policy | Thấp hơn nếu bạn giữ source | Cao hơn (khóa, shadowban, đổi rule) |
 | Chi phí duy trì kỹ thuật | Có (domain, build, deploy) | Thấp hơn về tech, cao hơn về sản xuất đều |
 
 Không có cột nào “luôn thắng”. Có **thứ tự phù hợp 90 ngày đầu**.
@@ -152,14 +152,14 @@ Hình dung tối giản:
 
 Đây cũng là tinh thần bài trụ về [Hugo + Python + TikTok](/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok/): công cụ tĩnh và script giúp blog vận hành như hệ thống; social không phải nơi duy nhất cất brand.
 
-## Rủi ro nếu chỉ TikTok
+## rủi ro nếu chỉ TikTok
 
 - Policy / account risk  
 - Nội dung khó search lại sau 6 tháng  
 - Khó chứng minh depth cho client kỹ thuật  
 - Nghiện metric ngắn hạn → nội dung ngày càng giật, loãng chuyên môn
 
-## Rủi ro nếu chỉ blog và 0 phân phối
+## rủi ro nếu chỉ blog và 0 phân phối
 
 - Viết hay nhưng không ai biết  
 - Động lực giảm vì thiếu phản hồi  

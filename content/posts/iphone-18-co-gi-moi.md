@@ -69,7 +69,7 @@ Mỗi mùa thu, cộng đồng iPhone lại hỏi: **thế hệ mới có đáng
 - **[Apple đã xác nhận]** — chỉ dùng khi có Newsroom/keynote/trang sản phẩm
 - **[Báo chí / analyst]** — MacRumors, AppleInsider, Bloomberg, Ming-Chi Kuo…
 - **[Tin đồn / chưa xác nhận]** — leak, CAD, dummy, chuỗi cung ứng
-- **[Phân tích]** — suy luận từ hành vi sản phẩm Apple
+- **[phân tích]** — suy luận từ hành vi sản phẩm Apple
 
 ## Bảng tóm tắt nhanh
 
@@ -151,4 +151,4 @@ Dark Cherry (Pantone 6076) được [MacRumors](https://www.macrumors.com/2026/0
 | 10 | [So với iPhone 17](/posts/iphone-18-vs-iphone-17/) |
 | 11 | [Màu sắc](/posts/iphone-18-mau-gi-dark-cherry/) |
 
-**[Phân tích]** Tin đồn iPhone 18 hợp lý nhất khi **nhiều nguồn độc lập** cùng hướng — split launch và 2nm là hai trục đó. Hãy coi mọi thông số là **giả thuyết mua hàng**, không phải cam kết Apple, cho đến khi có keynote.
+**[phân tích]** Tin đồn iPhone 18 hợp lý nhất khi **nhiều nguồn độc lập** cùng hướng — split launch và 2nm là hai trục đó. Hãy coi mọi thông số là **giả thuyết mua hàng**, không phải cam kết Apple, cho đến khi có keynote.

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:20:00+07:00"
-description = "Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu được gì và mất gì? Phân tích rủi ro bảo mật, hoàn tiền, trải nghiệm gia đình và những đánh đổi Apple không nói"
+description = "Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu được gì và mất gì? phân tích rủi ro bảo mật, hoàn tiền, trải nghiệm gia đình và những đánh đổi Apple không nói"
 draft = false
 image = "images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp"
 image_attribution_checked_at = "2026-07-10T14:01:34+07:00"
@@ -86,7 +86,7 @@ Bài này là phần 5 trong series [Apple vs EC: App Store, iOS và Digital Mar
 **Nhãn nguồn trong bài:**
 - **[Apple đã xác nhận]** — trang DMA Developer, Newsroom, tài liệu pháp lý
 - **[EC đã xác nhận]** — thông cáo EC, quyết định vi phạm DMA
-- **[Phân tích]** — suy luận từ chính sách và trải nghiệm thực tế
+- **[phân tích]** — suy luận từ chính sách và trải nghiệm thực tế
 - **[Phản hồi thực tế]** — báo cáo người dùng, nhà phát triển EU
 - **[Tin đồn / chưa xác nhận]** — leak hoặc dự đoán chưa được xác nhận
 
@@ -96,7 +96,7 @@ Bài này là phần 5 trong series [Apple vs EC: App Store, iOS và Digital Mar
 
 **[EC đã xác nhận]** DMA coi mô hình đó là rào cản cạnh tranh: Apple vừa là nền tảng vừa là cửa hàng duy nhất “mặc định”, kiểm soát phân phối và điều kiện kinh doanh. EC muốn **phá vỡ sự độc quyền phân phối**, không nhất thiết bảo vệ trải nghiệm “một chạm”.
 
-**[Phân tích]** Đây là điểm mấu chốt ít được nói to: **cạnh tranh và tiện lợi không luôn cùng hướng**. Người dùng EU được thêm đường vào app — nhưng mỗi đường thêm là một **điểm gãy** trong chuỗi bảo vệ mà Apple xây nhiều năm.
+**[phân tích]** Đây là điểm mấu chốt ít được nói to: **cạnh tranh và tiện lợi không luôn cùng hướng**. Người dùng EU được thêm đường vào app — nhưng mỗi đường thêm là một **điểm gãy** trong chuỗi bảo vệ mà Apple xây nhiều năm.
 
 Chi tiết bối cảnh pháp lý: [Apple thua kiện EU — tổng quan DMA](/posts/apple-thua-kien-eu-app-store-ios-dma/).
 
@@ -109,7 +109,7 @@ Theo [tài liệu DMA của Apple Developer](https://developer.apple.com/support
 - Không crash nghiêm trọng, tương thích iOS hiện tại
 - Không malware đã biết, không thu thập dữ liệu trái mục đích
 
-**[Phân tích]** Malware **chưa biết**, app subscription đánh cắp tiền qua giao diện mờ, hoặc marketplace không kiểm duyệt nội dung — Notarization **không chặn hết**. Người dùng EU mất **lớp lọc thứ hai** mà App Store từng đảm nhiệm, dù Apple vẫn có thể thu hồi app sau khi phát hiện malware.
+**[phân tích]** Malware **chưa biết**, app subscription đánh cắp tiền qua giao diện mờ, hoặc marketplace không kiểm duyệt nội dung — Notarization **không chặn hết**. Người dùng EU mất **lớp lọc thứ hai** mà App Store từng đảm nhiệm, dù Apple vẫn có thể thu hồi app sau khi phát hiện malware.
 
 **[EC đã xác nhận]** EC cho rằng rủi ro bảo mật là **lập luận marketing** của gatekeeper; trách nhiệm thuộc developer và marketplace. Quan điểm này hợp lý về mặt lý thuyết thị trường — nhưng **người dùng cuối** vẫn là bên chịu hậu quả nếu marketplace yếu.
 
@@ -125,19 +125,19 @@ Theo [tài liệu DMA của Apple Developer](https://developer.apple.com/support
 | Hoàn tiền 14 ngày (một số loại) | Apple có quy trình | Không đảm bảo thống nhất |
 | Lịch sử mua gia đình | Family Sharing tích hợp | Thường không đồng bộ |
 
-**[Phân tích]** Người dùng EU mất điểm neo hoàn tiền quen thuộc — EC bổ sung quyền cạnh tranh, chưa bổ sung cơ chế bảo vệ người tiêu dùng tương đương ở mọi kênh.
+**[phân tích]** Người dùng EU mất điểm neo hoàn tiền quen thuộc — EC bổ sung quyền cạnh tranh, chưa bổ sung cơ chế bảo vệ người tiêu dùng tương đương ở mọi kênh.
 
 ## 4. Gia đình, trẻ em và Screen Time — kẽ hở mới
 
 **[Apple đã xác nhận]** Screen Time vẫn hoạt động với app sideload, nhưng **Ask to Buy**, **Family Purchase Sharing** và hạn chế IAP trong Screen Time **không áp dụng** cho giao dịch ngoài App Store.
 
-**[Phân tích]** Phụ huynh EU khó kiểm soát chi tiêu nếu con cài app từ marketplace không gắn Apple ID billing — kẽ hở thực tế, đặc biệt với gia đình Việt Nam sang EU du học/công tác.
+**[phân tích]** Phụ huynh EU khó kiểm soát chi tiêu nếu con cài app từ marketplace không gắn Apple ID billing — kẽ hở thực tế, đặc biệt với gia đình Việt Nam sang EU du học/công tác.
 
 ## 5. Trình duyệt và engine — tự do kèm phân mảnh bảo mật
 
 **[Apple đã xác nhận]** Từ iOS 17.4, người dùng EU thấy **browser choice screen** và có thể dùng **engine khác WebKit** nếu developer cam kết patch bảo mật kịp thời ([alternative browser engines](https://developer.apple.com/support/alternative-browser-engines/)).
 
-**[Phân tích]** Người dùng EU **mất sự thống nhất** một engine WebKit — nếu browser thay thế cập nhật chậm, rủi ro zero-day kéo dài. EC chưa có cơ chế giám sát patch tương đương App Review.
+**[phân tích]** Người dùng EU **mất sự thống nhất** một engine WebKit — nếu browser thay thế cập nhật chậm, rủi ro zero-day kéo dài. EC chưa có cơ chế giám sát patch tương đương App Review.
 
 ## 6. Marketplace, cảnh báo UX và bài học cho người dùng VN
 
@@ -147,7 +147,7 @@ Theo [tài liệu DMA của Apple Developer](https://developer.apple.com/support
 
 ## 7. Người dùng Việt Nam — học gì từ EU?
 
-**[Phân tích]** iPhone tại Việt Nam **không** có DMA changes. Nhưng ba bài học hữu ích:
+**[phân tích]** iPhone tại Việt Nam **không** có DMA changes. Nhưng ba bài học hữu ích:
 
 1. **“Mở” không đồng nghĩa “tốt hơn cho mọi người”** — nhóm power user được lợi; người dùng phổ thông có thể mất lớp bảo vệ quen thuộc.
 2. **Luật EU thường là thử nghiệm** — nếu DMA thành công (theo tiêu chí EC), áp lực tương tự có thể đến UK, Nhật, thậm chí tranh luận tại VN về app sideload.

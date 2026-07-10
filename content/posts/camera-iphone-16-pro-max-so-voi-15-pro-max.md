@@ -64,7 +64,7 @@ So camera **16 Pro Max vs 15 Pro Max**, nhiều người kỳ vọng **bước n
 
 ## 1. Chất lượng ảnh tĩnh
 
-**[Phân tích]** Ảnh ban ngày, du lịch, đồ ăn — **khó phân biệt** nếu không so cạnh. 16 có thể **ít noise** hơn chút ở HDR cực đoan nhờ ISP mới — không phải lý do **đổi máy 10 triệu**.
+**[phân tích]** Ảnh ban ngày, du lịch, đồ ăn — **khó phân biệt** nếu không so cạnh. 16 có thể **ít noise** hơn chút ở HDR cực đoan nhờ ISP mới — không phải lý do **đổi máy 10 triệu**.
 
 Chi tiết 15 còn đủ không: [camera 15 Pro Max](/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong/).
 

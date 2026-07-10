@@ -169,7 +169,7 @@ Seoraksan National Park ở Sokcho là điểm ngắm lá đỏ nổi tiếng nh
 
 Tức khi bạn đến tháng 11, Seoraksan **thường đã qua hoặc sát peak**.
 
-**Phân tích theo tuần tháng 11:**
+**phân tích theo tuần tháng 11:**
 
 | Tuần | Seoraksan | Gợi ý |
 |---|---|---|

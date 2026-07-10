@@ -60,7 +60,7 @@ MacBook là máy mang đi — nên **pin và hiệu năng** thường quan trọ
 - Chuyển Space / Stage Manager mượt hơn
 - AirDrop và pipeline file nhanh hơn trên Apple Silicon
 
-**[Phân tích]** Apple ít đưa benchmark độc lập — cần đối chiếu trải nghiệm beta và bài test sau public release.
+**[phân tích]** Apple ít đưa benchmark độc lập — cần đối chiếu trải nghiệm beta và bài test sau public release.
 
 ## Phản hồi beta developer — tuần đầu
 
@@ -80,7 +80,7 @@ MacBook là máy mang đi — nên **pin và hiệu năng** thường quan trọ
 
 MacBook Air M1/M2/M3 là đối tượng nhạy pin nhất:
 
-**[Phân tích]**
+**[phân tích]**
 
 - **M1 8GB**: swap nhiều khi bật AI + Chrome → nóng và tụt pin nhanh
 - **M2/M3 16GB**: dùng AI vừa phải, pin chấp nhận được
@@ -125,7 +125,7 @@ Khi RAM đầy, macOS dùng **swap** trên SSD. macOS 27 beta với AI nền + C
 
 ## So sánh thực tế: làm việc một buổi sáng
 
-**[Phân tích — kịch bản mô phỏng]** MacBook Air M2 16GB, macOS 27 dev beta vs 26.5 stable:
+**[phân tích — kịch bản mô phỏng]** MacBook Air M2 16GB, macOS 27 dev beta vs 26.5 stable:
 
 - **8h–10h:** Mail, Notion, Zoom — pin tương đương, chênh < 5%.
 - **10h–12h:** Thêm Photos Clean Up 200 ảnh + Siri AI hỏi đáp — pin 27 beta tụt thêm ~12% so với 26.

@@ -37,7 +37,7 @@ items = ["Goldman Sachs, JPMorgan: 2 ngân hàng đầu tư lớn nhất thế g
 
 Goldman Sachs & JPMorgan là 2 ngân hàng đầu tư lớn nhất. Họ dùng **toán học cực kỳ phức tạp** cho:
 
-1. **Định giá derivatives** (options, swaps, exotics)
+1. **định giá derivatives** (options, swaps, exotics)
 2. **Giao dịch cao tần** (high-frequency trading)
 3. **Quản lý rủi ro** (VaR, Greeks, hedging)
 

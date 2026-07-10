@@ -65,7 +65,7 @@ Bài này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/) tập tr
 
 Apple nói PCC chạy trên **Apple Silicon server**, không lưu dữ liệu để train model công khai, có thể audit bởi nhà nghiên cứu độc lập (theo thông cáo WWDC26).
 
-**[Phân tích]** PCC vẫn gửi **một phần** nội dung lên cloud — khác hoàn toàn “100% offline”. Nếu bạn cần air-gap tuyệt đối, tắt Apple Intelligence trong Settings.
+**[phân tích]** PCC vẫn gửi **một phần** nội dung lên cloud — khác hoàn toàn “100% offline”. Nếu bạn cần air-gap tuyệt đối, tắt Apple Intelligence trong Settings.
 
 ## Siri AI — đọc được gì trên iPhone?
 
@@ -75,7 +75,7 @@ Apple nói PCC chạy trên **Apple Silicon server**, không lưu dữ liệu đ
 - Tìm trong **Messages, Mail, Photos** (khi được phép)
 - Lưu **lịch sử chat** trong app Siri, đồng bộ iCloud
 
-**[Phân tích]** Đây là quyền truy cập **sâu hơn Siri cũ**. Người dùng nên:
+**[phân tích]** Đây là quyền truy cập **sâu hơn Siri cũ**. Người dùng nên:
 
 1. Settings → **Siri & Apple Intelligence** — xem toggle từng tính năng
 2. Không bật Siri AI trên iPhone **dùng chung** nếu lo lộ tin nhắn
@@ -87,7 +87,7 @@ Chi tiết AI: [Apple Intelligence iPhone](/posts/ios-27-apple-intelligence-ipho
 
 **[Apple đã xác nhận]** Spatial Reframing, Clean Up, Extend xử lý ảnh local hoặc PCC tùy độ phức tạp.
 
-**[Phân tích]**
+**[phân tích]**
 
 - Ảnh **nhạy cảm** (con nhỏ, giấy tờ) — cân nhắc tắt AI Photos hoặc dùng album ẩn
 - **iCloud Photos** mã hóa in transit; Apple giữ key nếu bạn dùng iCloud mặc định
@@ -106,17 +106,17 @@ Xem thêm: [camera Photos iOS 27](/posts/ios-27-camera-anh-video-iphone/).
 | Communication Safety | Chặn nội dung bạo lực, nhạy cảm trong Messages |
 | Time Allowances | Giới hạn theo **nhóm app** |
 
-**[Phân tích]** Phụ huynh Việt Nam cho con dùng iPhone — đây có thể là lý do nâng cấp **thực tế hơn AI**. Cần thảo luận với con về giám sát để tránh “cảm giác bị theo dõi” nếu con đã lớn.
+**[phân tích]** Phụ huynh Việt Nam cho con dùng iPhone — đây có thể là lý do nâng cấp **thực tế hơn AI**. Cần thảo luận với con về giám sát để tránh “cảm giác bị theo dõi” nếu con đã lớn.
 
 ## Passwords — tự đổi mật khẩu lộ
 
 **[Apple đã xác nhận]** App Passwords gợi ý đổi mật khẩu khi có trong danh sách rò rỉ công khai.
 
-**[Phân tích]** Tích cực cho bảo mật, nhưng cần **iCloud Keychain** làm nguồn chính. Nếu dùng 1Password/Bitwarden, kiểm tra tương thích iOS 27 beta trước khi cài ([beta checklist](/posts/ios-27-beta-co-nen-cai-khong/)).
+**[phân tích]** Tích cực cho bảo mật, nhưng cần **iCloud Keychain** làm nguồn chính. Nếu dùng 1Password/Bitwarden, kiểm tra tương thích iOS 27 beta trước khi cài ([beta checklist](/posts/ios-27-beta-co-nen-cai-khong/)).
 
 ## Quyền app — checklist sau khi lên iOS 27
 
-**[Phân tích]** Rà soát một lần sau update:
+**[phân tích]** Rà soát một lần sau update:
 
 1. **Settings → Privacy & Security → Tracking** — tắt Allow Apps to Request to Track nếu muốn
 2. **Photos** — chỉ “Limited” hoặc “Full” cho app tin cậy
@@ -133,11 +133,11 @@ Xem thêm: [camera Photos iOS 27](/posts/ios-27-camera-anh-video-iphone/).
 | Kiểm soát | Toggle trong Settings | Tài khoản riêng |
 | Tiếng Việt | Đang rollout | Rộng hơn hiện tại |
 
-**[Phân tích]** Dùng song song được — nhưng **đừng** paste mật khẩu, số thẻ vào chatbot bất kỳ.
+**[phân tích]** Dùng song song được — nhưng **đừng** paste mật khẩu, số thẻ vào chatbot bất kỳ.
 
 ## Luật và thị trường Việt Nam
 
-**[Phân tích]** Apple Intelligence PCC server có thể ở **ngoài VN**. Dữ liệu cá nhân xử lý transborder là chủ đề pháp lý đang phát triển. Người dùng doanh nghiệp nên hỏi IT policy trước khi bật AI trên iPhone công ty.
+**[phân tích]** Apple Intelligence PCC server có thể ở **ngoài VN**. Dữ liệu cá nhân xử lý transborder là chủ đề pháp lý đang phát triển. Người dùng doanh nghiệp nên hỏi IT policy trước khi bật AI trên iPhone công ty.
 
 ## Ai nên tắt một phần Apple Intelligence?
 

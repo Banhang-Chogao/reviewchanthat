@@ -37,7 +37,7 @@ image_query = "productivity apps laptop desk flatlay"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = ["Mục tiêu bài: giúp bạn chọn 2–5 công cụ AI để tiết kiệm khoảng 2 giờ/ngày việc lặp lại — không cài hết 20 app.", "Nhóm công cụ: viết & nghiên cứu, họp & ghi chú, lịch & task, học & ngôn ngữ, tài chính nhẹ, hình ảnh & slide.", "Ưu tiên free tier hoặc gói rẻ có ROI; đo phút tiết kiệm sau 14 ngày trước khi nâng Pro.", "Rủi ro: subscription chồng, lộ dữ liệu, tin AI 100%. Checklist an toàn và bảng so sánh kèm theo.", "Nối series: pillar sống thông minh AI; các bài Notion, minimalism, tài chính, TOPIK, du lịch."]
+items = ["Mục tiêu bài: giúp bạn chọn 2–5 công cụ AI để tiết kiệm khoảng 2 giờ/ngày việc lặp lại — không cài hết 20 app.", "Nhóm công cụ: viết & nghiên cứu, họp & ghi chú, lịch & task, học & ngôn ngữ, tài chính nhẹ, hình ảnh & slide.", "Ưu tiên free tier hoặc gói rẻ có ROI; đo phút tiết kiệm sau 14 ngày trước khi nâng Pro.", "rủi ro: subscription chồng, lộ dữ liệu, tin AI 100%. Checklist an toàn và bảng so sánh kèm theo.", "Nối series: pillar sống thông minh AI; các bài Notion, minimalism, tài chính, TOPIK, du lịch."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật."
@@ -115,7 +115,7 @@ Hai giờ mỗi ngày nghe nhiều — nhưng **không phải phép màu**. Bài
 ### 5. Tóm tắt PDF / YouTube (các extension & native summary)
 **Việc:** lấy ý chính trước khi xem full.  
 **Tiết kiệm:** 30–60 phút/tài liệu dài *nếu* bạn vẫn skim phần quan trọng.  
-**Rủi ro:** bỏ sót caveat pháp lý/y tế.
+**rủi ro:** bỏ sót caveat pháp lý/y tế.
 
 ## Nhóm B — Họp, ghi chú, follow-up
 

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-08T09:00:00+07:00"
-description = "Phân tích thực tế cho người đi Bangkok tự túc lần đầu: giá vé máy bay và khách sạn 4,62 triệu có nên chốt, đổi baht ở TP.HCM sao cho an toàn, cách đi Airport"
+description = "phân tích thực tế cho người đi Bangkok tự túc lần đầu: giá vé máy bay và khách sạn 4,62 triệu có nên chốt, đổi baht ở TP.HCM sao cho an toàn, cách đi Airport"
 draft = false
 image = "images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp"
 image_alt = "Ảnh minh họa Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào? — nguồn Pexels"

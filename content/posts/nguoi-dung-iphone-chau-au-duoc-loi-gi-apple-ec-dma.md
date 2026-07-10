@@ -34,7 +34,7 @@ items = ["Người dùng iPhone tại EU có thể cài app từ marketplace tha
 title = "Tóm tắt bài viết"
 
 [attribution]
-copyright = "© 2026 Review Chân Thật. Phân tích lợi ích người dùng; không tư vấn pháp lý."
+copyright = "© 2026 Review Chân Thật. phân tích lợi ích người dùng; không tư vấn pháp lý."
 source_note = "Tham chiếu Apple Newsroom DMA, EC, Tòa Tổng 8/7/2026 và Reuters."
 
 [[external_links]]
@@ -61,7 +61,7 @@ value = "Người dùng iPhone tại EU/EEA"
 label = "Lợi ích chính"
 
 [[tom_tat_nhanh]]
-label = "Rủi ro"
+label = "rủi ro"
 
 [[tom_tat_nhanh]]
 label = "Phán quyết 8/7"
@@ -93,7 +93,7 @@ Bạn (người dùng EU)
         └─► Tòa gatekeeper (8/7/2026)              → Không thoát DMA — tiếp tục lộ trình
 ```
 
-**[Phân tích]** Chỉ có **dòng đầu** thay đổi UI trên iPhone. Hai dòng sau **tăng áp lực** để dòng đầu đi xa hơn — nhưng **không thay thế** việc developer phải bật tính năng.
+**[phân tích]** Chỉ có **dòng đầu** thay đổi UI trên iPhone. Hai dòng sau **tăng áp lực** để dòng đầu đi xa hơn — nhưng **không thay thế** việc developer phải bật tính năng.
 
 ## Người dùng được gì?
 
@@ -105,7 +105,7 @@ Bạn (người dùng EU)
 - Cài app **trực tiếp từ website** developer (trong khung EU)
 - Vẫn dùng App Store như trước nếu muốn
 
-**[Phân tích]** “Được” ở đây là **quyền có lựa chọn** — không phải hàng trăm store xuất hiện ngày mai. Marketplace đầu tiên cần developer đủ lớn, đủ tài chính chịu phí và rủi ro.
+**[phân tích]** “Được” ở đây là **quyền có lựa chọn** — không phải hàng trăm store xuất hiện ngày mai. Marketplace đầu tiên cần developer đủ lớn, đủ tài chính chịu phí và rủi ro.
 
 ### 2. Biết giá rẻ hơn bên ngoài App Store
 
@@ -115,7 +115,7 @@ Bạn (người dùng EU)
 
 ### 3. Cạnh tranh → giá và chất lượng dịch vụ
 
-**[Phân tích]** Khi Apple không còn là **cổng duy nhất**, developer có thể thử mô hình kinh doanh khác — giảm phí, khuyến mãi, bundle. Lợi ích **lan tỏa chậm**, đo bằng **tháng/năm**, không bằng ngày phán quyết tòa.
+**[phân tích]** Khi Apple không còn là **cổng duy nhất**, developer có thể thử mô hình kinh doanh khác — giảm phí, khuyến mãi, bundle. Lợi ích **lan tỏa chậm**, đo bằng **tháng/năm**, không bằng ngày phán quyết tòa.
 
 ### 4. Quyền lực người dùng trong hệ sinh thái EU
 
@@ -131,9 +131,9 @@ DMA cũng ảnh hưởng **trình duyệt mặc định**, **ứng dụng hệ t
 
 Một cửa, một tài khoản, một nơi hoàn tiền. **Nhiều cửa** = nhiều quy tắc, nhiều chỗ khiếu nại.
 
-### 2. Rủi ro bảo mật nếu không cẩn thận
+### 2. rủi ro bảo mật nếu không cẩn thận
 
-**[Apple tuyên bố]** Apple nhấn **notarization** — quét malware trước khi app chạy. **[Phân tích]** Rủi ro **không bằng Android sideload tự do**, nhưng **cao hơn chỉ cài App Store** nếu bạn tải app từ nguồn lạ hoặc marketplace mới chưa uy tín.
+**[Apple tuyên bố]** Apple nhấn **notarization** — quét malware trước khi app chạy. **[phân tích]** rủi ro **không bằng Android sideload tự do**, nhưng **cao hơn chỉ cài App Store** nếu bạn tải app từ nguồn lạ hoặc marketplace mới chưa uy tín.
 
 ### 3. Trải nghiệm không đồng nhất EU vs du lịch
 
@@ -151,7 +151,7 @@ App cài ngoài App Store có thể **chậm cập nhật**, **khó hỗ trợ**
 
 **Không.** **[EC/Tòa EU đã công bố]** Phán quyết là **giữa Apple và EC** về phân loại gatekeeper. iPhone **không tự reboot** với store mới.
 
-**[Phân tích]** Lợi ích cho bạn đến từ:
+**[phân tích]** Lợi ích cho bạn đến từ:
 
 1. Thay đổi iOS EU Apple đã ship (2024–2025)
 2. Developer kích hoạt marketplace / link ngoài
@@ -163,7 +163,7 @@ App cài ngoài App Store có thể **chậm cập nhật**, **khó hỗ trợ**
 
 **[Apple tuyên bố]** Apple kháng cáo; nói đã sửa chính sách. Dù kết quả kháng cáo chưa ra, **hướng** đã rõ: người dùng EU **nên** thấy link/ thông báo giá ngoài nhiều hơn trong app.
 
-**[Phân tích]** €500M là **tiền Apple trả EC** — không phải tiền vào túi bạn. Lợi ích của bạn là **hành vi sửa**, không phải **chia cổ tức phạt**.
+**[phân tích]** €500M là **tiền Apple trả EC** — không phải tiền vào túi bạn. Lợi ích của bạn là **hành vi sửa**, không phải **chia cổ tức phạt**.
 
 ## Checklist thực tế cho người dùng iPhone EU
 
@@ -177,7 +177,7 @@ App cài ngoài App Store có thể **chậm cập nhật**, **khó hỗ trợ**
 
 ## Người dùng Việt Nam và châu Á — được gì?
 
-**[Phân tích]** **Không trực tiếp** — DMA là luật EU. iPhone VN **không** tự có alternative store vì Tòa Luxembourg bác kiện Apple.
+**[phân tích]** **Không trực tiếp** — DMA là luật EU. iPhone VN **không** tự có alternative store vì Tòa Luxembourg bác kiện Apple.
 
 Tín hiệu dài hạn:
 
@@ -198,7 +198,7 @@ Tín hiệu dài hạn:
 
 ## Kịch bản 12 tháng tới (dự đoán có căn cứ)
 
-**[Phân tích]** — không phải **[EC/Tòa EU đã công bố]**:
+**[phân tích]** — không phải **[EC/Tòa EU đã công bố]**:
 
 1. **Thêm marketplace** — Epic, Spotify hoặc nhà mạng EU có thể thử (nếu kinh tế học hợp lý)
 2. **EC điều tra tiếp** — nếu Apple “tuân cho có” steering/store

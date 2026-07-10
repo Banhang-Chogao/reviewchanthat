@@ -81,7 +81,7 @@ Gọi Siri AI qua **Dynamic Island**, nút nguồn giữ, hoặc app Siri riêng
 | Passwords | Tự sửa mật khẩu yếu/lộ |
 | Writing Tools | Rewrite, Proofread, Summarize |
 
-**[Phân tích]** Photos AI là tính năng “dễ thấy giá trị” nhất — xem [camera và Photos iOS 27](/posts/ios-27-camera-anh-video-iphone/).
+**[phân tích]** Photos AI là tính năng “dễ thấy giá trị” nhất — xem [camera và Photos iOS 27](/posts/ios-27-camera-anh-video-iphone/).
 
 ## iPhone nào đủ Apple Intelligence?
 
@@ -105,7 +105,7 @@ Danh sách đầy đủ: [iOS 27 hỗ trợ iPhone nào](/posts/ios-27-ho-tro-ip
 
 ## iPhone cũ vẫn lên iOS 27 — nhưng thiếu gì?
 
-**[Phân tích]** iPhone 11–14 nhận iOS 27 base:
+**[phân tích]** iPhone 11–14 nhận iOS 27 base:
 
 - Vẫn có Liquid Glass, hiệu năng shell, parental controls
 - **Không có** Siri AI, Spatial Reframing, Image Playground
@@ -123,7 +123,7 @@ Danh sách đầy đủ: [iOS 27 hỗ trợ iPhone nào](/posts/ios-27-ho-tro-ip
 - Writing Tools tiếng Việt khả dụng một phần
 - Messages Suggestions ghi “Coming in English” trên trang sản phẩm
 
-**[Phân tích]** Người dùng VN nên chờ **public beta tháng 7** trước khi quyết định đổi máy vì AI. Đừng mua iPhone 16 chỉ dựa trên slide keynote tiếng Việt.
+**[phân tích]** Người dùng VN nên chờ **public beta tháng 7** trước khi quyết định đổi máy vì AI. Đừng mua iPhone 16 chỉ dựa trên slide keynote tiếng Việt.
 
 ## Private Cloud Compute — Apple làm khác Google/OpenAI
 
@@ -143,7 +143,7 @@ Xem phân tích: [pin iPhone iOS 27](/posts/ios-27-cai-thien-pin-iphone/).
 
 ## So với ChatGPT app — có thay được không?
 
-**[Phân tích]** Siri AI và ChatGPT app phục vụ nhu cầu khác:
+**[phân tích]** Siri AI và ChatGPT app phục vụ nhu cầu khác:
 
 | Tiêu chí | Siri AI | ChatGPT app |
 |---|---|---|

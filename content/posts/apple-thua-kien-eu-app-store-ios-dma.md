@@ -92,7 +92,7 @@ Nhãn nguồn trong bài:
 - **[EC/Tòa EU đã công bố]** — thông cáo chính thức, quyết định EC
 - **[Reuters/đối chiếu]** — báo chí đối chiếu nhiều nguồn
 - **[Apple tuyên bố]** — phát ngôn, Newsroom của Apple
-- **[Phân tích]** — suy luận từ hành vi pháp lý và sản phẩm
+- **[phân tích]** — suy luận từ hành vi pháp lý và sản phẩm
 
 ## Bảng tóm tắt nhanh
 
@@ -120,7 +120,7 @@ Apple lập luận rằng các phiên bản App Store trên iPhone, iPad, Mac, A
 
 **[EC/Tòa EU đã công bố]** EC ban đầu phân loại **iMessage** là dịch vụ giao tiếp cá nhân (NIICS) thuộc CPS, nhưng sau điều tra thị trường, ngày **12/2/2024** EC quyết định **không** chỉ định Apple là gatekeeper đối với iMessage. Vì iMessage không nằm trong quyết định chỉ định gatekeeper cuối cùng, Tòa xem các khiếu nại của Apple về iMessage là **không thụ lý** — phân loại đó không tạo ra nghĩa vụ DMA ràng buộc đối với dịch vụ này.
 
-**[Phân tích]** Nói cách khác: Apple **thua** trên App Store/iOS, nhưng phần iMessage trong gói kiện **không mang lại chiến thắng pháp lý** cho bên nào ở mức gatekeeper — vì iMessage đã được EC “tha” khỏi danh sách gatekeeper từ trước.
+**[phân tích]** Nói cách khác: Apple **thua** trên App Store/iOS, nhưng phần iMessage trong gói kiện **không mang lại chiến thắng pháp lý** cho bên nào ở mức gatekeeper — vì iMessage đã được EC “tha” khỏi danh sách gatekeeper từ trước.
 
 ## Bối cảnh: DMA và “gatekeeper” là gì?
 
@@ -153,7 +153,7 @@ Muốn hiểu DMA từ đầu, đọc tiếp: [Digital Markets Act là gì và E
 
 **[Apple tuyên bố]** Theo [CNBC](https://www.cnbc.com/2025/07/07/apple-appeal-eu-fine-app-store.html), Apple kháng cáo mức phạt €500M, gọi đó là mức phạt “chưa từng có” và cho rằng EC đang “chỉ đạo cách vận hành cửa hàng”. Apple cũng nói đã điều chỉnh chính sách App Store tại EU để tránh phạt tiền hàng ngày.
 
-**[Phân tích]** Kháng cáo phạt tiền và thua kiện gatekeeper **cùng hướng về một hệ sinh thái** nhưng **khác thủ tục, khác câu hỏi pháp lý, khác hậu quả tài chính ngay lập tức**. Phán quyết 8/7/2026 **không tự động** xác nhận hay bác mức phạt €500M.
+**[phân tích]** Kháng cáo phạt tiền và thua kiện gatekeeper **cùng hướng về một hệ sinh thái** nhưng **khác thủ tục, khác câu hỏi pháp lý, khác hậu quả tài chính ngay lập tức**. Phán quyết 8/7/2026 **không tự động** xác nhận hay bác mức phạt €500M.
 
 ## Apple được gì, mất gì sau phán quyết?
 
@@ -169,7 +169,7 @@ Muốn hiểu DMA từ đầu, đọc tiếp: [Digital Markets Act là gì và E
 - **iMessage không bị gatekeeper:** Phần iMessage trong gói kiện không tạo thêm nghĩa vụ DMA — giữ trạng thái hiện tại.
 - **Thị trường ngoài EU:** Phán quyết áp dụng trong khung pháp lý EU; mô hình App Store toàn cầu vẫn có thể khác EU — Apple đã tách chính sách khu vực từ trước.
 
-**[Phân tích]** Về mặt kinh doanh, Apple **đã chuẩn bị** cho kịch bản thua: Newsroom từng mô tả [tác động DMA lên người dùng EU](https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/) — cho phép marketplace thay thế, liên kết ra ngoài, phí mới cho developer. Thua kiện gatekeeper **củng cố** hướng đi đó thay vì đảo ngược nó.
+**[phân tích]** Về mặt kinh doanh, Apple **đã chuẩn bị** cho kịch bản thua: Newsroom từng mô tả [tác động DMA lên người dùng EU](https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/) — cho phép marketplace thay thế, liên kết ra ngoài, phí mới cho developer. Thua kiện gatekeeper **củng cố** hướng đi đó thay vì đảo ngược nó.
 
 Chi tiết Apple mất quyền gì khi là gatekeeper: [App Store gatekeeper — Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
 
@@ -189,7 +189,7 @@ Chi tiết Apple mất quyền gì khi là gatekeeper: [App Store gatekeeper —
 
 ### Người dùng ngoài EU (gồm Việt Nam)
 
-**[Phân tích]** Phán quyết **không trực tiếp** thay đổi App Store tại Việt Nam. Tuy nhiên, Apple thường **thử nghiệm chính sách ở EU trước**, rồi lan sang thị trường khác nếu bị ép hoặc thấy lợi. Người dùng VN nên theo dõi như **tín hiệu dài hạn**, không phải tin “iPhone VN sắp sideload”.
+**[phân tích]** Phán quyết **không trực tiếp** thay đổi App Store tại Việt Nam. Tuy nhiên, Apple thường **thử nghiệm chính sách ở EU trước**, rồi lan sang thị trường khác nếu bị ép hoặc thấy lợi. Người dùng VN nên theo dõi như **tín hiệu dài hạn**, không phải tin “iPhone VN sắp sideload”.
 
 Đọc thêm lợi ích cụ thể cho người dùng EU: [Người dùng iPhone châu Âu được lợi gì từ Apple vs EC?](/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma/)
 
@@ -218,7 +218,7 @@ Chi tiết Apple mất quyền gì khi là gatekeeper: [App Store gatekeeper —
 
 ## Tại sao vụ kiện này quan trọng với ngành công nghệ?
 
-**[Phân tích]** Gatekeeper không chỉ là nhãn — nó là **hợp đồng pháp lý ngầm** giữa nền tảng và nhà quản lý. Khi Tòa Tổng xác nhận Apple là gatekeeper cho cả **hệ điều hành (iOS)** lẫn **cửa hàng (App Store)**, EU gửi thông điệp:
+**[phân tích]** Gatekeeper không chỉ là nhãn — nó là **hợp đồng pháp lý ngầm** giữa nền tảng và nhà quản lý. Khi Tòa Tổng xác nhận Apple là gatekeeper cho cả **hệ điều hành (iOS)** lẫn **cửa hàng (App Store)**, EU gửi thông điệp:
 
 - Không thể “chia nhỏ” một hệ sinh thái khép kín để né luật.
 - Trình duyệt, thanh toán, phân phối app — mọi tầng trung gian — đều có thể bị soi.

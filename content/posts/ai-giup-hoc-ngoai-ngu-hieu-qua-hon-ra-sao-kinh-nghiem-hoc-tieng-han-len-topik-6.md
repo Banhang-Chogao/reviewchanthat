@@ -123,7 +123,7 @@ Nộp bài trường: tuân quy định AI. Học cho mình: dùng thoải mái 
 ## Hạn chế
 
 - Hype và subscription.  
-- Rủi ro dữ liệu.  
+- rủi ro dữ liệu.  
 - Ảo tưởng AI luôn đúng.
 
 ## FAQ mở rộng

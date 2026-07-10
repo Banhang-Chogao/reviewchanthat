@@ -67,7 +67,7 @@ Vào **Settings → Battery → Battery Health & Charging**:
 - **Maximum Capacity** — % so với pin mới
 - **Peak Performance Capability** — có báo service không
 
-**[Phân tích]** Apple ghi “100%” trên máy dùng vài tháng vẫn có thể — thuật toán làm tròn. Quan trọng là **xuống 87–88% sau 1.5–2 năm** là bình thường; **dưới 83%** sau 2 năm cần hỏi **sạc nhanh liên tục, sửa pin** hay **dùng nóng**.
+**[phân tích]** Apple ghi “100%” trên máy dùng vài tháng vẫn có thể — thuật toán làm tròn. Quan trọng là **xuống 87–88% sau 1.5–2 năm** là bình thường; **dưới 83%** sau 2 năm cần hỏi **sạc nhanh liên tục, sửa pin** hay **dùng nóng**.
 
 ## 2. Dấu hiệu pin chai ngoài đời sống
 

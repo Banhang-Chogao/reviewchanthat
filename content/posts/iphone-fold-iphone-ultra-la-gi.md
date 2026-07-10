@@ -70,7 +70,7 @@ Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung 
 - **[Apple đã xác nhận]** — chỉ dùng khi có Newsroom/keynote/trang sản phẩm
 - **[Báo chí / analyst]** — MacRumors, AppleInsider, Bloomberg, Ming-Chi Kuo…
 - **[Tin đồn / chưa xác nhận]** — leak, CAD, patent, chuỗi cung ứng
-- **[Phân tích]** — suy luận từ hành vi sản phẩm Apple
+- **[phân tích]** — suy luận từ hành vi sản phẩm Apple
 
 Bối cảnh series: [iPhone 18 có gì mới?](/posts/iphone-18-co-gi-moi/) | [Lịch ra mắt](/posts/iphone-18-khi-nao-ra-mat/).
 
@@ -104,11 +104,11 @@ Bối cảnh series: [iPhone 18 có gì mới?](/posts/iphone-18-co-gi-moi/) | [
 - **Tên thương mại “iPhone Ultra”**: leak cũ (Mark Gurman và báo khác từng dùng **Ultra** cho fold); hiện báo chí thiên về **iPhone Fold**. Apple có thể đặt tên khác hoàn toàn. **[Tin đồn / chưa xác nhận]**
 - **Không có bút Apple Pencil** trên fold đời đầu: một số analyst cho rằng Apple **tập trung media** trước productivity. **[Tin đồn / chưa xác nhận]**
 - **Bản lề không nếp** (crease-free): patent Apple có nhưng **công nghệ sản xuất hàng loạt** chưa được chứng minh. **[Tin đồn / chưa xác nhận]**
-- **Chỉ bán thị trường chọn lọc** đầu tiên: đồn về số lượng hạn chế — **VN có trong đợt 1** chưa rõ. **[Phân tích]**
+- **Chỉ bán thị trường chọn lọc** đầu tiên: đồn về số lượng hạn chế — **VN có trong đợt 1** chưa rõ. **[phân tích]**
 
 ## iPhone Fold vs iPhone Ultra — gọi tên thế nào cho đúng?
 
-**[Phân tích]** Trong cộng đồng tin đồn:
+**[phân tích]** Trong cộng đồng tin đồn:
 
 - **iPhone Fold** — tên **mô tả dạng máy** (giống “Galaxy Fold”), được MacRumors dùng làm **roundup chính**.
 - **iPhone Ultra** — tên **phân khúc** từng gắn với **giá cực cao** và **kích thước lớn**; một số leak đổi hướng: **Ultra = fold**, không phải Pro Max to hơn nữa.
@@ -121,7 +121,7 @@ Apple từng đặt tên **iPhone X**, **Pro**, **Max**, **Plus**, **Air** — *
 
 **[Báo chí / analyst]** MacRumors và nhiều nguồn đồng thuận **dạng sách**: màn ngoài dùng như **iPhone bình thường**, mở ra **màn vuông gần iPad mini** cho đa nhiệm, video, đọc tài liệu.
 
-**[Phân tích]** Apple thường **vào sau nhưng polish UX** — có thể nhấn **Continuity** (Handoff, AirDrop) và **app tối ưu layout 2 pane** hơn là cạnh tranh mỏng nhất.
+**[phân tích]** Apple thường **vào sau nhưng polish UX** — có thể nhấn **Continuity** (Handoff, AirDrop) và **app tối ưu layout 2 pane** hơn là cạnh tranh mỏng nhất.
 
 ### Phần cứng đồn
 
@@ -131,13 +131,13 @@ Apple từng đặt tên **iPhone X**, **Pro**, **Max**, **Plus**, **Air** — *
 
 ### Độ bền — điểm người VN hay lo
 
-**[Phân tích]** Khí hậu nóng ẩm, bụi, và thói quen **không ốp** làm fold **rủi ro cao hơn** slab phone. Apple có thể **bảo hành bản lề chặt** nhưng **chi phí sửa** thường đắt — cần cân nhắc trước khi chờ đợt 1.
+**[phân tích]** Khí hậu nóng ẩm, bụi, và thói quen **không ốp** làm fold **rủi ro cao hơn** slab phone. Apple có thể **bảo hành bản lề chặt** nhưng **chi phí sửa** thường đắt — cần cân nhắc trước khi chờ đợt 1.
 
 ## Giá và vị thế trong dòng iPhone 18
 
 **[Báo chí / analyst]** Giá đồn **~1.800–2.000 USD** — cao hơn **18 Pro Max** đáng kể. [iPhone 18 giá bao nhiêu?](/posts/iphone-18-gia-bao-nhieu/).
 
-**[Phân tích]** Tại Việt Nam, giá có thể **50–65 triệu VNĐ** hoặc hơn tùy cấu hình và tỷ giá — **không phải máy đại chúng**. Fold nhắm:
+**[phân tích]** Tại Việt Nam, giá có thể **50–65 triệu VNĐ** hoặc hơn tùy cấu hình và tỷ giá — **không phải máy đại chúng**. Fold nhắm:
 
 - Người dùng **sẵn sàng trả premium** cho trải nghiệm mới.
 - **Doanh nhân / creator** cần màn lớn gọn ví.
@@ -161,11 +161,11 @@ So với [iPhone 18 Pro Max](/posts/iphone-18-pro-max-co-gi-moi/): Pro Max là *
 - Ngân sách **dưới Pro Max** — Fold đồn **đắt hơn** Pro Max, không thay thế giá tốt.
 - Đang dùng **17 Pro Max** ổn — nâng cấp sang Fold **đời đầu** có thể **không cải thiện** camera/pin đủ để bù rủi ro.
 
-**[Phân tích]** Lịch sử Apple (Apple Watch, AirPods, Vision Pro): **đời 2–3** thường **ổn định và dễ mua hơn**. Fold **có thể** không ngoại lệ — xem [có nên chờ iPhone 18](/posts/co-nen-cho-iphone-18-khong/) theo nhu cầu cá nhân.
+**[phân tích]** Lịch sử Apple (Apple Watch, AirPods, Vision Pro): **đời 2–3** thường **ổn định và dễ mua hơn**. Fold **có thể** không ngoại lệ — xem [có nên chờ iPhone 18](/posts/co-nen-cho-iphone-18-khong/) theo nhu cầu cá nhân.
 
-## Rủi ro khi mua đợt đầu (đồn thành hiện thực)
+## rủi ro khi mua đợt đầu (đồn thành hiện thực)
 
-| Rủi ro | Ghi chú |
+| rủi ro | Ghi chú |
 |---|---|
 | Khan hàng | Đợt 1 fold thường **số lượng thấp** |
 | Phụ kiện đắt | Case, film bản lề **độc quyền** |

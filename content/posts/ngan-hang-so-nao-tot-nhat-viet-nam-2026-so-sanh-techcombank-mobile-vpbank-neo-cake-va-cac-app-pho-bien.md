@@ -91,7 +91,7 @@ Lãi suất là yếu tố quan trọng nếu bạn muốn gửi tiết kiệm o
 | **Giải thưởng nổi bật** | — | Asian Banker 2022, 2023, 2026 | — | — | — | — | — |
 | **Độ ổn định (uptime)** | 99,9% | 99,96% | 99,9% | 99,9% | 99,9% | 99,9% | 99,9% |
 
-## Phân tích chi tiết từng app
+## phân tích chi tiết từng app
 
 ### 1. Techcombank Mobile
 

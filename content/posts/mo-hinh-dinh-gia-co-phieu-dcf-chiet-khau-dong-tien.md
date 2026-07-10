@@ -1,10 +1,10 @@
 +++
 draft = false
 title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
-description = "Định giá cổ phiếu dùng toán học nào? Học Discounted Cash Flow (DCF), P/E ratio, PEG, EV/EBITDA, terminal value, và so sánh tương đối."
+description = "định giá cổ phiếu dùng toán học nào? Học Discounted Cash Flow (DCF), P/E ratio, PEG, EV/EBITDA, terminal value, và so sánh tương đối."
 date = "2026-07-10T13:16:14+07:00"
 lastmod = "2026-07-10T14:10:36+07:00"
-seo_title = "Định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation"
+seo_title = "định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
 tags = ["định giá cổ phiếu", "DCF", "P/E ratio", "terminal value", "comparable valuation", "intrinsic value"]
@@ -76,7 +76,7 @@ Terminal Value = FCF_T × (1 + g) / (r - g)
 - g = tăng trưởng perpetual (2-3%)
 - r = discount rate
 
-### Ví dụ: Định giá VietcomBank
+### Ví dụ: định giá VietcomBank
 
 Giả định:
 - FCF Năm 1-5: 1 tỷ/năm
@@ -104,7 +104,7 @@ Thay vì dự báo future cash flow, so sánh với công ty **tương tự**:
 Target Stock Price = Target Earnings × Average P/E (peer group)
 ```
 
-### Ví dụ: Định giá Vietinbank
+### Ví dụ: định giá Vietinbank
 
 Cổ phiếu ngân hàng tương tự (P/E):
 - VietcomBank: P/E = 15
@@ -194,7 +194,7 @@ If Intrinsic Value ≈ Market Price → FAIR VALUE (HOLD)
 
 ---
 
-## Checklist Định giá
+## Checklist định giá
 
 ✅ DCF = Σ FCF × e^(-rt) + Terminal Value  
 ✅ Terminal Value = FCF × (1+g) / (r-g)  

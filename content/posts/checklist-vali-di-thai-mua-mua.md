@@ -73,7 +73,7 @@ Bài viết này là **checklist chi tiết từ A đến Z** — từ quần á
 
 ### 1. Bảng checklist tổng hợp
 
-| Danh mục | Vật dụng | Ghi chú | Số lượng |
+| danh mục | Vật dụng | Ghi chú | Số lượng |
 |---|---|---|---|
 | **Quần áo** | Áo thun cotton/quick-dry | Tay ngắn, màu sáng, thoáng mát | 4–5 cái |
 | | Quần short / quần vải mỏng | Dài qua đầu gối khi đi chùa | 2–3 cái |

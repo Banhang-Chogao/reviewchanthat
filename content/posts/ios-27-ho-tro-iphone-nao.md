@@ -72,7 +72,7 @@ Bài này thuộc series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/), tập
 | iPhone SE (thế hệ 2, 3) | iOS 27 có, không AI |
 | iPhone XR / XS / XS Max | **Không** trong danh sách chính thức |
 
-**[Phân tích]** Apple thường “cắt” một đời iPhone mỗi năm. iPhone XR/XS (2018) bị loại là đúng nhịp — tương tự cách Apple loại iPhone X khi lên iOS 18.
+**[phân tích]** Apple thường “cắt” một đời iPhone mỗi năm. iPhone XR/XS (2018) bị loại là đúng nhịp — tương tự cách Apple loại iPhone X khi lên iOS 18.
 
 ## Hai lớp tương thích — đừng nhầm
 
@@ -89,7 +89,7 @@ Chi tiết AI: [Apple Intelligence trên iPhone cũ](/posts/ios-27-apple-intelli
 
 **[Apple đã xác nhận]** iPhone 11 vẫn trong list iOS 27 — tin tốt cho ai muốn bản vá bảo mật mà không đổi máy.
 
-**[Phân tích]** Tuy nhiên:
+**[phân tích]** Tuy nhiên:
 
 - **Không có** Siri AI đầy đủ, Spatial Reframing, Image Playground
 - Hiệu năng shell cải thiện nhưng máy cũ vẫn có thể chậm hơn iPhone 16
@@ -105,7 +105,7 @@ Chi tiết AI: [Apple Intelligence trên iPhone cũ](/posts/ios-27-apple-intelli
 
 **[Apple đã xác nhận]** Chỉ **iPhone 15 Pro và 15 Pro Max** có Apple Intelligence — không phải iPhone 15 / 15 Plus.
 
-**[Phân tích]** Đây là điểm gây hiểu lầm lớn tại Việt Nam vì nhiều shop gộp “iPhone 15” mà không phân biệt Pro. Nếu mục tiêu là Siri AI:
+**[phân tích]** Đây là điểm gây hiểu lầm lớn tại Việt Nam vì nhiều shop gộp “iPhone 15” mà không phân biệt Pro. Nếu mục tiêu là Siri AI:
 
 - iPhone 15 (thường) → **không đủ**
 - iPhone 15 Pro → **đủ**
@@ -134,7 +134,7 @@ iPhone SE (thế hệ 2, 2020) và SE (thế hệ 3, 2022) vẫn trong danh sác
 
 ## Mua iPhone cũ — checklist 2026
 
-**[Phân tích]** Thị trường second-hand VN hay bán iPhone 13/14 giá tốt. Cân nhắc:
+**[phân tích]** Thị trường second-hand VN hay bán iPhone 13/14 giá tốt. Cân nhắc:
 
 | Mục tiêu | Máy nên mua |
 |---|---|

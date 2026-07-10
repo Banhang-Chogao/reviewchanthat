@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-07T09:00:00+07:00"
-description = "Phân tích có cơ sở về iOS 27, macOS Golden Gate 27, Siri AI và Apple Intelligence tại WWDC26 — phân loại tin đồn, dự đoán và thông tin Apple đã xác nhận."
+description = "phân tích có cơ sở về iOS 27, macOS Golden Gate 27, Siri AI và Apple Intelligence tại WWDC26 — phân loại tin đồn, dự đoán và thông tin Apple đã xác nhận."
 draft = false
 image = "images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp"
 image_attribution_checked_at = "2026-07-10T14:01:33+07:00"
@@ -19,11 +19,11 @@ image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/vibrant-gerbera-daisy-close-up-photography-31102157/"
 lastmod = "2026-07-08T00:00:00+07:00"
-seo_title = "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple"
+seo_title = "WWDC26: phân tích những tính năng iOS 27 và macOS 27 Apple"
 slug = "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau"
 tags = ["WWDC26", "iOS 27", "macOS 27", "Siri AI", "Apple Intelligence", "iPhone", "Mac"]
 thumbnail = "images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp"
-title = "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu"
+title = "WWDC26: phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu"
 date_display = "07-07-2026 09:00:00 GMT +7"
 lastmod_display = "08-07-2026 00:00:00 GMT +7"
 
@@ -34,7 +34,7 @@ items = ["WWDC26 (8/6/2026) tập trung Siri AI, Apple Intelligence thế hệ h
 title = "Tóm tắt bài viết"
 
 [attribution]
-copyright = "© 2026 Review Chân Thật. Phân tích dựa trên nguồn công khai; không đại diện Apple."
+copyright = "© 2026 Review Chân Thật. phân tích dựa trên nguồn công khai; không đại diện Apple."
 source_note = "Bài viết phân loại rõ tin đồn, phân tích và thông tin Apple đã công bố."
 
 [[external_links]]

@@ -121,7 +121,7 @@ Khi Fed tăng lãi suất:
 
 **Ảnh hưởng:**
 - **Người mua hàng import:** Chi phí tăng (phải trả nhiều VND hơn cho 1 USD).
-- **Người bán hàng export:** Lợi suất tăng (nhận nhiều VND hơn khi bán 1 USD).
+- **Người bán hàng export:** lợi suất tăng (nhận nhiều VND hơn khi bán 1 USD).
 
 ### 2. Lạm phát Việt Nam tăng
 

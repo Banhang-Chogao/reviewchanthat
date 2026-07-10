@@ -68,7 +68,7 @@ Tại WWDC26 (8/6/2026), Apple giới thiệu **iOS 27** — bản cập nhật 
 **Nhãn nguồn trong bài:**
 - **[Apple đã xác nhận]** — keynote, Newsroom, trang sản phẩm
 - **[Phản hồi beta]** — developer, forum sau WWDC
-- **[Phân tích]** — suy luận từ hành vi sản phẩm
+- **[phân tích]** — suy luận từ hành vi sản phẩm
 - **[Tin đồn / chưa xác nhận]** — leak, báo chí không được Apple xác nhận
 
 ## 1. Siri AI — thay đổi lớn nhất cho người dùng phổ thông
@@ -104,7 +104,7 @@ Nếu bạn từng thử Apple Intelligence đợt đầu mà thấy “có như
 
 **[Apple đã xác nhận]** Apple preview **Siri mode in Camera**: nhận diện vật thể, landmark, thông tin dinh dưỡng ngay từ viewfinder. Hướng đi hợp lý cho người hay du lịch hoặc chụp đồ ăn.
 
-**[Phân tích]** Hiệu năng thực tế trên iPhone cũ hơn 15 Pro vẫn cần chờ public beta. Phân tích đầy đủ: [Camera và Photos trên iOS 27](/posts/ios-27-camera-anh-video-iphone/).
+**[phân tích]** Hiệu năng thực tế trên iPhone cũ hơn 15 Pro vẫn cần chờ public beta. phân tích đầy đủ: [Camera và Photos trên iOS 27](/posts/ios-27-camera-anh-video-iphone/).
 
 ## 4. An toàn trẻ em và Screen Time
 
@@ -159,7 +159,7 @@ Chi tiết từng mục: [quyền riêng tư trên iOS 27](/posts/ios-27-quyen-r
 
 ## 9. iOS 27 so với iOS 26 — có đáng nhảy bản?
 
-**[Phân tích]** iOS 26 mang Liquid Glass và Apple Intelligence đợt đầu; iOS 27 “làm sâu” AI và sửa UX. So sánh chi tiết: [iOS 27 so với iOS 26](/posts/ios-27-so-voi-ios-26/).
+**[phân tích]** iOS 26 mang Liquid Glass và Apple Intelligence đợt đầu; iOS 27 “làm sâu” AI và sửa UX. So sánh chi tiết: [iOS 27 so với iOS 26](/posts/ios-27-so-voi-ios-26/).
 
 Điểm khác biệt đáng kể:
 - Siri AI thay Siri cổ điển
@@ -189,7 +189,7 @@ iOS 27 không đổi triết lý **Continuity**, nhưng AI làm tính năng cũ 
 
 **[Apple đã xác nhận]** App Passwords trên iOS 27 mở rộng khả năng **tự phát hiện và đổi mật khẩu yếu hoặc đã lộ** trong các vụ rò rỉ công khai. Với người Việt hay tái sử dụng mật khẩu giữa ngân hàng, email công ty và mạng xã hội — đây là tính năng thực dụng hơn Image Playground.
 
-**[Phân tích]** Tính năng vẫn phụ thuộc website hỗ trợ đổi mật khẩu tự động và bạn dùng iCloud Keychain làm nguồn chính.
+**[phân tích]** Tính năng vẫn phụ thuộc website hỗ trợ đổi mật khẩu tự động và bạn dùng iCloud Keychain làm nguồn chính.
 
 ## Ai nên nâng cấp iOS 27?
 
@@ -219,4 +219,4 @@ iOS 27 không đổi triết lý **Continuity**, nhưng AI làm tính năng cũ 
 
 ## Kết luận
 
-iOS 27 là bản cập nhật “đặt cược AI” của Apple sau một năm Apple Intelligence chưa thuyết phục hết. Giá trị thực với người Việt phụ thuộc **mức hỗ trợ tiếng Việt**, **máy bạn có trong danh sách tương thích** và **mức ổn định public beta**. Đọc tiếp các bài trong series trước khi bấm Update — đặc biệt [tương thích](/posts/ios-27-ho-tro-iphone-nao/), [AI](/posts/ios-27-apple-intelligence-iphone-cu/) và [checklist nâng cấp](/posts/ios-27-co-nen-cap-nhat-ngay-khong/).
+iOS 27 là bản cập nhật “đặt cược AI” của Apple sau một năm Apple Intelligence chưa thuyết phục hết. giá trị thực với người Việt phụ thuộc **mức hỗ trợ tiếng Việt**, **máy bạn có trong danh sách tương thích** và **mức ổn định public beta**. Đọc tiếp các bài trong series trước khi bấm Update — đặc biệt [tương thích](/posts/ios-27-ho-tro-iphone-nao/), [AI](/posts/ios-27-apple-intelligence-iphone-cu/) và [checklist nâng cấp](/posts/ios-27-co-nen-cap-nhat-ngay-khong/).

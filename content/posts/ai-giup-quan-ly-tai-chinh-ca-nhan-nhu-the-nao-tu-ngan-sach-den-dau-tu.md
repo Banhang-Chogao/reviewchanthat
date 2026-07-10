@@ -129,7 +129,7 @@ AI tóm tắt báo cáo quỹ/công ty = OK như điểm khởi đầu. Quyết 
 ## Hạn chế
 
 - Hype và subscription.  
-- Rủi ro dữ liệu.  
+- rủi ro dữ liệu.  
 - Ảo tưởng AI luôn đúng.
 
 ## FAQ mở rộng

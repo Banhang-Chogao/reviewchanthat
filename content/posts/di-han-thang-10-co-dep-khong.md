@@ -73,7 +73,7 @@ Bài này là **bài trụ** của series **Đi Hàn tháng 10** — tổng hợ
 - **[Visit Korea / KTO]** — dự báo lá đỏ, điểm đến chính thống
 - **[KMA / dữ liệu khí tượng]** — xu hướng nhiệt độ, mưa
 - **[KoreaToDo / hướng dẫn du lịch]** — điểm ngắm lá, cách di chuyển
-- **[Phân tích]** — gợi ý lịch trình, không thay thế bảng giá chính thức
+- **[phân tích]** — gợi ý lịch trình, không thay thế bảng giá chính thức
 
 ## Bảng tóm tắt nhanh
 
@@ -91,7 +91,7 @@ Bài này là **bài trụ** của series **Đi Hàn tháng 10** — tổng hợ
 
 **[Visit Korea / KTO]** Mùa thu (autumn foliage) ở Hàn Quốc thường kéo dài **từ tháng 10 đến tháng 11**, khi nhiệt độ giảm sau hè và cây cối đổi màu ([Visit Korea — Fall Foliage Forecast](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292)). Tháng 10 nằm ở **đầu mùa thu** — bạn sẽ thấy sự chuyển từ xanh sang vàng, cam, đỏ tùy địa điểm và tuần trong tháng.
 
-**[Phân tích]** So với tháng 7–8 (mùa mưa, ẩm), tháng 10 **dễ đi hơn** cho người Việt quen nóng: không cần chịu oi như hè, ít phải trú mưa rào buổi chiều. Đổi lại, bạn cần **ô, áo khoác, lớp giữ nhiệt** — chi tiết: [Đi Hàn tháng 10 mặc gì?](/posts/di-han-thang-10-mac-gi/).
+**[phân tích]** So với tháng 7–8 (mùa mưa, ẩm), tháng 10 **dễ đi hơn** cho người Việt quen nóng: không cần chịu oi như hè, ít phải trú mưa rào buổi chiều. Đổi lại, bạn cần **ô, áo khoác, lớp giữ nhiệt** — chi tiết: [Đi Hàn tháng 10 mặc gì?](/posts/di-han-thang-10-mac-gi/).
 
 ## Thời tiết Hàn Quốc tháng 10
 
@@ -122,7 +122,7 @@ Bài này là **bài trụ** của series **Đi Hàn tháng 10** — tổng hợ
 
 **[Visit Korea]** Ghi rõ: *"The actual fall foliage dates may change depending on weather conditions."*
 
-**[Phân tích]** Nghĩa là nếu bạn bay **đầu tháng 10**, Seoraksan có thể **chưa peak** nhưng vẫn đẹp ở mức vàng-cam. **Giữa–cuối tháng 10** thường hợp hơn nếu mục tiêu chính là lá đỏ núi cao. Seoul (cung đình, đường bạch đàn) có thể đẹp **cả tháng 10** với sắc vàng.
+**[phân tích]** Nghĩa là nếu bạn bay **đầu tháng 10**, Seoraksan có thể **chưa peak** nhưng vẫn đẹp ở mức vàng-cam. **Giữa–cuối tháng 10** thường hợp hơn nếu mục tiêu chính là lá đỏ núi cao. Seoul (cung đình, đường bạch đàn) có thể đẹp **cả tháng 10** với sắc vàng.
 
 Chi tiết: [Hàn Quốc tháng 10 có lá đỏ chưa?](/posts/han-quoc-thang-10-co-la-do-chua/).
 
@@ -157,7 +157,7 @@ Chi tiết: [Hàn Quốc tháng 10 có lá đỏ chưa?](/posts/han-quoc-thang-1
 
 ### Busan — nhẹ nhàng hơn, vẫn có thu
 
-**[Phân tích]** Busan tháng 10 mát, biển vẫn đi được (lạnh hơn hè). Hợp người muốn **ít leo núi**, thêm Haeundae, Gamcheon, phố đêm.
+**[phân tích]** Busan tháng 10 mát, biển vẫn đi được (lạnh hơn hè). Hợp người muốn **ít leo núi**, thêm Haeundae, Gamcheon, phố đêm.
 
 [Busan tháng 10 nên đi đâu?](/posts/busan-thang-10-nen-di-dau/).
 
@@ -207,7 +207,7 @@ Chi tiết từng ngày: [Lịch trình 7N6Đ](/posts/lich-trinh-di-han-thang-10
 | 6 | Busan (Haeundae, Gamcheon) HOẶC nghỉ Seoul |
 | 7 | Bay về |
 
-**[Phân tích]** 7N6Đ linh hoạt hơn nếu bạn muốn **vừa Seoul vừa núi/biển** mà không quá vội.
+**[phân tích]** 7N6Đ linh hoạt hơn nếu bạn muốn **vừa Seoul vừa núi/biển** mà không quá vội.
 
 ## Chi phí đi Hàn tháng 10 tự túc (ước tính)
 

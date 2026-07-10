@@ -87,7 +87,7 @@ Bài so sánh thuộc [series iPhone 18 có gì mới](/posts/iphone-18-co-gi-mo
 - **A19** trên Pro; hiệu năng và pin ổn cho chu kỳ 3–4 năm.
 - Hỗ trợ **iOS 27** và Apple Intelligence (theo khung tương thích Apple đã công bố cho dòng 16+).
 
-**[Phân tích]** Vào **tháng 7/2026**, iPhone 17 đang vào giai đoạn **khuyến mãi** tại VN — khi iPhone 18 Pro ra, 17 Pro thường **tụt giá** mạnh. Đó là “cửa sổ” người thực dụng hay chọn.
+**[phân tích]** Vào **tháng 7/2026**, iPhone 17 đang vào giai đoạn **khuyến mãi** tại VN — khi iPhone 18 Pro ra, 17 Pro thường **tụt giá** mạnh. Đó là “cửa sổ” người thực dụng hay chọn.
 
 ## iPhone 18 — tin đồn đáng kể so với 17
 
@@ -129,19 +129,19 @@ Bài so sánh thuộc [series iPhone 18 có gì mới](/posts/iphone-18-co-gi-mo
 
 ### Đang dùng iPhone 13 / 14 / 14 Pro
 
-**[Phân tích]** **Mua iPhone 17 ngay:** nhảy 2–3 đời, ProMotion, pin tốt hơn, giá 17 giảm khi 18 đồn. **Chờ iPhone 18 Pro:** hợp nếu bạn **ưu tiên camera đỉnh** và chấp nhận **giá Pro tăng** + chờ đến 9/2026.
+**[phân tích]** **Mua iPhone 17 ngay:** nhảy 2–3 đời, ProMotion, pin tốt hơn, giá 17 giảm khi 18 đồn. **Chờ iPhone 18 Pro:** hợp nếu bạn **ưu tiên camera đỉnh** và chấp nhận **giá Pro tăng** + chờ đến 9/2026.
 
 ### Đang dùng iPhone 15 / 16
 
-**[Phân tích]** Nâng cấp **một đời** (lên 17 hoặc chờ 18) thường **không đáng** về giá trị cảm nhận. Chờ **18 Pro** chỉ hợp nếu bạn **cần** 2nm/modem C2 cho công việc — đa số nên **giữ máy** đến 2027–2028.
+**[phân tích]** Nâng cấp **một đời** (lên 17 hoặc chờ 18) thường **không đáng** về giá trị cảm nhận. Chờ **18 Pro** chỉ hợp nếu bạn **cần** 2nm/modem C2 cho công việc — đa số nên **giữ máy** đến 2027–2028.
 
 ### Đang dùng iPhone 17
 
-**[Phân tích]** **Không nên** chờ 18 base đầu 2027 — khoảng cách tin đồn **mỏng**. Chỉ xem xét **18 Pro** nếu bạn là Pro user và thiếu telephoto/zoom — còn không, giữ 17 **2–3 năm**.
+**[phân tích]** **Không nên** chờ 18 base đầu 2027 — khoảng cách tin đồn **mỏng**. Chỉ xem xét **18 Pro** nếu bạn là Pro user và thiếu telephoto/zoom — còn không, giữ 17 **2–3 năm**.
 
 ### Người mua mới từ Android / máy cũ
 
-**[Phân tích]** **iPhone 17 base** là điểm vào hợp lý: ProMotion, hỗ trợ iOS dài hạn. Chờ 18 base **6+ tháng** sau nhu cầu thường **không xứng** trừ khi ngân sách siêu eo và tin “18e giá rẻ” được Apple xác nhận.
+**[phân tích]** **iPhone 17 base** là điểm vào hợp lý: ProMotion, hỗ trợ iOS dài hạn. Chờ 18 base **6+ tháng** sau nhu cầu thường **không xứng** trừ khi ngân sách siêu eo và tin “18e giá rẻ” được Apple xác nhận.
 
 ## Ma trận quyết định nhanh
 
@@ -155,7 +155,7 @@ Bài so sánh thuộc [series iPhone 18 có gì mới](/posts/iphone-18-co-gi-mo
 
 ## Chi phí cơ hội khi chờ
 
-**[Phân tích]** Chờ 12 tháng không “miễn phí”:
+**[phân tích]** Chờ 12 tháng không “miễn phí”:
 
 - **Thu cũ đổi mới** — máy hiện tại mất giá thêm một năm.
 - **Công việc** — pin yếu, camera kém ảnh hưởng năng suất thực.

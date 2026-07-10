@@ -147,7 +147,7 @@ iPad Mini **vẫn lớn hơn** cho video — nhưng Pro Max **luôn trong túi**
 
 ## 8. Split View và đa nhiệm iOS
 
-iOS **không** split app như iPad — màn lớn chủ yếu **một app full**. Giá trị là **nội dung to**, không phải **hai cửa sổ**. Đừng mua 6.9" kỳ vọng **multitasking kiểu tablet**.
+iOS **không** split app như iPad — màn lớn chủ yếu **một app full**. giá trị là **nội dung to**, không phải **hai cửa sổ**. Đừng mua 6.9" kỳ vọng **multitasking kiểu tablet**.
 
 ## 9. Tai nạn rơi — màn lớn = mặt kính lớn
 

@@ -72,7 +72,7 @@ label = "Hợp với"
 - **[Apple đã xác nhận]** — chỉ dùng khi có Newsroom/keynote/trang sản phẩm
 - **[Báo chí / analyst]** — MacRumors, AppleInsider, Bloomberg, Ming-Chi Kuo…
 - **[Tin đồn / chưa xác nhận]** — leak, CAD, dummy, chuỗi cung ứng
-- **[Phân tích]** — suy luận từ hành vi sản phẩm Apple
+- **[phân tích]** — suy luận từ hành vi sản phẩm Apple
 
 Xem bối cảnh toàn series: [iPhone 18 có gì mới?](/posts/iphone-18-co-gi-moi/) | Lịch ra mắt: [iPhone 18 khi nào ra mắt?](/posts/iphone-18-khi-nao-ra-mat/).
 
@@ -113,39 +113,39 @@ Xem bối cảnh toàn series: [iPhone 18 có gì mới?](/posts/iphone-18-co-gi
 
 **[Báo chí / analyst]** A20 Pro trên **TSMC N2** là điểm nhấn kỹ thuật lớn nhất nếu đúng lịch sản xuất. Với Pro Max — máy có màn hình lớn và pin “ăn” nhiều — lợi ích **tiết kiệm điện** có thể cảm nhận rõ hơn benchmark điểm số. Đọc sâu: [iPhone 18 chip A20 2nm](/posts/iphone-18-chip-a20-2nm/).
 
-**[Phân tích]** Người dùng Việt hay quan tâm **nhiệt khi chơi game** (PUBG, Genshin) và **quay video 4K lâu** — 2nm có thể giảm thermal throttle nếu Apple không ép xung quá mức. Tuy nhiên, **chỉ có thể khẳng định sau khi có máy thật**.
+**[phân tích]** Người dùng Việt hay quan tâm **nhiệt khi chơi game** (PUBG, Genshin) và **quay video 4K lâu** — 2nm có thể giảm thermal throttle nếu Apple không ép xung quá mức. Tuy nhiên, **chỉ có thể khẳng định sau khi có máy thật**.
 
 ### 2. Pin lớn hơn — “Pro Max” đúng nghĩa
 
 **[Báo chí / analyst]** MacRumors và nhiều analyst đồn **cell pin lớn hơn** hoặc hiệu quả hơn nhờ chip + PMIC mới. iPhone 17 Pro Max đã cải thiện thời lượng so với 16; 18 Pro Max được kỳ vọng **tiếp tục hướng “cả ngày +”** cho người hay quay phim, livestream.
 
-**[Phân tích]** Nếu bạn đang dùng **iPhone 14 Pro Max** trở xuống, nhảy lên 18 Pro Max (nếu tin đồn pin đúng) có thể là **lý do nâng cấp thực dụng** hơn camera hay màu mới.
+**[phân tích]** Nếu bạn đang dùng **iPhone 14 Pro Max** trở xuống, nhảy lên 18 Pro Max (nếu tin đồn pin đúng) có thể là **lý do nâng cấp thực dụng** hơn camera hay màu mới.
 
 ### 3. Camera khẩu độ biến đổi (variable aperture)
 
 **[Báo chí / analyst]** Variable aperture trên camera chính — tin đồn xuất hiện từ **iPhone 17** nhưng được MacRumors tiếp tục nhắc cho **18 Pro** — cho phép điều chỉnh lượng sáng vào sensor, cải thiện **chụp đêm** và **xóa phông** mà không cần xử lý phần mềm quá nặng.
 
-**[Phân tích]** Samsung đã làm variable aperture trên Galaxy S; Apple đến muộn nhưng thường **tối ưu UX** (ít tùy chọn thủ công, kết quả ổn định). Chi tiết hệ camera: [Camera iPhone 18 có gì mới?](/posts/camera-iphone-18-co-gi-moi/).
+**[phân tích]** Samsung đã làm variable aperture trên Galaxy S; Apple đến muộn nhưng thường **tối ưu UX** (ít tùy chọn thủ công, kết quả ổn định). Chi tiết hệ camera: [Camera iPhone 18 có gì mới?](/posts/camera-iphone-18-co-gi-moi/).
 
 ### 4. Dynamic Island nhỏ hơn
 
 **[Tin đồn / chưa xác nhận]** Ice Universe và một số CAD render đồn Dynamic Island **thu hẹp ~35%**, tăng diện tích hiển thị hữu ích. MacRumors ghi nhận đây là hướng **thực tế hơn** under-display Face ID năm 2026.
 
-**[Phân tích]** Với Pro Max 6,9 inch, vài mm thêm cũng ít ảnh hưởng — nhưng **thẩm mỹ** và **nhìn “mới”** quan trọng với người nâng cấp hàng năm.
+**[phân tích]** Với Pro Max 6,9 inch, vài mm thêm cũng ít ảnh hưởng — nhưng **thẩm mỹ** và **nhìn “mới”** quan trọng với người nâng cấp hàng năm.
 
 ### 5. Modem Apple C2
 
 **[Báo chí / analyst]** iPhone 16 Pro đã dùng **C1**; tin đồn **C2** trên 18 Pro series với **tiết kiệm điện** và **5G ổn định hơn** — đặc biệt hữu ích tại VN khi di chuyển giữa vùng phủ sóng hoặc dùng hotspot.
 
-**[Phân tích]** Modem tự thiết kế giúp Apple **giảm phụ thuộc Qualcomm** dần dần; người dùng cuối chỉ cần biết **pin và nhiệt** khi bắt sóng kém có cải thiện không — cần chờ review thực tế.
+**[phân tích]** Modem tự thiết kế giúp Apple **giảm phụ thuộc Qualcomm** dần dần; người dùng cuối chỉ cần biết **pin và nhiệt** khi bắt sóng kém có cải thiện không — cần chờ review thực tế.
 
 ### 6. Màu Dark Cherry
 
-**[Báo chí / analyst]** [MacRumors màu 2026](https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/) đồn **Dark Cherry** là accent mới, có thể **khan hàng** như Desert Titanium từng hot. Phân tích màu: [iPhone 18 màu gì? Dark Cherry](/posts/iphone-18-mau-gi-dark-cherry/).
+**[Báo chí / analyst]** [MacRumors màu 2026](https://www.macrumors.com/2026/02/22/iphone-18-pro-foldable-iphone-rumored-colors/) đồn **Dark Cherry** là accent mới, có thể **khan hàng** như Desert Titanium từng hot. phân tích màu: [iPhone 18 màu gì? Dark Cherry](/posts/iphone-18-mau-gi-dark-cherry/).
 
 ## iPhone 18 Pro Max so với 17 Pro Max — có đáng nhảy?
 
-**[Phân tích]** Nếu tin đồn đúng hướng lớn (2nm + pin + camera khẩu độ + modem C2), **17 Pro Max → 18 Pro Max** là nâng cấp **đáng cân nhắc** cho power user. Ngược lại, **16 Pro Max → 18** vẫn hợp lý hơn **17 → 18** nếu máy 17 còn bảo hành và pin tốt.
+**[phân tích]** Nếu tin đồn đúng hướng lớn (2nm + pin + camera khẩu độ + modem C2), **17 Pro Max → 18 Pro Max** là nâng cấp **đáng cân nhắc** cho power user. Ngược lại, **16 Pro Max → 18** vẫn hợp lý hơn **17 → 18** nếu máy 17 còn bảo hành và pin tốt.
 
 So sánh đầy đủ: [iPhone 18 vs iPhone 17](/posts/iphone-18-vs-iphone-17/) | [Có nên chờ iPhone 18?](/posts/co-nen-cho-iphone-18-khong/).
 

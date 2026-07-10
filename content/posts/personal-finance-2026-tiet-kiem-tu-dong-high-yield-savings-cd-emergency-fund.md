@@ -84,7 +84,7 @@ Một số sản phẩm high-yield savings đáng chú ý:
 - **Cake by VPBank**: Lãi suất 7,2–7,4%/năm kỳ hạn 6–24 tháng, có thể lên tới 8,9%/năm với ưu đãi cộng thêm.
 - **ACB**: Lãi suất 7,1%/năm kỳ hạn 6 tháng (online), không yêu cầu số dư tối thiểu.
 
-## CD (Certificate of Deposit) — Chứng chỉ tiền gửi là gì?
+## CD (Certificate of Deposit) — chứng chỉ tiền gửi là gì?
 
 CD — Certificate of Deposit — là **sản phẩm tiết kiệm có kỳ hạn cố định**, nơi bạn gửi một khoản tiền trong một khoảng thời gian nhất định (thường từ 1 tháng đến 5 năm) và nhận lãi suất **cao hơn** so với tài khoản tiết kiệm thông thường.
 
@@ -192,8 +192,8 @@ Quỹ khẩn cấp cần **an toàn + linh hoạt + sinh lời nhẹ**:
 | High-yield savings | ✅ | ✅ | 6–7,4%/năm | ✅ Tốt nhất |
 | Tài khoản thanh toán | ✅ | ✅ | 0,1–0,5%/năm | ⚠️ Lãi thấp |
 | CD (kỳ hạn ngắn) | ✅ | ❌ (phạt rút sớm) | 6,6–7,4%/năm | ⚠️ Kém linh hoạt |
-| Vàng | ⚠️ | ✅ | Biến động | ❌ Rủi ro |
-| Cổ phiếu | ❌ | ✅ | Biến động | ❌ Rủi ro cao |
+| Vàng | ⚠️ | ✅ | Biến động | ❌ rủi ro |
+| Cổ phiếu | ❌ | ✅ | Biến động | ❌ rủi ro cao |
 
 **Khuyến nghị:** Giữ emergency fund trong high-yield savings account — vừa linh hoạt (rút bất cứ lúc nào), vừa sinh lời tốt hơn tài khoản thanh toán.
 

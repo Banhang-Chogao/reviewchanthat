@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T17:30:00+07:00"
-description = "Thời tiết Hàn Quốc tháng 11 — nhiệt độ, mưa, gió và cách chuẩn bị trang phục. Phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo."
+description = "Thời tiết Hàn Quốc tháng 11 — nhiệt độ, mưa, gió và cách chuẩn bị trang phục. phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo."
 draft = false
 image = "images/posts/thoi-tiet-han-quoc-thang-11.webp"
 image_attribution_checked_at = "2026-07-10T14:01:36+07:00"
@@ -161,7 +161,7 @@ Tháng 11 là tháng **peak lá đỏ** ở nhiều khu vực đô thị, đặc
 
 Nếu mục tiêu chính là ngắm lá đỏ, xem thêm [Hàn Quốc tháng 11 còn lá đỏ không?]({{< ref "posts/han-quoc-thang-11-co-la-do-chua" >}}) để biết nên đi Seoul, Nami hay Seoraksan vào tuần nào.
 
-## Phân tích theo từng tuần trong tháng 11
+## phân tích theo từng tuần trong tháng 11
 
 | Tuần | Thời tiết & lá đỏ | Gợi ý |
 |---|---|---|
