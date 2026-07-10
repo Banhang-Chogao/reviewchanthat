@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T13:16:52+07:00",
-  "generated_at_display": "10-07-2026 13:16:52",
+  "generated_at": "2026-07-10T13:37:05+07:00",
+  "generated_at_display": "10-07-2026 13:37:05",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -8,18 +8,28 @@
   },
   "summary": {
     "failed_runs_scanned": 51,
-    "safe_autofixes_available": 38,
-    "unsafe_external_failures": 13,
+    "safe_autofixes_available": 39,
+    "unsafe_external_failures": 12,
     "open_action_items": 9,
-    "loop_guarded_attempts": 55,
+    "loop_guarded_attempts": 56,
     "by_type": {
       "workflow_fanout": 36,
-      "unknown": 13,
-      "content_direction_optimizer_fail": 1,
+      "unknown": 12,
+      "content_direction_optimizer_fail": 2,
       "sitemap_noindex_mismatch": 1
     }
   },
   "recent_failures": [
+    {
+      "run_id": "29073393203",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "0927840",
+      "status": "failure",
+      "rootcause": "content_direction_optimizer_fail",
+      "safe_to_autofix": true,
+      "action": "Kiểm tra content/posts/ có file front matter lỗi",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073393203"
+    },
     {
       "run_id": "29073200539",
       "workflow": "Deploy to GitHub Pages",
@@ -309,16 +319,6 @@
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29072769095"
-    },
-    {
-      "run_id": "29072769090",
-      "workflow": "Auto Merge",
-      "commit": "930b05a",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29072769090"
     }
   ],
   "clusters": {
@@ -548,6 +548,12 @@
     "other": [
       {
         "failure_type": "content_direction_optimizer_fail",
+        "run_id": "29073393203",
+        "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "content_direction_optimizer_fail",
         "run_id": "29073200539",
         "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
         "safe_to_autofix": true
@@ -557,6 +563,12 @@
         "run_id": "29073203264",
         "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
+      },
+      {
+        "failure_type": "unknown",
+        "run_id": "29074130515",
+        "rootcause": "No knowledge pattern matched.",
+        "safe_to_autofix": false
       },
       {
         "failure_type": "unknown",
@@ -621,18 +633,6 @@
       {
         "failure_type": "unknown",
         "run_id": "29072731339",
-        "rootcause": "No knowledge pattern matched.",
-        "safe_to_autofix": false
-      },
-      {
-        "failure_type": "unknown",
-        "run_id": "29072717175",
-        "rootcause": "No knowledge pattern matched.",
-        "safe_to_autofix": false
-      },
-      {
-        "failure_type": "unknown",
-        "run_id": "29072552366",
         "rootcause": "No knowledge pattern matched.",
         "safe_to_autofix": false
       }
@@ -869,6 +869,12 @@
   ],
   "autofix_history": [
     {
+      "run_id": "29073393203",
+      "failure_type": "content_direction_optimizer_fail",
+      "result": "skipped",
+      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
+    },
+    {
       "run_id": "29073200539",
       "failure_type": "content_direction_optimizer_fail",
       "result": "skipped",
@@ -884,51 +890,51 @@
     {
       "run_id": "29073189240",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29073189112",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29073189021",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29073189009",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29073188994",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29073188971",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29073188906",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29073188598",
       "failure_type": "workflow_fanout",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
     },
     {
       "run_id": "29073173792",
@@ -1099,6 +1105,12 @@
       "detail": "no script or already attempted this run"
     },
     {
+      "run_id": "29074130515",
+      "failure_type": "unknown",
+      "result": "unsafe",
+      "detail": "safe_to_autofix=false — report only"
+    },
+    {
       "run_id": "29073199925",
       "failure_type": "unknown",
       "result": "unsafe",
@@ -1160,18 +1172,6 @@
     },
     {
       "run_id": "29072731339",
-      "failure_type": "unknown",
-      "result": "unsafe",
-      "detail": "safe_to_autofix=false — report only"
-    },
-    {
-      "run_id": "29072717175",
-      "failure_type": "unknown",
-      "result": "unsafe",
-      "detail": "safe_to_autofix=false — report only"
-    },
-    {
-      "run_id": "29072552366",
       "failure_type": "unknown",
       "result": "unsafe",
       "detail": "safe_to_autofix=false — report only"
@@ -1506,6 +1506,12 @@
       "key": "496b863dcb5d:workflow_fanout",
       "count": 2,
       "last_attempt_at": "2026-07-10T13:16:52+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "a9823ea97375:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T13:37:05+07:00",
       "last_result": "skipped"
     }
   ],
