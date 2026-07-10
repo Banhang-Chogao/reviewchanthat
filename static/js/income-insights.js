@@ -960,12 +960,12 @@
       alert('Thư viện Excel chưa sẵn sàng, thử lại sau.');
       return;
     }
-    var headers = ['Sequence', 'Income', 'Income_Label', 'Debt', 'Debt_Label', 'Sub Total', 'Transaction_Type', 'Route', 'Remark', 'Date', 'Day', 'Month', 'Year'];
+    var headers = ['Sequence', 'Income', 'Income Label', 'Debt', 'Debt Label', 'Sub Total', 'Type', 'Route', 'Remark', 'Date', 'Day', 'Month', 'Year'];
     var sample = [1, 16000000, 'Lương tháng 7', -3900000, 'Trả thẻ tín dụng', 12100000, 'Chuyển khoản', 'Techcombank', 'Lương chính', '2026-07-15', 15, 7, 2026];
     var wsData = [headers, sample];
     var ws = XLSX.utils.aoa_to_sheet(wsData);
     ws['!cols'] = headers.map(function(h) {
-      return { wch: h === 'Remark' ? 30 : h === 'Income_Label' || h === 'Debt_Label' ? 18 : h === 'Sequence' ? 8 : 14 };
+      return { wch: h === 'Remark' ? 30 : h === 'Income Label' || h === 'Debt Label' ? 18 : h === 'Sequence' ? 8 : 14 };
     });
     var wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, 'Transactions');
@@ -995,6 +995,7 @@
         for (var e = 0; e < expected.length; e++) {
           var idx = headerNorm.indexOf(expected[e]);
           if (idx === -1) idx = headerNorm.indexOf(expected[e].replace('label', ''));
+          if (idx === -1 && expected[e] === 'transactiontype') idx = headerNorm.indexOf('type');
           if (idx !== -1) colMap[expected[e]] = idx;
         }
 
