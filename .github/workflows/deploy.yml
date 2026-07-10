@@ -92,6 +92,9 @@ jobs:
           print("Wrote static/build-info.json", payload["short_sha"])
           PY
 
+      - name: Update version badge with commit hash
+        run: bash scripts/update-version.sh
+
       - name: Build Hugo
         env:
           # Prefer secret; fallback keeps live tag if secret is unset.

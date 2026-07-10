@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="travel-planner">
   <!-- Version Badge -->
-  <div class="travel-planner__version" id="tpVersionBadge">Phiên bản dịch vụ: 11-07-2026-d568b48</div>
+  <div class="travel-planner__version" id="tpVersionBadge">Phiên bản dịch vụ: {{ .Site.Data.version.version_date }}-{{ .Site.Data.version.commit_short }}</div>
 
   <!-- Hero Section -->
   <div class="travel-planner__hero">
