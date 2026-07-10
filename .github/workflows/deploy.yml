@@ -139,25 +139,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  submit-google-sitemap:
-    needs: deploy
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
-
-      - name: Submit posts sitemap to Google Search Console
-        continue-on-error: true
-        env:
-          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
-          GSC_SITE_URL: "https://banhang-chogao.github.io/reviewchanthat/"
-          GSC_SITEMAP_URL: "https://banhang-chogao.github.io/reviewchanthat/sitemap-posts.xml"
-        run: python scripts/submit_google_sitemap.py
+  # Disabled: Crawl Doctor automation (crawl-doctor.yml) now handles sitemap submission
+  # via Search Console API (proper method). Old submit-google-sitemap job removed.
+  # Reason: Crawl Doctor runs after deploy with modern GSC API integration
