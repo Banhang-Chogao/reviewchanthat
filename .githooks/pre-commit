@@ -1,0 +1,58 @@
+#!/bin/bash
+# Pre-commit hook: Enforce TOML-only frontmatter & no future dates in blog posts
+# Install: git config core.hooksPath .githooks
+
+set -euo pipefail
+
+ERROR=0
+NOW_ISO=$(date -u +%Y-%m-%dT%H:%M:%S+00:00 2>/dev/null || python3 -c "from datetime import datetime,timezone;print(datetime.now(timezone.utc).isoformat())" 2>/dev/null || true)
+
+for file in $(git diff --cached --name-only --diff-filter=ACM | grep 'content/posts/.*\.md$'); do
+  [ -s "$file" ] || continue
+
+  # --- TOML frontmatter check ---
+  if ! head -1 "$file" | grep -q '^+++'; then
+    echo "❌ ERROR in $file: Must start with +++ TOML frontmatter"
+    ERROR=1
+  fi
+
+  first_toml=$(grep -n '^+++' "$file" | head -1 | cut -d: -f1)
+  if [ -n "$first_toml" ]; then
+    if sed -n "1,${first_toml}p" "$file" | grep -q '^---'; then
+      echo "❌ ERROR in $file: Contains YAML (---) before TOML (+++) frontmatter"
+      echo "   Posts MUST have TOML-only frontmatter. Remove all --- YAML blocks."
+      ERROR=1
+    fi
+  fi
+
+  # --- Future date check ---
+  # Extract date field from TOML frontmatter
+  DATE_LINE=$(grep -E '^date\s*=' "$file" | head -1 | sed 's/^date\s*=\s*"//;s/"\s*$//')
+  if [ -n "$DATE_LINE" ] && [ -n "$NOW_ISO" ]; then
+    if python3 -c "
+import sys
+from datetime import datetime, timezone, timedelta
+try:
+    dt = datetime.fromisoformat('$DATE_LINE')
+    now = datetime.fromisoformat('$NOW_ISO')
+    if dt > now + timedelta(minutes=5):
+        sys.exit(1)
+except:
+    sys.exit(0)
+" 2>/dev/null; then
+      : # date OK
+    else
+      echo "❌ ERROR in $file: Future date found: $DATE_LINE"
+      echo "   Set date to today or earlier before committing."
+      ERROR=1
+    fi
+  fi
+done
+
+if [ $ERROR -ne 0 ]; then
+  echo ""
+  echo "❌ COMMIT BLOCKED: Fix violations above"
+  exit 1
+fi
+
+exit 0

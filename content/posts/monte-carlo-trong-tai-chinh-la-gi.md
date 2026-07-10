@@ -1,9 +1,8 @@
 +++
-draft = true
 title = "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản"
 description = "Monte Carlo simulation là gì? Học Brownian motion, random sampling, pricing exotic options, VaR calculation, portfolio simulation, và variance reduction techniques."
-date = "2026-07-11T00:45:00+07:00"
-lastmod = "2026-07-11T00:45:00+07:00"
+date = "2026-07-10T12:15:00+07:00"
+lastmod = "2026-07-10T12:15:00+07:00"
 seo_title = "Monte Carlo: simulation, Brownian motion, exotic options, VaR"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]

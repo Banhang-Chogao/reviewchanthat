@@ -1,8 +1,8 @@
 +++
 title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 description = "Risk management dùng toán học gì? Học VaR, Expected Shortfall, correlation breakdown, tail risk, stress scenarios, historical vs parametric VaR, và backtesting."
-date = "2026-07-11T00:00:00+07:00"
-lastmod = "2026-07-11T00:00:00+07:00"
+date = "2026-07-10T12:00:00+07:00"
+lastmod = "2026-07-10T12:00:00+07:00"
 seo_title = "Risk management: VaR, CVaR, stress test, correlation breakdown"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
