@@ -4,8 +4,8 @@
 
 COMMIT_SHORT=$(git rev-parse --short HEAD 2>/dev/null || echo "unknown")
 COMMIT_FULL=$(git rev-parse HEAD 2>/dev/null || echo "unknown")
-BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
-VERSION_DATE=$(date -u +'%d-%m-%Y')
+BUILD_DATE=$(date +'%Y-%m-%dT%H:%M:%S+07:00')
+VERSION_DATE=$(date +'%d-%m-%Y')
 
 cat > data/version.toml << EOF
 # Auto-generated at build time - do not edit manually
