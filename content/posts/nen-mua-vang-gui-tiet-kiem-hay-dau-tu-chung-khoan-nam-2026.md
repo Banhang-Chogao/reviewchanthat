@@ -1,6 +1,6 @@
 +++
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
-date = 2026-07-09T20:00:00Z
+date = 2026-07-09T20:00:00+07:00
 draft = false
 categories = ["tai-chinh"]
 author = "Minh Hoàng"
