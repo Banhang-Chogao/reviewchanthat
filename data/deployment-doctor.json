@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-10T09:02:08+07:00",
-  "generated_at_display": "10-07-2026 09:02:08",
+  "generated_at": "2026-07-10T09:05:10+07:00",
+  "generated_at_display": "10-07-2026 09:05:10",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 29,
-    "safe_autofixes_available": 24,
+    "failed_runs_scanned": 27,
+    "safe_autofixes_available": 22,
     "unsafe_external_failures": 5,
     "open_action_items": 10,
-    "loop_guarded_attempts": 49,
+    "loop_guarded_attempts": 50,
     "by_type": {
-      "workflow_fanout": 19,
+      "workflow_fanout": 17,
       "hugo_build_error": 5,
       "date_only_or_wrong_timezone": 2,
       "sitemap_noindex_mismatch": 2,
@@ -242,26 +242,6 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059532842"
     },
     {
-      "run_id": "29059532812",
-      "workflow": "Auto Merge",
-      "commit": "7e7de7b",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059532812"
-    },
-    {
-      "run_id": "29059532717",
-      "workflow": "Auto Merge",
-      "commit": "7e7de7b",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29059532717"
-    },
-    {
       "run_id": "29060713497",
       "workflow": "Deploy to GitHub Pages",
       "commit": "141e501",
@@ -413,18 +393,6 @@
       {
         "failure_type": "workflow_fanout",
         "run_id": "29059532842",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29059532812",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29059532717",
         "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
         "safe_to_autofix": true
       }
@@ -744,15 +712,15 @@
     {
       "run_id": "29059940624",
       "failure_type": "date_only_or_wrong_timezone",
-      "result": "skipped",
-      "detail": "qa_dates exit=0 changed=False",
-      "script": "fix_date_only_or_timezone"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 939235888fdb:date_only_or_wrong_timezone already attempted 2 times"
     },
     {
       "run_id": "29059768324",
       "failure_type": "date_only_or_wrong_timezone",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "qa_dates exit=0 changed=False",
+      "script": "fix_date_only_or_timezone"
     },
     {
       "run_id": "29059770605",
@@ -864,18 +832,6 @@
     },
     {
       "run_id": "29059532842",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 7e7de7bb39cd:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29059532812",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 7e7de7bb39cd:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29059532717",
       "failure_type": "workflow_fanout",
       "result": "needs_human_review",
       "detail": "loop-guard: 7e7de7bb39cd:workflow_fanout already attempted 2 times"
@@ -1204,6 +1160,12 @@
       "key": "939235888fdb:date_only_or_wrong_timezone",
       "count": 2,
       "last_attempt_at": "2026-07-10T09:02:08+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "39e0743ce1a9:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T09:05:09+07:00",
       "last_result": "skipped"
     }
   ],
