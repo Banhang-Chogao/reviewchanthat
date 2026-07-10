@@ -1,22 +1,84 @@
 {{ $pag := $.Paginator }}
 {{ if gt $pag.TotalPages 1 }}
+{{ $total := $pag.TotalPages }}
+{{ $current := $pag.PageNumber }}
+{{ $siblings := 2 }}
+{{ $desktopMax := 7 }}
+{{ $leftEnd := 2 }}
+{{ $rightEnd := sub $total 1 }}
+{{ $start := sub $current $siblings }}
+{{ $end := add $current $siblings }}
+{{ $leftEllipsis := false }}
+{{ $rightEllipsis := false }}
+{{ if le $start 2 }}
+  {{ $start = 2 }}
+{{ else }}
+  {{ $leftEllipsis = true }}
+{{ end }}
+{{ if ge $end $rightEnd }}
+  {{ $end = $rightEnd }}
+{{ else }}
+  {{ $rightEllipsis = true }}
+{{ end }}
 <nav class="pagination" aria-label="Phân trang">
   <ul class="pagination-list">
-    {{ if $pag.HasPrev }}
-    <li class="pagination-item">
-      <a href="{{ $pag.Prev.URL | relURL }}" class="pagination-link prev" rel="prev">← Trước</a>
+    {{- if $pag.HasPrev }}
+    <li class="pagination-item pagination-item--control">
+      <a href="{{ $pag.Prev.URL | relURL }}" class="pagination-link pagination-link--prev" rel="prev" aria-label="Trang trước">← Trước</a>
     </li>
-    {{ end }}
-    {{ range $pag.Pagers }}
-    <li class="pagination-item{{ if eq . $pag }} active{{ end }}">
-      <a href="{{ .URL | relURL }}" class="pagination-link">{{ .PageNumber }}</a>
+    {{- end }}
+    {{- if le $total $desktopMax }}
+      {{- range $pag.Pagers }}
+      <li class="pagination-item{{ if eq . $pag }} pagination-item--active{{ end }}">
+        {{- if eq . $pag }}
+        <span class="pagination-link pagination-link--current" aria-current="page" aria-label="Trang {{ .PageNumber }}">{{ .PageNumber }}</span>
+        {{- else }}
+        <a href="{{ .URL | relURL }}" class="pagination-link" aria-label="Trang {{ .PageNumber }}">{{ .PageNumber }}</a>
+        {{- end }}
+      </li>
+      {{- end }}
+    {{- else }}
+      <li class="pagination-item{{ if eq $current 1 }} pagination-item--active{{ end }}">
+        {{- if eq $current 1 }}
+        <span class="pagination-link pagination-link--current" aria-current="page" aria-label="Trang 1">1</span>
+        {{- else }}
+        <a href="{{ (index $pag.Pagers 0).URL | relURL }}" class="pagination-link" aria-label="Trang 1">1</a>
+        {{- end }}
+      </li>
+      {{- if $leftEllipsis }}
+      <li class="pagination-item pagination-item--ellipsis" aria-hidden="true">
+        <span class="pagination-link pagination-link--ellipsis">…</span>
+      </li>
+      {{- end }}
+      {{- range $pag.Pagers }}
+        {{- if and (ge .PageNumber $start) (le .PageNumber $end) }}
+      <li class="pagination-item pagination-item--neighbor{{ if eq . $pag }} pagination-item--active{{ end }}">
+          {{- if eq . $pag }}
+        <span class="pagination-link pagination-link--current" aria-current="page" aria-label="Trang {{ .PageNumber }}">{{ .PageNumber }}</span>
+          {{- else }}
+        <a href="{{ .URL | relURL }}" class="pagination-link" aria-label="Trang {{ .PageNumber }}">{{ .PageNumber }}</a>
+          {{- end }}
+      </li>
+        {{- end }}
+      {{- end }}
+      {{- if $rightEllipsis }}
+      <li class="pagination-item pagination-item--ellipsis" aria-hidden="true">
+        <span class="pagination-link pagination-link--ellipsis">…</span>
+      </li>
+      {{- end }}
+      <li class="pagination-item{{ if eq $current $total }} pagination-item--active{{ end }}">
+        {{- if eq $current $total }}
+        <span class="pagination-link pagination-link--current" aria-current="page" aria-label="Trang {{ $total }}">{{ $total }}</span>
+        {{- else }}
+        <a href="{{ (index $pag.Pagers (sub $total 1)).URL | relURL }}" class="pagination-link" aria-label="Trang {{ $total }}">{{ $total }}</a>
+        {{- end }}
+      </li>
+    {{- end }}
+    {{- if $pag.HasNext }}
+    <li class="pagination-item pagination-item--control">
+      <a href="{{ $pag.Next.URL | relURL }}" class="pagination-link pagination-link--next" rel="next" aria-label="Trang sau">Sau →</a>
     </li>
-    {{ end }}
-    {{ if $pag.HasNext }}
-    <li class="pagination-item">
-      <a href="{{ $pag.Next.URL | relURL }}" class="pagination-link next" rel="next">Sau →</a>
-    </li>
-    {{ end }}
+    {{- end }}
   </ul>
 </nav>
 {{ end }}
