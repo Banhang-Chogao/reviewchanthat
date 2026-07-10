@@ -1,10 +1,12 @@
 +++
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
-date = 2020-01-01T00:00:00Z
+date = 2026-07-09T20:00:00Z
 draft = false
 categories = ["tai-chinh"]
 author = "Minh Hoàng"
+image = "images/posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.webp"
 +++
+description = "Tiền nhàn rỗi năm 2026 nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán phụ thuộc vào khẩu vị rủi ro, thời gian cần dùng tiền và khả năng chịu biến động của mỗi người."
 
 [ai_summary]
 enabled = true
