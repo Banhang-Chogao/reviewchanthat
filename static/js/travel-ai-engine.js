@@ -36,10 +36,18 @@
 
   class TravelAIEngine {
     static async generateItinerary(tripData) {
-      const prompt = this.buildPrompt(tripData);
-
       try {
-        // Call backend AI service
+        // Stage 1: Validate destination with hybrid pipeline
+        const destValidation = await this.validateDestinationWithPipeline(tripData);
+        if (!destValidation.success) {
+          console.warn('Destination validation failed, using local generation');
+          return this.generateLocalItinerary(tripData);
+        }
+
+        // Stage 2: Build prompt with validated destination context
+        const prompt = this.buildPrompt(tripData);
+
+        // Stage 3: Call backend AI service with pipeline context
         const response = await fetch('/api/ai/generate-itinerary', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -53,20 +61,58 @@
             budget: tripData.budget,
             purposes: tripData.purposes,
             visaMode: tripData.visaMode,
-            prompt: prompt
+            prompt: prompt,
+            destinationContext: destValidation.context
           })
         });
 
         if (!response.ok) {
-          // Fallback to local generation
           return this.generateLocalItinerary(tripData);
         }
 
-        const data = await response.json();
-        return this.formatItinerary(data, tripData);
+        let itinerary = await response.json();
+        itinerary = this.formatItinerary(itinerary, tripData);
+
+        // Stage 4: Validate quality with hybrid pipeline
+        const qualityValidation = await this.validateQualityWithPipeline(itinerary, destValidation.context);
+        itinerary.quality = qualityValidation;
+
+        return itinerary;
       } catch (error) {
         console.warn('AI API failed, using local generation:', error);
         return this.generateLocalItinerary(tripData);
+      }
+    }
+
+    static async validateDestinationWithPipeline(tripData) {
+      try {
+        const response = await fetch('/api/hybrid-planner/validate-destination', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(tripData.destinationData || {})
+        });
+
+        if (!response.ok) return { success: false };
+        return await response.json();
+      } catch (error) {
+        console.warn('Pipeline validation failed:', error);
+        return { success: false };
+      }
+    }
+
+    static async validateQualityWithPipeline(itinerary, destinationContext) {
+      try {
+        const response = await fetch('/api/hybrid-planner/validate-quality', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ itinerary, destination_context: destinationContext })
+        });
+
+        if (!response.ok) return { is_acceptable: true };
+        return await response.json();
+      } catch (error) {
+        console.warn('Quality validation failed:', error);
+        return { is_acceptable: true };
       }
     }
 
