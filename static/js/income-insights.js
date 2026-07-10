@@ -3,6 +3,7 @@
 
   var ACCESS_HASH = '46eaa26621e4955c1675b55d446c6d03325f458b59a465f898d42924010e7286';
   var SESSION_KEY = 'income_insights_unlocked';
+  var SESSION_PIN_KEY = 'income_insights_pin';
   var DB_NAME = 'income_insights_db';
   var STORE_NAME = 'encrypted_data';
   var APP_SALT = 'income-insights-v1-salt';
@@ -205,7 +206,16 @@
       gate.style.display = 'none';
       app.style.display = '';
       lockBtn.style.display = '';
-      afterUnlock();
+      // Khôi phục cryptoKey từ PIN đã lưu trong session
+      var storedPin = sessionStorage.getItem(SESSION_PIN_KEY);
+      if (storedPin) {
+        deriveKey(storedPin).then(function(key) {
+          state.cryptoKey = key;
+          afterUnlock();
+        });
+      } else {
+        afterUnlock();
+      }
       return;
     }
 
@@ -231,6 +241,7 @@
       sha256(code).then(function(hash) {
         if (hash === ACCESS_HASH) {
           sessionStorage.setItem(SESSION_KEY, '1');
+          sessionStorage.setItem(SESSION_PIN_KEY, code);
           deriveKey(code).then(function(key) {
             state.cryptoKey = key;
             gate.style.display = 'none';
