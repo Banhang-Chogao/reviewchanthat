@@ -38,33 +38,34 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run Auto Conflict Remover (aggressive mode)
-        id: fix
+      - name: Run Auto Conflict Remover
+        continue-on-error: true
+        run: python scripts/auto_conflict_remover.py --verbose
+
+      - name: Fix Obvious Date Issues
+        continue-on-error: true
+        run: python scripts/qa_dates.py --fix-obvious
+
+      - name: Check for any changes
+        id: check
         run: |
-          python scripts/auto_conflict_remover.py --verbose 2>&1 | tee /tmp/autofix.log
-          if grep -q "Fixed [1-9]" /tmp/autofix.log; then
-            echo "fixed=true" >> "$GITHUB_OUTPUT"
-          else
+          if git diff --quiet; then
             echo "fixed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "fixed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit fixes if any
-        if: steps.fix.outputs.fixed == 'true'
+        if: steps.check.outputs.fixed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          if git diff --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-
           git add content/posts/
-          git commit -m "fix(autofix): resolve YAML frontmatter conflicts [autofix-on-deploy-fail]" || exit 0
+          git commit -m "fix(autofix): resolve deploy failures [autofix-on-deploy-fail]" || exit 0
           git push
 
       - name: Trigger deploy retry
-        if: steps.fix.outputs.fixed == 'true'
+        if: steps.check.outputs.fixed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -72,7 +73,7 @@ jobs:
           gh workflow run "Deploy to GitHub Pages" --ref main
 
       - name: Notify if no fix available
-        if: steps.fix.outputs.fixed != 'true'
+        if: steps.check.outputs.fixed != 'true'
         run: |
           echo "⚠️ Deploy failed but no automatic fix found."
           echo "Manual review needed. Check deploy logs."

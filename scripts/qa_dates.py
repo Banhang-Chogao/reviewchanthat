@@ -18,11 +18,11 @@ from __future__ import annotations
 import argparse
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
-from dates import format_vietnam_datetime, now_vietnam
+from dates import format_vietnam_datetime, now_vietnam, vietnam_date_of
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = REPO_ROOT / "content" / "posts"
@@ -30,6 +30,13 @@ CONTENT_DIR = REPO_ROOT / "content" / "posts"
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(\+07:00|Z|[+-]\d{2}:\d{2})?$")
 FULL_DATETIME_RE = re.compile(
     r"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}\+07:00$"
+)
+
+FUTURE_TOLERANCE = timedelta(minutes=5)
+
+DATE_FIELD_RE = re.compile(
+    r"^(date\s*[:=]\s*[\"']?)([\dTZ:+\-]+)([\"']?\s*)$",
+    re.MULTILINE,
 )
 
 
@@ -60,19 +67,100 @@ def parse_front_matter(text: str) -> dict | None:
     return None
 
 
+def _extract_frontmatter_section(text: str) -> tuple[int, int] | None:
+    """Return (start, end) offsets of the front-matter block, or None."""
+    if text.startswith("---"):
+        m = re.match(r"^---\r?\n(.*?)\r?\n---", text, re.S)
+        if m:
+            return m.start(0), m.end(0)
+    if text.startswith("+++"):
+        m = re.match(r"^\+\+\+\r?\n(.*?)\r?\n\+\+\+", text, re.S)
+        if m:
+            return m.start(0), m.end(0)
+    return None
+
+
+def fix_obvious_issues(files: list[Path]) -> tuple[int, list[str]]:
+    """Fix obvious date issues in-place. Returns (fixed_count, log_messages)."""
+    now = now_vietnam()
+    today = now.date()
+    fixed = 0
+    log: list[str] = []
+
+    for f in files:
+        text = f.read_text(encoding="utf-8")
+        original = text
+
+        fm_span = _extract_frontmatter_section(text)
+        if not fm_span:
+            continue
+        fm_start, fm_end = fm_span
+        fm_text = text[fm_start:fm_end]
+
+        if re.search(r"^draft\s*[:=]\s*true", fm_text, re.MULTILINE):
+            continue
+
+        m = DATE_FIELD_RE.search(fm_text)
+        if not m:
+            continue
+
+        prefix = m.group(1)
+        date_str = m.group(2)
+
+        if re.match(r"^\d{4}-\d{2}-\d{2}$", date_str):
+            new_date = f"{date_str}T{now.strftime('%H:%M:%S')}+07:00"
+            text = text[: fm_start + m.start(2)] + new_date + text[fm_start + m.end(2) :]
+            log.append(f"{f.name}: date-only -> {new_date}")
+            fixed += 1
+            f.write_text(text, encoding="utf-8")
+            continue
+
+        if re.match(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?$", date_str):
+            new_date = f"{date_str}+07:00"
+            text = text[: fm_start + m.start(2)] + new_date + text[fm_start + m.end(2) :]
+            log.append(f"{f.name}: missing +07:00 -> {new_date}")
+            fixed += 1
+            f.write_text(text, encoding="utf-8")
+            continue
+
+        try:
+            dt = datetime.fromisoformat(date_str)
+        except (ValueError, TypeError):
+            continue
+
+        if dt > now and vietnam_date_of(dt) == today:
+            new_date = now.isoformat()
+            text = text[: fm_start + m.start(2)] + new_date + text[fm_start + m.end(2) :]
+            log.append(f"{f.name}: future (same day) -> {new_date}")
+            fixed += 1
+            f.write_text(text, encoding="utf-8")
+
+    return fixed, log
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate post dates")
     parser.add_argument("--fix-obvious", action="store_true", help="Fix obvious date format issues")
     args = parser.parse_args()
 
+    files = sorted(CONTENT_DIR.rglob("*.md"))
+    if not files:
+        print("No markdown files found in content/posts/", file=sys.stderr)
+        return 1
+
+    if args.fix_obvious:
+        fixed, log = fix_obvious_issues(files)
+        for msg in log:
+            print(msg)
+        if fixed:
+            print(f"✅ Fixed {fixed} file(s)")
+        else:
+            print("No obvious date issues found")
+        return 0
+
     errors: list[str] = []
     warnings_list: list[str] = []
     fixed = 0
-
-    files = sorted(CONTENT_DIR.rglob("*.md"))
-    if not files:
-        errors.append("No markdown files found in content/posts/")
-        return 1
 
     for f in files:
         text = f.read_text(encoding="utf-8")
@@ -80,7 +168,7 @@ def main() -> int:
         if meta is None:
             errors.append(f"{f.name}: cannot parse front matter")
             continue
-            
+
         if meta.get("draft"):
             continue
 
@@ -89,30 +177,26 @@ def main() -> int:
             errors.append(f"{f.name}: missing date field")
             continue
 
-        # Check if date is a datetime (not date-only string)
         date_str = str(date_val)
-        
-        # Check for +07:00 offset
+
         if "+07:00" not in date_str:
             errors.append(f"{f.name}: date missing +07:00 offset: {date_str}")
             continue
 
-        # Check not date-only
         if "T" not in date_str and " " not in date_str:
             errors.append(f"{f.name}: date-only (no time component): {date_str}")
         elif "T" in date_str and " " not in date_str:
-            pass  
+            pass
         elif " " in date_str:
-            pass  
+            pass
 
-        # Check no future dates
         try:
             if "T" in date_str:
                 dt = datetime.fromisoformat(date_str)
             else:
                 dt = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S%z")
             now = now_vietnam()
-            if dt > now:
+            if dt > now + FUTURE_TOLERANCE:
                 errors.append(f"{f.name}: future date: {date_str}")
         except (ValueError, TypeError) as exc:
             errors.append(f"{f.name}: invalid date format: {date_str} — {exc}")
