@@ -7,7 +7,9 @@
     cacheExpiryMs: 30 * 60 * 1000, // 30 minutes
     maxResults: 10,
     minChars: 2,
-    apiBaseUrl: '/api/destination/search',
+    apiBaseUrl: (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+      ? '/api/destination/search'
+      : 'https://reviewchanthat-api.onrender.com/api/destination/search',
     fallbackCities: {
       'ICN': { city: 'Incheon', country: 'South Korea', iata: 'ICN', timezone: 'Asia/Seoul', flag: '🇰🇷' },
       'NRT': { city: 'Tokyo', country: 'Japan', iata: 'NRT', timezone: 'Asia/Tokyo', flag: '🇯🇵' },
