@@ -36,7 +36,7 @@ faq:
 - answer: Luôn kiểm tra shop (sao, số đơn, review có ảnh), đọc kỹ mô tả, chụp lại
     màn hình đơn hàng, và ưu tiên thanh toán khi nhận hàng (COD) cho lần mua đầu.
 image: images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:55+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

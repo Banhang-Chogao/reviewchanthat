@@ -21,7 +21,7 @@ description: Danh sách iPhone tương thích iOS 27 theo Apple, phân tích App
   iPhone cũ và lộ trình cho người dùng Việt Nam.
 draft: false
 image: images/posts/ios-27-ho-tro-iphone-nao.webp
-image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:57+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false

@@ -28,7 +28,7 @@ faq:
 - answer: Indoor Seoul, biển Busan, Jeju. Tránh leo núi Hallasan và đi dã ngoại ngoài
     trời.
 image: images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:57+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

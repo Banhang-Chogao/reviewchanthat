@@ -29,7 +29,7 @@ faq:
     tết.
 - answer: Áo chống nắng, mũ, kính râm, kem chống nắng. Tránh vải nilon, bó sát.
 image: images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:56+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

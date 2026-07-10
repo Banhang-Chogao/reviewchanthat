@@ -39,7 +39,7 @@ faq:
     Nhìn chung giá thấp hơn Yongpyong một chút.
   question: Giá vé và thuê đồ ở Alpensia thế nào?
 image: images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp
-image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:53+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

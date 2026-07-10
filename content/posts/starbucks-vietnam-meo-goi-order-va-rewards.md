@@ -26,7 +26,7 @@ external_links:
 - title: Starbucks Vietnam
   url: https://www.starbucks.vn/
 image: images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:03+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -49,20 +49,20 @@ external_links:
 image: images/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.webp
 image_alt: 'Ảnh minh họa Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có
   phải nộp thuế không? — nguồn Pexels'
-image_attribution_checked_at: "2026-07-10T06:37:05+07:00"
+image_attribution_checked_at: '2026-07-10T07:08:10+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
 image_creator: Ivan S
-image_creator_id: 2563618
-image_creator_url: "https://www.pexels.com/@ivan-s"
+image_creator_id: '2563618'
+image_creator_url: https://www.pexels.com/@ivan-s
 image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
+image_license_url: https://www.pexels.com/license/
 image_owner: external
 image_provider: pexels
 image_query: mobile banking payment app
 image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/credit-cards-and-a-smartphone-on-a-white-wall-7621381/"
+image_source_url: https://www.pexels.com/photo/credit-cards-and-a-smartphone-on-a-white-wall-7621381/
 image_status: verified
 related_posts:
 - tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap

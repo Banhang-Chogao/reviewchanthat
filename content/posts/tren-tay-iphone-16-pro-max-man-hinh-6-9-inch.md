@@ -18,7 +18,7 @@ description: 'Trải nghiệm màn 6.9 inch trên iPhone 16 Pro Max: kích thư�
   so với 6.7 inch 15 Pro Max và ai nên chọn màn lớn nhất.'
 draft: false
 image: images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:01+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

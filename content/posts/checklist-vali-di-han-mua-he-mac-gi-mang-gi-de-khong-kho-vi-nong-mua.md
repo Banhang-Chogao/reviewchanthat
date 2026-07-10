@@ -77,7 +77,7 @@ faq:
 - answer: 5–7 bộ quần áo, 2 đôi giày, 1 đôi dép, đồ vệ sinh cá nhân, túi chống nước.
   question: Vali 7kg có đủ không?
 image: images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:55+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

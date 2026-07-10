@@ -36,7 +36,7 @@ faq:
     bus đến bến ferry.
 - answer: Nửa ngày đến một ngày. Nếu kết hợp Garden of Morning Calm, nên dành cả ngày.
 image: images/posts/nami-thang-10-co-dang-di-khong.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:04+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

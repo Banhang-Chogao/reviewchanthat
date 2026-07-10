@@ -30,7 +30,7 @@ external_links:
 - title: https://english.visitkorea.or.kr/
   url: https://english.visitkorea.or.kr/
 image: images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:01+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -30,7 +30,7 @@ external_links:
   url: https://www.starbucks.vn/
 image: images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp
 image_alt: Ảnh minh họa — Pexels / Lisa from Pexels
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:03+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: not_found
 image_attribution_verified: false

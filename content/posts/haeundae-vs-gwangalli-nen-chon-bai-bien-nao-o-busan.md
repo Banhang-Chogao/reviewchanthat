@@ -28,7 +28,7 @@ faq:
     Gwangan, tuyến 2).
 - answer: Haeundae có nhiều hoạt động hơn. Gwangalli cũng có nhưng ít lựa chọn.
 image: images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:57+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

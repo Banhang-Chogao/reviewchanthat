@@ -47,7 +47,7 @@ faq:
 - answer: Không. iPhone Ultra (foldable) vẫn là tin đồn phần cứng hướng tới sự kiện
     riêng, không phải keynote phần mềm 8/6/2026.
 image: images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:02+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

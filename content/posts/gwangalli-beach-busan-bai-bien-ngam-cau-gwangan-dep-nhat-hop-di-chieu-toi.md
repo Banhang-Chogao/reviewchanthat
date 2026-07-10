@@ -42,7 +42,7 @@ faq:
 - answer: Thường 20:00 và 22:00 thứ 7. Cần kiểm tra lịch thực tế trước khi đi vì lịch
     có thể thay đổi theo mùa.
 image: images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:56+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

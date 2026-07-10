@@ -3216,7 +3216,7 @@
     "image_total_score": 50.0,
     "image_alt": "Editorial illustration showing the GitHub Actions CI/CD pipeline back to a healthy operational state after recovery from the July 9, 2026 incident.",
     "gate_verified": true,
-    "attribution_checked_at": "2026-07-10T06:37:05+07:00"
+    "attribution_checked_at": "2026-07-10T06:58:19+07:00"
   },
   "baseurl-sitemap-noindex-va-series-hardcoded-url": {
     "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
@@ -3628,7 +3628,7 @@
     "attribution_source": "pexels_api",
     "image_owner": "external",
     "image_query": "person writing notebook laptop desk",
-    "attribution_checked_at": "2026-07-10T06:37:05+07:00",
+    "attribution_checked_at": "2026-07-10T06:58:19+07:00",
     "watermark_text": "Source: Pexels / www.kaboompics.com"
   },
   "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc": {
@@ -3647,7 +3647,7 @@
     "attribution_source": "pexels_api",
     "image_owner": "external",
     "image_query": "laptop and smartphone content creator desk",
-    "attribution_checked_at": "2026-07-10T06:37:05+07:00",
+    "attribution_checked_at": "2026-07-10T06:58:19+07:00",
     "watermark_text": "Source: Pexels / Mizuno K"
   },
   "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap": {
@@ -3683,7 +3683,7 @@
     "image_total_score": 0,
     "image_alt": "Ảnh minh họa tài sản số và giao dịch crypto trên điện thoại — nguồn Pexels",
     "gate_verified": true,
-    "attribution_checked_at": "2026-07-10T06:37:05+07:00"
+    "attribution_checked_at": "2026-07-10T06:10:07+07:00"
   },
   "co-nen-len-ios-26-5-2-khong": {
     "slug": "co-nen-len-ios-26-5-2-khong",
@@ -3702,7 +3702,7 @@
     "commercial_use": true,
     "local_source_path": "static/images/posts-src/co-nen-len-ios-26-5-2-khong.jpg",
     "output_path": "static/images/posts/co-nen-len-ios-26-5-2-khong.webp",
-    "watermark_text": "Source: Pexels",
+    "watermark_text": "Source: Pexels / Brett Jordan",
     "provider_used": "Pexels",
     "attribution_verified": true,
     "attribution_source": "pexels_api",
@@ -3711,7 +3711,8 @@
     "image_color_score": 0,
     "image_total_score": 0,
     "image_alt": "Ảnh minh họa Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì — nguồn Pexels",
-    "gate_verified": true
+    "gate_verified": true,
+    "attribution_checked_at": "2026-07-10T06:58:19+07:00"
   },
   "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem": {
     "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
@@ -3739,7 +3740,8 @@
     "image_color_score": 0,
     "image_total_score": 0,
     "image_alt": "Ảnh minh họa Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels",
-    "gate_verified": true
+    "gate_verified": true,
+    "attribution_checked_at": "2026-07-10T06:58:19+07:00"
   },
   "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem": {
     "slug": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
@@ -3767,7 +3769,8 @@
     "image_color_score": 0,
     "image_total_score": 0,
     "image_alt": "Ảnh minh họa Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels",
-    "gate_verified": true
+    "gate_verified": true,
+    "attribution_checked_at": "2026-07-10T06:58:19+07:00"
   },
   "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue": {
     "slug": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
@@ -3801,5 +3804,38 @@
     "image_alt": "Ảnh minh họa Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không? — nguồn Pexels",
     "gate_verified": true,
     "attribution_checked_at": "2026-07-10T06:37:05+07:00"
+  },
+  "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro": {
+    "slug": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+    "title": "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?",
+    "image_id": "img-abeff7c3",
+    "source_platform": "Pexels",
+    "image_provider": "pexels",
+    "source_url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/",
+    "direct_url": "https://images.pexels.com/photos/5198284/pexels-photo-5198284.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "creator": "Tima Miroshnichenko",
+    "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+    "creator_id": "3088726",
+    "photo_id": "",
+    "raw_provider": {
+      "id": 5198284,
+      "photographer": "Tima Miroshnichenko",
+      "photographer_id": "3088726"
+    },
+    "license": "Pexels License",
+    "commercial_use": true,
+    "local_source_path": "static/images/posts-src/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.jpg",
+    "output_path": "static/images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp",
+    "watermark_text": "Source: Pexels / Tima Miroshnichenko",
+    "provider_used": "Pexels",
+    "attribution_verified": true,
+    "attribution_source": "pexels_api",
+    "image_query": "mobile banking payment app",
+    "image_semantic_score": 0,
+    "image_color_score": 0,
+    "image_total_score": 0,
+    "image_alt": "Ảnh minh họa Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào? — nguồn Pexels",
+    "gate_verified": true,
+    "attribution_checked_at": "2026-07-10T06:58:19+07:00"
   }
 }

@@ -28,7 +28,7 @@ faq:
 - answer: Xếp điểm ngoài trời vào sáng sớm, điểm indoor vào chiều. Theo dõi dự báo
     trên app.
 image: images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:56+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -1,9 +1,9 @@
 {
-  "total_posts": 174,
+  "total_posts": 176,
   "summary": {
     "valid": 156,
-    "missing_image": 11,
-    "broken_image_path": 0,
+    "missing_image": 12,
+    "broken_image_path": 1,
     "missing_license_metadata": 7,
     "duplicate_image": 0,
     "invalid_image_creator": 0
@@ -833,6 +833,25 @@
       "categories": [
         "cong-nghe"
       ]
+    },
+    {
+      "slug": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+      "title": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+      "status": "broken_image_path",
+      "issues": [
+        "local_file_not_found"
+      ],
+      "image": "static/images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp",
+      "thumbnail": "static/images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp",
+      "image_source": "Pexels",
+      "image_source_url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/",
+      "image_license": "Pexels License",
+      "image_commercial_use": true,
+      "image_owner": "external",
+      "image_creator": "Tima Miroshnichenko",
+      "image_creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+      "tags": [],
+      "categories": []
     },
     {
       "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
@@ -3144,6 +3163,26 @@
       "categories": [
         "du-lich"
       ]
+    },
+    {
+      "slug": "nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026",
+      "title": "nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026",
+      "status": "missing_image",
+      "issues": [
+        "missing_image",
+        "missing_metadata:image_source,image_source_url,image_license,image_commercial_use_not_true,image_owner"
+      ],
+      "image": "",
+      "thumbnail": "",
+      "image_source": "",
+      "image_source_url": "",
+      "image_license": "",
+      "image_commercial_use": false,
+      "image_owner": "",
+      "image_creator": "",
+      "image_creator_url": "",
+      "tags": [],
+      "categories": []
     },
     {
       "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",

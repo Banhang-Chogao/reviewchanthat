@@ -39,7 +39,7 @@ faq:
     resort trượt tuyết chính của Olympic 2018. Alpensia nghiêng về nghỉ dưỡng tổng
     hợp hơn.
 image: images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:02+07:00'
 image_attribution_source: pixabay_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -64,7 +64,7 @@ faq:
     (tháng 12–2) rất lạnh, thích hợp cho jjimjilbang và trải nghiệm văn hóa trong
     nhà.
 image: images/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:01+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -28,7 +28,7 @@ faq:
 - answer: Nên. Đi thứ 3–5 ít đông nhất. Cuối tuần rất đông, phải xếp hàng lâu.
   question: Có nên đi ngày thường không?
 image: images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp
-image_attribution_checked_at: '2026-07-10T06:15:08+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:55+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

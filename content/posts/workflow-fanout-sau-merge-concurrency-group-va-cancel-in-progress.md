@@ -21,7 +21,7 @@ draft: false
 image: images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp
 image_alt: 'Ảnh minh họa Workflow fan-out sau merge: concurrency group, cancel-in-progress
   và vòng autofix — nguồn Pexels'
-image_attribution_checked_at: '2026-07-10T06:15:17+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:09+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

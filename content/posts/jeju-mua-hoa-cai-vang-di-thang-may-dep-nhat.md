@@ -33,7 +33,7 @@ external_links:
 - title: VisitKorea - Seopjikoji
 - title: VisitKorea - Sanbangsan Mountain
 image: images/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.webp
-image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:06+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
@@ -43,7 +43,6 @@ image_creator_url: https://www.pexels.com/@iriser
 image_license: Pexels License
 image_license_url: https://www.pexels.com/license/
 image_owner: external
-image_provider: pexels
 image_source: Pexels
 image_source_url: https://www.pexels.com/photo/yellow-flower-field-under-blue-sky-4412373/
 images:

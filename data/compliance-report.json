@@ -1,7 +1,7 @@
 {
   "summary": {
-    "files_scanned": 174,
-    "errors": 248,
+    "files_scanned": 175,
+    "errors": 258,
     "warnings": 0,
     "fixed": 0
   },
@@ -445,6 +445,76 @@
       "code": "IMAGE_RELEVANCE_LOW",
       "file": "content/posts/chuan-bi-macbook-truoc-khi-len-macos-27.md",
       "message": "Image relevance score 50 below minimum 70 for topic apple_general",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "Missing required field: title",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "Missing required field: description",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "Missing required field: categories",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "Missing required field: tags",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_FIELD",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "Missing required field: author",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_FILE_MISSING",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "Local image not found: static/images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_FILE_MISSING",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "Local image not found: static/images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "IMAGE_PATH_MISMATCH",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "Expected image path images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp, got static/images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp",
+      "suggestion": ""
+    },
+    {
+      "severity": "ERROR",
+      "code": "CLAIM_WITHOUT_SOURCE",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "Paragraph with factual/legal claim lacks nearby markdown link or source metadata",
+      "suggestion": "Add a markdown link or external_links entry near the claim"
+    },
+    {
+      "severity": "ERROR",
+      "code": "MISSING_TAGS",
+      "file": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "message": "tags is empty",
       "suggestion": ""
     },
     {

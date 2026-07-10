@@ -33,7 +33,7 @@ external_links:
 - title: https://www.aquafield.kr/
   url: https://www.aquafield.kr/
 image: images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp
-image_attribution_checked_at: '2026-07-10T06:15:10+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:58+07:00'
 image_attribution_error: Provider/source page did not expose verified creator metadata
 image_attribution_source: rejected_generic
 image_attribution_verified: false

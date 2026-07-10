@@ -13,7 +13,7 @@ external_links:
   url: https://gohugo.io/documentation/
 - title: GitHub Actions Documentation
 image: images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:01+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

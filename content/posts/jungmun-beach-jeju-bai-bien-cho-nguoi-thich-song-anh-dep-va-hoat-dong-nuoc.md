@@ -34,7 +34,7 @@ faq:
 - answer: Khoảng 40 km, đi bus khoảng 50 phút.
 - answer: Có nhiều nhà hàng và quán cà phê trong khu Jungmun Tourist Complex.
 image: images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp
-image_attribution_checked_at: '2026-07-10T06:15:11+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:59+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

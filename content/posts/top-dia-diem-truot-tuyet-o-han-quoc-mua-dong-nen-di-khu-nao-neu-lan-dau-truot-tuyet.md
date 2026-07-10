@@ -48,7 +48,7 @@ faq:
     kính trượt tuyết, mũ len/beanie. Nếu không có, có thể thuê áo trượt tại resort.
     Bảo hiểm du lịch có coverage tai nạn trượt tuyết là rất khuyến khích.
 image: images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:01+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

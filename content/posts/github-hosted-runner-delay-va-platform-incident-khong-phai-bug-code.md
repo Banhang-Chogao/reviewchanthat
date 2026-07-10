@@ -21,7 +21,7 @@ draft: false
 image: images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp
 image_alt: 'Ảnh minh họa Runner capacity delay và platform incident: khi job đỏ không
   phải vì bug code — nguồn Pixabay'
-image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:08+07:00'
 image_attribution_source: pixabay_manifest
 image_attribution_verified: true
 image_commercial_use: true

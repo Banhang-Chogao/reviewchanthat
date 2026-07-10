@@ -1,9 +1,9 @@
 # Image Attribution Report
 
-- Generated: `2026-07-10T06:37:05+07:00`
-- Total scanned: **174**
-- Verified creator: **145**
-- Not found / empty: **29**
+- Generated: `2026-07-10T06:58:19+07:00`
+- Total scanned: **176**
+- Verified creator: **146**
+- Not found / empty: **30**
 - Cleared fake/unverified: **0**
 
 | slug | provider | verified | creator | source | confidence | error |
@@ -41,6 +41,7 @@
 | chiang-mai-mua-mua-co-gi-dep | pexels | no |  | not_found | none | source_page_no_creator; embedded_meta_no_creator |
 | cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju | pexels | yes | Đan Thy Nguyễn Mai | pexels_api | high |  |
 | chuan-bi-macbook-truoc-khi-len-macos-27 | pexels | yes | Field Engineer | pexels_api | high |  |
+| chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro | pexels | yes | Tima Miroshnichenko | pexels_api | high |  |
 | ci-cd-root-cause-playbook-safe-vs-unsafe-autofix | pexels | yes | Zulfugar Karimov | pexels_api | high |  |
 | club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong | pexels | yes | Zsuzsa ZSUZSA | pexels_api | high |  |
 | co-nen-cho-iphone-18-khong | pexels | yes | Tranmautritam | pexels_api | high |  |
@@ -133,6 +134,7 @@
 | nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song | pexels | yes | Nghia .8pm | pexels_api | high |  |
 | nami-thang-10-co-dang-di-khong | pexels | yes | Светлана Конева | pexels_api | high |  |
 | nami-thang-11-co-dang-di-khong | pexels | yes | Светлана Конева | pexels_api | high |  |
+| nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026 |  | no |  | skipped | none | no_image_metadata |
 | ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo | pexels | yes | tom  Lok | pexels_api | high |  |
 | nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma | pexels | yes | Andrea Piacquadio | pexels_api | high |  |
 | nha-phat-trien-app-duoc-loi-gi-tu-dma | pexels | yes | mktomasik | pexels_api | high |  |
@@ -158,7 +160,7 @@
 | starbucks-vietnam-meo-goi-order-va-rewards | pexels | yes | Iván Rivero | pexels_api | high |  |
 | starbucks-vietnam-nhan-vien-va-dich-vu | pexels | yes | Chevanon Photography | pexels_api | high |  |
 | suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab | pexels | yes | Kirandeep Singh Walia | pexels_api | high |  |
-| tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap | pexels | yes | Tima Miroshnichenko | pexels_api | high |  |
+| tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap | pexels | yes | Roger Brown | pexels_api | high |  |
 | thoi-tiet-han-quoc-thang-10 | pexels | yes | Quang Nguyen Vinh | pexels_api | high |  |
 | thoi-tiet-han-quoc-thang-11 | pexels | yes | Quang Nguyen Vinh | pexels_api | high |  |
 | thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue | pexels | yes | Ivan S | pexels_api | high |  |

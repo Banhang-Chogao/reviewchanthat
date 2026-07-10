@@ -3118,5 +3118,21 @@
     "image_attribution_checked_at": "2026-07-10T06:37:05+07:00",
     "confidence": "high",
     "checked_at": "2026-07-10T06:37:05+07:00"
+  },
+  "d47ca860e204afb13715a908f1d770a898a709b8e933aa28febad9ecffb9ff7d": {
+    "image_creator": "Tima Miroshnichenko",
+    "image_creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+    "image_creator_id": "3088726",
+    "image_provider": "pexels",
+    "image_source": "Pexels",
+    "image_source_url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/",
+    "image_license": "Pexels License",
+    "image_license_url": "https://www.pexels.com/license/",
+    "image_attribution_verified": true,
+    "image_attribution_source": "pexels_api",
+    "image_attribution_error": "",
+    "image_attribution_checked_at": "2026-07-10T06:58:19+07:00",
+    "confidence": "high",
+    "checked_at": "2026-07-10T06:58:19+07:00"
   }
 }

@@ -27,7 +27,7 @@ external_links:
 - title: AppleInsider — iPhone 18 expectations
 - title: MacRumors — leaker downgrade iPhone 18
 image: images/posts/iphone-18-vs-iphone-17.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:04+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

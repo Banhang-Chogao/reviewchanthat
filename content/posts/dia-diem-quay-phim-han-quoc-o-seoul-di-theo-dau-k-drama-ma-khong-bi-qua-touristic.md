@@ -30,7 +30,7 @@ external_links:
 - title: https://english.visitkorea.or.kr/
   url: https://english.visitkorea.or.kr/
 image: images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:56+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

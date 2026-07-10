@@ -33,7 +33,7 @@ faq:
     mức, ảnh chụp chuyên nghiệp, link affiliate dày đặc. Review thật thường: có cả
     điểm tốt và xấu, ngôn ngữ tự nhiên, ảnh chụp nhanh.'
 image: images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:01+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

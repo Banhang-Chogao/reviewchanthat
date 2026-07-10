@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-10T06:37:05+07:00",
+  "generated_at": "2026-07-10T06:58:19+07:00",
   "summary": {
-    "total_scanned": 174,
-    "verified_creator": 145,
-    "not_found": 29,
+    "total_scanned": 176,
+    "verified_creator": 146,
+    "not_found": 30,
     "cleared_fake_or_unverified": 0
   },
   "posts": [
@@ -179,7 +179,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:04+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -211,7 +211,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:04+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -225,7 +225,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:04+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -590,6 +590,24 @@
       "written": true
     },
     {
+      "slug": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+      "path": "content/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md",
+      "provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/",
+      "verified": true,
+      "creator": "Tima Miroshnichenko",
+      "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+      "resolver_method": "pexels_api",
+      "confidence": "high",
+      "error": "",
+      "checked_at": "2026-07-10T06:58:19+07:00",
+      "from_cache": false,
+      "cleared_fake": false,
+      "previous_creator": "Tima Miroshnichenko",
+      "previous_verified": true,
+      "written": true
+    },
+    {
       "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
       "path": "content/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.md",
       "provider": "pexels",
@@ -653,7 +671,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:04+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -703,7 +721,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:04+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -933,7 +951,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:04+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -965,7 +983,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:04+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -1033,7 +1051,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:04+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -1047,7 +1065,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:04+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -2222,6 +2240,20 @@
       "written": true
     },
     {
+      "slug": "nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026",
+      "path": "content/posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.md",
+      "provider": "",
+      "source_url": "",
+      "verified": false,
+      "creator": "",
+      "resolver_method": "skipped",
+      "confidence": "none",
+      "error": "no_image_metadata",
+      "checked_at": "2026-07-10T06:58:19+07:00",
+      "cleared_fake": false,
+      "written": false
+    },
+    {
       "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
       "path": "content/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md",
       "provider": "pexels",
@@ -2675,17 +2707,17 @@
       "slug": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
       "path": "content/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.md",
       "provider": "pexels",
-      "source_url": "https://www.pexels.com/photo/person-holding-brown-credit-card-and-cellphone-5198284/",
+      "source_url": "https://www.pexels.com/photo/a-hand-holding-a-cellphone-with-cryptograph-11279904/",
       "verified": true,
-      "creator": "Tima Miroshnichenko",
-      "creator_url": "https://www.pexels.com/@tima-miroshnichenko",
+      "creator": "Roger Brown",
+      "creator_url": "https://www.pexels.com/@roger-brown-3435524",
       "resolver_method": "pexels_api",
       "confidence": "high",
       "error": "",
-      "checked_at": "2026-07-10T06:37:05+07:00",
-      "from_cache": false,
+      "checked_at": "2026-07-10T06:10:07+07:00",
+      "from_cache": true,
       "cleared_fake": false,
-      "previous_creator": "Tima Miroshnichenko",
+      "previous_creator": "Roger Brown",
       "previous_verified": true,
       "written": true
     },
@@ -2737,7 +2769,7 @@
       "confidence": "high",
       "error": "",
       "checked_at": "2026-07-10T06:37:05+07:00",
-      "from_cache": false,
+      "from_cache": true,
       "cleared_fake": false,
       "previous_creator": "Ivan S",
       "previous_verified": true,
@@ -2969,7 +3001,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:05+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },
@@ -3037,7 +3069,7 @@
       "resolver_method": "skipped",
       "confidence": "none",
       "error": "no_image_metadata",
-      "checked_at": "2026-07-10T06:37:05+07:00",
+      "checked_at": "2026-07-10T06:58:19+07:00",
       "cleared_fake": false,
       "written": false
     },

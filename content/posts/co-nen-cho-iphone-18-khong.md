@@ -32,7 +32,7 @@ external_links:
 image: images/posts/co-nen-cho-iphone-18-khong.webp
 image_alt: Ảnh minh họa Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc
   17? — nguồn Pexels
-image_attribution_checked_at: '2026-07-10T06:15:16+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:07+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -44,7 +44,7 @@ faq:
 - answer: Khu vực này thường đông vào cuối tuần và mùa cao điểm. Nếu đi sớm, bạn sẽ
     tránh được dòng người đổ về từ 10 giờ trở đi.
 image: images/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:01+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

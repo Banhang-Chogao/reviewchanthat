@@ -39,7 +39,7 @@ faq:
 - answer: Áo khoác mỏng đến trung bình, áo len mỏng, quần dài, giày đi bộ thoải mái.
     Mang thêm lớp áo khi đi núi.
 image: images/posts/thoi-tiet-han-quoc-thang-10.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:04+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

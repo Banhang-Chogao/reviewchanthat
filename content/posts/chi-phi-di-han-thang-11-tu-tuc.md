@@ -32,7 +32,7 @@ external_links:
 - title: KoreaToDo — Gapyeong Day Trip Nami Island
   url: https://www.koreatodo.com/gapyeong-day-trip-nami-island
 image: images/posts/chi-phi-di-han-thang-11-tu-tuc.webp
-image_attribution_checked_at: '2026-07-10T06:15:15+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:06+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

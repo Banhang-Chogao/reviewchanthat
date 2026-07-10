@@ -1,10 +1,65 @@
 ---
-title: Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì
-slug: tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap
-date: '2026-07-10 05:58:08+07:00'
-description: Tài sản số và crypto đang bước vào giai đoạn được quản lý rõ hơn tại Việt Nam. Người dùng cần hiểu khái niệm, rủi ro, điểm khác với tiền ảo và vì sao thí điểm sàn hợp pháp không đồng nghĩa với đầu tư không rủi ro.
+ai_summary:
+  collapsed: false
+  disclaimer: Bài viết chỉ nhằm mục đích giải thích kiến thức tài chính và bối cảnh
+    pháp lý chung, không phải lời khuyên đầu tư, pháp lý hay thuế cá nhân.
+  enabled: true
+  items:
+  - Tài sản số là khái niệm rộng hơn crypto, có thể bao gồm tài sản mã hóa, token
+    và các dạng giá trị được ghi nhận trên hạ tầng số tùy theo cách pháp luật định
+    nghĩa.
+  - Việt Nam thí điểm hoặc xây dựng khung quản lý cho sàn tài sản số không đồng nghĩa
+    với việc mọi đồng coin, mọi sàn và mọi hình thức đầu tư đều an toàn hoặc được
+    bảo đảm.
+  - Người dùng cần phân biệt giữa sàn được cấp phép/thí điểm, sàn nước ngoài, ví tự
+    lưu ký, hoạt động đầu cơ và trách nhiệm thuế/pháp lý có thể phát sinh.
+  - Nguyên tắc an toàn là hiểu rủi ro trước, không dùng tiền vay, không FOMO theo
+    quảng cáo lợi nhuận và luôn kiểm tra nguồn thông tin chính thức.
+  title: Tóm tắt nhanh
+author: Minh Hoàng
+avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
 categories:
 - tai-chinh
+date: '2026-07-10 05:58:08+07:00'
+description: Tài sản số và crypto đang bước vào giai đoạn được quản lý rõ hơn tại
+  Việt Nam. Người dùng cần hiểu khái niệm, rủi ro, điểm khác với tiền ảo và vì sao
+  thí điểm sàn hợp pháp không đồng nghĩa với đầu tư không rủi ro.
+draft: false
+external_links:
+- title: Nghị quyết 05/2025/NQ-CP về triển khai thí điểm thị trường tài sản mã hóa
+    tại Việt Nam (Cổng thông tin Chính phủ)
+  url: https://vanban.chinhphu.vn/?pageid=27160&docid=215249
+- title: Toàn văn Nghị quyết 05/2025/NQ-CP (Xây dựng chính sách, pháp luật - Cổng
+    TTĐT Chính phủ)
+  url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-5-2025-nq-cp-ve-trien-khai-thi-diem-thi-truong-tai-san-ma-hoa-tai-viet-nam-119250909184045221.htm
+- title: Luật Công nghiệp công nghệ số số 71/2025/QH15 (Cổng thông tin Chính phủ)
+  url: https://vanban.chinhphu.vn/?pageid=27160&docid=214609&classid=1&typegroupid=3
+- title: Bắt đầu tiếp nhận hồ sơ cấp phép thị trường tài sản mã hóa từ ngày 20/1 (Báo
+    Chính phủ)
+  url: https://baochinhphu.vn/bat-dau-tiep-nhan-ho-so-cap-phep-thi-truong-tai-san-ma-hoa-tu-ngay-20-1-102260120185611897.htm
+- title: Bộ Tài chính thông tin về 5 hồ sơ cấp phép sàn giao dịch tài sản mã hóa (VnEconomy)
+  url: https://vneconomy.vn/bo-tai-chinh-thong-tin-ve-5-ho-so-cap-phep-san-giao-dich-tai-san-ma-hoa.htm
+- title: 'NHNN: Bitcoin và các loại tiền ảo tương tự không phải phương tiện thanh
+    toán hợp pháp (Báo Chính phủ)'
+  url: https://baochinhphu.vn/nhnn-cam-su-dung-bitcoin-102229280.htm
+image: images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp
+image_alt: Ảnh minh họa tài sản số và giao dịch crypto trên điện thoại — nguồn Pexels
+image_attribution_checked_at: '2026-07-10T07:08:09+07:00'
+image_attribution_source: pexels_api
+image_attribution_verified: true
+image_commercial_use: true
+image_creator: Roger Brown
+image_creator_id: '3435524'
+image_creator_url: https://www.pexels.com/@roger-brown-3435524
+image_license: Pexels License
+image_license_url: https://www.pexels.com/license/
+image_owner: external
+image_provider: pexels
+image_query: cryptocurrency blockchain bitcoin trading
+image_source: Pexels
+image_source_url: https://www.pexels.com/photo/a-hand-holding-a-cellphone-with-cryptograph-11279904/
+image_status: verified
+slug: tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap
 tags:
 - tài sản số
 - crypto
@@ -13,49 +68,9 @@ tags:
 - sàn crypto
 - tài chính cá nhân
 - Việt Nam
-author: Minh Hoàng
-avatar: https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang
-draft: false
-image: images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp
 thumbnail: images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp
-image_alt: Ảnh minh họa tài sản số và giao dịch crypto trên điện thoại — nguồn Pexels
-image_provider: pexels
-image_source: Pexels
-image_source_url: "https://www.pexels.com/photo/a-hand-holding-a-cellphone-with-cryptograph-11279904/"
-image_creator: Roger Brown
-image_creator_id: 3435524
-image_creator_url: "https://www.pexels.com/@roger-brown-3435524"
-image_license: Pexels License
-image_license_url: "https://www.pexels.com/license/"
-image_owner: external
-image_commercial_use: true
-image_attribution_source: pexels_api
-image_attribution_checked_at: "2026-07-10T06:37:05+07:00"
-image_attribution_verified: true
-image_status: verified
-external_links:
-- title: Nghị quyết 05/2025/NQ-CP về triển khai thí điểm thị trường tài sản mã hóa tại Việt Nam (Cổng thông tin Chính phủ)
-  url: https://vanban.chinhphu.vn/?pageid=27160&docid=215249
-- title: Toàn văn Nghị quyết 05/2025/NQ-CP (Xây dựng chính sách, pháp luật - Cổng TTĐT Chính phủ)
-  url: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-5-2025-nq-cp-ve-trien-khai-thi-diem-thi-truong-tai-san-ma-hoa-tai-viet-nam-119250909184045221.htm
-- title: Luật Công nghiệp công nghệ số số 71/2025/QH15 (Cổng thông tin Chính phủ)
-  url: https://vanban.chinhphu.vn/?pageid=27160&docid=214609&classid=1&typegroupid=3
-- title: Bắt đầu tiếp nhận hồ sơ cấp phép thị trường tài sản mã hóa từ ngày 20/1 (Báo Chính phủ)
-  url: https://baochinhphu.vn/bat-dau-tiep-nhan-ho-so-cap-phep-thi-truong-tai-san-ma-hoa-tu-ngay-20-1-102260120185611897.htm
-- title: Bộ Tài chính thông tin về 5 hồ sơ cấp phép sàn giao dịch tài sản mã hóa (VnEconomy)
-  url: https://vneconomy.vn/bo-tai-chinh-thong-tin-ve-5-ho-so-cap-phep-san-giao-dich-tai-san-ma-hoa.htm
-- title: 'NHNN: Bitcoin và các loại tiền ảo tương tự không phải phương tiện thanh toán hợp pháp (Báo Chính phủ)'
-  url: https://baochinhphu.vn/nhnn-cam-su-dung-bitcoin-102229280.htm
-ai_summary:
-  enabled: true
-  title: Tóm tắt nhanh
-  collapsed: false
-  disclaimer: Bài viết chỉ nhằm mục đích giải thích kiến thức tài chính và bối cảnh pháp lý chung, không phải lời khuyên đầu tư, pháp lý hay thuế cá nhân.
-  items:
-  - Tài sản số là khái niệm rộng hơn crypto, có thể bao gồm tài sản mã hóa, token và các dạng giá trị được ghi nhận trên hạ tầng số tùy theo cách pháp luật định nghĩa.
-  - Việt Nam thí điểm hoặc xây dựng khung quản lý cho sàn tài sản số không đồng nghĩa với việc mọi đồng coin, mọi sàn và mọi hình thức đầu tư đều an toàn hoặc được bảo đảm.
-  - Người dùng cần phân biệt giữa sàn được cấp phép/thí điểm, sàn nước ngoài, ví tự lưu ký, hoạt động đầu cơ và trách nhiệm thuế/pháp lý có thể phát sinh.
-  - Nguyên tắc an toàn là hiểu rủi ro trước, không dùng tiền vay, không FOMO theo quảng cáo lợi nhuận và luôn kiểm tra nguồn thông tin chính thức.
+title: Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu
+  gì
 ---
 
 ## Vì sao "tài sản số" bỗng thành từ khóa nóng?

@@ -30,7 +30,7 @@ faq:
     nối hầu hết địa điểm.
 - answer: Áo mưa gọn, giày chống nước. Túi chống nước cho điện thoại và máy ảnh.
 image: images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp
-image_attribution_checked_at: '2026-07-10T06:15:12+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:00+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

@@ -38,7 +38,7 @@ faq:
 - answer: Seoraksan sớm nhất trong các điểm phổ biến — dự báo 2025 đỉnh khoảng 23/10.
     Nên đi giữa–cuối tháng 10.
 image: images/posts/han-quoc-thang-10-co-la-do-chua.webp
-image_attribution_checked_at: '2026-07-10T06:15:14+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:04+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

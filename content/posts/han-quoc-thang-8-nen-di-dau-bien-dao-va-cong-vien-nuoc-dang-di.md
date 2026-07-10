@@ -28,7 +28,7 @@ faq:
     World.
 - answer: Đặt phòng trước 1 tháng, mua vé online, mang kem chống nắng và nước uống.
 image: images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp
-image_attribution_checked_at: '2026-07-10T06:15:09+07:00'
+image_attribution_checked_at: '2026-07-10T07:07:57+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true

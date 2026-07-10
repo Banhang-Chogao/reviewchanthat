@@ -1,22 +1,3 @@
----
-date: 2026-07-10 05:00:00+07:00
-image: static/images/posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.webp
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Julio Lopez
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@julio-lopez-75309646
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/cash-app-displayed-on-smartphone-and-laptop-29502355/
-image_status: verified
-thumbnail: static/images/posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.webp
----
-
 +++
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
 date = 2026-07-10T05:00:00+07:00

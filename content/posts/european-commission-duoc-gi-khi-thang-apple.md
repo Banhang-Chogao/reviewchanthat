@@ -27,7 +27,7 @@ external_links:
 - title: Tòa Tổng EU — Thông cáo cp260096en.pdf (8/7/2026)
 - title: Digital Markets Act — Trang chính thức EC
 image: images/posts/european-commission-duoc-gi-khi-thang-apple.webp
-image_attribution_checked_at: '2026-07-10T06:15:13+07:00'
+image_attribution_checked_at: '2026-07-10T07:08:02+07:00'
 image_attribution_source: pexels_api
 image_attribution_verified: true
 image_commercial_use: true
