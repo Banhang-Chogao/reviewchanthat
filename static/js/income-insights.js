@@ -958,12 +958,12 @@
       alert('Thư viện Excel chưa sẵn sàng, thử lại sau.');
       return;
     }
-    var headers = ['Income', 'Income_Label', 'Debt', 'Debt_Label', 'Transaction_Type', 'Route', 'Remark', 'Day', 'Month', 'Year'];
-    var sample = [16000000, 'Lương tháng 7', -3900000, 'Trả thẻ tín dụng', 'Chuyển khoản', 'Techcombank', 'Lương chính', 15, 7, 2026];
+    var headers = ['STT', 'Income', 'Income_Label', 'Debt', 'Debt_Label', 'Sub Total', 'Transaction_Type', 'Route', 'Remark', 'Date', 'Day', 'Month', 'Year'];
+    var sample = [1, 16000000, 'Lương tháng 7', -3900000, 'Trả thẻ tín dụng', 12100000, 'Chuyển khoản', 'Techcombank', 'Lương chính', '2026-07-15', 15, 7, 2026];
     var wsData = [headers, sample];
     var ws = XLSX.utils.aoa_to_sheet(wsData);
     ws['!cols'] = headers.map(function(h) {
-      return { wch: h === 'Remark' ? 30 : h === 'Income_Label' || h === 'Debt_Label' ? 18 : 14 };
+      return { wch: h === 'Remark' ? 30 : h === 'Income_Label' || h === 'Debt_Label' ? 18 : h === 'STT' ? 6 : 14 };
     });
     var wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, 'Transactions');
@@ -986,7 +986,7 @@
 
         var headerRow = rows[0];
         var colMap = {};
-        var expected = ['income', 'incomeLabel', 'debt', 'debtLabel', 'transactionType', 'route', 'remark', 'day', 'month', 'year'];
+        var expected = ['sequence', 'income', 'incomeLabel', 'debt', 'debtLabel', 'transactionType', 'route', 'remark', 'day', 'month', 'year'];
         var headerNorm = headerRow.map(function(h) {
           return String(h).toLowerCase().replace(/[^a-z0-9]/g, '');
         });
@@ -1008,9 +1008,9 @@
 
           function getVal(key) {
             var idx = colMap[key];
-            if (idx === undefined) return key === 'debt' ? 0 : key === 'day' || key === 'month' || key === 'year' ? (key === 'year' ? 2026 : key === 'month' ? 1 : 1) : '';
+            if (idx === undefined) return key === 'debt' ? 0 : key === 'sequence' ? 0 : key === 'day' || key === 'month' || key === 'year' ? (key === 'year' ? 2026 : key === 'month' ? 1 : 1) : '';
             var v = row[idx];
-            return (v !== undefined && v !== null) ? v : (key === 'debt' ? 0 : key === 'day' || key === 'month' || key === 'year' ? (key === 'year' ? 2026 : 1) : '');
+            return (v !== undefined && v !== null) ? v : (key === 'debt' ? 0 : key === 'sequence' ? 0 : key === 'day' || key === 'month' || key === 'year' ? (key === 'year' ? 2026 : 1) : '');
           }
 
           var inc = parseNumber(getVal('income'));
@@ -1019,10 +1019,11 @@
           var d = parseInt(getVal('day'), 10) || 1;
           var m = parseInt(getVal('month'), 10) || 1;
           var y = parseInt(getVal('year'), 10) || 2026;
+          var seq = parseInt(getVal('sequence'), 10) || 0;
 
           var txn = computeFormulas({
             id: genId(),
-            sequence: imported.length + 1,
+            sequence: seq || (imported.length + 1),
             income: inc,
             incomeLabel: String(getVal('incomeLabel') || ''),
             debt: deb,
