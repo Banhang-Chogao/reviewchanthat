@@ -334,19 +334,7 @@
 
     exportPDF() {
       if (!this.currentTrip) return;
-
-      const docTitle = `Travel-Itinerary-${this.currentTrip.destination}-${this.currentTrip.departure}`;
-      const url = `/api/export/pdf?trip=${encodeURIComponent(JSON.stringify(this.currentTrip))}`;
-
-      fetch(url)
-        .then(r => r.blob())
-        .then(blob => {
-          const a = document.createElement('a');
-          a.href = URL.createObjectURL(blob);
-          a.download = `${docTitle}.pdf`;
-          a.click();
-        })
-        .catch(err => this.showError('Export PDF failed: ' + err.message));
+      window.print();
     }
 
     exportExcel() {

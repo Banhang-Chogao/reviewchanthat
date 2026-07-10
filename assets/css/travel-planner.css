@@ -1004,10 +1004,16 @@
 }
 
 .visa-header h1 {
-  margin: 0;
+  margin: 0 0 0.25rem 0;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.visa-header p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--color-muted, #666);
 }
 
 .visa-section {
@@ -1086,76 +1092,187 @@
   text-align: right;
 }
 
-/* Print optimization */
+/* === Print Styles — Visa Itinerary Professional Export === */
 @media print {
-  .visa-table {
-    border: 1px solid #000;
+  @page {
+    size: A4;
+    margin: 20mm 15mm 22mm 15mm;
+
+    @bottom-center {
+      content: counter(page) " / " counter(pages);
+      font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      font-size: 7.5pt;
+      color: #555;
+    }
+  }
+
+  * {
     background: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
   }
 
-  .visa-table th,
-  .visa-table td {
-    border: 1px solid #000 !important;
-    background: #fff !important;
+  body {
+    font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
   }
 
-  .visa-table thead {
-    background: #fff !important;
-    border-bottom: 2px solid #000;
-  }
-
-  .visa-table tbody tr:nth-child(even) {
-    background: #fff !important;
-  }
-
-  .visa-section {
-    page-break-inside: avoid;
-  }
-
-  .visa-table-wrapper {
-    page-break-inside: avoid;
-  }
-}
-
-/* === Print Styles === */
-@media print {
   .travel-planner__hero,
   .travel-planner__input-section,
+  .travel-planner__progress,
+  .travel-planner__error,
   .travel-planner__actions,
   .travel-planner__export-section,
-  .travel-planner__version,
-  .travel-planner__progress,
-  .travel-planner__error {
+  .travel-planner__export-btn,
+  .travel-planner__packing-list-section,
+  #tpPackingCard,
+  #tpRecommendations,
+  .travel-planner__toggle-btn,
+  .travel-planner__optional-fields,
+  .travel-planner__summary-cards,
+  .travel-planner__timeline-section,
+  .travel-planner__info-cards {
     display: none !important;
   }
 
   .travel-planner__main {
     max-width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #tpResult {
+    display: block !important;
+    position: relative;
+  }
+
+  .visa-itinerary-document {
+    display: block !important;
+    margin: 0;
     padding: 0;
   }
 
-  .travel-planner__timeline-section,
-  .travel-planner__visa-section,
-  .travel-planner__info-cards {
-    page-break-inside: avoid;
-  }
-
-  .travel-planner__day-card {
-    page-break-inside: avoid;
-    break-inside: avoid;
-    box-shadow: none;
-    border: 1px solid #ddd;
-  }
-
-  .travel-planner__summary-cards {
+  .visa-header {
+    text-align: center;
     margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #000;
   }
 
-  .travel-planner__section-title {
-    page-break-after: avoid;
+  .visa-header h1 {
+    font-size: 16pt;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0 0 0.25rem 0;
   }
 
-  .travel-planner__visa-table {
-    margin-bottom: 1rem;
+  .visa-header p {
+    font-size: 8pt;
+    color: #000;
+    margin: 0;
   }
+
+  .visa-section {
+    margin-bottom: 1.25rem;
+  }
+
+  .visa-section h2 {
+    font-size: 11pt;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.3rem;
+  }
+
+  .visa-table-wrapper {
+    overflow: visible;
+    margin-bottom: 0.75rem;
+  }
+
+  .visa-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    font-size: 8.5pt;
+    margin-bottom: 0;
+  }
+
+  .visa-table thead {
+    display: table-header-group;
+  }
+
+  .visa-table th,
+  .visa-table td {
+    border: 1px solid #000;
+    padding: 0.4rem 0.5rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .visa-table th {
+    background: #f5f5f5 !important;
+    font-weight: 700;
+    text-align: center;
+    font-size: 8pt;
+  }
+
+  .visa-table tbody tr:nth-child(even) {
+    background: #f9f9f9 !important;
+  }
+
+  .visa-table__label {
+    font-weight: 700;
+    width: 25%;
+    background: #f5f5f5 !important;
+  }
+
+  .visa-table__value {
+    text-align: left;
+  }
+
+  .visa-table__center {
+    text-align: center;
+  }
+
+  .visa-table__right {
+    text-align: right;
+  }
+
+  .visa-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .visa-table tbody tr:last-child td {
+    border-bottom: 1px solid #000;
+  }
+
+  .tp-print-watermark {
+    display: block !important;
+    position: fixed;
+    bottom: 16mm;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 9999;
+    padding-top: 0;
+    border-top: 0;
+    font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-size: 6.5pt;
+    color: #999 !important;
+  }
+}
+
+.tp-print-watermark {
+  display: none;
+  font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-size: 6.5pt;
+}
+
+.tp-print-watermark::after {
+  content: attr(data-watermark);
 }

@@ -15,12 +15,16 @@
       const city = destData.city || tripData.destination;
       const country = destData.country || '';
       const iata = destData.iata || '';
+      const today = new Date().toLocaleDateString('en-US', {
+        year: 'numeric', month: 'long', day: 'numeric'
+      });
 
       container.innerHTML = `
         <div class="visa-itinerary-document">
           <!-- Header -->
           <div class="visa-header">
             <h1>VISA APPLICATION ITINERARY</h1>
+            <p>Prepared for embassy submission · Generated: ${today}</p>
           </div>
 
           <!-- Applicant Information -->
@@ -115,19 +119,17 @@
         const date = new Date(startDate);
         date.setDate(date.getDate() + idx);
         const dateStr = date.toLocaleDateString('en-US', {
-          month: 'short',
-          day: 'numeric'
+          weekday: 'short', month: 'short', day: 'numeric'
         });
 
         return `
           <tr>
             <td class="visa-table__center">${idx + 1}</td>
-            <td class="visa-table__center">${dateStr}</td>
+            <td>${dateStr}</td>
             <td>${day.morning || '-'}</td>
+            <td>${day.lunch || '-'}</td>
             <td>${day.afternoon || '-'}</td>
-            <td>${day.evening || '-'}</td>
-            <td>${day.hotel || '-'}</td>
-            <td>${day.transportation || '-'}</td>
+            <td>${day.dinner || '-'}</td>
             <td>${day.notes || '-'}</td>
           </tr>
         `;
@@ -141,10 +143,9 @@
                 <th>Day</th>
                 <th>Date</th>
                 <th>Morning</th>
+                <th>Lunch</th>
                 <th>Afternoon</th>
-                <th>Evening</th>
-                <th>Hotel</th>
-                <th>Transport</th>
+                <th>Dinner</th>
                 <th>Remarks</th>
               </tr>
             </thead>
