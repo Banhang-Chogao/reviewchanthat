@@ -8,6 +8,8 @@ draft = false
 image = "images/posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.webp"
 thumbnail = "images/posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.webp"
 image_status = "pending"
+seo_title = "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào"
+description = "VPBank NEO là app ngân hàng số dành cho người dùng muốn giao dịch, quản lý tài khoản và thanh toán online; bài viết đánh giá tính năng, phí cần kiểm tra và nhóm người phù hợp trong năm 2026."
 
 [custom_image_queries]
 queries = [
@@ -29,8 +31,6 @@ items = [
   "Điểm mạnh: giao diện thân thiện, chuyển tiền 24/7, tiết kiệm dễ dàng, hỗ trợ vay nhỏ (nếu qualified). Điểm cần cân nhắc: lãi suất không cạnh tranh, tính năng vay có yêu cầu cao.",
   "Phù hợp: người dùng muốn app đơn giản, chuyển tiền nhanh, tiết kiệm cơ bản; cần xem xét khác nếu muốn lãi suất cao hoặc ecosystem fintech đầy đủ."
 ]
-seo_title = "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào"
-description = "VPBank NEO là app ngân hàng số dành cho người dùng muốn giao dịch, quản lý tài khoản và thanh toán online; bài viết đánh giá tính năng, phí cần kiểm tra và nhóm người phù hợp trong năm 2026."
 
 +++
 

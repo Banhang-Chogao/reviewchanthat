@@ -8,6 +8,8 @@ draft = false
 image = "images/posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.webp"
 thumbnail = "images/posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.webp"
 image_status = "pending"
+seo_title = "Fed, lãi suất, giá vàng và ảnh hưởng đến nền kinh tế Việt Nam 2026"
+description = "Hiểu Fed, lãi suất Mỹ, bond yield và giá vàng: cơ chế hoạt động, mối quan hệ, và tác động trực tiếp đến người Việt tiết kiệm, vay tiền, và đầu tư."
 
 [custom_image_queries]
 queries = [
@@ -29,8 +31,6 @@ items = [
   "Giá vàng và lãi suất có mối quan hệ ngược: lãi suất Fed tăng → vàng giảm (vì giữ tiền mặt lãi suất cao hơn giữ vàng không sinh lãi).",
   "Ảnh hưởng Việt Nam: Fed tăng lãi → tỷ giá USD/VND tăng → chi phí import tăng → lạm phát Việt Nam tăng → SBV phải tăng lãi suất theo."
 ]
-seo_title = "Fed, lãi suất, giá vàng và ảnh hưởng đến nền kinh tế Việt Nam 2026"
-description = "Hiểu Fed, lãi suất Mỹ, bond yield và giá vàng: cơ chế hoạt động, mối quan hệ, và tác động trực tiếp đến người Việt tiết kiệm, vay tiền, và đầu tư."
 
 +++
 

@@ -8,6 +8,8 @@ draft = false
 image = "images/posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.webp"
 thumbnail = "images/posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.webp"
 image_status = "pending"
+seo_title = "Techcombank Mobile review 2026: phí chuyển tiền, sinh lời tự động và ai nên dùng"
+description = "Techcombank Mobile là app ngân hàng số nổi bật với chuyển tiền, quản lý tài khoản và tính năng sinh lời tự động; bài viết đánh giá phí, trải nghiệm và nhóm người phù hợp trong năm 2026."
 
 [custom_image_queries]
 queries = [
@@ -29,8 +31,6 @@ items = [
   "Sinh lời tự động: liên kết với sản phẩm tiền gửi/tiết kiệm; lãi suất thay đổi theo SBV policy; cần tài khoản xác thực đầy đủ (KYC).",
   "Phù hợp: người cần ngân hàng số cơ bản, chuyển tiền thường xuyên, giữ tiền gửi tiết kiệm; cần cân nhắc nếu muốn dịch vụ vay/đầu tư phức tạp."
 ]
-seo_title = "Techcombank Mobile review 2026: phí chuyển tiền, sinh lời tự động và ai nên dùng"
-description = "Techcombank Mobile là app ngân hàng số nổi bật với chuyển tiền, quản lý tài khoản và tính năng sinh lời tự động; bài viết đánh giá phí, trải nghiệm và nhóm người phù hợp trong năm 2026."
 
 +++
 

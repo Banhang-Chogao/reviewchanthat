@@ -8,6 +8,8 @@ draft = false
 image = "images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp"
 thumbnail = "images/posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.webp"
 image_status = "pending"
+seo_title = "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới"
+description = "Người mới theo dõi chứng khoán Việt Nam năm 2026 nên hiểu VN-Index, nhóm cổ phiếu ngân hàng, rủi ro biến động và nguyên tắc quản trị vốn trước khi xuống tiền."
 
 [custom_image_queries]
 queries = [
@@ -29,8 +31,6 @@ items = [
   "Rủi ro năm 2026: biến động lãi suất SBV, tâm lý thị trường, định giá cao, margin buying, tin tức quốc tế ảnh hưởng khía cạnh vĩ mô.",
   "Sai lầm phổ biến: FOMO vào rally không hiểu định giá, margin buying tràn lan, tập trung toàn bộ vào một mã, không có kế hoạch thoát, bỏ qua quản lý rủi ro."
 ]
-seo_title = "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới"
-description = "Người mới theo dõi chứng khoán Việt Nam năm 2026 nên hiểu VN-Index, nhóm cổ phiếu ngân hàng, rủi ro biến động và nguyên tắc quản trị vốn trước khi xuống tiền."
 
 +++
 

@@ -8,6 +8,8 @@ draft = false
 image = "images/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.webp"
 thumbnail = "images/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.webp"
 image_status = "pending"
+seo_title = "AI stocks là gì? Cổ phiếu AI, chip và tác động toàn cầu lên nhà đầu tư Việt Nam"
+description = "AI stocks và chip stocks là công cụ đầu tư quan trọng trong kỷ nguyên AI. Bài viết giải thích cấu trúc thị trường chip, lãnh đạo như NVIDIA/TSMC, và ảnh hưởng đến Việt Nam."
 
 [custom_image_queries]
 queries = [
@@ -29,8 +31,6 @@ items = [
   "Ảnh hưởng đến Việt Nam: lương công nhân công ty chip tăng, chuỗi cung ứng thay đổi, nhập khẩu chip tăng, FDI tech dồi dào.",
   "Rủi ro: bubble định giá, chiến tranh thương mại Mỹ-Trung, tập trung quá nhiều vào vài cổ phiếu mega-cap, biến động công nghệ."
 ]
-seo_title = "AI stocks là gì? Cổ phiếu AI, chip và tác động toàn cầu lên nhà đầu tư Việt Nam"
-description = "AI stocks và chip stocks là công cụ đầu tư quan trọng trong kỷ nguyên AI. Bài viết giải thích cấu trúc thị trường chip, lãnh đạo như NVIDIA/TSMC, và ảnh hưởng đến Việt Nam."
 
 +++
 
