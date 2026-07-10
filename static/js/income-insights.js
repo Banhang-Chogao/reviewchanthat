@@ -965,7 +965,7 @@
     var wsData = [headers, sample];
     var ws = XLSX.utils.aoa_to_sheet(wsData);
     ws['!cols'] = headers.map(function(h) {
-      return { wch: h === 'Remark' ? 30 : h === 'Income_Label' || h === 'Debt_Label' ? 18 : h === 'STT' ? 6 : 14 };
+      return { wch: h === 'Remark' ? 30 : h === 'Income_Label' || h === 'Debt_Label' ? 18 : h === 'Sequence' ? 8 : 14 };
     });
     var wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, 'Transactions');
@@ -1041,6 +1041,14 @@
           });
           // Skip row nếu tất cả các trường nhập liệu đều rỗng/mặc định
           if (!inc && !deb && !txn.incomeLabel && !txn.debtLabel && !txn.transactionType && !txn.route && !txn.remark) continue;
+          // Validate: Income Label, Debt Label, Type bắt buộc phải có dữ liệu
+          var missing = [];
+          if (!txn.incomeLabel) missing.push('Income Label (dòng ' + (r + 1) + ')');
+          if (!txn.debtLabel) missing.push('Debt Label (dòng ' + (r + 1) + ')');
+          if (!txn.transactionType) missing.push('Transaction Type (dòng ' + (r + 1) + ')');
+          if (missing.length > 0) {
+            throw new Error('Thiếu dữ liệu bắt buộc:\n' + missing.join('\n'));
+          }
           imported.push(txn);
         }
 
