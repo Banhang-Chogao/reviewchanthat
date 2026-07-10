@@ -1,4 +1,8 @@
 User-agent: *
-Allow: /
+Allow: /reviewchanthat/
+
+Disallow: /reviewchanthat/admin/
+Disallow: /reviewchanthat/draft/
+Disallow: /reviewchanthat/search/
 
 Sitemap: {{ "sitemap.xml" | absURL }}

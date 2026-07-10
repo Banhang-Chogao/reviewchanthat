@@ -1,0 +1,315 @@
+{{ define "main" }}
+<main>
+  <div class="page-content">
+    <h1>{{ .Title }}</h1>
+    <p class="lead">{{ .Description }}</p>
+
+    {{ $data := .Site.Data.crawl_health }}
+
+    {{ if $data }}
+    <div class="dashboard">
+      <section class="dashboard-section">
+        <h2>Indexing Status</h2>
+        <div class="metrics-grid">
+          {{ if $data.indexing.google_indexed_sample }}
+          <div class="metric-card">
+            <div class="metric-label">Google Indexed (Sample)</div>
+            <div class="metric-value">{{ $data.indexing.google_indexed_sample.indexed_count }}/{{ $data.indexing.google_indexed_sample.total_checked }}</div>
+            <div class="metric-note">{{ $data.indexing.google_indexed_sample.sample_type }}</div>
+          </div>
+          {{ end }}
+
+          {{ if $data.indexing.gsc_metrics }}
+          <div class="metric-card">
+            <div class="metric-label">Search Impressions</div>
+            <div class="metric-value">{{ $data.indexing.gsc_metrics.total_impressions }}</div>
+            <div class="metric-note">{{ $data.indexing.gsc_metrics.sample_type }}</div>
+          </div>
+          {{ end }}
+
+          {{ if $data.indexing.gsc_metrics }}
+          <div class="metric-card">
+            <div class="metric-label">Average Position</div>
+            <div class="metric-value">{{ $data.indexing.gsc_metrics.avg_position }}</div>
+            <div class="metric-note">{{ $data.indexing.gsc_metrics.pages_with_data }} pages</div>
+          </div>
+          {{ end }}
+
+          {{ if $data.indexing.last_crawl_sample }}
+          <div class="metric-card">
+            <div class="metric-label">Last Crawl (Sample)</div>
+            <div class="metric-value">{{ $data.indexing.last_crawl_sample.last_crawl_time | dateFormat "2006-01-02" }}</div>
+            <div class="metric-note">{{ $data.indexing.last_crawl_sample.sample_type }}</div>
+          </div>
+          {{ end }}
+        </div>
+      </section>
+
+      <section class="dashboard-section">
+        <h2>Technical Status</h2>
+        <div class="status-checks">
+          {{ if $data.technical.robots }}
+          <div class="status-item {{ if eq $data.technical.robots.status "valid" }}success{{ else }}error{{ end }}">
+            <span class="status-icon">{{ if eq $data.technical.robots.status "valid" }}✓{{ else }}✗{{ end }}</span>
+            <span class="status-text">robots.txt</span>
+            {{ if $data.technical.robots.has_sitemap_declaration }}
+            <span class="status-detail">Sitemap declared</span>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          {{ if $data.technical.sitemap }}
+          <div class="status-item {{ if eq $data.technical.sitemap.status "success" }}success{{ else }}error{{ end }}">
+            <span class="status-icon">{{ if eq $data.technical.sitemap.status "success" }}✓{{ else }}✗{{ end }}</span>
+            <span class="status-text">sitemap.xml</span>
+            {{ if $data.technical.sitemap.sitemaps }}
+            <span class="status-detail">{{ len $data.technical.sitemap.sitemaps }} sitemap(s)</span>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          {{ if $data.technical.live_status }}
+          <div class="status-item success">
+            <span class="status-icon">✓</span>
+            <span class="status-text">Live Status</span>
+            <span class="status-detail">{{ $data.technical.live_status.http_200_count }}/{{ $data.technical.live_status.total }} OK</span>
+          </div>
+          {{ end }}
+        </div>
+      </section>
+
+      <section class="dashboard-section">
+        <h2>Quality Checks</h2>
+        <div class="status-checks">
+          {{ if $data.quality.canonical_audit }}
+          <div class="status-item {{ if eq $data.quality.canonical_audit.status "clean" }}success{{ else }}warning{{ end }}">
+            <span class="status-icon">{{ if eq $data.quality.canonical_audit.status "clean" }}✓{{ else }}⚠{{ end }}</span>
+            <span class="status-text">Canonical Tags</span>
+            {{ if gt $data.quality.canonical_audit.canonical_issues 0 }}
+            <span class="status-detail">{{ $data.quality.canonical_audit.canonical_issues }} issue(s)</span>
+            {{ else }}
+            <span class="status-detail">OK</span>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          {{ if $data.quality.orphan_posts }}
+          <div class="status-item {{ if eq $data.quality.orphan_posts.status "clean" }}success{{ else }}warning{{ end }}">
+            <span class="status-icon">{{ if eq $data.quality.orphan_posts.status "clean" }}✓{{ else }}⚠{{ end }}</span>
+            <span class="status-text">Orphan Posts</span>
+            {{ if $data.quality.orphan_posts.orphan_count }}
+            <span class="status-detail">{{ $data.quality.orphan_posts.count }} post(s)</span>
+            {{ else }}
+            <span class="status-detail">OK</span>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </section>
+
+      {{ if $data.actions }}
+      <section class="dashboard-section">
+        <h2>Action Items</h2>
+        <ul class="action-list">
+          {{ range $data.actions | first 10 }}
+          <li class="action-item priority-{{ .priority }}">
+            <span class="action-type">{{ .type | humanize }}</span>
+            <span class="action-desc">{{ .description }}</span>
+            {{ if .url }}<a href="{{ .url }}">View</a>{{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </section>
+      {{ end }}
+
+      <section class="dashboard-meta">
+        <p><small>Generated: {{ $data.generated_at | dateFormat "2006-01-02 15:04:05" }} UTC</small></p>
+        <p><small>{{ $data.site.note }}</small></p>
+      </section>
+    </div>
+    {{ else }}
+    <div class="alert alert-info">
+      <p>Crawl health data not yet available. Check back after the next crawl-doctor run.</p>
+    </div>
+    {{ end }}
+  </div>
+</main>
+
+<style>
+.dashboard {
+  margin-top: 2rem;
+}
+
+.dashboard-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg);
+}
+
+.dashboard-section h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: var(--text);
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.metric-card {
+  padding: 1rem;
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+.metric-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.metric-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.metric-note {
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+.status-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border-left: 4px solid var(--border);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--surface);
+}
+
+.status-item.success {
+  border-left-color: var(--success, #0f973d);
+  color: var(--success, #0f973d);
+}
+
+.status-item.error {
+  border-left-color: var(--error, #d92d20);
+  color: var(--error, #d92d20);
+}
+
+.status-item.warning {
+  border-left-color: var(--warning, #e8a838);
+  color: var(--warning, #e8a838);
+}
+
+.status-icon {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.status-text {
+  flex: 1;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.status-detail {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.action-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.action-item {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--surface);
+  border-left: 4px solid var(--border);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  align-items: center;
+}
+
+.action-item.priority-high {
+  border-left-color: var(--error, #d92d20);
+}
+
+.action-item.priority-medium {
+  border-left-color: var(--warning, #e8a838);
+}
+
+.action-type {
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--muted);
+  min-width: 100px;
+}
+
+.action-desc {
+  flex: 1;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.action-item a {
+  font-size: 0.85rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  background: var(--border);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.dashboard-meta {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .status-item,
+  .action-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .status-text {
+    flex: none;
+  }
+}
+</style>
+{{ end }}
