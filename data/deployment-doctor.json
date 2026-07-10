@@ -1,25 +1,35 @@
 {
-  "generated_at": "2026-07-10T07:47:14+07:00",
-  "generated_at_display": "10-07-2026 07:47:14",
+  "generated_at": "2026-07-10T07:49:34+07:00",
+  "generated_at_display": "10-07-2026 07:49:34",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 38,
-    "safe_autofixes_available": 31,
+    "failed_runs_scanned": 39,
+    "safe_autofixes_available": 32,
     "unsafe_external_failures": 7,
     "open_action_items": 9,
     "loop_guarded_attempts": 45,
     "by_type": {
       "workflow_fanout": 27,
       "hugo_build_error": 7,
-      "content_direction_optimizer_fail": 2,
+      "content_direction_optimizer_fail": 3,
       "sitemap_noindex_mismatch": 2
     }
   },
   "recent_failures": [
+    {
+      "run_id": "29060799975",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "39e0743",
+      "status": "failure",
+      "rootcause": "content_direction_optimizer_fail",
+      "safe_to_autofix": true,
+      "action": "Kiểm tra content/posts/ có file front matter lỗi",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29060799975"
+    },
     {
       "run_id": "29059940624",
       "workflow": "Deploy to GitHub Pages",
@@ -309,16 +319,6 @@
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058962827"
-    },
-    {
-      "run_id": "29058962793",
-      "workflow": "Auto Merge",
-      "commit": "efceafb",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29058962793"
     }
   ],
   "clusters": {
@@ -492,6 +492,12 @@
     "deploy_live": [],
     "ux_layout": [],
     "other": [
+      {
+        "failure_type": "content_direction_optimizer_fail",
+        "run_id": "29060799975",
+        "rootcause": "Content Direction Optimizer script failed — thường do front matter parse error.",
+        "safe_to_autofix": true
+      },
       {
         "failure_type": "content_direction_optimizer_fail",
         "run_id": "29059940624",
@@ -791,6 +797,12 @@
   ],
   "autofix_history": [
     {
+      "run_id": "29060799975",
+      "failure_type": "content_direction_optimizer_fail",
+      "result": "skipped",
+      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
+    },
+    {
       "run_id": "29059940624",
       "failure_type": "content_direction_optimizer_fail",
       "result": "skipped",
@@ -829,15 +841,15 @@
     {
       "run_id": "29059542133",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 447e0e5120f1:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29059538722",
       "failure_type": "workflow_fanout",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
     },
     {
       "run_id": "29059538638",
