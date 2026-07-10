@@ -431,23 +431,7 @@
       tr.appendChild(cellInput('text', t.debtLabel || '', 'debtLabel', i, { cls: 'income-table__col-label' }));
       tr.appendChild(cellInput('text', formatVND(t.subTotal), 'subTotal', i, { cls: 'income-table__col-total', readonly: true, align: 'right' }));
 
-      // Type select
-      var tdType = document.createElement('td');
-      tdType.setAttribute('data-label', 'Type');
-      var sel = document.createElement('select');
-      for (var k = 0; k < TRANSACTION_TYPES.length; k++) {
-        var opt = document.createElement('option');
-        opt.value = TRANSACTION_TYPES[k];
-        opt.textContent = TRANSACTION_TYPES[k] || 'Chọn...';
-        sel.appendChild(opt);
-      }
-      sel.value = t.transactionType || '';
-      sel.dataset.idx = i;
-      sel.dataset.field = 'transactionType';
-      sel.addEventListener('change', onFieldChange);
-      tdType.appendChild(sel);
-      tr.appendChild(tdType);
-
+      tr.appendChild(cellInput('text', t.transactionType || '', 'transactionType', i, { cls: 'income-table__col-type' }));
       tr.appendChild(cellInput('text', t.route || '', 'route', i, { cls: 'income-table__col-route' }));
       tr.appendChild(cellInput('text', t.remark || '', 'remark', i, { cls: 'income-table__col-remark' }));
       tr.appendChild(cellInput('text', t.date || '', 'date', i, { cls: 'income-table__col-date', readonly: true }));
