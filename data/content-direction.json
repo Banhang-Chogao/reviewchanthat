@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-10T06:50:10+07:00",
-  "generated_at_display": "10-07-2026 06:50:10",
+  "generated_at": "2026-07-10T15:01:36+07:00",
+  "generated_at_display": "10-07-2026 15:01:36",
   "summary": {
-    "total_posts": 174,
+    "total_posts": 208,
     "draft_posts": 0,
-    "total_words": 205747,
-    "average_words_per_post": 1182,
+    "total_words": 259431,
+    "average_words_per_post": 1247,
     "categories_count": 5,
-    "tags_count": 443,
+    "tags_count": 633,
     "authors_count": 1,
-    "parse_warnings": 0
+    "parse_warnings": 1
   },
   "categories": [
     {
@@ -18,25 +18,25 @@
     },
     {
       "name": "cong-nghe",
-      "count": 77
+      "count": 76
+    },
+    {
+      "name": "tai-chinh",
+      "count": 29
+    },
+    {
+      "name": "doi-song",
+      "count": 13
     },
     {
       "name": "review",
       "count": 11
-    },
-    {
-      "name": "tai-chinh",
-      "count": 4
-    },
-    {
-      "name": "doi-song",
-      "count": 3
     }
   ],
   "authors": [
     {
       "name": "Minh Hoàng",
-      "count": 174
+      "count": 183
     }
   ],
   "tags_top": [
@@ -53,16 +53,16 @@
       "count": 15
     },
     {
-      "name": "CI/CD",
-      "count": 12
-    },
-    {
       "name": "Jeju",
       "count": 12
     },
     {
       "name": "Hàn Quốc mùa hè",
       "count": 12
+    },
+    {
+      "name": "CI/CD",
+      "count": 11
     },
     {
       "name": "Hàn Quốc 2026",
@@ -79,6 +79,10 @@
     {
       "name": "iOS 27",
       "count": 10
+    },
+    {
+      "name": "series sống thông minh AI",
+      "count": 9
     },
     {
       "name": "Apple",
@@ -101,10 +105,6 @@
       "count": 8
     },
     {
-      "name": "GitHub Actions",
-      "count": 8
-    },
-    {
       "name": "Siri AI",
       "count": 8
     },
@@ -124,12 +124,110 @@
   "time": {
     "oldest": "2026-06-15T10:00:00+07:00",
     "oldest_display": "15-06-2026 10:00:00",
-    "newest": "2026-07-10T06:32:00+07:00",
-    "newest_display": "10-07-2026 06:32:00"
+    "newest": "2026-07-10T14:57:44+07:00",
+    "newest_display": "10-07-2026 14:57:44"
   },
   "seo": {
     "title_too_short": [],
     "title_too_long": [
+      {
+        "slug": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+        "title": "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam",
+        "seo_title": "AI stocks là gì? Cổ phiếu AI, chip và tác động toàn cầu lên nhà đầu tư Việt Nam",
+        "effective_title": "AI stocks là gì? Cổ phiếu AI, chip và tác động toàn cầu lên nhà đầu tư Việt Nam",
+        "length": 79
+      },
+      {
+        "slug": "ai-trong-tai-chinh-dung-toan-hoc-gi",
+        "title": "AI trong tài chính: Deep learning, NLP, và reinforcement learning",
+        "seo_title": "AI tài chính: deep learning, NLP sentiment, reinforcement learning",
+        "effective_title": "AI tài chính: deep learning, NLP sentiment, reinforcement learning",
+        "length": 66
+      },
+      {
+        "slug": "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
+        "title": "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp",
+        "seo_title": "Apple Pay Việt Nam 2026: danh sách ngân hàng hỗ trợ, cách thêm thẻ và xử lý lỗi thường gặp",
+        "effective_title": "Apple Pay Việt Nam 2026: danh sách ngân hàng hỗ trợ, cách thêm thẻ và xử lý lỗi thường gặp",
+        "length": 90
+      },
+      {
+        "slug": "black-scholes-la-gi-so-e-dinh-gia-quyen-chon",
+        "title": "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e",
+        "seo_title": "Black-Scholes: định giá option, call price, implied volatility",
+        "effective_title": "Black-Scholes: định giá option, call price, implied volatility",
+        "length": 62
+      },
+      {
+        "slug": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+        "title": "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?",
+        "seo_title": "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới",
+        "effective_title": "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới",
+        "length": 79
+      },
+      {
+        "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
+        "title": "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?",
+        "seo_title": "Fed, lãi suất, giá vàng và ảnh hưởng đến nền kinh tế Việt Nam 2026",
+        "effective_title": "Fed, lãi suất, giá vàng và ảnh hưởng đến nền kinh tế Việt Nam 2026",
+        "length": 66
+      },
+      {
+        "slug": "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien",
+        "title": "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio",
+        "seo_title": "Định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation",
+        "effective_title": "Định giá cổ phiếu: DCF, P/E, terminal value, comparable valuation",
+        "length": 65
+      },
+      {
+        "slug": "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026",
+        "title": "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026",
+        "seo_title": "MoMo, ZaloPay hay ShopeePay 2026? So sánh chi tiết chọn ví điện tử phù hợp nhất",
+        "effective_title": "MoMo, ZaloPay hay ShopeePay 2026? So sánh chi tiết chọn ví điện tử phù hợp nhất",
+        "length": 79
+      },
+      {
+        "slug": "monte-carlo-trong-tai-chinh-la-gi",
+        "title": "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản",
+        "seo_title": "Monte Carlo: simulation, Brownian motion, exotic options, VaR",
+        "effective_title": "Monte Carlo: simulation, Brownian motion, exotic options, VaR",
+        "length": 61
+      },
+      {
+        "slug": "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien",
+        "title": "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến",
+        "seo_title": "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh 7 app phổ biến: Techcombank, VPBank NEO, Cake, ACB, MB Bank và Big 4",
+        "effective_title": "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh 7 app phổ biến: Techcombank, VPBank NEO, Cake, ACB, MB Bank và Big 4",
+        "length": 117
+      },
+      {
+        "slug": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
+        "title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?",
+        "seo_title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD là gì và emergency fund bao nhiêu là đủ?",
+        "effective_title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD là gì và emergency fund bao nhiêu là đủ?",
+        "length": 105
+      },
+      {
+        "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
+        "title": "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục",
+        "seo_title": "Quỹ đầu tư dùng toán học: Sharpe ratio, CAPM, efficient frontier",
+        "effective_title": "Quỹ đầu tư dùng toán học: Sharpe ratio, CAPM, efficient frontier",
+        "length": 64
+      },
+      {
+        "slug": "renaissance-technologies-quantitative-finance-toan-hoc-dau-tu",
+        "title": "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền",
+        "seo_title": "Renaissance Technologies: Jim Simons, Medallion Fund, quant trading",
+        "effective_title": "Renaissance Technologies: Jim Simons, Medallion Fund, quant trading",
+        "length": 67
+      },
+      {
+        "slug": "risk-management-trong-tai-chinh-dung-toan-hoc",
+        "title": "Risk Management trong tài chính: Từ VaR đến stress testing",
+        "seo_title": "Risk management: VaR, CVaR, stress test, correlation breakdown",
+        "effective_title": "Risk management: VaR, CVaR, stress test, correlation breakdown",
+        "length": 62
+      },
       {
         "slug": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
         "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
@@ -138,31 +236,165 @@
         "length": 81
       },
       {
+        "slug": "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien",
+        "title": "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?",
+        "seo_title": "Techcombank Mobile review 2026: phí chuyển tiền, sinh lời tự động và ai nên dùng",
+        "effective_title": "Techcombank Mobile review 2026: phí chuyển tiền, sinh lời tự động và ai nên dùng",
+        "length": 80
+      },
+      {
         "slug": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
         "title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
         "seo_title": "",
         "effective_title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
         "length": 77
+      },
+      {
+        "slug": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+        "title": "VPBank NEO review 2026: app ngân hàng số này hợp với ai?",
+        "seo_title": "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào",
+        "effective_title": "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào",
+        "length": 63
+      },
+      {
+        "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "seo_title": "",
+        "effective_title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "length": 63
       }
     ],
-    "description_missing": [],
+    "description_missing": [
+      {
+        "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai"
+      }
+    ],
     "description_too_short": [],
     "description_too_long": [
+      {
+        "slug": "20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay",
+        "title": "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày",
+        "length": 177
+      },
+      {
+        "slug": "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu",
+        "title": "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư",
+        "length": 170
+      },
+      {
+        "slug": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+        "title": "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam",
+        "length": 172
+      },
+      {
+        "slug": "ai-trong-tai-chinh-dung-toan-hoc-gi",
+        "title": "AI trong tài chính: Deep learning, NLP, và reinforcement learning",
+        "length": 175
+      },
+      {
+        "slug": "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
+        "title": "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp",
+        "length": 179
+      },
+      {
+        "slug": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
+        "title": "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững",
+        "length": 202
+      },
+      {
+        "slug": "cfa-dung-toan-hoc-gi",
+        "title": "CFA dùng toán học gì? Những công thức quận lý tài sản",
+        "length": 183
+      },
+      {
+        "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
+        "title": "Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?",
+        "length": 183
+      },
+      {
+        "slug": "frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh",
+        "title": "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro",
+        "length": 170
+      },
+      {
+        "slug": "goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao",
+        "title": "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives",
+        "length": 171
+      },
+      {
+        "slug": "ham-so-mu-e-trong-tai-chinh-la-gi",
+        "title": "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản",
+        "length": 178
+      },
+      {
+        "slug": "log-tu-nhien-log-return-trong-dau-tu",
+        "title": "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?",
+        "length": 184
+      },
+      {
+        "slug": "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026",
+        "title": "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026",
+        "length": 187
+      },
+      {
+        "slug": "monte-carlo-trong-tai-chinh-la-gi",
+        "title": "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản",
+        "length": 164
+      },
+      {
+        "slug": "nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026",
+        "title": "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?",
+        "length": 169
+      },
+      {
+        "slug": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
+        "title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?",
+        "length": 173
+      },
+      {
+        "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
+        "title": "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục",
+        "length": 200
+      },
+      {
+        "slug": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+        "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+        "length": 183
+      },
       {
         "slug": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
         "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
         "length": 213
       },
       {
+        "slug": "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien",
+        "title": "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?",
+        "length": 185
+      },
+      {
         "slug": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
         "title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
         "length": 238
+      },
+      {
+        "slug": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+        "title": "VPBank NEO review 2026: app ngân hàng số này hợp với ai?",
+        "length": 190
       }
     ],
     "slug_too_long": [
       {
         "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "length": 88
+      },
+      {
+        "slug": "ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6",
+        "length": 79
+      },
+      {
+        "slug": "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
+        "length": 77
       },
       {
         "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
@@ -185,6 +417,10 @@
         "length": 81
       },
       {
+        "slug": "digital-minimalism-trong-thoi-dai-ai-dung-it-ung-dung-hon-nhung-hieu-qua-hon",
+        "length": 76
+      },
+      {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "length": 83
       },
@@ -199,6 +435,14 @@
       {
         "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
         "length": 77
+      },
+      {
+        "slug": "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien",
+        "length": 102
+      },
+      {
+        "slug": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
+        "length": 76
       },
       {
         "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
@@ -242,6 +486,42 @@
         ]
       },
       {
+        "slug": "ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te",
+        "stop_words": [
+          "co",
+          "va"
+        ]
+      },
+      {
+        "slug": "ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi",
+        "stop_words": [
+          "nhu",
+          "the"
+        ]
+      },
+      {
+        "slug": "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu",
+        "stop_words": [
+          "nhu",
+          "the"
+        ]
+      },
+      {
+        "slug": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+        "stop_words": [
+          "co",
+          "la"
+        ]
+      },
+      {
+        "slug": "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
+        "stop_words": [
+          "nhung",
+          "the",
+          "va"
+        ]
+      },
+      {
         "slug": "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
         "stop_words": [
           "va"
@@ -255,6 +535,18 @@
       },
       {
         "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "black-scholes-la-gi-so-e-dinh-gia-quyen-chon",
+        "stop_words": [
+          "la"
+        ]
+      },
+      {
+        "slug": "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc",
         "stop_words": [
           "va"
         ]
@@ -328,6 +620,12 @@
         "slug": "chuan-bi-macbook-truoc-khi-len-macos-27",
         "stop_words": [
           "khi"
+        ]
+      },
+      {
+        "slug": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+        "stop_words": [
+          "co"
         ]
       },
       {
@@ -405,6 +703,12 @@
         ]
       },
       {
+        "slug": "digital-minimalism-trong-thoi-dai-ai-dung-it-ung-dung-hon-nhung-hieu-qua-hon",
+        "stop_words": [
+          "nhung"
+        ]
+      },
+      {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "stop_words": [
           "de",
@@ -443,10 +747,23 @@
         ]
       },
       {
+        "slug": "goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao",
+        "stop_words": [
+          "nhu",
+          "the"
+        ]
+      },
+      {
         "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
         "stop_words": [
           "de",
           "the"
+        ]
+      },
+      {
+        "slug": "ham-so-mu-e-trong-tai-chinh-la-gi",
+        "stop_words": [
+          "la"
         ]
       },
       {
@@ -631,6 +948,24 @@
         ]
       },
       {
+        "slug": "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
+        "slug": "monte-carlo-trong-tai-chinh-la-gi",
+        "stop_words": [
+          "la"
+        ]
+      },
+      {
+        "slug": "mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio",
+        "stop_words": [
+          "mot"
+        ]
+      },
+      {
         "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
         "stop_words": [
           "de",
@@ -652,6 +987,13 @@
       {
         "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
         "stop_words": [
+          "va"
+        ]
+      },
+      {
+        "slug": "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien",
+        "stop_words": [
+          "cac",
           "va"
         ]
       },
@@ -683,6 +1025,13 @@
         "slug": "pin-iphone-16-pro-max-co-dang-chon",
         "stop_words": [
           "co"
+        ]
+      },
+      {
+        "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
+        "stop_words": [
+          "nhu",
+          "the"
         ]
       },
       {
@@ -808,9 +1157,21 @@
         ]
       },
       {
+        "slug": "vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh",
+        "stop_words": [
+          "de"
+        ]
+      },
+      {
         "slug": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
         "stop_words": [
           "co"
+        ]
+      },
+      {
+        "slug": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+        "stop_words": [
+          "voi"
         ]
       },
       {
@@ -842,6 +1203,12 @@
         ]
       },
       {
+        "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
         "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "stop_words": [
           "khi",
@@ -858,49 +1225,97 @@
     ]
   },
   "freshness": {
-    "average_age_days": 1,
+    "average_age_days": 2,
     "old_posts_over_365_days": [],
     "new_posts_under_30_days": [
       {
         "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay",
+        "title": "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày",
+        "age_days": 0,
+        "date": "10-07-2026 14:52:38"
+      },
+      {
+        "slug": "ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te",
+        "title": "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế",
+        "age_days": 0,
+        "date": "10-07-2026 14:53:44"
+      },
+      {
+        "slug": "ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6",
+        "title": "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6",
+        "age_days": 0,
+        "date": "10-07-2026 14:55:44"
+      },
+      {
+        "slug": "ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi",
+        "title": "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí",
+        "age_days": 0,
+        "date": "10-07-2026 14:56:44"
+      },
+      {
+        "slug": "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu",
+        "title": "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư",
+        "age_days": 0,
+        "date": "10-07-2026 14:54:44"
+      },
+      {
+        "slug": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+        "title": "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam",
+        "age_days": 0,
+        "date": "10-07-2026 05:00:00"
+      },
+      {
+        "slug": "ai-trong-tai-chinh-dung-toan-hoc-gi",
+        "title": "AI trong tài chính: Deep learning, NLP, và reinforcement learning",
+        "age_days": 0,
+        "date": "10-07-2026 12:30:00"
       },
       {
         "slug": "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang",
         "title": "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:20:00"
       },
       {
         "slug": "app-store-gatekeeper-apple-so-mat-dieu-gi",
         "title": "App Store gatekeeper: Apple sợ mất điều gì?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:40:00"
+      },
+      {
+        "slug": "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
+        "title": "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp",
+        "age_days": 0,
+        "date": "10-07-2026 09:00:00"
       },
       {
         "slug": "apple-thua-kien-eu-app-store-ios-dma",
         "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:00:00"
       },
       {
         "slug": "apple-vs-ec-dma-tuong-lai-iphone",
         "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:20:00"
       },
       {
         "slug": "bangkok-3-ngay-3-dem-mua-mua",
         "title": "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "bangkok-ngay-mua-nen-di-dau",
         "title": "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -924,8 +1339,20 @@
       {
         "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
         "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "black-scholes-la-gi-so-e-dinh-gia-quyen-chon",
+        "title": "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e",
+        "age_days": 0,
+        "date": "10-07-2026 13:16:14"
+      },
+      {
+        "slug": "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc",
+        "title": "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ",
+        "age_days": 0,
+        "date": "10-07-2026 13:16:14"
       },
       {
         "slug": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
@@ -942,13 +1369,13 @@
       {
         "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "busan-thang-10-nen-di-dau",
         "title": "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 13:00:00"
       },
       {
@@ -960,73 +1387,79 @@
       {
         "slug": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
         "title": "Cách đọc một bài review để không bị dắt mũi",
-        "age_days": 24,
+        "age_days": 25,
         "date": "15-06-2026 10:00:00"
       },
       {
         "slug": "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
         "title": "Cách xây dựng thói quen mua sắm thông minh",
-        "age_days": 11,
+        "age_days": 12,
         "date": "28-06-2026 10:00:00"
       },
       {
         "slug": "camera-control-iphone-16-pro-max-co-tien-khong",
         "title": "Camera Control iPhone 16 Pro Max có tiện không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:20:00"
       },
       {
         "slug": "camera-iphone-15-pro-max-nam-2026-con-du-tot-khong",
         "title": "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 12:40:00"
       },
       {
         "slug": "camera-iphone-16-pro-max-so-voi-15-pro-max",
         "title": "Camera iPhone 16 Pro Max so với 15 Pro Max",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:40:00"
       },
       {
         "slug": "camera-iphone-18-co-gi-moi",
         "title": "Camera iPhone 18 có gì mới? Selfie 24MP, variable aperture và kỳ vọng chụp ảnh",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 13:00:00"
       },
       {
         "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao",
         "title": "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "cfa-dung-toan-hoc-gi",
+        "title": "CFA dùng toán học gì? Những công thức quận lý tài sản",
+        "age_days": 0,
+        "date": "10-07-2026 13:16:14"
       },
       {
         "slug": "checklist-truoc-khi-mua-mot-san-pham-online",
         "title": "Checklist trước khi mua một sản phẩm online",
-        "age_days": 19,
+        "age_days": 20,
         "date": "20-06-2026 14:00:00"
       },
       {
         "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "checklist-vali-di-thai-mua-mua",
         "title": "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
         "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1044,20 +1477,26 @@
       {
         "slug": "chiang-mai-mua-mua-co-gi-dep",
         "title": "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "chuan-bi-macbook-truoc-khi-len-macos-27",
         "title": "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 13:40:00"
+      },
+      {
+        "slug": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+        "title": "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?",
+        "age_days": 0,
+        "date": "10-07-2026 06:30:00"
       },
       {
         "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
@@ -1068,13 +1507,13 @@
       {
         "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
         "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "co-nen-cho-iphone-18-khong",
         "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:00:00"
       },
       {
@@ -1082,6 +1521,12 @@
         "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì",
         "age_days": 0,
         "date": "09-07-2026 17:30:00"
+      },
+      {
+        "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
+        "title": "Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?",
+        "age_days": 0,
+        "date": "10-07-2026 11:30:00"
       },
       {
         "slug": "content-direction-empty-report-va-optimizer-frontmatter",
@@ -1092,7 +1537,7 @@
       {
         "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1104,13 +1549,13 @@
       {
         "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
         "title": "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
         "title": "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1122,7 +1567,7 @@
       {
         "slug": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:00:00"
       },
       {
@@ -1140,49 +1585,55 @@
       {
         "slug": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
         "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "di-thai-lan-thang-7-co-nen-khong",
         "title": "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
         "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:00:00"
       },
       {
         "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:20:00"
+      },
+      {
+        "slug": "digital-minimalism-trong-thoi-dai-ai-dung-it-ung-dung-hon-nhung-hieu-qua-hon",
+        "title": "Digital Minimalism trong thời đại AI: dùng ít ứng dụng hơn nhưng hiệu quả hơn",
+        "age_days": 0,
+        "date": "10-07-2026 14:51:44"
       },
       {
         "slug": "doi-baht-o-viet-nam-hay-thai-lan",
         "title": "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
         "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 09:00:00"
       },
       {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1194,20 +1645,32 @@
       {
         "slug": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
         "title": "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
         "title": "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:40:00"
       },
       {
         "slug": "european-commission-duoc-gi-khi-thang-apple",
         "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:00:00"
+      },
+      {
+        "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
+        "title": "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?",
+        "age_days": 0,
+        "date": "10-07-2026 03:30:00"
+      },
+      {
+        "slug": "frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh",
+        "title": "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro",
+        "age_days": 0,
+        "date": "10-07-2026 13:16:14"
       },
       {
         "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
@@ -1236,31 +1699,43 @@
       {
         "slug": "goi-y-du-lich-han-quoc-thang-7-2026",
         "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 08:00:00"
+      },
+      {
+        "slug": "goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao",
+        "title": "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives",
+        "age_days": 0,
+        "date": "10-07-2026 13:16:14"
       },
       {
         "slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
         "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
         "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
         "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "ham-so-mu-e-trong-tai-chinh-la-gi",
+        "title": "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản",
+        "age_days": 0,
+        "date": "10-07-2026 13:16:14"
       },
       {
         "slug": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 08:00:00"
       },
       {
@@ -1272,19 +1747,19 @@
       {
         "slug": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
         "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
         "title": "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
         "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:10:00"
       },
       {
@@ -1302,121 +1777,121 @@
       {
         "slug": "ios-27-apple-intelligence-iphone-cu",
         "title": "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 08:40:00"
       },
       {
         "slug": "ios-27-beta-co-nen-cai-khong",
         "title": "iOS 27 beta có nên cài không? Rủi ro, cách backup và quay về bản ổn định",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "ios-27-cai-thien-pin-iphone",
         "title": "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:00:00"
       },
       {
         "slug": "ios-27-camera-anh-video-iphone",
         "title": "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:20:00"
       },
       {
         "slug": "ios-27-co-gi-moi",
         "title": "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 08:00:00"
       },
       {
         "slug": "ios-27-co-nen-cap-nhat-ngay-khong",
         "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:40:00"
       },
       {
         "slug": "ios-27-ho-tro-iphone-nao",
         "title": "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới Apple Intelligence",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 08:20:00"
       },
       {
         "slug": "ios-27-quyen-rieng-tu-iphone",
         "title": "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:20:00"
       },
       {
         "slug": "ios-27-so-voi-ios-26",
         "title": "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:40:00"
       },
       {
         "slug": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
         "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:20:00"
       },
       {
         "slug": "iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao",
         "title": "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 12:00:00"
       },
       {
         "slug": "iphone-15-pro-max-blue-titanium-co-dang-san",
         "title": "iPhone 15 Pro Max Blue Titanium có đáng săn?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:40:00"
       },
       {
         "slug": "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi",
         "title": "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 13:20:00"
       },
       {
         "slug": "iphone-15-pro-max-mau-titan-con-dang-mua-khong",
         "title": "iPhone 15 Pro Max màu titan có còn đáng mua không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:00:00"
       },
       {
         "slug": "iphone-15-pro-max-natural-titanium-danh-gia-mau",
         "title": "iPhone 15 Pro Max Natural Titanium: đánh giá màu",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:20:00"
       },
       {
         "slug": "iphone-16-pro-max-desert-titanium-hop-ai",
         "title": "iPhone 16 Pro Max Desert Titanium hợp ai?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:20:00"
       },
       {
         "slug": "iphone-16-pro-max-desert-titanium-tren-tay",
         "title": "iPhone 16 Pro Max Desert Titanium trên tay",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:00:00"
       },
       {
         "slug": "iphone-16-pro-max-nam-2026-nen-mua-khong",
         "title": "iPhone 16 Pro Max năm 2026 nên mua không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:20:00"
       },
       {
         "slug": "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao",
         "title": "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:40:00"
       },
       {
         "slug": "iphone-18-chip-a20-2nm",
         "title": "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:00:00"
       },
       {
@@ -1428,19 +1903,19 @@
       {
         "slug": "iphone-18-dynamic-island-nho-hon-under-display-face-id",
         "title": "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 12:00:00"
       },
       {
         "slug": "iphone-18-gia-bao-nhieu",
         "title": "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 14:00:00"
       },
       {
         "slug": "iphone-18-khi-nao-ra-mat",
         "title": "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1452,37 +1927,37 @@
       {
         "slug": "iphone-18-pro-max-co-gi-moi",
         "title": "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 08:00:00"
       },
       {
         "slug": "iphone-18-vs-iphone-17",
         "title": "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 15:00:00"
       },
       {
         "slug": "iphone-fold-iphone-ultra-la-gi",
         "title": "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
         "title": "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 10:00:00"
       },
       {
         "slug": "jeju-thang-10-co-dep-khong",
         "title": "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 14:00:00"
       },
       {
@@ -1494,37 +1969,37 @@
       {
         "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
         "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "koh-samui-mua-he-so-voi-phuket",
         "title": "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "krabi-mua-mua-ao-nang-railay-tour-dao",
         "title": "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 15:00:00"
       },
       {
         "slug": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
         "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 14:30:00"
       },
       {
@@ -1536,7 +2011,7 @@
       {
         "slug": "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau",
         "title": "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1546,63 +2021,93 @@
         "date": "10-07-2026 04:45:00"
       },
       {
+        "slug": "log-tu-nhien-log-return-trong-dau-tu",
+        "title": "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?",
+        "age_days": 0,
+        "date": "10-07-2026 11:00:00"
+      },
+      {
         "slug": "macos-27-apple-intelligence-macbook",
         "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:40:00"
       },
       {
         "slug": "macos-27-beta-co-nen-cai-khong",
         "title": "macOS 27 beta có nên cài không? Rủi ro, backup và cách quay về bản ổn định",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 13:00:00"
       },
       {
         "slug": "macos-27-cho-van-phong-creator-lap-trinh-vien",
         "title": "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 12:20:00"
       },
       {
         "slug": "macos-27-co-gi-moi",
         "title": "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:00:00"
       },
       {
         "slug": "macos-27-co-nen-nang-cap-ngay-khong",
         "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 12:40:00"
       },
       {
         "slug": "macos-27-hieu-nang-pin-macbook",
         "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 12:00:00"
       },
       {
         "slug": "macos-27-ho-tro-may-mac-nao",
         "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:20:00"
       },
       {
         "slug": "macos-27-so-voi-macos-26",
         "title": "macOS 27 so với macOS 26: khác gì với người dùng Mac?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 13:20:00"
+      },
+      {
+        "slug": "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien",
+        "title": "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio",
+        "age_days": 0,
+        "date": "10-07-2026 13:16:14"
+      },
+      {
+        "slug": "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026",
+        "title": "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026",
+        "age_days": 0,
+        "date": "10-07-2026 09:50:57"
+      },
+      {
+        "slug": "monte-carlo-trong-tai-chinh-la-gi",
+        "title": "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản",
+        "age_days": 0,
+        "date": "10-07-2026 12:15:00"
+      },
+      {
+        "slug": "mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio",
+        "title": "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ",
+        "age_days": 0,
+        "date": "10-07-2026 14:57:44"
       },
       {
         "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
         "title": "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:00:00"
       },
       {
@@ -1612,57 +2117,75 @@
         "date": "08-07-2026 19:30:00"
       },
       {
+        "slug": "nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026",
+        "title": "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?",
+        "age_days": 0,
+        "date": "09-07-2026 20:00:00"
+      },
+      {
         "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
         "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien",
+        "title": "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến",
+        "age_days": 0,
+        "date": "10-07-2026 08:00:00"
       },
       {
         "slug": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
         "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
         "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:40:00"
       },
       {
         "slug": "o-khu-nao-bangkok-mua-mua",
         "title": "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
         "title": "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:00:00"
       },
       {
         "slug": "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul",
         "title": "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
+      },
+      {
+        "slug": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
+        "title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?",
+        "age_days": 0,
+        "date": "10-07-2026 06:00:00"
       },
       {
         "slug": "phuket-mua-mua-co-nen-di-khong",
         "title": "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
         "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 13:00:00"
       },
       {
         "slug": "pin-iphone-16-pro-max-co-dang-chon",
         "title": "Pin iPhone 16 Pro Max có đáng chọn?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:00:00"
       },
       {
@@ -1672,15 +2195,33 @@
         "date": "10-07-2026 04:35:00"
       },
       {
+        "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
+        "title": "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục",
+        "age_days": 0,
+        "date": "10-07-2026 11:15:00"
+      },
+      {
+        "slug": "renaissance-technologies-quantitative-finance-toan-hoc-dau-tu",
+        "title": "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền",
+        "age_days": 0,
+        "date": "10-07-2026 11:45:00"
+      },
+      {
         "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
         "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
-        "age_days": 21,
+        "age_days": 22,
         "date": "18-06-2026 10:00:00"
+      },
+      {
+        "slug": "risk-management-trong-tai-chinh-dung-toan-hoc",
+        "title": "Risk Management trong tài chính: Từ VaR đến stress testing",
+        "age_days": 0,
+        "date": "10-07-2026 12:00:00"
       },
       {
         "slug": "seoraksan-thang-10-ngam-la-do",
         "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 12:00:00"
       },
       {
@@ -1692,13 +2233,13 @@
       {
         "slug": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
         "title": "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1710,31 +2251,37 @@
       {
         "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
         "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
         "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
-        "age_days": 14,
+        "age_days": 15,
         "date": "25-06-2026 10:00:00"
+      },
+      {
+        "slug": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+        "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+        "age_days": 0,
+        "date": "10-07-2026 14:49:47"
       },
       {
         "slug": "starbucks-nguyen-van-troi-sai-gon-review",
         "title": "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon",
-        "age_days": 0,
+        "age_days": 1,
         "date": "09-07-2026 08:00:00"
       },
       {
         "slug": "starbucks-vietnam-khong-gian-va-trai-nghiem",
         "title": "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\"",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 11:00:00"
       },
       {
         "slug": "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
         "title": "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 14:00:00"
       },
       {
@@ -1746,7 +2293,7 @@
       {
         "slug": "starbucks-vietnam-meo-goi-order-va-rewards",
         "title": "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 12:00:00"
       },
       {
@@ -1758,7 +2305,7 @@
       {
         "slug": "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab",
         "title": "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1768,9 +2315,15 @@
         "date": "10-07-2026 05:58:08"
       },
       {
+        "slug": "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien",
+        "title": "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?",
+        "age_days": 0,
+        "date": "10-07-2026 04:30:00"
+      },
+      {
         "slug": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1788,80 +2341,92 @@
       {
         "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
         "title": "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
+      },
+      {
+        "slug": "toan-hoc-dinh-cao-trong-tai-chinh",
+        "title": "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài",
+        "age_days": 0,
+        "date": "10-07-2026 12:45:00"
       },
       {
         "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
         "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
         "title": "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong",
         "title": "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 12:20:00"
       },
       {
         "slug": "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch",
         "title": "Trên tay iPhone 16 Pro Max màn hình 6.9 inch",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "ubon-ratchathani-candle-festival-thai-lan-thang-7",
         "title": "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
         "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
         "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
-        "age_days": 2,
+        "age_days": 3,
         "date": "07-07-2026 09:00:00"
+      },
+      {
+        "slug": "vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh",
+        "title": "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?",
+        "age_days": 0,
+        "date": "10-07-2026 14:52:44"
       },
       {
         "slug": "vi-sao-review-dai-chua-chac-da-dang-tin",
         "title": "Vì sao review dài chưa chắc đã đáng tin?",
-        "age_days": 17,
+        "age_days": 18,
         "date": "22-06-2026 10:00:00"
       },
       {
         "slug": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
         "title": "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:50:00"
+      },
+      {
+        "slug": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+        "title": "VPBank NEO review 2026: app ngân hàng số này hợp với ai?",
+        "age_days": 0,
+        "date": "10-07-2026 04:00:00"
       },
       {
         "slug": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
         "title": "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
-      },
-      {
-        "slug": "workflow-failures-audit-recent-ci-cd-root-causes-action-items",
-        "title": "Workflow Failures Audit: How We Identified Recent CI/CD Failures, Root Causes, and Action Items",
-        "age_days": 0,
-        "date": "09-07-2026 14:45:00"
       },
       {
         "slug": "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress",
@@ -1878,8 +2443,14 @@
       {
         "slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
         "title": "WWDC26: Phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu",
-        "age_days": 2,
+        "age_days": 3,
         "date": "07-07-2026 09:00:00"
+      },
+      {
+        "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "age_days": 0,
+        "date": "10-07-2026 14:50:44"
       },
       {
         "slug": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
@@ -1890,7 +2461,7 @@
       {
         "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1902,19 +2473,19 @@
       {
         "slug": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
         "title": "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "08-07-2026 09:30:00"
       }
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1660,
-    "average_outbound_per_post": 9.54,
+    "total_outbound_links": 1692,
+    "average_outbound_per_post": 8.13,
     "top_linked_posts": [
       {
         "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
         "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
-        "inbound": 36
+        "inbound": 37
       },
       {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -1937,14 +2508,14 @@
         "inbound": 25
       },
       {
-        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
-        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
+        "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "inbound": 24
       },
       {
-        "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
-        "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
-        "inbound": 23
+        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "inbound": 24
       },
       {
         "slug": "thoi-tiet-han-quoc-thang-10",
@@ -1954,7 +2525,7 @@
       {
         "slug": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
-        "inbound": 21
+        "inbound": 22
       },
       {
         "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
@@ -1962,51 +2533,287 @@
         "inbound": 19
       }
     ],
-    "orphan_posts": [],
-    "posts_missing_internal_links": []
+    "orphan_posts": [
+      {
+        "slug": "ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te",
+        "title": "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+      },
+      {
+        "slug": "ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6",
+        "title": "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+      },
+      {
+        "slug": "ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi",
+        "title": "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+      },
+      {
+        "slug": "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu",
+        "title": "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư"
+      },
+      {
+        "slug": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+        "title": "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+      },
+      {
+        "slug": "ai-trong-tai-chinh-dung-toan-hoc-gi",
+        "title": "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
+      },
+      {
+        "slug": "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
+        "title": "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+      },
+      {
+        "slug": "black-scholes-la-gi-so-e-dinh-gia-quyen-chon",
+        "title": "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
+      },
+      {
+        "slug": "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc",
+        "title": "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+      },
+      {
+        "slug": "cfa-dung-toan-hoc-gi",
+        "title": "CFA dùng toán học gì? Những công thức quận lý tài sản"
+      },
+      {
+        "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
+        "title": "Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+      },
+      {
+        "slug": "digital-minimalism-trong-thoi-dai-ai-dung-it-ung-dung-hon-nhung-hieu-qua-hon",
+        "title": "Digital Minimalism trong thời đại AI: dùng ít ứng dụng hơn nhưng hiệu quả hơn"
+      },
+      {
+        "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
+        "title": "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?"
+      },
+      {
+        "slug": "frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh",
+        "title": "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
+      },
+      {
+        "slug": "goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao",
+        "title": "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
+      },
+      {
+        "slug": "ham-so-mu-e-trong-tai-chinh-la-gi",
+        "title": "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
+      },
+      {
+        "slug": "log-tu-nhien-log-return-trong-dau-tu",
+        "title": "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
+      },
+      {
+        "slug": "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien",
+        "title": "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+      },
+      {
+        "slug": "monte-carlo-trong-tai-chinh-la-gi",
+        "title": "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản"
+      },
+      {
+        "slug": "mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio",
+        "title": "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ"
+      },
+      {
+        "slug": "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien",
+        "title": "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
+      },
+      {
+        "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
+        "title": "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+      },
+      {
+        "slug": "renaissance-technologies-quantitative-finance-toan-hoc-dau-tu",
+        "title": "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+      },
+      {
+        "slug": "risk-management-trong-tai-chinh-dung-toan-hoc",
+        "title": "Risk Management trong tài chính: Từ VaR đến stress testing"
+      },
+      {
+        "slug": "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien",
+        "title": "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
+      },
+      {
+        "slug": "toan-hoc-dinh-cao-trong-tai-chinh",
+        "title": "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
+      },
+      {
+        "slug": "vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh",
+        "title": "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
+      },
+      {
+        "slug": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+        "title": "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
+      },
+      {
+        "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "title": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai"
+      }
+    ],
+    "posts_missing_internal_links": [
+      {
+        "slug": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+        "title": "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+      },
+      {
+        "slug": "ai-trong-tai-chinh-dung-toan-hoc-gi",
+        "title": "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
+      },
+      {
+        "slug": "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
+        "title": "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+      },
+      {
+        "slug": "black-scholes-la-gi-so-e-dinh-gia-quyen-chon",
+        "title": "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
+      },
+      {
+        "slug": "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc",
+        "title": "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+      },
+      {
+        "slug": "cfa-dung-toan-hoc-gi",
+        "title": "CFA dùng toán học gì? Những công thức quận lý tài sản"
+      },
+      {
+        "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
+        "title": "Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+      },
+      {
+        "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
+        "title": "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?"
+      },
+      {
+        "slug": "frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh",
+        "title": "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
+      },
+      {
+        "slug": "goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao",
+        "title": "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
+      },
+      {
+        "slug": "ham-so-mu-e-trong-tai-chinh-la-gi",
+        "title": "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
+      },
+      {
+        "slug": "log-tu-nhien-log-return-trong-dau-tu",
+        "title": "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
+      },
+      {
+        "slug": "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien",
+        "title": "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+      },
+      {
+        "slug": "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026",
+        "title": "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026"
+      },
+      {
+        "slug": "monte-carlo-trong-tai-chinh-la-gi",
+        "title": "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản"
+      },
+      {
+        "slug": "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien",
+        "title": "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
+      },
+      {
+        "slug": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
+        "title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?"
+      },
+      {
+        "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
+        "title": "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+      },
+      {
+        "slug": "renaissance-technologies-quantitative-finance-toan-hoc-dau-tu",
+        "title": "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+      },
+      {
+        "slug": "risk-management-trong-tai-chinh-dung-toan-hoc",
+        "title": "Risk Management trong tài chính: Từ VaR đến stress testing"
+      },
+      {
+        "slug": "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien",
+        "title": "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
+      },
+      {
+        "slug": "toan-hoc-dinh-cao-trong-tai-chinh",
+        "title": "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
+      },
+      {
+        "slug": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+        "title": "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
+      }
+    ]
   },
   "content_gaps": [],
   "action_items": [
     {
       "priority": "P0",
-      "type": "Content",
-      "title": "Mở rộng thin posts",
-      "detail": "10 bài dưới 300 từ.",
-      "affected_count": 10,
-      "suggested_fix": "Bổ sung nội dung thực tế, so sánh, FAQ nếu phù hợp."
+      "type": "SEO",
+      "title": "Thêm meta description cho bài thiếu",
+      "detail": "1 bài chưa có meta description.",
+      "affected_count": 1,
+      "suggested_fix": "Viết description 50–160 ký tự, chứa keyword chính."
+    },
+    {
+      "priority": "P1",
+      "type": "Internal Linking",
+      "title": "Giảm orphan posts (không có inbound)",
+      "detail": "29 bài không nhận internal link.",
+      "affected_count": 29,
+      "suggested_fix": "Link tới orphan từ bài hub/pillar cùng cluster."
+    },
+    {
+      "priority": "P1",
+      "type": "Internal Linking",
+      "title": "Thêm internal links cho bài thiếu outbound",
+      "detail": "23 bài không có internal link outbound (MD/FM/graph).",
+      "affected_count": 23,
+      "suggested_fix": "Chèn 2–5 internal links liên quan trong thân bài hoặc graph."
     },
     {
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài meta description",
-      "detail": "0 quá ngắn, 2 quá dài (chuẩn 50–160).",
-      "affected_count": 2,
+      "detail": "0 quá ngắn, 22 quá dài (chuẩn 50–160).",
+      "affected_count": 22,
       "suggested_fix": "Chỉnh description về 50–160 ký tự."
     },
     {
       "priority": "P1",
       "type": "SEO",
       "title": "Tối ưu độ dài title tag",
-      "detail": "0 title quá ngắn, 2 title quá dài (chuẩn 30–60 ký tự).",
-      "affected_count": 2,
+      "detail": "0 title quá ngắn, 19 title quá dài (chuẩn 30–60 ký tự).",
+      "affected_count": 19,
       "suggested_fix": "Rút gọn/mở rộng title về 30–60 ký tự, giữ keyword đầu."
     },
     {
       "priority": "P2",
       "type": "SEO",
       "title": "Rút ngắn slug quá dài",
-      "detail": "18 slug > 75 ký tự.",
-      "affected_count": 18,
+      "detail": "23 slug > 75 ký tự.",
+      "affected_count": 23,
       "suggested_fix": "Rút gọn slug (report-only — đổi slug cần redirect)."
     },
     {
       "priority": "P2",
       "type": "SEO",
       "title": "Slug chứa stop words (report-only)",
-      "detail": "98 slug chứa stop words tiếng Việt.",
-      "affected_count": 98,
+      "detail": "117 slug chứa stop words tiếng Việt.",
+      "affected_count": 117,
       "suggested_fix": "Ghi nhận; chỉ đổi slug khi refactor có redirect."
+    },
+    {
+      "priority": "P2",
+      "type": "Technical",
+      "title": "Sửa bài parse front matter lỗi / cảnh báo",
+      "detail": "1 cảnh báo khi scan posts.",
+      "affected_count": 1,
+      "suggested_fix": "Kiểm tra front matter YAML/TOML của các file bị cảnh báo."
     }
   ],
-  "warnings": []
+  "warnings": [
+    "content/posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md: missing-title"
+  ]
 }
