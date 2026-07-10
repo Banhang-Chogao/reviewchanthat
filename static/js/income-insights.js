@@ -627,20 +627,34 @@
   function loadSampleData() {
     pushUndo();
     var sample = [
-      { id: genId(), sequence: 1, income: 16000000, incomeLabel: 'Lương tháng 7', debt: -3900000, debtLabel: 'Trả thẻ tín dụng', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương chính', day: 15, month: 7, year: 2026 },
-      { id: genId(), sequence: 2, income: 2500000, incomeLabel: 'Freelance', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án web', day: 18, month: 7, year: 2026 },
-      { id: genId(), sequence: 3, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà T7', day: 5, month: 7, year: 2026 },
-      { id: genId(), sequence: 4, income: 0, incomeLabel: '', debt: -500000, debtLabel: 'Ăn uống', transactionType: 'Tiền mặt', route: 'ATM', remark: 'Đi chợ', day: 8, month: 7, year: 2026 },
-      { id: genId(), sequence: 5, income: 15000000, incomeLabel: 'Lương tháng 8', debt: -4200000, debtLabel: 'Trả thẻ tín dụng', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương T8', day: 15, month: 8, year: 2026 },
-      { id: genId(), sequence: 6, income: 3000000, incomeLabel: 'Freelance', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án mobile', day: 20, month: 8, year: 2026 },
-      { id: genId(), sequence: 7, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà T8', day: 5, month: 8, year: 2026 },
-      { id: genId(), sequence: 8, income: 0, incomeLabel: '', debt: -600000, debtLabel: 'Ăn uống', transactionType: 'Tiền mặt', route: 'ATM', remark: 'Đi chợ', day: 10, month: 8, year: 2026 }
+      { id: genId(), sequence: 1, income: 16000000, incomeLabel: 'Lương tháng 7', debt: -3900000, debtLabel: 'Trả thẻ tín dụng', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương chính tháng 7', day: 15, month: 7, year: 2026 },
+      { id: genId(), sequence: 2, income: 2500000, incomeLabel: 'Freelance web', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án web T7', day: 18, month: 7, year: 2026 },
+      { id: genId(), sequence: 3, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà T7', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà tháng 7', day: 5, month: 7, year: 2026 },
+      { id: genId(), sequence: 4, income: 0, incomeLabel: '', debt: -500000, debtLabel: 'Ăn uống T7', transactionType: 'Tiền mặt', route: 'Rút ATM', remark: 'Đi chợ tuần 1', day: 8, month: 7, year: 2026 },
+      { id: genId(), sequence: 5, income: 15000000, incomeLabel: 'Lương tháng 8', debt: -4200000, debtLabel: 'Trả thẻ TD T8', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Lương chính tháng 8', day: 15, month: 8, year: 2026 },
+      { id: genId(), sequence: 6, income: 3000000, incomeLabel: 'Freelance mobile', debt: 0, debtLabel: '', transactionType: 'Chuyển khoản', route: 'MB Bank', remark: 'Dự án mobile T8', day: 20, month: 8, year: 2026 },
+      { id: genId(), sequence: 7, income: 0, incomeLabel: '', debt: -1200000, debtLabel: 'Tiền nhà T8', transactionType: 'Chuyển khoản', route: 'Techcombank', remark: 'Tiền nhà tháng 8', day: 5, month: 8, year: 2026 },
+      { id: genId(), sequence: 8, income: 0, incomeLabel: '', debt: -600000, debtLabel: 'Ăn uống T8', transactionType: 'Tiền mặt', route: 'Rút ATM', remark: 'Đi chợ tuần 1', day: 10, month: 8, year: 2026 }
     ];
-    for (var i = 0; i < sample.length; i++) computeFormulas(sample[i]);
+    for (var i = 0; i < sample.length; i++) { computeFormulas(sample[i]); sample[i]._sample = true; }
     state.transactions = state.transactions.concat(sample);
     applyFilters();
     renderAll();
     scheduleAutosave();
+  }
+
+  function removeSampleData() {
+    var hasSample = false;
+    for (var i = 0; i < state.transactions.length; i++) {
+      if (state.transactions[i]._sample) { hasSample = true; break; }
+    }
+    if (!hasSample) { alert('Không có dữ liệu mẫu để xoá.'); return; }
+    pushUndo();
+    state.transactions = state.transactions.filter(function(t) { return !t._sample; });
+    applyFilters();
+    renderAll();
+    scheduleAutosave();
+    alert('Đã xoá toàn bộ dữ liệu mẫu.');
   }
 
   /* ─── KPI ──────────────────────────────────────────────── */
@@ -1305,6 +1319,7 @@
     document.getElementById('incomeUndoBtn').addEventListener('click', undo);
     document.getElementById('incomeReportBtn').addEventListener('click', exportReport);
     document.getElementById('incomeSampleBtn').addEventListener('click', loadSampleData);
+    document.getElementById('incomeRemoveSampleBtn').addEventListener('click', removeSampleData);
     document.getElementById('incomeExportBtn').addEventListener('click', exportEncrypted);
     document.getElementById('incomeImportBtn').addEventListener('click', importEncrypted);
     document.getElementById('incomeCSVBtn').addEventListener('click', exportCSV);
