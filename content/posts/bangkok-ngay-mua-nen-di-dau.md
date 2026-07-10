@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -163,5 +165,9 @@ Xem thêm hướng dẫn [Suvarnabhumi về trung tâm: ARL, BTS, Taxi hay Grab]
 ## Kết luận
 
 Bangkok là thành phố duy nhất ở Đông Nam Á mà mình có thể nói: **mưa không làm hỏng chuyến đi của bạn**. Với skywalk, BTS, mall kết nối ngầm, và một rừng indoor attractions, bạn có thể khám phá Bangkok trong mưa mà vẫn vui vẻ. Bí quyết chỉ là: lên lịch sáng cho ngoài trời, chiều cho indoor, và luôn giữ một cái dù gấp trong balo.
+
+Xem thêm: [Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu](/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong/)
+Xem thêm: [Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng](/posts/chiang-mai-mua-mua-co-gi-dep/)
+
 
 Xem thêm bài tổng quan [Du lịch Thái Lan mùa mưa có nên đi không]({{< ref "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong" >}}) để biết thêm về các điểm đến khác, và bài [Ở khu nào Bangkok mùa mưa]({{< ref "posts/o-khu-nao-bangkok-mua-mua" >}}) để chọn khách sạn phù hợp.

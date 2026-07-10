@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -173,6 +175,10 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+Xem thêm: [Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?](/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao/)
+Xem thêm: [Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông](/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/)
+
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

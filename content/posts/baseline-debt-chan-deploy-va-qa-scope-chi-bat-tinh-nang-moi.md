@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
@@ -116,6 +118,10 @@ Trả lời: Chỉ cho debt đã phân loại. Không cho Hugo assemble error ha
 Trả lời: Deployment Doctor knowledge + playbook. Baseline debt blocking = unsafe cho “sửa bằng commit rỗng”; safe direction là sửa scope QA.
 
 ## Checklist PR feature
+
+Xem thêm: [GitHub API rate limit và Pages rate limit: đọc log, backoff, giảm fan-out](/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai/)
+Xem thêm: [Live deploy không phản ánh: build-info.json và GitHub Pages serving old artifact](/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact/)
+
 
 - [ ] QA list file từ diff  
 - [ ] Không bật full image audit fail-on-error  

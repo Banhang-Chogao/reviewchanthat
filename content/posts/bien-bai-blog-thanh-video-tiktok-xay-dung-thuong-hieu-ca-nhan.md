@@ -1,3 +1,5 @@
+---
+---
 +++
 title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
 date = "2026-07-10T00:15:00+07:00"
@@ -218,5 +220,9 @@ Nếu bạn làm những điều này đúng, bạn sẽ thấy:
 Biến blog thành video TikTok không phải **tạo nội dung mới.** Đó là **tái sử dụng thông minh** những gì bạn đã viết, cắt nó dành cho người xem có thời gian ngắn.
 
 Bạn hebt blog dài để giáo dục. Bạn có video ngắn để kích thích. Bạn có TikTok link để kéo. Và bạn **sở hữu blog để lưu giữ.**
+
+Xem thêm: [Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa](/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua/)
+Xem thêm: [](/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan/)
+
 
 Đó là một chiến lược thực sự bền vững cho thương hiệu cá nhân.

@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -109,6 +111,10 @@ Khi đọc review hoặc bài tổng hợp, hãy đối chiếu **ngày đăng**
 ### Hợp với ai
 - Người muốn khung tư duy trước khi mua hoặc đặt tour
 - Độc giả thích đọc có cấu trúc, có phần cân bằng
+
+Xem thêm: [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
+Xem thêm: [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
+
 
 ### Không hợp với ai
 - Ai cần số liệu realtime tuyệt đối — vẫn phải kiểm tra lại trước ngày đi
