@@ -1,6 +1,6 @@
 +++
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
-date = 2026-07-10T14:30:00+07:00
+date = 2026-07-10T06:50:00+07:00
 description = "Tiền nhàn rỗi năm 2026 nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán phụ thuộc vào khẩu vị rủi ro, thời gian cần dùng tiền và khả năng chịu biến động của mỗi người."
 categories = ["tai-chinh"]
 tags = ["tài chính cá nhân", "vàng", "gửi tiết kiệm", "chứng khoán", "đầu tư 2026", "tiền nhàn rỗi", "phân bổ tài sản"]
