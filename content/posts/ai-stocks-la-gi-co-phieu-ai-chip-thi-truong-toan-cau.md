@@ -1,22 +1,3 @@
----
-date: 2026-07-10 04:30:00+07:00
-image: static/images/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.webp
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: kwon osu
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@kwon-osu-147593907
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/drone-shot-of-a-city-at-night-10502162/
-image_status: verified
-thumbnail: static/images/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.webp
----
-
 +++
 title = "AI stocks là gì? Vì sao cổ phiếu AI và chip khiến thị trường toàn cầu biến động mạnh?"
 date = 2026-07-10T04:30:00+07:00
