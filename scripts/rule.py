@@ -47,16 +47,69 @@ SAFE_FIX_COMMANDS = (
 )
 
 
+def _recover_toml_split(text: str) -> tuple[str, str, str, str] | None:
+    """Recover TOML front matter when the closing +++ is missing or too late.
+
+    Some posts lost the closing delimiter so the markdown body was swallowed into
+    the front-matter block. Find the longest line-prefix that still parses as
+    TOML and treat the rest as body.
+    """
+    import tomllib
+
+    if not text.startswith("+++"):
+        return None
+    raw = text[3:]
+    if raw.startswith("\r\n"):
+        raw = raw[2:]
+    elif raw.startswith("\n"):
+        raw = raw[1:]
+
+    lines = raw.splitlines(keepends=True)
+    best_i: int | None = None
+    for i in range(1, len(lines) + 1):
+        candidate = "".join(lines[:i])
+        try:
+            meta = tomllib.loads(candidate)
+        except Exception:
+            continue
+        if isinstance(meta, dict):
+            best_i = i
+
+    if best_i is None:
+        return None
+
+    fm_text = "".join(lines[:best_i])
+    body = "".join(lines[best_i:])
+    body = re.sub(r"^\s*\+\+\+\r?\n?", "", body)
+    return "toml", fm_text, body, "+++...+++"
+
+
 def split_frontmatter(text: str) -> tuple[str, str, str, str] | None:
     if text.startswith("+++"):
         match = re.match(r"^(\+\+\+\r?\n)(.*?)(\r?\n\+\+\+\r?\n?)(.*)$", text, re.S)
         if match:
-            return "toml", match.group(2), match.group(4), match.group(1) + match.group(3)
+            fm_text = match.group(2)
+            body = match.group(4)
+            # Closing +++ may sit deep inside the body (false delimiter). Prefer
+            # a recoverable split when the captured FM is not valid TOML.
+            try:
+                import tomllib
+
+                tomllib.loads(fm_text)
+                return "toml", fm_text, body, match.group(1) + match.group(3)
+            except Exception:
+                recovered = _recover_toml_split(text)
+                if recovered:
+                    return recovered
+                return "toml", fm_text, body, match.group(1) + match.group(3)
         # Known conflict: TOML opener with YAML closer. Treat the first YAML
         # delimiter as the close marker so --fix can rewrite canonical TOML.
         match = re.match(r"^(\+\+\+\r?\n)(.*?)(\r?\n---\r?\n?)(.*)$", text, re.S)
         if match:
             return "toml_mixed", match.group(2), match.group(4), match.group(1) + match.group(3)
+        recovered = _recover_toml_split(text)
+        if recovered:
+            return recovered
     if text.startswith("---"):
         match = re.match(r"^(---\r?\n)(.*?)(\r?\n---\r?\n?)(.*)$", text, re.S)
         if match:
@@ -236,11 +289,19 @@ def check_posts(*, fix: bool) -> int:
             errors.append(f"{path.name}: front matter is YAML, must be TOML")
 
         changed_dates, date_issues = normalize_dates(meta, fix=fix)
-        errors.extend(f"{path.name}: {issue}" for issue in date_issues if "future/fake" in issue or "invalid" in issue or "missing" in issue)
+        errors.extend(
+            f"{path.name}: {issue}"
+            for issue in date_issues
+            if "future/fake" in issue or "invalid" in issue or "missing" in issue
+        )
 
-        if fix and (kind != "toml" or changed_dates):
-            path.write_text("+++\n" + dump_toml(meta) + "+++\n" + body, encoding="utf-8")
-            fixed += 1
+        # Always rewrite on --fix so recovered missing +++ delimiters and
+        # YAML→TOML conversions land as canonical front matter.
+        if fix:
+            new_text = "+++\n" + dump_toml(meta) + "+++\n" + body
+            if new_text != text or kind != "toml" or changed_dates:
+                path.write_text(new_text, encoding="utf-8")
+                fixed += 1
 
     if fixed:
         print(f"rule.py: fixed {fixed} post file(s)")
