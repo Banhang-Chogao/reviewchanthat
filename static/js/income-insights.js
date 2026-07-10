@@ -650,6 +650,7 @@
   function renderKPIs() {
     var rows = state.filtered;
     var totalIncome = 0, totalDebt = 0;
+    var last = rows.length > 0 ? rows[rows.length - 1] : null;
     for (var i = 0; i < rows.length; i++) {
       totalIncome += rows[i].income || 0;
       totalDebt += rows[i].debt || 0;
@@ -657,9 +658,13 @@
     var net = totalIncome + totalDebt;
     var ratio = totalIncome > 0 ? (Math.abs(totalDebt) / totalIncome) * 100 : 0;
 
-    document.getElementById('kpiIncome').textContent = formatVND(totalIncome) + '₫';
+    // Income & Net lấy giá trị dòng cuối cùng, Debt vẫn là tổng
+    var displayIncome = last ? (last.income || 0) : totalIncome;
+    var displayNet = last ? (last.subTotal || 0) : net;
+
+    document.getElementById('kpiIncome').textContent = formatVND(displayIncome) + '₫';
     document.getElementById('kpiDebt').textContent = formatVND(Math.abs(totalDebt)) + '₫';
-    document.getElementById('kpiNet').textContent = formatVND(net) + '₫';
+    document.getElementById('kpiNet').textContent = formatVND(displayNet) + '₫';
     document.getElementById('kpiNet').style.color = net < 0 ? 'var(--chip-red, #e74c3c)' : '';
     document.getElementById('kpiRatio').textContent = Math.round(ratio) + '%';
     document.getElementById('kpiRatio').style.color = ratio > 50 ? 'var(--chip-red, #e74c3c)' : ratio > 30 ? 'var(--chip-yellow, #f39c12)' : '';
