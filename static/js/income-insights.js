@@ -953,6 +953,106 @@
   }
 
   /* ─── Export/Import ────────────────────────────────────── */
+  function downloadExcelTemplate() {
+    if (typeof XLSX === 'undefined') {
+      alert('Thư viện Excel chưa sẵn sàng, thử lại sau.');
+      return;
+    }
+    var headers = ['Income', 'Income_Label', 'Debt', 'Debt_Label', 'Transaction_Type', 'Route', 'Remark', 'Day', 'Month', 'Year'];
+    var sample = [16000000, 'Lương tháng 7', -3900000, 'Trả thẻ tín dụng', 'Chuyển khoản', 'Techcombank', 'Lương chính', 15, 7, 2026];
+    var wsData = [headers, sample];
+    var ws = XLSX.utils.aoa_to_sheet(wsData);
+    ws['!cols'] = headers.map(function(h) {
+      return { wch: h === 'Remark' ? 30 : h === 'Income_Label' || h === 'Debt_Label' ? 18 : 14 };
+    });
+    var wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, 'Transactions');
+    XLSX.writeFile(wb, 'income-insights-template.xlsx');
+  }
+
+  function importFromExcel(file) {
+    if (typeof XLSX === 'undefined') {
+      alert('Thư viện Excel chưa sẵn sàng, thử lại sau.');
+      return;
+    }
+    var reader = new FileReader();
+    reader.onload = function(ev) {
+      try {
+        var data = new Uint8Array(ev.target.result);
+        var wb = XLSX.read(data, { type: 'array' });
+        var ws = wb.Sheets[wb.SheetNames[0]];
+        var rows = XLSX.utils.sheet_to_json(ws, { header: 1 });
+        if (rows.length < 2) { alert('File Excel không có dữ liệu (cần ít nhất 1 dòng header + 1 dòng dữ liệu).'); return; }
+
+        var headerRow = rows[0];
+        var colMap = {};
+        var expected = ['income', 'incomeLabel', 'debt', 'debtLabel', 'transactionType', 'route', 'remark', 'day', 'month', 'year'];
+        var headerNorm = headerRow.map(function(h) {
+          return String(h).toLowerCase().replace(/[^a-z0-9]/g, '');
+        });
+        for (var e = 0; e < expected.length; e++) {
+          var idx = headerNorm.indexOf(expected[e]);
+          if (idx === -1) idx = headerNorm.indexOf(expected[e].replace('label', ''));
+          if (idx !== -1) colMap[expected[e]] = idx;
+        }
+
+        var imported = [];
+        for (var r = 1; r < rows.length; r++) {
+          var row = rows[r];
+          if (!row || row.length === 0) continue;
+          var hasData = false;
+          for (var c = 0; c < row.length; c++) {
+            if (row[c] !== undefined && row[c] !== null && row[c] !== '') { hasData = true; break; }
+          }
+          if (!hasData) continue;
+
+          function getVal(key) {
+            var idx = colMap[key];
+            if (idx === undefined) return key === 'debt' ? 0 : key === 'day' || key === 'month' || key === 'year' ? (key === 'year' ? 2026 : key === 'month' ? 1 : 1) : '';
+            var v = row[idx];
+            return (v !== undefined && v !== null) ? v : (key === 'debt' ? 0 : key === 'day' || key === 'month' || key === 'year' ? (key === 'year' ? 2026 : 1) : '');
+          }
+
+          var inc = parseNumber(getVal('income'));
+          var deb = parseNumber(getVal('debt'));
+          if (deb > 0) deb = -deb;
+          var d = parseInt(getVal('day'), 10) || 1;
+          var m = parseInt(getVal('month'), 10) || 1;
+          var y = parseInt(getVal('year'), 10) || 2026;
+
+          var txn = computeFormulas({
+            id: genId(),
+            sequence: imported.length + 1,
+            income: inc,
+            incomeLabel: String(getVal('incomeLabel') || ''),
+            debt: deb,
+            debtLabel: String(getVal('debtLabel') || ''),
+            subTotal: 0,
+            transactionType: String(getVal('transactionType') || ''),
+            route: String(getVal('route') || ''),
+            remark: String(getVal('remark') || ''),
+            date: '',
+            day: d,
+            month: m,
+            year: y
+          });
+          imported.push(txn);
+        }
+
+        if (imported.length === 0) { alert('Không tìm thấy dòng dữ liệu hợp lệ trong file.'); return; }
+        pushUndo();
+        state.transactions = state.transactions.concat(imported);
+        applyFilters();
+        renderAll();
+        scheduleAutosave();
+        alert('Import Excel thành công: ' + imported.length + ' giao dịch.');
+      } catch (e) {
+        alert('Lỗi đọc file Excel: ' + e.message);
+      }
+    };
+    reader.readAsArrayBuffer(file);
+  }
+
   function exportEncrypted() {
     if (!state.cryptoKey || state.transactions.length === 0) {
       alert('Không có dữ liệu để export.');
@@ -970,10 +1070,16 @@
   function importEncrypted() {
     var input = document.createElement('input');
     input.type = 'file';
-    input.accept = '.json';
+    input.accept = '.json,.xlsx';
     input.addEventListener('change', function(e) {
       var file = e.target.files[0];
       if (!file) return;
+
+      if (file.name.endsWith('.xlsx')) {
+        importFromExcel(file);
+        return;
+      }
+
       var reader = new FileReader();
       reader.onload = function(ev) {
         try {
@@ -1075,6 +1181,7 @@
     document.getElementById('incomeExportBtn').addEventListener('click', exportEncrypted);
     document.getElementById('incomeImportBtn').addEventListener('click', importEncrypted);
     document.getElementById('incomeCSVBtn').addEventListener('click', exportCSV);
+    document.getElementById('incomeTemplateBtn').addEventListener('click', downloadExcelTemplate);
   }
 
   if (document.readyState === 'loading') {
