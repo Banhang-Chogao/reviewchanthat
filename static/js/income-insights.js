@@ -519,7 +519,7 @@
 
   function getColumnLabel(field) {
     var labels = {
-      sequence: 'STT', income: 'Income', incomeLabel: 'Inc.Label',
+      sequence: 'Sequence', income: 'Income', incomeLabel: 'Inc.Label',
       debt: 'Debt', debtLabel: 'Debt Label', subTotal: 'Sub Total',
       transactionType: 'Type', route: 'Route', remark: 'Remark',
       date: 'Date', day: 'Day', month: 'Month', year: 'Year'
@@ -958,7 +958,7 @@
       alert('Thư viện Excel chưa sẵn sàng, thử lại sau.');
       return;
     }
-    var headers = ['STT', 'Income', 'Income_Label', 'Debt', 'Debt_Label', 'Sub Total', 'Transaction_Type', 'Route', 'Remark', 'Date', 'Day', 'Month', 'Year'];
+    var headers = ['Sequence', 'Income', 'Income_Label', 'Debt', 'Debt_Label', 'Sub Total', 'Transaction_Type', 'Route', 'Remark', 'Date', 'Day', 'Month', 'Year'];
     var sample = [1, 16000000, 'Lương tháng 7', -3900000, 'Trả thẻ tín dụng', 12100000, 'Chuyển khoản', 'Techcombank', 'Lương chính', '2026-07-15', 15, 7, 2026];
     var wsData = [headers, sample];
     var ws = XLSX.utils.aoa_to_sheet(wsData);
