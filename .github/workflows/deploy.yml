@@ -94,7 +94,8 @@ jobs:
 
       - name: Build Hugo
         env:
-          GA_MEASUREMENT_ID: G-JCSEKBLP40
+          # Prefer secret; fallback keeps live tag if secret is unset.
+          GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID || 'G-JCSEKBLP40' }}
         run: hugo --minify
 
       - name: QA Content Direction (public)

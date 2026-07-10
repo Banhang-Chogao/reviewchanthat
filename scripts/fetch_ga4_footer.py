@@ -134,6 +134,9 @@ def error_payload(message: str) -> dict:
 
 def main() -> int:
     property_id = os.environ.get("GA4_PROPERTY_ID", "").strip()
+    # Accept either bare numeric ID or "properties/123..." form from GA Admin.
+    if property_id.startswith("properties/"):
+        property_id = property_id.split("/", 1)[1].strip()
     creds_json = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS_JSON", "").strip()
     creds_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", "").strip()
     existing = load_existing()
