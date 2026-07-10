@@ -1,0 +1,298 @@
+{{ define "main" }}
+<article class="travel-planner">
+  <div class="travel-planner__hero">
+    <div class="travel-planner__hero-content container">
+      <h1 class="travel-planner__title">AI Travel Planner</h1>
+      <p class="travel-planner__subtitle">Xây dựng lịch trình du lịch hoàn toàn bằng AI. Chỉ cần nhập điểm đến và ngày đi/về.</p>
+    </div>
+  </div>
+
+  <div class="travel-planner__main container">
+    <!-- Input Section -->
+    <div class="travel-planner__input-section">
+      <div class="travel-planner__form">
+        <!-- Destination Search -->
+        <div class="travel-planner__field">
+          <label class="travel-planner__label" for="tpDestinationSearch">Điểm đến</label>
+          <div class="travel-planner__search-wrap">
+            <div class="travel-planner__search-input-group">
+              <input
+                type="text"
+                id="tpDestinationSearch"
+                class="travel-planner__search-input"
+                placeholder="Search destination (City name or IATA code)"
+                autocomplete="off"
+                aria-label="Search destination"
+                aria-autocomplete="list"
+                aria-expanded="false"
+                aria-controls="tpDestinationList"
+                role="combobox">
+              <span class="travel-planner__search-icon" id="tpSearchIcon">🔍</span>
+              <span class="travel-planner__search-loading" id="tpSearchLoading" style="display:none">⏳</span>
+            </div>
+
+            <!-- Dropdown List -->
+            <div
+              class="travel-planner__search-dropdown"
+              id="tpDestinationList"
+              style="display:none"
+              role="listbox"
+              aria-label="Destination suggestions">
+            </div>
+
+            <!-- Loading Skeleton -->
+            <div class="travel-planner__search-skeleton" id="tpSearchSkeleton" style="display:none">
+              <div class="travel-planner__skeleton-item"></div>
+              <div class="travel-planner__skeleton-item"></div>
+              <div class="travel-planner__skeleton-item"></div>
+            </div>
+
+            <!-- Empty State -->
+            <div class="travel-planner__search-empty" id="tpSearchEmpty" style="display:none">
+              <p class="travel-planner__empty-text">No destination found.</p>
+              <p class="travel-planner__empty-hint">Try searching by city name or IATA code.</p>
+            </div>
+
+            <!-- Error State -->
+            <div class="travel-planner__search-error" id="tpSearchError" style="display:none">
+              <p class="travel-planner__error-text" id="tpSearchErrorText"></p>
+              <button class="travel-planner__retry-btn" id="tpSearchRetry">Retry</button>
+            </div>
+          </div>
+
+          <!-- Selected Destination Info -->
+          <div class="travel-planner__destination-selected" id="tpDestinationSelected" style="display:none">
+            <div class="travel-planner__destination-badge">
+              <span class="travel-planner__destination-flag" id="tpDestinationFlag"></span>
+              <span class="travel-planner__destination-name" id="tpDestinationName"></span>
+              <span class="travel-planner__destination-code" id="tpDestinationCode"></span>
+              <button class="travel-planner__destination-clear" id="tpDestinationClear" title="Clear selection">✕</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dates -->
+        <div class="travel-planner__field-group">
+          <div class="travel-planner__field">
+            <label class="travel-planner__label" for="tpDeparture">Ngày đi</label>
+            <input type="date" id="tpDeparture" class="travel-planner__input">
+          </div>
+          <div class="travel-planner__field">
+            <label class="travel-planner__label" for="tpReturn">Ngày về</label>
+            <input type="date" id="tpReturn" class="travel-planner__input">
+          </div>
+        </div>
+
+        <!-- Optional Fields -->
+        <div class="travel-planner__optional-section" id="tpOptionalToggle">
+          <button class="travel-planner__toggle-btn" id="tpToggleAdvanced">
+            <span class="travel-planner__toggle-icon">+</span> Tuỳ chọn nâng cao
+          </button>
+        </div>
+
+        <div class="travel-planner__optional-fields" id="tpAdvancedFields" style="display:none">
+          <!-- Travelers -->
+          <div class="travel-planner__field-group">
+            <div class="travel-planner__field">
+              <label class="travel-planner__label" for="tpAdults">Số người lớn</label>
+              <input type="number" id="tpAdults" class="travel-planner__input" value="1" min="1" max="10">
+            </div>
+            <div class="travel-planner__field">
+              <label class="travel-planner__label" for="tpChildren">Trẻ em (0-12 tuổi)</label>
+              <input type="number" id="tpChildren" class="travel-planner__input" value="0" min="0" max="10">
+            </div>
+          </div>
+
+          <!-- Budget Level -->
+          <div class="travel-planner__field">
+            <label class="travel-planner__label">Mức ngân sách</label>
+            <div class="travel-planner__radio-group">
+              <label class="travel-planner__radio">
+                <input type="radio" name="tpBudget" value="luxury" class="travel-planner__radio-input">
+                <span>Cao cấp (Luxury)</span>
+              </label>
+              <label class="travel-planner__radio">
+                <input type="radio" name="tpBudget" value="mid-range" class="travel-planner__radio-input" checked>
+                <span>Bình thường (Mid-range)</span>
+              </label>
+              <label class="travel-planner__radio">
+                <input type="radio" name="tpBudget" value="budget" class="travel-planner__radio-input">
+                <span>Kinh tế (Budget)</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Travel Purpose -->
+          <div class="travel-planner__field">
+            <label class="travel-planner__label">Mục đích du lịch</label>
+            <div class="travel-planner__checkbox-group">
+              <label class="travel-planner__checkbox">
+                <input type="checkbox" value="tourism" class="travel-planner__checkbox-input" checked>
+                <span>Du lịch</span>
+              </label>
+              <label class="travel-planner__checkbox">
+                <input type="checkbox" value="business" class="travel-planner__checkbox-input">
+                <span>Công việc</span>
+              </label>
+              <label class="travel-planner__checkbox">
+                <input type="checkbox" value="family" class="travel-planner__checkbox-input">
+                <span>Gia đình</span>
+              </label>
+              <label class="travel-planner__checkbox">
+                <input type="checkbox" value="solo" class="travel-planner__checkbox-input">
+                <span>Solo</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Visa Info -->
+          <div class="travel-planner__field">
+            <label class="travel-planner__label">Thông tin Visa</label>
+            <select id="tpVisaMode" class="travel-planner__input">
+              <option value="none">Không cần cho lịch trình</option>
+              <option value="visa">Tối ưu cho xin Visa</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Generate Buttons -->
+        <div class="travel-planner__actions">
+          <button class="travel-planner__btn travel-planner__btn--primary" id="tpGenerateBtn">
+            Tạo lịch trình
+          </button>
+          <button class="travel-planner__btn travel-planner__btn--secondary" id="tpClearBtn">
+            Xoá
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Progress Section -->
+    <div class="travel-planner__progress" id="tpProgress" style="display:none">
+      <div class="travel-planner__progress-bar">
+        <div class="travel-planner__progress-fill" id="tpProgressFill"></div>
+      </div>
+      <p class="travel-planner__progress-text" id="tpProgressText">Đang xây dựng lịch trình...</p>
+    </div>
+
+    <!-- Error Section -->
+    <div class="travel-planner__error" id="tpError" style="display:none">
+      <p id="tpErrorText"></p>
+    </div>
+
+    <!-- Result Section -->
+    <div class="travel-planner__result" id="tpResult" style="display:none">
+      <!-- Trip Summary -->
+      <div class="travel-planner__summary-card">
+        <h2 class="travel-planner__summary-title">Trip Summary</h2>
+        <div class="travel-planner__summary-grid" id="tpSummaryGrid">
+          <div class="travel-planner__summary-item">
+            <span class="travel-planner__summary-label">Destination</span>
+            <span class="travel-planner__summary-value" id="tpSummaryDest"></span>
+          </div>
+          <div class="travel-planner__summary-item">
+            <span class="travel-planner__summary-label">Duration</span>
+            <span class="travel-planner__summary-value" id="tpSummaryDuration"></span>
+          </div>
+          <div class="travel-planner__summary-item">
+            <span class="travel-planner__summary-label">Weather</span>
+            <span class="travel-planner__summary-value" id="tpSummaryWeather"></span>
+          </div>
+          <div class="travel-planner__summary-item">
+            <span class="travel-planner__summary-label">Estimated Budget</span>
+            <span class="travel-planner__summary-value" id="tpSummaryBudget"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Daily Itinerary -->
+      <div class="travel-planner__itinerary-section">
+        <h2 class="travel-planner__section-title">Daily Itinerary</h2>
+        <div class="travel-planner__timeline" id="tpTimeline"></div>
+      </div>
+
+      <!-- Hotel & Transportation -->
+      <div class="travel-planner__details-grid">
+        <div class="travel-planner__detail-card">
+          <h3 class="travel-planner__detail-title">Hotel Area</h3>
+          <p class="travel-planner__detail-content" id="tpHotelArea"></p>
+        </div>
+        <div class="travel-planner__detail-card">
+          <h3 class="travel-planner__detail-title">Getting Around</h3>
+          <p class="travel-planner__detail-content" id="tpTransport"></p>
+        </div>
+      </div>
+
+      <!-- Practical Info -->
+      <div class="travel-planner__practical-section">
+        <div class="travel-planner__practical-card">
+          <h3 class="travel-planner__practical-title">Packing List</h3>
+          <ul class="travel-planner__list" id="tpPackingList"></ul>
+        </div>
+        <div class="travel-planner__practical-card">
+          <h3 class="travel-planner__practical-title">Weather & Tips</h3>
+          <div id="tpWeatherTips"></div>
+        </div>
+        <div class="travel-planner__practical-card">
+          <h3 class="travel-planner__practical-title">Emergency Info</h3>
+          <div id="tpEmergencyInfo"></div>
+        </div>
+      </div>
+
+      <!-- Visa Itinerary Section (if applicable) -->
+      <div class="travel-planner__visa-section" id="tpVisaSection" style="display:none">
+        <h2 class="travel-planner__section-title">Visa Application Itinerary</h2>
+        <div class="travel-planner__visa-table-wrap">
+          <table class="travel-planner__visa-table" id="tpVisaTable">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Day</th>
+                <th>Activity</th>
+                <th>Accommodation</th>
+              </tr>
+            </thead>
+            <tbody id="tpVisaTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Export Section -->
+      <div class="travel-planner__export-section">
+        <h3 class="travel-planner__export-title">Export Itinerary</h3>
+        <div class="travel-planner__export-buttons">
+          <button class="travel-planner__export-btn" id="tpExportPDF">
+            📄 Export PDF
+          </button>
+          <button class="travel-planner__export-btn" id="tpExportExcel">
+            📊 Export Excel
+          </button>
+          <button class="travel-planner__export-btn" id="tpExportMarkdown">
+            📝 Export Markdown
+          </button>
+          <button class="travel-planner__export-btn" id="tpExportPrint">
+            🖨️ Print
+          </button>
+        </div>
+      </div>
+
+      <!-- History & Actions -->
+      <div class="travel-planner__history-section">
+        <button class="travel-planner__btn travel-planner__btn--secondary" id="tpNewTrip">
+          + Tạo chuyến đi mới
+        </button>
+        <button class="travel-planner__btn travel-planner__btn--secondary" id="tpDuplicateTrip">
+          📋 Nhân bản
+        </button>
+        <button class="travel-planner__btn travel-planner__btn--danger" id="tpDeleteTrip">
+          🗑️ Xoá
+        </button>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script src="/reviewchanthat/js/travel-destination-search.js"></script>
+<script src="/reviewchanthat/js/travel-planner.js"></script>
+<script src="/reviewchanthat/js/travel-ai-engine.js"></script>
+{{ end }}
