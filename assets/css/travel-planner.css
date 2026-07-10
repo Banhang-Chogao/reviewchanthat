@@ -1269,7 +1269,7 @@
   }
 
   .tp-print-watermark--header {
-    top: 6mm;
+    top: 2mm;
     left: 0;
     right: 0;
     text-align: center;
@@ -1277,7 +1277,7 @@
   }
 
   .tp-print-watermark--footer {
-    bottom: 14mm;
+    bottom: 22mm;
     left: 0;
     right: 0;
     text-align: center;
@@ -1286,7 +1286,7 @@
 
   .tp-print-watermark--left {
     top: 50%;
-    left: 2mm;
+    left: 0;
     transform: translateY(-50%) rotate(-90deg);
     transform-origin: center center;
     font-size: 7pt;
