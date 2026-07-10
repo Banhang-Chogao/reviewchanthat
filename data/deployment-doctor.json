@@ -1,34 +1,23 @@
 {
-  "generated_at": "2026-07-10T20:32:23+07:00",
-  "generated_at_display": "10-07-2026 20:32:23",
+  "generated_at": "2026-07-10T20:43:12+07:00",
+  "generated_at_display": "10-07-2026 20:43:12",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 23,
-    "safe_autofixes_available": 23,
+    "failed_runs_scanned": 22,
+    "safe_autofixes_available": 22,
     "unsafe_external_failures": 0,
-    "open_action_items": 6,
+    "open_action_items": 4,
     "loop_guarded_attempts": 72,
     "by_type": {
       "workflow_fanout": 21,
-      "sitemap_noindex_mismatch": 1,
       "duplicate_yaml_keys": 1
     }
   },
   "recent_failures": [
-    {
-      "run_id": "29078449043",
-      "workflow": "Deployment Doctor",
-      "commit": "f862a9f",
-      "status": "cancelled",
-      "rootcause": "sitemap_noindex_mismatch",
-      "safe_to_autofix": true,
-      "action": "Keep posts-only sitemap.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078449043"
-    },
     {
       "run_id": "29092424885",
       "workflow": "Auto Merge",
@@ -386,12 +375,6 @@
     "ux_layout": [],
     "other": [
       {
-        "failure_type": "sitemap_noindex_mismatch",
-        "run_id": "29078449043",
-        "rootcause": "noindex pages incorrectly included in sitemap.",
-        "safe_to_autofix": true
-      },
-      {
         "failure_type": "duplicate_yaml_keys",
         "run_id": "29092424885",
         "rootcause": "Hugo front matter chứa duplicate YAML keys, khiến build fail.",
@@ -400,20 +383,6 @@
     ]
   },
   "action_items": [
-    {
-      "priority": "P1",
-      "owner": "system",
-      "failure_type": "sitemap_noindex_mismatch",
-      "title": "Keep posts-only sitemap.",
-      "expected_result": "Unblock deploy / prevent recurrence"
-    },
-    {
-      "priority": "P1",
-      "owner": "system",
-      "failure_type": "sitemap_noindex_mismatch",
-      "title": "Exclude noindex/admin/doctor pages.",
-      "expected_result": "Unblock deploy / prevent recurrence"
-    },
     {
       "priority": "P1",
       "owner": "system",
@@ -608,12 +577,6 @@
     }
   ],
   "autofix_history": [
-    {
-      "run_id": "29078449043",
-      "failure_type": "sitemap_noindex_mismatch",
-      "result": "needs_human_review",
-      "detail": "loop-guard: f862a9fcc33c:sitemap_noindex_mismatch already attempted 2 times"
-    },
     {
       "run_id": "29092424885",
       "failure_type": "duplicate_yaml_keys",
