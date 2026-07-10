@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-10T14:57:49+07:00",
-  "generated_at_display": "10-07-2026 14:57:49",
+  "generated_at": "2026-07-10T15:03:00+07:00",
+  "generated_at_display": "10-07-2026 15:03:00",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 33,
-    "safe_autofixes_available": 24,
-    "unsafe_external_failures": 9,
+    "failed_runs_scanned": 25,
+    "safe_autofixes_available": 21,
+    "unsafe_external_failures": 4,
     "open_action_items": 8,
     "loop_guarded_attempts": 63,
     "by_type": {
-      "workflow_fanout": 19,
-      "unknown": 9,
-      "ai_summary_map_artifact": 3,
-      "sitemap_noindex_mismatch": 2
+      "workflow_fanout": 12,
+      "sitemap_noindex_mismatch": 6,
+      "unknown": 4,
+      "ai_summary_map_artifact": 3
     }
   },
   "recent_failures": [
@@ -51,6 +51,46 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073200539"
     },
     {
+      "run_id": "29078449043",
+      "workflow": "Deployment Doctor",
+      "commit": "f862a9f",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078449043"
+    },
+    {
+      "run_id": "29078417851",
+      "workflow": "Deployment Doctor",
+      "commit": "f2c74d8",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078417851"
+    },
+    {
+      "run_id": "29078401883",
+      "workflow": "Deployment Doctor",
+      "commit": "985d6d1",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078401883"
+    },
+    {
+      "run_id": "29078368401",
+      "workflow": "Deployment Doctor",
+      "commit": "36ce7e3",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078368401"
+    },
+    {
       "run_id": "29075541943",
       "workflow": "Deployment Doctor",
       "commit": "a99f13f",
@@ -69,6 +109,86 @@
       "safe_to_autofix": true,
       "action": "Keep posts-only sitemap.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073203264"
+    },
+    {
+      "run_id": "29078434127",
+      "workflow": "Deployment Doctor",
+      "commit": "9a2c97a",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078434127"
+    },
+    {
+      "run_id": "29078431176",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "9a2c97a",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078431176"
+    },
+    {
+      "run_id": "29078415097",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "f2c74d8",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078415097"
+    },
+    {
+      "run_id": "29078397753",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "985d6d1",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078397753"
+    },
+    {
+      "run_id": "29078383485",
+      "workflow": "Deployment Doctor",
+      "commit": "11a6682",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078383485"
+    },
+    {
+      "run_id": "29078380685",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "11a6682",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078380685"
+    },
+    {
+      "run_id": "29078365856",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "36ce7e3",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078365856"
+    },
+    {
+      "run_id": "29078353066",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "19cbb6f",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078353066"
     },
     {
       "run_id": "29073189240",
@@ -111,156 +231,6 @@
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073189009"
     },
     {
-      "run_id": "29073188994",
-      "workflow": "Auto Merge",
-      "commit": "496b863",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073188994"
-    },
-    {
-      "run_id": "29073188971",
-      "workflow": "Auto Merge",
-      "commit": "496b863",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073188971"
-    },
-    {
-      "run_id": "29073188906",
-      "workflow": "Auto Merge",
-      "commit": "496b863",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073188906"
-    },
-    {
-      "run_id": "29073188598",
-      "workflow": "Deploy to GitHub Pages",
-      "commit": "75048d1",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073188598"
-    },
-    {
-      "run_id": "29073173792",
-      "workflow": "Auto Merge",
-      "commit": "21d0569",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073173792"
-    },
-    {
-      "run_id": "29073173499",
-      "workflow": "Auto Merge",
-      "commit": "21d0569",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073173499"
-    },
-    {
-      "run_id": "29073173450",
-      "workflow": "Auto Merge",
-      "commit": "21d0569",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073173450"
-    },
-    {
-      "run_id": "29073173395",
-      "workflow": "Auto Merge",
-      "commit": "21d0569",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073173395"
-    },
-    {
-      "run_id": "29073173182",
-      "workflow": "Auto Merge",
-      "commit": "21d0569",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073173182"
-    },
-    {
-      "run_id": "29073173078",
-      "workflow": "Auto Merge",
-      "commit": "21d0569",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073173078"
-    },
-    {
-      "run_id": "29073173047",
-      "workflow": "Auto Merge",
-      "commit": "21d0569",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073173047"
-    },
-    {
-      "run_id": "29073172990",
-      "workflow": "Auto Merge",
-      "commit": "21d0569",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073172990"
-    },
-    {
-      "run_id": "29073158190",
-      "workflow": "Auto Merge",
-      "commit": "4a579eb",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073158190"
-    },
-    {
-      "run_id": "29073158053",
-      "workflow": "Auto Merge",
-      "commit": "4a579eb",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073158053"
-    },
-    {
-      "run_id": "29073157963",
-      "workflow": "Auto Merge",
-      "commit": "4a579eb",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073157963"
-    },
-    {
       "run_id": "29075477159",
       "workflow": ".github/workflows/crawl-doctor.yml",
       "commit": "a99f13f",
@@ -299,30 +269,58 @@
       "safe_to_autofix": false,
       "action": "Read sanitized log excerpt.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073199925"
-    },
-    {
-      "run_id": "29073188065",
-      "workflow": ".github/workflows/crawl-doctor.yml",
-      "commit": "75048d1",
-      "status": "failure",
-      "rootcause": "unknown",
-      "safe_to_autofix": false,
-      "action": "Read sanitized log excerpt.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073188065"
-    },
-    {
-      "run_id": "29073185078",
-      "workflow": ".github/workflows/crawl-doctor.yml",
-      "commit": "496b863",
-      "status": "failure",
-      "rootcause": "unknown",
-      "safe_to_autofix": false,
-      "action": "Read sanitized log excerpt.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29073185078"
     }
   ],
   "clusters": {
     "runner_platform": [
+      {
+        "failure_type": "workflow_fanout",
+        "run_id": "29078434127",
+        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "workflow_fanout",
+        "run_id": "29078431176",
+        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "workflow_fanout",
+        "run_id": "29078415097",
+        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "workflow_fanout",
+        "run_id": "29078397753",
+        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "workflow_fanout",
+        "run_id": "29078383485",
+        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "workflow_fanout",
+        "run_id": "29078380685",
+        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "workflow_fanout",
+        "run_id": "29078365856",
+        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "workflow_fanout",
+        "run_id": "29078353066",
+        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
+        "safe_to_autofix": true
+      },
       {
         "failure_type": "workflow_fanout",
         "run_id": "29073189240",
@@ -344,96 +342,6 @@
       {
         "failure_type": "workflow_fanout",
         "run_id": "29073189009",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073188994",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073188971",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073188906",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073188598",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073173792",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073173499",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073173450",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073173395",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073173182",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073173078",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073173047",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073172990",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073158190",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073158053",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29073157963",
         "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
         "safe_to_autofix": true
       }
@@ -460,6 +368,30 @@
         "failure_type": "ai_summary_map_artifact",
         "run_id": "29073200539",
         "rootcause": "AI summary contains Go map[] serialization artifacts.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "sitemap_noindex_mismatch",
+        "run_id": "29078449043",
+        "rootcause": "noindex pages incorrectly included in sitemap.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "sitemap_noindex_mismatch",
+        "run_id": "29078417851",
+        "rootcause": "noindex pages incorrectly included in sitemap.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "sitemap_noindex_mismatch",
+        "run_id": "29078401883",
+        "rootcause": "noindex pages incorrectly included in sitemap.",
+        "safe_to_autofix": true
+      },
+      {
+        "failure_type": "sitemap_noindex_mismatch",
+        "run_id": "29078368401",
+        "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
       },
       {
@@ -495,36 +427,6 @@
       {
         "failure_type": "unknown",
         "run_id": "29073199925",
-        "rootcause": "No knowledge pattern matched.",
-        "safe_to_autofix": false
-      },
-      {
-        "failure_type": "unknown",
-        "run_id": "29073188065",
-        "rootcause": "No knowledge pattern matched.",
-        "safe_to_autofix": false
-      },
-      {
-        "failure_type": "unknown",
-        "run_id": "29073185078",
-        "rootcause": "No knowledge pattern matched.",
-        "safe_to_autofix": false
-      },
-      {
-        "failure_type": "unknown",
-        "run_id": "29073169776",
-        "rootcause": "No knowledge pattern matched.",
-        "safe_to_autofix": false
-      },
-      {
-        "failure_type": "unknown",
-        "run_id": "29073168884",
-        "rootcause": "No knowledge pattern matched.",
-        "safe_to_autofix": false
-      },
-      {
-        "failure_type": "unknown",
-        "run_id": "29073154500",
         "rootcause": "No knowledge pattern matched.",
         "safe_to_autofix": false
       }
@@ -772,130 +674,114 @@
       "detail": "loop-guard: a9823ea97375:ai_summary_map_artifact already attempted 2 times"
     },
     {
+      "run_id": "29078449043",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "skipped",
+      "detail": "posts-only sitemap already in place",
+      "script": "fix_sitemap_noindex"
+    },
+    {
+      "run_id": "29078417851",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29078401883",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29078368401",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
       "run_id": "29075541943",
       "failure_type": "sitemap_noindex_mismatch",
-      "result": "needs_human_review",
-      "detail": "loop-guard: a99f13f5a320:sitemap_noindex_mismatch already attempted 2 times"
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29073203264",
       "failure_type": "sitemap_noindex_mismatch",
-      "result": "needs_human_review",
-      "detail": "loop-guard: a9823ea97375:sitemap_noindex_mismatch already attempted 2 times"
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29078434127",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
+    },
+    {
+      "run_id": "29078431176",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29078415097",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29078397753",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29078383485",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29078380685",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29078365856",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29078353066",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29073189240",
       "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29073189112",
       "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29073189021",
       "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29073189009",
       "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073188994",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073188971",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073188906",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 496b863dcb5d:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073188598",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 75048d1d171f:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073173792",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 21d0569a3a85:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073173499",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 21d0569a3a85:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073173450",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 21d0569a3a85:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073173395",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 21d0569a3a85:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073173182",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 21d0569a3a85:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073173078",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 21d0569a3a85:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073173047",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 21d0569a3a85:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073172990",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 21d0569a3a85:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073158190",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 4a579ebe3c77:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073158053",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 4a579ebe3c77:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29073157963",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 4a579ebe3c77:workflow_fanout already attempted 2 times"
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
     },
     {
       "run_id": "29075477159",
@@ -917,36 +803,6 @@
     },
     {
       "run_id": "29073199925",
-      "failure_type": "unknown",
-      "result": "unsafe",
-      "detail": "safe_to_autofix=false — report only"
-    },
-    {
-      "run_id": "29073188065",
-      "failure_type": "unknown",
-      "result": "unsafe",
-      "detail": "safe_to_autofix=false — report only"
-    },
-    {
-      "run_id": "29073185078",
-      "failure_type": "unknown",
-      "result": "unsafe",
-      "detail": "safe_to_autofix=false — report only"
-    },
-    {
-      "run_id": "29073169776",
-      "failure_type": "unknown",
-      "result": "unsafe",
-      "detail": "safe_to_autofix=false — report only"
-    },
-    {
-      "run_id": "29073168884",
-      "failure_type": "unknown",
-      "result": "unsafe",
-      "detail": "safe_to_autofix=false — report only"
-    },
-    {
-      "run_id": "29073154500",
       "failure_type": "unknown",
       "result": "unsafe",
       "detail": "safe_to_autofix=false — report only"
