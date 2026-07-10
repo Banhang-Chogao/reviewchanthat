@@ -11,21 +11,63 @@
     <!-- Input Section -->
     <div class="travel-planner__input-section">
       <div class="travel-planner__form">
-        <!-- Destination -->
+        <!-- Destination Search -->
         <div class="travel-planner__field">
-          <label class="travel-planner__label" for="tpDestination">Điểm đến (IATA hoặc tên thành phố)</label>
-          <div class="travel-planner__autocomplete-wrap">
-            <input
-              type="text"
-              id="tpDestination"
-              class="travel-planner__input"
-              placeholder="e.g., ICN, Seoul, Bangkok..."
-              autocomplete="off">
-            <div class="travel-planner__autocomplete-list" id="tpDestinationList" style="display:none"></div>
+          <label class="travel-planner__label" for="tpDestinationSearch">Điểm đến</label>
+          <div class="travel-planner__search-wrap">
+            <div class="travel-planner__search-input-group">
+              <input
+                type="text"
+                id="tpDestinationSearch"
+                class="travel-planner__search-input"
+                placeholder="Search destination (City name or IATA code)"
+                autocomplete="off"
+                aria-label="Search destination"
+                aria-autocomplete="list"
+                aria-expanded="false"
+                aria-controls="tpDestinationList"
+                role="combobox">
+              <span class="travel-planner__search-icon" id="tpSearchIcon">🔍</span>
+              <span class="travel-planner__search-loading" id="tpSearchLoading" style="display:none">⏳</span>
+            </div>
+
+            <!-- Dropdown List -->
+            <div
+              class="travel-planner__search-dropdown"
+              id="tpDestinationList"
+              style="display:none"
+              role="listbox"
+              aria-label="Destination suggestions">
+            </div>
+
+            <!-- Loading Skeleton -->
+            <div class="travel-planner__search-skeleton" id="tpSearchSkeleton" style="display:none">
+              <div class="travel-planner__skeleton-item"></div>
+              <div class="travel-planner__skeleton-item"></div>
+              <div class="travel-planner__skeleton-item"></div>
+            </div>
+
+            <!-- Empty State -->
+            <div class="travel-planner__search-empty" id="tpSearchEmpty" style="display:none">
+              <p class="travel-planner__empty-text">No destination found.</p>
+              <p class="travel-planner__empty-hint">Try searching by city name or IATA code.</p>
+            </div>
+
+            <!-- Error State -->
+            <div class="travel-planner__search-error" id="tpSearchError" style="display:none">
+              <p class="travel-planner__error-text" id="tpSearchErrorText"></p>
+              <button class="travel-planner__retry-btn" id="tpSearchRetry">Retry</button>
+            </div>
           </div>
-          <div class="travel-planner__destination-info" id="tpDestinationInfo" style="display:none">
-            <span class="travel-planner__info-city" id="tpInfoCity"></span>
-            <span class="travel-planner__info-country" id="tpInfoCountry"></span>
+
+          <!-- Selected Destination Info -->
+          <div class="travel-planner__destination-selected" id="tpDestinationSelected" style="display:none">
+            <div class="travel-planner__destination-badge">
+              <span class="travel-planner__destination-flag" id="tpDestinationFlag"></span>
+              <span class="travel-planner__destination-name" id="tpDestinationName"></span>
+              <span class="travel-planner__destination-code" id="tpDestinationCode"></span>
+              <button class="travel-planner__destination-clear" id="tpDestinationClear" title="Clear selection">✕</button>
+            </div>
           </div>
         </div>
 
@@ -250,6 +292,7 @@
   </div>
 </article>
 
+<script src="/reviewchanthat/js/travel-destination-search.js"></script>
 <script src="/reviewchanthat/js/travel-planner.js"></script>
 <script src="/reviewchanthat/js/travel-ai-engine.js"></script>
 {{ end }}

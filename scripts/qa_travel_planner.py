@@ -383,11 +383,47 @@ def print_summary():
     return len(ISSUES) == 0
 
 
+def check_destination_search():
+    """Check destination search v2 implementation."""
+    print('\n[Destination Search v2]')
+
+    # Check Python service
+    if not os.path.exists('services/city_lookup.py'):
+        log_issue('Missing services/city_lookup.py')
+    else:
+        log_success('City lookup service exists')
+
+    # Check JS files
+    if os.path.exists('static/js/travel-destination-search.js'):
+        log_success('Destination search JS exists')
+        with open('static/js/travel-destination-search.js', 'r') as f:
+            content = f.read()
+            if 'debounce' in content:
+                log_success('Debounce implemented')
+            if 'cache' in content:
+                log_success('Caching implemented')
+            if 'keyboard' in content or 'keydown' in content:
+                log_success('Keyboard navigation implemented')
+            if 'aria' in content.lower():
+                log_success('ARIA attributes implemented')
+    else:
+        log_warning('travel-destination-search.js not found')
+
+    # Check .env.example
+    if os.path.exists('.env.example'):
+        with open('.env.example', 'r') as f:
+            env_content = f.read()
+            if 'AVIATIONSTACK_API_KEY' in env_content:
+                log_success('Aviation Stack API key in .env.example')
+            else:
+                log_warning('Aviation Stack API key not in .env.example')
+
+
 def main():
     """Run all QA checks."""
     parser_help = 'QA suite for Travel Planner'
 
-    print('🚀 AI Travel Planner QA\n')
+    print('🚀 AI Travel Planner v2 QA\n')
 
     check_content_file()
     check_layout_file()
@@ -398,6 +434,7 @@ def main():
     check_date_validation()
     check_accessibility()
     check_mobile_responsive()
+    check_destination_search()
 
     success = print_summary()
     sys.exit(0 if success else 1)

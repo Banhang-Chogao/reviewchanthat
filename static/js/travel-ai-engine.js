@@ -71,16 +71,28 @@
     }
 
     static buildPrompt(tripData) {
-      const dest = IATA_DATABASE[tripData.destination];
-      const city = dest?.city || tripData.destination;
-      const country = dest?.country || 'Unknown';
+      // Use full destination data from API instead of hardcoded IATA database
+      const destData = tripData.destinationData || {};
+      const city = destData.city || tripData.destination;
+      const country = destData.country || 'Unknown';
+      const iata = destData.iata || tripData.destination;
+      const timezone = destData.timezone || 'Unknown';
+      const coordinates = destData.latitude && destData.longitude
+        ? `${destData.latitude}, ${destData.longitude}`
+        : 'Unknown';
       const budget = tripData.budget;
       const purpose = tripData.purposes.join(', ') || 'tourism';
 
       return `Create a professional ${tripData.days}-day travel itinerary for ${city}, ${country}.
 
-Details:
-- Destination: ${city}, ${country}
+Destination Details (DO NOT HALLUCINATE - USE THESE EXACT VALUES):
+- City: ${city}
+- Country: ${country}
+- IATA Code: ${iata}
+- Timezone: ${timezone}
+- Coordinates: ${coordinates}
+
+Trip Details:
 - Duration: ${tripData.days} days (${tripData.departure} to ${tripData.returnDate})
 - Travelers: ${tripData.adults} adult(s), ${tripData.children} child(ren)
 - Budget Level: ${budget}
@@ -130,11 +142,17 @@ Format as JSON with structure:
     }
 
     static generateLocalItinerary(tripData) {
-      const dest = IATA_DATABASE[tripData.destination] || {
-        city: tripData.destination,
-        country: 'Unknown'
+      // Use full destination data from API
+      const destData = tripData.destinationData || {};
+      const dest = {
+        city: destData.city || tripData.destination,
+        country: destData.country || 'Unknown',
+        iata: destData.iata || ''
       };
-      const weather = WEATHER_PATTERNS[tripData.destination] || {
+
+      // Look up weather pattern by IATA or city name
+      const weatherKey = destData.iata || tripData.destination;
+      const weather = WEATHER_PATTERNS[weatherKey] || {
         season: 'Seasonal',
         temp: '20-25°C',
         conditions: 'Variable'

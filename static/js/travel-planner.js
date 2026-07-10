@@ -40,15 +40,18 @@
     }
 
     initEventListeners() {
-      // Destination autocomplete
-      document.getElementById('tpDestination').addEventListener('input', (e) => {
-        this.handleDestinationInput(e.target.value);
+      // Listen for destination selection from destination search service
+      window.addEventListener('destinationSelected', () => {
+        this.updateGenerateButtonState();
       });
 
-      document.getElementById('tpDestination').addEventListener('blur', () => {
-        setTimeout(() => {
-          document.getElementById('tpDestinationList').style.display = 'none';
-        }, 200);
+      // Listen for date changes
+      document.getElementById('tpDeparture').addEventListener('change', () => {
+        this.updateGenerateButtonState();
+      });
+
+      document.getElementById('tpReturn').addEventListener('change', () => {
+        this.updateGenerateButtonState();
       });
 
       // Toggle advanced options
@@ -169,13 +172,19 @@
     }
 
     async generateItinerary() {
-      const destination = document.getElementById('tpDestination').value.trim();
+      // Get selected destination from destination search service
+      const selectedDest = window.DestinationSearch?.getSelectedDestination?.();
       const departure = document.getElementById('tpDeparture').value;
       const returnDate = document.getElementById('tpReturn').value;
 
       // Validation
-      if (!destination || !departure || !returnDate) {
-        this.showError('Vui lòng nhập điểm đến và ngày đi/về.');
+      if (!selectedDest) {
+        this.showError('Vui lòng chọn điểm đến từ danh sách.');
+        return;
+      }
+
+      if (!departure || !returnDate) {
+        this.showError('Vui lòng chọn ngày đi và ngày về.');
         return;
       }
 
@@ -197,9 +206,10 @@
       this.showProgress();
 
       try {
-        // Collect trip data
+        // Collect trip data with full destination info
         const tripData = {
-          destination,
+          destination: selectedDest.iata || selectedDest.city,
+          destinationData: selectedDest, // Full destination object
           departure,
           returnDate,
           adults: parseInt(document.getElementById('tpAdults').value) || 1,
@@ -234,9 +244,11 @@
       document.getElementById('tpError').style.display = 'none';
       document.getElementById('tpResult').style.display = 'block';
 
-      // Update summary
-      const city = IATA_DATABASE[tripData.destination]?.city || tripData.destination;
-      document.getElementById('tpSummaryDest').textContent = city;
+      // Update summary - use destination data from API
+      const destData = tripData.destinationData || {};
+      const city = destData.city || tripData.destination;
+      const country = destData.country || '';
+      document.getElementById('tpSummaryDest').textContent = country ? `${city}, ${country}` : city;
       document.getElementById('tpSummaryDuration').textContent = `${tripData.days} ngày`;
       document.getElementById('tpSummaryWeather').textContent = itinerary.weather || 'N/A';
       document.getElementById('tpSummaryBudget').textContent = itinerary.estimatedBudget || 'TBD';
@@ -469,6 +481,19 @@
 
     showSuccess(message) {
       alert(message);
+    }
+
+    updateGenerateButtonState() {
+      const selectedDest = window.DestinationSearch?.getSelectedDestination?.();
+      const departure = document.getElementById('tpDeparture').value;
+      const returnDate = document.getElementById('tpReturn').value;
+      const generateBtn = document.getElementById('tpGenerateBtn');
+
+      const isValid = selectedDest && departure && returnDate &&
+        new Date(departure) < new Date(returnDate);
+
+      generateBtn.disabled = !isValid;
+      generateBtn.style.opacity = isValid ? '1' : '0.5';
     }
 
     formatDate(timestamp) {
