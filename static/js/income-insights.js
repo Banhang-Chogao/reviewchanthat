@@ -1042,6 +1042,8 @@
             month: m,
             year: y
           });
+          // Skip row nếu tất cả các trường nhập liệu đều rỗng/mặc định
+          if (!inc && !deb && !txn.incomeLabel && !txn.debtLabel && !txn.transactionType && !txn.route && !txn.remark) continue;
           imported.push(txn);
         }
 
