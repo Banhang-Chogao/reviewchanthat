@@ -1,22 +1,3 @@
----
-date: 2026-07-10 04:00:00+07:00
-image: static/images/posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.webp
-image_attribution_source: pexels_api
-image_attribution_verified: true
-image_commercial_use: true
-image_creator: Leeloo The First
-image_creator_id: ''
-image_creator_url: https://www.pexels.com/@leeloothefirst
-image_license: Pexels License
-image_license_url: ''
-image_owner: external
-image_provider: pexels
-image_source: Pexels
-image_source_url: https://www.pexels.com/photo/a-woman-using-her-smartphone-while-holding-a-credit-card-8938729/
-image_status: verified
-thumbnail: static/images/posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.webp
----
-
 +++
 title = "Fed, bond yield và giá vàng: vì sao lãi suất Mỹ ảnh hưởng túi tiền người Việt?"
 date = 2026-07-10T04:00:00+07:00
