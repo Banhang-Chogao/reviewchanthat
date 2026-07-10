@@ -10,28 +10,30 @@ tags = ["log-return", "log tự nhiên", "lợi suất logarit", "ln trong tài 
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 2
 image = "images/posts/log-tu-nhien-log-return-trong-dau-tu.webp"
-image_alt = "Ảnh minh họa Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return? — nguồn Pixabay"
+image_alt = "Ảnh minh họa log tu nhien log return trong dau tu — nguồn Pexels"
 date_display = "10-07-2026 11:00:00 GMT +7"
 lastmod_display = "10-07-2026 11:00:00 GMT +7"
+thumbnail = "images/posts/log-tu-nhien-log-return-trong-dau-tu.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/stock-market-chart-displaying-bearish-trend-35118208/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = "https://www.pexels.com/license/"
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Alex Luna"
+image_creator_url = "https://www.pexels.com/@al3jandr0"
+image_creator_id = "198851489"
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-10T14:19:48+07:00"
+image_query = "stock market candlestick chart analysis"
+draft = false
 
 [ai_summary]
 items = ["Log tự nhiên (ln) là hàm ngược của e: nếu e^x = y thì ln(y) = x", "Log-return: R = ln(Pt/Pt-1) — cách tính lợi suất bằng logarit thay vì phần trăm thông thường", "So sánh: simple return (+10%, -5%) ≠ cộng = +4.5% nhưng log-return (+9.53%, -5.13%) ✓ cộng = +4.40%", "Tính chất cộng dồn: Rtotal = R1 + R2 + ... + Rn — đây là lý do giới định lượng dùng log-return", "Ví dụ thực tế: VietcomBank giá 100k → 110k → 104.5k (so sánh 2 cách tính)", "Ứng dụng: quỹ đầu tư tính volatility, machine learning forecast thị trường, quản trị rủi ro dùng log-return", "Vì sao: log-return đối xứng (50% rồi -33% = neutral), phân phối chuẩn, phù hợp time-series analysis"]
-thumbnail = "images/posts/log-tu-nhien-log-return-trong-dau-tu.webp"
-image_source = "Pixabay"
-image_source_url = "https://pixabay.com/photos/wallet-money-credit-card-online-2125548/"
-image_provider = "pixabay"
-image_license = "Pixabay Content License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "JESHOOTS-com"
-image_creator_url = "https://pixabay.com/photos/wallet-money-credit-card-online-2125548/"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pixabay_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
-image_query = "credit card finance desk"
+draft = false
 +++
 
 Khi bạn đầu tư vào cổ phiếu VietcomBank với giá 100,000 đồng, giá tăng lên 110,000 (+10%), rồi giảm xuống 104,500 (-5%), lợi suất cuối cùng là bao nhiêu?
@@ -51,6 +53,12 @@ Bài này giải thích:
 ---
 
 ## Log tự nhiên (ln) là gì?
+
+
+![Minh họa nội dung log tu nhien log return trong dau tu — nguồn Pexels](/images/posts/log-tu-nhien-log-return-trong-dau-tu-inline.webp)
+
+*Nguồn: Pexels / Yan Krukau*
+
 
 **Log tự nhiên (natural logarithm)** ký hiệu **ln** là **hàm ngược của e**:
 

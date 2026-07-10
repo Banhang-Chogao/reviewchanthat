@@ -10,28 +10,30 @@ tags = ["AI", "machine learning", "deep learning", "NLP", "reinforcement learnin
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 14
 image = "images/posts/ai-trong-tai-chinh-dung-toan-hoc-gi.webp"
-image_alt = "Ảnh minh họa AI trong tài chính: Deep learning, NLP, và reinforcement learning — nguồn Pexels"
+image_alt = "Ảnh minh họa ai trong tai chinh dung toan hoc gi — nguồn Pexels"
 date_display = "10-07-2026 12:30:00 GMT +7"
 lastmod_display = "10-07-2026 12:30:00 GMT +7"
-
-[ai_summary]
-items = ["Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)", "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)", "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài", "NLP: Phân tích tin tức, social media → sentiment score → alpha signal", "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)", "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward", "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"]
 thumbnail = "images/posts/ai-trong-tai-chinh-dung-toan-hoc-gi.webp"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/black-framed-sunglasses-beside-white-paper-8062369/"
+image_source_url = "https://www.pexels.com/photo/close-up-of-a-miniature-shopping-cart-5980898/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = ""
+image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Nataliya Vaitkevich"
-image_creator_url = "https://www.pexels.com/@n-voitkevich"
-image_creator_id = ""
+image_creator = "www.kaboompics.com"
+image_creator_url = "https://www.pexels.com/@karola-g"
+image_creator_id = "2332540"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
-image_query = "credit card finance desk"
+image_attribution_checked_at = "2026-07-10T14:20:30+07:00"
+image_query = "artificial intelligence finance technology trading"
+draft = false
+
+[ai_summary]
+items = ["Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)", "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)", "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài", "NLP: Phân tích tin tức, social media → sentiment score → alpha signal", "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)", "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward", "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"]
+draft = false
 +++
 
 **AI/Machine Learning** trong tài chính không phải huyền thoại — nó **thực tế & hiệu quả**.
@@ -43,6 +45,12 @@ Bài này: AI trong tài chính.
 ---
 
 ## Deep Learning Basics
+
+
+![Minh họa nội dung ai trong tai chinh dung toan hoc gi — nguồn Pexels](/images/posts/ai-trong-tai-chinh-dung-toan-hoc-gi-inline.webp)
+
+*Nguồn: Pexels / Yaroslav Shuraev*
+
 
 ### Feedforward Neural Network
 

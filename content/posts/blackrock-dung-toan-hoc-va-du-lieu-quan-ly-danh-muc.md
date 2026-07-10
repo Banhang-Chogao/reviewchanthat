@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
 description = "BlackRock ($10 triliệu quản lý) dùng toán học nào? Học factor models, machine learning, ESG scoring, risk management, Aladdin platform, optimization algorithms."
 date = "2026-07-10T13:16:14+07:00"
@@ -11,28 +11,28 @@ tags = ["BlackRock", "factor models", "machine learning", "ESG", "Aladdin", "por
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 8
 image = "images/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.webp"
-image_alt = "Ảnh minh họa BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ — nguồn Pexels"
+image_alt = "Ảnh minh họa blackrock dung toan hoc va du lieu quan ly danh muc — nguồn Pexels"
 date_display = "10-07-2026 13:16:14 GMT +7"
 lastmod_display = "10-07-2026 14:10:36 GMT +7"
-
-[ai_summary]
-items = ["BlackRock: Quản lý $10+ triliệu tài sản (lớn nhất thế giới)", "Aladdin: Platform AI/ML xử lý dữ liệu khổng lồ, tối ưu danh mục", "Factor Models: Fama-French 5 factor (market, size, value, profitability, investment)", "α = Return - β₁×Factor₁ - β₂×Factor₂ - ... (phân tích alpha khác volatility)", "Machine Learning: Deep learning dự báo return, risk, flow", "ESG Scoring: Toán học tổng hợp environmental, social, governance scores", "Optimization: Large-scale QP (quadratic programming) với 10k+ assets"]
 thumbnail = "images/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.webp"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/black-laptop-computer-on-the-table-7821758/"
+image_source_url = "https://www.pexels.com/photo/white-mobile-phone-on-white-printer-paper-7873554/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = ""
+image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "RDNE Stock project"
-image_creator_url = "https://www.pexels.com/@rdne"
-image_creator_id = ""
+image_creator = "Leeloo The First"
+image_creator_url = "https://www.pexels.com/@leeloothefirst"
+image_creator_id = "2946790"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
-image_query = "credit card finance desk"
+image_attribution_checked_at = "2026-07-10T14:20:09+07:00"
+image_query = "institutional investment portfolio management"
+
+[ai_summary]
+items = ["BlackRock: Quản lý $10+ triliệu tài sản (lớn nhất thế giới)", "Aladdin: Platform AI/ML xử lý dữ liệu khổng lồ, tối ưu danh mục", "Factor Models: Fama-French 5 factor (market, size, value, profitability, investment)", "α = Return - β₁×Factor₁ - β₂×Factor₂ - ... (phân tích alpha khác volatility)", "Machine Learning: Deep learning dự báo return, risk, flow", "ESG Scoring: Toán học tổng hợp environmental, social, governance scores", "Optimization: Large-scale QP (quadratic programming) với 10k+ assets"]
 +++
 
 BlackRock quản lý **$10+ triliệu tài sản** — lớn nhất thế giới. Họ dùng **toán học, machine learning, big data** để:
@@ -46,6 +46,12 @@ Bài này giải thích **BlackRock's mathematics**.
 ---
 
 ## Aladdin Platform
+
+
+![Minh họa nội dung blackrock dung toan hoc va du lieu quan ly danh muc — nguồn Pexels](/images/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc-inline.webp)
+
+*Nguồn: Pexels / Atlantic Ambience*
+
 
 **Aladdin** = AI/ML platform quản lý rủi ro + portfolio optimization của BlackRock.
 

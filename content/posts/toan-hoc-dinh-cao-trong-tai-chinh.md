@@ -10,28 +10,30 @@ tags = ["series finale", "tổng kết", "toán học tài chính", "định lư
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 15
 image = "images/posts/toan-hoc-dinh-cao-trong-tai-chinh.webp"
-image_alt = "Ảnh minh họa Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài — nguồn Pexels"
+image_alt = "Ảnh minh họa toan hoc dinh cao trong tai chinh — nguồn Pexels"
 date_display = "10-07-2026 12:45:00 GMT +7"
 lastmod_display = "10-07-2026 12:45:00 GMT +7"
-
-[ai_summary]
-items = ["Bài 1 (Pillar Gốc): e^(rt) - compound interest, discount factor e^(-rt)", "Bài 2-3: log-return, portfolio theory, Sharpe ratio, CAPM, beta", "Bài 4-6: Insurance (S(t)=e^(-λt)), CFA, FRM, VaR, CVaR", "Bài 7-9: Investment Banks (Greeks), BlackRock (Aladdin, factors), Renaissance (patterns)", "Bài 10-13: Stock valuation (DCF, P/E), Black-Scholes, Risk Mgmt, Monte Carlo", "Bài 14-15: AI (deep learning, NLP, RL), tổng kết & tương lai", "Chiều sâu: Từ e^(-rt) (đơn giản) đến Transformer (phức tạp)"]
 thumbnail = "images/posts/toan-hoc-dinh-cao-trong-tai-chinh.webp"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/graphic-illustration-of-an-atm-6289062/"
+image_source_url = "https://www.pexels.com/photo/blackboard-with-handwritten-calculations-6256066/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = ""
+image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Monstera Production"
-image_creator_url = "https://www.pexels.com/@gabby-k"
-image_creator_id = ""
+image_creator = "www.kaboompics.com"
+image_creator_url = "https://www.pexels.com/@karola-g"
+image_creator_id = "2332540"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:45+07:00"
-image_query = "atm banking transaction"
+image_attribution_checked_at = "2026-07-10T14:20:32+07:00"
+image_query = "advanced mathematics chalkboard finance"
+draft = false
+
+[ai_summary]
+items = ["Bài 1 (Pillar Gốc): e^(rt) - compound interest, discount factor e^(-rt)", "Bài 2-3: log-return, portfolio theory, Sharpe ratio, CAPM, beta", "Bài 4-6: Insurance (S(t)=e^(-λt)), CFA, FRM, VaR, CVaR", "Bài 7-9: Investment Banks (Greeks), BlackRock (Aladdin, factors), Renaissance (patterns)", "Bài 10-13: Stock valuation (DCF, P/E), Black-Scholes, Risk Mgmt, Monte Carlo", "Bài 14-15: AI (deep learning, NLP, RL), tổng kết & tương lai", "Chiều sâu: Từ e^(-rt) (đơn giản) đến Transformer (phức tạp)"]
+draft = false
 +++
 
 **Series 15/15 — Tổng kết.**
@@ -48,6 +50,12 @@ Chúng ta đã học:
 ---
 
 ## Liên kết các bài
+
+
+![Minh họa nội dung toan hoc dinh cao trong tai chinh — nguồn Pexels](/images/posts/toan-hoc-dinh-cao-trong-tai-chinh-inline.webp)
+
+*Nguồn: Pexels / www.kaboompics.com*
+
 
 ### Layer 1: Nền tảng (Bài 1-2)
 

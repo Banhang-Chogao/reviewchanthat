@@ -10,28 +10,30 @@ tags = ["bảo hiểm", "actuarial science", "xác suất", "phí bảo hiểm",
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 4
 image = "images/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.webp"
-image_alt = "Ảnh minh họa Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro? — nguồn Pexels"
+image_alt = "Ảnh minh họa cong ty bao hiem dung toan hoc tinh phi rui ro — nguồn Pexels"
 date_display = "10-07-2026 11:30:00 GMT +7"
 lastmod_display = "10-07-2026 11:30:00 GMT +7"
-
-[ai_summary]
-items = ["Actuarial science là ngành học xác suất + thống kê + tài chính để quản lý rủi ro dài hạn", "Xác suất sống còn: S(t) = e^(-λt), nơi λ là tỷ lệ nguy hiểm hàng năm", "Phí bảo hiểm = Expected loss (khoản tiền trung bình sẽ trả) + overhead + lợi nhuận", "Present value của quyền lợi bảo hiểm: PV = Benefit × e^(-rt) × P(survive)", "Dự phòng kỹ thuật: tiền công ty giữ lại để trả bảo hiểm trong tương lai", "Monte Carlo: mô phỏng hàng triệu kịch bản để ước lượng rủi ro tối đa", "Ví dụ: Tính phí bảo hiểm nhân thọ 20 năm cho người 35 tuổi"]
 thumbnail = "images/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.webp"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/person-inserting-money-unto-an-atm-5849549/"
+image_source_url = "https://www.pexels.com/photo/magnifying-glass-and-a-document-10341357/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = ""
+image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Monstera Production"
-image_creator_url = "https://www.pexels.com/@gabby-k"
-image_creator_id = ""
+image_creator = "Vlad Deep"
+image_creator_url = "https://www.pexels.com/@vlad-deep-29415806"
+image_creator_id = "29415806"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
-image_query = "atm banking transaction"
+image_attribution_checked_at = "2026-07-10T14:19:55+07:00"
+image_query = "insurance policy documents calculator"
+draft = false
+
+[ai_summary]
+items = ["Actuarial science là ngành học xác suất + thống kê + tài chính để quản lý rủi ro dài hạn", "Xác suất sống còn: S(t) = e^(-λt), nơi λ là tỷ lệ nguy hiểm hàng năm", "Phí bảo hiểm = Expected loss (khoản tiền trung bình sẽ trả) + overhead + lợi nhuận", "Present value của quyền lợi bảo hiểm: PV = Benefit × e^(-rt) × P(survive)", "Dự phòng kỹ thuật: tiền công ty giữ lại để trả bảo hiểm trong tương lai", "Monte Carlo: mô phỏng hàng triệu kịch bản để ước lượng rủi ro tối đa", "Ví dụ: Tính phí bảo hiểm nhân thọ 20 năm cho người 35 tuổi"]
+draft = false
 +++
 
 Khi bạn mua bảo hiểm nhân thọ, công ty bảo hiểm không chỉ "đoán" phí. Họ dùng **toán học cao cấp** để:
@@ -44,6 +46,12 @@ Bài này giải thích **actuarial science** — ngành học giúp bảo hiể
 ---
 
 ## Actuarial Science là gì?
+
+
+![Minh họa nội dung cong ty bao hiem dung toan hoc tinh phi rui ro — nguồn Pexels](/images/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro-inline.webp)
+
+*Nguồn: Pexels / Kampus Production*
+
 
 **Actuarial Science** = Xác suất + Thống kê + Tài chính + Luật.
 

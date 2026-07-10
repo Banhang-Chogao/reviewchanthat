@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
 description = "Goldman Sachs, JPMorgan dùng toán học gì? Học algorithmic trading, derivatives pricing, volatility smile, Greeks (delta, gamma, vega), stochastic models, machine learning."
 date = "2026-07-10T13:16:14+07:00"
@@ -11,28 +11,28 @@ tags = ["Goldman Sachs", "JPMorgan", "derivatives", "Greeks", "high-frequency tr
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 7
 image = "images/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.webp"
-image_alt = "Ảnh minh họa Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives — nguồn Pexels"
+image_alt = "Ảnh minh họa goldman sachs jpmorgan dung toan hoc nhu the nao — nguồn Pexels"
 date_display = "10-07-2026 13:16:14 GMT +7"
 lastmod_display = "10-07-2026 14:10:36 GMT +7"
-
-[ai_summary]
-items = ["Goldman Sachs, JPMorgan: 2 ngân hàng đầu tư lớn nhất thế giới", "Derivatives pricing: Black-Scholes, local volatility, stochastic volatility", "Greeks: Delta (độ nhạy giá), Gamma (độ cong), Vega (độ nhạy volatility)", "Volatility Smile: σ thay đổi theo strike price (không hằng số)", "Algorithmic Trading: Machines tự động mua/bán hàng triệu giao dịch/ngày", "Market Microstructure: Spread, latency, order flow prediction", "Machine Learning: Neural networks dự báo giá, market impact models"]
 thumbnail = "images/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.webp"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/man-using-atm-machine-11284045/"
+image_source_url = "https://www.pexels.com/photo/iconic-wall-street-skyline-in-new-york-city-33471680/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = ""
+image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Centre for Ageing Better"
-image_creator_url = "https://www.pexels.com/@centre-for-ageing-better-55954677"
-image_creator_id = ""
+image_creator = "Colwyn Davis"
+image_creator_url = "https://www.pexels.com/@colwyn-davis-1763356180"
+image_creator_id = "1763356180"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
-image_query = "atm banking transaction"
+image_attribution_checked_at = "2026-07-10T14:20:07+07:00"
+image_query = "wall street financial district skyscrapers"
+
+[ai_summary]
+items = ["Goldman Sachs, JPMorgan: 2 ngân hàng đầu tư lớn nhất thế giới", "Derivatives pricing: Black-Scholes, local volatility, stochastic volatility", "Greeks: Delta (độ nhạy giá), Gamma (độ cong), Vega (độ nhạy volatility)", "Volatility Smile: σ thay đổi theo strike price (không hằng số)", "Algorithmic Trading: Machines tự động mua/bán hàng triệu giao dịch/ngày", "Market Microstructure: Spread, latency, order flow prediction", "Machine Learning: Neural networks dự báo giá, market impact models"]
 +++
 
 Goldman Sachs & JPMorgan là 2 ngân hàng đầu tư lớn nhất. Họ dùng **toán học cực kỳ phức tạp** cho:
@@ -46,6 +46,12 @@ Bài này giải thích **mathematics of investment banks**.
 ---
 
 ## Derivatives Pricing
+
+
+![Minh họa nội dung goldman sachs jpmorgan dung toan hoc nhu the nao — nguồn Pexels](/images/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao-inline.webp)
+
+*Nguồn: Pexels / Egor Komarov*
+
 
 ### Black-Scholes (cơ bản)
 

@@ -10,28 +10,30 @@ tags = ["Monte Carlo", "simulation", "Brownian motion", "random sampling", "exot
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 13
 image = "images/posts/monte-carlo-trong-tai-chinh-la-gi.webp"
-image_alt = "Ảnh minh họa Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản — nguồn Pexels"
+image_alt = "Ảnh minh họa monte carlo trong tai chinh la gi — nguồn Pexels"
 date_display = "10-07-2026 12:15:00 GMT +7"
 lastmod_display = "10-07-2026 12:15:00 GMT +7"
-
-[ai_summary]
-items = ["Monte Carlo: Mô phỏng N×10^6 kịch bản random để ước lượng option price, VaR, portfolio value", "Brownian Motion: dS = μS dt + σS dW (random walk log-price)", "Giả định: S tuân theo log-normal distribution, dW là Wiener process", "Discretization: Δt nhỏ (1 ngày, 1 giờ) để discretize SDE", "Pricing: E[Option Payoff] = (1/N) × Σ Payoff_i × e^(-rT)", "VaR: Sort 10M outcomes, lấy 1% worst case", "Variance Reduction: Antithetic sampling, control variates để giảm N needed"]
 thumbnail = "images/posts/monte-carlo-trong-tai-chinh-la-gi.webp"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/woman-using-an-automated-teller-machine-5699341/"
+image_source_url = "https://www.pexels.com/photo/blue-dice-in-close-up-photography-6990178/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = ""
+image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "RDNE Stock project"
-image_creator_url = "https://www.pexels.com/@rdne"
-image_creator_id = ""
+image_creator = "DS stories"
+image_creator_url = "https://www.pexels.com/@ds-stories"
+image_creator_id = "2858981"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
-image_query = "atm banking transaction"
+image_attribution_checked_at = "2026-07-10T14:20:26+07:00"
+image_query = "probability simulation random data charts"
+draft = false
+
+[ai_summary]
+items = ["Monte Carlo: Mô phỏng N×10^6 kịch bản random để ước lượng option price, VaR, portfolio value", "Brownian Motion: dS = μS dt + σS dW (random walk log-price)", "Giả định: S tuân theo log-normal distribution, dW là Wiener process", "Discretization: Δt nhỏ (1 ngày, 1 giờ) để discretize SDE", "Pricing: E[Option Payoff] = (1/N) × Σ Payoff_i × e^(-rT)", "VaR: Sort 10M outcomes, lấy 1% worst case", "Variance Reduction: Antithetic sampling, control variates để giảm N needed"]
+draft = false
 +++
 
 **Monte Carlo** — phương pháp mô phỏng dựa trên **random sampling**.
@@ -44,6 +46,12 @@ image_query = "atm banking transaction"
 ---
 
 ## Brownian Motion & Ito's Lemma
+
+
+![Minh họa nội dung monte carlo trong tai chinh la gi — nguồn Pexels](/images/posts/monte-carlo-trong-tai-chinh-la-gi-inline.webp)
+
+*Nguồn: Pexels / AlphaTradeZone*
+
 
 ### Mô hình giá tài sản
 

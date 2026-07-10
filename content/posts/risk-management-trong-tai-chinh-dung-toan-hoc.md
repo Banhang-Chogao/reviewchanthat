@@ -10,28 +10,30 @@ tags = ["risk management", "VaR", "CVaR", "correlation", "stress test", "tail ri
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 12
 image = "images/posts/risk-management-trong-tai-chinh-dung-toan-hoc.webp"
-image_alt = "Ảnh minh họa Risk Management trong tài chính: Từ VaR đến stress testing — nguồn Pexels"
+image_alt = "Ảnh minh họa risk management trong tai chinh dung toan hoc — nguồn Pexels"
 date_display = "10-07-2026 12:00:00 GMT +7"
 lastmod_display = "10-07-2026 12:00:00 GMT +7"
-
-[ai_summary]
-items = ["Risk Management = Định lượng, monitor, minimize rủi ro tài chính", "VaR_α = Tổn thất tối đa ở mức tin cậy α% (đã học ở Bài 6)", "Historical VaR: Từ 250 ngày lịch sử, lấy 1% tồi nhất", "Parametric VaR: VaR = Portfolio × Z × σ (giả định phân phối chuẩn)", "Expected Shortfall: Mất lỗ trung bình vượt quá VaR", "Correlation Breakdown: Khi thị trường crash, correlation → 1 (diversification fail!)", "Stress Testing: Kịch bản cực đoan (2008 crisis, COVID, war, etc)"]
 thumbnail = "images/posts/risk-management-trong-tai-chinh-dung-toan-hoc.webp"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/woman-with-gloves-inserting-a-card-into-an-automated-machine-5699338/"
+image_source_url = "https://www.pexels.com/photo/white-letter-blocks-on-beige-notebook-6120213/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = ""
+image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "RDNE Stock project"
-image_creator_url = "https://www.pexels.com/@rdne"
-image_creator_id = ""
+image_creator = "Nataliya Vaitkevich"
+image_creator_url = "https://www.pexels.com/@n-voitkevich"
+image_creator_id = "2906295"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:45+07:00"
-image_query = "atm banking transaction"
+image_attribution_checked_at = "2026-07-10T14:20:22+07:00"
+image_query = "risk management chart finance umbrella"
+draft = false
+
+[ai_summary]
+items = ["Risk Management = Định lượng, monitor, minimize rủi ro tài chính", "VaR_α = Tổn thất tối đa ở mức tin cậy α% (đã học ở Bài 6)", "Historical VaR: Từ 250 ngày lịch sử, lấy 1% tồi nhất", "Parametric VaR: VaR = Portfolio × Z × σ (giả định phân phối chuẩn)", "Expected Shortfall: Mất lỗ trung bình vượt quá VaR", "Correlation Breakdown: Khi thị trường crash, correlation → 1 (diversification fail!)", "Stress Testing: Kịch bản cực đoan (2008 crisis, COVID, war, etc)"]
+draft = false
 +++
 
 **Risk Management** — quản lý rủi ro trong tài chính.
@@ -43,6 +45,12 @@ Bài này giải thích risk management frameworks & toán học.
 ---
 
 ## Risk Hierarchy
+
+
+![Minh họa nội dung risk management trong tai chinh dung toan hoc — nguồn Pexels](/images/posts/risk-management-trong-tai-chinh-dung-toan-hoc-inline.webp)
+
+*Nguồn: Pexels / Vlad Deep*
+
 
 ### Tier 1: Market Risk
 

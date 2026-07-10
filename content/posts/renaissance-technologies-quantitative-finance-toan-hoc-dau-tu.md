@@ -10,28 +10,30 @@ tags = ["Renaissance Technologies", "Jim Simons", "Medallion Fund", "pattern rec
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 9
 image = "images/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.webp"
-image_alt = "Ảnh minh họa Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền — nguồn Pexels"
+image_alt = "Ảnh minh họa renaissance technologies quantitative finance toan hoc dau tu — nguồn Pexels"
 date_display = "10-07-2026 11:45:00 GMT +7"
 lastmod_display = "10-07-2026 11:45:00 GMT +7"
-
-[ai_summary]
-items = ["Renaissance Technologies: Quỹ quantitative do Jim Simons lập (nhà toán học)", "Medallion Fund: Lợi suất ~30%/năm trước phí (40%/năm sau phí, nhưng vẫn đạt 11% net)", "Jim Simons: Fields Medalist, thuyết phục tài năng toán học phục vụ trading", "Pattern Recognition: Tìm correlation + causation trong 50 năm dữ liệu", "Statistical Arbitrage: Mua undervalue + bán overvalue (long-short strategy)", "Bayesian Networks: Graphical models để infer mối quan hệ biến", "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"]
 thumbnail = "images/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.webp"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/woman-standing-in-front-of-an-automated-machine-holding-a-bank-card-5699339/"
+image_source_url = "https://www.pexels.com/photo/a-man-monitoring-graphs-on-multiple-screens-5831522/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = ""
+image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "RDNE Stock project"
-image_creator_url = "https://www.pexels.com/@rdne"
-image_creator_id = ""
+image_creator = "AlphaTradeZone"
+image_creator_url = "https://www.pexels.com/@alphatradezone"
+image_creator_id = "3882745"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
-image_query = "atm banking transaction"
+image_attribution_checked_at = "2026-07-10T14:20:13+07:00"
+image_query = "quantitative trading algorithms computer screens"
+draft = false
+
+[ai_summary]
+items = ["Renaissance Technologies: Quỹ quantitative do Jim Simons lập (nhà toán học)", "Medallion Fund: Lợi suất ~30%/năm trước phí (40%/năm sau phí, nhưng vẫn đạt 11% net)", "Jim Simons: Fields Medalist, thuyết phục tài năng toán học phục vụ trading", "Pattern Recognition: Tìm correlation + causation trong 50 năm dữ liệu", "Statistical Arbitrage: Mua undervalue + bán overvalue (long-short strategy)", "Bayesian Networks: Graphical models để infer mối quan hệ biến", "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"]
+draft = false
 +++
 
 **Renaissance Technologies** — quỹ quantitative **nổi tiếng nhất thế giới**, do **Jim Simons** (nhà toán học) sáng lập.
@@ -43,6 +45,12 @@ Bí mật: **Toán học + Pattern Recognition**.
 ---
 
 ## Jim Simons & Origins
+
+
+![Minh họa nội dung renaissance technologies quantitative finance toan hoc dau tu — nguồn Pexels](/images/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu-inline.webp)
+
+*Nguồn: Pexels / ThisIsEngineering*
+
 
 Jim Simons:
 - **Fields Medalist** (Nobel Prize của toán học)

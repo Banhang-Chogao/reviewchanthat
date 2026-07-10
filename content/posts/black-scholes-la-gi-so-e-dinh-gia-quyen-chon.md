@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
 description = "Black-Scholes là công thức định giá option nổi tiếng. Học C = S×Φ(d1) - K×e^(-rT)×Φ(d2), Greeks, implied volatility, và ứng dụng thực tế."
 date = "2026-07-10T13:16:14+07:00"
@@ -11,28 +11,28 @@ tags = ["Black-Scholes", "option pricing", "call option", "put option", "implied
 series = ["ham-so-mu-e-va-toan-hoc-tai-chinh"]
 series_order = 11
 image = "images/posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.webp"
-image_alt = "Ảnh minh họa Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e — nguồn Pexels"
+image_alt = "Ảnh minh họa black scholes la gi so e dinh gia quyen chon — nguồn Pexels"
 date_display = "10-07-2026 13:16:14 GMT +7"
 lastmod_display = "10-07-2026 14:10:36 GMT +7"
-
-[ai_summary]
-items = ["Black-Scholes: Công thức định giá call option được phát hiện năm 1973", "C = S×Φ(d1) - K×e^(-rT)×Φ(d2) — thứ nhất thấy e^(-rT) từ Bài 1!", "d1, d2 = công thức logarit + phân phối chuẩn để tính Φ (cumulative normal CDF)", "Giả định: σ hằng số, không có dividend, European option (chỉ thực hiện khi expiry)", "Implied Volatility: Đảo ngược công thức để tìm σ từ giá market", "Put-Call Parity: C - P = S - K×e^(-rT) (mối quan hệ call/put)", "Thực tế: Volatility Smile, American options, dividend adjustment cần mô hình phức tạp hơn"]
 thumbnail = "images/posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.webp"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/person-writing-on-white-paper-7821495/"
+image_source_url = "https://www.pexels.com/photo/multiple-graphs-on-a-laptop-screen-6770610/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = ""
+image_license_url = "https://www.pexels.com/license/"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "RDNE Stock project"
-image_creator_url = "https://www.pexels.com/@rdne"
-image_creator_id = ""
+image_creator = "Alesia  Kozik"
+image_creator_url = "https://www.pexels.com/@alesiakozik"
+image_creator_id = "5767085"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-10T14:01:44+07:00"
-image_query = "credit card finance desk"
+image_attribution_checked_at = "2026-07-10T14:20:19+07:00"
+image_query = "options trading stock market screen"
+
+[ai_summary]
+items = ["Black-Scholes: Công thức định giá call option được phát hiện năm 1973", "C = S×Φ(d1) - K×e^(-rT)×Φ(d2) — thứ nhất thấy e^(-rT) từ Bài 1!", "d1, d2 = công thức logarit + phân phối chuẩn để tính Φ (cumulative normal CDF)", "Giả định: σ hằng số, không có dividend, European option (chỉ thực hiện khi expiry)", "Implied Volatility: Đảo ngược công thức để tìm σ từ giá market", "Put-Call Parity: C - P = S - K×e^(-rT) (mối quan hệ call/put)", "Thực tế: Volatility Smile, American options, dividend adjustment cần mô hình phức tạp hơn"]
 +++
 
 **Black-Scholes** — công thức định giá **quyền chọn (option)** nổi tiếng nhất.
@@ -44,6 +44,12 @@ Công thức này là **cái cơ" của derivatives pricing**.
 ---
 
 ## Black-Scholes Formula
+
+
+![Minh họa nội dung black scholes la gi so e dinh gia quyen chon — nguồn Pexels](/images/posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon-inline.webp)
+
+*Nguồn: Pexels / AlphaTradeZone*
+
 
 ### Call Option Price
 
