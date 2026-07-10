@@ -187,7 +187,11 @@
   font-weight: 700;
 }
 .income-kpi__value--danger {
-  color: var(--chip-red, #e74c3c);
+  color: var(--chip-red, #c0392b);
+  background: rgba(231, 76, 60, 0.08);
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: var(--radius-sm, 4px);
 }
 
 /* Transaction Table */
@@ -233,12 +237,24 @@
   font-size: 0.8rem;
   box-sizing: border-box;
   background: transparent;
+  transition: border-color 0.15s, background 0.15s;
+}
+.income-table input:not([readonly]) {
+  border-color: var(--color-border, #d0d0d0);
+}
+.income-table select {
+  border-color: var(--color-border, #d0d0d0);
+}
+.income-table input:not([readonly]):hover,
+.income-table select:hover {
+  border-color: var(--color-primary, #00A7A0);
 }
 .income-table input:focus,
 .income-table select:focus {
   outline: none;
   border-color: var(--color-primary, #00A7A0);
   background: var(--color-surface, #fff);
+  box-shadow: 0 0 0 2px rgba(0, 167, 160, 0.12);
 }
 .income-table input[readonly] {
   background: var(--color-surface-alt, #f9f9f9);
@@ -267,19 +283,19 @@
 }
 
 /* Column widths */
-.income-table__col-seq { width: 45px; }
-.income-table__col-income { width: 110px; }
-.income-table__col-label { width: 100px; }
-.income-table__col-debt { width: 110px; }
-.income-table__col-total { width: 110px; }
-.income-table__col-type { width: 100px; }
-.income-table__col-route { width: 100px; }
-.income-table__col-remark { width: 120px; }
-.income-table__col-date { width: 100px; }
-.income-table__col-d { width: 45px; }
-.income-table__col-m { width: 45px; }
-.income-table__col-y { width: 55px; }
-.income-table__col-actions { width: 90px; }
+.income-table__col-seq { width: 50px; min-width: 44px; }
+.income-table__col-income { width: 120px; min-width: 90px; }
+.income-table__col-label { width: 110px; min-width: 80px; }
+.income-table__col-debt { width: 120px; min-width: 90px; }
+.income-table__col-total { width: 120px; min-width: 90px; }
+.income-table__col-type { width: 110px; min-width: 80px; }
+.income-table__col-route { width: 110px; min-width: 80px; }
+.income-table__col-remark { width: 130px; min-width: 100px; }
+.income-table__col-date { width: 110px; min-width: 90px; }
+.income-table__col-d { width: 55px; min-width: 48px; }
+.income-table__col-m { width: 55px; min-width: 48px; }
+.income-table__col-y { width: 65px; min-width: 55px; }
+.income-table__col-actions { width: 100px; min-width: 80px; }
 
 /* Charts */
 .income-charts {

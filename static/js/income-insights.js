@@ -463,14 +463,14 @@
       actDiv.className = 'income-table__row-actions';
       var dupBtn = document.createElement('button');
       dupBtn.className = 'income-table__row-btn';
-      dupBtn.textContent = '⧉';
-      dupBtn.title = 'Nhân bản';
+      dupBtn.innerHTML = '<svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="10" height="10" rx="1.5"/><path d="M7 7V4a1 1 0 011-1h8a1 1 0 011 1v8a1 1 0 01-1 1h-3"/></svg>';
+      dupBtn.title = 'Nhân bản dòng';
       dupBtn.addEventListener('click', (function(idx) { return function() { duplicateRow(idx); }; })(i));
       actDiv.appendChild(dupBtn);
       var delBtn = document.createElement('button');
       delBtn.className = 'income-table__row-btn income-table__row-btn--danger';
-      delBtn.textContent = '✕';
-      delBtn.title = 'Xóa';
+      delBtn.innerHTML = '<svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h12"/><path d="M6 5V4a1 1 0 011-1h6a1 1 0 011 1v1"/><path d="M7 5v11a1 1 0 001 1h4a1 1 0 001-1V5"/><path d="M8 8v6"/><path d="M12 8v6"/></svg>';
+      delBtn.title = 'Xóa dòng';
       delBtn.addEventListener('click', (function(idx) { return function() { deleteRow(idx); }; })(i));
       actDiv.appendChild(delBtn);
       tdActions.appendChild(actDiv);
