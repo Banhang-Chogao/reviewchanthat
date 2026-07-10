@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-10T07:36:39+07:00",
-  "generated_at_display": "10-07-2026 07:36:39",
+  "generated_at": "2026-07-10T07:38:31+07:00",
+  "generated_at_display": "10-07-2026 07:38:31",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 38,
+    "failed_runs_scanned": 39,
     "safe_autofixes_available": 33,
-    "unsafe_external_failures": 5,
+    "unsafe_external_failures": 6,
     "open_action_items": 9,
-    "loop_guarded_attempts": 42,
+    "loop_guarded_attempts": 44,
     "by_type": {
       "workflow_fanout": 29,
-      "hugo_build_error": 5,
+      "hugo_build_error": 6,
       "content_direction_optimizer_fail": 2,
       "sitemap_noindex_mismatch": 2
     }
@@ -530,6 +530,12 @@
       },
       {
         "failure_type": "hugo_build_error",
+        "run_id": "29060317071",
+        "rootcause": "Hugo build/render error.",
+        "safe_to_autofix": false
+      },
+      {
+        "failure_type": "hugo_build_error",
         "run_id": "29059694103",
         "rootcause": "Hugo build/render error.",
         "safe_to_autofix": false
@@ -805,15 +811,15 @@
     {
       "run_id": "29059770605",
       "failure_type": "sitemap_noindex_mismatch",
-      "result": "skipped",
-      "detail": "posts-only sitemap already in place",
-      "script": "fix_sitemap_noindex"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 6fefbd7b72e0:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
       "run_id": "29059688893",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "posts-only sitemap already in place",
+      "script": "fix_sitemap_noindex"
     },
     {
       "run_id": "29059769929",
@@ -989,6 +995,12 @@
       "failure_type": "workflow_fanout",
       "result": "skipped",
       "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29060317071",
+      "failure_type": "hugo_build_error",
+      "result": "unsafe",
+      "detail": "safe_to_autofix=false — report only"
     },
     {
       "run_id": "29059694103",
@@ -1263,6 +1275,12 @@
       "last_result": "skipped"
     },
     {
+      "key": "ca599c58447d:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:38:31+07:00",
+      "last_result": "skipped"
+    },
+    {
       "key": "6fefbd7b72e0:workflow_fanout",
       "count": 2,
       "last_attempt_at": "2026-07-10T07:28:37+07:00",
@@ -1272,6 +1290,12 @@
       "key": "6fefbd7b72e0:sitemap_noindex_mismatch",
       "count": 2,
       "last_attempt_at": "2026-07-10T07:36:39+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "c19cb5931c5d:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:38:31+07:00",
       "last_result": "skipped"
     }
   ],
