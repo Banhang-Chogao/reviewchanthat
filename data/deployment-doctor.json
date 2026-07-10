@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T04:51:35+07:00",
-  "generated_at_display": "11-07-2026 04:51:35",
+  "generated_at": "2026-07-11T04:53:45+07:00",
+  "generated_at_display": "11-07-2026 04:53:45",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
@@ -555,15 +555,15 @@
     {
       "run_id": "29125527144",
       "failure_type": "sitemap_noindex_mismatch",
-      "result": "skipped",
-      "detail": "posts-only sitemap already in place",
-      "script": "fix_sitemap_noindex"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 642ad50284d7:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
       "run_id": "29125471221",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "posts-only sitemap already in place",
+      "script": "fix_sitemap_noindex"
     },
     {
       "run_id": "29123832012",
@@ -586,15 +586,15 @@
     {
       "run_id": "29125524775",
       "failure_type": "workflow_fanout",
-      "result": "skipped",
-      "detail": "paths-ignore already present",
-      "script": "fix_workflow_fanout"
+      "result": "needs_human_review",
+      "detail": "loop-guard: e1e1b92a7953:workflow_fanout already attempted 2 times"
     },
     {
       "run_id": "29125484326",
       "failure_type": "workflow_fanout",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
     },
     {
       "run_id": "29124699576",

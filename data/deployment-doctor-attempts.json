@@ -529,8 +529,18 @@
       "count": 2,
       "last_attempt_at": "2026-07-11T04:51:35+07:00",
       "last_result": "skipped"
+    },
+    "88dabbf479d5:sitemap_noindex_mismatch": {
+      "count": 1,
+      "last_attempt_at": "2026-07-11T04:53:45+07:00",
+      "last_result": "skipped"
+    },
+    "94ec1c1347c1:workflow_fanout": {
+      "count": 1,
+      "last_attempt_at": "2026-07-11T04:53:45+07:00",
+      "last_result": "skipped"
     }
   },
-  "updated_at": "2026-07-11T04:51:35+07:00",
+  "updated_at": "2026-07-11T04:53:45+07:00",
   "notes": "Ledger prevents autofix loops. Key = sha:failure_type. Max 2 attempts."
 }
