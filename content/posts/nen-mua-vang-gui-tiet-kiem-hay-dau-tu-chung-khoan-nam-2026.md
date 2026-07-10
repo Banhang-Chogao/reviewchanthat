@@ -1,17 +1,10 @@
 +++
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
-date = 2026-07-09T23:59:00+07:00
-description = "Tiền nhàn rỗi năm 2026 nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán phụ thuộc vào khẩu vị rủi ro, thời gian cần dùng tiền và khả năng chịu biến động của mỗi người."
-categories = ["tai-chinh"]
-tags = ["tài chính cá nhân", "vàng", "gửi tiết kiệm", "chứng khoán", "đầu tư 2026", "tiền nhàn rỗi", "phân bổ tài sản"]
-author = "Minh Hoàng"
+date = 2020-01-01T00:00:00Z
 draft = false
-image = "images/posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.webp"
-thumbnail = "images/posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.webp"
-related_posts = [
-  "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
-  "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue"
-]
+categories = ["tai-chinh"]
+author = "Minh Hoàng"
++++
 
 [ai_summary]
 enabled = true
