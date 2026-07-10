@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-07-10T19:09:27+07:00",
-  "generated_at_display": "10-07-2026 19:09:27",
+  "generated_at": "2026-07-10T19:25:08+07:00",
+  "generated_at_display": "10-07-2026 19:25:08",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 33,
-    "safe_autofixes_available": 33,
+    "failed_runs_scanned": 34,
+    "safe_autofixes_available": 34,
     "unsafe_external_failures": 0,
-    "open_action_items": 5,
-    "loop_guarded_attempts": 67,
+    "open_action_items": 6,
+    "loop_guarded_attempts": 68,
     "by_type": {
       "workflow_fanout": 29,
-      "sitemap_noindex_mismatch": 4
+      "sitemap_noindex_mismatch": 4,
+      "duplicate_yaml_keys": 1
     }
   },
   "recent_failures": [
@@ -57,6 +58,16 @@
       "safe_to_autofix": true,
       "action": "Keep posts-only sitemap.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078368401"
+    },
+    {
+      "run_id": "29092424885",
+      "workflow": "Auto Merge",
+      "commit": "c68656d",
+      "status": "failure",
+      "rootcause": "duplicate_yaml_keys",
+      "safe_to_autofix": true,
+      "action": "Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29092424885"
     },
     {
       "run_id": "29091312116",
@@ -307,16 +318,6 @@
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078397753"
-    },
-    {
-      "run_id": "29078383485",
-      "workflow": "Deployment Doctor",
-      "commit": "11a6682",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078383485"
     }
   ],
   "clusters": {
@@ -525,6 +526,12 @@
         "run_id": "29078368401",
         "rootcause": "noindex pages incorrectly included in sitemap.",
         "safe_to_autofix": true
+      },
+      {
+        "failure_type": "duplicate_yaml_keys",
+        "run_id": "29092424885",
+        "rootcause": "Hugo front matter chứa duplicate YAML keys, khiến build fail.",
+        "safe_to_autofix": true
       }
     ]
   },
@@ -541,6 +548,13 @@
       "owner": "system",
       "failure_type": "sitemap_noindex_mismatch",
       "title": "Exclude noindex/admin/doctor pages.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P1",
+      "owner": "system",
+      "failure_type": "duplicate_yaml_keys",
+      "title": "Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py",
       "expected_result": "Unblock deploy / prevent recurrence"
     },
     {
@@ -745,15 +759,21 @@
     {
       "run_id": "29078401883",
       "failure_type": "sitemap_noindex_mismatch",
-      "result": "skipped",
-      "detail": "posts-only sitemap already in place",
-      "script": "fix_sitemap_noindex"
+      "result": "needs_human_review",
+      "detail": "loop-guard: 985d6d142465:sitemap_noindex_mismatch already attempted 2 times"
     },
     {
       "run_id": "29078368401",
       "failure_type": "sitemap_noindex_mismatch",
       "result": "skipped",
-      "detail": "no script or already attempted this run"
+      "detail": "posts-only sitemap already in place",
+      "script": "fix_sitemap_noindex"
+    },
+    {
+      "run_id": "29092424885",
+      "failure_type": "duplicate_yaml_keys",
+      "result": "skipped",
+      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
     },
     {
       "run_id": "29091312116",
@@ -1332,6 +1352,12 @@
       "key": "985d6d142465:sitemap_noindex_mismatch",
       "count": 2,
       "last_attempt_at": "2026-07-10T19:09:26+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "da53c28c0470:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T19:25:08+07:00",
       "last_result": "skipped"
     }
   ],
