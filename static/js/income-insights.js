@@ -279,10 +279,9 @@
         renderAll();
         scheduleAutosave();
       }
-    })['catch'](function() {
-      state.transactions = [];
+    })['catch'](function(e) {
+      console.error('Failed to load data from IndexedDB:', e);
       renderAll();
-      scheduleAutosave();
     });
   }
 
