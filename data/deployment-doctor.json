@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-10T20:15:05+07:00",
-  "generated_at_display": "10-07-2026 20:15:05",
+  "generated_at": "2026-07-10T20:30:01+07:00",
+  "generated_at_display": "10-07-2026 20:30:01",
   "live": {
     "site": "https://banhang-chogao.github.io/reviewchanthat/",
     "doctor_url": "https://banhang-chogao.github.io/reviewchanthat/deployment-doctor/",
     "note": "Live SHA verification uses static/build-info.json when present."
   },
   "summary": {
-    "failed_runs_scanned": 25,
-    "safe_autofixes_available": 25,
+    "failed_runs_scanned": 23,
+    "safe_autofixes_available": 23,
     "unsafe_external_failures": 0,
     "open_action_items": 6,
     "loop_guarded_attempts": 72,
     "by_type": {
-      "workflow_fanout": 23,
+      "workflow_fanout": 21,
       "sitemap_noindex_mismatch": 1,
       "duplicate_yaml_keys": 1
     }
@@ -248,26 +248,6 @@
       "safe_to_autofix": true,
       "action": "Add concurrency groups.",
       "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29090122055"
-    },
-    {
-      "run_id": "29078434127",
-      "workflow": "Deployment Doctor",
-      "commit": "9a2c97a",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078434127"
-    },
-    {
-      "run_id": "29078431176",
-      "workflow": "Deploy to GitHub Pages",
-      "commit": "9a2c97a",
-      "status": "cancelled",
-      "rootcause": "workflow_fanout",
-      "safe_to_autofix": true,
-      "action": "Add concurrency groups.",
-      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29078431176"
     }
   ],
   "clusters": {
@@ -395,18 +375,6 @@
       {
         "failure_type": "workflow_fanout",
         "run_id": "29090122055",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29078434127",
-        "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
-        "safe_to_autofix": true
-      },
-      {
-        "failure_type": "workflow_fanout",
-        "run_id": "29078431176",
         "rootcause": "Cancelled/timed out — possible fan-out/supersede.",
         "safe_to_autofix": true
       }
@@ -777,18 +745,6 @@
       "failure_type": "workflow_fanout",
       "result": "needs_human_review",
       "detail": "loop-guard: c40ea0ca7b92:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29078434127",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 9a2c97a7fc3e:workflow_fanout already attempted 2 times"
-    },
-    {
-      "run_id": "29078431176",
-      "failure_type": "workflow_fanout",
-      "result": "needs_human_review",
-      "detail": "loop-guard: 9a2c97a7fc3e:workflow_fanout already attempted 2 times"
     }
   ],
   "loop_guarded": [
