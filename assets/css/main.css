@@ -234,9 +234,9 @@ html.dark-mode .live-clock-box__time{color:#b0eace}
 .category-post-row__title a:hover{color:var(--accent)}
 .category-post-row__excerpt{margin-top:.35rem;color:var(--text-secondary);font-size:.92rem;line-height:1.55;text-align:justify;text-justify:inter-word;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 @media(max-width:640px){
-  .category-post-row{grid-template-columns:96px minmax(0,1fr);gap:.75rem;padding:.7rem}
+  .category-post-row{grid-template-columns:140px minmax(0,1fr);gap:.75rem;padding:.7rem}
   .category-post-row__title{-webkit-line-clamp:2}
-  .category-post-row__excerpt{-webkit-line-clamp:1}
+  .category-post-row__excerpt{-webkit-line-clamp:2}
 }
 
 /* Single Post
