@@ -20,7 +20,6 @@ items = [
   "Cách bền vững thường không phải chọn 100% một kênh, mà là phân bổ theo mục tiêu: quỹ dự phòng, tiền ngắn hạn, tiền trung hạn và phần chấp nhận rủi ro."
 description = "Tiền nhàn rỗi năm 2026 nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán phụ thuộc vào khẩu vị rủi ro, thời gian cần dùng tiền và khả năng chịu biến động của mỗi người."
 ]
-+++
 
 ## Nên hay không, điều quan trọng là hiểu bản thân
 
