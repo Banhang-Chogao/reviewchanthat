@@ -1,6 +1,6 @@
 +++
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-commit = "55a0a30"
+commit = "4a9e54f"
 date = "2026-07-11T11:30:00+07:00"
 draft = false
 author = "Minh Hoàng"

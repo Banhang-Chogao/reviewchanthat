@@ -2,7 +2,7 @@
 title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
 date = "2026-07-11T11:00:00+07:00"
 date_display = "11-07-2026 11:00:00 GMT +7"
-commit = "55a0a30"
+commit = "4a9e54f"
 draft = false
 tags = ["home cafe", "tra trai cay", "hugo spritz", "do uong mua he"]
 categories = ["Ẩm Thực", "Lifestyle"]
