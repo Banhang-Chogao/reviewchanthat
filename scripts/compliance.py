@@ -816,16 +816,20 @@ class ComplianceChecker:
         if ADSENSE_BLOCK.search(body):
             self.add_issue("ERROR", "ADSENSE_RISK_CONTENT", rel, "Body matches high-risk AdSense pattern")
         words = word_count(body)
-        thin_error = 600 if self.strict else 500
+        # Strict mode: 1,200 words (Google Adsense thin content threshold)
+        # Normal mode: 500 words (basic depth)
+        thin_error = 1200 if self.strict else 500
         if words and words < thin_error:
-            severity = "ERROR" if words < (400 if not self.strict else 600) else "WARN"
-            if self.strict and words < 600:
-                severity = "ERROR"
+            # Strict: ERROR if < 1200, Normal: WARN if < 500, ERROR if < 400
+            if self.strict:
+                severity = "ERROR"  # Always error in strict mode if below 1200
+            else:
+                severity = "ERROR" if words < 400 else "WARN"
             self.add_issue(
                 severity,
                 "THIN_CONTENT",
                 rel,
-                f"Body has only {words} words (< {thin_error})",
+                f"Body has only {words} words (minimum {thin_error} for {'Google AdSense' if self.strict else 'baseline depth'})",
             )
         links = MARKDOWN_LINK.findall(body)
         if len(links) > 25:
