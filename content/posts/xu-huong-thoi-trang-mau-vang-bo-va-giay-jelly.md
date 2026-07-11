@@ -1,5 +1,8 @@
 +++
 title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
+date = "2026-07-11T11:42:36+07:00"
+date_display = "11-07-2026 11:42:36 GMT +7"
++++
 commit: c25d0cb
 date = 2026-07-11T11:20:00+07:00
 draft = false

@@ -2,6 +2,7 @@
 title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
 date = "2026-07-11T11:35:29+07:00"
 date_display = "11-07-2026 11:35:29 GMT +7"
++++
 commit: f9a52cb
 description = "Gợi ý du lịch Đà Nẵng hè 2026 cho người đi tự túc: nên ở khu nào, đi biển nào, kết hợp Hội An/Huế, lịch trình 4 ngày 3 đêm và checklist tránh nóng."
 categories = ["du-lich"]

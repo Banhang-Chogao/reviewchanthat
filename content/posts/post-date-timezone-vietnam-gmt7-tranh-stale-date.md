@@ -35,7 +35,7 @@ collapsed = false
 disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + GitHub Pages; mỗi repo cần điều chỉnh policy theo rủi ro riêng."
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
-## Root cause
++++
 | Code | Safety | Mô tả |
 |------|--------|--------|
 | `date_only_or_wrong_timezone` | **safe** | Date thiếu timezone hoặc stamp UTC thay vì giờ Việt Nam |

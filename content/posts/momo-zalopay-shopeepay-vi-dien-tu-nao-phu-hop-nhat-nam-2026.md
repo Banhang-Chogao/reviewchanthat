@@ -2,6 +2,7 @@
 title = "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026"
 date = "2026-07-11T11:35:30+07:00"
 date_display = "11-07-2026 11:35:30 GMT +7"
++++
 commit: f9a52cb
 categories = ["tai-chinh"]
 tags = ["ví điện tử", "MoMo", "ZaloPay", "ShopeePay", "so sánh ví điện tử", "thanh toán không tiền mặt", "ví điện tử Việt Nam", "MoMo vs ZaloPay vs ShopeePay"]
