@@ -7,7 +7,6 @@ commit = "f8496fd"
 description = "Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm   đi"
 draft = false
 image = "images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp"
-image_attribution_checked_at = "2026-07-11T14:44:13+07:00"
 image_attribution_source = "rejected_generic"
 image_attribution_verified = false
 image_commercial_use = true
@@ -15,7 +14,7 @@ image_creator = ""
 image_creator_id = ""
 image_creator_url = ""
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/bundle-of-assorted-denomination-euro-banknotes-259234/"
@@ -54,6 +53,7 @@ title = "Du lịch Hàn Quốc mùa hè nên đi đâu?"
 [[tom_tat_nhanh]]
 label = "Thời gian đọc"
 value = "5–7 phút"
+image_attribution_checked_at = "2026-07-11T16:20:17+07:00"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 

@@ -12,7 +12,7 @@ image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
 image_creator = "Theodore Nguyen"
-image_alt = "Ba thành phố đẹp của Scandinavia nhìn từ trên cao"
+image_alt = "Ảnh minh họa So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở? — nguồn Pexels"
 image_source_url = "https://www.pexels.com/photo/skyscrapers-in-ho-chi-minh-25920939/"
 image_commercial_use = true
 image_owner = "external"
@@ -24,6 +24,8 @@ image_license_url = ""
 image_creator_url = "https://www.pexels.com/@thejourneyofframes"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_query = "so sánh ba thủ đô"
 +++
 
 ## Tại Sao So Sánh Ba Thành Phố Này?

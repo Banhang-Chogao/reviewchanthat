@@ -17,20 +17,18 @@ series_title = "Sống thông minh trong thời đại AI"
 slug = "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay"
 image = "images/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.webp"
 thumbnail = "images/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.webp"
-image_alt = "Sống thông minh trong thời đại AI — workspace laptop smartphone"
-image_query = "person using laptop smartphone modern workspace"
+image_alt = "Ảnh minh họa Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày — nguồn Pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/person-in-light-green-suit-using-gadgets-5398973/"
+image_source_url = "https://www.pexels.com/photo/drone-shot-of-a-city-at-night-10502162/"
 image_license = "Pexels License"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "www.kaboompics.com"
-image_creator_url = "https://www.pexels.com/@karola-g"
-image_creator_id = "2332540"
+image_creator = "kwon osu"
+image_creator_url = "https://www.pexels.com/@kwon-osu-147593907"
+image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-10T15:30:00+07:00"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_status = "verified"
 image_provider = "pexels"
 
@@ -75,6 +73,8 @@ title = "Blog cá nhân hay TikTok: xây thương hiệu cá nhân ở đâu tr�
 [[internal_links]]
 ref = "posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md"
 title = "MoMo, ZaloPay hay ShopeePay: ví nào phù hợp?"
+image_attribution_checked_at = "2026-07-11T16:20:54+07:00"
+image_query = "seoul korea cityscape"
 +++
 
 “Sống thông minh” từng gắn với thói quen ngủ đủ, ghi chép sổ tay hay cắt subscription thừa. Năm 2026, thêm một lớp công cụ: **trí tuệ nhân tạo (AI)** xuất hiện trên điện thoại, app ngân hàng, trình soạn thảo và cả trợ lý học ngoại ngữ. Câu hỏi không còn là “AI có tồn tại không?” mà là **làm sao dùng AI để cuộc sống nhẹ hơn — mà không để AI sống thay mình**.

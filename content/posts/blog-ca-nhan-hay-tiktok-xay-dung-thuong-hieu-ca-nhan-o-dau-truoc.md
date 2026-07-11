@@ -22,7 +22,7 @@ items = ["TikTok mạnh về tốc độ tiếp cận và kiểm chứng hook; b
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/woman-using-smart-phone-on-tripod-and-a-laptop-computer-13929362/"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
 image_creator = "Mizuno K"
@@ -30,7 +30,7 @@ image_creator_url = "https://www.pexels.com/@mizunokozuki"
 image_creator_id = "264153375"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-11T14:44:31+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:35+07:00"
 +++
 Câu hỏi xuất hiện rất sớm khi ai đó muốn xây thương hiệu cá nhân: **blog cá nhân hay TikTok nên đi trước?** Một bên nghe “bền, SEO, chuyên nghiệp”. Một bên nghe “nhanh, đông, dễ thấy kết quả”. Chọn sai thứ tự không làm bạn thất bại vĩnh viễn — nhưng có thể khiến bạn **kiệt sức** hoặc **xây trên đất thuê** mà tưởng đã có tài sản.
 

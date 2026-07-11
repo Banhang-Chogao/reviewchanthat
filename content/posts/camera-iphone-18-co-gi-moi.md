@@ -7,7 +7,6 @@ commit = "f8496fd"
 description = "Tin đồn camera iPhone 18: selfie 24MP, variable aperture trên Pro, sensor Samsung và kỳ vọng chụp ảnh — phân loại nguồn MacRumors, AppleInsider cho người mua"
 draft = false
 image = "images/posts/camera-iphone-18-co-gi-moi.webp"
-image_attribution_checked_at = "2026-07-11T14:44:26+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -15,7 +14,7 @@ image_creator = "Ferdinand Frederik"
 image_creator_id = "257244"
 image_creator_url = "https://www.pexels.com/@ferdinand-frederik-257244"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/pexels-photo-788882/"
@@ -42,6 +41,7 @@ url = "https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring
 [[tom_tat_nhanh]]
 label = "Cẩn trọng"
 value = "Base có thể bị “hạ cấp” — chưa xác nhận"
+image_attribution_checked_at = "2026-07-11T16:20:30+07:00"
 +++
 
 Camera là lý do nhiều người **chờ iPhone mới** — nhất là khi Apple được đồn sẽ đưa **khẩu độ biến đổi** (variable aperture) lên dòng Pro và nâng **camera trước 24MP** cho cả dải sản phẩm. Nhưng Apple **chưa công bố** iPhone 18; mọi thông số dưới đây là **tin đồn** được tổng hợp từ [MacRumors](https://www.macrumors.com/roundup/iphone-18-pro/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more) và analyst.

@@ -3,23 +3,26 @@ title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa
 date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Du lịch các fjord nổi tiếng của Na Uy: từ Geirangerfjord tuyệt mỹ đến Sognefjord hùng vĩ. Khám phá những ngôi làng cổ kính, thác nước hoang dã, và cách tốt nhất để trải nghiệm vẻ đẹp thô kệch của tự nhiên Scandinavia."
-image = "images/posts/fjord-na-uy-thac-nuoc-dong-tien.webp"
-thumbnail = "images/posts/fjord-na-uy-thac-nuoc-dong-tien.webp"
+image = "images/posts/fallback.webp"
+thumbnail = "images/posts/fallback.webp"
 categories = ["travel"]
 tags = ["na uy", "fjord", "du lịch", "thiên nhiên", "geirangerfjord", "flam railway"]
 author = "Duy Nguyen"
-image_source = "Pexels"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_creator = "Eberhard Grossgasteiger"
+image_source = "self"
+image_provider = "pixabay"
+image_license = "Self-owned"
 image_alt = "Các fjord tuyệt mỹ của Na Uy với những thác nước hùng vĩ"
-image_source_url = "https://www.pexels.com/photo/waterfalls-flowing-down-the-cliff-3662189/"
+image_source_url = "https://pixabay.com/photos/norway-winter-snow-atlantic-8593725/"
 image_commercial_use = true
-image_owner = "external"
+image_owner = "self"
 image_attribution_verified = true
-image_status = "verified"
+image_status = "needs_review"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
+image_license_url = ""
+image_creator_id = ""
+image_attribution_source = "pixabay_api"
+image_reject_reason = "No verified image available after processing"
 +++
 
 ## Tại Sao Các Fjord Na Uy Lại Là Một Trong Những Kỳ Quan Thiên Nhiên Vĩ Đại Nhất Thế Giới?

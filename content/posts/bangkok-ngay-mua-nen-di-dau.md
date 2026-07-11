@@ -8,7 +8,6 @@ description = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, 
 draft = false
 image = "images/posts/bangkok-ngay-mua-nen-di-dau.webp"
 image_alt = "Ảnh minh họa Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour — nguồn Pexels"
-image_attribution_checked_at = "2026-07-11T14:44:33+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -19,7 +18,6 @@ image_license = "Pexels License"
 image_license_url = ""
 image_owner = "external"
 image_provider = "pexels"
-image_query = "mobile banking payment app"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/unionpay-mobile-payment-with-online-shopping-setup-29502363/"
 image_status = "verified"
@@ -58,6 +56,8 @@ value = "0–500 THB / điểm"
 [[tom_tat_nhanh]]
 label = "Di chuyển"
 value = "BTS + MRT"
+image_attribution_checked_at = "2026-07-11T16:20:36+07:00"
+image_query = "mobile banking payment app"
 +++
 
 Mưa ở Bangkok thường đến bất ngờ. Bạn đang đi dạo trên phố, trời nắng đẹp, và 15 phút sau mưa như trút nước. Nhưng điểm mạnh của Bangkok là bạn hiếm khi bị kẹt giữa cơn mưa mà không có chỗ trú — bởi thành phố này có một hệ thống mall, BTS skywalk, và indoor attractions phủ khắp trung tâm.

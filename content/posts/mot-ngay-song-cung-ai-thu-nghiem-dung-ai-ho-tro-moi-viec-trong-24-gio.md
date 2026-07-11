@@ -17,18 +17,17 @@ series_title = "Sống thông minh trong thời đại AI"
 slug = "mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio"
 image = "images/posts/mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio.webp"
 thumbnail = "images/posts/mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio.webp"
-image_alt = "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ"
-image_query = "day in life smartphone morning routine"
+image_alt = "Ảnh minh họa Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ — nguồn Pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/man-enjoying-coffee-in-modern-kitchen-36697500/"
+image_source_url = "https://www.pexels.com/photo/calculator-and-a-credit-card-next-to-a-laptop-10020082/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Vitaly Gariev"
-image_creator_url = "https://www.pexels.com/@silverkblack"
-image_creator_id = "247857581"
+image_creator = "weCare Media"
+image_creator_url = "https://www.pexels.com/@wecare-media-123880473"
+image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
@@ -62,6 +61,8 @@ title = "Pillar: Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
+image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_query = "credit card finance desk"
 +++
 
 Bài 10/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).

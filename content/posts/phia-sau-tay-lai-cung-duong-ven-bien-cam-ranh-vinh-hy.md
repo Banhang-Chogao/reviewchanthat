@@ -21,10 +21,10 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T14:21:46+07:00"
-image_query = "phía sau tay lái ký"
 image_alt = "Ảnh minh họa Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy — nguồn Pexels"
 date_display = "11-07-2026 09:00:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_query = "phía sau tay lái ký"
 +++
 
 Cái nắng miền Trung tháng Bảy như thiêu như đốt. Nó không phải thứ nắng dịu dàng mà ta tìm thấy ở miền Bắc, cũng chẳng phải thứ nắng ẩm ướt của Sài Gòn. Đây là thứ nắng xé da, thứ nắng mà người miền Trung gọi là "nắng cháy" – thứ nắng có thể làm nứt nẻ cả đất đai, làm khô cong cả những tán cây xương rồng trên triền núi đá. Vậy mà tôi lại chọn giữa tháng Bảy để chạy xe dọc theo cung đường ven biển từ Cam Ranh lên Vĩnh Hy. Có lẽ tôi hơi điên, nhưng sự điên rồ đôi khi lại mang đến những trải nghiệm đẹp nhất.

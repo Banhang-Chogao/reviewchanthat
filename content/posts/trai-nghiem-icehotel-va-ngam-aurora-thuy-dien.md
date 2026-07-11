@@ -22,9 +22,9 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland — nguồn Pexels"
 commit = "b7a27d8"
-image_attribution_checked_at = "2026-07-11T14:44:42+07:00"
-image_query = "autumn fallen leaves brown orange"
 date_display = "11-07-2026 14:44:58 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_query = "autumn fallen leaves brown orange"
 +++
 
 Băng giá từng là kẻ thù của con người trong suốt chiều dài lịch sử. Nhưng ở Jukkasjärvi, một ngôi làng nhỏ nằm sâu trong vùng Lapland của Thụy Điển, con người đã biến băng thành một tác phẩm nghệ thuật sống động. Icehotel không đơn thuần là một chỗ ngủ qua đêm — nó là một tuyên ngôn về sự sáng tạo, một không gian nơi kiến trúc và tự nhiên hòa quyện vào nhau.

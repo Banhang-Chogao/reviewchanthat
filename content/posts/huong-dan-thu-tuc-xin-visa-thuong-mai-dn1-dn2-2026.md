@@ -21,10 +21,10 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
-image_query = "hướng dẫn thủ tục xin"
 image_alt = "Ảnh minh họa Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026 — nguồn Pixabay"
 date_display = "11-07-2026 05:00:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:48+07:00"
+image_query = "hướng dẫn thủ tục xin"
 +++
 
 ## Tổng Quan Về Visa Thương Mại DN1 Và DN2

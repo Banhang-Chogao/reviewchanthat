@@ -22,7 +22,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T14:44:41+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:45+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á — nguồn Pexels"
 +++

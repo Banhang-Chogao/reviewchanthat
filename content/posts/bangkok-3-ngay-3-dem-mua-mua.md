@@ -8,7 +8,6 @@ description = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết c
 draft = false
 image = "images/posts/bangkok-3-ngay-3-dem-mua-mua.webp"
 image_alt = "Ảnh minh họa Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu — nguồn Pexels"
-image_attribution_checked_at = "2026-07-11T14:44:32+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -19,7 +18,6 @@ image_license = "Pexels License"
 image_license_url = ""
 image_owner = "external"
 image_provider = "pexels"
-image_query = "đi bangkok ngày đêm mùa"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/people-walking-on-street-at-night-16959675/"
 image_status = "verified"
@@ -58,6 +56,8 @@ value = "Người đi lần đầu"
 [[tom_tat_nhanh]]
 label = "Di chuyển"
 value = "ARL + BTS"
+image_attribution_checked_at = "2026-07-11T16:20:36+07:00"
+image_query = "đi bangkok ngày đêm mùa"
 +++
 
 Đi Bangkok lần đầu vào mùa mưa có thể hơi lo, nhưng thực ra đây là thời điểm lý tưởng để khám phá thành phố nếu bạn có một lịch trình hợp lý. Giá vé rẻ, khách sạn giảm, điểm tham quan vắng — và quan trọng nhất, Bangkok có đủ indoor attractions để bạn không bao giờ cảm thấy "mất cả ngày vì mưa".

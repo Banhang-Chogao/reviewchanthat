@@ -15,21 +15,21 @@ image = "images/posts/triet-ly-song-lagom-va-van-hoa-fika.webp"
 thumbnail = "images/posts/triet-ly-song-lagom-va-van-hoa-fika.webp"
 image_alt = "Ảnh minh họa Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển — nguồn Pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/online-shopping-with-citi-mobile-banking-29502352/"
+image_source_url = "https://www.pexels.com/photo/green-credit-card-on-top-of-papers-7821472/"
 image_provider = "pexels"
 image_license = "Pexels License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Julio Lopez"
-image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
 seo_title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Của Người Thụy Điển"
-image_attribution_checked_at = "2026-07-11T14:44:42+07:00"
-image_query = "mobile banking payment app"
+image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_query = "credit card finance desk"
 +++
 
 Khi nhắc đến Thụy Điển, đa số người Việt nghĩ ngay đến IKEA, Volvo, hay giải Nobel. Nhưng có hai khái niệm văn hóa mà người Thụy Điển mang theo trong từng hơi thở — Lagom và Fika — lại ít được biết đến ở Việt Nam. Lagom không phải là một trào lưu wellness mới nổi trên Instagram. Fika không đơn thuần là "đi uống cà phê". Đây là những triết lý sống đã được tôi luyện qua hàng thế kỷ, góp phần đưa Thụy Điển trở thành một trong những quốc gia hạnh phúc nhất hành tinh theo [World Happiness Report](https://worldhappiness.report/).

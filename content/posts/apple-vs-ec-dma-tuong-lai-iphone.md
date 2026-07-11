@@ -7,7 +7,6 @@ commit = "f8496fd"
 description = "Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người"
 draft = false
 image = "images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp"
-image_attribution_checked_at = "2026-07-11T14:44:25+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -15,7 +14,7 @@ image_creator = ""
 image_creator_id = ""
 image_creator_url = ""
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/silver-iphone-6-on-book-699122/"
@@ -69,6 +68,7 @@ value = "Kháng cáo, enforcement tiếp, luật tương tự nơi khác"
 [[tom_tat_nhanh]]
 label = "Hợp với"
 value = "Ai đọc cả series hoặc cần bức tranh tổng thể nhanh"
+image_attribution_checked_at = "2026-07-11T16:20:28+07:00"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 

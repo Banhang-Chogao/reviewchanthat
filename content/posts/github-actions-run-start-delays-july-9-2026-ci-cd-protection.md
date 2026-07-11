@@ -35,7 +35,7 @@ enabled = true
 collapsed = false
 disclaimer = "This article is based on GitHub's public status updates. Operational details may change if GitHub publishes follow-up information."
 items = ["GitHub reported degraded availability for Actions on July 9, 2026, with hosted-runner jobs delayed or failing to start.", "GitHub Pages builds were also affected during part of the incident, while existing Pages sites remained accessible according to GitHub's update.", "A queued workflow is not automatically a broken commit; if the job never reached checkout, your code has not been tested yet.", "Teams can reduce impact with concurrency controls, limited retries, platform-incident detection, non-essential workflow pauses, and post-deploy live verification."]
-image_attribution_checked_at = "2026-07-11T14:44:34+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:37+07:00"
 image_query = "github actions delays starting runs"
 +++
 On July 9, 2026, GitHub reported an incident titled ["Delays starting Actions runs"](https://www.githubstatus.com/incidents/cstx3v63mklm). The practical symptom was simple: workflows that should have started on GitHub-hosted runners stayed in a queued or pending state, sometimes long enough for retries to be exhausted. During part of the same incident, GitHub Pages builds were also affected.

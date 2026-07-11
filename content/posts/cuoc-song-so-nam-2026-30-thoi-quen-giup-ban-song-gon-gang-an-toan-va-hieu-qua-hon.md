@@ -77,7 +77,7 @@ title = "Password Manager là gì? Có nên dùng năm 2026?"
 [[internal_links]]
 ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
 title = "Backup ảnh đúng cách"
-image_attribution_checked_at = "2026-07-11T14:44:40+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:44+07:00"
 image_query = "mobile banking payment app"
 +++
 

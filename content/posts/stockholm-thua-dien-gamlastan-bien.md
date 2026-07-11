@@ -11,8 +11,7 @@ author = "Duy Nguyen"
 image_source = "Pixabay"
 image_provider = "pixabay"
 image_license = "Pixabay Content License"
-image_creator = "Bru-nO"
-image_alt = "Stockholm với cảnh sắc xinh đẹp và các tòa nhà lịch sử"
+image_alt = "Ảnh minh họa Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai — nguồn Pixabay"
 image_source_url = "https://pixabay.com/photos/city-cityscape-waterfront-4478471/"
 image_commercial_use = true
 image_owner = "external"
@@ -21,9 +20,12 @@ image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
-image_creator_url = "https://pixabay.com/photos/city-cityscape-waterfront-4478471/"
 image_creator_id = ""
 image_attribution_source = "pixabay_api"
+image_creator = "Bru-nO"
+image_creator_url = "https://pixabay.com/photos/city-cityscape-waterfront-4478471/"
+image_attribution_checked_at = "2026-07-11T16:20:55+07:00"
+image_query = "stockholm thành phố nổi giữa"
 +++
 
 ## Một Thành Phố Trên Nước Và Công Nghệ

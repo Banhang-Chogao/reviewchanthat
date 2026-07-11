@@ -69,7 +69,7 @@ title = "Cuộc sống số năm 2026: 30 thói quen"
 [[internal_links]]
 ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
 title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng"
-image_attribution_checked_at = "2026-07-11T14:44:40+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:44+07:00"
 image_query = "mobile banking payment app"
 +++
 

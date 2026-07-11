@@ -17,20 +17,19 @@ series_title = "Sống thông minh trong thời đại AI"
 slug = "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu"
 image = "images/posts/ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu.webp"
 thumbnail = "images/posts/ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu.webp"
-image_alt = "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư"
-image_query = "personal finance budgeting calculator laptop"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/a-person-holding-black-desk-calculator-5466810/"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_alt = "Ảnh minh họa AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư — nguồn Pixabay"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/smartphone-cellphone-touchscreen-1894723/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "olia danilevich"
-image_creator_url = "https://www.pexels.com/@olia-danilevich"
-image_creator_id = "2638647"
+image_creator = "stevepb"
+image_creator_url = "https://pixabay.com/photos/smartphone-cellphone-touchscreen-1894723/"
+image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
+image_attribution_source = "pixabay_api"
 image_status = "verified"
 
 [ai_summary]
@@ -62,6 +61,8 @@ title = "Pillar: Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
+image_attribution_checked_at = "2026-07-11T16:20:46+07:00"
+image_query = "mobile banking payment app"
 +++
 
 Bài 7/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).

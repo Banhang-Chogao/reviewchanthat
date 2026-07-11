@@ -17,7 +17,7 @@ thumbnail = "images/posts/ai-trong-tai-chinh-dung-toan-hoc-gi.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/close-up-of-a-miniature-shopping-cart-5980898/"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
 image_creator = "www.kaboompics.com"
@@ -25,12 +25,12 @@ image_creator_url = "https://www.pexels.com/@karola-g"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = ""
-image_attribution_checked_at = "2026-07-11T14:44:35+07:00"
 draft = false
 
 [ai_summary]
 items = ["Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)", "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)", "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài", "NLP: phân tích tin tức, social media → sentiment score → alpha signal", "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)", "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward", "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"]
 draft = false
+image_attribution_checked_at = "2026-07-11T16:20:39+07:00"
 +++
 
 **AI/Machine Learning** trong tài chính không phải huyền thoại — nó **thực tế & hiệu quả**.

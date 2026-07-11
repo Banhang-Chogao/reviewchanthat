@@ -8,23 +8,23 @@ categories = ["Am Thuc", "An Choi"]
 description = "Đón đầu trào lưu tráng miệng hè 2026 với mè đen (Black Sesame) và sữa chua dẻo Froyo. Hướng dẫn cách làm kem, bánh tart mè đen tại nhà và review quán ngon."
 image = "images/posts/xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026.webp"
 thumbnail = "images/posts/xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026.webp"
-image_source = "Pixabay"
-image_source_url = "https://pixabay.com/photos/bear-brown-bear-hibernation-6735307/"
-image_provider = "pixabay"
-image_license = "Pixabay Content License"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/young-boy-standing-outdoors-in-kon-tum-vietnam-35934690/"
+image_provider = "pexels"
+image_license = "Pexels License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "NakNakNak"
-image_creator_url = "https://pixabay.com/photos/bear-brown-bear-hibernation-6735307/"
+image_creator = "Duy Nguyen"
+image_creator_url = "https://www.pexels.com/@duy-nguyen-489946968"
 image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pixabay_api"
+image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T12:28:17+07:00"
-image_query = "cơn sốt mè đen froyo"
-image_alt = "Ảnh minh họa Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử — nguồn Pixabay"
+image_alt = "Ảnh minh họa Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử — nguồn Pexels"
 date_display = "11-07-2026 12:25:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:57+07:00"
+image_query = "cơn sốt mè đen froyo"
 +++
 
 Tháng 7/2026, hai cái tên thống trị mọi mặt trận ẩm thực từ TikTok đến các quán dessert cao cấp: **mè đen (black sesame) — vị bùi béo ngai ngái đặc trưng của ẩm thực Á Đông, và frozen yogurt (froyo) — vị chua ngọt mát lạnh không tội lỗi.** Cả hai đang chiếm trọn spotlight trên Instagram Reels và TikTok Food, từ những ly kem mè đen đen tuyền sánh mịn cho đến những ly froyo xoáy tròn đầy màu sắc.

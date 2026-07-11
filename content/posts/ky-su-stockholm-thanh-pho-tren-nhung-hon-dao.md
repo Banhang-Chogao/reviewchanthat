@@ -8,23 +8,23 @@ thumbnail = "images/posts/ky-su-stockholm-thanh-pho-tren-nhung-hon-dao.webp"
 categories = ["Ký Sự Đường Đi"]
 tags = ["stockholm", "gamla stan", "road-trip", "travel-story"]
 commit = "b7a27d8"
-image_source = "Pixabay"
-image_source_url = "https://pixabay.com/photos/crown-sweden-stockholm-377903/"
-image_provider = "pixabay"
-image_license = "Pixabay Content License"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/scenic-boat-ride-at-stockholms-strom-32925364/"
+image_provider = "pexels"
+image_license = "Pexels License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Giraffew"
-image_creator_url = "https://pixabay.com/photos/crown-sweden-stockholm-377903/"
+image_creator = "Jess Chen"
+image_creator_url = "https://www.pexels.com/@jesschen"
 image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pixabay_api"
+image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T14:44:44+07:00"
-image_query = "ký sự stockholm hành trình"
-image_alt = "Ảnh minh họa Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo — nguồn Pixabay"
+image_alt = "Ảnh minh họa Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo — nguồn Pexels"
 date_display = "11-07-2026 14:44:57 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_query = "ký sự stockholm hành trình"
 +++
 
 Tôi đứng trên cầu Gamla Stan lúc năm giờ chiều, nhìn xuống mặt nước Riddarfjärden lấp lánh. Một chiếc thuyền kayak lướt ngang, người chèo mỉm cười vẫy tay. Hai bên bờ, những tòa nhà thế kỷ 17 sơn màu đất nung và vàng nhạt soi bóng xuống dòng nước xanh. Tiếng nhạc acoustic từ một quán cà phê ven kênh hòa vào tiếng chuông nhà thờ Tyska Kyrkan. Thành phố này không gào thét. Nó thì thầm.

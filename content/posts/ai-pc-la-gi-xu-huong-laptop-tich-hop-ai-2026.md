@@ -8,23 +8,23 @@ categories = ["Cong Nghe", "Xu Huong"]
 description = "AI PC là gì trong năm 2026? Phân tích chi tiết kiến trúc NPU thế hệ mới trên Intel Core Ultra và AMD Ryzen AI. Xu hướng laptop văn phòng tích hợp AI cho dân WFH: dịch thuật real-time, tóm tắt cuộc họp, trợ lý ảo local bảo mật dữ liệu."
 image = "images/posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.webp"
 thumbnail = "images/posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.webp"
-image_source = "Pixabay"
-image_source_url = "https://pixabay.com/photos/laptop-digital-device-technology-5673901/"
-image_provider = "pixabay"
-image_license = "Pixabay Content License"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/chatgpt-on-monitor-16018143/"
+image_provider = "pexels"
+image_license = "Pexels License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "JoshuaWoroniecki"
-image_creator_url = "https://pixabay.com/photos/laptop-digital-device-technology-5673901/"
+image_creator = "Alberlan  Barros"
+image_creator_url = "https://www.pexels.com/@alberlan"
 image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pixabay_api"
+image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T12:42:58+07:00"
-image_query = "ai pc gì xu hướng"
-image_alt = "Ảnh minh họa AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026 — nguồn Pixabay"
+image_alt = "Ảnh minh họa AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026 — nguồn Pexels"
 date_display = "11-07-2026 12:40:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_query = "ai pc gì xu hướng"
 +++
 
 Tháng 7/2026 đánh dấu một bước ngoặt quan trọng: AI PC — máy tính có khả năng xử lý trí tuệ nhân tạo cục bộ (on-device AI) — không còn là khái niệm tiếp thị. Nó đã trở thành tiêu chuẩn thực tế cho bất kỳ ai làm việc từ xa (work from home) và muốn duy trì năng suất mà không phụ thuộc vào kết nối đám mây.

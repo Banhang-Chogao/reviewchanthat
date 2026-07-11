@@ -12,7 +12,7 @@ image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
 image_creator = "Siarhei Nester"
-image_alt = "Ảnh chân dung Niklas Zennström - nhà sáng lập Skype"
+image_alt = "Ảnh minh họa Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển — nguồn Pexels"
 image_source_url = "https://www.pexels.com/photo/man-sitting-with-beer-on-grass-on-stadium-18861710/"
 image_license_url = ""
 image_commercial_use = true
@@ -23,6 +23,8 @@ image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
 date_display = "11-07-2026 13:45:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:45+07:00"
+image_query = "niklas zennström tiểu sử nhà"
 +++
 
 ## Giới Thiệu Tổng Quan

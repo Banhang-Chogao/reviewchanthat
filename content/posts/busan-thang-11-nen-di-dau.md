@@ -7,7 +7,6 @@ commit = "f8496fd"
 description = "Busan tháng 11 nên đi đâu? Gợi ý biển mát, phố đêm, làng văn hóa và lịch trình 2–3 ngày nhẹ nhàng khi thời tiết lạnh hơn tháng 10."
 draft = false
 image = "images/posts/busan-thang-11-nen-di-dau.webp"
-image_attribution_checked_at = "2026-07-11T14:44:29+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -15,7 +14,7 @@ image_creator = "Near Look"
 image_creator_id = "110077"
 image_creator_url = "https://www.pexels.com/@near-look-110077"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/pexels-photo-340138/"
@@ -106,6 +105,7 @@ value = "Cặp đôi, nhóm bạn, gia đình"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = "Không phải điểm peak lá đỏ"
+image_attribution_checked_at = "2026-07-11T16:20:32+07:00"
 +++
 
 Busan tháng 11 là lựa chọn nhiều du khách cân nhắc để **đổi không khí** sau vài ngày săn lá đỏ ở Seoul. Khí hậu ven biển **lạnh hơn tháng 10** — ban ngày thường 10–18°C, gió biển làm cảm giác mát hơn nhiệt độ thực. Bạn vẫn có thể đi bộ ven biển và ngắm cầu Gwangan về đêm, nhưng **tắm biển dài** không còn phù hợp như mùa hè.

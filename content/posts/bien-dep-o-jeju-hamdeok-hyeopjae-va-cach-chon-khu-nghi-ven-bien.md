@@ -7,7 +7,6 @@ commit = "f8496fd"
 description = "Bãi biển đẹp nhất Jeju: Hamdeok nước xanh như Maldives, Hyeopjae hoàng hôn lãng mạn. So sánh và gợi ý chọn resort ven biển Jeju."
 draft = false
 image = "images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp"
-image_attribution_checked_at = "2026-07-11T14:44:13+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -15,7 +14,7 @@ image_creator = "Kharl Anthony Paica"
 image_creator_id = "1701570"
 image_creator_url = "https://www.pexels.com/@kharlitos"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/a-rocky-shoreline-with-a-waterfall-and-a-rocky-cliff-16663092/"
@@ -74,6 +73,7 @@ value = "Hè (tháng 6–8) tắm biển, xuân thu đi dạo"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = "Không (bãi biển), có (resort)"
+image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
 +++
 
 Jeju không chỉ có núi lửa với bình minh — hòn đảo này còn sở hữu những bãi biển khiến nhiều người gọi Hamdeok là "Maldives của Hàn Quốc". Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), biển và resort Jeju đứng thứ 7, theo mình là hoàn toàn xứng đáng.

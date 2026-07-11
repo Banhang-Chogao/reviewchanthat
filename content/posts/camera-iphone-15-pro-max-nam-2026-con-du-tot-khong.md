@@ -7,7 +7,6 @@ commit = "f8496fd"
 description = "Đánh giá camera iPhone 15 Pro Max năm 2026: 48MP, tele 5x, video ProRes, so với nhu cầu thực tế và iPhone 16 Pro Max."
 draft = false
 image = "images/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.webp"
-image_attribution_checked_at = "2026-07-11T14:44:14+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -15,7 +14,7 @@ image_creator = "Jakub Zerdzicki"
 image_creator_id = "494676239"
 image_creator_url = "https://www.pexels.com/@jakubzerdzicki"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/hand-holding-smartphone-with-blank-screen-indoors-36985833/"
@@ -46,6 +45,7 @@ label = "Hạn chế"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
 +++
 
 “Camera iPhone 15 Pro Max còn đủ không hay phải lên 16?” — câu hỏi này xuất hiện mỗi khi có sự kiện Apple mới. Thực tế 2026, **phần lớn người dùng không cần cảm biến mới nhất** — họ cần **zoom ổn, video không rung, chụp tối không bệt**. iPhone 15 Pro Max vẫn đáp ứng tốt ba điều đó.

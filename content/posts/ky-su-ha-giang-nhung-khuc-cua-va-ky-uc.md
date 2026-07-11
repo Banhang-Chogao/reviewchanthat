@@ -21,10 +21,10 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
-image_query = "ký sự hà giang khúc"
 image_alt = "Ảnh minh họa Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu — nguồn Pexels"
 date_display = "11-07-2026 08:00:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_query = "ký sự hà giang khúc"
 +++
 
 Cái lạnh buốt của cơn gió thổi ngược từ vách núi phả thẳng vào mặt làm tôi choàng tỉnh. Đồng hồ trên tay chỉ năm giờ sáng, nhưng tôi không còn thiết tha gì với chiếc lều ngủ nữa. Tôi chui ra khỏi túi ngủ, đứng dậy và nhìn về phía đông. Một dải lụa màu cam đang từ từ trải dài phía sau những dãy núi trùng điệp. Hà Giang, vùng đất mà tôi đã mơ đến từ những ngày còn ngồi trên ghế giảng đường đại học, cuối cùng cũng ở ngay dưới chân tôi. Và tôi biết rằng, những gì sắp diễn ra trong ba ngày tới sẽ là thứ tôi mang theo suốt phần đời còn lại.

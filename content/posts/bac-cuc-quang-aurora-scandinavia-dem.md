@@ -8,22 +8,24 @@ thumbnail = "images/posts/bac-cuc-quang-aurora-scandinavia-dem.webp"
 categories = ["travel"]
 tags = ["bắc cực quang", "aurora", "scandinavia", "phần lan", "na uy", "du lịch"]
 author = "Duy Nguyen"
-image_source = "Pexels"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_creator = ""
-image_alt = "Bắc cực quang rực rỡ trên bầu trời đêm Scandinavia"
-image_source_url = "https://www.pexels.com/photo/milky-way-at-night-41004/"
+image_source = "Pixabay"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_creator = "xuanduongvan87"
+image_alt = "Ảnh minh họa Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối — nguồn Pixabay"
+image_source_url = "https://pixabay.com/photos/ha-long-vietnam-countryside-6762303/"
 image_commercial_use = true
 image_owner = "external"
-image_attribution_verified = false
+image_attribution_verified = true
 image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
-image_creator_url = ""
+image_creator_url = "https://pixabay.com/photos/ha-long-vietnam-countryside-6762303/"
 image_creator_id = ""
-image_attribution_source = "not_found"
+image_attribution_source = "pixabay_api"
+image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_query = "bắc cực quang hiện tượng"
 +++
 
 ## Bắc Cực Quang Là Gì?

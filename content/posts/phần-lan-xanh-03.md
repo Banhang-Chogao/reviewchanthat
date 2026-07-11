@@ -5,11 +5,28 @@ description = "Phần Lan không chỉ nói về bảo vệ môi trường, mà 
 categories = ["travel"]
 tags = ["Phần Lan", "Bảo vệ môi trường", "Công nghệ sạch", "Kinh tế tuần hoàn", "Phát triển bền vững"]
 author = "Reviewchanthat"
-thumbnail = "phần-lan-xanh-03.webp"
+thumbnail = "images/posts/phần-lan-xanh-03.webp"
 thumbnail_creator = "Lauri Kinnunen"
 thumbnail_source_url = "https://unsplash.com/photos/finnish-forest"
 thumbnail_license = "Unsplash License"
 date_display = "11-07-2026 16:06:05 GMT +7"
+image = "images/posts/phần-lan-xanh-03.webp"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/boat-river-motorboat-boat-trip-8105949/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pixabay_api"
+image_status = "verified"
+image_creator = "pen_ash"
+image_creator_url = "https://pixabay.com/photos/boat-river-motorboat-boat-trip-8105949/"
+image_attribution_checked_at = "2026-07-11T16:20:54+07:00"
+image_query = "phần lan tiên phong bảo"
+image_alt = "Ảnh minh họa Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng — nguồn Pixabay"
 +++
 
 **Khi bạn đi bộ qua Helsinki, bạn sẽ nhận thấy không khí sạch, nước trong, và cảnh tượng xanh rì rà. Nhưng Phần Lan không phải là quốc gia nhỏ may mắn – đó là kết quả của những lựa chọn hành động cụ thể.**

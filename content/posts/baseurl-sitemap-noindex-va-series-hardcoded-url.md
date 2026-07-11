@@ -7,7 +7,6 @@ description = "| Code | Safety | Mô tả | |------|--------|--------| | baseurl
 draft = false
 image = "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp"
 image_alt = "Ảnh minh họa BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages — nguồn Pexels"
-image_attribution_checked_at = "2026-07-11T14:44:30+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -15,10 +14,9 @@ image_creator = "RDNE Stock project"
 image_creator_id = "3149039"
 image_creator_url = "https://www.pexels.com/@rdne"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_provider = "pexels"
-image_query = "baseurl sitemap noindex series hardcoded"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/a-graph-in-close-up-photography-7947635/"
 image_status = "verified"
@@ -39,6 +37,8 @@ disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + Git
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
 title = "Tóm tắt nhanh"
+image_attribution_checked_at = "2026-07-11T16:20:33+07:00"
+image_query = "baseurl sitemap noindex series hardcoded"
 +++
 
 ## Root cause

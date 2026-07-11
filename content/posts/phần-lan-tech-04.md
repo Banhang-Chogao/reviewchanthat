@@ -5,11 +5,28 @@ description = "Khám phá câu chuyện của Phần Lan – từ cái tổ yên
 categories = ["travel"]
 tags = ["Phần Lan", "Công nghệ", "Startup", "Nokia", "5G", "Sự đổi mới"]
 author = "Reviewchanthat"
-thumbnail = "phần-lan-tech-04.webp"
+thumbnail = "images/posts/phần-lan-tech-04.webp"
 thumbnail_creator = "Timi Kauhanen"
 thumbnail_source_url = "https://unsplash.com/photos/technology"
 thumbnail_license = "Unsplash License"
 date_display = "11-07-2026 16:06:05 GMT +7"
+image = "images/posts/phần-lan-tech-04.webp"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/cellular-5g-pinwheels-chemtrails-4320136/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pixabay_api"
+image_status = "verified"
+image_creator = "pixundfertig"
+image_creator_url = "https://pixabay.com/photos/cellular-5g-pinwheels-chemtrails-4320136/"
+image_attribution_checked_at = "2026-07-11T16:20:53+07:00"
+image_query = "phần lan nokia 5g cách"
+image_alt = "Ảnh minh họa Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ — nguồn Pixabay"
 +++
 
 **Năm 2007, Apple ra mắt iPhone và sáu năm sau, Nokia – một công ty viễn thông Phần Lan từng thống trị thế giới di động – gần như bị xóa sổ. Nhưng thay vì chết, Phần Lan lại đứng dậy và trở thành nước bạn nước nó trong công nghệ.**

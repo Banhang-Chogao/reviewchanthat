@@ -7,7 +7,6 @@ commit = "f8496fd"
 description = "Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo và Dadaepo — bãi biển nào phù hợp nhất cho chuyến đi của bạn?"
 draft = false
 image = "images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp"
-image_attribution_checked_at = "2026-07-11T14:44:13+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -15,7 +14,7 @@ image_creator = "thuan Nguyen"
 image_creator_id = "1317341160"
 image_creator_url = "https://www.pexels.com/@thuan-nguyen-1317341160"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/vibrant-nighttime-skyline-of-busan-south-korea-29861385/"
@@ -98,6 +97,7 @@ value = "Mọi đối tượng"
 [[tom_tat_nhanh]]
 label = "Di chuyển"
 value = "Metro Busan"
+image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
 +++
 
 Busan có 4 bãi biển chính, mỗi nơi một phong cách. Bài viết này so sánh chi tiết giúp bạn chọn đúng bãi biển phù hợp với chuyến đi của mình.

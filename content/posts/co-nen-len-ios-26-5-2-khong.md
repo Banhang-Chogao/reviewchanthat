@@ -22,7 +22,7 @@ image_creator_url = "https://www.pexels.com/@brettjordan"
 image_creator_id = "273840"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-11T14:44:31+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:35+07:00"
 draft = false
 seo_title = "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần"
 

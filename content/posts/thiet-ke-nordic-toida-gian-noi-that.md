@@ -12,7 +12,7 @@ image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
 image_creator = "Thới Nam Cao"
-image_alt = "Không gian nội thất Nordic tối giản với nội thất gỗ và ánh sáng tự nhiên"
+image_alt = "Ảnh minh họa Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu — nguồn Pexels"
 image_source_url = "https://www.pexels.com/photo/modern-furniture-in-living-room-13985530/"
 image_commercial_use = true
 image_owner = "external"
@@ -24,6 +24,8 @@ image_license_url = ""
 image_creator_url = "https://www.pexels.com/@thoinamcao"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-11T16:20:55+07:00"
+image_query = "thiết kế nordic triết lý"
 +++
 
 ## Thiết Kế Nordic Là Gì?

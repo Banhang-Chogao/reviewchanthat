@@ -22,6 +22,9 @@ image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
 date_display = "11-07-2026 10:00:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_query = "độc hành tà năng phan"
+image_alt = "Ảnh minh họa Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ — nguồn Pixabay"
 +++
 
 Tiếng lều vải phập phồng trong gió như một sinh vật đang thở. Tôi nằm trong túi ngủ, mắt mở to trong bóng tối. Bên ngoài, rừng già đang lên tiếng. Một tiếng động lạ, nửa như tiếng cành cây gãy, nửa như tiếng bước chân của một loài vật nào đó. Tim tôi đập thình thịch. Tôi một mình, trên đỉnh đồi hoang vu, giữa một khu rừng trải dài ba tỉnh thành. Và tôi tự hỏi: mình đã làm gì với cuộc đời mình vậy?

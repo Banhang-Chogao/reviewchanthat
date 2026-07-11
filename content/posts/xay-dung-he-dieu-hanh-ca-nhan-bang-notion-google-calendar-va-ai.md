@@ -17,18 +17,17 @@ series_title = "Sống thông minh trong thời đại AI"
 slug = "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai"
 image = "images/posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.webp"
 thumbnail = "images/posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.webp"
-image_alt = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
-image_query = "organized desk calendar laptop planner"
+image_alt = "Ảnh minh họa Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI — nguồn Pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/notebook-and-a-laptop-on-a-desk-5908723/"
+image_source_url = "https://www.pexels.com/photo/person-in-black-suit-typing-on-a-computer-3760081/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "www.kaboompics.com"
-image_creator_url = "https://www.pexels.com/@karola-g"
-image_creator_id = "2332540"
+image_creator = "Andrea Piacquadio"
+image_creator_url = "https://www.pexels.com/@olly"
+image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
@@ -62,6 +61,8 @@ title = "Pillar: Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
+image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_query = "credit card finance desk"
 +++
 Bài 3/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).
 

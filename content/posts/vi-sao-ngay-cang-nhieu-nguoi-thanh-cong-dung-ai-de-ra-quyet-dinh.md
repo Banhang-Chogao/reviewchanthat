@@ -17,20 +17,19 @@ series_title = "Sống thông minh trong thời đại AI"
 slug = "vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh"
 image = "images/posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.webp"
 thumbnail = "images/posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.webp"
-image_alt = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
-image_query = "business decision meeting whiteboard"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/businessman-discussing-a-chart-at-a-business-meeting-6285130/"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_alt = "Ảnh minh họa Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định? — nguồn Pixabay"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/wallet-money-credit-card-online-2125548/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Gustavo Fring"
-image_creator_url = "https://www.pexels.com/@gustavo-fring"
-image_creator_id = "2206740"
+image_creator = "JESHOOTS-com"
+image_creator_url = "https://pixabay.com/photos/wallet-money-credit-card-online-2125548/"
+image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
+image_attribution_source = "pixabay_api"
 image_status = "verified"
 
 [ai_summary]
@@ -62,6 +61,8 @@ title = "Pillar: Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
+image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_query = "credit card finance desk"
 +++
 
 Bài 5/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).

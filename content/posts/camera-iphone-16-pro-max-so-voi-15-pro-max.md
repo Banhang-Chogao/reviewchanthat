@@ -7,7 +7,6 @@ commit = "f8496fd"
 description = "So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm A18, Camera Control và có nên đổi vì ảnh."
 draft = false
 image = "images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp"
-image_attribution_checked_at = "2026-07-11T14:44:14+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -15,7 +14,7 @@ image_creator = "Andrey Matveev"
 image_creator_id = "150820"
 image_creator_url = "https://www.pexels.com/@zeleboba"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/close-up-view-of-smartphone-on-wooden-table-33693823/"
@@ -46,6 +45,7 @@ label = "Giữ 15"
 
 [[tom_tat_nhanh]]
 label = "Lên 16"
+image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
 +++
 
 So camera **16 Pro Max vs 15 Pro Max**, nhiều người kỳ vọng **bước nhảy như 3x sang 5x** năm 2023. Thực tế 2026: **ống kính gần nhau**, khác biệt nằm ở **chip xử lý**, **Camera Control** và **tính năng phần mềm** gắn A18 Pro.

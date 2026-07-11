@@ -9,22 +9,22 @@ thumbnail = "images/posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-qu
 categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]
 tags = ["hai quan", "xuat nhap khau", "so hoa doanh nghiep"]
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/online-shopping-with-payment-app-bancontact-29502357/"
+image_source_url = "https://www.pexels.com/photo/eyeglasses-on-top-of-a-magazine-8937452/"
 image_provider = "pexels"
 image_license = "Pexels License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Julio Lopez"
-image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator = "Leeloo The First"
+image_creator_url = "https://www.pexels.com/@leeloothefirst"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
-image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026 — nguồn Pexels"
 date_display = "11-07-2026 06:00:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:54+07:00"
+image_query = "credit card finance desk"
 +++
 
 ## Tổng Quan Về Thủ Tục Hải Quan Số 2026

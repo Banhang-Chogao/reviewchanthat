@@ -8,12 +8,12 @@ thumbnail = "images/posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.webp"
 categories = ["review"]
 tags = ["cân bằng công việc", "làm việc", "kỳ nghỉ", "scandinavia", "sức khỏe tâm thần"]
 author = "Duy Nguyen"
-image_source = "Pexels"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_creator = "Sóc Năng Động"
-image_alt = "Một người đang thư giãn ngoài trời với tự nhiên xung quanh"
-image_source_url = "https://www.pexels.com/photo/woman-resting-with-book-on-outdoor-table-31755439/"
+image_source = "Pixabay"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_creator = "6437364"
+image_alt = "Ảnh minh họa Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn? — nguồn Pixabay"
+image_source_url = "https://pixabay.com/photos/hoa-b%E1%BA%B1ng-l%C4%83ng-tree-landscape-2883613/"
 image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
@@ -21,9 +21,11 @@ image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
-image_creator_url = "https://www.pexels.com/@soc-nang-d-ng-2150345854"
+image_creator_url = "https://pixabay.com/photos/hoa-b%E1%BA%B1ng-l%C4%83ng-tree-landscape-2883613/"
 image_creator_id = ""
-image_attribution_source = "pexels_api"
+image_attribution_source = "pixabay_api"
+image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_query = "cân bằng công việc đời"
 +++
 
 ## Cân Bằng Công Việc-Cuộc Sống – Một Giá Trị Cơ Bản

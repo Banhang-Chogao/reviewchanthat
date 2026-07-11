@@ -8,7 +8,6 @@ commit = "f8496fd"
 description = "Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật, đâu là quảng cáo trá hình."
 draft = false
 image = "images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp"
-image_attribution_checked_at = "2026-07-11T14:44:14+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -16,7 +15,7 @@ image_creator = "Ron Lach"
 image_creator_id = "22992178"
 image_creator_url = "https://www.pexels.com/@ron-lach"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/a-woman-proof-reading-a-composition-7968063/"
@@ -62,6 +61,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Mẹo quan trọng"
+image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
 +++
 
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".

@@ -7,7 +7,6 @@ commit = "f8496fd"
 description = "Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu quả hơn."
 draft = false
 image = "images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp"
-image_attribution_checked_at = "2026-07-11T14:44:14+07:00"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
@@ -15,7 +14,7 @@ image_creator = "Thanh Long Bùi"
 image_creator_id = "483143920"
 image_creator_url = "https://www.pexels.com/@thanh-long-bui-483143920"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/female-pickleball-player-in-action-at-h-i-phong-29665449/"
@@ -64,6 +63,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
+image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
 +++
 
 Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Nghe đơn giản, nhưng mình mất kha khá thời gian mới áp dụng được. Dưới đây là những thói quen giúp bạn làm được điều đó.

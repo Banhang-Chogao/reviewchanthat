@@ -21,10 +21,10 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T12:23:08+07:00"
-image_query = "cách phục hồi da bị"
 image_alt = "Ảnh minh họa Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển — nguồn Pixabay"
 date_display = "11-07-2026 12:20:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_query = "cách phục hồi da bị"
 +++
 
 Chườm lạnh ngay, thoa gel nha đam nguyên chất, uống 2 lít nước — đây là 3 việc bạn phải làm trong 30 phút đầu sau khi nhận ra da đã bị cháy nắng. Mùa hè 2026 đang ở đỉnh điểm, và nếu bạn vừa có chuyến đi Phú Quốc, Đà Nẵng hay Nha Trang về, chắc hẳn làn da và mái tóc đang "kêu cứu" dù bạn đã thoa kem chống nắng kỹ càng.

@@ -5,11 +5,28 @@ description = "Khám phá bí mật đằng sau danh hiệu quốc gia hạnh ph
 categories = ["travel"]
 tags = ["Phần Lan", "Hạnh phúc", "Xã hội", "Du lịch", "Văn hóa"]
 author = "Reviewchanthat"
-thumbnail = "phần-lan-hạnh-phúc-01.webp"
+thumbnail = "images/posts/phần-lan-hạnh-phúc-01.webp"
 thumbnail_creator = "Jaakko Karvonen"
 thumbnail_source_url = "https://unsplash.com/photos/finnish-landscape"
 thumbnail_license = "Unsplash License"
 date_display = "11-07-2026 16:06:05 GMT +7"
+image = "images/posts/phần-lan-hạnh-phúc-01.webp"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/payment-online-payment-card-payment-4334491/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pixabay_api"
+image_status = "verified"
+image_creator = "rupixen"
+image_creator_url = "https://pixabay.com/photos/payment-online-payment-card-payment-4334491/"
+image_attribution_checked_at = "2026-07-11T16:20:51+07:00"
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội — nguồn Pixabay"
 +++
 
 **Tại sao Phần Lan liên tục giữ vị trí quốc gia hạnh phúc nhất thế giới trong 7 năm liên tiếp? Không phải vì tự nhiên hay lịch sử may mắn, mà vì một hệ thống được thiết kế chu đáo từ từng chi tiết nhỏ nhất.**

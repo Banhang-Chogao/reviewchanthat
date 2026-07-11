@@ -8,23 +8,23 @@ categories = ["Kiem Tien Online", "Digital Marketing"]
 description = "Hướng dẫn chi tiết cách làm affiliate Shopee trực tiếp trên Instagram tận dụng tính năng mới của Meta. Chiến lược xây dựng kênh Reels kiếm tiền thụ động bền vững."
 image = "images/posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.webp"
 thumbnail = "images/posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.webp"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/group-of-men-and-women-in-orange-polo-shirts-posing-with-crossed-arms-on-bridge-22617750/"
-image_provider = "pexels"
-image_license = "Pexels License"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/fisherman-fishing-lake-tuyen-lam-5389426/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Đô Đô"
-image_creator_url = "https://www.pexels.com/@do-do-1176185079"
+image_creator = "dangquangn"
+image_creator_url = "https://pixabay.com/photos/fisherman-fishing-lake-tuyen-lam-5389426/"
 image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
+image_attribution_source = "pixabay_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T12:31:07+07:00"
-image_query = "cách làm affiliate shopee trên"
-image_alt = "Ảnh minh họa Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới — nguồn Pexels"
+image_alt = "Ảnh minh họa Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới — nguồn Pixabay"
 date_display = "11-07-2026 12:30:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:48+07:00"
+image_query = "cách làm affiliate shopee trên"
 +++
 
 **Từ tháng 7/2026, bạn có thể gắn trực tiếp link sản phẩm Shopee vào Instagram Story và Reels — người xem chạm một lần là mua, không cần qua "link in bio".** Đây là cú bắt tay lịch sử giữa Meta và Shopee dành riêng cho thị trường Việt Nam, mở ra cơ hội kiếm tiền chưa từng có cho người sáng tạo nội dung, sinh viên và các mẹ bỉm sữa.

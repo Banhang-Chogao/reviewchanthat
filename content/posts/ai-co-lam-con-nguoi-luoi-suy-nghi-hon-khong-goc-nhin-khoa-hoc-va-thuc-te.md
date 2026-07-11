@@ -17,18 +17,17 @@ series_title = "Sống thông minh trong thời đại AI"
 slug = "ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te"
 image = "images/posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.webp"
 thumbnail = "images/posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.webp"
-image_alt = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-image_query = "student thinking library books laptop"
+image_alt = "Ảnh minh họa AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế — nguồn Pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/a-man-in-a-turtleneck-sweater-in-a-library-6550115/"
+image_source_url = "https://www.pexels.com/photo/online-shopping-with-payment-app-bancontact-29502357/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Tima Miroshnichenko"
-image_creator_url = "https://www.pexels.com/@tima-miroshnichenko"
-image_creator_id = "3088726"
+image_creator = "Julio Lopez"
+image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
@@ -62,6 +61,8 @@ title = "Pillar: Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
+image_attribution_checked_at = "2026-07-11T16:20:46+07:00"
+image_query = "mobile banking payment app"
 +++
 
 Bài 6/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).

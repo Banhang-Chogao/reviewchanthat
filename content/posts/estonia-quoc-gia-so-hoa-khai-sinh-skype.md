@@ -9,22 +9,22 @@ thumbnail = "images/posts/estonia-quoc-gia-so-hoa-khai-sinh-skype.webp"
 categories = ["Công Nghệ", "Xu Hướng"]
 tags = ["estonia", "e-government", "skype", "startup"]
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/online-shopping-with-payment-app-bancontact-29502357/"
+image_source_url = "https://www.pexels.com/photo/person-holding-blue-card-and-a-cellphone-7821552/"
 image_provider = "pexels"
 image_license = "Pexels License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Julio Lopez"
-image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T14:44:42+07:00"
-image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt? — nguồn Pexels"
 date_display = "11-07-2026 13:00:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:48+07:00"
+image_query = "mobile banking payment app"
 +++
 
 [Tallinn - thủ đô Estonia nơi trung cổ và công nghệ hiện đại giao thoa]

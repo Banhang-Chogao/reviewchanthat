@@ -3,27 +3,26 @@ title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành T
 date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Khám phá triết lý sống bền vững ở Scandinavia – nơi môi trường không phải là vấn đề chính trị mà là cách sống hằng ngày. Từ tái chế, năng lượng tái tạo đến thiết kế tối giản, tìm hiểu tại sao Bắc Âu dẫn đầu trong bảo vệ môi trường toàn cầu."
-image = "images/posts/song-ben-vung-scandinavia-moi-truong-tai-che.webp"
-thumbnail = "images/posts/song-ben-vung-scandinavia-moi-truong-tai-che.webp"
+image = "images/posts/fallback.webp"
+thumbnail = "images/posts/fallback.webp"
 categories = ["review"]
 tags = ["scandinavia", "bền vững", "môi trường", "bắc âu", "lối sống xanh"]
 author = "Duy Nguyen"
-image_source = "Pixabay"
+image_source = "self"
 image_provider = "pixabay"
-image_license = "Pixabay Content License"
-image_creator = "Zachtleven"
+image_license = "Self-owned"
 image_alt = "Thiên nhiên xanh mát của Scandinavia và lối sống bền vững"
 image_source_url = "https://pixabay.com/photos/river-flowing-waterfall-nature-8279466/"
 image_commercial_use = true
-image_owner = "external"
+image_owner = "self"
 image_attribution_verified = true
-image_status = "verified"
+image_status = "needs_review"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
-image_creator_url = "https://pixabay.com/photos/river-flowing-waterfall-nature-8279466/"
 image_creator_id = ""
 image_attribution_source = "pixabay_api"
+image_reject_reason = "No verified image available after processing"
 +++
 
 ## Tại Sao Scandinavia Lại Là Tiêu Chuẩn Vàng Của Phong Trào Bền Vững?

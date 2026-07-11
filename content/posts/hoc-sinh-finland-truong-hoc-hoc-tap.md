@@ -12,7 +12,7 @@ image_source = "Pixabay"
 image_provider = "pixabay"
 image_license = "Pixabay Content License"
 image_creator = "YHBae"
-image_alt = "Học sinh Phần Lan tại trường với môi trường học tập thoải mái"
+image_alt = "Ảnh minh họa Hệ Thống Giáo Dục Phần Lan: Lý Do Tại Sao Phần Lan Có Những Sinh Viên Thông Minh Nhất Thế Giới — nguồn Pixabay"
 image_source_url = "https://pixabay.com/photos/street-lamp-road-traffic-duc-bag-4359438/"
 image_commercial_use = true
 image_owner = "external"
@@ -24,6 +24,8 @@ image_license_url = ""
 image_creator_url = "https://pixabay.com/photos/street-lamp-road-traffic-duc-bag-4359438/"
 image_creator_id = ""
 image_attribution_source = "pixabay_api"
+image_attribution_checked_at = "2026-07-11T16:20:48+07:00"
+image_query = "hệ thống giáo dục phần"
 +++
 
 ## Một Hệ Thống Giáo Dục Không Giống Bất Cứ Cái Gì Ở Đâu Khác

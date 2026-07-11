@@ -26,7 +26,7 @@ image_creator_url = "https://www.pexels.com/@rdne"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = ""
-image_attribution_checked_at = "2026-07-11T14:44:35+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:39+07:00"
 
 [ai_summary]
 items = ["CFA Level 1: Tài chính cơ bản, DCF, PV = Σ CF_t × e^(-rt)", "Beta = Cov(Ra, Rm) / Var(Rm) — độ nhạy so với thị trường", "Tracking Error = σ(Return_fund - Return_benchmark)", "Information Ratio = (Return_fund - Return_benchmark) / Tracking Error", "CFA Level 2: Equity valuation (P/E, FCF), fixed income (duration, convexity)", "CFA Level 3: Portfolio management, constraints, risk budgeting", "Ứng dụng: phân tích cổ phiếu, quản lý danh mục, đánh giá quỹ"]

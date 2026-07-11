@@ -5,11 +5,28 @@ description = "Khám phá mô hình giáo dục Phần Lan được UNESCO công
 categories = ["travel"]
 tags = ["Phần Lan", "Giáo dục", "Du lịch", "Hệ thống học tập", "Phát triển trẻ em"]
 author = "Reviewchanthat"
-thumbnail = "phần-lan-giáo-dục-02.webp"
+thumbnail = "images/posts/phần-lan-giáo-dục-02.webp"
 thumbnail_creator = "Joanna Kosinska"
 thumbnail_source_url = "https://unsplash.com/photos/classroom"
 thumbnail_license = "Unsplash License"
 date_display = "11-07-2026 16:06:05 GMT +7"
+image = "images/posts/phần-lan-giáo-dục-02.webp"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/ang-thong-purple-temple-1671770/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pixabay_api"
+image_status = "verified"
+image_creator = "Longjeaw"
+image_creator_url = "https://pixabay.com/photos/ang-thong-purple-temple-1671770/"
+image_attribution_checked_at = "2026-07-11T16:20:51+07:00"
+image_query = "hệ thống giáo dục phần"
+image_alt = "Ảnh minh họa Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối — nguồn Pixabay"
 +++
 
 **Nếu bạn là cha mẹ Việt Nam, bạn có thể đã nghe câu chuyện này: một học sinh Phần Lan không làm bài tập về nhà, đi học chỉ 4 giờ mỗi ngày, nhưng vẫn là một trong những học sinh thành công nhất thế giới. Điều này có thực không?**

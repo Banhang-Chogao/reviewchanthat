@@ -12,7 +12,7 @@ image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
 image_creator = "Gabriel MHG"
-image_alt = "Các turbine gió tại biển với khung cảnh biển tuyệt đẹp"
+image_alt = "Ảnh minh họa Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh? — nguồn Pexels"
 image_source_url = "https://www.pexels.com/photo/explore-renewable-energy-with-majestic-wind-turbines-37381562/"
 image_commercial_use = true
 image_owner = "external"
@@ -24,6 +24,8 @@ image_license_url = ""
 image_creator_url = "https://www.pexels.com/@kaomhg"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_query = "năng lượng tái tạo scandinavia"
 +++
 
 ## Tại Sao Scandinavia Dẫn Đầu Trong Năng Lượng Tái Tạo?

@@ -17,22 +17,20 @@ series_title = "Sống thông minh trong thời đại AI"
 slug = "20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay"
 image = "images/posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.webp"
 thumbnail = "images/posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.webp"
-image_alt = "20 công cụ AI productivity"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/woman-hands-with-cellphone-over-laptop-17754375/"
-image_license = "Pexels License"
+image_alt = "Ảnh minh họa 20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày — nguồn Pixabay"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/holiday-shopping-smartphone-1921658/"
+image_license = "Pixabay Content License"
 image_commercial_use = true
 image_owner = "external"
-image_creator = "iam hogir"
-image_creator_url = "https://www.pexels.com/@iamhogir"
-image_creator_id = "2618413"
+image_creator = "AS_Photography"
+image_creator_url = "https://pixabay.com/photos/holiday-shopping-smartphone-1921658/"
+image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-10T14:53:09+07:00"
-image_license_url = "https://www.pexels.com/license/"
+image_attribution_source = "pixabay_api"
+image_license_url = ""
 image_status = "verified"
-image_provider = "pexels"
-image_query = "productivity apps laptop desk flatlay"
+image_provider = "pixabay"
 
 [ai_summary]
 collapsed = false
@@ -71,6 +69,8 @@ title = "Personal Finance 2026: tiết kiệm tự động"
 [[internal_links]]
 ref = "posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md"
 title = "So sánh ví điện tử Việt Nam"
+image_attribution_checked_at = "2026-07-11T16:20:46+07:00"
+image_query = "mobile banking payment app"
 +++
 
 Hai giờ mỗi ngày nghe nhiều — nhưng **không phải phép màu**. Bài này liệt kê **20 công cụ AI** theo nhóm việc, kèm điều kiện dùng, mức free/pro (khái quát), và cách **không** biến danh sách thành 20 subscription.

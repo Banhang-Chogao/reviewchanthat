@@ -53,7 +53,7 @@ url = "https://chinhphu.vn/chien-luoc-chuyen-doi-so-quoc-gia"
 [[external_links]]
 title = "Thông tư hướng dẫn kết nối hệ thống thông tin với Cổng dịch vụ công quốc gia"
 url = "https://vpcp.chinhphu.vn/huong-dan-ket-noi"
-image_attribution_checked_at = "2026-07-11T14:44:41+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:45+07:00"
 image_query = "điểm luật chuyển đổi số"
 +++
 

@@ -69,7 +69,7 @@ title = "Cuộc sống số năm 2026: 30 thói quen"
 [[internal_links]]
 ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
 title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm"
-image_attribution_checked_at = "2026-07-11T14:44:41+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:44+07:00"
 image_query = "mobile banking payment app"
 +++
 

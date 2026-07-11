@@ -8,23 +8,23 @@ categories = ["Du Lich", "Trai Nghiem"]
 description = "Green camping là gì? Gợi ý 5 địa điểm cắm trại hoang sơ gần Sài Gòn: hồ Trị An, hồ Dầu Tiếng, rừng Bù Đăng. Cẩm nang Leave No Trace, dụng cụ lọc nước, xử lý rác thải hữu cơ và vô cơ khi camping chữa lành."
 image = "images/posts/trao-luu-green-camping-cam-trai-hoang-so.webp"
 thumbnail = "images/posts/trao-luu-green-camping-cam-trai-hoang-so.webp"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/a-tent-on-a-mountain-overlooking-a-city-14025092/"
-image_provider = "pexels"
-image_license = "Pexels License"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/ground-camping-family-camp-picnic-8260968/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Quang Nguyen Vinh"
-image_creator_url = "https://www.pexels.com/@quang-nguyen-vinh-222549"
+image_creator = "ignartonosbg"
+image_creator_url = "https://pixabay.com/photos/ground-camping-family-camp-picnic-8260968/"
 image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
+image_attribution_source = "pixabay_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T13:05:02+07:00"
-image_query = "trào lưu green camping gợi"
-image_alt = "Ảnh minh họa Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành — nguồn Pexels"
+image_alt = "Ảnh minh họa Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành — nguồn Pixabay"
 date_display = "11-07-2026 14:00:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_query = "trào lưu green camping gợi"
 +++
 
 Năm 2026 chứng kiến sự bùng nổ của **green camping** — cắm trại xanh — một trào lưu du lịch kết hợp bảo vệ môi trường, nhặt rác và tuân thủ nghiêm ngặt nguyên tắc Leave No Trace (LNT). Không còn là những chuyến dã ngoại xả rác bừa bãi như trước, green camping đặt trải nghiệm chữa lành (healing) và trách nhiệm sinh thái lên hàng đầu. Nếu bạn đang tìm kiếm địa điểm cắm trại hoang sơ gần Sài Gòn để tái tạo năng lượng cuối tuần, bài viết này dành cho bạn.

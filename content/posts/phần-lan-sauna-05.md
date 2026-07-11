@@ -5,11 +5,28 @@ description = "Phần Lan có hơn 3 triệu sauna cho 5.5 triệu người dân
 categories = ["travel"]
 tags = ["Phần Lan", "Sauna", "Văn hóa", "Du lịch", "Truyền thống"]
 author = "Reviewchanthat"
-thumbnail = "phần-lan-sauna-05.webp"
+thumbnail = "images/posts/phần-lan-sauna-05.webp"
 thumbnail_creator = "Miika Laaksonen"
 thumbnail_source_url = "https://unsplash.com/photos/sauna-culture"
 thumbnail_license = "Unsplash License"
 date_display = "11-07-2026 16:06:05 GMT +7"
+image = "images/posts/phần-lan-sauna-05.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/women-sitting-near-the-glass-window-looking-at-the-view-outside-5979571/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Yaroslav Shuraev"
+image_creator_url = "https://www.pexels.com/@yaroslav-shuraev"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T16:20:52+07:00"
+image_query = "sauna phần lan di sản"
+image_alt = "Ảnh minh họa Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật — nguồn Pexels"
 +++
 
 **Nếu bạn nghĩ sauna là một dịch vụ spa xa xỉ, bạn đã hiểu sai Phần Lan. Ở đây, sauna không phải là một điều xa xỉ mà là một phần của cuộc sống hàng ngày – một nơi để kết nối với bản thân, gia đình, và cộng đồng.**

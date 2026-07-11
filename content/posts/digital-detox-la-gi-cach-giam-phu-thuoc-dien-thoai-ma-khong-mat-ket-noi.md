@@ -73,7 +73,7 @@ title = "Digital Minimalism: sống tối giản trong thời đại AI"
 [[internal_links]]
 ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
 title = "Sống thông minh trong thời đại AI"
-image_attribution_checked_at = "2026-07-11T14:44:40+07:00"
+image_attribution_checked_at = "2026-07-11T16:20:44+07:00"
 image_query = "mobile banking payment app"
 +++
 

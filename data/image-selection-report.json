@@ -1,14 +1,326 @@
 {
-  "generated_at": "2026-07-11T08:39:10+07:00",
-  "processed": 1,
-  "api_selected": 1,
+  "generated_at": "2026-07-11T09:19:34+07:00",
+  "processed": 53,
+  "api_selected": 53,
   "self_generated": 0,
-  "skipped": 0,
+  "skipped": 217,
   "errors": [],
   "posts": [
     {
-      "slug": "anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc",
-      "title": "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội",
+      "slug": "20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay",
+      "title": "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te",
+      "title": "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6",
+      "title": "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi",
+      "title": "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu",
+      "title": "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026",
+      "title": "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "bac-cuc-quang-aurora-scandinavia-dem",
+      "title": "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "can-bang-cong-viec-doi-song-scandinavia-ki-nghi",
+      "title": "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "co-nen-di-tour-hang-dong-quang-binh-mua-mua",
+      "title": "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "cong-nghe-ai-camera-uav-nong-nghiep-2026",
+      "title": "Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "copenhagen-oslo-stockholm-so-sanh-thua-dien",
+      "title": "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026",
+      "title": "Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026",
+      "title": "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia",
+      "title": "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "estonia-quoc-gia-so-hoa-khai-sinh-skype",
+      "title": "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "fjord-na-uy-thac-nuoc-dong-tien",
+      "title": "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
+      "title": "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "hoc-sinh-finland-truong-hoc-hoc-tap",
+      "title": "Hệ Thống Giáo Dục Phần Lan: Lý Do Tại Sao Phần Lan Có Những Sinh Viên Thông Minh Nhất Thế Giới",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "huong-dan-lam-affiliate-shopee-instagram-meta-2026",
+      "title": "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026",
+      "title": "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "huong-dan-xin-visa-e-residency-estonia",
+      "title": "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "kinh-nghiem-solo-travel-du-lich-mot-minh",
+      "title": "Kinh Nghiệm Du Lịch Tự Túc Một Mình (Solo Travel) An Toàn Và Trọn Vẹn",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "ky-su-ha-giang-nhung-khuc-cua-va-ky-uc",
+      "title": "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "ky-su-stockholm-thanh-pho-tren-nhung-hon-dao",
+      "title": "Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "ky-su-tallinn-dem-trang-thi-tran-co",
+      "title": "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "loi-song-xanh-bac-au-thien-nhien-estonia",
+      "title": "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "mo-hinh-phang-tiet-lo-tu-ikea-va-volvo",
+      "title": "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio",
+      "title": "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "nang-luong-tai-tao-turbine-gio-scandinavia",
+      "title": "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy",
+      "title": "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien",
+      "title": "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "phần-lan-giáo-dục-02",
+      "title": "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "phần-lan-hạnh-phúc-01",
+      "title": "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "phần-lan-sauna-05",
+      "title": "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "phần-lan-tech-04",
+      "title": "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "phần-lan-xanh-03",
+      "title": "Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026",
+      "title": "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026",
+      "title": "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "song-ben-vung-scandinavia-moi-truong-tai-che",
+      "title": "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+      "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "stockholm-thua-dien-gamlastan-bien",
+      "title": "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "thiet-ke-nordic-toida-gian-noi-that",
+      "title": "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "thuy-dien-noi-khai-sinh-spotify-va-bluetooth",
+      "title": "Từ Spotify Đến Bluetooth: Thụy Điển Đã Thống Trị Thế Giới Công Nghệ Ngầm Như Thế Nào?",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "trai-nghiem-icehotel-va-ngam-aurora-thuy-dien",
+      "title": "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "trao-luu-green-camping-cam-trai-hoang-so",
+      "title": "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "triet-ly-song-lagom-va-van-hoa-fika",
+      "title": "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh",
+      "title": "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?",
+      "source": "Pixabay",
+      "reason": "api_selected:Pixabay"
+    },
+    {
+      "slug": "wellness-spa-scandinavia-sauna-nong",
+      "title": "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+      "title": "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026",
+      "title": "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu",
+      "title": "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly",
+      "title": "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất",
+      "source": "Pexels",
+      "reason": "api_selected:Pexels"
+    },
+    {
+      "slug": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
+      "title": "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?",
       "source": "Pexels",
       "reason": "api_selected:Pexels"
     }

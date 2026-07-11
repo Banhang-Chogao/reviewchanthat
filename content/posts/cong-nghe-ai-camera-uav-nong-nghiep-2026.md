@@ -9,22 +9,22 @@ description = "Khám phá các điểm sáng công nghệ hot nhất tháng 7/20
 image = "images/posts/cong-nghe-ai-camera-uav-nong-nghiep-2026.webp"
 thumbnail = "images/posts/cong-nghe-ai-camera-uav-nong-nghiep-2026.webp"
 image_source = "Pixabay"
-image_source_url = "https://pixabay.com/photos/money-cash-czech-crowns-banknotes-8033100/"
+image_source_url = "https://pixabay.com/photos/iphone-visa-business-buying-card-624709/"
 image_provider = "pixabay"
 image_license = "Pixabay Content License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "vjkombajn"
-image_creator_url = "https://pixabay.com/photos/money-cash-czech-crowns-banknotes-8033100/"
+image_creator = "Firmbee"
+image_creator_url = "https://pixabay.com/photos/iphone-visa-business-buying-card-624709/"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T12:12:41+07:00"
-image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV — nguồn Pixabay"
 date_display = "11-07-2026 12:15:00 GMT +7"
+image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_query = "mobile banking payment app"
 +++
 
 Tháng 7/2026 đánh dấu một bước ngoặt rõ rệt: trí tuệ nhân tạo không còn là khái niệm thử nghiệm — nó đã len lỏi vào từng thiết bị điện tử tiêu dùng. Từ ứng dụng giả lập giao dịch tài sản số, hệ thống camera an ninh tích hợp AI, cho đến máy bay không người lái (UAV) phục vụ nông nghiệp — công nghệ đang định hình lại cách chúng ta làm việc, bảo vệ tài sản, và tối ưu sản xuất.
