@@ -1,6 +1,6 @@
 +++
 title = "Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV"
-commit = "48b5495"
+commit = "c721dc4"
 date = 2026-07-11T12:15:00+07:00
 draft = false
 tags = ["camera ai", "uav nong nghiep", "scex simulator", "cong nghe 2026"]
