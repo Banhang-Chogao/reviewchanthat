@@ -1287,33 +1287,6 @@
     border-bottom: 1px solid #000;
   }
 
-  /* ===== Watermark: paper-margin only, never over content ===== */
-  .tp-print-watermark {
-    display: block !important;
-    position: fixed;
-    z-index: 9999;
-    font-family: 'Inter', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    font-weight: 700;
-    color: #c00 !important;
-  }
-
-  .tp-print-watermark::after {
-    content: attr(data-watermark);
-  }
-
-  .tp-print-watermark--header {
-    top: 4mm;
-    left: 12mm;
-    right: 12mm;
-    text-align: center;
-    font-size: 6.2pt;
-    line-height: 1;
-    white-space: nowrap;
-  }
-}
-
-.tp-print-watermark {
-  display: none;
 }
 
 /* === Access Gate === */
