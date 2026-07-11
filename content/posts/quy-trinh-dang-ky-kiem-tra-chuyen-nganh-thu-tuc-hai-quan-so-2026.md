@@ -1,6 +1,6 @@
 +++
 title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
-commit = "bb2f271"
+commit = "25bc14d"
 date = "2026-07-11T06:00:00+07:00"
 draft = false
 description = "Hướng dẫn chi tiết thủ tục hải quan số 2026 trên Cơ chế một cửa quốc gia. Quy trình đăng ký kiểm tra chuyên ngành cho hàng hóa đặc thù: kiểm tra chất lượng, kiểm dịch động/thực vật, an toàn thực phẩm. Phân tích pháp luật xuất nhập khẩu mới nhất về nghĩa vụ doanh nghiệp và chế tài xử phạt."

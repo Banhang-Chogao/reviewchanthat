@@ -1,6 +1,6 @@
 +++
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
-commit = "bb2f271"
+commit = "25bc14d"
 date = "2026-07-11T05:30:00+07:00"
 draft = false
 description = "Phân tích toàn diện các điểm mới nhất trong quy định giấy phép lao động 2026: thay đổi về điều kiện kinh nghiệm, thủ tục giải trình nhu cầu sử dụng lao động nước ngoài trực tuyến, hợp pháp hóa lãnh sự bằng cấp và quy trình cấp work permit tại Sở Lao động Thương binh và Xã hội."

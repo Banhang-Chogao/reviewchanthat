@@ -2,7 +2,7 @@
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
 date = "2026-07-10T04:00:00+07:00"
 date_display = "10-07-2026 04:00:00 GMT +7"
-commit = "55a0a30"
+commit = "25bc14d"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "VPBank NEO", "app ngân hàng", "digital banking", "review app"]
 author = "Minh Hoàng"

@@ -1,6 +1,6 @@
 +++
 title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"
-commit = "55a0a30"
+commit = "25bc14d"
 date = "2026-07-11T12:40:00+07:00"
 draft = false
 tags = ["ai pc", "laptop ai", "work from home"]

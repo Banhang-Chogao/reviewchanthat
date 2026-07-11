@@ -1,6 +1,6 @@
 +++
 title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
-commit = "4a4a116"
+commit = "25bc14d"
 date = "2026-07-11T08:00:00+07:00"
 draft = false
 description = "Ký sự hành trình phượt Hà Giang bằng xe máy qua đèo Mã Pí Lèng, dốc Thẩm Mã. Câu chuyện về những đứa trẻ Mông đeo gùi hoa, đêm tĩnh lặng giữa bản làng xa xôi và vẻ đẹp hùng vĩ của hẻm vực Tu Sản dưới nắng tháng Bảy."
