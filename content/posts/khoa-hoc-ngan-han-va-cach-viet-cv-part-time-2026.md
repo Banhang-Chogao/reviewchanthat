@@ -1,6 +1,6 @@
 +++
 title = "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10"
-commit = "3bd5ffb"
+commit = "6eb214a"
 date = 2026-07-11T12:00:00+07:00
 draft = false
 tags = ["khoa hoc ngan han", "chung chi tin hoc", "chung chi ngoai ngu", "viet cv part time"]
