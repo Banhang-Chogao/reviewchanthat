@@ -1177,84 +1177,210 @@
       alert('Không có dữ liệu để export PDF.');
       return;
     }
+    if (typeof html2canvas === 'undefined') {
+      alert('Thư viện html2canvas chưa sẵn sàng, thử lại sau.');
+      return;
+    }
     if (typeof jspdf === 'undefined' && typeof window.jspdf === 'undefined') {
       alert('Thư viện PDF chưa sẵn sàng, thử lại sau.');
       return;
     }
     var jsPDF = window.jspdf ? window.jspdf.jsPDF : jspdf;
-    var doc = new jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
-    var rows = state.transactions;
+    var doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+    var pageW = 210;
+    var pageH = 297;
+    var margin = 8;
+    var contentW = pageW - margin * 2;
+    var scale = 2;
+
+    var now = new Date();
+    var dateStr = now.getDate() + '-' + (now.getMonth() + 1) + '-' + now.getFullYear();
+    var timeStr = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0');
+
     var totalInc = 0, totalDeb = 0;
-    for (var i = 0; i < rows.length; i++) {
-      totalInc += rows[i].income || 0;
-      totalDeb += Math.abs(rows[i].debt || 0);
+    for (var i = 0; i < state.transactions.length; i++) {
+      totalInc += state.transactions[i].income || 0;
+      totalDeb += Math.abs(state.transactions[i].debt || 0);
     }
     var net = totalInc - totalDeb;
     var ratio = totalInc > 0 ? ((totalDeb / totalInc) * 100).toFixed(1) : 'N/A';
-    var now = new Date();
-    var dateStr = now.getDate() + '-' + (now.getMonth() + 1) + '-' + now.getFullYear();
-    var pageWidth = doc.internal.pageSize.getWidth();
-    var pageHeight = doc.internal.pageSize.getHeight();
-    var margin = 15;
 
-    var colNames = ['Sequence', 'Income', 'Income Label', 'Debt', 'Debt Label', 'Sub Total', 'Type', 'Route', 'Remark', 'Date', 'Day', 'Month', 'Year'];
-    var colData = rows.map(function(t) {
-      return [
-        t.sequence, fmt(t.income), t.incomeLabel || '', fmt(Math.abs(t.debt || 0)), t.debtLabel || '',
-        fmt(t.subTotal), t.transactionType || '', t.route || '', t.remark || '',
-        t.date || '', t.day, t.month, t.year
-      ];
-    });
-    doc.autoTable({
-      head: [colNames],
-      body: colData,
-      startY: 45,
-      margin: { top: 30, bottom: 20, left: margin, right: margin },
-      styles: { fontSize: 7, cellPadding: 1.5, font: 'helvetica' },
-      headStyles: { fillColor: [0, 167, 160], textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 6.5, halign: 'center' },
-      bodyStyles: { textColor: [50, 50, 50] },
-      alternateRowStyles: { fillColor: [245, 245, 245] },
-      columnStyles: {
-        0: { halign: 'center' }, 1: { halign: 'right' }, 3: { halign: 'right' },
-        5: { halign: 'right' }, 10: { halign: 'center' }, 11: { halign: 'center' }, 12: { halign: 'center' }
-      },
-      didDrawPage: function(data) {
-        // Header watermark
-        doc.setFontSize(7);
-        doc.setTextColor(150, 150, 150);
-        doc.setFont('helvetica', 'normal');
-        doc.text('Review Chân Thật — Income Insights', margin, 10);
-        doc.text(dateStr, pageWidth - margin, 10, { align: 'right' });
-        // Footer watermark
-        doc.setFontSize(6);
-        doc.text('© 2026 Review Chân Thật — Bản quyền thuộc về Banhang-Chogao', pageWidth / 2, pageHeight - 8, { align: 'center' });
-      },
-      didParseCell: function(data) {
-        if (data.section === 'body' && data.column.index === 3) {
-          var val = parseFloat(String(data.cell.raw).replace(/[^0-9.\-]/g, ''));
-          if (val > 0) data.cell.styles.textColor = [200, 50, 50];
-        }
-      }
-    });
-    var totalPages = doc.internal.getNumberOfPages();
-    for (var p = 1; p <= totalPages; p++) {
-      doc.setPage(p);
-      // Page number
+    var app = document.getElementById('incomeApp');
+
+    function addFooter(pageNum) {
       doc.setFontSize(7);
-      doc.setTextColor(100, 100, 100);
-      doc.text('Trang ' + p + ' / ' + totalPages, pageWidth - margin, pageHeight - 8, { align: 'right' });
-      if (p === 1) {
-        doc.setFontSize(16);
-        doc.setTextColor(0, 167, 160);
-        doc.setFont('helvetica', 'bold');
-        doc.text('Income Insights — Báo cáo thu nhập & nợ', pageWidth / 2, 25, { align: 'center' });
-        doc.setFontSize(8);
-        doc.setTextColor(100, 100, 100);
-        doc.setFont('helvetica', 'normal');
-        doc.text('Tổng Income: ' + fmt(totalInc) + '₫  |  Tổng Debt: ' + fmt(totalDeb) + '₫  |  Net: ' + fmt(net) + '₫  |  Debt/Income: ' + ratio + '%', pageWidth / 2, 32, { align: 'center' });
+      doc.setTextColor(130, 130, 130);
+      doc.setFont('helvetica', 'normal');
+      doc.text('Review Chân Thật — Income Insights | ' + dateStr + ' ' + timeStr,
+        margin, pageH - 5);
+      doc.text('Trang ' + pageNum, pageW - margin, pageH - 5, { align: 'right' });
+    }
+
+    function captureElement(el, opts) {
+      opts = opts || {};
+      return html2canvas(el, {
+        scale: scale,
+        useCORS: true,
+        allowTaint: false,
+        backgroundColor: '#ffffff',
+        logging: false,
+        width: opts.width || el.scrollWidth,
+        height: opts.height || el.scrollHeight
+      });
+    }
+
+    function addImageToDoc(canvas, maxH) {
+      maxH = maxH || (pageH - margin * 2 - 14);
+      var imgData = canvas.toDataURL('image/jpeg', 0.92);
+      var imgW = contentW;
+      var imgH = (canvas.height / canvas.width) * imgW;
+      if (imgH > maxH) {
+        imgH = maxH;
+        imgW = (canvas.width / canvas.height) * imgH;
+      }
+      if (doc.internal.getCurrentPageInfo().pageNumber > 1) {
+        var remaining = pageH - margin * 2 - doc.internal.pageSize.getHeight() + doc.internal.getCurrentPageInfo().pageNumber * 0;
+      }
+      doc.addImage(imgData, 'JPEG', margin, doc.internal.getCurrentPageInfo().y || margin, imgW, imgH);
+      doc.internal.getCurrentPageInfo().y = (doc.internal.getCurrentPageInfo().y || margin) + imgH + 4;
+      return imgH;
+    }
+
+    // Build a hidden clone for clean capture
+    var clone = document.createElement('div');
+    clone.id = 'incomePdfClone';
+    clone.style.cssText = 'position:fixed;left:-9999px;top:0;width:900px;background:#fff;font-family:Arial,sans-serif;z-index:-1;';
+    clone.innerHTML = '<div style="padding:24px;color:#222;">';
+
+    // Title
+    clone.innerHTML += '<div style="text-align:center;margin-bottom:8px;"><h1 style="font-size:22px;font-weight:700;margin:0;color:#00A7A0;">Income Insights</h1>';
+    clone.innerHTML += '<p style="font-size:11px;color:#888;margin:4px 0 0;">Báo cáo thu nhập &amp; nợ — ' + dateStr + ' ' + timeStr + '</p></div>';
+
+    // KPI Summary
+    var totalIncFormatted = (totalInc).toLocaleString('vi-VN');
+    var totalDebFormatted = (totalDeb).toLocaleString('vi-VN');
+    var netFormatted = (net).toLocaleString('vi-VN');
+    clone.innerHTML += '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0;">';
+    clone.innerHTML += '<div style="border:1px solid #e0e0e0;border-radius:10px;padding:12px;text-align:center;"><div style="font-size:11px;color:#888;">Tổng Income</div><div style="font-size:18px;font-weight:700;color:#222;">' + totalIncFormatted + '₫</div></div>';
+    clone.innerHTML += '<div style="border:1px solid #e0e0e0;border-radius:10px;padding:12px;text-align:center;"><div style="font-size:11px;color:#888;">Tổng Debt</div><div style="font-size:18px;font-weight:700;color:#c0392b;">' + totalDebFormatted + '₫</div></div>';
+    clone.innerHTML += '<div style="border:1px solid #e0e0e0;border-radius:10px;padding:12px;text-align:center;"><div style="font-size:11px;color:#888;">Net</div><div style="font-size:18px;font-weight:700;color:' + (net < 0 ? '#c0392b' : '#222') + ';">' + netFormatted + '₫</div></div>';
+    clone.innerHTML += '<div style="border:1px solid #e0e0e0;border-radius:10px;padding:12px;text-align:center;"><div style="font-size:11px;color:#888;">Debt/Income</div><div style="font-size:18px;font-weight:700;color:' + (ratio > 50 ? '#c0392b' : ratio > 30 ? '#e67e22' : '#222') + ';">' + ratio + '%</div></div>';
+    clone.innerHTML += '</div>';
+
+    // Summary table
+    clone.innerHTML += '<h2 style="font-size:14px;font-weight:700;color:#00A7A0;border-bottom:2px solid #00A7A0;padding-bottom:4px;margin:16px 0 8px;">Executive Summary</h2>';
+    clone.innerHTML += '<table style="width:100%;border-collapse:collapse;font-size:11px;">';
+    clone.innerHTML += '<thead><tr style="background:#00A7A0;color:#fff;">';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:left;font-weight:600;">Sequence</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:right;font-weight:600;">Income</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:left;font-weight:600;">Income Label</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:right;font-weight:600;">Debt</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:left;font-weight:600;">Debt Label</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:right;font-weight:600;">Sub Total</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:left;font-weight:600;">Type</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:left;font-weight:600;">Route</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:left;font-weight:600;">Remark</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:left;font-weight:600;">Date</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:center;font-weight:600;">Day</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:center;font-weight:600;">Month</th>';
+    clone.innerHTML += '<th style="padding:6px 8px;text-align:center;font-weight:600;">Year</th>';
+    clone.innerHTML += '</tr></thead><tbody>';
+    for (var i = 0; i < Math.min(state.transactions.length, 20); i++) {
+      var t = state.transactions[i];
+      var bg = i % 2 === 0 ? '#fff' : '#f5f5f5';
+      clone.innerHTML += '<tr style="background:' + bg + ';">';
+      clone.innerHTML += '<td style="padding:4px 8px;text-align:center;">' + t.sequence + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;text-align:right;">' + (t.income || 0).toLocaleString('vi-VN') + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;">' + escHtml(t.incomeLabel || '') + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;text-align:right;color:' + (Math.abs(t.debt || 0) > 0 ? '#c0392b' : '#222') + ';">' + Math.abs(t.debt || 0).toLocaleString('vi-VN') + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;">' + escHtml(t.debtLabel || '') + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;text-align:right;font-weight:600;">' + (t.subTotal || 0).toLocaleString('vi-VN') + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;">' + escHtml(t.transactionType || '') + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;">' + escHtml(t.route || '') + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;">' + escHtml(t.remark || '') + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;">' + (t.date || '') + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;text-align:center;">' + t.day + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;text-align:center;">' + t.month + '</td>';
+      clone.innerHTML += '<td style="padding:4px 8px;text-align:center;">' + t.year + '</td>';
+      clone.innerHTML += '</tr>';
+    }
+    if (state.transactions.length > 20) {
+      clone.innerHTML += '<tr><td colspan="13" style="padding:8px;text-align:center;font-style:italic;color:#888;">... and ' + (state.transactions.length - 20) + ' more transactions</td></tr>';
+    }
+    clone.innerHTML += '</tbody></table>';
+
+    // AI Insights
+    var insightsEl = document.getElementById('incomeInsightsContent');
+    if (insightsEl && insightsEl.querySelector('.income-insight-item')) {
+      clone.innerHTML += '<h2 style="font-size:14px;font-weight:700;color:#00A7A0;border-bottom:2px solid #00A7A0;padding-bottom:4px;margin:16px 0 8px;">AI Insights</h2>';
+      clone.innerHTML += '<div style="font-size:11px;color:#555;margin-bottom:8px;">Nhận xét được tạo tự động từ dữ liệu bạn nhập, chỉ dùng để tham khảo.</div>';
+      var items = insightsEl.querySelectorAll('.income-insight-item');
+      for (var i = 0; i < items.length; i++) {
+        var cls = items[i].className;
+        var borderColor = '#00A7A0';
+        if (cls.indexOf('warning') !== -1) borderColor = '#e67e22';
+        else if (cls.indexOf('danger') !== -1) borderColor = '#c0392b';
+        else if (cls.indexOf('safe') !== -1) borderColor = '#27ae60';
+        clone.innerHTML += '<div style="border-left:3px solid ' + borderColor + ';padding:6px 10px;margin:4px 0;font-size:11px;background:#f9f9f9;border-radius:0 6px 6px 0;">' + items[i].textContent + '</div>';
       }
     }
-    doc.save('income-insights-report-' + dateStr + '.pdf');
+
+    // Charts section
+    clone.innerHTML += '<h2 style="font-size:14px;font-weight:700;color:#00A7A0;border-bottom:2px solid #00A7A0;padding-bottom:4px;margin:16px 0 8px;">Visual Insights</h2>';
+    clone.innerHTML += '<div style="font-size:11px;color:#888;margin-bottom:8px;">Biểu đồ phân tích thu nhập, chi phí và dòng tiền.</div>';
+    clone.innerHTML += '</div></div>';
+    document.body.appendChild(clone);
+
+    // Wait for fonts/layout then capture
+    setTimeout(function () {
+      captureElement(clone).then(function (fullCanvas) {
+        var imgData = fullCanvas.toDataURL('image/jpeg', 0.92);
+        var imgH = (fullCanvas.height / fullCanvas.width) * contentW;
+
+        // Add title page content
+        doc.setFontSize(7);
+        doc.setTextColor(130, 130, 130);
+        doc.setFont('helvetica', 'normal');
+        doc.text('Review Chân Thật — Income Insights | ' + dateStr + ' ' + timeStr, margin, pageH - 5);
+        doc.text('Trang 1', pageW - margin, pageH - 5, { align: 'right' });
+
+        // Draw the cloned content across pages
+        var yPos = margin;
+        var srcY = 0;
+        var availH = pageH - margin * 2 - 14;
+        var pageNum = 1;
+
+        while (srcY < fullCanvas.height) {
+          var sliceH = Math.min(fullCanvas.height - srcY, availH * (fullCanvas.width / contentW));
+          var sliceCanvas = document.createElement('canvas');
+          sliceCanvas.width = fullCanvas.width;
+          sliceCanvas.height = Math.ceil(sliceH * (fullCanvas.width / contentW));
+          var ctx = sliceCanvas.getContext('2d');
+          ctx.drawImage(fullCanvas, 0, srcY, fullCanvas.width, sliceCanvas.height, 0, 0, sliceCanvas.width, sliceCanvas.height);
+          var sliceData = sliceCanvas.toDataURL('image/jpeg', 0.9);
+          var sliceDisplayH = (sliceCanvas.height / sliceCanvas.width) * contentW;
+          if (sliceDisplayH > availH) sliceDisplayH = availH;
+
+          if (pageNum > 1) {
+            doc.addPage();
+            addFooter(pageNum);
+          }
+          doc.addImage(sliceData, 'JPEG', margin, margin, contentW, sliceDisplayH);
+
+          srcY += sliceCanvas.height;
+          pageNum++;
+        }
+
+        document.body.removeChild(clone);
+        doc.save('income-insights-report-' + dateStr + '.pdf');
+      });
+    }, 300);
+  }
+
+  function escHtml(str) {
+    var d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
   }
 
   function csvEscape(str) {
