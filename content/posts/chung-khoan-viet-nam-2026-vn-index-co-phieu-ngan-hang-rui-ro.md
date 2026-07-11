@@ -2,7 +2,7 @@
 title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
 date = "2026-07-10T06:30:00+07:00"
 date_display = "10-07-2026 06:30:00 GMT +7"
-commit = "c297d19"
+commit = "c862fd4"
 categories = ["tai-chinh"]
 tags = ["chứng khoán Việt Nam", "VN-Index", "cổ phiếu ngân hàng", "đầu tư", "rủi ro thị trường", "người mới chứng khoán"]
 author = "Minh Hoàng"
