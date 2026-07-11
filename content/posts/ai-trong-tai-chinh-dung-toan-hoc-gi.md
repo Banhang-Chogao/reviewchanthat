@@ -31,6 +31,15 @@ draft = false
 items = ["Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)", "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)", "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài", "NLP: phân tích tin tức, social media → sentiment score → alpha signal", "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)", "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward", "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"]
 draft = false
 image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
+[[internal_links]]
+ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
+title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
+[[internal_links]]
+ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
+title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
 +++
 
 **AI/Machine Learning** trong tài chính không phải huyền thoại — nó **thực tế & hiệu quả**.

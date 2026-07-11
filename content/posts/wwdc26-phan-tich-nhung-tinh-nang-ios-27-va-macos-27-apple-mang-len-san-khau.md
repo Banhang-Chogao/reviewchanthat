@@ -88,6 +88,9 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
+[[internal_links]]
+ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
+title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
 +++
 
 Bạn có nhớ cảm giác mỗi lần WWDC tới gần không? Cộng đồng Apple lại chia làm hai phe: một phe chỉ muốn biết có đáng lên iOS mới không, phe kia soi từng dòng code trong beta developer. **WWDC26** cũng không ngoại lệ — nhưng năm nay áp lực cao hơn nhiều.

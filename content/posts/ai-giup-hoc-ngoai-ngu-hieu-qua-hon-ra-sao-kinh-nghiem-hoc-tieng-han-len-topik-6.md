@@ -63,6 +63,9 @@ ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
 image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "mobile banking payment app"
+[[internal_links]]
+ref = "posts/khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026.md"
+title = "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10"
 +++
 
 Bài 8/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).

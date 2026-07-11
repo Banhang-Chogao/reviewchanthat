@@ -29,6 +29,18 @@ image_creator_url = "https://pixabay.com/photos/boat-river-motorboat-boat-trip-8
 image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "phần lan tiên phong bảo"
 image_alt = "Ảnh minh họa Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng — nguồn Pixabay"
+[[internal_links]]
+ref = "posts/phần-lan-giáo-dục-02.md"
+title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
+[[internal_links]]
+ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+[[internal_links]]
+ref = "posts/phần-lan-tech-04.md"
+title = "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
+[[internal_links]]
+ref = "posts/doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia.md"
+title = "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ"
 +++
 
 **Khi bạn đi bộ qua Helsinki, bạn sẽ nhận thấy không khí sạch, nước trong, và cảnh tượng xanh rì rà. Nhưng Phần Lan không phải là quốc gia nhỏ may mắn – đó là kết quả của những lựa chọn hành động cụ thể.**

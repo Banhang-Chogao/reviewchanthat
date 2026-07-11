@@ -27,6 +27,18 @@ image_creator = "Bru-nO"
 image_creator_url = "https://pixabay.com/photos/city-cityscape-waterfront-4478471/"
 image_attribution_checked_at = "2026-07-11T17:43:46+07:00"
 image_query = "stockholm thành phố nổi giữa"
+[[internal_links]]
+ref = "posts/ky-su-stockholm-thanh-pho-tren-nhung-hon-dao.md"
+title = "Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo"
+[[internal_links]]
+ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
+title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
+[[internal_links]]
+ref = "posts/thuy-dien-noi-khai-sinh-spotify-va-bluetooth.md"
+title = "Từ Spotify Đến Bluetooth: Thụy Điển Đã Thống Trị Thế Giới Công Nghệ Ngầm Như Thế Nào?"
+[[internal_links]]
+ref = "posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.md"
+title = "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?"
 +++
 
 ## Một Thành Phố Trên Nước Và Công Nghệ

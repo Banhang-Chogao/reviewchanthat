@@ -26,6 +26,15 @@ image_alt = "Ảnh minh họa Cách Làm Affiliate Shopee Trên Instagram 2026: 
 date_display = "11-07-2026 12:30:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "cách làm affiliate shopee trên"
+[[internal_links]]
+ref = "posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md"
+title = "WWDC26: phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu"
+[[internal_links]]
+ref = "posts/chuan-bi-macbook-truoc-khi-len-macos-27.md"
+title = "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app"
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
 +++
 
 **Từ tháng 7/2026, bạn có thể gắn trực tiếp link sản phẩm Shopee vào Instagram Story và Reels — người xem chạm một lần là mua, không cần qua "link in bio".** Đây là cú bắt tay lịch sử giữa Meta và Shopee dành riêng cho thị trường Việt Nam, mở ra cơ hội kiếm tiền chưa từng có cho người sáng tạo nội dung, sinh viên và các mẹ bỉm sữa.

@@ -27,6 +27,15 @@ image_creator = "Zachtleven"
 image_creator_url = "https://pixabay.com/photos/river-flowing-waterfall-nature-8279466/"
 image_attribution_checked_at = "2026-07-11T17:43:45+07:00"
 image_query = "sống bền vững scandinavia cách"
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+[[internal_links]]
+ref = "posts/loi-song-xanh-bac-au-thien-nhien-estonia.md"
+title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
+[[internal_links]]
+ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
+title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
 +++
 
 ## Tại Sao Scandinavia Lại Là Tiêu Chuẩn Vàng Của Phong Trào Bền Vững?

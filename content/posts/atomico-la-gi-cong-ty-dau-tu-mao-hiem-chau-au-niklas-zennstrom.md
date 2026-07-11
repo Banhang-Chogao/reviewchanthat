@@ -26,6 +26,18 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu — nguồn Pixabay"
+[[internal_links]]
+ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
+title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
+[[internal_links]]
+ref = "posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.md"
+title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
+[[internal_links]]
+ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
+title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
+[[internal_links]]
+ref = "posts/co-nen-di-tour-hang-dong-quang-binh-mua-mua.md"
+title = "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?"
 +++
 commit = ""
 image_source = "Pixabay"

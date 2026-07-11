@@ -35,6 +35,9 @@ items = ["MoMo dẫn đầu thị trường với 40 triệu người dùng, 70 
 image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026 — nguồn Pixabay"
+[[internal_links]]
+ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
+title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại"
 +++
 Thị trường ví điện tử Việt Nam năm 2026 có hơn 100 triệu người dùng đang hoạt động. **MoMo, ZaloPay và ShopeePay** chiếm phần lớn thị phần, nhưng mỗi ví phục vụ một nhu cầu khác nhau.
 - **MoMo (40% thị phần)**: Financial super app — thanh toán, vay, đầu tư, bảo hiểm trong một app.

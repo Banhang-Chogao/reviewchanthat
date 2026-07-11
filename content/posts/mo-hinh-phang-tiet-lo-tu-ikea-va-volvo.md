@@ -36,6 +36,15 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "mô hình phẳng thụy điển"
+[[internal_links]]
+ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
+title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
+[[internal_links]]
+ref = "posts/triet-ly-song-lagom-va-van-hoa-fika.md"
+title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển"
+[[internal_links]]
+ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
+title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
 +++
 
 Năm 1943, một cậu bé 17 tuổi người Thụy Điển tên Ingvar Kamprad dùng số tiền bố thưởng vì học tốt để lập một cửa hàng đặt hàng qua bưu điện. Cậu bán bút, ví da, khung tranh, đồng hồ, và tất nhiên — kính lúp. Sản phẩm đầu tiên đó là kính lúp với giá 1 krona. Không ai có thể tưởng tượng rằng từ kính lúp, Kamprad sẽ xây dựng nên IKEA — tập đoàn nội thất lớn nhất thế giới với doanh thu hơn 50 tỷ USD mỗi năm, trải dài 62 quốc gia. Bí mật nằm ở đâu? Không chỉ ở flat-pack (đồ nội thất đóng gói phẳng), mà còn ở flat hierarchy — mô hình quản lý phẳng, thứ đã biến một cửa hàng nhỏ thành cỗ máy tối giản nhưng cực kỳ hiệu quả.

@@ -30,6 +30,15 @@ image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
 
 [ai_summary]
 items = ["Số e là gì và tại sao nó xuất hiện trong tài chính khi số lần nhập lãi tăng dần", "Giới hạn toán học (1 + r/n)^(nt) → e^(rt) và ứng dụng vào công thức lãi kép liên tục", "Công thức A = Pe^(rt) để tính lãi kép liên tục và công thức chiết khấu PV = FV × e^(-rt)", "Ví dụ thực tế: 100 triệu VND, lãi 6%/năm, 10 năm qua 5 cách tính (đơn, kép hàng năm, tháng, ngày, liên tục)", "Bảng so sánh chênh lệch giữa các phương pháp tính lãi và khi nào chênh lệch có ý nghĩa", "Vì sao tài chính chuyên nghiệp (quỹ, bảo hiểm, ngân hàng đầu tư) lại dùng e nhưng gửi tiết kiệm thông thường thì không", "Ứng dụng thực tế của e trong định giá quyền chọn, quản trị rủi ro, actuarial science, và log-return"]
+[[internal_links]]
+ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
+title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
+[[internal_links]]
+ref = "posts/cfa-dung-toan-hoc-gi.md"
+title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
+[[internal_links]]
+ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
+title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
 +++
 
 Khi bạn gửi 100 triệu đồng vào ngân hàng với lãi suất 6%/năm, lãi bạn nhận phụ thuộc vào cách tính: lãi đơn, lãi kép hàng năm, hay lãi kép liên tục. Câu hỏi đặt ra: nếu nhập lãi càng nhiều lần thì kết quả cuối cùng sẽ như thế nào?

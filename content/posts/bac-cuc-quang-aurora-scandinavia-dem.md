@@ -27,6 +27,15 @@ image_creator_id = ""
 image_attribution_source = "pixabay_api"
 image_attribution_checked_at = "2026-07-11T17:43:41+07:00"
 image_query = "bắc cực quang hiện tượng"
+[[internal_links]]
+ref = "posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.md"
+title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"
+[[internal_links]]
+ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
+title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
+[[internal_links]]
+ref = "posts/fjord-na-uy-thac-nuoc-dong-tien.md"
+title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh"
 +++
 
 ## Bắc Cực Quang Là Gì?

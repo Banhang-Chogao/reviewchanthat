@@ -26,6 +26,15 @@ image_alt = "Ảnh minh họa Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% 
 date_display = "11-07-2026 14:44:57 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "lối sống xanh giữa lòng"
+[[internal_links]]
+ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
+title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+[[internal_links]]
+ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
+title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
 +++
 
 Người Estonia có một câu nói: "Igaühel on Eestis oma mets" — mỗi người Estonia đều có một khu rừng của riêng mình. Với 70% diện tích quốc gia được phủ xanh bởi rừng và đầm lầy, Estonia là một trong những quốc gia có tỷ lệ cây xanh cao nhất châu Âu, chỉ sau Phần Lan và Thụy Điển. Nhưng hơn cả những con số, thiên nhiên đã trở thành một phần máu thịt trong văn hóa và lối sống của người dân nơi đây — một triết lý sống xanh mà các đô thị phát triển nhanh như Việt Nam đang khao khát học hỏi.

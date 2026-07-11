@@ -26,6 +26,12 @@ image_alt = "Ảnh minh họa Trào Lưu Green Camping: Gợi Ý Các Địa Đi
 date_display = "11-07-2026 14:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "trào lưu green camping gợi"
+[[internal_links]]
+ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
+title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+[[internal_links]]
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+title = "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic"
 +++
 
 Năm 2026 chứng kiến sự bùng nổ của **green camping** — cắm trại xanh — một trào lưu du lịch kết hợp bảo vệ môi trường, nhặt rác và tuân thủ nghiêm ngặt nguyên tắc Leave No Trace (LNT). Không còn là những chuyến dã ngoại xả rác bừa bãi như trước, green camping đặt trải nghiệm chữa lành (healing) và trách nhiệm sinh thái lên hàng đầu. Nếu bạn đang tìm kiếm địa điểm cắm trại hoang sơ gần Sài Gòn để tái tạo năng lượng cuối tuần, bài viết này dành cho bạn.

@@ -26,6 +26,15 @@ image_alt = "Ảnh minh họa Kinh Nghiệm Du Lịch Tự Túc Một Mình (Sol
 date_display = "11-07-2026 14:10:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "mobile banking payment app"
+[[internal_links]]
+ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
+title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+[[internal_links]]
+ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
+title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+[[internal_links]]
+ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
+title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
 +++
 
 Du lịch một mình — solo travel — không còn là điều xa lạ với giới trẻ Việt Nam năm 2026. Nhưng đi một mình khác xa với đi cùng bạn bè: bạn tự lo mọi thứ, từ đặt phòng, lên lịch trình, quản lý tài chính đến giữ an toàn cho bản thân. Không có ai nhắc bạn "đem theo ô dù" hay "coi chừng kẻ gian" — mọi quyết định đều thuộc về bạn. Bài viết này là bộ cẩm nang kinh nghiệm du lịch một mình dành cho người mới bắt đầu, với lịch trình solo travel cho nữ chi tiết tại Hội An, Đà Lạt và Quy Nhơn — ba điểm đến du lịch tự túc an toàn tôi đã trực tiếp trải nghiệm.

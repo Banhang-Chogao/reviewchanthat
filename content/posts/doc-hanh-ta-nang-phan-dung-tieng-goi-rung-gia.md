@@ -26,6 +26,15 @@ date_display = "11-07-2026 10:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "độc hành tà năng phan"
 image_alt = "Ảnh minh họa Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ — nguồn Pixabay"
+[[internal_links]]
+ref = "posts/phần-lan-xanh-03.md"
+title = "Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng"
+[[internal_links]]
+ref = "posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.md"
+title = "Cách đọc một bài review để không bị dắt mũi"
+[[internal_links]]
+ref = "posts/phần-lan-hạnh-phúc-01.md"
+title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
 +++
 
 Tiếng lều vải phập phồng trong gió như một sinh vật đang thở. Tôi nằm trong túi ngủ, mắt mở to trong bóng tối. Bên ngoài, rừng già đang lên tiếng. Một tiếng động lạ, nửa như tiếng cành cây gãy, nửa như tiếng bước chân của một loài vật nào đó. Tim tôi đập thình thịch. Tôi một mình, trên đỉnh đồi hoang vu, giữa một khu rừng trải dài ba tỉnh thành. Và tôi tự hỏi: mình đã làm gì với cuộc đời mình vậy?

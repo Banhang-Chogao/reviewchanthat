@@ -27,6 +27,15 @@ image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-11T17:43:41+07:00"
 image_query = "so sánh ba thủ đô"
+[[internal_links]]
+ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
+title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
+[[internal_links]]
+ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
+title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+[[internal_links]]
+ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
+title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
 +++
 
 ## Tại Sao So Sánh Ba Thành Phố Này?

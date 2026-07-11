@@ -27,6 +27,15 @@ image_creator_id = ""
 image_attribution_source = "pixabay_api"
 image_attribution_checked_at = "2026-07-11T17:43:42+07:00"
 image_query = "hệ thống giáo dục phần"
+[[internal_links]]
+ref = "posts/phần-lan-giáo-dục-02.md"
+title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+[[internal_links]]
+ref = "posts/phần-lan-sauna-05.md"
+title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
 +++
 
 ## Một Hệ Thống Giáo Dục Không Giống Bất Cứ Cái Gì Ở Đâu Khác

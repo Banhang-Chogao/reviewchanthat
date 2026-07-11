@@ -31,6 +31,15 @@ draft = false
 [ai_summary]
 items = ["Actuarial science là ngành học xác suất + thống kê + tài chính để quản lý rủi ro dài hạn", "Xác suất sống còn: S(t) = e^(-λt), nơi λ là tỷ lệ nguy hiểm hàng năm", "Phí bảo hiểm = Expected loss (khoản tiền trung bình sẽ trả) + overhead + lợi nhuận", "Present value của quyền lợi bảo hiểm: PV = Benefit × e^(-rt) × P(survive)", "Dự phòng kỹ thuật: tiền công ty giữ lại để trả bảo hiểm trong tương lai", "Monte Carlo: mô phỏng hàng triệu kịch bản để ước lượng rủi ro tối đa", "Ví dụ: Tính phí bảo hiểm nhân thọ 20 năm cho người 35 tuổi"]
 draft = false
+[[internal_links]]
+ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
+title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
+[[internal_links]]
+ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
+title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
+[[internal_links]]
+ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
+title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
 +++
 
 Khi bạn mua bảo hiểm nhân thọ, công ty bảo hiểm không chỉ "đoán" phí. Họ dùng **toán học cao cấp** để:

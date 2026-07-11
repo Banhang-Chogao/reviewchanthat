@@ -26,6 +26,18 @@ image_alt = "Ảnh minh họa Hướng Dẫn Thủ Tục Xin Visa Thương Mại
 date_display = "11-07-2026 05:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "hướng dẫn thủ tục xin"
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+[[internal_links]]
+ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
+title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
+[[internal_links]]
+ref = "posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.md"
+title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
+[[internal_links]]
+ref = "posts/huong-dan-mien-visa-uzbekistan-5-ngay.md"
+title = "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á"
 +++
 
 ## Tổng Quan Về Visa Thương Mại DN1 Và DN2

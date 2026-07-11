@@ -26,6 +26,15 @@ commit = "9008aff"
 date_display = "11-07-2026 14:44:58 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "autumn fallen leaves brown orange"
+[[internal_links]]
+ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
+title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+[[internal_links]]
+ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
+title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
+[[internal_links]]
+ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
+title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
 +++
 
 Băng giá từng là kẻ thù của con người trong suốt chiều dài lịch sử. Nhưng ở Jukkasjärvi, một ngôi làng nhỏ nằm sâu trong vùng Lapland của Thụy Điển, con người đã biến băng thành một tác phẩm nghệ thuật sống động. Icehotel không đơn thuần là một chỗ ngủ qua đêm — nó là một tuyên ngôn về sự sáng tạo, một không gian nơi kiến trúc và tự nhiên hòa quyện vào nhau.

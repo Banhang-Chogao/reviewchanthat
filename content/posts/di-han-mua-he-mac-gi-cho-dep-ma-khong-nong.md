@@ -93,6 +93,9 @@ label = "Phụ kiện"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý"
+[[internal_links]]
+ref = "posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.md"
+title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
 +++
 
 Hàn Quốc mùa hè nóng ẩm — nhưng không phải vì thế mà phải mặc xấu. Chỉ cần chọn đúng chất liệu và phối đồ thông minh, bạn vẫn có outfit đẹp và mát mẻ.

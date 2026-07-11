@@ -26,6 +26,9 @@ image_status = "verified"
 date_display = "11-07-2026 13:45:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "niklas zennström tiểu sử nhà"
+[[internal_links]]
+ref = "posts/estonia-quoc-gia-so-hoa-khai-sinh-skype.md"
+title = "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
 +++
 
 ## Giới Thiệu Tổng Quan

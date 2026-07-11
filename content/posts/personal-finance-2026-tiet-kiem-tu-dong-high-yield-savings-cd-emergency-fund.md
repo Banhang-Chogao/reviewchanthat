@@ -35,6 +35,15 @@ items = ["High-yield savings account là tài khoản tiết kiệm lãi suất 
 image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì? — nguồn Pixabay"
+[[internal_links]]
+ref = "posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.md"
+title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
+[[internal_links]]
+ref = "posts/ios-27-cai-thien-pin-iphone.md"
+title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+[[internal_links]]
+ref = "posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md"
+title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
 +++
 Bạn có bao giờ tự hỏi: **"Mình kiếm tiền cũng khá, nhưng sao cuối tháng lại không còn đồng nào?"**
 Câu chuyện này rất phổ biến, và nó không phải vì bạn tiêu hoang. Nó đơn giản là vì bạn **chưa có một hệ thống tài chính cá nhân** — một bộ khung giúp tiền của bạn được phân bổ, bảo vệ, và sinh lời tự động.

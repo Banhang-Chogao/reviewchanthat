@@ -24,6 +24,15 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "du lịch na uy tự"
 image_alt = "Ảnh minh họa Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord — nguồn Pixabay"
+[[internal_links]]
+ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
+title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+[[internal_links]]
+ref = "posts/di-thai-lan-thang-7-co-nen-khong.md"
+title = "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý"
+[[internal_links]]
+ref = "posts/ky-su-stockholm-thanh-pho-tren-nhung-hon-dao.md"
+title = "Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo"
 +++
 
 ## Tại sao chọn du lịch Na Uy độc lập?

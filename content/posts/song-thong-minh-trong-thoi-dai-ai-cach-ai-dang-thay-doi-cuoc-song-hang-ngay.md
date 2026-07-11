@@ -75,6 +75,12 @@ ref = "posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md"
 title = "MoMo, ZaloPay hay ShopeePay: ví nào phù hợp?"
 image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "seoul korea cityscape"
+[[internal_links]]
+ref = "posts/cong-nghe-ai-camera-uav-nong-nghiep-2026.md"
+title = "Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV"
+[[internal_links]]
+ref = "posts/mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio.md"
+title = "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ"
 +++
 
 “Sống thông minh” từng gắn với thói quen ngủ đủ, ghi chép sổ tay hay cắt subscription thừa. Năm 2026, thêm một lớp công cụ: **trí tuệ nhân tạo (AI)** xuất hiện trên điện thoại, app ngân hàng, trình soạn thảo và cả trợ lý học ngoại ngữ. Câu hỏi không còn là “AI có tồn tại không?” mà là **làm sao dùng AI để cuộc sống nhẹ hơn — mà không để AI sống thay mình**.

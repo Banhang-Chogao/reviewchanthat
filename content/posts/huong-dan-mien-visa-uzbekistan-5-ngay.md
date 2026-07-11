@@ -26,6 +26,15 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á — nguồn Pexels"
+[[internal_links]]
+ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
+title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
+[[internal_links]]
+ref = "posts/ky-su-tallinn-dem-trang-thi-tran-co.md"
+title = "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu"
 +++
 Tuần trước, tôi vừa kết thúc một chuyến xuyên Trung Á kéo dài gần 2 tuần — băng qua Kazakhstan, Kyrgyzstan và Uzbekistan. Điều làm tôi ấn tượng nhất không phải những thảo nguyên mênh mông hay thành cổ nghìn năm tuổi, mà là một tin vui mà rất nhiều người Việt chưa biết: **hộ chiếu Việt Nam được miễn visa Uzbekistan tối đa 5 ngày**, không cần xin trước, không e-visa, không thủ tục rườm rà.
 

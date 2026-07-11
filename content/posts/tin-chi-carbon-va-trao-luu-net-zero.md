@@ -35,6 +35,15 @@ image_creator_id = ""
 image_attribution_checked_at = "2026-07-11T18:26:12+07:00"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank — nguồn Pixabay"
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+[[internal_links]]
+ref = "posts/trao-luu-green-camping-cam-trai-hoang-so.md"
+title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
 +++
 
 Vài năm gần đây, hai cụm từ "tín chỉ carbon" và "Net Zero" xuất hiện dày đặc từ nghị trường COP, báo cáo thường niên của doanh nghiệp cho tới… mặt sau một chiếc thẻ ngân hàng. Nhưng đằng sau lớp vỏ marketing bóng bẩy, có bao nhiêu người thật sự hiểu một tín chỉ carbon là gì, nó được định giá ra sao, và liệu những sản phẩm "xanh" như thẻ Eco của Techcombank có thực sự cứu được khí hậu hay chỉ là một nước cờ truyền thông? Bài viết này mổ xẻ vấn đề dưới góc nhìn tài chính lạnh lùng, đúng tinh thần Review Chân Thật: khen chỗ đáng khen, và chỉ thẳng chỗ cần dè chừng.

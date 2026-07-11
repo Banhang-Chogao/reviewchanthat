@@ -36,6 +36,15 @@ image_alt = "Ảnh minh họa AI stocks là gì? Cổ phiếu AI, chip và tác 
 image_license_url = ""
 image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
 image_query = "ai stocks gì cổ phiếu"
+[[internal_links]]
+ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
+title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
+[[internal_links]]
+ref = "posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md"
+title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
+[[internal_links]]
+ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
+title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
 +++
 Năm 2024–2026, một từ khóa lặp lại ở mọi nơi: **AI.** Và theo AI, có từ **chip.** Nếu bạn là nhà đầu tư, bạn chắc chắn nghe nói về cổ phiếu công nghệ, NVIDIA, TSMC, và nhu cầu chip "vô tận."
 

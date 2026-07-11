@@ -26,6 +26,15 @@ image_alt = "Ảnh minh họa Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm T
 date_display = "11-07-2026 12:25:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "cơn sốt mè đen froyo"
+[[internal_links]]
+ref = "posts/starbucks-nguyen-van-troi-sai-gon-review.md"
+title = "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon"
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+[[internal_links]]
+ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
+title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
 +++
 
 Tháng 7/2026, hai cái tên thống trị mọi mặt trận ẩm thực từ TikTok đến các quán dessert cao cấp: **mè đen (black sesame) — vị bùi béo ngai ngái đặc trưng của ẩm thực Á Đông, và frozen yogurt (froyo) — vị chua ngọt mát lạnh không tội lỗi.** Cả hai đang chiếm trọn spotlight trên Instagram Reels và TikTok Food, từ những ly kem mè đen đen tuyền sánh mịn cho đến những ly froyo xoáy tròn đầy màu sắc.
