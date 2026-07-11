@@ -1,0 +1,57 @@
+{
+  "slug": "cong-thuc-do-uong-giai-nhiet-home-cafe",
+  "title": "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026",
+  "category": "Ẩm Thực",
+  "tags": ["home cafe", "tra trai cay", "hugo spritz", "do uong mua he"],
+  "publishedAt": "2026-07-11T11:00:00+07:00",
+  "images": [
+    {
+      "path": "/images/home-cafe/ingredients-fruit-tea.jpg",
+      "caption": "Nguyên liệu làm trà trái cây giã tay: dâu, táo, chanh, trà lài",
+      "section": "tra-trai-cay",
+      "type": "ingredients"
+    },
+    {
+      "path": "/images/home-cafe/mashing-fruits.jpg",
+      "caption": "Giã trái cây trong ly",
+      "section": "tra-trai-cay",
+      "type": "step"
+    },
+    {
+      "path": "/images/home-cafe/finished-fruit-tea.jpg",
+      "caption": "Ly trà trái cây giã tay hoàn chỉnh",
+      "section": "tra-trai-cay",
+      "type": "finished"
+    },
+    {
+      "path": "/images/home-cafe/fresh-soursop.jpg",
+      "caption": "Mãng cầu xiêm tươi",
+      "section": "tra-mang-cau-xiem",
+      "type": "ingredients"
+    },
+    {
+      "path": "/images/home-cafe/soursop-sugar-marinade.jpg",
+      "caption": "Mãng cầu ướp đường",
+      "section": "tra-mang-cau-xiem",
+      "type": "step"
+    },
+    {
+      "path": "/images/home-cafe/hugo-spritz-ingredients.jpg",
+      "caption": "Nguyên liệu Hugo Spritz",
+      "section": "hugo-spritz",
+      "type": "ingredients"
+    },
+    {
+      "path": "/images/home-cafe/pouring-prosecco.jpg",
+      "caption": "Rót Prosecco vào ly",
+      "section": "hugo-spritz",
+      "type": "step"
+    },
+    {
+      "path": "/images/home-cafe/home-cafe-garnish-tips.jpg",
+      "caption": "Ly đồ uống được trang trí hoàn chỉnh",
+      "section": "tips",
+      "type": "decor"
+    }
+  ]
+}
