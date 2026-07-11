@@ -52,6 +52,31 @@ def match_pattern(log: str, haystack: str, pattern: dict) -> int:
     return score
 
 
+def check_missing_commit_ids() -> dict | None:
+    """Detect missing commit IDs in posts (file-based check, not log-based)."""
+    posts_dir = REPO_ROOT / "content" / "posts"
+    if not posts_dir.exists():
+        return None
+
+    missing = []
+    for md_file in posts_dir.glob("*.md"):
+        try:
+            content = md_file.read_text(encoding="utf-8", errors="replace")
+            # Check if commit field is empty or missing
+            if 'commit = ""' in content or "commit = ''" in content:
+                missing.append(md_file.name)
+        except Exception:
+            pass
+
+    if missing:
+        return {
+            "count": len(missing),
+            "files": missing[:10],  # Report first 10
+            "pattern_id": "missing_commit_ids",
+        }
+    return None
+
+
 def classify(run: dict, patterns: list[dict]) -> dict:
     log = read_log(run)
     hay = " ".join(
@@ -174,7 +199,30 @@ def main() -> int:
     patterns = knowledge.get("patterns") or []
     runs = runs_payload.get("runs") or []
 
-    diagnoses = [classify(r, patterns) for r in runs]
+    # File-based check: missing commit IDs (before log-based diagnosis)
+    commit_id_check = check_missing_commit_ids()
+    diagnoses = []
+    if commit_id_check:
+        # Create synthetic diagnosis for missing commit IDs
+        pat = next((p for p in patterns if p["id"] == "missing_commit_ids"), None)
+        if pat:
+            diagnoses.append({
+                "run_id": "fs-check",
+                "workflow": "post-validation",
+                "failure_type": "missing_commit_ids",
+                "confidence": "high",
+                "safe_to_autofix": pat.get("safe_to_autofix", True),
+                "summary": pat.get("summary", "Missing commit IDs detected"),
+                "action_items": pat.get("action_items", []),
+                "recommended_fix_script": pat.get("recommended_fix_script"),
+                "should_retry_deploy": pat.get("should_retry_deploy", True),
+                "should_pause_workflows": pat.get("should_pause_workflows", False),
+                "commit": "",
+                "detail": f"{commit_id_check['count']} posts missing commit ID: {', '.join(commit_id_check['files'][:3])}",
+            })
+
+    # Log-based diagnosis from GitHub Actions runs
+    diagnoses.extend([classify(r, patterns) for r in runs])
     # Prefer unique failure types for autofix order: high confidence safe first
     diagnoses.sort(
         key=lambda d: (
