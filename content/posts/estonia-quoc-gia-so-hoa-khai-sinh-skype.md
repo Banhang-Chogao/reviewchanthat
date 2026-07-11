@@ -1,12 +1,28 @@
 +++
 title = "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
-date = 2026-07-11T13:00:00+07:00
+date = "2026-07-11 13:00:00+07:00"
 draft = false
 description = "Khám phá hiện tượng e-Estonia - quốc gia số hóa tiên phong nơi 99% dịch vụ công được số hóa. Câu chuyện từ nước Xô Viết cũ vươn lên thành cái nôi kỳ lân công nghệ Skype, Bolt, Wise. Phân tích hệ thống chữ ký số ID-card và blockchain X-Road."
-image = ""
-thumbnail = ""
+image = "images/posts/estonia-quoc-gia-so-hoa-khai-sinh-skype.webp"
+thumbnail = "images/posts/estonia-quoc-gia-so-hoa-khai-sinh-skype.webp"
 categories = ["Công Nghệ", "Xu Hướng"]
 tags = ["estonia", "e-government", "skype", "startup"]
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/online-shopping-with-payment-app-bancontact-29502357/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Julio Lopez"
+image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:37:24+07:00"
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt? — nguồn Pexels"
 +++
 
 ![[IMAGE_API_QUERY: Tallinn Estonia modern city with medieval old town and technology hub]][Tallinn - thủ đô Estonia nơi trung cổ và công nghệ hiện đại giao thoa]
