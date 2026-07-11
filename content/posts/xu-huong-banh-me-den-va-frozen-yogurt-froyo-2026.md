@@ -1,5 +1,6 @@
 +++
 title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử"
+commit = "cefc5c1"
 date = 2026-07-11T12:25:00+07:00
 draft = false
 tags = ["kem me den", "banh tart me den", "frozen yogurt", "froyo ngon"]
