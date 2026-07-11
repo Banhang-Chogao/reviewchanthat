@@ -5,6 +5,21 @@ draft = false
 tags = ["du lich he", "trekking", "camping", "local tour"]
 categories = ["Du Lịch", "Trải Nghiệm"]
 description = "Bỏ qua các tour đại trà, khám phá xu hướng du lịch may đo, trekking và cắm trại giải nhiệt mùa hè 2026 với lịch trình chi tiết, chi phí và lưu ý an toàn mùa mưa bão."
+image = "images/posts/du-lich-may-do-trai-nghiem-ban-dia.webp"
+thumbnail = "images/posts/du-lich-may-do-trai-nghiem-ban-dia.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/vietnamese-women-in-traditional-ao-dai-at-historic-temple-30466704/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Thien Le Duy"
+image_creator_url = "https://www.pexels.com/@thienleduyphoto"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
 +++
 
 Giữa lòng Sài Gòn nắng cháy da người 37 độ C, hàng ngàn bạn trẻ đang lặng lẽ đóng laptop, vác ba lô lên và… biến mất khỏi thành phố vào mỗi cuối tuần. Họ không mua tour 3 ngày 2 đêm giá rẻ, không lên xe giường nằm đi Đà Lạt theo kiểu "ăn uống — chụp ảnh — về". Thay vào đó, họ tìm đến những chuyến đi tự may đo: trekking xuyên rừng, cắm trại bên hồ vắng, hoặc ở homestay giữa bản làng người dân tộc thiểu số. Đây không đơn thuần là trào lưu. Đây là cách nghỉ dưỡng đang được định nghĩa lại.

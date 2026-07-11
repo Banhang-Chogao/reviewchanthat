@@ -5,6 +5,21 @@ draft = false
 tags = ["visa uzbekistan", "du lich trung a", "kinh nghiem du lich", "mien visa"]
 categories = ["Visa & Thủ Tục", "Ký Sự Đường Đi"]
 description = "Hướng dẫn chi tiết thủ tục miễn visa Uzbekistan tối đa 5 ngày cho hộ chiếu Việt Nam và gợi ý lịch trình liên tuyến Kazakhstan - Kyrgyzstan - Uzbekistan thực tế."
+image = "images/posts/huong-dan-mien-visa-uzbekistan-5-ngay.webp"
+thumbnail = "images/posts/huong-dan-mien-visa-uzbekistan-5-ngay.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/buildings-in-city-at-sunset-11687718/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Ethan Brooke"
+image_creator_url = "https://www.pexels.com/@ethan-brooke-1123775"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
 +++
 
 Tuần trước, tôi vừa kết thúc một chuyến xuyên Trung Á kéo dài gần 2 tuần — băng qua Kazakhstan, Kyrgyzstan và Uzbekistan. Điều làm tôi ấn tượng nhất không phải những thảo nguyên mênh mông hay thành cổ nghìn năm tuổi, mà là một tin vui mà rất nhiều người Việt chưa biết: **hộ chiếu Việt Nam được miễn visa Uzbekistan tối đa 5 ngày**, không cần xin trước, không e-visa, không thủ tục rườm rà.

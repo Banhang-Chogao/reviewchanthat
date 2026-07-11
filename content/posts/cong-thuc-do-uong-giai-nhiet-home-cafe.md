@@ -5,6 +5,21 @@ draft = false
 tags = ["home cafe", "tra trai cay", "hugo spritz", "do uong mua he"]
 categories = ["Ẩm Thực", "Lifestyle"]
 description = "Bùng nổ xu hướng home-cafe hè 2026. Hướng dẫn cách làm trà trái cây giã tay, trà mãng cầu xiêm và công thức pha Hugo Spritz chuẩn vị tại nhà."
+image = "images/posts/cong-thuc-do-uong-giai-nhiet-home-cafe.webp"
+thumbnail = "images/posts/cong-thuc-do-uong-giai-nhiet-home-cafe.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/elegant-beverage-tray-with-flowers-and-cups-32610285/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "🇻🇳🇻🇳Nguyễn Tiến Thịnh 🇻🇳🇻🇳"
+image_creator_url = "https://www.pexels.com/@nguy-n-ti-n-th-nh-2150376175"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
 +++
 
 Báo cáo Google Summergeist 2026 cho thấy lượng tìm kiếm "đồ uống giải nhiệt tại nhà" và "cách làm trà sữa healthy" đã tăng hơn 200% so với cùng kỳ năm ngoái. Xu hướng này không chỉ nằm ở chuyện tiết kiệm — nó nằm ở trải nghiệm. Tự tay làm một ly nước thơm mát, chụp vài tấm ảnh check-in "home-cafe" rồi thả lỏng cuối tuần — đó là thứ hẹn hò hè mới của giới trẻ.
