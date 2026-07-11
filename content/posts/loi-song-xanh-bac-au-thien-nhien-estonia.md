@@ -126,7 +126,7 @@ Với người Việt Nam, trải nghiệm thiên nhiên Estonia có thể là m
 - **Di chuyển**: Estonia có hệ thống xe buýt công cộng kết nối tốt. Thuê xe hơi là lựa chọn tốt để khám phá vùng nông thôn.
 - **Lưu trú**: Ở homestay hoặc trang trại địa phương để có trải nghiệm chân thực nhất.
 
-Nếu bạn muốn khám phá thêm các điểm đến thiên nhiên khác, hãy xem [những vườn quốc gia đẹp nhất châu Âu](/posts/placeholder-vuon-quoc-gia-chau-au/) và [kinh nghiệm du lịch sinh thái](/posts/placeholder-du-lich-sinh-thai/).
+Nếu bạn muốn khám phá thêm các điểm đến thiên nhiên khác, hãy xem những vườn quốc gia đẹp nhất châu Âu và kinh nghiệm du lịch sinh thái.
 
 ## Vườn Quốc Gia Soomaa — Mùa Lụt Thứ Năm
 

@@ -60,14 +60,14 @@ Và rồi, sau rừng thông và những con đường đất đỏ, tôi đến
 Những ngọn đồi trải dài tới tận chân trời, phủ đầy cỏ xanh mướt. Cỏ mùa mưa tháng Bảy cao đến đầu gối, mượt mà và xanh ngắt. Gió thổi qua làm cả cánh đồng cỏ nhấp nhô như sóng biển, tạo ra một âm thanh xào xạc nhẹ nhàng, như một bản nhạc không lời của thiên nhiên.
 
 Tôi đứng trên đỉnh đồi, nhìn ra xa. Bầu trời trong xanh, không một gợn mây. Xa xa, những dãy núi trùng điệp nhấp nhô, lớp lớp chồng lên nhau. Tôi cảm thấy mình thật nhỏ bé trước khung cảnh hùng vĩ này, nhưng đồng thời cũng cảm thấy mình thật may mắn khi được đứng ở đây, ngay lúc này.
-Đối với những ai yêu thích vẻ đẹp hoang sơ và muốn thử sức với những cung đường dài, [hành trình xuyên rừng Quảng Nam](/posts/placeholder-xuyen-rung-quang-nam/) là một gợi ý tuyệt vời cho kỳ nghỉ tiếp theo.
+Đối với những ai yêu thích vẻ đẹp hoang sơ và muốn thử sức với những cung đường dài, hành trình xuyên rừng Quảng Nam là một gợi ý tuyệt vời cho kỳ nghỉ tiếp theo.
 
 ### Tiếng Gió Trên Đỉnh Đồi
 
 Tôi dựng lều trên một đỉnh đồi cao, nơi có thể nhìn thấy toàn bộ thung lũng bên dưới. Lều của tôi nằm trên một khoảng đất bằng phẳng, xung quanh là cỏ xanh và những bụi cây thấp. Tôi ngồi trước lều, nhìn mặt trời từ từ lặn sau những dãy núi xa. Bầu trời chuyển dần từ xanh sang vàng cam, rồi từ vàng cam sang đỏ tía, cuối cùng là một màu tím huyền ảo.
 
 Gió trên đỉnh đồi mạnh hơn tôi tưởng, thổi liên hồi không ngừng nghỉ. Lều của tôi rung bần bật, nhưng nhờ đã được cố định chắc chắn, nó vẫn đứng vững. Tôi nằm trong lều, nghe tiếng gió gào thét, tiếng vải lều phập phồng và tiếng cỏ lao xao. Đây là lần đầu tiên tôi ngủ một mình giữa thiên nhiên, và cảm giác đó thật sự khó tả. Một sự cô đơn tràn đầy, nhưng kỳ lạ thay, lại không hề buồn bã. Có lẽ đó là sự cô đơn thanh thản, khi ta học cách ở một mình và tận hưởng nó.
-Đối với những ai muốn tìm hiểu thêm về các cung trekking nổi tiếng, [bài viết về những cung đường trekking đẹp nhất Việt Nam](/posts/placeholder-nhung-cung-trekking-dep-nhat/) sẽ cung cấp thêm nhiều lựa chọn thú vị.
+Đối với những ai muốn tìm hiểu thêm về các cung trekking nổi tiếng, bài viết về những cung đường trekking đẹp nhất Việt Nam sẽ cung cấp thêm nhiều lựa chọn thú vị.
 
 ### Đêm Đầu Tiên Trong Rừng
 

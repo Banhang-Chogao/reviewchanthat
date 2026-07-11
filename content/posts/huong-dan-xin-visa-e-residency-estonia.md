@@ -163,7 +163,7 @@ Thẻ e-Residency của bạn đi kèm với một phong bì chứa mã PIN (PIN
 4. Đổi mã PIN và kích hoạt tài khoản.
 5. Bắt đầu sử dụng các dịch vụ của e-Residency.
 
-Nếu bạn quan tâm đến các loại visa và thủ tục hành chính khác cho doanh nhân, [hướng dẫn thủ tục visa châu Âu](/posts/placeholder-visa-chau-au/) là một tài liệu tham khảo hữu ích.
+Nếu bạn quan tâm đến các loại visa và thủ tục hành chính khác cho doanh nhân, hướng dẫn thủ tục visa châu Âu là một tài liệu tham khảo hữu ích.
 
 ### Chi Phí Chi Tiết
 
@@ -266,7 +266,7 @@ Kinh doanh qua công ty Estonia từ Việt Nam đặt ra một số vấn đề
 
 4. **Báo cáo tài chính:** Công ty Estonia phải nộp báo cáo tài chính hàng năm cho Cơ quan đăng ký kinh doanh Estonia. Báo cáo này phải được lập theo chuẩn mực kế toán Estonia (Estonian GAAP) hoặc IFRS.
 
-Để tìm hiểu thêm về các thủ tục pháp lý và visa liên quan đến kinh doanh quốc tế, bạn có thể tham khảo [hướng dẫn thành lập doanh nghiệp nước ngoài](/posts/placeholder-thanh-lap-doanh-nghiep-nuoc-ngoai/) và [cẩm nang visa khởi nghiệp](/posts/placeholder-visa-khoi-nghiep/).
+Để tìm hiểu thêm về các thủ tục pháp lý và visa liên quan đến kinh doanh quốc tế, bạn có thể tham khảo hướng dẫn thành lập doanh nghiệp nước ngoài và cẩm nang visa khởi nghiệp.
 
 ## Kết Luận
 

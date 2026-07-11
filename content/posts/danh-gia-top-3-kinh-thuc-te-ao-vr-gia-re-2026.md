@@ -222,9 +222,9 @@ Nếu bạn không có máy lạnh trong phòng, VR vào mùa hè là thử thá
 
 **Nếu bạn muốn chơi game VR đỉnh cao trong tầm giá:** Meta Quest 3S là lựa chọn không có đối thủ. Hệ sinh thái game đồ sộ, hiệu năng đồ họa mạnh, hỗ trợ PCVR và theo dõi 6DOF chính xác. Hãy mua thêm dây đeo Elite Strap để tăng thời lượng pin và giảm áp lực lên mặt.
 
-**Nếu bạn chủ yếu xem phim và muốn giá hợp lý:** Pico 4 Ultra Lite với thấu kính Pancake cho chất lượng hình ảnh xem phim tốt nhất trong tầm giá. Nhẹ hơn, pin lâu hơn và giá chỉ bằng 60% Quest 3S. [So sánh thêm giữa các dòng kính VR](/posts/placeholder-so-sanh-kinh-vr-2026/).
+**Nếu bạn chủ yếu xem phim và muốn giá hợp lý:** Pico 4 Ultra Lite với thấu kính Pancake cho chất lượng hình ảnh xem phim tốt nhất trong tầm giá. Nhẹ hơn, pin lâu hơn và giá chỉ bằng 60% Quest 3S. So sánh thêm giữa các dòng kính VR.
 
-**Nếu bạn có PC mạnh và ngân sách eo hẹp:** DPVR E4C là lựa chọn "liều" nhưng hiệu quả. Với 2.5 triệu, bạn có trải nghiệm SteamVR chấp nhận được — miễn là bạn chấp nhận giới hạn 3DOF. Xem thêm [hướng dẫn chọn cấu hình PC cho VR](/posts/placeholder-cau-hinh-pc-cho-vr/).
+**Nếu bạn có PC mạnh và ngân sách eo hẹp:** DPVR E4C là lựa chọn "liều" nhưng hiệu quả. Với 2.5 triệu, bạn có trải nghiệm SteamVR chấp nhận được — miễn là bạn chấp nhận giới hạn 3DOF. Xem thêm hướng dẫn chọn cấu hình PC cho VR.
 
 ---
 

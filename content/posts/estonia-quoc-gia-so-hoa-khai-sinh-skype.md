@@ -87,7 +87,7 @@ Hệ thống bảo mật nhiều lớp của Estonia bao gồm:
 - Lớp 4: Dự phòng dữ liệu trên các máy chủ đặt tại nhiều quốc gia (Embassy Data Embassy).
 
 Khái niệm "Đại sứ quán dữ liệu" (Data Embassy) là một sáng kiến độc đáo của Estonia: họ lưu trữ bản sao dữ liệu quốc gia tại các máy chủ đặt trong lãnh thổ của các quốc gia đối tác (hiện tại là Luxembourg và Thụy Sĩ). Ngay cả khi lãnh thổ Estonia bị xâm lược, dữ liệu quốc gia vẫn an toàn và có thể được khôi phục từ xa.
-Để hiểu thêm về cách các chính phủ khác ứng dụng công nghệ số, bạn có thể tham khảo [xu hướng chuyển đổi số toàn cầu](/posts/placeholder-xu-huong-chuyen-doi-so-toan-cau/).
+Để hiểu thêm về cách các chính phủ khác ứng dụng công nghệ số, bạn có thể tham khảo xu hướng chuyển đổi số toàn cầu.
 
 ## Estonia Và Những Chỉ Số Ấn Tượng Năm 2026
 
@@ -119,7 +119,7 @@ Tổ chức Hợp tác và Phát triển Kinh tế (OECD) đã công nhận Esto
 Dù thành công vang dội, Estonia vẫn phải đối mặt với những thách thức không nhỏ. Dân số chỉ 1,3 triệu người khiến thị trường nội địa quá nhỏ để các startup có thể phát triển mà không mở rộng ra nước ngoài. Cuộc khủng hoảng an ninh mạng Nga-Ukraina từ năm 2022 đến nay đã đặt Estonia vào tình thế nguy hiểm do vị trí địa lý gần Nga. Estonia cũng đang phải vật lộn với tình trạng thiếu hụt lao động công nghệ cao khi nhiều tài năng trẻ bị thu hút bởi mức lương cao hơn ở Đức, Hà Lan và Thụy Điển.
 
 Tuy nhiên, với quỹ đầu tư mạo hiểm của chính phủ (Estonian Startup Visa Program) và các chương trình thu hút nhân tài quốc tế, Estonia đang nỗ lực biến những thách thức thành cơ hội. Năm 2026, họ ra mắt sáng kiến "Digital Nomad Visa" mới, cho phép người làm việc từ xa trên toàn cầu đến Estonia sinh sống và làm việc trong thời gian tối đa 12 tháng.
-Nếu bạn quan tâm đến các mô hình chuyển đổi số ở các quốc gia khác, [cẩm nang số hóa doanh nghiệp](/posts/placeholder-so-hoa-doanh-nghiep/) sẽ cung cấp thêm thông tin hữu ích.
+Nếu bạn quan tâm đến các mô hình chuyển đổi số ở các quốc gia khác, cẩm nang số hóa doanh nghiệp sẽ cung cấp thêm thông tin hữu ích.
 
 ## Cuộc Sống Hàng Ngày Của Người Estonia Trong Thế Giới Số
 

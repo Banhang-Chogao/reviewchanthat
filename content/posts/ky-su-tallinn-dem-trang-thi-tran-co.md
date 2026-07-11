@@ -59,7 +59,7 @@ Rời khỏi những điểm du lịch chính, tôi lang thang vào những con 
 
 Một địa điểm khác tôi tình cờ khám phá là khu phố Master's Courtyard (Hoov), một khoảng sân nhỏ ẩn mình sau những cánh cửa gỗ nặng nề. Bên trong là một quán cà phê nhỏ với những chiếc bàn gỗ và những chiếc đèn lồng treo trên tường. Tôi gọi một tách cà phê đen và một lát bánh hạnh nhân — món tráng miệng truyền thống của Estonia — và ngồi đó hàng giờ, nhìn mọi người qua lại và cảm nhận nhịp sống chậm rãi của phố cổ.
 
-Để khám phá thêm những thành phố cổ kính khác ở châu Âu, bạn có thể tham khảo [hành trình khám phá châu Âu](/posts/placeholder-kham-pha-chau-au/) và [kinh nghiệm du lịch Bắc Âu](/posts/placeholder-kinh-nghiem-bac-au/).
+Để khám phá thêm những thành phố cổ kính khác ở châu Âu, bạn có thể tham khảo hành trình khám phá châu Âu và kinh nghiệm du lịch Bắc Âu.
 
 ## Chặng 3: Telliskivi — Khi Công Nghệ Gặp Nghệ Thuật
 
@@ -154,7 +154,7 @@ Tôi ngồi ở quầy bar, nói chuyện với người pha chế. Anh ta kể 
 
 Tôi rời Tallinn trên một chuyến bay chiều, khi mặt trời vẫn còn cao trên bầu trời — dù đồng hồ đã chỉ 8 giờ tối. Ngồi trên máy bay, nhìn thành phố nhỏ dần qua cửa sổ, tôi cảm thấy một nỗi tiếc nuối nhẹ nhàng. Tallinn đã cho tôi một trải nghiệm mà tôi chưa từng có ở bất kỳ nơi nào khác: sự pha trộn kỳ lạ giữa cổ kính và hiện đại, giữa những bức tường thành thế kỷ 13 và những văn phòng startup thế kỷ 21, giữa ánh nến lung linh trong quán rượu trung cổ và ánh sáng vĩnh cửu của những đêm trắng mùa hè.
 
-Nếu bạn yêu thích những câu chuyện về các vùng đất mới, hãy xem thêm [những điểm đến Bắc Âu](/posts/placeholder-diem-den-bac-au/) và [kinh nghiệm du lịch độc hành](/posts/placeholder-kinh-nghiem-doc-hanh/) để chuẩn bị cho chuyến phiêu lưu của riêng mình.
+Nếu bạn yêu thích những câu chuyện về các vùng đất mới, hãy xem thêm những điểm đến Bắc Âu và kinh nghiệm du lịch độc hành để chuẩn bị cho chuyến phiêu lưu của riêng mình.
 
 Tallinn không chỉ là một thành phố để tham quan. Đó là một thành phố để cảm nhận, để sống chậm lại, để lắng nghe những câu chuyện từ những viên đá cổ và để mơ về những điều có thể. Và biết đâu, như đã từng xảy ra với Skype, với Bolt, với e-Residency — điều kỳ diệu tiếp theo cũng có thể bắt đầu từ đây.
 

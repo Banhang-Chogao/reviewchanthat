@@ -63,7 +63,7 @@ Buổi sáng hôm sau tôi rời Quản Bạ từ sớm, hướng lên Yên Minh
 Dốc Thẩm Mã hiện ra sau một khúc cua bất ngờ. Từ xa, tôi đã thấy những vách đá dựng đứng và con đường như một dải lụa mảnh vắt ngang sườn núi. Khi đến chân dốc, tôi phải thở dốc. Độ dốc ở đây có lẽ lên đến 15-20 độ, với những khúc cua tay áo liên tiếp. Xe tôi, dù đã được chuẩn bị kỹ lưỡng, vẫn rên rỉ khi leo lên những đoạn dốc cao.
 
 Tôi dừng lại giữa dốc để nghỉ và uống nước. Nhìn xuống dưới, thung lũng hiện ra nhỏ bé, những ngôi nhà trình tường như những chấm vàng nhỏ xíu. Trên cao, mây trắng vẫn đang bồng bềnh trôi. Tôi mở một bản nhạc trên điện thoại, nhưng âm thanh của gió và núi rừng đã át hết tất cả. Ở khoảnh khắc đó, tôi cảm thấy mình thật nhỏ bé, nhưng kỳ lạ thay, tôi cũng cảm thấy mình thật tự do. Không có deadline, không có email, không có những lo toan thường nhật. Chỉ có tôi, con xe và những cung đường vô tận.
-Để có thêm cảm hứng cho chuyến phiêu lưu tiếp theo, hãy xem qua bài viết về [hành trình khám phá Đông Bắc](/posts/placeholder-hanh-trinh-dong-bac/) để có thêm nhiều gợi ý thú vị.
+Để có thêm cảm hứng cho chuyến phiêu lưu tiếp theo, hãy xem qua bài viết về hành trình khám phá Đông Bắc để có thêm nhiều gợi ý thú vị.
 
 ### Đường Vào Yên Minh – Những Thung Lũng Hoa Và Nắng
 
@@ -84,7 +84,7 @@ Tôi rời Yên Minh từ sáng sớm, dự định đến Mã Pí Lèng trướ
 Đến Đồng Văn, tôi ghé vào phố cổ. Những ngôi nhà trình tường vài trăm năm tuổi đứng sừng sững bên đường, những mái ngói âm dương rêu phong phủ đầy thời gian. Tôi đi bộ một vòng quanh phố, mua ít bánh khảo – đặc sản của vùng cao – và trò chuyện với một cụ già đang ngồi trước hiên nhà. Cụ kể về thời Pháp thuộc, về những đoàn xe thồ đi qua con đường này, về những đổi thay của vùng đất này qua bao thế hệ. Giọng cụ khàn đục, nhưng đôi mắt vẫn sáng, vẫn tinh tường nhìn ra xa như thể đang nhìn thấy cả quá khứ.
 
 Và rồi Mã Pí Lèng hiện ra. Không có bất kỳ sự báo trước nào. Chỉ một khúc cua, và toàn bộ khung cảnh hùng vĩ bậc nhất của Việt Nam mở ra trước mắt tôi.
-Nếu bạn yêu thích vẻ đẹp hùng vĩ của núi rừng, [hành trình Tây Bắc cũng là một lựa chọn không thể bỏ qua](/posts/placeholder-tay-bac-ky-su/).
+Nếu bạn yêu thích vẻ đẹp hùng vĩ của núi rừng, hành trình Tây Bắc cũng là một lựa chọn không thể bỏ qua.
 
 Con đèo dài gần 20 kilomet với những khúc cua tay áo liên tiếp, một bên là vách núi dựng đứng, một bên là vực sâu hàng trăm mét. Tôi dừng xe ở điểm dừng chân trên đỉnh đèo, nơi có tấm biển ghi "Dốc Mã Pí Lèng - Một trong tứ đại đỉnh đèo của Việt Nam". Gió ở đây mạnh đến nỗi suýt thổi bay mũ của tôi. Tôi phải bám vào lan can để đứng vững.
 
