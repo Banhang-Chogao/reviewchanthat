@@ -1,10 +1,11 @@
 +++
 title = "Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV"
+seo_title = "Xu hướng công nghệ hè 2026: camera AI và UAV nông nghiệp"
 commit = "9008aff"
 date = "2026-07-11T12:15:00+07:00"
 draft = false
 tags = ["camera ai", "uav nong nghiep", "scex simulator", "cong nghe 2026"]
-categories = ["Cong Nghe", "Xu Huong"]
+categories = ["cong-nghe", "Xu Huong"]
 description = "Khám phá các điểm sáng công nghệ hot nhất tháng 7/2026: Đánh giá ứng dụng SCEX Simulator, giải pháp camera AI chống trộm và chọn mua UAV nông nghiệp tốt nhất."
 image = "images/posts/cong-nghe-ai-camera-uav-nong-nghiep-2026.webp"
 thumbnail = "images/posts/cong-nghe-ai-camera-uav-nong-nghiep-2026.webp"

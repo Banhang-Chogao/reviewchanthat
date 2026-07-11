@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
-description = "CFA (Chartered Financial Analyst) dùng toán học nào? Học cash flow analysis, present value (PV), DCF, correlation, beta, tracking error, information ratio, và performance attribution."
+description = "CFA dùng toán học gì? Tìm hiểu present value (PV), DCF, correlation, beta, tracking error, information ratio và performance attribution trong quản lý tài sản."
 date = "2026-07-10T13:16:14+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T14:10:36+07:00"

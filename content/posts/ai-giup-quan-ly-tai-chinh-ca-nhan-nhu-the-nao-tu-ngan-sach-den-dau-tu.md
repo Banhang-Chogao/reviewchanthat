@@ -2,7 +2,7 @@
 draft = false
 title = "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư"
 seo_title = "AI tài chính cá nhân: ngân sách đến đầu tư"
-description = "AI budgeting, chi tiêu, giải thích đầu tư cơ bản cho người Việt. Nối bank/ví, emergency fund; cảnh báo không phải tư vấn chứng khoán. Bảng so sánh và FAQ an toàn dữ liệu."
+description = "AI giúp quản lý tài chính cá nhân: lập ngân sách, theo dõi chi tiêu và gợi ý đầu tư cơ bản cho người Việt, kèm bảng so sánh và FAQ an toàn dữ liệu."
 date = "2026-07-10T14:54:44+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T14:54:44+07:00"

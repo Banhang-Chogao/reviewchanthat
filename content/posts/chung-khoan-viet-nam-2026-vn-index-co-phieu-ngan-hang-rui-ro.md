@@ -17,7 +17,7 @@ image_source_url = "https://www.pexels.com/photo/person-holding-brown-credit-car
 image_license = "Pexels License"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
-seo_title = "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới"
+seo_title = "Chứng khoán Việt Nam 2026: VN-Index và cổ phiếu ngân hàng"
 description = "Người mới theo dõi chứng khoán Việt Nam năm 2026 nên hiểu VN-Index, nhóm cổ phiếu ngân hàng, rủi ro biến động và nguyên tắc quản trị vốn trước khi xuống tiền."
 
 [custom_image_queries]

@@ -1,12 +1,13 @@
 +++
 title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những Công Ty Thay Đổi Thế Giới"
+seo_title = "Danh mục đầu tư Atomico: Klarna, Spotify, Revolut, Zendesk"
 commit = "9008aff"
 date = "2026-07-11T14:30:00+07:00"
 draft = false
-description = "Khám phá danh sách đầu tư của Atomico - những công ty thay đổi cách con người sống, làm việc, và giao tiếp. Từ Klarna đến Spotify, từ Revolut đến Zendesk, tìm hiểu cách Atomico chọn những công ty tuyệt vời và hỗ trợ chúng trở thành những công ty toàn cầu."
+description = "Khám phá danh mục đầu tư của Atomico: từ Klarna, Spotify đến Revolut, Zendesk — cách quỹ chọn và hỗ trợ các công ty công nghệ vươn tầm toàn cầu."
 image = "images/posts/danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk.webp"
 thumbnail = "images/posts/danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk.webp"
-categories = ["Công Nghệ", "Khởi Nghiệp", "Tài Chính"]
+categories = ["cong-nghe", "Khởi Nghiệp", "tai-chinh"]
 tags = ["atomico", "klarna", "spotify", "revolut", "zendesk", "portfolio"]
 date_display = "11-07-2026 14:30:00 GMT +7"
 image_source = "Pixabay"

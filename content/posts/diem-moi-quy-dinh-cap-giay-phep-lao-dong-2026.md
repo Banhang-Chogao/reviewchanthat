@@ -1,9 +1,10 @@
 +++
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
+seo_title = "Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
 commit = "9008aff"
 date = "2026-07-11T05:30:00+07:00"
 draft = false
-description = "Phân tích toàn diện các điểm mới nhất trong quy định giấy phép lao động 2026: thay đổi về điều kiện kinh nghiệm, thủ tục giải trình nhu cầu sử dụng lao động nước ngoài trực tuyến, hợp pháp hóa lãnh sự bằng cấp và quy trình cấp work permit tại Sở Lao động Thương binh và Xã hội."
+description = "Cập nhật các điểm mới trong quy định cấp giấy phép lao động cho người nước ngoài 2026: điều kiện kinh nghiệm, thủ tục giải trình nhu cầu và hồ sơ work permit."
 image = "images/posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.webp"
 thumbnail = "images/posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.webp"
 categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]

@@ -1,10 +1,10 @@
 +++
 title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
-description = "AI/Machine Learning dùng trong tài chính như thế nào? Học deep learning (RNN, LSTM, Transformer), NLP (sentiment), reinforcement learning (optimal trading), anomaly detection."
+description = "AI trong tài chính dùng deep learning (RNN, LSTM, Transformer), NLP phân tích sentiment và reinforcement learning cho giao dịch tối ưu, anomaly detection."
 date = "2026-07-10T12:30:00+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T12:30:00+07:00"
-seo_title = "AI tài chính: deep learning, NLP sentiment, reinforcement learning"
+seo_title = "AI tài chính: deep learning, NLP và reinforcement learning"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
 tags = ["AI", "machine learning", "deep learning", "NLP", "reinforcement learning", "neural network", "time series"]

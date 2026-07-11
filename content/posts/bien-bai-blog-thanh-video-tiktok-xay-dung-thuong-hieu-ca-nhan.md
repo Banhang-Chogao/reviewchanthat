@@ -12,7 +12,7 @@ thumbnail = "images/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-
 image_status = "verified"
 related_posts = ["xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"]
 seo_title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để"
-description = "Nếu bạn đã xây dựng một blog Hugo với nội dung chất lượng cao, bước tiếp theo là đưa nó tới đúng người cần đọc. Bài phân tích thực tế về biến bài blog thành video TikTok để xây dựng thương hiệu cá nhân."
+description = "Hướng dẫn cắt một bài blog Hugo thành 5-10 video TikTok ngắn: cách chọn ý tưởng, viết kịch bản, tạo hook và đưa người xem về blog để xây thương hiệu cá nhân."
 
 [custom_image_queries]
 queries = ["video production camera", "content creation workspace", "social media creator", "filming setup", "blog to video content"]

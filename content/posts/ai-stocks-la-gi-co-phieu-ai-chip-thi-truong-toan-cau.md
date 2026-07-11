@@ -17,8 +17,8 @@ image_source_url = "https://www.pexels.com/photo/close-up-shot-of-a-graph-794774
 image_license = "Pexels License"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
-seo_title = "AI stocks là gì? Cổ phiếu AI, chip và tác động toàn cầu lên nhà đầu tư Việt Nam"
-description = "AI stocks và chip stocks là công cụ đầu tư quan trọng trong kỷ nguyên AI. Bài viết giải thích cấu trúc thị trường chip, lãnh đạo như NVIDIA/TSMC, và ảnh hưởng đến Việt Nam."
+seo_title = "AI stocks là gì? Cổ phiếu AI, chip và tác động toàn cầu"
+description = "AI stocks và chip stocks là gì? Tìm hiểu cấu trúc thị trường chip, các hãng dẫn đầu như NVIDIA, TSMC và tác động của cổ phiếu AI đến Việt Nam."
 
 [custom_image_queries]
 queries = ["artificial intelligence technology chip circuit", "AI semiconductor manufacturing", "tech stock market trading", "computer chip processors", "data center server farm"]

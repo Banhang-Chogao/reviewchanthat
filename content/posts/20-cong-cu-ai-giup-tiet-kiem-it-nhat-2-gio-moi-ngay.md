@@ -2,7 +2,7 @@
 draft = false
 title = "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày"
 seo_title = "20 công cụ AI tiết kiệm 2 giờ/ngày (2026)"
-description = "Danh sách 20 công cụ AI productivity thực dụng: viết, họp, học, tài chính, hình ảnh. Có bảng so sánh, checklist chọn tool, FAQ và lưu ý chi phí — không FOMO, không quảng cáo ảo."
+description = "Danh sách 20 công cụ AI thực dụng cho viết, họp, học và tài chính. Có bảng so sánh, checklist chọn tool và lưu ý chi phí — không FOMO, không quảng cáo ảo."
 date = "2026-07-10T14:52:38+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T14:52:38+07:00"

@@ -2,7 +2,7 @@
 title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
 date = "2026-07-11 10:30:00+07:00"
 description = "Khám phá du lịch Na Uy độc lập: mùa du lịch tốt nhất, chi phí thực tế, lộ trình tối ưu qua các Fjord nổi tiếng và những lưu ý quan trọng."
-categories = ["travel"]
+categories = ["du-lich"]
 tags = ["Norway", "independent-travel", "fjord", "budget", "Scandinavia"]
 author = "Duy Nguyen"
 image = "images/posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.webp"

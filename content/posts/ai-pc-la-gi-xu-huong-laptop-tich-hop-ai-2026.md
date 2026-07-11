@@ -1,11 +1,12 @@
 +++
 title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"
+seo_title = "AI PC Là Gì? Laptop Tích Hợp AI Cho Dân WFH 2026"
 commit = "9008aff"
 date = "2026-07-11T12:40:00+07:00"
 draft = false
 tags = ["ai pc", "laptop ai", "work from home"]
-categories = ["Cong Nghe", "Xu Huong"]
-description = "AI PC là gì trong năm 2026? Phân tích chi tiết kiến trúc NPU thế hệ mới trên Intel Core Ultra và AMD Ryzen AI. Xu hướng laptop văn phòng tích hợp AI cho dân WFH: dịch thuật real-time, tóm tắt cuộc họp, trợ lý ảo local bảo mật dữ liệu."
+categories = ["cong-nghe", "Xu Huong"]
+description = "AI PC là gì trong năm 2026? Tìm hiểu NPU trên Intel Core Ultra, AMD Ryzen AI và lợi ích cho dân WFH: dịch real-time, tóm tắt họp, trợ lý AI local bảo mật."
 image = "images/posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.webp"
 thumbnail = "images/posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.webp"
 image_source = "Pexels"

@@ -1,8 +1,9 @@
 +++
 title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+seo_title = "Cách Mạng Xe Điện: Vì Sao Na Uy Dẫn Đầu Thế Giới?"
 date = "2026-07-14 10:30:00+07:00"
-description = "Khám phá cách Na Uy biến một quốc gia phụ thuộc dầu mỏ thành trung tâm xe điện toàn cầu: chính sách, cơ sở hạ tầng sạc, thách thức thực tế, và bài học cho các nước khác."
-categories = ["travel"]
+description = "Vì sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới về xe điện? Chính sách, hạ tầng sạc, thách thức và bài học cho các nước khác."
+categories = ["du-lich"]
 tags = ["Norway", "electric-vehicles", "EV", "sustainability", "energy"]
 author = "Duy Nguyen"
 image = "images/posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.webp"

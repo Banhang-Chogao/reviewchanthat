@@ -21,8 +21,8 @@ image_owner = "external"
 image_provider = "pexels"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/a-woman-using-her-smartphone-while-holding-a-credit-card-8938729/"
-seo_title = "Apple Pay Việt Nam 2026: danh sách ngân hàng hỗ trợ, cách thêm thẻ và xử lý lỗi thường gặp"
-description = "Apple Pay Việt Nam đã chính thức hoạt động. Danh sách ngân hàng hỗ trợ (Vietcombank, ACB, Techcombank, VPBank...), cách thêm thẻ chi tiết và các lỗi thường gặp kèm cách khắc phục."
+seo_title = "Apple Pay Việt Nam 2026: ngân hàng hỗ trợ, thêm thẻ, lỗi"
+description = "Apple Pay Việt Nam đã hoạt động: danh sách ngân hàng hỗ trợ (Vietcombank, ACB, Techcombank...), cách thêm thẻ và các lỗi thường gặp kèm cách khắc phục."
 
 [custom_image_queries]
 queries = ["apple pay iphone wallet payment", "contactless payment iphone store", "apple pay vietnam transaction", "iphone apple pay banking", "mobile wallet payment nfc"]

@@ -1,8 +1,9 @@
 +++
 title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+seo_title = "Cân bằng công việc và đời sống ở Scandinavia: vì sao?"
 date = "2026-07-11T16:06:05+07:00"
 draft = false
-description = "Tìm hiểu bí mật về cân bằng công việc-cuộc sống ở Scandinavia. Từ ngày làm việc 6 giờ đến 5-6 tuần nghỉ phép hàng năm, khám phá tại sao người Scandinavia có thể làm việc ít hơn nhưng vẫn thành công."
+description = "Bí quyết cân bằng công việc và cuộc sống ở Scandinavia: ngày làm 6 giờ, 5-6 tuần nghỉ phép mỗi năm — vì sao họ làm việc ít hơn nhưng vẫn thành công?"
 image = "images/posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.webp"
 thumbnail = "images/posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.webp"
 categories = ["review"]

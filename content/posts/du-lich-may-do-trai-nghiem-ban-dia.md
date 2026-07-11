@@ -1,11 +1,12 @@
 +++
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+seo_title = "Du lịch 'may đo' và trải nghiệm bản địa hè 2026"
 date = "2026-07-11T10:45:00+07:00"
 date_display = "11-07-2026 10:45:00 GMT +7"
 commit = "9008aff"
 draft = false
 tags = ["du lich he", "trekking", "camping", "local tour"]
-categories = ["Du Lịch", "Trải Nghiệm"]
+categories = ["du-lich", "Trải Nghiệm"]
 description = "Bỏ qua các tour đại trà, khám phá xu hướng du lịch may đo, trekking và cắm trại giải nhiệt mùa hè 2026 với lịch trình chi tiết, chi phí và lưu ý an toàn mùa mưa bão."
 image = "images/posts/du-lich-may-do-trai-nghiem-ban-dia.webp"
 thumbnail = "images/posts/du-lich-may-do-trai-nghiem-ban-dia.webp"

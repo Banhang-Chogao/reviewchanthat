@@ -2,7 +2,7 @@
 title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
 date = "2026-07-15 10:30:00+07:00"
 description = "Khám phá các bí mật để tối đa hóa cơ hội nhìn thấy Cực quang (Northern Lights) tại Tromsø, Na Uy: thời gian tốt nhất, loại tour, trang bị, và những điều mà các công ty tour không muốn bạn biết."
-categories = ["travel"]
+categories = ["du-lich"]
 tags = ["Norway", "northern-lights", "aurora", "Tromsø", "experience"]
 author = "Duy Nguyen"
 image = "images/posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.webp"
