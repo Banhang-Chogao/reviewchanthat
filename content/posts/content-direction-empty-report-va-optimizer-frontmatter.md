@@ -1,4 +1,5 @@
 +++
+noindex = true
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:40:00+07:00"

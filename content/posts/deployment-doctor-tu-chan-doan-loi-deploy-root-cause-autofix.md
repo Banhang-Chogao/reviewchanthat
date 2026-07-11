@@ -1,4 +1,5 @@
 +++
+noindex = true
 title = "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm"
 date = "2026-07-09T23:30:00+07:00"
 date_display = "09-07-2026 23:30:00 GMT +7"

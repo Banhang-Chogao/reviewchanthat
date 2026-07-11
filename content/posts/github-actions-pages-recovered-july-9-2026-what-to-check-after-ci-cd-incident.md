@@ -1,4 +1,5 @@
 +++
+noindex = true
 title = "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident"
 date = "2026-07-09T22:35:00+07:00"
 date_display = "09-07-2026 22:35:00 GMT +7"
