@@ -5426,7 +5426,37 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly",
+      "title": "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất",
+      "image_id": "pexels-24346285",
+      "source_platform": "Pexels",
+      "image_provider": "pixabay",
+      "source_url": "https://www.pexels.com/photo/24346285/",
+      "direct_url": "https://images.pexels.com/photos/24346285/pexels-photo-24346285.jpeg",
+      "creator": "Tuấn Kiệt Jr.",
+      "creator_url": "https://www.pexels.com/@soldiervip",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.jpg",
+      "output_path": "static/images/posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.webp",
+      "watermark_text": "Source: Pixabay / Leino194",
+      "provider_used": "Pixabay",
+      "attribution_verified": true,
+      "attribution_source": "pixabay_api",
+      "image_query": "xu hướng hè 2026 cách",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất — nguồn Pixabay",
+      "gate_verified": true,
+      "provider": "pexels",
+      "api_selected": "Pexels"
     }
   ],
-  "generated_at": "2026-07-11T04:07:07.341581+00:00"
+  "generated_at": "2026-07-11T04:20:13.461704+00:00"
 }
