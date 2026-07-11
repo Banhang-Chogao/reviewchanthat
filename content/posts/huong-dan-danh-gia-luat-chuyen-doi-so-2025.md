@@ -1,32 +1,30 @@
 +++
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+commit: a8b16cb
+date = "2026-07-11T11:30:00+07:00"
+draft = false
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe", "phap-luat-doanh-nghiep"]
-date = "2026-07-11T11:30:00+07:00"
 description = "Đánh giá chi tiết những điểm mới của Luật Chuyển đổi số 2025 áp dụng từ 1/7/2026. Hướng dẫn doanh nghiệp các bước tuân thủ và thích ứng với khung pháp lý mới."
-draft = false
 image = "images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp"
-image_alt = "Ảnh minh họa Luật Chuyển đổi số 2025 và hạ tầng chính phủ điện tử — nguồn Pexels"
 thumbnail = "images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp"
-image_attribution_source = "pexels_api"
-image_attribution_verified = true
-image_commercial_use = true
-image_creator = "Sora Shimazaki"
-image_creator_id = ""
-image_creator_url = "https://www.pexels.com/@sora-shimazaki"
-image_license = "Pexels License"
-image_license_url = ""
-image_owner = "external"
-image_provider = "pexels"
+image_alt = "Ảnh minh họa Luật Chuyển đổi số 2025 và hạ tầng chính phủ điện tử — nguồn Pexels"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/5668781/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Sora Shimazaki"
+image_creator_url = "https://www.pexels.com/@sora-shimazaki"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
 image_status = "verified"
 slug = "huong-dan-danh-gia-luat-chuyen-doi-so-2025"
 tags = ["luat chuyen doi so 2025", "phap luat cong nghe", "kinh te so", "quy dinh AI", "chinh phu so", "danh sach phap ly"]
-date_display = "11-07-2026 11:30:00 GMT +7"
-+++
-thumbnail = "images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
 date_display = "11-07-2026 11:30:00 GMT +7"
 
 [ai_summary]
