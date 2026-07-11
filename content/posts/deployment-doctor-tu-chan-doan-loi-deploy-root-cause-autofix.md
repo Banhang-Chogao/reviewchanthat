@@ -25,7 +25,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 draft = false
-related_posts = ["github-actions-run-start-delays-july-9-2026-ci-cd-protection", "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident", "workflow-failures-audit-recent-ci-cd-root-causes-action-items"]
+related_posts = ["github-actions-run-start-delays-july-9-2026-ci-cd-protection", "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident"]
 seo_title = "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom"
 description = "Một blog cá nhân trông “nhỏ”, nhưng pipeline có thể rất đông: Deploy, Content Direction, QA debt, autofix, snapshot, doctor… Chỉ cần một fail không được phân"
 
@@ -212,4 +212,4 @@ Với blog cá nhân / indie / Hugo: automation nên **hỗ trợ con người**
 
 Nếu bạn đang dựng pipeline tương tự, hãy bắt đầu bằng collector + knowledge base + `safe_to_autofix`. Autofix là bước sau, khi bạn đủ khiêm tốn để không để robot “chữa” những thứ không thuộc về code.
 
-Đọc thêm các bài cùng cụm vận hành CI/CD trên blog: bảo vệ pipeline khi [GitHub Actions chậm start runner](/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection/), checklist sau khi [Pages/Actions hồi phục](/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident/), và [audit workflow failures → root causes → action items](/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items/).
+Đọc thêm các bài cùng cụm vận hành CI/CD trên blog: bảo vệ pipeline khi [GitHub Actions chậm start runner](/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection/), checklist sau khi [Pages/Actions hồi phục](/posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident/).

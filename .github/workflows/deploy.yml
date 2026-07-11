@@ -136,7 +136,7 @@ jobs:
         run: python scripts/qa_dates.py
 
       - name: QA internal links
-        run: python scripts/qa_internal_links.py --public-dir public || true
+        run: python scripts/qa_internal_links.py --public-dir public
 
       - name: QA sitemap
         run: python scripts/qa_sitemap.py

@@ -121,4 +121,4 @@ Bài trụ này gom **taxonomy** các root cause đã học được khi vận h
 
 Playbook root cause không thay thế kỹ năng debug, nhưng **ngăn phản xạ sai**: sửa code khi platform đang chậm, hoặc nới QA toàn site mỗi lần fail. Gắn nhãn **safe/unsafe** giúp bot autofix hữu ích thay vì nguy hiểm. Đọc tiếp các bài vệ tinh theo đúng loại log bạn đang thấy.
 
-> Liên quan: [Deployment Doctor](/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix/), [Workflow failures audit](/posts/workflow-failures-audit-recent-ci-cd-root-causes-action-items/), [GitHub Actions delays July 9](/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection/).
+> Liên quan: [Deployment Doctor](/posts/deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix/), [GitHub Actions delays July 9](/posts/github-actions-run-start-delays-july-9-2026-ci-cd-protection/).

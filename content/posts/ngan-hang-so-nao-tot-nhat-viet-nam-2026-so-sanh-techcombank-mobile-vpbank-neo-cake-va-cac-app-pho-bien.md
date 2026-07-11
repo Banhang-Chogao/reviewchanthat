@@ -190,7 +190,7 @@ Trước khi mở tài khoản ngân hàng số, hãy kiểm tra:
 - [ ] **Mạng lưới chi nhánh**: Có chi nhánh gần nơi bạn sống không (nếu cần giao dịch offline)?
 ## Các câu hỏi thường gặp
 ### Tôi có thể mở nhiều tài khoản ngân hàng số cùng lúc không?
-Có. Bạn hoàn toàn có thể mở tài khoản ở nhiều ngân hàng khác nhau. Điều này còn giúp bạn tận dụng lãi suất cao từ nhiều nơi và [phân tán bảo hiểm tiền gửi]({{< relref "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund" >}}#bảo-hiểm-tiền-gửi) (DIV tối đa 125 triệu/ngân hàng).
+Có. Bạn hoàn toàn có thể mở tài khoản ở nhiều ngân hàng khác nhau. Điều này còn giúp bạn tận dụng lãi suất cao từ nhiều nơi và [phân tán bảo hiểm tiền gửi]({{< relref "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund" >}}) (DIV tối đa 125 triệu/ngân hàng).
 ### Ngân hàng số có an toàn không?
 Có, nếu ngân hàng đó được cấp phép bởi Ngân hàng Nhà nước. Cake by VPBank và VPBank NEO đều thuộc hệ sinh thái VPBank — một ngân hàng thương mại cổ phần được SBV giám sát. Tiền gửi được DIV bảo hiểm tối đa 125 triệu VND. Tuy nhiên, ví điện tử như MoMo, ZaloPay, ShopeePay không phải ngân hàng và KHÔNG được bảo hiểm tiền gửi.
 ### Lãi suất có thay đổi không?
