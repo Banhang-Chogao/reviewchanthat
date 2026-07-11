@@ -1,16 +1,30 @@
 +++
 title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
 commit = "b435eef"
-date = 2026-07-11T09:00:00+07:00
+date = "2026-07-11 09:00:00+07:00"
 draft = false
 description = "Ký sự road trip cung đường ven biển Cam Ranh – Vĩnh Hy – một trong những cung đường đẹp nhất Việt Nam. Câu chuyện về vẻ đẹp đối lập giữa vách núi khô cằn Vườn quốc gia Núi Chúa và làn nước ngọc bích vịnh Vĩnh Hy, những làng chài cổ và cảm giác tự do cuối ngày."
-image = ""
-thumbnail = ""
+image = "images/posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.webp"
+thumbnail = "images/posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.webp"
 categories = ["Ký Sự Đường Đi"]
 tags = ["vinh hy", "cam ranh", "road trip"]
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/dynamic-street-scene-in-ha-n-i-vietnam-37359936/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Hưng Phạm"
+image_creator_url = "https://www.pexels.com/@h-ng-ph-m-1332058235"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:21:46+07:00"
+image_query = "phía sau tay lái ký"
+image_alt = "Ảnh minh họa Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy — nguồn Pexels"
 +++
-
-![[IMAGE_API_QUERY: coastal road along rocky cliff Vinh Hy bay Ninh Thuan Vietnam]][Cung đường ven biển tuyệt đẹp giữa vách núi Vườn quốc gia Núi Chúa và vịnh Vĩnh Hy]
 
 Cái nắng miền Trung tháng Bảy như thiêu như đốt. Nó không phải thứ nắng dịu dàng mà ta tìm thấy ở miền Bắc, cũng chẳng phải thứ nắng ẩm ướt của Sài Gòn. Đây là thứ nắng xé da, thứ nắng mà người miền Trung gọi là "nắng cháy" – thứ nắng có thể làm nứt nẻ cả đất đai, làm khô cong cả những tán cây xương rồng trên triền núi đá. Vậy mà tôi lại chọn giữa tháng Bảy để chạy xe dọc theo cung đường ven biển từ Cam Ranh lên Vĩnh Hy. Có lẽ tôi hơi điên, nhưng sự điên rồ đôi khi lại mang đến những trải nghiệm đẹp nhất.
 

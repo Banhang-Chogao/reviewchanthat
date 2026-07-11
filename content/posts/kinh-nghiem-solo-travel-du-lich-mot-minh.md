@@ -75,8 +75,6 @@ Nguyên tắc "3-2-1" cho solo traveler:
 
 **1:** Chỉ mang 1 thẻ chính + 1 thẻ dự phòng trong balo. Thẻ dự phòng bỏ vào túi bí mật của balo — chỉ dùng khi thẻ chính bị mất hoặc hỏng.
 
-![[IMAGE_API_QUERY: female solo traveler managing travel budget notebook with pen map and coffee shop table]][Ghi chép chi tiêu du lịch — thói quen quản lý tài chính giúp solo traveler không rơi vào cảnh hết tiền giữa đường]
-
 ### Bảng Dự Trù Chi Phí 4 Ngày
 
 | Khoản mục | Chi phí dự tính (VNĐ) |
@@ -129,8 +127,6 @@ Ba lô là người bạn đồng hành quan trọng nhất khi đi một mình.
 Lịch trình được thiết kế riêng cho nữ solo lần đầu, kết hợp 3 điểm đến an toàn: Hội An — Đà Lạt — Quy Nhơn. Mật độ vừa phải, có thời gian nghỉ giữa các hoạt động.
 
 ### Ngày 1: Hội An — Phố Cổ Và Ẩm Thực Đường Phố
-
-![[IMAGE_API_QUERY: Hoi An ancient town at sunset lanterns colorful river view romantic solo travel evening]][Phố cổ Hội An về đêm — điểm đến an toàn nhất cho nữ solo travel lần đầu]
 
 | Thời gian | Hoạt động |
 |---|---|

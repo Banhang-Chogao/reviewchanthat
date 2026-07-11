@@ -1,16 +1,30 @@
 +++
 title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
 commit = "e103758"
-date = 2026-07-11T08:00:00+07:00
+date = "2026-07-11 08:00:00+07:00"
 draft = false
 description = "Ký sự hành trình phượt Hà Giang bằng xe máy qua đèo Mã Pí Lèng, dốc Thẩm Mã. Câu chuyện về những đứa trẻ Mông đeo gùi hoa, đêm tĩnh lặng giữa bản làng xa xôi và vẻ đẹp hùng vĩ của hẻm vực Tu Sản dưới nắng tháng Bảy."
-image = ""
-thumbnail = ""
+image = "images/posts/ky-su-ha-giang-nhung-khuc-cua-va-ky-uc.webp"
+thumbnail = "images/posts/ky-su-ha-giang-nhung-khuc-cua-va-ky-uc.webp"
 categories = ["Ký Sự Đường Đi"]
 tags = ["ha giang", "ma pi leng", "ky su du hanh"]
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/nh-ng-be-trai-s-ng-la-ha-giang-vi-t-nam-27246957/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Anthony Tran"
+image_creator_url = "https://www.pexels.com/@anthony-tran-1554970855"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
+image_query = "ký sự hà giang khúc"
+image_alt = "Ảnh minh họa Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu — nguồn Pexels"
 +++
-
-![[IMAGE_API_QUERY: Hà Giang mountain pass with a motorbike and clouds]][Chặng đèo Mã Pí Lèng hùng vĩ nhìn từ trên cao]
 
 Cái lạnh buốt của cơn gió thổi ngược từ vách núi phả thẳng vào mặt làm tôi choàng tỉnh. Đồng hồ trên tay chỉ năm giờ sáng, nhưng tôi không còn thiết tha gì với chiếc lều ngủ nữa. Tôi chui ra khỏi túi ngủ, đứng dậy và nhìn về phía đông. Một dải lụa màu cam đang từ từ trải dài phía sau những dãy núi trùng điệp. Hà Giang, vùng đất mà tôi đã mơ đến từ những ngày còn ngồi trên ghế giảng đường đại học, cuối cùng cũng ở ngay dưới chân tôi. Và tôi biết rằng, những gì sắp diễn ra trong ba ngày tới sẽ là thứ tôi mang theo suốt phần đời còn lại.
 

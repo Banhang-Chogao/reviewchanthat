@@ -149,8 +149,6 @@ DPVR E4C đại diện cho một phân khúc hoàn toàn khác: kính VR không 
 
 DPVR E4C dành cho người **đã có sẵn PC mạnh** hoặc muốn trải nghiệm VR lần đầu với chi phí thấp nhất. Nếu bạn đã sở hữu một laptop gaming hoặc PC desktop cấu hình khá, E4C là cách rẻ nhất để bước vào thế giới SteamVR. Ngược lại, nếu bạn không có PC mạnh và muốn trải nghiệm VR "all-in-one" không dây, E4C không phải lựa chọn phù hợp.
 
-![[IMAGE_API_QUERY: three VR headsets side by side comparison Meta Quest Pico DPVR gaming technology]][So sánh ba kính VR phổ biến nhất phân khúc giá rẻ hè 2026]
-
 ## Trải Nghiệm Thực Tế: Chơi Game, Xem Phim và Làm Việc Trên VR
 
 Để đánh giá khách quan, cả ba kính VR đều được thử nghiệm trong cùng điều kiện: nhiệt độ phòng 28°C (có máy lạnh), kết nối WiFi 6 (cho Quest 3S và Pico 4 Ultra Lite), và PC gaming với RTX 4060 (cho DPVR E4C). Dưới đây là kết quả chi tiết cho từng tác vụ phổ biến.

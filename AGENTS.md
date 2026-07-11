@@ -17,7 +17,7 @@
 - **Content Depth:** Mọi bài viết (cả VN và EN) phải có tối thiểu **3000 từ**. Sử dụng thước đo `wc -w` trên nội dung markdown (loại bỏ front matter) để kiểm tra. Internal links và external links là **optional** — không bắt buộc phải thêm vào. Nếu muốn thêm links:
   - External links: trỏ đến nguồn tham khảo uy tín bên ngoài để tăng giá trị SEO.
   - Internal links: chỉ thêm khi có bài viết thật trong blog, không tạo link placeholder/fake. Nếu không có bài cùng chủ đề, bỏ qua internal link.
-- **KHÔNG dùng `![[IMAGE_API_QUERY:...]]` markers trong nội dung bài viết.** Syntax này không được script nào xử lý — `select_images.py --fix` chỉ set hero image (`image`/`thumbnail`) trong front matter. Nếu muốn ảnh minh họa inline, chờ hero image xong rồi tự chèn Markdown `![](...)` thủ công với đường dẫn ảnh có sẵn. Nếu `process_images.py` failed (HTTP 429, corrupt file...) và để lại marker chết, xoá marker đó ngay (vì bài đã có ≥1 ảnh hero).
+- **TUYỆT ĐỐI CẤM `![[IMAGE_API_QUERY:...]]` markers trong nội dung bài viết.** Không được viết, không được giữ lại, không được coi là placeholder tạm thời. Đây là marker chết — không script nào xử lý, không tự động replace. Nếu marker còn sót trong file `.md` khi push, coi như lỗi nghiêm trọng, phải fix ngay. Ảnh minh họa inline chỉ được chèn bằng Markdown `![](...)` thủ công với URL ảnh thật.
 
 # Deployment Rule (từ 2026-07-10)
 

@@ -1,16 +1,30 @@
 +++
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
 commit = "1768daf"
-date = 2026-07-11T05:30:00+07:00
+date = "2026-07-11 05:30:00+07:00"
 draft = false
 description = "Phân tích toàn diện các điểm mới nhất trong quy định giấy phép lao động 2026: thay đổi về điều kiện kinh nghiệm, thủ tục giải trình nhu cầu sử dụng lao động nước ngoài trực tuyến, hợp pháp hóa lãnh sự bằng cấp và quy trình cấp work permit tại Sở Lao động Thương binh và Xã hội."
-image = ""
-thumbnail = ""
+image = "images/posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.webp"
+thumbnail = "images/posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.webp"
 categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]
 tags = ["work permit", "giay phep lao dong", "luat lao dong"]
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/quy-nhon-university-campus-with-palm-trees-34791160/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "E.OHIPHOTO"
+image_creator_url = "https://www.pexels.com/@e-ohiphoto-2157449901"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
+image_query = "điểm quy định cấp giấy"
+image_alt = "Ảnh minh họa Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026 — nguồn Pexels"
 +++
-
-![[IMAGE_API_QUERY: work permit application documents and labor contract on office desk]][Hồ sơ xin giấy phép lao động cho người nước ngoài tại Việt Nam]
 
 ## Tổng Quan Về Quy Định Giấy Phép Lao Động 2026
 

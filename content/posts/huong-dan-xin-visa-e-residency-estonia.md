@@ -1,15 +1,29 @@
 +++
 title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
-date = 2026-07-11T14:00:00+07:00
+date = "2026-07-11 14:00:00+07:00"
 draft = false
 description = "Hướng dẫn chi tiết chương trình e-Residency Estonia - công dân điện tử đầu tiên trên thế giới. Quyền lợi mở công ty chuẩn EU từ xa, quản lý thuế trực tuyến, mở tài khoản ngân hàng châu Âu. Chi phí, hồ sơ, quy trình nộp đơn và lưu ý cho người Việt Nam."
-image = ""
-thumbnail = ""
+image = "images/posts/huong-dan-xin-visa-e-residency-estonia.webp"
+thumbnail = "images/posts/huong-dan-xin-visa-e-residency-estonia.webp"
 categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]
 tags = ["e-residency", "visa chau au", "thanh lap doanh nghiep"]
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/person-holding-blue-card-and-a-cellphone-7821552/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:21:47+07:00"
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu — nguồn Pexels"
 +++
-
-![[IMAGE_API_QUERY: e-Residency Estonia smart ID card and digital identity card on laptop]][Thẻ e-Residency Estonia - chìa khóa mở cánh cửa kinh doanh châu Âu]
 
 Bạn có thể thành lập một công ty hợp pháp tại Liên minh châu Âu mà không cần đặt chân đến đó, không cần visa, không cần địa chỉ cư trú — chỉ với một chiếc thẻ nhựa nhỏ và một lần đăng ký trực tuyến mất 15 phút. Đó không phải khoa học viễn tưởng, mà là chương trình e-Residency của Estonia, sáng kiến công dân điện tử đầu tiên trên thế giới đã thu hút hơn 120.000 người tham gia tính đến năm 2026.
 

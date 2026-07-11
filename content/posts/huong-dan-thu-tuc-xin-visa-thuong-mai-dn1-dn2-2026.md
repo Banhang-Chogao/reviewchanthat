@@ -1,16 +1,30 @@
 +++
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
 commit = "1768daf"
-date = 2026-07-11T05:00:00+07:00
+date = "2026-07-11 05:00:00+07:00"
 draft = false
 description = "Cập nhật mới nhất 2026: Hướng dẫn chi tiết thủ tục xin visa thương mại DN1 và DN2 cho chuyên gia nước ngoài. Phân biệt hai loại visa, bộ hồ sơ bảo lãnh chuyên gia vào Việt Nam, quy trình nộp tại Cục Quản lý xuất nhập khẩu và các lưu ý để tỷ lệ duyệt đạt 100%."
-image = ""
-thumbnail = ""
+image = "images/posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.webp"
+thumbnail = "images/posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.webp"
 categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]
 tags = ["visa thuong mai", "phap luat doanh nghiep", "chuyen gia nuoc ngoai"]
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/houses-fantasy-beautiful-737504/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "fighter_lok"
+image_creator_url = "https://pixabay.com/photos/houses-fantasy-beautiful-737504/"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pixabay_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
+image_query = "hướng dẫn thủ tục xin"
+image_alt = "Ảnh minh họa Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026 — nguồn Pixabay"
 +++
-
-![[IMAGE_API_QUERY: business visa application form and passport document on desk]][Hồ sơ xin visa thương mại DN1 DN2 cho chuyên gia nước ngoài]
 
 ## Tổng Quan Về Visa Thương Mại DN1 Và DN2
 

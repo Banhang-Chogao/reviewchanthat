@@ -1,16 +1,30 @@
 +++
 title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
 commit = "1768daf"
-date = 2026-07-11T06:00:00+07:00
+date = "2026-07-11 06:00:00+07:00"
 draft = false
 description = "Hướng dẫn chi tiết thủ tục hải quan số 2026 trên Cơ chế một cửa quốc gia. Quy trình đăng ký kiểm tra chuyên ngành cho hàng hóa đặc thù: kiểm tra chất lượng, kiểm dịch động/thực vật, an toàn thực phẩm. Phân tích pháp luật xuất nhập khẩu mới nhất về nghĩa vụ doanh nghiệp và chế tài xử phạt."
-image = ""
-thumbnail = ""
+image = "images/posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.webp"
+thumbnail = "images/posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.webp"
 categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]
 tags = ["hai quan", "xuat nhap khau", "so hoa doanh nghiep"]
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/online-shopping-with-payment-app-bancontact-29502357/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Julio Lopez"
+image_creator_url = "https://www.pexels.com/@julio-lopez-75309646"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
+image_query = "mobile banking payment app"
+image_alt = "Ảnh minh họa Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026 — nguồn Pexels"
 +++
-
-![[IMAGE_API_QUERY: customs declaration digital platform and shipping container at port]][Thủ tục hải quan số 2026 trên Cơ chế một cửa quốc gia]
 
 ## Tổng Quan Về Thủ Tục Hải Quan Số 2026
 

@@ -23,8 +23,6 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 +++
 
-![[IMAGE_API_QUERY: Ta Nang Phan Dung trail green hills and tent camping]][Đồi cỏ xanh mướt trên cung đường Tà Năng Phan Dũng mùa mưa]
-
 Tiếng lều vải phập phồng trong gió như một sinh vật đang thở. Tôi nằm trong túi ngủ, mắt mở to trong bóng tối. Bên ngoài, rừng già đang lên tiếng. Một tiếng động lạ, nửa như tiếng cành cây gãy, nửa như tiếng bước chân của một loài vật nào đó. Tim tôi đập thình thịch. Tôi một mình, trên đỉnh đồi hoang vu, giữa một khu rừng trải dài ba tỉnh thành. Và tôi tự hỏi: mình đã làm gì với cuộc đời mình vậy?
 
 ## Ngày 0: Ý Nghĩ Điên Rồ Và Sự Chuẩn Bị

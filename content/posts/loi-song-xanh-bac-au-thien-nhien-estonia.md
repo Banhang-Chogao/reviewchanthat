@@ -1,15 +1,29 @@
 +++
 title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
-date = 2026-07-11T16:00:00+07:00
+date = "2026-07-11 16:00:00+07:00"
 draft = false
 description = "Khám phá lối sống xanh và triết lý sống gần gũi thiên nhiên của người Estonia. Trải nghiệm đi bộ trên đầm lầy (bog-walking), văn hóa tắm hơi khói Smoke Sauna UNESCO, và cuộc sống bền vững giữa rừng già Bắc Âu."
-image = ""
-thumbnail = ""
+image = "images/posts/loi-song-xanh-bac-au-thien-nhien-estonia.webp"
+thumbnail = "images/posts/loi-song-xanh-bac-au-thien-nhien-estonia.webp"
 categories = ["Du Lịch", "Trải Nghiệm"]
 tags = ["lifestyle", "song xanh", "sauna", "nature"]
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/colorful-surfboards-on-a-tropical-beach-30917053/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Tuan Vy"
+image_creator_url = "https://www.pexels.com/@tuan-vy-903011268"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:21:46+07:00"
+image_query = "lối sống xanh giữa lòng"
+image_alt = "Ảnh minh họa Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già — nguồn Pexels"
 +++
-
-![[IMAGE_API_QUERY: Estonia forest bog walking boardwalk nature green landscape]][Rừng già và đầm lầy Estonia - nơi con người hòa mình vào thiên nhiên]
 
 Người Estonia có một câu nói: "Igaühel on Eestis oma mets" — mỗi người Estonia đều có một khu rừng của riêng mình. Với 70% diện tích quốc gia được phủ xanh bởi rừng và đầm lầy, Estonia là một trong những quốc gia có tỷ lệ cây xanh cao nhất châu Âu, chỉ sau Phần Lan và Thụy Điển. Nhưng hơn cả những con số, thiên nhiên đã trở thành một phần máu thịt trong văn hóa và lối sống của người dân nơi đây — một triết lý sống xanh mà các đô thị phát triển nhanh như Việt Nam đang khao khát học hỏi.
 
