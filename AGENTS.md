@@ -13,6 +13,7 @@
 - Trước khi push code lên production (`main`), phải đọc lại toàn bộ quy tắc trong AGENTS.md và các quy tắc blog khác để đảm bảo tuân thủ đầy đủ.
 - Bài viết không có ảnh (thiếu `image` hoặc `thumbnail` trong front matter) thì không được phép push lên `main` và deploy production.
 - File `.webp` trong `static/images/posts/` bị `.gitignore` chặn. Sau khi tạo ảnh WebP cho bài viết mới, phải dùng `git add -f static/images/posts/<slug>.webp` để force-add trước khi commit. Kiểm tra `git status` và `git ls-files` để đảm bảo file ảnh WebP đã được track.
+- **Không dùng YAML syntax (`key: value`) trong TOML front matter (`+++`).** Hugo dùng TOML parser. Sai syntax (ví dụ `commit: abc` thay vì `commit = "abc"`) sẽ làm parser fail tại dòng đó, khiến `rule.py --fix` không đọc được các field phía sau (categories, date, image...), dẫn đến deploy crash và date bị ghi đè thành thời gian chạy `rule.py`. Luôn dùng `key = "value"` (TOML) trong front matter.
 
 # Deployment Rule (từ 2026-07-10)
 
