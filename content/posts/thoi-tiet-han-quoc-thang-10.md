@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "Thời tiết Hàn Quốc tháng 10 — nhiệt độ, mưa, gió và cách chuẩn bị trang phục. phân tích theo Seoul, Busan, Jeju và lịch lá đỏ tham khảo."
 draft = false
 image = "images/posts/thoi-tiet-han-quoc-thang-10.webp"

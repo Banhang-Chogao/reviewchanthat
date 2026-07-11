@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:45:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "| Code | Safety | Mô tả | |------|--------|--------| | livedeploynotreflected | safe | Merge OK nhưng live vẫn artifact cũ — thường verify/process | |"
 draft = false
 image = "images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp"

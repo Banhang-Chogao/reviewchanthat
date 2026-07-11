@@ -1,6 +1,6 @@
 +++
 title = "Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
-commit = "3102446"
+commit = "9008aff"
 date = "2026-07-11T14:00:00+07:00"
 draft = false
 description = "Tìm hiểu Atomico - công ty đầu tư mạo hiểm hàng đầu Châu Âu được thành lập bởi Niklas Zennström. Từ một ý tưởng đơn giản đến một quỹ quản lý hàng tỷ USD, Atomico đã thay đổi cách các nhà đầu tư nhìn nhận công nghệ châu Âu."

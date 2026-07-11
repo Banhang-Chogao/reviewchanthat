@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:50:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "| Code | Safety | Mô tả | |------|--------|--------| | baseurlroutingerror | safe | Path absolute bỏ prefix /reviewchanthat/ | | sitemapnoindexmismatch | safe |"
 draft = false
 image = "images/posts/baseurl-sitemap-noindex-va-series-hardcoded-url.webp"

@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:40:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "| Code | Safety | Mô tả | |------|--------|--------| | contentdirectionemptyreport | safe | Dashboard/report render rỗng (sai path/key/fallback) | |"
 draft = false
 image = "images/posts/content-direction-empty-report-va-optimizer-frontmatter.webp"

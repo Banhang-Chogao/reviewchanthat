@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:05:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "Khi một blog tĩnh (Hugo) publish qua GitHub Actions + GitHub Pages, màn hình đỏ không tự nói \"đây là bug code\". Nhiều lần job fail vì runner chưa kịp start, API"
 draft = false
 image = "images/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.webp"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T18:30:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ nhiều lớp ấm, màu sắc hợp mùa thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan."
 draft = false
 image = "images/posts/di-han-thang-11-mac-gi.webp"

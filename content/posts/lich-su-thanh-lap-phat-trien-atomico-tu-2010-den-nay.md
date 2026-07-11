@@ -1,6 +1,6 @@
 +++
 title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
-commit = "3102446"
+commit = "9008aff"
 date = "2026-07-11T14:15:00+07:00"
 draft = false
 description = "Từng bước hành trình xây dựng Atomico từ năm 2010. Niklas Zennström thành lập quỹ đầu tư mạo hiểm này để thay đổi cách Châu Âu nhìn nhận khởi nghiệp. Khám phá các mốc quan trọng, những thách thức, và cách Atomico phát triển thành một quỹ đầu tư hàng đầu."

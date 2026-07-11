@@ -3,7 +3,7 @@ draft = false
 title = "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
 description = "Số e là gì trong tài chính? Học công thức lãi kép liên tục A = Pe^(rt), chiết khấu, và vì sao ngân hàng, quỹ đầu tư, bảo hiểm dùng e để tính giá trị tài sản, rủi ro, và lợi suất."
 date = "2026-07-10T13:16:14+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 lastmod = "2026-07-10T14:00:00+07:00"
 seo_title = "Hàm số mũ e trong tài chính: lãi kép liên tục A = Pe^(rt)"
 authors = ["Minh Hoàng"]

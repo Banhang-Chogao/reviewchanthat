@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:20:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu được gì và mất gì? phân tích rủi ro bảo mật, hoàn tiền, trải nghiệm gia đình và những đánh đổi Apple không nói"
 draft = false
 image = "images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp"

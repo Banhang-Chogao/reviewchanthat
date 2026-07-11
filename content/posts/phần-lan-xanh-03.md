@@ -1,5 +1,6 @@
 +++
 title = "Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng"
+commit = "9008aff"
 date = "2026-07-11T16:06:05+07:00"
 description = "Phần Lan không chỉ nói về bảo vệ môi trường, mà thực hiện nó. Khám phá cách một quốc gia 5.5 triệu người trở thành nhà tiên phong của công nghệ sạch, kinh tế tuần hoàn, và quản lý rừng bền vững."
 categories = ["travel"]

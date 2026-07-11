@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["du-lich"]
 date = "2026-07-09T10:00:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "Jeju mùa hoa cải vàng nên đi tháng mấy? Gợi ý thời điểm cuối tháng 3 đến đầu tháng 4, điểm ngắm đẹp, lễ hội 2026 và lịch trình thực tế."
 draft = false
 image = "images/posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.webp"

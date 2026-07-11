@@ -1,5 +1,6 @@
 +++
 title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
+commit = "9008aff"
 date = "2026-07-11T16:06:05+07:00"
 description = "Khám phá mô hình giáo dục Phần Lan được UNESCO công nhận – nơi không có bài tập về nhà quá nhiều, không kiểm tra chuẩn hóa, và tất cả học sinh được hỗ trợ bình đẳng bất kể hoàn cảnh kinh tế."
 categories = ["travel"]

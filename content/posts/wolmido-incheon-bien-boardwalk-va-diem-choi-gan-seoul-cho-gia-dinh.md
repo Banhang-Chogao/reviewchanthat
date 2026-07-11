@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "Wolmido Incheon là khu vui chơi ven biển gần Seoul, có boardwalk, tàu lượn, thủy cung và nhà hàng hải sản. Đi metro từ Seoul chỉ 1 giờ."
 draft = false
 image = "images/posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.webp"

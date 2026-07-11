@@ -1,6 +1,6 @@
 +++
 title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những Công Ty Thay Đổi Thế Giới"
-commit = "3102446"
+commit = "9008aff"
 date = "2026-07-11T14:30:00+07:00"
 draft = false
 description = "Khám phá danh sách đầu tư của Atomico - những công ty thay đổi cách con người sống, làm việc, và giao tiếp. Từ Klarna đến Spotify, từ Revolut đến Zendesk, tìm hiểu cách Atomico chọn những công ty tuyệt vời và hỗ trợ chúng trở thành những công ty toàn cầu."

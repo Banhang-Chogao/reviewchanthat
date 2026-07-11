@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch trình dự phòng indoor cho chuyến đi không lo mưa."
 draft = false
 image = "images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp"

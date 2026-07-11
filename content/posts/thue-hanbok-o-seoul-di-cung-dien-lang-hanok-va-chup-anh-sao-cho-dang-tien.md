@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "f8496fd"
+commit = "9008aff"
 description = "Kinh nghiệm thuê Hanbok ở Seoul: các cung điện miễn phí vé khi mặc Hanbok, cửa hàng thuê quanh Gyeongbokgung, giá tham khảo và lịch trình chụp ảnh đẹp."
 draft = false
 image = "images/posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.webp"
