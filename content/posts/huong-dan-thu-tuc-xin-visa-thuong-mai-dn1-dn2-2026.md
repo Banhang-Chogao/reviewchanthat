@@ -1,6 +1,6 @@
 +++
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
-commit = "4a9e54f"
+commit = "521256f"
 date = "2026-07-11T05:00:00+07:00"
 draft = false
 description = "Cập nhật mới nhất 2026: Hướng dẫn chi tiết thủ tục xin visa thương mại DN1 và DN2 cho chuyên gia nước ngoài. Phân biệt hai loại visa, bộ hồ sơ bảo lãnh chuyên gia vào Việt Nam, quy trình nộp tại Cục Quản lý xuất nhập khẩu và các lưu ý để tỷ lệ duyệt đạt 100%."

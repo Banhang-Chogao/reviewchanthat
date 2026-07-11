@@ -1,6 +1,6 @@
 +++
 title = "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
-commit = "4a9e54f"
+commit = "521256f"
 date = "2026-07-11T13:00:00+07:00"
 draft = false
 description = "Khám phá hiện tượng e-Estonia - quốc gia số hóa tiên phong nơi 99% dịch vụ công được số hóa. Câu chuyện từ nước Xô Viết cũ vươn lên thành cái nôi kỳ lân công nghệ Skype, Bolt, Wise. Phân tích hệ thống chữ ký số ID-card và blockchain X-Road."
