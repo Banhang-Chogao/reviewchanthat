@@ -167,7 +167,7 @@ Thị trường laptop AI tại Việt Nam giữa năm 2026 đang chứng kiến
 
 ### Designer, Editor Video, Sáng Tạo Nội Dung
 
-**Lựa chọn tốt nhất:** AMD Ryzen AI 300 (Ví dụ: ASUS ZenBook S 16, HP Spectre x360 16). GPU Radeon 800M mạnh hơn Intel Arc cho các tác vụ đồ hoạ, NPU hỗ trợ Adobe Premiere Pro AI features (tự động tạo sub, chỉnh màu thông minh). [Xem thêm bài đánh giá laptop đồ hoạ 2026](/posts/placeholder-laptop-do-hoa-2026/).
+**Lựa chọn tốt nhất:** AMD Ryzen AI 300 (Ví dụ: ASUS ZenBook S 16, HP Spectre x360 16). GPU Radeon 800M mạnh hơn Intel Arc cho các tác vụ đồ hoạ, NPU hỗ trợ Adobe Premiere Pro AI features (tự động tạo sub, chỉnh màu thông minh) và các plugin AI đồ hoạ khác.
 
 ### Người Thường Xuyên Di Chuyển, Ưu Tiên Pin
 
@@ -175,7 +175,7 @@ Thị trường laptop AI tại Việt Nam giữa năm 2026 đang chứng kiến
 
 ### Sinh Viên, Người Mới Bắt Đầu WFH
 
-**Lựa chọn tốt nhất:** Intel Core Ultra 200V hoặc AMD Ryzen AI 300 — tuỳ vào chương trình khuyến mãi. Các dòng laptop AI giá rẻ bắt đầu từ 15-18 triệu VNĐ (Ví dụ: Acer Swift Go 14 AI, ASUS Vivobook S 14). [So sánh thêm các dòng laptop AI giá rẻ](/posts/placeholder-laptop-ai-gia-re/).
+**Lựa chọn tốt nhất:** Intel Core Ultra 200V hoặc AMD Ryzen AI 300 — tuỳ vào chương trình khuyến mãi và nhu cầu cụ thể. Các dòng laptop AI giá rẻ bắt đầu từ 15-18 triệu VNĐ với cấu hình đáp ứng tốt nhu cầu cơ bản (Ví dụ: Acer Swift Go 14 AI, ASUS Vivobook S 14).
 
 ## Hạn Chế Của AI PC Năm 2026
 

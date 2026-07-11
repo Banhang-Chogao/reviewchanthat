@@ -150,7 +150,7 @@ Smart ring không thể thay thế smartwatch cho các tác vụ thể thao. Vì
 
 ### Thoải Mái Khi Đeo
 
-Đây là điểm smart ring chiến thắng áp đảo so với smartwatch. Trong suốt 2 tuần thử nghiệm, người dùng quên hẳn việc đang đeo smart ring — kể cả khi đánh răng, rửa mặt, đi tắm (cả ba đều chống nước). Samsung Galaxy Ring có thiết kế mỏng và nhẹ nhất, dễ chịu nhất khi ngủ nghiêng. Oura Ring dày hơn một chút — có tạo cảm giác cấn khi ngủ ở tư thế úp tay. [Xem thêm trải nghiệm đeo smartwatch so với smart ring](/posts/placeholder-smartwatch-vs-smart-ring/).
+Đây là điểm smart ring chiến thắng áp đảo so với smartwatch. Trong suốt 2 tuần thử nghiệm, người dùng quên hẳn việc đang đeo smart ring — kể cả khi đánh răng, rửa mặt, đi tắm (cả ba đều chống nước). Samsung Galaxy Ring có thiết kế mỏng và nhẹ nhất, dễ chịu nhất khi ngủ nghiêng. Oura Ring dày hơn một chút — có tạo cảm giác cấn khi ngủ ở tư thế úp tay.
 
 ## Ai Nên Mua Smart Ring?
 
@@ -168,7 +168,7 @@ Amazfit Helio Ring là lựa chọn hợp lý nếu ngân sách dưới 5 triệ
 
 ### Dân Thể Thao Chuyên Nghiệp
 
-Smart ring không dành cho bạn. GPS tích hợp là thứ bạn cần — hãy dùng Garmin hoặc Apple Watch Ultra. Nếu bạn muốn cả ring + watch, bộ đôi Amazfit Helio Ring + Amazfit Balance là combo tốt nhất (dữ liệu gộp trong Zepp App). [So sánh thêm Garmin vs Apple Watch cho dân chạy bộ](/posts/placeholder-garmin-vs-apple-watch/).
+Smart ring không dành cho bạn. GPS tích hợp là thứ bạn cần — hãy dùng Garmin hoặc Apple Watch Ultra. Nếu bạn muốn cả ring + watch, bộ đôi Amazfit Helio Ring + Amazfit Balance là combo tốt nhất (dữ liệu gộp trong Zepp App).
 
 ## Smart Ring Có Thay Thế Được Apple Watch Không?
 
