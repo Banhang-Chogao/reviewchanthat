@@ -517,6 +517,17 @@
       "recommended_fix_script": "python scripts/autobot_dup_remover.py --write",
       "should_retry_deploy": true,
       "should_pause_workflows": false
+    },
+    {
+      "id": "gitignore_blocks_webp_files",
+      "severity": "critical",
+      "match": ["static/images/posts/*.webp.*missing", "WebP.*not found", ".gitignore.*webp", "hero images missing", "no images on production"],
+      "safe_to_autofix": true,
+      "summary": ".gitignore blocks .webp files from git tracking. GitHub Actions checkout has no images → Deploy fails.",
+      "action_items": ["Uncomment .gitignore rules for static/images/posts/*.webp", "WebP files are generated but needed for GitHub Pages deploy", "Auto-fix: fix_gitignore_webp_block"],
+      "recommended_fix_script": "fix_gitignore_webp_block",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
     }
   ]
 }

@@ -312,6 +312,40 @@ def fix_ai_summary_map() -> tuple[bool, str]:
     return bool(git_changed_files()), f"normalize_ai_summaries exit={code}"
 
 
+def fix_gitignore_webp_block() -> tuple[bool, str]:
+    """Fix .gitignore blocking WebP files from git tracking."""
+    gitignore_path = REPO_ROOT / ".gitignore"
+    if not gitignore_path.exists():
+        return False, ".gitignore missing"
+
+    text = gitignore_path.read_text(encoding="utf-8")
+
+    # Check if WebP files are blocked
+    if "static/images/posts/*.webp" not in text:
+        return False, ".gitignore already allows WebP files"
+
+    # Check if it's commented out (already fixed)
+    if "# static/images/posts/*.webp" in text:
+        return False, ".gitignore WebP rules already commented out"
+
+    # Comment out WebP ignore rules
+    original = text
+    text = text.replace(
+        "static/images/posts/*.webp",
+        "# static/images/posts/*.webp (now tracked in git for GitHub Pages deploy)"
+    )
+    text = text.replace(
+        "static/images/posts/*.png",
+        "# static/images/posts/*.png"
+    )
+
+    if text == original:
+        return False, "no WebP ignore rules found to fix"
+
+    gitignore_path.write_text(text, encoding="utf-8")
+    return True, "uncommented .gitignore WebP rules to allow git tracking"
+
+
 def fix_changed_post_image_metadata() -> tuple[bool, str]:
     """Auto-fix missing images by running Pexels/Pixabay image pipeline."""
     # Step 1: Run select_images.py to fetch ảnh từ API
@@ -358,6 +392,7 @@ FIXERS = {
     "fix_sitemap_noindex": fix_sitemap_noindex,
     "fix_series_relurl": fix_series_relurl,
     "fix_ai_summary_map": fix_ai_summary_map,
+    "fix_gitignore_webp_block": fix_gitignore_webp_block,
     "fix_changed_post_image_metadata": fix_changed_post_image_metadata,
 }
 

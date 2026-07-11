@@ -12,7 +12,7 @@
 
 - Trước khi push code lên production (`main`), phải đọc lại toàn bộ quy tắc trong AGENTS.md và các quy tắc blog khác để đảm bảo tuân thủ đầy đủ.
 - Bài viết không có ảnh (thiếu `image` hoặc `thumbnail` trong front matter) thì không được phép push lên `main` và deploy production.
-- File `.webp` trong `static/images/posts/` bị `.gitignore` chặn. Sau khi tạo ảnh WebP cho bài viết mới, phải dùng `git add -f static/images/posts/<slug>.webp` để force-add trước khi commit. Kiểm tra `git status` và `git ls-files` để đảm bảo file ảnh WebP đã được track.
+- **WebP images now tracked in git** (as of 2026-07-11). File `.webp` trong `static/images/posts/` được commit thường thường. GitHub Actions checkout sẽ có WebP files → Hugo build render ảnh → Deploy thành công. Không cần force-add, không cần tricks. **Root cause fix:** `.gitignore` ignore WebP vì chúng generated (không source), nhưng GitHub Pages deploy cần WebP files available → Solution: commit WebP to git, regenerate WebP locally + in CI/CD khi cần optimize.
 - **Không dùng YAML syntax (`key: value`) trong TOML front matter (`+++`).** Hugo dùng TOML parser. Sai syntax (ví dụ `commit: abc` thay vì `commit = "abc"`) sẽ làm parser fail tại dòng đó, khiến `rule.py --fix` không đọc được các field phía sau (categories, date, image...), dẫn đến deploy crash và date bị ghi đè thành thời gian chạy `rule.py`. Luôn dùng `key = "value"` (TOML) trong front matter.
 - **Content Depth:** Mọi bài viết (cả VN và EN) phải có tối thiểu **3000 từ**. Sử dụng thước đo `wc -w` trên nội dung markdown (loại bỏ front matter) để kiểm tra. Internal links và external links là **optional** — không bắt buộc phải thêm vào. Nếu muốn thêm links:
   - External links: trỏ đến nguồn tham khảo uy tín bên ngoài để tăng giá trị SEO.
@@ -105,10 +105,16 @@ If any check fails → **STOP** push and run deploy-failure-healer.py.
 **Auto-Fix:** `python3 scripts/deploy-failure-healer.py --fix-all`
 **Prevention:** NEVER commit posts with IMAGE_API_QUERY markers
 
-### Failure #9: WebP Images Not Tracked
-**Symptom:** Hero images missing on production
-**Auto-Fix:** `git add -f static/images/posts/<slug>.webp` (force-add)
-**Prevention:** After image selection, always force-add .webp files
+### Failure #9: WebP Images Missing on GitHub Pages (FIXED)
+**Root Cause:** `.gitignore` ignored `static/images/posts/*.webp` because they're generated files. Local Hugo build had WebP (via process_images.py), but GitHub Actions checkout had no WebP → Deploy failed.
+
+**Solution (as of 2026-07-11):** 
+- Removed `static/images/posts/*.webp` from `.gitignore`
+- WebP files now committed to git
+- GitHub Actions checkout includes WebP
+- Hugo build & deploy work without extra CI/CD steps
+
+**Prevention:** Ensure `.gitignore` does NOT block `static/images/posts/*.webp`. If .gitignore needs updating, AGENTS.md + deployment-doctor will catch + fix automatically.
 
 ### Failure #10: No image in frontmatter
 **Symptom:** Theme can't render hero, deploy fails
