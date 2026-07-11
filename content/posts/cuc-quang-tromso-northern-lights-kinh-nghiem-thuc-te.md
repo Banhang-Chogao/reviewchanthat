@@ -1,24 +1,28 @@
 +++
 title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
-date = 2026-07-15T10:30:00+07:00
+date = "2026-07-15 10:30:00+07:00"
 description = "Khám phá các bí mật để tối đa hóa cơ hội nhìn thấy Cực quang (Northern Lights) tại Tromsø, Na Uy: thời gian tốt nhất, loại tour, trang bị, và những điều mà các công ty tour không muốn bạn biết."
 categories = ["travel"]
 tags = ["Norway", "northern-lights", "aurora", "Tromsø", "experience"]
 author = "Duy Nguyen"
-image = "images/posts/fallback.webp"
+image = "images/posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.webp"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
-image_license = "Self-owned"
-image_source = "self"
-image_source_url = "https://www.pexels.com/photo/green-aurora-borealis-on-sky-99805/"
-thumbnail = "images/posts/fallback.webp"
+image_license = "Pexels License"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/scenic-halong-bay-sunset-in-vietnam-37634257/"
+thumbnail = "images/posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.webp"
 image_provider = "pexels"
 image_license_url = ""
-image_owner = "self"
+image_owner = "external"
 image_creator_id = ""
-image_status = "needs_review"
-image_reject_reason = "No verified image available after processing"
+image_status = "verified"
+image_creator = "Nico Batiancela"
+image_creator_url = "https://www.pexels.com/@nicohonasan"
+image_attribution_checked_at = "2026-07-11T17:43:49+07:00"
+image_query = "trải nghiệm cực quang tại"
+image_alt = "Ảnh minh họa Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến — nguồn Pexels"
 +++
 
 ## Cực quang là gì? Tại sao Tromsø?
