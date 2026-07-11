@@ -14,6 +14,7 @@
 - Bài viết không có ảnh (thiếu `image` hoặc `thumbnail` trong front matter) thì không được phép push lên `main` và deploy production.
 - File `.webp` trong `static/images/posts/` bị `.gitignore` chặn. Sau khi tạo ảnh WebP cho bài viết mới, phải dùng `git add -f static/images/posts/<slug>.webp` để force-add trước khi commit. Kiểm tra `git status` và `git ls-files` để đảm bảo file ảnh WebP đã được track.
 - **Không dùng YAML syntax (`key: value`) trong TOML front matter (`+++`).** Hugo dùng TOML parser. Sai syntax (ví dụ `commit: abc` thay vì `commit = "abc"`) sẽ làm parser fail tại dòng đó, khiến `rule.py --fix` không đọc được các field phía sau (categories, date, image...), dẫn đến deploy crash và date bị ghi đè thành thời gian chạy `rule.py`. Luôn dùng `key = "value"` (TOML) trong front matter.
+- **Content Depth:** Mọi bài viết (cả VN và EN) phải có tối thiểu **3000 từ**. Sử dụng thước đo `wc -w` trên nội dung markdown (loại bỏ front matter) để kiểm tra. Đồng thời, mỗi bài phải bao gồm ít nhất 2 internal links (trỏ đến bài viết khác trong blog) và 2 external links (trỏ đến nguồn tham khảo uy tín bên ngoài) để tăng giá trị SEO và trải nghiệm đọc.
 
 # Deployment Rule (từ 2026-07-10)
 
