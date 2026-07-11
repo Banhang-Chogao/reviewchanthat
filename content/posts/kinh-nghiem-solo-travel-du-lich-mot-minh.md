@@ -23,7 +23,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Kinh Nghiệm Du Lịch Tự Túc Một Mình (Solo Travel) An Toàn Và Trọn Vẹn — nguồn Pixabay"
 date_display = "11-07-2026 14:10:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "mobile banking payment app"
 +++
 

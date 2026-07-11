@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy — nguồn Pexels"
 date_display = "11-07-2026 09:00:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "phía sau tay lái ký"
 +++
 

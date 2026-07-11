@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè — nguồn Pexels"
 date_display = "11-07-2026 12:10:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:57+07:00"
+image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "mouth tape tốt tác hại"
 +++
 

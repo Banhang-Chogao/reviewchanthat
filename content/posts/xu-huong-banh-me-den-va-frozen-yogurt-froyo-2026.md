@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử — nguồn Pexels"
 date_display = "11-07-2026 12:25:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:57+07:00"
+image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "cơn sốt mè đen froyo"
 +++
 

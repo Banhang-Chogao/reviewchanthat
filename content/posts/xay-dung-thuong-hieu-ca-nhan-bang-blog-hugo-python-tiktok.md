@@ -35,7 +35,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok — nguồn Pexels"
-image_attribution_checked_at = "2026-07-11T16:20:39+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:37+07:00"
 image_query = "xây dựng thương hiệu cá"
 +++
 Bạn có thể nhận thấy rằng hầu hết những người xây dựng thương hiệu cá nhân ngày nay đều bắt đầu từ TikTok, Instagram hay YouTube. Nhưng có một vấn đề: **bạn không sở hữu độc lập nền tảng đó.**

@@ -35,7 +35,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững — nguồn Pexels"
-image_attribution_checked_at = "2026-07-11T16:20:36+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:35+07:00"
 image_query = "biến bài blog thành video"
 +++
 Nếu bạn đã xây dựng một blog Hugo với nội dung chất lượng cao, bước tiếp theo là **đưa nó tới đúng người cần đọc.**

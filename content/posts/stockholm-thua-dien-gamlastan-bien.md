@@ -24,7 +24,7 @@ image_creator_id = ""
 image_attribution_source = "pixabay_api"
 image_creator = "Bru-nO"
 image_creator_url = "https://pixabay.com/photos/city-cityscape-waterfront-4478471/"
-image_attribution_checked_at = "2026-07-11T16:20:55+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "stockholm thành phố nổi giữa"
 +++
 

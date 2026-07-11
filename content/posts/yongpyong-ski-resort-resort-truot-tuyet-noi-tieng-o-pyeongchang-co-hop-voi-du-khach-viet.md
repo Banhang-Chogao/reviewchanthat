@@ -80,7 +80,7 @@ image_status = "verified"
 image_provider = "pexels"
 image_creator = "kwon osu"
 image_creator_url = "https://www.pexels.com/@kwon-osu-147593907"
-image_attribution_checked_at = "2026-07-11T16:20:57+07:00"
+image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt? — nguồn Pexels"
 +++

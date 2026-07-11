@@ -1,20 +1,28 @@
 +++
 title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
-date = 2026-07-11T10:30:00+07:00
+date = "2026-07-11 10:30:00+07:00"
 description = "Khám phá du lịch Na Uy độc lập: mùa du lịch tốt nhất, chi phí thực tế, lộ trình tối ưu qua các Fjord nổi tiếng và những lưu ý quan trọng."
 categories = ["travel"]
 tags = ["Norway", "independent-travel", "fjord", "budget", "Scandinavia"]
 author = "Duy Nguyen"
-image = "https://images.pexels.com/photos/1619388/pexels-photo-1619388.jpeg"
-image_creator = "Jens Johnsson"
-image_creator_url = "https://www.pexels.com/@jens-johnsson"
-image_attribution_source = "pexels_api"
+image = "images/posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.webp"
+image_creator = "kangbch"
+image_creator_url = "https://pixabay.com/photos/barley-field-wheat-agriculture-plow-1684052/"
+image_attribution_source = "pixabay_api"
 image_attribution_verified = true
 image_commercial_use = true
-image_license = "Pexels License"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/lofoten-1619388/"
-thumbnail = "https://images.pexels.com/photos/1619388/pexels-photo-1619388.jpeg"
+image_license = "Pixabay Content License"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/barley-field-wheat-agriculture-plow-1684052/"
+thumbnail = "images/posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.webp"
+image_provider = "pixabay"
+image_license_url = ""
+image_owner = "external"
+image_creator_id = ""
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
+image_query = "du lịch na uy tự"
+image_alt = "Ảnh minh họa Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord — nguồn Pixabay"
 +++
 
 ## Tại sao chọn du lịch Na Uy độc lập?

@@ -22,7 +22,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T16:20:46+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "ảnh hưởng atomico tới hệ"
 image_alt = "Ảnh minh họa Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội — nguồn Pexels"
 +++

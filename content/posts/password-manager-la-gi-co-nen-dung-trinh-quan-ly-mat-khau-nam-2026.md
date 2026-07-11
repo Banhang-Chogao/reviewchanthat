@@ -65,7 +65,7 @@ answer = "Nên. Tự động điền an toàn hơn tự gõ mật khẩu thủ c
 [[internal_links]]
 ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon.md"
 title = "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn"
-image_attribution_checked_at = "2026-07-11T16:20:44+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:42+07:00"
 image_query = "mobile banking payment app"
 +++
 

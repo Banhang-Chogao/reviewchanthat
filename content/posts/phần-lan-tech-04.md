@@ -25,7 +25,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_creator = "pixundfertig"
 image_creator_url = "https://pixabay.com/photos/cellular-5g-pinwheels-chemtrails-4320136/"
-image_attribution_checked_at = "2026-07-11T16:20:53+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "phần lan nokia 5g cách"
 image_alt = "Ảnh minh họa Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ — nguồn Pixabay"
 +++

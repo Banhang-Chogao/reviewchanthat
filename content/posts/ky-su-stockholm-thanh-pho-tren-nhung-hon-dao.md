@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo — nguồn Pexels"
 date_display = "11-07-2026 14:44:57 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "ký sự stockholm hành trình"
 +++
 

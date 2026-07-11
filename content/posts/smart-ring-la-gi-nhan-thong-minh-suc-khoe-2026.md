@@ -23,7 +23,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026? — nguồn Pixabay"
 date_display = "11-07-2026 12:50:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:54+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "smart ring gì mua nhẫn"
 +++
 

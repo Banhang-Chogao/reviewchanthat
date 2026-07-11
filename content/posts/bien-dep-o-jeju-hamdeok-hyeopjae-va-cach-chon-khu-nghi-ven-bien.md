@@ -73,7 +73,7 @@ value = "Hè (tháng 6–8) tắm biển, xuân thu đi dạo"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = "Không (bãi biển), có (resort)"
-image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:14+07:00"
 +++
 
 Jeju không chỉ có núi lửa với bình minh — hòn đảo này còn sở hữu những bãi biển khiến nhiều người gọi Hamdeok là "Maldives của Hàn Quốc". Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), biển và resort Jeju đứng thứ 7, theo mình là hoàn toàn xứng đáng.

@@ -23,7 +23,7 @@ image_attribution_source = "not_found"
 image_status = "verified"
 image_alt = "Ảnh minh họa Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026 — nguồn Pixabay"
 date_display = "11-07-2026 12:35:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "đánh giá top kính thực"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++

@@ -25,7 +25,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_creator = "rupixen"
 image_creator_url = "https://pixabay.com/photos/payment-online-payment-card-payment-4334491/"
-image_attribution_checked_at = "2026-07-11T16:20:51+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội — nguồn Pixabay"
 +++

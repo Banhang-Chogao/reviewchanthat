@@ -23,7 +23,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới — nguồn Pixabay"
 date_display = "11-07-2026 12:30:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:48+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "cách làm affiliate shopee trên"
 +++
 

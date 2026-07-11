@@ -45,7 +45,7 @@ label = "Giữ 15"
 
 [[tom_tat_nhanh]]
 label = "Lên 16"
-image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:15+07:00"
 +++
 
 So camera **16 Pro Max vs 15 Pro Max**, nhiều người kỳ vọng **bước nhảy như 3x sang 5x** năm 2023. Thực tế 2026: **ống kính gần nhau**, khác biệt nằm ở **chip xử lý**, **Camera Control** và **tính năng phần mềm** gắn A18 Pro.

@@ -1,20 +1,28 @@
 +++
 title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
-date = 2026-07-12T10:30:00+07:00
+date = "2026-07-12 10:30:00+07:00"
 description = "Khám phá Quỹ chủ quyền Na Uy (GPF Global) - cách một quốc gia nhỏ quản lý hàng nghìn tỷ từ dầu mỏ, đầu tư toàn cầu, và xây dựng độc lập tài chính bền vững."
 categories = ["travel"]
 tags = ["Norway", "sovereign-wealth-fund", "economics", "sustainability", "investment"]
 author = "Duy Nguyen"
-image = "https://images.pexels.com/photos/3532557/pexels-photo-3532557.jpeg"
-image_creator = "Kaboompics"
-image_creator_url = "https://www.pexels.com/@kaboompics"
-image_attribution_source = "pexels_api"
+image = "images/posts/quyen-chu-quyen-na-uy-government-pension-fund-global.webp"
+image_creator = "jarmoluk"
+image_creator_url = "https://pixabay.com/photos/money-card-pocket-concept-idea-256281/"
+image_attribution_source = "pixabay_api"
 image_attribution_verified = true
 image_commercial_use = true
-image_license = "Pexels License"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/financial-growth-3532557/"
-thumbnail = "https://images.pexels.com/photos/3532557/pexels-photo-3532557.jpeg"
+image_license = "Pixabay Content License"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/money-card-pocket-concept-idea-256281/"
+thumbnail = "images/posts/quyen-chu-quyen-na-uy-government-pension-fund-global.webp"
+image_provider = "pixabay"
+image_license_url = ""
+image_owner = "external"
+image_creator_id = ""
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
+image_query = "credit card finance desk"
+image_alt = "Ảnh minh họa Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai? — nguồn Pixabay"
 +++
 
 ## Quỹ Chủ Quyền Na Uy là gì?

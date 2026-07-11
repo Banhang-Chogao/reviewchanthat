@@ -23,7 +23,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland — nguồn Pexels"
 commit = "9008aff"
 date_display = "11-07-2026 14:44:58 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "autumn fallen leaves brown orange"
 +++
 

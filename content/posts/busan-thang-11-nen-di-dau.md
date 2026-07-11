@@ -105,7 +105,7 @@ value = "Cặp đôi, nhóm bạn, gia đình"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = "Không phải điểm peak lá đỏ"
-image_attribution_checked_at = "2026-07-11T16:20:32+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:30+07:00"
 +++
 
 Busan tháng 11 là lựa chọn nhiều du khách cân nhắc để **đổi không khí** sau vài ngày săn lá đỏ ở Seoul. Khí hậu ven biển **lạnh hơn tháng 10** — ban ngày thường 10–18°C, gió biển làm cảm giác mát hơn nhiệt độ thực. Bạn vẫn có thể đi bộ ven biển và ngắm cầu Gwangan về đêm, nhưng **tắm biển dài** không còn phù hợp như mùa hè.

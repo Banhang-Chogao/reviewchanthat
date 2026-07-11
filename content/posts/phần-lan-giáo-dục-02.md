@@ -25,7 +25,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_creator = "Longjeaw"
 image_creator_url = "https://pixabay.com/photos/ang-thong-purple-temple-1671770/"
-image_attribution_checked_at = "2026-07-11T16:20:51+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "hệ thống giáo dục phần"
 image_alt = "Ảnh minh họa Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối — nguồn Pixabay"
 +++

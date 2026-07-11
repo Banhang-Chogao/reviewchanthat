@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026 — nguồn Pexels"
 date_display = "11-07-2026 06:00:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:54+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "credit card finance desk"
 +++
 

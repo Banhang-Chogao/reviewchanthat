@@ -26,7 +26,7 @@ image_creator_url = "https://www.pexels.com/@yankrukov"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = ""
-image_attribution_checked_at = "2026-07-11T16:20:40+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:39+07:00"
 
 [ai_summary]
 items = ["DCF (Discounted Cash Flow): Giá = Σ FCF_t × e^(-rt) + Terminal Value × e^(-rT)", "Terminal Value = Final Year FCF × Growth / (Discount Rate - Growth)", "P/E Ratio = Giá / Lợi nhuận (cách nhanh nhất để so sánh)", "PEG Ratio = P/E / Growth Rate (điều chỉnh cho tăng trưởng)", "EV/EBITDA = Enterprise Value / EBITDA (so sánh khác branch)", "Comparable Method: So sánh cổ phiếu tương tự, giá = Average P/E × Earnings", "Intrinsic Value vs Market Price: Nếu Market < Intrinsic → BUY, ngược lại SELL"]

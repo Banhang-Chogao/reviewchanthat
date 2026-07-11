@@ -63,7 +63,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
-image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:14+07:00"
 +++
 
 Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Nghe đơn giản, nhưng mình mất kha khá thời gian mới áp dụng được. Dưới đây là những thói quen giúp bạn làm được điều đó.

@@ -22,7 +22,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T16:20:45+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu — nguồn Pixabay"
 +++

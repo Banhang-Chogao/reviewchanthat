@@ -61,7 +61,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Mẹo quan trọng"
-image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:14+07:00"
 +++
 
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".

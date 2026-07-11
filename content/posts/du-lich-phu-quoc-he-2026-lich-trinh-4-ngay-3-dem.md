@@ -22,7 +22,7 @@ image_creator_url = "https://www.pexels.com/@quang-nguyen-vinh-222549"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-11T16:20:35+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
 draft = false
 seo_title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4"
 

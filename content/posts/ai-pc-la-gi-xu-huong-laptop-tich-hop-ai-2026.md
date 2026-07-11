@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026 — nguồn Pexels"
 date_display = "11-07-2026 12:40:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "ai pc gì xu hướng"
 +++
 

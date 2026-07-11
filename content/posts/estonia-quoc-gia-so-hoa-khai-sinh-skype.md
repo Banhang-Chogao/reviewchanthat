@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt? — nguồn Pexels"
 date_display = "11-07-2026 13:00:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:48+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "mobile banking payment app"
 +++
 

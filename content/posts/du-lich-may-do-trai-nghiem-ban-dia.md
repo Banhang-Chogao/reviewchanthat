@@ -22,7 +22,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T16:20:45+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "xu hướng du lịch may"
 image_alt = "Ảnh minh họa Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt — nguồn Pexels"
 +++

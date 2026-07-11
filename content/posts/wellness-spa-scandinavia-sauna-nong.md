@@ -24,7 +24,7 @@ image_license_url = ""
 image_creator_url = "https://www.pexels.com/@huum-sauna-heaters-718199222"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "wellness sauna scandinavia tôi học"
 +++
 

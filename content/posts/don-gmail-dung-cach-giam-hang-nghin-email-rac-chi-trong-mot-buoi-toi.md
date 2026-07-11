@@ -69,7 +69,7 @@ title = "Cuộc sống số năm 2026: 30 thói quen"
 [[internal_links]]
 ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
 title = "Quản lý file cá nhân khoa học"
-image_attribution_checked_at = "2026-07-11T16:20:45+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:43+07:00"
 image_query = "mobile banking payment app"
 +++
 

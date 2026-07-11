@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Từ Spotify Đến Bluetooth: Thụy Điển Đã Thống Trị Thế Giới Công Nghệ Ngầm Như Thế Nào? — nguồn Pexels"
 date_display = "11-07-2026 14:44:58 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "spotify bluetooth thụy điển thống"
 +++
 

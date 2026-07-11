@@ -56,7 +56,7 @@ value = "Người đi lần đầu"
 [[tom_tat_nhanh]]
 label = "Di chuyển"
 value = "ARL + BTS"
-image_attribution_checked_at = "2026-07-11T16:20:36+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:35+07:00"
 image_query = "đi bangkok ngày đêm mùa"
 +++
 

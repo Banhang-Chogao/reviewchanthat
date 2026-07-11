@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026 — nguồn Pexels"
 date_display = "11-07-2026 05:30:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "điểm quy định cấp giấy"
 +++
 

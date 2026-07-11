@@ -5,16 +5,20 @@ description = "Khám phá các bí mật để tối đa hóa cơ hội nhìn th
 categories = ["travel"]
 tags = ["Norway", "northern-lights", "aurora", "Tromsø", "experience"]
 author = "Duy Nguyen"
-image = "https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg"
-image_creator = "Eberhard Grossgasteiger"
-image_creator_url = "https://www.pexels.com/@eberhard-grossgasteiger-33537"
+image = "images/posts/fallback.webp"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
-image_license = "Pexels License"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/northern-lights-1114690/"
-thumbnail = "https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg"
+image_license = "Self-owned"
+image_source = "self"
+image_source_url = "https://www.pexels.com/photo/green-aurora-borealis-on-sky-99805/"
+thumbnail = "images/posts/fallback.webp"
+image_provider = "pexels"
+image_license_url = ""
+image_owner = "self"
+image_creator_id = ""
+image_status = "needs_review"
+image_reject_reason = "No verified image available after processing"
 +++
 
 ## Cực quang là gì? Tại sao Tromsø?

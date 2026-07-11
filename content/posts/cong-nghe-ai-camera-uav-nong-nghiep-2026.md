@@ -23,7 +23,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV — nguồn Pixabay"
 date_display = "11-07-2026 12:15:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "mobile banking payment app"
 +++
 

@@ -22,7 +22,7 @@ image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
 date_display = "11-07-2026 10:00:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "độc hành tà năng phan"
 image_alt = "Ảnh minh họa Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ — nguồn Pixabay"
 +++

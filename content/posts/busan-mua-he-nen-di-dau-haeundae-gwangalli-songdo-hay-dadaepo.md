@@ -97,7 +97,7 @@ value = "Mọi đối tượng"
 [[tom_tat_nhanh]]
 label = "Di chuyển"
 value = "Metro Busan"
-image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:14+07:00"
 +++
 
 Busan có 4 bãi biển chính, mỗi nơi một phong cách. Bài viết này so sánh chi tiết giúp bạn chọn đúng bãi biển phù hợp với chuyến đi của mình.

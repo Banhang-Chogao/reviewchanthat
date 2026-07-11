@@ -24,7 +24,7 @@ image_license_url = ""
 image_creator_url = "https://pixabay.com/photos/street-lamp-road-traffic-duc-bag-4359438/"
 image_creator_id = ""
 image_attribution_source = "pixabay_api"
-image_attribution_checked_at = "2026-07-11T16:20:48+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "hệ thống giáo dục phần"
 +++
 

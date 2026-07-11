@@ -23,7 +23,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành — nguồn Pixabay"
 date_display = "11-07-2026 14:00:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "trào lưu green camping gợi"
 +++
 

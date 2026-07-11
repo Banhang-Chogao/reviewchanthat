@@ -89,7 +89,7 @@ value = "Mùa đông (tháng 12–2)"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = "Có (resort, vé trượt tuyết)"
-image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:14+07:00"
 +++
 
 Alpensia và Yongpyong nằm cùng khu vực Pyeongchang, nhưng trải nghiệm hoàn toàn khác nhau. Nếu bạn đã đọc bài [Yongpyong]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}), bạn biết đó là resort lớn, chuyên sâu, cho dân trượt có kinh nghiệm. Alpensia thì ngược lại — nhỏ hơn, yên tĩnh hơn, và thiên về nghỉ dưỡng gia đình.

@@ -24,7 +24,7 @@ image_license_url = ""
 image_creator_url = "https://pixabay.com/photos/ha-long-vietnam-countryside-6762303/"
 image_creator_id = ""
 image_attribution_source = "pixabay_api"
-image_attribution_checked_at = "2026-07-11T16:20:47+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "bắc cực quang hiện tượng"
 +++
 

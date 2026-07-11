@@ -1,20 +1,28 @@
 +++
 title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
-date = 2026-07-14T10:30:00+07:00
+date = "2026-07-14 10:30:00+07:00"
 description = "Khám phá cách Na Uy biến một quốc gia phụ thuộc dầu mỏ thành trung tâm xe điện toàn cầu: chính sách, cơ sở hạ tầng sạc, thách thức thực tế, và bài học cho các nước khác."
 categories = ["travel"]
 tags = ["Norway", "electric-vehicles", "EV", "sustainability", "energy"]
 author = "Duy Nguyen"
-image = "https://images.pexels.com/photos/3683633/pexels-photo-3683633.jpeg"
-image_creator = "Kindel Media"
-image_creator_url = "https://www.pexels.com/@kindelmedia"
+image = "images/posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.webp"
+image_creator = "Toàn Văn"
+image_creator_url = "https://www.pexels.com/@toan-van-1745332"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
 image_license = "Pexels License"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/electric-vehicle-3683633/"
-thumbnail = "https://images.pexels.com/photos/3683633/pexels-photo-3683633.jpeg"
+image_source_url = "https://www.pexels.com/photo/low-angle-view-of-a-blue-sign-15662524/"
+thumbnail = "images/posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.webp"
+image_provider = "pexels"
+image_license_url = ""
+image_owner = "external"
+image_creator_id = ""
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
+image_query = "cách mạng xe điện ev"
+image_alt = "Ảnh minh họa Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới? — nguồn Pexels"
 +++
 
 ## Mâu thuẫn tưởng như không thể: Dầu mỏ vs. Xe điện

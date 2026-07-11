@@ -32,7 +32,7 @@ enabled = true
 collapsed = false
 disclaimer = "So sánh dựa trên số liệu công khai từ MoMo, ZaloPay, ShopeePay và các báo cáo thị trường năm 2026. Chính sách phí, ưu đãi và hạn mức có thể thay đổi."
 items = ["MoMo dẫn đầu thị trường với 40 triệu người dùng, 70 ngân hàng liên kết, 140.000 điểm chấp nhận — phù hợp nhất cho thanh toán hàng ngày và dịch vụ tài chính.", "ZaloPay tích hợp sâu với Zalo (75 triệu MAU), mạnh về thanh toán xã hội (chia bill, lì xì, gửi tiền trong chat).", "ShopeePay vua cashback mua sắm online (hoàn xu 5–50%), tích hợp hoàn hảo với Shopee và SPayLater.", "Cả ba đều là Payment Intermediary Service Providers, KHÔNG được bảo hiểm tiền gửi DIV — không nên để số dư lớn trong ví."]
-image_attribution_checked_at = "2026-07-11T16:20:36+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026 — nguồn Pixabay"
 +++

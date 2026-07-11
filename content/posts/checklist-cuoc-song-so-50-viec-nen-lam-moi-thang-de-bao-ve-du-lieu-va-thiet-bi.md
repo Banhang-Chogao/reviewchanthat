@@ -97,7 +97,7 @@ title = "Dọn iPhone"
 [[internal_links]]
 ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
 title = "Dọn Mac"
-image_attribution_checked_at = "2026-07-11T16:20:44+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:42+07:00"
 image_query = "mobile banking payment app"
 +++
 

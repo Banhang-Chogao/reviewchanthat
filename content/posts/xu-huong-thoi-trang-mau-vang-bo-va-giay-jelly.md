@@ -22,7 +22,7 @@ image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
 date_display = "11-07-2026 11:20:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:57+07:00"
+image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "xu hướng hè 2026 cách"
 image_alt = "Ảnh minh họa Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất — nguồn Pexels"
 +++

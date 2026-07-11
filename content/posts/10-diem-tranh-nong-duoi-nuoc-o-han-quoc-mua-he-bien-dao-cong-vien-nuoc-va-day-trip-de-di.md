@@ -53,7 +53,7 @@ title = "Du lịch Hàn Quốc mùa hè nên đi đâu?"
 [[tom_tat_nhanh]]
 label = "Thời gian đọc"
 value = "5–7 phút"
-image_attribution_checked_at = "2026-07-11T16:20:17+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:14+07:00"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 

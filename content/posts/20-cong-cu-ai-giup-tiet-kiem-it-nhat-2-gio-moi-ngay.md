@@ -69,7 +69,7 @@ title = "Personal Finance 2026: tiết kiệm tự động"
 [[internal_links]]
 ref = "posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md"
 title = "So sánh ví điện tử Việt Nam"
-image_attribution_checked_at = "2026-07-11T16:20:46+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "mobile banking payment app"
 +++
 

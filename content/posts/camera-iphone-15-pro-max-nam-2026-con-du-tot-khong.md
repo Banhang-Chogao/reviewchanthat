@@ -45,7 +45,7 @@ label = "Hạn chế"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
-image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:15+07:00"
 +++
 
 “Camera iPhone 15 Pro Max còn đủ không hay phải lên 16?” — câu hỏi này xuất hiện mỗi khi có sự kiện Apple mới. Thực tế 2026, **phần lớn người dùng không cần cảm biến mới nhất** — họ cần **zoom ổn, video không rung, chụp tối không bệt**. iPhone 15 Pro Max vẫn đáp ứng tốt ba điều đó.

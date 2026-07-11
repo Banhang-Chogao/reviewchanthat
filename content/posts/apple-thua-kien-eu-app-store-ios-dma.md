@@ -77,7 +77,7 @@ value = "Phạt anti-steering €500M (4/2025)"
 [[tom_tat_nhanh]]
 label = "Bước tiếp"
 value = "Kháng cáo Tòa Công lý EU trong 2 tháng 10 ngày"
-image_attribution_checked_at = "2026-07-11T16:20:28+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:25+07:00"
 +++
 
 Ngày **8 tháng 7 năm 2026**, Tòa Tổng của Liên minh châu Âu (General Court) tại Luxembourg đã **bác toàn bộ các đơn kiện** của Apple nhằm chống lại việc European Commission (EC) phân loại công ty này là **gatekeeper** — “người gác cổng” — đối với **App Store** và **hệ điều hành iOS** theo **Digital Markets Act (DMA)**.

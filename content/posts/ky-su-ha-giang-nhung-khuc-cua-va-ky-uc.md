@@ -23,7 +23,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu — nguồn Pexels"
 date_display = "11-07-2026 08:00:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "ký sự hà giang khúc"
 +++
 

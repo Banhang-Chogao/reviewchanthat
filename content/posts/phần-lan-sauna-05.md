@@ -25,7 +25,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T16:20:52+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "sauna phần lan di sản"
 image_alt = "Ảnh minh họa Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật — nguồn Pexels"
 +++

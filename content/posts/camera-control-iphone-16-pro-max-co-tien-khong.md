@@ -45,7 +45,7 @@ label = "Ít giá trị khi"
 
 [[tom_tat_nhanh]]
 label = "So 15"
-image_attribution_checked_at = "2026-07-11T16:20:18+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:15+07:00"
 +++
 
 **Camera Control** là phần cứng mới dễ thấy nhất trên iPhone 16 Pro Max — nút **cảm ứng lực** cạnh máy, Apple kỳ vọng thay **vuốt trên màn** khi chụp. Sau các review công khai và vài tháng sử dụng tham khảo, câu hỏi thực tế: **có tiện đủ để bỏ 15 Pro Max không?**

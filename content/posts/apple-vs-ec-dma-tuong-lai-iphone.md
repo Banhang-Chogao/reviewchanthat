@@ -68,7 +68,7 @@ value = "Kháng cáo, enforcement tiếp, luật tương tự nơi khác"
 [[tom_tat_nhanh]]
 label = "Hợp với"
 value = "Ai đọc cả series hoặc cần bức tranh tổng thể nhanh"
-image_attribution_checked_at = "2026-07-11T16:20:28+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:26+07:00"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 

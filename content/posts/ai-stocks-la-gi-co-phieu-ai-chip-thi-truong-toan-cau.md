@@ -34,7 +34,7 @@ image_creator_id = ""
 image_provider = "pexels"
 image_alt = "Ảnh minh họa AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam — nguồn Pexels"
 image_license_url = ""
-image_attribution_checked_at = "2026-07-11T16:20:36+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
 image_query = "ai stocks gì cổ phiếu"
 +++
 Năm 2024–2026, một từ khóa lặp lại ở mọi nơi: **AI.** Và theo AI, có từ **chip.** Nếu bạn là nhà đầu tư, bạn chắc chắn nghe nói về cổ phiếu công nghệ, NVIDIA, TSMC, và nhu cầu chip "vô tận."

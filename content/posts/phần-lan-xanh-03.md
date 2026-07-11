@@ -25,7 +25,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_creator = "pen_ash"
 image_creator_url = "https://pixabay.com/photos/boat-river-motorboat-boat-trip-8105949/"
-image_attribution_checked_at = "2026-07-11T16:20:54+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "phần lan tiên phong bảo"
 image_alt = "Ảnh minh họa Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng — nguồn Pixabay"
 +++

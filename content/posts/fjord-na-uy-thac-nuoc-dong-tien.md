@@ -3,26 +3,29 @@ title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa
 date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Du lịch các fjord nổi tiếng của Na Uy: từ Geirangerfjord tuyệt mỹ đến Sognefjord hùng vĩ. Khám phá những ngôi làng cổ kính, thác nước hoang dã, và cách tốt nhất để trải nghiệm vẻ đẹp thô kệch của tự nhiên Scandinavia."
-image = "images/posts/fallback.webp"
-thumbnail = "images/posts/fallback.webp"
+image = "images/posts/fjord-na-uy-thac-nuoc-dong-tien.webp"
+thumbnail = "images/posts/fjord-na-uy-thac-nuoc-dong-tien.webp"
 categories = ["travel"]
 tags = ["na uy", "fjord", "du lịch", "thiên nhiên", "geirangerfjord", "flam railway"]
 author = "Duy Nguyen"
-image_source = "self"
+image_source = "Pixabay"
 image_provider = "pixabay"
-image_license = "Self-owned"
-image_alt = "Các fjord tuyệt mỹ của Na Uy với những thác nước hùng vĩ"
+image_license = "Pixabay Content License"
+image_alt = "Ảnh minh họa Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh — nguồn Pixabay"
 image_source_url = "https://pixabay.com/photos/norway-winter-snow-atlantic-8593725/"
 image_commercial_use = true
-image_owner = "self"
+image_owner = "external"
 image_attribution_verified = true
-image_status = "needs_review"
+image_status = "verified"
 commit = "9008aff"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_id = ""
 image_attribution_source = "pixabay_api"
-image_reject_reason = "No verified image available after processing"
+image_creator = "makabera"
+image_creator_url = "https://pixabay.com/photos/norway-winter-snow-atlantic-8593725/"
+image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
+image_query = "vẻ đẹp fjord na uy"
 +++
 
 ## Tại Sao Các Fjord Na Uy Lại Là Một Trong Những Kỳ Quan Thiên Nhiên Vĩ Đại Nhất Thế Giới?

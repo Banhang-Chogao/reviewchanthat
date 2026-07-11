@@ -28,7 +28,7 @@ image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
 seo_title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Của Người Thụy Điển"
-image_attribution_checked_at = "2026-07-11T16:20:56+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "credit card finance desk"
 +++
 

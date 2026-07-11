@@ -1,20 +1,28 @@
 +++
 title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới"
-date = 2026-07-13T10:30:00+07:00
+date = "2026-07-13 10:30:00+07:00"
 description = "Khám phá chất lượng cuộc sống tại Na Uy: work-life balance, hệ thống phúc lợi toàn diện, giáo dục miễn phí, nhưng cũng những thách thức thực tế mà ít người biết."
 categories = ["travel"]
 tags = ["Norway", "quality-of-life", "welfare-state", "work-life-balance", "Nordic"]
 author = "Duy Nguyen"
-image = "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg"
-image_creator = "Polina Tankilevitch"
-image_creator_url = "https://www.pexels.com/@polina-tankilevitch"
+image = "images/posts/doi-song-phuc-loi-na-uy-work-life-balance.webp"
+image_creator = "Ramon Perucho"
+image_creator_url = "https://www.pexels.com/@rperucho"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
 image_commercial_use = true
 image_license = "Pexels License"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/work-life-balance-3807517/"
-thumbnail = "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg"
+image_source_url = "https://www.pexels.com/photo/restaurants-in-bergen-19593805/"
+thumbnail = "images/posts/doi-song-phuc-loi-na-uy-work-life-balance.webp"
+image_provider = "pexels"
+image_license_url = ""
+image_owner = "external"
+image_creator_id = ""
+image_status = "verified"
+image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
+image_query = "đời sống tại na uy"
+image_alt = "Ảnh minh họa Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới — nguồn Pexels"
 +++
 
 ## Tại sao Na Uy được xếp hạng cao nhất về chất lượng cuộc sống?

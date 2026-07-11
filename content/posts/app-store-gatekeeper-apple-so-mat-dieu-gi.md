@@ -65,7 +65,7 @@ label = "Apple giữ"
 
 [[tom_tat_nhanh]]
 label = "Tách biệt"
-image_attribution_checked_at = "2026-07-11T16:20:28+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:25+07:00"
 +++
 
 “Gatekeeper” nghe như tên phim — nhưng với Apple, đó là **nhãn pháp lý** gắn trực tiếp lên **App Store** và **iOS** tại EU. Ngày [8/7/2026, Tòa Tổng EU bác kiện Apple](/posts/apple-thua-kien-eu-app-store-ios-dma/) và **giữ nguyên** nhãn đó.

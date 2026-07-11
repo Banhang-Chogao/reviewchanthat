@@ -23,7 +23,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_alt = "Ảnh minh họa Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển — nguồn Pixabay"
 date_display = "11-07-2026 12:20:00 GMT +7"
-image_attribution_checked_at = "2026-07-11T16:20:49+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "cách phục hồi da bị"
 +++
 

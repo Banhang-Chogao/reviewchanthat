@@ -73,7 +73,7 @@ title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại"
 [[internal_links]]
 ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
 title = "Sống thông minh trong thời đại AI"
-image_attribution_checked_at = "2026-07-11T16:20:44+07:00"
+image_attribution_checked_at = "2026-07-11T17:30:43+07:00"
 image_query = "mobile banking payment app"
 +++
 
