@@ -2,6 +2,7 @@
 title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
 description = "Quỹ đầu tư tính lợi suất, rủi ro, tương quan giữa cổ phiếu bằng toán học nào? Học expected return, volatility, correlation, efficient frontier, Sharpe ratio, CAPM và cách quỹ xây dựng danh mục tối ưu."
 date = "2026-07-10T11:15:00+07:00"
+commit = "f8496fd"
 lastmod = "2026-07-10T11:15:00+07:00"
 seo_title = "Quỹ đầu tư dùng toán học: Sharpe ratio, CAPM, efficient frontier"
 authors = ["Minh Hoàng"]

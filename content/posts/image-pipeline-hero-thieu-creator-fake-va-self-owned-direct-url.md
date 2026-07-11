@@ -2,6 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:30:00+07:00"
+commit = "f8496fd"
 description = "| Code | Safety | Mô tả | |------|--------|--------| | changedpostimagemissing | safe | Post mới/đổi thiếu hero đã verify | | selfownedimagedirecturl | safe |"
 draft = false
 image = "images/posts/image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url.webp"

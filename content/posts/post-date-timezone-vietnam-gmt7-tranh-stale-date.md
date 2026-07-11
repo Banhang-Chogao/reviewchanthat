@@ -2,6 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:35:00+07:00"
+commit = "f8496fd"
 description = "Hướng dẫn date_only_or_wrong_timezone (safe): luôn gắn +07:00, không dùng date-only UTC khiến QA STALE_DATE và thứ tự bài sai."
 draft = false
 image = "images/posts/post-date-timezone-vietnam-gmt7-tranh-stale-date.webp"

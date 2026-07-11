@@ -2,6 +2,7 @@
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
 description = "công ty bảo hiểm tính phí bảo hiểm bằng toán học gì? Học actuarial science, xác suất sống còn, hàm mũ e^(-λt), expected loss, present value, dự phòng kỹ thuật, và mô hình Monte Carlo."
 date = "2026-07-10T11:30:00+07:00"
+commit = "f8496fd"
 lastmod = "2026-07-10T11:30:00+07:00"
 seo_title = "công ty bảo hiểm: actuarial science, phí bảo hiểm, rủi ro"
 authors = ["Minh Hoàng"]

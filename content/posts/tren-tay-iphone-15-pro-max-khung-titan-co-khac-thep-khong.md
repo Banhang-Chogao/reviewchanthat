@@ -3,6 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:20:00+07:00"
+commit = "f8496fd"
 description = "phân tích khung titan iPhone 15 Pro Max so với thép đời cũ: trọng lượng 221g, độ bền, vết trầy, cảm giác cầm và lưu ý khi mua máy cũ."
 draft = false
 image = "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp"

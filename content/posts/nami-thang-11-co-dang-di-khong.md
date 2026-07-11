@@ -3,6 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T19:30:00+07:00"
+commit = "f8496fd"
 description = "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình nửa ngày, cách đi ITX từ Seoul và mẹo chọn tuần đi khi thời tiết lạnh hơn tháng 10."
 image = "images/posts/nami-thang-11-co-dang-di-khong.webp"
 image_attribution_checked_at = "2026-07-11T14:44:28+07:00"

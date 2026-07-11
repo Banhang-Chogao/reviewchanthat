@@ -3,6 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh"]
 date = "2026-07-10T05:58:08+07:00"
+commit = "f8496fd"
 description = "Tài sản số và crypto đang bước vào giai đoạn được quản lý rõ hơn tại Việt Nam. Người dùng cần hiểu khái niệm, rủi ro, điểm khác với tiền ảo và vì sao thí điểm sàn hợp pháp không đồng nghĩa với đầu tư không rủi ro."
 draft = false
 image = "images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp"

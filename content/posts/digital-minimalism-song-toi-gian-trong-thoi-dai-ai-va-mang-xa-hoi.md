@@ -4,6 +4,7 @@ title = "Digital Minimalism: sống tối giản trong thời đại AI và mạ
 seo_title = "Digital Minimalism: sống tối giản thời đại AI và mạng xã hội"
 description = "Digital minimalism là sống tối giản trong thời đại AI — cách giảm thiết bị, app, dữ liệu để tập trung vào điều thực sự quan trọng. Áp dụng cho người Việt."
 date = "2026-07-10T18:57:10+07:00"
+commit = "f8496fd"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"

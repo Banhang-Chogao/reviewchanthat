@@ -2,6 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:25:00+07:00"
+commit = "f8496fd"
 description = "| Code | Safety | Mô tả | |------|--------|--------| | baselinedebtblockingunrelateddeploy | unsafe | Nợ QA/image cũ fail full-site, chặn deploy feature mới | |"
 draft = false
 image = "images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp"

@@ -2,6 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:55:00+07:00"
+commit = "f8496fd"
 description = "| Code | Safety | Mô tả | |------|--------|--------| | hugobuilderror | unsafe | Build/render fail — cần đọc log, không đoán | | deploynotcompleted | unsafe |"
 draft = false
 image = "images/posts/hugo-build-duplicate-yaml-ai-summary-va-template-regression.webp"

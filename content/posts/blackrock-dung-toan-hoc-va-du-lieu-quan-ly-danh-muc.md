@@ -3,6 +3,7 @@ draft = false
 title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
 description = "BlackRock ($10 triliệu quản lý) dùng toán học nào? Học factor models, machine learning, ESG scoring, risk management, Aladdin platform, optimization algorithms."
 date = "2026-07-10T13:16:14+07:00"
+commit = "f8496fd"
 lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "BlackRock: factor models, machine learning, ESG, Aladdin"
 authors = ["Minh Hoàng"]

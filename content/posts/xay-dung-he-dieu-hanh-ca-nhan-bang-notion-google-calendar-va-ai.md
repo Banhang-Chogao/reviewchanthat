@@ -4,6 +4,7 @@ title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar
 seo_title = "Hệ điều hành cá nhân: Notion + Calendar + AI"
 description = "Cách ghép Notion, Google Calendar và AI thành personal OS: inbox, dự án, lịch, review tuần. Checklist, bảng so sánh, FAQ — không biến app thành nghĩa vụ thứ hai."
 date = "2026-07-10T14:58:30+07:00"
+commit = "f8496fd"
 lastmod = "2026-07-10T14:58:30+07:00"
 date_display = "10-07-2026 14:58:30 GMT +7"
 lastmod_display = "10-07-2026 14:58:30 GMT +7"

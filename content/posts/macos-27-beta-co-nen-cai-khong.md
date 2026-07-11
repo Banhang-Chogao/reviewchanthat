@@ -3,6 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T13:00:00+07:00"
+commit = "f8496fd"
 description = "Hướng dẫn cài macOS 27 public/developer beta: rủi ro ổn định, app ngân hàng, cách rollback và profile Apple Beta."
 draft = false
 image = "images/posts/macos-27-beta-co-nen-cai-khong.webp"

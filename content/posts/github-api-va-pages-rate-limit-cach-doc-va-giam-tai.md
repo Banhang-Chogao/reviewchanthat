@@ -2,6 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:15:00+07:00"
+commit = "f8496fd"
 description = "Hướng dẫn xử lý github_rate_limit và github_pages_rate_limit (unsafe): nhận diện 403/429, backoff, gom API call, tránh spam publish Pages."
 draft = false
 image = "images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp"

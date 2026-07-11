@@ -3,6 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song", "tai-chinh"]
 date = "2026-06-28T10:00:00+07:00"
+commit = "f8496fd"
 description = "Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu quả hơn."
 draft = false
 image = "images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp"
