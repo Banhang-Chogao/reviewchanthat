@@ -4,10 +4,23 @@ commit = "a56d289"
 date = 2026-07-11T10:00:00+07:00
 draft = false
 description = "Ký sự trekking Tà Năng Phan Dũng mùa cỏ xanh tháng 7. Hành trình độc hành xuyên rừng 3 tỉnh Lâm Đồng - Ninh Thuận - Bình Thuận. Cảm giác dựng lều giữa đỉnh đồi, cơn mưa rừng bất chợt và những bài học về sự sinh tồn."
-image = ""
-thumbnail = ""
+image = "images/posts/doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia.webp"
+thumbnail = "images/posts/doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia.webp"
 categories = ["Ký Sự Đường Đi"]
 tags = ["ta nang phan dung", "trekking", "doc hanh"]
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/dawn-on-the-plateau-4457930/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "chienba"
+image_creator_url = "https://pixabay.com/photos/dawn-on-the-plateau-4457930/"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pixabay_api"
+image_status = "verified"
 +++
 
 ![[IMAGE_API_QUERY: Ta Nang Phan Dung trail green hills and tent camping]][Đồi cỏ xanh mướt trên cung đường Tà Năng Phan Dũng mùa mưa]
