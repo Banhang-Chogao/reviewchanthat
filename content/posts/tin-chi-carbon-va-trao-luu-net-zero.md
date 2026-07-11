@@ -8,14 +8,14 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/tin-chi-carbon-va-trao-luu-net-zero.webp"
 thumbnail = "images/posts/tin-chi-carbon-va-trao-luu-net-zero.webp"
-image_status = "pending"
-image_creator = "Placeholder"
-image_creator_url = "https://www.pexels.com/"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/"
-image_license = "Pexels License"
-image_attribution_source = "pexels_api"
-image_attribution_verified = false
+image_status = "verified"
+image_creator = "stevepb"
+image_creator_url = "https://pixabay.com/photos/wallet-cash-pocket-credit-card-1013789/"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/wallet-cash-pocket-credit-card-1013789/"
+image_license = "Pixabay Content License"
+image_attribution_source = "pixabay_api"
+image_attribution_verified = true
 seo_title = "Tín chỉ carbon và Net Zero: phân tích thật từ thẻ Eco Techcombank"
 description = "Giải mã tín chỉ carbon, thị trường carbon và trào lưu Net Zero dưới góc nhìn tài chính; phân tích thẳng thắn case study thẻ Eco Debit của Techcombank – cơ chế bù trừ phát thải, con số thực và những giới hạn cần biết."
 
@@ -27,6 +27,14 @@ enabled = true
 collapsed = false
 disclaimer = "Bài viết phân tích khái niệm tín chỉ carbon, thị trường carbon và sản phẩm thẻ Eco Techcombank dựa trên thông tin công khai tính đến năm 2026; không phải tư vấn đầu tư, tài chính hay môi trường. Con số về lộ trình chính sách và giá tín chỉ có thể thay đổi – luôn kiểm tra nguồn chính thức trước khi ra quyết định."
 items = ["Tín chỉ carbon (carbon credit) = quyền phát thải 1 tấn CO2 tương đương (tCO2e); là công cụ tài chính để 'bù trừ' phát thải, không phải phép loại bỏ khí nhà kính trực tiếp.", "Net Zero khác Carbon Neutral: Net Zero yêu cầu cắt giảm phát thải tận gốc trước, chỉ bù trừ phần dư không thể xóa; Việt Nam cam kết Net Zero 2050 tại COP26.", "Thẻ Eco Debit của Techcombank (ra mắt 04/11/2024) là case study đáng chú ý: đo phát thải theo từng giao dịch, làm từ nhựa PVC tái chế, kết nối dự án bù trừ đạt chuẩn Gold Standard; ~150.000 thẻ và ~58.000 khách hàng mới trong vài tháng.", "Rủi ro cần cảnh giác: greenwashing, tính cộng thêm (additionality), tính bền vững của dự án trồng rừng, và việc bù trừ dễ trở thành 'giấy phép xả thải' nếu không đi kèm giảm phát thải thật."]
+image_provider = "pixabay"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator_id = ""
+image_attribution_checked_at = "2026-07-11T18:26:12+07:00"
+image_query = "credit card finance desk"
+image_alt = "Ảnh minh họa Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank — nguồn Pixabay"
 +++
 
 Vài năm gần đây, hai cụm từ "tín chỉ carbon" và "Net Zero" xuất hiện dày đặc từ nghị trường COP, báo cáo thường niên của doanh nghiệp cho tới… mặt sau một chiếc thẻ ngân hàng. Nhưng đằng sau lớp vỏ marketing bóng bẩy, có bao nhiêu người thật sự hiểu một tín chỉ carbon là gì, nó được định giá ra sao, và liệu những sản phẩm "xanh" như thẻ Eco của Techcombank có thực sự cứu được khí hậu hay chỉ là một nước cờ truyền thông? Bài viết này mổ xẻ vấn đề dưới góc nhìn tài chính lạnh lùng, đúng tinh thần Review Chân Thật: khen chỗ đáng khen, và chỉ thẳng chỗ cần dè chừng.
