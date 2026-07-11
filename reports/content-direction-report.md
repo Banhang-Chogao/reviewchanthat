@@ -1,6 +1,6 @@
 # Báo cáo Content Direction
 
-_Tạo lúc: 11-07-2026 21:00:01_
+_Tạo lúc: 11-07-2026 21:11:29_
 
 ## 1. Tổng quan
 

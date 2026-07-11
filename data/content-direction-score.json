@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-11T20:04:35+07:00",
-  "generated_at_display": "11-07-2026 20:04:35",
-  "score": 72.5,
+  "generated_at": "2026-07-11T21:12:19+07:00",
+  "generated_at_display": "11-07-2026 21:12:19",
+  "score": 100,
   "components": {
-    "seo_titles": 10.7,
+    "seo_titles": 15.0,
     "meta_descriptions": 15.0,
-    "internal_links": 17.9,
-    "orphan_posts": 14.0,
+    "internal_links": 25.0,
+    "orphan_posts": 20.0,
     "freshness": 9.9,
-    "content_gaps": 0,
+    "content_gaps": 10,
     "data_integrity": 5.0
   },
   "target": 100,
-  "remaining_action_items": 5
+  "remaining_action_items": 1
 }
