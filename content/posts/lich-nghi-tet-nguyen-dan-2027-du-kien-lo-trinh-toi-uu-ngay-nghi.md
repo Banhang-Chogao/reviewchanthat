@@ -18,18 +18,18 @@ series_title = "Tết Nguyên Đán Đinh Mùi 2027"
 slug = "lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi"
 image = "images/posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.webp"
 thumbnail = "images/posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.webp"
-image_alt = "Lịch để bàn và kế hoạch nghỉ Tết Nguyên Đán 2027 — minh họa lộ trình xếp ngày nghỉ"
+image_alt = "Ảnh minh họa Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ — nguồn Pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/vi-vn/tim-kiem/calendar%20planning/"
+image_source_url = "https://www.pexels.com/photo/lively-vietnamese-market-celebration-in-binh-d-ng-36610697/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = ""
-image_creator_url = ""
-image_attribution_verified = false
-image_status = "pending"
+image_creator = "Vyvan BÙI VY VÂN"
+image_creator_url = "https://www.pexels.com/@vyvan-bui-vy-van-1139609066"
+image_attribution_verified = true
+image_status = "verified"
 
 [ai_summary]
 enabled = true
@@ -60,11 +60,13 @@ title = "Review dịch vụ đặt vé máy bay/tàu hỏa Tết 2027: mẹo să
 [[internal_links]]
 ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
 title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: quà tặng xanh và sức khỏe"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-11T22:00:11+07:00"
+image_query = "lịch nghỉ tết nguyên đán"
 +++
 
 Cứ mỗi độ tháng Chạp cận kề, câu hỏi được tìm nhiều nhất không phải là "ăn gì" hay "chơi đâu", mà là **"năm nay được nghỉ Tết mấy ngày và nghỉ từ hôm nào?"**. Với Tết Nguyên Đán Đinh Mùi 2027, tôi viết bài này sớm — từ giữa năm 2026 — để bạn có một khung tính toán đủ dùng, thay vì chờ tin đồn trên mạng xã hội. Xin nói rõ ngay từ đầu: **toàn bộ lịch dưới đây là dự kiến**. Lịch nghỉ lễ chính thức của khối hành chính, sự nghiệp và khối doanh nghiệp do Chính phủ cùng Bộ Lao động - Thương binh và Xã hội công bố, thường vào khoảng cuối năm liền trước. Cái tôi làm ở đây là bóc tách cách người ta *ra* con số đó, để bạn tự kiểm chứng.
-
-![Minh họa lập kế hoạch nghỉ Tết trên lịch để bàn](/images/posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi-inline.webp)
 
 ## Mùng 1 Tết Đinh Mùi 2027 rơi vào ngày nào?
 
