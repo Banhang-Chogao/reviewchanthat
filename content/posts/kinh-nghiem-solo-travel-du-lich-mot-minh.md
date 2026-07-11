@@ -1,6 +1,6 @@
 +++
 title = "Kinh Nghiệm Du Lịch Tự Túc Một Mình (Solo Travel) An Toàn Và Trọn Vẹn"
-commit = "2626d5c"
+commit = "279773a"
 date = "2026-07-11 14:10:00+07:00"
 draft = false
 tags = ["solo travel", "du lich tu tuc", "trai nghiem"]
