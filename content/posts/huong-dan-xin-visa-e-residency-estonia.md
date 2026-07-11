@@ -1,6 +1,6 @@
 +++
 title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
-commit = "0db2a4c"
+commit = "b7a27d8"
 date = "2026-07-11T14:00:00+07:00"
 draft = false
 description = "Hướng dẫn chi tiết chương trình e-Residency Estonia - công dân điện tử đầu tiên trên thế giới. Quyền lợi mở công ty chuẩn EU từ xa, quản lý thuế trực tuyến, mở tài khoản ngân hàng châu Âu. Chi phí, hồ sơ, quy trình nộp đơn và lưu ý cho người Việt Nam."

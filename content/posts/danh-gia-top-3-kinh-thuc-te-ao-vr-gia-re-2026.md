@@ -1,6 +1,6 @@
 +++
 title = "Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026"
-commit = "0db2a4c"
+commit = "b7a27d8"
 date = "2026-07-11T12:35:00+07:00"
 draft = false
 tags = ["kinh vr", "thiet bi cong nghe", "vr gia re"]

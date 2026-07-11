@@ -1,6 +1,6 @@
 +++
 title = "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?"
-commit = "0db2a4c"
+commit = "b7a27d8"
 date = "2026-07-11T14:20:00+07:00"
 draft = false
 tags = ["quang binh", "hang dong", "du lich mao hiem"]

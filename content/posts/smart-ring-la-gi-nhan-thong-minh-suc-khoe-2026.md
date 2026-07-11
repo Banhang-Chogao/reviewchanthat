@@ -1,6 +1,6 @@
 +++
 title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
-commit = "0db2a4c"
+commit = "b7a27d8"
 date = "2026-07-11T12:50:00+07:00"
 draft = false
 tags = ["smart ring", "health tracking", "wearable"]

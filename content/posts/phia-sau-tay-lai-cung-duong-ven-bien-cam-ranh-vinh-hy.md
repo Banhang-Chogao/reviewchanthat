@@ -1,6 +1,6 @@
 +++
 title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
-commit = "0db2a4c"
+commit = "b7a27d8"
 date = "2026-07-11T09:00:00+07:00"
 draft = false
 description = "Ký sự road trip cung đường ven biển Cam Ranh – Vĩnh Hy – một trong những cung đường đẹp nhất Việt Nam. Câu chuyện về vẻ đẹp đối lập giữa vách núi khô cằn Vườn quốc gia Núi Chúa và làn nước ngọc bích vịnh Vĩnh Hy, những làng chài cổ và cảm giác tự do cuối ngày."

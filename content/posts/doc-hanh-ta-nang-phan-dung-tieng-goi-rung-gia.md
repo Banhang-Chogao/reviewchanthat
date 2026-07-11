@@ -1,6 +1,6 @@
 +++
 title = "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ"
-commit = "0db2a4c"
+commit = "b7a27d8"
 date = "2026-07-11T10:00:00+07:00"
 draft = false
 description = "Ký sự trekking Tà Năng Phan Dũng mùa cỏ xanh tháng 7. Hành trình độc hành xuyên rừng 3 tỉnh Lâm Đồng - Ninh Thuận - Bình Thuận. Cảm giác dựng lều giữa đỉnh đồi, cơn mưa rừng bất chợt và những bài học về sự sinh tồn."

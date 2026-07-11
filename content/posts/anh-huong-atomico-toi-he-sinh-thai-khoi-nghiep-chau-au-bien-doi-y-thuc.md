@@ -1,6 +1,6 @@
 +++
 title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
-commit = "59cb2bf"
+commit = "3102446"
 date = "2026-07-11T15:00:00+07:00"
 draft = false
 description = "Khám phá ảnh hưởng sâu sắc của Atomico tới hệ sinh thái khởi nghiệp châu Âu. Cách Atomico đã thay đổi cách các nhà đầu tư nhìn nhận Châu Âu, cách các nhà khởi nghiệp suy nghĩ về bản thân họ, và cách Châu Âu được coi là một trung tâm công nghệ toàn cầu."
@@ -8,6 +8,8 @@ image = "images/posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bie
 thumbnail = "images/posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.webp"
 categories = ["Công Nghệ", "Khởi Nghiệp", "Hệ Sinh Thái"]
 tags = ["atomico", "startup", "châu âu", "hệ sinh thái", "ảnh hưởng", "venture capital"]
+date_display = "11-07-2026 15:00:00 GMT +7"
++++
 commit = ""
 image_source = "Pexels"
 image_provider = "pexels"
