@@ -6,9 +6,14 @@ categories = ["travel"]
 tags = ["Norway", "sovereign-wealth-fund", "economics", "sustainability", "investment"]
 author = "Duy Nguyen"
 image = "https://images.pexels.com/photos/3532557/pexels-photo-3532557.jpeg"
-image_creator = "Pixabay"
-image_source_url = "https://www.pexels.com/photo/financial-growth-3532557/"
+image_creator = "Kaboompics"
+image_creator_url = "https://www.pexels.com/@kaboompics"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
 image_license = "Pexels License"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/financial-growth-3532557/"
 thumbnail = "https://images.pexels.com/photos/3532557/pexels-photo-3532557.jpeg"
 +++
 

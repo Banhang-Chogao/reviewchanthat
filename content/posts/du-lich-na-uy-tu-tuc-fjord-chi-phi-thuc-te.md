@@ -7,8 +7,13 @@ tags = ["Norway", "independent-travel", "fjord", "budget", "Scandinavia"]
 author = "Duy Nguyen"
 image = "https://images.pexels.com/photos/1619388/pexels-photo-1619388.jpeg"
 image_creator = "Jens Johnsson"
-image_source_url = "https://www.pexels.com/photo/lofoten-1619388/"
+image_creator_url = "https://www.pexels.com/@jens-johnsson"
+image_attribution_source = "pexels_api"
+image_attribution_verified = true
+image_commercial_use = true
 image_license = "Pexels License"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/lofoten-1619388/"
 thumbnail = "https://images.pexels.com/photos/1619388/pexels-photo-1619388.jpeg"
 +++
 
