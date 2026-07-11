@@ -229,6 +229,38 @@ def apply_fallback(slug):
             continue
 
 
+# Attribution content fields compared to decide whether image_attribution_checked_at
+# should be bumped. If none of these differ from the existing frontmatter, the
+# "checked_at" timestamp is preserved so re-running the pipeline doesn't rewrite
+# every post with a new timestamp (idempotency — avoids diff churn).
+ATTRIBUTION_CONTENT_KEYS = (
+    "image", "thumbnail", "image_source", "image_source_url", "image_license",
+    "image_license_url", "image_commercial_use", "image_owner",
+    "image_creator", "image_creator_url", "image_creator_id",
+    "image_attribution_verified", "image_attribution_source",
+    "image_attribution_error",
+)
+
+
+def preserve_checked_at(meta, updates):
+    """Keep the existing checked_at unless an attribution field actually changed.
+
+    Mutates ``updates`` in place: when nothing substantive changed and the post
+    already has a checked_at value, restore that value instead of the fresh one.
+    """
+    def norm(x):
+        return "" if x is None else x
+
+    changed = any(
+        norm(meta.get(k)) != norm(updates[k])
+        for k in ATTRIBUTION_CONTENT_KEYS
+        if k in updates
+    )
+    existing = meta.get("image_attribution_checked_at")
+    if not changed and existing:
+        updates["image_attribution_checked_at"] = existing
+
+
 def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url,
                             license_val, commercial_use, owner="external", creator="",
                             creator_url="", creator_id="", gate_meta=None, image_status=None,
@@ -308,6 +340,7 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
             print(f"    ERROR: Corrupt TOML frontmatter: {fname}: {e}")
             return False
         original_date = meta.get("date")
+        preserve_checked_at(meta, updates)
 
         for k in removes:
             fm_text = remove_key(fm_text, k)
@@ -339,6 +372,7 @@ def update_post_frontmatter(slug, image_path, thumbnail_path, source, source_url
     post = frontmatter.load(fpath)
     meta = post.metadata
     original_date = meta.get("date")
+    preserve_checked_at(meta, updates)
     for k in removes:
         meta.pop(k, None)
     for k, v in updates.items():
