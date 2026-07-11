@@ -1,6 +1,6 @@
 +++
 title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
-commit = "25bc14d"
+commit = "521256f"
 date = "2026-07-11T14:44:57+07:00"
 draft = false
 description = "Khám phá lối sống xanh và triết lý sống gần gũi thiên nhiên của người Estonia. Trải nghiệm đi bộ trên đầm lầy (bog-walking), văn hóa tắm hơi khói Smoke Sauna UNESCO, và cuộc sống bền vững giữa rừng già Bắc Âu."

@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]
-commit = "25bc14d"
+commit = "521256f"
 date = "2026-07-11T10:00:00+07:00"
 description = "Phân tích mô hình quản lý phẳng (Flat Hierarchy) Thụy Điển qua câu chuyện IKEA và Volvo — từ tầm nhìn của Ingvar Kamprad đến văn hóa doanh nghiệp Bắc Âu. Bài học áp dụng cho doanh nghiệp Việt Nam."
 draft = false
