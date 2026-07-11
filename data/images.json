@@ -5426,7 +5426,37 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "huong-dan-danh-gia-luat-chuyen-doi-so-2025",
+      "title": "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?",
+      "image_id": "pexels-5668781",
+      "source_platform": "Pexels",
+      "image_provider": "pixabay",
+      "source_url": "https://www.pexels.com/photo/5668781/",
+      "direct_url": "https://images.pexels.com/photos/5668781/pexels-photo-5668781.jpeg",
+      "creator": "Sora Shimazaki",
+      "creator_url": "https://www.pexels.com/@sora-shimazaki",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/huong-dan-danh-gia-luat-chuyen-doi-so-2025.jpg",
+      "output_path": "static/images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp",
+      "watermark_text": "Source: Pixabay / Suhai_hilal",
+      "provider_used": "Pixabay",
+      "attribution_verified": true,
+      "attribution_source": "pixabay_api",
+      "image_query": "điểm luật chuyển đổi số",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì? — nguồn Pixabay",
+      "gate_verified": true,
+      "provider": "pexels",
+      "api_selected": "Pexels"
     }
   ],
-  "generated_at": "2026-07-11T04:07:07.341581+00:00"
+  "generated_at": "2026-07-11T04:27:02.899348+00:00"
 }
