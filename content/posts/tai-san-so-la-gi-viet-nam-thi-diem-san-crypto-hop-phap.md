@@ -60,6 +60,9 @@ url = "https://vneconomy.vn/bo-tai-chinh-thong-tin-ve-5-ho-so-cap-phep-san-giao-
 [[external_links]]
 title = "NHNN: Bitcoin và các loại tiền ảo tương tự không phải phương tiện thanh toán hợp pháp (Báo Chính phủ)"
 url = "https://baochinhphu.vn/nhnn-cam-su-dung-bitcoin-102229280.htm"
+[[internal_links]]
+ref = "posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.md"
+title = "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?"
 +++
 
 ## Vì sao "tài sản số" bỗng thành từ khóa nóng?

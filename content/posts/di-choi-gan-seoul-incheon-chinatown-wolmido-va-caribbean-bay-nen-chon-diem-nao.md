@@ -71,6 +71,12 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Thời gian đọc"
+[[internal_links]]
+ref = "posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md"
+title = "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình"
+[[internal_links]]
+ref = "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md"
+title = "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?"
 +++
 
 Một điều bất ngờ trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best là gần một nửa số điểm nằm ở khu vực gần Seoul. Nếu bạn có 1–2 ngày rảnh, đây là những lựa chọn đáng cân nhắc.

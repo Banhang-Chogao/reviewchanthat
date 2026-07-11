@@ -78,6 +78,12 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = ""
+[[internal_links]]
+ref = "posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.md"
+title = "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý"
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md"
+title = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ"
 +++
 
 Ngắm bình minh trên miệng núi lửa là trải nghiệm theo mình không thể bỏ qua khi đến Jeju. Hoạt động này được xếp hạng 5 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và Seongsan Ilchulbong là điểm đến số một cho việc này.

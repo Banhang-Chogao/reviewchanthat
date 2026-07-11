@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-11T21:11:29+07:00",
-  "generated_at_display": "11-07-2026 21:11:29",
+  "generated_at": "2026-07-11T21:34:20+07:00",
+  "generated_at_display": "11-07-2026 21:34:20",
   "summary": {
     "total_posts": 276,
     "draft_posts": 0,
@@ -2212,7 +2212,7 @@
       {
         "slug": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
         "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
-        "age_days": 2,
+        "age_days": 3,
         "date": "08-07-2026 21:30:00"
       },
       {
@@ -2854,58 +2854,58 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1974,
-    "average_outbound_per_post": 7.15,
+    "total_outbound_links": 1213,
+    "average_outbound_per_post": 4.39,
     "top_linked_posts": [
       {
-        "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
-        "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
-        "inbound": 37
+        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "inbound": 18
       },
       {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
-        "inbound": 34
+        "inbound": 17
       },
       {
         "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
-        "inbound": 33
+        "inbound": 17
       },
       {
-        "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
-        "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
-        "inbound": 26
+        "slug": "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi",
+        "title": "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?",
+        "inbound": 15
       },
       {
-        "slug": "di-han-thang-10-mac-gi",
-        "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
-        "inbound": 25
-      },
-      {
-        "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
-        "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
-        "inbound": 24
-      },
-      {
-        "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
-        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
-        "inbound": 24
-      },
-      {
-        "slug": "thoi-tiet-han-quoc-thang-10",
-        "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
-        "inbound": 23
-      },
-      {
-        "slug": "thoi-tiet-han-quoc-thang-11",
-        "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
-        "inbound": 22
+        "slug": "di-han-thang-10-co-dep-khong",
+        "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
+        "inbound": 14
       },
       {
         "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
-        "inbound": 19
+        "inbound": 14
+      },
+      {
+        "slug": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+        "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+        "inbound": 12
+      },
+      {
+        "slug": "thoi-tiet-han-quoc-thang-10",
+        "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
+        "inbound": 12
+      },
+      {
+        "slug": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
+        "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
+        "inbound": 12
+      },
+      {
+        "slug": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
+        "title": "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình",
+        "inbound": 11
       }
     ],
     "orphan_posts": [],

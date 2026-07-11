@@ -58,6 +58,12 @@ value = "Đẹp nhất năm"
 [[tom_tat_nhanh]]
 label = "Phù hợp"
 value = "Chụp ảnh, cafe, văn hóa"
+[[internal_links]]
+ref = "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
+title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu"
+[[internal_links]]
+ref = "posts/busan-thang-10-nen-di-dau.md"
+title = "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng"
 +++
 
 ## Chiang Mai mùa mưa — mùa đẹp nhất mà ít người nói đến

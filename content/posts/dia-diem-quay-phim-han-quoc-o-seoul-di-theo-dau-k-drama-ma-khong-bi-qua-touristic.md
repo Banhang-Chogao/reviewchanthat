@@ -74,6 +74,12 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = ""
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+[[internal_links]]
+ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
+title = "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình"
 +++
 
 Có một cách khám phá Seoul mà mình thấy cực kỳ thú vị nhưng không bị "touristic" — đó là đi theo dấu các bộ phim Hàn Quốc. Hoạt động này xếp hạng 9 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình thì nó xứng đáng cao hơn nếu bạn là fan K-drama.

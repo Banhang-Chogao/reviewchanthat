@@ -1,6 +1,6 @@
 # Báo cáo Content Direction
 
-_Tạo lúc: 11-07-2026 21:11:29_
+_Tạo lúc: 11-07-2026 21:34:20_
 
 ## 1. Tổng quan
 
@@ -43,8 +43,8 @@ _Tạo lúc: 11-07-2026 21:11:29_
 
 ## 6. Internal Linking
 
-- Outbound links: 1974
-- TB outbound/bài: 7.15
+- Outbound links: 1213
+- TB outbound/bài: 4.39
 - Orphan: 0
 - Thiếu outbound: 0
 

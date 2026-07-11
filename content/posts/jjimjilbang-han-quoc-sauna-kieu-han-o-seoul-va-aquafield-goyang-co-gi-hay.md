@@ -74,6 +74,12 @@ label = "Đi mùa nào hợp"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
 +++
 
 Jjimjilbang — nhà tắm hơi kiểu Hàn — là thứ mà mình nghĩ ai đi Hàn Quốc cũng nên thử ít nhất một lần. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa thuần chất Hàn mà bạn khó tìm thấy ở nơi khác.

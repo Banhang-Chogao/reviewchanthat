@@ -78,6 +78,12 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = ""
+[[internal_links]]
+ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
+title = "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?"
+[[internal_links]]
+ref = "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md"
+title = "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông"
 +++
 
 Nếu bạn chỉ có một ngày và muốn trải nghiệm văn hóa Hàn Quốc đúng nghĩa, Suwon là lựa chọn dễ nhất. Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), Suwon có ba điểm: Hwaseong Fortress (hạng 13), Hwaseong Haenggung (hạng 14) và Korean Folk Village (hạng 19).

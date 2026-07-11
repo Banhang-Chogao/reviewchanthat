@@ -31,6 +31,12 @@ enabled = true
 items = ["Đà Nẵng là điểm đến nội địa được người Việt tìm kiếm mạnh nhất cho mùa hè 2026.", "Lịch trình 4 ngày 3 đêm: biển Mỹ Khê, Sơn Trà/Ngũ Hành Sơn, Hội An/Bà Nà, nghỉ tránh nóng.", "Chọn khu ở theo nhu cầu: gần biển cho nghỉ, sông Hàn cho ăn uống.", "Đặt phòng sớm, tránh outdoor giữa trưa, có phương án khi mưa/nắng gắt."]
 image_query = "du lịch đà nẵng hè"
 image_alt = "Ảnh minh họa Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels"
+[[internal_links]]
+ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
+title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
+[[internal_links]]
+ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
+title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
 +++
 ## Vì sao Đà Nẵng hè 2026?
 

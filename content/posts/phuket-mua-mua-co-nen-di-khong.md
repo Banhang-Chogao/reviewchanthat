@@ -55,6 +55,15 @@ label = "Tour đảo"
 
 [[tom_tat_nhanh]]
 label = "Chi phí"
+[[internal_links]]
+ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
+title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+[[internal_links]]
+ref = "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
+title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu"
 +++
 
 ## Phuket mùa mưa — nên đi hay không?

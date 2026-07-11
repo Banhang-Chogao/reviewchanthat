@@ -58,6 +58,15 @@ label = "Di chuyển"
 value = "BTS + MRT"
 image_attribution_checked_at = "2026-07-11T17:30:35+07:00"
 image_query = "mobile banking payment app"
+[[internal_links]]
+ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
+title = "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình"
+[[internal_links]]
+ref = "posts/bangkok-3-ngay-3-dem-mua-mua.md"
+title = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu"
+[[internal_links]]
+ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
+title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
 +++
 
 Mưa ở Bangkok thường đến bất ngờ. Bạn đang đi dạo trên phố, trời nắng đẹp, và 15 phút sau mưa như trút nước. Nhưng điểm mạnh của Bangkok là bạn hiếm khi bị kẹt giữa cơn mưa mà không có chỗ trú — bởi thành phố này có một hệ thống mall, BTS skywalk, và indoor attractions phủ khắp trung tâm.

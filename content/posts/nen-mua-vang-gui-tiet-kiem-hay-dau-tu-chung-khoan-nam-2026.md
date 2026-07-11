@@ -24,6 +24,15 @@ image_status = "verified"
 image_provider = "pexels"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026? — nguồn Pexels"
+[[internal_links]]
+ref = "posts/personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund.md"
+title = "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?"
+[[internal_links]]
+ref = "posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md"
+title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
+[[internal_links]]
+ref = "posts/bangkok-3-ngay-3-dem-mua-mua.md"
+title = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu"
 +++
 [ai_summary]
 enabled = true
