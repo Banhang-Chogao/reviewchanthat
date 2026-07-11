@@ -1,0 +1,327 @@
+{{ define "main" }}
+<div class="cv-generator">
+  <div class="cv-generator__hero">
+    <div class="cv-generator__hero-content container">
+      <div class="cv-generator__hero-title-row">
+        <h1 class="cv-generator__hero-title">CV Generator</h1>
+        <div class="cv-generator__version" id="cvVersionBadge">Phiên bản dịch vụ: {{ .Site.Data.version.version_date }}-{{ .Site.Data.version.commit_short }}</div>
+        <button class="cv-generator__lock-btn" id="cvLockBtn" style="display:none">Reset</button>
+      </div>
+      <p class="cv-generator__hero-subtitle">Tạo CV chuyên nghiệp với AI — Soạn thảo, tối ưu ATS, xuất PDF/DOCX.</p>
+    </div>
+  </div>
+
+  <div class="cv-gate" id="cvGate">
+    <div class="cv-gate__card">
+      <h2 class="cv-gate__heading">CV Generator</h2>
+      <p class="cv-gate__desc">Nhập mã truy cập để sử dụng công cụ tạo CV.</p>
+      <div class="cv-gate__form">
+        <input type="password" id="cvGateInput" class="cv-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="Mã số">
+        <button class="cv-gate__unlock" id="cvGateUnlock">Mở khóa</button>
+      </div>
+      <p class="cv-gate__error" id="cvGateError"></p>
+      <p class="cv-gate__hint">Dùng lại mã truy cập của mục Author trong About.</p>
+    </div>
+  </div>
+
+  <div class="cv-app container" id="cvApp" style="display:none">
+    <div class="cv-kpis" id="cvKpis">
+      <div class="cv-kpi">
+        <span class="cv-kpi__label">Completion</span>
+        <span class="cv-kpi__value" id="cvKpiCompletion">0%</span>
+        <div class="cv-kpi__progress"><div class="cv-kpi__progress-fill" id="cvKpiProgressFill" style="width:0%"></div></div>
+      </div>
+      <div class="cv-kpi">
+        <span class="cv-kpi__label">Missing Fields</span>
+        <span class="cv-kpi__value" id="cvKpiMissing">0</span>
+      </div>
+      <div class="cv-kpi">
+        <span class="cv-kpi__label">ATS Readiness</span>
+        <span class="cv-kpi__value" id="cvKpiAts">0%</span>
+      </div>
+      <div class="cv-kpi">
+        <span class="cv-kpi__label">Recruiter Score</span>
+        <span class="cv-kpi__value" id="cvKpiScore">0</span>
+      </div>
+    </div>
+
+    <div class="cv-layout">
+      <div class="cv-form-panel" id="cvFormPanel">
+        <form class="cv-form" id="cvForm" novalidate>
+          <fieldset class="cv-fieldset" id="cvSectionPersonal">
+            <legend class="cv-fieldset__legend">Personal Information</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvFullName">Full Name <span class="cv-required">*</span></label>
+              <input type="text" id="cvFullName" class="cv-field__input" required placeholder="Nguyen Van A" aria-describedby="cvFullNameError">
+              <span class="cv-field__error" id="cvFullNameError"></span>
+            </div>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvEmail">Email <span class="cv-required">*</span></label>
+              <input type="email" id="cvEmail" class="cv-field__input" required placeholder="nguyenvana@example.com">
+              <span class="cv-field__error" id="cvEmailError"></span>
+            </div>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvPhone">Phone <span class="cv-required">*</span></label>
+              <input type="tel" id="cvPhone" class="cv-field__input" required placeholder="+84 90 123 4567">
+            </div>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvAddress">Address</label>
+              <input type="text" id="cvAddress" class="cv-field__input" placeholder="Ho Chi Minh City, Vietnam">
+            </div>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvLinkedin">LinkedIn</label>
+              <input type="url" id="cvLinkedin" class="cv-field__input" placeholder="https://linkedin.com/in/...">
+            </div>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvWebsite">Website / Portfolio</label>
+              <input type="url" id="cvWebsite" class="cv-field__input" placeholder="https://...">
+            </div>
+            <div class="cv-photo-placeholder" id="cvPhotoPlaceholder">
+              <div class="cv-photo-placeholder__frame">
+                <span class="cv-photo-placeholder__icon">📷</span>
+                <span class="cv-photo-placeholder__note">Attach Passport Photo</span>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionObjective">
+            <legend class="cv-fieldset__legend">Career Objective</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvObjective">Objective <span class="cv-required">*</span></label>
+              <textarea id="cvObjective" class="cv-field__textarea" rows="3" required placeholder="Write a brief career objective..."></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionEducation">
+            <legend class="cv-fieldset__legend">Education</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvSchool">School / University <span class="cv-required">*</span></label>
+              <input type="text" id="cvSchool" class="cv-field__input" required placeholder="University of Science">
+            </div>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvDegree">Degree <span class="cv-required">*</span></label>
+              <input type="text" id="cvDegree" class="cv-field__input" required placeholder="Bachelor of Computer Science">
+            </div>
+            <div class="cv-field-row">
+              <div class="cv-field">
+                <label class="cv-field__label" for="cvEduStart">Start Year</label>
+                <input type="number" id="cvEduStart" class="cv-field__input" placeholder="2018" min="1990" max="2030">
+              </div>
+              <div class="cv-field">
+                <label class="cv-field__label" for="cvEduEnd">End Year</label>
+                <input type="number" id="cvEduEnd" class="cv-field__input" placeholder="2022" min="1990" max="2030">
+              </div>
+            </div>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvEduGpa">GPA</label>
+              <input type="text" id="cvEduGpa" class="cv-field__input" placeholder="3.5 / 4.0">
+            </div>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionExperience">
+            <legend class="cv-fieldset__legend">Work Experience</legend>
+            <div id="cvExperienceList">
+              <div class="cv-experience-item" data-index="0">
+                <div class="cv-field">
+                  <label class="cv-field__label">Company <span class="cv-required">*</span></label>
+                  <input type="text" class="cv-field__input cv-exp-company" required placeholder="Company name">
+                </div>
+                <div class="cv-field">
+                  <label class="cv-field__label">Position <span class="cv-required">*</span></label>
+                  <input type="text" class="cv-field__input cv-exp-position" required placeholder="Job title">
+                </div>
+                <div class="cv-field-row">
+                  <div class="cv-field">
+                    <label class="cv-field__label">Start Date</label>
+                    <input type="text" class="cv-field__input cv-exp-start" placeholder="Jan 2020">
+                  </div>
+                  <div class="cv-field">
+                    <label class="cv-field__label">End Date</label>
+                    <input type="text" class="cv-field__input cv-exp-end" placeholder="Present">
+                  </div>
+                </div>
+                <div class="cv-field">
+                  <label class="cv-field__label">Description <span class="cv-required">*</span></label>
+                  <textarea class="cv-field__textarea cv-exp-desc" rows="3" required placeholder="Describe your responsibilities and achievements..."></textarea>
+                </div>
+                <button type="button" class="cv-field__remove cv-exp-remove" title="Remove experience">Remove</button>
+              </div>
+            </div>
+            <button type="button" class="cv-field__add" id="cvAddExperience">+ Add Experience</button>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionProjects">
+            <legend class="cv-fieldset__legend">Projects</legend>
+            <div id="cvProjectsList">
+              <div class="cv-project-item" data-index="0">
+                <div class="cv-field">
+                  <label class="cv-field__label">Project Name</label>
+                  <input type="text" class="cv-field__input cv-proj-name" placeholder="Project name">
+                </div>
+                <div class="cv-field">
+                  <label class="cv-field__label">Description</label>
+                  <textarea class="cv-field__textarea cv-proj-desc" rows="2" placeholder="Brief description and your role..."></textarea>
+                </div>
+                <div class="cv-field">
+                  <label class="cv-field__label">Technologies</label>
+                  <input type="text" class="cv-field__input cv-proj-tech" placeholder="React, Node.js, PostgreSQL">
+                </div>
+                <div class="cv-field">
+                  <label class="cv-field__label">URL</label>
+                  <input type="url" class="cv-field__input cv-proj-url" placeholder="https://github.com/...">
+                </div>
+                <button type="button" class="cv-field__remove cv-proj-remove" title="Remove project">Remove</button>
+              </div>
+            </div>
+            <button type="button" class="cv-field__add" id="cvAddProject">+ Add Project</button>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionSkills">
+            <legend class="cv-fieldset__legend">Skills</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvSkills">Skills (comma separated)</label>
+              <textarea id="cvSkills" class="cv-field__textarea" rows="3" placeholder="JavaScript, Python, React, Node.js, Docker, PostgreSQL, AWS"></textarea>
+              <div class="cv-skills-tags" id="cvSkillsTags"></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionCertifications">
+            <legend class="cv-fieldset__legend">Certifications</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvCerts">Certifications (one per line)</label>
+              <textarea id="cvCerts" class="cv-field__textarea" rows="3" placeholder="AWS Solutions Architect - 2024
+Google Cloud Professional - 2023"></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionLanguages">
+            <legend class="cv-fieldset__legend">Languages</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvLanguages">Languages (one per line: Language - Level)</label>
+              <textarea id="cvLanguages" class="cv-field__textarea" rows="2" placeholder="Vietnamese - Native
+English - Fluent
+Japanese - N3"></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionAwards">
+            <legend class="cv-fieldset__legend">Awards</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvAwards">Awards (one per line)</label>
+              <textarea id="cvAwards" class="cv-field__textarea" rows="2" placeholder="Best Employee of the Year 2023
+Dean's List 2020-2022"></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionActivities">
+            <legend class="cv-fieldset__legend">Activities</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvActivities">Activities / Volunteer (one per line)</label>
+              <textarea id="cvActivities" class="cv-field__textarea" rows="2" placeholder="Volunteer Tutor at ... - 2023"></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionReferences">
+            <legend class="cv-fieldset__legend">References</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvReferences">References</label>
+              <textarea id="cvReferences" class="cv-field__textarea" rows="2" placeholder="Available upon request"></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="cv-fieldset" id="cvSectionAdditional">
+            <legend class="cv-fieldset__legend">Additional Information</legend>
+            <div class="cv-field">
+              <label class="cv-field__label" for="cvAdditional">Additional Info</label>
+              <textarea id="cvAdditional" class="cv-field__textarea" rows="3" placeholder="Driving license, publications, patents, etc."></textarea>
+            </div>
+          </fieldset>
+        </form>
+
+        <div class="cv-ai-panel" id="cvAiPanel">
+          <h3 class="cv-ai-panel__title">AI Assistant</h3>
+          <div class="cv-ai-panel__btns">
+            <button type="button" class="cv-ai-btn" data-action="improve-objective">Improve Objective</button>
+            <button type="button" class="cv-ai-btn" data-action="improve-experience">Improve Experience</button>
+            <button type="button" class="cv-ai-btn" data-action="rewrite-bullets">Rewrite Bullet Points</button>
+            <button type="button" class="cv-ai-btn" data-action="professional-tone">Professional Tone</button>
+            <button type="button" class="cv-ai-btn" data-action="shorter">Shorter</button>
+            <button type="button" class="cv-ai-btn" data-action="more-impact">More Impact</button>
+            <button type="button" class="cv-ai-btn" data-action="grammar-check">Grammar Check</button>
+            <button type="button" class="cv-ai-btn" data-action="ats-optimize">ATS Optimization</button>
+            <button type="button" class="cv-ai-btn" data-action="suggest-skills">Generate Skills Suggestions</button>
+            <button type="button" class="cv-ai-btn" data-action="achievement-bullets">Generate Achievement Bullets</button>
+          </div>
+          <div class="cv-ai-panel__result" id="cvAiResult" style="display:none">
+            <div class="cv-ai-panel__result-content" id="cvAiResultContent"></div>
+            <button type="button" class="cv-ai-btn cv-ai-btn--apply" id="cvAiApply">Apply to CV</button>
+          </div>
+        </div>
+
+        <div class="cv-ats-panel" id="cvAtsPanel">
+          <h3 class="cv-ats-panel__title">ATS Checker</h3>
+          <div class="cv-ats-score" id="cvAtsScore">
+            <div class="cv-ats-score__circle">
+              <span class="cv-ats-score__number" id="cvAtsScoreNumber">0</span>
+              <span class="cv-ats-score__label">/ 100</span>
+            </div>
+          </div>
+          <div class="cv-ats-details" id="cvAtsDetails">
+            <div class="cv-ats-detail">
+              <span class="cv-ats-detail__label">Keywords</span>
+              <span class="cv-ats-detail__bar"><span class="cv-ats-detail__fill" id="cvAtsKeywords" style="width:0%"></span></span>
+            </div>
+            <div class="cv-ats-detail">
+              <span class="cv-ats-detail__label">Formatting</span>
+              <span class="cv-ats-detail__bar"><span class="cv-ats-detail__fill" id="cvAtsFormatting" style="width:0%"></span></span>
+            </div>
+            <div class="cv-ats-detail">
+              <span class="cv-ats-detail__label">Action Verbs</span>
+              <span class="cv-ats-detail__bar"><span class="cv-ats-detail__fill" id="cvAtsVerbs" style="width:0%"></span></span>
+            </div>
+            <div class="cv-ats-detail">
+              <span class="cv-ats-detail__label">Length</span>
+              <span class="cv-ats-detail__bar"><span class="cv-ats-detail__fill" id="cvAtsLength" style="width:0%"></span></span>
+            </div>
+            <div class="cv-ats-detail">
+              <span class="cv-ats-detail__label">Experience Balance</span>
+              <span class="cv-ats-detail__bar"><span class="cv-ats-detail__fill" id="cvAtsBalance" style="width:0%"></span></span>
+            </div>
+            <div class="cv-ats-detail">
+              <span class="cv-ats-detail__label">Education</span>
+              <span class="cv-ats-detail__bar"><span class="cv-ats-detail__fill" id="cvAtsEducation" style="width:0%"></span></span>
+            </div>
+            <div class="cv-ats-detail">
+              <span class="cv-ats-detail__label">Skills</span>
+              <span class="cv-ats-detail__bar"><span class="cv-ats-detail__fill" id="cvAtsSkills" style="width:0%"></span></span>
+            </div>
+          </div>
+          <div class="cv-ats-suggestions" id="cvAtsSuggestions"></div>
+        </div>
+      </div>
+
+      <div class="cv-preview-panel" id="cvPreviewPanel">
+        <div class="cv-preview-toolbar">
+          <span class="cv-preview-toolbar__title">Live Preview</span>
+          <div class="cv-preview-toolbar__actions">
+            <button class="cv-preview-btn" id="cvGeneratePdf" title="Generate PDF">📄 PDF</button>
+            <button class="cv-preview-btn" id="cvGenerateDocx" title="Generate DOCX">📝 DOCX</button>
+            <button class="cv-preview-btn" id="cvPrint" title="Print">🖨️ Print</button>
+            <button class="cv-preview-btn cv-preview-btn--reset" id="cvReset" title="Reset">↺ Reset</button>
+          </div>
+        </div>
+        <div class="cv-preview" id="cvPreview">
+          <div class="cv-preview__loading" id="cvPreviewLoading" style="display:none">
+            <div class="cv-preview__spinner"></div>
+            <p>Generating preview...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ $cvCss := resources.Get "css/cv-generator.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $cvCss.RelPermalink }}" integrity="{{ $cvCss.Data.Integrity }}">
+<script src="{{ "js/cv-generator.js" | relURL }}" defer></script>
+{{ end }}
