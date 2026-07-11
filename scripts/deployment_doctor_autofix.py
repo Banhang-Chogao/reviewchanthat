@@ -313,8 +313,38 @@ def fix_ai_summary_map() -> tuple[bool, str]:
 
 
 def fix_changed_post_image_metadata() -> tuple[bool, str]:
-    # Only report — full image gen needs secrets and is expensive
-    return False, "image metadata fix requires scoped generate_hero_image (skipped in dry bounded mode)"
+    """Auto-fix missing images by running Pexels/Pixabay image pipeline."""
+    # Step 1: Run select_images.py to fetch ảnh từ API
+    code1, out1 = run_py(
+        [
+            str(REPO_ROOT / "scripts" / "select_images.py"),
+            "--all",
+            "--fix",
+            "--api-first",
+        ]
+    )
+    if code1 != 0:
+        return False, f"select_images.py failed (exit={code1})"
+
+    # Step 2: Run process_images.py để download + process ảnh
+    code2, out2 = run_py(
+        [
+            str(REPO_ROOT / "scripts" / "process_images.py"),
+        ]
+    )
+    if code2 != 0:
+        return False, f"process_images.py failed (exit={code2})"
+
+    # Check nếu có files bị modify
+    changed_files = git_changed_files()
+    image_files_changed = any(
+        f.startswith("content/posts/") or f.startswith("static/images/")
+        for f in changed_files
+    )
+    if not image_files_changed:
+        return False, "image pipeline ran but no changes detected"
+
+    return True, f"auto-selected and processed images from API (exit1={code1}, exit2={code2}, files={len(changed_files)})"
 
 
 FIXERS = {
