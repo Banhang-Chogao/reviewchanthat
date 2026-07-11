@@ -2,9 +2,7 @@
 title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
 date = "2026-07-11T11:35:30+07:00"
 date_display = "11-07-2026 11:35:30 GMT +7"
-+++
 commit: f9a52cb
-date = "2026-07-10T04:30:00+07:00"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "Techcombank Mobile", "app ngân hàng", "sinh lời tự động", "chuyển tiền", "review app"]
 author = "Minh Hoàng"
@@ -21,14 +19,10 @@ image_attribution_source = "pexels_api"
 image_attribution_verified = true
 seo_title = "Techcombank Mobile review 2026: phí chuyển tiền, sinh lời tự động và ai nên dùng"
 description = "Techcombank Mobile là app ngân hàng số nổi bật với chuyển tiền, quản lý tài khoản và tính năng sinh lời tự động; bài viết đánh giá phí, trải nghiệm và nhóm người phù hợp trong năm 2026."
-date_display = "10-07-2026 04:30:00 GMT +7"
-
 [custom_image_queries]
 queries = ["mobile banking app finance phone", "digital banking smartphone", "personal finance banking app", "financial app on phone", "banking payment technology"]
-
 [ai_summary]
 enabled = true
-title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết đánh giá tính năng Techcombank Mobile dựa trên thông tin công khai năm 2026; không phải tư vấn đầu tư hay lựa chọn ngân hàng cụ thể. Luôn kiểm tra trực tiếp với Techcombank về phí hiện hành, lãi suất, và điều kiện trước khi quyết định."
 items = ["Techcombank Mobile là app ngân hàng số của Techcombank với tính năng: mở tài khoản eKYC, chuyển tiền (nội/liên ngân hàng 24/7), thanh toán QR, quản lý thẻ, sinh lợi tự động liên kết sản phẩm tiền gửi.", "Phí cần kiểm tra: chuyển tiền liên ngân hàng (0–5,000 VND hoặc free), thẻ (thường free), chứng thực/xác thực (có thể mất phí nếu dùng service cao cấp).", "Sinh lời tự động: liên kết với sản phẩm tiền gửi/tiết kiệm; lãi suất thay đổi theo SBV policy; cần tài khoản xác thực đầy đủ (KYC).", "Phù hợp: người cần ngân hàng số cơ bản, chuyển tiền thường xuyên, giữ tiền gửi tiết kiệm; cần cân nhắc nếu muốn dịch vụ vay/đầu tư phức tạp."]
@@ -40,7 +34,6 @@ image_provider = "pexels"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien — nguồn Pexels"
 +++
-
 Ngân hàng số là xu hướng, nhưng **không phải cái nào cũng phù hợp với bạn.**
 
 Techcombank Mobile là một trong những app ngân hàng lâu đời và có người dùng lớn ở Việt Nam. Nhưng phí bao nhiêu? Sinh lợi tự động có thực sự lợi không? Và **ai thực sự nên dùng nó?**

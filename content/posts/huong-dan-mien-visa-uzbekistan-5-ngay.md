@@ -2,9 +2,7 @@
 title = "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á"
 date = "2026-07-11T11:35:30+07:00"
 date_display = "11-07-2026 11:35:30 GMT +7"
-+++
 commit: 9d50c8a
-date = 2026-07-11T11:15:00+07:00
 draft = false
 tags = ["visa uzbekistan", "du lich trung a", "kinh nghiem du lich", "mien visa"]
 categories = ["Visa & Thủ Tục", "Ký Sự Đường Đi"]
@@ -25,7 +23,6 @@ image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
 +++
-
 Tuần trước, tôi vừa kết thúc một chuyến xuyên Trung Á kéo dài gần 2 tuần — băng qua Kazakhstan, Kyrgyzstan và Uzbekistan. Điều làm tôi ấn tượng nhất không phải những thảo nguyên mênh mông hay thành cổ nghìn năm tuổi, mà là một tin vui mà rất nhiều người Việt chưa biết: **hộ chiếu Việt Nam được miễn visa Uzbekistan tối đa 5 ngày**, không cần xin trước, không e-visa, không thủ tục rườm rà.
 
 Nếu bạn đang lên kế hoạch du lịch Trung Á tự túc và phân vân có nên ghé Uzbekistan hay không, bài viết này dành cho bạn.

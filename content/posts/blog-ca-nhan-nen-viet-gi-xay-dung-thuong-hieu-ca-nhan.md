@@ -2,9 +2,7 @@
 title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
 date = "2026-07-11T11:35:29+07:00"
 date_display = "11-07-2026 11:35:29 GMT +7"
-+++
 commit: f9a52cb
-date = "2026-07-10T00:30:00+07:00"
 slug = "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "thương hiệu cá nhân", "viết blog", "personal branding", "content strategy", "SEO cá nhân"]
@@ -15,11 +13,8 @@ thumbnail = "images/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.
 related_posts = ["xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok", "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan", "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc"]
 seo_title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền"
 description = "Nhiều người mở blog cá nhân với hứng khởi, viết được ba bài rồi dừng. Không phải vì lười. Phần lớn kẹt ở câu hỏi rất thật: blog cá nhân nên viết gì để vừa có"
-date_display = "10-07-2026 00:30:00 GMT +7"
-
 [ai_summary]
 enabled = true
-title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết chia sẻ cách chọn chủ đề blog cá nhân theo hướng bền vững; hiệu quả thực tế phụ thuộc vào năng lực, thị trường ngách và mức độ duy trì của từng người."
 items = ["Blog cá nhân nên bắt đầu từ năng lực bạn muốn được nhớ tới, không phải từ những gì đang viral nhất.", "Một chủ đề tốt thường nằm ở giao điểm giữa kinh nghiệm thật, vấn đề người đọc đang gặp và khả năng bạn duy trì lâu dài.", "Thay vì viết rời rạc, hãy xây cụm bài gồm bài trụ, bài vệ tinh, bài checklist, bài case study và bài phản biện.", "TikTok có thể giúp kiểm chứng hook nhanh, nhưng blog mới là nơi lưu phần giải thích sâu và tạo tài sản dài hạn."]
@@ -36,7 +31,6 @@ image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-10T18:56:44+07:00"
 +++
-
 Nhiều người mở blog cá nhân với hứng khởi, viết được ba bài rồi dừng. Không phải vì lười. Phần lớn kẹt ở câu hỏi rất thật: **blog cá nhân nên viết gì** để vừa có người đọc, vừa xây được thương hiệu cá nhân, chứ không chỉ “viết cho vui” rồi bỏ dở.
 
 Câu trả lời ngắn: **đừng bắt đầu bằng danh sách trend**. Hãy bắt đầu bằng **năng lực bạn muốn người khác nhớ tới**, **vấn đề bạn giải quyết được bằng kinh nghiệm thật**, và **cụm nội dung có thể liên kết với nhau trong nhiều tháng**. Bài này đi sâu từng lớp đó — thực tế, có hệ thống, không hứa viral.

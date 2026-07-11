@@ -2,9 +2,7 @@
 title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
 date = "2026-07-11T11:35:29+07:00"
 date_display = "11-07-2026 11:35:29 GMT +7"
-+++
 commit: f9a52cb
-date = "2026-07-10T00:35:00+07:00"
 slug = "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "TikTok", "thương hiệu cá nhân", "personal branding", "content strategy", "SEO cá nhân"]
@@ -15,11 +13,8 @@ thumbnail = "images/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o
 related_posts = ["xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok", "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan", "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan"]
 seo_title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu"
 description = "Câu hỏi xuất hiện rất sớm khi ai đó muốn xây thương hiệu cá nhân: blog cá nhân hay TikTok nên đi trước? Một bên nghe “bền, SEO, chuyên nghiệp”. Một bên nghe"
-date_display = "10-07-2026 00:35:00 GMT +7"
-
 [ai_summary]
 enabled = true
-title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài so sánh mang tính khung ra quyết định; không có lộ trình nào đảm bảo follow hay doanh thu. Hãy chọn theo mục tiêu sở hữu tài sản và khả năng duy trì của bạn."
 items = ["TikTok mạnh về tốc độ tiếp cận và kiểm chứng hook; blog mạnh về sở hữu nội dung, URL ổn định và SEO dài hạn.", "Người mới nên chọn điểm bắt đầu theo ràng buộc: nếu thiếu ý tưởng sâu, đừng mở blog rỗng; nếu chỉ đăng social không lưu trữ, brand dễ bay theo thuật toán.", "Mô hình bền: blog là kho (source of truth), TikTok là kênh phân phối và thử nghiệm — không thay thế nhau.", "Không cần chọn một nền tảng mãi mãi; cần chọn thứ tự 90 ngày đầu để không kiệt sức."]
@@ -36,7 +31,6 @@ image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-10T18:56:44+07:00"
 +++
-
 Câu hỏi xuất hiện rất sớm khi ai đó muốn xây thương hiệu cá nhân: **blog cá nhân hay TikTok nên đi trước?** Một bên nghe “bền, SEO, chuyên nghiệp”. Một bên nghe “nhanh, đông, dễ thấy kết quả”. Chọn sai thứ tự không làm bạn thất bại vĩnh viễn — nhưng có thể khiến bạn **kiệt sức** hoặc **xây trên đất thuê** mà tưởng đã có tài sản.
 
 Bài này so sánh sòng phẳng, đưa khung ra quyết định theo mục tiêu, và đề xuất lộ trình 90 ngày. Không khuyên spam TikTok. Không hứa video nào cũng ra hàng triệu view. Không bảo blog tĩnh sẽ “auto giàu domain authority” nếu bạn không viết đều và đúng vấn đề người đọc.

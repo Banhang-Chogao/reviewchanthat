@@ -2,9 +2,7 @@
 title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
 date = "2026-07-11T11:35:29+07:00"
 date_display = "11-07-2026 11:35:29 GMT +7"
-+++
 commit: f9a52cb
-date = "2026-07-09T09:00:00+07:00"
 description = "Gợi ý du lịch Đà Nẵng hè 2026 cho người đi tự túc: nên ở khu nào, đi biển nào, kết hợp Hội An/Huế, lịch trình 4 ngày 3 đêm và checklist tránh nóng."
 categories = ["du-lich"]
 tags = ["du lịch Đà Nẵng", "Đà Nẵng hè 2026", "lịch trình Đà Nẵng", "du lịch hè", "Đà Nẵng Hội An Huế"]
@@ -27,16 +25,12 @@ image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-10T18:56:44+07:00"
 draft = false
 seo_title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4"
-date_display = "09-07-2026 09:00:00 GMT +7"
-
 [ai_summary]
 enabled = true
-title = "Tóm tắt nhanh"
 items = ["Đà Nẵng là điểm đến nội địa được người Việt tìm kiếm mạnh nhất cho mùa hè 2026.", "Lịch trình 4 ngày 3 đêm: biển Mỹ Khê, Sơn Trà/Ngũ Hành Sơn, Hội An/Bà Nà, nghỉ tránh nóng.", "Chọn khu ở theo nhu cầu: gần biển cho nghỉ, sông Hàn cho ăn uống.", "Đặt phòng sớm, tránh outdoor giữa trưa, có phương án khi mưa/nắng gắt."]
 image_query = "du lịch đà nẵng hè"
 image_alt = "Ảnh minh họa Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels"
 +++
-
 ## Vì sao Đà Nẵng hè 2026?
 
 Đà Nẵng là **điểm đến nội địa được người Việt tìm kiếm mạnh nhất cho mùa hè 2026** (tháng 6–8). Người đi tìm kiếm: biển + city + lịch trình không mệt + tránh nóng + kết hợp Hội An/Huế.

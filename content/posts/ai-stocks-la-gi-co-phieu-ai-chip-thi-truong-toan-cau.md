@@ -2,9 +2,7 @@
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
 date = "2026-07-11T11:35:29+07:00"
 date_display = "11-07-2026 11:35:29 GMT +7"
-+++
 commit: f9a52cb
-date = "2026-07-10T05:00:00+07:00"
 categories = ["tai-chinh"]
 tags = ["AI stocks", "chip semiconductors", "cổ phiếu công nghệ", "đầu tư AI", "NVIDIA", "thị trường toàn cầu"]
 author = "Minh Hoàng"
@@ -21,14 +19,10 @@ image_attribution_source = "pexels_api"
 image_attribution_verified = true
 seo_title = "AI stocks là gì? Cổ phiếu AI, chip và tác động toàn cầu lên nhà đầu tư Việt Nam"
 description = "AI stocks và chip stocks là công cụ đầu tư quan trọng trong kỷ nguyên AI. Bài viết giải thích cấu trúc thị trường chip, lãnh đạo như NVIDIA/TSMC, và ảnh hưởng đến Việt Nam."
-date_display = "10-07-2026 05:00:00 GMT +7"
-
 [custom_image_queries]
 queries = ["artificial intelligence technology chip circuit", "AI semiconductor manufacturing", "tech stock market trading", "computer chip processors", "data center server farm"]
-
 [ai_summary]
 enabled = true
-title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết giáo dục về cổ phiếu AI và chip; không phải tư vấn đầu tư cá nhân. Luôn yêu cầu tư vấn từ chuyên gia tài chính trước khi quyết định."
 items = ["AI stocks là cổ phiếu của các công ty phát triển hoặc sử dụng công nghệ AI; chip stocks là cổ phiếu các hãng chế tạo chip (NVIDIA, TSMC, Intel).", "Thị trường chip toàn cầu được thúc đẩy bởi nhu cầu AI, cloud computing, xe tự lái. NVIDIA dẫn đầu GPU supply; TSMC là nhà máy chính.", "Ảnh hưởng đến Việt Nam: lương công nhân công ty chip tăng, chuỗi cung ứng thay đổi, nhập khẩu chip tăng, FDI tech dồi dào.", "rủi ro: bubble định giá, chiến tranh thương mại Mỹ-Trung, tập trung quá nhiều vào vài cổ phiếu mega-cap, biến động công nghệ."]
@@ -40,7 +34,6 @@ image_provider = "pexels"
 image_query = "ai stocks gì cổ phiếu"
 image_alt = "Ảnh minh họa AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam — nguồn Pexels"
 +++
-
 Năm 2024–2026, một từ khóa lặp lại ở mọi nơi: **AI.** Và theo AI, có từ **chip.** Nếu bạn là nhà đầu tư, bạn chắc chắn nghe nói về cổ phiếu công nghệ, NVIDIA, TSMC, và nhu cầu chip "vô tận."
 
 Nhưng **AI stocks là gì thực sự?** Tại sao chip lại quan trọng? Và làm thế nào thị trường chip toàn cầu ảnh hưởng đến **Việt Nam—một đất nước không có nhà máy chip lớn?**

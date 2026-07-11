@@ -2,9 +2,7 @@
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
 date = "2026-07-11T11:35:30+07:00"
 date_display = "11-07-2026 11:35:30 GMT +7"
-+++
 commit: f9a52cb
-date = "2026-07-10T04:00:00+07:00"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "VPBank NEO", "app ngân hàng", "digital banking", "review app"]
 author = "Minh Hoàng"
@@ -21,14 +19,10 @@ image_attribution_source = "pexels_api"
 image_attribution_verified = true
 seo_title = "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào"
 description = "VPBank NEO là app ngân hàng số dành cho người dùng muốn giao dịch, quản lý tài khoản và thanh toán online; bài viết đánh giá tính năng, phí cần kiểm tra và nhóm người phù hợp trong năm 2026."
-date_display = "10-07-2026 04:00:00 GMT +7"
-
 [custom_image_queries]
 queries = ["digital banking app smartphone", "online banking finance mobile", "banking app user phone", "financial app interface", "mobile payment technology"]
-
 [ai_summary]
 enabled = true
-title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết đánh giá tính năng VPBank NEO dựa trên thông tin công khai năm 2026; không phải tư vấn lựa chọn ngân hàng hay đầu tư. Luôn kiểm tra trực tiếp với VPBank về phí, lãi suất, và điều kiện sử dụng trước khi quyết định."
 items = ["VPBank NEO là app ngân hàng số của VPBank hỗ trợ: mở tài khoản eKYC, chuyển tiền (nội/liên ngân hàng 24/7), thanh toán QR, quản lý thẻ, tiết kiệm liên kết sản phẩm tiền gửi.", "Phí chuyển tiền: thường 0–5,000 VND liên ngân hàng; free nội bộ VPBank. Phí thẻ debit/quản lý: thường không tính hoặc rất nhỏ.", "Điểm mạnh: giao diện thân thiện, chuyển tiền 24/7, tiết kiệm dễ dàng, hỗ trợ vay nhỏ (nếu qualified). Điểm cần cân nhắc: lãi suất không cạnh tranh, tính năng vay có yêu cầu cao.", "Phù hợp: người dùng muốn app đơn giản, chuyển tiền nhanh, tiết kiệm cơ bản; cần xem xét khác nếu muốn lãi suất cao hoặc ecosystem fintech đầy đủ."]
@@ -40,7 +34,6 @@ image_provider = "pexels"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa VPBank NEO review 2026: app ngân hàng số này hợp với ai? — nguồn Pexels"
 +++
-
 Có hàng chục app ngân hàng ở Việt Nam, và bạn có thể cảm thấy **choáng ngợp khi chọn.**
 
 VPBank NEO là một trong những app ngân hàng số phổ biến, nhưng nó có gì đặc biệt? Phí bao nhiêu? Có tính năng gì mà app khác không có không? Và **ai nên dùng nó?**

@@ -2,9 +2,7 @@
 title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
 date = "2026-07-11T11:35:29+07:00"
 date_display = "11-07-2026 11:35:29 GMT +7"
-+++
 commit: f9a52cb
-date = "2026-07-10T06:30:00+07:00"
 categories = ["tai-chinh"]
 tags = ["chứng khoán Việt Nam", "VN-Index", "cổ phiếu ngân hàng", "đầu tư", "rủi ro thị trường", "người mới chứng khoán"]
 author = "Minh Hoàng"
@@ -21,14 +19,10 @@ image_attribution_source = "pexels_api"
 image_attribution_verified = true
 seo_title = "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới"
 description = "Người mới theo dõi chứng khoán Việt Nam năm 2026 nên hiểu VN-Index, nhóm cổ phiếu ngân hàng, rủi ro biến động và nguyên tắc quản trị vốn trước khi xuống tiền."
-date_display = "10-07-2026 06:30:00 GMT +7"
-
 [custom_image_queries]
 queries = ["Vietnam stock market investing desk", "stock market beginner finance", "bank stocks chart abstract", "stock exchange financial trading", "investment portfolio analysis"]
-
 [ai_summary]
 enabled = true
-title = "Tóm tắt nhanh"
 collapsed = false
 disclaimer = "Bài viết giáo dục về chứng khoán Việt Nam, VN-Index và rủi ro thị trường; không phải tư vấn đầu tư cá nhân. Luôn yêu cầu tư vấn từ các chuyên gia và quản trị rủi ro tài chính một cách cẩn trọng trước khi quyết định."
 items = ["VN-Index gồm khoảng 30 cổ phiếu blue-chip (VCB, CTG, BID, ACB, v.v.); cổ phiếu ngân hàng chiếm ~35–45% trọng số chỉ số.", "Người mới cần hiểu: VN-Index là gì → cổ phiếu ngân hàng ảnh hưởng thị trường → rủi ro lãi suất, nợ xấu, thanh khoản, tâm lý đám đông → kỷ luật quản trị vốn.", "rủi ro năm 2026: biến động lãi suất SBV, tâm lý thị trường, định giá cao, margin buying, tin tức quốc tế ảnh hưởng khía cạnh vĩ mô.", "Sai lầm phổ biến: FOMO vào rally không hiểu định giá, margin buying tràn lan, tập trung toàn bộ vào một mã, không có kế hoạch thoát, bỏ qua quản lý rủi ro."]
@@ -40,7 +34,6 @@ image_provider = "pexels"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào? — nguồn Pexels"
 +++
-
 Chứng khoán Việt Nam hấp dẫn. Lợi nhuận cao, câu chuyện tăng trưởng, và hàng triệu người cùng chơi—tất cả đều khiến mới chủ dễ **cảm xúc hóa quyết định**.
 
 Nhưng khi bạn bước vào thị trường **mà không hiểu** VN-Index, cổ phiếu ngân hàng ảnh hưởng như thế nào, hoặc rủi ro nào có thể làm bạn mất tiền, bạn chỉ đơn giản là **đánh bạc, không phải đầu tư.**
