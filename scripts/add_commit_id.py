@@ -8,14 +8,19 @@ import os
 import re
 import subprocess
 
-POSTS_DIR = "content/posts"
+REPO_ROOT = subprocess.check_output(
+    ["git", "rev-parse", "--show-toplevel"],
+    text=True
+).strip()
+
+POSTS_DIR = os.path.join(REPO_ROOT, "content", "posts")
 
 
 def get_last_commit(filepath):
     try:
         result = subprocess.run(
             ["git", "log", "-1", "--format=%h", "--", filepath],
-            capture_output=True, text=True, cwd=os.path.dirname(os.path.abspath(__file__))
+            capture_output=True, text=True, cwd=REPO_ROOT
         )
         return result.stdout.strip()
     except Exception:
@@ -52,7 +57,8 @@ def main():
         if not fname.endswith('.md') or fname.endswith('.meta.json'):
             continue
         fpath = os.path.join(POSTS_DIR, fname)
-        commit_hash = get_last_commit(fpath)
+        relpath = os.path.relpath(fpath, REPO_ROOT)
+        commit_hash = get_last_commit(relpath)
         if not commit_hash:
             print(f"  SKIP {fname}: no git commit found")
             continue
