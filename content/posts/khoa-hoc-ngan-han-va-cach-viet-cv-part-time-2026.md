@@ -45,7 +45,7 @@ Năm 2026, AI không còn là tương lai — nó là hiện tại. Các nhà tu
 
 Hầu hết các khóa online đều có **học phí từ 200.000 - 800.000 VNĐ** cho khóa ngắn hạn, hoặc miễn phí nếu bạn tận dụng tài nguyên từ ĐH và các tổ chức giáo dục mở.
 
-![[IMAGE_API_QUERY: sinh viên Việt Nam học AI và kỹ năng số trên máy tính xách tay trong thư viện đại học, phong cách trẻ trung hiện đại]][Sinh viên tranh thủ hè để học thêm các khóa AI và kỹ năng văn phòng]
+
 
 ## Cập Nhật Học Phí Chứng Chỉ (IELTS/TOEIC/MOS) Mới Nhất 2026
 
@@ -86,7 +86,7 @@ Câu trả lời là: **Bạn có nhiều thứ để viết hơn bạn nghĩ.**
 5. **Chứng chỉ & Giải thưởng (Certifications & Awards)**
    - Bất kỳ chứng chỉ nào bạn có (dù là MOS, IC3, hay hoàn thành khóa học online trên Coursera) đều đáng ghi.
 
-![[IMAGE_API_QUERY: mẫu CV xin việc part-time chuyên nghiệp cho sinh viên thiết kế hiện đại tối giản]][Mẫu CV xin việc part-time tối giản nhưng chuyên nghiệp cho sinh viên chưa có kinh nghiệm]
+
 
 ### Lưu ý quan trọng
 

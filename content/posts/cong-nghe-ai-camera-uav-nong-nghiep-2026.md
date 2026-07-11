@@ -68,7 +68,7 @@ Camera an ninh đã có từ lâu, nhưng camera AI mới thực sự tạo ra k
 - **Không để điểm mù:** Giao nhau giữa hai camera là vị trí dễ bị khai thác nhất. Hãy đảm bảo mỗi điểm mù được phủ bởi camera thứ hai.
 - **Lưu trữ đám mây + thẻ nhớ:** Chọn camera hỗ trợ cả hai hình thức — thẻ nhớ lưu dự phòng khi mất mạng, cloud lưu bằng chứng khi có sự cố.
 
-![[IMAGE_API_QUERY: smart home security AI camera system installed outdoor modern house perimeter detection tech]][Hệ thống camera AI gắn ngoài trời với tính năng phát hiện xâm nhập thông minh]
+
 
 ## Thiết Bị Bay UAV Nông Nghiệp Loại Nào Tốt Nhất Hiện Nay?
 
@@ -93,7 +93,7 @@ Dưới đây là bảng so sánh ba dòng UAV nông nghiệp phổ biến nhấ
 3. **Bảo hành và đào tạo:** Các hãng lớn như DJI và XAG đều có trung tâm đào tạo vận hành ở Hà Nội và TP.HCM. Chi phí đào tạo ban đầu thường từ 5-10 triệu VNĐ.
 4. **Pháp lý:** Từ 2025, UAV nông nghiệp trên 25 kg cần đăng ký bay với Cục Tần số Vô tuyến điện. Kiểm tra đầy đủ giấy phép trước khi vận hành.
 
-![[IMAGE_API_QUERY: agricultural drone spraying crops over lush green field farming technology modern agriculture UAV]][Máy bay không người lái phun thuốc trên cánh đồng — giải pháp nông nghiệp công nghệ cao đang bùng nổ tại Việt Nam]
+
 
 ---
 

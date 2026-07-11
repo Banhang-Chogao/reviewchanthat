@@ -63,7 +63,7 @@ Ngày 1 tháng 7 năm 2026 đánh dấu một cột mốc lịch sử trong hàn
 
 Nếu doanh nghiệp của bạn đang vận hành một nền tảng thương mại điện tử, sử dụng AI để chấm điểm tín dụng, thu thập dữ liệu khách hàng, hoặc đơn giản là có một website bán hàng — bạn đều chịu sự điều chỉnh của luật này. Câu hỏi không phải là "có bị ảnh hưởng không", mà là **"cần chuẩn bị gì để vừa tuân thủ vừa tận dụng cơ hội?"**.
 
-![[IMAGE_API_QUERY: Vietnam digital transformation law 2025 government technology policy document office]][Bối cảnh ra đời Luật Chuyển đổi số 2025 — bước ngoặt pháp lý cho nền kinh tế số Việt Nam]
+
 
 ## Các Điểm Mới Cốt Lõi Của Luật Chuyển Đổi Số Từ 1/7/2026
 
@@ -109,7 +109,7 @@ Luật phân loại AI thành các nhóm dựa trên mức độ rủi ro:
 
 Luật cho phép thành lập **sandbox (cơ chế thử nghiệm có kiểm soát)** dành cho công nghệ mới — bao gồm AI, blockchain, xe tự hành. Doanh nghiệp muốn thử nghiệm công nghệ mới chưa có khung pháp lý đầy đủ có thể đăng ký tham gia sandbox, được miễn trừ một số quy định trong thời gian thử nghiệm nhưng vẫn chịu sự giám sát của cơ quan quản lý.
 
-![[IMAGE_API_QUERY: artificial intelligence high risk AI system regulation compliance technology security]][Quy định về hệ thống AI rủi ro cao theo Luật Chuyển đổi số 2025 — doanh nghiệp cần kiểm toán thuật toán và đảm bảo minh bạch]
+
 
 ### Yêu Cầu Về Dữ Liệu Huấn Luyện AI
 

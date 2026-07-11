@@ -57,7 +57,7 @@ Mè đen rang vàng nghiền nhuyễn với một chút dầu dừa tạo ra hư
 
 Món kem mè đen này giữ được độ mềm mịn trong 5-7 ngày trong tủ đông nhờ tỷ lệ chất béo từ whipping cream và đường từ sữa đặc.
 
-![[IMAGE_API_QUERY: homemade black sesame ice cream scoop in a ceramic bowl garnished with black sesame seeds dessert food photography]][Kem mè đen làm tại nhà không cần máy vẫn đạt độ sánh mịn và vị bùi béo đặc trưng]
+
 
 ## Công Thức Bánh Tart Mè Đen Đậm Vị Gây Nghiện
 
@@ -101,7 +101,7 @@ Frozen yogurt không chỉ là kem chua — nó là một trải nghiệm: từ 
 - **Vị chua:** Froyo ngon có vị chua nhẹ từ lactic acid — không gắt như sữa chua uống, nhưng đủ để không bị ngọt gắt. Nếu chỉ có vị ngọt, đó là kem, không phải froyo.
 - **Topping tươi:** Các quán froyo ngon luôn có topping trái cây tươi thay vì đồ hộp. Mochi, thạch, và granola homemade là dấu hiệu nhận biết quán chất lượng.
 
-![[IMAGE_API_QUERY: frozen yogurt swirl in a cup topped with fresh fruits mochi and granola summer dessert]][Frozen yogurt với topping trái cây tươi, mochi và granola — món tráng miệng hè thanh mát không tội lỗi]
+
 
 ---
 

@@ -48,7 +48,7 @@ Nước biển chứa muối làm mất nước lớp biểu bì, trong khi clo 
 - **Không bôi retinol, AHA/BHA, vitamin C:** Các hoạt chất tẩy da chết hoặc có tính acid sẽ làm tình trạng viêm nặng hơn. Chỉ dùng sau khi da đã bong tróc hoàn toàn (khoảng 5-7 ngày sau).
 - **Uống nước điện giải:** Cháy nắng làm cơ thể mất nước qua đường da. Bù nước bằng nước dừa hoặc oresol pha loãng — hiệu quả hơn nước lọc thông thường.
 
-![[IMAGE_API_QUERY: applying aloe vera gel on sunburned skin soothing summer skincare recovery aesthetic]][Thoa gel nha đam lạnh là bước đầu tiên để hạ nhiệt và làm dịu da cháy nắng]
+
 
 ## Top Các Thành Phần Serum Nhả Nắng Tốt Nhất Hiện Nay
 
@@ -98,7 +98,7 @@ Sau khi sấy tóc còn ẩm, thoa 2-3 giọt dầu dưỡng (argan oil / jojoba
 
 Không sấy nóng, không duỗi, không uốn. Nếu cần ra ngoài, tết tóc nhẹ hoặc búi thấp. Nhiệt độ cao sẽ làm bay hơi ẩm mà tóc vừa kịp hấp thụ sau ủ phục hồi.
 
-![[IMAGE_API_QUERY: applying hair oil or mask on dry damaged hair after beach healthy hair care routine]][Dầu dưỡng và mặt nạ tóc là bước phục hồi không thể thiếu sau khi tóc tiếp xúc với muối biển và clo]
+
 
 ---
 
