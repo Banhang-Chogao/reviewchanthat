@@ -1,6 +1,6 @@
 +++
 title = "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
-date = 2026-07-15T10:00:00+07:00
+date = "2026-07-11T16:06:05+07:00"
 description = "Khám phá câu chuyện của Phần Lan – từ cái tổ yên Nokia, tới Linux, Supercell, và vị trí trung tâm của nó trong phát triển 5G/6G. Tại sao 1 trong 5 công ty khởi nghiệp công nghệ châu Âu được thành lập ở Phần Lan?"
 category = "travel"
 tags = ["Phần Lan", "Công nghệ", "Startup", "Nokia", "5G", "Sự đổi mới"]
@@ -9,6 +9,7 @@ thumbnail = "phần-lan-tech-04.webp"
 thumbnail_creator = "Timi Kauhanen"
 thumbnail_source_url = "https://unsplash.com/photos/technology"
 thumbnail_license = "Unsplash License"
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 **Năm 2007, Apple ra mắt iPhone và sáu năm sau, Nokia – một công ty viễn thông Phần Lan từng thống trị thế giới di động – gần như bị xóa sổ. Nhưng thay vì chết, Phần Lan lại đứng dậy và trở thành nước bạn nước nó trong công nghệ.**

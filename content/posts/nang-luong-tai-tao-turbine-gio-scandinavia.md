@@ -1,6 +1,6 @@
 +++
 title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-date = "2026-07-13T19:45:00+07:00"
+date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Khám phá hệ thống năng lượng tái tạo ở Scandinavia – từ đập thủy điện khổng lồ của Na Uy đến turbine gió của Thụy Điển. Tìm hiểu cách các quốc gia nhỏ này cung cấp 99% điện năng từ các nguồn sạch."
 image = "images/posts/nang-luong-tai-tao-turbine-gio-scandinavia.webp"
@@ -19,6 +19,7 @@ image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 ## Tại Sao Scandinavia Dẫn Đầu Trong Năng Lượng Tái Tạo?

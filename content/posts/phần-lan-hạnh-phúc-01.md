@@ -1,6 +1,6 @@
 +++
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
-date = 2026-07-12T10:00:00+07:00
+date = "2026-07-11T16:06:05+07:00"
 description = "Khám phá bí mật đằng sau danh hiệu quốc gia hạnh phúc nhất thế giới: Sisu – triết lý sống Phần Lan, phúc lợi xã hội toàn diện, và cách người Phần Lan xây dựng một xã hội nơi con người thực sự phát triển."
 category = "travel"
 tags = ["Phần Lan", "Hạnh phúc", "Xã hội", "Du lịch", "Văn hóa"]
@@ -9,6 +9,7 @@ thumbnail = "phần-lan-hạnh-phúc-01.webp"
 thumbnail_creator = "Jaakko Karvonen"
 thumbnail_source_url = "https://unsplash.com/photos/finnish-landscape"
 thumbnail_license = "Unsplash License"
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 **Tại sao Phần Lan liên tục giữ vị trí quốc gia hạnh phúc nhất thế giới trong 7 năm liên tiếp? Không phải vì tự nhiên hay lịch sử may mắn, mà vì một hệ thống được thiết kế chu đáo từ từng chi tiết nhỏ nhất.**

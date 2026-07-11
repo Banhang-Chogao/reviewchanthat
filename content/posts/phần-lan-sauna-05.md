@@ -1,6 +1,6 @@
 +++
 title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
-date = 2026-07-16T10:00:00+07:00
+date = "2026-07-11T16:06:05+07:00"
 description = "Phần Lan có hơn 3 triệu sauna cho 5.5 triệu người dân – gần như một sauna cho mỗi 2 người. Khám phá văn hóa sauna Phần Lan – từ những nguyên tắc lịch sử đến ý nghĩa xã hội hiện đại."
 category = "travel"
 tags = ["Phần Lan", "Sauna", "Văn hóa", "Du lịch", "Truyền thống"]
@@ -9,6 +9,7 @@ thumbnail = "phần-lan-sauna-05.webp"
 thumbnail_creator = "Miika Laaksonen"
 thumbnail_source_url = "https://unsplash.com/photos/sauna-culture"
 thumbnail_license = "Unsplash License"
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 **Nếu bạn nghĩ sauna là một dịch vụ spa xa xỉ, bạn đã hiểu sai Phần Lan. Ở đây, sauna không phải là một điều xa xỉ mà là một phần của cuộc sống hàng ngày – một nơi để kết nối với bản thân, gia đình, và cộng đồng.**

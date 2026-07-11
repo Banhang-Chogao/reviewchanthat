@@ -1,6 +1,6 @@
 +++
 title = "Hệ Thống Giáo Dục Phần Lan: Lý Do Tại Sao Phần Lan Có Những Sinh Viên Thông Minh Nhất Thế Giới"
-date = "2026-07-13T13:30:00+07:00"
+date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Khám phá hệ thống giáo dục Phần Lan – nơi không có bài kiểm tra chuẩn hóa, không có bài tập về nhà quá nhiều, nhưng sinh viên vẫn đạt kết quả xuất sắc. Tìm hiểu triết lý giáo dục giản dị nhưng hiệu quả của một quốc gia nhỏ bé."
 image = "images/posts/hoc-sinh-finland-truong-hoc-hoc-tap.webp"
@@ -19,6 +19,7 @@ image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 ## Một Hệ Thống Giáo Dục Không Giống Bất Cứ Cái Gì Ở Đâu Khác

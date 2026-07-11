@@ -1,6 +1,6 @@
 +++
 title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
-date = "2026-07-13T20:45:00+07:00"
+date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Tìm hiểu bí mật về cân bằng công việc-cuộc sống ở Scandinavia. Từ ngày làm việc 6 giờ đến 5-6 tuần nghỉ phép hàng năm, khám phá tại sao người Scandinavia có thể làm việc ít hơn nhưng vẫn thành công."
 image = "images/posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.webp"
@@ -19,6 +19,7 @@ image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 ## Cân Bằng Công Việc-Cuộc Sống – Một Giá Trị Cơ Bản

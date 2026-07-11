@@ -1,6 +1,6 @@
 +++
 title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh"
-date = "2026-07-13T10:30:00+07:00"
+date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Du lịch các fjord nổi tiếng của Na Uy: từ Geirangerfjord tuyệt mỹ đến Sognefjord hùng vĩ. Khám phá những ngôi làng cổ kính, thác nước hoang dã, và cách tốt nhất để trải nghiệm vẻ đẹp thô kệch của tự nhiên Scandinavia."
 image = "images/posts/fjord-na-uy-thac-nuoc-dong-tien.webp"
@@ -19,6 +19,7 @@ image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 ## Tại Sao Các Fjord Na Uy Lại Là Một Trong Những Kỳ Quan Thiên Nhiên Vĩ Đại Nhất Thế Giới?

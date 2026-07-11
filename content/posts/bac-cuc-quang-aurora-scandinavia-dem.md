@@ -1,6 +1,6 @@
 +++
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
-date = "2026-07-13T14:45:00+07:00"
+date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Hướng dẫn đầy đủ về cách xem bắc cực quang ở Scandinavia. Tìm hiểu điều kiện thời tiết tốt nhất, các địa điểm tuyệt vời, thời gian tối ưu, và cách chuẩn bị để chứng kiến một trong những hiện tượng thiên nhiên đẹp nhất thế giới."
 image = "images/posts/bac-cuc-quang-aurora-scandinavia-dem.webp"
@@ -19,6 +19,7 @@ image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 ## Bắc Cực Quang Là Gì?

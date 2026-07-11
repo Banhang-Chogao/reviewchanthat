@@ -1,6 +1,6 @@
 +++
 title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
-date = "2026-07-13T12:00:00+07:00"
+date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Khám phá Stockholm, thủ đô Thụy Điển: từ những con đường lát đá của Gamla Stan đầy lịch sử, đến các công ty công nghệ hàng đầu thế giới, đến những đảo tuyệt đẹp quanh thành phố. Tìm hiểu tại sao Stockholm được gọi là 'Venice của Bắc Âu'."
 image = "images/posts/stockholm-thua-dien-gamlastan-bien.webp"
@@ -19,6 +19,7 @@ image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 ## Một Thành Phố Trên Nước Và Công Nghệ

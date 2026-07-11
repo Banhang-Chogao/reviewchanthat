@@ -1,6 +1,6 @@
 +++
 title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
-date = 2026-07-13T10:00:00+07:00
+date = "2026-07-11T16:06:05+07:00"
 description = "Khám phá mô hình giáo dục Phần Lan được UNESCO công nhận – nơi không có bài tập về nhà quá nhiều, không kiểm tra chuẩn hóa, và tất cả học sinh được hỗ trợ bình đẳng bất kể hoàn cảnh kinh tế."
 category = "travel"
 tags = ["Phần Lan", "Giáo dục", "Du lịch", "Hệ thống học tập", "Phát triển trẻ em"]
@@ -9,6 +9,7 @@ thumbnail = "phần-lan-giáo-dục-02.webp"
 thumbnail_creator = "Joanna Kosinska"
 thumbnail_source_url = "https://unsplash.com/photos/classroom"
 thumbnail_license = "Unsplash License"
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 **Nếu bạn là cha mẹ Việt Nam, bạn có thể đã nghe câu chuyện này: một học sinh Phần Lan không làm bài tập về nhà, đi học chỉ 4 giờ mỗi ngày, nhưng vẫn là một trong những học sinh thành công nhất thế giới. Điều này có thực không?**

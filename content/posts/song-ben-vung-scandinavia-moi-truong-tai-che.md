@@ -1,6 +1,6 @@
 +++
 title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
-date = "2026-07-13T09:00:00+07:00"
+date = "2026-07-11T16:06:05+07:00"
 draft = false
 description = "Khám phá triết lý sống bền vững ở Scandinavia – nơi môi trường không phải là vấn đề chính trị mà là cách sống hằng ngày. Từ tái chế, năng lượng tái tạo đến thiết kế tối giản, tìm hiểu tại sao Bắc Âu dẫn đầu trong bảo vệ môi trường toàn cầu."
 image = "images/posts/song-ben-vung-scandinavia-moi-truong-tai-che.webp"
@@ -19,6 +19,7 @@ image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
+date_display = "11-07-2026 16:06:05 GMT +7"
 +++
 
 ## Tại Sao Scandinavia Lại Là Tiêu Chuẩn Vàng Của Phong Trào Bền Vững?
