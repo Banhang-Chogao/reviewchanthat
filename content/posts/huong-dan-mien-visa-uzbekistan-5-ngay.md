@@ -2,7 +2,7 @@
 title = "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á"
 date = "2026-07-11T11:15:00+07:00"
 date_display = "11-07-2026 11:35:30 GMT +7"
-commit = "7d5dc7d"
+commit = "8d64b70"
 draft = false
 tags = ["visa uzbekistan", "du lich trung a", "kinh nghiem du lich", "mien visa"]
 categories = ["Visa & Thủ Tục", "Ký Sự Đường Đi"]

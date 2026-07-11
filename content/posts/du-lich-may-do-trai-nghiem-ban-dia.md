@@ -2,7 +2,7 @@
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
 date = "2026-07-11T10:45:00+07:00"
 date_display = "11-07-2026 11:35:29 GMT +7"
-commit = "7d5dc7d"
+commit = "8d64b70"
 draft = false
 tags = ["du lich he", "trekking", "camping", "local tour"]
 categories = ["Du Lịch", "Trải Nghiệm"]

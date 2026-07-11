@@ -2,7 +2,7 @@
 title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
 date = "2026-07-10T04:30:00+07:00"
 date_display = "10-07-2026 04:30:00 GMT +7"
-commit = "7d5dc7d"
+commit = "8d64b70"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "Techcombank Mobile", "app ngân hàng", "sinh lời tự động", "chuyển tiền", "review app"]
 author = "Minh Hoàng"
