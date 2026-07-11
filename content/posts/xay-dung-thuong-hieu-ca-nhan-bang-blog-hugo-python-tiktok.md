@@ -1,7 +1,7 @@
 +++
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
-date = "2026-07-11T11:35:30+07:00"
-date_display = "11-07-2026 11:35:30 GMT +7"
+date = "2026-07-10T00:10:00+07:00"
+date_display = "10-07-2026 00:10:00 GMT +7"
 commit = 1
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]

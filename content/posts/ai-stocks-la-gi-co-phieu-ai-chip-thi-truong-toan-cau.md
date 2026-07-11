@@ -1,7 +1,7 @@
 +++
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-date = "2026-07-11T11:35:29+07:00"
-date_display = "11-07-2026 11:35:29 GMT +7"
+date = "2026-07-10T05:00:00+07:00"
+date_display = "10-07-2026 05:00:00 GMT +7"
 commit = 1
 categories = ["tai-chinh"]
 tags = ["AI stocks", "chip semiconductors", "cổ phiếu công nghệ", "đầu tư AI", "NVIDIA", "thị trường toàn cầu"]
