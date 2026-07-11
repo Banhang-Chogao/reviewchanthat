@@ -2,7 +2,7 @@
 title = "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
 date = "2026-07-11T16:06:05+07:00"
 description = "Khám phá câu chuyện của Phần Lan – từ cái tổ yên Nokia, tới Linux, Supercell, và vị trí trung tâm của nó trong phát triển 5G/6G. Tại sao 1 trong 5 công ty khởi nghiệp công nghệ châu Âu được thành lập ở Phần Lan?"
-category = "travel"
+categories = ["travel"]
 tags = ["Phần Lan", "Công nghệ", "Startup", "Nokia", "5G", "Sự đổi mới"]
 author = "Reviewchanthat"
 thumbnail = "phần-lan-tech-04.webp"

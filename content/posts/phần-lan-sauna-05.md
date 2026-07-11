@@ -2,7 +2,7 @@
 title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
 date = "2026-07-11T16:06:05+07:00"
 description = "Phần Lan có hơn 3 triệu sauna cho 5.5 triệu người dân – gần như một sauna cho mỗi 2 người. Khám phá văn hóa sauna Phần Lan – từ những nguyên tắc lịch sử đến ý nghĩa xã hội hiện đại."
-category = "travel"
+categories = ["travel"]
 tags = ["Phần Lan", "Sauna", "Văn hóa", "Du lịch", "Truyền thống"]
 author = "Reviewchanthat"
 thumbnail = "phần-lan-sauna-05.webp"
