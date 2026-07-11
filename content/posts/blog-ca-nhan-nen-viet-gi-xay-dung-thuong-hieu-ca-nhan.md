@@ -2,7 +2,7 @@
 title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
 date = "2026-07-10T00:30:00+07:00"
 date_display = "10-07-2026 00:30:00 GMT +7"
-commit = "521256f"
+commit = "0db2a4c"
 slug = "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "thương hiệu cá nhân", "viết blog", "personal branding", "content strategy", "SEO cá nhân"]
