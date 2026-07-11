@@ -1,8 +1,9 @@
 +++
 title = "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?"
+seo_title = "So sánh Copenhagen, Oslo và Stockholm: nên ở thành phố nào?"
 date = "2026-07-11T16:06:05+07:00"
 draft = false
-description = "Đọc phân tích chi tiết về ba thủ đô Scandinavia nổi tiếng nhất. So sánh Copenhagen, Oslo, và Stockholm về thứ lạnh, giá cả, xã hội, nền văn hóa, để bạn quyết định thành phố nào phù hợp nhất cho bạn."
+description = "So sánh ba thủ đô Scandinavia — Copenhagen, Oslo và Stockholm — về khí hậu, giá cả, văn hóa và cuộc sống để bạn chọn thành phố phù hợp nhất."
 image = "images/posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.webp"
 thumbnail = "images/posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.webp"
 categories = ["du-lich"]

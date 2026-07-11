@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
-seo_title = "Dọn Mac đúng cách: tối ưu dung lượng, tăng tốc không cần cài lại"
+seo_title = "Dọn Mac đúng cách: tối ưu dung lượng và tăng tốc MacBook"
 description = "Cách dọn Mac sạch — giải phóng bộ nhớ, tối ưu macOS, tăng tốc MacBook không cần cài lại. Hướng dẫn chi tiết cho người Việt dùng Mac."
 date = "2026-07-10T18:57:10+07:00"
 commit = "9008aff"

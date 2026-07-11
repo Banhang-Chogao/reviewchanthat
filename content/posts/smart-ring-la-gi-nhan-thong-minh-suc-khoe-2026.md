@@ -1,11 +1,12 @@
 +++
 title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
+seo_title = "Smart ring là gì? Có nên mua nhẫn thông minh 2026?"
 commit = "9008aff"
 date = "2026-07-11T12:50:00+07:00"
 draft = false
 tags = ["smart ring", "health tracking", "wearable"]
 categories = ["cong-nghe", "doi-song"]
-description = "Smart ring (nhẫn thông minh) có đáng mua trong năm 2026? So sánh Samsung Galaxy Ring, Oura Ring 4, Amazfit Helio Ring về chất lượng theo dõi giấc ngủ, HRV, SpO2, pin và giá bán. Nhẫn thông minh có thay thế được Apple Watch không?"
+description = "Smart ring (nhẫn thông minh) có đáng mua năm 2026? So sánh Samsung Galaxy Ring, Oura Ring 4 và Amazfit Helio Ring về giấc ngủ, HRV, SpO2, pin và giá."
 image = "images/posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.webp"
 thumbnail = "images/posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.webp"
 image_source = "Pixabay"

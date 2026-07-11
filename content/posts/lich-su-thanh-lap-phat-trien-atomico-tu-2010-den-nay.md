@@ -1,12 +1,13 @@
 +++
 title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
+seo_title = "Lịch Sử Atomico: Từ Ý Tưởng 2010 Đến Quỹ Đầu Tư Tỷ USD"
 commit = "9008aff"
 date = "2026-07-11T14:15:00+07:00"
 draft = false
-description = "Từng bước hành trình xây dựng Atomico từ năm 2010. Niklas Zennström thành lập quỹ đầu tư mạo hiểm này để thay đổi cách Châu Âu nhìn nhận khởi nghiệp. Khám phá các mốc quan trọng, những thách thức, và cách Atomico phát triển thành một quỹ đầu tư hàng đầu."
+description = "Hành trình xây dựng Atomico từ năm 2010: Niklas Zennström lập quỹ đầu tư mạo hiểm này và đưa nó thành một trong những quỹ hàng đầu Châu Âu."
 image = "images/posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.webp"
 thumbnail = "images/posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.webp"
-categories = ["Lịch Sử", "cong-nghe", "Khởi Nghiệp"]
+categories = ["doi-song", "cong-nghe", "tai-chinh"]
 tags = ["atomico", "lịch sử", "niklas zennström", "venture capital", "2010"]
 date_display = "11-07-2026 14:15:00 GMT +7"
 image_source = "Pixabay"

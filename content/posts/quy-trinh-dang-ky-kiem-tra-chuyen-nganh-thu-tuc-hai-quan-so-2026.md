@@ -1,12 +1,13 @@
 +++
 title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
+seo_title = "Thủ Tục Hải Quan Số Và Kiểm Tra Chuyên Ngành 2026"
 commit = "9008aff"
 date = "2026-07-11T06:00:00+07:00"
 draft = false
-description = "Hướng dẫn chi tiết thủ tục hải quan số 2026 trên Cơ chế một cửa quốc gia. Quy trình đăng ký kiểm tra chuyên ngành cho hàng hóa đặc thù: kiểm tra chất lượng, kiểm dịch động/thực vật, an toàn thực phẩm. Phân tích pháp luật xuất nhập khẩu mới nhất về nghĩa vụ doanh nghiệp và chế tài xử phạt."
+description = "Hướng dẫn thủ tục hải quan số 2026 trên Cơ chế một cửa quốc gia: quy trình đăng ký kiểm tra chuyên ngành, kiểm dịch và an toàn thực phẩm cho doanh nghiệp."
 image = "images/posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.webp"
 thumbnail = "images/posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.webp"
-categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]
+categories = ["tai-chinh", "du-lich"]
 tags = ["hai quan", "xuat nhap khau", "so hoa doanh nghiep"]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/eyeglasses-on-top-of-a-magazine-8937452/"

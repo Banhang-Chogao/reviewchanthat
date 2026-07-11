@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
-description = "FRM (Financial Risk Manager) dùng toán học nào? Học VaR (Value at Risk), Expected Shortfall (CVaR), extreme value theory, stress testing, backtesting, và mon itor rủi ro."
+description = "FRM (Financial Risk Manager) dùng toán học gì? Tìm hiểu VaR, Expected Shortfall (CVaR), extreme value theory, stress testing và backtesting rủi ro."
 date = "2026-07-10T13:16:14+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T14:10:36+07:00"

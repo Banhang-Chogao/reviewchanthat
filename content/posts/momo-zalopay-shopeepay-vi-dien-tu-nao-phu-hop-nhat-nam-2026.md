@@ -21,8 +21,8 @@ image_owner = "external"
 image_provider = "pixabay"
 image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/alipay-mobile-payment-qrcode-5417261/"
-seo_title = "MoMo, ZaloPay hay ShopeePay 2026? So sánh chi tiết chọn ví điện tử phù hợp nhất"
-description = "So sánh MoMo (40 triệu users, super app tài chính), ZaloPay (20 triệu, social payments) và ShopeePay (20 triệu, e-commerce cashback) — ví điện tử nào phù hợp với nhu cầu của bạn năm 2026?"
+seo_title = "MoMo, ZaloPay hay ShopeePay? Chọn ví điện tử 2026"
+description = "So sánh MoMo, ZaloPay và ShopeePay theo tính năng, ưu đãi và hệ sinh thái — ví điện tử nào phù hợp nhất với nhu cầu của bạn năm 2026?"
 
 [custom_image_queries]
 queries = ["mobile payment digital wallet comparison", "momo zalopay shopeepay app on smartphone", "vietnam digital wallet payment qr", "e wallet mobile banking", "cashless payment vietnam 2026"]

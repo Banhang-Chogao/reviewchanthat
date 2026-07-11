@@ -1,11 +1,12 @@
 +++
 title = "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?"
+seo_title = "Có Nên Đi Tour Hang Động Quảng Bình Mùa Mưa Tháng 7?"
 commit = "9008aff"
 date = "2026-07-11T14:20:00+07:00"
 draft = false
 tags = ["quang binh", "hang dong", "du lich mao hiem"]
-categories = ["du-lich", "Trai Nghiem"]
-description = "Có nên đi tour hang động Quảng Bình vào mùa mưa tháng 7? Phân tích chi tiết thời tiết, thủy văn, độ an toàn của hệ thống Phong Nha, Tú Làn, Hang Én. Lưu ý trang phục bảo hộ, thể lực và quy trình cứu hộ khi du lịch mạo hiểm mùa hè."
+categories = ["du-lich"]
+description = "Có nên đi tour hang động Quảng Bình mùa mưa tháng 7? Phân tích thời tiết, độ an toàn của Phong Nha, Tú Làn, Hang Én và lưu ý khi du lịch mạo hiểm."
 image = "images/posts/co-nen-di-tour-hang-dong-quang-binh-mua-mua.webp"
 thumbnail = "images/posts/co-nen-di-tour-hang-dong-quang-binh-mua-mua.webp"
 image_source = "Pexels"

@@ -1,12 +1,13 @@
 +++
 title = "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
+seo_title = "Estonia: Quốc Gia Số Hóa Khai Sinh Skype, Bolt, Wise"
 commit = "9008aff"
 date = "2026-07-11T13:00:00+07:00"
 draft = false
-description = "Khám phá hiện tượng e-Estonia - quốc gia số hóa tiên phong nơi 99% dịch vụ công được số hóa. Câu chuyện từ nước Xô Viết cũ vươn lên thành cái nôi kỳ lân công nghệ Skype, Bolt, Wise. Phân tích hệ thống chữ ký số ID-card và blockchain X-Road."
+description = "Khám phá e-Estonia — quốc gia số hóa tiên phong với 99% dịch vụ công online, nơi khai sinh Skype, Bolt, Wise cùng hệ thống ID-card và blockchain X-Road."
 image = "images/posts/estonia-quoc-gia-so-hoa-khai-sinh-skype.webp"
 thumbnail = "images/posts/estonia-quoc-gia-so-hoa-khai-sinh-skype.webp"
-categories = ["cong-nghe", "Xu Hướng"]
+categories = ["cong-nghe"]
 tags = ["estonia", "e-government", "skype", "startup"]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/person-holding-blue-card-and-a-cellphone-7821552/"

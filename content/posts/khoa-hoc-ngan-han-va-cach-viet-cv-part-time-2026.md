@@ -1,10 +1,11 @@
 +++
 title = "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10"
+seo_title = "Hè 2026: Khóa Học Ngắn Hạn & Cách Viết CV Part-time"
 commit = "9008aff"
 date = "2026-07-11T12:00:00+07:00"
 draft = false
 tags = ["khoa hoc ngan han", "chung chi tin hoc", "chung chi ngoai ngu", "viet cv part time"]
-categories = ["Giao Duc", "Ky Nang & Nghe Nghiep"]
+categories = ["doi-song"]
 description = "Tổng hợp các khóa học kỹ năng, AI ngắn hạn, cập nhật học phí chứng chỉ 2026 và hướng dẫn cách viết CV xin việc part-time cực chuẩn cho học sinh, sinh viên."
 image = "images/posts/khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026.webp"
 thumbnail = "images/posts/khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026.webp"

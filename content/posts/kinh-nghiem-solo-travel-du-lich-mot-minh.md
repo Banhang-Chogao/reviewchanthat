@@ -1,11 +1,12 @@
 +++
 title = "Kinh Nghiệm Du Lịch Tự Túc Một Mình (Solo Travel) An Toàn Và Trọn Vẹn"
+seo_title = "Kinh nghiệm solo travel: du lịch một mình an toàn, trọn vẹn"
 commit = "9008aff"
 date = "2026-07-11T14:10:00+07:00"
 draft = false
 tags = ["solo travel", "du lich tu tuc", "trai nghiem"]
-categories = ["du-lich", "Trai Nghiem"]
-description = "Kinh nghiệm du lịch một mình toàn diện: lịch trình solo travel cho nữ 4 ngày Hội An - Đà Lạt - Quy Nhơn, cẩm nang đặt phòng an toàn, quản lý tài chính, ứng dụng bản đồ ngoại tuyến và mẹo phòng thân khi du lịch tự túc."
+categories = ["du-lich"]
+description = "Cẩm nang du lịch một mình an toàn: lịch trình solo travel cho nữ 4 ngày Hội An - Đà Lạt - Quy Nhơn, cách đặt phòng, quản lý tài chính và mẹo phòng thân."
 image = "images/posts/kinh-nghiem-solo-travel-du-lich-mot-minh.webp"
 thumbnail = "images/posts/kinh-nghiem-solo-travel-du-lich-mot-minh.webp"
 image_source = "Pixabay"

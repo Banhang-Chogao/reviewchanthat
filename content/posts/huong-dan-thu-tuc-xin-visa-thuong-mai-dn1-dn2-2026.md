@@ -1,12 +1,13 @@
 +++
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
+seo_title = "Thủ tục xin visa thương mại DN1, DN2 cho chuyên gia 2026"
 commit = "9008aff"
 date = "2026-07-11T05:00:00+07:00"
 draft = false
-description = "Cập nhật mới nhất 2026: Hướng dẫn chi tiết thủ tục xin visa thương mại DN1 và DN2 cho chuyên gia nước ngoài. Phân biệt hai loại visa, bộ hồ sơ bảo lãnh chuyên gia vào Việt Nam, quy trình nộp tại Cục Quản lý xuất nhập khẩu và các lưu ý để tỷ lệ duyệt đạt 100%."
+description = "Hướng dẫn 2026: thủ tục xin visa thương mại DN1 và DN2 cho chuyên gia nước ngoài — phân biệt hai loại, hồ sơ bảo lãnh và quy trình nộp chi tiết."
 image = "images/posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.webp"
 thumbnail = "images/posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.webp"
-categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]
+categories = ["tai-chinh", "du-lich"]
 tags = ["visa thuong mai", "phap luat doanh nghiep", "chuyen gia nuoc ngoai"]
 image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/houses-fantasy-beautiful-737504/"

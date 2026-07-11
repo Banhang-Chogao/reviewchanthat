@@ -1,11 +1,12 @@
 +++
 title = "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á"
+seo_title = "Miễn Visa Uzbekistan 5 Ngày Cho Hộ Chiếu Việt Nam"
 date = "2026-07-11T11:15:00+07:00"
 date_display = "11-07-2026 11:15:00 GMT +7"
 commit = "9008aff"
 draft = false
 tags = ["visa uzbekistan", "du lich trung a", "kinh nghiem du lich", "mien visa"]
-categories = ["Visa & Thủ Tục", "Ký Sự Đường Đi"]
+categories = ["du-lich"]
 description = "Hướng dẫn chi tiết thủ tục miễn visa Uzbekistan tối đa 5 ngày cho hộ chiếu Việt Nam và gợi ý lịch trình liên tuyến Kazakhstan - Kyrgyzstan - Uzbekistan thực tế."
 image = "images/posts/huong-dan-mien-visa-uzbekistan-5-ngay.webp"
 thumbnail = "images/posts/huong-dan-mien-visa-uzbekistan-5-ngay.webp"

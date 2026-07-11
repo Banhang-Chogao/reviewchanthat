@@ -1,12 +1,13 @@
 +++
 title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
+seo_title = "Cung Đường Ven Biển Cam Ranh – Vĩnh Hy: Ký Sự Road Trip"
 commit = "9008aff"
 date = "2026-07-11T09:00:00+07:00"
 draft = false
-description = "Ký sự road trip cung đường ven biển Cam Ranh – Vĩnh Hy – một trong những cung đường đẹp nhất Việt Nam. Câu chuyện về vẻ đẹp đối lập giữa vách núi khô cằn Vườn quốc gia Núi Chúa và làn nước ngọc bích vịnh Vĩnh Hy, những làng chài cổ và cảm giác tự do cuối ngày."
+description = "Ký sự road trip cung đường ven biển Cam Ranh – Vĩnh Hy: vách núi khô cằn Vườn quốc gia Núi Chúa, làn nước ngọc bích và những làng chài cổ yên bình."
 image = "images/posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.webp"
 thumbnail = "images/posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.webp"
-categories = ["Ký Sự Đường Đi"]
+categories = ["du-lich"]
 tags = ["vinh hy", "cam ranh", "road trip"]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/dynamic-street-scene-in-ha-n-i-vietnam-37359936/"

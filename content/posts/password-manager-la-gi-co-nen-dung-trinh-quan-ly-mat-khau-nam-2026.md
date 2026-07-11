@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
-seo_title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu 2026?"
+seo_title = "Password Manager là gì? Có nên dùng năm 2026?"
 description = "Password manager là gì? So sánh Bitwarden, 1Password, KeePass năm 2026 — có nên dùng, cách chọn và hướng dẫn thiết lập cho người Việt."
 date = "2026-07-10T18:57:10+07:00"
 commit = "9008aff"

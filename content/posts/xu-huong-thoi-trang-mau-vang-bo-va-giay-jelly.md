@@ -1,10 +1,11 @@
 +++
 title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
+seo_title = "Xu hướng hè 2026: phối đồ màu vàng bơ và phụ kiện jelly"
 commit = "9008aff"
 date = "2026-07-11T11:20:00+07:00"
 draft = false
 tags = ["mau vang bo", "giay jelly", "thoi trang he", "phoi do thoi trang"]
-categories = ["Thời Trang", "Làm Đẹp"]
+categories = ["doi-song"]
 description = "Đón đầu xu hướng hè 2026 với gam màu vàng bơ (Butter Yellow) dịu mát và phụ kiện nhựa dẻo (Jelly). Bật mí công thức phối đồ tôn da và các mẫu nail cực xinh."
 image = "images/posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.webp"
 thumbnail = "images/posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.webp"

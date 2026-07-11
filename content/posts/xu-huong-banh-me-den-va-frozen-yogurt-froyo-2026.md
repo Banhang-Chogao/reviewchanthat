@@ -1,10 +1,11 @@
 +++
 title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử"
+seo_title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm & Quán Ngon"
 commit = "9008aff"
 date = "2026-07-11T12:25:00+07:00"
 draft = false
 tags = ["kem me den", "banh tart me den", "frozen yogurt", "froyo ngon"]
-categories = ["Am Thuc", "An Choi"]
+categories = ["du-lich"]
 description = "Đón đầu trào lưu tráng miệng hè 2026 với mè đen (Black Sesame) và sữa chua dẻo Froyo. Hướng dẫn cách làm kem, bánh tart mè đen tại nhà và review quán ngon."
 image = "images/posts/xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026.webp"
 thumbnail = "images/posts/xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026.webp"

@@ -2,7 +2,7 @@
 draft = false
 title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
 seo_title = "Hệ điều hành cá nhân: Notion + Calendar + AI"
-description = "Cách ghép Notion, Google Calendar và AI thành personal OS: inbox, dự án, lịch, review tuần. Checklist, bảng so sánh, FAQ — không biến app thành nghĩa vụ thứ hai."
+description = "Cách ghép Notion, Google Calendar và AI thành personal OS: inbox, dự án, lịch và review tuần. Có checklist, bảng so sánh, FAQ — không biến app thành nghĩa vụ."
 date = "2026-07-10T14:58:30+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T14:58:30+07:00"

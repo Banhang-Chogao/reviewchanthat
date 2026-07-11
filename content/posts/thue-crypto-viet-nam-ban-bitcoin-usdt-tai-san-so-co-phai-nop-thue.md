@@ -4,7 +4,7 @@ avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh"]
 date = "2026-07-10T06:32:00+07:00"
 commit = "9008aff"
-description = "Crypto, Bitcoin, USDT và tài sản số có thể phát sinh câu hỏi về thuế khi mua bán, chuyển đổi hoặc rút tiền về tài khoản ngân hàng. Bài viết giải thích thận trọng những điều người dùng Việt Nam cần hiểu, không thay thế tư vấn thuế cá nhân."
+description = "Bán Bitcoin, USDT hay tài sản số ở Việt Nam có phải nộp thuế? Bài viết giải thích thận trọng những điều người dùng cần hiểu, không thay tư vấn thuế cá nhân."
 draft = false
 image = "images/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.webp"
 image_alt = "Ảnh minh họa Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không? — nguồn Pexels"
@@ -28,6 +28,7 @@ slug = "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue"
 tags = ["thuế crypto", "Bitcoin", "USDT", "tài sản số", "thuế tài sản số", "tài chính cá nhân", "Việt Nam"]
 thumbnail = "images/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.webp"
 title = "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?"
+seo_title = "Thuế crypto Việt Nam 2026: bán Bitcoin, USDT có phải nộp?"
 date_display = "10-07-2026 06:32:00 GMT +7"
 
 [ai_summary]

@@ -1,8 +1,9 @@
 +++
 title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+seo_title = "Năng Lượng Tái Tạo Ở Scandinavia: Bí Quyết Dẫn Đầu"
 date = "2026-07-11T16:06:05+07:00"
 draft = false
-description = "Khám phá hệ thống năng lượng tái tạo ở Scandinavia – từ đập thủy điện khổng lồ của Na Uy đến turbine gió của Thụy Điển. Tìm hiểu cách các quốc gia nhỏ này cung cấp 99% điện năng từ các nguồn sạch."
+description = "Khám phá năng lượng tái tạo ở Scandinavia: từ thủy điện của Na Uy đến turbine gió Thụy Điển, cách các quốc gia nhỏ đạt 99% điện từ nguồn sạch."
 image = "images/posts/nang-luong-tai-tao-turbine-gio-scandinavia.webp"
 thumbnail = "images/posts/nang-luong-tai-tao-turbine-gio-scandinavia.webp"
 categories = ["review"]

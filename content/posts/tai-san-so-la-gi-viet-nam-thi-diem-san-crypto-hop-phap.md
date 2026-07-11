@@ -4,7 +4,7 @@ avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh"]
 date = "2026-07-10T05:58:08+07:00"
 commit = "9008aff"
-description = "Tài sản số và crypto đang bước vào giai đoạn được quản lý rõ hơn tại Việt Nam. Người dùng cần hiểu khái niệm, rủi ro, điểm khác với tiền ảo và vì sao thí điểm sàn hợp pháp không đồng nghĩa với đầu tư không rủi ro."
+description = "Tài sản số là gì và vì sao Việt Nam thí điểm sàn crypto hợp pháp? Hiểu khái niệm, rủi ro và điểm khác biệt với tiền ảo trước khi tham gia đầu tư."
 draft = false
 image = "images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp"
 image_alt = "Ảnh minh họa tài sản số và giao dịch crypto trên điện thoại — nguồn Pexels"
@@ -27,6 +27,7 @@ slug = "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap"
 tags = ["tài sản số", "crypto", "Bitcoin", "tài sản mã hóa", "sàn crypto", "tài chính cá nhân", "Việt Nam"]
 thumbnail = "images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp"
 title = "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì"
+seo_title = "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp"
 date_display = "10-07-2026 05:58:08 GMT +7"
 
 [ai_summary]

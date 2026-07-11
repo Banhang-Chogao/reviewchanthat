@@ -1,10 +1,11 @@
 +++
 title = "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè"
+seo_title = "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ"
 commit = "9008aff"
 date = "2026-07-11T12:10:00+07:00"
 draft = false
 tags = ["mouth tape", "suc khoe giac ngu", "tho bang mui", "lam mat phong ngu"]
-categories = ["Suc Khoe", "doi-song"]
+categories = ["doi-song"]
 description = "Giải mã cơn sốt dùng mouth tape (băng dính miệng) khi ngủ có thực sự tốt? Tìm hiểu tác hại thở bằng miệng và mẹo hạ nhiệt phòng ngủ không cần điều hòa mùa hè."
 image = "images/posts/xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu.webp"
 thumbnail = "images/posts/xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu.webp"

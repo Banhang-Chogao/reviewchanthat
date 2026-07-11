@@ -17,8 +17,8 @@ image_source_url = "https://www.pexels.com/photo/close-up-shot-of-a-person-using
 image_license = "Pexels License"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
-seo_title = "Techcombank Mobile review 2026: phí chuyển tiền, sinh lời tự động và ai nên dùng"
-description = "Techcombank Mobile là app ngân hàng số nổi bật với chuyển tiền, quản lý tài khoản và tính năng sinh lời tự động; bài viết đánh giá phí, trải nghiệm và nhóm người phù hợp trong năm 2026."
+seo_title = "Techcombank Mobile review 2026: phí, sinh lời tự động"
+description = "Đánh giá Techcombank Mobile 2026: phí chuyển tiền, tính năng sinh lời tự động, trải nghiệm app và nhóm người dùng phù hợp với ngân hàng số này."
 
 [custom_image_queries]
 queries = ["mobile banking app finance phone", "digital banking smartphone", "personal finance banking app", "financial app on phone", "banking payment technology"]

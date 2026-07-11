@@ -17,7 +17,7 @@ image_source_url = "https://www.pexels.com/photo/bitcoin-and-credit-cards-with-f
 image_license = "Pexels License"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
-seo_title = "Fed, lãi suất, giá vàng và ảnh hưởng đến nền kinh tế Việt Nam 2026"
+seo_title = "Fed, lãi suất, giá vàng ảnh hưởng ví tiền người Việt 2026"
 description = "Hiểu Fed, lãi suất Mỹ, bond yield và giá vàng: cơ chế hoạt động, mối quan hệ, và tác động trực tiếp đến người Việt tiết kiệm, vay tiền, và đầu tư."
 
 [custom_image_queries]

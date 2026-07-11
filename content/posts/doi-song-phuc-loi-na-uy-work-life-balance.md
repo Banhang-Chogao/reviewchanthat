@@ -1,7 +1,8 @@
 +++
 title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới"
+seo_title = "Đời sống Na Uy: work-life balance và phúc lợi xã hội"
 date = "2026-07-13 10:30:00+07:00"
-description = "Khám phá chất lượng cuộc sống tại Na Uy: work-life balance, hệ thống phúc lợi toàn diện, giáo dục miễn phí, nhưng cũng những thách thức thực tế mà ít người biết."
+description = "Chất lượng cuộc sống tại Na Uy: work-life balance, phúc lợi toàn diện, giáo dục miễn phí và cả những thách thức thực tế mà ít người biết đến."
 categories = ["du-lich"]
 tags = ["Norway", "quality-of-life", "welfare-state", "work-life-balance", "Nordic"]
 author = "Duy Nguyen"

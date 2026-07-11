@@ -17,8 +17,8 @@ image_source_url = "https://www.pexels.com/photo/credit-cards-on-the-table-78217
 image_license = "Pexels License"
 image_attribution_source = "pexels_api"
 image_attribution_verified = true
-seo_title = "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào"
-description = "VPBank NEO là app ngân hàng số dành cho người dùng muốn giao dịch, quản lý tài khoản và thanh toán online; bài viết đánh giá tính năng, phí cần kiểm tra và nhóm người phù hợp trong năm 2026."
+seo_title = "VPBank NEO review 2026: app ngân hàng số hợp với ai?"
+description = "Đánh giá VPBank NEO 2026: app ngân hàng số để giao dịch, quản lý tài khoản, thanh toán online; các tính năng, phí cần lưu ý và nhóm người dùng phù hợp."
 
 [custom_image_queries]
 queries = ["digital banking app smartphone", "online banking finance mobile", "banking app user phone", "financial app interface", "mobile payment technology"]

@@ -1,12 +1,13 @@
 +++
 title = "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu"
+seo_title = "Ký sự Tallinn: đêm trắng ở thị trấn trung cổ Bắc Âu"
 commit = "9008aff"
 date = "2026-07-11T14:44:57+07:00"
 draft = false
-description = "Ký sự du lịch Tallinn mùa hè - thành phố cổ kính nhất Bắc Âu với những đêm trắng mặt trời không bao giờ lặn. Phố cổ UNESCO, tường thành thế kỷ 13, quán ăn trung cổ thắp nến cạnh văn phòng công nghệ hiện đại."
+description = "Ký sự du lịch Tallinn mùa hè: thành phố cổ kính Bắc Âu với đêm trắng mặt trời không lặn, phố cổ UNESCO và tường thành thế kỷ 13."
 image = "images/posts/ky-su-tallinn-dem-trang-thi-tran-co.webp"
 thumbnail = "images/posts/ky-su-tallinn-dem-trang-thi-tran-co.webp"
-categories = ["Ký Sự Đường Đi"]
+categories = ["du-lich"]
 tags = ["tallinn", "ky su du lich", "bac au"]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/aerial-view-of-tallinn-christmas-market-at-dusk-29845106/"

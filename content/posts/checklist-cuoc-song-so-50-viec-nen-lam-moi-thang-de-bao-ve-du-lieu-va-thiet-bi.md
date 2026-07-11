@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-seo_title = "Checklist cuộc sống số: 50 việc bảo vệ dữ liệu và thiết bị mỗi tháng"
+seo_title = "Checklist cuộc sống số: 50 việc bảo vệ dữ liệu mỗi tháng"
 description = "Checklist cuộc sống số 50 việc — bảo mật cá nhân, an toàn dữ liệu, digital hygiene, quản lý thiết bị. Lịch bảo trì hàng ngày/tuần/tháng cho người Việt."
 date = "2026-07-10T18:57:10+07:00"
 commit = "9008aff"

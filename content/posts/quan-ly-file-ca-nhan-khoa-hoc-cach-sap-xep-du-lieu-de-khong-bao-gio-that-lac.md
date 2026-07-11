@@ -1,8 +1,8 @@
 +++
 draft = false
 title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
-seo_title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu không thất lạc"
-description = "Cách quản lý file khoa học — sắp xếp dữ liệu, folder structure, phương pháp PARA. Hướng dẫn quản lý file cho người Việt để không bao giờ mất tài liệu quan trọng."
+seo_title = "Quản lý file khoa học: sắp xếp dữ liệu không thất lạc"
+description = "Cách quản lý file khoa học: sắp xếp dữ liệu, folder structure và phương pháp PARA giúp người Việt không bao giờ thất lạc tài liệu quan trọng."
 date = "2026-07-10T18:57:10+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T18:57:10+07:00"

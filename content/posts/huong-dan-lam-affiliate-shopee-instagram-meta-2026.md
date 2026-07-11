@@ -1,11 +1,12 @@
 +++
 title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
+seo_title = "Affiliate Shopee trên Instagram 2026: kiếm tiền từ Meta"
 commit = "9008aff"
 date = "2026-07-11T12:30:00+07:00"
 draft = false
 tags = ["affiliate shopee", "instagram shopping", "kiem tien reels", "tiep thi lien ket meta"]
-categories = ["Kiem Tien Online", "Digital Marketing"]
-description = "Hướng dẫn chi tiết cách làm affiliate Shopee trực tiếp trên Instagram tận dụng tính năng mới của Meta. Chiến lược xây dựng kênh Reels kiếm tiền thụ động bền vững."
+categories = ["tai-chinh"]
+description = "Hướng dẫn cách làm affiliate Shopee trên Instagram, tận dụng tính năng mới của Meta và xây kênh Reels kiếm tiền thụ động bền vững năm 2026."
 image = "images/posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.webp"
 thumbnail = "images/posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.webp"
 image_source = "Pixabay"

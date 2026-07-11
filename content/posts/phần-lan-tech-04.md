@@ -1,8 +1,9 @@
 +++
 title = "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
+seo_title = "Phần Lan: Từ Nokia Đến 5G, Siêu Cường Công Nghệ Bắc Âu"
 commit = "9008aff"
 date = "2026-07-11T16:06:05+07:00"
-description = "Khám phá câu chuyện của Phần Lan – từ cái tổ yên Nokia, tới Linux, Supercell, và vị trí trung tâm của nó trong phát triển 5G/6G. Tại sao 1 trong 5 công ty khởi nghiệp công nghệ châu Âu được thành lập ở Phần Lan?"
+description = "Câu chuyện Phần Lan từ Nokia, Linux đến Supercell và vai trò trung tâm trong phát triển 5G/6G. Vì sao 1/5 startup công nghệ châu Âu ra đời tại đây?"
 categories = ["du-lich"]
 tags = ["Phần Lan", "Công nghệ", "Startup", "Nokia", "5G", "Sự đổi mới"]
 author = "Reviewchanthat"

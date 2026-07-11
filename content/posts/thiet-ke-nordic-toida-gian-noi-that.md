@@ -2,7 +2,7 @@
 title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
 date = "2026-07-11T16:06:05+07:00"
 draft = false
-description = "Khám phá triết lý thiết kế Nordic: từ IKEA đến các nhà thiết kế Scandinavia nổi tiếng. Tìm hiểu tại sao thiết kế Nordic lại trở thành xu hướng toàn cầu và cách áp dụng nó vào nhà của bạn."
+description = "Khám phá triết lý thiết kế Nordic tối giản và chức năng từ Bắc Âu: từ IKEA đến các nhà thiết kế Scandinavia và cách áp dụng vào không gian sống của bạn."
 image = "images/posts/thiet-ke-nordic-toida-gian-noi-that.webp"
 thumbnail = "images/posts/thiet-ke-nordic-toida-gian-noi-that.webp"
 categories = ["review"]

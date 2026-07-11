@@ -1,12 +1,13 @@
 +++
 title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
+seo_title = "Thủ Tục Xin e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
 commit = "9008aff"
 date = "2026-07-11T14:00:00+07:00"
 draft = false
-description = "Hướng dẫn chi tiết chương trình e-Residency Estonia - công dân điện tử đầu tiên trên thế giới. Quyền lợi mở công ty chuẩn EU từ xa, quản lý thuế trực tuyến, mở tài khoản ngân hàng châu Âu. Chi phí, hồ sơ, quy trình nộp đơn và lưu ý cho người Việt Nam."
+description = "Hướng dẫn chi tiết chương trình e-Residency Estonia: quyền lợi mở công ty chuẩn EU từ xa, chi phí, hồ sơ và quy trình nộp đơn cho người Việt Nam."
 image = "images/posts/huong-dan-xin-visa-e-residency-estonia.webp"
 thumbnail = "images/posts/huong-dan-xin-visa-e-residency-estonia.webp"
-categories = ["Pháp Luật Doanh Nghiệp", "Visa & Thủ Tục"]
+categories = ["tai-chinh", "du-lich"]
 tags = ["e-residency", "visa chau au", "thanh lap doanh nghiep"]
 image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/navigation-car-drive-road-gps-1048294/"

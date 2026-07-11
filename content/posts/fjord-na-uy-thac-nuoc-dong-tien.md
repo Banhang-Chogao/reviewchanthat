@@ -1,8 +1,9 @@
 +++
 title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh"
+seo_title = "Fjord Na Uy: Geirangerfjord, Sognefjord và thác nước"
 date = "2026-07-11T16:06:05+07:00"
 draft = false
-description = "Du lịch các fjord nổi tiếng của Na Uy: từ Geirangerfjord tuyệt mỹ đến Sognefjord hùng vĩ. Khám phá những ngôi làng cổ kính, thác nước hoang dã, và cách tốt nhất để trải nghiệm vẻ đẹp thô kệch của tự nhiên Scandinavia."
+description = "Du lịch fjord Na Uy: từ Geirangerfjord tuyệt mỹ đến Sognefjord hùng vĩ, khám phá làng cổ, thác nước hoang dã và cách trải nghiệm thiên nhiên Scandinavia."
 image = "images/posts/fjord-na-uy-thac-nuoc-dong-tien.webp"
 thumbnail = "images/posts/fjord-na-uy-thac-nuoc-dong-tien.webp"
 categories = ["du-lich"]

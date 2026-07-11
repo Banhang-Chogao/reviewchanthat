@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối"
-seo_title = "Digital Detox là gì? Cách giảm nghiện điện thoại không mất kết nối"
+seo_title = "Digital Detox là gì? Giảm nghiện điện thoại đúng cách"
 description = "Digital detox là gì? Cách cai nghiện điện thoại, giảm screen time và digital wellbeing cho người Việt — có kết nối nhưng không bị kiểm soát bởi thiết bị."
 date = "2026-07-10T18:57:10+07:00"
 commit = "9008aff"

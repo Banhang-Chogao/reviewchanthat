@@ -1,11 +1,12 @@
 +++
 title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
+seo_title = "Green Camping: Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
 commit = "9008aff"
 date = "2026-07-11T14:00:00+07:00"
 draft = false
 tags = ["green camping", "camping", "du lich chua lanh"]
-categories = ["du-lich", "Trai Nghiem"]
-description = "Green camping là gì? Gợi ý 5 địa điểm cắm trại hoang sơ gần Sài Gòn: hồ Trị An, hồ Dầu Tiếng, rừng Bù Đăng. Cẩm nang Leave No Trace, dụng cụ lọc nước, xử lý rác thải hữu cơ và vô cơ khi camping chữa lành."
+categories = ["du-lich"]
+description = "Green camping là gì? Gợi ý 5 địa điểm cắm trại hoang sơ gần Sài Gòn: hồ Trị An, hồ Dầu Tiếng, rừng Bù Đăng cùng cẩm nang Leave No Trace chữa lành."
 image = "images/posts/trao-luu-green-camping-cam-trai-hoang-so.webp"
 thumbnail = "images/posts/trao-luu-green-camping-cam-trai-hoang-so.webp"
 image_source = "Pixabay"

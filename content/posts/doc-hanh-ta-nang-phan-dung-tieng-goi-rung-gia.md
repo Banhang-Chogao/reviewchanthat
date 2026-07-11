@@ -1,12 +1,13 @@
 +++
 title = "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ"
+seo_title = "Độc hành Tà Năng Phan Dũng: tiếng gọi của rừng già"
 commit = "9008aff"
 date = "2026-07-11T10:00:00+07:00"
 draft = false
-description = "Ký sự trekking Tà Năng Phan Dũng mùa cỏ xanh tháng 7. Hành trình độc hành xuyên rừng 3 tỉnh Lâm Đồng - Ninh Thuận - Bình Thuận. Cảm giác dựng lều giữa đỉnh đồi, cơn mưa rừng bất chợt và những bài học về sự sinh tồn."
+description = "Ký sự độc hành trekking Tà Năng Phan Dũng mùa cỏ xanh tháng 7: xuyên rừng ba tỉnh, dựng lều giữa đỉnh đồi và những bài học về sinh tồn."
 image = "images/posts/doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia.webp"
 thumbnail = "images/posts/doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia.webp"
-categories = ["Ký Sự Đường Đi"]
+categories = ["du-lich"]
 tags = ["ta nang phan dung", "trekking", "doc hanh"]
 image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/dawn-on-the-plateau-4457930/"

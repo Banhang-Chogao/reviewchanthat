@@ -1,11 +1,12 @@
 +++
 title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"
+seo_title = "Icehotel & Săn Bắc Cực Quang Ở Lapland, Thụy Điển"
 date = "2026-07-11T14:44:58+07:00"
 draft = false
-description = "Trải nghiệm thực tế Icehotel Jukkasjärvi - khách sạn băng xây lại mỗi mùa đông. Hướng dẫn săn Bắc Cực Quang tại Abisko, Thụy Điển: thời điểm, chi phí, trang phục và so sánh với Na Uy, Phần Lan."
+description = "Trải nghiệm khách sạn băng Icehotel Jukkasjärvi và săn Bắc Cực Quang tại Abisko, Thụy Điển: thời điểm, chi phí và trang phục cần chuẩn bị."
 image = "images/posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.webp"
 thumbnail = "images/posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.webp"
-categories = ["du-lich", "Trải Nghiệm"]
+categories = ["du-lich"]
 tags = ["lapland", "icehotel", "aurora", "adventure"]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/a-massive-amount-of-brown-dried-leaves-on-the-ground-10104401/"

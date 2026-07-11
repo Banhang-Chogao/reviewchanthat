@@ -16,8 +16,8 @@ image_source_url = "https://pixabay.com/photos/wallet-cash-pocket-credit-card-10
 image_license = "Pixabay Content License"
 image_attribution_source = "pixabay_api"
 image_attribution_verified = true
-seo_title = "Tín chỉ carbon và Net Zero: phân tích thật từ thẻ Eco Techcombank"
-description = "Giải mã tín chỉ carbon, thị trường carbon và trào lưu Net Zero dưới góc nhìn tài chính; phân tích thẳng thắn case study thẻ Eco Debit của Techcombank – cơ chế bù trừ phát thải, con số thực và những giới hạn cần biết."
+seo_title = "Tín chỉ carbon và Net Zero: nhìn từ thẻ Eco Techcombank"
+description = "Giải mã tín chỉ carbon và trào lưu Net Zero dưới góc nhìn tài chính; phân tích thẳng thắn case study thẻ Eco Techcombank và những giới hạn cần biết."
 
 [custom_image_queries]
 queries = ["carbon credit sustainability finance", "green banking eco card", "net zero climate finance", "forest tree planting carbon offset", "sustainable green economy money"]

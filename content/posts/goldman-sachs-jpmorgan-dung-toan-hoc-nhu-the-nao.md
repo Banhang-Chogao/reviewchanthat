@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
-description = "Goldman Sachs, JPMorgan dùng toán học gì? Học algorithmic trading, derivatives pricing, volatility smile, Greeks (delta, gamma, vega), stochastic models, machine learning."
+description = "Goldman Sachs, JPMorgan dùng toán học gì? Tìm hiểu algorithmic trading, định giá phái sinh, volatility smile, Greeks (delta, gamma, vega) và mô hình ngẫu nhiên."
 date = "2026-07-10T13:16:14+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T14:10:36+07:00"

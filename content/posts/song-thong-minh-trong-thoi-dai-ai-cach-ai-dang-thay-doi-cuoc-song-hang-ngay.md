@@ -2,7 +2,7 @@
 draft = false
 title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày"
 seo_title = "Sống thông minh với AI: thay đổi đời sống hằng ngày"
-description = "AI trong đời sống không chỉ là chatbot. Cách sống thông minh với AI: tiết kiệm thời gian, tiền bạc, học tập, tài chính, du lịch — ưu điểm, hạn chế và checklist an toàn cho người Việt."
+description = "AI trong đời sống không chỉ là chatbot. Cách sống thông minh với AI để tiết kiệm thời gian, tiền bạc, học tập và du lịch an toàn cho người Việt."
 date = "2026-07-10T14:49:47+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T14:49:47+07:00"

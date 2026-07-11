@@ -1,11 +1,12 @@
 +++
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+seo_title = "Luật Chuyển đổi số 2025: doanh nghiệp cần chuẩn bị gì?"
 commit = "9008aff"
 date = "2026-07-11T11:30:00+07:00"
 draft = false
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-categories = ["cong-nghe", "phap-luat-doanh-nghiep"]
+categories = ["cong-nghe", "tai-chinh"]
 description = "Đánh giá chi tiết những điểm mới của Luật Chuyển đổi số 2025 áp dụng từ 1/7/2026. Hướng dẫn doanh nghiệp các bước tuân thủ và thích ứng với khung pháp lý mới."
 image = "images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp"
 thumbnail = "images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp"

@@ -1,11 +1,12 @@
 +++
 title = "Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026"
+seo_title = "Đánh Giá Top 3 Kính VR Giá Rẻ Đáng Mua Nhất Hè 2026"
 commit = "9008aff"
 date = "2026-07-11T12:35:00+07:00"
 draft = false
 tags = ["kinh vr", "thiet bi cong nghe", "vr gia re"]
-categories = ["cong-nghe", "Xu Huong"]
-description = "Bạn đang phân vân nên mua kính VR nào trong hè 2026? Đánh giá chi tiết top 3 kính thực tế ảo giá rẻ đáng mua nhất cho xem phim, chơi game và trải nghiệm giải trí. So sánh ưu nhược điểm thấu kính, độ trễ, trọng lượng và thời lượng pin."
+categories = ["cong-nghe"]
+description = "Đánh giá chi tiết top 3 kính thực tế ảo (VR) giá rẻ đáng mua nhất hè 2026 để xem phim và chơi game: so sánh thấu kính, độ trễ, trọng lượng và pin."
 image = "images/posts/danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026.webp"
 thumbnail = "images/posts/danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026.webp"
 image_source = "Pixabay"

@@ -1,11 +1,12 @@
 +++
 title = "Từ Spotify Đến Bluetooth: Thụy Điển Đã Thống Trị Thế Giới Công Nghệ Ngầm Như Thế Nào?"
+seo_title = "Thụy Điển: Nơi Khai Sinh Spotify Và Bluetooth"
 date = "2026-07-11T14:44:58+07:00"
 draft = false
-description = "Khám phá cách Thụy Điển - quốc gia 10 triệu dân - sản sinh ra Spotify, Bluetooth, Tetra Pak, dây đai an toàn Volvo và hàng loạt phát minh thay đổi thế giới. Phân tích hệ sinh thái startup Stockholm và những yếu tố làm nên kỳ tích công nghệ Bắc Âu."
+description = "Vì sao Thụy Điển - quốc gia 10 triệu dân - sản sinh Spotify, Bluetooth, Tetra Pak và dây đai an toàn Volvo? Bí quyết hệ sinh thái startup Stockholm."
 image = "images/posts/thuy-dien-noi-khai-sinh-spotify-va-bluetooth.webp"
 thumbnail = "images/posts/thuy-dien-noi-khai-sinh-spotify-va-bluetooth.webp"
-categories = ["cong-nghe", "Xu Hướng"]
+categories = ["cong-nghe"]
 tags = ["sweden", "spotify", "bluetooth", "tech-innovation"]
 commit = "9008aff"
 image_source = "Pexels"

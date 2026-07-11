@@ -1,8 +1,9 @@
 +++
 title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+seo_title = "Wellness Và Sauna Ở Scandinavia: Sống Khỏe Kiểu Bắc Âu"
 date = "2026-07-11T16:06:05+07:00"
 draft = false
-description = "Khám phá nền văn hóa wellness ở Scandinavia – từ những lò sauna truyền thống, làm dịu vụ spa thiên nhiên, đến lối sống cân bằng. Tìm hiểu tại sao người Scandinavia có chất lượng cuộc sống cao nhất thế giới."
+description = "Khám phá văn hóa wellness ở Scandinavia: từ lò sauna truyền thống, spa thiên nhiên đến lối sống cân bằng giúp người Bắc Âu sống khỏe mạnh mỗi ngày."
 image = "images/posts/wellness-spa-scandinavia-sauna-nong.webp"
 thumbnail = "images/posts/wellness-spa-scandinavia-sauna-nong.webp"
 categories = ["review"]

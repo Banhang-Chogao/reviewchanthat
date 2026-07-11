@@ -1,6 +1,6 @@
 +++
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-description = "công ty bảo hiểm tính phí bảo hiểm bằng toán học gì? Học actuarial science, xác suất sống còn, hàm mũ e^(-λt), expected loss, present value, dự phòng kỹ thuật, và mô hình Monte Carlo."
+description = "Công ty bảo hiểm dùng toán học gì để tính phí và rủi ro? Tìm hiểu actuarial science, xác suất sống còn, hàm mũ e^(-λt), expected loss và mô hình Monte Carlo."
 date = "2026-07-10T11:30:00+07:00"
 commit = "9008aff"
 lastmod = "2026-07-10T11:30:00+07:00"

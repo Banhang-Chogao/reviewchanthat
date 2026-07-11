@@ -1,12 +1,13 @@
 +++
 title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
+seo_title = "Ký sự Hà Giang: Mã Pí Lèng và những khúc cua qua mây"
 commit = "9008aff"
 date = "2026-07-11T08:00:00+07:00"
 draft = false
-description = "Ký sự hành trình phượt Hà Giang bằng xe máy qua đèo Mã Pí Lèng, dốc Thẩm Mã. Câu chuyện về những đứa trẻ Mông đeo gùi hoa, đêm tĩnh lặng giữa bản làng xa xôi và vẻ đẹp hùng vĩ của hẻm vực Tu Sản dưới nắng tháng Bảy."
+description = "Ký sự phượt Hà Giang bằng xe máy qua đèo Mã Pí Lèng, dốc Thẩm Mã: những đứa trẻ Mông đeo gùi hoa, đêm tĩnh lặng nơi bản làng và hẻm Tu Sản hùng vĩ."
 image = "images/posts/ky-su-ha-giang-nhung-khuc-cua-va-ky-uc.webp"
 thumbnail = "images/posts/ky-su-ha-giang-nhung-khuc-cua-va-ky-uc.webp"
-categories = ["Ký Sự Đường Đi"]
+categories = ["du-lich"]
 tags = ["ha giang", "ma pi leng", "ky su du hanh"]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/nh-ng-be-trai-s-ng-la-ha-giang-vi-t-nam-27246957/"

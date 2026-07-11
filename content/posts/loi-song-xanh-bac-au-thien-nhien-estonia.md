@@ -1,12 +1,13 @@
 +++
 title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
+seo_title = "Lối sống xanh Bắc Âu: thiên nhiên và rừng già Estonia"
 commit = "9008aff"
 date = "2026-07-11T14:44:57+07:00"
 draft = false
-description = "Khám phá lối sống xanh và triết lý sống gần gũi thiên nhiên của người Estonia. Trải nghiệm đi bộ trên đầm lầy (bog-walking), văn hóa tắm hơi khói Smoke Sauna UNESCO, và cuộc sống bền vững giữa rừng già Bắc Âu."
+description = "Khám phá lối sống xanh gần gũi thiên nhiên của người Estonia: đi bộ trên đầm lầy, văn hóa Smoke Sauna UNESCO và cuộc sống bền vững giữa rừng già Bắc Âu."
 image = "images/posts/loi-song-xanh-bac-au-thien-nhien-estonia.webp"
 thumbnail = "images/posts/loi-song-xanh-bac-au-thien-nhien-estonia.webp"
-categories = ["du-lich", "Trải Nghiệm"]
+categories = ["du-lich"]
 tags = ["lifestyle", "song xanh", "sauna", "nature"]
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/colorful-surfboards-on-a-tropical-beach-30917053/"

@@ -21,8 +21,8 @@ image_owner = "external"
 image_provider = "pixabay"
 image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/alipay-mobile-payment-qrcode-5417256/"
-seo_title = "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD là gì và emergency fund bao nhiêu là đủ?"
-description = "High-yield savings, chứng chỉ tiền gửi (CD), tiết kiệm tự động và quỹ khẩn cấp (emergency fund) — những khái niệm cốt lõi trong personal finance mọi người cần biết năm 2026."
+seo_title = "Personal Finance 2026: high-yield savings, CD, quỹ khẩn cấp"
+description = "High-yield savings, chứng chỉ tiền gửi (CD), tiết kiệm tự động và quỹ khẩn cấp (emergency fund): những khái niệm cốt lõi trong personal finance năm 2026."
 
 [custom_image_queries]
 queries = ["personal finance savings jar concept", "emergency fund money jar", "automated savings app smartphone", "certificate of deposit bank", "financial planning budget"]
