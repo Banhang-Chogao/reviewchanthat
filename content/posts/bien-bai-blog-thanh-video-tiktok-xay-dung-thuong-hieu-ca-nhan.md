@@ -2,7 +2,7 @@
 title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
 date = "2026-07-10T00:15:00+07:00"
 date_display = "10-07-2026 00:15:00 GMT +7"
-commit = "279773a"
+commit = "55a0a30"
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
@@ -13,8 +13,10 @@ image_status = "verified"
 related_posts = ["xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"]
 seo_title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để"
 description = "Nếu bạn đã xây dựng một blog Hugo với nội dung chất lượng cao, bước tiếp theo là đưa nó tới đúng người cần đọc. Bài phân tích thực tế về biến bài blog thành video TikTok để xây dựng thương hiệu cá nhân."
+
 [custom_image_queries]
 queries = ["video production camera", "content creation workspace", "social media creator", "filming setup", "blog to video content"]
+
 [ai_summary]
 enabled = true
 collapsed = false
@@ -33,7 +35,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững — nguồn Pexels"
-image_attribution_checked_at = "2026-07-10T18:56:45+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:33+07:00"
 image_query = "biến bài blog thành video"
 +++
 Nếu bạn đã xây dựng một blog Hugo với nội dung chất lượng cao, bước tiếp theo là **đưa nó tới đúng người cần đọc.**

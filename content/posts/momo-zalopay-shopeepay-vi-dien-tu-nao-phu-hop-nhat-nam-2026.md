@@ -2,7 +2,7 @@
 title = "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026"
 date = "2026-07-10T09:50:57+07:00"
 date_display = "10-07-2026 09:50:57 GMT +7"
-commit = "279773a"
+commit = "55a0a30"
 categories = ["tai-chinh"]
 tags = ["ví điện tử", "MoMo", "ZaloPay", "ShopeePay", "so sánh ví điện tử", "thanh toán không tiền mặt", "ví điện tử Việt Nam", "MoMo vs ZaloPay vs ShopeePay"]
 author = "Minh Hoàng"
@@ -23,8 +23,10 @@ image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/alipay-mobile-payment-qrcode-5417261/"
 seo_title = "MoMo, ZaloPay hay ShopeePay 2026? So sánh chi tiết chọn ví điện tử phù hợp nhất"
 description = "So sánh MoMo (40 triệu users, super app tài chính), ZaloPay (20 triệu, social payments) và ShopeePay (20 triệu, e-commerce cashback) — ví điện tử nào phù hợp với nhu cầu của bạn năm 2026?"
+
 [custom_image_queries]
 queries = ["mobile payment digital wallet comparison", "momo zalopay shopeepay app on smartphone", "vietnam digital wallet payment qr", "e wallet mobile banking", "cashless payment vietnam 2026"]
+
 [ai_summary]
 enabled = true
 collapsed = false
@@ -33,6 +35,7 @@ items = ["MoMo dẫn đầu thị trường với 40 triệu người dùng, 70 
 image_attribution_checked_at = "2026-07-10T18:56:45+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026 — nguồn Pixabay"
++++
 Thị trường ví điện tử Việt Nam năm 2026 có hơn 100 triệu người dùng đang hoạt động. **MoMo, ZaloPay và ShopeePay** chiếm phần lớn thị phần, nhưng mỗi ví phục vụ một nhu cầu khác nhau.
 - **MoMo (40% thị phần)**: Financial super app — thanh toán, vay, đầu tư, bảo hiểm trong một app.
 - **ShopeePay (20% thị phần)**: Vua cashback mua sắm online — hoàn xu đến 50%, tích hợp Shopee.

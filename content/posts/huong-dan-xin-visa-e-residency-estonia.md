@@ -1,6 +1,7 @@
 +++
 title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
-date = "2026-07-11 14:00:00+07:00"
+commit = "4a4a116"
+date = "2026-07-11T14:00:00+07:00"
 draft = false
 description = "Hướng dẫn chi tiết chương trình e-Residency Estonia - công dân điện tử đầu tiên trên thế giới. Quyền lợi mở công ty chuẩn EU từ xa, quản lý thuế trực tuyến, mở tài khoản ngân hàng châu Âu. Chi phí, hồ sơ, quy trình nộp đơn và lưu ý cho người Việt Nam."
 image = "images/posts/huong-dan-xin-visa-e-residency-estonia.webp"
@@ -23,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T14:21:47+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu — nguồn Pexels"
+date_display = "11-07-2026 14:00:00 GMT +7"
 +++
 
 Bạn có thể thành lập một công ty hợp pháp tại Liên minh châu Âu mà không cần đặt chân đến đó, không cần visa, không cần địa chỉ cư trú — chỉ với một chiếc thẻ nhựa nhỏ và một lần đăng ký trực tuyến mất 15 phút. Đó không phải khoa học viễn tưởng, mà là chương trình e-Residency của Estonia, sáng kiến công dân điện tử đầu tiên trên thế giới đã thu hút hơn 120.000 người tham gia tính đến năm 2026.

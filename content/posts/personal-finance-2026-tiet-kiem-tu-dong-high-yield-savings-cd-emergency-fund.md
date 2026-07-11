@@ -2,7 +2,7 @@
 title = "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?"
 date = "2026-07-10T06:00:00+07:00"
 date_display = "10-07-2026 06:00:00 GMT +7"
-commit = "279773a"
+commit = "55a0a30"
 categories = ["tai-chinh"]
 tags = ["personal finance", "tiết kiệm tự động", "high yield savings", "chứng chỉ tiền gửi", "emergency fund", "quản lý tài chính cá nhân", "financial health"]
 author = "Minh Hoàng"
@@ -23,8 +23,10 @@ image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/alipay-mobile-payment-qrcode-5417256/"
 seo_title = "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD là gì và emergency fund bao nhiêu là đủ?"
 description = "High-yield savings, chứng chỉ tiền gửi (CD), tiết kiệm tự động và quỹ khẩn cấp (emergency fund) — những khái niệm cốt lõi trong personal finance mọi người cần biết năm 2026."
+
 [custom_image_queries]
 queries = ["personal finance savings jar concept", "emergency fund money jar", "automated savings app smartphone", "certificate of deposit bank", "financial planning budget"]
+
 [ai_summary]
 enabled = true
 collapsed = false
@@ -33,6 +35,7 @@ items = ["High-yield savings account là tài khoản tiết kiệm lãi suất 
 image_attribution_checked_at = "2026-07-10T18:56:45+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì? — nguồn Pixabay"
++++
 Bạn có bao giờ tự hỏi: **"Mình kiếm tiền cũng khá, nhưng sao cuối tháng lại không còn đồng nào?"**
 Câu chuyện này rất phổ biến, và nó không phải vì bạn tiêu hoang. Nó đơn giản là vì bạn **chưa có một hệ thống tài chính cá nhân** — một bộ khung giúp tiền của bạn được phân bổ, bảo vệ, và sinh lời tự động.
 Năm 2026, lãi suất tiết kiệm tại Việt Nam đang ở mức rất hấp dẫn (có kỳ hạn lên tới 9–10%/năm với điều kiện đặc biệt). Nếu bạn chưa từng nghe tới **high-yield savings, CD (chứng chỉ tiền gửi), tiết kiệm tự động, hay emergency fund**, thì bài này dành cho bạn.

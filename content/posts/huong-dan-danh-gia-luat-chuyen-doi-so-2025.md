@@ -1,6 +1,6 @@
 +++
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-commit = "279773a"
+commit = "55a0a30"
 date = "2026-07-11T11:30:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -9,7 +9,7 @@ categories = ["cong-nghe", "phap-luat-doanh-nghiep"]
 description = "Đánh giá chi tiết những điểm mới của Luật Chuyển đổi số 2025 áp dụng từ 1/7/2026. Hướng dẫn doanh nghiệp các bước tuân thủ và thích ứng với khung pháp lý mới."
 image = "images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp"
 thumbnail = "images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp"
-image_alt = "Ảnh minh họa Luật Chuyển đổi số 2025 và hạ tầng chính phủ điện tử — nguồn Pexels"
+image_alt = "Ảnh minh họa Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì? — nguồn Pixabay"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/5668781/"
 image_provider = "pexels"
@@ -21,7 +21,7 @@ image_creator = "Sora Shimazaki"
 image_creator_url = "https://www.pexels.com/@sora-shimazaki"
 image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pexels_api"
+image_attribution_source = "pixabay_api"
 image_status = "verified"
 slug = "huong-dan-danh-gia-luat-chuyen-doi-so-2025"
 tags = ["luat chuyen doi so 2025", "phap luat cong nghe", "kinh te so", "quy dinh AI", "chinh phu so", "danh sach phap ly"]
@@ -53,6 +53,8 @@ url = "https://chinhphu.vn/chien-luoc-chuyen-doi-so-quoc-gia"
 [[external_links]]
 title = "Thông tư hướng dẫn kết nối hệ thống thông tin với Cổng dịch vụ công quốc gia"
 url = "https://vpcp.chinhphu.vn/huong-dan-ket-noi"
+image_attribution_checked_at = "2026-07-11T14:44:41+07:00"
+image_query = "điểm luật chuyển đổi số"
 +++
 
 ## 1/7/2026 — Ngày Luật Chuyển Đổi Số Chính Thức Có Hiệu Lực: Vì Sao Doanh Nghiệp Không Thể Đứng Ngoài?

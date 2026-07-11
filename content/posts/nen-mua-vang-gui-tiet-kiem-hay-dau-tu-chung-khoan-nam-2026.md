@@ -2,7 +2,7 @@
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
 date = "2026-07-09T20:00:00+07:00"
 date_display = "09-07-2026 20:00:00 GMT +7"
-commit = "279773a"
+commit = "55a0a30"
 draft = false
 categories = ["tai-chinh"]
 author = "Minh Hoàng"
@@ -19,7 +19,7 @@ image_creator_url = "https://www.pexels.com/@n-voitkevich"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-10T18:56:46+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:34+07:00"
 image_status = "verified"
 image_provider = "pexels"
 image_query = "credit card finance desk"

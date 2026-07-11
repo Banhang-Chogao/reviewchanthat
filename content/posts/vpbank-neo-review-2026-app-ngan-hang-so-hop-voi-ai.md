@@ -2,7 +2,7 @@
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
 date = "2026-07-10T04:00:00+07:00"
 date_display = "10-07-2026 04:00:00 GMT +7"
-commit = "279773a"
+commit = "55a0a30"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "VPBank NEO", "app ngân hàng", "digital banking", "review app"]
 author = "Minh Hoàng"
@@ -19,8 +19,10 @@ image_attribution_source = "pexels_api"
 image_attribution_verified = true
 seo_title = "VPBank NEO review 2026: app ngân hàng số hợp với người dùng nào"
 description = "VPBank NEO là app ngân hàng số dành cho người dùng muốn giao dịch, quản lý tài khoản và thanh toán online; bài viết đánh giá tính năng, phí cần kiểm tra và nhóm người phù hợp trong năm 2026."
+
 [custom_image_queries]
 queries = ["digital banking app smartphone", "online banking finance mobile", "banking app user phone", "financial app interface", "mobile payment technology"]
+
 [ai_summary]
 enabled = true
 collapsed = false
@@ -29,7 +31,7 @@ items = ["VPBank NEO là app ngân hàng số của VPBank hỗ trợ: mở tài
 image_commercial_use = true
 image_owner = "external"
 image_creator_id = ""
-image_attribution_checked_at = "2026-07-10T18:56:46+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:35+07:00"
 image_provider = "pexels"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa VPBank NEO review 2026: app ngân hàng số này hợp với ai? — nguồn Pexels"

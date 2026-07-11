@@ -2,7 +2,7 @@
 title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
 date = "2026-07-10T06:30:00+07:00"
 date_display = "10-07-2026 06:30:00 GMT +7"
-commit = "279773a"
+commit = "55a0a30"
 categories = ["tai-chinh"]
 tags = ["chứng khoán Việt Nam", "VN-Index", "cổ phiếu ngân hàng", "đầu tư", "rủi ro thị trường", "người mới chứng khoán"]
 author = "Minh Hoàng"
@@ -19,8 +19,10 @@ image_attribution_source = "pexels_api"
 image_attribution_verified = true
 seo_title = "Chứng khoán Việt Nam 2026: VN-Index, cổ phiếu ngân hàng và rủi ro cho người mới"
 description = "Người mới theo dõi chứng khoán Việt Nam năm 2026 nên hiểu VN-Index, nhóm cổ phiếu ngân hàng, rủi ro biến động và nguyên tắc quản trị vốn trước khi xuống tiền."
+
 [custom_image_queries]
 queries = ["Vietnam stock market investing desk", "stock market beginner finance", "bank stocks chart abstract", "stock exchange financial trading", "investment portfolio analysis"]
+
 [ai_summary]
 enabled = true
 collapsed = false
@@ -29,7 +31,7 @@ items = ["VN-Index gồm khoảng 30 cổ phiếu blue-chip (VCB, CTG, BID, ACB,
 image_commercial_use = true
 image_owner = "external"
 image_creator_id = "3088726"
-image_attribution_checked_at = "2026-07-10T18:56:45+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:32+07:00"
 image_provider = "pexels"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào? — nguồn Pexels"

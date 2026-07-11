@@ -68,7 +68,7 @@ title = "Cuộc sống số năm 2026: 30 thói quen"
 [[internal_links]]
 ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
 title = "Dọn iPhone như thế nào để máy luôn mượt"
-image_attribution_checked_at = "2026-07-10T18:56:56+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:41+07:00"
 image_query = "dọn mac đúng cách tối"
 +++
 

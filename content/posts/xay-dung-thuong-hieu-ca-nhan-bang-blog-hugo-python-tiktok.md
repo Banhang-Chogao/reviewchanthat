@@ -2,7 +2,7 @@
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
 date = "2026-07-10T00:10:00+07:00"
 date_display = "10-07-2026 00:10:00 GMT +7"
-commit = "279773a"
+commit = "55a0a30"
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
@@ -13,8 +13,10 @@ image_status = "verified"
 related_posts = ["bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan"]
 seo_title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền"
 description = "Bạn có thể nhận thấy rằng hầu hết những người xây dựng thương hiệu cá nhân ngày nay đều bắt đầu từ TikTok, Instagram hay YouTube. Nhưng có một vấn đề: bạn không"
+
 [custom_image_queries]
 queries = ["blog laptop programming", "content creation workspace", "web development setup", "personal brand blog", "programmer desktop"]
+
 [ai_summary]
 enabled = true
 collapsed = false
@@ -33,7 +35,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok — nguồn Pexels"
-image_attribution_checked_at = "2026-07-10T18:56:46+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:35+07:00"
 image_query = "xây dựng thương hiệu cá"
 +++
 Bạn có thể nhận thấy rằng hầu hết những người xây dựng thương hiệu cá nhân ngày nay đều bắt đầu từ TikTok, Instagram hay YouTube. Nhưng có một vấn đề: **bạn không sở hữu độc lập nền tảng đó.**

@@ -1,7 +1,7 @@
 +++
 title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
-commit = "279773a"
-date = 2026-07-11T12:30:00+07:00
+commit = "55a0a30"
+date = "2026-07-11T12:30:00+07:00"
 draft = false
 tags = ["affiliate shopee", "instagram shopping", "kiem tien reels", "tiep thi lien ket meta"]
 categories = ["Kiem Tien Online", "Digital Marketing"]
@@ -24,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T12:31:07+07:00"
 image_query = "cách làm affiliate shopee trên"
 image_alt = "Ảnh minh họa Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới — nguồn Pexels"
+date_display = "11-07-2026 12:30:00 GMT +7"
 +++
 
 **Từ tháng 7/2026, bạn có thể gắn trực tiếp link sản phẩm Shopee vào Instagram Story và Reels — người xem chạm một lần là mua, không cần qua "link in bio".** Đây là cú bắt tay lịch sử giữa Meta và Shopee dành riêng cho thị trường Việt Nam, mở ra cơ hội kiếm tiền chưa từng có cho người sáng tạo nội dung, sinh viên và các mẹ bỉm sữa.

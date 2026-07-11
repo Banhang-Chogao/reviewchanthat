@@ -2,7 +2,7 @@
 title = "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm"
 date = "2026-07-09T23:30:00+07:00"
 date_display = "09-07-2026 23:30:00 GMT +7"
-commit = "279773a"
+commit = "55a0a30"
 slug = "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix"
 categories = ["cong-nghe"]
 tags = ["Deployment Doctor", "GitHub Actions", "CI/CD", "autofix", "deployment", "DevOps", "Hugo"]
@@ -27,12 +27,13 @@ draft = false
 related_posts = ["github-actions-run-start-delays-july-9-2026-ci-cd-protection", "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident", "workflow-failures-audit-recent-ci-cd-root-causes-action-items"]
 seo_title = "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom"
 description = "Một blog cá nhân trông “nhỏ”, nhưng pipeline có thể rất đông: Deploy, Content Direction, QA debt, autofix, snapshot, doctor… Chỉ cần một fail không được phân"
+
 [ai_summary]
 enabled = true
 collapsed = false
 disclaimer = "Bài viết chia sẻ kinh nghiệm kỹ thuật từ quá trình vận hành blog; mỗi hệ thống CI/CD cần điều chỉnh theo cấu trúc repo và mức độ rủi ro riêng."
 items = ["Deployment Doctor là lớp chẩn đoán deployment tự động: gom failed runs, đọc log, phân loại root cause và đề xuất action items.", "Điểm quan trọng không phải là tự sửa mọi thứ, mà là biết lỗi nào an toàn để autofix và lỗi nào phải chỉ báo cáo.", "Các lỗi như runner queue, GitHub outage hoặc rate limit không nên tạo hotfix code; hệ thống chỉ nên chờ, retry có kiểm soát hoặc cancel run cũ.", "Các lỗi có scope rõ như date-only, self-owned image thiếu direct_url, content direction rỗng hoặc URL hardcode có thể được autofix bằng script nhỏ, có retry cap và QA sau fix."]
-image_attribution_checked_at = "2026-07-10T18:56:45+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:33+07:00"
 image_query = "deployment doctor cách blog tự"
 +++
 Một blog cá nhân trông “nhỏ”, nhưng pipeline có thể rất đông: Deploy, Content Direction, QA debt, autofix, snapshot, doctor… Chỉ cần **một** fail không được phân loại, cả dây chuyền dễ chạy vòng: bot sửa, bot report, bot deploy lại, runner xếp hàng, và chủ blog thức đêm mở log.

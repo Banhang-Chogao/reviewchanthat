@@ -1,7 +1,7 @@
 +++
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
-commit = "1768daf"
-date = "2026-07-11 05:30:00+07:00"
+commit = "bb2f271"
+date = "2026-07-11T05:30:00+07:00"
 draft = false
 description = "Phân tích toàn diện các điểm mới nhất trong quy định giấy phép lao động 2026: thay đổi về điều kiện kinh nghiệm, thủ tục giải trình nhu cầu sử dụng lao động nước ngoài trực tuyến, hợp pháp hóa lãnh sự bằng cấp và quy trình cấp work permit tại Sở Lao động Thương binh và Xã hội."
 image = "images/posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.webp"
@@ -24,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
 image_query = "điểm quy định cấp giấy"
 image_alt = "Ảnh minh họa Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026 — nguồn Pexels"
+date_display = "11-07-2026 05:30:00 GMT +7"
 +++
 
 ## Tổng Quan Về Quy Định Giấy Phép Lao Động 2026

@@ -1,7 +1,7 @@
 +++
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
-commit = "1768daf"
-date = "2026-07-11 05:00:00+07:00"
+commit = "bb2f271"
+date = "2026-07-11T05:00:00+07:00"
 draft = false
 description = "Cập nhật mới nhất 2026: Hướng dẫn chi tiết thủ tục xin visa thương mại DN1 và DN2 cho chuyên gia nước ngoài. Phân biệt hai loại visa, bộ hồ sơ bảo lãnh chuyên gia vào Việt Nam, quy trình nộp tại Cục Quản lý xuất nhập khẩu và các lưu ý để tỷ lệ duyệt đạt 100%."
 image = "images/posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.webp"
@@ -24,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
 image_query = "hướng dẫn thủ tục xin"
 image_alt = "Ảnh minh họa Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026 — nguồn Pixabay"
+date_display = "11-07-2026 05:00:00 GMT +7"
 +++
 
 ## Tổng Quan Về Visa Thương Mại DN1 Và DN2

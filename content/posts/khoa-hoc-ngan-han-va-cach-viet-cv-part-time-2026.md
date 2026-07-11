@@ -1,7 +1,7 @@
 +++
 title = "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10"
-commit = "279773a"
-date = 2026-07-11T12:00:00+07:00
+commit = "55a0a30"
+date = "2026-07-11T12:00:00+07:00"
 draft = false
 tags = ["khoa hoc ngan han", "chung chi tin hoc", "chung chi ngoai ngu", "viet cv part time"]
 categories = ["Giao Duc", "Ky Nang & Nghe Nghiep"]
@@ -21,9 +21,10 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T12:09:20+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:42+07:00"
 image_query = "hè 2026 top khóa học"
 image_alt = "Ảnh minh họa Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10 — nguồn Pixabay"
+date_display = "11-07-2026 12:00:00 GMT +7"
 +++
 
 Tháng 7 là thời điểm vàng giữa hè — học sinh, sinh viên đã quen với nhịp nghỉ, và đây chính là **tháng nước rút** trước khi năm học mới bắt đầu vào tháng 9. Nếu bạn đang ngồi ở nhà lướt điện thoại, đã đến lúc nghĩ đến chuyện nâng cấp bản thân. Một khóa học ngắn hạn, một chứng chỉ ngoại ngữ, hay đơn giản là một công việc part-time có thể giúp CV của bạn nổi bật hơn hẳn so với hàng trăm ứng viên khác khi xin thực tập hoặc việc làm chính thức sau này.
