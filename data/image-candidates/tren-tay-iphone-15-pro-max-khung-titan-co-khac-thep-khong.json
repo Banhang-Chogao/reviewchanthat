@@ -1,0 +1,390 @@
+{
+  "slug": "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong",
+  "candidate_count": 12,
+  "candidates": [
+    {
+      "source_url": "https://www.pexels.com/photo/person-holding-iphone-taking-photo-of-train-rails-815653/",
+      "provider": "Pexels",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": true,
+      "accept_reason": "accepted",
+      "gate": {
+        "semantic_score": 32.07,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 64.07,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 35.709651947021484,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/phone-iphone-mobile-green-8594571/",
+      "provider": "Pixabay",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 25.144733428955078,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-smartphone-apps-apple-inc-410324/",
+      "provider": "Pixabay",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 23.461442947387695,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-hand-screen-smartphone-apps-410311/",
+      "provider": "Pixabay",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 23.61943244934082,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-hand-girl-smartphone-500291/",
+      "provider": "Pixabay",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 21.968788146972656,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-hand-phone-mobile-phone-5537230/",
+      "provider": "Pixabay",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 22.74838638305664,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/escalators-hand-iphone-macro-1866493/",
+      "provider": "Pixabay",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 23.456134796142578,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-smartphone-iphone-14-7479302/",
+      "provider": "Pixabay",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 22.80933380126953,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/apple-iphone-notebook-pen-1841553/",
+      "provider": "Pixabay",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 21.893531799316406,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/apple-iphone-close-up-smartphone-1867461/",
+      "provider": "Pixabay",
+      "query": "modern smartphone titanium close up",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 23.498239517211914,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/woman-hand-with-iphone-17469072/",
+      "provider": "Pexels",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:15.16",
+      "gate": {
+        "semantic_score": 15.16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 3.5,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 43.66,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 1,
+            "negative_hits": 0,
+            "clip_raw": 25.509328842163086,
+            "proxy": 12
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/person-holding-an-iphone-opened-on-a-music-folder-4114788/",
+      "provider": "Pexels",
+      "query": "iPhone titanium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:13.11",
+      "gate": {
+        "semantic_score": 13.11,
+        "color_score": 12.0,
+        "keyword_metadata_score": 3.5,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 41.61,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 1,
+            "negative_hits": 0,
+            "clip_raw": 24.174585342407227,
+            "proxy": 12
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    }
+  ]
+}

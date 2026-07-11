@@ -1,0 +1,390 @@
+{
+  "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+  "candidate_count": 12,
+  "candidates": [
+    {
+      "source_url": "https://pixabay.com/photos/da-nang-river-night-scenery-city-7427071/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:27.52",
+      "gate": {
+        "semantic_score": 27.52,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 52.52,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 34.309913635253906,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/vietnam-hoi-an-da-nang-travel-547271/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:25.3",
+      "gate": {
+        "semantic_score": 25.3,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 50.3,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 32.86793899536133,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/vietnam-da-nang-man-boat-geese-4879301/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:24.34",
+      "gate": {
+        "semantic_score": 24.34,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 49.34,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 32.248069763183594,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/rickshaw-cycle-rickshaw-transport-8510117/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:21.29",
+      "gate": {
+        "semantic_score": 21.29,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 46.29,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 30.269302368164062,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/danang-dragon-bridge-landscape-4030993/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:20.91",
+      "gate": {
+        "semantic_score": 20.91,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 45.91,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 30.01632308959961,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/cooking-fire-southeast-asia-vietnam-4568742/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:18.09",
+      "gate": {
+        "semantic_score": 18.09,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 43.09,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 28.186582565307617,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/vietnam-da-nang-fisherman-coast-4886063/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:17.46",
+      "gate": {
+        "semantic_score": 17.46,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 42.46,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 27.78006362915039,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/train-ba-na-hill-da-nang-vietnam-1524598/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16.42",
+      "gate": {
+        "semantic_score": 16.42,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 41.42,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 27.10332489013672,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/beach-lagoon-sunset-sundown-164288/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16.35",
+      "gate": {
+        "semantic_score": 16.35,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 41.35,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 27.061304092407227,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/beach-da-nang-beach-viet-nam-2466939/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:15.73",
+      "gate": {
+        "semantic_score": 15.73,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 40.73,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 26.652719497680664,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/cityscape-danang-pretty-3716797/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:15.59",
+      "gate": {
+        "semantic_score": 15.59,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 40.59,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 26.566835403442383,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/haivan-danang-wonders-da-nang-2483677/",
+      "provider": "Pixabay",
+      "query": "Da Nang beach summer",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:11.54",
+      "gate": {
+        "semantic_score": 11.54,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 36.54,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 23.93474769592285,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    }
+  ]
+}

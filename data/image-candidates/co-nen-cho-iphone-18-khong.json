@@ -1,0 +1,390 @@
+{
+  "slug": "co-nen-cho-iphone-18-khong",
+  "candidate_count": 12,
+  "candidates": [
+    {
+      "source_url": "https://www.pexels.com/photo/a-person-holding-a-smartphone-4959782/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:19.12",
+      "gate": {
+        "semantic_score": 19.12,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 44.12,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 28.856008529663086,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/person-holding-a-blue-smartphone-5099867/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:18.79",
+      "gate": {
+        "semantic_score": 18.79,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 43.79,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 28.643699645996094,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/man-holding-cup-of-coffee-on-wooden-table-beside-mobile-phone-and-earphones-7657609/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:17.95",
+      "gate": {
+        "semantic_score": 17.95,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 42.95,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 28.09877586364746,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/a-person-holding-a-black-smartphone-4959754/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:17.9",
+      "gate": {
+        "semantic_score": 17.9,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 42.9,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 28.06503677368164,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/person-holding-iphone-6-4114781/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16.5",
+      "gate": {
+        "semantic_score": 16.5,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 41.5,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 27.156147003173828,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/hand-holding-smartphone-with-blank-screen-37539117/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16.05",
+      "gate": {
+        "semantic_score": 16.05,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 41.05,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 26.86355972290039,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/person-holding-iphone-showing-social-networks-folder-607812/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:15.28",
+      "gate": {
+        "semantic_score": 15.28,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 40.28,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 26.36260223388672,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/hand-holding-modern-smartphone-in-office-setting-32141312/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:14.9",
+      "gate": {
+        "semantic_score": 14.9,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 39.9,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 26.11605453491211,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/person-holding-an-iphone-opened-on-a-music-folder-4114788/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:14.82",
+      "gate": {
+        "semantic_score": 14.82,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 39.82,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 26.06381607055664,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/apps-on-smartphone-4114787/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:13.7",
+      "gate": {
+        "semantic_score": 13.7,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 38.7,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 25.33734703063965,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/woman-hand-with-iphone-17469072/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:13.14",
+      "gate": {
+        "semantic_score": 13.14,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 38.14,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 24.977237701416016,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/a-person-holding-a-smartphone-6370364/",
+      "provider": "Pexels",
+      "query": "iPhone 18 premium smartphone hand",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:11.14",
+      "gate": {
+        "semantic_score": 11.14,
+        "color_score": 12.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 36.14,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 23.676830291748047,
+            "proxy": 8
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    }
+  ]
+}
