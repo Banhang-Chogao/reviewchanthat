@@ -11,15 +11,19 @@ author = "Duy Nguyen"
 image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_creator = "Darrel Und"
+image_creator = ""
 image_alt = "Bắc cực quang rực rỡ trên bầu trời đêm Scandinavia"
-image_source_url = "https://www.pexels.com/photo/aurora-borealis-photo-3573351/"
+image_source_url = "https://www.pexels.com/photo/milky-way-at-night-41004/"
 image_commercial_use = true
 image_owner = "external"
-image_attribution_verified = true
+image_attribution_verified = false
 image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
+image_license_url = ""
+image_creator_url = ""
+image_creator_id = ""
+image_attribution_source = "not_found"
 +++
 
 ## Bắc Cực Quang Là Gì?

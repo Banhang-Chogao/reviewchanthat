@@ -11,15 +11,19 @@ author = "Duy Nguyen"
 image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_creator = "Pixabay"
+image_creator = "Thới Nam Cao"
 image_alt = "Không gian nội thất Nordic tối giản với nội thất gỗ và ánh sáng tự nhiên"
-image_source_url = "https://www.pexels.com/photo/brown-wooden-table-and-black-padded-chair-near-white-concrete-wall-inside-room-1046896/"
+image_source_url = "https://www.pexels.com/photo/modern-furniture-in-living-room-13985530/"
 image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
+image_license_url = ""
+image_creator_url = "https://www.pexels.com/@thoinamcao"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
 +++
 
 ## Thiết Kế Nordic Là Gì?

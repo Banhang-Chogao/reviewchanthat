@@ -8,18 +8,22 @@ thumbnail = "images/posts/hoc-sinh-finland-truong-hoc-hoc-tap.webp"
 categories = ["review"]
 tags = ["phần lan", "giáo dục", "hệ thống học", "sinh viên", "trường học"]
 author = "Duy Nguyen"
-image_source = "Pexels"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_creator = "Pixabay"
+image_source = "Pixabay"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_creator = "YHBae"
 image_alt = "Học sinh Phần Lan tại trường với môi trường học tập thoải mái"
-image_source_url = "https://www.pexels.com/photo/group-of-kids-having-fun-while-sitting-at-the-table-3808557/"
+image_source_url = "https://pixabay.com/photos/street-lamp-road-traffic-duc-bag-4359438/"
 image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
+image_license_url = ""
+image_creator_url = "https://pixabay.com/photos/street-lamp-road-traffic-duc-bag-4359438/"
+image_creator_id = ""
+image_attribution_source = "pixabay_api"
 +++
 
 ## Một Hệ Thống Giáo Dục Không Giống Bất Cứ Cái Gì Ở Đâu Khác

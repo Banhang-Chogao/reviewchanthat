@@ -11,15 +11,19 @@ author = "Duy Nguyen"
 image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_creator = "Pixabay"
+image_creator = "Gabriel MHG"
 image_alt = "Các turbine gió tại biển với khung cảnh biển tuyệt đẹp"
-image_source_url = "https://www.pexels.com/photo/wind-mills-during-daytime-1407322/"
+image_source_url = "https://www.pexels.com/photo/explore-renewable-energy-with-majestic-wind-turbines-37381562/"
 image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
+image_license_url = ""
+image_creator_url = "https://www.pexels.com/@kaomhg"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
 +++
 
 ## Tại Sao Scandinavia Dẫn Đầu Trong Năng Lượng Tái Tạo?

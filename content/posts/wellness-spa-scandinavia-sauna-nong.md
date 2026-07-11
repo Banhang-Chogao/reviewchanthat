@@ -11,15 +11,19 @@ author = "Duy Nguyen"
 image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_creator = "Karolina Grabowska"
+image_creator = "HUUM  │sauna heaters"
 image_alt = "Khu spa tự nhiên với nước nóng và thiên cảnh xinh đẹp ở Scandinavia"
-image_source_url = "https://www.pexels.com/photo/woman-relaxing-at-the-spa-4909834/"
+image_source_url = "https://www.pexels.com/photo/relaxing-in-a-modern-nordic-sauna-experience-33517865/"
 image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
+image_license_url = ""
+image_creator_url = "https://www.pexels.com/@huum-sauna-heaters-718199222"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
 +++
 
 ## Wellness Ở Scandinavia Không Phải Là Một Lối Sống – Đó Là Một Tôn Giáo

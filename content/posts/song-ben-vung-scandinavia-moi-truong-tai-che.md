@@ -8,18 +8,22 @@ thumbnail = "images/posts/song-ben-vung-scandinavia-moi-truong-tai-che.webp"
 categories = ["review"]
 tags = ["scandinavia", "bền vững", "môi trường", "bắc âu", "lối sống xanh"]
 author = "Duy Nguyen"
-image_source = "Pexels"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_creator = "Singkham"
+image_source = "Pixabay"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_creator = "Zachtleven"
 image_alt = "Thiên nhiên xanh mát của Scandinavia và lối sống bền vững"
-image_source_url = "https://www.pexels.com/photo/mountain-range-1619317/"
+image_source_url = "https://pixabay.com/photos/river-flowing-waterfall-nature-8279466/"
 image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
+image_license_url = ""
+image_creator_url = "https://pixabay.com/photos/river-flowing-waterfall-nature-8279466/"
+image_creator_id = ""
+image_attribution_source = "pixabay_api"
 +++
 
 ## Tại Sao Scandinavia Lại Là Tiêu Chuẩn Vàng Của Phong Trào Bền Vững?

@@ -11,15 +11,19 @@ author = "Duy Nguyen"
 image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_creator = "Pixabay"
+image_creator = "Sóc Năng Động"
 image_alt = "Một người đang thư giãn ngoài trời với tự nhiên xung quanh"
-image_source_url = "https://www.pexels.com/photo/woman-in-white-sweater-1181690/"
+image_source_url = "https://www.pexels.com/photo/woman-resting-with-book-on-outdoor-table-31755439/"
 image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
 commit = ""
 date_display = "11-07-2026 16:06:05 GMT +7"
+image_license_url = ""
+image_creator_url = "https://www.pexels.com/@soc-nang-d-ng-2150345854"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
 +++
 
 ## Cân Bằng Công Việc-Cuộc Sống – Một Giá Trị Cơ Bản
