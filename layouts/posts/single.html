@@ -17,6 +17,9 @@
       <div class="post-meta-right">
         <span class="post-date">{{ partial "datetime.html" .Date }}</span>
         <span class="post-read-time">{{ .ReadingTime }} phút đọc</span>
+        {{ with .Params.commit }}
+        <span class="post-commit-id">commit {{ . }}</span>
+        {{ end }}
       </div>
     </div>
   </header>
