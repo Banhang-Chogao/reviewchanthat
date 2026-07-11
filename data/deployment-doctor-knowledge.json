@@ -539,6 +539,92 @@
       "recommended_fix_script": "fix_missing_commit_ids",
       "should_retry_deploy": true,
       "should_pause_workflows": false
+    },
+    {
+      "id": "non_canonical_category_created",
+      "severity": "content",
+      "match": [
+        "unknown category",
+        "new category",
+        "non-canonical category",
+        "category not in categories.json",
+        "one-off category",
+        "taxonomy bloat"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Bài dùng category ngoài 5 canonical (review, cong-nghe, doi-song, tai-chinh, du-lich). TUYỆT ĐỐI không tạo category mới.",
+      "action_items": [
+        "KHÔNG thêm item mới vào data/categories.json.",
+        "Map category lạ vào 1 trong 5 canonical qua bảng aliases; mặc định an toàn là doi-song (Đời sống).",
+        "Sửa front matter bài về đúng label canonical gần nhất."
+      ],
+      "recommended_fix_script": "fix_map_category_to_canonical",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "image_api_rate_limit_switch_source",
+      "severity": "image_pipeline",
+      "match": [
+        "429 Too Many Requests",
+        "Pexels rate limit",
+        "Pixabay rate limit",
+        "X-Ratelimit-Remaining: 0",
+        "image API rate limit"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Một image provider (Pexels HOẶC Pixabay) bị rate limit. Ta có 2 API → đổi source, không fail vội.",
+      "action_items": [
+        "Provider bị 429 → tự động chuyển sang provider còn lại (Pexels<->Pixabay).",
+        "Chỉ khi CẢ HAI provider đều 429 mới back off + retry sau (deploy FIFO >=30s).",
+        "Không dùng ảnh fake/placeholder khi rate limit."
+      ],
+      "recommended_fix_script": "fix_switch_image_provider",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "post_without_image_textfirst_ok",
+      "severity": "image_pipeline",
+      "match": [
+        "no image after exhausting providers",
+        "both providers returned no image",
+        "text-first post",
+        "publish without image"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Đã thử CẢ 2 API (đổi source khi rate limit) mà không có ảnh hợp lệ → bài text-first là HỢP LỆ, không phải lỗi deploy.",
+      "action_items": [
+        "Cho phép publish bài không ảnh dạng text-first (load nhanh, tốt SEO performance).",
+        "TUYỆT ĐỐI không chèn ảnh fake/placeholder/self-generated để lấp chỗ.",
+        "Chỉ chấp nhận text-first SAU KHI đã thử hết cả Pexels và Pixabay."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "hardcoded_footer_section_in_body",
+      "severity": "content",
+      "match": [
+        "hardcoded footer section",
+        "Liên kết nội bộ được sử dụng trong bài viết",
+        "Liên kết bên ngoài được sử dụng trong bài viết",
+        "FAQ - Câu hỏi thường gặp",
+        "Bản quyền & Ghi nguồn",
+        "duplicate footer",
+        "faq hardcoded in body"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Bài hardcode 4 mục cuối bài (internal links / external links / FAQ / bản quyền) trong body thay vì để macro post-footer.html render từ front matter. Áp dụng mọi Category.",
+      "action_items": [
+        "Không hardcode heading/nội dung 4 mục này trong body .md.",
+        "Move nội dung hardcode vào field FM tương ứng: [[internal_links]], [[external_links]], [[faq]], [attribution].",
+        "Chạy scripts/move_hardcoded_footer_sections.py --fix; dọn nợ hàng loạt ở PR qa-debt-fix riêng."
+      ],
+      "recommended_fix_script": "fix_move_hardcoded_footer_sections",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
     }
   ]
 }
