@@ -2,8 +2,7 @@
 title = "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
 date = "2026-07-11T11:35:29+07:00"
 date_display = "11-07-2026 11:35:29 GMT +7"
-+++
-commit: f9a52cb
+commit = 1
 description = "iOS 26.5.2 là bản vá bảo mật cho iPhone. Giải thích vì sao nên cập nhật sớm, ai nên lên ngay, và những lưu ý trước khi cài như backup và không thể hạ cấp."
 categories = ["cong-nghe"]
 tags = ["iOS 26.5.2", "cập nhật iOS", "bảo mật iPhone", "iOS 26", "nâng cấp iPhone"]

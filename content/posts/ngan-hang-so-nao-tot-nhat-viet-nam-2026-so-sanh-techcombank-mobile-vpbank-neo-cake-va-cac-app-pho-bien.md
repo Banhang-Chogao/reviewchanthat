@@ -2,8 +2,7 @@
 title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
 date = "2026-07-11T11:35:30+07:00"
 date_display = "11-07-2026 11:35:30 GMT +7"
-+++
-commit: f9a52cb
+commit = 1
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "app ngân hàng tốt nhất Việt Nam", "Techcombank Mobile", "VPBank NEO", "Cake by VPBank", "ACB", "MB Bank", "ngân hàng số nào tốt", "miễn phí chuyển khoản", "lãi suất tiết kiệm online"]
 author = "Minh Hoàng"

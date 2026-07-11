@@ -1,7 +1,7 @@
 """
 scripts/add_commit_id.py
-Gắn commit hash cuối cùng vào front matter của mỗi bài blog.
-Dòng `commit: <7-ky-tu>` được thêm ngay sau title, trước date.
+Gắn commit hash cuối cùng vào front matter của mỗi bài blog (TOML format).
+Dòng `commit = "<7-ky-tu>"` được thêm ngay sau title, trước date.
 """
 
 import os
@@ -28,12 +28,11 @@ def get_last_commit(filepath):
 
 
 def ensure_commit_field(content, commit_hash):
-    # Check if commit field already exists
-    if re.search(r'^commit:\s+\S+', content, re.MULTILINE):
-        # Update existing commit field
+    # Check if commit field already exists (both TOML and legacy formats)
+    if re.search(r'^commit\s*[:=]\s*\S+', content, re.MULTILINE):
         content = re.sub(
-            r'^commit:\s+\S+',
-            f'commit: {commit_hash}',
+            r'^commit\s*[:=]\s*\S+',
+            f'commit = "{commit_hash}"',
             content,
             count=1,
             flags=re.MULTILINE
@@ -43,7 +42,7 @@ def ensure_commit_field(content, commit_hash):
     # Add after title line, before date line
     content = re.sub(
         r'^(title\s*=\s*"[^"]*")\n(date\s*=)',
-        rf'\1\ncommit: {commit_hash}\n\2',
+        rf'\1\ncommit = "{commit_hash}"\n\2',
         content,
         count=1,
         flags=re.MULTILINE

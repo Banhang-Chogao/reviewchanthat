@@ -2,8 +2,7 @@
 title = "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident"
 date = "2026-07-11T11:35:30+07:00"
 date_display = "11-07-2026 11:35:30 GMT +7"
-+++
-commit: f9a52cb
+commit = 1
 slug = "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident"
 categories = ["cong-nghe"]
 tags = ["GitHub Actions", "GitHub Pages", "CI/CD", "DevOps", "GitHub Status", "incident recovery"]
