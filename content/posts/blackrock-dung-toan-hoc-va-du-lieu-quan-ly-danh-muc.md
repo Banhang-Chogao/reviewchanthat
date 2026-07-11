@@ -25,7 +25,7 @@ image_creator_url = "https://www.pexels.com/@leeloothefirst"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = ""
-image_attribution_checked_at = "2026-07-10T18:56:47+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:35+07:00"
 
 [ai_summary]
 items = ["BlackRock: Quản lý $10+ triliệu tài sản (lớn nhất thế giới)", "Aladdin: Platform AI/ML xử lý dữ liệu khổng lồ, tối ưu danh mục", "Factor Models: Fama-French 5 factor (market, size, value, profitability, investment)", "α = Return - β₁×Factor₁ - β₂×Factor₂ - ... (phân tích alpha khác volatility)", "Machine Learning: Deep learning dự báo return, risk, flow", "ESG Scoring: Toán học tổng hợp environmental, social, governance scores", "Optimization: Large-scale QP (quadratic programming) với 10k+ assets"]

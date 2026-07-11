@@ -2,7 +2,7 @@
 title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
 date = "2026-07-10T09:00:00+07:00"
 date_display = "10-07-2026 09:00:00 GMT +7"
-commit = "279773a"
+commit = "55a0a30"
 categories = ["tai-chinh"]
 tags = ["Apple Pay Việt Nam", "Apple Pay ngân hàng nào hỗ trợ", "cách thêm thẻ vào Apple Pay", "Apple Pay có an toàn không", "Apple Pay lỗi", "thanh toán không tiếp xúc", "Visa Apple Pay", "Mastercard Apple Pay"]
 author = "Minh Hoàng"
@@ -23,8 +23,10 @@ image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/a-woman-using-her-smartphone-while-holding-a-credit-card-8938729/"
 seo_title = "Apple Pay Việt Nam 2026: danh sách ngân hàng hỗ trợ, cách thêm thẻ và xử lý lỗi thường gặp"
 description = "Apple Pay Việt Nam đã chính thức hoạt động. Danh sách ngân hàng hỗ trợ (Vietcombank, ACB, Techcombank, VPBank...), cách thêm thẻ chi tiết và các lỗi thường gặp kèm cách khắc phục."
+
 [custom_image_queries]
 queries = ["apple pay iphone wallet payment", "contactless payment iphone store", "apple pay vietnam transaction", "iphone apple pay banking", "mobile wallet payment nfc"]
+
 [ai_summary]
 enabled = true
 collapsed = false
@@ -33,6 +35,7 @@ items = ["Apple Pay chính thức hoạt động tại Việt Nam, hỗ trợ 11
 image_attribution_checked_at = "2026-07-10T18:56:45+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp — nguồn Pexels"
++++
 **Apple Pay Việt Nam** đã chính thức có mặt, cho phép người dùng iPhone thanh toán không tiếp xúc (contactless) tại các cửa hàng, máy POS, và trên web.
 Tuy nhiên, không phải ngân hàng nào tại Việt Nam cũng hỗ trợ Apple Pay, và không phải ai cũng biết cách thêm thẻ đúng cách. Bài viết này sẽ hướng dẫn chi tiết: ngân hàng nào hỗ trợ, cách thêm thẻ từng bước, và cách xử lý các lỗi thường gặp.
 ## Apple Pay là gì và hoạt động thế nào?

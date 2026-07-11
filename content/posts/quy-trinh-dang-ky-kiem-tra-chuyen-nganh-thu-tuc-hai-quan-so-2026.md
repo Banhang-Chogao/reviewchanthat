@@ -1,7 +1,7 @@
 +++
 title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
-commit = "1768daf"
-date = "2026-07-11 06:00:00+07:00"
+commit = "bb2f271"
+date = "2026-07-11T06:00:00+07:00"
 draft = false
 description = "Hướng dẫn chi tiết thủ tục hải quan số 2026 trên Cơ chế một cửa quốc gia. Quy trình đăng ký kiểm tra chuyên ngành cho hàng hóa đặc thù: kiểm tra chất lượng, kiểm dịch động/thực vật, an toàn thực phẩm. Phân tích pháp luật xuất nhập khẩu mới nhất về nghĩa vụ doanh nghiệp và chế tài xử phạt."
 image = "images/posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.webp"
@@ -24,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T14:21:45+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026 — nguồn Pexels"
+date_display = "11-07-2026 06:00:00 GMT +7"
 +++
 
 ## Tổng Quan Về Thủ Tục Hải Quan Số 2026

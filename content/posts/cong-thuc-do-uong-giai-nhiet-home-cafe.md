@@ -1,8 +1,8 @@
 +++
 title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
 date = "2026-07-11T11:00:00+07:00"
-date_display = "11-07-2026 11:35:29 GMT +7"
-commit = "279773a"
+date_display = "11-07-2026 11:00:00 GMT +7"
+commit = "55a0a30"
 draft = false
 tags = ["home cafe", "tra trai cay", "hugo spritz", "do uong mua he"]
 categories = ["Ẩm Thực", "Lifestyle"]
@@ -22,6 +22,9 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:44:41+07:00"
+image_query = "xu hướng home-cafe công thức"
+image_alt = "Ảnh minh họa Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026 — nguồn Pexels"
 +++
 Báo cáo Google Summergeist 2026 cho thấy lượng tìm kiếm "đồ uống giải nhiệt tại nhà" và "cách làm trà sữa healthy" đã tăng hơn 200% so với cùng kỳ năm ngoái. Xu hướng này không chỉ nằm ở chuyện tiết kiệm — nó nằm ở trải nghiệm. Tự tay làm một ly nước thơm mát, chụp vài tấm ảnh check-in "home-cafe" rồi thả lỏng cuối tuần — đó là thứ hẹn hò hè mới của giới trẻ.
 

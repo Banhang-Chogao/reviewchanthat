@@ -1,7 +1,7 @@
 +++
 title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử"
-commit = "279773a"
-date = 2026-07-11T12:25:00+07:00
+commit = "55a0a30"
+date = "2026-07-11T12:25:00+07:00"
 draft = false
 tags = ["kem me den", "banh tart me den", "frozen yogurt", "froyo ngon"]
 categories = ["Am Thuc", "An Choi"]
@@ -24,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T12:28:17+07:00"
 image_query = "cơn sốt mè đen froyo"
 image_alt = "Ảnh minh họa Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử — nguồn Pixabay"
+date_display = "11-07-2026 12:25:00 GMT +7"
 +++
 
 Tháng 7/2026, hai cái tên thống trị mọi mặt trận ẩm thực từ TikTok đến các quán dessert cao cấp: **mè đen (black sesame) — vị bùi béo ngai ngái đặc trưng của ẩm thực Á Đông, và frozen yogurt (froyo) — vị chua ngọt mát lạnh không tội lỗi.** Cả hai đang chiếm trọn spotlight trên Instagram Reels và TikTok Food, từ những ly kem mè đen đen tuyền sánh mịn cho đến những ly froyo xoáy tròn đầy màu sắc.

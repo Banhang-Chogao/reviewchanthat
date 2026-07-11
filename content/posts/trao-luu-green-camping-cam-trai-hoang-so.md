@@ -1,7 +1,7 @@
 +++
 title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
-commit = "279773a"
-date = "2026-07-11 14:00:00+07:00"
+commit = "bb2f271"
+date = "2026-07-11T14:00:00+07:00"
 draft = false
 tags = ["green camping", "camping", "du lich chua lanh"]
 categories = ["Du Lich", "Trai Nghiem"]
@@ -24,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T13:05:02+07:00"
 image_query = "trào lưu green camping gợi"
 image_alt = "Ảnh minh họa Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành — nguồn Pexels"
+date_display = "11-07-2026 14:00:00 GMT +7"
 +++
 
 Năm 2026 chứng kiến sự bùng nổ của **green camping** — cắm trại xanh — một trào lưu du lịch kết hợp bảo vệ môi trường, nhặt rác và tuân thủ nghiêm ngặt nguyên tắc Leave No Trace (LNT). Không còn là những chuyến dã ngoại xả rác bừa bãi như trước, green camping đặt trải nghiệm chữa lành (healing) và trách nhiệm sinh thái lên hàng đầu. Nếu bạn đang tìm kiếm địa điểm cắm trại hoang sơ gần Sài Gòn để tái tạo năng lượng cuối tuần, bài viết này dành cho bạn.

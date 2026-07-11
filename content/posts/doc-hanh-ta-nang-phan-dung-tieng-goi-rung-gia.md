@@ -1,7 +1,7 @@
 +++
 title = "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ"
-commit = "a56d289"
-date = 2026-07-11T10:00:00+07:00
+commit = "4a4a116"
+date = "2026-07-11T10:00:00+07:00"
 draft = false
 description = "Ký sự trekking Tà Năng Phan Dũng mùa cỏ xanh tháng 7. Hành trình độc hành xuyên rừng 3 tỉnh Lâm Đồng - Ninh Thuận - Bình Thuận. Cảm giác dựng lều giữa đỉnh đồi, cơn mưa rừng bất chợt và những bài học về sự sinh tồn."
 image = "images/posts/doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia.webp"
@@ -21,6 +21,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+date_display = "11-07-2026 10:00:00 GMT +7"
 +++
 
 Tiếng lều vải phập phồng trong gió như một sinh vật đang thở. Tôi nằm trong túi ngủ, mắt mở to trong bóng tối. Bên ngoài, rừng già đang lên tiếng. Một tiếng động lạ, nửa như tiếng cành cây gãy, nửa như tiếng bước chân của một loài vật nào đó. Tim tôi đập thình thịch. Tôi một mình, trên đỉnh đồi hoang vu, giữa một khu rừng trải dài ba tỉnh thành. Và tôi tự hỏi: mình đã làm gì với cuộc đời mình vậy?

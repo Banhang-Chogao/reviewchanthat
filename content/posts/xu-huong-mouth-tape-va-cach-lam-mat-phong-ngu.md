@@ -1,7 +1,7 @@
 +++
 title = "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè"
-commit = "279773a"
-date = 2026-07-11T12:10:00+07:00
+commit = "55a0a30"
+date = "2026-07-11T12:10:00+07:00"
 draft = false
 tags = ["mouth tape", "suc khoe giac ngu", "tho bang mui", "lam mat phong ngu"]
 categories = ["Suc Khoe", "Doi Song"]
@@ -24,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T12:12:40+07:00"
 image_query = "mouth tape tốt tác hại"
 image_alt = "Ảnh minh họa Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè — nguồn Pexels"
+date_display = "11-07-2026 12:10:00 GMT +7"
 +++
 
 Giữa năm 2026, "vệ sinh giấc ngủ" (sleep hygiene) không còn là khái niệm xa lạ. Trên TikTok, Instagram, hàng loạt video hướng dẫn dùng **mouth tape — băng dính miệng khi ngủ** thu về triệu lượt xem. Đồng thời, cái nóng mùa hè khiến việc duy trì một phòng ngủ mát mẻ trở thành ưu tiên số một.

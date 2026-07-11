@@ -1,8 +1,8 @@
 +++
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
 date = "2026-07-11T10:45:00+07:00"
-date_display = "11-07-2026 11:35:29 GMT +7"
-commit = "279773a"
+date_display = "11-07-2026 10:45:00 GMT +7"
+commit = "55a0a30"
 draft = false
 tags = ["du lich he", "trekking", "camping", "local tour"]
 categories = ["Du Lịch", "Trải Nghiệm"]
@@ -22,6 +22,9 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+image_attribution_checked_at = "2026-07-11T14:44:41+07:00"
+image_query = "xu hướng du lịch may"
+image_alt = "Ảnh minh họa Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt — nguồn Pexels"
 +++
 Giữa lòng Sài Gòn nắng cháy da người 37 độ C, hàng ngàn bạn trẻ đang lặng lẽ đóng laptop, vác ba lô lên và… biến mất khỏi thành phố vào mỗi cuối tuần. Họ không mua tour 3 ngày 2 đêm giá rẻ, không lên xe giường nằm đi Đà Lạt theo kiểu "ăn uống — chụp ảnh — về". Thay vào đó, họ tìm đến những chuyến đi tự may đo: trekking xuyên rừng, cắm trại bên hồ vắng, hoặc ở homestay giữa bản làng người dân tộc thiểu số. Đây không đơn thuần là trào lưu. Đây là cách nghỉ dưỡng đang được định nghĩa lại.
 

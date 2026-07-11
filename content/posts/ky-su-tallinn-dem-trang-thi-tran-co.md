@@ -1,6 +1,7 @@
 +++
 title = "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu"
-date = "2026-07-11 15:00:00+07:00"
+commit = "4a4a116"
+date = "2026-07-11T14:44:57+07:00"
 draft = false
 description = "Ký sự du lịch Tallinn mùa hè - thành phố cổ kính nhất Bắc Âu với những đêm trắng mặt trời không bao giờ lặn. Phố cổ UNESCO, tường thành thế kỷ 13, quán ăn trung cổ thắp nến cạnh văn phòng công nghệ hiện đại."
 image = "images/posts/ky-su-tallinn-dem-trang-thi-tran-co.webp"
@@ -23,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T14:21:46+07:00"
 image_query = "ký sự tallinn đêm trắng"
 image_alt = "Ảnh minh họa Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu — nguồn Pixabay"
+date_display = "11-07-2026 14:44:57 GMT +7"
 +++
 
 Đồng hồ trên tháp Tall Hermann điểm mười một giờ đêm, nhưng bầu trời vẫn còn một dải sáng mờ mờ ở phía chân trời. Ở vĩ độ 59 độ Bắc, mặt trời tháng Bảy chỉ lặn được vài tiếng đồng hồ trước khi lại mọc — một hiện tượng kỳ lạ mà tôi, đứa con của xứ nhiệt đới, chưa từng chứng kiến. Tôi đứng trên đỉnh đồi Toompea, nhìn xuống những mái ngói đỏ của phố cổ Tallinn, và cảm thấy như mình đang ở trong một câu chuyện cổ tích có thật.

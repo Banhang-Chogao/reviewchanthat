@@ -25,7 +25,7 @@ image_creator_url = "https://www.pexels.com/@alesiakozik"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = ""
-image_attribution_checked_at = "2026-07-10T18:56:47+07:00"
+image_attribution_checked_at = "2026-07-11T14:44:35+07:00"
 
 [ai_summary]
 items = ["Black-Scholes: Công thức định giá call option được phát hiện năm 1973", "C = S×Φ(d1) - K×e^(-rT)×Φ(d2) — thứ nhất thấy e^(-rT) từ Bài 1!", "d1, d2 = công thức logarit + phân phối chuẩn để tính Φ (cumulative normal CDF)", "Giả định: σ hằng số, không có dividend, European option (chỉ thực hiện khi expiry)", "Implied Volatility: Đảo ngược công thức để tìm σ từ giá market", "Put-Call Parity: C - P = S - K×e^(-rT) (mối quan hệ call/put)", "Thực tế: Volatility Smile, American options, dividend adjustment cần mô hình phức tạp hơn"]
