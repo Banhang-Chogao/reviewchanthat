@@ -68,6 +68,9 @@ jobs:
       - name: Process images (select + download + convert to WebP)
         run: python scripts/process_images.py
 
+      - name: QA hero images (block broken/missing heroes)
+        run: python scripts/qa_hero_images.py
+
       - name: Pre-deploy source-of-truth rule
         run: python scripts/rule.py --fix
 
