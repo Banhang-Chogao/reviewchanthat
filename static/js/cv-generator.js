@@ -823,6 +823,365 @@
     }, 500);
   }
 
+  /* ---- Excel Import/Export ---- */
+  var CV_SECTIONS = {
+    'Personal Information': ['Full Name', 'Email', 'Phone', 'Address', 'LinkedIn', 'Website'],
+    'Career Objective': ['Objective'],
+    'Education': ['School / University', 'Degree', 'Start Year', 'End Year', 'GPA'],
+    'Work Experience': ['Company', 'Position', 'Start Date', 'End Date', 'Description'],
+    'Projects': ['Project Name', 'Description', 'Technologies', 'URL'],
+    'Skills': ['Skills (comma separated)'],
+    'Certifications': ['Certifications (one per line)'],
+    'Languages': ['Languages (one per line)'],
+    'Awards': ['Awards (one per line)'],
+    'Activities': ['Activities / Volunteer (one per line)'],
+    'References': ['References'],
+    'Additional Information': ['Additional Info']
+  };
+
+  function getCvData() {
+    getFormData();
+    return {
+      'Personal Information': [state.fullName, state.email, state.phone, state.address, state.linkedin, state.website],
+      'Career Objective': [state.objective],
+      'Education': state.experiences.length ? [state.school, state.degree, state.eduStart, state.eduEnd, state.eduGpa] : ['', '', '', '', ''],
+      'Work Experience': state.experiences.map(function(e) { return [e.company, e.position, e.start, e.end, e.desc]; }),
+      'Projects': state.projects.map(function(p) { return [p.name, p.desc, p.tech, p.url]; }),
+      'Skills': [state.skills.join(', ')],
+      'Certifications': [state.certifications],
+      'Languages': [state.languages],
+      'Awards': [state.awards],
+      'Activities': [state.activities],
+      'References': [state.references],
+      'Additional Information': [state.additional]
+    };
+  }
+
+  function downloadTemplate() {
+    if (typeof XLSX === 'undefined') {
+      alert('Excel library not ready. Please try again.');
+      return;
+    }
+    var wb = XLSX.utils.book_new();
+    var sheetNames = Object.keys(CV_SECTIONS);
+
+    sheetNames.forEach(function(name) {
+      var headers = CV_SECTIONS[name];
+      var data = [];
+      if (name === 'Work Experience') {
+        data = [headers,
+          ['Acme Corp', 'Software Engineer', 'Jan 2020', 'Present', 'Developed and maintained web applications using React and Node.js. Led a team of 3 developers.'],
+          ['Startup XYZ', 'Junior Developer', 'Jun 2018', 'Dec 2019', 'Built RESTful APIs and contributed to front-end development.'],
+          ['', '', '', '', '']];
+      } else if (name === 'Projects') {
+        data = [headers,
+          ['E-commerce Platform', 'Built a full-stack e-commerce platform with payment integration.', 'React, Node.js, PostgreSQL, Stripe', 'https://github.com/example/ecommerce'],
+          ['Mobile App', 'Developed a cross-platform mobile application for task management.', 'React Native, Firebase', ''],
+          ['', '', '', '']];
+      } else {
+        data = [headers];
+        if (name === 'Education') data.push(['University of Science', 'Bachelor of Computer Science', '2018', '2022', '3.5 / 4.0']);
+        else if (name === 'Skills') data.push(['JavaScript, Python, React, Node.js, Docker, PostgreSQL']);
+        else if (name === 'Certifications') data.push(['AWS Solutions Architect - 2024\nGoogle Cloud Professional - 2023']);
+        else if (name === 'Languages') data.push(['Vietnamese - Native\nEnglish - Fluent\nJapanese - N3']);
+        else if (name === 'Personal Information') data.push(['Nguyen Van A', 'nguyenvana@example.com', '+84 90 123 4567', 'Ho Chi Minh City, Vietnam', 'https://linkedin.com/in/...', 'https://...']);
+        else if (name === 'Career Objective') data.push(['Experienced software engineer with 5+ years building scalable web applications...']);
+        else data.push(['']);
+      }
+
+      var ws = XLSX.utils.aoa_to_sheet(data);
+
+      var colWidths = headers.map(function(h) {
+        return { wch: Math.max(h.length * 1.5, 18) };
+      });
+      ws['!cols'] = colWidths;
+
+      ws['!rows'] = data.map(function(_, i) {
+        if (i === 0) return { hpx: 30 };
+        return { hpx: 20 };
+      });
+
+      XLSX.utils.book_append_sheet(wb, ws, name);
+    });
+
+    XLSX.writeFile(wb, 'CV_Template.xlsx');
+  }
+
+  function importExcel() {
+    if (typeof XLSX === 'undefined') {
+      alert('Excel library not ready. Please try again.');
+      return;
+    }
+    var input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.xlsx';
+    input.addEventListener('change', function(e) {
+      var file = e.target.files[0];
+      if (!file) return;
+      if (file.size > 10 * 1024 * 1024) {
+        alert('File too large. Maximum 10 MB.');
+        return;
+      }
+      processExcelFile(file);
+    });
+    input.click();
+  }
+
+  function processExcelFile(file) {
+    showProgress(10);
+    var reader = new FileReader();
+    reader.onload = function(ev) {
+      try {
+        showProgress(30);
+        var data = new Uint8Array(ev.target.result);
+        var wb = XLSX.read(data, { type: 'array' });
+        showProgress(50);
+
+        var errors = [];
+        var imported = {};
+        var summary = [];
+
+        var sheetNames = wb.SheetNames;
+        Object.keys(CV_SECTIONS).forEach(function(section) {
+          var sheetName = sheetNames.filter(function(s) { return s.trim().toLowerCase() === section.toLowerCase(); })[0];
+          if (!sheetName) {
+            summary.push({ section: section, status: 'missing', msg: 'Worksheet not found' });
+            return;
+          }
+          var ws = wb.Sheets[sheetName];
+          var rows = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '' });
+          if (!rows || rows.length < 2) {
+            summary.push({ section: section, status: 'empty', msg: 'No data rows' });
+            return;
+          }
+
+          var headerRow = rows[0].map(function(h) { return String(h).trim(); });
+          var expectedHeaders = CV_SECTIONS[section];
+          var colMap = {};
+          expectedHeaders.forEach(function(h, idx) {
+            var norm = h.toLowerCase().replace(/[^a-z0-9]/g, '');
+            var found = -1;
+            headerRow.forEach(function(rh, ri) {
+              if (rh.toLowerCase().replace(/[^a-z0-9]/g, '') === norm) found = ri;
+            });
+            colMap[idx] = found;
+          });
+
+          var dataRows = rows.slice(1).filter(function(row) {
+            return row.some(function(cell) { return String(cell).trim(); });
+          });
+
+          if (dataRows.length === 0) {
+            summary.push({ section: section, status: 'empty', msg: 'No data after filtering empty rows' });
+            return;
+          }
+
+          if (section === 'Personal Information') {
+            imported.fullName = getCell(dataRows[0], colMap[0]);
+            imported.email = getCell(dataRows[0], colMap[1]);
+            imported.phone = getCell(dataRows[0], colMap[2]);
+            imported.address = getCell(dataRows[0], colMap[3]);
+            imported.linkedin = getCell(dataRows[0], colMap[4]);
+            imported.website = getCell(dataRows[0], colMap[5]);
+
+            if (!imported.fullName) errors.push('Full Name is required');
+            if (!imported.email) errors.push('Email is required');
+            if (!imported.phone) errors.push('Phone is required');
+            summary.push({ section: section, status: 'ok', msg: imported.fullName || 'Imported' });
+          } else if (section === 'Career Objective') {
+            imported.objective = getCell(dataRows[0], colMap[0]);
+            summary.push({ section: section, status: 'ok', msg: 'Imported' });
+          } else if (section === 'Education') {
+            imported.school = getCell(dataRows[0], colMap[0]);
+            imported.degree = getCell(dataRows[0], colMap[1]);
+            imported.eduStart = getCell(dataRows[0], colMap[2]);
+            imported.eduEnd = getCell(dataRows[0], colMap[3]);
+            imported.eduGpa = getCell(dataRows[0], colMap[4]);
+            summary.push({ section: section, status: 'ok', msg: imported.school || 'Imported' });
+          } else if (section === 'Work Experience') {
+            imported.experiences = dataRows.map(function(row) {
+              return {
+                company: getCell(row, colMap[0]),
+                position: getCell(row, colMap[1]),
+                start: getCell(row, colMap[2]),
+                end: getCell(row, colMap[3]),
+                desc: getCell(row, colMap[4])
+              };
+            }).filter(function(e) { return e.company || e.position; });
+            if (!imported.experiences.length) imported.experiences = [{ company: '', position: '', start: '', end: '', desc: '' }];
+            summary.push({ section: section, status: 'ok', msg: imported.experiences.length + ' entries' });
+          } else if (section === 'Projects') {
+            imported.projects = dataRows.map(function(row) {
+              return {
+                name: getCell(row, colMap[0]),
+                desc: getCell(row, colMap[1]),
+                tech: getCell(row, colMap[2]),
+                url: getCell(row, colMap[3])
+              };
+            }).filter(function(p) { return p.name || p.desc; });
+            if (!imported.projects.length) imported.projects = [{ name: '', desc: '', tech: '', url: '' }];
+            summary.push({ section: section, status: 'ok', msg: imported.projects.length + ' entries' });
+          } else if (section === 'Skills') {
+            imported.skills = getCell(dataRows[0], colMap[0]).split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+            summary.push({ section: section, status: 'ok', msg: imported.skills.length + ' skills' });
+          } else if (section === 'Certifications') {
+            imported.certifications = getCell(dataRows[0], colMap[0]);
+            summary.push({ section: section, status: 'ok', msg: 'Imported' });
+          } else if (section === 'Languages') {
+            imported.languages = getCell(dataRows[0], colMap[0]);
+            summary.push({ section: section, status: 'ok', msg: 'Imported' });
+          } else if (section === 'Awards') {
+            imported.awards = getCell(dataRows[0], colMap[0]);
+            summary.push({ section: section, status: 'ok', msg: 'Imported' });
+          } else if (section === 'Activities') {
+            imported.activities = getCell(dataRows[0], colMap[0]);
+            summary.push({ section: section, status: 'ok', msg: 'Imported' });
+          } else if (section === 'References') {
+            imported.references = getCell(dataRows[0], colMap[0]);
+            summary.push({ section: section, status: 'ok', msg: 'Imported' });
+          } else if (section === 'Additional Information') {
+            imported.additional = getCell(dataRows[0], colMap[0]);
+            summary.push({ section: section, status: 'ok', msg: 'Imported' });
+          }
+        });
+
+        showProgress(80);
+
+        if (errors.length > 0) {
+          showSummary(summary, errors);
+          showProgress(0);
+          return;
+        }
+
+        // Check merge mode
+        var hasExisting = state.fullName || state.objective || state.school;
+        if (hasExisting) {
+          var mode = confirm('Your CV already has data. Click OK to Replace All, Cancel to choose Merge.');
+          if (!mode) {
+            // Merge: only overwrite fields present in Excel
+            mergeData(imported);
+          } else {
+            // Replace
+            replaceData(imported);
+          }
+        } else {
+          replaceData(imported);
+        }
+
+        showProgress(100);
+        showSummary(summary, []);
+        applyStateToForm();
+        onFormChange();
+        showImportSuccess('CV imported successfully.' + (summary.filter(function(s) { return s.status === 'ok'; }).length) + '/' + Object.keys(CV_SECTIONS).length + ' sections loaded.');
+      } catch (e) {
+        showProgress(0);
+        alert('Error reading Excel file: ' + e.message);
+      }
+    };
+    reader.readAsArrayBuffer(file);
+  }
+
+  function getCell(row, colIdx) {
+    if (colIdx < 0 || !row || !row[colIdx]) return '';
+    return String(row[colIdx]).trim();
+  }
+
+  function replaceData(imported) {
+    Object.keys(imported).forEach(function(k) {
+      state[k] = imported[k];
+    });
+  }
+
+  function mergeData(imported) {
+    Object.keys(imported).forEach(function(k) {
+      var val = imported[k];
+      if (Array.isArray(val)) {
+        if (val.length && (val[0].company || val[0].position || val[0].name)) {
+          state[k] = val;
+        }
+      } else if (typeof val === 'string' && val) {
+        state[k] = val;
+      } else if (Array.isArray(val) && val.length) {
+        state[k] = val;
+      }
+    });
+  }
+
+  function showProgress(pct) {
+    var container = document.getElementById('cvImportProgress');
+    var fill = document.getElementById('cvImportProgressFill');
+    if (!container || !fill) return;
+    if (pct > 0) {
+      container.style.display = 'block';
+      fill.style.width = pct + '%';
+    } else {
+      container.style.display = 'none';
+      fill.style.width = '0%';
+    }
+  }
+
+  function showSummary(summary, errors) {
+    var el = document.getElementById('cvImportSummary');
+    if (!el) return;
+    if (!summary.length && !errors.length) {
+      el.style.display = 'none';
+      return;
+    }
+    el.style.display = 'block';
+    var html = '<ul>';
+    summary.forEach(function(s) {
+      var cls = s.status === 'ok' ? 'ok' : 'fail';
+      var icon = s.status === 'ok' ? '✓' : s.status === 'missing' ? '✗' : '–';
+      html += '<li class="' + cls + '">' + icon + ' ' + s.section + ': ' + s.msg + '</li>';
+    });
+    errors.forEach(function(e) {
+      html += '<li class="fail">✗ ' + e + '</li>';
+    });
+    html += '</ul>';
+    el.innerHTML = html;
+  }
+
+  function showImportSuccess(msg) {
+    var el = document.getElementById('cvImportSummary');
+    if (el) {
+      el.style.display = 'block';
+      el.innerHTML = '<p style="color:var(--color-primary,#00A7A0);font-weight:600;">' + msg + '</p>';
+      setTimeout(function() { el.style.display = 'none'; }, 5000);
+    }
+  }
+
+  function exportExcel() {
+    if (typeof XLSX === 'undefined') {
+      alert('Excel library not ready. Please try again.');
+      return;
+    }
+    var cvData = getCvData();
+    var wb = XLSX.utils.book_new();
+    var name = state.fullName.replace(/\s+/g, '_') || 'CV';
+
+    Object.keys(cvData).forEach(function(section) {
+      var headers = CV_SECTIONS[section];
+      var data = [headers];
+      var rows = cvData[section];
+
+      if (section === 'Work Experience' || section === 'Projects') {
+        if (rows.length === 0) data.push(headers.map(function() { return ''; }));
+        else rows.forEach(function(row) { data.push(row); });
+      } else if (section === 'Education') {
+        data.push(rows);
+      } else {
+        data.push(rows);
+      }
+
+      var ws = XLSX.utils.aoa_to_sheet(data);
+      var colWidths = headers.map(function(h) { return { wch: Math.max(h.length * 1.5, 18) }; });
+      ws['!cols'] = colWidths;
+      XLSX.utils.book_append_sheet(wb, ws, section);
+    });
+
+    XLSX.writeFile(wb, name + '_CV.xlsx');
+  }
+
   /* ---- Init ---- */
   function init() {
     if (!gateEl || !appEl) return;
@@ -831,6 +1190,37 @@
     updateKpis();
     runAtsCheck();
     renderSkillsTags();
+
+    document.getElementById('cvDownloadTemplate').addEventListener('click', downloadTemplate);
+    document.getElementById('cvImportExcel').addEventListener('click', importExcel);
+    document.getElementById('cvExportExcel').addEventListener('click', exportExcel);
+
+    // Drag & drop
+    var dropZone = document.getElementById('cvDropZone');
+    if (dropZone) {
+      ['dragenter', 'dragover'].forEach(function(evt) {
+        dropZone.addEventListener(evt, function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          dropZone.classList.add('cv-io-card__drop--active');
+        });
+      });
+      ['dragleave', 'drop'].forEach(function(evt) {
+        dropZone.addEventListener(evt, function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          dropZone.classList.remove('cv-io-card__drop--active');
+        });
+      });
+      dropZone.addEventListener('drop', function(e) {
+        var files = e.dataTransfer.files;
+        if (files.length && files[0].name.endsWith('.xlsx') && files[0].size <= 10 * 1024 * 1024) {
+          processExcelFile(files[0]);
+        } else {
+          alert('Please drop a valid .xlsx file under 10 MB.');
+        }
+      });
+    }
   }
 
   if (document.readyState === 'complete' || document.readyState === 'interactive') {

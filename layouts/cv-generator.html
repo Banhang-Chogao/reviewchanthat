@@ -47,6 +47,22 @@
 
     <div class="cv-layout">
       <div class="cv-form-panel" id="cvFormPanel">
+        <div class="cv-io-card" id="cvIoCard">
+          <h3 class="cv-io-card__title">Import / Export</h3>
+          <div class="cv-io-card__btns">
+            <button type="button" class="cv-io-btn" id="cvDownloadTemplate">📥 Download Excel Template</button>
+            <button type="button" class="cv-io-btn" id="cvImportExcel">📤 Import Excel</button>
+            <button type="button" class="cv-io-btn" id="cvExportExcel">📄 Export Excel</button>
+          </div>
+          <div class="cv-io-card__drop" id="cvDropZone">
+            <p>Drag &amp; drop .xlsx file here</p>
+          </div>
+          <div class="cv-io-card__progress" id="cvImportProgress" style="display:none">
+            <div class="cv-io-card__progress-bar"><div class="cv-io-card__progress-fill" id="cvImportProgressFill"></div></div>
+          </div>
+          <div class="cv-io-card__summary" id="cvImportSummary" style="display:none"></div>
+        </div>
+
         <form class="cv-form" id="cvForm" novalidate>
           <fieldset class="cv-fieldset" id="cvSectionPersonal">
             <legend class="cv-fieldset__legend">Personal Information</legend>
@@ -323,5 +339,6 @@ Dean's List 2020-2022"></textarea>
 
 {{ $cvCss := resources.Get "css/cv-generator.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $cvCss.RelPermalink }}" integrity="{{ $cvCss.Data.Integrity }}">
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>
 <script src="{{ "js/cv-generator.js" | relURL }}" defer></script>
 {{ end }}
