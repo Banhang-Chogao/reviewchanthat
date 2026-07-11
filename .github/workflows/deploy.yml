@@ -54,6 +54,20 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Setup image API credentials
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          cat > .env << EOF
+          PEXELS_API_KEY=${PEXELS_API_KEY}
+          PIXABAY_API_KEY=${PIXABAY_API_KEY}
+          EOF
+          chmod 600 .env
+
+      - name: Process images (select + download + convert to WebP)
+        run: python scripts/process_images.py
+
       - name: Pre-deploy source-of-truth rule
         run: python scripts/rule.py --fix
 
