@@ -542,14 +542,9 @@ def compute_report(posts: list[dict], draft_posts: list[dict], warnings_list: li
             len(slug_too_long),
             "Rút gọn slug (report-only — đổi slug cần redirect).",
         )
-    if slug_stop_words:
-        add_action(
-            "P2", "SEO",
-            "Slug chứa stop words (report-only)",
-            f"{len(slug_stop_words)} slug chứa stop words tiếng Việt.",
-            len(slug_stop_words),
-            "Ghi nhận; chỉ đổi slug khi refactor có redirect.",
-        )
+    # Keep slug stop-word findings in seo.slug_stop_words for audits, but do
+    # not treat them as actionable backlog. Changing published slugs requires
+    # a redirect plan, so this remains report-only data.
 
     thin = [p for p in posts if p["word_count"] < 300]
     if thin:
