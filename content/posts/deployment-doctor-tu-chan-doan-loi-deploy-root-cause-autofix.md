@@ -1,5 +1,6 @@
 +++
 title = "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm"
+commit: f9a52cb
 date = "2026-07-09T23:30:00+07:00"
 slug = "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix"
 categories = ["cong-nghe"]

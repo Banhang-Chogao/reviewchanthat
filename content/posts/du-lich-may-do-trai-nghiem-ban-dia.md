@@ -1,5 +1,6 @@
 +++
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+commit: 9d50c8a
 date = 2026-07-11T10:45:00+07:00
 draft = false
 tags = ["du lich he", "trekking", "camping", "local tour"]

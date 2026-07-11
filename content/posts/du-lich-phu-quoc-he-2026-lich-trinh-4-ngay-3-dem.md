@@ -1,5 +1,6 @@
 +++
 title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
+commit: f9a52cb
 date = "2026-07-09T17:00:00+07:00"
 description = "Gợi ý du lịch Phú Quốc hè 2026 cho người đi tự túc: nên ở khu nào, tour đảo nào đáng đi, lịch trình 4 ngày 3 đêm và cách né mưa giữa mùa thấp điểm."
 categories = ["du-lich"]

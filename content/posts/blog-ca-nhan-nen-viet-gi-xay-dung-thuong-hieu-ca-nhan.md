@@ -1,5 +1,6 @@
 +++
 title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
+commit: f9a52cb
 date = "2026-07-10T00:30:00+07:00"
 slug = "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan"
 categories = ["cong-nghe"]

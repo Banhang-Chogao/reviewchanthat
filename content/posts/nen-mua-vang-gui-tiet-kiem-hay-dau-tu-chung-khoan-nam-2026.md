@@ -1,5 +1,6 @@
 +++
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
+commit: f9a52cb
 date = "2026-07-09T20:00:00+07:00"
 draft = false
 categories = ["tai-chinh"]

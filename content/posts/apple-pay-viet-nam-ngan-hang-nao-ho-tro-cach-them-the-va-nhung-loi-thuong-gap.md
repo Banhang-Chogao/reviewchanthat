@@ -1,5 +1,6 @@
 +++
 title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+commit: f9a52cb
 date = "2026-07-10T09:00:00+07:00"
 categories = ["tai-chinh"]
 tags = ["Apple Pay Việt Nam", "Apple Pay ngân hàng nào hỗ trợ", "cách thêm thẻ vào Apple Pay", "Apple Pay có an toàn không", "Apple Pay lỗi", "thanh toán không tiếp xúc", "Visa Apple Pay", "Mastercard Apple Pay"]

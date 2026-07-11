@@ -1,5 +1,6 @@
 +++
 title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
+commit: f9a52cb
 date = "2026-07-10T00:35:00+07:00"
 slug = "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc"
 categories = ["cong-nghe"]

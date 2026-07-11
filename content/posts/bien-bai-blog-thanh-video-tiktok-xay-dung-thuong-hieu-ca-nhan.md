@@ -1,5 +1,6 @@
 +++
 title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
+commit: f9a52cb
 date = "2026-07-10T00:15:00+07:00"
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]

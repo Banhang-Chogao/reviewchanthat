@@ -1,5 +1,6 @@
 +++
 title = "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD"
+commit: f9a52cb
 date = "2026-07-09T20:21:28+07:00"
 slug = "github-actions-run-start-delays-july-9-2026-ci-cd-protection"
 categories = ["cong-nghe"]

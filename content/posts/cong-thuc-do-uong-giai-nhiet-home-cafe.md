@@ -1,5 +1,6 @@
 +++
 title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
+commit: 9d50c8a
 date = 2026-07-11T11:00:00+07:00
 draft = false
 tags = ["home cafe", "tra trai cay", "hugo spritz", "do uong mua he"]
