@@ -1,0 +1,390 @@
+{
+  "slug": "iphone-18-vs-iphone-17",
+  "candidate_count": 12,
+  "candidates": [
+    {
+      "source_url": "https://pixabay.com/photos/iphone-smartphone-apps-apple-inc-410324/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:24",
+      "gate": {
+        "semantic_score": 24,
+        "color_score": 12.0,
+        "keyword_metadata_score": 13.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 62.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 4,
+            "negative_hits": 0,
+            "clip_raw": 26.3439998626709,
+            "proxy": 24
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-hand-screen-smartphone-apps-410311/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:24",
+      "gate": {
+        "semantic_score": 24,
+        "color_score": 12.0,
+        "keyword_metadata_score": 13.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 62.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 4,
+            "negative_hits": 0,
+            "clip_raw": 28.832721710205078,
+            "proxy": 24
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/apple-iphone-smartphone-technology-1281744/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:24",
+      "gate": {
+        "semantic_score": 24,
+        "color_score": 12.0,
+        "keyword_metadata_score": 13.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 62.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 4,
+            "negative_hits": 0,
+            "clip_raw": 22.06109046936035,
+            "proxy": 24
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/space-gray-iphone-8-818043/",
+      "provider": "Pexels",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:23.44",
+      "gate": {
+        "semantic_score": 23.44,
+        "color_score": 12.0,
+        "keyword_metadata_score": 10.5,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 58.94,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 3,
+            "negative_hits": 0,
+            "clip_raw": 29.323875427246094,
+            "proxy": 20
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/laptop-hands-gadgets-iphone-apple-1842297/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:20",
+      "gate": {
+        "semantic_score": 20,
+        "color_score": 12.0,
+        "keyword_metadata_score": 10.5,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 55.5,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 3,
+            "negative_hits": 0,
+            "clip_raw": 22.660728454589844,
+            "proxy": 20
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-smartphone-iphone-14-7479302/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:20",
+      "gate": {
+        "semantic_score": 20,
+        "color_score": 12.0,
+        "keyword_metadata_score": 10.5,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 55.5,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 3,
+            "negative_hits": 0,
+            "clip_raw": 25.822757720947266,
+            "proxy": 20
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/make-a-phone-call-mobile-phone-5190643/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:20",
+      "gate": {
+        "semantic_score": 20,
+        "color_score": 12.0,
+        "keyword_metadata_score": 10.5,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 55.5,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 3,
+            "negative_hits": 0,
+            "clip_raw": 22.828828811645508,
+            "proxy": 20
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/apple-iphone-notebook-pen-1841553/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:20",
+      "gate": {
+        "semantic_score": 20,
+        "color_score": 12.0,
+        "keyword_metadata_score": 10.5,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 55.5,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 3,
+            "negative_hits": 0,
+            "clip_raw": 24.382659912109375,
+            "proxy": 20
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-laptop-macbook-pro-notebook-1852901/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:20",
+      "gate": {
+        "semantic_score": 20,
+        "color_score": 12.0,
+        "keyword_metadata_score": 10.5,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 55.5,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 3,
+            "negative_hits": 0,
+            "clip_raw": 21.963844299316406,
+            "proxy": 20
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-iphone-6-iphone-6-plus-apple-791450/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:21.21",
+      "gate": {
+        "semantic_score": 21.21,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 53.21,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 28.653648376464844,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/phone-iphone-mobile-green-8594571/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:17.49",
+      "gate": {
+        "semantic_score": 17.49,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 49.49,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 26.237438201904297,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://pixabay.com/photos/iphone-hand-girl-smartphone-500291/",
+      "provider": "Pixabay",
+      "query": "iPhone 18 vs iPhone 17 smartphone comparison",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16",
+      "gate": {
+        "semantic_score": 16,
+        "color_score": 12.0,
+        "keyword_metadata_score": 7.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 48.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 2,
+            "negative_hits": 0,
+            "clip_raw": 23.19341468811035,
+            "proxy": 16
+          },
+          "color": {
+            "skipped": true,
+            "reason": "no_desired_palette"
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    }
+  ]
+}

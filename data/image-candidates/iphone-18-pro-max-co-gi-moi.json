@@ -1,0 +1,654 @@
+{
+  "slug": "iphone-18-pro-max-co-gi-moi",
+  "candidate_count": 12,
+  "candidates": [
+    {
+      "source_url": "https://www.pexels.com/photo/comparison-of-modern-smartphones-on-wooden-surface-36680542/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:22.22",
+      "gate": {
+        "semantic_score": 22.22,
+        "color_score": 14.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 49.22,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 30.871110916137695,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "yellow",
+                0.40625
+              ],
+              [
+                "black",
+                0.3653428819444444
+              ],
+              [
+                "beige",
+                0.1047092013888889
+              ],
+              [
+                "yellow",
+                0.06825086805555555
+              ],
+              [
+                "white",
+                0.05544704861111111
+              ]
+            ],
+            "warm_mass": 0.5792100694444444,
+            "cool_mass": 0.0
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/modern-smartphones-trio-on-wooden-table-36680541/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:16.03",
+      "gate": {
+        "semantic_score": 16.03,
+        "color_score": 14.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 43.03,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 26.853458404541016,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "orange",
+                0.3394097222222222
+              ],
+              [
+                "black",
+                0.3254123263888889
+              ],
+              [
+                "beige",
+                0.1921657986111111
+              ],
+              [
+                "yellow",
+                0.07465277777777778
+              ],
+              [
+                "white",
+                0.068359375
+              ]
+            ],
+            "warm_mass": 0.606228298611111,
+            "cool_mass": 0.0
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/modern-workspace-with-a-smartphone-and-notepad-36755465/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:21.67",
+      "gate": {
+        "semantic_score": 21.67,
+        "color_score": 8.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 42.67,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 30.51528549194336,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "yellow",
+                0.3902994791666667
+              ],
+              [
+                "purple",
+                0.259765625
+              ],
+              [
+                "green",
+                0.20735677083333334
+              ],
+              [
+                "green",
+                0.11762152777777778
+              ],
+              [
+                "orange",
+                0.024956597222222224
+              ]
+            ],
+            "warm_mass": 0.4152560763888889,
+            "cool_mass": 0.5847439236111112
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/modern-smartphones-arranged-on-wooden-surface-36680540/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:14.74",
+      "gate": {
+        "semantic_score": 14.74,
+        "color_score": 14.48,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 42.22,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 26.014060974121094,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "yellow",
+                0.3268229166666667
+              ],
+              [
+                "yellow",
+                0.2969835069444444
+              ],
+              [
+                "black",
+                0.1566840277777778
+              ],
+              [
+                "white",
+                0.15657552083333334
+              ],
+              [
+                "beige",
+                0.06293402777777778
+              ]
+            ],
+            "warm_mass": 0.686740451388889,
+            "cool_mass": 0.0
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/latest-cellphone-on-a-wooden-surface-12794500/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:12.38",
+      "gate": {
+        "semantic_score": 12.38,
+        "color_score": 14.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 39.38,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 24.481159210205078,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "yellow",
+                0.3668619791666667
+              ],
+              [
+                "yellow",
+                0.2570529513888889
+              ],
+              [
+                "white",
+                0.24110243055555555
+              ],
+              [
+                "purple",
+                0.08235677083333333
+              ],
+              [
+                "blue",
+                0.05262586805555555
+              ]
+            ],
+            "warm_mass": 0.6239149305555556,
+            "cool_mass": 0.08235677083333333
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/hand-holding-modern-smartphone-in-office-setting-32141312/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:11.21",
+      "gate": {
+        "semantic_score": 11.21,
+        "color_score": 14.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 38.21,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 23.722082138061523,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "black",
+                0.4982638888888889
+              ],
+              [
+                "orange",
+                0.15625
+              ],
+              [
+                "orange",
+                0.12217881944444445
+              ],
+              [
+                "yellow",
+                0.1162109375
+              ],
+              [
+                "orange",
+                0.10709635416666667
+              ]
+            ],
+            "warm_mass": 0.501736111111111,
+            "cool_mass": 0.0
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/smartphone-mockup-on-sandy-log-in-kamala-beach-31833728/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:10.76",
+      "gate": {
+        "semantic_score": 10.76,
+        "color_score": 14.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 37.76,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 23.42903709411621,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "red",
+                0.2878689236111111
+              ],
+              [
+                "orange",
+                0.2388237847222222
+              ],
+              [
+                "orange",
+                0.20345052083333334
+              ],
+              [
+                "orange",
+                0.154296875
+              ],
+              [
+                "white",
+                0.11555989583333333
+              ]
+            ],
+            "warm_mass": 0.5965711805555556,
+            "cool_mass": 0.0
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/iphone-on-moss-in-scandinavian-forest-setting-35037580/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:8",
+      "gate": {
+        "semantic_score": 8,
+        "color_score": 16.35,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 37.35,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 19.782438278198242,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "yellow",
+                0.3110894097222222
+              ],
+              [
+                "yellow",
+                0.2601996527777778
+              ],
+              [
+                "beige",
+                0.22254774305555555
+              ],
+              [
+                "green",
+                0.1411675347222222
+              ],
+              [
+                "orange",
+                0.06499565972222222
+              ]
+            ],
+            "warm_mass": 0.8588324652777778,
+            "cool_mass": 0.1411675347222222
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/apple-iphone-14-pro-max-mobile-phone-16005007/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:8",
+      "gate": {
+        "semantic_score": 8,
+        "color_score": 14.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 35.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 16.200029373168945,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "orange",
+                0.4229600694444444
+              ],
+              [
+                "black",
+                0.3466796875
+              ],
+              [
+                "brown",
+                0.0927734375
+              ],
+              [
+                "white",
+                0.08561197916666667
+              ],
+              [
+                "beige",
+                0.05197482638888889
+              ]
+            ],
+            "warm_mass": 0.5677083333333333,
+            "cool_mass": 0.0
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/a-cellphone-on-a-wooden-surface-12794495/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:8",
+      "gate": {
+        "semantic_score": 8,
+        "color_score": 14.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 35.0,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 21.194604873657227,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "orange",
+                0.3787977430555556
+              ],
+              [
+                "orange",
+                0.3344184027777778
+              ],
+              [
+                "purple",
+                0.11219618055555555
+              ],
+              [
+                "purple",
+                0.1062282986111111
+              ],
+              [
+                "black",
+                0.068359375
+              ]
+            ],
+            "warm_mass": 0.7132161458333334,
+            "cool_mass": 0.21842447916666666
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/vibrant-orange-smartphone-and-smartwatch-on-blue-grid-37539092/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:22.63",
+      "gate": {
+        "semantic_score": 22.63,
+        "color_score": 0.0,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 11.0,
+        "total_score": 33.63,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 31.135034561157227,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "purple",
+                0.3807508680555556
+              ],
+              [
+                "purple",
+                0.2733289930555556
+              ],
+              [
+                "orange",
+                0.1548394097222222
+              ],
+              [
+                "orange",
+                0.10297309027777778
+              ],
+              [
+                "red",
+                0.0881076388888889
+              ]
+            ],
+            "warm_mass": 0.2578125,
+            "cool_mass": 0.6540798611111112
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    },
+    {
+      "source_url": "https://www.pexels.com/photo/close-up-shot-of-a-cellphone-13886741/",
+      "provider": "Pexels",
+      "query": "iPhone 18 pro max premium smartphone",
+      "accepted": false,
+      "accept_reason": "semantic_below_threshold:18.23",
+      "gate": {
+        "semantic_score": 18.23,
+        "color_score": 0.51,
+        "keyword_metadata_score": 0.0,
+        "object_mismatch_penalty": 0.0,
+        "quality_score": 13.0,
+        "total_score": 31.74,
+        "hard_reject": false,
+        "reject_reason": "",
+        "details": {
+          "semantic": {
+            "mode": "clip+proxy",
+            "positive_hits": 0,
+            "negative_hits": 0,
+            "clip_raw": 28.278949737548828,
+            "proxy": 8
+          },
+          "color": {
+            "palette": [
+              [
+                "red",
+                0.3274739583333333
+              ],
+              [
+                "red",
+                0.2930772569444444
+              ],
+              [
+                "red",
+                0.2724609375
+              ],
+              [
+                "black",
+                0.08387586805555555
+              ],
+              [
+                "orange",
+                0.023111979166666668
+              ]
+            ],
+            "warm_mass": 0.023111979166666668,
+            "cool_mass": 0.0
+          },
+          "quality": {},
+          "mismatch_reason": ""
+        }
+      }
+    }
+  ]
+}
