@@ -5456,7 +5456,35 @@
       "gate_verified": true,
       "provider": "pexels",
       "api_selected": "Pexels"
+    },
+    {
+      "slug": "khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026",
+      "title": "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10",
+      "image_id": "img-7af2a88d",
+      "source_platform": "Pixabay",
+      "image_provider": "pixabay",
+      "source_url": "https://pixabay.com/photos/top-summit-mountain-volcano-clouds-7385857/",
+      "direct_url": "https://pixabay.com/get/gf164a8873c29b087c051bc1e7fef70ec369c0d8239b9ff6bfdb80fad4f2de9477187aeacd46c594804add1cdca47d67c7d973d5f52fa0952263da4d22ca74d99_1280.jpg",
+      "creator": "MikeCastelan",
+      "creator_url": "https://pixabay.com/photos/top-summit-mountain-volcano-clouds-7385857/",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pixabay Content License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026.jpg",
+      "output_path": "static/images/posts/khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026.webp",
+      "watermark_text": "Source: Pixabay / MikeCastelan",
+      "provider_used": "Pixabay",
+      "attribution_verified": true,
+      "attribution_source": "pixabay_api",
+      "image_query": "hè 2026 top khóa học",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10 — nguồn Pixabay",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-11T04:27:02.899348+00:00"
+  "generated_at": "2026-07-11T05:08:27.117551+00:00"
 }
