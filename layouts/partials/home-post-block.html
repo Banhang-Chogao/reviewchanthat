@@ -1,15 +1,22 @@
+{{- /* Accept either a Page (legacy .Render caller) or a dict {page, eager}. */ -}}
+{{- $p := . -}}
+{{- $eager := false -}}
+{{- if reflect.IsMap . -}}
+  {{- $p = .page -}}
+  {{- $eager = .eager -}}
+{{- end -}}
 <article class="home-post-block">
-  {{ partial "post-verified-image.html" (dict "context" . "mode" "home") }}
+  {{ partial "post-verified-image.html" (dict "context" $p "mode" "home" "eager" $eager) }}
   <div class="home-post-block__body">
     <div class="home-post-block__meta">
-      {{ range first 1 .Params.categories }}
+      {{ range first 1 $p.Params.categories }}
       {{ partial "category-badge.html" . }}
       {{ end }}
-      <span class="post-date">{{ partial "datetime.html" .Date }}</span>
+      <span class="post-date">{{ partial "datetime.html" $p.Date }}</span>
     </div>
     <h2 class="home-post-block__title">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
     </h2>
-    <p class="home-post-block__excerpt">{{ .Description | plainify | truncate 120 }}</p>
+    <p class="home-post-block__excerpt">{{ $p.Description | plainify | truncate 120 }}</p>
   </div>
 </article>

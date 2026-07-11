@@ -34,8 +34,9 @@
   {{- else if eq $mode "home" -}}
   {{- $thumb := $page.Params.thumbnail | default $image -}}
   {{- if and (not (hasPrefix $thumb "http")) (not (os.FileExists (path.Join "static" $thumb))) -}}{{- $thumb = $defaultImage -}}{{- end -}}
+  {{- $eager := .eager | default false -}}
   <a href="{{ $page.RelPermalink }}" class="home-post-block__image-link">
-    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="home-post-block__image" loading="lazy" decoding="async" width="220" height="165">
+    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="home-post-block__image" {{ if $eager }}loading="eager" fetchpriority="high"{{ else }}loading="lazy"{{ end }} decoding="async" width="220" height="165">
   </a>
   {{- end -}}
 {{- end -}}

@@ -1,4 +1,4 @@
-{{- $defaultOg := "images/posts/coffeebean-cover-hero.webp" | absURL -}}
+{{- $defaultOg := "images/posts/fallback.webp" | absURL -}}
 {{- $ogImage := $defaultOg -}}
 {{- $imgStatus := .Params.image_status | default "" -}}
 {{- $imgOk := or (eq $imgStatus "verified") (and (not $imgStatus) .Params.image) -}}

@@ -15,8 +15,8 @@
          default weight/featured/sticky ordering so a new post is always on top. */}}
     {{ $posts := where site.RegularPages "Section" "posts" }}
     {{ $paginator := .Paginate ($posts.ByDate.Reverse) 8 }}
-    {{ range $paginator.Pages }}
-      {{ .Render "home-post-block" }}
+    {{ range $i, $p := $paginator.Pages }}
+      {{ partial "home-post-block.html" (dict "page" $p "eager" (lt $i 4)) }}
     {{ end }}
   </section>
   {{ partial "pagination.html" . }}

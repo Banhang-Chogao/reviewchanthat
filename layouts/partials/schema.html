@@ -1,7 +1,7 @@
 {{- $siteName := site.Title -}}
 {{- $siteUrl := site.BaseURL | absURL -}}
 {{- $logoUrl := "logo.svg" | absURL -}}
-{{- $defaultImage := "images/posts/coffeebean-cover-hero.webp" | absURL -}}
+{{- $defaultImage := "images/posts/fallback.webp" | absURL -}}
 
 <script type="application/ld+json">
 {
@@ -44,7 +44,9 @@
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
       "dateModified": "{{ with .Lastmod }}{{ .Format "2006-01-02T15:04:05Z07:00" }}{{ else }}{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}",
       "inLanguage": "vi-VN",
-      "image": {{ with .Params.image }}{{ . | relURL | absURL | jsonify }}{{ else }}{{ $defaultImage | jsonify }}{{ end }},
+      {{- $imgStatus := .Params.image_status | default "" -}}
+      {{- $imgOk := and .Params.image (or (eq $imgStatus "verified") (not $imgStatus)) -}}
+      "image": {{ if $imgOk }}{{ .Params.image | relURL | absURL | jsonify }}{{ else }}{{ $defaultImage | jsonify }}{{ end }},
       "author": {
         "@type": "Person",
         "name": {{ (.Params.author | default $siteName) | jsonify }}
