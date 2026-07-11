@@ -312,6 +312,21 @@ def fix_ai_summary_map() -> tuple[bool, str]:
     return bool(git_changed_files()), f"normalize_ai_summaries exit={code}"
 
 
+def fix_missing_commit_ids() -> tuple[bool, str]:
+    """Auto-fix posts missing commit IDs."""
+    code, out = run_py([str(REPO_ROOT / "scripts" / "add_commit_id.py")])
+    if code != 0:
+        return False, f"add_commit_id.py failed (exit={code})"
+
+    changed_files = git_changed_files()
+    posts_updated = any(f.startswith("content/posts/") for f in changed_files)
+
+    if not posts_updated:
+        return False, "add_commit_id.py ran but no posts were updated"
+
+    return True, f"auto-added commit IDs to posts (files={len(changed_files)})"
+
+
 def fix_gitignore_webp_block() -> tuple[bool, str]:
     """Fix .gitignore blocking WebP files from git tracking."""
     gitignore_path = REPO_ROOT / ".gitignore"
@@ -392,6 +407,7 @@ FIXERS = {
     "fix_sitemap_noindex": fix_sitemap_noindex,
     "fix_series_relurl": fix_series_relurl,
     "fix_ai_summary_map": fix_ai_summary_map,
+    "fix_missing_commit_ids": fix_missing_commit_ids,
     "fix_gitignore_webp_block": fix_gitignore_webp_block,
     "fix_changed_post_image_metadata": fix_changed_post_image_metadata,
 }

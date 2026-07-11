@@ -528,6 +528,17 @@
       "recommended_fix_script": "fix_gitignore_webp_block",
       "should_retry_deploy": true,
       "should_pause_workflows": false
+    },
+    {
+      "id": "missing_commit_ids",
+      "severity": "critical",
+      "match": ["commit.*empty", "commit = \"\"", "MANDATORY commit ID missing", "missing commit hash", "no commit tracked"],
+      "safe_to_autofix": true,
+      "summary": "One or more posts missing commit ID (commit = \"\" or field blank). CRITICAL: Every post MUST have commit = \"sha\" for traceability.",
+      "action_items": ["Run scripts/add_commit_id.py to inject current commit SHA into all posts", "Verify: grep '\"\"' content/posts/*.md should return 0 results", "Auto-fix: fix_missing_commit_ids"],
+      "recommended_fix_script": "fix_missing_commit_ids",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
     }
   ]
 }
