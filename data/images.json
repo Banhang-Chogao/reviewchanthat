@@ -5456,7 +5456,35 @@
       "gate_verified": true,
       "provider": "pexels",
       "api_selected": "Pexels"
+    },
+    {
+      "slug": "huong-dan-danh-gia-luat-chuyen-doi-so-2025",
+      "title": "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?",
+      "image_id": "img-fa825f99",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/stack-of-colorful-books-on-wooden-shelf-38295963/",
+      "direct_url": "https://images.pexels.com/photos/38295963/pexels-photo-38295963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Ninh Van Son",
+      "creator_url": "https://www.pexels.com/@ninh-van-son-494664402",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/huong-dan-danh-gia-luat-chuyen-doi-so-2025.jpg",
+      "output_path": "static/images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp",
+      "watermark_text": "Source: Pexels / Ninh Van Son",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "điểm luật chuyển đổi số",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì? — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-11T04:20:13.461704+00:00"
+  "generated_at": "2026-07-11T04:24:03.687514+00:00"
 }
