@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-11T21:34:20+07:00",
-  "generated_at_display": "11-07-2026 21:34:20",
+  "generated_at": "2026-07-12T06:38:50+07:00",
+  "generated_at_display": "12-07-2026 06:38:50",
   "summary": {
-    "total_posts": 276,
+    "total_posts": 279,
     "draft_posts": 0,
-    "total_words": 414083,
+    "total_words": 418476,
     "average_words_per_post": 1500,
     "categories_count": 5,
-    "tags_count": 889,
+    "tags_count": 905,
     "authors_count": 3,
     "parse_warnings": 0
   },
@@ -26,7 +26,7 @@
     },
     {
       "name": "doi-song",
-      "count": 31
+      "count": 34
     },
     {
       "name": "review",
@@ -36,7 +36,7 @@
   "authors": [
     {
       "name": "Minh Hoàng",
-      "count": 186
+      "count": 189
     },
     {
       "name": "Duy Nguyen",
@@ -140,7 +140,23 @@
     "title_too_long": [],
     "description_missing": [],
     "description_too_short": [],
-    "description_too_long": [],
+    "description_too_long": [
+      {
+        "slug": "lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi",
+        "title": "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ",
+        "length": 163
+      },
+      {
+        "slug": "review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho",
+        "title": "Review chi tiết các dịch vụ đặt vé máy bay, tàu hỏa Tết 2027: Mẹo săn vé sớm không bị \"hớ\"",
+        "length": 171
+      },
+      {
+        "slug": "xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe",
+        "title": "Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe",
+        "length": 166
+      }
+    ],
     "slug_too_long": [
       {
         "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
@@ -954,6 +970,12 @@
         ]
       },
       {
+        "slug": "review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho",
+        "stop_words": [
+          "ve"
+        ]
+      },
+      {
         "slug": "seoraksan-thang-10-ngam-la-do",
         "stop_words": [
           "do",
@@ -1171,6 +1193,12 @@
         ]
       },
       {
+        "slug": "xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe",
+        "stop_words": [
+          "va"
+        ]
+      },
+      {
         "slug": "xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu",
         "stop_words": [
           "va"
@@ -1240,7 +1268,7 @@
       {
         "slug": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
         "title": "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 05:00:00"
       },
       {
@@ -1318,19 +1346,19 @@
       {
         "slug": "baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi",
         "title": "Baseline debt chặn deploy và QA scope: chỉ bắt tính năng mới",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:25:00"
       },
       {
         "slug": "baseurl-sitemap-noindex-va-series-hardcoded-url",
         "title": "BaseURL, sitemap noindex và series hardcoded URL trên GitHub project Pages",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:50:00"
       },
       {
         "slug": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
         "title": "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 00:15:00"
       },
       {
@@ -1354,13 +1382,13 @@
       {
         "slug": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
         "title": "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 00:35:00"
       },
       {
         "slug": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
         "title": "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 00:30:00"
       },
       {
@@ -1486,7 +1514,7 @@
       {
         "slug": "chi-phi-di-han-thang-11-tu-tuc",
         "title": "Chi phí đi Hàn tháng 11 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
-        "age_days": 2,
+        "age_days": 3,
         "date": "08-07-2026 22:00:00"
       },
       {
@@ -1516,13 +1544,13 @@
       {
         "slug": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
         "title": "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 06:30:00"
       },
       {
         "slug": "ci-cd-root-cause-playbook-safe-vs-unsafe-autofix",
         "title": "CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:05:00"
       },
       {
@@ -1570,7 +1598,7 @@
       {
         "slug": "content-direction-empty-report-va-optimizer-frontmatter",
         "title": "Content Direction empty report và optimizer fail vì front matter",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:40:00"
       },
       {
@@ -1612,7 +1640,7 @@
       {
         "slug": "deployment-doctor-tu-chan-doan-loi-deploy-root-cause-autofix",
         "title": "Deployment Doctor: cách blog tự chẩn đoán lỗi deploy, gom root cause và tự sửa bug mà không cần thức đêm",
-        "age_days": 1,
+        "age_days": 2,
         "date": "09-07-2026 23:30:00"
       },
       {
@@ -1630,7 +1658,7 @@
       {
         "slug": "di-han-thang-10-co-dep-khong",
         "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 06:00:00"
       },
       {
@@ -1678,7 +1706,7 @@
       {
         "slug": "diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026",
         "title": "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 05:30:00"
       },
       {
@@ -1792,7 +1820,7 @@
       {
         "slug": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
         "title": "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 03:30:00"
       },
       {
@@ -1810,7 +1838,7 @@
       {
         "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
         "title": "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident",
-        "age_days": 1,
+        "age_days": 2,
         "date": "09-07-2026 22:35:00"
       },
       {
@@ -1822,13 +1850,13 @@
       {
         "slug": "github-api-va-pages-rate-limit-cach-doc-va-giam-tai",
         "title": "GitHub API rate limit và Pages rate limit: đọc log, backoff, giảm fan-out",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:15:00"
       },
       {
         "slug": "github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code",
         "title": "Runner capacity delay và platform incident: khi job đỏ không phải vì bug code",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:10:00"
       },
       {
@@ -1906,7 +1934,7 @@
       {
         "slug": "hugo-build-duplicate-yaml-ai-summary-va-template-regression",
         "title": "Hugo build error: duplicate YAML, ai_summary map[], template regression và deploy không complete",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:55:00"
       },
       {
@@ -1930,7 +1958,7 @@
       {
         "slug": "huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026",
         "title": "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 05:00:00"
       },
       {
@@ -1942,7 +1970,7 @@
       {
         "slug": "image-pipeline-hero-thieu-creator-fake-va-self-owned-direct-url",
         "title": "Image pipeline: hero thiếu, self-owned direct_url, creator rỗng hợp lệ và creator giả",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:30:00"
       },
       {
@@ -2068,7 +2096,7 @@
       {
         "slug": "iphone-18-co-gi-moi",
         "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 06:00:00"
       },
       {
@@ -2192,6 +2220,12 @@
         "date": "11-07-2026 14:44:57"
       },
       {
+        "slug": "lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi",
+        "title": "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ",
+        "age_days": 0,
+        "date": "11-07-2026 08:00:00"
+      },
+      {
         "slug": "lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay",
         "title": "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD",
         "age_days": 0,
@@ -2224,7 +2258,7 @@
       {
         "slug": "live-deploy-khong-phan-anh-va-pages-serving-old-artifact",
         "title": "Live deploy không phản ánh: build-info.json và GitHub Pages serving old artifact",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:45:00"
       },
       {
@@ -2404,7 +2438,7 @@
       {
         "slug": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
         "title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 06:00:00"
       },
       {
@@ -2470,7 +2504,7 @@
       {
         "slug": "post-date-timezone-vietnam-gmt7-tranh-stale-date",
         "title": "Post date timezone Việt Nam (GMT+7): tránh stale_date và lệch homepage",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:35:00"
       },
       {
@@ -2488,7 +2522,7 @@
       {
         "slug": "quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026",
         "title": "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 06:00:00"
       },
       {
@@ -2508,6 +2542,12 @@
         "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
         "age_days": 23,
         "date": "18-06-2026 10:00:00"
+      },
+      {
+        "slug": "review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho",
+        "title": "Review chi tiết các dịch vụ đặt vé máy bay, tàu hỏa Tết 2027: Mẹo săn vé sớm không bị \"hớ\"",
+        "age_days": 0,
+        "date": "11-07-2026 12:30:00"
       },
       {
         "slug": "risk-management-trong-tai-chinh-dung-toan-hoc",
@@ -2626,13 +2666,13 @@
       {
         "slug": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
         "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 05:58:08"
       },
       {
         "slug": "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien",
         "title": "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:30:00"
       },
       {
@@ -2656,7 +2696,7 @@
       {
         "slug": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
         "title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 06:32:00"
       },
       {
@@ -2770,7 +2810,7 @@
       {
         "slug": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
         "title": "VPBank NEO review 2026: app ngân hàng số này hợp với ai?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:00:00"
       },
       {
@@ -2788,7 +2828,7 @@
       {
         "slug": "workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress",
         "title": "Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 04:20:00"
       },
       {
@@ -2812,7 +2852,7 @@
       {
         "slug": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
         "title": "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 00:10:00"
       },
       {
@@ -2824,7 +2864,7 @@
       {
         "slug": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
         "title": "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị",
-        "age_days": 2,
+        "age_days": 3,
         "date": "09-07-2026 04:00:00"
       },
       {
@@ -2832,6 +2872,12 @@
         "title": "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử",
         "age_days": 0,
         "date": "11-07-2026 12:25:00"
+      },
+      {
+        "slug": "xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe",
+        "title": "Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe",
+        "age_days": 0,
+        "date": "11-07-2026 18:00:00"
       },
       {
         "slug": "xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu",
@@ -2854,8 +2900,8 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1213,
-    "average_outbound_per_post": 4.39,
+    "total_outbound_links": 1219,
+    "average_outbound_per_post": 4.37,
     "top_linked_posts": [
       {
         "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
@@ -2913,6 +2959,14 @@
   },
   "content_gaps": [],
   "action_items": [
+    {
+      "priority": "P1",
+      "type": "SEO",
+      "title": "Tối ưu độ dài meta description",
+      "detail": "0 quá ngắn, 3 quá dài (chuẩn 50–160).",
+      "affected_count": 3,
+      "suggested_fix": "Chỉnh description về 50–160 ký tự."
+    },
     {
       "priority": "P2",
       "type": "SEO",
