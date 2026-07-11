@@ -1,5 +1,8 @@
 +++
 title = "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?"
+date = "2026-07-11T11:35:30+07:00"
+date_display = "11-07-2026 11:35:30 GMT +7"
++++
 commit: f9a52cb
 date = "2026-07-10T03:30:00+07:00"
 categories = ["tai-chinh"]

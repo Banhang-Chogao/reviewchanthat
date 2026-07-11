@@ -1,5 +1,8 @@
 +++
 title = "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026"
+date = "2026-07-11T11:35:30+07:00"
+date_display = "11-07-2026 11:35:30 GMT +7"
++++
 commit: f9a52cb
 date = "2026-07-10T09:50:57+07:00"
 categories = ["tai-chinh"]

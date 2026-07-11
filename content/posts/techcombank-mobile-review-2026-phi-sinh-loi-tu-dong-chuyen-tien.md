@@ -1,5 +1,8 @@
 +++
 title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
+date = "2026-07-11T11:35:30+07:00"
+date_display = "11-07-2026 11:35:30 GMT +7"
++++
 commit: f9a52cb
 date = "2026-07-10T04:30:00+07:00"
 categories = ["tai-chinh"]

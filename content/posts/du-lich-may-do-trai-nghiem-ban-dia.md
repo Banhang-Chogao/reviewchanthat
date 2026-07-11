@@ -1,5 +1,8 @@
 +++
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+date = "2026-07-11T11:35:29+07:00"
+date_display = "11-07-2026 11:35:29 GMT +7"
++++
 commit: 9d50c8a
 date = 2026-07-11T10:45:00+07:00
 draft = false

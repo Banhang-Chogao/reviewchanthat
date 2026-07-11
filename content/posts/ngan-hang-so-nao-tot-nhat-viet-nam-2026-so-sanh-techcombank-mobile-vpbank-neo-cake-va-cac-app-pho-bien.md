@@ -1,5 +1,8 @@
 +++
 title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
+date = "2026-07-11T11:35:30+07:00"
+date_display = "11-07-2026 11:35:30 GMT +7"
++++
 commit: f9a52cb
 date = "2026-07-10T08:00:00+07:00"
 categories = ["tai-chinh"]

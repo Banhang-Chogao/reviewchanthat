@@ -23,6 +23,8 @@ image_source_url = "https://www.pexels.com/photo/5668781/"
 image_status = "verified"
 slug = "huong-dan-danh-gia-luat-chuyen-doi-so-2025"
 tags = ["luat chuyen doi so 2025", "phap luat cong nghe", "kinh te so", "quy dinh AI", "chinh phu so", "danh sach phap ly"]
+date_display = "11-07-2026 11:30:00 GMT +7"
++++
 thumbnail = "images/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.webp"
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
 date_display = "11-07-2026 11:30:00 GMT +7"

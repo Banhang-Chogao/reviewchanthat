@@ -1,5 +1,8 @@
 +++
 title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
+date = "2026-07-11T11:35:29+07:00"
+date_display = "11-07-2026 11:35:29 GMT +7"
++++
 commit: f9a52cb
 date = "2026-07-10T06:30:00+07:00"
 categories = ["tai-chinh"]

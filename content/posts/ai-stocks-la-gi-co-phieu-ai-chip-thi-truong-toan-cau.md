@@ -1,5 +1,8 @@
 +++
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+date = "2026-07-11T11:35:29+07:00"
+date_display = "11-07-2026 11:35:29 GMT +7"
++++
 commit: f9a52cb
 date = "2026-07-10T05:00:00+07:00"
 categories = ["tai-chinh"]

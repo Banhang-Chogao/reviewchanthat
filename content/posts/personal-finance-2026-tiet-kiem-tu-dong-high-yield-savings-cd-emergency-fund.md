@@ -1,5 +1,8 @@
 +++
 title = "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?"
+date = "2026-07-11T11:35:30+07:00"
+date_display = "11-07-2026 11:35:30 GMT +7"
++++
 commit: f9a52cb
 date = "2026-07-10T06:00:00+07:00"
 categories = ["tai-chinh"]
