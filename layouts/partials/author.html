@@ -28,7 +28,7 @@
 {{- end -}}
 {{- if $authorName -}}
 <div class="author-block">
-  <img src="{{ $authorImage }}" alt="{{ $authorName }}" class="author-avatar" loading="lazy" width="26" height="26">
+  <img src="{{ $authorImage }}" alt="{{ $authorName }}" class="author-avatar" width="26" height="26">
   <div class="author-block-info">
     <span class="author-name">{{ partial "author-link.html" (dict "name" $authorName) }}{{- with $tierStats.currentTier }} <span class="author-block-tier">{{ partial "author-tier-badge.html" (dict "tier" . "mini" true) }}</span>{{- end }}</span>
     {{- if or $authorTitle $authorCompany }}

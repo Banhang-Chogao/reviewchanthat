@@ -22,21 +22,21 @@
   {{- if and (not (hasPrefix $thumb "http")) (not (os.FileExists (path.Join "static" $thumb))) -}}{{- $thumb = $defaultImage -}}{{- end -}}
   <div class="post-card-thumb">
     <a href="{{ $page.RelPermalink }}">
-      <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="220" height="165">
+      <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" decoding="async" width="220" height="165">
     </a>
   </div>
   {{- else if eq $mode "row" -}}
   {{- $thumb := $page.Params.thumbnail | default $image -}}
   {{- if and (not (hasPrefix $thumb "http")) (not (os.FileExists (path.Join "static" $thumb))) -}}{{- $thumb = $defaultImage -}}{{- end -}}
   <a href="{{ $page.RelPermalink }}" class="category-post-row__image-link">
-    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="category-post-row__image" loading="lazy" decoding="async" width="168" height="126">
+    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="category-post-row__image" decoding="async" width="168" height="126">
   </a>
   {{- else if eq $mode "home" -}}
   {{- $thumb := $page.Params.thumbnail | default $image -}}
   {{- if and (not (hasPrefix $thumb "http")) (not (os.FileExists (path.Join "static" $thumb))) -}}{{- $thumb = $defaultImage -}}{{- end -}}
   {{- $eager := .eager | default false -}}
   <a href="{{ $page.RelPermalink }}" class="home-post-block__image-link">
-    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="home-post-block__image" {{ if $eager }}loading="eager" fetchpriority="high"{{ else }}loading="lazy"{{ end }} decoding="async" width="220" height="165">
+    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="home-post-block__image"{{ if $eager }} fetchpriority="high"{{ end }} decoding="async" width="220" height="165">
   </a>
   {{- end -}}
 {{- end -}}
