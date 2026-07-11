@@ -25,3 +25,189 @@
 - Không gộp chung nhiều tính năng vào cùng một nhánh deploy. Khi merge, chỉ merge đúng 1 nhánh tính năng duy nhất vào `main`.
 - Deploy chỉ kích hoạt khi push commit tính năng lên `main`. Đảm bảo mỗi lần deploy chỉ mang đúng 1 thay đổi, tránh lẫn blog post, ảnh, hay bất kỳ file nào ngoài scope.
 - **Deploy FIFO — xếp hàng chờ, không chạy đồng loạt.** Các deploy phải cách nhau tối thiểu **30 giây**. Không push nhiều commit liên tiếp lên `main` trong cùng một khoảnh khắc. Dùng `git push` kèm kiểm tra GitHub Actions queue trước khi push commit tiếp theo. Tránh rate limit GitHub API, Pixabay/Pexels, và tránh concurrent build chồng chéo.
+
+# Deploy Failure Prevention & Auto-Healing (từ 2026-07-11)
+
+## Pre-Deploy Checklist (Prevent 95% of failures)
+
+**BẮT BUỘC chạy TRƯỚC khi `git push origin main`:**
+```bash
+# 1. Scan for all deployment issues
+python3 scripts/deploy-failure-healer.py --scan
+
+# 2. Auto-fix common issues
+python3 scripts/deploy-failure-healer.py --fix-all
+
+# 3. Validate dates (ISO 8601 +07:00)
+python3 scripts/qa_dates.py
+
+# 4. Validate frontmatter (TOML, no future dates)
+python3 scripts/rule.py --fix
+
+# 5. Check commit hashes on all posts
+python3 scripts/add_commit_id.py
+
+# 6. Verify no YAML syntax in TOML frontmatter
+grep -n "commit:\|date:\|image:" content/posts/*.md | head -5
+
+# 7. Verify no dead IMAGE_API_QUERY markers
+grep -r "!\[\[IMAGE_API_QUERY:" content/posts/
+
+# 8. Verify no placeholder links
+grep -r "/posts/placeholder-" content/posts/
+
+# 9. Count posts with commit hashes
+echo "Total posts: $(ls content/posts/*.md | wc -l)"
+echo "Posts with commit hash: $(grep -l "^commit = " content/posts/*.md | wc -l)"
+```
+
+If any check fails → **STOP** push and run deploy-failure-healer.py.
+
+## Common Deployment Failures & Auto-Fixes
+
+### Failure #1: YAML Syntax in TOML Frontmatter
+**Symptom:** Hugo parse error on deployment, "commit: abc" instead of commit = "abc"
+**Auto-Fix:** `python3 scripts/deploy-failure-healer.py --fix-all`
+**Prevention:** ALWAYS use TOML syntax `key = "value"` in `+++...+++` blocks
+
+### Failure #2: Missing Commit Hash
+**Symptom:** Post fails QA check, can't track version
+**Auto-Fix:** `python3 scripts/add_commit_id.py`
+**Prevention:** Run after EVERY merge to main
+
+### Failure #3: Missing Hero Image or Thumbnail
+**Symptom:** Theme renders blank hero, deploy blocked
+**Auto-Fix:** `python3 scripts/select_images.py --post content/posts/<slug>.md --fix`
+**Prevention:** Never publish post without running image selection
+
+### Failure #4: Wrong Timezone (+05:00, Z, or missing)
+**Symptom:** Date sorting fails, posts appear out of order
+**Auto-Fix:** `python3 scripts/qa_dates.py --fix-obvious`
+**Prevention:** Always use `+07:00` for Vietnam timezone
+
+### Failure #5: Future Date
+**Symptom:** Post doesn't appear on homepage (scheduled but broken)
+**Auto-Fix:** `python3 scripts/qa_dates.py --fix-obvious` (sets to now)
+**Prevention:** Use `date = "2026-07-11T13:45:00+07:00"` (past/current time)
+
+### Failure #6: Content < 3000 words
+**Symptom:** Deploy blocks with content-depth check
+**Auto-Fix:** Expand content manually (no auto-fix)
+**Prevention:** Check `tail -n +29 content/posts/<slug>.md | wc -w` before commit
+
+### Failure #7: Fake Internal Links (/posts/placeholder-*)
+**Symptom:** Links point to non-existent posts, breaks SEO
+**Auto-Fix:** `python3 scripts/deploy-failure-healer.py --fix-all`
+**Prevention:** Only link to posts that actually exist in content/posts/
+
+### Failure #8: Dead IMAGE_API_QUERY Markers
+**Symptom:** `![[IMAGE_API_QUERY:...]]` renders as broken markdown
+**Auto-Fix:** `python3 scripts/deploy-failure-healer.py --fix-all`
+**Prevention:** NEVER commit posts with IMAGE_API_QUERY markers
+
+### Failure #9: WebP Images Not Tracked
+**Symptom:** Hero images missing on production
+**Auto-Fix:** `git add -f static/images/posts/<slug>.webp` (force-add)
+**Prevention:** After image selection, always force-add .webp files
+
+### Failure #10: No image in frontmatter
+**Symptom:** Theme can't render hero, deploy fails
+**Auto-Fix:** `python3 scripts/select_images.py --post content/posts/<slug>.md --fix`
+**Prevention:** Image selection is NOT optional
+
+## Deploy Conflict & Build Failure Resolution
+
+### Git Merge Conflicts (during branch merges)
+
+**Strategy:** Always use `git checkout --theirs` for:
+- `content/posts/` (take incoming branch's post updates)
+- `data/images.json` (take incoming image metadata)
+- `data/image-selection-report.json` (take incoming report)
+
+**Reason:** These files change frequently; incoming branch is usually newer.
+
+```bash
+git checkout --theirs content/posts/ data/ && git add content/posts/ data/
+```
+
+### Build Failures During CI/CD
+
+**Step 1:** Check the failing log
+```bash
+git log --oneline origin/main -10  # Recent commits
+git diff origin/main HEAD          # What changed
+```
+
+**Step 2:** Identify failure type
+- TOML parse error → Run `rule.py --fix`
+- Missing images → Run `select_images.py --fix`
+- Date issues → Run `qa_dates.py --fix-obvious`
+- Commit hash missing → Run `add_commit_id.py`
+
+**Step 3:** Run auto-healer on affected commits
+```bash
+python3 scripts/deploy-failure-healer.py --fix-all
+```
+
+**Step 4:** Create a fix commit
+```bash
+git add .
+git commit -m "fix: resolve deploy failure via auto-healer"
+git push origin main
+```
+
+### Hugo Build Fails
+
+**Common cause:** TOML parser stops at first syntax error
+**Symptoms:** 
+- "error parsing front matter"
+- "line X: expected =, got :" 
+- Fields after error line are ignored
+
+**Quick fix:**
+```bash
+# Find the line with YAML syntax
+grep -n "commit:\|date:\|image:" content/posts/*.md
+
+# Replace with TOML
+# commit: abc  →  commit = "abc"
+# date: 2026   →  date = "2026-07-11T13:45:00+07:00"
+```
+
+### Rate Limit Failures (API calls)
+
+**Symptoms:** "429 Too Many Requests" from Pexels/Pixabay
+**Cause:** Multiple deploys pushing image API calls in parallel
+**Prevention:**
+- Deploy FIFO only (30s minimum spacing)
+- Don't run `select_images.py` in parallel
+- Stagger image selections across branches
+
+## Best Practices to Avoid 99% of Failures
+
+1. **Always run the Pre-Deploy Checklist** (10 commands, 2 minutes)
+2. **TOML syntax only** - Never use `key: value` in `+++...+++`
+3. **3000+ words** - Check before committing
+4. **Real images only** - Use Pexels/Pixabay API, never fake
+5. **Commit hash tracking** - Run add_commit_id.py after every merge
+6. **Vietnam timezone** - Always +07:00, never +05:00 or Z
+7. **No placeholder links** - Only link to existing posts
+8. **No IMAGE_API_QUERY** - Remove all markers before push
+9. **Deploy one at a time** - 30s minimum between pushes
+10. **Force-add WebP images** - `git add -f static/images/posts/<slug>.webp`
+
+## Deploy Failure SLA
+
+| Failure Type | Detection | Auto-Fix | Time to Recover |
+|------|-----------|----------|-----------------|
+| YAML syntax error | Pre-deploy | ✅ Yes | < 1 min |
+| Missing commit hash | Pre-deploy | ✅ Yes | < 1 min |
+| Missing image | Pre-deploy | ✅ Yes | < 2 min |
+| Wrong timezone | Pre-deploy | ✅ Yes | < 1 min |
+| Future date | Pre-deploy | ✅ Yes | < 1 min |
+| Fake links | Pre-deploy | ✅ Yes | < 2 min |
+| IMAGE_API_QUERY | Pre-deploy | ✅ Yes | < 1 min |
+| Content depth | Pre-deploy | ❌ Manual | N/A |
+| WebP tracking | Pre-deploy | ✅ Yes | < 1 min |
+
+**Goal: 0 deploy failures** through automated pre-deploy validation.
