@@ -1,0 +1,76 @@
+"""
+scripts/add_commit_id.py
+Gắn commit hash cuối cùng vào front matter của mỗi bài blog.
+Dòng `commit: <7-ky-tu>` được thêm ngay sau title, trước date.
+"""
+
+import os
+import re
+import subprocess
+
+POSTS_DIR = "content/posts"
+
+
+def get_last_commit(filepath):
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%h", "--", filepath],
+            capture_output=True, text=True, cwd=os.path.dirname(os.path.abspath(__file__))
+        )
+        return result.stdout.strip()
+    except Exception:
+        return None
+
+
+def ensure_commit_field(content, commit_hash):
+    # Check if commit field already exists
+    if re.search(r'^commit:\s+\S+', content, re.MULTILINE):
+        # Update existing commit field
+        content = re.sub(
+            r'^commit:\s+\S+',
+            f'commit: {commit_hash}',
+            content,
+            count=1,
+            flags=re.MULTILINE
+        )
+        return content
+
+    # Add after title line, before date line
+    content = re.sub(
+        r'^(title\s*=\s*"[^"]*")\n(date\s*=)',
+        rf'\1\ncommit: {commit_hash}\n\2',
+        content,
+        count=1,
+        flags=re.MULTILINE
+    )
+    return content
+
+
+def main():
+    updated = 0
+    for fname in sorted(os.listdir(POSTS_DIR)):
+        if not fname.endswith('.md') or fname.endswith('.meta.json'):
+            continue
+        fpath = os.path.join(POSTS_DIR, fname)
+        commit_hash = get_last_commit(fpath)
+        if not commit_hash:
+            print(f"  SKIP {fname}: no git commit found")
+            continue
+
+        with open(fpath) as f:
+            content = f.read()
+
+        new_content = ensure_commit_field(content, commit_hash)
+        if new_content != content:
+            with open(fpath, 'w') as f:
+                f.write(new_content)
+            print(f"  UPDATED {fname} -> commit: {commit_hash}")
+            updated += 1
+        else:
+            print(f"  OK    {fname} (already has commit: {commit_hash})")
+
+    print(f"\nDone. Updated {updated} post(s).")
+
+
+if __name__ == "__main__":
+    main()
