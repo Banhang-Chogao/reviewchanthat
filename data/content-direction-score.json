@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-11T21:34:20+07:00",
-  "generated_at_display": "11-07-2026 21:34:20",
+  "generated_at": "2026-07-12T03:11:41+07:00",
+  "generated_at_display": "12-07-2026 03:11:41",
   "score": 100,
   "components": {
     "seo_titles": 15.0,
-    "meta_descriptions": 15.0,
+    "meta_descriptions": 14.8,
     "internal_links": 25.0,
     "orphan_posts": 20.0,
     "freshness": 9.9,
@@ -12,5 +12,5 @@
     "data_integrity": 5.0
   },
   "target": 100,
-  "remaining_action_items": 1
+  "remaining_action_items": 2
 }

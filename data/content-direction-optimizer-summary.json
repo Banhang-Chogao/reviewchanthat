@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-11T21:34:20+07:00",
-  "generated_at_display": "11-07-2026 21:34:20",
-  "score_before": 99.9,
+  "generated_at": "2026-07-12T03:11:41+07:00",
+  "generated_at_display": "12-07-2026 03:11:41",
+  "score_before": 99.7,
   "score_after": 100,
   "applied_count": 1,
   "safe_count": 1,
   "review_skipped_count": 0,
   "unsafe_skipped_count": 0,
   "changed_files_count": 2,
-  "remaining_action_items": 1,
+  "remaining_action_items": 2,
   "last_applied": [
     {
       "action": "build_internal_link_graph",
-      "file": "/Users/duynguyen/Desktop/reviewchanthat/data/internal-links.json"
+      "file": "/home/runner/work/reviewchanthat/reviewchanthat/data/internal-links.json"
     }
   ]
 }
