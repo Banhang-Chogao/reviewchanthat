@@ -1,5 +1,6 @@
 +++
 title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và Giá Trị Cốt Lõi Của Quỹ"
+commit = "59cb2bf"
 date = "2026-07-11T14:45:00+07:00"
 draft = false
 description = "Tìm hiểu chiến lược đầu tư của Atomico - cách quỹ chọn công ty, cách hỗ trợ chúng phát triển, và những giá trị cốt lõi khiến Atomico khác biệt so với các quỹ đầu tư khác. Khám phá triết lý của Atomico về việc xây dựng những công ty thay đổi thế giới."
@@ -22,6 +23,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+date_display = "11-07-2026 14:45:00 GMT +7"
 +++
 
 ## Tầm Nhìn Của Atomico: Xây Dựng Những Công Ty Thay Đổi Thế Giới

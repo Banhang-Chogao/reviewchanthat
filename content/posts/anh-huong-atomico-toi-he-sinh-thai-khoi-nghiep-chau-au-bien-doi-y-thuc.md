@@ -1,5 +1,6 @@
 +++
 title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
+commit = "59cb2bf"
 date = "2026-07-11T15:00:00+07:00"
 draft = false
 description = "Khám phá ảnh hưởng sâu sắc của Atomico tới hệ sinh thái khởi nghiệp châu Âu. Cách Atomico đã thay đổi cách các nhà đầu tư nhìn nhận Châu Âu, cách các nhà khởi nghiệp suy nghĩ về bản thân họ, và cách Châu Âu được coi là một trung tâm công nghệ toàn cầu."
@@ -22,6 +23,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+date_display = "11-07-2026 15:00:00 GMT +7"
 +++
 
 ## Từ Cơn Lốc Thay Đổi Tầm Nhìn

@@ -1,5 +1,6 @@
 +++
 title = "Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+commit = "59cb2bf"
 date = "2026-07-11T14:00:00+07:00"
 draft = false
 description = "Tìm hiểu Atomico - công ty đầu tư mạo hiểm hàng đầu Châu Âu được thành lập bởi Niklas Zennström. Từ một ý tưởng đơn giản đến một quỹ quản lý hàng tỷ USD, Atomico đã thay đổi cách các nhà đầu tư nhìn nhận công nghệ châu Âu."
@@ -22,6 +23,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+date_display = "11-07-2026 14:00:00 GMT +7"
 +++
 
 ## Atomico - Tầm Nhìn Biến Châu Âu Thành Cơn Lốc Khởi Nghiệp
