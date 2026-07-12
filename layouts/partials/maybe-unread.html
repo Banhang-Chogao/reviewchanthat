@@ -1,0 +1,21 @@
+{{- /*
+  "Có thể bạn chưa đọc" — 5 random posts, injected after the first paragraph of a post.
+  Randomized at build time (shuffle) and rotated by a per-post offset so each post shows a
+  different set. Excludes the current post. Renders nothing if fewer than 5 other posts exist.
+*/ -}}
+{{- $others := where (where site.RegularPages "Section" "posts") "Permalink" "!=" .Permalink -}}
+{{- $n := len $others -}}
+{{- if ge $n 5 -}}
+  {{- $shuffled := shuffle $others -}}
+  {{- $seed := mod (len .RawContent) $n -}}
+  {{- $rot := union (after $seed $shuffled) (first $seed $shuffled) -}}
+  {{- $picks := first 5 $rot -}}
+  <aside class="maybe-unread" aria-label="Có thể bạn chưa đọc">
+    <div class="maybe-unread__head">📌 Có thể bạn chưa đọc</div>
+    <ul class="maybe-unread__list">
+      {{- range $picks }}
+      <li class="maybe-unread__item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{- end }}
+    </ul>
+  </aside>
+{{- end -}}
