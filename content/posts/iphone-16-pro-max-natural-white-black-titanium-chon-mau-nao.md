@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:40:00+07:00"
-commit = "4bbb7284"
+commit = "23ab7765"
 description = "So sánh Natural, White và Black Titanium trên iPhone 16 Pro Max — chọn màu theo thói quen, độ bều và giá máy cũ 2026."
 draft = false
 image = "images/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.webp"

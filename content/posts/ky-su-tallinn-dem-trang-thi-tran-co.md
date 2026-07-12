@@ -1,7 +1,7 @@
 +++
 title = "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu"
 seo_title = "Ký sự Tallinn: đêm trắng ở thị trấn trung cổ Bắc Âu"
-commit = "cf6e8420"
+commit = "23ab7765"
 date = "2026-07-11T14:44:57+07:00"
 draft = false
 description = "Ký sự du lịch Tallinn mùa hè: thành phố cổ kính Bắc Âu với đêm trắng mặt trời không lặn, phố cổ UNESCO và tường thành thế kỷ 13."

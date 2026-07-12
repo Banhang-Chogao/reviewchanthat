@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "cf6e8420"
+commit = "23ab7765"
 description = "Checklist vali đi Thái Lan mùa mưa: quần áo, giày dép, đồ chống nước,   thuốc men và vật dụng cần thiết cho thời tiết nóng ẩm — từ người có kinh nghiệm."
 draft = false
 image = "images/posts/checklist-vali-di-thai-mua-mua.webp"

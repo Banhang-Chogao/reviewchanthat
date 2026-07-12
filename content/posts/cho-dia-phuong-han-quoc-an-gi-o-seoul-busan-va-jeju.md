@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "cf6e8420"
+commit = "23ab7765"
 description = "Chợ địa phương Hàn Quốc: Gwangjang, Namdaemun (Seoul), Jagalchi, Gukje (Busan), Dongmun (Jeju). So sánh, gợi ý món ăn và lịch trình khám phá chợ."
 draft = false
 image = "images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp"

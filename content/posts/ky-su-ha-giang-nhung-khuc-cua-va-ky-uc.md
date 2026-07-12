@@ -1,7 +1,7 @@
 +++
 title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
 seo_title = "Ký sự Hà Giang: Mã Pí Lèng và những khúc cua qua mây"
-commit = "cf6e8420"
+commit = "23ab7765"
 date = "2026-07-11T08:00:00+07:00"
 draft = false
 description = "Ký sự phượt Hà Giang bằng xe máy qua đèo Mã Pí Lèng, dốc Thẩm Mã: những đứa trẻ Mông đeo gùi hoa, đêm tĩnh lặng nơi bản làng và hẻm Tu Sản hùng vĩ."

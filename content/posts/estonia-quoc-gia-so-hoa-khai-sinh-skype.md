@@ -1,7 +1,7 @@
 +++
 title = "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
 seo_title = "Estonia: Quốc Gia Số Hóa Khai Sinh Skype, Bolt, Wise"
-commit = "cf6e8420"
+commit = "23ab7765"
 date = "2026-07-11T13:00:00+07:00"
 draft = false
 description = "Khám phá e-Estonia — quốc gia số hóa tiên phong với 99% dịch vụ công online, nơi khai sinh Skype, Bolt, Wise cùng hệ thống ID-card và blockchain X-Road."

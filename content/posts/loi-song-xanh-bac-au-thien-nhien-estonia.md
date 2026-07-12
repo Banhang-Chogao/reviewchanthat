@@ -1,7 +1,7 @@
 +++
 title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
 seo_title = "Lối sống xanh Bắc Âu: thiên nhiên và rừng già Estonia"
-commit = "cf6e8420"
+commit = "23ab7765"
 date = "2026-07-11T14:44:57+07:00"
 draft = false
 description = "Khám phá lối sống xanh gần gũi thiên nhiên của người Estonia: đi bộ trên đầm lầy, văn hóa Smoke Sauna UNESCO và cuộc sống bền vững giữa rừng già Bắc Âu."

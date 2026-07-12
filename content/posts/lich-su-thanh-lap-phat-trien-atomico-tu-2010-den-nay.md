@@ -1,7 +1,7 @@
 +++
 title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
 seo_title = "Lịch Sử Atomico: Từ Ý Tưởng 2010 Đến Quỹ Đầu Tư Tỷ USD"
-commit = "cf6e8420"
+commit = "23ab7765"
 date = "2026-07-11T14:15:00+07:00"
 draft = false
 description = "Hành trình xây dựng Atomico từ năm 2010: Niklas Zennström lập quỹ đầu tư mạo hiểm này và đưa nó thành một trong những quỹ hàng đầu Châu Âu."
@@ -38,7 +38,6 @@ title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu T
 ref = "posts/phần-lan-giáo-dục-02.md"
 title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
 +++
-commit = ""
 image_source = "Pixabay"
 image_provider = "pixabay"
 image_license = "Pixabay Content License"

@@ -1,7 +1,7 @@
 +++
 title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
 seo_title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu"
-commit = "cf6e8420"
+commit = "23ab7765"
 date = "2026-07-11T15:00:00+07:00"
 draft = false
 description = "Atomico đã thay đổi cách nhà đầu tư nhìn nhận châu Âu, cách nhà khởi nghiệp nghĩ về chính mình và đưa châu Âu thành trung tâm công nghệ toàn cầu."
@@ -31,7 +31,6 @@ image_alt = "Ảnh minh họa Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái
 ref = "posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.md"
 title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"
 +++
-commit = ""
 image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"

@@ -1,7 +1,7 @@
 +++
 title = "Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng"
 seo_title = "Phần Lan Xanh: Công Nghệ Sạch & Kinh Tế Tuần Hoàn"
-commit = "cf6e8420"
+commit = "23ab7765"
 date = "2026-07-11T16:06:05+07:00"
 description = "Phần Lan tiên phong bảo vệ môi trường: khám phá cách quốc gia 5,5 triệu dân dẫn đầu về công nghệ sạch, kinh tế tuần hoàn và quản lý rừng bền vững."
 categories = ["du-lich"]

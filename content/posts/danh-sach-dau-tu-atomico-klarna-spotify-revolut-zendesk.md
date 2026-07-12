@@ -1,7 +1,7 @@
 +++
 title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những Công Ty Thay Đổi Thế Giới"
 seo_title = "Danh mục đầu tư Atomico: Klarna, Spotify, Revolut, Zendesk"
-commit = "bc0f8d23"
+commit = "23ab7765"
 date = "2026-07-11T14:30:00+07:00"
 draft = false
 description = "Khám phá danh mục đầu tư của Atomico: từ Klarna, Spotify đến Revolut, Zendesk — cách quỹ chọn và hỗ trợ các công ty công nghệ vươn tầm toàn cầu."
@@ -26,7 +26,6 @@ image_provider = "pixabay"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những Công Ty Thay Đổi Thế Giới — nguồn Pixabay"
 +++
-commit = ""
 image_source = "Pixabay"
 image_provider = "pixabay"
 image_license = "Pixabay Content License"

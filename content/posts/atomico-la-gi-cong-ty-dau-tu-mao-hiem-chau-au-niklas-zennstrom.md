@@ -1,7 +1,7 @@
 +++
 title = "Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
 seo_title = "Atomico Là Gì? Quỹ Đầu Tư Mạo Hiểm Của Niklas Zennström"
-commit = "cf6e8420"
+commit = "23ab7765"
 date = "2026-07-11T14:00:00+07:00"
 draft = false
 description = "Tìm hiểu Atomico - quỹ đầu tư mạo hiểm hàng đầu Châu Âu do Niklas Zennström sáng lập, và cách nó định hình hệ sinh thái khởi nghiệp công nghệ châu Âu."
@@ -43,7 +43,6 @@ title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu T
 ref = "posts/co-nen-di-tour-hang-dong-quang-binh-mua-mua.md"
 title = "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?"
 +++
-commit = ""
 image_source = "Pixabay"
 image_provider = "pixabay"
 image_license = "Pixabay Content License"

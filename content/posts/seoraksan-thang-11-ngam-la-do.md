@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T20:00:00+07:00"
-commit = "4bbb7284"
+commit = "23ab7765"
 description = "Seoraksan tháng 11 còn lá đỏ không? phân tích thời điểm rụng lá, có nên leo núi khi trời lạnh và lịch trình 1–2 ngày từ Seoul."
 image = "images/posts/seoraksan-thang-11-ngam-la-do.webp"
 image_attribution_checked_at = "2026-07-11T17:30:30+07:00"

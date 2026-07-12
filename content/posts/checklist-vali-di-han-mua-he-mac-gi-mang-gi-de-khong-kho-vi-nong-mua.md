@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "4bbb7284"
+commit = "23ab7765"
 description = "Checklist vali đi Hàn Quốc mùa hè: mặc gì, mang gì? Danh sách đồ cần mang theo — quần áo, mỹ phẩm, thuốc, giấy tờ và đồ điện tử."
 draft = false
 image = "images/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.webp"

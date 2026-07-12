@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-06-22T10:00:00+07:00"
-commit = "4bbb7284"
+commit = "23ab7765"
 description = "Review dài hàng nghìn chữ có thể là dấu hiệu của content marketing, không phải trải nghiệm thật."
 draft = false
 image = "images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp"
