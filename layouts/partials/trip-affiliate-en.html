@@ -2,7 +2,7 @@
   Trip.com affiliate banner (900x200) for ENGLISH posts (front matter lang = "en"),
   injected after the first paragraph — regardless of topic.
 */ -}}
-{{- if eq (.Params.lang | default "") "en" -}}
+{{- if eq (.Params.post_lang | default "") "en" -}}
 <aside class="trip-aff trip-aff--wide" aria-label="Sponsored content">
   <span class="trip-aff__label">Sponsored · Trip.com</span>
   <iframe class="trip-aff__wideframe" src="https://www.trip.com/partners/ad/S18632385?Allianceid=9016169&SID=323965293&trip_sub1=" width="900" height="200" frameborder="0" scrolling="no" style="border:none" id="S18632385" title="Trip.com — find and book hotels & flights" loading="lazy"></iframe>
