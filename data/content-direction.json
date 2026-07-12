@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-12T07:42:48+07:00",
-  "generated_at_display": "12-07-2026 07:42:48",
+  "generated_at": "2026-07-12T11:57:12+07:00",
+  "generated_at_display": "12-07-2026 11:57:12",
   "summary": {
-    "total_posts": 284,
+    "total_posts": 288,
     "draft_posts": 0,
-    "total_words": 425244,
-    "average_words_per_post": 1497,
+    "total_words": 437290,
+    "average_words_per_post": 1518,
     "categories_count": 5,
-    "tags_count": 930,
-    "authors_count": 3,
+    "tags_count": 951,
+    "authors_count": 4,
     "parse_warnings": 0
   },
   "categories": [
@@ -21,12 +21,12 @@
       "count": 89
     },
     {
-      "name": "tai-chinh",
-      "count": 42
+      "name": "doi-song",
+      "count": 43
     },
     {
-      "name": "doi-song",
-      "count": 39
+      "name": "tai-chinh",
+      "count": 42
     },
     {
       "name": "review",
@@ -36,7 +36,7 @@
   "authors": [
     {
       "name": "Minh Hoàng",
-      "count": 194
+      "count": 197
     },
     {
       "name": "Duy Nguyen",
@@ -45,6 +45,10 @@
     {
       "name": "Reviewchanthat",
       "count": 5
+    },
+    {
+      "name": "Duy Khang",
+      "count": 1
     }
   ],
   "tags_top": [
@@ -81,6 +85,10 @@
       "count": 11
     },
     {
+      "name": "series Tết 2027",
+      "count": 10
+    },
+    {
       "name": "series cuộc sống số",
       "count": 10
     },
@@ -113,10 +121,6 @@
       "count": 9
     },
     {
-      "name": "series Tết 2027",
-      "count": 8
-    },
-    {
       "name": "Hugo",
       "count": 8
     },
@@ -132,8 +136,8 @@
   "time": {
     "oldest": "2026-06-15T10:00:00+07:00",
     "oldest_display": "15-06-2026 10:00:00",
-    "newest": "2026-07-15T10:30:00+07:00",
-    "newest_display": "15-07-2026 10:30:00"
+    "newest": "2026-07-12T10:30:00+07:00",
+    "newest_display": "12-07-2026 10:30:00"
   },
   "seo": {
     "title_too_short": [],
@@ -339,6 +343,12 @@
         "slug": "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc",
         "stop_words": [
           "va"
+        ]
+      },
+      {
+        "slug": "cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027",
+        "stop_words": [
+          "cac"
         ]
       },
       {
@@ -600,6 +610,12 @@
         "stop_words": [
           "duoc",
           "khi"
+        ]
+      },
+      {
+        "slug": "flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do",
+        "stop_words": [
+          "do"
         ]
       },
       {
@@ -1222,7 +1238,7 @@
     ]
   },
   "freshness": {
-    "average_age_days": 2,
+    "average_age_days": 3,
     "old_posts_over_365_days": [],
     "new_posts_under_30_days": [
       {
@@ -1282,7 +1298,7 @@
       {
         "slug": "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang",
         "title": "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:20:00"
       },
       {
@@ -1300,25 +1316,25 @@
       {
         "slug": "app-store-gatekeeper-apple-so-mat-dieu-gi",
         "title": "App Store gatekeeper: Apple sợ mất điều gì?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:40:00"
       },
       {
         "slug": "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
         "title": "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 09:00:00"
       },
       {
         "slug": "apple-thua-kien-eu-app-store-ios-dma",
         "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:00:00"
       },
       {
         "slug": "apple-vs-ec-dma-tuong-lai-iphone",
         "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:20:00"
       },
       {
@@ -1342,13 +1358,13 @@
       {
         "slug": "bangkok-3-ngay-3-dem-mua-mua",
         "title": "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "bangkok-ngay-mua-nen-di-dau",
         "title": "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1402,7 +1418,7 @@
       {
         "slug": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
         "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1418,21 +1434,27 @@
         "date": "08-07-2026 20:30:00"
       },
       {
+        "slug": "cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027",
+        "title": "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027",
+        "age_days": 0,
+        "date": "12-07-2026 07:50:00"
+      },
+      {
         "slug": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
         "title": "Cách đọc một bài review để không bị dắt mũi",
-        "age_days": 26,
+        "age_days": 27,
         "date": "15-06-2026 10:00:00"
       },
       {
         "slug": "cach-mang-xe-dien-na-uy-ev-hub-the-gioi",
         "title": "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?",
-        "age_days": -3,
-        "date": "14-07-2026 10:30:00"
+        "age_days": 0,
+        "date": "12-07-2026 07:44:37"
       },
       {
         "slug": "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
         "title": "Cách xây dựng thói quen mua sắm thông minh",
-        "age_days": 13,
+        "age_days": 14,
         "date": "28-06-2026 10:00:00"
       },
       {
@@ -1444,7 +1466,7 @@
       {
         "slug": "camera-control-iphone-16-pro-max-co-tien-khong",
         "title": "Camera Control iPhone 16 Pro Max có tiện không?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:20:00"
       },
       {
@@ -1456,7 +1478,7 @@
       {
         "slug": "camera-iphone-16-pro-max-so-voi-15-pro-max",
         "title": "Camera iPhone 16 Pro Max so với 15 Pro Max",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:40:00"
       },
       {
@@ -1474,7 +1496,7 @@
       {
         "slug": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
         "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1504,13 +1526,13 @@
       {
         "slug": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
         "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "checklist-vali-di-thai-mua-mua",
         "title": "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1534,7 +1556,7 @@
       {
         "slug": "chiang-mai-mua-mua-co-gi-dep",
         "title": "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1576,7 +1598,7 @@
       {
         "slug": "co-nen-cho-iphone-18-khong",
         "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:00:00"
       },
       {
@@ -1600,13 +1622,13 @@
       {
         "slug": "cong-thuc-do-uong-giai-nhiet-home-cafe",
         "title": "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 11:00:00"
       },
       {
         "slug": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
         "title": "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 11:30:00"
       },
       {
@@ -1624,8 +1646,8 @@
       {
         "slug": "cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te",
         "title": "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến",
-        "age_days": -4,
-        "date": "15-07-2026 10:30:00"
+        "age_days": 0,
+        "date": "12-07-2026 07:45:37"
       },
       {
         "slug": "cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon",
@@ -1666,7 +1688,7 @@
       {
         "slug": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
         "title": "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1678,7 +1700,7 @@
       {
         "slug": "di-han-thang-10-mac-gi",
         "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:00:00"
       },
       {
@@ -1696,19 +1718,19 @@
       {
         "slug": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
         "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "di-thai-lan-thang-7-co-nen-khong",
         "title": "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
         "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:00:00"
       },
       {
@@ -1732,7 +1754,7 @@
       {
         "slug": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
         "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:20:00"
       },
       {
@@ -1744,20 +1766,20 @@
       {
         "slug": "doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia",
         "title": "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 10:00:00"
       },
       {
         "slug": "doi-baht-o-viet-nam-hay-thai-lan",
         "title": "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "doi-song-phuc-loi-na-uy-work-life-balance",
         "title": "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới",
-        "age_days": -2,
-        "date": "13-07-2026 10:30:00"
+        "age_days": 0,
+        "date": "12-07-2026 07:43:37"
       },
       {
         "slug": "don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi",
@@ -1786,25 +1808,25 @@
       {
         "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
         "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
-        "age_days": 2,
+        "age_days": 3,
         "date": "09-07-2026 09:00:00"
       },
       {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
         "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "du-lich-may-do-trai-nghiem-ban-dia",
         "title": "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 10:45:00"
       },
       {
         "slug": "du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te",
         "title": "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 10:30:00"
       },
       {
@@ -1816,13 +1838,13 @@
       {
         "slug": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
         "title": "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
         "title": "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:40:00"
       },
       {
@@ -1834,7 +1856,7 @@
       {
         "slug": "european-commission-duoc-gi-khi-thang-apple",
         "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:00:00"
       },
       {
@@ -1850,10 +1872,22 @@
         "date": "11-07-2026 16:06:05"
       },
       {
+        "slug": "flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do",
+        "title": "Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày?",
+        "age_days": 0,
+        "date": "12-07-2026 10:30:00"
+      },
+      {
         "slug": "frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh",
         "title": "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro",
         "age_days": 1,
         "date": "10-07-2026 13:16:14"
+      },
+      {
+        "slug": "gian-lan-diem-thi-thong-ke",
+        "title": "Con Người Có Thể Nói Dối Nhưng Dữ Liệu Thì Không: Lời Cảnh Báo Từ Toán Học Thống Kê Trong Khảo Thí",
+        "age_days": 0,
+        "date": "12-07-2026 09:00:00"
       },
       {
         "slug": "github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident",
@@ -1882,7 +1916,7 @@
       {
         "slug": "goi-y-du-lich-han-quoc-thang-7-2026",
         "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
-        "age_days": 2,
+        "age_days": 3,
         "date": "09-07-2026 08:00:00"
       },
       {
@@ -1906,7 +1940,7 @@
       {
         "slug": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
         "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -1918,7 +1952,7 @@
       {
         "slug": "han-quoc-thang-10-co-la-do-chua",
         "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 08:00:00"
       },
       {
@@ -1930,19 +1964,19 @@
       {
         "slug": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
         "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
         "title": "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
         "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:10:00"
       },
       {
@@ -1960,7 +1994,7 @@
       {
         "slug": "huong-dan-danh-gia-luat-chuyen-doi-so-2025",
         "title": "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 11:30:00"
       },
       {
@@ -1972,7 +2006,7 @@
       {
         "slug": "huong-dan-mien-visa-uzbekistan-5-ngay",
         "title": "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 11:15:00"
       },
       {
@@ -1996,61 +2030,61 @@
       {
         "slug": "ios-27-apple-intelligence-iphone-cu",
         "title": "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 08:40:00"
       },
       {
         "slug": "ios-27-beta-co-nen-cai-khong",
         "title": "iOS 27 beta có nên cài không? rủi ro, cách backup và quay về bản ổn định",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "ios-27-cai-thien-pin-iphone",
         "title": "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:00:00"
       },
       {
         "slug": "ios-27-camera-anh-video-iphone",
         "title": "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:20:00"
       },
       {
         "slug": "ios-27-co-gi-moi",
         "title": "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 08:00:00"
       },
       {
         "slug": "ios-27-co-nen-cap-nhat-ngay-khong",
         "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:40:00"
       },
       {
         "slug": "ios-27-ho-tro-iphone-nao",
         "title": "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới Apple Intelligence",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 08:20:00"
       },
       {
         "slug": "ios-27-quyen-rieng-tu-iphone",
         "title": "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:20:00"
       },
       {
         "slug": "ios-27-so-voi-ios-26",
         "title": "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:40:00"
       },
       {
         "slug": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
         "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:20:00"
       },
       {
@@ -2062,7 +2096,7 @@
       {
         "slug": "iphone-15-pro-max-blue-titanium-co-dang-san",
         "title": "iPhone 15 Pro Max Blue Titanium có đáng săn?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:40:00"
       },
       {
@@ -2074,43 +2108,43 @@
       {
         "slug": "iphone-15-pro-max-mau-titan-con-dang-mua-khong",
         "title": "iPhone 15 Pro Max màu titan có còn đáng mua không?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:00:00"
       },
       {
         "slug": "iphone-15-pro-max-natural-titanium-danh-gia-mau",
         "title": "iPhone 15 Pro Max Natural Titanium: đánh giá màu",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:20:00"
       },
       {
         "slug": "iphone-16-pro-max-desert-titanium-hop-ai",
         "title": "iPhone 16 Pro Max Desert Titanium hợp ai?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:20:00"
       },
       {
         "slug": "iphone-16-pro-max-desert-titanium-tren-tay",
         "title": "iPhone 16 Pro Max Desert Titanium trên tay",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:00:00"
       },
       {
         "slug": "iphone-16-pro-max-nam-2026-nen-mua-khong",
         "title": "iPhone 16 Pro Max năm 2026 nên mua không?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:20:00"
       },
       {
         "slug": "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao",
         "title": "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:40:00"
       },
       {
         "slug": "iphone-18-chip-a20-2nm",
         "title": "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:00:00"
       },
       {
@@ -2146,7 +2180,7 @@
       {
         "slug": "iphone-18-pro-max-co-gi-moi",
         "title": "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 08:00:00"
       },
       {
@@ -2158,19 +2192,19 @@
       {
         "slug": "iphone-fold-iphone-ultra-la-gi",
         "title": "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
         "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
         "title": "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý",
-        "age_days": 2,
+        "age_days": 3,
         "date": "09-07-2026 10:00:00"
       },
       {
@@ -2212,19 +2246,19 @@
       {
         "slug": "koh-samui-mua-he-so-voi-phuket",
         "title": "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "krabi-mua-mua-ao-nang-railay-tour-dao",
         "title": "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "ky-su-ha-giang-nhung-khuc-cua-va-ky-uc",
         "title": "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 08:00:00"
       },
       {
@@ -2242,7 +2276,7 @@
       {
         "slug": "lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi",
         "title": "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 08:00:00"
       },
       {
@@ -2272,7 +2306,7 @@
       {
         "slug": "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau",
         "title": "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -2284,7 +2318,7 @@
       {
         "slug": "log-tu-nhien-log-return-trong-dau-tu",
         "title": "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 11:00:00"
       },
       {
@@ -2296,7 +2330,7 @@
       {
         "slug": "macos-27-apple-intelligence-macbook",
         "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:40:00"
       },
       {
@@ -2314,7 +2348,7 @@
       {
         "slug": "macos-27-co-gi-moi",
         "title": "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:00:00"
       },
       {
@@ -2332,7 +2366,7 @@
       {
         "slug": "macos-27-ho-tro-may-mac-nao",
         "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:20:00"
       },
       {
@@ -2350,13 +2384,13 @@
       {
         "slug": "mo-hinh-phang-tiet-lo-tu-ikea-va-volvo",
         "title": "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 10:00:00"
       },
       {
         "slug": "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026",
         "title": "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 09:50:57"
       },
       {
@@ -2380,7 +2414,7 @@
       {
         "slug": "nami-thang-10-co-dang-di-khong",
         "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:00:00"
       },
       {
@@ -2410,19 +2444,19 @@
       {
         "slug": "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien",
         "title": "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 08:00:00"
       },
       {
         "slug": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
         "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
         "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:40:00"
       },
       {
@@ -2434,19 +2468,19 @@
       {
         "slug": "o-khu-nao-bangkok-mua-mua",
         "title": "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
         "title": "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:00:00"
       },
       {
         "slug": "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul",
         "title": "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -2464,7 +2498,7 @@
       {
         "slug": "phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy",
         "title": "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 09:00:00"
       },
       {
@@ -2476,7 +2510,7 @@
       {
         "slug": "phuket-mua-mua-co-nen-di-khong",
         "title": "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -2518,7 +2552,7 @@
       {
         "slug": "pin-iphone-16-pro-max-co-dang-chon",
         "title": "Pin iPhone 16 Pro Max có đáng chọn?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:00:00"
       },
       {
@@ -2536,7 +2570,7 @@
       {
         "slug": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
         "title": "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 11:15:00"
       },
       {
@@ -2548,13 +2582,13 @@
       {
         "slug": "quyen-chu-quyen-na-uy-government-pension-fund-global",
         "title": "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?",
-        "age_days": -1,
-        "date": "12-07-2026 10:30:00"
+        "age_days": 0,
+        "date": "12-07-2026 07:42:37"
       },
       {
         "slug": "renaissance-technologies-quantitative-finance-toan-hoc-dau-tu",
         "title": "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền",
-        "age_days": 1,
+        "age_days": 2,
         "date": "10-07-2026 11:45:00"
       },
       {
@@ -2566,7 +2600,7 @@
       {
         "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
         "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
-        "age_days": 23,
+        "age_days": 24,
         "date": "18-06-2026 10:00:00"
       },
       {
@@ -2596,13 +2630,13 @@
       {
         "slug": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
         "title": "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "seoul-thang-10-nen-di-dau",
         "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -2618,6 +2652,12 @@
         "date": "08-07-2026 07:00:00"
       },
       {
+        "slug": "sinh-nam-2027-menh-gi-huong-tot-dinh-mui",
+        "title": "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết",
+        "age_days": 0,
+        "date": "12-07-2026 08:43:00"
+      },
+      {
         "slug": "smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026",
         "title": "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?",
         "age_days": 0,
@@ -2626,7 +2666,7 @@
       {
         "slug": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
         "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
-        "age_days": 16,
+        "age_days": 17,
         "date": "25-06-2026 10:00:00"
       },
       {
@@ -2650,13 +2690,13 @@
       {
         "slug": "starbucks-nguyen-van-troi-sai-gon-review",
         "title": "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon",
-        "age_days": 2,
+        "age_days": 3,
         "date": "09-07-2026 08:00:00"
       },
       {
         "slug": "starbucks-vietnam-khong-gian-va-trai-nghiem",
         "title": "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\"",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 11:00:00"
       },
       {
@@ -2692,7 +2732,7 @@
       {
         "slug": "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab",
         "title": "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -2746,7 +2786,7 @@
       {
         "slug": "tin-chi-carbon-va-trao-luu-net-zero",
         "title": "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 09:00:00"
       },
       {
@@ -2764,7 +2804,7 @@
       {
         "slug": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
         "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -2794,19 +2834,19 @@
       {
         "slug": "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch",
         "title": "Trên tay iPhone 16 Pro Max màn hình 6.9 inch",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
         "slug": "triet-ly-song-lagom-va-van-hoa-fika",
         "title": "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 08:00:00"
       },
       {
         "slug": "ubon-ratchathani-candle-festival-thai-lan-thang-7",
         "title": "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 10:00:00"
       },
       {
@@ -2818,7 +2858,7 @@
       {
         "slug": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
         "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
-        "age_days": 4,
+        "age_days": 5,
         "date": "07-07-2026 09:00:00"
       },
       {
@@ -2830,13 +2870,13 @@
       {
         "slug": "vi-sao-review-dai-chua-chac-da-dang-tin",
         "title": "Vì sao review dài chưa chắc đã đáng tin?",
-        "age_days": 19,
+        "age_days": 20,
         "date": "22-06-2026 10:00:00"
       },
       {
         "slug": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
         "title": "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:50:00"
       },
       {
@@ -2872,7 +2912,7 @@
       {
         "slug": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
         "title": "WWDC26: phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu",
-        "age_days": 4,
+        "age_days": 5,
         "date": "07-07-2026 09:00:00"
       },
       {
@@ -2920,19 +2960,19 @@
       {
         "slug": "xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly",
         "title": "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất",
-        "age_days": 0,
+        "age_days": 1,
         "date": "11-07-2026 11:20:00"
       },
       {
         "slug": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
         "title": "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 09:30:00"
       }
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1231,
+    "total_outbound_links": 1248,
     "average_outbound_per_post": 4.33,
     "top_linked_posts": [
       {

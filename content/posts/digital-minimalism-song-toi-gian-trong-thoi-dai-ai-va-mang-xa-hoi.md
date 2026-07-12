@@ -73,8 +73,10 @@ title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại"
 [[internal_links]]
 ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
 title = "Sống thông minh trong thời đại AI"
-image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
-image_query = "mobile banking payment app"
+
+[[internal_links]]
+ref = "posts/flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do.md"
+title = "Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày?"
 +++
 
 Bạn có bao nhiêu app trên điện thoại? Trung bình một người Việt có 80-120 app. Bạn dùng thường xuyên bao nhiêu? Có thể chỉ 15-20 cái. Số còn lại — game bạn cài năm ngoái, app ngân hàng của ngân hàng bạn đã đóng thẻ, app chỉnh ảnh bạn mở đúng một lần — ngốn dung lượng, gửi notification và khiến bạn phân tâm.
@@ -369,5 +371,7 @@ Sau 14 ngày áp dụng checklist trên, bạn sẽ:
 - Cảm thấy nhẹ nhõm hơn khi không còn bị "bủa vây" bởi notification
 
 **Bài trước:** [Digital Detox là gì? Cách giảm phụ thuộc điện thoại](/posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi/)
+
+Nếu bạn muốn đọc một câu chuyện thực tế về việc chọn bình yên thay vì tăng trưởng vô hạn, hãy xem [Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày]({{< ref "posts/flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do" >}}) — một quyết định digital minimalism ở cấp độ triệt để nhất.
 
 Hẹn gặp lại bạn ở các bài tiếp theo trong series **Cuộc sống số**.

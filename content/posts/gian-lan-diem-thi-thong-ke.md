@@ -1,5 +1,6 @@
 +++
 title = "Con Người Có Thể Nói Dối Nhưng Dữ Liệu Thì Không: Lời Cảnh Báo Từ Toán Học Thống Kê Trong Khảo Thí"
+seo_title = "Con người nói dối, dữ liệu không — thống kê khảo thí"
 slug = "gian-lan-diem-thi-thong-ke"
 description = "Dưới góc nhìn toán học thống kê, vụ gian lận điểm thi THPT 2018 ở Hà Giang, Sơn La, Hòa Bình lộ dấu vết không thể chối cãi. Dữ liệu vạch trần sự dối trá."
 date = "2026-07-12T09:00:00+07:00"

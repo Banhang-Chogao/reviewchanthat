@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-11T21:34:20+07:00",
-  "generated_at_display": "11-07-2026 21:34:20",
+  "generated_at": "2026-07-12T11:57:08+07:00",
+  "generated_at_display": "12-07-2026 11:57:08",
   "score": 100,
   "components": {
     "seo_titles": 15.0,
     "meta_descriptions": 15.0,
-    "internal_links": 25.0,
-    "orphan_posts": 20.0,
+    "internal_links": 24.9,
+    "orphan_posts": 19.9,
     "freshness": 9.9,
     "content_gaps": 10,
     "data_integrity": 5.0
   },
   "target": 100,
-  "remaining_action_items": 1
+  "remaining_action_items": 3
 }

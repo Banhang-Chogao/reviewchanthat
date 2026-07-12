@@ -3,14 +3,15 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-12T10:30:00+07:00"
-description = "Flappy Bird kiếm 50.000 USD/ngày rồi bị Nguyễn Hà Đông tự tay xóa sổ. Bóc tách bối cảnh, 5 giả thuyết của internet và triết lý chọn bình yên thay vì tiền bạc vô hạn."
+description = "Flappy Bird kiếm 50.000 USD/ngày rồi bị Nguyễn Hà Đông xóa sổ. Bóc tách bối cảnh, 5 giả thuyết và triết lý chọn bình yên thay vì tiền bạc."
 draft = false
 image = "images/posts/flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do.webp"
 image_owner = "external"
 slug = "flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do"
 tags = ["flappy bird", "nguyen ha dong", "cong nghe", "game"]
 thumbnail = "images/posts/flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do.webp"
-title = "Flappy Bird và Nguyễn Hà Đông: Vì sao anh tự tay xóa sổ mỏ vàng 50.000 USD/ngày?"
+title = "Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày?"
+seo_title = "Flappy Bird: Vì sao Nguyễn Hà Đông xóa game triệu đô"
 date_display = "12-07-2026 10:30:00 GMT +7"
 image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/hanoi-city-buildings-panorama-5931337/"
@@ -37,6 +38,14 @@ collapsed = false
 enabled = true
 items = ["Flappy Bird ra mắt 5/2013, im lặng nhiều tháng rồi bùng nổ tháng 1/2014: từ hạng 80 lên số 1 tại hơn 100 quốc gia, kiếm ~50.000 USD/ngày.", "Nguyễn Hà Đông — lập trình viên 28 tuổi ở Hà Nội — làm game trong 3 buổi tối, lấy cảm hứng từ máy NES nhái tuổi thơ.", "Ngày 9/2/2014 anh xóa game vĩnh viễn; internet dựng 5 giả thuyết: Nintendo kiện, bot download, đạo nhái, chiêu marketing, khủng hoảng tâm lý.", "2024: nhóm Flappy Bird Foundation hồi sinh game gắn NFT sau khi trademark hết hạn — Hà Đông từ chối thẳng thừng."]
 title = "Tóm tắt bài viết"
+
+[[internal_links]]
+ref = "posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi.md"
+title = "Digital Minimalism: sống tối giản trong thời đại AI và mạng xã hội"
+
+[[internal_links]]
+ref = "posts/gian-lan-diem-thi-thong-ke.md"
+title = "Con người có thể nói dối nhưng dữ liệu thì không — toán học thống kê trong khảo thí"
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Phóng tác từ kịch bản video Cold Fusion."
@@ -126,6 +135,8 @@ Hãy so sánh với gần như mọi nhà phát triển app ăn khách khác. Ph
 Nhưng Nguyễn Hà Đông nhìn tất cả những thứ đó và nói: "Không, không dành cho tôi." Với vài người là dại dột; với nhiều người là đáng ngưỡng mộ. Hơn một thập kỷ sau, khi game di động ngập trong microtransaction và cơ chế tối ưu hóa "gây nghiện", lựa chọn coi trọng cuộc sống bình yên hơn quy mô vô tận của anh trở nên cao quý.
 
 Và có lẽ đó mới là di sản thật sự của Flappy Bird. Không phải trò chơi, cũng không phải cơn viral kỳ dị của nó — mà là lời nhắc hiếm hoi rằng đôi khi, **được phép nhấn vào nút thoát cũng chẳng sao**.
+
+Nếu muốn tìm hiểu thêm về lối sống tối giản trong thời đại số, bài [Digital Minimalism]({{< ref "posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi" >}}) có thể cho bạn một góc nhìn khác về việc chủ động lược bỏ thứ không cần thiết — giống điều Hà Đông đã làm. Và nếu bạn quan tâm đến những câu chuyện người thật việc thật, đừng bỏ qua bài [Con người có thể nói dối nhưng dữ liệu thì không]({{< ref "posts/gian-lan-diem-thi-thong-ke" >}}) về sức mạnh của dữ liệu trong việc phơi bày sự thật.
 
 ## Câu hỏi thường gặp (FAQ)
 
