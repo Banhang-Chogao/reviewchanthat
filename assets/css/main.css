@@ -1353,3 +1353,8 @@ html.dark-mode .editor-pick__title{color:#e8f7f6;}
   .home-post-grid--feature .home-post-block__image-link{width:96px;}
   .home-post-grid--feature .home-post-block__excerpt{display:none;}
 }
+
+/* ===== Trip.com affiliate banner (du-lich posts, after first paragraph) ===== */
+.trip-aff{display:flex;flex-direction:column;align-items:center;gap:.35rem;margin:1.6rem auto;}
+.trip-aff__label{font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;}
+.trip-aff__frame{display:block;max-width:100%;border-radius:8px;overflow:hidden;box-shadow:var(--shadow-card);background:var(--accent-soft);}
