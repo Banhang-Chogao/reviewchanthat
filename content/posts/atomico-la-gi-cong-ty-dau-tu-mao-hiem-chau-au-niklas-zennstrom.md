@@ -42,6 +42,14 @@ title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu T
 [[internal_links]]
 ref = "posts/co-nen-di-tour-hang-dong-quang-binh-mua-mua.md"
 title = "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?"
+
+[[internal_links]]
+ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
+title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và Giá Trị Cốt Lõi Của Quỹ"
+
+[[internal_links]]
+ref = "posts/danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk.md"
+title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những Công Ty Thay Đổi Thế Giới"
 +++
 image_source = "Pixabay"
 image_provider = "pixabay"

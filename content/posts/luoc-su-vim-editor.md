@@ -44,6 +44,14 @@ title = "Veritable Content: bức tranh tổng thể về giao diện, content v
 ref = "posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.md"
 title = "Workflow fan-out sau merge: concurrency group, cancel-in-progress và vòng autofix"
 
+[[internal_links]]
+ref = "posts/lam-sao-thoat-vim.md"
+title = "Làm sao thoát Vim? Giải mã meme huyền thoại và hướng dẫn thoát Vim đúng cách"
+
+[[internal_links]]
+ref = "posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.md"
+title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
+
 [[external_links]]
 url = "https://www.vim.org/"
 title = "Trang chủ chính thức của Vim (vim.org)"
