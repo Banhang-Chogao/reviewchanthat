@@ -1,21 +1,16 @@
 {{- /*
-  Editor Pick — "lựa chọn của biên tập viên". Left-sidebar block on single post pages.
-  Curated: posts flagged `editor_pick = true` in front-matter, newest first. If fewer than 5,
-  fill with the most recent posts (excluding the current post and dedup). Shows title + short
-  summary + small responsive thumbnail.
+  Editor Pick — featured/discovery block in the RIGHT sidebar of single post pages.
+  Logic: 10 RANDOM posts (shuffle + per-post rotation so each post shows a different set),
+  excluding the current post. Title + short summary + small rectangular thumbnail.
 */ -}}
-{{- $allPosts := where (where site.RegularPages "Section" "posts") "Permalink" "!=" .Permalink -}}
-{{- $picks := where $allPosts "Params.editor_pick" true -}}
-{{- if lt (len $picks) 5 -}}
-  {{- range $allPosts -}}
-    {{- if and (lt (len $picks) 5) (not (in $picks .)) -}}
-      {{- $picks = $picks | append . -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-{{- $picks = first 5 $picks -}}
-{{- if gt (len $picks) 0 -}}
-<aside class="editor-pick" aria-label="Lựa chọn của biên tập viên">
+{{- $others := where (where site.RegularPages "Section" "posts") "Permalink" "!=" .Permalink -}}
+{{- $n := len $others -}}
+{{- if ge $n 1 -}}
+  {{- $shuffled := shuffle $others -}}
+  {{- $seed := mod (len .RawContent) $n -}}
+  {{- $rot := union (after $seed $shuffled) (first $seed $shuffled) -}}
+  {{- $picks := first 10 $rot -}}
+<aside class="editor-pick" aria-label="Bài viết nổi bật">
   <div class="editor-pick__head">⭐ Editor Pick</div>
   <ul class="editor-pick__list">
     {{- range $picks }}
@@ -23,10 +18,10 @@
     {{- $sum := .Params.description | default .Summary -}}
     <li class="editor-pick__item">
       <a class="editor-pick__link" href="{{ .RelPermalink }}">
-        {{- with $thumb }}<img class="editor-pick__thumb" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async" width="60" height="45">{{ end }}
+        {{- with $thumb }}<img class="editor-pick__thumb" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async" width="72" height="45">{{ end }}
         <span class="editor-pick__body">
           <span class="editor-pick__title">{{ .Title }}</span>
-          {{- with $sum }}<span class="editor-pick__summary">{{ . | plainify | truncate 88 }}</span>{{ end }}
+          {{- with $sum }}<span class="editor-pick__summary">{{ . | plainify | truncate 72 }}</span>{{ end }}
         </span>
       </a>
     </li>
