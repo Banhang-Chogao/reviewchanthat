@@ -128,10 +128,14 @@ def fix_obvious_issues(files: list[Path]) -> tuple[int, list[str]]:
         except (ValueError, TypeError):
             continue
 
-        if dt > now and vietnam_date_of(dt) == today:
+        # Clamp ANY future date beyond tolerance back to now — matches the
+        # validator's failure condition below, so --fix-obvious fully heals
+        # future dates (same-day AND multi-day), not just same-day ones.
+        if dt > now + FUTURE_TOLERANCE:
             new_date = now.isoformat()
             text = text[: fm_start + m.start(2)] + new_date + text[fm_start + m.end(2) :]
-            log.append(f"{f.name}: future (same day) -> {new_date}")
+            span = "same day" if vietnam_date_of(dt) == today else "future day"
+            log.append(f"{f.name}: future ({span}) -> {new_date}")
             fixed += 1
             f.write_text(text, encoding="utf-8")
 

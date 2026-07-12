@@ -121,11 +121,17 @@ echo -e "\n${BLUE}[6/13] Date Format & Timezone Check${NC}"
 if python3 scripts/qa_dates.py 2>/dev/null | grep -q "PASS"; then
     pass "All dates are valid ISO 8601 +07:00"
 else
-    fail "Date validation failed"
+    fail "Date validation failed (incl. future dates)"
     if [ "$1" == "--fix" ]; then
         info "Auto-fixing date issues..."
         python3 scripts/qa_dates.py --fix-obvious
-        pass "Date issues fixed"
+        # Re-verify — never claim fixed without confirming the gate now passes
+        if python3 scripts/qa_dates.py 2>/dev/null | grep -q "PASS"; then
+            pass "Date issues fixed"
+        else
+            fail "Date issues remain after auto-fix — fix manually before deploy"
+            python3 scripts/qa_dates.py 2>&1 | grep -i "future\|FAIL" | head -5
+        fi
     fi
 fi
 
