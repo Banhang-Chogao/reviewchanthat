@@ -60,9 +60,20 @@ title = "Review dịch vụ đặt vé máy bay/tàu hỏa Tết 2027: mẹo să
 [[internal_links]]
 ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
 title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: quà tặng xanh và sức khỏe"
+
+[[internal_links]]
+ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
+title = "Sinh năm 2027 mệnh gì? Tuổi Đinh Mùi Thiên Hà Thủy, hướng tốt & phong thủy"
+
+[[internal_links]]
+ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
+title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-11T22:00:11+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
++++
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "lịch nghỉ tết nguyên đán"
 +++
 

@@ -18,22 +18,22 @@ series_title = "Tết Nguyên Đán Đinh Mùi 2027"
 slug = "cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027"
 image = "images/posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.webp"
 thumbnail = "images/posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.webp"
-image_alt = "Tranh minh họa con dê (Mùi) giữa dải ngân hà và sóng nước huyền ảo — biểu tượng năm Đinh Mùi 2027"
-image_source = "self"
-image_source_url = "https://banhang-chogao.github.io/reviewchanthat/images/posts-src/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.jpg"
-image_provider = "self"
-image_license = "Self-owned"
+image_alt = "Ảnh minh họa Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027 — nguồn Pexels"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/black-and-white-photography-of-men-posing-in-suits-21044836/"
+image_provider = "pexels"
+image_license = "Pexels License"
 image_license_url = ""
 image_commercial_use = true
-image_owner = "self"
-image_creator = "Review Chân Thật"
-image_creator_url = ""
+image_owner = "external"
+image_creator = "HONG SON"
+image_creator_url = "https://www.pexels.com/@hson"
 image_attribution_verified = true
 image_status = "verified"
 image_creator_id = ""
-image_attribution_source = "self"
-image_attribution_checked_at = "2026-07-12T08:26:00+07:00"
-image_query = ""
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-12T08:49:12+07:00"
+image_query = "ôn cố tri tân nhìn"
 
 [ai_summary]
 enabled = true
@@ -68,6 +68,10 @@ title = "So sánh phong tục Tết ba miền Bắc - Trung - Nam"
 [[internal_links]]
 ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
 title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: quà tặng xanh và sức khỏe"
+
+[[internal_links]]
+ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
+title = "Sinh năm 2027 mệnh gì? Tuổi Đinh Mùi Thiên Hà Thủy, hướng tốt & phong thủy"
 +++
 
 Mỗi độ cuối năm, khi những cơn gió chớm lạnh báo hiệu một mùa Tết đang tới gần, người Việt lại có thói quen ngoảnh nhìn về phía sau để soi tỏ con đường phía trước. Tết Nguyên Đán 2027 sắp tới sẽ mang tên **Đinh Mùi** – một cái tên tưởng chừng chỉ là quy ước lịch pháp, nhưng nếu lần giở sử sách, ta sẽ thấy mỗi lần "Đinh Mùi" trở lại đều trùng vào những khúc quanh đáng nhớ của dân tộc và thế giới. Bài viết này không nhằm luận bàn năm tốt hay xấu theo lối bói toán, mà mượn tinh thần **"ôn cố tri tân"** – ôn lại cái cũ để hiểu cái mới – nhìn lại những năm Đinh Mùi trong hai thế kỷ qua, và suy ngẫm xem quá khứ để lại cho chúng ta điều gì trước thềm 2027.
