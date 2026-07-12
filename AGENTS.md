@@ -48,6 +48,7 @@
   - **TUYỆT ĐỐI KHÔNG hardcode** các heading/nội dung này trong thân bài viết (`.md` body). Không viết tay `## FAQ`, `## Liên kết nội bộ`, `## Bản quyền`... trong body. Chỉ điền dữ liệu vào front matter, macro tự render.
   - Nếu lỡ hardcode → **move nội dung hardcode đó vào đúng field front matter tương ứng** rồi xóa khỏi body. Dùng script: `python3 scripts/move_hardcoded_footer_sections.py --fix` (scan-only nếu bỏ `--fix`). Việc dọn nợ hàng loạt phải làm ở PR `qa-debt-fix` riêng, không gộp vào deploy tính năng khác.
 - **TUYỆT ĐỐI CẤM `![[IMAGE_API_QUERY:...]]` markers trong nội dung bài viết.** Không được viết, không được giữ lại, không được coi là placeholder tạm thời. Đây là marker chết — không script nào xử lý, không tự động replace. Nếu marker còn sót trong file `.md` khi push, coi như lỗi nghiêm trọng, phải fix ngay. Ảnh minh họa inline chỉ được chèn bằng Markdown `![](...)` thủ công với URL ảnh thật.
+- **Ảnh inline (`![](/images/posts/<slug>-inline.webp)`) resolve qua render hook, KHÔNG hardcode baseURL.** Site chạy dưới subpath `/reviewchanthat/`; hook `layouts/_default/_markup/render-image.html` (trim `/` đầu rồi `relURL`) tự thêm baseURL đúng cho cả production lẫn local dev. Vì vậy body cứ viết path gốc-tuyệt-đối `/images/posts/...` như bình thường — **đừng** tự chèn `/reviewchanthat/` vào body (sẽ hỏng khi dev local). Nếu hook bị xóa, ảnh inline toàn site 404. Kiểm tra bằng `python3 scripts/qa_inline_images.py` (xem Failure #11). Khi verify live phải soi `<img src>` trong HTML có `/reviewchanthat/`, không chỉ curl file ảnh thấy 200.
 
 # Deployment Rule (từ 2026-07-10)
 
@@ -90,6 +91,9 @@ grep -r "/posts/placeholder-" content/posts/
 # 9. Count posts with commit hashes
 echo "Total posts: $(ls content/posts/*.md | wc -l)"
 echo "Posts with commit hash: $(grep -l "^commit = " content/posts/*.md | wc -l)"
+
+# 10. Verify inline images resolve (render-image hook present + no missing files)
+python3 scripts/qa_inline_images.py
 ```
 
 If any check fails → **STOP** push and run deploy-failure-healer.py.
@@ -151,6 +155,18 @@ If any check fails → **STOP** push and run deploy-failure-healer.py.
 **Symptom:** Theme can't render hero
 **Auto-Fix:** `python3 scripts/select_images.py --post content/posts/<slug>.md --fix` — thử Pexels trước, **rate limit → đổi sang Pixabay** (và ngược lại).
 **Prevention:** Image selection is NOT optional — luôn phải CHẠY. Nhưng nếu cả 2 API đều không ra ảnh hợp lệ, bài được phép ship dạng text-first (không ảnh). Không bao giờ fake ảnh để lấp chỗ trống.
+
+### Failure #11: Broken Inline Images (baseURL subpath / missing file)
+**Symptom:** Ảnh **inline** trong thân bài (`![](/images/posts/x.webp)`) hiển thị vỡ trên live, dù ảnh hero vẫn hiện bình thường.
+**Root cause (2 loại):**
+1. **baseURL subpath.** Site chạy dưới `baseURL = .../reviewchanthat/` với `canonifyURLs=false`. Ảnh inline dùng path gốc-tuyệt-đối `/images/posts/x.webp` giữ nguyên path đó trong `<img src>` → trình duyệt tải `github.io/images/...` (thiếu `/reviewchanthat/`) → **404**. Ảnh hero KHÔNG bị vì nó render từ frontmatter qua `relURL`. Đây là lỗi ảnh hưởng **toàn bộ bài có ảnh inline**.
+2. **Thiếu file.** Ảnh inline trỏ tới file `.webp` không tồn tại trên đĩa.
+**Root-cause fix (loại 1 — đã áp dụng):** render hook `layouts/_default/_markup/render-image.html` — trim dấu `/` đầu rồi `relURL` (`$dest | strings.TrimPrefix "/" | relURL`) → ra `/reviewchanthat/images/...` trên production, `/images/...` khi dev local; URL remote/`data:` giữ nguyên. Hook này sửa **mọi bài** tại thời điểm build, KHÔNG cần đụng vào body của post.
+**Auto-Fix:** `python3 scripts/qa_inline_images.py --fix` (tự tạo lại hook nếu bị mất; đồng thời quét và báo các ảnh inline trỏ tới file thiếu).
+**Prevention:**
+- Body vẫn viết ảnh inline bình thường: `![alt](/images/posts/<slug>-inline.webp)` — hook lo phần resolve.
+- Khi verify bài đã lên live: kiểm tra `<img src>` THẬT trong HTML phải chứa `/reviewchanthat/`, đừng chỉ curl file ảnh thấy 200 (asset 200 không chứng minh HTML trỏ đúng).
+- Deploy-doctor bắt lỗi này ở **Rule 10** (`broken_inline_image` — file thiếu, WARNING) và **Rule 11** (`missing_render_image_hook` — hook bị mất, CRITICAL).
 
 ## Deploy Conflict & Build Failure Resolution
 
@@ -252,5 +268,7 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 | Content depth | Pre-deploy | ❌ Manual | N/A |
 | Meta description length (50–160) | Pre-deploy | ❌ Manual | N/A |
 | WebP tracking | Pre-deploy | ✅ Yes | < 1 min |
+| Broken inline image (missing file) | Pre-deploy | ❌ Manual | N/A |
+| Missing render-image hook | Pre-deploy | ✅ Yes | < 1 min |
 
 **Goal: 0 deploy failures** through automated pre-deploy validation.

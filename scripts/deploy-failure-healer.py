@@ -52,6 +52,26 @@ class DeployFailureHealer:
             file_issues = self.scan_post(filepath)
             issues.extend(file_issues)
 
+        issues.extend(self.scan_site())
+        return issues
+
+    def scan_site(self) -> List[Dict]:
+        """Site-level (non-post) checks."""
+        issues = []
+        # Rule 11: render-image hook must exist. Without it, inline body images that
+        # use root-absolute paths (/images/posts/x.webp) keep the bare path and 404
+        # on a subpath baseURL (GitHub Pages /reviewchanthat/). The hook trims the
+        # leading slash then relURL, resolving them under the baseURL.
+        hook = REPO_ROOT / 'layouts' / '_default' / '_markup' / 'render-image.html'
+        if not hook.exists():
+            issues.append({
+                'file': 'layouts/_default/_markup/render-image.html',
+                'type': 'missing_render_image_hook',
+                'severity': 'CRITICAL',
+                'message': 'render-image hook missing — inline images will 404 under the baseURL subpath',
+                'fix': 'Run: python3 scripts/qa_inline_images.py --fix (recreates the hook)',
+                'line': None,
+            })
         return issues
 
     def scan_post(self, filepath: Path) -> List[Dict]:
@@ -206,6 +226,24 @@ class DeployFailureHealer:
                     'message': f'Meta description is {desc_len} chars (SEO range 50-160)',
                     'fix': 'Rewrite description to 50-160 chars, keyword up front, aim ~150-158',
                     'line': fm_text.count('\n', 0, desc_match.start()) + 2
+                })
+
+        # Rule 10: Check inline images point to real files on disk.
+        # Inline body images (![](...images/posts/x.webp)) resolve to a webp under
+        # static/images/posts/. If the file is missing, the image renders broken on
+        # live. baseURL/subpath resolution itself is handled by the render-image hook
+        # (layouts/_default/_markup/render-image.html) — see Rule 11.
+        for im in re.finditer(r'!\[[^\]]*\]\((/?images/posts/[^)]+?\.webp)\)', body_text):
+            ref = im.group(1)
+            disk_path = REPO_ROOT / 'static' / ref.lstrip('/')
+            if not disk_path.exists():
+                issues.append({
+                    'file': filename,
+                    'type': 'broken_inline_image',
+                    'severity': 'WARNING',
+                    'message': f'Inline image references a missing file: {ref}',
+                    'fix': 'Generate the webp (Pexels/Pixabay) or remove the ![](...) line; do not ship a broken image',
+                    'line': None
                 })
 
         return issues
