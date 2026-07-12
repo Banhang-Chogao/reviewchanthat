@@ -7620,7 +7620,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "khach-san-view-dep-gan-ha-noi-2026",
+      "title": "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng",
+      "image_id": "img-70ed107a",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/dried-maple-leaves-on-ground-14240178/",
+      "direct_url": "https://images.pexels.com/photos/14240178/pexels-photo-14240178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Georgina Uzsoki Nagyné",
+      "creator_url": "https://www.pexels.com/@gina",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/khach-san-view-dep-gan-ha-noi-2026.jpg",
+      "output_path": "static/images/posts/khach-san-view-dep-gan-ha-noi-2026.webp",
+      "watermark_text": "Source: Pexels / Georgina Uzsoki Nagyné",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "autumn fallen leaves brown orange",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-12T06:50:13.571711+00:00"
+  "generated_at": "2026-07-12T08:22:04.423408+00:00"
 }
