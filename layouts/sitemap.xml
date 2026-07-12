@@ -1,20 +1,18 @@
-{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {{- range .Site.RegularPages }}
   {{- $isPost := eq .Section "posts" }}
   {{- $isDraft := .Draft }}
   {{- $noindex := .Params.noindex }}
   {{- if and $isPost (not $isDraft) (not $noindex) }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    {{- with .Lastmod }}
-    <lastmod>{{ .Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
-    {{- else }}
-      {{- with .Date }}
-    <lastmod>{{ .Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
-      {{- end }}
+    <url>
+        <loc>{{ .Permalink }}</loc>
+    {{- $lm := .Lastmod }}
+    {{- if $lm.IsZero }}{{ $lm = .Date }}{{ end }}
+    {{- if not $lm.IsZero }}
+        <lastmod>{{ $lm.Format "2006-01-02" }}</lastmod>
     {{- end }}
-  </url>
+    </url>
   {{- end }}
 {{- end }}
 </urlset>
