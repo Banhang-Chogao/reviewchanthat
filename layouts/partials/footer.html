@@ -40,6 +40,19 @@
       and a lot of
       <span class="footer-tagline-icon" data-icon="robot" aria-hidden="true">🤖</span>
     </div>
+    {{ with .Site.Params.hits_badge_url }}
+    <div class="footer-hits" aria-label="Lượt tương tác tích lũy">
+      <span class="footer-hits__label">📊 Lượt tương tác tích lũy</span>
+      <img
+        class="footer-hits__badge"
+        src="{{ . }}"
+        alt="Tổng lượt truy cập tích lũy từ 11/07"
+        height="20"
+        decoding="async"
+        referrerpolicy="no-referrer"
+      >
+    </div>
+    {{ end }}
     <div class="footer-copy">
       {{ with .Site.Params.footer_text }}{{ . | safeHTML }}{{ end }}
     </div>
