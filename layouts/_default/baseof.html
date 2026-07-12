@@ -7,7 +7,7 @@
   <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
   <link rel="apple-touch-icon" href="{{ "favicon.svg" | relURL }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} RSS" href="{{ "index.xml" | absURL }}">
-  <script>(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark-mode')}catch(e){}})()</script>
+  <script>(function(){try{document.documentElement.classList.remove('dark-mode');localStorage.setItem('theme','light')}catch(e){}})()</script>
   {{- block "seo" . }}{{ partial "seo.html" . }}{{ end }}
   {{- partial "schema.html" . }}
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
