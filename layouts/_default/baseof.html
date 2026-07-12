@@ -42,6 +42,7 @@
   <main id="main-content" tabindex="-1">
     {{- block "main" . }}{{ end }}
   </main>
+  {{ partial "footer-ad.html" . }}
   {{ partial "footer.html" . }}
   {{ if $isBlogPost }}{{ partial "scroll-jump.html" . }}{{ end }}
   {{ $siteJs := resources.Get "js/site.js" | minify | fingerprint }}
