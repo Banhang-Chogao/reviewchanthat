@@ -1,7 +1,7 @@
 +++
 title = "Làng Lò: làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa và kinh nghiệm ghé thăm 2026"
 seo_title = "Làng Lò Tuy Hòa: làng chài ngói đỏ 400 năm & kinh nghiệm đi"
-commit = ""
+commit = "61f41e94"
 date = "2026-07-12T17:00:00+07:00"
 draft = false
 description = "Làng Lò — làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa (nay thuộc Đắk Lắk): lịch sử, cát núi lửa, đời sống ngư dân và kinh nghiệm ghé thăm hè 2026."
