@@ -44,6 +44,10 @@ title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trì
 ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
 title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
 
+[[internal_links]]
+ref = "posts/bien-ba-dong-tra-vinh.md"
+title = "Biển Ba Động Trà Vinh: bãi biển giồng cát bình dị của miền Tây và kinh nghiệm đường đi 2026"
+
 [[external_links]]
 url = "https://vnexpress.net/cau-tren-bien-cho-khach-ngam-canh-dong-dien-gio-o-ca-mau-5094065.html"
 title = "Nguồn tham khảo: Cầu trên biển cho khách ngắm cánh đồng điện gió ở Cà Mau — VnExpress"

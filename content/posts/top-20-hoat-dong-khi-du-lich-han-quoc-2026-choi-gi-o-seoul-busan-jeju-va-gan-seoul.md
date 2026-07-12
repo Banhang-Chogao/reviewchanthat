@@ -35,6 +35,10 @@ enabled = true
 items = ["20 hoạt động du lịch Hàn Quốc 2026 theo Trip.Best Trip.com, chia 4 nhóm: Seoul văn hóa & lifestyle, Busan, Jeju, gần Seoul.", "Bảng tổng hợp top 20 kèm gợi ý thời gian, đối tượng phù hợp và bài vệ tinh liên quan.", "Lịch trình mẫu 3 ngày Seoul, 5 ngày Seoul + gần Seoul, 7 ngày Seoul + Busan/Jeju, 10 ngày Seoul + Busan + Jeju.", "Gợi ý chọn hoạt động theo kiểu du khách: lần đầu, cặp đôi, gia đình, bạn bè, mê K-drama, thích ẩm thực."]
 title = "Tóm tắt bài viết"
 
+[[internal_links]]
+ref = "posts/am-thuc-cho-truyen-thong-han-quoc.md"
+title = "Ẩm thực chợ truyền thống Hàn Quốc: bản đồ các khu chợ và món nhất định phải thử 2026"
+
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
 source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>, https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>, và các nguồn khác."
@@ -99,7 +103,8 @@ ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dan
 ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
 
 [[internal_links]]
-ref = "posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md Quốc'"
+ref = "posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md"
+title = "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc"
 
 [[internal_links]]
 ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
@@ -111,16 +116,20 @@ ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
 ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
 
 [[internal_links]]
-ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md touristic'"
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+title = "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic"
 
 [[internal_links]]
-ref = "posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.md mê làm đẹp'"
+ref = "posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.md"
+title = "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp"
 
 [[internal_links]]
-ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md một ngày'"
+ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
+title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
 
 [[internal_links]]
-ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md điểm nào'"
+ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
+title = "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?"
 
 [[internal_links]]
 ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
