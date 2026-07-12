@@ -16,13 +16,14 @@
        and independent of date/weight. `with` guards a missing/renamed page so
        a broken slug degrades to nothing instead of erroring the build. */}}
   {{ $stickyRefs := slice
-    "/posts/review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho"
+    "/posts/how-to-choose-reputable-hotels-ho-chi-minh-city"
     "/posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi" }}
   {{ $sticky := slice }}
   {{ range $stickyRefs }}
     {{ with site.GetPage . }}{{ $sticky = $sticky | append . }}{{ end }}
   {{ end }}
   {{ partial "adblock-cta.html" . }}
+  <div class="container sponsored-hotel-wrap">{{ partial "sponsored-hotel-banner.html" . }}</div>
   {{ partial "home-search-ad.html" . }}
   {{ with $sticky }}
   <section class="home-feature" aria-labelledby="home-feature-sticky">
