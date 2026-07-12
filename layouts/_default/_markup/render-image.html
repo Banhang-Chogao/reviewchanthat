@@ -1,0 +1,16 @@
+{{- /*
+  Markdown image render hook.
+  Fixes inline images that use root-absolute paths like /images/posts/x.webp:
+  the site is served under a baseURL subpath (/reviewchanthat/), so a bare
+  root-absolute src 404s on GitHub Pages. relURL only prepends the baseURL path
+  for paths WITHOUT a leading slash, so we trim a leading "/" first, then relURL —
+  giving /reviewchanthat/images/... in production and /images/... in local dev.
+  Remote (http/https/protocol-relative) and data: URLs are left untouched.
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $isRemote := or (hasPrefix $dest "http://") (hasPrefix $dest "https://") (hasPrefix $dest "//") (hasPrefix $dest "data:") -}}
+{{- $src := $dest -}}
+{{- if not $isRemote -}}
+  {{- $src = $dest | strings.TrimPrefix "/" | relURL -}}
+{{- end -}}
+<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async">
