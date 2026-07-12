@@ -15,6 +15,14 @@ disableKinds = []
 [build]
   writeStats = false
 
+# Internal sitemap generation parameters (Hugo emits /sitemap.xml, referenced by
+# static/robots.txt and submitted to Search Console). changefreq/priority are
+# hints only; Google largely ignores them but keeping them valid avoids warnings.
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [security]
   [security.funcs]
     getenv = ["^GA_MEASUREMENT_ID$"]
