@@ -95,6 +95,13 @@ CLAIM_CONTEXT = re.compile(
 )
 LEGAL_SENSITIVE = re.compile(r"\b(visa|luật|y tế|tài chính|đầu tư|bị phạt|quy định pháp)\b", re.I)
 MARKDOWN_LINK = re.compile(r"\[([^\]]+)\]\((https?://[^)]+)\)")
+# Markdown image: group 1 = alt text (may be empty), group 2 = path/URL.
+MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
+# ATX H2 headings (## ...). Used by the advisory SEO scorer.
+H2_HEADING = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
+# Meta description SERP snippet window (Google truncates ~155–160 chars).
+META_DESC_MIN = 120
+META_DESC_MAX = 160
 ATTRIBUTION_TAGS = re.compile(
     r"\[(Apple đã xác nhận|Phân tích|Phản hồi beta|Apple preview|Tin đồn|WWDC)\]",
     re.I,
@@ -129,6 +136,7 @@ class ComplianceReport:
         "errors": 0,
         "warnings": 0,
         "fixed": 0,
+        "seo_notes": 0,
     })
     issues: list[Issue] = field(default_factory=list)
 
@@ -138,6 +146,9 @@ class ComplianceReport:
             self.summary["errors"] += 1
         elif issue.severity == "WARN":
             self.summary["warnings"] += 1
+        elif issue.severity == "SEO":
+            # Advisory SEO score notes — never block the build, never promoted by --strict.
+            self.summary["seo_notes"] += 1
 
     def add_fix(self) -> None:
         self.summary["fixed"] += 1
@@ -409,6 +420,7 @@ class ComplianceChecker:
         self.check_tone(rel, body)
         self.check_repeated_end_sections(rel, body)
         self.check_seo(rel, meta, slug)
+        self.check_seo_score(rel, meta, body)
 
         self.posts_data.append({
             "file": rel,
@@ -875,6 +887,64 @@ class ComplianceChecker:
         if len(tags) > 12:
             self.add_issue("WARN", "TAG_STUFFING", rel, f"Post has {len(tags)} tags (> 12)")
 
+    def check_seo_score(self, rel: str, meta: dict, body: str) -> None:
+        """Advisory on-page SEO scorer.
+
+        Emits severity "SEO" notes only: these NEVER fail the build and are NOT
+        promoted by --strict (see ComplianceReport.add / add_issue). They surface
+        as a seo_notes count so on-page hygiene can be tracked and improved over
+        time without turning the ~294-post back catalogue into a red deploy gate.
+        """
+        if meta.get("noindex") is True:
+            return  # non-indexed page: on-page SEO scoring is moot
+
+        # 1) Meta description length — Google's SERP snippet window (~120–160).
+        desc = clean_text(meta.get("description"))
+        if desc:
+            if len(desc) < META_DESC_MIN:
+                self.add_issue(
+                    "SEO", "SEO_DESC_SHORT", rel,
+                    f"Meta description is {len(desc)} chars (< {META_DESC_MIN}); "
+                    f"aim for {META_DESC_MIN}–{META_DESC_MAX} to fill the SERP snippet",
+                )
+            elif len(desc) > META_DESC_MAX:
+                self.add_issue(
+                    "SEO", "SEO_DESC_LONG", rel,
+                    f"Meta description is {len(desc)} chars (> {META_DESC_MAX}); "
+                    f"Google will truncate — trim to {META_DESC_MIN}–{META_DESC_MAX}",
+                )
+
+        # 2) Markdown images must carry alt text (accessibility + image SEO).
+        missing_alt = 0
+        for alt, path in MARKDOWN_IMAGE.findall(body):
+            if not alt.strip():
+                missing_alt += 1
+        if missing_alt:
+            self.add_issue(
+                "SEO", "SEO_IMG_ALT_MISSING", rel,
+                f"{missing_alt} markdown image(s) have empty alt text; describe the "
+                "image with the target keyword where natural",
+            )
+
+        # 3) Focus keyword should appear in the H1 (title) and at least one H2.
+        #    Focus keyword = explicit focus_keyword front-matter, else first tag.
+        tags = meta.get("tags") or []
+        focus = clean_text(meta.get("focus_keyword")) or (clean_text(tags[0]) if tags else "")
+        if focus:
+            focus_cf = focus.casefold()
+            title_cf = clean_text(meta.get("title")).casefold()
+            if focus_cf and focus_cf not in title_cf:
+                self.add_issue(
+                    "SEO", "SEO_KEYWORD_NOT_IN_H1", rel,
+                    f"Focus keyword '{focus}' is absent from the H1/title",
+                )
+            h2s = [h.casefold() for h in H2_HEADING.findall(body)]
+            if h2s and not any(focus_cf in h for h in h2s):
+                self.add_issue(
+                    "SEO", "SEO_KEYWORD_NOT_IN_H2", rel,
+                    f"Focus keyword '{focus}' does not appear in any H2 heading",
+                )
+
     def check_duplicates(self) -> None:
         titles: dict[str, list[str]] = {}
         descriptions: dict[str, list[str]] = {}
@@ -946,6 +1016,7 @@ class ComplianceChecker:
         print(f"  Files scanned: {summary['files_scanned']}")
         print(f"  Errors:        {summary['errors']}")
         print(f"  Warnings:      {summary['warnings']}")
+        print(f"  SEO notes:     {summary.get('seo_notes', 0)} (advisory, non-blocking)")
         print(f"  Fixed:         {summary['fixed']}")
         if not self.report.issues:
             print("\nPASSED: no compliance issues found.")

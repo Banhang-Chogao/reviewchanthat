@@ -10,19 +10,19 @@
     {
       "@type": "Organization",
       "@id": "{{ $siteUrl }}#organization",
-      "name": {{ $siteName | jsonify }},
-      "url": {{ $siteUrl | jsonify }},
+      "name": {{ $siteName | jsonify | safeJS }},
+      "url": {{ $siteUrl | jsonify | safeJS }},
       "logo": {
         "@type": "ImageObject",
-        "url": {{ $logoUrl | jsonify }}
+        "url": {{ $logoUrl | jsonify | safeJS }}
       },
-      "description": {{ site.Params.description | jsonify }}
+      "description": {{ site.Params.description | jsonify | safeJS }}
     },
     {
       "@type": "WebSite",
       "@id": "{{ $siteUrl }}#website",
-      "url": {{ $siteUrl | jsonify }},
-      "name": {{ $siteName | jsonify }},
+      "url": {{ $siteUrl | jsonify | safeJS }},
+      "name": {{ $siteName | jsonify | safeJS }},
       "publisher": { "@id": "{{ $siteUrl }}#organization" },
       "inLanguage": "vi-VN",
       "potentialAction": {
@@ -38,21 +38,56 @@
     {
       "@type": "BlogPosting",
       "@id": "{{ .Permalink | absURL }}#article",
-      "headline": {{ .Title | jsonify }},
-      "description": {{ with .Description }}{{ . | jsonify }}{{ else }}{{ .Summary | plainify | truncate 200 | jsonify }}{{ end }},
-      "url": {{ .Permalink | absURL | jsonify }},
+      "headline": {{ .Title | jsonify | safeJS }},
+      "description": {{ with .Description }}{{ . | jsonify | safeJS }}{{ else }}{{ .Summary | plainify | truncate 200 | jsonify | safeJS }}{{ end }},
+      "url": {{ .Permalink | absURL | jsonify | safeJS }},
       "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
       "dateModified": "{{ with .Lastmod }}{{ .Format "2006-01-02T15:04:05Z07:00" }}{{ else }}{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}",
       "inLanguage": "vi-VN",
       {{- $imgStatus := .Params.image_status | default "" -}}
       {{- $imgOk := and .Params.image (or (eq $imgStatus "verified") (not $imgStatus)) -}}
-      "image": {{ if $imgOk }}{{ .Params.image | relURL | absURL | jsonify }}{{ else }}{{ $defaultImage | jsonify }}{{ end }},
+      "image": {{ if $imgOk }}{{ .Params.image | relURL | absURL | jsonify | safeJS }}{{ else }}{{ $defaultImage | jsonify | safeJS }}{{ end }},
       "author": {
         "@type": "Person",
-        "name": {{ (.Params.author | default $siteName) | jsonify }}
+        "name": {{ (.Params.author | default $siteName) | jsonify | safeJS }}
       },
       "publisher": { "@id": "{{ $siteUrl }}#organization" },
-      "mainEntityOfPage": { "@type": "WebPage", "@id": {{ .Permalink | absURL | jsonify }} }
+      "mainEntityOfPage": { "@type": "WebPage", "@id": {{ .Permalink | absURL | jsonify | safeJS }} }
+    }
+    ,
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ .Permalink | absURL }}#breadcrumb",
+      "itemListElement": [
+        {{- $pos := 2 -}}
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Trang chủ",
+          "item": {{ site.Home.Permalink | absURL | jsonify | safeJS }}
+        }
+        {{- with index .Params.categories 0 -}}
+        {{- $catSlug := . -}}
+        {{- with site.Data.categories.aliases -}}{{- $alias := index . (lower $catSlug) -}}{{- if $alias -}}{{- $catSlug = $alias -}}{{- end -}}{{- end -}}
+        {{- $catLabel := $catSlug -}}
+        {{- with site.Data.categories.items -}}{{- range . -}}{{- if eq .slug $catSlug -}}{{- $catLabel = .label -}}{{- end -}}{{- end -}}{{- end -}}
+        ,
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ $catLabel | jsonify | safeJS }},
+          "item": {{ printf "%s/" $catSlug | absURL | jsonify | safeJS }}
+        }
+        {{- $pos = 3 -}}
+        {{- end -}}
+        ,
+        {
+          "@type": "ListItem",
+          "position": {{ $pos }},
+          "name": {{ .Title | jsonify | safeJS }},
+          "item": {{ .Permalink | absURL | jsonify | safeJS }}
+        }
+      ]
     }
     {{- with .Params.faq -}}
     {{- if gt (len .) 0 -}},
@@ -64,10 +99,10 @@
         {{- if $i }},{{ end }}
         {
           "@type": "Question",
-          "name": {{ $item.question | jsonify }},
+          "name": {{ $item.question | jsonify | safeJS }},
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": {{ $item.answer | jsonify }}
+            "text": {{ $item.answer | jsonify | safeJS }}
           }
         }
         {{- end -}}
