@@ -4,7 +4,7 @@ title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quy
 seo_title = "AI hỗ trợ ra quyết định: khi nào nên dùng?"
 description = "AI hỗ trợ quyết định công việc và đời sống: khung pre-mortem, ma trận, so sánh phương án. Ưu–nhược, case Việt Nam, ranh giới đạo đức và FAQ."
 date = "2026-07-10T14:52:44+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 lastmod = "2026-07-10T14:52:44+07:00"
 date_display = "10-07-2026 14:52:44 GMT +7"
 lastmod_display = "10-07-2026 14:52:44 GMT +7"
@@ -61,7 +61,7 @@ title = "Pillar: Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
-image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:08+07:00"
 image_query = "credit card finance desk"
 +++
 

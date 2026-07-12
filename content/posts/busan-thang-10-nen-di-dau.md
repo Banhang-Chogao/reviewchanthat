@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T13:00:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Busan tháng 10 nên đi đâu? Gợi ý biển, phố đêm, làng văn hóa và lịch trình 2–3 ngày nhẹ nhàng cho chuyến đi mùa thu."
 draft = false
 image = "images/posts/busan-thang-10-nen-di-dau.webp"
@@ -97,7 +97,7 @@ value = "Cặp đôi, nhóm bạn, gia đình"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = "Giá vé và phí có thể thay đổi"
-image_attribution_checked_at = "2026-07-11T17:30:29+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:43+07:00"
 +++
 
 Busan tháng 10 là thời điểm nhiều du khách chọn để “đổi không khí” sau vài ngày ở Seoul. Khí hậu ven biển mát hơn mùa hè, đường phố thoáng hơn, và bạn vẫn có thể tắm biển nếu ngày nắng ấm. Tuy nhiên, Busan không phải điểm ngắm lá đỏ trọng tâm như Seoraksan hay Naejangsan — thế mạnh của thành phố này mùa thu nằm ở **biển, ẩm thực và không gian đi bộ buổi tối**.

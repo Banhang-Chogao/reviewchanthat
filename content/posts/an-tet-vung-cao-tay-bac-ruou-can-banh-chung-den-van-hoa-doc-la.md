@@ -62,7 +62,7 @@ ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-che
 title = "Review du lịch Tết 2027: tối ưu chi phí, tránh chặt chém"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-12T07:32:39+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "trải nghiệm ăn tết vùng"
 +++
 

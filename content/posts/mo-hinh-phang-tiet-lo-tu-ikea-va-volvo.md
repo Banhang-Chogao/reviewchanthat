@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh", "du-lich"]
-commit = "9008aff"
+commit = "cf6e8420"
 date = "2026-07-11T10:00:00+07:00"
 description = "Phân tích mô hình quản lý phẳng của Thụy Điển qua câu chuyện IKEA và Volvo, cùng bài học văn hóa doanh nghiệp Bắc Âu áp dụng cho doanh nghiệp Việt."
 draft = false
@@ -34,7 +34,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:04+07:00"
 image_query = "mô hình phẳng thụy điển"
 
 [[internal_links]]

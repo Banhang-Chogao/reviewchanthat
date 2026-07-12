@@ -3,12 +3,12 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "9008aff"
+commit = "cf6e8420"
 description = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link, BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa mưa."
 draft = false
 image = "images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp"
 image_alt = "Ảnh minh họa Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì? — nguồn Pixabay"
-image_attribution_checked_at = "2026-07-11T17:30:37+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -55,7 +55,6 @@ label = "Grab"
 
 [[tom_tat_nhanh]]
 label = "Nên chọn"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
 
 [[internal_links]]
 ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
@@ -64,6 +63,7 @@ title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,
 [[internal_links]]
 ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
 title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 ## Từ sân bay Suvarnabhumi về trung tâm Bangkok

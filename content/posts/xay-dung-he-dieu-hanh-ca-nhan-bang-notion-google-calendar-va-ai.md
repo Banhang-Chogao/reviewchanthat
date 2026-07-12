@@ -4,7 +4,7 @@ title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar
 seo_title = "Hệ điều hành cá nhân: Notion + Calendar + AI"
 description = "Cách ghép Notion, Google Calendar và AI thành personal OS: inbox, dự án, lịch và review tuần. Có checklist, bảng so sánh, FAQ — không biến app thành nghĩa vụ."
 date = "2026-07-10T14:58:30+07:00"
-commit = "9008aff"
+commit = "cf6e8420"
 lastmod = "2026-07-10T14:58:30+07:00"
 date_display = "10-07-2026 14:58:30 GMT +7"
 lastmod_display = "10-07-2026 14:58:30 GMT +7"
@@ -61,7 +61,7 @@ title = "Pillar: Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
-image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:09+07:00"
 image_query = "credit card finance desk"
 
 [[internal_links]]

@@ -1,7 +1,7 @@
 +++
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
 seo_title = "Luật Chuyển đổi số 2025: doanh nghiệp cần chuẩn bị gì?"
-commit = "9008aff"
+commit = "cf6e8420"
 date = "2026-07-11T11:30:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -54,7 +54,7 @@ url = "https://chinhphu.vn/chien-luoc-chuyen-doi-so-quoc-gia"
 [[external_links]]
 title = "Thông tư hướng dẫn kết nối hệ thống thông tin với Cổng dịch vụ công quốc gia"
 url = "https://vpcp.chinhphu.vn/huong-dan-ket-noi"
-image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:00+07:00"
 image_query = "điểm luật chuyển đổi số"
 
 [[internal_links]]

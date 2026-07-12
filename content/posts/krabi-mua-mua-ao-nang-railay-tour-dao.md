@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "9008aff"
+commit = "cf6e8420"
 description = "Krabi mùa mưa có đáng đi? phân tích Ao Nang, Railay Beach, tour 4 đảo, Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch."
 draft = false
 image = "images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp"

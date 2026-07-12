@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-08T12:00:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Mẹo gọi đồ tại Starbucks Vietnam — size, tùy chỉnh, dùng app order trước và tích điểm Rewards. Kinh nghiệm thực tế từ chi nhánh Nguyễn Văn Trỗi."
 draft = false
 image = "images/posts/starbucks-vietnam-meo-goi-order-va-rewards.webp"

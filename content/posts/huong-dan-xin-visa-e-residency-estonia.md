@@ -1,7 +1,7 @@
 +++
 title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
 seo_title = "Thủ Tục Xin e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
-commit = "9008aff"
+commit = "cf6e8420"
 date = "2026-07-11T14:00:00+07:00"
 draft = false
 description = "Hướng dẫn chi tiết chương trình e-Residency Estonia: quyền lợi mở công ty chuẩn EU từ xa, chi phí, hồ sơ và quy trình nộp đơn cho người Việt Nam."

@@ -2,7 +2,7 @@
 title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
 date = "2026-07-10T06:30:00+07:00"
 date_display = "10-07-2026 06:30:00 GMT +7"
-commit = "9008aff"
+commit = "cf6e8420"
 categories = ["tai-chinh"]
 tags = ["chứng khoán Việt Nam", "VN-Index", "cổ phiếu ngân hàng", "đầu tư", "rủi ro thị trường", "người mới chứng khoán"]
 author = "Minh Hoàng"
@@ -31,7 +31,7 @@ items = ["VN-Index gồm khoảng 30 cổ phiếu blue-chip (VCB, CTG, BID, ACB,
 image_commercial_use = true
 image_owner = "external"
 image_creator_id = "3088726"
-image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:48+07:00"
 image_provider = "pexels"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào? — nguồn Pexels"

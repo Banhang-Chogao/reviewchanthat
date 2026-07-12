@@ -1,7 +1,7 @@
 +++
 title = "Kinh Nghiệm Du Lịch Tự Túc Một Mình (Solo Travel) An Toàn Và Trọn Vẹn"
 seo_title = "Kinh nghiệm solo travel: du lịch một mình an toàn, trọn vẹn"
-commit = "9008aff"
+commit = "cf6e8420"
 date = "2026-07-11T14:10:00+07:00"
 draft = false
 tags = ["solo travel", "du lich tu tuc", "trai nghiem"]

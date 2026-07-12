@@ -2,7 +2,7 @@
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
 date = "2026-07-09T20:00:00+07:00"
 date_display = "09-07-2026 20:00:00 GMT +7"
-commit = "9008aff"
+commit = "cf6e8420"
 draft = false
 categories = ["tai-chinh"]
 author = "Minh Hoàng"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:20:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người"
 draft = false
 image = "images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp"
@@ -68,7 +68,7 @@ value = "Kháng cáo, enforcement tiếp, luật tương tự nơi khác"
 [[tom_tat_nhanh]]
 label = "Hợp với"
 value = "Ai đọc cả series hoặc cần bức tranh tổng thể nhanh"
-image_attribution_checked_at = "2026-07-11T17:30:26+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:39+07:00"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 

@@ -3,7 +3,7 @@ draft = false
 title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
 description = "BlackRock ($10 triliệu quản lý) dùng toán học nào? Học factor models, machine learning, ESG scoring, risk management, Aladdin platform, optimization algorithms."
 date = "2026-07-10T13:16:14+07:00"
-commit = "9008aff"
+commit = "cf6e8420"
 lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "BlackRock: factor models, machine learning, ESG, Aladdin"
 authors = ["Minh Hoàng"]
@@ -29,7 +29,7 @@ image_attribution_source = ""
 
 [ai_summary]
 items = ["BlackRock: Quản lý $10+ triliệu tài sản (lớn nhất thế giới)", "Aladdin: Platform AI/ML xử lý dữ liệu khổng lồ, tối ưu danh mục", "Factor Models: Fama-French 5 factor (market, size, value, profitability, investment)", "α = Return - β₁×Factor₁ - β₂×Factor₂ - ... (phân tích alpha khác volatility)", "Machine Learning: Deep learning dự báo return, risk, flow", "ESG Scoring: Toán học tổng hợp environmental, social, governance scores", "Optimization: Large-scale QP (quadratic programming) với 10k+ assets"]
-image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
 
 [[internal_links]]
 ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"

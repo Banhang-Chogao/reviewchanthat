@@ -3,7 +3,7 @@ noindex = true
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:25:00+07:00"
-commit = "9008aff"
+commit = "bc0c4a57"
 description = "| Code | Safety | Mô tả | |------|--------|--------| | baselinedebtblockingunrelateddeploy | unsafe | Nợ QA/image cũ fail full-site, chặn deploy feature mới | |"
 draft = false
 image = "images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp"
@@ -37,7 +37,7 @@ disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + Git
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
 title = "Tóm tắt nhanh"
-image_attribution_checked_at = "2026-07-11T17:30:31+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:46+07:00"
 image_query = "baseline debt chặn deploy qa"
 +++
 

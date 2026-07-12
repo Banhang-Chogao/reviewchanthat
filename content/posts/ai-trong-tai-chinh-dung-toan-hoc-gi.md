@@ -2,7 +2,7 @@
 title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
 description = "AI trong tài chính dùng deep learning (RNN, LSTM, Transformer), NLP phân tích sentiment và reinforcement learning cho giao dịch tối ưu, anomaly detection."
 date = "2026-07-10T12:30:00+07:00"
-commit = "9008aff"
+commit = "cf6e8420"
 lastmod = "2026-07-10T12:30:00+07:00"
 seo_title = "AI tài chính: deep learning, NLP và reinforcement learning"
 authors = ["Minh Hoàng"]
@@ -30,7 +30,7 @@ draft = false
 [ai_summary]
 items = ["Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)", "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)", "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài", "NLP: phân tích tin tức, social media → sentiment score → alpha signal", "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)", "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward", "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"]
 draft = false
-image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
 
 [[internal_links]]
 ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"

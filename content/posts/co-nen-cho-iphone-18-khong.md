@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17? phân tích theo từng đời máy, split launch, tin đồn nâng cấp và ngân sách cho người dùng Việt"
 draft = false
 image = "images/posts/co-nen-cho-iphone-18-khong.webp"

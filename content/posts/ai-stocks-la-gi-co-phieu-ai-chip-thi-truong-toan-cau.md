@@ -2,7 +2,7 @@
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
 date = "2026-07-10T05:00:00+07:00"
 date_display = "10-07-2026 05:00:00 GMT +7"
-commit = "9008aff"
+commit = "cf6e8420"
 categories = ["tai-chinh"]
 tags = ["AI stocks", "chip semiconductors", "cổ phiếu công nghệ", "đầu tư AI", "NVIDIA", "thị trường toàn cầu"]
 author = "Minh Hoàng"
@@ -34,7 +34,7 @@ image_creator_id = ""
 image_provider = "pexels"
 image_alt = "Ảnh minh họa AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam — nguồn Pexels"
 image_license_url = ""
-image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:49+07:00"
 image_query = "ai stocks gì cổ phiếu"
 
 [[internal_links]]

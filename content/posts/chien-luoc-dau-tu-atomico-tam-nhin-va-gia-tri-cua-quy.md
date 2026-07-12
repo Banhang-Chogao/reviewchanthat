@@ -1,7 +1,7 @@
 +++
 title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và Giá Trị Cốt Lõi Của Quỹ"
 seo_title = "Chiến lược đầu tư của Atomico: tầm nhìn và giá trị cốt lõi"
-commit = "9008aff"
+commit = "bc0f8d23"
 date = "2026-07-11T14:45:00+07:00"
 draft = false
 description = "Tìm hiểu chiến lược đầu tư của Atomico: cách quỹ chọn công ty, hỗ trợ startup phát triển và những giá trị cốt lõi tạo nên sự khác biệt của quỹ."

@@ -4,7 +4,7 @@ title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều 
 seo_title = "Dọn iPhone đúng cách: mượt hơn, nhiều bộ nhớ hơn"
 description = "Cách dọn iPhone sạch sẽ — giải phóng bộ nhớ, tăng tốc iPhone, xóa cache, tối ưu ảnh và app. Hướng dẫn chi tiết cho người Việt dùng iPhone."
 date = "2026-07-10T18:57:10+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"
@@ -69,7 +69,7 @@ title = "Cuộc sống số năm 2026: 30 thói quen"
 [[internal_links]]
 ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
 title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng"
-image_attribution_checked_at = "2026-07-11T17:30:43+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
 image_query = "mobile banking payment app"
 +++
 

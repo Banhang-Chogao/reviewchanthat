@@ -3,7 +3,7 @@ draft = false
 title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
 description = "Black-Scholes là công thức định giá option nổi tiếng. Học C = S×Φ(d1) - K×e^(-rT)×Φ(d2), Greeks, implied volatility, và ứng dụng thực tế."
 date = "2026-07-10T13:16:14+07:00"
-commit = "9008aff"
+commit = "cf6e8420"
 lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "Black-Scholes: định giá option, Greeks, implied volatility"
 authors = ["Minh Hoàng"]
@@ -29,7 +29,7 @@ image_attribution_source = ""
 
 [ai_summary]
 items = ["Black-Scholes: Công thức định giá call option được phát hiện năm 1973", "C = S×Φ(d1) - K×e^(-rT)×Φ(d2) — thứ nhất thấy e^(-rT) từ Bài 1!", "d1, d2 = công thức logarit + phân phối chuẩn để tính Φ (cumulative normal CDF)", "Giả định: σ hằng số, không có dividend, European option (chỉ thực hiện khi expiry)", "Implied Volatility: Đảo ngược công thức để tìm σ từ giá market", "Put-Call Parity: C - P = S - K×e^(-rT) (mối quan hệ call/put)", "Thực tế: Volatility Smile, American options, dividend adjustment cần mô hình phức tạp hơn"]
-image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
 
 [[internal_links]]
 ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"

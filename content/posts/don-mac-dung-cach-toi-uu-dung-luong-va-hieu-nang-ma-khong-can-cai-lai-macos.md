@@ -4,7 +4,7 @@ title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà kh
 seo_title = "Dọn Mac đúng cách: tối ưu dung lượng và tăng tốc MacBook"
 description = "Cách dọn Mac sạch — giải phóng bộ nhớ, tối ưu macOS, tăng tốc MacBook không cần cài lại. Hướng dẫn chi tiết cho người Việt dùng Mac."
 date = "2026-07-10T18:57:10+07:00"
-commit = "9008aff"
+commit = "bc0f8d23"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"
@@ -69,7 +69,7 @@ title = "Cuộc sống số năm 2026: 30 thói quen"
 [[internal_links]]
 ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
 title = "Dọn iPhone như thế nào để máy luôn mượt"
-image_attribution_checked_at = "2026-07-11T17:30:43+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:00+07:00"
 image_query = "dọn mac đúng cách tối"
 +++
 

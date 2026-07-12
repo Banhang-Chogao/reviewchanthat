@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Tòa Tổng EU ngày 8/7/2026 bác kiện Apple về gatekeeper App Store và iOS. Phân biệt vụ kiện này với phạt anti-steering €500M và kháng cáo của Apple."
 draft = false
 image = "images/posts/apple-thua-kien-eu-app-store-ios-dma.webp"
@@ -77,7 +77,7 @@ value = "Phạt anti-steering €500M (4/2025)"
 [[tom_tat_nhanh]]
 label = "Bước tiếp"
 value = "Kháng cáo Tòa Công lý EU trong 2 tháng 10 ngày"
-image_attribution_checked_at = "2026-07-11T17:30:25+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:38+07:00"
 +++
 
 Ngày **8 tháng 7 năm 2026**, Tòa Tổng của Liên minh châu Âu (General Court) tại Luxembourg đã **bác toàn bộ các đơn kiện** của Apple nhằm chống lại việc European Commission (EC) phân loại công ty này là **gatekeeper** — “người gác cổng” — đối với **App Store** và **hệ điều hành iOS** theo **Digital Markets Act (DMA)**.

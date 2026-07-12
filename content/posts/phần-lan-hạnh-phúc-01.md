@@ -1,7 +1,7 @@
 +++
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
 seo_title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới & Sisu"
-commit = "9008aff"
+commit = "cf6e8420"
 date = "2026-07-11T16:06:05+07:00"
 description = "Bí mật quốc gia hạnh phúc nhất thế giới: triết lý sống Sisu của Phần Lan và mô hình phúc lợi xã hội toàn diện nơi con người thực sự phát triển."
 categories = ["du-lich"]

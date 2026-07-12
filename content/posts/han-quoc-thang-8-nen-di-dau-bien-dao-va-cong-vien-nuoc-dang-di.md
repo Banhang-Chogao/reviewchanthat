@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Hàn Quốc tháng 8 nên đi đâu? Gợi ý biển, đảo, công viên nước và điểm tránh nóng tốt nhất. Kèm lịch trình 5 ngày cho kỳ nghỉ hè."
 draft = false
 image = "images/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.webp"

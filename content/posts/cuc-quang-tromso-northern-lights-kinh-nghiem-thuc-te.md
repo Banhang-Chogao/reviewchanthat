@@ -1,6 +1,7 @@
 +++
 title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
 seo_title = "Cực quang Tromsø Na Uy: kinh nghiệm săn Northern Lights"
+commit = "cf6e8420"
 date = "2026-07-12T07:45:37+07:00"
 description = "Bí quyết tối đa hóa cơ hội ngắm Cực quang (Northern Lights) tại Tromsø, Na Uy: thời điểm tốt nhất, cách chọn tour, trang bị và những sai lầm cần tránh."
 categories = ["du-lich"]

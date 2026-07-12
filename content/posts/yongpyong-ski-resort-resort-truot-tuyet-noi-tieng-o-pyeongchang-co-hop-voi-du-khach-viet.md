@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:30:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Yongpyong Ski Resort Pyeongchang — ski resort lớn nhất Hàn Quốc, địa điểm Olympic 2018. So sánh chi phí, di chuyển, slope cho người mới và lời khuyên thực tế."
 draft = false
 image = "images/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.webp"
@@ -80,7 +80,7 @@ image_status = "verified"
 image_provider = "pexels"
 image_creator = "kwon osu"
 image_creator_url = "https://www.pexels.com/@kwon-osu-147593907"
-image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:10+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt? — nguồn Pexels"
 +++

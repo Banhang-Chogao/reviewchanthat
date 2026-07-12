@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "9008aff"
+commit = "cf6e8420"
 description = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu."
 draft = false
 image = "images/posts/bangkok-3-ngay-3-dem-mua-mua.webp"
@@ -56,7 +56,7 @@ value = "Người đi lần đầu"
 [[tom_tat_nhanh]]
 label = "Di chuyển"
 value = "ARL + BTS"
-image_attribution_checked_at = "2026-07-11T17:30:35+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:49+07:00"
 image_query = "đi bangkok ngày đêm mùa"
 
 [[internal_links]]

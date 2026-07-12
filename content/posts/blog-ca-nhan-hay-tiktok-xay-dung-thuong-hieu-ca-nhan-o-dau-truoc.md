@@ -2,7 +2,7 @@
 title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
 date = "2026-07-10T00:35:00+07:00"
 date_display = "10-07-2026 00:35:00 GMT +7"
-commit = "9008aff"
+commit = "4bbb7284"
 slug = "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "TikTok", "thương hiệu cá nhân", "personal branding", "content strategy", "SEO cá nhân"]
@@ -30,7 +30,7 @@ image_creator_url = "https://www.pexels.com/@mizunokozuki"
 image_creator_id = "264153375"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-11T17:30:33+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:48+07:00"
 +++
 Câu hỏi xuất hiện rất sớm khi ai đó muốn xây thương hiệu cá nhân: **blog cá nhân hay TikTok nên đi trước?** Một bên nghe “bền, SEO, chuyên nghiệp”. Một bên nghe “nhanh, đông, dễ thấy kết quả”. Chọn sai thứ tự không làm bạn thất bại vĩnh viễn — nhưng có thể khiến bạn **kiệt sức** hoặc **xây trên đất thuê** mà tưởng đã có tài sản.
 

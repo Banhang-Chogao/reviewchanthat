@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Nami Island mùa hè là day trip lý tưởng từ Seoul để tránh nóng: tán cây Metasequoia xanh mát, zipline vào đảo, đi thuyền trên sông Bukhan."
 draft = false
 image = "images/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.webp"

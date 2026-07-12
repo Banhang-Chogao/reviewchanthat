@@ -4,7 +4,7 @@ title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trì
 seo_title = "AI travel planner: lịch trình & chi phí thực tế"
 description = "Dùng AI itinerary cho Hàn/Thái/Việt: lịch ngày, budget, checklist vali. Luôn đối chiếu nguồn chính thức. Bảng so sánh tự plan vs agency, FAQ."
 date = "2026-07-10T14:56:44+07:00"
-commit = "9008aff"
+commit = "cf6e8420"
 lastmod = "2026-07-10T14:56:44+07:00"
 date_display = "10-07-2026 14:56:44 GMT +7"
 lastmod_display = "10-07-2026 14:56:44 GMT +7"
@@ -61,7 +61,7 @@ title = "Pillar: Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
-image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:01+07:00"
 image_query = "autumn fallen leaves brown orange"
 
 [[internal_links]]

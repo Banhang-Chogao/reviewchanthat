@@ -1,7 +1,7 @@
 +++
 title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
 seo_title = "Sauna Phần Lan: di sản UNESCO và văn hóa cộng đồng"
-commit = "9008aff"
+commit = "cf6e8420"
 date = "2026-07-11T16:06:05+07:00"
 description = "Phần Lan có hơn 3 triệu sauna cho 5,5 triệu dân — gần như mỗi 2 người một sauna. Khám phá văn hóa sauna từ lịch sử đến ý nghĩa xã hội hiện đại."
 categories = ["du-lich"]

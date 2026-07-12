@@ -62,7 +62,7 @@ ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
 title = "Lịch nghỉ Tết Nguyên Đán 2027 (dự kiến) và lộ trình tối ưu ngày nghỉ"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-12T07:32:43+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:12+07:00"
 image_query = "curated"
 +++
 

@@ -4,7 +4,7 @@ title = "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày"
 seo_title = "20 công cụ AI tiết kiệm 2 giờ/ngày (2026)"
 description = "Danh sách 20 công cụ AI thực dụng cho viết, họp, học và tài chính. Có bảng so sánh, checklist chọn tool và lưu ý chi phí — không FOMO, không quảng cáo ảo."
 date = "2026-07-10T14:52:38+07:00"
-commit = "9008aff"
+commit = "c83c9142"
 lastmod = "2026-07-10T14:52:38+07:00"
 date_display = "10-07-2026 14:52:38 GMT +7"
 lastmod_display = "10-07-2026 14:52:38 GMT +7"
@@ -69,7 +69,7 @@ title = "Personal Finance 2026: tiết kiệm tự động"
 [[internal_links]]
 ref = "posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md"
 title = "So sánh ví điện tử Việt Nam"
-image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:01+07:00"
 image_query = "mobile banking payment app"
 +++
 

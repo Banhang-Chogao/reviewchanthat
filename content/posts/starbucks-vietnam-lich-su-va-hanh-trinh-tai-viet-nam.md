@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-08T14:00:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Nếu bạn từng đứng trước quầy Starbucks ở Sài Gòn, gọi một ly Caramel Macchiato rồi ngồi nhìn dòng xe qua lại, có lẽ ít ai nghĩ thương hiệu này mới chỉ có mặt"
 draft = false
 image = "images/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.webp"

@@ -2,7 +2,7 @@
 title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
 date = "2026-07-10T00:30:00+07:00"
 date_display = "10-07-2026 00:30:00 GMT +7"
-commit = "9008aff"
+commit = "4bbb7284"
 slug = "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "thương hiệu cá nhân", "viết blog", "personal branding", "content strategy", "SEO cá nhân"]
@@ -30,7 +30,7 @@ image_creator_url = "https://www.pexels.com/@karola-g"
 image_creator_id = "2332540"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-11T17:30:33+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:47+07:00"
 +++
 Nhiều người mở blog cá nhân với hứng khởi, viết được ba bài rồi dừng. Không phải vì lười. Phần lớn kẹt ở câu hỏi rất thật: **blog cá nhân nên viết gì** để vừa có người đọc, vừa xây được thương hiệu cá nhân, chứ không chỉ “viết cho vui” rồi bỏ dở.
 

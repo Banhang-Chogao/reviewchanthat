@@ -1,6 +1,7 @@
 +++
 title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
 seo_title = "Cách Mạng Xe Điện: Vì Sao Na Uy Dẫn Đầu Thế Giới?"
+commit = "cf6e8420"
 date = "2026-07-12T07:44:37+07:00"
 description = "Vì sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới về xe điện? Chính sách, hạ tầng sạc, thách thức và bài học cho các nước khác."
 categories = ["du-lich"]

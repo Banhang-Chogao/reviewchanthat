@@ -3,7 +3,7 @@ noindex = true
 title = "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD"
 date = "2026-07-09T20:21:28+07:00"
 date_display = "09-07-2026 20:21:28 GMT +7"
-commit = "9008aff"
+commit = "cf6e8420"
 slug = "github-actions-run-start-delays-july-9-2026-ci-cd-protection"
 categories = ["cong-nghe"]
 tags = ["GitHub Actions", "GitHub Pages", "CI/CD", "DevOps", "GitHub Status", "incident response"]
@@ -36,7 +36,7 @@ enabled = true
 collapsed = false
 disclaimer = "This article is based on GitHub's public status updates. Operational details may change if GitHub publishes follow-up information."
 items = ["GitHub reported degraded availability for Actions on July 9, 2026, with hosted-runner jobs delayed or failing to start.", "GitHub Pages builds were also affected during part of the incident, while existing Pages sites remained accessible according to GitHub's update.", "A queued workflow is not automatically a broken commit; if the job never reached checkout, your code has not been tested yet.", "Teams can reduce impact with concurrency controls, limited retries, platform-incident detection, non-essential workflow pauses, and post-deploy live verification."]
-image_attribution_checked_at = "2026-07-11T17:30:36+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:50+07:00"
 image_query = "github actions delays starting runs"
 
 [[internal_links]]

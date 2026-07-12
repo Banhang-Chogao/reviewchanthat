@@ -1,7 +1,7 @@
 +++
 title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
 seo_title = "Smart ring là gì? Có nên mua nhẫn thông minh 2026?"
-commit = "9008aff"
+commit = "cf6e8420"
 date = "2026-07-11T12:50:00+07:00"
 draft = false
 tags = ["smart ring", "health tracking", "wearable"]

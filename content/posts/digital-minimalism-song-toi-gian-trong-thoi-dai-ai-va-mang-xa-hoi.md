@@ -4,7 +4,7 @@ title = "Digital Minimalism: sống tối giản trong thời đại AI và mạ
 seo_title = "Digital Minimalism: sống tối giản thời đại AI và mạng xã hội"
 description = "Digital minimalism là sống tối giản trong thời đại AI — cách giảm thiết bị, app, dữ liệu để tập trung vào điều thực sự quan trọng. Áp dụng cho người Việt."
 date = "2026-07-10T18:57:10+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"
@@ -73,7 +73,7 @@ title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại"
 [[internal_links]]
 ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
 title = "Sống thông minh trong thời đại AI"
-image_attribution_checked_at = "2026-07-11T17:30:43+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
 image_query = "mobile banking payment app"
 +++
 

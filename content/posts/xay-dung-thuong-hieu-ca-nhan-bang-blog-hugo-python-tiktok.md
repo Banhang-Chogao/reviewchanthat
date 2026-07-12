@@ -2,7 +2,7 @@
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
 date = "2026-07-10T00:10:00+07:00"
 date_display = "10-07-2026 00:10:00 GMT +7"
-commit = "9008aff"
+commit = "cf6e8420"
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
@@ -35,7 +35,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok — nguồn Pexels"
-image_attribution_checked_at = "2026-07-11T17:30:37+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
 image_query = "xây dựng thương hiệu cá"
 
 [[internal_links]]

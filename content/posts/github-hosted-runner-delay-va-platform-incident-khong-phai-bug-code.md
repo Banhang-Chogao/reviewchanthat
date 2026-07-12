@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:10:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "| Code | Safety | Mô tả | |------|--------|--------| | runnercapacitydelay | unsafe | GitHub-hosted runner thiếu capacity; job chờ lâu trước khi start | |"
 draft = false
 image = "images/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code.webp"

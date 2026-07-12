@@ -1,5 +1,6 @@
 +++
 title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
+commit = "cf6e8420"
 date = "2026-07-11T09:00:00+07:00"
 date_display = "11-07-2026 09:00:00 GMT +7"
 categories = ["review"]
@@ -32,7 +33,7 @@ image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
 image_creator_id = ""
-image_attribution_checked_at = "2026-07-11T18:26:12+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank — nguồn Pixabay"
 

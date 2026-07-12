@@ -2,7 +2,7 @@
 title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
 date = "2026-07-10T08:00:00+07:00"
 date_display = "10-07-2026 08:00:00 GMT +7"
-commit = "9008aff"
+commit = "cf6e8420"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "app ngân hàng tốt nhất Việt Nam", "Techcombank Mobile", "VPBank NEO", "Cake by VPBank", "ACB", "MB Bank", "ngân hàng số nào tốt", "miễn phí chuyển khoản", "lãi suất tiết kiệm online"]
 author = "Minh Hoàng"
@@ -32,7 +32,7 @@ enabled = true
 collapsed = false
 disclaimer = "So sánh khách quan dựa trên lãi suất niêm yết, phí và tính năng công bố công khai tháng 7/2026. Thông tin có thể thay đổi theo chính sách từng ngân hàng."
 items = ["VPBank NEO dẫn đầu về quy mô người dùng (15,4 triệu) và giải thưởng — Ứng dụng ngân hàng tốt nhất Việt Nam 2026 (The Asian Banker).", "Cake by VPBank có lãi suất tiết kiệm cạnh tranh nhất thị trường: 7,2% (6 tháng), 7,4% (12 tháng).", "Techcombank Mobile có sinh lời tự động, miễn phí chuyển khoản online và ưu đãi thứ Hai (lãi suất ~7,35%).", "ACB và MB Bank là lựa chọn trung gian giữa Big 4 truyền thống và các ngân hàng số thuần túy.", "Big 4 (Vietcombank, BIDV, VietinBank, Agribank): lãi suất thấp hơn nhưng mạng lưới chi nhánh rộng nhất."]
-image_attribution_checked_at = "2026-07-11T17:30:37+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:51+07:00"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến — nguồn Pexels"
 

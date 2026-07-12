@@ -3,11 +3,11 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T08:20:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Danh sách iPhone tương thích iOS 27 theo Apple, phân tích Apple Intelligence, iPhone cũ và lộ trình cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-ho-tro-iphone-nao.webp"
-image_attribution_checked_at = "2026-07-11T17:30:19+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:29+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true

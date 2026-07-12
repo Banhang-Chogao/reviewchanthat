@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Haeundae vs Gwangalli: so sánh chi tiết hai bãi biển nổi tiếng nhất Busan. Nên chọn bãi nào cho chuyến du lịch mùa hè?"
 draft = false
 image = "images/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.webp"

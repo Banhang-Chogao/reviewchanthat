@@ -4,7 +4,7 @@ title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu
 seo_title = "Password Manager là gì? Có nên dùng năm 2026?"
 description = "Password manager là gì? So sánh Bitwarden, 1Password, KeePass năm 2026 — có nên dùng, cách chọn và hướng dẫn thiết lập cho người Việt."
 date = "2026-07-10T18:57:10+07:00"
-commit = "9008aff"
+commit = "bc0f8d23"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"
@@ -65,7 +65,7 @@ answer = "Nên. Tự động điền an toàn hơn tự gõ mật khẩu thủ c
 [[internal_links]]
 ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon.md"
 title = "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn"
-image_attribution_checked_at = "2026-07-11T17:30:42+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:58+07:00"
 image_query = "mobile banking payment app"
 +++
 

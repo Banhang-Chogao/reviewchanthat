@@ -1,7 +1,7 @@
 +++
 title = "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
 seo_title = "Phần Lan: Từ Nokia Đến 5G, Siêu Cường Công Nghệ Bắc Âu"
-commit = "9008aff"
+commit = "cf6e8420"
 date = "2026-07-11T16:06:05+07:00"
 description = "Câu chuyện Phần Lan từ Nokia, Linux đến Supercell và vai trò trung tâm trong phát triển 5G/6G. Vì sao 1/5 startup công nghệ châu Âu ra đời tại đây?"
 categories = ["du-lich"]

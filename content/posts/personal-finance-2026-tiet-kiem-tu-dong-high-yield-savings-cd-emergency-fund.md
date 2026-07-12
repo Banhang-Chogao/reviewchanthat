@@ -2,7 +2,7 @@
 title = "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?"
 date = "2026-07-10T06:00:00+07:00"
 date_display = "10-07-2026 06:00:00 GMT +7"
-commit = "9008aff"
+commit = "cf6e8420"
 categories = ["tai-chinh"]
 tags = ["personal finance", "tiết kiệm tự động", "high yield savings", "chứng chỉ tiền gửi", "emergency fund", "quản lý tài chính cá nhân", "financial health"]
 author = "Minh Hoàng"
@@ -32,7 +32,7 @@ enabled = true
 collapsed = false
 disclaimer = "Bài viết giáo dục về quản lý tài chính cá nhân; không phải tư vấn đầu tư hay sản phẩm tài chính cụ thể. Lãi suất và điều khoản tham khảo thực tế tại từng ngân hàng."
 items = ["High-yield savings account là tài khoản tiết kiệm lãi suất cao hơn tài khoản thanh toán thông thường, phù hợp với quỹ dự phòng và tiền ngắn hạn.", "CD (Certificate of Deposit — chứng chỉ tiền gửi) là sản phẩm tiết kiệm có kỳ hạn cố định, lãi suất thường cao hơn tài khoản tiết kiệm thông thường.", "Tiết kiệm tự động (automated savings) là thiết lập chuyển tiền định kỳ từ tài khoản chính vào tài khoản tiết kiệm, giúp duy trì kỷ luật tài chính.", "Emergency fund (quỹ khẩn cấp) là khoản tiền dành cho tình huống bất ngờ; quy tắc phổ biến là 3–6 tháng chi phí sinh hoạt."]
-image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
+image_attribution_checked_at = "2026-07-12T08:48:49+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì? — nguồn Pixabay"
 

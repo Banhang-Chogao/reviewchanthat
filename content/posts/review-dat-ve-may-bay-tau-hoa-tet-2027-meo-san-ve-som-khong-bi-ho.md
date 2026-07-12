@@ -62,7 +62,7 @@ ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
 title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: quà tặng xanh và sức khỏe"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-11T22:00:11+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "airplanes at airport runway"
 +++
 

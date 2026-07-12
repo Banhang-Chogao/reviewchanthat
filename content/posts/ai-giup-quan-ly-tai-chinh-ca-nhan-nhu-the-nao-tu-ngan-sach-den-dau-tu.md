@@ -4,7 +4,7 @@ title = "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân s
 seo_title = "AI tài chính cá nhân: ngân sách đến đầu tư"
 description = "AI giúp quản lý tài chính cá nhân: lập ngân sách, theo dõi chi tiêu và gợi ý đầu tư cơ bản cho người Việt, kèm bảng so sánh và FAQ an toàn dữ liệu."
 date = "2026-07-10T14:54:44+07:00"
-commit = "9008aff"
+commit = "c83c9142"
 lastmod = "2026-07-10T14:54:44+07:00"
 date_display = "10-07-2026 14:54:44 GMT +7"
 lastmod_display = "10-07-2026 14:54:44 GMT +7"
@@ -61,7 +61,7 @@ title = "Pillar: Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
-image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:01+07:00"
 image_query = "mobile banking payment app"
 +++
 

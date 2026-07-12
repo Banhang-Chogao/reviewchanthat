@@ -62,7 +62,7 @@ ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-12T07:32:41+07:00"
+image_attribution_checked_at = "2026-07-12T08:49:12+07:00"
 image_query = "đón tết miền tây sông"
 +++
 

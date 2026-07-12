@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "9008aff"
+commit = "4bbb7284"
 description = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ nhiều lớp, màu sắc hợp mùa thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan."
 draft = false
 image = "images/posts/di-han-thang-10-mac-gi.webp"
