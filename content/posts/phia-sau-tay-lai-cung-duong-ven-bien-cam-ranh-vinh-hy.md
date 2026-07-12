@@ -1,7 +1,7 @@
 +++
 title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
 seo_title = "Cung Đường Ven Biển Cam Ranh – Vĩnh Hy: Ký Sự Road Trip"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T09:00:00+07:00"
 draft = false
 description = "Ký sự road trip cung đường ven biển Cam Ranh – Vĩnh Hy: vách núi khô cằn Vườn quốc gia Núi Chúa, làn nước ngọc bích và những làng chài cổ yên bình."

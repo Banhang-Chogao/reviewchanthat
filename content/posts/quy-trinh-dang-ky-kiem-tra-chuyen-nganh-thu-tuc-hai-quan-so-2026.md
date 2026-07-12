@@ -1,7 +1,7 @@
 +++
 title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
 seo_title = "Thủ Tục Hải Quan Số Và Kiểm Tra Chuyên Ngành 2026"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T06:00:00+07:00"
 draft = false
 description = "Hướng dẫn thủ tục hải quan số 2026 trên Cơ chế một cửa quốc gia: quy trình đăng ký kiểm tra chuyên ngành, kiểm dịch và an toàn thực phẩm cho doanh nghiệp."

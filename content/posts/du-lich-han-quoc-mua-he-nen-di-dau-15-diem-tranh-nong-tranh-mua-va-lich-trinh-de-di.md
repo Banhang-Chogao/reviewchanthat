@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "Du lịch Hàn Quốc mùa hè nên đi đâu? Gợi ý 15 điểm tránh nóng, tránh mưa ở Seoul, Busan, Jeju kèm lịch trình chi tiết 3–7 ngày cho người đi lần đầu."
 image = "images/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.webp"
 image_attribution_checked_at = "2026-07-11T17:30:17+07:00"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review", "cong-nghe"]
 date = "2026-06-18T10:00:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ."
 draft = false
 image = "images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp"

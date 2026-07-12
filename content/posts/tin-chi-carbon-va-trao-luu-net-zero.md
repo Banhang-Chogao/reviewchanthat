@@ -1,6 +1,6 @@
 +++
 title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T09:00:00+07:00"
 date_display = "11-07-2026 09:00:00 GMT +7"
 categories = ["review"]

@@ -1,7 +1,7 @@
 +++
 title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
 seo_title = "Giáo dục Phần Lan: không bài tập về nhà, không áp lực"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T16:06:05+07:00"
 description = "Khám phá mô hình giáo dục Phần Lan được thế giới ngưỡng mộ: không bài tập về nhà quá tải, không kiểm tra chuẩn hóa và mọi học sinh được hỗ trợ bình đẳng."
 categories = ["du-lich"]

@@ -1,7 +1,7 @@
 +++
 title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
 seo_title = "Du lịch Na Uy tự túc: chi phí và lộ trình Fjord chi tiết"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T10:30:00+07:00"
 description = "Khám phá du lịch Na Uy độc lập: mùa du lịch tốt nhất, chi phí thực tế, lộ trình tối ưu qua các Fjord nổi tiếng và những lưu ý quan trọng."
 categories = ["du-lich"]

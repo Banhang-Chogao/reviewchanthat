@@ -1,7 +1,7 @@
 +++
 title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
 seo_title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T15:00:00+07:00"
 draft = false
 description = "Atomico đã thay đổi cách nhà đầu tư nhìn nhận châu Âu, cách nhà khởi nghiệp nghĩ về chính mình và đưa châu Âu thành trung tâm công nghệ toàn cầu."

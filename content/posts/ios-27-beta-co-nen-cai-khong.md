@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "iOS 27 public/developer beta có nên cài không? rủi ro ổn định, app ngân hàng, rollback và profile Apple Beta cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-beta-co-nen-cai-khong.webp"

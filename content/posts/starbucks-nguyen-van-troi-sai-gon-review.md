@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-09T08:00:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "Review Starbucks Nguyễn Văn Trỗi Phú Nhuận — nhân viên nhiệt tình, đồ uống pha ngon, không gian thoải mái. Ảnh chụp thực tế kèm theo."
 draft = false
 image = "images/posts/starbucks-nguyen-van-troi-sai-gon-review.webp"

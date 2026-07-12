@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:20:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "Digital Markets Act (DMA) là gì? Cách EU siết Apple, Google, Meta qua gatekeeper, nghĩa vụ anti-steering và phạt không tuân thủ — phân biệt với vụ kiện tòa"
 draft = false
 image = "images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp"

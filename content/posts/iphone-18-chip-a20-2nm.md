@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:00:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "iPhone 18 chip A20 có gì đáng chú ý? Tin đồn TSMC N2 2nm, A20 vs A20 Pro, hiệu năng, pin và Apple Intelligence — nguồn MacRumors, AppleInsider."
 draft = false
 image = "images/posts/iphone-18-chip-a20-2nm.webp"

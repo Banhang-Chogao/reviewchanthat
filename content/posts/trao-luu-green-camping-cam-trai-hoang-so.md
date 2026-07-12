@@ -1,7 +1,7 @@
 +++
 title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
 seo_title = "Green Camping: Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T14:00:00+07:00"
 draft = false
 tags = ["green camping", "camping", "du lich chua lanh"]

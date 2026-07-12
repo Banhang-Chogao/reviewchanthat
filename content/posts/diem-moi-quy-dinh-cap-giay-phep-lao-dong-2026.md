@@ -1,7 +1,7 @@
 +++
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
 seo_title = "Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T05:30:00+07:00"
 draft = false
 description = "Cập nhật các điểm mới trong quy định cấp giấy phép lao động cho người nước ngoài 2026: điều kiện kinh nghiệm, thủ tục giải trình nhu cầu và hồ sơ work permit."

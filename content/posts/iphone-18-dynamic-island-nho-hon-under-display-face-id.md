@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:00:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "Từ iPhone 14 Pro, Dynamic Island đã trở thành “khuôn mặt” nhận diện iPhone cao cấp — nhưng cũng là thứ nhiều người muốn biến mất. Với iPhone 18, cộng đồng leak"
 draft = false
 image = "images/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.webp"

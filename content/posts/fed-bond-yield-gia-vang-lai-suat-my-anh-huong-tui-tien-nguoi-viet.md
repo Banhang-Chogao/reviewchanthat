@@ -2,7 +2,7 @@
 title = "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?"
 date = "2026-07-10T03:30:00+07:00"
 date_display = "10-07-2026 03:30:00 GMT +7"
-commit = "23ab7765"
+commit = "b6fb0a55"
 categories = ["tai-chinh"]
 tags = ["Fed", "lãi suất", "giá vàng", "bond yield", "kinh tế Mỹ", "kinh tế Việt Nam", "tỷ giá"]
 author = "Minh Hoàng"

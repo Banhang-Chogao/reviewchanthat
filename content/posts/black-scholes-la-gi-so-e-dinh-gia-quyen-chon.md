@@ -3,7 +3,7 @@ draft = false
 title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
 description = "Black-Scholes là công thức định giá option nổi tiếng. Học C = S×Φ(d1) - K×e^(-rT)×Φ(d2), Greeks, implied volatility, và ứng dụng thực tế."
 date = "2026-07-10T13:16:14+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "Black-Scholes: định giá option, Greeks, implied volatility"
 authors = ["Minh Hoàng"]

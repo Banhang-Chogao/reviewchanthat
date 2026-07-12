@@ -1,7 +1,7 @@
 +++
 title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
 seo_title = "Phục hồi da cháy nắng cấp tốc và tóc xơ rối sau đi biển"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T12:20:00+07:00"
 draft = false
 tags = ["phuc hoi da chay nang", "serum nha nang", "cham soc toc xo roi", "du lich bien"]

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:40:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "Blue Titanium trên iPhone 15 Pro Max: độ đẹp khi mới, phai màu theo thời gian, giá máy cũ và có nên săn màu này năm 2026."
 draft = false
 image = "images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp"

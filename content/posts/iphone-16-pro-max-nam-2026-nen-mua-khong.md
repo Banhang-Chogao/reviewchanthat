@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:20:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "Có nên mua iPhone 16 Pro Max năm 2026: giá, thời điểm iPhone mới, so 15 Pro Max cũ và checklist quyết định cuối series."
 draft = false
 image = "images/posts/iphone-16-pro-max-nam-2026-nen-mua-khong.webp"

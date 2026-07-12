@@ -1,7 +1,7 @@
 +++
 title = "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ"
 seo_title = "Độc hành Tà Năng Phan Dũng: tiếng gọi của rừng già"
-commit = "23ab7765"
+commit = "b6fb0a55"
 date = "2026-07-11T10:00:00+07:00"
 draft = false
 description = "Ký sự độc hành trekking Tà Năng Phan Dũng mùa cỏ xanh tháng 7: xuyên rừng ba tỉnh, dựng lều giữa đỉnh đồi và những bài học về sinh tồn."

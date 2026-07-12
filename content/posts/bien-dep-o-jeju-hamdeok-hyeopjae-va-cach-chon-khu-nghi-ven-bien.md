@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "23ab7765"
+commit = "b6fb0a55"
 description = "Bãi biển đẹp nhất Jeju: Hamdeok nước xanh như Maldives, Hyeopjae hoàng hôn lãng mạn. So sánh và gợi ý chọn resort ven biển Jeju."
 draft = false
 image = "images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp"
