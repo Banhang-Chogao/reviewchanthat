@@ -1,7 +1,7 @@
 +++
 title = "Ẩm thực chợ truyền thống Hàn Quốc: bản đồ các khu chợ và món nhất định phải thử 2026"
 seo_title = "Ẩm thực chợ truyền thống Hàn Quốc: khu chợ & món phải thử"
-commit = ""
+commit = "aa4bab32"
 date = "2026-07-12T18:10:00+07:00"
 draft = false
 description = "Ẩm thực chợ truyền thống Hàn Quốc 2026: bản đồ các khu chợ nổi bật ở Seoul, Busan, Jeju và những món như bindaetteok, tteokbokki, sundae nhất định phải thử."
