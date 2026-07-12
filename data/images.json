@@ -7676,7 +7676,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill — nguồn Pixabay",
       "gate_verified": true
+    },
+    {
+      "slug": "michelin-restaurants-ho-chi-minh-city-must-try",
+      "title": "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)",
+      "image_id": "img-70cb1471",
+      "source_platform": "Pixabay",
+      "image_provider": "pixabay",
+      "source_url": "https://pixabay.com/photos/women-ao-dai-bicycle-girls-friends-6710736/",
+      "direct_url": "https://pixabay.com/get/g76d020110fe6be6fc91e80157f9218b48a4ce98d754f3c11c02924aff8a3400ccb4db1bd6d76c1baa4a2fe67d312de2cf21001821ef8c0f9bdd38675a958f0d9_1280.jpg",
+      "creator": "TieuBaoTruong",
+      "creator_url": "https://pixabay.com/photos/women-ao-dai-bicycle-girls-friends-6710736/",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pixabay Content License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/michelin-restaurants-ho-chi-minh-city-must-try.jpg",
+      "output_path": "static/images/posts/michelin-restaurants-ho-chi-minh-city-must-try.webp",
+      "watermark_text": "Source: Pixabay / TieuBaoTruong",
+      "provider_used": "Pixabay",
+      "attribution_verified": true,
+      "attribution_source": "pixabay_api",
+      "image_query": "michelin restaurants ho chi minh",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide) — nguồn Pixabay",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-12T15:42:03.215057+00:00"
+  "generated_at": "2026-07-12T15:57:06.421611+00:00"
 }
