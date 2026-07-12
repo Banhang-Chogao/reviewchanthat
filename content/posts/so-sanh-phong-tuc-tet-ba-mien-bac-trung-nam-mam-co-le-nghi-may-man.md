@@ -60,6 +60,14 @@ title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: quà tặng xanh và sứ
 [[internal_links]]
 ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: rượu cần, bánh chưng đen"
+
+[[internal_links]]
+ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
+title = "Đón Tết miền Tây sông nước: chợ nổi, thịt kho rục"
+
+[[internal_links]]
+ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
+title = "Cẩm nang dọn nhà đón Tết 2027 theo phong cách Danshari"
 image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-12T07:32:38+07:00"

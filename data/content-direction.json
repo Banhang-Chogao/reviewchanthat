@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-12T06:38:50+07:00",
-  "generated_at_display": "12-07-2026 06:38:50",
+  "generated_at": "2026-07-12T07:42:48+07:00",
+  "generated_at_display": "12-07-2026 07:42:48",
   "summary": {
-    "total_posts": 279,
+    "total_posts": 284,
     "draft_posts": 0,
-    "total_words": 418476,
-    "average_words_per_post": 1500,
+    "total_words": 425244,
+    "average_words_per_post": 1497,
     "categories_count": 5,
-    "tags_count": 905,
+    "tags_count": 930,
     "authors_count": 3,
     "parse_warnings": 0
   },
@@ -26,7 +26,7 @@
     },
     {
       "name": "doi-song",
-      "count": 34
+      "count": 39
     },
     {
       "name": "review",
@@ -36,7 +36,7 @@
   "authors": [
     {
       "name": "Minh Hoàng",
-      "count": 189
+      "count": 194
     },
     {
       "name": "Duy Nguyen",
@@ -113,6 +113,10 @@
       "count": 9
     },
     {
+      "name": "series Tết 2027",
+      "count": 8
+    },
+    {
       "name": "Hugo",
       "count": 8
     },
@@ -122,10 +126,6 @@
     },
     {
       "name": "trượt tuyết Hàn Quốc",
-      "count": 7
-    },
-    {
-      "name": "ski resort Hàn Quốc",
       "count": 7
     }
   ],
@@ -140,23 +140,7 @@
     "title_too_long": [],
     "description_missing": [],
     "description_too_short": [],
-    "description_too_long": [
-      {
-        "slug": "lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi",
-        "title": "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ",
-        "length": 163
-      },
-      {
-        "slug": "review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho",
-        "title": "Review chi tiết các dịch vụ đặt vé máy bay, tàu hỏa Tết 2027: Mẹo săn vé sớm không bị \"hớ\"",
-        "length": 171
-      },
-      {
-        "slug": "xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe",
-        "title": "Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe",
-        "length": 166
-      }
-    ],
+    "description_too_long": [],
     "slug_too_long": [
       {
         "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
@@ -298,6 +282,12 @@
         "slug": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
         "stop_words": [
           "co",
+          "la"
+        ]
+      },
+      {
+        "slug": "an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la",
+        "stop_words": [
           "la"
         ]
       },
@@ -572,6 +562,12 @@
         "slug": "don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos",
         "stop_words": [
           "va"
+        ]
+      },
+      {
+        "slug": "don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua",
+        "stop_words": [
+          "cho"
         ]
       },
       {
@@ -1009,6 +1005,12 @@
         ]
       },
       {
+        "slug": "so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man",
+        "stop_words": [
+          "co"
+        ]
+      },
+      {
         "slug": "starbucks-vietnam-khong-gian-va-trai-nghiem",
         "stop_words": [
           "va"
@@ -1226,7 +1228,7 @@
       {
         "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
         "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1282,6 +1284,12 @@
         "title": "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang",
         "age_days": 3,
         "date": "08-07-2026 09:20:00"
+      },
+      {
+        "slug": "an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la",
+        "title": "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào",
+        "age_days": 0,
+        "date": "12-07-2026 06:15:00"
       },
       {
         "slug": "anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc",
@@ -1364,7 +1372,7 @@
       {
         "slug": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
         "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1428,6 +1436,12 @@
         "date": "28-06-2026 10:00:00"
       },
       {
+        "slug": "cam-nang-don-nha-don-tet-2027-danshari-toi-gian",
+        "title": "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí",
+        "age_days": 0,
+        "date": "12-07-2026 06:45:00"
+      },
+      {
         "slug": "camera-control-iphone-16-pro-max-co-tien-khong",
         "title": "Camera Control iPhone 16 Pro Max có tiện không?",
         "age_days": 3,
@@ -1466,7 +1480,7 @@
       {
         "slug": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao",
         "title": "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1502,7 +1516,7 @@
       {
         "slug": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
         "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1532,7 +1546,7 @@
       {
         "slug": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
         "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1556,7 +1570,7 @@
       {
         "slug": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
         "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1634,7 +1648,7 @@
       {
         "slug": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
         "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1646,7 +1660,7 @@
       {
         "slug": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
         "title": "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1700,7 +1714,7 @@
       {
         "slug": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
         "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -1762,6 +1776,12 @@
         "title": "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS",
         "age_days": 1,
         "date": "10-07-2026 18:57:10"
+      },
+      {
+        "slug": "don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua",
+        "title": "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa",
+        "age_days": 0,
+        "date": "12-07-2026 06:30:00"
       },
       {
         "slug": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
@@ -1874,13 +1894,13 @@
       {
         "slug": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
         "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
         "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2114,7 +2134,7 @@
       {
         "slug": "iphone-18-khi-nao-ra-mat",
         "title": "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2168,13 +2188,13 @@
       {
         "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
         "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
         "slug": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
         "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2354,7 +2374,7 @@
       {
         "slug": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
         "title": "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2384,7 +2404,7 @@
       {
         "slug": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
         "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2538,6 +2558,12 @@
         "date": "10-07-2026 11:45:00"
       },
       {
+        "slug": "review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem",
+        "title": "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém",
+        "age_days": 0,
+        "date": "12-07-2026 07:00:00"
+      },
+      {
         "slug": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
         "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
         "age_days": 23,
@@ -2588,7 +2614,7 @@
       {
         "slug": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
         "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2602,6 +2628,12 @@
         "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
         "age_days": 16,
         "date": "25-06-2026 10:00:00"
+      },
+      {
+        "slug": "so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man",
+        "title": "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn",
+        "age_days": 0,
+        "date": "12-07-2026 06:00:00"
       },
       {
         "slug": "song-ben-vung-scandinavia-moi-truong-tai-che",
@@ -2684,7 +2716,7 @@
       {
         "slug": "thoi-tiet-han-quoc-thang-10",
         "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2702,7 +2734,7 @@
       {
         "slug": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
         "title": "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2726,7 +2758,7 @@
       {
         "slug": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
         "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2744,7 +2776,7 @@
       {
         "slug": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
         "title": "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2780,7 +2812,7 @@
       {
         "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
         "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2822,7 +2854,7 @@
       {
         "slug": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
         "title": "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2858,7 +2890,7 @@
       {
         "slug": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
         "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
-        "age_days": 3,
+        "age_days": 4,
         "date": "08-07-2026 07:00:00"
       },
       {
@@ -2900,8 +2932,8 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 1219,
-    "average_outbound_per_post": 4.37,
+    "total_outbound_links": 1231,
+    "average_outbound_per_post": 4.33,
     "top_linked_posts": [
       {
         "slug": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
@@ -2959,14 +2991,6 @@
   },
   "content_gaps": [],
   "action_items": [
-    {
-      "priority": "P1",
-      "type": "SEO",
-      "title": "Tối ưu độ dài meta description",
-      "detail": "0 quá ngắn, 3 quá dài (chuẩn 50–160).",
-      "affected_count": 3,
-      "suggested_fix": "Chỉnh description về 50–160 ký tự."
-    },
     {
       "priority": "P2",
       "type": "SEO",
