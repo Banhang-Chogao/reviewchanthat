@@ -1,5 +1,6 @@
 {{ define "main" }}
-<article class="post-single container">
+<article class="post-single container has-editor-pick">
+  <div class="editor-pick-rail">{{ partial "editor-pick.html" . }}</div>
   {{ partial "breadcrumb.html" . }}
   <header class="post-header">
     <div class="post-header-meta">

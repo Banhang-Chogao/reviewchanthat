@@ -4,6 +4,7 @@ seo_title = "Lược sử Vim: từ 1991 đến trình soạn thảo huyền tho
 commit = "ef4b46f5"
 date = "2026-07-12T18:00:00+07:00"
 draft = false
+editor_pick = true
 description = "Lược sử Vim: từ vi và Stevie trên máy Amiga năm 1991, qua các mốc phiên bản, triết lý charityware, đến Vim9 và di sản của Bram Moolenaar cho lập trình viên."
 image = "images/posts/luoc-su-vim-editor.webp"
 thumbnail = "images/posts/luoc-su-vim-editor.webp"

@@ -4,6 +4,7 @@ seo_title = "Bram Moolenaar: tiểu sử cha đẻ Vim, sự nghiệp và di s�
 commit = "caa6973c"
 date = "2026-07-12T18:20:00+07:00"
 draft = false
+editor_pick = true
 description = "Tiểu sử Bram Moolenaar, cha đẻ Vim (1961–2023): xuất thân, sự nghiệp ở Google, dự án A-A-P và Zimbu, hoạt động thiện nguyện ở Uganda, và di sản để lại."
 image = "images/posts/bram-moolenaar-tieu-su-cha-de-vim.webp"
 thumbnail = "images/posts/bram-moolenaar-tieu-su-cha-de-vim.webp"

@@ -4,6 +4,7 @@ seo_title = "Du lịch điện gió Cà Mau: cầu trên biển 17 km & kinh ngh
 commit = "be8a2e1e"
 date = "2026-07-12T17:30:00+07:00"
 draft = false
+editor_pick = true
 description = "Du lịch điện gió Hòa Bình 1 Cà Mau: cầu dẫn 17 km vươn ra biển ngắm turbine, câu cá, rừng ngập mặn — trải nghiệm và kinh nghiệm ghé thăm 2026."
 image = "images/posts/cau-tren-bien-ngam-dien-gio-ca-mau.webp"
 thumbnail = "images/posts/cau-tren-bien-ngam-dien-gio-ca-mau.webp"
