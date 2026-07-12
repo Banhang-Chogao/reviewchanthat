@@ -643,6 +643,9 @@ html.dark-mode .live-clock-box__time{color:#b0eace}
 /* Tagline */
 .footer-tagline{font-size:.85rem;color:var(--text-secondary);display:flex;align-items:center;gap:4px;flex-wrap:wrap;padding-bottom:clamp(16px,3vw,24px)}
 .footer-tagline-icon{display:inline-flex;align-items:center;justify-content:center;font-size:1.1em;line-height:1}
+.footer-hits{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;width:100%;min-height:20px;font-size:.85rem;color:var(--muted);padding-bottom:clamp(16px,3vw,24px)}
+.footer-hits__label{font-weight:600}
+.footer-hits__badge{display:block;height:20px;width:auto;max-width:100%;border-radius:6px}
 
 
 /* Author Reputation Hall */

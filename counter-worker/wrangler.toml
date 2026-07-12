@@ -1,0 +1,15 @@
+name = "reviewchanthat-hits"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# Total accumulated before this counter went live. Blog launch: 2026-07-11.
+# Leave "0" to start counting from zero, or set a seed baseline.
+[vars]
+BASELINE = "0"
+
+# KV namespace holding the single integer key "count".
+# Create it once with:  wrangler kv namespace create HITS
+# then paste the returned id below (replace the placeholder).
+[[kv_namespaces]]
+binding = "HITS"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
