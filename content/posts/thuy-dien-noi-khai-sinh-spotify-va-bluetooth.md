@@ -286,4 +286,3 @@ Tham khảo:
 - [Stockholm School of Economics — Nordic Unicorn Report 2026](https://www.hhs.se)
 - [OECD Digital Economy Outlook 2026](https://www.oecd.org/digital)
 - [WHO Global Status Report on Road Safety 2025](https://www.who.int)
-+++

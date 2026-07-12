@@ -296,4 +296,3 @@ Hãy thử Fika vào chiều nay. Bắt đầu bằng một tách cà phê drip,
 Fika là một nghi thức sống chậm trong một thế giới đang chạy quá nhanh. Và Lagom là lời nhắc nhở rằng hạnh phúc không phải là điều bạn đạt được khi có *tất cả mọi thứ*, mà là điều bạn cảm nhận được khi bạn có *vừa đủ*.
 
 Tham khảo thêm về chỉ số hạnh phúc Thụy Điển tại [World Population Review - Happiest Countries](https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world) và văn hóa Fika trên trang chính thức của [Sweden.se](https://sweden.se/culture/fika).
-+++

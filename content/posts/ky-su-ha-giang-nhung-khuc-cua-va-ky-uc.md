@@ -172,4 +172,3 @@ Nếu bạn đang đọc những dòng này và có ý định lên Hà Giang, t
 Những khúc cua rồi sẽ qua, những con đèo rồi sẽ về cuối, nhưng những gì Hà Giang để lại trong tôi thì không bao giờ phai. Và tôi biết rằng, một ngày nào đó, tôi sẽ quay lại – không phải để khám phá, mà để tìm lại một phần của chính mình đã để lại nơi đây.
 
 Một chặng đường thật sự không bao giờ kết thúc. Nó chỉ tạm dừng, chờ ngày ta trở lại.
-+++

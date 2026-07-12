@@ -25,22 +25,7 @@ image_status = "verified"
 image_provider = "pixabay"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những Công Ty Thay Đổi Thế Giới — nguồn Pixabay"
-+++
-image_source = "Pixabay"
-image_provider = "pixabay"
-image_license = "Pixabay Content License"
-image_creator = "TheDigitalWay"
-image_alt = "Danh sách công ty đầu tư của Atomico"
-image_source_url = "https://pixabay.com/photos/credit-cards-denim-jeans-blue-jeans-1583534/"
 image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator_url = "https://pixabay.com/photos/credit-cards-denim-jeans-blue-jeans-1583534/"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pixabay_api"
-image_status = "verified"
-date_display = "11-07-2026 14:30:00 GMT +7"
 +++
 
 ## Những Công Ty Mà Atomico Đã Giúp Xây Dựng

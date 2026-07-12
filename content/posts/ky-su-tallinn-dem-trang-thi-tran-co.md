@@ -174,4 +174,3 @@ Nếu bạn yêu thích những câu chuyện về các vùng đất mới, hãy
 Tallinn không chỉ là một thành phố để tham quan. Đó là một thành phố để cảm nhận, để sống chậm lại, để lắng nghe những câu chuyện từ những viên đá cổ và để mơ về những điều có thể. Và biết đâu, như đã từng xảy ra với Skype, với Bolt, với e-Residency — điều kỳ diệu tiếp theo cũng có thể bắt đầu từ đây.
 
 Thông tin tham khảo thêm: [Visit Tallinn](https://www.visittallinn.ee), [UNESCO Tallinn Old Town](https://whc.unesco.org/en/list/822).
-+++
