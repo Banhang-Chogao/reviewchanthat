@@ -13,6 +13,11 @@
       {{ end }}
     </div>
     <h1 class="post-title">{{ .Title }}</h1>
+    <a class="sponsored-hotel" href="https://www.trip.com/t/Xpg1T4dYUV2" target="_blank" rel="sponsored nofollow noopener" aria-label="Khách sạn uy tín — Trip.com (liên kết tài trợ)">
+      <span class="sponsored-hotel__ico" aria-hidden="true">🏨</span>
+      <span class="sponsored-hotel__text">Khách sạn uy tín</span>
+      <span class="sponsored-hotel__tag">Tài trợ</span>
+    </a>
     <div class="post-meta-bar">
       {{ partial "author.html" . }}
       <div class="post-meta-right">
@@ -33,8 +38,9 @@
   <div class="post-content">
     {{- $c := .Content -}}
     {{- $ad := partial "trip-affiliate.html" . -}}
+    {{- $enAd := partial "trip-affiliate-en.html" . -}}
     {{- $box := partial "maybe-unread.html" . -}}
-    {{- $inject := printf "%s%s" $ad $box -}}
+    {{- $inject := printf "%s%s%s" $enAd $ad $box -}}
     {{- if and (strings.Contains $c "</p>") (gt (len (trim $inject " \n\t\r")) 0) -}}
       {{- $parts := split $c "</p>" -}}
       {{- $head := printf "%s</p>" (index $parts 0) -}}
