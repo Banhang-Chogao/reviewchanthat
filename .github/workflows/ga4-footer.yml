@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -46,8 +48,21 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ga4_footer.json
           git commit -m "chore(ga4): refresh footer traffic summary"
-          git push
-          echo "changed=true" >> "$GITHUB_OUTPUT"
+          # Push with rebase-retry so concurrent pushes to main (deploys/other bots)
+          # don't fail this job. GA4 only touches data/ga4_footer.json, so rebasing is
+          # conflict-free; --autostash guards any stray change.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt/5); rebasing onto latest origin/main…"
+            git fetch origin main
+            git rebase --autostash origin/main || { git rebase --abort || true; }
+            sleep $((attempt * 3))
+          done
+          echo "GA4 push failed after 5 attempts." >&2
+          exit 1
 
       - name: Trigger site deploy
         if: success() && steps.commit.outputs.changed == 'true'
