@@ -295,6 +295,180 @@
         "type": "min_posts",
         "value": 150
       }
+    },
+    {
+      "id": "travel-pillar",
+      "name": "Trụ Cột Du Lịch",
+      "description": "100 bài trong chuyên mục Du lịch — một thư viện xê dịch thực thụ.",
+      "tier": 4,
+      "icon": "🧳",
+      "rule": {
+        "type": "min_category_posts",
+        "category": "du-lich",
+        "value": 100
+      }
+    },
+    {
+      "id": "wanderlust-legend",
+      "name": "Huyền Thoại Xê Dịch",
+      "description": "150 bài Du lịch — cả bản đồ thế giới gói trong ngòi bút.",
+      "tier": 5,
+      "icon": "🌏",
+      "rule": {
+        "type": "min_category_posts",
+        "category": "du-lich",
+        "value": 150
+      }
+    },
+    {
+      "id": "tech-master",
+      "name": "Bậc Thầy Công Nghệ",
+      "description": "100 bài trong chuyên mục Công nghệ — kiến thức phủ kín một lĩnh vực.",
+      "tier": 4,
+      "icon": "🖥️",
+      "rule": {
+        "type": "min_category_posts",
+        "category": "cong-nghe",
+        "value": 100
+      }
+    },
+    {
+      "id": "finance-expert",
+      "name": "Chuyên Gia Tài Chính",
+      "description": "25 bài Tài chính — làm dày mảng kiến thức tiền bạc còn mỏng.",
+      "tier": 3,
+      "icon": "💰",
+      "rule": {
+        "type": "min_category_posts",
+        "category": "tai-chinh",
+        "value": 25
+      }
+    },
+    {
+      "id": "life-observer",
+      "name": "Nhà Quan Sát Đời Sống",
+      "description": "25 bài Đời sống — tinh tế với những lựa chọn tốt hơn mỗi ngày.",
+      "tier": 3,
+      "icon": "🌿",
+      "rule": {
+        "type": "min_category_posts",
+        "category": "doi-song",
+        "value": 25
+      }
+    },
+    {
+      "id": "review-master",
+      "name": "Bậc Thầy Review",
+      "description": "20 bài Review — đúng bản sắc cốt lõi của Review Chân Thật.",
+      "tier": 4,
+      "icon": "🎯",
+      "rule": {
+        "type": "min_category_posts",
+        "category": "review",
+        "value": 20
+      }
+    },
+    {
+      "id": "resort-connoisseur",
+      "name": "Chuyên Gia Nghỉ Dưỡng",
+      "description": "10 bài về khách sạn view đẹp — bậc sành sỏi chuyện nghỉ dưỡng.",
+      "tier": 3,
+      "icon": "🏨",
+      "rule": {
+        "type": "min_tag_posts",
+        "tag": "khách sạn view đẹp",
+        "value": 10
+      }
+    },
+    {
+      "id": "korea-ambassador",
+      "name": "Đại Sứ Hàn Quốc",
+      "description": "60 bài về du lịch Hàn Quốc — người dẫn đường cho cả một xứ sở.",
+      "tier": 4,
+      "icon": "🇰🇷",
+      "rule": {
+        "type": "min_tag_posts",
+        "tag": "du lịch Hàn Quốc",
+        "value": 60
+      }
+    },
+    {
+      "id": "five-elements-balance",
+      "name": "Ngũ Hành Cân Bằng",
+      "description": "Ít nhất 15 bài ở MỖI chuyên mục trong cả 5 chuyên mục — một cây bút toàn diện.",
+      "tier": 5,
+      "icon": "☯️",
+      "rule": {
+        "type": "multi_category_min",
+        "categories": {
+          "du-lich": 15,
+          "cong-nghe": 15,
+          "tai-chinh": 15,
+          "doi-song": 15,
+          "review": 15
+        }
+      }
+    },
+    {
+      "id": "five-elements-grandmaster",
+      "name": "Ngũ Hành Đại Thành",
+      "description": "Ít nhất 25 bài ở MỖI chuyên mục trong cả 5 — bậc thầy toàn diện tuyệt đối.",
+      "tier": 5,
+      "icon": "🐉",
+      "rule": {
+        "type": "multi_category_min",
+        "categories": {
+          "du-lich": 25,
+          "cong-nghe": 25,
+          "tai-chinh": 25,
+          "doi-song": 25,
+          "review": 25
+        }
+      }
+    },
+    {
+      "id": "great-tree",
+      "name": "Cây Đại Thụ",
+      "description": "200 bài viết — bộ rễ đã ăn sâu, tán đã vươn rộng.",
+      "tier": 5,
+      "icon": "🌳",
+      "rule": {
+        "type": "min_posts",
+        "value": 200
+      }
+    },
+    {
+      "id": "living-monument",
+      "name": "Tượng Đài Chữ Nghĩa",
+      "description": "250 bài viết — một tượng đài dựng bằng chính con chữ.",
+      "tier": 5,
+      "icon": "🗿",
+      "rule": {
+        "type": "min_posts",
+        "value": 250
+      }
+    },
+    {
+      "id": "epic-chronicle",
+      "name": "Thiên Sử Thi",
+      "description": "365 bài viết — trung bình một bài mỗi ngày trong suốt một năm.",
+      "tier": 5,
+      "icon": "📜",
+      "rule": {
+        "type": "min_posts",
+        "value": 365
+      }
+    },
+    {
+      "id": "immortal-pen",
+      "name": "Bút Bất Tử",
+      "description": "500 bài viết — cột mốc chỉ dành cho những huyền thoại bất tử.",
+      "tier": 5,
+      "icon": "🔥",
+      "rule": {
+        "type": "min_posts",
+        "value": 500
+      }
     }
   ],
   "founding_author_ids": [
