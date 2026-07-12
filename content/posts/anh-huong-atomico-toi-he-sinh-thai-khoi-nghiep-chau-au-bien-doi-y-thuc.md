@@ -26,6 +26,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "ảnh hưởng atomico tới hệ"
 image_alt = "Ảnh minh họa Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.md"
 title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"

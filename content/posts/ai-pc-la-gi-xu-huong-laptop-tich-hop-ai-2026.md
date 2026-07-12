@@ -26,6 +26,7 @@ image_alt = "Ảnh minh họa AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tí
 date_display = "11-07-2026 12:40:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "ai pc gì xu hướng"
+
 [[internal_links]]
 ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
 title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"

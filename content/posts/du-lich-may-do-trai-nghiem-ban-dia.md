@@ -26,12 +26,15 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "xu hướng du lịch may"
 image_alt = "Ảnh minh họa Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/trao-luu-green-camping-cam-trai-hoang-so.md"
 title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
+
 [[internal_links]]
 ref = "posts/cong-thuc-do-uong-giai-nhiet-home-cafe.md"
 title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
+
 [[internal_links]]
 ref = "posts/ky-su-ha-giang-nhung-khuc-cua-va-ky-uc.md"
 title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"

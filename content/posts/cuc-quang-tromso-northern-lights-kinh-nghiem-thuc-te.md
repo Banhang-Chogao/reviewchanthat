@@ -24,12 +24,16 @@ image_creator_url = "https://www.pexels.com/@nicohonasan"
 image_attribution_checked_at = "2026-07-11T17:43:49+07:00"
 image_query = "trải nghiệm cực quang tại"
 image_alt = "Ảnh minh họa Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến — nguồn Pexels"
+date_display = "12-07-2026 07:45:37 GMT +7"
+
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+
 [[internal_links]]
 ref = "posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.md"
 title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"
+
 [[internal_links]]
 ref = "posts/ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien.md"
 title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"

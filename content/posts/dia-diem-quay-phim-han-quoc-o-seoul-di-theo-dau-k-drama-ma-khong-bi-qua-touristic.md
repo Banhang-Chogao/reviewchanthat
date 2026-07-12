@@ -74,9 +74,11 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = ""
+
 [[internal_links]]
 ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
 title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+
 [[internal_links]]
 ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
 title = "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình"

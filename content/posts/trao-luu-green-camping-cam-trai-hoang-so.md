@@ -26,9 +26,11 @@ image_alt = "Ảnh minh họa Trào Lưu Green Camping: Gợi Ý Các Địa Đi
 date_display = "11-07-2026 14:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "trào lưu green camping gợi"
+
 [[internal_links]]
 ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+
 [[internal_links]]
 ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
 title = "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic"

@@ -26,12 +26,15 @@ image_alt = "Ảnh minh họa Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residen
 date_display = "11-07-2026 14:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
+
 [[internal_links]]
 ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
 title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
+
 [[internal_links]]
 ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"

@@ -26,12 +26,15 @@ image_alt = "Ảnh minh họa Từ Spotify Đến Bluetooth: Thụy Điển Đã
 date_display = "11-07-2026 14:44:58 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "spotify bluetooth thụy điển thống"
+
 [[internal_links]]
 ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
 title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
+
 [[internal_links]]
 ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
 title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
+
 [[internal_links]]
 ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
 title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"

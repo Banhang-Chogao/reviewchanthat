@@ -73,9 +73,11 @@ label = "Đi mùa nào hợp"
 
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
+
 [[internal_links]]
 ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
 title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
+
 [[internal_links]]
 ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
 title = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?"

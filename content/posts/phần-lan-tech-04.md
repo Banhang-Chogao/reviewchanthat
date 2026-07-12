@@ -29,12 +29,15 @@ image_creator_url = "https://pixabay.com/photos/cellular-5g-pinwheels-chemtrails
 image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "phần lan nokia 5g cách"
 image_alt = "Ảnh minh họa Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ — nguồn Pixabay"
+
 [[internal_links]]
 ref = "posts/phần-lan-giáo-dục-02.md"
 title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
+
 [[internal_links]]
 ref = "posts/phần-lan-xanh-03.md"
 title = "Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng"
+
 [[internal_links]]
 ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
 title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"

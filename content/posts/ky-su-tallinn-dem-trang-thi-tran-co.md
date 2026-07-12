@@ -26,12 +26,15 @@ image_alt = "Ảnh minh họa Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn T
 date_display = "11-07-2026 14:44:57 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "ký sự tallinn đêm trắng"
+
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+
 [[internal_links]]
 ref = "posts/ky-su-ha-giang-nhung-khuc-cua-va-ky-uc.md"
 title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
+
 [[internal_links]]
 ref = "posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.md"
 title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"

@@ -29,12 +29,15 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "sauna phần lan di sản"
 image_alt = "Ảnh minh họa Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/phần-lan-hạnh-phúc-01.md"
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
+
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+
 [[internal_links]]
 ref = "posts/phần-lan-giáo-dục-02.md"
 title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"

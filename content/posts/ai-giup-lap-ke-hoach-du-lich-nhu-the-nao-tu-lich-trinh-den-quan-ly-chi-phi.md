@@ -63,6 +63,7 @@ ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
 image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "autumn fallen leaves brown orange"
+
 [[internal_links]]
 ref = "posts/kinh-nghiem-solo-travel-du-lich-mot-minh.md"
 title = "Kinh Nghiệm Du Lịch Tự Túc Một Mình (Solo Travel) An Toàn Và Trọn Vẹn"

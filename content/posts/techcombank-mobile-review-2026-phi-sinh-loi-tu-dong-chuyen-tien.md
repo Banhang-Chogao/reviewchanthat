@@ -35,12 +35,15 @@ image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
 image_provider = "pexels"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien.md"
 title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
+
 [[internal_links]]
 ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
 title = "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển"
+
 [[internal_links]]
 ref = "posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.md"
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"

@@ -38,9 +38,11 @@ disclaimer = "This article is based on GitHub's public status updates. Operation
 items = ["GitHub reported degraded availability for Actions on July 9, 2026, with hosted-runner jobs delayed or failing to start.", "GitHub Pages builds were also affected during part of the incident, while existing Pages sites remained accessible according to GitHub's update.", "A queued workflow is not automatically a broken commit; if the job never reached checkout, your code has not been tested yet.", "Teams can reduce impact with concurrency controls, limited retries, platform-incident detection, non-essential workflow pauses, and post-deploy live verification."]
 image_attribution_checked_at = "2026-07-11T17:30:36+07:00"
 image_query = "github actions delays starting runs"
+
 [[internal_links]]
 ref = "posts/github-actions-pages-recovered-july-9-2026-what-to-check-after-ci-cd-incident.md"
 title = "GitHub Actions and Pages Have Recovered: What to Check After the July 9, 2026 CI/CD Incident"
+
 [[internal_links]]
 ref = "posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix.md"
 title = "CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages"

@@ -26,12 +26,15 @@ image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "hè 2026 top khóa học"
 image_alt = "Ảnh minh họa Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10 — nguồn Pixabay"
 date_display = "11-07-2026 12:00:00 GMT +7"
+
 [[internal_links]]
 ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
 title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
 [[internal_links]]
 ref = "posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md"
 title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
+
 [[internal_links]]
 ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
 title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"

@@ -63,6 +63,7 @@ ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
 image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/tin-chi-carbon-va-trao-luu-net-zero.md"
 title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"

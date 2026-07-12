@@ -31,12 +31,15 @@ draft = false
 [ai_summary]
 items = ["Renaissance Technologies: Quỹ quantitative do Jim Simons lập (nhà toán học)", "Medallion Fund: lợi suất ~30%/năm trước phí (40%/năm sau phí, nhưng vẫn đạt 11% net)", "Jim Simons: Fields Medalist, thuyết phục tài năng toán học phục vụ trading", "Pattern Recognition: Tìm correlation + causation trong 50 năm dữ liệu", "Statistical Arbitrage: Mua undervalue + bán overvalue (long-short strategy)", "Bayesian Networks: Graphical models để infer mối quan hệ biến", "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"]
 draft = false
+
 [[internal_links]]
 ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
 title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
 [[internal_links]]
 ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
 title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
+
 [[internal_links]]
 ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
 title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"

@@ -29,12 +29,15 @@ image_creator_url = "https://pixabay.com/photos/ang-thong-purple-temple-1671770/
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "hệ thống giáo dục phần"
 image_alt = "Ảnh minh họa Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối — nguồn Pixabay"
+
 [[internal_links]]
 ref = "posts/hoc-sinh-finland-truong-hoc-hoc-tap.md"
 title = "Hệ Thống Giáo Dục Phần Lan: Lý Do Tại Sao Phần Lan Có Những Sinh Viên Thông Minh Nhất Thế Giới"
+
 [[internal_links]]
 ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
 title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+
 [[internal_links]]
 ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
 title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"

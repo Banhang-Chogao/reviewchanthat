@@ -31,12 +31,15 @@ draft = false
 [ai_summary]
 items = ["Log tự nhiên (ln) là hàm ngược của e: nếu e^x = y thì ln(y) = x", "Log-return: R = ln(Pt/Pt-1) — cách tính lợi suất bằng logarit thay vì phần trăm thông thường", "So sánh: simple return (+10%, -5%) ≠ cộng = +4.5% nhưng log-return (+9.53%, -5.13%) ✓ cộng = +4.40%", "Tính chất cộng dồn: Rtotal = R1 + R2 + ... + Rn — đây là lý do giới định lượng dùng log-return", "Ví dụ thực tế: VietcomBank giá 100k → 110k → 104.5k (so sánh 2 cách tính)", "Ứng dụng: quỹ đầu tư tính volatility, machine learning forecast thị trường, quản trị rủi ro dùng log-return", "Vì sao: log-return đối xứng (50% rồi -33% = neutral), phân phối chuẩn, phù hợp time-series analysis"]
 draft = false
+
 [[internal_links]]
 ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
 title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
+
 [[internal_links]]
 ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
 title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
+
 [[internal_links]]
 ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
 title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"

@@ -35,12 +35,15 @@ items = ["High-yield savings account là tài khoản tiết kiệm lãi suất 
 image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì? — nguồn Pixabay"
+
 [[internal_links]]
 ref = "posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.md"
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
+
 [[internal_links]]
 ref = "posts/ios-27-cai-thien-pin-iphone.md"
 title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+
 [[internal_links]]
 ref = "posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md"
 title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"

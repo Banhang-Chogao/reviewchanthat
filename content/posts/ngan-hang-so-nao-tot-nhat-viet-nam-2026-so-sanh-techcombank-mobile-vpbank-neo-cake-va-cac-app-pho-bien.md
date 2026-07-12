@@ -35,12 +35,15 @@ items = ["VPBank NEO dẫn đầu về quy mô người dùng (15,4 triệu) và
 image_attribution_checked_at = "2026-07-11T17:30:37+07:00"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.md"
 title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
+
 [[internal_links]]
 ref = "posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.md"
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
+
 [[internal_links]]
 ref = "posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.md"
 title = "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?"

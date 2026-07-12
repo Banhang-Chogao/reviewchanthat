@@ -36,12 +36,15 @@ image_alt = "Ảnh minh họa Apple Pay Việt Nam: ngân hàng nào hỗ trợ,
 image_license_url = ""
 image_attribution_checked_at = "2026-07-11T17:30:34+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.md"
 title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
+
 [[internal_links]]
 ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
 title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
 [[internal_links]]
 ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"

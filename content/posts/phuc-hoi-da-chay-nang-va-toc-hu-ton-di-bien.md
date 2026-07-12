@@ -26,12 +26,15 @@ image_alt = "Ảnh minh họa Cách Phục Hồi Da Bị Cháy Nắng Cấp Tố
 date_display = "11-07-2026 12:20:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "cách phục hồi da bị"
+
 [[internal_links]]
 ref = "posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.md"
 title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
+
 [[internal_links]]
 ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
 title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
+
 [[internal_links]]
 ref = "posts/phần-lan-hạnh-phúc-01.md"
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"

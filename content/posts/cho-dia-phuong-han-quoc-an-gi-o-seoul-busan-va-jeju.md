@@ -76,9 +76,11 @@ label = "Đi mùa nào hợp"
 
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
+
 [[internal_links]]
 ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
 title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+
 [[internal_links]]
 ref = "posts/goi-y-du-lich-han-quoc-thang-7-2026.md"
 title = "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?"

@@ -27,12 +27,15 @@ date_display = "11-07-2026 12:35:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "đánh giá top kính thực"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+
 [[internal_links]]
 ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.md"
 title = "iPhone 15 Pro Max màu titan có còn đáng mua không?"
+
 [[internal_links]]
 ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"

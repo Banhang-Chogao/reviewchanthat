@@ -26,12 +26,15 @@ image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-11T17:43:46+07:00"
 image_query = "thiết kế nordic triết lý"
+
 [[internal_links]]
 ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
 title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
 [[internal_links]]
 ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
 title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
+
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"

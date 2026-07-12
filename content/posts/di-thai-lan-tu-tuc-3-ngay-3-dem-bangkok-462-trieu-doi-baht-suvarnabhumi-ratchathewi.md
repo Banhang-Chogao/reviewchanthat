@@ -66,15 +66,19 @@ value = "Airport Rail Link + BTS Skytrain"
 [[tom_tat_nhanh]]
 label = "Có cần visa không"
 value = "Không (miễn visa Thái Lan cho Việt Nam)"
+
 [[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
 title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+
 [[internal_links]]
 ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
 title = "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển"
+
 [[internal_links]]
 ref = "posts/o-khu-nao-bangkok-mua-mua.md"
 title = "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom"
+
 [[internal_links]]
 ref = "posts/doi-baht-o-viet-nam-hay-thai-lan.md"
 title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"

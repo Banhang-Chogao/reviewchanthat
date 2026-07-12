@@ -26,12 +26,15 @@ image_alt = "Ảnh minh họa Phía Sau Tay Lái: Ký Sự Cung Đường Ven Bi
 date_display = "11-07-2026 09:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "phía sau tay lái ký"
+
 [[internal_links]]
 ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
 title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
+
 [[internal_links]]
 ref = "posts/ky-su-stockholm-thanh-pho-tren-nhung-hon-dao.md"
 title = "Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo"
+
 [[internal_links]]
 ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
 title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"

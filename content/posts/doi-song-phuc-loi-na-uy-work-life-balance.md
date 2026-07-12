@@ -24,9 +24,12 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "đời sống tại na uy"
 image_alt = "Ảnh minh họa Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới — nguồn Pexels"
+date_display = "12-07-2026 07:43:37 GMT +7"
+
 [[internal_links]]
 ref = "posts/phần-lan-hạnh-phúc-01.md"
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
+
 [[internal_links]]
 ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
 title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"

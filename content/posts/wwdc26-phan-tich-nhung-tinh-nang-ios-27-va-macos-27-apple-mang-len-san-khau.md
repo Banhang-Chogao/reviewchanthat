@@ -88,12 +88,15 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
+
 [[internal_links]]
 ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
 title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
+
 [[internal_links]]
 ref = "posts/co-nen-len-ios-26-5-2-khong.md"
 title = "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
+
 [[internal_links]]
 ref = "posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md"
 title = "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói"

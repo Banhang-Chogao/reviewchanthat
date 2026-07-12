@@ -30,12 +30,15 @@ image_status = "verified"
 seo_title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Của Người Thụy Điển"
 image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "credit card finance desk"
+
 [[internal_links]]
 ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
 title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
+
 [[internal_links]]
 ref = "posts/phần-lan-hạnh-phúc-01.md"
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
+
 [[internal_links]]
 ref = "posts/phần-lan-sauna-05.md"
 title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"

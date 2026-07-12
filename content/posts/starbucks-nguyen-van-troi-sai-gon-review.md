@@ -59,6 +59,7 @@ label = "Phù hợp"
 
 [[tom_tat_nhanh]]
 label = "Ảnh"
+
 [[internal_links]]
 ref = "posts/xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026.md"
 title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử"

@@ -62,12 +62,15 @@ value = "Giá rẻ, vắng khách, cảnh xanh"
 [[tom_tat_nhanh]]
 label = "Nhược điểm"
 value = "Mưa chiều, biển động Andaman"
+
 [[internal_links]]
 ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
 title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
 [[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
 [[internal_links]]
 ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
 title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"

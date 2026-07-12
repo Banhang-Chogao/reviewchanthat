@@ -55,12 +55,15 @@ label = "Tour chạy"
 
 [[tom_tat_nhanh]]
 label = "Tour rủi ro"
+
 [[internal_links]]
 ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
 title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
+
 [[internal_links]]
 ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
 title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
 [[internal_links]]
 ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
 title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"

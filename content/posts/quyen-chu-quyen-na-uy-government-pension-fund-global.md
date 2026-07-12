@@ -24,12 +24,16 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai? — nguồn Pixabay"
+date_display = "12-07-2026 07:42:37 GMT +7"
+
 [[internal_links]]
 ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
 title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+
 [[internal_links]]
 ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
 title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
+
 [[internal_links]]
 ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
 title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"

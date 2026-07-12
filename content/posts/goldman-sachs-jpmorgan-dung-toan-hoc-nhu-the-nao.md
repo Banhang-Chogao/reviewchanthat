@@ -30,12 +30,15 @@ image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
 
 [ai_summary]
 items = ["Goldman Sachs, JPMorgan: 2 ngân hàng đầu tư lớn nhất thế giới", "Derivatives pricing: Black-Scholes, local volatility, stochastic volatility", "Greeks: Delta (độ nhạy giá), Gamma (độ cong), Vega (độ nhạy volatility)", "Volatility Smile: σ thay đổi theo strike price (không hằng số)", "Algorithmic Trading: Machines tự động mua/bán hàng triệu giao dịch/ngày", "Market Microstructure: Spread, latency, order flow prediction", "Machine Learning: Neural networks dự báo giá, market impact models"]
+
 [[internal_links]]
 ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
 title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
 [[internal_links]]
 ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
 title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
+
 [[internal_links]]
 ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
 title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"

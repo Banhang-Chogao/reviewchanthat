@@ -31,9 +31,11 @@ draft = false
 [ai_summary]
 items = ["Monte Carlo: Mô phỏng N×10^6 kịch bản random để ước lượng option price, VaR, portfolio value", "Brownian Motion: dS = μS dt + σS dW (random walk log-price)", "Giả định: S tuân theo log-normal distribution, dW là Wiener process", "Discretization: Δt nhỏ (1 ngày, 1 giờ) để discretize SDE", "Pricing: E[Option Payoff] = (1/N) × Σ Payoff_i × e^(-rT)", "VaR: Sort 10M outcomes, lấy 1% worst case", "Variance Reduction: Antithetic sampling, control variates để giảm N needed"]
 draft = false
+
 [[internal_links]]
 ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
+
 [[internal_links]]
 ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
 title = "Risk Management trong tài chính: Từ VaR đến stress testing"

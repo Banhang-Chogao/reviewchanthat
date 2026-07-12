@@ -78,9 +78,11 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = ""
+
 [[internal_links]]
 ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
 title = "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?"
+
 [[internal_links]]
 ref = "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md"
 title = "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông"

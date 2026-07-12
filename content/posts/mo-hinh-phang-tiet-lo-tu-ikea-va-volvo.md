@@ -36,12 +36,15 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "mô hình phẳng thụy điển"
+
 [[internal_links]]
 ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
 title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
+
 [[internal_links]]
 ref = "posts/triet-ly-song-lagom-va-van-hoa-fika.md"
 title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển"
+
 [[internal_links]]
 ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
 title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"

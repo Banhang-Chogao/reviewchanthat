@@ -74,9 +74,11 @@ label = "Đi mùa nào hợp"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+
 [[internal_links]]
 ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
 title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
+
 [[internal_links]]
 ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
 title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"

@@ -58,9 +58,11 @@ value = "Sandals chống nước"
 [[tom_tat_nhanh]]
 label = "Đồ chống mưa"
 value = "Áo mưa gấp gọn"
+
 [[internal_links]]
 ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
 title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
 [[internal_links]]
 ref = "posts/di-han-thang-10-mac-gi.md"
 title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"

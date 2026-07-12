@@ -71,9 +71,11 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Thời gian đọc"
+
 [[internal_links]]
 ref = "posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md"
 title = "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình"
+
 [[internal_links]]
 ref = "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md"
 title = "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?"

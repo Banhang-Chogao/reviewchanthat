@@ -37,12 +37,15 @@ image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững — nguồn Pexels"
 image_attribution_checked_at = "2026-07-11T17:30:35+07:00"
 image_query = "biến bài blog thành video"
+
 [[internal_links]]
 ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
+
 [[internal_links]]
 ref = "posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md"
 title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
+
 [[internal_links]]
 ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
 title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"

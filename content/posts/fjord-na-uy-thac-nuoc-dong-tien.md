@@ -27,12 +27,15 @@ image_creator = "makabera"
 image_creator_url = "https://pixabay.com/photos/norway-winter-snow-atlantic-8593725/"
 image_attribution_checked_at = "2026-07-11T17:43:42+07:00"
 image_query = "vẻ đẹp fjord na uy"
+
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+
 [[internal_links]]
 ref = "posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.md"
 title = "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý"
+
 [[internal_links]]
 ref = "posts/phần-lan-hạnh-phúc-01.md"
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"

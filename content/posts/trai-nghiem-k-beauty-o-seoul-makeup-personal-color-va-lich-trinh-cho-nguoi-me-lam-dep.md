@@ -74,9 +74,11 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = ""
+
 [[internal_links]]
 ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
 title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+
 [[internal_links]]
 ref = "posts/di-han-thang-10-co-dep-khong.md"
 title = "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn"

@@ -26,12 +26,15 @@ image_alt = "Ảnh minh họa Kinh Nghiệm Du Lịch Tự Túc Một Mình (Sol
 date_display = "11-07-2026 14:10:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
 title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
 [[internal_links]]
 ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+
 [[internal_links]]
 ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
 title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"

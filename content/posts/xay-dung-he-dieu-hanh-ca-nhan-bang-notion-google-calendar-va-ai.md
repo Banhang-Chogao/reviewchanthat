@@ -63,9 +63,11 @@ ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI tiết kiệm thời gian"
 image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "credit card finance desk"
+
 [[internal_links]]
 ref = "posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.md"
 title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
+
 [[internal_links]]
 ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
 title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"

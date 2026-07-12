@@ -67,9 +67,11 @@ label = "Lễ hội 2026"
 
 [[tom_tat_nhanh]]
 label = "Số ngày hợp lý"
+
 [[internal_links]]
 ref = "posts/seoraksan-thang-10-ngam-la-do.md"
 title = "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?"
+
 [[internal_links]]
 ref = "posts/goi-y-du-lich-han-quoc-thang-7-2026.md"
 title = "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?"

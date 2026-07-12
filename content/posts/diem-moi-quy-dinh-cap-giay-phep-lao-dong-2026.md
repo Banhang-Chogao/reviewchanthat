@@ -26,12 +26,15 @@ image_alt = "Ảnh minh họa Điểm Mới Trong Quy Định Cấp Giấy Phép
 date_display = "11-07-2026 05:30:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "điểm quy định cấp giấy"
+
 [[internal_links]]
 ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
 [[internal_links]]
 ref = "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md"
 title = "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun"
+
 [[internal_links]]
 ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"

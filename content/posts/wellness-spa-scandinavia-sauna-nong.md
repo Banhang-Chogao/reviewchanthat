@@ -27,12 +27,15 @@ image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-11T17:43:47+07:00"
 image_query = "wellness sauna scandinavia tôi học"
+
 [[internal_links]]
 ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
 title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
+
 [[internal_links]]
 ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
 title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
