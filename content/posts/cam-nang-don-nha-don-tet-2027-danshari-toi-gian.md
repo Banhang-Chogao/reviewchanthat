@@ -18,18 +18,18 @@ series_title = "Tết Nguyên Đán Đinh Mùi 2027"
 slug = "cam-nang-don-nha-don-tet-2027-danshari-toi-gian"
 image = "images/posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.webp"
 thumbnail = "images/posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.webp"
-image_alt = "Không gian nhà gọn gàng tối giản đón Tết — minh họa dọn dẹp theo phong cách Danshari"
+image_alt = "Không gian sống tối giản, gọn gàng — minh họa dọn nhà đón Tết theo Danshari"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/vi-vn/tim-kiem/minimalist%20home%20clean/"
+image_source_url = "https://www.pexels.com/photo/modern-living-room-19966766/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = ""
-image_creator_url = ""
-image_attribution_verified = false
-image_status = "pending"
+image_creator = "Alex Tyson"
+image_creator_url = "https://www.pexels.com/@alex-tyson-919593032"
+image_attribution_verified = true
+image_status = "verified"
 
 [ai_summary]
 enabled = true
@@ -60,6 +60,10 @@ title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: quà tặng xanh và sứ
 [[internal_links]]
 ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
 title = "Lịch nghỉ Tết Nguyên Đán 2027 (dự kiến) và lộ trình tối ưu ngày nghỉ"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-12T07:32:42+07:00"
+image_query = "curated"
 +++
 
 Dọn nhà đón Tết là truyền thống đẹp, nhưng năm nào cũng lặp lại một nghịch lý: ta lau chùi rất kỹ, rồi nhét đống đồ đạc vào chỗ cũ, và sang năm lại dọn đúng đống ấy. Vấn đề không phải nhà bẩn, mà là **nhà quá nhiều đồ**. Năm nay, thay vì "dọn cho sạch", tôi đề xuất "dọn cho ít đi" theo triết lý **Danshari** của người Nhật. Đây không phải mẹo lau nhà, mà là cách nghĩ lại về những gì mình thật sự cần — để đón Tết 2027 với một không gian và một cái đầu nhẹ nhõm hơn.

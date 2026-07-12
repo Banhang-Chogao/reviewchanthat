@@ -18,18 +18,18 @@ series_title = "Tết Nguyên Đán Đinh Mùi 2027"
 slug = "so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man"
 image = "images/posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.webp"
 thumbnail = "images/posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.webp"
-image_alt = "Mâm cỗ Tết cổ truyền Việt Nam — minh họa khác biệt phong tục ba miền Bắc Trung Nam"
+image_alt = "Mâm cỗ ngày Tết cổ truyền Việt Nam — minh họa phong tục Tết ba miền"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/vi-vn/tim-kiem/vietnamese%20tet/"
+image_source_url = "https://www.pexels.com/photo/vietnamese-lunar-new-year-family-feast-setup-36126352/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = ""
-image_creator_url = ""
-image_attribution_verified = false
-image_status = "pending"
+image_creator = "Nguyen Truong Khang"
+image_creator_url = "https://www.pexels.com/@mazic"
+image_attribution_verified = true
+image_status = "verified"
 
 [ai_summary]
 enabled = true
@@ -60,6 +60,10 @@ title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: quà tặng xanh và sứ
 [[internal_links]]
 ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: rượu cần, bánh chưng đen"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-12T07:32:38+07:00"
+image_query = "curated"
 +++
 
 Người Việt ở đâu cũng ăn Tết, nhưng "ăn Tết" ở Hà Nội, ở Huế và ở Cần Thơ lại là ba trải nghiệm rất khác nhau. Cùng một cái Tết Nguyên Đán, mà mâm cỗ, cách bày biện, lễ nghi và cả những điều kiêng kỵ đều mang dấu ấn vùng miền rõ rệt. Bài này tôi so sánh sòng phẳng ba miền — không để tôn miền nào hơn, mà để bạn hiểu vì sao mỗi nơi làm mỗi khác, và nếu năm nay ăn Tết ở một vùng lạ thì đừng bỡ ngỡ. Xin nói trước: phong tục có vô số dị bản theo từng tỉnh, từng dòng họ, nên những gì tôi viết là nét khái quát phổ biến nhất, không phải khuôn vàng thước ngọc.

@@ -18,18 +18,18 @@ series_title = "Tết Nguyên Đán Đinh Mùi 2027"
 slug = "review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem"
 image = "images/posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.webp"
 thumbnail = "images/posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.webp"
-image_alt = "Hành lý và bản đồ du lịch dịp Tết — minh họa xu hướng ăn Tết xa nhà 2027"
+image_alt = "Khách du lịch với vali ở sân bay — minh họa du lịch dịp Tết"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/vi-vn/tim-kiem/travel%20luggage/"
+image_source_url = "https://www.pexels.com/photo/busy-people-on-the-airport-terminal-6726195/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = ""
-image_creator_url = ""
-image_attribution_verified = false
-image_status = "pending"
+image_creator = "Magic K"
+image_creator_url = "https://www.pexels.com/@magic-k-24827758"
+image_attribution_verified = true
+image_status = "verified"
 
 [ai_summary]
 enabled = true
@@ -60,6 +60,10 @@ title = "Review đặt vé máy bay, tàu hỏa Tết 2027: mẹo săn vé sớm
 [[internal_links]]
 ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
 title = "Lịch nghỉ Tết Nguyên Đán 2027 (dự kiến) và lộ trình tối ưu ngày nghỉ"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-12T07:32:43+07:00"
+image_query = "curated"
 +++
 
 Mấy năm gần đây, câu "Tết này đi đâu chơi?" dần thay cho "Tết này gói bánh chưng không?". **Ăn Tết xa nhà** — đi du lịch trong những ngày Tết Nguyên Đán — đã thành một xu hướng rõ rệt, nhất là với người trẻ và các gia đình muốn nghỉ ngơi thật sự sau một năm mệt nhoài. Nhưng đây là quyết định có hai mặt. Bài này tôi review sòng phẳng: đi du lịch Tết được gì, mất gì, hợp với ai, và nếu đi thì làm sao để không bị "chặt chém" hay vỡ kế hoạch chi tiêu trong dịp Tết 2027.

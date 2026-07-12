@@ -18,18 +18,18 @@ series_title = "Tết Nguyên Đán Đinh Mùi 2027"
 slug = "an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la"
 image = "images/posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.webp"
 thumbnail = "images/posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.webp"
-image_alt = "Bản làng vùng cao Tây Bắc ngày Tết — minh họa văn hóa Tết của đồng bào"
+image_alt = "Ảnh minh họa Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào — nguồn Pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/vi-vn/tim-kiem/vietnam%20mountain%20village/"
+image_source_url = "https://www.pexels.com/photo/woman-in-traditional-vietnamese-dress-celebrating-t-t-33409159/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = ""
-image_creator_url = ""
-image_attribution_verified = false
-image_status = "pending"
+image_creator = "My Duyen Van"
+image_creator_url = "https://www.pexels.com/@my-duyen-van-2154811410"
+image_attribution_verified = true
+image_status = "verified"
 
 [ai_summary]
 enabled = true
@@ -60,6 +60,10 @@ title = "So sánh phong tục Tết ba miền Bắc - Trung - Nam"
 [[internal_links]]
 ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
 title = "Review du lịch Tết 2027: tối ưu chi phí, tránh chặt chém"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-12T07:32:39+07:00"
+image_query = "trải nghiệm ăn tết vùng"
 +++
 
 Nếu Tết đồng bằng là mâm cỗ tươm tất trong ngôi nhà ấm, thì Tết vùng cao Tây Bắc là khói bếp vương trên mái nhà sàn, là tiếng khèn giữa sương núi và chén rượu cần chuyền tay. Tôi từng đón một cái Tết ở vùng cao và nhận ra: nơi đây Tết không chỉ để ăn, mà để **gắn kết cộng đồng** theo cách rất riêng. Bài viết này chia sẻ những gì đáng trải nghiệm, kèm vài lưu ý thành thật để bạn đến với đồng bào bằng sự tôn trọng, chứ không phải tâm thế "check-in cho lạ".

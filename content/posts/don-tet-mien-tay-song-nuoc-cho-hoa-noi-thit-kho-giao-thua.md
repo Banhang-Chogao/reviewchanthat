@@ -18,18 +18,18 @@ series_title = "Tết Nguyên Đán Đinh Mùi 2027"
 slug = "don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua"
 image = "images/posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.webp"
 thumbnail = "images/posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.webp"
-image_alt = "Chợ nổi miền Tây ngày giáp Tết — minh họa văn hóa đón Tết sông nước Nam Bộ"
+image_alt = "Ảnh minh họa Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa — nguồn Pexels"
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/vi-vn/tim-kiem/mekong%20floating%20market/"
+image_source_url = "https://www.pexels.com/photo/aerial-view-of-boats-at-cai-rang-floating-market-32607905/"
 image_provider = "pexels"
 image_license = "Pexels License"
-image_license_url = "https://www.pexels.com/license/"
+image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = ""
-image_creator_url = ""
-image_attribution_verified = false
-image_status = "pending"
+image_creator = "Duy Nguyen"
+image_creator_url = "https://www.pexels.com/@duy-nguyen-489946968"
+image_attribution_verified = true
+image_status = "verified"
 
 [ai_summary]
 enabled = true
@@ -60,6 +60,10 @@ title = "So sánh phong tục Tết ba miền Bắc - Trung - Nam"
 [[internal_links]]
 ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-12T07:32:41+07:00"
+image_query = "đón tết miền tây sông"
 +++
 
 Tết miền Tây có một nhịp riêng: chậm rãi, hào sảng và thấm đẫm hơi nước sông. Ở đây, không khí Tết không bắt đầu từ phố xá mà từ những dòng kênh — khi ghe chở hoa, chở dưa hấu nối đuôi nhau về chợ, khi mùi thịt kho nước dừa bắt đầu tỏa ra từ gian bếp. Tôi mê cái Tết miền Tây vì sự bình dị của nó: không phô trương, nhưng đầy đặn tình người. Bài viết này kể lại những nét đặc trưng nhất, kèm vài lưu ý thực tế nếu bạn định về miền Tây ăn Tết Đinh Mùi 2027.
