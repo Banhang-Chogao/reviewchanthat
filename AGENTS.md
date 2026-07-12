@@ -38,6 +38,7 @@
 - **Content Depth:** Mọi bài viết (cả VN và EN) phải có chiều sâu thật, độ dài **từ 2000–3000 từ trở lên** (tối thiểu tuyệt đối 2000 từ, nhắm mốc 3000 từ cho bài trụ cột). Sử dụng thước đo `wc -w` trên nội dung markdown (loại bỏ front matter) để kiểm tra. Viết giọng human-first, có trải nghiệm thật, không có mùi AI, tuân thủ bản quyền + Review Chân Thật. Internal links và external links là **optional** — không bắt buộc phải thêm vào. Nếu muốn thêm links:
   - External links: trỏ đến nguồn tham khảo uy tín bên ngoài để tăng giá trị SEO.
   - Internal links: **TUYỆT ĐỐI CẤM link placeholder/fake** dạng `/posts/placeholder-*`. Nếu không có bài viết thật cùng chủ đề, bỏ qua internal link — không tạo link ảo. Lý do: link placeholder sinh ra trong quá trình gen bài (prompt yêu cầu "thêm internal link SEO"), agent tạo link tới bài chưa tồn tại. Cách khắc phục: agent chỉ được tạo internal link khi có slug bài viết thật trong `content/posts/`. Nếu chưa có bài thật, không thêm internal link nào hết.
+- **Meta description phải dài 50–160 ký tự (chuẩn SEO).** Field `description` trong front matter TOML là đoạn snippet Google hiển thị: **>160 ký tự bị cắt cụt (`…`) ngoài SERP, <50 ký tự phí chỗ**. Quy tắc viết: giữ **từ khóa chính + năm** ở đầu câu, bỏ từ lặp/thừa, nhắm **~150–158 ký tự** để có biên an toàn, **không dùng dấu ngoặc kép bên trong** (tránh phải escape trong TOML). Không viết description kiểu đoạn mở bài dài rồi để bị cắt giữa chừng — phải là câu tóm tắt trọn nghĩa. Deployment doctor (`deploy-failure-healer.py`, Rule 9 `meta_description_length`) tự bắt bài ngoài khoảng 50–160 khi scan pre-deploy, severity WARNING. **Không auto-fix bằng script** (viết lại cần ngữ nghĩa, không bịa máy móc) — phải sửa tay rồi mới accept deploy.
 - **Footer macro là NGUỒN DUY NHẤT cho 4 mục cuối bài — cấm hardcode.** Bốn mục sau BẮT BUỘC do macro `layouts/partials/post-footer.html` sinh ra từ front matter, **áp dụng cho MỌI bài dù thuộc Category nào**:
   - **Liên kết nội bộ được sử dụng trong bài viết** ← `[[internal_links]]` (`ref`, `title`)
   - **Liên kết bên ngoài được sử dụng trong bài viết** ← `[[external_links]]` (`url`, `title`)
@@ -248,6 +249,7 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 | Fake links | Pre-deploy | ✅ Yes | < 2 min |
 | IMAGE_API_QUERY | Pre-deploy | ✅ Yes | < 1 min |
 | Content depth | Pre-deploy | ❌ Manual | N/A |
+| Meta description length (50–160) | Pre-deploy | ❌ Manual | N/A |
 | WebP tracking | Pre-deploy | ✅ Yes | < 1 min |
 
 **Goal: 0 deploy failures** through automated pre-deploy validation.

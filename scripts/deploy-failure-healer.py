@@ -192,6 +192,22 @@ class DeployFailureHealer:
                 'line': None
             })
 
+        # Rule 9: Check meta description length (SEO: 50-160 chars)
+        # Google truncates >160 chars in SERP; <50 wastes snippet space.
+        # No safe regex auto-fix — rewriting needs semantic edit, so report only.
+        desc_match = re.search(r'(?m)^description\s*=\s*"(.*)"\s*$', fm_text)
+        if desc_match:
+            desc_len = len(desc_match.group(1))
+            if desc_len < 50 or desc_len > 160:
+                issues.append({
+                    'file': filename,
+                    'type': 'meta_description_length',
+                    'severity': 'WARNING',
+                    'message': f'Meta description is {desc_len} chars (SEO range 50-160)',
+                    'fix': 'Rewrite description to 50-160 chars, keyword up front, aim ~150-158',
+                    'line': fm_text.count('\n', 0, desc_match.start()) + 2
+                })
+
         return issues
 
     def auto_fix_post(self, filepath: Path) -> Tuple[bool, List[str]]:
