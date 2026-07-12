@@ -7480,7 +7480,35 @@
       "image_total_score": 0,
       "image_alt": "Khách du lịch với vali ở sân bay — minh họa du lịch dịp Tết",
       "gate_verified": true
+    },
+    {
+      "slug": "cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027",
+      "title": "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027",
+      "image_id": "img-2aaaffb0",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/black-and-white-photography-of-men-posing-in-suits-21044836/",
+      "direct_url": "https://images.pexels.com/photos/21044836/pexels-photo-21044836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "HONG SON",
+      "creator_url": "https://www.pexels.com/@hson",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.jpg",
+      "output_path": "static/images/posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.webp",
+      "watermark_text": "Source: Pexels / HONG SON",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "ôn cố tri tân nhìn",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027 — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-12T00:31:10.524614+00:00"
+  "generated_at": "2026-07-12T01:13:06.094150+00:00"
 }
