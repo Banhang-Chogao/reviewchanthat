@@ -179,5 +179,4 @@ Với hơn 11 ngân hàng hỗ trợ (Vietcombank, ACB, MB Bank, Techcombank, Sa
 Nếu bạn gặp lỗi khi thêm thẻ, hãy kiểm tra theo thứ tự: **ngân hàng có hỗ trợ không → vùng Apple ID có đúng không → thẻ còn hiệu lực không → iOS đã cập nhật chưa**. Hầu hết các lỗi đều có thể tự khắc phục.
 Sau khi đã thiết lập Apple Pay, bạn có thể tìm hiểu thêm về các [phương thức thanh toán số khác tại Việt Nam]({{< relref "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien" >}}) như ví điện tử và thẻ Visa Debit để xây dựng bộ công cụ tài chính cá nhân hoàn chỉnh.
 > **Lưu ý:** Thông tin trong bài viết được cập nhật đến tháng 7/2026. Danh sách ngân hàng hỗ trợ Apple Pay có thể thay đổi. Kiểm tra trang [Apple Support](https://support.apple.com/vi-vn/102897) để biết danh sách mới nhất.
-+++
 

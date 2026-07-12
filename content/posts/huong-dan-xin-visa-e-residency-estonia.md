@@ -290,4 +290,3 @@ e-Residency Estonia là một công cụ mạnh mẽ cho doanh nhân toàn cầu
 Tuy nhiên, như bất kỳ quyết định kinh doanh nào, e-Residency cần được cân nhắc cẩn thận dựa trên nhu cầu cụ thể, khả năng tài chính và kế hoạch dài hạn của bạn. Để biết thêm thông tin chi tiết, bạn có thể tham khảo trang web chính thức của chương trình tại [e-Residency.gov.ee](https://www.e-resident.gov.ee) và đọc các đánh giá độc lập từ người dùng trên các diễn đàn khởi nghiệp như [Startup Estonia](https://startupestonia.ee).
 
 Với hơn 120.000 e-Resident từ 180 quốc gia và 30.000 công ty được thành lập, chương trình này đã chứng minh rằng biên giới không còn là rào cản cho khởi nghiệp trong thế kỷ 21. Vấn đề không phải là bạn đến từ đâu, mà là bạn muốn đi đến đâu.
-+++

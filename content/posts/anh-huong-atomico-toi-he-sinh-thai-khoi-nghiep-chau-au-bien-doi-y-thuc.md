@@ -30,7 +30,6 @@ image_alt = "Ảnh minh họa Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái
 [[internal_links]]
 ref = "posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.md"
 title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"
-+++
 image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"

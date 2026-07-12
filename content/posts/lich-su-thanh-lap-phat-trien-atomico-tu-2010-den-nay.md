@@ -37,7 +37,6 @@ title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu T
 [[internal_links]]
 ref = "posts/phần-lan-giáo-dục-02.md"
 title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
-+++
 image_source = "Pixabay"
 image_provider = "pixabay"
 image_license = "Pixabay Content License"

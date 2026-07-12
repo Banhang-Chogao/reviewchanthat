@@ -71,9 +71,6 @@ title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử h
 image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
-+++
-image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "xu hướng giỏ quà tết"
 +++
 

@@ -332,4 +332,3 @@ Tôi đã đến đó với những kỳ vọng cao, và vẫn bị vượt quá
 Nếu có một chuyến đi tôi muốn lặp lại trong đời, đó là chuyến đi này. Và lần sau, tôi sẽ ở lại lâu hơn.
 
 Thông tin tham khảo thêm: [Icehotel Official Website](https://www.icehotel.com/), [Visit Sweden — Aurora Borealis](https://visitsweden.com/what-to-do/nature-outdoors/northern-lights/), [NOAA Aurora Forecast](https://www.swpc.noaa.gov/).
-+++

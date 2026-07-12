@@ -30,6 +30,10 @@ image_creator = "Vyvan BÙI VY VÂN"
 image_creator_url = "https://www.pexels.com/@vyvan-bui-vy-van-1139609066"
 image_attribution_verified = true
 image_status = "verified"
+image_creator_id = ""
+image_attribution_source = "pexels_api"
+image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
+image_query = "lịch nghỉ tết nguyên đán"
 
 [ai_summary]
 enabled = true
@@ -68,13 +72,6 @@ title = "Sinh năm 2027 mệnh gì? Tuổi Đinh Mùi Thiên Hà Thủy, hướn
 [[internal_links]]
 ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
 title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
-image_creator_id = ""
-image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
-+++
-image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
-image_query = "lịch nghỉ tết nguyên đán"
 +++
 
 Cứ mỗi độ tháng Chạp cận kề, câu hỏi được tìm nhiều nhất không phải là "ăn gì" hay "chơi đâu", mà là **"năm nay được nghỉ Tết mấy ngày và nghỉ từ hôm nào?"**. Với Tết Nguyên Đán Đinh Mùi 2027, tôi viết bài này sớm — từ giữa năm 2026 — để bạn có một khung tính toán đủ dùng, thay vì chờ tin đồn trên mạng xã hội. Xin nói rõ ngay từ đầu: **toàn bộ lịch dưới đây là dự kiến**. Lịch nghỉ lễ chính thức của khối hành chính, sự nghiệp và khối doanh nghiệp do Chính phủ cùng Bộ Lao động - Thương binh và Xã hội công bố, thường vào khoảng cuối năm liền trước. Cái tôi làm ở đây là bóc tách cách người ta *ra* con số đó, để bạn tự kiểm chứng.

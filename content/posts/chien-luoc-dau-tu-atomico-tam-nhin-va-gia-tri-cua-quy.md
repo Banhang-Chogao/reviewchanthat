@@ -25,22 +25,7 @@ image_status = "verified"
 image_provider = "pexels"
 image_query = "chiến lược đầu tư atomico"
 image_alt = "Ảnh minh họa Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và Giá Trị Cốt Lõi Của Quỹ — nguồn Pexels"
-+++
-image_source = "Pexels"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_creator = "Monstera Production"
-image_alt = "Chiến lược đầu tư và tầm nhìn của Atomico"
-image_source_url = "https://www.pexels.com/photo/stocks-icon-on-blue-background-6289061/"
 image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator_url = "https://www.pexels.com/@gabby-k"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-date_display = "11-07-2026 14:45:00 GMT +7"
 +++
 
 ## Tầm Nhìn Của Atomico: Xây Dựng Những Công Ty Thay Đổi Thế Giới
