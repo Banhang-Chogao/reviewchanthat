@@ -19,20 +19,42 @@ from xml.sax.saxutils import escape
 BASE_URL = "https://banhang-chogao.github.io/reviewchanthat"
 PUBLIC_DIR = "public"
 POST_PATTERN = re.compile(r"^/?posts/")
+# Pagination list pages (posts/page/2/…) and the posts section root are not
+# canonical content — they must never appear in a sitemap.
+PAGE_PATTERN = re.compile(r"(^|/)page/\d+/")
+SECTION_ROOT = "posts/index.html"
+# A post rendered with noindex carries the same robots meta Hugo emits in
+# layouts/partials/seo.html. Advertising a noindex URL in a sitemap triggers
+# GSC "Submitted URL marked 'noindex'" errors, so skip those posts here too.
+NOINDEX_RE = re.compile(r'<meta[^>]+name=["\']?robots["\']?[^>]+noindex', re.I)
 SITEMAP_FILENAME = "sitemap-posts.xml"
 PRIORITY = "0.8"
 CHANGEFREQ = "weekly"
+
+
+def is_noindex(full_path: str) -> bool:
+    try:
+        with open(full_path, encoding="utf-8") as handle:
+            return bool(NOINDEX_RE.search(handle.read()))
+    except OSError:
+        return False
 
 
 def collect_html_files(root: str) -> list[str]:
     html_files: list[str] = []
     for dirpath, _, filenames in os.walk(root):
         for fname in filenames:
-            if fname.endswith(".html"):
-                full = os.path.join(dirpath, fname)
-                rel = os.path.relpath(full, root)
-                if rel.startswith("posts/") or POST_PATTERN.match(rel):
-                    html_files.append(rel)
+            if not fname.endswith(".html"):
+                continue
+            full = os.path.join(dirpath, fname)
+            rel = os.path.relpath(full, root)
+            if not (rel.startswith("posts/") or POST_PATTERN.match(rel)):
+                continue
+            if rel == SECTION_ROOT or PAGE_PATTERN.search(rel):
+                continue
+            if is_noindex(full):
+                continue
+            html_files.append(rel)
     return sorted(html_files)
 
 
