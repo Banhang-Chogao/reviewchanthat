@@ -10,6 +10,33 @@
     </ul>
   </section>
   {{ partial "home-kpi-strip.html" . }}
+
+  {{/* ── Section: Sticky Posts (2 hardcoded, pinned) ─────────────────────
+       Fetched by explicit path via site.GetPage so ordering is deterministic
+       and independent of date/weight. `with` guards a missing/renamed page so
+       a broken slug degrades to nothing instead of erroring the build. */}}
+  {{ $stickyRefs := slice
+    "/posts/review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho"
+    "/posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi" }}
+  {{ $sticky := slice }}
+  {{ range $stickyRefs }}
+    {{ with site.GetPage . }}{{ $sticky = $sticky | append . }}{{ end }}
+  {{ end }}
+  {{ with $sticky }}
+  <section class="home-feature" aria-labelledby="home-feature-sticky">
+    <header class="home-feature__header">
+      <span class="home-feature__eyebrow">Ghim</span>
+      <h2 class="home-feature__title" id="home-feature-sticky">Bài viết nổi bật</h2>
+      <p class="home-feature__subtitle">Được ghim thủ công — nên đọc trước tiên.</p>
+    </header>
+    <div class="home-post-grid home-post-grid--feature">
+      {{ range . }}
+        {{ partial "home-post-block.html" (dict "page" . "eager" false) }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
   <section class="home-post-grid">
     {{/* Always newest-first: sort by date descending explicitly, never rely on
          default weight/featured/sticky ordering so a new post is always on top. */}}
@@ -20,6 +47,32 @@
     {{ end }}
   </section>
   {{ partial "pagination.html" . }}
+
+  {{/* ── Section: Random Posts (2 dynamic, reshuffled each build) ─────────
+       Pool = posts that carry a cover image in front matter AND are not
+       flagged needs_image, so the card image is always valid (PIPELINE RULE
+       2). Sticky refs are excluded to avoid duplicating the pinned pair. */}}
+  {{ $stickyPerms := apply $sticky "index" ".RelPermalink" }}
+  {{ $pool := where site.RegularPages "Section" "posts" }}
+  {{ $pool = where $pool "Params.image" "!=" nil }}
+  {{ $pool = where $pool "Params.image_status" "!=" "needs_image" }}
+  {{ $pool = where $pool "RelPermalink" "not in" $stickyPerms }}
+  {{ $random := first 2 (shuffle $pool) }}
+  {{ with $random }}
+  <section class="home-feature" aria-labelledby="home-feature-random">
+    <header class="home-feature__header">
+      <span class="home-feature__eyebrow home-feature__eyebrow--alt">Ngẫu nhiên</span>
+      <h2 class="home-feature__title" id="home-feature-random">Khám phá thêm</h2>
+      <p class="home-feature__subtitle">Hai bài được chọn ngẫu nhiên cho mỗi lần ghé thăm.</p>
+    </header>
+    <div class="home-post-grid home-post-grid--feature">
+      {{ range . }}
+        {{ partial "home-post-block.html" (dict "page" . "eager" false) }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
   {{ partial "series-section.html" . }}
 </div>
 {{ end }}
