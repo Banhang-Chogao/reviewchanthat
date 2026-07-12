@@ -1,31 +1,8 @@
 {{- /*
-  Editor Pick — featured/discovery block in the RIGHT sidebar of single post pages.
-  Logic: 10 RANDOM posts (shuffle + per-post rotation so each post shows a different set),
-  excluding the current post. Title + short summary + small rectangular thumbnail.
+  Right-sidebar slot on single post pages. Now shows a Trip.com ad (250x250)
+  instead of a post list, per request.
 */ -}}
-{{- $others := where (where site.RegularPages "Section" "posts") "Permalink" "!=" .Permalink -}}
-{{- $n := len $others -}}
-{{- if ge $n 1 -}}
-  {{- $shuffled := shuffle $others -}}
-  {{- $seed := mod (len .RawContent) $n -}}
-  {{- $rot := union (after $seed $shuffled) (first $seed $shuffled) -}}
-  {{- $picks := first 10 $rot -}}
-<aside class="editor-pick" aria-label="Bài viết nổi bật">
-  <div class="editor-pick__head">⭐ Editor Pick</div>
-  <ul class="editor-pick__list">
-    {{- range $picks }}
-    {{- $thumb := .Params.thumbnail | default .Params.image -}}
-    {{- $sum := .Params.description | default .Summary -}}
-    <li class="editor-pick__item">
-      <a class="editor-pick__link" href="{{ .RelPermalink }}">
-        {{- with $thumb }}<img class="editor-pick__thumb" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async" width="72" height="45">{{ end }}
-        <span class="editor-pick__body">
-          <span class="editor-pick__title">{{ .Title }}</span>
-          {{- with $sum }}<span class="editor-pick__summary">{{ . | plainify | truncate 72 }}</span>{{ end }}
-        </span>
-      </a>
-    </li>
-    {{- end }}
-  </ul>
+<aside class="editor-pick editor-pick--ad" aria-label="Nội dung tài trợ">
+  <span class="editor-pick__adlabel">Tài trợ</span>
+  <iframe class="editor-pick__adframe" src="https://www.trip.com/partners/ad/SB18632245?Allianceid=9016169&SID=323965293&trip_sub1=" width="250" height="250" frameborder="0" scrolling="no" style="border:none;width:250px;height:250px;max-width:100%" id="SB18632245" title="Trip.com — ưu đãi du lịch" loading="lazy"></iframe>
 </aside>
-{{- end -}}

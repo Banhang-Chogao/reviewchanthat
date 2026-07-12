@@ -22,6 +22,7 @@
   {{ range $stickyRefs }}
     {{ with site.GetPage . }}{{ $sticky = $sticky | append . }}{{ end }}
   {{ end }}
+  {{ partial "home-search-ad.html" . }}
   {{ with $sticky }}
   <section class="home-feature" aria-labelledby="home-feature-sticky">
     <header class="home-feature__header">
