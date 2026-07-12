@@ -4,6 +4,7 @@ seo_title = "Khách sạn view đẹp gần TP.HCM 2026: Review & Kinh nghiệm 
 commit = "50c0dc79"
 date = "2026-07-12T13:45:00+07:00"
 draft = false
+editor_pick = true
 description = "Khách sạn view đẹp gần TP.HCM 2026: review 6 resort nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng staycation."
 image = "images/posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.webp"
 thumbnail = "images/posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.webp"

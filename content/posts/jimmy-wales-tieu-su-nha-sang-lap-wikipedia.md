@@ -4,6 +4,7 @@ seo_title = "Jimmy Wales: tiểu sử nhà sáng lập Wikipedia & cuộc sống
 commit = "977c9321"
 date = "2026-07-12T18:45:00+07:00"
 draft = false
+editor_pick = true
 description = "Tiểu sử Jimmy Wales, nhà sáng lập Wikipedia: từ dân tài chính đến người tạo bách khoa toàn thư lớn nhất lịch sử, triết lý tri thức tự do và cuộc sống hiện tại."
 image = "images/posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.webp"
 thumbnail = "images/posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.webp"
