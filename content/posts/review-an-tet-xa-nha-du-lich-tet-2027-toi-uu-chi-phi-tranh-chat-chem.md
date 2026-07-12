@@ -2,7 +2,7 @@
 draft = false
 title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
 seo_title = "Review du lịch Tết 2027: nên đi không, tối ưu chi phí"
-description = "Review thực tế xu hướng ăn Tết xa nhà - du lịch Tết 2027: ưu nhược điểm khi đi du lịch dịp Tết Nguyên Đán, cách tối ưu chi phí, nhận diện và tránh chặt chém, phụ thu ngày Tết."
+description = "Review ăn Tết xa nhà - du lịch Tết 2027: ưu nhược điểm, cách tối ưu chi phí và mẹo nhận diện, tránh chặt chém, phụ thu ngày Tết."
 date = "2026-07-12T07:00:00+07:00"
 lastmod = "2026-07-12T07:00:00+07:00"
 date_display = "12-07-2026 07:00:00 GMT +7"

@@ -2,7 +2,7 @@
 draft = false
 title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe"
 seo_title = "Giỏ quà Tết Đinh Mùi 2027: đánh giá quà xanh & sức khỏe"
-description = "Đánh giá thực tế xu hướng giỏ quà Tết Đinh Mùi 2027: bao bì bền vững, sản phẩm hữu cơ và sức khỏe, cách tránh giỏ quà thương mại đội giá, chất lượng thấp và lãng phí."
+description = "Đánh giá xu hướng giỏ quà Tết Đinh Mùi 2027: bao bì bền vững, sản phẩm hữu cơ, cách tránh giỏ quà thương mại đội giá, chất lượng thấp và lãng phí."
 date = "2026-07-11T18:00:00+07:00"
 lastmod = "2026-07-11T18:00:00+07:00"
 date_display = "11-07-2026 18:00:00 GMT +7"

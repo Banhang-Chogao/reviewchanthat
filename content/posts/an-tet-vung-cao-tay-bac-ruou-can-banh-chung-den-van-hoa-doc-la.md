@@ -2,7 +2,7 @@
 draft = false
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
 seo_title = "Ăn Tết vùng cao Tây Bắc: rượu cần, bánh chưng đen"
-description = "Trải nghiệm ăn Tết vùng cao Tây Bắc: hương vị rượu cần, bánh chưng đen, thịt trâu gác bếp, xôi ngũ sắc và nét văn hóa Tết độc đáo của đồng bào Thái, Mông, Dao, Mường."
+description = "Trải nghiệm ăn Tết vùng cao Tây Bắc: rượu cần, bánh chưng đen, thịt trâu gác bếp, xôi ngũ sắc và nét văn hóa Tết độc đáo của người Thái, Mông, Dao."
 date = "2026-07-12T06:15:00+07:00"
 lastmod = "2026-07-12T06:15:00+07:00"
 date_display = "12-07-2026 06:15:00 GMT +7"

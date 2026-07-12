@@ -2,7 +2,7 @@
 draft = false
 title = "Review chi tiết các dịch vụ đặt vé máy bay, tàu hỏa Tết 2027: Mẹo săn vé sớm không bị \"hớ\""
 seo_title = "Review đặt vé máy bay, tàu hỏa Tết 2027 & mẹo săn vé"
-description = "So sánh thực tế các nền tảng đặt vé máy bay và tàu hỏa cho Tết 2027: quy luật tăng giá theo mốc thời gian, dấu hiệu nhận biết vé giả, cò vé và cách săn vé sớm không bị hớ."
+description = "So sánh các nền tảng đặt vé máy bay, tàu hỏa Tết 2027: quy luật tăng giá theo thời gian, dấu hiệu vé giả, cò vé và cách săn vé sớm không bị hớ."
 date = "2026-07-11T12:30:00+07:00"
 lastmod = "2026-07-11T12:30:00+07:00"
 date_display = "11-07-2026 12:30:00 GMT +7"

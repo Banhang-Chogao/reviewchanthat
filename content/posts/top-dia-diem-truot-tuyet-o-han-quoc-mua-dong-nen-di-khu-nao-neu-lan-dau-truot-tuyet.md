@@ -4,7 +4,7 @@ avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
 commit = "9008aff"
-description = "Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì hơi phí. Nhưng giữa 6 resort ở Gangwon-do, chọn cái nào? Câu trả lời không phải \"cái nào đẹp nhất\" mà là \"cái"
+description = "Đi Hàn Quốc mùa đông đừng bỏ lỡ trượt tuyết. Giữa 6 resort ở Gangwon-do nên chọn khu nào cho người lần đầu? So sánh giá, đường đi và độ dễ trượt."
 draft = false
 image = "images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp"
 image_attribution_checked_at = "2026-07-11T17:30:24+07:00"

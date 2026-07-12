@@ -4,7 +4,7 @@ avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-09T04:00:00+07:00"
 commit = "9008aff"
-description = "Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính \"chưa đủ mạnh\"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng"
+description = "Kinh nghiệm xin visa Hàn Quốc du lịch tự túc theo diện thu nhập trên 8.000 USD/năm: hồ sơ tài chính cần chuẩn bị, cách chứng minh và lưu ý khi nộp."
 draft = false
 image = "images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp"
 image_alt = "Ảnh minh họa Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị — nguồn Pexels"

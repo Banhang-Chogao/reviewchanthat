@@ -2,7 +2,7 @@
 draft = false
 title = "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ"
 seo_title = "Lịch nghỉ Tết 2027 (dự kiến) & cách tối ưu ngày nghỉ"
-description = "Lịch nghỉ Tết Nguyên Đán Đinh Mùi 2027 dự kiến: mùng 1 rơi vào 06/02/2027, cách tính 5 ngày luật định, quy định lương làm ngày lễ 300% và lộ trình xin phép tối ưu."
+description = "Lịch nghỉ Tết Nguyên Đán Đinh Mùi 2027 dự kiến: mùng 1 vào 06/02/2027, cách tính 5 ngày luật định, lương làm ngày lễ 300% và lộ trình xin phép tối ưu."
 date = "2026-07-11T08:00:00+07:00"
 lastmod = "2026-07-11T08:00:00+07:00"
 date_display = "11-07-2026 08:00:00 GMT +7"

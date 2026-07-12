@@ -2,7 +2,7 @@
 draft = false
 title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
 seo_title = "Phong tục Tết ba miền Bắc - Trung - Nam khác nhau thế nào"
-description = "So sánh phong tục Tết ba miền Bắc, Trung, Nam: khác biệt mâm cỗ (bánh chưng, bánh tét, thịt kho), lễ nghi cúng bái, mâm ngũ quả và những quan niệm may mắn, kiêng kỵ đầu năm."
+description = "So sánh phong tục Tết ba miền Bắc, Trung, Nam: khác biệt mâm cỗ, lễ nghi cúng bái, mâm ngũ quả và các quan niệm may mắn, kiêng kỵ đầu năm."
 date = "2026-07-12T06:00:00+07:00"
 lastmod = "2026-07-12T06:00:00+07:00"
 date_display = "12-07-2026 06:00:00 GMT +7"

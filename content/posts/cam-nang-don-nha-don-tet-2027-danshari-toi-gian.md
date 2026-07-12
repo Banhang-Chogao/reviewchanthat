@@ -2,7 +2,7 @@
 draft = false
 title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
 seo_title = "Dọn nhà đón Tết 2027 tối giản theo phong cách Danshari"
-description = "Cẩm nang dọn nhà đón Tết 2027 khoa học, tối giản theo triết lý Danshari (đoạn - xả - ly): quy trình dọn theo khu vực, quy tắc giữ - bỏ, xử lý đồ thừa và tránh mua sắm dư thừa."
+description = "Cẩm nang dọn nhà đón Tết 2027 tối giản theo triết lý Danshari: quy trình dọn theo khu vực, quy tắc giữ - bỏ và cách xử lý đồ thừa hợp lý."
 date = "2026-07-12T06:45:00+07:00"
 lastmod = "2026-07-12T06:45:00+07:00"
 date_display = "12-07-2026 06:45:00 GMT +7"

@@ -2,7 +2,7 @@
 draft = false
 title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
 seo_title = "Đón Tết miền Tây sông nước: chợ nổi, thịt kho rục"
-description = "Đón Tết miền Tây sông nước: chợ hoa và chợ nổi ngày giáp Tết, nồi thịt kho hột vịt rục, canh khổ qua, bánh tét lá cẩm và nét văn hóa bình dị, phóng khoáng của người miền Tây."
+description = "Đón Tết miền Tây sông nước: chợ hoa, chợ nổi giáp Tết, nồi thịt kho hột vịt, canh khổ qua, bánh tét lá cẩm và nét văn hóa bình dị nơi đây."
 date = "2026-07-12T06:30:00+07:00"
 lastmod = "2026-07-12T06:30:00+07:00"
 date_display = "12-07-2026 06:30:00 GMT +7"
