@@ -1,7 +1,7 @@
 +++
 title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
 seo_title = "Quỹ chủ quyền Na Uy: biến dầu mỏ thành tài sản tương lai"
-date = "2026-07-12 10:30:00+07:00"
+date = "2026-07-12T07:42:37+07:00"
 description = "Khám phá Quỹ chủ quyền Na Uy (GPF Global) - cách một quốc gia nhỏ quản lý hàng nghìn tỷ từ dầu mỏ, đầu tư toàn cầu, và xây dựng độc lập tài chính bền vững."
 categories = ["du-lich"]
 tags = ["Norway", "sovereign-wealth-fund", "economics", "sustainability", "investment"]
