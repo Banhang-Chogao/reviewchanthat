@@ -1,7 +1,7 @@
 +++
 title = "Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần"
 seo_title = "Review ASUS Zenbook DUO 2026: laptop hai màn hình đáng mua không?"
-commit = ""
+commit = "950c173d"
 date = "2026-07-14T01:14:29+07:00"
 slug = "review-asus-zenbook-duo-2026-laptop-2-man-hinh"
 draft = false
