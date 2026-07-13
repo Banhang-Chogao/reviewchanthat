@@ -2,7 +2,7 @@
 title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
 seo_title = "M&A Trip.com: Qunar, Skyscanner, MakeMyTrip"
 commit = "53131412"
-date = "2026-07-06T09:40:00+07:00"
+date = "2026-07-13T10:30:00+07:00"
 draft = false
 author = "Minh Hoàng"
 authors = ["Minh Hoàng"]

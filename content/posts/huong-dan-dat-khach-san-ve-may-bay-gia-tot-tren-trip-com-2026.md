@@ -2,7 +2,7 @@
 title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026"
 seo_title = "Cách đặt khách sạn & vé máy bay giá tốt trên Trip.com"
 commit = "53131412"
-date = "2026-07-11T10:30:00+07:00"
+date = "2026-07-13T10:05:00+07:00"
 draft = false
 author = "Minh Hoàng"
 authors = ["Minh Hoàng"]
