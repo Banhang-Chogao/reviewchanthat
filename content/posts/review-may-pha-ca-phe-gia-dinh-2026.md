@@ -2,14 +2,14 @@
 title = "Review Máy Pha Cà Phê Gia Đình 2026: Từ Phin Pha Tay Đến Máy Tự Động"
 seo_title = "Review máy pha cà phê gia đình 2026: Chọn loại nào?"
 commit = "f576fac5"
-date = "2026-07-13T23:45:00+07:00"
+date = "2026-07-13T23:42:27+07:00"
 slug = "review-may-pha-ca-phe-gia-dinh-2026"
 draft = false
 categories = ["review"]
 tags = ["máy pha cà phê", "review đồ gia dụng", "cà phê tại nhà", "coffee machine", "phối cà phê"]
 description = "Review máy pha cà phê gia đình 2026 từ phin pha tay, espresso máy, đến fully automatic — so sánh chi phí, chất lượng và trải nghiệm thực tế sau 1 năm dùng thử."
 author = "Reviewchanthat"
-date_display = "13-07-2026 23:45:00 GMT +7"
+date_display = "13-07-2026 23:42:27 GMT +7"
 image = "images/posts/review-may-pha-ca-phe-gia-dinh-2026.webp"
 thumbnail = "images/posts/review-may-pha-ca-phe-gia-dinh-2026.webp"
 image_source = "Pexels"
