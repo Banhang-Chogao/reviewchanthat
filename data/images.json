@@ -8488,7 +8488,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC? — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "trending-topic-20260714",
+      "title": "Gemini 3.5 Pro Launch July 17: 2M Context, Deep Think, Pricing — Everything You Need to Know",
+      "image_id": "img-8cea2110",
+      "source_platform": "Pixabay",
+      "image_provider": "pixabay",
+      "source_url": "https://pixabay.com/photos/cookies-flags-fourth-of-july-8863338/",
+      "direct_url": "https://pixabay.com/get/g170a3da8543f13310c0814f75b38c69bb4cacc09a548c5c6371dc115fea4d7e0b275231a461c77b9ae21e9580414384a7848ba2e6fff9f25b44394a647b733fe_1280.jpg",
+      "creator": "JillWellington",
+      "creator_url": "https://pixabay.com/photos/cookies-flags-fourth-of-july-8863338/",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pixabay Content License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/trending-topic-20260714.jpg",
+      "output_path": "static/images/posts/trending-topic-20260714.webp",
+      "watermark_text": "Source: Pixabay / JillWellington",
+      "provider_used": "Pixabay",
+      "attribution_verified": true,
+      "attribution_source": "pixabay_api",
+      "image_query": "gemini pro launch july 17",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Gemini 3.5 Pro Launch July 17: 2M Context, Deep Think, Pricing — Everything You Need to Know — nguồn Pixabay",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-13T17:13:31.186472+00:00"
+  "generated_at": "2026-07-13T17:22:44.843867+00:00"
 }
