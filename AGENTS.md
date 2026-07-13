@@ -44,6 +44,7 @@
   - Chạy `add_commit_id.py`.
   - Commit + push lên `main`.
   - **Tuyệt đối không hỏi user** slug, title, description, hay bất kỳ input nào. Nếu cần thông tin (ví dụ xu hướng mới) → tự web search, không hỏi.
+  - **CẤM tạo file test/debug** như `test-*.md`, `debug-*.md` trong `content/posts/`. Mọi file tạo ra đều phải là bài blog thật, có frontmatter đầy đủ.
 
 - **Content Depth:** Mọi bài viết (cả VN và EN) phải có chiều sâu thật, độ dài **từ 2000–3000 từ trở lên** (tối thiểu tuyệt đối 2000 từ, nhắm mốc 3000 từ cho bài trụ cột). Sử dụng thước đo `wc -w` trên nội dung markdown (loại bỏ front matter) để kiểm tra. Viết giọng human-first, có trải nghiệm thật, không có mùi AI, tuân thủ bản quyền + Review Chân Thật. Internal links và external links là **optional** — không bắt buộc phải thêm vào. Nếu muốn thêm links:
   - External links: trỏ đến nguồn tham khảo uy tín bên ngoài để tăng giá trị SEO.
@@ -98,11 +99,17 @@ grep -r "!\[\[IMAGE_API_QUERY:" content/posts/
 # 8. Verify no placeholder links
 grep -r "/posts/placeholder-" content/posts/
 
-# 9. Count posts with commit hashes
+# 9. Check for empty .md files (0 bytes — breaks Hugo build)
+if [ "$(find content/posts/ -name "*.md" -empty | wc -l)" -ne 0 ]; then
+  echo "⚠ Found empty .md files, auto-deleting..."
+  find content/posts/ -name "*.md" -empty -delete
+fi
+
+# 10. Count posts with commit hashes
 echo "Total posts: $(ls content/posts/*.md | wc -l)"
 echo "Posts with commit hash: $(grep -l "^commit = " content/posts/*.md | wc -l)"
 
-# 10. Verify inline images resolve (render-image hook present + no missing files)
+# 11. Verify inline images resolve (render-image hook present + no missing files)
 python3 scripts/qa_inline_images.py
 ```
 
@@ -165,6 +172,26 @@ If any check fails → **STOP** push and run deploy-failure-healer.py.
 **Symptom:** Theme can't render hero
 **Auto-Fix:** `python3 scripts/select_images.py --post content/posts/<slug>.md --fix` — thử Pexels trước, **rate limit → đổi sang Pixabay** (và ngược lại).
 **Prevention:** Image selection is NOT optional — luôn phải CHẠY. Nhưng nếu cả 2 API đều không ra ảnh hợp lệ, bài được phép ship dạng text-first (không ảnh). Không bao giờ fake ảnh để lấp chỗ trống.
+
+### Failure #12: Empty/Zero-Byte .md Files
+**Symptom:** Hugo build fails with "error parsing front matter" or `rule.py --fix` reports "still not TOML" on a post with 0 bytes. CI deploy fails, Autofix on Deploy Failure can't recover.
+
+**Root Cause:** Test/debug `.md` files committed with no content (empty file). These don't have `+++...+++` frontmatter, so Hugo's TOML parser fails. `rule.py --fix` can't auto-fix because there's nothing to parse. Build pipeline stops at pre-deploy validate → no artifacts generated → deploy failure.
+
+**Auto-Fix:** `python3 scripts/deploy-failure-healer.py --fix-all` detects 0-byte files and deletes them automatically.
+
+**Prevention (pre-deploy checklist bổ sung):**
+```bash
+# Check for empty .md files — nếu != 0 thì REJECT push
+find content/posts/ -name "*.md" -empty | wc -l
+# Auto-delete nếu có:
+find content/posts/ -name "*.md" -empty -delete && echo "Deleted empty files"
+```
+
+**Rule kỷ luật:**
+- CẤM commit file `.md` rỗng/0 byte. Mọi file trong `content/posts/` phải có frontmatter TOML hợp lệ.
+- `:blog` tạo sẵn skeleton đủ frontmatter → không tạo file rỗng.
+- Sau mỗi lần fix deploy failure, ghi nhận nguyên nhân + auto-fix vào scripts + AGENTS.md để lần sau hệ thống tự xử lý.
 
 ### Failure #11: Broken Inline Images (baseURL subpath / missing file)
 **Symptom:** Ảnh **inline** trong thân bài (`![](/images/posts/x.webp)`) hiển thị vỡ trên live, dù ảnh hero vẫn hiện bình thường.
@@ -280,5 +307,6 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 | WebP tracking | Pre-deploy | ✅ Yes | < 1 min |
 | Broken inline image (missing file) | Pre-deploy | ❌ Manual | N/A |
 | Missing render-image hook | Pre-deploy | ✅ Yes | < 1 min |
+| Empty/0-byte .md file | Pre-deploy | ✅ Yes | < 1 min |
 
 **Goal: 0 deploy failures** through automated pre-deploy validation.

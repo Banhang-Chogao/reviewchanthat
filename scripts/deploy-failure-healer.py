@@ -80,6 +80,18 @@ class DeployFailureHealer:
         content = filepath.read_text(encoding='utf-8')
         filename = filepath.name
 
+        # Rule 12: Check for empty/zero-byte files
+        if len(content.strip()) == 0:
+            issues.append({
+                'file': filename,
+                'type': 'empty_file',
+                'severity': 'CRITICAL',
+                'message': 'File is empty (0 bytes) — not valid TOML frontmatter, breaks Hugo build',
+                'fix': 'Delete the file',
+                'line': 1
+            })
+            return issues
+
         # Extract frontmatter
         fm_match = re.match(r'^\+\+\+\r?\n(.*?)\r?\n\+\+\+', content, re.DOTALL)
         if not fm_match:
@@ -252,6 +264,11 @@ class DeployFailureHealer:
         """Auto-fix common issues in a post."""
         if self.dry_run:
             return False, []
+
+        # Fix 0: Delete empty/zero-byte files
+        if filepath.stat().st_size == 0:
+            filepath.unlink()
+            return True, ['🗑 Deleted empty file (0 bytes) — would break Hugo build']
 
         content = filepath.read_text(encoding='utf-8')
         original_content = content
