@@ -1,7 +1,7 @@
 +++
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
 seo_title = "Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-11T05:30:00+07:00"
 slug = "diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026"
 aliases = ["/posts/điểm-mới-trong-quy-định-cấp-giấy-phép-lao-động-cho-người-nước-ngoài-2026/"]
@@ -40,6 +40,22 @@ title = "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia
 [[internal_links]]
 ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
+
+[[faq]]
+question = "Câu Hỏi 1: Người Lao Động Nước Ngoài Có Thể Tự Mình Xin Giấy Phép Lao Động Không?"
+answer = "Không. Theo quy định, người sử dụng lao động (doanh nghiệp, tổ chức) là chủ thể có nghĩa vụ thực hiện thủ tục xin giấy phép lao động cho người lao động nước ngoài. Người lao động nước ngoài không thể tự nộp hồ sơ xin giấy phép lao động mà không có sự bảo lãnh của doanh nghiệp. Đây là quy định nhằm đảm bảo trách nhiệm của doanh nghiệp trong việc quản lý lao động nước ngoài, đồng thời tạo điều kiện cho cơ quan quản lý nhà nước kiểm soát chặt chẽ việc sử dụng lao động nước ngoài tại Việt Nam."
+
+[[faq]]
+question = "Câu Hỏi 2: Giấy Phép Lao Động Có Thể Chuyển Đổi Sang Doanh Nghiệp Khác Không?"
+answer = "Theo quy định hiện hành, giấy phép lao động được cấp cho một người lao động nước ngoài cụ thể và gắn với một doanh nghiệp cụ thể. Nếu người lao động muốn chuyển sang làm việc cho doanh nghiệp khác, doanh nghiệp mới phải thực hiện thủ tục cấp mới giấy phép lao động, không thể chuyển đổi giấy phép cũ. Quy định mới 2026 vẫn giữ nguyên nguyên tắc này."
+
+[[faq]]
+question = "Câu Hỏi 3: Người Lao Động Nước Ngoài Có Phải Tham Gia Bảo Hiểm Xã Hội Bắt Buộc Không?"
+answer = "Có. Kể từ ngày 1/1/2018, lao động nước ngoài làm việc tại Việt Nam có hợp đồng lao động từ 1 tháng trở lên bắt buộc phải tham gia bảo hiểm xã hội bắt buộc (ốm đau, thai sản, tai nạn lao động - bệnh nghề nghiệp, hưu trí và tử tuất). Mức đóng là 8% tiền lương tháng (người lao động đóng 8%, doanh nghiệp đóng 17,5% tổng quỹ lương đóng bảo hiểm xã hội của người lao động nước ngoài). Quy định này không thay đổi trong năm 2026."
+
+[[faq]]
+question = "Câu Hỏi 4: Thời Gian Làm Việc Bao Lâu Thì Phải Gia Hạn Giấy Phép Lao Động?"
+answer = "Thủ tục gia hạn phải được thực hiện trong vòng 30 ngày trước ngày giấy phép lao động hết hạn. Nếu để quá hạn, doanh nghiệp sẽ phải làm thủ tục cấp lại (không phải gia hạn), quy trình phức tạp hơn và mất nhiều thời gian hơn."
 +++
 
 ## Tổng Quan Về Quy Định Giấy Phép Lao Động 2026
@@ -239,24 +255,6 @@ Tổng thời gian từ khi bắt đầu chuẩn bị hồ sơ đến khi chuyê
 | Phí hợp pháp hóa lãnh sự (mỗi bộ) | 500.000 - 800.000 |
 | Phí dịch thuật công chứng (mỗi trang) | 30.000 - 50.000 |
 | Phí chứng thực bản sao (mỗi trang) | 5.000 - 10.000 |
-
-## Câu Hỏi Thường Gặp
-
-### Câu Hỏi 1: Người Lao Động Nước Ngoài Có Thể Tự Mình Xin Giấy Phép Lao Động Không?
-
-Không. Theo quy định, người sử dụng lao động (doanh nghiệp, tổ chức) là chủ thể có nghĩa vụ thực hiện thủ tục xin giấy phép lao động cho người lao động nước ngoài. Người lao động nước ngoài không thể tự nộp hồ sơ xin giấy phép lao động mà không có sự bảo lãnh của doanh nghiệp. Đây là quy định nhằm đảm bảo trách nhiệm của doanh nghiệp trong việc quản lý lao động nước ngoài, đồng thời tạo điều kiện cho cơ quan quản lý nhà nước kiểm soát chặt chẽ việc sử dụng lao động nước ngoài tại Việt Nam.
-
-### Câu Hỏi 2: Giấy Phép Lao Động Có Thể Chuyển Đổi Sang Doanh Nghiệp Khác Không?
-
-Theo quy định hiện hành, giấy phép lao động được cấp cho một người lao động nước ngoài cụ thể và gắn với một doanh nghiệp cụ thể. Nếu người lao động muốn chuyển sang làm việc cho doanh nghiệp khác, doanh nghiệp mới phải thực hiện thủ tục cấp mới giấy phép lao động, không thể chuyển đổi giấy phép cũ. Quy định mới 2026 vẫn giữ nguyên nguyên tắc này.
-
-### Câu Hỏi 3: Người Lao Động Nước Ngoài Có Phải Tham Gia Bảo Hiểm Xã Hội Bắt Buộc Không?
-
-Có. Kể từ ngày 1/1/2018, lao động nước ngoài làm việc tại Việt Nam có hợp đồng lao động từ 1 tháng trở lên bắt buộc phải tham gia bảo hiểm xã hội bắt buộc (ốm đau, thai sản, tai nạn lao động - bệnh nghề nghiệp, hưu trí và tử tuất). Mức đóng là 8% tiền lương tháng (người lao động đóng 8%, doanh nghiệp đóng 17,5% tổng quỹ lương đóng bảo hiểm xã hội của người lao động nước ngoài). Quy định này không thay đổi trong năm 2026.
-
-### Câu Hỏi 4: Thời Gian Làm Việc Bao Lâu Thì Phải Gia Hạn Giấy Phép Lao Động?
-
-Thủ tục gia hạn phải được thực hiện trong vòng 30 ngày trước ngày giấy phép lao động hết hạn. Nếu để quá hạn, doanh nghiệp sẽ phải làm thủ tục cấp lại (không phải gia hạn), quy trình phức tạp hơn và mất nhiều thời gian hơn.
 
 ## Kết Luận
 

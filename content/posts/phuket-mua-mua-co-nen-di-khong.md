@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Phuket mùa mưa có nên đi không? phân tích biển động, tour đảo, chi phí tháng 7-8 và cách xếp lịch an toàn — so sánh với Koh Samui."
 draft = false
 image = "images/posts/phuket-mua-mua-co-nen-di-khong.webp"
@@ -67,6 +67,18 @@ title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
 [[internal_links]]
 ref = "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
 title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu"
+
+[[faq]]
+question = "Có nên thuê xe máy (scooter) ở Phuket mùa mưa không?"
+answer = "Không khuyến khích. Đường Phuket nhiều đồi và dốc, trơn trượt khi mưa. Nếu bạn không có kinh nghiệm lái xe tay ga ở đường đèo ướt, hãy chọn thuê ô tô có tài xế hoặc dùng Grab."
+
+[[faq]]
+question = "Phuket tháng 7–8 có đông khách không?"
+answer = "Đông hơn bạn nghĩ, nhưng ít hơn mùa khô rất nhiều. Các bãi biển như Patong vẫn có người tắm, không vắng vẻ như \"vắng tanh\" như một số bài viết thường nói."
+
+[[faq]]
+question = "Có cần đặt tour trước không?"
+answer = "Có. Vì số lượng tour chạy giảm và tàu chạy ít hơn, bạn nên đặt trước 1–2 ngày. Nếu mua tour trên đường phố, hỏi kỹ chính sách hoàn tiền nếu thời tiết xấu. ---"
 +++
 
 ## Phuket mùa mưa — nên đi hay không?
@@ -214,22 +226,6 @@ Tháng 7–8 là mùa sứa xuất hiện nhiều ở vùng biển Andaman. Mộ
 ### Ứng dụng thời tiết
 
 Tải **Windy** hoặc **AccuWeather** để theo dõi thời tiết theo giờ. Nếu dự báo có mưa lớn và gió mạnh, hãy chủ động dời lịch tour biển sang ngày khác.
-
----
-
-## Câu hỏi thường gặp khi đi Phuket mùa mưa
-
-### Có nên thuê xe máy (scooter) ở Phuket mùa mưa không?
-
-Không khuyến khích. Đường Phuket nhiều đồi và dốc, trơn trượt khi mưa. Nếu bạn không có kinh nghiệm lái xe tay ga ở đường đèo ướt, hãy chọn thuê ô tô có tài xế hoặc dùng Grab.
-
-### Phuket tháng 7–8 có đông khách không?
-
-Đông hơn bạn nghĩ, nhưng ít hơn mùa khô rất nhiều. Các bãi biển như Patong vẫn có người tắm, không vắng vẻ như "vắng tanh" như một số bài viết thường nói.
-
-### Có cần đặt tour trước không?
-
-Có. Vì số lượng tour chạy giảm và tàu chạy ít hơn, bạn nên đặt trước 1–2 ngày. Nếu mua tour trên đường phố, hỏi kỹ chính sách hoàn tiền nếu thời tiết xấu.
 
 ---
 

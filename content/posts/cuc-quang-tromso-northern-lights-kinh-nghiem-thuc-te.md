@@ -1,7 +1,7 @@
 +++
 title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
 seo_title = "Cực quang Tromsø Na Uy: kinh nghiệm săn Northern Lights"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-12T07:45:37+07:00"
 slug = "cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te"
 aliases = ["/posts/trải-nghiệm-cực-quang-tại-tromsø-hướng-dẫn-chi-tiết-kinh-nghiệm-thực-tế-và-những-sai-lầm-phổ-biến/"]
@@ -40,6 +40,22 @@ title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực 
 [[internal_links]]
 ref = "posts/ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien.md"
 title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
+
+[[faq]]
+question = "Q: Cực quang nguy hiểm không?"
+answer = "A: Không. Nó chỉ ánh sáng. Nhưng nhiệt độ -15°C lạnh, vì vậy bạn phải mặc áo ấm."
+
+[[faq]]
+question = "Q: Có thể thấy cực quang vào ban ngày không?"
+answer = "A: Không. Cực quang yêu cầu bầu trời tối để \"nhìn thấy\" được. Nó xảy ra cả ban ngày, nhưng bạn không thấy vì bầu trời sáng."
+
+[[faq]]
+question = "Q: Giờ tốt nhất để xem cực quang trong đêm?"
+answer = "A: 10 tối - 2 sáng thường là tốt nhất. Nhưng cực quang có thể xuất hiện bất kỳ lúc nào trong đêm."
+
+[[faq]]
+question = "Q: Có các nơi khác ngoài Tromsø để xem cực quang không?"
+answer = "A: Có. Iceland, Greenland, Phần Lan, Thụy Điển, Canada, Alaska đều có cơ hội. Nhưng Tromsø có cơ hội cao nhất (vĩ độ 69°N, nằm sâu trong Vòng Cực Quang)."
 +++
 
 ## Cực quang là gì? Tại sao Tromsø?
@@ -278,17 +294,3 @@ Du lịch Na Uy không chỉ để xem Fjord và thể hiện trên Instagram. N
 Tromsø và Cực quang là một phần của câu chuyện đó - nơi mà thiên nhiên, không phải con người, là người "nắn giê" của trò chơi. Và đó là điều làm cho nó quý giá.
 
 ---
-
-## FAQ
-
-**Q: Cực quang nguy hiểm không?**
-A: Không. Nó chỉ ánh sáng. Nhưng nhiệt độ -15°C lạnh, vì vậy bạn phải mặc áo ấm.
-
-**Q: Có thể thấy cực quang vào ban ngày không?**
-A: Không. Cực quang yêu cầu bầu trời tối để "nhìn thấy" được. Nó xảy ra cả ban ngày, nhưng bạn không thấy vì bầu trời sáng.
-
-**Q: Giờ tốt nhất để xem cực quang trong đêm?**
-A: 10 tối - 2 sáng thường là tốt nhất. Nhưng cực quang có thể xuất hiện bất kỳ lúc nào trong đêm.
-
-**Q: Có các nơi khác ngoài Tromsø để xem cực quang không?**
-A: Có. Iceland, Greenland, Phần Lan, Thụy Điển, Canada, Alaska đều có cơ hội. Nhưng Tromsø có cơ hội cao nhất (vĩ độ 69°N, nằm sâu trong Vòng Cực Quang).

@@ -3,7 +3,7 @@ noindex = true
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:40:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Nguyên nhân Content Direction render report rỗng (sai path/key/fallback) và optimizer fail vì front matter, cùng cách chẩn đoán và khắc phục."
 draft = false
 image = "images/posts/content-direction-empty-report-va-optimizer-frontmatter.webp"
@@ -40,6 +40,22 @@ disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + Git
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
 title = "Tóm tắt nhanh"
+
+[[faq]]
+question = "Hỏi: Optimizer có được tự merge khi fail một bài?"
+answer = "Trả lời: Không batch “cứ chạy tiếp” che lỗi parse. Fail fast trên file lỗi; sửa front matter rồi chạy lại."
+
+[[faq]]
+question = "Hỏi: Có liên quan thin posts?"
+answer = "Trả lời: Có gián tiếp — Content Direction đo word count và action “Mở rộng thin posts”. Report rỗng thì action P0 cũng biến mất khỏi dashboard dù debt vẫn còn."
+
+[[faq]]
+question = "Hỏi: Sửa front matter tay hay script?"
+answer = "Trả lời: Script khi pattern rõ (duplicate key, AI summary map). Tay khi nội dung SEO cần biên tập. Luôn `rule.py`/normalize sau."
+
+[[faq]]
+question = "Hỏi: Làm sao tránh tái phát?"
+answer = "Trả lời: Fixture test 1 post YAML/TOML tối thiểu trong CI; dry-run optimizer trên PR chỉ đụng content."
 +++
 
 ## Root cause
@@ -88,17 +104,3 @@ Empty UI **không** luôn nghĩa là “không có bài”. Hay gặp hơn: data
 3. Workflow: generate **trước** `hugo`, hoặc commit data nếu site đọc từ git.
 4. Tránh race: Content Direction **sau** deploy live (rule vận hành).
 5. `paths-ignore` bot data: đừng để bot tự trigger deploy loop — xem [fan-out](/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress/).
-
-## FAQ
-
-**Hỏi: Optimizer có được tự merge khi fail một bài?**  
-Trả lời: Không batch “cứ chạy tiếp” che lỗi parse. Fail fast trên file lỗi; sửa front matter rồi chạy lại.
-
-**Hỏi: Có liên quan thin posts?**  
-Trả lời: Có gián tiếp — Content Direction đo word count và action “Mở rộng thin posts”. Report rỗng thì action P0 cũng biến mất khỏi dashboard dù debt vẫn còn.
-
-**Hỏi: Sửa front matter tay hay script?**  
-Trả lời: Script khi pattern rõ (duplicate key, AI summary map). Tay khi nội dung SEO cần biên tập. Luôn `rule.py`/normalize sau.
-
-**Hỏi: Làm sao tránh tái phát?**  
-Trả lời: Fixture test 1 post YAML/TOML tối thiểu trong CI; dry-run optimizer trên PR chỉ đụng content.

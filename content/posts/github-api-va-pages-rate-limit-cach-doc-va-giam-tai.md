@@ -3,7 +3,7 @@ noindex = true
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:15:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Hướng dẫn xử lý github_rate_limit và github_pages_rate_limit (unsafe): nhận diện 403/429, backoff, gom API call, tránh spam publish Pages."
 draft = false
 image = "images/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai.webp"
@@ -40,6 +40,22 @@ disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + Git
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
 title = "Tóm tắt nhanh"
+
+[[faq]]
+question = "Hỏi: Dùng PAT riêng có hết rate limit?"
+answer = "Trả lời: Tăng trần theo account/app, **không** vô hạn. Vẫn cần backoff và giảm fan-out."
+
+[[faq]]
+question = "Hỏi: GraphQL có “rẻ” hơn REST?"
+answer = "Trả lời: Có thể lấy nhiều field một request — tốt nếu thiết kế query gọn. Lạm dụng vẫn cháy quota."
+
+[[faq]]
+question = "Hỏi: Khi nào coi là unsafe autofix?"
+answer = "Trả lời: Khi root cause là platform throttle — **không** sinh commit “sửa code” giả. Ghi Doctor knowledge: unsafe."
+
+[[faq]]
+question = "Hỏi: Liên hệ fan-out?"
+answer = "Trả lời: Trực tiếp — xem [workflow fan-out](/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress/). Một merge 6 workflow × nhiều `gh api` = công thức 429."
 +++
 
 ## Root cause
@@ -92,20 +108,6 @@ Nhầm secondary limit với “bug script” dẫn tới retry càng dày → c
 3. Nightly bots staggered (không cùng phút).
 4. Tắt tạm bot không critical khi đang nóng rate limit.
 5. Sau publish: verify bằng `build-info.json`, không redeploy “cho chắc” 10 lần.
-
-## FAQ
-
-**Hỏi: Dùng PAT riêng có hết rate limit?**  
-Trả lời: Tăng trần theo account/app, **không** vô hạn. Vẫn cần backoff và giảm fan-out.
-
-**Hỏi: GraphQL có “rẻ” hơn REST?**  
-Trả lời: Có thể lấy nhiều field một request — tốt nếu thiết kế query gọn. Lạm dụng vẫn cháy quota.
-
-**Hỏi: Khi nào coi là unsafe autofix?**  
-Trả lời: Khi root cause là platform throttle — **không** sinh commit “sửa code” giả. Ghi Doctor knowledge: unsafe.
-
-**Hỏi: Liên hệ fan-out?**  
-Trả lời: Trực tiếp — xem [workflow fan-out](/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress/). Một merge 6 workflow × nhiều `gh api` = công thức 429.
 
 ## Checklist khi log có 429
 

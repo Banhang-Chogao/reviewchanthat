@@ -1,7 +1,7 @@
 +++
 title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
 seo_title = "Atomico Là Gì? Quỹ Đầu Tư Mạo Hiểm Của Niklas Zennström"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-11T14:00:00+07:00"
 slug = "atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom"
 aliases = ["/posts/atomico-là-gì-công-ty-đầu-tư-mạo-hiểm-của-niklas-zennström-định-hình-hệ-sinh-thái-khởi-nghiệp-châu-âu/"]

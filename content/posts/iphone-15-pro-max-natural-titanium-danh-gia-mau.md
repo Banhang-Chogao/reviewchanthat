@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:20:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Natural Titanium trên iPhone 15 Pro Max: màu gốc, độ bền viền, so với các màu khác và có đáng chọn khi mua máy cũ năm 2026."
 draft = false
 image = "images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp"
@@ -154,12 +154,6 @@ Dưới **đèn vàng** quán cafe, Natural **ấm hơn** ảnh studio. Dưới 
 - Bạn **cầm trần** và **không bao giờ lau** — viền sẽ kể chuyện nhanh
 - Bạn muốn máy **tối, ít vân tay** — Black hợp hơn ([Black và White Titanium](/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao/))
 - Bạn săn **giá rẻ nhất** — Blue phai có thể rẻ hơn ([Blue Titanium](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/))
-
-## 9. Câu hỏi thường gặp (góc người mua)
-
-**Natural có bị ố vàng như iPhone vàng cũ không?** — Không cùng kiểu; chủ yếu **viền** và **ốp**, không phải kính lưng đổi màu toàn bộ.
-
-**Natural 15 vs Natural 16 khác không?** — Cùng tên, **finish đời mới** có thể hơi khác; đổi đời chỉ vì Natural **không đáng** — cần thêm lý do ([so với iPhone 16 Pro Max](/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi/)).
 
 ## 10. Natural và branding cá nhân
 

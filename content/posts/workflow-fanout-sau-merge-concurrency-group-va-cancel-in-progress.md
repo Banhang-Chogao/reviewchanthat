@@ -3,7 +3,7 @@ noindex = true
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:20:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "phân tích workflow_fanout (safe): một merge kích hoạt deploy + content-direction + snapshot + autofix — cách thiết kế concurrency để không tự DDoS pipeline."
 draft = false
 image = "images/posts/workflow-fanout-sau-merge-concurrency-group-va-cancel-in-progress.webp"
@@ -40,6 +40,22 @@ disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + Git
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
 title = "Tóm tắt nhanh"
+
+[[faq]]
+question = "Hỏi: cancel-in-progress trên deploy có lợi không?"
+answer = "Trả lời: Đôi khi giảm queue, nhưng rủi ro artifact dở cao. Blog này ưu tiên deploy ổn định hơn tốc độ cancel."
+
+[[faq]]
+question = "Hỏi: Làm sao biết đang fan-out?"
+answer = "Trả lời: Một push `main` mở 4–6 workflow cùng lúc (deploy, doctor, autofix, direction…). Đếm trên tab Actions."
+
+[[faq]]
+question = "Hỏi: PR có cần cùng concurrency?"
+answer = "Trả lời: PR check group riêng; đừng dùng group `pages` cho PR kẻo hủy nhầm deploy production."
+
+[[faq]]
+question = "Hỏi: Fan-out có liên quan runner delay?"
+answer = "Trả lời: Có — càng nhiều job càng dễ `runner_capacity_delay`. Xem [runner/platform](/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code/)."
 +++
 
 ## Root cause
@@ -109,20 +125,6 @@ concurrency:
 - `paths-ignore` bot-only outputs.
 - Thứ tự: **Deploy xong → Content Direction**.
 - Autofix chỉ commit khi `git diff` thật sự có fix (đã wire `rule.py --fix`).
-
-## FAQ
-
-**Hỏi: cancel-in-progress trên deploy có lợi không?**  
-Trả lời: Đôi khi giảm queue, nhưng rủi ro artifact dở cao. Blog này ưu tiên deploy ổn định hơn tốc độ cancel.
-
-**Hỏi: Làm sao biết đang fan-out?**  
-Trả lời: Một push `main` mở 4–6 workflow cùng lúc (deploy, doctor, autofix, direction…). Đếm trên tab Actions.
-
-**Hỏi: PR có cần cùng concurrency?**  
-Trả lời: PR check group riêng; đừng dùng group `pages` cho PR kẻo hủy nhầm deploy production.
-
-**Hỏi: Fan-out có liên quan runner delay?**  
-Trả lời: Có — càng nhiều job càng dễ `runner_capacity_delay`. Xem [runner/platform](/posts/github-hosted-runner-delay-va-platform-incident-khong-phai-bug-code/).
 
 ## Checklist PR đụng workflow
 

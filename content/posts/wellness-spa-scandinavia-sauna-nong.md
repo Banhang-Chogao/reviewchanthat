@@ -21,7 +21,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "0ee71da6"
+commit = "320d6036"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_url = "https://www.pexels.com/@huum-sauna-heaters-718199222"
@@ -41,6 +41,14 @@ title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao N
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+
+[[faq]]
+question = "Q: Tôi phải làm gì khi tắm sauna ở Scandinavia?"
+answer = "A: Phần lớn các lò sauna ở Scandinavia là \"sauna khỏa thân\" (naked sauna). Nếu bạn cảm thấy không thoải mái, bạn có thể mặc một chiếc khăn. Luôn luôn tôn trọng các quy tắc của từng lò sauna cụ thể – một số có những nguyên tắc khác biệt."
+
+[[faq]]
+question = "Q: Tôi có an toàn không khi tắm trong nước lạnh sau sauna không?"
+answer = "A: Tắm nước lạnh sau sauna là an toàn cho hầu hết mọi người khỏe mạnh. Tuy nhiên, nếu bạn có các vấn đề tim hoặc huyết áp, bạn nên tham khảo ý kiến ​​bác sĩ trước. Luôn luôn bắt đầu với nước mát lạnh chứ không phải lạnh quá."
 +++
 
 ## Wellness Ở Scandinavia Không Phải Là Một Lối Sống – Đó Là Một Tôn Giáo
@@ -70,16 +78,6 @@ Một trong những trải nghiệm tuyệt vời nhất tôi có là tắm tron
 Wellness ở Scandinavia không chỉ về thực chất. Nó cũng là về tâm trí. Yoga và thiền là rất phổ biến ở các thành phố lớn, với hàng trăm lớp học yoga mỗi tuần. Tuy nhiên, thiền ở Scandinavia không phải là một xu hướng thời trang – nó là một phần của triết lý sống.
 
 Nhưng còn có một điều khác mà tôi nhận thấy: người Scandinavia có một lối sống rất cân bằng. Họ làm việc chăm chỉ (các nước Scandinavia có năng suất cao nhất ở Châu Âu), nhưng họ cũng biết khi nào cần nghỉ ngơi. Họ không làm việc vào buổi tối. Họ không kiểm tra email trên điện thoại của họ khi ở nhà. Khái niệm "Fika" ở Thụy Điển (một khoảng thời gian để uống cà phê và thư giãn mỗi ngày) là một phần của quy định lao động, không phải là một lợi ích bổ sung.
-
-## FAQ – Những Câu Hỏi Thường Gặp
-
-**Q: Tôi phải làm gì khi tắm sauna ở Scandinavia?**
-
-A: Phần lớn các lò sauna ở Scandinavia là "sauna khỏa thân" (naked sauna). Nếu bạn cảm thấy không thoải mái, bạn có thể mặc một chiếc khăn. Luôn luôn tôn trọng các quy tắc của từng lò sauna cụ thể – một số có những nguyên tắc khác biệt.
-
-**Q: Tôi có an toàn không khi tắm trong nước lạnh sau sauna không?**
-
-A: Tắm nước lạnh sau sauna là an toàn cho hầu hết mọi người khỏe mạnh. Tuy nhiên, nếu bạn có các vấn đề tim hoặc huyết áp, bạn nên tham khảo ý kiến ​​bác sĩ trước. Luôn luôn bắt đầu với nước mát lạnh chứ không phải lạnh quá.
 
 ## Kết Luận Trải Nghiệm Cá Nhân
 

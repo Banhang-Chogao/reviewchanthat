@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh"]
 date = "2026-07-10T05:58:08+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Tài sản số là gì và vì sao Việt Nam thí điểm sàn crypto hợp pháp? Hiểu khái niệm, rủi ro và điểm khác biệt với tiền ảo trước khi tham gia đầu tư."
 draft = false
 image = "images/posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.webp"

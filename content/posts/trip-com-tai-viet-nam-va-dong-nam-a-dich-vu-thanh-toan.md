@@ -1,7 +1,7 @@
 +++
 title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
 seo_title = "Trip.com tại Việt Nam & Đông Nam Á: dịch vụ, thanh toán"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-13T10:00:00+07:00"
 draft = false
 author = "Minh Hoàng"

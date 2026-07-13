@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu — cung điện, công viên lá đỏ, Hanok và ẩm thực. Kèm ngân sách và mẹo di chuyển."
 draft = false
 image = "images/posts/seoul-thang-10-nen-di-dau.webp"

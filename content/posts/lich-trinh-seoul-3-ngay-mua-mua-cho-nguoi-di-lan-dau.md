@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu — điểm tham quan indoor, ăn uống và di chuyển. Kèm ngân sách chi tiết."
 draft = false
 image = "images/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.webp"

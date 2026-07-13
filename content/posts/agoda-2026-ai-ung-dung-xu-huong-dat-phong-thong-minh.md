@@ -1,7 +1,7 @@
 +++
 title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
 seo_title = "Agoda 2026: AI, ứng dụng & đặt phòng thông minh"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-13T14:05:00+07:00"
 draft = false
 author = "Minh Hoàng"

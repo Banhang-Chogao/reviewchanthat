@@ -4,7 +4,7 @@ title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar
 seo_title = "Hệ điều hành cá nhân: Notion + Calendar + AI"
 description = "Cách ghép Notion, Google Calendar và AI thành personal OS: inbox, dự án, lịch và review tuần. Có checklist, bảng so sánh, FAQ — không biến app thành nghĩa vụ."
 date = "2026-07-10T14:58:30+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 lastmod = "2026-07-10T14:58:30+07:00"
 date_display = "10-07-2026 14:58:30 GMT +7"
 lastmod_display = "10-07-2026 14:58:30 GMT +7"
@@ -163,17 +163,6 @@ Không dán hợp đồng lương full vào workspace public. Phân quyền gues
 - Hype và subscription.  
 - rủi ro dữ liệu.  
 - Ảo tưởng AI luôn đúng.
-
-## FAQ mở rộng
-
-**Có cần Pro ngay?** Không — free tier + đo 14 ngày.  
-**Có thay chuyên gia?** Không với y tế/luật/thuế/đầu tư phức tạp.  
-**Trẻ em dùng AI?** Có giám sát; không thay giao tiếp người lớn.
-
-## Liên kết cluster
-
-- Pillar và bài công cụ AI trong series.  
-- Chuyên mục Đời sống, Tài chính, TOPIK, Du lịch tùy chủ đề.
 
 ## Kết
 

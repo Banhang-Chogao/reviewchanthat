@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế."
 image = "images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp"
 image_attribution_checked_at = "2026-07-11T17:30:23+07:00"

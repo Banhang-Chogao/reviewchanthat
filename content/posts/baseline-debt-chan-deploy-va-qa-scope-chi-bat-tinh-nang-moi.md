@@ -3,7 +3,7 @@ noindex = true
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:25:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Vì sao nợ QA/image cũ (baseline debt) fail full-site và chặn deploy tính năng mới, và cách giới hạn QA scope chỉ bắt lỗi của thay đổi mới."
 draft = false
 image = "images/posts/baseline-debt-chan-deploy-va-qa-scope-chi-bat-tinh-nang-moi.webp"
@@ -39,6 +39,22 @@ items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo
 title = "Tóm tắt nhanh"
 image_attribution_checked_at = "2026-07-14T00:08:17+07:00"
 image_query = "baseline debt chặn deploy qa"
+
+[[faq]]
+question = "Hỏi: Scoped QA có che giấu lỗi production?"
+answer = "Trả lời: Có rủi ro nếu không có nightly. Hybrid: PR scope + nightly full + alert."
+
+[[faq]]
+question = "Hỏi: Nợ ảnh 10 bài thin có được fail PR docs?"
+answer = "Trả lời: Không trên PR không đụng 10 bài đó. Nightly/content-direction action P0 theo dõi riêng."
+
+[[faq]]
+question = "Hỏi: `continue-on-error` có phải giải pháp?"
+answer = "Trả lời: Chỉ cho debt đã phân loại. Không cho Hugo assemble error hay test critical."
+
+[[faq]]
+question = "Hỏi: Ai quyết safe/unsafe?"
+answer = "Trả lời: Deployment Doctor knowledge + playbook. Baseline debt blocking = unsafe cho “sửa bằng commit rỗng”; safe direction là sửa scope QA."
 +++
 
 ## Root cause
@@ -103,23 +119,9 @@ Diff chỉ `main.css` nhưng CI fail vì:
 3. Full audit: schedule riêng, mở issue, không `exit 1` trên PR CSS.
 4. Baseline debt: ticket + autofix riêng (`rule.py`, image batch), không gánh PR màu footer.
 
-## FAQ
-
-**Hỏi: Scoped QA có che giấu lỗi production?**  
-Trả lời: Có rủi ro nếu không có nightly. Hybrid: PR scope + nightly full + alert.
-
-**Hỏi: Nợ ảnh 10 bài thin có được fail PR docs?**  
-Trả lời: Không trên PR không đụng 10 bài đó. Nightly/content-direction action P0 theo dõi riêng.
-
-**Hỏi: `continue-on-error` có phải giải pháp?**  
-Trả lời: Chỉ cho debt đã phân loại. Không cho Hugo assemble error hay test critical.
-
-**Hỏi: Ai quyết safe/unsafe?**  
-Trả lời: Deployment Doctor knowledge + playbook. Baseline debt blocking = unsafe cho “sửa bằng commit rỗng”; safe direction là sửa scope QA.
-
 ## Checklist PR feature
 
 - [ ] QA list file từ diff  
 - [ ] Không bật full image audit fail-on-error  
 - [ ] Hugo build vẫn hard-fail  
-- [ ] Debt cũ có issue, không block  
+- [ ] Debt cũ có issue, không block

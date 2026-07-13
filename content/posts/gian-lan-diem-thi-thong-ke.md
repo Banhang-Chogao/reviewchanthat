@@ -55,6 +55,18 @@ title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 [[internal_links]]
 ref = "posts/hoc-sinh-finland-truong-hoc-hoc-tap.md"
 title = "Hệ thống giáo dục Phần Lan: Vì sao có những học sinh giỏi nhất thế giới?"
+
+[[faq]]
+question = "Câu 1: Nếu chỉ dựa vào phổ điểm bất thường để kết luận một tỉnh có gian lận thì có thể bị oan cho những vùng đất đột nhiên hiếu học hay không?"
+answer = "Thống kê không bao giờ dùng một chỉ số duy nhất để kết tội. Phổ điểm bất thường chỉ là tín hiệu đầu tiên để kích hoạt quy trình điều tra sâu hơn. Để tránh việc hàm oan cho những trường hợp học tài thi phận hoặc một địa phương có sự bứt phá thực sự về chất lượng dạy học, các nhà khoa học sẽ tiếp tục bóc tách dữ liệu ở tầng sâu hơn: kiểm tra xem điểm số cao đó có đồng thuận với lịch sử học tập (học bạ) của thí sinh đó hay không, hoặc tiến hành chấm thẩm định lại một cách ngẫu nhiên. Dữ liệu của một vùng đất hiếu học thật sự sẽ có tính kế thừa và phân bố đều ở các trường điểm, chứ không tập trung cục bộ vào một nhóm đối tượng có học lực trung bình trước đó."
+
+[[faq]]
+question = "Câu 2: Trong các kỳ thi trắc nghiệm trên máy tính, nếu thí sinh dùng mẹo \"khoanh lụi\" (chọn ngẫu nhiên) mà trúng hết các câu khó thì thống kê có phát hiện ra là gian lận không?"
+answer = "Có. Việc một thí sinh khoanh lụi trúng một vài câu khó là hoàn toàn có thể xảy ra do may mắn. Tuy nhiên, lý thuyết khảo thí có một công cụ gọi là [Mô hình Ứng đáp Câu hỏi (Item Response Theory - IRT)](https://en.wikipedia.org/wiki/Item_response_theory). Mô hình này tính toán được xác suất một người khoanh bừa trúng toàn bộ chuỗi câu khó trong khi câu dễ lại sai. Nếu xác suất này vượt qua giới hạn dung sai tự nhiên (thường là dưới mức 0,001%), bài thi sẽ bị gắn cờ nghi vấn. Khoanh lụi có thể giúp bạn đúng vài câu, nhưng để đạt điểm thủ khoa nhờ khoanh lụi mà không để lại sự mâu thuẫn trong dữ liệu là điều bất khả thi về mặt toán học."
+
+[[faq]]
+question = "Câu 3: Tại sao việc trùng nhau ở các câu trả lời sai lại đáng ngờ hơn việc trùng nhau ở các câu trả lời đúng?"
+answer = "Bởi vì đối với một câu hỏi, đường đi đến chân lý (đáp án đúng) chỉ có một con đường duy nhất, nên việc nhiều người cùng đi trên một con đường là hoàn toàn bình thường. Ngược lại, thế giới của sự sai lầm (đáp án sai) lại rất rộng lớn với nhiều ngã rẽ khác nhau (có đến 3 phương án sai khác nhau). Nếu hai người không hề thảo luận hay chép bài của nhau, việc họ liên tục vấp ngã tại cùng một vị trí và cùng chọn một cách sai lầm giống hệt nhau ở hàng chục câu hỏi là một sự trùng hợp dị thường. Nó chỉ ra rằng có một nguồn lực chung (ví dụ: chép bài nhau hoặc cùng nhận một mã đáp án lỗi) đã điều hướng cho hành vi của cả hai."
 +++
 
 Mùa hè năm 2018, khi Bộ Giáo dục và Đào tạo [chính thức công bố phổ điểm thi Trung học phổ thông (THPT) Quốc gia](https://vnexpress.net/chin-thang-vach-tran-manh-gian-lan-thi-thpt-quoc-gia-2018-3909088.html), một bầu không khí kỳ lạ bao trùm lên cộng đồng những người nghiên cứu toán học và khoa học dữ liệu tại Việt Nam. Ngay tại nhà, chỉ với những chiếc máy tính cá nhân kết nối internet, một số thầy giáo dạy toán và chuyên gia phân tích số liệu đã nhận ra những điểm bất thường nghiêm trọng.
@@ -106,17 +118,3 @@ Cần phải thẳng thắn thừa nhận rằng, toán học thống kê hầu 
 Chính vì vậy, các tổ chức khảo thí nghiêm túc luôn vận dụng thống kê giống như một radar cảnh báo sớm. Radar này giúp khoanh vùng chính xác những nơi có "bão", để từ đó các cơ quan chức năng tập trung nhân lực đối chiếu trực tiếp bài thi gốc, trích xuất camera an ninh và lấy lời khai nhân chứng nhằm đi đến kết luận cuối cùng.
 
 Sức mạnh răn đe của phương pháp này là điều không thể bàn cãi. Người gian lận có thể tìm mọi cách qua mặt giám thị trong không gian chật hẹp của phòng thi, nhưng họ hoàn toàn bất lực và không cách nào biết được bài làm của mình sẽ trông dị hợm và cô độc ra sao khi được đặt lên bàn cân cùng hàng trăm nghìn bài thi khác dưới lăng kính của các mô hình toán học. Con người có thể dùng lời nói để ngụy tạo và dối trá, nhưng dữ liệu thì luôn trung thực. Và một nền giáo dục trung thực — như cách [Phần Lan xây dựng hệ thống của họ]({{< ref "posts/hoc-sinh-finland-truong-hoc-hoc-tap.md" >}}) — mới là gốc rễ bền vững hơn mọi phần mềm chống gian lận.
-
-## Câu hỏi thường gặp (FAQ)
-
-**Câu 1: Nếu chỉ dựa vào phổ điểm bất thường để kết luận một tỉnh có gian lận thì có thể bị oan cho những vùng đất đột nhiên hiếu học hay không?**
-
-Thống kê không bao giờ dùng một chỉ số duy nhất để kết tội. Phổ điểm bất thường chỉ là tín hiệu đầu tiên để kích hoạt quy trình điều tra sâu hơn. Để tránh việc hàm oan cho những trường hợp học tài thi phận hoặc một địa phương có sự bứt phá thực sự về chất lượng dạy học, các nhà khoa học sẽ tiếp tục bóc tách dữ liệu ở tầng sâu hơn: kiểm tra xem điểm số cao đó có đồng thuận với lịch sử học tập (học bạ) của thí sinh đó hay không, hoặc tiến hành chấm thẩm định lại một cách ngẫu nhiên. Dữ liệu của một vùng đất hiếu học thật sự sẽ có tính kế thừa và phân bố đều ở các trường điểm, chứ không tập trung cục bộ vào một nhóm đối tượng có học lực trung bình trước đó.
-
-**Câu 2: Trong các kỳ thi trắc nghiệm trên máy tính, nếu thí sinh dùng mẹo "khoanh lụi" (chọn ngẫu nhiên) mà trúng hết các câu khó thì thống kê có phát hiện ra là gian lận không?**
-
-Có. Việc một thí sinh khoanh lụi trúng một vài câu khó là hoàn toàn có thể xảy ra do may mắn. Tuy nhiên, lý thuyết khảo thí có một công cụ gọi là [Mô hình Ứng đáp Câu hỏi (Item Response Theory - IRT)](https://en.wikipedia.org/wiki/Item_response_theory). Mô hình này tính toán được xác suất một người khoanh bừa trúng toàn bộ chuỗi câu khó trong khi câu dễ lại sai. Nếu xác suất này vượt qua giới hạn dung sai tự nhiên (thường là dưới mức 0,001%), bài thi sẽ bị gắn cờ nghi vấn. Khoanh lụi có thể giúp bạn đúng vài câu, nhưng để đạt điểm thủ khoa nhờ khoanh lụi mà không để lại sự mâu thuẫn trong dữ liệu là điều bất khả thi về mặt toán học.
-
-**Câu 3: Tại sao việc trùng nhau ở các câu trả lời sai lại đáng ngờ hơn việc trùng nhau ở các câu trả lời đúng?**
-
-Bởi vì đối với một câu hỏi, đường đi đến chân lý (đáp án đúng) chỉ có một con đường duy nhất, nên việc nhiều người cùng đi trên một con đường là hoàn toàn bình thường. Ngược lại, thế giới của sự sai lầm (đáp án sai) lại rất rộng lớn với nhiều ngã rẽ khác nhau (có đến 3 phương án sai khác nhau). Nếu hai người không hề thảo luận hay chép bài của nhau, việc họ liên tục vấp ngã tại cùng một vị trí và cùng chọn một cách sai lầm giống hệt nhau ở hàng chục câu hỏi là một sự trùng hợp dị thường. Nó chỉ ra rằng có một nguồn lực chung (ví dụ: chép bài nhau hoặc cùng nhận một mã đáp án lỗi) đã điều hướng cho hành vi của cả hai.

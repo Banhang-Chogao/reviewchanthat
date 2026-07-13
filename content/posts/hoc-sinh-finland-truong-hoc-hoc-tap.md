@@ -21,7 +21,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "0ee71da6"
+commit = "320d6036"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_url = "https://pixabay.com/photos/street-lamp-road-traffic-duc-bag-4359438/"
@@ -41,6 +41,22 @@ title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ
 [[internal_links]]
 ref = "posts/phần-lan-sauna-05.md"
 title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
+
+[[faq]]
+question = "Q: Phần Lan có \"Sisu\" – tinh thần bền bỉ Phần Lan – ảnh hưởng tới giáo dục như nào?"
+answer = "A: \"Sisu\" là khái niệm cốt lõi ở Phần Lan, biểu thị sự kiên trì và mạnh mẽ tinh thần khi đối mặt với khó khăn. Trong giáo dục, \"Sisu\" không phải về việc chọc quê nhân học để đạt điểm cao, mà là học được cách vượt qua thử thách một cách bền bỉ và thân thiện. Giáo viên khuyến khích học sinh tiếp tục cố gắng mà không tạo ra áp lực điểm số."
+
+[[faq]]
+question = "Q: Làm thế nào để cha mẹ Phần Lan có thể giải quyết nếu con em bị lên lớp nhưng chưa sẵn sàng?"
+answer = "A: Ở Phần Lan, có quyền chọn \"kỳ năm\" – một năm bổ sung trước khi vào tiểu học – nếu cha mẹ cảm thấy con em cần thêm thời gian phát triển. Tỷ lệ học sinh bị đuổi học (dropout) ở Phần Lan là 6% – thấp nhất trong EU – vì hệ thống cho phép mỗi học sinh tiến bộ theo tốc độ của riêng mình."
+
+[[faq]]
+question = "Q: Các bài kiểm tra Matrikulaatio ở Phần Lan khó như thế nào?"
+answer = "A: Kỳ thi Matrikulaatio được coi là thử thách thực sự, nhưng không phải là \"bài thi sống chết\" như SAT hoặc Gaokao ở các quốc gia khác. Đạt 10/36 điểm (28%) cũng được coi là \"đạt\". Điểm số chỉ một phần nhỏ quyết định vào đại học – hồ sơ học tập và bài luận cũng quan trọng."
+
+[[faq]]
+question = "Q: Phần Lan có lo về sự hình thành khoảng cách giáo dục giữa các trường giáo dục công cộng không?"
+answer = "A: Có. Phần Lan có khác biệt nhỏ nhưng vẫn tồn tại giữa các trường (khoảng 5-10% khác biệt kết quả PISA). Để giải quyết điều này, họ cách giảm tỷ lệ học sinh trên giáo viên, cung cấp hỗ trợ riêng cho học sinh khó khăn, và cấp kinh phí bằng nhau cho tất cả các trường."
 +++
 
 ## Một Hệ Thống Giáo Dục Không Giống Bất Cứ Cái Gì Ở Đâu Khác
@@ -80,21 +96,3 @@ Phần Lan có một quan điểm khác. Họ tin rằng thời gian sau trườ
 ## Kết Luận Trải Nghiệm Cá Nhân
 
 Sau khi trải qua hệ thống giáo dục Phần Lan, tôi bắt đầu suy ngẫm về những giáo dục khác trên thế giới. Ở Phần Lan, giáo dục là về việc học, không phải về thành công trong các bài kiểm tra. Đó là lý do tại sao học sinh Phần Lan hạnh phúc và thông minh.
-
-## FAQ – Những Câu Hỏi Thường Gặp
-
-**Q: Phần Lan có "Sisu" – tinh thần bền bỉ Phần Lan – ảnh hưởng tới giáo dục như nào?**
-
-A: "Sisu" là khái niệm cốt lõi ở Phần Lan, biểu thị sự kiên trì và mạnh mẽ tinh thần khi đối mặt với khó khăn. Trong giáo dục, "Sisu" không phải về việc chọc quê nhân học để đạt điểm cao, mà là học được cách vượt qua thử thách một cách bền bỉ và thân thiện. Giáo viên khuyến khích học sinh tiếp tục cố gắng mà không tạo ra áp lực điểm số.
-
-**Q: Làm thế nào để cha mẹ Phần Lan có thể giải quyết nếu con em bị lên lớp nhưng chưa sẵn sàng?**
-
-A: Ở Phần Lan, có quyền chọn "kỳ năm" – một năm bổ sung trước khi vào tiểu học – nếu cha mẹ cảm thấy con em cần thêm thời gian phát triển. Tỷ lệ học sinh bị đuổi học (dropout) ở Phần Lan là 6% – thấp nhất trong EU – vì hệ thống cho phép mỗi học sinh tiến bộ theo tốc độ của riêng mình.
-
-**Q: Các bài kiểm tra Matrikulaatio ở Phần Lan khó như thế nào?**
-
-A: Kỳ thi Matrikulaatio được coi là thử thách thực sự, nhưng không phải là "bài thi sống chết" như SAT hoặc Gaokao ở các quốc gia khác. Đạt 10/36 điểm (28%) cũng được coi là "đạt". Điểm số chỉ một phần nhỏ quyết định vào đại học – hồ sơ học tập và bài luận cũng quan trọng.
-
-**Q: Phần Lan có lo về sự hình thành khoảng cách giáo dục giữa các trường giáo dục công cộng không?**
-
-A: Có. Phần Lan có khác biệt nhỏ nhưng vẫn tồn tại giữa các trường (khoảng 5-10% khác biệt kết quả PISA). Để giải quyết điều này, họ cách giảm tỷ lệ học sinh trên giáo viên, cung cấp hỗ trợ riêng cho học sinh khó khăn, và cấp kinh phí bằng nhau cho tất cả các trường.

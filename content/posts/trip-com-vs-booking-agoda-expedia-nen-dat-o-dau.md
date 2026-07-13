@@ -1,7 +1,7 @@
 +++
 title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
 seo_title = "Trip.com vs Booking, Agoda, Expedia: nên đặt ở đâu?"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-13T10:15:00+07:00"
 draft = false
 author = "Minh Hoàng"

@@ -1,7 +1,7 @@
 +++
 title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
 seo_title = "Quỹ chủ quyền Na Uy: biến dầu mỏ thành tài sản tương lai"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-12T07:42:37+07:00"
 slug = "quyen-chu-quyen-na-uy-government-pension-fund-global"
 aliases = ["/posts/government-pension-fund-global-làm-thế-nào-na-uy-biến-dầu-mỏ-thành-tài-sản-tương-lai/"]
@@ -40,6 +40,22 @@ title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
 [[internal_links]]
 ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
 title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
+
+[[faq]]
+question = "Q: Na Uy còn khai thác dầu mỏ không?"
+answer = "A: Có, nhưng giảm dần. Năm 2023, Na Uy sản xuất khoảng 1.7 triệu thùng/ngày (giảm so với 2.5 triệu vào thập niên 2010). Dự kiến dừng hoàn toàn vào 2050."
+
+[[faq]]
+question = "Q: Quỹ này có thể phá sản không?"
+answer = "A: Rất khó. Quỹ có các quy tắc kiên cố ngăn chặn chi tiêu quá mức. Ngay cả nếu kinh tế Na Uy suy sụp, quỹ sẽ tiếp tục tăng trưởng từ lợi tức đầu tư."
+
+[[faq]]
+question = "Q: Các nước khác học được từ Na Uy không?"
+answer = "A: Có. Singapore tạo thành lập Temasek (mô phỏng theo Na Uy), các quốc gia Trung Đông cũng xây dựng các quỹ chủ quyền. Nhưng không có quốc gia nào có kỷ luật như Na Uy."
+
+[[faq]]
+question = "Q: Tiền quỹ có đủ cho Na Uy đến khi dầu mỏ cạn?"
+answer = "A: Dựa trên các tính toán, có. Nếu Na Uy tiếp tục kỷ luật và quỹ tiếp tục tăng trưởng 4-5% hàng năm, quỹ sẽ cung cấp đủ lợi tức cho ngân sách Chính phủ cả khi dầu mỏ cạn."
 +++
 
 ## Quỹ Chủ Quyền Na Uy là gì?
@@ -199,17 +215,3 @@ Khi bạn du lịch Na Uy, những con đường tốt, các bệnh viện hiệ
 Đó là một bài học mà không chỉ các quốc gia, mà cả các cá nhân có thể học: Tiền sẽ tăng gấp bội nếu bạn có kỷ luật để không chi tiêu hết nó.
 
 ---
-
-## FAQ
-
-**Q: Na Uy còn khai thác dầu mỏ không?**
-A: Có, nhưng giảm dần. Năm 2023, Na Uy sản xuất khoảng 1.7 triệu thùng/ngày (giảm so với 2.5 triệu vào thập niên 2010). Dự kiến dừng hoàn toàn vào 2050.
-
-**Q: Quỹ này có thể phá sản không?**
-A: Rất khó. Quỹ có các quy tắc kiên cố ngăn chặn chi tiêu quá mức. Ngay cả nếu kinh tế Na Uy suy sụp, quỹ sẽ tiếp tục tăng trưởng từ lợi tức đầu tư.
-
-**Q: Các nước khác học được từ Na Uy không?**
-A: Có. Singapore tạo thành lập Temasek (mô phỏng theo Na Uy), các quốc gia Trung Đông cũng xây dựng các quỹ chủ quyền. Nhưng không có quốc gia nào có kỷ luật như Na Uy.
-
-**Q: Tiền quỹ có đủ cho Na Uy đến khi dầu mỏ cạn?**
-A: Dựa trên các tính toán, có. Nếu Na Uy tiếp tục kỷ luật và quỹ tiếp tục tăng trưởng 4-5% hàng năm, quỹ sẽ cung cấp đủ lợi tức cho ngân sách Chính phủ cả khi dầu mỏ cạn.

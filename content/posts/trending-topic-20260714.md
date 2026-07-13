@@ -1,15 +1,15 @@
 +++
 title = "Gemini 3.5 Pro Launch July 17: 2M Context, Deep Think, Pricing — Everything You Need to Know"
 seo_title = "Gemini 3.5 Pro Launch July 17 2026: 2M Context Deep Think Pricing"
-commit = "67fad64a"
-date = "2026-07-14T00:30:00+07:00"
+commit = "ca12c366"
+date = "2026-07-14T00:25:10+07:00"
 slug = "trending-topic-20260714"
 draft = false
 categories = ["cong-nghe"]
 tags = ["Gemini 3.5 Pro", "Google AI", "Gemini 3.5", "Deep Think", "2M context window", "AI model launch July 2026", "Google Gemini", "large language model"]
 description = "Gemini 3.5 Pro launches July 17 with a 2-million-token context window and Deep Think reasoning. Here is everything confirmed, estimated pricing, and how it compares to Claude Fable 5 and GPT-5.6."
 author = "Reviewchanthat"
-date_display = "14-07-2026 00:30:00 GMT +7"
+date_display = "14-07-2026 00:25:10 GMT +7"
 image = "images/posts/trending-topic-20260714.webp"
 thumbnail = "images/posts/trending-topic-20260714.webp"
 

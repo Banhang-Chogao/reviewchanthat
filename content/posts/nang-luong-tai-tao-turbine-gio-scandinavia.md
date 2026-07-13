@@ -21,7 +21,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "0ee71da6"
+commit = "320d6036"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_url = "https://www.pexels.com/@kaomhg"
@@ -41,6 +41,14 @@ title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu T
 [[internal_links]]
 ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
 title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
+
+[[faq]]
+question = "Q: Tại sao các nước Scandinavia có thể phụ thuộc 100% vào năng lượng tái tạo nhưng các nước khác không?"
+answer = "A: Điều này là do một sự kết hợp của (1) lợi thế địa lý (nhiều thác nước, gió mạnh), (2) dân số nhỏ (dễ cung cấp năng lượng cho 5-10 triệu người hơn 300 triệu), (3) nhật độ công nghiệp thấp so với Mỹ hoặc Trung Quốc (ít sản xuất nặng), và (4) chính sách quốc gia ổn định dài hạn."
+
+[[faq]]
+question = "Q: Năng lượng tái tạo có rẻ hơn năng lượng hóa thạch không?"
+answer = "A: Có. Theo các nghiên cứu gần đây (IRENA 2024), năng lượng tái tạo (gió, mặt trời, thủy điện) bây giờ rẻ hơn năng lượng hóa thạch (than, dầu, khí đốt) trong hầu hết các thị trường toàn cầu. Chi phí vốn cho turbine gió và tấm pin mặt trời đã giảm 85% trong thập kỷ qua. Scandinavia đã chứng minh rằng nó có thể cung cấp năng lượng rẻ, sạch, và bền vững cùng một lúc mà không cần tăng giá điện cho người tiêu dùng."
 +++
 
 ## Tại Sao Scandinavia Dẫn Đầu Trong Năng Lượng Tái Tạo?
@@ -76,13 +84,3 @@ Phần Lan cung cấp khoảng 30% năng lượng của nó từ năng lượng 
 ## Kết Luận Trải Nghiệm Cá Nhân
 
 Sau khi tìm hiểu về hệ thống năng lượng Scandinavia, tôi bắt đầu suy ngẫm về hệ thống năng lượng ở những quốc gia khác. Scandinavia không phải là một kỳ diệu. Nó chỉ là sự kết hợp của địa lý may mắn (núi cao, gió mạnh, rừng dồi dào), lịch sử dài (bắt đầu đầu tư vào năng lượng tái tạo từ thế kỷ 19), và chính sách thông minh (mục tiêu quốc gia rõ ràng, đầu tư dài hạn, hỗ trợ chính phủ).
-
-## FAQ – Những Câu Hỏi Thường Gặp
-
-**Q: Tại sao các nước Scandinavia có thể phụ thuộc 100% vào năng lượng tái tạo nhưng các nước khác không?**
-
-A: Điều này là do một sự kết hợp của (1) lợi thế địa lý (nhiều thác nước, gió mạnh), (2) dân số nhỏ (dễ cung cấp năng lượng cho 5-10 triệu người hơn 300 triệu), (3) nhật độ công nghiệp thấp so với Mỹ hoặc Trung Quốc (ít sản xuất nặng), và (4) chính sách quốc gia ổn định dài hạn.
-
-**Q: Năng lượng tái tạo có rẻ hơn năng lượng hóa thạch không?**
-
-A: Có. Theo các nghiên cứu gần đây (IRENA 2024), năng lượng tái tạo (gió, mặt trời, thủy điện) bây giờ rẻ hơn năng lượng hóa thạch (than, dầu, khí đốt) trong hầu hết các thị trường toàn cầu. Chi phí vốn cho turbine gió và tấm pin mặt trời đã giảm 85% trong thập kỷ qua. Scandinavia đã chứng minh rằng nó có thể cung cấp năng lượng rẻ, sạch, và bền vững cùng một lúc mà không cần tăng giá điện cho người tiêu dùng.

@@ -1,7 +1,7 @@
 +++
 title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những công ty Thay Đổi Thế Giới"
 seo_title = "danh mục đầu tư Atomico: Klarna, Spotify, Revolut, Zendesk"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-11T14:30:00+07:00"
 slug = "danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk"
 aliases = ["/posts/danh-sách-đầu-tư-của-atomico-klarna-spotify-revolut-zendesk-và-những-công-ty-thay-đổi-thế-giới/"]

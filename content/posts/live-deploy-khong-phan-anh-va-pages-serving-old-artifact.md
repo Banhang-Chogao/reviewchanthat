@@ -3,7 +3,7 @@ noindex = true
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:45:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Vì sao merge OK nhưng live vẫn phục vụ artifact cũ, vai trò của build-info.json và cách verify GitHub Pages đã serve đúng bản mới."
 draft = false
 image = "images/posts/live-deploy-khong-phan-anh-va-pages-serving-old-artifact.webp"
@@ -40,6 +40,22 @@ disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + Git
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
 title = "Tóm tắt nhanh"
+
+[[faq]]
+question = "Hỏi: build-info đúng SHA nhưng UI cũ?"
+answer = "Trả lời: Hard refresh; so hash file CSS `main.min.<hash>.css`. Có thể partials HTML đúng nhưng asset cache."
+
+[[faq]]
+question = "Hỏi: Có nên force-push để “ép” Pages?"
+answer = "Trả lời: Không. Force-push không thay cho chẩn đoán publish path và dễ làm rối history."
+
+[[faq]]
+question = "Hỏi: Autofix có giúp khi Pages serve artifact cũ?"
+answer = "Trả lời: Thường **không** — đây là unsafe/platform. Autofix content không đổi cách Pages chọn artifact."
+
+[[faq]]
+question = "Hỏi: Làm sao chứng minh với team?"
+answer = "Trả lời: Screenshot Actions SHA + JSON `build-info` + thời điểm UTC/VN. Deployment Doctor nên ghi pattern `github_pages_serving_old_artifact`."
 +++
 
 ## Root cause
@@ -86,20 +102,6 @@ Job **xanh** chỉ chứng minh pipeline chạy xong — **chưa** chứng minh 
 4. Nếu lệch < 10 phút: chờ CDN; kiểm tra lại.
 5. Nếu lệch > 30 phút + deploy xanh: nghi publish no-op / environment protection / platform lag — **không** spam 20 lần redeploy.
 6. Xem [rate limit](/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai/) nếu bị 429 khi retry.
-
-## FAQ
-
-**Hỏi: build-info đúng SHA nhưng UI cũ?**  
-Trả lời: Hard refresh; so hash file CSS `main.min.<hash>.css`. Có thể partials HTML đúng nhưng asset cache.
-
-**Hỏi: Có nên force-push để “ép” Pages?**  
-Trả lời: Không. Force-push không thay cho chẩn đoán publish path và dễ làm rối history.
-
-**Hỏi: Autofix có giúp khi Pages serve artifact cũ?**  
-Trả lời: Thường **không** — đây là unsafe/platform. Autofix content không đổi cách Pages chọn artifact.
-
-**Hỏi: Làm sao chứng minh với team?**  
-Trả lời: Screenshot Actions SHA + JSON `build-info` + thời điểm UTC/VN. Deployment Doctor nên ghi pattern `github_pages_serving_old_artifact`.
 
 ## Gợi ý vận hành
 

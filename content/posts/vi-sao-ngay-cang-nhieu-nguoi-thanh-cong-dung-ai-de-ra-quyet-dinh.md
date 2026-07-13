@@ -4,7 +4,7 @@ title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quy
 seo_title = "AI hỗ trợ ra quyết định: khi nào nên dùng?"
 description = "AI hỗ trợ quyết định công việc và đời sống: khung pre-mortem, ma trận, so sánh phương án. Ưu–nhược, case Việt Nam, ranh giới đạo đức và FAQ."
 date = "2026-07-10T14:52:44+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 lastmod = "2026-07-10T14:52:44+07:00"
 date_display = "10-07-2026 14:52:44 GMT +7"
 lastmod_display = "10-07-2026 14:52:44 GMT +7"
@@ -129,17 +129,6 @@ Không dán cap table, lương team, bí mật đàm phán vào bot công cộng
 - Hype và subscription.  
 - rủi ro dữ liệu.  
 - Ảo tưởng AI luôn đúng.
-
-## FAQ mở rộng
-
-**Có cần Pro ngay?** Không — free tier + đo 14 ngày.  
-**Có thay chuyên gia?** Không với y tế/luật/thuế/đầu tư phức tạp.  
-**Trẻ em dùng AI?** Có giám sát; không thay giao tiếp người lớn.
-
-## Liên kết cluster
-
-- Pillar và bài công cụ AI trong series.  
-- Chuyên mục Đời sống, Tài chính, TOPIK, Du lịch tùy chủ đề.
 
 ## Kết
 

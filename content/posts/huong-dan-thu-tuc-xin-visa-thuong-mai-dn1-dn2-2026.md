@@ -1,7 +1,7 @@
 +++
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
 seo_title = "Thủ tục xin visa thương mại DN1, DN2 cho chuyên gia 2026"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-11T05:00:00+07:00"
 slug = "huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026"
 aliases = ["/posts/hướng-dẫn-thủ-tục-xin-visa-thương-mại-dn1-dn2-cho-chuyên-gia-nước-ngoài-2026/"]
@@ -44,6 +44,22 @@ title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Q
 [[internal_links]]
 ref = "posts/huong-dan-mien-visa-uzbekistan-5-ngay.md"
 title = "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á"
+
+[[faq]]
+question = "Câu Hỏi 1: Chuyên Gia Nước Ngoài Có Thể Vào Việt Nam Bằng Visa Du Lịch Rồi Xin Visa Thương Mại Không?"
+answer = "Theo quy định, người nước ngoài nhập cảnh bằng visa du lịch (DL) không được phép chuyển đổi sang visa thương mại (DN1/DN2) khi đang ở trong lãnh thổ Việt Nam, trừ trường hợp có quyết định của cơ quan nhà nước có thẩm quyền hoặc trường hợp bất khả kháng (thiên tai, dịch bệnh). Doanh nghiệp buộc phải làm thủ tục xin visa thương mại từ nước ngoài trước khi chuyên gia nhập cảnh. Đây là quy định quan trọng nhằm ngăn chặn tình trạng lạm dụng visa du lịch để lao động trái phép."
+
+[[faq]]
+question = "Câu Hỏi 2: Thời Hạn Visa DN1 Là Bao Lâu?"
+answer = "Visa DN1 có thời hạn tối đa 12 tháng đối với trường hợp thông thường và có thể lên đến 24 tháng đối với nhà đầu tư, thành viên Hội đồng quản trị hoặc các vị trí quản lý cấp cao. Sau khi hết hạn, chuyên gia nước ngoài có thể xin gia hạn visa tại Cục Quản lý xuất nhập cảnh (nếu vẫn còn đáp ứng điều kiện). Mỗi lần gia hạn tối đa không quá 24 tháng."
+
+[[faq]]
+question = "Câu Hỏi 3: Doanh Nghiệp Cần Phải Có Chữ Ký Số Để Nộp Hồ Sơ Trực Tuyến?"
+answer = "Có. Kể từ tháng 6/2024, Cục Quản lý xuất nhập cảnh yêu cầu doanh nghiệp phải có chữ ký số hợp lệ (do các cơ quan chứng thực điện tử được Bộ Thông tin và Truyền thông cấp phép) để ký số các văn bản điện tử nộp qua Cổng dịch vụ công quốc gia. Chữ ký số phải còn hiệu lực và được đăng ký đúng tên doanh nghiệp bảo lãnh."
+
+[[faq]]
+question = "Câu Hỏi 4: Có Thể Ủy Quyền Cho Đơn Vị Dịch Vụ Làm Thủ Tục Xin Visa Không?"
+answer = "Được phép. Nhiều doanh nghiệp lựa chọn thuê đơn vị tư vấn dịch vụ chuyên nghiệp để thực hiện thủ tục xin visa thương mại cho chuyên gia nước ngoài. Việc này giúp tiết kiệm thời gian, giảm thiểu sai sót và tăng tỷ lệ duyệt hồ sơ. Tuy nhiên, doanh nghiệp vẫn phải chịu trách nhiệm pháp lý về tính chính xác và trung thực của toàn bộ thông tin trong hồ sơ, bao gồm cả những phần do đơn vị dịch vụ chuẩn bị."
 +++
 
 ## Tổng Quan Về Visa Thương Mại DN1 Và DN2
@@ -205,24 +221,6 @@ Thời gian xử lý từng giai đoạn trong quy trình xin visa thương mạ
 | Xử lý hồ sơ (xét duyệt + chuyển thông tin) | 5-10 ngày |
 | Dán visa tại Đại sứ quán/Lãnh sự quán | 2-5 ngày |
 | Tổng thời gian ước tính | 12-30 ngày |
-
-## Một Số Câu Hỏi Thường Gặp (FAQ)
-
-### Câu Hỏi 1: Chuyên Gia Nước Ngoài Có Thể Vào Việt Nam Bằng Visa Du Lịch Rồi Xin Visa Thương Mại Không?
-
-Theo quy định, người nước ngoài nhập cảnh bằng visa du lịch (DL) không được phép chuyển đổi sang visa thương mại (DN1/DN2) khi đang ở trong lãnh thổ Việt Nam, trừ trường hợp có quyết định của cơ quan nhà nước có thẩm quyền hoặc trường hợp bất khả kháng (thiên tai, dịch bệnh). Doanh nghiệp buộc phải làm thủ tục xin visa thương mại từ nước ngoài trước khi chuyên gia nhập cảnh. Đây là quy định quan trọng nhằm ngăn chặn tình trạng lạm dụng visa du lịch để lao động trái phép.
-
-### Câu Hỏi 2: Thời Hạn Visa DN1 Là Bao Lâu?
-
-Visa DN1 có thời hạn tối đa 12 tháng đối với trường hợp thông thường và có thể lên đến 24 tháng đối với nhà đầu tư, thành viên Hội đồng quản trị hoặc các vị trí quản lý cấp cao. Sau khi hết hạn, chuyên gia nước ngoài có thể xin gia hạn visa tại Cục Quản lý xuất nhập cảnh (nếu vẫn còn đáp ứng điều kiện). Mỗi lần gia hạn tối đa không quá 24 tháng.
-
-### Câu Hỏi 3: Doanh Nghiệp Cần Phải Có Chữ Ký Số Để Nộp Hồ Sơ Trực Tuyến?
-
-Có. Kể từ tháng 6/2024, Cục Quản lý xuất nhập cảnh yêu cầu doanh nghiệp phải có chữ ký số hợp lệ (do các cơ quan chứng thực điện tử được Bộ Thông tin và Truyền thông cấp phép) để ký số các văn bản điện tử nộp qua Cổng dịch vụ công quốc gia. Chữ ký số phải còn hiệu lực và được đăng ký đúng tên doanh nghiệp bảo lãnh.
-
-### Câu Hỏi 4: Có Thể Ủy Quyền Cho Đơn Vị Dịch Vụ Làm Thủ Tục Xin Visa Không?
-
-Được phép. Nhiều doanh nghiệp lựa chọn thuê đơn vị tư vấn dịch vụ chuyên nghiệp để thực hiện thủ tục xin visa thương mại cho chuyên gia nước ngoài. Việc này giúp tiết kiệm thời gian, giảm thiểu sai sót và tăng tỷ lệ duyệt hồ sơ. Tuy nhiên, doanh nghiệp vẫn phải chịu trách nhiệm pháp lý về tính chính xác và trung thực của toàn bộ thông tin trong hồ sơ, bao gồm cả những phần do đơn vị dịch vụ chuẩn bị.
 
 ## Những Điểm Cần Lưu Ý Khi Xin Visa Thương Mại Cho Chuyên Gia
 

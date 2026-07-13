@@ -50,6 +50,22 @@ title = "Con người có thể nói dối nhưng dữ liệu thì không — to
 [attribution]
 copyright = "© 2026 Review Chân Thật. Phóng tác từ kịch bản video Cold Fusion."
 source_note = "Nguồn tham khảo: Cold Fusion (ColdFusion TV), phỏng vấn Rolling Stone với Nguyễn Hà Đông, phản hồi chính thức của Nintendo trên The Guardian."
+
+[[faq]]
+question = "Q: Nguyễn Hà Đông làm Flappy Bird trong bao lâu và kiếm được bao nhiêu?"
+answer = "A: Anh dựng game trong khoảng **ba buổi tối sau giờ làm** vào mùa xuân 2013, tái sử dụng nhân vật chim từ một dự án cũ. Ở đỉnh cao tháng 2/2014, game có hơn 50 triệu lượt tải và mang về khoảng **50.000 USD/ngày** từ quảng cáo."
+
+[[faq]]
+question = "Q: Có đúng là Nintendo kiện khiến Flappy Bird bị gỡ không?"
+answer = "A: Không. Dù mấy cái ống xanh giống Super Mario, **Nintendo đã công khai phủ nhận** trên The Guardian rằng họ không hề có hành động pháp lý nào. Nguyên nhân được chấp nhận rộng rãi là áp lực dư luận và khủng hoảng tâm lý, chứ không phải vụ kiện."
+
+[[faq]]
+question = "Q: Flappy Bird trở lại năm 2024 có phải bản gốc của Hà Đông không?"
+answer = "A: Không. Bản 2024 do nhóm **Flappy Bird Foundation** phát hành sau khi trademark hết hạn và Hà Đông không gia hạn. Anh khẳng định **không liên quan, không bán bản quyền và không ủng hộ crypto/NFT** — bản này gắn với NFT và không phải sản phẩm của anh."
+
+[[faq]]
+question = "Q: Vì sao Hà Đông từ chối tiếp tục kiếm tiền từ Flappy Bird?"
+answer = "A: Theo các phỏng vấn (đáng chú ý là Rolling Stone), anh là người hướng nội, bị hào quang và làn sóng thù ghét làm kiệt sức. Anh tin những lời nói game hủy hoại cuộc sống người chơi và không muốn chịu trách nhiệm — chọn cuộc sống bình yên thay vì chạy theo quy mô và dòng tiền vô hạn như các studio lớn."
 +++
 
 Với đa số lập trình viên, kịch bản trong mơ là một ứng dụng làm trong ba ngày bỗng dưng đẻ ra tiền. Nhưng **50.000 USD mỗi ngày** thì vượt xa mọi giấc mơ hoang đường nhất. Với một lập trình viên vô danh ở Hà Nội, đó lại là chuyện có thật. Ứng dụng của anh cứ thế lớn lên như không có ngày mai — một thứ dịch bệnh xã hội thời số hóa mang tên **Flappy Bird**.
@@ -137,21 +153,3 @@ Nhưng Nguyễn Hà Đông nhìn tất cả những thứ đó và nói: "Không
 Và có lẽ đó mới là di sản thật sự của Flappy Bird. Không phải trò chơi, cũng không phải cơn viral kỳ dị của nó — mà là lời nhắc hiếm hoi rằng đôi khi, **được phép nhấn vào nút thoát cũng chẳng sao**.
 
 Nếu muốn tìm hiểu thêm về lối sống tối giản trong thời đại số, bài [Digital Minimalism]({{< ref "posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi" >}}) có thể cho bạn một góc nhìn khác về việc chủ động lược bỏ thứ không cần thiết — giống điều Hà Đông đã làm. Và nếu bạn quan tâm đến những câu chuyện người thật việc thật, đừng bỏ qua bài [Con người có thể nói dối nhưng dữ liệu thì không]({{< ref "posts/gian-lan-diem-thi-thong-ke" >}}) về sức mạnh của dữ liệu trong việc phơi bày sự thật.
-
-## Câu hỏi thường gặp (FAQ)
-
-**Q: Nguyễn Hà Đông làm Flappy Bird trong bao lâu và kiếm được bao nhiêu?**
-
-A: Anh dựng game trong khoảng **ba buổi tối sau giờ làm** vào mùa xuân 2013, tái sử dụng nhân vật chim từ một dự án cũ. Ở đỉnh cao tháng 2/2014, game có hơn 50 triệu lượt tải và mang về khoảng **50.000 USD/ngày** từ quảng cáo.
-
-**Q: Có đúng là Nintendo kiện khiến Flappy Bird bị gỡ không?**
-
-A: Không. Dù mấy cái ống xanh giống Super Mario, **Nintendo đã công khai phủ nhận** trên The Guardian rằng họ không hề có hành động pháp lý nào. Nguyên nhân được chấp nhận rộng rãi là áp lực dư luận và khủng hoảng tâm lý, chứ không phải vụ kiện.
-
-**Q: Flappy Bird trở lại năm 2024 có phải bản gốc của Hà Đông không?**
-
-A: Không. Bản 2024 do nhóm **Flappy Bird Foundation** phát hành sau khi trademark hết hạn và Hà Đông không gia hạn. Anh khẳng định **không liên quan, không bán bản quyền và không ủng hộ crypto/NFT** — bản này gắn với NFT và không phải sản phẩm của anh.
-
-**Q: Vì sao Hà Đông từ chối tiếp tục kiếm tiền từ Flappy Bird?**
-
-A: Theo các phỏng vấn (đáng chú ý là Rolling Stone), anh là người hướng nội, bị hào quang và làn sóng thù ghét làm kiệt sức. Anh tin những lời nói game hủy hoại cuộc sống người chơi và không muốn chịu trách nhiệm — chọn cuộc sống bình yên thay vì chạy theo quy mô và dòng tiền vô hạn như các studio lớn.

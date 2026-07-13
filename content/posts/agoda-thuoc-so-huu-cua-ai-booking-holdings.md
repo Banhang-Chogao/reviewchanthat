@@ -1,7 +1,7 @@
 +++
 title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
 seo_title = "Agoda thuộc sở hữu của ai? Booking Holdings"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-13T14:12:00+07:00"
 draft = false
 author = "Minh Hoàng"

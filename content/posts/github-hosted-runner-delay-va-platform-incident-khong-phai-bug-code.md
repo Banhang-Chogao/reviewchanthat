@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:10:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Khi job CI đỏ vì GitHub-hosted runner thiếu capacity hoặc platform incident chứ không phải bug code, và cách phân biệt để không autofix nhầm."
 draft = false
 noindex = true
@@ -40,6 +40,22 @@ disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + Git
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
 title = "Tóm tắt nhanh"
+
+[[faq]]
+question = "Hỏi: Làm sao phân biệt runner delay và script hang?"
+answer = "Trả lời: Script hang thường đã qua Checkout/Setup, log có timestamp step. Runner delay: chưa có step nào chạy."
+
+[[faq]]
+question = "Hỏi: Self-hosted runner có phải lời giải?"
+answer = "Trả lời: Có thể cho team lớn; với blog cá nhân/gh-pages tradeoff vận hành cao. Ưu tiên giảm fan-out trước."
+
+[[faq]]
+question = "Hỏi: Incident 9/7/2026 học được gì?"
+answer = "Trả lời: Document trong series CI — verify bằng status + build-info, không đổ lỗi content random."
+
+[[faq]]
+question = "Hỏi: Doctor có được mở PR “fix delay”?"
+answer = "Trả lời: Không. Pattern unsafe: chỉ quan sát, alert, có thể tạm disable bot gây queue."
 +++
 
 ## Root cause
@@ -98,20 +114,6 @@ Khi runner đã start mà fail ở Hugo/YAML → chuyển sang [Hugo build & YAM
 
 **Không nên:** push commit rỗng “để kích”; autofix front matter; force-push; spam `workflow_dispatch` 20 lần (dễ dính rate limit).
 
-## FAQ
-
-**Hỏi: Làm sao phân biệt runner delay và script hang?**  
-Trả lời: Script hang thường đã qua Checkout/Setup, log có timestamp step. Runner delay: chưa có step nào chạy.
-
-**Hỏi: Self-hosted runner có phải lời giải?**  
-Trả lời: Có thể cho team lớn; với blog cá nhân/gh-pages tradeoff vận hành cao. Ưu tiên giảm fan-out trước.
-
-**Hỏi: Incident 9/7/2026 học được gì?**  
-Trả lời: Document trong series CI — verify bằng status + build-info, không đổ lỗi content random.
-
-**Hỏi: Doctor có được mở PR “fix delay”?**  
-Trả lời: Không. Pattern unsafe: chỉ quan sát, alert, có thể tạm disable bot gây queue.
-
 ## Checklist khi queue bất thường
 
 1. Mở githubstatus.com  
@@ -119,4 +121,4 @@ Trả lời: Không. Pattern unsafe: chỉ quan sát, alert, có thể tạm dis
 3. So multi-repo  
 4. Không commit rỗng  
 5. Giảm fan-out nếu đang bão  
-6. Retry có kiểm soát sau recovery  
+6. Retry có kiểm soát sau recovery

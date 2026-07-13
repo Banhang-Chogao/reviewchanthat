@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:30:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Ghi chú pipeline ảnh: hero thiếu sau khi đổi bài, self-owned direct_url, khi nào creator rỗng là hợp lệ và cách chặn creator giả."
 draft = false
 noindex = true
@@ -40,6 +40,22 @@ disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + Git
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
 title = "Tóm tắt nhanh"
+
+[[faq]]
+question = "Hỏi: Creator rỗng có bị coi là lỗi?"
+answer = "Trả lời: Không nếu đã verify license/source và ghi nhận unavailable. Lỗi là **bịa** tên."
+
+[[faq]]
+question = "Hỏi: WebP bị gitignore thì sao?"
+answer = "Trả lời: Force-add file cần ship, hoặc đảm bảo pipeline generate trên CI trước publish. Blog hiện force-add hero đã verify."
+
+[[faq]]
+question = "Hỏi: Ảnh lệch chủ đề (QR Alipay cho bài toán e) có pass gate không?"
+answer = "Trả lời: Có thể pass “có file + attribution” nhưng **fail chất lượng nội dung**. Nên chọn query đúng topic (series finance đã fix theo hướng này)."
+
+[[faq]]
+question = "Hỏi: Có được Unsplash?"
+answer = "Trả lời: Policy hiện tại: **Pexels + Pixabay only**."
 +++
 
 ## Root cause
@@ -91,20 +107,6 @@ Rule blog: **≥ 2 ảnh/bài** (hero + minh họa). Bài kỹ thuật **không*
 4. Không fake creator; không placeholder tự vẽ khi policy cấm.
 5. Self-owned: `direct_url` / path hợp lệ cho `process_images`.
 6. QA scope: chỉ bắt ảnh bài trong diff — tránh baseline debt chặn PR CSS.
-
-## FAQ
-
-**Hỏi: Creator rỗng có bị coi là lỗi?**  
-Trả lời: Không nếu đã verify license/source và ghi nhận unavailable. Lỗi là **bịa** tên.
-
-**Hỏi: WebP bị gitignore thì sao?**  
-Trả lời: Force-add file cần ship, hoặc đảm bảo pipeline generate trên CI trước publish. Blog hiện force-add hero đã verify.
-
-**Hỏi: Ảnh lệch chủ đề (QR Alipay cho bài toán e) có pass gate không?**  
-Trả lời: Có thể pass “có file + attribution” nhưng **fail chất lượng nội dung**. Nên chọn query đúng topic (series finance đã fix theo hướng này).
-
-**Hỏi: Có được Unsplash?**  
-Trả lời: Policy hiện tại: **Pexels + Pixabay only**.
 
 ## Gợi ý cho series dài
 

@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:55:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Chẩn đoán Hugo build error: front matter YAML trùng lặp, ai_summary sai kiểu, template regression khiến deploy không complete và cách đọc log."
 draft = false
 noindex = true
@@ -40,6 +40,22 @@ disclaimer = "Bài viết tổng hợp kinh nghiệm vận hành blog Hugo + Git
 enabled = true
 items = ["Phân biệt lỗi safe (được autofix) và unsafe (chỉ báo cáo, không hotfix mù).", "Nhiều failure không phải bug code: runner queue, platform incident, rate limit, Pages CDN lag.", "Checklist chẩn đoán: job đã start chưa, SHA live khớp chưa, QA scope có đúng feature không."]
 title = "Tóm tắt nhanh"
+
+[[faq]]
+question = "Hỏi: Local `hugo` xanh, CI đỏ?"
+answer = "Trả lời: Khác version Hugo extended, khác env `GA_MEASUREMENT_ID`, hoặc CI có step normalize trước build. So version trong workflow."
+
+[[faq]]
+question = "Hỏi: TOML có duplicate key không?"
+answer = "Trả lời: Parser khác YAML; vẫn tránh hai `draft =` / field lặp. `rule.py` dump lại front matter giúp canonical."
+
+[[faq]]
+question = "Hỏi: Có nên `continue-on-error` trên Hugo build?"
+answer = "Trả lời: **Không.** Build fail = không publish. Debt khác (image audit full site) mới tách report."
+
+[[faq]]
+question = "Hỏi: Liên quan Content Direction optimizer?"
+answer = "Trả lời: Optimizer ghi front matter hỏng → build/render fail. Dry-run + normalize trước batch."
 +++
 
 ## Root cause
@@ -103,20 +119,6 @@ Nguyên tắc: **đọc log Hugo**, không đoán “chắc do cache”.
 2. **`range` ai_summary:** items thành JSON string → normalize list string.
 3. **Partial AI summary đổi cấu trúc:** thiếu `with`/`default` → nil. Fix template + fixture.
 4. **Bảng quá rộng:** UX safe fix CSS scroll; không phải build-breaker nhưng Doctor có thể gắn `table_layout_ux_regression`.
-
-## FAQ
-
-**Hỏi: Local `hugo` xanh, CI đỏ?**  
-Trả lời: Khác version Hugo extended, khác env `GA_MEASUREMENT_ID`, hoặc CI có step normalize trước build. So version trong workflow.
-
-**Hỏi: TOML có duplicate key không?**  
-Trả lời: Parser khác YAML; vẫn tránh hai `draft =` / field lặp. `rule.py` dump lại front matter giúp canonical.
-
-**Hỏi: Có nên `continue-on-error` trên Hugo build?**  
-Trả lời: **Không.** Build fail = không publish. Debt khác (image audit full site) mới tách report.
-
-**Hỏi: Liên quan Content Direction optimizer?**  
-Trả lời: Optimizer ghi front matter hỏng → build/render fail. Dry-run + normalize trước batch.
 
 ## Checklist sau khi đụng template
 

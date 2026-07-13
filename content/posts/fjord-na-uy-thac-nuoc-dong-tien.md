@@ -20,7 +20,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "0ee71da6"
+commit = "320d6036"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_id = ""
@@ -41,6 +41,14 @@ title = "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở h
 [[internal_links]]
 ref = "posts/phần-lan-hạnh-phúc-01.md"
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
+
+[[faq]]
+question = "Q: Thời gian tốt nhất trong năm để ghé thăm các fjord Na Uy là khi nào?"
+answer = "A: Từ tháng 5 đến tháng 9 là mùa du lịch cao điểm, với thời tiết ấm và ngày dài (20+ giờ ánh sáng mặt trời vào tháng 7). Nếu bạn không thích đông đúc, tháng 4 hoặc 10 cung cấp thời tiết tương đối tốt với ít khách du lịch hơn."
+
+[[faq]]
+question = "Q: Chi phí du lịch các fjord Na Uy là bao nhiêu?"
+answer = "A: Một tour tàu đơn giản từ 2-3 giờ có giá €40-80. Flåm Railway €28 một chiều. Khách sạn ở các thị trấn nhỏ: €100-150/đêm. Thực ăn: €15-25 cho bữa ăn trưa, €30-50 cho bữa tối. Tổng cộng cho một tuần: €2.000-3.500 cho một người (không tính vé máy bay). Na Uy không rẻ, nhưng giá trị trải nghiệm là đáng giá từng euro."
 +++
 
 ## Tại Sao Các Fjord Na Uy Lại Là Một Trong Những Kỳ Quan Thiên Nhiên Vĩ Đại Nhất Thế Giới?
@@ -80,13 +88,3 @@ Ngoài Geirangerfjord và Sognefjord, Na Uy còn có nhiều fjord đáng thăm 
 ## Kết Luận Trải Nghiệm Cá Nhân
 
 Sau những tuần trong các fjord Na Uy, tôi bắt đầu hiểu tại sao người Na Uy yêu thích đất nước của họ một cách đơn giản mà không cần giải thích. Khi bạn sống bên cạnh một cảnh tượng đẹp như vậy, bạn không bao giờ chán. Nếu bạn chỉ có thể đi thăm một nơi ở Scandinavia, hãy đến các fjord Na Uy. Chúng sẽ thay đổi cách bạn nhìn nhận thế giới.
-
-## FAQ – Những Câu Hỏi Thường Gặp
-
-**Q: Thời gian tốt nhất trong năm để ghé thăm các fjord Na Uy là khi nào?**
-
-A: Từ tháng 5 đến tháng 9 là mùa du lịch cao điểm, với thời tiết ấm và ngày dài (20+ giờ ánh sáng mặt trời vào tháng 7). Nếu bạn không thích đông đúc, tháng 4 hoặc 10 cung cấp thời tiết tương đối tốt với ít khách du lịch hơn.
-
-**Q: Chi phí du lịch các fjord Na Uy là bao nhiêu?**
-
-A: Một tour tàu đơn giản từ 2-3 giờ có giá €40-80. Flåm Railway €28 một chiều. Khách sạn ở các thị trấn nhỏ: €100-150/đêm. Thực ăn: €15-25 cho bữa ăn trưa, €30-50 cho bữa tối. Tổng cộng cho một tuần: €2.000-3.500 cho một người (không tính vé máy bay). Na Uy không rẻ, nhưng giá trị trải nghiệm là đáng giá từng euro.

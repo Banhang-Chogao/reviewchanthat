@@ -4,7 +4,7 @@ title = "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân s
 seo_title = "AI tài chính cá nhân: ngân sách đến đầu tư"
 description = "AI giúp quản lý tài chính cá nhân: lập ngân sách, theo dõi chi tiêu và gợi ý đầu tư cơ bản cho người Việt, kèm bảng so sánh và FAQ an toàn dữ liệu."
 date = "2026-07-10T14:54:44+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 lastmod = "2026-07-10T14:54:44+07:00"
 date_display = "10-07-2026 14:54:44 GMT +7"
 lastmod_display = "10-07-2026 14:54:44 GMT +7"
@@ -133,17 +133,6 @@ AI tóm tắt báo cáo quỹ/công ty = OK như điểm khởi đầu. Quyết 
 - Hype và subscription.  
 - rủi ro dữ liệu.  
 - Ảo tưởng AI luôn đúng.
-
-## FAQ mở rộng
-
-**Có cần Pro ngay?** Không — free tier + đo 14 ngày.  
-**Có thay chuyên gia?** Không với y tế/luật/thuế/đầu tư phức tạp.  
-**Trẻ em dùng AI?** Có giám sát; không thay giao tiếp người lớn.
-
-## Liên kết cluster
-
-- Pillar và bài công cụ AI trong series.  
-- Chuyên mục Đời sống, Tài chính, TOPIK, Du lịch tùy chủ đề.
 
 ## Kết
 

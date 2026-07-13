@@ -1,7 +1,7 @@
 +++
 title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
 seo_title = "Hướng dẫn đặt phòng Agoda A-Z: thanh toán, hoàn hủy"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-13T14:07:00+07:00"
 draft = false
 author = "Minh Hoàng"

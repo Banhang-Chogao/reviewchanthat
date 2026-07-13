@@ -1,7 +1,7 @@
 +++
 title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026"
 seo_title = "Cách đặt khách sạn & vé máy bay giá tốt trên Trip.com"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-13T10:05:00+07:00"
 draft = false
 author = "Minh Hoàng"

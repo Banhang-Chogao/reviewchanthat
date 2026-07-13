@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:20:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Alpensia Ski 700 Pyeongchang — ski resort từng đăng cai Olympic 2018. 6 slope, beginner-friendly, kết hợp nghỉ dưỡng và water park. So sánh với Yongpyong."
 draft = false
 image = "images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp"

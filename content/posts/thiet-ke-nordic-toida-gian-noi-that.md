@@ -20,7 +20,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "0ee71da6"
+commit = "320d6036"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_url = "https://www.pexels.com/@thoinamcao"
@@ -40,6 +40,18 @@ title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thàn
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+
+[[faq]]
+question = "Q: Thiết kế Nordic có thích hợp với khí hậu ấm không?"
+answer = "A: Có. Mặc dù thiết kế Nordic được phát triển cho khí hậu lạnh, nguyên tắc của nó (tối giản, chức năng, chất lượng) là phổ quát. Ở các khí hậu ấm, bạn có thể sử dụng các vật liệu nhẹ hơn (như bông linen thay vì lông cừu) nhưng vẫn giữ các nguyên tắc thiết kế."
+
+[[faq]]
+question = "Q: Thiết kế Nordic có đắt tiền không?"
+answer = "A: Không nhất thiết. IKEA và các thương hiệu khác cung cấp nội thất Nordic rẻ. Tuy nhiên, \"Nordic thực sự\" (từ các nhà thiết kế nổi tiếng) có thể rất đắt (chiếc ghế Egg của Jacobsen có giá €3,000-5,000). Nhưng ý tưởng cốt lõi – ít hơn, chất lượng tốt, gỗ tự nhiên – có thể làm được với ngân sách khiêm tốn."
+
+[[faq]]
+question = "Q: Tôi có nên loại bỏ tất cả các màu sắc rực rỡ không?"
+answer = "A: Không. Thiết kế Nordic cho phép thêm màu sắc với liều lượng. Bạn có thể thêm một chiếc tấm thảm xanh lá cây, một bức tranh, hoặc gối có màu sắc. Chìa khóa là sự cân bằng – hầu hết không gian nên trung tính, với một vài điểm nhấn màu sắc."
 +++
 
 ## Thiết Kế Nordic Là Gì?
@@ -91,17 +103,3 @@ Nếu bạn muốn mang thiết kế Nordic vào nhà của bạn, dưới đây
 ## Kết Luận Trải Nghiệm Cá Nhân
 
 Khi tôi tới Scandinavia, tôi bắt đầu ưa thích sự tối giản. Tôi nhận ra rằng tôi có quá nhiều thứ ở nhà, và những thứ đó không khiến tôi hạnh phúc. Sau khi áp dụng các nguyên tắc thiết kế Nordic (loại bỏ các vật không cần thiết, chọn các nội thất chất lượng cao, sử dụng gỗ tự nhiên), nhà tôi cảm thấy lớn hơn, yên tĩnh hơn, và hạnh phúc hơn. Thiết kế Nordic không chỉ là về thẩm mỹ – nó là về cách sống tốt hơn.
-
-## FAQ – Những Câu Hỏi Thường Gặp
-
-**Q: Thiết kế Nordic có thích hợp với khí hậu ấm không?**
-
-A: Có. Mặc dù thiết kế Nordic được phát triển cho khí hậu lạnh, nguyên tắc của nó (tối giản, chức năng, chất lượng) là phổ quát. Ở các khí hậu ấm, bạn có thể sử dụng các vật liệu nhẹ hơn (như bông linen thay vì lông cừu) nhưng vẫn giữ các nguyên tắc thiết kế.
-
-**Q: Thiết kế Nordic có đắt tiền không?**
-
-A: Không nhất thiết. IKEA và các thương hiệu khác cung cấp nội thất Nordic rẻ. Tuy nhiên, "Nordic thực sự" (từ các nhà thiết kế nổi tiếng) có thể rất đắt (chiếc ghế Egg của Jacobsen có giá €3,000-5,000). Nhưng ý tưởng cốt lõi – ít hơn, chất lượng tốt, gỗ tự nhiên – có thể làm được với ngân sách khiêm tốn.
-
-**Q: Tôi có nên loại bỏ tất cả các màu sắc rực rỡ không?**
-
-A: Không. Thiết kế Nordic cho phép thêm màu sắc với liều lượng. Bạn có thể thêm một chiếc tấm thảm xanh lá cây, một bức tranh, hoặc gối có màu sắc. Chìa khóa là sự cân bằng – hầu hết không gian nên trung tính, với một vài điểm nhấn màu sắc.

@@ -1,7 +1,7 @@
 +++
 title = "AI Inflation 2026: Why Your Next Laptop, Phone, and Gaming Console Will Cost More"
 seo_title = "AI Inflation 2026: Why Gadgets Cost More Due to AI Data Centers"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-13T23:50:00+07:00"
 slug = "trending-topic-20260713"
 draft = false

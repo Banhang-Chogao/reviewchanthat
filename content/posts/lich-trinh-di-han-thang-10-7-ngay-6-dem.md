@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T14:30:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan — cách xếp ngày theo dự báo lá đỏ và mẹo di chuyển KTX."
 draft = false
 image = "images/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.webp"

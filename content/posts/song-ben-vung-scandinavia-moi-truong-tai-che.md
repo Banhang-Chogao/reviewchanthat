@@ -20,7 +20,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "0ee71da6"
+commit = "320d6036"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_id = ""
@@ -41,6 +41,10 @@ title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc G
 [[internal_links]]
 ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
 title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
+
+[[faq]]
+question = "Q: Tôi có thể sống bền vững nếu tôi ở một quốc gia không phải Scandinavia không?"
+answer = "A: Hoàn toàn có thể. Nguyên tắc là giống nhau: bắt đầu từ những quyết định nhỏ hằng ngày (tái chế, tiêu thụ ít hơn, sử dụng phương tiện giao thông công cộng). Scandinavia có lợi thế về cơ sở hạ tầng, nhưng lối sống bền vững bắt đầu từ trong tư duy của bạn, không phải từ môi trường bạn sống."
 +++
 
 ## Tại Sao Scandinavia Lại Là Tiêu Chuẩn Vàng Của Phong Trào Bền Vững?
@@ -88,9 +92,3 @@ Trên các đường phố của Stockholm, Oslo, và Helsinki, bạn sẽ thấ
 Sau hai năm ở Scandinavia, tôi bắt đầu thay đổi cách suy nghĩ của mình về bền vững. Trước đây, tôi coi nó như một cảnh báo khí hậu – điều gì đó quan trọng nhưng đáng sợ. Ở Scandinavia, tôi thấy nó như một cơ hội – cơ hội sống tốt hơn, tiết kiệm tiền, và tạo ra một xã hội mà mọi người đều có thể tin tưởng và dựa vào nhau.
 
 Bền vững ở Scandinavia không phải là một gánh nặng hoặc một sự hy sinh. Đó là cách tối ưu để sống.
-
-## FAQ – Những Câu Hỏi Thường Gặp
-
-**Q: Tôi có thể sống bền vững nếu tôi ở một quốc gia không phải Scandinavia không?**
-
-A: Hoàn toàn có thể. Nguyên tắc là giống nhau: bắt đầu từ những quyết định nhỏ hằng ngày (tái chế, tiêu thụ ít hơn, sử dụng phương tiện giao thông công cộng). Scandinavia có lợi thế về cơ sở hạ tầng, nhưng lối sống bền vững bắt đầu từ trong tư duy của bạn, không phải từ môi trường bạn sống.

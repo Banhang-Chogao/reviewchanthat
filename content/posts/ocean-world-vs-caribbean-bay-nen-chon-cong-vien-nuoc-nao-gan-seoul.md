@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Ocean World vs Caribbean Bay: so sánh chi tiết giá vé, khoảng cách, trò chơi, độ đông. Nên chọn công viên nước nào gần Seoul?"
 draft = false
 image = "images/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.webp"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:40:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Checklist quyết định nâng cấp macOS Golden Gate 27: máy tương thích, app công việc, backup, AI và thời điểm public release."
 draft = false
 image = "images/posts/macos-27-co-nen-nang-cap-ngay-khong.webp"
@@ -47,6 +47,14 @@ label = "Checklist"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[faq]]
+question = "Không quan tâm AI, chỉ muốn nhanh và đẹp?"
+answer = "Vẫn có lý do nâng cấp: hiệu năng shell, Liquid Glass tùy chỉnh. So sánh [với macOS 26](/posts/macos-27-so-voi-macos-26/)."
+
+[[faq]]
+question = "Máy công ty khóa MDM?"
+answer = "IT quyết định — đừng tự beta."
 +++
 
 “Có nên bấm Update ngay?” — với macOS 27, câu trả lời đúng cho **đa số người Việt** vào tháng 7/2026 là: **chưa, chờ bản chính thức mùa thu** — trừ khi bạn có Mac phụ hoặc là developer cần test sớm.
@@ -98,15 +106,6 @@ Thiếu ≥ 3 mục → **hoãn**.
 | Public beta (~7/2026) | Người thích thử, chấp nhận bug |
 | Release ngày 1 (thu 2026) | M1/M2 cẩn trọng; M3/M4 có thể |
 | 27.1 (sau 1–2 tháng) | Doanh nghiệp, máy chính |
-
-## Câu hỏi thường gặp (không FAQ schema — trả lời trong bài)
-
-**Không quan tâm AI, chỉ muốn nhanh và đẹp?**  
-Vẫn có lý do nâng cấp: hiệu năng shell, Liquid Glass tùy chỉnh. So sánh [với macOS 26](/posts/macos-27-so-voi-macos-26/).
-
-**Máy công ty khóa MDM?**  
-IT quyết định — đừng tự beta.
-
 
 ## Ma trận quyết định theo model Mac
 

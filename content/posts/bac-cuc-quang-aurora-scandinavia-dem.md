@@ -21,7 +21,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "0ee71da6"
+commit = "320d6036"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_url = "https://pixabay.com/photos/ha-long-vietnam-countryside-6762303/"
@@ -41,6 +41,18 @@ title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, k
 [[internal_links]]
 ref = "posts/fjord-na-uy-thac-nuoc-dong-tien.md"
 title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh"
+
+[[faq]]
+question = "Q: Tôi có thể nhìn thấy bắc cực quang nếu tôi không ở Scandinavia không?"
+answer = "A: Có. Bắc cực quang có thể nhìn thấy từ bất cứ nơi nào ở bắc cực – Canada, Greenland, Iceland, Alaska, thậm chí Bắc Nga. Tuy nhiên, Scandinavia nổi tiếng vì dễ tiếp cận (các chuyến bay quốc tế, cơ sở hạ tầng tốt) và xác suất cao (địa lý địa từ)."
+
+[[faq]]
+question = "Q: Bắc cực quang có xảy ra mùa hè không?"
+answer = "A: Không. Mặt trời không bao giờ lặn vào mùa hè ở Bắc Cực (hiện tượng gọi là \"Midnight Sun\"), vì vậy bầu trời không đủ tối để nhìn thấy bắc cực quang. Bạn cần sự bóng tối hoàn toàn."
+
+[[faq]]
+question = "Q: Bắc cực quang có có thể nhìn thấy bằng mắt thường hay cần máy ảnh?"
+answer = "A: Bắc cực quang có thể nhìn thấy bằng mắt thường nếu nó đủ sáng. Khi bắc cực quang mạnh, bạn sẽ thấy nó rõ ràng mà không cần máy ảnh. Tuy nhiên, máy ảnh có thể nắm bắt được các màu sắc và chi tiết mà mắt thường không thể, đặc biệt với các bắc cực quang yếu."
 +++
 
 ## Bắc Cực Quang Là Gì?
@@ -81,17 +93,3 @@ Bạn sẽ cần:
 ## Kết Luận Trải Nghiệm Cá Nhân
 
 Khi tôi cuối cùng nhìn thấy bắc cực quang sau vài tuần chờ đợi ở Tromsø, tôi không có từ nào để mô tả. Nó giống như toàn bộ bầu trời đang nhảy múa – một lá cờ xanh rực rỡ lần lượt xoay quanh từ phía tây sang phía đông, rồi quay lại. Điều này đã thay đổi cách tôi nhìn nhận sự tuyệt vời của tự nhiên. Nó không phải chỉ là một hiện tượng vật lý – nó là một trải nghiệm tâm linh.
-
-## FAQ – Những Câu Hỏi Thường Gặp
-
-**Q: Tôi có thể nhìn thấy bắc cực quang nếu tôi không ở Scandinavia không?**
-
-A: Có. Bắc cực quang có thể nhìn thấy từ bất cứ nơi nào ở bắc cực – Canada, Greenland, Iceland, Alaska, thậm chí Bắc Nga. Tuy nhiên, Scandinavia nổi tiếng vì dễ tiếp cận (các chuyến bay quốc tế, cơ sở hạ tầng tốt) và xác suất cao (địa lý địa từ).
-
-**Q: Bắc cực quang có xảy ra mùa hè không?**
-
-A: Không. Mặt trời không bao giờ lặn vào mùa hè ở Bắc Cực (hiện tượng gọi là "Midnight Sun"), vì vậy bầu trời không đủ tối để nhìn thấy bắc cực quang. Bạn cần sự bóng tối hoàn toàn.
-
-**Q: Bắc cực quang có có thể nhìn thấy bằng mắt thường hay cần máy ảnh?**
-
-A: Bắc cực quang có thể nhìn thấy bằng mắt thường nếu nó đủ sáng. Khi bắc cực quang mạnh, bạn sẽ thấy nó rõ ràng mà không cần máy ảnh. Tuy nhiên, máy ảnh có thể nắm bắt được các màu sắc và chi tiết mà mắt thường không thể, đặc biệt với các bắc cực quang yếu.

@@ -1,7 +1,7 @@
 +++
 title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
 seo_title = "Smart ring là gì? Có nên mua nhẫn thông minh 2026?"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-11T12:50:00+07:00"
 slug = "smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026"
 aliases = ["/posts/smart-ring-là-gì-có-nên-mua-nhẫn-thông-minh-theo-dõi-giấc-ngủ-và-sức-khỏe-2026/"]

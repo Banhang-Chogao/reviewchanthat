@@ -1,7 +1,7 @@
 +++
 title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
 seo_title = "Agoda kiếm tiền như thế nào? Mô hình OTA"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-13T14:11:00+07:00"
 draft = false
 author = "Minh Hoàng"

@@ -4,7 +4,7 @@ title = "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày"
 seo_title = "20 công cụ AI tiết kiệm 2 giờ/ngày (2026)"
 description = "Danh sách 20 công cụ AI thực dụng cho viết, họp, học và tài chính. Có bảng so sánh, checklist chọn tool và lưu ý chi phí — không FOMO, không quảng cáo ảo."
 date = "2026-07-10T14:52:38+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 lastmod = "2026-07-10T14:52:38+07:00"
 date_display = "10-07-2026 14:52:38 GMT +7"
 lastmod_display = "10-07-2026 14:52:38 GMT +7"
@@ -57,6 +57,14 @@ answer = "Chọn 1–2 việc lặp lại, bấm giờ trước/sau 5 phiên. Nh
 [[faq]]
 question = "Dùng AI công ty có được không?"
 answer = "Tuân policy nội bộ. Không dán mã nguồn bí mật, dữ liệu khách, hợp đồng nhạy cảm vào model công cộng nếu công ty cấm. Ưu tiên workspace enterprise khi có."
+
+[[faq]]
+question = "Chỉ dùng free có đủ 2 giờ không?"
+answer = "Đủ nếu việc của bạn là soạn thảo/tóm tắt. Không đủ nếu cần API volume lớn hoặc team collab realtime."
+
+[[faq]]
+question = "Có tool “all-in-one” không?"
+answer = "Có suite quảng cáo all-in-one; thực tế hay kém ở 1–2 điểm yếu. 2–3 tool giỏi thường ổn định hơn một suite mediocre."
 
 [[internal_links]]
 ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
@@ -234,15 +242,6 @@ Sống thông minh = **menu dài, đĩa nhỏ**.
 - Pillar: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/)  
 - Tiếp: xây “hệ điều hành cá nhân” Notion + Google Calendar + AI (bài 3)  
 - Tài chính sâu: [tiết kiệm tự động 2026](/posts/personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund/)  
-
-## FAQ nhanh trong bài
-
-**Chỉ dùng free có đủ 2 giờ không?**  
-Đủ nếu việc của bạn là soạn thảo/tóm tắt. Không đủ nếu cần API volume lớn hoặc team collab realtime.
-
-**Có tool “all-in-one” không?**  
-Có suite quảng cáo all-in-one; thực tế hay kém ở 1–2 điểm yếu. 2–3 tool giỏi thường ổn định hơn một suite mediocre.
-
 
 ## Kịch bản 2 giờ: ví dụ số (minh họa)
 

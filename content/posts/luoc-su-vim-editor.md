@@ -1,7 +1,7 @@
 +++
 title = "Lược sử hình thành Vim: từ vi trên máy Amiga đến trình soạn thảo huyền thoại của lập trình viên"
 seo_title = "Lược sử Vim: từ 1991 đến trình soạn thảo huyền thoại"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-12T18:00:00+07:00"
 draft = false
 editor_pick = true

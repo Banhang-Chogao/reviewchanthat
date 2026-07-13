@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:20:00+07:00"
-commit = "0ee71da6"
+commit = "320d6036"
 description = "Danh sách Mac tương thích macOS Golden Gate 27 theo Apple, phân tích Mac Intel bị loại, M1 vs M4 và lộ trình cho người dùng Việt Nam."
 draft = false
 image = "images/posts/macos-27-ho-tro-may-mac-nao.webp"

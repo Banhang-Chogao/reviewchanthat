@@ -1,7 +1,7 @@
 +++
 title = "Ẩm thực chợ truyền thống Hàn Quốc: bản đồ các khu chợ và món nhất định phải thử 2026"
 seo_title = "Ẩm thực chợ truyền thống Hàn Quốc: khu chợ & món phải thử"
-commit = "0ee71da6"
+commit = "320d6036"
 date = "2026-07-12T18:10:00+07:00"
 draft = false
 editor_pick = true
