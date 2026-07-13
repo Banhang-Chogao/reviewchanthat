@@ -1,0 +1,8 @@
+{{- /* Affiliate CTA button → Trip.com. Optional positional arg 0 = custom text. */ -}}
+{{- $text := .Get 0 | default "Đặt phòng & vé giá tốt trên Trip.com →" -}}
+<div class="trip-cta">
+  <a class="trip-cta__btn" href="https://www.trip.com/t/Xpg1T4dYUV2" target="_blank" rel="sponsored nofollow noopener" aria-label="{{ $text }} (liên kết tài trợ)">
+    <span class="trip-cta__tag">Tài trợ</span>
+    <span class="trip-cta__text">{{ $text }}</span>
+  </a>
+</div>

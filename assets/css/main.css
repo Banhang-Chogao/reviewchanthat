@@ -1406,3 +1406,11 @@ html.dark-mode .sponsored-hotel__text{color:#e8f7f6;}
 .adblock-cta__text{margin:0;font-size:.86rem;line-height:1.5;color:var(--text-secondary);}
 .adblock-cta__text strong{color:var(--amber);}
 html.dark-mode .adblock-cta{background:rgba(232,168,56,.10);border-color:rgba(232,168,56,.4);}
+
+/* Trip.com affiliate CTA button (shortcode trip-cta) */
+.trip-cta{margin:1.6rem 0;}
+.trip-cta__btn{position:relative;display:flex;align-items:center;justify-content:center;gap:.6rem;width:100%;padding:1rem 1.4rem;background:linear-gradient(135deg,var(--accent),var(--accent-hover));color:#fff;font-weight:800;font-size:1.05rem;line-height:1.3;text-align:center;text-decoration:none;border-radius:var(--radius-md);box-shadow:var(--shadow-card);transition:transform .2s,box-shadow .2s,filter .2s;}
+.trip-cta__btn:hover{transform:translateY(-2px);box-shadow:var(--shadow-card-hover);filter:brightness(1.05);}
+.trip-cta__text{color:#fff;}
+.trip-cta__tag{position:absolute;top:6px;right:10px;font-size:.56rem;letter-spacing:.06em;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.8);}
+@media(max-width:480px){.trip-cta__btn{font-size:.96rem;padding:.9rem 1rem;}}
