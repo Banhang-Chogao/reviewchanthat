@@ -2,6 +2,8 @@
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
 seo_title = "Bắc Cực Quang Ở Scandinavia: Hướng Dẫn Xem Aurora"
 date = "2026-07-11T16:06:05+07:00"
+slug = "bac-cuc-quang-aurora-scandinavia-dem"
+aliases = ["/posts/bắc-cực-quang-hiện-tượng-thiên-nhiên-thần-kỳ-ở-scandinavia-trong-những-đêm-tối/"]
 draft = false
 description = "Hướng dẫn xem bắc cực quang (aurora) ở Scandinavia: thời điểm tốt nhất, địa điểm lý tưởng và cách chuẩn bị để ngắm hiện tượng thiên nhiên đẹp nhất thế giới."
 image = "images/posts/bac-cuc-quang-aurora-scandinavia-dem.webp"

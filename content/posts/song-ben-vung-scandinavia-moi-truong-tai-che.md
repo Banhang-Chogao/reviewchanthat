@@ -2,6 +2,8 @@
 title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
 seo_title = "Sống bền vững ở Scandinavia: tái chế và lối sống xanh Bắc Âu"
 date = "2026-07-11T16:06:05+07:00"
+slug = "song-ben-vung-scandinavia-moi-truong-tai-che"
+aliases = ["/posts/sống-bền-vững-ở-scandinavia-cách-bắc-âu-chăm-sóc-hành-tinh-từ-từng-chi-tiết-nhỏ/"]
 draft = false
 description = "Triết lý sống bền vững ở Scandinavia: từ tái chế, năng lượng tái tạo đến thiết kế tối giản, khám phá vì sao Bắc Âu dẫn đầu bảo vệ môi trường toàn cầu."
 image = "images/posts/song-ben-vung-scandinavia-moi-truong-tai-che.webp"

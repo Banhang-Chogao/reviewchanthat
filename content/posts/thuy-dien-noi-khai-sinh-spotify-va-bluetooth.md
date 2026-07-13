@@ -2,6 +2,8 @@
 title = "Từ Spotify Đến Bluetooth: Thụy Điển Đã Thống Trị Thế Giới Công Nghệ Ngầm Như Thế Nào?"
 seo_title = "Thụy Điển: Nơi Khai Sinh Spotify Và Bluetooth"
 date = "2026-07-11T14:44:58+07:00"
+slug = "thuy-dien-noi-khai-sinh-spotify-va-bluetooth"
+aliases = ["/posts/từ-spotify-đến-bluetooth-thụy-điển-đã-thống-trị-thế-giới-công-nghệ-ngầm-như-thế-nào/"]
 draft = false
 description = "Vì sao Thụy Điển - quốc gia 10 triệu dân - sản sinh Spotify, Bluetooth, Tetra Pak và dây đai an toàn Volvo? Bí quyết hệ sinh thái startup Stockholm."
 image = "images/posts/thuy-dien-noi-khai-sinh-spotify-va-bluetooth.webp"

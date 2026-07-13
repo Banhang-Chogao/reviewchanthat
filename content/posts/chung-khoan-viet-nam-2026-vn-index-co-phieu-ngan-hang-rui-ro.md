@@ -1,6 +1,8 @@
 +++
 title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
 date = "2026-07-10T06:30:00+07:00"
+slug = "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro"
+aliases = ["/posts/chứng-khoán-việt-nam-2026-người-mới-nên-theo-dõi-vn-index-cổ-phiếu-ngân-hàng-và-rủi-ro-nào/"]
 date_display = "10-07-2026 06:30:00 GMT +7"
 commit = "b6fb0a55"
 categories = ["tai-chinh"]

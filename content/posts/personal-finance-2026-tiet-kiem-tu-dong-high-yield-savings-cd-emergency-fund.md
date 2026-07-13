@@ -1,6 +1,8 @@
 +++
 title = "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?"
 date = "2026-07-10T06:00:00+07:00"
+slug = "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund"
+aliases = ["/posts/personal-finance-2026-tiết-kiệm-tự-động-high-yield-savings-cd-và-emergency-fund-là-gì/"]
 date_display = "10-07-2026 06:00:00 GMT +7"
 commit = "b6fb0a55"
 categories = ["tai-chinh"]

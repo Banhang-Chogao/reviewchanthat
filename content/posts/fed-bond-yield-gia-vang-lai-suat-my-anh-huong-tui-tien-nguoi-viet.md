@@ -1,6 +1,8 @@
 +++
 title = "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?"
 date = "2026-07-10T03:30:00+07:00"
+slug = "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet"
+aliases = ["/posts/fed-lãi-suất-giá-vàng-bond-yield-mỹ-ảnh-hưởng-ví-tiền-người-việt-như-thế-nào/"]
 date_display = "10-07-2026 03:30:00 GMT +7"
 commit = "b6fb0a55"
 categories = ["tai-chinh"]

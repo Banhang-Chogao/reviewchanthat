@@ -1,6 +1,8 @@
 +++
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
 date = "2026-07-10T04:00:00+07:00"
+slug = "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai"
+aliases = ["/posts/vpbank-neo-review-2026-app-ngân-hàng-số-này-hợp-với-ai/"]
 date_display = "10-07-2026 04:00:00 GMT +7"
 commit = "b6fb0a55"
 categories = ["tai-chinh"]

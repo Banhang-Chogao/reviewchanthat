@@ -2,6 +2,8 @@
 title = "Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo"
 seo_title = "Ký Sự Stockholm: Thủ Đô Xanh Trên 14 Hòn Đảo"
 date = "2026-07-11T14:44:57+07:00"
+slug = "ky-su-stockholm-thanh-pho-tren-nhung-hon-dao"
+aliases = ["/posts/ký-sự-stockholm-hành-trình-khám-phá-thủ-đô-xanh-vắt-qua-14-hòn-đảo/"]
 draft = false
 description = "Ký sự du lịch Stockholm mùa hè - khám phá thủ đô xanh Bắc Âu trên 14 hòn đảo: tàu điện ngầm nghệ thuật, Gamla Stan và kinh nghiệm tự túc."
 image = "images/posts/ky-su-stockholm-thanh-pho-tren-nhung-hon-dao.webp"

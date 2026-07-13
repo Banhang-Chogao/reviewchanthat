@@ -1,6 +1,8 @@
 +++
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
 date = "2026-07-10T05:00:00+07:00"
+slug = "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau"
+aliases = ["/posts/ai-stocks-là-gì-cổ-phiếu-ai-chip-và-tác-động-thị-trường-toàn-cầu-lên-việt-nam/"]
 date_display = "10-07-2026 05:00:00 GMT +7"
 commit = "b6fb0a55"
 categories = ["tai-chinh"]

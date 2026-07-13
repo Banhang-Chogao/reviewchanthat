@@ -1,6 +1,8 @@
 +++
 title = "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026"
 date = "2026-07-10T09:50:57+07:00"
+slug = "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026"
+aliases = ["/posts/momo-zalopay-hay-shopeepay-ví-điện-tử-nào-phù-hợp-nhất-năm-2026/"]
 date_display = "10-07-2026 09:50:57 GMT +7"
 commit = "b6fb0a55"
 categories = ["tai-chinh"]

@@ -1,6 +1,8 @@
 +++
 title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
 date = "2026-07-10T00:15:00+07:00"
+slug = "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan"
+aliases = ["/posts/biến-bài-blog-thành-video-tiktok-chiến-lược-cắt-nội-dung-để-xây-dựng-thương-hiệu-cá-nhân-bền-vững/"]
 date_display = "10-07-2026 00:15:00 GMT +7"
 commit = "b6fb0a55"
 categories = ["cong-nghe"]

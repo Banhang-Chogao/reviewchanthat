@@ -2,6 +2,8 @@
 title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
 seo_title = "Stockholm: thành phố nổi giữa 14 hòn đảo và công nghệ"
 date = "2026-07-11T16:06:05+07:00"
+slug = "stockholm-thua-dien-gamlastan-bien"
+aliases = ["/posts/stockholm-thành-phố-nổi-giữa-mười-bốn-hòn-đảo-và-những-công-nghệ-tương-lai/"]
 draft = false
 description = "Khám phá Stockholm, thủ đô Thụy Điển: phố cổ Gamla Stan lát đá, các công ty công nghệ hàng đầu và những hòn đảo tuyệt đẹp — 'Venice của Bắc Âu'."
 image = "images/posts/stockholm-thua-dien-gamlastan-bien.webp"

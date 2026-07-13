@@ -1,6 +1,8 @@
 +++
 title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
 date = "2026-07-11T16:06:05+07:00"
+slug = "thiet-ke-nordic-toida-gian-noi-that"
+aliases = ["/posts/thiết-kế-nordic-triết-lý-tối-giản-và-chức-năng-từ-bắc-âu/"]
 draft = false
 description = "Khám phá triết lý thiết kế Nordic tối giản và chức năng từ Bắc Âu: từ IKEA đến các nhà thiết kế Scandinavia và cách áp dụng vào không gian sống của bạn."
 image = "images/posts/thiet-ke-nordic-toida-gian-noi-that.webp"

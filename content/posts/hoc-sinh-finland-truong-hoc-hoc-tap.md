@@ -2,6 +2,8 @@
 title = "Hệ Thống Giáo Dục Phần Lan: Lý Do Tại Sao Phần Lan Có Những Sinh Viên Thông Minh Nhất Thế Giới"
 seo_title = "Hệ Thống Giáo Dục Phần Lan: Vì Sao Học Sinh Xuất Sắc?"
 date = "2026-07-11T16:06:05+07:00"
+slug = "hoc-sinh-finland-truong-hoc-hoc-tap"
+aliases = ["/posts/hệ-thống-giáo-dục-phần-lan-lý-do-tại-sao-phần-lan-có-những-sinh-viên-thông-minh-nhất-thế-giới/"]
 draft = false
 description = "Khám phá hệ thống giáo dục Phần Lan: không bài kiểm tra chuẩn hóa, ít bài tập về nhà nhưng học sinh vẫn đạt kết quả xuất sắc nhờ triết lý giáo dục hiệu quả."
 image = "images/posts/hoc-sinh-finland-truong-hoc-hoc-tap.webp"

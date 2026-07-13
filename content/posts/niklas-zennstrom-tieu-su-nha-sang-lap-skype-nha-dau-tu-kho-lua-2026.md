@@ -2,6 +2,8 @@
 title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
 seo_title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype 2026"
 date = "2026-07-11T13:45:00+07:00"
+slug = "niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026"
+aliases = ["/posts/niklas-zennström-tiểu-sử-nhà-sáng-lập-skype-và-nhà-đầu-tư-khó-lường-từ-thụy-điển/"]
 draft = false
 description = "Tiểu sử Niklas Zennström - nhà sáng lập Skype và nhà đầu tư mạo hiểm: từ tuổi thơ Thụy Điển, khởi nghiệp Kazaa đến vai trò trong lĩnh vực bền vững."
 image = "images/posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.webp"

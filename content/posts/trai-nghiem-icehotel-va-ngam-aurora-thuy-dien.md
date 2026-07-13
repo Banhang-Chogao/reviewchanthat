@@ -2,6 +2,8 @@
 title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"
 seo_title = "Icehotel & Săn Bắc Cực Quang Ở Lapland, Thụy Điển"
 date = "2026-07-11T14:44:58+07:00"
+slug = "trai-nghiem-icehotel-va-ngam-aurora-thuy-dien"
+aliases = ["/posts/trải-nghiệm-khách-sạn-băng-icehotel-và-đêm-săn-bắc-cực-quang-vùng-lapland/"]
 draft = false
 description = "Trải nghiệm khách sạn băng Icehotel Jukkasjärvi và săn Bắc Cực Quang tại Abisko, Thụy Điển: thời điểm, chi phí và trang phục cần chuẩn bị."
 image = "images/posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.webp"

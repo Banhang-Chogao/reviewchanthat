@@ -2,6 +2,8 @@
 title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
 description = "Series tổng kết: Từ e^(rt) đến Black-Scholes, Monte Carlo, AI, Renaissance. Học liên kết 15 công thức, ứng dụng thực tế, và tương lai tài chính định lượng."
 date = "2026-07-10T12:45:00+07:00"
+slug = "toan-hoc-dinh-cao-trong-tai-chinh"
+aliases = ["/posts/toán-học-đỉnh-cao-trong-tài-chính-pillar-tổng-kết-15-bài/"]
 commit = "b6fb0a55"
 lastmod = "2026-07-10T12:45:00+07:00"
 seo_title = "Series finale: toán học tài chính đỉnh cao, tổng kết"

@@ -1,6 +1,8 @@
 +++
 title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
 date = "2026-07-10T04:30:00+07:00"
+slug = "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien"
+aliases = ["/posts/techcombank-mobile-review-2026-phí-sinh-lời-tự-động-chuyển-tiền-và-ai-nên-dùng/"]
 date_display = "10-07-2026 04:30:00 GMT +7"
 commit = "b6fb0a55"
 categories = ["tai-chinh"]

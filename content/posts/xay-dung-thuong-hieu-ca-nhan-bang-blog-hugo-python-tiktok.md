@@ -1,6 +1,8 @@
 +++
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
 date = "2026-07-10T00:10:00+07:00"
+slug = "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"
+aliases = ["/posts/xây-dựng-thương-hiệu-cá-nhân-bằng-blog-hugo-và-python-nền-tảng-bền-vững-hơn-khi-kết-hợp-tiktok/"]
 date_display = "10-07-2026 00:10:00 GMT +7"
 commit = "b6fb0a55"
 categories = ["cong-nghe"]

@@ -1,6 +1,8 @@
 +++
 title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
 date = "2026-07-10T09:00:00+07:00"
+slug = "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap"
+aliases = ["/posts/apple-pay-việt-nam-ngân-hàng-nào-hỗ-trợ-cách-thêm-thẻ-và-những-lỗi-thường-gặp/"]
 date_display = "10-07-2026 09:00:00 GMT +7"
 commit = "b6fb0a55"
 categories = ["tai-chinh"]

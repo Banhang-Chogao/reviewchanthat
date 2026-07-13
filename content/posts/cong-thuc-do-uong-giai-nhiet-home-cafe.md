@@ -2,6 +2,8 @@
 title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
 seo_title = "Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Hè 2026"
 date = "2026-07-11T11:00:00+07:00"
+slug = "cong-thuc-do-uong-giai-nhiet-home-cafe"
+aliases = ["/posts/xu-hướng-home-cafe-3-công-thức-đồ-uống-giải-nhiệt-cực-hot-hè-2026/"]
 date_display = "11-07-2026 11:00:00 GMT +7"
 commit = "b6fb0a55"
 draft = false

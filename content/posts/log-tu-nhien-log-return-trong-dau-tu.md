@@ -2,6 +2,8 @@
 title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
 description = "Log-return là gì và vì sao quỹ đầu tư, AI tài chính dùng ln(Pt/Pt-1) thay vì simple return? Tìm hiểu công thức, ví dụ cổ phiếu và tính chất cộng dồn."
 date = "2026-07-10T11:00:00+07:00"
+slug = "log-tu-nhien-log-return-trong-dau-tu"
+aliases = ["/posts/log-tự-nhiên-trong-đầu-tư-là-gì-vì-sao-giới-tài-chính-dùng-log-return/"]
 commit = "b6fb0a55"
 lastmod = "2026-07-10T11:00:00+07:00"
 seo_title = "Log-return là gì: công thức ln(Pt/Pt-1) trong đầu tư"

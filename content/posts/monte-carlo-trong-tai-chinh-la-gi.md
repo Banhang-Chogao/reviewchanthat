@@ -2,6 +2,8 @@
 title = "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản"
 description = "Monte Carlo simulation là gì? Tìm hiểu Brownian motion, random sampling, pricing exotic options, VaR và portfolio simulation trong tài chính."
 date = "2026-07-10T12:15:00+07:00"
+slug = "monte-carlo-trong-tai-chinh-la-gi"
+aliases = ["/posts/monte-carlo-trong-tài-chính-mô-phỏng-10-triệu-kịch-bản/"]
 commit = "b6fb0a55"
 lastmod = "2026-07-10T12:15:00+07:00"
 seo_title = "Monte Carlo: simulation, Brownian motion, exotic options"

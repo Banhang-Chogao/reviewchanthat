@@ -2,6 +2,8 @@
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
 seo_title = "Du lịch 'may đo' và trải nghiệm bản địa hè 2026"
 date = "2026-07-11T10:45:00+07:00"
+slug = "du-lich-may-do-trai-nghiem-ban-dia"
+aliases = ["/posts/xu-hướng-du-lịch-may-đo-trải-nghiệm-bản-địa-hè-2026-trốn-phố-giải-nhiệt/"]
 date_display = "11-07-2026 10:45:00 GMT +7"
 commit = "b6fb0a55"
 draft = false

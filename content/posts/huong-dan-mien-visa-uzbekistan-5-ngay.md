@@ -2,6 +2,8 @@
 title = "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á"
 seo_title = "Miễn Visa Uzbekistan 5 Ngày Cho Hộ Chiếu Việt Nam"
 date = "2026-07-11T11:15:00+07:00"
+slug = "huong-dan-mien-visa-uzbekistan-5-ngay"
+aliases = ["/posts/kinh-nghiệm-miễn-visa-uzbekistan-5-ngày-lịch-trình-liên-tuyến-3-nước-trung-á/"]
 date_display = "11-07-2026 11:15:00 GMT +7"
 commit = "b6fb0a55"
 draft = false
