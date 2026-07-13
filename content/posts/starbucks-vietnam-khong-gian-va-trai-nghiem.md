@@ -55,6 +55,7 @@ label = "Nguyễn Văn Trỗi"
 
 [[tom_tat_nhanh]]
 label = "Giờ yên"
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
@@ -86,7 +87,6 @@ title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for F
 [[internal_links]]
 ref = "posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com.md"
 title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
-
 +++
 
 Starbucks bán cà phê — nhưng rất nhiều khách trả tiền cho **chỗ ngồi**. Không gian là lý do người ta ở lại ba tiếng với một ly, mở laptop làm việc, hoặc hẹn bạn đọc sách. Bài này mô tả **không gian và trải nghiệm Starbucks Vietnam**, tập trung chi nhánh **Nguyễn Văn Trỗi** mà mình dùng như "văn phòng phụ" khá thường xuyên.

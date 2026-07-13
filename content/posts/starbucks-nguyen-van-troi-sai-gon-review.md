@@ -63,6 +63,7 @@ label = "Ảnh"
 [[internal_links]]
 ref = "posts/xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026.md"
 title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử"
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
@@ -90,7 +91,6 @@ title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
 [[internal_links]]
 ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"
 title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
-
 +++
 
 Có những chi nhánh Starbucks bạn ghé một lần rồi thôi, và có những nơi trở thành điểm quen mỗi tuần. Với mình, **Starbucks Nguyễn Văn Trỗi** (Phú Nhuận, TP.HCM) thuộc nhóm thứ hai — nơi mình đã ngồi làm việc, họp nhóm nhỏ, và gọi ly quen đến mức barista nhận ra trước khi mình kịp đọc tên đồ uống.

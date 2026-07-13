@@ -55,6 +55,7 @@ label = "Mùa hè"
 
 [[tom_tat_nhanh]]
 label = "Ghi chú"
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
@@ -86,7 +87,6 @@ title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for F
 [[internal_links]]
 ref = "posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com.md"
 title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
-
 +++
 
 Đứng trước bảng menu Starbucks lần đầu, nhiều người hơi choáng: tên tiếng Anh dài, size Tall-Grande-Venti, và hàng chục lựa chọn syrup. Bài này gom lại những đồ uống mình thấy **đáng thử** tại Starbucks Vietnam — dựa trên kinh nghiệm gọi tại nhiều chi nhánh, đặc biệt **Nguyễn Văn Trỗi** nơi chất lượng pha chế khá ổn định.
