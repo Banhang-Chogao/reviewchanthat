@@ -64,6 +64,38 @@ label = "Đối tác"
 
 [[tom_tat_nhanh]]
 label = "Series"
+[[internal_links]]
+ref = "posts/starbucks-nguyen-van-troi-sai-gon-review.md"
+title = "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-menu-do-uong-nen-thu.md"
+title = "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-khong-gian-va-trai-nghiem.md"
+title = "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm 'third place'"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-nhan-vien-va-dich-vu.md"
+title = "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt"
+
+[[internal_links]]
+ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
+title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
+
+[[internal_links]]
+ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"
+title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
+
+[[internal_links]]
+ref = "posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com.md"
+title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
+
 +++
 
 Nếu bạn từng đứng trước quầy Starbucks ở Sài Gòn, gọi một ly Caramel Macchiato rồi ngồi nhìn dòng xe qua lại, có lẽ ít ai nghĩ thương hiệu này mới chỉ có mặt tại Việt Nam hơn một thập kỷ. Với nhiều người trẻ, Starbucks không chỉ là quán cà phê — mà là không gian làm việc, chỗ hẹn bạn bè, hoặc điểm dừng chân ngắn giữa các cuộc họp.

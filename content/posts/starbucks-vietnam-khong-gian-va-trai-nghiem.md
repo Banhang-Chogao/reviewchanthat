@@ -55,6 +55,38 @@ label = "Nguyễn Văn Trỗi"
 
 [[tom_tat_nhanh]]
 label = "Giờ yên"
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-nhan-vien-va-dich-vu.md"
+title = "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt"
+
+[[internal_links]]
+ref = "posts/starbucks-nguyen-van-troi-sai-gon-review.md"
+title = "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-menu-do-uong-nen-thu.md"
+title = "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.md"
+title = "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam"
+
+[[internal_links]]
+ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
+title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
+
+[[internal_links]]
+ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"
+title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
+
+[[internal_links]]
+ref = "posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com.md"
+title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
+
 +++
 
 Starbucks bán cà phê — nhưng rất nhiều khách trả tiền cho **chỗ ngồi**. Không gian là lý do người ta ở lại ba tiếng với một ly, mở laptop làm việc, hoặc hẹn bạn đọc sách. Bài này mô tả **không gian và trải nghiệm Starbucks Vietnam**, tập trung chi nhánh **Nguyễn Văn Trỗi** mà mình dùng như "văn phòng phụ" khá thường xuyên.
