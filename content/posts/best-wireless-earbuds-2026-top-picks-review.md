@@ -1,7 +1,7 @@
 +++
 title = "Best Wireless Earbuds 2026: Top Picks for Every Budget — Real-World Tested"
 seo_title = "Best Wireless Earbuds 2026 Reviewed — Which One Should You Buy?"
-commit = ""
+commit = "b7de43aa"
 date = "2026-07-14T01:48:45+07:00"
 slug = "best-wireless-earbuds-2026-top-picks-review"
 draft = false
