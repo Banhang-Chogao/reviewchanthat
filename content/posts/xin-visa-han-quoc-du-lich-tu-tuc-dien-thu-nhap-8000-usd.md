@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-09T04:00:00+07:00"
-commit = "963356b9"
+commit = "25880a45"
 description = "Kinh nghiệm xin visa Hàn Quốc du lịch tự túc theo diện thu nhập trên 8.000 USD/năm: hồ sơ tài chính cần chuẩn bị, cách chứng minh và lưu ý khi nộp."
 draft = false
 image = "images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp"

@@ -1,7 +1,7 @@
 +++
 title = "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè"
 seo_title = "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ"
-commit = "53131412"
+commit = "25880a45"
 date = "2026-07-11T12:10:00+07:00"
 slug = "xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu"
 aliases = ["/posts/mouth-tape-có-tốt-không-tác-hại-thở-miệng-khi-ngủ-mẹo-làm-mát-phòng-hè/"]

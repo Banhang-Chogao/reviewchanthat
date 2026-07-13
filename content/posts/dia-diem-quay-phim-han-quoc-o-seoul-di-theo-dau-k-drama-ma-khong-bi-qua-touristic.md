@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "963356b9"
+commit = "25880a45"
 description = "Địa điểm quay phim Hàn Quốc ở Seoul từ Vincenzo, Reborn Rich: Sewoon Arcade, Common Ground, Baek In-je House. Lịch trình và mẹo check-in."
 draft = false
 image = "images/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.webp"

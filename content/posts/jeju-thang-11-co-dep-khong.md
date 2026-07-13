@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T21:00:00+07:00"
-commit = "963356b9"
+commit = "25880a45"
 description = "Jeju tháng 11 có đẹp không? Thời tiết lạnh, gió mạnh, Hallasan và lịch trình 3 ngày cho người đi lần đầu."
 image = "images/posts/jeju-thang-11-co-dep-khong.webp"
 image_attribution_checked_at = "2026-07-11T17:30:30+07:00"

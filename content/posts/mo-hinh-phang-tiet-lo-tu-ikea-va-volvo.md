@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh", "du-lich"]
-commit = "798285d5"
+commit = "25880a45"
 date = "2026-07-11T10:00:00+07:00"
 description = "phân tích mô hình quản lý phẳng của Thụy Điển qua câu chuyện IKEA và Volvo, cùng bài học văn hóa doanh nghiệp Bắc Âu áp dụng cho doanh nghiệp Việt."
 draft = false

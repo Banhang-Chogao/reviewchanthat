@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:40:00+07:00"
-commit = "963356b9"
+commit = "25880a45"
 description = "DMA mang lại gì cho nhà phát triển app ở EU: phân phối thay thế, giảm commission, anti-steering, analytics mở rộng — và chi phí CTF Apple đặt ra để cân bằng."
 draft = false
 image = "images/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.webp"

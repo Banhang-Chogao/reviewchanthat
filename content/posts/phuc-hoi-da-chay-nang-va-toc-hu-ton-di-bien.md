@@ -1,7 +1,7 @@
 +++
 title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
 seo_title = "Phục hồi da cháy nắng cấp tốc và tóc xơ rối sau đi biển"
-commit = "53131412"
+commit = "25880a45"
 date = "2026-07-11T12:20:00+07:00"
 slug = "phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien"
 aliases = ["/posts/cách-phục-hồi-da-bị-cháy-nắng-cấp-tốc-tóc-xơ-rối-sau-khi-đi-biển/"]

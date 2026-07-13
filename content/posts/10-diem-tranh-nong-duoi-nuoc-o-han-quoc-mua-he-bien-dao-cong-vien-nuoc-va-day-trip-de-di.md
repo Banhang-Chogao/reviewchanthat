@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "ed485220"
+commit = "25880a45"
 description = "Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm   đi"
 draft = false
 image = "images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp"

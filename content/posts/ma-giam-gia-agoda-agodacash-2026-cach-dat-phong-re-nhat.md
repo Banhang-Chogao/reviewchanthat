@@ -1,7 +1,7 @@
 +++
 title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
 seo_title = "Mã giảm giá & AgodaCash 2026: đặt Agoda rẻ nhất"
-commit = "2f7f87f1"
+commit = "25880a45"
 date = "2026-07-13T14:08:00+07:00"
 draft = false
 author = "Minh Hoàng"

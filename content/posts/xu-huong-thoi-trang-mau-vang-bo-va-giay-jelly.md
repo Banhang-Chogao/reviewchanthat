@@ -1,7 +1,7 @@
 +++
 title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
 seo_title = "Xu hướng hè 2026: phối đồ màu vàng bơ và phụ kiện jelly"
-commit = "53131412"
+commit = "25880a45"
 date = "2026-07-11T11:20:00+07:00"
 slug = "xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly"
 aliases = ["/posts/xu-hướng-hè-2026-cách-phối-đồ-màu-vàng-bơ-tôn-da-và-phụ-kiện-jelly-cực-chất/"]
