@@ -58,6 +58,7 @@
   - **Bản quyền & Ghi nguồn** ← `[attribution]` (`copyright`, `source_note`)
   - **TUYỆT ĐỐI KHÔNG hardcode** các heading/nội dung này trong thân bài viết (`.md` body). Không viết tay `## FAQ`, `## Liên kết nội bộ`, `## Bản quyền`... trong body. Chỉ điền dữ liệu vào front matter, macro tự render.
   - Nếu lỡ hardcode → **move nội dung hardcode đó vào đúng field front matter tương ứng** rồi xóa khỏi body. Dùng script: `python3 scripts/move_hardcoded_footer_sections.py --fix` (scan-only nếu bỏ `--fix`). Việc dọn nợ hàng loạt phải làm ở PR `qa-debt-fix` riêng, không gộp vào deploy tính năng khác.
+- **`[[internal_links]]` trong front matter PHẢI được đề cập trong body bài viết.** Macro `post-footer.html` render label "Liên kết nội bộ được sử dụng trong bài viết" — nếu link không xuất hiện trong body (dạng markdown link `](...)` hoặc slug/title trong nội dung), coi là spam. Script `scripts/strip_unused_internal_links.py --write` tự động xoá các entry không có trong body. Deployment doctor bắt ở Rule 14 (`unused_internal_links`, severity WARNING) và Fix 5 tự động chạy trong `--fix-all`.
 - **TUYỆT ĐỐI CẤM `![[IMAGE_API_QUERY:...]]` markers trong nội dung bài viết.** Không được viết, không được giữ lại, không được coi là placeholder tạm thời. Đây là marker chết — không script nào xử lý, không tự động replace. Nếu marker còn sót trong file `.md` khi push, coi như lỗi nghiêm trọng, phải fix ngay. Ảnh minh họa inline chỉ được chèn bằng Markdown `![](...)` thủ công với URL ảnh thật.
 - **Ảnh inline (`![](/images/posts/<slug>-inline.webp)`) resolve qua render hook, KHÔNG hardcode baseURL.** Site chạy dưới subpath `/reviewchanthat/`; hook `layouts/_default/_markup/render-image.html` (trim `/` đầu rồi `relURL`) tự thêm baseURL đúng cho cả production lẫn local dev. Vì vậy body cứ viết path gốc-tuyệt-đối `/images/posts/...` như bình thường — **đừng** tự chèn `/reviewchanthat/` vào body (sẽ hỏng khi dev local). Nếu hook bị xóa, ảnh inline toàn site 404. Kiểm tra bằng `python3 scripts/qa_inline_images.py` (xem Failure #11). Khi verify live phải soi `<img src>` trong HTML có `/reviewchanthat/`, không chỉ curl file ảnh thấy 200.
 
@@ -99,20 +100,23 @@ grep -r "!\[\[IMAGE_API_QUERY:" content/posts/
 # 8. Verify no placeholder links
 grep -r "/posts/placeholder-" content/posts/
 
-# 9. Check for hardcoded footer sections (macro bypass)
+# 9. Check for unused [[internal_links]] (not referenced in body)
+python3 scripts/strip_unused_internal_links.py --dry-run
+
+# 10. Check for hardcoded footer sections (macro bypass)
 python3 scripts/move_hardcoded_footer_sections.py || echo "⚠ Run ':hard9' to fix"
 
-# 10. Check for empty .md files (0 bytes — breaks Hugo build)
+# 11. Check for empty .md files (0 bytes — breaks Hugo build)
 if [ "$(find content/posts/ -name "*.md" -empty | wc -l)" -ne 0 ]; then
   echo "⚠ Found empty .md files, auto-deleting..."
   find content/posts/ -name "*.md" -empty -delete
 fi
 
-# 11. Count posts with commit hashes
+# 12. Count posts with commit hashes
 echo "Total posts: $(ls content/posts/*.md | wc -l)"
 echo "Posts with commit hash: $(grep -l "^commit = " content/posts/*.md | wc -l)"
 
-# 11. Verify inline images resolve (render-image hook present + no missing files)
+# 13. Verify inline images resolve (render-image hook present + no missing files)
 python3 scripts/qa_inline_images.py
 ```
 
@@ -307,8 +311,9 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 7. **No placeholder links** - Only link to existing posts
 8. **No IMAGE_API_QUERY** - Remove all markers before push
 9. **Footer macro only** - `[[internal_links]]`, `[[external_links]]`, `[[faq]]`, `[attribution]` chỉ trong front matter, cấm hardcode body. Chạy `:hard9` hoặc `move_hardcoded_footer_sections.py --fix` trước push
-10. **Deploy one at a time** - 30s minimum between pushes
-11. **Force-add WebP images** - `git add -f static/images/posts/<slug>.webp`
+10. **Internal links must be in body** - `[[internal_links]]` trỏ đến bài viết phải được nhắc đến trong body. Chạy `strip_unused_internal_links.py --write` để tự động xoá link không dùng.
+11. **Deploy one at a time** - 30s minimum between pushes
+12. **Force-add WebP images** - `git add -f static/images/posts/<slug>.webp`
 
 ## Deploy Failure SLA
 
@@ -328,5 +333,6 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 | Missing render-image hook | Pre-deploy | ✅ Yes | < 1 min |
 | Empty/0-byte .md file | Pre-deploy | ✅ Yes | < 1 min |
 | Hardcoded footer sections (macro bypass) | Pre-deploy | ✅ Yes | < 1 min |
+| Unused internal links (not in body) | Pre-deploy | ✅ Yes | < 1 min |
 
 **Goal: 0 deploy failures** through automated pre-deploy validation.

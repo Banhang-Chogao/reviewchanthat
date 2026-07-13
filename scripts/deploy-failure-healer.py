@@ -268,6 +268,44 @@ class DeployFailureHealer:
                     'line': None
                 })
 
+        # Rule 14: Check for [[internal_links]] NOT referenced in body
+        # Macro post-footer.html renders them as "Liên kết nội bộ được sử
+        # dụng trong bài viết" — they must actually appear in body text.
+        import tomllib as _tl
+        fm_parsed = re.search(r'^\+{3}\s*$(.*?)^\+{3}\s*$', content, re.MULTILINE | re.DOTALL)
+        if fm_parsed:
+            try:
+                fm_data = _tl.loads(fm_parsed.group(1))
+                ilinks = fm_data.get('internal_links', [])
+                if ilinks:
+                    body_text_local = content[fm_parsed.end():]
+                    unused = []
+                    for link in ilinks:
+                        ref = link.get('ref', '')
+                        title = link.get('title', '')
+                        slug = ref.replace('posts/', '').replace('.md', '') if ref else ''
+                        tc = re.sub(r'^(Pillar|Series|Bài)\s*:\s*', '', title).strip() if title else ''
+                        used = False
+                        if ref and (f'](/{ref})' in body_text_local or f']({ref})' in body_text_local):
+                            used = True
+                        if slug and slug in body_text_local:
+                            used = True
+                        if len(tc) > 15 and tc in body_text_local:
+                            used = True
+                        if not used:
+                            unused.append((ref, title))
+                    if unused:
+                        issues.append({
+                            'file': filename,
+                            'type': 'unused_internal_links',
+                            'severity': 'WARNING',
+                            'message': f'{len(unused)} [[internal_links]] not referenced in body',
+                            'fix': 'Run: python3 scripts/strip_unused_internal_links.py  (Rule 14)',
+                            'line': None
+                        })
+            except _tl.TOMLDecodeError:
+                pass
+
         # Rule 10: Check inline images point to real files on disk.
         # Inline body images (![](...images/posts/x.webp)) resolve to a webp under
         # static/images/posts/. If the file is missing, the image renders broken on
@@ -342,7 +380,7 @@ class DeployFailureHealer:
             content = re.sub(r'!\[\[IMAGE_API_QUERY:[^\]]*\]\]', '', content)
             fixes_applied.append('✓ Removed dead IMAGE_API_QUERY markers')
 
-        # Fix 5: Move hardcoded footer sections to front matter
+        # Fix 6: Move hardcoded footer sections to front matter
         # Run the dedicated script — it handles all edge cases (section detection,
         # content extraction, front matter merging). This is a batch fix; any
         # genuinely unparseable sections (e.g. compact FAQ in body) are left
@@ -480,6 +518,15 @@ def main():
                     print(f"✓ {filepath.name}")
                     for fix in fixes:
                         print(f"  {fix}")
+
+            # Rule 14: Strip unused [[internal_links]] across all posts
+            print("\n🔗 Scanning for unused [[internal_links]] (Rule 14)...")
+            ilink_result = subprocess.run(
+                ['python3', 'scripts/strip_unused_internal_links.py', '--write'],
+                capture_output=True, text=True, cwd=str(REPO_ROOT)
+            )
+            print(ilink_result.stdout.strip())
+
             print(f"\n✅ Fixed {fixed_count} post(s)")
 
 if __name__ == '__main__':
