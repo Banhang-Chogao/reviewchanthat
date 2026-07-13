@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:00:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "Mỗi năm sau WWDC, cộng đồng Mac Việt Nam lại hỏi cùng một câu: có đáng lên macOS mới không, hay cứ ở bản cũ cho ổn định? Năm nay câu hỏi còn gay cấn hơn vì"
 draft = false
 image = "images/posts/macos-27-co-gi-moi.webp"

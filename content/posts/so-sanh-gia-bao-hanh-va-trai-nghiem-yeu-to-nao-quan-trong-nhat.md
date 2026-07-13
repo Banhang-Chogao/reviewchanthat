@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review", "tai-chinh"]
 date = "2026-06-25T10:00:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo hành tốt và trải nghiệm sử dụng. Bài viết này giúp bạn xác định ưu tiên."
 draft = false
 image = "images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp"

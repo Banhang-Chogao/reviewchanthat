@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T08:40:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "Apple Intelligence trên iOS 27: Siri AI, yêu cầu phần cứng iPhone, tiếng Việt và giới hạn thực tế cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-apple-intelligence-iphone-cu.webp"

@@ -1,7 +1,7 @@
 +++
 title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
 seo_title = "Lịch Sử Atomico: Từ Ý Tưởng 2010 Đến Quỹ Đầu Tư Tỷ USD"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-11T14:15:00+07:00"
 slug = "lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay"
 aliases = ["/posts/lịch-sử-thành-lập-và-phát-triển-atomico-từ-một-ý-tưởng-năm-2010-đến-quỹ-đầu-tư-tỷ-usd/"]

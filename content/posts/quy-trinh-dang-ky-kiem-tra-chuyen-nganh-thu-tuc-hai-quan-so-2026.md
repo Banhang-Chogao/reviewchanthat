@@ -1,7 +1,7 @@
 +++
 title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
 seo_title = "Thủ Tục Hải Quan Số Và Kiểm Tra Chuyên Ngành 2026"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-11T06:00:00+07:00"
 slug = "quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026"
 aliases = ["/posts/quy-trình-đăng-ký-kiểm-tra-chuyên-ngành-và-thủ-tục-hải-quan-số-mới-nhất-2026/"]

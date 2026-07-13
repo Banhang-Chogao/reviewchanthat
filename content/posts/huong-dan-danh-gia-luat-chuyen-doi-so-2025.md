@@ -1,7 +1,7 @@
 +++
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
 seo_title = "Luật Chuyển đổi số 2025: doanh nghiệp cần chuẩn bị gì?"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-11T11:30:00+07:00"
 draft = false
 author = "Minh Hoàng"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-09T08:00:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026 cho người đi tự túc: thời tiết, nên đi Seoul, Busan hay Jeju, mặc gì, lịch trình gợi ý và lưu ý mùa mưa."
 draft = false
 image = "images/posts/goi-y-du-lich-han-quoc-thang-7-2026.webp"

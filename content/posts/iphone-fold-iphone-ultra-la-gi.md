@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung Quốc cũng có dòng fold riêng. Apple chưa từng công bố iPhone gập — nhưng từ 2024–2026"
 draft = false
 image = "images/posts/iphone-fold-iphone-ultra-la-gi.webp"

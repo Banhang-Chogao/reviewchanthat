@@ -1,7 +1,7 @@
 +++
 title = "Làm sao thoát Vim? Giải mã meme huyền thoại và hướng dẫn thoát Vim đúng cách"
 seo_title = "Làm sao thoát Vim? Giải mã meme và cách thoát đúng"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-12T18:30:00+07:00"
 draft = false
 description = "Làm sao thoát Vim? Giải mã meme huyền thoại của giới lập trình và hướng dẫn thoát Vim đúng cách: q, q!, wq, ZZ và vì sao Vim lại khó thoát đến vậy."

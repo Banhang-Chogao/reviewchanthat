@@ -2,14 +2,14 @@
 title = "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z"
 seo_title = "Quản lý tài chính cá nhân 2026 cho người mới đi làm"
 commit = "89837be3"
-date = "2026-07-13T23:42:27+07:00"
+date = "2026-07-13T23:44:27+07:00"
 slug = "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026"
 draft = false
 categories = ["tai-chinh"]
 tags = ["tài chính cá nhân", "quản lý tiền bạc", "tiết kiệm", "đầu tư", "người mới đi làm"]
 description = "Hướng dẫn quản lý tài chính cá nhân cho người mới đi làm năm 2026: cách lập ngân sách, tiết kiệm, đầu tư và tránh nợ xấu dựa trên kinh nghiệm thực tế."
 author = "Reviewchanthat"
-date_display = "13-07-2026 23:42:27 GMT +7"
+date_display = "13-07-2026 23:44:27 GMT +7"
 image = "images/posts/quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026.webp"
 thumbnail = "images/posts/quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026.webp"
 image_source = "Pexels"

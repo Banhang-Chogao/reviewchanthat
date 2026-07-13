@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review", "doi-song"]
 date = "2026-06-20T14:00:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tránh hối hận sau khi nhận hàng."
 draft = false
 image = "images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp"

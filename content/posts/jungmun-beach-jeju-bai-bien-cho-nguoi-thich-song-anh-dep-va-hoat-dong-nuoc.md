@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "Jungmun Beach Jeju là bãi biển hình mũi tên ở khu nghỉ dưỡng Jungmun, nổi tiếng với hoạt động thể thao nước, resort cao cấp và view biển xanh."
 draft = false
 image = "images/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.webp"

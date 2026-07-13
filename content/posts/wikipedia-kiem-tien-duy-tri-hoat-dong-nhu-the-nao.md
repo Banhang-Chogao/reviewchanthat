@@ -1,7 +1,7 @@
 +++
 title = "Wikipedia kiếm tiền để duy trì hoạt động như thế nào? Mô hình tài chính của bách khoa toàn thư mở"
 seo_title = "Wikipedia kiếm tiền thế nào? Mô hình tài chính phi lợi nhuận"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-12T19:20:00+07:00"
 draft = false
 description = "Wikipedia kiếm tiền thế nào: quyên góp nhỏ từ độc giả, tài trợ, Wikimedia Enterprise và quỹ Endowment — mô hình phi lợi nhuận, không quảng cáo."

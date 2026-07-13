@@ -1,7 +1,7 @@
 +++
 title = "Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng"
 seo_title = "Phần Lan Xanh: Công Nghệ Sạch & Kinh Tế Tuần Hoàn"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-11T16:06:05+07:00"
 slug = "phan-lan-xanh-03"
 aliases = ["/posts/phần-lan-tiên-phong-bảo-vệ-môi-trường-công-nghệ-sạch-kinh-tế-tuần-hoàn-và-quản-lý-rừng/"]

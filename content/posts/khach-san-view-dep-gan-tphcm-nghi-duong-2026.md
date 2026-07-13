@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp gần TP.HCM 2026: Review & Kinh nghiệm chọn"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-12T13:45:00+07:00"
 draft = false
 editor_pick = true

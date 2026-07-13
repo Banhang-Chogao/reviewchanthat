@@ -1,7 +1,7 @@
 +++
 title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
 seo_title = "Reputable Hotels in Ho Chi Minh City: 2026 Visitor Guide"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-12T21:40:00+07:00"
 draft = false
 post_lang = "en"

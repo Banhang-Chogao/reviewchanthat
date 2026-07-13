@@ -1,7 +1,7 @@
 +++
 title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
 seo_title = "Đặt phòng Agoda có an toàn không? rủi ro & cách tránh"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-13T14:10:00+07:00"
 draft = false
 author = "Minh Hoàng"

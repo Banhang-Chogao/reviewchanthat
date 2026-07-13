@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "So sánh 5 điểm đi chơi gần Seoul: Incheon Chinatown, Songwol-dong Fairy Tale Village, Wolmido, Gwangmyeong Cave, Caribbean Bay. Lịch trình day trip."
 draft = false
 image = "images/posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.webp"

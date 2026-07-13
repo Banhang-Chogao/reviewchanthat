@@ -1,7 +1,7 @@
 +++
 title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
 seo_title = "Cung Đường Ven Biển Cam Ranh – Vĩnh Hy: Ký Sự Road Trip"
-commit = "ab83f4bd"
+commit = "f576fac5"
 date = "2026-07-11T09:00:00+07:00"
 slug = "phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy"
 aliases = ["/posts/phía-sau-tay-lái-ký-sự-cung-đường-ven-biển-cam-ranh-vĩnh-hy-ngày-nắng-cháy/"]

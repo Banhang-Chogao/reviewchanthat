@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T13:00:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "Busan tháng 10 nên đi đâu? Gợi ý biển, phố đêm, làng văn hóa và lịch trình 2–3 ngày nhẹ nhàng cho chuyến đi mùa thu."
 draft = false
 image = "images/posts/busan-thang-10-nen-di-dau.webp"

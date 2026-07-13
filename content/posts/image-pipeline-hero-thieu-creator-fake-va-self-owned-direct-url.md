@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:30:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "Ghi chú pipeline ảnh: hero thiếu sau khi đổi bài, self-owned direct_url, khi nào creator rỗng là hợp lệ và cách chặn creator giả."
 draft = false
 noindex = true

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "ab83f4bd"
+commit = "f576fac5"
 description = "Cheongsapo Busan là làng chài ven biển gần Haeundae, nước trong xanh, có tàu Blue Line Park chạy dọc bờ biển. Hướng dẫn đi và lịch trình."
 draft = false
 image = "images/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.webp"
