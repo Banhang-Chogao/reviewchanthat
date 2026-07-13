@@ -240,6 +240,34 @@ class DeployFailureHealer:
                     'line': fm_text.count('\n', 0, desc_match.start()) + 2
                 })
 
+        # Rule 13: Check for hardcoded footer sections in body
+        # Footer macro (layouts/partials/post-footer.html) is the SOLE source of truth
+        # for internal_links, external_links, faq, and attribution. Hardcoding them
+        # in the body duplicates content and breaks macro rendering.
+        import subprocess as _sp
+        result = _sp.run(
+            ['python3', 'scripts/move_hardcoded_footer_sections.py'],
+            capture_output=True, text=True, cwd=str(REPO_ROOT)
+        )
+        if result.returncode != 0:
+            # Extract which sections are hardcoded in this specific file
+            hardcoded_in_this = [
+                line for line in result.stdout.split('\n')
+                if line.startswith('HARDCODED') and filename in line
+            ]
+            for line in hardcoded_in_this:
+                # Parse: "HARDCODED filename.md: section_name"
+                parts = line.replace('HARDCODED ', '').split(': ')
+                sec = parts[1] if len(parts) > 1 else 'footer'
+                issues.append({
+                    'file': filename,
+                    'type': 'hardcoded_footer_section',
+                    'severity': 'WARNING',
+                    'message': f'Hardcoded [{sec}] section in body instead of front matter — macro will not render it',
+                    'fix': 'Run: python3 scripts/move_hardcoded_footer_sections.py --fix  (or :hard9)',
+                    'line': None
+                })
+
         # Rule 10: Check inline images point to real files on disk.
         # Inline body images (![](...images/posts/x.webp)) resolve to a webp under
         # static/images/posts/. If the file is missing, the image renders broken on
@@ -313,6 +341,21 @@ class DeployFailureHealer:
         if re.search(r'!\[\[IMAGE_API_QUERY:', content):
             content = re.sub(r'!\[\[IMAGE_API_QUERY:[^\]]*\]\]', '', content)
             fixes_applied.append('✓ Removed dead IMAGE_API_QUERY markers')
+
+        # Fix 5: Move hardcoded footer sections to front matter
+        # Run the dedicated script — it handles all edge cases (section detection,
+        # content extraction, front matter merging). This is a batch fix; any
+        # genuinely unparseable sections (e.g. compact FAQ in body) are left
+        # untouched with a WARN message.
+        footer_fix = subprocess.run(
+            ['python3', 'scripts/move_hardcoded_footer_sections.py', '--fix', '--post', str(filepath)],
+            capture_output=True, text=True, cwd=str(REPO_ROOT)
+        )
+        for line in footer_fix.stdout.split('\n'):
+            if line.startswith('MOVED'):
+                fixes_applied.append(line.replace('MOVED', '✓ Moved'))
+            elif line.startswith('WARN'):
+                fixes_applied.append(line)
 
         # Write back if changes made
         if content != original_content:

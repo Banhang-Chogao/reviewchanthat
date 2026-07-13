@@ -99,13 +99,16 @@ grep -r "!\[\[IMAGE_API_QUERY:" content/posts/
 # 8. Verify no placeholder links
 grep -r "/posts/placeholder-" content/posts/
 
-# 9. Check for empty .md files (0 bytes — breaks Hugo build)
+# 9. Check for hardcoded footer sections (macro bypass)
+python3 scripts/move_hardcoded_footer_sections.py || echo "⚠ Run ':hard9' to fix"
+
+# 10. Check for empty .md files (0 bytes — breaks Hugo build)
 if [ "$(find content/posts/ -name "*.md" -empty | wc -l)" -ne 0 ]; then
   echo "⚠ Found empty .md files, auto-deleting..."
   find content/posts/ -name "*.md" -empty -delete
 fi
 
-# 10. Count posts with commit hashes
+# 11. Count posts with commit hashes
 echo "Total posts: $(ls content/posts/*.md | wc -l)"
 echo "Posts with commit hash: $(grep -l "^commit = " content/posts/*.md | wc -l)"
 
@@ -172,6 +175,21 @@ If any check fails → **STOP** push and run deploy-failure-healer.py.
 **Symptom:** Theme can't render hero
 **Auto-Fix:** `python3 scripts/select_images.py --post content/posts/<slug>.md --fix` — thử Pexels trước, **rate limit → đổi sang Pixabay** (và ngược lại).
 **Prevention:** Image selection is NOT optional — luôn phải CHẠY. Nhưng nếu cả 2 API đều không ra ảnh hợp lệ, bài được phép ship dạng text-first (không ảnh). Không bao giờ fake ảnh để lấp chỗ trống.
+
+### Failure #13: Hardcoded Footer Sections in Body
+
+**Symptom:** Bài viết có `[[internal_links]]`, `[[external_links]]`, `[[faq]]`, `[attribution]` hoặc heading `## Câu hỏi thường gặp` / `## FAQ` / `## Bản quyền` trong **body markdown** (sau `+++` thay vì trong front matter). Macro `layouts/partials/post-footer.html` không đọc được → các section này render raw text, thiếu styling, thiếu cấu trúc.
+
+**Root Cause:** Khi viết bài (thủ công hoặc AI), các section footer được hardcode trực tiếp vào body thay vì điền vào TOML front matter. Điều này xảy ra phổ biến ở template cũ và AI-generated content không tuân thủ quy tắc macro.
+
+**Detection:** `python3 scripts/move_hardcoded_footer_sections.py` (exit code != 0 nếu còn hardcoded sections). 
+**Auto-Fix:** `python3 scripts/move_hardcoded_footer_sections.py --fix` — tự động move nội dung vào front matter đúng field và xóa khỏi body. Nếu có section khó parse (FAQ compact), script báo WARN và bỏ qua để xử lý thủ công.
+
+**Prevention:**
+- **`:hard9`** — phím tắt vĩnh viễn: quét + tự động fix toàn bộ (`~/.zshrc`).
+- **`deploy-failure-healer.py` Rule 13 + Fix 5** — tự động phát hiện và sửa trong pipeline `--fix-all`.
+- Khi viết bài mới: **LUÔN** đặt `[[internal_links]]`, `[[external_links]]`, `[[faq]]`, `[attribution]` trong `+++...+++` (front matter), KHÔNG viết trong body. Macro tự render 4 mục cuối bài.
+- Nếu phát hiện heading `## Câu hỏi thường gặp` / `## Liên kết nội bộ` / `## Liên kết bên ngoài` / `## Bản quyền` trong body → đó là lỗi, phải move ngay.
 
 ### Failure #12: Empty/Zero-Byte .md Files
 **Symptom:** Hugo build fails with "error parsing front matter" or `rule.py --fix` reports "still not TOML" on a post with 0 bytes. CI deploy fails, Autofix on Deploy Failure can't recover.
@@ -288,8 +306,9 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 6. **Vietnam timezone** - Always +07:00, never +05:00 or Z
 7. **No placeholder links** - Only link to existing posts
 8. **No IMAGE_API_QUERY** - Remove all markers before push
-9. **Deploy one at a time** - 30s minimum between pushes
-10. **Force-add WebP images** - `git add -f static/images/posts/<slug>.webp`
+9. **Footer macro only** - `[[internal_links]]`, `[[external_links]]`, `[[faq]]`, `[attribution]` chỉ trong front matter, cấm hardcode body. Chạy `:hard9` hoặc `move_hardcoded_footer_sections.py --fix` trước push
+10. **Deploy one at a time** - 30s minimum between pushes
+11. **Force-add WebP images** - `git add -f static/images/posts/<slug>.webp`
 
 ## Deploy Failure SLA
 
@@ -308,5 +327,6 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 | Broken inline image (missing file) | Pre-deploy | ❌ Manual | N/A |
 | Missing render-image hook | Pre-deploy | ✅ Yes | < 1 min |
 | Empty/0-byte .md file | Pre-deploy | ✅ Yes | < 1 min |
+| Hardcoded footer sections (macro bypass) | Pre-deploy | ✅ Yes | < 1 min |
 
 **Goal: 0 deploy failures** through automated pre-deploy validation.
