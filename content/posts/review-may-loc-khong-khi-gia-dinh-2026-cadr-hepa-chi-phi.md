@@ -16,12 +16,7 @@ date_display = "13-07-2026 23:52:00 GMT +7"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "Máy lọc không khí chỉ đáng mua khi bạn hiểu CADR, diện tích phòng và chi phí thay lọc — không phải khi thấy quảng cáo PM2.5 giảm 99%.",
-  "Với chung cư Việt Nam, ưu tiên HEPA thật (H13 trở lên nếu được chứng minh), CADR phù hợp mét vuông, tiếng ồn ban đêm dưới mức ngủ được, và bộ lọc mua lại được.",
-  "Chi phí sở hữu 2–3 năm (máy + điện + lọc) thường quan trọng hơn giá niêm yết lúc mua.",
-  "Không thay thế được thói quen: đóng cửa khi ô nhiễm ngoài trời, hút bụi định kỳ, giảm nguồn bụi trong nhà.",
-]
+items = ["Máy lọc không khí chỉ đáng mua khi bạn hiểu CADR, diện tích phòng và chi phí thay lọc — không phải khi thấy quảng cáo PM2.5 giảm 99%.", "Với chung cư Việt Nam, ưu tiên HEPA thật (H13 trở lên nếu được chứng minh), CADR phù hợp mét vuông, tiếng ồn ban đêm dưới mức ngủ được, và bộ lọc mua lại được.", "Chi phí sở hữu 2–3 năm (máy + điện + lọc) thường quan trọng hơn giá niêm yết lúc mua.", "Không thay thế được thói quen: đóng cửa khi ô nhiễm ngoài trời, hút bụi định kỳ, giảm nguồn bụi trong nhà."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết thuộc bản quyền tác giả."
