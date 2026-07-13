@@ -8544,7 +8544,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins? — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "even-realities-g2-smart-glasses-review",
+      "title": "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face",
+      "image_id": "img-22e1dd45",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/young-man-using-smartphone-on-a-london-boat-ride-30021808/",
+      "direct_url": "https://images.pexels.com/photos/30021808/pexels-photo-30021808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Miguel González",
+      "creator_url": "https://www.pexels.com/@mikegles",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/even-realities-g2-smart-glasses-review.jpg",
+      "output_path": "static/images/posts/even-realities-g2-smart-glasses-review.webp",
+      "watermark_text": "Source: Pexels / Miguel González",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "even realities g2 smart glasses",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-13T18:01:28.598650+00:00"
+  "generated_at": "2026-07-13T18:12:11.938547+00:00"
 }
