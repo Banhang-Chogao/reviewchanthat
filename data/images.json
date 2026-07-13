@@ -8516,7 +8516,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Gemini 3.5 Pro Launch July 17: 2M Context, Deep Think, Pricing — Everything You Need to Know — nguồn Pixabay",
       "gate_verified": true
+    },
+    {
+      "slug": "ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro",
+      "title": "AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins?",
+      "image_id": "img-94536944",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/a-diagram-of-a-model-25626448/",
+      "direct_url": "https://images.pexels.com/photos/25626448/pexels-photo-25626448.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Google DeepMind",
+      "creator_url": "https://www.pexels.com/@googledeepmind",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro.jpg",
+      "output_path": "static/images/posts/ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro.webp",
+      "watermark_text": "Source: Pexels / Google DeepMind",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "ai model wars july 2026",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins? — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-13T17:22:44.843867+00:00"
+  "generated_at": "2026-07-13T18:01:28.598650+00:00"
 }
