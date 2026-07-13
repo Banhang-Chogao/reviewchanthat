@@ -4,7 +4,7 @@ avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 checklist = ["Xác định động cơ người viết review", "Đọc ít nhất 3-5 nguồn khác nhau", "Tìm chi tiết cụ thể, không tin lời mơ hồ", "Kiểm tra lịch sử tài khoản người viết", "Đọc phần bình luận trước khi quyết định"]
 date = "2026-06-15T10:00:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật, đâu là quảng cáo trá hình."
 draft = false
 image = "images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp"
@@ -61,7 +61,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Mẹo quan trọng"
-image_attribution_checked_at = "2026-07-12T08:48:25+07:00"
+image_attribution_checked_at = "2026-07-14T00:09:11+07:00"
 +++
 
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".

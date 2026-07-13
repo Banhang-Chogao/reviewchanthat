@@ -1,7 +1,7 @@
 +++
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
 seo_title = "Review AirPods Pro 3 2026: Có đáng mua?"
-commit = "0ee71da6"
+commit = "bca28a7e"
 date = "2026-07-13T23:30:00+07:00"
 slug = "review-airpods-pro-3-2026"
 draft = false

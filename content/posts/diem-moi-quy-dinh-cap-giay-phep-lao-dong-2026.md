@@ -1,7 +1,7 @@
 +++
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
 seo_title = "Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-11T05:30:00+07:00"
 slug = "diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026"
 aliases = ["/posts/điểm-mới-trong-quy-định-cấp-giấy-phép-lao-động-cho-người-nước-ngoài-2026/"]

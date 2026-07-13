@@ -1,7 +1,7 @@
 +++
 title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới"
 seo_title = "Đời sống Na Uy: work-life balance và phúc lợi xã hội"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-12T07:43:37+07:00"
 slug = "doi-song-phuc-loi-na-uy-work-life-balance"
 aliases = ["/posts/đời-sống-tại-na-uy-cân-bằng-công-việc-cuộc-sống-và-phúc-lợi-xã-hội-dẫn-đầu-thế-giới/"]

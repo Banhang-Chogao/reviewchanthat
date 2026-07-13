@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:10:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Khi job CI đỏ vì GitHub-hosted runner thiếu capacity hoặc platform incident chứ không phải bug code, và cách phân biệt để không autofix nhầm."
 draft = false
 noindex = true

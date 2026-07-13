@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T16:00:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Tin đồn màu iPhone 18: Dark Cherry, các tùy chọn Pro/Fold và góc nhìn chọn màu bền, đẹp cho người mua Việt Nam — nguồn MacRumors, AppleInsider."
 draft = false
 image = "images/posts/iphone-18-mau-gi-dark-cherry.webp"

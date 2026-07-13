@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-13T23:52:00+07:00"
-commit = "0ee71da6"
+commit = "bca28a7e"
 description = "Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc thay, tiếng ồn và khi nào thật sự đáng mua cho chung cư Việt Nam."
 draft = false
 slug = "review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi"

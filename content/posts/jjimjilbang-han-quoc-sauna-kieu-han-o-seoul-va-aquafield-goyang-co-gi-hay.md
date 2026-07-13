@@ -3,11 +3,11 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang, Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu."
 draft = false
 image = "images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp"
-image_attribution_checked_at = "2026-07-12T08:48:31+07:00"
+image_attribution_checked_at = "2026-07-14T00:09:28+07:00"
 image_attribution_source = "rejected_generic"
 image_attribution_verified = false
 image_commercial_use = true

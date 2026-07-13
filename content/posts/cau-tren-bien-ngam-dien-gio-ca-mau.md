@@ -1,7 +1,7 @@
 +++
 title = "Cầu trên biển ngắm cánh đồng điện gió Cà Mau: trải nghiệm du lịch xanh độc lạ 2026"
 seo_title = "Du lịch điện gió Cà Mau: cầu trên biển 17 km & kinh nghiệm đi"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-12T17:30:00+07:00"
 draft = false
 editor_pick = true

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:40:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Khi Apple là gatekeeper App Store và iOS theo DMA: Apple mất quyền kiểm soát gì, giữ được gì — sau phán quyết Tòa EU 8/7/2026."
 draft = false
 image = "images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp"
@@ -65,7 +65,7 @@ label = "Apple giữ"
 
 [[tom_tat_nhanh]]
 label = "Tách biệt"
-image_attribution_checked_at = "2026-07-12T08:48:38+07:00"
+image_attribution_checked_at = "2026-07-14T00:09:47+07:00"
 +++
 
 “Gatekeeper” nghe như tên phim — nhưng với Apple, đó là **nhãn pháp lý** gắn trực tiếp lên **App Store** và **iOS** tại EU. Ngày [8/7/2026, Tòa Tổng EU bác kiện Apple](/posts/apple-thua-kien-eu-app-store-ios-dma/) và **giữ nguyên** nhãn đó.

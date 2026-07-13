@@ -1,7 +1,7 @@
 +++
 title = "Review App Học Tiếng Anh Online 2026: Duolingo, ELSA, Cambly App Nào Tốt Nhất?"
 seo_title = "Review app học tiếng Anh online 2026: Duolingo, ELSA, Cambly"
-commit = "4f4bd327"
+commit = "0ee71da6"
 date = "2026-07-13T23:55:00+07:00"
 slug = "review-app-hoc-tieng-anh-online-2026"
 draft = false
@@ -84,7 +84,7 @@ ELSA không dạy ngữ pháp hay từ vựng mới. App tập trung hoàn toàn
 Ngoài ra, ELSA tính phí khá cao so với mặt bằng chung. Gói Premium có giá khoảng 600k/năm (tính ra 50k/tháng) — chấp nhận được. Nhưng gói Pro 1.200k/năm với các tính năng nâng cao như luyện IELTS Speaking không thực sự cần thiết với người học thông thường.
 
 **Giá:** 600k–1.200k/năm
-**Điểm mạnh:** Phân tích phát âm chính xác đến từng âm, phù hợp người Việt
+**Điểm mạnh:** phân tích phát âm chính xác đến từng âm, phù hợp người Việt
 **Điểm yếu:** Không dạy ngữ pháp/từ vựng, giá khá cao
 
 ---

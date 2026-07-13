@@ -1,7 +1,7 @@
 +++
 title = "AI Inflation 2026: Why Your Next Laptop, Phone, and Gaming Console Will Cost More"
 seo_title = "AI Inflation 2026: Why Gadgets Cost More Due to AI Data Centers"
-commit = ""
+commit = "0ee71da6"
 date = "2026-07-13T23:50:00+07:00"
 slug = "trending-topic-20260713"
 draft = false
@@ -33,14 +33,14 @@ answer = "If you need a device, buy during seasonal sales. Prices are trending u
 copyright = "Review Chân Thật"
 source_note = "Bài viết dựa trên báo cáo thị trường từ Micron earnings (June 2026), phân tích từ Bloomberg về tác động AI đến thị trường bộ nhớ, và dữ liệu giá bán lẻ thực tế tại thị trường Việt Nam và Đông Nam Á. Thông tin giá MacBook Pro tại Ấn Độ dựa trên báo cáo của The Times of India (July 2026). Mọi số liệu được cập nhật đến thời điểm xuất bản."
 image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/futuristic-chrome-robot-against-blue-sky-31233586/"
+image_source_url = "https://www.pexels.com/photo/robot-fingers-on-blue-background-8386369/"
 image_provider = "pexels"
 image_license = "Pexels License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "Sun God Apolo"
-image_creator_url = "https://www.pexels.com/@sun-god-apolo-230380599"
+image_creator = "Tara Winstead"
+image_creator_url = "https://www.pexels.com/@tara-winstead"
 image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"

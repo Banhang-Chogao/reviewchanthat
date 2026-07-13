@@ -1,7 +1,7 @@
 +++
 title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử"
 seo_title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm & Quán Ngon"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-11T12:25:00+07:00"
 slug = "xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026"
 aliases = ["/posts/cơn-sốt-mè-đen-froyo-hè-2026-cách-làm-tại-nhà-list-quán-ngon-phải-thử/"]

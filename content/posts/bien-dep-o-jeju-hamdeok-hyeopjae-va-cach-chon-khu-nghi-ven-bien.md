@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Bãi biển đẹp nhất Jeju: Hamdeok nước xanh như Maldives, Hyeopjae hoàng hôn lãng mạn. So sánh và gợi ý chọn resort ven biển Jeju."
 draft = false
 image = "images/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.webp"
@@ -73,7 +73,7 @@ value = "Hè (tháng 6–8) tắm biển, xuân thu đi dạo"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = "Không (bãi biển), có (resort)"
-image_attribution_checked_at = "2026-07-12T08:48:25+07:00"
+image_attribution_checked_at = "2026-07-14T00:09:11+07:00"
 
 [[internal_links]]
 ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"

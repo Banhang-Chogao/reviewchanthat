@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:20:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "macOS 27 mang lại gì cho nhân viên văn phòng, creator nội dung và lập trình viên: Spotlight, Safari, Photos, Xcode và rủi ro beta."
 draft = false
 image = "images/posts/macos-27-cho-van-phong-creator-lap-trinh-vien.webp"

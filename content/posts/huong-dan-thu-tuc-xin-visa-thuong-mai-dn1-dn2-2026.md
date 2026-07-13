@@ -1,7 +1,7 @@
 +++
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
 seo_title = "Thủ tục xin visa thương mại DN1, DN2 cho chuyên gia 2026"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-11T05:00:00+07:00"
 slug = "huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026"
 aliases = ["/posts/hướng-dẫn-thủ-tục-xin-visa-thương-mại-dn1-dn2-cho-chuyên-gia-nước-ngoài-2026/"]

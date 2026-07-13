@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:20:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Alpensia Ski 700 Pyeongchang — ski resort từng đăng cai Olympic 2018. 6 slope, beginner-friendly, kết hợp nghỉ dưỡng và water park. So sánh với Yongpyong."
 draft = false
 image = "images/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.webp"
@@ -89,7 +89,7 @@ value = "Mùa đông (tháng 12–2)"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = "Có (resort, vé trượt tuyết)"
-image_attribution_checked_at = "2026-07-12T08:48:25+07:00"
+image_attribution_checked_at = "2026-07-14T00:09:10+07:00"
 +++
 
 Alpensia và Yongpyong nằm cùng khu vực Pyeongchang, nhưng trải nghiệm hoàn toàn khác nhau. Nếu bạn đã đọc bài [Yongpyong]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}), bạn biết đó là resort lớn, chuyên sâu, cho dân trượt có kinh nghiệm. Alpensia thì ngược lại — nhỏ hơn, yên tĩnh hơn, và thiên về nghỉ dưỡng gia đình.

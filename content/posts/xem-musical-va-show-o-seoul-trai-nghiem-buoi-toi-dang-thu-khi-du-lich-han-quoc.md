@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Kinh nghiệm xem musical và show tại Daehangno Seoul: vé, giờ, chọn show nào, cách đặt vé và kết hợp với lịch trình buổi tối."
 draft = false
 image = "images/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.webp"

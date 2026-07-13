@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:20:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Quyền riêng tư trên iOS 27: Private Cloud Compute, Siri AI, parental controls, quyền app và checklist cho người dùng iPhone tại Việt Nam."
 draft = false
 image = "images/posts/ios-27-quyen-rieng-tu-iphone.webp"

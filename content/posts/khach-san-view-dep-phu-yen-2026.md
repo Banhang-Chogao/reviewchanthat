@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp Phú Yên 2026: Review & Kinh nghiệm chọn"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-12T15:26:00+07:00"
 draft = false
 description = "Khách sạn view đẹp Phú Yên 2026: review 6 resort khách sạn nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng view biển."

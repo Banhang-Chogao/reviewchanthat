@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, giá vé, giờ mở cửa, kinh nghiệm đi ngày thường và mẹo tiết kiệm."
 draft = false
 image = "images/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.webp"

@@ -1,7 +1,7 @@
 +++
 title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
 seo_title = "Ký sự Hà Giang: Mã Pí Lèng và những khúc cua qua mây"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-11T08:00:00+07:00"
 slug = "ky-su-ha-giang-nhung-khuc-cua-va-ky-uc"
 aliases = ["/posts/ký-sự-hà-giang-những-khúc-cua-vắt-qua-mây-và-đêm-trắng-nơi-địa-đầu/"]

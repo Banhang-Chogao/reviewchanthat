@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:20:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Đánh giá Camera Control trên iPhone 16 Pro Max: thao tác chụp, zoom, học curve và có đáng lên đời từ 15 Pro Max không."
 draft = false
 image = "images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp"
@@ -45,7 +45,7 @@ label = "Ít giá trị khi"
 
 [[tom_tat_nhanh]]
 label = "So 15"
-image_attribution_checked_at = "2026-07-12T08:48:26+07:00"
+image_attribution_checked_at = "2026-07-14T00:09:12+07:00"
 +++
 
 **Camera Control** là phần cứng mới dễ thấy nhất trên iPhone 16 Pro Max — nút **cảm ứng lực** cạnh máy, Apple kỳ vọng thay **vuốt trên màn** khi chụp. Sau các review công khai và vài tháng sử dụng tham khảo, câu hỏi thực tế: **có tiện đủ để bỏ 15 Pro Max không?**

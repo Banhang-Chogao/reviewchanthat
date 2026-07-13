@@ -3,11 +3,11 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:40:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Checklist có nên cập nhật iOS 27 ngay không — ai nên chờ, ai nên lên, backup và rủi ro app ngân hàng cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp"
-image_attribution_checked_at = "2026-07-12T08:48:29+07:00"
+image_attribution_checked_at = "2026-07-14T00:09:21+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true

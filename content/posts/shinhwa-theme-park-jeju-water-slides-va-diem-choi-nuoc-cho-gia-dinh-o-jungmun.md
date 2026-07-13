@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Shinhwa Theme Park Jeju thuộc tổ hợp Jeju Shinhwa World, có công viên nước với water slides, wave pool, khu vui chơi Larva cho trẻ em. Hướng dẫn đi và vé."
 image = "images/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.webp"
 image_attribution_checked_at = "2026-07-11T17:30:23+07:00"

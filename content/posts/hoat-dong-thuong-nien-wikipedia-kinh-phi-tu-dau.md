@@ -1,7 +1,7 @@
 +++
 title = "Các hoạt động thường niên của Wikipedia và nguồn kinh phí: Wikimania, hạ tầng và tài trợ cộng đồng"
 seo_title = "Hoạt động thường niên của Wikipedia & nguồn kinh phí"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-12T19:22:00+07:00"
 draft = false
 description = "Các hoạt động thường niên của Wikipedia lấy kinh phí từ đâu và gồm những gì: hội nghị Wikimania, hạ tầng máy chủ, tài trợ cộng đồng và gây quỹ hằng năm."

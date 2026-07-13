@@ -5,7 +5,7 @@ description = "Số e trong tài chính là gì? Tìm hiểu công thức lãi k
 date = "2026-07-10T13:16:14+07:00"
 slug = "ham-so-mu-e-trong-tai-chinh-la-gi"
 aliases = ["/posts/hàm-số-mũ-e-trong-tài-chính-là-gì-từ-lãi-kép-đến-định-giá-tài-sản/"]
-commit = "8660546e"
+commit = "0ee71da6"
 lastmod = "2026-07-10T14:00:00+07:00"
 seo_title = "Hàm số mũ e trong tài chính: lãi kép liên tục A = Pe^(rt)"
 authors = ["Minh Hoàng"]

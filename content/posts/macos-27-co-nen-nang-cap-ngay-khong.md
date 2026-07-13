@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:40:00+07:00"
-commit = "8660546e"
+commit = "0ee71da6"
 description = "Checklist quyết định nâng cấp macOS Golden Gate 27: máy tương thích, app công việc, backup, AI và thời điểm public release."
 draft = false
 image = "images/posts/macos-27-co-nen-nang-cap-ngay-khong.webp"

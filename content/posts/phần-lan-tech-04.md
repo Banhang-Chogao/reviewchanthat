@@ -1,7 +1,7 @@
 +++
 title = "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
 seo_title = "Phần Lan: Từ Nokia Đến 5G, Siêu Cường Công Nghệ Bắc Âu"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-11T16:06:05+07:00"
 slug = "phan-lan-tech-04"
 aliases = ["/posts/phần-lan-từ-nokia-đến-5g-cách-một-quốc-gia-nhỏ-trở-thành-siêu-lực-lượng-công-nghệ/"]
