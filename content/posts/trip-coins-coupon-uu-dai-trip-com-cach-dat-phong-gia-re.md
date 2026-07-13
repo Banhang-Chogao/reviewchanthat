@@ -1,7 +1,7 @@
 +++
 title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
 seo_title = "Trip.Coins & coupon Trip.com: cách đặt phòng giá rẻ"
-commit = "45c0695c"
+commit = "e1b87c29"
 date = "2026-07-13T10:10:00+07:00"
 draft = false
 author = "Minh Hoàng"

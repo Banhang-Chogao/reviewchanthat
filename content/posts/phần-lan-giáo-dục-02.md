@@ -1,7 +1,7 @@
 +++
 title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
 seo_title = "Giáo dục Phần Lan: không bài tập về nhà, không áp lực"
-commit = "45c0695c"
+commit = "e1b87c29"
 date = "2026-07-11T16:06:05+07:00"
 slug = "phan-lan-giao-duc-02"
 aliases = ["/posts/hệ-thống-giáo-dục-phần-lan-không-bài-tập-về-nhà-không-áp-lực-bình-đẳng-tuyệt-đối/"]

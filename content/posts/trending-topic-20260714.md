@@ -1,7 +1,7 @@
 +++
 title = "Gemini 3.5 Pro Launch July 17: 2M Context, Deep Think, Pricing — Everything You Need to Know"
 seo_title = "Gemini 3.5 Pro Launch July 17 2026: 2M Context Deep Think Pricing"
-commit = "45c0695c"
+commit = "e1b87c29"
 date = "2026-07-14T00:25:10+07:00"
 slug = "trending-topic-20260714"
 draft = false

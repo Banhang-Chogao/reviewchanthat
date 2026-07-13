@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? So sánh tỷ giá, phí, độ an toàn và hướng dẫn đổi tiền cho người đi tự túc Thái Lan mùa mưa."
 image = "images/posts/doi-baht-o-viet-nam-hay-thai-lan.webp"
 image_alt = "Ảnh minh họa Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc — nguồn Pexels"

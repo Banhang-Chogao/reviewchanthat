@@ -3,11 +3,11 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T13:20:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn hình, Camera Control, pin, màu titan và gợi ý nên mua hoặc lên đời."
 draft = false
 image = "images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp"
-image_attribution_checked_at = "2026-07-14T00:09:24+07:00"
+image_attribution_checked_at = "2026-07-14T01:19:40+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -46,7 +46,6 @@ label = "Giữ 15"
 
 [[tom_tat_nhanh]]
 label = "Lên 16"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
 
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
@@ -79,6 +78,7 @@ title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
 [[internal_links]]
 ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
 title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Đây là câu hỏi **cuối series** iPhone 15 Pro Max: đã có (hoặc sắp mua) 15 Pro Max, **có đáng bỏ thêm tiền lên 16 Pro Max** không? Không có đáp án chung — chỉ có **đáp án đúng với ngân sách và tay bạn**.

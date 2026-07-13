@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "So sánh Black Titanium và White Titanium trên iPhone 15 Pro Max: độ bều màu, vết trầy, giá máy cũ và gợi ý chọn theo nhu cầu năm 2026."
 draft = false
 image = "images/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.webp"

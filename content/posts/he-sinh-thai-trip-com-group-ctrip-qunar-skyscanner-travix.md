@@ -1,7 +1,7 @@
 +++
 title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
 seo_title = "Hệ sinh thái Trip.com Group: các thương hiệu chủ chốt"
-commit = "45c0695c"
+commit = "e1b87c29"
 date = "2026-07-13T10:20:00+07:00"
 draft = false
 author = "Minh Hoàng"

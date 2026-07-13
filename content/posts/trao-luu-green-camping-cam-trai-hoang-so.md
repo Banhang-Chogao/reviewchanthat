@@ -1,7 +1,7 @@
 +++
 title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
 seo_title = "Green Camping: Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
-commit = "45c0695c"
+commit = "e1b87c29"
 date = "2026-07-11T14:00:00+07:00"
 slug = "trao-luu-green-camping-cam-trai-hoang-so"
 aliases = ["/posts/trào-lưu-green-camping-gợi-ý-các-địa-điểm-cắm-trại-hoang-sơ-chữa-lành/"]

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-07T09:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh, CI/CD tự"
 draft = false
 image = "images/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.webp"

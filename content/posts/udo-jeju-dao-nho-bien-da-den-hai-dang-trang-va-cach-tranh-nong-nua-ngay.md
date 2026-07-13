@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Kinh nghiệm đi Udo Jeju mùa hè: phà Seongsan 15 phút, thuê xe đạp vòng quanh đảo, biển đá đen núi lửa, hải đăng Udobong và kem lạc Udo."
 draft = false
 image = "images/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.webp"

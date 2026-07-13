@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp Đà Nẵng 2026: Review & Kinh nghiệm chọn"
-commit = "45c0695c"
+commit = "e1b87c29"
 date = "2026-07-12T15:20:00+07:00"
 draft = false
 description = "Khách sạn view đẹp Đà Nẵng 2026: review 6 resort nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng view biển."

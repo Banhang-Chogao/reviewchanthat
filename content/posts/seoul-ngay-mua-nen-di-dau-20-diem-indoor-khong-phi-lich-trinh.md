@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Seoul mùa mưa không phải là ác mộng — nếu bạn biết điểm đến nào trong nhà, điểm nào kết nối bằng tàu điện ngầm và điểm nào mở cửa miễn phí."
 draft = false
 image = "images/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.webp"

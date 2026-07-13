@@ -1,6 +1,6 @@
 +++
 title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
-commit = "45c0695c"
+commit = "e1b87c29"
 date = "2026-07-11T09:00:00+07:00"
 slug = "tin-chi-carbon-va-trao-luu-net-zero"
 aliases = ["/posts/tín-chỉ-carbon-và-trào-lưu-net-zero-bóc-tách-góc-nhìn-tài-chính-từ-thẻ-eco-của-techcombank/"]

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:40:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Đánh giá camera iPhone 15 Pro Max năm 2026: 48MP, tele 5x, video ProRes, so với nhu cầu thực tế và iPhone 16 Pro Max."
 draft = false
 image = "images/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.webp"
@@ -45,7 +45,7 @@ label = "Hạn chế"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
-image_attribution_checked_at = "2026-07-14T00:09:13+07:00"
+image_attribution_checked_at = "2026-07-14T01:19:14+07:00"
 
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"

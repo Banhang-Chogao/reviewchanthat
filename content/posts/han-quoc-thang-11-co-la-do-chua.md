@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T18:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Hàn Quốc tháng 11 còn lá đỏ không? So sánh Seoul, Nami, Seoraksan theo dự báo Visit Korea — nên đi tuần nào và lịch dự phòng."
 draft = false
 image = "images/posts/han-quoc-thang-11-co-la-do-chua.webp"

@@ -3,11 +3,11 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Kinh nghiệm đi jjimjilbang Hàn Quốc: Sparex Dongdaemun, Aquafield Goyang, Dragon Hill Spa. So sánh, giá vé tham khảo và mẹo cho người Việt lần đầu."
 draft = false
 image = "images/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.webp"
-image_attribution_checked_at = "2026-07-14T00:09:28+07:00"
+image_attribution_checked_at = "2026-07-14T01:19:46+07:00"
 image_attribution_source = "rejected_generic"
 image_attribution_verified = false
 image_commercial_use = true
@@ -81,7 +81,6 @@ title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng ki
 [[internal_links]]
 ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
 title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
 
 [[internal_links]]
 ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
@@ -106,6 +105,7 @@ title = "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biể
 [[internal_links]]
 ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
 title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Jjimjilbang — nhà tắm hơi kiểu Hàn — là thứ mà mình nghĩ ai đi Hàn Quốc cũng nên thử ít nhất một lần. Trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), jjimjilbang xếp thứ 8 và Aquafield Goyang xếp thứ 11. Nếu bạn chưa từng thử, đây là trải nghiệm văn hóa thuần chất Hàn mà bạn khó tìm thấy ở nơi khác.

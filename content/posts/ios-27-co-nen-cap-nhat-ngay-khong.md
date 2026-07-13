@@ -3,11 +3,11 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:40:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Checklist có nên cập nhật iOS 27 ngay không — ai nên chờ, ai nên lên, backup và rủi ro app ngân hàng cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp"
-image_attribution_checked_at = "2026-07-14T00:09:21+07:00"
+image_attribution_checked_at = "2026-07-14T01:19:35+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -47,7 +47,6 @@ label = "Nên lên sớm"
 
 [[tom_tat_nhanh]]
 label = "Nên chờ"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
 
 [[internal_links]]
 ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
@@ -80,6 +79,7 @@ title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
 [[internal_links]]
 ref = "posts/ios-27-beta-co-nen-cai-khong.md"
 title = "iOS 27 beta có nên cài không? rủi ro, cách backup và quay về bản ổn định"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Ngày Apple phát hành iOS mới, nút **Software Update** luôn đỏ lửa. Nhưng “có ngay trên máy” không đồng nghĩa “nên cài ngay”. **iOS 27** mang Siri AI, parental controls mới và thay đổi shell — đủ lý do lên, nhưng cũng đủ rủi ro nếu bạn làm việc trên một chiếc iPhone duy nhất.

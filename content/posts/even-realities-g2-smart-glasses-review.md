@@ -1,7 +1,7 @@
 +++
 title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
 seo_title = "Even Realities G2 Smart Glasses Review 2026: Privacy-First Productivity Wearable Without a Camera"
-commit = "79a86ddd"
+commit = "a09f5697"
 date = "2026-07-14T01:14:29+07:00"
 slug = "even-realities-g2-smart-glasses-review"
 draft = false

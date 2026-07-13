@@ -3,11 +3,11 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:20:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual Intelligence và kỳ vọng thực tế theo từng dòng iPhone."
 draft = false
 image = "images/posts/ios-27-camera-anh-video-iphone.webp"
-image_attribution_checked_at = "2026-07-14T00:09:21+07:00"
+image_attribution_checked_at = "2026-07-14T01:19:34+07:00"
 image_attribution_source = "not_found"
 image_attribution_verified = false
 image_commercial_use = true
@@ -46,7 +46,6 @@ label = "Hiệu năng"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
 
 [[internal_links]]
 ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
@@ -79,6 +78,7 @@ title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý đi�
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
 Với nhiều người Việt, iPhone là **máy ảnh chính** khi đi du lịch, ăn uống, chụp con. **iOS 27** không thay đổi cụm camera vật lý trên iPhone cũ, nhưng Apple đẩy mạnh **AI trong Photos** và **Siri mode in Camera** — biến phần mềm thành lý do nâng cấp.

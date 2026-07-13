@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu."
 draft = false
 image = "images/posts/bangkok-3-ngay-3-dem-mua-mua.webp"

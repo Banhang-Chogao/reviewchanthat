@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song", "tai-chinh"]
 date = "2026-06-28T10:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu quả hơn."
 draft = false
 image = "images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp"
@@ -63,7 +63,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
-image_attribution_checked_at = "2026-07-14T00:09:12+07:00"
+image_attribution_checked_at = "2026-07-14T01:19:11+07:00"
 
 [[internal_links]]
 ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"

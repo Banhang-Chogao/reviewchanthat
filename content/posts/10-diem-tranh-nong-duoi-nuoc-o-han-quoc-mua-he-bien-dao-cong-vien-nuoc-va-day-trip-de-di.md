@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "45c0695c"
+commit = "e1b87c29"
 description = "Top 10 điểm tránh nóng ở Hàn Quốc mùa hè: biển Haeundae Busan, đảo Udo Jeju, công viên nước Caribbean Bay Yongin, Nami Island, Gwangalli Beach. Kinh nghiệm   đi"
 draft = false
 image = "images/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.webp"
@@ -81,7 +81,7 @@ title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng ki
 [[tom_tat_nhanh]]
 label = "Thời gian đọc"
 value = "5–7 phút"
-image_attribution_checked_at = "2026-07-14T00:09:10+07:00"
+image_attribution_checked_at = "2026-07-14T01:19:06+07:00"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
 
