@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:20:00+07:00"
-commit = "25880a45"
+commit = "0180f536"
 description = "Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu, phối phụ kiện, so với Natural/Black và có nên chọn làm màu chính."
 draft = false
 image = "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp"

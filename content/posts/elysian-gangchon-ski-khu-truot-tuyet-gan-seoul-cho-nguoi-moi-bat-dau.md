@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:40:00+07:00"
-commit = "25880a45"
+commit = "0180f536"
 description = "Elysian Gangchon Ski Resort Chuncheon — resort trượt tuyết gần Seoul nhất, phù hợp beginner, day trip, gia đình. Hướng dẫn di chuyển, chi phí, ski lesson và"
 draft = false
 image = "images/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.webp"

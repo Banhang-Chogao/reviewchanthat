@@ -1,7 +1,7 @@
 +++
 title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
 seo_title = "Mô hình kiếm tiền của Trip.com: OTA, khách sạn, vé bay"
-commit = "25880a45"
+commit = "0180f536"
 date = "2026-07-13T10:25:00+07:00"
 draft = false
 author = "Minh Hoàng"

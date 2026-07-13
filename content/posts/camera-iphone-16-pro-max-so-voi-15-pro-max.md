@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:40:00+07:00"
-commit = "25880a45"
+commit = "0180f536"
 description = "So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm A18, Camera Control và có nên đổi vì ảnh."
 draft = false
 image = "images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp"

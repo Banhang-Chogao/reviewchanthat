@@ -8264,7 +8264,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "review-airpods-pro-3-2026",
+      "title": "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?",
+      "image_id": "img-a30229c0",
+      "source_platform": "Pixabay",
+      "image_provider": "pixabay",
+      "source_url": "https://pixabay.com/photos/night-view-dark-seoul-korea-7523474/",
+      "direct_url": "https://pixabay.com/get/g5b0ceefd8d1894db1e4771b4c407a377f1dbc8b453d8b2c4004c0076a29702d48adf7ae0bd9beabdec014a9922bd62b54cb14b50b90c8de46a265003f57e1cdc_1280.jpg",
+      "creator": "cskkkk",
+      "creator_url": "https://pixabay.com/photos/night-view-dark-seoul-korea-7523474/",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pixabay Content License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/review-airpods-pro-3-2026.jpg",
+      "output_path": "static/images/posts/review-airpods-pro-3-2026.webp",
+      "watermark_text": "Source: Pixabay / cskkkk",
+      "provider_used": "Pixabay",
+      "attribution_verified": true,
+      "attribution_source": "pixabay_api",
+      "image_query": "seoul korea cityscape",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế? — nguồn Pixabay",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-13T07:32:04.404022+00:00"
+  "generated_at": "2026-07-13T16:22:56.856625+00:00"
 }

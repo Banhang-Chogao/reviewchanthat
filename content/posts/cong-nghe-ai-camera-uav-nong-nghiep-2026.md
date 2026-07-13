@@ -1,7 +1,7 @@
 +++
 title = "Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV"
 seo_title = "Xu hướng công nghệ hè 2026: camera AI và UAV nông nghiệp"
-commit = "25880a45"
+commit = "0180f536"
 date = "2026-07-11T12:15:00+07:00"
 slug = "cong-nghe-ai-camera-uav-nong-nghiep-2026"
 aliases = ["/posts/xu-hướng-công-nghệ-hè-2026-từ-ứng-dụng-giả-lập-đến-bùng-nổ-camera-ai-uav/"]

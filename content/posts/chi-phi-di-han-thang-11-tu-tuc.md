@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T22:00:00+07:00"
-commit = "25880a45"
+commit = "0180f536"
 description = "Chi phí đi Hàn tháng 11 tự túc: bảng giá tham khảo vé máy bay, khách   sạn, ăn uống, di chuyển và mẹo tiết kiệm cho chuyến 5N4Đ."
 draft = false
 image = "images/posts/chi-phi-di-han-thang-11-tu-tuc.webp"

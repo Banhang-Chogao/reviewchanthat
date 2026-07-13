@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-08T17:00:00+07:00"
-commit = "25880a45"
+commit = "0180f536"
 description = "Đánh giá dịch vụ và nhân viên Starbucks Vietnam — chuẩn phục vụ, barista pha chế, và vì sao chi nhánh Nguyễn Văn Trỗi được khen nhiệt tình."
 draft = false
 image = "images/posts/starbucks-vietnam-nhan-vien-va-dich-vu.webp"

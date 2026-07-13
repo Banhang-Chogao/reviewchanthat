@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "25880a45"
+commit = "0180f536"
 description = "Gwangalli Beach Busan nổi tiếng với view cầu Gwangan về đêm, quán cà phê biển, drone light show, Millak Raw Fish Street. Hướng dẫn đi metro và lịch trình tối."
 image = "images/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.webp"
 image_attribution_checked_at = "2026-07-11T17:30:17+07:00"

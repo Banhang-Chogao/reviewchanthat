@@ -1,7 +1,7 @@
 +++
 title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
 seo_title = "Chiến lược đầu tư của Atomico: tầm nhìn và giá trị cốt lõi"
-commit = "25880a45"
+commit = "0180f536"
 date = "2026-07-11T14:45:00+07:00"
 slug = "chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy"
 aliases = ["/posts/chiến-lược-đầu-tư-của-atomico-tầm-nhìn-và-giá-trị-cốt-lõi-của-quỹ/"]

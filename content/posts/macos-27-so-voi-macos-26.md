@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T13:20:00+07:00"
-commit = "25880a45"
+commit = "0180f536"
 description = "So sánh macOS Golden Gate 27 và macOS 26: Siri AI, Liquid Glass, Safari, tương thích Intel, hiệu năng và nên ở lại bản cũ khi nào."
 draft = false
 image = "images/posts/macos-27-so-voi-macos-26.webp"
