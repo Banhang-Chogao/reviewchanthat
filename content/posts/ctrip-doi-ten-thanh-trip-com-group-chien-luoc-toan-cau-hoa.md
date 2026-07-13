@@ -1,7 +1,7 @@
 +++
 title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
 seo_title = "Ctrip thành Trip.com Group: chiến lược toàn cầu hóa"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-13T10:35:00+07:00"
 draft = false
 author = "Minh Hoàng"

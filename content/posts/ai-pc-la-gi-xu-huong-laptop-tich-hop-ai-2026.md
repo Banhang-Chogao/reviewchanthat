@@ -1,7 +1,7 @@
 +++
 title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"
 seo_title = "AI PC Là Gì? Laptop Tích Hợp AI Cho Dân WFH 2026"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-11T12:40:00+07:00"
 slug = "ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026"
 aliases = ["/posts/ai-pc-là-gì-xu-hướng-lựa-chọn-laptop-tích-hợp-ai-cho-dân-làm-việc-từ-xa-2026/"]

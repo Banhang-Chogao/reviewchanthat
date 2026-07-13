@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-07T18:00:00+07:00"
-commit = "0180f536"
+commit = "ab83f4bd"
 description = "Một tháng sau keynote, đánh giá lại WWDC26 — Siri AI có đủ thuyết phục không, beta iOS 27 thực tế ra sao, và người dùng Việt Nam nên làm gì tiếp theo."
 draft = false
 image = "images/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.webp"

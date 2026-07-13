@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "0180f536"
+commit = "ab83f4bd"
 description = "Người dùng iPhone tại EU được lợi gì từ DMA, gatekeeper và phán quyết Apple vs EC 8/7/2026? Lợi ích, rủi ro và kỳ vọng thực tế."
 draft = false
 image = "images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp"

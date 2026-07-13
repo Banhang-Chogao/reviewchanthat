@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:20:00+07:00"
-commit = "0180f536"
+commit = "ab83f4bd"
 description = "Đánh giá Camera Control trên iPhone 16 Pro Max: thao tác chụp, zoom, học curve và có đáng lên đời từ 15 Pro Max không."
 draft = false
 image = "images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp"

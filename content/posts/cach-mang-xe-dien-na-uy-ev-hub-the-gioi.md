@@ -1,7 +1,7 @@
 +++
 title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
 seo_title = "Cách Mạng Xe Điện: Vì Sao Na Uy Dẫn Đầu Thế Giới?"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-12T07:44:37+07:00"
 slug = "cach-mang-xe-dien-na-uy-ev-hub-the-gioi"
 aliases = ["/posts/cách-mạng-xe-điện-ev-tại-sao-na-uy-quốc-gia-xuất-khẩu-dầu-mỏ-lại-dẫn-đầu-thế-giới/"]

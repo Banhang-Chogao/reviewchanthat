@@ -1,7 +1,7 @@
 +++
 title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
 seo_title = "Agoda là gì? Có uy tín và an toàn không? 2026"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-13T14:14:00+07:00"
 draft = false
 author = "Minh Hoàng"

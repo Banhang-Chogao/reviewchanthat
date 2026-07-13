@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "0180f536"
+commit = "ab83f4bd"
 description = "Day trip Suwon từ Seoul: tham quan Hwaseong Fortress UNESCO, Hwaseong Haenggung và Korean Folk Village Yongin. Lịch trình 1 ngày tự túc."
 draft = false
 image = "images/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.webp"

@@ -1,7 +1,7 @@
 +++
 title = "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu"
 seo_title = "Ký sự Tallinn: đêm trắng ở thị trấn trung cổ Bắc Âu"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-11T14:44:57+07:00"
 slug = "ky-su-tallinn-dem-trang-thi-tran-co"
 aliases = ["/posts/ký-sự-tallinn-đêm-trắng-ở-thị-trấn-trung-cổ-cổ-kính-nhất-châu-âu/"]

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T17:00:00+07:00"
-commit = "0180f536"
+commit = "ab83f4bd"
 description = "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết lạnh, mặc gì, lịch trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt."
 draft = false
 image = "images/posts/di-han-thang-11-co-dep-khong.webp"

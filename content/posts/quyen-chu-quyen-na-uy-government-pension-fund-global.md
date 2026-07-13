@@ -1,7 +1,7 @@
 +++
 title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
 seo_title = "Quỹ chủ quyền Na Uy: biến dầu mỏ thành tài sản tương lai"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-12T07:42:37+07:00"
 slug = "quyen-chu-quyen-na-uy-government-pension-fund-global"
 aliases = ["/posts/government-pension-fund-global-làm-thế-nào-na-uy-biến-dầu-mỏ-thành-tài-sản-tương-lai/"]

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "0180f536"
+commit = "ab83f4bd"
 description = "Ở khu nào tại Bangkok mùa mưa? So sánh Siam, Ratchathewi, Pratunam, Sukhumvit, Silom — giá, kết nối BTS, điểm indoor gần, phù hợp từng đối tượng."
 image = "images/posts/o-khu-nao-bangkok-mua-mua.webp"
 image_alt = "Ảnh minh họa Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom — nguồn Pixabay"

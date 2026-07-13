@@ -1,7 +1,7 @@
 +++
 title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
 seo_title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-11T15:00:00+07:00"
 slug = "anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc"
 aliases = ["/posts/ảnh-hưởng-của-atomico-tới-hệ-sinh-thái-khởi-nghiệp-châu-âu-thay-đổi-y-thức-và-tạo-cơ-hội/"]

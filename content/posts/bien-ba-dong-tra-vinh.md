@@ -1,7 +1,7 @@
 +++
 title = "Biển Ba Động Trà Vinh: bãi biển giồng cát bình dị của miền Tây và kinh nghiệm đường đi 2026"
 seo_title = "Biển Ba Động Trà Vinh: đường đi, mùa đẹp & kinh nghiệm 2026"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-12T17:45:00+07:00"
 draft = false
 description = "Biển Ba Động Trà Vinh: bãi giồng cát dài hơn 10 km, sóng nhỏ an toàn, đặc sản dưa hấu và mắm rươi — hướng dẫn đường đi, mùa đẹp và kinh nghiệm 2026."

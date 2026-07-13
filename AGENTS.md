@@ -35,6 +35,16 @@
 - Bài viết chỉ được publish khi **đã thực sự cố lấy ảnh qua cả 2 API (Pexels + Pixabay), đổi source khi bị rate limit**. Nếu sau khi đã thử hết mà vẫn không có ảnh hợp lệ → được phép push lên `main` như **bài text-first** (không ảnh, load nhanh, tốt cho SEO performance). Cái BỊ CẤM là push bài có ảnh **fake/placeholder/self-generated** hoặc bỏ qua bước lấy ảnh mà chưa thử hết 2 API.
 - **WebP images now tracked in git** (as of 2026-07-11). File `.webp` trong `static/images/posts/` được commit thường thường. GitHub Actions checkout sẽ có WebP files → Hugo build render ảnh → Deploy thành công. Không cần force-add, không cần tricks. **Root cause fix:** `.gitignore` ignore WebP vì chúng generated (không source), nhưng GitHub Pages deploy cần WebP files available → Solution: commit WebP to git, regenerate WebP locally + in CI/CD khi cần optimize.
 - **Không dùng YAML syntax (`key: value`) trong TOML front matter (`+++`).** Hugo dùng TOML parser. Sai syntax (ví dụ `commit: abc` thay vì `commit = "abc"`) sẽ làm parser fail tại dòng đó, khiến `rule.py --fix` không đọc được các field phía sau (categories, date, image...), dẫn đến deploy crash và date bị ghi đè thành thời gian chạy `rule.py`. Luôn dùng `key = "value"` (TOML) trong front matter.
+- **`:blog` là lệnh AUTONOMOUS — KHÔNG hỏi user bất cứ gì.** Khi user gõ `:blog`, AI phải tự quyết định mọi thứ:
+  - Phân tích 5 category, chọn category ít bài nhất làm chủ đề.
+  - Tự chọn topic phù hợp với category đó (dựa trên xu hướng, mùa vụ, hoặc kiến thức sẵn có).
+  - Viết bài hoàn chỉnh ≥2000 từ, human-first, không mùi AI.
+  - Lưu file `.md` đúng format TOML front matter.
+  - Chạy `select_images.py --fix` (tự đổi source Pexels↔Pixabay nếu rate limit).
+  - Chạy `add_commit_id.py`.
+  - Commit + push lên `main`.
+  - **Tuyệt đối không hỏi user** slug, title, description, hay bất kỳ input nào. Nếu cần thông tin (ví dụ xu hướng mới) → tự web search, không hỏi.
+
 - **Content Depth:** Mọi bài viết (cả VN và EN) phải có chiều sâu thật, độ dài **từ 2000–3000 từ trở lên** (tối thiểu tuyệt đối 2000 từ, nhắm mốc 3000 từ cho bài trụ cột). Sử dụng thước đo `wc -w` trên nội dung markdown (loại bỏ front matter) để kiểm tra. Viết giọng human-first, có trải nghiệm thật, không có mùi AI, tuân thủ bản quyền + Review Chân Thật. Internal links và external links là **optional** — không bắt buộc phải thêm vào. Nếu muốn thêm links:
   - External links: trỏ đến nguồn tham khảo uy tín bên ngoài để tăng giá trị SEO.
   - Internal links: **TUYỆT ĐỐI CẤM link placeholder/fake** dạng `/posts/placeholder-*`. Nếu không có bài viết thật cùng chủ đề, bỏ qua internal link — không tạo link ảo. Lý do: link placeholder sinh ra trong quá trình gen bài (prompt yêu cầu "thêm internal link SEO"), agent tạo link tới bài chưa tồn tại. Cách khắc phục: agent chỉ được tạo internal link khi có slug bài viết thật trong `content/posts/`. Nếu chưa có bài thật, không thêm internal link nào hết.

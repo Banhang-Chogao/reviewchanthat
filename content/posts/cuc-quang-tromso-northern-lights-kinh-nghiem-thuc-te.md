@@ -1,7 +1,7 @@
 +++
 title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
 seo_title = "Cực quang Tromsø Na Uy: kinh nghiệm săn Northern Lights"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-12T07:45:37+07:00"
 slug = "cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te"
 aliases = ["/posts/trải-nghiệm-cực-quang-tại-tromsø-hướng-dẫn-chi-tiết-kinh-nghiệm-thực-tế-và-những-sai-lầm-phổ-biến/"]

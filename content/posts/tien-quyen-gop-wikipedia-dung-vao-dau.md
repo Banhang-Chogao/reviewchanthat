@@ -1,7 +1,7 @@
 +++
 title = "Tiền quyên góp cho Wikipedia được dùng vào đâu? Wikipedia có bao giờ hết tiền không?"
 seo_title = "Tiền quyên góp Wikipedia dùng vào đâu? Có hết tiền không?"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-12T19:24:00+07:00"
 draft = false
 description = "Tiền quyên góp cho Wikipedia được dùng vào đâu: lương nhân sự, hạ tầng máy chủ, tài trợ cộng đồng và quỹ dự phòng — và liệu Wikipedia có bao giờ hết tiền không."

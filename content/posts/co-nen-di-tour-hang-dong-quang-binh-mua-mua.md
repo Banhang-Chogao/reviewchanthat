@@ -1,7 +1,7 @@
 +++
 title = "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?"
 seo_title = "Có Nên Đi Tour Hang Động Quảng Bình Mùa Mưa Tháng 7?"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-11T14:20:00+07:00"
 slug = "co-nen-di-tour-hang-dong-quang-binh-mua-mua"
 aliases = ["/posts/có-nên-đi-tour-khám-phá-hang-động-quảng-bình-vào-mùa-mưa-bão-tháng-7/"]

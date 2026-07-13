@@ -1,7 +1,7 @@
 +++
 title = "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10"
 seo_title = "Hè 2026: Khóa Học Ngắn Hạn & Cách Viết CV Part-time"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-11T12:00:00+07:00"
 slug = "khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026"
 aliases = ["/posts/hè-2026-top-khóa-học-ngắn-hạn-cách-viết-cv-xin-việc-part-time-điểm-10/"]

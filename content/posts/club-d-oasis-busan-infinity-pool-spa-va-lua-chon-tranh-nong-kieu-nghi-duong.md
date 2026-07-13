@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "0180f536"
+commit = "ab83f4bd"
 description = "Club D Oasis Busan là khu infinity pool và spa cao cấp tại Haeundae, view biển-trời, phù hợp cho cặp đôi muốn thư giãn và tránh đám đông mùa hè."
 draft = false
 image = "images/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.webp"

@@ -1,7 +1,7 @@
 +++
 title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
 seo_title = "Lịch sử Agoda: từ startup đến Booking Holdings"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-13T14:13:00+07:00"
 draft = false
 author = "Minh Hoàng"

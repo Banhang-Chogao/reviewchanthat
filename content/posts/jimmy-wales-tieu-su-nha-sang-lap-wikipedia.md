@@ -1,7 +1,7 @@
 +++
 title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
 seo_title = "Jimmy Wales: tiểu sử nhà sáng lập Wikipedia & cuộc sống nay"
-commit = "0180f536"
+commit = "ab83f4bd"
 date = "2026-07-12T18:45:00+07:00"
 draft = false
 editor_pick = true
