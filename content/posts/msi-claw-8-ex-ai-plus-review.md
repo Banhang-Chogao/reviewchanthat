@@ -1,7 +1,7 @@
 +++
 title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
 seo_title = "MSI Claw 8 EX AI+ Review 2026: Intel Arc G3 Extreme Gaming Benchmarks"
-commit = "bca28a7e"
+commit = "ca12c36"
 date = "2026-07-14T00:13:49+07:00"
 slug = "msi-claw-8-ex-ai-plus-review"
 draft = false
@@ -25,6 +25,34 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
+[[internal_links]]
+ref = "/posts/iphone-18-co-gi-moi"
+title = "iPhone 18: Everything New in Apple's 2026 Flagship"
+
+[[external_links]]
+url = "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-3.html"
+title = "Intel Arc G3 Extreme Official Specifications"
+
+[[external_links]]
+url = "https://www.msi.com/Handhelds/Claw-8-EX-AI-Plus"
+title = "MSI Claw 8 EX AI+ Official Product Page"
+
+[[faq]]
+question = "Can the MSI Claw 8 EX AI+ run Cyberpunk 2077?"
+answer = "Yes. At 1200p with medium settings and XeSS Performance with frame generation enabled, it maintains an average of 62 fps with ray tracing on."
+
+[[faq]]
+question = "How does the Claw 8 EX AI+ compare to the Steam Deck OLED?"
+answer = "The Claw is significantly more powerful (roughly 50-80% better GPU performance depending on the title) but costs three times as much. The Steam Deck remains the better value."
+
+[[faq]]
+question = "Is the SSD upgradeable?"
+answer = "Yes, but it requires opening the device and removing a heatshield. It is a moderate difficulty upgrade compared to the Steam Deck's tool-less design."
+
+[attribution]
+copyright = "2026 Reviewchanthat. All rights reserved."
+source_note = "This review is based on ten days of hands-on testing with a review unit provided by MSI. MSI had no editorial input or advance access to this article."
 +++
 
 I have been testing handheld gaming PCs since the original Steam Deck landed in 2022. I have owned an Asus ROG Ally, an Ally X, a Legion Go, and I have spent enough hours with the original MSI Claw to know exactly where Intel's first attempt fell short. When MSI announced the Claw 8 EX AI+ with the new Intel Arc G3 Extreme processor—a chip built from the ground up for handhelds—I was skeptical. The original Claw was a disappointment. The Arc G3 Extreme, however, is not a refresh; it is a complete rethinking of what a mobile gaming GPU can do at 30 watts.
@@ -150,33 +178,4 @@ After ten days with this device, I am keeping it. I have not felt this excited a
 | Value | 6/10 | $1,799 is steep — you are paying for the cutting edge |
 | Overall | 8/10 | The most powerful handheld ever, with real trade-offs |
 
-If you have the budget and want the absolute best, buy it. If you want the best value, buy a Steam Deck OLED. Both are valid choices. The important thing is that for the first time, we have a handheld that does not force you to compromise on the games you want to play. That alone makes the Claw 8 EX AI+ a landmark device.
-+++
-
-[[internal_links]]
-ref = "/posts/iphone-18-co-gi-moi"
-title = "iPhone 18: Everything New in Apple's 2026 Flagship"
-
-[[external_links]]
-url = "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-3.html"
-title = "Intel Arc G3 Extreme Official Specifications"
-
-[[external_links]]
-url = "https://www.msi.com/Handhelds/Claw-8-EX-AI-Plus"
-title = "MSI Claw 8 EX AI+ Official Product Page"
-
-[[faq]]
-question = "Can the MSI Claw 8 EX AI+ run Cyberpunk 2077?"
-answer = "Yes. At 1200p with medium settings and XeSS Performance with frame generation enabled, it maintains an average of 62 fps with ray tracing on."
-
-[[faq]]
-question = "How does the Claw 8 EX AI+ compare to the Steam Deck OLED?"
-answer = "The Claw is significantly more powerful (roughly 50-80% better GPU performance depending on the title) but costs three times as much. The Steam Deck remains the better value."
-
-[[faq]]
-question = "Is the SSD upgradeable?"
-answer = "Yes, but it requires opening the device and removing a heatshield. It is a moderate difficulty upgrade compared to the Steam Deck's tool-less design."
-
-[attribution]
-copyright = "© 2026 Reviewchanthat. All rights reserved."
-source_note = "This review is based on ten days of hands-on testing with a review unit provided by MSI. MSI had no editorial input or advance access to this article."
+ If you have the budget and want the absolute best, buy it. If you want the best value, buy a Steam Deck OLED. Both are valid choices. The important thing is that for the first time, we have a handheld that does not force you to compromise on the games you want to play. That alone makes the Claw 8 EX AI+ a landmark device.
