@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T14:00:00+07:00"
-commit = "f45b70cd"
+commit = "8660546e"
 description = "Tin đồn giá iPhone 18: Pro có thể đắt hơn, Fold ~2.000 USD, base giữ giá — phân tích từ MacRumors, AppleInsider và góc nhìn người mua Việt Nam."
 draft = false
 image = "images/posts/iphone-18-gia-bao-nhieu.webp"

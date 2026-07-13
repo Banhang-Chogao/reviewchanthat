@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 categories = ["cong-nghe"]
 date = "2026-07-10T04:55:00+07:00"
-commit = "f45b70cd"
+commit = "8660546e"
 description = "Chẩn đoán Hugo build error: front matter YAML trùng lặp, ai_summary sai kiểu, template regression khiến deploy không complete và cách đọc log."
 draft = false
 noindex = true

@@ -1,7 +1,7 @@
 +++
 title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
 seo_title = "Ho Chi Minh City 3-Day Itinerary for First-Timers 2026"
-commit = "a14f9553"
+commit = "5fe83052"
 date = "2026-07-13T23:58:00+07:00"
 draft = false
 post_lang = "en"

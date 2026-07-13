@@ -8432,7 +8432,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026) — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "trending-topic-20260713",
+      "title": "AI Inflation 2026: Why Your Next Laptop, Phone, and Gaming Console Will Cost More",
+      "image_id": "img-e4434996",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/futuristic-chrome-robot-against-blue-sky-31233586/",
+      "direct_url": "https://images.pexels.com/photos/31233586/pexels-photo-31233586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Sun God Apolo",
+      "creator_url": "https://www.pexels.com/@sun-god-apolo-230380599",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/trending-topic-20260713.jpg",
+      "output_path": "static/images/posts/trending-topic-20260713.webp",
+      "watermark_text": "Source: Pexels / Sun God Apolo",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "ai inflation 2026 why your",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa AI Inflation 2026: Why Your Next Laptop, Phone, and Gaming Console Will Cost More — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-13T17:00:12.861692+00:00"
+  "generated_at": "2026-07-13T17:01:17.064206+00:00"
 }

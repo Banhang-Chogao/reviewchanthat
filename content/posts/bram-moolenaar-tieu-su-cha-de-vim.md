@@ -1,7 +1,7 @@
 +++
 title = "Bram Moolenaar — tiểu sử cha đẻ Vim: sự nghiệp, di sản và những gì ông để lại"
 seo_title = "Bram Moolenaar: tiểu sử cha đẻ Vim, sự nghiệp và di sản"
-commit = "f45b70cd"
+commit = "8660546e"
 date = "2026-07-12T18:20:00+07:00"
 draft = false
 editor_pick = true

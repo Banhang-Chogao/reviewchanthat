@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:10:00+07:00"
-commit = "f45b70cd"
+commit = "8660546e"
 description = "High1 Ski Resort Jeongseon — ski resort thân thiện môi trường với nhà hàng xoay Sky 1340, slope đa dạng và trải nghiệm nghỉ dưỡng 2-3 ngày. So sánh chi phí và"
 draft = false
 image = "images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp"

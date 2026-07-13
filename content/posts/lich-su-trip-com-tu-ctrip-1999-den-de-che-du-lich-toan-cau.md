@@ -1,7 +1,7 @@
 +++
 title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu"
 seo_title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế toàn cầu"
-commit = "f45b70cd"
+commit = "8660546e"
 date = "2026-07-13T10:40:00+07:00"
 draft = false
 author = "Minh Hoàng"

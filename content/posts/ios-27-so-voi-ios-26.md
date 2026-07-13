@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:40:00+07:00"
-commit = "f45b70cd"
+commit = "8660546e"
 description = "So sánh iOS 27 và iOS 26: Siri AI, Liquid Glass, hiệu năng, AI và lời khuyên nâng cấp cho từng nhóm người dùng iPhone tại Việt Nam."
 draft = false
 image = "images/posts/ios-27-so-voi-ios-26.webp"

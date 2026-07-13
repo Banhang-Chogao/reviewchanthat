@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "f45b70cd"
+commit = "8660546e"
 description = "Đi Hàn Quốc mùa hè mặc gì cho đẹp mà không nóng? Gợi ý outfit, chất liệu vải, phối đồ theo concept và mẹo chống nóng."
 draft = false
 image = "images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp"

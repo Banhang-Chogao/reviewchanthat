@@ -2,7 +2,7 @@
 title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
 date = "2026-07-10T00:35:00+07:00"
 date_display = "10-07-2026 00:35:00 GMT +7"
-commit = "f45b70cd"
+commit = "8660546e"
 slug = "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "TikTok", "thương hiệu cá nhân", "personal branding", "content strategy", "SEO cá nhân"]

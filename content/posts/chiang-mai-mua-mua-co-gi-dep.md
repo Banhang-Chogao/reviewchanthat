@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "f45b70cd"
+commit = "8660546e"
 description = "Chiang Mai mùa mưa có gì đẹp? Gợi ý cafe, chùa, núi xanh, thác nước và lịch trình nhẹ nhàng 3 ngày — mùa xanh nhất trong năm."
 draft = false
 image = "images/posts/chiang-mai-mua-mua-co-gi-dep.webp"

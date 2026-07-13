@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "f45b70cd"
+commit = "8660546e"
 description = "Phuket mùa mưa có nên đi không? phân tích biển động, tour đảo, chi phí tháng 7-8 và cách xếp lịch an toàn — so sánh với Koh Samui."
 draft = false
 image = "images/posts/phuket-mua-mua-co-nen-di-khong.webp"

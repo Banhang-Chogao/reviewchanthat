@@ -1,7 +1,7 @@
 +++
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
 seo_title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới & Sisu"
-commit = "f45b70cd"
+commit = "8660546e"
 date = "2026-07-11T16:06:05+07:00"
 slug = "phan-lan-hanh-phuc-01"
 aliases = ["/posts/phần-lan-quốc-gia-hạnh-phúc-nhất-thế-giới-triết-lý-sisu-và-mô-hình-phúc-lợi-xã-hội/"]

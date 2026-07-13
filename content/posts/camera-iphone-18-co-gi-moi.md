@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T13:00:00+07:00"
-commit = "f45b70cd"
+commit = "8660546e"
 description = "Tin đồn camera iPhone 18: selfie 24MP, variable aperture trên Pro, sensor Samsung và kỳ vọng chụp ảnh — phân loại nguồn MacRumors, AppleInsider cho người mua"
 draft = false
 image = "images/posts/camera-iphone-18-co-gi-moi.webp"

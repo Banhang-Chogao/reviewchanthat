@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-08T11:00:00+07:00"
-commit = "f45b70cd"
+commit = "8660546e"
 description = "Không gian Starbucks Vietnam — thiết kế, chỗ ngồi làm việc, Wi-Fi, ổ cắm. Review trải nghiệm tại chi nhánh Nguyễn Văn Trỗi Phú Nhuận."
 draft = false
 image = "images/posts/starbucks-vietnam-khong-gian-va-trai-nghiem.webp"
