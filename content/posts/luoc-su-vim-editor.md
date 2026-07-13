@@ -1,7 +1,7 @@
 +++
 title = "Lược sử hình thành Vim: từ vi trên máy Amiga đến trình soạn thảo huyền thoại của lập trình viên"
 seo_title = "Lược sử Vim: từ 1991 đến trình soạn thảo huyền thoại"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T18:00:00+07:00"
 draft = false
 editor_pick = true
@@ -53,6 +53,14 @@ title = "Làm sao thoát Vim? Giải mã meme huyền thoại và hướng dẫn
 [[internal_links]]
 ref = "posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.md"
 title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
+
+[[internal_links]]
+ref = "posts/bram-moolenaar-tieu-su-cha-de-vim.md"
+title = "Bram Moolenaar — tiểu sử cha đẻ Vim: sự nghiệp, di sản và những gì ông để lại"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
 
 [[external_links]]
 url = "https://www.vim.org/"

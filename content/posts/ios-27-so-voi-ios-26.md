@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:40:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "So sánh iOS 27 và iOS 26: Siri AI, Liquid Glass, hiệu năng, AI và lời khuyên nâng cấp cho từng nhóm người dùng iPhone tại Việt Nam."
 draft = false
 image = "images/posts/ios-27-so-voi-ios-26.webp"
@@ -46,6 +46,38 @@ label = "Giữ iOS 26"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/ios-27-co-gi-moi.md"
+title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
+
+[[internal_links]]
+ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
+title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
+
+[[internal_links]]
+ref = "posts/ios-27-cai-thien-pin-iphone.md"
+title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+
+[[internal_links]]
+ref = "posts/ios-27-camera-anh-video-iphone.md"
+title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
+
+[[internal_links]]
+ref = "posts/ios-27-ho-tro-iphone-nao.md"
+title = "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới Apple Intelligence"
+
+[[internal_links]]
+ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
+title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
 +++
 
 Đang dùng **iOS 26** ổn định, bạn có **bắt buộc** lên iOS 27 không? Không — nhưng bỏ lỡ có thể đồng nghĩa thiếu **Siri AI**, **Photos Spatial Reframing** và bản vá bảo mật dài hạn. Bài so sánh này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/) giúp bạn cân bằng **giá trị** và **rủi ro**.

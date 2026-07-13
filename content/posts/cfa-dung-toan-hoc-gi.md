@@ -5,7 +5,7 @@ description = "CFA dùng toán học gì? Tìm hiểu present value (PV), DCF, c
 date = "2026-07-10T13:16:14+07:00"
 slug = "cfa-dung-toan-hoc-gi"
 aliases = ["/posts/cfa-dùng-toán-học-gì-những-công-thức-quản-lý-tài-sản/"]
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "CFA: DCF, PV, beta, tracking error, information ratio"
 authors = ["Minh Hoàng"]
@@ -44,6 +44,26 @@ title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, 
 [[internal_links]]
 ref = "posts/ham-so-mu-e-trong-tai-chinh-la-gi.md"
 title = "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
+title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
+
+[[internal_links]]
+ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
+title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
 +++
 
 CFA (Chartered Financial Analyst) là chứng chỉ cao nhất trong quản lý tài sản. CFAs dùng **toán học cao cấp** để:

@@ -2,7 +2,7 @@
 title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
 date = "2026-07-10T00:30:00+07:00"
 date_display = "10-07-2026 00:30:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 slug = "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan"
 categories = ["cong-nghe"]
 tags = ["blog cá nhân", "thương hiệu cá nhân", "viết blog", "personal branding", "content strategy", "SEO cá nhân"]
@@ -31,6 +31,38 @@ image_creator_id = "2332540"
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-12T08:48:47+07:00"
+
+[[internal_links]]
+ref = "posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md"
+title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
+
+[[internal_links]]
+ref = "posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md"
+title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
+
+[[internal_links]]
+ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
+title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
+title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
 +++
 Nhiều người mở blog cá nhân với hứng khởi, viết được ba bài rồi dừng. Không phải vì lười. Phần lớn kẹt ở câu hỏi rất thật: **blog cá nhân nên viết gì** để vừa có người đọc, vừa xây được thương hiệu cá nhân, chứ không chỉ “viết cho vui” rồi bỏ dở.
 

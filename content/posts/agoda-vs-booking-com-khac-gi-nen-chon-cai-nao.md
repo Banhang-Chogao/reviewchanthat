@@ -1,7 +1,7 @@
 +++
 title = "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?"
 seo_title = "Agoda vs Booking.com: khác gì, chọn cái nào?"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T14:09:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -45,6 +45,26 @@ title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, 
 [[internal_links]]
 ref = "posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.md"
 title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi"
+
+[[internal_links]]
+ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
+title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
+
+[[internal_links]]
+ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
+title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
+
+[[internal_links]]
+ref = "posts/lich-su-agoda-tu-startup-den-booking-holdings.md"
+title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
+
+[[internal_links]]
+ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
+title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
+
+[[internal_links]]
+ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
+title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
 
 [[faq]]
 question = "Agoda và Booking.com có phải cùng một công ty không?"

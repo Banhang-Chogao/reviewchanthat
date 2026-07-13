@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:10:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "High1 Ski Resort Jeongseon — ski resort thân thiện môi trường với nhà hàng xoay Sky 1340, slope đa dạng và trải nghiệm nghỉ dưỡng 2-3 ngày. So sánh chi phí và"
 draft = false
 image = "images/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.webp"
@@ -66,6 +66,26 @@ title = "Yongpyong Ski Resort"
 [[internal_links]]
 ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
 title = "Alpensia Ski Resort"
+
+[[internal_links]]
+ref = "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md"
+title = "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?"
+
+[[internal_links]]
+ref = "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md"
+title = "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju"
+
+[[internal_links]]
+ref = "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
+title = "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
 
 [[tom_tat_nhanh]]
 label = "Khu vực"

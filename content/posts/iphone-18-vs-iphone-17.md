@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T15:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản phẩm — nên mua iPhone 17 ngay hay chờ Pro/Fold 2026 cho người dùng Việt Nam."
 draft = false
 image = "images/posts/iphone-18-vs-iphone-17.webp"
@@ -59,6 +59,38 @@ label = "iPhone 18"
 
 [[tom_tat_nhanh]]
 label = "Kết luận nhanh"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/iphone-18-khi-nao-ra-mat.md"
+title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
+
+[[internal_links]]
+ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+
+[[internal_links]]
+ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
+title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
+
+[[internal_links]]
+ref = "posts/iphone-18-mau-gi-dark-cherry.md"
+title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
+
+[[internal_links]]
+ref = "posts/iphone-18-pro-max-co-gi-moi.md"
+title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
 +++
 
 Giữa **mua iPhone 17 ngay** và **chờ iPhone 18**, năm 2026 khó hơn mọi kỳ vì Apple **chưa công bố** thế hệ 18, trong khi iPhone 17 (đã ra mắt) lại là bước nhảy rõ trên **bản tiêu chuẩn** — **ProMotion 120Hz** và màn **6,3 inch**. Tin đồn thêm **split launch**: Pro tháng 9/2026, base có thể **đầu 2027** ([MacRumors](https://www.macrumors.com/roundup/iphone-18/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more)).

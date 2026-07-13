@@ -1,7 +1,7 @@
 +++
 title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử"
 seo_title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm & Quán Ngon"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T12:25:00+07:00"
 slug = "xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026"
 aliases = ["/posts/cơn-sốt-mè-đen-froyo-hè-2026-cách-làm-tại-nhà-list-quán-ngon-phải-thử/"]
@@ -40,6 +40,26 @@ title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không kh
 [[internal_links]]
 ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
 title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
+title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-da-nang-2026.md"
+title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
+title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
 +++
 
 Tháng 7/2026, hai cái tên thống trị mọi mặt trận ẩm thực từ TikTok đến các quán dessert cao cấp: **mè đen (black sesame) — vị bùi béo ngai ngái đặc trưng của ẩm thực Á Đông, và frozen yogurt (froyo) — vị chua ngọt mát lạnh không tội lỗi.** Cả hai đang chiếm trọn spotlight trên Instagram Reels và TikTok Food, từ những ly kem mè đen đen tuyền sánh mịn cho đến những ly froyo xoáy tròn đầy màu sắc.

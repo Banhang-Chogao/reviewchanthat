@@ -1,7 +1,7 @@
 +++
 title = "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ"
 seo_title = "Độc hành Tà Năng Phan Dũng: tiếng gọi của rừng già"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T10:00:00+07:00"
 slug = "doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia"
 aliases = ["/posts/độc-hành-tà-năng-phan-dũng-tiếng-gọi-của-rừng-già-và-những-giới-hạn-bị-phá-bỏ/"]
@@ -40,6 +40,26 @@ title = "Cách đọc một bài review để không bị dắt mũi"
 [[internal_links]]
 ref = "posts/phần-lan-hạnh-phúc-01.md"
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
+
+[[internal_links]]
+ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
+title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
 +++
 
 Tiếng lều vải phập phồng trong gió như một sinh vật đang thở. Tôi nằm trong túi ngủ, mắt mở to trong bóng tối. Bên ngoài, rừng già đang lên tiếng. Một tiếng động lạ, nửa như tiếng cành cây gãy, nửa như tiếng bước chân của một loài vật nào đó. Tim tôi đập thình thịch. Tôi một mình, trên đỉnh đồi hoang vu, giữa một khu rừng trải dài ba tỉnh thành. Và tôi tự hỏi: mình đã làm gì với cuộc đời mình vậy?

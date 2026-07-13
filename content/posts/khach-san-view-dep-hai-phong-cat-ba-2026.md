@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp Hải Phòng & Cát Bà 2026: Review & chọn phòng"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T15:22:00+07:00"
 draft = false
 description = "Khách sạn view đẹp Hải Phòng và Cát Bà 2026: review 6 khách sạn resort nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng."
@@ -44,6 +44,22 @@ title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng ki
 [[internal_links]]
 ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
 title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
+title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-nha-trang-2026.md"
+title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-phu-yen-2026.md"
+title = "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
+title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
 [[external_links]]
 url = "https://www.trip.com/trip-best/"

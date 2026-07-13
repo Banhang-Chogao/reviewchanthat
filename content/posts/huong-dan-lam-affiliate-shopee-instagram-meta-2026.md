@@ -1,7 +1,7 @@
 +++
 title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
 seo_title = "Affiliate Shopee trên Instagram 2026: kiếm tiền từ Meta"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T12:30:00+07:00"
 slug = "huong-dan-lam-affiliate-shopee-instagram-meta-2026"
 aliases = ["/posts/cách-làm-affiliate-shopee-trên-instagram-2026-kiếm-tiền-từ-tính-năng-meta-mới/"]
@@ -40,6 +40,26 @@ title = "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và 
 [[internal_links]]
 ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
 title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
+title = "Risk Management trong tài chính: Từ VaR đến stress testing"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
 +++
 
 **Từ tháng 7/2026, bạn có thể gắn trực tiếp link sản phẩm Shopee vào Instagram Story và Reels — người xem chạm một lần là mua, không cần qua "link in bio".** Đây là cú bắt tay lịch sử giữa Meta và Shopee dành riêng cho thị trường Việt Nam, mở ra cơ hội kiếm tiền chưa từng có cho người sáng tạo nội dung, sinh viên và các mẹ bỉm sữa.

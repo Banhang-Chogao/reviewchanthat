@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T08:40:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Apple Intelligence trên iOS 27: Siri AI, yêu cầu phần cứng iPhone, tiếng Việt và giới hạn thực tế cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-apple-intelligence-iphone-cu.webp"
@@ -47,6 +47,38 @@ label = "Tính năng"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+
+[[internal_links]]
+ref = "posts/ios-27-co-gi-moi.md"
+title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
+[[internal_links]]
+ref = "posts/macos-27-ho-tro-may-mac-nao.md"
+title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
+
+[[internal_links]]
+ref = "posts/macos-27-hieu-nang-pin-macbook.md"
+title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/ios-27-so-voi-ios-26.md"
+title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
+
+[[internal_links]]
+ref = "posts/ios-27-cai-thien-pin-iphone.md"
+title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
 +++
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **iOS 27** là lần Apple cố biến AI thành thói quen trên iPhone — không chỉ demo keynote. Câu hỏi thực tế: **iPhone của bạn chạy được những gì, và tiếng Việt đến đâu?**

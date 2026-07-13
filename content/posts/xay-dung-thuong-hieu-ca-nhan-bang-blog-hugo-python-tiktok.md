@@ -4,7 +4,7 @@ date = "2026-07-10T00:10:00+07:00"
 slug = "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"
 aliases = ["/posts/xây-dựng-thương-hiệu-cá-nhân-bằng-blog-hugo-và-python-nền-tảng-bền-vững-hơn-khi-kết-hợp-tiktok/"]
 date_display = "10-07-2026 00:10:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
@@ -51,6 +51,26 @@ title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nh
 [[internal_links]]
 ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
 title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md"
+title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
+title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
 +++
 Bạn có thể nhận thấy rằng hầu hết những người xây dựng thương hiệu cá nhân ngày nay đều bắt đầu từ TikTok, Instagram hay YouTube. Nhưng có một vấn đề: **bạn không sở hữu độc lập nền tảng đó.**
 

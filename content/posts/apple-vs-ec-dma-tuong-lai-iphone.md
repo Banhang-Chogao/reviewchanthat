@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:20:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người"
 draft = false
 image = "images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp"
@@ -70,6 +70,38 @@ label = "Hợp với"
 value = "Ai đọc cả series hoặc cần bức tranh tổng thể nhanh"
 image_attribution_checked_at = "2026-07-14T00:09:49+07:00"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md"
+title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào"
+
+[[internal_links]]
+ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+
+[[internal_links]]
+ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+
+[[internal_links]]
+ref = "posts/apple-thua-kien-eu-app-store-ios-dma.md"
+title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA"
+
+[[internal_links]]
+ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
+title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+
+[[internal_links]]
+ref = "posts/european-commission-duoc-gi-khi-thang-apple.md"
+title = "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 +++
 
 Hai năm rưỡi sau khi Apple được chỉ định **gatekeeper** theo Digital Markets Act (DMA), iPhone ở châu Âu **không giống** iPhone ở Việt Nam. Cùng một logo táo khuyết, nhưng người dùng Berlin có thể thấy **browser choice screen**, **marketplace thay thế** và **cảnh báo thanh toán ngoài App Store** — còn người dùng Hà Nội vẫn **một cửa App Store, một Apple ID, một quy trình hoàn tiền quen thuộc**.

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-06-22T10:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Review dài hàng nghìn chữ có thể là dấu hiệu của content marketing, không phải trải nghiệm thật."
 draft = false
 image = "images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp"
@@ -61,6 +61,38 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính mua hàng"
+
+[[internal_links]]
+ref = "posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md"
+title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
+
+[[internal_links]]
+ref = "posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md"
+title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
+
+[[internal_links]]
+ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
+title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
+
+[[internal_links]]
+ref = "posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md"
+title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
 +++
 
 Bạn có bao giờ tự hỏi: review dài 2000 chữ, đầy đủ thông số kỹ thuật, benchmark, so sánh con số — vậy có đáng tin không?

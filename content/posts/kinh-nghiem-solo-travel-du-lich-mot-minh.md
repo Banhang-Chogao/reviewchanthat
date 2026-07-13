@@ -1,7 +1,7 @@
 +++
 title = "Kinh Nghiệm Du Lịch Tự Túc Một Mình (Solo Travel) An Toàn Và Trọn Vẹn"
 seo_title = "Kinh nghiệm solo travel: du lịch một mình an toàn, trọn vẹn"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T14:10:00+07:00"
 slug = "kinh-nghiem-solo-travel-du-lich-mot-minh"
 aliases = ["/posts/kinh-nghiệm-du-lịch-tự-túc-một-mình-solo-travel-an-toàn-và-trọn-vẹn/"]
@@ -40,6 +40,26 @@ title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026
 [[internal_links]]
 ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
 title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
 +++
 
 Du lịch một mình — solo travel — không còn là điều xa lạ với giới trẻ Việt Nam năm 2026. Nhưng đi một mình khác xa với đi cùng bạn bè: bạn tự lo mọi thứ, từ đặt phòng, lên lịch trình, quản lý tài chính đến giữ an toàn cho bản thân. Không có ai nhắc bạn "đem theo ô dù" hay "coi chừng kẻ gian" — mọi quyết định đều thuộc về bạn. Bài viết này là bộ cẩm nang kinh nghiệm du lịch một mình dành cho người mới bắt đầu, với lịch trình solo travel cho nữ chi tiết tại Hội An, Đà Lạt và Quy Nhơn — ba điểm đến du lịch tự túc an toàn tôi đã trực tiếp trải nghiệm.

@@ -1,7 +1,7 @@
 +++
 title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
 seo_title = "Lịch Sử Atomico: Từ Ý Tưởng 2010 Đến Quỹ Đầu Tư Tỷ USD"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T14:15:00+07:00"
 slug = "lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay"
 aliases = ["/posts/lịch-sử-thành-lập-và-phát-triển-atomico-từ-một-ý-tưởng-năm-2010-đến-quỹ-đầu-tư-tỷ-usd/"]
@@ -54,6 +54,26 @@ image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
 date_display = "11-07-2026 14:15:00 GMT +7"
+
+[[internal_links]]
+ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
+title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
+
+[[internal_links]]
+ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
+title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
+
+[[internal_links]]
+ref = "posts/danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk.md"
+title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những công ty Thay Đổi Thế Giới"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
+title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
 +++
 
 ## Hành Trình Xây Dựng Atomico: Từ Ý Tưởng Đến Hiện Thực

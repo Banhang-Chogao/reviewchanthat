@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T08:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Tổng quan iOS 27 sau WWDC26: Siri AI, Apple Intelligence, hiệu năng, quyền riêng tư và timeline beta/public cho người dùng iPhone tại Việt Nam."
 draft = false
 image = "images/posts/ios-27-co-gi-moi.webp"
@@ -46,6 +46,38 @@ label = "Điểm nổi bật"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[internal_links]]
+ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
+title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/ios-27-so-voi-ios-26.md"
+title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
+
+[[internal_links]]
+ref = "posts/ios-27-cai-thien-pin-iphone.md"
+title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+
+[[internal_links]]
+ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
+title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+
+[[internal_links]]
+ref = "posts/ios-27-camera-anh-video-iphone.md"
+title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
+
+[[internal_links]]
+ref = "posts/ios-27-beta-co-nen-cai-khong.md"
+title = "iOS 27 beta có nên cài không? rủi ro, cách backup và quay về bản ổn định"
 +++
 
 Mỗi năm sau WWDC, group iPhone Việt Nam lại hỏi cùng một câu: **có đáng lên iOS mới không, hay cứ ở bản cũ cho yên ổn?** Năm nay câu hỏi gay cấn hơn vì Apple không chỉ vá lỗi — họ đặt cược lớn vào **Siri AI**, **Apple Intelligence thế hệ hai** và lớp thiết kế **Liquid Glass** đã gây tranh cãi từ iOS 26.

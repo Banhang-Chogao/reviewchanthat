@@ -1,7 +1,7 @@
 +++
 title = "Review Máy Pha Cà Phê Gia Đình 2026: Từ Phin Pha Tay Đến Máy Tự Động"
 seo_title = "Review máy pha cà phê gia đình 2026: Chọn loại nào?"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T23:44:27+07:00"
 slug = "review-may-pha-ca-phe-gia-dinh-2026"
 draft = false
@@ -25,6 +25,38 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
+[[internal_links]]
+ref = "posts/review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi.md"
+title = "Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc và khi nào thật sự đáng mua"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
+title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
 +++
 
 ## Mở đầu: Khi cà phê không còn là chuyện ra quán

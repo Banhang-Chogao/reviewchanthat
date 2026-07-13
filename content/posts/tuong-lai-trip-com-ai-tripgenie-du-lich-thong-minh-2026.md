@@ -1,7 +1,7 @@
 +++
 title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
 seo_title = "Tương lai Trip.com: AI TripGenie & du lịch thông minh"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T09:55:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -45,6 +45,26 @@ title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu h�
 [[internal_links]]
 ref = "posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.md"
 title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
+
+[[internal_links]]
+ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
+title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
+
+[[internal_links]]
+ref = "posts/huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026.md"
+title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026"
+
+[[internal_links]]
+ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
+title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
+
+[[internal_links]]
+ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
+title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
+
+[[internal_links]]
+ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
+title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
 
 [[faq]]
 question = "TripGenie là gì và có mất phí không?"

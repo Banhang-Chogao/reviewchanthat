@@ -1,7 +1,7 @@
 +++
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
 seo_title = "Thủ tục xin visa thương mại DN1, DN2 cho chuyên gia 2026"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T05:00:00+07:00"
 slug = "huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026"
 aliases = ["/posts/hướng-dẫn-thủ-tục-xin-visa-thương-mại-dn1-dn2-cho-chuyên-gia-nước-ngoài-2026/"]
@@ -44,6 +44,22 @@ title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Q
 [[internal_links]]
 ref = "posts/huong-dan-mien-visa-uzbekistan-5-ngay.md"
 title = "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
 
 [[faq]]
 question = "Câu Hỏi 1: Chuyên Gia Nước Ngoài Có Thể Vào Việt Nam Bằng Visa Du Lịch Rồi Xin Visa Thương Mại Không?"

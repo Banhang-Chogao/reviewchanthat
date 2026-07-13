@@ -20,7 +20,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "320d6036"
+commit = "45c0695c"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_id = ""
@@ -41,6 +41,26 @@ title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc G
 [[internal_links]]
 ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
 title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
+title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
+
+[[internal_links]]
+ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
+title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
 
 [[faq]]
 question = "Q: Tôi có thể sống bền vững nếu tôi ở một quốc gia không phải Scandinavia không?"

@@ -5,7 +5,7 @@ date = "2026-07-11T11:15:00+07:00"
 slug = "huong-dan-mien-visa-uzbekistan-5-ngay"
 aliases = ["/posts/kinh-nghiệm-miễn-visa-uzbekistan-5-ngày-lịch-trình-liên-tuyến-3-nước-trung-á/"]
 date_display = "11-07-2026 11:15:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 draft = false
 tags = ["visa uzbekistan", "du lich trung a", "kinh nghiem du lich", "mien visa"]
 categories = ["du-lich"]
@@ -40,6 +40,26 @@ title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch t
 [[internal_links]]
 ref = "posts/ky-su-tallinn-dem-trang-thi-tran-co.md"
 title = "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
 +++
 Tuần trước, tôi vừa kết thúc một chuyến xuyên Trung Á kéo dài gần 2 tuần — băng qua Kazakhstan, Kyrgyzstan và Uzbekistan. Điều làm tôi ấn tượng nhất không phải những thảo nguyên mênh mông hay thành cổ nghìn năm tuổi, mà là một tin vui mà rất nhiều người Việt chưa biết: **hộ chiếu Việt Nam được miễn visa Uzbekistan tối đa 5 ngày**, không cần xin trước, không e-visa, không thủ tục rườm rà.
 

@@ -1,7 +1,7 @@
 +++
 title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
 seo_title = "M&A Trip.com: Qunar, Skyscanner, MakeMyTrip"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T10:30:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -45,6 +45,26 @@ title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
 [[internal_links]]
 ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
 title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
+
+[[internal_links]]
+ref = "posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.md"
+title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu"
+
+[[internal_links]]
+ref = "posts/ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa.md"
+title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
+
+[[internal_links]]
+ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
+title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
+
+[[internal_links]]
+ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
+title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
+
+[[internal_links]]
+ref = "posts/huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026.md"
+title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026"
 
 [[faq]]
 question = "Thương vụ Ctrip và Qunar diễn ra như thế nào?"

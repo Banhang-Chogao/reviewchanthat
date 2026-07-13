@@ -4,7 +4,7 @@ description = "Log-return là gì và vì sao quỹ đầu tư, AI tài chính d
 date = "2026-07-10T11:00:00+07:00"
 slug = "log-tu-nhien-log-return-trong-dau-tu"
 aliases = ["/posts/log-tự-nhiên-trong-đầu-tư-là-gì-vì-sao-giới-tài-chính-dùng-log-return/"]
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T11:00:00+07:00"
 seo_title = "Log-return là gì: công thức ln(Pt/Pt-1) trong đầu tư"
 authors = ["Minh Hoàng"]
@@ -45,6 +45,26 @@ title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài
 [[internal_links]]
 ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
 title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/cfa-dung-toan-hoc-gi.md"
+title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
+title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
+
+[[internal_links]]
+ref = "posts/ham-so-mu-e-trong-tai-chinh-la-gi.md"
+title = "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
 +++
 
 Khi bạn đầu tư vào cổ phiếu VietcomBank với giá 100,000 đồng, giá tăng lên 110,000 (+10%), rồi giảm xuống 104,500 (-5%), lợi suất cuối cùng là bao nhiêu?

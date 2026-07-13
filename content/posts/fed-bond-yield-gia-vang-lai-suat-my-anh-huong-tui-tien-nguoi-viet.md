@@ -4,7 +4,7 @@ date = "2026-07-10T03:30:00+07:00"
 slug = "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet"
 aliases = ["/posts/fed-lãi-suất-giá-vàng-bond-yield-mỹ-ảnh-hưởng-ví-tiền-người-việt-như-thế-nào/"]
 date_display = "10-07-2026 03:30:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 categories = ["tai-chinh"]
 tags = ["Fed", "lãi suất", "giá vàng", "bond yield", "kinh tế Mỹ", "kinh tế Việt Nam", "tỷ giá"]
 author = "Minh Hoàng"
@@ -49,6 +49,26 @@ title = "Personal Finance 2026: tiết kiệm tự động, high-yield savings, 
 [[internal_links]]
 ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
+title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
+
+[[internal_links]]
+ref = "posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.md"
+title = "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?"
 +++
 Bạn nghe tin tức: **"Fed tăng lãi suất"** hoặc **"10-year yield tăng lên 4%"** hoặc **"vàng giảm giá.** Nhưng bạn thắc mắc:
 

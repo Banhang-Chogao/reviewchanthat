@@ -4,7 +4,7 @@ title = "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày"
 seo_title = "20 công cụ AI tiết kiệm 2 giờ/ngày (2026)"
 description = "Danh sách 20 công cụ AI thực dụng cho viết, họp, học và tài chính. Có bảng so sánh, checklist chọn tool và lưu ý chi phí — không FOMO, không quảng cáo ảo."
 date = "2026-07-10T14:52:38+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T14:52:38+07:00"
 date_display = "10-07-2026 14:52:38 GMT +7"
 lastmod_display = "10-07-2026 14:52:38 GMT +7"
@@ -79,6 +79,26 @@ ref = "posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md"
 title = "So sánh ví điện tử Việt Nam"
 image_attribution_checked_at = "2026-07-12T08:49:01+07:00"
 image_query = "mobile banking payment app"
+
+[[internal_links]]
+ref = "posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md"
+title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+
+[[internal_links]]
+ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
+title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
+[[internal_links]]
+ref = "posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.md"
+title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
 +++
 
 Hai giờ mỗi ngày nghe nhiều — nhưng **không phải phép màu**. Bài này liệt kê **20 công cụ AI** theo nhóm việc, kèm điều kiện dùng, mức free/pro (khái quát), và cách **không** biến danh sách thành 20 subscription.

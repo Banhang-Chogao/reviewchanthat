@@ -1,6 +1,6 @@
 +++
 title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T08:00:00+07:00"
 lastmod = "2026-07-11T08:00:00+07:00"
 date_display = "11-07-2026 08:00:00 GMT +7"
@@ -42,6 +42,26 @@ title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý
 [[internal_links]]
 ref = "posts/phần-lan-sauna-05.md"
 title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
+
+[[internal_links]]
+ref = "posts/cong-thuc-do-uong-giai-nhiet-home-cafe.md"
+title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
+
+[[internal_links]]
+ref = "posts/loi-song-xanh-bac-au-thien-nhien-estonia.md"
+title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.md"
+title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
 +++
 
 Khi nhắc đến Thụy Điển, đa số người Việt nghĩ ngay đến IKEA, Volvo, hay giải Nobel. Nhưng có hai khái niệm văn hóa mà người Thụy Điển mang theo trong từng hơi thở — Lagom và Fika — lại ít được biết đến ở Việt Nam. Lagom không phải là một trào lưu wellness mới nổi trên Instagram. Fika không đơn thuần là "đi uống cà phê". Đây là những triết lý sống đã được tôi luyện qua hàng thế kỷ, góp phần đưa Thụy Điển trở thành một trong những quốc gia hạnh phúc nhất hành tinh theo [World Happiness Report](https://worldhappiness.report/).

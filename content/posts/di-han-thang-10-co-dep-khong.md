@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T06:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Đi Hàn tháng 10 có đẹp không? Thời tiết mùa thu, lá đỏ, mặc gì, lịch trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt."
 draft = false
 image = "images/posts/di-han-thang-10-co-dep-khong.webp"
@@ -64,6 +64,38 @@ label = "Phù hợp"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý"
+
+[[internal_links]]
+ref = "posts/seoul-thang-10-nen-di-dau.md"
+title = "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/seoraksan-thang-10-ngam-la-do.md"
+title = "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
+title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md"
+title = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ"
+
+[[internal_links]]
+ref = "posts/nami-thang-10-co-dang-di-khong.md"
+title = "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.md"
+title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan"
 +++
 
 Bạn đang lên kế hoạch **đi Hàn tháng 10** và thấy trên mạng ảnh lá vàng, lá đỏ ở Seoul, Nami, Seoraksan — rồi tự hỏi: *tháng 10 có đẹp thật không, hay chỉ đẹp trên Instagram?* Câu trả lời ngắn: **tháng 10 là một trong những tháng đáng cân nhắc nhất** để du lịch Hàn Quốc nếu bạn thích mùa thu, đi bộ nhiều và chụp ảnh cảnh quan. Nhưng trải nghiệm cụ thể phụ thuộc **bạn đi đầu tháng hay cuối tháng**, **đi Seoul hay leo núi**, và **năm đó lá đỏ đến sớm hay muộn**.

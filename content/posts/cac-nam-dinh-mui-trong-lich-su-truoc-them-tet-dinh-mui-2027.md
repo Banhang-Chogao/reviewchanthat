@@ -72,6 +72,22 @@ title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: quà tặng xanh và sứ
 [[internal_links]]
 ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
 title = "Sinh năm 2027 mệnh gì? Tuổi Đinh Mùi Thiên Hà Thủy, hướng tốt & phong thủy"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
+title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
+
+[[internal_links]]
+ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
+title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
 +++
 
 Mỗi độ cuối năm, khi những cơn gió chớm lạnh báo hiệu một mùa Tết đang tới gần, người Việt lại có thói quen ngoảnh nhìn về phía sau để soi tỏ con đường phía trước. Tết Nguyên Đán 2027 sắp tới sẽ mang tên **Đinh Mùi** – một cái tên tưởng chừng chỉ là quy ước lịch pháp, nhưng nếu lần giở sử sách, ta sẽ thấy mỗi lần "Đinh Mùi" trở lại đều trùng vào những khúc quanh đáng nhớ của dân tộc và thế giới. Bài viết này không nhằm luận bàn năm tốt hay xấu theo lối bói toán, mà mượn tinh thần **"ôn cố tri tân"** – ôn lại cái cũ để hiểu cái mới – nhìn lại những năm Đinh Mùi trong hai thế kỷ qua, và suy ngẫm xem quá khứ để lại cho chúng ta điều gì trước thềm 2027.

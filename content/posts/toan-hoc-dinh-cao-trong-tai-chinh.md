@@ -4,7 +4,7 @@ description = "Series tổng kết: Từ e^(rt) đến Black-Scholes, Monte Carl
 date = "2026-07-10T12:45:00+07:00"
 slug = "toan-hoc-dinh-cao-trong-tai-chinh"
 aliases = ["/posts/toán-học-đỉnh-cao-trong-tài-chính-pillar-tổng-kết-15-bài/"]
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T12:45:00+07:00"
 seo_title = "Series finale: toán học tài chính đỉnh cao, tổng kết"
 authors = ["Minh Hoàng"]
@@ -45,6 +45,26 @@ title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý
 [[internal_links]]
 ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/cfa-dung-toan-hoc-gi.md"
+title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
+
+[[internal_links]]
+ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
+title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
+
+[[internal_links]]
+ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
+title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
 +++
 
 **Series 15/15 — Tổng kết.**

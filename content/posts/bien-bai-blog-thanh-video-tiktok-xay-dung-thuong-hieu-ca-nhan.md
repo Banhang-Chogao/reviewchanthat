@@ -4,7 +4,7 @@ date = "2026-07-10T00:15:00+07:00"
 slug = "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan"
 aliases = ["/posts/biến-bài-blog-thành-video-tiktok-chiến-lược-cắt-nội-dung-để-xây-dựng-thương-hiệu-cá-nhân-bền-vững/"]
 date_display = "10-07-2026 00:15:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 categories = ["cong-nghe"]
 tags = ["thương hiệu cá nhân", "blog cá nhân", "Hugo", "Python", "TikTok", "content system", "SEO cá nhân"]
 author = "Minh Hoàng"
@@ -51,6 +51,26 @@ title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nh
 [[internal_links]]
 ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
 title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md"
+title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 +++
 Nếu bạn đã xây dựng một blog Hugo với nội dung chất lượng cao, bước tiếp theo là **đưa nó tới đúng người cần đọc.**
 

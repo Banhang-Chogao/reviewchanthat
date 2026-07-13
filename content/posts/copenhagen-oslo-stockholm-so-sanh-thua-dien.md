@@ -21,7 +21,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "320d6036"
+commit = "45c0695c"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_url = "https://www.pexels.com/@thejourneyofframes"
@@ -41,6 +41,26 @@ title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Sca
 [[internal_links]]
 ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+
+[[internal_links]]
+ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
+title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
+
+[[internal_links]]
+ref = "posts/fjord-na-uy-thac-nuoc-dong-tien.md"
+title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh"
+
+[[internal_links]]
+ref = "posts/ky-su-stockholm-thanh-pho-tren-nhung-hon-dao.md"
+title = "Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
 
 [[faq]]
 question = "Q: Thành phố nào rẻ nhất?"

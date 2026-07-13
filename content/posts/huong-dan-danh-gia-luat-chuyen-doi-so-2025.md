@@ -1,7 +1,7 @@
 +++
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
 seo_title = "Luật Chuyển đổi số 2025: doanh nghiệp cần chuẩn bị gì?"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T11:30:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -72,6 +72,22 @@ title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Ngư
 [[internal_links]]
 ref = "posts/danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026.md"
 title = "Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026"
+
+[[internal_links]]
+ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
+title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
+
+[[internal_links]]
+ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
+title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+
+[[internal_links]]
+ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
+title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
+
+[[internal_links]]
+ref = "posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.md"
+title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
 +++
 
 ## 1/7/2026 — Ngày Luật Chuyển Đổi Số Chính Thức Có Hiệu Lực: Vì Sao Doanh Nghiệp Không Thể Đứng Ngoài?

@@ -5,7 +5,7 @@ description = "BlackRock ($10 triliệu quản lý) dùng toán học nào? Họ
 date = "2026-07-10T13:16:14+07:00"
 slug = "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc"
 aliases = ["/posts/blackrock-dùng-toán-học-và-dữ-liệu-như-thế-nào-quản-lý-danh-mục-khổng-lồ/"]
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T14:10:36+07:00"
 seo_title = "BlackRock: factor models, machine learning, ESG, Aladdin"
 authors = ["Minh Hoàng"]
@@ -44,6 +44,26 @@ title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài
 [[internal_links]]
 ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
 title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
+[[internal_links]]
+ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
+title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
+title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
+
+[[internal_links]]
+ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
+title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 +++
 
 BlackRock quản lý **$10+ triliệu tài sản** — lớn nhất thế giới. Họ dùng **toán học, machine learning, big data** để:

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T13:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Hướng dẫn kiểm tra pin iPhone 15 Pro Max khi mua máy cũ: Battery Health, chu kỳ sạc, dấu hiệu chai và checklist kỹ thuật đầy đủ."
 draft = false
 image = "images/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.webp"
@@ -46,6 +46,38 @@ label = "Kiểm tra"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
+title = "iPhone 16 Pro Max năm 2026 nên mua không?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.md"
+title = "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.md"
+title = "iPhone 15 Pro Max màu titan có còn đáng mua không?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.md"
+title = "iPhone 15 Pro Max Natural Titanium: đánh giá màu"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md"
+title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
+
+[[internal_links]]
+ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
+title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
 +++
 
 Mua iPhone 15 Pro Max cũ mà **không soi pin** giống mua xe không xem odo. Máy đẹp màu [Natural Titanium](/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau/) hay [Blue Titanium](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/) vẫn **chết giữa chiều** nếu pin đã qua nhiều chu kỳ hoặc từng sửa kém. Bài này là **checklist thực dụng** cho thị trường Việt Nam 2026.

@@ -4,7 +4,7 @@ date = "2026-07-10T05:00:00+07:00"
 slug = "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau"
 aliases = ["/posts/ai-stocks-là-gì-cổ-phiếu-ai-chip-và-tác-động-thị-trường-toàn-cầu-lên-việt-nam/"]
 date_display = "10-07-2026 05:00:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 categories = ["tai-chinh"]
 tags = ["AI stocks", "chip semiconductors", "cổ phiếu công nghệ", "đầu tư AI", "NVIDIA", "thị trường toàn cầu"]
 author = "Minh Hoàng"
@@ -50,6 +50,26 @@ title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index,
 [[internal_links]]
 ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
 title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
+title = "Risk Management trong tài chính: Từ VaR đến stress testing"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
 +++
 Năm 2024–2026, một từ khóa lặp lại ở mọi nơi: **AI.** Và theo AI, có từ **chip.** Nếu bạn là nhà đầu tư, bạn chắc chắn nghe nói về cổ phiếu công nghệ, NVIDIA, TSMC, và nhu cầu chip "vô tận."
 

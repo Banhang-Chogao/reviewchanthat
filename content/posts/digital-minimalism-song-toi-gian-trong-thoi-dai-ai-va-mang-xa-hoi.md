@@ -4,7 +4,7 @@ title = "Digital Minimalism: sống tối giản trong thời đại AI và mạ
 seo_title = "Digital Minimalism: sống tối giản thời đại AI và mạng xã hội"
 description = "Digital minimalism là sống tối giản trong thời đại AI — cách giảm thiết bị, app, dữ liệu để tập trung vào điều thực sự quan trọng. Áp dụng cho người Việt."
 date = "2026-07-10T18:57:10+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"
@@ -77,6 +77,22 @@ title = "Sống thông minh trong thời đại AI"
 [[internal_links]]
 ref = "posts/flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do.md"
 title = "Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày?"
+
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
+
+[[internal_links]]
+ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
+title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
+
+[[internal_links]]
+ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
+title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
+
+[[internal_links]]
+ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
+title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
 +++
 
 Bạn có bao nhiêu app trên điện thoại? Trung bình một người Việt có 80-120 app. Bạn dùng thường xuyên bao nhiêu? Có thể chỉ 15-20 cái. Số còn lại — game bạn cài năm ngoái, app ngân hàng của ngân hàng bạn đã đóng thẻ, app chỉnh ảnh bạn mở đúng một lần — ngốn dung lượng, gửi notification và khiến bạn phân tâm.

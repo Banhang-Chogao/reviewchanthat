@@ -1,7 +1,7 @@
 +++
 title = "Cầu trên biển ngắm cánh đồng điện gió Cà Mau: trải nghiệm du lịch xanh độc lạ 2026"
 seo_title = "Du lịch điện gió Cà Mau: cầu trên biển 17 km & kinh nghiệm đi"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T17:30:00+07:00"
 draft = false
 editor_pick = true
@@ -49,6 +49,18 @@ title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trì
 [[internal_links]]
 ref = "posts/bien-ba-dong-tra-vinh.md"
 title = "Biển Ba Động Trà Vinh: bãi biển giồng cát bình dị của miền Tây và kinh nghiệm đường đi 2026"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
 
 [[external_links]]
 url = "https://vnexpress.net/cau-tren-bien-cho-khach-ngam-canh-dong-dien-gio-o-ca-mau-5094065.html"

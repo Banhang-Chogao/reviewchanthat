@@ -4,7 +4,7 @@ date = "2026-07-10T09:50:57+07:00"
 slug = "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026"
 aliases = ["/posts/momo-zalopay-hay-shopeepay-ví-điện-tử-nào-phù-hợp-nhất-năm-2026/"]
 date_display = "10-07-2026 09:50:57 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 categories = ["tai-chinh"]
 tags = ["ví điện tử", "MoMo", "ZaloPay", "ShopeePay", "so sánh ví điện tử", "thanh toán không tiền mặt", "ví điện tử Việt Nam", "MoMo vs ZaloPay vs ShopeePay"]
 author = "Minh Hoàng"
@@ -41,6 +41,34 @@ image_alt = "Ảnh minh họa MoMo, ZaloPay hay ShopeePay? Ví điện tử nào
 [[internal_links]]
 ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
 title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
+title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
+
+[[internal_links]]
+ref = "posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.md"
+title = "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
+title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
 
 [[faq]]
 question = "Tôi có thể dùng nhiều ví cùng lúc không?"

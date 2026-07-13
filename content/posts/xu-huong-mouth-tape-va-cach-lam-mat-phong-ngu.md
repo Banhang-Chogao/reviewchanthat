@@ -1,7 +1,7 @@
 +++
 title = "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè"
 seo_title = "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T12:10:00+07:00"
 slug = "xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu"
 aliases = ["/posts/mouth-tape-có-tốt-không-tác-hại-thở-miệng-khi-ngủ-mẹo-làm-mát-phòng-hè/"]
@@ -40,6 +40,26 @@ title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao N
 [[internal_links]]
 ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
 title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
+title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026.md"
+title = "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10"
+
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
 +++
 
 Giữa năm 2026, "vệ sinh giấc ngủ" (sleep hygiene) không còn là khái niệm xa lạ. Trên TikTok, Instagram, hàng loạt video hướng dẫn dùng **mouth tape — băng dính miệng khi ngủ** thu về triệu lượt xem. Đồng thời, cái nóng mùa hè khiến việc duy trì một phòng ngủ mát mẻ trở thành ưu tiên số một.

@@ -4,7 +4,7 @@ title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà kh
 seo_title = "Dọn Mac đúng cách: tối ưu dung lượng và tăng tốc MacBook"
 description = "Cách dọn Mac sạch — giải phóng bộ nhớ, tối ưu macOS, tăng tốc MacBook không cần cài lại. Hướng dẫn chi tiết cho người Việt dùng Mac."
 date = "2026-07-10T18:57:10+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"
@@ -71,6 +71,30 @@ ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
 title = "Dọn iPhone như thế nào để máy luôn mượt"
 image_attribution_checked_at = "2026-07-12T08:49:00+07:00"
 image_query = "dọn mac đúng cách tối"
+
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
+
+[[internal_links]]
+ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
+title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
+
+[[internal_links]]
+ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
+title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối"
+
+[[internal_links]]
+ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
+title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
+
+[[internal_links]]
+ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
+title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại"
+
+[[internal_links]]
+ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
+title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
 +++
 
 Bạn mở "About This Mac" → tab Storage — và con số hiện ra: **23GB còn trống trên 256GB**. Bạn tự hỏi: "Rõ ràng mình không lưu gì nhiều, sao ổ cứng đầy thế?"

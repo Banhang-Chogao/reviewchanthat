@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T13:20:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "So sánh iPhone 15 Pro Max và 16 Pro Max năm 2026: giá, màn hình, Camera Control, pin, màu titan và gợi ý nên mua hoặc lên đời."
 draft = false
 image = "images/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.webp"
@@ -47,6 +47,38 @@ label = "Giữ 15"
 [[tom_tat_nhanh]]
 label = "Lên 16"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.md"
+title = "iPhone 15 Pro Max màu titan có còn đáng mua không?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.md"
+title = "iPhone 15 Pro Max Natural Titanium: đánh giá màu"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md"
+title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
+
+[[internal_links]]
+ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
+title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
+
+[[internal_links]]
+ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
+title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
 +++
 
 Đây là câu hỏi **cuối series** iPhone 15 Pro Max: đã có (hoặc sắp mua) 15 Pro Max, **có đáng bỏ thêm tiền lên 16 Pro Max** không? Không có đáp án chung — chỉ có **đáp án đúng với ngân sách và tay bạn**.

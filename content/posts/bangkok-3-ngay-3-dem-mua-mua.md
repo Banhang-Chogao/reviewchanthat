@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình chi tiết cho người lần đầu   — điểm indoor, chợ, ăn uống, massage kèm ngân sách 5-7 triệu."
 draft = false
 image = "images/posts/bangkok-3-ngay-3-dem-mua-mua.webp"
@@ -70,6 +70,26 @@ title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chi
 [[internal_links]]
 ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
 title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
+
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
+title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
 +++
 
 Đi Bangkok lần đầu vào mùa mưa có thể hơi lo, nhưng thực ra đây là thời điểm lý tưởng để khám phá thành phố nếu bạn có một lịch trình hợp lý. Giá vé rẻ, khách sạn giảm, điểm tham quan vắng — và quan trọng nhất, Bangkok có đủ indoor attractions để bạn không bao giờ cảm thấy "mất cả ngày vì mưa".

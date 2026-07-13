@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T17:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết lạnh, mặc gì, lịch trình Seoul–Nami–Seoraksan và chi phí tự túc cho người Việt."
 draft = false
 image = "images/posts/di-han-thang-11-co-dep-khong.webp"
@@ -64,6 +64,38 @@ label = "Phù hợp"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-co-dep-khong.md"
+title = "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/seoul-thang-11-nen-di-dau.md"
+title = "Seoul tháng 11 nên đi đâu? Lịch trình 3 ngày ngắm peak lá đỏ"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/seoraksan-thang-10-ngam-la-do.md"
+title = "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
+
+[[internal_links]]
+ref = "posts/seoul-thang-10-nen-di-dau.md"
+title = "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu"
 +++
 
 Bạn đang cân nhắc **đi Hàn tháng 11** sau khi thấy ảnh lá đỏ rực ở Seoul, Bukchon hay cung điện — và tự hỏi: *tháng 11 có còn đẹp không, hay đã muộn so với tháng 10?* Câu trả lời ngắn: **tháng 11 thường là tháng peak lá đỏ ở Seoul và nhiều khu vực đô thị**, nhưng **lạnh hơn rõ** so với tháng 10 và một số núi cao có thể **đã rụng lá** vào cuối tháng. Trải nghiệm cụ thể phụ thuộc **bạn đi đầu hay cuối tháng 11**, và **năm đó lá đỏ đến sớm hay muộn**.

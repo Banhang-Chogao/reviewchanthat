@@ -4,7 +4,7 @@ date = "2026-07-10T09:00:00+07:00"
 slug = "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap"
 aliases = ["/posts/apple-pay-việt-nam-ngân-hàng-nào-hỗ-trợ-cách-thêm-thẻ-và-những-lỗi-thường-gặp/"]
 date_display = "10-07-2026 09:00:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 categories = ["tai-chinh"]
 tags = ["Apple Pay Việt Nam", "Apple Pay ngân hàng nào hỗ trợ", "cách thêm thẻ vào Apple Pay", "Apple Pay có an toàn không", "Apple Pay lỗi", "thanh toán không tiếp xúc", "Visa Apple Pay", "Mastercard Apple Pay"]
 author = "Minh Hoàng"
@@ -50,6 +50,26 @@ title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch 
 [[internal_links]]
 ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
+title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
 
 [[faq]]
 question = "Apple Pay có tính phí không?"

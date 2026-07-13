@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-09T04:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Kinh nghiệm xin visa Hàn Quốc du lịch tự túc theo diện thu nhập trên 8.000 USD/năm: hồ sơ tài chính cần chuẩn bị, cách chứng minh và lưu ý khi nộp."
 draft = false
 image = "images/posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.webp"
@@ -75,6 +75,26 @@ title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi
 [[internal_links]]
 ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
 title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
 +++
 
 Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính "chưa đủ mạnh"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng không rõ điều đó có thật không, và phải chứng minh bằng lương, sao kê hay sổ tiết kiệm? Bạn sợ nộp sai diện, mất phí, rồi rớt visa mà không hiểu vì sao?

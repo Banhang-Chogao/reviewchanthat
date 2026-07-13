@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "iPhone 18 chip A20 có gì đáng chú ý? Tin đồn TSMC N2 2nm, A20 vs A20 Pro, hiệu năng, pin và Apple Intelligence — nguồn MacRumors, AppleInsider."
 draft = false
 image = "images/posts/iphone-18-chip-a20-2nm.webp"
@@ -60,6 +60,38 @@ label = "Lợi ích (đồn)"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/iphone-18-khi-nao-ra-mat.md"
+title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
+
+[[internal_links]]
+ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-pro-max-co-gi-moi.md"
+title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
+
+[[internal_links]]
+ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
+title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
+
+[[internal_links]]
+ref = "posts/iphone-18-vs-iphone-17.md"
+title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
+
+[[internal_links]]
+ref = "posts/iphone-18-mau-gi-dark-cherry.md"
+title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
 +++
 
 Mỗi thế hệ iPhone, chip Apple Silicon là **trục kỹ thuật** quyết định hiệu năng, pin, nhiệt và khả năng chạy **Apple Intelligence**. Với **iPhone 18**, tin đồn tập trung vào **A20** và **A20 Pro** trên tiến trình **TSMC N2 (2nm)** — bước nhảy sau **A18/A19 3nm** trên iPhone 16/17. Apple **chưa công bố** chip hay tên A20; bài viết giải thích **vì sao 2nm được quan tâm** và **điều gì là tin đồn có nguồn**.

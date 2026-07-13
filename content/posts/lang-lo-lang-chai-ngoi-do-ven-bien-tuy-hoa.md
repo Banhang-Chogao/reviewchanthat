@@ -1,7 +1,7 @@
 +++
 title = "Làng Lò: làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa và kinh nghiệm ghé thăm 2026"
 seo_title = "Làng Lò Tuy Hòa: làng chài ngói đỏ 400 năm & kinh nghiệm đi"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T17:00:00+07:00"
 draft = false
 description = "Làng Lò — làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa (nay thuộc Đắk Lắk): lịch sử, cát núi lửa, đời sống ngư dân và kinh nghiệm ghé thăm hè 2026."
@@ -44,6 +44,22 @@ title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026:
 [[internal_links]]
 ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
 title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
 
 [[external_links]]
 url = "https://vnexpress.net/ngoi-lang-ngoi-do-binh-yen-ben-bien-dak-lak-5096172.html"

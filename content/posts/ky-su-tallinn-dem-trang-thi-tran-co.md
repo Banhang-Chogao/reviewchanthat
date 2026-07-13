@@ -1,7 +1,7 @@
 +++
 title = "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu"
 seo_title = "Ký sự Tallinn: đêm trắng ở thị trấn trung cổ Bắc Âu"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T14:44:57+07:00"
 slug = "ky-su-tallinn-dem-trang-thi-tran-co"
 aliases = ["/posts/ký-sự-tallinn-đêm-trắng-ở-thị-trấn-trung-cổ-cổ-kính-nhất-châu-âu/"]
@@ -40,6 +40,26 @@ title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng 
 [[internal_links]]
 ref = "posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.md"
 title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
 +++
 
 Đồng hồ trên tháp Tall Hermann điểm mười một giờ đêm, nhưng bầu trời vẫn còn một dải sáng mờ mờ ở phía chân trời. Ở vĩ độ 59 độ Bắc, mặt trời tháng Bảy chỉ lặn được vài tiếng đồng hồ trước khi lại mọc — một hiện tượng kỳ lạ mà tôi, đứa con của xứ nhiệt đới, chưa từng chứng kiến. Tôi đứng trên đỉnh đồi Toompea, nhìn xuống những mái ngói đỏ của phố cổ Tallinn, và cảm thấy như mình đang ở trong một câu chuyện cổ tích có thật.

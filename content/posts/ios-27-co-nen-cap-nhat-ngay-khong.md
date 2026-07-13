@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:40:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Checklist có nên cập nhật iOS 27 ngay không — ai nên chờ, ai nên lên, backup và rủi ro app ngân hàng cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-co-nen-cap-nhat-ngay-khong.webp"
@@ -48,6 +48,38 @@ label = "Nên lên sớm"
 [[tom_tat_nhanh]]
 label = "Nên chờ"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+
+[[internal_links]]
+ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
+title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
+title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/macos-27-hieu-nang-pin-macbook.md"
+title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
+
+[[internal_links]]
+ref = "posts/ios-27-co-gi-moi.md"
+title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
+
+[[internal_links]]
+ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
+title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
+
+[[internal_links]]
+ref = "posts/ios-27-so-voi-ios-26.md"
+title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
+
+[[internal_links]]
+ref = "posts/ios-27-camera-anh-video-iphone.md"
+title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
+
+[[internal_links]]
+ref = "posts/ios-27-beta-co-nen-cai-khong.md"
+title = "iOS 27 beta có nên cài không? rủi ro, cách backup và quay về bản ổn định"
 +++
 
 Ngày Apple phát hành iOS mới, nút **Software Update** luôn đỏ lửa. Nhưng “có ngay trên máy” không đồng nghĩa “nên cài ngay”. **iOS 27** mang Siri AI, parental controls mới và thay đổi shell — đủ lý do lên, nhưng cũng đủ rủi ro nếu bạn làm việc trên một chiếc iPhone duy nhất.

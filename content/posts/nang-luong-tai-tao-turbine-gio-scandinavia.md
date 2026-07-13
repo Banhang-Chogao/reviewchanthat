@@ -21,7 +21,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "320d6036"
+commit = "45c0695c"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_url = "https://www.pexels.com/@kaomhg"
@@ -41,6 +41,26 @@ title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu T
 [[internal_links]]
 ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
 title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
+title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
+
+[[internal_links]]
+ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
+title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
 
 [[faq]]
 question = "Q: Tại sao các nước Scandinavia có thể phụ thuộc 100% vào năng lượng tái tạo nhưng các nước khác không?"

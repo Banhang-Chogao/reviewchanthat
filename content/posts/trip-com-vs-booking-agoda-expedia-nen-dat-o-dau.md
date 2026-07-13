@@ -1,7 +1,7 @@
 +++
 title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
 seo_title = "Trip.com vs Booking, Agoda, Expedia: nên đặt ở đâu?"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T10:15:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -45,6 +45,26 @@ title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip
 [[internal_links]]
 ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
 title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
+
+[[internal_links]]
+ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
+title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
+
+[[internal_links]]
+ref = "posts/ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa.md"
+title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
+
+[[internal_links]]
+ref = "posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.md"
+title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
+
+[[internal_links]]
+ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
+title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
+
+[[internal_links]]
+ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
+title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
 
 [[faq]]
 question = "Trip.com có rẻ hơn Booking.com và Agoda không?"

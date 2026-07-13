@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "phân tích thực tế cho người đi Bangkok tự túc lần đầu: giá vé máy bay và khách sạn 4,62 triệu có nên chốt, đổi baht ở TP.HCM sao cho an toàn, cách đi Airport"
 draft = false
 image = "images/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.webp"
@@ -82,6 +82,22 @@ title = "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukh
 [[internal_links]]
 ref = "posts/doi-baht-o-viet-nam-hay-thai-lan.md"
 title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
+title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
 +++
 
 ## Đi Thái Lan tự túc 3 ngày 3 đêm: 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?

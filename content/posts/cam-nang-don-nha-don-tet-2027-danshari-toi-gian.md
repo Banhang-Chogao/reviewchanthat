@@ -64,6 +64,30 @@ image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-12T08:49:12+07:00"
 image_query = "curated"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
+title = "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết"
+
+[[internal_links]]
+ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
+title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
+
+[[internal_links]]
+ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
+title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
+
+[[internal_links]]
+ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
+title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
 +++
 
 Dọn nhà đón Tết là truyền thống đẹp, nhưng năm nào cũng lặp lại một nghịch lý: ta lau chùi rất kỹ, rồi nhét đống đồ đạc vào chỗ cũ, và sang năm lại dọn đúng đống ấy. Vấn đề không phải nhà bẩn, mà là **nhà quá nhiều đồ**. Năm nay, thay vì "dọn cho sạch", tôi đề xuất "dọn cho ít đi" theo triết lý **Danshari** của người Nhật. Đây không phải mẹo lau nhà, mà là cách nghĩ lại về những gì mình thật sự cần — để đón Tết 2027 với một không gian và một cái đầu nhẹ nhõm hơn.

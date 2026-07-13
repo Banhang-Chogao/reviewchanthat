@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-13T23:52:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc thay, tiếng ồn và khi nào thật sự đáng mua cho chung cư Việt Nam."
 draft = false
 slug = "review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi"
@@ -67,6 +67,22 @@ title = "Cách đọc một bài review để không bị dắt mũi"
 [[internal_links]]
 ref = "posts/review-may-pha-ca-phe-gia-dinh-2026.md"
 title = "Review máy pha cà phê gia đình 2026"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
+
+[[internal_links]]
+ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
+title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
 
 [[tom_tat_nhanh]]
 label = "Loại sản phẩm"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: so sánh Airport Rail Link, BTS, taxi, Grab — giá, thời gian, ưu nhược điểm và chọn phương tiện nào cho mùa mưa."
 draft = false
 image = "images/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.webp"
@@ -64,6 +64,30 @@ title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,
 ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
 title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
+[[internal_links]]
+ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
+title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
+
+[[internal_links]]
+ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
+title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
 +++
 
 ## Từ sân bay Suvarnabhumi về trung tâm Bangkok

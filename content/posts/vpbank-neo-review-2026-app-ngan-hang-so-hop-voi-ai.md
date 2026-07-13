@@ -4,7 +4,7 @@ date = "2026-07-10T04:00:00+07:00"
 slug = "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai"
 aliases = ["/posts/vpbank-neo-review-2026-app-ngân-hàng-số-này-hợp-với-ai/"]
 date_display = "10-07-2026 04:00:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "VPBank NEO", "app ngân hàng", "digital banking", "review app"]
 author = "Minh Hoàng"
@@ -49,6 +49,26 @@ title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển
 [[internal_links]]
 ref = "posts/ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu.md"
 title = "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.md"
+title = "Cách xây dựng thói quen mua sắm thông minh"
+
+[[internal_links]]
+ref = "posts/review-app-hoc-tieng-anh-online-2026.md"
+title = "Review App Học Tiếng Anh Online 2026: Duolingo, ELSA, Cambly App Nào Tốt Nhất?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
 +++
 Có hàng chục app ngân hàng ở Việt Nam, và bạn có thể cảm thấy **choáng ngợp khi chọn.**
 

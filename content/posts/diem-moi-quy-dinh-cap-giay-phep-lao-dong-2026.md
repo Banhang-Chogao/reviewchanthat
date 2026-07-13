@@ -1,7 +1,7 @@
 +++
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
 seo_title = "Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T05:30:00+07:00"
 slug = "diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026"
 aliases = ["/posts/điểm-mới-trong-quy-định-cấp-giấy-phép-lao-động-cho-người-nước-ngoài-2026/"]
@@ -40,6 +40,26 @@ title = "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia
 [[internal_links]]
 ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
+
+[[internal_links]]
+ref = "posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.md"
+title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
+
+[[internal_links]]
+ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
+title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
+
+[[internal_links]]
+ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
+title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
 
 [[faq]]
 question = "Câu Hỏi 1: Người Lao Động Nước Ngoài Có Thể Tự Mình Xin Giấy Phép Lao Động Không?"

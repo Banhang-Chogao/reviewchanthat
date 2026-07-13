@@ -1,7 +1,7 @@
 +++
 title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026"
 seo_title = "Cách đặt khách sạn & vé máy bay giá tốt trên Trip.com"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T10:05:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -45,6 +45,26 @@ title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
 [[internal_links]]
 ref = "posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.md"
 title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu"
+
+[[internal_links]]
+ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
+title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
+
+[[internal_links]]
+ref = "posts/ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa.md"
+title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
+
+[[internal_links]]
+ref = "posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.md"
+title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
+
+[[internal_links]]
+ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
+title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
+
+[[internal_links]]
+ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
+title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
 
 [[faq]]
 question = "Đặt phòng trên Trip.com có cần tạo tài khoản không?"

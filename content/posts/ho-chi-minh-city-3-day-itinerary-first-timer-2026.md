@@ -1,7 +1,7 @@
 +++
 title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
 seo_title = "Ho Chi Minh City 3-Day Itinerary for First-Timers 2026"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T23:58:00+07:00"
 draft = false
 post_lang = "en"
@@ -34,6 +34,26 @@ title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026)"
 [[internal_links]]
 ref = "posts/michelin-restaurants-ho-chi-minh-city-must-try.md"
 title = "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-16-pro-max-co-dang-chon.md"
+title = "Pin iPhone 16 Pro Max có đáng chọn?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 
 [[external_links]]
 url = "https://vietnam.travel/"

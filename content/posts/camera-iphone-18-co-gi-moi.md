@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T13:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Tin đồn camera iPhone 18: selfie 24MP, variable aperture trên Pro, sensor Samsung và kỳ vọng chụp ảnh — phân loại nguồn MacRumors, AppleInsider cho người mua"
 draft = false
 image = "images/posts/camera-iphone-18-co-gi-moi.webp"
@@ -42,6 +42,38 @@ url = "https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring
 label = "Cẩn trọng"
 value = "Base có thể bị “hạ cấp” — chưa xác nhận"
 image_attribution_checked_at = "2026-07-14T00:09:54+07:00"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/iphone-18-khi-nao-ra-mat.md"
+title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
+
+[[internal_links]]
+ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-pro-max-co-gi-moi.md"
+title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
+
+[[internal_links]]
+ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
+title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
+
+[[internal_links]]
+ref = "posts/iphone-18-vs-iphone-17.md"
+title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
 +++
 
 Camera là lý do nhiều người **chờ iPhone mới** — nhất là khi Apple được đồn sẽ đưa **khẩu độ biến đổi** (variable aperture) lên dòng Pro và nâng **camera trước 24MP** cho cả dải sản phẩm. Nhưng Apple **chưa công bố** iPhone 18; mọi thông số dưới đây là **tin đồn** được tổng hợp từ [MacRumors](https://www.macrumors.com/roundup/iphone-18-pro/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more) và analyst.

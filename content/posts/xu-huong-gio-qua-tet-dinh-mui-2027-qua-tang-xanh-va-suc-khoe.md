@@ -72,6 +72,22 @@ image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "xu hướng giỏ quà tết"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
+title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
+
+[[internal_links]]
+ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
+title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
+
+[[internal_links]]
+ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
+title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
 +++
 
 Mỗi mùa Tết, giỏ quà lại là khoản chi vừa nhiều cảm xúc vừa dễ lãng phí nhất. Ta mua để tặng, mà người tặng lẫn người nhận nhiều khi đều không biết bên trong đáng bao nhiêu tiền. Năm Đinh Mùi 2027, thị trường tiếp tục nghiêng về hai câu chuyện lớn: **quà "xanh" (bao bì bền vững)** và **quà sức khỏe**. Bài này tôi đánh giá cả hai một cách sòng phẳng — cái gì thật sự đáng, cái gì chỉ là lớp áo marketing để đội giá.

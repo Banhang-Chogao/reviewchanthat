@@ -1,7 +1,7 @@
 +++
 title = "AI Inflation 2026: Why Your Next Laptop, Phone, and Gaming Console Will Cost More"
 seo_title = "AI Inflation 2026: Why Gadgets Cost More Due to AI Data Centers"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T23:50:00+07:00"
 slug = "trending-topic-20260713"
 draft = false
@@ -45,6 +45,38 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md"
+title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+
+[[internal_links]]
+ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
 +++
 
 You walk into a store in July 2026 looking for a new laptop. The MacBook Pro you were eyeing last year? It costs VND 18 million more today. The Xbox Series X? Up by nearly VND 3 million. Even mid-range Android phones have crept up by a million dong or more.

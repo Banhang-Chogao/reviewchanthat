@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:20:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Digital Markets Act (DMA) là gì? Cách EU siết Apple, Google, Meta qua gatekeeper, nghĩa vụ anti-steering và phạt không tuân thủ — phân biệt với vụ kiện tòa"
 draft = false
 image = "images/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.webp"
@@ -70,6 +70,38 @@ value = "Chỉ định, giám sát, phạt tiền, điều tra thị trường"
 [[tom_tat_nhanh]]
 label = "Apple"
 value = "Gatekeeper App Store & iOS — Tòa EU xác nhận 8/7/2026"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/apple-thua-kien-eu-app-store-ios-dma.md"
+title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA"
+
+[[internal_links]]
+ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
+title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+
+[[internal_links]]
+ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+
+[[internal_links]]
+ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
+title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
+
+[[internal_links]]
+ref = "posts/european-commission-duoc-gi-khi-thang-apple.md"
+title = "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới"
+
+[[internal_links]]
+ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 +++
 
 Nếu bạn chỉ đọc một headline “Apple thua kiện EU”, rất dễ nhầm đó là **một luật, một vụ, một lần phạt**. Thực tế, Brussels đang vận hành một **bộ máy pháp lý nhiều tầng** — và **Digital Markets Act (DMA)** là trụ cột ở giữa.

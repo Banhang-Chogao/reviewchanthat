@@ -4,7 +4,7 @@ title = "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hư
 seo_title = "Sinh 2027 mệnh gì? Tuổi Đinh Mùi Thiên Hà Thủy, phong thủy"
 description = "Sinh năm 2027 mệnh gì? Đáp: Thiên Hà Thủy (Nước trên trời). Bài viết phân tích nạp âm, hướng tốt Nam/Nữ tuổi Đinh Mùi, màu sắc, con số hợp phong thủy 2027."
 date = "2026-07-12T08:43:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-12T08:43:00+07:00"
 date_display = "12-07-2026 08:43:00 GMT +7"
 lastmod_display = "12-07-2026 08:43:00 GMT +7"
@@ -67,6 +67,26 @@ title = "Xu hướng quà Tết Đinh Mùi 2027: Quà tặng xanh, sức khỏe,
 [[internal_links]]
 ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
 title = "Lịch nghỉ Tết Nguyên Đán 2027 dự kiến — Lộ trình tối ưu ngày nghỉ"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
+title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
+
+[[internal_links]]
+ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
+title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
+
+[[internal_links]]
+ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
+title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
 
 [[external_links]]
 title = "Bát Trạch Minh Kính — Thư viện phong thủy"

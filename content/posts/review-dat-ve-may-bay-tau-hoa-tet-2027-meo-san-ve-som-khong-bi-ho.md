@@ -64,6 +64,30 @@ image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "airplanes at airport runway"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
+title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
+
+[[internal_links]]
+ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
+title = "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết"
+
+[[internal_links]]
+ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
+title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
+
+[[internal_links]]
+ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
+title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
 +++
 
 Vé Tết là một thị trường rất lạ: nó gần như miễn nhiễm với mọi mẹo "săn giá rẻ" thông thường mà bạn đọc được cho ngày thường. Lý do đơn giản — cầu vượt cung ở đúng vài ngày cao điểm, nên hãng bay và đường sắt không có động lực giảm giá. Bài này tôi không hứa giúp bạn mua được vé rẻ như ngày thường (điều đó gần như bất khả thi), mà giúp bạn **mua đúng giá, đúng kênh, và không bị lừa** — ba thứ thực tế hơn nhiều.

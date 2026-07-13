@@ -4,7 +4,7 @@ title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi c
 seo_title = "Sống thông minh với AI: thay đổi đời sống hằng ngày"
 description = "AI trong đời sống không chỉ là chatbot. Cách sống thông minh với AI để tiết kiệm thời gian, tiền bạc, học tập và du lịch an toàn cho người Việt."
 date = "2026-07-10T14:49:47+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T14:49:47+07:00"
 date_display = "10-07-2026 14:49:47 GMT +7"
 lastmod_display = "10-07-2026 14:49:47 GMT +7"
@@ -83,6 +83,18 @@ title = "Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến
 [[internal_links]]
 ref = "posts/mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio.md"
 title = "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+
+[[internal_links]]
+ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
+title = "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày"
 +++
 
 “Sống thông minh” từng gắn với thói quen ngủ đủ, ghi chép sổ tay hay cắt subscription thừa. Năm 2026, thêm một lớp công cụ: **trí tuệ nhân tạo (AI)** xuất hiện trên điện thoại, app ngân hàng, trình soạn thảo và cả trợ lý học ngoại ngữ. Câu hỏi không còn là “AI có tồn tại không?” mà là **làm sao dùng AI để cuộc sống nhẹ hơn — mà không để AI sống thay mình**.

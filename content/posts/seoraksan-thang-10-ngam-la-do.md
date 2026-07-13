@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T12:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Seoraksan tháng 10 có đáng đi không? phân tích thời điểm lá đỏ, cách di chuyển từ Seoul, chi phí tham khảo và lịch trình 1–2 ngày tại Sokcho."
 image = "images/posts/seoraksan-thang-10-ngam-la-do.webp"
 image_attribution_checked_at = "2026-07-11T17:30:29+07:00"
@@ -67,6 +67,14 @@ ref = "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md"
 
 [[internal_links]]
 ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.md"
+title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
+title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
 
 [[tom_tat_nhanh]]
 label = "Khu vực"

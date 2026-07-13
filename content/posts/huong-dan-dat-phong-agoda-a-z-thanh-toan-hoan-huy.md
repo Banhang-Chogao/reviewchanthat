@@ -1,7 +1,7 @@
 +++
 title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
 seo_title = "Hướng dẫn đặt phòng Agoda A-Z: thanh toán, hoàn hủy"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T14:07:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -45,6 +45,26 @@ title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
 [[internal_links]]
 ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
 title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
+
+[[internal_links]]
+ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
+title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
+
+[[internal_links]]
+ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
+title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
+
+[[internal_links]]
+ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
+title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
+
+[[internal_links]]
+ref = "posts/lich-su-agoda-tu-startup-den-booking-holdings.md"
+title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
+
+[[internal_links]]
+ref = "posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.md"
+title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
 
 [[faq]]
 question = "Cách đặt phòng Agoda có cần thẻ tín dụng không?"

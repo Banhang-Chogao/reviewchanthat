@@ -4,7 +4,7 @@ date = "2026-07-09T17:30:00+07:00"
 slug = "co-nen-len-ios-26-5-2-khong"
 aliases = ["/posts/có-nên-lên-ios-26.5.2-không-vì-sao-nên-cập-nhật-sớm-và-cần-lưu-ý-gì/"]
 date_display = "09-07-2026 17:30:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 description = "iOS 26.5.2 là bản vá bảo mật cho iPhone. Giải thích vì sao nên cập nhật sớm, ai nên lên ngay, và những lưu ý trước khi cài như backup và không thể hạ cấp."
 categories = ["cong-nghe"]
 tags = ["iOS 26.5.2", "cập nhật iOS", "bảo mật iPhone", "iOS 26", "nâng cấp iPhone"]
@@ -41,6 +41,30 @@ title = "WWDC26: phân tích những tính năng iOS 27 và macOS 27 Apple mang 
 [[internal_links]]
 ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
 title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+
+[[internal_links]]
+ref = "posts/ios-27-so-voi-ios-26.md"
+title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
 +++
 ## iOS 26.5.2 là bản gì?
 

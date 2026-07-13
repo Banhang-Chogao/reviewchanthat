@@ -4,7 +4,7 @@ description = "Renaissance Technologies - quỹ quantitative finance nổi tiế
 date = "2026-07-10T11:45:00+07:00"
 slug = "renaissance-technologies-quantitative-finance-toan-hoc-dau-tu"
 aliases = ["/posts/renaissance-technologies-lão-phố-wall-dùng-toán-học-để-kiếm-tiền/"]
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T11:45:00+07:00"
 seo_title = "Renaissance Technologies: Jim Simons và Medallion Fund"
 authors = ["Minh Hoàng"]
@@ -45,6 +45,26 @@ title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-freque
 [[internal_links]]
 ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
 title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
+title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
+
+[[internal_links]]
+ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
+title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+
+[[internal_links]]
+ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
+title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 +++
 
 **Renaissance Technologies** — quỹ quantitative **nổi tiếng nhất thế giới**, do **Jim Simons** (nhà toán học) sáng lập.

@@ -1,7 +1,7 @@
 +++
 title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
 seo_title = "Cheap Flights to Ho Chi Minh City on Trip.com: 2026 Guide"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T22:30:00+07:00"
 draft = false
 post_lang = "en"
@@ -39,6 +39,30 @@ title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for F
 [[internal_links]]
 ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
 title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
+[[internal_links]]
+ref = "posts/michelin-restaurants-ho-chi-minh-city-must-try.md"
+title = "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)"
+
+[[internal_links]]
+ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
+title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-16-pro-max-co-dang-chon.md"
+title = "Pin iPhone 16 Pro Max có đáng chọn?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
 
 [[external_links]]
 url = "https://www.trip.com/"

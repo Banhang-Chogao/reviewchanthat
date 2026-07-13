@@ -21,7 +21,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "320d6036"
+commit = "45c0695c"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_url = "https://pixabay.com/photos/ha-long-vietnam-countryside-6762303/"
@@ -41,6 +41,26 @@ title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, k
 [[internal_links]]
 ref = "posts/fjord-na-uy-thac-nuoc-dong-tien.md"
 title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh"
+
+[[internal_links]]
+ref = "posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.md"
+title = "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?"
+
+[[internal_links]]
+ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
+title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
+
+[[internal_links]]
+ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
+title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
 
 [[faq]]
 question = "Q: Tôi có thể nhìn thấy bắc cực quang nếu tôi không ở Scandinavia không?"

@@ -1,7 +1,7 @@
 +++
 title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
 seo_title = "Lịch sử Agoda: từ startup đến Booking Holdings"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T14:13:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -45,6 +45,26 @@ title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
 [[internal_links]]
 ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
 title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
+
+[[internal_links]]
+ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
+title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
+
+[[internal_links]]
+ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
+title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
+
+[[internal_links]]
+ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
+title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
+
+[[internal_links]]
+ref = "posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.md"
+title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi"
+
+[[internal_links]]
+ref = "posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.md"
+title = "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?"
 
 [[faq]]
 question = "Agoda thành lập năm nào?"

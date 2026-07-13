@@ -1,7 +1,7 @@
 +++
 title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
 seo_title = "Cực quang Tromsø Na Uy: kinh nghiệm săn Northern Lights"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T07:45:37+07:00"
 slug = "cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te"
 aliases = ["/posts/trải-nghiệm-cực-quang-tại-tromsø-hướng-dẫn-chi-tiết-kinh-nghiệm-thực-tế-và-những-sai-lầm-phổ-biến/"]
@@ -40,6 +40,26 @@ title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực 
 [[internal_links]]
 ref = "posts/ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien.md"
 title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
+
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+
+[[internal_links]]
+ref = "posts/quyen-chu-quyen-na-uy-government-pension-fund-global.md"
+title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
+
+[[internal_links]]
+ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
+title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
+
+[[internal_links]]
+ref = "posts/doi-song-phuc-loi-na-uy-work-life-balance.md"
+title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
 
 [[faq]]
 question = "Q: Cực quang nguy hiểm không?"

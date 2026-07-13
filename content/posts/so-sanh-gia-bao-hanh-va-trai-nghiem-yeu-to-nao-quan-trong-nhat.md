@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review", "tai-chinh"]
 date = "2026-06-25T10:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Khi mua sắm, bạn thường đắn đo giữa giá rẻ, bảo hành tốt và trải nghiệm sử dụng. Bài viết này giúp bạn xác định ưu tiên."
 draft = false
 image = "images/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.webp"
@@ -65,6 +65,38 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
+
+[[internal_links]]
+ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
+title = "Checklist trước khi mua một sản phẩm online"
+
+[[internal_links]]
+ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
+title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+
+[[internal_links]]
+ref = "posts/tin-chi-carbon-va-trao-luu-net-zero.md"
+title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
+
+[[internal_links]]
+ref = "posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.md"
+title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
 +++
 
 Bạn đứng trước hai lựa chọn: sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng. Sản phẩm B đắt hơn nhưng bảo hành 2 năm và nhiều review tốt. Bạn chọn cái nào?

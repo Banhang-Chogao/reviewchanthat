@@ -72,6 +72,22 @@ image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "curated"
+
+[[internal_links]]
+ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
+title = "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ"
+
+[[internal_links]]
+ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
+title = "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết"
+
+[[internal_links]]
+ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
+title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
 +++
 
 Người Việt ở đâu cũng ăn Tết, nhưng "ăn Tết" ở Hà Nội, ở Huế và ở Cần Thơ lại là ba trải nghiệm rất khác nhau. Cùng một cái Tết Nguyên Đán, mà mâm cỗ, cách bày biện, lễ nghi và cả những điều kiêng kỵ đều mang dấu ấn vùng miền rõ rệt. Bài này tôi so sánh sòng phẳng ba miền — không để tôn miền nào hơn, mà để bạn hiểu vì sao mỗi nơi làm mỗi khác, và nếu năm nay ăn Tết ở một vùng lạ thì đừng bỡ ngỡ. Xin nói trước: phong tục có vô số dị bản theo từng tỉnh, từng dòng họ, nên những gì tôi viết là nét khái quát phổ biến nhất, không phải khuôn vàng thước ngọc.

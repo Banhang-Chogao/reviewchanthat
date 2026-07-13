@@ -1,7 +1,7 @@
 +++
 title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới"
 seo_title = "Đời sống Na Uy: work-life balance và phúc lợi xã hội"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T07:43:37+07:00"
 slug = "doi-song-phuc-loi-na-uy-work-life-balance"
 aliases = ["/posts/đời-sống-tại-na-uy-cân-bằng-công-việc-cuộc-sống-và-phúc-lợi-xã-hội-dẫn-đầu-thế-giới/"]
@@ -36,6 +36,30 @@ title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý
 [[internal_links]]
 ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
 title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
+
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+
+[[internal_links]]
+ref = "posts/quyen-chu-quyen-na-uy-government-pension-fund-global.md"
+title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
+
+[[internal_links]]
+ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
+title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
+
+[[internal_links]]
+ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
+title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
 
 [[faq]]
 question = "Q: Người Na Uy có lương cao như thế nào?"

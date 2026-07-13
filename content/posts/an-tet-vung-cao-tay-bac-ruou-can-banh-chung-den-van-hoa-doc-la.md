@@ -64,6 +64,30 @@ image_creator_id = ""
 image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "trải nghiệm ăn tết vùng"
+
+[[internal_links]]
+ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
+title = "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ"
+
+[[internal_links]]
+ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
+title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe"
+
+[[internal_links]]
+ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
+title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
+
+[[internal_links]]
+ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
+title = "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết"
+
+[[internal_links]]
+ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
+title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
+
+[[internal_links]]
+ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
+title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
 +++
 
 Nếu Tết đồng bằng là mâm cỗ tươm tất trong ngôi nhà ấm, thì Tết vùng cao Tây Bắc là khói bếp vương trên mái nhà sàn, là tiếng khèn giữa sương núi và chén rượu cần chuyền tay. Tôi từng đón một cái Tết ở vùng cao và nhận ra: nơi đây Tết không chỉ để ăn, mà để **gắn kết cộng đồng** theo cách rất riêng. Bài viết này chia sẻ những gì đáng trải nghiệm, kèm vài lưu ý thành thật để bạn đến với đồng bào bằng sự tôn trọng, chứ không phải tâm thế "check-in cho lạ".

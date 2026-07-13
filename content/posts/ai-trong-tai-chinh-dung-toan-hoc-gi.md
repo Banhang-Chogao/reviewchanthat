@@ -4,7 +4,7 @@ description = "AI trong tài chính dùng deep learning (RNN, LSTM, Transformer)
 date = "2026-07-10T12:30:00+07:00"
 slug = "ai-trong-tai-chinh-dung-toan-hoc-gi"
 aliases = ["/posts/ai-trong-tài-chính-deep-learning-nlp-và-reinforcement-learning/"]
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T12:30:00+07:00"
 seo_title = "AI tài chính: deep learning, NLP và reinforcement learning"
 authors = ["Minh Hoàng"]
@@ -45,6 +45,26 @@ title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính d�
 [[internal_links]]
 ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
 title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
+[[internal_links]]
+ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
+title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+
+[[internal_links]]
+ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
+title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
 +++
 
 **AI/Machine Learning** trong tài chính không phải huyền thoại — nó **thực tế & hiệu quả**.

@@ -1,7 +1,7 @@
 +++
 title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
 seo_title = "Ký sự Hà Giang: Mã Pí Lèng và những khúc cua qua mây"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T08:00:00+07:00"
 slug = "ky-su-ha-giang-nhung-khuc-cua-va-ky-uc"
 aliases = ["/posts/ký-sự-hà-giang-những-khúc-cua-vắt-qua-mây-và-đêm-trắng-nơi-địa-đầu/"]
@@ -40,6 +40,26 @@ title = "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama 
 [[internal_links]]
 ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
 +++
 
 Cái lạnh buốt của cơn gió thổi ngược từ vách núi phả thẳng vào mặt làm tôi choàng tỉnh. Đồng hồ trên tay chỉ năm giờ sáng, nhưng tôi không còn thiết tha gì với chiếc lều ngủ nữa. Tôi chui ra khỏi túi ngủ, đứng dậy và nhìn về phía đông. Một dải lụa màu cam đang từ từ trải dài phía sau những dãy núi trùng điệp. Hà Giang, vùng đất mà tôi đã mơ đến từ những ngày còn ngồi trên ghế giảng đường đại học, cuối cùng cũng ở ngay dưới chân tôi. Và tôi biết rằng, những gì sắp diễn ra trong ba ngày tới sẽ là thứ tôi mang theo suốt phần đời còn lại.

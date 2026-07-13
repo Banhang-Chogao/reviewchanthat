@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T06:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Tổng hợp tin đồn iPhone 18 trước mùa ra mắt — lịch tách đợt, A20 2nm, iPhone Fold, camera, giá và checklist mua máy cho người dùng Việt Nam."
 draft = false
 image = "images/posts/iphone-18-co-gi-moi.webp"
@@ -60,6 +60,38 @@ label = "Timeline đồn"
 
 [[tom_tat_nhanh]]
 label = "Series"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/iphone-18-khi-nao-ra-mat.md"
+title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
+
+[[internal_links]]
+ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
+title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
+
+[[internal_links]]
+ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-vs-iphone-17.md"
+title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
+
+[[internal_links]]
+ref = "posts/iphone-18-mau-gi-dark-cherry.md"
+title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
+
+[[internal_links]]
+ref = "posts/iphone-18-pro-max-co-gi-moi.md"
+title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
+
+[[internal_links]]
+ref = "posts/iphone-18-chip-a20-2nm.md"
+title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
 +++
 
 Mỗi mùa thu, cộng đồng iPhone lại hỏi: **thế hệ mới có đáng chờ không?** Với **iPhone 18**, câu hỏi phức tạp hơn vì Apple được đồn sẽ **tách lịch ra mắt** — Pro và Fold trước, bản tiêu chuẩn sau. Apple **chưa xác nhận** bất kỳ chi tiết nào; bài này là bản đồ tin đồn có nguồn để bạn đọc trước khi quyết định mua hay chờ.

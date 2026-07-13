@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:40:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Checklist quyết định nâng cấp macOS Golden Gate 27: máy tương thích, app công việc, backup, AI và thời điểm public release."
 draft = false
 image = "images/posts/macos-27-co-nen-nang-cap-ngay-khong.webp"
@@ -55,6 +55,38 @@ answer = "Vẫn có lý do nâng cấp: hiệu năng shell, Liquid Glass tùy ch
 [[faq]]
 question = "Máy công ty khóa MDM?"
 answer = "IT quyết định — đừng tự beta."
+
+[[internal_links]]
+ref = "posts/macos-27-hieu-nang-pin-macbook.md"
+title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
+
+[[internal_links]]
+ref = "posts/chuan-bi-macbook-truoc-khi-len-macos-27.md"
+title = "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app"
+
+[[internal_links]]
+ref = "posts/macos-27-so-voi-macos-26.md"
+title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
+
+[[internal_links]]
+ref = "posts/macos-27-co-gi-moi.md"
+title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
+[[internal_links]]
+ref = "posts/macos-27-ho-tro-may-mac-nao.md"
+title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
+
+[[internal_links]]
+ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
+title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
+
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
 +++
 
 “Có nên bấm Update ngay?” — với macOS 27, câu trả lời đúng cho **đa số người Việt** vào tháng 7/2026 là: **chưa, chờ bản chính thức mùa thu** — trừ khi bạn có Mac phụ hoặc là developer cần test sớm.

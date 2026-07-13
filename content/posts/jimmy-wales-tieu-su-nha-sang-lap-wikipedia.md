@@ -1,7 +1,7 @@
 +++
 title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
 seo_title = "Jimmy Wales: tiểu sử nhà sáng lập Wikipedia & cuộc sống nay"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T18:45:00+07:00"
 draft = false
 editor_pick = true
@@ -45,6 +45,22 @@ title = "Veritable Content: bức tranh tổng thể về giao diện, content v
 [[internal_links]]
 ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
 
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Jimmy_Wales"

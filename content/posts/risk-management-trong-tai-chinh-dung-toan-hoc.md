@@ -4,7 +4,7 @@ description = "Risk management dùng toán học gì? Học VaR, Expected Shortf
 date = "2026-07-10T12:00:00+07:00"
 slug = "risk-management-trong-tai-chinh-dung-toan-hoc"
 aliases = ["/posts/risk-management-trong-tài-chính-từ-var-đến-stress-testing/"]
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T12:00:00+07:00"
 seo_title = "Risk management: VaR, CVaR, stress test và tail risk"
 authors = ["Minh Hoàng"]
@@ -45,6 +45,26 @@ title = "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản"
 [[internal_links]]
 ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
 title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
+
+[[internal_links]]
+ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
+title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
 +++
 
 **Risk Management** — quản lý rủi ro trong tài chính.

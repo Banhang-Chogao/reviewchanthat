@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T15:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami Island, điểm ngắm lá đỏ và mẹo sắp lịch theo ngày đổ màu thực tế."
 draft = false
 image = "images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp"
@@ -71,6 +71,10 @@ ref = "posts/seoraksan-thang-10-ngam-la-do.md"
 
 [[internal_links]]
 ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.md"
+title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan"
 
 [[tom_tat_nhanh]]
 label = "Thời gian"

@@ -1,7 +1,7 @@
 +++
 title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
 seo_title = "Atomico Là Gì? Quỹ Đầu Tư Mạo Hiểm Của Niklas Zennström"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T14:00:00+07:00"
 slug = "atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom"
 aliases = ["/posts/atomico-là-gì-công-ty-đầu-tư-mạo-hiểm-của-niklas-zennström-định-hình-hệ-sinh-thái-khởi-nghiệp-châu-âu/"]
@@ -67,6 +67,14 @@ image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
 date_display = "11-07-2026 14:00:00 GMT +7"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
 +++
 
 ## Atomico - Tầm Nhìn Biến Châu Âu Thành Cơn Lốc Khởi Nghiệp

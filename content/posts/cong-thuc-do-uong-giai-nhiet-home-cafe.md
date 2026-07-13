@@ -5,7 +5,7 @@ date = "2026-07-11T11:00:00+07:00"
 slug = "cong-thuc-do-uong-giai-nhiet-home-cafe"
 aliases = ["/posts/xu-hướng-home-cafe-3-công-thức-đồ-uống-giải-nhiệt-cực-hot-hè-2026/"]
 date_display = "11-07-2026 11:00:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 draft = false
 tags = ["home cafe", "tra trai cay", "hugo spritz", "do uong mua he"]
 categories = ["du-lich", "doi-song"]
@@ -36,6 +36,30 @@ title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026
 [[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/triet-ly-song-lagom-va-van-hoa-fika.md"
+title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.md"
+title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
 +++
 Báo cáo Google Summergeist 2026 cho thấy lượng tìm kiếm "đồ uống giải nhiệt tại nhà" và "cách làm trà sữa healthy" đã tăng hơn 200% so với cùng kỳ năm ngoái. Xu hướng này không chỉ nằm ở chuyện tiết kiệm — nó nằm ở trải nghiệm. Tự tay làm một ly nước thơm mát, chụp vài tấm ảnh check-in "home-cafe" rồi thả lỏng cuối tuần — đó là thứ hẹn hò hè mới của giới trẻ.
 

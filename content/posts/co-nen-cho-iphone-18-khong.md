@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17? phân tích theo từng đời máy, split launch, tin đồn nâng cấp và ngân sách cho người dùng Việt"
 draft = false
 image = "images/posts/co-nen-cho-iphone-18-khong.webp"
@@ -96,6 +96,38 @@ value = "Cân nhắc theo nhu cầu & timeline đồn"
 [[tom_tat_nhanh]]
 label = "Hợp với"
 value = "Người phân vân mua hay chờ 2026–2027"
+
+[[internal_links]]
+ref = "posts/iphone-18-vs-iphone-17.md"
+title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/iphone-18-khi-nao-ra-mat.md"
+title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
+
+[[internal_links]]
+ref = "posts/camera-iphone-18-co-gi-moi.md"
+title = "Camera iPhone 18 có gì mới? Selfie 24MP, variable aperture và kỳ vọng chụp ảnh"
+
+[[internal_links]]
+ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-pro-max-co-gi-moi.md"
+title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
+
+[[internal_links]]
+ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
+title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
 +++
 
 “**Có nên chờ iPhone 18 không?**” — câu hỏi lặp lại mỗi năm, nhưng 2026–2027 phức tạp hơn vì tin đồn **split launch**: Pro ra **tháng 9/2026**, base có thể **đầu 2027**. Apple **chưa công bố** iPhone 18; bài này giúp bạn quyết định theo **máy đang dùng** (15, 16 hay 17), **ngân sách** và **mức chấp nhận rủi ro tin đồn** — không dựa trên tính năng Apple đã xác nhận.

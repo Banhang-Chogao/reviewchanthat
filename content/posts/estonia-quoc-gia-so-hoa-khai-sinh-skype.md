@@ -1,7 +1,7 @@
 +++
 title = "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
 seo_title = "Estonia: Quốc Gia Số Hóa Khai Sinh Skype, Bolt, Wise"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T13:00:00+07:00"
 slug = "estonia-quoc-gia-so-hoa-khai-sinh-skype"
 aliases = ["/posts/estonia-quốc-gia-số-hóa-nơi-khai-sinh-ra-skype-và-bolt-có-gì-đặc-biệt/"]
@@ -40,6 +40,26 @@ title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châ
 [[internal_links]]
 ref = "posts/phần-lan-sauna-05.md"
 title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
+
+[[internal_links]]
+ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
+title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
 +++
 
 [Tallinn - thủ đô Estonia nơi trung cổ và công nghệ hiện đại giao thoa]

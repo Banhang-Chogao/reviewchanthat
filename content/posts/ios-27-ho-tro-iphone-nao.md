@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T08:20:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Danh sách iPhone tương thích iOS 27 theo Apple, phân tích Apple Intelligence, iPhone cũ và lộ trình cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-ho-tro-iphone-nao.webp"
@@ -48,6 +48,38 @@ label = "Điểm then chốt"
 [[tom_tat_nhanh]]
 label = "Hợp với"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/ios-27-camera-anh-video-iphone.md"
+title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
+
+[[internal_links]]
+ref = "posts/ios-27-co-gi-moi.md"
+title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
+
+[[internal_links]]
+ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
+title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
+
+[[internal_links]]
+ref = "posts/ios-27-so-voi-ios-26.md"
+title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
+
+[[internal_links]]
+ref = "posts/ios-27-cai-thien-pin-iphone.md"
+title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+
+[[internal_links]]
+ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
+title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
 +++
 
 “iPhone của mình còn lên iOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **iPhone 11**, **iPhone 12 mini** hoặc **iPhone 13** mua từ 2020–2022. Câu trả lời ngắn theo Apple: **hầu hết iPhone từ 2019 trở lên đều trong danh sách** — nhưng **Apple Intelligence** lại là câu chuyện khác.

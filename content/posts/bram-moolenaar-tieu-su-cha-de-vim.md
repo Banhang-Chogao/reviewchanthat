@@ -1,7 +1,7 @@
 +++
 title = "Bram Moolenaar — tiểu sử cha đẻ Vim: sự nghiệp, di sản và những gì ông để lại"
 seo_title = "Bram Moolenaar: tiểu sử cha đẻ Vim, sự nghiệp và di sản"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T18:20:00+07:00"
 draft = false
 editor_pick = true
@@ -45,6 +45,22 @@ title = "Veritable Content: bức tranh tổng thể về giao diện, content v
 [[internal_links]]
 ref = "posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.md"
 title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"
+
+[[internal_links]]
+ref = "posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.md"
+title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
 
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Bram_Moolenaar"

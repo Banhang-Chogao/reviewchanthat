@@ -1,7 +1,7 @@
 +++
 title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
 seo_title = "Lối sống xanh Bắc Âu: thiên nhiên và rừng già Estonia"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T14:44:57+07:00"
 slug = "loi-song-xanh-bac-au-thien-nhien-estonia"
 aliases = ["/posts/lối-sống-xanh-giữa-lòng-bắc-âu-khi-70-diện-tích-quốc-gia-là-rừng-già/"]
@@ -40,6 +40,26 @@ title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạ
 [[internal_links]]
 ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
 title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
+
+[[internal_links]]
+ref = "posts/triet-ly-song-lagom-va-van-hoa-fika.md"
+title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
 +++
 
 Người Estonia có một câu nói: "Igaühel on Eestis oma mets" — mỗi người Estonia đều có một khu rừng của riêng mình. Với 70% diện tích quốc gia được phủ xanh bởi rừng và đầm lầy, Estonia là một trong những quốc gia có tỷ lệ cây xanh cao nhất châu Âu, chỉ sau Phần Lan và Thụy Điển. Nhưng hơn cả những con số, thiên nhiên đã trở thành một phần máu thịt trong văn hóa và lối sống của người dân nơi đây — một triết lý sống xanh mà các đô thị phát triển nhanh như Việt Nam đang khao khát học hỏi.

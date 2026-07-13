@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Krabi mùa mưa có đáng đi? phân tích Ao Nang, Railay Beach, tour 4 đảo, Emerald Pool và Tiger Cave Temple tháng 7-8 — lịch trình và mẹo xếp lịch."
 draft = false
 image = "images/posts/krabi-mua-mua-ao-nang-railay-tour-dao.webp"
@@ -67,6 +67,26 @@ title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch 
 [[internal_links]]
 ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
 title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
+
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
+[[internal_links]]
+ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
+title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+
+[[internal_links]]
+ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
+title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
 +++
 
 ## Krabi mùa mưa — còn gì để chơi?

@@ -10,7 +10,7 @@ image = "images/posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho
 thumbnail = "images/posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.webp"
 categories = ["doi-song", "cong-nghe", "tai-chinh"]
 tags = ["niklas zennström", "skype", "entrepreneur", "venture capital", "startup"]
-commit = "320d6036"
+commit = "45c0695c"
 image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
@@ -32,6 +32,34 @@ image_query = "niklas zennström tiểu sử nhà"
 [[internal_links]]
 ref = "posts/estonia-quoc-gia-so-hoa-khai-sinh-skype.md"
 title = "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
+
+[[internal_links]]
+ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
+title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+
+[[internal_links]]
+ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
+title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
+
+[[internal_links]]
+ref = "posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.md"
+title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
 
 [attribution]
 copyright = "Trong khi Skype được coi là một thành công rực rỡ, Kazaa lại là một chương phức tạp hơn. Mặc dù công nghệ P2P ở cốt lõi của Kazaa là trung lập, ứng dụng này nhanh chóng bị sử dụng để chia sẻ nhạc bất hợp pháp. Zennström và Friis tuyên bố rằng họ không có trách nhiệm pháp lý cho những cách sử dụng sai của ứng dụng, nhưng ngành công nghiệp âm nhạc đã không đồng ý."

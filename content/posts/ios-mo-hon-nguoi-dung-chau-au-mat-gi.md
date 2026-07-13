@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:20:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Khi iOS mở hơn ở EU theo DMA, người dùng châu Âu được gì và mất gì? phân tích rủi ro bảo mật, hoàn tiền, trải nghiệm gia đình và những đánh đổi Apple không nói"
 draft = false
 image = "images/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.webp"
@@ -66,6 +66,38 @@ value = "Thêm lựa chọn, nhưng giảm lớp bảo vệ tích hợp"
 [[tom_tat_nhanh]]
 label = "Hợp với"
 value = "Người dùng iPhone EU, phụ huynh, ai quan tâm bảo mật hệ sinh thái"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md"
+title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào"
+
+[[internal_links]]
+ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+
+[[internal_links]]
+ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
+title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
+
+[[internal_links]]
+ref = "posts/apple-thua-kien-eu-app-store-ios-dma.md"
+title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA"
+
+[[internal_links]]
+ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
+title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+
+[[internal_links]]
+ref = "posts/european-commission-duoc-gi-khi-thang-apple.md"
+title = "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 +++
 
 “Mở iOS là tốt cho người dùng” — câu đó xuất hiện liên tục trong thông cáo của European Commission (EC) và các nhóm ủng hộ cạnh tranh. Nhưng nếu bạn hỏi một người dùng iPhone bình thường ở Berlin hay Paris **họ sợ điều gì nhất**, câu trả lời thường không phải “thiếu marketplace thay thế”, mà là **lừa đảo, app giả, mất tiền không lấy lại được**.

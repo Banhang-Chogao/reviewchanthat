@@ -5,7 +5,7 @@ description = "Số e trong tài chính là gì? Tìm hiểu công thức lãi k
 date = "2026-07-10T13:16:14+07:00"
 slug = "ham-so-mu-e-trong-tai-chinh-la-gi"
 aliases = ["/posts/hàm-số-mũ-e-trong-tài-chính-là-gì-từ-lãi-kép-đến-định-giá-tài-sản/"]
-commit = "320d6036"
+commit = "45c0695c"
 lastmod = "2026-07-10T14:00:00+07:00"
 seo_title = "Hàm số mũ e trong tài chính: lãi kép liên tục A = Pe^(rt)"
 authors = ["Minh Hoàng"]
@@ -44,6 +44,26 @@ title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
 [[internal_links]]
 ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
+title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
+
+[[internal_links]]
+ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
+title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
 +++
 
 Khi bạn gửi 100 triệu đồng vào ngân hàng với lãi suất 6%/năm, lãi bạn nhận phụ thuộc vào cách tính: lãi đơn, lãi kép hàng năm, hay lãi kép liên tục. Câu hỏi đặt ra: nếu nhập lãi càng nhiều lần thì kết quả cuối cùng sẽ như thế nào?

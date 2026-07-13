@@ -1,6 +1,6 @@
 +++
 title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T09:00:00+07:00"
 slug = "tin-chi-carbon-va-trao-luu-net-zero"
 aliases = ["/posts/tín-chỉ-carbon-và-trào-lưu-net-zero-bóc-tách-góc-nhìn-tài-chính-từ-thẻ-eco-của-techcombank/"]
@@ -50,6 +50,26 @@ title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý
 [[internal_links]]
 ref = "posts/trao-luu-green-camping-cam-trai-hoang-so.md"
 title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
+
+[[internal_links]]
+ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
+title = "Checklist trước khi mua một sản phẩm online"
+
+[[internal_links]]
+ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
+title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
 
 [[faq]]
 question = "1. Dùng thẻ Eco của Techcombank có thực sự giúp tôi \"trung hòa carbon\" không?"

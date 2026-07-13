@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor gồm mall, bảo tàng, chợ trong nhà, massage, food tour — kèm lịch trình 2 ngày mùa mưa và cách di chuyển."
 draft = false
 image = "images/posts/bangkok-ngay-mua-nen-di-dau.webp"
@@ -70,6 +70,26 @@ title = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho 
 [[internal_links]]
 ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
 title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
+
+[[internal_links]]
+ref = "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
+title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu"
+
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
+title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
 +++
 
 Mưa ở Bangkok thường đến bất ngờ. Bạn đang đi dạo trên phố, trời nắng đẹp, và 15 phút sau mưa như trút nước. Nhưng điểm mạnh của Bangkok là bạn hiếm khi bị kẹt giữa cơn mưa mà không có chỗ trú — bởi thành phố này có một hệ thống mall, BTS skywalk, và indoor attractions phủ khắp trung tâm.

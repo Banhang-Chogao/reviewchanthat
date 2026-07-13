@@ -1,7 +1,7 @@
 +++
 title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
 seo_title = "Trip.Coins & coupon Trip.com: cách đặt phòng giá rẻ"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T10:10:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -45,6 +45,26 @@ title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, t
 [[internal_links]]
 ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
 title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
+
+[[internal_links]]
+ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
+title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
+
+[[internal_links]]
+ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
+title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
+
+[[internal_links]]
+ref = "posts/ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa.md"
+title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
+
+[[internal_links]]
+ref = "posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.md"
+title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
+
+[[internal_links]]
+ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
+title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
 
 [[faq]]
 question = "Trip Coins có quy đổi được ra tiền mặt không?"

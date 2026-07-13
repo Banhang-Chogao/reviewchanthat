@@ -1,7 +1,7 @@
 +++
 title = "Làm sao thoát Vim? Giải mã meme huyền thoại và hướng dẫn thoát Vim đúng cách"
 seo_title = "Làm sao thoát Vim? Giải mã meme và cách thoát đúng"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T18:30:00+07:00"
 draft = false
 description = "Làm sao thoát Vim? Giải mã meme huyền thoại của giới lập trình và hướng dẫn thoát Vim đúng cách: q, q!, wq, ZZ và vì sao Vim lại khó thoát đến vậy."
@@ -44,6 +44,22 @@ title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nề
 [[internal_links]]
 ref = "posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.md"
 title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
 
 [[external_links]]
 url = "https://stackoverflow.com/questions/11828270/how-do-i-exit-vim"

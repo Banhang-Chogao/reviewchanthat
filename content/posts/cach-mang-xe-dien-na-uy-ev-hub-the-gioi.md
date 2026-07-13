@@ -1,7 +1,7 @@
 +++
 title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
 seo_title = "Cách Mạng Xe Điện: Vì Sao Na Uy Dẫn Đầu Thế Giới?"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T07:44:37+07:00"
 slug = "cach-mang-xe-dien-na-uy-ev-hub-the-gioi"
 aliases = ["/posts/cách-mạng-xe-điện-ev-tại-sao-na-uy-quốc-gia-xuất-khẩu-dầu-mỏ-lại-dẫn-đầu-thế-giới/"]
@@ -40,6 +40,26 @@ title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Q
 [[internal_links]]
 ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
 title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
+[[internal_links]]
+ref = "posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md"
+title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
 
 [[faq]]
 question = "Q: Xe điện ở Na Uy đắt không?"

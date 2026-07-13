@@ -1,7 +1,7 @@
 +++
 title = "Wikipedia kiếm tiền để duy trì hoạt động như thế nào? Mô hình tài chính của bách khoa toàn thư mở"
 seo_title = "Wikipedia kiếm tiền thế nào? Mô hình tài chính phi lợi nhuận"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T19:20:00+07:00"
 draft = false
 description = "Wikipedia kiếm tiền thế nào: quyên góp nhỏ từ độc giả, tài trợ, Wikimedia Enterprise và quỹ Endowment — mô hình phi lợi nhuận, không quảng cáo."
@@ -44,6 +44,22 @@ title = "Tiền quyên góp cho Wikipedia được dùng vào đâu? Wikipedia c
 [[internal_links]]
 ref = "posts/bram-moolenaar-tieu-su-cha-de-vim.md"
 title = "Bram Moolenaar — tiểu sử cha đẻ Vim: sự nghiệp, di sản và những gì ông để lại"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
 
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Wikimedia_Foundation"

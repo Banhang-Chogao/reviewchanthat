@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T13:40:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time Machine, dọn SSD,   kiểm tra app, RAM và kế hoạch rollback."
 draft = false
 image = "images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp"
@@ -50,6 +50,38 @@ value = "Trống ít nhất 25–35GB cho beta"
 [[tom_tat_nhanh]]
 label = "Hợp với"
 value = "Ai sắp cài beta hoặc public release"
+
+[[internal_links]]
+ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
+title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/macos-27-ho-tro-may-mac-nao.md"
+title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
+
+[[internal_links]]
+ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
+title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
+
+[[internal_links]]
+ref = "posts/macos-27-so-voi-macos-26.md"
+title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
+
+[[internal_links]]
+ref = "posts/macos-27-co-gi-moi.md"
+title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
+
+[[internal_links]]
+ref = "posts/macos-27-hieu-nang-pin-macbook.md"
+title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
+
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
 +++
 
 Nâng cấp macOS mà không backup giống **đi du lịch không mang ví** — may mắn thì không sao, xui thì mất vài ngày làm lại máy. Golden Gate 27 còn thêm indexing Spotlight AI và dung lượng beta lớn — chuẩn bị trước sẽ tiết kiệm giờ (và nước mắt).

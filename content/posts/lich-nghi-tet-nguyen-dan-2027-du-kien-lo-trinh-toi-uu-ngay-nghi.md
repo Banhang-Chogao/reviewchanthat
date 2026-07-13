@@ -72,6 +72,22 @@ title = "Sinh năm 2027 mệnh gì? Tuổi Đinh Mùi Thiên Hà Thủy, hướn
 [[internal_links]]
 ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
 title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
+title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
+
+[[internal_links]]
+ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
+title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
+
+[[internal_links]]
+ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
+title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
 +++
 
 Cứ mỗi độ tháng Chạp cận kề, câu hỏi được tìm nhiều nhất không phải là "ăn gì" hay "chơi đâu", mà là **"năm nay được nghỉ Tết mấy ngày và nghỉ từ hôm nào?"**. Với Tết Nguyên Đán Đinh Mùi 2027, tôi viết bài này sớm — từ giữa năm 2026 — để bạn có một khung tính toán đủ dùng, thay vì chờ tin đồn trên mạng xã hội. Xin nói rõ ngay từ đầu: **toàn bộ lịch dưới đây là dự kiến**. Lịch nghỉ lễ chính thức của khối hành chính, sự nghiệp và khối doanh nghiệp do Chính phủ cùng Bộ Lao động - Thương binh và Xã hội công bố, thường vào khoảng cuối năm liền trước. Cái tôi làm ở đây là bóc tách cách người ta *ra* con số đó, để bạn tự kiểm chứng.

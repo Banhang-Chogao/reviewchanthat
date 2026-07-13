@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:20:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "phân tích khung titan iPhone 15 Pro Max so với thép đời cũ: trọng lượng 221g, độ bền, vết trầy, cảm giác cầm và lưu ý khi mua máy cũ."
 draft = false
 image = "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp"
@@ -53,6 +53,38 @@ label = "Khác thép"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.md"
+title = "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.md"
+title = "iPhone 15 Pro Max màu titan có còn đáng mua không?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.md"
+title = "iPhone 15 Pro Max Natural Titanium: đánh giá màu"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md"
+title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
+
+[[internal_links]]
+ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
+title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
+
+[[internal_links]]
+ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
+title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
 +++
 
 Khi Apple chuyển iPhone Pro sang **khung titan** năm 2023, marketing nhấn **nhẹ hơn, bền hơn, cao cấp hơn**. Người dùng thực tế lại hỏi ngược: **“Titan có dễ trầy hơn thép không? Có đáng để đổi từ 14 Pro Max?”** Câu trả lời không phải một từ — mà là sự đánh đổi rõ ràng.

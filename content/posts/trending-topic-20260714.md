@@ -1,7 +1,7 @@
 +++
 title = "Gemini 3.5 Pro Launch July 17: 2M Context, Deep Think, Pricing — Everything You Need to Know"
 seo_title = "Gemini 3.5 Pro Launch July 17 2026: 2M Context Deep Think Pricing"
-commit = "ca12c366"
+commit = "45c0695c"
 date = "2026-07-14T00:25:10+07:00"
 slug = "trending-topic-20260714"
 draft = false
@@ -49,6 +49,38 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+
+[[internal_links]]
+ref = "posts/ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro.md"
+title = "AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins?"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
+[[internal_links]]
+ref = "posts/danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026.md"
+title = "Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026"
 +++
 
 Three days from now, Google will ship what it claims is its most ambitious model ever. Gemini 3.5 Pro is set to launch on July 17, 2026, after one of the most dramatic development cycles in modern AI history — a story that includes a scrapped architecture, hundreds of millions of dollars in sunk costs, and a $225 billion swing in Alphabet's market capitalization.

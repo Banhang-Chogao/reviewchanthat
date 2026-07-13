@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T08:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "iPhone 18 Pro Max là model flagship lớn nhất trong kỳ vọng đợt ra mắt mùa thu 2026 — nếu tin đồn split launch đúng, đây là máy “full option” Apple có thể giới"
 draft = false
 image = "images/posts/iphone-18-pro-max-co-gi-moi.webp"
@@ -63,6 +63,38 @@ label = "Điểm nổi bật (đồn)"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[internal_links]]
+ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-mau-gi-dark-cherry.md"
+title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/iphone-18-khi-nao-ra-mat.md"
+title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
+
+[[internal_links]]
+ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
+title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
+
+[[internal_links]]
+ref = "posts/iphone-18-vs-iphone-17.md"
+title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
+
+[[internal_links]]
+ref = "posts/iphone-18-chip-a20-2nm.md"
+title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
 +++
 
 **iPhone 18 Pro Max** là model flagship lớn nhất trong kỳ vọng đợt ra mắt **mùa thu 2026** — nếu tin đồn **split launch** đúng, đây là máy “full option” Apple có thể giới thiệu trước, trong khi bản iPhone 18 tiêu chuẩn chờ đến **đầu 2027**. Apple **chưa công bố** bất kỳ thông số nào; bài viết dưới đây phân loại tin đồn có nguồn để bạn biết điều gì **đáng chờ** và điều gì **chỉ là phỏng đoán**.

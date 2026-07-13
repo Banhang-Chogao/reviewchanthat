@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:40:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Apple Intelligence trên macOS Golden Gate 27: Siri AI Spotlight, yêu cầu phần cứng Mac, tiếng Việt và giới hạn thực tế cho người dùng Việt Nam."
 draft = false
 image = "images/posts/macos-27-apple-intelligence-macbook.webp"
@@ -47,6 +47,38 @@ label = "Tính năng"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[internal_links]]
+ref = "posts/macos-27-ho-tro-may-mac-nao.md"
+title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
+
+[[internal_links]]
+ref = "posts/macos-27-hieu-nang-pin-macbook.md"
+title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
+
+[[internal_links]]
+ref = "posts/macos-27-co-gi-moi.md"
+title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
+[[internal_links]]
+ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
+title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
+
+[[internal_links]]
+ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
+title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
+
+[[internal_links]]
+ref = "posts/chuan-bi-macbook-truoc-khi-len-macos-27.md"
+title = "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app"
+
+[[internal_links]]
+ref = "posts/macos-27-so-voi-macos-26.md"
+title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
 +++
 
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **macOS Golden Gate 27** là lần Apple cố gắng biến AI thành thói quen trên desktop — không chỉ demo keynote. Câu hỏi thực tế: **MacBook của bạn chạy được những gì, và tiếng Việt đến đâu?**

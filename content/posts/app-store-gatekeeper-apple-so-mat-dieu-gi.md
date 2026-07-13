@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:40:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Khi Apple là gatekeeper App Store và iOS theo DMA: Apple mất quyền kiểm soát gì, giữ được gì — sau phán quyết Tòa EU 8/7/2026."
 draft = false
 image = "images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp"
@@ -66,6 +66,38 @@ label = "Apple giữ"
 [[tom_tat_nhanh]]
 label = "Tách biệt"
 image_attribution_checked_at = "2026-07-14T00:09:47+07:00"
+
+[[internal_links]]
+ref = "posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md"
+title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào"
+
+[[internal_links]]
+ref = "posts/apple-thua-kien-eu-app-store-ios-dma.md"
+title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA"
+
+[[internal_links]]
+ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
+title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+
+[[internal_links]]
+ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+
+[[internal_links]]
+ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
+title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
+
+[[internal_links]]
+ref = "posts/european-commission-duoc-gi-khi-thang-apple.md"
+title = "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới"
+
+[[internal_links]]
+ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 +++
 
 “Gatekeeper” nghe như tên phim — nhưng với Apple, đó là **nhãn pháp lý** gắn trực tiếp lên **App Store** và **iOS** tại EU. Ngày [8/7/2026, Tòa Tổng EU bác kiện Apple](/posts/apple-thua-kien-eu-app-store-ios-dma/) và **giữ nguyên** nhãn đó.

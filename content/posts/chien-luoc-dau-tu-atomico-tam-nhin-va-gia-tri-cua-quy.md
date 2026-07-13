@@ -1,7 +1,7 @@
 +++
 title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
 seo_title = "Chiến lược đầu tư của Atomico: tầm nhìn và giá trị cốt lõi"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T14:45:00+07:00"
 slug = "chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy"
 aliases = ["/posts/chiến-lược-đầu-tư-của-atomico-tầm-nhìn-và-giá-trị-cốt-lõi-của-quỹ/"]
@@ -28,6 +28,38 @@ image_provider = "pexels"
 image_query = "chiến lược đầu tư atomico"
 image_alt = "Ảnh minh họa Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ — nguồn Pexels"
 image_license_url = ""
+
+[[internal_links]]
+ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
+title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+
+[[internal_links]]
+ref = "posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.md"
+title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
+
+[[internal_links]]
+ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
+title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
+
+[[internal_links]]
+ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
+title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
+
+[[internal_links]]
+ref = "posts/danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk.md"
+title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những công ty Thay Đổi Thế Giới"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
 +++
 
 ## Tầm Nhìn Của Atomico: Xây Dựng Những công ty Thay Đổi Thế Giới

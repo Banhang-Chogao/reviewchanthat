@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp gần TP.HCM 2026: Review & Kinh nghiệm chọn"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T13:45:00+07:00"
 draft = false
 editor_pick = true
@@ -48,6 +48,18 @@ title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trì
 [[internal_links]]
 ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
 title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-da-nang-2026.md"
+title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
+title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
+title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
 [[external_links]]
 url = "https://www.trip.com/trip-best/"

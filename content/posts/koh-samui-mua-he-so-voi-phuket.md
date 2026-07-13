@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Koh Samui mùa hè tháng 7-8 có tốt hơn Phuket? So sánh thời tiết, biển, chi phí, tour đảo và lịch trình Koh Samui mùa mưa."
 image = "images/posts/koh-samui-mua-he-so-voi-phuket.webp"
 image_alt = "Ảnh minh họa Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không? — nguồn Pexels"
@@ -65,6 +65,26 @@ title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và c
 [[internal_links]]
 ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
 title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/di-thai-lan-thang-7-co-nen-khong.md"
+title = "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý"
+
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
+[[internal_links]]
+ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
+title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
 +++
 
 ## Koh Samui vs Phuket — đâu là lựa chọn đúng cho tháng 7–8?

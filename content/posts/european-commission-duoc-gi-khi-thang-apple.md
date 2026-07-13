@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "EC được gì khi thắng Apple trong tranh chấp DMA: tiền phạt, tiền lệ pháp lý, quyền giám sát gatekeeper — và những rủi ro chính trị, thị trường EC phải gánh."
 draft = false
 image = "images/posts/european-commission-duoc-gi-khi-thang-apple.webp"
@@ -57,6 +57,38 @@ label = "Điểm then chốt"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md"
+title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào"
+
+[[internal_links]]
+ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+
+[[internal_links]]
+ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
+title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
+
+[[internal_links]]
+ref = "posts/apple-thua-kien-eu-app-store-ios-dma.md"
+title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA"
+
+[[internal_links]]
+ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
+title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+
+[[internal_links]]
+ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 +++
 
 500 triệu euro — con số EC công bố khi phạt Apple vì vi phạm Digital Markets Act (DMA) vào tháng 4/2025. Trên headline, đó là “EC thắng Apple”. Nhưng hỏi một policy analyst ở Brussels **EC thực sự nhận được gì**, câu trả lời dài hơn một tờ hóa đơn phạt: **tiền lệ pháp lý**, **quyền giám sát gatekeeper**, **đòn bẩy với Big Tech khác** — và cả **rủi ro chính trị** khi Washington xem đây là “phạt công ty Mỹ”.

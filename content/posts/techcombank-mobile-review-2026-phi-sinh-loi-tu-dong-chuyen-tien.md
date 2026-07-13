@@ -4,7 +4,7 @@ date = "2026-07-10T04:30:00+07:00"
 slug = "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien"
 aliases = ["/posts/techcombank-mobile-review-2026-phí-sinh-lời-tự-động-chuyển-tiền-và-ai-nên-dùng/"]
 date_display = "10-07-2026 04:30:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 categories = ["tai-chinh"]
 tags = ["ngân hàng số", "Techcombank Mobile", "app ngân hàng", "sinh lời tự động", "chuyển tiền", "review app"]
 author = "Minh Hoàng"
@@ -49,6 +49,26 @@ title = "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn 
 [[internal_links]]
 ref = "posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.md"
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
 +++
 Ngân hàng số là xu hướng, nhưng **không phải cái nào cũng phù hợp với bạn.**
 

@@ -1,7 +1,7 @@
 +++
 title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
 seo_title = "Green Camping: Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T14:00:00+07:00"
 slug = "trao-luu-green-camping-cam-trai-hoang-so"
 aliases = ["/posts/trào-lưu-green-camping-gợi-ý-các-địa-điểm-cắm-trại-hoang-sơ-chữa-lành/"]
@@ -36,6 +36,30 @@ title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026
 [[internal_links]]
 ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
 title = "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
+title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
 +++
 
 Năm 2026 chứng kiến sự bùng nổ của **green camping** — cắm trại xanh — một trào lưu du lịch kết hợp bảo vệ môi trường, nhặt rác và tuân thủ nghiêm ngặt nguyên tắc Leave No Trace (LNT). Không còn là những chuyến dã ngoại xả rác bừa bãi như trước, green camping đặt trải nghiệm chữa lành (healing) và trách nhiệm sinh thái lên hàng đầu. Nếu bạn đang tìm kiếm địa điểm cắm trại hoang sơ gần Sài Gòn để tái tạo năng lượng cuối tuần, bài viết này dành cho bạn.

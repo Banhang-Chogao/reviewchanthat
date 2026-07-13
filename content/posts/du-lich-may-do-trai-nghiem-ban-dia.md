@@ -5,7 +5,7 @@ date = "2026-07-11T10:45:00+07:00"
 slug = "du-lich-may-do-trai-nghiem-ban-dia"
 aliases = ["/posts/xu-hướng-du-lịch-may-đo-trải-nghiệm-bản-địa-hè-2026-trốn-phố-giải-nhiệt/"]
 date_display = "11-07-2026 10:45:00 GMT +7"
-commit = "320d6036"
+commit = "45c0695c"
 draft = false
 tags = ["du lich he", "trekking", "camping", "local tour"]
 categories = ["du-lich"]
@@ -40,6 +40,26 @@ title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực
 [[internal_links]]
 ref = "posts/ky-su-ha-giang-nhung-khuc-cua-va-ky-uc.md"
 title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
+title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
 +++
 Giữa lòng Sài Gòn nắng cháy da người 37 độ C, hàng ngàn bạn trẻ đang lặng lẽ đóng laptop, vác ba lô lên và… biến mất khỏi thành phố vào mỗi cuối tuần. Họ không mua tour 3 ngày 2 đêm giá rẻ, không lên xe giường nằm đi Đà Lạt theo kiểu "ăn uống — chụp ảnh — về". Thay vào đó, họ tìm đến những chuyến đi tự may đo: trekking xuyên rừng, cắm trại bên hồ vắng, hoặc ở homestay giữa bản làng người dân tộc thiểu số. Đây không đơn thuần là trào lưu. Đây là cách nghỉ dưỡng đang được định nghĩa lại.
 

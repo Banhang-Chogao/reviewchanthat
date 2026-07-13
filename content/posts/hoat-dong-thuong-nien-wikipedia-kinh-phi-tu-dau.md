@@ -1,7 +1,7 @@
 +++
 title = "Các hoạt động thường niên của Wikipedia và nguồn kinh phí: Wikimania, hạ tầng và tài trợ cộng đồng"
 seo_title = "Hoạt động thường niên của Wikipedia & nguồn kinh phí"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T19:22:00+07:00"
 draft = false
 description = "Các hoạt động thường niên của Wikipedia lấy kinh phí từ đâu và gồm những gì: hội nghị Wikimania, hạ tầng máy chủ, tài trợ cộng đồng và gây quỹ hằng năm."
@@ -44,6 +44,22 @@ title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, t
 [[internal_links]]
 ref = "posts/luoc-su-vim-editor.md"
 title = "Lược sử hình thành Vim: từ vi trên máy Amiga đến trình soạn thảo huyền thoại của lập trình viên"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
 
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Wikimedia_Foundation"

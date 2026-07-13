@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Trải nghiệm màn 6.9 inch trên iPhone 16 Pro Max: kích thước, một tay, so với 6.7 inch 15 Pro Max và ai nên chọn màn lớn nhất."
 draft = false
 image = "images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp"
@@ -46,6 +46,38 @@ label = "Lợi ích"
 
 [[tom_tat_nhanh]]
 label = "Cân nhắc"
+
+[[internal_links]]
+ref = "posts/camera-control-iphone-16-pro-max-co-tien-khong.md"
+title = "Camera Control iPhone 16 Pro Max có tiện không?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-16-pro-max-co-dang-chon.md"
+title = "Pin iPhone 16 Pro Max có đáng chọn?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-tren-tay.md"
+title = "iPhone 16 Pro Max Desert Titanium trên tay"
+
+[[internal_links]]
+ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
+title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md"
+title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
+title = "iPhone 16 Pro Max năm 2026 nên mua không?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
 +++
 
 Apple đẩy iPhone 16 Pro Max lên **6.9 inch** — con số nghe **nhỏ** (chỉ hơn 6.7 inch của 15 Pro Max 0.2 inch) nhưng trên khung Pro Max, **diện tích thực tế và cảm giác cầm** khác hẳn. Đây có phải upgrade đáng tiền, hay chỉ làm túi jeans chật hơn?

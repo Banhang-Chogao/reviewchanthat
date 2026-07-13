@@ -1,7 +1,7 @@
 +++
 title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
 seo_title = "Quỹ chủ quyền Na Uy: biến dầu mỏ thành tài sản tương lai"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T07:42:37+07:00"
 slug = "quyen-chu-quyen-na-uy-government-pension-fund-global"
 aliases = ["/posts/government-pension-fund-global-làm-thế-nào-na-uy-biến-dầu-mỏ-thành-tài-sản-tương-lai/"]
@@ -40,6 +40,26 @@ title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
 [[internal_links]]
 ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
 title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
+
+[[internal_links]]
+ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
+title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md"
+title = "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối"
 
 [[faq]]
 question = "Q: Na Uy còn khai thác dầu mỏ không?"

@@ -1,7 +1,7 @@
 +++
 title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
 seo_title = "Xu hướng hè 2026: phối đồ màu vàng bơ và phụ kiện jelly"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T11:20:00+07:00"
 slug = "xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly"
 aliases = ["/posts/xu-hướng-hè-2026-cách-phối-đồ-màu-vàng-bơ-tôn-da-và-phụ-kiện-jelly-cực-chất/"]
@@ -36,6 +36,30 @@ title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
 [[internal_links]]
 ref = "posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.md"
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
+title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
+
+[[internal_links]]
+ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
+title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
+title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
+
+[[internal_links]]
+ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
+title = "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ"
 +++
 
 Nếu có một màu sắc định nghĩa mùa hè 2026, đó chính là màu **vàng bơ** (Butter Yellow) — sắc pastel dịu mắt nằm giữa kem sữa và nắng nhẹ. Cùng lúc, trào lưu phụ kiện **Jelly** (nhựa dẻo trong suốt) từ thập niên 2000 cũng quay trở lại mạnh mẽ, len lỏi từ đôi dép đi biển đến túi xách, kẹp tóc. Hai xu hướng này, một mềm mại thanh lịch, một tinh nghịch hoài niệm, đang tạo nên diện mạo thời trang đường phố hứa hẹn nhất mùa hè năm nay.

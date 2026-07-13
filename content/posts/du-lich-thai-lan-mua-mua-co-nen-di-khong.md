@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "Du lịch Thái Lan mùa mưa có nên đi? So sánh thời tiết Bangkok, Phuket, Krabi, Chiang Mai, Koh Samui tháng 7-8 — ưu nhược điểm từng nơi, lịch trình gợi ý và"
 draft = false
 image = "images/posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.webp"
@@ -74,6 +74,26 @@ title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch 
 [[internal_links]]
 ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
 title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
+
+[[internal_links]]
+ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
+title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
+
+[[internal_links]]
+ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
+title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
+
+[[internal_links]]
+ref = "posts/doi-baht-o-viet-nam-hay-thai-lan.md"
+title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
+title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
 +++
 
 Mùa mưa Thái Lan kéo dài từ tháng 6 đến tháng 10, cao điểm vào tháng 7–9. Đây là khoảng thời gian nhiều người Việt phân vân nhất: vé máy bay rẻ, khách sạn giảm sâu, nhưng liệu có "đi mưa cả ngày" hay không? Câu trả lời ngắn gọn là: **tùy vào điểm đến và cách bạn lên lịch**.

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:40:00+07:00"
-commit = "320d6036"
+commit = "45c0695c"
 description = "So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm A18, Camera Control và có nên đổi vì ảnh."
 draft = false
 image = "images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp"
@@ -46,6 +46,38 @@ label = "Giữ 15"
 [[tom_tat_nhanh]]
 label = "Lên 16"
 image_attribution_checked_at = "2026-07-14T00:09:13+07:00"
+
+[[internal_links]]
+ref = "posts/pin-iphone-16-pro-max-co-dang-chon.md"
+title = "Pin iPhone 16 Pro Max có đáng chọn?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-tren-tay.md"
+title = "iPhone 16 Pro Max Desert Titanium trên tay"
+
+[[internal_links]]
+ref = "posts/camera-control-iphone-16-pro-max-co-tien-khong.md"
+title = "Camera Control iPhone 16 Pro Max có tiện không?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.md"
+title = "Trên tay iPhone 16 Pro Max màn hình 6.9 inch"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md"
+title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
+title = "iPhone 16 Pro Max năm 2026 nên mua không?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.md"
+title = "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?"
 +++
 
 So camera **16 Pro Max vs 15 Pro Max**, nhiều người kỳ vọng **bước nhảy như 3x sang 5x** năm 2023. Thực tế 2026: **ống kính gần nhau**, khác biệt nằm ở **chip xử lý**, **Camera Control** và **tính năng phần mềm** gắn A18 Pro.

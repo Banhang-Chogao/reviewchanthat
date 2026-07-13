@@ -1,7 +1,7 @@
 +++
 title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
 seo_title = "Phục hồi da cháy nắng cấp tốc và tóc xơ rối sau đi biển"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-11T12:20:00+07:00"
 slug = "phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien"
 aliases = ["/posts/cách-phục-hồi-da-bị-cháy-nắng-cấp-tốc-tóc-xơ-rối-sau-khi-đi-biển/"]
@@ -40,6 +40,26 @@ title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành T
 [[internal_links]]
 ref = "posts/phần-lan-hạnh-phúc-01.md"
 title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
 +++
 
 Chườm lạnh ngay, thoa gel nha đam nguyên chất, uống 2 lít nước — đây là 3 việc bạn phải làm trong 30 phút đầu sau khi nhận ra da đã bị cháy nắng. Mùa hè 2026 đang ở đỉnh điểm, và nếu bạn vừa có chuyến đi Phú Quốc, Đà Nẵng hay Nha Trang về, chắc hẳn làn da và mái tóc đang "kêu cứu" dù bạn đã thoa kem chống nắng kỹ càng.

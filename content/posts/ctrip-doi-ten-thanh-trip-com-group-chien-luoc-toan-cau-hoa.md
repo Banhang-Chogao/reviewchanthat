@@ -1,7 +1,7 @@
 +++
 title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
 seo_title = "Ctrip thành Trip.com Group: chiến lược toàn cầu hóa"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-13T10:35:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -45,6 +45,26 @@ title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, v
 [[internal_links]]
 ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
 title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
+
+[[internal_links]]
+ref = "posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.md"
+title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu"
+
+[[internal_links]]
+ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
+title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
+
+[[internal_links]]
+ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
+title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
+
+[[internal_links]]
+ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
+title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
+
+[[internal_links]]
+ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
+title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
 
 [[faq]]
 question = "Ctrip đổi tên thành Trip.com Group vào năm nào?"

@@ -1,7 +1,7 @@
 +++
 title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
 seo_title = "Reputable Hotels in Ho Chi Minh City: 2026 Visitor Guide"
-commit = "320d6036"
+commit = "45c0695c"
 date = "2026-07-12T21:40:00+07:00"
 draft = false
 post_lang = "en"
@@ -48,6 +48,22 @@ title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026:
 [[internal_links]]
 ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
 title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
+[[internal_links]]
+ref = "posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com.md"
+title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
+
+[[internal_links]]
+ref = "posts/michelin-restaurants-ho-chi-minh-city-must-try.md"
+title = "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)"
+
+[[internal_links]]
+ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
+title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 
 [[external_links]]
 url = "https://www.trip.com/"
