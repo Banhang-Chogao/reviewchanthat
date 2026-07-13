@@ -5,9 +5,9 @@ description = "định giá cổ phiếu dùng toán học nào? Học Discounte
 date = "2026-07-10T13:16:14+07:00"
 slug = "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien"
 aliases = ["/posts/mô-hình-định-giá-cổ-phiếu-dcf-comparable-peg-ratio/"]
-commit = "b6fb0a55"
+commit = "53131412"
 lastmod = "2026-07-10T14:10:36+07:00"
-seo_title = "Định giá cổ phiếu: DCF, P/E, PEG và comparable valuation"
+seo_title = "định giá cổ phiếu: DCF, P/E, PEG và comparable valuation"
 authors = ["Minh Hoàng"]
 categories = ["tai-chinh"]
 tags = ["định giá cổ phiếu", "DCF", "P/E ratio", "terminal value", "comparable valuation", "intrinsic value"]
@@ -39,7 +39,7 @@ title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
 
 [[internal_links]]
 ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
-title = "Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
 
 [[internal_links]]
 ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"

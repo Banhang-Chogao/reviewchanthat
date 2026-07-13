@@ -1,7 +1,7 @@
 +++
 title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026"
 seo_title = "Cách đặt khách sạn & vé máy bay giá tốt trên Trip.com"
-commit = "53131412"
+commit = "318b2f55"
 date = "2026-07-13T10:05:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Trip.com", "đặt khách sạn online", "vé máy bay giá rẻ", "hướng dẫn du lịch", "mẹo đặt phòng", "thanh toán online", "du lịch 2026"]
 keywords = ["hướng dẫn đặt khách sạn Trip.com", "đặt vé máy bay Trip.com", "mẹo đặt phòng giá tốt", "hoàn hủy linh hoạt Trip.com", "coupon Trip.com", "thanh toán Trip.com", "đặt vé máy bay online 2026", "cách dùng Trip.com"]
 image_alt = "Ảnh minh họa Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026 — nguồn Pixabay"
-
 image = "images/posts/huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026.webp"
 thumbnail = "images/posts/huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026.webp"
 image_source = "Pixabay"
@@ -33,6 +32,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:40+07:00"
 image_query = "hướng dẫn đặt khách sạn"
+date_display = "13-07-2026 10:05:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"

@@ -1,7 +1,7 @@
 +++
-title = "Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
 seo_title = "Atomico Là Gì? Quỹ Đầu Tư Mạo Hiểm Của Niklas Zennström"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-11T14:00:00+07:00"
 slug = "atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom"
 aliases = ["/posts/atomico-là-gì-công-ty-đầu-tư-mạo-hiểm-của-niklas-zennström-định-hình-hệ-sinh-thái-khởi-nghiệp-châu-âu/"]
@@ -27,7 +27,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "mobile banking payment app"
-image_alt = "Ảnh minh họa Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu — nguồn Pixabay"
+image_alt = "Ảnh minh họa Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu — nguồn Pixabay"
 
 [[internal_links]]
 ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
@@ -47,16 +47,16 @@ title = "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa 
 
 [[internal_links]]
 ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
-title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và Giá Trị Cốt Lõi Của Quỹ"
+title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
 
 [[internal_links]]
 ref = "posts/danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk.md"
-title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những Công Ty Thay Đổi Thế Giới"
+title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những công ty Thay Đổi Thế Giới"
 image_source = "Pixabay"
 image_provider = "pixabay"
 image_license = "Pixabay Content License"
 image_creator = "vjkombajn"
-image_alt = "Atomico - Công ty đầu tư mạo hiểm hàng đầu Châu Âu"
+image_alt = "Atomico - công ty đầu tư mạo hiểm hàng đầu Châu Âu"
 image_source_url = "https://pixabay.com/photos/money-cash-czech-crowns-banknotes-8033100/"
 image_license_url = ""
 image_commercial_use = true

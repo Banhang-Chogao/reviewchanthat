@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp gần Hà Nội 2026: Review & Kinh nghiệm chọn"
-commit = "b679a369"
+commit = "b595e98e"
 date = "2026-07-12T15:15:00+07:00"
 draft = false
 description = "Khách sạn view đẹp gần Hà Nội 2026: review 6 resort nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng staycation."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa khách sạn view đẹp gần Hà Nội — khu nghỉ dưỡng ven hồ với bể bơi và hàng cọ"
 image_query = "khách sạn view đẹp Hà Nội Hồ Tây nghỉ dưỡng ven hồ"
 image_attribution_checked_at = "2026-07-12T15:22:45+07:00"
+date_display = "12-07-2026 15:15:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
@@ -119,7 +120,7 @@ Trước khi đi vào từng cái tên, cần thống nhất "view đẹp" nghĩ
 
 **Khả năng ngắm bình minh hoặc hoàng hôn.** Đây là chi tiết quyết định "view đẹp" có thành kỷ niệm hay không. Phòng hướng Tây Hồ Tây được hoàng hôn rực rỡ; đỉnh Ba Vì hướng Đông đón bình minh và biển mây — nghe đơn giản nhưng nhiều người bỏ qua.
 
-**Giá trị trải nghiệm tổng thể.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Một nơi đắt nhưng cho bạn ngủ ngon, ăn ngon và bình yên vẫn đáng hơn một nơi rẻ mà về nhà thấy tiếc thời gian.
+**giá trị trải nghiệm tổng thể.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Một nơi đắt nhưng cho bạn ngủ ngon, ăn ngon và bình yên vẫn đáng hơn một nơi rẻ mà về nhà thấy tiếc thời gian.
 
 ![Khu nghỉ dưỡng ven hồ với cảnh quan thiên nhiên yên tĩnh gần Hà Nội](/images/posts/khach-san-view-dep-gan-ha-noi-2026-inline.webp)
 
@@ -221,7 +222,7 @@ Danh sách dưới đây bám theo những cái tên xuất hiện nhiều trong
 
 Bảng dưới đây tóm tắt để bạn dễ đối chiếu theo nhu cầu. Dấu ●● nghĩa là rất tốt/rất hợp, ● là ổn/tạm được, ○ là không phải điểm mạnh.
 
-| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Bể bơi | Giá trị trải nghiệm |
+| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Bể bơi | giá trị trải nghiệm |
 |---|---|---|---|---|---|---|---|
 | Sofitel Metropole | Di sản ●● | Hoàn Kiếm (phố cổ) | ●● | ● | ● | ● | ●● rất cao |
 | InterContinental Westlake | Hồ Tây ●● | Ven Hồ Tây | ●● | ● | ● | ●● | ●● cao |

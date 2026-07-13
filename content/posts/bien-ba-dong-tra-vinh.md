@@ -1,7 +1,7 @@
 +++
 title = "Biển Ba Động Trà Vinh: bãi biển giồng cát bình dị của miền Tây và kinh nghiệm đường đi 2026"
 seo_title = "Biển Ba Động Trà Vinh: đường đi, mùa đẹp & kinh nghiệm 2026"
-commit = "30205f35"
+commit = "e6b57625"
 date = "2026-07-12T17:45:00+07:00"
 draft = false
 description = "Biển Ba Động Trà Vinh: bãi giồng cát dài hơn 10 km, sóng nhỏ an toàn, đặc sản dưa hấu và mắm rươi — hướng dẫn đường đi, mùa đẹp và kinh nghiệm 2026."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa bãi biển và rừng phi lao ven biển miền Tây — biển Ba Động Trà Vinh"
 image_query = "bãi biển rừng phi lao ven biển miền Tây Việt Nam"
 image_attribution_checked_at = "2026-07-12T18:06:25+07:00"
+date_display = "12-07-2026 17:45:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/cau-tren-bien-ngam-dien-gio-ca-mau.md"

@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp Nha Trang 2026: Review & Kinh nghiệm chọn"
-commit = "1bf6b41e"
+commit = "b595e98e"
 date = "2026-07-12T15:28:00+07:00"
 draft = false
 description = "Khách sạn view đẹp Nha Trang 2026: review 6 resort nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng view biển đảo."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa khách sạn view đẹp ở Nha Trang — resort ven biển"
 image_query = "khách sạn view đẹp Nha Trang resort biển"
 image_attribution_checked_at = "2026-07-12T15:57:20+07:00"
+date_display = "12-07-2026 15:28:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-phu-yen-2026.md"
@@ -119,7 +120,7 @@ Trước khi đi vào từng cái tên, cần thống nhất "view đẹp" ở N
 
 **Ngắm bình minh hoặc hoàng hôn trên vịnh.** Đây là chi tiết quyết định "view đẹp" có thành kỷ niệm hay không. Bờ biển Nha Trang hướng Đông nên bình minh trên vịnh rất đáng dậy sớm; còn một số vịnh và bãi hướng khác lại cho hoàng hôn đẹp. Biết hướng của bãi và của phòng giúp bạn không bỏ lỡ khoảnh khắc đẹp nhất trong ngày.
 
-**Giá trị trải nghiệm tổng thể.** Câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Điều then chốt ở Nha Trang là phân biệt hai nhóm: khách sạn phố Trần Phú tiện đi lại, hợp người muốn kết hợp chơi và ăn uống; và resort vịnh riêng, hợp người muốn tách biệt và nghỉ ngơi thật sự.
+**giá trị trải nghiệm tổng thể.** Câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Điều then chốt ở Nha Trang là phân biệt hai nhóm: khách sạn phố Trần Phú tiện đi lại, hợp người muốn kết hợp chơi và ăn uống; và resort vịnh riêng, hợp người muốn tách biệt và nghỉ ngơi thật sự.
 
 ![Bể bơi vô cực resort nhìn ra vịnh biển Nha Trang](/images/posts/khach-san-view-dep-nha-trang-2026-inline.webp)
 
@@ -221,7 +222,7 @@ Danh sách dưới đây bám theo những cái tên xuất hiện nhiều trong
 
 Bảng dưới đây tóm tắt để dễ đối chiếu theo nhu cầu. Dấu ●● nghĩa là rất tốt/rất hợp, ● là ổn, ○ là không phải điểm mạnh.
 
-| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Hồ bơi | Giá trị trải nghiệm |
+| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Hồ bơi | giá trị trải nghiệm |
 |---|---|---|---|---|---|---|---|
 | Six Senses Ninh Van Bay | Vịnh riêng ●● | Vịnh Ninh Vân (canô) | ●● | ● | ● | ●● | ●● rất cao |
 | Amiana Resort | Biển + bãi riêng ●● | Bắc thành phố | ● | ●● | ● | ●● | ● tốt |

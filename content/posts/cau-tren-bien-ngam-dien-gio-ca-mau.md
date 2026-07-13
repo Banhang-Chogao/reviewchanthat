@@ -1,7 +1,7 @@
 +++
 title = "Cầu trên biển ngắm cánh đồng điện gió Cà Mau: trải nghiệm du lịch xanh độc lạ 2026"
 seo_title = "Du lịch điện gió Cà Mau: cầu trên biển 17 km & kinh nghiệm đi"
-commit = "be8a2e1e"
+commit = "ae896fbb"
 date = "2026-07-12T17:30:00+07:00"
 draft = false
 editor_pick = true
@@ -28,6 +28,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa cánh đồng điện gió ven biển với các trụ turbine giữa mặt nước"
 image_query = "điện gió turbine ven biển offshore wind farm"
 image_attribution_checked_at = "2026-07-12T17:53:47+07:00"
+date_display = "12-07-2026 17:30:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/lang-lo-lang-chai-ngoi-do-ven-bien-tuy-hoa.md"
@@ -64,6 +65,7 @@ title = "Săn cá khủng ở chân cầu điện gió — VnExpress"
 [[faq]]
 question = "Khu du lịch điện gió Hòa Bình 1 ở đâu, đi thế nào?"
 answer = "Khu nằm ở xã Vĩnh Hậu, cách trung tâm TP Cà Mau (cũ) khoảng 70 km — đi Quốc lộ 1 hướng Bắc rồi rẽ vào đường ven biển, mất chừng 1,5 giờ ôtô/xe máy. Nếu xuất phát từ TP Bạc Liêu (cũ) thì gần hơn nhiều, chỉ khoảng 20 km."
+
 [[faq]]
 question = "Cầu dẫn ra biển dài bao nhiêu và đi bằng gì?"
 answer = "Hệ thống cầu dẫn dài khoảng 17 km — thuộc loại cầu phục vụ tham quan quy mô lớn ở Đồng bằng sông Cửu Long. Du khách di chuyển bằng xe điện, dừng ở các điểm để hướng dẫn viên giới thiệu về turbine và năng lượng sạch."

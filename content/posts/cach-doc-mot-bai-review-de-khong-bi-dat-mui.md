@@ -4,7 +4,7 @@ avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 checklist = ["Xác định động cơ người viết review", "Đọc ít nhất 3-5 nguồn khác nhau", "Tìm chi tiết cụ thể, không tin lời mơ hồ", "Kiểm tra lịch sử tài khoản người viết", "Đọc phần bình luận trước khi quyết định"]
 date = "2026-06-15T10:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật, đâu là quảng cáo trá hình."
 draft = false
 image = "images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp"

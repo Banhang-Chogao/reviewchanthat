@@ -46,7 +46,7 @@ url = "https://en.wikipedia.org/wiki/Item_response_theory"
 
 [[internal_links]]
 ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "Công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
 
 [[internal_links]]
 ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"

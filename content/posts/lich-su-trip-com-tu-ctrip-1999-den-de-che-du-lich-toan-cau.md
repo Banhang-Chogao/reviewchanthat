@@ -1,7 +1,7 @@
 +++
 title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu"
 seo_title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế toàn cầu"
-commit = "53131412"
+commit = "318b2f55"
 date = "2026-07-13T10:40:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Trip.com", "Ctrip", "lịch sử Trip.com", "du lịch trực tuyến", "OTA", "James Liang", "Skyscanner"]
 keywords = ["lịch sử Trip.com", "Ctrip 1999", "James Liang", "Trip.com Group", "IPO NASDAQ Ctrip", "Skyscanner Ctrip", "đế chế du lịch trực tuyến", "đặt phòng Trip.com"]
 image_alt = "Ảnh minh họa Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu — nguồn Pixabay"
-
 image = "images/posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.webp"
 thumbnail = "images/posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.webp"
 image_source = "Pixabay"
@@ -33,6 +32,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:31+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 10:40:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa.md"

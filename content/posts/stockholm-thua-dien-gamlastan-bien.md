@@ -20,7 +20,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "b6fb0a55"
+commit = "53131412"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_id = ""
@@ -59,7 +59,7 @@ Khi bạn tới Stockholm lần đầu tiên, điều đầu tiên bạn nhận 
 
 **GDP bình quân đầu người:** Khoảng €65,000/năm – gần gấp đôi trung bình Châu Âu.
 
-**Công ty Unicorn:** 10+ công ty công nghệ trị giá $1 tỷ+ được thành lập ở Stockholm.
+**công ty Unicorn:** 10+ công ty công nghệ trị giá $1 tỷ+ được thành lập ở Stockholm.
 
 **Thời tiết:** Trung bình -2°C vào mùa đông (tháng 12-2), 18°C vào mùa hè (tháng 7). Mùa hè rất dài là khoảng 20-21 giờ mặt trời/ngày.
 

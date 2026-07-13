@@ -1,7 +1,7 @@
 +++
 title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
 seo_title = "Trip.com tại Việt Nam & Đông Nam Á: dịch vụ, thanh toán"
-commit = "53131412"
+commit = "318b2f55"
 date = "2026-07-13T10:00:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Trip.com", "đặt phòng khách sạn", "thanh toán du lịch", "du lịch Việt Nam", "ứng dụng du lịch", "OTA", "du lịch Đông Nam Á"]
 keywords = ["Trip.com Việt Nam", "thanh toán Trip.com", "Trip.com hỗ trợ tiếng Việt", "đặt khách sạn Trip.com", "Trip.com VND", "Trip.com Đông Nam Á", "review Trip.com", "Trip.com vs Agoda"]
 image_alt = "Ảnh minh họa Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán — nguồn Pixabay"
-
 image = "images/posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.webp"
 thumbnail = "images/posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.webp"
 image_source = "Pixabay"
@@ -33,6 +32,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:42+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 10:00:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"

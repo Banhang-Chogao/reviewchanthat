@@ -1,7 +1,7 @@
 +++
 title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
 seo_title = "Quỹ chủ quyền Na Uy: biến dầu mỏ thành tài sản tương lai"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-12T07:42:37+07:00"
 slug = "quyen-chu-quyen-na-uy-government-pension-fund-global"
 aliases = ["/posts/government-pension-fund-global-làm-thế-nào-na-uy-biến-dầu-mỏ-thành-tài-sản-tương-lai/"]
@@ -75,7 +75,7 @@ Câu nói nổi tiếng của các nhà lãnh đạo Na Uy lúc đó là: "Dầu
 
 ### 3. Đầu tư toàn cầu
 Quỹ không giữ tiền trong ngân hàng - nó đầu tư:
-- **60% cổ phiếu**: Công ty công nghệ, ngân hàng, bất động sản trên toàn thế giới
+- **60% cổ phiếu**: công ty công nghệ, ngân hàng, bất động sản trên toàn thế giới
 - **35% trái phiếu**: Nợ chính phủ, nợ doanh nghiệp (cho lợi tức ổn định)
 - **5% bất động sản**: Các tòa nhà, trụ sở công ty ở các thành phố lớn
 
@@ -150,7 +150,7 @@ Lợi tức quỹ đi vào:
 
 Vì vậy: Người Na Uy đang sống trên tiền dầu mỏ của quốc gia họ mà không cần trả thuế quá cao.
 
-## Rủi ro: Nó không thể kéo dài mãi
+## rủi ro: Nó không thể kéo dài mãi
 
 **1. Giá dầu không ổn định**
 - Năm 2020: Giá dầu âm (phải trả tiền để ai nhận)

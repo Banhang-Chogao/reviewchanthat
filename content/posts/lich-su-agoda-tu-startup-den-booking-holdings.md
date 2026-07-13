@@ -1,7 +1,7 @@
 +++
 title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
 seo_title = "Lịch sử Agoda: từ startup đến Booking Holdings"
-commit = "318b2f55"
+commit = "2f7f87f1"
 date = "2026-07-13T14:13:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Agoda", "lịch sử Agoda", "đặt phòng khách sạn", "Booking Holdings", "OTA", "du lịch trực tuyến", "kinh nghiệm đặt phòng"]
 keywords = ["lịch sử Agoda", "Agoda thành lập năm nào", "Agoda của ai", "Agoda thuộc công ty nào", "Michael Kenny Robert Rosenstein", "Priceline mua Agoda", "Booking Holdings"]
 image_alt = "Ảnh minh họa Lịch sử Agoda: từ startup đến thành viên Booking Holdings — nguồn Pexels"
-
 image = "images/posts/lich-su-agoda-tu-startup-den-booking-holdings.webp"
 thumbnail = "images/posts/lich-su-agoda-tu-startup-den-booking-holdings.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:33:53+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 14:13:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
@@ -44,7 +44,7 @@ title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
 
 [[internal_links]]
 ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
-title = "Đặt phòng Agoda có an toàn không? Rủi ro và cách tránh"
+title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
 
 [[faq]]
 question = "Agoda thành lập năm nào?"

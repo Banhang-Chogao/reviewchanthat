@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "Ubon Ratchathani Candle Festival 2026 — ngày 28–30/7, lịch trình, cách đi từ Bangkok, kinh nghiệm tham quan lễ hội nến lớn nhất Thái Lan."
 draft = false
 image = "images/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.webp"

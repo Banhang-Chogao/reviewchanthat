@@ -1,12 +1,12 @@
 +++
-title = "Đặt phòng Agoda có an toàn không? Rủi ro và cách tránh"
-seo_title = "Đặt phòng Agoda có an toàn không? Rủi ro & cách tránh"
-commit = "318b2f55"
+title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
+seo_title = "Đặt phòng Agoda có an toàn không? rủi ro & cách tránh"
+commit = "2f7f87f1"
 date = "2026-07-13T14:10:00+07:00"
 draft = false
 author = "Minh Hoàng"
 authors = ["Minh Hoàng"]
-description = "Đặt phòng Agoda có an toàn không? Phân tích rủi ro overbooking, hoàn tiền chậm, Agoda có lừa đảo không và mẹo đặt phòng an toàn tránh mất tiền oan."
+description = "Đặt phòng Agoda có an toàn không? phân tích rủi ro overbooking, hoàn tiền chậm, Agoda có lừa đảo không và mẹo đặt phòng an toàn tránh mất tiền oan."
 slug = "dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh"
 series = "agoda-toan-tap"
 series_order = 5
@@ -14,8 +14,7 @@ series_title = "Agoda toàn tập"
 categories = ["du-lich"]
 tags = ["Agoda", "đặt phòng khách sạn", "du lịch an toàn", "kinh nghiệm đặt phòng online", "OTA", "mẹo du lịch", "hoàn tiền khách sạn"]
 keywords = ["đặt phòng Agoda có an toàn không", "Agoda có lừa đảo không", "đặt Agoda có bị mất tiền không", "kinh nghiệm đặt phòng Agoda", "Agoda overbooking", "hoàn tiền Agoda", "review Agoda"]
-image_alt = "Ảnh minh họa Đặt phòng Agoda có an toàn không? Rủi ro và cách tránh — nguồn Pixabay"
-
+image_alt = "Ảnh minh họa Đặt phòng Agoda có an toàn không? rủi ro và cách tránh — nguồn Pixabay"
 image = "images/posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.webp"
 thumbnail = "images/posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.webp"
 image_source = "Pixabay"
@@ -33,6 +32,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:33:57+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 14:10:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.md"

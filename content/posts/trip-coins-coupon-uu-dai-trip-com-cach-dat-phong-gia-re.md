@@ -1,7 +1,7 @@
 +++
 title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
 seo_title = "Trip.Coins & coupon Trip.com: cách đặt phòng giá rẻ"
-commit = "53131412"
+commit = "318b2f55"
 date = "2026-07-13T10:10:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Trip.com", "Trip Coins", "mã giảm giá", "du lịch tiết kiệm", "đặt phòng khách sạn", "vé máy bay giá rẻ", "mẹo du lịch"]
 keywords = ["Trip Coins là gì", "mã giảm giá Trip.com", "flash sale Trip.com", "hạng thành viên Trip.com", "coupon Trip.com", "đặt phòng giá rẻ", "combo vé máy bay khách sạn", "ưu đãi Trip.com"]
 image_alt = "Ảnh minh họa Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất — nguồn Pixabay"
-
 image = "images/posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.webp"
 thumbnail = "images/posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.webp"
 image_source = "Pixabay"
@@ -33,6 +32,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:39+07:00"
 image_query = "trip coins coupon ưu đãi"
+date_display = "13-07-2026 10:10:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026.md"
@@ -153,4 +153,4 @@ Trip Coins, coupon, flash sale, hạng thành viên và combo vé + khách sạn
 
 {{< trip-cta >}}
 
-Nguồn tham khảo: [Trip Coin — Trip.com](https://vn.trip.com/ask/questions/trip-coins.html), [Cấp bậc thành viên Trip.com — Trip.com](https://vn.trip.com/ask/questions/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-tr%E1%BB%9F-th%C3%A0nh-th%C3%A0nh-vi%C3%AAn-trip.com.html)
+Nguồn tham khảo: [Trip Coin — Trip.com](https://vn.trip.com/ask/questions/trip-coins.html), [cấp bậc thành viên Trip.com — Trip.com](https://vn.trip.com/ask/questions/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-tr%E1%BB%9F-th%C3%A0nh-th%C3%A0nh-vi%C3%AAn-trip.com.html)

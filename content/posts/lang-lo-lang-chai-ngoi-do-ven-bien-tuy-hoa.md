@@ -1,7 +1,7 @@
 +++
 title = "Làng Lò: làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa và kinh nghiệm ghé thăm 2026"
 seo_title = "Làng Lò Tuy Hòa: làng chài ngói đỏ 400 năm & kinh nghiệm đi"
-commit = "61f41e94"
+commit = "20df8581"
 date = "2026-07-12T17:00:00+07:00"
 draft = false
 description = "Làng Lò — làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa (nay thuộc Đắk Lắk): lịch sử, cát núi lửa, đời sống ngư dân và kinh nghiệm ghé thăm hè 2026."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa làng chài ngói đỏ ven biển miền Trung — làng Lò Tuy Hòa"
 image_query = "làng chài ngói đỏ ven biển miền Trung Việt Nam"
 image_attribution_checked_at = "2026-07-12T17:17:00+07:00"
+date_display = "12-07-2026 17:00:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-phu-yen-2026.md"

@@ -1,7 +1,7 @@
 +++
 title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới"
 seo_title = "Đời sống Na Uy: work-life balance và phúc lợi xã hội"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-12T07:43:37+07:00"
 slug = "doi-song-phuc-loi-na-uy-work-life-balance"
 aliases = ["/posts/đời-sống-tại-na-uy-cân-bằng-công-việc-cuộc-sống-và-phúc-lợi-xã-hội-dẫn-đầu-thế-giới/"]
@@ -69,7 +69,7 @@ Khi bạn du lịch Na Uy, đặc biệt là gặp gỡ những người địa 
 
 **Bệnh tật:**
 - Ngày đầu: Tự trả lương
-- Ngày 2-16: Công ty trả 100% lương
+- Ngày 2-16: công ty trả 100% lương
 - Từ ngày 17: Bảo hiểm xã hội trả 100% lương
 
 Nếu bạn bị ốm trong 6 tháng liên tục, bạn vẫn nhận lương. Không có công ty nào dám sa thải bạn vì bạn bệnh.

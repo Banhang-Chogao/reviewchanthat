@@ -1,7 +1,7 @@
 +++
 title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
 seo_title = "Agoda kiếm tiền như thế nào? Mô hình OTA"
-commit = "318b2f55"
+commit = "2f7f87f1"
 date = "2026-07-13T14:11:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Agoda", "mô hình kinh doanh Agoda", "OTA", "du lịch trực tuyến", "đặt phòng khách sạn", "AgodaCash", "so sánh giá khách sạn"]
 keywords = ["Agoda kiếm tiền như thế nào", "mô hình kinh doanh Agoda", "Agoda có thu phí không", "hoa hồng Agoda", "mô hình agency merchant OTA", "rate parity", "AgodaCash", "đặt phòng qua Agoda"]
 image_alt = "Ảnh minh họa Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng — nguồn Pixabay"
-
 image = "images/posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.webp"
 thumbnail = "images/posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.webp"
 image_source = "Pixabay"
@@ -33,10 +32,11 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:33:56+07:00"
 image_query = "mobile banking payment app"
+date_display = "13-07-2026 14:11:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
-title = "Đặt phòng Agoda có an toàn không? Rủi ro và cách tránh"
+title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
 
 [[internal_links]]
 ref = "posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.md"

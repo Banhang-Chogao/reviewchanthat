@@ -2,9 +2,9 @@
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh", "du-lich"]
-commit = "b6fb0a55"
+commit = "798285d5"
 date = "2026-07-11T10:00:00+07:00"
-description = "Phân tích mô hình quản lý phẳng của Thụy Điển qua câu chuyện IKEA và Volvo, cùng bài học văn hóa doanh nghiệp Bắc Âu áp dụng cho doanh nghiệp Việt."
+description = "phân tích mô hình quản lý phẳng của Thụy Điển qua câu chuyện IKEA và Volvo, cùng bài học văn hóa doanh nghiệp Bắc Âu áp dụng cho doanh nghiệp Việt."
 draft = false
 image = "images/posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.webp"
 image_alt = "Ảnh minh họa Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA — nguồn Pexels"

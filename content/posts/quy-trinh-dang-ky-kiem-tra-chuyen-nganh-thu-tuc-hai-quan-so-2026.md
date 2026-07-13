@@ -1,7 +1,7 @@
 +++
 title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
 seo_title = "Thủ Tục Hải Quan Số Và Kiểm Tra Chuyên Ngành 2026"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-11T06:00:00+07:00"
 slug = "quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026"
 aliases = ["/posts/quy-trình-đăng-ký-kiểm-tra-chuyên-ngành-và-thủ-tục-hải-quan-số-mới-nhất-2026/"]
@@ -98,7 +98,7 @@ Theo quy định tại Nghị định 74/2018/NĐ-CP sửa đổi bổ sung 2025
 
 Bước 1: Xác định mã HS và đối chiếu danh mục hàng hóa phải kiểm tra chuyên ngành
 
-Doanh nghiệp tra cứu mã HS (Harmonized System) của hàng hóa trên Cổng thông tin điện tử của Tổng cục Hải quan hoặc sử dụng công cụ tra cứu trực tuyến. Sau khi xác định mã HS, doanh nghiệp đối chiếu với Danh mục hàng hóa xuất nhập khẩu phải kiểm tra chuyên ngành được ban hành kèm các văn bản pháp luật liên quan.
+Doanh nghiệp tra cứu mã HS (Harmonized System) của hàng hóa trên Cổng thông tin điện tử của Tổng cục Hải quan hoặc sử dụng công cụ tra cứu trực tuyến. Sau khi xác định mã HS, doanh nghiệp đối chiếu với danh mục hàng hóa xuất nhập khẩu phải kiểm tra chuyên ngành được ban hành kèm các văn bản pháp luật liên quan.
 
 Việc xác định đúng mã HS là vô cùng quan trọng, vì mỗi mã HS sẽ tương ứng với một hoặc nhiều loại kiểm tra chuyên ngành khác nhau. Sai mã HS có thể dẫn đến:
 - Không thực hiện đúng nghĩa vụ kiểm tra chuyên ngành (dẫn đến xử phạt).
@@ -218,7 +218,7 @@ Sai mã HS là một trong những lỗi phổ biến nhất và có hậu quả
 - Nhầm lẫn giữa mã HS của hàng mới và hàng đã qua sử dụng (nhiều mặt hàng có mã HS riêng cho hàng đã qua sử dụng).
 - Nhầm lẫn giữa mã HS của hàng nguyên chất và hàng pha trộn (ví dụ: vải 100% cotton vs vải cotton pha polyester).
 - Không cập nhật các thay đổi về mã HS theo phiên bản mới của Hệ thống hài hòa hóa mô tả và mã hóa hàng hóa (HS 2026).
-- Hiểu sai quy tắc phân loại hàng hóa theo Chú giải pháp lý của Danh mục HS.
+- Hiểu sai quy tắc phân loại hàng hóa theo Chú giải pháp lý của danh mục HS.
 
 **Lỗi trị giá hải quan:**
 - Khai báo trị giá thấp hơn trị giá giao dịch thực tế để trốn thuế.
@@ -235,7 +235,7 @@ Kiểm tra sau thông quan (KTSTQ) là hoạt động kiểm tra của cơ quan 
 Bước 1: Lựa chọn doanh nghiệp kiểm tra
 
 Cơ quan hải quan lựa chọn doanh nghiệp để KTSTQ dựa trên các tiêu chí:
-- Phân tích rủi ro (dựa trên lịch sử tuân thủ, loại hình hàng hóa, trị giá khai báo, số lần vi phạm).
+- phân tích rủi ro (dựa trên lịch sử tuân thủ, loại hình hàng hóa, trị giá khai báo, số lần vi phạm).
 - Doanh nghiệp có dấu hiệu vi phạm qua phân tích dữ liệu.
 - Doanh nghiệp thuộc ngành hàng có rủi ro cao (điện tử, thời trang, mỹ phẩm, thực phẩm chức năng).
 - Doanh nghiệp có sự thay đổi bất thường về kim ngạch hoặc trị giá khai báo.

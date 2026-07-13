@@ -1,7 +1,7 @@
 +++
 title = "Ẩm thực chợ truyền thống Hàn Quốc: bản đồ các khu chợ và món nhất định phải thử 2026"
 seo_title = "Ẩm thực chợ truyền thống Hàn Quốc: khu chợ & món phải thử"
-commit = "aa4bab32"
+commit = "ae896fbb"
 date = "2026-07-12T18:10:00+07:00"
 draft = false
 editor_pick = true
@@ -28,6 +28,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa món ăn đường phố tại chợ truyền thống Hàn Quốc"
 image_query = "korean street food market tteokbokki"
 image_attribution_checked_at = "2026-07-12T18:30:36+07:00"
+date_display = "12-07-2026 18:10:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
@@ -56,6 +57,7 @@ title = "Korea Tourism Organization (VisitKorea)"
 [[faq]]
 question = "Chợ truyền thống Hàn Quốc khác gì so với khu du lịch?"
 answer = "Chợ truyền thống là nơi người dân địa phương vẫn mua sắm và ăn uống mỗi ngày, nên không khí rất đời và thật: người đi làm ghé ăn trưa, bà nội trợ đi chợ, tiểu thương trò chuyện quen mặt — khác hẳn cảm giác đi xem cho biết ở các khu du lịch dựng lên cho khách."
+
 [[faq]]
 question = "Đi chợ Hàn Quốc nên thử những món gì?"
 answer = "Đừng bỏ qua bindaetteok (bánh kếp đậu xanh chiên giòn), tteokbokki (bánh gạo cay), sundae (dồi heo), yukhoe (gỏi bò sống), mayak kimbap (kimbap mini gây nghiện), hotteok (bánh rán ngọt) và hải sản tươi ở các chợ cá."

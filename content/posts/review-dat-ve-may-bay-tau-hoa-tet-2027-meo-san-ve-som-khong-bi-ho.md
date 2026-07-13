@@ -130,7 +130,7 @@ Săn vé Tết 2027 không phải cuộc chơi "canh sale", mà là cuộc chơi
 
 ### Mua vé qua đại lý có an toàn không?
 
-Có thể an toàn nếu đó là đại lý/sàn có pháp nhân rõ ràng, xuất hóa đơn và cho tra được mã đặt chỗ. Rủi ro nằm ở các "đại lý" chỉ tồn tại trên trang cá nhân, thu tiền vào tài khoản cá nhân. Với đại lý chính danh, hãy vẫn tự kiểm tra mã đặt chỗ trên hệ thống hãng cho chắc.
+Có thể an toàn nếu đó là đại lý/sàn có pháp nhân rõ ràng, xuất hóa đơn và cho tra được mã đặt chỗ. rủi ro nằm ở các "đại lý" chỉ tồn tại trên trang cá nhân, thu tiền vào tài khoản cá nhân. Với đại lý chính danh, hãy vẫn tự kiểm tra mã đặt chỗ trên hệ thống hãng cho chắc.
 
 ### Nếu lỡ đặt trước rồi lịch nghỉ đổi thì sao?
 
@@ -138,4 +138,4 @@ Chọn loại vé/hạng vé có điều kiện đổi hoặc hoàn nếu bạn 
 
 ### Có nên gom mua nhiều vé rồi bán lại phần dư không?
 
-Không nên. Vé thường gắn với thông tin cá nhân, việc sang tên bị hạn chế và có thể vi phạm điều kiện vé; với vé tàu, sai tên còn bị từ chối lên tàu. Rủi ro pháp lý và tài chính lớn hơn khoản lời kỳ vọng.
+Không nên. Vé thường gắn với thông tin cá nhân, việc sang tên bị hạn chế và có thể vi phạm điều kiện vé; với vé tàu, sai tên còn bị từ chối lên tàu. rủi ro pháp lý và tài chính lớn hơn khoản lời kỳ vọng.

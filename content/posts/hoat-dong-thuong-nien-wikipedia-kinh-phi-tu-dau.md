@@ -1,7 +1,7 @@
 +++
 title = "Các hoạt động thường niên của Wikipedia và nguồn kinh phí: Wikimania, hạ tầng và tài trợ cộng đồng"
 seo_title = "Hoạt động thường niên của Wikipedia & nguồn kinh phí"
-commit = "24ef8179"
+commit = "ed485220"
 date = "2026-07-12T19:22:00+07:00"
 draft = false
 description = "Các hoạt động thường niên của Wikipedia lấy kinh phí từ đâu và gồm những gì: hội nghị Wikimania, hạ tầng máy chủ, tài trợ cộng đồng và gây quỹ hằng năm."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa hội nghị và cộng đồng Wikipedia"
 image_query = "conference community tech people"
 image_attribution_checked_at = "2026-07-12T20:49:02+07:00"
+date_display = "12-07-2026 19:22:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/wikipedia-kiem-tien-duy-tri-hoat-dong-nhu-the-nao.md"
@@ -59,21 +60,27 @@ title = "Wikimania — hội nghị thường niên của cộng đồng Wikimed
 [[faq]]
 question = "Wikipedia có những hoạt động thường niên nào?"
 answer = "Định kỳ hằng năm, Wikipedia (qua Quỹ Wikimedia) tổ chức chiến dịch gây quỹ, hội nghị cộng đồng Wikimania, duy trì và nâng cấp hạ tầng máy chủ, cấp tài trợ cho các tổ chức thành viên, cùng nhiều chương trình cộng đồng và vận động chính sách. Đây là một bộ máy vận hành liên tục chứ không phải một trang web tự chạy."
+
 [[faq]]
 question = "Wikimania là gì?"
 answer = "Wikimania là hội nghị toàn cầu thường niên của cộng đồng Wikimedia, tổ chức lần đầu năm 2005 và luân phiên qua nhiều thành phố trên thế giới. Đây là nơi các biên tập viên, tình nguyện viên, nhà phát triển và nhân sự quỹ gặp gỡ trực tiếp để chia sẻ, học hỏi và định hướng phong trào."
+
 [[faq]]
 question = "Kinh phí cho các hoạt động này lấy từ đâu?"
 answer = "Chủ yếu từ các khoản quyên góp nhỏ của hàng triệu người đọc thông qua chiến dịch gây quỹ hằng năm. Bên cạnh đó còn có Wikimedia Enterprise (bán quyền truy cập dữ liệu cho doanh nghiệp lớn) và quỹ dự trữ Endowment. Doanh thu năm tài chính 2023/24 vào khoảng 185,4 triệu USD."
+
 [[faq]]
 question = "Wikipedia vận hành hạ tầng máy chủ ra sao?"
 answer = "Wikipedia chạy trên nền tảng MediaWiki, với máy chủ chính đặt tại datacenter Ashburn (Virginia) và trung tâm phụ ở Carrollton (Texas). Ngoài ra còn có các cụm caching ở Singapore (từ 2017) và São Paulo (từ 2024) để phục vụ người đọc nhanh hơn theo khu vực."
+
 [[faq]]
 question = "Tài trợ cộng đồng (grants) là gì?"
 answer = "Đó là các khoản Quỹ Wikimedia cấp cho những tổ chức thành viên được công nhận — gồm chapter theo quốc gia, tổ chức theo chủ đề và nhóm người dùng. Grants giúp họ tổ chức hội nghị khu vực, hoạt động ngoại vi (outreach) và vận động chính sách một cách độc lập nhưng có nguồn lực."
+
 [[faq]]
 question = "Chiến dịch gây quỹ diễn ra khi nào?"
 answer = "Định kỳ hằng năm, thường qua các banner hiển thị trên đầu trang Wikipedia cùng email kêu gọi quyên góp gửi tới những người đã ủng hộ trước đó. Đây là nguồn thu chính, dựa vào số đông người đóng góp những khoản nhỏ thay vì vài nhà tài trợ lớn."
+
 [[faq]]
 question = "Bài viết này có sao chép không?"
 answer = "Không. Nội dung được tổng hợp và diễn giải lại bằng góc nhìn riêng dựa trên bài về Wikimedia Foundation trên Wikipedia và trang chính thức của quỹ, không sao chép câu chữ. Ảnh minh họa lấy từ Pexels/Pixabay và các số liệu có thể thay đổi theo thời gian."

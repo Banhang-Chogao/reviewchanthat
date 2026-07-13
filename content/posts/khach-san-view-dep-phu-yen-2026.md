@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp Phú Yên 2026: Review & Kinh nghiệm chọn"
-commit = "1bf6b41e"
+commit = "2b2fd4f4"
 date = "2026-07-12T15:26:00+07:00"
 draft = false
 description = "Khách sạn view đẹp Phú Yên 2026: review 6 resort khách sạn nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng view biển."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa khách sạn view đẹp ở Phú Yên — resort ven biển"
 image_query = "khách sạn view đẹp Phú Yên resort biển"
 image_attribution_checked_at = "2026-07-12T15:57:12+07:00"
+date_display = "12-07-2026 15:26:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-nha-trang-2026.md"
@@ -115,7 +116,7 @@ Trước khi đi vào từng cái tên, cần thống nhất "view đẹp" ở P
 
 **Khả năng ngắm bình minh.** Đây là chi tiết quyết định "view đẹp" có thành kỷ niệm hay không. Phú Yên nổi tiếng về bình minh chứ không phải hoàng hôn, nên một phòng hoặc một khu vực chung hướng Đông, có ban công hay sân thượng để ngồi đón mặt trời, sẽ tạo nên trải nghiệm rất riêng mà không nơi nào khác cho được.
 
-**Giá trị trải nghiệm tổng thể — với kỳ vọng thực tế.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì, và mình có đang kỳ vọng đúng không". Phú Yên hạ tầng resort còn ít, đừng đòi hỏi tiện ích dày đặc như Phú Quốc hay Đà Nẵng. Đến để tận hưởng biển sạch và sự yên tĩnh, thì cái giá cho một khoảng lặng hiếm hoi ấy là hoàn toàn xứng đáng.
+**giá trị trải nghiệm tổng thể — với kỳ vọng thực tế.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì, và mình có đang kỳ vọng đúng không". Phú Yên hạ tầng resort còn ít, đừng đòi hỏi tiện ích dày đặc như Phú Quốc hay Đà Nẵng. Đến để tận hưởng biển sạch và sự yên tĩnh, thì cái giá cho một khoảng lặng hiếm hoi ấy là hoàn toàn xứng đáng.
 
 ![Bãi biển hoang sơ Phú Yên lúc bình minh](/images/posts/khach-san-view-dep-phu-yen-2026-inline.webp)
 
@@ -217,7 +218,7 @@ Danh sách dưới đây bám theo những cái tên xuất hiện nhiều trong
 
 Bảng dưới đây tóm tắt để bạn dễ đối chiếu theo nhu cầu. Dấu ●● nghĩa là rất tốt/rất hợp, ● là ổn/tạm được, ○ là không phải điểm mạnh.
 
-| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Bể bơi | Giá trị trải nghiệm |
+| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Bể bơi | giá trị trải nghiệm |
 |---|---|---|---|---|---|---|---|
 | Zannier Bãi San Hô | Biển hoang sơ ●● | Sông Cầu (xa TT) | ●● | ● | ● | ●● | ●● rất cao |
 | Stelia Beach Resort | Biển thành phố ●● | Ngay bãi Tuy Hòa | ●● | ●● | ● | ●● | ●● cao |

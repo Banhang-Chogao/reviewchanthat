@@ -1,7 +1,7 @@
 +++
 title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
 seo_title = "Lịch Sử Atomico: Từ Ý Tưởng 2010 Đến Quỹ Đầu Tư Tỷ USD"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-11T14:15:00+07:00"
 slug = "lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay"
 aliases = ["/posts/lịch-sử-thành-lập-và-phát-triển-atomico-từ-một-ý-tưởng-năm-2010-đến-quỹ-đầu-tư-tỷ-usd/"]
@@ -30,7 +30,7 @@ image_alt = "Ảnh minh họa Lịch Sử Thành Lập Và Phát Triển Atomico
 
 [[internal_links]]
 ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
-title = "Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
 
 [[internal_links]]
 ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"

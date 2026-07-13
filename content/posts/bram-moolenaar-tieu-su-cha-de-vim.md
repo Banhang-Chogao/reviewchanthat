@@ -1,7 +1,7 @@
 +++
 title = "Bram Moolenaar — tiểu sử cha đẻ Vim: sự nghiệp, di sản và những gì ông để lại"
 seo_title = "Bram Moolenaar: tiểu sử cha đẻ Vim, sự nghiệp và di sản"
-commit = "caa6973c"
+commit = "ae896fbb"
 date = "2026-07-12T18:20:00+07:00"
 draft = false
 editor_pick = true
@@ -28,6 +28,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa dòng code trên màn hình — di sản phần mềm của Bram Moolenaar"
 image_query = "open source code programmer screen"
 image_attribution_checked_at = "2026-07-12T18:41:52+07:00"
+date_display = "12-07-2026 18:20:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/luoc-su-vim-editor.md"
@@ -60,21 +61,27 @@ title = "ICCF Holland — tổ chức thiện nguyện do Bram Moolenaar sáng l
 [[faq]]
 question = "Bram Moolenaar là ai?"
 answer = "Bram Moolenaar (1961–2023) là một lập trình viên người Hà Lan, nổi tiếng nhất với vai trò cha đẻ và người duy trì trình soạn thảo Vim trong hơn ba thập kỷ. Ông cũng làm việc tại Google và sáng lập tổ chức thiện nguyện ICCF Holland hỗ trợ trẻ em ở Uganda."
+
 [[faq]]
 question = "Bram Moolenaar qua đời khi nào và vì nguyên nhân gì?"
 answer = "Ông qua đời ngày 3/8/2023, hưởng thọ 62 tuổi. Theo thông báo từ gia đình, nguyên nhân là một tình trạng sức khỏe diễn tiến nhanh; các chi tiết y khoa cụ thể không được công bố, và điều đó nên được tôn trọng."
+
 [[faq]]
 question = "Bram Moolenaar làm việc ở đâu?"
 answer = "Ông tốt nghiệp kỹ sư điện tại Đại học Công nghệ Delft năm 1985, và từ 2006 đến 2021 làm việc cho Google tại văn phòng Zürich (tham gia dự án Google Calendar), song song duy trì Vim."
+
 [[faq]]
 question = "Ngoài Vim, Bram Moolenaar còn tạo ra gì?"
 answer = "Ông phát triển A-A-P (một công cụ build dựa trên Python, tương tự make) và Zimbu (một ngôn ngữ lập trình đề cao tính dễ đọc của mã). Tuy không nổi tiếng bằng Vim, chúng cho thấy mối quan tâm rộng của ông với công cụ lập trình."
+
 [[faq]]
 question = "ICCF Holland là gì?"
 answer = "Là tổ chức phi lợi nhuận do Bram Moolenaar sáng lập, hỗ trợ trẻ em mồ côi vì AIDS ở Uganda, gắn với Trung tâm Trẻ em Kibaale. Chính hoạt động này là nguồn gốc của triết lý charityware trong giấy phép Vim."
+
 [[faq]]
 question = "Bram Moolenaar có gia đình, con cái không?"
 answer = "Bram khá kín tiếng về đời tư. Các nguồn công khai, kể cả Wikipedia, không nêu chi tiết về vợ con hay hậu duệ của ông — nên bài viết này không suy diễn, mà tôn trọng sự riêng tư đó."
+
 [[faq]]
 question = "Di sản của Bram Moolenaar là gì?"
 answer = "Lớn nhất là Vim — công cụ hàng triệu lập trình viên vẫn dùng mỗi ngày và cộng đồng tiếp tục duy trì sau khi ông mất. Bên cạnh đó là tinh thần charityware nhân văn và mô hình dẫn dắt dự án mã nguồn mở tận tụy suốt hàng chục năm."

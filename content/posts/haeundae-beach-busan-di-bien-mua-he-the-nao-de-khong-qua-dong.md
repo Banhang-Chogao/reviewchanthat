@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "Kinh nghiệm đi Haeundae Beach Busan mùa hè: cách tránh đông, giờ tắm biển an toàn, water sports, lễ hội Busan Sea Festival và kết hợp Cheongsapo Blue Line Park."
 draft = false
 image = "images/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.webp"

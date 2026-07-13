@@ -1,7 +1,7 @@
 +++
 title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
 seo_title = "Lối sống xanh Bắc Âu: thiên nhiên và rừng già Estonia"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-11T14:44:57+07:00"
 slug = "loi-song-xanh-bac-au-thien-nhien-estonia"
 aliases = ["/posts/lối-sống-xanh-giữa-lòng-bắc-âu-khi-70-diện-tích-quốc-gia-là-rừng-già/"]

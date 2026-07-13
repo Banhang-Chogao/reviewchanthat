@@ -1,7 +1,7 @@
 +++
 title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
 seo_title = "Cách Mạng Xe Điện: Vì Sao Na Uy Dẫn Đầu Thế Giới?"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-12T07:44:37+07:00"
 slug = "cach-mang-xe-dien-na-uy-ev-hub-the-gioi"
 aliases = ["/posts/cách-mạng-xe-điện-ev-tại-sao-na-uy-quốc-gia-xuất-khẩu-dầu-mỏ-lại-dẫn-đầu-thế-giới/"]
@@ -132,7 +132,7 @@ Thực tế này cực kỳ hiếm. Chưa có quốc gia nào khác đạt tỷ 
 - Năm 2024: ~ 300 cây xăng (còn lại chủ yếu ở những nơi xa)
 - Những cây xăng cũ được bán hoặc chuyển thành trạm sạc/nhà hàng
 
-**Công ty dầu khí:** Giảm tuyển dụng
+**công ty dầu khí:** Giảm tuyển dụng
 - Statoil, Equinor (công ty dầu khí lớn) giảm nhân lực từ 10.000 xuống 3.000 ở Na Uy trong 10 năm qua
 - Nhiều kỹ sư dầu khí phải học lại về điện/pin
 
@@ -144,7 +144,7 @@ Thực tế này cực kỳ hiếm. Chưa có quốc gia nào khác đạt tỷ 
 - Giả thuyết: 20 năm tới, Na Uy sẽ sản xuất pin cho toàn Châu Âu
 
 **Công nghệ sạc:**
-- Công ty sạc nhanh như Ionity (hỗ trợ bởi BMW, Daimler, Hyundai, Kia) đặt trụ sở ở Oslo
+- công ty sạc nhanh như Ionity (hỗ trợ bởi BMW, Daimler, Hyundai, Kia) đặt trụ sở ở Oslo
 - Startup về pin, V2G (xe cung cấp điện cho nhà) khắp đây đó
 
 **Công thợ điện:**

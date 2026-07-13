@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "Jeju mùa hè nên đi đâu? Gợi ý biển, thác nước, oreum và lịch trình 3 ngày chi tiết cho kỳ nghỉ hè tại đảo Jeju."
 draft = false
 image = "images/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.webp"

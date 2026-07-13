@@ -1,7 +1,7 @@
 +++
 title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
 seo_title = "Mã giảm giá & AgodaCash 2026: đặt Agoda rẻ nhất"
-commit = "318b2f55"
+commit = "2f7f87f1"
 date = "2026-07-13T14:08:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Agoda", "mã giảm giá Agoda", "AgodaCash", "AgodaVIP", "đặt phòng giá rẻ", "du lịch tiết kiệm", "mẹo đặt khách sạn"]
 keywords = ["mã giảm giá Agoda", "coupon Agoda", "AgodaCash là gì", "đặt phòng Agoda giá rẻ", "AgodaVIP", "giá app-only Agoda", "flash deal Agoda", "ưu đãi thẻ ngân hàng Agoda"]
 image_alt = "Ảnh minh họa Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất — nguồn Pixabay"
-
 image = "images/posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.webp"
 thumbnail = "images/posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.webp"
 image_source = "Pixabay"
@@ -33,6 +32,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:34:02+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 14:08:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"

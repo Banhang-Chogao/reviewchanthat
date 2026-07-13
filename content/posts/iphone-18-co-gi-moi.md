@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T06:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "Tổng hợp tin đồn iPhone 18 trước mùa ra mắt — lịch tách đợt, A20 2nm, iPhone Fold, camera, giá và checklist mua máy cho người dùng Việt Nam."
 draft = false
 image = "images/posts/iphone-18-co-gi-moi.webp"

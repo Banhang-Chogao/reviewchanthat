@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp gần TP.HCM 2026: Review & Kinh nghiệm chọn"
-commit = "50c0dc79"
+commit = "ae896fbb"
 date = "2026-07-12T13:45:00+07:00"
 draft = false
 editor_pick = true
@@ -120,7 +120,7 @@ Trước khi đi vào từng cái tên, cần thống nhất "view đẹp" nghĩ
 
 **Khả năng ngắm bình minh hoặc hoàng hôn.** Đây là chi tiết quyết định "view đẹp" có thành kỷ niệm hay không. Resort hướng Tây được hoàng hôn, hướng Đông được bình minh — nghe đơn giản nhưng nhiều người bỏ qua.
 
-**Giá trị trải nghiệm tổng thể.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Một nơi đắt nhưng cho bạn ngủ ngon, ăn ngon và bình yên vẫn đáng hơn một nơi rẻ mà về nhà thấy tiếc thời gian.
+**giá trị trải nghiệm tổng thể.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Một nơi đắt nhưng cho bạn ngủ ngon, ăn ngon và bình yên vẫn đáng hơn một nơi rẻ mà về nhà thấy tiếc thời gian.
 
 ![Resort nhiệt đới với hàng dừa lúc hoàng hôn, khung cảnh nghỉ dưỡng ven biển](/images/posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026-inline.webp)
 
@@ -222,7 +222,7 @@ Danh sách dưới đây bám theo những cái tên xuất hiện nhiều trong
 
 Bảng dưới đây tóm tắt để bạn dễ đối chiếu theo nhu cầu. Dấu ●● nghĩa là rất tốt/rất hợp, ● là ổn/tạm được, ○ là không phải điểm mạnh.
 
-| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Hồ bơi | Giá trị trải nghiệm |
+| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Hồ bơi | giá trị trải nghiệm |
 |---|---|---|---|---|---|---|---|
 | Six Senses Côn Đảo | Biển ●● | Côn Đảo (bay) | ●● | ● | ○ | ●● (villa) | ●● rất cao |
 | Melia Hồ Tràm | Biển ●● | Hồ Tràm (~2,5h xe) | ● | ●● | ● | ●● | ● tốt |

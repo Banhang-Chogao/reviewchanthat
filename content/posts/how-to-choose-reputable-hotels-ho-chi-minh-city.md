@@ -1,7 +1,7 @@
 +++
 title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
 seo_title = "Reputable Hotels in Ho Chi Minh City: 2026 Visitor Guide"
-commit = "bd83ba61"
+commit = "f0e3debf"
 date = "2026-07-12T21:40:00+07:00"
 draft = false
 post_lang = "en"
@@ -31,6 +31,7 @@ image_status = "verified"
 image_alt = "Illustration of the Ho Chi Minh City skyline and a hotel district"
 image_query = "ho chi minh city skyline hotel"
 image_attribution_checked_at = "2026-07-12T22:01:33+07:00"
+date_display = "12-07-2026 21:40:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"

@@ -1,7 +1,7 @@
 +++
 title = "Lược sử hình thành Vim: từ vi trên máy Amiga đến trình soạn thảo huyền thoại của lập trình viên"
 seo_title = "Lược sử Vim: từ 1991 đến trình soạn thảo huyền thoại"
-commit = "ef4b46f5"
+commit = "ae896fbb"
 date = "2026-07-12T18:00:00+07:00"
 draft = false
 editor_pick = true
@@ -28,6 +28,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa màn hình code trên terminal — trình soạn thảo Vim"
 image_query = "code terminal screen programming dark"
 image_attribution_checked_at = "2026-07-12T18:19:22+07:00"
+date_display = "12-07-2026 18:00:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"

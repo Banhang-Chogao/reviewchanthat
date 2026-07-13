@@ -1,7 +1,7 @@
 +++
 title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
 seo_title = "Jimmy Wales: tiểu sử nhà sáng lập Wikipedia & cuộc sống nay"
-commit = "977c9321"
+commit = "ae896fbb"
 date = "2026-07-12T18:45:00+07:00"
 draft = false
 editor_pick = true
@@ -28,6 +28,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa bách khoa toàn thư trực tuyến và tri thức mở — Wikipedia"
 image_query = "encyclopedia knowledge library online"
 image_attribution_checked_at = "2026-07-12T19:04:14+07:00"
+date_display = "12-07-2026 18:45:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/bram-moolenaar-tieu-su-cha-de-vim.md"
@@ -60,21 +61,27 @@ title = "Wikipedia — bách khoa toàn thư mở"
 [[faq]]
 question = "Jimmy Wales là ai?"
 answer = "Jimmy Donal Wales (sinh năm 1966 tại Huntsville, bang Alabama, Mỹ) là doanh nhân internet người Mỹ, nổi tiếng nhất với vai trò nhà sáng lập Wikipedia — bách khoa toàn thư mở lớn nhất lịch sử. Ông cũng lập Wikia/Fandom và Quỹ Wikimedia."
+
 [[faq]]
 question = "Wikipedia được thành lập khi nào?"
 answer = "Wikipedia ra mắt ngày 15/1/2001, ban đầu như một phần bổ trợ dạng wiki cho dự án bách khoa toàn thư Nupedia. Nhờ mô hình cho phép ai cũng biên tập, Wikipedia phát triển vượt Nupedia chỉ trong vài ngày."
+
 [[faq]]
 question = "Ai là người đồng sáng lập Wikipedia cùng Jimmy Wales?"
 answer = "Larry Sanger được ghi nhận là đồng sáng lập trong nhiều nguồn ban đầu, dù sau này Wales có tranh luận về danh xưng đó. Đây là một điểm gây tranh cãi trong lịch sử Wikipedia mà bài viết trình bày một cách trung lập."
+
 [[faq]]
 question = "Jimmy Wales có giàu lên nhờ Wikipedia không?"
 answer = "Điều thú vị là không nhiều như người ta tưởng. Ông đã hiến Wikipedia cho Quỹ Wikimedia phi lợi nhuận và giữ vai trò không lương ở đó, thay vì thương mại hóa để làm giàu — một lựa chọn hiếm thấy trong giới công nghệ."
+
 [[faq]]
 question = "Ngoài Wikipedia, Jimmy Wales còn làm gì?"
 answer = "Ông đồng sáng lập Wikia (nay là Fandom) năm 2004, lập dự án báo chí WikiTribune, mạng xã hội không quảng cáo WT.Social (sau đổi tên Trust Café), một quỹ về tự do ngôn luận, và xuất bản sách The Seven Rules of Trust năm 2025."
+
 [[faq]]
 question = "Hiện nay Jimmy Wales sống ở đâu và làm gì?"
 answer = "Ông chuyển tới London năm 2012, trở thành công dân Anh năm 2019, và vẫn hoạt động tích cực trong việc quản trị Wikipedia, diễn thuyết và vận động cho tri thức mở, tự do ngôn luận. Ông đã kết hôn ba lần và có ba người con."
+
 [[faq]]
 question = "Triết lý của Jimmy Wales về tri thức là gì?"
 answer = "Ông tin vào việc mọi người trên thế giới đều được tiếp cận tri thức tự do, miễn phí. Cách quản lý Wikipedia của ông chịu ảnh hưởng từ ý tưởng về tri thức phân tán của nhà kinh tế Friedrich Hayek và tinh thần cộng tác mở của cộng đồng phần mềm tự do."

@@ -1,7 +1,7 @@
 +++
 title = "Wikipedia kiếm tiền để duy trì hoạt động như thế nào? Mô hình tài chính của bách khoa toàn thư mở"
 seo_title = "Wikipedia kiếm tiền thế nào? Mô hình tài chính phi lợi nhuận"
-commit = "24ef8179"
+commit = "45818209"
 date = "2026-07-12T19:20:00+07:00"
 draft = false
 description = "Wikipedia kiếm tiền thế nào: quyên góp nhỏ từ độc giả, tài trợ, Wikimedia Enterprise và quỹ Endowment — mô hình phi lợi nhuận, không quảng cáo."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa mô hình tài chính và quyên góp của Wikipedia"
 image_query = "donation money nonprofit finance"
 image_attribution_checked_at = "2026-07-12T20:48:56+07:00"
+date_display = "12-07-2026 19:20:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.md"
@@ -59,21 +60,27 @@ title = "Wikimedia Foundation — báo cáo tài chính"
 [[faq]]
 question = "Wikipedia kiếm tiền bằng cách nào?"
 answer = "Nguồn thu lớn nhất của Wikipedia đến từ hàng triệu khoản quyên góp nhỏ của độc giả khắp thế giới, gom qua các chiến dịch gây quỹ bằng email và banner hiển thị trên trang. Bên cạnh đó là tài trợ từ các quỹ từ thiện, dịch vụ dữ liệu thương mại Wikimedia Enterprise và lợi tức từ quỹ hiến tặng Endowment."
+
 [[faq]]
 question = "Wikipedia có chạy quảng cáo không?"
 answer = "Không. Wikipedia chưa bao giờ bán quảng cáo. Cộng đồng biên tập và Quỹ Wikimedia chủ động chọn con đường phi lợi nhuận sống bằng quyên góp, vì quảng cáo có thể tạo áp lực làm méo nội dung và đe dọa tính trung lập — thứ làm nên giá trị của một bách khoa toàn thư đáng tin."
+
 [[faq]]
 question = "Ai vận hành Wikipedia về mặt tài chính?"
 answer = "Đó là Quỹ Wikimedia (Wikimedia Foundation), một tổ chức phi lợi nhuận do Jimmy Wales lập năm 2003. Quỹ sở hữu tên miền, vận hành hạ tầng máy chủ, quản lý ngân sách và các chương trình hỗ trợ cộng đồng tình nguyện viên trên toàn cầu."
+
 [[faq]]
 question = "Wikimedia Enterprise là gì?"
 answer = "Đây là dịch vụ thương mại ra mắt tháng 10/2021, bán quyền truy cập có trả phí vào kho dữ liệu Wikipedia và Wikidata cho các công ty lớn cần dùng dữ liệu ở quy mô công nghiệp. Google là khách hàng trả tiền đầu tiên; doanh thu năm 2022 của dịch vụ này vào khoảng 3,1 triệu USD."
+
 [[faq]]
 question = "Quỹ Endowment của Wikimedia là gì?"
 answer = "Wikimedia Endowment là quỹ hiến tặng độc lập lập năm 2016, hoạt động như một khoản dự trữ dài hạn để bảo đảm Wikipedia tồn tại được qua nhiều thế hệ. Quỹ đạt mục tiêu 100 triệu USD vào tháng 6/2021, và đến tháng 6/2025 đã tăng lên khoảng 169,4 triệu USD."
+
 [[faq]]
 question = "Doanh thu của Wikipedia khoảng bao nhiêu?"
 answer = "Theo báo cáo tài chính gần đây, năm tài khóa 2023/24 Quỹ Wikimedia có doanh thu khoảng 185,4 triệu USD và chi phí khoảng 178,5 triệu USD. Các năm trước đó cũng ở quanh mức 150–180 triệu USD, cho thấy nguồn thu tương đối ổn định."
+
 [[faq]]
 question = "Bài viết này có sao chép nội dung không?"
 answer = "Không. Nội dung được biên soạn và diễn giải lại bằng góc nhìn riêng, dựa trên thông tin tham khảo từ Wikipedia và trang Wikimedia Foundation. Các số liệu tài chính là những con số công bố công khai, có thể thay đổi theo từng năm."

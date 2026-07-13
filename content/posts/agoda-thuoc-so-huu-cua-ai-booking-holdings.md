@@ -1,7 +1,7 @@
 +++
 title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
 seo_title = "Agoda thuộc sở hữu của ai? Booking Holdings"
-commit = "318b2f55"
+commit = "2f7f87f1"
 date = "2026-07-13T14:12:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Agoda", "Booking Holdings", "Booking.com", "OTA", "đặt phòng khách sạn", "du lịch trực tuyến", "so sánh giá khách sạn"]
 keywords = ["Agoda thuộc sở hữu của ai", "Agoda của nước nào", "Agoda thuộc Booking", "Booking Holdings", "Agoda và Booking.com", "Agoda Singapore", "hệ sinh thái Booking Holdings"]
 image_alt = "Ảnh minh họa Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái — nguồn Pexels"
-
 image = "images/posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.webp"
 thumbnail = "images/posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:33:54+07:00"
 image_query = "seoul korea cityscape"
+date_display = "13-07-2026 14:12:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
@@ -40,7 +40,7 @@ title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
 
 [[internal_links]]
 ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
-title = "Đặt phòng Agoda có an toàn không? Rủi ro và cách tránh"
+title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
 
 [[internal_links]]
 ref = "posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.md"

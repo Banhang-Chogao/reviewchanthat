@@ -1,7 +1,7 @@
 +++
 title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi"
 seo_title = "Agoda tại Việt Nam: thanh toán, hỗ trợ, ưu đãi"
-commit = "318b2f55"
+commit = "2f7f87f1"
 date = "2026-07-13T14:06:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Agoda", "Agoda Việt Nam", "thanh toán Agoda", "đặt phòng khách sạn", "ví điện tử", "thẻ ATM nội địa", "du lịch Việt Nam"]
 keywords = ["Agoda Việt Nam", "Agoda thanh toán bằng gì", "Agoda có hỗ trợ tiếng Việt không", "thanh toán Agoda ở Việt Nam", "thẻ ATM nội địa Agoda", "MoMo ZaloPay Agoda", "đặt phòng khách sạn nội địa"]
 image_alt = "Ảnh minh họa Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi — nguồn Pexels"
-
 image = "images/posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.webp"
 thumbnail = "images/posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:34:06+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 14:06:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"

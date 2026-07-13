@@ -1,7 +1,7 @@
 +++
 title = "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?"
 seo_title = "Agoda vs Booking.com: khác gì, chọn cái nào?"
-commit = "318b2f55"
+commit = "2f7f87f1"
 date = "2026-07-13T14:09:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Agoda", "Booking.com", "so sánh đặt phòng khách sạn", "du lịch tiết kiệm", "mẹo đặt phòng", "Booking Holdings", "đặt phòng châu Á"]
 keywords = ["Agoda hay Booking", "Agoda và Booking khác nhau gì", "nên đặt Agoda hay Booking", "so sánh Agoda Booking.com", "Booking Holdings", "hủy phòng miễn phí Agoda Booking", "đặt khách sạn giá rẻ"]
 image_alt = "Ảnh minh họa Agoda vs Booking.com: khác nhau gì, nên chọn cái nào? — nguồn Pexels"
-
 image = "images/posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.webp"
 thumbnail = "images/posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:33:59+07:00"
 image_query = "seoul korea cityscape"
+date_display = "13-07-2026 14:09:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.md"
@@ -118,7 +118,7 @@ Cả hai đều có phiên bản tiếng Việt cho website và app, dịch khá
 
 | Tiêu chí | Agoda | Booking.com |
 |---|---|---|
-| Công ty mẹ | Booking Holdings | Booking Holdings |
+| công ty mẹ | Booking Holdings | Booking Holdings |
 | Trụ sở / thế mạnh khu vực | Singapore — mạnh Đông Nam Á, châu Á | Amsterdam — mạnh toàn cầu, châu Âu/Bắc Mỹ |
 | Giá non-refundable | Thường rẻ hơn ở khách sạn châu Á | Cạnh tranh tốt ở thị trường phương Tây |
 | Kho phòng | Dày ở châu Á, nhiều homestay nhỏ | Rộng toàn cầu, đa dạng loại hình lưu trú |

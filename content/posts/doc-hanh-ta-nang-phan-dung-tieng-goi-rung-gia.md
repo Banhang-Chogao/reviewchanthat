@@ -1,7 +1,7 @@
 +++
 title = "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ"
 seo_title = "Độc hành Tà Năng Phan Dũng: tiếng gọi của rừng già"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-11T10:00:00+07:00"
 slug = "doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia"
 aliases = ["/posts/độc-hành-tà-năng-phan-dũng-tiếng-gọi-của-rừng-già-và-những-giới-hạn-bị-phá-bỏ/"]

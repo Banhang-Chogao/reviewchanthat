@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp Hải Phòng & Cát Bà 2026: Review & chọn phòng"
-commit = "1bf6b41e"
+commit = "2b2fd4f4"
 date = "2026-07-12T15:22:00+07:00"
 draft = false
 description = "Khách sạn view đẹp Hải Phòng và Cát Bà 2026: review 6 khách sạn resort nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa khách sạn view đẹp ở Hải Phòng và Cát Bà — resort ven biển"
 image_query = "khách sạn view đẹp Hải Phòng Cát Bà resort biển"
 image_attribution_checked_at = "2026-07-12T15:56:58+07:00"
+date_display = "12-07-2026 15:22:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
@@ -117,7 +118,7 @@ Trước khi đi vào từng cái tên, cần thống nhất "view đẹp" nghĩ
 
 **Khả năng ngắm bình minh trên biển đảo hoặc hoàng hôn.** Đây là chi tiết quyết định "view đẹp" có thành kỷ niệm hay không. Ở Cát Bà, phòng hướng Đông đón bình minh trên vịnh là món quà mỗi sáng; ở Đồ Sơn hay các phòng hướng Tây, hoàng hôn xuống biển lại là khoảnh khắc đáng chờ.
 
-**Giá trị trải nghiệm tổng thể.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Một nơi đắt nhưng cho bạn ngủ ngon, ăn ngon, view vịnh mỗi sáng và cảm giác thật sự nghỉ ngơi vẫn đáng hơn một nơi rẻ mà về thấy tiếc cả thời gian lẫn công đi lại.
+**giá trị trải nghiệm tổng thể.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Một nơi đắt nhưng cho bạn ngủ ngon, ăn ngon, view vịnh mỗi sáng và cảm giác thật sự nghỉ ngơi vẫn đáng hơn một nơi rẻ mà về thấy tiếc cả thời gian lẫn công đi lại.
 
 ![Vịnh biển đảo Cát Bà nhìn từ resort trên cao](/images/posts/khach-san-view-dep-hai-phong-cat-ba-2026-inline.webp)
 
@@ -219,7 +220,7 @@ Danh sách dưới đây bám theo những cái tên xuất hiện nhiều trong
 
 Bảng dưới đây tóm tắt để bạn dễ đối chiếu theo nhu cầu. Dấu ●● nghĩa là rất tốt/rất hợp, ● là ổn/tạm được, ○ là không phải điểm mạnh.
 
-| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Bể bơi | Giá trị trải nghiệm |
+| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Bể bơi | giá trị trải nghiệm |
 |---|---|---|---|---|---|---|---|
 | Flamingo Cát Bà | Vịnh Lan Hạ ●● | Đảo Cát Bà | ●● | ●● | ● | ●● | ●● cao |
 | Perle d'Orient MGallery | Vịnh ●● | Đảo Cát Bà | ●● | ● | ● | ● | ●● cao |

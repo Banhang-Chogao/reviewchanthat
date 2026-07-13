@@ -1,7 +1,7 @@
 +++
 title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
 seo_title = "Hướng dẫn đặt phòng Agoda A-Z: thanh toán, hoàn hủy"
-commit = "318b2f55"
+commit = "2f7f87f1"
 date = "2026-07-13T14:07:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Agoda", "đặt phòng khách sạn", "thanh toán online", "du lịch", "mẹo du lịch", "hoàn hủy phòng"]
 keywords = ["cách đặt phòng Agoda", "hướng dẫn đặt phòng Agoda", "đặt khách sạn trên Agoda", "thanh toán Agoda Việt Nam", "hủy phòng Agoda", "AgodaCash", "chính sách hoàn hủy Agoda"]
 image_alt = "Ảnh minh họa Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo — nguồn Pexels"
-
 image = "images/posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.webp"
 thumbnail = "images/posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:34:04+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 14:07:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.md"

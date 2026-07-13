@@ -1,7 +1,7 @@
 +++
 title = "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
 seo_title = "Phần Lan: Từ Nokia Đến 5G, Siêu Cường Công Nghệ Bắc Âu"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-11T16:06:05+07:00"
 slug = "phan-lan-tech-04"
 aliases = ["/posts/phần-lan-từ-nokia-đến-5g-cách-một-quốc-gia-nhỏ-trở-thành-siêu-lực-lượng-công-nghệ/"]
@@ -92,7 +92,7 @@ Phần Lan có dân số chỉ 5.5 triệu người nhưng:
 - 1 trong 5 công ty khởi nghiệp công nghệ châu Âu được thành lập bởi một người Phần Lan
 - Phần Lan có tỷ lệ unicorn cao nhất ở châu Âu (mỗi triệu người dân)
 
-**Các Công ty Nổi Tiếng:**
+**Các công ty Nổi Tiếng:**
 
 **Supercell** (2010): Một studio game di động được thành lập bởi các nhà phát triển từ Phần Lan. Supercell tạo ra:
 - Clash of Clans (~€2 tỷ doanh thu năm 2019)

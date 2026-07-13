@@ -1,7 +1,7 @@
 +++
 title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
 seo_title = "Trip.com vs Booking, Agoda, Expedia: nên đặt ở đâu?"
-commit = "53131412"
+commit = "318b2f55"
 date = "2026-07-13T10:15:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Trip.com", "Booking.com", "Agoda", "Expedia", "so sánh đặt phòng", "du lịch tiết kiệm", "đặt vé máy bay"]
 keywords = ["Trip.com so với Booking", "so sánh OTA du lịch", "đặt khách sạn giá rẻ", "Trip Coins là gì", "hỗ trợ tiếng Việt Trip.com", "đặt vé máy bay châu Á", "Agoda hay Trip.com"]
 image_alt = "Ảnh minh họa Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu? — nguồn Pexels"
-
 image = "images/posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.webp"
 thumbnail = "images/posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:38+07:00"
 image_query = "trip com so booking agoda"
+date_display = "13-07-2026 10:15:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"

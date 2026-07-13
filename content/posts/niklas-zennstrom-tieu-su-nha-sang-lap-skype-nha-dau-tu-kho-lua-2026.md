@@ -10,7 +10,7 @@ image = "images/posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho
 thumbnail = "images/posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.webp"
 categories = ["doi-song", "cong-nghe", "tai-chinh"]
 tags = ["niklas zennström", "skype", "entrepreneur", "venture capital", "startup"]
-commit = "b6fb0a55"
+commit = "53131412"
 image_source = "Pexels"
 image_provider = "pexels"
 image_license = "Pexels License"
@@ -96,7 +96,7 @@ Những ứng dụng khác đã cố gắng bắt chước Skype. Google Talk, A
 
 Sự thành công của Skype nhanh chóng thu hút sự chú ý của các công ty công nghệ lớn. Năm 2005, eBay - gã khổng lồ đấu giá trực tuyến - quyết định mua lại Skype với giá 2.6 tỷ USD. Đây là một trong những vụ mua lại công nghệ lớn nhất lịch sử.
 
-Tuy nhiên, mua lại này được coi là một trong những quyết định tồi tệ nhất của eBay. Công ty không biết cách tích hợp Skype vào mô hình kinh doanh của mình, và Skype phát triển chậm lại dưới sự quản lý của eBay. Năm 2009, eBay bán lại Skype cho một nhóm các nhà đầu tư tư nhân, khi đó định giá chỉ còn 1.9 tỷ USD.
+Tuy nhiên, mua lại này được coi là một trong những quyết định tồi tệ nhất của eBay. công ty không biết cách tích hợp Skype vào mô hình kinh doanh của mình, và Skype phát triển chậm lại dưới sự quản lý của eBay. Năm 2009, eBay bán lại Skype cho một nhóm các nhà đầu tư tư nhân, khi đó định giá chỉ còn 1.9 tỷ USD.
 
 Cuối cùng, năm 2011, Microsoft đã mua lại Skype với giá 8.5 tỷ USD - một mức giá cao gấp đôi so với mức giá eBay mua lại. Tại Microsoft, Skype phát triển trở thành một phần thiết yếu của nền tảng công nghệ của công ty, được tích hợp vào Windows, Outlook, và những sản phẩm khác.
 
@@ -196,12 +196,12 @@ Khi chúng ta nhìn về tương lai, những bài học từ cuộc sống và 
 
 Để khám phá sâu hơn về công ty đầu tư mạo hiểm Atomico mà Niklas Zennström thành lập năm 2010, hãy xem loạt bài viết toàn diện về quỹ này:
 
-1. **[Atomico Là Gì? Công Ty Đầu Tư Mạo Hiểm Của Niklas Zennström](../atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom/)** — Giới thiệu tổng quan về Atomico, tầm nhìn và giá trị cốt lõi của quỹ
+1. **[Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström](../atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom/)** — Giới thiệu tổng quan về Atomico, tầm nhìn và giá trị cốt lõi của quỹ
 
 2. **[Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010](../lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay/)** — Hành trình từ ý tưởng đến việc trở thành một quỹ đầu tư hàng đầu châu Âu
 
 3. **[Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk](../danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk/)** — Khám phá những công ty thành công nhất do Atomico hỗ trợ
 
-4. **[Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và Giá Trị Cốt Lõi](../chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy/)** — Tìm hiểu cách Atomico chọn công ty và hỗ trợ chúng phát triển
+4. **[Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi](../chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy/)** — Tìm hiểu cách Atomico chọn công ty và hỗ trợ chúng phát triển
 
 5. **[Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu](../anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc/)** — Khám phá cách Atomico đã thay đổi cách Châu Âu nhìn nhận công nghệ

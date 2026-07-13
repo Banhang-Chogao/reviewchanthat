@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "EC được gì khi thắng Apple trong tranh chấp DMA: tiền phạt, tiền lệ pháp lý, quyền giám sát gatekeeper — và những rủi ro chính trị, thị trường EC phải gánh."
 draft = false
 image = "images/posts/european-commission-duoc-gi-khi-thang-apple.webp"

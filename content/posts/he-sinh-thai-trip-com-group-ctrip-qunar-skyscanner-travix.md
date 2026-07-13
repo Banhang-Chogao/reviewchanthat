@@ -1,7 +1,7 @@
 +++
 title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
 seo_title = "Hệ sinh thái Trip.com Group: các thương hiệu chủ chốt"
-commit = "53131412"
+commit = "318b2f55"
 date = "2026-07-13T10:20:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Trip.com", "Ctrip", "Skyscanner", "Qunar", "Travix", "du lịch trực tuyến", "đặt vé máy bay"]
 keywords = ["Trip.com Group", "Ctrip là gì", "Skyscanner thuộc công ty nào", "Qunar", "Travix", "hệ sinh thái du lịch trực tuyến", "đặt vé máy bay quốc tế", "so sánh giá khách sạn"]
 image_alt = "Ảnh minh họa Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix — nguồn Pexels"
-
 image = "images/posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.webp"
 thumbnail = "images/posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:37+07:00"
 image_query = "hệ sinh thái trip com"
+date_display = "13-07-2026 10:20:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"

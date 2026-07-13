@@ -1,7 +1,7 @@
 +++
 title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
 seo_title = "M&A Trip.com: Qunar, Skyscanner, MakeMyTrip"
-commit = "53131412"
+commit = "318b2f55"
 date = "2026-07-13T10:30:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Trip.com", "Qunar", "Skyscanner", "MakeMyTrip", "Ctrip", "du lịch trực tuyến", "sáp nhập doanh nghiệp"]
 keywords = ["Trip.com Group M&A", "sáp nhập Qunar Ctrip", "Ctrip mua Skyscanner", "Trip.com MakeMyTrip", "Travix Trip.com Group", "eLong Tongcheng", "lịch sử Trip.com", "OTA Trung Quốc thâu tóm"]
 image_alt = "Ảnh minh họa Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip — nguồn Pexels"
-
 image = "images/posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.webp"
 thumbnail = "images/posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:32+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 10:30:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
@@ -108,7 +108,7 @@ Cách tiếp cận từng bước này — đầu tư nhỏ trước, mở rộn
 
 Không phải thương vụ nào của Trip.com Group cũng gây tiếng vang lớn như Skyscanner, nhưng chúng vẫn đóng vai trò quan trọng trong việc lấp đầy bản đồ toàn cầu của tập đoàn.
 
-Tháng 4/2020, Trip.com Group hoàn tất thương vụ mua lại Travix — tập đoàn OTA có trụ sở tại Amsterdam (Hà Lan), sở hữu các thương hiệu như CheapTickets.nl, Vayama và Vliegwinkel — từ công ty du lịch doanh nghiệp BCD Travel. Giá trị thương vụ không được công bố công khai, nhưng theo các báo cáo ngành, Travix mang lại cho Trip.com Group hàng triệu khách hàng giao dịch mỗi năm tại thị trường Hà Lan và Đức, hai thị trường mà các thương hiệu lớn như Booking chưa hẳn đã áp đảo hoàn toàn. Đây là ví dụ điển hình cho chiến lược "mua các thương hiệu ngách mạnh tại địa phương" thay vì cố gắng áp một thương hiệu Trung Quốc lên toàn cầu.
+Tháng 4/2020, Trip.com Group hoàn tất thương vụ mua lại Travix — tập đoàn OTA có trụ sở tại Amsterdam (Hà Lan), sở hữu các thương hiệu như CheapTickets.nl, Vayama và Vliegwinkel — từ công ty du lịch doanh nghiệp BCD Travel. giá trị thương vụ không được công bố công khai, nhưng theo các báo cáo ngành, Travix mang lại cho Trip.com Group hàng triệu khách hàng giao dịch mỗi năm tại thị trường Hà Lan và Đức, hai thị trường mà các thương hiệu lớn như Booking chưa hẳn đã áp đảo hoàn toàn. Đây là ví dụ điển hình cho chiến lược "mua các thương hiệu ngách mạnh tại địa phương" thay vì cố gắng áp một thương hiệu Trung Quốc lên toàn cầu.
 
 Ở một góc khác, mối quan hệ giữa Ctrip và eLong — một trong những OTA lâu đời nhất Trung Quốc — cũng đáng nhắc tới. Theo các nguồn tin tài chính, khoảng tháng 5/2015 Expedia bán phần lớn cổ phần kiểm soát tại eLong cho một nhóm nhà đầu tư trong đó có Ctrip và Plateno Group, trong một thương vụ được báo cáo có giá trị khoảng 671 triệu USD. Đến tháng 12/2017, hai công ty mà Ctrip có đầu tư là eLong và Tongcheng Network công bố sáp nhập với nhau, và thương vụ hoàn tất vào tháng 3/2018, tạo ra Tongcheng-Elong — sau này niêm yết tại Hong Kong. Dù không nắm quyền chi phối tuyệt đối, Ctrip vẫn là cổ đông chiến lược quan trọng của thực thể hợp nhất này, cho thấy tập đoàn không ngại giữ vai trò nhà đầu tư lớn thay vì lúc nào cũng phải là chủ sở hữu duy nhất.
 

@@ -1,7 +1,7 @@
 +++
 title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
 seo_title = "Agoda là gì? Có uy tín và an toàn không? 2026"
-commit = "318b2f55"
+commit = "2f7f87f1"
 date = "2026-07-13T14:14:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Agoda", "đặt phòng khách sạn", "OTA", "du lịch trực tuyến", "kinh nghiệm du lịch", "đánh giá dịch vụ", "Booking Holdings"]
 keywords = ["Agoda là gì", "Agoda có uy tín không", "Agoda có an toàn không", "Agoda của nước nào", "Agoda có lừa đảo không", "đặt Agoda có mất tiền oan không", "Agoda thuộc công ty nào", "kinh nghiệm đặt phòng Agoda"]
 image_alt = "Ảnh minh họa Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026) — nguồn Pixabay"
-
 image = "images/posts/agoda-la-gi-co-uy-tin-an-toan-khong.webp"
 thumbnail = "images/posts/agoda-la-gi-co-uy-tin-an-toan-khong.webp"
 image_source = "Pixabay"
@@ -33,6 +32,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:33:50+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 14:14:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/lich-su-agoda-tu-startup-den-booking-holdings.md"
@@ -76,7 +76,7 @@ Agoda là một nền tảng đặt phòng trực tuyến (OTA – Online Travel
 
 Agoda là một đại lý du lịch trực tuyến, đóng vai trò trung gian kết nối khách sạn, resort, căn hộ dịch vụ với người có nhu cầu đặt phòng. Nền tảng được hai người bạn học Michael Kenny và Robert Rosenstein sáng lập năm 2005, sau đó được Priceline Group (tiền thân của Booking Holdings) mua lại vào năm 2007. Hiện Agoda đặt trụ sở chính tại Singapore, có văn phòng vận hành lớn tại Bangkok (Thái Lan), và là một trong bốn thương hiệu lữ hành cốt lõi của Booking Holdings bên cạnh Booking.com, Priceline và Kayak, theo trang [Booking Holdings](https://www.bookingholdings.com/brands/agoda/).
 
-Khác với khách sạn tự vận hành website riêng, Agoda không sở hữu phòng ốc. Công ty ký hợp đồng phân phối với hàng trăm nghìn đối tác lưu trú (khách sạn, homestay, villa) trên toàn cầu, hiển thị giá và tình trạng phòng trống theo thời gian thực, rồi thu phí hoa hồng trên mỗi giao dịch thành công. Theo mô tả trên chính trang [Agoda](https://www.agoda.com/vi-vn/about-agoda/), nền tảng hiện kết nối người dùng với mạng lưới hàng triệu chỗ nghỉ, chuyến bay và dịch vụ đưa đón sân bay tại hơn 200 quốc gia, hỗ trợ hàng chục ngôn ngữ khác nhau — trong đó có tiếng Việt.
+Khác với khách sạn tự vận hành website riêng, Agoda không sở hữu phòng ốc. công ty ký hợp đồng phân phối với hàng trăm nghìn đối tác lưu trú (khách sạn, homestay, villa) trên toàn cầu, hiển thị giá và tình trạng phòng trống theo thời gian thực, rồi thu phí hoa hồng trên mỗi giao dịch thành công. Theo mô tả trên chính trang [Agoda](https://www.agoda.com/vi-vn/about-agoda/), nền tảng hiện kết nối người dùng với mạng lưới hàng triệu chỗ nghỉ, chuyến bay và dịch vụ đưa đón sân bay tại hơn 200 quốc gia, hỗ trợ hàng chục ngôn ngữ khác nhau — trong đó có tiếng Việt.
 
 Nói ngắn gọn, trả lời cho câu hỏi Agoda là gì: đây là một "chợ" đặt phòng trực tuyến, không phải khách sạn, và khi đặt qua Agoda bạn đang giao dịch với Agoda (bên trung gian) chứ không phải trực tiếp với khách sạn cho đến khi nhận phòng.
 
@@ -102,7 +102,7 @@ Tóm lại: Agoda uy tín ở quy mô và tính hợp pháp, nhưng KHÔNG đồ
 
 Về mặt kỹ thuật, Agoda có an toàn không thể trả lời là: có, ở mức tiêu chuẩn ngành. Trang thanh toán của Agoda sử dụng mã hóa SSL/TLS, hỗ trợ xác thực 3D Secure cho thẻ tín dụng/ghi nợ tại nhiều ngân hàng, và cho phép thanh toán qua các cổng phổ biến (Visa, Mastercard, ví điện tử, chuyển khoản tùy thị trường). Việc thuộc Booking Holdings cũng đồng nghĩa Agoda phải tuân thủ các quy định bảo vệ dữ liệu quốc tế như GDPR đối với người dùng châu Âu.
 
-Rủi ro thực tế không nằm ở việc Agoda "ăn cắp" tiền, mà thường đến từ ba nguồn: (1) website/app giả mạo Agoda để lừa lấy thông tin thẻ, (2) email/SMS lừa đảo giả danh Agoda yêu cầu "xác nhận lại thanh toán" qua link lạ, (3) người dùng tự đặt nhầm loại phòng "không hoàn hủy" rồi hiểu nhầm là bị lừa. Đây cũng là lý do nhiều người tìm kiếm "đặt Agoda có mất tiền oan không" — phần lớn trường hợp mất tiền là do đọc chưa kỹ chính sách giá đã thanh toán trước, không phải do nền tảng gian lận.
+rủi ro thực tế không nằm ở việc Agoda "ăn cắp" tiền, mà thường đến từ ba nguồn: (1) website/app giả mạo Agoda để lừa lấy thông tin thẻ, (2) email/SMS lừa đảo giả danh Agoda yêu cầu "xác nhận lại thanh toán" qua link lạ, (3) người dùng tự đặt nhầm loại phòng "không hoàn hủy" rồi hiểu nhầm là bị lừa. Đây cũng là lý do nhiều người tìm kiếm "đặt Agoda có mất tiền oan không" — phần lớn trường hợp mất tiền là do đọc chưa kỹ chính sách giá đã thanh toán trước, không phải do nền tảng gian lận.
 
 Để an toàn, luôn truy cập Agoda qua app chính thức hoặc gõ trực tiếp agoda.com, không bấm link trong email/SMS lạ, và kiểm tra kỹ chính sách hủy phòng (free cancellation hay non-refundable) trước khi bấm thanh toán.
 

@@ -1,7 +1,7 @@
 +++
 title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
 seo_title = "Luật Chuyển đổi số 2025: doanh nghiệp cần chuẩn bị gì?"
-commit = "b6fb0a55"
+commit = "963356b9"
 date = "2026-07-11T11:30:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -112,11 +112,11 @@ Một trong những thay đổi mang tính cách mạng của Luật Chuyển đ
 
 Luật quy định rõ: **tối thiểu 1% tổng chi ngân sách nhà nước hằng năm** được dành cho các nhiệm vụ chuyển đổi số. Đây là tín hiệu mạnh mẽ về cam kết đầu tư công vào hạ tầng số, tạo ra thị trường dịch vụ chuyển đổi số hàng nghìn tỷ đồng mà doanh nghiệp công nghệ có thể khai thác.
 
-## Quy Định Về Hệ Thống AI Rủi Ro Cao & Công Nghệ Chiến Lược
+## Quy Định Về Hệ Thống AI rủi ro Cao & Công Nghệ Chiến Lược
 
 Việt Nam không đứng ngoài xu thế quản lý AI toàn cầu. **Quy định về hệ thống AI rủi ro cao** trong Luật Chuyển đổi số 2025 là một trong những nội dung được doanh nghiệp công nghệ quan tâm nhất. Đây là lần đầu tiên một đạo luật tại Việt Nam phân loại và đưa ra yêu cầu cụ thể với các hệ thống trí tuệ nhân tạo.
 
-### Phân Loại Hệ Thống AI Theo Mức Độ Rủi Ro
+### Phân Loại Hệ Thống AI Theo Mức Độ rủi ro
 
 Luật phân loại AI thành các nhóm dựa trên mức độ rủi ro:
 

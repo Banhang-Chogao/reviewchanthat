@@ -1,7 +1,7 @@
 +++
 title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
 seo_title = "Mô hình kiếm tiền của Trip.com: OTA, khách sạn, vé bay"
-commit = "53131412"
+commit = "318b2f55"
 date = "2026-07-13T10:25:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Trip.com", "OTA", "mô hình kinh doanh", "đặt phòng khách sạn", "vé máy bay", "du lịch doanh nghiệp", "hoa hồng du lịch"]
 keywords = ["Trip.com Group kiếm tiền như thế nào", "mô hình OTA", "hoa hồng đặt phòng khách sạn", "vé máy bay Trip.com", "du lịch doanh nghiệp", "gói tour trọn gói", "rate parity khách sạn", "ưu đãi Trip.com"]
 image_alt = "Ảnh minh họa Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay — nguồn Pixabay"
-
 image = "images/posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.webp"
 thumbnail = "images/posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.webp"
 image_source = "Pixabay"
@@ -33,6 +32,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:35+07:00"
 image_query = "credit card finance desk"
+date_display = "13-07-2026 10:25:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"

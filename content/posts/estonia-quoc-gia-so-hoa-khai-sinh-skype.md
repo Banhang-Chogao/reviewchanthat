@@ -1,7 +1,7 @@
 +++
 title = "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
 seo_title = "Estonia: Quốc Gia Số Hóa Khai Sinh Skype, Bolt, Wise"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-11T13:00:00+07:00"
 slug = "estonia-quoc-gia-so-hoa-khai-sinh-skype"
 aliases = ["/posts/estonia-quốc-gia-số-hóa-nơi-khai-sinh-ra-skype-và-bolt-có-gì-đặc-biệt/"]

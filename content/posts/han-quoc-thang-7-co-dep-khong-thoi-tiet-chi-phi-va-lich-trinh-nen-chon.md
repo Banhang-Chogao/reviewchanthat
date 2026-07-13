@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình du lịch Hàn Quốc tháng 7 — mùa mưa vẫn đi được nếu biết cách."
 draft = false
 image = "images/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.webp"

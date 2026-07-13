@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh"]
 date = "2026-07-10T06:32:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "Bán Bitcoin, USDT hay tài sản số ở Việt Nam có phải nộp thuế? Bài viết giải thích thận trọng những điều người dùng cần hiểu, không thay tư vấn thuế cá nhân."
 draft = false
 image = "images/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.webp"

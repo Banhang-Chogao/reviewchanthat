@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "Đánh giá hiệu năng và pin macOS Golden Gate 27: số liệu Apple, phản hồi beta developer và ảnh hưởng Siri AI lên MacBook Air/Pro."
 draft = false
 image = "images/posts/macos-27-hieu-nang-pin-macbook.webp"

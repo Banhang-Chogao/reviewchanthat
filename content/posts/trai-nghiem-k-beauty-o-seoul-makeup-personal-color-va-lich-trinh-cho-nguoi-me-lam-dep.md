@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "Trải nghiệm K-beauty Seoul: học makeup tại JUNGSAEMMOOL 101, tư vấn personal color, mua mỹ phẩm Myeongdong. Lịch trình làm đẹp 1 ngày."
 draft = false
 image = "images/posts/trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep.webp"

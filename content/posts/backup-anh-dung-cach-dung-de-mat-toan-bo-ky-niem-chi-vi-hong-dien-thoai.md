@@ -4,7 +4,7 @@ title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm c
 seo_title = "Backup ảnh đúng cách: đừng để mất kỷ niệm vì hỏng điện thoại"
 description = "Cách backup ảnh đúng cách — sao lưu ảnh tự động với Google Photos, iCloud, NAS. Hướng dẫn quy tắc 3-2-1 cho người Việt, tránh mất ảnh vĩnh viễn."
 date = "2026-07-10T18:57:10+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"
@@ -131,7 +131,7 @@ Không có phương pháp nào hoàn hảo tuyệt đối. Mỗi phương pháp 
 | Ổ cứng ngoài | 1-3 triệu (1 lần) | Theo ổ | Thủ công | Cao | Trung bình |
 | NAS (Synology/QNAP) | 5-15 triệu | Theo ổ | Có | Rất cao | Khó |
 
-### Phân tích từng phương pháp
+### phân tích từng phương pháp
 
 **Google Photos:** Dịch vụ backup ảnh phổ biến nhất với người Việt. Tự động đồng bộ khi có WiFi, tìm kiếm ảnh thông minh (theo khuôn mặt, đồ vật, địa điểm). Bản nén miễn phí nhưng đến 15GB miễn phí — nếu nhiều hơn bạn cần thuê Google One. Bản gốc thì cần gói 100GB (1.99$/th) trở lên.
 

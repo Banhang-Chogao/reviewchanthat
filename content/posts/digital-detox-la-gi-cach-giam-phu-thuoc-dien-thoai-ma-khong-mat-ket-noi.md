@@ -4,7 +4,7 @@ title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà k
 seo_title = "Digital Detox là gì? Giảm nghiện điện thoại đúng cách"
 description = "Digital detox là gì? Cách cai nghiện điện thoại, giảm screen time và digital wellbeing cho người Việt — có kết nối nhưng không bị kiểm soát bởi thiết bị."
 date = "2026-07-10T18:57:10+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"
@@ -167,7 +167,7 @@ Chủ đề này sẽ được trình bày chi tiết ở [bài tiếp theo](/po
 | **Hiệu quả ngắn hạn** | Cao — giảm ngay lập tức | Trung bình — giảm từ từ | Trung bình — phụ thuộc vào chất lượng hoạt động thay thế |
 | **Hiệu quả dài hạn** | Thấp — thường tái nghiện sau 1-2 tuần | Cao — xây thói quen bền vững | Cao nhất — thay đổi hành vi gốc |
 | **Phù hợp với** | Người có ý chí cao, muốn thay đổi gấp | Người bận rộn, muốn thay đổi từ từ | Người thích hiểu bản chất vấn đề |
-| **Rủi ro** | Sốc cai, lo âu, cảm giác bị cô lập | Dễ tự cho phép "thêm 5 phút" | Khó tìm hoạt động thay thế hấp dẫn hơn điện thoại |
+| **rủi ro** | Sốc cai, lo âu, cảm giác bị cô lập | Dễ tự cho phép "thêm 5 phút" | Khó tìm hoạt động thay thế hấp dẫn hơn điện thoại |
 
 **Gợi ý của Review Chân Thật:** Kết hợp cai từ từ + thay thế thói quen. Đây là cách bền vững nhất cho đa số người Việt.
 

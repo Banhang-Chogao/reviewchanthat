@@ -1,10 +1,10 @@
 +++
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-description = "Công ty bảo hiểm dùng toán học gì để tính phí và rủi ro? Tìm hiểu actuarial science, xác suất sống còn, hàm mũ e^(-λt), expected loss và mô hình Monte Carlo."
+description = "công ty bảo hiểm dùng toán học gì để tính phí và rủi ro? Tìm hiểu actuarial science, xác suất sống còn, hàm mũ e^(-λt), expected loss và mô hình Monte Carlo."
 date = "2026-07-10T11:30:00+07:00"
 slug = "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro"
 aliases = ["/posts/công-ty-bảo-hiểm-dùng-toán-học-đỉnh-cao-như-thế-nào-để-tính-phí-và-rủi-ro/"]
-commit = "b6fb0a55"
+commit = "53131412"
 lastmod = "2026-07-10T11:30:00+07:00"
 seo_title = "công ty bảo hiểm: actuarial science, phí bảo hiểm, rủi ro"
 authors = ["Minh Hoàng"]

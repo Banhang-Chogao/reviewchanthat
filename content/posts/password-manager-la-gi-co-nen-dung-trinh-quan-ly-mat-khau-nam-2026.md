@@ -4,7 +4,7 @@ title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu
 seo_title = "Password Manager là gì? Có nên dùng năm 2026?"
 description = "Password manager là gì? So sánh Bitwarden, 1Password, KeePass năm 2026 — có nên dùng, cách chọn và hướng dẫn thiết lập cho người Việt."
 date = "2026-07-10T18:57:10+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 lastmod = "2026-07-10T18:57:10+07:00"
 date_display = "10-07-2026 18:57:10 GMT +7"
 lastmod_display = "10-07-2026 18:57:10 GMT +7"
@@ -133,7 +133,7 @@ Có hàng chục password manager trên thị trường, nhưng 3 cái tên nổ
 | **Nền tảng** | iOS, Android, Web, Desktop | iOS, Android, Web, Desktop | Windows (chính), macOS/Linux (cần port) |
 | **Kiểm toán độc lập** | Hàng năm | Hàng năm | Cộng đồng |
 
-### Phân tích nhanh
+### phân tích nhanh
 
 **Bitwarden** — lựa chọn số một cho đa số người Việt. Miễn phí, mã nguồn mở (có thể kiểm tra mã nguồn), kiểm toán bảo mật hàng năm, hỗ trợ đầy đủ nền tảng. Bản miễn phí đã đủ dùng cho 99% nhu cầu. Nếu cần TOTP tích hợp, trả $10/năm — rẻ hơn một ly trà sữa mỗi tháng.
 
@@ -196,13 +196,13 @@ Password manager mã hóa toàn bộ dữ liệu của bạn bằng AES-256 — 
 
 ### Kiến trúc Zero-Knowledge
 
-Zero-knowledge (không biết gì) có nghĩa là dữ liệu của bạn được mã hóa ở đầu thiết bị trước khi gửi lên server. Công ty cung cấp dịch vụ — kể cả Bitwarden hay 1Password — **không có chìa khóa để giải mã**. Họ chỉ lưu trữ các khối dữ liệu vô nghĩa.
+Zero-knowledge (không biết gì) có nghĩa là dữ liệu của bạn được mã hóa ở đầu thiết bị trước khi gửi lên server. công ty cung cấp dịch vụ — kể cả Bitwarden hay 1Password — **không có chìa khóa để giải mã**. Họ chỉ lưu trữ các khối dữ liệu vô nghĩa.
 
 Nói cách khác: ngay cả khi server của Bitwarden bị hack, hacker chỉ lấy được đống mã hóa — không thể đọc mật khẩu của bạn nếu không có master password.
 
-### Rủi ro thực tế so với lợi ích
+### rủi ro thực tế so với lợi ích
 
-| Rủi ro khi không dùng | Rủi ro khi dùng password manager |
+| rủi ro khi không dùng | rủi ro khi dùng password manager |
 |---|---|
 | Mật khẩu yếu, dễ đoán | Mật khẩu mạnh tự động |
 | Dùng lại mật khẩu — một lộ, lộ hết | Mỗi tài khoản một mật khẩu riêng |

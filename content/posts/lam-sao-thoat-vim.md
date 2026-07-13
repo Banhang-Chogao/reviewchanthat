@@ -1,7 +1,7 @@
 +++
 title = "Làm sao thoát Vim? Giải mã meme huyền thoại và hướng dẫn thoát Vim đúng cách"
 seo_title = "Làm sao thoát Vim? Giải mã meme và cách thoát đúng"
-commit = "be46d0ad"
+commit = "7678ce2c"
 date = "2026-07-12T18:30:00+07:00"
 draft = false
 description = "Làm sao thoát Vim? Giải mã meme huyền thoại của giới lập trình và hướng dẫn thoát Vim đúng cách: q, q!, wq, ZZ và vì sao Vim lại khó thoát đến vậy."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa màn hình terminal với dòng lệnh — thoát Vim"
 image_query = "terminal command line screen dark"
 image_attribution_checked_at = "2026-07-12T18:51:56+07:00"
+date_display = "12-07-2026 18:30:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/luoc-su-vim-editor.md"
@@ -55,18 +56,23 @@ title = "Trang chủ chính thức của Vim (vim.org)"
 [[faq]]
 question = "Cách nhanh nhất để thoát Vim là gì?"
 answer = "Nhấn phím Esc để chắc chắn đang ở chế độ Normal, sau đó gõ :q rồi Enter nếu chưa sửa gì. Nếu đã sửa và muốn bỏ thay đổi, gõ :q! rồi Enter. Nếu muốn lưu rồi thoát, gõ :wq rồi Enter."
+
 [[faq]]
 question = "Vì sao gõ :q mà vẫn không thoát được Vim?"
 answer = "Thường vì bạn đang ở chế độ Insert (đang gõ chữ), nên :q chỉ được ghi vào văn bản chứ không phải là lệnh. Hãy nhấn Esc trước để về chế độ Normal, rồi mới gõ :q. Cũng có thể do file đã bị sửa nên Vim từ chối thoát; khi đó dùng :q! để thoát mà không lưu."
+
 [[faq]]
 question = "q!, wq, x, ZZ khác nhau thế nào?"
 answer = ":q thoát khi chưa sửa; :q! thoát và bỏ mọi thay đổi; :wq và :x đều lưu rồi thoát (:x chỉ ghi khi có thay đổi); ZZ là phím tắt tương đương lưu và thoát; ZQ thoát mà không lưu."
+
 [[faq]]
 question = "Vì sao Vim lại khó thoát như vậy?"
 answer = "Vì Vim là trình soạn thảo modal: khi mở lên bạn ở chế độ Normal (để ra lệnh), không phải chế độ gõ chữ. Người quen Notepad hay Word sẽ bối rối vì không có menu File > Exit. Đây là hệ quả của triết lý thiết kế giúp thao tác nhanh mà không cần chuột."
+
 [[faq]]
 question = "Meme làm sao thoát Vim bắt nguồn từ đâu?"
 answer = "Từ trải nghiệm chung của vô số người lần đầu lỡ mở Vim và không biết ra bằng cách nào. Câu hỏi How do I exit Vim trên Stack Overflow đạt hàng triệu lượt xem, và từ đó thành một meme kinh điển của giới lập trình."
+
 [[faq]]
 question = "Người mới có nên học Vim không?"
 answer = "Nếu bạn làm việc nhiều với terminal, server hoặc code, thì rất nên. Đường cong học tập dốc ở đầu, nhưng khi quen, tốc độ thao tác văn bản của Vim rất đáng giá, và kỹ năng này còn dùng được ở nhiều editor khác qua chế độ giả lập Vim."

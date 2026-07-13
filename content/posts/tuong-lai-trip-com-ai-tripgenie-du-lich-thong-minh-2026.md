@@ -1,7 +1,7 @@
 +++
 title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
 seo_title = "Tương lai Trip.com: AI TripGenie & du lịch thông minh"
-commit = "53131412"
+commit = "318b2f55"
 date = "2026-07-13T09:55:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Trip.com", "TripGenie", "AI du lịch", "du lịch thông minh", "Trip.Best", "đặt phòng trực tuyến", "xu hướng du lịch 2026"]
 keywords = ["Trip.com AI", "TripGenie là gì", "Trip.Planner", "Trip.Best", "đặt vé bằng AI", "du lịch thông minh 2026", "trợ lý du lịch AI", "đặt phòng online"]
 image_alt = "Ảnh minh họa Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+ — nguồn Pexels"
-
 image = "images/posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.webp"
 thumbnail = "images/posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:43+07:00"
 image_query = "tương lai trip com ai"
+date_display = "13-07-2026 09:55:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.md"

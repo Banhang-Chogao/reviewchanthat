@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "b6fb0a55"
+commit = "ed485220"
 description = "iOS 27 public/developer beta có nên cài không? rủi ro ổn định, app ngân hàng, rollback và profile Apple Beta cho người dùng Việt Nam."
 draft = false
 image = "images/posts/ios-27-beta-co-nen-cai-khong.webp"
@@ -19,7 +19,7 @@ image_license_url = "https://www.pexels.com/license/"
 image_owner = "external"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/iphone-smartphone-desk-laptop-699122/"
-seo_title = "iOS 27 beta có nên cài không? Rủi ro và cách backup an toàn"
+seo_title = "iOS 27 beta có nên cài không? rủi ro và cách backup an toàn"
 series = "ios-27-co-gi-moi"
 series_order = 7
 series_title = "iOS 27 có gì mới"

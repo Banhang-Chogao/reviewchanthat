@@ -1,7 +1,7 @@
 +++
 title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
 seo_title = "Agoda 2026: AI, ứng dụng & đặt phòng thông minh"
-commit = "318b2f55"
+commit = "2f7f87f1"
 date = "2026-07-13T14:05:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -15,7 +15,6 @@ categories = ["du-lich"]
 tags = ["Agoda", "Agoda AI", "ứng dụng Agoda", "đặt phòng thông minh", "công nghệ du lịch", "OTA", "du lịch 2026"]
 keywords = ["Agoda AI", "ứng dụng Agoda", "Agoda có gì mới", "đặt phòng thông minh", "chatbot Agoda", "Agoda 2026", "xu hướng đặt phòng", "AI du lịch"]
 image_alt = "Ảnh minh họa Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh — nguồn Pexels"
-
 image = "images/posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.webp"
 thumbnail = "images/posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.webp"
 image_source = "Pexels"
@@ -33,6 +32,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:34:07+07:00"
 image_query = "agoda 2026 ai ứng dụng"
+date_display = "13-07-2026 14:05:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"

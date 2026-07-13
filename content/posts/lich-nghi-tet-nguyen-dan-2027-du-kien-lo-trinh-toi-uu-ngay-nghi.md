@@ -149,7 +149,7 @@ Nếu chỉ nhớ một điều, hãy nhớ: **mùng 1 Tết Đinh Mùi rơi và
 
 Chưa. Đây là suy luận từ cách tính 5 ngày luật định cộng nghỉ bù khi trùng cuối tuần, dựa trên thông lệ các năm gần đây. Con số chỉ "cứng" khi có văn bản của Chính phủ. Bạn nên đặt các khoản có thể hoàn/hủy linh hoạt cho tới lúc đó.
 
-### Công ty tư nhân có buộc phải nghỉ đúng lịch Nhà nước không?
+### công ty tư nhân có buộc phải nghỉ đúng lịch Nhà nước không?
 
 Không nhất thiết trùng khít, nhưng phải bảo đảm **tối thiểu 5 ngày nghỉ Tết có hưởng lương** theo luật và thông báo trước cho người lao động. Doanh nghiệp được chọn phương án hoán đổi riêng, nên hãy bám theo thông báo nội bộ của phòng nhân sự thay vì chỉ nhìn lịch chung.
 

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "b6fb0a55"
+commit = "b595e98e"
 description = "Đi Hàn Quốc mùa đông đừng bỏ lỡ trượt tuyết. Giữa 6 resort ở Gangwon-do nên chọn khu nào cho người lần đầu? So sánh giá, đường đi và độ dễ trượt."
 draft = false
 image = "images/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.webp"

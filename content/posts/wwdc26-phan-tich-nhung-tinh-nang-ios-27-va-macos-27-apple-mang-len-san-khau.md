@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-07T09:00:00+07:00"
-commit = "b6fb0a55"
+commit = "963356b9"
 description = "phân tích có cơ sở về iOS 27, macOS Golden Gate 27, Siri AI và Apple Intelligence tại WWDC26 — phân loại tin đồn, dự đoán và thông tin Apple đã xác nhận."
 draft = false
 image = "images/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.webp"

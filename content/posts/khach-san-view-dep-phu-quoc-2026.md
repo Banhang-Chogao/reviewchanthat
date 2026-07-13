@@ -1,7 +1,7 @@
 +++
 title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 seo_title = "Khách sạn view đẹp Phú Quốc 2026: Review & Kinh nghiệm chọn"
-commit = "1bf6b41e"
+commit = "2b2fd4f4"
 date = "2026-07-12T15:24:00+07:00"
 draft = false
 description = "Khách sạn view đẹp Phú Quốc 2026: review 6 resort nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng view biển hoàng hôn."
@@ -27,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh minh họa khách sạn view đẹp ở Phú Quốc — resort ven biển"
 image_query = "khách sạn view đẹp Phú Quốc resort biển"
 image_attribution_checked_at = "2026-07-12T15:57:05+07:00"
+date_display = "12-07-2026 15:24:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
@@ -109,7 +110,7 @@ Trước khi đi vào từng cái tên, cần thống nhất "view đẹp" ở P
 
 **Khả năng ngắm hoàng hôn hoặc bình minh.** Đây là chi tiết biến "view đẹp" thành kỷ niệm. Phòng hướng Tây ở Bãi Trường cho hoàng hôn rực rỡ; một số villa hai mặt biển ở Nam đảo lại đón được cả bình minh lẫn hoàng hôn. Nghe thì đơn giản nhưng rất nhiều người bỏ qua chi tiết này khi đặt phòng.
 
-**Giá trị trải nghiệm tổng thể.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Một nơi đắt nhưng cho bạn ngủ ngon, ăn ngon, bãi biển đẹp và sự riêng tư vẫn đáng hơn một nơi rẻ mà về nhà thấy tiếc thời gian.
+**giá trị trải nghiệm tổng thể.** Cuối cùng, câu hỏi đúng không phải "chỗ này bao nhiêu tiền" mà là "số tiền này đổi lại được gì". Một nơi đắt nhưng cho bạn ngủ ngon, ăn ngon, bãi biển đẹp và sự riêng tư vẫn đáng hơn một nơi rẻ mà về nhà thấy tiếc thời gian.
 
 ![Hồ bơi vô cực resort hướng biển lúc hoàng hôn ở Phú Quốc](/images/posts/khach-san-view-dep-phu-quoc-2026-inline.webp)
 
@@ -211,7 +212,7 @@ Danh sách dưới đây bám theo những cái tên xuất hiện nhiều trong
 
 Bảng dưới đây tóm tắt để bạn dễ đối chiếu theo nhu cầu. Dấu ●● nghĩa là rất tốt/rất hợp, ● là ổn/tạm được, ○ là không phải điểm mạnh.
 
-| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Hồ bơi | Giá trị trải nghiệm |
+| Khách sạn | View | Vị trí | Cặp đôi | Gia đình | Workcation | Hồ bơi | giá trị trải nghiệm |
 |---|---|---|---|---|---|---|---|
 | JW Marriott Emerald Bay | Vịnh Bãi Khem ●● | Nam đảo (Bãi Khem) | ●● | ●● | ● | ●● | ●● rất cao |
 | InterContinental Long Beach | Hoàng hôn biển ●● | Bãi Trường (bờ Tây) | ●● | ● | ●● | ●● | ●● cao |

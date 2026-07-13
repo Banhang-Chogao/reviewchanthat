@@ -1,7 +1,7 @@
 +++
 title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
 seo_title = "Cheap Flights to Ho Chi Minh City on Trip.com: 2026 Guide"
-commit = "4821e69f"
+commit = "ed485220"
 date = "2026-07-12T22:30:00+07:00"
 draft = false
 post_lang = "en"
@@ -30,6 +30,7 @@ image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-12T22:43:55+07:00"
+date_display = "12-07-2026 22:30:00 GMT +7"
 
 [[internal_links]]
 ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"

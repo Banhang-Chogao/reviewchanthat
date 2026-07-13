@@ -1,6 +1,6 @@
 +++
 title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
-commit = "b6fb0a55"
+commit = "53131412"
 date = "2026-07-11T09:00:00+07:00"
 slug = "tin-chi-carbon-va-trao-luu-net-zero"
 aliases = ["/posts/tín-chỉ-carbon-và-trào-lưu-net-zero-bóc-tách-góc-nhìn-tài-chính-từ-thẻ-eco-của-techcombank/"]
@@ -29,7 +29,7 @@ queries = ["carbon credit sustainability finance", "green banking eco card", "ne
 enabled = true
 collapsed = false
 disclaimer = "Bài viết phân tích khái niệm tín chỉ carbon, thị trường carbon và sản phẩm thẻ Eco Techcombank dựa trên thông tin công khai tính đến năm 2026; không phải tư vấn đầu tư, tài chính hay môi trường. Con số về lộ trình chính sách và giá tín chỉ có thể thay đổi – luôn kiểm tra nguồn chính thức trước khi ra quyết định."
-items = ["Tín chỉ carbon (carbon credit) = quyền phát thải 1 tấn CO2 tương đương (tCO2e); là công cụ tài chính để 'bù trừ' phát thải, không phải phép loại bỏ khí nhà kính trực tiếp.", "Net Zero khác Carbon Neutral: Net Zero yêu cầu cắt giảm phát thải tận gốc trước, chỉ bù trừ phần dư không thể xóa; Việt Nam cam kết Net Zero 2050 tại COP26.", "Thẻ Eco Debit của Techcombank (ra mắt 04/11/2024) là case study đáng chú ý: đo phát thải theo từng giao dịch, làm từ nhựa PVC tái chế, kết nối dự án bù trừ đạt chuẩn Gold Standard; ~150.000 thẻ và ~58.000 khách hàng mới trong vài tháng.", "Rủi ro cần cảnh giác: greenwashing, tính cộng thêm (additionality), tính bền vững của dự án trồng rừng, và việc bù trừ dễ trở thành 'giấy phép xả thải' nếu không đi kèm giảm phát thải thật."]
+items = ["Tín chỉ carbon (carbon credit) = quyền phát thải 1 tấn CO2 tương đương (tCO2e); là công cụ tài chính để 'bù trừ' phát thải, không phải phép loại bỏ khí nhà kính trực tiếp.", "Net Zero khác Carbon Neutral: Net Zero yêu cầu cắt giảm phát thải tận gốc trước, chỉ bù trừ phần dư không thể xóa; Việt Nam cam kết Net Zero 2050 tại COP26.", "Thẻ Eco Debit của Techcombank (ra mắt 04/11/2024) là case study đáng chú ý: đo phát thải theo từng giao dịch, làm từ nhựa PVC tái chế, kết nối dự án bù trừ đạt chuẩn Gold Standard; ~150.000 thẻ và ~58.000 khách hàng mới trong vài tháng.", "rủi ro cần cảnh giác: greenwashing, tính cộng thêm (additionality), tính bền vững của dự án trồng rừng, và việc bù trừ dễ trở thành 'giấy phép xả thải' nếu không đi kèm giảm phát thải thật."]
 image_provider = "pixabay"
 image_license_url = ""
 image_commercial_use = true
