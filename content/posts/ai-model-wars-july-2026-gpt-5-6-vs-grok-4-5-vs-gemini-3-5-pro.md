@@ -1,7 +1,7 @@
 +++
 title = "AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins?"
 seo_title = "GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro: AI Model Comparison July 2026"
-commit = "d47b2212"
+commit = "bc6a90ad"
 date = "2026-07-14T10:00:00+07:00"
 slug = "ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro"
 draft = false
