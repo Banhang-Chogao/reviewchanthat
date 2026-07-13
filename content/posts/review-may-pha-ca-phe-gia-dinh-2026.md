@@ -1,7 +1,7 @@
 +++
 title = "Review Máy Pha Cà Phê Gia Đình 2026: Từ Phin Pha Tay Đến Máy Tự Động"
 seo_title = "Review máy pha cà phê gia đình 2026: Chọn loại nào?"
-commit = ""
+commit = "f576fac5"
 date = "2026-07-13T23:45:00+07:00"
 slug = "review-may-pha-ca-phe-gia-dinh-2026"
 draft = false
