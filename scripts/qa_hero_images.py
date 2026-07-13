@@ -28,16 +28,18 @@ STATIC_DIR = "static"
 
 
 def read_toml_frontmatter(path):
+    import re
     with open(path, encoding="utf-8") as fh:
         text = fh.read()
     if not text.lstrip().startswith("+++"):
-        # Non-TOML front matter: skip (repo is TOML-only; nothing to check here)
         return None
+    # Strip opening +++ and extract content until closing +++ on its own line.
+    # Using re.MULTILINE ensures we do NOT match +++ inside string values.
     body = text.lstrip()[3:]
-    end = body.find("+++")
-    if end == -1:
+    end_match = re.search(r"^\+{3}\s*$", body, re.MULTILINE)
+    if not end_match:
         return None
-    return tomllib.loads(body[:end])
+    return tomllib.loads(body[:end_match.start()])
 
 
 def local_image_missing(value):

@@ -133,7 +133,8 @@ def check_frontmatter_compliance() -> list:
         slug = post_file.stem
 
         # Check description
-        close_pos = content.find('+++', content.find('+++') + 3)
+        close_m = re.search(r'^\+{3}\s*$', content, re.MULTILINE)
+        close_pos = close_m.start() if close_m else -1
         if close_pos > 0:
             frontmatter = content[:close_pos]
             after_frontmatter = content[close_pos:]

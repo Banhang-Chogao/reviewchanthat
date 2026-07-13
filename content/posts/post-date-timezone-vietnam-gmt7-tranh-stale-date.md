@@ -52,7 +52,7 @@ answer = "Trả lời: Nên **scope QA theo diff**. Quét 150 bài mỗi PR UI t
 
 [[faq]]
 question = "Hỏi: TOML vs YAML date?"
-answer = "Trả lời: Cùng quy tắc offset. Blog chuẩn hóa TOML (` +++ `) + ISO `+07:00` qua `rule.py`."
+answer = "Trả lời: Cùng quy tắc offset. Blog chuẩn hóa TOML (3 dấu cộng `+++`) + ISO +07:00 qua rule.py."
 +++
 | Code | Safety | Mô tả |
 |------|--------|--------|

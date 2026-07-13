@@ -179,7 +179,9 @@ class CrawlDoctor:
                 # Check for description outside +++
                 if '+++ \n' in content or '+++\n' in content:
                     # Find description position relative to closing +++
-                    close_pos = content.find('+++', content.find('+++') + 3)
+                    import re
+                    close_m = re.search(r'^\+{3}\s*$', content, re.MULTILINE)
+                    close_pos = close_m.start() if close_m else -1
                     if close_pos > 0:
                         frontmatter = content[:close_pos]
                         if 'description' not in frontmatter:
