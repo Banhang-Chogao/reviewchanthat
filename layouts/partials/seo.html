@@ -20,7 +20,9 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 160 }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "sitemap.xml" | absURL }}">
-{{- $frontNoindex := or .Params.noindex .Params.private .Draft -}}
+{{- /* Noindex thin tag taxonomy pages (807 one-post tags); keep category hubs indexed */ -}}
+{{- $isTagTax := and (in (slice "term" "taxonomy") .Kind) (eq (.Data.Singular | default "") "tag") -}}
+{{- $frontNoindex := or .Params.noindex .Params.private .Draft $isTagTax -}}
 {{- $isIndexable := not $frontNoindex -}}
 {{- if $isIndexable -}}
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">

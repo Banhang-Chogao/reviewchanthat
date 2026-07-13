@@ -994,11 +994,14 @@ class ComplianceChecker:
                 with open(path, encoding="utf-8", errors="replace") as handle:
                     content = handle.read()
                 rel = os.path.relpath(path, ROOT)
-                if "map[" in content:
+                # Only a genuine Go map dump (e.g. "map[key:value ...]") is a bug;
+                # literal prose like the title "ai_summary map[]" is not (false positive).
+                map_dump = re.search(r"map\[[^\]]*:[^\]]*\]", content)
+                if map_dump:
                     if ai_pattern.search(content) and "map[" in ai_pattern.search(content).group(0):
                         self.add_issue("ERROR", "PUBLIC_MAP_LITERAL", rel, "map[ found inside ai-summary HTML")
                     elif "/posts/" in rel:
-                        self.add_issue("WARN", "PUBLIC_MAP_LITERAL", rel, "map[ found in built public output")
+                        self.add_issue("WARN", "PUBLIC_MAP_LITERAL", rel, "Go map literal found in built public output")
 
     def write_report(self, path: str) -> None:
         os.makedirs(os.path.dirname(path), exist_ok=True)

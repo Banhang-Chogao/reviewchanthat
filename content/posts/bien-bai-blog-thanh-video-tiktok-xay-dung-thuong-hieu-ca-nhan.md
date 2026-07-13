@@ -11,7 +11,7 @@ image = "images/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-n
 thumbnail = "images/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.webp"
 image_status = "verified"
 related_posts = ["xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok"]
-seo_title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để"
+seo_title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung"
 description = "Hướng dẫn cắt một bài blog Hugo thành 5-10 video TikTok ngắn: cách chọn ý tưởng, viết kịch bản, tạo hook và đưa người xem về blog để xây thương hiệu cá nhân."
 
 [custom_image_queries]

@@ -141,6 +141,12 @@ jobs:
       - name: QA sitemap
         run: python scripts/qa_sitemap.py
 
+      - name: QA inline images (block broken inline images)
+        run: python scripts/qa_inline_images.py
+
+      - name: QA slugs (report-only, non-blocking)
+        run: python scripts/qa_slugs.py || true
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
