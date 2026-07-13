@@ -1,7 +1,7 @@
 +++
 title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
 seo_title = "MSI Claw 8 EX AI+ Review 2026: Intel Arc G3 Extreme Gaming Benchmarks"
-commit = ""
+commit = "8b16a889"
 date = "2026-07-14T00:13:49+07:00"
 slug = "msi-claw-8-ex-ai-plus-review"
 draft = false

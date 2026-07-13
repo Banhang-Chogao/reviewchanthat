@@ -1,7 +1,7 @@
 +++
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
 seo_title = "Review AirPods Pro 3 2026: Có đáng mua?"
-commit = "8660546e"
+commit = "0ee71da6"
 date = "2026-07-13T23:30:00+07:00"
 slug = "review-airpods-pro-3-2026"
 draft = false
@@ -12,18 +12,18 @@ author = "Reviewchanthat"
 date_display = "13-07-2026 23:30:00 GMT +7"
 image = "images/posts/review-airpods-pro-3-2026.webp"
 thumbnail = "images/posts/review-airpods-pro-3-2026.webp"
-image_source = "Pixabay"
-image_source_url = "https://pixabay.com/photos/night-view-dark-seoul-korea-7523474/"
-image_provider = "pixabay"
-image_license = "Pixabay Content License"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/panorama-of-seoul-cityscape-under-clear-blue-sky-16677693/"
+image_provider = "pexels"
+image_license = "Pexels License"
 image_license_url = ""
 image_commercial_use = true
 image_owner = "external"
-image_creator = "cskkkk"
-image_creator_url = "https://pixabay.com/photos/night-view-dark-seoul-korea-7523474/"
+image_creator = "Kharl Anthony Paica"
+image_creator_url = "https://www.pexels.com/@kharlitos"
 image_creator_id = ""
 image_attribution_verified = true
-image_attribution_source = "pixabay_api"
+image_attribution_source = "pexels_api"
 image_status = "verified"
 +++
 

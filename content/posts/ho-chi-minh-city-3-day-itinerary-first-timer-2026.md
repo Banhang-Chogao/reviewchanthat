@@ -1,7 +1,7 @@
 +++
 title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
 seo_title = "Ho Chi Minh City 3-Day Itinerary for First-Timers 2026"
-commit = "5fe83052"
+commit = "55110758"
 date = "2026-07-13T23:58:00+07:00"
 draft = false
 post_lang = "en"
@@ -14,6 +14,8 @@ categories = ["du-lich"]
 tags = ["ho chi minh city", "saigon itinerary", "3 day itinerary", "vietnam travel", "first time saigon"]
 keywords = ["Ho Chi Minh City 3 day itinerary", "Saigon first timer itinerary", "what to do in Ho Chi Minh City 3 days", "District 1 walking tour", "Saigon travel plan 2026", "best things to do Ho Chi Minh City", "first trip to Saigon", "Ho Chi Minh City weekend itinerary"]
 date_display = "13-07-2026 23:58:00 GMT +7"
+image = "images/posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.webp"
+thumbnail = "images/posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.webp"
 
 [ai_summary]
 collapsed = false
@@ -68,8 +70,6 @@ answer = "Yes. This guide includes a Trip.com affiliate/advertising placement, c
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Written independently as a practical visitor itinerary. Opening hours, ticket prices and tour options change; confirm details with official sites and operators before booking. This post contains a labelled Trip.com advertising/affiliate link. Illustrative images are from Pexels/Pixabay."
-image = "images/posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.webp"
-thumbnail = "images/posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/vibrant-night-cityscape-of-ho-chi-minh-city-32499988/"
 image_provider = "pexels"

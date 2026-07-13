@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-13T23:52:00+07:00"
-commit = "5c35e085"
+commit = "0ee71da6"
 description = "Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc thay, tiếng ồn và khi nào thật sự đáng mua cho chung cư Việt Nam."
 draft = false
 slug = "review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi"
@@ -11,6 +11,8 @@ seo_title = "Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí
 tags = ["máy lọc không khí", "HEPA", "CADR", "review đồ gia dụng", "chất lượng không khí", "mua sắm 2026", "chung cư"]
 title = "Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc và khi nào thật sự đáng mua"
 date_display = "13-07-2026 23:52:00 GMT +7"
+image = "images/posts/review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi.webp"
+thumbnail = "images/posts/review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi.webp"
 
 [ai_summary]
 collapsed = false
@@ -85,8 +87,6 @@ value = "CADR phù hợp m2, HEPA thật, lọc thay được, tiếng ồn ban 
 [[tom_tat_nhanh]]
 label = "Chi phí nên tính"
 value = "Giá máy + lọc định kỳ + điện + (nếu có) cảm biến/app không bắt buộc"
-image = "images/posts/review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi.webp"
-thumbnail = "images/posts/review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi.webp"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/modern-air-quality-monitor-with-indoor-plant-32079707/"
 image_provider = "pexels"
