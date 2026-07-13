@@ -19,12 +19,7 @@ date_display = "13-07-2026 23:58:00 GMT +7"
 collapsed = false
 enabled = true
 title = "Quick summary"
-items = [
-  "Three full days is enough for District 1 highlights, one serious food focus, and either a half-day museum block or a short day trip — if you plan around heat and traffic.",
-  "Base yourself near District 1 so walking and short Grab rides cover most of the itinerary without wasting hours in congestion.",
-  "Build each day around early mornings and late afternoons; mid-day is for air-conditioned museums, cafés, or a pool break.",
-  "This is a flexible framework, not a military schedule — swap the Cu Chi or Mekong option only if you want a full day outside the city.",
-]
+items = ["Three full days is enough for District 1 highlights, one serious food focus, and either a half-day museum block or a short day trip — if you plan around heat and traffic.", "Base yourself near District 1 so walking and short Grab rides cover most of the itinerary without wasting hours in congestion.", "Build each day around early mornings and late afternoons; mid-day is for air-conditioned museums, cafés, or a pool break.", "This is a flexible framework, not a military schedule — swap the Cu Chi or Mekong option only if you want a full day outside the city."]
 
 [[internal_links]]
 ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"
