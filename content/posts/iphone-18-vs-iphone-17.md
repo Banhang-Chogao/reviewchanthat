@@ -73,10 +73,6 @@ ref = "posts/iphone-18-co-gi-moi.md"
 title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
 
 [[internal_links]]
-ref = "posts/iphone-18-khi-nao-ra-mat.md"
-title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
-
-[[internal_links]]
 ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
 title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
 
@@ -87,12 +83,7 @@ title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầ
 [[internal_links]]
 ref = "posts/iphone-18-mau-gi-dark-cherry.md"
 title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
-
-[[internal_links]]
-ref = "posts/iphone-18-pro-max-co-gi-moi.md"
-title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
 +++
-
 Giữa **mua iPhone 17 ngay** và **chờ iPhone 18**, năm 2026 khó hơn mọi kỳ vì Apple **chưa công bố** thế hệ 18, trong khi iPhone 17 (đã ra mắt) lại là bước nhảy rõ trên **bản tiêu chuẩn** — **ProMotion 120Hz** và màn **6,3 inch**. Tin đồn thêm **split launch**: Pro tháng 9/2026, base có thể **đầu 2027** ([MacRumors](https://www.macrumors.com/roundup/iphone-18/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more)).
 
 Bài so sánh thuộc [series iPhone 18 có gì mới](/posts/iphone-18-co-gi-moi/) — phân tách **thông tin đã có** (iPhone 17) và **[Tin đồn / chưa xác nhận]** (iPhone 18) để bạn không chờ nhầm đối tượng.

@@ -57,10 +57,6 @@ ref = "posts/chuan-bi-macbook-truoc-khi-len-macos-27.md"
 title = "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app"
 
 [[internal_links]]
-ref = "posts/macos-27-so-voi-macos-26.md"
-title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
-
-[[internal_links]]
 ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
 title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
 
@@ -80,7 +76,6 @@ title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI 
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
 +++
-
 Cùng một bản macOS 27, **kế toán**, **YouTuber** và **backend dev** sẽ thấy giá trị ở chỗ khác nhau. Bài này map tính năng Golden Gate 27 theo **workflow thật** — không liệt kê slide keynote.
 
 > Tại thời điểm viết (tháng 7/2026), Apple đã preview **macOS Golden Gate 27** tại WWDC26 (8/6/2026); public beta dự kiến tháng 7/2026 và bản chính thức mùa thu. Bài viết phân loại rõ thông tin Apple đã công bố, phản hồi beta và tin đồn; sẽ được cập nhật khi có thông tin chính thức bổ sung.

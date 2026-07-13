@@ -67,40 +67,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
-
-[[internal_links]]
-ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
-title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
-
-[[internal_links]]
-ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
-title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
-[[internal_links]]
-ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
-title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-
-[[internal_links]]
-ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
-title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-
-[[internal_links]]
-ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon.md"
-title = "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn"
-
-[[internal_links]]
-ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
-title = "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày"
-
-[[internal_links]]
-ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
-title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
-
-[[internal_links]]
-ref = "posts/even-realities-g2-smart-glasses-review.md"
-title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
 +++
-
 Mua sắm online tiện thật đấy, nhưng mua xong mới hối hận thì cũng nhiều. Mình từng mua không biết bao nhiêu thứ vì "giá rẻ quá không mua uổng" — kết quả là để xó hoặc đem bán lại.
 
 Dưới đây là 6 bước mình vẫn kiểm tra trước mỗi lần bấm "Đặt mua". Làm theo thì chưa chắc giàu, nhưng chắc chắn đỡ tiếc tiền.

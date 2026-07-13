@@ -71,32 +71,9 @@ ref = "posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md
 title = "Blog cá nhân hay TikTok: xây thương hiệu cá nhân ở đâu trước?"
 
 [[internal_links]]
-ref = "posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md"
-title = "MoMo, ZaloPay hay ShopeePay: ví nào phù hợp?"
-image_attribution_checked_at = "2026-07-12T08:49:07+07:00"
-image_query = "seoul korea cityscape"
-
-[[internal_links]]
-ref = "posts/cong-nghe-ai-camera-uav-nong-nghiep-2026.md"
-title = "Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV"
-
-[[internal_links]]
-ref = "posts/mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio.md"
-title = "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ"
-
-[[internal_links]]
-ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
-title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
-
-[[internal_links]]
-ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
-title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-
-[[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày"
 +++
-
 “Sống thông minh” từng gắn với thói quen ngủ đủ, ghi chép sổ tay hay cắt subscription thừa. Năm 2026, thêm một lớp công cụ: **trí tuệ nhân tạo (AI)** xuất hiện trên điện thoại, app ngân hàng, trình soạn thảo và cả trợ lý học ngoại ngữ. Câu hỏi không còn là “AI có tồn tại không?” mà là **làm sao dùng AI để cuộc sống nhẹ hơn — mà không để AI sống thay mình**.
 
 Bài này là **pillar** của series *Sống thông minh trong thời đại AI*: khung tư duy, ví dụ đời thường (Việt Nam và quốc tế), so sánh cách dùng, checklist, FAQ và ranh giới an toàn. Các bài sau sẽ đi sâu công cụ, Notion/Calendar, tối giản số, quyết định, tài chính, TOPIK, du lịch và thử nghiệm 24 giờ.

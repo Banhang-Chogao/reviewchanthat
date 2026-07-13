@@ -56,10 +56,6 @@ ref = "posts/di-han-thang-11-co-dep-khong.md"
 title = "Đi Hàn tháng 11 có đẹp không?"
 
 [[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11"
-
-[[internal_links]]
 ref = "posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md"
 title = "Lịch trình 5 ngày 4 đêm tháng 11"
 
@@ -74,14 +70,6 @@ title = "Nami Island tháng 11"
 [[internal_links]]
 ref = "posts/seoraksan-thang-11-ngam-la-do.md"
 title = "Seoraksan tháng 11"
-
-[[internal_links]]
-ref = "posts/busan-thang-11-nen-di-dau.md"
-title = "Busan tháng 11"
-
-[[internal_links]]
-ref = "posts/jeju-thang-11-co-dep-khong.md"
-title = "Jeju tháng 11"
 
 [[tom_tat_nhanh]]
 label = "Ngân sách 5N4Đ"
@@ -103,7 +91,6 @@ value = "100.000–180.000 VND/ngày"
 label = "Lưu ý"
 value = "Giá có thể thay đổi"
 +++
-
 Lên ngân sách trước khi đặt vé giúp bạn tránh chi tiêu vượt kế hoạch — đặc biệt khi đi Hàn tháng 11, mùa **peak lá đỏ ở Seoul** nhưng thời tiết **lạnh hơn tháng 10**. Bài viết liệt kê **mức giá tham khảo** cho chuyến 5 ngày 4 đêm tự túc; mọi con số **có thể thay đổi** theo hãng bay, tỷ giá và thời điểm đặt.
 
 Tháng 11 **có thể rẻ hơn nhẹ** so với **cuối tháng 10** — khi peak foliage Oct đã qua, giá phòng và tour đôi khi giảm, dù đầu tháng 11 vẫn là mùa đẹp ở Seoul. Tuy nhiên, cuối tuần đầu tháng 11 vẫn có thể đông và đẩy giá lên.

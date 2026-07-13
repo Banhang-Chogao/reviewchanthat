@@ -49,42 +49,6 @@ answer = "Biển Busan (Haeundae, Gwangalli), Jeju, công viên nước Caribbea
 [[faq]]
 answer = "Đặt phòng trước 1 tháng, mua vé online, mang kem chống nắng và nước uống."
 
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-
-[[internal_links]]
-ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
-
-[[internal_links]]
-ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
-
-[[internal_links]]
-ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
-
-[[internal_links]]
-ref = "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-
-[[internal_links]]
-ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-
 [[tom_tat_nhanh]]
 label = "Nhiệt độ"
 value = "25–33°C"
@@ -101,7 +65,6 @@ label = "Phù hợp"
 [[tom_tat_nhanh]]
 label = "Giá"
 +++
-
 ## Thời tiết tháng 8
 
 Tháng 8 là tháng nóng nhất tại Hàn Quốc. Nhiệt độ 25–33°C, nắng gắt từ 11:00–15:00. Mưa giảm so với tháng 7, chỉ 8–10 ngày mưa. Độ ẩm 70–80%.

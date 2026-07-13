@@ -69,24 +69,8 @@ ref = "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
 title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu"
 
 [[internal_links]]
-ref = "posts/di-thai-lan-thang-7-co-nen-khong.md"
-title = "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý"
-
-[[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
-
-[[internal_links]]
-ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
-title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
-[[internal_links]]
-ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
-title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
-
-[[internal_links]]
-ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
-title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
 
 [[faq]]
 question = "Có nên thuê xe máy (scooter) ở Phuket mùa mưa không?"
@@ -100,7 +84,6 @@ answer = "Đông hơn bạn nghĩ, nhưng ít hơn mùa khô rất nhiều. Các
 question = "Có cần đặt tour trước không?"
 answer = "Có. Vì số lượng tour chạy giảm và tàu chạy ít hơn, bạn nên đặt trước 1–2 ngày. Nếu mua tour trên đường phố, hỏi kỹ chính sách hoàn tiền nếu thời tiết xấu. ---"
 +++
-
 ## Phuket mùa mưa — nên đi hay không?
 
 Phuket là hòn đảo lớn nhất Thái Lan và là một trong những điểm đến biển nổi tiếng nhất Đông Nam Á. Nhưng nếu bạn đang đọc bài này, chắc hẳn bạn đang phân vân: đi Phuket vào mùa mưa (tháng 5–10) có đáng không? Biển có động không? Tour đảo có chạy không? Và quan trọng nhất — liệu có lãng phí tiền và thời gian không?

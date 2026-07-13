@@ -32,40 +32,7 @@ image_attribution_checked_at = "2026-07-11T17:30:39+07:00"
 
 [ai_summary]
 items = ["DCF (Discounted Cash Flow): Giá = Σ FCF_t × e^(-rt) + Terminal Value × e^(-rT)", "Terminal Value = Final Year FCF × Growth / (Discount Rate - Growth)", "P/E Ratio = Giá / Lợi nhuận (cách nhanh nhất để so sánh)", "PEG Ratio = P/E / Growth Rate (điều chỉnh cho tăng trưởng)", "EV/EBITDA = Enterprise Value / EBITDA (so sánh khác branch)", "Comparable Method: So sánh cổ phiếu tương tự, giá = Average P/E × Earnings", "Intrinsic Value vs Market Price: Nếu Market < Intrinsic → BUY, ngược lại SELL"]
-
-[[internal_links]]
-ref = "posts/cfa-dung-toan-hoc-gi.md"
-title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
-
-[[internal_links]]
-ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
-title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
-
-[[internal_links]]
-ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
-title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
-
-[[internal_links]]
-ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-
-[[internal_links]]
-ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
-title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
-
-[[internal_links]]
-ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
-title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
-
-[[internal_links]]
-ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
-title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
-
-[[internal_links]]
-ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
-title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
 +++
-
 Làm sao biết cổ phiếu là **rẻ hay đắt**?
 
 Dùng **toán học định giá**.

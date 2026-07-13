@@ -69,10 +69,6 @@ ref = "posts/iphone-18-khi-nao-ra-mat.md"
 title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
 
 [[internal_links]]
-ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
-title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
-
-[[internal_links]]
 ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
 title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
 
@@ -85,14 +81,9 @@ ref = "posts/iphone-18-mau-gi-dark-cherry.md"
 title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
 
 [[internal_links]]
-ref = "posts/iphone-18-pro-max-co-gi-moi.md"
-title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
-
-[[internal_links]]
 ref = "posts/iphone-18-chip-a20-2nm.md"
 title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
 +++
-
 “**iPhone 18 giá bao nhiêu?**” là câu hỏi đến sớm hơn mọi năm — vì tin đồn **tách lịch ra mắt** (Pro trước, base sau) và vì chi phí **chip 2nm**, **RAM 12GB** hay **iPhone Fold** được đồn sẽ đẩy biên lợi nhuận lên. Apple **chưa công bố** bất kỳ mức giá nào cho iPhone 18; số liệu dưới đây là **ước tính analyst** và **[Tin đồn / chưa xác nhận]** từ [MacRumors](https://www.macrumors.com/roundup/iphone-18-pro/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more).
 
 Bài thuộc [series iPhone 18 có gì mới](/posts/iphone-18-co-gi-moi/) — giúp bạn **lập ngân sách** trước khi quyết định chờ Pro tháng 9/2026 hay mua **iPhone 17** đang giảm giá tại Việt Nam.

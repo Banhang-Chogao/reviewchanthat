@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T14:34:04+07:00"
 image_query = "credit card finance desk"
 date_display = "13-07-2026 14:07:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.md"
-title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi"
-
-[[internal_links]]
-ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
-title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
-
-[[internal_links]]
-ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
-title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
-
-[[internal_links]]
-ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
-title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
-
-[[internal_links]]
-ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
-title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
-
-[[internal_links]]
-ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
-title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
-
-[[internal_links]]
-ref = "posts/lich-su-agoda-tu-startup-den-booking-holdings.md"
-title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
-
-[[internal_links]]
-ref = "posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.md"
-title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
-
 [[faq]]
 question = "Cách đặt phòng Agoda có cần thẻ tín dụng không?"
 answer = "Không bắt buộc. Bạn có thể chọn phòng gắn nhãn \"Reserve without credit card\" hoặc thanh toán bằng thẻ ATM nội địa, thanh toán tại quầy qua Payoo nếu không có thẻ tín dụng quốc tế."

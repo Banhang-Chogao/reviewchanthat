@@ -30,38 +30,6 @@ image_attribution_source = "pixabay_api"
 image_attribution_checked_at = "2026-07-11T17:43:41+07:00"
 image_query = "bắc cực quang hiện tượng"
 
-[[internal_links]]
-ref = "posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.md"
-title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"
-
-[[internal_links]]
-ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
-title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
-
-[[internal_links]]
-ref = "posts/fjord-na-uy-thac-nuoc-dong-tien.md"
-title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh"
-
-[[internal_links]]
-ref = "posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.md"
-title = "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?"
-
-[[internal_links]]
-ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
-title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
-
-[[internal_links]]
-ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
-title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
-
 [[faq]]
 question = "Q: Tôi có thể nhìn thấy bắc cực quang nếu tôi không ở Scandinavia không?"
 answer = "A: Có. Bắc cực quang có thể nhìn thấy từ bất cứ nơi nào ở bắc cực – Canada, Greenland, Iceland, Alaska, thậm chí Bắc Nga. Tuy nhiên, Scandinavia nổi tiếng vì dễ tiếp cận (các chuyến bay quốc tế, cơ sở hạ tầng tốt) và xác suất cao (địa lý địa từ)."
@@ -74,7 +42,6 @@ answer = "A: Không. Mặt trời không bao giờ lặn vào mùa hè ở Bắc
 question = "Q: Bắc cực quang có có thể nhìn thấy bằng mắt thường hay cần máy ảnh?"
 answer = "A: Bắc cực quang có thể nhìn thấy bằng mắt thường nếu nó đủ sáng. Khi bắc cực quang mạnh, bạn sẽ thấy nó rõ ràng mà không cần máy ảnh. Tuy nhiên, máy ảnh có thể nắm bắt được các màu sắc và chi tiết mà mắt thường không thể, đặc biệt với các bắc cực quang yếu."
 +++
-
 ## Bắc Cực Quang Là Gì?
 
 Bắc cực quang, hay aurora borealis (từ La Tinh có nghĩa "ánh sáng bắc"), là một hiện tượng thiên nhiên xảy ra khi các hạt có tích điện từ mặt trời va chạm với từ trường của trái đất và sau đó tương tác với khí quyển. Các gió mặt trời (hạt cao năng lượng từ mặt trời) di chuyển qua không gian với tốc độ khoảng 400 km/giây.

@@ -60,28 +60,8 @@ image_attribution_checked_at = "2026-07-12T08:48:49+07:00"
 image_query = "đi bangkok ngày đêm mùa"
 
 [[internal_links]]
-ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
-title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
-
-[[internal_links]]
-ref = "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
-title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu"
-
-[[internal_links]]
 ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
 title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
-
-[[internal_links]]
-ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
-title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
-
-[[internal_links]]
-ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
-title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
-[[internal_links]]
-ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
-title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
 
 [[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
@@ -91,7 +71,6 @@ title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Gra
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
 +++
-
 Đi Bangkok lần đầu vào mùa mưa có thể hơi lo, nhưng thực ra đây là thời điểm lý tưởng để khám phá thành phố nếu bạn có một lịch trình hợp lý. Giá vé rẻ, khách sạn giảm, điểm tham quan vắng — và quan trọng nhất, Bangkok có đủ indoor attractions để bạn không bao giờ cảm thấy "mất cả ngày vì mưa".
 
 Bài viết này dành cho người đi Bangkok lần đầu, ngân sách 5–7 triệu VND, với lịch trình 3 ngày 3 đêm được thiết kế riêng cho mùa mưa. Mỗi ngày đều có backup plan, di chuyển tối ưu bằng BTS, và không bỏ lỡ những trải nghiệm cốt lõi của Bangkok.

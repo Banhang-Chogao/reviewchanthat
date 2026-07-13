@@ -50,35 +50,6 @@ answer = "Tùy nguồn thông tin: có nguồn nói 3 slope (1 beginner, 2 inter
 [[faq]]
 answer = "Mùa 2025–26: mở cửa từ 12/12/2025, Snow Playground từ 20/12/2025. Giờ hoạt động: \"ngày thường 10:00–17:00, có night ticket 18:00–21:00. Kiểm tra website oakvalley.co.kr\" để biết giá mới nhất."
 
-[[internal_links]]
-ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
-
-[[internal_links]]
-ref = "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
-
-[[internal_links]]
-ref = "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md"
-title = "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?"
-
-[[internal_links]]
-ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
-title = "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang"
-
-[[internal_links]]
-ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
-title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
-
-[[internal_links]]
-ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
-title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
-
 [[tom_tat_nhanh]]
 label = "Khu vực"
 value = "Wonju, Gangwon-do (100 km từ Seoul)"
@@ -103,7 +74,6 @@ value = ""
 label = "Có cần đặt trước không"
 value = ""
 +++
-
 Oak Valley là ski resort nhỏ nhất trong系列 bài này của mình, nhưng đôi khi nhỏ lại là cái hay. Nếu bạn đã đọc bài về [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}) và [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) mà thấy lo vì đông đúc, Oak Valley là phương án ngược lại hoàn toàn.
 
 Resort này nằm ở Wonju, Gangwon-do, cách Seoul khoảng 100 km. Tên cũ là Oak Hills CC, giờ đổi thành Oak Valley Snow Park.

@@ -38,38 +38,6 @@ image_alt = "Ảnh minh họa AI stocks là gì? Cổ phiếu AI, chip và tác 
 image_license_url = ""
 image_attribution_checked_at = "2026-07-12T08:48:49+07:00"
 image_query = "ai stocks gì cổ phiếu"
-
-[[internal_links]]
-ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
-title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
-
-[[internal_links]]
-ref = "posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md"
-title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
-
-[[internal_links]]
-ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
-title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
-title = "Risk Management trong tài chính: Từ VaR đến stress testing"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
-ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
-title = "App Store gatekeeper: Apple sợ mất điều gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-co-gi-moi.md"
-title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
 +++
 Năm 2024–2026, một từ khóa lặp lại ở mọi nơi: **AI.** Và theo AI, có từ **chip.** Nếu bạn là nhà đầu tư, bạn chắc chắn nghe nói về cổ phiếu công nghệ, NVIDIA, TSMC, và nhu cầu chip "vô tận."
 

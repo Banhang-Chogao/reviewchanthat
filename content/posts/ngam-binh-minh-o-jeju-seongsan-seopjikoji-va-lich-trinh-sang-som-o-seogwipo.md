@@ -80,14 +80,6 @@ label = "Có cần đặt trước không"
 value = ""
 
 [[internal_links]]
-ref = "posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.md"
-title = "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý"
-
-[[internal_links]]
-ref = "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md"
-title = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ"
-
-[[internal_links]]
 ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
 title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
 
@@ -98,20 +90,7 @@ title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seo
 [[internal_links]]
 ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
 title = "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
-[[internal_links]]
-ref = "posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md"
-title = "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước"
-
-[[internal_links]]
-ref = "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md"
-title = "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun"
 +++
-
 Ngắm bình minh trên miệng núi lửa là trải nghiệm theo mình không thể bỏ qua khi đến Jeju. Hoạt động này được xếp hạng 5 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và Seongsan Ilchulbong là điểm đến số một cho việc này.
 
 

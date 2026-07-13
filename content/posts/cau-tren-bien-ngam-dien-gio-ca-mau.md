@@ -42,26 +42,6 @@ title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: 
 ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
 title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
 
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/bien-ba-dong-tra-vinh.md"
-title = "Biển Ba Động Trà Vinh: bãi biển giồng cát bình dị của miền Tây và kinh nghiệm đường đi 2026"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
 [[external_links]]
 url = "https://vnexpress.net/cau-tren-bien-cho-khach-ngam-canh-dong-dien-gio-o-ca-mau-5094065.html"
 title = "Nguồn tham khảo: Cầu trên biển cho khách ngắm cánh đồng điện gió ở Cà Mau — VnExpress"
@@ -106,7 +86,6 @@ answer = "Không. Bài chỉ tham khảo thông tin công khai từ VnExpress (c
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tham khảo từ bài Cầu trên biển cho khách ngắm cánh đồng điện gió ở Cà Mau trên VnExpress (ảnh Chúc Ly và Khu du lịch Điện gió Hòa Bình 1); nội dung được viết lại hoàn toàn bằng góc nhìn riêng, không sao chép câu chữ. Ảnh minh họa trong bài lấy từ Pexels/Pixabay, KHÔNG phải ảnh của VnExpress hay khu du lịch. Số liệu có thể thay đổi — nên kiểm tra lại trước khi đi."
 +++
-
 Có những điểm đến khiến bạn phải nhìn lại định nghĩa của mình về "du lịch biển". Ta quen với cát, sóng, hàng dừa và những khu nghỉ dưỡng. Nhưng ở Cà Mau, có một nơi mời bạn ra giữa biển để ngắm một thứ hoàn toàn khác: hàng chục trụ turbine điện gió cao hàng trăm mét, đứng sừng sững trên mặt nước như một khu rừng thép. Và để đến được với chúng, bạn không cần tàu — chỉ cần ngồi xe điện chạy dọc một cây cầu dài mười bảy cây số vươn thẳng ra khơi.
 
 Nghe qua thì lạ, gần như phi lý: một công trình công nghiệp năng lượng lại trở thành điểm check-in. Nhưng chính cái sự "lệch chuẩn" ấy làm nên sức hút. Khu du lịch Điện gió Hòa Bình 1, cách trung tâm TP Cà Mau (cũ) khoảng 70 km, đã mở cửa đón khách tham quan từ cuối năm 2022 theo mô hình kết hợp công trình năng lượng tái tạo với du lịch sinh thái. Nó không giống bất cứ bãi biển nào bạn từng đến, và đó chính là lý do đáng đi.

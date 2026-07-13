@@ -72,10 +72,6 @@ ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
 
 [[internal_links]]
-ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
-title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
-
-[[internal_links]]
 ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
 title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
 
@@ -88,14 +84,9 @@ ref = "posts/doi-baht-o-viet-nam-hay-thai-lan.md"
 title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
 
 [[internal_links]]
-ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
-title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
-[[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
 title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
 +++
-
 Mùa mưa Thái Lan kéo dài từ tháng 6 đến tháng 10, cao điểm vào tháng 7–9. Đây là khoảng thời gian nhiều người Việt phân vân nhất: vé máy bay rẻ, khách sạn giảm sâu, nhưng liệu có "đi mưa cả ngày" hay không? Câu trả lời ngắn gọn là: **tùy vào điểm đến và cách bạn lên lịch**.
 
 Mưa ở Thái Lan không giống mưa bão ở Việt Nam. Đa số các cơn mưa đến vào cuối chiều, kéo dài 1–3 tiếng rồi tạnh. Buổi sáng và đầu giờ chiều thường nắng đẹp. Vấn đề không phải là "có mưa không" mà là "mưa ở đâu, vào lúc nào và kéo dài bao lâu". Bài viết này sẽ giúp bạn so sánh 5 điểm đến chính — Bangkok, Phuket, Krabi, Chiang Mai và Koh Samui — để quyết định nên đi đâu trong mùa mưa.

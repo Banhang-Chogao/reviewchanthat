@@ -56,40 +56,7 @@ answer = "Trong ngũ hành, Thiên can Đinh thuộc hành Hỏa, còn Địa ch
 [[faq]]
 question = "'Ôn cố tri tân' nghĩa là gì và liên quan thế nào đến Tết Đinh Mùi 2027?"
 answer = "'Ôn cố tri tân' là thành ngữ gốc Hán, nghĩa là 'ôn lại cái cũ để hiểu cái mới' – nhìn lại bài học quá khứ để ứng xử tốt hơn với hiện tại và tương lai. Trước thềm Tết Đinh Mùi 2027, việc nhìn lại các năm Đinh Mùi trong lịch sử không nhằm 'bói' năm tốt hay xấu, mà để mỗi người rút ra tinh thần chủ động, ham học hỏi và bền chí trước biến động – những giá trị luôn đúng trong mọi thời cuộc."
-
-[[internal_links]]
-ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
-title = "Lịch nghỉ Tết Nguyên Đán 2027 và lộ trình tối ưu ngày nghỉ"
-
-[[internal_links]]
-ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
-title = "So sánh phong tục Tết ba miền Bắc - Trung - Nam"
-
-[[internal_links]]
-ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
-title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: quà tặng xanh và sức khỏe"
-
-[[internal_links]]
-ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
-title = "Sinh năm 2027 mệnh gì? Tuổi Đinh Mùi Thiên Hà Thủy, hướng tốt & phong thủy"
-
-[[internal_links]]
-ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
-title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
-
-[[internal_links]]
-ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
-title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
-
-[[internal_links]]
-ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
-title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
-
-[[internal_links]]
-ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
-title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
 +++
-
 Mỗi độ cuối năm, khi những cơn gió chớm lạnh báo hiệu một mùa Tết đang tới gần, người Việt lại có thói quen ngoảnh nhìn về phía sau để soi tỏ con đường phía trước. Tết Nguyên Đán 2027 sắp tới sẽ mang tên **Đinh Mùi** – một cái tên tưởng chừng chỉ là quy ước lịch pháp, nhưng nếu lần giở sử sách, ta sẽ thấy mỗi lần "Đinh Mùi" trở lại đều trùng vào những khúc quanh đáng nhớ của dân tộc và thế giới. Bài viết này không nhằm luận bàn năm tốt hay xấu theo lối bói toán, mà mượn tinh thần **"ôn cố tri tân"** – ôn lại cái cũ để hiểu cái mới – nhìn lại những năm Đinh Mùi trong hai thế kỷ qua, và suy ngẫm xem quá khứ để lại cho chúng ta điều gì trước thềm 2027.
 
 ## Đinh Mùi là năm gì? Giải mã Thiên can Đinh và Địa chi Mùi

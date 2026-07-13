@@ -62,40 +62,7 @@ label = "Hợp với"
 [[tom_tat_nhanh]]
 label = "Mẹo quan trọng"
 image_attribution_checked_at = "2026-07-14T01:19:10+07:00"
-
-[[internal_links]]
-ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
-title = "Checklist trước khi mua một sản phẩm online"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
-title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
-
-[[internal_links]]
-ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
-title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-
-[[internal_links]]
-ref = "posts/msi-claw-8-ex-ai-plus-review.md"
-title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
-
-[[internal_links]]
-ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
-title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
-
-[[internal_links]]
-ref = "posts/review-airpods-pro-3-2026.md"
-title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
-
-[[internal_links]]
-ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
-title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
-[[internal_links]]
-ref = "posts/review-may-pha-ca-phe-gia-dinh-2026.md"
-title = "Review Máy Pha Cà Phê Gia Đình 2026: Từ Phin Pha Tay Đến Máy Tự Động"
 +++
-
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
 
 Mình cá ai từng mua đồ online cũng từng rơi vào tình huống này ít nhất một lần. Làm sao để đọc review mà không bị dắt mũi?

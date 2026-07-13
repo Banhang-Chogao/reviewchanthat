@@ -33,34 +33,6 @@ date_display = "12-07-2026 15:22:00 GMT +7"
 ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
 title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
-[[internal_links]]
-ref = "posts/khach-san-view-dep-da-nang-2026.md"
-title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
-
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
-title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-nha-trang-2026.md"
-title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-yen-2026.md"
-title = "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
-title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
 [[external_links]]
 url = "https://www.trip.com/trip-best/"
 title = "Trip.Best — bảng xếp hạng khách sạn theo dữ liệu đặt phòng"
@@ -105,7 +77,6 @@ answer = "Không. Bài chỉ tham khảo danh sách và dữ liệu công khai t
 copyright = "© 2026 Review Chân Thật."
 source_note = "Danh sách khách sạn tham khảo từ dữ liệu công khai Trip.Best; phần phân tích, đánh giá và kinh nghiệm chọn phòng là quan điểm riêng, không sao chép nội dung Trip.com. Giá và tính năng có thể thay đổi — vui lòng kiểm tra trực tiếp trước khi đặt."
 +++
-
 Hải Phòng là kiểu thành phố dễ bị người ta đi lướt qua. Trên đường ra Cát Bà hay Đồ Sơn, nhiều người coi thành phố cảng chỉ là điểm dừng đổ xăng, ăn bát bánh đa cua rồi đi tiếp. Nhưng nếu chịu ở lại một, hai đêm, bạn sẽ thấy Hải Phòng có nhịp riêng: năng động kiểu công nghiệp cảng biển, hàng phượng đỏ rực mỗi hè, và một mạng lưới khách sạn ngày càng đàng hoàng — vừa đủ cho một chuyến staycation trong phố, vừa là bàn đạp lý tưởng để ra đảo.
 
 Điều làm khu vực này đặc biệt là sự đa dạng chỉ trong bán kính vài chục cây số. Muốn ở phố, có những khách sạn 5 sao nhìn ra hồ Tam Bạc. Muốn ra biển gần, chạy nửa tiếng là tới Đồ Sơn với các tổ hợp nghỉ dưỡng ven biển. Còn muốn cảnh đẹp thật sự, vượt phà hoặc đi cáp treo ra đảo Cát Bà, nơi vịnh Lan Hạ với hàng trăm hòn đảo đá vôi được nhiều người đánh giá đẹp không kém Hạ Long mà lại yên tĩnh hơn. Với dân Hà Nội, cao tốc rút thời gian còn khoảng hai giờ, biến cả vùng thành lựa chọn cuối tuần rất hợp lý.

@@ -29,38 +29,6 @@ date_display = "11-07-2026 05:30:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "điểm quy định cấp giấy"
 
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md"
-title = "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun"
-
-[[internal_links]]
-ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
-title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
-
-[[internal_links]]
-ref = "posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.md"
-title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
-
-[[internal_links]]
-ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
-title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
-
-[[internal_links]]
-ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
-title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
-title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
 [[faq]]
 question = "Câu Hỏi 1: Người Lao Động Nước Ngoài Có Thể Tự Mình Xin Giấy Phép Lao Động Không?"
 answer = "Không. Theo quy định, người sử dụng lao động (doanh nghiệp, tổ chức) là chủ thể có nghĩa vụ thực hiện thủ tục xin giấy phép lao động cho người lao động nước ngoài. Người lao động nước ngoài không thể tự nộp hồ sơ xin giấy phép lao động mà không có sự bảo lãnh của doanh nghiệp. Đây là quy định nhằm đảm bảo trách nhiệm của doanh nghiệp trong việc quản lý lao động nước ngoài, đồng thời tạo điều kiện cho cơ quan quản lý nhà nước kiểm soát chặt chẽ việc sử dụng lao động nước ngoài tại Việt Nam."
@@ -77,7 +45,6 @@ answer = "Có. Kể từ ngày 1/1/2018, lao động nước ngoài làm việc 
 question = "Câu Hỏi 4: Thời Gian Làm Việc Bao Lâu Thì Phải Gia Hạn Giấy Phép Lao Động?"
 answer = "Thủ tục gia hạn phải được thực hiện trong vòng 30 ngày trước ngày giấy phép lao động hết hạn. Nếu để quá hạn, doanh nghiệp sẽ phải làm thủ tục cấp lại (không phải gia hạn), quy trình phức tạp hơn và mất nhiều thời gian hơn."
 +++
-
 ## Tổng Quan Về Quy Định Giấy Phép Lao Động 2026
 
 Thị trường lao động Việt Nam đang chứng kiến sự gia tăng mạnh mẽ về số lượng lao động nước ngoài đến làm việc tại các khu công nghiệp, khu chế xuất và các tập đoàn đa quốc gia. Theo thống kê của Bộ Lao động - Thương binh và Xã hội, tính đến cuối năm 2025, có hơn 120.000 lao động nước ngoài đang làm việc hợp pháp tại Việt Nam, tăng 15% so với năm 2024. Sự gia tăng này kéo theo nhu cầu hiểu rõ quy định giấy phép lao động 2026 trở nên cấp thiết hơn bao giờ hết, nhất là khi các quy định mới về thủ tục cấp work permit đã có nhiều thay đổi quan trọng so với các năm trước.

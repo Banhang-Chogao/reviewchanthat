@@ -29,40 +29,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-14T01:03:36+07:00"
 image_query = "ai model wars july 2026"
 image_alt = "Ảnh minh họa AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins? — nguồn Pexels"
-
-[[internal_links]]
-ref = "posts/trending-topic-20260714.md"
-title = "Gemini 3.5 Pro Launch July 17: 2M Context, Deep Think, Pricing — Everything You Need to Know"
-
-[[internal_links]]
-ref = "posts/co-nen-cho-iphone-18-khong.md"
-title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
-ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
-title = "App Store gatekeeper: Apple sợ mất điều gì?"
-
-[[internal_links]]
-ref = "posts/macos-27-beta-co-nen-cai-khong.md"
-title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
-
-[[internal_links]]
-ref = "posts/danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026.md"
-title = "Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026"
 +++
-
 ## The Week AI Went to War
 
 The second week of July 2026 will be remembered as the week the AI industry stopped pretending everyone was playing nice. Within seventy-two hours, OpenAI ended a government-gated preview and dropped its GPT-5.6 family into the wild, SpaceXAI launched Grok 4.5 with an aggressive price tag and Cursor DNA baked in, Apple sued OpenAI for trade secret theft in federal court, and Elon Musk and Sam Altman turned the whole thing into a public brawl on X. Seven days later, Google is four days out from launching Gemini 3.5 Pro, which leaked into a landscape that has changed completely since the model was first announced at I/O in May.

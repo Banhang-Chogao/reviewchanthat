@@ -28,40 +28,7 @@ image_alt = "Ảnh minh họa Ký Sự Stockholm: Hành Trình Khám Phá Thủ 
 date_display = "11-07-2026 14:44:57 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "ký sự stockholm hành trình"
-
-[[internal_links]]
-ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
-title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
-
-[[internal_links]]
-ref = "posts/ky-su-ha-giang-nhung-khuc-cua-va-ky-uc.md"
-title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
-
-[[internal_links]]
-ref = "posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.md"
-title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
-
-[[internal_links]]
-ref = "posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.md"
-title = "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
 +++
-
 Tôi đứng trên cầu Gamla Stan lúc năm giờ chiều, nhìn xuống mặt nước Riddarfjärden lấp lánh. Một chiếc thuyền kayak lướt ngang, người chèo mỉm cười vẫy tay. Hai bên bờ, những tòa nhà thế kỷ 17 sơn màu đất nung và vàng nhạt soi bóng xuống dòng nước xanh. Tiếng nhạc acoustic từ một quán cà phê ven kênh hòa vào tiếng chuông nhà thờ Tyska Kyrkan. Thành phố này không gào thét. Nó thì thầm.
 
 Stockholm là một trong những thành phố hiếm hoi trên thế giới mà tôi từng đặt chân tới — nơi con người không cố gắng áp đặt lên thiên nhiên, mà học cách sống hòa hợp với nó. Trải dài trên 14 hòn đảo nối với nhau bởi 57 cây cầu, thủ đô của Thụy Điển là một quần thể kiến trúc và cảnh quan độc đáo: một phần ba diện tích là mặt nước, một phần ba là công viên và cây xanh. Không phải ngẫu nhiên mà Stockholm được trao danh hiệu Thủ đô Xanh đầu tiên của châu Âu vào năm 2010.

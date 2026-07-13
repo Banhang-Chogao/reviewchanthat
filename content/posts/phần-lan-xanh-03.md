@@ -32,27 +32,10 @@ image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "phần lan tiên phong bảo"
 image_alt = "Ảnh minh họa Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng — nguồn Pixabay"
 
-[[internal_links]]
-ref = "posts/phần-lan-giáo-dục-02.md"
-title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
-
-[[internal_links]]
-ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
-title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
-
-[[internal_links]]
-ref = "posts/phần-lan-tech-04.md"
-title = "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
-
-[[internal_links]]
-ref = "posts/doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia.md"
-title = "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ"
-
 [[faq]]
 question = "Phần Lan chứng minh rằng tăng trưởng kinh tế và bảo vệ môi trường không phải là hai điều tương phản. Thay vào đó, bảo vệ môi trường có thể là một chính sách kinh tế tuyệt vời."
 answer = "**Tại sao các quốc gia khác không theo Phần Lan?** Vì nó đòi hỏi: - Đầu tư công năng lượng tái tạo (chi phí cao ban đầu) - Điều chỉnh sản xuất (có thể tăng giá sản phẩm) - Cơ cấu lại nền kinh tế (mất việc trong một số ngành) **Phần Lan có thực sự carbon neutral không?** Không hoàn toàn – Phần Lan vẫn phát thải khoảng 37 triệu tấn CO2 mỗi năm, nhưng lâm nghiệp giúp loại bỏ một phần lớn. Họ coi đây là \"gần trung lập\". **Người du lịch có thể làm gì để hỗ trợ?** Chọn các khách sạn có chứng chỉ xanh, sử dụng giao thông công cộng, và mua sản phẩm từ các thương hiệu bền vững Phần Lan."
 +++
-
 **Khi bạn đi bộ qua Helsinki, bạn sẽ nhận thấy không khí sạch, nước trong, và cảnh tượng xanh rì rà. Nhưng Phần Lan không phải là quốc gia nhỏ may mắn – đó là kết quả của những lựa chọn hành động cụ thể.**
 
 ## Phần Lan: 73% Diện Tích Bị Rừng Phủ

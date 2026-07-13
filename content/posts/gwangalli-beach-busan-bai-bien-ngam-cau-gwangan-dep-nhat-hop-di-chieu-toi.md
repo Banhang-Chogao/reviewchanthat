@@ -67,33 +67,6 @@ answer = "Có nhiều khách sạn và capsule hotel view biển dọc bờ Gwan
 [[faq]]
 answer = "Thường 20:00 và 22:00 thứ 7. Cần kiểm tra lịch thực tế trước khi đi vì lịch có thể thay đổi theo mùa."
 
-[[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-
-[[internal_links]]
-ref = "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md"
-
-[[internal_links]]
-ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
-
-[[internal_links]]
-ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
-title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
-
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
-
 [[tom_tat_nhanh]]
 label = "Khu vực"
 value = "Suyeong-gu, Busan"
@@ -114,7 +87,6 @@ value = ""
 label = "Lưu ý mùa hè"
 value = ""
 +++
-
 Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm — khung cảnh bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.
 
 Trong [danh sách 10 điểm tránh nóng mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Gwangalli đứng thứ ba và theo mình là lựa chọn số một nếu bạn muốn kết hợp tắm biển với ngắm thành phố về đêm.

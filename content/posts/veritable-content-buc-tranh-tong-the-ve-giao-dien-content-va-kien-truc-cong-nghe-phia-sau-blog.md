@@ -64,42 +64,9 @@ label = "Hợp với"
 [[tom_tat_nhanh]]
 label = "Điểm chính nặng"
 
-[[internal_links]]
-ref = "posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md"
-title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
-
-[[internal_links]]
-ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
-title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
-
-[[internal_links]]
-ref = "posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md"
-title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
-
-[[internal_links]]
-ref = "posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md"
-title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
-ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
-title = "App Store gatekeeper: Apple sợ mất điều gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-co-gi-moi.md"
-title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
-
-[[internal_links]]
-ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
-title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
-
 [attribution]
 copyright = "© 2026 Veritable Content. Vui lòng ghi nguồn khi trích dẫn lại nội dung. Các ví dụ code mang tính minh họa, cần đối chiếu với cấu trúc repo thực tế trước khi áp dụng."
 +++
-
 Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh, CI/CD tự động, và quan trọng nhất: một triết lý rất rõ về tốc độ.
 
 **Veritable Content** thuộc nhóm thứ hai. Blog này không chỉ là nơi review sản phẩm. Nó là một thử nghiệm nghiêm túc về cách xây blog tĩnh hiện đại: trung thực trong nội dung, gọn trong giao diện, nhanh trong tốc độ tải.

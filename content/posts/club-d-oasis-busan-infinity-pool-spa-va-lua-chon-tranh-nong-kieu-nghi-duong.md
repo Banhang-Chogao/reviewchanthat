@@ -75,22 +75,6 @@ title = "Gwangalli Beach Busan"
 ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
 title = "Cheongsapo Busan làng biển Blue Line Park"
 
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
-
-[[internal_links]]
-ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
-title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
-
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
-
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
-
 [[tom_tat_nhanh]]
 label = "Khu vực"
 value = "Haeundae, Busan"
@@ -111,7 +95,6 @@ value = "Nửa ngày đến 1 ngày"
 label = "Lưu ý mùa hè"
 value = "Đặt trước vì lượng khách có hạn"
 +++
-
 Club D Oasis là điểm đến khác biệt — không phải bãi biển công cộng hay công viên nước, mà là khu phức hợp spa, infinity pool và nghỉ dưỡng cao cấp tại Haeundae. Đây là lựa chọn tránh nóng kiểu "không cần xuống biển nhưng vẫn mát" — lý tưởng nếu bạn muốn thư giãn mà không phải chen chúc.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Club D Oasis đứng thứ 9 và là lựa chọn duy nhất thiên về nghỉ dưỡng và spa.

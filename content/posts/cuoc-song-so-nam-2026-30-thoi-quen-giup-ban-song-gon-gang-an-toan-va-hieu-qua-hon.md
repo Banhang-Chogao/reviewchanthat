@@ -65,38 +65,7 @@ answer = "Duy trì và điều chỉnh theo nhu cầu. Đọc tiếp các bài t
 [[internal_links]]
 ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
 title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại"
-
-[[internal_links]]
-ref = "posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi.md"
-title = "Digital Minimalism: sống tối giản trong thời đại AI"
-
-[[internal_links]]
-ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
-title = "Password Manager là gì? Có nên dùng năm 2026?"
-
-[[internal_links]]
-ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
-title = "Backup ảnh đúng cách"
-image_attribution_checked_at = "2026-07-12T08:48:58+07:00"
-image_query = "mobile banking payment app"
-
-[[internal_links]]
-ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
-title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-
-[[internal_links]]
-ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
-title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
-
-[[internal_links]]
-ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
-title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
-
-[[internal_links]]
-ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
-title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
 +++
-
 Bạn có bao nhiêu tài khoản trực tuyến? **Bao nhiêu mật khẩu bạn dùng lại?** Lần cuối bạn xóa ảnh mờ, ảnh trùng là khi nào? Email cá nhân có bao nhiêu thư chưa đọc — 1.000 hay 10.000?
 
 Năm 2026, một người Việt trung bình dùng 4–6 thiết bị kết nối Internet, 15–20 tài khoản trực tuyến và nhận 50–100 notification mỗi ngày. **Cuộc sống số** (digital life) không còn là khái niệm — nó là thực tế vận hành hằng ngày.

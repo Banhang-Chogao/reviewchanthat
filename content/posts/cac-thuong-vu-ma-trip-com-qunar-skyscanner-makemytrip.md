@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T08:41:32+07:00"
 image_query = "credit card finance desk"
 date_display = "13-07-2026 10:30:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
-title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
-
-[[internal_links]]
-ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
-title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
-
-[[internal_links]]
-ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
-title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
-
-[[internal_links]]
-ref = "posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.md"
-title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu"
-
-[[internal_links]]
-ref = "posts/ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa.md"
-title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
-
-[[internal_links]]
-ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
-title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
-
-[[internal_links]]
-ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
-title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
-
-[[internal_links]]
-ref = "posts/huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026.md"
-title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026"
-
 [[faq]]
 question = "Thương vụ Ctrip và Qunar diễn ra như thế nào?"
 answer = "Tháng 10/2015, Baidu hoán đổi phần lớn cổ phần đang nắm tại Qunar để lấy cổ phiếu mới phát hành của Ctrip, giúp Ctrip nắm khoảng 45% quyền biểu quyết tại Qunar và Baidu trở thành cổ đông lớn của Ctrip."

@@ -56,36 +56,12 @@ answer = "Giá lift: từ 58,000 won (3 giờ) đến 100,000 won (cả ngày) c
 question = "Giá vé trượt tuyết ở High1 thế nào?"
 
 [[internal_links]]
-ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
-title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông"
-
-[[internal_links]]
 ref = "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md"
 title = "Yongpyong Ski Resort"
 
 [[internal_links]]
 ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
 title = "Alpensia Ski Resort"
-
-[[internal_links]]
-ref = "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md"
-title = "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?"
-
-[[internal_links]]
-ref = "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md"
-title = "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju"
-
-[[internal_links]]
-ref = "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
-title = "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
-
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
 
 [[tom_tat_nhanh]]
 label = "Khu vực"
@@ -111,7 +87,6 @@ value = "Mùa đông (tháng 12–2)"
 label = "Có cần đặt trước không"
 value = "Có (resort, vé trượt tuyết)"
 +++
-
 High1 là ski resort mình ấn tượng nhất trong系列 bài này. Không phải vì lớn nhất (Yongpyong mới là số một) hay gần nhất (Elysian giữ kỷ lục đó), mà vì trải nghiệm tổng thể — từ Sky 1340, nhà hàng xoay trên đỉnh núi 1.340 m, đến thiết kế thân thiện môi trường.
 
 Resort nằm ở Jeongseon, xa nhất trong các resort mình viết — cách Seoul tới 220 km, 3,5 giờ di chuyển. Nhưng nếu bạn đã đọc bài [Yongpyong]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}) và [Alpensia]({{< ref "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md" >}}), bạn biết các resort xa thường mang lại trải nghiệm khác hẳn.

@@ -30,38 +30,6 @@ image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-11T17:43:47+07:00"
 image_query = "wellness sauna scandinavia tôi học"
 
-[[internal_links]]
-ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
-title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
-
-[[internal_links]]
-ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
-title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
-
-[[internal_links]]
-ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
-title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
-
-[[internal_links]]
-ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
-title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-
-[[internal_links]]
-ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
-title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
-title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
-
-[[internal_links]]
-ref = "posts/msi-claw-8-ex-ai-plus-review.md"
-title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
-
-[[internal_links]]
-ref = "posts/review-airpods-pro-3-2026.md"
-title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
-
 [[faq]]
 question = "Q: Tôi phải làm gì khi tắm sauna ở Scandinavia?"
 answer = "A: Phần lớn các lò sauna ở Scandinavia là \"sauna khỏa thân\" (naked sauna). Nếu bạn cảm thấy không thoải mái, bạn có thể mặc một chiếc khăn. Luôn luôn tôn trọng các quy tắc của từng lò sauna cụ thể – một số có những nguyên tắc khác biệt."
@@ -70,7 +38,6 @@ answer = "A: Phần lớn các lò sauna ở Scandinavia là \"sauna khỏa thâ
 question = "Q: Tôi có an toàn không khi tắm trong nước lạnh sau sauna không?"
 answer = "A: Tắm nước lạnh sau sauna là an toàn cho hầu hết mọi người khỏe mạnh. Tuy nhiên, nếu bạn có các vấn đề tim hoặc huyết áp, bạn nên tham khảo ý kiến ​​bác sĩ trước. Luôn luôn bắt đầu với nước mát lạnh chứ không phải lạnh quá."
 +++
-
 ## Wellness Ở Scandinavia Không Phải Là Một Lối Sống – Đó Là Một Tôn Giáo
 
 Khi bạn tới Scandinavia, một trong những điều đầu tiên bạn sẽ chú ý là cách mọi người chăm sóc sức khỏe của họ. Nó không phải là một sở thích hoặc một xu hướng thời trang. Nó là một phần cốt lõi của cách sống.

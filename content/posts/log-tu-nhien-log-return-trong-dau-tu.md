@@ -33,40 +33,7 @@ draft = false
 [ai_summary]
 items = ["Log tự nhiên (ln) là hàm ngược của e: nếu e^x = y thì ln(y) = x", "Log-return: R = ln(Pt/Pt-1) — cách tính lợi suất bằng logarit thay vì phần trăm thông thường", "So sánh: simple return (+10%, -5%) ≠ cộng = +4.5% nhưng log-return (+9.53%, -5.13%) ✓ cộng = +4.40%", "Tính chất cộng dồn: Rtotal = R1 + R2 + ... + Rn — đây là lý do giới định lượng dùng log-return", "Ví dụ thực tế: VietcomBank giá 100k → 110k → 104.5k (so sánh 2 cách tính)", "Ứng dụng: quỹ đầu tư tính volatility, machine learning forecast thị trường, quản trị rủi ro dùng log-return", "Vì sao: log-return đối xứng (50% rồi -33% = neutral), phân phối chuẩn, phù hợp time-series analysis"]
 draft = false
-
-[[internal_links]]
-ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
-title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
-
-[[internal_links]]
-ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
-title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
-
-[[internal_links]]
-ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
-title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
-
-[[internal_links]]
-ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-
-[[internal_links]]
-ref = "posts/cfa-dung-toan-hoc-gi.md"
-title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
-
-[[internal_links]]
-ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
-title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
-
-[[internal_links]]
-ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
-title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
-
-[[internal_links]]
-ref = "posts/ham-so-mu-e-trong-tai-chinh-la-gi.md"
-title = "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
 +++
-
 Khi bạn đầu tư vào cổ phiếu VietcomBank với giá 100,000 đồng, giá tăng lên 110,000 (+10%), rồi giảm xuống 104,500 (-5%), lợi suất cuối cùng là bao nhiêu?
 
 Nếu bạn cộng đơn giản: 10% + (-5%) = 5%, nhưng lợi suất thực tế là (104,500 - 100,000) / 100,000 = **4.5%**. Chênh lệch 0.5%—tuy nhỏ nhưng lý thuyết sai.

@@ -30,38 +30,6 @@ image_attribution_source = "pixabay_api"
 image_attribution_checked_at = "2026-07-11T17:43:42+07:00"
 image_query = "hệ thống giáo dục phần"
 
-[[internal_links]]
-ref = "posts/phần-lan-giáo-dục-02.md"
-title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
-
-[[internal_links]]
-ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
-title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-
-[[internal_links]]
-ref = "posts/phần-lan-sauna-05.md"
-title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
-title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
-
-[[internal_links]]
-ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
-title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-
-[[internal_links]]
-ref = "posts/msi-claw-8-ex-ai-plus-review.md"
-title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
-
-[[internal_links]]
-ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
-title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
-
-[[internal_links]]
-ref = "posts/review-airpods-pro-3-2026.md"
-title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
-
 [[faq]]
 question = "Q: Phần Lan có \"Sisu\" – tinh thần bền bỉ Phần Lan – ảnh hưởng tới giáo dục như nào?"
 answer = "A: \"Sisu\" là khái niệm cốt lõi ở Phần Lan, biểu thị sự kiên trì và mạnh mẽ tinh thần khi đối mặt với khó khăn. Trong giáo dục, \"Sisu\" không phải về việc chọc quê nhân học để đạt điểm cao, mà là học được cách vượt qua thử thách một cách bền bỉ và thân thiện. Giáo viên khuyến khích học sinh tiếp tục cố gắng mà không tạo ra áp lực điểm số."
@@ -78,7 +46,6 @@ answer = "A: Kỳ thi Matrikulaatio được coi là thử thách thực sự, n
 question = "Q: Phần Lan có lo về sự hình thành khoảng cách giáo dục giữa các trường giáo dục công cộng không?"
 answer = "A: Có. Phần Lan có khác biệt nhỏ nhưng vẫn tồn tại giữa các trường (khoảng 5-10% khác biệt kết quả PISA). Để giải quyết điều này, họ cách giảm tỷ lệ học sinh trên giáo viên, cung cấp hỗ trợ riêng cho học sinh khó khăn, và cấp kinh phí bằng nhau cho tất cả các trường."
 +++
-
 ## Một Hệ Thống Giáo Dục Không Giống Bất Cứ Cái Gì Ở Đâu Khác
 
 Khi tôi tới Phần Lan, tôi tò mò về hệ thống giáo dục nổi tiếng của đất nước. Tôi đã nghe các câu chuyện: Phần Lan không có những bài kiểm tra chuẩn hóa, không có bài tập về nhà quá nhiều, nhưng học sinh của họ vẫn đạt kết quả xuất sắc.

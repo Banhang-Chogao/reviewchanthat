@@ -33,38 +33,6 @@ enabled = true
 items = ["iOS 26.5.2 được Apple mô tả là bản cập nhật cung cấp các bản vá bảo mật cho iPhone.", "Với bản vá bảo mật thì nên cập nhật sớm: Apple thường chỉ công bố chi tiết lỗ hổng sau khi bản vá đã phát hành rộng.", "Bản cập nhật dành cho iPhone 11 trở lên; đã cài rồi thì iOS không thể hạ cấp về bản cũ.", "Trước khi cài: sao lưu, đủ pin và dung lượng; dung lượng tải khác nhau theo máy."]
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì — nguồn Pexels"
-
-[[internal_links]]
-ref = "posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md"
-title = "WWDC26: phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu"
-
-[[internal_links]]
-ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
-title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
-
-[[internal_links]]
-ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
-title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
-
-[[internal_links]]
-ref = "posts/ios-27-so-voi-ios-26.md"
-title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
-
-[[internal_links]]
-ref = "posts/co-nen-cho-iphone-18-khong.md"
-title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
-ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
-title = "App Store gatekeeper: Apple sợ mất điều gì?"
-
-[[internal_links]]
-ref = "posts/macos-27-beta-co-nen-cai-khong.md"
-title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
 +++
 ## iOS 26.5.2 là bản gì?
 

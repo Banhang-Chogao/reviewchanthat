@@ -26,38 +26,6 @@ image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
 
-[[internal_links]]
-ref = "/posts/iphone-18-co-gi-moi"
-title = "iPhone 18: Everything New in Apple's 2026 Flagship"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
-title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
-
-[[internal_links]]
-ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
-title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-
-[[internal_links]]
-ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
-title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
-
-[[internal_links]]
-ref = "posts/review-airpods-pro-3-2026.md"
-title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
-
-[[internal_links]]
-ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
-title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
-[[internal_links]]
-ref = "posts/review-may-pha-ca-phe-gia-dinh-2026.md"
-title = "Review Máy Pha Cà Phê Gia Đình 2026: Từ Phin Pha Tay Đến Máy Tự Động"
-
-[[internal_links]]
-ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
-title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
-
 [[external_links]]
 url = "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-3.html"
 title = "Intel Arc G3 Extreme Official Specifications"
@@ -82,7 +50,6 @@ answer = "Yes, but it requires opening the device and removing a heatshield. It 
 copyright = "2026 Reviewchanthat. All rights reserved."
 source_note = "This review is based on ten days of hands-on testing with a review unit provided by MSI. MSI had no editorial input or advance access to this article."
 +++
-
 I have been testing handheld gaming PCs since the original Steam Deck landed in 2022. I have owned an Asus ROG Ally, an Ally X, a Legion Go, and I have spent enough hours with the original MSI Claw to know exactly where Intel's first attempt fell short. When MSI announced the Claw 8 EX AI+ with the new Intel Arc G3 Extreme processor—a chip built from the ground up for handhelds—I was skeptical. The original Claw was a disappointment. The Arc G3 Extreme, however, is not a refresh; it is a complete rethinking of what a mobile gaming GPU can do at 30 watts.
 
 I have been using the Claw 8 EX AI+ as my primary gaming device for ten days. I have played through entire sections of Cyberpunk 2077, DOOM: The Dark Ages, Indiana Jones and the Great Circle, and Baldur's Gate 3. I have run it on battery, plugged in, in bed, on a train, and connected to a 4K monitor. This is my honest, unfiltered take.

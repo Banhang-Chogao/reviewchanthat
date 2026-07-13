@@ -32,36 +32,7 @@ image_license_url = ""
 [[internal_links]]
 ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
 title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
-
-[[internal_links]]
-ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
-title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
-
-[[internal_links]]
-ref = "posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.md"
-title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
-
-[[internal_links]]
-ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
-title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
-title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
-
-[[internal_links]]
-ref = "posts/thuy-dien-noi-khai-sinh-spotify-va-bluetooth.md"
-title = "Từ Spotify Đến Bluetooth: Thụy Điển Đã Thống Trị Thế Giới Công Nghệ Ngầm Như Thế Nào?"
-
-[[internal_links]]
-ref = "posts/co-nen-cho-iphone-18-khong.md"
-title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
 +++
-
 ## Những công ty Mà Atomico Đã Giúp Xây Dựng
 
 Nếu muốn hiểu Atomico thực sự là gì, bạn không thể chỉ nhìn vào những con số hoặc những câu chuyện. Bạn phải nhìn vào những công ty mà nó đã đầu tư vào. Những công ty này không phải là những công ty nhỏ bé hoặc những thí nghiệm nho nhỏ. Đây là những công ty đã thay đổi các ngành công nghiệp của chúng, những công ty đã tạo ra hàng triệu hành động của con người hàng ngày.

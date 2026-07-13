@@ -72,10 +72,6 @@ ref = "posts/seoraksan-thang-11-ngam-la-do.md"
 [[internal_links]]
 ref = "posts/chi-phi-di-han-thang-11-tu-tuc.md"
 
-[[internal_links]]
-ref = "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md"
-title = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ"
-
 [[tom_tat_nhanh]]
 label = "Thời gian"
 value = "5 ngày 4 đêm"
@@ -96,7 +92,6 @@ value = ""
 label = "Lưu ý"
 value = ""
 +++
-
 Năm ngày bốn đêm là khung thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để trải nghiệm **peak lá đỏ ở Seoul**, đi một day trip ra ngoại ô và dành thời gian cho cung điện, công viên. Khác với tháng 10, tháng 11 **Seoul thường đẹp hơn về foliage** nhưng **lạnh hơn rõ**; Nami và Seoraksan **đổ màu sớm hơn** nên cần xếp lịch khác.
 
 Lịch trình dưới đây **không bao gồm Busan hay Jeju** vì thêm thành phố khác sẽ làm lịch trình quá gấp trong 5N4Đ. Nếu muốn mở rộng, xem [Busan tháng 11]({{< ref "posts/busan-thang-11-nen-di-dau" >}}) hoặc [Jeju tháng 11]({{< ref "posts/jeju-thang-11-co-dep-khong" >}}) và cân nhắc kéo dài thành 7–8 ngày.

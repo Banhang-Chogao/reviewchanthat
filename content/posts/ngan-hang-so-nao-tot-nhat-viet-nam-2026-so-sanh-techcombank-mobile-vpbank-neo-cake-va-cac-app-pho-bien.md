@@ -50,26 +50,6 @@ title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
 ref = "posts/fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet.md"
 title = "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?"
 
-[[internal_links]]
-ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
-title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
-
-[[internal_links]]
-ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
-title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
-
-[[internal_links]]
-ref = "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md"
-title = "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối"
-
 [[faq]]
 question = "Tôi có thể mở nhiều tài khoản ngân hàng số cùng lúc không?"
 answer = "Có. Bạn hoàn toàn có thể mở tài khoản ở nhiều ngân hàng khác nhau. Điều này còn giúp bạn tận dụng lãi suất cao từ nhiều nơi và [phân tán bảo hiểm tiền gửi]({{< relref \"personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund\" >}}) (DIV tối đa 125 triệu/ngân hàng)."

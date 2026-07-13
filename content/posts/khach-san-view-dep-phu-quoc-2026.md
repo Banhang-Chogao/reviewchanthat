@@ -41,26 +41,6 @@ title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026:
 ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
 title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-da-nang-2026.md"
-title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
-title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-yen-2026.md"
-title = "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
-title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
 [[external_links]]
 url = "https://www.trip.com/trip-best/"
 title = "Trip.Best — bảng xếp hạng khách sạn theo dữ liệu đặt phòng"
@@ -105,7 +85,6 @@ answer = "Không. Bài viết chỉ tham khảo danh sách và dữ liệu công
 copyright = "© 2026 Review Chân Thật."
 source_note = "Danh sách khách sạn tham khảo từ dữ liệu công khai Trip.Best; phần phân tích, đánh giá và kinh nghiệm chọn phòng là quan điểm riêng, không sao chép nội dung Trip.com. Giá và tính năng có thể thay đổi — vui lòng kiểm tra trực tiếp trước khi đặt."
 +++
-
 Có một khoảnh khắc ở Phú Quốc mà gần như ai đến rồi cũng nhớ: cuối chiều, khi mặt trời hạ dần xuống mép biển phía Tây, cả đường chân trời chuyển từ vàng cam sang tím hồng, và mặt nước lặng đến mức phản chiếu trọn vẹn bầu trời. Đó là lý do người ta gọi hòn đảo lớn nhất Việt Nam này là "đảo ngọc", và cũng là lý do Phú Quốc từ lâu đã trở thành thiên đường hoàng hôn của cả miền Nam. Không phải ngẫu nhiên mà mỗi mùa khô, khi các thành phố lớn còn oi bức, người ta lại đổ về đây để tìm một bãi cát trắng, một mặt biển trong veo và một chỗ nghỉ tử tế để thật sự thư giãn.
 
 Điều khiến Phú Quốc khác biệt so với nhiều điểm nghỉ dưỡng khác là sự tiện lợi. Đảo có sân bay quốc tế, chuyến bay thẳng từ Hà Nội, TP.HCM và nhiều thành phố lớn chỉ mất khoảng một đến hai giờ. Bạn không phải trung chuyển phà, không phải đi đường bộ dài. Xuống sân bay là đã ở ngay trên đảo, và chỉ cần thêm mười lăm đến bốn mươi phút xe là tới hầu hết các khu nghỉ dưỡng đẹp nhất. Với người miền Nam, đây gần như là điểm nghỉ dưỡng số một: đủ xa để thấy mình đang đi du lịch, đủ gần để không mệt.

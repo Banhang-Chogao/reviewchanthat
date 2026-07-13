@@ -48,40 +48,6 @@ answer = "Đầm maxi hoặc blouse + chân váy chữ A. Giày thể thao trắ
 [[faq]]
 answer = "Áo chống nắng, mũ, kính râm, kem chống nắng. Tránh vải nilon, bó sát."
 
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
-
-[[internal_links]]
-ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
-
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-
-[[internal_links]]
-ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
-
-[[internal_links]]
-ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
-
-[[internal_links]]
-ref = "posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.md"
-title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
-
 [[tom_tat_nhanh]]
 label = "Chất liệu"
 value = "Cotton, lanh, modal"
@@ -98,7 +64,6 @@ label = "Phụ kiện"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 +++
-
 Hàn Quốc mùa hè nóng ẩm — nhưng không phải vì thế mà phải mặc xấu. Chỉ cần chọn đúng chất liệu và phối đồ thông minh, bạn vẫn có outfit đẹp và mát mẻ.
 
 ## Chất liệu nên chọn

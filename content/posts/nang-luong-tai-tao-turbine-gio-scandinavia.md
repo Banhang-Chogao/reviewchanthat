@@ -30,38 +30,6 @@ image_attribution_source = "pexels_api"
 image_attribution_checked_at = "2026-07-11T17:43:44+07:00"
 image_query = "năng lượng tái tạo scandinavia"
 
-[[internal_links]]
-ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
-title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
-
-[[internal_links]]
-ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
-title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
-
-[[internal_links]]
-ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
-title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
-
-[[internal_links]]
-ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
-title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
-
-[[internal_links]]
-ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
-title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
-
-[[internal_links]]
-ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
-title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
-title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
-
-[[internal_links]]
-ref = "posts/msi-claw-8-ex-ai-plus-review.md"
-title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
-
 [[faq]]
 question = "Q: Tại sao các nước Scandinavia có thể phụ thuộc 100% vào năng lượng tái tạo nhưng các nước khác không?"
 answer = "A: Điều này là do một sự kết hợp của (1) lợi thế địa lý (nhiều thác nước, gió mạnh), (2) dân số nhỏ (dễ cung cấp năng lượng cho 5-10 triệu người hơn 300 triệu), (3) nhật độ công nghiệp thấp so với Mỹ hoặc Trung Quốc (ít sản xuất nặng), và (4) chính sách quốc gia ổn định dài hạn."
@@ -70,7 +38,6 @@ answer = "A: Điều này là do một sự kết hợp của (1) lợi thế đ
 question = "Q: Năng lượng tái tạo có rẻ hơn năng lượng hóa thạch không?"
 answer = "A: Có. Theo các nghiên cứu gần đây (IRENA 2024), năng lượng tái tạo (gió, mặt trời, thủy điện) bây giờ rẻ hơn năng lượng hóa thạch (than, dầu, khí đốt) trong hầu hết các thị trường toàn cầu. Chi phí vốn cho turbine gió và tấm pin mặt trời đã giảm 85% trong thập kỷ qua. Scandinavia đã chứng minh rằng nó có thể cung cấp năng lượng rẻ, sạch, và bền vững cùng một lúc mà không cần tăng giá điện cho người tiêu dùng."
 +++
-
 ## Tại Sao Scandinavia Dẫn Đầu Trong Năng Lượng Tái Tạo?
 
 Khi tôi tới Na Uy, tôi bị sốc bởi một sự thật đơn giản: gần như 98% điện năng của quốc gia này đến từ các nguồn tái tạo. Con số này cao hơn bất kỳ quốc gia nào khác trên thế giới. Để so sánh, Đức – một quốc gia lớn hơn với ngành công nghiệp mạnh – chỉ có khoảng 50% năng lượng từ tái tạo. Mỹ chỉ có khoảng 20%.

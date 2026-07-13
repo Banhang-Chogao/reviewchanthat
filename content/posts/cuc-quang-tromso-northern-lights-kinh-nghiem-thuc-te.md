@@ -29,38 +29,6 @@ image_query = "trải nghiệm cực quang tại"
 image_alt = "Ảnh minh họa Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến — nguồn Pexels"
 date_display = "12-07-2026 07:45:37 GMT +7"
 
-[[internal_links]]
-ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
-title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
-
-[[internal_links]]
-ref = "posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.md"
-title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"
-
-[[internal_links]]
-ref = "posts/ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien.md"
-title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
-
-[[internal_links]]
-ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
-title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
-
-[[internal_links]]
-ref = "posts/quyen-chu-quyen-na-uy-government-pension-fund-global.md"
-title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
-
-[[internal_links]]
-ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
-title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
-
-[[internal_links]]
-ref = "posts/doi-song-phuc-loi-na-uy-work-life-balance.md"
-title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
 [[faq]]
 question = "Q: Cực quang nguy hiểm không?"
 answer = "A: Không. Nó chỉ ánh sáng. Nhưng nhiệt độ -15°C lạnh, vì vậy bạn phải mặc áo ấm."
@@ -77,7 +45,6 @@ answer = "A: 10 tối - 2 sáng thường là tốt nhất. Nhưng cực quang c
 question = "Q: Có các nơi khác ngoài Tromsø để xem cực quang không?"
 answer = "A: Có. Iceland, Greenland, Phần Lan, Thụy Điển, Canada, Alaska đều có cơ hội. Nhưng Tromsø có cơ hội cao nhất (vĩ độ 69°N, nằm sâu trong Vòng Cực Quang)."
 +++
-
 ## Cực quang là gì? Tại sao Tromsø?
 
 Cực quang là hiện tượng vật lý: gió mặt trời (hạt mang điện từ mặt trời) va chạm với từ trường Trái Đất, tạo ra ánh sáng xanh, tím, đỏ trên bầu trời.

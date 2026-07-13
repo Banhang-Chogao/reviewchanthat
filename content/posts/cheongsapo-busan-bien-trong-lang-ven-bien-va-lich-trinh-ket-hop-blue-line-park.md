@@ -79,22 +79,6 @@ title = "Gwangalli Beach Busan"
 ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
 title = "Club D Oasis Busan"
 
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
-
-[[internal_links]]
-ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
-title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
-
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
-
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
-
 [[tom_tat_nhanh]]
 label = "Khu vực"
 value = "Haeundae-gu, Busan (phía đông Haeundae Beach)"
@@ -115,7 +99,6 @@ value = "1–2 giờ"
 label = "Lưu ý mùa hè"
 value = "Nắng gắt trưa, nên đi sáng sớm hoặc chiều muộn"
 +++
-
 Cheongsapo là một làng chài nhỏ nằm phía đông Haeundae, Busan. Trong nhịp sống sôi động của thành phố biển lớn nhất Hàn Quốc, Cheongsapo là một khoảng lặng — nước biển trong vắt, dãy nhà ven biển sơn màu pastel và nhịp sống chậm rãi.
 
 Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Cheongsapo đứng thứ 8. Theo mình đây là điểm đến lý tưởng cho ai muốn tránh đám đông Haeundae chỉ vài phút di chuyển.

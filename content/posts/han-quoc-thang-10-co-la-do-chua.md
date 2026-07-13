@@ -59,30 +59,6 @@ answer = "Nami đẹp từ giữa đến cuối tháng 10. Đầu tháng cây Me
 [[faq]]
 answer = "Seoraksan sớm nhất trong các điểm phổ biến — dự báo 2025 đỉnh khoảng 23/10. Nên đi giữa–cuối tháng 10."
 
-[[internal_links]]
-ref = "posts/di-han-thang-10-co-dep-khong.md"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-10.md"
-
-[[internal_links]]
-ref = "posts/di-han-thang-10-mac-gi.md"
-
-[[internal_links]]
-ref = "posts/seoul-thang-10-nen-di-dau.md"
-
-[[internal_links]]
-ref = "posts/nami-thang-10-co-dang-di-khong.md"
-
-[[internal_links]]
-ref = "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
-
 [[tom_tat_nhanh]]
 label = "Seoraksan (đỉnh 2025)"
 value = "Khoảng 23/10"
@@ -96,7 +72,6 @@ label = "Nami Island"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 +++
-
 “Hàn Quốc tháng 10 có lá đỏ chưa?” là câu hỏi phổ biến nhất khi lên kế hoạch đi Hàn mùa thu. Câu trả lời không phải “có” hay “không” đơn giản — mà phụ thuộc **địa điểm**, **tuần trong tháng** và **điều kiện thời tiết từng năm**.
 
 Bài viết tổng hợp dự báo tham khảo từ [Visit Korea Fall Foliage Forecast 2025](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292) và [KoreaToDo Autumn Foliage Guide](https://www.koreatodo.com/top-autumn-foliage-sites-korea), nằm trong series [Đi Hàn tháng 10]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}).

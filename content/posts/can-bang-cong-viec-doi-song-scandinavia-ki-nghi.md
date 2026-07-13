@@ -30,38 +30,6 @@ image_attribution_source = "pixabay_api"
 image_attribution_checked_at = "2026-07-11T17:43:41+07:00"
 image_query = "cân bằng công việc đời"
 
-[[internal_links]]
-ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
-title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
-
-[[internal_links]]
-ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
-title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
-
-[[internal_links]]
-ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
-title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
-
-[[internal_links]]
-ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
-title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
-[[internal_links]]
-ref = "posts/even-realities-g2-smart-glasses-review.md"
-title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
-
-[[internal_links]]
-ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
-title = "Checklist trước khi mua một sản phẩm online"
-
-[[internal_links]]
-ref = "posts/tin-chi-carbon-va-trao-luu-net-zero.md"
-title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
-
-[[internal_links]]
-ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
-title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-
 [[faq]]
 question = "Q: Các công ty Scandinavia có lợi nhuận kém vì nhân viên làm việc ít hơn không?"
 answer = "A: Không. Trên thực tế, các nước Scandinavia (Thụy Điển, Na Uy, Phần Lan) có GDP bình quân đầu người cao nhất ở Châu Âu. Thụy Điển là nước có giá trị bình quân tính theo GDP bình quân đầu người hơn €60.000, cao hơn trung bình Châu Âu. Năng suất không phải là về số giờ làm việc; nó là về hiệu quả và chất lượng công việc."
@@ -70,7 +38,6 @@ answer = "A: Không. Trên thực tế, các nước Scandinavia (Thụy Điển
 question = "Q: Tôi có thể yêu cầu công việc 6 giờ ở quốc gia không phải Scandinavia không?"
 answer = "A: Có thể, nhưng tùy thuộc vào nhà tuyển dụng và công ty. Các công ty công nghệ toàn cầu đang bắt đầu thử nghiệm các mô hình này. Tuy nhiên, ở hầu hết các quốc gia, đây vẫn là một ý tưởng bất thường. Cách tốt nhất là tìm kiếm các công ty hoặc ngành có nền văn hóa cân bằng công việc-cuộc sống tốt."
 +++
-
 ## Cân Bằng Công Việc-Cuộc Sống – Một giá trị Cơ Bản
 
 Khi tôi bắt đầu làm việc ở Scandinavia, tôi bị sốc bởi cách mọi người coi trọng sự cân bằng giữa công việc và cuộc sống. Nó không phải là một lựa chọn hoặc một sở thích – đó là một điều được mong đợi và được hỗ trợ bởi luật pháp.

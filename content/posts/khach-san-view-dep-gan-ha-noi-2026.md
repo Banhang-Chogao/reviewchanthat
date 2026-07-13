@@ -33,34 +33,6 @@ date_display = "12-07-2026 15:15:00 GMT +7"
 ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
 title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
-
-[[internal_links]]
-ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
-title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
-title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-da-nang-2026.md"
-title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
-title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-nha-trang-2026.md"
-title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
 [[external_links]]
 url = "https://www.trip.com/trip-best/"
 title = "Trip.Best — bảng xếp hạng khách sạn theo dữ liệu đặt phòng"
@@ -105,7 +77,6 @@ answer = "Không. Bài viết chỉ tham khảo danh sách và dữ liệu công
 copyright = "© 2026 Review Chân Thật."
 source_note = "Danh sách khách sạn tham khảo từ dữ liệu công khai Trip.Best; phần phân tích, đánh giá và kinh nghiệm chọn phòng là quan điểm riêng, không sao chép nội dung Trip.com. Giá và tính năng có thể thay đổi — vui lòng kiểm tra trực tiếp trước khi đặt."
 +++
-
 Hà Nội có một thứ mà không thành phố nào khác ở Việt Nam bắt chước được: bốn mùa rõ rệt, và một mùa thu khiến người ta chỉ muốn chậm lại. Nhưng sống giữa phố cổ chật chội, tiếng xe máy từ sáng sớm, những con ngõ nhỏ không có lấy một khoảng xanh, thì cái đẹp của Hà Nội đôi khi trở nên xa xỉ với chính người Hà Nội. Đó là lý do vài năm gần đây, cuối tuần của nhiều gia đình thủ đô không còn là "đi đâu ăn gì" mà là "trốn đi đâu để nghỉ". Người ta gọi nó là staycation — đặt một khách sạn view đẹp, đi trong bán kính một, hai tiếng, và để đầu óc được thở.
 
 Bài viết này không phải một danh sách quảng cáo. Tôi lấy danh sách khách sạn từ dữ liệu công khai của Trip.Best — bảng xếp hạng dựa trên lượng đặt phòng và đánh giá thực tế — rồi tự đọc lại từng cái tên bằng con mắt của người từng đi nghỉ dưỡng quanh Hà Nội: chỗ nào đáng tiền, chỗ nào chỉ đẹp trên ảnh, chỗ nào hợp cặp đôi, chỗ nào hợp cả gia đình. Nếu bạn đang ở phía Nam, blog cũng có một bài cùng cấu trúc cho [khu vực TP.HCM](/posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026/) để đọc chéo và so sánh phong cách nghỉ dưỡng hai miền.

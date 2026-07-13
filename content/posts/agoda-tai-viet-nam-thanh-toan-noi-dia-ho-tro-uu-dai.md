@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T14:34:06+07:00"
 image_query = "credit card finance desk"
 date_display = "13-07-2026 14:06:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
-title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
-
-[[internal_links]]
-ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
-title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
-
-[[internal_links]]
-ref = "posts/lich-su-agoda-tu-startup-den-booking-holdings.md"
-title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
-
-[[internal_links]]
-ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
-title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
-
-[[internal_links]]
-ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
-title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
-
-[[internal_links]]
-ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
-title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
-
-[[internal_links]]
-ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
-title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
-
-[[internal_links]]
-ref = "posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.md"
-title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
-
 [[faq]]
 question = "Agoda thanh toán bằng gì ở Việt Nam?"
 answer = "Agoda chấp nhận thẻ quốc tế Visa/Mastercard/JCB, thẻ ATM nội địa qua cổng thanh toán trung gian, ví điện tử MoMo và ZaloPay, cùng tùy chọn trả tại khách sạn với nhiều cơ sở lưu trú nhỏ. Không phải mọi phòng đều có đủ các lựa chọn này, nên kiểm tra mục thanh toán của từng phòng trước khi đặt."

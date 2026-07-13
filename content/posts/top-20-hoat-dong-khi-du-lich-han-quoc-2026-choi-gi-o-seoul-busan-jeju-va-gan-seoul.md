@@ -36,27 +36,8 @@ items = ["20 hoạt động du lịch Hàn Quốc 2026 theo Trip.Best Trip.com, 
 title = "Tóm tắt bài viết"
 
 [[internal_links]]
-ref = "posts/am-thuc-cho-truyen-thong-han-quoc.md"
-title = "Ẩm thực chợ truyền thống Hàn Quốc: bản đồ các khu chợ và món nhất định phải thử 2026"
-
-[[internal_links]]
-ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
-
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-
-[[internal_links]]
 ref = "posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md"
 title = "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
-
-[[internal_links]]
-ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
 
 [[internal_links]]
 ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
@@ -73,9 +54,6 @@ title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village
 [[internal_links]]
 ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
 title = "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?"
-
-[[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
@@ -147,7 +125,6 @@ label = "Hợp với"
 [[tom_tat_nhanh]]
 label = "Thời gian đọc"
 +++
-
 Hàn Quốc 2026 không chỉ có K-pop và ẩm thực đường phố. Nếu bạn lần đầu đi tự túc, câu hỏi lớn nhất là: chơi gì, bắt đầu từ đâu, cái nào thực sự đáng tiền?
 
 Bài này dựa trên danh sách Trip.Best của Trip.com, kết hợp thông tin từ Visit Korea, Visit Seoul, Visit Busan và Visit Jeju. Nhưng mình viết lại dưới góc nhìn thực tế — không phải brochure bán tour.

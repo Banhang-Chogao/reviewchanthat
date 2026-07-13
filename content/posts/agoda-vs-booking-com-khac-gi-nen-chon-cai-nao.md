@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T14:33:59+07:00"
 image_query = "seoul korea cityscape"
 date_display = "13-07-2026 14:09:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.md"
-title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
-
-[[internal_links]]
-ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
-title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
-
-[[internal_links]]
-ref = "posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.md"
-title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi"
-
-[[internal_links]]
-ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
-title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
-
-[[internal_links]]
-ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
-title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
-
-[[internal_links]]
-ref = "posts/lich-su-agoda-tu-startup-den-booking-holdings.md"
-title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
-
-[[internal_links]]
-ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
-title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
-
-[[internal_links]]
-ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
-title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
-
 [[faq]]
 question = "Agoda và Booking.com có phải cùng một công ty không?"
 answer = "Có. Cả hai đều thuộc Booking Holdings — tập đoàn cũng sở hữu Priceline, KAYAK và OpenTable — nhưng vận hành như hai đội ngũ độc lập với kho phòng, giá cả và chương trình thành viên riêng."

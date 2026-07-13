@@ -25,40 +25,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-
-[[internal_links]]
-ref = "posts/even-realities-g2-smart-glasses-review.md"
-title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
-
-[[internal_links]]
-ref = "posts/iphone-18-co-gi-moi.md"
-title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
-title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
-
-[[internal_links]]
-ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
-title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
-
-[[internal_links]]
-ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
-title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
-[[internal_links]]
-ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
-title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
-
-[[internal_links]]
-ref = "posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.md"
-title = "Review công nghệ: nên tin benchmark hay trải nghiệm thật?"
 +++
-
 ## Mở đầu
 
 Tôi đã dùng AirPods Pro 2 từ ngày đầu ra mắt và nghĩ rằng Apple sẽ không thể cải thiện thêm được gì nhiều ở thế hệ thứ ba. Nhưng sau 2 tháng gắn bó với AirPods Pro 3, tôi nhận ra mình đã sai.

@@ -63,34 +63,9 @@ ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnab
 title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
 
 [[internal_links]]
-ref = "posts/bangkok-3-ngay-3-dem-mua-mua.md"
-title = "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu"
-
-[[internal_links]]
-ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
-title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
-
-[[internal_links]]
-ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
-title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
-
-[[internal_links]]
-ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
-title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
-[[internal_links]]
-ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
-title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
-
-[[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
 title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-thai-mua-mua.md"
-title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
 +++
-
 ## Ở khu nào tại Bangkok mùa mưa?
 
 Chọn khu vực ở khi đi Bangkok không chỉ là chuyện giá cả hay sở thích. Khi đi vào **mùa mưa (tháng 7–10)**, vị trí khách sạn quyết định trải nghiệm cả chuyến đi: bạn có phải lội mưa mỗi khi ra ngoài không, có thể đi bộ đến BTS trong vòng 5 phút không, có mall indoor để tránh mưa gần đó không.

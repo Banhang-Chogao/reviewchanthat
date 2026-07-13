@@ -49,33 +49,6 @@ answer = "Caribbean Bay 40 phút, Ocean World 60 phút."
 [[faq]]
 answer = "Caribbean Bay (50.000–60.000 KRW). Ocean World (40.000–50.000 KRW)."
 
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
-
-[[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-
-[[internal_links]]
-ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
-
 [[tom_tat_nhanh]]
 label = "Caribbean Bay"
 value = "Lớn, nhiều trò, đông"
@@ -89,7 +62,6 @@ label = "Khoảng cách"
 [[tom_tat_nhanh]]
 label = "Giá vé"
 +++
-
 Cả Caribbean Bay và Ocean World đều là công viên nước hàng đầu gần Seoul. Bài viết so sánh giúp bạn chọn đúng.
 
 ## So sánh chi tiết

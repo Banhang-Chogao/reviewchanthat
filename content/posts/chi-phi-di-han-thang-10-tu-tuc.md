@@ -56,10 +56,6 @@ ref = "posts/di-han-thang-10-co-dep-khong.md"
 title = "Đi Hàn tháng 10 có đẹp không?"
 
 [[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-10.md"
-title = "Thời tiết và mùa lá đỏ tháng 10"
-
-[[internal_links]]
 ref = "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md"
 title = "Lịch trình 5 ngày 4 đêm tháng 10"
 
@@ -74,14 +70,6 @@ title = "Nami Island tháng 10"
 [[internal_links]]
 ref = "posts/seoraksan-thang-10-ngam-la-do.md"
 title = "Seoraksan tháng 10"
-
-[[internal_links]]
-ref = "posts/busan-thang-10-nen-di-dau.md"
-title = "Busan tháng 10"
-
-[[internal_links]]
-ref = "posts/jeju-thang-10-co-dep-khong.md"
-title = "Jeju tháng 10"
 
 [[tom_tat_nhanh]]
 label = "Ngân sách 5N4Đ"
@@ -103,7 +91,6 @@ value = "100.000–180.000 VND/ngày"
 label = "Lưu ý"
 value = "Giá có thể thay đổi"
 +++
-
 Lên ngân sách trước khi đặt vé giúp bạn tránh chi tiêu vượt kế hoạch — đặc biệt khi đi Hàn tháng 10, mùa lá đỏ thu hút nhiều khách và có thể đẩy giá khách sạn cuối tuần. Bài viết liệt kê **mức giá tham khảo** cho chuyến 5 ngày 4 đêm tự túc, dựa trên thông tin công khai từ các nguồn du lịch; mọi con số **có thể thay đổi** theo hãng bay, tỷ giá và thời điểm đặt.
 
 Tổng quan chuyến đi xem [Đi Hàn tháng 10 có đẹp không?]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}). Lịch trình mẫu tại [Lịch trình 5 ngày 4 đêm]({{< ref "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem" >}}).

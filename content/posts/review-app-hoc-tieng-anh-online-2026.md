@@ -25,40 +25,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
-title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
-
-[[internal_links]]
-ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
-title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-
-[[internal_links]]
-ref = "posts/msi-claw-8-ex-ai-plus-review.md"
-title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
-
-[[internal_links]]
-ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
-title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
-
-[[internal_links]]
-ref = "posts/review-airpods-pro-3-2026.md"
-title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
-
-[[internal_links]]
-ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
-title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
-[[internal_links]]
-ref = "posts/review-may-pha-ca-phe-gia-dinh-2026.md"
-title = "Review Máy Pha Cà Phê Gia Đình 2026: Từ Phin Pha Tay Đến Máy Tự Động"
-
-[[internal_links]]
-ref = "posts/song-ben-vung-scandinavia-moi-truong-tai-che.md"
-title = "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ"
 +++
-
 ## Mở đầu: Tôi đã thử 5 app học tiếng Anh trong 1 năm
 
 Năm ngoái, tôi quyết định dành một năm để cải thiện tiếng Anh — không phải vì công việc yêu cầu, mà vì một lý do rất thực tế: tôi lỡ mua vé đi Thái Lan tự túc và phải tự gọi đồ ăn, hỏi đường, check-in khách sạn bằng tiếng Anh. Chuyến đi 5 ngày biến thành một buổi "thực chiến" tiếng Anh đầy khổ sở vì vốn từ của tôi chỉ dừng lại ở mức "hello", "thank you" và "how much".

@@ -29,38 +29,6 @@ date_display = "11-07-2026 06:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:49+07:00"
 image_query = "credit card finance desk"
 
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
-title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
-
-[[internal_links]]
-ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
-title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
-
-[[internal_links]]
-ref = "posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.md"
-title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
-
-[[internal_links]]
-ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
-title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
-
-[[internal_links]]
-ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
-title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
-title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
 [[faq]]
 question = "Câu Hỏi 1: Doanh Nghiệp Có Thể Tiếp Tục Khai Báo Hải Quan Giấy Sau Năm 2026 Không?"
 answer = "Theo quy định mới, kể từ ngày 1/1/2026, tất cả tờ khai hải quan xuất nhập khẩu đều phải được thực hiện bằng phương thức điện tử. Hình thức khai báo giấy chỉ được áp dụng trong một số trường hợp đặc biệt như: hệ thống điện tử gặp sự cố kỹ thuật kéo dài, hàng hóa viện trợ nhân đạo khẩn cấp, hoặc doanh nghiệp thuộc vùng sâu, vùng xa không có hạ tầng internet. Doanh nghiệp cần nhanh chóng hoàn thiện hạ tầng công nghệ thông tin để thích ứng với yêu cầu này."
@@ -81,7 +49,6 @@ answer = "Doanh nghiệp có thể sử dụng các công cụ tra cứu mã HS 
 question = "Câu Hỏi 5: Nếu Phát Hiện Sai Sót Trong Tờ Khai Đã Nộp Thì Phải Làm Gì?"
 answer = "Doanh nghiệp có thể thực hiện khai báo bổ sung trong thời hạn 60 ngày kể từ ngày đăng ký tờ khai mà không bị xử phạt nếu tự giác khai bổ sung và nộp đủ số thuế còn thiếu (nếu có). Sau 60 ngày, việc khai bổ sung vẫn được chấp nhận nhưng doanh nghiệp sẽ bị xử phạt vi phạm hành chính theo quy định."
 +++
-
 ## Tổng Quan Về Thủ Tục Hải Quan Số 2026
 
 Hệ thống thủ tục hải quan số 2026 đánh dấu bước chuyển đổi toàn diện của ngành Hải quan Việt Nam từ mô hình truyền thống sang nền tảng số hóa hoàn toàn, vận hành trên Cơ chế một cửa quốc gia (National Single Window - NSW). Đây là một trong những cải cách quan trọng nhất trong lĩnh vực pháp luật xuất nhập khẩu, tác động trực tiếp đến hoạt động của hơn 100.000 doanh nghiệp xuất nhập khẩu và Logistics trên cả nước.

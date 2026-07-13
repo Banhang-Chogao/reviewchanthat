@@ -66,40 +66,7 @@ value = "Airport Rail Link + BTS Skytrain"
 [[tom_tat_nhanh]]
 label = "Có cần visa không"
 value = "Không (miễn visa Thái Lan cho Việt Nam)"
-
-[[internal_links]]
-ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
-title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
-
-[[internal_links]]
-ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
-title = "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển"
-
-[[internal_links]]
-ref = "posts/o-khu-nao-bangkok-mua-mua.md"
-title = "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom"
-
-[[internal_links]]
-ref = "posts/doi-baht-o-viet-nam-hay-thai-lan.md"
-title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
-
-[[internal_links]]
-ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
-title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
-
-[[internal_links]]
-ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
-title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
-
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
 +++
-
 ## Đi Thái Lan tự túc 3 ngày 3 đêm: 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?
 
 Có một kiểu câu hỏi rất quen trong các group du lịch Thái Lan: "Mình đi một mình, tự túc 3 ngày 3 đêm, vé máy bay + khách sạn hơn 4 triệu có ổn chưa hay nên đợi tiếp?" Đằng sau câu hỏi này không chỉ là chuyện giá. Nó là nỗi lo rất thật của người lần đầu đi Bangkok: sợ đặt hớ, sợ đổi tiền sai chỗ, sợ xuống sân bay bị Grab/Bolt đắt, sợ hostel không sạch, và sợ tự đi một mình bị rối.

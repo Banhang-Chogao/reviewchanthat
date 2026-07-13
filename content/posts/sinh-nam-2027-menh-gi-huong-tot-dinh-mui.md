@@ -56,38 +56,6 @@ answer = "Tuổi Đinh Mùi kết hợp tốt nhất với tam hợp Dần — N
 question = "Người già sinh năm 1927 (Đinh Mùi) có nên xây nhà hoặc mua xe năm 2027 không?"
 answer = "Người cao tuổi sinh năm Đinh Mùi 1927 (năm nay tròn 100 tuổi) vào năm 2027 cần hết sức thận trọng với tuổi Kim Lâu. Cụ thể: người 100 tuổi thuộc tuổi Kim Lâu Thân nếu phạm — rất kỵ làm việc lớn. Năm 2027 cũng là năm Thái Tuế của tuổi Mùi, nên người già tuổi Đinh Mùi nên chọn người đại diện hợp tuổi để đứng tên thủ tục, hoặc dùng phương pháp mượn tuổi. Mua xe thì nên xem ngày giờ hoàng đạo và chọn màu xe hợp mệnh (trắng, xanh dương, đen), tránh màu vàng và nâu."
 
-[[internal_links]]
-ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
-title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
-
-[[internal_links]]
-ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
-title = "Xu hướng quà Tết Đinh Mùi 2027: Quà tặng xanh, sức khỏe, thực hành có trách nhiệm"
-
-[[internal_links]]
-ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
-title = "Lịch nghỉ Tết Nguyên Đán 2027 dự kiến — Lộ trình tối ưu ngày nghỉ"
-
-[[internal_links]]
-ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
-title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
-
-[[internal_links]]
-ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
-title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
-
-[[internal_links]]
-ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
-title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
-
-[[internal_links]]
-ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
-title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
-
-[[internal_links]]
-ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
-title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
-
 [[external_links]]
 title = "Bát Trạch Minh Kính — Thư viện phong thủy"
 url = "https://vi.wikipedia.org/wiki/B%C3%A1t_Tr%E1%BA%A1ch_Minh_K%C3%ADnh"
@@ -98,7 +66,6 @@ url = "https://vi.wikipedia.org/wiki/Can_Chi"
 image_attribution_checked_at = "2026-07-12T08:49:14+07:00"
 image_query = "sinh năm 2027 mệnh gì"
 +++
-
 Tết Nguyên Đán Đinh Mùi 2027 đang đến gần, và cùng với đó là cơn sốt tìm hiểu về phong thủy, mệnh số cho những em bé sẽ chào đời trong năm con Dê này. Nếu bạn đang có kế hoạch sinh con năm 2027, hoặc đơn giản là muốn hiểu rõ hơn về tuổi Đinh Mùi — người sinh năm 2027 mệnh gì, hướng nào tốt, màu nào hợp, và cần tránh điều gì — thì bài viết này dành cho bạn.
 
 Tôi đã mất kha khá thời gian để đào sâu từ Bát Trạch Minh Kính, tham chiếu Chu Dịch, đối chiếu với các nguồn phong thủy cổ điển và hiện đại, để cho ra một bài tổng quan có chiều sâu. Không phải mấy bài "sao chép qua loa" trên mạng — tôi thực sự đi vào từng con chữ trong hệ thống can chi, bát quái và ngũ hành để giải mã.

@@ -59,30 +59,6 @@ answer = "ITX từ Cheongnyangni hoặc Yongsan đến Gapyeong (~1 giờ), sau 
 [[faq]]
 answer = "Nửa ngày đến một ngày. Nếu kết hợp Garden of Morning Calm, nên dành cả ngày."
 
-[[internal_links]]
-ref = "posts/di-han-thang-10-co-dep-khong.md"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-10.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
-
-[[internal_links]]
-ref = "posts/di-han-thang-10-mac-gi.md"
-
-[[internal_links]]
-ref = "posts/seoul-thang-10-nen-di-dau.md"
-
-[[internal_links]]
-ref = "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
-
 [[tom_tat_nhanh]]
 label = "Thời gian từ Seoul"
 value = "~1–1,5 giờ (ITX)"
@@ -96,7 +72,6 @@ label = "Thời gian trên đảo"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 +++
-
 Nami Island (đảo Nami) quanh năm là day trip phổ biến từ Seoul, nhưng **tháng 10** là một trong những thời điểm được nhắc nhiều nhờ hàng Metasequoia chuyển vàng. Visit Korea liệt kê Nami trong nhóm [điểm ngắm lá đỏ nổi tiếng ngoài Seoul](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), cùng Hwadam Botanic Garden và Garden of Morning Calm.
 
 Bài viết phân tích Nami tháng 10 có phù hợp không, nên đi tuần nào, cách di chuyển và lịch trình gợi ý — nằm trong series [Đi Hàn tháng 10]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}). Ngày lá đổi màu thay đổi theo năm; xem thêm [Hàn Quốc tháng 10 có lá đỏ chưa?]({{< ref "posts/han-quoc-thang-10-co-la-do-chua" >}}).

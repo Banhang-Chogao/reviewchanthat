@@ -29,38 +29,6 @@ image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai? — nguồn Pixabay"
 date_display = "12-07-2026 07:42:37 GMT +7"
 
-[[internal_links]]
-ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
-title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
-
-[[internal_links]]
-ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
-title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
-
-[[internal_links]]
-ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
-title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
-
-[[internal_links]]
-ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
-title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
-
-[[internal_links]]
-ref = "posts/di-han-thang-10-mac-gi.md"
-title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
-
-[[internal_links]]
-ref = "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md"
-title = "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối"
-
 [[faq]]
 question = "Q: Na Uy còn khai thác dầu mỏ không?"
 answer = "A: Có, nhưng giảm dần. Năm 2023, Na Uy sản xuất khoảng 1.7 triệu thùng/ngày (giảm so với 2.5 triệu vào thập niên 2010). Dự kiến dừng hoàn toàn vào 2050."
@@ -77,7 +45,6 @@ answer = "A: Có. Singapore tạo thành lập Temasek (mô phỏng theo Na Uy),
 question = "Q: Tiền quỹ có đủ cho Na Uy đến khi dầu mỏ cạn?"
 answer = "A: Dựa trên các tính toán, có. Nếu Na Uy tiếp tục kỷ luật và quỹ tiếp tục tăng trưởng 4-5% hàng năm, quỹ sẽ cung cấp đủ lợi tức cho ngân sách Chính phủ cả khi dầu mỏ cạn."
 +++
-
 ## Quỹ Chủ Quyền Na Uy là gì?
 
 Government Pension Fund Global (GPF Global) - thường gọi là "Oil Fund" - là một trong những quỹ đầu tư lớn nhất thế giới. Tính đến năm 2024, quỹ này quản lý khoảng **1.3 nghìn tỷ USD** (gần 33 triệu tỷ VND). 

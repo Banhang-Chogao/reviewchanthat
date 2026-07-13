@@ -33,40 +33,7 @@ draft = false
 [ai_summary]
 items = ["Quỹ đầu tư đo lợi suất bằng expected return E[R] và rủi ro bằng volatility (σ)", "Correlation và covariance giữa cổ phiếu: khi một tăng có nhất thiết cái khác phải tăng không?", "Efficient frontier: tập hợp danh mục có lợi suất cao nhất với rủi ro nhỏ nhất", "Sharpe ratio = (Expected Return - Risk-Free Rate) / Volatility — cách so sánh danh mục công bằng", "CAPM (Capital Asset Pricing Model): E[R] = Rf + β(Rm - Rf) — liên hệ giữa rủi ro và lợi suất kỳ vọng", "Beta (β): rủi ro hệ thống của tài sản, đo độ nhạy với thị trường chung", "Ví dụ: danh mục cổ phiếu-trái phiếu-vàng, cách tính expected return, volatility, Sharpe ratio"]
 draft = false
-
-[[internal_links]]
-ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
-title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
-
-[[internal_links]]
-ref = "posts/cfa-dung-toan-hoc-gi.md"
-title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
-
-[[internal_links]]
-ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-
-[[internal_links]]
-ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
-title = "Risk Management trong tài chính: Từ VaR đến stress testing"
-
-[[internal_links]]
-ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
-title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
-
-[[internal_links]]
-ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
-title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
-
-[[internal_links]]
-ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
-title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
-
-[[internal_links]]
-ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
-title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
 +++
-
 Khi bạn cho 10 triệu vào một quỹ đầu tư, quỹ sẽ dùng **toán học gì** để quyết định mua cổ phiếu, trái phiếu, vàng hay gì?
 
 Giới quản lý quỹ không chỉ dựa vào "cảm giác thị trường". Họ dùng:

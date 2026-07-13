@@ -59,30 +59,6 @@ answer = "Nami peak thường trước Seoul. Đầu tháng 11 vẫn có vàng-c
 [[faq]]
 answer = "Đầu tháng 11 vẫn đẹp. Cuối tháng 11 có thể qua peak hoặc gặp tuyết nhẹ — không còn foliage đỏ rực."
 
-[[internal_links]]
-ref = "posts/di-han-thang-11-co-dep-khong.md"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-
-[[internal_links]]
-ref = "posts/di-han-thang-11-mac-gi.md"
-
-[[internal_links]]
-ref = "posts/seoul-thang-11-nen-di-dau.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
-
-[[internal_links]]
-ref = "posts/nami-thang-10-co-dang-di-khong.md"
-
-[[internal_links]]
-ref = "posts/seoraksan-thang-10-ngam-la-do.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
 [[tom_tat_nhanh]]
 label = "Seoul/Bukhansan (peak 2025)"
 value = "Khoảng 4/11"
@@ -96,7 +72,6 @@ label = "Seoraksan (peak 2025)"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 +++
-
 "Hàn Quốc tháng 11 còn lá đỏ không?" là câu hỏi quan trọng khi lên kế hoạch đi Hàn cuối mùa thu. Khác với tháng 10 — khi lá mới bắt đầu đổi màu — tháng 11 thường là **tháng peak** ở Seoul và nhiều khu vực đô thị. Nhưng câu trả lời vẫn phụ thuộc **địa điểm**, **tuần trong tháng** và **điều kiện thời tiết từng năm**.
 
 Bài viết tổng hợp dự báo tham khảo từ [Visit Korea Fall Foliage Forecast 2025](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292) và [KoreaToDo Autumn Foliage Guide](https://www.koreatodo.com/top-autumn-foliage-sites-korea), nằm trong series [Đi Hàn tháng 11]({{< ref "posts/di-han-thang-11-co-dep-khong" >}}).

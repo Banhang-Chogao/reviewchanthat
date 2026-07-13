@@ -57,38 +57,7 @@ answer = "Không cam kết thu nhập hay điểm thi. Chỉ chia sẻ cách là
 [[internal_links]]
 ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
 title = "Pillar: Sống thông minh trong thời đại AI"
-
-[[internal_links]]
-ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
-title = "20 công cụ AI tiết kiệm thời gian"
-image_attribution_checked_at = "2026-07-12T08:49:08+07:00"
-image_query = "credit card finance desk"
-
-[[internal_links]]
-ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
-title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
-
-[[internal_links]]
-ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
-title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio.md"
-title = "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ"
-
-[[internal_links]]
-ref = "posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md"
-title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
-
-[[internal_links]]
-ref = "posts/ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu.md"
-title = "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư"
 +++
-
 Bài 5/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).
 
 Mục tiêu bài này không phải “bán tool”, mà giúp bạn **thiết kế lại một mảng đời sống** với AI có kiểm soát: rõ việc, rõ ranh giới, rõ cách đo.

@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T08:41:32+07:00"
 image_query = "credit card finance desk"
 date_display = "13-07-2026 10:35:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.md"
-title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
-
-[[internal_links]]
-ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
-title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
-
-[[internal_links]]
-ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
-title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
-
-[[internal_links]]
-ref = "posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.md"
-title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu"
-
-[[internal_links]]
-ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
-title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
-
-[[internal_links]]
-ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
-title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
-
-[[internal_links]]
-ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
-title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
-
-[[internal_links]]
-ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
-title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
-
 [[faq]]
 question = "Ctrip đổi tên thành Trip.com Group vào năm nào?"
 answer = "công ty thông qua việc đổi tên tại đại hội cổ đông ngày 25/10/2019 và chính thức giao dịch dưới tên mới, mã cổ phiếu TCOM, từ ngày 5/11/2019."

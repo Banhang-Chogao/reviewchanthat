@@ -30,43 +30,10 @@ image_creator_url = "https://pixabay.com/photos/river-flowing-waterfall-nature-8
 image_attribution_checked_at = "2026-07-11T17:43:45+07:00"
 image_query = "sống bền vững scandinavia cách"
 
-[[internal_links]]
-ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
-title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-
-[[internal_links]]
-ref = "posts/loi-song-xanh-bac-au-thien-nhien-estonia.md"
-title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
-
-[[internal_links]]
-ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
-title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
-
-[[internal_links]]
-ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
-title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
-
-[[internal_links]]
-ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
-title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
-
-[[internal_links]]
-ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
-title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
-title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
-
-[[internal_links]]
-ref = "posts/msi-claw-8-ex-ai-plus-review.md"
-title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
-
 [[faq]]
 question = "Q: Tôi có thể sống bền vững nếu tôi ở một quốc gia không phải Scandinavia không?"
 answer = "A: Hoàn toàn có thể. Nguyên tắc là giống nhau: bắt đầu từ những quyết định nhỏ hằng ngày (tái chế, tiêu thụ ít hơn, sử dụng phương tiện giao thông công cộng). Scandinavia có lợi thế về cơ sở hạ tầng, nhưng lối sống bền vững bắt đầu từ trong tư duy của bạn, không phải từ môi trường bạn sống."
 +++
-
 ## Tại Sao Scandinavia Lại Là Tiêu Chuẩn Vàng Của Phong Trào Bền Vững?
 
 Khi nhắc đến bền vững, phần lớn mọi người tưởng ngay đến các cuộc vận động lớn lao, những kế hoạch toàn cầu thay đổi khí hậu, hoặc những dự án cơ sở hạ tầng xanh lớn. Nhưng ở Scandinavia, bền vững không phải là một khái niệm trừu tượng hay một mục tiêu quá xa vời. Đó là cách mọi người sống, hàng ngày, từ lựa chọn đi làm cho đến cách họ quản lý rác thải ở nhà.

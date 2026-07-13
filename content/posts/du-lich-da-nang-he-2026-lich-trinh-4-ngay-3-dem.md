@@ -33,38 +33,6 @@ enabled = true
 items = ["Đà Nẵng là điểm đến nội địa được người Việt tìm kiếm mạnh nhất cho mùa hè 2026.", "Lịch trình 4 ngày 3 đêm: biển Mỹ Khê, Sơn Trà/Ngũ Hành Sơn, Hội An/Bà Nà, nghỉ tránh nóng.", "Chọn khu ở theo nhu cầu: gần biển cho nghỉ, sông Hàn cho ăn uống.", "Đặt phòng sớm, tránh outdoor giữa trưa, có phương án khi mưa/nắng gắt."]
 image_query = "du lịch đà nẵng hè"
 image_alt = "Ảnh minh họa Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels"
-
-[[internal_links]]
-ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
-title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-
-[[internal_links]]
-ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
-title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
-
-[[internal_links]]
-ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
-title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
-
-[[internal_links]]
-ref = "posts/di-han-thang-10-mac-gi.md"
-title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
-
-[[internal_links]]
-ref = "posts/di-han-thang-11-mac-gi.md"
-title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-thai-mua-mua.md"
-title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
 +++
 ## Vì sao Đà Nẵng hè 2026?
 

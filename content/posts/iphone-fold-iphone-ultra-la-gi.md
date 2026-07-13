@@ -75,18 +75,6 @@ ref = "posts/iphone-18-gia-bao-nhieu.md"
 title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
 
 [[internal_links]]
-ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
-title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-vs-iphone-17.md"
-title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
-
-[[internal_links]]
-ref = "posts/iphone-18-mau-gi-dark-cherry.md"
-title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
-
-[[internal_links]]
 ref = "posts/iphone-18-pro-max-co-gi-moi.md"
 title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
 
@@ -94,7 +82,6 @@ title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhấ
 ref = "posts/iphone-18-chip-a20-2nm.md"
 title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
 +++
-
 Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung Quốc cũng có dòng fold riêng. Apple **chưa từng công bố** iPhone gập — nhưng từ 2024–2026, **MacRumors**, **AppleInsider** và nhiều analyst liên tục nhắc tới **iPhone Fold** (đôi khi gọi tạm **iPhone Ultra**). Đây là gì, khác iPhone 18 Pro Max thế nào, và **có nên chờ** không? Bài viết phân loại tin đồn có nguồn — không khẳng định sản phẩm Apple sẽ ra đúng như leak.
 
 > **Lưu ý biên tập (tháng 7/2026):** Apple **chưa công bố** iPhone Fold hay iPhone Ultra. Mọi thông tin từ [MacRumors iPhone Fold](https://www.macrumors.com/roundup/iphone-fold/) và [MacRumors iPhone 18](https://www.macrumors.com/roundup/iphone-18/) — chưa được Apple xác nhận được gắn nhãn **[Tin đồn / chưa xác nhận]**.

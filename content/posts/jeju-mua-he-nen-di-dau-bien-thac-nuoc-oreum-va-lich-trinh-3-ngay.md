@@ -49,36 +49,6 @@ answer = "25–31°C, có gió biển nên dễ chịu hơn Seoul. Tháng 8 nón
 [[faq]]
 answer = "Thuê xe tự lái (khoảng 50.000–80.000 KRW/ngày) là tiện nhất. Taxi và tour cũng là lựa chọn."
 
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
-
-[[internal_links]]
-ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
-
-[[internal_links]]
-ref = "posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md"
-
-[[internal_links]]
-ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-
-[[internal_links]]
-ref = "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-
-[[internal_links]]
-ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
-
 [[tom_tat_nhanh]]
 label = "Thời gian"
 value = "3 ngày"
@@ -92,7 +62,6 @@ label = "Chi phí"
 [[tom_tat_nhanh]]
 label = "Phù hợp"
 +++
-
 Jeju là điểm đến lý tưởng cho mùa hè — nhiệt độ mát hơn Seoul nhờ gió biển, cảnh đẹp và nhiều hoạt động. Biển xanh, thác nước mát lạnh, oreum (núi nhỏ) thoáng gió — Jeju mùa hè có tất cả.
 
 ## Biển Jeju

@@ -75,28 +75,7 @@ ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-h
 title = "Sống thông minh trong thời đại AI"
 image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
 image_query = "mobile banking payment app"
-
-[[internal_links]]
-ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
-title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-
-[[internal_links]]
-ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
-title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
-
-[[internal_links]]
-ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
-title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
-
-[[internal_links]]
-ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
-title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
-
-[[internal_links]]
-ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
-title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
 +++
-
 Bạn có nhớ lần cuối cùng bạn ngồi ăn cơm với gia đình mà không để điện thoại trên bàn không? Lần cuối bạn đi vệ sinh mà không mang theo điện thoại? Lần cuối bạn thức dậy và không với tay lấy điện thoại trước khi đánh răng?
 
 **Digital detox** — hay "cai nghiện số" — đang là một trong những chủ đề được tìm kiếm nhiều nhất năm 2026. Nhưng có một hiểu lầm phổ biến: nhiều người nghĩ digital detox là bỏ điện thoại hoàn toàn, sống như người nguyên thủy. Không phải vậy.

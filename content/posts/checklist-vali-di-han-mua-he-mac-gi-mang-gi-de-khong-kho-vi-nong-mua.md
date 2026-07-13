@@ -87,46 +87,6 @@ title = "Du lịch Hàn Quốc mùa hè nên đi đâu?"
 ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
 title = "Đi Hàn mùa hè mặc gì cho đẹp?"
 
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-title = "Hàn Quốc tháng 7"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
-title = "Hàn Quốc tháng 8"
-
-[[internal_links]]
-ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
-title = "Seoul ngày mưa"
-
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-title = "Busan mùa hè"
-
-[[internal_links]]
-ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
-title = "Jeju mùa hè"
-
-[[internal_links]]
-ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
-title = "Caribbean Bay"
-
-[[internal_links]]
-ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
-title = "Lịch trình Seoul 3 ngày"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-title = "Top 20 hoạt động"
-
-[[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-title = "10 điểm tránh nóng"
-
-[[internal_links]]
-ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
-title = "Đi Jeju tháng 7-8"
-
 [[tom_tat_nhanh]]
 label = "Thời gian"
 value = "5–7 ngày"
@@ -147,7 +107,6 @@ value = "1 giày + 1 dép"
 label = "Mẹo"
 value = "Gấp gọn, dùng túi hút chân không"
 +++
-
 Chuẩn bị vali cho chuyến đi Hàn Quốc mùa hè không khó — chỉ cần biết mang gì và bỏ gì. Bài viết này là checklist đầy đủ giúp bạn không quên thứ gì.
 
 ## Nguyên tắc đóng vali

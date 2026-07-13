@@ -27,38 +27,6 @@ image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
 
-[[internal_links]]
-ref = "/posts/msi-claw-8-ex-ai-plus-review"
-title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/iphone-18-co-gi-moi.md"
-title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
-
-[[internal_links]]
-ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
-title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
-
-[[internal_links]]
-ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
-title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
-[[internal_links]]
-ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
-title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
-
-[[internal_links]]
-ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
-title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
-
-[[internal_links]]
-ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
-title = "iPhone 16 Pro Max năm 2026 nên mua không?"
-
 [[external_links]]
 url = "https://www.evenrealities.com/smart-glasses"
 title = "Even Realities G2 Official Product Page"
@@ -91,7 +59,6 @@ answer = "If you need real-time transcription, discreet notifications, and hands
 copyright = "Review Chân Thật"
 source_note = "This review is based on hands-on testing with a review unit provided by Even Realities. No compensation was received. Affiliate links may be present."
 +++
-
 ## The Smart Glasses That Do One Thing Well
 
 I have been wearing the Even Realities G2 for two weeks now. Not in a lab, not at a desk with a tester checklist — I wore them to coffee shops, on calls, on a motorcycle ride through Saigon traffic, and to a dinner where the person across from me had no idea I was getting live transcriptions of their Cantonese. That last part feels a little strange to admit, but it is also the point.

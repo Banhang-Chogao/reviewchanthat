@@ -65,10 +65,6 @@ ref = "posts/chuan-bi-macbook-truoc-khi-len-macos-27.md"
 title = "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app"
 
 [[internal_links]]
-ref = "posts/macos-27-so-voi-macos-26.md"
-title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
-
-[[internal_links]]
 ref = "posts/macos-27-co-gi-moi.md"
 title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
 
@@ -81,14 +77,9 @@ ref = "posts/macos-27-ho-tro-may-mac-nao.md"
 title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
 
 [[internal_links]]
-ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
-title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
-
-[[internal_links]]
 ref = "posts/macos-27-apple-intelligence-macbook.md"
 title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
 +++
-
 “Có nên bấm Update ngay?” — với macOS 27, câu trả lời đúng cho **đa số người Việt** vào tháng 7/2026 là: **chưa, chờ bản chính thức mùa thu** — trừ khi bạn có Mac phụ hoặc là developer cần test sớm.
 
 > Tại thời điểm viết (tháng 7/2026), Apple đã preview **macOS Golden Gate 27** tại WWDC26 (8/6/2026); public beta dự kiến tháng 7/2026 và bản chính thức mùa thu. Bài viết phân loại rõ thông tin Apple đã công bố, phản hồi beta và tin đồn; sẽ được cập nhật khi có thông tin chính thức bổ sung.

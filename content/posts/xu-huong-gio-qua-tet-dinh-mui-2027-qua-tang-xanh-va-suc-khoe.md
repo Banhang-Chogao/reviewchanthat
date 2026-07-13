@@ -52,44 +52,7 @@ answer = "Tháo rời giỏ mẫu và định giá từng món theo giá lẻ ng
 [[faq]]
 question = "Quà Tết sức khỏe có phải cứ đắt là tốt không?"
 answer = "Không. Giá cao thường trả cho thương hiệu và bao bì. Hãy đọc bảng thành phần, hàm lượng đường/muối, nguồn gốc và chứng nhận. Một hộp hạt, trà hay mật ong nguồn gốc rõ ràng có thể tốt hơn set 'thực phẩm chức năng' hào nhoáng mà mập mờ công dụng."
-
-[[internal_links]]
-ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
-title = "Lịch nghỉ Tết Nguyên Đán 2027 (dự kiến) và lộ trình tối ưu ngày nghỉ"
-
-[[internal_links]]
-ref = "posts/review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho.md"
-title = "Review đặt vé máy bay, tàu hỏa Tết 2027: mẹo săn vé sớm"
-
-[[internal_links]]
-ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
-title = "Sinh năm 2027 mệnh gì? Tuổi Đinh Mùi Thiên Hà Thủy, hướng tốt & phong thủy"
-
-[[internal_links]]
-ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
-title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
-image_creator_id = ""
-image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
-image_query = "xu hướng giỏ quà tết"
-
-[[internal_links]]
-ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
-title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
-
-[[internal_links]]
-ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
-title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
-
-[[internal_links]]
-ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
-title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
-
-[[internal_links]]
-ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
-title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
 +++
-
 Mỗi mùa Tết, giỏ quà lại là khoản chi vừa nhiều cảm xúc vừa dễ lãng phí nhất. Ta mua để tặng, mà người tặng lẫn người nhận nhiều khi đều không biết bên trong đáng bao nhiêu tiền. Năm Đinh Mùi 2027, thị trường tiếp tục nghiêng về hai câu chuyện lớn: **quà "xanh" (bao bì bền vững)** và **quà sức khỏe**. Bài này tôi đánh giá cả hai một cách sòng phẳng — cái gì thật sự đáng, cái gì chỉ là lớp áo marketing để đội giá.
 
 ## Vì sao "xanh" và "sức khỏe" lên ngôi

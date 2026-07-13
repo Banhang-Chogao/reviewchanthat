@@ -62,10 +62,6 @@ label = "Hướng đồn mạnh"
 label = "Đọc thêm"
 
 [[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
 ref = "posts/iphone-18-co-gi-moi.md"
 title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
 
@@ -78,22 +74,13 @@ ref = "posts/iphone-18-pro-max-co-gi-moi.md"
 title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
 
 [[internal_links]]
-ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
-title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
-
-[[internal_links]]
 ref = "posts/iphone-18-vs-iphone-17.md"
 title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
-
-[[internal_links]]
-ref = "posts/iphone-18-mau-gi-dark-cherry.md"
-title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
 
 [[internal_links]]
 ref = "posts/iphone-18-chip-a20-2nm.md"
 title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
 +++
-
 Từ iPhone 14 Pro, **Dynamic Island** đã trở thành “khuôn mặt” nhận diện iPhone cao cấp — nhưng cũng là thứ nhiều người muốn **biến mất**. Với **iPhone 18**, cộng đồng leak lại hỏi hai câu song song: **Dynamic Island có nhỏ hơn không?** và **Under-display Face ID** (Face ID dưới tấm nền) cuối cùng có tới không?
 
 Apple **chưa công bố** iPhone 18. Bài viết phân loại tin từ [MacRumors](https://www.macrumors.com/roundup/iphone-18-pro/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more) và leaker — mọi thông số chưa được Apple xác nhận gắn nhãn **[Tin đồn / chưa xác nhận]**. Nếu bạn đang cân nhắc chờ thế hệ mới, đọc thêm [tổng quan series iPhone 18](/posts/iphone-18-co-gi-moi/) trước.

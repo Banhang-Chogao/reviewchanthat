@@ -59,26 +59,6 @@ ref = "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
 title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu"
 
 [[internal_links]]
-ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
-title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
-
-[[internal_links]]
-ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
-title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
-
-[[internal_links]]
-ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
-title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
-[[internal_links]]
-ref = "posts/di-thai-lan-thang-7-co-nen-khong.md"
-title = "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý"
-
-[[internal_links]]
-ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
-title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
-
-[[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
 
@@ -86,7 +66,6 @@ title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không kh
 ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
 title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
 +++
-
 ## Koh Samui vs Phuket — đâu là lựa chọn đúng cho tháng 7–8?
 
 Nếu bạn đang lên kế hoạch cho chuyến đi Thái Lan vào tháng 7 hoặc tháng 8, rất có thể bạn đang phân vân giữa hai cái tên: Phuket (biển Andaman) và Koh Samui (vịnh Thái Lan). Cả hai đều là đảo lớn, đều có nhiều resort, tour đảo và hoạt động giải trí. Nhưng thời tiết tháng 7–8 ở hai nơi này khác nhau hoàn toàn.

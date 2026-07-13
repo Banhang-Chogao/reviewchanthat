@@ -67,40 +67,7 @@ label = "Lễ hội 2026"
 
 [[tom_tat_nhanh]]
 label = "Số ngày hợp lý"
-
-[[internal_links]]
-ref = "posts/seoraksan-thang-10-ngam-la-do.md"
-title = "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?"
-
-[[internal_links]]
-ref = "posts/goi-y-du-lich-han-quoc-thang-7-2026.md"
-title = "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
-[[internal_links]]
-ref = "posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md"
-title = "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước"
-
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
-
-[[internal_links]]
-ref = "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md"
-title = "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
-
-[[internal_links]]
-ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
-title = "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo"
 +++
-
 Nếu chỉ cần một câu trả lời ngắn: **đi Jeju mùa xuân, đẹp nhất là cuối tháng 3 đến đầu tháng 4**. Đây là khoảng có xác suất cao để gặp những thảm hoa cải vàng rực ở phía đông và phía nam đảo, đồng thời vẫn còn cơ hội ghép với hoa anh đào ở một số tuyến đường như Noksan-ro hoặc khu Jeju City.
 
 Nhưng Jeju không phải một studio dựng sẵn. Hoa cải vàng là hoa thật ngoài trời, chịu ảnh hưởng của mưa, gió biển, nhiệt độ, lịch trồng và cách chăm từng khu. Vì vậy, nên hiểu "đẹp nhất" như một khoảng thời gian có lợi thế, không phải lời hứa rằng cứ đặt vé đúng ngày là cả đảo sẽ vàng đều. Với người Việt chuẩn bị đi Hàn Quốc mùa xuân, cách an toàn nhất là chọn lịch có biên độ 3-4 ngày, xếp nhiều điểm hoa theo cụm, và chuẩn bị phương án nếu trời gió hoặc hoa ở một điểm đã qua đỉnh.

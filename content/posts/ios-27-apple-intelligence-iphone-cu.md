@@ -49,24 +49,8 @@ label = "Tính năng"
 label = "Hợp với"
 
 [[internal_links]]
-ref = "posts/macos-27-apple-intelligence-macbook.md"
-title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
-
-[[internal_links]]
 ref = "posts/ios-27-co-gi-moi.md"
 title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
-
-[[internal_links]]
-ref = "posts/macos-27-beta-co-nen-cai-khong.md"
-title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
-
-[[internal_links]]
-ref = "posts/macos-27-ho-tro-may-mac-nao.md"
-title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
-
-[[internal_links]]
-ref = "posts/macos-27-hieu-nang-pin-macbook.md"
-title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
 
 [[internal_links]]
 ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
@@ -80,7 +64,6 @@ title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
 ref = "posts/ios-27-cai-thien-pin-iphone.md"
 title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
 +++
-
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **iOS 27** là lần Apple cố biến AI thành thói quen trên iPhone — không chỉ demo keynote. Câu hỏi thực tế: **iPhone của bạn chạy được những gì, và tiếng Việt đến đâu?**
 
 Bài này thuộc series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/), tập trung vào **Apple Intelligence** — phần nhiều người mua iPhone 15 Pro hoặc 16 vì đây.

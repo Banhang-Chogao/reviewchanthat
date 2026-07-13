@@ -53,14 +53,6 @@ ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
 title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
 
 [[internal_links]]
-ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
-title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
-
-[[internal_links]]
-ref = "posts/macos-27-hieu-nang-pin-macbook.md"
-title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
-
-[[internal_links]]
 ref = "posts/ios-27-co-gi-moi.md"
 title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
 
@@ -71,16 +63,7 @@ title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau
 [[internal_links]]
 ref = "posts/ios-27-camera-anh-video-iphone.md"
 title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
-
-[[internal_links]]
-ref = "posts/ios-27-so-voi-ios-26.md"
-title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
-
-[[internal_links]]
-ref = "posts/ios-27-cai-thien-pin-iphone.md"
-title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
 +++
-
 Mỗi lần Apple nhắc **AI**, câu hỏi tiếp theo luôn là: **dữ liệu của tôi đi đâu?** iOS 27 không ngoại lệ — Siri AI đọc Messages, Photos AI xử lý ảnh gia đình, Safari Notify Me theo dõi trang web. Apple hứa **on-device** và **Private Cloud Compute**, nhưng người dùng vẫn cần hiểu giới hạn thực tế.
 
 Bài này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/) tập trung **quyền riêng tư và an toàn**, không lặp lại toàn bộ tính năng.

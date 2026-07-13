@@ -30,36 +30,8 @@ image_query = "khách sạn view đẹp resort nghỉ dưỡng"
 date_display = "12-07-2026 13:45:00 GMT +7"
 
 [[internal_links]]
-ref = "posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.md"
-title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
-
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
-
-[[internal_links]]
-ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
-title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-
-[[internal_links]]
 ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
 title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-da-nang-2026.md"
-title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
-title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
-title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
 [[external_links]]
 url = "https://www.trip.com/trip-best/"
@@ -105,7 +77,6 @@ answer = "Không. Bài viết chỉ tham khảo danh sách và dữ liệu công
 copyright = "© 2026 Review Chân Thật."
 source_note = "Danh sách khách sạn tham khảo từ dữ liệu công khai Trip.Best; phần phân tích, đánh giá và kinh nghiệm chọn phòng là quan điểm riêng, không sao chép nội dung Trip.com. Giá và tính năng có thể thay đổi — vui lòng kiểm tra trực tiếp trước khi đặt."
 +++
-
 Có một kiểu mệt rất riêng của người sống ở Sài Gòn: không phải mệt vì làm việc quá sức, mà mệt vì thành phố không bao giờ chịu tắt đèn. Kẹt xe lúc sáu giờ chiều, tiếng còi xe lọt qua cửa kính chung cư, và cái cảm giác cuối tuần trôi qua mà mình chẳng kịp nghỉ. Vài năm gần đây, thay vì gồng lên đặt một chuyến bay đi xa, ngày càng nhiều người chọn một cách nhẹ nhàng hơn: đặt một khách sạn view đẹp, xách túi đi trong bán kính vài chục cây số, và "biến mất" khỏi nhịp sống thường ngày trong hai ngày một đêm. Người ta gọi nó là staycation.
 
 Bài viết này không phải một danh sách quảng cáo. Tôi lấy danh sách khách sạn từ dữ liệu công khai của Trip.Best — bảng xếp hạng dựa trên lượng đặt phòng và đánh giá thực tế — rồi tự đọc lại từng cái tên bằng con mắt của người từng đi nghỉ dưỡng gần TP.HCM: chỗ nào đáng tiền, chỗ nào chỉ đẹp trên ảnh, chỗ nào hợp cặp đôi, chỗ nào hợp cả gia đình. Mục tiêu là giúp bạn chọn đúng, chứ không phải chọn cái đắt nhất.

@@ -36,40 +36,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-12T08:49:04+07:00"
 image_query = "mô hình phẳng thụy điển"
-
-[[internal_links]]
-ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
-title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
-
-[[internal_links]]
-ref = "posts/triet-ly-song-lagom-va-van-hoa-fika.md"
-title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển"
-
-[[internal_links]]
-ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
-title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
-
-[[internal_links]]
-ref = "posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.md"
-title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
-
-[[internal_links]]
-ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
-title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
-
-[[internal_links]]
-ref = "posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.md"
-title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
-
-[[internal_links]]
-ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
-title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
 +++
-
 Năm 1943, một cậu bé 17 tuổi người Thụy Điển tên Ingvar Kamprad dùng số tiền bố thưởng vì học tốt để lập một cửa hàng đặt hàng qua bưu điện. Cậu bán bút, ví da, khung tranh, đồng hồ, và tất nhiên — kính lúp. Sản phẩm đầu tiên đó là kính lúp với giá 1 krona. Không ai có thể tưởng tượng rằng từ kính lúp, Kamprad sẽ xây dựng nên IKEA — tập đoàn nội thất lớn nhất thế giới với doanh thu hơn 50 tỷ USD mỗi năm, trải dài 62 quốc gia. Bí mật nằm ở đâu? Không chỉ ở flat-pack (đồ nội thất đóng gói phẳng), mà còn ở flat hierarchy — mô hình quản lý phẳng, thứ đã biến một cửa hàng nhỏ thành cỗ máy tối giản nhưng cực kỳ hiệu quả.
 
 Thụy Điển là một trong những quốc gia có chỉ số khoảng cách quyền lực (power distance) thấp nhất thế giới theo nghiên cứu của Geert Hofstede. Điều đó có nghĩa là người Thụy Điển không thích phân cấp mạnh, không thích sự lãng phí của tầng lớp quản lý trung gian, và họ tin vào năng lực của từng cá nhân hơn là danh nghĩa hay chức vụ. Hai tập đoàn IKEA và Volvo là minh chứng sống cho triết lý này, dù họ hoạt động ở hai ngành hoàn toàn khác nhau.

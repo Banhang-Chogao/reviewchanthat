@@ -63,32 +63,12 @@ ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnab
 title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
 
 [[internal_links]]
-ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
-title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
-
-[[internal_links]]
 ref = "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
 title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu"
 
 [[internal_links]]
-ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
-title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
-
-[[internal_links]]
-ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
-title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
-[[internal_links]]
-ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
-title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
-
-[[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
 title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
-
-[[internal_links]]
-ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
-title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
 
 [[faq]]
 question = "Đổi baht ở sân bay Tân Sơn Nhất có ổn không?"
@@ -110,7 +90,6 @@ answer = "Không nên mang quá nhiều. Ở Thái, bạn có thể dùng thẻ 
 question = "Phí rút ATM 220 THB có giảm nếu rút ít không?"
 answer = "Không. 220 THB là phí cố định mỗi lần, không phụ thuộc số tiền rút. Vì vậy rút một lần 10.000 THB sẽ tiết kiệm hơn rút 5 lần 2.000 THB."
 +++
-
 ## Đổi baht ở Việt Nam hay Thái Lan lợi hơn?
 
 Trước mỗi chuyến đi Thái Lan tự túc, câu hỏi đầu tiên không phải là "mặc gì" hay "ở đâu", mà là **"đổi baht ở đâu có lợi nhất?"**. Một người đi 5–7 ngày thường mang theo 10.000–20.000 THB, tương đương 6,5–14 triệu VND. Chênh lệch tỷ giá dù chỉ 1–2% cũng đã là vài trăm nghìn — đủ một bữa ăn ngon ở Bangkok.

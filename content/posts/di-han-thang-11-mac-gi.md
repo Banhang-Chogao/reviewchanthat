@@ -58,30 +58,6 @@ answer = "Có. Sáng sớm và tối ở Seoul có thể dưới 5°C; trên nú
 [[faq]]
 answer = "Giày sneaker đế bằng, thoải mái đi bộ 12.000–18.000 bước/ngày. Leo núi nên giày trekking nhẹ, tất dày."
 
-[[internal_links]]
-ref = "posts/di-han-thang-11-co-dep-khong.md"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-11-co-la-do-chua.md"
-
-[[internal_links]]
-ref = "posts/seoul-thang-11-nen-di-dau.md"
-
-[[internal_links]]
-ref = "posts/di-han-thang-10-mac-gi.md"
-
-[[internal_links]]
-ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-
-[[internal_links]]
-ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
-
 [[tom_tat_nhanh]]
 label = "Nguyên tắc"
 value = "Phối nhiều lớp ấm (layering)"
@@ -95,7 +71,6 @@ label = "Màu gợi ý"
 [[tom_tat_nhanh]]
 label = "Ưu tiên"
 +++
-
 Tháng 11 ở Hàn Quốc **lạnh hơn tháng 10 rõ rệt** — sáng sớm và tối muộn thường "lạnh vừa đến khá", không còn mát dễ chịu như tháng 10. Nhiệt độ Seoul có thể 12°C lúc trưa nhưng xuống 4°C lúc 7 giờ sáng. Nếu chỉ mang áo khoác gió như tháng 10, bạn sẽ run khi chờ chụp ảnh ở Gyeongbokgung hoặc đi bộ Bukchon.
 
 Bài viết này là checklist phối đồ tham khảo cho du khách Việt, dựa trên xu hướng thời tiết từ [KMA](https://www.kma.go.kr) và kinh nghiệm du lịch mùa thu được tổng hợp từ [Visit Korea](https://english.visitkorea.or.kr). Nằm trong series [Đi Hàn tháng 11]({{< ref "posts/di-han-thang-11-co-dep-khong" >}}).

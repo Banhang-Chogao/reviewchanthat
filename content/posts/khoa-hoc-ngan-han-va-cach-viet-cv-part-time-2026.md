@@ -28,40 +28,7 @@ image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "hè 2026 top khóa học"
 image_alt = "Ảnh minh họa Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10 — nguồn Pixabay"
 date_display = "11-07-2026 12:00:00 GMT +7"
-
-[[internal_links]]
-ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
-title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
-
-[[internal_links]]
-ref = "posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md"
-title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
-
-[[internal_links]]
-ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
-title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-
-[[internal_links]]
-ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
-title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày"
-
-[[internal_links]]
-ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
-title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
-
-[[internal_links]]
-ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
-title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-
-[[internal_links]]
-ref = "posts/xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu.md"
-title = "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè"
-
-[[internal_links]]
-ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon.md"
-title = "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn"
 +++
-
 Tháng 7 là thời điểm vàng giữa hè — học sinh, sinh viên đã quen với nhịp nghỉ, và đây chính là **tháng nước rút** trước khi năm học mới bắt đầu vào tháng 9. Nếu bạn đang ngồi ở nhà lướt điện thoại, đã đến lúc nghĩ đến chuyện nâng cấp bản thân. Một khóa học ngắn hạn, một chứng chỉ ngoại ngữ, hay đơn giản là một công việc part-time có thể giúp CV của bạn nổi bật hơn hẳn so với hàng trăm ứng viên khác khi xin thực tập hoặc việc làm chính thức sau này.
 
 Bài viết này dành cho học sinh cấp 3 và sinh viên đại học — những người **chưa có nhiều kinh nghiệm** nhưng muốn tận dụng mùa hè 2026 để làm đẹp CV.

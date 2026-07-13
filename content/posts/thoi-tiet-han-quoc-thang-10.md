@@ -59,30 +59,6 @@ answer = "Mưa ít hơn mùa hè. Tháng 10 thường khô hơn tháng 7–8, nh
 [[faq]]
 answer = "Áo khoác mỏng đến trung bình, áo len mỏng, quần dài, giày đi bộ thoải mái. Mang thêm lớp áo khi đi núi."
 
-[[internal_links]]
-ref = "posts/di-han-thang-10-co-dep-khong.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
-
-[[internal_links]]
-ref = "posts/di-han-thang-10-mac-gi.md"
-
-[[internal_links]]
-ref = "posts/seoul-thang-10-nen-di-dau.md"
-
-[[internal_links]]
-ref = "posts/nami-thang-10-co-dang-di-khong.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
 [[tom_tat_nhanh]]
 label = "Nhiệt độ Seoul"
 value = "10–19°C"
@@ -96,7 +72,6 @@ label = "Đặc điểm"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 +++
-
 Tháng 10 là thời điểm Hàn Quốc bước vào mùa thu — không còn nóng ẩm như mùa hè, cũng chưa lạnh như mùa đông. Nhiều du khách Việt chọn tháng này vì thời tiết dễ chịu hơn tháng 7–8 và bắt đầu có cảnh lá đổi màu. Tuy nhiên, “lạnh chưa” và “có mưa không” phụ thuộc vào tuần cụ thể trong tháng và khu vực bạn đến.
 
 Bài viết này tổng hợp thông tin tham khảo từ [KMA](https://www.kma.go.kr) và [Visit Korea](https://english.visitkorea.or.kr), nằm trong series [Đi Hàn tháng 10]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}). Dự báo thời tiết và lịch lá đỏ có thể thay đổi theo từng năm — nên kiểm tra lại trước ngày đi.

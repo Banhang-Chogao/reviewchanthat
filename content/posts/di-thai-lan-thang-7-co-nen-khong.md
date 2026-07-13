@@ -59,24 +59,12 @@ label = "Phù hợp"
 value = ""
 
 [[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
-
-[[internal_links]]
-ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
-title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
-
-[[internal_links]]
 ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
 title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
 
 [[internal_links]]
 ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
 title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
-
-[[internal_links]]
-ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
-title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
 
 [[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
@@ -90,7 +78,6 @@ title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, mass
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
 +++
-
 Tháng 7 là tháng thấp điểm nhất trong năm của du lịch Thái Lan — và cũng là tháng gây nhiều tranh cãi nhất. Một bên là vé máy bay giá rẻ, khách sạn giảm sâu, điểm tham quan vắng vẻ. Bên kia là nỗi lo mưa bão, tour đảo bị hủy, và kỳ nghỉ không như mong đợi.
 
 Bài viết này sẽ phân tích thực tế: thời tiết tháng 7 ra sao, chi phí thấp hơn tháng 8 bao nhiêu, và làm thế nào để xây dựng một lịch trình tháng 7 thông minh.

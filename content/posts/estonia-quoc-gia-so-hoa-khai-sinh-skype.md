@@ -28,40 +28,7 @@ image_alt = "Ảnh minh họa Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Sk
 date_display = "11-07-2026 13:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "mobile banking payment app"
-
-[[internal_links]]
-ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
-title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
-
-[[internal_links]]
-ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
-title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
-
-[[internal_links]]
-ref = "posts/phần-lan-sauna-05.md"
-title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
-
-[[internal_links]]
-ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
-title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
-
-[[internal_links]]
-ref = "posts/co-nen-cho-iphone-18-khong.md"
-title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
 +++
-
 [Tallinn - thủ đô Estonia nơi trung cổ và công nghệ hiện đại giao thoa]
 
 Khi một quốc gia chỉ vỏn vẹn 1,3 triệu dân có thể tạo ra vườn ươm cho Skype, Bolt, Wise và Pipedrive, điều gì đã xảy ra? Câu trả lời nằm ở một cuộc cách mạng số hóa triệt để có tên gọi "e-Estonia" — nơi chính phủ điện tử không chỉ là khẩu hiệu mà là xương sống vận hành của cả đất nước, nơi 99% dịch vụ công được thực hiện trực tuyến, và nơi chữ ký số có giá trị pháp lý ngang với chữ ký tay từ năm 2002.

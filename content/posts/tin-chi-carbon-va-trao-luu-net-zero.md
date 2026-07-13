@@ -39,38 +39,6 @@ image_attribution_checked_at = "2026-07-12T08:49:11+07:00"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank — nguồn Pixabay"
 
-[[internal_links]]
-ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
-title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-
-[[internal_links]]
-ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
-title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
-
-[[internal_links]]
-ref = "posts/trao-luu-green-camping-cam-trai-hoang-so.md"
-title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
-
-[[internal_links]]
-ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
-title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
-[[internal_links]]
-ref = "posts/even-realities-g2-smart-glasses-review.md"
-title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
-
-[[internal_links]]
-ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
-title = "Checklist trước khi mua một sản phẩm online"
-
-[[internal_links]]
-ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
-title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
 [[faq]]
 question = "1. Dùng thẻ Eco của Techcombank có thực sự giúp tôi \"trung hòa carbon\" không?"
 answer = "Không hoàn toàn. Thẻ giúp *đo lường* phát thải từ chi tiêu và kết nối tới dự án bù trừ đạt chuẩn Gold Standard – đây là bước nâng cao nhận thức tốt. Nhưng bù trừ không xóa được phát thải thật từ hành vi tiêu dùng của bạn. Muốn giảm dấu chân carbon cá nhân, cắt giảm tiêu thụ (đi lại, năng lượng, đồ dùng) vẫn hiệu quả hơn việc chi tiêu nhiều để được bù trừ nhiều."
@@ -83,7 +51,6 @@ answer = "Tín chỉ carbon là *đơn vị hàng hóa* (1 tín chỉ = 1 tấn 
 question = "3. Cá nhân/doanh nghiệp Việt Nam có thể mua bán tín chỉ carbon hợp pháp chưa?"
 answer = "Việt Nam đang trong quá trình xây dựng thị trường: theo lộ trình chính sách, sàn giao dịch tín chỉ carbon được thí điểm từ khoảng năm 2025 và dự kiến vận hành chính thức vào năm 2028, dựa trên nền tảng Nghị định 06/2022/NĐ-CP. Vì đây là lĩnh vực đang hoàn thiện khung pháp lý và mốc thời gian có thể thay đổi, bạn nên đối chiếu văn bản mới nhất từ cơ quan chức năng trước khi tham gia giao dịch cho mục đích kinh doanh. *Bài viết mang tính phân tích và tham khảo, không phải tư vấn đầu tư hay môi trường. Vui lòng kiểm tra thông tin phí, điều kiện sản phẩm và chính sách trực tiếp với Techcombank cũng như nguồn chính thức trước khi ra quyết định.*"
 +++
-
 Vài năm gần đây, hai cụm từ "tín chỉ carbon" và "Net Zero" xuất hiện dày đặc từ nghị trường COP, báo cáo thường niên của doanh nghiệp cho tới… mặt sau một chiếc thẻ ngân hàng. Nhưng đằng sau lớp vỏ marketing bóng bẩy, có bao nhiêu người thật sự hiểu một tín chỉ carbon là gì, nó được định giá ra sao, và liệu những sản phẩm "xanh" như thẻ Eco của Techcombank có thực sự cứu được khí hậu hay chỉ là một nước cờ truyền thông? Bài viết này mổ xẻ vấn đề dưới góc nhìn tài chính lạnh lùng, đúng tinh thần Review Chân Thật: khen chỗ đáng khen, và chỉ thẳng chỗ cần dè chừng.
 
 ## Tín chỉ carbon thực chất là gì?

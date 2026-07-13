@@ -30,40 +30,7 @@ image_status = "verified"
 seo_title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Của Người Thụy Điển"
 image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "credit card finance desk"
-
-[[internal_links]]
-ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
-title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
-
-[[internal_links]]
-ref = "posts/phần-lan-hạnh-phúc-01.md"
-title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
-
-[[internal_links]]
-ref = "posts/phần-lan-sauna-05.md"
-title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
-
-[[internal_links]]
-ref = "posts/cong-thuc-do-uong-giai-nhiet-home-cafe.md"
-title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
-
-[[internal_links]]
-ref = "posts/loi-song-xanh-bac-au-thien-nhien-estonia.md"
-title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
-
-[[internal_links]]
-ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
-title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
-
-[[internal_links]]
-ref = "posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.md"
-title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
 +++
-
 Khi nhắc đến Thụy Điển, đa số người Việt nghĩ ngay đến IKEA, Volvo, hay giải Nobel. Nhưng có hai khái niệm văn hóa mà người Thụy Điển mang theo trong từng hơi thở — Lagom và Fika — lại ít được biết đến ở Việt Nam. Lagom không phải là một trào lưu wellness mới nổi trên Instagram. Fika không đơn thuần là "đi uống cà phê". Đây là những triết lý sống đã được tôi luyện qua hàng thế kỷ, góp phần đưa Thụy Điển trở thành một trong những quốc gia hạnh phúc nhất hành tinh theo [World Happiness Report](https://worldhappiness.report/).
 
 Bài viết này sẽ mổ xẻ hai khái niệm đó từ góc nhìn của một người Việt: Lagom — nghệ thuật sống vừa đủ, và Fika — nghi thức cà phê bắt buộc trong văn hóa công sở. Bạn sẽ thấy rằng một tách cà phê và một miếng bánh quế kem (Kanelbulle) có thể thay đổi cách bạn làm việc và sống mỗi ngày.

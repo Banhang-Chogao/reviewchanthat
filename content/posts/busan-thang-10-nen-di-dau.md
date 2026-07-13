@@ -59,10 +59,6 @@ ref = "posts/thoi-tiet-han-quoc-thang-10.md"
 title = "Thời tiết và mùa lá đỏ tháng 10"
 
 [[internal_links]]
-ref = "posts/seoul-thang-10-nen-di-dau.md"
-title = "Seoul tháng 10 nên đi đâu?"
-
-[[internal_links]]
 ref = "posts/jeju-thang-10-co-dep-khong.md"
 title = "Jeju tháng 10 có đẹp không?"
 
@@ -77,10 +73,6 @@ title = "Chi phí đi Hàn tháng 10 tự túc"
 [[internal_links]]
 ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
 title = "Busan mùa hè nên đi đâu?"
-
-[[internal_links]]
-ref = "posts/busan-thang-11-nen-di-dau.md"
-title = "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ"
 
 [[tom_tat_nhanh]]
 label = "Thời tiết"
@@ -103,7 +95,6 @@ label = "Lưu ý"
 value = "Giá vé và phí có thể thay đổi"
 image_attribution_checked_at = "2026-07-14T00:09:58+07:00"
 +++
-
 Busan tháng 10 là thời điểm nhiều du khách chọn để “đổi không khí” sau vài ngày ở Seoul. Khí hậu ven biển mát hơn mùa hè, đường phố thoáng hơn, và bạn vẫn có thể tắm biển nếu ngày nắng ấm. Tuy nhiên, Busan không phải điểm ngắm lá đỏ trọng tâm như Seoraksan hay Naejangsan — thế mạnh của thành phố này mùa thu nằm ở **biển, ẩm thực và không gian đi bộ buổi tối**.
 
 Bài viết tổng hợp từ [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292) và các nguồn du lịch địa phương để gợi ý điểm đến và lịch trình nhẹ nhàng. Xem tổng quan series tại [Đi Hàn tháng 10 có đẹp không?]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}).

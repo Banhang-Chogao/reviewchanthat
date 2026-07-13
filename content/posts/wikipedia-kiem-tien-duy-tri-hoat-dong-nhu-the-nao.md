@@ -41,26 +41,6 @@ title = "Các hoạt động thường niên của Wikipedia và nguồn kinh ph
 ref = "posts/tien-quyen-gop-wikipedia-dung-vao-dau.md"
 title = "Tiền quyên góp cho Wikipedia được dùng vào đâu? Wikipedia có bao giờ hết tiền không?"
 
-[[internal_links]]
-ref = "posts/bram-moolenaar-tieu-su-cha-de-vim.md"
-title = "Bram Moolenaar — tiểu sử cha đẻ Vim: sự nghiệp, di sản và những gì ông để lại"
-
-[[internal_links]]
-ref = "posts/co-nen-cho-iphone-18-khong.md"
-title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Wikimedia_Foundation"
 title = "Wikimedia Foundation — Wikipedia"
@@ -105,7 +85,6 @@ answer = "Không. Nội dung được biên soạn và diễn giải lại bằn
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tham khảo từ bài Wikimedia Foundation trên Wikipedia và các trang chính thức của Wikimedia Foundation; nội dung được viết lại và diễn giải bằng góc nhìn riêng, không sao chép câu chữ. Ảnh minh họa lấy từ Pexels/Pixabay. Các số liệu tài chính có thể thay đổi theo từng năm."
 +++
-
 Wikipedia là một trong những website được truy cập nhiều nhất hành tinh. Mỗi ngày, hàng trăm triệu lượt người mở nó ra để tra một khái niệm, kiểm chứng một con số, hay lần theo một chú thích đến tận nguồn gốc. Về lưu lượng, nó đứng chung mâm với Google, YouTube hay Facebook. Nhưng có một điều khiến Wikipedia khác hẳn: nó hoàn toàn miễn phí, không một mẩu quảng cáo, và về lý thuyết thì chẳng "bán" gì cho ai cả.
 
 Đây là một nghịch lý thú vị. Một cỗ máy tri thức khổng lồ như vậy đương nhiên tốn tiền để vận hành — máy chủ, băng thông, đội ngũ kỹ thuật, chi phí pháp lý. Vậy tiền ở đâu ra, nếu không bán quảng cáo, không thu phí thành viên, không bán dữ liệu người dùng như phần lớn các nền tảng khác?

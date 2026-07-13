@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T08:41:39+07:00"
 image_query = "trip coins coupon ưu đãi"
 date_display = "13-07-2026 10:10:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026.md"
-title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026"
-
-[[internal_links]]
-ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
-title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
-
-[[internal_links]]
-ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
-title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
-
-[[internal_links]]
-ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
-title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
-
-[[internal_links]]
-ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
-title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
-
-[[internal_links]]
-ref = "posts/ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa.md"
-title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
-
-[[internal_links]]
-ref = "posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.md"
-title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
-
-[[internal_links]]
-ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
-title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
-
 [[faq]]
 question = "Trip Coins có quy đổi được ra tiền mặt không?"
 answer = "Không. Trip Coins chỉ dùng để giảm trừ trực tiếp vào giá trị đơn đặt trên Trip.com, không rút được ra tiền mặt hay chuyển khoản ngân hàng."

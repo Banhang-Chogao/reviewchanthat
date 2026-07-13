@@ -48,36 +48,6 @@ answer = "Haeundae xa hơn (ga Haeundae, tuyến 2). Gwangalli gần trung tâm 
 [[faq]]
 answer = "Haeundae có nhiều hoạt động hơn. Gwangalli cũng có nhưng ít lựa chọn."
 
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md"
-
-[[internal_links]]
-ref = "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md"
-
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-
-[[internal_links]]
-ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-
 [[tom_tat_nhanh]]
 label = "Haeundae"
 value = "Sầm uất, nhiều hoạt động"
@@ -94,7 +64,6 @@ label = "Chọn Gwangalli nếu"
 [[tom_tat_nhanh]]
 label = "Cả hai"
 +++
-
 Haeundae và Gwangalli là hai cái tên đầu tiên khi nhắc đến biển Busan. Cả hai đều đẹp, đều đáng đi — nhưng phong cách khác nhau. Bài viết so sánh 10 tiêu chí giúp bạn quyết định.
 
 ## So sánh chi tiết

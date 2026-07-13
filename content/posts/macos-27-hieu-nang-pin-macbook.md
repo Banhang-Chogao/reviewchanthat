@@ -56,14 +56,6 @@ ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
 title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
 
 [[internal_links]]
-ref = "posts/macos-27-apple-intelligence-macbook.md"
-title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
-
-[[internal_links]]
-ref = "posts/macos-27-beta-co-nen-cai-khong.md"
-title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
-
-[[internal_links]]
 ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
 title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
 
@@ -79,7 +71,6 @@ title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
 ref = "posts/macos-27-co-gi-moi.md"
 title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
 +++
-
 MacBook là máy mang đi — nên **pin và hiệu năng** thường quan trọng hơn sidebar đẹp hay AI demo. macOS Golden Gate 27 hứa cả hai: shell nhanh hơn nhưng AI nền có thể “ăn” pin. Bài này tách **số liệu Apple**, **phản hồi beta** và **khuyến nghị thực tế**.
 
 > Tại thời điểm viết (tháng 7/2026), Apple đã preview **macOS Golden Gate 27** tại WWDC26 (8/6/2026); public beta dự kiến tháng 7/2026 và bản chính thức mùa thu. Bài viết phân loại rõ thông tin Apple đã công bố, phản hồi beta và tin đồn; sẽ được cập nhật khi có thông tin chính thức bổ sung.

@@ -32,23 +32,10 @@ image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "hệ thống giáo dục phần"
 image_alt = "Ảnh minh họa Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối — nguồn Pixabay"
 
-[[internal_links]]
-ref = "posts/hoc-sinh-finland-truong-hoc-hoc-tap.md"
-title = "Hệ Thống Giáo Dục Phần Lan: Lý Do Tại Sao Phần Lan Có Những Sinh Viên Thông Minh Nhất Thế Giới"
-
-[[internal_links]]
-ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
-title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
-
-[[internal_links]]
-ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
-title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-
 [[faq]]
 question = "Phần Lan chứng minh rằng học sinh có thể học tốt mà không bị áp đặt áp lực vô tận. Chìa khóa không phải là bài tập về nhà nhiều hơn mà là thời gian lớp học chất lượng cao, giáo viên tuyệt vời, và bình đẳng tuyệt đối."
 answer = "**Tại sao không phải mọi nước đều làm như Phần Lan?** Vì điều này đòi hỏi: - Đầu tư cao vào đào tạo giáo viên - Lớp học nhỏ hơn (chi phí cao) - Niềm tin vào giáo viên (không giám sát khắt khe) - Khách quan về \"thành công\" (không phải là điểm cao) **Có phải học sinh Phần Lan \"lười biếng\"?** Không. Họ chỉ không bị buộc phải làm bài tập vô nghĩa. Khi được phép, họ học chủ động và tò mò. **Người ngoài có thể áp dụng điều này không?** Một phần. Bạn không cần phải là Phần Lan để giáo dục con em bằng tư duy phản biện thay vì thuộc lòng. Nhưng cần có sự thay đổi hệ thống lớn hơn."
 +++
-
 **Nếu bạn là cha mẹ Việt Nam, bạn có thể đã nghe câu chuyện này: một học sinh Phần Lan không làm bài tập về nhà, đi học chỉ 4 giờ mỗi ngày, nhưng vẫn là một trong những học sinh thành công nhất thế giới. Điều này có thực không?**
 
 ## Sự Thật Về Hệ Thống Giáo Dục Phần Lan

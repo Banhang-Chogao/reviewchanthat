@@ -30,36 +30,12 @@ image_attribution_checked_at = "2026-07-12T15:56:52+07:00"
 date_display = "12-07-2026 15:20:00 GMT +7"
 
 [[internal_links]]
-ref = "posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md"
-title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-
-[[internal_links]]
 ref = "posts/khach-san-view-dep-nha-trang-2026.md"
 title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
 title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
-title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
-title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-yen-2026.md"
-title = "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
-title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
 [[external_links]]
 url = "https://www.trip.com/trip-best/"
@@ -105,7 +81,6 @@ answer = "Không. Bài viết chỉ tham khảo danh sách và dữ liệu công
 copyright = "© 2026 Review Chân Thật."
 source_note = "Danh sách khách sạn tham khảo từ dữ liệu công khai Trip.Best; phần phân tích, đánh giá và kinh nghiệm chọn phòng là quan điểm riêng, không sao chép nội dung Trip.com. Giá và tính năng có thể thay đổi — vui lòng kiểm tra trực tiếp trước khi đặt."
 +++
-
 Có một buổi chiều ở Đà Nẵng mà tôi nhớ mãi: đứng trên ban công một resort trên đường Võ Nguyên Giáp, nhìn bãi Mỹ Khê trải dài đến tận chân trời, sóng vỗ đều đặn còn phía sau lưng là bán đảo Sơn Trà xanh thẫm dần trong hoàng hôn. Không có tiếng còi xe, chỉ có gió biển và mùi muối mặn. Khoảnh khắc đó khiến tôi hiểu vì sao Đà Nẵng luôn nằm trong nhóm điểm nghỉ dưỡng được đặt phòng nhiều nhất Việt Nam — nó cho bạn cảm giác đổi hẳn thế giới chỉ sau một chuyến bay hơn một tiếng.
 
 Bài viết này không phải một danh sách quảng cáo. Tôi lấy các cái tên từ dữ liệu công khai của Trip.Best — bảng xếp hạng dựa trên lượng đặt phòng và đánh giá thực tế — rồi tự đọc lại từng khách sạn bằng con mắt của người đã đi nghỉ dưỡng ở dải biển miền Trung nhiều lần: chỗ nào đáng tiền, chỗ nào chỉ đẹp trên ảnh, chỗ nào hợp cặp đôi, chỗ nào hợp cả gia đình. Muốn đọc chéo, blog còn có bài về [khách sạn view đẹp ở Nha Trang](/posts/khach-san-view-dep-nha-trang-2026/) và [gần TP.HCM](/posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026/) với cùng cách tiếp cận.

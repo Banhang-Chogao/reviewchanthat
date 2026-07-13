@@ -65,33 +65,6 @@ answer = "Nên. Khu vực Haeundae có rất nhiều khách sạn từ bình dâ
 [[faq]]
 answer = "Không. Nhiệt độ nước biển tháng 7–8 dao động 22–25°C, rất dễ chịu."
 
-[[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-
-[[internal_links]]
-ref = "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md"
-
-[[internal_links]]
-ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
-
-[[internal_links]]
-ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
-title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
-
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
-
 [[tom_tat_nhanh]]
 label = "Khu vực"
 value = "Haeundae-gu, Busan"
@@ -108,7 +81,6 @@ label = "Thời gian nên dành"
 [[tom_tat_nhanh]]
 label = "Lưu ý mùa hè"
 +++
-
 Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc biển Hàn Quốc — bãi biển dài 1,5 km cát trắng, sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ. Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Haeundae đứng thứ hai.
 
 

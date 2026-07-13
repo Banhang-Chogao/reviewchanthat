@@ -29,38 +29,6 @@ image_query = "cách mạng xe điện ev"
 image_alt = "Ảnh minh họa Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới? — nguồn Pexels"
 date_display = "12-07-2026 07:44:37 GMT +7"
 
-[[internal_links]]
-ref = "posts/quyen-chu-quyen-na-uy-government-pension-fund-global.md"
-title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
-
-[[internal_links]]
-ref = "posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.md"
-title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
-
-[[internal_links]]
-ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
-title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-
-[[internal_links]]
-ref = "posts/di-han-thang-10-mac-gi.md"
-title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
-
-[[internal_links]]
-ref = "posts/di-han-thang-11-mac-gi.md"
-title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-thai-mua-mua.md"
-title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
-
-[[internal_links]]
-ref = "posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md"
-title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-
 [[faq]]
 question = "Q: Xe điện ở Na Uy đắt không?"
 answer = "A: Không (sau khi khỏi thuế). Tesla Model 3 giá khoảng 5-7 triệu VND ở Na Uy, nhưng ở Mỹ ~ 8-10 triệu VND. Ngoài Tesla, có Nissan Leaf (~ 2.5 triệu VND), BMW i3 (~ 3-4 triệu VND)."
@@ -77,7 +45,6 @@ answer = "A: Sẽ trở thành \"quốc gia công nghệ xanh\". Bán pin, công
 question = "Q: Có xe nào khác ngoài EV được bán ở Na Uy không?"
 answer = "A: Có, nhưng rất ít. Những xe xăng còn lại bị coi như \"lỗi thời\" bằng cách khuyến khích người dùng tránh."
 +++
-
 ## Mâu thuẫn tưởng như không thể: Dầu mỏ vs. Xe điện
 
 Na Uy sản xuất dầu mỏ, bán dầu mỏ, và kiếm hàng tỷ USD từ dầu mỏ. Thế nhưng vào năm 2024, **hơn 90% xe bán ra ở Na Uy là xe điện**.

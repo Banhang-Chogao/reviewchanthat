@@ -33,40 +33,7 @@ draft = false
 [ai_summary]
 items = ["Bài 1 (Pillar Gốc): e^(rt) - compound interest, discount factor e^(-rt)", "Bài 2-3: log-return, portfolio theory, Sharpe ratio, CAPM, beta", "Bài 4-6: Insurance (S(t)=e^(-λt)), CFA, FRM, VaR, CVaR", "Bài 7-9: Investment Banks (Greeks), BlackRock (Aladdin, factors), Renaissance (patterns)", "Bài 10-13: Stock valuation (DCF, P/E), Black-Scholes, Risk Mgmt, Monte Carlo", "Bài 14-15: AI (deep learning, NLP, RL), tổng kết & tương lai", "Chiều sâu: Từ e^(-rt) (đơn giản) đến Transformer (phức tạp)"]
 draft = false
-
-[[internal_links]]
-ref = "posts/ham-so-mu-e-trong-tai-chinh-la-gi.md"
-title = "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
-
-[[internal_links]]
-ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
-title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
-
-[[internal_links]]
-ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-
-[[internal_links]]
-ref = "posts/cfa-dung-toan-hoc-gi.md"
-title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
-
-[[internal_links]]
-ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
-title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
-
-[[internal_links]]
-ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
-title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
-
-[[internal_links]]
-ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
-title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
-
-[[internal_links]]
-ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
-title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
 +++
-
 **Series 15/15 — Tổng kết.**
 
 Chúng ta đã học:

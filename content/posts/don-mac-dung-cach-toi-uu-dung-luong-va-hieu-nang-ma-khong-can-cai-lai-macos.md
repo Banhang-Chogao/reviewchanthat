@@ -63,40 +63,11 @@ question = "Tại sao Desktop nhiều file làm Mac chậm?"
 answer = "macOS render từng icon trên Desktop như một cửa sổ Finder riêng — mỗi icon là một process thumbnail nhỏ. Với 50–100 file trên Desktop, macOS phải duy trì hàng chục thumbnail cùng lúc, tiêu tốn CPU và RAM, đặc biệt là file ảnh/video lớn (vì macOS phải tạo preview). Desktop lý tưởng: dưới 10 file. Số còn lại nên cho vào thư mục Documents hoặc Downloads. Bạn vẫn có thể truy cập nhanh qua Finder sidebar hoặc Spotlight."
 
 [[internal_links]]
-ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon.md"
-title = "Cuộc sống số năm 2026: 30 thói quen"
-
-[[internal_links]]
 ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
 title = "Dọn iPhone như thế nào để máy luôn mượt"
 image_attribution_checked_at = "2026-07-12T08:49:00+07:00"
 image_query = "dọn mac đúng cách tối"
-
-[[internal_links]]
-ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
-title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-
-[[internal_links]]
-ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
-title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
-
-[[internal_links]]
-ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
-title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối"
-
-[[internal_links]]
-ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
-title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
-
-[[internal_links]]
-ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
-title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại"
-
-[[internal_links]]
-ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
-title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
 +++
-
 Bạn mở "About This Mac" → tab Storage — và con số hiện ra: **23GB còn trống trên 256GB**. Bạn tự hỏi: "Rõ ràng mình không lưu gì nhiều, sao ổ cứng đầy thế?"
 
 Câu trả lời: macOS có một tài năng đặc biệt — **giấu rác rất tài tình**. File cache nằm sâu trong ~/Library, iOS backups cũ không ai nhớ, file ngôn ngữ 50MB cho 20 thứ tiếng bạn không bao giờ dùng, và hàng tá app cài từ thời đại học vẫn nằm đó.

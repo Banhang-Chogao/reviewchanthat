@@ -60,42 +60,6 @@ answer = "Busan, Jeju biển đẹp. Seoul có công viên nước, indoor. Đà
 [[faq]]
 answer = "Mang áo mưa nhẹ, giày chống nước, lên lịch dự phòng indoor. Xem [Seoul ngày mưa nên đi đâu]({{< ref \"posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh\" >}})."
 
-[[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-
-[[internal_links]]
-ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
-
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-
-[[internal_links]]
-ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
-
-[[internal_links]]
-ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
-
-[[internal_links]]
-ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md"
-
-[[internal_links]]
-ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
-
 [[tom_tat_nhanh]]
 label = "Thời gian"
 value = "Tháng 7–8 (cao điểm hè)"
@@ -116,7 +80,6 @@ value = ""
 label = "Lưu ý"
 value = ""
 +++
-
 Hàn Quốc mùa hè — tháng 7 nóng ẩm, tháng 8 nắng rang — nhưng không phải là không đi được. Nếu chọn đúng điểm, bạn vẫn có một chuyến đi trọn vẹn: tắm biển Busan, lặn ngụp công viên nước, thăm làng cổ giữa rừng xanh, hoặc trốn trong quán cà phê indoor giữa cơn mưa rào.
 
 Bài viết này tổng hợp **15 điểm tránh nóng, tránh mưa** kèm lịch trình gợi ý 3–7 ngày, giúp bạn tận hưởng mùa hè Hàn Quốc mà không sợ thời tiết.

@@ -28,38 +28,6 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "xu hướng du lịch may"
 image_alt = "Ảnh minh họa Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt — nguồn Pexels"
-
-[[internal_links]]
-ref = "posts/trao-luu-green-camping-cam-trai-hoang-so.md"
-title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
-
-[[internal_links]]
-ref = "posts/cong-thuc-do-uong-giai-nhiet-home-cafe.md"
-title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
-
-[[internal_links]]
-ref = "posts/ky-su-ha-giang-nhung-khuc-cua-va-ky-uc.md"
-title = "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
-
-[[internal_links]]
-ref = "posts/co-nen-cho-iphone-18-khong.md"
-title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
-
-[[internal_links]]
-ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
-title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
-ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
-title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
 +++
 Giữa lòng Sài Gòn nắng cháy da người 37 độ C, hàng ngàn bạn trẻ đang lặng lẽ đóng laptop, vác ba lô lên và… biến mất khỏi thành phố vào mỗi cuối tuần. Họ không mua tour 3 ngày 2 đêm giá rẻ, không lên xe giường nằm đi Đà Lạt theo kiểu "ăn uống — chụp ảnh — về". Thay vào đó, họ tìm đến những chuyến đi tự may đo: trekking xuyên rừng, cắm trại bên hồ vắng, hoặc ở homestay giữa bản làng người dân tộc thiểu số. Đây không đơn thuần là trào lưu. Đây là cách nghỉ dưỡng đang được định nghĩa lại.
 

@@ -48,39 +48,6 @@ answer = "Tổng khoảng 200.000–300.000 KRW (vé tham quan + ăn uống + di
 [[faq]]
 answer = "Tàu điện ngầm là chính. Mua T-money card, nạp 20.000 KRW đủ đi 3 ngày."
 
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-
-[[internal_links]]
-ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-
-[[internal_links]]
-ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-
-[[internal_links]]
-ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
-
-[[internal_links]]
-ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
-
 [[tom_tat_nhanh]]
 label = "Thời gian"
 value = "3 ngày"
@@ -97,7 +64,6 @@ label = "Di chuyển"
 [[tom_tat_nhanh]]
 label = "Điểm nhấn"
 +++
-
 Lịch trình này được thiết kế riêng cho mùa mưa — ưu tiên điểm indoor, kết nối bằng tàu điện ngầm và đi bộ có mái che.
 
 ## Ngày 1: Trung tâm lịch sử & văn hóa

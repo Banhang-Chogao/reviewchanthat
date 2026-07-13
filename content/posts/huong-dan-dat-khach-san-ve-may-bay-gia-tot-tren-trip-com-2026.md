@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T08:41:40+07:00"
 image_query = "hướng dẫn đặt khách sạn"
 date_display = "13-07-2026 10:05:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
-title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
-
-[[internal_links]]
-ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
-title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
-
-[[internal_links]]
-ref = "posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.md"
-title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu"
-
-[[internal_links]]
-ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
-title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
-
-[[internal_links]]
-ref = "posts/ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa.md"
-title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
-
-[[internal_links]]
-ref = "posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.md"
-title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
-
-[[internal_links]]
-ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
-title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
-
-[[internal_links]]
-ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
-title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
-
 [[faq]]
 question = "Đặt phòng trên Trip.com có cần tạo tài khoản không?"
 answer = "Không bắt buộc, bạn có thể đặt ở chế độ khách, nhưng tạo tài khoản giúp lưu lịch sử đặt chỗ, nhận ưu đãi và xử lý đổi/hủy nhanh hơn khi cần hỗ trợ."

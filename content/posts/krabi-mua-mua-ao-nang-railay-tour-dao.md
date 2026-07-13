@@ -61,34 +61,9 @@ ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
 title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
 
 [[internal_links]]
-ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
-title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
-[[internal_links]]
-ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
-title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-
-[[internal_links]]
-ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
-title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
-
-[[internal_links]]
-ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
-title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
-
-[[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
-
-[[internal_links]]
-ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
-title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
-
-[[internal_links]]
-ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
-title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
 +++
-
 ## Krabi mùa mưa — còn gì để chơi?
 
 Krabi là một trong những tỉnh ven biển đẹp nhất Thái Lan, nổi tiếng với những vách đá vôi dựng đứng, bãi biển Railay chỉ có thể vào bằng thuyền, và hệ thống tour đảo phong phú. Nhưng vào mùa mưa (tháng 5–10), khi biển Andaman động sóng, Krabi có còn đáng đi không?

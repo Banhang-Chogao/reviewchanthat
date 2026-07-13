@@ -56,10 +56,6 @@ ref = "posts/iphone-18-co-gi-moi.md"
 title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
 
 [[internal_links]]
-ref = "posts/iphone-18-khi-nao-ra-mat.md"
-title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
-
-[[internal_links]]
 ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
 title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
 
@@ -75,7 +71,6 @@ title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầ
 ref = "posts/iphone-18-vs-iphone-17.md"
 title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
 +++
-
 Camera là lý do nhiều người **chờ iPhone mới** — nhất là khi Apple được đồn sẽ đưa **khẩu độ biến đổi** (variable aperture) lên dòng Pro và nâng **camera trước 24MP** cho cả dải sản phẩm. Nhưng Apple **chưa công bố** iPhone 18; mọi thông số dưới đây là **tin đồn** được tổng hợp từ [MacRumors](https://www.macrumors.com/roundup/iphone-18-pro/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more) và analyst.
 
 Bài này là phần 8 trong [series iPhone 18 có gì mới](/posts/iphone-18-co-gi-moi/) — tập trung **ảnh và video**, không lặp lại toàn bộ tin đồn chip hay màu sắc. Nếu bạn hay chụp đêm, chân dung hoặc quay vlog, đây là mảng đáng đọc trước khi chọn giữa **mua iPhone 17** hay **chờ Pro 2026**.

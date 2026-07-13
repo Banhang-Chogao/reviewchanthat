@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T14:33:56+07:00"
 image_query = "mobile banking payment app"
 date_display = "13-07-2026 14:11:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
-title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
-
-[[internal_links]]
-ref = "posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.md"
-title = "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?"
-
-[[internal_links]]
-ref = "posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.md"
-title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
-
-[[internal_links]]
-ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
-title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
-
-[[internal_links]]
-ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
-title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
-
-[[internal_links]]
-ref = "posts/lich-su-agoda-tu-startup-den-booking-holdings.md"
-title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
-
-[[internal_links]]
-ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
-title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
-
-[[internal_links]]
-ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
-title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
-
 [[faq]]
 question = "Agoda kiếm tiền như thế nào?"
 answer = "Agoda kiếm tiền chủ yếu qua hoa hồng khách sạn trả (mô hình agency), chênh lệch giá khi mua sỉ bán lẻ (mô hình merchant), cùng doanh thu từ quảng cáo hiển thị và chương trình đối tác liên kết."

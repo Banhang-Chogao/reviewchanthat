@@ -64,40 +64,7 @@ label = "Hợp với"
 [[tom_tat_nhanh]]
 label = "Điểm chính"
 image_attribution_checked_at = "2026-07-14T01:19:11+07:00"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
-title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày"
-
-[[internal_links]]
-ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
-title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
-
-[[internal_links]]
-ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
-title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
-
-[[internal_links]]
-ref = "posts/khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026.md"
-title = "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10"
-
-[[internal_links]]
-ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
-title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
-[[internal_links]]
-ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
-title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-
-[[internal_links]]
-ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
-title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
 +++
-
 Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Nghe đơn giản, nhưng mình mất kha khá thời gian mới áp dụng được. Dưới đây là những thói quen giúp bạn làm được điều đó.
 
 ### Nguyên tắc 30 ngày

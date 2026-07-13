@@ -43,32 +43,8 @@ ref = "posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026.md"
 title = "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?"
 
 [[internal_links]]
-ref = "posts/ios-27-cai-thien-pin-iphone.md"
-title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
-
-[[internal_links]]
-ref = "posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md"
-title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
-
-[[internal_links]]
 ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
-title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
-
-[[internal_links]]
-ref = "posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.md"
-title = "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?"
 
 [[faq]]
 question = "Tôi nên bắt đầu với số tiền bao nhiêu?"

@@ -33,40 +33,7 @@ draft = false
 [ai_summary]
 items = ["Actuarial science là ngành học xác suất + thống kê + tài chính để quản lý rủi ro dài hạn", "Xác suất sống còn: S(t) = e^(-λt), nơi λ là tỷ lệ nguy hiểm hàng năm", "Phí bảo hiểm = Expected loss (khoản tiền trung bình sẽ trả) + overhead + lợi nhuận", "Present value của quyền lợi bảo hiểm: PV = Benefit × e^(-rt) × P(survive)", "Dự phòng kỹ thuật: tiền công ty giữ lại để trả bảo hiểm trong tương lai", "Monte Carlo: mô phỏng hàng triệu kịch bản để ước lượng rủi ro tối đa", "Ví dụ: Tính phí bảo hiểm nhân thọ 20 năm cho người 35 tuổi"]
 draft = false
-
-[[internal_links]]
-ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
-title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
-
-[[internal_links]]
-ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
-title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
-
-[[internal_links]]
-ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
-title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
-
-[[internal_links]]
-ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
-title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
-
-[[internal_links]]
-ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
-title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
-
-[[internal_links]]
-ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
-title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
-
-[[internal_links]]
-ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
-title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
-
-[[internal_links]]
-ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
-title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
 +++
-
 Khi bạn mua bảo hiểm nhân thọ, công ty bảo hiểm không chỉ "đoán" phí. Họ dùng **toán học cao cấp** để:
 1. Ước lượng xác suất bạn sống còn đến cuối hợp đồng
 2. Tính toán khoản tiền kỳ vọng phải trả

@@ -30,10 +30,6 @@ image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "niklas zennström tiểu sử nhà"
 
 [[internal_links]]
-ref = "posts/estonia-quoc-gia-so-hoa-khai-sinh-skype.md"
-title = "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
-
-[[internal_links]]
 ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
 title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
 
@@ -45,27 +41,10 @@ title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châ
 ref = "posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.md"
 title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
 
-[[internal_links]]
-ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
-title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
 [attribution]
 copyright = "Trong khi Skype được coi là một thành công rực rỡ, Kazaa lại là một chương phức tạp hơn. Mặc dù công nghệ P2P ở cốt lõi của Kazaa là trung lập, ứng dụng này nhanh chóng bị sử dụng để chia sẻ nhạc bất hợp pháp. Zennström và Friis tuyên bố rằng họ không có trách nhiệm pháp lý cho những cách sử dụng sai của ứng dụng, nhưng ngành công nghiệp âm nhạc đã không đồng ý."
 source_note = "Năm 2006, Zennström và các đối tác khác phải trả một khoản tiền đền bù lớn cho các công ty đĩa nhạc lớn. Dù không phải là Zennström cá nhân phải chịu chi phí toàn bộ, nhưng điều này chứng minh rằng ngay cả những ý tưởng công nghệ tốt nhất cũng có thể bị \"bẫy\" bởi những vấn đề pháp lý không lường trước."
 +++
-
 ## Giới Thiệu Tổng Quan
 
 Niklas Zennström là một trong những nhân vật công nghệ quan trọng nhất của thế kỷ 21, dù tên tuổi của ông không nổi tiếng bằng Steve Jobs hay Bill Gates. Sinh năm 1966, ông là một công dân Thụy Điển đã định hình lại cách con người giao tiếp toàn cầu thông qua việc sáng lập Skype - ứng dụng cho phép hàng tỷ người gọi điện video miễn phí qua Internet. Ngoài ra, ông còn là một nhà đầu tư mạo hiểm thành công, người khởi động công ty khởi nghiệp, và những năm gần đây, một người ủng hộ mạnh mẽ cho công nghệ bền vững và năng lượng sạch.

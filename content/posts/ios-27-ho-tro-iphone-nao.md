@@ -53,10 +53,6 @@ ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
 title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
 
 [[internal_links]]
-ref = "posts/ios-27-camera-anh-video-iphone.md"
-title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
-
-[[internal_links]]
 ref = "posts/ios-27-co-gi-moi.md"
 title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
 
@@ -71,17 +67,7 @@ title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
 [[internal_links]]
 ref = "posts/ios-27-cai-thien-pin-iphone.md"
 title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
-
-[[internal_links]]
-ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
-title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
-
-[[internal_links]]
-ref = "posts/macos-27-beta-co-nen-cai-khong.md"
-title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
-
 “iPhone của mình còn lên iOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **iPhone 11**, **iPhone 12 mini** hoặc **iPhone 13** mua từ 2020–2022. Câu trả lời ngắn theo Apple: **hầu hết iPhone từ 2019 trở lên đều trong danh sách** — nhưng **Apple Intelligence** lại là câu chuyện khác.
 
 Bài này thuộc series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/), tập trung vào **tương thích phần cứng** thay vì liệt kê tính năng. Nếu bạn chỉ cần bảo mật và hiệu năng shell, iPhone 11 vẫn đủ. Nếu bạn mua máy vì Siri AI, cần đọc kỹ phần Apple Intelligence.

@@ -69,36 +69,7 @@ url = "https://baochinhphu.vn/nhnn-cam-su-dung-bitcoin-102229280.htm"
 [[internal_links]]
 ref = "posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.md"
 title = "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì"
-
-[[internal_links]]
-ref = "posts/quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026.md"
-title = "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z"
-
-[[internal_links]]
-ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
-title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
-title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
-
-[[internal_links]]
-ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-
-[[internal_links]]
-ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
-title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
 +++
-
 Nhiều người Việt đã mua Bitcoin từ vài năm trước, tích USDT làm chỗ "gửi tạm", hoặc nhận token từ một dự án. Đến lúc bán ra và rút tiền về ngân hàng, câu hỏi mới thật sự xuất hiện: **khoản tiền này có phải nộp thuế không, và nếu có thì nộp thế nào?**
 
 Câu hỏi đúng ở đây không chỉ là "crypto có bị đánh thuế không". Câu hỏi đúng là: *giao dịch cụ thể của bạn tạo ra loại thu nhập hay dòng tiền nào, và pháp luật hiện hành nhìn nhận loại thu nhập đó ra sao*. Người bán một lần sau ba năm nắm giữ và người trade hàng chục lệnh mỗi tuần có bức tranh thuế không giống nhau.

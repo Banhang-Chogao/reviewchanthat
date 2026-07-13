@@ -77,12 +77,7 @@ ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mu
 
 [[internal_links]]
 ref = "posts/xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd.md"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
 +++
-
 Tháng 7 không phải là "mùa đẹp trong bưu thiếp" của Hàn Quốc — đó là mùa hè thật sự: nóng, ẩm, thỉnh thoảng mưa xối xả, nhưng đổi lại là biển, lễ hội và giá phòng chưa chạm đỉnh cao điểm tháng 8. Nếu bạn đang cân nhắc du lịch Hàn Quốc tháng 7 năm 2026, bài này gom lại những gì cần biết: thời tiết ra sao, nên chọn Seoul, Busan hay Jeju, mặc gì cho đúng và xếp lịch trình thế nào để mưa không phá hỏng chuyến đi.
 
 ## Thời tiết Hàn Quốc tháng 7: nóng ẩm và có mùa mưa Changma

@@ -28,40 +28,7 @@ image_alt = "Ảnh minh họa Từ Spotify Đến Bluetooth: Thụy Điển Đã
 date_display = "11-07-2026 14:44:58 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "spotify bluetooth thụy điển thống"
-
-[[internal_links]]
-ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
-title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
-
-[[internal_links]]
-ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
-title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
-
-[[internal_links]]
-ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
-title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
-ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
-title = "App Store gatekeeper: Apple sợ mất điều gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-co-gi-moi.md"
-title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
-
-[[internal_links]]
-ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
-title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
 +++
-
 Khi bạn nghe nhạc trên Spotify, kết nối tai nghe qua Bluetooth, uống sữa từ hộp giấy Tetra Pak, hay thắt dây an toàn trên ô tô, bạn đang sử dụng những phát minh có chung một nguồn gốc: Thụy Điển. Quốc gia Bắc Âu với chỉ 10,5 triệu dân này là một cỗ máy sản xuất công nghệ âm thầm nhưng cực kỳ hiệu quả. Bài viết này phân tích từng phát minh làm thay đổi thế giới đến từ Thụy Điển, lý giải tại sao một quốc gia nhỏ bé lại có thể tạo ra ảnh hưởng lớn đến vậy, và rút ra những bài học cho các hệ sinh thái công nghệ khác, trong đó có Việt Nam.
 
 ## Spotify: Cuộc Cách Mạng Nghe Nhạc Không Tưởng Từ Stockholm

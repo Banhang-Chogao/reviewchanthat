@@ -67,36 +67,9 @@ ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-v
 title = "Cuộc sống số năm 2026: 30 thói quen"
 
 [[internal_links]]
-ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
-title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm"
-image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
-image_query = "mobile banking payment app"
-
-[[internal_links]]
-ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
-title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-
-[[internal_links]]
-ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
-title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
-
-[[internal_links]]
-ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
-title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
-
-[[internal_links]]
-ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
-title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối"
-
-[[internal_links]]
 ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
 title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
-
-[[internal_links]]
-ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
-title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
 +++
-
 Bạn đã bao giờ mất 10 phút để tìm cái file hợp đồng ký tháng trước? Hay cảm thấy bực mình khi Desktop có 50+ file với tên "Cuối cùng.docx", "Final_v2.docx", "Thiệt_cuối_Final_Final.docx"?
 
 Nếu câu trả lời là "có", bạn không đơn độc.

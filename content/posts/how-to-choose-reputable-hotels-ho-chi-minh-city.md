@@ -37,34 +37,6 @@ date_display = "12-07-2026 21:40:00 GMT +7"
 ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
 title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
-[[internal_links]]
-ref = "posts/du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem.md"
-title = "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-nha-trang-2026.md"
-title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com.md"
-title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
-
-[[internal_links]]
-ref = "posts/michelin-restaurants-ho-chi-minh-city-must-try.md"
-title = "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)"
-
-[[internal_links]]
-ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
-title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
-
-[[internal_links]]
-ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
-title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
 [[external_links]]
 url = "https://www.trip.com/"
 title = "Trip.com — book hotels in Ho Chi Minh City"
@@ -105,7 +77,6 @@ answer = "Yes. This guide includes a Trip.com affiliate/advertising placement, c
 copyright = "© 2026 Review Chân Thật."
 source_note = "Written independently as a practical guide; hotel names are well-known public references, not paid placements. This post contains a labelled Trip.com advertising/affiliate link. Illustrative images are from Pexels/Pixabay. Prices, availability and services change — always verify before booking."
 +++
-
 Ho Chi Minh City — still widely called Saigon — is the energetic, fast-moving heart of southern Vietnam, and for most international travellers it is the first stop on a longer journey. It is a city of contrasts: French-colonial facades next to glass towers, quiet rooftop cafés above roaring motorbike traffic, world-class restaurants a short walk from street-food stalls. Where you choose to sleep shapes your entire experience here, because the difference between a well-located, trustworthy hotel and a cheap-but-troublesome one is the difference between loving the city and fighting it. This guide walks you through how to choose a reputable hotel in Ho Chi Minh City in 2026 — which areas to pick, what to check before you pay, and how to avoid the common traps that catch first-time visitors.
 
 Choosing accommodation in an unfamiliar megacity can feel overwhelming, so the goal here is to give you a clear framework rather than just a list of names. Once you understand the logic of the districts and the signals that separate a genuine property from a risky one, you can book with confidence anywhere in the city.

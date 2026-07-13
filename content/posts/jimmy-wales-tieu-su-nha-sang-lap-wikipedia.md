@@ -38,30 +38,6 @@ title = "Bram Moolenaar — tiểu sử cha đẻ Vim: sự nghiệp, di sản v
 ref = "posts/luoc-su-vim-editor.md"
 title = "Lược sử hình thành Vim: từ vi trên máy Amiga đến trình soạn thảo huyền thoại của lập trình viên"
 
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
-title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
-ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
-title = "App Store gatekeeper: Apple sợ mất điều gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-co-gi-moi.md"
-title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
-
-[[internal_links]]
-ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
-title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
-
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Jimmy_Wales"
 title = "Jimmy Wales — Wikipedia"
@@ -106,7 +82,6 @@ answer = "Ông tin vào việc mọi người trên thế giới đều được
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tiểu sử tham khảo từ bài Jimmy Wales trên Wikipedia và trang Wikimedia Foundation; nội dung được viết lại và diễn giải bằng góc nhìn riêng, không sao chép câu chữ. Các chi tiết nhạy cảm về quan điểm chính trị được lược bớt để giữ bài trung lập. Ảnh minh họa lấy từ Pexels/Pixabay. Thông tin có thể thay đổi theo thời gian."
 +++
-
 Mỗi ngày, hàng trăm triệu người trên thế giới mở Wikipedia để tra một khái niệm, kiểm chứng một sự kiện, hay đơn giản là thỏa mãn một cơn tò mò lúc nửa đêm. Nó miễn phí, không quảng cáo, có mặt bằng gần như mọi ngôn ngữ, và đã trở thành một phần hạ tầng tri thức của nhân loại đến mức ta gần như quên mất rằng nó do con người tạo ra. Người đứng sau ý tưởng ấy là Jimmy Wales — và câu chuyện của ông thú vị không chỉ vì những gì ông tạo ra, mà vì những gì ông đã chọn không làm: ông không biến Wikipedia thành cỗ máy kiếm tiền, dù hoàn toàn có thể.
 
 Bài viết này phác lại chân dung Jimmy Wales: từ một dân tài chính ở Alabama đến người khai sinh bách khoa toàn thư lớn nhất lịch sử, triết lý đứng sau lựa chọn của ông, và cuộc sống hiện tại. Nếu bạn thích những chân dung về người kiến tạo tri thức và công cụ, blog cũng có bài về [Bram Moolenaar, cha đẻ Vim](/posts/bram-moolenaar-tieu-su-cha-de-vim/) — một con người khác cũng chọn cống hiến hơn là làm giàu.

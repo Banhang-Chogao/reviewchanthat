@@ -45,22 +45,6 @@ title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, t
 ref = "posts/luoc-su-vim-editor.md"
 title = "Lược sử hình thành Vim: từ vi trên máy Amiga đến trình soạn thảo huyền thoại của lập trình viên"
 
-[[internal_links]]
-ref = "posts/co-nen-cho-iphone-18-khong.md"
-title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Wikimedia_Foundation"
 title = "Wikimedia Foundation — Wikipedia"
@@ -105,7 +89,6 @@ answer = "Không. Nội dung được tổng hợp và diễn giải lại bằn
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tham khảo từ bài Wikimedia Foundation trên Wikipedia và trang chủ chính thức của Quỹ Wikimedia; nội dung được viết lại và diễn giải bằng góc nhìn riêng, không sao chép câu chữ. Ảnh minh họa lấy từ Pexels/Pixabay. Các số liệu tài chính, nhân sự và hạ tầng có thể thay đổi theo thời gian."
 +++
-
 Có một ngộ nhận khá phổ biến về Wikipedia: rằng nó là một trang web "để đó tự chạy". Bạn gõ vào một từ khóa, bài viết hiện ra, và mọi thứ diễn ra êm ru đến mức người ta dễ tưởng tượng rằng đằng sau nó chỉ là vài cái máy chủ cắm điện ở đâu đó, chạy quanh năm mà chẳng cần ai đụng tới. Thực tế thì ngược lại hoàn toàn. Đằng sau bách khoa toàn thư lớn nhất lịch sử là cả một bộ máy vận hành thường niên: những chiến dịch được lên kế hoạch từng mùa, một hội nghị toàn cầu tổ chức mỗi năm, một hệ thống hạ tầng trải khắp nhiều châu lục, và một mạng lưới các tổ chức cộng đồng được cấp tiền để hoạt động.
 
 Bài viết này sẽ mổ xẻ những hoạt động định kỳ, thường niên đó của Wikipedia gồm những gì — và quan trọng không kém, tiền để làm tất cả những việc ấy đến từ đâu. Nếu bạn từng thắc mắc vì sao một trang web không quảng cáo lại cần nhiều nguồn lực đến vậy, đây là câu trả lời khá chi tiết. Đứng sau tất cả là **Quỹ Wikimedia** (Wikimedia Foundation), tổ chức phi lợi nhuận vận hành Wikipedia cùng nhiều dự án anh em của nó.

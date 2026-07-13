@@ -74,26 +74,13 @@ ref = "posts/iphone-18-khi-nao-ra-mat.md"
 title = "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone"
 
 [[internal_links]]
-ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
-title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
-
-[[internal_links]]
 ref = "posts/iphone-18-pro-max-co-gi-moi.md"
 title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất"
 
 [[internal_links]]
-ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
-title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
-
-[[internal_links]]
 ref = "posts/iphone-18-vs-iphone-17.md"
 title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
-
-[[internal_links]]
-ref = "posts/iphone-18-mau-gi-dark-cherry.md"
-title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
 +++
-
 Mỗi thế hệ iPhone, chip Apple Silicon là **trục kỹ thuật** quyết định hiệu năng, pin, nhiệt và khả năng chạy **Apple Intelligence**. Với **iPhone 18**, tin đồn tập trung vào **A20** và **A20 Pro** trên tiến trình **TSMC N2 (2nm)** — bước nhảy sau **A18/A19 3nm** trên iPhone 16/17. Apple **chưa công bố** chip hay tên A20; bài viết giải thích **vì sao 2nm được quan tâm** và **điều gì là tin đồn có nguồn**.
 
 > **Lưu ý biên tập (tháng 7/2026):** Apple **chưa công bố** chip iPhone 18. Thông tin từ [MacRumors iPhone 18 Pro](https://www.macrumors.com/roundup/iphone-18-pro/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more) — chưa được Apple xác nhận được gắn nhãn **[Tin đồn / chưa xác nhận]** hoặc **[Báo chí / analyst]**.

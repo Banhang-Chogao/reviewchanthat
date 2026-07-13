@@ -88,40 +88,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
-
-[[internal_links]]
-ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
-title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
-
-[[internal_links]]
-ref = "posts/co-nen-len-ios-26-5-2-khong.md"
-title = "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
-
-[[internal_links]]
-ref = "posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md"
-title = "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói"
-
-[[internal_links]]
-ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
-title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
-
-[[internal_links]]
-ref = "posts/macos-27-apple-intelligence-macbook.md"
-title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
-
-[[internal_links]]
-ref = "posts/ios-27-co-gi-moi.md"
-title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
-
-[[internal_links]]
-ref = "posts/macos-27-co-gi-moi.md"
-title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
-
-[[internal_links]]
-ref = "posts/macos-27-beta-co-nen-cai-khong.md"
-title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
 +++
-
 Bạn có nhớ cảm giác mỗi lần WWDC tới gần không? Cộng đồng Apple lại chia làm hai phe: một phe chỉ muốn biết có đáng lên iOS mới không, phe kia soi từng dòng code trong beta developer. **WWDC26** cũng không ngoại lệ — nhưng năm nay áp lực cao hơn nhiều.
 
 Sau một năm Apple Intelligence chưa thực sự thuyết phục, Apple buộc phải chứng minh họ vẫn kiểm soát được trải nghiệm AI. Theo mình, họ đã làm được — dù vẫn còn những điểm cần để mắt.

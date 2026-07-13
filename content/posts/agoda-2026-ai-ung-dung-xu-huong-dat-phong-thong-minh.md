@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T14:34:07+07:00"
 image_query = "agoda 2026 ai ứng dụng"
 date_display = "13-07-2026 14:05:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
-title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
-
-[[internal_links]]
-ref = "posts/lich-su-agoda-tu-startup-den-booking-holdings.md"
-title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
-
-[[internal_links]]
-ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
-title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
-
-[[internal_links]]
-ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
-title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
-
-[[internal_links]]
-ref = "posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.md"
-title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
-
-[[internal_links]]
-ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
-title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
-
-[[internal_links]]
-ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
-title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
-[[internal_links]]
-ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
-title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
-
 [[faq]]
 question = "Agoda AI là gì?"
 answer = "Là tập hợp các công nghệ trí tuệ nhân tạo mà Agoda tích hợp vào ứng dụng, bao gồm chatbot hỗ trợ đặt phòng, gợi ý cá nhân hóa dựa trên hành vi tìm kiếm, và các công cụ ghép ảnh - đánh giá để giúp người dùng ra quyết định nhanh hơn."

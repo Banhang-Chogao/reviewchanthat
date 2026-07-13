@@ -56,26 +56,6 @@ title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 ref = "posts/hoc-sinh-finland-truong-hoc-hoc-tap.md"
 title = "Hệ thống giáo dục Phần Lan: Vì sao có những học sinh giỏi nhất thế giới?"
 
-[[internal_links]]
-ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
-title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
-
-[[internal_links]]
-ref = "posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.md"
-title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
-
-[[internal_links]]
-ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
-title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
-
-[[internal_links]]
-ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
-title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày"
-
-[[internal_links]]
-ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
-title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
-
 [[faq]]
 question = "Câu 1: Nếu chỉ dựa vào phổ điểm bất thường để kết luận một tỉnh có gian lận thì có thể bị oan cho những vùng đất đột nhiên hiếu học hay không?"
 answer = "Thống kê không bao giờ dùng một chỉ số duy nhất để kết tội. Phổ điểm bất thường chỉ là tín hiệu đầu tiên để kích hoạt quy trình điều tra sâu hơn. Để tránh việc hàm oan cho những trường hợp học tài thi phận hoặc một địa phương có sự bứt phá thực sự về chất lượng dạy học, các nhà khoa học sẽ tiếp tục bóc tách dữ liệu ở tầng sâu hơn: kiểm tra xem điểm số cao đó có đồng thuận với lịch sử học tập (học bạ) của thí sinh đó hay không, hoặc tiến hành chấm thẩm định lại một cách ngẫu nhiên. Dữ liệu của một vùng đất hiếu học thật sự sẽ có tính kế thừa và phân bố đều ở các trường điểm, chứ không tập trung cục bộ vào một nhóm đối tượng có học lực trung bình trước đó."
@@ -88,7 +68,6 @@ answer = "Có. Việc một thí sinh khoanh lụi trúng một vài câu khó l
 question = "Câu 3: Tại sao việc trùng nhau ở các câu trả lời sai lại đáng ngờ hơn việc trùng nhau ở các câu trả lời đúng?"
 answer = "Bởi vì đối với một câu hỏi, đường đi đến chân lý (đáp án đúng) chỉ có một con đường duy nhất, nên việc nhiều người cùng đi trên một con đường là hoàn toàn bình thường. Ngược lại, thế giới của sự sai lầm (đáp án sai) lại rất rộng lớn với nhiều ngã rẽ khác nhau (có đến 3 phương án sai khác nhau). Nếu hai người không hề thảo luận hay chép bài của nhau, việc họ liên tục vấp ngã tại cùng một vị trí và cùng chọn một cách sai lầm giống hệt nhau ở hàng chục câu hỏi là một sự trùng hợp dị thường. Nó chỉ ra rằng có một nguồn lực chung (ví dụ: chép bài nhau hoặc cùng nhận một mã đáp án lỗi) đã điều hướng cho hành vi của cả hai."
 +++
-
 Mùa hè năm 2018, khi Bộ Giáo dục và Đào tạo [chính thức công bố phổ điểm thi Trung học phổ thông (THPT) Quốc gia](https://vnexpress.net/chin-thang-vach-tran-manh-gian-lan-thi-thpt-quoc-gia-2018-3909088.html), một bầu không khí kỳ lạ bao trùm lên cộng đồng những người nghiên cứu toán học và khoa học dữ liệu tại Việt Nam. Ngay tại nhà, chỉ với những chiếc máy tính cá nhân kết nối internet, một số thầy giáo dạy toán và chuyên gia phân tích số liệu đã nhận ra những điểm bất thường nghiêm trọng.
 
 Hà Giang — một tỉnh miền núi biên giới phía Bắc, nơi có điều kiện kinh tế - xã hội và chất lượng giáo dục đại trà nằm trong nhóm trung bình thấp của cả nước — bỗng nhiên xuất hiện trên bảng vàng thành tích với tỷ lệ thí sinh đạt điểm 9 trở lên ở môn Vật lý cao gấp hàng chục lần so với hai siêu đô thị dẫn đầu là Hà Nội và Thành phố Hồ Chí Minh. Đáng nói hơn, tổng số lượng thí sinh dự thi của toàn tỉnh Hà Giang chỉ bằng một phần rất nhỏ, một góc khiêm tốn so với quy mô phòng thi khổng lồ của các thành phố lớn.

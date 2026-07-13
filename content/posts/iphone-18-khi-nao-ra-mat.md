@@ -70,14 +70,6 @@ ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
 title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
 
 [[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
-ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
-title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
-
-[[internal_links]]
 ref = "posts/iphone-18-vs-iphone-17.md"
 title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
 
@@ -93,7 +85,6 @@ title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhấ
 ref = "posts/iphone-18-chip-a20-2nm.md"
 title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
 +++
-
 Mỗi năm tháng 9, Apple thường ra mắt iPhone mới cùng iOS bản chính thức — thói quen đã ăn sâu vào tâm lý người mua tại Việt Nam. Với **iPhone 18**, nhiều nguồn báo chí và analyst đồn loạt một kịch bản khác: **không phải tất cả model cùng xuất hiện một lần**. Apple **chưa xác nhận** bất kỳ ngày ra mắt hay chiến lược tách đợt nào; bài viết này tổng hợp tin đồn có nguồn để bạn lên kế hoạch mua máy thực tế hơn.
 
 > **Lưu ý biên tập (tháng 7/2026):** Apple **chưa công bố** iPhone 18. Bài viết tổng hợp tin đồn và phân tích từ [MacRumors](https://www.macrumors.com/roundup/iphone-18/), [AppleInsider](https://appleinsider.com/articles/26/01/23/what-to-expect-from-the-spring-2027-iphone-18-a20-12gb-of-ram-and-more) — mọi mốc thời gian chưa được Apple xác nhận được gắn nhãn **[Tin đồn / chưa xác nhận]** và sẽ cập nhật khi có thông cáo chính thức.

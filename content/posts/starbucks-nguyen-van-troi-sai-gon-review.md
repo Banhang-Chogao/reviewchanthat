@@ -61,38 +61,13 @@ label = "Phù hợp"
 label = "Ảnh"
 
 [[internal_links]]
-ref = "posts/xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026.md"
-title = "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
-title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.md"
-title = "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam"
-
-[[internal_links]]
-ref = "posts/starbucks-vietnam-khong-gian-va-trai-nghiem.md"
-title = "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm 'third place'"
-
-[[internal_links]]
 ref = "posts/starbucks-vietnam-menu-do-uong-nen-thu.md"
 title = "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu"
 
 [[internal_links]]
 ref = "posts/starbucks-vietnam-nhan-vien-va-dich-vu.md"
 title = "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt"
-
-[[internal_links]]
-ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
-title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
-
-[[internal_links]]
-ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"
-title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
 +++
-
 Có những chi nhánh Starbucks bạn ghé một lần rồi thôi, và có những nơi trở thành điểm quen mỗi tuần. Với mình, **Starbucks Nguyễn Văn Trỗi** (Phú Nhuận, TP.HCM) thuộc nhóm thứ hai — nơi mình đã ngồi làm việc, họp nhóm nhỏ, và gọi ly quen đến mức barista nhận ra trước khi mình kịp đọc tên đồ uống.
 
 Bài này là review trải nghiệm thực tế, kèm ảnh chụp tại chi nhánh. Mỗi người có gu khác nhau; mình chia sẻ những gì mình thấy qua nhiều lần ghé — chủ yếu buổi sáng và chiều muộn trong tuần.

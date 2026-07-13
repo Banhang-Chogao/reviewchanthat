@@ -63,40 +63,7 @@ label = "Thị thực nhiều lần"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý quan trọng"
-
-[[internal_links]]
-ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
-title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
-
-[[internal_links]]
-ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
-title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-10.md"
-title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
 +++
-
 Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính "chưa đủ mạnh"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng không rõ điều đó có thật không, và phải chứng minh bằng lương, sao kê hay sổ tiết kiệm? Bạn sợ nộp sai diện, mất phí, rồi rớt visa mà không hiểu vì sao?
 
 Bài này viết để trả lời đúng những lo lắng đó, dựa trên **nguồn chính thức** của Đại sứ quán Hàn Quốc tại Việt Nam và Trung tâm tiếp nhận hồ sơ KVAC. Cần nói rõ ngay từ đầu: **đây không phải dịch vụ visa, không cam kết đậu, và không thể thay thế hướng dẫn hiện hành của cơ quan cấp thị thực.** Đây là bản hướng dẫn giúp bạn hiểu bản chất của diện thu nhập 8.000 USD/năm và chuẩn bị hồ sơ một cách nhất quán, thuyết phục. Quy định visa có thể thay đổi theo thời điểm, nên trước ngày nộp, bạn vẫn phải tự kiểm tra lại trên [trang Đại sứ quán/MOFA](https://overseas.mofa.go.kr/vn-vi/brd/m_2164/view.do?seq=755003) và [trang KVAC](https://www.visaforkorea-vt.com/).

@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T14:33:57+07:00"
 image_query = "credit card finance desk"
 date_display = "13-07-2026 14:10:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.md"
-title = "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?"
-
-[[internal_links]]
-ref = "posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.md"
-title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
-
-[[internal_links]]
-ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
-title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
-
-[[internal_links]]
-ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
-title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
-
-[[internal_links]]
-ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
-title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
-
-[[internal_links]]
-ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
-title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
-
-[[internal_links]]
-ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
-title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
-
-[[internal_links]]
-ref = "posts/lich-su-agoda-tu-startup-den-booking-holdings.md"
-title = "Lịch sử Agoda: từ startup đến thành viên Booking Holdings"
-
 [[faq]]
 question = "Đặt phòng Agoda có an toàn không?"
 answer = "An toàn về mặt công nghệ và thanh toán vì Agoda thuộc Booking Holdings, nhưng rủi ro thực tế như overbooking, hoàn tiền chậm vẫn tồn tại nên bạn cần chủ động phòng ngừa bằng các mẹo trong bài."

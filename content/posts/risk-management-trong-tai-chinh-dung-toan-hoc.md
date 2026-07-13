@@ -33,40 +33,7 @@ draft = false
 [ai_summary]
 items = ["Risk Management = Định lượng, monitor, minimize rủi ro tài chính", "VaR_α = Tổn thất tối đa ở mức tin cậy α% (đã học ở Bài 6)", "Historical VaR: Từ 250 ngày lịch sử, lấy 1% tồi nhất", "Parametric VaR: VaR = Portfolio × Z × σ (giả định phân phối chuẩn)", "Expected Shortfall: Mất lỗ trung bình vượt quá VaR", "Correlation Breakdown: Khi thị trường crash, correlation → 1 (diversification fail!)", "Stress Testing: Kịch bản cực đoan (2008 crisis, COVID, war, etc)"]
 draft = false
-
-[[internal_links]]
-ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
-title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
-
-[[internal_links]]
-ref = "posts/monte-carlo-trong-tai-chinh-la-gi.md"
-title = "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản"
-
-[[internal_links]]
-ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
-title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
-
-[[internal_links]]
-ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
-title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
-
-[[internal_links]]
-ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-
-[[internal_links]]
-ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
-title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
-
-[[internal_links]]
-ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
-title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
-
-[[internal_links]]
-ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
-title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
 +++
-
 **Risk Management** — quản lý rủi ro trong tài chính.
 
 Tại sao quan trọng? Năm 2008, Lehman Brothers, Bear Stearns **collapse**. Lý do: **không quản lý rủi ro tốt**.

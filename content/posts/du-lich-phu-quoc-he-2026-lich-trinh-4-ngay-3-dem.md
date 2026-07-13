@@ -33,38 +33,6 @@ enabled = true
 items = ["Hè (tháng 6–8) là mùa thấp điểm ở Phú Quốc: giá mềm hơn nhưng hay mưa rào buổi chiều, cần lịch trình linh hoạt.", "Chọn khu ở theo nhu cầu: Nam đảo/An Thới đi tour biển, Bãi Trường ngắm hoàng hôn, Dương Đông tiện ăn uống, Bắc đảo hợp gia đình.", "Lịch trình 4 ngày 3 đêm: 1 ngày tour đảo Nam, 1 ngày Bắc đảo, chừa buổi nghỉ tránh nắng và dự phòng mưa.", "Không bịa chi phí: giá vé, phòng và tour đổi theo ngày và cách đặt; bài này giúp bạn tự tính và tự thiết kế lịch."]
 image_query = "du lịch phú quốc hè"
 image_alt = "Ảnh minh họa Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels"
-
-[[internal_links]]
-ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
-title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
-
-[[internal_links]]
-ref = "posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md"
-title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
-
-[[internal_links]]
-ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
-title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
 +++
 ## Vì sao Phú Quốc hè 2026?
 

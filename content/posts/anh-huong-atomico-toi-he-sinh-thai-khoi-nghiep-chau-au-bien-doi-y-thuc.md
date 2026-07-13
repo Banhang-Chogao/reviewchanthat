@@ -28,55 +28,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "ảnh hưởng atomico tới hệ"
 image_alt = "Ảnh minh họa Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội — nguồn Pexels"
-
-[[internal_links]]
-ref = "posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.md"
-title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"
-image_source = "Pexels"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_creator = "Thien Le Duy"
-image_alt = "Ảnh hưởng của Atomico tới hệ sinh thái khởi nghiệp châu Âu"
-image_source_url = "https://www.pexels.com/photo/vibrant-cha-tam-church-gate-in-ho-chi-minh-city-31484522/"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator_url = "https://www.pexels.com/@thienleduyphoto"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-date_display = "11-07-2026 15:00:00 GMT +7"
-
-[[internal_links]]
-ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
-title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
-
-[[internal_links]]
-ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
-title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
-
-[[internal_links]]
-ref = "posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md"
-title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
-
-[[internal_links]]
-ref = "posts/ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien.md"
-title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
-
-[[internal_links]]
-ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
-title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
-
-[[internal_links]]
-ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
-title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
 +++
-
 ## Từ Cơn Lốc Thay Đổi Tầm Nhìn
 
 Nếu bạn là một nhà khởi nghiệp châu Âu vào năm 2008, bạn có thể cảm thấy như bạn đã được sinh ra vào một nơi sai. Tất cả những công ty tuyệt vời, tất cả những ý tưởng tuyệt vời, tất cả những tiền đầu tư, dường như đều ở Silicon Valley. Châu Âu được coi là một nơi để sống nếu bạn muốn chất lượng cuộc sống tốt, nhưng nếu bạn muốn xây dựng một công ty công nghệ thế hệ tiếp theo, bạn phải đi đến Hoa Kỳ.

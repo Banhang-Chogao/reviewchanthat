@@ -37,38 +37,6 @@ image_attribution_checked_at = "2026-07-12T08:48:49+07:00"
 image_provider = "pexels"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien — nguồn Pexels"
-
-[[internal_links]]
-ref = "posts/ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien.md"
-title = "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến"
-
-[[internal_links]]
-ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
-title = "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển"
-
-[[internal_links]]
-ref = "posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.md"
-title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
-title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
-[[internal_links]]
-ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
-title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
-
-[[internal_links]]
-ref = "posts/iphone-18-co-gi-moi.md"
-title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
-
-[[internal_links]]
-ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
-title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
 +++
 Ngân hàng số là xu hướng, nhưng **không phải cái nào cũng phù hợp với bạn.**
 

@@ -49,10 +49,6 @@ label = "rủi ro"
 label = "Hợp với"
 
 [[internal_links]]
-ref = "posts/macos-27-beta-co-nen-cai-khong.md"
-title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
-
-[[internal_links]]
 ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
 title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
 
@@ -65,14 +61,6 @@ ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
 title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
 
 [[internal_links]]
-ref = "posts/ios-27-camera-anh-video-iphone.md"
-title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
-
-[[internal_links]]
-ref = "posts/macos-27-ho-tro-may-mac-nao.md"
-title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
-
-[[internal_links]]
 ref = "posts/ios-27-so-voi-ios-26.md"
 title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
 
@@ -80,7 +68,6 @@ title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
 ref = "posts/ios-27-cai-thien-pin-iphone.md"
 title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
 +++
-
 Public beta iOS 27 dự kiến **tháng 7/2026** — đúng lúc nhiều người rảnh thử hệ điều hành mới. Nhưng beta trên iPhone **không giống** beta game: rollback khó, app ngân hàng có thể từ chối chạy, pin và nhiệt độ thất thường.
 
 Bài này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/) trả lời **ai nên cài**, **ai không nên**, và **cách giảm rủi ro** nếu vẫn muốn thử Siri AI sớm.

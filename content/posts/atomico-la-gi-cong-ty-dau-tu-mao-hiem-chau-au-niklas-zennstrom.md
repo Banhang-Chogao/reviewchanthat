@@ -28,55 +28,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu — nguồn Pixabay"
-
-[[internal_links]]
-ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
-title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
-
-[[internal_links]]
-ref = "posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.md"
-title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
-
-[[internal_links]]
-ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
-title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
-
-[[internal_links]]
-ref = "posts/co-nen-di-tour-hang-dong-quang-binh-mua-mua.md"
-title = "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?"
-
-[[internal_links]]
-ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
-title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
-
-[[internal_links]]
-ref = "posts/danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk.md"
-title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những công ty Thay Đổi Thế Giới"
-image_source = "Pixabay"
-image_provider = "pixabay"
-image_license = "Pixabay Content License"
-image_creator = "vjkombajn"
-image_alt = "Atomico - công ty đầu tư mạo hiểm hàng đầu Châu Âu"
-image_source_url = "https://pixabay.com/photos/money-cash-czech-crowns-banknotes-8033100/"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator_url = "https://pixabay.com/photos/money-cash-czech-crowns-banknotes-8033100/"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pixabay_api"
-image_status = "verified"
-date_display = "11-07-2026 14:00:00 GMT +7"
-
-[[internal_links]]
-ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
-title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
 +++
-
 ## Atomico - Tầm Nhìn Biến Châu Âu Thành Cơn Lốc Khởi Nghiệp
 
 Nếu Niklas Zennström là người tạo ra Skype - ứng dụng cho phép hàng tỷ người giao tiếp miễn phí qua Internet - thì Atomico là phần thứ hai của câu chuyện của ông: cách anh ta sử dụng thành công đó để tạo ra một hệ thống giúp những nhà khởi nghiệp khác đạt được thành công tương tự. Atomico không phải là một công ty công nghệ thông thường - đó là một công ty đầu tư mạo hiểm, một "nền tảng" cho những ý tưởng và những người sáng tạo.

@@ -81,12 +81,7 @@ title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
 [[internal_links]]
 ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
 title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
-
-[[internal_links]]
-ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
-title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
 +++
-
 Khi Apple chuyển iPhone Pro sang **khung titan** năm 2023, marketing nhấn **nhẹ hơn, bền hơn, cao cấp hơn**. Người dùng thực tế lại hỏi ngược: **“Titan có dễ trầy hơn thép không? Có đáng để đổi từ 14 Pro Max?”** Câu trả lời không phải một từ — mà là sự đánh đổi rõ ràng.
 
 > Bài viết dựa trên thông số chính thức, trải nghiệm tham khảo công khai và tiêu chí đánh giá thực tế cho người mua.

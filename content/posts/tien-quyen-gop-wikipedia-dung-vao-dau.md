@@ -45,22 +45,6 @@ title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, t
 ref = "posts/bram-moolenaar-tieu-su-cha-de-vim.md"
 title = "Bram Moolenaar — tiểu sử cha đẻ Vim: sự nghiệp, di sản và những gì ông để lại"
 
-[[internal_links]]
-ref = "posts/co-nen-cho-iphone-18-khong.md"
-title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Wikimedia_Foundation"
 title = "Wikimedia Foundation — Wikipedia"
@@ -105,7 +89,6 @@ answer = "Không. Bài được tổng hợp và viết lại bằng góc nhìn 
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tham khảo từ bài Wikimedia Foundation trên Wikipedia và các báo cáo tài chính công khai của Wikimedia Foundation; nội dung được tổng hợp, viết lại và diễn giải bằng góc nhìn riêng, không sao chép câu chữ. Ảnh minh họa lấy từ Pexels/Pixabay. Các số liệu tài chính có thể thay đổi theo từng năm, bạn nên đối chiếu báo cáo mới nhất khi cần độ chính xác cao."
 +++
-
 Gần như ai dùng internet cũng từng gặp cảnh này: đang đọc dở một bài trên Wikipedia thì phía trên hiện ra một dải banner, kèm lời nhắn tha thiết đề nghị bạn đóng góp "chỉ bằng giá một ly cà phê". Và rồi trong đầu bật lên một loạt câu hỏi rất thật: tiền đó thực sự đi đâu? Có phải để trả tiền máy chủ cho một website khổng lồ như thế? Một trang không quảng cáo, miễn phí cho hàng trăm triệu người thì nuôi mình bằng cách nào — và có nguy cơ một ngày nào đó cạn tiền rồi sập không?
 
 Bài viết này trả lời đúng những câu hỏi ấy, một cách sòng phẳng. Ta sẽ mổ xẻ bức tranh chi tiêu thật của tổ chức đứng sau Wikipedia, đính chính hiểu lầm rất phổ biến về "tiền nuôi server", và nhìn thẳng vào câu hỏi khó: liệu Wikipedia có bao giờ hết tiền không. Nếu bạn muốn hiểu trước phần nguồn thu, blog đã có một bài riêng về [cách Wikipedia kiếm tiền để duy trì hoạt động](/posts/wikipedia-kiem-tien-duy-tri-hoat-dong-nhu-the-nao/); còn ở đây, ta tập trung vào chiều ngược lại — tiền chảy đi đâu.

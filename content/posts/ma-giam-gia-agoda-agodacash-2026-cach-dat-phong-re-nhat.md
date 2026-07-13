@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T14:34:02+07:00"
 image_query = "credit card finance desk"
 date_display = "13-07-2026 14:08:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
-title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
-
-[[internal_links]]
-ref = "posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.md"
-title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi"
-
-[[internal_links]]
-ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
-title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
-
-[[internal_links]]
-ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
-title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
-
-[[internal_links]]
-ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
-title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
-
-[[internal_links]]
-ref = "posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.md"
-title = "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?"
-
-[[internal_links]]
-ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
-title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
-
-[[internal_links]]
-ref = "posts/agoda-la-gi-co-uy-tin-an-toan-khong.md"
-title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
-
 [[faq]]
 question = "AgodaCash là gì và có rút ra tiền mặt được không?"
 answer = "AgodaCash là một dạng tiền thưởng/hoàn trong tài khoản Agoda, chỉ dùng để trừ vào giá phòng đủ điều kiện cho lần đặt sau, không đổi được thành tiền mặt và không chuyển được cho tài khoản khác. Điều khoản cụ thể nên kiểm tra trong app vì có thể thay đổi."

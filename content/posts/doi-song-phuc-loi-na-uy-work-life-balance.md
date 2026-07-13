@@ -29,38 +29,6 @@ image_query = "đời sống tại na uy"
 image_alt = "Ảnh minh họa Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới — nguồn Pexels"
 date_display = "12-07-2026 07:43:37 GMT +7"
 
-[[internal_links]]
-ref = "posts/phần-lan-hạnh-phúc-01.md"
-title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
-
-[[internal_links]]
-ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
-title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
-
-[[internal_links]]
-ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
-title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
-
-[[internal_links]]
-ref = "posts/quyen-chu-quyen-na-uy-government-pension-fund-global.md"
-title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
-
-[[internal_links]]
-ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
-title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
-
-[[internal_links]]
-ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
-title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
-
 [[faq]]
 question = "Q: Người Na Uy có lương cao như thế nào?"
 answer = "A: Lương trung bình ở Na Uy: 600.000-800.000 VND/giờ. So sánh: Mỹ 300.000-400.000 VND/giờ, Việt Nam 30.000-50.000 VND/giờ. Nhưng lương cao được \"bù\" bằng thuế cao và chi phí cao."
@@ -77,7 +45,6 @@ answer = "A: Có, nhưng không như Mỹ hoặc các nước Châu Á. Người
 question = "Q: Du khách sẽ cảm thấy đơn độc ở Na Uy không?"
 answer = "A: Có khả năng, đặc biệt vào mùa đông. Người Na Uy thân thiện nhưng không chủ động kết bạn. Tuy nhiên, các khách sạn/hostel thường có sự kiện để kết nối du khách."
 +++
-
 ## Tại sao Na Uy được xếp hạng cao nhất về chất lượng cuộc sống?
 
 Theo các bộ phận như UN Human Development Index, Na Uy liên tục xếp hạng số 1 hay top 3 về chất lượng cuộc sống trên toàn thế giới. Nhưng "chất lượng cuộc sống" không chỉ là tiền lương cao - nó là cơ hội, an toàn, giáo dục, và quan trọng nhất là **thời gian**.

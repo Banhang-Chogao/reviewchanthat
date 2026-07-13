@@ -32,40 +32,7 @@ image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
 
 [ai_summary]
 items = ["CFA Level 1: Tài chính cơ bản, DCF, PV = Σ CF_t × e^(-rt)", "Beta = Cov(Ra, Rm) / Var(Rm) — độ nhạy so với thị trường", "Tracking Error = σ(Return_fund - Return_benchmark)", "Information Ratio = (Return_fund - Return_benchmark) / Tracking Error", "CFA Level 2: Equity valuation (P/E, FCF), fixed income (duration, convexity)", "CFA Level 3: Portfolio management, constraints, risk budgeting", "Ứng dụng: phân tích cổ phiếu, quản lý danh mục, đánh giá quỹ"]
-
-[[internal_links]]
-ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
-title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
-
-[[internal_links]]
-ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
-title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
-
-[[internal_links]]
-ref = "posts/ham-so-mu-e-trong-tai-chinh-la-gi.md"
-title = "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
-
-[[internal_links]]
-ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-
-[[internal_links]]
-ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
-title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
-
-[[internal_links]]
-ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
-title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
-
-[[internal_links]]
-ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
-title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
-
-[[internal_links]]
-ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
-title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
 +++
-
 CFA (Chartered Financial Analyst) là chứng chỉ cao nhất trong quản lý tài sản. CFAs dùng **toán học cao cấp** để:
 1. phân tích giá trị công ty (DCF, PV)
 2. Đo rủi ro danh mục (beta, tracking error)

@@ -71,32 +71,7 @@ ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.
 title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
 image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
 image_query = "backup ảnh đúng cách đừng"
-
-[[internal_links]]
-ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
-title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-
-[[internal_links]]
-ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
-title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối"
-
-[[internal_links]]
-ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
-title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
-
-[[internal_links]]
-ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
-title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
-
-[[internal_links]]
-ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
-title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
-
-[[internal_links]]
-ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
-title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
 +++
-
 "Anh ơi, em làm rơi điện thoại xuống hồ bơi hôm qua đi Đà Nẵng. Có cách nào lấy lại ảnh không?"
 
 Tin nhắn của một người bạn khiến tôi nhói lòng. Câu trả lời ngắn gọn: **không, nếu chưa từng backup**. Ba năm ảnh cưới, ảnh con gái đầu lòng, những chuyến du lịch — tất cả tan biến trong một giây bất cẩn.

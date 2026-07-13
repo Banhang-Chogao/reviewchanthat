@@ -68,10 +68,6 @@ ref = "posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.md"
 title = "iPhone 15 Pro Max Natural Titanium: đánh giá màu"
 
 [[internal_links]]
-ref = "posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md"
-title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
-
-[[internal_links]]
 ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
 title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
 
@@ -80,7 +76,6 @@ ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
 title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
 +++
-
 Đây là câu hỏi **cuối series** iPhone 15 Pro Max: đã có (hoặc sắp mua) 15 Pro Max, **có đáng bỏ thêm tiền lên 16 Pro Max** không? Không có đáp án chung — chỉ có **đáp án đúng với ngân sách và tay bạn**.
 
 > Bài viết dựa trên thông số chính thức, trải nghiệm tham khảo công khai và tiêu chí đánh giá thực tế cho người mua.

@@ -52,40 +52,12 @@ answer = "Nên. Đi thứ 3–5 ít đông nhất. Cuối tuần rất đông, p
 question = "Có nên đi ngày thường không?"
 
 [[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-title = "Du lịch Hàn Quốc mùa hè nên đi đâu?"
-
-[[internal_links]]
 ref = "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md"
 title = "Ocean World vs Caribbean Bay"
 
 [[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-title = "10 điểm tránh nóng"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
-title = "Hàn Quốc tháng 8 nên đi đâu?"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-title = "Hàn Quốc tháng 7"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-title = "Top 20 hoạt động du lịch Hàn Quốc"
-
-[[internal_links]]
 ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
 title = "Checklist vali"
-
-[[internal_links]]
-ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
-title = "Mặc gì mùa hè"
-
-[[internal_links]]
-ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
-title = "Lịch trình Seoul 3 ngày"
 
 [[internal_links]]
 ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
@@ -111,7 +83,6 @@ value = "Mọi lứa tuổi"
 label = "Lưu ý"
 value = "Đi ngày thường, mua vé online"
 +++
-
 Caribbean Bay thuộc Everland Resort, Yongin — là công viên nước lớn nhất Hàn Quốc với khu trong nhà và ngoài trời. Cách Seoul 40 phút, đây là điểm đến lý tưởng cho ngày hè nóng bức.
 
 ## Các khu vực chính

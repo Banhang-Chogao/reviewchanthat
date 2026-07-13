@@ -53,16 +53,8 @@ ref = "posts/macos-27-apple-intelligence-macbook.md"
 title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
 
 [[internal_links]]
-ref = "posts/macos-27-hieu-nang-pin-macbook.md"
-title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
-
-[[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
-
-[[internal_links]]
-ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
-title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
 
 [[internal_links]]
 ref = "posts/chuan-bi-macbook-truoc-khi-len-macos-27.md"
@@ -80,7 +72,6 @@ title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm
 ref = "posts/macos-27-co-gi-moi.md"
 title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
 +++
-
 “Mac của mình còn lên macOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **MacBook Pro Intel**, **iMac 27 inch Intel** hoặc **Mac mini Intel** mua từ 2018–2020. Câu trả lời ngắn theo Apple: **chỉ Mac Apple Silicon trong danh sách chính thức**.
 
 > Tại thời điểm viết (tháng 7/2026), Apple đã preview **macOS Golden Gate 27** tại WWDC26 (8/6/2026); public beta dự kiến tháng 7/2026 và bản chính thức mùa thu. Bài viết phân loại rõ thông tin Apple đã công bố, phản hồi beta và tin đồn; sẽ được cập nhật khi có thông tin chính thức bổ sung.

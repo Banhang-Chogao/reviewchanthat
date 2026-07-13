@@ -30,38 +30,6 @@ image_creator_url = "https://pixabay.com/photos/norway-winter-snow-atlantic-8593
 image_attribution_checked_at = "2026-07-11T17:43:42+07:00"
 image_query = "vẻ đẹp fjord na uy"
 
-[[internal_links]]
-ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
-title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
-
-[[internal_links]]
-ref = "posts/jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat.md"
-title = "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý"
-
-[[internal_links]]
-ref = "posts/phần-lan-hạnh-phúc-01.md"
-title = "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
-
-[[internal_links]]
-ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
-title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
-
-[[internal_links]]
-ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
-title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
-
-[[internal_links]]
-ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
-title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
-
-[[internal_links]]
-ref = "posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.md"
-title = "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
 [[faq]]
 question = "Q: Thời gian tốt nhất trong năm để ghé thăm các fjord Na Uy là khi nào?"
 answer = "A: Từ tháng 5 đến tháng 9 là mùa du lịch cao điểm, với thời tiết ấm và ngày dài (20+ giờ ánh sáng mặt trời vào tháng 7). Nếu bạn không thích đông đúc, tháng 4 hoặc 10 cung cấp thời tiết tương đối tốt với ít khách du lịch hơn."
@@ -70,7 +38,6 @@ answer = "A: Từ tháng 5 đến tháng 9 là mùa du lịch cao điểm, với
 question = "Q: Chi phí du lịch các fjord Na Uy là bao nhiêu?"
 answer = "A: Một tour tàu đơn giản từ 2-3 giờ có giá €40-80. Flåm Railway €28 một chiều. Khách sạn ở các thị trấn nhỏ: €100-150/đêm. Thực ăn: €15-25 cho bữa ăn trưa, €30-50 cho bữa tối. Tổng cộng cho một tuần: €2.000-3.500 cho một người (không tính vé máy bay). Na Uy không rẻ, nhưng giá trị trải nghiệm là đáng giá từng euro."
 +++
-
 ## Tại Sao Các Fjord Na Uy Lại Là Một Trong Những Kỳ Quan Thiên Nhiên Vĩ Đại Nhất Thế Giới?
 
 Khi tôi lần đầu tiên nhìn thấy một fjord Na Uy, tôi không có từ nào để mô tả nó. Tôi đã xem hàng trăm bức ảnh trước khi đến đó, nhưng không có bức ảnh nào chuẩn bị cho tôi cho những gì tôi sẽ thấy trực tiếp.

@@ -25,40 +25,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-
-[[internal_links]]
-ref = "posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.md"
-title = "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?"
-
-[[internal_links]]
-ref = "posts/tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap.md"
-title = "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì"
-
-[[internal_links]]
-ref = "posts/chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro.md"
-title = "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?"
-
-[[internal_links]]
-ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
-title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
-[[internal_links]]
-ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
-title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
-title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
-
-[[internal_links]]
-ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
 +++
-
 ## Mở đầu: Tôi đã từng không biết tiền đi đâu
 
 Năm đầu tiên đi làm, lương của tôi là 8 triệu đồng — một con số không quá thấp với sinh viên mới ra trường ở thời điểm đó. Nhưng cuối tháng nào tôi cũng ngớ người ra khi nhìn số dư tài khoản: chỉ còn vài trăm nghìn, mà chẳng nhớ đã tiêu vào đâu. Không phải tôi mua sắm xa xỉ gì, cũng chẳng đi du lịch hay ăn chơi linh đình. Tiền cứ "chảy" ra khỏi ví như nước qua rò, âm thầm và đều đặn.

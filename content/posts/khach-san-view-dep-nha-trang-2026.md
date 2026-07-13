@@ -34,32 +34,8 @@ ref = "posts/khach-san-view-dep-phu-yen-2026.md"
 title = "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
 [[internal_links]]
-ref = "posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.md"
-title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
-
-[[internal_links]]
 ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
 title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
-title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-da-nang-2026.md"
-title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
-title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
-title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
 [[external_links]]
 url = "https://www.trip.com/trip-best/"
@@ -105,7 +81,6 @@ answer = "Không. Bài viết chỉ tham khảo danh sách và dữ liệu công
 copyright = "© 2026 Review Chân Thật."
 source_note = "Danh sách khách sạn tham khảo từ dữ liệu công khai Trip.Best; phần phân tích, đánh giá và kinh nghiệm chọn phòng là quan điểm riêng, không sao chép nội dung Trip.com. Giá và tính năng có thể thay đổi — vui lòng kiểm tra trực tiếp trước khi đặt."
 +++
-
 Nha Trang là một trong số ít nơi ở Việt Nam mà bạn có thể đứng giữa phố, nhìn qua một hàng cây và thấy cả một vịnh biển trải dài trước mặt. Người ta hay gọi đây là thủ phủ du lịch biển của miền Trung Nam Bộ, và cái danh ấy không phải tự nhiên mà có: vịnh Nha Trang từng được xếp vào nhóm những vịnh đẹp của thế giới, bãi biển Trần Phú chạy dài ngay giữa lòng thành phố, còn ngoài kia là hàng loạt hòn đảo và cung vịnh riêng biệt mà chỉ một chuyến canô là bước sang thế giới khác hẳn.
 
 Điều thú vị là Nha Trang có hai gương mặt cùng lúc. Một Nha Trang sôi động của phố xá, hàng quán, con đường biển tấp nập người chạy bộ lúc bình minh. Và một Nha Trang khác, kín đáo hơn, nằm ở Ninh Vân Bay tách biệt phía Bắc, ở Bãi Dài Cam Ranh trải dài phía Nam, hay trên đảo Hòn Tre giữa vịnh. Chính sự chia đôi này khiến việc chọn khách sạn ở đây dễ chọn nhầm: ở giữa phố tiện thì mất yên tĩnh, ra vịnh riêng yên thì mất tiện đi lại.

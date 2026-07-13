@@ -64,34 +64,9 @@ ref = "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong.md"
 title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu"
 
 [[internal_links]]
-ref = "posts/busan-thang-10-nen-di-dau.md"
-title = "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng"
-
-[[internal_links]]
-ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
-title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
-
-[[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
-
-[[internal_links]]
-ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
-title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
-
-[[internal_links]]
-ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
-title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
-[[internal_links]]
-ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
-title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
-
-[[internal_links]]
-ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
-title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
 +++
-
 ## Chiang Mai mùa mưa — mùa đẹp nhất mà ít người nói đến
 
 Khi nhắc đến Chiang Mai, hầu hết bài viết du lịch đều tập trung vào mùa khô (tháng 11–2) hoặc mùa lễ hội (Yi Peng, Songkran). Mùa mưa ở Chiang Mai thường bị hiểu nhầm là "mùa không nên đi" — nhưng thực tế lại hoàn toàn ngược lại.

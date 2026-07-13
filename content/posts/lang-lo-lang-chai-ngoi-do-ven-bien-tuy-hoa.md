@@ -41,26 +41,6 @@ title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩ
 ref = "posts/khach-san-view-dep-nha-trang-2026.md"
 title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
-
 [[external_links]]
 url = "https://vnexpress.net/ngoi-lang-ngoi-do-binh-yen-ben-bien-dak-lak-5096172.html"
 title = "Nguồn tham khảo: Ngôi làng ngói đỏ bình yên bên biển Đăk Lăk — VnExpress (Tuấn Anh)"
@@ -101,7 +81,6 @@ answer = "Không. Bài chỉ tham khảo thông tin công khai từ VnExpress (c
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tham khảo từ bài Ngôi làng ngói đỏ bình yên bên biển Đăk Lăk của Tuấn Anh (ảnh Bùi Văn Hải, Lê Minh Hoàng) trên VnExpress; nội dung được viết lại hoàn toàn bằng góc nhìn riêng, không sao chép câu chữ. Ảnh minh họa trong bài lấy từ Pexels/Pixabay, KHÔNG phải ảnh của VnExpress. Số liệu có thể thay đổi — nên kiểm tra lại trước khi đi."
 +++
-
 Có những nơi đẹp theo kiểu ồn ào, cần biển quảng cáo và đèn màu để người ta nhớ tới. Và có những nơi đẹp theo kiểu ngược lại: càng ít nói về mình, càng khiến người ta muốn ở lại. Làng Lò — một làng chài hơn bốn trăm tuổi nằm nép bên biển miền Trung — thuộc kiểu thứ hai. Nhìn từ trên cao, nó chỉ là một mảng ngói đỏ trầm nằm giữa những hàng dừa, với các con ngõ nhỏ chạy thẳng ra mặt nước xanh. Không có gì phô trương. Nhưng chính cái vẻ bình thản đó lại là thứ đang kéo ngày càng nhiều người tìm về mỗi mùa hè.
 
 Làng Lò nay thuộc phường Hòa Hiệp. Đây vốn là vùng biển Tuy Hòa – Đông Hòa của Phú Yên, sau đợt sắp xếp lại địa giới hành chính năm 2025 thì thuộc về tỉnh Đắk Lắk — nên nếu bạn thấy người ta gọi "biển Đắk Lắk" mà thấy lạ tai, thì đó chính là dải bờ biển quen thuộc của Phú Yên trước đây. Một cái tên tỉnh gắn với cao nguyên, cà phê và voi, giờ có thêm cả sóng biển và làng chài. Bản thân sự "lệch pha" ấy cũng là một điều thú vị để bắt đầu câu chuyện.

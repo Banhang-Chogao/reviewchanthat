@@ -33,40 +33,7 @@ draft = false
 [ai_summary]
 items = ["Renaissance Technologies: Quỹ quantitative do Jim Simons lập (nhà toán học)", "Medallion Fund: lợi suất ~30%/năm trước phí (40%/năm sau phí, nhưng vẫn đạt 11% net)", "Jim Simons: Fields Medalist, thuyết phục tài năng toán học phục vụ trading", "Pattern Recognition: Tìm correlation + causation trong 50 năm dữ liệu", "Statistical Arbitrage: Mua undervalue + bán overvalue (long-short strategy)", "Bayesian Networks: Graphical models để infer mối quan hệ biến", "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"]
 draft = false
-
-[[internal_links]]
-ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
-title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
-
-[[internal_links]]
-ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
-title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
-
-[[internal_links]]
-ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
-title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
-
-[[internal_links]]
-ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
-title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
-
-[[internal_links]]
-ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
-title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
-
-[[internal_links]]
-ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
-title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
-
-[[internal_links]]
-ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
-title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
-
-[[internal_links]]
-ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
-title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 +++
-
 **Renaissance Technologies** — quỹ quantitative **nổi tiếng nhất thế giới**, do **Jim Simons** (nhà toán học) sáng lập.
 
 lợi suất **~30%/năm** (trước phí) trong 40 năm.

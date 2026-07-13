@@ -52,35 +52,6 @@ answer = "Giá thay đổi theo mùa và loại vé. Tham khảo: Lift Day Pass 
 [[faq]]
 answer = "Ngày thường (thứ 2–5) ít đông hơn, giá vé thường rẻ hơn. Cuối tuần rất đông, đặc biệt là khu vực thuê đồ và lesson."
 
-[[internal_links]]
-ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
-
-[[internal_links]]
-ref = "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
-
-[[internal_links]]
-ref = "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md"
-title = "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?"
-
-[[internal_links]]
-ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
-title = "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang"
-
-[[internal_links]]
-ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
-title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
-
-[[internal_links]]
-ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
-title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
-
 [[tom_tat_nhanh]]
 label = "Khu vực"
 value = "Hongcheon, Gangwon-do (khoảng 1,5–2 giờ từ Seoul)"
@@ -100,7 +71,6 @@ label = "Đi mùa nào hợp"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 +++
-
 Vivaldi Park là cái tên được khách Việt nhắc đến nhiều nhất khi hỏi về trượt tuyết gần Seoul. Mình cũng không ngạc nhiên — resort này thuộc Daemyung Resort, một khu nghỉ dưỡng lớn ở Hongcheon, có shuttle bus từ Seoul, giờ hoạt động từ sáng tới tận 1h đêm.
 
 So với [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}), Vivaldi xa hơn một chút nhưng bù lại có nhiều lựa chọn về giờ giấc và tiện nghi. Còn nếu so với [Oak Valley]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}}), Vivaldi đông hơn hẳn nhưng slope nhiều hơn và dịch vụ đa dạng hơn.

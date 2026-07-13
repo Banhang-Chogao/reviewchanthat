@@ -49,36 +49,6 @@ answer = "Rẻ hơn tháng 8 15–20%. Vé máy bay và khách sạn chưa tăng
 [[faq]]
 answer = "Indoor Seoul, biển Busan, Jeju. Tránh leo núi Hallasan và đi dã ngoại ngoài trời."
 
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
-
-[[internal_links]]
-ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
-
-[[internal_links]]
-ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
-
-[[internal_links]]
-ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-
-[[internal_links]]
-ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
-
-[[internal_links]]
-ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
 [[tom_tat_nhanh]]
 label = "Nhiệt độ"
 value = "23–28°C"
@@ -95,7 +65,6 @@ label = "Chi phí"
 [[tom_tat_nhanh]]
 label = "Phù hợp"
 +++
-
 ## Thời tiết tháng 7
 
 Hàn Quốc tháng 7 là mùa mưa (jangma). Nhiệt độ trung bình 23–28°C, độ ẩm 75–85%. Mưa thường đến vào chiều tối, kéo dài 1–3 tiếng. Lượng mưa trung bình 250–350 mm.

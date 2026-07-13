@@ -73,34 +73,6 @@ answer = "Mức hỗ trợ tiếng Việt cho Siri AI từng giai đoạn, danh 
 [[internal_links]]
 ref = "posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau.md"
 
-[[internal_links]]
-ref = "posts/ios-27-co-gi-moi.md"
-title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
-
-[[internal_links]]
-ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
-title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
-
-[[internal_links]]
-ref = "posts/macos-27-apple-intelligence-macbook.md"
-title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
-
-[[internal_links]]
-ref = "posts/ios-27-so-voi-ios-26.md"
-title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
-
-[[internal_links]]
-ref = "posts/ios-27-cai-thien-pin-iphone.md"
-title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
-
-[[internal_links]]
-ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
-title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
-
-[[internal_links]]
-ref = "posts/macos-27-co-gi-moi.md"
-title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
-
 [[tom_tat_nhanh]]
 label = "Chủ đề"
 value = "WWDC26 nhận định sau sự kiện — Siri AI, iOS 27 và những gì Apple chưa nói"
@@ -117,7 +89,6 @@ label = "Mức độ hoàn thiện"
 [[tom_tat_nhanh]]
 label = "Hợp với"
 +++
-
 WWDC26 kết thúc được một tháng rồi. Đủ để bản beta về tay developer, đủ để báo chí chuyển từ "Apple sắp làm gì?" sang "Apple làm được gì rồi?", và cũng đủ để người dùng phổ thông bắt đầu đặt câu hỏi thực tế hơn: **có nên cài thử, hay chờ bản chính thức?**
 
 Trước sự kiện, tụi mình có [bài phân tích WWDC26](/posts/wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau/) tổng hợp kỳ vọng, tin đồn và thông tin Apple xác nhận trên sân khấu. Bài này không lặp lại keynote — nó trả lời ba câu hỏi mà một người dùng bình thường (không phải developer) thực sự cần:

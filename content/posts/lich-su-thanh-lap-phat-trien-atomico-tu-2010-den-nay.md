@@ -27,55 +27,7 @@ image_status = "verified"
 image_provider = "pixabay"
 image_query = "lịch sử thành lập phát"
 image_alt = "Ảnh minh họa Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD — nguồn Pixabay"
-
-[[internal_links]]
-ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
-title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
-
-[[internal_links]]
-ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
-title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
-
-[[internal_links]]
-ref = "posts/phần-lan-giáo-dục-02.md"
-title = "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
-image_source = "Pixabay"
-image_provider = "pixabay"
-image_license = "Pixabay Content License"
-image_creator = "NGUYENDO1998"
-image_alt = "Lịch sử thành lập Atomico từ 2010"
-image_source_url = "https://pixabay.com/photos/v%C3%B9ng-%C4%91%E1%BA%A5t-t%E1%BB%B1-do-th%C3%A0nh-c%C3%B4ng-5109027/"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator_url = "https://pixabay.com/photos/v%C3%B9ng-%C4%91%E1%BA%A5t-t%E1%BB%B1-do-th%C3%A0nh-c%C3%B4ng-5109027/"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pixabay_api"
-image_status = "verified"
-date_display = "11-07-2026 14:15:00 GMT +7"
-
-[[internal_links]]
-ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
-title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
-
-[[internal_links]]
-ref = "posts/anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc.md"
-title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội"
-
-[[internal_links]]
-ref = "posts/danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk.md"
-title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những công ty Thay Đổi Thế Giới"
-
-[[internal_links]]
-ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
-title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
-
-[[internal_links]]
-ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
-title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
 +++
-
 ## Hành Trình Xây Dựng Atomico: Từ Ý Tưởng Đến Hiện Thực
 
 Câu chuyện của Atomico bắt đầu không phải với một kế hoạch kinh doanh phức tạp, mà với một quan sát đơn giản: Châu Âu có rất nhiều những tài năng công nghệ tuyệt vời, nhưng những nhân tài này không có đủ hỗ trợ để xây dựng các công ty tầm cỡ toàn cầu.

@@ -65,22 +65,9 @@ ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
 title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
 
 [[internal_links]]
-ref = "posts/ios-27-camera-anh-video-iphone.md"
-title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
-
-[[internal_links]]
 ref = "posts/ios-27-ho-tro-iphone-nao.md"
 title = "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới Apple Intelligence"
-
-[[internal_links]]
-ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
-title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
-
-[[internal_links]]
-ref = "posts/macos-27-apple-intelligence-macbook.md"
-title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
 +++
-
 “Lên iOS mới xong pin tụt một nửa” — câu than trời quen thuộc trên group iPhone Việt Nam. **iOS 27** hứa hiệu năng tốt hơn, nhưng cũng mang **Siri AI**, indexing Photos và background AI — tất cả đều “ăn” pin.
 
 Bài này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/) giúp bạn đặt **kỳ vọng đúng** và biết khi nào pin tụt là bình thường, khi nào cần thay pin hoặc hoãn update.

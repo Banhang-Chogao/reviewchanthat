@@ -68,10 +68,6 @@ ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
 title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
 
 [[internal_links]]
-ref = "posts/macos-27-apple-intelligence-macbook.md"
-title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
-
-[[internal_links]]
 ref = "posts/ios-27-camera-anh-video-iphone.md"
 title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
 
@@ -79,7 +75,6 @@ title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
 ref = "posts/ios-27-beta-co-nen-cai-khong.md"
 title = "iOS 27 beta có nên cài không? rủi ro, cách backup và quay về bản ổn định"
 +++
-
 Mỗi năm sau WWDC, group iPhone Việt Nam lại hỏi cùng một câu: **có đáng lên iOS mới không, hay cứ ở bản cũ cho yên ổn?** Năm nay câu hỏi gay cấn hơn vì Apple không chỉ vá lỗi — họ đặt cược lớn vào **Siri AI**, **Apple Intelligence thế hệ hai** và lớp thiết kế **Liquid Glass** đã gây tranh cãi từ iOS 26.
 
 Tại WWDC26 (8/6/2026), Apple giới thiệu **iOS 27** — bản cập nhật iPhone hướng tới người dùng phổ thông lẫn power user: trợ lý hội thoại mới, AI đi sâu vào Photos/Messages, hiệu năng shell cải thiện rõ, và gói an toàn trẻ em mở rộng. Đây không phải bản cập nhật “nhẹ” — mà là lần Apple cố chứng minh AI trên thiết bị vẫn có lợi thế so với chatbot web.

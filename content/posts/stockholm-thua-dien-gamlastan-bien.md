@@ -30,38 +30,6 @@ image_creator_url = "https://pixabay.com/photos/city-cityscape-waterfront-447847
 image_attribution_checked_at = "2026-07-11T17:43:46+07:00"
 image_query = "stockholm thành phố nổi giữa"
 
-[[internal_links]]
-ref = "posts/ky-su-stockholm-thanh-pho-tren-nhung-hon-dao.md"
-title = "Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo"
-
-[[internal_links]]
-ref = "posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo.md"
-title = "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA"
-
-[[internal_links]]
-ref = "posts/thuy-dien-noi-khai-sinh-spotify-va-bluetooth.md"
-title = "Từ Spotify Đến Bluetooth: Thụy Điển Đã Thống Trị Thế Giới Công Nghệ Ngầm Như Thế Nào?"
-
-[[internal_links]]
-ref = "posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.md"
-title = "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/thoi-tiet-han-quoc-thang-11.md"
-title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
-
 [[faq]]
 question = "Q: Làm cách nào để đi từ sân bay Arlanda đến trung tâm Stockholm?"
 answer = "A: Arlanda Express (tàu nhanh) đưa bạn đến trung tâm thành phố trong 20 phút với chi phí €30-35. Hoặc có các bus shuttle rẻ hơn (€10-15) nhưng mất 45-60 phút tùy giao thông."
@@ -82,7 +50,6 @@ answer = "A: Có. Nhiều công ty công nghệ ở Stockholm tuyển dụng mà
 question = "Q: Cách tốt nhất để trải nghiệm Stockholm nếu tôi chỉ có 2-3 ngày?"
 answer = "A: Ngày 1: Gamla Stan (sáng), Hoàng cung (trưa), Thư viện Công khai (chiều). Ngày 2: Đi phà tới hòn đảo Drottningholm xem cung điện Drottningholm. Ngày 3: Bảo tàng Vasa hoặc Nordiska Museet. Thành phố rất compact – bạn có thể đi bộ hoặc dùng thẻ tuần SL (thẻ giao thông công cộng) với giá €53 cho 7 ngày."
 +++
-
 ## Một Thành Phố Trên Nước Và Công Nghệ
 
 Stockholm là một trong những thành phố độc đáo nhất ở thế giới vì một lý do đơn giản: nó được xây dựng trên 14 hòn đảo. Không phải là gần biển hay gần một con sông. Nó literally được xây dựng TRÊN nước.

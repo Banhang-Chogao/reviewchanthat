@@ -59,37 +59,7 @@ label = "Nên chọn"
 [[internal_links]]
 ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
 title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
-
-[[internal_links]]
-ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
-title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
-image_attribution_error = "Provider/source page did not expose verified creator metadata"
-
-[[internal_links]]
-ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
-title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
-
-[[internal_links]]
-ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
-title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
-[[internal_links]]
-ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
-title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-thai-mua-mua.md"
-title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
-
-[[internal_links]]
-ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
-title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
-
-[[internal_links]]
-ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
-title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
 +++
-
 ## Từ sân bay Suvarnabhumi về trung tâm Bangkok
 
 Một trong những quyết định đầu tiên khi chạm chân đến sân bay Suvarnabhumi là **chọn cách nào để vào trung tâm Bangkok**. Với người đi lần đầu, đây còn là nỗi lo: kẹt xe có tệ không, đi tàu có mất nhiều công không, taxi có bị chặt chém không?

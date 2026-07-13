@@ -49,36 +49,6 @@ answer = "Có. DDP, COEX Mall, bảo tàng đều có lối đi bộ trong nhà.
 [[faq]]
 answer = "Áo mưa gọn, giày chống nước. Túi chống nước cho điện thoại và máy ảnh."
 
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-
-[[internal_links]]
-ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
-
-[[internal_links]]
-ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
-
-[[internal_links]]
-ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
-
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-
-[[internal_links]]
-ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
-
-[[internal_links]]
-ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
-
-[[internal_links]]
-ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
-
-[[internal_links]]
-ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
-
 [[tom_tat_nhanh]]
 label = "Thời gian"
 value = "Cả ngày"
@@ -92,7 +62,6 @@ label = "Chi phí"
 [[tom_tat_nhanh]]
 label = "Di chuyển"
 +++
-
 Seoul mùa mưa không phải là ác mộng — nếu bạn biết điểm đến nào trong nhà, điểm nào kết nối bằng tàu điện ngầm và điểm nào mở cửa miễn phí.
 
 Bài viết này tổng hợp **20 điểm indoor ở Seoul**, phân loại theo khu vực, giúp bạn xếp lịch dễ dàng.

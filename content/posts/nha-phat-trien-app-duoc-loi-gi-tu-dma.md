@@ -53,10 +53,6 @@ ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
 title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
 
 [[internal_links]]
-ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
-title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
-
-[[internal_links]]
 ref = "posts/european-commission-duoc-gi-khi-thang-apple.md"
 title = "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới"
 
@@ -71,16 +67,7 @@ title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế n
 [[internal_links]]
 ref = "posts/apple-thua-kien-eu-app-store-ios-dma.md"
 title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA"
-
-[[internal_links]]
-ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
-title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
-
-[[internal_links]]
-ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
-title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 +++
-
 “Cuối cùng cũng không còn phải trả 30% cho Apple” — câu đó xuất hiện nhiều sau khi European Commission (EC) phạt Apple vì anti-steering và buộc mở thêm đường phân phối. Nhưng hỏi một indie developer ở Amsterdam hay Stockholm, câu trả lời thường phức tạp hơn: **“Được link ra web thanh toán, nhưng CTF ăn mất phần tiết kiệm — và mình vẫn ở App Store vì user không sideload.”**
 
 Bài 6 trong series [Apple vs EC: App Store, iOS và Digital Markets Act](/posts/apple-thua-kien-eu-app-store-ios-dma/) tập trung **góc nhìn developer** — không phải lý tưởng trên slide EC, mà **lợi ích thực**, **chi phí ẩn** và **ai thực sự hưởng lợi**. Nếu bạn chưa đọc phần người dùng EU mất gì, xem [bài 5](/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi/) trước.

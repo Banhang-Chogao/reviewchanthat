@@ -34,38 +34,6 @@ image_attribution_checked_at = "2026-07-13T08:41:38+07:00"
 image_query = "trip com so booking agoda"
 date_display = "13-07-2026 10:15:00 GMT +7"
 
-[[internal_links]]
-ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
-title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
-
-[[internal_links]]
-ref = "posts/huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026.md"
-title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026"
-
-[[internal_links]]
-ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
-title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
-
-[[internal_links]]
-ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
-title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
-
-[[internal_links]]
-ref = "posts/ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa.md"
-title = "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa"
-
-[[internal_links]]
-ref = "posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.md"
-title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
-
-[[internal_links]]
-ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
-title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
-
-[[internal_links]]
-ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
-title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
-
 [[faq]]
 question = "Trip.com có rẻ hơn Booking.com và Agoda không?"
 answer = "Không có nền tảng nào rẻ hơn tuyệt đối trong mọi trường hợp, nhưng Trip.com thường cạnh tranh tốt ở vé máy bay và khách sạn khu vực châu Á nhờ mạng lưới hàng không nội Á rộng."

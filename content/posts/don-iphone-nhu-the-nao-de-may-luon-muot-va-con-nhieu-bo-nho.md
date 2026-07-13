@@ -63,40 +63,9 @@ question = "Sau khi dọn xong, bao lâu thì iPhone lại đầy?"
 answer = "Tùy thói quen sử dụng. Nếu chụp ảnh nhiều và không tối ưu iCloud: 2-3 tháng. Nếu bật iCloud Photos + Offload: 6-8 tháng. Nếu không thay đổi thói quen: 1 tháng. Khuyến nghị: dọn nhanh 15 phút mỗi tháng."
 
 [[internal_links]]
-ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon.md"
-title = "Cuộc sống số năm 2026: 30 thói quen"
-
-[[internal_links]]
-ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
-title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng"
-image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
-image_query = "mobile banking payment app"
-
-[[internal_links]]
-ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
-title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-
-[[internal_links]]
-ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
-title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
-
-[[internal_links]]
-ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
-title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối"
-
-[[internal_links]]
 ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
 title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
-
-[[internal_links]]
-ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
-title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại"
-
-[[internal_links]]
-ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
-title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
 +++
-
 Tình huống quen thuộc: bạn mở iPhone lên, thấy thông báo **"Dung lượng iPhone gần đầy"** — một cái banner đỏ đầy căng thẳng. Bạn vào Cài đặt → Cài đặt chung → Bộ nhớ iPhone, và con số hiện ra: **2.4GB còn trống** trên tổng số 128GB.
 
 Với 2.4GB, bạn không thể quay video 4K, không thể cập nhật iOS, thậm chí đôi khi app cũng không tải được. Bạn bắt đầu xóa từng tấm ảnh, từng app một — nhưng xóa mãi không hết.

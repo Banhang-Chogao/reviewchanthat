@@ -52,44 +52,7 @@ answer = "Thịt kho hột vịt (thịt kho tàu) nấu nước dừa kho rục
 [[faq]]
 question = "'Cây bẹo' ở chợ nổi là gì?"
 answer = "Cây bẹo là cây sào cắm trên ghe, người bán treo lên đó món hàng mình bán (bí, khoai, dưa hấu…) để khách từ xa nhìn thấy mà ghé, vì giữa sông không tiện rao bằng miệng. Đây là nét độc đáo và rất 'miền Tây' của văn hóa chợ nổi."
-
-[[internal_links]]
-ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
-title = "So sánh phong tục Tết ba miền Bắc - Trung - Nam"
-
-[[internal_links]]
-ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
-title = "Trải nghiệm ăn Tết vùng cao Tây Bắc"
-image_creator_id = ""
-image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-12T08:49:12+07:00"
-image_query = "đón tết miền tây sông"
-
-[[internal_links]]
-ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
-title = "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ"
-
-[[internal_links]]
-ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
-title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe"
-
-[[internal_links]]
-ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
-title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
-
-[[internal_links]]
-ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
-title = "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết"
-
-[[internal_links]]
-ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
-title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
-
-[[internal_links]]
-ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
-title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
 +++
-
 Tết miền Tây có một nhịp riêng: chậm rãi, hào sảng và thấm đẫm hơi nước sông. Ở đây, không khí Tết không bắt đầu từ phố xá mà từ những dòng kênh — khi ghe chở hoa, chở dưa hấu nối đuôi nhau về chợ, khi mùi thịt kho nước dừa bắt đầu tỏa ra từ gian bếp. Tôi mê cái Tết miền Tây vì sự bình dị của nó: không phô trương, nhưng đầy đặn tình người. Bài viết này kể lại những nét đặc trưng nhất, kèm vài lưu ý thực tế nếu bạn định về miền Tây ăn Tết Đinh Mùi 2027.
 
 ## Sông nước làm nên sắc Tết
