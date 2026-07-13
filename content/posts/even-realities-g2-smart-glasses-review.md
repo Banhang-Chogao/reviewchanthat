@@ -1,15 +1,15 @@
 +++
 title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
 seo_title = "Even Realities G2 Smart Glasses Review 2026: Privacy-First Productivity Wearable Without a Camera"
-commit = ""
-date = "2026-07-14T21:00:00+07:00"
+commit = "79a86ddd"
+date = "2026-07-14T01:14:29+07:00"
 slug = "even-realities-g2-smart-glasses-review"
 draft = false
 categories = ["review"]
 tags = ["Even Realities G2", "smart glasses", "AR glasses", "wearable tech", "productivity", "privacy", "R1 smart ring", "smart eyewear"]
 description = "Hands-on Even Realities G2 smart glasses review: camera-free design, monochrome HUD, transcription in 30+ languages, and all-day battery at $599."
 author = "Reviewchanthat"
-date_display = "14-07-2026 21:00:00 GMT +7"
+date_display = "14-07-2026 01:14:29 GMT +7"
 image = "images/posts/even-realities-g2-smart-glasses-review.webp"
 thumbnail = "images/posts/even-realities-g2-smart-glasses-review.webp"
 post_lang = "en"
@@ -30,6 +30,34 @@ image_status = "verified"
 [[internal_links]]
 ref = "/posts/msi-claw-8-ex-ai-plus-review"
 title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
+title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
+
+[[internal_links]]
+ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
+title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
+title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 
 [[external_links]]
 url = "https://www.evenrealities.com/smart-glasses"
