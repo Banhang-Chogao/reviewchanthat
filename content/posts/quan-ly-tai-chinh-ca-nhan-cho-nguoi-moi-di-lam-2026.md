@@ -1,7 +1,7 @@
 +++
 title = "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z"
 seo_title = "Quản lý tài chính cá nhân 2026 cho người mới đi làm"
-commit = "89837be3"
+commit = "f45b70cd"
 date = "2026-07-13T23:44:27+07:00"
 slug = "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026"
 draft = false

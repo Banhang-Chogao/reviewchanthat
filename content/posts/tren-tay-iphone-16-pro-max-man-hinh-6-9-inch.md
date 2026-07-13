@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Trải nghiệm màn 6.9 inch trên iPhone 16 Pro Max: kích thước, một tay, so với 6.7 inch 15 Pro Max và ai nên chọn màn lớn nhất."
 draft = false
 image = "images/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.webp"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:50:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Vivaldi Park Ski World Hongcheon: day trip trượt tuyết từ Seoul, giờ hoạt động, giá vé, ski lesson, shuttle bus và những lưu ý thực tế cho người mới."
 draft = false
 image = "images/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.webp"

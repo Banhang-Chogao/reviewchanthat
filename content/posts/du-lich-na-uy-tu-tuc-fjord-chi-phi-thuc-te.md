@@ -1,7 +1,7 @@
 +++
 title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
 seo_title = "Du lịch Na Uy tự túc: chi phí và lộ trình Fjord chi tiết"
-commit = "f576fac5"
+commit = "f45b70cd"
 date = "2026-07-11T10:30:00+07:00"
 slug = "du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te"
 aliases = ["/posts/du-lịch-na-uy-tự-túc-hướng-dẫn-hoàn-chỉnh-từ-chi-phí-đến-lộ-trình-fjord/"]

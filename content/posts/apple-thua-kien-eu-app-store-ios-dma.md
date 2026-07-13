@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Tòa Tổng EU ngày 8/7/2026 bác kiện Apple về gatekeeper App Store và iOS. Phân biệt vụ kiện này với phạt anti-steering €500M và kháng cáo của Apple."
 draft = false
 image = "images/posts/apple-thua-kien-eu-app-store-ios-dma.webp"

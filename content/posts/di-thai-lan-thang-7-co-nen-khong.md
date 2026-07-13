@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Đi Thái Lan tháng 7 có nên không? phân tích thời tiết, chi phí, lịch trình tháng 7 và so sánh với tháng 8 — dành cho ngân sách thấp, muốn tránh đông."
 image = "images/posts/di-thai-lan-thang-7-co-nen-khong.webp"
 image_alt = "Ảnh minh họa Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý — nguồn Pexels"

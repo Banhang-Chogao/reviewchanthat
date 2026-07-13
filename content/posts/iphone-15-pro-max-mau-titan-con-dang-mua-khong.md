@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Đánh giá tổng thể iPhone 15 Pro Max màu titan năm 2026: giá máy cũ, bốn màu, khung titan, camera, pin và ai nên chọn thay vì iPhone 16 Pro Max."
 draft = false
 image = "images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp"

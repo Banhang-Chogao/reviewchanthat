@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Busan mùa hè nên đi đâu? So sánh Haeundae, Gwangalli, Songdo và Dadaepo — bãi biển nào phù hợp nhất cho chuyến đi của bạn?"
 draft = false
 image = "images/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.webp"

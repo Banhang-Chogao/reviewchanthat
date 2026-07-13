@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T15:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami Island, điểm ngắm lá đỏ và mẹo sắp lịch theo ngày đổ màu thực tế."
 draft = false
 image = "images/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.webp"

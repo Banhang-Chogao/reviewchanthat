@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T08:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Tổng quan iOS 27 sau WWDC26: Siri AI, Apple Intelligence, hiệu năng, quyền riêng tư và timeline beta/public cho người dùng iPhone tại Việt Nam."
 draft = false
 image = "images/posts/ios-27-co-gi-moi.webp"

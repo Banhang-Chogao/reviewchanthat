@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T15:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản phẩm — nên mua iPhone 17 ngay hay chờ Pro/Fold 2026 cho người dùng Việt Nam."
 draft = false
 image = "images/posts/iphone-18-vs-iphone-17.webp"

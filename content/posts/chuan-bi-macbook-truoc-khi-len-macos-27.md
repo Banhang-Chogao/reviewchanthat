@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T13:40:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Hướng dẫn chuẩn bị Mac trước khi cài macOS 27: Time Machine, dọn SSD,   kiểm tra app, RAM và kế hoạch rollback."
 draft = false
 image = "images/posts/chuan-bi-macbook-truoc-khi-len-macos-27.webp"

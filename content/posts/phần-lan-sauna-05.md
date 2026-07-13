@@ -1,7 +1,7 @@
 +++
 title = "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
 seo_title = "Sauna Phần Lan: di sản UNESCO và văn hóa cộng đồng"
-commit = "f576fac5"
+commit = "f45b70cd"
 date = "2026-07-11T16:06:05+07:00"
 slug = "phan-lan-sauna-05"
 aliases = ["/posts/sauna-phần-lan-di-sản-unesco-và-biểu-tượng-của-kết-nối-cộng-đồng-chân-thật/"]

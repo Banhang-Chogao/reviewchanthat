@@ -1,7 +1,7 @@
 +++
 title = "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)"
 seo_title = "Michelin Restaurants in Ho Chi Minh City: 2026 Must-Try Guide"
-commit = "f576fac5"
+commit = "f45b70cd"
 date = "2026-07-12T23:00:00+07:00"
 draft = false
 post_lang = "en"

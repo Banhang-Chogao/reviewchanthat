@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Caribbean Bay Yongin là công viên nước lớn nhất gần Seoul, có wave pool 2,4 m, lazy river dài nhất thế giới, spa. Thuộc khu Everland Resort."
 draft = false
 image = "images/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.webp"

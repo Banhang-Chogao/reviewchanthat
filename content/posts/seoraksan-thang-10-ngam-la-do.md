@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T12:00:00+07:00"
-commit = "f576fac5"
+commit = "f45b70cd"
 description = "Seoraksan tháng 10 có đáng đi không? phân tích thời điểm lá đỏ, cách di chuyển từ Seoul, chi phí tham khảo và lịch trình 1–2 ngày tại Sokcho."
 image = "images/posts/seoraksan-thang-10-ngam-la-do.webp"
 image_attribution_checked_at = "2026-07-11T17:30:29+07:00"

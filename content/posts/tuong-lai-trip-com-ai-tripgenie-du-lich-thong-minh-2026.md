@@ -1,7 +1,7 @@
 +++
 title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
 seo_title = "Tương lai Trip.com: AI TripGenie & du lịch thông minh"
-commit = "f576fac5"
+commit = "f45b70cd"
 date = "2026-07-13T09:55:00+07:00"
 draft = false
 author = "Minh Hoàng"
