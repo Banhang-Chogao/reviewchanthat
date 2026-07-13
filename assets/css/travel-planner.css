@@ -1367,3 +1367,156 @@
 .dark-mode .tp-gate__card {
   background: var(--color-surface, #1e1e1e);
 }
+
+/* ============================================================
+   2026 REDESIGN — modern, compact, Trip.com-inspired form card
+   (overrides; keeps all existing IDs/classes for the JS)
+   ============================================================ */
+
+/* Hero: a touch tighter so the search card can float over it */
+.travel-planner__hero{
+  padding:3.25rem 1rem 4.5rem;
+  margin-bottom:0;
+  border-radius:0 0 28px 28px;
+}
+.travel-planner__hero-title{font-size:clamp(1.8rem,4vw,2.4rem);}
+.travel-planner__hero-subtitle{opacity:.92;}
+
+/* Constrain the whole input area to a comfortable, centered card
+   that floats up over the hero — this is the key fix for
+   "input fields too wide". Results below stay full width. */
+.travel-planner__input-section{
+  max-width:660px;
+  margin:-3.25rem auto 2.5rem;
+  padding:1.75rem 1.75rem 1.9rem;
+  border-radius:22px;
+  border:1px solid rgba(0,0,0,.06);
+  box-shadow:0 12px 34px rgba(16,24,40,.12), 0 2px 8px rgba(16,24,40,.06);
+  position:relative;
+  z-index:2;
+}
+@media (max-width:560px){
+  .travel-planner__input-section{margin:-2.25rem 0.85rem 1.75rem;padding:1.25rem;border-radius:18px;}
+}
+
+.travel-planner__form{gap:1.15rem;}
+.travel-planner__field{gap:.4rem;}
+.travel-planner__field-group{gap:1rem;}
+
+/* Labels: normal case (uppercase mangled Vietnamese), quieter, tighter */
+.travel-planner__label{
+  text-transform:none;
+  letter-spacing:0;
+  font-size:.82rem;
+  font-weight:600;
+  color:var(--color-muted,#667085);
+}
+
+/* Inputs: taller touch target, softer radius, calm border */
+.travel-planner__input,
+.travel-planner__select{
+  min-height:50px;
+  padding:.75rem 1rem;
+  border:1.5px solid #e4e7ec;
+  border-radius:13px;
+  font-size:1rem;
+  background:#fff;
+}
+.travel-planner__input:hover,.travel-planner__select:hover{border-color:#cfd4dc;}
+.travel-planner__input:focus,.travel-planner__select:focus{
+  border-color:var(--color-primary,#00A7A0);
+  box-shadow:0 0 0 4px rgba(0,167,160,.14);
+}
+/* date inputs shouldn't stretch awkwardly */
+input[type="date"].travel-planner__input,
+input[type="number"].travel-planner__input{max-width:100%;}
+
+/* Advanced-options toggle: clean, full-width, pill ghost */
+.travel-planner__toggle-btn{
+  width:100%;
+  justify-content:center;
+  gap:.4rem;
+  padding:.7rem 1rem;
+  border:1.5px dashed #d0d5dd;
+  border-radius:12px;
+  background:#f9fafb;
+  color:var(--color-primary,#00A7A0);
+  font-weight:600;
+  font-size:.9rem;
+}
+.travel-planner__toggle-btn:hover{background:#f2f4f7;border-color:var(--color-primary,#00A7A0);}
+
+.travel-planner__optional-fields{
+  display:grid;gap:1.15rem;
+  padding-top:.25rem;
+  animation:tpFade .25s ease;
+}
+@keyframes tpFade{from{opacity:0;transform:translateY(-4px);}to{opacity:1;transform:none;}}
+
+/* Radio / checkbox → modern selectable chips (Material 3 style) */
+.travel-planner__radio-group,
+.travel-planner__checkbox-group{
+  display:flex;flex-wrap:wrap;gap:.5rem;
+}
+.travel-planner__radio,
+.travel-planner__checkbox{
+  position:relative;
+  display:inline-flex;align-items:center;gap:.4rem;
+  margin:0;padding:.5rem .95rem;
+  border:1.5px solid #e4e7ec;border-radius:999px;
+  background:#fff;cursor:pointer;
+  font-size:.9rem;font-weight:500;color:#344054;
+  transition:all .18s ease;user-select:none;
+}
+.travel-planner__radio:hover,
+.travel-planner__checkbox:hover{border-color:#cfd4dc;background:#f9fafb;}
+.travel-planner__radio input,
+.travel-planner__checkbox input{
+  position:absolute;opacity:0;width:0;height:0;margin:0;pointer-events:none;
+}
+.travel-planner__radio:has(input:checked),
+.travel-planner__checkbox:has(input:checked){
+  border-color:var(--color-primary,#00A7A0);
+  background:rgba(0,167,160,.10);
+  color:#00726d;font-weight:600;
+  box-shadow:inset 0 0 0 1px var(--color-primary,#00A7A0);
+}
+.travel-planner__radio:has(input:checked)::before,
+.travel-planner__checkbox:has(input:checked)::before{
+  content:"✓";font-weight:800;color:var(--color-primary,#00A7A0);font-size:.8rem;
+}
+
+/* Actions: primary is the star — full width, tall, confident */
+.travel-planner__actions{
+  display:flex;gap:.75rem;margin-top:.35rem;
+}
+.travel-planner__btn{
+  min-height:52px;border-radius:13px;font-size:1rem;font-weight:700;
+  padding:.8rem 1.4rem;
+}
+.travel-planner__btn--primary{
+  flex:1;
+  background:linear-gradient(135deg,var(--color-primary,#00A7A0),#008f88);
+  box-shadow:0 6px 16px rgba(0,167,160,.28);
+}
+.travel-planner__btn--primary:hover:not(:disabled){
+  transform:translateY(-1px);box-shadow:0 10px 22px rgba(0,167,160,.34);
+}
+.travel-planner__btn--secondary{
+  background:#fff;border:1.5px solid #e4e7ec;color:#475467;flex:0 0 auto;
+}
+@media (max-width:480px){
+  .travel-planner__actions{flex-direction:column;}
+  .travel-planner__btn--secondary{width:100%;}
+}
+
+/* Access gate: match the same modern card language */
+.tp-gate__card{
+  max-width:420px;border-radius:22px;
+  box-shadow:0 12px 34px rgba(16,24,40,.12);
+}
+.tp-gate__input{min-height:50px;border-radius:13px;border:1.5px solid #e4e7ec;text-align:center;letter-spacing:.4em;font-size:1.15rem;}
+.tp-gate__input:focus{border-color:var(--color-primary,#00A7A0);box-shadow:0 0 0 4px rgba(0,167,160,.14);outline:none;}
+.tp-gate__unlock{min-height:50px;border-radius:13px;font-weight:700;}
+
+/* Dark mode is disabled site-wide, so no dark overrides needed here */
