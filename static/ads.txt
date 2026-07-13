@@ -1,0 +1,7 @@
+# ads.txt — Google AdSense inventory verification
+# Replace the line below with your actual AdSense publisher ID.
+# Example:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# To get your publisher ID, sign in to https://adsense.google.com
+# and go to Settings > Account > Account ID (ca-pub-XXXXXXXXXXXXXX).
