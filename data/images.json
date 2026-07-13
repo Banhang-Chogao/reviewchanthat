@@ -8404,7 +8404,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc và khi nào thật sự đáng mua — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "ho-chi-minh-city-3-day-itinerary-first-timer-2026",
+      "title": "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)",
+      "image_id": "img-e175b6fc",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/vibrant-night-cityscape-of-ho-chi-minh-city-32499988/",
+      "direct_url": "https://images.pexels.com/photos/32499988/pexels-photo-32499988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Đan Thy Nguyễn Mai",
+      "creator_url": "https://www.pexels.com/@peterdanthy",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/ho-chi-minh-city-3-day-itinerary-first-timer-2026.jpg",
+      "output_path": "static/images/posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.webp",
+      "watermark_text": "Source: Pexels / Đan Thy Nguyễn Mai",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "ho chi minh city skyline",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026) — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-13T16:54:34.055376+00:00"
+  "generated_at": "2026-07-13T17:00:12.861692+00:00"
 }
