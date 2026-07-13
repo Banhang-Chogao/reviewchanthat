@@ -8600,7 +8600,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "best-wireless-earbuds-2026-top-picks-review",
+      "title": "Best Wireless Earbuds 2026: Top Picks for Every Budget — Real-World Tested",
+      "image_id": "img-17ec9927",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/black-wireless-earbuds-on-yellow-background-33797659/",
+      "direct_url": "https://images.pexels.com/photos/33797659/pexels-photo-33797659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Andrey Matveev",
+      "creator_url": "https://www.pexels.com/@zeleboba",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/best-wireless-earbuds-2026-top-picks-review.jpg",
+      "output_path": "static/images/posts/best-wireless-earbuds-2026-top-picks-review.webp",
+      "watermark_text": "Source: Pexels / Andrey Matveev",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "best wireless earbuds 2026 top",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Best Wireless Earbuds 2026: Top Picks for Every Budget — Real-World Tested — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-13T18:19:00.370994+00:00"
+  "generated_at": "2026-07-13T18:47:29.801689+00:00"
 }
