@@ -562,3 +562,140 @@
   transform: translateX(-50%) translateY(-20px);
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
+
+/* ===== Print/PDF styles — WYSIWYG ===== */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 10mm;
+  }
+
+  body {
+    background: #fff !important;
+    color: #222 !important;
+  }
+
+  /* Hide chrome */
+  .site-header,
+  .site-footer,
+  .footer-ad,
+  .sponsored-hotel-wrap,
+  .site-search,
+  .income-gate,
+  .income-insights__header-right,
+  .income-app__toolbar,
+  .income-app__export-wrap,
+  .income-table__col-actions,
+  .income-table__row-actions,
+  .income-app__undo,
+  .income-insights-box__disclaimer,
+  .income-app__btn {
+    display: none !important;
+  }
+
+  .income-insights {
+    padding: 0 !important;
+  }
+
+  .income-app {
+    display: block !important;
+  }
+
+  .income-insights__title {
+    font-size: 1.4rem;
+  }
+
+  /* Table */
+  .income-table-wrap {
+    overflow: visible !important;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .income-table {
+    min-width: 0 !important;
+    width: 100% !important;
+    font-size: 6.5pt !important;
+  }
+
+  .income-table th,
+  .income-table td {
+    padding: 2.5px 3px !important;
+  }
+
+  .income-table th {
+    background: #00A7A0 !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .income-table input,
+  .income-table select {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    font-size: inherit !important;
+    color: inherit !important;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  /* KPIs */
+  .income-kpis {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  .income-kpi {
+    padding: 6px;
+    border: 1px solid #ddd;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .income-kpi__value {
+    font-size: 1.1rem;
+  }
+
+  /* Charts — 2×2 grid for print */
+  .income-charts__grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 6px;
+  }
+
+  .income-chart-box {
+    padding: 6px;
+    page-break-inside: avoid;
+  }
+
+  .income-chart-box__title {
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+  }
+
+  .income-chart-box__canvas-wrap {
+    height: 140px !important;
+  }
+
+  .income-chart-box__canvas-wrap canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* AI Insights */
+  .income-insights-box {
+    page-break-inside: avoid;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .income-insights-box__title {
+    font-size: 0.95rem;
+  }
+
+  .income-insights-box__content {
+    font-size: 0.75rem;
+  }
+}
