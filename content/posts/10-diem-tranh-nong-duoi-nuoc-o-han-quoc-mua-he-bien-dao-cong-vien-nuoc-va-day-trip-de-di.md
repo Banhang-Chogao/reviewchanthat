@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -103,5 +105,9 @@ Nếu bạn có 3 ngày ở Seoul: ngày 1 đi Nami Island, ngày 2 Caribbean Ba
 4 ngày Busan: ngày 1 Haeundae + Cheongsapo, ngày 2 Gwangalli + Millak, ngày 3 Club D Oasis + Blue Line Park.
 
 5 ngày Jeju: ngày 1 check-in Jungmun resort, ngày 2 Udo, ngày 3 Jungmun Beach, ngày 4 Shinhwa, ngày 5 tham quan Jeju — về.
+
+Xem thêm: [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+Xem thêm: [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+
 
 7 ngày mix Seoul-Busan-Jeju: 2 ngày Seoul (Nami + Wolmido), 2 ngày Busan (Haeundae, Gwangalli, Cheongsapo), 3 ngày Jeju (Udo, Jungmun, Shinhwa).

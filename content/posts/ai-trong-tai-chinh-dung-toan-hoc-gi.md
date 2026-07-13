@@ -1,3 +1,5 @@
+---
+---
 +++
 title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
 description = "AI trong tài chính dùng deep learning (RNN, LSTM, Transformer), NLP phân tích sentiment và reinforcement learning cho giao dịch tối ưu, anomaly detection."
@@ -226,5 +228,9 @@ Paper Trading (thực tế không mua, chỉ log)
 ---
 
 ## Tiếp theo: Series Finale
+
+Xem thêm: [BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ](/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc/)
+Xem thêm: [công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?](/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro/)
+
 
 Bài 15: Toán học đỉnh cao trong tài chính - PILLAR tổng kết
