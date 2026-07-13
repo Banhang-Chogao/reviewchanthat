@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-13T23:52:00+07:00"
-commit = ""
+commit = "8660546e"
 description = "Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc thay, tiếng ồn và khi nào thật sự đáng mua cho chung cư Việt Nam."
 draft = false
 slug = "review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi"
@@ -120,6 +120,8 @@ Không khí ngoài trời ở nhiều đô thị Việt Nam biến động theo 
 Máy lọc **không chữa được** ô nhiễm thành phố. Nó chỉ **giảm nồng độ hạt lơ lửng trong một không gian kín** nếu bạn đóng cửa hợp lý và chạy đủ giờ. WHO và các cơ quan môi trường quốc tế vẫn nhấn mạnh giảm phơi nhiễm bụi mịn (PM2.5) vì liên quan hô hấp và tim mạch dài hạn — nhưng “giảm phơi nhiễm” gồm nhiều lớp: không ra ngoài lúc đỉnh ô nhiễm, khẩu trang khi cần, và **cải thiện không khí trong nhà** khi bạn ngủ 7–8 tiếng mỗi đêm.
 
 Với mình, máy lọc đáng nhất ở **phòng ngủ** và **phòng của người dị ứng / trẻ nhỏ**, không phải “để ở phòng khách cho đẹp”. Phòng khách thường mở cửa nhiều, giao thông người qua lại, hiệu quả lọc bị “rò” liên tục.
+
+![Bụi mịn trong không khí — lý do nhiều nhà quan tâm máy lọc](/images/posts/review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi-inline.webp)
 
 ## Máy lọc làm gì — và không làm gì
 
