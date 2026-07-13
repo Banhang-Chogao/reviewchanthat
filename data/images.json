@@ -8572,7 +8572,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "review-asus-zenbook-duo-2026-laptop-2-man-hinh",
+      "title": "Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần",
+      "image_id": "img-65b3b70c",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/focused-woman-working-on-laptop-indoors-37648248/",
+      "direct_url": "https://images.pexels.com/photos/37648248/pexels-photo-37648248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "German Suarez",
+      "creator_url": "https://www.pexels.com/@german-suarez-2985952",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/review-asus-zenbook-duo-2026-laptop-2-man-hinh.jpg",
+      "output_path": "static/images/posts/review-asus-zenbook-duo-2026-laptop-2-man-hinh.webp",
+      "watermark_text": "Source: Pexels / German Suarez",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "review asus zenbook duo 2026",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-13T18:12:11.938547+00:00"
+  "generated_at": "2026-07-13T18:19:00.370994+00:00"
 }
