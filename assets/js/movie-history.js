@@ -707,16 +707,36 @@
     });
   }
 
+  /* ─── SHA-256 ──────────────────────────────────────── */
+
+  function sha256(str) {
+    var buf = new TextEncoder().encode(str);
+    return crypto.subtle.digest('SHA-256', buf).then(function (hash) {
+      var hex = '';
+      var bytes = new Uint8Array(hash);
+      for (var i = 0; i < bytes.length; i++) {
+        hex += bytes[i].toString(16).padStart(2, '0');
+      }
+      return hex;
+    });
+  }
+
   /* ─── Passcode for API ────────────────────────────── */
+
+  var SAVE_HASH = '78c72f67941a420cd4e5ee9fdabcaeaba6d72f16160915085f9802220fd83799';
 
   function passcodeForApi(callback) {
     var code = prompt('Enter OTP to save changes:');
-    if (code && code.trim() === '0512') {
-      callback(code.trim());
-    } else {
-      if (code) showToast('Incorrect OTP.', 'error');
-      callback(null);
-    }
+    if (!code || !code.trim()) { callback(null); return; }
+
+    sha256(code.trim()).then(function (hash) {
+      if (hash === SAVE_HASH) {
+        callback(code.trim());
+      } else {
+        showToast('Incorrect OTP.', 'error');
+        callback(null);
+      }
+    });
   }
 
   /* ─── UI Helpers ───────────────────────────────────── */
