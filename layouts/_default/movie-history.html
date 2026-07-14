@@ -1,0 +1,85 @@
+{{ define "seo" }}
+<title>Movie History — Review Chân Thật</title>
+<meta name="description" content="Track your movie watching history with a personal dashboard.">
+<meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+{{ define "main" }}
+{{ $css := resources.Get "css/movie-history.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ $mhApi := .Site.Params.movie_history_api | default "" }}
+
+<div class="movie-history" id="mhApp" data-api="{{ $mhApi }}" data-base="{{ "" | relURL }}">
+
+  <div class="movie-history__hero">
+    <div class="movie-history__hero-content">
+      <h1 class="movie-history__hero-title">🎬 Movie History</h1>
+      <p class="movie-history__hero-subtitle">Track every movie you watch, want to watch, or are currently watching.</p>
+      <div class="movie-history__version">v1.0</div>
+    </div>
+  </div>
+
+  <!-- Access Gate -->
+  <div class="mh-gate" id="mhGate">
+    <div class="mh-gate__card">
+      <div class="mh-gate__icon">🔒</div>
+      <h2 class="mh-gate__heading">Movie History</h2>
+      <p class="mh-gate__desc">Enter your access code to manage your movie watchlist.</p>
+      <div class="mh-gate__form">
+        <input type="password" id="mhGateInput" class="mh-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="••••">
+        <button class="mh-gate__unlock" id="mhGateUnlock">Unlock</button>
+      </div>
+      <p class="mh-gate__error" id="mhGateError"></p>
+      <p class="mh-gate__hint">Ask the admin for the access code.</p>
+    </div>
+  </div>
+
+  <!-- Main App -->
+  <div class="mh-app" id="mhAppContent" style="display:none">
+
+    <!-- Week Navigation -->
+    <div class="mh-week-nav">
+      <button class="mh-week-nav__btn" id="mhPrevWeek">← Previous</button>
+      <span class="mh-week-nav__label" id="mhWeekLabel">Week 0 (0000)</span>
+      <button class="mh-week-nav__btn" id="mhNextWeek">Next →</button>
+    </div>
+
+    <!-- Calendar -->
+    <div class="mh-calendar" id="mhCalendar">
+      <div class="mh-calendar__header">Mon</div>
+      <div class="mh-calendar__header">Tue</div>
+      <div class="mh-calendar__header">Wed</div>
+      <div class="mh-calendar__header">Thu</div>
+      <div class="mh-calendar__header">Fri</div>
+      <div class="mh-calendar__header">Sat</div>
+      <div class="mh-calendar__header">Sun</div>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="mh-toolbar">
+      <div class="mh-toolbar__left">
+        <input type="text" class="mh-toolbar__search" id="mhSearch" placeholder="Search movies..." aria-label="Search movies">
+        <select class="mh-filter" id="mhFilter">
+          <option value="all">All</option>
+          <option value="upcoming">Upcoming</option>
+          <option value="watching">Watching</option>
+          <option value="watched">Watched</option>
+        </select>
+      </div>
+      <button class="mh-btn mh-btn--primary" id="mhAddBtn">＋ Add Movie</button>
+    </div>
+
+    <!-- Movie List -->
+    <div class="mh-movie-list" id="mhMovieList">
+      <div class="mh-loading" id="mhLoading">
+        <div class="mh-loading__spinner"></div>
+        <p class="mh-loading__text">Loading movies...</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{{ $js := resources.Get "js/movie-history.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}

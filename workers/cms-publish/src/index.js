@@ -40,7 +40,8 @@ export default {
             endpoints: {
               publish: 'POST /api/cms/publish',
               categories: 'GET/PUT /api/cms/categories',
-              deployStatus: 'GET /api/cms/deploy-status?run_id=<id>'
+              deployStatus: 'GET /api/cms/deploy-status?run_id=<id>',
+              movieHistory: 'GET/PUT /api/movie-history'
             }
           },
           200,
@@ -66,9 +67,21 @@ export default {
         return jsonResponse(result, 200, corsHeaders);
       }
 
-      if (pathname === '/api/cms/deploy-status' && request.method === 'GET') {
+        if (pathname === '/api/cms/deploy-status' && request.method === 'GET') {
         await requireAdmin(request, env);
         const result = await getDeployStatus(url, env);
+        return jsonResponse(result, 200, corsHeaders);
+      }
+
+      if (pathname === '/api/movie-history' && request.method === 'GET') {
+        await requireAdmin(request, env);
+        const result = await getMovieHistory(env);
+        return jsonResponse(result, 200, corsHeaders);
+      }
+
+      if (pathname === '/api/movie-history' && request.method === 'PUT') {
+        await requireAdmin(request, env);
+        const result = await saveMovieHistory(request, env);
         return jsonResponse(result, 200, corsHeaders);
       }
 
@@ -358,6 +371,53 @@ async function getDeployStatus(url, env) {
     run_status: response.status,
     conclusion: response.conclusion,
     html_url: response.html_url
+  };
+}
+
+async function getMovieHistory(env) {
+  const branch = env.GITHUB_BRANCH || DEFAULT_BRANCH;
+  const path = 'data/movie-history.json';
+  try {
+    const text = await readTextFile(path, branch, env);
+    const data = safeJsonParse(text);
+    return {
+      status: 'ok',
+      movies: Array.isArray(data.movies) ? data.movies : [],
+      updatedAt: data.updatedAt || ''
+    };
+  } catch (error) {
+    if (error instanceof HttpError && error.status === 404) {
+      return { status: 'ok', movies: [], updatedAt: '' };
+    }
+    throw error;
+  }
+}
+
+async function saveMovieHistory(request, env) {
+  const body = await request.json().catch(() => null);
+  if (!body || typeof body !== 'object') {
+    throw new HttpError(400, 'JSON body is required');
+  }
+
+  const movies = Array.isArray(body.movies) ? body.movies : [];
+  const message = String(body.message || 'movie-history: update').trim() || 'movie-history: update';
+
+  const data = {
+    movies,
+    updatedAt: body.updatedAt || new Date().toISOString()
+  };
+
+  const branch = env.GITHUB_BRANCH || DEFAULT_BRANCH;
+  const path = 'data/movie-history.json';
+  const text = `${JSON.stringify(data, null, 2)}\n`;
+
+  const commit = await putGithubContent(path, text, message, branch, env);
+
+  return {
+    status: 'ok',
+    path,
+    commit_sha: commit.sha,
+    movies_count: movies.length
   };
 }
 
