@@ -638,6 +638,9 @@ html.dark-mode .live-clock-box__time{color:#b0eace}
 .footer-deploy-badge img{display:block;width:auto;height:20px;max-width:min(240px,calc(100vw - 48px))}
 .footer-deploy-badge:hover{transform:translateY(-4px) scale(1.03);border-color:rgba(0,167,160,.35);background:rgba(255,255,255,.92);box-shadow:0 8px 18px rgba(0,167,160,.1)}
 .footer-deploy-badge:active{transform:translateY(-1px) scale(1.01)}
+.footer-nav--experimental{margin-top:8px;padding-top:14px;border-top:1px solid var(--border);width:100%;flex-direction:column;align-items:flex-start;gap:8px}
+.footer-nav__group-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.footer-nav-link--featured{background:linear-gradient(135deg,rgba(0,200,83,.12),rgba(124,77,255,.12));border-color:rgba(0,200,83,.2);color:var(--ccd-green-text, #008a3a)}
 .footer-copy{font-size:.8rem;color:var(--muted);padding:clamp(16px,3vw,24px) 0;border-top:1px solid var(--border);width:100%}
 
 /* Tagline */

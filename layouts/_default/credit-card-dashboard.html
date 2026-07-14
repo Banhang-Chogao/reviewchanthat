@@ -1,0 +1,353 @@
+{{ define "seo" }}
+<title>AI Credit Card Dashboard | HSBC Insights — Review Chân Thật</title>
+<meta name="description" content="AI-powered credit card dashboard with spending analytics, reward prediction, and smart insights.">
+<meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+{{ define "main" }}
+{{ $css := resources.Get "css/credit-card-dashboard.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<div class="ccd" id="ccd-app">
+  <div class="ccd-container">
+
+    <!-- Header -->
+    <header class="ccd-header">
+      <div class="ccd-header__left">
+        <a href="{{ "" | relURL }}" class="ccd-header__back" aria-label="Quay lại">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          <span>Credit Card Detail</span>
+        </a>
+      </div>
+      <div class="ccd-header__right">
+        <span class="ccd-header__label">HSBC Insights</span>
+        <span class="ccd-header__sync">Đồng bộ: hôm nay, 09:30</span>
+      </div>
+    </header>
+
+    <div class="ccd-layout">
+      <!-- LEFT: 70% -->
+      <div class="ccd-main">
+
+        <!-- 1. Card Summary -->
+        <section class="ccd-card ccd-card-summary">
+          <div class="ccd-card-summary__top">
+            <div class="ccd-card-summary__info">
+              <span class="ccd-card-summary__bank">HSBC</span>
+              <span class="ccd-card-summary__type">Visa Signature</span>
+              <span class="ccd-card-summary__network">Credit Card</span>
+              <div class="ccd-card-summary__digits">•••• 1234</div>
+            </div>
+            <div class="ccd-card-summary__tags">
+              <span class="ccd-card-summary__tag ccd-card-summary__tag--reward">Reward</span>
+              <span class="ccd-card-summary__tag ccd-card-summary__tag--cashback">Cashback</span>
+            </div>
+          </div>
+          <div class="ccd-card-summary__details">
+            <div class="ccd-card-summary__item">
+              <span class="ccd-card-summary__label">Statement Cycle</span>
+              <span class="ccd-card-summary__value">15 Monthly</span>
+            </div>
+            <div class="ccd-card-summary__item">
+              <span class="ccd-card-summary__label">Payment Due</span>
+              <span class="ccd-card-summary__value">25/05/2025</span>
+            </div>
+            <div class="ccd-card-summary__item">
+              <span class="ccd-card-summary__label">Available Credit</span>
+              <span class="ccd-card-summary__value ccd-card-summary__value--large">42,500,000 VND</span>
+            </div>
+            <div class="ccd-card-summary__item">
+              <span class="ccd-card-summary__label">Current Balance</span>
+              <span class="ccd-card-summary__value ccd-card-summary__value--large">7,820,000 VND</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. Payment Progress -->
+        <section class="ccd-card ccd-payment-progress" data-status="normal">
+          <div class="ccd-card__header">
+            <h2 class="ccd-card__title">Payment Progress</h2>
+          </div>
+          <div class="ccd-payment-progress__bar-wrap">
+            <div class="ccd-payment-progress__bar" id="ccd-progress-bar">
+              <span class="ccd-payment-progress__fill" id="ccd-progress-fill" style="width:50%"></span>
+            </div>
+          </div>
+          <div class="ccd-payment-progress__info">
+            <span class="ccd-payment-progress__percent" id="ccd-progress-percent">50%</span>
+            <span class="ccd-payment-progress__elapsed">10 / 20 days elapsed</span>
+            <span class="ccd-payment-progress__remaining">10 days remaining</span>
+          </div>
+        </section>
+
+        <!-- 3. Spending Analytics -->
+        <section class="ccd-card ccd-spending">
+          <div class="ccd-card__header">
+            <h2 class="ccd-card__title">Spending Analytics</h2>
+          </div>
+          <div class="ccd-spending__grid">
+            <div class="ccd-spending__categories">
+              <h3 class="ccd-spending__subtitle">Category Breakdown</h3>
+              <div class="ccd-spending__category" data-color="#ff4d4d">
+                <div class="ccd-spending__category-label">
+                  <span>Food</span>
+                  <span class="ccd-spending__category-pct">35%</span>
+                </div>
+                <div class="ccd-spending__category-bar"><span style="width:35%"></span></div>
+              </div>
+              <div class="ccd-spending__category" data-color="#2196f3">
+                <div class="ccd-spending__category-label">
+                  <span>Shopping</span>
+                  <span class="ccd-spending__category-pct">25%</span>
+                </div>
+                <div class="ccd-spending__category-bar"><span style="width:25%"></span></div>
+              </div>
+              <div class="ccd-spending__category" data-color="#ff8a00">
+                <div class="ccd-spending__category-label">
+                  <span>Travel</span>
+                  <span class="ccd-spending__category-pct">18%</span>
+                </div>
+                <div class="ccd-spending__category-bar"><span style="width:18%"></span></div>
+              </div>
+              <div class="ccd-spending__category" data-color="#7c4dff">
+                <div class="ccd-spending__category-label">
+                  <span>Bills</span>
+                  <span class="ccd-spending__category-pct">12%</span>
+                </div>
+                <div class="ccd-spending__category-bar"><span style="width:12%"></span></div>
+              </div>
+              <div class="ccd-spending__category" data-color="#00c853">
+                <div class="ccd-spending__category-label">
+                  <span>Others</span>
+                  <span class="ccd-spending__category-pct">10%</span>
+                </div>
+                <div class="ccd-spending__category-bar"><span style="width:10%"></span></div>
+              </div>
+            </div>
+            <div class="ccd-spending__trend">
+              <h3 class="ccd-spending__subtitle">Monthly Spending</h3>
+              <div class="ccd-spending__total">18,450,000 <span class="ccd-spending__total-currency">VND</span></div>
+              <div class="ccd-spending__trend-chart" id="ccd-trend-chart">
+                <div class="ccd-spending__trend-bar"><span style="height:35%"><span>Jan</span></span></div>
+                <div class="ccd-spending__trend-bar"><span style="height:48%"><span>Feb</span></span></div>
+                <div class="ccd-spending__trend-bar"><span style="height:55%"><span>Mar</span></span></div>
+                <div class="ccd-spending__trend-bar"><span style="height:72%"><span>Apr</span></span></div>
+                <div class="ccd-spending__trend-bar"><span style="height:62%"><span>May</span></span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. Reward Prediction -->
+        <section class="ccd-card ccd-rewards">
+          <div class="ccd-card__header">
+            <h2 class="ccd-card__title">Reward Prediction</h2>
+          </div>
+          <div class="ccd-rewards__grid">
+            <div class="ccd-rewards__card">
+              <span class="ccd-rewards__label">Current Cashback</span>
+              <span class="ccd-rewards__value">320,000 VND</span>
+              <div class="ccd-rewards__projection">
+                <span>Expected</span>
+                <span class="ccd-rewards__projection-value">470,000 VND</span>
+                <span class="ccd-rewards__potential">+150,000 VND</span>
+              </div>
+            </div>
+            <div class="ccd-rewards__card">
+              <span class="ccd-rewards__label">Current Points</span>
+              <span class="ccd-rewards__value">18,500</span>
+              <div class="ccd-rewards__projection">
+                <span>Predicted</span>
+                <span class="ccd-rewards__projection-value">22,400</span>
+                <span class="ccd-rewards__potential">+3,900 pts</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. Payment Timeline -->
+        <section class="ccd-card ccd-timeline">
+          <div class="ccd-card__header">
+            <h2 class="ccd-card__title">Payment Timeline</h2>
+          </div>
+          <div class="ccd-timeline__flow" id="ccd-timeline-flow">
+            <div class="ccd-timeline__step ccd-timeline__step--done">
+              <span class="ccd-timeline__step-icon">✓</span>
+              <span class="ccd-timeline__step-label">Statement</span>
+              <span class="ccd-timeline__step-date">15/05</span>
+            </div>
+            <div class="ccd-timeline__step ccd-timeline__step--active">
+              <span class="ccd-timeline__step-icon">●</span>
+              <span class="ccd-timeline__step-label">Today</span>
+              <span class="ccd-timeline__step-date">20/05</span>
+            </div>
+            <div class="ccd-timeline__step ccd-timeline__step--pending">
+              <span class="ccd-timeline__step-icon">○</span>
+              <span class="ccd-timeline__step-label">Due Date</span>
+              <span class="ccd-timeline__step-date">30/05</span>
+            </div>
+            <div class="ccd-timeline__step ccd-timeline__step--upcoming">
+              <span class="ccd-timeline__step-icon">○</span>
+              <span class="ccd-timeline__step-label">Payment</span>
+              <span class="ccd-timeline__step-date">Pending</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. Payment History -->
+        <section class="ccd-card ccd-history">
+          <div class="ccd-card__header">
+            <h2 class="ccd-card__title">Payment History</h2>
+            <a href="#" class="ccd-card__action">View All</a>
+          </div>
+          <div class="ccd-history__table-wrap">
+            <table class="ccd-history__table">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Amount</th>
+                  <th>Merchant</th>
+                  <th>Category</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>10/05</td><td>5,000,000</td><td>VinMart</td><td>Food</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
+                </tr>
+                <tr>
+                  <td>28/04</td><td>2,400,000</td><td>Shopee</td><td>Shopping</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
+                </tr>
+                <tr>
+                  <td>15/04</td><td>8,200,000</td><td>VietJet Air</td><td>Travel</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
+                </tr>
+                <tr>
+                  <td>02/04</td><td>1,800,000</td><td>EVN HCMC</td><td>Bills</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
+                </tr>
+                <tr>
+                  <td>20/03</td><td>4,500,000</td><td>Lotte Mart</td><td>Food</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- 7. Quick Actions -->
+        <section class="ccd-card ccd-actions">
+          <div class="ccd-card__header">
+            <h2 class="ccd-card__title">Quick Actions</h2>
+          </div>
+          <div class="ccd-actions__grid">
+            <button class="ccd-actions__btn ccd-actions__btn--primary">💳 Pay Now</button>
+            <button class="ccd-actions__btn">📄 Download Statement</button>
+            <button class="ccd-actions__btn">📋 Copy Card Number</button>
+            <button class="ccd-actions__btn ccd-actions__btn--danger">🔒 Lock Card</button>
+            <button class="ccd-actions__btn">⚙ Manage Limits</button>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- RIGHT: 30% Sidebar -->
+      <aside class="ccd-sidebar">
+
+        <!-- 8. AI Insights -->
+        <section class="ccd-card ccd-insights">
+          <div class="ccd-card__header">
+            <h2 class="ccd-card__title">AI Insights</h2>
+          </div>
+          <div class="ccd-insights__list">
+            <div class="ccd-insight-card ccd-insight-card--opportunity">
+              <div class="ccd-insight-card__icon">💡</div>
+              <div class="ccd-insight-card__body">
+                <h3>Cashback Opportunity</h3>
+                <p>You spend <strong>42%</strong> of grocery expenses using this card. Switching to <strong>HSBC Live+</strong> can increase cashback by <strong>+120,000 VND/month</strong>.</p>
+              </div>
+            </div>
+            <div class="ccd-insight-card ccd-insight-card--alert">
+              <div class="ccd-insight-card__icon">⚠️</div>
+              <div class="ccd-insight-card__body">
+                <h3>Unusual Spending</h3>
+                <p>Coffee: <strong>2,400,000 VND</strong> <span class="ccd-insight-card__trend">↑ 180%</span></p>
+                <p class="ccd-insight-card__sub">Compared to last month</p>
+              </div>
+            </div>
+            <div class="ccd-insight-card ccd-insight-card--optimize">
+              <div class="ccd-insight-card__icon">✨</div>
+              <div class="ccd-insight-card__body">
+                <h3>Optimization</h3>
+                <p>Spend <strong>650,000 VND</strong> at supermarkets to unlock <strong>5% cashback</strong>.</p>
+              </div>
+            </div>
+            <div class="ccd-insight-card ccd-insight-card--forecast">
+              <div class="ccd-insight-card__icon">📈</div>
+              <div class="ccd-insight-card__body">
+                <h3>Spending Forecast</h3>
+                <p>Expected month-end spending: <strong>23,500,000 VND</strong></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 9. Notification Center -->
+        <section class="ccd-card ccd-notifications">
+          <div class="ccd-card__header">
+            <h2 class="ccd-card__title">Notifications</h2>
+          </div>
+          <div class="ccd-notifications__list" id="ccd-notifications">
+            <div class="ccd-notification ccd-notification--alert">
+              <span class="ccd-notification__icon">🔔</span>
+              <div class="ccd-notification__body">
+                <span class="ccd-notification__text">Payment due in 5 days</span>
+                <span class="ccd-notification__time">2 giờ trước</span>
+              </div>
+            </div>
+            <div class="ccd-notification ccd-notification--promo">
+              <span class="ccd-notification__icon">🎉</span>
+              <div class="ccd-notification__body">
+                <span class="ccd-notification__text">New cashback campaign</span>
+                <span class="ccd-notification__time">1 ngày trước</span>
+              </div>
+            </div>
+            <div class="ccd-notification ccd-notification--reward">
+              <span class="ccd-notification__icon">📈</span>
+              <div class="ccd-notification__body">
+                <span class="ccd-notification__text">You earned <strong>420 pts</strong> today</span>
+                <span class="ccd-notification__time">3 giờ trước</span>
+              </div>
+            </div>
+            <div class="ccd-notification ccd-notification--warning">
+              <span class="ccd-notification__icon">⚠️</span>
+              <div class="ccd-notification__body">
+                <span class="ccd-notification__text">Spending exceeded <strong>80%</strong> of monthly average</span>
+                <span class="ccd-notification__time">5 giờ trước</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 10. AI Assistant -->
+        <section class="ccd-card ccd-assistant">
+          <div class="ccd-card__header">
+            <h2 class="ccd-card__title">HSBC AI Assistant</h2>
+          </div>
+          <div class="ccd-assistant__prompts" id="ccd-assistant-prompts">
+            <button class="ccd-assistant__prompt" data-prompt="What is the best card for travel?">"What is the best card for travel?"</button>
+            <button class="ccd-assistant__prompt" data-prompt="Why is my cashback lower this month?">"Why is my cashback lower this month?"</button>
+            <button class="ccd-assistant__prompt" data-prompt="How can I avoid late fees?">"How can I avoid late fees?"</button>
+          </div>
+          <div class="ccd-assistant__chat" id="ccd-assistant-chat">
+            <div class="ccd-assistant__messages" id="ccd-assistant-messages"></div>
+            <div class="ccd-assistant__input-wrap">
+              <input type="text" class="ccd-assistant__input" id="ccd-assistant-input" placeholder="Ask AI..." aria-label="Ask HSBC AI">
+              <button class="ccd-assistant__send" id="ccd-assistant-send" aria-label="Send">Ask AI</button>
+            </div>
+          </div>
+        </section>
+
+      </aside>
+    </div>
+  </div>
+</div>
+{{ $js := resources.Get "js/credit-card-dashboard.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
