@@ -667,12 +667,16 @@
     width: 100% !important;
     font-size: 6pt !important;
     border-collapse: collapse;
+    table-layout: fixed !important;
   }
 
   .income-table th,
   .income-table td {
     padding: 2px 3px !important;
     text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .income-table th {
@@ -686,6 +690,21 @@
   .income-table td:first-child {
     text-align: left;
   }
+
+  /* Column widths for print (fit A4 portrait) */
+  .income-table__col-seq { width: 4% !important; min-width: 0 !important; }
+  .income-table__col-income { width: 13% !important; min-width: 0 !important; }
+  .income-table__col-label { width: 8% !important; min-width: 0 !important; }
+  .income-table__col-debt { width: 13% !important; min-width: 0 !important; }
+  .income-table__col-total { width: 13% !important; min-width: 0 !important; }
+  .income-table__col-type { width: 6% !important; min-width: 0 !important; }
+  .income-table__col-route { width: 6% !important; min-width: 0 !important; }
+  .income-table__col-remark { width: 10% !important; min-width: 0 !important; }
+  .income-table__col-date { width: 7% !important; min-width: 0 !important; }
+  .income-table__col-d { width: 3% !important; min-width: 0 !important; }
+  .income-table__col-m { width: 3% !important; min-width: 0 !important; }
+  .income-table__col-y { width: 4% !important; min-width: 0 !important; }
+  .income-table__col-actions { display: none !important; }
 
   .income-table input,
   .income-table select {
@@ -724,12 +743,14 @@
 
   .income-chart-box__canvas-wrap {
     width: 100% !important;
-    height: 280px !important;
+    max-height: 240px !important;
+    height: auto !important;
   }
 
   .income-chart-box__canvas-wrap canvas {
     width: 100% !important;
-    height: 100% !important;
+    max-height: 240px !important;
+    height: auto !important;
   }
 
   /* AI Insights */
