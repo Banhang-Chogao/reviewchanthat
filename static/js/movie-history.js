@@ -70,6 +70,6 @@ function getWeekEnd(ws){var we=new Date(ws);we.setDate(we.getDate()+6);return we
 function formatDateVi(d){var days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];return days[d.getDay()===0?6:d.getDay()-1]+' '+d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear()}
 function getWeekNumber(d){var dt=new Date(d);dt.setHours(0,0,0,1);var ws=new Date(dt);ws.setDate(ws.getDate()-((ws.getDay()||7)-1));var ysw=new Date(ws.getFullYear(),0,1);return Math.ceil(((ws-ysw)/86400000+ysw.getDay()+1)/7)}
 function es(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
-
-if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',iG)}else{iG()}
+function lV(){var BASE=(document.body&&document.body.getAttribute('data-site-base'))||'';fetch(BASE.replace(/\/$/,'')+'/build-info.json').then(function(r){if(!r.ok)return null;return r.json()})['catch'](function(){return null}).then(function(info){var el=document.getElementById('mhVersionBadge');if(!el)return;if(!info){el.textContent='v1.0-dev';return}el.textContent='v1.0-'+info.short_sha})}
+iG();lV();
 })();
