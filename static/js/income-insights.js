@@ -4,12 +4,11 @@
   var ACCESS_HASH = '46eaa26621e4955c1675b55d446c6d03325f458b59a465f898d42924010e7286';
   var SESSION_KEY = 'income_insights_unlocked';
   var SESSION_PIN_KEY = 'income_insights_pin';
-  var DB_NAME = 'income_insights_db';
-  var STORE_NAME = 'encrypted_data';
   var APP_SALT = 'income-insights-v1-salt';
   var UNDO_LIMIT = 20;
   var BASE_PATH = document.body && document.body.getAttribute('data-site-base') || '';
   var MAX_RETRY_CHART = 5;
+  var GH_OWNER = 'banhang-chogao', GH_REPO = 'reviewchanthat', GH_PATH = 'data/income-insights.json', GH_BRANCH = 'main', GH_TOKEN_KEY = 'income_insights_gh_token';
 
   var state = {
     transactions: [],
@@ -83,51 +82,36 @@
     return arr;
   }
 
-  /* ─── IndexedDB ──────────────────────────────────────── */
-  function openDB() {
-    return new Promise(function(resolve, reject) {
-      var req = indexedDB.open(DB_NAME, 1);
-      req.onupgradeneeded = function(e) {
-        var db = e.target.result;
-        if (!db.objectStoreNames.contains(STORE_NAME)) {
-          db.createObjectStore(STORE_NAME, { keyPath: 'id' });
-        }
-      };
-      req.onsuccess = function(e) { resolve(e.target.result); };
-      req.onerror = function(e) { reject(e.target.error); };
-    });
+  /* ─── GitHub Storage ─────────────────────────────────── */
+  function getToken() { return localStorage.getItem(GH_TOKEN_KEY) || ''; }
+  function setToken(t) { if (t) { localStorage.setItem(GH_TOKEN_KEY, t); } else { localStorage.removeItem(GH_TOKEN_KEY); } }
+
+  function loadFromGitHub() {
+    var url = 'https://raw.githubusercontent.com/' + GH_OWNER + '/' + GH_REPO + '/' + GH_BRANCH + '/' + GH_PATH + '?_=' + Date.now();
+    return fetch(url, { cache: 'no-cache' }).then(function(r) {
+      if (r.status === 404) return null;
+      if (!r.ok) throw new Error('GitHub read failed: ' + r.status);
+      return r.json();
+    })['catch'](function() { return null; });
   }
 
-  function saveToDB(data) {
-    return openDB().then(function(db) {
-      return new Promise(function(resolve, reject) {
-        var tx = db.transaction(STORE_NAME, 'readwrite');
-        tx.objectStore(STORE_NAME).put({ id: 'income-data', data: data, updated: Date.now() });
-        tx.oncomplete = function() { resolve(); };
-        tx.onerror = function(e) { reject(e.target.error); };
-      });
-    });
-  }
-
-  function loadFromDB() {
-    return openDB().then(function(db) {
-      return new Promise(function(resolve, reject) {
-        var tx = db.transaction(STORE_NAME, 'readonly');
-        var req = tx.objectStore(STORE_NAME).get('income-data');
-        req.onsuccess = function(e) { resolve(e.target.result ? e.target.result.data : null); };
-        req.onerror = function(e) { reject(e.target.error); };
-      });
-    });
-  }
-
-  function clearDB() {
-    return openDB().then(function(db) {
-      return new Promise(function(resolve, reject) {
-        var tx = db.transaction(STORE_NAME, 'readwrite');
-        tx.objectStore(STORE_NAME)['delete']('income-data');
-        tx.oncomplete = function() { resolve(); };
-        tx.onerror = function(e) { reject(e.target.error); };
-      });
+  function saveToGitHub(data) {
+    var token = getToken();
+    if (!token) return Promise.reject(new Error('Cần token GitHub để lưu.'));
+    var apiUrl = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO + '/contents/' + GH_PATH;
+    var json = JSON.stringify(data) + '\n';
+    var content = btoa(unescape(encodeURIComponent(json)));
+    return fetch(apiUrl, { headers: { 'Accept': 'application/vnd.github.v3+json' } }).then(function(r) {
+      if (r.status === 404) return null;
+      if (!r.ok) throw new Error('Get SHA failed: ' + r.status);
+      return r.json();
+    }).then(function(existing) {
+      var body = { message: 'income-insights: update data', content: content, branch: GH_BRANCH };
+      if (existing) body.sha = existing.sha;
+      return fetch(apiUrl, { method: 'PUT', headers: { 'Authorization': 'token ' + token, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' }, body: JSON.stringify(body) });
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(e) { throw new Error('GitHub write failed: ' + (e.message || r.status)); });
+      return r.json();
     });
   }
 
@@ -194,10 +178,9 @@
         if (!confirm('Xác nhận RESET toàn bộ dữ liệu? Tất cả giao dịch sẽ bị xoá vĩnh viễn.')) return;
         pushUndo();
         state.transactions = [];
-        clearDB()['catch'](function(e) { console.warn('Clear DB error:', e); });
+        if (getToken()) doAutosave()['catch'](function(e) { console.warn('Save to GitHub error:', e); });
         applyFilters();
         renderAll();
-        scheduleAutosave();
         alert('Đã reset toàn bộ dữ liệu. Bạn có thể bắt đầu nhập lại từ đầu.');
       });
     });
@@ -267,45 +250,31 @@
 
   /* ─── After Unlock ───────────────────────────────────── */
   function afterUnlock() {
-    loadFromDB().then(function(encrypted) {
+    loadFromGitHub().then(function(encrypted) {
       if (encrypted && state.cryptoKey) {
         return decryptData(encrypted, state.cryptoKey).then(function(json) {
           state.transactions = JSON.parse(json);
           applyFilters();
           renderAll();
-          scheduleAutosave();
         });
       } else {
         renderAll();
-        scheduleAutosave();
       }
     })['catch'](function(e) {
-      console.error('Failed to load data from IndexedDB:', e);
+      console.error('Failed to load from GitHub:', e);
       renderAll();
     });
   }
 
-  /* ─── Autosave ───────────────────────────────────────── */
-  var autosaveTimer = null;
-
-  function scheduleAutosave() {
-    if (autosaveTimer) clearTimeout(autosaveTimer);
-    autosaveTimer = setTimeout(doAutosave, 3000);
-  }
-
+  /* ─── Save to GitHub ─────────────────────────────────── */
+  function scheduleAutosave() {} /* no-op: only save on explicit click */
   function doAutosave() {
-    if (!state.cryptoKey) return;
+    if (!state.cryptoKey) return Promise.resolve();
     var plain = JSON.stringify(state.transactions);
-    encryptData(plain, state.cryptoKey).then(function(enc) {
-      return saveToDB(enc);
-    })['catch'](function(e) {
-      console.warn('Autosave failed:', e);
+    return encryptData(plain, state.cryptoKey).then(function(enc) {
+      return saveToGitHub(enc);
     });
   }
-
-  document.addEventListener('visibilitychange', function() {
-    if (document.hidden) doAutosave();
-  });
 
   /* ─── Undo ────────────────────────────────────────────── */
   function pushUndo() {
@@ -602,7 +571,6 @@
     }));
     applyFilters();
     renderAll();
-    scheduleAutosave();
   }
 
   function deleteRow(filteredIdx) {
@@ -631,7 +599,6 @@
     if (!confirm('Xóa toàn bộ dữ liệu? Hành động này không thể hoàn tác.')) return;
     pushUndo();
     state.transactions = [];
-    clearDB()['catch'](function(e) { console.warn('Clear DB error:', e); });
     applyFilters();
     renderAll();
   }
@@ -1302,34 +1269,41 @@
 
   /* ─── Save ────────────────────────────────────────────── */
   function saveNow() {
-    var msg = document.getElementById('incomeSaveMsg');
-    if (msg) {
-      msg.classList.remove('income-toast--hidden');
-      msg.classList.add('income-toast--show');
-      return;
+    var token = getToken();
+    if (!token) {
+      var input = prompt('Nhập GitHub Personal Access Token (cần quyền contents write):');
+      if (input !== null && input.trim()) { setToken(input.trim()); token = input.trim(); }
+      else { alert('Cần token GitHub để lưu dữ liệu.'); return; }
     }
-    doAutosave();
-    var messages = [
-      'Bạn đã quan tâm thu nhập của mình rồi đó — lưu thành công! 🎉',
-      'Dữ liệu đã an toàn rồi, chủ nhân yên tâm nhé! 💪',
-      'Lưu xong rồi! Càng theo dõi, càng giàu to. 📈',
-      'Số liệu đã ghi nhận — tiếp tục làm chủ tài chính nhé! 🔥',
-      'Lưu rồi! Bạn giỏi quá, hôm nay lại có thêm 1 sao. ⭐'
-    ];
-    var text = messages[Math.floor(Math.random() * messages.length)];
-    var toast = document.createElement('div');
-    toast.className = 'income-toast';
-    toast.id = 'incomeSaveMsg';
-    toast.textContent = text;
-    document.body.appendChild(toast);
-    requestAnimationFrame(function() {
-      toast.classList.add('income-toast--show');
+    var btn = document.getElementById('incomeSaveBtn');
+    var orig = btn.textContent;
+    btn.textContent = '⏳ Saving...';
+    btn.disabled = true;
+    doAutosave().then(function() {
+      btn.textContent = '✅ Saved';
+      setTimeout(function() { btn.textContent = orig; btn.disabled = false; }, 2000);
+      var messages = [
+        'Đã lưu lên GitHub — dữ liệu an toàn vĩnh viễn! 🎉',
+        'Lưu thành công! Giờ qua máy khác cũng xem được. 💪',
+        'Commit mới đã push — dữ liệu sống mãi trên GitHub! 📈',
+        'Lưu rồi! Tiếp tục làm chủ tài chính nhé! 🔥'
+      ];
+      var text = messages[Math.floor(Math.random() * messages.length)];
+      var toast = document.createElement('div');
+      toast.className = 'income-toast';
+      toast.textContent = text;
+      document.body.appendChild(toast);
+      requestAnimationFrame(function() { toast.classList.add('income-toast--show'); });
+      setTimeout(function() {
+        toast.classList.remove('income-toast--show');
+        setTimeout(function() { if (toast.parentNode) toast.parentNode.removeChild(toast); }, 400);
+      }, 4000);
+    })['catch'](function(err) {
+      btn.textContent = '❌ Failed';
+      btn.disabled = false;
+      setTimeout(function() { btn.textContent = orig; }, 2000);
+      alert('Lưu thất bại: ' + err.message);
     });
-    setTimeout(function() {
-      toast.classList.remove('income-toast--show');
-      toast.classList.add('income-toast--hidden');
-      setTimeout(function() { if (toast.parentNode) toast.parentNode.removeChild(toast); }, 400);
-    }, 3500);
   }
 
   function fmt(num) {
@@ -1385,6 +1359,10 @@
     });
     document.addEventListener('click', function() { dropdown.classList.remove('income-app__dropdown--open'); });
     document.getElementById('incomeTemplateBtn').addEventListener('click', downloadExcelTemplate);
+    document.getElementById('incomeTokenBtn').addEventListener('click', function() {
+      var t = prompt('Nhập GitHub Personal Access Token:', getToken());
+      if (t !== null) { setToken(t.trim()); if (t.trim()) alert('Token đã lưu.'); }
+    });
   }
 
   if (document.readyState === 'loading') {
