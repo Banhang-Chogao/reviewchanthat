@@ -101,18 +101,26 @@
     var apiUrl = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO + '/contents/' + GH_PATH;
     var json = JSON.stringify(data) + '\n';
     var content = btoa(unescape(encodeURIComponent(json)));
-    return fetch(apiUrl, { headers: { 'Accept': 'application/vnd.github.v3+json' } }).then(function(r) {
-      if (r.status === 404) return null;
-      if (!r.ok) throw new Error('Get SHA failed: ' + r.status);
-      return r.json();
-    }).then(function(existing) {
-      var body = { message: 'income-insights: update data', content: content, branch: GH_BRANCH };
-      if (existing) body.sha = existing.sha;
-      return fetch(apiUrl, { method: 'PUT', headers: { 'Authorization': 'token ' + token, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' }, body: JSON.stringify(body) });
-    }).then(function(r) {
-      if (!r.ok) return r.json().then(function(e) { throw new Error('GitHub write failed: ' + (e.message || r.status)); });
-      return r.json();
-    });
+    function trySave(retries) {
+      return fetch(apiUrl, { headers: { 'Accept': 'application/vnd.github.v3+json' } }).then(function(r) {
+        if (r.status === 404) return null;
+        if (!r.ok) throw new Error('Get SHA failed: ' + r.status);
+        return r.json();
+      }).then(function(existing) {
+        var body = { message: 'income-insights: update data', content: content, branch: GH_BRANCH };
+        if (existing) body.sha = existing.sha;
+        return fetch(apiUrl, { method: 'PUT', headers: { 'Authorization': 'token ' + token, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' }, body: JSON.stringify(body) });
+      }).then(function(r) {
+        if (!r.ok) return r.json().then(function(e) {
+          if (e.message && e.message.indexOf('does not match') !== -1 && retries > 0) {
+            return new Promise(function(res) { setTimeout(res, 500) }).then(function() { return trySave(retries - 1); });
+          }
+          throw new Error('GitHub write failed: ' + (e.message || r.status));
+        });
+        return r.json();
+      });
+    }
+    return trySave(3);
   }
 
   /* ─── VND Format ─────────────────────────────────────── */
