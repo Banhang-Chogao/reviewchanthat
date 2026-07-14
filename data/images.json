@@ -8656,7 +8656,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa GPT-5.6 vs Grok 4.5 vs Muse Spark 1.1: Real-World AI Model Review 2026 — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026",
+      "title": "Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn",
+      "image_id": "img-a44906af",
+      "source_platform": "Pixabay",
+      "image_provider": "pixabay",
+      "source_url": "https://pixabay.com/photos/istanbul-sea-sun-reflection-that-4067653/",
+      "direct_url": "https://pixabay.com/get/g3246374c85981ac49746c6a922b287c5792d4b93dfae8327316e213803add20835063479dc58ecda4e328178a6f20b2579cec2ee692d9a0b1abca8fa724f59c3_1280.jpg",
+      "creator": "Konevi",
+      "creator_url": "https://pixabay.com/photos/istanbul-sea-sun-reflection-that-4067653/",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pixabay Content License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026.jpg",
+      "output_path": "static/images/posts/review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026.webp",
+      "watermark_text": "Source: Pixabay / Konevi",
+      "provider_used": "Pixabay",
+      "attribution_verified": true,
+      "attribution_source": "pixabay_api",
+      "image_query": "shopee vs lazada vs tiki",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn — nguồn Pixabay",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-14T20:27:21.054348+00:00"
+  "generated_at": "2026-07-14T20:49:57.279105+00:00"
 }
