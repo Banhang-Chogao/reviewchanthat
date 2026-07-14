@@ -59,7 +59,16 @@
       <button class="mh-btn mh-btn--primary" id="mhAddBtn">＋ Add Movie</button>
     </div>
 
-    <div class="mh-save-status" id="mhSaveStatus" style="display:none"></div>
+    <div class="mh-progress-bar" id="mhProgressBar" style="display:none">
+      <div class="mh-progress-bar__track">
+        <div class="mh-progress-bar__fill" id="mhProgressFill"></div>
+      </div>
+      <div class="mh-progress-bar__stage" id="mhProgressStage">
+        <span class="mh-progress-bar__icon">🔍</span>
+        <span class="mh-progress-bar__text">Đang kết nối GitHub...</span>
+      </div>
+      <div class="mh-progress-bar__sha" id="mhProgressSha"></div>
+    </div>
     <div class="mh-movie-list" id="mhMovieList">
       <div class="mh-loading" id="mhLoading">
         <div class="mh-loading__spinner"></div>
