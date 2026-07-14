@@ -7,7 +7,7 @@ image = "images/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.webp"
 thumbnail = "images/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.webp"
 categories = ["review"]
 tags = ["su-thi-hy-lap", "odyssey", "odysseus", "homer", "van-hoc-co-dien", "phim-co-trang", "review-phim"]
-commit = ""
+commit = "26bf2d62"
 [[internal_links]]
 ref = "/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha"
 title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
