@@ -1,0 +1,125 @@
+{{ define "main" }}
+<article class="movie-history">
+  <div class="movie-history__hero">
+    <div class="movie-history__hero-content">
+      <h1 class="movie-history__hero-title">🎬 Movie History</h1>
+      <p class="movie-history__hero-subtitle">Track every movie you watch, want to watch, or are currently watching.</p>
+      <div class="movie-history__version" id="mhVersionBadge">v1.0</div>
+    </div>
+  </div>
+
+  <div class="mh-gate" id="mhGate">
+    <div class="mh-gate__card">
+      <div class="mh-gate__icon">🔐</div>
+      <h2 class="mh-gate__heading">Movie History Access</h2>
+      <p class="mh-gate__desc">Enter your approve code to access your movie tracking dashboard.</p>
+      <div class="mh-gate__form">
+        <input type="password" id="mhGateInput" class="mh-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="Code">
+        <button class="mh-gate__unlock" id="mhGateUnlock">Unlock</button>
+      </div>
+      <p class="mh-gate__error" id="mhGateError"></p>
+      <p class="mh-gate__hint">Use your 4-digit approve code.</p>
+    </div>
+  </div>
+
+  <div class="mh-app" id="mhApp" style="display:none">
+    <div class="mh-week-nav">
+      <button class="mh-week-nav__btn" id="mhPrevWeek">← Previous</button>
+      <span class="mh-week-nav__label" id="mhWeekLabel">Week 0 (0000)</span>
+      <button class="mh-week-nav__btn" id="mhNextWeek">Next →</button>
+    </div>
+
+    <div class="mh-calendar" id="mhCalendar">
+      <div class="mh-calendar__header">Mon</div>
+      <div class="mh-calendar__header">Tue</div>
+      <div class="mh-calendar__header">Wed</div>
+      <div class="mh-calendar__header">Thu</div>
+      <div class="mh-calendar__header">Fri</div>
+      <div class="mh-calendar__header">Sat</div>
+      <div class="mh-calendar__header">Sun</div>
+    </div>
+
+    <div class="mh-toolbar">
+      <div class="mh-toolbar__left">
+        <input type="text" class="mh-toolbar__search" id="mhSearch" placeholder="Search movies..." aria-label="Search movies">
+        <select class="mh-filter" id="mhFilter">
+          <option value="all">All</option>
+          <option value="upcoming">Upcoming</option>
+          <option value="watching">Watching</option>
+          <option value="watched">Watched</option>
+        </select>
+      </div>
+      <button class="mh-btn mh-btn--primary" id="mhAddBtn">＋ Add Movie</button>
+    </div>
+
+    <div class="mh-movie-list" id="mhMovieList">
+      <div class="mh-loading" id="mhLoading">
+        <div class="mh-loading__spinner"></div>
+        <p class="mh-loading__text">Loading movies...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mh-overlay" id="mhOverlay" style="display:none">
+    <div class="mh-modal" id="mhModal">
+      <div class="mh-modal__header">
+        <h2 class="mh-modal__title" id="mhModalTitle">Add Movie</h2>
+        <button class="mh-modal__close" id="mhModalClose">✕</button>
+      </div>
+      <form class="mh-form" id="mhForm">
+        <input type="hidden" id="mhEditId" value="">
+        <div class="mh-form__group">
+          <label class="mh-form__label">Movie Title</label>
+          <input type="text" class="mh-form__input" id="mhFormTitle" placeholder="e.g. Inception" required>
+        </div>
+        <div class="mh-form__row">
+          <div class="mh-form__group">
+            <label class="mh-form__label">Year</label>
+            <input type="number" class="mh-form__input" id="mhFormYear" placeholder="2024" min="1900" max="2099">
+          </div>
+          <div class="mh-form__group">
+            <label class="mh-form__label">Rating</label>
+            <div class="mh-form__stars" id="mhFormStars">
+              <span class="mh-form__star" data-value="1">★</span>
+              <span class="mh-form__star" data-value="2">★</span>
+              <span class="mh-form__star" data-value="3">★</span>
+              <span class="mh-form__star" data-value="4">★</span>
+              <span class="mh-form__star" data-value="5">★</span>
+            </div>
+          </div>
+        </div>
+        <div class="mh-form__group">
+          <label class="mh-form__label">Status</label>
+          <div class="mh-form__status" id="mhFormStatus">
+            <span class="mh-form__status-option" data-value="upcoming">📅 Upcoming</span>
+            <span class="mh-form__status-option mh-form__status-option--active" data-value="watching">▶ Watching</span>
+            <span class="mh-form__status-option" data-value="watched">✅ Watched</span>
+          </div>
+        </div>
+        <div class="mh-form__group">
+          <label class="mh-form__label">Summary / Notes</label>
+          <textarea class="mh-form__textarea" id="mhFormSummary" placeholder="Your thoughts about this movie..."></textarea>
+        </div>
+        <div class="mh-form__group">
+          <label class="mh-form__label">Specials (tags)</label>
+          <div class="mh-form__specials" id="mhFormSpecials">
+            <span class="mh-form__special" data-value="favorite">⭐ Favorite</span>
+            <span class="mh-form__special" data-value="rewatch">🔄 Rewatch</span>
+            <span class="mh-form__special" data-value="cinema">🎞 Cinema</span>
+            <span class="mh-form__special" data-value="series">📺 Series</span>
+            <span class="mh-form__special" data-value="anime">🎌 Anime</span>
+            <span class="mh-form__special" data-value="documentary">📖 Doc</span>
+          </div>
+        </div>
+        <div class="mh-form__actions">
+          <button type="button" class="mh-btn mh-btn--subtle" id="mhFormCancel">Cancel</button>
+          <button type="submit" class="mh-btn mh-btn--primary" id="mhFormSave">💾 Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</article>
+{{ $css := resources.Get "css/movie-history.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<script src="{{ "js/movie-history.js" | relURL }}" defer></script>
+{{ end }}
