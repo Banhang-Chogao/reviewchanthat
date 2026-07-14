@@ -8628,7 +8628,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Best Wireless Earbuds 2026: Top Picks for Every Budget — Real-World Tested — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "trending-topic-20260715",
+      "title": "GPT-5.6 vs Grok 4.5 vs Muse Spark 1.1: Real-World AI Model Review 2026",
+      "image_id": "img-24abad9b",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/hotel-among-trees-18587872/",
+      "direct_url": "https://images.pexels.com/photos/18587872/pexels-photo-18587872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "XT7 Core",
+      "creator_url": "https://www.pexels.com/@xt7core",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/trending-topic-20260715.jpg",
+      "output_path": "static/images/posts/trending-topic-20260715.webp",
+      "watermark_text": "Source: Pexels / XT7 Core",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "gpt-5 vs grok vs muse",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa GPT-5.6 vs Grok 4.5 vs Muse Spark 1.1: Real-World AI Model Review 2026 — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-13T18:47:29.801689+00:00"
+  "generated_at": "2026-07-14T20:27:21.054348+00:00"
 }
