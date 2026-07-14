@@ -1144,10 +1144,18 @@
       alert('Không có dữ liệu để export PDF.');
       return;
     }
-    // Close any open dropdown
     document.getElementById('incomeExportDropdown').classList.remove('income-app__dropdown--open');
-    // Use browser print for true 1:1 WYSIWYG (Save as PDF from print dialog)
-    window.print();
+    document.body.classList.add('income-printing');
+    function afterPrint() {
+      document.body.classList.remove('income-printing');
+      window.removeEventListener('focus', afterPrint);
+    }
+    window.addEventListener('focus', afterPrint);
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() {
+        window.print();
+      });
+    });
   }
 
   function escHtml(str) {
