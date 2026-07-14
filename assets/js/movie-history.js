@@ -1,8 +1,6 @@
 (function () {
   'use strict';
 
-  var ACCESS_HASH = 'bf600159c2f308d1a2201004533c16855318a78ef0917e1022dc04a5665a9be2';
-  var SESSION_KEY = 'movie_history_unlocked';
   var GITHUB_RAW = 'https://raw.githubusercontent.com/Banhang-Chogao/reviewchanthat/main/data/movie-history.json';
   var API_BASE = '';
 
@@ -21,65 +19,8 @@
     if (!app) return;
     API_BASE = app.getAttribute('data-api') || '';
 
-    if (sessionStorage.getItem(SESSION_KEY) === '1') {
-      hideGate();
-      loadMovies();
-    } else {
-      initGate();
-    }
-  }
-
-  /* ─── SHA-256 ──────────────────────────────────────── */
-
-  function sha256(str) {
-    var buf = new TextEncoder().encode(str);
-    return crypto.subtle.digest('SHA-256', buf).then(function (hash) {
-      var hex = '';
-      var bytes = new Uint8Array(hash);
-      for (var i = 0; i < bytes.length; i++) {
-        hex += bytes[i].toString(16).padStart(2, '0');
-      }
-      return hex;
-    });
-  }
-
-  /* ─── Gate ─────────────────────────────────────────── */
-
-  function initGate() {
-    var gate = document.getElementById('mhGate');
-    if (!gate) return;
-    gate.style.display = '';
-
-    var input = document.getElementById('mhGateInput');
-    var btn = document.getElementById('mhGateUnlock');
-    var err = document.getElementById('mhGateError');
-
-    function handleUnlock() {
-      var code = (input.value || '').trim();
-      if (!code || code.length !== 4) {
-        err.textContent = 'Please enter a 4-digit code.';
-        return;
-      }
-      btn.disabled = true;
-      sha256(code).then(function (hash) {
-        if (hash === ACCESS_HASH) {
-          sessionStorage.setItem(SESSION_KEY, '1');
-          hideGate();
-          loadMovies();
-        } else {
-          err.textContent = 'Incorrect access code.';
-          input.value = '';
-          input.focus();
-          btn.disabled = false;
-        }
-      });
-    }
-
-    btn.addEventListener('click', handleUnlock);
-    input.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') handleUnlock();
-    });
-    input.focus();
+    hideGate();
+    loadMovies();
   }
 
   function hideGate() {
@@ -769,15 +710,11 @@
   /* ─── Passcode for API ────────────────────────────── */
 
   function passcodeForApi(callback) {
-    var existing = sessionStorage.getItem(SESSION_KEY);
-    if (existing === '1') {
-      var code = prompt('Enter your access code to save changes:');
-      if (code && code.trim()) {
-        callback(code.trim());
-      } else {
-        callback(null);
-      }
+    var code = prompt('Enter OTP to save changes:');
+    if (code && code.trim() === '0512') {
+      callback(code.trim());
     } else {
+      if (code) showToast('Incorrect OTP.', 'error');
       callback(null);
     }
   }
