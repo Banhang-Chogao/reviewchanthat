@@ -8684,7 +8684,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn — nguồn Pixabay",
       "gate_verified": true
+    },
+    {
+      "slug": "su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha",
+      "title": "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus",
+      "image_id": "img-9907f2ce",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/chalkboard-sign-in-bustling-outdoor-market-scene-31624712/",
+      "direct_url": "https://images.pexels.com/photos/31624712/pexels-photo-31624712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "HUY TRAN",
+      "creator_url": "https://www.pexels.com/@dinhhuy",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.jpg",
+      "output_path": "static/images/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.webp",
+      "watermark_text": "Source: Pexels / HUY TRAN",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "sử thi odyssey hành trình",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-14T20:49:57.279105+00:00"
+  "generated_at": "2026-07-14T21:02:54.874271+00:00"
 }
