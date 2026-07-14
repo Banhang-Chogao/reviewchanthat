@@ -1,3 +1,5 @@
+---
+---
 +++
 draft = false
 title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
@@ -267,5 +269,9 @@ Hãy ghi nhật ký 5 dòng sau mỗi lần dùng AI cho chủ đề bài này: 
 
 
 ### Ghi chú thực hành thêm (1978)
+
+Xem thêm: [AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế](/posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te/)
+Xem thêm: [20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày](/posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay/)
+
 
 Hãy ghi nhật ký 5 dòng sau mỗi lần dùng AI cho chủ đề bài này: việc gì, phút tiết kiệm, lỗi AI, dữ liệu đã che, quyết định giữ/cắt tool. Lặp 14 ngày. Đây là phần “trải nghiệm thật” mà không công cụ nào thay bạn viết.
