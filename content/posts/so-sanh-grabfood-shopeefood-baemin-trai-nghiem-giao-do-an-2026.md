@@ -1,7 +1,7 @@
 +++
 title = "GrabFood vs ShopeeFood vs Baemin: So Sánh Trải Nghiệm Giao Đồ Ăn Tại Việt Nam 2026"
 seo_title = "So sánh GrabFood, ShopeeFood, Baemin 2026: App nào rẻ và nhanh nhất?"
-commit = "f5c807a9"
+commit = "338689d1"
 date = "2026-07-15T03:13:00+07:00"
 slug = "so-sanh-grabfood-shopeefood-baemin-trai-nghiem-giao-do-an-2026"
 draft = false
