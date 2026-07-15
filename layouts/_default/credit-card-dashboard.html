@@ -45,19 +45,24 @@
         </div>
       </header>
 
-      <!-- ═══ HOME: 2 modules ═══ -->
+      <!-- ═══ HOME: 3 modules ═══ -->
       <section class="ccd-home" id="ccdHome">
-        <p class="ccd-home__intro">Chọn module để nhập dữ liệu thẻ hoặc xem dashboard phân tích.</p>
-        <div class="ccd-home__grid">
+        <p class="ccd-home__intro">Chọn module: nhập thẻ, xem dashboard, hoặc cập nhật khuyến mãi.</p>
+        <div class="ccd-home__grid ccd-home__grid--3">
           <button type="button" class="ccd-home__card" id="ccdOpenInput" data-module="input">
             <span class="ccd-home__card-icon" aria-hidden="true">✏️</span>
-            <span class="ccd-home__card-title">Input Data</span>
+            <span class="ccd-home__card-title">1. Input Data</span>
             <span class="ccd-home__card-desc">Add/Edit credit card information.</span>
           </button>
           <button type="button" class="ccd-home__card" id="ccdOpenDashboard" data-module="dashboard">
             <span class="ccd-home__card-icon" aria-hidden="true">📊</span>
-            <span class="ccd-home__card-title">Dashboard</span>
-            <span class="ccd-home__card-desc">View analytics using the existing Credit Card Dashboard UI.</span>
+            <span class="ccd-home__card-title">2. Dashboard</span>
+            <span class="ccd-home__card-desc">Analytics + active promotions.</span>
+          </button>
+          <button type="button" class="ccd-home__card" id="ccdOpenPromos" data-module="promos">
+            <span class="ccd-home__card-icon" aria-hidden="true">🔥</span>
+            <span class="ccd-home__card-title">3. Promotions Update</span>
+            <span class="ccd-home__card-desc">Manage bank/card promotions (manual or Excel).</span>
           </button>
         </div>
       </section>
@@ -208,6 +213,183 @@
         </div>
       </section>
 
+      <!-- ═══ MODULE 3: PROMOTIONS UPDATE ═══ -->
+      <section class="ccd-promo" id="ccdPromos" style="display:none" hidden>
+        <div class="ccd-io" id="ccdPromoIoPanel" aria-label="Promotion import export">
+          <div class="ccd-io__head">
+            <h3 class="ccd-io__title">3. Promotions Update</h3>
+            <p class="ccd-io__desc">Quản lý khuyến mãi thẻ (HSBC Live+, Visa Platinum, Premier, TravelOne…). Dữ liệu private local — không public GitHub.</p>
+          </div>
+          <div class="ccd-io__actions">
+            <button type="button" class="ccd-io__btn ccd-io__btn--template" id="ccdPromoDownloadTemplate">📥 Download Excel Template</button>
+            <button type="button" class="ccd-io__btn ccd-io__btn--import" id="ccdPromoImportBtn">📤 Import Excel</button>
+            <button type="button" class="ccd-io__btn ccd-io__btn--primary" id="ccdPromoAddBtn">＋ Manual Add Promotion</button>
+            <button type="button" class="ccd-io__btn ccd-io__btn--export" id="ccdPromoExportBtn">📄 Export Current Promotions</button>
+          </div>
+          <div class="ccd-io__drop" id="ccdPromoImportDrop" tabindex="0" role="button" aria-label="Kéo thả Excel promotions">
+            <input type="file" id="ccdPromoImportFile" class="ccd-io__file" accept=".xlsx,.xls,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel" hidden>
+            <div class="ccd-io__drop-icon" aria-hidden="true">📂</div>
+            <p class="ccd-io__drop-text"><strong>Kéo &amp; thả</strong> file promotions .xlsx / .xls</p>
+            <p class="ccd-io__drop-hint">Validate · skip invalid · update theo Promotion ID · preview trước khi lưu</p>
+          </div>
+          <div class="ccd-io__status" id="ccdPromoIoStatus" hidden aria-live="polite"></div>
+        </div>
+
+        <!-- Promo import preview modal -->
+        <div class="ccd-io-modal" id="ccdPromoImportModal" style="display:none" hidden role="dialog" aria-modal="true" aria-labelledby="ccdPromoImportModalTitle">
+          <div class="ccd-io-modal__backdrop" id="ccdPromoImportModalBackdrop"></div>
+          <div class="ccd-io-modal__card">
+            <div class="ccd-io-modal__header">
+              <h3 class="ccd-io-modal__title" id="ccdPromoImportModalTitle">Xem trước import promotions</h3>
+              <button type="button" class="ccd-io-modal__close" id="ccdPromoImportModalClose" aria-label="Đóng">✕</button>
+            </div>
+            <p class="ccd-io-modal__summary" id="ccdPromoImportSummary"></p>
+            <div class="ccd-io-modal__mode">
+              <span class="ccd-io-modal__mode-label">Chế độ:</span>
+              <label class="ccd-io-modal__radio"><input type="radio" name="ccdPromoImportMode" value="merge" checked> Merge (update theo Promotion ID + thêm mới)</label>
+              <label class="ccd-io-modal__radio"><input type="radio" name="ccdPromoImportMode" value="overwrite"> Overwrite (ghi đè toàn bộ)</label>
+            </div>
+            <div class="ccd-io-modal__table-wrap">
+              <table class="ccd-io-modal__table">
+                <thead id="ccdPromoImportPreviewHead"></thead>
+                <tbody id="ccdPromoImportPreviewBody"></tbody>
+              </table>
+            </div>
+            <div class="ccd-io-modal__report" id="ccdPromoImportReport"></div>
+            <div class="ccd-io-modal__actions">
+              <button type="button" class="ccd-input__btn" id="ccdPromoImportCancel">Huỷ</button>
+              <button type="button" class="ccd-input__btn ccd-input__btn--primary" id="ccdPromoImportConfirm">Xác nhận import</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ccd-input__toolbar">
+          <div class="ccd-input__search-wrap">
+            <input type="search" id="ccdPromoSearch" class="ccd-input__search" placeholder="Tìm merchant, bank, offer, card, category…" aria-label="Tìm promotion">
+            <select id="ccdPromoFilterBank" class="ccd-input__select" aria-label="Lọc bank"><option value="">Bank: All</option></select>
+            <select id="ccdPromoFilterType" class="ccd-input__select" aria-label="Lọc type"><option value="">Type: All</option></select>
+            <select id="ccdPromoFilterCat" class="ccd-input__select" aria-label="Lọc category"><option value="">Category: All</option></select>
+            <select id="ccdPromoFilterStatus" class="ccd-input__select" aria-label="Lọc status">
+              <option value="">Status: All</option>
+              <option value="Active">Active</option>
+              <option value="Inactive">Inactive</option>
+              <option value="Expired">Expired</option>
+              <option value="Draft">Draft</option>
+            </select>
+            <select id="ccdPromoSort" class="ccd-input__select" aria-label="Sắp xếp">
+              <option value="priority">Priority</option>
+              <option value="newest">Newest</option>
+              <option value="ending">Ending Soon</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="ccd-input__form-card" id="ccdPromoFormPanel" style="display:none" hidden>
+          <h3 class="ccd-input__form-title" id="ccdPromoFormTitle">Thêm promotion</h3>
+          <form id="ccdPromoForm" class="ccd-input__form" novalidate>
+            <input type="hidden" id="ccdPromoFieldInternalId" value="">
+            <div class="ccd-input__grid">
+              <label class="ccd-input__field">Promotion ID *<input id="ccdPromoFieldId" type="text" required placeholder="HSBC-LIVE-DINING-01" autocomplete="off"></label>
+              <label class="ccd-input__field">Bank *<input id="ccdPromoFieldBank" type="text" list="ccdBankList" required placeholder="HSBC"></label>
+              <label class="ccd-input__field">Card *<input id="ccdPromoFieldCard" type="text" list="ccdPromoCardList" required placeholder="Live+"></label>
+              <datalist id="ccdPromoCardList">
+                <option value="Live+"><option value="Visa Platinum"><option value="Premier"><option value="TravelOne">
+              </datalist>
+              <label class="ccd-input__field">Promotion Type
+                <select id="ccdPromoFieldType">
+                  <option>Cashback</option><option>Discount</option><option>Installment</option><option>Voucher</option>
+                  <option>Miles</option><option>Reward Point</option><option>Fee Waiver</option><option>Welcome Gift</option>
+                </select>
+              </label>
+              <label class="ccd-input__field">Promotion Group
+                <select id="ccdPromoFieldGroup">
+                  <option value="">—</option>
+                  <option>Daily Offers</option><option>Dining Offers</option><option>Shopping Offers</option>
+                  <option>Travel Offers</option><option>Home &amp; Away</option><option>0% Installment</option>
+                  <option>Welcome Offer</option><option>Seasonal Campaign</option><option>Partner Campaign</option>
+                </select>
+              </label>
+              <label class="ccd-input__field">Merchant<input id="ccdPromoFieldMerchant" type="text" placeholder="Starbucks"></label>
+              <label class="ccd-input__field">Category
+                <select id="ccdPromoFieldCategory">
+                  <option>Dining</option><option>Coffee</option><option>Shopping</option><option>Supermarket</option>
+                  <option>Travel</option><option>Hotel</option><option>Airline</option><option>Cinema</option>
+                  <option>Technology</option><option>Electronics</option><option>Health</option><option>Beauty</option>
+                  <option>Education</option><option>Fuel</option><option>Utilities</option><option>Lifestyle</option>
+                  <option>Online</option><option>Fashion</option>
+                </select>
+              </label>
+              <label class="ccd-input__field ccd-input__field--full">Offer Title *<input id="ccdPromoFieldTitle" type="text" required placeholder="Hoàn 10% tại đối tác F&amp;B"></label>
+              <label class="ccd-input__field ccd-input__field--full">Short Description<textarea id="ccdPromoFieldDesc" rows="2" placeholder="Mô tả ngắn"></textarea></label>
+              <label class="ccd-input__field">Discount Type
+                <select id="ccdPromoFieldDiscType">
+                  <option value="Percent">Percent</option>
+                  <option value="Fixed">Fixed</option>
+                  <option value="Miles">Miles</option>
+                  <option value="Points">Points</option>
+                  <option value="Other">Other</option>
+                </select>
+              </label>
+              <label class="ccd-input__field">Discount Value<input id="ccdPromoFieldDiscValue" type="number" min="0" step="0.01" placeholder="10"></label>
+              <label class="ccd-input__field">Cashback Cap<input id="ccdPromoFieldCap" type="text" inputmode="decimal" placeholder="200000"></label>
+              <label class="ccd-input__field">Minimum Spend<input id="ccdPromoFieldMinSpend" type="text" inputmode="decimal" placeholder="500000"></label>
+              <label class="ccd-input__field">Installment Months<input id="ccdPromoFieldMonths" type="number" min="0" step="1" placeholder="0"></label>
+              <label class="ccd-input__field">Start Date *<input id="ccdPromoFieldStart" type="date" required></label>
+              <label class="ccd-input__field">End Date *<input id="ccdPromoFieldEnd" type="date" required></label>
+              <label class="ccd-input__field">Promo Code<input id="ccdPromoFieldCode" type="text" placeholder="HSBC10"></label>
+              <label class="ccd-input__field">Apply Link<input id="ccdPromoFieldLink" type="url" placeholder="https://…"></label>
+              <label class="ccd-input__field">Priority<input id="ccdPromoFieldPriority" type="number" min="0" step="1" value="50"></label>
+              <label class="ccd-input__field">Featured
+                <select id="ccdPromoFieldFeatured"><option value="false">No</option><option value="true">Yes</option></select>
+              </label>
+              <label class="ccd-input__field">Status
+                <select id="ccdPromoFieldStatus">
+                  <option value="Active">Active</option>
+                  <option value="Inactive">Inactive</option>
+                  <option value="Draft">Draft</option>
+                  <option value="Expired">Expired</option>
+                </select>
+              </label>
+              <label class="ccd-input__field ccd-input__field--full">Terms<textarea id="ccdPromoFieldTerms" rows="2" placeholder="Điều khoản áp dụng…"></textarea></label>
+            </div>
+            <p class="ccd-input__form-error" id="ccdPromoFormError" aria-live="polite"></p>
+            <div class="ccd-input__form-actions">
+              <button type="submit" class="ccd-input__btn ccd-input__btn--primary" id="ccdPromoFormSave">Lưu promotion</button>
+              <button type="button" class="ccd-input__btn" id="ccdPromoFormCancel">Huỷ</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="ccd-promo__insights" id="ccdPromoMgmtInsights" aria-label="Promotion insights">
+          <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Total</span><span class="ccd-promo-kpi__value" id="ccdPromoKpiTotal">0</span></div>
+          <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Active</span><span class="ccd-promo-kpi__value" id="ccdPromoKpiActive">0</span></div>
+          <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Expiring 7d</span><span class="ccd-promo-kpi__value" id="ccdPromoKpiExpiring">0</span></div>
+          <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Expired</span><span class="ccd-promo-kpi__value" id="ccdPromoKpiExpired">0</span></div>
+          <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Cashback</span><span class="ccd-promo-kpi__value" id="ccdPromoKpiCashback">0</span></div>
+          <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Installment</span><span class="ccd-promo-kpi__value" id="ccdPromoKpiInstall">0</span></div>
+        </div>
+
+        <div class="ccd-input__table-wrap">
+          <table class="ccd-input__table" id="ccdPromoTable">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Bank / Card</th>
+                <th>Offer</th>
+                <th>Type</th>
+                <th>Category</th>
+                <th>Valid</th>
+                <th>Priority</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="ccdPromoTableBody"></tbody>
+          </table>
+          <p class="ccd-input__empty" id="ccdPromoEmpty">Chưa có promotion. Tải template, import Excel, hoặc thêm thủ công.</p>
+        </div>
+      </section>
+
       <!-- ═══ MODULE 2: DASHBOARD (existing UI structure) ═══ -->
       <div id="ccdDashboard" style="display:none" hidden>
         <div class="ccd-dash-toolbar">
@@ -299,6 +481,39 @@
               <div class="ccd-kpi"><span class="ccd-kpi__label">Annual Fees</span><span class="ccd-kpi__value" id="kpiAnnualFees">0</span></div>
               <div class="ccd-kpi"><span class="ccd-kpi__label">Installments</span><span class="ccd-kpi__value" id="kpiInstall">0</span></div>
               <div class="ccd-kpi"><span class="ccd-kpi__label">Near Due</span><span class="ccd-kpi__value" id="kpiNearDue">0</span></div>
+            </section>
+
+            <!-- Promotion insights (non-financial) -->
+            <section class="ccd-card ccd-promo-dash-insights" id="ccdPromoDashInsights">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">Promotion Insights</h2>
+              </div>
+              <div class="ccd-promo__insights ccd-promo__insights--dash">
+                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Total</span><span class="ccd-promo-kpi__value" id="dashPromoTotal">0</span></div>
+                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Active</span><span class="ccd-promo-kpi__value" id="dashPromoActive">0</span></div>
+                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Expiring 7d</span><span class="ccd-promo-kpi__value" id="dashPromoExpiring">0</span></div>
+                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Expired</span><span class="ccd-promo-kpi__value" id="dashPromoExpired">0</span></div>
+                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Cashback offers</span><span class="ccd-promo-kpi__value" id="dashPromoCashback">0</span></div>
+                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Installment offers</span><span class="ccd-promo-kpi__value" id="dashPromoInstall">0</span></div>
+              </div>
+              <div class="ccd-promo-charts">
+                <div class="ccd-promo-chart-box">
+                  <h3 class="ccd-promo-chart-box__title">Category mix</h3>
+                  <div class="ccd-promo-chart-box__canvas"><canvas id="ccdPromoCatChart" aria-label="Promotion category chart"></canvas></div>
+                </div>
+                <div class="ccd-promo-chart-box">
+                  <h3 class="ccd-promo-chart-box__title">Monthly trend</h3>
+                  <div class="ccd-promo-chart-box__canvas"><canvas id="ccdPromoTrendChart" aria-label="Promotion monthly trend"></canvas></div>
+                </div>
+                <div class="ccd-promo-chart-box ccd-promo-chart-box--wide">
+                  <h3 class="ccd-promo-chart-box__title">Timeline (start → end)</h3>
+                  <div class="ccd-promo-timeline" id="ccdPromoTimeline"></div>
+                </div>
+              </div>
+              <div class="ccd-promo-tops" id="ccdPromoTops">
+                <div><strong>Top merchants:</strong> <span id="dashPromoTopMerchants">—</span></div>
+                <div><strong>Top categories:</strong> <span id="dashPromoTopCats">—</span></div>
+              </div>
             </section>
 
             <!-- 2. Payment Progress → Utilization -->
@@ -431,6 +646,33 @@
 
           <!-- RIGHT: 30% Sidebar -->
           <aside class="ccd-sidebar">
+
+            <!-- Active Promotions (beside KPIs / insights) -->
+            <section class="ccd-card ccd-active-promos" id="ccdActivePromosPanel">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">🔥 Active Promotions</h2>
+              </div>
+              <div class="ccd-active-promos__filters">
+                <input type="search" id="dashPromoSearch" class="ccd-input__search" placeholder="Search promo…" aria-label="Search promotions">
+                <select id="dashPromoBank" class="ccd-input__select" aria-label="Filter bank"><option value="">Bank</option></select>
+                <select id="dashPromoCard" class="ccd-input__select" aria-label="Filter card"><option value="">Card</option></select>
+                <select id="dashPromoCat" class="ccd-input__select" aria-label="Filter category"><option value="">Category</option></select>
+                <select id="dashPromoType" class="ccd-input__select" aria-label="Filter type"><option value="">Type</option></select>
+                <select id="dashPromoState" class="ccd-input__select" aria-label="Filter state">
+                  <option value="active">Active</option>
+                  <option value="featured">Featured</option>
+                  <option value="expired">Expired</option>
+                  <option value="all">All</option>
+                </select>
+                <select id="dashPromoSort" class="ccd-input__select" aria-label="Sort promotions">
+                  <option value="priority">Priority</option>
+                  <option value="newest">Newest</option>
+                  <option value="ending">Ending Soon</option>
+                </select>
+              </div>
+              <div class="ccd-active-promos__list" id="ccdActivePromosList"></div>
+              <p class="ccd-active-promos__empty" id="ccdActivePromosEmpty">Chưa có promotion active. Vào <strong>Promotions Update</strong> để thêm.</p>
+            </section>
 
             <!-- 8. AI Insights -->
             <section class="ccd-card ccd-insights">

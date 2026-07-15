@@ -1113,6 +1113,251 @@
   color: var(--ccd-green-text);
 }
 .ccd-io__btn--export:hover { background: var(--ccd-green-soft); border-color: var(--ccd-green); }
+.ccd-io__btn--primary {
+  background: linear-gradient(135deg, var(--ccd-orange), #ff6b35);
+  border-color: transparent;
+  color: #fff;
+}
+.ccd-io__btn--primary:hover { filter: brightness(.96); color: #fff; }
+
+/* Home 3-col */
+@media (min-width: 900px) {
+  .ccd-home__grid--3 { grid-template-columns: 1fr 1fr 1fr; }
+}
+@media (max-width: 899px) {
+  .ccd-home__grid--3 { grid-template-columns: 1fr; }
+}
+
+/* Promotions management */
+.ccd-promo__insights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: .65rem;
+  margin-bottom: 1rem;
+}
+.ccd-promo-kpi {
+  background: linear-gradient(145deg, var(--surface, #fff) 0%, rgba(0,167,160,.06) 100%);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: .75rem .85rem;
+  text-align: center;
+  box-shadow: var(--ccd-shadow);
+}
+.ccd-promo-kpi__label {
+  display: block;
+  font-size: .68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--muted);
+  margin-bottom: .2rem;
+}
+.ccd-promo-kpi__value {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text);
+}
+.ccd-promo-dash-insights { margin-bottom: clamp(14px, 2vw, 20px); }
+.ccd-promo-charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .85rem;
+  margin-top: .85rem;
+}
+.ccd-promo-chart-box {
+  background: var(--bg, #fafafa);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: .75rem;
+}
+.ccd-promo-chart-box--wide { grid-column: 1 / -1; }
+.ccd-promo-chart-box__title {
+  margin: 0 0 .5rem;
+  font-size: .82rem;
+  font-weight: 700;
+  color: var(--text-secondary, #555);
+}
+.ccd-promo-chart-box__canvas {
+  position: relative;
+  height: 180px;
+}
+.ccd-promo-chart-box__canvas canvas { width: 100% !important; height: 100% !important; }
+.ccd-promo-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  max-height: 200px;
+  overflow: auto;
+}
+.ccd-promo-timeline__row {
+  display: grid;
+  grid-template-columns: 100px 1fr 72px;
+  gap: .5rem;
+  align-items: center;
+  font-size: .75rem;
+}
+.ccd-promo-timeline__bar {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(0,167,160,.15);
+  position: relative;
+  overflow: hidden;
+}
+.ccd-promo-timeline__fill {
+  position: absolute;
+  top: 0; bottom: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent, #00a7a0), var(--ccd-orange));
+  min-width: 4px;
+}
+.ccd-promo-tops {
+  margin-top: .75rem;
+  font-size: .82rem;
+  color: var(--text-secondary, #555);
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+@media (max-width: 720px) {
+  .ccd-promo-charts { grid-template-columns: 1fr; }
+  .ccd-promo-chart-box--wide { grid-column: auto; }
+}
+
+/* Active promotions sidebar */
+.ccd-active-promos__filters {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  margin-bottom: .75rem;
+}
+.ccd-active-promos__filters .ccd-input__search,
+.ccd-active-promos__filters .ccd-input__select {
+  width: 100%;
+  min-width: 0;
+  min-height: 38px;
+  font-size: .78rem;
+}
+.ccd-active-promos__list {
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+  max-height: min(52vh, 520px);
+  overflow: auto;
+  padding-right: 2px;
+}
+.ccd-promo-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: .7rem .75rem;
+  background: linear-gradient(160deg, var(--surface, #fff) 60%, rgba(255,138,0,.06));
+  box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+.ccd-promo-card--featured {
+  border-color: rgba(255,138,0,.45);
+  box-shadow: 0 0 0 1px rgba(255,138,0,.15);
+}
+.ccd-promo-card__top {
+  display: flex;
+  align-items: flex-start;
+  gap: .55rem;
+  margin-bottom: .4rem;
+}
+.ccd-promo-card__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .85rem;
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(135deg, #00a7a0, #007f7a);
+  flex-shrink: 0;
+}
+.ccd-promo-card__meta { min-width: 0; flex: 1; }
+.ccd-promo-card__bank {
+  font-size: .68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--muted);
+}
+.ccd-promo-card__card {
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--text-secondary, #555);
+}
+.ccd-promo-card__title {
+  margin: 0 0 .25rem;
+  font-size: .9rem;
+  font-weight: 800;
+  line-height: 1.3;
+  color: var(--text);
+}
+.ccd-promo-card__merchant {
+  font-size: .78rem;
+  color: var(--text-secondary, #555);
+  margin-bottom: .35rem;
+}
+.ccd-promo-card__deal {
+  font-size: .88rem;
+  font-weight: 800;
+  color: var(--ccd-orange);
+  margin-bottom: .35rem;
+}
+.ccd-promo-card__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  align-items: center;
+  margin-bottom: .45rem;
+}
+.ccd-promo-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: .15rem .5rem;
+  border-radius: 999px;
+  font-size: .68rem;
+  font-weight: 700;
+  background: rgba(0,167,160,.12);
+  color: var(--accent-hover, #007f7a);
+}
+.ccd-promo-card__until {
+  font-size: .72rem;
+  color: var(--muted);
+}
+.ccd-promo-card__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--accent, #00a7a0);
+  background: var(--accent-soft, rgba(0,167,160,.1));
+  color: var(--accent-hover, #007f7a);
+  font-size: .78rem;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.ccd-promo-card__link:hover { background: var(--accent, #00a7a0); color: #fff; text-decoration: none; }
+.ccd-active-promos__empty {
+  font-size: .82rem;
+  color: var(--muted);
+  margin: .5rem 0 0;
+  line-height: 1.45;
+}
+.ccd-active-promos__empty[hidden] { display: none !important; }
+
+html.dark-mode .ccd-promo-kpi,
+html.dark-mode .ccd-promo-card,
+html.dark-mode .ccd-promo-chart-box {
+  background: var(--surface, #1a1a1a);
+}
 .ccd-io__drop {
   border: 2px dashed var(--border);
   border-radius: 12px;

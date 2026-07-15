@@ -47,3 +47,9 @@ static/private-income-insights*.json
 data/private-expense-management*.json
 static/private-expense-management*.json
 *.expense-management.private.json
+
+# Credit card dashboard private local dumps (never publish)
+data/private-credit-card-dashboard*.json
+static/private-credit-card-dashboard*.json
+*.credit-card-dashboard.private.json
+private-data/credit-card-dashboard*
