@@ -11,7 +11,7 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v.webp"
 thumbnail = "images/posts/hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v.webp"
-commit = ""
+commit = "345ab328"
 
 [[external_links]]
 url = "https://www.royalcourt.no/"
