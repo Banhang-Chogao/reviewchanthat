@@ -13,6 +13,24 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 commit = "62080a24"
 
+image = "images/posts/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot.webp"
+thumbnail = "images/posts/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/a-person-selling-traditional-cakes-on-a-street-23109898/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Toàn Đỗ Công"
+image_creator_url = "https://www.pexels.com/@toan-d-cong-680842095"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-15T22:09:59+07:00"
+image_query = "vietnamese street food"
+image_alt = "Ảnh minh họa món Việt hot ở Mỹ — ẩm thực và cà phê, nguồn Pexels"
 [ai_summary]
 enabled = true
 collapsed = false
@@ -86,24 +104,6 @@ answer = "Cà phê muối và bánh ram ít thì ưu tiên Huế; bánh khọt n
 [attribution]
 copyright = "© 2026 Review Chân Thật. Nội dung tổng hợp, phân tích xu hướng và góc nhìn độc lập; không sao chép nguyên văn bài báo nguồn."
 source_note = "Tham khảo tin xu hướng từ Znews/Tri Thức, thông tin công khai về cà phê muối (CNN Travel), xếp hạng ẩm thực TasteAtlas, và quan sát mạng xã hội ẩm thực Mỹ giữa 2026. Giá cả quán tại Mỹ có thể thay đổi theo khu vực."
-image = "images/posts/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot.webp"
-thumbnail = "images/posts/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot.webp"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/a-person-selling-traditional-cakes-on-a-street-23109898/"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "Toàn Đỗ Công"
-image_creator_url = "https://www.pexels.com/@toan-d-cong-680842095"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-15T22:09:59+07:00"
-image_query = "vietnamese street food"
-image_alt = "Ảnh minh họa món Việt hot ở Mỹ — ẩm thực và cà phê, nguồn Pexels"
 +++
 
 Hè 2026, timeline ẩm thực Mỹ không chỉ còn phở, bánh mì hay gỏi cuốn trong danh sách "đã thử một lần khi đi Little Saigon". Lần này là một lớp món Việt khác — quen với người Việt, nhưng với rất nhiều bạn trẻ Mỹ lại mới đến mức **FOMO**: chưa kịp ăn thì video đã triệu view, hàng chờ đã dài, và caption toàn kiểu "I finally found it".

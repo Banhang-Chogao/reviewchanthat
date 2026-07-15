@@ -12,6 +12,21 @@ title = "eSIM / SIM Hàn Quốc 2026: so sánh tốc độ, vùng phủ, cách k
 seo_title = "eSIM Hàn Quốc 2026: so sánh SIM data, tốc độ, kích hoạt"
 date_display = "15-07-2026 21:52:00 GMT +7"
 
+image = "images/posts/esim-sim-han-quoc-2026-so-sanh.webp"
+thumbnail = "images/posts/esim-sim-han-quoc-2026-so-sanh.webp"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/night-view-dark-seoul-korea-7523474/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "cskkkk"
+image_creator_url = "https://pixabay.com/photos/night-view-dark-seoul-korea-7523474/"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pixabay_api"
+image_status = "verified"
 [ai_summary]
 collapsed = false
 enabled = true
@@ -61,21 +76,6 @@ title = "Du lịch Hàn Quốc mùa hè nên đi đâu"
 [[internal_links]]
 ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
 title = "Checklist vali đi Hàn mùa hè"
-image = "images/posts/esim-sim-han-quoc-2026-so-sanh.webp"
-thumbnail = "images/posts/esim-sim-han-quoc-2026-so-sanh.webp"
-image_source = "Pixabay"
-image_source_url = "https://pixabay.com/photos/night-view-dark-seoul-korea-7523474/"
-image_provider = "pixabay"
-image_license = "Pixabay Content License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "cskkkk"
-image_creator_url = "https://pixabay.com/photos/night-view-dark-seoul-korea-7523474/"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pixabay_api"
-image_status = "verified"
 +++
 
 Mình từng đứng ngay sau cửa soi chiếu Incheon, điện thoại Việt Nam hết 4G roaming, Google Maps trắng xóa, còn nhóm đứng chờ mình dẫn đường. Lúc đó mới hiểu: **data ở Hàn không phải chi tiết phụ** — nó là “giấy thông hành” thứ hai sau visa. Bài này là review chân thật về **eSIM và SIM Hàn Quốc năm 2026**: so tốc độ cảm nhận, vùng phủ thực tế, cách kích hoạt, và những lỗi hay dính mà mấy bài quảng cáo gói data ít khi nói.
