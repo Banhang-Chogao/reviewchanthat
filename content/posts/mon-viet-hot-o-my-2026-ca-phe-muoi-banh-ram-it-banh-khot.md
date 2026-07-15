@@ -17,13 +17,7 @@ commit = "62080a24"
 enabled = true
 collapsed = false
 title = "Tóm tắt bài viết"
-items = [
-  "Giữa 2026, cà phê muối, bánh ram ít và bánh khọt lần lượt viral trên TikTok Mỹ, kéo FOMO và hàng chờ tại nhiều quán Việt.",
-  "Cà phê muối từ Huế được chuỗi 85°C và creator Mỹ lan tỏa; vị đắng–kem mặn là điểm 'hook' dễ quay video.",
-  "Bánh ram ít (Huế) và bánh khọt (Nam Bộ) thắng nhờ texture giòn–mềm và visual mukbang rõ nét.",
-  "Phở–bánh mì mở cửa, lớp món vùng miền đang đẩy soft power ẩm thực Việt sang giai thứ hai.",
-  "Muốn ăn đúng vị: California (Westminster, Orange County), New York; trong nước thì Huế, Vũng Tàu, Sài Gòn."
-]
+items = ["Giữa 2026, cà phê muối, bánh ram ít và bánh khọt lần lượt viral trên TikTok Mỹ, kéo FOMO và hàng chờ tại nhiều quán Việt.", "Cà phê muối từ Huế được chuỗi 85°C và creator Mỹ lan tỏa; vị đắng–kem mặn là điểm 'hook' dễ quay video.", "Bánh ram ít (Huế) và bánh khọt (Nam Bộ) thắng nhờ texture giòn–mềm và visual mukbang rõ nét.", "Phở–bánh mì mở cửa, lớp món vùng miền đang đẩy soft power ẩm thực Việt sang giai thứ hai.", "Muốn ăn đúng vị: California (Westminster, Orange County), New York; trong nước thì Huế, Vũng Tàu, Sài Gòn."]
 
 [[internal_links]]
 ref = "posts/cong-thuc-do-uong-giai-nhiet-home-cafe.md"
@@ -110,7 +104,6 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T22:09:59+07:00"
 image_query = "vietnamese street food"
 image_alt = "Ảnh minh họa món Việt hot ở Mỹ — ẩm thực và cà phê, nguồn Pexels"
-
 +++
 
 Hè 2026, timeline ẩm thực Mỹ không chỉ còn phở, bánh mì hay gỏi cuốn trong danh sách "đã thử một lần khi đi Little Saigon". Lần này là một lớp món Việt khác — quen với người Việt, nhưng với rất nhiều bạn trẻ Mỹ lại mới đến mức **FOMO**: chưa kịp ăn thì video đã triệu view, hàng chờ đã dài, và caption toàn kiểu "I finally found it".
