@@ -1,7 +1,7 @@
 +++
 title = "Review VPN 2026: NordVPN vs Surfshark vs ProtonVPN — Dùng 6 Tháng Ở Việt Nam Thấy Sao?"
 seo_title = "Review VPN 2026: NordVPN, Surfshark, ProtonVPN so sánh thực tế cho người Việt"
-commit = ""
+commit = "1b5a9fd3"
 date = "2026-07-15T17:47:41+07:00"
 draft = false
 description = "So sánh NordVPN, Surfshark và ProtonVPN sau 6 tháng dùng thực tế ở Việt Nam: tốc độ, unblock Netflix, bảo mật, giá cả và lời khuyên chân thật."
