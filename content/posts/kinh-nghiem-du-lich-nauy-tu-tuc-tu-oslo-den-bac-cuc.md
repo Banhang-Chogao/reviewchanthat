@@ -11,7 +11,7 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc.webp"
 thumbnail = "images/posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc.webp"
-commit = ""
+commit = "7ea30ad4"
 
 [[faq]]
 question = "Đi Nauy tự túc cần bao nhiêu tiền?"
