@@ -1,7 +1,25 @@
 {
   "version": 1,
-  "items": [],
-  "auditLog": [],
+  "items": [
+    {
+      "id": "7e0eb9fd-5503-4e2e-9677-8a31c6ce9e14",
+      "korean": "계약서",
+      "vietnamese": "Hợp đồng",
+      "english": "Contract",
+      "field": "Pháp lý",
+      "notes": "Dùng trong hợp đồng lao động / mua bán",
+      "learned": true,
+      "updatedAt": "2026-07-15T18:23:31.417Z"
+    }
+  ],
+  "auditLog": [
+    {
+      "at": "2026-07-15T18:23:37.974Z",
+      "action": "import-excel",
+      "detail": "append · +1 ~0 skip 0",
+      "by": "local-user"
+    }
+  ],
   "lastSyncAt": null,
-  "updatedAt": null
+  "updatedAt": "2026-07-15T18:23:40.603Z"
 }
