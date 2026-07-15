@@ -9132,7 +9132,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Supergirl (2026) — Review: DCU mở rộng cùng Milly Alcock và chú chó Krypto — nguồn Pixabay",
       "gate_verified": true
+    },
+    {
+      "slug": "kindle-scribe-2-review-2026",
+      "title": "Kindle Scribe 2 Review: Six Months as a Digital Notebook — Can It Replace Paper?",
+      "image_id": "img-92352f3d",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/close-up-of-handwriting-on-paper-with-pen-35575217/",
+      "direct_url": "https://images.pexels.com/photos/35575217/pexels-photo-35575217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Esmanur Güler",
+      "creator_url": "https://www.pexels.com/@esmanur-guler-375484505",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/kindle-scribe-2-review-2026.jpg",
+      "output_path": "static/images/posts/kindle-scribe-2-review-2026.webp",
+      "watermark_text": "Source: Pexels / Esmanur Güler",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "kindle scribe review six months",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Kindle Scribe 2 Review: Six Months as a Digital Notebook — Can It Replace Paper? — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-15T13:12:31.951337+00:00"
+  "generated_at": "2026-07-15T13:41:15.031239+00:00"
 }
