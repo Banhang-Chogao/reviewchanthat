@@ -92,11 +92,17 @@
               <label class="cv-field__label" for="cvWebsite">Website / Portfolio</label>
               <input type="url" id="cvWebsite" class="cv-field__input" placeholder="https://...">
             </div>
-            <div class="cv-photo-placeholder" id="cvPhotoPlaceholder">
-              <div class="cv-photo-placeholder__frame">
-                <span class="cv-photo-placeholder__icon">📷</span>
-                <span class="cv-photo-placeholder__note">Attach Passport Photo</span>
+            <div class="cv-photo-upload" id="cvPhotoUpload">
+              <label class="cv-field__label" for="cvPhotoInput">Passport Photo</label>
+              <div class="cv-photo-upload__preview" id="cvPhotoPreview" role="button" tabindex="0" aria-label="Upload passport photo">
+                <div class="cv-photo-upload__placeholder" id="cvPhotoPlaceholder">
+                  <span class="cv-photo-upload__icon">📷</span>
+                  <span class="cv-photo-upload__note">Upload ảnh 3×4</span>
+                  <span class="cv-photo-upload__hint">Click hoặc kéo thả · JPG/PNG</span>
+                </div>
               </div>
+              <input type="file" id="cvPhotoInput" accept="image/jpeg,image/png,image/webp,image/gif" style="display:none">
+              <button type="button" class="cv-photo-upload__clear" id="cvPhotoClear" style="display:none">Xoá ảnh</button>
             </div>
           </fieldset>
 

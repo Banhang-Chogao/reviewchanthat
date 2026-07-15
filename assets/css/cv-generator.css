@@ -276,12 +276,40 @@
   background: var(--color-bg, #f9f9f9);
 }
 
-.cv-photo-placeholder {
+.cv-photo-upload {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 0.75rem 0;
+  gap: 0.4rem;
 }
-.cv-photo-placeholder__frame {
+.cv-photo-upload .cv-field__label {
+  align-self: flex-start;
+  width: 100%;
+}
+.cv-photo-upload--drag .cv-photo-upload__placeholder,
+.cv-photo-upload--drag .cv-photo-upload__preview img {
+  border-color: var(--color-primary, #00A7A0);
+  background: rgba(0,167,160,0.08);
+}
+.cv-photo-upload__preview {
+  cursor: pointer;
+}
+.cv-photo-upload__preview:focus {
+  outline: 2px solid var(--color-primary, #00A7A0);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+.cv-photo-upload__preview img {
+  display: block;
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid var(--color-border, #e0e0e0);
+  background: var(--color-bg, #f5f5f5);
+}
+.cv-photo-upload__placeholder {
   width: 120px;
   height: 160px;
   border: 2px dashed var(--color-border, #ccc);
@@ -290,17 +318,43 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.25rem;
   background: var(--color-bg, #f5f5f5);
   color: var(--color-muted, #999);
+  transition: border-color 0.2s, background 0.2s;
+  padding: 0.5rem;
+  box-sizing: border-box;
 }
-.cv-photo-placeholder__icon {
+.cv-photo-upload__placeholder:hover {
+  border-color: var(--color-primary, #00A7A0);
+  background: rgba(0,167,160,0.04);
+}
+.cv-photo-upload__icon {
   font-size: 2rem;
 }
-.cv-photo-placeholder__note {
+.cv-photo-upload__note {
   font-size: 0.7rem;
   font-weight: 600;
   text-align: center;
+}
+.cv-photo-upload__hint {
+  font-size: 0.6rem;
+  color: var(--color-muted, #bbb);
+  text-align: center;
+  line-height: 1.3;
+}
+.cv-photo-upload__clear {
+  background: var(--chip-red, #e74c3c);
+  color: #fff;
+  border: 0;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius, 6px);
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-family: inherit;
+}
+.cv-photo-upload__clear:hover {
+  opacity: 0.9;
 }
 
 .cv-skills-tags {
@@ -575,6 +629,18 @@
 }
 .dark-mode .cv-doc__contact {
   color: #aaa;
+}
+.cv-doc__photo-wrap {
+  width: 90px;
+  height: 120px;
+  flex-shrink: 0;
+}
+.cv-doc__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--color-border, #e0e0e0);
 }
 .cv-doc__photo-frame {
   width: 90px;

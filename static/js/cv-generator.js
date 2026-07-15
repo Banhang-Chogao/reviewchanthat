@@ -12,6 +12,7 @@
     address: '',
     linkedin: '',
     website: '',
+    photo: '',
     objective: '',
     school: '',
     degree: '',
@@ -170,6 +171,20 @@
     setField('cvActivities', state.activities);
     setField('cvReferences', state.references);
     setField('cvAdditional', state.additional);
+    updatePhotoPreview();
+  }
+
+  function updatePhotoPreview() {
+    var wrap = document.getElementById('cvPhotoPreview');
+    var clearBtn = document.getElementById('cvPhotoClear');
+    if (!wrap) return;
+    if (state.photo) {
+      wrap.innerHTML = '<img src="' + escAttr(state.photo) + '" alt="Uploaded photo">';
+      if (clearBtn) clearBtn.style.display = '';
+    } else {
+      wrap.innerHTML = '<div class="cv-photo-upload__placeholder" id="cvPhotoPlaceholder"><span class="cv-photo-upload__icon">📷</span><span class="cv-photo-upload__note">Upload ảnh 3×4</span><span class="cv-photo-upload__hint">Click hoặc kéo thả · JPG/PNG</span></div>';
+      if (clearBtn) clearBtn.style.display = 'none';
+    }
   }
 
   function setField(id, val) {
@@ -179,7 +194,7 @@
 
   function resetState() {
     state = {
-      fullName: '', email: '', phone: '', address: '', linkedin: '', website: '',
+      fullName: '', email: '', phone: '', address: '', linkedin: '', website: '', photo: '',
       objective: '', school: '', degree: '', eduStart: '', eduEnd: '', eduGpa: '',
       experiences: [{ company: '', position: '', start: '', end: '', desc: '' }],
       projects: [{ name: '', desc: '', tech: '', url: '' }],
@@ -233,6 +248,10 @@
     var d = document.createElement('div');
     d.textContent = s;
     return d.innerHTML;
+  }
+
+  function escAttr(s) {
+    return esc(s).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
 
   function bindDynamicEvents() {
@@ -309,7 +328,7 @@
     if (state.website) html += '<a href="' + esc(state.website) + '" target="_blank">Portfolio</a>';
     html += '    </div>';
     html += '  </div>';
-    html += '  <div class="cv-doc__photo-frame">Attach<br>Passport<br>Photo</div>';
+    html += '  <div class="cv-doc__photo-wrap">' + (state.photo ? '<img class="cv-doc__photo" src="' + escAttr(state.photo) + '" alt="Photo">' : '<div class="cv-doc__photo-frame">Attach<br>Passport<br>Photo</div>') + '</div>';
     html += '</div>';
 
     if (state.objective) {
@@ -740,7 +759,9 @@
     docHtml += '.name{font-size:1.4rem;font-weight:800;margin:0 0 0.15rem}';
     docHtml += '.title{font-size:0.95rem;color:#00A7A0;margin:0 0 0.35rem;font-weight:600}';
     docHtml += '.contact{display:flex;flex-wrap:wrap;gap:0.35rem 0.75rem;font-size:0.75rem;color:#555}';
-    docHtml += '.photo{width:90px;height:120px;border:2px dashed #ccc;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.6rem;color:#999;flex-shrink:0;text-align:center}';
+    docHtml += '.photo{width:90px;height:120px;border-radius:6px;flex-shrink:0}';
+    docHtml += '.photo img{width:100%;height:100%;object-fit:cover;border-radius:6px;border:1px solid #e0e0e0}';
+    docHtml += '.photo-placeholder{width:90px;height:120px;border:2px dashed #ccc;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.6rem;color:#999;flex-shrink:0;text-align:center}';
     docHtml += '.section{margin-bottom:0.75rem}';
     docHtml += '.section-title{font-size:0.85rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:#00A7A0;border-bottom:1px solid #e0e0e0;padding-bottom:0.2rem;margin:0 0 0.4rem}';
     docHtml += '.entry{margin-bottom:0.5rem}';
@@ -762,7 +783,7 @@
     if (state.phone) docHtml += '<span>' + esc(state.phone) + '</span>';
     if (state.address) docHtml += '<span>' + esc(state.address) + '</span>';
     docHtml += '</div></div>';
-    docHtml += '<div class="photo">Attach<br>Passport<br>Photo</div></div>';
+    docHtml += '<div class="photo">' + (state.photo ? '<img src="' + escAttr(state.photo) + '" alt="Photo">' : '<div class="photo-placeholder">Attach<br>Passport<br>Photo</div>') + '</div></div>';
 
     if (state.objective) {
       docHtml += '<div class="section"><h2 class="section-title">Career Objective</h2><p>' + esc(state.objective) + '</p></div>';
@@ -821,6 +842,106 @@
         win.print();
       }
     }, 500);
+  }
+
+  /* ---- Passport Photo Upload ---- */
+  function processPhotoFile(file) {
+    if (!file) return;
+    if (!/^image\/(jpeg|png|webp|gif)$/i.test(file.type)) {
+      alert('Chỉ chấp nhận ảnh JPG, PNG, WebP hoặc GIF.');
+      return;
+    }
+    if (file.size > 5 * 1024 * 1024) {
+      alert('Ảnh phải dưới 5 MB.');
+      return;
+    }
+    var reader = new FileReader();
+    reader.onload = function (ev) {
+      var img = new Image();
+      img.onload = function () {
+        // Resize to passport-ish size for preview + localStorage (keep under quota)
+        var maxW = 240, maxH = 300;
+        var w = img.width, h = img.height;
+        if (w > maxW || h > maxH) {
+          var ratio = Math.min(maxW / w, maxH / h);
+          w = Math.round(w * ratio);
+          h = Math.round(h * ratio);
+        }
+        var canvas = document.createElement('canvas');
+        canvas.width = w;
+        canvas.height = h;
+        var ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, w, h);
+        state.photo = canvas.toDataURL('image/jpeg', 0.88);
+        updatePhotoPreview();
+        try { saveToStorage(); } catch (e) {}
+        renderPreview();
+      };
+      img.onerror = function () {
+        alert('Không đọc được ảnh. Thử file khác.');
+      };
+      img.src = ev.target.result;
+    };
+    reader.onerror = function () {
+      alert('Không đọc được file ảnh.');
+    };
+    reader.readAsDataURL(file);
+  }
+
+  function bindPhotoUpload() {
+    var photoInput = document.getElementById('cvPhotoInput');
+    var photoPreview = document.getElementById('cvPhotoPreview');
+    var photoClear = document.getElementById('cvPhotoClear');
+    var photoUpload = document.getElementById('cvPhotoUpload');
+    if (!photoInput || !photoPreview) return;
+
+    function openPicker() { photoInput.click(); }
+
+    photoPreview.addEventListener('click', openPicker);
+    photoPreview.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openPicker();
+      }
+    });
+    photoInput.addEventListener('change', function (e) {
+      var file = e.target.files && e.target.files[0];
+      processPhotoFile(file);
+      photoInput.value = '';
+    });
+
+    // Drag & drop onto photo frame
+    if (photoUpload) {
+      ['dragenter', 'dragover'].forEach(function (evt) {
+        photoUpload.addEventListener(evt, function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          photoUpload.classList.add('cv-photo-upload--drag');
+        });
+      });
+      ['dragleave', 'drop'].forEach(function (evt) {
+        photoUpload.addEventListener(evt, function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          photoUpload.classList.remove('cv-photo-upload--drag');
+        });
+      });
+      photoUpload.addEventListener('drop', function (e) {
+        var file = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+        processPhotoFile(file);
+      });
+    }
+
+    if (photoClear) {
+      photoClear.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        state.photo = '';
+        updatePhotoPreview();
+        try { saveToStorage(); } catch (err) {}
+        renderPreview();
+      });
+    }
   }
 
   /* ---- Excel Import/Export ---- */
@@ -1186,6 +1307,7 @@
   function init() {
     if (!gateEl || !appEl) return;
     restoreFromStorage();
+    updatePhotoPreview();
     renderPreview();
     updateKpis();
     runAtsCheck();
@@ -1194,6 +1316,8 @@
     document.getElementById('cvDownloadTemplate').addEventListener('click', downloadTemplate);
     document.getElementById('cvImportExcel').addEventListener('click', importExcel);
     document.getElementById('cvExportExcel').addEventListener('click', exportExcel);
+
+    bindPhotoUpload();
 
     // Drag & drop
     var dropZone = document.getElementById('cvDropZone');
