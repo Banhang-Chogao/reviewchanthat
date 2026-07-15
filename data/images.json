@@ -9423,6 +9423,38 @@
       "local_source_path": "static/images/posts-src/the-tin-dung-lan-dau-2026-chon-sao-khong-phi-an-inline.jpg",
       "output_path": "static/images/posts/the-tin-dung-lan-dau-2026-chon-sao-khong-phi-an-inline.webp",
       "query": "credit card on wooden table"
+    },
+    {
+      "slug": "mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot",
+      "title": "Món Việt hot ở Mỹ 2026: cà phê muối, bánh ram ít và bánh khọt làm giới trẻ FOMO",
+      "image_id": "img-80beff21",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/a-person-selling-traditional-cakes-on-a-street-23109898/",
+      "direct_url": "https://images.pexels.com/photos/23109898/pexels-photo-23109898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Toàn Đỗ Công",
+      "creator_url": "https://www.pexels.com/@toan-d-cong-680842095",
+      "creator_id": "",
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot.jpg",
+      "output_path": "static/images/posts/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot.webp",
+      "watermark_text": "Source: Pexels / Toàn Đỗ Công",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "vietnamese street food",
+      "image_alt": "Ảnh minh họa món Việt — nguồn Pexels",
+      "gate_verified": true,
+      "inline": {
+        "source_url": "https://pixabay.com/photos/shrimp-crispy-fried-cuisine-2608259/",
+        "direct_url": "https://pixabay.com/get/g1657733af2171885d67ba95557a4f1eb9124521fccc8c42f7dedc0b6e759b569c606600614eed73331574548c6529b69f3ea0c8aeca4feff991ed3f8693d3afc_1280.jpg",
+        "creator": "TesaPhotography",
+        "provider": "Pixabay",
+        "query": "shrimp appetizer plate",
+        "local_source_path": "static/images/posts-src/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot-inline.jpg",
+        "output_path": "static/images/posts/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot-inline.webp"
+      }
     }
   ],
   "generated_at": "2026-07-15T13:56:59.833633+00:00"
