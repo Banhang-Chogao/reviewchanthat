@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -289,5 +291,9 @@ Mức giá **có thể thay đổi** theo thời điểm đặt và tỷ giá. p
 ## Kết luận
 
 Lịch trình **7 ngày 6 đêm** cho phép bạn kết hợp **Seoul + Nami + Seoraksan** (hoặc thêm **Busan**) mà không quá gấp như khi nhồi vào 5N4Đ. Điểm then chốt là **linh hoạt ngày 3–5** theo dự báo lá đỏ thực tế, và chọn rõ ưu tiên **núi hay biển** thay vì cố làm hết mọi thứ.
+
+Xem thêm: [Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ](/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem/)
+Xem thêm: [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+
 
 Đọc thêm [Seoraksan tháng 10]({{< ref "posts/seoraksan-thang-10-ngam-la-do" >}}) để hiểu tuyến leo núi, [Hàn Quốc tháng 10 có lá đỏ chưa?]({{< ref "posts/han-quoc-thang-10-co-la-do-chua" >}}) để chọn tuần đi, và [bài trụ series]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}) để xem toàn cảnh.

@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -290,5 +292,9 @@ Giá có thể thay đổi theo mùa, ngày đi và tỷ giá.
 ## Gợi ý thực tế bổ sung
 
 Trước khi chốt lịch, đối chiếu **giờ mở cửa**, **phí tham quan** và **tuyến di chuyển** trên [Visit Korea](https://english.visitkorea.or.kr/) hoặc trang chính thức. Dự báo lá đỏ thay đổi theo năm — kiểm tra forecast trước ngày đi.
+
+Xem thêm: [Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu](/posts/seoul-thang-10-nen-di-dau/)
+Xem thêm: [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+
 
 Tổng quan series: [Đi Hàn tháng 11 có đẹp không?]({{< ref "posts/di-han-thang-11-co-dep-khong" >}}).

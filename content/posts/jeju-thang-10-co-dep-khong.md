@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -235,5 +237,9 @@ Nếu chỉ có thời gian cho một điểm ven biển, [Busan tháng 10]({{< 
 ## Kết luận
 
 Jeju tháng 10 có thời tiết dễ chịu, cảnh biển và núi đa dạng, và Hallasan mang đến trải nghiệm lá đỏ nếu bạn đi đúng thời điểm. Đây là lựa chọn đáng cân nhắc khi có đủ thời gian và ngân sách cho bay và thuê xe.
+
+Xem thêm: [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+Xem thêm: [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+
 
 Nếu lịch trình ngắn, ưu tiên Seoul + Nami + một điểm lá đỏ gần thủ đô có thể hiệu quả hơn. Xem [Lịch trình 5 ngày 4 đêm]({{< ref "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem" >}}) để biết cách phân bổ thời gian, hoặc quay lại [Đi Hàn tháng 10 có đẹp không?]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}) để so sánh toàn bộ lựa chọn.

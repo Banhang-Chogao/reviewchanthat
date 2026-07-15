@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -246,5 +248,9 @@ Giá có thể thay đổi theo mùa, ngày đi và tỷ giá. Kiểm tra [namis
 ## Kết luận
 
 Nami tháng 11 **vẫn đáng đi nếu bạn đi đầu tháng** và chấp nhận thời tiết lạnh hơn tháng 10. **Cuối tháng 11**, lá Metasequoia có thể đã rụng nhiều — khi đó **Seoul peak foliage** thường mang lại trải nghiệm màu sắc tốt hơn cho cùng một chuyến đi.
+
+Xem thêm: [Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul](/posts/nami-thang-10-co-dang-di-khong/)
+Xem thêm: [Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?](/posts/han-quoc-thang-11-co-la-do-chua/)
+
 
 Trước khi chốt, đọc [Đi Hàn tháng 11 có đẹp không?]({{< ref "posts/di-han-thang-11-co-dep-khong" >}}) để so sánh toàn bộ lịch trình, hoặc xem [Lịch trình 5 ngày 4 đêm tháng 11]({{< ref "posts/lich-trinh-di-han-thang-11-5-ngay-4-dem" >}}) để biết cách gắn Nami vào chuyến đi dài hơn.

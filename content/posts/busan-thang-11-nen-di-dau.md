@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -247,5 +249,9 @@ Chi tiết ngân sách xem [Chi phí đi Hàn tháng 11 tự túc]({{< ref "post
 ## Kết luận
 
 Busan tháng 11 phù hợp nếu bạn muốn bổ sung **biển mát, ẩm thực và không khí thành phố cảng** vào chuyến đi sau khi đã xem peak lá đỏ ở Seoul. Đây không phải điểm đến chuyên về foliage, nhưng là phần **cân bằng tốt** khi thời tiết lạnh dần.
+
+Xem thêm: [Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng](/posts/busan-thang-10-nen-di-dau/)
+Xem thêm: [Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan](/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem/)
+
 
 Lịch 2–3 ngày với Haeundae, Gwangalli, Gamcheon và Jagalchi là đủ cho lần đầu. Nếu muốn thêm đảo, so sánh với [Jeju tháng 11]({{< ref "posts/jeju-thang-11-co-dep-khong" >}}) — Jeju gió mạnh hơn nhưng cảnh quan đa dạng hơn. Tổng quan toàn series: [Đi Hàn tháng 11 có đẹp không?]({{< ref "posts/di-han-thang-11-co-dep-khong" >}}).
