@@ -7,7 +7,7 @@ categories = ["review"]
 tags = ["Kindle", "Amazon", "e-reader", "note-taking", "digital notebook", "review", "2026"]
 image = "images/posts/kindle-scribe-2-review-2026.webp"
 thumbnail = "images/posts/kindle-scribe-2-review-2026.webp"
-image_alt = "Kindle Scribe 2 with stylus and handwritten notes on screen"
+image_alt = "Ảnh minh họa Kindle Scribe 2 Review: Six Months as a Digital Notebook — Can It Replace Paper? — nguồn Pexels"
 seo_title = "Kindle Scribe 2 Review 2026: Honest Assessment After Six Months"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/close-up-of-handwriting-on-paper-with-pen-35575217/"
@@ -22,6 +22,8 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+image_attribution_checked_at = "2026-07-15T20:43:42+07:00"
+image_query = "kindle scribe review six months"
 +++
 
 I have a confession. I have bought four e-readers in the past eight years, hoping each time that the next one would finally be the device that replaces both my bookshelf and my stack of notebooks. The basic Kindle did well for reading. The Kobo handled library books better. The reMarkable 2 came close for writing. But every single device forced me to compromise on one side of the equation.
