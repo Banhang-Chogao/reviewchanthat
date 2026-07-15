@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh"]
 date = "2026-07-15T21:53:00+07:00"
-commit = ""
+commit = "05383e7a"
 description = "Đổi tiền đi Hàn Quốc 2026: won đổi ở đâu rẻ, thẻ hay tiền mặt, phí ATM và FX ẩn. Checklist trước chuyến để không mất tiền oan."
 draft = false
 slug = "doi-tien-di-han-won-the-hay-tien-mat"

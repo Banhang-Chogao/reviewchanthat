@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["tai-chinh"]
 date = "2026-07-15T21:54:00+07:00"
-commit = ""
+commit = "05383e7a"
 description = "Thẻ tín dụng lần đầu 2026: chọn sao để tránh phí ẩn, hiểu hạn mức, interest-free, cashback và checklist mở thẻ cho người mới tại Việt Nam."
 draft = false
 slug = "the-tin-dung-lan-dau-2026-chon-sao-khong-phi-an"

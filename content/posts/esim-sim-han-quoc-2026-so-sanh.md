@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-15T21:52:00+07:00"
-commit = ""
+commit = "05383e7a"
 description = "eSIM Hàn Quốc 2026: so sánh eSIM online, SIM sân bay và SIM shop Seoul. Tốc độ, vùng phủ, hotspot, Kakao OTP và cách kích hoạt trước chuyến đi."
 draft = false
 slug = "esim-sim-han-quoc-2026-so-sanh"
