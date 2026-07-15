@@ -1467,6 +1467,261 @@
     return out;
   }
 
+  function emptyCrawlReport(sourceUrl) {
+    return {
+      source_url: sourceUrl || '',
+      engine: '',
+      parser: 'visa_offers_perks',
+      status: 'ok',
+      listing_promotions_found: 0,
+      detail_pages_visited: 0,
+      successfully_parsed: 0,
+      failed_urls: [],
+      missing_promotions: [],
+      duplicates_removed: 0,
+      import_summary: '',
+      listing_cards: [],
+      parsed_merchants: [],
+      steps: [],
+      warnings: [],
+      errors: [],
+      count_mismatch: false,
+      starbucks_on_listing: false,
+      starbucks_imported: false,
+      starbucks_check_failed: false
+    };
+  }
+
+  function crawlLog(report, msg) {
+    if (!report) return;
+    report.steps.push(String(msg || ''));
+    try { console.log('[visa-import]', msg); } catch (e) {}
+  }
+
+  function parseVisaDateLoose(v) {
+    if (v == null || v === '') return '';
+    if (typeof v === 'string' && /^\d{4}-\d{2}-\d{2}/.test(v)) return v.slice(0, 10);
+    var s = String(v).trim();
+    // "Mar 30, 2026 17:00 GMT"
+    var m = s.match(/^([A-Za-z]{3})\s+(\d{1,2}),\s*(\d{4})/);
+    if (m) {
+      var months = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11 };
+      var mi = months[m[1].toLowerCase().slice(0, 3)];
+      if (mi != null) {
+        var d = new Date(Number(m[3]), mi, Number(m[2]));
+        if (!isNaN(d.getTime())) return d.toISOString().slice(0, 10);
+      }
+    }
+    return epochToISO(v);
+  }
+
+  function mapVisaDetailOffer(detail, listing, origin, locale, sourceUrl) {
+    listing = listing || {};
+    var merchants = detail.merchantList || [];
+    var merchant = (merchants[0] && merchants[0].merchant) || listing.merchant || listing.Merchant || '';
+    var short = detail.offerShortDescription || {};
+    var desc = (typeof short === 'object' ? (short.text || '') : String(short || '')).trim();
+    var offerTitle = String(detail.offerTitle || '').trim();
+    var title = offerTitle || desc || merchant || listing.title || listing.OfferTitle || '';
+    if (title === merchant && desc) title = desc.slice(0, 160);
+    var copy = detail.offerCopy || {};
+    var terms = (typeof copy === 'object' ? (copy.text || '') : String(copy || '')).trim();
+    if (!terms && copy && copy.richText) {
+      terms = String(copy.richText).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    }
+    var cards = detail.cardProductList || [];
+    var eligible = cards.map(function (c) { return c && (c.value || c.key); }).filter(Boolean).join(', ');
+    var cardLevel = '';
+    var eligLow = eligible.toLowerCase();
+    if (/infinite/.test(eligLow)) cardLevel = 'Infinite';
+    else if (/signature/.test(eligLow)) cardLevel = 'Signature';
+    else if (/platinum/.test(eligLow)) cardLevel = 'Platinum';
+    else if (/gold/.test(eligLow)) cardLevel = 'Gold';
+    else if (/classic/.test(eligLow)) cardLevel = 'Classic';
+    var cats = detail.categorySubcategoryList || [];
+    var cat = (cats[0] && cats[0].value) || listing.MerchantCategory || 'Other';
+    if (/cà phê|coffee|starbucks|café/i.test(merchant + ' ' + title)) cat = 'Coffee';
+    else if (/khách sạn|hotel|resort/i.test(merchant + ' ' + title + ' ' + cat)) cat = 'Hotel';
+    else if (/du lịch|travel|klook|agoda/i.test(merchant + ' ' + title + ' ' + cat)) cat = 'Travel';
+    else if (/ẩm thực|dining|food/i.test(cat)) cat = 'Dining';
+    var countries = detail.redemptionCountries || detail.promotingCountries || [];
+    var country = (countries[0] && countries[0].value) || (/vi_/i.test(locale) ? 'Vietnam' : '');
+    var logo = '';
+    if (merchants[0] && merchants[0].merchantImages && merchants[0].merchantImages[0]) {
+      logo = merchants[0].merchantImages[0].fileLocation || '';
+    }
+    var banner = '';
+    if (detail.imageList && detail.imageList[0]) banner = detail.imageList[0].fileLocation || '';
+    var sourceId = String(detail.offerId || listing.sourceId || listing.PromotionID || '').replace(/^visa-/, '');
+    var slug = slugifyMerchant(merchant);
+    var apply = sourceId
+      ? (origin + '/' + locale + '/visa-offers-and-perks/' + slug + '/' + sourceId)
+      : (listing.ApplyURL || sourceUrl);
+    var disc = inferDiscountFromText(title, desc + ' ' + terms);
+    var moneyBlob = title + ' ' + desc + ' ' + terms;
+    var cap = 0, minSpend = 0;
+    var moneyRe = /(\d[\d.,]*)\s*(?:₫|đ|vnd|vnđ)/ig;
+    var mm;
+    while ((mm = moneyRe.exec(moneyBlob))) {
+      var n = parseMoney(mm[1]);
+      var ctx = moneyBlob.slice(Math.max(0, mm.index - 30), mm.index + 10).toLowerCase();
+      if (/tối đa|toi da|maximum|cap|lên đến|len den/.test(ctx)) cap = Math.max(cap, n);
+      if (/tối thiểu|toi thieu|minimum|min|trên|tren|từ\s/.test(ctx)) minSpend = Math.max(minSpend, n);
+    }
+    return normalizePromo({
+      id: gId(),
+      PromotionID: sourceId ? ('visa-' + sourceId) : gId(),
+      Bank: 'Visa',
+      Card: '',
+      CardLevel: cardLevel,
+      Merchant: merchant || 'Visa Partner',
+      MerchantCategory: cat || 'Other',
+      PromotionType: 'Discount',
+      OfferTitle: title,
+      ShortDescription: desc || title,
+      DiscountType: disc.type,
+      DiscountValue: disc.value,
+      CashbackCap: cap,
+      MinimumSpend: minSpend,
+      EligibleCards: eligible,
+      Country: country || 'Vietnam',
+      StartDate: parseVisaDateLoose(detail.validityFromDateTime || detail.promotionFromDateTime || detail.validityFromDate) || todayISO(),
+      EndDate: parseVisaDateLoose(detail.validityToDateTime || detail.promotionToDateTime || detail.validityToDate) || '',
+      ApplyURL: apply,
+      OfficialSource: 'Visa Offers & Perks',
+      Terms: terms.slice(0, 4000),
+      Featured: !!detail.featuredOfferIndicator,
+      Priority: detail.featuredOfferIndicator ? 80 : 50,
+      Status: 'Active',
+      Logo: logo,
+      Banner: banner,
+      SourceURL: sourceUrl,
+      Verified: 'Pending',
+      _cardProductTypes: (detail.cardProductList || []).map(function (c) { return c && c.key; }).filter(function (x) { return x != null; }),
+      _cardPaymentTypes: (detail.cardPaymentTypeList || []).map(function (c) { return c && c.key; }).filter(function (x) { return x != null; })
+    });
+  }
+
+  function fetchVisaOfferDetail(origin, locale, sourceId, referer) {
+    var endpoint = origin + '/offers/api/offer/' + encodeURIComponent(sourceId) +
+      '?locale=' + encodeURIComponent(locale) + '&siteId=' + encodeURIComponent(origin.replace(/^https?:\/\//, ''));
+    // siteId should be hostname only
+    try {
+      endpoint = origin + '/offers/api/offer/' + encodeURIComponent(sourceId) +
+        '?locale=' + encodeURIComponent(locale) + '&siteId=' + encodeURIComponent(new URL(origin).hostname);
+    } catch (e) {}
+    if (!isHttpsOfficial(endpoint)) return Promise.reject(new Error('Detail host not allowlisted'));
+    return fetch(endpoint, {
+      method: 'GET',
+      mode: 'cors',
+      credentials: 'omit',
+      headers: {
+        'Accept': 'application/json',
+        'Referer': referer || (origin + '/')
+      }
+    }).then(function (r) {
+      if (!r.ok) throw new Error('Detail API HTTP ' + r.status);
+      return r.json();
+    });
+  }
+
+  function sleep(ms) {
+    return new Promise(function (resolve) { setTimeout(resolve, ms); });
+  }
+
+  function fetchDetailWithRetry(origin, locale, sourceId, referer, retries) {
+    retries = retries == null ? 3 : retries;
+    var attempt = 0;
+    function run() {
+      attempt += 1;
+      return fetchVisaOfferDetail(origin, locale, sourceId, referer)['catch'](function (err) {
+        if (attempt >= retries) throw err;
+        var delay = Math.pow(2, attempt) * 400;
+        return sleep(delay).then(run);
+      });
+    }
+    return run();
+  }
+
+  /** Visit EVERY detail page/API for listing cards; parse detail (not listing trust). */
+  function enrichListingWithDetails(listingCards, sourceUrl, onProgress, crawlReport) {
+    var u = new URL(sourceUrl);
+    var origin = u.origin;
+    var localeMatch = u.pathname.match(/\/([a-z]{2}_[a-z]{2})\//i);
+    var locale = localeMatch ? localeMatch[1] : 'vi_vn';
+    var out = [];
+    var i = 0;
+    crawlReport.listing_promotions_found = listingCards.length;
+    crawlReport.listing_cards = listingCards.map(function (c) {
+      return {
+        detail_url: c.detailUrl || c.ApplyURL || '',
+        source_id: String(c.sourceId || (c.PromotionID || '').replace(/^visa-/, '') || ''),
+        merchant: c.merchant || c.Merchant || '',
+        title: c.title || c.OfferTitle || '',
+        slug: c.slug || ''
+      };
+    });
+    crawlLog(crawlReport, 'Listing cards: ' + listingCards.length + ' — visiting each detail…');
+
+    function next() {
+      if (i >= listingCards.length) {
+        crawlReport.detail_pages_visited = listingCards.length;
+        crawlReport.successfully_parsed = out.length;
+        return Promise.resolve(out);
+      }
+      var card = listingCards[i];
+      var idx = i + 1;
+      i += 1;
+      var sourceId = String(card.sourceId || (card.PromotionID || '').replace(/^visa-/, '') || '');
+      var detailUrl = card.detailUrl || card.ApplyURL || '';
+      if (!sourceId && detailUrl) {
+        var idm = detailUrl.match(/\/visa-offers-and-perks\/[^/]+\/(\d+)/i);
+        if (idm) sourceId = idm[1];
+      }
+      onProgress(
+        35 + Math.floor((idx / Math.max(listingCards.length, 1)) * 50),
+        'Detail ' + idx + '/' + listingCards.length + (card.merchant || card.Merchant ? ' · ' + (card.merchant || card.Merchant) : '')
+      );
+      crawlLog(crawlReport, '[' + idx + '/' + listingCards.length + '] detail id=' + sourceId);
+      if (!sourceId) {
+        crawlReport.failed_urls.push((detailUrl || '?') + ' · missing sourceId');
+        return next();
+      }
+      return fetchDetailWithRetry(origin, locale, sourceId, detailUrl || sourceUrl, 3).then(function (detail) {
+        var promo = mapVisaDetailOffer(detail, card, origin, locale, sourceUrl);
+        out.push(promo);
+        crawlLog(crawlReport, '  OK · ' + promo.Merchant);
+        return next();
+      })['catch'](function (err) {
+        crawlReport.failed_urls.push((detailUrl || sourceId) + ' · ' + (err && err.message ? err.message : err));
+        crawlLog(crawlReport, '  FAILED · ' + (err && err.message ? err.message : err));
+        // Continue remaining valid promotions
+        return next();
+      });
+    }
+    return next();
+  }
+
+  function listingCardsFromApiPromos(list, origin, locale) {
+    return (list || []).map(function (p) {
+      var sid = String(p.PromotionID || '').replace(/^visa-/, '');
+      var merchant = p.Merchant || '';
+      var slug = slugifyMerchant(merchant);
+      return {
+        sourceId: sid,
+        merchant: merchant,
+        title: p.OfferTitle || merchant,
+        detailUrl: p.ApplyURL || (sid ? origin + '/' + locale + '/visa-offers-and-perks/' + slug + '/' + sid : ''),
+        PromotionID: p.PromotionID,
+        Merchant: merchant,
+        OfferTitle: p.OfferTitle,
+        ApplyURL: p.ApplyURL,
+        _cardProductTypes: p._cardProductTypes,
+        _cardPaymentTypes: p._cardPaymentTypes
+      };
+    });
+  }
+
   function fetchVisaPerksApi(sourceUrl) {
     var u = new URL(sourceUrl);
     var origin = u.origin;
@@ -1474,12 +1729,15 @@
     var locale = localeMatch ? localeMatch[1] : 'vi_vn';
     var endpoint = origin + '/offers/api/portal/portal/perks/';
     if (!isHttpsOfficial(endpoint)) return Promise.reject(new Error('API host not allowlisted'));
+    // Match official SPA request body (limit 1000 + offerType U)
     var body = {
       siteId: u.hostname,
       perkTypeRequests: [{
+        requestIdentifier: null,
         perkType: 'OFFERS',
         locale: locale,
-        pageRequest: { index: 0, limit: 200 }
+        pageRequest: { index: 0, limit: 1000 },
+        perkArguments: { offerType: 'U' }
       }]
     };
     return fetch(endpoint, {
@@ -1506,7 +1764,13 @@
       });
       if (!list.length) throw new Error('API returned zero offers');
       list = filterByQueryParams(list, sourceUrl);
-      return { promotions: list, engine: 'visa-api-direct', parser: 'visa_offers_perks' };
+      return {
+        listingCards: listingCardsFromApiPromos(list, origin, locale),
+        engine: 'visa-api-listing',
+        parser: 'visa_offers_perks',
+        origin: origin,
+        locale: locale
+      };
     });
   }
 
@@ -1527,31 +1791,16 @@
       var merchant = decodeURIComponent(idm[1]).replace(/-/g, ' ').replace(/\b\w/g, function (c) {
         return c.toUpperCase();
       });
-      var disc = inferDiscountFromText(title, '');
-      list.push(normalizePromo({
-        id: gId(),
+      list.push({
+        sourceId: oid,
+        merchant: merchant,
+        title: title,
+        detailUrl: href.split('?')[0],
         PromotionID: 'visa-' + oid,
-        Bank: 'Visa',
         Merchant: merchant,
         OfferTitle: title,
-        ShortDescription: title,
-        DiscountType: disc.type,
-        DiscountValue: disc.value,
-        PromotionType: 'Discount',
-        MerchantCategory: /hotel|resort|banyan|dusit|ihg|swiss/i.test(merchant + title) ? 'Hotel'
-          : /golf|travel|klook/i.test(title) ? 'Travel'
-          : /cgv|movie|phim/i.test(title) ? 'Entertainment'
-          : /ẩm thực|dining|restaurant/i.test(title) ? 'Dining' : 'Other',
-        Country: 'Vietnam',
-        StartDate: todayISO(),
-        EndDate: '',
-        ApplyURL: href.split('?')[0],
-        OfficialSource: 'Visa Offers & Perks',
-        SourceURL: sourceUrl,
-        Status: 'Active',
-        Priority: 50,
-        Verified: 'Pending'
-      }));
+        ApplyURL: href.split('?')[0]
+      });
     }
     return list;
   }
@@ -1576,8 +1825,78 @@
       if (!list.length) {
         throw new Error('No promotions found in rendered page (JS layout may have changed)');
       }
-      return { promotions: list, engine: 'reader-proxy', parser: 'visa_offers_perks_reader' };
+      var u = new URL(sourceUrl);
+      var localeMatch = u.pathname.match(/\/([a-z]{2}_[a-z]{2})\//i);
+      return {
+        listingCards: list,
+        engine: 'reader-proxy-listing',
+        parser: 'visa_offers_perks',
+        origin: u.origin,
+        locale: localeMatch ? localeMatch[1] : 'vi_vn'
+      };
     });
+  }
+
+  /**
+   * Fallback listing seed published from Playwright crawler (detail URLs only).
+   * Details are always re-fetched live via official detail API — no hardcoded merchants.
+   */
+  function fetchListingSeed(sourceUrl) {
+    var seedUrl = 'https://raw.githubusercontent.com/' + GH_OWNER + '/' + GH_REPO + '/' + GH_BRANCH +
+      '/data/visa-offers-listing-vn.json?_=' + Date.now();
+    return fetch(seedUrl, { method: 'GET', mode: 'cors', credentials: 'omit', headers: { Accept: 'application/json' } })
+      .then(function (r) {
+        if (!r.ok) throw new Error('Listing seed HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        var cards = (data && data.listing_cards) || [];
+        if (!cards.length) throw new Error('Listing seed empty');
+        var u = new URL(sourceUrl);
+        var localeMatch = u.pathname.match(/\/([a-z]{2}_[a-z]{2})\//i);
+        var wantCard = u.searchParams.get('cardProduct');
+        var wantPay = u.searchParams.get('paymentType');
+        var mapped = [];
+        cards.forEach(function (c) {
+          var productTypes = (c.cardProductTypes || c._cardProductTypes || []).map(String);
+          var paymentTypes = (c.cardPaymentTypes || c._cardPaymentTypes || []).map(String);
+          if (wantCard && productTypes.length && productTypes.indexOf(String(wantCard)) === -1) return;
+          if (wantPay && paymentTypes.length && paymentTypes.indexOf(String(wantPay)) === -1) return;
+          mapped.push({
+            sourceId: String(c.source_id || c.sourceId || ''),
+            merchant: c.merchant || '',
+            title: c.title || c.merchant || '',
+            detailUrl: c.detail_url || c.detailUrl || '',
+            slug: c.slug || '',
+            PromotionID: (c.source_id || c.sourceId) ? ('visa-' + (c.source_id || c.sourceId)) : '',
+            Merchant: c.merchant || '',
+            OfferTitle: c.title || c.merchant || '',
+            ApplyURL: c.detail_url || c.detailUrl || ''
+          });
+        });
+        if (!mapped.length) {
+          // Seed lacks filter meta — use full Playwright-discovered listing
+          mapped = cards.map(function (c) {
+            return {
+              sourceId: String(c.source_id || c.sourceId || ''),
+              merchant: c.merchant || '',
+              title: c.title || c.merchant || '',
+              detailUrl: c.detail_url || c.detailUrl || '',
+              PromotionID: (c.source_id || c.sourceId) ? ('visa-' + (c.source_id || c.sourceId)) : '',
+              Merchant: c.merchant || '',
+              OfferTitle: c.title || '',
+              ApplyURL: c.detail_url || c.detailUrl || ''
+            };
+          });
+        }
+        return {
+          listingCards: mapped,
+          engine: 'playwright-listing-seed',
+          parser: 'visa_offers_perks',
+          origin: u.origin,
+          locale: localeMatch ? localeMatch[1] : 'vi_vn'
+        };
+      });
   }
 
   function isVisaOffersUrl(url) {
@@ -1589,34 +1908,144 @@
     } catch (e) { return false; }
   }
 
+  function finalizeCrawlIntegrity(crawlReport, promotions) {
+    var listingN = crawlReport.listing_promotions_found || (crawlReport.listing_cards || []).length;
+    var visitedN = crawlReport.detail_pages_visited || 0;
+    var parsedN = (promotions || []).length;
+    crawlReport.successfully_parsed = parsedN;
+    crawlReport.parsed_merchants = (promotions || []).map(function (p) { return p.Merchant || ''; });
+    var parsedIds = {};
+    (promotions || []).forEach(function (p) {
+      var id = String(p.PromotionID || '').replace(/^visa-/, '');
+      if (id) parsedIds[id] = 1;
+    });
+    var missing = [];
+    (crawlReport.listing_cards || []).forEach(function (c) {
+      var sid = String(c.source_id || '');
+      if (sid && !parsedIds[sid]) {
+        missing.push((c.merchant || c.title || sid) + ' → ' + (c.detail_url || ''));
+      }
+    });
+    crawlReport.missing_promotions = missing;
+    crawlReport.count_mismatch = listingN !== visitedN || listingN !== parsedN || visitedN !== parsedN;
+    var listingBlob = (crawlReport.listing_cards || []).map(function (c) {
+      return [c.merchant, c.title, c.detail_url, c.slug].join(' ');
+    }).join(' ').toLowerCase();
+    crawlReport.starbucks_on_listing = listingBlob.indexOf('starbucks') !== -1;
+    var parsedBlob = crawlReport.parsed_merchants.join(' ').toLowerCase();
+    crawlReport.starbucks_imported = parsedBlob.indexOf('starbucks') !== -1;
+    crawlReport.starbucks_check_failed = crawlReport.starbucks_on_listing && !crawlReport.starbucks_imported;
+    if (crawlReport.starbucks_check_failed) {
+      crawlReport.status = 'failed';
+      crawlReport.errors.push('CRAWL FAILED: listing contains Starbucks but imported dataset does not.');
+      if (!missing.some(function (m) { return /starbucks/i.test(m); })) {
+        crawlReport.missing_promotions.push('Starbucks (present on listing, missing after parse)');
+      }
+    } else if (!parsedN) {
+      crawlReport.status = 'failed';
+    } else if (crawlReport.count_mismatch || (crawlReport.failed_urls || []).length) {
+      crawlReport.status = 'partial';
+    } else {
+      crawlReport.status = 'ok';
+    }
+    crawlReport.import_summary =
+      'listing=' + listingN + ' visited=' + visitedN + ' parsed=' + parsedN +
+      ' failed_urls=' + (crawlReport.failed_urls || []).length +
+      ' missing=' + crawlReport.missing_promotions.length +
+      ' dupes_removed=' + (crawlReport.duplicates_removed || 0) +
+      ' status=' + crawlReport.status;
+    crawlLog(crawlReport, 'Crawl report: ' + crawlReport.import_summary);
+    return crawlReport;
+  }
+
+  function formatCrawlReportText(cr) {
+    if (!cr) return '';
+    var lines = [
+      '=== Visa Promo Crawl Report ===',
+      'Status: ' + cr.status,
+      'Source: ' + cr.source_url,
+      'Engine: ' + cr.engine + ' · Parser: ' + cr.parser,
+      'Listing promotions found: ' + cr.listing_promotions_found,
+      'Detail pages visited: ' + cr.detail_pages_visited,
+      'Successfully parsed: ' + cr.successfully_parsed,
+      'Duplicates removed: ' + cr.duplicates_removed,
+      'Failed URLs (' + (cr.failed_urls || []).length + '):'
+    ];
+    (cr.failed_urls || []).slice(0, 30).forEach(function (u) { lines.push('  - ' + u); });
+    lines.push('Missing promotions (' + (cr.missing_promotions || []).length + '):');
+    (cr.missing_promotions || []).slice(0, 30).forEach(function (m) { lines.push('  - ' + m); });
+    lines.push('Starbucks on listing: ' + cr.starbucks_on_listing);
+    lines.push('Starbucks imported: ' + cr.starbucks_imported);
+    lines.push('Starbucks check failed: ' + cr.starbucks_check_failed);
+    lines.push('Import summary: ' + cr.import_summary);
+    return lines.join('\n');
+  }
+
   function crawlOfficialUrl(sourceUrl, onProgress) {
     onProgress = onProgress || function () {};
     var skipExpired = !!($('vpUrlSkipExpired') && $('vpUrlSkipExpired').checked);
-    onProgress(15, 'Validating allowlist…');
+    var crawlReport = emptyCrawlReport(sourceUrl);
+    onProgress(10, 'Validating allowlist…');
+    crawlLog(crawlReport, 'Start crawl ' + sourceUrl);
 
-    var chain;
+    var listingChain;
     if (isVisaOffersUrl(sourceUrl) && /visa-offers-and-perks|promociones|visa-commercial-offers/i.test(sourceUrl)) {
-      onProgress(30, 'Fetching Visa Offers API…');
-      chain = fetchVisaPerksApi(sourceUrl)['catch'](function (err) {
-        onProgress(45, 'Direct API blocked or failed (' + (err.message || err) + '). Trying rendered page…');
-        return fetchViaReaderProxy(sourceUrl);
+      onProgress(20, 'Discovering listing cards (API)…');
+      listingChain = fetchVisaPerksApi(sourceUrl)['catch'](function (err) {
+        crawlLog(crawlReport, 'Listing API failed: ' + (err.message || err));
+        crawlReport.warnings.push('Listing API failed: ' + (err.message || err));
+        onProgress(25, 'Listing API blocked — trying Playwright seed…');
+        return fetchListingSeed(sourceUrl)['catch'](function (err2) {
+          crawlLog(crawlReport, 'Seed failed: ' + (err2.message || err2));
+          onProgress(28, 'Seed unavailable — trying rendered reader…');
+          return fetchViaReaderProxy(sourceUrl);
+        });
       });
     } else {
-      onProgress(30, 'Fetching official page (rendered)…');
-      chain = fetchViaReaderProxy(sourceUrl);
+      onProgress(20, 'Fetching official page (rendered)…');
+      listingChain = fetchViaReaderProxy(sourceUrl);
     }
 
-    return chain.then(function (result) {
-      onProgress(70, 'Normalizing ' + result.promotions.length + ' offers…');
+    return listingChain.then(function (listingResult) {
+      crawlReport.engine = listingResult.engine || '';
+      crawlReport.parser = listingResult.parser || 'visa_offers_perks';
+      crawlLog(crawlReport, 'Listing source: ' + crawlReport.engine + ' · cards=' + (listingResult.listingCards || []).length);
+      var cards = listingResult.listingCards || [];
+      if (!cards.length) throw new Error('No promotion cards found on listing');
+      // Deduplicate listing by sourceId
+      var seen = {};
+      var unique = [];
+      cards.forEach(function (c) {
+        var sid = String(c.sourceId || '').trim();
+        if (sid && seen[sid]) {
+          crawlReport.duplicates_removed += 1;
+          return;
+        }
+        if (sid) seen[sid] = 1;
+        unique.push(c);
+      });
+      return enrichListingWithDetails(unique, sourceUrl, onProgress, crawlReport);
+    }).then(function (promotions) {
+      onProgress(88, 'Integrity check + normalize…');
+      finalizeCrawlIntegrity(crawlReport, promotions);
+
+      // Starbucks integrity: hard fail (do not import incomplete set silently)
+      if (crawlReport.starbucks_check_failed) {
+        var err = new Error(
+          'CRAWL FAILED: listing contains Starbucks but imported dataset does not. ' +
+          formatCrawlReportText(crawlReport)
+        );
+        err.crawlReport = crawlReport;
+        throw err;
+      }
+
       var valid = [];
       var invalid = [];
       var seen = {};
-      result.promotions.forEach(function (p, idx) {
-        // strip internal filter helpers
+      promotions.forEach(function (p, idx) {
         delete p._cardProductTypes;
         delete p._cardPaymentTypes;
         if (!p.StartDate || !isValidDate(p.StartDate)) p.StartDate = todayISO();
-        // Reader/HTML paths may omit end date — keep Active without inventing expiry
         if (p.EndDate && !isValidDate(p.EndDate)) p.EndDate = '';
         if (skipExpired && isExpired(p)) {
           invalid.push({ p: p, errors: ['Expired (skipped by toggle)'], row: idx + 1 });
@@ -1628,7 +2057,6 @@
         if (p.ApplyURL && !isHttpsOfficial(p.ApplyURL)) errs.push('ApplyURL not official HTTPS');
         var key = String(p.PromotionID || '').toLowerCase();
         if (key && seen[key]) errs.push('Duplicate in crawl batch');
-        // Existing dataset duplicates are OK in preview (merge mode handles them)
         if (!p.OfferTitle) {
           invalid.push({ p: p, errors: errs.length ? errs : ['Missing title'], row: idx + 1 });
           return;
@@ -1640,13 +2068,15 @@
         if (key) seen[key] = 1;
         valid.push({ p: p, errors: [], row: idx + 1, selected: true });
       });
-      onProgress(90, 'Building preview…');
+      onProgress(95, 'Building preview…');
       return {
         valid: valid,
         invalid: invalid,
         sourceUrl: sourceUrl,
-        engine: result.engine,
-        parser: result.parser
+        engine: crawlReport.engine,
+        parser: crawlReport.parser,
+        crawlReport: crawlReport,
+        crawlReportText: formatCrawlReportText(crawlReport)
       };
     });
   }
@@ -1681,16 +2111,23 @@
     pendingUrlImport._rows = rows;
     var report = $('vpUrlImportReport');
     if (report) {
+      var cr = result.crawlReportText || '';
       report.textContent =
         'Parser: ' + (result.parser || '—') + ' · Engine: ' + (result.engine || '—') + '\n' +
         'Valid rows: ' + (result.valid || []).length + ' · Flagged: ' + (result.invalid || []).length + '\n' +
         ((result.invalid || []).slice(0, 12).map(function (x) {
           return '• ' + (x.p.Merchant || '?') + ': ' + (x.errors || []).join('; ');
-        }).join('\n') || 'All rows look importable.');
+        }).join('\n') || 'All rows look importable.') +
+        (cr ? '\n\n' + cr : '');
     }
     var selAll = $('vpUrlSelectAll');
     if (selAll) selAll.checked = true;
-    setUrlStatus('ok', '✓ Preview ready — review rows, choose merge strategy, then Import.');
+    var crStat = result.crawlReport && result.crawlReport.status;
+    if (crStat === 'partial') {
+      setUrlStatus('warn', '⚠ Preview ready with partial crawl — review crawl report / missing list, then Import.');
+    } else {
+      setUrlStatus('ok', '✓ Preview ready — review rows, choose merge strategy, then Import.');
+    }
   }
 
   function cancelUrlImport() {
