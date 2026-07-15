@@ -1,0 +1,182 @@
+{{ define "seo" }}
+<title>MCC DB — Merchant Category &amp; BIN Intelligence — Review Chân Thật</title>
+<meta name="description" content="Tra cứu Merchant Category Code (MCC) và BIN thẻ Việt Nam. Nguồn công khai, có source + last verified.">
+<meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+{{ define "main" }}
+{{ $css := resources.Get "css/mcc-db.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+<article class="mcc" id="mccAppRoot">
+  <div class="mcc-hero">
+    <p class="mcc-hero__kicker">Merchant Category &amp; BIN Intelligence · Vietnam</p>
+    <h1 class="mcc-hero__title">💳 MCC DB</h1>
+    <p class="mcc-hero__sub">
+      Cơ sở dữ liệu MCC (ISO 18245) + BIN/IIN ngân hàng Việt Nam.
+      Mỗi bản ghi có nguồn và mốc xác minh — không bịa số.
+    </p>
+    <p class="mcc-version" id="mccVersionBadge" title="Commit / build đang serve">Phiên bản dịch vụ: …</p>
+  </div>
+
+  <div class="mcc-shell">
+    <!-- KPI strip -->
+    <section class="mcc-kpi" id="mccKpi" aria-label="Database metrics">
+      <div class="mcc-kpi__card"><span class="mcc-kpi__label">Total MCC</span><strong class="mcc-kpi__value" id="kpiMcc">—</strong></div>
+      <div class="mcc-kpi__card"><span class="mcc-kpi__label">Total BIN</span><strong class="mcc-kpi__value" id="kpiBin">—</strong></div>
+      <div class="mcc-kpi__card"><span class="mcc-kpi__label">Banks (VN)</span><strong class="mcc-kpi__value" id="kpiBanks">—</strong></div>
+      <div class="mcc-kpi__card"><span class="mcc-kpi__label">Last Sync</span><strong class="mcc-kpi__value mcc-kpi__value--sm" id="kpiSync">—</strong></div>
+      <div class="mcc-kpi__card"><span class="mcc-kpi__label">Failed Sources</span><strong class="mcc-kpi__value" id="kpiFailed">0</strong></div>
+      <div class="mcc-kpi__card"><span class="mcc-kpi__label">Coverage</span><strong class="mcc-kpi__value mcc-kpi__value--sm" id="kpiCoverage">MCC + VN BIN</strong></div>
+    </section>
+
+    <!-- Global search + sync -->
+    <section class="mcc-toolbar">
+      <div class="mcc-search">
+        <label class="sr-only" for="mccGlobalSearch">Global search</label>
+        <input type="search" id="mccGlobalSearch" class="mcc-search__input" placeholder="Search MCC, merchant, BIN, bank… (vd: Starbucks, 5812, 970436, Vietcombank)" autocomplete="off">
+      </div>
+      <div class="mcc-toolbar__actions">
+        <button type="button" class="mcc-btn" id="mccSyncMcc" title="Re-load MCC dataset from site">↻ Sync MCC</button>
+        <button type="button" class="mcc-btn" id="mccSyncBin" title="Re-load BIN dataset from site">↻ Sync BIN</button>
+        <button type="button" class="mcc-btn mcc-btn--primary" id="mccSyncAll">↻ Sync All</button>
+        <div class="mcc-export">
+          <button type="button" class="mcc-btn" id="mccExportCsv">CSV</button>
+          <button type="button" class="mcc-btn" id="mccExportExcel">Excel</button>
+          <button type="button" class="mcc-btn" id="mccExportPdf">PDF</button>
+        </div>
+      </div>
+      <p class="mcc-sync-status" id="mccSyncStatus" aria-live="polite"></p>
+    </section>
+
+    <!-- Tabs -->
+    <div class="mcc-tabs" role="tablist">
+      <button type="button" class="mcc-tabs__btn is-active" data-tab="mcc" role="tab" aria-selected="true">1. MCC Database</button>
+      <button type="button" class="mcc-tabs__btn" data-tab="bin" role="tab" aria-selected="false">2. BIN &amp; Bank (VN)</button>
+      <button type="button" class="mcc-tabs__btn" data-tab="insights" role="tab" aria-selected="false">3. AI Insights</button>
+      <button type="button" class="mcc-tabs__btn" data-tab="reports" role="tab" aria-selected="false">4. Reports</button>
+    </div>
+
+    <!-- SECTION 1: MCC -->
+    <section class="mcc-panel is-active" id="mccTabMcc" data-panel="mcc">
+      <div class="mcc-filters" id="mccFilters">
+        <select id="fMccIndustry" aria-label="Industry"><option value="">All industries</option></select>
+        <select id="fMccParent" aria-label="Parent category"><option value="">All categories</option></select>
+        <select id="fMccCashback" aria-label="Cashback category"><option value="">All cashback</option></select>
+        <select id="fMccStatus" aria-label="Verification status">
+          <option value="">All status</option>
+          <option value="verified">verified</option>
+          <option value="source-listed">source-listed</option>
+          <option value="community-sourced">community-sourced</option>
+          <option value="needs-review">needs-review</option>
+        </select>
+        <button type="button" class="mcc-btn mcc-btn--ghost" id="mccClearFilters">Clear filters</button>
+      </div>
+      <div class="mcc-table-wrap">
+        <table class="mcc-table" id="mccTable">
+          <thead>
+            <tr>
+              <th>MCC</th>
+              <th>Name</th>
+              <th>Category</th>
+              <th>Industry</th>
+              <th>Cashback</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="mccTableBody">
+            <tr class="mcc-skeleton-row"><td colspan="6">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mcc-pager">
+        <span id="mccPageInfo">—</span>
+        <div class="mcc-pager__btns">
+          <button type="button" class="mcc-btn" id="mccPrev">← Prev</button>
+          <button type="button" class="mcc-btn" id="mccNext">Next →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: BIN -->
+    <section class="mcc-panel" id="mccTabBin" data-panel="bin" hidden>
+      <div class="mcc-filters" id="binFilters">
+        <select id="fBinBank" aria-label="Bank"><option value="">All banks</option></select>
+        <select id="fBinBrand" aria-label="Card brand">
+          <option value="">All brands</option>
+          <option value="Visa">Visa</option>
+          <option value="Mastercard">Mastercard</option>
+          <option value="JCB">JCB</option>
+          <option value="Napas">Napas</option>
+          <option value="UnionPay">UnionPay</option>
+          <option value="Amex">Amex</option>
+        </select>
+        <select id="fBinType" aria-label="Card type">
+          <option value="">All types</option>
+          <option value="Debit">Debit</option>
+          <option value="Credit">Credit</option>
+          <option value="Prepaid">Prepaid</option>
+        </select>
+        <select id="fBinActive" aria-label="Active">
+          <option value="">All</option>
+          <option value="true">Active</option>
+          <option value="false">Inactive</option>
+        </select>
+        <button type="button" class="mcc-btn mcc-btn--ghost" id="binClearFilters">Clear filters</button>
+      </div>
+      <div class="mcc-table-wrap">
+        <table class="mcc-table" id="binTable">
+          <thead>
+            <tr>
+              <th>BIN</th>
+              <th>Bank</th>
+              <th>Brand</th>
+              <th>Type</th>
+              <th>Level</th>
+              <th>Active</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="binTableBody">
+            <tr class="mcc-skeleton-row"><td colspan="7">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mcc-pager">
+        <span id="binPageInfo">—</span>
+        <div class="mcc-pager__btns">
+          <button type="button" class="mcc-btn" id="binPrev">← Prev</button>
+          <button type="button" class="mcc-btn" id="binNext">Next →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Insights -->
+    <section class="mcc-panel" id="mccTabInsights" data-panel="insights" hidden>
+      <h2 class="mcc-section-title">AI Insights (derived from local dataset)</h2>
+      <p class="mcc-muted">Phân tích tự động từ dữ liệu đã sync — không gọi model bên ngoài, không bịa số liệu.</p>
+      <div class="mcc-insight-grid" id="mccInsightGrid"></div>
+    </section>
+
+    <!-- SECTION 4: Reports -->
+    <section class="mcc-panel" id="mccTabReports" data-panel="reports" hidden>
+      <h2 class="mcc-section-title">Sync &amp; Coverage Report</h2>
+      <div class="mcc-report" id="mccReportBody"></div>
+    </section>
+  </div>
+
+  <!-- Detail drawer -->
+  <div class="mcc-drawer" id="mccDrawer" hidden>
+    <div class="mcc-drawer__backdrop" id="mccDrawerBackdrop"></div>
+    <aside class="mcc-drawer__panel" role="dialog" aria-modal="true" aria-labelledby="mccDrawerTitle">
+      <button type="button" class="mcc-drawer__close" id="mccDrawerClose" aria-label="Close">✕</button>
+      <div class="mcc-drawer__body" id="mccDrawerBody"></div>
+    </aside>
+  </div>
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js" defer></script>
+{{ $js := resources.Get "js/mcc-db.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
