@@ -13,21 +13,7 @@
       "date": "2026-07-02",
       "created": 1784063055022,
       "updated": 1784063055022
-    },
-    {
-      "id": "mrm2z87jbffvg7dk",
-      "title": "test",
-      "year": 2026,
-      "rating": 5,
-      "status": "watching",
-      "summary": "ddd",
-      "specials": [
-        "favorite"
-      ],
-      "date": "2026-07-16",
-      "created": 1784119991887,
-      "updated": 1784119991887
     }
   ],
-  "updatedAt": "2026-07-15T12:53:11.887Z"
+  "updatedAt": "2026-07-15T13:36:51.802Z"
 }
