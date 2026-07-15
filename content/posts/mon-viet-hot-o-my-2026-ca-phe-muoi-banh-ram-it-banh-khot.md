@@ -11,7 +11,7 @@ tags = ["món Việt hot Mỹ", "cà phê muối", "bánh ram ít", "bánh khọ
 keywords = ["món Việt hot ở Mỹ", "cà phê muối Mỹ", "bánh ram ít California", "bánh khọt TikTok", "ẩm thực Việt viral 2026", "Vietnamese food trends America", "salt coffee Vietnam", "banh khoot USA"]
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
-commit = "b9317b8e"
+commit = "62080a24"
 
 [ai_summary]
 enabled = true
