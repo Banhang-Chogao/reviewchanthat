@@ -9847,7 +9847,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Coyote vs. Acme (2026) — Review: Wile E. Coyote kiện tập đoàn Acme ra tòa — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "review-noi-chien-khong-dau-2026",
+      "title": "Review nồi chiên không dầu 2026: loại nào đáng mua sau vài tháng dùng thật",
+      "image_id": "img-eab17701",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/crispy-chicken-pieces-in-modern-air-fryer-35285814/",
+      "direct_url": "https://images.pexels.com/photos/35285814/pexels-photo-35285814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "FOX ^.ᆽ.^= ∫",
+      "creator_url": "https://www.pexels.com/@fox-58267",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/review-noi-chien-khong-dau-2026.jpg",
+      "output_path": "static/images/posts/review-noi-chien-khong-dau-2026.webp",
+      "watermark_text": "Source: Pexels / FOX ^.ᆽ.^= ∫",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "air fryer kitchen food",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Review nồi chiên không dầu 2026: loại nào đáng mua sau vài tháng dùng thật — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-15T18:16:55.306383+00:00"
+  "generated_at": "2026-07-15T23:39:16.501531+00:00"
 }
