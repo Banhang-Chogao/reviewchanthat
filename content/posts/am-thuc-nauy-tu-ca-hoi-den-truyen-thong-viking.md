@@ -11,7 +11,7 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking.webp"
 thumbnail = "images/posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking.webp"
-commit = ""
+commit = "d7add282"
 
 [[faq]]
 question = "Món ăn Na Uy nổi tiếng nhất là gì?"
