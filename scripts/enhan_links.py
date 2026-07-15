@@ -21,23 +21,11 @@ def parse_toml_fm(text: str):
 
 
 def _find_body_insertion_point(body: str) -> int:
-    """Find a natural spot to inject body links: before '## Kết luận' or last paragraph."""
-    idx = body.rfind("## Kết luận")
+    """Insert after the introductory paragraph(s), before the first ## heading."""
+    idx = body.find("\n## ")
     if idx >= 0:
-        # Insert after the blank line before the heading
-        pre = body[:idx]
-        # prune trailing whitespace
-        pre = pre.rstrip() + "\n\n"
+        pre = body[:idx].rstrip() + "\n\n"
         return len(pre)
-    # Otherwise insert before the last paragraph (skip <hr>, blank lines)
-    parts = re.split(r"(\n{2,})", body)
-    # find last non-empty, non-horizontal-rule paragraph
-    for i in range(len(parts) - 1, -1, -1):
-        chunk = parts[i].strip()
-        if chunk and not chunk.startswith("---") and not chunk.startswith("***"):
-            if i > 0:
-                pre = "".join(parts[:i]).rstrip() + "\n\n"
-                return len(pre)
     return len(body)
 
 def load_graph():
@@ -96,15 +84,15 @@ def insert_internal_links():
             slug_path = ref_val.replace("posts/", "").replace(".md", "")
             body_links += f"- [{title}](/posts/{slug_path}/)\n"
 
-        # 2. Inject markdown links into body near the end
-        # Skip if "Bài viết liên quan" already exists (avoid duplicates)
-        if "### Bài viết liên quan" in body:
+        # 2. Inject markdown links after the intro, before first heading
+        # Skip if already has this section
+        if "📌 Có thể bạn chưa đọc" in body:
             body_text = body
         else:
             insert_at = _find_body_insertion_point(body)
             body_before = body[:insert_at].rstrip()
             body_after = body[insert_at:]
-            body_text = body_before + "\n\n### Bài viết liên quan\n\n" + body_links + "\n" + body_after
+            body_text = body_before + "\n\n📌 Có thể bạn chưa đọc\n\n" + body_links + "\n" + body_after
 
         new_content = open_fm + fm + fm_block + close_fm + body_text
         fpath.write_text(new_content, encoding="utf-8")
