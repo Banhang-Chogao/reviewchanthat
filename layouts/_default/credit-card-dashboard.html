@@ -64,6 +64,55 @@
 
       <!-- ═══ MODULE 1: INPUT DATA ═══ -->
       <section class="ccd-input" id="ccdInput" style="display:none" hidden>
+
+        <!-- Import / Export (Input Data only) -->
+        <div class="ccd-io" id="ccdIoPanel" aria-label="Import Export">
+          <div class="ccd-io__head">
+            <h3 class="ccd-io__title">Import / Export</h3>
+            <p class="ccd-io__desc">Tải mẫu Excel, nhập hàng loạt hoặc xuất toàn bộ thẻ. Nhập tay vẫn dùng form bên dưới.</p>
+          </div>
+          <div class="ccd-io__actions">
+            <button type="button" class="ccd-io__btn ccd-io__btn--template" id="ccdDownloadTemplate">📥 Download Excel Template</button>
+            <button type="button" class="ccd-io__btn ccd-io__btn--import" id="ccdImportExcelBtn">📤 Import Excel</button>
+            <button type="button" class="ccd-io__btn ccd-io__btn--export" id="ccdExportExcelBtn">📄 Export Excel</button>
+          </div>
+          <div class="ccd-io__drop" id="ccdImportDrop" tabindex="0" role="button" aria-label="Kéo thả file Excel để import">
+            <input type="file" id="ccdImportFile" class="ccd-io__file" accept=".xlsx,.xls,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel" hidden>
+            <div class="ccd-io__drop-icon" aria-hidden="true">📂</div>
+            <p class="ccd-io__drop-text"><strong>Kéo &amp; thả</strong> file .xlsx / .xls vào đây</p>
+            <p class="ccd-io__drop-hint">hoặc bấm “Import Excel” để chọn file · tối đa ~10.000 dòng</p>
+          </div>
+          <div class="ccd-io__status" id="ccdIoStatus" hidden aria-live="polite"></div>
+        </div>
+
+        <!-- Import preview modal -->
+        <div class="ccd-io-modal" id="ccdImportModal" style="display:none" hidden role="dialog" aria-modal="true" aria-labelledby="ccdImportModalTitle">
+          <div class="ccd-io-modal__backdrop" id="ccdImportModalBackdrop"></div>
+          <div class="ccd-io-modal__card">
+            <div class="ccd-io-modal__header">
+              <h3 class="ccd-io-modal__title" id="ccdImportModalTitle">Xem trước import</h3>
+              <button type="button" class="ccd-io-modal__close" id="ccdImportModalClose" aria-label="Đóng">✕</button>
+            </div>
+            <p class="ccd-io-modal__summary" id="ccdImportSummary"></p>
+            <div class="ccd-io-modal__mode">
+              <span class="ccd-io-modal__mode-label">Chế độ lưu:</span>
+              <label class="ccd-io-modal__radio"><input type="radio" name="ccdImportMode" value="append" checked> Append (thêm vào dữ liệu hiện có)</label>
+              <label class="ccd-io-modal__radio"><input type="radio" name="ccdImportMode" value="overwrite"> Overwrite (ghi đè toàn bộ)</label>
+            </div>
+            <div class="ccd-io-modal__table-wrap">
+              <table class="ccd-io-modal__table" id="ccdImportPreviewTable">
+                <thead id="ccdImportPreviewHead"></thead>
+                <tbody id="ccdImportPreviewBody"></tbody>
+              </table>
+            </div>
+            <div class="ccd-io-modal__report" id="ccdImportReport"></div>
+            <div class="ccd-io-modal__actions">
+              <button type="button" class="ccd-input__btn" id="ccdImportCancel">Huỷ</button>
+              <button type="button" class="ccd-input__btn ccd-input__btn--primary" id="ccdImportConfirm">Xác nhận import</button>
+            </div>
+          </div>
+        </div>
+
         <div class="ccd-input__toolbar">
           <div class="ccd-input__search-wrap">
             <input type="search" id="ccdCardSearch" class="ccd-input__search" placeholder="Tìm thẻ, ngân hàng…" aria-label="Tìm kiếm thẻ">
@@ -427,7 +476,8 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>
+<!-- xlsx-js-style: SheetJS fork with cell styles (header colors, formats) + read/write .xlsx/.xls -->
+<script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js" defer></script>
 {{ $js := resources.Get "js/credit-card-dashboard.js" | minify | fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>

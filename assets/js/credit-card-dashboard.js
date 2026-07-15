@@ -699,6 +699,694 @@
     on($('ccdExportCsv'), 'click', function () { exportCSV(listVisibleCards(), 'credit-cards'); });
     on($('ccdExportXlsx'), 'click', function () { exportXLSX(listVisibleCards(), 'credit-cards'); });
     on($('ccdExportPdf'), 'click', function () { exportPDF(listVisibleCards(), 'Credit Cards'); });
+    initImportExport();
+  }
+
+  /* ───────────── Import / Export (Input Data) ───────────── */
+  var IO_HEADERS = [
+    'Card Name', 'Bank', 'Card Type', 'Credit Limit', 'Outstanding Balance',
+    'Statement Date', 'Due Date', 'Minimum Payment', 'Interest Rate (%/year)', 'Annual Fee',
+    'Rewards Type', 'Cashback %', 'Reward Points', 'Foreign Transaction Fee',
+    'Installment Balance', 'Monthly Installment', 'Card Status', 'Notes'
+  ];
+  var IO_CURRENCY_COLS = {
+    'Credit Limit': 1, 'Outstanding Balance': 1, 'Minimum Payment': 1,
+    'Annual Fee': 1, 'Installment Balance': 1, 'Monthly Installment': 1
+  };
+  var IO_PERCENT_COLS = {
+    'Interest Rate (%/year)': 1, 'Cashback %': 1, 'Foreign Transaction Fee': 1
+  };
+  var IO_DATE_COLS = { 'Statement Date': 1, 'Due Date': 1 };
+  var IO_COMMENTS = {
+    'Card Name': 'Bắt buộc. Ví dụ: HSBC Live+',
+    'Bank': 'Ví dụ: HSBC, Vietcombank…',
+    'Card Type': 'Visa | Mastercard | JCB | Amex | Napas | Other',
+    'Credit Limit': 'Bắt buộc. Số tiền (VND), không âm. Ví dụ: 50000000',
+    'Outstanding Balance': 'Bắt buộc. Dư nợ hiện tại (VND). Ví dụ: 12500000',
+    'Statement Date': 'Bắt buộc. Định dạng yyyy-mm-dd. Ví dụ: 2026-07-01',
+    'Due Date': 'Bắt buộc. Định dạng yyyy-mm-dd. Ví dụ: 2026-07-20',
+    'Interest Rate (%/year)': 'Lãi suất năm (%). Ví dụ: 24 hoặc 0.24 (=24%)',
+    'Cashback %': 'Phần trăm cashback. Ví dụ: 1.5',
+    'Foreign Transaction Fee': 'Phí giao dịch ngoại tệ (%). Ví dụ: 2.5',
+    'Card Status': 'Active | Frozen | Closed | Pending',
+    'Notes': 'Ghi chú tự do, hỗ trợ tiếng Việt'
+  };
+  var IO_SAMPLE = [
+    'HSBC Live+', 'HSBC', 'Visa', 50000000, 12500000,
+    '2026-07-01', '2026-07-20', 625000, 24, 999000,
+    'Cashback', 1.5, 12000, 2.5,
+    3000000, 500000, 'Active', 'Mẫu — thẻ chính trả lương'
+  ];
+
+  var pendingImport = null; // { valid: Card[], invalid: [{row, errors, raw}], total }
+
+  function ensureXLSX() {
+    if (typeof XLSX === 'undefined') {
+      alert('Thư viện Excel chưa sẵn sàng. Thử lại sau giây lát.');
+      return false;
+    }
+    return true;
+  }
+
+  function colLetter(n) {
+    var s = '';
+    n += 1;
+    while (n > 0) {
+      var m = (n - 1) % 26;
+      s = String.fromCharCode(65 + m) + s;
+      n = Math.floor((n - 1) / 26);
+    }
+    return s;
+  }
+
+  function headerStyle() {
+    return {
+      font: { bold: true, color: { rgb: 'FFFFFFFF' }, name: 'Calibri', sz: 11 },
+      fill: { fgColor: { rgb: '00A7A0' } },
+      alignment: { horizontal: 'center', vertical: 'center', wrapText: true },
+      border: {
+        top: { style: 'thin', color: { rgb: '007F7A' } },
+        bottom: { style: 'thin', color: { rgb: '007F7A' } },
+        left: { style: 'thin', color: { rgb: '007F7A' } },
+        right: { style: 'thin', color: { rgb: '007F7A' } }
+      }
+    };
+  }
+
+  function buildIoSheet(dataRows, opts) {
+    opts = opts || {};
+    var aoa = [IO_HEADERS.slice()];
+    (dataRows || []).forEach(function (r) { aoa.push(r); });
+    var ws = XLSX.utils.aoa_to_sheet(aoa);
+
+    // Column widths (auto-ish from header + sample)
+    ws['!cols'] = IO_HEADERS.map(function (h, i) {
+      var max = h.length + 2;
+      for (var r = 0; r < aoa.length; r++) {
+        var cell = aoa[r][i];
+        var len = cell == null ? 0 : String(cell).length + 2;
+        if (len > max) max = len;
+      }
+      return { wch: Math.min(Math.max(max, 12), 36) };
+    });
+
+    // Freeze header row
+    ws['!freeze'] = { xSplit: 0, ySplit: 1, topLeftCell: 'A2', activePane: 'bottomLeft', state: 'frozen' };
+    ws['!views'] = [{ state: 'frozen', ySplit: 1, topLeftCell: 'A2', activePane: 'bottomLeft' }];
+    ws['!rows'] = [{ hpt: 28 }];
+
+    var range = XLSX.utils.decode_range(ws['!ref'] || 'A1');
+    for (var C = range.s.c; C <= range.e.c; C++) {
+      var hAddr = colLetter(C) + '1';
+      if (!ws[hAddr]) continue;
+      ws[hAddr].s = headerStyle();
+      var hName = IO_HEADERS[C];
+      if (IO_COMMENTS[hName]) {
+        ws[hAddr].c = [{ a: 'Credit Card Dashboard', t: IO_COMMENTS[hName] }];
+      }
+    }
+
+    // Formats for data rows
+    for (var R = 1; R <= range.e.r; R++) {
+      for (var C2 = 0; C2 < IO_HEADERS.length; C2++) {
+        var addr = colLetter(C2) + (R + 1);
+        var cell = ws[addr];
+        if (!cell) continue;
+        var name = IO_HEADERS[C2];
+        if (IO_CURRENCY_COLS[name]) {
+          if (typeof cell.v === 'number') {
+            cell.t = 'n';
+            cell.z = '#,##0';
+          }
+        } else if (IO_PERCENT_COLS[name]) {
+          if (typeof cell.v === 'number') {
+            cell.t = 'n';
+            cell.z = '0.00';
+          }
+        } else if (IO_DATE_COLS[name]) {
+          cell.z = 'yyyy-mm-dd';
+          if (cell.v instanceof Date) {
+            cell.t = 'd';
+            cell.z = 'yyyy-mm-dd';
+          } else if (typeof cell.v === 'string' && isValidISODate(cell.v)) {
+            cell.t = 's';
+          }
+        }
+      }
+    }
+
+    return ws;
+  }
+
+  function downloadExcelTemplate() {
+    if (!ensureXLSX()) return;
+    try {
+      var wb = XLSX.utils.book_new();
+      var ws = buildIoSheet([IO_SAMPLE.slice()], { template: true });
+      XLSX.utils.book_append_sheet(wb, ws, 'Credit Cards');
+      XLSX.writeFile(wb, 'credit-card-template.xlsx');
+      setIoStatus('ok', '✓ Đã tải Excel Template (sheet “Credit Cards”, 1 dòng mẫu).');
+    } catch (e) {
+      setIoStatus('err', '✗ Không tạo được template: ' + (e.message || e));
+    }
+  }
+
+  function cardToIoRow(c) {
+    return [
+      c.cardName || '',
+      c.bank || '',
+      c.cardType || '',
+      Number(c.creditLimit) || 0,
+      Number(c.outstandingBalance) || 0,
+      c.statementDate || '',
+      c.dueDate || '',
+      Number(c.minimumPayment) || 0,
+      Number(c.interestRate) || 0,
+      Number(c.annualFee) || 0,
+      c.rewardsType || '',
+      Number(c.cashbackPercent) || 0,
+      Number(c.rewardPoints) || 0,
+      Number(c.foreignTxnFee) || 0,
+      Number(c.installmentBalance) || 0,
+      Number(c.monthlyInstallment) || 0,
+      c.cardStatus || 'Active',
+      c.notes || ''
+    ];
+  }
+
+  function exportCurrentDataExcel() {
+    if (!ensureXLSX()) return;
+    var cards = state.cards.slice();
+    if (!cards.length) {
+      setIoStatus('warn', '⚠ Chưa có dữ liệu để export. Thêm thẻ hoặc import trước.');
+      return;
+    }
+    try {
+      var rows = cards.map(cardToIoRow);
+      var wb = XLSX.utils.book_new();
+      var ws = buildIoSheet(rows, {});
+      XLSX.utils.book_append_sheet(wb, ws, 'Credit Cards');
+      XLSX.writeFile(wb, 'credit-cards-export.xlsx');
+      setIoStatus('ok', '✓ Đã export ' + cards.length + ' thẻ ra Excel (cùng cấu trúc template).');
+    } catch (e) {
+      setIoStatus('err', '✗ Export thất bại: ' + (e.message || e));
+    }
+  }
+
+  function setIoStatus(kind, msg) {
+    var el = $('ccdIoStatus');
+    if (!el) return;
+    el.hidden = false;
+    el.className = 'ccd-io__status ccd-io__status--' + (kind === 'ok' ? 'ok' : kind === 'warn' ? 'warn' : 'err');
+    el.textContent = msg;
+  }
+
+  function normalizeHeader(h) {
+    return String(h == null ? '' : h)
+      .replace(/^\uFEFF/, '')
+      .trim()
+      .toLowerCase()
+      .replace(/[%()]/g, ' ')
+      .replace(/[^a-z0-9]+/g, ' ')
+      .trim()
+      .replace(/\s+/g, ' ');
+  }
+
+  function buildHeaderMap(headerRow) {
+    var aliases = {
+      'card name': 'Card Name',
+      'bank': 'Bank',
+      'card type': 'Card Type',
+      'credit limit': 'Credit Limit',
+      'outstanding balance': 'Outstanding Balance',
+      'outstanding': 'Outstanding Balance',
+      'statement date': 'Statement Date',
+      'due date': 'Due Date',
+      'minimum payment': 'Minimum Payment',
+      'min payment': 'Minimum Payment',
+      'interest rate year': 'Interest Rate (%/year)',
+      'interest rate': 'Interest Rate (%/year)',
+      'annual fee': 'Annual Fee',
+      'rewards type': 'Rewards Type',
+      'reward type': 'Rewards Type',
+      'cashback': 'Cashback %',
+      'cashback percent': 'Cashback %',
+      'reward points': 'Reward Points',
+      'points': 'Reward Points',
+      'foreign transaction fee': 'Foreign Transaction Fee',
+      'fx fee': 'Foreign Transaction Fee',
+      'installment balance': 'Installment Balance',
+      'monthly installment': 'Monthly Installment',
+      'card status': 'Card Status',
+      'status': 'Card Status',
+      'notes': 'Notes',
+      'note': 'Notes'
+    };
+    var map = {};
+    for (var i = 0; i < headerRow.length; i++) {
+      var n = normalizeHeader(headerRow[i]);
+      if (!n) continue;
+      var key = aliases[n];
+      if (!key) {
+        // fuzzy: match IO_HEADERS normalized
+        for (var j = 0; j < IO_HEADERS.length; j++) {
+          if (normalizeHeader(IO_HEADERS[j]) === n) { key = IO_HEADERS[j]; break; }
+        }
+      }
+      if (key) map[key] = i;
+    }
+    return map;
+  }
+
+  function excelCellToISO(v) {
+    if (v == null || v === '') return '';
+    if (v instanceof Date && !isNaN(v.getTime())) {
+      var y = v.getFullYear();
+      var m = String(v.getMonth() + 1).padStart(2, '0');
+      var d = String(v.getDate()).padStart(2, '0');
+      return y + '-' + m + '-' + d;
+    }
+    if (typeof v === 'number' && isFinite(v)) {
+      // Excel serial date
+      var epoch = Date.UTC(1899, 11, 30);
+      var ms = epoch + Math.round(v * 86400000);
+      var dt = new Date(ms);
+      var y2 = dt.getUTCFullYear();
+      var m2 = String(dt.getUTCMonth() + 1).padStart(2, '0');
+      var d2 = String(dt.getUTCDate()).padStart(2, '0');
+      return y2 + '-' + m2 + '-' + d2;
+    }
+    var s = String(v).trim();
+    if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0, 10);
+    // dd/mm/yyyy or dd-mm-yyyy
+    var m3 = s.match(/^(\d{1,2})[\/\-.](\d{1,2})[\/\-.](\d{4})$/);
+    if (m3) {
+      return m3[3] + '-' + String(m3[2]).padStart(2, '0') + '-' + String(m3[1]).padStart(2, '0');
+    }
+    return s;
+  }
+
+  function parsePercentValue(v) {
+    if (v == null || v === '') return 0;
+    if (typeof v === 'number') {
+      if (Math.abs(v) > 0 && Math.abs(v) <= 1) return Math.round(v * 10000) / 100; // 0.24 → 24
+      return v;
+    }
+    var s = String(v).trim().replace(/%/g, '').replace(',', '.');
+    var n = parseFloat(s);
+    if (isNaN(n)) return NaN;
+    if (Math.abs(n) > 0 && Math.abs(n) <= 1 && String(v).indexOf('%') === -1) {
+      // ambiguous small number — keep as-is if looks like percent already? treat as fraction only if written 0.xx and no %
+      // Prefer treating 0.24 as 24% when source is Excel percent format (already number path).
+      // For strings "0.24" keep 0.24 (user typed rate), "24" keep 24.
+      return n;
+    }
+    return n;
+  }
+
+  function rowIsEmpty(row) {
+    if (!row || !row.length) return true;
+    for (var i = 0; i < row.length; i++) {
+      if (row[i] !== undefined && row[i] !== null && String(row[i]).trim() !== '') return false;
+    }
+    return true;
+  }
+
+  function activeDupKey(card) {
+    return (card.cardName || '').toLowerCase() + '||' + (card.bank || '').toLowerCase();
+  }
+
+  function validateImportCard(card, existingKeys, batchKeys) {
+    var errors = [];
+    if (!card.cardName) errors.push('Thiếu Card Name');
+    if (card.creditLimit === null || card.creditLimit === undefined || isNaN(card.creditLimit)) errors.push('Credit Limit không hợp lệ');
+    else if (card.creditLimit < 0) errors.push('Credit Limit không được âm');
+    if (card.outstandingBalance === null || card.outstandingBalance === undefined || isNaN(card.outstandingBalance)) errors.push('Outstanding Balance không hợp lệ');
+    else if (card.outstandingBalance < 0) errors.push('Outstanding Balance không được âm');
+    if (!card.statementDate) errors.push('Thiếu Statement Date');
+    else if (!isValidISODate(card.statementDate)) errors.push('Statement Date sai định dạng');
+    if (!card.dueDate) errors.push('Thiếu Due Date');
+    else if (!isValidISODate(card.dueDate)) errors.push('Due Date sai định dạng');
+
+    var moneyFields = [
+      ['minimumPayment', 'Minimum Payment'],
+      ['annualFee', 'Annual Fee'],
+      ['installmentBalance', 'Installment Balance'],
+      ['monthlyInstallment', 'Monthly Installment']
+    ];
+    moneyFields.forEach(function (pair) {
+      var v = card[pair[0]];
+      if (v != null && (isNaN(v) || v < 0)) errors.push(pair[1] + ' không hợp lệ / âm');
+    });
+    var pctFields = [
+      ['interestRate', 'Interest Rate'],
+      ['cashbackPercent', 'Cashback %'],
+      ['foreignTxnFee', 'Foreign Transaction Fee']
+    ];
+    pctFields.forEach(function (pair) {
+      var v = card[pair[0]];
+      if (v != null && (isNaN(v) || v < 0 || v > 1000)) errors.push(pair[1] + ' không hợp lệ');
+    });
+    if (card.rewardPoints != null && (isNaN(card.rewardPoints) || card.rewardPoints < 0)) {
+      errors.push('Reward Points không hợp lệ');
+    }
+
+    var status = card.cardStatus || 'Active';
+    var allowed = { Active: 1, Frozen: 1, Closed: 1, Pending: 1 };
+    if (!allowed[status]) errors.push('Card Status không hợp lệ');
+
+    if (status !== 'Closed' && card.cardName) {
+      var key = activeDupKey(card);
+      if (existingKeys[key] || batchKeys[key]) {
+        errors.push('Trùng thẻ active (Bank + Card Name)');
+      }
+    }
+    return errors;
+  }
+
+  function parseImportWorkbook(wb) {
+    var sheetName = wb.SheetNames.indexOf('Credit Cards') !== -1 ? 'Credit Cards' : wb.SheetNames[0];
+    var ws = wb.Sheets[sheetName];
+    if (!ws) throw new Error('Không tìm thấy sheet dữ liệu.');
+    var rows = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '', raw: true });
+    if (!rows.length) throw new Error('File trống.');
+    var headerRow = rows[0];
+    var colMap = buildHeaderMap(headerRow);
+    var required = ['Card Name', 'Credit Limit', 'Outstanding Balance', 'Statement Date', 'Due Date'];
+    var missingHeaders = required.filter(function (h) { return colMap[h] === undefined; });
+    if (missingHeaders.length) {
+      throw new Error('Thiếu cột bắt buộc: ' + missingHeaders.join(', '));
+    }
+
+    // Only de-dupe within the file at parse time.
+    // Against existing store is applied on confirm (append mode only).
+    var valid = [];
+    var invalid = [];
+    var batchKeys = {};
+    var emptyExisting = {};
+    var max = Math.min(rows.length - 1, 10000);
+
+    for (var r = 1; r <= max; r++) {
+      var row = rows[r];
+      if (rowIsEmpty(row)) continue;
+
+      function cell(name) {
+        var idx = colMap[name];
+        if (idx === undefined) return '';
+        return row[idx];
+      }
+
+      var card = {
+        id: genId(),
+        cardName: String(cell('Card Name') || '').trim(),
+        bank: String(cell('Bank') || '').trim(),
+        cardType: String(cell('Card Type') || '').trim(),
+        creditLimit: parseMoney(cell('Credit Limit')),
+        outstandingBalance: parseMoney(cell('Outstanding Balance')),
+        statementDate: excelCellToISO(cell('Statement Date')),
+        dueDate: excelCellToISO(cell('Due Date')),
+        minimumPayment: parseMoney(cell('Minimum Payment')),
+        interestRate: parsePercentValue(cell('Interest Rate (%/year)')),
+        annualFee: parseMoney(cell('Annual Fee')),
+        rewardsType: String(cell('Rewards Type') || '').trim(),
+        cashbackPercent: parsePercentValue(cell('Cashback %')),
+        rewardPoints: (function () {
+          var v = cell('Reward Points');
+          if (v === '' || v == null) return 0;
+          var n = typeof v === 'number' ? v : parseInt(String(v).replace(/[^\d\-]/g, ''), 10);
+          return isNaN(n) ? NaN : n;
+        })(),
+        foreignTxnFee: parsePercentValue(cell('Foreign Transaction Fee')),
+        installmentBalance: parseMoney(cell('Installment Balance')),
+        monthlyInstallment: parseMoney(cell('Monthly Installment')),
+        cardStatus: String(cell('Card Status') || 'Active').trim() || 'Active',
+        notes: String(cell('Notes') || '').trim(),
+        archived: false,
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
+        _rowNum: r + 1
+      };
+
+      var errors = validateImportCard(card, emptyExisting, batchKeys);
+      if (errors.length) {
+        invalid.push({ row: r + 1, errors: errors, card: card });
+      } else {
+        if ((card.cardStatus || 'Active') !== 'Closed') batchKeys[activeDupKey(card)] = 1;
+        valid.push(card);
+      }
+    }
+
+    return {
+      sheetName: sheetName,
+      totalDataRows: valid.length + invalid.length,
+      valid: valid,
+      invalid: invalid
+    };
+  }
+
+  function readImportFile(file) {
+    return new Promise(function (resolve, reject) {
+      if (!ensureXLSX()) { reject(new Error('XLSX missing')); return; }
+      var name = (file && file.name) || '';
+      if (!/\.(xlsx|xls)$/i.test(name)) {
+        reject(new Error('Chỉ hỗ trợ .xlsx hoặc .xls'));
+        return;
+      }
+      var reader = new FileReader();
+      reader.onload = function (ev) {
+        try {
+          var data = new Uint8Array(ev.target.result);
+          var wb = XLSX.read(data, { type: 'array', cellDates: true });
+          resolve(parseImportWorkbook(wb));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      reader.onerror = function () { reject(new Error('Không đọc được file')); };
+      reader.readAsArrayBuffer(file);
+    });
+  }
+
+  function openImportModal(result) {
+    pendingImport = result;
+    var modal = $('ccdImportModal');
+    if (!modal) return;
+    modal.hidden = false;
+    modal.style.display = 'flex';
+
+    var sum = $('ccdImportSummary');
+    if (sum) {
+      sum.innerHTML =
+        'Sheet: <strong>' + esc(result.sheetName) + '</strong> · ' +
+        'Tổng dòng dữ liệu: <strong>' + result.totalDataRows + '</strong> · ' +
+        'Hợp lệ: <strong style="color:var(--ccd-green-text)">' + result.valid.length + '</strong> · ' +
+        'Lỗi: <strong style="color:var(--ccd-red-text)">' + result.invalid.length + '</strong>' +
+        (result.totalDataRows >= 10000 ? ' · (đã cắt ở 10.000 dòng)' : '');
+    }
+
+    var head = $('ccdImportPreviewHead');
+    var body = $('ccdImportPreviewBody');
+    if (head) {
+      head.innerHTML = '<tr><th>#</th><th>Trạng thái</th><th>Card Name</th><th>Bank</th><th>Limit</th><th>Outstanding</th><th>Statement</th><th>Due</th><th>Status</th><th>Lỗi</th></tr>';
+    }
+    if (body) {
+      body.innerHTML = '';
+      var preview = [];
+      result.invalid.forEach(function (item) {
+        preview.push({ ok: false, row: item.row, card: item.card, errors: item.errors });
+      });
+      result.valid.slice(0, 50).forEach(function (c) {
+        preview.push({ ok: true, row: c._rowNum, card: c, errors: [] });
+      });
+      preview.sort(function (a, b) { return a.row - b.row; });
+      preview.slice(0, 80).forEach(function (p) {
+        var tr = document.createElement('tr');
+        tr.className = p.ok ? 'is-valid' : 'is-invalid';
+        tr.innerHTML =
+          '<td>' + p.row + '</td>' +
+          '<td>' + (p.ok ? '✓' : '✗') + '</td>' +
+          '<td>' + esc(p.card.cardName) + '</td>' +
+          '<td>' + esc(p.card.bank) + '</td>' +
+          '<td>' + esc(formatNum(p.card.creditLimit)) + '</td>' +
+          '<td>' + esc(formatNum(p.card.outstandingBalance)) + '</td>' +
+          '<td>' + esc(p.card.statementDate) + '</td>' +
+          '<td>' + esc(p.card.dueDate) + '</td>' +
+          '<td>' + esc(p.card.cardStatus) + '</td>' +
+          '<td title="' + esc(p.errors.join('; ')) + '">' + esc(p.errors.join('; ')) + '</td>';
+        body.appendChild(tr);
+      });
+      if (!preview.length) {
+        body.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:1rem">Không có dòng dữ liệu</td></tr>';
+      }
+    }
+
+    var report = $('ccdImportReport');
+    if (report) {
+      var lines = [];
+      if (result.invalid.length) {
+        lines.push('Dòng lỗi (sẽ bị bỏ qua khi import):');
+        result.invalid.slice(0, 40).forEach(function (item) {
+          lines.push('  · Dòng ' + item.row + ': ' + item.errors.join('; '));
+        });
+        if (result.invalid.length > 40) lines.push('  … và ' + (result.invalid.length - 40) + ' dòng lỗi khác');
+      } else {
+        lines.push('Tất cả dòng đều hợp lệ.');
+      }
+      report.textContent = lines.join('\n');
+    }
+
+    var confirmBtn = $('ccdImportConfirm');
+    if (confirmBtn) confirmBtn.disabled = result.valid.length === 0;
+  }
+
+  function closeImportModal() {
+    pendingImport = null;
+    var modal = $('ccdImportModal');
+    if (modal) {
+      modal.hidden = true;
+      modal.style.display = 'none';
+    }
+    var file = $('ccdImportFile');
+    if (file) file.value = '';
+  }
+
+  function confirmImport() {
+    if (!pendingImport || !pendingImport.valid.length) {
+      setIoStatus('err', '✗ Không có dòng hợp lệ để import.');
+      closeImportModal();
+      return;
+    }
+    var modeEl = document.querySelector('input[name="ccdImportMode"]:checked');
+    var mode = modeEl ? modeEl.value : 'append';
+    var nValid = pendingImport.valid.length;
+    var nInvalid = pendingImport.invalid.length;
+    var imported = pendingImport.valid.map(function (c) {
+      var copy = JSON.parse(JSON.stringify(c));
+      delete copy._rowNum;
+      return copy;
+    });
+
+    if (mode === 'overwrite') {
+      state.cards = imported;
+    } else {
+      // append: re-check dups against current store
+      var keys = {};
+      state.cards.forEach(function (c) {
+        if (c.archived) return;
+        if ((c.cardStatus || 'Active') === 'Closed') return;
+        keys[activeDupKey(c)] = 1;
+      });
+      var accepted = [];
+      var extraSkip = 0;
+      imported.forEach(function (c) {
+        if ((c.cardStatus || 'Active') !== 'Closed' && keys[activeDupKey(c)]) {
+          extraSkip++;
+          return;
+        }
+        if ((c.cardStatus || 'Active') !== 'Closed') keys[activeDupKey(c)] = 1;
+        accepted.push(c);
+      });
+      state.cards = state.cards.concat(accepted);
+      nValid = accepted.length;
+      nInvalid += extraSkip;
+    }
+
+    scheduleSave();
+    // Refresh Input table + Dashboard KPIs/charts/insights/filters
+    destroyCharts();
+    populateFilters();
+    renderCardTable();
+    if (state.view === 'dashboard') renderDashboard();
+    renderAll();
+
+    closeImportModal();
+
+    if (nInvalid > 0 && nValid > 0) {
+      setIoStatus('warn', '⚠ Imported with warnings: ' + nValid + ' thẻ hợp lệ · ' + nInvalid + ' dòng bỏ qua. Dashboard/KPI sẽ cập nhật khi mở Dashboard.');
+    } else if (nValid > 0) {
+      setIoStatus('ok', '✓ Imported successfully: ' + nValid + ' thẻ. Dữ liệu đã lưu · Dashboard/KPI/charts/AI Insights sẵn sàng.');
+    } else {
+      setIoStatus('err', '✗ Import failed: không còn dòng hợp lệ sau kiểm tra trùng.');
+    }
+  }
+
+  function handleImportFile(file) {
+    if (!file) return;
+    setIoStatus('ok', 'Đang đọc file “' + file.name + '”…');
+    readImportFile(file).then(function (result) {
+      if (!result.totalDataRows) {
+        setIoStatus('err', '✗ Import failed: file không có dòng dữ liệu.');
+        return;
+      }
+      openImportModal(result);
+      if (result.valid.length === 0) {
+        setIoStatus('err', '✗ Import failed: ' + result.invalid.length + ' dòng đều lỗi. Xem chi tiết trong cửa sổ xem trước.');
+      } else if (result.invalid.length) {
+        setIoStatus('warn', '⚠ Có ' + result.invalid.length + ' dòng lỗi — xem trước trước khi xác nhận.');
+      } else {
+        setIoStatus('ok', '✓ Đã parse ' + result.valid.length + ' dòng hợp lệ. Xác nhận để lưu.');
+      }
+    })['catch'](function (err) {
+      setIoStatus('err', '✗ Import failed: ' + (err.message || err));
+    });
+  }
+
+  function initImportExport() {
+    on($('ccdDownloadTemplate'), 'click', downloadExcelTemplate);
+    on($('ccdExportExcelBtn'), 'click', exportCurrentDataExcel);
+    on($('ccdImportExcelBtn'), 'click', function () {
+      var f = $('ccdImportFile');
+      if (f) f.click();
+    });
+    on($('ccdImportFile'), 'change', function () {
+      var file = this.files && this.files[0];
+      if (file) handleImportFile(file);
+    });
+
+    var drop = $('ccdImportDrop');
+    if (drop) {
+      on(drop, 'click', function (e) {
+        if (e.target && e.target.id === 'ccdImportFile') return;
+        var f = $('ccdImportFile');
+        if (f) f.click();
+      });
+      on(drop, 'keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          var f = $('ccdImportFile');
+          if (f) f.click();
+        }
+      });
+      ['dragenter', 'dragover'].forEach(function (ev) {
+        on(drop, ev, function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          drop.classList.add('is-dragover');
+        });
+      });
+      ['dragleave', 'drop'].forEach(function (ev) {
+        on(drop, ev, function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          drop.classList.remove('is-dragover');
+        });
+      });
+      on(drop, 'drop', function (e) {
+        var files = e.dataTransfer && e.dataTransfer.files;
+        if (files && files[0]) handleImportFile(files[0]);
+      });
+    }
+
+    on($('ccdImportCancel'), 'click', closeImportModal);
+    on($('ccdImportModalClose'), 'click', closeImportModal);
+    on($('ccdImportModalBackdrop'), 'click', closeImportModal);
+    on($('ccdImportConfirm'), 'click', confirmImport);
+    on(document, 'keydown', function (e) {
+      if (e.key === 'Escape') {
+        var modal = $('ccdImportModal');
+        if (modal && !modal.hidden) closeImportModal();
+      }
+    });
   }
 
   /* ───────────── Metrics & filters ───────────── */

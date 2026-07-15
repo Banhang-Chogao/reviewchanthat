@@ -1051,6 +1051,226 @@
   line-height: 1.45;
 }
 
+/* ─── Import / Export panel (Input Data only) ─── */
+.ccd-io {
+  background: var(--surface, #fff);
+  border: 1px solid var(--border);
+  border-radius: var(--ccd-card-radius);
+  padding: 1.15rem 1.25rem 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--ccd-shadow);
+}
+.ccd-io__head { margin-bottom: .85rem; }
+.ccd-io__title {
+  margin: 0 0 .25rem;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -.01em;
+}
+.ccd-io__desc {
+  margin: 0;
+  font-size: .82rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+.ccd-io__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  margin-bottom: .85rem;
+}
+.ccd-io__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .55rem 1rem;
+  border-radius: 10px;
+  border: 1.5px solid var(--border);
+  background: var(--surface, #fff);
+  font-family: inherit;
+  font-size: .82rem;
+  font-weight: 700;
+  cursor: pointer;
+  min-height: 44px;
+  color: var(--text);
+  transition: border-color .15s, background .15s, color .15s, filter .15s;
+}
+.ccd-io__btn:hover { border-color: var(--accent, #00a7a0); background: var(--accent-soft, rgba(0,167,160,.08)); color: var(--accent-hover, #007f7a); }
+.ccd-io__btn--template {
+  background: var(--accent, #00a7a0);
+  border-color: var(--accent, #00a7a0);
+  color: #fff;
+}
+.ccd-io__btn--template:hover { filter: brightness(.95); color: #fff; background: var(--accent-hover, #007f7a); border-color: var(--accent-hover, #007f7a); }
+.ccd-io__btn--import {
+  border-color: var(--ccd-blue);
+  color: var(--ccd-blue);
+}
+.ccd-io__btn--import:hover { background: var(--ccd-blue-soft); border-color: var(--ccd-blue); color: #1d4ed8; }
+.ccd-io__btn--export {
+  border-color: var(--ccd-green);
+  color: var(--ccd-green-text);
+}
+.ccd-io__btn--export:hover { background: var(--ccd-green-soft); border-color: var(--ccd-green); }
+.ccd-io__drop {
+  border: 2px dashed var(--border);
+  border-radius: 12px;
+  padding: 1.15rem 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+  background: var(--bg, #fafafa);
+  outline: none;
+}
+.ccd-io__drop:hover,
+.ccd-io__drop:focus-visible,
+.ccd-io__drop.is-dragover {
+  border-color: var(--accent, #00a7a0);
+  background: var(--accent-soft, rgba(0,167,160,.08));
+}
+.ccd-io__drop-icon { font-size: 1.6rem; line-height: 1; margin-bottom: .35rem; }
+.ccd-io__drop-text { margin: 0; font-size: .88rem; color: var(--text); }
+.ccd-io__drop-hint { margin: .25rem 0 0; font-size: .75rem; color: var(--muted); }
+.ccd-io__status {
+  margin-top: .75rem;
+  padding: .65rem .85rem;
+  border-radius: 10px;
+  font-size: .84rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+.ccd-io__status[hidden] { display: none !important; }
+.ccd-io__status--ok { background: var(--ccd-green-soft); color: var(--ccd-green-text); border: 1px solid rgba(0,200,83,.25); }
+.ccd-io__status--warn { background: var(--ccd-yellow-soft); color: var(--ccd-yellow-text); border: 1px solid rgba(245,158,11,.3); }
+.ccd-io__status--err { background: var(--ccd-red-soft); color: var(--ccd-red-text); border: 1px solid rgba(239,68,68,.28); }
+
+/* Import preview modal */
+.ccd-io-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.ccd-io-modal[hidden] { display: none !important; }
+.ccd-io-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  backdrop-filter: blur(3px);
+}
+.ccd-io-modal__card {
+  position: relative;
+  z-index: 1;
+  width: min(960px, 100%);
+  max-height: min(88vh, 820px);
+  overflow: auto;
+  background: var(--surface, #fff);
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 50px rgba(0,0,0,.2);
+  padding: 1.15rem 1.25rem 1.25rem;
+}
+.ccd-io-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  margin-bottom: .5rem;
+}
+.ccd-io-modal__title { margin: 0; font-size: 1.1rem; font-weight: 800; }
+.ccd-io-modal__close {
+  border: 0;
+  background: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--muted);
+  min-width: 36px;
+  min-height: 36px;
+  border-radius: 8px;
+}
+.ccd-io-modal__close:hover { background: var(--bg); color: var(--text); }
+.ccd-io-modal__summary {
+  margin: 0 0 .75rem;
+  font-size: .86rem;
+  color: var(--text-secondary, #555);
+  line-height: 1.45;
+}
+.ccd-io-modal__mode {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem 1rem;
+  align-items: center;
+  margin-bottom: .75rem;
+  font-size: .84rem;
+}
+.ccd-io-modal__mode-label { font-weight: 700; color: var(--text); }
+.ccd-io-modal__radio {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  color: var(--text-secondary, #555);
+  cursor: pointer;
+}
+.ccd-io-modal__table-wrap {
+  overflow: auto;
+  max-height: min(42vh, 360px);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: .75rem;
+}
+.ccd-io-modal__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .75rem;
+  min-width: 720px;
+}
+.ccd-io-modal__table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--accent, #00a7a0);
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+  padding: .45rem .5rem;
+  white-space: nowrap;
+}
+.ccd-io-modal__table td {
+  padding: .4rem .5rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ccd-io-modal__table tr.is-invalid { background: var(--ccd-red-soft); }
+.ccd-io-modal__table tr.is-invalid td { color: var(--ccd-red-text); }
+.ccd-io-modal__table tr.is-valid:nth-child(even) { background: rgba(0,167,160,.04); }
+.ccd-io-modal__report {
+  font-size: .8rem;
+  color: var(--text-secondary, #555);
+  line-height: 1.5;
+  margin-bottom: .85rem;
+  max-height: 120px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+.ccd-io-modal__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+@media (max-width: 640px) {
+  .ccd-io__actions { flex-direction: column; }
+  .ccd-io__btn { width: 100%; justify-content: center; }
+}
+
 /* Input module */
 .ccd-input__toolbar {
   display: flex;
