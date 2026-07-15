@@ -63,6 +63,30 @@ title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và c
 [[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
+title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+
+[[internal_links]]
+ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
+title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
+
+[[internal_links]]
+ref = "posts/doi-baht-o-viet-nam-hay-thai-lan.md"
+title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
+
 +++
 ## Krabi mùa mưa — còn gì để chơi?
 
@@ -205,6 +229,15 @@ Phố đi bộ Ao Nang vẫn nhộn nhịp trong mùa mưa. Có nhiều quán ma
 - **Tài xế riêng hoặc thuê ô tô có tài xế.** Krabi không có Grab phủ khắp như Bangkok; nếu bạn muốn linh hoạt, thuê xe máy là rủi ro.
 
 ---
+
+### Bài viết liên quan
+
+- [Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng](/posts/chiang-mai-mua-mua-co-gi-dep/)
+- [Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?](/posts/koh-samui-mua-he-so-voi-phuket/)
+- [Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?](/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7/)
+- [Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?](/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab/)
+- [Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour](/posts/bangkok-ngay-mua-nen-di-dau/)
+- [Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc](/posts/doi-baht-o-viet-nam-hay-thai-lan/)
 
 ## Kết luận
 

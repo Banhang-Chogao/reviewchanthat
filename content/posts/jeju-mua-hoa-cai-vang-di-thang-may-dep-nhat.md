@@ -67,6 +67,38 @@ label = "Lễ hội 2026"
 
 [[tom_tat_nhanh]]
 label = "Số ngày hợp lý"
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md"
+title = "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
+[[internal_links]]
+ref = "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md"
+title = "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+
+[[internal_links]]
+ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
+title = "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo"
+
+[[internal_links]]
+ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
+title = "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
 +++
 Nếu chỉ cần một câu trả lời ngắn: **đi Jeju mùa xuân, đẹp nhất là cuối tháng 3 đến đầu tháng 4**. Đây là khoảng có xác suất cao để gặp những thảm hoa cải vàng rực ở phía đông và phía nam đảo, đồng thời vẫn còn cơ hội ghép với hoa anh đào ở một số tuyến đường như Noksan-ro hoặc khu Jeju City.
 
@@ -152,6 +184,17 @@ Nếu bạn muốn cả hai loại hoa trong cùng chuyến, lịch 3 ngày nên
 **Hợp với ai:** người thích cảnh xuân nhẹ, thích chụp ảnh ngoài trời, muốn ghép Jeju với Seoul/Busan trong chuyến Hàn Quốc tháng 3-4, hoặc đi lần đầu nhưng muốn một trải nghiệm khác mùa hè và mùa đông.
 
 **Không hợp với ai:** người chỉ có một buổi rất ngắn ở Jeju, không chịu được gió lạnh, cần lịch trình chắc chắn từng khung ảnh, hoặc muốn mọi điểm phải rực vàng đúng như ảnh quảng cáo.
+
+### Bài viết liên quan
+
+- [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
+- [Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước](/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+- [Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun](/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/)
+- [Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?](/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/)
+- [Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo](/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/)
+- [Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển](/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
 
 ## Kết luận
 

@@ -66,6 +66,18 @@ title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
 [[internal_links]]
 ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
 title = "iPhone 16 Pro Max năm 2026 nên mua không?"
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md"
+title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
 +++
 **Camera Control** là phần cứng mới dễ thấy nhất trên iPhone 16 Pro Max — nút **cảm ứng lực** cạnh máy, Apple kỳ vọng thay **vuốt trên màn** khi chụp. Sau các review công khai và vài tháng sử dụng tham khảo, câu hỏi thực tế: **có tiện đủ để bỏ 15 Pro Max không?**
 
@@ -153,6 +165,12 @@ Hai nút **bổ sung**, không thay thế hoàn toàn.
 - **Ít camera**
 - Chỉ **chat + ngân hàng**
 - Đổi máy **chỉ** vì nút — cân giá [so với iPhone 15 Pro Max](/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi/)
+
+### Bài viết liên quan
+
+- [iPhone 16 Pro Max Desert Titanium hợp ai?](/posts/iphone-16-pro-max-desert-titanium-hop-ai/)
+- [iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?](/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao/)
+- [Trên tay iPhone 15 Pro Max: khung titan có khác thép không?](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/)
 
 ## Kết luận
 

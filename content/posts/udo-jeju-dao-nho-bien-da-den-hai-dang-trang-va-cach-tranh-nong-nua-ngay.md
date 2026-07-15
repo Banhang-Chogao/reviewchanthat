@@ -99,6 +99,26 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Lưu ý mùa hè"
 value = ""
+[[internal_links]]
+ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
+title = "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển"
+
+[[internal_links]]
+ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
+title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
+
 +++
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm dưới chân Seongsan Ilchulbong có sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng, view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.
 
@@ -158,6 +178,14 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển](/posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien/)
+- [Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng](/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+- [Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày](/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

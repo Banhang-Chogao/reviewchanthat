@@ -67,6 +67,18 @@ title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
 [[internal_links]]
 ref = "posts/ios-27-cai-thien-pin-iphone.md"
 title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
+[[internal_links]]
+ref = "posts/ios-27-camera-anh-video-iphone.md"
+title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
+
+[[internal_links]]
+ref = "posts/macos-27-ho-tro-may-mac-nao.md"
+title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
+
 +++
 Public beta iOS 27 dự kiến **tháng 7/2026** — đúng lúc nhiều người rảnh thử hệ điều hành mới. Nhưng beta trên iPhone **không giống** beta game: rollback khó, app ngân hàng có thể từ chối chạy, pin và nhiệt độ thất thường.
 
@@ -153,6 +165,12 @@ Tương thích: [iOS 27 hỗ trợ iPhone nào](/posts/ios-27-ho-tro-iphone-nao/
 ## Góp ý beta cho Apple — có đáng không?
 
 **[phân tích]** Feedback Assistant app giúp Apple sửa bug trước GM. Nếu bạn gặp lỗi tiếng Việt Siri AI, báo cáo giúp cộng đồng VN — nhưng chỉ khi máy **không phải** máy làm việc duy nhất.
+
+### Bài viết liên quan
+
+- [macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định](/posts/macos-27-beta-co-nen-cai-khong/)
+- [iOS 27 có gì mới cho camera, ảnh và video trên iPhone?](/posts/ios-27-camera-anh-video-iphone/)
+- [macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel](/posts/macos-27-ho-tro-may-mac-nao/)
 
 ## Kết luận
 

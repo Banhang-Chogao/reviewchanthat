@@ -88,6 +88,22 @@ answer = "Không. Bài được tổng hợp và viết lại bằng góc nhìn 
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tham khảo từ bài Wikimedia Foundation trên Wikipedia và các báo cáo tài chính công khai của Wikimedia Foundation; nội dung được tổng hợp, viết lại và diễn giải bằng góc nhìn riêng, không sao chép câu chữ. Ảnh minh họa lấy từ Pexels/Pixabay. Các số liệu tài chính có thể thay đổi theo từng năm, bạn nên đối chiếu báo cáo mới nhất khi cần độ chính xác cao."
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
 +++
 Gần như ai dùng internet cũng từng gặp cảnh này: đang đọc dở một bài trên Wikipedia thì phía trên hiện ra một dải banner, kèm lời nhắn tha thiết đề nghị bạn đóng góp "chỉ bằng giá một ly cà phê". Và rồi trong đầu bật lên một loạt câu hỏi rất thật: tiền đó thực sự đi đâu? Có phải để trả tiền máy chủ cho một website khổng lồ như thế? Một trang không quảng cáo, miễn phí cho hàng trăm triệu người thì nuôi mình bằng cách nào — và có nguy cơ một ngày nào đó cạn tiền rồi sập không?
 
@@ -178,5 +194,12 @@ Lý do thứ hai là **tránh phụ thuộc vào một nguồn duy nhất**. Doa
 Quay lại câu hỏi ban đầu — tiền quyên góp cho Wikipedia đi đâu — câu trả lời gọn gàng là: phần lớn vào **con người và tổ chức vận hành** (lương chiếm khoảng một nửa), rồi đến tài trợ cộng đồng, quỹ dự phòng Endowment và chi phí chuyên môn; còn máy chủ, thứ nhiều người tưởng là gánh nặng lớn nhất, chỉ chiếm khoảng 2%. Nội dung thì do tình nguyện viên viết miễn phí, nên không một đồng nào chảy vào túi người viết bài.
 
 Còn Wikipedia có bao giờ hết tiền không? Rất khó, ít nhất về mặt tài chính: thu đều hơn chi, nguồn thu đa dạng, chi phí kỹ thuật thấp và có quỹ dự phòng gần 170 triệu USD. Nhưng sự tồn tại lâu dài của nó lại phụ thuộc vào thứ tiền không mua được — lòng tin, sự trung lập, và một cộng đồng tình nguyện viên tiếp tục được nuôi dưỡng. Hiểu đúng điều này giúp ta ủng hộ Wikipedia một cách tỉnh táo hơn: không phải vì sợ nó sập, mà vì tin vào giá trị của một kho tri thức chung, độc lập, không quảng cáo.
+
+### Bài viết liên quan
+
+- [Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?](/posts/co-nen-cho-iphone-18-khong/)
+- [Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog](/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog/)
+- [Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?](/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025/)
+- [iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn](/posts/iphone-18-gia-bao-nhieu/)
 
 Nếu bạn muốn đi sâu hơn vào phần nguồn thu, hãy đọc bài về [cách Wikipedia kiếm tiền để duy trì hoạt động](/posts/wikipedia-kiem-tien-duy-tri-hoat-dong-nhu-the-nao/) và [các hoạt động thường niên cùng nguồn kinh phí của Wikipedia](/posts/hoat-dong-thuong-nien-wikipedia-kinh-phi-tu-dau/). Và nếu bạn thích những chân dung về người chọn cống hiến tri thức thay vì làm giàu, câu chuyện về [Bram Moolenaar, cha đẻ Vim](/posts/bram-moolenaar-tieu-su-cha-de-vim/) là một điểm dừng đáng giá — một tinh thần rất gần với thứ đã dựng nên Wikipedia.

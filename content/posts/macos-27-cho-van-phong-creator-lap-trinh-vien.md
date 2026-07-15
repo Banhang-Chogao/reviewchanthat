@@ -75,6 +75,10 @@ title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI 
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+[[internal_links]]
+ref = "posts/macos-27-so-voi-macos-26.md"
+title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
+
 +++
 Cùng một bản macOS 27, **kế toán**, **YouTuber** và **backend dev** sẽ thấy giá trị ở chỗ khác nhau. Bài này map tính năng Golden Gate 27 theo **workflow thật** — không liệt kê slide keynote.
 
@@ -185,6 +189,10 @@ Sau khi xác định nhóm người dùng của bạn, chuyển sang checklist n
 **[phân tích]** Zoom, Google Meet, Teams trên macOS 27 beta thường chạy được ngay ngày public beta, nhưng **virtual background** và **screen share** đôi khi lỗi một vài build. Nếu 100% thu nhập từ họp online, đừng beta trước khách hàng quan trọng. macOS 26 stable vẫn là lựa chọn an toàn cho consultant và trainer.
 
 Với creator livestream, kiểm tra **OBS** và driver capture màn hình — community thường cập nhật plugin trong 1–2 tuần sau WWDC, không đồng bộ ngày một với Apple.
+
+### Bài viết liên quan
+
+- [macOS 27 so với macOS 26: khác gì với người dùng Mac?](/posts/macos-27-so-voi-macos-26/)
 
 ## Kết luận
 

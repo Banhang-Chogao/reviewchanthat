@@ -106,6 +106,30 @@ value = "1 giày + 1 dép"
 [[tom_tat_nhanh]]
 label = "Mẹo"
 value = "Gấp gọn, dùng túi hút chân không"
+[[internal_links]]
+ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
+title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
+[[internal_links]]
+ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
+title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
+title = "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi"
+
 +++
 Chuẩn bị vali cho chuyến đi Hàn Quốc mùa hè không khó — chỉ cần biết mang gì và bỏ gì. Bài viết này là checklist đầy đủ giúp bạn không quên thứ gì.
 
@@ -159,6 +183,15 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?](/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo/)
+- [Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?](/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan/)
+- [Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng](/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong/)
+- [Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày](/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay/)
+- [Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn](/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon/)
+- [Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi](/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

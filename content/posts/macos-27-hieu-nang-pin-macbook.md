@@ -70,6 +70,14 @@ title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
 [[internal_links]]
 ref = "posts/macos-27-co-gi-moi.md"
 title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
 +++
 MacBook là máy mang đi — nên **pin và hiệu năng** thường quan trọng hơn sidebar đẹp hay AI demo. macOS Golden Gate 27 hứa cả hai: shell nhanh hơn nhưng AI nền có thể “ăn” pin. Bài này tách **số liệu Apple**, **phản hồi beta** và **khuyến nghị thực tế**.
 
@@ -170,6 +178,11 @@ Mac mini M2 Pro, Mac Studio M2 Ultra không bị ràng buộc pin — **CPU/GPU 
 ## Khi nào hiệu năng là lý do **duy nhất** nâng cấp?
 
 Nếu bạn **không** dùng AI, không care sidebar màu, chỉ muốn máy nhanh hơn — hãy chờ **review độc lập** sau stable và so sánh cùng model trên 26 vs 27. Apple mỗi năm đều claim cải thiện; mức cảm nhận thực tế trên M1 đôi khi chỉ 5–10%, không đáng reinstall ngày một.
+
+### Bài viết liên quan
+
+- [macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?](/posts/macos-27-apple-intelligence-macbook/)
+- [macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định](/posts/macos-27-beta-co-nen-cai-khong/)
 
 
 ## Kết luận

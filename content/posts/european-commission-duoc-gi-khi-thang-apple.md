@@ -77,6 +77,18 @@ title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS the
 [[internal_links]]
 ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
 title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
+title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 +++
 500 triệu euro — con số EC công bố khi phạt Apple vì vi phạm Digital Markets Act (DMA) vào tháng 4/2025. Trên headline, đó là “EC thắng Apple”. Nhưng hỏi một policy analyst ở Brussels **EC thực sự nhận được gì**, câu trả lời dài hơn một tờ hóa đơn phạt: **tiền lệ pháp lý**, **quyền giám sát gatekeeper**, **đòn bẩy với Big Tech khác** — và cả **rủi ro chính trị** khi Washington xem đây là “phạt công ty Mỹ”.
 
@@ -175,6 +187,12 @@ EC **cần** thắng Apple trên pháp lý để DMA sống sót. 500 triệu eu
 Chúng tôi thấy EC **đúng hướng** khi gatekeeper không nên kiểm soát cả phân phối lẫn thanh toán. Nhưng EC **chưa chứng minh** mô hình mở iOS mang lại **net benefit** cho người dùng phổ thông — điểm mà Apple khai thác trong kháng cáo và marketing.
 
 Bài kết series: [Apple vs EC, DMA và tương lai iPhone](/posts/apple-vs-ec-dma-tuong-lai-iphone/).
+
+### Bài viết liên quan
+
+- [App Store gatekeeper: Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
+- [Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?](/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
 
 ## Kết luận
 

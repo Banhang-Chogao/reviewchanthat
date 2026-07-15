@@ -28,6 +28,38 @@ commit = "e1b87c29"
 date_display = "11-07-2026 14:44:58 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "autumn fallen leaves brown orange"
+[[internal_links]]
+ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
+title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+
+[[internal_links]]
+ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
+title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
+
+[[internal_links]]
+ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
+title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
+
 +++
 Băng giá từng là kẻ thù của con người trong suốt chiều dài lịch sử. Nhưng ở Jukkasjärvi, một ngôi làng nhỏ nằm sâu trong vùng Lapland của Thụy Điển, con người đã biến băng thành một tác phẩm nghệ thuật sống động. Icehotel không đơn thuần là một chỗ ngủ qua đêm — nó là một tuyên ngôn về sự sáng tạo, một không gian nơi kiến trúc và tự nhiên hòa quyện vào nhau.
 
@@ -319,5 +351,16 @@ Bắc Cực Quang là một hiện tượng tự nhiên, nhưng để có thể 
 Tôi đã đến đó với những kỳ vọng cao, và vẫn bị vượt quá. Có điều gì đó rất nguyên thủy khi đứng dưới bầu trời Bắc Cực, nhìn những dải ánh sáng nhảy múa — một lời nhắc nhở rằng thế giới vẫn còn những điều kỳ diệu mà con người không thể tạo ra. Bạn chỉ có thể đến và cảm nhận.
 
 Nếu có một chuyến đi tôi muốn lặp lại trong đời, đó là chuyến đi này. Và lần sau, tôi sẽ ở lại lâu hơn.
+
+### Bài viết liên quan
+
+- [Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối](/posts/bac-cuc-quang-aurora-scandinavia-dem/)
+- [Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến](/posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+- [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng](/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/)
+- [Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park](/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/)
 
 Thông tin tham khảo thêm: [Icehotel Official Website](https://www.icehotel.com/), [Visit Sweden — Aurora Borealis](https://visitsweden.com/what-to-do/nature-outdoors/northern-lights/), [NOAA Aurora Forecast](https://www.swpc.noaa.gov/).

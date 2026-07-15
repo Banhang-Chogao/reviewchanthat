@@ -48,6 +48,38 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T18:10:38+07:00"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Cách bảo vệ dữ liệu cá nhân trên Internet - Hướng dẫn toàn diện cho người Việt 2026 — nguồn Pixabay"
+[[internal_links]]
+ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon.md"
+title = "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.md"
+title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
+
+[[internal_links]]
+ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
+title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
+
+[[internal_links]]
+ref = "posts/flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do.md"
+title = "Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày?"
+
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
+
+[[internal_links]]
+ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
+title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
+
 +++
 
 Chuyện này xảy ra với một người bạn của tôi đầu năm 2026. Sáng sớm, cậu ấy mở điện thoại ra và thấy một loạt thông báo: tài khoản Facebook bị đăng nhập từ một thiết bị lạ ở Nigeria, Gmail báo có ai đó đã truy cập vào mail, và tệ nhất — thẻ tín dụng xuất hiện một giao dịch gần 50 triệu đồng cho một cửa hàng đồ điện tử online mà cậu ấy chưa từng ghé thăm. Tất cả bắt đầu từ một cú nhấp chuột vào link "kiểm tra đơn hàng" trong email tưởng như vô hại vài ngày trước.
@@ -186,5 +218,16 @@ Bắt đầu từ những việc nhỏ:
 - Nếu chưa xem lại cài đặt quyền riêng tư Facebook từ năm ngoái, hãy dành 15 phút để kiểm tra.
 
 Tôi không viết bài này để làm bạn hoang mang. Tôi viết nó để bạn có thể tiếp tục tận hưởng Internet — mọi tiện ích, mọi kết nối, mọi cơ hội — mà không phải lo lắng về việc dữ liệu của mình đang ở đâu và đang được dùng như thế nào.
+
+### Bài viết liên quan
+
+- [Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn](/posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon/)
+- [AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6](/posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6/)
+- [Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?](/posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh/)
+- [Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển](/posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026/)
+- [Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày?](/posts/flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do/)
+- [AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế](/posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te/)
+- [Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị](/posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi/)
+- [Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?](/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi/)
 
 Bởi ở thời đại này, quyền riêng tư không phải là đặc quyền. Nó là quyền cơ bản — và việc bảo vệ nó bắt đầu từ chính bạn.

@@ -84,6 +84,26 @@ answer = "Không. Nội dung được biên soạn và diễn giải lại bằn
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tham khảo từ bài Wikimedia Foundation trên Wikipedia và các trang chính thức của Wikimedia Foundation; nội dung được viết lại và diễn giải bằng góc nhìn riêng, không sao chép câu chữ. Ảnh minh họa lấy từ Pexels/Pixabay. Các số liệu tài chính có thể thay đổi theo từng năm."
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
 +++
 Wikipedia là một trong những website được truy cập nhiều nhất hành tinh. Mỗi ngày, hàng trăm triệu lượt người mở nó ra để tra một khái niệm, kiểm chứng một con số, hay lần theo một chú thích đến tận nguồn gốc. Về lưu lượng, nó đứng chung mâm với Google, YouTube hay Facebook. Nhưng có một điều khiến Wikipedia khác hẳn: nó hoàn toàn miễn phí, không một mẩu quảng cáo, và về lý thuyết thì chẳng "bán" gì cho ai cả.
 
@@ -178,5 +198,13 @@ Quay lại nghịch lý ở đầu bài: làm sao một website top thế giới
 Nhưng phần đáng nhớ nhất không phải là cơ chế, mà là lựa chọn đằng sau nó. Wikipedia đã có thể giàu hơn rất nhiều nếu chấp nhận quảng cáo. Nó chọn không, để bảo vệ thứ quý giá nhất mà một nguồn tri thức có thể có: sự trung lập và niềm tin. Sự tồn tại của một Wikipedia phi lợi nhuận là lời nhắc rằng công nghệ vẫn có thể được dẫn dắt bởi những giá trị khác ngoài tiền.
 
 Nếu bạn tò mò muốn biết chính xác từng đồng quyên góp được tiêu vào đâu, và liệu Wikipedia có nguy cơ "hết tiền" hay không, hãy đọc tiếp bài [Tiền quyên góp cho Wikipedia được dùng vào đâu?](/posts/tien-quyen-gop-wikipedia-dung-vao-dau/). Còn nếu muốn nhìn cụ thể những hoạt động thường niên mà số tiền đó nuôi dưỡng — từ hội nghị Wikimania đến việc duy trì hạ tầng — thì bài [Các hoạt động thường niên của Wikipedia và nguồn kinh phí](/posts/hoat-dong-thuong-nien-wikipedia-kinh-phi-tu-dau/) sẽ cho bạn bức tranh trọn vẹn.
+
+### Bài viết liên quan
+
+- [Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?](/posts/co-nen-cho-iphone-18-khong/)
+- [Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog](/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog/)
+- [Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?](/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025/)
+- [iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn](/posts/iphone-18-gia-bao-nhieu/)
+- [App Store gatekeeper: Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
 
 Và lần tới, khi thấy dải banner nhỏ xin ủng hộ trên đầu trang Wikipedia, có lẽ bạn sẽ nhìn nó bằng con mắt khác. Đó không phải là một trang web đang chật vật, mà là một mô hình đang cố giữ lời hứa của mình — rằng tri thức sẽ luôn miễn phí cho tất cả, và cái giá để giữ lời hứa đó là chính chúng ta, những người đọc, cùng nhau góp một phần nhỏ.

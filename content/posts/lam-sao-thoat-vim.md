@@ -76,6 +76,26 @@ answer = "Nếu bạn làm việc nhiều với terminal, server hoặc code, th
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Nội dung hướng dẫn dựa trên tài liệu và cách dùng phổ biến của Vim (tham khảo vim.org và cộng đồng), viết lại bằng góc nhìn riêng. Ảnh minh họa lấy từ Pexels/Pixabay. Phím tắt có thể khác đôi chút tùy cấu hình cá nhân của bạn."
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
 +++
 Trong lịch sử ngắn ngủi nhưng đầy giai thoại của ngành lập trình, có một câu hỏi đã vượt khỏi khuôn khổ kỹ thuật để trở thành một meme văn hóa: "Làm sao thoát Vim?". Nghe thì buồn cười — chẳng lẽ thoát một phần mềm lại khó đến thế? Nhưng bất kỳ ai từng vô tình mở Vim lần đầu mà không được hướng dẫn đều hiểu cảm giác ấy: bạn gõ chữ thì màn hình nhảy loạn xạ, nhấn nút thoát quen thuộc thì không có, và càng cố thì càng rối. Cảm giác bị "mắc kẹt" đó thật đến mức nó đã sinh ra vô số câu đùa, ảnh chế và cả những dòng trạng thái kiểu "tôi kẹt trong Vim từ năm 2015 tới giờ".
 
@@ -172,5 +192,13 @@ Việc chọn và làm chủ công cụ làm việc là một khoản đầu tư
 ## Kết: cười với meme, nhưng đừng dừng ở đó
 
 "Làm sao thoát Vim" là một meme vui, và sẽ còn được kể lại chừng nào người ta còn lỡ tay mở Vim mà chưa được ai chỉ. Nhưng nếu chỉ dừng ở tiếng cười thì hơi phí. Đằng sau câu hỏi ngớ ngẩn ấy là một trong những công cụ được yêu quý và bền bỉ nhất lịch sử phần mềm — sản phẩm của [Bram Moolenaar](/posts/bram-moolenaar-tieu-su-cha-de-vim/), người đã dành cả đời chăm chút cho nó.
+
+### Bài viết liên quan
+
+- [Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?](/posts/co-nen-cho-iphone-18-khong/)
+- [Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog](/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog/)
+- [Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?](/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025/)
+- [iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn](/posts/iphone-18-gia-bao-nhieu/)
+- [App Store gatekeeper: Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
 
 Nên lần tới khi bạn (hoặc một người bạn) hoảng hốt vì không thoát được Vim, hãy mỉm cười, nhấn `Esc`, gõ `:q!`, và biết rằng mình vừa chạm vào một mảnh nhỏ của lịch sử công nghệ. Và biết đâu, thay vì vội thoát, bạn sẽ nán lại một chút để tìm hiểu — vì những công cụ khiến người ta "khó thoát" thường là những công cụ, một khi đã quen, cũng khó mà rời.

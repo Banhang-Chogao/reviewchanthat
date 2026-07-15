@@ -53,6 +53,38 @@ answer = "Phim được xếp hạng PG-13 (Mỹ) và 13+ (Việt Nam). Có mộ
 [attribution]
 copyright = "Bài viết thuộc về Review Chân Thật"
 source_note = "Thông tin dựa trên dữ liệu từ IMDb và Paramount Pictures. Bài viết là cảm nhận cá nhân sau khi xem phim."
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.md"
+title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
+
+[[internal_links]]
+ref = "posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.md"
+title = "Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?"
+
+[[internal_links]]
+ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
+title = "Checklist trước khi mua một sản phẩm online"
+
+[[internal_links]]
+ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
+title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+
+[[internal_links]]
+ref = "posts/tin-chi-carbon-va-trao-luu-net-zero.md"
+title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
+
 +++
 
 Có những bộ phim xem xong bạn không nhớ plot twist, không nhớ cảnh hành động, mà chỉ nhớ cảm giác. Cảm giác được làm một đứa trẻ lần nữa, với máy quay Super 8 trên tay, chạy lon ton cùng bạn bè trong một thị trấn nhỏ, tin rằng điều kỳ diệu luôn có thể xảy ra.
@@ -182,5 +214,16 @@ Sinh vật cuối cùng cũng được giải thoát, bay về bầu trời. Con
 ## Tổng kết
 
 Super 8 không phải bộ phim khoa học viễn tưởng xuất sắc nhất. Nó không có twist kinh hoàng hay thông điệp chính trị sâu sắc. Nhưng nó có một thứ mà rất ít phim làm được: nó khiến bạn nhớ về những ngày tháng mình còn là một đứa trẻ, tin rằng mọi điều đều có thể, và những người bạn bên cạnh là tất cả.
+
+### Bài viết liên quan
+
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus](/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha/)
+- [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
+- [Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face](/posts/even-realities-g2-smart-glasses-review/)
+- [Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?](/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs/)
+- [Checklist trước khi mua một sản phẩm online](/posts/checklist-truoc-khi-mua-mot-san-pham-online/)
+- [Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?](/posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi/)
+- [Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank](/posts/tin-chi-carbon-va-trao-luu-net-zero/)
 
 Nếu bạn đang cần một bộ phim ấm áp để xem vào cuối tuần, Super 8 là một lựa chọn tuyệt vời. Còn nếu bạn đã xem từ lâu, hãy thử xem lại — ở tuổi trưởng thành, nó sẽ cho bạn một cảm giác hoàn toàn khác.

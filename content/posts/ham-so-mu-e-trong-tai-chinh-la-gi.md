@@ -32,6 +32,38 @@ image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
 
 [ai_summary]
 items = ["Số e là gì và tại sao nó xuất hiện trong tài chính khi số lần nhập lãi tăng dần", "Giới hạn toán học (1 + r/n)^(nt) → e^(rt) và ứng dụng vào công thức lãi kép liên tục", "Công thức A = Pe^(rt) để tính lãi kép liên tục và công thức chiết khấu PV = FV × e^(-rt)", "Ví dụ thực tế: 100 triệu VND, lãi 6%/năm, 10 năm qua 5 cách tính (đơn, kép hàng năm, tháng, ngày, liên tục)", "Bảng so sánh chênh lệch giữa các phương pháp tính lãi và khi nào chênh lệch có ý nghĩa", "Vì sao tài chính chuyên nghiệp (quỹ, bảo hiểm, ngân hàng đầu tư) lại dùng e nhưng gửi tiết kiệm thông thường thì không", "Ứng dụng thực tế của e trong định giá quyền chọn, quản trị rủi ro, actuarial science, và log-return"]
+[[internal_links]]
+ref = "posts/toan-hoc-dinh-cao-trong-tai-chinh.md"
+title = "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/cfa-dung-toan-hoc-gi.md"
+title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
+title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
+
+[[internal_links]]
+ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
+title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
 +++
 Khi bạn gửi 100 triệu đồng vào ngân hàng với lãi suất 6%/năm, lãi bạn nhận phụ thuộc vào cách tính: lãi đơn, lãi kép hàng năm, hay lãi kép liên tục. Câu hỏi đặt ra: nếu nhập lãi càng nhiều lần thì kết quả cuối cùng sẽ như thế nào?
 
@@ -234,6 +266,17 @@ Ngân hàng bán lẻ phải công khai lãi suất theo chuẩn nhất định 
 ✅ **Khi nào không cần:** Gửi tiết kiệm thông thường  
 
 ---
+
+### Bài viết liên quan
+
+- [Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài](/posts/toan-hoc-dinh-cao-trong-tai-chinh/)
+- [công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?](/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro/)
+- [CFA dùng toán học gì? Những công thức quản lý tài sản](/posts/cfa-dung-toan-hoc-gi/)
+- [BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ](/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc/)
+- [Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e](/posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon/)
+- [Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?](/posts/log-tu-nhien-log-return-trong-dau-tu/)
+- [Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio](/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien/)
+- [Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền](/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu/)
 
 ## Kết luận: Cửa vào toàn bộ series
 

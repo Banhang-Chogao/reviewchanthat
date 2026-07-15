@@ -84,6 +84,14 @@ title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhấ
 [[internal_links]]
 ref = "posts/iphone-18-chip-a20-2nm.md"
 title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+
 +++
 Mỗi năm tháng 9, Apple thường ra mắt iPhone mới cùng iOS bản chính thức — thói quen đã ăn sâu vào tâm lý người mua tại Việt Nam. Với **iPhone 18**, nhiều nguồn báo chí và analyst đồn loạt một kịch bản khác: **không phải tất cả model cùng xuất hiện một lần**. Apple **chưa xác nhận** bất kỳ ngày ra mắt hay chiến lược tách đợt nào; bài viết này tổng hợp tin đồn có nguồn để bạn lên kế hoạch mua máy thực tế hơn.
 
@@ -176,6 +184,11 @@ Ba điểm thực tế:
 - Cần máy **ngay trong 2026** — tin đồn không đủ lý do trì hoãn công việc.
 - Đã có **iPhone 17** ổn định — split launch không tạo lợi thế rõ cho người vừa nâng cấp.
 - Chỉ cần smartphone tốt với ngân sách — **iPhone 16/17 giảm giá** có thể hợp lý hơn chờ base 18.
+
+### Bài viết liên quan
+
+- [iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn](/posts/iphone-18-gia-bao-nhieu/)
+- [iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?](/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id/)
 
 ## Kết luận
 

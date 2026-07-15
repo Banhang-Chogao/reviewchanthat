@@ -83,6 +83,26 @@ label = "Thời gian nên dành"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý mùa hè"
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+
+[[internal_links]]
+ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
+title = "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo"
+
 +++
 Jungmun Beach nằm trong khu nghỉ dưỡng Jungmun phía nam Jeju, gần Seogwipo. Đây là một trong những bãi biển có phong cảnh đẹp nhất Jeju với hình dáng mũi tên độc đáo, nước trong vắt và bờ cát mềm.
 
@@ -140,6 +160,14 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+- [Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày](/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay/)
+- [Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?](/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/)
+- [Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo](/posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

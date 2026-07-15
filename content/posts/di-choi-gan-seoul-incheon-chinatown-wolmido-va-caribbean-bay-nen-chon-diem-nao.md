@@ -79,6 +79,30 @@ title = "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gi
 [[internal_links]]
 ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
 title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+[[internal_links]]
+ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
+title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
+
+[[internal_links]]
+ref = "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md"
+title = "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song.md"
+title = "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
+[[internal_links]]
+ref = "posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md"
+title = "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc"
+
 +++
 Một điều bất ngờ trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best là gần một nửa số điểm nằm ở khu vực gần Seoul. Nếu bạn có 1–2 ngày rảnh, đây là những lựa chọn đáng cân nhắc.
 
@@ -143,6 +167,15 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày](/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/)
+- [Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?](/posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông](/posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+- [Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc](/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

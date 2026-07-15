@@ -63,6 +63,22 @@ title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho Mac
 [[internal_links]]
 ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
 title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
+[[internal_links]]
+ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
+title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
+
+[[internal_links]]
+ref = "posts/chuan-bi-macbook-truoc-khi-len-macos-27.md"
+title = "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app"
+
+[[internal_links]]
+ref = "posts/macos-27-so-voi-macos-26.md"
+title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
+
 +++
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **macOS Golden Gate 27** là lần Apple cố gắng biến AI thành thói quen trên desktop — không chỉ demo keynote. Câu hỏi thực tế: **MacBook của bạn chạy được những gì, và tiếng Việt đến đâu?**
 
@@ -177,6 +193,13 @@ Nếu công ty bạn có policy **cấm đưa dữ liệu khách hàng lên clou
 2. **Messages Suggestions** có mở tiếng Việt không
 3. **Photos Spatial Reframing** trên library lớn 50GB+
 4. Chính sách **region lock** nếu có
+
+### Bài viết liên quan
+
+- [macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định](/posts/macos-27-beta-co-nen-cai-khong/)
+- [iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?](/posts/ios-27-apple-intelligence-iphone-cu/)
+- [Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app](/posts/chuan-bi-macbook-truoc-khi-len-macos-27/)
+- [macOS 27 so với macOS 26: khác gì với người dùng Mac?](/posts/macos-27-so-voi-macos-26/)
 
 
 ## Kết luận

@@ -49,6 +49,38 @@ answer = "Yes, but it requires opening the device and removing a heatshield. It 
 [attribution]
 copyright = "2026 Reviewchanthat. All rights reserved."
 source_note = "This review is based on ten days of hands-on testing with a review unit provided by MSI. MSI had no editorial input or advance access to this article."
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
+
+[[internal_links]]
+ref = "posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.md"
+title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026.md"
+title = "Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn"
+
 +++
 I have been testing handheld gaming PCs since the original Steam Deck landed in 2022. I have owned an Asus ROG Ally, an Ally X, a Legion Go, and I have spent enough hours with the original MSI Claw to know exactly where Intel's first attempt fell short. When MSI announced the Claw 8 EX AI+ with the new Intel Arc G3 Extreme processor—a chip built from the ground up for handhelds—I was skeptical. The original Claw was a disappointment. The Arc G3 Extreme, however, is not a refresh; it is a complete rethinking of what a mobile gaming GPU can do at 30 watts.
 
@@ -172,5 +204,16 @@ After ten days with this device, I am keeping it. I have not felt this excited a
 | Software | 7/10 | MSI Center M improved but Windows remains a drag |
 | Value | 6/10 | $1,799 is steep — you are paying for the cutting edge |
 | Overall | 8/10 | The most powerful handheld ever, with real trade-offs |
+
+### Bài viết liên quan
+
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?](/posts/nang-luong-tai-tao-turbine-gio-scandinavia/)
+- [Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu](/posts/wellness-spa-scandinavia-sauna-nong/)
+- [Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?](/posts/review-airpods-pro-3-2026/)
+- [Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026](/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh/)
+- [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
+- [Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn](/posts/review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026/)
 
  If you have the budget and want the absolute best, buy it. If you want the best value, buy a Steam Deck OLED. Both are valid choices. The important thing is that for the first time, we have a handheld that does not force you to compromise on the games you want to play. That alone makes the Claw 8 EX AI+ a landmark device.

@@ -49,6 +49,38 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.md"
+title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
 +++
 
 I spent three weeks living with six pairs of wireless earbuds. Not in a sound booth measuring frequency response curves, but in real life — on trains, in coffee shops, during video calls, at the gym, and lying in bed watching YouTube at 2 AM.
@@ -187,5 +219,16 @@ If you are a Samsung phone user, get the Galaxy Buds 4 Pro. The integration with
 And if you wear earbuds all day long — if you work from home and keep them in for hours of calls and music — get the Bose QuietComfort Ultra 2. You will forget you are wearing them, and that is the highest compliment I can give any pair of earbuds.
 
 The wireless earbuds market in 2026 is mature and excellent. There are no bad choices here. Pick the one that matches your priorities and your budget, and you will be happy.
+
+### Bài viết liên quan
+
+- [Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?](/posts/review-airpods-pro-3-2026/)
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?](/posts/nang-luong-tai-tao-turbine-gio-scandinavia/)
+- [MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?](/posts/msi-claw-8-ex-ai-plus-review/)
+- [Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu](/posts/wellness-spa-scandinavia-sauna-nong/)
+- [Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026](/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh/)
+- [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
 
 *All prices are USD and accurate as of July 2026.*

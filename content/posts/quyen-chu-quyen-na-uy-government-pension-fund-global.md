@@ -44,6 +44,38 @@ answer = "A: Có. Singapore tạo thành lập Temasek (mô phỏng theo Na Uy),
 [[faq]]
 question = "Q: Tiền quỹ có đủ cho Na Uy đến khi dầu mỏ cạn?"
 answer = "A: Dựa trên các tính toán, có. Nếu Na Uy tiếp tục kỷ luật và quỹ tiếp tục tăng trưởng 4-5% hàng năm, quỹ sẽ cung cấp đủ lợi tức cho ngân sách Chính phủ cả khi dầu mỏ cạn."
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
+
+[[internal_links]]
+ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
+title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi.md"
+title = "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối"
+
+[[internal_links]]
+ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"
+title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
 +++
 ## Quỹ Chủ Quyền Na Uy là gì?
 
@@ -192,6 +224,17 @@ Bài học này áp dụng cho Việt Nam không trực tiếp (vì Việt Nam k
 - Suy nghĩ dài hạn
 
 ---
+
+### Bài viết liên quan
+
+- [Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?](/posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng](/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/)
+- [Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park](/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/)
+- [Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm](/posts/di-han-thang-10-mac-gi/)
+- [Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối](/posts/gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi/)
+- [How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors](/posts/how-to-choose-reputable-hotels-ho-chi-minh-city/)
+- [Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?](/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan/)
 
 ## Kết luận
 

@@ -65,6 +65,30 @@ title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,
 [[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
 title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
+title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
+[[internal_links]]
+ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
+title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
+
 +++
 ## Ở khu nào tại Bangkok mùa mưa?
 
@@ -240,5 +264,14 @@ Mùa mưa không phải rào cản để đi Bangkok — chỉ cần bạn chọ
 - **Pratunam** và **Silom** là lựa chọn theo nhu cầu đặc thù: mua sỉ hoặc yên tĩnh.
 
 Hãy đọc thêm {{< ref "posts/o-khu-nao-bangkok-mua-mua" >}} để khám phá các điểm indoor tránh mưa ở từng khu vực, và {{< ref "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi" >}} để có lịch trình 3 ngày mẫu từ Ratchathewi.
+
+### Bài viết liên quan
+
+- [Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng](/posts/chiang-mai-mua-mua-co-gi-dep/)
+- [Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?](/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7/)
+- [Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?](/posts/koh-samui-mua-he-so-voi-phuket/)
+- [Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour](/posts/bangkok-ngay-mua-nen-di-dau/)
+- [Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm](/posts/checklist-vali-di-thai-mua-mua/)
+- [Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn](/posts/phuket-mua-mua-co-nen-di-khong/)
 
 Nếu bạn ở Ratchathewi hoặc Phaya Thai, việc đổi baht và di chuyển từ sân bay đã được tối ưu — đọc bài {{< ref "posts/doi-baht-o-viet-nam-hay-thai-lan" >}} và {{< ref "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab" >}} để chuẩn bị trước khi bay.

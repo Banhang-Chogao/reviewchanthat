@@ -44,6 +44,38 @@ answer = "A: Có, nhưng không như Mỹ hoặc các nước Châu Á. Người
 [[faq]]
 question = "Q: Du khách sẽ cảm thấy đơn độc ở Na Uy không?"
 answer = "A: Có khả năng, đặc biệt vào mùa đông. Người Na Uy thân thiện nhưng không chủ động kết bạn. Tuy nhiên, các khách sạn/hostel thường có sự kiện để kết nối du khách."
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+
+[[internal_links]]
+ref = "posts/quyen-chu-quyen-na-uy-government-pension-fund-global.md"
+title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
+
+[[internal_links]]
+ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
+title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
+
+[[internal_links]]
+ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
+title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
+
+[[internal_links]]
+ref = "posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking.md"
+title = "Ẩm thực Nauy – từ cá hồi đến truyền thống Viking"
+
+[[internal_links]]
+ref = "posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc.md"
+title = "Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
 +++
 ## Tại sao Na Uy được xếp hạng cao nhất về chất lượng cuộc sống?
 
@@ -193,6 +225,17 @@ Nếu bạn là người muốn:
 Na Uy không phải "thiên đàng" - nó là một "xã hội hợp lý", nơi mọi người sống với nhau một cách công bằng.
 
 ---
+
+### Bài viết liên quan
+
+- [Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?](/posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi/)
+- [Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?](/posts/quyen-chu-quyen-na-uy-government-pension-fund-global/)
+- [Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến](/posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te/)
+- [Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord](/posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te/)
+- [Ẩm thực Nauy – từ cá hồi đến truyền thống Viking](/posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking/)
+- [Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực](/posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
 
 ## Kết luận
 

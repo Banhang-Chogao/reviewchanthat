@@ -83,6 +83,26 @@ label = "Thời gian nên dành"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý mùa hè"
+[[internal_links]]
+ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
+title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+
 +++
 Ai cũng biết Nami Island mùa thu lá vàng đẹp như phim _Winter Sonata_. Nhưng theo mình, Nami mùa hè mới thực sự là chốn tránh nóng lý tưởng — tán Metasequoia xanh mướt che kín lối đi, gió từ sông Bukhan thổi lồng lộng, khác hẳn cái oi bức ở Seoul.
 
@@ -151,6 +171,14 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày](/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+- [Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?](/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

@@ -28,6 +28,38 @@ image_alt = "Ảnh minh họa Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn T
 date_display = "11-07-2026 14:44:57 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "ký sự tallinn đêm trắng"
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
+
+[[internal_links]]
+ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
+title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
+
+[[internal_links]]
+ref = "posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.md"
+title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
+
+[[internal_links]]
+ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
+title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
+
 +++
 Đồng hồ trên tháp Tall Hermann điểm mười một giờ đêm, nhưng bầu trời vẫn còn một dải sáng mờ mờ ở phía chân trời. Ở vĩ độ 59 độ Bắc, mặt trời tháng Bảy chỉ lặn được vài tiếng đồng hồ trước khi lại mọc — một hiện tượng kỳ lạ mà tôi, đứa con của xứ nhiệt đới, chưa từng chứng kiến. Tôi đứng trên đỉnh đồi Toompea, nhìn xuống những mái ngói đỏ của phố cổ Tallinn, và cảm thấy như mình đang ở trong một câu chuyện cổ tích có thật.
 
@@ -161,5 +193,16 @@ Tôi rời Tallinn trên một chuyến bay chiều, khi mặt trời vẫn còn
 Nếu bạn yêu thích những câu chuyện về các vùng đất mới, hãy xem thêm những điểm đến Bắc Âu và kinh nghiệm du lịch độc hành để chuẩn bị cho chuyến phiêu lưu của riêng mình.
 
 Tallinn không chỉ là một thành phố để tham quan. Đó là một thành phố để cảm nhận, để sống chậm lại, để lắng nghe những câu chuyện từ những viên đá cổ và để mơ về những điều có thể. Và biết đâu, như đã từng xảy ra với Skype, với Bolt, với e-Residency — điều kỳ diệu tiếp theo cũng có thể bắt đầu từ đây.
+
+### Bài viết liên quan
+
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+- [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng](/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/)
+- [Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park](/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/)
+- [Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy](/posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy/)
+- [Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh](/posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh/)
 
 Thông tin tham khảo thêm: [Visit Tallinn](https://www.visittallinn.ee), [UNESCO Tallinn Old Town](https://whc.unesco.org/en/list/822).

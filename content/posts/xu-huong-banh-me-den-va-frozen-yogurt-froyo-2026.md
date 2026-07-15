@@ -28,6 +28,38 @@ image_alt = "Ảnh minh họa Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm T
 date_display = "11-07-2026 12:25:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "cơn sốt mè đen froyo"
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
+title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-da-nang-2026.md"
+title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
+title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
+[[internal_links]]
+ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
+title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
+
 +++
 Tháng 7/2026, hai cái tên thống trị mọi mặt trận ẩm thực từ TikTok đến các quán dessert cao cấp: **mè đen (black sesame) — vị bùi béo ngai ngái đặc trưng của ẩm thực Á Đông, và frozen yogurt (froyo) — vị chua ngọt mát lạnh không tội lỗi.** Cả hai đang chiếm trọn spotlight trên Instagram Reels và TikTok Food, từ những ly kem mè đen đen tuyền sánh mịn cho đến những ly froyo xoáy tròn đầy màu sắc.
 
@@ -107,5 +139,16 @@ Frozen yogurt không chỉ là kem chua — nó là một trải nghiệm: từ 
 
 
 ---
+
+### Bài viết liên quan
+
+- [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
+- [Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh](/posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh/)
+- [Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng](/posts/khach-san-view-dep-da-nang-2026/)
+- [Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng](/posts/khach-san-view-dep-hai-phong-cat-ba-2026/)
+- [Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?](/posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi/)
+- [Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm](/posts/di-han-thang-10-mac-gi/)
+- [Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa](/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua/)
+- [Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+](/posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026/)
 
 Hè 2026 không thiếu những món ngon, nhưng sự kết hợp giữa mè đen bùi béo và froyo chua mát thực sự đánh thức mọi giác quan. Hãy thử làm kem mè đen tại nhà, trổ tài bánh tart mè đen cho bạn bè, hoặc đơn giản là ghé ngay quán froyo gần nhất — vì mùa hè không chờ ai.

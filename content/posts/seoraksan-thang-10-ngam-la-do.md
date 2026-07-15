@@ -91,6 +91,10 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = ""
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.md"
+title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan"
+
 +++
 Nhiều người hỏi Seoraksan có phải điểm ngắm lá đỏ nổi bật nhất ở Hàn Quốc hay không. Câu trả lời ngắn gọn: đây là **một trong những điểm nổi tiếng và được nhắc đến nhiều** khi nói về mùa thu — cùng với Jirisan, Naejangsan hay Bukhansan — chứ không có một địa điểm duy nhất phù hợp với mọi người. Theo [dự báo lá đỏ của Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), Seoraksan thường là một trong những nơi đổ màu sớm; tuy nhiên **ngày cụ thể thay đổi theo thời tiết từng năm**, nên bạn nên theo dõi cập nhật gần ngày đi.
 
@@ -200,6 +204,10 @@ Nếu muốn gắn Seoraksan vào lịch dài hơn, xem [Lịch trình đi Hàn 
 **Không kỳ vọng “đỉnh lá đỏ” nếu đi đầu tháng 10.** Nếu mục tiêu chính là màu đỏ rực, theo dõi dự báo và cân nhắc lùi sang cuối tháng 10 hoặc đầu tháng 11. [Điểm ngắm lá đỏ gần Seoul]({{< ref "posts/han-quoc-thang-10-co-la-do-chua" >}}) có thể bù đắp nếu Seoraksan chưa đủ màu.
 
 **Đặt vé xe về sớm.** Chuyến xe chiều tối cuối tuần dễ hết chỗ trong mùa lá đỏ. Mua vé khứ hồi khi đi hoặc đặt online nếu có thể.
+
+### Bài viết liên quan
+
+- [Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan](/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem/)
 
 ## Kết luận
 

@@ -91,6 +91,10 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = ""
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md"
+title = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ"
+
 +++
 Năm ngày bốn đêm là khung thời gian phổ biến cho chuyến đi Hàn Quốc tự túc từ Việt Nam — đủ để trải nghiệm **peak lá đỏ ở Seoul**, đi một day trip ra ngoại ô và dành thời gian cho cung điện, công viên. Khác với tháng 10, tháng 11 **Seoul thường đẹp hơn về foliage** nhưng **lạnh hơn rõ**; Nami và Seoraksan **đổ màu sớm hơn** nên cần xếp lịch khác.
 
@@ -244,6 +248,10 @@ Seoul vẫn có thể đẹp nhưng lá rụng dần; **không khuyến khích S
 - [ ] Đặt tour Secret Garden nếu muốn vào vườn Changdeokgung
 - [ ] Mang parka, găng tay, khăn quàng, giày đi bộ, ô compact
 - [ ] Kiểm tra giờ hoàng hôn — trời tối sớm tháng 11
+
+### Bài viết liên quan
+
+- [Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ](/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem/)
 
 ## Kết luận
 

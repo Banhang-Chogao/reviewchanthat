@@ -25,6 +25,38 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+[[internal_links]]
+ref = "posts/review-asus-zenbook-duo-2026-laptop-2-man-hinh.md"
+title = "Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
+
+[[internal_links]]
+ref = "posts/samsung-galaxy-s26-ultra-six-month-review.md"
+title = "Samsung Galaxy S26 Ultra: Six Months Later — An Honest Long-Term Review"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
+title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 +++
 ## Mở đầu
 
@@ -151,6 +183,17 @@ Thêm nữa, Pro 2 sẽ không còn được Apple hỗ trợ firmware lâu dài
 - **Cân nhắc nếu:** Bạn dùng Pro 2, thường xuyên đi máy bay hoặc làm việc ở môi trường ồn — ANC cải thiện và Adaptive Transparency đáng để nâng cấp.
 
 - **Không cần nâng cấp nếu:** Bạn dùng Pro 2, hài lòng với chất lượng hiện tại và không gặp vấn đề với thời lượng pin. Hãy đợi thêm 1–2 thế hệ nữa.
+
+### Bài viết liên quan
+
+- [Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần](/posts/review-asus-zenbook-duo-2026-laptop-2-man-hinh/)
+- [Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face](/posts/even-realities-g2-smart-glasses-review/)
+- [Samsung Galaxy S26 Ultra: Six Months Later — An Honest Long-Term Review](/posts/samsung-galaxy-s26-ultra-six-month-review/)
+- [iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt](/posts/iphone-18-co-gi-moi/)
+- [Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp](/posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap/)
+- [Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?](/posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026/)
+- [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
 
 ## Kết luận
 

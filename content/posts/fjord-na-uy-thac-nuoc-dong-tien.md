@@ -37,6 +37,38 @@ answer = "A: Từ tháng 5 đến tháng 9 là mùa du lịch cao điểm, với
 [[faq]]
 question = "Q: Chi phí du lịch các fjord Na Uy là bao nhiêu?"
 answer = "A: Một tour tàu đơn giản từ 2-3 giờ có giá €40-80. Flåm Railway €28 một chiều. Khách sạn ở các thị trấn nhỏ: €100-150/đêm. Thực ăn: €15-25 cho bữa ăn trưa, €30-50 cho bữa tối. Tổng cộng cho một tuần: €2.000-3.500 cho một người (không tính vé máy bay). Na Uy không rẻ, nhưng giá trị trải nghiệm là đáng giá từng euro."
+[[internal_links]]
+ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
+title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
+
+[[internal_links]]
+ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
+title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
+
+[[internal_links]]
+ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
+title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
+
+[[internal_links]]
+ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
+title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
+
+[[internal_links]]
+ref = "posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.md"
+title = "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
 +++
 ## Tại Sao Các Fjord Na Uy Lại Là Một Trong Những Kỳ Quan Thiên Nhiên Vĩ Đại Nhất Thế Giới?
 
@@ -73,5 +105,16 @@ Tàu có 20 đoàn tàu được thiết kế với cửa sổ lớn để bạn
 Ngoài Geirangerfjord và Sognefjord, Na Uy còn có nhiều fjord đáng thăm như Hardangerfjord (thứ tư dài nhất), Lysefjord (nổi tiếng với vách đá Preikestolen dốc 604 mét), và Nærøyfjord (chỉ 20 km dài nhưng cực kỳ hẹp và sâu). Mỗi fjord có tính cách riêng, từ những cảnh tượng hoang dã đến những ngôi làng màu sắc nhỏ nằm xen kẽ giữa núi và biển.
 
 ## Kết Luận Trải Nghiệm Cá Nhân
+
+### Bài viết liên quan
+
+- [Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối](/posts/bac-cuc-quang-aurora-scandinavia-dem/)
+- [Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord](/posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te/)
+- [Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo](/posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy/)
+- [Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai](/posts/stockholm-thua-dien-gamlastan-bien/)
+- [So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?](/posts/copenhagen-oslo-stockholm-so-sanh-thua-dien/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+- [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
 
 Sau những tuần trong các fjord Na Uy, tôi bắt đầu hiểu tại sao người Na Uy yêu thích đất nước của họ một cách đơn giản mà không cần giải thích. Khi bạn sống bên cạnh một cảnh tượng đẹp như vậy, bạn không bao giờ chán. Nếu bạn chỉ có thể đi thăm một nơi ở Scandinavia, hãy đến các fjord Na Uy. Chúng sẽ thay đổi cách bạn nhìn nhận thế giới.

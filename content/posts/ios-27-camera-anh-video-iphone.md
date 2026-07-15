@@ -74,6 +74,10 @@ title = "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giớ
 [[internal_links]]
 ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
 title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
 +++
 Với nhiều người Việt, iPhone là **máy ảnh chính** khi đi du lịch, ăn uống, chụp con. **iOS 27** không thay đổi cụm camera vật lý trên iPhone cũ, nhưng Apple đẩy mạnh **AI trong Photos** và **Siri mode in Camera** — biến phần mềm thành lý do nâng cấp.
 
@@ -167,6 +171,10 @@ Checklist update: [có nên cập nhật ngay không](/posts/ios-27-co-nen-cap-n
 - Tốc độ load ảnh shell
 
 So sánh đầy đủ: [iOS 27 vs iOS 26](/posts/ios-27-so-voi-ios-26/).
+
+### Bài viết liên quan
+
+- [macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định](/posts/macos-27-beta-co-nen-cai-khong/)
 
 ## Kết luận
 

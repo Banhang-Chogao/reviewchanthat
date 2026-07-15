@@ -70,6 +70,38 @@ label = "Đi mùa nào hợp"
 
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
+[[internal_links]]
+ref = "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md"
+title = "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju"
+
+[[internal_links]]
+ref = "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
+title = "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md"
+title = "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?"
+
+[[internal_links]]
+ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
+title = "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang"
+
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
 +++
 Vivaldi Park là cái tên được khách Việt nhắc đến nhiều nhất khi hỏi về trượt tuyết gần Seoul. Mình cũng không ngạc nhiên — resort này thuộc Daemyung Resort, một khu nghỉ dưỡng lớn ở Hongcheon, có shuttle bus từ Seoul, giờ hoạt động từ sáng tới tận 1h đêm.
 
@@ -120,5 +152,16 @@ Check lịch mở cửa và điều kiện tuyết. Đặt vé lift, shuttle bus
 **Trang phục:** Lớp trong thấm mồ hôi, lớp giữ nhiệt, áo khoác chống gió và chống nước; găng tay, mũ và kính bảo vệ mắt. Thuê đồ tại resort tiện nhưng size có thể hết cuối tuần — đến sớm hoặc đặt trước nếu có dịch vụ.
 
 **An toàn:** Người mới nên học lớp cơ bản 2–3 giờ thay vì tự lên slope cao. Kiểm tra điều kiện tuyết và gió trên bảng resort trước khi vào khu vực khó.
+
+### Bài viết liên quan
+
+- [Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju](/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju/)
+- [Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu](/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?](/posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet/)
+- [Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang](/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang/)
+- [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?](/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet/)
+- [iPhone 15 Pro Max Blue Titanium có đáng săn?](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/)
+- [Trên tay iPhone 15 Pro Max: khung titan có khác thép không?](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/)
 
 **Chi phí:** Giá vé lift, thuê thiết bị và phí xe trượt thay đổi theo mùa và ngày trong tuần. Theo [Visit Korea](https://english.visitkorea.or.kr/), nên đối chiếu bảng giá resort trước khi đi.

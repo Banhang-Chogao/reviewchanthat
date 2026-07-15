@@ -80,6 +80,22 @@ title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không
 [[internal_links]]
 ref = "posts/di-han-thang-11-mac-gi.md"
 title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/seoraksan-thang-10-ngam-la-do.md"
+title = "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?"
+
+[[internal_links]]
+ref = "posts/seoul-thang-10-nen-di-dau.md"
+title = "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu"
+
 +++
 Bạn đang cân nhắc **đi Hàn tháng 11** sau khi thấy ảnh lá đỏ rực ở Seoul, Bukchon hay cung điện — và tự hỏi: *tháng 11 có còn đẹp không, hay đã muộn so với tháng 10?* Câu trả lời ngắn: **tháng 11 thường là tháng peak lá đỏ ở Seoul và nhiều khu vực đô thị**, nhưng **lạnh hơn rõ** so với tháng 10 và một số núi cao có thể **đã rụng lá** vào cuối tháng. Trải nghiệm cụ thể phụ thuộc **bạn đi đầu hay cuối tháng 11**, và **năm đó lá đỏ đến sớm hay muộn**.
 
@@ -250,6 +266,13 @@ Chi tiết: [Chi phí đi Hàn tháng 11](/posts/chi-phi-di-han-thang-11-tu-tuc/
 | 9 | Jeju | [Jeju tháng 11](/posts/jeju-thang-11-co-dep-khong/) |
 | 10 | 5N4Đ | [Lịch trình 5N4Đ](/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem/) |
 | 11 | Chi phí | [Chi phí tự túc](/posts/chi-phi-di-han-thang-11-tu-tuc/) |
+
+### Bài viết liên quan
+
+- [Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm](/posts/di-han-thang-10-mac-gi/)
+- [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+- [Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?](/posts/seoraksan-thang-10-ngam-la-do/)
+- [Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu](/posts/seoul-thang-10-nen-di-dau/)
 
 ## Kết luận
 

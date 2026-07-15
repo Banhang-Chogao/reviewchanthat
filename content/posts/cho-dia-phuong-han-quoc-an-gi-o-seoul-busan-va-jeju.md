@@ -80,6 +80,34 @@ label = "Có cần đặt trước không"
 [[internal_links]]
 ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
 title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
+title = "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md"
+title = "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+title = "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic"
+
+[[internal_links]]
+ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
+title = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?"
+
+[[internal_links]]
+ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
+title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
+
 +++
 Một điều thú vị mình để ý trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) là chủ đề "chợ địa phương" xuất hiện tới 3 lần — Seoul, Busan và Jeju. Nói lên rằng du khách bây giờ muốn ăn uống và mua sắm như người địa phương, chứ không chỉ la cà trung tâm thương mại.
 
@@ -123,6 +151,16 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi](/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc](/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/)
+- [Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic](/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/)
+- [Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?](/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong/)
+- [Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày](/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

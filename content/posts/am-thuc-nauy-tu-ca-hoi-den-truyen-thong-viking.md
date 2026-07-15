@@ -52,6 +52,38 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T18:58:09+07:00"
 image_query = "ẩm thực nauy cá hồi"
 image_alt = "Ảnh minh họa Ẩm thực Nauy – từ cá hồi đến truyền thống Viking — nguồn Pexels"
+[[internal_links]]
+ref = "posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc.md"
+title = "Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực"
+
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+
+[[internal_links]]
+ref = "posts/quyen-chu-quyen-na-uy-government-pension-fund-global.md"
+title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
+
+[[internal_links]]
+ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
+title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
+
+[[internal_links]]
+ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
+title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
+
+[[internal_links]]
+ref = "posts/doi-song-phuc-loi-na-uy-work-life-balance.md"
+title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới"
+
+[[internal_links]]
+ref = "posts/hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v.md"
+title = "Hoàng tộc Na Uy hiện đại – Chân dung thân quyền dưới thời Vua Harald V"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
 +++
 
 Tôi nhớ lần đầu tiên đặt chân đến Na Uy, điều làm tôi tò mò nhất không phải là fjord hay cực quang — mà là đồ ăn. Ai cũng nói Na Uy đắt, nhưng ít ai nói về việc đồ ăn ở đây thực sự ra sao. Cá hồi Na Uy nổi tiếng thế giới, nhưng ngoài cá hồi ra còn gì nữa?
@@ -181,6 +213,17 @@ Kể từ đầu những năm 2000, phong trào **New Nordic Food** (ẩm thực
 Na Uy có một thế hệ đầu bếp trẻ tài năng theo đuổi phong trào này. Nhà hàng **REST** (Oslo, 2 sao Michelin) chuyên về hải sản Bắc Cực, phục vụ cua huỳnh đế sống với sốt táo mèo. **Bare** (Bergen) nằm trong một nhà kho cũ, chỉ phục vụ thực đơn degustation 12 món toàn hải sản với tầm nhìn ra vịnh.
 
 Nhưng ẩm thực Na Uy hiện đại cũng không quên một đối tượng quan trọng: những người trẻ thành thị. Các quán cà phê tự phục vụ (self-service café) mọc lên ở Oslo, phục vụ cà phê đặc sản, bánh sôcôla hạnh nhân và bánh quế kem. Món **vafler** (bánh quế Na Uy) hình trái tim — ăn với kem chua (rømme) và mứt dâu — là một biểu tượng ẩm thực đường phố mới.
+
+### Bài viết liên quan
+
+- [Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực](/posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc/)
+- [Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?](/posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi/)
+- [Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?](/posts/quyen-chu-quyen-na-uy-government-pension-fund-global/)
+- [Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến](/posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te/)
+- [Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord](/posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te/)
+- [Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới](/posts/doi-song-phuc-loi-na-uy-work-life-balance/)
+- [Hoàng tộc Na Uy hiện đại – Chân dung thân quyền dưới thời Vua Harald V](/posts/hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
 
 ## Kết luận
 

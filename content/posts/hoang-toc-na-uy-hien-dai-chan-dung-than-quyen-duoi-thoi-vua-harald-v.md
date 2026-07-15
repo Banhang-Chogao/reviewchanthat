@@ -56,6 +56,38 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T18:22:47+07:00"
 image_query = "hoàng tộc na uy hiện"
 image_alt = "Ảnh minh họa Hoàng tộc Na Uy hiện đại – Chân dung thân quyền dưới thời Vua Harald V — nguồn Pexels"
+[[internal_links]]
+ref = "posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking.md"
+title = "Ẩm thực Nauy – từ cá hồi đến truyền thống Viking"
+
+[[internal_links]]
+ref = "posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc.md"
+title = "Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.md"
+title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
+
+[[internal_links]]
+ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
+title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
+
+[[internal_links]]
+ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
+title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
+title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
+
 +++
 Tôi bắt đầu quan tâm đến hoàng tộc Na Uy từ một chi tiết rất nhỏ. Năm 2019, tôi đọc được bài báo kể rằng Vua Harald V — một ông già 82 tuổi ở thời điểm đó — vẫn tự lái xe hơi đi làm mỗi ngày, không có đoàn hộ tống, không có môtô dẹp đường. Ông đỗ xe ở bãi gần cung điện rồi đi bộ vào văn phòng. Chuyện có vẻ bình thường, nhưng thử tưởng tượng cảnh Quốc vương Thái Lan hay Vua Charles III tự lái xe qua cổng cung điện — bạn sẽ thấy ngay sự khác biệt.
 
@@ -150,6 +182,17 @@ Trong cuộc khủng hoảng dầu mỏ những năm 1970, Vua Olav V (cha của
 Thái tử Haakon từng nói một câu mà tôi thấy rất hay: "Chúng tôi không muốn người dân nhìn vào chúng tôi và cảm thấy họ thua kém. Chúng tôi muốn họ nhìn vào và thấy một gia đình Na Uy — với tất cả những niềm vui, nỗi buồn, thành công và thất bại như chính họ."
 
 Đó là triết lý đằng sau sự tồn tại của hoàng tộc Na Uy hiện đại. Họ không phải những vị thần, không phải những biểu tượng xa vời. Họ là một gia đình — một gia đình Na Uy, với tất cả sự phức tạp, đau khổ và vẻ đẹp của một gia đình thực sự.
+
+### Bài viết liên quan
+
+- [Ẩm thực Nauy – từ cá hồi đến truyền thống Viking](/posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking/)
+- [Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực](/posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc/)
+- [Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào](/posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la/)
+- [Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất](/posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly/)
+- [Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển](/posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien/)
+- [Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/)
+- [AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6](/posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6/)
+- [Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?](/posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026/)
 
 ## Kết luận
 

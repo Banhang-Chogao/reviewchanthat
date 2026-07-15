@@ -102,6 +102,22 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_query = "air purifier home living room"
 image_alt = "Ảnh minh họa Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc và khi nào thật sự đáng mua — nguồn Pexels"
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
+
+[[internal_links]]
+ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
+title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
+
 +++
 Mình từng tin rằng cứ dán nhãn *HEPA* là đủ. Mua máy lọc không khí lần đầu, mình chọn model trông hiện đại, có màn hình PM2.5 nhấp nháy xanh–đỏ, giá vừa túi tiền. Ba tuần sau, lọc vẫn “sạch” theo cảm giác, nhưng ban đêm máy kêu như quạt máy tính full tải; sáng ra mắt vẫn khô, bụi vẫn bám bàn làm việc. Lúc đó mới vỡ ra: **máy lọc không khí không phải chiếc quạt xinh có đèn LED**. Nó là thiết bị chạy gần như 24/7, nuốt tiền lọc và điện, và chỉ hiệu quả khi khớp với **diện tích phòng, loại bụi bạn gặp, và thói quen đóng–mở cửa** của nhà bạn.
 
@@ -391,5 +407,12 @@ Máy lọc không khí gia đình năm 2026 không phải thiết bị “ai cũ
 - chấp nhận chi phí 24 tháng.
 
 Nó **không đáng** nếu bạn mua vì sợ hãi từ mạng xã hội, chọn model rẻ không có lọc thay, hoặc kỳ vọng một máy mini cứu cả căn hộ mở cửa ra đường lớn.
+
+### Bài viết liên quan
+
+- [Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm](/posts/di-han-thang-10-mac-gi/)
+- [Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp](/posts/di-han-thang-11-mac-gi/)
+- [AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí](/posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi/)
+- [Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém](/posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem/)
 
 Nếu chỉ nhớ một câu trước khi thanh toán: **đừng mua máy lọc — hãy mua đúng CADR, đúng lọc thay, và đúng phòng bạn sẽ thật sự dùng.** Phần còn lại là thói quen vệ sinh và kỳ vọng tỉnh táo; hai thứ đó không bán kèm trong hộp, nhưng quyết định máy có trở thành thiết bị hữu ích hay thành cái kệ để quần áo sau ba tháng.

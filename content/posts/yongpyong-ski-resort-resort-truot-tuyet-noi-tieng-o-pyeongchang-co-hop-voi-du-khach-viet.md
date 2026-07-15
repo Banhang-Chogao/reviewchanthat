@@ -86,6 +86,26 @@ image_creator_url = "https://www.pexels.com/@kwon-osu-147593907"
 image_attribution_checked_at = "2026-07-12T08:49:10+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt? — nguồn Pexels"
+[[internal_links]]
+ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
+title = "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
 +++
 Yongpyong là cái tên ai tìm kiếm ski resort Hàn Quốc cũng gặp — resort lớn nhất xứ Hàn với 28 slope, từng là địa điểm Olympic 2018. Nhưng lớn nhất không có nghĩa là phù hợp nhất với tất cả mọi người.
 
@@ -148,6 +168,14 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang](/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?](/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet/)
+- [iPhone 15 Pro Max Blue Titanium có đáng săn?](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/)
+- [Trên tay iPhone 15 Pro Max: khung titan có khác thép không?](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

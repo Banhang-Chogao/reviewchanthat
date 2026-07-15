@@ -94,6 +94,22 @@ value = "Mùa đông (tháng 12–2)"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = "Có (shuttle bus, thuê đồ, vé)"
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+
+[[internal_links]]
+ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
+title = "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
 +++
 Bạn mới tập trượt và chỉ có một ngày rảnh ở Seoul? Elysian Gangchon là cái tên đầu tiên mình nghĩ đến. Lý do đơn giản: đây là resort gần Seoul nhất trong tất cả, đi tàu điện đến được, không cần thuê xe.
 
@@ -136,5 +152,12 @@ Nếu bạn có xe riêng, ghé Chuncheon ăn dakgalbi trước khi về — ngo
 So với [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) thì Elysian gần hơn, nhưng Vivaldi có giờ trượt linh hoạt hơn (cả đêm khuya). Còn so với [Oak Valley]({{< ref "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md" >}}) thì Elysian đông hơn nhưng tiện đường hơn nhiều.
 
 ## Mấy cái cần nhớ trước khi đi
+
+### Bài viết liên quan
+
+- [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?](/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet/)
+- [Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang](/posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang/)
+- [iPhone 15 Pro Max Blue Titanium có đáng săn?](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/)
+- [Trên tay iPhone 15 Pro Max: khung titan có khác thép không?](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/)
 
 Kiểm tra lịch mở cửa trước — mùa thường từ tháng 12 đến tháng 2, nhưng thay đổi theo tuyết. Đặt vé lift và rental online nếu có thể. Mang đồ giữ nhiệt, găng tay chống nước (găng len thấm nước là lạnh lắm), kính trượt. Và đừng quên bảo hiểm du lịch — tai nạn trên tuyết không hiếm đâu.

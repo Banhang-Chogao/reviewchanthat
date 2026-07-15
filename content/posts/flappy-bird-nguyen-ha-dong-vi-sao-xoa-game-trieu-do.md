@@ -66,6 +66,30 @@ answer = "A: Không. Bản 2024 do nhóm **Flappy Bird Foundation** phát hành 
 [[faq]]
 question = "Q: Vì sao Hà Đông từ chối tiếp tục kiếm tiền từ Flappy Bird?"
 answer = "A: Theo các phỏng vấn (đáng chú ý là Rolling Stone), anh là người hướng nội, bị hào quang và làn sóng thù ghét làm kiệt sức. Anh tin những lời nói game hủy hoại cuộc sống người chơi và không muốn chịu trách nhiệm — chọn cuộc sống bình yên thay vì chạy theo quy mô và dòng tiền vô hạn như các studio lớn."
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.md"
+title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
+
+[[internal_links]]
+ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
+title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
+
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
+
+[[internal_links]]
+ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
+title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
+
 +++
 Với đa số lập trình viên, kịch bản trong mơ là một ứng dụng làm trong ba ngày bỗng dưng đẻ ra tiền. Nhưng **50.000 USD mỗi ngày** thì vượt xa mọi giấc mơ hoang đường nhất. Với một lập trình viên vô danh ở Hà Nội, đó lại là chuyện có thật. Ứng dụng của anh cứ thế lớn lên như không có ngày mai — một thứ dịch bệnh xã hội thời số hóa mang tên **Flappy Bird**.
 
@@ -150,5 +174,14 @@ Hãy so sánh với gần như mọi nhà phát triển app ăn khách khác. Ph
 Nhưng Nguyễn Hà Đông nhìn tất cả những thứ đó và nói: "Không, không dành cho tôi." Với vài người là dại dột; với nhiều người là đáng ngưỡng mộ. Hơn một thập kỷ sau, khi game di động ngập trong microtransaction và cơ chế tối ưu hóa "gây nghiện", lựa chọn coi trọng cuộc sống bình yên hơn quy mô vô tận của anh trở nên cao quý.
 
 Và có lẽ đó mới là di sản thật sự của Flappy Bird. Không phải trò chơi, cũng không phải cơn viral kỳ dị của nó — mà là lời nhắc hiếm hoi rằng đôi khi, **được phép nhấn vào nút thoát cũng chẳng sao**.
+
+### Bài viết liên quan
+
+- [AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6](/posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6/)
+- [Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?](/posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh/)
+- [Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển](/posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026/)
+- [AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế](/posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te/)
+- [Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị](/posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi/)
+- [Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?](/posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi/)
 
 Nếu muốn tìm hiểu thêm về lối sống tối giản trong thời đại số, bài [Digital Minimalism]({{< ref "posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi" >}}) có thể cho bạn một góc nhìn khác về việc chủ động lược bỏ thứ không cần thiết — giống điều Hà Đông đã làm. Và nếu bạn quan tâm đến những câu chuyện người thật việc thật, đừng bỏ qua bài [Con người có thể nói dối nhưng dữ liệu thì không]({{< ref "posts/gian-lan-diem-thi-thong-ke" >}}) về sức mạnh của dữ liệu trong việc phơi bày sự thật.

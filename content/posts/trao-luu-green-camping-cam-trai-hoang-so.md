@@ -28,6 +28,38 @@ image_alt = "Ảnh minh họa Trào Lưu Green Camping: Gợi Ý Các Địa Đi
 date_display = "11-07-2026 14:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "trào lưu green camping gợi"
+[[internal_links]]
+ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
+title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
+title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
 +++
 Năm 2026 chứng kiến sự bùng nổ của **green camping** — cắm trại xanh — một trào lưu du lịch kết hợp bảo vệ môi trường, nhặt rác và tuân thủ nghiêm ngặt nguyên tắc Leave No Trace (LNT). Không còn là những chuyến dã ngoại xả rác bừa bãi như trước, green camping đặt trải nghiệm chữa lành (healing) và trách nhiệm sinh thái lên hàng đầu. Nếu bạn đang tìm kiếm địa điểm cắm trại hoang sơ gần Sài Gòn để tái tạo năng lượng cuối tuần, bài viết này dành cho bạn.
 
@@ -249,6 +281,17 @@ Dưới đây là lịch trình mẫu cho chuyến camping chữa lành 2 ngày 
 ---
 
 Green camping không chỉ là một chuyến đi — nó là một phong cách sống. Khi bạn rời khỏi khu cắm trại và nhìn lại, nếu không ai có thể biết bạn đã từng ở đó, bạn đã làm đúng. Trào lưu cắm trại xanh đang thay đổi cách người Việt trẻ du lịch — từ tiêu thụ sang bảo tồn, từ xả láng sang có trách nhiệm.
+
+### Bài viết liên quan
+
+- [Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt](/posts/du-lich-may-do-trai-nghiem-ban-dia/)
+- [Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?](/posts/co-nen-cho-iphone-18-khong/)
+- [AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam](/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau/)
+- [Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp](/posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap/)
+- [iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn](/posts/iphone-18-gia-bao-nhieu/)
+- [Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới](/posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026/)
+- [App Store gatekeeper: Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
+- [macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định](/posts/macos-27-beta-co-nen-cai-khong/)
 
 Hãy bắt đầu với chuyến đi đầu tiên đến hồ Trị An hoặc hồ Dầu Tiếng. Mang theo những gì bạn cần, mang về những gì bạn đã dùng, và để lại những gì thuộc về thiên nhiên. Đó là tinh thần thực sự của green camping.
 

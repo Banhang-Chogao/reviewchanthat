@@ -52,6 +52,38 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T18:47:25+07:00"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực — nguồn Pixabay"
+[[internal_links]]
+ref = "posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking.md"
+title = "Ẩm thực Nauy – từ cá hồi đến truyền thống Viking"
+
+[[internal_links]]
+ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
+title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
+
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+
+[[internal_links]]
+ref = "posts/quyen-chu-quyen-na-uy-government-pension-fund-global.md"
+title = "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?"
+
+[[internal_links]]
+ref = "posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te.md"
+title = "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord"
+
+[[internal_links]]
+ref = "posts/doi-song-phuc-loi-na-uy-work-life-balance.md"
+title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới"
+
+[[internal_links]]
+ref = "posts/hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v.md"
+title = "Hoàng tộc Na Uy hiện đại – Chân dung thân quyền dưới thời Vua Harald V"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
 +++
 
 Hồi đầu năm 2025, tôi đặt vé máy bay đi Na Uy mà không biết mình sẽ gặp gì. Tôi chỉ có một ý nghĩ đơn giản: muốn đi từ thủ đô Oslo lên đến tận Bắc Cực, bằng tàu hỏa, máy bay và phà, không thuê tour, không người hướng dẫn. Tự mình mò mẫm, tự mình trải nghiệm.
@@ -238,5 +270,16 @@ Tôi thấy cực quang lần đầu tiên ở Tromsø vào tháng 3 — một d
 Câu trả lời của tôi là có, với một điều kiện: bạn phải chấp nhận rằng Na Uy rất đắt. Một ly cà phê đơn giản ở quán có giá 50 NOK (~130.000 VND). Một bữa tối bình thường ở nhà hàng ít nhất 400 NOK. Nếu bạn so sánh giá với Thái Lan hay Việt Nam, bạn sẽ thấy sốc.
 
 Nhưng nếu bạn chấp nhận được điều đó, Na Uy sẽ đền đáp bạn bằng những cảnh đẹp không thể tìm thấy ở bất kỳ nơi nào khác. Từ những vịnh hẹp sâu hun hút, những ngọn núi phủ tuyết trắng quanh năm, đến ánh sáng cực quang huyền ảo và mặt trời nửa đêm — tất cả đều là những trải nghiệm mà không bức ảnh hay video nào có thể thay thế được.
+
+### Bài viết liên quan
+
+- [Ẩm thực Nauy – từ cá hồi đến truyền thống Viking](/posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking/)
+- [Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến](/posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te/)
+- [Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?](/posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi/)
+- [Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?](/posts/quyen-chu-quyen-na-uy-government-pension-fund-global/)
+- [Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord](/posts/du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te/)
+- [Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới](/posts/doi-song-phuc-loi-na-uy-work-life-balance/)
+- [Hoàng tộc Na Uy hiện đại – Chân dung thân quyền dưới thời Vua Harald V](/posts/hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
 
 Chuyến đi 12 ngày tự túc từ Oslo đến Bắc Cực là một trong những chuyến đi đáng nhớ nhất cuộc đời tôi. Và tôi tin bạn cũng sẽ có trải nghiệm tương tự.

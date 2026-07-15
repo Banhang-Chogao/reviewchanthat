@@ -71,6 +71,30 @@ answer = "Yes. This guide contains a Trip.com affiliate/advertising placement, c
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Written independently as a practical dining guide. Michelin selections are updated annually by the MICHELIN Guide — verify current stars, Bib Gourmand and Selected status at guide.michelin.com before booking. This post contains a labelled Trip.com advertising/affiliate link. Illustrative images are from Pexels/Pixabay."
+[[internal_links]]
+ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
+title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-16-pro-max-co-dang-chon.md"
+title = "Pin iPhone 16 Pro Max có đáng chọn?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 +++
 Ho Chi Minh City eats like nowhere else in Southeast Asia. On one street you can queue at a plastic stool for a bowl of phở that has been perfected over decades; a block away, a chef is plating modern Vietnamese cuisine worthy of a Michelin star. When the **MICHELIN Guide arrived in Vietnam in 2023** — covering Ho Chi Minh City and Hanoi — it put a global spotlight on both ends of that spectrum, and gave visitors a reliable map to the city's best tables. This guide walks you through the Michelin-recognised places worth planning a meal around, from the fine-dining highlight to the value-packed street-food gems, and how to fit them into your trip.
 
@@ -120,5 +144,14 @@ A few practical tips to get the most out of it:
 This article contains a labelled Trip.com advertising/affiliate placement; if you book your stay or flights through it, that supports the blog at no extra cost to you. The restaurant recommendations themselves are independent — and because Michelin updates its Vietnam selection annually, always confirm a restaurant's current star or Bib Gourmand status on the [official MICHELIN Guide site](https://guide.michelin.com/en/vn/ho-chi-minh-city/restaurants), and check opening hours directly, before you make the trip across town.
 
 ## Bottom line
+
+### Bài viết liên quan
+
+- [Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)](/posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026/)
+- [iPhone 15 Pro Max Blue Titanium có đáng săn?](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/)
+- [Trên tay iPhone 15 Pro Max: khung titan có khác thép không?](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/)
+- [Pin iPhone 16 Pro Max có đáng chọn?](/posts/pin-iphone-16-pro-max-co-dang-chon/)
+- [iPhone 16 Pro Max Desert Titanium hợp ai?](/posts/iphone-16-pro-max-desert-titanium-hop-ai/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
 
 Ho Chi Minh City is one of the most rewarding food cities in Asia precisely because Michelin recognition spans its whole range — from a genuinely world-class starred tasting menu at **Anan Saigon** down to a two-dollar bowl of phở that earns a **Bib Gourmand**. Anchor your trip with one memorable reservation, fill the gaps with the street-food gems, base yourself centrally, and let the city do the rest. Verify the current selection on the official guide, book your stay near the action, and come hungry — Saigon will not disappoint.

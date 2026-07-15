@@ -61,6 +61,38 @@ label = "Khoảng cách"
 
 [[tom_tat_nhanh]]
 label = "Giá vé"
+[[internal_links]]
+ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
+title = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
+title = "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
+title = "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi"
+
+[[internal_links]]
+ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
+title = "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
 +++
 Cả Caribbean Bay và Ocean World đều là công viên nước hàng đầu gần Seoul. Bài viết so sánh giúp bạn chọn đúng.
 
@@ -127,5 +159,16 @@ Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm th
 **Thời tiết:** Mùa hè Hàn Quốc nóng ẩm; mùa đông lạnh và khô. Kiểm tra dự báo 3–5 ngày trước để điều chỉnh trang phục và lịch ngoài trời. Mưa rào ngắn vẫn có thể xảy ra — ô hoặc áo mưa gấp gọn nên nằm trong túi xách hàng ngày.
 
 **Đặt chỗ:** Nhà hàng nổi tiếng, spa và một số điểm tham quan nên đặt trước qua app hoặc hotline, nhất là cuối tuần. Khách sạn gần ga thường đắt hơn nhưng tiết kiệm thời gian — hợp nếu lịch trình dày.
+
+### Bài viết liên quan
+
+- [Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?](/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình](/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh/)
+- [Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi](/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di/)
+- [Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu](/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau/)
+- [Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?](/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan/)
+- [Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?](/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong/)
+- [Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn](/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon/)
 
 **An toàn và tiện ích:** Giữ hộ chiếu bản sao điện tử; mang ít tiền mặt nhưng vẫn cần won cho quán nhỏ. Ứng dụng dịch và bản đồ offline giúp ích khi sóng yếu trong hầm metro.

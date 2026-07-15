@@ -81,6 +81,18 @@ title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhấ
 [[internal_links]]
 ref = "posts/iphone-18-chip-a20-2nm.md"
 title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
+[[internal_links]]
+ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-vs-iphone-17.md"
+title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
+
+[[internal_links]]
+ref = "posts/iphone-18-mau-gi-dark-cherry.md"
+title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
+
 +++
 Samsung đã bán smartphone gập nhiều năm; Google, Huawei và hãng Trung Quốc cũng có dòng fold riêng. Apple **chưa từng công bố** iPhone gập — nhưng từ 2024–2026, **MacRumors**, **AppleInsider** và nhiều analyst liên tục nhắc tới **iPhone Fold** (đôi khi gọi tạm **iPhone Ultra**). Đây là gì, khác iPhone 18 Pro Max thế nào, và **có nên chờ** không? Bài viết phân loại tin đồn có nguồn — không khẳng định sản phẩm Apple sẽ ra đúng như leak.
 
@@ -203,6 +215,12 @@ So với [iPhone 18 Pro Max](/posts/iphone-18-pro-max-co-gi-moi/): Pro Max là *
 - Cần **một máy duy nhất** bền, rẻ bảo trì — chọn **18 Pro Max** hoặc **17**.
 - **Không chắc** có dùng màn mở hay không — slab **17 Pro Max** đủ lớn.
 - Tin đồn **chưa đủ** để trì hoãn mua máy **cần ngay**.
+
+### Bài viết liên quan
+
+- [iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?](/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id/)
+- [iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?](/posts/iphone-18-vs-iphone-17/)
+- [iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?](/posts/iphone-18-mau-gi-dark-cherry/)
 
 ## Kết luận
 

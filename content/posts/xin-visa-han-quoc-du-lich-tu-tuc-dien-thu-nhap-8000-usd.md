@@ -63,6 +63,38 @@ label = "Thị thực nhiều lần"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý quan trọng"
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+
 +++
 Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính "chưa đủ mạnh"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng không rõ điều đó có thật không, và phải chứng minh bằng lương, sao kê hay sổ tiết kiệm? Bạn sợ nộp sai diện, mất phí, rồi rớt visa mà không hiểu vì sao?
 
@@ -253,5 +285,16 @@ Cách tốt nhất là chuẩn bị hồ sơ như **một câu chuyện nhất q
 **Ai nên nộp diện này:** người đi làm nhận lương chuyển khoản ổn định, freelancer/chủ kinh doanh có dòng tiền rõ và thu nhập năm vượt 8.000 USD, có ràng buộc quay về rõ ràng.
 
 **Ai nên cân nhắc diện khác hoặc chuẩn bị kỹ hơn:** người nhận lương tiền mặt không có sao kê, thu nhập không ổn định, hoặc chưa có gì chứng minh ràng buộc quay về — nhóm này nên củng cố hồ sơ tài chính và công việc trước, thay vì vội nộp.
+
+### Bài viết liên quan
+
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+- [Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn](/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+- [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?](/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet/)
 
 Cuối cùng, hãy nhớ: **đủ điều kiện chỉ là điều kiện cần.** Đại sứ quán/Tổng Lãnh sự quán vẫn có toàn quyền quyết định, và quy định có thể thay đổi bất cứ lúc nào. Trước ngày nộp, hãy dành vài phút kiểm tra lại thông tin mới nhất trên [trang Đại sứ quán/MOFA](https://overseas.mofa.go.kr/vn-vi/brd/m_2164/view.do?seq=755003) và [trang KVAC](https://www.visaforkorea-vt.com/) — đó là bước đơn giản nhưng giúp bạn tránh nộp sai diện và mất phí oan.

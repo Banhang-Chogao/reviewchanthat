@@ -50,6 +50,38 @@ answer = "Tín chỉ carbon là *đơn vị hàng hóa* (1 tín chỉ = 1 tấn 
 [[faq]]
 question = "3. Cá nhân/doanh nghiệp Việt Nam có thể mua bán tín chỉ carbon hợp pháp chưa?"
 answer = "Việt Nam đang trong quá trình xây dựng thị trường: theo lộ trình chính sách, sàn giao dịch tín chỉ carbon được thí điểm từ khoảng năm 2025 và dự kiến vận hành chính thức vào năm 2028, dựa trên nền tảng Nghị định 06/2022/NĐ-CP. Vì đây là lĩnh vực đang hoàn thiện khung pháp lý và mốc thời gian có thể thay đổi, bạn nên đối chiếu văn bản mới nhất từ cơ quan chức năng trước khi tham gia giao dịch cho mục đích kinh doanh. *Bài viết mang tính phân tích và tham khảo, không phải tư vấn đầu tư hay môi trường. Vui lòng kiểm tra thông tin phí, điều kiện sản phẩm và chính sách trực tiếp với Techcombank cũng như nguồn chính thức trước khi ra quyết định.*"
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/review-super-8-2011-biet-doi-thieu-nien-va-bi-an.md"
+title = "Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
+
+[[internal_links]]
+ref = "posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.md"
+title = "Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?"
+
+[[internal_links]]
+ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
+title = "Checklist trước khi mua một sản phẩm online"
+
+[[internal_links]]
+ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
+title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+
+[[internal_links]]
+ref = "posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.md"
+title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
+
 +++
 Vài năm gần đây, hai cụm từ "tín chỉ carbon" và "Net Zero" xuất hiện dày đặc từ nghị trường COP, báo cáo thường niên của doanh nghiệp cho tới… mặt sau một chiếc thẻ ngân hàng. Nhưng đằng sau lớp vỏ marketing bóng bẩy, có bao nhiêu người thật sự hiểu một tín chỉ carbon là gì, nó được định giá ra sao, và liệu những sản phẩm "xanh" như thẻ Eco của Techcombank có thực sự cứu được khí hậu hay chỉ là một nước cờ truyền thông? Bài viết này mổ xẻ vấn đề dưới góc nhìn tài chính lạnh lùng, đúng tinh thần Review Chân Thật: khen chỗ đáng khen, và chỉ thẳng chỗ cần dè chừng.
 
@@ -104,5 +136,16 @@ Nhìn từ góc độ tài chính, con số 58.000 khách hàng mới nói lên 
 Điều này không phủ nhận giá trị của thẻ Eco – việc biến phát thải thành con số hữu hình, dùng vật liệu tái chế và chọn chuẩn Gold Standard đều là bước đi nghiêm túc hơn phần đông thị trường. Nhưng nó là **điểm khởi đầu để nâng cao nhận thức, không phải đích đến của Net Zero**.
 
 ## Nhà đầu tư cá nhân nên nhìn nhận thế nào?
+
+### Bài viết liên quan
+
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
+- [Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm](/posts/review-super-8-2011-biet-doi-thieu-nien-va-bi-an/)
+- [Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face](/posts/even-realities-g2-smart-glasses-review/)
+- [Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?](/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs/)
+- [Checklist trước khi mua một sản phẩm online](/posts/checklist-truoc-khi-mua-mot-san-pham-online/)
+- [Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?](/posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi/)
+- [Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus](/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha/)
 
 Với người quan tâm tài chính, tín chỉ carbon mở ra một lớp tài sản mới nhưng đầy biến động: giá trên thị trường tự nguyện có thể sụp đổ khi một chuẩn thẩm định bị nghi ngờ chất lượng. Đừng xem đây là kênh đầu cơ dễ ăn. Ngược lại, việc hiểu CBAM và lộ trình sàn giao dịch carbon Việt Nam 2028 lại rất hữu ích nếu bạn nắm giữ cổ phiếu ngành thép, xi măng, năng lượng – những ngành sẽ chịu chi phí carbon trực tiếp trong bảng cân đối kế toán vài năm tới.

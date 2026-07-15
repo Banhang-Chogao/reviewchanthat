@@ -67,6 +67,34 @@ ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio
 title = "Quản lý file cá nhân khoa học"
 image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
 image_query = "mobile banking payment app"
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
+
+[[internal_links]]
+ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon.md"
+title = "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn"
+
+[[internal_links]]
+ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
+title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối"
+
+[[internal_links]]
+ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
+title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
+
+[[internal_links]]
+ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
+title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
+
+[[internal_links]]
+ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
+title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại"
+
+[[internal_links]]
+ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
+title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
+
 +++
 Bạn mở Gmail, thấy **12.483 email chưa đọc**. Bạn lướt qua, thấy toàn quảng cáo Shopee, thông báo Facebook, newsletter từ trang web bạn đăng ký năm 2018. Bạn đóng lại. Sáng mai lại 12.500.
 
@@ -348,5 +376,15 @@ Tính năng này có sẵn trên Gmail — không cần cài thêm gì.
 > **Bài trước:** [Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc](/posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac/)
 
 Dọn Gmail không chỉ là xóa email — nó là lấy lại quyền kiểm soát một trong những công cụ giao tiếp quan trọng nhất của bạn. Một hộp thư sạch đồng nghĩa với một đầu óc sạch.
+
+### Bài viết liên quan
+
+- [Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị](/posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi/)
+- [Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn](/posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon/)
+- [Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối](/posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi/)
+- [Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?](/posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho/)
+- [Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS](/posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos/)
+- [Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại](/posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai/)
+- [Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?](/posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026/)
 
 Tối nay, hãy dành 30 phút cho Bước 1 (unsubscribe). Chỉ 30 phút — nhưng sáng mai bạn đã thấy khác. Tuần sau, inbox 0 sẽ thành hiện thực.

@@ -79,6 +79,38 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = ""
+[[internal_links]]
+ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
+title = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
+title = "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
+title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
+[[internal_links]]
+ref = "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md"
+title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?"
+
+[[internal_links]]
+ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
+title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
+
 +++
 Hàn Quốc mùa hè — tháng 7 nóng ẩm, tháng 8 nắng rang — nhưng không phải là không đi được. Nếu chọn đúng điểm, bạn vẫn có một chuyến đi trọn vẹn: tắm biển Busan, lặn ngụp công viên nước, thăm làng cổ giữa rừng xanh, hoặc trốn trong quán cà phê indoor giữa cơn mưa rào.
 
@@ -140,5 +172,16 @@ Xem thêm [Lịch trình Seoul 3 ngày mùa mưa]({{< ref "posts/lich-trinh-seou
 - **Nắng gắt (tháng 8):** Kem chống nắng SPF 50+, mũ, kính râm.
 - **Đặt phòng sớm:** Mùa hè là cao điểm, giá phòng tăng 20–40%.
 - **Vé online:** Mua vé Everland, Caribbean Bay, Lotte World trước để tiết kiệm.
+
+### Bài viết liên quan
+
+- [Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?](/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong/)
+- [Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn](/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon/)
+- [Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi](/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di/)
+- [Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày](/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay/)
+- [Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?](/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo/)
+- [Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?](/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan/)
+- [Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?](/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul/)
+- [Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng](/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong/)
 
 Xem thêm [Hàn Quốc tháng 7]({{< ref "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon" >}}) và [Hàn Quốc tháng 8]({{< ref "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di" >}}) để biết thời tiết cụ thể.

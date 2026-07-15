@@ -88,6 +88,34 @@ label = "Mức độ hoàn thiện"
 
 [[tom_tat_nhanh]]
 label = "Hợp với"
+[[internal_links]]
+ref = "posts/ios-27-co-gi-moi.md"
+title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
+
+[[internal_links]]
+ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
+title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
+
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+
+[[internal_links]]
+ref = "posts/ios-27-so-voi-ios-26.md"
+title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
+
+[[internal_links]]
+ref = "posts/ios-27-cai-thien-pin-iphone.md"
+title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+
+[[internal_links]]
+ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
+title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-co-gi-moi.md"
+title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
+
 +++
 WWDC26 kết thúc được một tháng rồi. Đủ để bản beta về tay developer, đủ để báo chí chuyển từ "Apple sắp làm gì?" sang "Apple làm được gì rồi?", và cũng đủ để người dùng phổ thông bắt đầu đặt câu hỏi thực tế hơn: **có nên cài thử, hay chờ bản chính thức?**
 
@@ -271,6 +299,16 @@ Câu hỏi lớn nhất không nằm ở Apple Park nữa — nó nằm ở phò
 Apple đã trả lời **có thể** tại WWDC26. Ba tháng tới mới trả lời **có thật không**.
 
 ---
+
+### Bài viết liên quan
+
+- [iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone](/posts/ios-27-co-gi-moi/)
+- [iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?](/posts/ios-27-apple-intelligence-iphone-cu/)
+- [macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?](/posts/macos-27-apple-intelligence-macbook/)
+- [iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?](/posts/ios-27-so-voi-ios-26/)
+- [iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ](/posts/ios-27-cai-thien-pin-iphone/)
+- [iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?](/posts/ios-27-quyen-rieng-tu-iphone/)
+- [macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac](/posts/macos-27-co-gi-moi/)
 
 ## Kết luận
 

@@ -55,6 +55,34 @@ label = "Thời gian đọc"
 value = "5–7 phút"
 image_attribution_checked_at = "2026-07-14T01:19:06+07:00"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
+[[internal_links]]
+ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
+title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
+title = "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic"
+
+[[internal_links]]
+ref = "posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md"
+title = "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
+title = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?"
+
 +++
 Mùa hè Hàn Quốc mà nói thật thì nóng kinh khủng — nhiệt độ vượt 30°C, độ ẩm cao, mưa lúc bất chợt. Trốn trong trung tâm thương mại cả ngày cũng chán. Cách hay hơn là tìm mấy điểm tránh nóng dưới nước.
 
@@ -103,5 +131,15 @@ Nếu bạn có 3 ngày ở Seoul: ngày 1 đi Nami Island, ngày 2 Caribbean Ba
 4 ngày Busan: ngày 1 Haeundae + Cheongsapo, ngày 2 Gwangalli + Millak, ngày 3 Club D Oasis + Blue Line Park.
 
 5 ngày Jeju: ngày 1 check-in Jungmun resort, ngày 2 Udo, ngày 3 Jungmun Beach, ngày 4 Shinhwa, ngày 5 tham quan Jeju — về.
+
+### Bài viết liên quan
+
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+- [Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?](/posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic](/posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic/)
+- [Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc](/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/)
+- [Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?](/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong/)
 
 7 ngày mix Seoul-Busan-Jeju: 2 ngày Seoul (Nami + Wolmido), 2 ngày Busan (Haeundae, Gwangalli, Cheongsapo), 3 ngày Jeju (Udo, Jungmun, Shinhwa).

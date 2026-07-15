@@ -28,6 +28,38 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á — nguồn Pexels"
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+
 +++
 Tuần trước, tôi vừa kết thúc một chuyến xuyên Trung Á kéo dài gần 2 tuần — băng qua Kazakhstan, Kyrgyzstan và Uzbekistan. Điều làm tôi ấn tượng nhất không phải những thảo nguyên mênh mông hay thành cổ nghìn năm tuổi, mà là một tin vui mà rất nhiều người Việt chưa biết: **hộ chiếu Việt Nam được miễn visa Uzbekistan tối đa 5 ngày**, không cần xin trước, không e-visa, không thủ tục rườm rà.
 
@@ -142,5 +174,16 @@ Uzbekistan là một trong những nước an toàn nhất Trung Á cho khách d
 ***
 
 Chính sách miễn visa Uzbekistan cho hộ chiếu Việt Nam là một cánh cửa đang mở rộng mà rất ít người biết đến. Nếu bạn đã có dự định du lịch Trung Á tự túc — Kazakhstan, Kyrgyzstan — thì việc kéo dài thêm vài ngày để ghé Uzbekistan là một quyết định không thể hợp lý hơn. Thủ tục nhập cảnh Uzbekistan nhanh gọn, con người thân thiện, ẩm thực ngon và chi phí thấp hơn bạn tưởng rất nhiều.
+
+### Bài viết liên quan
+
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+- [Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn](/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
+- [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?](/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet/)
 
 Còn chần chờ gì nữa?

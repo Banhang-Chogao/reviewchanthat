@@ -89,6 +89,26 @@ answer = "Không nên mang quá nhiều. Ở Thái, bạn có thể dùng thẻ 
 [[faq]]
 question = "Phí rút ATM 220 THB có giảm nếu rút ít không?"
 answer = "Không. 220 THB là phí cố định mỗi lần, không phụ thuộc số tiền rút. Vì vậy rút một lần 10.000 THB sẽ tiết kiệm hơn rút 5 lần 2.000 THB."
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
+title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
 +++
 ## Đổi baht ở Việt Nam hay Thái Lan lợi hơn?
 
@@ -268,5 +288,13 @@ Khi nhận tiền baht, hãy kiểm tra:
 | Đổi một phần VN + SuperRich Thái | Người tự túc 5–7 ngày | Tối ưu chi phí | Cần thời gian tìm SuperRich |
 | Rút ATM | Trường hợp khẩn cấp, thiếu hụt | Tiện, không cần chuẩn bị | Phí cao, tỷ giá kém |
 | Đổi hết ở SuperRich | Người đến Bangkok ban ngày | Tỷ giá tốt nhất | SuperRich đóng cửa 18:00 |
+
+### Bài viết liên quan
+
+- [Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng](/posts/chiang-mai-mua-mua-co-gi-dep/)
+- [Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?](/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7/)
+- [Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?](/posts/koh-samui-mua-he-so-voi-phuket/)
+- [Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour](/posts/bangkok-ngay-mua-nen-di-dau/)
+- [Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm](/posts/checklist-vali-di-thai-mua-mua/)
 
 Trong series {{< ref "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong" >}}, các bài viết khác như {{< ref "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab" >}} và {{< ref "posts/o-khu-nao-bangkok-mua-mua" >}} sẽ giúp bạn hoàn thiện kế hoạch di chuyển và chỗ ở. Nếu bạn cần một lịch trình mẫu, tham khảo bài {{< ref "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi" >}} cho chuyến đi 3 ngày chuẩn chỉnh.

@@ -66,6 +66,18 @@ title = "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?"
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md"
 title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
+[[internal_links]]
+ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
+title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
 +++
 Trong bốn màu titan của iPhone 15 Pro Max, **Blue Titanium** là màu **dễ nhận ra nhất** trên bàn cafe — tone xanh xám lạnh, khác hẳn Natural hay Black. Câu hỏi năm 2026: **còn đáng săn không khi nhiều máy đã phai màu?**
 
@@ -154,6 +166,12 @@ Blue hợp **ốp trong**, **da đen** hoặc **silicone navy**. Tránh ốp và
 - [ ] So **% pin** cùng giá Natural
 - [ ] Hỏi **thời gian dùng không ốp**
 - [ ] Test đầy đủ — xem [pin và máy cũ](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
+
+### Bài viết liên quan
+
+- [Trên tay iPhone 15 Pro Max: khung titan có khác thép không?](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/)
+- [Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?](/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong/)
+- [iPhone 16 Pro Max Desert Titanium hợp ai?](/posts/iphone-16-pro-max-desert-titanium-hop-ai/)
 
 ## Kết luận
 

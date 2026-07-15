@@ -63,6 +63,22 @@ title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
 [[internal_links]]
 ref = "posts/ios-27-cai-thien-pin-iphone.md"
 title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
+[[internal_links]]
+ref = "posts/macos-27-ho-tro-may-mac-nao.md"
+title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
+
+[[internal_links]]
+ref = "posts/macos-27-hieu-nang-pin-macbook.md"
+title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
+
 +++
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **iOS 27** là lần Apple cố biến AI thành thói quen trên iPhone — không chỉ demo keynote. Câu hỏi thực tế: **iPhone của bạn chạy được những gì, và tiếng Việt đến đâu?**
 
@@ -182,6 +198,13 @@ Nhiều người sẽ **dùng song song** — Siri cho tác vụ nhanh trên má
 - App ngân hàng/công việc ưu tiên ổn định hơn tính năng mới
 
 Checklist: [có nên cập nhật ngay không](/posts/ios-27-co-nen-cap-nhat-ngay-khong/).
+
+### Bài viết liên quan
+
+- [macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?](/posts/macos-27-apple-intelligence-macbook/)
+- [macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định](/posts/macos-27-beta-co-nen-cai-khong/)
+- [macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel](/posts/macos-27-ho-tro-may-mac-nao/)
+- [macOS 27 có cải thiện hiệu năng và pin MacBook không?](/posts/macos-27-hieu-nang-pin-macbook/)
 
 ## Kết luận
 

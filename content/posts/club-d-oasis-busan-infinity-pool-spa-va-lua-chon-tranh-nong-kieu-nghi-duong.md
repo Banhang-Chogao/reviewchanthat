@@ -94,6 +94,22 @@ value = "Nửa ngày đến 1 ngày"
 [[tom_tat_nhanh]]
 label = "Lưu ý mùa hè"
 value = "Đặt trước vì lượng khách có hạn"
+[[internal_links]]
+ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
+title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
 +++
 Club D Oasis là điểm đến khác biệt — không phải bãi biển công cộng hay công viên nước, mà là khu phức hợp spa, infinity pool và nghỉ dưỡng cao cấp tại Haeundae. Đây là lựa chọn tránh nóng kiểu "không cần xuống biển nhưng vẫn mát" — lý tưởng nếu bạn muốn thư giãn mà không phải chen chúc.
 
@@ -151,6 +167,13 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?](/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo/)
+- [Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?](/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

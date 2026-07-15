@@ -33,6 +33,38 @@ enabled = true
 items = ["Đà Nẵng là điểm đến nội địa được người Việt tìm kiếm mạnh nhất cho mùa hè 2026.", "Lịch trình 4 ngày 3 đêm: biển Mỹ Khê, Sơn Trà/Ngũ Hành Sơn, Hội An/Bà Nà, nghỉ tránh nóng.", "Chọn khu ở theo nhu cầu: gần biển cho nghỉ, sông Hàn cho ăn uống.", "Đặt phòng sớm, tránh outdoor giữa trưa, có phương án khi mưa/nắng gắt."]
 image_query = "du lịch đà nẵng hè"
 image_alt = "Ảnh minh họa Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels"
+[[internal_links]]
+ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
+title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
 +++
 ## Vì sao Đà Nẵng hè 2026?
 
@@ -87,5 +119,16 @@ Không bịa số. Thay đổi tùy: vé máy bay (mùa cao điểm +50%), khác
 Đà Nẵng hè 2026 đáng đi nếu bạn muốn **biển + city + lịch trình nhẹ** cùng lúc, hoặc đi gia đình.
 
 Khóa thành công: **chọn khu ở đúng, lịch trình nhẹ, khoảng trống nghỉ, tránh nóng giữa trưa**. Vừa khám phá được Đà Nẵng vừa không mệt.
+
+### Bài viết liên quan
+
+- [Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?](/posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi/)
+- [Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm](/posts/di-han-thang-10-mac-gi/)
+- [Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa](/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua/)
+- [Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp](/posts/di-han-thang-11-mac-gi/)
+- [Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm](/posts/checklist-vali-di-thai-mua-mua/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp](/posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap/)
+- [AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6](/posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6/)
 
 Bài này hướng bạn **tự thiết kế lịch trình**, không quảng cáo tour.

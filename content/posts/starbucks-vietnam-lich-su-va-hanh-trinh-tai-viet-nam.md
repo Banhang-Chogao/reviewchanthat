@@ -68,6 +68,34 @@ label = "Series"
 [[internal_links]]
 ref = "posts/starbucks-nguyen-van-troi-sai-gon-review.md"
 title = "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon"
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-menu-do-uong-nen-thu.md"
+title = "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-khong-gian-va-trai-nghiem.md"
+title = "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\""
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-nhan-vien-va-dich-vu.md"
+title = "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt"
+
+[[internal_links]]
+ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
+title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
+
+[[internal_links]]
+ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"
+title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
+
+[[internal_links]]
+ref = "posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com.md"
+title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
+
 +++
 Nếu bạn từng đứng trước quầy Starbucks ở Sài Gòn, gọi một ly Caramel Macchiato rồi ngồi nhìn dòng xe qua lại, có lẽ ít ai nghĩ thương hiệu này mới chỉ có mặt tại Việt Nam hơn một thập kỷ. Với nhiều người trẻ, Starbucks không chỉ là quán cà phê — mà là không gian làm việc, chỗ hẹn bạn bè, hoặc điểm dừng chân ngắn giữa các cuộc họp.
 
@@ -111,5 +139,15 @@ Bài này mở đầu series **Starbucks Vietnam**: kể lại hành trình thư
 Trong hàng chục chi nhánh tại TP.HCM, **Starbucks Nguyễn Văn Trỗi** (Phú Nhuận) là nơi mình ghé nhiều nhất — vì vị trí thuận tiện trên tuyến nối sân bay và trung tâm, lượng khách ổn định nhưng không quá chen chúc như mall lớn, và đội ngũ pha chế ở đây (theo trải nghiệm của mình) rất nhiệt tình.
 
 Bài tiếp theo trong series sẽ review chi tiết chi nhánh này — kèm ảnh chụp thực tế — từ không gian, nhân viên, đến từng ly nước mình đã thử.
+
+### Bài viết liên quan
+
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu](/posts/starbucks-vietnam-menu-do-uong-nen-thu/)
+- [Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm "third place"](/posts/starbucks-vietnam-khong-gian-va-trai-nghiem/)
+- [Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt](/posts/starbucks-vietnam-nhan-vien-va-dich-vu/)
+- [Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)](/posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026/)
+- [How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors](/posts/how-to-choose-reputable-hotels-ho-chi-minh-city/)
+- [How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill](/posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com/)
 
 Đọc tiếp: [Review Starbucks Nguyễn Văn Trỗi Sài Gòn — nhân viên nhiệt tình, pha nước rất ngon](/posts/starbucks-nguyen-van-troi-sai-gon-review/)

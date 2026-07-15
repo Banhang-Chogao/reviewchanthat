@@ -33,6 +33,38 @@ draft = false
 [ai_summary]
 items = ["Log tự nhiên (ln) là hàm ngược của e: nếu e^x = y thì ln(y) = x", "Log-return: R = ln(Pt/Pt-1) — cách tính lợi suất bằng logarit thay vì phần trăm thông thường", "So sánh: simple return (+10%, -5%) ≠ cộng = +4.5% nhưng log-return (+9.53%, -5.13%) ✓ cộng = +4.40%", "Tính chất cộng dồn: Rtotal = R1 + R2 + ... + Rn — đây là lý do giới định lượng dùng log-return", "Ví dụ thực tế: VietcomBank giá 100k → 110k → 104.5k (so sánh 2 cách tính)", "Ứng dụng: quỹ đầu tư tính volatility, machine learning forecast thị trường, quản trị rủi ro dùng log-return", "Vì sao: log-return đối xứng (50% rồi -33% = neutral), phân phối chuẩn, phù hợp time-series analysis"]
 draft = false
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/cfa-dung-toan-hoc-gi.md"
+title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon.md"
+title = "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e"
+
+[[internal_links]]
+ref = "posts/ham-so-mu-e-trong-tai-chinh-la-gi.md"
+title = "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
+[[internal_links]]
+ref = "posts/monte-carlo-trong-tai-chinh-la-gi.md"
+title = "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản"
+
 +++
 Khi bạn đầu tư vào cổ phiếu VietcomBank với giá 100,000 đồng, giá tăng lên 110,000 (+10%), rồi giảm xuống 104,500 (-5%), lợi suất cuối cùng là bao nhiêu?
 
@@ -245,6 +277,17 @@ Nếu A = Pe^(rt)  ⟹  ln(A/P) = rt  ⟹  ln(A/P) / t = r
 ✅ **Tại sao:** cộng dồn, đối xứng, phân phối chuẩn  
 
 ---
+
+### Bài viết liên quan
+
+- [công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?](/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro/)
+- [CFA dùng toán học gì? Những công thức quản lý tài sản](/posts/cfa-dung-toan-hoc-gi/)
+- [BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ](/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc/)
+- [Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e](/posts/black-scholes-la-gi-so-e-dinh-gia-quyen-chon/)
+- [Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản](/posts/ham-so-mu-e-trong-tai-chinh-la-gi/)
+- [Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio](/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien/)
+- [Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền](/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu/)
+- [Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản](/posts/monte-carlo-trong-tai-chinh-la-gi/)
 
 ## Kết luận: Cầu nối đến Bài 3 & beyond
 

@@ -75,6 +75,26 @@ ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-h
 title = "Sống thông minh trong thời đại AI"
 image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
 image_query = "mobile banking payment app"
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
+
+[[internal_links]]
+ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
+title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
+
+[[internal_links]]
+ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
+title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
+
+[[internal_links]]
+ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
+title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
+
+[[internal_links]]
+ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
+title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
+
 +++
 Bạn có nhớ lần cuối cùng bạn ngồi ăn cơm với gia đình mà không để điện thoại trên bàn không? Lần cuối bạn đi vệ sinh mà không mang theo điện thoại? Lần cuối bạn thức dậy và không với tay lấy điện thoại trước khi đánh răng?
 
@@ -362,6 +382,14 @@ Sau 30 ngày áp dụng checklist trên, bạn sẽ:
 - Không còn cảm giác "phải check điện thoại" mỗi 5 phút
 
 **Bước tiếp theo:** [Digital Minimalism — sống tối giản trong thời đại AI và mạng xã hội](/posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi/). Bài này sẽ giúp bạn thiết kế lại toàn bộ hệ thống công cụ số của mình, từ điện thoại đến laptop, từ app đến subscription.
+
+### Bài viết liên quan
+
+- [Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị](/posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi/)
+- [Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?](/posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho/)
+- [Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc](/posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac/)
+- [Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS](/posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos/)
+- [Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối](/posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi/)
 
 > **Bài trước:** [Cuộc sống số năm 2026: 30 thói quen](/posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon/)
 > **Bài tiếp theo:** [Digital Minimalism: sống tối giản trong thời đại AI](/posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi/)

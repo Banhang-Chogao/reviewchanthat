@@ -28,6 +28,38 @@ image_alt = "Ảnh minh họa Từ Spotify Đến Bluetooth: Thụy Điển Đã
 date_display = "11-07-2026 14:44:58 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "spotify bluetooth thụy điển thống"
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
+title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+
+[[internal_links]]
+ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
+title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
+
+[[internal_links]]
+ref = "posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.md"
+title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
+
 +++
 Khi bạn nghe nhạc trên Spotify, kết nối tai nghe qua Bluetooth, uống sữa từ hộp giấy Tetra Pak, hay thắt dây an toàn trên ô tô, bạn đang sử dụng những phát minh có chung một nguồn gốc: Thụy Điển. Quốc gia Bắc Âu với chỉ 10,5 triệu dân này là một cỗ máy sản xuất công nghệ âm thầm nhưng cực kỳ hiệu quả. Bài viết này phân tích từng phát minh làm thay đổi thế giới đến từ Thụy Điển, lý giải tại sao một quốc gia nhỏ bé lại có thể tạo ra ảnh hưởng lớn đến vậy, và rút ra những bài học cho các hệ sinh thái công nghệ khác, trong đó có Việt Nam.
 
@@ -266,6 +298,17 @@ Thụy Điển, với dân số chỉ 10,5 triệu — chưa bằng một phần
 Điều làm nên sự đặc biệt của Thụy Điển không phải là tài nguyên thiên nhiên (dù nước này có quặng sắt và gỗ), mà là một hệ thống xã hội được xây dựng bài bản trong hơn một thế kỷ: giáo dục chất lượng cao, an sinh xã hội mạnh mẽ, văn hóa hợp tác thay vì cạnh tranh khốc liệt, và tư duy thiết kế lấy con người làm trung tâm.
 
 Câu chuyện của Thụy Điển gửi một thông điệp mạnh mẽ đến các quốc gia đang phát triển như Việt Nam: bạn không cần dân số lớn hay nguồn lực dồi dào để tạo ra ảnh hưởng toàn cầu. Điều bạn cần là tầm nhìn dài hạn, đầu tư đúng đắn vào giáo dục và con người, và trên hết — một nền văn hóa đề cao sự hợp tác và chia sẻ hơn là cạnh tranh và giữ bí mật.
+
+### Bài viết liên quan
+
+- [Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog](/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog/)
+- [iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn](/posts/iphone-18-gia-bao-nhieu/)
+- [App Store gatekeeper: Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
+- [iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt](/posts/iphone-18-co-gi-moi/)
+- [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/)
+- [Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu](/posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom/)
+- [Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển](/posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026/)
+- [Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại](/posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia/)
 
 Tham khảo:
 - [Báo cáo Ngành công nghiệp Âm nhạc Toàn cầu IFPI 2026](https://www.ifpi.org)

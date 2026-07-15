@@ -66,6 +66,18 @@ title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 [[internal_links]]
 ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
 title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
+title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md"
+title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
+
 +++
 **Pin** là lý do nhiều người chọn **Pro Max** thay Pro — không phải camera. iPhone 16 Pro Max **pin lớn hơn** và **A18 Pro** theo Apple, nhưng **màn 6.9 inch** cũng **ăn thêm**. Kết quả thực tế: **có đáng chọn 16 vì pin không?**
 
@@ -140,6 +152,12 @@ Checklist giống 15: [pin 15 Pro Max](/posts/pin-iphone-15-pro-max-mua-may-cu-c
 - [ ] **5 phút** game hoặc camera — nóng?
 - [ ] **Sạc 20W** — % tăng ổn?
 - [ ] So **15 cũ** cùng giá — [so với iPhone 15 Pro Max](/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi/)
+
+### Bài viết liên quan
+
+- [iPhone 16 Pro Max Desert Titanium hợp ai?](/posts/iphone-16-pro-max-desert-titanium-hop-ai/)
+- [Camera iPhone 16 Pro Max so với 15 Pro Max](/posts/camera-iphone-16-pro-max-so-voi-15-pro-max/)
+- [iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?](/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao/)
 
 ## Kết luận
 

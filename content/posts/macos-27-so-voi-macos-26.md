@@ -74,6 +74,10 @@ title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI 
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+[[internal_links]]
+ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
+title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
+
 +++
 Bạn đang chạy **macOS 26** ổn định — có đáng nhảy sang **Golden Gate 27** không? Bài so sánh này tách **thay đổi thật**, **marketing** và **điểm nên ở lại 26**.
 
@@ -190,6 +194,10 @@ Cả hai đều có Apple Intelligence framework; **27** mở rộng Passwords t
 | Đã thử 27 beta | Restore hoặc chờ stable nếu máy chính |
 
 Nhảy cóc từ bản quá cũ lên 27 một lần đôi khi gây lỗi profile extension và iCloud sync — Apple khuyến nghị incremental update trong tài liệu hỗ trợ.
+
+### Bài viết liên quan
+
+- [macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?](/posts/macos-27-cho-van-phong-creator-lap-trinh-vien/)
 
 ## Kết luận
 

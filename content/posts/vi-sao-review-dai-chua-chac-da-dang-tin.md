@@ -61,6 +61,38 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính mua hàng"
+[[internal_links]]
+ref = "posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md"
+title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
+
+[[internal_links]]
+ref = "posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan.md"
+title = "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?"
+
+[[internal_links]]
+ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
+title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
+
+[[internal_links]]
+ref = "posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc.md"
+title = "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
 +++
 Bạn có bao giờ tự hỏi: review dài 2000 chữ, đầy đủ thông số kỹ thuật, benchmark, so sánh con số — vậy có đáng tin không?
 
@@ -86,7 +118,20 @@ Câu văn trau chuốt, đúng thuật ngữ marketing, cấu trúc chuẩn SEO 
 
 Bài review chèn link mua hàng ở mọi vị trí có thể. Cứ đọc được vài dòng lại gặp link mua — đó chắc chắn là review kiếm tiền. Không phải review kiếm tiền là xấu, nhưng bạn cần biết để đánh giá đúng mức độ khách quan.
 
-### Kết luận
+###
+
+### Bài viết liên quan
+
+- [Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững](/posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan/)
+- [Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?](/posts/blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan/)
+- [Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok](/posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok/)
+- [Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?](/posts/blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc/)
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?](/posts/nang-luong-tai-tao-turbine-gio-scandinavia/)
+- [MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?](/posts/msi-claw-8-ex-ai-plus-review/)
+
+ Kết luận
 
 Review dài chưa chắc đã tốt. Hãy đọc kỹ, phân tích động cơ, và kiểm chứng từ nhiều nguồn trước khi quyết định. Nếu muốn biết thêm, bạn có thể xem bài về [cách đọc review không bị dắt mũi](/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui/) hoặc [nên tin benchmark hay trải nghiệm thật](/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that/).
 

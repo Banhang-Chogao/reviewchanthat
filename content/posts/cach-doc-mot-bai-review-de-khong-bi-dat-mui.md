@@ -62,6 +62,38 @@ label = "Hợp với"
 [[tom_tat_nhanh]]
 label = "Mẹo quan trọng"
 image_attribution_checked_at = "2026-07-14T01:19:10+07:00"
+[[internal_links]]
+ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
+title = "Checklist trước khi mua một sản phẩm online"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
+
+[[internal_links]]
+ref = "posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.md"
+title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026"
+
 +++
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
 
@@ -89,7 +121,20 @@ Một tài khoản mới tạo, chỉ viết đúng một bài và khen ngợi h
 
 Bình luận thường là nơi người dùng thật lên tiếng. Nếu bài review có nhiều bình luận phản biện, hãy đọc kỹ trước khi quyết định. Đôi khi phần bình luận còn hữu ích hơn cả bài viết.
 
-### Kết luận
+###
+
+### Bài viết liên quan
+
+- [Checklist trước khi mua một sản phẩm online](/posts/checklist-truoc-khi-mua-mot-san-pham-online/)
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?](/posts/nang-luong-tai-tao-turbine-gio-scandinavia/)
+- [MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?](/posts/msi-claw-8-ex-ai-plus-review/)
+- [Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu](/posts/wellness-spa-scandinavia-sauna-nong/)
+- [Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?](/posts/review-airpods-pro-3-2026/)
+- [Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026](/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh/)
+
+ Kết luận
 
 Không có review nào hoàn hảo. Trang bị kỹ năng đọc review là cách tốt nhất để trở thành người tiêu dùng thông minh. Nếu muốn tìm hiểu thêm, bạn có thể đọc bài [vì sao review dài chưa chắc đã đáng tin](/posts/vi-sao-review-dai-chua-chac-da-dang-tin/).
 

@@ -56,6 +56,38 @@ answer = "Trong ngũ hành, Thiên can Đinh thuộc hành Hỏa, còn Địa ch
 [[faq]]
 question = "'Ôn cố tri tân' nghĩa là gì và liên quan thế nào đến Tết Đinh Mùi 2027?"
 answer = "'Ôn cố tri tân' là thành ngữ gốc Hán, nghĩa là 'ôn lại cái cũ để hiểu cái mới' – nhìn lại bài học quá khứ để ứng xử tốt hơn với hiện tại và tương lai. Trước thềm Tết Đinh Mùi 2027, việc nhìn lại các năm Đinh Mùi trong lịch sử không nhằm 'bói' năm tốt hay xấu, mà để mỗi người rút ra tinh thần chủ động, ham học hỏi và bền chí trước biến động – những giá trị luôn đúng trong mọi thời cuộc."
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
+title = "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ"
+
+[[internal_links]]
+ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
+title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe"
+
+[[internal_links]]
+ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
+title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
+
+[[internal_links]]
+ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
+title = "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết"
+
+[[internal_links]]
+ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
+title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
+
+[[internal_links]]
+ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
+title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
+
 +++
 Mỗi độ cuối năm, khi những cơn gió chớm lạnh báo hiệu một mùa Tết đang tới gần, người Việt lại có thói quen ngoảnh nhìn về phía sau để soi tỏ con đường phía trước. Tết Nguyên Đán 2027 sắp tới sẽ mang tên **Đinh Mùi** – một cái tên tưởng chừng chỉ là quy ước lịch pháp, nhưng nếu lần giở sử sách, ta sẽ thấy mỗi lần "Đinh Mùi" trở lại đều trùng vào những khúc quanh đáng nhớ của dân tộc và thế giới. Bài viết này không nhằm luận bàn năm tốt hay xấu theo lối bói toán, mà mượn tinh thần **"ôn cố tri tân"** – ôn lại cái cũ để hiểu cái mới – nhìn lại những năm Đinh Mùi trong hai thế kỷ qua, và suy ngẫm xem quá khứ để lại cho chúng ta điều gì trước thềm 2027.
 
@@ -116,5 +148,16 @@ Từ 1787 đến 1847, 1907, rồi 1967 và sắp tới là 2027, sợi chỉ đ
 Nhìn lại chuỗi năm Đinh Mùi, điều đọng lại không phải là nỗi lo "năm tuổi" hay những lời phán về may rủi, mà là ba bài học rất đời thường. **Thứ nhất là tinh thần chủ động trước biến động:** lịch sử ưu ái những ai nhìn xa và dám thay đổi trước khi bị hoàn cảnh buộc phải thay đổi. **Thứ hai là coi trọng tri thức:** từ Đông Kinh Nghĩa Thục đến ca ghép tim đầu tiên, mọi bước ngoặt tích cực đều bắt nguồn từ học hỏi và khai mở. **Thứ ba là sự bền chí:** những con người của các năm Đinh Mùi – dù là sĩ phu duy tân hay nhà khoa học – đều kiên trì theo đuổi con đường của mình bất chấp trở lực.
 
 Có một điểm chung dễ nhận ra khi soi lại 1847, 1907 và 1967: ở cả ba năm ấy, thế giới đều đứng trước những công nghệ và ý tưởng làm thay đổi cuộc chơi – từ thuốc gây mê, nhựa tổng hợp cho tới ghép tạng. Đinh Mùi 2027 cũng sẽ không ngoại lệ, khi nhân loại đang bước vào làn sóng trí tuệ nhân tạo, năng lượng sạch và những chuyển dịch kinh tế sâu rộng. Bài học từ 1847 nhắc rằng đứng ngoài dòng chảy công nghệ là một lựa chọn đắt giá; còn tinh thần 1907 nhắc rằng chủ động học hỏi và thích ứng luôn là con đường bền vững nhất. Lịch sử không lặp lại một cách máy móc, nhưng nó thường gieo vần – và người biết lắng nghe những vần điệu ấy sẽ chuẩn bị tốt hơn cho tương lai.
+
+### Bài viết liên quan
+
+- [Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào](/posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la/)
+- [Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ](/posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi/)
+- [Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe](/posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe/)
+- [Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí](/posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian/)
+- [Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết](/posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui/)
+- [So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn](/posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man/)
+- [Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa](/posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua/)
+- [Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém](/posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem/)
 
 Tết Đinh Mùi 2027 vì thế là một dịp đẹp để mỗi gia đình vừa sum vầy, vừa "ôn cố tri tân": kể cho con cháu nghe những câu chuyện lịch sử, đặt ra cho mình những mục tiêu học hỏi mới, và bước vào năm mới với tâm thế vững vàng thay vì phấp phỏng vì mấy lời bói toán. Bạn có thể biến khoảnh khắc giao thừa thành một nghi thức nhỏ đầy ý nghĩa: cùng nhau điểm lại một năm đã qua, ghi ra ba điều muốn học và ba thói quen muốn thay đổi trong năm mới. Đó chính là cách "ôn cố tri tân" thiết thực nhất, biến chiêm nghiệm lịch sử thành hành động cụ thể cho chính mình. Suy cho cùng, một năm tốt hay không phần lớn nằm ở cách chúng ta chuẩn bị và hành động, chứ không nằm ở cái tên can chi mà nó mang. Chúc bạn đọc một mùa xuân Đinh Mùi an lành, tỉnh táo và giàu tinh thần cầu tiến.

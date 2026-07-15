@@ -32,6 +32,38 @@ image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
 
 [ai_summary]
 items = ["Goldman Sachs, JPMorgan: 2 ngân hàng đầu tư lớn nhất thế giới", "Derivatives pricing: Black-Scholes, local volatility, stochastic volatility", "Greeks: Delta (độ nhạy giá), Gamma (độ cong), Vega (độ nhạy volatility)", "Volatility Smile: σ thay đổi theo strike price (không hằng số)", "Algorithmic Trading: Machines tự động mua/bán hàng triệu giao dịch/ngày", "Market Microstructure: Spread, latency, order flow prediction", "Machine Learning: Neural networks dự báo giá, market impact models"]
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
+[[internal_links]]
+ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
+title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
+
+[[internal_links]]
+ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
+title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+
+[[internal_links]]
+ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
+title = "Risk Management trong tài chính: Từ VaR đến stress testing"
+
+[[internal_links]]
+ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
+title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
+
 +++
 Goldman Sachs & JPMorgan là 2 ngân hàng đầu tư lớn nhất. Họ dùng **toán học cực kỳ phức tạp** cho:
 
@@ -171,5 +203,16 @@ Machines dùng **neural networks** để dự báo micro-price movement (millise
 ---
 
 ## Tiếp theo: BlackRock
+
+### Bài viết liên quan
+
+- [công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?](/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro/)
+- [BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ](/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc/)
+- [Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio](/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien/)
+- [Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền](/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu/)
+- [AI trong tài chính: Deep learning, NLP, và reinforcement learning](/posts/ai-trong-tai-chinh-dung-toan-hoc-gi/)
+- [Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục](/posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao/)
+- [Risk Management trong tài chính: Từ VaR đến stress testing](/posts/risk-management-trong-tai-chinh-dung-toan-hoc/)
+- [FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro](/posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh/)
 
 Bài 8: BlackRock dùng toán học & dữ liệu như thế nào

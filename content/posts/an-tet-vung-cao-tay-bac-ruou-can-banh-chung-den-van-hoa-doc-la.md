@@ -52,6 +52,38 @@ answer = "Rượu cần ủ bằng men lá trong ché, cắm cần trúc để h
 [[faq]]
 question = "Đi trải nghiệm Tết vùng cao cần lưu ý gì để tôn trọng đồng bào?"
 answer = "Xin phép trước khi vào nhà và khi chụp ảnh người dân, nhất là người già và trẻ nhỏ; ăn mặc kín đáo; không tự ý đụng vào bàn thờ hay vật thờ cúng; hỏi trước về các kiêng kỵ của bản. Ứng xử chừng mực và chân thành sẽ được đón tiếp nồng hậu."
+[[internal_links]]
+ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
+title = "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ"
+
+[[internal_links]]
+ref = "posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe.md"
+title = "Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe"
+
+[[internal_links]]
+ref = "posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian.md"
+title = "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí"
+
+[[internal_links]]
+ref = "posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui.md"
+title = "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết"
+
+[[internal_links]]
+ref = "posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027.md"
+title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027"
+
+[[internal_links]]
+ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
+title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
+
+[[internal_links]]
+ref = "posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua.md"
+title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
+
 +++
 Nếu Tết đồng bằng là mâm cỗ tươm tất trong ngôi nhà ấm, thì Tết vùng cao Tây Bắc là khói bếp vương trên mái nhà sàn, là tiếng khèn giữa sương núi và chén rượu cần chuyền tay. Tôi từng đón một cái Tết ở vùng cao và nhận ra: nơi đây Tết không chỉ để ăn, mà để **gắn kết cộng đồng** theo cách rất riêng. Bài viết này chia sẻ những gì đáng trải nghiệm, kèm vài lưu ý thành thật để bạn đến với đồng bào bằng sự tôn trọng, chứ không phải tâm thế "check-in cho lạ".
 
@@ -94,6 +126,17 @@ Ngày Tết vùng cao còn là mùa của lễ hội và trò chơi dân gian. B
 Đêm giao thừa ở vùng cao mang không khí rất riêng. Nhiều gia đình quây quần bên **bếp lửa** giữ ấm suốt đêm — ngọn lửa được coi là biểu tượng của sự sống và may mắn, có nơi giữ lệ không để lửa tắt trong những ngày đầu năm. Sáng mùng 1, tục **lấy nước đầu năm** từ nguồn suối, hay hứng những giọt nước tinh khiết mang về nhà, tượng trưng cho khởi đầu trong lành và cầu mưa thuận gió hòa cho mùa màng.
 
 Người Thái, Mường có tục **gội đầu, tắm rửa tất niên** để rũ bỏ những điều không may của năm cũ; người Dao có nghi lễ cúng tổ tiên trang trọng. Với người Mông, năm mới còn gắn với việc **niêm phong cối giã, dừng một số công việc** trong mấy ngày đầu để nghỉ ngơi và tỏ lòng thành với đất trời. Những nghi thức này có thể khác nhau giữa các dân tộc và từng bản, nhưng đều chung một tinh thần: tiễn cái cũ, đón cái mới bằng lòng biết ơn thiên nhiên. Là khách, được chứng kiến một nghi lễ đầu năm của đồng bào là điều quý — hãy quan sát trong im lặng và tôn trọng, đừng chen vào chỉ để quay phim chụp ảnh.
+
+### Bài viết liên quan
+
+- [Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ](/posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi/)
+- [Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe](/posts/xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe/)
+- [Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí](/posts/cam-nang-don-nha-don-tet-2027-danshari-toi-gian/)
+- [Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết](/posts/sinh-nam-2027-menh-gi-huong-tot-dinh-mui/)
+- [Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027](/posts/cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027/)
+- [So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn](/posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man/)
+- [Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa](/posts/don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua/)
+- [Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém](/posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem/)
 
 ## Kết luận
 

@@ -77,6 +77,18 @@ title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, mass
 [[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+[[internal_links]]
+ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
+title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
+
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
+title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
+
 +++
 Tháng 7 là tháng thấp điểm nhất trong năm của du lịch Thái Lan — và cũng là tháng gây nhiều tranh cãi nhất. Một bên là vé máy bay giá rẻ, khách sạn giảm sâu, điểm tham quan vắng vẻ. Bên kia là nỗi lo mưa bão, tour đảo bị hủy, và kỳ nghỉ không như mong đợi.
 
@@ -182,6 +194,12 @@ Trước khi đi 5–7 ngày, hãy bắt đầu theo dõi dự báo thời tiế
 ### Kiểm tra lịch lễ hội
 
 Tháng 7 có Ubon Ratchathani Candle Festival — lễ hội đèn cầy lớn nhất vùng Isan, thường diễn ra vào tháng 7 âm lịch (khoảng tháng 7–8 dương lịch). Nếu bạn thích văn hóa, đây là một trải nghiệm thú vị. Xem thêm bài [Ubon Ratchathani Candle Festival]({{< ref "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7" >}}).
+
+### Bài viết liên quan
+
+- [Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn](/posts/phuket-mua-mua-co-nen-di-khong/)
+- [Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng](/posts/chiang-mai-mua-mua-co-gi-dep/)
+- [Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?](/posts/krabi-mua-mua-ao-nang-railay-tour-dao/)
 
 ## Kết luận
 

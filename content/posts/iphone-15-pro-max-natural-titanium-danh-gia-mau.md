@@ -77,6 +77,14 @@ title = "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?"
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md"
 title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
+[[internal_links]]
+ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
+title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
 +++
 **Natural Titanium** thường được Apple đặt làm màu “poster” trên ảnh quảng cáo — tone xám bạc ngả vàng nhẹ, gợi cảm giác **kim loại thật** hơn ba màu còn lại. Đây cũng là màu tranh luận nhiều nhất trên forum Việt Nam: đẹp khi mới, nhưng **có giữ được vẻ premium sau một năm không?**
 
@@ -159,6 +167,11 @@ Xem checklist pin và kỹ thuật: [pin và máy cũ](/posts/pin-iphone-15-pro-
 - Ai muốn **màu lạ** — nên xem [Blue Titanium](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/)
 - Ai **ghét vết trầy góc** mà không bọc ốp
 - Ai cần **che khuyết điểm tối đa** — Black có thể che trầy tốt hơn khi phai
+
+### Bài viết liên quan
+
+- [Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?](/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong/)
+- [iPhone 16 Pro Max Desert Titanium hợp ai?](/posts/iphone-16-pro-max-desert-titanium-hop-ai/)
 
 ## Kết luận
 

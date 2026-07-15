@@ -66,6 +66,38 @@ value = "Airport Rail Link + BTS Skytrain"
 [[tom_tat_nhanh]]
 label = "Có cần visa không"
 value = "Không (miễn visa Thái Lan cho Việt Nam)"
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
+title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
+
+[[internal_links]]
+ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
+title = "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md"
+title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?"
+
 +++
 ## Đi Thái Lan tự túc 3 ngày 3 đêm: 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?
 
@@ -169,5 +201,16 @@ Với dữ kiện bạn đưa ra:
 **Từ Suvarnabhumi về Ratchathewi nên đi Airport Rail Link.** Đi đến Phaya Thai rồi đi bộ hoặc nối BTS 1 trạm. Đây là cách rẻ, rõ ràng và rất hợp người đi một mình.
 
 **Siam Eco Hostel đáng cân nhắc nếu bạn ưu tiên vị trí và sạch.** Nhưng hãy kiểm tra kỹ loại phòng, hành lý, thang máy, tiếng ồn và giờ check-in.
+
+### Bài viết liên quan
+
+- [Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?](/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan/)
+- [Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa](/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua/)
+- [Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày](/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay/)
+- [Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?](/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo/)
+- [Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu](/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau/)
+- [Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?](/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong/)
+- [Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn](/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon/)
+- [Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?](/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul/)
 
 Tư duy đúng khi đi Bangkok lần đầu không phải là "rẻ nhất bằng mọi giá", mà là **rẻ vừa đủ, đường đi rõ ràng, ngủ ở chỗ tiện, và giảm tối đa những quyết định gây stress trong ngày đầu tiên**.

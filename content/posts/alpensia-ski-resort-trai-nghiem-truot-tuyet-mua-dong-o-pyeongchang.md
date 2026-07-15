@@ -82,6 +82,34 @@ value = "Mùa đông (tháng 12–2)"
 label = "Có cần đặt trước không"
 value = "Có (resort, vé trượt tuyết)"
 image_attribution_checked_at = "2026-07-14T01:19:07+07:00"
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+
+[[internal_links]]
+ref = "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md"
+title = "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?"
+
+[[internal_links]]
+ref = "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md"
+title = "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju"
+
+[[internal_links]]
+ref = "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
+title = "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
 +++
 Alpensia và Yongpyong nằm cùng khu vực Pyeongchang, nhưng trải nghiệm hoàn toàn khác nhau. Nếu bạn đã đọc bài [Yongpyong]({{< ref "posts/yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet.md" >}}), bạn biết đó là resort lớn, chuyên sâu, cho dân trượt có kinh nghiệm. Alpensia thì ngược lại — nhỏ hơn, yên tĩnh hơn, và thiên về nghỉ dưỡng gia đình.
 
@@ -144,6 +172,16 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?](/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet/)
+- [Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?](/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong/)
+- [Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju](/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju/)
+- [Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu](/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau/)
+- [iPhone 15 Pro Max Blue Titanium có đáng săn?](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/)
+- [Trên tay iPhone 15 Pro Max: khung titan có khác thép không?](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

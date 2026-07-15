@@ -36,6 +36,38 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-12T08:49:04+07:00"
 image_query = "mô hình phẳng thụy điển"
+[[internal_links]]
+ref = "posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.md"
+title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
+
+[[internal_links]]
+ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
+title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
+
+[[internal_links]]
+ref = "posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026.md"
+title = "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026"
+
+[[internal_links]]
+ref = "posts/huong-dan-xin-visa-e-residency-estonia.md"
+title = "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
 +++
 Năm 1943, một cậu bé 17 tuổi người Thụy Điển tên Ingvar Kamprad dùng số tiền bố thưởng vì học tốt để lập một cửa hàng đặt hàng qua bưu điện. Cậu bán bút, ví da, khung tranh, đồng hồ, và tất nhiên — kính lúp. Sản phẩm đầu tiên đó là kính lúp với giá 1 krona. Không ai có thể tưởng tượng rằng từ kính lúp, Kamprad sẽ xây dựng nên IKEA — tập đoàn nội thất lớn nhất thế giới với doanh thu hơn 50 tỷ USD mỗi năm, trải dài 62 quốc gia. Bí mật nằm ở đâu? Không chỉ ở flat-pack (đồ nội thất đóng gói phẳng), mà còn ở flat hierarchy — mô hình quản lý phẳng, thứ đã biến một cửa hàng nhỏ thành cỗ máy tối giản nhưng cực kỳ hiệu quả.
 
@@ -178,6 +210,17 @@ Cho doanh nghiệp Việt, thông điệp rất rõ: Bạn không cần thêm qu
 Mô hình phẳng Thụy Điển không phải là không tưởng. Nó đã được kiểm chứng qua hai tập đoàn hàng đầu thế giới trong hơn 50 năm. Và trong kỷ nguyên AI, nó càng trở nên phù hợp hơn bao giờ hết. Câu hỏi còn lại là: Doanh nghiệp của bạn đã sẵn sàng để "flat" chưa?
 
 ## Tham Khảo
+
+### Bài viết liên quan
+
+- [Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026](/posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026/)
+- [Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026](/posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026/)
+- [Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026](/posts/quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026/)
+- [Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu](/posts/huong-dan-xin-visa-e-residency-estonia/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam](/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+- [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
 
 1. [OECD Sweden Labour Market Report](https://www.oecd.org/en/topics/sweden.html)
 2. [Harvard Business Review — The Flat Organization of the Future](https://hbr.org/2011/12/the-flat-organization-of-the-future)

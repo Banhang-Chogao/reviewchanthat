@@ -67,6 +67,34 @@ ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-v
 title = "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn"
 image_attribution_checked_at = "2026-07-12T08:48:58+07:00"
 image_query = "mobile banking payment app"
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
+
+[[internal_links]]
+ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
+title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối"
+
+[[internal_links]]
+ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
+title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
+
+[[internal_links]]
+ref = "posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi.md"
+title = "Digital Minimalism: sống tối giản trong thời đại AI và mạng xã hội"
+
+[[internal_links]]
+ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
+title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
+
+[[internal_links]]
+ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
+title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
+
+[[internal_links]]
+ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
+title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
+
 +++
 Bạn có bao nhiêu mật khẩu trong đầu? **15? 20? Hay như đa số — chỉ 3-4 mật khẩu dùng lại cho toàn bộ tài khoản?**
 
@@ -318,6 +346,16 @@ Nếu bạn chưa từng dùng password manager, bắt đầu ngay hôm nay:
 Chỉ 15 phút, bạn đã an toàn hơn 80% người dùng Internet Việt Nam.
 
 Sau đó đọc tiếp các bài trong series **Cuộc sống số** để xây dựng thói quen bảo mật toàn diện hơn — từ backup ảnh, digital detox, đến quản lý file và bảo mật thiết bị.
+
+### Bài viết liên quan
+
+- [Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị](/posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi/)
+- [Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối](/posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi/)
+- [Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?](/posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho/)
+- [Digital Minimalism: sống tối giản trong thời đại AI và mạng xã hội](/posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi/)
+- [Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc](/posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac/)
+- [Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS](/posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos/)
+- [Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối](/posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi/)
 
 > **Bài trước:** [Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn](/posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon/)
 > **Bài tiếp theo:** [Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại](/posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai/)

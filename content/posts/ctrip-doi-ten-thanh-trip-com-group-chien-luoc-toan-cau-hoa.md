@@ -57,6 +57,38 @@ answer = "Ngoài Ctrip và Trip.com, tập đoàn còn sở hữu Qunar (nền t
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài viết tổng hợp độc lập từ nguồn công khai (Trip.com, Wikipedia, báo chí); số liệu tài chính, thương vụ và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+[[internal_links]]
+ref = "posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau.md"
+title = "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu"
+
+[[internal_links]]
+ref = "posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip.md"
+title = "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip"
+
+[[internal_links]]
+ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
+title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
+
+[[internal_links]]
+ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
+title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
+
+[[internal_links]]
+ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
+title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
+
+[[internal_links]]
+ref = "posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026.md"
+title = "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+"
+
+[[internal_links]]
+ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
+title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
+
+[[internal_links]]
+ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
+title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
+
 +++
 Nếu bạn từng đặt vé máy bay hay khách sạn qua Ctrip hồi những năm 2015-2018 rồi sau đó thấy ứng dụng "biến mất" và thay vào đó là một cái tên mới toanh — Trip.com — thì bạn không nhầm đâu. Đó không phải một startup mới nổi lên cạnh tranh với Ctrip, mà chính là Ctrip lột xác. Năm 2019, gã khổng lồ du lịch trực tuyến lớn nhất Trung Quốc chính thức đổi tên công ty mẹ từ Ctrip.com International thành Trip.com Group Limited, đánh dấu một bước ngoặt chiến lược: từ một OTA (online travel agency) thống trị thị trường nội địa Trung Quốc, họ muốn trở thành một tập đoàn du lịch toàn cầu thực thụ. Bài viết này sẽ giải thích vì sao họ đổi tên, chiến lược thương hiệu phía sau, chuyện niêm yết kép trên hai sàn chứng khoán, và ai là những người đứng sau cuộc chuyển mình này.
 
@@ -110,6 +142,17 @@ Trên thực tế, nhiều reviewer du lịch (bao gồm cả Review Chân Thậ
 ## Bài học từ câu chuyện Ctrip đổi tên: thương hiệu phải đi cùng chiến lược
 
 Câu chuyện Ctrip trở thành Trip.com Group không đơn thuần là chuyện đổi logo hay đổi tên miền. Đó là một quyết định phản ánh đúng bản chất một công ty đã âm thầm chuyển mình thành tập đoàn đa thương hiệu, đa thị trường, và cần một cái tên "trung tính" đủ để đại diện cho toàn bộ hệ sinh thái đó trên trường quốc tế. Việc niêm yết kép trên NASDAQ và HKEX sau đó càng củng cố thêm định vị này: một công ty gốc Trung Quốc, nhưng vận hành và huy động vốn theo tư duy toàn cầu.
+
+### Bài viết liên quan
+
+- [Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu](/posts/lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau/)
+- [Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip](/posts/cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip/)
+- [Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix](/posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix/)
+- [Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán](/posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan/)
+- [Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay](/posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao/)
+- [Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+](/posts/tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026/)
+- [Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất](/posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re/)
+- [Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?](/posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau/)
 
 ## Kết luận
 

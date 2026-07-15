@@ -86,6 +86,38 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Lưu ý mùa hè"
 value = ""
+[[internal_links]]
+ref = "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md"
+title = "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?"
+
+[[internal_links]]
+ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
+title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
+
+[[internal_links]]
+ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
+title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
+[[internal_links]]
+ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
+title = "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
 +++
 Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm — khung cảnh bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.
 
@@ -144,6 +176,17 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?](/posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong/)
+- [Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?](/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo/)
+- [Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng](/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/)
+- [Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park](/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/)
+- [Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?](/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan/)
+- [10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi](/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

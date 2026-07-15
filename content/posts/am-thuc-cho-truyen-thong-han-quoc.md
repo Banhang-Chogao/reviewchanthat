@@ -85,6 +85,22 @@ answer = "Không. Bài tham khảo danh sách khu chợ công khai từ Klook Vi
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Danh sách các khu chợ và một số thông tin tham khảo từ bài viết công khai của Klook Việt Nam cùng nguồn du lịch chính thống; nội dung được viết lại hoàn toàn bằng góc nhìn riêng, không sao chép câu chữ. Ảnh minh họa lấy từ Pexels/Pixabay. Giờ mở cửa, giá và dịch vụ có thể thay đổi — nên kiểm tra lại trước khi đi."
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
 +++
 Người ta hay nói muốn hiểu một đất nước thì đừng chỉ đến bảo tàng hay điểm check-in, hãy ra chợ. Với Hàn Quốc, câu đó đúng đến từng chữ. Đằng sau hình ảnh Seoul hào nhoáng với những tòa nhà kính và cửa hàng mỹ phẩm sáng đèn, có một Hàn Quốc khác — ấm hơn, thật hơn, nằm trong những khu chợ truyền thống nơi tiếng dầu chiên lách tách, mùi bột đậu xanh và hành lá quyện vào nhau, và người bán người mua vẫn trò chuyện với nhau kiểu quen mặt. Đó là nơi ẩm thực không phải để "sống ảo" mà để no bụng và ấm lòng thật sự.
 
@@ -173,5 +189,12 @@ Với du khách, hiểu điều này giúp chuyến đi chợ có chiều sâu h
 ## Đi chợ, để hiểu một Hàn Quốc rất thật
 
 Sau tất cả những cung điện, tòa nhà và điểm check-in, thứ khiến nhiều người nhớ Hàn Quốc lâu nhất lại thường là một buổi chiều trong chợ: mùi đồ chiên, hơi nóng bốc lên từ chảo, nụ cười của bà bán bánh, và cái cảm giác được hòa vào nhịp sống thật của người bản địa. Đó là kiểu trải nghiệm không mua được bằng vé vào cửa, chỉ có được khi bạn chịu bước chậm lại và để mình lạc vào những con hẻm đầy hương vị.
+
+### Bài viết liên quan
+
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+- [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?](/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju/)
 
 Vậy nên nếu sắp đi Hàn, hãy dành ít nhất một buổi cho chợ truyền thống. Không cần lên kế hoạch quá kỹ — chỉ cần bụng đói, một chút tò mò và tinh thần sẵn sàng thử cái mới. Phần còn lại, những khu chợ trăm tuổi ấy sẽ lo, theo cách mà chúng đã làm với biết bao thế hệ người Hàn và du khách trước bạn.

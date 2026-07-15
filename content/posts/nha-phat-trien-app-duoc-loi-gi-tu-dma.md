@@ -67,6 +67,18 @@ title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế n
 [[internal_links]]
 ref = "posts/apple-thua-kien-eu-app-store-ios-dma.md"
 title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA"
+[[internal_links]]
+ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
+title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
+
+[[internal_links]]
+ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
+title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 +++
 “Cuối cùng cũng không còn phải trả 30% cho Apple” — câu đó xuất hiện nhiều sau khi European Commission (EC) phạt Apple vì anti-steering và buộc mở thêm đường phân phối. Nhưng hỏi một indie developer ở Amsterdam hay Stockholm, câu trả lời thường phức tạp hơn: **“Được link ra web thanh toán, nhưng CTF ăn mất phần tiết kiệm — và mình vẫn ở App Store vì user không sideload.”**
 
@@ -178,6 +190,12 @@ DMA **có** mang lại lợi cho developer — nhưng **không đều**. Ngườ
 Apple không “thua trắng” — CTF, Notarization và UX friction là **đòn ngược**. EC thắng trên nguyên tắc anti-steering; **cán cân kinh tế** vẫn đang chạy. Developer nên mô hình hóa **TCO 3 năm** (commission + CTF + engineering + support) trước khi rời App Store EU.
 
 Đọc tiếp góc EC: [European Commission được gì khi thắng Apple?](/posts/european-commission-duoc-gi-khi-thang-apple/).
+
+### Bài viết liên quan
+
+- [Apple vs EC, DMA và tương lai iPhone: kết luận series](/posts/apple-vs-ec-dma-tuong-lai-iphone/)
+- [Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?](/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
 
 ## Kết luận
 

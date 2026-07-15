@@ -25,9 +25,6 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-[[internal_links]]
-ref = "/posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026"
-title = "So sánh Momo, Zalopay, ShopeePay: Ví điện tử nào phù hợp nhất 2026?"
 [[external_links]]
 url = "https://www.grab.com/vn/food/"
 title = "GrabFood Việt Nam"
@@ -58,8 +55,34 @@ source_note = "Bài viết dựa trên trải nghiệm cá nhân tại TP. Hồ 
 image_attribution_checked_at = "2026-07-15T03:19:25+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa GrabFood vs ShopeeFood vs Baemin: So Sánh Trải Nghiệm Giao Đồ Ăn Tại Việt Nam 2026 — nguồn Pexels"
-+++
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
 
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
+
+[[internal_links]]
+ref = "posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.md"
+title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026"
++++
 ## Mở đầu
 
 Tôi là một trong số hàng triệu người Việt gần như sống nhờ đồ ăn giao tận nơi. Có tháng tôi đặt 20-25 đơn — từ bữa sáng vội trước giờ làm, bữa trưa văn phòng, đến tối khuya lười nấu. Và trong suốt 3 năm qua, tôi đã dùng cả ba app giao đồ ăn lớn nhất tại Việt Nam: GrabFood, ShopeeFood và Baemin, mỗi app ít nhất vài chục đơn.
@@ -191,6 +214,16 @@ Thị trường giao đồ ăn Việt Nam đang thay đổi nhanh. Grab đang th
 Và đừng quên các đối thủ mới như **GoFood** (Gojek) vẫn đang cố gắng lấy lại thị phần, hay **Loship** chuyên giao hàng siêu tốc trong 60 phút. Cả ba app lớn cũng đang đầu tư vào AI để cá nhân hóa gợi ý món ăn.
 
 Năm 2026 này, cuộc chiến giao đồ ăn vẫn chưa ngã ngũ. Và tôi — với tư cách một người dùng — chỉ hy vọng cuộc cạnh tranh này mang lại lợi ích thực sự cho người tiêu dùng: giá rẻ hơn, giao nhanh hơn, đồ ăn ngon hơn.
+
+### Bài viết liên quan
+
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?](/posts/nang-luong-tai-tao-turbine-gio-scandinavia/)
+- [MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?](/posts/msi-claw-8-ex-ai-plus-review/)
+- [Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu](/posts/wellness-spa-scandinavia-sauna-nong/)
+- [Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?](/posts/review-airpods-pro-3-2026/)
+- [Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026](/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh/)
 
 ## Kết luận
 

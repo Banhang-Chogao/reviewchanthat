@@ -70,6 +70,26 @@ title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chi
 [[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
 title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-thai-mua-mua.md"
+title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
+[[internal_links]]
+ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
+title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
+
 +++
 Mưa ở Bangkok thường đến bất ngờ. Bạn đang đi dạo trên phố, trời nắng đẹp, và 15 phút sau mưa như trút nước. Nhưng điểm mạnh của Bangkok là bạn hiếm khi bị kẹt giữa cơn mưa mà không có chỗ trú — bởi thành phố này có một hệ thống mall, BTS skywalk, và indoor attractions phủ khắp trung tâm.
 
@@ -171,6 +191,14 @@ Xem thêm hướng dẫn [Suvarnabhumi về trung tâm: ARL, BTS, Taxi hay Grab]
 - **Google Maps + Transit:** Chỉ đường BTS/MRT với thời gian đến chính xác.
 - **LINEMAN / Grab Food:** Đặt đồ ăn nếu không muốn ra ngoài khi mưa lớn.
 - **XE Currency:** Đổi tiền nhanh, tránh bị tính sai giá.
+
+### Bài viết liên quan
+
+- [Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng](/posts/chiang-mai-mua-mua-co-gi-dep/)
+- [Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?](/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7/)
+- [Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?](/posts/koh-samui-mua-he-so-voi-phuket/)
+- [Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm](/posts/checklist-vali-di-thai-mua-mua/)
+- [Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn](/posts/phuket-mua-mua-co-nen-di-khong/)
 
 ## Kết luận
 

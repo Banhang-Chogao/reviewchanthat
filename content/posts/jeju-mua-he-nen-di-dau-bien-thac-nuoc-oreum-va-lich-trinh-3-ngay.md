@@ -61,6 +61,38 @@ label = "Chi phí"
 
 [[tom_tat_nhanh]]
 label = "Phù hợp"
+[[internal_links]]
+ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
+title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
+[[internal_links]]
+ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
+title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md"
+title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?"
+
 +++
 Jeju là điểm đến lý tưởng cho mùa hè — nhiệt độ mát hơn Seoul nhờ gió biển, cảnh đẹp và nhiều hoạt động. Biển xanh, thác nước mát lạnh, oreum (núi nhỏ) thoáng gió — Jeju mùa hè có tất cả.
 
@@ -121,6 +153,17 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng](/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?](/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan/)
+- [Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa](/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua/)
+- [Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?](/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo/)
+- [Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?](/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong/)
+- [Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn](/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon/)
+- [Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?](/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

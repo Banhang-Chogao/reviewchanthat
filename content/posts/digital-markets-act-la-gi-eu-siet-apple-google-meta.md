@@ -82,6 +82,26 @@ title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS the
 [[internal_links]]
 ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
 title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+[[internal_links]]
+ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+
+[[internal_links]]
+ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
+title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
+
+[[internal_links]]
+ref = "posts/european-commission-duoc-gi-khi-thang-apple.md"
+title = "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới"
+
+[[internal_links]]
+ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 +++
 Nếu bạn chỉ đọc một headline “Apple thua kiện EU”, rất dễ nhầm đó là **một luật, một vụ, một lần phạt**. Thực tế, Brussels đang vận hành một **bộ máy pháp lý nhiều tầng** — và **Digital Markets Act (DMA)** là trụ cột ở giữa.
 
@@ -254,5 +274,13 @@ DMA là **luật EU thành công nhất** (tính đến 2026) trong việc đặ
 Điểm yếu: luật phức tạp, developer và người dùng **khó theo dõi** ba dòng pháp lý song song; headline dễ gây hiểu nhầm.
 
 Chúng tôi khuyên: khi đọc tin Apple–EU, hỏi **“đây là gatekeeper, anti-steering, hay kháng cáo phạt?”** — ba câu trả lời khác nhau, ba hệ quả khác nhau.
+
+### Bài viết liên quan
+
+- [iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?](/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi/)
+- [Apple vs EC, DMA và tương lai iPhone: kết luận series](/posts/apple-vs-ec-dma-tuong-lai-iphone/)
+- [European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới](/posts/european-commission-duoc-gi-khi-thang-apple/)
+- [Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra](/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
 
 Tiếp theo: [App Store gatekeeper — Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/) — đi sâu vào quyền lực Apple đang bị bóp ở EU.

@@ -33,6 +33,38 @@ enabled = true
 items = ["iOS 26.5.2 được Apple mô tả là bản cập nhật cung cấp các bản vá bảo mật cho iPhone.", "Với bản vá bảo mật thì nên cập nhật sớm: Apple thường chỉ công bố chi tiết lỗ hổng sau khi bản vá đã phát hành rộng.", "Bản cập nhật dành cho iPhone 11 trở lên; đã cài rồi thì iOS không thể hạ cấp về bản cũ.", "Trước khi cài: sao lưu, đủ pin và dung lượng; dung lượng tải khác nhau theo máy."]
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì — nguồn Pexels"
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+
+[[internal_links]]
+ref = "posts/ios-27-so-voi-ios-26.md"
+title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
+
+[[internal_links]]
+ref = "posts/co-nen-cho-iphone-18-khong.md"
+title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
+[[internal_links]]
+ref = "posts/danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026.md"
+title = "Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026"
+
 +++
 ## iOS 26.5.2 là bản gì?
 
@@ -79,5 +111,16 @@ Vào **Cài đặt → Cài đặt chung → Cập nhật phần mềm**, chọn
 ## Nhận xét Review Chân Thật
 
 iOS 26.5.2 là **bản vá bảo mật**, nên lời khuyên thẳng thắn là: **cứ cập nhật, và đừng để lâu**. Bạn không mất tính năng, đổi lại được vá những lỗ hổng mà kẻ xấu có thể đã biết cách khai thác.
+
+### Bài viết liên quan
+
+- [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/)
+- [iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?](/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi/)
+- [iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?](/posts/ios-27-so-voi-ios-26/)
+- [Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?](/posts/co-nen-cho-iphone-18-khong/)
+- [iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn](/posts/iphone-18-gia-bao-nhieu/)
+- [App Store gatekeeper: Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
+- [macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định](/posts/macos-27-beta-co-nen-cai-khong/)
+- [Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026](/posts/danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026/)
 
 Chỉ cần nhớ hai điều: **sao lưu trước** và hiểu rằng **cài rồi không hạ cấp được**. Ngoài hai lưu ý đó, đây là kiểu cập nhật "bấm là yên tâm" — đúng nghĩa đầu tư nhỏ, bảo vệ lớn.

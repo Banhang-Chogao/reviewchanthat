@@ -67,6 +67,26 @@ answer = "Có. Việc một thí sinh khoanh lụi trúng một vài câu khó l
 [[faq]]
 question = "Câu 3: Tại sao việc trùng nhau ở các câu trả lời sai lại đáng ngờ hơn việc trùng nhau ở các câu trả lời đúng?"
 answer = "Bởi vì đối với một câu hỏi, đường đi đến chân lý (đáp án đúng) chỉ có một con đường duy nhất, nên việc nhiều người cùng đi trên một con đường là hoàn toàn bình thường. Ngược lại, thế giới của sự sai lầm (đáp án sai) lại rất rộng lớn với nhiều ngã rẽ khác nhau (có đến 3 phương án sai khác nhau). Nếu hai người không hề thảo luận hay chép bài của nhau, việc họ liên tục vấp ngã tại cùng một vị trí và cùng chọn một cách sai lầm giống hệt nhau ở hàng chục câu hỏi là một sự trùng hợp dị thường. Nó chỉ ra rằng có một nguồn lực chung (ví dụ: chép bài nhau hoặc cùng nhận một mã đáp án lỗi) đã điều hướng cho hành vi của cả hai."
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.md"
+title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
+
+[[internal_links]]
+ref = "posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien.md"
+title = "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển"
+
+[[internal_links]]
+ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
+title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
 +++
 Mùa hè năm 2018, khi Bộ Giáo dục và Đào tạo [chính thức công bố phổ điểm thi Trung học phổ thông (THPT) Quốc gia](https://vnexpress.net/chin-thang-vach-tran-manh-gian-lan-thi-thpt-quoc-gia-2018-3909088.html), một bầu không khí kỳ lạ bao trùm lên cộng đồng những người nghiên cứu toán học và khoa học dữ liệu tại Việt Nam. Ngay tại nhà, chỉ với những chiếc máy tính cá nhân kết nối internet, một số thầy giáo dạy toán và chuyên gia phân tích số liệu đã nhận ra những điểm bất thường nghiêm trọng.
 
@@ -115,5 +135,13 @@ Ngày nay, khi các kỳ thi lớn trên thế giới đang dần chuyển dịc
 Cần phải thẳng thắn thừa nhận rằng, toán học thống kê hầu như không bao giờ đưa ra một bằng chứng trực tiếp theo kiểu "bắt tận tay, day tận trán" hành vi sửa bài. Nó chỉ đưa ra một tuyên bố mang tính định lượng: hình thái dữ liệu này chỉ có xác suất xảy ra trong tự nhiên là một phần triệu hay một phần tỷ. Con số đó dù nhỏ đến mấy thì về mặt lý thuyết vẫn khác con số 0 tuyệt đối.
 
 Chính vì vậy, các tổ chức khảo thí nghiêm túc luôn vận dụng thống kê giống như một radar cảnh báo sớm. Radar này giúp khoanh vùng chính xác những nơi có "bão", để từ đó các cơ quan chức năng tập trung nhân lực đối chiếu trực tiếp bài thi gốc, trích xuất camera an ninh và lấy lời khai nhân chứng nhằm đi đến kết luận cuối cùng.
+
+### Bài viết liên quan
+
+- [Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào](/posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la/)
+- [Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất](/posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly/)
+- [Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển](/posts/phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien/)
+- [Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/)
+- [AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6](/posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6/)
 
 Sức mạnh răn đe của phương pháp này là điều không thể bàn cãi. Người gian lận có thể tìm mọi cách qua mặt giám thị trong không gian chật hẹp của phòng thi, nhưng họ hoàn toàn bất lực và không cách nào biết được bài làm của mình sẽ trông dị hợm và cô độc ra sao khi được đặt lên bàn cân cùng hàng trăm nghìn bài thi khác dưới lăng kính của các mô hình toán học. Con người có thể dùng lời nói để ngụy tạo và dối trá, nhưng dữ liệu thì luôn trung thực. Và một nền giáo dục trung thực — như cách [Phần Lan xây dựng hệ thống của họ]({{< ref "posts/hoc-sinh-finland-truong-hoc-hoc-tap.md" >}}) — mới là gốc rễ bền vững hơn mọi phần mềm chống gian lận.

@@ -70,6 +70,14 @@ title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 [[internal_links]]
 ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
 title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md"
+title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
+
 +++
 Apple đẩy iPhone 16 Pro Max lên **6.9 inch** — con số nghe **nhỏ** (chỉ hơn 6.7 inch của 15 Pro Max 0.2 inch) nhưng trên khung Pro Max, **diện tích thực tế và cảm giác cầm** khác hẳn. Đây có phải upgrade đáng tiền, hay chỉ làm túi jeans chật hơn?
 
@@ -144,6 +152,11 @@ Phụ kiện 16 Pro Max **không** dùng cho 15 Pro Max — kích thước khác
 - Tay nhỏ, **một tay** chủ yếu
 - Người **nhẹ túi** — 15 Pro Max ([so với iPhone 15 Pro Max](/posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi/))
 - Ai **không dùng** thêm diện tích — phí tiền
+
+### Bài viết liên quan
+
+- [iPhone 16 Pro Max Desert Titanium hợp ai?](/posts/iphone-16-pro-max-desert-titanium-hop-ai/)
+- [iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?](/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao/)
 
 ## Kết luận
 

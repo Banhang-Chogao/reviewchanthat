@@ -37,6 +37,38 @@ answer = "A: Không. Trên thực tế, các nước Scandinavia (Thụy Điển
 [[faq]]
 question = "Q: Tôi có thể yêu cầu công việc 6 giờ ở quốc gia không phải Scandinavia không?"
 answer = "A: Có thể, nhưng tùy thuộc vào nhà tuyển dụng và công ty. Các công ty công nghệ toàn cầu đang bắt đầu thử nghiệm các mô hình này. Tuy nhiên, ở hầu hết các quốc gia, đây vẫn là một ý tưởng bất thường. Cách tốt nhất là tìm kiếm các công ty hoặc ngành có nền văn hóa cân bằng công việc-cuộc sống tốt."
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/review-super-8-2011-biet-doi-thieu-nien-va-bi-an.md"
+title = "Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
+
+[[internal_links]]
+ref = "posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.md"
+title = "Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?"
+
+[[internal_links]]
+ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
+title = "Checklist trước khi mua một sản phẩm online"
+
+[[internal_links]]
+ref = "posts/tin-chi-carbon-va-trao-luu-net-zero.md"
+title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
+
+[[internal_links]]
+ref = "posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.md"
+title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
+
 +++
 ## Cân Bằng Công Việc-Cuộc Sống – Một giá trị Cơ Bản
 
@@ -78,5 +110,16 @@ Nếu có công việc khẩn cấp, nó sẽ được xử lý vào ngày hôm 
 Nhiều công ty cũng cung cấp các dịch vụ tâm lý miễn phí để nhân viên. Một số công ty thậm chí còn cung cấp các lớp học về sức khỏe tâm thần, thiền định, hoặc yoga trong giờ làm việc. Điều này được coi là đầu tư vào sức khỏe nhân viên, chứ không phải là một "gói phúc lợi" bổ sung.
 
 ## Kết Luận Trải Nghiệm Cá Nhân
+
+### Bài viết liên quan
+
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
+- [Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm](/posts/review-super-8-2011-biet-doi-thieu-nien-va-bi-an/)
+- [Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face](/posts/even-realities-g2-smart-glasses-review/)
+- [Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?](/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs/)
+- [Checklist trước khi mua một sản phẩm online](/posts/checklist-truoc-khi-mua-mot-san-pham-online/)
+- [Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank](/posts/tin-chi-carbon-va-trao-luu-net-zero/)
+- [Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus](/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha/)
 
 Sau khi sống ở Scandinavia, tôi bắt đầu suy ngẫm về cách mọi người làm việc ở những quốc gia khác. Ở Scandinavia, người ta tin rằng bạn chỉ có thể làm việc tốt nếu bạn hạnh phúc và thư giãn. Nó không phải là sự yếu đuối hoặc game; nó là một tín điều kinh tế. Một nhân viên hạnh phúc làm việc tốt hơn, có năng suất cao hơn, và để lại công ty ít hơn.

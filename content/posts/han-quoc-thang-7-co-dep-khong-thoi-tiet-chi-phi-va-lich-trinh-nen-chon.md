@@ -64,6 +64,38 @@ label = "Chi phí"
 
 [[tom_tat_nhanh]]
 label = "Phù hợp"
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
+title = "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi"
+
+[[internal_links]]
+ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
+title = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
+
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
+[[internal_links]]
+ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
+title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
+
+[[internal_links]]
+ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
+title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
+
+[[internal_links]]
+ref = "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md"
+title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?"
+
 +++
 ## Thời tiết tháng 7
 
@@ -133,5 +165,16 @@ Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm th
 **Thời tiết:** Mùa hè Hàn Quốc nóng ẩm; mùa đông lạnh và khô. Kiểm tra dự báo 3–5 ngày trước để điều chỉnh trang phục và lịch ngoài trời. Mưa rào ngắn vẫn có thể xảy ra — ô hoặc áo mưa gấp gọn nên nằm trong túi xách hàng ngày.
 
 **Đặt chỗ:** Nhà hàng nổi tiếng, spa và một số điểm tham quan nên đặt trước qua app hoặc hotline, nhất là cuối tuần. Khách sạn gần ga thường đắt hơn nhưng tiết kiệm thời gian — hợp nếu lịch trình dày.
+
+### Bài viết liên quan
+
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi](/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di/)
+- [Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?](/posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong/)
+- [Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?](/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong/)
+- [Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa](/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua/)
+- [Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?](/posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo/)
+- [Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?](/posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan/)
+- [Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?](/posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul/)
 
 **An toàn và tiện ích:** Giữ hộ chiếu bản sao điện tử; mang ít tiền mặt nhưng vẫn cần won cho quán nhỏ. Ứng dụng dịch và bản đồ offline giúp ích khi sóng yếu trong hầm metro.

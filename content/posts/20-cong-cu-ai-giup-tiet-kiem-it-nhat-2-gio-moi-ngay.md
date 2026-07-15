@@ -79,6 +79,26 @@ ref = "posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md"
 title = "So sánh ví điện tử Việt Nam"
 image_attribution_checked_at = "2026-07-12T08:49:01+07:00"
 image_query = "mobile banking payment app"
+[[internal_links]]
+ref = "posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md"
+title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+
+[[internal_links]]
+ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
+title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
+[[internal_links]]
+ref = "posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.md"
+title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
+
 +++
 Hai giờ mỗi ngày nghe nhiều — nhưng **không phải phép màu**. Bài này liệt kê **20 công cụ AI** theo nhóm việc, kèm điều kiện dùng, mức free/pro (khái quát), và cách **không** biến danh sách thành 20 subscription.
 
@@ -320,5 +340,13 @@ Sống thông minh gồm quyền **giữ việc khó cho người**.
 18. Design slide/thumb AI.  
 19. Image gen (đúng policy).  
 20. Coding assistant (nếu code).
+
+### Bài viết liên quan
+
+- [Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI](/posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai/)
+- [AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6](/posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6/)
+- [AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế](/posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te/)
+- [AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí](/posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi/)
+- [Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?](/posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh/)
 
 In phụ lục ra giấy cũng được — gạch tool đã thử, khoanh tool giữ lại sau 30 ngày.

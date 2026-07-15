@@ -86,6 +86,26 @@ title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seo
 [[internal_links]]
 ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
 title = "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo"
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
+title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
+
+[[internal_links]]
+ref = "posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc.md"
+title = "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước"
+
+[[internal_links]]
+ref = "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md"
+title = "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
+
 +++
 Jeju không chỉ có núi lửa với bình minh — hòn đảo này còn sở hữu những bãi biển khiến nhiều người gọi Hamdeok là "Maldives của Hàn Quốc". Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), biển và resort Jeju đứng thứ 7, theo mình là hoàn toàn xứng đáng.
 
@@ -136,5 +156,13 @@ Sáng đi dạo rừng thông gần Hyeopjae, tắm biển. Trưa ăn tại Hall
 - **An toàn:** Cảnh báo sóng lớn được treo cờ đỏ. Chú ý trước khi xuống nước.
 
 ## Nên kết hợp với đâu?
+
+### Bài viết liên quan
+
+- [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
+- [Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng](/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong/)
+- [Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước](/posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc/)
+- [Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun](/posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun/)
+- [Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày](/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay/)
 
 Hamdeok kết hợp tốt với [Seongsan Ilchulbong]({{< ref "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md" >}}) (cùng phía đông). Hyeopjae nên đi cùng công viên Hallim. Đừng bỏ qua [chợ Dongmun]({{< ref "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md" >}}) khi về Jeju City — đồ ăn ngon và rẻ hơn nhiều so với khu resort.

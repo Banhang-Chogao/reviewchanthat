@@ -30,6 +30,38 @@ image_status = "verified"
 seo_title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Của Người Thụy Điển"
 image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "credit card finance desk"
+[[internal_links]]
+ref = "posts/cong-thuc-do-uong-giai-nhiet-home-cafe.md"
+title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
+
+[[internal_links]]
+ref = "posts/loi-song-xanh-bac-au-thien-nhien-estonia.md"
+title = "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già"
+
+[[internal_links]]
+ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
+title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
+
+[[internal_links]]
+ref = "posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly.md"
+title = "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
 +++
 Khi nhắc đến Thụy Điển, đa số người Việt nghĩ ngay đến IKEA, Volvo, hay giải Nobel. Nhưng có hai khái niệm văn hóa mà người Thụy Điển mang theo trong từng hơi thở — Lagom và Fika — lại ít được biết đến ở Việt Nam. Lagom không phải là một trào lưu wellness mới nổi trên Instagram. Fika không đơn thuần là "đi uống cà phê". Đây là những triết lý sống đã được tôi luyện qua hàng thế kỷ, góp phần đưa Thụy Điển trở thành một trong những quốc gia hạnh phúc nhất hành tinh theo [World Happiness Report](https://worldhappiness.report/).
 
@@ -281,5 +313,16 @@ Một tách cà phê đủ đậm. Một miếng bánh đủ ngọt. Một buổ
 Hãy thử Fika vào chiều nay. Bắt đầu bằng một tách cà phê drip, một cái Kanelbulle (hoặc bánh mì ngọt), và 15 phút không điện thoại, không công việc, chỉ có bạn và người ngồi đối diện. Bạn có thể ngạc nhiên khi thấy 15 phút đó còn quý giá hơn cả một cuộc họp dài.
 
 Fika là một nghi thức sống chậm trong một thế giới đang chạy quá nhanh. Và Lagom là lời nhắc nhở rằng hạnh phúc không phải là điều bạn đạt được khi có *tất cả mọi thứ*, mà là điều bạn cảm nhận được khi bạn có *vừa đủ*.
+
+### Bài viết liên quan
+
+- [Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026](/posts/cong-thuc-do-uong-giai-nhiet-home-cafe/)
+- [Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già](/posts/loi-song-xanh-bac-au-thien-nhien-estonia/)
+- [Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào](/posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la/)
+- [Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất](/posts/xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+- [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
 
 Tham khảo thêm về chỉ số hạnh phúc Thụy Điển tại [World Population Review - Happiest Countries](https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world) và văn hóa Fika trên trang chính thức của [Sweden.se](https://sweden.se/culture/fika).

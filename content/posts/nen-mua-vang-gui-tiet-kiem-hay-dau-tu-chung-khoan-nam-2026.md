@@ -26,6 +26,38 @@ image_status = "verified"
 image_provider = "pexels"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026? — nguồn Pexels"
+[[internal_links]]
+ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
+title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025.md"
+title = "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?"
+
+[[internal_links]]
+ref = "posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026.md"
+title = "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới"
+
+[[internal_links]]
+ref = "posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.md"
+title = "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
+title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
+
+[[internal_links]]
+ref = "posts/cfa-dung-toan-hoc-gi.md"
+title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
+
 +++
 [ai_summary]
 enabled = true
@@ -197,5 +229,16 @@ Thay vì tìm câu trả lời "đúng", hãy:
 1. Hiểu rõ bản thân—bạn có thể chịu được rủi ro đến đâu?
 2. Hiểu rõ các kênh—mỗi cách có ưu và nhược điểm gì?
 3. Phân bổ hợp lý—không nên để tất cả ở một chỗ.
+
+### Bài viết liên quan
+
+- [AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam](/posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau/)
+- [Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp](/posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap/)
+- [Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?](/posts/huong-dan-danh-gia-luat-chuyen-doi-so-2025/)
+- [Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới](/posts/huong-dan-lam-affiliate-shopee-instagram-meta-2026/)
+- [Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?](/posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue/)
+- [công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?](/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro/)
+- [Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ](/posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy/)
+- [CFA dùng toán học gì? Những công thức quản lý tài sản](/posts/cfa-dung-toan-hoc-gi/)
 
 Tiền nhàn rỗi của bạn xứng đáng được chăm sóc, chứ không phải để nằm trong tài khoản hưởng lãi suất 0%. Nhưng cách chăm sóc phải phù hợp với bạn, không phải theo lối mòn hay theo thị trường.

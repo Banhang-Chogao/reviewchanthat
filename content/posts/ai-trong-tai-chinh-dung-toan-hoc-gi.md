@@ -33,6 +33,38 @@ draft = false
 items = ["Deep Learning: Neural networks học features tự động từ dữ liệu (không cần engineering)", "RNN/LSTM: Học dependencies thời gian (bài hôm nay ảnh hưởng ngày mai)", "Transformer: Attention mechanism (đây là archi của ChatGPT), xử lý sequences dài", "NLP: phân tích tin tức, social media → sentiment score → alpha signal", "Anomaly Detection: Phát hiện giao dịch lạ (fraud, market manipulation)", "Reinforcement Learning: Agent học policy (khi nào mua/bán) từ reward", "Backtest & Deploy: Mô phỏng trên lịch sử, kiểm tra live (paper trading)"]
 draft = false
 image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
+[[internal_links]]
+ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
+title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+
+[[internal_links]]
+ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
+title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
+
+[[internal_links]]
+ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
+title = "Risk Management trong tài chính: Từ VaR đến stress testing"
+
+[[internal_links]]
+ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
+title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
+
 +++
 **AI/Machine Learning** trong tài chính không phải huyền thoại — nó **thực tế & hiệu quả**.
 
@@ -226,5 +258,16 @@ Paper Trading (thực tế không mua, chỉ log)
 ---
 
 ## Tiếp theo: Series Finale
+
+### Bài viết liên quan
+
+- [BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ](/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc/)
+- [công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?](/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro/)
+- [Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio](/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien/)
+- [Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền](/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu/)
+- [Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục](/posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao/)
+- [Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives](/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao/)
+- [Risk Management trong tài chính: Từ VaR đến stress testing](/posts/risk-management-trong-tai-chinh-dung-toan-hoc/)
+- [FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro](/posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh/)
 
 Bài 15: Toán học đỉnh cao trong tài chính - PILLAR tổng kết

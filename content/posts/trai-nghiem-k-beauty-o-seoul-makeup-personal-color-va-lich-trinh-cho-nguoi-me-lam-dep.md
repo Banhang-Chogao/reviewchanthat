@@ -90,6 +90,22 @@ title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
 [[internal_links]]
 ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
 title = "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền"
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md"
+title = "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
+title = "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi"
+
+[[internal_links]]
+ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
+title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
+
 +++
 Seoul là kinh đô làm đẹp của châu Á, và mình dám chắc nếu bạn mê skincare hay makeup thì trải nghiệm K-beauty sẽ là một trong những khoản chi đáng đồng tiền nhất chuyến đi. Hoạt động này xếp hạng 10 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình, nó xứng đáng ở vị trí cao hơn nếu bạn thuộc tuýp người thích làm đẹp.
 
@@ -133,6 +149,13 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc](/posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc/)
+- [10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi](/posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di/)
+- [Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày](/posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

@@ -83,6 +83,22 @@ answer = "Đông hơn bạn nghĩ, nhưng ít hơn mùa khô rất nhiều. Các
 [[faq]]
 question = "Có cần đặt tour trước không?"
 answer = "Có. Vì số lượng tour chạy giảm và tàu chạy ít hơn, bạn nên đặt trước 1–2 ngày. Nếu mua tour trên đường phố, hỏi kỹ chính sách hoàn tiền nếu thời tiết xấu. ---"
+[[internal_links]]
+ref = "posts/di-thai-lan-thang-7-co-nen-khong.md"
+title = "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
+title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+
+[[internal_links]]
+ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
+title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
+
 +++
 ## Phuket mùa mưa — nên đi hay không?
 
@@ -231,6 +247,13 @@ Tháng 7–8 là mùa sứa xuất hiện nhiều ở vùng biển Andaman. Mộ
 Tải **Windy** hoặc **AccuWeather** để theo dõi thời tiết theo giờ. Nếu dự báo có mưa lớn và gió mạnh, hãy chủ động dời lịch tour biển sang ngày khác.
 
 ---
+
+### Bài viết liên quan
+
+- [Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý](/posts/di-thai-lan-thang-7-co-nen-khong/)
+- [Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?](/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7/)
+- [Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?](/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab/)
+- [Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour](/posts/bangkok-ngay-mua-nen-di-dau/)
 
 ## Kết luận
 

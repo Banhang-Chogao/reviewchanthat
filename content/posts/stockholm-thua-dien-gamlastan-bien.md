@@ -49,6 +49,38 @@ answer = "A: Có. Nhiều công ty công nghệ ở Stockholm tuyển dụng mà
 [[faq]]
 question = "Q: Cách tốt nhất để trải nghiệm Stockholm nếu tôi chỉ có 2-3 ngày?"
 answer = "A: Ngày 1: Gamla Stan (sáng), Hoàng cung (trưa), Thư viện Công khai (chiều). Ngày 2: Đi phà tới hòn đảo Drottningholm xem cung điện Drottningholm. Ngày 3: Bảo tàng Vasa hoặc Nordiska Museet. Thành phố rất compact – bạn có thể đi bộ hoặc dùng thẻ tuần SL (thẻ giao thông công cộng) với giá €53 cho 7 ngày."
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
+title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
+
+[[internal_links]]
+ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
+title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
+
+[[internal_links]]
+ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
+title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
+
+[[internal_links]]
+ref = "posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.md"
+title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
+
+[[internal_links]]
+ref = "posts/lang-lo-lang-chai-ngoi-do-ven-bien-tuy-hoa.md"
+title = "Làng Lò: làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa và kinh nghiệm ghé thăm 2026"
+
 +++
 ## Một Thành Phố Trên Nước Và Công Nghệ
 
@@ -87,5 +119,16 @@ Stockholm không phải là một khu công nghệ nhân tạo như Silicon Vall
 Hôm nay, Stockholm có mật độ unicorn cao nhất thế giới sau Silicon Valley, đo theo số lượng công ty trị giá $1 tỷ+ trên đầu người. Với chỉ 10 triệu người ở Thụy Điển, điều này là đáng kinh ngạc.
 
 ## Kết Luận Trải Nghiệm Cá Nhân
+
+### Bài viết liên quan
+
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+- [Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày](/posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay/)
+- [Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?](/posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay/)
+- [Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng](/posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong/)
+- [Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park](/posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park/)
+- [Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy](/posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy/)
+- [Làng Lò: làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa và kinh nghiệm ghé thăm 2026](/posts/lang-lo-lang-chai-ngoi-do-ven-bien-tuy-hoa/)
 
 Sau vài tuần ở Stockholm, tôi bắt đầu hiểu tại sao nó là một thành phố mà nhiều người muốn sống. Nó có sự cân bằng hoàn hảo giữa lịch sử và hiện đại, giữa cổ và mới. Bạn có thể dành một ngày đi bộ qua những con đường lát đá cổ của Gamla Stan, và ngày tiếp theo, bạn có thể tham dự một cuộc hội thảo về trí tuệ nhân tạo ở một công ty khởi động.

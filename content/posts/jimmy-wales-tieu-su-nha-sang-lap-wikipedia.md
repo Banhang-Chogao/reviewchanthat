@@ -81,6 +81,30 @@ answer = "Ông tin vào việc mọi người trên thế giới đều được
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tiểu sử tham khảo từ bài Jimmy Wales trên Wikipedia và trang Wikimedia Foundation; nội dung được viết lại và diễn giải bằng góc nhìn riêng, không sao chép câu chữ. Các chi tiết nhạy cảm về quan điểm chính trị được lược bớt để giữ bài trung lập. Ảnh minh họa lấy từ Pexels/Pixabay. Thông tin có thể thay đổi theo thời gian."
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
+title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
+
 +++
 Mỗi ngày, hàng trăm triệu người trên thế giới mở Wikipedia để tra một khái niệm, kiểm chứng một sự kiện, hay đơn giản là thỏa mãn một cơn tò mò lúc nửa đêm. Nó miễn phí, không quảng cáo, có mặt bằng gần như mọi ngôn ngữ, và đã trở thành một phần hạ tầng tri thức của nhân loại đến mức ta gần như quên mất rằng nó do con người tạo ra. Người đứng sau ý tưởng ấy là Jimmy Wales — và câu chuyện của ông thú vị không chỉ vì những gì ông tạo ra, mà vì những gì ông đã chọn không làm: ông không biến Wikipedia thành cỗ máy kiếm tiền, dù hoàn toàn có thể.
 
@@ -159,5 +183,14 @@ Về công việc, ông vẫn hoạt động tích cực: giữ vai trò trong v
 Nhìn lại, câu chuyện Jimmy Wales để lại nhiều điều đáng suy ngẫm hơn là một bản tiểu sử thông thường. Ông đã tạo ra một trong những công trình tri thức lớn nhất mọi thời đại, rồi tự nguyện đặt nó ra ngoài vòng thương mại để nó phục vụ được nhiều người nhất. Ông chọn ảnh hưởng thay vì tài sản, di sản thay vì lợi nhuận trước mắt.
 
 Trong một thế giới nơi thành công thường được đo bằng vốn hóa và tài sản ròng, những nhân vật như Jimmy Wales — hay như Bram Moolenaar của Vim — nhắc chúng ta về một thước đo khác: bạn đã giúp bao nhiêu người, và điều bạn tạo ra có sống lâu hơn chính bạn hay không. Wikipedia sẽ còn được tra cứu rất lâu sau khi tất cả chúng ta đã đi qua, và mỗi lần ai đó học được một điều mới từ nó mà không tốn một xu, di sản của Wales lại được nối dài thêm một chút.
+
+### Bài viết liên quan
+
+- [Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog](/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog/)
+- [iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn](/posts/iphone-18-gia-bao-nhieu/)
+- [App Store gatekeeper: Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
+- [iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt](/posts/iphone-18-co-gi-moi/)
+- [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/)
+- [Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu](/posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom/)
 
 Có lẽ đó mới là loại "giàu có" đáng để theo đuổi nhất — thứ không nằm trong tài khoản ngân hàng, mà nằm trong hàng tỷ khoảnh khắc con người trở nên hiểu biết hơn nhờ một công cụ ai đó đã tử tế trao tặng cho cả thế giới.

@@ -62,6 +62,22 @@ title = "iPhone 15 Pro Max màu titan có còn đáng mua không?"
 [[internal_links]]
 ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
 title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.md"
+title = "iPhone 15 Pro Max Natural Titanium: đánh giá màu"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md"
+title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
+
 +++
 “Camera iPhone 15 Pro Max còn đủ không hay phải lên 16?” — câu hỏi này xuất hiện mỗi khi có sự kiện Apple mới. Thực tế 2026, **phần lớn người dùng không cần cảm biến mới nhất** — họ cần **zoom ổn, video không rung, chụp tối không bệt**. iPhone 15 Pro Max vẫn đáp ứng tốt ba điều đó.
 
@@ -148,6 +164,13 @@ Chi tiết: [so với iPhone 16 Pro Max](/posts/iphone-15-pro-max-hay-iphone-16-
 - Photographer **cần RAW workflow** tối đa — cân 16 hoặc máy ảnh
 - Người **chụp một tay liên tục** — thiếu Camera Control
 - Người đã có **15 Pro Max** chỉ vì camera — chênh chưa đủ
+
+### Bài viết liên quan
+
+- [iPhone 15 Pro Max Blue Titanium có đáng săn?](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/)
+- [Trên tay iPhone 15 Pro Max: khung titan có khác thép không?](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/)
+- [iPhone 15 Pro Max Natural Titanium: đánh giá màu](/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau/)
+- [iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?](/posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao/)
 
 ## Kết luận
 

@@ -80,6 +80,18 @@ title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhấ
 [[internal_links]]
 ref = "posts/iphone-18-vs-iphone-17.md"
 title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
+[[internal_links]]
+ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
+title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
+
+[[internal_links]]
+ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
+title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
+
+[[internal_links]]
+ref = "posts/iphone-18-mau-gi-dark-cherry.md"
+title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
+
 +++
 Mỗi thế hệ iPhone, chip Apple Silicon là **trục kỹ thuật** quyết định hiệu năng, pin, nhiệt và khả năng chạy **Apple Intelligence**. Với **iPhone 18**, tin đồn tập trung vào **A20** và **A20 Pro** trên tiến trình **TSMC N2 (2nm)** — bước nhảy sau **A18/A19 3nm** trên iPhone 16/17. Apple **chưa công bố** chip hay tên A20; bài viết giải thích **vì sao 2nm được quan tâm** và **điều gì là tin đồn có nguồn**.
 
@@ -197,6 +209,12 @@ Benchmark thật **chỉ có sau keynote**; đồn TSMC **không thay** trải n
 - Đang dùng **iPhone 17** — A19 **còn dư sức** 2–3 năm cho đa số tác vụ.
 - Chỉ **lướt web, chat, app ngân hàng** — chip mới **khó cảm nhận**.
 - Ngân sách eo — **16/17 giảm giá** đủ dùng; 2nm **không miễn phí**.
+
+### Bài viết liên quan
+
+- [iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?](/posts/iphone-18-dynamic-island-nho-hon-under-display-face-id/)
+- [iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?](/posts/iphone-fold-iphone-ultra-la-gi/)
+- [iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?](/posts/iphone-18-mau-gi-dark-cherry/)
 
 ## Kết luận
 

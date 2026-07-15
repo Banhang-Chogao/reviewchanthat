@@ -19,6 +19,27 @@ def parse_toml_fm(text: str):
         return None, None, None, text
     return m.group(1), m.group(2), m.group(3), m.group(4)
 
+
+def _find_body_insertion_point(body: str) -> int:
+    """Find a natural spot to inject body links: before '## Kết luận' or last paragraph."""
+    idx = body.rfind("## Kết luận")
+    if idx >= 0:
+        # Insert after the blank line before the heading
+        pre = body[:idx]
+        # prune trailing whitespace
+        pre = pre.rstrip() + "\n\n"
+        return len(pre)
+    # Otherwise insert before the last paragraph (skip <hr>, blank lines)
+    parts = re.split(r"(\n{2,})", body)
+    # find last non-empty, non-horizontal-rule paragraph
+    for i in range(len(parts) - 1, -1, -1):
+        chunk = parts[i].strip()
+        if chunk and not chunk.startswith("---") and not chunk.startswith("***"):
+            if i > 0:
+                pre = "".join(parts[:i]).rstrip() + "\n\n"
+                return len(pre)
+    return len(body)
+
 def load_graph():
     if not DATA.exists():
         print("  data/internal-links.json not found — run build_internal_link_graph.py first")
@@ -65,14 +86,30 @@ def insert_internal_links():
         if not to_add:
             continue
 
-        block = ""
+        # 1. Append [[internal_links]] to front matter
+        fm_block = ""
+        body_links = ""
         for ref_val, title in to_add:
-            block += f'\n[[internal_links]]\nref = "{ref_val}"\ntitle = "{title}"\n'
+            safe_title = title.replace('"', '\\"')
+            fm_block += f'\n[[internal_links]]\nref = "{ref_val}"\ntitle = "{safe_title}"\n'
+            # Build a markdown link for the body
+            slug_path = ref_val.replace("posts/", "").replace(".md", "")
+            body_links += f"- [{title}](/posts/{slug_path}/)\n"
 
-        new_content = open_fm + fm + block + close_fm + body
+        # 2. Inject markdown links into body near the end
+        # Skip if "Bài viết liên quan" already exists (avoid duplicates)
+        if "### Bài viết liên quan" in body:
+            body_text = body
+        else:
+            insert_at = _find_body_insertion_point(body)
+            body_before = body[:insert_at].rstrip()
+            body_after = body[insert_at:]
+            body_text = body_before + "\n\n### Bài viết liên quan\n\n" + body_links + "\n" + body_after
+
+        new_content = open_fm + fm + fm_block + close_fm + body_text
         fpath.write_text(new_content, encoding="utf-8")
         added_total += len(to_add)
-        print(f"  + {slug}: added {len(to_add)} links")
+        print(f"  + {slug}: added {len(to_add)} links (FM + body)")
 
     print(f"\n  Total links added: {added_total}")
     print(f"  Orphans now linked: {len(orphan_linked)} / {len(orphans)}")

@@ -33,6 +33,38 @@ image_query = "sống bền vững scandinavia cách"
 [[faq]]
 question = "Q: Tôi có thể sống bền vững nếu tôi ở một quốc gia không phải Scandinavia không?"
 answer = "A: Hoàn toàn có thể. Nguyên tắc là giống nhau: bắt đầu từ những quyết định nhỏ hằng ngày (tái chế, tiêu thụ ít hơn, sử dụng phương tiện giao thông công cộng). Scandinavia có lợi thế về cơ sở hạ tầng, nhưng lối sống bền vững bắt đầu từ trong tư duy của bạn, không phải từ môi trường bạn sống."
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/thiet-ke-nordic-toida-gian-noi-that.md"
+title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
+
+[[internal_links]]
+ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
+title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
+
 +++
 ## Tại Sao Scandinavia Lại Là Tiêu Chuẩn Vàng Của Phong Trào Bền Vững?
 
@@ -77,5 +109,16 @@ Trên các đường phố của Stockholm, Oslo, và Helsinki, bạn sẽ thấ
 ## Kết Luận Trải Nghiệm Cá Nhân
 
 Sau hai năm ở Scandinavia, tôi bắt đầu thay đổi cách suy nghĩ của mình về bền vững. Trước đây, tôi coi nó như một cảnh báo khí hậu – điều gì đó quan trọng nhưng đáng sợ. Ở Scandinavia, tôi thấy nó như một cơ hội – cơ hội sống tốt hơn, tiết kiệm tiền, và tạo ra một xã hội mà mọi người đều có thể tin tưởng và dựa vào nhau.
+
+### Bài viết liên quan
+
+- [Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?](/posts/nang-luong-tai-tao-turbine-gio-scandinavia/)
+- [Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu](/posts/wellness-spa-scandinavia-sauna-nong/)
+- [Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu](/posts/thiet-ke-nordic-toida-gian-noi-that/)
+- [Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?](/posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi/)
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?](/posts/msi-claw-8-ex-ai-plus-review/)
+- [Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?](/posts/review-airpods-pro-3-2026/)
 
 Bền vững ở Scandinavia không phải là một gánh nặng hoặc một sự hy sinh. Đó là cách tối ưu để sống.

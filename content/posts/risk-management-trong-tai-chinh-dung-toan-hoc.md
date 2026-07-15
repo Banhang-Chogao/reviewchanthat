@@ -33,6 +33,38 @@ draft = false
 [ai_summary]
 items = ["Risk Management = Định lượng, monitor, minimize rủi ro tài chính", "VaR_α = Tổn thất tối đa ở mức tin cậy α% (đã học ở Bài 6)", "Historical VaR: Từ 250 ngày lịch sử, lấy 1% tồi nhất", "Parametric VaR: VaR = Portfolio × Z × σ (giả định phân phối chuẩn)", "Expected Shortfall: Mất lỗ trung bình vượt quá VaR", "Correlation Breakdown: Khi thị trường crash, correlation → 1 (diversification fail!)", "Stress Testing: Kịch bản cực đoan (2008 crisis, COVID, war, etc)"]
 draft = false
+[[internal_links]]
+ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
+title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
+
+[[internal_links]]
+ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
+title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
+[[internal_links]]
+ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
+title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
+
+[[internal_links]]
+ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
+title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
+
 +++
 **Risk Management** — quản lý rủi ro trong tài chính.
 
@@ -221,5 +253,16 @@ Capital Ratio = Capital / Risk-Weighted Assets ≥ 10.5%
 ---
 
 ## Tiếp theo: Monte Carlo
+
+### Bài viết liên quan
+
+- [FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro](/posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh/)
+- [Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục](/posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao/)
+- [công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?](/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro/)
+- [BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ](/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc/)
+- [Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio](/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien/)
+- [Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền](/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu/)
+- [AI trong tài chính: Deep learning, NLP, và reinforcement learning](/posts/ai-trong-tai-chinh-dung-toan-hoc-gi/)
+- [Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives](/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao/)
 
 Bài 13: Monte Carlo trong tài chính

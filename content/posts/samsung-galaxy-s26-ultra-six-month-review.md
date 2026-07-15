@@ -39,10 +39,6 @@ answer = "The S26 Ultra is more durable, has a better camera system, and the S P
 copyright = "© 2026 Review Chân Thật. Based on personal daily use of the Samsung Galaxy S26 Ultra from February to July 2026."
 source_note = "The S26 Ultra was purchased personally. No review unit was provided. This is an independent long-term review after six months of real-world use."
 
-[[internal_links]]
-ref = "posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.md"
-title = "AI PC là gì? Xu hướng laptop tích hợp AI 2026"
-
 [[external_links]]
 url = "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/"
 title = "Samsung Galaxy S26 Ultra Official Page"
@@ -63,8 +59,34 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-+++
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
 
+[[internal_links]]
+ref = "posts/review-asus-zenbook-duo-2026-laptop-2-man-hinh.md"
+title = "Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
+title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
++++
 ## The Phone I Did Not Want to Like
 
 I will start with a confession. When Samsung announced the Galaxy S26 Ultra in January 2026, I was skeptical. The S25 Ultra was already a refinement of the S24 Ultra, and the S24 Ultra was itself a refinement of the S23 Ultra. Three generations of iterative improvement had turned the Ultra series into a predictable annual cycle: better titanium finish, slightly improved cameras, faster chipset, higher price. I expected more of the same.
@@ -196,6 +218,16 @@ For readers who want specifics, here are the camera settings I have found most r
 **Food photos:** 3x telephoto with food mode on. Samsung's food mode boosts saturation slightly, making dishes look more appetizing.
 
 **Video:** 4K at 60fps with stabilization on. This is the sweet spot for quality and smoothness. 8K is reserved for short clips where you need the extra resolution.
+
+### Bài viết liên quan
+
+- [Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?](/posts/review-airpods-pro-3-2026/)
+- [Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần](/posts/review-asus-zenbook-duo-2026-laptop-2-man-hinh/)
+- [Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face](/posts/even-realities-g2-smart-glasses-review/)
+- [Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp](/posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap/)
+- [Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?](/posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026/)
+- [iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt](/posts/iphone-18-co-gi-moi/)
+- [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/)
 
 **Selfies:** 12MP front camera with portrait mode. The front camera is not as good as the rear cameras — skin smoothing can be aggressive — but it is fine for social media.
 

@@ -32,6 +32,38 @@ image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
 
 [ai_summary]
 items = ["FRM = Financial Risk Manager, chứng chỉ về quản trị rủi ro tài chính", "VaR (Value at Risk): Mất tối đa $ với xác suất X% trong 1 ngày", "VaR = Portfolio Value × |Z| × Volatility (với Z là z-score 1%, 5%, etc)", "Expected Shortfall (CVaR) = mất lỗ trung bình trong các trường hợp tồi tệ", "Lịch sử: Dùng log-return lịch sử để ước lượng VaR (Historical Simulation)", "Monte Carlo: Mô phỏng 10k+ kịch bản để tính VaR", "Backtesting: Kiểm tra VaR model có chính xác không (exceptions test)"]
+[[internal_links]]
+ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
+title = "Risk Management trong tài chính: Từ VaR đến stress testing"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
+[[internal_links]]
+ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
+title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
+
+[[internal_links]]
+ref = "posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao.md"
+title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục"
+
+[[internal_links]]
+ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
+title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
+
 +++
 FRM (Financial Risk Manager) là chứng chỉ quản trị rủi ro của GARP. FRMs dùng **toán học xác suất cao cấp** để:
 
@@ -196,5 +228,16 @@ Liquidity VaR = VaR + Spread Cost + Time to Exit
 ---
 
 ## Tiếp theo: Goldman Sachs & JPMorgan
+
+### Bài viết liên quan
+
+- [Risk Management trong tài chính: Từ VaR đến stress testing](/posts/risk-management-trong-tai-chinh-dung-toan-hoc/)
+- [công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?](/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro/)
+- [BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ](/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc/)
+- [Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio](/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien/)
+- [Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền](/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu/)
+- [AI trong tài chính: Deep learning, NLP, và reinforcement learning](/posts/ai-trong-tai-chinh-dung-toan-hoc-gi/)
+- [Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục](/posts/quy-dau-tu-dung-toan-hoc-nhu-the-nao/)
+- [Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives](/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao/)
 
 Bài 7: Goldman Sachs, JPMorgan dùng toán học như thế nào

@@ -74,6 +74,10 @@ title = "iPhone 15 Pro Max Natural Titanium: đánh giá màu"
 [[internal_links]]
 ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
 title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md"
+title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
+
 +++
 **Black Titanium** và **White Titanium** là hai cực **tối — sáng** trong bốn màu iPhone 15 Pro Max. Cả hai đều “an toàn” hơn Blue về chuyện phai lạ, nhưng **cách lộ vết thời gian** khác nhau hẳn. Bài này giúp bạn chốt một màu thay vì đổi ý sau một tuần.
 
@@ -163,6 +167,10 @@ Black hợp **sạc đen**, **ốp da nâu đen**. White hợp **ốp clear mớ
 - [ ] Xem **ốp bạn đang dùng** — tông nào?
 - [ ] Mua cũ: ảnh **viền + cạnh** dưới đèn
 - [ ] Đọc [pin và máy cũ](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/) trước khi chốt
+
+### Bài viết liên quan
+
+- [iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?](/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao/)
 
 ## Kết luận
 

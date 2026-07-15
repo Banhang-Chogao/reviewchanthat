@@ -82,6 +82,26 @@ value = "Mọi lứa tuổi"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = "Đi ngày thường, mua vé online"
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
+title = "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh.md"
+title = "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình"
+
+[[internal_links]]
+ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
+title = "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu"
+
 +++
 Caribbean Bay thuộc Everland Resort, Yongin — là công viên nước lớn nhất Hàn Quốc với khu trong nhà và ngoài trời. Cách Seoul 40 phút, đây là điểm đến lý tưởng cho ngày hè nóng bức.
 
@@ -145,6 +165,14 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi](/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di/)
+- [Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn](/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon/)
+- [Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình](/posts/seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh/)
+- [Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu](/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

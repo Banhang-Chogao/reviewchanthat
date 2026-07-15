@@ -45,6 +45,38 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026.md"
+title = "Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn"
+
 +++
 
 Tuần trước tôi ngồi ở một quán cà phê trên đường Nguyễn Huệ, quận 1. Đang nhâm nhi ly americano thì thấy anh bàn bên cạnh mở laptop ra, quét mã WiFi ở quán, kết nối, rồi mở thẳng Internet Banking — tất cả diễn ra trong chưa đầy ba phút. Anh ấy gõ mật khẩu, kiểm tra số dư, chuyển tiền, rồi tắt máy, tất cả qua một mạng WiFi công cộng hoàn toàn không có bất kỳ lớp bảo vệ nào.
@@ -223,5 +255,16 @@ Hồi tôi mới bắt đầu quan tâm đến bảo mật, tôi cũng từng ng
 Nếu bạn có thắc mắc hoặc muốn chia sẻ kinh nghiệm của mình về bảo mật WiFi công cộng, hãy để lại bình luận bên dưới. Có thể câu chuyện của bạn sẽ giúp ai đó tránh được một bài học đắt giá.
 
 Còn nếu bạn muốn tìm hiểu kỹ hơn về VPN — công cụ quan trọng nhất để bảo vệ bản thân trên WiFi công cộng — đừng quên đọc [bài review VPN 2026 NordVPN vs Surfshark vs ProtonVPN](/posts/review-vpn-2026-nordvpn-surfshark-protonvpn-viet-nam/) của tôi. Tôi đã dùng cả ba dịch vụ trong 6 tháng tại Việt Nam, đo tốc độ thực tế, kiểm tra unblock Netflix, test kill switch, và viết lại tất cả trong bài đó. Hy vọng nó giúp bạn chọn được dịch vụ phù hợp.
+
+### Bài viết liên quan
+
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?](/posts/nang-luong-tai-tao-turbine-gio-scandinavia/)
+- [MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?](/posts/msi-claw-8-ex-ai-plus-review/)
+- [Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu](/posts/wellness-spa-scandinavia-sauna-nong/)
+- [Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?](/posts/review-airpods-pro-3-2026/)
+- [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
+- [Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn](/posts/review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026/)
 
 Giữ an toàn nhé. Hẹn gặp lại ở bài viết sau.

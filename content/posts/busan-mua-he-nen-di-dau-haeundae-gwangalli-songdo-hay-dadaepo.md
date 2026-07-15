@@ -78,6 +78,26 @@ value = "Mọi đối tượng"
 label = "Di chuyển"
 value = "Metro Busan"
 image_attribution_checked_at = "2026-07-14T01:19:09+07:00"
+[[internal_links]]
+ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
+title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
+title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di.md"
+title = "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi"
+
+[[internal_links]]
+ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
+title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
+
 +++
 Busan có 4 bãi biển chính, mỗi nơi một phong cách. Bài viết này so sánh chi tiết giúp bạn chọn đúng bãi biển phù hợp với chuyến đi của mình.
 
@@ -154,5 +174,13 @@ Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm th
 **Thời tiết:** Mùa hè Hàn Quốc nóng ẩm; mùa đông lạnh và khô. Kiểm tra dự báo 3–5 ngày trước để điều chỉnh trang phục và lịch ngoài trời. Mưa rào ngắn vẫn có thể xảy ra — ô hoặc áo mưa gấp gọn nên nằm trong túi xách hàng ngày.
 
 **Đặt chỗ:** Nhà hàng nổi tiếng, spa và một số điểm tham quan nên đặt trước qua app hoặc hotline, nhất là cuối tuần. Khách sạn gần ga thường đắt hơn nhưng tiết kiệm thời gian — hợp nếu lịch trình dày.
+
+### Bài viết liên quan
+
+- [Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa](/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày](/posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay/)
+- [Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi](/posts/han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di/)
+- [Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?](/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong/)
 
 **An toàn và tiện ích:** Giữ hộ chiếu bản sao điện tử; mang ít tiền mặt nhưng vẫn cần won cho quán nhỏ. Ứng dụng dịch và bản đồ offline giúp ích khi sóng yếu trong hầm metro.

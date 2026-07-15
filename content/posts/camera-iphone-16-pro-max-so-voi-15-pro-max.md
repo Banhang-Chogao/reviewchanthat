@@ -66,6 +66,18 @@ title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.md"
 title = "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?"
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.md"
+title = "Trên tay iPhone 16 Pro Max màn hình 6.9 inch"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md"
+title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
+
 +++
 So camera **16 Pro Max vs 15 Pro Max**, nhiều người kỳ vọng **bước nhảy như 3x sang 5x** năm 2023. Thực tế 2026: **ống kính gần nhau**, khác biệt nằm ở **chip xử lý**, **Camera Control** và **tính năng phần mềm** gắn A18 Pro.
 
@@ -138,6 +150,12 @@ Tổng so sánh máy: [so với iPhone 15 Pro Max](/posts/iphone-15-pro-max-hay-
 
 - Người **hài lòng** ảnh 15
 - Đổi **chỉ** vì nghe “camera mới”
+
+### Bài viết liên quan
+
+- [iPhone 16 Pro Max Desert Titanium hợp ai?](/posts/iphone-16-pro-max-desert-titanium-hop-ai/)
+- [Trên tay iPhone 16 Pro Max màn hình 6.9 inch](/posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch/)
+- [iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?](/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao/)
 
 ## Kết luận
 

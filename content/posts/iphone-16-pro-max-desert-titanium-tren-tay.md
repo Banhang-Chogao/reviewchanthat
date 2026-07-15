@@ -74,6 +74,10 @@ title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
 [[internal_links]]
 ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
 title = "iPhone 16 Pro Max năm 2026 nên mua không?"
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
 +++
 iPhone 16 Pro Max là bước **phóng to** có chủ đích: **màn 6.9 inch**, **Camera Control**, chip **A18 Pro** và màu **Desert Titanium** — tone cát sa mạc ấm, khác hoàn toàn palette lạnh của iPhone 15 Pro Max. Nửa 2026, khi giá máy đã hạ nhiệt, đây là lúc đánh giá **lạnh lùng** xem Pro Max 2024 còn hợp người mua Việt Nam không.
 
@@ -161,6 +165,10 @@ Tóm tắt: **có** nếu bạn cần **màn lớn + Camera Control + pin** và 
 - [ ] Chọn màu: [Desert Titanium](/posts/iphone-16-pro-max-desert-titanium-hop-ai/) vs [Natural, White và Black Titanium](/posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao/)
 - [ ] So giá **15 Pro Max cũ** pin tốt
 - [ ] Đọc [pin iPhone 16 Pro Max](/posts/pin-iphone-16-pro-max-co-dang-chon/) nếu mua second-hand
+
+### Bài viết liên quan
+
+- [iPhone 15 Pro Max Blue Titanium có đáng săn?](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/)
 
 ## Kết luận
 

@@ -90,6 +90,14 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Thời gian đọc"
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
+title = "iPhone 16 Pro Max năm 2026 nên mua không?"
+
 +++
 Đi Hàn Quốc mùa đông mà không thử trượt tuyết thì hơi phí. Nhưng giữa 6 resort ở Gangwon-do, chọn cái nào? Câu trả lời không phải "cái nào đẹp nhất" mà là "cái nào hợp với bạn nhất". Bài này mình tổng hợp để bạn dễ quyết định.
 
@@ -142,5 +150,10 @@ Gondola lên đỉnh 1.340 m, nhà hàng xoay view dãy Taebaek. Cái này khôn
 **Trang phục:** Lớp trong thấm mồ hôi, lớp giữ nhiệt, áo khoác chống gió và chống nước; găng tay, mũ và kính bảo vệ mắt. Thuê đồ tại resort tiện nhưng size có thể hết cuối tuần — đến sớm hoặc đặt trước nếu có dịch vụ.
 
 **An toàn:** Người mới nên học lớp cơ bản 2–3 giờ thay vì tự lên slope cao. Kiểm tra điều kiện tuyết và gió trên bảng resort trước khi vào khu vực khó.
+
+### Bài viết liên quan
+
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
+- [iPhone 16 Pro Max năm 2026 nên mua không?](/posts/iphone-16-pro-max-nam-2026-nen-mua-khong/)
 
 **Chi phí:** Giá vé lift, thuê thiết bị và phí xe trượt thay đổi theo mùa và ngày trong tuần. Theo [Visit Korea](https://english.visitkorea.or.kr/), nên đối chiếu bảng giá resort trước khi đi.

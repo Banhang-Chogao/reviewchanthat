@@ -63,6 +63,22 @@ title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho Mac
 [[internal_links]]
 ref = "posts/chuan-bi-macbook-truoc-khi-len-macos-27.md"
 title = "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app"
+[[internal_links]]
+ref = "posts/macos-27-hieu-nang-pin-macbook.md"
+title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
+
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+
+[[internal_links]]
+ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
+title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
+
+[[internal_links]]
+ref = "posts/macos-27-so-voi-macos-26.md"
+title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
+
 +++
 Public beta macOS 27 dự kiến **tháng 7/2026** — đúng lúc nhiều người rảnh thử hệ điều hành mới. Nhưng beta trên Mac **không giống** beta game: rollback khó, dữ liệu công việc thật, app ngân hàng có thể từ chối chạy.
 
@@ -179,6 +195,13 @@ Một số người dùng giữ beta cả mùa vì “quen rồi” — chấp n
 ## Phản hồi bug có ích cho Apple
 
 Nếu bạn cài beta, dùng app **Feedback Assistant** báo lỗi kèm **build number** và steps reproduce. Cộng đồng Việt Nam ít gửi feedback tiếng Việt — báo cáo lỗi locale giúp Apple ưu tiên fix trước public release.
+
+### Bài viết liên quan
+
+- [macOS 27 có cải thiện hiệu năng và pin MacBook không?](/posts/macos-27-hieu-nang-pin-macbook/)
+- [macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?](/posts/macos-27-apple-intelligence-macbook/)
+- [macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?](/posts/macos-27-cho-van-phong-creator-lap-trinh-vien/)
+- [macOS 27 so với macOS 26: khác gì với người dùng Mac?](/posts/macos-27-so-voi-macos-26/)
 
 ## Kết luận
 

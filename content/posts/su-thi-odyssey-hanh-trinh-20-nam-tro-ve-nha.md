@@ -8,9 +8,6 @@ thumbnail = "images/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.webp"
 categories = ["review"]
 tags = ["su-thi-hy-lap", "odyssey", "odysseus", "homer", "van-hoc-co-dien", "phim-co-trang", "review-phim"]
 commit = "26bf2d62"
-[[internal_links]]
-ref = "/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha"
-title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Odyssey"
 title = "Odyssey – Wikipedia"
@@ -45,8 +42,34 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-+++
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
 
+[[internal_links]]
+ref = "posts/review-super-8-2011-biet-doi-thieu-nien-va-bi-an.md"
+title = "Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
+
+[[internal_links]]
+ref = "posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.md"
+title = "Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?"
+
+[[internal_links]]
+ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
+title = "Checklist trước khi mua một sản phẩm online"
+
+[[internal_links]]
+ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
+title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
++++
 Bạn có biết từng có một người anh hùng mất 10 năm để đánh bại một thành trì, và mất thêm 10 năm nữa chỉ để tìm đường về nhà?
 
 Trong suốt hành trình ấy, chàng chọc giận các vị thần quyền năng nhất đỉnh Olympus, chiến đấu với quái vật chỉ tồn tại trong truyền thuyết, bị cám dỗ bởi sắc đẹp, quyền lực và cả sự bất tử. Hết lần này đến lần khác, khi quê nhà đã trong tầm mắt, số phận lại đẩy chàng ra ngoài đại dương bao la.
@@ -163,5 +186,15 @@ Penelope và Odysseus gặp lại nhau trong niềm hạnh phúc vô bờ.
 Sử thi Odyssey không chỉ là câu chuyện về một người anh hùng. Đó là câu chuyện về tình yêu chung thủy — Penelope đã đợi chồng 20 năm. Đó là câu chuyện về sự kiên trì — Odysseus không bao giờ bỏ cuộc dù bao lần tưởng chừng gục ngã. Và đó cũng là câu chuyện về bài học khiêm tốn — vì một lời khoe khoang kiêu ngạo mà chàng phải trả giá đắt.
 
 Bộ phim Odyssey 1997 của đạo diễn Andrei Konchalovsky có thể có hiệu ứng hình ảnh hơi cũ so với bom tấn ngày nay, nhưng đây vẫn là bản chuyển thể trung thành và dễ tiếp cận nhất về sử thi vĩ đại này. Nếu bạn chưa xem, hãy tìm một tối cuối tuần, bật phim lên và cùng gia đình sống lại hành trình của Odysseus.
+
+### Bài viết liên quan
+
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm](/posts/review-super-8-2011-biet-doi-thieu-nien-va-bi-an/)
+- [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
+- [Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face](/posts/even-realities-g2-smart-glasses-review/)
+- [Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?](/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs/)
+- [Checklist trước khi mua một sản phẩm online](/posts/checklist-truoc-khi-mua-mot-san-pham-online/)
+- [Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?](/posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi/)
 
 Còn bạn, bạn đã biết đến câu chuyện này chưa? Hãy chia sẻ cảm nghĩ nhé.

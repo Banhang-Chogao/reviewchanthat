@@ -93,6 +93,14 @@ title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS the
 [[internal_links]]
 ref = "posts/european-commission-duoc-gi-khi-thang-apple.md"
 title = "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới"
+[[internal_links]]
+ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
+title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 +++
 Hai năm rưỡi sau khi Apple được chỉ định **gatekeeper** theo Digital Markets Act (DMA), iPhone ở châu Âu **không giống** iPhone ở Việt Nam. Cùng một logo táo khuyết, nhưng người dùng Berlin có thể thấy **browser choice screen**, **marketplace thay thế** và **cảnh báo thanh toán ngoài App Store** — còn người dùng Hà Nội vẫn **một cửa App Store, một Apple ID, một quy trình hoàn tiền quen thuộc**.
 
@@ -208,6 +216,11 @@ Sau 8 bài, bức tranh **cân bằng** hơn headline:
 Review Chân Thật không chọn phe Apple hay EC. Chúng tôi chọn **minh bạch nguồn** và **đánh đổi thực tế**. DMA là **thí nghiệm quy mô lớn** — thế giới đang xem EU chạy thử nghiệm trên iPhone.
 
 Theo dõi tiếp: kháng cáo Apple, EC điều tra CTF, marketplace EU đạt critical mass chưa, luật tương tự ở UK/Hàn. Chúng tôi sẽ cập nhật [bài pillar](/posts/apple-thua-kien-eu-app-store-ios-dma/) khi có mốc mới.
+
+### Bài viết liên quan
+
+- [Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?](/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
 
 ## Kết luận
 

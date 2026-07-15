@@ -63,6 +63,30 @@ title = "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha n
 [[internal_links]]
 ref = "posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.md"
 title = "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam"
+[[internal_links]]
+ref = "posts/starbucks-vietnam-khong-gian-va-trai-nghiem.md"
+title = "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\""
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-menu-do-uong-nen-thu.md"
+title = "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu"
+
+[[internal_links]]
+ref = "posts/starbucks-vietnam-nhan-vien-va-dich-vu.md"
+title = "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt"
+
+[[internal_links]]
+ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
+title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
+
+[[internal_links]]
+ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"
+title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
+
+[[internal_links]]
+ref = "posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com.md"
+title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
+
 +++
 Lần đầu order Starbucks, bạn có thể nghe nhân viên hỏi một loạt: "Size gì ạ? Anh/chị uống tại chỗ hay mang đi? Có cần ít đá không?" — đừng ngại. Sau vài lần, bạn sẽ có **công thức order** riêng và tiết kiệm được thời gian lẫn tiền (nhờ Rewards).
 
@@ -164,5 +188,14 @@ Mình đã giới thiệu nhiều bạn lần đầu vào Starbucks tại đây 
 Qua 6 bài, mình đi từ **lịch sử thương hiệu** đến **review chi tiết Nguyễn Văn Trỗi**, menu, dịch vụ, không gian và mẹo order. Nếu chỉ đọc một bài, hãy chọn [review Nguyễn Văn Trỗi](/posts/starbucks-nguyen-van-troi-sai-gon-review/) — trung tâm trải nghiệm mình khen nhiều nhất.
 
 **[phân tích]** Starbucks không thay thế cà phê phin hay quán nhỏ yêu thích — nhưng nó lấp chỗ trống khi bạn cần **không gian + dịch vụ + ly nước ổn định**. Với mình, Nguyễn Văn Trỗi là chi nhánh đáng ghé lại khi di chuyển quanh Phú Nhuận.
+
+### Bài viết liên quan
+
+- [Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm "third place"](/posts/starbucks-vietnam-khong-gian-va-trai-nghiem/)
+- [Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu](/posts/starbucks-vietnam-menu-do-uong-nen-thu/)
+- [Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt](/posts/starbucks-vietnam-nhan-vien-va-dich-vu/)
+- [Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)](/posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026/)
+- [How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors](/posts/how-to-choose-reputable-hotels-ho-chi-minh-city/)
+- [How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill](/posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com/)
 
 Đọc lại từ đầu series: [Lịch sử Starbucks Vietnam](/posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam/)

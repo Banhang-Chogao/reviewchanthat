@@ -62,6 +62,34 @@ value = "Áo mưa gấp gọn"
 [[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
+title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
+title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+
+[[internal_links]]
+ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
+title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
+
+[[internal_links]]
+ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
+title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
+
+[[internal_links]]
+ref = "posts/doi-baht-o-viet-nam-hay-thai-lan.md"
+title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
+
 +++
 ## Checklist vali đi Thái mùa mưa
 
@@ -239,5 +267,15 @@ Trước khi khóa vali, hãy check nhanh:
 **💵 Tiền:** baht (đã đổi) + thẻ tín dụng + USD dự phòng
 
 Đừng quên bài {{< ref "posts/doi-baht-o-viet-nam-hay-thai-lan" >}} để biết tỷ giá tốt nhất trước khi đổi baht. Nếu bạn đi Phuket, xem {{< ref "posts/phuket-mua-mua-co-nen-di-khong" >}} để chọn lịch trình biển phù hợp thời tiết.
+
+### Bài viết liên quan
+
+- [Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?](/posts/koh-samui-mua-he-so-voi-phuket/)
+- [Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?](/posts/krabi-mua-mua-ao-nang-railay-tour-dao/)
+- [Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?](/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7/)
+- [Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?](/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab/)
+- [Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour](/posts/bangkok-ngay-mua-nen-di-dau/)
+- [Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn](/posts/phuket-mua-mua-co-nen-di-khong/)
+- [Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc](/posts/doi-baht-o-viet-nam-hay-thai-lan/)
 
 Cuối cùng, hãy chuẩn bị tinh thần: mưa ở Thái Lan thường là mưa rào 15–30 phút, tạnh rồi nắng lại. Đừng để mưa làm hỏng chuyến đi — chỉ cần vali đúng, bạn sẽ luôn sẵn sàng.

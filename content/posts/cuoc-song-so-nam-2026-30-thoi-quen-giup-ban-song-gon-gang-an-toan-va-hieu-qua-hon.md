@@ -65,6 +65,34 @@ answer = "Duy trì và điều chỉnh theo nhu cầu. Đọc tiếp các bài t
 [[internal_links]]
 ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
 title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại"
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
+
+[[internal_links]]
+ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
+title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
+
+[[internal_links]]
+ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac.md"
+title = "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc"
+
+[[internal_links]]
+ref = "posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos.md"
+title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS"
+
+[[internal_links]]
+ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
+title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
+
+[[internal_links]]
+ref = "posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai.md"
+title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại"
+
+[[internal_links]]
+ref = "posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi.md"
+title = "Digital Minimalism: sống tối giản trong thời đại AI và mạng xã hội"
+
 +++
 Bạn có bao nhiêu tài khoản trực tuyến? **Bao nhiêu mật khẩu bạn dùng lại?** Lần cuối bạn xóa ảnh mờ, ảnh trùng là khi nào? Email cá nhân có bao nhiêu thư chưa đọc — 1.000 hay 10.000?
 
@@ -373,5 +401,15 @@ Nếu bài viết này là lần đầu bạn tiếp cận **cuộc sống số*
 3. **Tắt notification rác** (bảo vệ sự tập trung)
 
 Sau đó đọc tiếp các bài trong series để đi sâu từng chủ đề. Mỗi bài đều có checklist riêng — bạn có thể chọn bài phù hợp với nhu cầu trước mắt.
+
+### Bài viết liên quan
+
+- [Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị](/posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi/)
+- [Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?](/posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho/)
+- [Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc](/posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac/)
+- [Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS](/posts/don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos/)
+- [Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối](/posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi/)
+- [Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại](/posts/backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai/)
+- [Digital Minimalism: sống tối giản trong thời đại AI và mạng xã hội](/posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi/)
 
 > **Bài tiếp theo:** [Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối](/posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi/)

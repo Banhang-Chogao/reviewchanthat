@@ -82,6 +82,22 @@ title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS the
 [[internal_links]]
 ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
 title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
+title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
+
+[[internal_links]]
+ref = "posts/european-commission-duoc-gi-khi-thang-apple.md"
+title = "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 +++
 “Mở iOS là tốt cho người dùng” — câu đó xuất hiện liên tục trong thông cáo của European Commission (EC) và các nhóm ủng hộ cạnh tranh. Nhưng nếu bạn hỏi một người dùng iPhone bình thường ở Berlin hay Paris **họ sợ điều gì nhất**, câu trả lời thường không phải “thiếu marketplace thay thế”, mà là **lừa đảo, app giả, mất tiền không lấy lại được**.
 
@@ -178,6 +194,13 @@ Chúng tôi không coi DMA tuyệt đối xấu hay tốt. EC đúng khi gatekee
 Lời khuyên cho người dùng EU: ưu tiên App Store cho app tài chính/trẻ em; đọc sheet cài đặt khi sideload; không kỳ vọng Apple hoàn tiền giao dịch ngoài hệ sinh thái.
 
 Bài tiếp theo trong series xem **phía developer được gì**: [Nhà phát triển app được lợi gì từ DMA?](/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma/).
+
+### Bài viết liên quan
+
+- [App Store gatekeeper: Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
+- [Apple vs EC, DMA và tương lai iPhone: kết luận series](/posts/apple-vs-ec-dma-tuong-lai-iphone/)
+- [European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới](/posts/european-commission-duoc-gi-khi-thang-apple/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
 
 ## Kết luận
 

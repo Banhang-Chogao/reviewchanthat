@@ -71,6 +71,38 @@ label = "Phù hợp"
 
 [[tom_tat_nhanh]]
 label = "Điểm nhấn"
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-co-dep-khong.md"
+title = "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/seoraksan-thang-10-ngam-la-do.md"
+title = "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem.md"
+title = "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ"
+
+[[internal_links]]
+ref = "posts/nami-thang-10-co-dang-di-khong.md"
+title = "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.md"
+title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
+title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
+
 +++
 Seoul tháng 10 là thời điểm nhiều du khách chọn để kết hợp khám phá thành phố và ngắm mùa thu. Theo [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), các điểm ngắm lá đỏ phổ biến ở Seoul gồm Gyeongbokgung Palace, Seoul Forest, Olympic Park và Seokchon Lake — cùng Deoksugung Stone Wall Path.
 
@@ -262,5 +294,16 @@ Giá có thể thay đổi theo mùa, ngày đi và tỷ giá.
 ## Gợi ý thực tế bổ sung
 
 Trước khi chốt lịch, đối chiếu **giờ mở cửa**, **phí tham quan** và **tuyến di chuyển** trên [Visit Korea](https://english.visitkorea.or.kr/) hoặc trang chính thức. Dự báo lá đỏ thay đổi theo năm — kiểm tra forecast trước ngày đi.
+
+### Bài viết liên quan
+
+- [Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm](/posts/di-han-thang-10-mac-gi/)
+- [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+- [Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn](/posts/di-han-thang-10-co-dep-khong/)
+- [Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?](/posts/seoraksan-thang-10-ngam-la-do/)
+- [Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ](/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem/)
+- [Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul](/posts/nami-thang-10-co-dang-di-khong/)
+- [Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan](/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem/)
+- [Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?](/posts/han-quoc-thang-10-co-la-do-chua/)
 
 Tổng quan series: [Đi Hàn tháng 10 có đẹp không?]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}).

@@ -25,9 +25,6 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-[[internal_links]]
-ref = "/posts/ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro"
-title = "AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro"
 [[external_links]]
 url = "https://openai.com"
 title = "OpenAI GPT-5.6"
@@ -58,8 +55,34 @@ source_note = "Pricing and availability may change. Models tested: GPT-5.6 (Sol,
 image_attribution_checked_at = "2026-07-15T03:31:47+07:00"
 image_query = "gpt-5 vs grok vs muse"
 image_alt = "Ảnh minh họa GPT-5.6 vs Grok 4.5 vs Muse Spark 1.1: Real-World AI Model Review 2026 — nguồn Pexels"
-+++
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
 
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
+
+[[internal_links]]
+ref = "posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.md"
+title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026"
++++
 ## The Week AI Pricing Broke
 
 I spent the second week of July 2026 doing something I never expected: running the same prompts across three different AI models side by side, watching their outputs, timing their responses, and calculating the token cost of every single task. The reason is simple. In the span of 24 hours starting July 8, three of the biggest AI companies in the world released new models that fundamentally changed the pricing landscape.
@@ -169,5 +192,15 @@ The models themselves are becoming commodities. The differentiation is shifting 
 But it also means we need to think differently about how we use AI. The era of treating a single model as the default choice for everything is ending. The smartest approach is multi-model routing — using the right model for each task based on its strengths and cost.
 
 Over the next few months, I expect this trend to accelerate. More models will enter the market. Pricing will continue to drop. The winners will not be the companies with the smartest models but the companies that make it easiest to use the right model for every task.
+
+### Bài viết liên quan
+
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?](/posts/nang-luong-tai-tao-turbine-gio-scandinavia/)
+- [MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?](/posts/msi-claw-8-ex-ai-plus-review/)
+- [Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu](/posts/wellness-spa-scandinavia-sauna-nong/)
+- [Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?](/posts/review-airpods-pro-3-2026/)
+- [Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026](/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh/)
 
 For now, I have all three models in my toolkit. Each one earns its place for different jobs. And for the first time in years, I feel like the AI industry is building tools that actually fit the way people work, instead of forcing people to fit how the models work.

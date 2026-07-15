@@ -45,6 +45,38 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/digital-markets-act-la-gi-eu-siet-apple-google-meta.md"
+title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/nha-phat-trien-app-duoc-loi-gi-tu-dma.md"
+title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra"
+
+[[internal_links]]
+ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
+title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
+
 +++
 You walk into a store in July 2026 looking for a new laptop. The MacBook Pro you were eyeing last year? It costs VND 18 million more today. The Xbox Series X? Up by nearly VND 3 million. Even mid-range Android phones have crept up by a million dong or more.
 
@@ -203,6 +235,17 @@ AI inflation is not a conspiracy by hardware companies to extract more money fro
 The good news is that this is happening in an industry that has overcome massive supply challenges before. The bad news is that it takes years to build semiconductor fabs, and the AI industry is not waiting.
 
 For consumers, the practical takeaway is simple: hardware is not going to get cheaper for a while. Plan accordingly. Buy what you need when you need it, consider last-generation devices, watch for sales, and understand that the cost of your next laptop is partly the cost of making AI a reality.
+
+### Bài viết liên quan
+
+- [iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn](/posts/iphone-18-gia-bao-nhieu/)
+- [App Store gatekeeper: Apple sợ mất điều gì?](/posts/app-store-gatekeeper-apple-so-mat-dieu-gi/)
+- [iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt](/posts/iphone-18-co-gi-moi/)
+- [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/)
+- [Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào](/posts/digital-markets-act-la-gi-eu-siet-apple-google-meta/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
+- [Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra](/posts/nha-phat-trien-app-duoc-loi-gi-tu-dma/)
+- [iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?](/posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi/)
 
 That MacBook Pro is more expensive not because of inflation in the traditional sense, but because somewhere in the world, a data center just bought the 10,000 HBM modules that could have gone into 200,000 laptops instead. And that tradeoff is going to define the hardware market for years to come.
 

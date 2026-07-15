@@ -71,6 +71,38 @@ label = "Đặc điểm"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý"
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-10.md"
+title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-11-co-la-do-chua.md"
+title = "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
+title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
+
+[[internal_links]]
+ref = "posts/jeju-thang-11-co-dep-khong.md"
+title = "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/jeju-thang-10-co-dep-khong.md"
+title = "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.md"
+title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
 +++
 Tháng 11 là thời điểm Hàn Quốc bước vào **cuối mùa thu** — lạnh hơn tháng 10 rõ rệt, trời tối sớm và gió tăng dần. Nhiều du khách chọn tháng này vì Seoul và các cung điện thường vào **peak lá đỏ**, nhưng cũng lo lắng: *lạnh thế nào, có mưa không, và cần mang gì trong vali?*
 
@@ -211,5 +243,16 @@ So sánh thêm với [Đi Hàn tháng 10 có đẹp không?]({{< ref "posts/di-h
 Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **phí tham quan** và **tuyến di chuyển** trên [Visit Korea](https://english.visitkorea.or.kr/) hoặc trang chính thức của địa điểm. Thông tin trong bài mang tính tham khảo; giá vé, tỷ giá và lịch trình có thể thay đổi theo mùa, ngày lễ và năm.
 
 Nếu đã nắm thời tiết, bước tiếp theo là chọn điểm đến: [Seoul tháng 11 nên đi đâu?]({{< ref "posts/seoul-thang-11-nen-di-dau" >}}) cho lịch trình 3 ngày ngắm peak lá đỏ, hoặc [Hàn Quốc tháng 11 còn lá đỏ không?]({{< ref "posts/han-quoc-thang-11-co-la-do-chua" >}}) để so sánh Seoul, Nami và Seoraksan.
+
+### Bài viết liên quan
+
+- [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+- [Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?](/posts/han-quoc-thang-11-co-la-do-chua/)
+- [Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?](/posts/han-quoc-thang-10-co-la-do-chua/)
+- [Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày](/posts/jeju-thang-11-co-dep-khong/)
+- [Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày](/posts/jeju-thang-10-co-dep-khong/)
+- [Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan](/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+- [Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm](/posts/di-han-thang-10-mac-gi/)
 
 Xem tổng quan toàn series tại [Đi Hàn tháng 11 có đẹp không?]({{< ref "posts/di-han-thang-11-co-dep-khong" >}}).

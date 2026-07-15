@@ -28,6 +28,38 @@ image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "hè 2026 top khóa học"
 image_alt = "Ảnh minh họa Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10 — nguồn Pixabay"
 date_display = "11-07-2026 12:00:00 GMT +7"
+[[internal_links]]
+ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
+title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026.md"
+title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?"
+
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+
+[[internal_links]]
+ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
+title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
+
+[[internal_links]]
+ref = "posts/xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu.md"
+title = "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè"
+
+[[internal_links]]
+ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon.md"
+title = "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn"
+
+[[internal_links]]
+ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
+title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối"
+
 +++
 Tháng 7 là thời điểm vàng giữa hè — học sinh, sinh viên đã quen với nhịp nghỉ, và đây chính là **tháng nước rút** trước khi năm học mới bắt đầu vào tháng 9. Nếu bạn đang ngồi ở nhà lướt điện thoại, đã đến lúc nghĩ đến chuyện nâng cấp bản thân. Một khóa học ngắn hạn, một chứng chỉ ngoại ngữ, hay đơn giản là một công việc part-time có thể giúp CV của bạn nổi bật hơn hẳn so với hàng trăm ứng viên khác khi xin thực tập hoặc việc làm chính thức sau này.
 
@@ -121,5 +153,16 @@ Không phải công việc part-time nào cũng giống nhau. Một số công v
 ---
 
 Tháng 7 năm 2026 không còn nhiều ngày, nhưng vẫn đủ để bạn hoàn thành một khóa học ngắn, đăng ký thi chứng chỉ, hoặc tìm một công việc part-time đầu đời. Khoản đầu tư tốt nhất bạn có thể làm cho tương lai chính là **bắt đầu ngay hôm nay** — trước khi năm học mới cuốn bạn vào lịch thi và bài tập.
+
+### Bài viết liên quan
+
+- [Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/)
+- [AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6](/posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6/)
+- [Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?](/posts/smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026/)
+- [AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế](/posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te/)
+- [Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị](/posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi/)
+- [Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè](/posts/xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu/)
+- [Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn](/posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon/)
+- [Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối](/posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi/)
 
 Đừng để đến tháng 9 nhìn lại và tiếc vì đã lướt điện thoại cả mùa hè. CV đẹp không phải tự nhiên có — nó được xây từ từng khóa học, từng chứng chỉ, từng công việc nhỏ của bạn ngay bây giờ.

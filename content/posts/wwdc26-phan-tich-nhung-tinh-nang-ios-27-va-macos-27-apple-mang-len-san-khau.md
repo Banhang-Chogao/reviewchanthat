@@ -88,6 +88,38 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
+[[internal_links]]
+ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
+title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
+
+[[internal_links]]
+ref = "posts/macos-27-apple-intelligence-macbook.md"
+title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+
+[[internal_links]]
+ref = "posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi.md"
+title = "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói"
+
+[[internal_links]]
+ref = "posts/ios-27-co-gi-moi.md"
+title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
+
+[[internal_links]]
+ref = "posts/macos-27-co-gi-moi.md"
+title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
+
+[[internal_links]]
+ref = "posts/macos-27-beta-co-nen-cai-khong.md"
+title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
+[[internal_links]]
+ref = "posts/macos-27-ho-tro-may-mac-nao.md"
+title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
+
+[[internal_links]]
+ref = "posts/macos-27-hieu-nang-pin-macbook.md"
+title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
+
 +++
 Bạn có nhớ cảm giác mỗi lần WWDC tới gần không? Cộng đồng Apple lại chia làm hai phe: một phe chỉ muốn biết có đáng lên iOS mới không, phe kia soi từng dòng code trong beta developer. **WWDC26** cũng không ngoại lệ — nhưng năm nay áp lực cao hơn nhiều.
 
@@ -176,5 +208,16 @@ Nếu chỉ nhớ ba điều:
 1. **Siri AI** là thay đổi tư duy, không phải đổi icon.
 2. **Hiệu năng** là lý do nâng cấp thực tế cho máy đời cũ.
 3. **Tin đồn phần cứng** (iPhone gập) không phải chuyện của WWDC.
+
+### Bài viết liên quan
+
+- [iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?](/posts/ios-27-apple-intelligence-iphone-cu/)
+- [macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?](/posts/macos-27-apple-intelligence-macbook/)
+- [WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói](/posts/wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi/)
+- [iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone](/posts/ios-27-co-gi-moi/)
+- [macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac](/posts/macos-27-co-gi-moi/)
+- [macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định](/posts/macos-27-beta-co-nen-cai-khong/)
+- [macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel](/posts/macos-27-ho-tro-may-mac-nao/)
+- [macOS 27 có cải thiện hiệu năng và pin MacBook không?](/posts/macos-27-hieu-nang-pin-macbook/)
 
 *Bài viết cập nhật: 08/07/2026. Thông tin Apple Intelligence và Siri AI có thể thay đổi theo bản beta và khu vực phát hành.*

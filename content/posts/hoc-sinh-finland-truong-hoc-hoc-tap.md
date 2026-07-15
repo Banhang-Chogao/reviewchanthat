@@ -45,6 +45,38 @@ answer = "A: Kỳ thi Matrikulaatio được coi là thử thách thực sự, n
 [[faq]]
 question = "Q: Phần Lan có lo về sự hình thành khoảng cách giáo dục giữa các trường giáo dục công cộng không?"
 answer = "A: Có. Phần Lan có khác biệt nhỏ nhưng vẫn tồn tại giữa các trường (khoảng 5-10% khác biệt kết quả PISA). Để giải quyết điều này, họ cách giảm tỷ lệ học sinh trên giáo viên, cung cấp hỗ trợ riêng cho học sinh khó khăn, và cấp kinh phí bằng nhau cho tất cả các trường."
+[[internal_links]]
+ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
+title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
+
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
+title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
+
+[[internal_links]]
+ref = "posts/msi-claw-8-ex-ai-plus-review.md"
+title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
+
+[[internal_links]]
+ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
+title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
+
+[[internal_links]]
+ref = "posts/review-airpods-pro-3-2026.md"
+title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
+
+[[internal_links]]
+ref = "posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.md"
+title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026"
+
+[[internal_links]]
+ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
+title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
+
 +++
 ## Một Hệ Thống Giáo Dục Không Giống Bất Cứ Cái Gì Ở Đâu Khác
 
@@ -81,5 +113,16 @@ Phần Lan có một quan điểm khác. Họ tin rằng thời gian sau trườ
 **Chi Phí:** Giáo dục công lập từ tiểu học đến đại học hoàn toàn miễn phí cho công dân Phần Lan và cư dân vĩnh viễn. Sinh viên quốc tế phải trả học phí, nhưng vẫn rẻ hơn nhiều nước khác (€9,000-€20,000/năm).
 
 ## Kết Luận Trải Nghiệm Cá Nhân
+
+### Bài viết liên quan
+
+- [Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu](/posts/starbucks-vietnam-meo-goi-order-va-rewards/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?](/posts/nang-luong-tai-tao-turbine-gio-scandinavia/)
+- [MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?](/posts/msi-claw-8-ex-ai-plus-review/)
+- [Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu](/posts/wellness-spa-scandinavia-sauna-nong/)
+- [Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?](/posts/review-airpods-pro-3-2026/)
+- [Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026](/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh/)
+- [So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?](/posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat/)
 
 Sau khi trải qua hệ thống giáo dục Phần Lan, tôi bắt đầu suy ngẫm về những giáo dục khác trên thế giới. Ở Phần Lan, giáo dục là về việc học, không phải về thành công trong các bài kiểm tra. Đó là lý do tại sao học sinh Phần Lan hạnh phúc và thông minh.

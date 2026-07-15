@@ -65,6 +65,26 @@ title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không kh
 [[internal_links]]
 ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
 title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/di-thai-lan-thang-7-co-nen-khong.md"
+title = "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý"
+
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
+title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+
+[[internal_links]]
+ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
+title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
+
 +++
 ## Koh Samui vs Phuket — đâu là lựa chọn đúng cho tháng 7–8?
 
@@ -228,5 +248,13 @@ Nếu bạn có ngân sách thoải mái và muốn một chuyến nghỉ biển
 Cả Koh Samui và Phuket đều có thể đến từ Bangkok bằng máy bay (1 giờ 15 phút) hoặc bằng tàu hỏa + ferry từ Bangkok. Nếu bạn bay từ Việt Nam, hãy kiểm tra các đường bay vì lịch bay thay đổi theo mùa.
 
 Đừng quên tham khảo [bài tổng quan du lịch Thái Lan mùa mưa]({{< ref "posts/du-lich-thai-lan-mua-mua-co-nen-di-khong" >}}) và [checklist vali đi Thái mùa mưa]({{< ref "posts/checklist-vali-di-thai-mua-mua" >}}) để chuẩn bị đầy đủ trước chuyến đi.
+
+### Bài viết liên quan
+
+- [Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?](/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7/)
+- [Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý](/posts/di-thai-lan-thang-7-co-nen-khong/)
+- [Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng](/posts/chiang-mai-mua-mua-co-gi-dep/)
+- [Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?](/posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab/)
+- [Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour](/posts/bangkok-ngay-mua-nen-di-dau/)
 
 Nếu bạn muốn tìm chỗ ở giá tốt ở Bangkok trước khi bay vào đảo, xem ngay bài [nên ở khu vực nào Bangkok mùa mưa]({{< ref "posts/o-khu-nao-bangkok-mua-mua" >}}) để có gợi ý cụ thể.

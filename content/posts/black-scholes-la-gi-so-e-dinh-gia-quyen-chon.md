@@ -32,6 +32,38 @@ image_attribution_source = ""
 [ai_summary]
 items = ["Black-Scholes: Công thức định giá call option được phát hiện năm 1973", "C = S×Φ(d1) - K×e^(-rT)×Φ(d2) — thứ nhất thấy e^(-rT) từ Bài 1!", "d1, d2 = công thức logarit + phân phối chuẩn để tính Φ (cumulative normal CDF)", "Giả định: σ hằng số, không có dividend, European option (chỉ thực hiện khi expiry)", "Implied Volatility: Đảo ngược công thức để tìm σ từ giá market", "Put-Call Parity: C - P = S - K×e^(-rT) (mối quan hệ call/put)", "Thực tế: Volatility Smile, American options, dividend adjustment cần mô hình phức tạp hơn"]
 image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
+[[internal_links]]
+ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
+title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
+
+[[internal_links]]
+ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
+title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
+
+[[internal_links]]
+ref = "posts/cfa-dung-toan-hoc-gi.md"
+title = "CFA dùng toán học gì? Những công thức quản lý tài sản"
+
+[[internal_links]]
+ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
+title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
+
+[[internal_links]]
+ref = "posts/ham-so-mu-e-trong-tai-chinh-la-gi.md"
+title = "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
+
+[[internal_links]]
+ref = "posts/log-tu-nhien-log-return-trong-dau-tu.md"
+title = "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?"
+
+[[internal_links]]
+ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
+title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
+
+[[internal_links]]
+ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
+title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
+
 +++
 **Black-Scholes** — công thức định giá **quyền chọn (option)** nổi tiếng nhất.
 
@@ -178,5 +210,16 @@ Find: σ sao cho C(σ) = 16,000
 ---
 
 ## Tiếp theo: Risk Management
+
+### Bài viết liên quan
+
+- [Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives](/posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao/)
+- [công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?](/posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro/)
+- [CFA dùng toán học gì? Những công thức quản lý tài sản](/posts/cfa-dung-toan-hoc-gi/)
+- [BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ](/posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc/)
+- [Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản](/posts/ham-so-mu-e-trong-tai-chinh-la-gi/)
+- [Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?](/posts/log-tu-nhien-log-return-trong-dau-tu/)
+- [Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio](/posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien/)
+- [Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền](/posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu/)
 
 Bài 12: Risk Management trong tài chính

@@ -86,6 +86,30 @@ value = "Mùa đông (tháng 12–2)"
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = "Có (resort, vé trượt tuyết)"
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+
+[[internal_links]]
+ref = "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md"
+title = "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?"
+
+[[internal_links]]
+ref = "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md"
+title = "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju"
+
+[[internal_links]]
+ref = "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
+title = "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
+title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
 +++
 High1 là ski resort mình ấn tượng nhất trong系列 bài này. Không phải vì lớn nhất (Yongpyong mới là số một) hay gần nhất (Elysian giữ kỷ lục đó), mà vì trải nghiệm tổng thể — từ Sky 1340, nhà hàng xoay trên đỉnh núi 1.340 m, đến thiết kế thân thiện môi trường.
 
@@ -149,6 +173,15 @@ Trước khi chốt lịch, nên đối chiếu lại **giờ mở cửa**, **ph
 
 ### Di chuyển và chi phí
 Thẻ T-money hoặc thẻ giao thông Hàn Quốc giúp chuyển tuyến metro–bus thuận tiện. Nếu kết hợp nhiều thành phố (Seoul–Busan–Jeju), cân nhắc đặt KTX hoặc vé nội địa sớm. Ăn ở khu dân cư hoặc chợ ẩm thực gần ga thường rẻ hơn khu du lịch đông khách.
+
+### Bài viết liên quan
+
+- [Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?](/posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet/)
+- [Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?](/posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong/)
+- [Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju](/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju/)
+- [Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu](/posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau/)
+- [Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn](/posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon/)
+- [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
 
 ### Mẹo hay quên
 Mang áo khoác mỏng dù mùa hè vì máy lạnh trong tàu và trung tâm thương mại khá mạnh. Sạc dự phòng và eSIM nên chuẩn bị trước để dùng bản đồ ngay khi xuống ga. Chụp ảnh bảng tên ga và thông tin phòng lưu trú phòng khi mất mạng.

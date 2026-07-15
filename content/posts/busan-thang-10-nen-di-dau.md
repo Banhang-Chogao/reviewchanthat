@@ -94,6 +94,14 @@ value = "Cặp đôi, nhóm bạn, gia đình"
 label = "Lưu ý"
 value = "Giá vé và phí có thể thay đổi"
 image_attribution_checked_at = "2026-07-14T00:09:58+07:00"
+[[internal_links]]
+ref = "posts/busan-thang-11-nen-di-dau.md"
+title = "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.md"
+title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan"
+
 +++
 Busan tháng 10 là thời điểm nhiều du khách chọn để “đổi không khí” sau vài ngày ở Seoul. Khí hậu ven biển mát hơn mùa hè, đường phố thoáng hơn, và bạn vẫn có thể tắm biển nếu ngày nắng ấm. Tuy nhiên, Busan không phải điểm ngắm lá đỏ trọng tâm như Seoraksan hay Naejangsan — thế mạnh của thành phố này mùa thu nằm ở **biển, ẩm thực và không gian đi bộ buổi tối**.
 
@@ -222,6 +230,11 @@ Chi tiết ngân sách xem [Chi phí đi Hàn tháng 10 tự túc]({{< ref "post
 **Không kỳ vọng lá đỏ rực ở Busan.** Nếu muốn ngắm lá đỏ là trọng tâm, dành thời gian ở Seoul (cung điện, Bukhansan) hoặc day trip Nami. Xem [Thời tiết và mùa lá đỏ tháng 10]({{< ref "posts/thoi-tiet-han-quoc-thang-10" >}}).
 
 **Thử jjimjilbang nếu trời lạnh.** Busan có nhiều spa Hàn Quốc — trải nghiệm phù hợp buổi tối sau khi đi biển.
+
+### Bài viết liên quan
+
+- [Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ](/posts/busan-thang-11-nen-di-dau/)
+- [Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan](/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem/)
 
 ## Kết luận
 

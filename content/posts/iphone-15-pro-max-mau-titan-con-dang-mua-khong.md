@@ -74,6 +74,10 @@ title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
 [[internal_links]]
 ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
 title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
 +++
 Nửa đầu 2026, câu hỏi trên group iPhone Việt Nam không còn là “15 Pro Max có đẹp không” mà là **còn đáng mua không khi 16 Pro Max đã giảm giá và iPhone 17 sắp ra mắt?** iPhone 15 Pro Max là lần Apple đổi khung **thép không gỉ sang titan cấp hàng không**, bỏ nút gạt rung, thêm **Action Button** và **USB-C** — những thay đổi vẫn ảnh hưởng trực tiếp đến trải nghiệm hôm nay.
 
@@ -199,6 +203,10 @@ Checklist đầy đủ: [pin và máy cũ](/posts/pin-iphone-15-pro-max-mua-may-
 - [ ] Xem **camera tele 5x** — đốm đen, rung lấy nét
 - [ ] Hỏi **lịch sử sửa chữa** (màn, pin thay)
 - [ ] Cân nhắc **ốp lưng** ngay — bảo vệ góc titan
+
+### Bài viết liên quan
+
+- [iPhone 16 Pro Max Desert Titanium hợp ai?](/posts/iphone-16-pro-max-desert-titanium-hop-ai/)
 
 ## Kết luận
 

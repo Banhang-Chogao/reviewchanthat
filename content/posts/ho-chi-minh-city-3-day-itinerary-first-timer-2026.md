@@ -85,6 +85,26 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_query = "ho chi minh city skyline"
 image_alt = "Ảnh minh họa Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026) — nguồn Pexels"
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-16-pro-max-co-dang-chon.md"
+title = "Pin iPhone 16 Pro Max có đáng chọn?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 +++
 Three days in Ho Chi Minh City will not make you an expert on Saigon — but if you use them well, they will give you the rhythm of the place: the early coffee, the motorcycle tide, the colonial facades, the market noise, the late-night bowl of something brilliant for pocket change. First-timers often try to “do everything” and end up drained in traffic, or they stay glued to one hotel pool and leave without a sense of the city. This itinerary is the middle path: **a walkable District 1 spine**, one serious food day, space for museums or a short day trip, and honest pacing for heat and humidity.
 
@@ -345,5 +365,13 @@ Ho Chi Minh City is a working megacity, not a theme park. People are commuting, 
 ## Closing
 
 Three days in Ho Chi Minh City reward travellers who accept a simple truth: **you will miss things, and that is fine.** The city is layered enough that a perfect checklist is a fantasy. What you can have instead is a coherent first story — colonial façades in the morning light, a market’s heat and noise, a museum that complicates your assumptions, a bowl of soup that recalibrates what breakfast can be, and an evening skyline that makes the traffic feel, briefly, like part of the show.
+
+### Bài viết liên quan
+
+- [iPhone 15 Pro Max Blue Titanium có đáng săn?](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/)
+- [Trên tay iPhone 15 Pro Max: khung titan có khác thép không?](/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong/)
+- [Pin iPhone 16 Pro Max có đáng chọn?](/posts/pin-iphone-16-pro-max-co-dang-chon/)
+- [iPhone 16 Pro Max Desert Titanium hợp ai?](/posts/iphone-16-pro-max-desert-titanium-hop-ai/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
 
 Walk early. Rest in the middle. Eat with intention. Leave one square on the map blank so Saigon can surprise you. That is a first visit done right — and a reason to come back with a longer ticket next time.

@@ -58,6 +58,38 @@ answer = "If you need real-time transcription, discreet notifications, and hands
 [attribution]
 copyright = "Review Chân Thật"
 source_note = "This review is based on hands-on testing with a review unit provided by Even Realities. No compensation was received. Affiliate links may be present."
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
+title = "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?"
+
+[[internal_links]]
+ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
+title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
+title = "iPhone 16 Pro Max năm 2026 nên mua không?"
+
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
 +++
 ## The Smart Glasses That Do One Thing Well
 
@@ -208,5 +240,16 @@ The green display is small. The features are limited. The touch controls are fin
 In a market full of devices trying to do everything, the G2 does one thing well: it puts information where your eyes already are, without adding drama.
 
 ## How to Get the Best Deal
+
+### Bài viết liên quan
+
+- [Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp](/posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap/)
+- [iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt](/posts/iphone-18-co-gi-moi/)
+- [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
+- [Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?](/posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho/)
+- [iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?](/posts/ios-27-quyen-rieng-tu-iphone/)
+- [iPhone 16 Pro Max năm 2026 nên mua không?](/posts/iphone-16-pro-max-nam-2026-nen-mua-khong/)
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
 
 If you decide to pick up the G2, check the [official Even Realities website](https://www.evenrealities.com/smart-glasses) for current pricing and bundle deals with the R1 ring. Prices fluctuate and launch discounts appear periodically. Buying direct also gives you access to prescription lens support and the full warranty period.

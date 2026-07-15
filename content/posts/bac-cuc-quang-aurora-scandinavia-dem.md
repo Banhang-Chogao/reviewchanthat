@@ -41,6 +41,38 @@ answer = "A: Không. Mặt trời không bao giờ lặn vào mùa hè ở Bắc
 [[faq]]
 question = "Q: Bắc cực quang có có thể nhìn thấy bằng mắt thường hay cần máy ảnh?"
 answer = "A: Bắc cực quang có thể nhìn thấy bằng mắt thường nếu nó đủ sáng. Khi bắc cực quang mạnh, bạn sẽ thấy nó rõ ràng mà không cần máy ảnh. Tuy nhiên, máy ảnh có thể nắm bắt được các màu sắc và chi tiết mà mắt thường không thể, đặc biệt với các bắc cực quang yếu."
+[[internal_links]]
+ref = "posts/fjord-na-uy-thac-nuoc-dong-tien.md"
+title = "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh"
+
+[[internal_links]]
+ref = "posts/copenhagen-oslo-stockholm-so-sanh-thua-dien.md"
+title = "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?"
+
+[[internal_links]]
+ref = "posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te.md"
+title = "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến"
+
+[[internal_links]]
+ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
+title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
+
+[[internal_links]]
+ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
+title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
+
+[[internal_links]]
+ref = "posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.md"
+title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/thoi-tiet-han-quoc-thang-11.md"
+title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
+
 +++
 ## Bắc Cực Quang Là Gì?
 
@@ -78,5 +110,16 @@ Bạn sẽ cần:
 - **Máy ảnh** – pin máy ảnh yếu đi nhanh trong lạnh, mang pin dự phòng. Máy ảnh chuyên nghiệp hoặc điện thoại thông minh đều có thể chụp được bắc cực quang với cài đặt đúng.
 
 ## Kết Luận Trải Nghiệm Cá Nhân
+
+### Bài viết liên quan
+
+- [Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh](/posts/fjord-na-uy-thac-nuoc-dong-tien/)
+- [So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?](/posts/copenhagen-oslo-stockholm-so-sanh-thua-dien/)
+- [Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến](/posts/cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te/)
+- [Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo](/posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy/)
+- [Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai](/posts/stockholm-thua-dien-gamlastan-bien/)
+- [Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland](/posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien/)
+- [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+- [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
 
 Khi tôi cuối cùng nhìn thấy bắc cực quang sau vài tuần chờ đợi ở Tromsø, tôi không có từ nào để mô tả. Nó giống như toàn bộ bầu trời đang nhảy múa – một lá cờ xanh rực rỡ lần lượt xoay quanh từ phía tây sang phía đông, rồi quay lại. Điều này đã thay đổi cách tôi nhìn nhận sự tuyệt vời của tự nhiên. Nó không phải chỉ là một hiện tượng vật lý – nó là một trải nghiệm tâm linh.

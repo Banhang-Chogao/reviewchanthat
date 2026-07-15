@@ -65,6 +65,38 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
+title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
+
+[[internal_links]]
+ref = "posts/review-super-8-2011-biet-doi-thieu-nien-va-bi-an.md"
+title = "Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm"
+
+[[internal_links]]
+ref = "posts/even-realities-g2-smart-glasses-review.md"
+title = "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face"
+
+[[internal_links]]
+ref = "posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.md"
+title = "Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?"
+
+[[internal_links]]
+ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
+title = "Checklist trước khi mua một sản phẩm online"
+
+[[internal_links]]
+ref = "posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi.md"
+title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?"
+
+[[internal_links]]
+ref = "posts/tin-chi-carbon-va-trao-luu-net-zero.md"
+title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
+
 +++
 Bạn đứng trước hai lựa chọn: sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng. Sản phẩm B đắt hơn nhưng bảo hành 2 năm và nhiều review tốt. Bạn chọn cái nào?
 
@@ -94,7 +126,20 @@ Cá nhân mình thấy, nếu phải chọn giữa một sản phẩm rẻ hơn 
 - **500,000đ - 3,000,000đ**: Cân bằng giữa giá và trải nghiệm. Bảo hành là bonus.
 - **Trên 3,000,000đ**: Trải nghiệm và bảo hành nên là ưu tiên hàng đầu. Giá rẻ hơn vài trăm nghìn không đáng để dùng đồ khó chịu trong 2-3 năm.
 
-### Kết luận
+###
+
+### Bài viết liên quan
+
+- [The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?](/posts/the-odyssey-2026-review/)
+- [Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp](/posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap/)
+- [Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm](/posts/review-super-8-2011-biet-doi-thieu-nien-va-bi-an/)
+- [Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face](/posts/even-realities-g2-smart-glasses-review/)
+- [Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?](/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs/)
+- [Checklist trước khi mua một sản phẩm online](/posts/checklist-truoc-khi-mua-mot-san-pham-online/)
+- [Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?](/posts/can-bang-cong-viec-doi-song-scandinavia-ki-nghi/)
+- [Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank](/posts/tin-chi-carbon-va-trao-luu-net-zero/)
+
+ Kết luận
 
 Không có câu trả lời chung cho tất cả. Tùy vào sản phẩm và túi tiền, bạn cần cân đối. Nhưng nhớ rằng: trải nghiệm sử dụng lâu dài thường quan trọng hơn khoản tiền tiết kiệm trước mắt. Nếu muốn biết thêm về cách xây dựng thói quen mua sắm thông minh, bạn có thể tham khảo bài [cách xây dựng thói quen mua sắm thông minh](/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh/).
 

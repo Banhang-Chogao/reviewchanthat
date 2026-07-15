@@ -43,6 +43,26 @@ title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung 
 [[internal_links]]
 ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
+[[internal_links]]
+ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
+title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
+[[internal_links]]
+ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
+title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
+
 +++
 Nhiều người mở blog cá nhân với hứng khởi, viết được ba bài rồi dừng. Không phải vì lười. Phần lớn kẹt ở câu hỏi rất thật: **blog cá nhân nên viết gì** để vừa có người đọc, vừa xây được thương hiệu cá nhân, chứ không chỉ “viết cho vui” rồi bỏ dở.
 
@@ -245,6 +265,14 @@ Trước khi đăng mỗi bài vệ tinh:
 - [ ] Date có timezone `+07:00` nếu site của bạn chuẩn giờ Việt Nam
 
 SEO cá nhân bền là **lặp lại chất lượng có cấu trúc**, không phải tối ưu on-page một lần rồi bỏ.
+
+### Bài viết liên quan
+
+- [Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog](/posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog/)
+- [iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt](/posts/iphone-18-co-gi-moi/)
+- [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/)
+- [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
+- [macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update](/posts/macos-27-co-nen-nang-cap-ngay-khong/)
 
 ## Kết luận: viết gì = chọn thứ bạn chịu trách nhiệm lâu dài
 

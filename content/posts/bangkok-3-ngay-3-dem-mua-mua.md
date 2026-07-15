@@ -70,6 +70,26 @@ title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Gra
 [[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+[[internal_links]]
+ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
+title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
+title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
+
+[[internal_links]]
+ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
+title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+
+[[internal_links]]
+ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
+title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
+
+[[internal_links]]
+ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
+title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
+
 +++
 Đi Bangkok lần đầu vào mùa mưa có thể hơi lo, nhưng thực ra đây là thời điểm lý tưởng để khám phá thành phố nếu bạn có một lịch trình hợp lý. Giá vé rẻ, khách sạn giảm, điểm tham quan vắng — và quan trọng nhất, Bangkok có đủ indoor attractions để bạn không bao giờ cảm thấy "mất cả ngày vì mưa".
 
@@ -186,6 +206,14 @@ Mua sim AIS, TrueMove hoặc dtac tại sân bay (khoảng 300–500 THB/7 ngày
 ### 5. Kiểm tra dự báo thời tiết hằng ngày
 
 Dùng app Windy hoặc AccuWeather. Nếu thấy dự báo mưa lớn cả ngày, hãy linh hoạt chuyển lịch trình: dồn hoạt động ngoài trời vào sáng sớm, indoor vào chiều.
+
+### Bài viết liên quan
+
+- [Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng](/posts/chiang-mai-mua-mua-co-gi-dep/)
+- [Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?](/posts/ubon-ratchathani-candle-festival-thai-lan-thang-7/)
+- [Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?](/posts/koh-samui-mua-he-so-voi-phuket/)
+- [Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn](/posts/phuket-mua-mua-co-nen-di-khong/)
+- [Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?](/posts/krabi-mua-mua-ao-nang-railay-tour-dao/)
 
 ## Kết luận
 
