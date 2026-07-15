@@ -53,3 +53,8 @@ data/private-credit-card-dashboard*.json
 static/private-credit-card-dashboard*.json
 *.credit-card-dashboard.private.json
 private-data/credit-card-dashboard*
+# Normalized Promotion Knowledge Base (local-only, never publish)
+private-data/promotion-kb*
+data/private-promotion-kb*.json
+static/private-promotion-kb*.json
+*.promotion-kb.private.json

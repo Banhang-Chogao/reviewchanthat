@@ -41,9 +41,10 @@
     selectedCardId: '__all__',
     filters: { bank: '', status: '', reward: '', util: '', due: '' },
     promoSearch: '',
-    promoSort: 'priority',
-    promoFilters: { bank: '', type: '', category: '', status: '' },
-    dashPromo: { search: '', bank: '', card: '', category: '', type: '', state: 'active', sort: 'priority' },
+    promoSort: 'default',
+    promoFilters: { bank: '', card: '', source: '', merchant: '', type: '', category: '', status: '', featured: '' },
+    dashPromo: { search: '', bank: '', card: '', source: '', merchant: '', category: '', type: '', state: 'active', sort: 'default' },
+    promoKB: null, // normalized Bank→Source→Merchant→Offer→Promotion (local-only)
     charts: {}
   };
 
@@ -240,10 +241,21 @@
   var ghSaving = false;
 
   function payloadObject() {
+    // Public GitHub file: cards only. Promotion Knowledge Base is local-only (IndexedDB).
     return {
-      version: 2,
+      version: 3,
+      cards: state.cards || [],
+      updatedAt: new Date().toISOString(),
+      savedAt: new Date().toISOString()
+    };
+  }
+
+  function localFullPayload() {
+    return {
+      version: 3,
       cards: state.cards || [],
       promotions: state.promotions || [],
+      knowledgeBase: state.promoKB || emptyPromoKB(),
       updatedAt: new Date().toISOString(),
       savedAt: new Date().toISOString()
     };
@@ -253,15 +265,30 @@
     if (!data) {
       state.cards = [];
       state.promotions = [];
+      state.promoKB = emptyPromoKB();
+      rebuildPromotionsFromKB();
       return;
     }
     if (Array.isArray(data)) {
       state.cards = data;
       state.promotions = [];
+      state.promoKB = emptyPromoKB();
+      rebuildPromotionsFromKB();
       return;
     }
     state.cards = Array.isArray(data.cards) ? data.cards : [];
-    state.promotions = Array.isArray(data.promotions) ? data.promotions : [];
+    if (data.knowledgeBase && typeof data.knowledgeBase === 'object') {
+      state.promoKB = normalizeKB(data.knowledgeBase);
+      rebuildPromotionsFromKB();
+    } else if (Array.isArray(data.promotions) && data.promotions.length) {
+      // migrate flat list → KB
+      state.promoKB = migrateFlatToKB(data.promotions);
+      rebuildPromotionsFromKB();
+    } else {
+      state.promotions = [];
+      state.promoKB = emptyPromoKB();
+      rebuildPromotionsFromKB();
+    }
   }
 
   function scheduleSave() {
@@ -341,7 +368,8 @@
 
   function persistLocal() {
     if (!state.cryptoKey) return Promise.resolve();
-    var json = JSON.stringify(payloadObject());
+    // Full private blob: cards + knowledgeBase (promotions local-only)
+    var json = JSON.stringify(localFullPayload());
     return encryptData(json, state.cryptoKey).then(function (enc) {
       return StorageAdapter.saveEncrypted(enc);
     }).then(function () {
@@ -368,7 +396,6 @@
     var json = JSON.stringify(data, null, 2) + '\n';
     var content = utf8ToBase64(json);
     var nCards = (data.cards || []).length;
-    var nPromos = (data.promotions || []).length;
     setGhProgress(true, 15, '🔍 Đang kết nối GitHub…', '');
     var el = $('ccdSyncLabel');
     if (el) el.textContent = 'Đang commit…';
@@ -381,9 +408,9 @@
         return r.json();
       })
       .then(function (existing) {
-        setGhProgress(true, 55, '📤 Đang commit ' + nCards + ' thẻ · ' + nPromos + ' promotions…', '');
+        setGhProgress(true, 55, '📤 Đang commit ' + nCards + ' thẻ (promotions KB = local-only)…', '');
         var body = {
-          message: 'credit-card-dashboard: save ' + nCards + ' cards, ' + nPromos + ' promotions',
+          message: 'credit-card-dashboard: save ' + nCards + ' cards (promo KB local-only)',
           content: content,
           branch: GH_BRANCH
         };
@@ -2479,12 +2506,20 @@
     doc.save((title || 'credit-card-dashboard').replace(/\s+/g, '-').toLowerCase() + '.pdf');
   }
 
-  /* ───────────── Promotions Update module ───────────── */
+  /* ───────────── Promotion Knowledge Base (normalized, local-only) ───────────── */
+  // Hierarchy: Bank → Source → Merchant → Offer → Promotion
+  var PROMO_OFFICIAL_HOSTS = [
+    'hsbc.com.vn', 'hsbc.com', 'visa.com', 'visa.com.vn',
+    'mastercard.com', 'mastercard.com.vn', 'homeandaway.hsbc.com'
+  ];
+  var PROMO_DEFAULT_SOURCES = [
+    'HSBC Privilege Club', 'Visa Offers', 'Mastercard Priceless', 'home&Away', 'Bank Official Offers'
+  ];
   var PROMO_HEADERS = [
-    'Promotion ID', 'Bank', 'Card', 'Promotion Type', 'Merchant', 'Category',
-    'Offer Title', 'Short Description', 'Discount Type', 'Discount Value',
+    'Promotion ID', 'Bank', 'Promotion Source', 'Merchant', 'Offer Type', 'Card(s)',
+    'Title', 'Description', 'Category', 'Discount Type', 'Discount Value',
     'Cashback Cap', 'Minimum Spend', 'Installment Months', 'Start Date', 'End Date',
-    'Promo Code', 'Apply Link', 'Terms', 'Priority', 'Featured', 'Status'
+    'Promo Code', 'Official URL', 'Terms', 'Priority', 'Featured', 'Status'
   ];
   var PROMO_CATEGORIES = [
     'Dining', 'Coffee', 'Shopping', 'Supermarket', 'Travel', 'Hotel', 'Airline',
@@ -2492,14 +2527,133 @@
     'Utilities', 'Lifestyle', 'Online', 'Fashion'
   ];
   var PROMO_TYPES = [
-    'Cashback', 'Discount', 'Installment', 'Voucher', 'Miles',
-    'Reward Point', 'Fee Waiver', 'Welcome Gift'
+    'Cashback', 'Discount', 'Installment', 'Voucher', 'Gift',
+    'Miles', 'Reward Point', 'Fee Waiver', 'Welcome Gift'
+  ];
+  var PROMO_MERCHANTS_SEED = [
+    'Starbucks', 'Shopee', 'Grab', 'Booking.com', 'Agoda', 'CGV', 'Highlands Coffee'
   ];
   var pendingPromoImport = null;
 
-  function todayISO() {
-    var d = new Date();
-    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  function kbId(prefix) {
+    return (prefix || 'kb') + '_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+  }
+
+  function emptyPromoKB() {
+    var bankId = kbId('bank');
+    var bank = { id: bankId, name: 'HSBC', slug: 'hsbc' };
+    var sources = PROMO_DEFAULT_SOURCES.map(function (name) {
+      return { id: kbId('src'), bankId: bankId, name: name, slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-') };
+    });
+    var offers = PROMO_TYPES.map(function (t) {
+      return { id: kbId('offer'), type: t, name: t };
+    });
+    var merchants = PROMO_MERCHANTS_SEED.map(function (name) {
+      return { id: kbId('merch'), name: name, domain: '', category: '', slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-') };
+    });
+    return { version: 3, banks: [bank], sources: sources, merchants: merchants, offers: offers, promotions: [] };
+  }
+
+  function normalizeKB(raw) {
+    var kb = emptyPromoKB();
+    if (!raw || typeof raw !== 'object') return kb;
+    if (Array.isArray(raw.banks) && raw.banks.length) kb.banks = raw.banks;
+    if (Array.isArray(raw.sources) && raw.sources.length) kb.sources = raw.sources;
+    if (Array.isArray(raw.merchants) && raw.merchants.length) {
+      // merge seed + imported
+      var byName = {};
+      kb.merchants.forEach(function (m) { byName[m.name.toLowerCase()] = m; });
+      raw.merchants.forEach(function (m) {
+        if (!m || !m.name) return;
+        byName[String(m.name).toLowerCase()] = m;
+      });
+      kb.merchants = Object.keys(byName).map(function (k) { return byName[k]; });
+    }
+    if (Array.isArray(raw.offers) && raw.offers.length) kb.offers = raw.offers;
+    if (Array.isArray(raw.promotions)) kb.promotions = raw.promotions;
+    kb.version = 3;
+    return kb;
+  }
+
+  function ensureKB() {
+    if (!state.promoKB) state.promoKB = emptyPromoKB();
+    return state.promoKB;
+  }
+
+  function kbFindOrCreateBank(name) {
+    var kb = ensureKB();
+    var n = (name || 'HSBC').trim() || 'HSBC';
+    var found = kb.banks.find(function (b) { return (b.name || '').toLowerCase() === n.toLowerCase(); });
+    if (found) return found;
+    var b = { id: kbId('bank'), name: n, slug: n.toLowerCase().replace(/[^a-z0-9]+/g, '-') };
+    kb.banks.push(b);
+    return b;
+  }
+
+  function kbFindOrCreateSource(bankId, name) {
+    var kb = ensureKB();
+    var n = (name || 'Bank Official Offers').trim() || 'Bank Official Offers';
+    var found = kb.sources.find(function (s) {
+      return s.bankId === bankId && (s.name || '').toLowerCase() === n.toLowerCase();
+    });
+    if (found) return found;
+    var s = { id: kbId('src'), bankId: bankId, name: n, slug: n.toLowerCase().replace(/[^a-z0-9]+/g, '-') };
+    kb.sources.push(s);
+    return s;
+  }
+
+  function kbFindOrCreateMerchant(name, domain, category) {
+    var kb = ensureKB();
+    var n = (name || 'General').trim() || 'General';
+    var found = kb.merchants.find(function (m) { return (m.name || '').toLowerCase() === n.toLowerCase(); });
+    if (found) {
+      if (domain && !found.domain) found.domain = domain;
+      if (category && !found.category) found.category = category;
+      return found;
+    }
+    var m = {
+      id: kbId('merch'), name: n, domain: domain || '', category: category || '',
+      slug: n.toLowerCase().replace(/[^a-z0-9]+/g, '-')
+    };
+    kb.merchants.push(m);
+    return m;
+  }
+
+  function kbFindOrCreateOffer(type) {
+    var kb = ensureKB();
+    var t = (type || 'Cashback').trim() || 'Cashback';
+    var found = kb.offers.find(function (o) { return (o.type || '').toLowerCase() === t.toLowerCase(); });
+    if (found) return found;
+    var o = { id: kbId('offer'), type: t, name: t };
+    kb.offers.push(o);
+    return o;
+  }
+
+  function isOfficialHttpsUrl(url, extraDomains) {
+    if (!url || typeof url !== 'string') return false;
+    var u = url.trim();
+    if (!/^https:\/\//i.test(u)) return false;
+    // reject obvious placeholders
+    if (/example\.com|localhost|127\.0\.0\.1|placeholder|dummy|yoursite|foo\.bar/i.test(u)) return false;
+    var host = '';
+    try {
+      host = new URL(u).hostname.toLowerCase();
+    } catch (e) {
+      return false;
+    }
+    if (!host) return false;
+    var allowed = PROMO_OFFICIAL_HOSTS.slice();
+    if (extraDomains && extraDomains.length) {
+      extraDomains.forEach(function (d) {
+        d = String(d || '').toLowerCase().replace(/^https?:\/\//, '').split('/')[0].replace(/^\./, '');
+        if (d) allowed.push(d);
+      });
+    }
+    for (var i = 0; i < allowed.length; i++) {
+      var suf = allowed[i].toLowerCase().replace(/^\./, '');
+      if (host === suf || host.slice(-(suf.length + 1)) === '.' + suf) return true;
+    }
+    return false;
   }
 
   function promoIsExpired(p) {
@@ -2516,23 +2670,168 @@
     return true;
   }
 
+  function todayISO() {
+    var d = new Date();
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+
   function bankIcon(bank) {
     var b = String(bank || '?').trim();
     return (b.slice(0, 2) || '??').toUpperCase();
   }
 
+  function parseCards(str) {
+    if (Array.isArray(str)) return str.map(function (x) { return String(x).trim(); }).filter(Boolean);
+    return String(str || '').split(/[,;/|]/).map(function (x) { return x.trim(); }).filter(Boolean);
+  }
+
+  function promoDupKey(p) {
+    return [
+      (p.bank || '').toLowerCase(),
+      (p.source || '').toLowerCase(),
+      (p.merchant || '').toLowerCase(),
+      (p.offerTitle || p.title || '').toLowerCase(),
+      (p.startDate || ''),
+      (p.endDate || '')
+    ].join('|');
+  }
+
+  function flatFromKBPromo(raw, kb) {
+    kb = kb || ensureKB();
+    var bank = kb.banks.find(function (b) { return b.id === raw.bankId; });
+    var source = kb.sources.find(function (s) { return s.id === raw.sourceId; });
+    var merchant = kb.merchants.find(function (m) { return m.id === raw.merchantId; });
+    var offer = kb.offers.find(function (o) { return o.id === raw.offerId; });
+    var cards = raw.cards || [];
+    var url = raw.officialUrl || raw.applyLink || '';
+    var status = raw.status || 'Active';
+    if (promoIsExpired({ status: status, endDate: raw.endDate || raw.end_date })) status = 'Expired';
+    return {
+      id: raw.id,
+      promotionId: raw.promotionId || raw.promotion_id || '',
+      bank: raw.bank || (bank && bank.name) || '',
+      bankId: raw.bankId || '',
+      source: raw.source || (source && source.name) || '',
+      sourceId: raw.sourceId || '',
+      merchant: raw.merchant || (merchant && merchant.name) || '',
+      merchantId: raw.merchantId || '',
+      merchantDomain: (merchant && merchant.domain) || raw.merchantDomain || '',
+      offerType: raw.offerType || raw.promotionType || (offer && offer.type) || 'Cashback',
+      offerId: raw.offerId || '',
+      promotionType: raw.offerType || raw.promotionType || (offer && offer.type) || 'Cashback',
+      card: cards.join(', '),
+      cards: cards,
+      offerTitle: raw.title || raw.offerTitle || '',
+      shortDescription: raw.description || raw.shortDescription || '',
+      category: raw.category || '',
+      discountType: raw.discountType || 'Percent',
+      discountValue: Number(raw.discountValue) || 0,
+      cashbackCap: Number(raw.cashbackCap) || 0,
+      minimumSpend: Number(raw.minimumSpend) || 0,
+      installmentMonths: Number(raw.installmentMonths) || 0,
+      startDate: raw.startDate || '',
+      endDate: raw.endDate || '',
+      promoCode: raw.promoCode || '',
+      applyLink: url,
+      officialUrl: url,
+      terms: raw.terms || '',
+      priority: Number(raw.priority) || 0,
+      featured: !!raw.featured,
+      status: status,
+      createdAt: raw.createdAt || '',
+      updatedAt: raw.updatedAt || ''
+    };
+  }
+
+  function rebuildPromotionsFromKB() {
+    var kb = ensureKB();
+    state.promotions = (kb.promotions || []).map(function (raw) {
+      return flatFromKBPromo(raw, kb);
+    });
+    // auto-mark expired in KB records
+    kb.promotions.forEach(function (raw) {
+      if (promoIsExpired(flatFromKBPromo(raw, kb)) && raw.status === 'Active') raw.status = 'Expired';
+    });
+  }
+
+  function migrateFlatToKB(flatList) {
+    var kb = emptyPromoKB();
+    (flatList || []).forEach(function (row) {
+      upsertFlatIntoKB(kb, row, { skipUrlStrict: true });
+    });
+    return kb;
+  }
+
+  function upsertFlatIntoKB(kb, row, opts) {
+    opts = opts || {};
+    state.promoKB = kb;
+    var bank = kbFindOrCreateBank(row.bank || 'HSBC');
+    var source = kbFindOrCreateSource(bank.id, row.source || row.promotionGroup || 'Bank Official Offers');
+    var merchant = kbFindOrCreateMerchant(row.merchant || 'General', row.merchantDomain || '', row.category || '');
+    var offer = kbFindOrCreateOffer(row.offerType || row.promotionType || 'Cashback');
+    var cards = parseCards(row.cards || row.card);
+    var url = (row.officialUrl || row.applyLink || '').trim();
+    var rec = {
+      id: row.id || kbId('promo'),
+      promotionId: row.promotionId || '',
+      bankId: bank.id,
+      sourceId: source.id,
+      merchantId: merchant.id,
+      offerId: offer.id,
+      bank: bank.name,
+      source: source.name,
+      merchant: merchant.name,
+      offerType: offer.type,
+      cards: cards,
+      title: row.offerTitle || row.title || '',
+      description: row.shortDescription || row.description || '',
+      category: row.category || '',
+      discountType: row.discountType || 'Percent',
+      discountValue: Number(row.discountValue) || 0,
+      cashbackCap: Number(row.cashbackCap) || 0,
+      minimumSpend: Number(row.minimumSpend) || 0,
+      installmentMonths: Number(row.installmentMonths) || 0,
+      startDate: row.startDate || '',
+      endDate: row.endDate || '',
+      promoCode: row.promoCode || '',
+      officialUrl: url,
+      applyLink: url,
+      terms: row.terms || '',
+      priority: Number(row.priority) || 0,
+      featured: !!row.featured,
+      status: row.status || 'Active',
+      createdAt: row.createdAt || new Date().toISOString(),
+      updatedAt: new Date().toISOString()
+    };
+    if (promoIsExpired(rec) && rec.status === 'Active') rec.status = 'Expired';
+    var idx = kb.promotions.findIndex(function (p) {
+      return String(p.promotionId || '').toLowerCase() === String(rec.promotionId).toLowerCase();
+    });
+    if (idx >= 0) {
+      rec.id = kb.promotions[idx].id;
+      rec.createdAt = kb.promotions[idx].createdAt || rec.createdAt;
+      kb.promotions[idx] = rec;
+    } else {
+      kb.promotions.push(rec);
+    }
+    return rec;
+  }
+
   function emptyPromo() {
     return {
-      id: genId(),
+      id: kbId('promo'),
       promotionId: '',
       bank: 'HSBC',
-      card: 'Live+',
-      promotionType: 'Cashback',
-      promotionGroup: '',
+      source: 'HSBC Privilege Club',
       merchant: '',
-      category: 'Dining',
+      merchantDomain: '',
+      offerType: 'Cashback',
+      promotionType: 'Cashback',
+      cards: ['Live+'],
+      card: 'Live+',
       offerTitle: '',
       shortDescription: '',
+      category: 'Dining',
       discountType: 'Percent',
       discountValue: 0,
       cashbackCap: 0,
@@ -2541,6 +2840,7 @@
       startDate: todayISO(),
       endDate: '',
       promoCode: '',
+      officialUrl: '',
       applyLink: '',
       terms: '',
       priority: 50,
@@ -2572,26 +2872,24 @@
   function downloadPromoTemplate() {
     if (!ensureXLSX()) return;
     try {
+      // Sample uses a REAL official HSBC domain URL (public bank site), not a dummy host
       var sample = [
-        'HSBC-LIVE-DINING-01', 'HSBC', 'Live+', 'Cashback', 'Starbucks', 'Coffee',
-        'Hoàn 10% tại Starbucks', 'Áp dụng thẻ Live+ cuối tuần', 'Percent', 10,
-        200000, 300000, 0, '2026-07-01', '2026-12-31',
-        'LIVECOFFEE', 'https://www.hsbc.com.vn/', 'Điều khoản đối tác áp dụng', 90, 'Yes', 'Active'
+        'HSBC-PC-STARBUCKS-01', 'HSBC', 'HSBC Privilege Club', 'Starbucks', 'Cashback', 'Live+',
+        'Ưu đãi đối tác F&B (điền title official)', 'Sao chép mô tả từ trang HSBC Privilege Club',
+        'Coffee', 'Percent', 10, 200000, 300000, 0, '2026-07-01', '2026-12-31',
+        '', 'https://www.hsbc.com.vn/credit-cards/', 'Điều khoản trên trang official', 90, 'Yes', 'Active'
       ];
       var wb = XLSX.utils.book_new();
       var ws = XLSX.utils.aoa_to_sheet([PROMO_HEADERS.slice(), sample]);
-      ws['!cols'] = PROMO_HEADERS.map(function (h) { return { wch: Math.min(Math.max(h.length + 2, 12), 28) }; });
-      ws['!freeze'] = { xSplit: 0, ySplit: 1, topLeftCell: 'A2', activePane: 'bottomLeft', state: 'frozen' };
+      ws['!cols'] = PROMO_HEADERS.map(function (h) { return { wch: Math.min(Math.max(h.length + 2, 12), 32) }; });
       ws['!views'] = [{ state: 'frozen', ySplit: 1, topLeftCell: 'A2', activePane: 'bottomLeft' }];
       for (var c = 0; c < PROMO_HEADERS.length; c++) {
         var addr = colLetter(c) + '1';
-        if (ws[addr]) {
-          ws[addr].s = headerStyle();
-        }
+        if (ws[addr]) ws[addr].s = headerStyle();
       }
-      XLSX.utils.book_append_sheet(wb, ws, 'Promotions');
-      XLSX.writeFile(wb, 'credit-card-promotions-template.xlsx');
-      setPromoIoStatus('ok', '✓ Đã tải Excel Template promotions (sheet “Promotions”).');
+      XLSX.utils.book_append_sheet(wb, ws, 'Promotion KB');
+      XLSX.writeFile(wb, 'promotion-knowledge-base-template.xlsx');
+      setPromoIoStatus('ok', '✓ Template KB đã tải (sheet “Promotion KB”). Official URL bắt buộc HTTPS domain official.');
     } catch (e) {
       setPromoIoStatus('err', '✗ Template lỗi: ' + (e.message || e));
     }
@@ -2599,34 +2897,37 @@
 
   function promoToRow(p) {
     return [
-      p.promotionId || '', p.bank || '', p.card || '', p.promotionType || '', p.merchant || '',
-      p.category || '', p.offerTitle || '', p.shortDescription || '', p.discountType || '',
+      p.promotionId || '', p.bank || '', p.source || '', p.merchant || '', p.offerType || p.promotionType || '',
+      (p.cards && p.cards.length ? p.cards.join(', ') : (p.card || '')),
+      p.offerTitle || '', p.shortDescription || '', p.category || '', p.discountType || '',
       Number(p.discountValue) || 0, Number(p.cashbackCap) || 0, Number(p.minimumSpend) || 0,
       Number(p.installmentMonths) || 0, p.startDate || '', p.endDate || '', p.promoCode || '',
-      p.applyLink || '', p.terms || '', Number(p.priority) || 0, p.featured ? 'Yes' : 'No', p.status || 'Active'
+      p.officialUrl || p.applyLink || '', p.terms || '', Number(p.priority) || 0,
+      p.featured ? 'Yes' : 'No', p.status || 'Active'
     ];
   }
 
   function exportPromotionsExcel() {
     if (!ensureXLSX()) return;
+    rebuildPromotionsFromKB();
     var list = state.promotions || [];
     if (!list.length) {
-      setPromoIoStatus('warn', '⚠ Chưa có promotion để export.');
+      setPromoIoStatus('warn', '⚠ Chưa có promotion trong Knowledge Base.');
       return;
     }
     try {
       var rows = list.map(promoToRow);
       var wb = XLSX.utils.book_new();
       var ws = XLSX.utils.aoa_to_sheet([PROMO_HEADERS.slice()].concat(rows));
-      ws['!cols'] = PROMO_HEADERS.map(function (h) { return { wch: Math.min(Math.max(h.length + 2, 12), 28) }; });
+      ws['!cols'] = PROMO_HEADERS.map(function (h) { return { wch: Math.min(Math.max(h.length + 2, 12), 32) }; });
       ws['!views'] = [{ state: 'frozen', ySplit: 1, topLeftCell: 'A2', activePane: 'bottomLeft' }];
       for (var c = 0; c < PROMO_HEADERS.length; c++) {
         var addr = colLetter(c) + '1';
         if (ws[addr]) ws[addr].s = headerStyle();
       }
-      XLSX.utils.book_append_sheet(wb, ws, 'Promotions');
-      XLSX.writeFile(wb, 'credit-card-promotions-export.xlsx');
-      setPromoIoStatus('ok', '✓ Exported ' + list.length + ' promotions.');
+      XLSX.utils.book_append_sheet(wb, ws, 'Promotion KB');
+      XLSX.writeFile(wb, 'promotion-knowledge-base-export.xlsx');
+      setPromoIoStatus('ok', '✓ Exported ' + list.length + ' promotions (normalized schema).');
     } catch (e) {
       setPromoIoStatus('err', '✗ Export failed: ' + (e.message || e));
     }
@@ -2635,19 +2936,21 @@
   function buildPromoHeaderMap(headerRow) {
     var aliases = {
       'promotion id': 'Promotion ID', 'promoid': 'Promotion ID', 'id': 'Promotion ID',
-      'bank': 'Bank', 'card': 'Card', 'card name': 'Card',
-      'promotion type': 'Promotion Type', 'type': 'Promotion Type',
-      'merchant': 'Merchant', 'category': 'Category',
-      'offer title': 'Offer Title', 'title': 'Offer Title',
-      'short description': 'Short Description', 'description': 'Short Description',
+      'bank': 'Bank',
+      'promotion source': 'Promotion Source', 'source': 'Promotion Source',
+      'merchant': 'Merchant',
+      'offer type': 'Offer Type', 'type': 'Offer Type', 'promotion type': 'Offer Type',
+      'card s': 'Card(s)', 'cards': 'Card(s)', 'card': 'Card(s)',
+      'title': 'Title', 'offer title': 'Title',
+      'description': 'Description', 'short description': 'Description',
+      'category': 'Category',
       'discount type': 'Discount Type', 'discount value': 'Discount Value',
       'cashback cap': 'Cashback Cap', 'minimum spend': 'Minimum Spend', 'min spend': 'Minimum Spend',
       'installment months': 'Installment Months', 'months': 'Installment Months',
       'start date': 'Start Date', 'end date': 'End Date',
       'promo code': 'Promo Code', 'code': 'Promo Code',
-      'apply link': 'Apply Link', 'link': 'Apply Link', 'url': 'Apply Link',
-      'terms': 'Terms', 'priority': 'Priority', 'featured': 'Featured', 'status': 'Status',
-      'promotion group': 'Promotion Group', 'group': 'Promotion Group'
+      'official url': 'Official URL', 'url': 'Official URL', 'apply link': 'Official URL', 'link': 'Official URL',
+      'terms': 'Terms', 'priority': 'Priority', 'featured': 'Featured', 'status': 'Status'
     };
     var map = {};
     for (var i = 0; i < headerRow.length; i++) {
@@ -2670,45 +2973,50 @@
     return s === 'yes' || s === 'y' || s === 'true' || s === '1' || s === 'x';
   }
 
-  function validatePromo(p, opts) {
+  function validatePromoFlat(p, opts) {
     opts = opts || {};
     var errors = [];
     if (!p.promotionId) errors.push('Thiếu Promotion ID');
     if (!p.bank) errors.push('Thiếu Bank');
-    if (!p.card) errors.push('Thiếu Card');
-    if (!p.offerTitle) errors.push('Thiếu Offer Title');
+    if (!p.source) errors.push('Thiếu Promotion Source');
+    if (!p.merchant) errors.push('Thiếu Merchant');
+    if (!p.offerTitle) errors.push('Thiếu Title');
+    if (!p.cards || !p.cards.length) errors.push('Thiếu Card(s)');
     if (!p.startDate || !isValidISODate(p.startDate)) errors.push('Start Date không hợp lệ');
     if (!p.endDate || !isValidISODate(p.endDate)) errors.push('End Date không hợp lệ');
-    if (p.startDate && p.endDate && isValidISODate(p.startDate) && isValidISODate(p.endDate) && p.endDate < p.startDate) {
-      errors.push('End Date < Start Date');
+    if (p.startDate && p.endDate && p.endDate < p.startDate) errors.push('End Date < Start Date');
+    var extra = [];
+    if (p.merchantDomain) extra.push(p.merchantDomain);
+    if (!p.officialUrl) errors.push('Thiếu Official URL');
+    else if (!isOfficialHttpsUrl(p.officialUrl, extra)) {
+      errors.push('Official URL phải HTTPS domain official (hsbc/visa/mastercard/homeandaway hoặc merchant domain)');
     }
-    ['discountValue', 'cashbackCap', 'minimumSpend', 'installmentMonths', 'priority'].forEach(function (k) {
-      if (p[k] != null && (isNaN(p[k]) || p[k] < 0)) errors.push(k + ' không hợp lệ');
-    });
     if (opts.checkDupId && p.promotionId) {
       var dup = (state.promotions || []).some(function (x) {
-        if (opts.ignoreInternalId && x.id === opts.ignoreInternalId) return false;
+        if (opts.ignoreId && x.id === opts.ignoreId) return false;
         return String(x.promotionId || '').toLowerCase() === String(p.promotionId).toLowerCase();
       });
-      if (dup) errors.push('Promotion ID đã tồn tại');
+      if (dup) errors.push('Promotion ID trùng');
     }
     return errors;
   }
 
   function parsePromoWorkbook(wb) {
-    var sheetName = wb.SheetNames.indexOf('Promotions') !== -1 ? 'Promotions' : wb.SheetNames[0];
+    var sheetName = wb.SheetNames.indexOf('Promotion KB') !== -1 ? 'Promotion KB'
+      : (wb.SheetNames.indexOf('Promotions') !== -1 ? 'Promotions' : wb.SheetNames[0]);
     var ws = wb.Sheets[sheetName];
     if (!ws) throw new Error('Không tìm thấy sheet.');
     var rows = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '', raw: true });
     if (!rows.length) throw new Error('File trống.');
     var colMap = buildPromoHeaderMap(rows[0]);
-    var required = ['Promotion ID', 'Bank', 'Card', 'Offer Title', 'Start Date', 'End Date'];
+    var required = ['Promotion ID', 'Bank', 'Title', 'Start Date', 'End Date', 'Official URL'];
     var missing = required.filter(function (h) { return colMap[h] === undefined; });
     if (missing.length) throw new Error('Thiếu cột: ' + missing.join(', '));
 
     var valid = [];
     var invalid = [];
-    var seen = {};
+    var seenId = {};
+    var seenContent = {};
     var max = Math.min(rows.length - 1, 10000);
 
     for (var r = 1; r <= max; r++) {
@@ -2718,17 +3026,21 @@
         var idx = colMap[name];
         return idx === undefined ? '' : row[idx];
       }
+      var domainHint = '';
       var p = {
-        id: genId(),
+        id: kbId('promo'),
         promotionId: String(cell('Promotion ID') || '').trim(),
         bank: String(cell('Bank') || '').trim(),
-        card: String(cell('Card') || '').trim(),
-        promotionType: String(cell('Promotion Type') || 'Cashback').trim() || 'Cashback',
-        promotionGroup: String(cell('Promotion Group') || '').trim(),
+        source: String(cell('Promotion Source') || 'Bank Official Offers').trim() || 'Bank Official Offers',
         merchant: String(cell('Merchant') || '').trim(),
+        merchantDomain: domainHint,
+        offerType: String(cell('Offer Type') || 'Cashback').trim() || 'Cashback',
+        promotionType: String(cell('Offer Type') || 'Cashback').trim() || 'Cashback',
+        cards: parseCards(cell('Card(s)')),
+        card: String(cell('Card(s)') || '').trim(),
+        offerTitle: String(cell('Title') || '').trim(),
+        shortDescription: String(cell('Description') || '').trim(),
         category: String(cell('Category') || 'Lifestyle').trim() || 'Lifestyle',
-        offerTitle: String(cell('Offer Title') || '').trim(),
-        shortDescription: String(cell('Short Description') || '').trim(),
         discountType: String(cell('Discount Type') || 'Percent').trim() || 'Percent',
         discountValue: parseFloat(String(cell('Discount Value')).replace(',', '.')) || 0,
         cashbackCap: parseMoney(cell('Cashback Cap')),
@@ -2737,7 +3049,8 @@
         startDate: excelCellToISO(cell('Start Date')),
         endDate: excelCellToISO(cell('End Date')),
         promoCode: String(cell('Promo Code') || '').trim(),
-        applyLink: String(cell('Apply Link') || '').trim(),
+        officialUrl: String(cell('Official URL') || '').trim(),
+        applyLink: String(cell('Official URL') || '').trim(),
         terms: String(cell('Terms') || '').trim(),
         priority: parseInt(cell('Priority'), 10) || 0,
         featured: parseFeatured(cell('Featured')),
@@ -2747,14 +3060,18 @@
         _rowNum: r + 1,
         _action: 'create'
       };
+      if (!p.cards.length && p.card) p.cards = parseCards(p.card);
       if (promoIsExpired(p) && p.status === 'Active') p.status = 'Expired';
 
-      var errors = validatePromo(p, {});
-      var key = p.promotionId.toLowerCase();
-      if (key && seen[key]) errors.push('Trùng Promotion ID trong file');
-      if (key && !seen[key]) {
+      var errors = validatePromoFlat(p, {});
+      var idKey = p.promotionId.toLowerCase();
+      if (idKey && seenId[idKey]) errors.push('Trùng Promotion ID trong file');
+      var cKey = promoDupKey(p);
+      if (cKey && seenContent[cKey]) errors.push('Trùng nội dung promotion trong file');
+
+      if (idKey) {
         var existing = (state.promotions || []).find(function (x) {
-          return String(x.promotionId || '').toLowerCase() === key;
+          return String(x.promotionId || '').toLowerCase() === idKey;
         });
         if (existing) {
           p._action = 'update';
@@ -2762,10 +3079,12 @@
           p.createdAt = existing.createdAt || p.createdAt;
         }
       }
+
       if (errors.length) {
         invalid.push({ row: r + 1, errors: errors, promo: p });
       } else {
-        if (key) seen[key] = 1;
+        if (idKey) seenId[idKey] = 1;
+        if (cKey) seenContent[cKey] = 1;
         valid.push(p);
       }
     }
@@ -2781,17 +3100,16 @@
     var sum = $('ccdPromoImportSummary');
     if (sum) {
       var updates = result.valid.filter(function (p) { return p._action === 'update'; }).length;
-      var creates = result.valid.length - updates;
       sum.innerHTML =
         'Sheet: <strong>' + esc(result.sheetName) + '</strong> · ' +
         'Dòng: <strong>' + result.totalDataRows + '</strong> · ' +
         'Hợp lệ: <strong style="color:var(--ccd-green-text)">' + result.valid.length + '</strong> ' +
-        '(new ' + creates + ' / update ' + updates + ') · ' +
+        '(new ' + (result.valid.length - updates) + ' / update ' + updates + ') · ' +
         'Lỗi: <strong style="color:var(--ccd-red-text)">' + result.invalid.length + '</strong>';
     }
     var head = $('ccdPromoImportPreviewHead');
     var body = $('ccdPromoImportPreviewBody');
-    if (head) head.innerHTML = '<tr><th>#</th><th>Act</th><th>ID</th><th>Bank</th><th>Card</th><th>Offer</th><th>Valid</th><th>Lỗi</th></tr>';
+    if (head) head.innerHTML = '<tr><th>#</th><th>Act</th><th>ID</th><th>Source</th><th>Merchant</th><th>Title</th><th>URL</th><th>Lỗi</th></tr>';
     if (body) {
       body.innerHTML = '';
       var preview = result.invalid.map(function (i) {
@@ -2803,24 +3121,24 @@
       preview.slice(0, 80).forEach(function (item) {
         var tr = document.createElement('tr');
         tr.className = item.ok ? 'is-valid' : 'is-invalid';
+        var url = item.p.officialUrl || '';
         tr.innerHTML =
           '<td>' + item.row + '</td>' +
           '<td>' + (item.ok ? (item.p._action === 'update' ? 'UPD' : 'NEW') : '✗') + '</td>' +
           '<td>' + esc(item.p.promotionId) + '</td>' +
-          '<td>' + esc(item.p.bank) + '</td>' +
-          '<td>' + esc(item.p.card) + '</td>' +
+          '<td>' + esc(item.p.source) + '</td>' +
+          '<td>' + esc(item.p.merchant) + '</td>' +
           '<td>' + esc(item.p.offerTitle) + '</td>' +
-          '<td>' + esc(item.p.startDate) + ' → ' + esc(item.p.endDate) + '</td>' +
+          '<td title="' + esc(url) + '">' + esc(url.slice(0, 40)) + (url.length > 40 ? '…' : '') + '</td>' +
           '<td>' + esc(item.errors.join('; ')) + '</td>';
         body.appendChild(tr);
       });
     }
     var report = $('ccdPromoImportReport');
     if (report) {
-      var lines = result.invalid.length
-        ? result.invalid.slice(0, 30).map(function (i) { return 'Dòng ' + i.row + ': ' + i.errors.join('; '); })
-        : ['Tất cả dòng hợp lệ.'];
-      report.textContent = lines.join('\n');
+      report.textContent = result.invalid.length
+        ? result.invalid.slice(0, 30).map(function (i) { return 'Dòng ' + i.row + ': ' + i.errors.join('; '); }).join('\n')
+        : 'Tất cả dòng hợp lệ. Sẽ ghi vào Knowledge Base local-only.';
     }
     var btn = $('ccdPromoImportConfirm');
     if (btn) btn.disabled = result.valid.length === 0;
@@ -2844,45 +3162,33 @@
     var mode = modeEl ? modeEl.value : 'merge';
     var nValid = pendingPromoImport.valid.length;
     var nInvalid = pendingPromoImport.invalid.length;
-    var nUpdate = 0;
-    var nCreate = 0;
+    var nUpdate = 0, nCreate = 0;
 
     if (mode === 'overwrite') {
-      state.promotions = pendingPromoImport.valid.map(function (p) {
-        var c = JSON.parse(JSON.stringify(p));
-        delete c._rowNum; delete c._action;
+      state.promoKB = emptyPromoKB();
+      pendingPromoImport.valid.forEach(function (p) {
+        upsertFlatIntoKB(state.promoKB, p);
         nCreate++;
-        return c;
       });
     } else {
-      var byId = {};
-      (state.promotions || []).forEach(function (p) {
-        byId[String(p.promotionId || '').toLowerCase()] = p;
-      });
+      ensureKB();
       pendingPromoImport.valid.forEach(function (p) {
-        var key = String(p.promotionId || '').toLowerCase();
-        var clean = JSON.parse(JSON.stringify(p));
-        delete clean._rowNum; delete clean._action;
-        if (byId[key]) {
-          clean.id = byId[key].id;
-          clean.createdAt = byId[key].createdAt || clean.createdAt;
-          byId[key] = clean;
-          nUpdate++;
-        } else {
-          byId[key] = clean;
-          nCreate++;
-        }
+        var before = (state.promoKB.promotions || []).some(function (x) {
+          return String(x.promotionId || '').toLowerCase() === String(p.promotionId || '').toLowerCase();
+        });
+        upsertFlatIntoKB(state.promoKB, p);
+        if (before) nUpdate++; else nCreate++;
       });
-      state.promotions = Object.keys(byId).map(function (k) { return byId[k]; });
     }
-
-    scheduleSave();
+    rebuildPromotionsFromKB();
+    scheduleSaveLocalOnly();
+    persistLocal();
     renderAll();
     closePromoImportModal();
     if (nInvalid) {
-      setPromoIoStatus('warn', '⚠ Imported with warnings: +' + nCreate + ' new · ' + nUpdate + ' updated · ' + nInvalid + ' skipped.');
+      setPromoIoStatus('warn', '⚠ Imported with warnings: +' + nCreate + ' · upd ' + nUpdate + ' · skip ' + nInvalid + ' (local KB).');
     } else {
-      setPromoIoStatus('ok', '✓ Imported successfully: +' + nCreate + ' new · ' + nUpdate + ' updated. Dashboard promotions refreshed.');
+      setPromoIoStatus('ok', '✓ Knowledge Base updated: +' + nCreate + ' · upd ' + nUpdate + ' (local-only). Dashboard đọc repository này.');
     }
   }
 
@@ -2900,9 +3206,9 @@
           return;
         }
         openPromoImportModal(result);
-        if (!result.valid.length) setPromoIoStatus('err', '✗ Mọi dòng đều lỗi — xem preview.');
-        else if (result.invalid.length) setPromoIoStatus('warn', '⚠ Có dòng lỗi — kiểm tra preview.');
-        else setPromoIoStatus('ok', '✓ Parse OK — xác nhận để lưu.');
+        if (!result.valid.length) setPromoIoStatus('err', '✗ Mọi dòng lỗi — kiểm tra Official URL / cột bắt buộc.');
+        else if (result.invalid.length) setPromoIoStatus('warn', '⚠ Có dòng lỗi — xem preview.');
+        else setPromoIoStatus('ok', '✓ Parse OK — xác nhận để ghi vào KB local.');
       } catch (e) {
         setPromoIoStatus('err', '✗ Import failed: ' + (e.message || e));
       }
@@ -2916,10 +3222,20 @@
     $('ccdPromoFieldInternalId').value = p.id || '';
     $('ccdPromoFieldId').value = p.promotionId || '';
     $('ccdPromoFieldBank').value = p.bank || '';
-    $('ccdPromoFieldCard').value = p.card || '';
-    $('ccdPromoFieldType').value = p.promotionType || 'Cashback';
-    $('ccdPromoFieldGroup').value = p.promotionGroup || '';
+    var src = $('ccdPromoFieldSource');
+    if (src) {
+      var sn = p.source || 'HSBC Privilege Club';
+      if (![].some.call(src.options, function (o) { return o.value === sn; })) {
+        var opt = document.createElement('option');
+        opt.value = sn; opt.textContent = sn;
+        src.appendChild(opt);
+      }
+      src.value = sn;
+    }
     $('ccdPromoFieldMerchant').value = p.merchant || '';
+    if ($('ccdPromoFieldMerchantDomain')) $('ccdPromoFieldMerchantDomain').value = p.merchantDomain || '';
+    $('ccdPromoFieldType').value = p.offerType || p.promotionType || 'Cashback';
+    $('ccdPromoFieldCard').value = (p.cards && p.cards.length ? p.cards.join(', ') : (p.card || ''));
     $('ccdPromoFieldCategory').value = p.category || 'Dining';
     $('ccdPromoFieldTitle').value = p.offerTitle || '';
     $('ccdPromoFieldDesc').value = p.shortDescription || '';
@@ -2931,7 +3247,7 @@
     $('ccdPromoFieldStart').value = p.startDate || '';
     $('ccdPromoFieldEnd').value = p.endDate || '';
     $('ccdPromoFieldCode').value = p.promoCode || '';
-    $('ccdPromoFieldLink').value = p.applyLink || '';
+    $('ccdPromoFieldLink').value = p.officialUrl || p.applyLink || '';
     $('ccdPromoFieldPriority').value = p.priority != null ? String(p.priority) : '50';
     $('ccdPromoFieldFeatured').value = p.featured ? 'true' : 'false';
     $('ccdPromoFieldStatus').value = p.status || 'Active';
@@ -2939,17 +3255,22 @@
   }
 
   function readPromoForm() {
+    var cards = parseCards($('ccdPromoFieldCard').value);
+    var url = ($('ccdPromoFieldLink').value || '').trim();
     return {
-      id: $('ccdPromoFieldInternalId').value || genId(),
+      id: $('ccdPromoFieldInternalId').value || kbId('promo'),
       promotionId: ($('ccdPromoFieldId').value || '').trim(),
       bank: ($('ccdPromoFieldBank').value || '').trim(),
-      card: ($('ccdPromoFieldCard').value || '').trim(),
-      promotionType: $('ccdPromoFieldType').value || 'Cashback',
-      promotionGroup: $('ccdPromoFieldGroup').value || '',
+      source: ($('ccdPromoFieldSource') && $('ccdPromoFieldSource').value) || 'Bank Official Offers',
       merchant: ($('ccdPromoFieldMerchant').value || '').trim(),
-      category: $('ccdPromoFieldCategory').value || 'Lifestyle',
+      merchantDomain: ($('ccdPromoFieldMerchantDomain') && $('ccdPromoFieldMerchantDomain').value || '').trim(),
+      offerType: $('ccdPromoFieldType').value || 'Cashback',
+      promotionType: $('ccdPromoFieldType').value || 'Cashback',
+      cards: cards,
+      card: cards.join(', '),
       offerTitle: ($('ccdPromoFieldTitle').value || '').trim(),
       shortDescription: ($('ccdPromoFieldDesc').value || '').trim(),
+      category: $('ccdPromoFieldCategory').value || 'Lifestyle',
       discountType: $('ccdPromoFieldDiscType').value || 'Percent',
       discountValue: parseFloat($('ccdPromoFieldDiscValue').value) || 0,
       cashbackCap: parseMoney($('ccdPromoFieldCap').value),
@@ -2958,7 +3279,8 @@
       startDate: $('ccdPromoFieldStart').value || '',
       endDate: $('ccdPromoFieldEnd').value || '',
       promoCode: ($('ccdPromoFieldCode').value || '').trim(),
-      applyLink: ($('ccdPromoFieldLink').value || '').trim(),
+      officialUrl: url,
+      applyLink: url,
       terms: ($('ccdPromoFieldTerms').value || '').trim(),
       priority: parseInt($('ccdPromoFieldPriority').value, 10) || 0,
       featured: $('ccdPromoFieldFeatured').value === 'true',
@@ -2969,7 +3291,7 @@
   function openPromoForm(p, title) {
     var panel = $('ccdPromoFormPanel');
     if (panel) { panel.hidden = false; panel.style.display = ''; }
-    $('ccdPromoFormTitle').textContent = title || (p ? 'Sửa promotion' : 'Thêm promotion');
+    $('ccdPromoFormTitle').textContent = title || (p ? 'Sửa promotion (KB)' : 'Thêm promotion (KB)');
     $('ccdPromoFormError').textContent = '';
     fillPromoForm(p || emptyPromo());
     if (!p) $('ccdPromoFieldInternalId').value = '';
@@ -2979,7 +3301,7 @@
   function closePromoForm() {
     var panel = $('ccdPromoFormPanel');
     if (panel) { panel.hidden = true; panel.style.display = 'none'; }
-    $('ccdPromoForm').reset();
+    if ($('ccdPromoForm')) $('ccdPromoForm').reset();
     $('ccdPromoFieldInternalId').value = '';
     $('ccdPromoFormError').textContent = '';
   }
@@ -2988,10 +3310,6 @@
     if (e) e.preventDefault();
     var draft = readPromoForm();
     var existing = (state.promotions || []).find(function (x) { return x.id === draft.id; });
-    if (!existing && $('ccdPromoFieldInternalId').value) {
-      existing = (state.promotions || []).find(function (x) { return x.id === $('ccdPromoFieldInternalId').value; });
-    }
-    // match by promotionId when editing
     if (!existing) {
       existing = (state.promotions || []).find(function (x) {
         return String(x.promotionId || '').toLowerCase() === String(draft.promotionId || '').toLowerCase();
@@ -3001,19 +3319,15 @@
       draft.id = existing.id;
       draft.createdAt = existing.createdAt || new Date().toISOString();
     } else {
-      draft.id = genId();
+      draft.id = kbId('promo');
       draft.createdAt = new Date().toISOString();
     }
     draft.updatedAt = new Date().toISOString();
     if (promoIsExpired(draft) && draft.status === 'Active') draft.status = 'Expired';
 
-    var errors = validatePromo(draft, {
-      checkDupId: !existing,
-      ignoreInternalId: existing ? existing.id : null
-    });
-    // if editing same id, allow same promotionId
+    var errors = validatePromoFlat(draft, { checkDupId: !existing, ignoreId: existing ? existing.id : null });
     if (existing) {
-      errors = validatePromo(draft, {});
+      errors = validatePromoFlat(draft, {});
       var other = (state.promotions || []).some(function (x) {
         return x.id !== existing.id && String(x.promotionId || '').toLowerCase() === String(draft.promotionId || '').toLowerCase();
       });
@@ -3023,46 +3337,65 @@
       $('ccdPromoFormError').textContent = errors.join(' · ');
       return;
     }
-    if (existing) {
-      var idx = state.promotions.indexOf(existing);
-      if (idx === -1) idx = state.promotions.findIndex(function (x) { return x.id === existing.id; });
-      state.promotions[idx] = draft;
-    } else {
-      state.promotions.push(draft);
-    }
-    scheduleSave();
+    ensureKB();
+    upsertFlatIntoKB(state.promoKB, draft);
+    rebuildPromotionsFromKB();
+    scheduleSaveLocalOnly();
+    persistLocal();
     closePromoForm();
     renderAll();
-    setPromoIoStatus('ok', '✓ Đã lưu promotion “' + draft.promotionId + '”.');
+    setPromoIoStatus('ok', '✓ Đã lưu vào Knowledge Base local: “' + draft.promotionId + '”.');
   }
 
   function deletePromo(id) {
-    if (!confirm('Xoá promotion này?')) return;
-    state.promotions = (state.promotions || []).filter(function (p) { return p.id !== id; });
-    scheduleSave();
+    if (!confirm('Xoá promotion này khỏi Knowledge Base?')) return;
+    ensureKB();
+    state.promoKB.promotions = (state.promoKB.promotions || []).filter(function (p) { return p.id !== id; });
+    rebuildPromotionsFromKB();
+    scheduleSaveLocalOnly();
+    persistLocal();
     renderAll();
   }
 
+  function sortPromotions(rows, mode) {
+    mode = mode || 'default';
+    rows.sort(function (a, b) {
+      if (mode === 'newest') return String(b.startDate || '').localeCompare(String(a.startDate || ''));
+      if (mode === 'ending') return String(a.endDate || '9999').localeCompare(String(b.endDate || '9999'));
+      if (mode === 'priority') return (Number(b.priority) || 0) - (Number(a.priority) || 0);
+      // default: Featured → Priority → Expiration
+      var fa = a.featured ? 1 : 0, fb = b.featured ? 1 : 0;
+      if (fb !== fa) return fb - fa;
+      var pa = Number(a.priority) || 0, pb = Number(b.priority) || 0;
+      if (pb !== pa) return pb - pa;
+      return String(a.endDate || '9999').localeCompare(String(b.endDate || '9999'));
+    });
+    return rows;
+  }
+
   function listVisiblePromos() {
+    rebuildPromotionsFromKB();
     var q = (state.promoSearch || '').toLowerCase();
     var f = state.promoFilters;
     var rows = (state.promotions || []).filter(function (p) {
-      // auto-mark expired for display filter
       var status = promoIsExpired(p) ? 'Expired' : (p.status || 'Active');
       if (f.bank && (p.bank || '') !== f.bank) return false;
-      if (f.type && (p.promotionType || '') !== f.type) return false;
+      if (f.card) {
+        var cards = p.cards || parseCards(p.card);
+        if (cards.indexOf(f.card) === -1 && (p.card || '') !== f.card) return false;
+      }
+      if (f.source && (p.source || '') !== f.source) return false;
+      if (f.merchant && (p.merchant || '') !== f.merchant) return false;
+      if (f.type && (p.offerType || p.promotionType || '') !== f.type) return false;
       if (f.category && (p.category || '') !== f.category) return false;
+      if (f.featured === 'yes' && !p.featured) return false;
+      if (f.featured === 'no' && p.featured) return false;
       if (f.status && status !== f.status && (p.status || '') !== f.status) return false;
       if (!q) return true;
-      return [p.merchant, p.bank, p.offerTitle, p.card, p.category, p.promotionId, p.promoCode]
+      return [p.merchant, p.bank, p.source, p.offerTitle, p.card, p.category, p.promotionId, p.promoCode]
         .join(' ').toLowerCase().indexOf(q) !== -1;
     });
-    rows.sort(function (a, b) {
-      if (state.promoSort === 'newest') return String(b.startDate || '').localeCompare(String(a.startDate || ''));
-      if (state.promoSort === 'ending') return String(a.endDate || '9999').localeCompare(String(b.endDate || '9999'));
-      return (Number(b.priority) || 0) - (Number(a.priority) || 0);
-    });
-    return rows;
+    return sortPromotions(rows, state.promoSort);
   }
 
   function renderPromoTable() {
@@ -3074,15 +3407,19 @@
     if (empty) empty.hidden = rows.length > 0;
     rows.forEach(function (p) {
       var status = promoIsExpired(p) ? 'Expired' : (p.status || 'Active');
+      var url = p.officialUrl || p.applyLink || '';
       var tr = document.createElement('tr');
       tr.innerHTML =
         '<td data-label="ID"><strong>' + esc(p.promotionId) + '</strong>' + (p.featured ? ' ⭐' : '') + '</td>' +
-        '<td data-label="Bank/Card">' + esc(p.bank) + '<br><small>' + esc(p.card) + '</small></td>' +
-        '<td data-label="Offer">' + esc(p.offerTitle) + (p.merchant ? '<br><small>' + esc(p.merchant) + '</small>' : '') + '</td>' +
-        '<td data-label="Type">' + esc(p.promotionType) + '</td>' +
-        '<td data-label="Category">' + esc(p.category) + '</td>' +
+        '<td data-label="Bank/Source">' + esc(p.bank) + '<br><small>' + esc(p.source) + '</small></td>' +
+        '<td data-label="Merchant">' + esc(p.merchant) + '</td>' +
+        '<td data-label="Title">' + esc(p.offerTitle) + '</td>' +
+        '<td data-label="Offer">' + esc(p.offerType || p.promotionType) + '</td>' +
+        '<td data-label="Cards">' + esc(p.cards && p.cards.length ? p.cards.join(', ') : p.card) + '</td>' +
         '<td data-label="Valid">' + esc(p.startDate) + ' → ' + esc(p.endDate) + '</td>' +
-        '<td data-label="Priority">' + esc(String(p.priority || 0)) + '</td>' +
+        '<td data-label="URL">' + (url
+          ? '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer" title="' + esc(url) + '">Open</a>'
+          : '<span style="color:var(--ccd-red-text)">Missing</span>') + '</td>' +
         '<td data-label="Status">' + esc(status) + '</td>' +
         '<td data-label="Actions"><div class="ccd-input__row-actions"></div></td>';
       var actions = tr.querySelector('.ccd-input__row-actions');
@@ -3094,7 +3431,7 @@
         b.addEventListener('click', fn);
         actions.appendChild(b);
       }
-      mk('Edit', '', function () { openPromoForm(p, 'Sửa promotion'); });
+      mk('Edit', '', function () { openPromoForm(p, 'Sửa promotion (KB)'); });
       mk('Del', 'ccd-input__btn--danger', function () { deletePromo(p.id); });
       tbody.appendChild(tr);
     });
@@ -3103,45 +3440,62 @@
   function computePromoStats(list) {
     list = list || state.promotions || [];
     var total = list.length;
-    var active = 0, expiring = 0, expired = 0, cashback = 0, installment = 0;
+    var active = 0, expiring7 = 0, expiring30 = 0, expired = 0, cashback = 0, installment = 0, noUrl = 0;
     var merchants = {}, categories = {};
+    var contentKeys = {}, dupes = 0;
     list.forEach(function (p) {
+      var key = promoDupKey(p);
+      if (contentKeys[key]) dupes++;
+      else contentKeys[key] = 1;
+      if (!(p.officialUrl || p.applyLink)) noUrl++;
       if (promoIsExpired(p)) expired++;
       else if (promoIsActive(p)) {
         active++;
         var d = daysUntil(p.endDate);
-        if (d !== null && d >= 0 && d <= 7) expiring++;
+        if (d !== null && d >= 0 && d <= 7) expiring7++;
+        if (d !== null && d >= 0 && d <= 30) expiring30++;
       }
-      if ((p.promotionType || '') === 'Cashback') cashback++;
-      if ((p.promotionType || '') === 'Installment' || (Number(p.installmentMonths) || 0) > 0) installment++;
+      var ot = p.offerType || p.promotionType || '';
+      if (ot === 'Cashback') cashback++;
+      if (ot === 'Installment' || (Number(p.installmentMonths) || 0) > 0) installment++;
       if (p.merchant) merchants[p.merchant] = (merchants[p.merchant] || 0) + 1;
       if (p.category) categories[p.category] = (categories[p.category] || 0) + 1;
     });
     function topN(map, n) {
       return Object.keys(map).map(function (k) { return { k: k, n: map[k] }; })
-        .sort(function (a, b) { return b.n - a.n; })
-        .slice(0, n);
+        .sort(function (a, b) { return b.n - a.n; }).slice(0, n);
     }
     return {
-      total: total, active: active, expiring: expiring, expired: expired,
-      cashback: cashback, installment: installment,
+      total: total, active: active, expiring: expiring7, expiring30: expiring30, expired: expired,
+      cashback: cashback, installment: installment, noUrl: noUrl, dupes: dupes,
       topMerchants: topN(merchants, 5), topCategories: topN(categories, 5),
       merchants: merchants, categories: categories
     };
   }
 
   function renderPromoMgmtInsights() {
+    rebuildPromotionsFromKB();
     var s = computePromoStats();
     function set(id, v) { var el = $(id); if (el) el.textContent = String(v); }
     set('ccdPromoKpiTotal', s.total);
     set('ccdPromoKpiActive', s.active);
     set('ccdPromoKpiExpiring', s.expiring);
+    set('ccdPromoKpiExpiring30', s.expiring30);
     set('ccdPromoKpiExpired', s.expired);
     set('ccdPromoKpiCashback', s.cashback);
     set('ccdPromoKpiInstall', s.installment);
+    set('ccdPromoKpiNoUrl', s.noUrl);
+    set('ccdPromoKpiDupes', s.dupes);
+    var tops = $('ccdPromoMgmtTops');
+    if (tops) {
+      tops.textContent =
+        'Top merchants: ' + (s.topMerchants.map(function (x) { return x.k + ' (' + x.n + ')'; }).join(', ') || '—') +
+        ' · Top categories: ' + (s.topCategories.map(function (x) { return x.k + ' (' + x.n + ')'; }).join(', ') || '—');
+    }
   }
 
   function populatePromoMgmtFilters() {
+    rebuildPromotionsFromKB();
     function fill(selId, values, allLabel) {
       var sel = $(selId);
       if (!sel) return;
@@ -3154,18 +3508,25 @@
       sel.innerHTML = opts.join('');
       if (cur) sel.value = cur;
     }
-    var banks = {}, types = {}, cats = {};
+    var banks = {}, cards = {}, sources = {}, merchants = {}, types = {}, cats = {};
     (state.promotions || []).forEach(function (p) {
       if (p.bank) banks[p.bank] = 1;
-      if (p.promotionType) types[p.promotionType] = 1;
+      if (p.source) sources[p.source] = 1;
+      if (p.merchant) merchants[p.merchant] = 1;
+      if (p.offerType || p.promotionType) types[p.offerType || p.promotionType] = 1;
       if (p.category) cats[p.category] = 1;
+      parseCards(p.cards || p.card).forEach(function (c) { cards[c] = 1; });
     });
     fill('ccdPromoFilterBank', Object.keys(banks).sort(), 'Bank: All');
-    fill('ccdPromoFilterType', Object.keys(types).sort().length ? Object.keys(types).sort() : PROMO_TYPES, 'Type: All');
+    fill('ccdPromoFilterCard', Object.keys(cards).sort(), 'Card: All');
+    fill('ccdPromoFilterSource', Object.keys(sources).sort().length ? Object.keys(sources).sort() : PROMO_DEFAULT_SOURCES, 'Source: All');
+    fill('ccdPromoFilterMerchant', Object.keys(merchants).sort(), 'Merchant: All');
+    fill('ccdPromoFilterType', Object.keys(types).sort().length ? Object.keys(types).sort() : PROMO_TYPES, 'Offer: All');
     fill('ccdPromoFilterCat', Object.keys(cats).sort().length ? Object.keys(cats).sort() : PROMO_CATEGORIES, 'Category: All');
   }
 
   function listDashPromos() {
+    rebuildPromotionsFromKB();
     var f = state.dashPromo;
     var q = (f.search || '').toLowerCase();
     var rows = (state.promotions || []).filter(function (p) {
@@ -3174,31 +3535,34 @@
       if (f.state === 'active' && !active) return false;
       if (f.state === 'expired' && !expired) return false;
       if (f.state === 'featured' && !p.featured) return false;
-      // auto-hide expired unless filter asks for expired/all
-      if (f.state === 'active' && expired) return false;
       if (f.bank && (p.bank || '') !== f.bank) return false;
-      if (f.card && (p.card || '') !== f.card) return false;
+      if (f.card) {
+        var cards = p.cards || parseCards(p.card);
+        if (cards.indexOf(f.card) === -1) return false;
+      }
+      if (f.source && (p.source || '') !== f.source) return false;
+      if (f.merchant && (p.merchant || '') !== f.merchant) return false;
       if (f.category && (p.category || '') !== f.category) return false;
-      if (f.type && (p.promotionType || '') !== f.type) return false;
+      if (f.type && (p.offerType || p.promotionType || '') !== f.type) return false;
+      // hide promos without official URL from active dashboard feed
+      if (f.state === 'active' && !(p.officialUrl || p.applyLink)) return false;
       if (!q) return true;
-      return [p.merchant, p.bank, p.offerTitle, p.card, p.category, p.promotionId]
+      return [p.merchant, p.bank, p.source, p.offerTitle, p.card, p.category, p.promotionId]
         .join(' ').toLowerCase().indexOf(q) !== -1;
     });
-    rows.sort(function (a, b) {
-      if (f.sort === 'newest') return String(b.startDate || '').localeCompare(String(a.startDate || ''));
-      if (f.sort === 'ending') return String(a.endDate || '9999').localeCompare(String(b.endDate || '9999'));
-      return (Number(b.priority) || 0) - (Number(a.priority) || 0);
-    });
-    return rows;
+    return sortPromotions(rows, f.sort || 'default');
   }
 
   function populateDashPromoFilters() {
-    var banks = {}, cards = {}, cats = {}, types = {};
+    rebuildPromotionsFromKB();
+    var banks = {}, cards = {}, sources = {}, merchants = {}, cats = {}, types = {};
     (state.promotions || []).forEach(function (p) {
       if (p.bank) banks[p.bank] = 1;
-      if (p.card) cards[p.card] = 1;
+      if (p.source) sources[p.source] = 1;
+      if (p.merchant) merchants[p.merchant] = 1;
       if (p.category) cats[p.category] = 1;
-      if (p.promotionType) types[p.promotionType] = 1;
+      if (p.offerType || p.promotionType) types[p.offerType || p.promotionType] = 1;
+      parseCards(p.cards || p.card).forEach(function (c) { cards[c] = 1; });
     });
     function fill(id, map, label) {
       var sel = $(id);
@@ -3213,8 +3577,10 @@
     }
     fill('dashPromoBank', banks, 'Bank');
     fill('dashPromoCard', cards, 'Card');
+    fill('dashPromoSource', sources, 'Source');
+    fill('dashPromoMerchant', merchants, 'Merchant');
     fill('dashPromoCat', cats, 'Category');
-    fill('dashPromoType', types, 'Type');
+    fill('dashPromoType', types, 'Offer');
   }
 
   function renderActivePromotions() {
@@ -3227,15 +3593,16 @@
     rows.slice(0, 40).forEach(function (p) {
       var card = document.createElement('article');
       card.className = 'ccd-promo-card' + (p.featured ? ' ccd-promo-card--featured' : '');
-      var link = p.applyLink
-        ? '<a class="ccd-promo-card__link" href="' + esc(p.applyLink) + '" target="_blank" rel="noopener noreferrer">Open Link</a>'
-        : '<span class="ccd-promo-card__link" style="opacity:.5;cursor:default">No link</span>';
+      var url = (p.officialUrl || p.applyLink || '').trim();
+      var linkHtml = url
+        ? '<a class="ccd-promo-card__link" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Open official link</a>'
+        : '<span class="ccd-promo-card__link" style="opacity:.55;cursor:default">No official URL</span>';
       card.innerHTML =
         '<div class="ccd-promo-card__top">' +
           '<div class="ccd-promo-card__icon" aria-hidden="true">' + esc(bankIcon(p.bank)) + '</div>' +
           '<div class="ccd-promo-card__meta">' +
-            '<div class="ccd-promo-card__bank">' + esc(p.bank || '—') + '</div>' +
-            '<div class="ccd-promo-card__card">' + esc(p.card || '—') + '</div>' +
+            '<div class="ccd-promo-card__bank">' + esc(p.bank || '—') + ' · ' + esc(p.source || '') + '</div>' +
+            '<div class="ccd-promo-card__card">' + esc(p.cards && p.cards.length ? p.cards.join(', ') : (p.card || '—')) + '</div>' +
           '</div>' +
         '</div>' +
         '<h3 class="ccd-promo-card__title">' + esc(p.offerTitle || 'Untitled offer') + '</h3>' +
@@ -3243,17 +3610,18 @@
         '<div class="ccd-promo-card__deal">' + esc(formatDeal(p)) + '</div>' +
         '<div class="ccd-promo-card__row">' +
           '<span class="ccd-promo-chip">' + esc(p.category || '—') + '</span>' +
-          '<span class="ccd-promo-chip">' + esc(p.promotionType || '—') + '</span>' +
+          '<span class="ccd-promo-chip">' + esc(p.offerType || p.promotionType || '—') + '</span>' +
           (p.featured ? '<span class="ccd-promo-chip">Featured</span>' : '') +
         '</div>' +
         '<div class="ccd-promo-card__until">Valid until ' + esc(p.endDate || '—') +
           (p.promoCode ? ' · Code ' + esc(p.promoCode) : '') + '</div>' +
-        link;
+        linkHtml;
       list.appendChild(card);
     });
   }
 
   function renderPromoDashInsights() {
+    rebuildPromotionsFromKB();
     var s = computePromoStats();
     function set(id, v) { var el = $(id); if (el) el.textContent = String(v); }
     set('dashPromoTotal', s.total);
@@ -3267,7 +3635,6 @@
     if (tm) tm.textContent = s.topMerchants.length ? s.topMerchants.map(function (x) { return x.k + ' (' + x.n + ')'; }).join(', ') : '—';
     if (tc) tc.textContent = s.topCategories.length ? s.topCategories.map(function (x) { return x.k + ' (' + x.n + ')'; }).join(', ') : '—';
 
-    // Category donut
     if (typeof Chart !== 'undefined') {
       var catLabels = Object.keys(s.categories);
       var catData = catLabels.map(function (k) { return s.categories[k]; });
@@ -3279,8 +3646,6 @@
         },
         options: { plugins: { legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 10 } } } }, maintainAspectRatio: false }
       });
-
-      // Monthly trend by startDate
       var months = {};
       (state.promotions || []).forEach(function (p) {
         if (!p.startDate || p.startDate.length < 7) return;
@@ -3297,24 +3662,21 @@
             data: mLabels.length ? mLabels.map(function (k) { return months[k]; }) : [0],
             borderColor: 'rgba(0,167,160,1)',
             backgroundColor: 'rgba(0,167,160,.15)',
-            fill: true,
-            tension: 0.3
+            fill: true, tension: 0.3
           }]
         },
         options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }, maintainAspectRatio: false }
       });
     }
 
-    // Timeline
     var tl = $('ccdPromoTimeline');
     if (tl) {
-      var actives = (state.promotions || []).filter(promoIsActive).slice().sort(function (a, b) {
-        return String(a.endDate || '').localeCompare(String(b.endDate || ''));
-      }).slice(0, 12);
+      var actives = (state.promotions || []).filter(promoIsActive).slice();
+      sortPromotions(actives, 'ending');
+      actives = actives.slice(0, 12);
       if (!actives.length) {
-        tl.innerHTML = '<div class="ccd-promo-timeline__row"><span colspan="3" style="grid-column:1/-1;color:var(--muted)">No active promotions</span></div>';
+        tl.innerHTML = '<div class="ccd-promo-timeline__row"><span style="grid-column:1/-1;color:var(--muted)">No active promotions in Knowledge Base</span></div>';
       } else {
-        // normalize span for bar width
         var minT = Infinity, maxT = -Infinity;
         actives.forEach(function (p) {
           var s0 = new Date((p.startDate || todayISO()) + 'T00:00:00').getTime();
@@ -3347,6 +3709,8 @@
     bind('dashPromoSearch', 'search', true);
     bind('dashPromoBank', 'bank');
     bind('dashPromoCard', 'card');
+    bind('dashPromoSource', 'source');
+    bind('dashPromoMerchant', 'merchant');
     bind('dashPromoCat', 'category');
     bind('dashPromoType', 'type');
     bind('dashPromoState', 'state');
@@ -3354,9 +3718,10 @@
   }
 
   function initPromotionsModule() {
+    ensureKB();
     on($('ccdPromoDownloadTemplate'), 'click', downloadPromoTemplate);
     on($('ccdPromoExportBtn'), 'click', exportPromotionsExcel);
-    on($('ccdPromoAddBtn'), 'click', function () { openPromoForm(null, 'Thêm promotion'); });
+    on($('ccdPromoAddBtn'), 'click', function () { openPromoForm(null, 'Thêm promotion (KB)'); });
     on($('ccdPromoFormCancel'), 'click', closePromoForm);
     on($('ccdPromoForm'), 'submit', savePromoForm);
     on($('ccdPromoImportBtn'), 'click', function () {
@@ -3394,10 +3759,14 @@
       renderPromoTable();
     });
     on($('ccdPromoFilterBank'), 'change', function () { state.promoFilters.bank = this.value || ''; renderPromoTable(); });
+    on($('ccdPromoFilterCard'), 'change', function () { state.promoFilters.card = this.value || ''; renderPromoTable(); });
+    on($('ccdPromoFilterSource'), 'change', function () { state.promoFilters.source = this.value || ''; renderPromoTable(); });
+    on($('ccdPromoFilterMerchant'), 'change', function () { state.promoFilters.merchant = this.value || ''; renderPromoTable(); });
     on($('ccdPromoFilterType'), 'change', function () { state.promoFilters.type = this.value || ''; renderPromoTable(); });
     on($('ccdPromoFilterCat'), 'change', function () { state.promoFilters.category = this.value || ''; renderPromoTable(); });
+    on($('ccdPromoFilterFeatured'), 'change', function () { state.promoFilters.featured = this.value || ''; renderPromoTable(); });
     on($('ccdPromoFilterStatus'), 'change', function () { state.promoFilters.status = this.value || ''; renderPromoTable(); });
-    on($('ccdPromoSort'), 'change', function () { state.promoSort = this.value || 'priority'; renderPromoTable(); });
+    on($('ccdPromoSort'), 'change', function () { state.promoSort = this.value || 'default'; renderPromoTable(); });
   }
 
   function initGithubSaveUi() {
@@ -3409,7 +3778,11 @@
       persistLocal().then(function () { return saveToGitHub({ quiet: false }); });
     });
     on($('ccdPromoSaveGithub'), 'click', function () {
-      persistLocal().then(function () { return saveToGitHub({ quiet: false }); });
+      // Knowledge Base is local-only (not committed to public GitHub)
+      rebuildPromotionsFromKB();
+      persistLocal().then(function () {
+        setPromoIoStatus('ok', '✓ Knowledge Base đã lưu local (IndexedDB encrypted).');
+      });
     });
     on($('ccdDashSaveGithub'), 'click', function () {
       persistLocal().then(function () { return saveToGitHub({ quiet: false }); });
