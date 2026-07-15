@@ -7,7 +7,7 @@ image = "images/posts/christopher-nolan-tieu-su-va-su-nghiep.webp"
 thumbnail = "images/posts/christopher-nolan-tieu-su-va-su-nghiep.webp"
 categories = ["doi-song"]
 tags = ["christopher-nolan", "dao-dien", "dien-anh", "the-odyssey", "nolan", "dark-knight", "inception", "interstellar", "oppenheimer", "su-thi-hy-lap", "homer", "odyssey-2026"]
-commit = "443fe8bd"
+commit = "cedc2cb2"
 date_display = "15-07-2026 13:00:00 GMT +7"
 
 [[internal_links]]
