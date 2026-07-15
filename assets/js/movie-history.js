@@ -98,5 +98,672 @@ var exportBtn=document.getElementById('mhExportBtn');if(exportBtn)exportBtn.addE
 var addBtn=document.getElementById('mhAddBtn');if(addBtn)addBtn.addEventListener('click',function(){oS()});
 var searchEl=document.getElementById('mhSearch');if(searchEl)searchEl.addEventListener('input',function(){S.searchQuery=this.value||'';aF();if((S.searchQuery||'').trim()){hideSelectedPanel();rL()}else if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else{showIdleList()}});
 var filterEl=document.getElementById('mhFilter');if(filterEl)filterEl.addEventListener('change',function(){S.filterStatus=this.value||'all';aF();if(S.filterStatus!=='all'){hideSelectedPanel();rL()}else if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else if((S.searchQuery||'').trim()){rL()}else{showIdleList()}});
-iG();lV();
+
+/* ─── Excel Import / Export ───────────────────────────────── */
+var MH_XLSX_HEADERS = [
+  'Movie Title *', 'Original Title', 'Watch Date *', 'Watch Time', 'Country', 'Language',
+  'Genre', 'Director', 'Main Cast', 'Streaming Platform', 'Cinema', 'Watching Method',
+  'Duration (minutes)', 'Personal Rating (0-10)', 'IMDb Rating', 'Rotten Tomatoes',
+  'Letterboxd Rating', 'Favorite (Yes/No)', 'Rewatch (Yes/No)', 'Watch With', 'Mood',
+  'Review', 'Tags', 'Poster URL (optional)', 'Trailer URL', 'Official Website', 'Notes'
+];
+var MH_XLSX_SAMPLE = [
+  'THE ODYSSEY', 'The Odyssey', '2026-07-17', '09:20', 'USA', 'English',
+  'Action, Adventure', 'Christopher Nolan', 'Matt Damon, Tom Holland', '', 'CGV Hùng Vương Plaza', 'Cinema',
+  150, 9, 8.2, '92%', 4.1, 'Yes', 'No', 'Friends', 'Excited',
+  'Epic Nolan adaptation — sample row for template only', 'cinema, imax', '', '', 'https://www.cgv.vn/', 'Template sample'
+];
+var pendingMhImport = null;
+
+function mhEnsureXLSX() {
+  if (typeof XLSX === 'undefined') {
+    alert('Thư viện Excel chưa sẵn sàng. Thử lại sau giây lát.');
+    return false;
+  }
+  return true;
+}
+
+function mhSetIoStatus(kind, msg) {
+  var el = document.getElementById('mhIoStatus');
+  if (!el) return;
+  el.hidden = false;
+  el.className = 'mh-io__status mh-io__status--' + (kind === 'ok' ? 'ok' : kind === 'warn' ? 'warn' : 'err');
+  el.textContent = msg;
+}
+
+function mhSetProgress(show, pct, text) {
+  var wrap = document.getElementById('mhIoProgress');
+  var fill = document.getElementById('mhIoProgressFill');
+  var lab = document.getElementById('mhIoProgressText');
+  if (!wrap) return;
+  if (show) { wrap.hidden = false; } else { wrap.hidden = true; }
+  if (fill) fill.style.width = (pct || 0) + '%';
+  if (lab) lab.textContent = text || '';
+}
+
+function mhColLetter(n) {
+  var s = '';
+  n += 1;
+  while (n > 0) {
+    var m = (n - 1) % 26;
+    s = String.fromCharCode(65 + m) + s;
+    n = Math.floor((n - 1) / 26);
+  }
+  return s;
+}
+
+function mhHeaderStyle() {
+  return {
+    font: { bold: true, color: { rgb: 'FFFFFFFF' }, name: 'Calibri', sz: 11 },
+    fill: { fgColor: { rgb: '00A7A0' } },
+    alignment: { horizontal: 'center', vertical: 'center', wrapText: true },
+    border: {
+      top: { style: 'thin', color: { rgb: '007F7A' } },
+      bottom: { style: 'thin', color: { rgb: '007F7A' } },
+      left: { style: 'thin', color: { rgb: '007F7A' } },
+      right: { style: 'thin', color: { rgb: '007F7A' } }
+    }
+  };
+}
+
+function mhInstructionStyle() {
+  return {
+    font: { italic: true, color: { rgb: '555555' }, name: 'Calibri', sz: 10 },
+    fill: { fgColor: { rgb: 'EEF8F7' } },
+    alignment: { wrapText: true, vertical: 'center' }
+  };
+}
+
+function mhBuildSheet(dataRows) {
+  var instr = [
+    'INSTRUCTIONS: Row 1 = headers (do not rename). Row 2 = example (replace or delete). Required: Movie Title *, Watch Date * (yyyy-mm-dd). Personal Rating 0–10. Favorite/Rewatch = Yes or No. Tags comma-separated. UTF-8 Vietnamese OK. Sheet name: Movie History.'
+  ];
+  while (instr.length < MH_XLSX_HEADERS.length) instr.push('');
+  var aoa = [MH_XLSX_HEADERS.slice(), instr, (dataRows && dataRows[0]) ? dataRows[0] : MH_XLSX_SAMPLE.slice()];
+  if (dataRows && dataRows.length > 1) {
+    for (var i = 1; i < dataRows.length; i++) aoa.push(dataRows[i]);
+  } else if (dataRows && dataRows.length === 1 && dataRows[0] !== MH_XLSX_SAMPLE) {
+    // already added as row 3
+  }
+  // For export: if dataRows provided, use headers + data only (no instruction row for clean round-trip)
+  if (dataRows && dataRows._exportMode) {
+    aoa = [MH_XLSX_HEADERS.slice()].concat(dataRows);
+  }
+  var ws = XLSX.utils.aoa_to_sheet(aoa);
+  ws['!cols'] = MH_XLSX_HEADERS.map(function (h, i) {
+    var max = h.length + 2;
+    for (var r = 0; r < Math.min(aoa.length, 50); r++) {
+      var cell = aoa[r][i];
+      var len = cell == null ? 0 : String(cell).length + 2;
+      if (len > max) max = len;
+    }
+    return { wch: Math.min(Math.max(max, 12), 36) };
+  });
+  ws['!freeze'] = { xSplit: 0, ySplit: 1, topLeftCell: 'A2', activePane: 'bottomLeft', state: 'frozen' };
+  ws['!views'] = [{ state: 'frozen', ySplit: 1, topLeftCell: 'A2', activePane: 'bottomLeft' }];
+  ws['!rows'] = [{ hpt: 26 }];
+  for (var c = 0; c < MH_XLSX_HEADERS.length; c++) {
+    var addr = mhColLetter(c) + '1';
+    if (ws[addr]) ws[addr].s = mhHeaderStyle();
+  }
+  // instruction row styling when present
+  if (!dataRows || !dataRows._exportMode) {
+    for (var c2 = 0; c2 < MH_XLSX_HEADERS.length; c2++) {
+      var a2 = mhColLetter(c2) + '2';
+      if (ws[a2]) ws[a2].s = mhInstructionStyle();
+    }
+    if (ws['!merges'] === undefined) ws['!merges'] = [];
+    // optional: leave as separate cells for column-aligned hints
+  }
+  // Data validation lists for Favorite / Rewatch columns (R=17, S=18 zero-based)
+  if (!ws['!dataValidation']) ws['!dataValidation'] = [];
+  try {
+    ws['!dataValidation'].push({
+      sqref: 'R3:R10000', type: 'list', formula1: '"Yes,No"', allowBlank: true
+    });
+    ws['!dataValidation'].push({
+      sqref: 'S3:S10000', type: 'list', formula1: '"Yes,No"', allowBlank: true
+    });
+  } catch (e) {}
+  return ws;
+}
+
+function downloadMovieExcelTemplate() {
+  if (!mhEnsureXLSX()) return;
+  try {
+    var wb = XLSX.utils.book_new();
+    var ws = mhBuildSheet([MH_XLSX_SAMPLE.slice()]);
+    XLSX.utils.book_append_sheet(wb, ws, 'Movie History');
+    XLSX.writeFile(wb, 'Movie_History_Template.xlsx');
+    mhSetIoStatus('ok', '✓ Đã tải Movie_History_Template.xlsx (sheet “Movie History”, 1 dòng mẫu).');
+  } catch (e) {
+    mhSetIoStatus('err', '✗ Không tạo được template: ' + (e.message || e));
+  }
+}
+
+function movieToExcelRow(m) {
+  var fav = (m.specials || []).indexOf('favorite') !== -1 || m.favorite === true || m.favorite === 'Yes';
+  var rew = (m.specials || []).indexOf('rewatch') !== -1 || m.rewatch === true || m.rewatch === 'Yes';
+  var personal = m.personalRating != null ? m.personalRating : (m.rating != null ? Number(m.rating) * 2 : '');
+  var tags = Array.isArray(m.tags) ? m.tags.join(', ') : (m.tags || (m.specials || []).join(', '));
+  return [
+    m.title || '',
+    m.originalTitle || '',
+    m.date || '',
+    m.time || '',
+    m.country || '',
+    m.language || '',
+    m.genre || '',
+    m.director || '',
+    m.mainCast || '',
+    m.platform || m.streamingPlatform || '',
+    m.cinema || '',
+    m.watchingMethod || '',
+    m.duration != null ? m.duration : '',
+    personal,
+    m.imdbRating != null ? m.imdbRating : '',
+    m.rottenTomatoes != null ? m.rottenTomatoes : '',
+    m.letterboxdRating != null ? m.letterboxdRating : '',
+    fav ? 'Yes' : 'No',
+    rew ? 'Yes' : 'No',
+    m.watchWith || '',
+    m.mood || '',
+    m.review || m.summary || '',
+    tags,
+    m.posterUrl || '',
+    m.trailerUrl || '',
+    m.officialWebsite || m.ticket_url || '',
+    m.notes || ''
+  ];
+}
+
+function exportMoviesExcel() {
+  if (!mhEnsureXLSX()) return;
+  if (!S.movies || !S.movies.length) {
+    mhSetIoStatus('warn', '⚠ Chưa có dữ liệu để export.');
+    return;
+  }
+  try {
+    var rows = S.movies.map(movieToExcelRow);
+    rows._exportMode = true;
+    var wb = XLSX.utils.book_new();
+    var ws = mhBuildSheet(rows);
+    XLSX.utils.book_append_sheet(wb, ws, 'Movie History');
+    XLSX.writeFile(wb, 'Movie_History_Export.xlsx');
+    mhSetIoStatus('ok', '✓ Exported ' + S.movies.length + ' movies (cùng cấu trúc template — round-trip OK).');
+  } catch (e) {
+    mhSetIoStatus('err', '✗ Export failed: ' + (e.message || e));
+  }
+}
+
+function mhNormHeader(h) {
+  return String(h == null ? '' : h).replace(/^\uFEFF/, '').trim().toLowerCase().replace(/[%*()]/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim().replace(/\s+/g, ' ');
+}
+
+function mhBuildHeaderMap(headerRow) {
+  var aliases = {
+    'movie title': 'Movie Title *', 'title': 'Movie Title *',
+    'original title': 'Original Title',
+    'watch date': 'Watch Date *', 'date': 'Watch Date *',
+    'watch time': 'Watch Time', 'time': 'Watch Time',
+    'country': 'Country', 'language': 'Language', 'genre': 'Genre', 'director': 'Director',
+    'main cast': 'Main Cast', 'cast': 'Main Cast',
+    'streaming platform': 'Streaming Platform', 'platform': 'Streaming Platform',
+    'cinema': 'Cinema', 'watching method': 'Watching Method', 'method': 'Watching Method',
+    'duration minutes': 'Duration (minutes)', 'duration': 'Duration (minutes)',
+    'personal rating 0 10': 'Personal Rating (0-10)', 'personal rating': 'Personal Rating (0-10)', 'rating': 'Personal Rating (0-10)',
+    'imdb rating': 'IMDb Rating', 'imdb': 'IMDb Rating',
+    'rotten tomatoes': 'Rotten Tomatoes',
+    'letterboxd rating': 'Letterboxd Rating', 'letterboxd': 'Letterboxd Rating',
+    'favorite yes no': 'Favorite (Yes/No)', 'favorite': 'Favorite (Yes/No)',
+    'rewatch yes no': 'Rewatch (Yes/No)', 'rewatch': 'Rewatch (Yes/No)',
+    'watch with': 'Watch With', 'mood': 'Mood', 'review': 'Review', 'tags': 'Tags',
+    'poster url optional': 'Poster URL (optional)', 'poster url': 'Poster URL (optional)', 'poster': 'Poster URL (optional)',
+    'trailer url': 'Trailer URL', 'trailer': 'Trailer URL',
+    'official website': 'Official Website', 'website': 'Official Website',
+    'notes': 'Notes'
+  };
+  var map = {};
+  for (var i = 0; i < headerRow.length; i++) {
+    var n = mhNormHeader(headerRow[i]);
+    if (!n) continue;
+    if (n.indexOf('instruction') === 0) continue;
+    var key = aliases[n];
+    if (!key) {
+      for (var j = 0; j < MH_XLSX_HEADERS.length; j++) {
+        if (mhNormHeader(MH_XLSX_HEADERS[j]) === n) { key = MH_XLSX_HEADERS[j]; break; }
+      }
+    }
+    if (key) map[key] = i;
+  }
+  return map;
+}
+
+function mhYesNo(v) {
+  if (v === true || v === 1) return true;
+  var s = String(v == null ? '' : v).trim().toLowerCase();
+  return s === 'yes' || s === 'y' || s === 'true' || s === '1' || s === 'x';
+}
+
+function mhParseDate(v) {
+  if (v == null || v === '') return '';
+  if (v instanceof Date && !isNaN(v.getTime())) {
+    return v.getFullYear() + '-' + String(v.getMonth() + 1).padStart(2, '0') + '-' + String(v.getDate()).padStart(2, '0');
+  }
+  if (typeof v === 'number' && isFinite(v)) {
+    var epoch = Date.UTC(1899, 11, 30);
+    var dt = new Date(epoch + Math.round(v * 86400000));
+    return dt.getUTCFullYear() + '-' + String(dt.getUTCMonth() + 1).padStart(2, '0') + '-' + String(dt.getUTCDate()).padStart(2, '0');
+  }
+  var s = String(v).trim();
+  if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0, 10);
+  var m = s.match(/^(\d{1,2})[\/\-.](\d{1,2})[\/\-.](\d{4})$/);
+  if (m) return m[3] + '-' + String(m[2]).padStart(2, '0') + '-' + String(m[1]).padStart(2, '0');
+  return s;
+}
+
+function mhIsValidDate(s) {
+  if (!s || !/^\d{4}-\d{2}-\d{2}$/.test(s)) return false;
+  var p = s.split('-').map(Number);
+  var d = new Date(p[0], p[1] - 1, p[2]);
+  return d.getFullYear() === p[0] && d.getMonth() === p[1] - 1 && d.getDate() === p[2];
+}
+
+function mhIsValidUrl(s) {
+  if (!s) return true;
+  try {
+    var u = new URL(String(s).trim());
+    return u.protocol === 'http:' || u.protocol === 'https:';
+  } catch (e) { return false; }
+}
+
+function mhRowEmpty(row) {
+  if (!row || !row.length) return true;
+  for (var i = 0; i < row.length; i++) {
+    if (row[i] !== undefined && row[i] !== null && String(row[i]).trim() !== '') return false;
+  }
+  return true;
+}
+
+function mhDupKey(title, date) {
+  return String(title || '').trim().toLowerCase() + '||' + String(date || '').trim();
+}
+
+function mhValidateMovie(m) {
+  var errors = [];
+  if (!m.title) errors.push('Thiếu Movie Title');
+  if (!m.date) errors.push('Thiếu Watch Date');
+  else if (!mhIsValidDate(m.date)) errors.push('Watch Date sai định dạng');
+  if (m.personalRating != null && m.personalRating !== '') {
+    var pr = Number(m.personalRating);
+    if (isNaN(pr) || pr < 0 || pr > 10) errors.push('Personal Rating phải 0–10');
+  }
+  if (m.duration != null && m.duration !== '') {
+    var d = Number(m.duration);
+    if (isNaN(d) || d <= 0) errors.push('Duration phải > 0');
+  }
+  if (m.posterUrl && !mhIsValidUrl(m.posterUrl)) errors.push('Poster URL không hợp lệ');
+  if (m.trailerUrl && !mhIsValidUrl(m.trailerUrl)) errors.push('Trailer URL không hợp lệ');
+  if (m.officialWebsite && !mhIsValidUrl(m.officialWebsite)) errors.push('Official Website không hợp lệ');
+  return errors;
+}
+
+function mhParseWorkbook(wb) {
+  var sheetName = wb.SheetNames.indexOf('Movie History') !== -1 ? 'Movie History' : wb.SheetNames[0];
+  var ws = wb.Sheets[sheetName];
+  if (!ws) throw new Error('Không tìm thấy sheet.');
+  var rows = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '', raw: true });
+  if (!rows.length) throw new Error('File trống.');
+
+  // Find header row (skip instruction rows)
+  var headerIdx = 0;
+  for (var hi = 0; hi < Math.min(rows.length, 5); hi++) {
+    var mapTry = mhBuildHeaderMap(rows[hi] || []);
+    if (mapTry['Movie Title *'] !== undefined && mapTry['Watch Date *'] !== undefined) {
+      headerIdx = hi;
+      break;
+    }
+  }
+  var colMap = mhBuildHeaderMap(rows[headerIdx] || []);
+  if (colMap['Movie Title *'] === undefined || colMap['Watch Date *'] === undefined) {
+    throw new Error('Thiếu cột bắt buộc: Movie Title * và/hoặc Watch Date *');
+  }
+
+  var valid = [];
+  var invalid = [];
+  var max = Math.min(rows.length - 1, 20000);
+  var seen = {};
+
+  for (var r = headerIdx + 1; r <= max; r++) {
+    var row = rows[r];
+    if (mhRowEmpty(row)) continue;
+    // skip pure instruction echo
+    var first = String(row[0] || '');
+    if (/^INSTRUCTIONS:/i.test(first)) continue;
+
+    function cell(name) {
+      var idx = colMap[name];
+      return idx === undefined ? '' : row[idx];
+    }
+
+    var title = String(cell('Movie Title *') || '').trim();
+    var date = mhParseDate(cell('Watch Date *'));
+    var personalRaw = cell('Personal Rating (0-10)');
+    var personal = personalRaw === '' || personalRaw == null ? null : parseFloat(String(personalRaw).replace(',', '.'));
+    var durationRaw = cell('Duration (minutes)');
+    var duration = durationRaw === '' || durationRaw == null ? null : parseFloat(String(durationRaw).replace(',', '.'));
+    var fav = mhYesNo(cell('Favorite (Yes/No)'));
+    var rew = mhYesNo(cell('Rewatch (Yes/No)'));
+    var specials = [];
+    if (fav) specials.push('favorite');
+    if (rew) specials.push('rewatch');
+    var tagsStr = String(cell('Tags') || '').trim();
+    var tags = tagsStr ? tagsStr.split(/[,;]/).map(function (t) { return t.trim(); }).filter(Boolean) : [];
+    tags.forEach(function (t) {
+      var low = t.toLowerCase();
+      if ((low === 'cinema' || low === 'series' || low === 'anime' || low === 'documentary') && specials.indexOf(low) === -1) specials.push(low);
+    });
+
+    var ratingStars = personal != null && !isNaN(personal) ? Math.max(0, Math.min(5, Math.round(personal / 2))) : 0;
+    var yearFromDate = date && mhIsValidDate(date) ? parseInt(date.slice(0, 4), 10) : null;
+
+    var movie = {
+      id: gId(),
+      title: title,
+      originalTitle: String(cell('Original Title') || '').trim(),
+      date: date,
+      year: yearFromDate,
+      time: String(cell('Watch Time') || '').trim(),
+      country: String(cell('Country') || '').trim(),
+      language: String(cell('Language') || '').trim(),
+      genre: String(cell('Genre') || '').trim(),
+      director: String(cell('Director') || '').trim(),
+      mainCast: String(cell('Main Cast') || '').trim(),
+      platform: String(cell('Streaming Platform') || '').trim(),
+      cinema: String(cell('Cinema') || '').trim(),
+      watchingMethod: String(cell('Watching Method') || '').trim(),
+      duration: duration,
+      personalRating: personal,
+      rating: ratingStars,
+      imdbRating: cell('IMDb Rating') === '' ? null : cell('IMDb Rating'),
+      rottenTomatoes: String(cell('Rotten Tomatoes') || '').trim(),
+      letterboxdRating: cell('Letterboxd Rating') === '' ? null : cell('Letterboxd Rating'),
+      watchWith: String(cell('Watch With') || '').trim(),
+      mood: String(cell('Mood') || '').trim(),
+      summary: String(cell('Review') || '').trim(),
+      review: String(cell('Review') || '').trim(),
+      tags: tags,
+      specials: specials,
+      posterUrl: String(cell('Poster URL (optional)') || '').trim(),
+      trailerUrl: String(cell('Trailer URL') || '').trim(),
+      officialWebsite: String(cell('Official Website') || '').trim(),
+      ticket_url: String(cell('Official Website') || '').trim(),
+      notes: String(cell('Notes') || '').trim(),
+      hall: '',
+      status: 'watching',
+      created: Date.now(),
+      updated: Date.now(),
+      _rowNum: r + 1,
+      _action: 'create'
+    };
+
+    var errors = mhValidateMovie(movie);
+    var key = mhDupKey(movie.title, movie.date);
+    if (key !== '||' && seen[key]) errors.push('Trùng Title+Date trong file');
+    if (key !== '||') {
+      var existing = S.movies.find(function (x) { return mhDupKey(x.title, x.date) === key; });
+      if (existing) {
+        movie._action = 'update';
+        movie.id = existing.id;
+        movie.created = existing.created || movie.created;
+        movie.status = existing.status || movie.status;
+        movie.hall = existing.hall || '';
+      }
+    }
+
+    if (errors.length) {
+      invalid.push({ row: r + 1, errors: errors, movie: movie });
+    } else {
+      if (key !== '||') seen[key] = 1;
+      valid.push(movie);
+    }
+  }
+
+  return { sheetName: sheetName, totalDataRows: valid.length + invalid.length, valid: valid, invalid: invalid };
+}
+
+function mhOpenImportModal(result) {
+  pendingMhImport = result;
+  var modal = document.getElementById('mhImportModal');
+  if (!modal) return;
+  modal.hidden = false;
+  modal.style.display = 'flex';
+  var sum = document.getElementById('mhImportSummary');
+  if (sum) {
+    var updates = result.valid.filter(function (m) { return m._action === 'update'; }).length;
+    sum.innerHTML =
+      'Sheet: <strong>' + es(result.sheetName) + '</strong> · ' +
+      'Tổng: <strong>' + result.totalDataRows + '</strong> · ' +
+      'Hợp lệ: <strong style="color:#2e7d32">' + result.valid.length + '</strong> ' +
+      '(new ' + (result.valid.length - updates) + ' / update ' + updates + ') · ' +
+      'Bỏ qua: <strong style="color:#c62828">' + result.invalid.length + '</strong>';
+  }
+  var head = document.getElementById('mhImportPreviewHead');
+  var body = document.getElementById('mhImportPreviewBody');
+  if (head) head.innerHTML = '<tr><th>#</th><th>Act</th><th>Title</th><th>Date</th><th>Cinema</th><th>Rating</th><th>Lỗi</th></tr>';
+  if (body) {
+    body.innerHTML = '';
+    var preview = result.invalid.map(function (i) {
+      return { ok: false, row: i.row, m: i.movie, errors: i.errors };
+    }).concat(result.valid.slice(0, 50).map(function (m) {
+      return { ok: true, row: m._rowNum, m: m, errors: [] };
+    }));
+    preview.sort(function (a, b) { return a.row - b.row; });
+    preview.slice(0, 80).forEach(function (item) {
+      var tr = document.createElement('tr');
+      tr.className = item.ok ? 'is-valid' : 'is-invalid';
+      tr.innerHTML =
+        '<td>' + item.row + '</td>' +
+        '<td>' + (item.ok ? (item.m._action === 'update' ? 'UPD' : 'NEW') : '✗') + '</td>' +
+        '<td>' + es(item.m.title) + '</td>' +
+        '<td>' + es(item.m.date) + '</td>' +
+        '<td>' + es(item.m.cinema) + '</td>' +
+        '<td>' + es(item.m.personalRating != null ? String(item.m.personalRating) : '') + '</td>' +
+        '<td>' + es(item.errors.join('; ')) + '</td>';
+      body.appendChild(tr);
+    });
+  }
+  var report = document.getElementById('mhImportReport');
+  if (report) {
+    report.textContent = result.invalid.length
+      ? result.invalid.slice(0, 40).map(function (i) { return 'Dòng ' + i.row + ': ' + i.errors.join('; '); }).join('\n')
+      : 'Tất cả dòng hợp lệ.';
+  }
+  var btn = document.getElementById('mhImportConfirm');
+  if (btn) btn.disabled = result.valid.length === 0;
+}
+
+function mhCloseImportModal() {
+  pendingMhImport = null;
+  var modal = document.getElementById('mhImportModal');
+  if (modal) { modal.hidden = true; modal.style.display = 'none'; }
+  var f = document.getElementById('mhImportFile');
+  if (f) f.value = '';
+}
+
+function mhRefreshAfterImport() {
+  aF();
+  rM();
+  uC();
+  showIdleList();
+}
+
+function mhConfirmImport() {
+  if (!pendingMhImport || !pendingMhImport.valid.length) {
+    mhSetIoStatus('err', '✗ Không có dòng hợp lệ.');
+    mhCloseImportModal();
+    return;
+  }
+  var modeEl = document.querySelector('input[name="mhImportMode"]:checked');
+  var mode = modeEl ? modeEl.value : 'append';
+  var nValid = pendingMhImport.valid.length;
+  var nInvalid = pendingMhImport.invalid.length;
+  var nUpdate = 0, nCreate = 0;
+
+  var cleaned = pendingMhImport.valid.map(function (m) {
+    var c = JSON.parse(JSON.stringify(m));
+    delete c._rowNum;
+    delete c._action;
+    return { raw: m, clean: c };
+  });
+
+  if (mode === 'replace') {
+    S.movies = cleaned.map(function (x) { nCreate++; return x.clean; });
+  } else {
+    var byKey = {};
+    S.movies.forEach(function (m) { byKey[mhDupKey(m.title, m.date)] = m; });
+    cleaned.forEach(function (x) {
+      var key = mhDupKey(x.clean.title, x.clean.date);
+      if (byKey[key]) {
+        var keepId = byKey[key].id;
+        var keepCreated = byKey[key].created;
+        var keepStatus = byKey[key].status;
+        Object.keys(x.clean).forEach(function (k) { byKey[key][k] = x.clean[k]; });
+        byKey[key].id = keepId;
+        byKey[key].created = keepCreated;
+        if (keepStatus) byKey[key].status = keepStatus;
+        byKey[key].updated = Date.now();
+        nUpdate++;
+      } else {
+        byKey[key] = x.clean;
+        nCreate++;
+      }
+    });
+    S.movies = Object.keys(byKey).map(function (k) { return byKey[k]; });
+  }
+
+  mhCloseImportModal();
+  mhSetProgress(true, 70, 'Đang lưu & làm mới lịch…');
+  mhRefreshAfterImport();
+
+  var afterSave = function () {
+    mhSetProgress(true, 100, 'Hoàn tất');
+    setTimeout(function () { mhSetProgress(false); }, 1200);
+    if (nInvalid) {
+      mhSetIoStatus('warn', '⚠ Imported with warnings: +' + nCreate + ' new · ' + nUpdate + ' updated · ' + nInvalid + ' skipped. Calendar/list refreshed.');
+    } else {
+      mhSetIoStatus('ok', '✓ Imported successfully: +' + nCreate + ' new · ' + nUpdate + ' updated. UI refreshed (no reload).');
+    }
+  };
+
+  saveMovies().then(afterSave)['catch'](function (err) {
+    // still keep data in memory even if GitHub save fails
+    afterSave();
+    mhSetIoStatus('warn', '⚠ Data imported in session; GitHub save: ' + (err.message || err) + '. Kiểm tra 🔑 token.');
+  });
+}
+
+function mhHandleImportFile(file) {
+  if (!file) return;
+  if (!mhEnsureXLSX()) return;
+  if (!/\.xlsx$/i.test(file.name || '')) {
+    mhSetIoStatus('err', '✗ Chỉ hỗ trợ .xlsx');
+    return;
+  }
+  mhSetIoStatus('ok', 'Đang đọc “' + file.name + '”…');
+  mhSetProgress(true, 20, 'Đang parse Excel…');
+  var reader = new FileReader();
+  reader.onload = function (ev) {
+    // yield to UI for large files
+    setTimeout(function () {
+      try {
+        mhSetProgress(true, 45, 'Đang validate…');
+        var wb = XLSX.read(new Uint8Array(ev.target.result), { type: 'array', cellDates: true });
+        var result = mhParseWorkbook(wb);
+        mhSetProgress(true, 90, 'Chuẩn bị preview…');
+        if (!result.totalDataRows) {
+          mhSetProgress(false);
+          mhSetIoStatus('err', '✗ File không có dòng dữ liệu.');
+          return;
+        }
+        mhOpenImportModal(result);
+        mhSetProgress(false);
+        if (!result.valid.length) mhSetIoStatus('err', '✗ Mọi dòng đều lỗi — xem preview.');
+        else if (result.invalid.length) mhSetIoStatus('warn', '⚠ Có dòng lỗi — kiểm tra preview trước khi xác nhận.');
+        else mhSetIoStatus('ok', '✓ Parse OK ' + result.valid.length + ' dòng — xác nhận để import.');
+      } catch (e) {
+        mhSetProgress(false);
+        mhSetIoStatus('err', '✗ Import failed: ' + (e.message || e));
+      }
+    }, 30);
+  };
+  reader.onerror = function () {
+    mhSetProgress(false);
+    mhSetIoStatus('err', '✗ Không đọc được file.');
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function initMovieExcelIO() {
+  var dl = document.getElementById('mhDownloadTemplate');
+  if (dl) dl.addEventListener('click', downloadMovieExcelTemplate);
+  var ex = document.getElementById('mhExportExcelBtn');
+  if (ex) ex.addEventListener('click', exportMoviesExcel);
+  var ib = document.getElementById('mhImportExcelBtn');
+  if (ib) ib.addEventListener('click', function () {
+    var f = document.getElementById('mhImportFile');
+    if (f) f.click();
+  });
+  var file = document.getElementById('mhImportFile');
+  if (file) file.addEventListener('change', function () {
+    if (this.files && this.files[0]) mhHandleImportFile(this.files[0]);
+  });
+  var drop = document.getElementById('mhImportDrop');
+  if (drop) {
+    drop.addEventListener('click', function (e) {
+      if (e.target && e.target.id === 'mhImportFile') return;
+      var f = document.getElementById('mhImportFile');
+      if (f) f.click();
+    });
+    drop.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        var f = document.getElementById('mhImportFile');
+        if (f) f.click();
+      }
+    });
+    ['dragenter', 'dragover'].forEach(function (ev) {
+      drop.addEventListener(ev, function (e) {
+        e.preventDefault(); e.stopPropagation();
+        drop.classList.add('is-dragover');
+      });
+    });
+    ['dragleave', 'drop'].forEach(function (ev) {
+      drop.addEventListener(ev, function (e) {
+        e.preventDefault(); e.stopPropagation();
+        drop.classList.remove('is-dragover');
+      });
+    });
+    drop.addEventListener('drop', function (e) {
+      var files = e.dataTransfer && e.dataTransfer.files;
+      if (files && files[0]) mhHandleImportFile(files[0]);
+    });
+  }
+  var cancel = document.getElementById('mhImportCancel');
+  if (cancel) cancel.addEventListener('click', mhCloseImportModal);
+  var close = document.getElementById('mhImportModalClose');
+  if (close) close.addEventListener('click', mhCloseImportModal);
+  var bd = document.getElementById('mhImportModalBackdrop');
+  if (bd) bd.addEventListener('click', mhCloseImportModal);
+  var conf = document.getElementById('mhImportConfirm');
+  if (conf) conf.addEventListener('click', mhConfirmImport);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      var modal = document.getElementById('mhImportModal');
+      if (modal && !modal.hidden) mhCloseImportModal();
+    }
+  });
+}
+
+iG();lV();initMovieExcelIO();
 })();
