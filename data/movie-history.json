@@ -1,4 +1,23 @@
 {
-  "movies": [],
-  "updatedAt": "2026-07-15T13:54:57.597Z"
+  "movies": [
+    {
+      "id": "mrm6sgls2ib9bhbe",
+      "title": "THE ODYSSEY",
+      "date": "2026-07-17",
+      "year": 2026,
+      "time": "09:20",
+      "cinema": "CGV Hùng Vương Plaza",
+      "hall": "2D",
+      "ticket_url": "https://www.cgv.vn/default/the-odyssey.html",
+      "rating": 5,
+      "status": "coming-soon",
+      "summary": "Bộ phim tiếp theo của Christopher Nolan, The Odyssey, là một sử thi hành động mang màu sắc thần thoại, được quay tại nhiều địa điểm trên khắp thế giới bằng công nghệ phim IMAX® hoàn toàn mới. Bộ phim lần đầu tiên đưa thiên sử thi kinh điển của Homer lên màn ảnh IMAX®, và sẽ khởi chiếu tại các rạp trên toàn thế giới vào ngày 17 tháng 7 năm 2026.",
+      "specials": [
+        "cinema"
+      ],
+      "created": 1784126394640,
+      "updated": 1784126394640
+    }
+  ],
+  "updatedAt": "2026-07-15T14:39:54.640Z"
 }
