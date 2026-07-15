@@ -46,7 +46,9 @@
           <button type="button" class="mh-view-tabs__btn is-active" id="mhViewCalendar" data-view="calendar" role="tab" aria-selected="true">Calendar</button>
           <button type="button" class="mh-view-tabs__btn" id="mhViewList" data-view="list" role="tab" aria-selected="false">By cinema</button>
         </div>
-        <button class="mh-btn mh-btn--subtle" id="mhTokenBtn" title="Set GitHub token">🔑</button>
+        <span class="mh-sync" id="mhSyncLabel" title="Trạng thái đồng bộ GitHub">Chưa lưu GitHub</span>
+        <button class="mh-btn mh-btn--subtle" id="mhTokenBtn" title="GitHub Personal Access Token (contents:write)">🔑 Token</button>
+        <button class="mh-btn mh-btn--primary" id="mhSaveGithubBtn" title="Đẩy lịch phim hiện tại lên GitHub">💾 Lưu GitHub</button>
         <button class="mh-btn mh-btn--subtle" id="mhExportBtn" title="Export JSON">📥</button>
         <button class="mh-btn mh-btn--subtle" id="mhIoToggle" title="Ẩn/hiện panel Excel" aria-expanded="true" aria-controls="mhIoPanel">📊 Excel</button>
       </div>
@@ -68,12 +70,13 @@
     <div class="mh-io" id="mhIoPanel" aria-label="Import Export Excel">
       <div class="mh-io__head">
         <h3 class="mh-io__title">📊 Import / Export Excel</h3>
-        <p class="mh-io__desc">1) Tải template → 2) Điền offline (Movie Title * + Watch Date * bắt buộc) → 3) Import .xlsx. Tối đa <strong>100 phim khác tên / ngày</strong> (trùng tên chỉ tính 1; import ghi đè/cập nhật không nhân bản). Calendar co giãn hiển thị. Form ＋ Add Movie vẫn dùng bình thường.</p>
+        <p class="mh-io__desc">1) Tải template → 2) Điền offline (Movie Title * + Watch Date * bắt buộc) → 3) Import .xlsx vào phiên này → 4) Bấm <strong>💾 Lưu GitHub</strong> để đẩy lên remote (mới biết chắc đã lưu). Tối đa <strong>100 phim khác tên / ngày</strong>. Form ＋ Add Movie vẫn dùng bình thường.</p>
       </div>
       <div class="mh-io__actions">
         <button type="button" class="mh-io__btn mh-io__btn--template" id="mhDownloadTemplate">📥 Download Excel Template</button>
         <button type="button" class="mh-io__btn mh-io__btn--import" id="mhImportExcelBtn">📤 Import Excel</button>
         <button type="button" class="mh-io__btn mh-io__btn--export" id="mhExportExcelBtn">📄 Export Current Data</button>
+        <button type="button" class="mh-io__btn mh-io__btn--save" id="mhSaveGithubBtnIo">💾 Lưu trên GitHub</button>
       </div>
       <div class="mh-io__drop" id="mhImportDrop" tabindex="0" role="button" aria-label="Kéo thả file Excel">
         <input type="file" id="mhImportFile" class="mh-io__file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>

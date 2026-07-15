@@ -17,8 +17,10 @@ function setToken(t){if(t){localStorage.setItem(TOKEN_KEY,t)}else{localStorage.r
 
 function loadMovies(){var url=getGHReadURL();return fetch(url,{cache:'no-cache'}).then(function(r){if(r.status===404)return{movies:[]};if(!r.ok)throw new Error('Read failed: '+r.status);return r.json()}).then(function(d){S.movies=Array.isArray(d.movies)?d.movies.map(function(m){m.status=STATUS_LEGACY[m.status]||m.status;return m}):[];aF();rM();uC();showIdleList();refreshExtras()})['catch'](function(e){console.warn('Load failed:',e);S.movies=[];aF();rM();uC();showIdleList();refreshExtras()})}
 
-function saveMovies(){var token=getToken();if(!token){alert('Cần nhập GitHub token để lưu.');sT();return Promise.reject('No token')}return sR(2)}
-function sR(retries){var token=getToken();var data={movies:S.movies,updatedAt:new Date().toISOString()};var json=JSON.stringify(data,null,2)+'\n';var content=btoa(unescape(encodeURIComponent(json)));var pb=document.getElementById('mhProgressBar'),pf=document.getElementById('mhProgressFill'),ps=document.getElementById('mhProgressStage'),psha=document.getElementById('mhProgressSha');function ss(icon,text,pct){if(!ps)return;ps.innerHTML='<span class="mh-progress-bar__icon">'+icon+'</span><span class="mh-progress-bar__text">'+text+'</span>';if(pf)pf.style.width=pct+'%'}if(pb)pb.style.display='';if(psha)psha.textContent='';if(pf){pf.style.background='';pf.style.width='0%'}ss('🔍','Đang kết nối GitHub...',20);var apiUrl=getGHAPIURL();return fetch(apiUrl,{headers:{'Accept':'application/vnd.github.v3+json'}}).then(function(r){if(r.status===404)return null;if(!r.ok)throw new Error('Get SHA failed: '+r.status);return r.json()}).then(function(existing){ss('📤','Đang đẩy dữ liệu lên GitHub ('+S.movies.length+' phim)...',55);var body={message:'movie-history: save '+S.movies.length+' movies',content:content,branch:GH_BRANCH};if(existing)body.sha=existing.sha;return fetch(apiUrl,{method:'PUT',headers:{'Authorization':'token '+token,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'},body:JSON.stringify(body)})}).then(function(r){if(!r.ok)return r.json().then(function(e){if(e.message&&e.message.indexOf('does not match')!==-1&&retries>0)return sR(retries-1);throw new Error('GitHub write failed: '+(e.message||r.status))});return r.json()}).then(function(res){ss('✅','Lưu thành công!',100);var sha=(res&&res.content&&res.content.sha)||'';if(sha&&psha)psha.textContent='Commit: '+sha.slice(0,7);if(pb)setTimeout(function(){pb.style.display='none'},1800);hSC()})['catch'](function(err){ss('❌','Lỗi: '+err.message,100);if(pf)pf.style.background='var(--mh-red,#e74c3c)';if(pb)setTimeout(function(){pb.style.display='none';if(pf)pf.style.background=''},5000);throw err})}
+function setSyncLabel(msg,kind){var el=document.getElementById('mhSyncLabel');if(!el)return;el.textContent=msg||'';el.className='mh-sync'+(kind?' mh-sync--'+kind:'')}
+function saveMovies(opts){opts=opts||{};var token=getToken();if(!token){if(!opts.silent){alert('Cần nhập GitHub token để lưu.');sT()}setSyncLabel('Chưa có token','err');return Promise.reject(new Error('No token'))}if(!opts.silent){setSyncLabel('Đang lưu GitHub…','pending');mhSetIoStatus('ok','⏳ Đang lưu '+S.movies.length+' phim lên GitHub…')}return sR(2).then(function(res){var sha=(res&&res.content&&res.content.sha)||'';var short=sha?sha.slice(0,7):'';setSyncLabel(short?('Đã lưu · '+short):'Đã lưu GitHub','ok');if(!opts.silent){mhSetIoStatus('ok','✓ Đã lưu trên GitHub: '+S.movies.length+' phim'+(short?(' · commit '+short):'')+'. Kiểm tra repo data nếu cần.')}return res})['catch'](function(err){setSyncLabel('Lưu lỗi','err');if(!opts.silent){mhSetIoStatus('err','✗ Lưu GitHub thất bại: '+(err&&err.message?err.message:err)+'. Bấm 🔑 Token rồi 💾 Lưu GitHub lại.')}throw err})}
+function saveMoviesManual(){var btn=document.getElementById('mhSaveGithubBtn');var btn2=document.getElementById('mhSaveGithubBtnIo');[btn,btn2].forEach(function(b){if(b){b.disabled=true;b.setAttribute('aria-busy','true')}});return saveMovies({silent:false}).then(function(){[btn,btn2].forEach(function(b){if(b){b.disabled=false;b.removeAttribute('aria-busy')}})})['catch'](function(){[btn,btn2].forEach(function(b){if(b){b.disabled=false;b.removeAttribute('aria-busy')}})})}
+function sR(retries){var token=getToken();var data={movies:S.movies,updatedAt:new Date().toISOString()};var json=JSON.stringify(data,null,2)+'\n';var content=btoa(unescape(encodeURIComponent(json)));var pb=document.getElementById('mhProgressBar'),pf=document.getElementById('mhProgressFill'),ps=document.getElementById('mhProgressStage'),psha=document.getElementById('mhProgressSha');function ss(icon,text,pct){if(!ps)return;ps.innerHTML='<span class="mh-progress-bar__icon">'+icon+'</span><span class="mh-progress-bar__text">'+text+'</span>';if(pf)pf.style.width=pct+'%'}if(pb)pb.style.display='';if(psha)psha.textContent='';if(pf){pf.style.background='';pf.style.width='0%'}ss('🔍','Đang kết nối GitHub...',20);var apiUrl=getGHAPIURL();return fetch(apiUrl,{headers:{'Accept':'application/vnd.github.v3+json'}}).then(function(r){if(r.status===404)return null;if(!r.ok)throw new Error('Get SHA failed: '+r.status);return r.json()}).then(function(existing){ss('📤','Đang đẩy dữ liệu lên GitHub ('+S.movies.length+' phim)...',55);var body={message:'movie-history: save '+S.movies.length+' movies',content:content,branch:GH_BRANCH};if(existing)body.sha=existing.sha;return fetch(apiUrl,{method:'PUT',headers:{'Authorization':'token '+token,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'},body:JSON.stringify(body)})}).then(function(r){if(!r.ok)return r.json().then(function(e){if(e.message&&e.message.indexOf('does not match')!==-1&&retries>0)return sR(retries-1);throw new Error('GitHub write failed: '+(e.message||r.status))});return r.json()}).then(function(res){ss('✅','Lưu thành công!',100);var sha=(res&&res.content&&res.content.sha)||'';if(sha&&psha)psha.textContent='Commit: '+sha.slice(0,7);if(pb)setTimeout(function(){pb.style.display='none'},1800);hSC();return res})['catch'](function(err){ss('❌','Lỗi: '+err.message,100);if(pf)pf.style.background='var(--mh-red,#e74c3c)';if(pb)setTimeout(function(){pb.style.display='none';if(pf)pf.style.background=''},5000);throw err})}
 
 function sT(){var t=prompt('Nhập GitHub Personal Access Token (cần quyền contents write):',getToken());if(t!==null){setToken(t.trim());if(t.trim())alert('Token đã lưu.')}}
 
@@ -100,12 +102,15 @@ function formatDate(d){var days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];retu
 function es(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
 // Sau khi lưu: không scroll, không bung UI — chỉ toast progress bar (fixed)
 function hSC(){}
-function lV(){var UI='day-cap-100';var BASE=(document.body&&document.body.getAttribute('data-site-base'))||'';fetch(BASE.replace(/\/$/,'')+'/build-info.json').then(function(r){if(!r.ok)return null;return r.json()})['catch'](function(){return null}).then(function(info){var el=document.getElementById('mhVersionBadge');if(!el)return;if(!info){el.textContent='Phiên bản dịch vụ: dev ('+UI+')';return}el.textContent='Phiên bản dịch vụ: '+info.generated_at_display.replace(' ','-'+info.short_sha+'_')+' · '+UI})}
+function lV(){var UI='save-btn-1';var BASE=(document.body&&document.body.getAttribute('data-site-base'))||'';fetch(BASE.replace(/\/$/,'')+'/build-info.json').then(function(r){if(!r.ok)return null;return r.json()})['catch'](function(){return null}).then(function(info){var el=document.getElementById('mhVersionBadge');if(!el)return;if(!info){el.textContent='Phiên bản dịch vụ: dev ('+UI+')';return}el.textContent='Phiên bản dịch vụ: '+info.generated_at_display.replace(' ','-'+info.short_sha+'_')+' · '+UI})}
 
 function exportMovies(){var json=JSON.stringify(S.movies,null,2);var blob=new Blob([json],{type:'application/json'});var url=URL.createObjectURL(blob);var a=document.createElement('a');a.href=url;a.download='movie-calendar-'+getISODate(new Date())+'.json';a.click();URL.revokeObjectURL(url)}
 
 var exportBtn=document.getElementById('mhExportBtn');if(exportBtn)exportBtn.addEventListener('click',exportMovies);
 var addBtn=document.getElementById('mhAddBtn');if(addBtn)addBtn.addEventListener('click',function(){oS()});
+var tokenBtn=document.getElementById('mhTokenBtn');if(tokenBtn)tokenBtn.addEventListener('click',function(){sT();setSyncLabel(getToken()?'Token đã lưu':'Chưa có token',getToken()?'ok':'err')});
+var saveBtn=document.getElementById('mhSaveGithubBtn');if(saveBtn)saveBtn.addEventListener('click',function(){saveMoviesManual()});
+
 var searchEl=document.getElementById('mhSearch');if(searchEl)searchEl.addEventListener('input',function(){S.searchQuery=this.value||'';aF();if((S.searchQuery||'').trim()){hideSelectedPanel();rL()}else if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else{showIdleList()}});
 var filterEl=document.getElementById('mhFilter');if(filterEl)filterEl.addEventListener('change',function(){S.filterStatus=this.value||'all';aF();if(S.filterStatus!=='all'){hideSelectedPanel();rL()}else if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else if((S.searchQuery||'').trim()){rL()}else{showIdleList()}});
 
@@ -670,28 +675,31 @@ function mhConfirmImport() {
   mhSetProgress(true, 70, 'Đang lưu & làm mới lịch…');
   try { mhRefreshAfterImport(); } catch (rfErr) { console.error('refresh', rfErr); }
 
-  var afterSave = function () {
-    mhSetProgress(true, 100, 'Hoàn tất');
-    setTimeout(function () { mhSetProgress(false); }, 1200);
-    if (nInvalid) {
-      mhSetIoStatus('warn', '⚠ Imported with warnings: +' + nCreate + ' new · ' + nUpdate + ' updated · ' + nInvalid + ' skipped' + (nDayDropped ? (' · ' + nDayDropped + ' bị chặn (>'+MAX_MOVIES_PER_DAY+'/ngày)') : '') + '. Calendar refreshed.');
-    } else {
-      mhSetIoStatus(nDayDropped ? 'warn' : 'ok', (nDayDropped ? '⚠ ' : '✓ ') + 'Imported: +' + nCreate + ' new · ' + nUpdate + ' updated' + (nDayDropped ? (' · ' + nDayDropped + ' bị chặn (max '+MAX_MOVIES_PER_DAY+' phim/ngày)') : '') + '. UI refreshed.');
-    }
+  var importSummary = function (prefix) {
+    var base = prefix + ' +' + nCreate + ' new · ' + nUpdate + ' updated' + (nInvalid ? (' · ' + nInvalid + ' skipped') : '') + (nDayDropped ? (' · ' + nDayDropped + ' bị chặn (max '+MAX_MOVIES_PER_DAY+'/ngày)') : '');
+    return base;
   };
 
-  // Token missing → still keep import in session, prompt token
+  // Always refresh UI after import into session
+  mhSetProgress(true, 100, 'Import xong (phiên)');
+  setTimeout(function () { mhSetProgress(false); }, 900);
+  mhSetIoStatus('warn', '⚠ ' + importSummary('Đã import vào phiên') + '. Chưa chắc đã lên GitHub — bấm 💾 Lưu GitHub để xác nhận.');
+  setSyncLabel('Chưa lưu GitHub (sau import)','pending');
+
+  // Optional auto-save if token exists; still encourage manual confirm via button label
   var token = (typeof getToken === 'function') ? getToken() : '';
   if (!token) {
-    afterSave();
-    mhSetIoStatus('warn', '⚠ Đã import vào phiên này nhưng chưa có GitHub token — bấm 🔑 rồi lưu lại (Add/Edit/import).');
     try { if (typeof sT === 'function') sT(); } catch (e) {}
     return;
   }
-
-  saveMovies().then(afterSave)['catch'](function (err) {
-    afterSave();
-    mhSetIoStatus('warn', '⚠ Data imported in session; GitHub save: ' + (err.message || err) + '. Kiểm tra 🔑 token.');
+  saveMovies({silent:true}).then(function (res) {
+    var sha = (res && res.content && res.content.sha) || '';
+    var short = sha ? sha.slice(0, 7) : '';
+    mhSetIoStatus('ok', '✓ ' + importSummary('Import + lưu GitHub OK') + (short ? (' · commit ' + short) : '') + '.');
+    setSyncLabel(short ? ('Đã lưu · ' + short) : 'Đã lưu GitHub', 'ok');
+  })['catch'](function (err) {
+    mhSetIoStatus('err', '✗ Import đã vào phiên nhưng GitHub save lỗi: ' + (err && err.message ? err.message : err) + '. Bấm 💾 Lưu GitHub để thử lại.');
+    setSyncLabel('Lưu lỗi — bấm 💾','err');
   });
 }
 
@@ -758,6 +766,8 @@ function initMovieExcelIO() {
   if (dl) dl.addEventListener('click', downloadMovieExcelTemplate);
   var ex = document.getElementById('mhExportExcelBtn');
   if (ex) ex.addEventListener('click', exportMoviesExcel);
+  var saveIo = document.getElementById('mhSaveGithubBtnIo');
+  if (saveIo) saveIo.addEventListener('click', function () { saveMoviesManual(); });
   var ib = document.getElementById('mhImportExcelBtn');
   if (ib) ib.addEventListener('click', function () {
     var f = document.getElementById('mhImportFile');

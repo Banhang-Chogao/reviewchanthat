@@ -350,3 +350,14 @@ html.dark-mode .mh-nextup__title,html.dark-mode .mh-section-title,html.dark-mode
 html.dark-mode .mh-nextup__pill,html.dark-mode .mh-cinema-group,html.dark-mode .mh-year-stat,html.dark-mode .mh-fav-card,html.dark-mode .mh-cinema-item{background:#121a14;border-color:#1a2a20;color:#e8f7f6}
 html.dark-mode .mh-detail__card--ticket{background:linear-gradient(165deg,#121a14,#0d1410)}
 html.dark-mode .mh-view-tabs{background:#121a14;border-color:#1a2a20}
+
+/* GitHub save status + primary save in Excel panel */
+.mh-sync{font-size:.72rem;font-weight:700;color:var(--muted,#888);padding:.25rem .5rem;border-radius:999px;background:var(--bg,#f5f5f5);white-space:nowrap;max-width:12rem;overflow:hidden;text-overflow:ellipsis}
+.mh-sync--ok{color:#1b5e20;background:rgba(76,175,80,.15)}
+.mh-sync--err{color:#b71c1c;background:rgba(244,67,54,.12)}
+.mh-sync--pending{color:#e65100;background:rgba(255,152,0,.14)}
+.mh-io__btn--save{background:#1565c0;border-color:#1565c0;color:#fff;font-weight:800}
+.mh-io__btn--save:hover{filter:brightness(.95);color:#fff;background:#0d47a1;border-color:#0d47a1}
+.mh-io__btn--save:disabled,.mh-btn:disabled{opacity:.55;cursor:not-allowed}
+#mhSaveGithubBtn{font-weight:800}
+@media(max-width:640px){.mh-sync{max-width:100%}}
