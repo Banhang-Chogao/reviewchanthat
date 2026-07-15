@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-07-15T01:56:36+07:00",
+  "updated_at": "2026-07-15T08:06:04+07:00",
   "range": "last_28_days",
   "range_label": "28 ngày gần nhất",
-  "total_users": 51,
-  "total_sessions": 61,
+  "total_users": 52,
+  "total_sessions": 63,
   "organic_search_users": 5,
   "organic_search_sessions": 5,
   "status": "ok"
