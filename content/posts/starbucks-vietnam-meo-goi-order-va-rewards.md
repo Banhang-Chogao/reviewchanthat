@@ -63,6 +63,7 @@ title = "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha n
 [[internal_links]]
 ref = "posts/starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam.md"
 title = "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam"
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-khong-gian-va-trai-nghiem.md"
 title = "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\""
@@ -86,7 +87,6 @@ title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for F
 [[internal_links]]
 ref = "posts/how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com.md"
 title = "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill"
-
 +++
 Lần đầu order Starbucks, bạn có thể nghe nhân viên hỏi một loạt: "Size gì ạ? Anh/chị uống tại chỗ hay mang đi? Có cần ít đá không?" — đừng ngại. Sau vài lần, bạn sẽ có **công thức order** riêng và tiết kiệm được thời gian lẫn tiền (nhờ Rewards).
 

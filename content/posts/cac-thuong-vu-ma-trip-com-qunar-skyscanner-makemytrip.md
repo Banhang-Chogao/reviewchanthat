@@ -57,6 +57,7 @@ answer = "M&A giúp rút ngắn thời gian xâm nhập thị trường mới, t
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài viết tổng hợp độc lập từ nguồn công khai (Trip.com, Wikipedia, báo chí); số liệu tài chính, thương vụ và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix.md"
 title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
@@ -88,7 +89,6 @@ title = "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip
 [[internal_links]]
 ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
 title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
-
 +++
 Khi nhắc tới các "ông lớn" du lịch trực tuyến toàn cầu, người ta thường nghĩ ngay đến Booking Holdings hay Expedia. Nhưng ít ai để ý rằng đối thủ đáng gờm nhất của họ tại châu Á — Trip.com Group (tiền thân là Ctrip) — không lớn lên chỉ nhờ tự phát triển sản phẩm, mà phần lớn nhờ một chuỗi thương vụ mua bán và sáp nhập (M&A) táo bạo trải dài hơn một thập kỷ. Từ cuộc hoán đổi cổ phần đình đám với Qunar năm 2015, thương vụ thâu tóm Skyscanner trị giá hàng tỷ USD năm 2016, cho đến việc âm thầm trở thành cổ đông lớn nhất của MakeMyTrip tại Ấn Độ, mỗi bước đi đều là một mảnh ghép trong tham vọng biến Trip.com thành nền tảng đặt vé du lịch toàn cầu. Bài viết này điểm lại những thương vụ quan trọng nhất, ý nghĩa chiến lược đằng sau chúng, và vì sao con đường "mua thay vì tự xây" lại hiệu quả đến vậy với gã khổng lồ Trung Quốc này.
 

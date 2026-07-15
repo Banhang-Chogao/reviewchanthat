@@ -52,6 +52,7 @@ answer = "Tháo rời giỏ mẫu và định giá từng món theo giá lẻ ng
 [[faq]]
 question = "Quà Tết sức khỏe có phải cứ đắt là tốt không?"
 answer = "Không. Giá cao thường trả cho thương hiệu và bao bì. Hãy đọc bảng thành phần, hàm lượng đường/muối, nguồn gốc và chứng nhận. Một hộp hạt, trà hay mật ong nguồn gốc rõ ràng có thể tốt hơn set 'thực phẩm chức năng' hào nhoáng mà mập mờ công dụng."
+
 [[internal_links]]
 ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
@@ -83,7 +84,6 @@ title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa n
 [[internal_links]]
 ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
 title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
-
 +++
 Mỗi mùa Tết, giỏ quà lại là khoản chi vừa nhiều cảm xúc vừa dễ lãng phí nhất. Ta mua để tặng, mà người tặng lẫn người nhận nhiều khi đều không biết bên trong đáng bao nhiêu tiền. Năm Đinh Mùi 2027, thị trường tiếp tục nghiêng về hai câu chuyện lớn: **quà "xanh" (bao bì bền vững)** và **quà sức khỏe**. Bài này tôi đánh giá cả hai một cách sòng phẳng — cái gì thật sự đáng, cái gì chỉ là lớp áo marketing để đội giá.
 

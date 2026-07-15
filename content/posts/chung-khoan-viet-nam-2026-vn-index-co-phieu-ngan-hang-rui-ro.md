@@ -37,6 +37,7 @@ image_attribution_checked_at = "2026-07-12T08:48:48+07:00"
 image_provider = "pexels"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào? — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
@@ -68,7 +69,6 @@ title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan tr
 [[internal_links]]
 ref = "posts/mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien.md"
 title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
-
 +++
 Chứng khoán Việt Nam hấp dẫn. Lợi nhuận cao, câu chuyện tăng trưởng, và hàng triệu người cùng chơi—tất cả đều khiến mới chủ dễ **cảm xúc hóa quyết định**.
 

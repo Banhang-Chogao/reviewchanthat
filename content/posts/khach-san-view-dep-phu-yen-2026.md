@@ -37,6 +37,30 @@ title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026:
 ref = "posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.md"
 title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
 
+[[internal_links]]
+ref = "posts/khach-san-view-dep-da-nang-2026.md"
+title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
+title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
+title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
+title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
+title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
 [[external_links]]
 url = "https://www.trip.com/trip-best/"
 title = "Trip.Best — bảng xếp hạng khách sạn theo dữ liệu đặt phòng"
@@ -80,30 +104,6 @@ answer = "Không. Bài viết chỉ tham khảo danh sách và dữ liệu công
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Danh sách khách sạn tham khảo từ dữ liệu công khai Trip.Best; phần phân tích, đánh giá và kinh nghiệm chọn phòng là quan điểm riêng, không sao chép nội dung Trip.com. Giá và tính năng có thể thay đổi — vui lòng kiểm tra trực tiếp trước khi đặt."
-[[internal_links]]
-ref = "posts/khach-san-view-dep-da-nang-2026.md"
-title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
-title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
-title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
-title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"
-title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
 +++
 Có những vùng đất người ta tìm đến không phải để làm gì, mà để không phải làm gì cả. Phú Yên là một nơi như thế. Sau khi bộ phim "Tôi thấy hoa vàng trên cỏ xanh" đưa những cánh đồng, con đường ven biển và bãi cát vắng của xứ này lên màn ảnh, cái tên Phú Yên bắt đầu được nhắc nhiều hơn. Nhưng khác với Nha Trang hay Đà Nẵng đã rất sôi động, Phú Yên vẫn giữ được cái nét hoang sơ, chậm rãi, ít bị thương mại hóa. Biển Tuy Hòa dài và vắng, Gành Đá Đĩa xếp tầng kỳ lạ như một công trình của tự nhiên, Bãi Xép nằm nép mình dưới rặng phi lao — tất cả tạo nên một điểm đến cho người muốn yên tĩnh và muốn được thức dậy cùng bình minh biển.
 

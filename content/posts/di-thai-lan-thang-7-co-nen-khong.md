@@ -77,6 +77,7 @@ title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, mass
 [[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
 [[internal_links]]
 ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
 title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
@@ -88,7 +89,6 @@ title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch 
 [[internal_links]]
 ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
 title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
-
 +++
 Tháng 7 là tháng thấp điểm nhất trong năm của du lịch Thái Lan — và cũng là tháng gây nhiều tranh cãi nhất. Một bên là vé máy bay giá rẻ, khách sạn giảm sâu, điểm tham quan vắng vẻ. Bên kia là nỗi lo mưa bão, tour đảo bị hủy, và kỳ nghỉ không như mong đợi.
 

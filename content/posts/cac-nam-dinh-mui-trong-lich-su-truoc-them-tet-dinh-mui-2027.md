@@ -56,6 +56,7 @@ answer = "Trong ngũ hành, Thiên can Đinh thuộc hành Hỏa, còn Địa ch
 [[faq]]
 question = "'Ôn cố tri tân' nghĩa là gì và liên quan thế nào đến Tết Đinh Mùi 2027?"
 answer = "'Ôn cố tri tân' là thành ngữ gốc Hán, nghĩa là 'ôn lại cái cũ để hiểu cái mới' – nhìn lại bài học quá khứ để ứng xử tốt hơn với hiện tại và tương lai. Trước thềm Tết Đinh Mùi 2027, việc nhìn lại các năm Đinh Mùi trong lịch sử không nhằm 'bói' năm tốt hay xấu, mà để mỗi người rút ra tinh thần chủ động, ham học hỏi và bền chí trước biến động – những giá trị luôn đúng trong mọi thời cuộc."
+
 [[internal_links]]
 ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
@@ -87,7 +88,6 @@ title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa n
 [[internal_links]]
 ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
 title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
-
 +++
 Mỗi độ cuối năm, khi những cơn gió chớm lạnh báo hiệu một mùa Tết đang tới gần, người Việt lại có thói quen ngoảnh nhìn về phía sau để soi tỏ con đường phía trước. Tết Nguyên Đán 2027 sắp tới sẽ mang tên **Đinh Mùi** – một cái tên tưởng chừng chỉ là quy ước lịch pháp, nhưng nếu lần giở sử sách, ta sẽ thấy mỗi lần "Đinh Mùi" trở lại đều trùng vào những khúc quanh đáng nhớ của dân tộc và thế giới. Bài viết này không nhằm luận bàn năm tốt hay xấu theo lối bói toán, mà mượn tinh thần **"ôn cố tri tân"** – ôn lại cái cũ để hiểu cái mới – nhìn lại những năm Đinh Mùi trong hai thế kỷ qua, và suy ngẫm xem quá khứ để lại cho chúng ta điều gì trước thềm 2027.
 

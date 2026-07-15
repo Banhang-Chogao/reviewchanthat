@@ -28,6 +28,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "xu hướng du lịch may"
 image_alt = "Ảnh minh họa Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/trao-luu-green-camping-cam-trai-hoang-so.md"
 title = "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành"
@@ -59,7 +60,6 @@ title = "App Store gatekeeper: Apple sợ mất điều gì?"
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
-
 +++
 Giữa lòng Sài Gòn nắng cháy da người 37 độ C, hàng ngàn bạn trẻ đang lặng lẽ đóng laptop, vác ba lô lên và… biến mất khỏi thành phố vào mỗi cuối tuần. Họ không mua tour 3 ngày 2 đêm giá rẻ, không lên xe giường nằm đi Đà Lạt theo kiểu "ăn uống — chụp ảnh — về". Thay vào đó, họ tìm đến những chuyến đi tự may đo: trekking xuyên rừng, cắm trại bên hồ vắng, hoặc ở homestay giữa bản làng người dân tộc thiểu số. Đây không đơn thuần là trào lưu. Đây là cách nghỉ dưỡng đang được định nghĩa lại.
 

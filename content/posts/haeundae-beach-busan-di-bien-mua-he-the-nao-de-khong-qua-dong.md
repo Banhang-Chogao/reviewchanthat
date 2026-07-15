@@ -80,6 +80,7 @@ label = "Thời gian nên dành"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý mùa hè"
+
 [[internal_links]]
 ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
 title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
@@ -111,7 +112,6 @@ title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng,
 [[internal_links]]
 ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
 title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
-
 +++
 Haeundae là cái tên đầu tiên người ta nghĩ đến khi nhắc biển Hàn Quốc — bãi biển dài 1,5 km cát trắng, sóng mát rượi và một dãy nhà hàng, quán cà phê, khách sạn cao tầng dọc bờ. Trong [danh sách 10 điểm tránh nóng ở Hàn Quốc mùa hè]({{< ref "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md" >}}), Haeundae đứng thứ hai.
 

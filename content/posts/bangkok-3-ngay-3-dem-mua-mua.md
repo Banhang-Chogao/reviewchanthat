@@ -70,6 +70,7 @@ title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Gra
 [[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
 [[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
@@ -89,7 +90,6 @@ title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và c
 [[internal_links]]
 ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
 title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
-
 +++
 Đi Bangkok lần đầu vào mùa mưa có thể hơi lo, nhưng thực ra đây là thời điểm lý tưởng để khám phá thành phố nếu bạn có một lịch trình hợp lý. Giá vé rẻ, khách sạn giảm, điểm tham quan vắng — và quan trọng nhất, Bangkok có đủ indoor attractions để bạn không bao giờ cảm thấy "mất cả ngày vì mưa".
 

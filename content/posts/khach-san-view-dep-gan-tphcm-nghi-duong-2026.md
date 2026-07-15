@@ -33,6 +33,34 @@ date_display = "12-07-2026 13:45:00 GMT +7"
 ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"
 title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
 
+[[internal_links]]
+ref = "posts/khach-san-view-dep-da-nang-2026.md"
+title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
+title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
+title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-nha-trang-2026.md"
+title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/khach-san-view-dep-phu-yen-2026.md"
+title = "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
+
+[[internal_links]]
+ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
+title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
+
+[[internal_links]]
+ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
+title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
+
 [[external_links]]
 url = "https://www.trip.com/trip-best/"
 title = "Trip.Best — bảng xếp hạng khách sạn theo dữ liệu đặt phòng"
@@ -76,34 +104,6 @@ answer = "Không. Bài viết chỉ tham khảo danh sách và dữ liệu công
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Danh sách khách sạn tham khảo từ dữ liệu công khai Trip.Best; phần phân tích, đánh giá và kinh nghiệm chọn phòng là quan điểm riêng, không sao chép nội dung Trip.com. Giá và tính năng có thể thay đổi — vui lòng kiểm tra trực tiếp trước khi đặt."
-[[internal_links]]
-ref = "posts/khach-san-view-dep-da-nang-2026.md"
-title = "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-hai-phong-cat-ba-2026.md"
-title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-quoc-2026.md"
-title = "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-nha-trang-2026.md"
-title = "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/khach-san-view-dep-phu-yen-2026.md"
-title = "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-
-[[internal_links]]
-ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
-title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
-[[internal_links]]
-ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
-title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
-
 +++
 Có một kiểu mệt rất riêng của người sống ở Sài Gòn: không phải mệt vì làm việc quá sức, mà mệt vì thành phố không bao giờ chịu tắt đèn. Kẹt xe lúc sáu giờ chiều, tiếng còi xe lọt qua cửa kính chung cư, và cái cảm giác cuối tuần trôi qua mà mình chẳng kịp nghỉ. Vài năm gần đây, thay vì gồng lên đặt một chuyến bay đi xa, ngày càng nhiều người chọn một cách nhẹ nhàng hơn: đặt một khách sạn view đẹp, xách túi đi trong bán kính vài chục cây số, và "biến mất" khỏi nhịp sống thường ngày trong hai ngày một đêm. Người ta gọi nó là staycation.
 

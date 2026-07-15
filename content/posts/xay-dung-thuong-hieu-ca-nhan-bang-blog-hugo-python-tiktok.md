@@ -39,6 +39,7 @@ image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok — nguồn Pexels"
 image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
 image_query = "xây dựng thương hiệu cá"
+
 [[internal_links]]
 ref = "posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md"
 title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
@@ -70,7 +71,6 @@ title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 [[internal_links]]
 ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
 title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
-
 +++
 Bạn có thể nhận thấy rằng hầu hết những người xây dựng thương hiệu cá nhân ngày nay đều bắt đầu từ TikTok, Instagram hay YouTube. Nhưng có một vấn đề: **bạn không sở hữu độc lập nền tảng đó.**
 

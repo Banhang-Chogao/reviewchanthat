@@ -66,6 +66,7 @@ title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 [[internal_links]]
 ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
 title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 [[internal_links]]
 ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
 title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
@@ -77,7 +78,6 @@ title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
 [[internal_links]]
 ref = "posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md"
 title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
-
 +++
 **Pin** là lý do nhiều người chọn **Pro Max** thay Pro — không phải camera. iPhone 16 Pro Max **pin lớn hơn** và **A18 Pro** theo Apple, nhưng **màn 6.9 inch** cũng **ăn thêm**. Kết quả thực tế: **có đáng chọn 16 vì pin không?**
 

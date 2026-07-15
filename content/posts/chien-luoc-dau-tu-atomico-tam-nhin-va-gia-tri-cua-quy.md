@@ -32,6 +32,7 @@ image_license_url = ""
 [[internal_links]]
 ref = "posts/danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk.md"
 title = "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những công ty Thay Đổi Thế Giới"
+
 [[internal_links]]
 ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
 title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
@@ -59,7 +60,6 @@ title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 
 [[internal_links]]
 ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
 +++
 ## Tầm Nhìn Của Atomico: Xây Dựng Những công ty Thay Đổi Thế Giới
 

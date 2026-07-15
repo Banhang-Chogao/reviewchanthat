@@ -57,6 +57,7 @@ answer = "Theo báo cáo tài chính công bố cho năm 2025, mảng du lịch 
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài viết tổng hợp độc lập từ nguồn công khai (Trip.com, Wikipedia, báo chí); số liệu tài chính, thương vụ và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan.md"
 title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
@@ -88,7 +89,6 @@ title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
 [[internal_links]]
 ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
 title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
-
 +++
 Nhiều người Việt vẫn nghĩ đặt phòng khách sạn hay vé máy bay qua Trip.com, Booking hay Agoda thì kiểu gì cũng phải "cõng" thêm phí trung gian, nên cứ gọi thẳng cho khách sạn hoặc mua vé trực tiếp trên web hãng bay cho chắc ăn, rẻ hơn. Thực tế phức tạp hơn nhiều. Các nền tảng đặt du lịch trực tuyến (OTA — Online Travel Agency) như Trip.com Group không thu tiền từ túi khách hàng theo kiểu cộng thêm phí vào giá phòng, mà kiếm tiền chủ yếu từ phía đối tác cung cấp dịch vụ — khách sạn, hãng hàng không, công ty lữ hành — thông qua hoa hồng và các khoản chênh lệch giá. Hiểu được cơ chế này sẽ giúp bạn nhìn hoa hồng, ưu đãi và mã giảm giá bằng con mắt khác, đồng thời biết vì sao săn deal qua OTA nhiều khi lại lợi hơn tự đặt trực tiếp.
 

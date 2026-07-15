@@ -86,6 +86,7 @@ title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seo
 [[internal_links]]
 ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
 title = "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo"
+
 [[internal_links]]
 ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
 title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
@@ -105,7 +106,6 @@ title = "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia
 [[internal_links]]
 ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
 title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
-
 +++
 Jeju không chỉ có núi lửa với bình minh — hòn đảo này còn sở hữu những bãi biển khiến nhiều người gọi Hamdeok là "Maldives của Hàn Quốc". Trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), biển và resort Jeju đứng thứ 7, theo mình là hoàn toàn xứng đáng.
 

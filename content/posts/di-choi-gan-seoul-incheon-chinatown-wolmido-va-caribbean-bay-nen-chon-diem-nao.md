@@ -79,6 +79,7 @@ title = "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gi
 [[internal_links]]
 ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
 title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
+
 [[internal_links]]
 ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
 title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
@@ -102,7 +103,6 @@ title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
 [[internal_links]]
 ref = "posts/xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc.md"
 title = "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc"
-
 +++
 Một điều bất ngờ trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}) từ Trip.Best là gần một nửa số điểm nằm ở khu vực gần Seoul. Nếu bạn có 1–2 ngày rảnh, đây là những lựa chọn đáng cân nhắc.
 

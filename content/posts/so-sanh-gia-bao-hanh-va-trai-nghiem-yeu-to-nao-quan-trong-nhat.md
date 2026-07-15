@@ -65,6 +65,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
+
 [[internal_links]]
 ref = "posts/the-odyssey-2026-review.md"
 title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
@@ -96,7 +97,6 @@ title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao N
 [[internal_links]]
 ref = "posts/tin-chi-carbon-va-trao-luu-net-zero.md"
 title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
-
 +++
 Bạn đứng trước hai lựa chọn: sản phẩm A giá rẻ hơn 20% nhưng bảo hành 6 tháng. Sản phẩm B đắt hơn nhưng bảo hành 2 năm và nhiều review tốt. Bạn chọn cái nào?
 

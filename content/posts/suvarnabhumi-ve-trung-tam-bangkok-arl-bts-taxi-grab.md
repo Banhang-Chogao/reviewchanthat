@@ -59,6 +59,7 @@ label = "Nên chọn"
 [[internal_links]]
 ref = "posts/di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi.md"
 title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?"
+
 [[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
@@ -86,7 +87,6 @@ title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và c
 [[internal_links]]
 ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
 title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
-
 +++
 ## Từ sân bay Suvarnabhumi về trung tâm Bangkok
 

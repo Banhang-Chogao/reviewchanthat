@@ -33,6 +33,7 @@ draft = false
 [ai_summary]
 items = ["Monte Carlo: Mô phỏng N×10^6 kịch bản random để ước lượng option price, VaR, portfolio value", "Brownian Motion: dS = μS dt + σS dW (random walk log-price)", "Giả định: S tuân theo log-normal distribution, dW là Wiener process", "Discretization: Δt nhỏ (1 ngày, 1 giờ) để discretize SDE", "Pricing: E[Option Payoff] = (1/N) × Σ Payoff_i × e^(-rT)", "VaR: Sort 10M outcomes, lấy 1% worst case", "Variance Reduction: Antithetic sampling, control variates để giảm N needed"]
 draft = false
+
 [[internal_links]]
 ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
@@ -64,7 +65,6 @@ title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
 [[internal_links]]
 ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
 title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
-
 +++
 **Monte Carlo** — phương pháp mô phỏng dựa trên **random sampling**.
 

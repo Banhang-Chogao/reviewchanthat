@@ -67,6 +67,7 @@ title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
 [[internal_links]]
 ref = "posts/ios-27-cai-thien-pin-iphone.md"
 title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
@@ -78,7 +79,6 @@ title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
 [[internal_links]]
 ref = "posts/macos-27-ho-tro-may-mac-nao.md"
 title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel"
-
 +++
 Public beta iOS 27 dự kiến **tháng 7/2026** — đúng lúc nhiều người rảnh thử hệ điều hành mới. Nhưng beta trên iPhone **không giống** beta game: rollback khó, app ngân hàng có thể từ chối chạy, pin và nhiệt độ thất thường.
 

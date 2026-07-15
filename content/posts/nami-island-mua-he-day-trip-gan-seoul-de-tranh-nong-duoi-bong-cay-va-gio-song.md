@@ -68,21 +68,6 @@ ref = "posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.
 [[internal_links]]
 ref = "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md"
 
-[[tom_tat_nhanh]]
-label = "Khu vực"
-value = "Chuncheon, Gangwon-do"
-
-[[tom_tat_nhanh]]
-label = "Loại trải nghiệm"
-
-[[tom_tat_nhanh]]
-label = "Hợp với"
-
-[[tom_tat_nhanh]]
-label = "Thời gian nên dành"
-
-[[tom_tat_nhanh]]
-label = "Lưu ý mùa hè"
 [[internal_links]]
 ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
 title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
@@ -103,6 +88,21 @@ title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
 ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
 title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
 
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Chuncheon, Gangwon-do"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý mùa hè"
 +++
 Ai cũng biết Nami Island mùa thu lá vàng đẹp như phim _Winter Sonata_. Nhưng theo mình, Nami mùa hè mới thực sự là chốn tránh nóng lý tưởng — tán Metasequoia xanh mướt che kín lối đi, gió từ sông Bukhan thổi lồng lộng, khác hẳn cái oi bức ở Seoul.
 

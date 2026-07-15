@@ -69,6 +69,7 @@ title = "Cuộc sống số năm 2026: 30 thói quen"
 [[internal_links]]
 ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
 title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
+
 [[internal_links]]
 ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
@@ -92,7 +93,6 @@ title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm c
 [[internal_links]]
 ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
 title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
-
 +++
 Bạn đã bao giờ mất 10 phút để tìm cái file hợp đồng ký tháng trước? Hay cảm thấy bực mình khi Desktop có 50+ file với tên "Cuối cùng.docx", "Final_v2.docx", "Thiệt_cuối_Final_Final.docx"?
 

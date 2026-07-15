@@ -36,6 +36,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-12T08:49:04+07:00"
 image_query = "mô hình phẳng thụy điển"
+
 [[internal_links]]
 ref = "posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.md"
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
@@ -67,7 +68,6 @@ title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không
 [[internal_links]]
 ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
 title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
 +++
 Năm 1943, một cậu bé 17 tuổi người Thụy Điển tên Ingvar Kamprad dùng số tiền bố thưởng vì học tốt để lập một cửa hàng đặt hàng qua bưu điện. Cậu bán bút, ví da, khung tranh, đồng hồ, và tất nhiên — kính lúp. Sản phẩm đầu tiên đó là kính lúp với giá 1 krona. Không ai có thể tưởng tượng rằng từ kính lúp, Kamprad sẽ xây dựng nên IKEA — tập đoàn nội thất lớn nhất thế giới với doanh thu hơn 50 tỷ USD mỗi năm, trải dài 62 quốc gia. Bí mật nằm ở đâu? Không chỉ ở flat-pack (đồ nội thất đóng gói phẳng), mà còn ở flat hierarchy — mô hình quản lý phẳng, thứ đã biến một cửa hàng nhỏ thành cỗ máy tối giản nhưng cực kỳ hiệu quả.
 

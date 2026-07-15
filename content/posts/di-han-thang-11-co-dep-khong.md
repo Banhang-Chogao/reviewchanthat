@@ -80,6 +80,7 @@ title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không
 [[internal_links]]
 ref = "posts/di-han-thang-11-mac-gi.md"
 title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
+
 [[internal_links]]
 ref = "posts/di-han-thang-10-mac-gi.md"
 title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
@@ -95,7 +96,6 @@ title = "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất 
 [[internal_links]]
 ref = "posts/seoul-thang-10-nen-di-dau.md"
 title = "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu"
-
 +++
 Bạn đang cân nhắc **đi Hàn tháng 11** sau khi thấy ảnh lá đỏ rực ở Seoul, Bukchon hay cung điện — và tự hỏi: *tháng 11 có còn đẹp không, hay đã muộn so với tháng 10?* Câu trả lời ngắn: **tháng 11 thường là tháng peak lá đỏ ở Seoul và nhiều khu vực đô thị**, nhưng **lạnh hơn rõ** so với tháng 10 và một số núi cao có thể **đã rụng lá** vào cuối tháng. Trải nghiệm cụ thể phụ thuộc **bạn đi đầu hay cuối tháng 11**, và **năm đó lá đỏ đến sớm hay muộn**.
 

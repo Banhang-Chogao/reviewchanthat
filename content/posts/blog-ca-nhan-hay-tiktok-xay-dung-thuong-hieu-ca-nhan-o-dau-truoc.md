@@ -43,6 +43,7 @@ title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung 
 [[internal_links]]
 ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
+
 [[internal_links]]
 ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
 title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
@@ -62,7 +63,6 @@ title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 [[internal_links]]
 ref = "posts/macos-27-co-nen-nang-cap-ngay-khong.md"
 title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update"
-
 +++
 Câu hỏi xuất hiện rất sớm khi ai đó muốn xây thương hiệu cá nhân: **blog cá nhân hay TikTok nên đi trước?** Một bên nghe “bền, SEO, chuyên nghiệp”. Một bên nghe “nhanh, đông, dễ thấy kết quả”. Chọn sai thứ tự không làm bạn thất bại vĩnh viễn — nhưng có thể khiến bạn **kiệt sức** hoặc **xây trên đất thuê** mà tưởng đã có tài sản.
 

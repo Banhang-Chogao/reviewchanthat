@@ -28,6 +28,7 @@ commit = "e1b87c29"
 date_display = "11-07-2026 14:44:58 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "autumn fallen leaves brown orange"
+
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
@@ -59,7 +60,6 @@ title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng ki
 [[internal_links]]
 ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
 title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
-
 +++
 Băng giá từng là kẻ thù của con người trong suốt chiều dài lịch sử. Nhưng ở Jukkasjärvi, một ngôi làng nhỏ nằm sâu trong vùng Lapland của Thụy Điển, con người đã biến băng thành một tác phẩm nghệ thuật sống động. Icehotel không đơn thuần là một chỗ ngủ qua đêm — nó là một tuyên ngôn về sự sáng tạo, một không gian nơi kiến trúc và tự nhiên hòa quyện vào nhau.
 

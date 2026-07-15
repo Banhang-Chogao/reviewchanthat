@@ -32,6 +32,7 @@ image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
 
 [ai_summary]
 items = ["FRM = Financial Risk Manager, chứng chỉ về quản trị rủi ro tài chính", "VaR (Value at Risk): Mất tối đa $ với xác suất X% trong 1 ngày", "VaR = Portfolio Value × |Z| × Volatility (với Z là z-score 1%, 5%, etc)", "Expected Shortfall (CVaR) = mất lỗ trung bình trong các trường hợp tồi tệ", "Lịch sử: Dùng log-return lịch sử để ước lượng VaR (Historical Simulation)", "Monte Carlo: Mô phỏng 10k+ kịch bản để tính VaR", "Backtesting: Kiểm tra VaR model có chính xác không (exceptions test)"]
+
 [[internal_links]]
 ref = "posts/risk-management-trong-tai-chinh-dung-toan-hoc.md"
 title = "Risk Management trong tài chính: Từ VaR đến stress testing"
@@ -63,7 +64,6 @@ title = "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, 
 [[internal_links]]
 ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
 title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
-
 +++
 FRM (Financial Risk Manager) là chứng chỉ quản trị rủi ro của GARP. FRMs dùng **toán học xác suất cao cấp** để:
 

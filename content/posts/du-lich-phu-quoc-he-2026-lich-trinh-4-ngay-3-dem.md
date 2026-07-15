@@ -33,6 +33,7 @@ enabled = true
 items = ["Hè (tháng 6–8) là mùa thấp điểm ở Phú Quốc: giá mềm hơn nhưng hay mưa rào buổi chiều, cần lịch trình linh hoạt.", "Chọn khu ở theo nhu cầu: Nam đảo/An Thới đi tour biển, Bãi Trường ngắm hoàng hôn, Dương Đông tiện ăn uống, Bắc đảo hợp gia đình.", "Lịch trình 4 ngày 3 đêm: 1 ngày tour đảo Nam, 1 ngày Bắc đảo, chừa buổi nghỉ tránh nắng và dự phòng mưa.", "Không bịa chi phí: giá vé, phòng và tour đổi theo ngày và cách đặt; bài này giúp bạn tự tính và tự thiết kế lịch."]
 image_query = "du lịch phú quốc hè"
 image_alt = "Ảnh minh họa Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem.md"
 title = "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng"
@@ -64,7 +65,6 @@ title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kế
 [[internal_links]]
 ref = "posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.md"
 title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
-
 +++
 ## Vì sao Phú Quốc hè 2026?
 

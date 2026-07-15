@@ -38,6 +38,7 @@ image_alt = "Ảnh minh họa AI stocks là gì? Cổ phiếu AI, chip và tác 
 image_license_url = ""
 image_attribution_checked_at = "2026-07-12T08:48:49+07:00"
 image_query = "ai stocks gì cổ phiếu"
+
 [[internal_links]]
 ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
 title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
@@ -69,7 +70,6 @@ title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế n
 [[internal_links]]
 ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
 title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
 +++
 Năm 2024–2026, một từ khóa lặp lại ở mọi nơi: **AI.** Và theo AI, có từ **chip.** Nếu bạn là nhà đầu tư, bạn chắc chắn nghe nói về cổ phiếu công nghệ, NVIDIA, TSMC, và nhu cầu chip "vô tận."
 

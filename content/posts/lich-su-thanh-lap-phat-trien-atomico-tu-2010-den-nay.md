@@ -27,6 +27,7 @@ image_status = "verified"
 image_provider = "pixabay"
 image_query = "lịch sử thành lập phát"
 image_alt = "Ảnh minh họa Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD — nguồn Pixabay"
+
 [[internal_links]]
 ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
 title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
@@ -58,7 +59,6 @@ title = "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ng
 [[internal_links]]
 ref = "posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.md"
 title = "Cách xây dựng thói quen mua sắm thông minh"
-
 +++
 ## Hành Trình Xây Dựng Atomico: Từ Ý Tưởng Đến Hiện Thực
 

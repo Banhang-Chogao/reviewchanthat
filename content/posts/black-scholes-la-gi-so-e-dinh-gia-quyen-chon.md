@@ -32,6 +32,7 @@ image_attribution_source = ""
 [ai_summary]
 items = ["Black-Scholes: Công thức định giá call option được phát hiện năm 1973", "C = S×Φ(d1) - K×e^(-rT)×Φ(d2) — thứ nhất thấy e^(-rT) từ Bài 1!", "d1, d2 = công thức logarit + phân phối chuẩn để tính Φ (cumulative normal CDF)", "Giả định: σ hằng số, không có dividend, European option (chỉ thực hiện khi expiry)", "Implied Volatility: Đảo ngược công thức để tìm σ từ giá market", "Put-Call Parity: C - P = S - K×e^(-rT) (mối quan hệ call/put)", "Thực tế: Volatility Smile, American options, dividend adjustment cần mô hình phức tạp hơn"]
 image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
+
 [[internal_links]]
 ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
 title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
@@ -63,7 +64,6 @@ title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
 [[internal_links]]
 ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
 title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
-
 +++
 **Black-Scholes** — công thức định giá **quyền chọn (option)** nổi tiếng nhất.
 

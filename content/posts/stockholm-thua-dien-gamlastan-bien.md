@@ -49,6 +49,7 @@ answer = "A: Có. Nhiều công ty công nghệ ở Stockholm tuyển dụng mà
 [[faq]]
 question = "Q: Cách tốt nhất để trải nghiệm Stockholm nếu tôi chỉ có 2-3 ngày?"
 answer = "A: Ngày 1: Gamla Stan (sáng), Hoàng cung (trưa), Thư viện Công khai (chiều). Ngày 2: Đi phà tới hòn đảo Drottningholm xem cung điện Drottningholm. Ngày 3: Bảo tàng Vasa hoặc Nordiska Museet. Thành phố rất compact – bạn có thể đi bộ hoặc dùng thẻ tuần SL (thẻ giao thông công cộng) với giá €53 cho 7 ngày."
+
 [[internal_links]]
 ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
 title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
@@ -80,7 +81,6 @@ title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩ
 [[internal_links]]
 ref = "posts/lang-lo-lang-chai-ngoi-do-ven-bien-tuy-hoa.md"
 title = "Làng Lò: làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa và kinh nghiệm ghé thăm 2026"
-
 +++
 ## Một Thành Phố Trên Nước Và Công Nghệ
 

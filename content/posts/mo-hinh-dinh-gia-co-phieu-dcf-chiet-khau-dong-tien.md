@@ -32,6 +32,7 @@ image_attribution_checked_at = "2026-07-11T17:30:39+07:00"
 
 [ai_summary]
 items = ["DCF (Discounted Cash Flow): Giá = Σ FCF_t × e^(-rt) + Terminal Value × e^(-rT)", "Terminal Value = Final Year FCF × Growth / (Discount Rate - Growth)", "P/E Ratio = Giá / Lợi nhuận (cách nhanh nhất để so sánh)", "PEG Ratio = P/E / Growth Rate (điều chỉnh cho tăng trưởng)", "EV/EBITDA = Enterprise Value / EBITDA (so sánh khác branch)", "Comparable Method: So sánh cổ phiếu tương tự, giá = Average P/E × Earnings", "Intrinsic Value vs Market Price: Nếu Market < Intrinsic → BUY, ngược lại SELL"]
+
 [[internal_links]]
 ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
@@ -63,7 +64,6 @@ title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 [[internal_links]]
 ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
-
 +++
 Làm sao biết cổ phiếu là **rẻ hay đắt**?
 

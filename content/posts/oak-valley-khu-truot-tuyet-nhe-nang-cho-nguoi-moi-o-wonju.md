@@ -73,6 +73,7 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
 value = ""
+
 [[internal_links]]
 ref = "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
 title = "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu"
@@ -104,7 +105,6 @@ title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
 [[internal_links]]
 ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
 title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
-
 +++
 Oak Valley là ski resort nhỏ nhất trong系列 bài này của mình, nhưng đôi khi nhỏ lại là cái hay. Nếu bạn đã đọc bài về [Elysian Gangchon]({{< ref "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md" >}}) và [Vivaldi Park]({{< ref "posts/vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong.md" >}}) mà thấy lo vì đông đúc, Oak Valley là phương án ngược lại hoàn toàn.
 

@@ -37,6 +37,7 @@ image_attribution_checked_at = "2026-07-12T08:48:49+07:00"
 image_provider = "pexels"
 image_query = "mobile banking payment app"
 image_alt = "Ảnh minh họa techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai.md"
 title = "VPBank NEO review 2026: app ngân hàng số này hợp với ai?"
@@ -68,7 +69,6 @@ title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước 
 [[internal_links]]
 ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
 title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
-
 +++
 Ngân hàng số là xu hướng, nhưng **không phải cái nào cũng phù hợp với bạn.**
 

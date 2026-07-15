@@ -28,6 +28,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:45+07:00"
 image_query = "ảnh hưởng atomico tới hệ"
 image_alt = "Ảnh minh họa Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
 title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
@@ -59,7 +60,6 @@ title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kế
 [[internal_links]]
 ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
 title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
-
 +++
 ## Từ Cơn Lốc Thay Đổi Tầm Nhìn
 

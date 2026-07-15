@@ -33,6 +33,7 @@ draft = false
 [ai_summary]
 items = ["Log tự nhiên (ln) là hàm ngược của e: nếu e^x = y thì ln(y) = x", "Log-return: R = ln(Pt/Pt-1) — cách tính lợi suất bằng logarit thay vì phần trăm thông thường", "So sánh: simple return (+10%, -5%) ≠ cộng = +4.5% nhưng log-return (+9.53%, -5.13%) ✓ cộng = +4.40%", "Tính chất cộng dồn: Rtotal = R1 + R2 + ... + Rn — đây là lý do giới định lượng dùng log-return", "Ví dụ thực tế: VietcomBank giá 100k → 110k → 104.5k (so sánh 2 cách tính)", "Ứng dụng: quỹ đầu tư tính volatility, machine learning forecast thị trường, quản trị rủi ro dùng log-return", "Vì sao: log-return đối xứng (50% rồi -33% = neutral), phân phối chuẩn, phù hợp time-series analysis"]
 draft = false
+
 [[internal_links]]
 ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
@@ -64,7 +65,6 @@ title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiế
 [[internal_links]]
 ref = "posts/monte-carlo-trong-tai-chinh-la-gi.md"
 title = "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản"
-
 +++
 Khi bạn đầu tư vào cổ phiếu VietcomBank với giá 100,000 đồng, giá tăng lên 110,000 (+10%), rồi giảm xuống 104,500 (-5%), lợi suất cuối cùng là bao nhiêu?
 

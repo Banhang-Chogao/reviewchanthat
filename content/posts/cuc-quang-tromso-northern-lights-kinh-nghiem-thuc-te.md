@@ -44,6 +44,7 @@ answer = "A: 10 tối - 2 sáng thường là tốt nhất. Nhưng cực quang c
 [[faq]]
 question = "Q: Có các nơi khác ngoài Tromsø để xem cực quang không?"
 answer = "A: Có. Iceland, Greenland, Phần Lan, Thụy Điển, Canada, Alaska đều có cơ hội. Nhưng Tromsø có cơ hội cao nhất (vĩ độ 69°N, nằm sâu trong Vòng Cực Quang)."
+
 [[internal_links]]
 ref = "posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc.md"
 title = "Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực"
@@ -75,7 +76,6 @@ title = "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và p
 [[internal_links]]
 ref = "posts/trai-nghiem-icehotel-va-ngam-aurora-thuy-dien.md"
 title = "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland"
-
 +++
 ## Cực quang là gì? Tại sao Tromsø?
 

@@ -45,6 +45,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/review-airpods-pro-3-2026.md"
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
@@ -76,7 +77,6 @@ title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm 
 [[internal_links]]
 ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
 title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
 +++
 
 Tôi đã sống cùng ASUS Zenbook DUO 2026 trọn một tuần. Không phải một buổi chiều trên tay để chụp ảnh rồi trả máy, mà là bảy ngày dùng nó làm máy chính — viết bài, duyệt web, xem phim, họp online, và cả chơi game giải trí. Đủ lâu để cơn phấn khích ban đầu qua đi và những khó chịu nhỏ bắt đầu lộ ra. Và đủ lâu để hiểu vì sao ASUS kiên trì với form-factor hai màn hình suốt ba thế hệ, ngay cả khi phần đông chưa thấy nó cần thiết.

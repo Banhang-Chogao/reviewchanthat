@@ -37,6 +37,7 @@ answer = "A: Điều này là do một sự kết hợp của (1) lợi thế đ
 [[faq]]
 question = "Q: Năng lượng tái tạo có rẻ hơn năng lượng hóa thạch không?"
 answer = "A: Có. Theo các nghiên cứu gần đây (IRENA 2024), năng lượng tái tạo (gió, mặt trời, thủy điện) bây giờ rẻ hơn năng lượng hóa thạch (than, dầu, khí đốt) trong hầu hết các thị trường toàn cầu. Chi phí vốn cho turbine gió và tấm pin mặt trời đã giảm 85% trong thập kỷ qua. Scandinavia đã chứng minh rằng nó có thể cung cấp năng lượng rẻ, sạch, và bền vững cùng một lúc mà không cần tăng giá điện cho người tiêu dùng."
+
 [[internal_links]]
 ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
 title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
@@ -68,7 +69,6 @@ title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
 [[internal_links]]
 ref = "posts/review-airpods-pro-3-2026.md"
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
-
 +++
 ## Tại Sao Scandinavia Dẫn Đầu Trong Năng Lượng Tái Tạo?
 

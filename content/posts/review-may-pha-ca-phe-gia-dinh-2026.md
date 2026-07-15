@@ -25,6 +25,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi.md"
 title = "Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc và khi nào thật sự đáng mua"
@@ -56,7 +57,6 @@ title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực T�
 [[internal_links]]
 ref = "posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.md"
 title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026"
-
 +++
 ## Mở đầu: Khi cà phê không còn là chuyện ra quán
 

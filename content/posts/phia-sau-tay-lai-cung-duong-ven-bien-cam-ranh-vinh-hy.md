@@ -28,6 +28,7 @@ image_alt = "Ảnh minh họa Phía Sau Tay Lái: Ký Sự Cung Đường Ven Bi
 date_display = "11-07-2026 09:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "phía sau tay lái ký"
+
 [[internal_links]]
 ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
 title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
@@ -59,7 +60,6 @@ title = "Làng Lò: làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa v
 [[internal_links]]
 ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
 title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
-
 +++
 Cái nắng miền Trung tháng Bảy như thiêu như đốt. Nó không phải thứ nắng dịu dàng mà ta tìm thấy ở miền Bắc, cũng chẳng phải thứ nắng ẩm ướt của Sài Gòn. Đây là thứ nắng xé da, thứ nắng mà người miền Trung gọi là "nắng cháy" – thứ nắng có thể làm nứt nẻ cả đất đai, làm khô cong cả những tán cây xương rồng trên triền núi đá. Vậy mà tôi lại chọn giữa tháng Bảy để chạy xe dọc theo cung đường ven biển từ Cam Ranh lên Vĩnh Hy. Có lẽ tôi hơi điên, nhưng sự điên rồ đôi khi lại mang đến những trải nghiệm đẹp nhất.
 

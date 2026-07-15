@@ -52,6 +52,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T18:58:09+07:00"
 image_query = "ẩm thực nauy cá hồi"
 image_alt = "Ảnh minh họa Ẩm thực Nauy – từ cá hồi đến truyền thống Viking — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc.md"
 title = "Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực"
@@ -83,7 +84,6 @@ title = "Hoàng tộc Na Uy hiện đại – Chân dung thân quyền dưới t
 [[internal_links]]
 ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
 title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
 +++
 
 Tôi nhớ lần đầu tiên đặt chân đến Na Uy, điều làm tôi tò mò nhất không phải là fjord hay cực quang — mà là đồ ăn. Ai cũng nói Na Uy đắt, nhưng ít ai nói về việc đồ ăn ở đây thực sự ra sao. Cá hồi Na Uy nổi tiếng thế giới, nhưng ngoài cá hồi ra còn gì nữa?

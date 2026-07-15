@@ -63,6 +63,7 @@ label = "Phụ kiện"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý"
+
 [[internal_links]]
 ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
 title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
@@ -94,7 +95,6 @@ title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gầ
 [[internal_links]]
 ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
 title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
-
 +++
 Hàn Quốc mùa hè nóng ẩm — nhưng không phải vì thế mà phải mặc xấu. Chỉ cần chọn đúng chất liệu và phối đồ thông minh, bạn vẫn có outfit đẹp và mát mẻ.
 

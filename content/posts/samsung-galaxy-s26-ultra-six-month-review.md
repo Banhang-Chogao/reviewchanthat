@@ -59,6 +59,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/review-airpods-pro-3-2026.md"
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"

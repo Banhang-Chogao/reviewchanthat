@@ -57,6 +57,7 @@ answer = "Không cam kết thu nhập hay điểm thi. Chỉ chia sẻ cách là
 [[internal_links]]
 ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
 title = "Pillar: Sống thông minh trong thời đại AI"
+
 [[internal_links]]
 ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
 title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
@@ -84,7 +85,6 @@ title = "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi v
 [[internal_links]]
 ref = "posts/ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu.md"
 title = "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư"
-
 +++
 Bài 9/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).
 

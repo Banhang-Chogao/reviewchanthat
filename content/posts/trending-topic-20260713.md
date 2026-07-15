@@ -45,6 +45,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/iphone-18-gia-bao-nhieu.md"
 title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
@@ -76,7 +77,6 @@ title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commi
 [[internal_links]]
 ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
 title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
-
 +++
 You walk into a store in July 2026 looking for a new laptop. The MacBook Pro you were eyeing last year? It costs VND 18 million more today. The Xbox Series X? Up by nearly VND 3 million. Even mid-range Android phones have crept up by a million dong or more.
 

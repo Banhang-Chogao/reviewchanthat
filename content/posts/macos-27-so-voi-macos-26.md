@@ -74,10 +74,10 @@ title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI 
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
 [[internal_links]]
 ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
 title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
-
 +++
 Bạn đang chạy **macOS 26** ổn định — có đáng nhảy sang **Golden Gate 27** không? Bài so sánh này tách **thay đổi thật**, **marketing** và **điểm nên ở lại 26**.
 

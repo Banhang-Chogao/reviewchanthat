@@ -39,6 +39,7 @@ image_attribution_source = "pexels_api"
 image_alt = "Ảnh minh họa Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững — nguồn Pexels"
 image_attribution_checked_at = "2026-07-12T08:48:49+07:00"
 image_query = "biến bài blog thành video"
+
 [[internal_links]]
 ref = "posts/xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok.md"
 title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok"
@@ -70,7 +71,6 @@ title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm 
 [[internal_links]]
 ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
 title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
 +++
 Nếu bạn đã xây dựng một blog Hugo với nội dung chất lượng cao, bước tiếp theo là **đưa nó tới đúng người cần đọc.**
 

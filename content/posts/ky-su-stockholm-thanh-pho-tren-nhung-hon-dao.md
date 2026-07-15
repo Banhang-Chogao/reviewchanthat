@@ -28,6 +28,7 @@ image_alt = "Ảnh minh họa Ký Sự Stockholm: Hành Trình Khám Phá Thủ 
 date_display = "11-07-2026 14:44:57 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "ký sự stockholm hành trình"
+
 [[internal_links]]
 ref = "posts/stockholm-thua-dien-gamlastan-bien.md"
 title = "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai"
@@ -59,7 +60,6 @@ title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng ki
 [[internal_links]]
 ref = "posts/cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park.md"
 title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park"
-
 +++
 Tôi đứng trên cầu Gamla Stan lúc năm giờ chiều, nhìn xuống mặt nước Riddarfjärden lấp lánh. Một chiếc thuyền kayak lướt ngang, người chèo mỉm cười vẫy tay. Hai bên bờ, những tòa nhà thế kỷ 17 sơn màu đất nung và vàng nhạt soi bóng xuống dòng nước xanh. Tiếng nhạc acoustic từ một quán cà phê ven kênh hòa vào tiếng chuông nhà thờ Tyska Kyrkan. Thành phố này không gào thét. Nó thì thầm.
 

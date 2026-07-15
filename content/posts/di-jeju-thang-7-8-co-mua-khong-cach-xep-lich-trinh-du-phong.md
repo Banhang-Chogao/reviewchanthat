@@ -60,6 +60,7 @@ label = "Nhiệt độ"
 
 [[tom_tat_nhanh]]
 label = "Mẹo"
+
 [[internal_links]]
 ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
 title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
@@ -91,7 +92,6 @@ title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gầ
 [[internal_links]]
 ref = "posts/busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo.md"
 title = "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?"
-
 +++
 ## Thời tiết Jeju tháng 7–8
 

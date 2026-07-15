@@ -86,6 +86,7 @@ title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an t
 [[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
 title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+
 [[internal_links]]
 ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
 title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
@@ -93,7 +94,6 @@ title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch 
 [[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
-
 +++
 Mùa mưa Thái Lan kéo dài từ tháng 6 đến tháng 10, cao điểm vào tháng 7–9. Đây là khoảng thời gian nhiều người Việt phân vân nhất: vé máy bay rẻ, khách sạn giảm sâu, nhưng liệu có "đi mưa cả ngày" hay không? Câu trả lời ngắn gọn là: **tùy vào điểm đến và cách bạn lên lịch**.
 

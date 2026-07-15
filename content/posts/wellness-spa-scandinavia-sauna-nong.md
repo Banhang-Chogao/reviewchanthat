@@ -37,6 +37,7 @@ answer = "A: Phần lớn các lò sauna ở Scandinavia là \"sauna khỏa thâ
 [[faq]]
 question = "Q: Tôi có an toàn không khi tắm trong nước lạnh sau sauna không?"
 answer = "A: Tắm nước lạnh sau sauna là an toàn cho hầu hết mọi người khỏe mạnh. Tuy nhiên, nếu bạn có các vấn đề tim hoặc huyết áp, bạn nên tham khảo ý kiến ​​bác sĩ trước. Luôn luôn bắt đầu với nước mát lạnh chứ không phải lạnh quá."
+
 [[internal_links]]
 ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
 title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
@@ -68,7 +69,6 @@ title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
 [[internal_links]]
 ref = "posts/review-airpods-pro-3-2026.md"
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
-
 +++
 ## Wellness Ở Scandinavia Không Phải Là Một Lối Sống – Đó Là Một Tôn Giáo
 

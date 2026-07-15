@@ -62,6 +62,7 @@ value = "Áo mưa gấp gọn"
 [[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
+
 [[internal_links]]
 ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
 title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
@@ -89,7 +90,6 @@ title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và c
 [[internal_links]]
 ref = "posts/doi-baht-o-viet-nam-hay-thai-lan.md"
 title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
-
 +++
 ## Checklist vali đi Thái mùa mưa
 

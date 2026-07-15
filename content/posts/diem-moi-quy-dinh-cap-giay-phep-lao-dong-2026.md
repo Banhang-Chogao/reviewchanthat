@@ -44,6 +44,7 @@ answer = "Có. Kể từ ngày 1/1/2018, lao động nước ngoài làm việc 
 [[faq]]
 question = "Câu Hỏi 4: Thời Gian Làm Việc Bao Lâu Thì Phải Gia Hạn Giấy Phép Lao Động?"
 answer = "Thủ tục gia hạn phải được thực hiện trong vòng 30 ngày trước ngày giấy phép lao động hết hạn. Nếu để quá hạn, doanh nghiệp sẽ phải làm thủ tục cấp lại (không phải gia hạn), quy trình phức tạp hơn và mất nhiều thời gian hơn."
+
 [[internal_links]]
 ref = "posts/huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026.md"
 title = "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026"
@@ -75,7 +76,6 @@ title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không
 [[internal_links]]
 ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
 title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
 +++
 ## Tổng Quan Về Quy Định Giấy Phép Lao Động 2026
 

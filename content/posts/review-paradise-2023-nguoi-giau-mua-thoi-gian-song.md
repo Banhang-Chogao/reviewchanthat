@@ -61,6 +61,7 @@ answer = "Paradise là phim điện ảnh dài 117 phút, không phải series. 
 [attribution]
 copyright = "Bài viết thuộc về Review Chân Thật"
 source_note = "Thông tin dựa trên dữ liệu từ IMDb, Netflix, Decider và Screen Rant. Bài viết là cảm nhận cá nhân sau khi xem phim, không nhằm thay thế thông tin chính thức từ nhà phát hành."
+
 [[internal_links]]
 ref = "posts/the-odyssey-2026-review.md"
 title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
@@ -92,7 +93,6 @@ title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạ
 [[internal_links]]
 ref = "posts/review-airpods-pro-3-2026.md"
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
-
 +++
 
 Có những bộ phim xem xong bạn tắt Netflix, đặt điện thoại xuống, và ngồi im trong bóng tối vài phút vì ý nghĩ của nó cứ quanh quẩn trong đầu. **Paradise (2023)** — phim sci-fi của Đức do Boris Kunz đạo diễn — là một trường hợp như vậy với tôi.

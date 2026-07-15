@@ -36,6 +36,34 @@ date_display = "12-07-2026 22:30:00 GMT +7"
 ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"
 title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors"
 
+[[internal_links]]
+ref = "posts/michelin-restaurants-ho-chi-minh-city-must-try.md"
+title = "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)"
+
+[[internal_links]]
+ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
+title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-16-pro-max-co-dang-chon.md"
+title = "Pin iPhone 16 Pro Max có đáng chọn?"
+
+[[internal_links]]
+ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
+title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+
+[[internal_links]]
+ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
+title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
+
 [[external_links]]
 url = "https://www.trip.com/"
 title = "Trip.com — book flights and hotels to Ho Chi Minh City"
@@ -67,34 +95,6 @@ answer = "Yes. This guide contains a Trip.com affiliate/advertising placement, c
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Written independently as a practical booking guide. This post contains a labelled Trip.com advertising/affiliate link. Promotions, coupon terms, Trip Coins and fares change frequently — always verify the current offer in your Trip.com account before booking. Illustrative images are from Pexels/Pixabay."
-[[internal_links]]
-ref = "posts/michelin-restaurants-ho-chi-minh-city-must-try.md"
-title = "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)"
-
-[[internal_links]]
-ref = "posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026.md"
-title = "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)"
-
-[[internal_links]]
-ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
-title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
-
-[[internal_links]]
-ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
-title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
-
-[[internal_links]]
-ref = "posts/pin-iphone-16-pro-max-co-dang-chon.md"
-title = "Pin iPhone 16 Pro Max có đáng chọn?"
-
-[[internal_links]]
-ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
-title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
-
-[[internal_links]]
-ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
-title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
 +++
 If you have already read our companion guide on [how to choose a reputable hotel in Ho Chi Minh City](/posts/how-to-choose-reputable-hotels-ho-chi-minh-city/), the next question is the one that decides your whole budget: how do you actually get to Saigon without overpaying for the flight? Airfare is usually the single biggest line in a Vietnam trip, and the gap between a well-timed booking and a last-minute panic buy can be enormous. The good news is that the same platform most travellers use to book their room — Trip.com — is also one of the easiest places to find a cheap flight, and there is a simple booking order that makes your flight *and* your hotel cheaper at the same time. This guide walks you through it.
 

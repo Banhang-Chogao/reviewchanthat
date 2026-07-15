@@ -65,21 +65,6 @@ ref = "posts/nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-v
 [[internal_links]]
 ref = "posts/caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao.md"
 
-[[tom_tat_nhanh]]
-label = "Khu vực"
-value = "Jung-gu, Incheon"
-
-[[tom_tat_nhanh]]
-label = "Loại trải nghiệm"
-
-[[tom_tat_nhanh]]
-label = "Hợp với"
-
-[[tom_tat_nhanh]]
-label = "Thời gian nên dành"
-
-[[tom_tat_nhanh]]
-label = "Lưu ý mùa hè"
 [[internal_links]]
 ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
 title = "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?"
@@ -100,6 +85,21 @@ title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
 ref = "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md"
 title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?"
 
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Jung-gu, Incheon"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý mùa hè"
 +++
 Wolmido thực ra không phải đảo nữa — nó đã được nối với đất liền từ lâu. Nhưng cái tên "đảo" vẫn gắn liền với khu vui chơi ven biển nổi tiếng nhất Incheon, chỉ 1 tiếng metro từ Seoul.
 

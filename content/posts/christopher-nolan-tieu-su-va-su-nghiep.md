@@ -14,6 +14,34 @@ date_display = "15-07-2026 13:00:00 GMT +7"
 ref = "/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha"
 title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
 
+[[internal_links]]
+ref = "posts/the-odyssey-2026-review.md"
+title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
+
+[[internal_links]]
+ref = "posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.md"
+title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
+
+[[internal_links]]
+ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
+title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
+
+[[internal_links]]
+ref = "posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.md"
+title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
+
+[[internal_links]]
+ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
+title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
+
+[[internal_links]]
+ref = "posts/flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do.md"
+title = "Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày?"
+
+[[internal_links]]
+ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
+title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
+
 [[external_links]]
 url = "https://www.imdb.com/name/nm0634240/"
 title = "Christopher Nolan – IMDb"
@@ -61,34 +89,6 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T17:50:11+07:00"
 image_query = "christopher nolan thước phim indie"
 image_alt = "Ảnh minh họa Christopher Nolan: Từ những thước phim indie đến giấc mơ sử thi Odyssey — nguồn Pixabay"
-[[internal_links]]
-ref = "posts/the-odyssey-2026-review.md"
-title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
-
-[[internal_links]]
-ref = "posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.md"
-title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
-
-[[internal_links]]
-ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
-title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
-
-[[internal_links]]
-ref = "posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.md"
-title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
-
-[[internal_links]]
-ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
-title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
-
-[[internal_links]]
-ref = "posts/flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do.md"
-title = "Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày?"
-
-[[internal_links]]
-ref = "posts/ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te.md"
-title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế"
-
 +++
 
 Tôi còn nhớ lần đầu tiên bước ra khỏi rạp sau khi xem Inception. Không phải cảm giác choáng ngợp vì những pha hành động đỉnh cao, mà là cái cảm giác đầu óc quay cuồng, tự hỏi: "Cái kết đó là thật hay mơ?" Tôi đã đứng trước rạp thêm mười lăm phút, tranh luận với bạn về cái top đang quay — và nhận ra mình vừa xem một thứ hoàn toàn khác so với mọi bộ phim Hollywood trước đó.

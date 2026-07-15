@@ -66,6 +66,7 @@ title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi.md"
 title = "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?"
+
 [[internal_links]]
 ref = "posts/iphone-16-pro-max-desert-titanium-hop-ai.md"
 title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
@@ -77,7 +78,6 @@ title = "Trên tay iPhone 16 Pro Max màn hình 6.9 inch"
 [[internal_links]]
 ref = "posts/iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao.md"
 title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
-
 +++
 So camera **16 Pro Max vs 15 Pro Max**, nhiều người kỳ vọng **bước nhảy như 3x sang 5x** năm 2023. Thực tế 2026: **ống kính gần nhau**, khác biệt nằm ở **chip xử lý**, **Camera Control** và **tính năng phần mềm** gắn A18 Pro.
 

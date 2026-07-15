@@ -57,6 +57,7 @@ answer = "Vì Agoda có gốc rễ là công ty được xây dựng tại châu
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài tổng hợp độc lập từ nguồn công khai (Agoda, Booking Holdings, Trustpilot, báo chí); số liệu, chính sách và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trong app trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com (một nền tảng khác) để so sánh giá, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
 title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
@@ -88,7 +89,6 @@ title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi
 [[internal_links]]
 ref = "posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.md"
 title = "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?"
-
 +++
 **Agoda thành lập năm nào, bởi ai?** Theo các nguồn công khai (trang "Our Tropical Beginnings" của chính Agoda và Wikipedia), Agoda ra đời khoảng năm 2005 tại Phuket, Thái Lan, từ ý tưởng của hai người bạn học người Mỹ là Michael Kenny và Robert Rosenstein, trước khi chuyển trụ sở về Singapore. Chỉ hai năm sau, năm 2007, công ty được Priceline.com (tiền thân của Booking Holdings ngày nay) mua lại và trở thành một trong những thương hiệu đặt phòng khách sạn mạnh nhất châu Á. Tìm hiểu lịch sử Agoda không chỉ là chuyện quá khứ thú vị — nó còn giúp bạn hiểu vì sao nền tảng này lại am hiểu thị trường châu Á đến vậy, và vì sao giá phòng trên Agoda thường rất cạnh tranh so với các kênh đặt phòng trực tiếp.
 

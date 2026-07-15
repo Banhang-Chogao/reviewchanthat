@@ -57,6 +57,7 @@ answer = "Nếu có thẻ tín dụng quốc tế, đây vẫn là lựa chọn 
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài tổng hợp độc lập từ nguồn công khai (Agoda, Booking Holdings, Trustpilot, báo chí); số liệu, chính sách và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trong app trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com (một nền tảng khác) để so sánh giá, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
 title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
@@ -88,7 +89,6 @@ title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
 [[internal_links]]
 ref = "posts/ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat.md"
 title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất"
-
 +++
 Đặt phòng khách sạn qua Agoda nghe có vẻ đơn giản, nhưng không ít người vẫn bị tính phí hủy oan, thanh toán nhầm loại thẻ, hoặc chọn nhầm phòng "giá rẻ không hoàn hủy" rồi phải bỏ cọc. Nếu bạn đang tìm **cách đặt phòng Agoda** đúng chuẩn — từ lúc mở app cho đến khi nhận email xác nhận — bài **hướng dẫn đặt phòng Agoda** dưới đây sẽ đi từng bước: tạo tài khoản, lọc khách sạn, đọc review thật, chọn chính sách hoàn hủy, thanh toán bằng thẻ nào cho người Việt, và cách xử lý khi cần đổi/hủy. Lưu ý là giao diện Agoda cùng các chương trình khuyến mãi có thể thay đổi theo thời điểm, nên các mốc thời gian, tỷ lệ hoàn tiền hay tên nút bấm trong bài chỉ mang tính tham khảo — hãy đối chiếu lại thông tin hiển thị thực tế trên tài khoản của bạn trước khi bấm xác nhận.
 

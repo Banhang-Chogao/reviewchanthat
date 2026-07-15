@@ -63,6 +63,7 @@ title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và c
 [[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
 [[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
@@ -86,7 +87,6 @@ title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, mass
 [[internal_links]]
 ref = "posts/doi-baht-o-viet-nam-hay-thai-lan.md"
 title = "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc"
-
 +++
 ## Krabi mùa mưa — còn gì để chơi?
 

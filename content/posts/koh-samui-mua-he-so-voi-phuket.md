@@ -65,6 +65,7 @@ title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không kh
 [[internal_links]]
 ref = "posts/krabi-mua-mua-ao-nang-railay-tour-dao.md"
 title = "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?"
+
 [[internal_links]]
 ref = "posts/ubon-ratchathani-candle-festival-thai-lan-thang-7.md"
 title = "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?"
@@ -84,7 +85,6 @@ title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Gra
 [[internal_links]]
 ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
 title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
-
 +++
 ## Koh Samui vs Phuket — đâu là lựa chọn đúng cho tháng 7–8?
 

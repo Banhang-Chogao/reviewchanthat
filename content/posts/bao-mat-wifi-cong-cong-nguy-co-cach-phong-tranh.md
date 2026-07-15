@@ -45,6 +45,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
@@ -76,7 +77,6 @@ title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan tr
 [[internal_links]]
 ref = "posts/review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026.md"
 title = "Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn"
-
 +++
 
 Tuần trước tôi ngồi ở một quán cà phê trên đường Nguyễn Huệ, quận 1. Đang nhâm nhi ly americano thì thấy anh bàn bên cạnh mở laptop ra, quét mã WiFi ở quán, kết nối, rồi mở thẳng Internet Banking — tất cả diễn ra trong chưa đầy ba phút. Anh ấy gõ mật khẩu, kiểm tra số dư, chuyển tiền, rồi tắt máy, tất cả qua một mạng WiFi công cộng hoàn toàn không có bất kỳ lớp bảo vệ nào.

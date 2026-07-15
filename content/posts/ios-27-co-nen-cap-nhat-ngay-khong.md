@@ -68,6 +68,7 @@ title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
 ref = "posts/ios-27-beta-co-nen-cai-khong.md"
 title = "iOS 27 beta có nên cài không? rủi ro, cách backup và quay về bản ổn định"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+
 [[internal_links]]
 ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
 title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
@@ -79,7 +80,6 @@ title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm
 [[internal_links]]
 ref = "posts/macos-27-hieu-nang-pin-macbook.md"
 title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
-
 +++
 Ngày Apple phát hành iOS mới, nút **Software Update** luôn đỏ lửa. Nhưng “có ngay trên máy” không đồng nghĩa “nên cài ngay”. **iOS 27** mang Siri AI, parental controls mới và thay đổi shell — đủ lý do lên, nhưng cũng đủ rủi ro nếu bạn làm việc trên một chiếc iPhone duy nhất.
 

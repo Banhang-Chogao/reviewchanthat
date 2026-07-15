@@ -33,6 +33,7 @@ draft = false
 [ai_summary]
 items = ["Renaissance Technologies: Quỹ quantitative do Jim Simons lập (nhà toán học)", "Medallion Fund: lợi suất ~30%/năm trước phí (40%/năm sau phí, nhưng vẫn đạt 11% net)", "Jim Simons: Fields Medalist, thuyết phục tài năng toán học phục vụ trading", "Pattern Recognition: Tìm correlation + causation trong 50 năm dữ liệu", "Statistical Arbitrage: Mua undervalue + bán overvalue (long-short strategy)", "Bayesian Networks: Graphical models để infer mối quan hệ biến", "Portfolio Rebalancing: Adjustment hàng ngày/tuần dựa on pattern signals"]
 draft = false
+
 [[internal_links]]
 ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
@@ -64,7 +65,6 @@ title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 [[internal_links]]
 ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
-
 +++
 **Renaissance Technologies** — quỹ quantitative **nổi tiếng nhất thế giới**, do **Jim Simons** (nhà toán học) sáng lập.
 

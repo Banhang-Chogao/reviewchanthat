@@ -82,6 +82,7 @@ title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seo
 [[internal_links]]
 ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
 title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
 [[internal_links]]
 ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
 title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
@@ -105,7 +106,6 @@ title = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua v�
 [[internal_links]]
 ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
 title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
-
 +++
 Có một cách khám phá Seoul mà mình thấy cực kỳ thú vị nhưng không bị "touristic" — đó là đi theo dấu các bộ phim Hàn Quốc. Hoạt động này xếp hạng 9 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình thì nó xứng đáng cao hơn nếu bạn là fan K-drama.
 

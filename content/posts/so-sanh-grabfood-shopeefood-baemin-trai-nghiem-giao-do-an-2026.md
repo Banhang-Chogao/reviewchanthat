@@ -25,36 +25,46 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [[external_links]]
 url = "https://www.grab.com/vn/food/"
 title = "GrabFood Việt Nam"
+
 [[external_links]]
 url = "https://shopeefood.vn/"
 title = "ShopeeFood Việt Nam"
+
 [[external_links]]
 url = "https://baemin.vn/"
 title = "Baemin Việt Nam"
+
 [[faq]]
 question = "App giao đồ ăn nào rẻ nhất Việt Nam 2026?"
 answer = "Không có app nào rẻ tuyệt đối. GrabFood có ưu đãi cho thành viên GrabUnlimited, ShopeeFood mạnh về mã freeship cho đơn từ 50K, Baemin có phí ship nền tảng thấp nhất nhưng ít giảm giá. Tuỳ vào đơn hàng cụ thể và mã giảm giá đang có để quyết định."
+
 [[faq]]
 question = "ShopeeFood và GrabFood cái nào nhanh hơn?"
 answer = "GrabFood thường giao nhanh hơn nhờ mạng lưới tài xế dày đặc ở mọi khung giờ, đặc biệt khu vực trung tâm. ShopeeFood và Baemin nhanh tương đương nhau ở nội thành nhưng chậm hơn vào giờ cao điểm vì ít tài xế hơn."
+
 [[faq]]
 question = "Có nên mua GrabUnlimited để được freeship GrabFood không?"
 answer = "Nếu bạn đặt GrabFood ít nhất 4-6 lần/tháng thì GrabUnlimited (khoảng 59K/tháng) đáng tiền vì mỗi đơn được freeship và giảm thêm phí dịch vụ. Nếu đặt ít hơn, dùng ShopeeFood với mã miễn phí ship từng đơn sẽ kinh tế hơn."
+
 [[faq]]
 question = "Baemin có gì khác so với GrabFood và ShopeeFood?"
 answer = "Baemin có thiết kế app tối giản, tập trung vào ảnh món ăn đẹp và review chi tiết. Điểm mạnh là giao diện dễ dùng và phí dịch vụ thấp. Điểm yếu là ưu đãi ít hơn và mạng lưới tài xế mỏng hơn ở khu vực ngoại thành."
+
 [[faq]]
 question = "Chất lượng món ăn giữa các app có khác nhau không?"
 answer = "Về cơ bản là giống nhau vì cùng lấy từ cùng một quán. Tuy nhiên thời gian giao và cách bảo quản của tài xế ảnh hưởng đến chất lượng khi nhận. GrabFood có túi giữ nhiệt tốt hơn, còn Baemin và ShopeeFood phụ thuộc nhiều vào tài xế."
+
 [attribution]
 copyright = "© 2026 Review Chân Thật. Nội dung được kiểm chứng từ trải nghiệm thực tế, vui lòng ghi nguồn khi chia sẻ."
 source_note = "Bài viết dựa trên trải nghiệm cá nhân tại TP. Hồ Chí Minh và Hà Nội trong giai đoạn 2024-2026. Giá cả và khuyến mãi có thể thay đổi theo thời điểm."
 image_attribution_checked_at = "2026-07-15T03:19:25+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa GrabFood vs ShopeeFood vs Baemin: So Sánh Trải Nghiệm Giao Đồ Ăn Tại Việt Nam 2026 — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"

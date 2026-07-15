@@ -63,25 +63,6 @@ title = "Checklist vali"
 ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
 title = "Đi chơi gần Seoul"
 
-[[tom_tat_nhanh]]
-label = "Vị trí"
-value = "Yongin, 40 phút từ Seoul"
-
-[[tom_tat_nhanh]]
-label = "Giá vé"
-value = "50.000–60.000 KRW"
-
-[[tom_tat_nhanh]]
-label = "Giờ mở"
-value = "10:00–18:00 (mùa hè)"
-
-[[tom_tat_nhanh]]
-label = "Phù hợp"
-value = "Mọi lứa tuổi"
-
-[[tom_tat_nhanh]]
-label = "Lưu ý"
-value = "Đi ngày thường, mua vé online"
 [[internal_links]]
 ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
 title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
@@ -102,6 +83,25 @@ title = "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch t
 ref = "posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau.md"
 title = "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu"
 
+[[tom_tat_nhanh]]
+label = "Vị trí"
+value = "Yongin, 40 phút từ Seoul"
+
+[[tom_tat_nhanh]]
+label = "Giá vé"
+value = "50.000–60.000 KRW"
+
+[[tom_tat_nhanh]]
+label = "Giờ mở"
+value = "10:00–18:00 (mùa hè)"
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+value = "Mọi lứa tuổi"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý"
+value = "Đi ngày thường, mua vé online"
 +++
 Caribbean Bay thuộc Everland Resort, Yongin — là công viên nước lớn nhất Hàn Quốc với khu trong nhà và ngoài trời. Cách Seoul 40 phút, đây là điểm đến lý tưởng cho ngày hè nóng bức.
 

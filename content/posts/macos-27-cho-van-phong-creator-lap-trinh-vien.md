@@ -75,10 +75,10 @@ title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI 
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
 [[internal_links]]
 ref = "posts/macos-27-so-voi-macos-26.md"
 title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
-
 +++
 Cùng một bản macOS 27, **kế toán**, **YouTuber** và **backend dev** sẽ thấy giá trị ở chỗ khác nhau. Bài này map tính năng Golden Gate 27 theo **workflow thật** — không liệt kê slide keynote.
 

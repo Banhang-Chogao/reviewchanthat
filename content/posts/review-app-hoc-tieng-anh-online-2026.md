@@ -25,6 +25,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
@@ -56,7 +57,6 @@ title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho ng
 [[internal_links]]
 ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
 title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
 +++
 ## Mở đầu: Tôi đã thử 5 app học tiếng Anh trong 1 năm
 

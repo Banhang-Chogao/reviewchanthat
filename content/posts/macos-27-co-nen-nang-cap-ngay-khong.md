@@ -79,6 +79,7 @@ title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu h
 [[internal_links]]
 ref = "posts/macos-27-apple-intelligence-macbook.md"
 title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
+
 [[internal_links]]
 ref = "posts/macos-27-so-voi-macos-26.md"
 title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
@@ -86,7 +87,6 @@ title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
 [[internal_links]]
 ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
 title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
-
 +++
 “Có nên bấm Update ngay?” — với macOS 27, câu trả lời đúng cho **đa số người Việt** vào tháng 7/2026 là: **chưa, chờ bản chính thức mùa thu** — trừ khi bạn có Mac phụ hoặc là developer cần test sớm.
 

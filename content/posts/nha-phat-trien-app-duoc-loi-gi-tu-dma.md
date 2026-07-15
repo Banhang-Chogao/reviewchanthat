@@ -67,6 +67,7 @@ title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế n
 [[internal_links]]
 ref = "posts/apple-thua-kien-eu-app-store-ios-dma.md"
 title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA"
+
 [[internal_links]]
 ref = "posts/apple-vs-ec-dma-tuong-lai-iphone.md"
 title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
@@ -78,7 +79,6 @@ title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và
 [[internal_links]]
 ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
 title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
 +++
 “Cuối cùng cũng không còn phải trả 30% cho Apple” — câu đó xuất hiện nhiều sau khi European Commission (EC) phạt Apple vì anti-steering và buộc mở thêm đường phân phối. Nhưng hỏi một indie developer ở Amsterdam hay Stockholm, câu trả lời thường phức tạp hơn: **“Được link ra web thanh toán, nhưng CTF ăn mất phần tiết kiệm — và mình vẫn ở App Store vì user không sideload.”**
 

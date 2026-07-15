@@ -57,6 +57,7 @@ answer = "Có thể kể đến tìm kiếm bằng giọng nói, AI agent tự t
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài viết tổng hợp độc lập từ nguồn công khai (Trip.com, Wikipedia, báo chí); số liệu tài chính, thương vụ và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
 title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
@@ -88,7 +89,6 @@ title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, t
 [[internal_links]]
 ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
 title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
-
 +++
 Cách đây vài năm, đặt một chuyến đi vẫn là cả một "dự án": mở hàng chục tab so sánh giá vé, đọc review khách sạn dài dằng dặc, rồi tự ghép lịch trình bằng tay. Giờ thì mọi thứ đang đổi khác nhanh chóng nhờ trí tuệ nhân tạo. Trip.com — một trong những nền tảng du lịch trực tuyến lớn nhất châu Á — đang đẩy mạnh AI vào gần như mọi khâu của trải nghiệm đặt phòng, đặt vé, từ trợ lý trò chuyện TripGenie cho đến các bảng xếp hạng thông minh Trip.Best. Trong bài này, mình sẽ tổng hợp những gì Trip.com đang làm với AI, dựa trên thông tin công bố chính thức và các báo cáo ngành gần đây, đồng thời chia sẻ góc nhìn về xu hướng du lịch thông minh có thể định hình những năm tới.
 

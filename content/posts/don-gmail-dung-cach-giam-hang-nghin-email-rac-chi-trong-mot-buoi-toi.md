@@ -67,6 +67,7 @@ ref = "posts/quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio
 title = "Quản lý file cá nhân khoa học"
 image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
@@ -94,7 +95,6 @@ title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm c
 [[internal_links]]
 ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
 title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
-
 +++
 Bạn mở Gmail, thấy **12.483 email chưa đọc**. Bạn lướt qua, thấy toàn quảng cáo Shopee, thông báo Facebook, newsletter từ trang web bạn đăng ký năm 2018. Bạn đóng lại. Sáng mai lại 12.500.
 

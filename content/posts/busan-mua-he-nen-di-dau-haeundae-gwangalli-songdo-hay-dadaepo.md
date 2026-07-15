@@ -62,22 +62,6 @@ title = "Gwangalli Beach Busan"
 ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
 title = "Haeundae vs Gwangalli"
 
-[[tom_tat_nhanh]]
-label = "Thời gian"
-value = "2–3 ngày"
-
-[[tom_tat_nhanh]]
-label = "Bãi biển"
-value = "4 bãi chính"
-
-[[tom_tat_nhanh]]
-label = "Phù hợp"
-value = "Mọi đối tượng"
-
-[[tom_tat_nhanh]]
-label = "Di chuyển"
-value = "Metro Busan"
-image_attribution_checked_at = "2026-07-14T01:19:09+07:00"
 [[internal_links]]
 ref = "posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua.md"
 title = "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa"
@@ -98,6 +82,22 @@ title = "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nư
 ref = "posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.md"
 title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
 
+[[tom_tat_nhanh]]
+label = "Thời gian"
+value = "2–3 ngày"
+
+[[tom_tat_nhanh]]
+label = "Bãi biển"
+value = "4 bãi chính"
+
+[[tom_tat_nhanh]]
+label = "Phù hợp"
+value = "Mọi đối tượng"
+
+[[tom_tat_nhanh]]
+label = "Di chuyển"
+value = "Metro Busan"
+image_attribution_checked_at = "2026-07-14T01:19:09+07:00"
 +++
 Busan có 4 bãi biển chính, mỗi nơi một phong cách. Bài viết này so sánh chi tiết giúp bạn chọn đúng bãi biển phù hợp với chuyến đi của mình.
 

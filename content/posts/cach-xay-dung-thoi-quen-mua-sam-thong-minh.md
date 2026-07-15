@@ -64,6 +64,7 @@ label = "Hợp với"
 [[tom_tat_nhanh]]
 label = "Điểm chính"
 image_attribution_checked_at = "2026-07-14T01:19:11+07:00"
+
 [[internal_links]]
 ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
 title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
@@ -95,7 +96,6 @@ title = "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ
 [[internal_links]]
 ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
-
 +++
 Mua sắm thông minh không phải là mua rẻ nhất, mà là mua đúng thứ bạn cần với mức giá hợp lý. Nghe đơn giản, nhưng mình mất kha khá thời gian mới áp dụng được. Dưới đây là những thói quen giúp bạn làm được điều đó.
 

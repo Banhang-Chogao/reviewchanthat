@@ -33,6 +33,7 @@ draft = false
 [ai_summary]
 items = ["Risk Management = Định lượng, monitor, minimize rủi ro tài chính", "VaR_α = Tổn thất tối đa ở mức tin cậy α% (đã học ở Bài 6)", "Historical VaR: Từ 250 ngày lịch sử, lấy 1% tồi nhất", "Parametric VaR: VaR = Portfolio × Z × σ (giả định phân phối chuẩn)", "Expected Shortfall: Mất lỗ trung bình vượt quá VaR", "Correlation Breakdown: Khi thị trường crash, correlation → 1 (diversification fail!)", "Stress Testing: Kịch bản cực đoan (2008 crisis, COVID, war, etc)"]
 draft = false
+
 [[internal_links]]
 ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
@@ -64,7 +65,6 @@ title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
 [[internal_links]]
 ref = "posts/goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao.md"
 title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives"
-
 +++
 **Risk Management** — quản lý rủi ro trong tài chính.
 

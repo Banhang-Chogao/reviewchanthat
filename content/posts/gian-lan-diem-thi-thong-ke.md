@@ -56,17 +56,6 @@ title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 ref = "posts/hoc-sinh-finland-truong-hoc-hoc-tap.md"
 title = "Hệ thống giáo dục Phần Lan: Vì sao có những học sinh giỏi nhất thế giới?"
 
-[[faq]]
-question = "Câu 1: Nếu chỉ dựa vào phổ điểm bất thường để kết luận một tỉnh có gian lận thì có thể bị oan cho những vùng đất đột nhiên hiếu học hay không?"
-answer = "Thống kê không bao giờ dùng một chỉ số duy nhất để kết tội. Phổ điểm bất thường chỉ là tín hiệu đầu tiên để kích hoạt quy trình điều tra sâu hơn. Để tránh việc hàm oan cho những trường hợp học tài thi phận hoặc một địa phương có sự bứt phá thực sự về chất lượng dạy học, các nhà khoa học sẽ tiếp tục bóc tách dữ liệu ở tầng sâu hơn: kiểm tra xem điểm số cao đó có đồng thuận với lịch sử học tập (học bạ) của thí sinh đó hay không, hoặc tiến hành chấm thẩm định lại một cách ngẫu nhiên. Dữ liệu của một vùng đất hiếu học thật sự sẽ có tính kế thừa và phân bố đều ở các trường điểm, chứ không tập trung cục bộ vào một nhóm đối tượng có học lực trung bình trước đó."
-
-[[faq]]
-question = "Câu 2: Trong các kỳ thi trắc nghiệm trên máy tính, nếu thí sinh dùng mẹo \"khoanh lụi\" (chọn ngẫu nhiên) mà trúng hết các câu khó thì thống kê có phát hiện ra là gian lận không?"
-answer = "Có. Việc một thí sinh khoanh lụi trúng một vài câu khó là hoàn toàn có thể xảy ra do may mắn. Tuy nhiên, lý thuyết khảo thí có một công cụ gọi là [Mô hình Ứng đáp Câu hỏi (Item Response Theory - IRT)](https://en.wikipedia.org/wiki/Item_response_theory). Mô hình này tính toán được xác suất một người khoanh bừa trúng toàn bộ chuỗi câu khó trong khi câu dễ lại sai. Nếu xác suất này vượt qua giới hạn dung sai tự nhiên (thường là dưới mức 0,001%), bài thi sẽ bị gắn cờ nghi vấn. Khoanh lụi có thể giúp bạn đúng vài câu, nhưng để đạt điểm thủ khoa nhờ khoanh lụi mà không để lại sự mâu thuẫn trong dữ liệu là điều bất khả thi về mặt toán học."
-
-[[faq]]
-question = "Câu 3: Tại sao việc trùng nhau ở các câu trả lời sai lại đáng ngờ hơn việc trùng nhau ở các câu trả lời đúng?"
-answer = "Bởi vì đối với một câu hỏi, đường đi đến chân lý (đáp án đúng) chỉ có một con đường duy nhất, nên việc nhiều người cùng đi trên một con đường là hoàn toàn bình thường. Ngược lại, thế giới của sự sai lầm (đáp án sai) lại rất rộng lớn với nhiều ngã rẽ khác nhau (có đến 3 phương án sai khác nhau). Nếu hai người không hề thảo luận hay chép bài của nhau, việc họ liên tục vấp ngã tại cùng một vị trí và cùng chọn một cách sai lầm giống hệt nhau ở hàng chục câu hỏi là một sự trùng hợp dị thường. Nó chỉ ra rằng có một nguồn lực chung (ví dụ: chép bài nhau hoặc cùng nhận một mã đáp án lỗi) đã điều hướng cho hành vi của cả hai."
 [[internal_links]]
 ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
@@ -87,6 +76,17 @@ title = "Sống thông minh trong thời đại AI: cách AI đang thay đổi c
 ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
 title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
 
+[[faq]]
+question = "Câu 1: Nếu chỉ dựa vào phổ điểm bất thường để kết luận một tỉnh có gian lận thì có thể bị oan cho những vùng đất đột nhiên hiếu học hay không?"
+answer = "Thống kê không bao giờ dùng một chỉ số duy nhất để kết tội. Phổ điểm bất thường chỉ là tín hiệu đầu tiên để kích hoạt quy trình điều tra sâu hơn. Để tránh việc hàm oan cho những trường hợp học tài thi phận hoặc một địa phương có sự bứt phá thực sự về chất lượng dạy học, các nhà khoa học sẽ tiếp tục bóc tách dữ liệu ở tầng sâu hơn: kiểm tra xem điểm số cao đó có đồng thuận với lịch sử học tập (học bạ) của thí sinh đó hay không, hoặc tiến hành chấm thẩm định lại một cách ngẫu nhiên. Dữ liệu của một vùng đất hiếu học thật sự sẽ có tính kế thừa và phân bố đều ở các trường điểm, chứ không tập trung cục bộ vào một nhóm đối tượng có học lực trung bình trước đó."
+
+[[faq]]
+question = "Câu 2: Trong các kỳ thi trắc nghiệm trên máy tính, nếu thí sinh dùng mẹo \"khoanh lụi\" (chọn ngẫu nhiên) mà trúng hết các câu khó thì thống kê có phát hiện ra là gian lận không?"
+answer = "Có. Việc một thí sinh khoanh lụi trúng một vài câu khó là hoàn toàn có thể xảy ra do may mắn. Tuy nhiên, lý thuyết khảo thí có một công cụ gọi là [Mô hình Ứng đáp Câu hỏi (Item Response Theory - IRT)](https://en.wikipedia.org/wiki/Item_response_theory). Mô hình này tính toán được xác suất một người khoanh bừa trúng toàn bộ chuỗi câu khó trong khi câu dễ lại sai. Nếu xác suất này vượt qua giới hạn dung sai tự nhiên (thường là dưới mức 0,001%), bài thi sẽ bị gắn cờ nghi vấn. Khoanh lụi có thể giúp bạn đúng vài câu, nhưng để đạt điểm thủ khoa nhờ khoanh lụi mà không để lại sự mâu thuẫn trong dữ liệu là điều bất khả thi về mặt toán học."
+
+[[faq]]
+question = "Câu 3: Tại sao việc trùng nhau ở các câu trả lời sai lại đáng ngờ hơn việc trùng nhau ở các câu trả lời đúng?"
+answer = "Bởi vì đối với một câu hỏi, đường đi đến chân lý (đáp án đúng) chỉ có một con đường duy nhất, nên việc nhiều người cùng đi trên một con đường là hoàn toàn bình thường. Ngược lại, thế giới của sự sai lầm (đáp án sai) lại rất rộng lớn với nhiều ngã rẽ khác nhau (có đến 3 phương án sai khác nhau). Nếu hai người không hề thảo luận hay chép bài của nhau, việc họ liên tục vấp ngã tại cùng một vị trí và cùng chọn một cách sai lầm giống hệt nhau ở hàng chục câu hỏi là một sự trùng hợp dị thường. Nó chỉ ra rằng có một nguồn lực chung (ví dụ: chép bài nhau hoặc cùng nhận một mã đáp án lỗi) đã điều hướng cho hành vi của cả hai."
 +++
 Mùa hè năm 2018, khi Bộ Giáo dục và Đào tạo [chính thức công bố phổ điểm thi Trung học phổ thông (THPT) Quốc gia](https://vnexpress.net/chin-thang-vach-tran-manh-gian-lan-thi-thpt-quoc-gia-2018-3909088.html), một bầu không khí kỳ lạ bao trùm lên cộng đồng những người nghiên cứu toán học và khoa học dữ liệu tại Việt Nam. Ngay tại nhà, chỉ với những chiếc máy tính cá nhân kết nối internet, một số thầy giáo dạy toán và chuyên gia phân tích số liệu đã nhận ra những điểm bất thường nghiêm trọng.
 

@@ -25,6 +25,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/review-asus-zenbook-duo-2026-laptop-2-man-hinh.md"
 title = "Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần"
@@ -56,7 +57,6 @@ title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm 
 [[internal_links]]
 ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
 title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
 +++
 ## Mở đầu
 

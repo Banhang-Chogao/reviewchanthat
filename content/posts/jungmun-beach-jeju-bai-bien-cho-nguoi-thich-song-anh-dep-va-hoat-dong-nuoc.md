@@ -68,21 +68,6 @@ ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-
 [[internal_links]]
 ref = "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md"
 
-[[tom_tat_nhanh]]
-label = "Khu vực"
-value = "Jungmun, Seogwipo, Jeju"
-
-[[tom_tat_nhanh]]
-label = "Loại trải nghiệm"
-
-[[tom_tat_nhanh]]
-label = "Hợp với"
-
-[[tom_tat_nhanh]]
-label = "Thời gian nên dành"
-
-[[tom_tat_nhanh]]
-label = "Lưu ý mùa hè"
 [[internal_links]]
 ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
 title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
@@ -103,6 +88,21 @@ title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seo
 ref = "posts/ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo.md"
 title = "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo"
 
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Jungmun, Seogwipo, Jeju"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý mùa hè"
 +++
 Jungmun Beach nằm trong khu nghỉ dưỡng Jungmun phía nam Jeju, gần Seogwipo. Đây là một trong những bãi biển có phong cảnh đẹp nhất Jeju với hình dáng mũi tên độc đáo, nước trong vắt và bờ cát mềm.
 

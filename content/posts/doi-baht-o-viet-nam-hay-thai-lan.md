@@ -70,25 +70,6 @@ title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chi
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
 title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
 
-[[faq]]
-question = "Đổi baht ở sân bay Tân Sơn Nhất có ổn không?"
-answer = "Có, các quầy đổi tiền ở sân bay TSN đều là đại lý được cấp phép. Tỷ giá thường kém hơn ngân hàng ngoài khoảng 1–2%, nhưng tiện nếu bạn chưa kịp đổi trước."
-
-[[faq]]
-question = "Có nên đổi VND sang USD rồi sang THB không?"
-answer = "Chỉ nên nếu bạn có sẵn USD từ trước hoặc đi nhiều nước khác ngoài Thái. Nếu chỉ đi Thái, đổi VND → THB trực tiếp ở ngân hàng VN hoặc SuperRich sẽ tối ưu hơn vì không mất phí hai lần."
-
-[[faq]]
-question = "SuperRich có đổi VND không?"
-answer = "Một số chi nhánh SuperRich lớn (Ratchathewi, Phaya Thai) chấp nhận VND nhưng tỷ giá thường không bằng đổi USD → THB. Tốt nhất mang USD hoặc EUR."
-
-[[faq]]
-question = "Có cần mang nhiều tiền mặt không?"
-answer = "Không nên mang quá nhiều. Ở Thái, bạn có thể dùng thẻ tín dụng tại mall, 7-Eleven, khách sạn lớn. Chỉ cần tiền mặt cho ăn uống vỉa hè, chợ, taxi, và vé tham quan."
-
-[[faq]]
-question = "Phí rút ATM 220 THB có giảm nếu rút ít không?"
-answer = "Không. 220 THB là phí cố định mỗi lần, không phụ thuộc số tiền rút. Vì vậy rút một lần 10.000 THB sẽ tiết kiệm hơn rút 5 lần 2.000 THB."
 [[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
@@ -109,6 +90,25 @@ title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, mass
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
 
+[[faq]]
+question = "Đổi baht ở sân bay Tân Sơn Nhất có ổn không?"
+answer = "Có, các quầy đổi tiền ở sân bay TSN đều là đại lý được cấp phép. Tỷ giá thường kém hơn ngân hàng ngoài khoảng 1–2%, nhưng tiện nếu bạn chưa kịp đổi trước."
+
+[[faq]]
+question = "Có nên đổi VND sang USD rồi sang THB không?"
+answer = "Chỉ nên nếu bạn có sẵn USD từ trước hoặc đi nhiều nước khác ngoài Thái. Nếu chỉ đi Thái, đổi VND → THB trực tiếp ở ngân hàng VN hoặc SuperRich sẽ tối ưu hơn vì không mất phí hai lần."
+
+[[faq]]
+question = "SuperRich có đổi VND không?"
+answer = "Một số chi nhánh SuperRich lớn (Ratchathewi, Phaya Thai) chấp nhận VND nhưng tỷ giá thường không bằng đổi USD → THB. Tốt nhất mang USD hoặc EUR."
+
+[[faq]]
+question = "Có cần mang nhiều tiền mặt không?"
+answer = "Không nên mang quá nhiều. Ở Thái, bạn có thể dùng thẻ tín dụng tại mall, 7-Eleven, khách sạn lớn. Chỉ cần tiền mặt cho ăn uống vỉa hè, chợ, taxi, và vé tham quan."
+
+[[faq]]
+question = "Phí rút ATM 220 THB có giảm nếu rút ít không?"
+answer = "Không. 220 THB là phí cố định mỗi lần, không phụ thuộc số tiền rút. Vì vậy rút một lần 10.000 THB sẽ tiết kiệm hơn rút 5 lần 2.000 THB."
 +++
 ## Đổi baht ở Việt Nam hay Thái Lan lợi hơn?
 

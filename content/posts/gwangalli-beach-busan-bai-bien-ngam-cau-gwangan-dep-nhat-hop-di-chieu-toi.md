@@ -86,6 +86,7 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Lưu ý mùa hè"
 value = ""
+
 [[internal_links]]
 ref = "posts/haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong.md"
 title = "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?"
@@ -117,7 +118,6 @@ title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng,
 [[internal_links]]
 ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
 title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
-
 +++
 Nếu Haeundae là bãi biển của ban ngày và năng lượng, thì Gwangalli là bãi biển của chiều tà và ánh sáng. Cầu Gwangan bắc ngang qua biển, được chiếu sáng rực rỡ vào ban đêm — khung cảnh bạn khó tìm thấy ở bãi biển nào khác tại Hàn Quốc.
 

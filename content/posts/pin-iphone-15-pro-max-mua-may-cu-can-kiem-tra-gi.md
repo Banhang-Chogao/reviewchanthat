@@ -74,10 +74,10 @@ title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
 [[internal_links]]
 ref = "posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.md"
 title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
+
 [[internal_links]]
 ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
 title = "iPhone 16 Pro Max năm 2026 nên mua không?"
-
 +++
 Mua iPhone 15 Pro Max cũ mà **không soi pin** giống mua xe không xem odo. Máy đẹp màu [Natural Titanium](/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau/) hay [Blue Titanium](/posts/iphone-15-pro-max-blue-titanium-co-dang-san/) vẫn **chết giữa chiều** nếu pin đã qua nhiều chu kỳ hoặc từng sửa kém. Bài này là **checklist thực dụng** cho thị trường Việt Nam 2026.
 

@@ -72,17 +72,6 @@ title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chi
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
 
-[[faq]]
-question = "Có nên thuê xe máy (scooter) ở Phuket mùa mưa không?"
-answer = "Không khuyến khích. Đường Phuket nhiều đồi và dốc, trơn trượt khi mưa. Nếu bạn không có kinh nghiệm lái xe tay ga ở đường đèo ướt, hãy chọn thuê ô tô có tài xế hoặc dùng Grab."
-
-[[faq]]
-question = "Phuket tháng 7–8 có đông khách không?"
-answer = "Đông hơn bạn nghĩ, nhưng ít hơn mùa khô rất nhiều. Các bãi biển như Patong vẫn có người tắm, không vắng vẻ như \"vắng tanh\" như một số bài viết thường nói."
-
-[[faq]]
-question = "Có cần đặt tour trước không?"
-answer = "Có. Vì số lượng tour chạy giảm và tàu chạy ít hơn, bạn nên đặt trước 1–2 ngày. Nếu mua tour trên đường phố, hỏi kỹ chính sách hoàn tiền nếu thời tiết xấu. ---"
 [[internal_links]]
 ref = "posts/di-thai-lan-thang-7-co-nen-khong.md"
 title = "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý"
@@ -99,6 +88,17 @@ title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Gra
 ref = "posts/bangkok-ngay-mua-nen-di-dau.md"
 title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour"
 
+[[faq]]
+question = "Có nên thuê xe máy (scooter) ở Phuket mùa mưa không?"
+answer = "Không khuyến khích. Đường Phuket nhiều đồi và dốc, trơn trượt khi mưa. Nếu bạn không có kinh nghiệm lái xe tay ga ở đường đèo ướt, hãy chọn thuê ô tô có tài xế hoặc dùng Grab."
+
+[[faq]]
+question = "Phuket tháng 7–8 có đông khách không?"
+answer = "Đông hơn bạn nghĩ, nhưng ít hơn mùa khô rất nhiều. Các bãi biển như Patong vẫn có người tắm, không vắng vẻ như \"vắng tanh\" như một số bài viết thường nói."
+
+[[faq]]
+question = "Có cần đặt tour trước không?"
+answer = "Có. Vì số lượng tour chạy giảm và tàu chạy ít hơn, bạn nên đặt trước 1–2 ngày. Nếu mua tour trên đường phố, hỏi kỹ chính sách hoàn tiền nếu thời tiết xấu. ---"
 +++
 ## Phuket mùa mưa — nên đi hay không?
 

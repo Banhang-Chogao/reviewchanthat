@@ -37,6 +37,7 @@ image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
 image_provider = "pexels"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa VPBank NEO review 2026: app ngân hàng số này hợp với ai? — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien.md"
 title = "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?"
@@ -68,7 +69,6 @@ title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và các
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
-
 +++
 Có hàng chục app ngân hàng ở Việt Nam, và bạn có thể cảm thấy **choáng ngợp khi chọn.**
 

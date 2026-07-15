@@ -33,6 +33,7 @@ draft = false
 [ai_summary]
 items = ["Quỹ đầu tư đo lợi suất bằng expected return E[R] và rủi ro bằng volatility (σ)", "Correlation và covariance giữa cổ phiếu: khi một tăng có nhất thiết cái khác phải tăng không?", "Efficient frontier: tập hợp danh mục có lợi suất cao nhất với rủi ro nhỏ nhất", "Sharpe ratio = (Expected Return - Risk-Free Rate) / Volatility — cách so sánh danh mục công bằng", "CAPM (Capital Asset Pricing Model): E[R] = Rf + β(Rm - Rf) — liên hệ giữa rủi ro và lợi suất kỳ vọng", "Beta (β): rủi ro hệ thống của tài sản, đo độ nhạy với thị trường chung", "Ví dụ: danh mục cổ phiếu-trái phiếu-vàng, cách tính expected return, volatility, Sharpe ratio"]
 draft = false
+
 [[internal_links]]
 ref = "posts/blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc.md"
 title = "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ"
@@ -64,7 +65,6 @@ title = "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-freque
 [[internal_links]]
 ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
-
 +++
 Khi bạn cho 10 triệu vào một quỹ đầu tư, quỹ sẽ dùng **toán học gì** để quyết định mua cổ phiếu, trái phiếu, vàng hay gì?
 

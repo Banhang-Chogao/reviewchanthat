@@ -57,6 +57,7 @@ answer = "Có thể cân nhắc thêm Trip.com, đặc biệt khi cần đặt k
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài tổng hợp độc lập từ nguồn công khai (Agoda, Booking Holdings, Trustpilot, báo chí); số liệu, chính sách và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trong app trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com (một nền tảng khác) để so sánh giá, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
 title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
@@ -88,7 +89,6 @@ title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, 
 [[internal_links]]
 ref = "posts/dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh.md"
 title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
-
 +++
 Nhiều người đứng trước màn hình đặt phòng và tự hỏi: nên đặt Agoda hay Booking? Cả hai đều hiện lên đầu kết quả tìm kiếm, đều có nút "miễn phí hủy phòng" màu xanh quen thuộc, và giá thì lúc bên này rẻ hơn, lúc bên kia lại thấp hơn vài chục nghìn. Sự thật là Agoda và Booking.com khác nhau không nhiều như người ta tưởng ở phần "gốc rễ" — cả hai đều thuộc cùng một tập đoàn mẹ là Booking Holdings, cùng công ty sở hữu luôn Priceline, KAYAK và OpenTable — nhưng lại được vận hành như hai đội ngũ độc lập, với chiến lược giá, kho phòng và trọng tâm thị trường khác nhau khá rõ. Bài này sẽ so sánh cụ thể từng khía cạnh: giá cả, kho phòng, chính sách hoàn hủy, thanh toán, giao diện và hỗ trợ tiếng Việt, để bạn biết nên chọn nền tảng nào cho chuyến đi cụ thể của mình, thay vì phân vân mỗi lần đặt phòng.
 

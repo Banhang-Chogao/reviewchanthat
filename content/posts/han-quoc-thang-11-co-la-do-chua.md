@@ -71,6 +71,7 @@ label = "Seoraksan (peak 2025)"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý"
+
 [[internal_links]]
 ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
 title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
@@ -102,7 +103,6 @@ title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksa
 [[internal_links]]
 ref = "posts/jeju-thang-11-co-dep-khong.md"
 title = "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày"
-
 +++
 "Hàn Quốc tháng 11 còn lá đỏ không?" là câu hỏi quan trọng khi lên kế hoạch đi Hàn cuối mùa thu. Khác với tháng 10 — khi lá mới bắt đầu đổi màu — tháng 11 thường là **tháng peak** ở Seoul và nhiều khu vực đô thị. Nhưng câu trả lời vẫn phụ thuộc **địa điểm**, **tuần trong tháng** và **điều kiện thời tiết từng năm**.
 

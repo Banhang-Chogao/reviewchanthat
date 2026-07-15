@@ -48,6 +48,7 @@ answer = "Doanh nghiệp có thể sử dụng các công cụ tra cứu mã HS 
 [[faq]]
 question = "Câu Hỏi 5: Nếu Phát Hiện Sai Sót Trong Tờ Khai Đã Nộp Thì Phải Làm Gì?"
 answer = "Doanh nghiệp có thể thực hiện khai báo bổ sung trong thời hạn 60 ngày kể từ ngày đăng ký tờ khai mà không bị xử phạt nếu tự giác khai bổ sung và nộp đủ số thuế còn thiếu (nếu có). Sau 60 ngày, việc khai bổ sung vẫn được chấp nhận nhưng doanh nghiệp sẽ bị xử phạt vi phạm hành chính theo quy định."
+
 [[internal_links]]
 ref = "posts/diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026.md"
 title = "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026"
@@ -79,7 +80,6 @@ title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không
 [[internal_links]]
 ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
 title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
 +++
 ## Tổng Quan Về Thủ Tục Hải Quan Số 2026
 

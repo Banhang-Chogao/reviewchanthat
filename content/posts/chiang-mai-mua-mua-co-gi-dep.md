@@ -66,6 +66,7 @@ title = "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chi
 [[internal_links]]
 ref = "posts/checklist-vali-di-thai-mua-mua.md"
 title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm"
+
 [[internal_links]]
 ref = "posts/koh-samui-mua-he-so-voi-phuket.md"
 title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
@@ -89,7 +90,6 @@ title = "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, mass
 [[internal_links]]
 ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
 title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
-
 +++
 ## Chiang Mai mùa mưa — mùa đẹp nhất mà ít người nói đến
 

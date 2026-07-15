@@ -55,6 +55,18 @@ title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village
 ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
 title = "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?"
 
+[[internal_links]]
+ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
+title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+
+[[internal_links]]
+ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
+title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
+
+[[internal_links]]
+ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
+title = "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi"
+
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết tham khảo và tổng hợp từ các nguồn du lịch uy tín."
 source_note = "Bài viết tham khảo từ các nguồn: https://www.trip.com/toplist/tripbest/south-korea-best-activities-10070100042170/?locale=en-XX>, https://vn.trip.com/toplist/tripbest/seoul-best-things-to-do-10070000234091/>, và các nguồn khác."
@@ -124,18 +136,6 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Thời gian đọc"
-[[internal_links]]
-ref = "posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.md"
-title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
-
-[[internal_links]]
-ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
-title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
-
-[[internal_links]]
-ref = "posts/10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di.md"
-title = "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi"
-
 +++
 Hàn Quốc 2026 không chỉ có K-pop và ẩm thực đường phố. Nếu bạn lần đầu đi tự túc, câu hỏi lớn nhất là: chơi gì, bắt đầu từ đâu, cái nào thực sự đáng tiền?
 

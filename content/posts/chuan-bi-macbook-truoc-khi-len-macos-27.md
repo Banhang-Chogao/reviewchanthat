@@ -70,6 +70,7 @@ title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho Mac
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
+
 [[internal_links]]
 ref = "posts/macos-27-so-voi-macos-26.md"
 title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
@@ -81,7 +82,6 @@ title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
 [[internal_links]]
 ref = "posts/macos-27-apple-intelligence-macbook.md"
 title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
-
 +++
 Nâng cấp macOS mà không backup giống **đi du lịch không mang ví** — may mắn thì không sao, xui thì mất vài ngày làm lại máy. Golden Gate 27 còn thêm indexing Spotlight AI và dung lượng beta lớn — chuẩn bị trước sẽ tiết kiệm giờ (và nước mắt).
 

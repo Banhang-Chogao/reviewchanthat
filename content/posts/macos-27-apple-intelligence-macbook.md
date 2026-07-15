@@ -63,6 +63,7 @@ title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho Mac
 [[internal_links]]
 ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
 title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
+
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
@@ -78,7 +79,6 @@ title = "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và 
 [[internal_links]]
 ref = "posts/macos-27-so-voi-macos-26.md"
 title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
-
 +++
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **macOS Golden Gate 27** là lần Apple cố gắng biến AI thành thói quen trên desktop — không chỉ demo keynote. Câu hỏi thực tế: **MacBook của bạn chạy được những gì, và tiếng Việt đến đâu?**
 

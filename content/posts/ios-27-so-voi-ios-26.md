@@ -74,10 +74,10 @@ title = "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giớ
 [[internal_links]]
 ref = "posts/ios-27-quyen-rieng-tu-iphone.md"
 title = "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?"
+
 [[internal_links]]
 ref = "posts/macos-27-apple-intelligence-macbook.md"
 title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
-
 +++
 Đang dùng **iOS 26** ổn định, bạn có **bắt buộc** lên iOS 27 không? Không — nhưng bỏ lỡ có thể đồng nghĩa thiếu **Siri AI**, **Photos Spatial Reframing** và bản vá bảo mật dài hạn. Bài so sánh này trong series [iOS 27 có gì mới](/posts/ios-27-co-gi-moi/) giúp bạn cân bằng **giá trị** và **rủi ro**.
 

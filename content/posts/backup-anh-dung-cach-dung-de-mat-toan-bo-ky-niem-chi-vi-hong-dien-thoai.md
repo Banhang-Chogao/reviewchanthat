@@ -71,6 +71,7 @@ ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.
 title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
 image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
 image_query = "backup ảnh đúng cách đừng"
+
 [[internal_links]]
 ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
@@ -94,7 +95,6 @@ title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà kh
 [[internal_links]]
 ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
 title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
-
 +++
 "Anh ơi, em làm rơi điện thoại xuống hồ bơi hôm qua đi Đà Nẵng. Có cách nào lấy lại ảnh không?"
 

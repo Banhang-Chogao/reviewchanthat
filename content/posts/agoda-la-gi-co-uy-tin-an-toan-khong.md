@@ -57,6 +57,7 @@ answer = "Cả hai đều thuộc Booking Holdings và có độ tin cậy tươ
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài tổng hợp độc lập từ nguồn công khai (Agoda, Booking Holdings, Trustpilot, báo chí); số liệu, chính sách và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trong app trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com (một nền tảng khác) để so sánh giá, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
 title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
@@ -88,7 +89,6 @@ title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi
 [[internal_links]]
 ref = "posts/agoda-vs-booking-com-khac-gi-nen-chon-cai-nao.md"
 title = "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?"
-
 +++
 Agoda là một nền tảng đặt phòng trực tuyến (OTA – Online Travel Agency) ra đời năm 2005 tại Singapore, hiện là công ty con của Booking Holdings – tập đoàn sở hữu cả Booking.com, Priceline và Kayak. Về câu hỏi Agoda có uy tín không: nhìn vào quy mô hoạt động và việc thuộc sở hữu của một tập đoàn niêm yết trên sàn Nasdaq, Agoda là nền tảng hợp pháp và được hàng triệu người dùng toàn cầu sử dụng mỗi năm — nhưng "uy tín" không đồng nghĩa với "không có rủi ro", và bài viết này sẽ chỉ rõ cả hai mặt.
 

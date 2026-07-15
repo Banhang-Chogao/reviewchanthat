@@ -37,6 +37,7 @@ answer = "A: Không. Trên thực tế, các nước Scandinavia (Thụy Điển
 [[faq]]
 question = "Q: Tôi có thể yêu cầu công việc 6 giờ ở quốc gia không phải Scandinavia không?"
 answer = "A: Có thể, nhưng tùy thuộc vào nhà tuyển dụng và công ty. Các công ty công nghệ toàn cầu đang bắt đầu thử nghiệm các mô hình này. Tuy nhiên, ở hầu hết các quốc gia, đây vẫn là một ý tưởng bất thường. Cách tốt nhất là tìm kiếm các công ty hoặc ngành có nền văn hóa cân bằng công việc-cuộc sống tốt."
+
 [[internal_links]]
 ref = "posts/the-odyssey-2026-review.md"
 title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
@@ -68,7 +69,6 @@ title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài c
 [[internal_links]]
 ref = "posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.md"
 title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
-
 +++
 ## Cân Bằng Công Việc-Cuộc Sống – Một giá trị Cơ Bản
 

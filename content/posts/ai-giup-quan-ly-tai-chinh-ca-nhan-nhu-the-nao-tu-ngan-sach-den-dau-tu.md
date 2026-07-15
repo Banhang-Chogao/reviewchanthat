@@ -57,6 +57,7 @@ answer = "Không cam kết thu nhập hay điểm thi. Chỉ chia sẻ cách là
 [[internal_links]]
 ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
 title = "Pillar: Sống thông minh trong thời đại AI"
+
 [[internal_links]]
 ref = "posts/ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6.md"
 title = "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6"
@@ -84,7 +85,6 @@ title = "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi v
 [[internal_links]]
 ref = "posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md"
 title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
-
 +++
 Bài 7/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).
 

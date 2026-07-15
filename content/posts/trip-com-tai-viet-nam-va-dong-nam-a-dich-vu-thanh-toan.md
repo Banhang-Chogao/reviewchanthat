@@ -57,6 +57,7 @@ answer = "Nên liên hệ hotline hoặc live chat trong app ngay để được
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài viết tổng hợp độc lập từ nguồn công khai (Trip.com, Wikipedia, báo chí); số liệu tài chính, thương vụ và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
 title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
@@ -88,7 +89,6 @@ title = "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix"
 [[internal_links]]
 ref = "posts/trip-com-vs-booking-agoda-expedia-nen-dat-o-dau.md"
 title = "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?"
-
 +++
 Vài năm trở lại đây, cứ mở group du lịch nào trên Facebook cũng thấy người ta nhắc đến Trip.com — từ chuyện săn vé máy bay giá rẻ, đặt khách sạn ở Đà Lạt, cho tới hỏi nhau "thanh toán bằng thẻ ngân hàng Việt Nam có được không". Không phải ngẫu nhiên mà một nền tảng gốc Trung Quốc (thuộc Trip.com Group, công ty mẹ của Ctrip) lại len lỏi vào thói quen đặt phòng của người Việt nhanh đến vậy. Bài này mình tổng hợp lại những gì mình tìm hiểu được về cách Trip.com phục vụ khách Việt Nam và Đông Nam Á nói chung — từ hỗ trợ ngôn ngữ, giá hiển thị bằng VND, phương thức thanh toán, đến chăm sóc khách hàng và trải nghiệm ứng dụng. Vì chính sách của các nền tảng OTA (online travel agency) hay thay đổi theo thời điểm và theo tài khoản, mình sẽ nói rõ chỗ nào là thông tin chắc chắn, chỗ nào là thứ bạn nên tự kiểm tra lại trước khi đặt.
 

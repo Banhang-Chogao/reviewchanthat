@@ -67,6 +67,7 @@ title = "Camera Control iPhone 16 Pro Max có tiện không?"
 [[internal_links]]
 ref = "posts/tren-tay-iphone-16-pro-max-man-hinh-6-9-inch.md"
 title = "Trên tay iPhone 16 Pro Max màn hình 6.9 inch"
+
 [[internal_links]]
 ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
 title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
@@ -78,7 +79,6 @@ title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md"
 title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
-
 +++
 Không chọn Desert? Ba màu **Natural, White, Black** trên iPhone 16 Pro Max là **tam giác an toàn** — nhưng “an toàn” không có nghĩa **giống nhau**. Mỗi màu **lão hóa khác nhau** trên khung titan, và thị trường máy cũ 2026 **định giá khác nhau**.
 

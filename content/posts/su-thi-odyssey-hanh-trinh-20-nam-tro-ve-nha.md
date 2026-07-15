@@ -1,31 +1,39 @@
 +++
 title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
 slug = "su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha"
-date = 2026-07-15T13:00:00+07:00
+date = "2026-07-15T13:00:00+07:00"
 description = "Câu chuyện Odysseus mất 20 năm để trở về Ithaca sau chiến tranh thành Troy: Cyclops, Circe, Calypso và mưu kế con ngựa gỗ huyền thoại"
 image = "images/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.webp"
 thumbnail = "images/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.webp"
 categories = ["review"]
 tags = ["su-thi-hy-lap", "odyssey", "odysseus", "homer", "van-hoc-co-dien", "phim-co-trang", "review-phim"]
 commit = "26bf2d62"
+date_display = "15-07-2026 13:00:00 GMT +7"
+
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Odyssey"
 title = "Odyssey – Wikipedia"
+
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Odyssey_(1997_film)"
 title = "The Odyssey (1997 film) – Wikipedia"
+
 [[faq]]
 question = "Sử thi Odyssey kể về ai?"
 answer = "Odyssey kể về hành trình 20 năm trở về quê hương Ithaca của người anh hùng Odysseus sau khi chiến thắng thành Troy."
+
 [[faq]]
 question = "Ai là tác giả của sử thi Odyssey?"
 answer = "Odyssey được cho là do nhà thơ mù Homer sáng tác vào khoảng thế kỷ 8 trước Công nguyên, cùng với Iliad."
+
 [[faq]]
 question = "Bộ phim Odyssey 1997 có đáng xem không?"
 answer = "Odyssey 1997 của đạo diễn Andrei Konchalovsky được đánh giá là bản chuyển thể trung thành nhất với nguyên tác, dù hiệu ứng hình ảnh có phần cũ kỹ."
+
 [[faq]]
 question = "Tại sao Odysseus mất 20 năm mới về đến nhà?"
 answer = "Vì chàng đã chọc giận thần biển Poseidon sau khi đắc ý khoe khoang chiến thắng thành Troy, khiến thần nổi giận đày đọa chàng trên biển suốt 10 năm."
+
 [attribution]
 copyright = "Bài viết thuộc về Review Chân Thật"
 source_note = "Nội dung dựa trên sử thi Odyssey của Homer và bộ phim chuyển thể The Odyssey (1997) của đạo diễn Andrei Konchalovsky"
@@ -42,6 +50,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/the-odyssey-2026-review.md"
 title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"

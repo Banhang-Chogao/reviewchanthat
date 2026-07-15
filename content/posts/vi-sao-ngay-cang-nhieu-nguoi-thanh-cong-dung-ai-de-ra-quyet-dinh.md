@@ -57,6 +57,7 @@ answer = "Không cam kết thu nhập hay điểm thi. Chỉ chia sẻ cách là
 [[internal_links]]
 ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay.md"
 title = "Pillar: Sống thông minh trong thời đại AI"
+
 [[internal_links]]
 ref = "posts/20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay.md"
 title = "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày"
@@ -84,7 +85,6 @@ title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar
 [[internal_links]]
 ref = "posts/ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu.md"
 title = "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư"
-
 +++
 Bài 5/10 trong series **Sống thông minh trong thời đại AI**. Đọc pillar trước nếu chưa: [Sống thông minh trong thời đại AI](/posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay/).
 

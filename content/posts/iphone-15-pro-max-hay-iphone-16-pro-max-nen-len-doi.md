@@ -75,10 +75,10 @@ title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
 ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
 title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
 image_attribution_error = "Provider/source page did not expose verified creator metadata"
+
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao.md"
 title = "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?"
-
 +++
 Đây là câu hỏi **cuối series** iPhone 15 Pro Max: đã có (hoặc sắp mua) 15 Pro Max, **có đáng bỏ thêm tiền lên 16 Pro Max** không? Không có đáp án chung — chỉ có **đáp án đúng với ngân sách và tay bạn**.
 

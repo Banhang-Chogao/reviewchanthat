@@ -79,25 +79,6 @@ title = "Nami Island mùa hè: day trip gần Seoul"
 ref = "posts/wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh.md"
 title = "Wolmido Incheon: biển, boardwalk cho gia đình"
 
-[[tom_tat_nhanh]]
-label = "Khu vực"
-value = "Yongin, Gyeonggi-do (50 km từ Seoul)"
-
-[[tom_tat_nhanh]]
-label = "Loại trải nghiệm"
-value = "Công viên nước, spa, giải trí"
-
-[[tom_tat_nhanh]]
-label = "Hợp với"
-value = "Gia đình có trẻ em, nhóm bạn, cặp đôi"
-
-[[tom_tat_nhanh]]
-label = "Thời gian nên dành"
-value = "Cả ngày (6–8 giờ)"
-
-[[tom_tat_nhanh]]
-label = "Lưu ý mùa hè"
-value = "Rất đông tháng 7–8, nên mua vé online trước"
 [[internal_links]]
 ref = "posts/di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao.md"
 title = "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?"
@@ -118,6 +99,25 @@ title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYA
 ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
 title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
 
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Yongin, Gyeonggi-do (50 km từ Seoul)"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+value = "Công viên nước, spa, giải trí"
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+value = "Gia đình có trẻ em, nhóm bạn, cặp đôi"
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+value = "Cả ngày (6–8 giờ)"
+
+[[tom_tat_nhanh]]
+label = "Lưu ý mùa hè"
+value = "Rất đông tháng 7–8, nên mua vé online trước"
 +++
 Caribbean Bay là công viên nước lớn nhất Hàn Quốc, thuộc Everland Resort ở Yongin. Nó có cả khu trong nhà lẫn ngoài trời, mở cửa quanh năm — nhưng mùa hè mới là lúc "lên đời" thực sự.
 

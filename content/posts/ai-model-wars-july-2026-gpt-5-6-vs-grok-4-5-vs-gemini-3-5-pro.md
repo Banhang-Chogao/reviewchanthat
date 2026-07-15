@@ -29,6 +29,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-14T01:03:36+07:00"
 image_query = "ai model wars july 2026"
 image_alt = "Ảnh minh họa AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins? — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/trending-topic-20260715.md"
 title = "GPT-5.6 vs Grok 4.5 vs Muse Spark 1.1: Real-World AI Model Review 2026"
@@ -60,7 +61,6 @@ title = "App Store gatekeeper: Apple sợ mất điều gì?"
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
-
 +++
 ## The Week AI Went to War
 

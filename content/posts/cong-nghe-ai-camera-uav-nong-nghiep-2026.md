@@ -28,6 +28,7 @@ image_alt = "Ảnh minh họa Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụ
 date_display = "11-07-2026 12:15:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/co-nen-cho-iphone-18-khong.md"
 title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
@@ -59,7 +60,6 @@ title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước 
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
 title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
-
 +++
 Tháng 7/2026 đánh dấu một bước ngoặt rõ rệt: trí tuệ nhân tạo không còn là khái niệm thử nghiệm — nó đã len lỏi vào từng thiết bị điện tử tiêu dùng. Từ ứng dụng giả lập giao dịch tài sản số, hệ thống camera an ninh tích hợp AI, cho đến máy bay không người lái (UAV) phục vụ nông nghiệp — công nghệ đang định hình lại cách chúng ta làm việc, bảo vệ tài sản, và tối ưu sản xuất.
 

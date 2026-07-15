@@ -25,36 +25,46 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+
 [[external_links]]
 url = "https://shopee.vn"
 title = "Shopee Việt Nam"
+
 [[external_links]]
 url = "https://lazada.vn"
 title = "Lazada Việt Nam"
+
 [[external_links]]
 url = "https://tiki.vn"
 title = "Tiki Việt Nam"
+
 [[faq]]
 question = "Shopee hay Lazada rẻ hơn?"
 answer = "Shopee thường rẻ hơn nhờ kho voucher freeship dồi dào và giá gốc từ seller Trung Quốc. Tiki đắt hơn 10-20% cho cùng mặt hàng nhưng cam kết hàng thật 100%. Lazada nằm giữa hai app này."
+
 [[faq]]
 question = "Tiki có đáng tin hơn Shopee không?"
 answer = "Về hàng giả: Tiki kiểm soát tốt hơn nhờ mô hình TikiNOW và Tiki Trading (bán hàng first-party). Shopee có nhiều seller lẻ, tỷ lệ hàng giả cao hơn, nhưng nếu mua từ Mall thì an tâm. Về giao hàng, Tiki nhanh hơn đặc biệt ở HCM và HN."
+
 [[faq]]
 question = "Lazada còn dùng được không năm 2026?"
 answer = "Vẫn dùng được nhưng thị phần đang giảm dần. Điểm mạnh là hàng điện tử chính hãng từ các brand lớn và các đợt sale 9.9, 11.11. Điểm yếu là app hơi nặng và ít seller Việt hơn Shopee."
+
 [[faq]]
 question = "Nên mua điện thoại, laptop trên app nào?"
 answer = "Điện thoại, laptop nên mua trên Tiki (hàng chuẩn, giao nhanh, đổi trả dễ) hoặc Lazada (nhiều lựa chọn chính hãng). Shopee có giá rẻ hơn nhưng rủi ro hàng dựng, hàng like-new cao hơn."
+
 [[faq]]
 question = "Shopee có bán hàng giả không?"
 answer = "Có, đặc biệt là từ các shop không phải Mall. Shopee đã cố gắng kiểm soát bằng chương trình Shopee Mall và Shopee Guarantee, nhưng hàng giả, hàng nhái vẫn tràn lan ở các shop thường. Người mua cần kiểm tra kỹ."
+
 [attribution]
 copyright = "© 2026 Review Chân Thật. Dựa trên trải nghiệm thực tế hơn 300 đơn hàng trên cả ba sàn trong giai đoạn 2024-2026."
 source_note = "Giá cả và chính sách có thể thay đổi theo từng thời điểm. Bài viết mang tính trải nghiệm cá nhân, không phải tư vấn mua sắm."
 image_attribution_checked_at = "2026-07-15T03:53:33+07:00"
 image_query = "shopee vs lazada vs tiki"
 image_alt = "Ảnh minh họa Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn — nguồn Pixabay"
+
 [[internal_links]]
 ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
 title = "Checklist trước khi mua một sản phẩm online"

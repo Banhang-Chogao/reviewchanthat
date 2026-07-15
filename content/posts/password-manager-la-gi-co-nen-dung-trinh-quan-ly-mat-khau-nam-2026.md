@@ -67,6 +67,7 @@ ref = "posts/cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-v
 title = "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn"
 image_attribution_checked_at = "2026-07-12T08:48:58+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
@@ -94,7 +95,6 @@ title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà kh
 [[internal_links]]
 ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
 title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
-
 +++
 Bạn có bao nhiêu mật khẩu trong đầu? **15? 20? Hay như đa số — chỉ 3-4 mật khẩu dùng lại cho toàn bộ tài khoản?**
 

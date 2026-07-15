@@ -70,6 +70,7 @@ label = "Đi mùa nào hợp"
 
 [[tom_tat_nhanh]]
 label = "Có cần đặt trước không"
+
 [[internal_links]]
 ref = "posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.md"
 title = "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju"
@@ -101,7 +102,6 @@ title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
 [[internal_links]]
 ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
 title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
-
 +++
 Vivaldi Park là cái tên được khách Việt nhắc đến nhiều nhất khi hỏi về trượt tuyết gần Seoul. Mình cũng không ngạc nhiên — resort này thuộc Daemyung Resort, một khu nghỉ dưỡng lớn ở Hongcheon, có shuttle bus từ Seoul, giờ hoạt động từ sáng tới tận 1h đêm.
 

@@ -79,6 +79,7 @@ ref = "posts/momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026.md"
 title = "So sánh ví điện tử Việt Nam"
 image_attribution_checked_at = "2026-07-12T08:49:01+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai.md"
 title = "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI"
@@ -98,7 +99,6 @@ title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trì
 [[internal_links]]
 ref = "posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.md"
 title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
-
 +++
 Hai giờ mỗi ngày nghe nhiều — nhưng **không phải phép màu**. Bài này liệt kê **20 công cụ AI** theo nhóm việc, kèm điều kiện dùng, mức free/pro (khái quát), và cách **không** biến danh sách thành 20 subscription.
 

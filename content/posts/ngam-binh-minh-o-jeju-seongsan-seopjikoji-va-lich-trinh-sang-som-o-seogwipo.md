@@ -90,6 +90,7 @@ title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seo
 [[internal_links]]
 ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
 title = "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển"
+
 [[internal_links]]
 ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
 title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
@@ -109,7 +110,6 @@ title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng,
 [[internal_links]]
 ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
 title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
-
 +++
 Ngắm bình minh trên miệng núi lửa là trải nghiệm theo mình không thể bỏ qua khi đến Jeju. Hoạt động này được xếp hạng 5 trong [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và Seongsan Ilchulbong là điểm đến số một cho việc này.
 

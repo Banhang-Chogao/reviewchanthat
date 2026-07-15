@@ -42,6 +42,26 @@ title = "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nề
 ref = "posts/ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026.md"
 title = "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026"
 
+[[internal_links]]
+ref = "posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.md"
+title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
+
+[[internal_links]]
+ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
+title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
+
+[[internal_links]]
+ref = "posts/iphone-18-gia-bao-nhieu.md"
+title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+
+[[internal_links]]
+ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
+title = "App Store gatekeeper: Apple sợ mất điều gì?"
+
+[[internal_links]]
+ref = "posts/iphone-18-co-gi-moi.md"
+title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
+
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Bram_Moolenaar"
 title = "Bram Moolenaar — Wikipedia"
@@ -85,26 +105,6 @@ answer = "Lớn nhất là Vim — công cụ hàng triệu lập trình viên v
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Thông tin tiểu sử tham khảo từ bài Bram Moolenaar trên Wikipedia, trang chủ vim.org và trang ICCF Holland; nội dung được viết lại và diễn giải bằng góc nhìn riêng, không sao chép câu chữ. Bài viết chủ ý không suy diễn các chi tiết đời tư/gia đình không được công bố công khai, nhằm tôn trọng sự riêng tư. Ảnh minh họa lấy từ Pexels/Pixabay."
-[[internal_links]]
-ref = "posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.md"
-title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
-
-[[internal_links]]
-ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
-title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
-
-[[internal_links]]
-ref = "posts/iphone-18-gia-bao-nhieu.md"
-title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
-
-[[internal_links]]
-ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
-title = "App Store gatekeeper: Apple sợ mất điều gì?"
-
-[[internal_links]]
-ref = "posts/iphone-18-co-gi-moi.md"
-title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
-
 +++
 Có những con người mà ảnh hưởng của họ lớn hơn rất nhiều so với mức độ nổi tiếng của cái tên. Bram Moolenaar là một người như vậy. Hàng triệu lập trình viên trên thế giới mở Vim mỗi ngày, gõ những phím tắt mà ông thiết kế, nương theo triết lý mà ông vun đắp suốt hơn ba thập kỷ — nhưng không phải ai cũng biết người đứng sau công cụ ấy là ai, đã sống một cuộc đời thế nào, và để lại những gì khi ra đi. Bài viết này là một nén hương chữ nghĩa dành cho ông: một bản tiểu sử ngắn, viết bằng sự trân trọng và cố gắng trung thực với những gì được biết.
 

@@ -28,6 +28,7 @@ image_alt = "Ảnh minh họa Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residen
 date_display = "11-07-2026 14:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
 title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
@@ -59,7 +60,6 @@ title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trườ
 [[internal_links]]
 ref = "posts/thoi-tiet-han-quoc-thang-11.md"
 title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?"
-
 +++
 Bạn có thể thành lập một công ty hợp pháp tại Liên minh châu Âu mà không cần đặt chân đến đó, không cần visa, không cần địa chỉ cư trú — chỉ với một chiếc thẻ nhựa nhỏ và một lần đăng ký trực tuyến mất 15 phút. Đó không phải khoa học viễn tưởng, mà là chương trình e-Residency của Estonia, sáng kiến công dân điện tử đầu tiên trên thế giới đã thu hút hơn 120.000 người tham gia tính đến năm 2026.
 

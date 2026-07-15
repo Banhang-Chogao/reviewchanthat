@@ -79,6 +79,7 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = ""
+
 [[internal_links]]
 ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
 title = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?"
@@ -110,7 +111,6 @@ title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gầ
 [[internal_links]]
 ref = "posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.md"
 title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
-
 +++
 Hàn Quốc mùa hè — tháng 7 nóng ẩm, tháng 8 nắng rang — nhưng không phải là không đi được. Nếu chọn đúng điểm, bạn vẫn có một chuyến đi trọn vẹn: tắm biển Busan, lặn ngụp công viên nước, thăm làng cổ giữa rừng xanh, hoặc trốn trong quán cà phê indoor giữa cơn mưa rào.
 

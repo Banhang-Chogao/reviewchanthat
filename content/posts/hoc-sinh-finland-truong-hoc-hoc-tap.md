@@ -45,6 +45,7 @@ answer = "A: Kỳ thi Matrikulaatio được coi là thử thách thực sự, n
 [[faq]]
 question = "Q: Phần Lan có lo về sự hình thành khoảng cách giáo dục giữa các trường giáo dục công cộng không?"
 answer = "A: Có. Phần Lan có khác biệt nhỏ nhưng vẫn tồn tại giữa các trường (khoảng 5-10% khác biệt kết quả PISA). Để giải quyết điều này, họ cách giảm tỷ lệ học sinh trên giáo viên, cung cấp hỗ trợ riêng cho học sinh khó khăn, và cấp kinh phí bằng nhau cho tất cả các trường."
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
@@ -76,7 +77,6 @@ title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho ng
 [[internal_links]]
 ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
 title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
 +++
 ## Một Hệ Thống Giáo Dục Không Giống Bất Cứ Cái Gì Ở Đâu Khác
 

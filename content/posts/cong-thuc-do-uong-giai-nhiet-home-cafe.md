@@ -28,6 +28,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-11T17:30:44+07:00"
 image_query = "xu hướng home-cafe công thức"
 image_alt = "Ảnh minh họa Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026 — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/triet-ly-song-lagom-va-van-hoa-fika.md"
 title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển"
@@ -59,7 +60,6 @@ title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYA
 [[internal_links]]
 ref = "posts/club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong.md"
 title = "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng"
-
 +++
 Báo cáo Google Summergeist 2026 cho thấy lượng tìm kiếm "đồ uống giải nhiệt tại nhà" và "cách làm trà sữa healthy" đã tăng hơn 200% so với cùng kỳ năm ngoái. Xu hướng này không chỉ nằm ở chuyện tiết kiệm — nó nằm ở trải nghiệm. Tự tay làm một ly nước thơm mát, chụp vài tấm ảnh check-in "home-cafe" rồi thả lỏng cuối tuần — đó là thứ hẹn hò hè mới của giới trẻ.
 

@@ -49,6 +49,7 @@ answer = "Yes, but it requires opening the device and removing a heatshield. It 
 [attribution]
 copyright = "2026 Reviewchanthat. All rights reserved."
 source_note = "This review is based on ten days of hands-on testing with a review unit provided by MSI. MSI had no editorial input or advance access to this article."
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
@@ -80,7 +81,6 @@ title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan tr
 [[internal_links]]
 ref = "posts/review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026.md"
 title = "Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn"
-
 +++
 I have been testing handheld gaming PCs since the original Steam Deck landed in 2022. I have owned an Asus ROG Ally, an Ally X, a Legion Go, and I have spent enough hours with the original MSI Claw to know exactly where Intel's first attempt fell short. When MSI announced the Claw 8 EX AI+ with the new Intel Arc G3 Extreme processor—a chip built from the ground up for handhelds—I was skeptical. The original Claw was a disappointment. The Arc G3 Extreme, however, is not a refresh; it is a complete rethinking of what a mobile gaming GPU can do at 30 watts.
 

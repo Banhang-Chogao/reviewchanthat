@@ -41,9 +41,6 @@ title = "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châ
 ref = "posts/lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay.md"
 title = "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD"
 
-[attribution]
-copyright = "Trong khi Skype được coi là một thành công rực rỡ, Kazaa lại là một chương phức tạp hơn. Mặc dù công nghệ P2P ở cốt lõi của Kazaa là trung lập, ứng dụng này nhanh chóng bị sử dụng để chia sẻ nhạc bất hợp pháp. Zennström và Friis tuyên bố rằng họ không có trách nhiệm pháp lý cho những cách sử dụng sai của ứng dụng, nhưng ngành công nghiệp âm nhạc đã không đồng ý."
-source_note = "Năm 2006, Zennström và các đối tác khác phải trả một khoản tiền đền bù lớn cho các công ty đĩa nhạc lớn. Dù không phải là Zennström cá nhân phải chịu chi phí toàn bộ, nhưng điều này chứng minh rằng ngay cả những ý tưởng công nghệ tốt nhất cũng có thể bị \"bẫy\" bởi những vấn đề pháp lý không lường trước."
 [[internal_links]]
 ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
@@ -64,6 +61,9 @@ title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơ
 ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
 title = "App Store gatekeeper: Apple sợ mất điều gì?"
 
+[attribution]
+copyright = "Trong khi Skype được coi là một thành công rực rỡ, Kazaa lại là một chương phức tạp hơn. Mặc dù công nghệ P2P ở cốt lõi của Kazaa là trung lập, ứng dụng này nhanh chóng bị sử dụng để chia sẻ nhạc bất hợp pháp. Zennström và Friis tuyên bố rằng họ không có trách nhiệm pháp lý cho những cách sử dụng sai của ứng dụng, nhưng ngành công nghiệp âm nhạc đã không đồng ý."
+source_note = "Năm 2006, Zennström và các đối tác khác phải trả một khoản tiền đền bù lớn cho các công ty đĩa nhạc lớn. Dù không phải là Zennström cá nhân phải chịu chi phí toàn bộ, nhưng điều này chứng minh rằng ngay cả những ý tưởng công nghệ tốt nhất cũng có thể bị \"bẫy\" bởi những vấn đề pháp lý không lường trước."
 +++
 ## Giới Thiệu Tổng Quan
 

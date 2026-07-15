@@ -57,6 +57,7 @@ answer = "Expedia có thế mạnh về giảm giá bundle, nhưng nếu điểm
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài viết tổng hợp độc lập từ nguồn công khai (Trip.com, Wikipedia, báo chí); số liệu tài chính, thương vụ và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
 title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
@@ -88,7 +89,6 @@ title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, t
 [[internal_links]]
 ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
 title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
-
 +++
 Mỗi lần chuẩn bị đặt vé máy bay hay phòng khách sạn cho chuyến đi sắp tới, chắc hẳn bạn cũng từng mở cùng lúc vài tab: Trip.com, Booking.com, Agoda, Expedia — rồi loay hoay so giá, so ưu đãi, so chính sách hủy phòng mà vẫn không chắc nơi nào đáng tin và tiết kiệm nhất. Cả bốn nền tảng này đều là những "ông lớn" trong ngành OTA (Online Travel Agency) toàn cầu, nhưng mỗi bên lại có thế mạnh riêng theo khu vực, loại hình dịch vụ và tệp khách hàng. Bài viết này sẽ so sánh trung thực bốn nền tảng trên các tiêu chí thực tế nhất: kho khách sạn/vé bay, giá cả, ưu đãi, hỗ trợ tiếng Việt, thanh toán và chính sách hoàn hủy — để bạn có cơ sở chọn nơi đặt phù hợp nhất, đặc biệt khi di chuyển trong khu vực châu Á.
 

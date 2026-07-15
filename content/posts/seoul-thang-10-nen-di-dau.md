@@ -71,6 +71,7 @@ label = "Phù hợp"
 
 [[tom_tat_nhanh]]
 label = "Điểm nhấn"
+
 [[internal_links]]
 ref = "posts/di-han-thang-10-mac-gi.md"
 title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
@@ -102,7 +103,6 @@ title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksa
 [[internal_links]]
 ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
 title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
-
 +++
 Seoul tháng 10 là thời điểm nhiều du khách chọn để kết hợp khám phá thành phố và ngắm mùa thu. Theo [Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), các điểm ngắm lá đỏ phổ biến ở Seoul gồm Gyeongbokgung Palace, Seoul Forest, Olympic Park và Seokchon Lake — cùng Deoksugung Stone Wall Path.
 

@@ -70,6 +70,7 @@ title = "macOS 27 so với macOS 26: khác gì với người dùng Mac?"
 [[internal_links]]
 ref = "posts/macos-27-co-gi-moi.md"
 title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
+
 [[internal_links]]
 ref = "posts/macos-27-apple-intelligence-macbook.md"
 title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
@@ -77,7 +78,6 @@ title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI 
 [[internal_links]]
 ref = "posts/macos-27-beta-co-nen-cai-khong.md"
 title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định"
-
 +++
 MacBook là máy mang đi — nên **pin và hiệu năng** thường quan trọng hơn sidebar đẹp hay AI demo. macOS Golden Gate 27 hứa cả hai: shell nhanh hơn nhưng AI nền có thể “ăn” pin. Bài này tách **số liệu Apple**, **phản hồi beta** và **khuyến nghị thực tế**.
 

@@ -65,6 +65,7 @@ title = "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,
 [[internal_links]]
 ref = "posts/suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab.md"
 title = "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?"
+
 [[internal_links]]
 ref = "posts/chiang-mai-mua-mua-co-gi-dep.md"
 title = "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng"
@@ -88,7 +89,6 @@ title = "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không kh
 [[internal_links]]
 ref = "posts/phuket-mua-mua-co-nen-di-khong.md"
 title = "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn"
-
 +++
 ## Ở khu nào tại Bangkok mùa mưa?
 

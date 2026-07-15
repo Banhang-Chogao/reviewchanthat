@@ -67,6 +67,7 @@ ref = "posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho.md"
 title = "Dọn iPhone như thế nào để máy luôn mượt"
 image_attribution_checked_at = "2026-07-12T08:49:00+07:00"
 image_query = "dọn mac đúng cách tối"
+
 [[internal_links]]
 ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
@@ -94,7 +95,6 @@ title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm c
 [[internal_links]]
 ref = "posts/password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026.md"
 title = "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?"
-
 +++
 Bạn mở "About This Mac" → tab Storage — và con số hiện ra: **23GB còn trống trên 256GB**. Bạn tự hỏi: "Rõ ràng mình không lưu gì nhiều, sao ổ cứng đầy thế?"
 

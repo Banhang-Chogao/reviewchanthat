@@ -33,6 +33,7 @@ draft = false
 [ai_summary]
 items = ["Bài 1 (Pillar Gốc): e^(rt) - compound interest, discount factor e^(-rt)", "Bài 2-3: log-return, portfolio theory, Sharpe ratio, CAPM, beta", "Bài 4-6: Insurance (S(t)=e^(-λt)), CFA, FRM, VaR, CVaR", "Bài 7-9: Investment Banks (Greeks), BlackRock (Aladdin, factors), Renaissance (patterns)", "Bài 10-13: Stock valuation (DCF, P/E), Black-Scholes, Risk Mgmt, Monte Carlo", "Bài 14-15: AI (deep learning, NLP, RL), tổng kết & tương lai", "Chiều sâu: Từ e^(-rt) (đơn giản) đến Transformer (phức tạp)"]
 draft = false
+
 [[internal_links]]
 ref = "posts/ham-so-mu-e-trong-tai-chinh-la-gi.md"
 title = "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản"
@@ -64,7 +65,6 @@ title = "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio"
 [[internal_links]]
 ref = "posts/renaissance-technologies-quantitative-finance-toan-hoc-dau-tu.md"
 title = "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền"
-
 +++
 **Series 15/15 — Tổng kết.**
 

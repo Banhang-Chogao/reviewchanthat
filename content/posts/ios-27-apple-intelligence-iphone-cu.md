@@ -63,6 +63,7 @@ title = "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?"
 [[internal_links]]
 ref = "posts/ios-27-cai-thien-pin-iphone.md"
 title = "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ"
+
 [[internal_links]]
 ref = "posts/macos-27-apple-intelligence-macbook.md"
 title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
@@ -78,7 +79,6 @@ title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu h
 [[internal_links]]
 ref = "posts/macos-27-hieu-nang-pin-macbook.md"
 title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
-
 +++
 Sau một năm Apple Intelligence “có mà chưa thuyết phục”, **iOS 27** là lần Apple cố biến AI thành thói quen trên iPhone — không chỉ demo keynote. Câu hỏi thực tế: **iPhone của bạn chạy được những gì, và tiếng Việt đến đâu?**
 

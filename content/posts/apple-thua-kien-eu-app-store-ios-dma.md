@@ -90,6 +90,7 @@ title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế n
 [[internal_links]]
 ref = "posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.md"
 title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+
 [[internal_links]]
 ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
 title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
@@ -109,7 +110,6 @@ title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commi
 [[internal_links]]
 ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
 title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
 +++
 Ngày **8 tháng 7 năm 2026**, Tòa Tổng của Liên minh châu Âu (General Court) tại Luxembourg đã **bác toàn bộ các đơn kiện** của Apple nhằm chống lại việc European Commission (EC) phân loại công ty này là **gatekeeper** — “người gác cổng” — đối với **App Store** và **hệ điều hành iOS** theo **Digital Markets Act (DMA)**.
 

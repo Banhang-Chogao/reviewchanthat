@@ -61,6 +61,26 @@ title = "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wo
 ref = "posts/elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau.md"
 title = "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu"
 
+[[internal_links]]
+ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
+title = "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang"
+
+[[internal_links]]
+ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
+title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
+
+[[internal_links]]
+ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
+title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
+
+[[internal_links]]
+ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
+title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
+[[internal_links]]
+ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
+title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+
 [[tom_tat_nhanh]]
 label = "Khu vực"
 value = "Daegwallyeong, Pyeongchang (Gangwon-do, 200 km từ Seoul)"
@@ -86,26 +106,6 @@ image_creator_url = "https://www.pexels.com/@kwon-osu-147593907"
 image_attribution_checked_at = "2026-07-12T08:49:10+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt? — nguồn Pexels"
-[[internal_links]]
-ref = "posts/alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang.md"
-title = "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang"
-
-[[internal_links]]
-ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
-title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
-[[internal_links]]
-ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
-title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
-
-[[internal_links]]
-ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
-title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
-
-[[internal_links]]
-ref = "posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.md"
-title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
-
 +++
 Yongpyong là cái tên ai tìm kiếm ski resort Hàn Quốc cũng gặp — resort lớn nhất xứ Hàn với 28 slope, từng là địa điểm Olympic 2018. Nhưng lớn nhất không có nghĩa là phù hợp nhất với tất cả mọi người.
 

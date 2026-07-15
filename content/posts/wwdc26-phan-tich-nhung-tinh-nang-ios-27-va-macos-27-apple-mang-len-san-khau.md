@@ -88,6 +88,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
+
 [[internal_links]]
 ref = "posts/ios-27-apple-intelligence-iphone-cu.md"
 title = "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?"
@@ -119,7 +120,6 @@ title = "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu h
 [[internal_links]]
 ref = "posts/macos-27-hieu-nang-pin-macbook.md"
 title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
-
 +++
 Bạn có nhớ cảm giác mỗi lần WWDC tới gần không? Cộng đồng Apple lại chia làm hai phe: một phe chỉ muốn biết có đáng lên iOS mới không, phe kia soi từng dòng code trong beta developer. **WWDC26** cũng không ngoại lệ — nhưng năm nay áp lực cao hơn nhiều.
 

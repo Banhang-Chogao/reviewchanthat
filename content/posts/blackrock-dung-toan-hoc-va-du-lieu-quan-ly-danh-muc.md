@@ -32,6 +32,7 @@ image_attribution_source = ""
 [ai_summary]
 items = ["BlackRock: Quản lý $10+ triliệu tài sản (lớn nhất thế giới)", "Aladdin: Platform AI/ML xử lý dữ liệu khổng lồ, tối ưu danh mục", "Factor Models: Fama-French 5 factor (market, size, value, profitability, investment)", "α = Return - β₁×Factor₁ - β₂×Factor₂ - ... (phân tích alpha khác volatility)", "Machine Learning: Deep learning dự báo return, risk, flow", "ESG Scoring: Toán học tổng hợp environmental, social, governance scores", "Optimization: Large-scale QP (quadratic programming) với 10k+ assets"]
 image_attribution_checked_at = "2026-07-12T08:48:52+07:00"
+
 [[internal_links]]
 ref = "posts/ai-trong-tai-chinh-dung-toan-hoc-gi.md"
 title = "AI trong tài chính: Deep learning, NLP, và reinforcement learning"
@@ -63,7 +64,6 @@ title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 [[internal_links]]
 ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
-
 +++
 BlackRock quản lý **$10+ triliệu tài sản** — lớn nhất thế giới. Họ dùng **toán học, machine learning, big data** để:
 

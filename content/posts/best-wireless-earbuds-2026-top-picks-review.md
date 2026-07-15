@@ -49,6 +49,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/review-airpods-pro-3-2026.md"
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
@@ -80,7 +81,6 @@ title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho ng
 [[internal_links]]
 ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
 title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
 +++
 
 I spent three weeks living with six pairs of wireless earbuds. Not in a sound booth measuring frequency response curves, but in real life — on trains, in coffee shops, during video calls, at the gym, and lying in bed watching YouTube at 2 AM.

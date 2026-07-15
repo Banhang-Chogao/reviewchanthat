@@ -52,6 +52,7 @@ answer = "Phụ thu Tết hợp lý thường được báo trước, niêm yế
 [[faq]]
 question = "Nên đi du lịch trong nước hay nước ngoài dịp Tết?"
 answer = "Tùy ngân sách và mong muốn. Trong nước tiện di chuyển, gần gũi không khí Tết, dễ về nếu có việc. Nước ngoài có thể tránh cao điểm nội địa nhưng cần lo visa, và một số nơi cũng đón Tết Âm lịch nên vẫn đông. Hãy chọn theo thời gian nghỉ thực tế và khả năng tài chính, đừng chạy theo trào lưu."
+
 [[internal_links]]
 ref = "posts/review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho.md"
 title = "Review chi tiết các dịch vụ đặt vé máy bay, tàu hỏa Tết 2027: Mẹo săn vé sớm không bị \"hớ\""
@@ -83,7 +84,6 @@ title = "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử h
 [[internal_links]]
 ref = "posts/so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man.md"
 title = "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn"
-
 +++
 Mấy năm gần đây, câu "Tết này đi đâu chơi?" dần thay cho "Tết này gói bánh chưng không?". **Ăn Tết xa nhà** — đi du lịch trong những ngày Tết Nguyên Đán — đã thành một xu hướng rõ rệt, nhất là với người trẻ và các gia đình muốn nghỉ ngơi thật sự sau một năm mệt nhoài. Nhưng đây là quyết định có hai mặt. Bài này tôi review sòng phẳng: đi du lịch Tết được gì, mất gì, hợp với ai, và nếu đi thì làm sao để không bị "chặt chém" hay vỡ kế hoạch chi tiêu trong dịp Tết 2027.
 

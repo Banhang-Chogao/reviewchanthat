@@ -49,6 +49,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+
 [[internal_links]]
 ref = "posts/ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro.md"
 title = "AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins?"
@@ -80,7 +81,6 @@ title = "macOS 27 beta có nên cài không? rủi ro, backup và cách quay v�
 [[internal_links]]
 ref = "posts/danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026.md"
 title = "Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026"
-
 +++
 Three days from now, Google will ship what it claims is its most ambitious model ever. Gemini 3.5 Pro is set to launch on July 17, 2026, after one of the most dramatic development cycles in modern AI history — a story that includes a scrapped architecture, hundreds of millions of dollars in sunk costs, and a $225 billion swing in Alphabet's market capitalization.
 

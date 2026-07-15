@@ -71,6 +71,7 @@ title = "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm
 [[internal_links]]
 ref = "posts/macos-27-co-gi-moi.md"
 title = "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac"
+
 [[internal_links]]
 ref = "posts/macos-27-hieu-nang-pin-macbook.md"
 title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
@@ -78,7 +79,6 @@ title = "macOS 27 có cải thiện hiệu năng và pin MacBook không?"
 [[internal_links]]
 ref = "posts/macos-27-cho-van-phong-creator-lap-trinh-vien.md"
 title = "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?"
-
 +++
 “Mac của mình còn lên macOS 27 được không?” — đây là câu hỏi đầu tiên sau WWDC26, đặc biệt với ai vẫn dùng **MacBook Pro Intel**, **iMac 27 inch Intel** hoặc **Mac mini Intel** mua từ 2018–2020. Câu trả lời ngắn theo Apple: **chỉ Mac Apple Silicon trong danh sách chính thức**.
 

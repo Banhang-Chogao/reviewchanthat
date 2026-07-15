@@ -68,6 +68,22 @@ title = "Cách đọc một bài review để không bị dắt mũi"
 ref = "posts/review-may-pha-ca-phe-gia-dinh-2026.md"
 title = "Review máy pha cà phê gia đình 2026"
 
+[[internal_links]]
+ref = "posts/di-han-thang-10-mac-gi.md"
+title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+
+[[internal_links]]
+ref = "posts/di-han-thang-11-mac-gi.md"
+title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
+
+[[internal_links]]
+ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
+title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
+
+[[internal_links]]
+ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
+title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
+
 [[tom_tat_nhanh]]
 label = "Loại sản phẩm"
 value = "Máy lọc không khí phòng (room air purifier) cho chung cư / nhà phố"
@@ -102,22 +118,6 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_query = "air purifier home living room"
 image_alt = "Ảnh minh họa Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc và khi nào thật sự đáng mua — nguồn Pexels"
-[[internal_links]]
-ref = "posts/di-han-thang-10-mac-gi.md"
-title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
-
-[[internal_links]]
-ref = "posts/di-han-thang-11-mac-gi.md"
-title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
-
-[[internal_links]]
-ref = "posts/ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi.md"
-title = "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí"
-
-[[internal_links]]
-ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
-title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
-
 +++
 Mình từng tin rằng cứ dán nhãn *HEPA* là đủ. Mua máy lọc không khí lần đầu, mình chọn model trông hiện đại, có màn hình PM2.5 nhấp nháy xanh–đỏ, giá vừa túi tiền. Ba tuần sau, lọc vẫn “sạch” theo cảm giác, nhưng ban đêm máy kêu như quạt máy tính full tải; sáng ra mắt vẫn khô, bụi vẫn bám bàn làm việc. Lúc đó mới vỡ ra: **máy lọc không khí không phải chiếc quạt xinh có đèn LED**. Nó là thiết bị chạy gần như 24/7, nuốt tiền lọc và điện, và chỉ hiệu quả khi khớp với **diện tích phòng, loại bụi bạn gặp, và thói quen đóng–mở cửa** của nhà bạn.
 

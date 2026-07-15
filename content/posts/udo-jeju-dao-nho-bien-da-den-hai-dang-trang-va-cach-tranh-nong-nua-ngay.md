@@ -80,25 +80,6 @@ ref = "posts/jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-do
 [[internal_links]]
 ref = "posts/shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun.md"
 
-[[tom_tat_nhanh]]
-label = "Khu vực"
-value = "Seongsan-eup, phía đông Jeju"
-
-[[tom_tat_nhanh]]
-label = "Loại trải nghiệm"
-value = ""
-
-[[tom_tat_nhanh]]
-label = "Hợp với"
-value = ""
-
-[[tom_tat_nhanh]]
-label = "Thời gian nên dành"
-value = ""
-
-[[tom_tat_nhanh]]
-label = "Lưu ý mùa hè"
-value = ""
 [[internal_links]]
 ref = "posts/bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien.md"
 title = "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển"
@@ -119,6 +100,25 @@ title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
 ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
 title = "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày"
 
+[[tom_tat_nhanh]]
+label = "Khu vực"
+value = "Seongsan-eup, phía đông Jeju"
+
+[[tom_tat_nhanh]]
+label = "Loại trải nghiệm"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Hợp với"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Thời gian nên dành"
+value = ""
+
+[[tom_tat_nhanh]]
+label = "Lưu ý mùa hè"
+value = ""
 +++
 Udo nằm trong top 1 của danh sách Trip.Best — và không phải ngẫu nhiên. Hòn đảo nhỏ hình con bò nằm dưới chân Seongsan Ilchulbong có sức hút rất riêng: biển xanh, vách đá đen núi lửa, hải đăng trắng, view Hallasan — tất cả gói gọn trong một chuyến phà 15 phút.
 

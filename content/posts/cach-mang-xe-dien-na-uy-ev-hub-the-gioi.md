@@ -44,6 +44,7 @@ answer = "A: Sẽ trở thành \"quốc gia công nghệ xanh\". Bán pin, công
 [[faq]]
 question = "Q: Có xe nào khác ngoài EV được bán ở Na Uy không?"
 answer = "A: Có, nhưng rất ít. Những xe xăng còn lại bị coi như \"lỗi thời\" bằng cách khuyến khích người dùng tránh."
+
 [[internal_links]]
 ref = "posts/di-han-thang-10-mac-gi.md"
 title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
@@ -75,7 +76,6 @@ title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử th
 [[internal_links]]
 ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
 title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
-
 +++
 ## Mâu thuẫn tưởng như không thể: Dầu mỏ vs. Xe điện
 

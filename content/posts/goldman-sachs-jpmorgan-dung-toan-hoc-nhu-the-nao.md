@@ -32,6 +32,7 @@ image_attribution_checked_at = "2026-07-11T17:30:38+07:00"
 
 [ai_summary]
 items = ["Goldman Sachs, JPMorgan: 2 ngân hàng đầu tư lớn nhất thế giới", "Derivatives pricing: Black-Scholes, local volatility, stochastic volatility", "Greeks: Delta (độ nhạy giá), Gamma (độ cong), Vega (độ nhạy volatility)", "Volatility Smile: σ thay đổi theo strike price (không hằng số)", "Algorithmic Trading: Machines tự động mua/bán hàng triệu giao dịch/ngày", "Market Microstructure: Spread, latency, order flow prediction", "Machine Learning: Neural networks dự báo giá, market impact models"]
+
 [[internal_links]]
 ref = "posts/cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro.md"
 title = "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?"
@@ -63,7 +64,6 @@ title = "Risk Management trong tài chính: Từ VaR đến stress testing"
 [[internal_links]]
 ref = "posts/frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh.md"
 title = "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro"
-
 +++
 Goldman Sachs & JPMorgan là 2 ngân hàng đầu tư lớn nhất. Họ dùng **toán học cực kỳ phức tạp** cho:
 

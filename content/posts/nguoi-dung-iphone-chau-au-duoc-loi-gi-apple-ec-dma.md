@@ -78,6 +78,7 @@ title = "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế n
 [[internal_links]]
 ref = "posts/apple-thua-kien-eu-app-store-ios-dma.md"
 title = "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA"
+
 [[internal_links]]
 ref = "posts/ios-mo-hon-nguoi-dung-chau-au-mat-gi.md"
 title = "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?"
@@ -97,7 +98,6 @@ title = "Nhà phát triển app được lợi gì từ DMA? Phân phối, commi
 [[internal_links]]
 ref = "posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi.md"
 title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
-
 +++
 Sau headline “Apple thua kiện EU”, câu hỏi thực tế nhất không phải “Apple mất bao nhiêu tiền?” — mà **“iPhone của tôi thay đổi thế nào?”**
 

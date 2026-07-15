@@ -71,6 +71,7 @@ label = "Đặc điểm"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý"
+
 [[internal_links]]
 ref = "posts/thoi-tiet-han-quoc-thang-10.md"
 title = "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?"
@@ -102,7 +103,6 @@ title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng,
 [[internal_links]]
 ref = "posts/di-han-thang-10-mac-gi.md"
 title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
-
 +++
 Tháng 11 là thời điểm Hàn Quốc bước vào **cuối mùa thu** — lạnh hơn tháng 10 rõ rệt, trời tối sớm và gió tăng dần. Nhiều du khách chọn tháng này vì Seoul và các cung điện thường vào **peak lá đỏ**, nhưng cũng lo lắng: *lạnh thế nào, có mưa không, và cần mang gì trong vali?*
 

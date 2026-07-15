@@ -63,6 +63,7 @@ label = "Thị thực nhiều lần"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý quan trọng"
+
 [[internal_links]]
 ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
 title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
@@ -94,7 +95,6 @@ title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
 [[internal_links]]
 ref = "posts/top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet.md"
 title = "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?"
-
 +++
 Bạn muốn đi Hàn Quốc tự túc nhưng lo hồ sơ tài chính "chưa đủ mạnh"? Bạn nghe nói có diện thu nhập trên 8.000 USD/năm giúp nhẹ phần chứng minh tài chính, nhưng không rõ điều đó có thật không, và phải chứng minh bằng lương, sao kê hay sổ tiết kiệm? Bạn sợ nộp sai diện, mất phí, rồi rớt visa mà không hiểu vì sao?
 

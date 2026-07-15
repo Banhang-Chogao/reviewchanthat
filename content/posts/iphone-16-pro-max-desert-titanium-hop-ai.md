@@ -148,6 +148,7 @@ title = "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?"
 [[internal_links]]
 ref = "posts/iphone-15-pro-max-blue-titanium-co-dang-san.md"
 title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+
 [[internal_links]]
 ref = "posts/camera-iphone-16-pro-max-so-voi-15-pro-max.md"
 title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
@@ -155,7 +156,6 @@ title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
 [[internal_links]]
 ref = "posts/iphone-16-pro-max-nam-2026-nen-mua-khong.md"
 title = "iPhone 16 Pro Max năm 2026 nên mua không?"
-
 +++
 **Desert Titanium** là lý do nhiều người nhìn vào iPhone 16 Pro Max thay vì bản thường — không phải vì nhanh hơn (không đáng kể so với 16 Pro), mà vì **màu nói lên đời máy** mà không cần logo to. Nhưng Desert **không phải màu cho mọi người**.
 

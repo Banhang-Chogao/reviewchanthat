@@ -52,6 +52,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T18:47:25+07:00"
 image_query = "credit card finance desk"
 image_alt = "Ảnh minh họa Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực — nguồn Pixabay"
+
 [[internal_links]]
 ref = "posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking.md"
 title = "Ẩm thực Nauy – từ cá hồi đến truyền thống Viking"
@@ -83,7 +84,6 @@ title = "Hoàng tộc Na Uy hiện đại – Chân dung thân quyền dưới t
 [[internal_links]]
 ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
 title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
-
 +++
 
 Hồi đầu năm 2025, tôi đặt vé máy bay đi Na Uy mà không biết mình sẽ gặp gì. Tôi chỉ có một ý nghĩ đơn giản: muốn đi từ thủ đô Oslo lên đến tận Bắc Cực, bằng tàu hỏa, máy bay và phà, không thuê tour, không người hướng dẫn. Tự mình mò mẫm, tự mình trải nghiệm.

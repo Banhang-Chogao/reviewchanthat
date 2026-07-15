@@ -44,6 +44,7 @@ answer = "A: Có. Singapore tạo thành lập Temasek (mô phỏng theo Na Uy),
 [[faq]]
 question = "Q: Tiền quỹ có đủ cho Na Uy đến khi dầu mỏ cạn?"
 answer = "A: Dựa trên các tính toán, có. Nếu Na Uy tiếp tục kỷ luật và quỹ tiếp tục tăng trưởng 4-5% hàng năm, quỹ sẽ cung cấp đủ lợi tức cho ngân sách Chính phủ cả khi dầu mỏ cạn."
+
 [[internal_links]]
 ref = "posts/cach-mang-xe-dien-na-uy-ev-hub-the-gioi.md"
 title = "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?"
@@ -75,7 +76,6 @@ title = "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for F
 [[internal_links]]
 ref = "posts/haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan.md"
 title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
-
 +++
 ## Quỹ Chủ Quyền Na Uy là gì?
 

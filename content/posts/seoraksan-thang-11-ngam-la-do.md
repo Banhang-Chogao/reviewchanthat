@@ -74,6 +74,10 @@ ref = "posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.md"
 [[internal_links]]
 ref = "posts/chi-phi-di-han-thang-11-tu-tuc.md"
 
+[[internal_links]]
+ref = "posts/seoraksan-thang-10-ngam-la-do.md"
+title = "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?"
+
 [[tom_tat_nhanh]]
 label = "Khu vực"
 value = "Sokcho, Gangwon-do"
@@ -93,10 +97,6 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = ""
-[[internal_links]]
-ref = "posts/seoraksan-thang-10-ngam-la-do.md"
-title = "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?"
-
 +++
 Nhiều người hỏi Seoraksan tháng 11 **còn lá đỏ không** và **có nên leo núi** khi trời đã lạnh hơn tháng 10. Câu trả lời ngắn: **đầu tháng 11** thường vẫn là cửa sổ đẹp cho Seoraksan — lá có thể còn đỏ–vàng ở độ cao trung bình; **cuối tháng 11** rủi ro **rụng lá nhiều** hoặc gặp **tuyết nhẹ** trên đỉnh cao hơn. Theo [dự báo lá đỏ của Visit Korea](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), Seoraksan đổ màu sớm hơn Seoul; tháng 11 là **giai đoạn cuối** của mùa foliage ở đây, không phải peak như cuối tháng 10.
 

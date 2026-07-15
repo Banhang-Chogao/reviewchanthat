@@ -64,6 +64,7 @@ label = "Chi phí"
 
 [[tom_tat_nhanh]]
 label = "Phù hợp"
+
 [[internal_links]]
 ref = "posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di.md"
 title = "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi"
@@ -95,7 +96,6 @@ title = "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?"
 [[internal_links]]
 ref = "posts/ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul.md"
 title = "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?"
-
 +++
 ## Thời tiết tháng 7
 

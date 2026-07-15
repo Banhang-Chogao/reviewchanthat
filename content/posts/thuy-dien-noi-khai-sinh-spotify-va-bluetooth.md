@@ -28,6 +28,7 @@ image_alt = "Ảnh minh họa Từ Spotify Đến Bluetooth: Thụy Điển Đã
 date_display = "11-07-2026 14:44:58 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:58+07:00"
 image_query = "spotify bluetooth thụy điển thống"
+
 [[internal_links]]
 ref = "posts/veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog.md"
 title = "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog"
@@ -59,7 +60,6 @@ title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu T
 [[internal_links]]
 ref = "posts/jimmy-wales-tieu-su-nha-sang-lap-wikipedia.md"
 title = "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại"
-
 +++
 Khi bạn nghe nhạc trên Spotify, kết nối tai nghe qua Bluetooth, uống sữa từ hộp giấy Tetra Pak, hay thắt dây an toàn trên ô tô, bạn đang sử dụng những phát minh có chung một nguồn gốc: Thụy Điển. Quốc gia Bắc Âu với chỉ 10,5 triệu dân này là một cỗ máy sản xuất công nghệ âm thầm nhưng cực kỳ hiệu quả. Bài viết này phân tích từng phát minh làm thay đổi thế giới đến từ Thụy Điển, lý giải tại sao một quốc gia nhỏ bé lại có thể tạo ra ảnh hưởng lớn đến vậy, và rút ra những bài học cho các hệ sinh thái công nghệ khác, trong đó có Việt Nam.
 

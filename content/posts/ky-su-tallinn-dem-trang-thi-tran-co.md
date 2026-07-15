@@ -28,6 +28,7 @@ image_alt = "Ảnh minh họa Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn T
 date_display = "11-07-2026 14:44:57 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:48+07:00"
 image_query = "ký sự tallinn đêm trắng"
+
 [[internal_links]]
 ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
 title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
@@ -59,7 +60,6 @@ title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩ
 [[internal_links]]
 ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
 title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
-
 +++
 Đồng hồ trên tháp Tall Hermann điểm mười một giờ đêm, nhưng bầu trời vẫn còn một dải sáng mờ mờ ở phía chân trời. Ở vĩ độ 59 độ Bắc, mặt trời tháng Bảy chỉ lặn được vài tiếng đồng hồ trước khi lại mọc — một hiện tượng kỳ lạ mà tôi, đứa con của xứ nhiệt đới, chưa từng chứng kiến. Tôi đứng trên đỉnh đồi Toompea, nhìn xuống những mái ngói đỏ của phố cổ Tallinn, và cảm thấy như mình đang ở trong một câu chuyện cổ tích có thật.
 

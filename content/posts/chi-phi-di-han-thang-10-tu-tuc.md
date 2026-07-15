@@ -71,6 +71,18 @@ title = "Nami Island tháng 10"
 ref = "posts/seoraksan-thang-10-ngam-la-do.md"
 title = "Seoraksan tháng 10"
 
+[[internal_links]]
+ref = "posts/jeju-thang-10-co-dep-khong.md"
+title = "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/busan-thang-10-nen-di-dau.md"
+title = "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng"
+
+[[internal_links]]
+ref = "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.md"
+title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan"
+
 [[tom_tat_nhanh]]
 label = "Ngân sách 5N4Đ"
 value = "11–20 triệu VND/người"
@@ -90,18 +102,6 @@ value = "100.000–180.000 VND/ngày"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = "Giá có thể thay đổi"
-[[internal_links]]
-ref = "posts/jeju-thang-10-co-dep-khong.md"
-title = "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày"
-
-[[internal_links]]
-ref = "posts/busan-thang-10-nen-di-dau.md"
-title = "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng"
-
-[[internal_links]]
-ref = "posts/lich-trinh-di-han-thang-10-7-ngay-6-dem.md"
-title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan"
-
 +++
 Lên ngân sách trước khi đặt vé giúp bạn tránh chi tiêu vượt kế hoạch — đặc biệt khi đi Hàn tháng 10, mùa lá đỏ thu hút nhiều khách và có thể đẩy giá khách sạn cuối tuần. Bài viết liệt kê **mức giá tham khảo** cho chuyến 5 ngày 4 đêm tự túc, dựa trên thông tin công khai từ các nguồn du lịch; mọi con số **có thể thay đổi** theo hãng bay, tỷ giá và thời điểm đặt.
 

@@ -61,6 +61,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính mua hàng"
+
 [[internal_links]]
 ref = "posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md"
 title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
@@ -92,7 +93,6 @@ title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Q
 [[internal_links]]
 ref = "posts/msi-claw-8-ex-ai-plus-review.md"
 title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
-
 +++
 Bạn có bao giờ tự hỏi: review dài 2000 chữ, đầy đủ thông số kỹ thuật, benchmark, so sánh con số — vậy có đáng tin không?
 

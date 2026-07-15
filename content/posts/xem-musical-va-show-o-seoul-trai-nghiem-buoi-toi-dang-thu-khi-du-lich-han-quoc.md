@@ -86,6 +86,7 @@ title = "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seo
 [[internal_links]]
 ref = "posts/dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic.md"
 title = "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic"
+
 [[internal_links]]
 ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
 title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
@@ -105,7 +106,6 @@ title = "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biể
 [[internal_links]]
 ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
 title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
-
 +++
 Buổi tối ở Seoul không chỉ có Myeongdong mua sắm hay cà phê — theo mình, một trong những trải nghiệm đáng giá nhất là xem musical tại Daehangno. Hoạt động này xếp hạng 3 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và mình thấy xứng đáng vì đây là thứ bạn khó tìm được ở Việt Nam với chất lượng tương đương.
 

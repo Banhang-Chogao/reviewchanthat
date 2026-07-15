@@ -28,6 +28,7 @@ date_display = "11-07-2026 10:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "độc hành tà năng phan"
 image_alt = "Ảnh minh họa Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ — nguồn Pixabay"
+
 [[internal_links]]
 ref = "posts/du-lich-may-do-trai-nghiem-ban-dia.md"
 title = "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt"
@@ -59,7 +60,6 @@ title = "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kế
 [[internal_links]]
 ref = "posts/phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy.md"
 title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy"
-
 +++
 Tiếng lều vải phập phồng trong gió như một sinh vật đang thở. Tôi nằm trong túi ngủ, mắt mở to trong bóng tối. Bên ngoài, rừng già đang lên tiếng. Một tiếng động lạ, nửa như tiếng cành cây gãy, nửa như tiếng bước chân của một loài vật nào đó. Tim tôi đập thình thịch. Tôi một mình, trên đỉnh đồi hoang vu, giữa một khu rừng trải dài ba tỉnh thành. Và tôi tự hỏi: mình đã làm gì với cuộc đời mình vậy?
 

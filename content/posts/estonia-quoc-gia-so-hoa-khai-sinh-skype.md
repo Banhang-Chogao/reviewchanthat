@@ -28,6 +28,7 @@ image_alt = "Ảnh minh họa Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Sk
 date_display = "11-07-2026 13:00:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:46+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026.md"
 title = "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển"
@@ -59,7 +60,6 @@ title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơ
 [[internal_links]]
 ref = "posts/app-store-gatekeeper-apple-so-mat-dieu-gi.md"
 title = "App Store gatekeeper: Apple sợ mất điều gì?"
-
 +++
 [Tallinn - thủ đô Estonia nơi trung cổ và công nghệ hiện đại giao thoa]
 

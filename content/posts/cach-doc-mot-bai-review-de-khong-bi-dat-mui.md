@@ -62,6 +62,7 @@ label = "Hợp với"
 [[tom_tat_nhanh]]
 label = "Mẹo quan trọng"
 image_attribution_checked_at = "2026-07-14T01:19:10+07:00"
+
 [[internal_links]]
 ref = "posts/checklist-truoc-khi-mua-mot-san-pham-online.md"
 title = "Checklist trước khi mua một sản phẩm online"
@@ -93,7 +94,6 @@ title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực T�
 [[internal_links]]
 ref = "posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.md"
 title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026"
-
 +++
 Bạn vừa xem một bài review điện thoại trên YouTube, đọc vài bài trên Facebook, rồi vào Shopee đặt mua. Một tuần sau, bạn nhận hàng và thất vọng vì nó không như "review".
 

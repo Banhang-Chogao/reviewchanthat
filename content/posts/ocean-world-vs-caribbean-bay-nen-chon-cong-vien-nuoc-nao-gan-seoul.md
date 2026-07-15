@@ -61,6 +61,7 @@ label = "Khoảng cách"
 
 [[tom_tat_nhanh]]
 label = "Giá vé"
+
 [[internal_links]]
 ref = "posts/caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong.md"
 title = "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?"
@@ -92,7 +93,6 @@ title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
 [[internal_links]]
 ref = "posts/han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon.md"
 title = "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn"
-
 +++
 Cả Caribbean Bay và Ocean World đều là công viên nước hàng đầu gần Seoul. Bài viết so sánh giúp bạn chọn đúng.
 

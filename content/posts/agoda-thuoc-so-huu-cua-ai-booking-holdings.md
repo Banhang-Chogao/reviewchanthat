@@ -57,6 +57,7 @@ answer = "Tập đoàn này còn sở hữu Priceline.com, KAYAK (công cụ so 
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài tổng hợp độc lập từ nguồn công khai (Agoda, Booking Holdings, Trustpilot, báo chí); số liệu, chính sách và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trong app trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com (một nền tảng khác) để so sánh giá, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong.md"
 title = "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng"
@@ -88,7 +89,6 @@ title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, 
 [[internal_links]]
 ref = "posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.md"
 title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi"
-
 +++
 Nếu bạn từng thắc mắc **Agoda thuộc sở hữu của ai** hay **Agoda của nước nào** khi thấy giá đặt phòng rẻ bất ngờ trên nền tảng này, câu trả lời khá rõ ràng: Agoda là công ty con do **Booking Holdings Inc.** (Mỹ, niêm yết trên Nasdaq với mã BKNG) sở hữu toàn bộ, nhưng trụ sở điều hành lại đặt tại **Singapore**. Nói cách khác, Agoda "mang hộ chiếu kép" — vốn Mỹ, vận hành châu Á — và đây chính là lý do khiến nhiều người nhầm Agoda là công ty Singapore thuần túy hoặc thậm chí nhầm sang Trung Quốc. Bài viết này sẽ giải thích chi tiết mối quan hệ giữa Agoda, Booking.com và các thương hiệu "chị em" khác, đồng thời lý giải vì sao Agoda lại mạnh đến vậy ở thị trường châu Á.
 

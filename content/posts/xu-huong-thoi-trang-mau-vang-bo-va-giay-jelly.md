@@ -28,6 +28,7 @@ date_display = "11-07-2026 11:20:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:31:00+07:00"
 image_query = "xu hướng hè 2026 cách"
 image_alt = "Ảnh minh họa Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất — nguồn Pexels"
+
 [[internal_links]]
 ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
@@ -59,7 +60,6 @@ title = "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Par
 [[internal_links]]
 ref = "posts/vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh.md"
 title = "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?"
-
 +++
 Nếu có một màu sắc định nghĩa mùa hè 2026, đó chính là màu **vàng bơ** (Butter Yellow) — sắc pastel dịu mắt nằm giữa kem sữa và nắng nhẹ. Cùng lúc, trào lưu phụ kiện **Jelly** (nhựa dẻo trong suốt) từ thập niên 2000 cũng quay trở lại mạnh mẽ, len lỏi từ đôi dép đi biển đến túi xách, kẹp tóc. Hai xu hướng này, một mềm mại thanh lịch, một tinh nghịch hoài niệm, đang tạo nên diện mạo thời trang đường phố hứa hẹn nhất mùa hè năm nay.
 

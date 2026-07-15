@@ -50,6 +50,7 @@ answer = "Tín chỉ carbon là *đơn vị hàng hóa* (1 tín chỉ = 1 tấn 
 [[faq]]
 question = "3. Cá nhân/doanh nghiệp Việt Nam có thể mua bán tín chỉ carbon hợp pháp chưa?"
 answer = "Việt Nam đang trong quá trình xây dựng thị trường: theo lộ trình chính sách, sàn giao dịch tín chỉ carbon được thí điểm từ khoảng năm 2025 và dự kiến vận hành chính thức vào năm 2028, dựa trên nền tảng Nghị định 06/2022/NĐ-CP. Vì đây là lĩnh vực đang hoàn thiện khung pháp lý và mốc thời gian có thể thay đổi, bạn nên đối chiếu văn bản mới nhất từ cơ quan chức năng trước khi tham gia giao dịch cho mục đích kinh doanh. *Bài viết mang tính phân tích và tham khảo, không phải tư vấn đầu tư hay môi trường. Vui lòng kiểm tra thông tin phí, điều kiện sản phẩm và chính sách trực tiếp với Techcombank cũng như nguồn chính thức trước khi ra quyết định.*"
+
 [[internal_links]]
 ref = "posts/the-odyssey-2026-review.md"
 title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
@@ -81,7 +82,6 @@ title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao N
 [[internal_links]]
 ref = "posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.md"
 title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
-
 +++
 Vài năm gần đây, hai cụm từ "tín chỉ carbon" và "Net Zero" xuất hiện dày đặc từ nghị trường COP, báo cáo thường niên của doanh nghiệp cho tới… mặt sau một chiếc thẻ ngân hàng. Nhưng đằng sau lớp vỏ marketing bóng bẩy, có bao nhiêu người thật sự hiểu một tín chỉ carbon là gì, nó được định giá ra sao, và liệu những sản phẩm "xanh" như thẻ Eco của Techcombank có thực sự cứu được khí hậu hay chỉ là một nước cờ truyền thông? Bài viết này mổ xẻ vấn đề dưới góc nhìn tài chính lạnh lùng, đúng tinh thần Review Chân Thật: khen chỗ đáng khen, và chỉ thẳng chỗ cần dè chừng.
 

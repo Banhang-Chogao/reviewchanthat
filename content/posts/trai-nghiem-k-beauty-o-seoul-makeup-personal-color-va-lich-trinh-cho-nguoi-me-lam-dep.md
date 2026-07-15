@@ -90,6 +90,7 @@ title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
 [[internal_links]]
 ref = "posts/thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien.md"
 title = "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền"
+
 [[internal_links]]
 ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
 title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
@@ -105,7 +106,6 @@ title = "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biể
 [[internal_links]]
 ref = "posts/day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay.md"
 title = "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày"
-
 +++
 Seoul là kinh đô làm đẹp của châu Á, và mình dám chắc nếu bạn mê skincare hay makeup thì trải nghiệm K-beauty sẽ là một trong những khoản chi đáng đồng tiền nhất chuyến đi. Hoạt động này xếp hạng 10 trong danh sách [Top 20 hoạt động du lịch Hàn Quốc 2026]({{< ref "posts/top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul.md" >}}), và theo mình, nó xứng đáng ở vị trí cao hơn nếu bạn thuộc tuýp người thích làm đẹp.
 

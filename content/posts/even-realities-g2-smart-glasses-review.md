@@ -58,6 +58,7 @@ answer = "If you need real-time transcription, discreet notifications, and hands
 [attribution]
 copyright = "Review Chân Thật"
 source_note = "This review is based on hands-on testing with a review unit provided by Even Realities. No compensation was received. Affiliate links may be present."
+
 [[internal_links]]
 ref = "posts/apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap.md"
 title = "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp"
@@ -89,7 +90,6 @@ title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 [[internal_links]]
 ref = "posts/the-odyssey-2026-review.md"
 title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
-
 +++
 ## The Smart Glasses That Do One Thing Well
 

@@ -80,6 +80,7 @@ title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
 [[internal_links]]
 ref = "posts/iphone-18-chip-a20-2nm.md"
 title = "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm"
+
 [[internal_links]]
 ref = "posts/iphone-18-gia-bao-nhieu.md"
 title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
@@ -91,7 +92,6 @@ title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầ
 [[internal_links]]
 ref = "posts/iphone-18-mau-gi-dark-cherry.md"
 title = "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?"
-
 +++
 Từ iPhone 14 Pro, **Dynamic Island** đã trở thành “khuôn mặt” nhận diện iPhone cao cấp — nhưng cũng là thứ nhiều người muốn **biến mất**. Với **iPhone 18**, cộng đồng leak lại hỏi hai câu song song: **Dynamic Island có nhỏ hơn không?** và **Under-display Face ID** (Face ID dưới tấm nền) cuối cùng có tới không?
 

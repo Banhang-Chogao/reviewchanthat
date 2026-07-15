@@ -66,6 +66,7 @@ answer = "Khi bạn đăng nhập iCloud trên máy mới và xác thực, các 
 [[faq]]
 question = "Tôi có thể dùng Apple Pay trên Apple Watch không?"
 answer = "Có. Thêm thẻ vào Watch qua ứng dụng Watch trên iPhone, sau đó nhấn nút sườn hai lần và đưa Watch gần máy POS."
+
 [[internal_links]]
 ref = "posts/iphone-18-co-gi-moi.md"
 title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt"
@@ -97,7 +98,6 @@ title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 [[internal_links]]
 ref = "posts/ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau.md"
 title = "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam"
-
 +++
 **Apple Pay Việt Nam** đã chính thức có mặt, cho phép người dùng iPhone thanh toán không tiếp xúc (contactless) tại các cửa hàng, máy POS, và trên web.
 Tuy nhiên, không phải ngân hàng nào tại Việt Nam cũng hỗ trợ Apple Pay, và không phải ai cũng biết cách thêm thẻ đúng cách. Bài viết này sẽ hướng dẫn chi tiết: ngân hàng nào hỗ trợ, cách thêm thẻ từng bước, và cách xử lý các lỗi thường gặp.

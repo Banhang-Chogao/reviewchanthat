@@ -30,6 +30,7 @@ image_status = "verified"
 seo_title = "Fika Và Lagom: Triết Lý Sống Cân Bằng Của Người Thụy Điển"
 image_attribution_checked_at = "2026-07-11T17:30:59+07:00"
 image_query = "credit card finance desk"
+
 [[internal_links]]
 ref = "posts/cong-thuc-do-uong-giai-nhiet-home-cafe.md"
 title = "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026"
@@ -61,7 +62,6 @@ title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và các
 [[internal_links]]
 ref = "posts/jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay.md"
 title = "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?"
-
 +++
 Khi nhắc đến Thụy Điển, đa số người Việt nghĩ ngay đến IKEA, Volvo, hay giải Nobel. Nhưng có hai khái niệm văn hóa mà người Thụy Điển mang theo trong từng hơi thở — Lagom và Fika — lại ít được biết đến ở Việt Nam. Lagom không phải là một trào lưu wellness mới nổi trên Instagram. Fika không đơn thuần là "đi uống cà phê". Đây là những triết lý sống đã được tôi luyện qua hàng thế kỷ, góp phần đưa Thụy Điển trở thành một trong những quốc gia hạnh phúc nhất hành tinh theo [World Happiness Report](https://worldhappiness.report/).
 

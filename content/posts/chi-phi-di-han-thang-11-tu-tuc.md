@@ -71,6 +71,18 @@ title = "Nami Island tháng 11"
 ref = "posts/seoraksan-thang-11-ngam-la-do.md"
 title = "Seoraksan tháng 11"
 
+[[internal_links]]
+ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
+title = "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển"
+
+[[internal_links]]
+ref = "posts/jeju-thang-11-co-dep-khong.md"
+title = "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/busan-thang-11-nen-di-dau.md"
+title = "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ"
+
 [[tom_tat_nhanh]]
 label = "Ngân sách 5N4Đ"
 value = "10–20 triệu VND/người"
@@ -90,18 +102,6 @@ value = "100.000–180.000 VND/ngày"
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = "Giá có thể thay đổi"
-[[internal_links]]
-ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
-title = "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển"
-
-[[internal_links]]
-ref = "posts/jeju-thang-11-co-dep-khong.md"
-title = "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày"
-
-[[internal_links]]
-ref = "posts/busan-thang-11-nen-di-dau.md"
-title = "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ"
-
 +++
 Lên ngân sách trước khi đặt vé giúp bạn tránh chi tiêu vượt kế hoạch — đặc biệt khi đi Hàn tháng 11, mùa **peak lá đỏ ở Seoul** nhưng thời tiết **lạnh hơn tháng 10**. Bài viết liệt kê **mức giá tham khảo** cho chuyến 5 ngày 4 đêm tự túc; mọi con số **có thể thay đổi** theo hãng bay, tỷ giá và thời điểm đặt.
 

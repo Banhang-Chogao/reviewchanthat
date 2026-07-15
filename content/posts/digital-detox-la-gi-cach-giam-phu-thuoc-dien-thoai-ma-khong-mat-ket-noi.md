@@ -75,6 +75,7 @@ ref = "posts/song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-h
 title = "Sống thông minh trong thời đại AI"
 image_attribution_checked_at = "2026-07-12T08:48:59+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
@@ -94,7 +95,6 @@ title = "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà kh
 [[internal_links]]
 ref = "posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi.md"
 title = "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối"
-
 +++
 Bạn có nhớ lần cuối cùng bạn ngồi ăn cơm với gia đình mà không để điện thoại trên bàn không? Lần cuối bạn đi vệ sinh mà không mang theo điện thoại? Lần cuối bạn thức dậy và không với tay lấy điện thoại trước khi đánh răng?
 

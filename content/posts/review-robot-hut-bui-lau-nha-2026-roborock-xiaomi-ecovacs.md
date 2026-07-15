@@ -36,6 +36,7 @@ answer = "Cả ba đều có thiết kế tháo lắp đơn giản. Bàn chải,
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết dựa trên trải nghiệm thực tế một tháng sử dụng cả ba sản phẩm."
 source_note = "Giá tham khảo tại thị trường Việt Nam tháng 7/2026. Sản phẩm được cung cấp bởi nhà phân phối chính thức."
+
 [[internal_links]]
 ref = "posts/the-odyssey-2026-review.md"
 title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
@@ -67,7 +68,6 @@ title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài c
 [[internal_links]]
 ref = "posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.md"
 title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
-
 +++
 
 Khi bạn đi làm về lúc 7 giờ tối, mệt đừ người, và nhà thì vương vãi mấy hạt cát từ giày đi làm về, vài sợi tóc rụng, và lớp bụi mịn len lỏi từng ô gạch — thì một con robot tự động quét dọn trong khi bạn nằm ườm xem YouTube nghe có vẻ hấp dẫn.

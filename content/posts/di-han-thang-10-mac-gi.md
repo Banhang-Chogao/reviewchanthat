@@ -70,6 +70,7 @@ label = "Màu gợi ý"
 
 [[tom_tat_nhanh]]
 label = "Ưu tiên"
+
 [[internal_links]]
 ref = "posts/di-han-thang-11-mac-gi.md"
 title = "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp"
@@ -101,7 +102,6 @@ title = "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và các
 [[internal_links]]
 ref = "posts/busan-thang-10-nen-di-dau.md"
 title = "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng"
-
 +++
 Tháng 10 ở Hàn Quốc không lạnh như mùa đông, nhưng cũng không ấm như mùa hè. Nhiệt độ thay đổi nhanh trong ngày — trưa có thể 18–20°C, tối xuống 8–10°C. Nếu chỉ mang một chiếc áo khoác dày, ban ngày sẽ nóng; nếu chỉ mặc áo mỏng, tối sẽ lạnh.
 

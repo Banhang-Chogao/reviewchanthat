@@ -74,10 +74,10 @@ title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
 [[internal_links]]
 ref = "posts/ios-27-beta-co-nen-cai-khong.md"
 title = "iOS 27 beta có nên cài không? rủi ro, cách backup và quay về bản ổn định"
+
 [[internal_links]]
 ref = "posts/macos-27-apple-intelligence-macbook.md"
 title = "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?"
-
 +++
 Mỗi năm sau WWDC, group iPhone Việt Nam lại hỏi cùng một câu: **có đáng lên iOS mới không, hay cứ ở bản cũ cho yên ổn?** Năm nay câu hỏi gay cấn hơn vì Apple không chỉ vá lỗi — họ đặt cược lớn vào **Siri AI**, **Apple Intelligence thế hệ hai** và lớp thiết kế **Liquid Glass** đã gây tranh cãi từ iOS 26.
 

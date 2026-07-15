@@ -66,6 +66,7 @@ label = "Điểm chính nặng"
 
 [attribution]
 copyright = "© 2026 Veritable Content. Vui lòng ghi nguồn khi trích dẫn lại nội dung. Các ví dụ code mang tính minh họa, cần đối chiếu với cấu trúc repo thực tế trước khi áp dụng."
+
 [[internal_links]]
 ref = "posts/bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan.md"
 title = "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững"
@@ -97,7 +98,6 @@ title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước 
 [[internal_links]]
 ref = "posts/ios-27-co-nen-cap-nhat-ngay-khong.md"
 title = "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update"
-
 +++
 Có những blog dựng lên chỉ để có chỗ đăng bài. Nhưng cũng có loại blog được xây như một hệ thống — có giao diện riêng, quy tắc nội dung, pipeline ảnh, CI/CD tự động, và quan trọng nhất: một triết lý rất rõ về tốc độ.
 

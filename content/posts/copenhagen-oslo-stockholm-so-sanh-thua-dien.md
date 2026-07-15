@@ -41,6 +41,7 @@ answer = "A: Copenhagen là lựa chọn tốt nhất. Mùa đông ở Copenhage
 [[faq]]
 question = "Q: Thành phố nào tốt nhất cho một người trẻ muốn khám phá cuộc sống Scandinavia?"
 answer = "A: Stockholm là lựa chọn tốt nhất cho người trẻ vì khí phóng khoáng, cộng đồng quốc tế, và cơ hội công việc trong công nghệ. Copenhagen cũng tốt với đạo văn hóa học tập và nền tảng khởi động lớn. Oslo tốt nhất nếu bạn yêu thích thiên nhiên và ngoài trời."
+
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
@@ -72,7 +73,6 @@ title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không
 [[internal_links]]
 ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
 title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
 +++
 ## Tại Sao So Sánh Ba Thành Phố Này?
 

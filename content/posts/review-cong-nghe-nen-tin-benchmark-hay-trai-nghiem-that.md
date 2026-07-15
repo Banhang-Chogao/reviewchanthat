@@ -61,6 +61,7 @@ label = "Hợp với"
 
 [[tom_tat_nhanh]]
 label = "Điểm chính"
+
 [[internal_links]]
 ref = "posts/review-airpods-pro-3-2026.md"
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
@@ -92,7 +93,6 @@ title = "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước 
 [[internal_links]]
 ref = "posts/wellness-spa-scandinavia-sauna-nong.md"
 title = "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu"
-
 +++
 Bạn thấy một chiếc laptop đạt điểm benchmark cao ngất ngưởng. Giá rẻ, cấu hình khủng. Bạn mua ngay. Nhưng dùng một thời gian thì thấy nóng máy, pin yếu, phần mềm lag. Quen không?
 

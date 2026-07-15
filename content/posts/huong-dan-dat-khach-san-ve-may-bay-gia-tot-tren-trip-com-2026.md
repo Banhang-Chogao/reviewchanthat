@@ -57,6 +57,7 @@ answer = "Kiểm tra email xác nhận kèm mã đặt chỗ, đồng thời và
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài viết tổng hợp độc lập từ nguồn công khai (Trip.com, Wikipedia, báo chí); số liệu tài chính, thương vụ và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re.md"
 title = "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất"
@@ -88,7 +89,6 @@ title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, t
 [[internal_links]]
 ref = "posts/mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao.md"
 title = "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay"
-
 +++
 Đặt phòng khách sạn hay vé máy bay online tưởng đơn giản, nhưng không ít người Việt từng "toát mồ hôi" vì đặt nhầm hạng vé không được hoàn hủy, quên đọc kỹ chính sách, hoặc thanh toán xong mới phát hiện phòng không như ảnh quảng cáo. Trip.com là một trong những nền tảng đặt phòng và vé máy bay quốc tế được dùng nhiều nhất hiện nay nhờ kho khách sạn rộng, giá vé máy bay cạnh tranh và có bản tiếng Việt riêng (vn.trip.com). Nhưng đúng vì nền tảng lớn, giao diện và chính sách của Trip.com thường được cập nhật theo thời gian, mùa cao điểm hay theo từng thị trường — nên bài này sẽ đi theo từng bước cụ thể, kèm mẹo tránh sai lầm, để bạn tự tin đặt chỗ mà không bị động khi có thay đổi nhỏ trên giao diện thực tế.
 

@@ -28,6 +28,7 @@ image_alt = "Ảnh minh họa Kinh Nghiệm Du Lịch Tự Túc Một Mình (Sol
 date_display = "11-07-2026 14:10:00 GMT +7"
 image_attribution_checked_at = "2026-07-11T17:30:47+07:00"
 image_query = "mobile banking payment app"
+
 [[internal_links]]
 ref = "posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc.md"
 title = "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc"
@@ -59,7 +60,6 @@ title = "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩ
 [[internal_links]]
 ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
 title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
-
 +++
 Du lịch một mình — solo travel — không còn là điều xa lạ với giới trẻ Việt Nam năm 2026. Nhưng đi một mình khác xa với đi cùng bạn bè: bạn tự lo mọi thứ, từ đặt phòng, lên lịch trình, quản lý tài chính đến giữ an toàn cho bản thân. Không có ai nhắc bạn "đem theo ô dù" hay "coi chừng kẻ gian" — mọi quyết định đều thuộc về bạn. Bài viết này là bộ cẩm nang kinh nghiệm du lịch một mình dành cho người mới bắt đầu, với lịch trình solo travel cho nữ chi tiết tại Hội An, Đà Lạt và Quy Nhơn — ba điểm đến du lịch tự túc an toàn tôi đã trực tiếp trải nghiệm.
 

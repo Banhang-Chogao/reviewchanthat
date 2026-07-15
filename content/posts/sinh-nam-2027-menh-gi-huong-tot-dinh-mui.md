@@ -65,6 +65,7 @@ title = "Thiên can Địa chi — Hệ thống Can Chi"
 url = "https://vi.wikipedia.org/wiki/Can_Chi"
 image_attribution_checked_at = "2026-07-12T08:49:14+07:00"
 image_query = "sinh năm 2027 mệnh gì"
+
 [[internal_links]]
 ref = "posts/an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la.md"
 title = "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào"
@@ -96,7 +97,6 @@ title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa n
 [[internal_links]]
 ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
 title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
-
 +++
 Tết Nguyên Đán Đinh Mùi 2027 đang đến gần, và cùng với đó là cơn sốt tìm hiểu về phong thủy, mệnh số cho những em bé sẽ chào đời trong năm con Dê này. Nếu bạn đang có kế hoạch sinh con năm 2027, hoặc đơn giản là muốn hiểu rõ hơn về tuổi Đinh Mùi — người sinh năm 2027 mệnh gì, hướng nào tốt, màu nào hợp, và cần tránh điều gì — thì bài viết này dành cho bạn.
 

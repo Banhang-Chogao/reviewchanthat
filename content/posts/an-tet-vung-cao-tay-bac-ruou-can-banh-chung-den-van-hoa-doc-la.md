@@ -52,6 +52,7 @@ answer = "Rượu cần ủ bằng men lá trong ché, cắm cần trúc để h
 [[faq]]
 question = "Đi trải nghiệm Tết vùng cao cần lưu ý gì để tôn trọng đồng bào?"
 answer = "Xin phép trước khi vào nhà và khi chụp ảnh người dân, nhất là người già và trẻ nhỏ; ăn mặc kín đáo; không tự ý đụng vào bàn thờ hay vật thờ cúng; hỏi trước về các kiêng kỵ của bản. Ứng xử chừng mực và chân thành sẽ được đón tiếp nồng hậu."
+
 [[internal_links]]
 ref = "posts/lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi.md"
 title = "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ"
@@ -83,7 +84,6 @@ title = "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa n
 [[internal_links]]
 ref = "posts/review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem.md"
 title = "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém"
-
 +++
 Nếu Tết đồng bằng là mâm cỗ tươm tất trong ngôi nhà ấm, thì Tết vùng cao Tây Bắc là khói bếp vương trên mái nhà sàn, là tiếng khèn giữa sương núi và chén rượu cần chuyền tay. Tôi từng đón một cái Tết ở vùng cao và nhận ra: nơi đây Tết không chỉ để ăn, mà để **gắn kết cộng đồng** theo cách rất riêng. Bài viết này chia sẻ những gì đáng trải nghiệm, kèm vài lưu ý thành thật để bạn đến với đồng bào bằng sự tôn trọng, chứ không phải tâm thế "check-in cho lạ".
 

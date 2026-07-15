@@ -37,6 +37,7 @@ answer = "A: Từ tháng 5 đến tháng 9 là mùa du lịch cao điểm, với
 [[faq]]
 question = "Q: Chi phí du lịch các fjord Na Uy là bao nhiêu?"
 answer = "A: Một tour tàu đơn giản từ 2-3 giờ có giá €40-80. Flåm Railway €28 một chiều. Khách sạn ở các thị trấn nhỏ: €100-150/đêm. Thực ăn: €15-25 cho bữa ăn trưa, €30-50 cho bữa tối. Tổng cộng cho một tuần: €2.000-3.500 cho một người (không tính vé máy bay). Na Uy không rẻ, nhưng giá trị trải nghiệm là đáng giá từng euro."
+
 [[internal_links]]
 ref = "posts/bac-cuc-quang-aurora-scandinavia-dem.md"
 title = "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối"
@@ -68,7 +69,6 @@ title = "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không
 [[internal_links]]
 ref = "posts/udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay.md"
 title = "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày"
-
 +++
 ## Tại Sao Các Fjord Na Uy Lại Là Một Trong Những Kỳ Quan Thiên Nhiên Vĩ Đại Nhất Thế Giới?
 

@@ -71,6 +71,7 @@ label = "Thời gian trên đảo"
 
 [[tom_tat_nhanh]]
 label = "Lưu ý"
+
 [[internal_links]]
 ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
 title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
@@ -102,7 +103,6 @@ title = "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksa
 [[internal_links]]
 ref = "posts/nami-thang-11-co-dang-di-khong.md"
 title = "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul"
-
 +++
 Nami Island (đảo Nami) quanh năm là day trip phổ biến từ Seoul, nhưng **tháng 10** là một trong những thời điểm được nhắc nhiều nhờ hàng Metasequoia chuyển vàng. Visit Korea liệt kê Nami trong nhóm [điểm ngắm lá đỏ nổi tiếng ngoài Seoul](https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=231292), cùng Hwadam Botanic Garden và Garden of Morning Calm.
 

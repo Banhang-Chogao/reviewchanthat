@@ -57,6 +57,7 @@ answer = "Chỉ những chỗ ở được gắn nhãn \"ưu đãi hợp lệ\" 
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài tổng hợp độc lập từ nguồn công khai (Agoda, Booking Holdings, Trustpilot, báo chí); số liệu, chính sách và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trong app trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com (một nền tảng khác) để so sánh giá, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh.md"
 title = "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh"
@@ -88,7 +89,6 @@ title = "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?"
 [[internal_links]]
 ref = "posts/huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy.md"
 title = "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo"
-
 +++
 Nếu bạn đang tìm **mã giảm giá Agoda** để đặt phòng khách sạn, resort hay căn hộ dịch vụ mà không muốn trả giá niêm yết, thì có khá nhiều lớp ưu đãi trên Agoda đang chồng lên nhau: mã khuyến mãi, **AgodaCash**, giá thành viên AgodaVIP, giá app-only, flash deal theo giờ và ưu đãi riêng cho chủ thẻ ngân hàng. Vấn đề là hầu hết người dùng chỉ biết nhập một mã coupon tìm được trên mạng rồi thôi, trong khi thực ra có thể xếp chồng 2-3 loại ưu đãi cùng lúc để **đặt phòng Agoda giá rẻ** hơn đáng kể. Bài này tổng hợp cách các cơ chế đó hoạt động và vài mẹo thực chiến để săn giá tốt, kèm hedge rõ ràng vì điều khoản khuyến mãi của Agoda thay đổi liên tục theo thời gian, theo thị trường và theo từng tài khoản.
 

@@ -124,10 +124,10 @@ title = "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhấ
 [[internal_links]]
 ref = "posts/iphone-fold-iphone-ultra-la-gi.md"
 title = "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?"
+
 [[internal_links]]
 ref = "posts/iphone-18-dynamic-island-nho-hon-under-display-face-id.md"
 title = "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?"
-
 +++
 “**Có nên chờ iPhone 18 không?**” — câu hỏi lặp lại mỗi năm, nhưng 2026–2027 phức tạp hơn vì tin đồn **split launch**: Pro ra **tháng 9/2026**, base có thể **đầu 2027**. Apple **chưa công bố** iPhone 18; bài này giúp bạn quyết định theo **máy đang dùng** (15, 16 hay 17), **ngân sách** và **mức chấp nhận rủi ro tin đồn** — không dựa trên tính năng Apple đã xác nhận.
 

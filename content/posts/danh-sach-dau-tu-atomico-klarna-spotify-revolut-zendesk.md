@@ -32,6 +32,7 @@ image_license_url = ""
 [[internal_links]]
 ref = "posts/chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy.md"
 title = "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ"
+
 [[internal_links]]
 ref = "posts/atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom.md"
 title = "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu"
@@ -59,7 +60,6 @@ title = "Từ Spotify Đến Bluetooth: Thụy Điển Đã Thống Trị Thế 
 [[internal_links]]
 ref = "posts/co-nen-cho-iphone-18-khong.md"
 title = "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?"
-
 +++
 ## Những công ty Mà Atomico Đã Giúp Xây Dựng
 

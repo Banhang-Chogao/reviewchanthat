@@ -53,6 +53,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T17:50:13+07:00"
 image_query = "review vpn 2026 nordvpn vs"
 image_alt = "Ảnh minh họa Review VPN 2026: NordVPN vs Surfshark vs ProtonVPN — Dùng 6 Tháng Ở Việt Nam Thấy Sao? — nguồn Pixabay"
+
 [[internal_links]]
 ref = "posts/starbucks-vietnam-meo-goi-order-va-rewards.md"
 title = "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu"
@@ -84,7 +85,6 @@ title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho ng
 [[internal_links]]
 ref = "posts/so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat.md"
 title = "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?"
-
 +++
 
 ## Tại Sao Tôi Viết Bài Này

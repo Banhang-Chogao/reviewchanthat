@@ -57,6 +57,7 @@ answer = "AgodaCash là một phần hoàn lại từ biên lợi nhuận Agoda 
 [attribution]
 copyright = "© 2026 Review Chân Thật."
 source_note = "Bài tổng hợp độc lập từ nguồn công khai (Agoda, Booking Holdings, Trustpilot, báo chí); số liệu, chính sách và ưu đãi có thể thay đổi — vui lòng kiểm tra lại trong app trước khi đặt. Bài có chứa liên kết tài trợ/affiliate tới Trip.com (một nền tảng khác) để so sánh giá, được gắn nhãn rõ ràng. Ảnh minh họa từ Pexels/Pixabay."
+
 [[internal_links]]
 ref = "posts/agoda-thuoc-so-huu-cua-ai-booking-holdings.md"
 title = "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái"
@@ -88,7 +89,6 @@ title = "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất
 [[internal_links]]
 ref = "posts/agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai.md"
 title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi"
-
 +++
 Nhiều người thắc mắc: đặt phòng qua Agoda thì ai trả tiền cho nền tảng này, và **Agoda kiếm tiền như thế nào** khi giá phòng hiển thị trên app nhiều lúc còn rẻ hơn giá khách sạn niêm yết? Câu trả lời ngắn gọn: Agoda hầu như không thu thêm phí trực tiếp từ khách — nguồn thu chính đến từ hoa hồng mà khách sạn, hãng xe, hãng bay trả cho Agoda mỗi khi có một giao dịch thành công. Bài viết này giải thích chi tiết **mô hình kinh doanh Agoda** dựa trên mô hình OTA (Online Travel Agency) phổ biến toàn cầu, gồm cơ chế agency, merchant, quảng cáo, và vì sao đặt qua Agoda thường không đắt hơn đặt trực tiếp.
 

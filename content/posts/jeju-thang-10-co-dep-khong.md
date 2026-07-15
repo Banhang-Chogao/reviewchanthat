@@ -68,6 +68,14 @@ ref = "posts/chi-phi-di-han-thang-10-tu-tuc.md"
 [[internal_links]]
 ref = "posts/jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay.md"
 
+[[internal_links]]
+ref = "posts/jeju-thang-11-co-dep-khong.md"
+title = "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày"
+
+[[internal_links]]
+ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
+title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
+
 [[tom_tat_nhanh]]
 label = "Nhiệt độ"
 value = "16–22°C ban ngày"
@@ -87,14 +95,6 @@ value = ""
 [[tom_tat_nhanh]]
 label = "Lưu ý"
 value = ""
-[[internal_links]]
-ref = "posts/jeju-thang-11-co-dep-khong.md"
-title = "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày"
-
-[[internal_links]]
-ref = "posts/han-quoc-thang-10-co-la-do-chua.md"
-title = "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?"
-
 +++
 Jeju tháng 10 là thời điểm nhiều người Việt cân nhắc khi lên kế hoạch đi Hàn mùa thu. Đảo có khí hậu ôn hòa hơn đất liền, biển vẫn đẹp, và núi Hallasan bắt đầu chuyển màu. Tuy nhiên, Jeju không chỉ có cảnh quan — bạn cần tính thêm chi phí vé máy bay, thuê xe và thời gian di chuyển từ Seoul.
 

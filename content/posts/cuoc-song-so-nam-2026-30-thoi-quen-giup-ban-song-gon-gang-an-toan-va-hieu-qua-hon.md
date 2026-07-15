@@ -65,6 +65,7 @@ answer = "Duy trì và điều chỉnh theo nhu cầu. Đọc tiếp các bài t
 [[internal_links]]
 ref = "posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi.md"
 title = "Digital Detox là gì? Cách giảm phụ thuộc điện thoại"
+
 [[internal_links]]
 ref = "posts/checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi.md"
 title = "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị"
@@ -92,7 +93,6 @@ title = "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm c
 [[internal_links]]
 ref = "posts/digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi.md"
 title = "Digital Minimalism: sống tối giản trong thời đại AI và mạng xã hội"
-
 +++
 Bạn có bao nhiêu tài khoản trực tuyến? **Bao nhiêu mật khẩu bạn dùng lại?** Lần cuối bạn xóa ảnh mờ, ảnh trùng là khi nào? Email cá nhân có bao nhiêu thư chưa đọc — 1.000 hay 10.000?
 

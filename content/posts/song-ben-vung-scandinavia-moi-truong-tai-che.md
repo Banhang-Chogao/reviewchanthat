@@ -33,6 +33,7 @@ image_query = "sống bền vững scandinavia cách"
 [[faq]]
 question = "Q: Tôi có thể sống bền vững nếu tôi ở một quốc gia không phải Scandinavia không?"
 answer = "A: Hoàn toàn có thể. Nguyên tắc là giống nhau: bắt đầu từ những quyết định nhỏ hằng ngày (tái chế, tiêu thụ ít hơn, sử dụng phương tiện giao thông công cộng). Scandinavia có lợi thế về cơ sở hạ tầng, nhưng lối sống bền vững bắt đầu từ trong tư duy của bạn, không phải từ môi trường bạn sống."
+
 [[internal_links]]
 ref = "posts/nang-luong-tai-tao-turbine-gio-scandinavia.md"
 title = "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?"
@@ -64,7 +65,6 @@ title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
 [[internal_links]]
 ref = "posts/review-airpods-pro-3-2026.md"
 title = "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?"
-
 +++
 ## Tại Sao Scandinavia Lại Là Tiêu Chuẩn Vàng Của Phong Trào Bền Vững?
 

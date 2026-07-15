@@ -53,6 +53,7 @@ answer = "Phim được xếp hạng PG-13 (Mỹ) và 13+ (Việt Nam). Có mộ
 [attribution]
 copyright = "Bài viết thuộc về Review Chân Thật"
 source_note = "Thông tin dựa trên dữ liệu từ IMDb và Paramount Pictures. Bài viết là cảm nhận cá nhân sau khi xem phim."
+
 [[internal_links]]
 ref = "posts/the-odyssey-2026-review.md"
 title = "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?"
@@ -84,7 +85,6 @@ title = "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao N
 [[internal_links]]
 ref = "posts/tin-chi-carbon-va-trao-luu-net-zero.md"
 title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank"
-
 +++
 
 Có những bộ phim xem xong bạn không nhớ plot twist, không nhớ cảnh hành động, mà chỉ nhớ cảm giác. Cảm giác được làm một đứa trẻ lần nữa, với máy quay Super 8 trên tay, chạy lon ton cùng bạn bè trong một thị trấn nhỏ, tin rằng điều kỳ diệu luôn có thể xảy ra.
