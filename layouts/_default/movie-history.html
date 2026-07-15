@@ -83,9 +83,10 @@
         </div>
       </div>
 
-      <!-- Single unified detail card — never render a second detail panel -->
+      <!-- Single unified detail card — never a second movie-info section -->
       <div class="mh-detail" id="mhSelectedPanel" hidden>
         <article class="mh-detail__card" id="mhDetailCard" role="region" aria-labelledby="mhPanelTitle" tabindex="-1">
+          <div class="mh-detail__day-switch" id="mhPanelDaySwitch" hidden></div>
           <div class="mh-detail__header">
             <div class="mh-detail__poster" id="mhPanelPoster" aria-hidden="true">🎬</div>
             <div class="mh-detail__head-info">
@@ -213,5 +214,6 @@
 </article>
 {{ $css := resources.Get "css/movie-history.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-<script src="{{ "js/movie-history.js" | relURL }}" defer></script>
+{{ $js := resources.Get "js/movie-history.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{ end }}

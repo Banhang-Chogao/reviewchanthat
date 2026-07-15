@@ -1,818 +1,102 @@
-(function () {
-  'use strict';
-
-  var GITHUB_RAW = 'https://raw.githubusercontent.com/Banhang-Chogao/reviewchanthat/main/data/movie-history.json';
-  var API_BASE = '';
-
-  var state = {
-    movies: [],
-    filtered: [],
-    weekOffset: 0,
-    selectedDate: '',
-    editingId: null
-  };
-
-  /* ─── Init ─────────────────────────────────────────── */
-
-  function init() {
-    var app = document.getElementById('mhApp');
-    if (!app) return;
-    API_BASE = app.getAttribute('data-api') || '';
-
-    hideGate();
-    loadMovies();
-  }
-
-  function hideGate() {
-    var gate = document.getElementById('mhGate');
-    if (gate) gate.style.display = 'none';
-    var content = document.getElementById('mhAppContent');
-    if (content) content.style.display = '';
-  }
-
-  /* ─── Data Loading ─────────────────────────────────── */
-
-  function loadMovies() {
-    showLoading(true);
-    fetch(GITHUB_RAW)
-      .then(function (res) {
-        if (!res.ok) throw new Error('Failed to load: ' + res.status);
-        return res.json();
-      })
-      .then(function (data) {
-        state.movies = data && Array.isArray(data.movies) ? data.movies : [];
-        render();
-      })
-      .catch(function (err) {
-        console.error('MovieHistory load error:', err);
-        state.movies = [];
-        render();
-        showToast('Could not load movies. Using local data.', 'warning');
-      })
-      .finally(function () {
-        showLoading(false);
-      });
-  }
-
-  /* ─── Render ───────────────────────────────────────── */
-
-  function render() {
-    applyFilterAndSearch();
-    renderCalendar();
-    renderMovieList();
-    updateWeekLabel();
-  }
-
-  function applyFilterAndSearch() {
-    var filter = document.getElementById('mhFilter');
-    var search = document.getElementById('mhSearch');
-    var f = filter ? filter.value : 'all';
-    var q = search ? (search.value || '').toLowerCase().trim() : '';
-
-    state.filtered = state.movies.filter(function (m) {
-      if (f !== 'all' && m.status !== f) return false;
-      if (q && m.title.toLowerCase().indexOf(q) === -1) return false;
-      return true;
-    });
-
-    state.filtered.sort(function (a, b) {
-      return (b.releaseDate || '').localeCompare(a.releaseDate || '');
-    });
-  }
-
-  /* ─── Calendar ─────────────────────────────────────── */
-
-  function getMonday(date) {
-    var d = new Date(date);
-    var day = d.getDay();
-    var diff = d.getDate() - day + (day === 0 ? -6 : 1);
-    d.setDate(diff);
-    d.setHours(0, 0, 0, 0);
-    return d;
-  }
-
-  function renderCalendar() {
-    var cal = document.getElementById('mhCalendar');
-    if (!cal) return;
-
-    var today = new Date();
-    var ref = new Date(today);
-    ref.setDate(ref.getDate() + state.weekOffset * 7);
-    var monday = getMonday(ref);
-
-    var headerCells = cal.querySelectorAll('.mh-calendar__header');
-    var existingDays = cal.querySelectorAll('.mh-calendar__day, .mh-calendar__day--empty');
-    existingDays.forEach(function (el) { el.remove(); });
-
-    var movieMap = {};
-    state.movies.forEach(function (m) {
-      if (m.releaseDate) {
-        if (!movieMap[m.releaseDate]) movieMap[m.releaseDate] = [];
-        movieMap[m.releaseDate].push(m);
-      }
-    });
-
-    for (var i = 0; i < 7; i++) {
-      var dayDate = new Date(monday);
-      dayDate.setDate(monday.getDate() + i);
-      var dateStr = formatDate(dayDate);
-      var dayNum = dayDate.getDate();
-      var monthNum = dayDate.getMonth() + 1;
-      var yearNum = dayDate.getFullYear();
-      var isToday = dateStr === formatDate(today);
-      var hasMovie = movieMap[dateStr] && movieMap[dateStr].length > 0;
-      var isSelected = dateStr === state.selectedDate;
-
-      var dayEl = document.createElement('div');
-      dayEl.className = 'mh-calendar__day';
-      if (isToday) dayEl.classList.add('mh-calendar__day--today');
-      if (hasMovie) dayEl.classList.add('mh-calendar__day--has-movie');
-      if (isSelected) dayEl.classList.add('mh-calendar__day--selected');
-      dayEl.setAttribute('data-date', dateStr);
-
-      if (hasMovie) {
-        var emojiSpan = document.createElement('span');
-        emojiSpan.className = 'mh-calendar__emoji';
-        emojiSpan.textContent = movieMap[dateStr].length === 1 ? '🎬' : '🎬🎬';
-        dayEl.appendChild(emojiSpan);
-      }
-
-      var dateSpan = document.createElement('span');
-      dateSpan.className = 'mh-calendar__date';
-      dateSpan.textContent = dayNum + '/' + monthNum;
-      dayEl.appendChild(dateSpan);
-
-      dayEl.addEventListener('click', function (dateStr) {
-        return function () {
-          state.selectedDate = state.selectedDate === dateStr ? '' : dateStr;
-          renderCalendar();
-          applyFilterAndSearch();
-          renderMovieList();
-        };
-      }(dateStr));
-
-      cal.appendChild(dayEl);
-    }
-  }
-
-  function updateWeekLabel() {
-    var label = document.getElementById('mhWeekLabel');
-    if (!label) return;
-    var today = new Date();
-    var ref = new Date(today);
-    ref.setDate(ref.getDate() + state.weekOffset * 7);
-    var monday = getMonday(ref);
-    var sunday = new Date(monday);
-    sunday.setDate(monday.getDate() + 6);
-
-    var weekNum = getWeekNumber(monday);
-    var year = monday.getFullYear();
-    var monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
-      'July', 'August', 'September', 'October', 'November', 'December'];
-    label.textContent = 'Week ' + weekNum + ' (' + monthNames[monday.getMonth()] + ' ' + year + ')';
-  }
-
-  function getWeekNumber(d) {
-    var copy = new Date(d);
-    copy.setHours(0, 0, 0, 0);
-    copy.setDate(copy.getDate() + 3 - (copy.getDay() + 6) % 7);
-    var week1 = new Date(copy.getFullYear(), 0, 4);
-    return 1 + Math.round(((copy - week1) / 86400000 - 3 + (week1.getDay() + 6) % 7) / 7);
-  }
-
-  function formatDate(date) {
-    var y = date.getFullYear();
-    var m = String(date.getMonth() + 1).padStart(2, '0');
-    var d = String(date.getDate()).padStart(2, '0');
-    return y + '-' + m + '-' + d;
-  }
-
-  /* ─── Movie List ───────────────────────────────────── */
-
-  function renderMovieList() {
-    var list = document.getElementById('mhMovieList');
-    if (!list) return;
-
-    var source = state.selectedDate
-      ? state.movies.filter(function (m) { return m.releaseDate === state.selectedDate; })
-      : state.filtered;
-
-    list.innerHTML = '';
-
-    if (source.length === 0) {
-      list.appendChild(createEmptyState());
-      return;
-    }
-
-    source.forEach(function (movie) {
-      list.appendChild(createMovieCard(movie));
-    });
-  }
-
-  function createEmptyState() {
-    var div = document.createElement('div');
-    div.className = 'mh-empty';
-    var icon = document.createElement('div');
-    icon.className = 'mh-empty__icon';
-    icon.textContent = '🍿';
-    div.appendChild(icon);
-    var text = document.createElement('p');
-    text.className = 'mh-empty__text';
-    text.textContent = 'No movies found';
-    div.appendChild(text);
-    var sub = document.createElement('p');
-    sub.className = 'mh-empty__sub';
-    sub.textContent = 'Add your first movie to get started!';
-    div.appendChild(sub);
-    return div;
-  }
-
-  function createMovieCard(movie) {
-    var card = document.createElement('div');
-    card.className = 'mh-movie-card';
-
-    /* Top */
-    var top = document.createElement('div');
-    top.className = 'mh-movie-card__top';
-
-    /* Poster */
-    var poster = document.createElement('div');
-    poster.className = 'mh-movie-card__poster';
-    if (movie.posterUrl) {
-      var img = document.createElement('img');
-      img.className = 'mh-movie-card__poster';
-      img.src = movie.posterUrl;
-      img.alt = movie.title + ' poster';
-      img.loading = 'lazy';
-      img.onerror = function () {
-        this.style.display = 'none';
-        this.parentNode.classList.add('mh-movie-card__poster--empty');
-        this.parentNode.textContent = '🎬';
-      };
-      poster = img;
-    } else {
-      poster.classList.add('mh-movie-card__poster--empty');
-      poster.textContent = '🎬';
-    }
-
-    /* Info */
-    var info = document.createElement('div');
-    info.className = 'mh-movie-card__info';
-
-    var title = document.createElement('h3');
-    title.className = 'mh-movie-card__title';
-    title.textContent = movie.title;
-    info.appendChild(title);
-
-    var meta = document.createElement('div');
-    meta.className = 'mh-movie-card__meta';
-
-    if (movie.releaseDate) {
-      var dateSpan = document.createElement('span');
-      dateSpan.textContent = movie.releaseDate;
-      meta.appendChild(dateSpan);
-    }
-
-    if (movie.duration) {
-      var durSpan = document.createElement('span');
-      durSpan.textContent = movie.duration + ' min';
-      meta.appendChild(durSpan);
-    }
-
-    if (movie.special && movie.special.length > 0) {
-      var specials = document.createElement('div');
-      specials.className = 'mh-specials';
-      movie.special.forEach(function (s) {
-        var tag = document.createElement('span');
-        tag.className = 'mh-special';
-        tag.textContent = s;
-        specials.appendChild(tag);
-      });
-      meta.appendChild(specials);
-    }
-
-    info.appendChild(meta);
-
-    if (movie.summary) {
-      var summary = document.createElement('p');
-      summary.className = 'mh-movie-card__summary';
-      summary.textContent = movie.summary;
-      info.appendChild(summary);
-    }
-
-    top.appendChild(poster);
-    top.appendChild(info);
-    card.appendChild(top);
-
-    /* Bottom */
-    var bottom = document.createElement('div');
-    bottom.className = 'mh-movie-card__bottom';
-
-    var left = document.createElement('div');
-    left.style.display = 'flex';
-    left.style.alignItems = 'center';
-    left.style.gap = '0.75rem';
-    left.style.flexWrap = 'wrap';
-
-    /* Status badge */
-    var statusMap = {
-      upcoming: { class: 'upcoming', label: 'Upcoming' },
-      watching: { class: 'watching', label: 'Watching' },
-      watched: { class: 'watched', label: 'Watched' }
-    };
-    var st = statusMap[movie.status] || statusMap.upcoming;
-    var badge = document.createElement('span');
-    badge.className = 'mh-movie-card__status mh-movie-card__status--' + st.class;
-    badge.textContent = st.label;
-    left.appendChild(badge);
-
-    /* Rating */
-    if (movie.rating) {
-      var rating = document.createElement('span');
-      rating.className = 'mh-movie-card__rating';
-      rating.textContent = '★'.repeat(movie.rating) + '☆'.repeat(5 - movie.rating);
-      left.appendChild(rating);
-    }
-
-    bottom.appendChild(left);
-
-    /* Actions */
-    var actions = document.createElement('div');
-    actions.className = 'mh-movie-card__actions';
-
-    var editBtn = document.createElement('button');
-    editBtn.className = 'mh-movie-card__action';
-    editBtn.textContent = 'Edit';
-    editBtn.addEventListener('click', function (m) {
-      return function () { openEditModal(m); };
-    }(movie));
-
-    var delBtn = document.createElement('button');
-    delBtn.className = 'mh-movie-card__action mh-movie-card__action--danger';
-    delBtn.textContent = 'Delete';
-    delBtn.addEventListener('click', function (m) {
-      return function () { deleteMovie(m); };
-    }(movie));
-
-    actions.appendChild(editBtn);
-    actions.appendChild(delBtn);
-    bottom.appendChild(actions);
-
-    card.appendChild(bottom);
-    return card;
-  }
-
-  /* ─── Modal ────────────────────────────────────────── */
-
-  function openAddModal() {
-    state.editingId = null;
-    openModal({
-      title: '',
-      releaseDate: '',
-      summary: '',
-      duration: 120,
-      special: [],
-      status: 'upcoming',
-      rating: 0,
-      posterUrl: ''
-    }, 'Add Movie');
-  }
-
-  function openEditModal(movie) {
-    state.editingId = movie.id;
-    openModal({
-      title: movie.title || '',
-      releaseDate: movie.releaseDate || '',
-      summary: movie.summary || '',
-      duration: movie.duration || 120,
-      special: movie.special || [],
-      status: movie.status || 'upcoming',
-      rating: movie.rating || 0,
-      posterUrl: movie.posterUrl || ''
-    }, 'Edit Movie');
-  }
-
-  function openModal(data, modalTitle) {
-    removeExistingModal();
-
-    var overlay = document.createElement('div');
-    overlay.className = 'mh-overlay';
-    overlay.id = 'mhModalOverlay';
-
-    var modal = document.createElement('div');
-    modal.className = 'mh-modal';
-
-    /* Header */
-    var header = document.createElement('div');
-    header.className = 'mh-modal__header';
-    var hTitle = document.createElement('h2');
-    hTitle.className = 'mh-modal__title';
-    hTitle.textContent = modalTitle;
-    header.appendChild(hTitle);
-    var closeBtn = document.createElement('button');
-    closeBtn.className = 'mh-modal__close';
-    closeBtn.innerHTML = '&times;';
-    closeBtn.addEventListener('click', removeExistingModal);
-    header.appendChild(closeBtn);
-    modal.appendChild(header);
-
-    /* Form */
-    var form = document.createElement('div');
-    form.className = 'mh-form';
-
-    /* Title */
-    form.appendChild(createInputGroup('Movie Title', 'mhFormTitle', 'text', data.title, true));
-
-    /* Release Date */
-    form.appendChild(createInputGroup('Release Date', 'mhFormDate', 'date', data.releaseDate, false));
-
-    /* Summary */
-    var sumGroup = document.createElement('div');
-    sumGroup.className = 'mh-form__group';
-    var sumLabel = document.createElement('label');
-    sumLabel.className = 'mh-form__label';
-    sumLabel.textContent = 'Summary';
-    sumLabel.htmlFor = 'mhFormSummary';
-    sumGroup.appendChild(sumLabel);
-    var sumText = document.createElement('textarea');
-    sumText.id = 'mhFormSummary';
-    sumText.className = 'mh-form__textarea';
-    sumText.value = data.summary;
-    sumGroup.appendChild(sumText);
-    form.appendChild(sumGroup);
-
-    /* Row: Duration + Poster */
-    var row1 = document.createElement('div');
-    row1.className = 'mh-form__row';
-    row1.appendChild(createInputGroup('Duration (min)', 'mhFormDuration', 'number', data.duration, false));
-    row1.appendChild(createInputGroup('Poster URL (optional)', 'mhFormPoster', 'url', data.posterUrl, false));
-    form.appendChild(row1);
-
-    /* Special Formats */
-    var specGroup = document.createElement('div');
-    specGroup.className = 'mh-form__group';
-    var specLabel = document.createElement('label');
-    specLabel.className = 'mh-form__label';
-    specLabel.textContent = 'Special Formats';
-    specGroup.appendChild(specLabel);
-    var specWrap = document.createElement('div');
-    specWrap.className = 'mh-form__specials';
-    var formats = ['IMAX', '4DX', 'Dolby', '3D'];
-    formats.forEach(function (fmt) {
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'mh-form__special';
-      if (data.special.indexOf(fmt) !== -1) btn.classList.add('mh-form__special--active');
-      btn.textContent = fmt;
-      btn.addEventListener('click', function () {
-        btn.classList.toggle('mh-form__special--active');
-      });
-      specWrap.appendChild(btn);
-    });
-    specGroup.appendChild(specWrap);
-    form.appendChild(specGroup);
-
-    /* Status */
-    var statGroup = document.createElement('div');
-    statGroup.className = 'mh-form__group';
-    var statLabel = document.createElement('label');
-    statLabel.className = 'mh-form__label';
-    statLabel.textContent = 'Status';
-    statGroup.appendChild(statLabel);
-    var statWrap = document.createElement('div');
-    statWrap.className = 'mh-form__status';
-    var statuses = [
-      { val: 'upcoming', label: 'Upcoming' },
-      { val: 'watching', label: 'Watching' },
-      { val: 'watched', label: 'Watched' }
-    ];
-    var activeStatus = data.status || 'upcoming';
-    statuses.forEach(function (s) {
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'mh-form__status-option';
-      if (s.val === activeStatus) btn.classList.add('mh-form__status-option--active');
-      btn.textContent = s.label;
-      btn.setAttribute('data-value', s.val);
-      btn.addEventListener('click', function () {
-        statWrap.querySelectorAll('.mh-form__status-option').forEach(function (el) {
-          el.classList.remove('mh-form__status-option--active');
-        });
-        btn.classList.add('mh-form__status-option--active');
-      });
-      statWrap.appendChild(btn);
-    });
-    statGroup.appendChild(statWrap);
-    form.appendChild(statGroup);
-
-    /* Rating */
-    var ratGroup = document.createElement('div');
-    ratGroup.className = 'mh-form__group';
-    var ratLabel = document.createElement('label');
-    ratLabel.className = 'mh-form__label';
-    ratLabel.textContent = 'Rating';
-    ratGroup.appendChild(ratLabel);
-    var stars = document.createElement('div');
-    stars.className = 'mh-form__stars';
-    var currentRating = data.rating || 0;
-    for (var si = 1; si <= 5; si++) {
-      var starEl = document.createElement('span');
-      starEl.className = 'mh-form__star';
-      if (si <= currentRating) starEl.classList.add('mh-form__star--active');
-      starEl.textContent = '★';
-      starEl.setAttribute('data-rating', si);
-      starEl.addEventListener('click', function () {
-        var val = parseInt(this.getAttribute('data-rating'), 10);
-        stars.querySelectorAll('.mh-form__star').forEach(function (el) {
-          var r = parseInt(el.getAttribute('data-rating'), 10);
-          if (r <= val) el.classList.add('mh-form__star--active');
-          else el.classList.remove('mh-form__star--active');
-        });
-      });
-      stars.appendChild(starEl);
-    }
-    ratGroup.appendChild(stars);
-    form.appendChild(ratGroup);
-
-    /* Actions */
-    var actGroup = document.createElement('div');
-    actGroup.className = 'mh-form__actions';
-    var cancelBtn = document.createElement('button');
-    cancelBtn.type = 'button';
-    cancelBtn.className = 'mh-btn mh-btn--subtle';
-    cancelBtn.textContent = 'Cancel';
-    cancelBtn.addEventListener('click', removeExistingModal);
-    actGroup.appendChild(cancelBtn);
-    var saveBtn = document.createElement('button');
-    saveBtn.type = 'button';
-    saveBtn.className = 'mh-btn mh-btn--primary';
-    saveBtn.textContent = 'Save';
-    saveBtn.addEventListener('click', function () {
-      saveMovieFromModal();
-    });
-    actGroup.appendChild(saveBtn);
-    form.appendChild(actGroup);
-
-    modal.appendChild(form);
-    overlay.appendChild(modal);
-    document.body.appendChild(overlay);
-
-    /* Focus first input */
-    setTimeout(function () {
-      var firstInput = document.getElementById('mhFormTitle');
-      if (firstInput) firstInput.focus();
-    }, 100);
-  }
-
-  function removeExistingModal() {
-    var existing = document.getElementById('mhModalOverlay');
-    if (existing) existing.remove();
-  }
-
-  function createInputGroup(label, id, type, value, required) {
-    var group = document.createElement('div');
-    group.className = 'mh-form__group';
-
-    var lbl = document.createElement('label');
-    lbl.className = 'mh-form__label';
-    lbl.textContent = label;
-    lbl.htmlFor = id;
-    group.appendChild(lbl);
-
-    if (type === 'textarea') {
-      var ta = document.createElement('textarea');
-      ta.id = id;
-      ta.className = 'mh-form__textarea';
-      ta.value = value || '';
-      if (required) ta.setAttribute('required', '');
-      group.appendChild(ta);
-    } else {
-      var inp = document.createElement('input');
-      inp.type = type;
-      inp.id = id;
-      inp.className = 'mh-form__input';
-      inp.value = value || '';
-      if (required) inp.setAttribute('required', '');
-      group.appendChild(inp);
-    }
-
-    return group;
-  }
-
-  function getModalData() {
-    var title = (document.getElementById('mhFormTitle') || {}).value || '';
-    var releaseDate = (document.getElementById('mhFormDate') || {}).value || '';
-    var summary = (document.getElementById('mhFormSummary') || {}).value || '';
-    var duration = parseInt((document.getElementById('mhFormDuration') || {}).value, 10) || 0;
-    var posterUrl = (document.getElementById('mhFormPoster') || {}).value || '';
-
-    var special = [];
-    var specBtns = document.querySelectorAll('.mh-form__special');
-    specBtns.forEach(function (btn) {
-      if (btn.classList.contains('mh-form__special--active')) {
-        special.push(btn.textContent.trim());
-      }
-    });
-
-    var status = 'upcoming';
-    var statusBtns = document.querySelectorAll('.mh-form__status-option');
-    statusBtns.forEach(function (btn) {
-      if (btn.classList.contains('mh-form__status-option--active')) {
-        status = btn.getAttribute('data-value') || 'upcoming';
-      }
-    });
-
-    var rating = 0;
-    var starEls = document.querySelectorAll('.mh-form__star--active');
-    rating = starEls.length;
-
-    return { title: title.trim(), releaseDate: releaseDate.trim(), summary: summary.trim(), duration: duration, special: special, status: status, rating: rating, posterUrl: posterUrl.trim() };
-  }
-
-  /* ─── Save Movie ───────────────────────────────────── */
-
-  function saveMovieFromModal() {
-    var data = getModalData();
-    if (!data.title) {
-      showToast('Movie title is required.', 'error');
-      return;
-    }
-
-    var now = new Date().toISOString();
-    var movies = state.movies.slice();
-
-    if (state.editingId) {
-      var idx = -1;
-      for (var i = 0; i < movies.length; i++) {
-        if (movies[i].id === state.editingId) { idx = i; break; }
-      }
-      if (idx !== -1) {
-        movies[idx] = { id: state.editingId, title: data.title, releaseDate: data.releaseDate, summary: data.summary, duration: data.duration, special: data.special, status: data.status, rating: data.rating, posterUrl: data.posterUrl, createdAt: movies[idx].createdAt || now, updatedAt: now };
-      }
-    } else {
-      movies.push({ id: generateId(), title: data.title, releaseDate: data.releaseDate, summary: data.summary, duration: data.duration, special: data.special, status: data.status, rating: data.rating, posterUrl: data.posterUrl, createdAt: now, updatedAt: now });
-    }
-
-    var commitMsg = state.editingId ? 'Update movie: ' + data.title : 'Add movie: ' + data.title;
-    saveToGitHub(movies, commitMsg);
-  }
-
-  /* ─── Delete Movie ─────────────────────────────────── */
-
-  function deleteMovie(movie) {
-    if (!confirm('Delete "' + movie.title + '"? This cannot be undone.')) return;
-    var movies = state.movies.filter(function (m) { return m.id !== movie.id; });
-    saveToGitHub(movies, 'Delete movie: ' + movie.title);
-  }
-
-  /* ─── GitHub API ───────────────────────────────────── */
-
-  function saveToGitHub(movies, commitMsg) {
-    passcodeForApi(function (passcode) {
-      if (!passcode) return;
-      showLoading(true);
-
-      var payload = { movies: movies, message: commitMsg, updatedAt: new Date().toISOString() };
-      var apiUrl = API_BASE || '/api/movie-history';
-
-      fetch(apiUrl, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': 'Bearer ' + passcode
-        },
-        body: JSON.stringify(payload)
-      })
-        .then(function (res) {
-          if (!res.ok) {
-            return res.json().then(function (err) {
-              throw new Error((err && err.message) || 'API error: ' + res.status);
-            });
-          }
-          return res.json();
-        })
-        .then(function () {
-          state.movies = movies;
-          removeExistingModal();
-          render();
-          showToast(commitMsg + ' ✓', 'success');
-        })
-        .catch(function (err) {
-          console.error('MovieHistory save error:', err);
-          showToast('Save failed: ' + err.message, 'error');
-        })
-        .finally(function () {
-          showLoading(false);
-        });
-    });
-  }
-
-  /* ─── SHA-256 ──────────────────────────────────────── */
-
-  function sha256(str) {
-    var buf = new TextEncoder().encode(str);
-    return crypto.subtle.digest('SHA-256', buf).then(function (hash) {
-      var hex = '';
-      var bytes = new Uint8Array(hash);
-      for (var i = 0; i < bytes.length; i++) {
-        hex += bytes[i].toString(16).padStart(2, '0');
-      }
-      return hex;
-    });
-  }
-
-  /* ─── Passcode for API ────────────────────────────── */
-
-  var SAVE_HASH = '78c72f67941a420cd4e5ee9fdabcaeaba6d72f16160915085f9802220fd83799';
-
-  function passcodeForApi(callback) {
-    var code = prompt('Enter OTP to save changes:');
-    if (!code || !code.trim()) { callback(null); return; }
-
-    sha256(code.trim()).then(function (hash) {
-      if (hash === SAVE_HASH) {
-        callback(code.trim());
-      } else {
-        showToast('Incorrect OTP.', 'error');
-        callback(null);
-      }
-    });
-  }
-
-  /* ─── UI Helpers ───────────────────────────────────── */
-
-  function showLoading(show) {
-    var loading = document.getElementById('mhLoading');
-    if (!loading) return;
-    loading.style.display = show ? '' : 'none';
-  }
-
-  function showToast(msg, type) {
-    var existing = document.getElementById('mhToast');
-    if (existing) existing.remove();
-
-    var toast = document.createElement('div');
-    toast.id = 'mhToast';
-    toast.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);z-index:2000;padding:12px 24px;border-radius:12px;font-size:0.88rem;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,0.15);transition:opacity 0.3s;max-width:90vw;text-align:center;';
-    if (type === 'error') {
-      toast.style.background = 'rgba(224,122,122,0.95)';
-      toast.style.color = '#fff';
-    } else if (type === 'warning') {
-      toast.style.background = 'rgba(232,168,56,0.95)';
-      toast.style.color = '#fff';
-    } else {
-      toast.style.background = 'rgba(0,167,160,0.95)';
-      toast.style.color = '#fff';
-    }
-    toast.textContent = msg;
-    document.body.appendChild(toast);
-
-    setTimeout(function () {
-      toast.style.opacity = '0';
-      setTimeout(function () { if (toast.parentNode) toast.remove(); }, 300);
-    }, 3000);
-  }
-
-  function generateId() {
-    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-      var r = Math.random() * 16 | 0;
-      return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
-    });
-  }
-
-  /* ─── Event Listeners ──────────────────────────────── */
-
-  document.addEventListener('DOMContentLoaded', function () {
-    init();
-
-    /* Week nav */
-    var prevBtn = document.getElementById('mhPrevWeek');
-    var nextBtn = document.getElementById('mhNextWeek');
-    if (prevBtn) prevBtn.addEventListener('click', function () { state.weekOffset -= 1; state.selectedDate = ''; render(); });
-    if (nextBtn) nextBtn.addEventListener('click', function () { state.weekOffset += 1; state.selectedDate = ''; render(); });
-
-    /* Add button */
-    var addBtn = document.getElementById('mhAddBtn');
-    if (addBtn) addBtn.addEventListener('click', openAddModal);
-
-    /* Search / Filter */
-    var search = document.getElementById('mhSearch');
-    var filter = document.getElementById('mhFilter');
-    function onSearchFilter() { render(); }
-    if (search) search.addEventListener('input', onSearchFilter);
-    if (filter) filter.addEventListener('change', onSearchFilter);
-
-    /* Close modal on overlay click */
-    document.addEventListener('click', function (e) {
-      if (e.target.classList.contains('mh-overlay')) {
-        removeExistingModal();
-      }
-    });
-
-    /* Close modal on Escape */
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') removeExistingModal();
-    });
-  });
-
+(function(){'use strict';
+var AH='78c72f67941a420cd4e5ee9fdabcaeaba6d72f16160915085f9802220fd83799',SK='mh_unlocked',DB='mh_db',TOKEN_KEY='mh_gh_token',
+GH_OWNER='banhang-chogao',GH_REPO='reviewchanthat',GH_PATH='data/movie-history.json',GH_BRANCH='main';
+
+var S={movies:[],filtered:[],currentMonthStart:null,searchQuery:'',filterStatus:'all',editingId:null,_pendingDate:null,_selectedMovie:null};
+var STATUS_MAP={watching:{key:'watching',label:'Watching',emoji:'🟢',color:'#4caf50'},'coming-soon':{key:'coming-soon',label:'Coming Soon',emoji:'🔵',color:'#2196f3'},'need-ticket':{key:'need-ticket',label:'Need Ticket',emoji:'🟡',color:'#ff9800'},waiting:{key:'waiting',label:'Waiting',emoji:'🟠',color:'#ff5722'},'sold-out':{key:'sold-out',label:'Sold Out',emoji:'🔴',color:'#f44336'},cancelled:{key:'cancelled',label:'Cancelled',emoji:'⚫',color:'#9e9e9e'}};
+var STATUS_LEGACY={upcoming:'coming-soon',watched:'sold-out'};
+
+function getStatus(s){return STATUS_MAP[s]||STATUS_MAP[STATUS_LEGACY[s]]||STATUS_MAP['coming-soon']}
+function sha(s){var b=new TextEncoder().encode(s);return crypto.subtle.digest('SHA-256',b).then(function(h){var x='',u=new Uint8Array(h);for(var i=0;i<u.length;i++)x+=u[i].toString(16).padStart(2,'0');return x})}
+function gId(){return Date.now().toString(36)+Math.random().toString(36).slice(2,10)}
+function getGHReadURL(){return 'https://raw.githubusercontent.com/'+GH_OWNER+'/'+GH_REPO+'/'+GH_BRANCH+'/'+GH_PATH+'?_='+Date.now()}
+function getGHAPIURL(){return 'https://api.github.com/repos/'+GH_OWNER+'/'+GH_REPO+'/contents/'+GH_PATH}
+function getToken(){return localStorage.getItem(TOKEN_KEY)||''}
+function setToken(t){if(t){localStorage.setItem(TOKEN_KEY,t)}else{localStorage.removeItem(TOKEN_KEY)}}
+
+function loadMovies(){var url=getGHReadURL();return fetch(url,{cache:'no-cache'}).then(function(r){if(r.status===404)return{movies:[]};if(!r.ok)throw new Error('Read failed: '+r.status);return r.json()}).then(function(d){S.movies=Array.isArray(d.movies)?d.movies.map(function(m){m.status=STATUS_LEGACY[m.status]||m.status;return m}):[];aF();rM();uC();showIdleList()})['catch'](function(e){console.warn('Load failed:',e);S.movies=[];aF();rM();uC();showIdleList()})}
+
+function saveMovies(){var token=getToken();if(!token){alert('Cần nhập GitHub token để lưu.');sT();return Promise.reject('No token')}return sR(2)}
+function sR(retries){var token=getToken();var data={movies:S.movies,updatedAt:new Date().toISOString()};var json=JSON.stringify(data,null,2)+'\n';var content=btoa(unescape(encodeURIComponent(json)));var pb=document.getElementById('mhProgressBar'),pf=document.getElementById('mhProgressFill'),ps=document.getElementById('mhProgressStage'),psha=document.getElementById('mhProgressSha');function ss(icon,text,pct){if(!ps)return;ps.innerHTML='<span class="mh-progress-bar__icon">'+icon+'</span><span class="mh-progress-bar__text">'+text+'</span>';if(pf)pf.style.width=pct+'%'}if(pb)pb.style.display='';if(psha)psha.textContent='';if(pf){pf.style.background='';pf.style.width='0%'}ss('🔍','Đang kết nối GitHub...',20);var apiUrl=getGHAPIURL();return fetch(apiUrl,{headers:{'Accept':'application/vnd.github.v3+json'}}).then(function(r){if(r.status===404)return null;if(!r.ok)throw new Error('Get SHA failed: '+r.status);return r.json()}).then(function(existing){ss('📤','Đang đẩy dữ liệu lên GitHub ('+S.movies.length+' phim)...',55);var body={message:'movie-history: save '+S.movies.length+' movies',content:content,branch:GH_BRANCH};if(existing)body.sha=existing.sha;return fetch(apiUrl,{method:'PUT',headers:{'Authorization':'token '+token,'Content-Type':'application/json','Accept':'application/vnd.github.v3+json'},body:JSON.stringify(body)})}).then(function(r){if(!r.ok)return r.json().then(function(e){if(e.message&&e.message.indexOf('does not match')!==-1&&retries>0)return sR(retries-1);throw new Error('GitHub write failed: '+(e.message||r.status))});return r.json()}).then(function(res){ss('✅','Lưu thành công!',100);var sha=(res&&res.content&&res.content.sha)||'';if(sha&&psha)psha.textContent='Commit: '+sha.slice(0,7);if(pb)setTimeout(function(){pb.style.display='none'},1800);hSC()})['catch'](function(err){ss('❌','Lỗi: '+err.message,100);if(pf)pf.style.background='var(--mh-red,#e74c3c)';if(pb)setTimeout(function(){pb.style.display='none';if(pf)pf.style.background=''},5000);throw err})}
+
+function sT(){var t=prompt('Nhập GitHub Personal Access Token (cần quyền contents write):',getToken());if(t!==null){setToken(t.trim());if(t.trim())alert('Token đã lưu.')}}
+
+function iG(){var g=document.getElementById('mhGate'),a=document.getElementById('mhApp'),i=document.getElementById('mhGateInput'),b=document.getElementById('mhGateUnlock'),e=document.getElementById('mhGateError'),ac=0,la=0;if(sessionStorage.getItem(SK)==='1'){g.style.display='none';a.style.display='';aU();return}function dU(){var c=i.value.trim();if(!c||c.length!==4){e.textContent='Please enter all 4 digits.';return}var n=Date.now();if(n-la<2000){e.textContent='Too fast. Wait 2 seconds.';return}la=n;ac++;if(ac>5){e.textContent='Too many attempts. Reload to retry.';b.disabled=true;i.disabled=true;return}sha(c).then(function(h){if(h===AH){sessionStorage.setItem(SK,'1');g.style.display='none';a.style.display='';aU()}else{e.textContent='Wrong code. '+(5-ac)+' attempts left.';i.value='';i.focus()}})}b.addEventListener('click',dU);i.addEventListener('keydown',function(e){if(e.key==='Enter')dU()});i.focus()}
+
+function aU(){loadMovies()}
+// Calendar-first UX: only show movie details when user selects a day/cell with data
+function clearDaySelection(){var sel=document.querySelectorAll('.mh-calendar__day--selected');sel.forEach(function(c){c.classList.remove('mh-calendar__day--selected')});S._pendingDate=null}
+function markDaySelected(ds){var cal=document.getElementById('mhCalendar');if(!cal)return;var prev=cal.querySelectorAll('.mh-calendar__day--selected');prev.forEach(function(c){c.classList.remove('mh-calendar__day--selected')});var cell=cal.querySelector('.mh-calendar__day[data-date="'+ds+'"]');if(cell)cell.classList.add('mh-calendar__day--selected');S._pendingDate=ds}
+function showIdleList(){var list=document.getElementById('mhMovieList'),loading=document.getElementById('mhLoading');if(loading)loading.style.display='none';if(!list)return;list.innerHTML='<div class="mh-empty mh-empty--idle"><div class="mh-empty__icon">📅</div><p class="mh-empty__text">Chọn ngày trên lịch để xem phim</p><p class="mh-empty__sub">Chỉ ngày có dữ liệu mới hiển thị thông tin movie. Click lại ngày đang chọn để bỏ chọn.</p></div>';hideSelectedPanel();S._pendingDate=null}
+function showEmptyDay(ds){var list=document.getElementById('mhMovieList'),loading=document.getElementById('mhLoading');if(loading)loading.style.display='none';if(!list)return;var label=ds?formatDate(new Date(ds+'T00:00:00')):('ngày này');list.innerHTML='<div class="mh-empty mh-empty--idle"><div class="mh-empty__icon">📭</div><p class="mh-empty__text">Không có phim ngày '+es(label)+'</p><p class="mh-empty__sub">Chọn ngày khác có thẻ phim trên calendar, hoặc bấm ＋ Add Movie.</p></div>';hideSelectedPanel()}
+function hideSelectedPanel(){var panel=document.getElementById('mhSelectedPanel');if(panel){panel.hidden=true;panel.classList.remove('is-open');panel.style.display=''}var sw=document.getElementById('mhPanelDaySwitch');if(sw){sw.hidden=true;sw.innerHTML=''}var main=document.querySelector('.mh-main');if(main)main.classList.remove('mh-main--detail');S._selectedMovie=null;document.querySelectorAll('.mh-movie-card--active').forEach(function(c){c.classList.remove('mh-movie-card--active')});document.querySelectorAll('.mh-event-card--active').forEach(function(c){c.classList.remove('mh-event-card--active')})}
+function clearMovieList(){var list=document.getElementById('mhMovieList'),loading=document.getElementById('mhLoading');if(loading)loading.style.display='none';if(list)list.innerHTML=''}
+/* Sibling chips live INSIDE the single detail card — never a second section */
+function fillDayChips(ds,activeId){var host=document.getElementById('mhPanelDaySwitch');if(!host)return;var dm=S.movies.filter(function(m){return m.date===ds}).sort(function(a,b){if(a.time&&b.time)return a.time.localeCompare(b.time);if(a.time)return-1;if(b.time)return 1;return 0});if(dm.length<=1){host.hidden=true;host.innerHTML='';return}var html='<div class="mh-day-switch" role="tablist" aria-label="Phim trong ngày">';dm.forEach(function(m){var st=getStatus(m.status);var active=m.id===activeId?' mh-day-switch__chip--active':'';html+='<button type="button" class="mh-day-switch__chip'+active+'" role="tab" data-movie-id="'+m.id+'" data-date="'+ds+'" aria-selected="'+(m.id===activeId?'true':'false')+'"><span class="mh-day-switch__dot mh-day-switch__dot--'+st.key+'" aria-hidden="true"></span><span class="mh-day-switch__title">'+es(m.title||'Untitled')+'</span>'+(m.time?'<span class="mh-day-switch__time">'+es(m.time)+'</span>':'')+'</button>'});html+='</div>';host.innerHTML=html;host.hidden=false;host.querySelectorAll('.mh-day-switch__chip').forEach(function(btn){btn.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();selectCalendarDay(this.dataset.date,{force:true,movieId:this.dataset.movieId})})})}
+function selectCalendarDay(ds,opts){opts=opts||{};if(!ds){clearDaySelection();showIdleList();return}if(!opts.force&&S._pendingDate===ds&&!opts.movieId){clearDaySelection();showIdleList();return}markDaySelected(ds);var dm=S.movies.filter(function(m){return m.date===ds});if(!dm.length){showEmptyDay(ds);return}
+/* Selected movie => ONLY the unified detail card (list cleared). Multi without pick => compact list only. */
+if(opts.movieId){var mv=S.movies.find(function(x){return x.id===opts.movieId});if(!mv){showEmptyDay(ds);return}clearMovieList();showSelectedMovie(mv);return}
+if(dm.length===1){clearMovieList();showSelectedMovie(dm[0]);return}
+hideSelectedPanel();filterByDate(ds)}
+function autoSelectToday(){/* visual only — do not open details without explicit user click */}
+function rM(){var now=new Date();if(!S.currentMonthStart)S.currentMonthStart=new Date(now.getFullYear(),now.getMonth(),1);uMLabel()}
+function uMLabel(){var ms=S.currentMonthStart;var months=['January','February','March','April','May','June','July','August','September','October','November','December'];var el=document.getElementById('mhWeekLabel');if(el)el.textContent=months[ms.getMonth()]+' '+ms.getFullYear()}
+
+function uC(){var cal=document.getElementById('mhCalendar');if(!cal)return;var olds=cal.querySelectorAll('.mh-calendar__day');olds.forEach(function(c){c.remove()});var ms=S.currentMonthStart;var fd=new Date(ms.getFullYear(),ms.getMonth(),1).getDay();var so=fd===0?6:fd-1;var dim=new Date(ms.getFullYear(),ms.getMonth()+1,0).getDate();for(var p=0;p<so;p++){var em=document.createElement('div');em.className='mh-calendar__day mh-calendar__day--empty';cal.appendChild(em)}for(var i=0;i<dim;i++){var d=new Date(ms.getFullYear(),ms.getMonth(),i+1);var ds=getISODate(d);var cell=document.createElement('div');cell.className='mh-calendar__day';cell.dataset.date=ds;var now=new Date(),td=getISODate(now);if(ds===td)cell.classList.add('mh-calendar__day--today');var dn=document.createElement('span');dn.className='mh-calendar__date';dn.textContent=d.getDate();cell.appendChild(dn);var dayMovies=S.movies.filter(function(m){return m.date===ds});dayMovies.sort(function(a,b){if(a.time&&b.time)return a.time.localeCompare(b.time);if(a.time)return-1;if(b.time)return 1;return 0});var maxV=3,mc=0;dayMovies.forEach(function(m,idx){if(idx>=maxV){mc++;return}var card=document.createElement('div');var st=getStatus(m.status);card.className='mh-event-card mh-event-card--'+st.key;card.dataset.movieId=m.id;var dot=document.createElement('span');dot.className='mh-event-dot mh-event-dot--'+st.key;card.appendChild(dot);var ts=document.createElement('span');ts.className='mh-event-title';ts.textContent=m.title||'Untitled';card.appendChild(ts);if(m.time){var ti=document.createElement('span');ti.className='mh-event-time';ti.textContent=m.time;card.appendChild(ti)}if(m.cinema){var ve=document.createElement('span');ve.className='mh-event-venue';ve.textContent=m.cinema;card.appendChild(ve)}var xb=document.createElement('span');xb.className='mh-event-del';xb.textContent='✕';xb.title='Delete';xb.addEventListener('click',function(e){e.stopPropagation();if(!confirm('Delete "'+m.title+'"?'))return;S.movies=S.movies.filter(function(x){return x.id!==m.id});saveMovies().then(function(){aF();uC();if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else{showIdleList()}})['catch'](function(err){alert('Save failed: '+err.message);aF();uC();if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else{showIdleList()}})});card.appendChild(xb);card.addEventListener('click',function(e){e.stopPropagation();var mid=this.dataset.movieId;var ds=this.parentElement&&this.parentElement.dataset.date;if(ds)selectCalendarDay(ds,{force:true,movieId:mid});else{var mv=S.movies.find(function(x){return x.id===mid});if(mv){if(mv.date)selectCalendarDay(mv.date,{force:true,movieId:mid});else showSelectedMovie(mv)}}});cell.appendChild(card)});if(mc>0){var mo=document.createElement('div');mo.className='mh-event-more';mo.textContent='+'+mc+' more';mo.addEventListener('click',function(e){e.stopPropagation();var ds=this.parentElement.dataset.date;selectCalendarDay(ds,{force:true})});cell.appendChild(mo)}cell.addEventListener('click',function(){selectCalendarDay(this.dataset.date)});cal.appendChild(cell)}}
+
+function metaItem(icon,label,value){return'<div class="mh-detail__meta-item"><span class="mh-detail__meta-icon" aria-hidden="true">'+icon+'</span><div class="mh-detail__meta-body"><span class="mh-detail__meta-label">'+label+'</span><span class="mh-detail__meta-value">'+value+'</span></div></div>'}
+function shareMovie(m){var lines=[m.title||'Untitled'];if(m.date)lines.push('📅 '+formatDate(new Date(m.date+'T00:00:00')));if(m.time)lines.push('🕒 '+m.time);if(m.cinema)lines.push('🎬 '+m.cinema);if(m.hall)lines.push('🎟 '+m.hall);var text=lines.join('\n');if(navigator.share){navigator.share({title:m.title||'Movie',text:text})['catch'](function(){})}else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(function(){alert('Copied movie details to clipboard.')})['catch'](function(){prompt('Copy movie details:',text)})}else{prompt('Copy movie details:',text)}}
+function exportOneMovie(m){var blob=new Blob([JSON.stringify(m,null,2)],{type:'application/json'});var url=URL.createObjectURL(blob);var a=document.createElement('a');a.href=url;a.download=(m.title||'movie').replace(/[^\w\-]+/g,'_').slice(0,60)+'.json';a.click();URL.revokeObjectURL(url)}
+function setupSynopsisCollapse(){var syn=document.getElementById('mhPanelSynopsis'),btn=document.getElementById('mhPanelReadMore');if(!syn||!btn)return;syn.classList.remove('is-expanded');btn.hidden=true;btn.setAttribute('aria-expanded','false');btn.textContent='Read more';requestAnimationFrame(function(){var needs=syn.scrollHeight>syn.clientHeight+4;if(needs){btn.hidden=false;btn.onclick=function(){var open=syn.classList.toggle('is-expanded');btn.setAttribute('aria-expanded',open?'true':'false');btn.textContent=open?'Show less':'Read more'}}})}
+function showSelectedMovie(m){var panel=document.getElementById('mhSelectedPanel'),card=document.getElementById('mhDetailCard'),titleEl=document.getElementById('mhPanelTitle'),posterEl=document.getElementById('mhPanelPoster'),statusEl=document.getElementById('mhPanelStatus'),ratingEl=document.getElementById('mhPanelRating'),tagsEl=document.getElementById('mhPanelTags'),metaEl=document.getElementById('mhPanelMeta'),synWrap=document.getElementById('mhPanelSynopsisWrap'),synEl=document.getElementById('mhPanelSynopsis');if(!panel||!m)return;/* reuse single panel DOM — never create a second detail tree */S._selectedMovie=m;if(m.date){fillDayChips(m.date,m.id)}else{var _h=document.getElementById('mhPanelDaySwitch');if(_h){_h.hidden=true;_h.innerHTML=''}}document.querySelectorAll('.mh-movie-card--active').forEach(function(c){c.classList.remove('mh-movie-card--active')});document.querySelectorAll('.mh-event-card--active').forEach(function(c){c.classList.remove('mh-event-card--active')});var listCard=document.querySelector('.mh-movie-card[data-movie-id="'+m.id+'"]');if(listCard)listCard.classList.add('mh-movie-card--active');var evCard=document.querySelector('.mh-event-card[data-movie-id="'+m.id+'"]');if(evCard)evCard.classList.add('mh-event-card--active');if(m.date)markDaySelected(m.date);if(titleEl)titleEl.textContent=m.title||'Untitled';var st=getStatus(m.status);if(statusEl){statusEl.className='mh-detail__status mh-detail__status--'+st.key;statusEl.textContent=st.emoji+' '+st.label}if(ratingEl){if(m.rating&&m.rating>0){ratingEl.hidden=false;ratingEl.setAttribute('aria-label','Rating '+m.rating+' of 5');ratingEl.textContent='⭐'.repeat(m.rating)+'☆'.repeat(Math.max(0,5-m.rating))}else{ratingEl.hidden=true;ratingEl.textContent=''}}if(tagsEl){if(m.specials&&m.specials.length){tagsEl.hidden=false;tagsEl.innerHTML=m.specials.map(function(s){return'<span class="mh-detail__tag">'+es(s)+'</span>'}).join('')}else{tagsEl.hidden=true;tagsEl.innerHTML=''}}if(posterEl){posterEl.innerHTML='';if(m.posterUrl){var img=document.createElement('img');img.src=m.posterUrl;img.alt='';img.loading='lazy';img.onerror=function(){posterEl.textContent=m.emoji||'🎬'};posterEl.appendChild(img)}else{posterEl.textContent=m.emoji||'🎬'}}if(metaEl){var rows=[];if(m.date)rows.push(metaItem('📅','Date',es(formatDate(new Date(m.date+'T00:00:00')))));if(m.time)rows.push(metaItem('🕒','Time',es(m.time)));if(m.cinema)rows.push(metaItem('🎬','Cinema',es(m.cinema)));if(m.hall)rows.push(metaItem('🎟','Hall',es(m.hall)));if(m.location)rows.push(metaItem('📍','Location',es(m.location)));if(m.year)rows.push(metaItem('📆','Year',String(m.year)));metaEl.innerHTML=rows.join('');metaEl.hidden=rows.length===0}if(synWrap&&synEl){if(m.summary&&m.summary.trim()){synWrap.hidden=false;synEl.textContent=m.summary;setupSynopsisCollapse()}else{synWrap.hidden=true;synEl.textContent=''}}var editBtn=document.getElementById('mhPanelEdit'),deleteBtn=document.getElementById('mhPanelDelete'),shareBtn=document.getElementById('mhPanelShare'),exportBtn=document.getElementById('mhPanelExport');if(editBtn)editBtn.onclick=function(){oS(m)};if(deleteBtn)deleteBtn.onclick=function(){if(!confirm('Delete "'+m.title+'"?'))return;S.movies=S.movies.filter(function(x){return x.id!==m.id});saveMovies().then(function(){aF();uC();hideSelectedPanel();if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else{showIdleList()}})['catch'](function(err){alert('Save failed: '+err.message);aF();uC();showIdleList()})};if(shareBtn)shareBtn.onclick=function(){shareMovie(m)};if(exportBtn)exportBtn.onclick=function(){exportOneMovie(m)};var actions=document.getElementById('mhPanelActions'),existingTicket=document.getElementById('mhPanelTicket');if(existingTicket)existingTicket.remove();if(actions&&m.ticket_url){var ticketBtn=document.createElement('button');ticketBtn.type='button';ticketBtn.className='mh-detail__action mh-detail__action--primary';ticketBtn.id='mhPanelTicket';ticketBtn.setAttribute('aria-label','Buy ticket');ticketBtn.textContent='🎫 Ticket';ticketBtn.onclick=function(){window.open(m.ticket_url,'_blank')};actions.insertBefore(ticketBtn,actions.firstChild)}panel.hidden=false;panel.classList.add('is-open');panel.style.display='';requestAnimationFrame(function(){panel.scrollIntoView({behavior:'smooth',block:'nearest'});if(card){try{card.focus({preventScroll:true})}catch(e){card.focus()}}})}
+
+function filterByDate(ds){S._pendingDate=ds;var searchEl=document.getElementById('mhSearch');if(searchEl)searchEl.value='';S.filterStatus='all';var filterEl=document.getElementById('mhFilter');if(filterEl)filterEl.value='all';S.searchQuery='';aF();rL(function(m){return m.date===ds})}
+
+document.getElementById('mhPrevWeek').addEventListener('click',function(){var ms=new Date(S.currentMonthStart);ms.setMonth(ms.getMonth()-1);S.currentMonthStart=ms;S._pendingDate=null;uMLabel();uC();showIdleList()});
+document.getElementById('mhNextWeek').addEventListener('click',function(){var ms=new Date(S.currentMonthStart);ms.setMonth(ms.getMonth()+1);S.currentMonthStart=ms;S._pendingDate=null;uMLabel();uC();showIdleList()});
+var todayBtn=document.getElementById('mhTodayBtn');if(todayBtn)todayBtn.addEventListener('click',function(){var now=new Date();S.currentMonthStart=new Date(now.getFullYear(),now.getMonth(),1);S._pendingDate=null;uMLabel();uC();showIdleList();autoSelectToday()});
+
+function aF(){var f=S.movies.slice(),q=S.searchQuery.toLowerCase();if(S.filterStatus!=='all')f=f.filter(function(m){return m.status===S.filterStatus});if(q){f=f.filter(function(m){return(m.title||'').toLowerCase().indexOf(q)!==-1||(m.summary||'').toLowerCase().indexOf(q)!==-1||(m.cinema||'').toLowerCase().indexOf(q)!==-1||(m.specials||[]).some(function(s){return s.toLowerCase().indexOf(q)!==-1})})}f.sort(function(a,b){return(b.year||0)-a.year||(b.rating||0)-a.rating});S.filtered=f}
+
+function rL(filterFn){var list=document.getElementById('mhMovieList'),loading=document.getElementById('mhLoading');if(loading)loading.style.display='none';if(!list)return;list.innerHTML='';var movies=filterFn?S.movies.filter(filterFn):S.filtered;if(!movies||movies.length===0){list.innerHTML='<div class="mh-empty"><div class="mh-empty__icon">🎬</div><p class="mh-empty__text">No movies found</p><p class="mh-empty__sub">Click a date on the calendar or add your first movie.</p></div>';return}for(var i=0;i<movies.length;i++){var m=movies[i];var card=document.createElement('div');card.className='mh-movie-card mh-movie-card--compact';card.dataset.date=m.date||'';card.dataset.movieId=m.id;card.setAttribute('role','button');card.setAttribute('tabindex','0');card.setAttribute('aria-label','Select movie '+(m.title||'Untitled'));card.innerHTML=rC(m);function onPick(el){var mid=el.dataset.movieId;var mv=S.movies.find(function(x){return x.id===mid});if(!mv)return;if(mv.date)selectCalendarDay(mv.date,{force:true,movieId:mid});else{clearMovieList();showSelectedMovie(mv)}}card.addEventListener('click',function(e){if(e.target.closest('[data-edit],[data-delete]'))return;onPick(this)});card.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();onPick(this)}});list.appendChild(card)}}
+
+/* Compact picker only — full detail lives solely in #mhSelectedPanel */
+function rC(m){var st=getStatus(m.status);var meta='';if(m.time)meta+='<span>'+es(m.time)+'</span>';if(m.cinema)meta+='<span>'+es(m.cinema)+'</span>';if(m.hall)meta+='<span>'+es(m.hall)+'</span>';return'<div class="mh-movie-card__top"><div class="mh-movie-card__poster" aria-hidden="true">🎬</div><div class="mh-movie-card__info"><h3 class="mh-movie-card__title">'+es(m.title||'Untitled')+'</h3>'+(meta?'<div class="mh-movie-card__meta">'+meta+'</div>':'')+'</div></div><div class="mh-movie-card__bottom"><span class="mh-movie-card__status mh-movie-card__status--'+st.key+'">'+st.emoji+' '+st.label+'</span><div class="mh-movie-card__actions"><button type="button" class="mh-movie-card__action" data-edit="'+m.id+'" aria-label="Edit '+es(m.title||'')+'">✏ Edit</button><button type="button" class="mh-movie-card__action mh-movie-card__action--danger" data-delete="'+m.id+'" aria-label="Delete '+es(m.title||'')+'">🗑 Delete</button></div></div>'}
+
+document.getElementById('mhMovieList').addEventListener('click',function(e){var t=e.target;if(t.dataset.edit){var m=S.movies.find(function(x){return x.id===t.dataset.edit});if(m)oS(m)}else if(t.dataset.delete){if(!confirm('Delete "'+(S.movies.find(function(x){return x.id===t.dataset.delete})||{}).title+'"?'))return;S.movies=S.movies.filter(function(x){return x.id!==t.dataset.delete});saveMovies().then(function(){aF();uC();S._pendingDate=null;showIdleList()})['catch'](function(err){alert('Save failed: '+err.message);aF();uC();showIdleList()})}});
+
+function oS(m){var ov=document.getElementById('mhOverlay'),title=document.getElementById('mhModalTitle'),id=document.getElementById('mhEditId'),fTitle=document.getElementById('mhFormTitle'),fDate=document.getElementById('mhFormDate'),fYear=document.getElementById('mhFormYear'),fTime=document.getElementById('mhFormTime'),fCinema=document.getElementById('mhFormCinema'),fHall=document.getElementById('mhFormHall'),fTicket=document.getElementById('mhFormTicketUrl'),fSummary=document.getElementById('mhFormSummary'),saveBtn=document.getElementById('mhFormSave');S.editingId=m?m.id:null;if(m){title.textContent='Edit Movie';id.value=m.id;fTitle.value=m.title;fDate.value=m.date||'';fYear.value=m.year||'';fTime.value=m.time||'';fCinema.value=m.cinema||'';fHall.value=m.hall||'';fTicket.value=m.ticket_url||'';fSummary.value=m.summary||'';setStars(m.rating||0);setStatus(m.status||'coming-soon');setSpecials(m.specials||[])}else{title.textContent='Add Movie';id.value='';fTitle.value='';fDate.value=S._pendingDate||getISODate(new Date());fYear.value='';fTime.value='';fCinema.value='';fHall.value='';fTicket.value='';fSummary.value='';setStars(0);setStatus('coming-soon');setSpecials([])}saveBtn.textContent=m?'💾 Update':'💾 Save';if(ov)ov.style.display=''}
+
+document.getElementById('mhModalClose').addEventListener('click',function(){var ov=document.getElementById('mhOverlay');if(ov)ov.style.display='none'});
+document.getElementById('mhFormCancel').addEventListener('click',function(){var ov=document.getElementById('mhOverlay');if(ov)ov.style.display='none'});
+document.getElementById('mhOverlay').addEventListener('click',function(e){if(e.target===this)this.style.display='none'});
+
+document.getElementById('mhForm').addEventListener('submit',function(e){e.preventDefault();var title=document.getElementById('mhFormTitle').value.trim();if(!title){alert('Movie title is required.');return}var date=document.getElementById('mhFormDate').value;var year=parseInt(document.getElementById('mhFormYear').value,10)||null;var time=document.getElementById('mhFormTime').value;var cinema=document.getElementById('mhFormCinema').value.trim();var hall=document.getElementById('mhFormHall').value.trim();var ticket_url=document.getElementById('mhFormTicketUrl').value.trim();var summary=document.getElementById('mhFormSummary').value.trim();var rating=S._selectedRating||0;var status=S._selectedStatus||'coming-soon';var specials=S._selectedSpecials||[];var editId=S.editingId;if(editId){var idx=S.movies.findIndex(function(x){return x.id===editId});if(idx!==-1){S.movies[idx]={id:editId,title:title,date:date||S.movies[idx].date,year:year,time:time,cinema:cinema,hall:hall,ticket_url:ticket_url,rating:rating,status:status,summary:summary,specials:specials,created:S.movies[idx].created,updated:Date.now()}}}else{var movieDate=date||getISODate(new Date());S.movies.push({id:gId(),title:title,date:movieDate,year:year,time:time,cinema:cinema,hall:hall,ticket_url:ticket_url,rating:rating,status:status,summary:summary,specials:specials,created:Date.now(),updated:Date.now()})}S._pendingDate=null;var ov=document.getElementById('mhOverlay');if(ov)ov.style.display='none';saveMovies().then(function(){aF();uC();if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else{showIdleList()}hideSelectedPanel()})['catch'](function(err){alert('Save failed: '+err.message+'\nPlease try again.')})});
+
+var stars=document.querySelectorAll('#mhFormStars .mh-form__star');
+stars.forEach(function(s){s.addEventListener('click',function(){var v=parseInt(this.dataset.value,10);setStars(v)})});
+function setStars(v){S._selectedRating=v;stars.forEach(function(s){s.classList.toggle('mh-form__star--active',parseInt(s.dataset.value,10)<=v)})}
+
+var statusOpts=document.querySelectorAll('#mhFormStatus .mh-form__status-option');
+statusOpts.forEach(function(s){s.addEventListener('click',function(){setStatus(this.dataset.value)})});
+function setStatus(v){S._selectedStatus=v;statusOpts.forEach(function(s){s.classList.toggle('mh-form__status-option--active',s.dataset.value===v)})}
+
+var specialChips=document.querySelectorAll('#mhFormSpecials .mh-form__special');
+specialChips.forEach(function(s){s.addEventListener('click',function(){var v=this.dataset.value;if(!S._selectedSpecials)S._selectedSpecials=[];var idx=S._selectedSpecials.indexOf(v);if(idx!==-1){S._selectedSpecials.splice(idx,1);this.classList.remove('mh-form__special--active')}else{S._selectedSpecials.push(v);this.classList.add('mh-form__special--active')}})});
+function setSpecials(v){S._selectedSpecials=v||[];specialChips.forEach(function(s){s.classList.toggle('mh-form__special--active',(v||[]).indexOf(s.dataset.value)!==-1)})}
+
+function getISODate(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+function formatDate(d){var days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];return days[d.getDay()===0?6:d.getDay()-1]+' '+d.getDate()+'/'+(d.getMonth()+1)+'/'+d.getFullYear()}
+function es(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
+// Sau khi lưu: không scroll, không bung UI — chỉ toast progress bar (fixed)
+function hSC(){}
+function lV(){var UI='unified-2';var BASE=(document.body&&document.body.getAttribute('data-site-base'))||'';fetch(BASE.replace(/\/$/,'')+'/build-info.json').then(function(r){if(!r.ok)return null;return r.json()})['catch'](function(){return null}).then(function(info){var el=document.getElementById('mhVersionBadge');if(!el)return;if(!info){el.textContent='Phiên bản dịch vụ: dev ('+UI+')';return}el.textContent='Phiên bản dịch vụ: '+info.generated_at_display.replace(' ','-'+info.short_sha+'_')+' · '+UI})}
+
+function exportMovies(){var json=JSON.stringify(S.movies,null,2);var blob=new Blob([json],{type:'application/json'});var url=URL.createObjectURL(blob);var a=document.createElement('a');a.href=url;a.download='movie-calendar-'+getISODate(new Date())+'.json';a.click();URL.revokeObjectURL(url)}
+
+var exportBtn=document.getElementById('mhExportBtn');if(exportBtn)exportBtn.addEventListener('click',exportMovies);
+var addBtn=document.getElementById('mhAddBtn');if(addBtn)addBtn.addEventListener('click',function(){oS()});
+var searchEl=document.getElementById('mhSearch');if(searchEl)searchEl.addEventListener('input',function(){S.searchQuery=this.value||'';aF();if((S.searchQuery||'').trim()){hideSelectedPanel();rL()}else if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else{showIdleList()}});
+var filterEl=document.getElementById('mhFilter');if(filterEl)filterEl.addEventListener('change',function(){S.filterStatus=this.value||'all';aF();if(S.filterStatus!=='all'){hideSelectedPanel();rL()}else if(S._pendingDate){selectCalendarDay(S._pendingDate,{force:true})}else if((S.searchQuery||'').trim()){rL()}else{showIdleList()}});
+iG();lV();
 })();
