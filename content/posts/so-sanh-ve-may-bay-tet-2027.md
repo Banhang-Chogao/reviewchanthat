@@ -25,6 +25,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-15T20:59:13+07:00"
 image_query = "so sánh giá vé máy"
+date_display = "15-07-2026 22:00:00 GMT +7"
 +++
 
 Năm nào cũng vậy, cứ đến tháng 7-8 là tôi bắt đầu nghe bạn bè than thở về giá vé máy bay Tết. Năm 2025 tôi chứng kiến một đồng nghiệp trả 12 triệu cho vé khứ hồi Sài Gòn - Hà Nội đúng ngày 28 Tết — gấp 4 lần giá ngày thường. Anh ta không đặt trước, không so sánh, không biết rằng chỉ cần đặt sớm 3 tháng đã tiết kiệm được 7 triệu.

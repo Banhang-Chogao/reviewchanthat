@@ -16,12 +16,7 @@ date_display = "15-07-2026 21:54:00 GMT +7"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "Thẻ tín dụng lần đầu nên chọn theo thói quen chi tiêu thật, không theo quà tặng mở thẻ.",
-  "Ba dòng phí hay ‘ẩn’: thường niên, trả chậm/lãi, và giao dịch quốc tế/rút tiền mặt.",
-  "Interest-free chỉ tồn tại nếu trả đủ sao kê đúng hạn; trả tối thiểu là cửa vào nợ quay vòng.",
-  "Người mới: hạn mức vừa phải, bật thông báo mọi giao dịch, khóa chi tiêu online khi không dùng.",
-]
+items = ["Thẻ tín dụng lần đầu nên chọn theo thói quen chi tiêu thật, không theo quà tặng mở thẻ.", "Ba dòng phí hay ‘ẩn’: thường niên, trả chậm/lãi, và giao dịch quốc tế/rút tiền mặt.", "Interest-free chỉ tồn tại nếu trả đủ sao kê đúng hạn; trả tối thiểu là cửa vào nợ quay vòng.", "Người mới: hạn mức vừa phải, bật thông báo mọi giao dịch, khóa chi tiêu online khi không dùng."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài chia sẻ kiến thức tài chính cá nhân mang tính giáo dục, không phải lời mời chào sản phẩm tín dụng cụ thể."

@@ -9,6 +9,7 @@ categories = ["review"]
 tags = ["spider-man", "marvel", "mcu", "tom-holland", "review-phim", "brand-new-day", "nguoi-nhen", "avengers-doomsday", "điện-ảnh-2026"]
 commit = "95e6ed3b"
 draft = false
+date_display = "15-07-2026 20:30:00 GMT +7"
 
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Spider-Man:_Brand_New_Day"

@@ -25,6 +25,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-15T20:59:11+07:00"
 image_query = "vietnam travel guide 2026 budget"
+date_display = "15-07-2026 21:30:00 GMT +7"
 +++
 
 I have traveled to Vietnam seven times in the past four years, and every single trip taught me something new. The first time I landed in Hanoi, I had no idea that crossing the street would be the most terrifying two minutes of my life. The second time, I learned that the $2 bowl of pho from a street cart in Saigon tastes better than any restaurant version I have ever had. By the seventh trip, I stopped making plans and started letting the country surprise me.

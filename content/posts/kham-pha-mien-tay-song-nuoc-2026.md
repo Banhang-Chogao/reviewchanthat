@@ -9,6 +9,7 @@ commit = "95e6ed3b"
 draft = false
 image = "images/posts/kham-pha-mien-tay-song-nuoc-2026.webp"
 thumbnail = "images/posts/kham-pha-mien-tay-song-nuoc-2026.webp"
+date_display = "15-07-2026 20:00:00 GMT +7"
 
 [[faq]]
 question = "Thời điểm nào đẹp nhất để du lịch miền Tây?"

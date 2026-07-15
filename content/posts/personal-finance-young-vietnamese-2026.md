@@ -1,7 +1,7 @@
 +++
 title = "Personal Finance for Young Vietnamese 2026: Budgeting, Saving & Investing Guide"
 description = "Personal finance guide for young Vietnamese professionals in 2026 — budgeting methods, emergency fund setup, savings accounts comparison, stock investing basics, and common money mistakes to avoid."
-date = "2026-07-15T23:00:00+07:00"
+date = "2026-07-15T22:08:44+07:00"
 draft = false
 categories = ["tai-chinh"]
 tags = ["personal finance Vietnam", "budgeting", "saving money Vietnam", "investing Vietnam", "financial literacy", "Vietnamese personal finance", "tai chinh ca nhan"]
@@ -25,6 +25,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-15T20:51:28+07:00"
 image_query = "credit card finance desk"
+date_display = "15-07-2026 22:08:44 GMT +7"
 +++
 
 I started my first job in 2019 with a starting salary of 8 million VND per month. The first year was a financial disaster. I spent 3 million on eating out, 2 million on coffee shops, and another 2 million on random things I did not need. By the end of the month, I often had zero savings and had to borrow money from friends for unexpected expenses.

@@ -9,6 +9,7 @@ commit = "9fdda51c"
 draft = false
 image = "images/posts/hoi-an-pho-co-di-san-the-gioi.webp"
 thumbnail = "images/posts/hoi-an-pho-co-di-san-the-gioi.webp"
+date_display = "15-07-2026 21:00:00 GMT +7"
 
 [[faq]]
 question = "Thời điểm nào đẹp nhất để đi Hội An?"

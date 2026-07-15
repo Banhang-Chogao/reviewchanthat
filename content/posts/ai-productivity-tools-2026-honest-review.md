@@ -9,6 +9,7 @@ commit = "565cc469"
 draft = false
 image = "images/posts/ai-productivity-tools-2026-honest-review.webp"
 thumbnail = "images/posts/ai-productivity-tools-2026-honest-review.webp"
+date_display = "15-07-2026 15:00:00 GMT +7"
 
 [[faq]]
 question = "Which AI productivity tool is best for writing and content creation?"

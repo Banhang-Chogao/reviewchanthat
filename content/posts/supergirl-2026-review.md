@@ -9,6 +9,7 @@ categories = ["review"]
 tags = ["supergirl", "dceu", "milly-alcock", "review-phim", "phim-sieu-anh-hung", "dc-universe", "phim-chieu-rap-2026"]
 commit = "9fdda51c"
 draft = false
+date_display = "15-07-2026 21:30:00 GMT +7"
 
 [[external_links]]
 url = "https://www.dc.com/movies/supergirl-woman-of-tomorrow"

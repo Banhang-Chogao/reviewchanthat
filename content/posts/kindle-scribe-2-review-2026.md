@@ -24,6 +24,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-15T20:43:42+07:00"
 image_query = "kindle scribe review six months"
+date_display = "15-07-2026 20:47:00 GMT +7"
 +++
 
 I have a confession. I have bought four e-readers in the past eight years, hoping each time that the next one would finally be the device that replaces both my bookshelf and my stack of notebooks. The basic Kindle did well for reading. The Kobo handled library books better. The reMarkable 2 came close for writing. But every single device forced me to compromise on one side of the equation.

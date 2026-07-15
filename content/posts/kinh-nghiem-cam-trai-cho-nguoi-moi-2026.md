@@ -1,7 +1,7 @@
 +++
 title = "Kinh nghiệm cắm trại cho người mới bắt đầu 2026: Đồ cần mang, địa điểm & lưu ý"
 description = "Kinh nghiệm cắm trại cho người mới: danh sách đồ cần mang theo, địa điểm cắm trại gần Sài Gòn và Hà Nội, cách dựng lều, nấu ăn ngoài trời và xử lý tình huống khẩn cấp."
-date = "2026-07-15T22:30:00+07:00"
+date = "2026-07-15T22:08:44+07:00"
 draft = false
 categories = ["doi-song"]
 tags = ["cắm trại", "camping", "kinh nghiệm cắm trại", "cắm trại cho người mới", "dụng cụ cắm trại", "outdoor", "dã ngoại"]
@@ -25,6 +25,7 @@ image_attribution_source = "pexels_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-15T20:59:14+07:00"
 image_query = "kinh nghiệm cắm trại người"
+date_display = "15-07-2026 22:08:44 GMT +7"
 +++
 
 Lần đầu tôi đi cắm trại là năm 2022, và nó thảm họa đến mức tôi suýt không bao giờ đi lần thứ hai. Tôi mang một cái lều mua vội ở cửa hàng thể thao với giá 200 nghìn, không thử dựng trước ở nhà. Kết quả: 2 giờ sáng, lều sập vì mưa, đồ đạc ướt hết, tôi và bạn gái phải bỏ chạy về nhà lúc 4 giờ sáng.

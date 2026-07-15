@@ -16,12 +16,7 @@ date_display = "15-07-2026 21:52:00 GMT +7"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "eSIM mua online trước chuyến đi thường rẻ và tiện hơn SIM sân bay, nhưng cần máy hỗ trợ eSIM và QR còn hạn.",
-  "SIM vật lý vẫn hữu ích nếu máy cũ, đi nhóm, hoặc muốn tách line data khỏi SIM Việt.",
-  "Hotspot, KakaoTalk và OTP ngân hàng là ba điểm hay vướng — kiểm tra gói có tethering và số 한국 번호 hay data-only.",
-  "Chọn gói theo số ngày thật + buffer 1 ngày, ưu tiên 4G/LTE unlimited (có fair use) nếu dùng map và dịch cả ngày.",
-]
+items = ["eSIM mua online trước chuyến đi thường rẻ và tiện hơn SIM sân bay, nhưng cần máy hỗ trợ eSIM và QR còn hạn.", "SIM vật lý vẫn hữu ích nếu máy cũ, đi nhóm, hoặc muốn tách line data khỏi SIM Việt.", "Hotspot, KakaoTalk và OTP ngân hàng là ba điểm hay vướng — kiểm tra gói có tethering và số 한국 번호 hay data-only.", "Chọn gói theo số ngày thật + buffer 1 ngày, ưu tiên 4G/LTE unlimited (có fair use) nếu dùng map và dịch cả ngày."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Nội dung dựa trên trải nghiệm thực tế và tổng hợp thông tin công khai tại thời điểm viết; giá gói data có thể thay đổi."

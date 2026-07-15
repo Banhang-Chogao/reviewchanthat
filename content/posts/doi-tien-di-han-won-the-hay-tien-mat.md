@@ -16,12 +16,7 @@ date_display = "15-07-2026 21:53:00 GMT +7"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "Không có một kênh đổi won nào luôn rẻ nhất: phải so rate + phí cố định + hạn mức, không chỉ nhìn tỷ giá lớn trên biển.",
-  "Mô hình hợp lý với nhiều người: thẻ chi tiêu chính (phí FX thấp) + một ít tiền mặt won cho chợ, tip nhỏ, chỗ không nhận thẻ.",
-  "Sân bay tiện nhưng thường không phải chỗ rate đẹp nhất; đổi cả cục tiền mặt ở đó hay bị lỗ im lặng.",
-  "Rút ATM Hàn bằng thẻ Việt có thể ổn nếu chọn đúng mạng lưới và tắt dynamic currency conversion (DCC).",
-]
+items = ["Không có một kênh đổi won nào luôn rẻ nhất: phải so rate + phí cố định + hạn mức, không chỉ nhìn tỷ giá lớn trên biển.", "Mô hình hợp lý với nhiều người: thẻ chi tiêu chính (phí FX thấp) + một ít tiền mặt won cho chợ, tip nhỏ, chỗ không nhận thẻ.", "Sân bay tiện nhưng thường không phải chỗ rate đẹp nhất; đổi cả cục tiền mặt ở đó hay bị lỗ im lặng.", "Rút ATM Hàn bằng thẻ Việt có thể ổn nếu chọn đúng mạng lưới và tắt dynamic currency conversion (DCC)."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài mang tính chia sẻ kinh nghiệm tài chính cá nhân khi đi Hàn, không phải tư vấn đầu tư hay khuyến nghị sản phẩm ngân hàng cụ thể."
