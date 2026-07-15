@@ -1,7 +1,7 @@
 +++
 title = "Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?"
 seo_title = "Review robot hút bụi lau nhà 2026: Roborock, Xiaomi, Ecovacs nên mua loại nào?"
-commit = ""
+commit = "1aceb865"
 date = "2026-07-14T03:00:00+07:00"
 slug = "review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs"
 draft = false
@@ -10,8 +10,8 @@ tags = ["robot hút bụi 2026", "robot lau nhà", "Roborock Qrevo Slim", "Xiaom
 description = "Review robot hút bụi lau nhà 2026: so sánh Roborock Qrevo Slim, Xiaomi X20+ và Ecovacs Deebot T30 sau một tháng dùng thực tế — hút, lau, bản đồ, app, giá bán tại Việt Nam."
 author = "Minh Hoàng"
 date_display = "14-07-2026 03:00:00 GMT +7"
-image = ""
-thumbnail = ""
+image = "images/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.webp"
+thumbnail = "images/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.webp"
 
 [[faq]]
 question = "Robot hút bụi lau nhà loại nào tốt nhất 2026?"
@@ -68,6 +68,19 @@ title = "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài c
 [[internal_links]]
 ref = "posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.md"
 title = "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus"
+image_source = "Pixabay"
+image_source_url = "https://pixabay.com/photos/buildings-chinatown-lau-pa-sat-food-6781336/"
+image_provider = "pixabay"
+image_license = "Pixabay Content License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "sgxp"
+image_creator_url = "https://pixabay.com/photos/buildings-chinatown-lau-pa-sat-food-6781336/"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pixabay_api"
+image_status = "verified"
 +++
 
 Khi bạn đi làm về lúc 7 giờ tối, mệt đừ người, và nhà thì vương vãi mấy hạt cát từ giày đi làm về, vài sợi tóc rụng, và lớp bụi mịn len lỏi từng ô gạch — thì một con robot tự động quét dọn trong khi bạn nằm ườm xem YouTube nghe có vẻ hấp dẫn.

@@ -8908,7 +8908,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs",
+      "title": "Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?",
+      "image_id": "img-a372687c",
+      "source_platform": "Pixabay",
+      "image_provider": "pixabay",
+      "source_url": "https://pixabay.com/photos/buildings-chinatown-lau-pa-sat-food-6781336/",
+      "direct_url": "https://pixabay.com/get/gef2d311a7dc17c90aa475d6b8d4a88fcbc1d3c635a209302799a4e8516638b941de22566e7218093b6174255dbd063ccbd94460e090b5a8ec1841bdc21fb1a2d_1280.jpg",
+      "creator": "sgxp",
+      "creator_url": "https://pixabay.com/photos/buildings-chinatown-lau-pa-sat-food-6781336/",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pixabay Content License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.jpg",
+      "output_path": "static/images/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.webp",
+      "watermark_text": "Source: Pixabay / sgxp",
+      "provider_used": "Pixabay",
+      "attribution_verified": true,
+      "attribution_source": "pixabay_api",
+      "image_query": "review robot hút bụi lau",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn? — nguồn Pixabay",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-15T11:09:44.791415+00:00"
+  "generated_at": "2026-07-15T12:21:19.586653+00:00"
 }
