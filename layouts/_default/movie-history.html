@@ -7,8 +7,10 @@
 {{ define "main" }}
 <article class="movie-history">
   <div class="movie-history__hero">
+    <div class="movie-history__hero-glow" aria-hidden="true"></div>
+    <p class="movie-history__hero-kicker">Personal cinema schedule</p>
     <h1 class="movie-history__hero-title">🎬 Movie Calendar</h1>
-    <p class="movie-history__hero-subtitle">Track every movie you plan to watch.</p>
+    <p class="movie-history__hero-subtitle">Lịch chiếu của bạn — countdown, ticket, favorites &amp; year in review.</p>
   </div>
 
   <div class="mh-gate" id="mhGate">
@@ -40,13 +42,30 @@
           <option value="cancelled">⚫ Cancelled</option>
         </select>
         <input type="text" class="mh-toolbar__search" id="mhSearch" placeholder="Search movies...">
+        <div class="mh-view-tabs" role="tablist" aria-label="View mode">
+          <button type="button" class="mh-view-tabs__btn is-active" id="mhViewCalendar" data-view="calendar" role="tab" aria-selected="true">Calendar</button>
+          <button type="button" class="mh-view-tabs__btn" id="mhViewList" data-view="list" role="tab" aria-selected="false">By cinema</button>
+        </div>
         <button class="mh-btn mh-btn--subtle" id="mhTokenBtn" title="Set GitHub token">🔑</button>
         <button class="mh-btn mh-btn--subtle" id="mhExportBtn" title="Export JSON">📥</button>
+        <button class="mh-btn mh-btn--subtle" id="mhIoToggle" title="Excel import/export" aria-expanded="false">📊 Excel</button>
       </div>
     </div>
 
-    <!-- Excel Import / Export (productivity; manual entry unchanged) -->
-    <div class="mh-io" id="mhIoPanel" aria-label="Import Export Excel">
+    <!-- Next up strip -->
+    <div class="mh-nextup" id="mhNextUp" hidden>
+      <div class="mh-nextup__icon" aria-hidden="true">🎞</div>
+      <div class="mh-nextup__body">
+        <p class="mh-nextup__label" id="mhNextUpLabel">Next up</p>
+        <p class="mh-nextup__title" id="mhNextUpTitle"></p>
+        <p class="mh-nextup__meta" id="mhNextUpMeta"></p>
+      </div>
+      <div class="mh-nextup__stats" id="mhNextUpStats"></div>
+      <button type="button" class="mh-nextup__cta" id="mhNextUpOpen">Open</button>
+    </div>
+
+    <!-- Excel Import / Export (collapsed by default) -->
+    <div class="mh-io" id="mhIoPanel" aria-label="Import Export Excel" hidden>
       <div class="mh-io__head">
         <h3 class="mh-io__title">Import / Export Excel</h3>
         <p class="mh-io__desc">Tải template chính thức, điền offline, import một click. Form ＋ Add Movie vẫn dùng bình thường.</p>
@@ -135,9 +154,9 @@
         </div>
       </div>
 
-      <!-- Single unified detail card — never a second movie-info section -->
+      <!-- Single ticket-style detail card -->
       <div class="mh-detail" id="mhSelectedPanel" hidden>
-        <article class="mh-detail__card" id="mhDetailCard" role="region" aria-labelledby="mhPanelTitle" tabindex="-1">
+        <article class="mh-detail__card mh-detail__card--ticket" id="mhDetailCard" role="region" aria-labelledby="mhPanelTitle" tabindex="-1">
           <div class="mh-detail__day-switch" id="mhPanelDaySwitch" hidden></div>
           <div class="mh-detail__header">
             <div class="mh-detail__poster" id="mhPanelPoster" aria-hidden="true">🎬</div>
@@ -146,12 +165,19 @@
                 <h3 class="mh-detail__title" id="mhPanelTitle"></h3>
                 <span class="mh-detail__status" id="mhPanelStatus"></span>
               </div>
+              <p class="mh-detail__countdown" id="mhPanelCountdown" hidden></p>
               <div class="mh-detail__rating" id="mhPanelRating" hidden></div>
               <div class="mh-detail__tags" id="mhPanelTags" hidden></div>
+              <div class="mh-detail__quick-status" id="mhPanelQuickStatus" role="group" aria-label="Quick status"></div>
             </div>
           </div>
 
           <div class="mh-detail__meta" id="mhPanelMeta" aria-label="Showtime details"></div>
+
+          <div class="mh-detail__trailer-wrap" id="mhPanelTrailerWrap" hidden>
+            <h4 class="mh-detail__section-label">Trailer</h4>
+            <div class="mh-detail__trailer" id="mhPanelTrailer"></div>
+          </div>
 
           <div class="mh-detail__synopsis-wrap" id="mhPanelSynopsisWrap" hidden>
             <h4 class="mh-detail__section-label">Synopsis</h4>
@@ -163,11 +189,35 @@
             <button type="button" class="mh-detail__action" id="mhPanelEdit" aria-label="Edit movie">✏️ Edit</button>
             <button type="button" class="mh-detail__action mh-detail__action--danger" id="mhPanelDelete" aria-label="Delete movie">🗑 Delete</button>
             <button type="button" class="mh-detail__action" id="mhPanelShare" aria-label="Share movie">📤 Share</button>
+            <button type="button" class="mh-detail__action" id="mhPanelIcs" aria-label="Add to calendar">📆 ICS</button>
             <button type="button" class="mh-detail__action" id="mhPanelExport" aria-label="Export movie">📄 Export</button>
           </div>
         </article>
       </div>
+
+      <!-- Cinema / platform list view -->
+      <div class="mh-cinema-view" id="mhCinemaView" hidden>
+        <div id="mhCinemaGroups"></div>
+      </div>
     </div>
+
+    <!-- Favorites moodboard -->
+    <section class="mh-favorites" id="mhFavorites" hidden>
+      <div class="mh-section-head">
+        <h3 class="mh-section-title">⭐ Favorites wall</h3>
+        <p class="mh-section-sub">Poster grid từ tag Favorite</p>
+      </div>
+      <div class="mh-favorites__grid" id="mhFavoritesGrid"></div>
+    </section>
+
+    <!-- Year in review -->
+    <section class="mh-year" id="mhYearReview">
+      <div class="mh-section-head">
+        <h3 class="mh-section-title">📊 Year in review</h3>
+        <p class="mh-section-sub" id="mhYearSub">Thống kê lịch chiếu của bạn</p>
+      </div>
+      <div class="mh-year__grid" id="mhYearGrid"></div>
+    </section>
 
     <div class="mh-legend">
       <span class="mh-legend__item"><span class="mh-legend__dot mh-legend__dot--watching"></span> Watching</span>
@@ -179,6 +229,9 @@
       <span class="mh-legend__item"><span class="mh-version" id="mhVersionBadge">v1.0</span></span>
     </div>
   </div>
+
+  <!-- Share card canvas (offscreen) -->
+  <canvas id="mhShareCanvas" width="1080" height="1350" hidden aria-hidden="true"></canvas>
 
   <div class="mh-overlay" id="mhOverlay" style="display:none">
     <div class="mh-modal" id="mhModal">
