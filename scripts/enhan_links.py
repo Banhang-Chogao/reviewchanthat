@@ -20,14 +20,7 @@ def parse_toml_fm(text: str):
     return m.group(1), m.group(2), m.group(3), m.group(4)
 
 
-def _find_body_insertion_point(body: str) -> int:
-    """Insert after the introductory paragraph(s), before the first ## heading."""
-    idx = body.find("\n## ")
-    if idx >= 0:
-        pre = body[:idx].rstrip() + "\n\n"
-        return len(pre)
-    return len(body)
-
+ 
 def load_graph():
     if not DATA.exists():
         print("  data/internal-links.json not found — run build_internal_link_graph.py first")
@@ -74,30 +67,16 @@ def insert_internal_links():
         if not to_add:
             continue
 
-        # 1. Append [[internal_links]] to front matter
-        fm_block = ""
-        body_links = ""
+        # 2. Append [[internal_links]] to front matter only
+        # Body links are the writer's responsibility (embedded naturally in text)
         for ref_val, title in to_add:
             safe_title = title.replace('"', '\\"')
             fm_block += f'\n[[internal_links]]\nref = "{ref_val}"\ntitle = "{safe_title}"\n'
-            # Build a markdown link for the body
-            slug_path = ref_val.replace("posts/", "").replace(".md", "")
-            body_links += f"- [{title}](/posts/{slug_path}/)\n"
 
-        # 2. Inject markdown links after the intro, before first heading
-        # Skip if already has this section
-        if "📌 Có thể bạn chưa đọc" in body:
-            body_text = body
-        else:
-            insert_at = _find_body_insertion_point(body)
-            body_before = body[:insert_at].rstrip()
-            body_after = body[insert_at:]
-            body_text = body_before + "\n\n📌 Có thể bạn chưa đọc\n\n" + body_links + "\n" + body_after
-
-        new_content = open_fm + fm + fm_block + close_fm + body_text
+        new_content = open_fm + fm + fm_block + close_fm + body
         fpath.write_text(new_content, encoding="utf-8")
         added_total += len(to_add)
-        print(f"  + {slug}: added {len(to_add)} links (FM + body)")
+        print(f"  + {slug}: added {len(to_add)} links (FM only)")
 
     print(f"\n  Total links added: {added_total}")
     print(f"  Orphans now linked: {len(orphan_linked)} / {len(orphans)}")
