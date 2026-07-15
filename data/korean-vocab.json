@@ -9,6 +9,7 @@
       "field": "Pháp lý",
       "notes": "Dùng trong hợp đồng lao động / mua bán",
       "learned": true,
+      "remark": "서면 계약이 필수입니다",
       "updatedAt": "2026-07-15T18:23:31.417Z"
     },
     {
@@ -19,7 +20,8 @@
       "field": "Kế toán",
       "notes": "Gồm tài sản ngắn hạn và dài hạn",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "ce9e8463-afc0-4215-a5a9-70bbbde9c05f",
@@ -29,7 +31,8 @@
       "field": "Kế toán",
       "notes": "Nghĩa vụ tài chính hiện tại của doanh nghiệp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "5739c602-c1e2-457e-8f2e-61a21b11f3db",
@@ -39,7 +42,8 @@
       "field": "Kế toán",
       "notes": "Phần tài sản thuần sau khi trừ nợ phải trả",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "e705e4a4-2536-4f47-aa68-bac19395db14",
@@ -49,7 +53,8 @@
       "field": "Kế toán",
       "notes": "Tổng giá trị các lợi ích kinh tế thu được",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "24f1b140-ba0e-4aee-9b93-f4071635e15b",
@@ -59,7 +64,8 @@
       "field": "Kế toán",
       "notes": "Các khoản chi ra trong quá trình hoạt động",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "5c30431e-cf30-439d-83fd-19c6f4426876",
@@ -69,7 +75,8 @@
       "field": "Tài chính",
       "notes": "Hệ thống báo cáo tổng hợp tình hình tài chính",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "9b4ff905-013c-41f3-9ed6-5aaa362e9ca1",
@@ -79,7 +86,8 @@
       "field": "Kế toán",
       "notes": "Báo cáo tình hình tài sản, nợ và vốn tại một thời điểm",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "1b2eb00c-9c90-4297-85c7-1382f3ff1385",
@@ -89,7 +97,8 @@
       "field": "Kế toán",
       "notes": "Báo cáo doanh thu, chi phí và lợi nhuận trong kỳ",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "7140fa5a-8b9a-4746-ab01-196cf536a2d0",
@@ -99,7 +108,8 @@
       "field": "Kế toán",
       "notes": "Báo cáo dòng tiền vào và ra của doanh nghiệp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "65d8dff2-8d7e-4fdb-b746-c335b503b6c1",
@@ -109,7 +119,8 @@
       "field": "Kế toán",
       "notes": "Theo dõi sự thay đổi của nguồn vốn",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "3820cf3d-027d-4a7e-acf2-951e498f61bb",
@@ -119,7 +130,8 @@
       "field": "Kế toán",
       "notes": "Doanh thu từ việc bán sản phẩm, dịch vụ",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "bc0d953c-6050-4131-824f-24d03bbb94ef",
@@ -129,7 +141,8 @@
       "field": "Kế toán",
       "notes": "Chi phí trực tiếp để sản xuất hàng hóa đã bán",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "37b0d5ff-9feb-474a-843f-e61b33ca73df",
@@ -139,7 +152,8 @@
       "field": "Kế toán",
       "notes": "Doanh thu bán hàng trừ đi giá vốn",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "3ef92adc-c43d-45fa-aa32-24f2a80f9b4e",
@@ -149,7 +163,8 @@
       "field": "Kế toán",
       "notes": "Lợi nhuận từ hoạt động cốt lõi của doanh nghiệp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "f4b4b2c1-ff00-463b-b2b4-d9d10e840952",
@@ -159,7 +174,8 @@
       "field": "Kế toán",
       "notes": "Lợi nhuận cuối cùng sau khi trừ mọi chi phí và thuế",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "0d4d04bd-acbd-46bd-8c7e-79d81f12db23",
@@ -169,7 +185,8 @@
       "field": "Kế toán",
       "notes": "Sự phân bổ dần giá trị của tài sản hữu hình",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "fb3a0035-c5b8-4baf-93cd-8bc8fc6e73d9",
@@ -179,7 +196,8 @@
       "field": "Kế toán",
       "notes": "Phân bổ dần giá trị của tài sản vô hình",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "0fbbe04e-42e7-4afd-abb8-8ce88440a815",
@@ -189,7 +207,8 @@
       "field": "Kế toán",
       "notes": "Tài sản có thể chuyển đổi thành tiền trong vòng 1 năm",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "73093305-e8b6-4e2d-bfd6-1ed5d7d8bd6c",
@@ -199,7 +218,8 @@
       "field": "Kế toán",
       "notes": "Tài sản có thời gian sử dụng trên 1 năm",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "1471f992-421d-493e-8708-4f24747f73f3",
@@ -209,7 +229,8 @@
       "field": "Kế toán",
       "notes": "Tiền mặt, tiền gửi ngân hàng và các khoản đầu tư cực ngắn hạn",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "846560fa-fb0e-4380-9d4a-947d8434e45a",
@@ -219,7 +240,8 @@
       "field": "Kế toán",
       "notes": "Khoản tiền khách hàng còn nợ doanh nghiệp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "645230cd-2e0d-4b1b-a6c6-78697efb9cec",
@@ -229,7 +251,8 @@
       "field": "Kế toán",
       "notes": "Khoản tiền doanh nghiệp còn nợ nhà cung cấp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "46e70000-90a8-4bc9-a67c-e41a1b78b0f0",
@@ -239,7 +262,8 @@
       "field": "Kế toán",
       "notes": "Hoạt động kiểm tra số lượng hàng hóa thực tế",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "c1d11368-ae97-469d-9326-fb99e1f9f005",
@@ -249,7 +273,8 @@
       "field": "Kế toán",
       "notes": "Nguyên vật liệu, bán thành phẩm và thành phẩm trong kho",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "be57da3f-5f38-4d34-ad3a-f2663343497d",
@@ -259,7 +284,8 @@
       "field": "Kế toán",
       "notes": "Khoản tiền đặt cọc hoặc trả trước cho nhà cung cấp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "90b1e2a8-6ae6-425c-936e-df5500fea521",
@@ -269,7 +295,8 @@
       "field": "Kế toán",
       "notes": "Khoản tiền nhận trước của khách hàng nhưng chưa giao hàng",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "2c63cc92-0bfe-4ec1-aee9-f54fc7aeda03",
@@ -279,7 +306,8 @@
       "field": "Kế toán",
       "notes": "Khoản phải thu ngoài hoạt động kinh doanh thương mại",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "1ad1611c-df51-49b7-b7ba-59264ee0f3a5",
@@ -289,7 +317,8 @@
       "field": "Kế toán",
       "notes": "Khoản phải trả ngoài hoạt động kinh doanh thương mại",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "d4c5e749-f8b2-4bdc-9f67-01dac250c264",
@@ -299,7 +328,8 @@
       "field": "Kế toán",
       "notes": "Chi phí đã phát sinh nhưng chưa có hóa đơn/chưa thanh toán",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "2e7a647e-d6a2-4fc8-9dc2-59d33d716029",
@@ -309,7 +339,8 @@
       "field": "Kế toán",
       "notes": "Chi phí đã thanh toán nhưng phân bổ cho nhiều kỳ sau",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "ddd00d48-4d37-4950-816e-7e5d641b36df",
@@ -319,7 +350,8 @@
       "field": "Kế toán",
       "notes": "Khoản dự phòng cho các khoản nợ có nguy cơ mất trắng",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "9ea57757-188e-4542-88a1-0ebc409aae89",
@@ -329,7 +361,8 @@
       "field": "Kế toán",
       "notes": "Máy móc, thiết bị, nhà xưởng có giá trị lớn",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "7536b6dd-6f09-452b-9056-8c48e59de155",
@@ -339,7 +372,8 @@
       "field": "Kế toán",
       "notes": "Bản quyền, thương hiệu, phần mềm",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "b83fc34e-8cd7-435c-b3a7-c3a0758e7e90",
@@ -349,7 +383,8 @@
       "field": "Kế toán",
       "notes": "Các khoản đầu tư tài chính dài hạn",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "6a2cd10b-5be6-4876-ba51-2e505360c5d5",
@@ -359,7 +394,8 @@
       "field": "Tài chính",
       "notes": "Tiền đi vay từ ngân hàng hoặc các tổ chức khác",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "3c6f990b-0092-42ca-ad05-5dace8d7c85d",
@@ -369,7 +405,8 @@
       "field": "Tài chính",
       "notes": "Khoản vay có kỳ hạn dưới 1 năm",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "5b638b51-8ce7-480b-aa72-228ff60110c5",
@@ -379,7 +416,8 @@
       "field": "Tài chính",
       "notes": "Khoản vay có kỳ hạn trên 1 năm",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "82c07717-166d-4dc5-8838-daa5e142115c",
@@ -389,7 +427,8 @@
       "field": "Tài chính",
       "notes": "Chứng chỉ vay nợ do doanh nghiệp phát hành",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "92c329b2-ec32-4a11-b1e8-5a59fcae33dd",
@@ -399,7 +438,8 @@
       "field": "Kế toán",
       "notes": "Vốn góp ban đầu của các cổ đông sáng lập",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "7beaebaa-646b-4d28-b4c2-8fac98222326",
@@ -409,7 +449,8 @@
       "field": "Kế toán",
       "notes": "Phần chênh lệch lớn hơn mệnh giá khi phát hành cổ phiếu",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "d5b7df4a-717a-4ced-a501-6845099b29f3",
@@ -419,7 +460,8 @@
       "field": "Kế toán",
       "notes": "Lợi nhuận tích lũy chưa phân phối cho cổ đông",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "b69a4b88-bdcf-483b-a90c-73326d6498be",
@@ -429,7 +471,8 @@
       "field": "Tài chính",
       "notes": "Phần lợi nhuận chia cho các cổ đông",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "16291782-c862-46ac-a813-bdf3417b986a",
@@ -439,7 +482,8 @@
       "field": "Tài chính",
       "notes": "Khoản lãi phải trả cho các khoản vay",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "1a7dfa99-e49b-4e86-ae8d-75aa142da106",
@@ -449,7 +493,8 @@
       "field": "Tài chính",
       "notes": "Tiền lãi nhận được từ tiền gửi hoặc cho vay",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "779097e2-3bd6-4bb0-a68f-e165c11f812d",
@@ -459,7 +504,8 @@
       "field": "Kế toán",
       "notes": "Khoản lỗ phát sinh do thay đổi tỷ giá ngoại tệ",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "499408d8-fa05-4fb5-8b96-c3d4a2671d9c",
@@ -469,7 +515,8 @@
       "field": "Kế toán",
       "notes": "Khoản lãi phát sinh do thay đổi tỷ giá ngoại tệ",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "4574c0e1-c7f2-4087-8267-7c1fd8c48cff",
@@ -479,7 +526,8 @@
       "field": "Thuế",
       "notes": "Thuế đánh trên thu nhập chịu thuế của doanh nghiệp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "d430377c-64ad-4944-af41-25693fb6456f",
@@ -489,7 +537,8 @@
       "field": "Thuế",
       "notes": "Thuế gián thu tính trên giá trị tăng thêm của hàng hóa",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "d816ae60-1770-48b9-8488-d11fbd2fcbe4",
@@ -499,7 +548,8 @@
       "field": "Thuế",
       "notes": "Việc giữ lại một phần thu nhập để nộp thuế trước khi chi trả",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "2dce7069-4d37-4ae1-97cf-9435bfd61c0e",
@@ -509,7 +559,8 @@
       "field": "Kế toán",
       "notes": "Chứng từ dùng để khấu trừ và khai báo thuế",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "aea2ed6f-cbd8-4e6d-8498-e0bcbabfd5cb",
@@ -519,7 +570,8 @@
       "field": "Kế toán",
       "notes": "Chứng từ xác nhận đã thanh toán tiền",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.957Z"
+      "updatedAt": "2026-07-15T18:52:03.957Z",
+      "remark": ""
     },
     {
       "id": "d459f3f7-9cd1-4787-a5ec-759bb523ee4e",
@@ -529,7 +581,8 @@
       "field": "Kế toán",
       "notes": "Chứng từ giấy dùng để ghi chép các nghiệp vụ phát sinh",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "2f93fa0f-2231-49f1-a712-7e9c6e268f0b",
@@ -539,7 +592,8 @@
       "field": "Kế toán",
       "notes": "Việc phân tích và ghi chép nghiệp vụ vào bên Nợ/Có",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "763ccb8e-7178-467a-a8d4-f7f50c7fecaa",
@@ -549,7 +603,8 @@
       "field": "Kế toán",
       "notes": "Phía bên trái của tài khoản kế toán",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "5ed997f0-a1e0-42d9-b88b-2a42d52a6ac8",
@@ -559,7 +614,8 @@
       "field": "Kế toán",
       "notes": "Phía bên phải của tài khoản kế toán",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "07109eae-3b40-4977-afc9-dbfa0f2b4759",
@@ -569,7 +625,8 @@
       "field": "Kế toán",
       "notes": "Bảng kiểm tra tính cân đối của các định khoản",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "47be8907-cfc8-4e41-a34f-08857e697314",
@@ -579,7 +636,8 @@
       "field": "Kế toán",
       "notes": "Sổ kế toán tổng hợp các tài khoản",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "c16547fa-4747-423c-a2b6-90da93bc4490",
@@ -589,7 +647,8 @@
       "field": "Kế toán",
       "notes": "Sổ theo dõi chi tiết từng đối tượng cụ thể",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "34ff7658-9a54-4711-ad2d-a96fcec9377d",
@@ -599,7 +658,8 @@
       "field": "Kế toán",
       "notes": "Công việc tổng hợp số liệu cuối kỳ kế toán",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "6ac5f127-bc48-483d-b7cc-ac6725f851ae",
@@ -609,7 +669,8 @@
       "field": "Kiểm toán",
       "notes": "Hoạt động kiểm tra, xác minh tính trung thực của báo cáo",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "2be33d4e-6e05-4f52-a14f-a977461ba826",
@@ -619,7 +680,8 @@
       "field": "Kiểm toán",
       "notes": "Kiểm toán do một tổ chức độc lập bên ngoài thực hiện",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "41fdf7a5-2f2c-4492-b11d-a6e1e6070f87",
@@ -629,7 +691,8 @@
       "field": "Kiểm toán",
       "notes": "Hoạt động giám sát, kiểm tra nội bộ doanh nghiệp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "8e5aeaab-5eef-4256-8054-a47a66f2860f",
@@ -639,7 +702,8 @@
       "field": "Kiểm toán",
       "notes": "Văn bản thể hiện ý kiến của kiểm toán viên",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "df0b2740-69f3-4b52-b87c-c85e9609e035",
@@ -649,7 +713,8 @@
       "field": "Kiểm toán",
       "notes": "Báo cáo tài chính phản ánh trung thực và hợp lý",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "5dbeb894-10b0-44ab-afad-716378359a87",
@@ -659,7 +724,8 @@
       "field": "Kiểm toán",
       "notes": "Có sai sót nhưng không ảnh hưởng trọng yếu toàn bộ",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "49493b48-7833-4c7e-aba3-cc7feb5eef11",
@@ -669,7 +735,8 @@
       "field": "Kiểm toán",
       "notes": "Báo cáo tài chính có sai lệch trọng yếu, không trung thực",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "4eecdc1c-76c4-4234-b7a2-f8ca91c86b05",
@@ -679,7 +746,8 @@
       "field": "Kiểm toán",
       "notes": "Không thể thu thập đủ bằng chứng để đưa ra ý kiến",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "f62bc181-ccdc-45c1-b351-d680775ccaba",
@@ -689,7 +757,8 @@
       "field": "Tài chính",
       "notes": "Kế hoạch tài chính dự kiến cho một khoảng thời gian",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "8c993bb9-9786-40b6-9ee1-ec552a83fc8f",
@@ -699,7 +768,8 @@
       "field": "Tài chính",
       "notes": "Hoạt động tìm kiếm và thu hút nguồn vốn mới",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "9d7e4f50-dc04-4b0b-a1a4-3d011881bdd4",
@@ -709,7 +779,8 @@
       "field": "Tài chính",
       "notes": "Tỷ suất sinh lời tối thiểu cần đạt được để làm hài lòng nhà đầu tư",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "6ff8c6e1-4cf0-4ad9-bd49-1148ef1d5781",
@@ -719,7 +790,8 @@
       "field": "Tài chính",
       "notes": "Chỉ số đo lường hiệu quả của một khoản đầu tư",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "1aa79309-b2e1-4488-a3ac-968511b2cbbd",
@@ -729,7 +801,8 @@
       "field": "Tài chính",
       "notes": "Sự chuyển động của dòng tiền ra vào doanh nghiệp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "15a39f22-4d7b-4f39-a108-3e1f5220f520",
@@ -739,7 +812,8 @@
       "field": "Tài chính",
       "notes": "Điểm mà tại đó tổng doanh thu bằng tổng chi phí",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "3a0f89a5-e606-4987-8727-7807bea677b8",
@@ -749,7 +823,8 @@
       "field": "Tài chính",
       "notes": "Khả năng chuyển đổi thành tiền mặt của tài sản",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "4105adfd-2337-4eb6-a630-4bde19d31e03",
@@ -759,7 +834,8 @@
       "field": "Tài chính",
       "notes": "Khả năng đáp ứng các nghĩa vụ tài chính dài hạn",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "e3962bcb-47d4-4cde-9408-66c7f3c072fb",
@@ -769,7 +845,8 @@
       "field": "Tài chính",
       "notes": "Tỷ lệ đo lường cơ cấu nguồn vốn của doanh nghiệp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "507e334d-e092-42bf-aa4a-33b21236a503",
@@ -779,7 +856,8 @@
       "field": "Tài chính",
       "notes": "Thể hiện mức độ hiệu quả khi sử dụng vốn cổ đông",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "ae56362b-166c-42d7-861a-2f83d290543f",
@@ -789,7 +867,8 @@
       "field": "Tài chính",
       "notes": "Thể hiện hiệu quả sử dụng toàn bộ tài sản",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "9bba22e0-41ad-4c4d-a14f-b3313ac480dc",
@@ -799,7 +878,8 @@
       "field": "Tài chính",
       "notes": "Phần lợi nhuận phân bổ cho mỗi cổ phần phổ thông",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "1fc12780-d63a-4e51-80cd-b5f2f2c8b732",
@@ -809,7 +889,8 @@
       "field": "Tài chính",
       "notes": "Tỷ lệ giữa giá thị trường cổ phiếu và EPS",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "6143ffbc-9622-4c4d-ab9e-6900b5e57604",
@@ -819,7 +900,8 @@
       "field": "Tài chính",
       "notes": "Dòng tiền phát sinh trực tiếp từ hoạt động kinh doanh chính",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "a511d7f8-7020-414a-a218-d6bce76a0391",
@@ -829,7 +911,8 @@
       "field": "Tài chính",
       "notes": "Dòng tiền từ mua bán tài sản dài hạn, chứng khoán",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "035832e1-b5fd-46a4-8094-40f527574bda",
@@ -839,7 +922,8 @@
       "field": "Tài chính",
       "notes": "Dòng tiền từ việc phát hành cổ phiếu, vay nợ, trả cổ tức",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "68f24970-6716-4006-b473-99c1ca5686dc",
@@ -849,7 +933,8 @@
       "field": "Tài chính",
       "notes": "Hoạt động giành quyền kiểm soát doanh nghiệp khác",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "3262e0c8-7816-4cfa-8c44-09f7cd860b17",
@@ -859,7 +944,8 @@
       "field": "Tài chính",
       "notes": "Quy trình xác định giá trị kinh tế của một doanh nghiệp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "59305307-0432-45fe-8ce4-380231d0d703",
@@ -869,7 +955,8 @@
       "field": "Quản trị",
       "notes": "Quy trình đảm bảo tính trung thực và an toàn tài sản",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "2a93f1c1-f663-44cd-ab15-22aaf82688eb",
@@ -879,7 +966,8 @@
       "field": "Quản trị",
       "notes": "Nhận diện, đánh giá và giảm thiểu các rủi ro tài chính",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "04888adf-bc23-49a4-9d58-440c5bef2503",
@@ -889,7 +977,8 @@
       "field": "Kế toán",
       "notes": "Xác định các chi phí cấu thành nên sản phẩm",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "ea2ef6fe-e49b-4e41-9fff-f798c0bf60ca",
@@ -899,7 +988,8 @@
       "field": "Kế toán",
       "notes": "Chi phí không thay đổi theo sản lượng sản xuất",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "7306f1f2-7bb0-4c16-8f2f-0c2363d6aa28",
@@ -909,7 +999,8 @@
       "field": "Kế toán",
       "notes": "Chi phí thay đổi trực tiếp theo sản lượng sản xuất",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "cce1c2ee-a2e8-46e3-ae75-57878d871249",
@@ -919,7 +1010,8 @@
       "field": "Kế toán",
       "notes": "Chi phí có thể quy thẳng cho một đối tượng chịu chi phí",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "6d27bbe8-a36f-4ae1-896d-d29bc05cc2bd",
@@ -929,7 +1021,8 @@
       "field": "Kế toán",
       "notes": "Chi phí chung cần phân bổ cho nhiều đối tượng",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "456ad7fe-aab5-44b6-8f28-5353d8509f1c",
@@ -939,7 +1032,8 @@
       "field": "Kế toán",
       "notes": "Các chi phí tại nhà xưởng ngoài nguyên liệu và nhân công trực tiếp",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "cfcb9392-13f5-41ff-95f7-5f16e4fc9bd0",
@@ -949,7 +1043,8 @@
       "field": "Kế toán",
       "notes": "Mang số dư cuối kỳ này làm số dư đầu kỳ tiếp theo",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "9383670c-fb9a-453a-b4bd-ec59e7821e2e",
@@ -959,7 +1054,8 @@
       "field": "Kế toán",
       "notes": "Phần chênh lệch còn lại giữa bên Nợ và bên Có",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "b387421d-3c74-4d85-9d54-6c1db166857f",
@@ -969,7 +1065,8 @@
       "field": "Kế toán",
       "notes": "Số liệu cộng dồn qua nhiều kỳ",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "9582157d-9470-48e6-907b-8e5352f5fab3",
@@ -979,7 +1076,8 @@
       "field": "Kế toán",
       "notes": "Giá trị tài sản được giao dịch khách quan giữa các bên",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "df838d69-4dd9-48d5-8343-292855250e18",
@@ -989,7 +1087,8 @@
       "field": "Kế toán",
       "notes": "Giá trị tài sản thể hiện trên sổ sách kế toán",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "9aa7e3f5-c626-4937-9833-f5ec06f1d10d",
@@ -999,7 +1098,8 @@
       "field": "Tài chính",
       "notes": "Giá trị tài sản khi giao dịch trên thị trường tự do",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     },
     {
       "id": "6a02bf3f-8fea-4e24-9379-7a62575d8eec",
@@ -1009,7 +1109,8 @@
       "field": "Tài chính",
       "notes": "Quá trình bán tài sản để trả nợ trước khi giải thể",
       "learned": false,
-      "updatedAt": "2026-07-15T18:52:03.958Z"
+      "updatedAt": "2026-07-15T18:52:03.958Z",
+      "remark": ""
     }
   ],
   "auditLog": [

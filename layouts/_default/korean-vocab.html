@@ -55,7 +55,7 @@
       <div class="kv-io">
         <div class="kv-io__head">
           <h2 class="kv-section-title">Excel Import / Export</h2>
-          <p class="kv-muted">Tải mẫu Excel → điền Tiếng Hàn | Tiếng Việt | Tiếng Anh | Lĩnh vực | Ghi chú → import nhanh. Lưu lên GitHub bằng token.</p>
+          <p class="kv-muted">Tải mẫu Excel → điền Tiếng Hàn | Tiếng Việt | Tiếng Anh | Lĩnh vực | Ghi chú | Đã học thuộc | <strong>Remark (한국어)</strong> (cột cuối, bên phải học thuộc) → import. Lưu GitHub bằng token.</p>
         </div>
         <div class="kv-io__actions">
           <button type="button" class="kv-btn kv-btn--primary" id="kvDownloadTemplate">📥 Download Excel Template</button>
@@ -97,8 +97,11 @@
                 <option value="Khác">
               </datalist>
             </label>
-            <label class="kv-form__full">Ghi chú<textarea id="kvFieldNotes" rows="3" placeholder="Ví dụ câu, cách dùng, mức độ ưu tiên…"></textarea></label>
+            <label class="kv-form__full">Ghi chú (VI/EN)<textarea id="kvFieldNotes" rows="3" placeholder="Ví dụ câu, cách dùng, mức độ ưu tiên…"></textarea></label>
             <label class="kv-check-label"><input type="checkbox" id="kvFieldLearned"> Đã học thuộc</label>
+            <label class="kv-form__full">Remark (한국어) · 비고
+              <textarea id="kvFieldRemark" rows="2" lang="ko" placeholder="한국어 비고 / 예문 / 주의사항…"></textarea>
+            </label>
           </div>
           <div class="kv-form__actions">
             <button type="submit" class="kv-btn kv-btn--primary" id="kvFormSave">Lưu từ</button>
@@ -126,6 +129,8 @@
                   <th>Tiếng Anh</th>
                   <th>Lĩnh vực</th>
                   <th>Ghi chú</th>
+                  <th>Học thuộc</th>
+                  <th>Remark (한국어)</th>
                   <th>Status</th>
                 </tr>
               </thead>
@@ -146,7 +151,7 @@
       <div class="kv-kpis" id="kvKpis"></div>
 
       <div class="kv-filters">
-        <input type="search" id="kvSearch" class="kv-input" placeholder="Tìm Hàn / Việt / Anh / lĩnh vực / ghi chú…" aria-label="Search">
+        <input type="search" id="kvSearch" class="kv-input" placeholder="Tìm Hàn / Việt / Anh / lĩnh vực / ghi chú / Remark…" aria-label="Search">
         <select id="kvFilterField" class="kv-select"><option value="">Lĩnh vực: Tất cả</option></select>
         <select id="kvFilterLearned" class="kv-select">
           <option value="">Học thuộc: Tất cả</option>
@@ -168,12 +173,13 @@
         <table class="kv-table" id="kvDashTable">
           <thead>
             <tr>
-              <th>Tiếng Hàn</th>
+              <th class="kv-col-ko">Tiếng Hàn</th>
               <th>Tiếng Việt</th>
               <th>Tiếng Anh</th>
               <th>Lĩnh vực</th>
               <th>Ghi chú</th>
               <th class="kv-col-learned">Đã học thuộc</th>
+              <th class="kv-col-remark">Remark (한국어)</th>
             </tr>
           </thead>
           <tbody id="kvDashBody"></tbody>

@@ -15,7 +15,8 @@
   var GH_BRANCH = 'main';
   var CACHE_KEY = 'kv_local_cache_v1';
 
-  var HEADERS = ['Tiếng Hàn', 'Tiếng Việt', 'Tiếng Anh', 'Lĩnh vực', 'Ghi chú', 'Đã học thuộc'];
+  // Order: … Ghi chú | Đã học thuộc | Remark (한국어) — Remark always right of learned
+  var HEADERS = ['Tiếng Hàn', 'Tiếng Việt', 'Tiếng Anh', 'Lĩnh vực', 'Ghi chú', 'Đã học thuộc', 'Remark (한국어)'];
   var HEADER_KEYS = {
     'tieng han': 'korean',
     'tiếng hàn': 'korean',
@@ -42,7 +43,13 @@
     'da hoc thuoc': 'learned',
     'đã học thuộc': 'learned',
     'learned': 'learned',
-    'memorized': 'learned'
+    'memorized': 'learned',
+    'remark': 'remark',
+    'remark tieng han': 'remark',
+    'remark hangul': 'remark',
+    'remark korean': 'remark',
+    'bigo': 'remark',
+    '비고': 'remark'
   };
 
   var S = {
@@ -94,6 +101,8 @@
     if (/viet|vietnamese/.test(n)) return 'vietnamese';
     if (/anh|english|eng/.test(n)) return 'english';
     if (/linh|field|domain|nganh/.test(n)) return 'field';
+    // Remark before generic "note" so "Remark (한국어)" never becomes notes
+    if (/remark|bigo|비고/.test(n)) return 'remark';
     if (/ghi|note/.test(n)) return 'notes';
     if (/hoc|learn|memo/.test(n)) return 'learned';
     return '';
@@ -109,6 +118,9 @@
       field: String(raw.field || raw.Field || raw['Lĩnh vực'] || '').trim(),
       notes: String(raw.notes || raw.Notes || raw['Ghi chú'] || '').trim(),
       learned: !!(raw.learned === true || raw.learned === 1 || yesNo(raw.learned) || yesNo(raw['Đã học thuộc'])),
+      remark: String(
+        raw.remark || raw.Remark || raw['Remark (한국어)'] || raw['Remark'] || raw['비고'] || raw.bigo || ''
+      ).trim(),
       updatedAt: raw.updatedAt || new Date().toISOString()
     };
   }
@@ -293,39 +305,51 @@
       it.english || '',
       it.field || '',
       it.notes || '',
-      it.learned ? 'Yes' : ''
+      it.learned ? 'Yes' : '',
+      it.remark || ''
+    ];
+  }
+
+  function sheetColWidths() {
+    return [
+      { wch: 16 }, { wch: 20 }, { wch: 16 }, { wch: 14 }, { wch: 28 }, { wch: 12 }, { wch: 28 }
     ];
   }
 
   function downloadTemplate() {
     if (!ensureXLSX()) return;
-    var sample = ['계약서', 'Hợp đồng', 'Contract', 'Pháp lý', 'Dùng trong hợp đồng lao động / mua bán', ''];
+    var sample = [
+      '계약서',
+      'Hợp đồng',
+      'Contract',
+      'Pháp lý',
+      'Dùng trong hợp đồng lao động / mua bán',
+      '',
+      '서면 계약이 필수입니다'
+    ];
     var instr = [
       'Bắt buộc: Tiếng Hàn + Tiếng Việt',
       'Cột Đã học thuộc: Yes / x / 1 = đã thuộc',
       'Import: Append / Replace / Update',
       '',
       '',
-      ''
+      '',
+      'Remark: ghi chú tiếng Hàn (비고)'
     ];
     var aoa = [HEADERS.slice(), instr, sample];
     var ws = XLSX.utils.aoa_to_sheet(aoa);
-    ws['!cols'] = [
-      { wch: 18 }, { wch: 22 }, { wch: 18 }, { wch: 16 }, { wch: 36 }, { wch: 14 }
-    ];
+    ws['!cols'] = sheetColWidths();
     var wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, 'Korean Vocab');
     XLSX.writeFile(wb, 'Tu_vung_Han_chuyen_nganh_Template.xlsx');
-    setIoStatus('ok', '✓ Đã tải mẫu Excel (sheet “Korean Vocab”, 1 dòng mẫu).');
+    setIoStatus('ok', '✓ Đã tải mẫu Excel (7 cột, có Remark 한국어 bên phải Đã học thuộc).');
   }
 
   function exportData(filename) {
     if (!ensureXLSX()) return;
     var aoa = [HEADERS.slice()].concat(S.items.map(itemToRow));
     var ws = XLSX.utils.aoa_to_sheet(aoa);
-    ws['!cols'] = [
-      { wch: 18 }, { wch: 22 }, { wch: 18 }, { wch: 16 }, { wch: 36 }, { wch: 14 }
-    ];
+    ws['!cols'] = sheetColWidths();
     var wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, 'Korean Vocab');
     XLSX.writeFile(wb, filename || 'Tu_vung_Han_chuyen_nganh_Export.xlsx');
@@ -414,6 +438,8 @@
         '<td>' + esc(it.english) + '</td>' +
         '<td>' + esc(it.field) + '</td>' +
         '<td class="kv-notes">' + esc(it.notes) + '</td>' +
+        '<td class="kv-col-learned">' + (it.learned ? 'Yes' : '') + '</td>' +
+        '<td class="kv-remark" lang="ko">' + esc(it.remark || '') + '</td>' +
         '<td>' + esc((x.errors && x.errors.length) ? x.errors.join('; ') : (it.learned ? 'OK · learned' : 'OK')) + '</td>';
       body.appendChild(tr);
     });
@@ -550,6 +576,7 @@
     $('kvFieldField').value = item ? item.field : '';
     $('kvFieldNotes').value = item ? item.notes : '';
     $('kvFieldLearned').checked = !!(item && item.learned);
+    if ($('kvFieldRemark')) $('kvFieldRemark').value = item ? (item.remark || '') : '';
     var del = $('kvFormDelete');
     if (del) del.hidden = !item;
     $('kvFieldKo').focus();
@@ -572,7 +599,8 @@
       english: $('kvFieldEn').value,
       field: $('kvFieldField').value,
       notes: $('kvFieldNotes').value,
-      learned: $('kvFieldLearned').checked
+      learned: $('kvFieldLearned').checked,
+      remark: ($('kvFieldRemark') && $('kvFieldRemark').value) || ''
     });
     if (!item.korean || !item.vietnamese) {
       setIoStatus('err', '✗ Tiếng Hàn và Tiếng Việt là bắt buộc.');
@@ -621,7 +649,7 @@
       if (f.learned === 'yes' && !it.learned) return false;
       if (f.learned === 'no' && it.learned) return false;
       if (f.q) {
-        var blob = [it.korean, it.vietnamese, it.english, it.field, it.notes].join(' ').toLowerCase();
+        var blob = [it.korean, it.vietnamese, it.english, it.field, it.notes, it.remark].join(' ').toLowerCase();
         if (blob.indexOf(f.q) === -1) return false;
       }
       return true;
@@ -679,17 +707,20 @@
       var tr = document.createElement('tr');
       if (it.learned) tr.className = 'is-learned';
       tr.innerHTML =
-        '<td><div class="kv-ko">' + esc(it.korean) + '</div>' +
+        '<td class="kv-col-ko"><div class="kv-ko">' + esc(it.korean) + '</div>' +
           '<div class="kv-row-actions">' +
           '<button type="button" class="kv-link-btn" data-edit="' + esc(it.id) + '">Sửa</button>' +
           '</div></td>' +
-        '<td>' + esc(it.vietnamese) + '</td>' +
-        '<td>' + esc(it.english) + '</td>' +
-        '<td>' + esc(it.field || '—') + '</td>' +
-        '<td class="kv-notes">' + esc(it.notes || '') + '</td>' +
-        '<td class="kv-col-learned">' +
+        '<td data-label="Tiếng Việt">' + esc(it.vietnamese) + '</td>' +
+        '<td data-label="Tiếng Anh">' + esc(it.english || '—') + '</td>' +
+        '<td data-label="Lĩnh vực">' + esc(it.field || '—') + '</td>' +
+        '<td class="kv-notes" data-label="Ghi chú">' + esc(it.notes || '') + '</td>' +
+        '<td class="kv-col-learned" data-label="Đã học thuộc">' +
           '<input type="checkbox" class="kv-learn-check" data-learn="' + esc(it.id) + '" ' +
           (it.learned ? 'checked' : '') + ' title="Tick khi đã học thuộc" aria-label="Đã học thuộc: ' + esc(it.korean) + '">' +
+        '</td>' +
+        '<td class="kv-remark" data-label="Remark (한국어)" lang="ko">' +
+          (it.remark ? esc(it.remark) : '<span class="kv-muted">—</span>') +
         '</td>';
       body.appendChild(tr);
     });
