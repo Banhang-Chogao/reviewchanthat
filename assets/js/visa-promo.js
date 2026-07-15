@@ -46,6 +46,10 @@
     editingId: null
   };
   var pendingImport = null;
+  var pendingUrlImport = null; // { rows: [{p, selected, errors}], sourceUrl, report }
+  var URL_LAST_KEY = 'vp_url_last_import_v1';
+  /** CORS-friendly read proxy for allowlisted official pages only (not a Worker; target still validated). */
+  var READER_PROXY_PREFIX = 'https://r.jina.ai/';
 
   function $(id) { return document.getElementById(id); }
   function on(el, ev, fn) { if (el) el.addEventListener(ev, fn); }
@@ -1198,24 +1202,556 @@
     $('vpImportConfirm').disabled = !result.valid.length;
   }
 
+  function mergePromotions(incoming, mode) {
+    mode = mode || 'append';
+    var report = { imported: 0, updated: 0, skipped: 0 };
+    if (mode === 'replace') {
+      S.promotions = incoming.map(function (p) {
+        var x = Object.assign({}, p);
+        delete x._row;
+        delete x._selected;
+        return x;
+      });
+      report.imported = S.promotions.length;
+      return report;
+    }
+    if (mode === 'update') {
+      var byId = {};
+      var byFp = {};
+      S.promotions.forEach(function (p, i) {
+        byId[String(p.PromotionID || '').toLowerCase()] = i;
+        byFp[promoFingerprint(p)] = i;
+      });
+      incoming.forEach(function (p) {
+        var clean = Object.assign({}, p);
+        delete clean._row;
+        delete clean._selected;
+        var pid = String(clean.PromotionID || '').toLowerCase();
+        var idx = pid && byId[pid] !== undefined ? byId[pid] : byFp[promoFingerprint(clean)];
+        if (idx !== undefined) {
+          var keepId = S.promotions[idx].id;
+          var merged = Object.assign({}, S.promotions[idx], clean);
+          if (keepId) merged.id = keepId;
+          S.promotions[idx] = merged;
+          report.updated++;
+        } else {
+          S.promotions.push(clean);
+          report.imported++;
+          if (pid) byId[pid] = S.promotions.length - 1;
+          byFp[promoFingerprint(clean)] = S.promotions.length - 1;
+        }
+      });
+      return report;
+    }
+    // append
+    var ids = {};
+    var fps = {};
+    S.promotions.forEach(function (p) {
+      ids[String(p.PromotionID || '').toLowerCase()] = 1;
+      fps[promoFingerprint(p)] = 1;
+    });
+    incoming.forEach(function (p) {
+      var clean = Object.assign({}, p);
+      delete clean._row;
+      delete clean._selected;
+      var pid = String(clean.PromotionID || '').toLowerCase();
+      if ((pid && ids[pid]) || fps[promoFingerprint(clean)]) {
+        report.skipped++;
+        return;
+      }
+      S.promotions.push(clean);
+      report.imported++;
+      if (pid) ids[pid] = 1;
+      fps[promoFingerprint(clean)] = 1;
+    });
+    return report;
+  }
+
+  function promoFingerprint(p) {
+    return [p.Merchant, p.OfferTitle, p.EndDate].map(function (x) {
+      return String(x || '').trim().toLowerCase();
+    }).join('|');
+  }
+
   function confirmImport() {
     if (!pendingImport || !pendingImport.valid.length) return;
     var mode = (document.querySelector('input[name="vpImportMode"]:checked') || {}).value || 'append';
-    if (mode === 'replace') S.promotions = pendingImport.valid.map(function (p) {
-      delete p._row; return p;
-    });
-    else {
-      pendingImport.valid.forEach(function (p) {
-        delete p._row;
-        S.promotions.push(p);
-      });
-    }
-    audit('import', pendingImport.valid.length + ' rows · mode ' + mode);
+    var report = mergePromotions(pendingImport.valid, mode);
+    audit('import', pendingImport.valid.length + ' rows · mode ' + mode +
+      ' · +' + report.imported + ' ~' + report.updated + ' skip ' + report.skipped);
     cacheLocal();
     pendingImport = null;
     $('vpImportModal').hidden = true;
-    setIoStatus('ok', '✓ Imported. Remember 💾 Save to GitHub.');
+    setIoStatus('ok', '✓ Imported (+' + report.imported + ', updated ' + report.updated +
+      ', skipped ' + report.skipped + '). Remember 💾 Save to GitHub.');
+    renderAll(); // Dashboard, calendar/timeline, KPI, stats, insights, search
+  }
+
+  /* ── Import from URL ─────────────────────────────────────── */
+  function setUrlStatus(kind, msg) {
+    var el = $('vpUrlStatus');
+    if (!el) return;
+    el.hidden = false;
+    el.className = 'vp-status vp-status--' + (kind === 'ok' ? 'ok' : kind === 'warn' ? 'warn' : 'err');
+    el.textContent = msg;
+  }
+  function setUrlProgress(show, pct, text) {
+    var box = $('vpUrlProgress');
+    var fill = $('vpUrlProgressFill');
+    var lab = $('vpUrlProgressText');
+    if (!box) return;
+    box.hidden = !show;
+    if (fill) fill.style.width = (pct || 0) + '%';
+    if (lab) lab.textContent = text || '';
+  }
+  function loadUrlLastMeta() {
+    var el = $('vpUrlLastMeta');
+    if (!el) return;
+    try {
+      var raw = localStorage.getItem(URL_LAST_KEY);
+      if (!raw) {
+        el.textContent = 'Last Imported URL: — · Last Imported Time: —';
+        return;
+      }
+      var d = JSON.parse(raw);
+      el.textContent = 'Last Imported URL: ' + (d.url || '—') + ' · Last Imported Time: ' + (d.at || '—');
+    } catch (e) {
+      el.textContent = 'Last Imported URL: — · Last Imported Time: —';
+    }
+  }
+  function saveUrlLastMeta(url) {
+    try {
+      localStorage.setItem(URL_LAST_KEY, JSON.stringify({
+        url: url,
+        at: new Date().toLocaleString('vi-VN', { hour12: false })
+      }));
+    } catch (e) {}
+    loadUrlLastMeta();
+  }
+
+  function validateOfficialUrl(raw) {
+    var url = String(raw || '').trim();
+    if (!url) return { ok: false, error: 'Please paste an official promotion URL.' };
+    var u;
+    try { u = new URL(url); } catch (e) {
+      return { ok: false, error: 'Invalid URL format.' };
+    }
+    if (u.protocol !== 'https:') return { ok: false, error: 'Only HTTPS official URLs are accepted.' };
+    if (!isHttpsOfficial(url)) {
+      return { ok: false, error: 'Non-official domain rejected. Allowlist: Visa / Mastercard / JCB / Amex / issuer sites only.' };
+    }
+    return { ok: true, url: u.href };
+  }
+
+  function epochToISO(v) {
+    if (v == null || v === '') return '';
+    if (typeof v === 'string' && /^\d{4}-\d{2}-\d{2}/.test(v)) return v.slice(0, 10);
+    var n = Number(v);
+    if (!isFinite(n) || n <= 0) return '';
+    if (n > 1e12) n = n / 1000;
+    try {
+      return new Date(n * 1000).toISOString().slice(0, 10);
+    } catch (e) { return ''; }
+  }
+
+  function inferDiscountFromText(title, desc) {
+    var blob = (title || '') + ' ' + (desc || '');
+    var m = blob.match(/(\d+(?:[.,]\d+)?)\s*%/);
+    if (m) return { type: 'Percent', value: parseFloat(m[1].replace(',', '.')) || 0 };
+    m = blob.match(/(\d[\d.,]*)\s*(?:₫|đ|vnd|vnđ)/i);
+    if (m) return { type: 'Fixed', value: parseMoney(m[1]) };
+    return { type: 'Other', value: 0 };
+  }
+
+  function slugifyMerchant(name) {
+    return String(name || 'offer').toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'offer';
+  }
+
+  function mapVisaApiPerk(perk, origin, locale, sourceUrl, metaLabels) {
+    metaLabels = metaLabels || {};
+    var md = perk.metaData || {};
+    var custom = md.customAttributes || {};
+    var sourceId = String(perk.sourceId || '');
+    var merchant = String(perk.merchantName || perk.title || '').trim();
+    var title = String(perk.title || merchant || '').trim();
+    var desc = String(perk.shortDescription || '').trim();
+    var offerCopy = String(custom.offerCopy || '').trim();
+    var slug = slugifyMerchant(merchant);
+    var apply = sourceId
+      ? (origin + '/' + locale + '/visa-offers-and-perks/' + slug + '/' + sourceId)
+      : sourceUrl;
+    var catIds = md.categories || [];
+    var catMap = metaLabels.categories || { '18': 'Travel', '26': 'Hotel', '115': 'Lifestyle' };
+    var cat = 'Other';
+    for (var i = 0; i < catIds.length; i++) {
+      if (catMap[String(catIds[i])]) { cat = catMap[String(catIds[i])]; break; }
+    }
+    // Prefer shortDescription as offer title when title is just merchant name
+    var offerTitle = (title && title !== merchant) ? title : (desc ? desc.slice(0, 160) : title);
+    var disc = inferDiscountFromText(offerTitle, desc + ' ' + offerCopy);
+    var cardLabels = metaLabels.cardProductTypes || {};
+    var eligible = (md.cardProductTypes || []).map(function (id) {
+      return cardLabels[String(id)] || ('Visa product #' + id);
+    }).filter(Boolean).join(', ');
+    var cardLevel = '';
+    var eligLow = eligible.toLowerCase();
+    if (/infinite/.test(eligLow)) cardLevel = 'Infinite';
+    else if (/signature/.test(eligLow)) cardLevel = 'Signature';
+    else if (/platinum/.test(eligLow)) cardLevel = 'Platinum';
+    else if (/gold/.test(eligLow)) cardLevel = 'Gold';
+    else if (/classic/.test(eligLow)) cardLevel = 'Classic';
+
+    return normalizePromo({
+      id: gId(),
+      PromotionID: sourceId ? ('visa-' + sourceId) : gId(),
+      Bank: 'Visa',
+      Card: '',
+      CardLevel: cardLevel,
+      Merchant: merchant || 'Visa Partner',
+      MerchantCategory: cat,
+      PromotionType: 'Discount',
+      OfferTitle: offerTitle,
+      ShortDescription: desc,
+      DiscountType: disc.type,
+      DiscountValue: disc.value,
+      EligibleCards: eligible,
+      Country: /vi_/i.test(locale) ? 'Vietnam' : '',
+      StartDate: epochToISO(perk.startDate),
+      EndDate: epochToISO(perk.endDate),
+      ApplyURL: apply,
+      OfficialSource: 'Visa Offers & Perks',
+      Terms: offerCopy.slice(0, 4000),
+      Featured: !!perk.featured,
+      Priority: perk.featured ? 80 : 50,
+      Status: 'Active',
+      Logo: custom.merchantLogo || '',
+      Banner: perk.image || '',
+      SourceURL: sourceUrl,
+      Verified: 'Pending',
+      _cardProductTypes: md.cardProductTypes || [],
+      _cardPaymentTypes: md.cardPaymentTypes || []
+    });
+  }
+
+  function labelsFromMetadata(metaDef) {
+    var out = {};
+    (metaDef || []).forEach(function (block) {
+      if (!block || !block.name || !block.metaData) return;
+      out[block.name] = block.metaData;
+    });
+    return out;
+  }
+
+  function filterByQueryParams(list, sourceUrl) {
+    var u;
+    try { u = new URL(sourceUrl); } catch (e) { return list; }
+    var card = u.searchParams.get('cardProduct');
+    var pay = u.searchParams.get('paymentType');
+    var out = list;
+    if (card) {
+      var filtered = out.filter(function (p) {
+        var types = p._cardProductTypes || [];
+        return !types.length || types.map(String).indexOf(String(card)) !== -1;
+      });
+      if (filtered.length) out = filtered;
+    }
+    if (pay) {
+      var filtered2 = out.filter(function (p) {
+        var types = p._cardPaymentTypes || [];
+        return !types.length || types.map(String).indexOf(String(pay)) !== -1;
+      });
+      if (filtered2.length) out = filtered2;
+    }
+    return out;
+  }
+
+  function fetchVisaPerksApi(sourceUrl) {
+    var u = new URL(sourceUrl);
+    var origin = u.origin;
+    var localeMatch = u.pathname.match(/\/([a-z]{2}_[a-z]{2})\//i);
+    var locale = localeMatch ? localeMatch[1] : 'vi_vn';
+    var endpoint = origin + '/offers/api/portal/portal/perks/';
+    if (!isHttpsOfficial(endpoint)) return Promise.reject(new Error('API host not allowlisted'));
+    var body = {
+      siteId: u.hostname,
+      perkTypeRequests: [{
+        perkType: 'OFFERS',
+        locale: locale,
+        pageRequest: { index: 0, limit: 200 }
+      }]
+    };
+    return fetch(endpoint, {
+      method: 'POST',
+      mode: 'cors',
+      credentials: 'omit',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(body)
+    }).then(function (r) {
+      if (!r.ok) throw new Error('Visa API HTTP ' + r.status);
+      return r.json();
+    }).then(function (data) {
+      var groups = (data && data.perksGroups) || [];
+      if (!groups.length) throw new Error('Empty perksGroups (broken page or layout change)');
+      var labels = labelsFromMetadata(groups[0].metadataDefinition);
+      var list = [];
+      groups.forEach(function (g) {
+        (g.perks || []).forEach(function (perk) {
+          list.push(mapVisaApiPerk(perk, origin, locale, sourceUrl, labels));
+        });
+      });
+      if (!list.length) throw new Error('API returned zero offers');
+      list = filterByQueryParams(list, sourceUrl);
+      return { promotions: list, engine: 'visa-api-direct', parser: 'visa_offers_perks' };
+    });
+  }
+
+  function parseReaderMarkdownOffers(text, sourceUrl) {
+    var list = [];
+    var seen = {};
+    var re = /\[([^\]]{3,200})\]\((https:\/\/www\.visa\.com\.vn\/[a-z]{2}_[a-z]{2}\/visa-offers-and-perks\/[^)\s]+\/\d+[^)\s]*)\)/gi;
+    var m;
+    while ((m = re.exec(text))) {
+      var title = m[1].trim();
+      var href = m[2].trim();
+      if (!isHttpsOfficial(href)) continue;
+      var idm = href.match(/\/visa-offers-and-perks\/([^/]+)\/(\d+)/i);
+      if (!idm) continue;
+      var oid = idm[2];
+      if (seen[oid]) continue;
+      seen[oid] = 1;
+      var merchant = decodeURIComponent(idm[1]).replace(/-/g, ' ').replace(/\b\w/g, function (c) {
+        return c.toUpperCase();
+      });
+      var disc = inferDiscountFromText(title, '');
+      list.push(normalizePromo({
+        id: gId(),
+        PromotionID: 'visa-' + oid,
+        Bank: 'Visa',
+        Merchant: merchant,
+        OfferTitle: title,
+        ShortDescription: title,
+        DiscountType: disc.type,
+        DiscountValue: disc.value,
+        PromotionType: 'Discount',
+        MerchantCategory: /hotel|resort|banyan|dusit|ihg|swiss/i.test(merchant + title) ? 'Hotel'
+          : /golf|travel|klook/i.test(title) ? 'Travel'
+          : /cgv|movie|phim/i.test(title) ? 'Entertainment'
+          : /ẩm thực|dining|restaurant/i.test(title) ? 'Dining' : 'Other',
+        Country: 'Vietnam',
+        StartDate: todayISO(),
+        EndDate: '',
+        ApplyURL: href.split('?')[0],
+        OfficialSource: 'Visa Offers & Perks',
+        SourceURL: sourceUrl,
+        Status: 'Active',
+        Priority: 50,
+        Verified: 'Pending'
+      }));
+    }
+    return list;
+  }
+
+  function fetchViaReaderProxy(sourceUrl) {
+    // Only after allowlist validation — never proxy arbitrary domains
+    if (!isHttpsOfficial(sourceUrl)) {
+      return Promise.reject(new Error('Reader proxy blocked: non-official domain'));
+    }
+    var proxyUrl = READER_PROXY_PREFIX + sourceUrl;
+    return fetch(proxyUrl, {
+      method: 'GET',
+      mode: 'cors',
+      credentials: 'omit',
+      headers: { Accept: 'text/plain' }
+    }).then(function (r) {
+      if (!r.ok) throw new Error('Reader proxy HTTP ' + r.status + ' (timeout / layout / rate limit)');
+      return r.text();
+    }).then(function (text) {
+      if (!text || text.length < 200) throw new Error('Reader returned empty content');
+      var list = parseReaderMarkdownOffers(text, sourceUrl);
+      if (!list.length) {
+        throw new Error('No promotions found in rendered page (JS layout may have changed)');
+      }
+      return { promotions: list, engine: 'reader-proxy', parser: 'visa_offers_perks_reader' };
+    });
+  }
+
+  function isVisaOffersUrl(url) {
+    try {
+      var u = new URL(url);
+      return /visa\.com(\.vn)?$/i.test(u.hostname.replace(/^www\./, '').split('.').slice(-3).join('.')) ||
+        /\.visa\.com(\.vn)?$/i.test(u.hostname) ||
+        /visa\.com\.vn$/i.test(u.hostname);
+    } catch (e) { return false; }
+  }
+
+  function crawlOfficialUrl(sourceUrl, onProgress) {
+    onProgress = onProgress || function () {};
+    var skipExpired = !!($('vpUrlSkipExpired') && $('vpUrlSkipExpired').checked);
+    onProgress(15, 'Validating allowlist…');
+
+    var chain;
+    if (isVisaOffersUrl(sourceUrl) && /visa-offers-and-perks|promociones|visa-commercial-offers/i.test(sourceUrl)) {
+      onProgress(30, 'Fetching Visa Offers API…');
+      chain = fetchVisaPerksApi(sourceUrl)['catch'](function (err) {
+        onProgress(45, 'Direct API blocked or failed (' + (err.message || err) + '). Trying rendered page…');
+        return fetchViaReaderProxy(sourceUrl);
+      });
+    } else {
+      onProgress(30, 'Fetching official page (rendered)…');
+      chain = fetchViaReaderProxy(sourceUrl);
+    }
+
+    return chain.then(function (result) {
+      onProgress(70, 'Normalizing ' + result.promotions.length + ' offers…');
+      var valid = [];
+      var invalid = [];
+      var seen = {};
+      result.promotions.forEach(function (p, idx) {
+        // strip internal filter helpers
+        delete p._cardProductTypes;
+        delete p._cardPaymentTypes;
+        if (!p.StartDate || !isValidDate(p.StartDate)) p.StartDate = todayISO();
+        // Reader/HTML paths may omit end date — keep Active without inventing expiry
+        if (p.EndDate && !isValidDate(p.EndDate)) p.EndDate = '';
+        if (skipExpired && isExpired(p)) {
+          invalid.push({ p: p, errors: ['Expired (skipped by toggle)'], row: idx + 1 });
+          return;
+        }
+        var errs = [];
+        if (!p.OfferTitle) errs.push('Missing title');
+        if (!p.Merchant) errs.push('Missing merchant');
+        if (p.ApplyURL && !isHttpsOfficial(p.ApplyURL)) errs.push('ApplyURL not official HTTPS');
+        var key = String(p.PromotionID || '').toLowerCase();
+        if (key && seen[key]) errs.push('Duplicate in crawl batch');
+        // Existing dataset duplicates are OK in preview (merge mode handles them)
+        if (!p.OfferTitle) {
+          invalid.push({ p: p, errors: errs.length ? errs : ['Missing title'], row: idx + 1 });
+          return;
+        }
+        if (errs.length) {
+          invalid.push({ p: p, errors: errs, row: idx + 1 });
+          return;
+        }
+        if (key) seen[key] = 1;
+        valid.push({ p: p, errors: [], row: idx + 1, selected: true });
+      });
+      onProgress(90, 'Building preview…');
+      return {
+        valid: valid,
+        invalid: invalid,
+        sourceUrl: sourceUrl,
+        engine: result.engine,
+        parser: result.parser
+      };
+    });
+  }
+
+  function openUrlPreview(result) {
+    pendingUrlImport = result;
+    var box = $('vpUrlPreview');
+    if (box) box.hidden = false;
+    var body = $('vpUrlPreviewBody');
+    if (!body) return;
+    body.innerHTML = '';
+    var rows = (result.valid || []).concat((result.invalid || []).map(function (item) {
+      return { p: item.p, errors: item.errors, row: item.row, selected: false };
+    }));
+    rows.forEach(function (item, i) {
+      var p = item.p;
+      var tr = document.createElement('tr');
+      if (item.errors && item.errors.length) tr.className = 'is-invalid';
+      var card = [p.Card, p.CardLevel, p.EligibleCards].filter(Boolean).join(' · ') || '—';
+      tr.innerHTML =
+        '<td><input type="checkbox" data-url-idx="' + i + '" ' + (item.selected !== false && !(item.errors && item.errors.length) ? 'checked' : '') + '></td>' +
+        '<td>' + esc(p.Merchant) + '</td>' +
+        '<td>' + esc(p.OfferTitle) + '</td>' +
+        '<td>' + esc(card.slice(0, 48)) + '</td>' +
+        '<td>' + esc(formatDeal(p)) + '</td>' +
+        '<td>' + esc(p.EndDate || '—') + '</td>' +
+        '<td>' + esc(p.Status || '') + '</td>' +
+        '<td title="' + esc(p.SourceURL || p.ApplyURL || '') + '">' + esc(p.SourceURL || p.ApplyURL || '') + '</td>';
+      body.appendChild(tr);
+      item._tr = tr;
+    });
+    pendingUrlImport._rows = rows;
+    var report = $('vpUrlImportReport');
+    if (report) {
+      report.textContent =
+        'Parser: ' + (result.parser || '—') + ' · Engine: ' + (result.engine || '—') + '\n' +
+        'Valid rows: ' + (result.valid || []).length + ' · Flagged: ' + (result.invalid || []).length + '\n' +
+        ((result.invalid || []).slice(0, 12).map(function (x) {
+          return '• ' + (x.p.Merchant || '?') + ': ' + (x.errors || []).join('; ');
+        }).join('\n') || 'All rows look importable.');
+    }
+    var selAll = $('vpUrlSelectAll');
+    if (selAll) selAll.checked = true;
+    setUrlStatus('ok', '✓ Preview ready — review rows, choose merge strategy, then Import.');
+  }
+
+  function cancelUrlImport() {
+    pendingUrlImport = null;
+    var box = $('vpUrlPreview');
+    if (box) box.hidden = true;
+    var body = $('vpUrlPreviewBody');
+    if (body) body.innerHTML = '';
+    setUrlProgress(false, 0, '');
+  }
+
+  function confirmUrlImport() {
+    if (!pendingUrlImport || !pendingUrlImport._rows) {
+      setUrlStatus('err', 'Nothing to import. Submit a URL first.');
+      return;
+    }
+    var selected = [];
+    pendingUrlImport._rows.forEach(function (item, i) {
+      var cb = document.querySelector('input[data-url-idx="' + i + '"]');
+      if (cb && cb.checked && item.p && item.p.OfferTitle) selected.push(item.p);
+    });
+    if (!selected.length) {
+      setUrlStatus('err', 'No rows selected.');
+      return;
+    }
+    var mode = (document.querySelector('input[name="vpUrlMergeMode"]:checked') || {}).value || 'append';
+    var report = mergePromotions(selected, mode);
+    audit('import-url', selected.length + ' rows · mode ' + mode + ' · ' + (pendingUrlImport.sourceUrl || '') +
+      ' · +' + report.imported + ' ~' + report.updated + ' skip ' + report.skipped);
+    saveUrlLastMeta(pendingUrlImport.sourceUrl || '');
+    cacheLocal();
+    S.lastSyncAt = new Date().toISOString();
+    cancelUrlImport();
+    setUrlStatus('ok', '✓ Import report — Imported: ' + report.imported +
+      ', Updated: ' + report.updated + ', Skipped: ' + report.skipped +
+      '. Dashboard / Calendar / KPI / Insights / Stats / Search refreshed. Remember 💾 Save to GitHub.');
+    // Auto-refresh all views without full page reload
     renderAll();
+  }
+
+  function submitUrlImport() {
+    var v = validateOfficialUrl(($('vpUrlInput') && $('vpUrlInput').value) || '');
+    if (!v.ok) {
+      setUrlStatus('err', '✗ ' + v.error);
+      return;
+    }
+    setUrlProgress(true, 5, 'Starting…');
+    setUrlStatus('ok', 'Crawling official page…');
+    cancelUrlImport();
+    crawlOfficialUrl(v.url, function (pct, text) {
+      setUrlProgress(true, pct, text);
+    }).then(function (result) {
+      setUrlProgress(true, 100, 'Done');
+      openUrlPreview(result);
+      setTimeout(function () { setUrlProgress(false); }, 1200);
+    })['catch'](function (err) {
+      setUrlProgress(true, 100, 'Failed');
+      setUrlStatus('err', '✗ ' + (err && err.message ? err.message : err) +
+        ' — network / timeout / JS render / layout change. Retry or use Excel Import.');
+      setTimeout(function () { setUrlProgress(false); }, 2500);
+    });
   }
 
   function syncOfficial() {
@@ -1360,6 +1896,21 @@
     on($('vpImportClose'), 'click', function () { $('vpImportModal').hidden = true; pendingImport = null; });
     on($('vpImportBackdrop'), 'click', function () { $('vpImportModal').hidden = true; pendingImport = null; });
     on($('vpImportConfirm'), 'click', confirmImport);
+
+    // Import from URL
+    loadUrlLastMeta();
+    on($('vpUrlSubmit'), 'click', submitUrlImport);
+    on($('vpUrlInput'), 'keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); submitUrlImport(); }
+    });
+    on($('vpUrlImportBtn'), 'click', confirmUrlImport);
+    on($('vpUrlCancelBtn'), 'click', cancelUrlImport);
+    on($('vpUrlSelectAll'), 'change', function () {
+      var onAll = !!(this && this.checked);
+      document.querySelectorAll('#vpUrlPreviewBody input[type="checkbox"][data-url-idx]').forEach(function (cb) {
+        cb.checked = onAll;
+      });
+    });
 
     on($('vpBackupBtn'), 'click', function () {
       var blob = new Blob([JSON.stringify(payload(), null, 2)], { type: 'application/json' });
