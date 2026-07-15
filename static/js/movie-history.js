@@ -74,5 +74,6 @@ function lV(){var BASE=(document.body&&document.body.getAttribute('data-site-bas
 function exportMovies(){var json=JSON.stringify(S.movies,null,2);var blob=new Blob([json],{type:'application/json'});var url=URL.createObjectURL(blob);var a=document.createElement('a');a.href=url;a.download='movie-calendar-'+getISODate(new Date())+'.json';a.click();URL.revokeObjectURL(url)}
 
 var exportBtn=document.getElementById('mhExportBtn');if(exportBtn)exportBtn.addEventListener('click',exportMovies);
+var addBtn=document.getElementById('mhAddBtn');if(addBtn)addBtn.addEventListener('click',function(){oS()});
 iG();lV();
 })();
