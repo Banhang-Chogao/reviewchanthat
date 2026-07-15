@@ -12,7 +12,7 @@
   <div class="vp-hero">
     <p class="vp-hero__kicker">Promotion Management</p>
     <h1 class="vp-hero__title">💳 Visa Promo Center</h1>
-    <p class="vp-hero__sub">Quản lý ưu đãi thẻ — import Excel, xác minh nguồn official, dashboard &amp; gợi ý. Lưu vĩnh viễn qua GitHub token (giống Movie Calendar).</p>
+    <p class="vp-hero__sub">Quản lý ưu đãi thẻ — Import from URL, Excel, xác minh nguồn official, dashboard &amp; gợi ý. Lưu vĩnh viễn qua GitHub token (giống Movie Calendar).</p>
   </div>
 
   <!-- Access gate -->
@@ -104,9 +104,66 @@
 
     <!-- INPUT -->
     <section class="vp-panel" id="vpTabInput" data-panel="input" hidden>
+      <!-- Import from URL (new) — above Excel Import -->
+      <div class="vp-io vp-io--url" id="vpUrlImportCard">
+        <div class="vp-io__head">
+          <h2 class="vp-section-title">Import from URL</h2>
+          <p class="vp-muted">Dán một official promotion URL (Visa Offers &amp; Perks / issuer). Hệ thống crawl → normalize → preview → import. Chỉ domain official allowlist. Không dùng Cloudflare Worker/R2.</p>
+        </div>
+        <label class="vp-url-label" for="vpUrlInput">Official Promotion URL</label>
+        <div class="vp-url-row">
+          <input type="url" id="vpUrlInput" class="vp-input vp-url-input" placeholder="https://www.visa.com.vn/vi_vn/visa-offers-and-perks/?cardProduct=65&amp;paymentType=9" autocomplete="off" spellcheck="false">
+          <button type="button" class="vp-btn vp-btn--primary" id="vpUrlSubmit">Submit</button>
+        </div>
+        <div class="vp-url-options">
+          <label class="vp-check"><input type="checkbox" id="vpUrlSkipExpired"> Skip expired promotions</label>
+          <span class="vp-muted" id="vpUrlLastMeta">Last Imported URL: — · Last Imported Time: —</span>
+        </div>
+        <div class="vp-url-progress" id="vpUrlProgress" hidden>
+          <div class="vp-progress__track"><div class="vp-progress__fill" id="vpUrlProgressFill"></div></div>
+          <div class="vp-progress__text" id="vpUrlProgressText">Idle</div>
+        </div>
+        <div class="vp-status" id="vpUrlStatus" hidden aria-live="polite"></div>
+        <div class="vp-url-preview" id="vpUrlPreview" hidden>
+          <div class="vp-section-head">
+            <h3 class="vp-section-title">Preview</h3>
+            <div class="vp-section-actions">
+              <label class="vp-check"><input type="checkbox" id="vpUrlSelectAll" checked> Select all</label>
+            </div>
+          </div>
+          <div class="vp-modal__modes" id="vpUrlMergeModes">
+            <label><input type="radio" name="vpUrlMergeMode" value="append" checked> Append</label>
+            <label><input type="radio" name="vpUrlMergeMode" value="replace"> Replace</label>
+            <label><input type="radio" name="vpUrlMergeMode" value="update"> Update Existing</label>
+          </div>
+          <div class="vp-table-wrap">
+            <table class="vp-table" id="vpUrlPreviewTable">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Merchant</th>
+                  <th>Offer</th>
+                  <th>Card</th>
+                  <th>Discount</th>
+                  <th>End Date</th>
+                  <th>Status</th>
+                  <th>Source URL</th>
+                </tr>
+              </thead>
+              <tbody id="vpUrlPreviewBody"></tbody>
+            </table>
+          </div>
+          <pre class="vp-modal__report" id="vpUrlImportReport"></pre>
+          <div class="vp-form__actions">
+            <button type="button" class="vp-btn vp-btn--primary" id="vpUrlImportBtn">Import</button>
+            <button type="button" class="vp-btn" id="vpUrlCancelBtn">Cancel</button>
+          </div>
+        </div>
+      </div>
+
       <div class="vp-io">
         <div class="vp-io__head">
-          <h2 class="vp-section-title">Input / Import / Export</h2>
+          <h2 class="vp-section-title">Excel Import / Export</h2>
           <p class="vp-muted">Template khớp schema. Duplicate PromotionID bị từ chối. UUID tự sinh nếu trống. Lưu lên GitHub bằng token.</p>
         </div>
         <div class="vp-io__actions">
@@ -262,6 +319,7 @@
       <div class="vp-modal__modes">
         <label><input type="radio" name="vpImportMode" value="append" checked> Append</label>
         <label><input type="radio" name="vpImportMode" value="replace"> Replace all</label>
+        <label><input type="radio" name="vpImportMode" value="update"> Update Existing</label>
       </div>
       <div class="vp-table-wrap vp-table-wrap--modal">
         <table class="vp-table"><thead id="vpImportHead"></thead><tbody id="vpImportBody"></tbody></table>

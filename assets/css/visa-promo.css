@@ -190,6 +190,69 @@
 .vp-panel.is-active { display: block; animation: vp-in .2s ease; }
 @keyframes vp-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 
+/* Import from URL card */
+.vp-io--url {
+  margin-bottom: 1.25rem;
+  border: 1.5px solid rgba(0, 167, 160, .28);
+  background: linear-gradient(180deg, rgba(0, 167, 160, .06), var(--surface, #fff) 42%);
+}
+.vp-url-label {
+  display: block;
+  font-size: .78rem;
+  font-weight: 700;
+  margin: .35rem 0 .4rem;
+  color: var(--text, #111);
+}
+.vp-url-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  align-items: stretch;
+}
+.vp-url-input { flex: 1 1 240px; min-width: 0; }
+.vp-url-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.25rem;
+  align-items: center;
+  margin-top: .65rem;
+  font-size: .78rem;
+}
+.vp-check {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+.vp-url-progress {
+  margin-top: .75rem;
+  padding: .55rem .7rem;
+  border-radius: 10px;
+  background: var(--bg, #fafafa);
+  border: 1px solid var(--border, #e8e8e8);
+}
+.vp-url-progress[hidden] { display: none !important; }
+.vp-url-preview {
+  margin-top: 1rem;
+  padding-top: .5rem;
+  border-top: 1px dashed var(--border, #e0e0e0);
+}
+.vp-url-preview[hidden] { display: none !important; }
+.vp-url-preview .vp-table td:first-child,
+.vp-url-preview .vp-table th:first-child {
+  width: 2.2rem;
+  text-align: center;
+}
+.vp-url-preview .vp-table td:last-child {
+  max-width: 12rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: .72rem;
+}
+
 /* KPIs */
 .vp-kpis {
   display: grid;
