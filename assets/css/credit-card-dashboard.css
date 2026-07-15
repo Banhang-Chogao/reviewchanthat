@@ -69,7 +69,81 @@
 .ccd-header__right {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.ccd-header__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface, #fff);
+  color: var(--text);
+  font-size: .78rem;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  min-height: 40px;
+  white-space: nowrap;
+}
+.ccd-header__btn:hover {
+  border-color: var(--accent, #00a7a0);
+  background: var(--accent-soft, rgba(0,167,160,.08));
+  color: var(--accent-hover, #007f7a);
+}
+.ccd-header__btn--save {
+  background: var(--accent, #00a7a0);
+  border-color: var(--accent, #00a7a0);
+  color: #fff;
+}
+.ccd-header__btn--save:hover {
+  filter: brightness(.95);
+  color: #fff;
+  background: var(--accent-hover, #007f7a);
+  border-color: var(--accent-hover, #007f7a);
+}
+/* GitHub save toast */
+.ccd-gh-progress {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1200;
+  width: min(420px, 92vw);
+  padding: .7rem .95rem;
+  background: var(--surface, #fff);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 10px 32px rgba(0,0,0,.18);
+}
+.ccd-gh-progress[hidden] { display: none !important; }
+.ccd-gh-progress__track {
+  height: 5px;
+  background: var(--bg, #f0f0f0);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: .4rem;
+}
+.ccd-gh-progress__fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #00a7a0, #00d4c0);
+  border-radius: 3px;
+  transition: width .35s ease;
+}
+.ccd-gh-progress__stage {
+  font-size: .84rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.ccd-gh-progress__sha {
+  font-size: .68rem;
+  color: var(--muted);
+  font-family: monospace;
+  margin-top: .15rem;
 }
 .ccd-header__label {
   font-size: .82rem;

@@ -41,9 +41,18 @@
         <div class="ccd-header__right">
           <span class="ccd-header__label">HSBC Insights</span>
           <span class="ccd-header__sync" id="ccdSyncLabel">Chưa đồng bộ</span>
+          <button type="button" class="ccd-header__btn" id="ccdTokenBtn" title="GitHub token (contents:write)">🔑 Token</button>
+          <button type="button" class="ccd-header__btn ccd-header__btn--save" id="ccdSaveGithubBtn" title="Commit cards + promotions lên GitHub">💾 Save to GitHub</button>
           <button type="button" class="ccd-header__logout" id="ccdLogoutBtn">Đăng xuất</button>
         </div>
       </header>
+
+      <!-- GitHub save progress (fixed toast) -->
+      <div class="ccd-gh-progress" id="ccdGhProgress" style="display:none" hidden aria-live="polite">
+        <div class="ccd-gh-progress__track"><div class="ccd-gh-progress__fill" id="ccdGhProgressFill"></div></div>
+        <div class="ccd-gh-progress__stage" id="ccdGhProgressStage">Đang lưu…</div>
+        <div class="ccd-gh-progress__sha" id="ccdGhProgressSha"></div>
+      </div>
 
       <!-- ═══ HOME: 3 modules ═══ -->
       <section class="ccd-home" id="ccdHome">
@@ -187,10 +196,16 @@
             </div>
             <p class="ccd-input__form-error" id="ccdFormError" aria-live="polite"></p>
             <div class="ccd-input__form-actions">
-              <button type="submit" class="ccd-input__btn ccd-input__btn--primary" id="ccdFormSave">Lưu thẻ</button>
+              <button type="submit" class="ccd-input__btn ccd-input__btn--primary" id="ccdFormSave">💾 Lưu thẻ → GitHub</button>
               <button type="button" class="ccd-input__btn" id="ccdFormCancel">Huỷ</button>
             </div>
           </form>
+        </div>
+
+        <div class="ccd-input__toolbar" style="margin-bottom:.75rem">
+          <div class="ccd-input__actions">
+            <button type="button" class="ccd-input__btn ccd-input__btn--primary" id="ccdInputSaveGithub">💾 Save all cards to GitHub</button>
+          </div>
         </div>
 
         <div class="ccd-input__table-wrap">
@@ -354,10 +369,16 @@
             </div>
             <p class="ccd-input__form-error" id="ccdPromoFormError" aria-live="polite"></p>
             <div class="ccd-input__form-actions">
-              <button type="submit" class="ccd-input__btn ccd-input__btn--primary" id="ccdPromoFormSave">Lưu promotion</button>
+              <button type="submit" class="ccd-input__btn ccd-input__btn--primary" id="ccdPromoFormSave">💾 Lưu promotion → GitHub</button>
               <button type="button" class="ccd-input__btn" id="ccdPromoFormCancel">Huỷ</button>
             </div>
           </form>
+        </div>
+
+        <div class="ccd-input__toolbar" style="margin-bottom:.75rem">
+          <div class="ccd-input__actions">
+            <button type="button" class="ccd-input__btn ccd-input__btn--primary" id="ccdPromoSaveGithub">💾 Save all promotions to GitHub</button>
+          </div>
         </div>
 
         <div class="ccd-promo__insights" id="ccdPromoMgmtInsights" aria-label="Promotion insights">
@@ -430,6 +451,7 @@
             </select>
           </div>
           <div class="ccd-dash-toolbar__export">
+            <button type="button" class="ccd-input__btn ccd-input__btn--small ccd-input__btn--primary" id="ccdDashSaveGithub">💾 Save to GitHub</button>
             <button type="button" class="ccd-input__btn ccd-input__btn--small" id="ccdDashExportCsv">CSV</button>
             <button type="button" class="ccd-input__btn ccd-input__btn--small" id="ccdDashExportXlsx">Excel</button>
             <button type="button" class="ccd-input__btn ccd-input__btn--small" id="ccdDashExportPdf">PDF</button>

@@ -14,7 +14,14 @@
   var IDB_NAME = 'credit_card_dashboard_db';
   var IDB_STORE = 'encrypted_data';
   var IDB_KEY = 'ccd-cards';
-  var STORAGE_BACKEND = 'indexeddb'; // future: 'r2'
+  var STORAGE_BACKEND = 'indexeddb'; // local cache; permanent = GitHub
+  // Permanent storage via GitHub Contents API (same pattern as movie-history)
+  // Token is stored ONLY in browser localStorage — never hardcode secrets in source.
+  var TOKEN_KEY = 'ccd_gh_token';
+  var GH_OWNER = 'banhang-chogao';
+  var GH_REPO = 'reviewchanthat';
+  var GH_PATH = 'data/credit-card-dashboard.json';
+  var GH_BRANCH = 'main';
 
   var CHART_COLORS = [
     'rgba(0,200,83,0.75)', 'rgba(59,130,246,0.75)', 'rgba(245,158,11,0.75)',
@@ -229,51 +236,272 @@
   };
 
   var saveTimer = null;
-  function scheduleSave() {
-    if (saveTimer) clearTimeout(saveTimer);
-    saveTimer = setTimeout(persist, 400);
+  var ghSaveTimer = null;
+  var ghSaving = false;
+
+  function payloadObject() {
+    return {
+      version: 2,
+      cards: state.cards || [],
+      promotions: state.promotions || [],
+      updatedAt: new Date().toISOString(),
+      savedAt: new Date().toISOString()
+    };
   }
 
-  function persist() {
+  function applyPayload(data) {
+    if (!data) {
+      state.cards = [];
+      state.promotions = [];
+      return;
+    }
+    if (Array.isArray(data)) {
+      state.cards = data;
+      state.promotions = [];
+      return;
+    }
+    state.cards = Array.isArray(data.cards) ? data.cards : [];
+    state.promotions = Array.isArray(data.promotions) ? data.promotions : [];
+  }
+
+  function scheduleSave() {
+    // Local IndexedDB cache (encrypted) + debounced GitHub permanent commit
+    if (saveTimer) clearTimeout(saveTimer);
+    saveTimer = setTimeout(function () {
+      persistLocal()['catch'](function (e) { console.warn('CCD local save failed', e); });
+    }, 400);
+    if (ghSaveTimer) clearTimeout(ghSaveTimer);
+    ghSaveTimer = setTimeout(function () {
+      saveToGitHub({ quiet: true })['catch'](function () { /* toast already set */ });
+    }, 900);
+  }
+
+  function scheduleSaveLocalOnly() {
+    if (saveTimer) clearTimeout(saveTimer);
+    saveTimer = setTimeout(function () {
+      persistLocal()['catch'](function (e) { console.warn('CCD local save failed', e); });
+    }, 400);
+  }
+
+  function getToken() { return localStorage.getItem(TOKEN_KEY) || ''; }
+  function setToken(t) {
+    if (t) localStorage.setItem(TOKEN_KEY, t);
+    else localStorage.removeItem(TOKEN_KEY);
+  }
+
+  function promptToken() {
+    var cur = getToken();
+    var t = prompt(
+      'Nhập GitHub Personal Access Token (classic) với quyền contents:write cho repo reviewchanthat.\nToken chỉ lưu trên trình duyệt (localStorage), không commit vào code.',
+      cur || ''
+    );
+    if (t === null) return getToken();
+    t = String(t).trim();
+    setToken(t);
+    if (t) {
+      var el = $('ccdSyncLabel');
+      if (el) el.textContent = 'Token OK · chờ Save';
+      alert('Đã lưu token trên trình duyệt này.');
+    }
+    return t;
+  }
+
+  function getGHReadURL() {
+    return 'https://raw.githubusercontent.com/' + GH_OWNER + '/' + GH_REPO + '/' + GH_BRANCH + '/' + GH_PATH + '?_=' + Date.now();
+  }
+  function getGHAPIURL() {
+    return 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO + '/contents/' + GH_PATH;
+  }
+
+  function setGhProgress(show, pct, text, sha, isError) {
+    var pb = $('ccdGhProgress');
+    var pf = $('ccdGhProgressFill');
+    var ps = $('ccdGhProgressStage');
+    var psha = $('ccdGhProgressSha');
+    if (!pb) return;
+    if (show) {
+      pb.hidden = false;
+      pb.style.display = '';
+    }
+    if (pf) {
+      pf.style.width = (pct || 0) + '%';
+      pf.style.background = isError ? 'var(--ccd-red,#ef4444)' : '';
+    }
+    if (ps) ps.textContent = text || '';
+    if (psha) psha.textContent = sha || '';
+    if (!show) {
+      pb.hidden = true;
+      pb.style.display = 'none';
+    }
+  }
+
+  function utf8ToBase64(str) {
+    return btoa(unescape(encodeURIComponent(str)));
+  }
+
+  function persistLocal() {
     if (!state.cryptoKey) return Promise.resolve();
-    var json = JSON.stringify({
-      version: 2,
-      cards: state.cards,
-      promotions: state.promotions || [],
-      savedAt: new Date().toISOString()
-    });
+    var json = JSON.stringify(payloadObject());
     return encryptData(json, state.cryptoKey).then(function (enc) {
       return StorageAdapter.saveEncrypted(enc);
     }).then(function () {
       var el = $('ccdSyncLabel');
-      if (el) el.textContent = 'Đồng bộ: ' + nowLabel();
-    })['catch'](function (e) {
-      console.warn('CCD save failed', e);
+      if (el && !ghSaving) el.textContent = 'Local · ' + nowLabel();
     });
   }
 
-  function loadCards() {
-    return StorageAdapter.loadEncrypted().then(function (enc) {
-      if (!enc || !state.cryptoKey) {
-        state.cards = [];
-        state.promotions = [];
-        return;
+  /** Permanent save: commit cards + promotions to data/credit-card-dashboard.json */
+  function saveToGitHub(opts) {
+    opts = opts || {};
+    var token = getToken();
+    if (!token) {
+      if (opts.quiet) return Promise.resolve();
+      token = promptToken();
+      if (!token) {
+        alert('Cần GitHub token để lưu vĩnh viễn.');
+        return Promise.reject(new Error('No token'));
       }
+    }
+    if (ghSaving) return Promise.resolve();
+    ghSaving = true;
+    var data = payloadObject();
+    var json = JSON.stringify(data, null, 2) + '\n';
+    var content = utf8ToBase64(json);
+    var nCards = (data.cards || []).length;
+    var nPromos = (data.promotions || []).length;
+    setGhProgress(true, 15, '🔍 Đang kết nối GitHub…', '');
+    var el = $('ccdSyncLabel');
+    if (el) el.textContent = 'Đang commit…';
+
+    var apiUrl = getGHAPIURL();
+    return fetch(apiUrl, { headers: { Accept: 'application/vnd.github.v3+json' } })
+      .then(function (r) {
+        if (r.status === 404) return null;
+        if (!r.ok) throw new Error('Get SHA failed: ' + r.status);
+        return r.json();
+      })
+      .then(function (existing) {
+        setGhProgress(true, 55, '📤 Đang commit ' + nCards + ' thẻ · ' + nPromos + ' promotions…', '');
+        var body = {
+          message: 'credit-card-dashboard: save ' + nCards + ' cards, ' + nPromos + ' promotions',
+          content: content,
+          branch: GH_BRANCH
+        };
+        if (existing && existing.sha) body.sha = existing.sha;
+        return fetch(apiUrl, {
+          method: 'PUT',
+          headers: {
+            Authorization: 'token ' + token,
+            'Content-Type': 'application/json',
+            Accept: 'application/vnd.github.v3+json'
+          },
+          body: JSON.stringify(body)
+        });
+      })
+      .then(function (r) {
+        if (!r.ok) {
+          return r.json().then(function (e) {
+            var msg = (e && e.message) || String(r.status);
+            if (/Bad credentials|401/i.test(msg)) {
+              setToken('');
+              throw new Error('Token không hợp lệ — nhập lại 🔑 Token');
+            }
+            if (/sha.*does not match|409|Conflict/i.test(msg) && !opts._retried) {
+              ghSaving = false;
+              return saveToGitHub({ quiet: opts.quiet, _retried: true });
+            }
+            throw new Error('GitHub write failed: ' + msg);
+          });
+        }
+        return r.json();
+      })
+      .then(function (res) {
+        if (!res || !res.content) return res;
+        var sha = (res.content && res.content.sha) || '';
+        var short = sha ? sha.slice(0, 7) : '';
+        setGhProgress(true, 100, '✅ Đã lưu vĩnh viễn trên GitHub', short ? 'Commit: ' + short : '');
+        if (el) el.textContent = 'GitHub · ' + (short || nowLabel());
+        return persistLocal().then(function () {
+          setTimeout(function () { setGhProgress(false); }, 2200);
+          return res;
+        });
+      })
+      ['catch'](function (err) {
+        console.warn('CCD GitHub save failed', err);
+        setGhProgress(true, 100, '❌ ' + (err.message || err), '', true);
+        if (el) el.textContent = 'Lỗi GitHub · ' + nowLabel();
+        if (!opts.quiet) alert('Lưu GitHub thất bại: ' + (err.message || err));
+        setTimeout(function () { setGhProgress(false); }, 5000);
+        throw err;
+      })
+      .then(function (res) {
+        ghSaving = false;
+        return res;
+      }, function (err) {
+        ghSaving = false;
+        throw err;
+      });
+  }
+
+  function loadFromGitHub() {
+    return fetch(getGHReadURL(), { cache: 'no-cache' })
+      .then(function (r) {
+        if (r.status === 404) return null;
+        if (!r.ok) throw new Error('GitHub read failed: ' + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        if (!data) return false;
+        applyPayload(data);
+        return true;
+      });
+  }
+
+  function loadLocal() {
+    return StorageAdapter.loadEncrypted().then(function (enc) {
+      if (!enc || !state.cryptoKey) return false;
       return decryptData(enc, state.cryptoKey).then(function (json) {
         var data = JSON.parse(json);
-        // Back-compat: plain array = cards only (v1)
-        if (Array.isArray(data)) {
-          state.cards = data;
-          state.promotions = [];
-        } else {
-          state.cards = data.cards || [];
-          state.promotions = Array.isArray(data.promotions) ? data.promotions : [];
-        }
+        applyPayload(data);
+        return true;
       });
-    })['catch'](function (e) {
-      console.warn('CCD load failed', e);
-      state.cards = [];
-      state.promotions = [];
+    })['catch'](function () { return false; });
+  }
+
+  /** Prefer GitHub permanent data; fallback IndexedDB cache */
+  function loadCards() {
+    return loadFromGitHub()
+      .then(function (ok) {
+        if (ok) {
+          var el = $('ccdSyncLabel');
+          if (el) el.textContent = 'GitHub · loaded';
+          // warm local cache from GH
+          return persistLocal().then(function () { return true; });
+        }
+        return loadLocal().then(function (lok) {
+          var el = $('ccdSyncLabel');
+          if (el) el.textContent = lok ? 'Local cache' : 'Trống · chưa có data';
+          return lok;
+        });
+      })
+      ['catch'](function (e) {
+        console.warn('CCD GH load failed, try local', e);
+        return loadLocal().then(function (lok) {
+          var el = $('ccdSyncLabel');
+          if (el) el.textContent = lok ? 'Local (offline)' : 'Chưa có data';
+          if (!lok) {
+            state.cards = [];
+            state.promotions = [];
+          }
+          return lok;
+        });
+      });
+  }
+
+  // Alias used by older call sites
+  function persist() {
+    return persistLocal().then(function () {
+      return saveToGitHub({ quiet: false });
     });
   }
 
@@ -308,6 +536,16 @@
 
   function afterUnlock() {
     showApp();
+    // Ensure token present for permanent GitHub saves (never baked into source)
+    if (!getToken()) {
+      // soft prompt once per unlock if missing
+      setTimeout(function () {
+        if (!getToken()) {
+          var want = confirm('Chưa có GitHub token. Nhập token để lưu vĩnh viễn cards/promotions lên repo?\n(Cancel = chỉ lưu local tạm trên máy này)');
+          if (want) promptToken();
+        }
+      }, 400);
+    }
     loadCards().then(function () {
       showView('home');
       renderAll();
@@ -3162,6 +3400,22 @@
     on($('ccdPromoSort'), 'change', function () { state.promoSort = this.value || 'priority'; renderPromoTable(); });
   }
 
+  function initGithubSaveUi() {
+    on($('ccdTokenBtn'), 'click', function () { promptToken(); });
+    on($('ccdSaveGithubBtn'), 'click', function () {
+      persistLocal().then(function () { return saveToGitHub({ quiet: false }); });
+    });
+    on($('ccdInputSaveGithub'), 'click', function () {
+      persistLocal().then(function () { return saveToGitHub({ quiet: false }); });
+    });
+    on($('ccdPromoSaveGithub'), 'click', function () {
+      persistLocal().then(function () { return saveToGitHub({ quiet: false }); });
+    });
+    on($('ccdDashSaveGithub'), 'click', function () {
+      persistLocal().then(function () { return saveToGitHub({ quiet: false }); });
+    });
+  }
+
   /* ───────────── Reveal animation (existing) ───────────── */
   function initReveal() {
     var cards = document.querySelectorAll('#ccdDashboard .ccd-card');
@@ -3196,8 +3450,9 @@
     initDashboardControls();
     initDashPromoControls();
     initAssistant();
+    initGithubSaveUi();
     document.addEventListener('visibilitychange', function () {
-      if (document.hidden) persist();
+      if (document.hidden) scheduleSaveLocalOnly();
     });
     // reveal after first dashboard show
     var origShow = showView;
