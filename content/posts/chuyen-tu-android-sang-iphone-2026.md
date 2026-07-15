@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
-date = "2026-07-16T10:20:00+07:00"
+date = "2026-07-16T06:43:16+07:00"
 commit = "02980ce8"
 description = "Chuyển Android sang iPhone 2026: app Zalo ngân hàng VN, chuyển dữ liệu, phụ kiện và thói quen 2 tuần đầu. Khi nào nên ở lại Android."
 draft = false
@@ -11,7 +11,7 @@ thumbnail = "images/posts/chuyen-tu-android-sang-iphone-2026.webp"
 slug = "chuyen-tu-android-sang-iphone-2026"
 tags = ["Android", "iPhone", "chuyển máy", "iOS 2026"]
 title = "Chuyển từ Android sang iPhone 2026: app, dữ liệu, thói quen 2 tuần đầu"
-date_display = "16-07-2026 10:20:00 GMT +7"
+date_display = "16-07-2026 06:43:16 GMT +7"
 
 [ai_summary]
 collapsed = false

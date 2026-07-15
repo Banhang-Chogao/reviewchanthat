@@ -11,7 +11,6 @@ tags = ["thẻ tín dụng lần đầu", "thẻ tín dụng 2026", "phí thẻ 
 title = "Thẻ tín dụng lần đầu 2026: chọn sao cho không dính phí ẩn"
 seo_title = "Thẻ tín dụng lần đầu 2026: tránh phí ẩn, chọn đúng"
 date_display = "15-07-2026 21:54:00 GMT +7"
-
 image = "images/posts/the-tin-dung-lan-dau-2026-chon-sao-khong-phi-an.webp"
 thumbnail = "images/posts/the-tin-dung-lan-dau-2026-chon-sao-khong-phi-an.webp"
 image_source = "Pexels"
@@ -27,6 +26,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+
 [ai_summary]
 collapsed = false
 enabled = true

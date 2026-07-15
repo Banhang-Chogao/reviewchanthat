@@ -18,13 +18,7 @@ thumbnail = "images/posts/review-sac-du-phong-di-du-lich-2026.webp"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "Chọn sạc dự phòng du lịch theo loại chuyến: city break ngắn, road trip, hoặc bay quốc tế nhiều ngày.",
-  "So sánh thực tế 10000mAh vs 20000mAh: dung lượng dùng được, cân nặng, số lần sạc iPhone/Android.",
-  "Ưu tiên USB-C PD hai chiều, nhiều cổng, hiển thị % pin; tránh hàng no-name dễ nóng và khó mang lên máy bay.",
-  "Quy định pin lithium trên cabin: thường ≤100Wh xách tay, không để hành lý ký gửi; ghi rõ mAh và Wh trên thân máy.",
-  "Checklist đóng gói: cáp, adapter, bảo vệ cổng, sạc trước khi đi, đừng nhồi power bank dưới đáy vali cứng."
-]
+items = ["Chọn sạc dự phòng du lịch theo loại chuyến: city break ngắn, road trip, hoặc bay quốc tế nhiều ngày.", "So sánh thực tế 10000mAh vs 20000mAh: dung lượng dùng được, cân nặng, số lần sạc iPhone/Android.", "Ưu tiên USB-C PD hai chiều, nhiều cổng, hiển thị % pin; tránh hàng no-name dễ nóng và khó mang lên máy bay.", "Quy định pin lithium trên cabin: thường ≤100Wh xách tay, không để hành lý ký gửi; ghi rõ mAh và Wh trên thân máy.", "Checklist đóng gói: cáp, adapter, bảo vệ cổng, sạc trước khi đi, đừng nhồi power bank dưới đáy vali cứng."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Nội dung dựa trên trải nghiệm cá nhân và thông tin công khai, không phải quảng cáo thương hiệu."

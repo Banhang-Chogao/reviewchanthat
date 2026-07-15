@@ -17,12 +17,7 @@ date_display = "15-07-2026 22:15:00 GMT +7"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "Ngủ đủ và giờ ngủ ổn định quan trọng hơn journal + cold plunge + 12 bước morning routine.",
-  "Khung 45 phút chia block linh hoạt: vệ sinh, ăn/uống, chuẩn bị ra ngoài, một việc tinh thần nhỏ.",
-  "Được phép bỏ qua khi ốm, deadline, con thức đêm — routine phục vụ người, không phải ngược lại.",
-  "Checklist tối giản buổi tối giảm tải buổi sáng; chống toxic productivity bằng tiêu chí vừa đủ."
-]
+items = ["Ngủ đủ và giờ ngủ ổn định quan trọng hơn journal + cold plunge + 12 bước morning routine.", "Khung 45 phút chia block linh hoạt: vệ sinh, ăn/uống, chuẩn bị ra ngoài, một việc tinh thần nhỏ.", "Được phép bỏ qua khi ốm, deadline, con thức đêm — routine phục vụ người, không phải ngược lại.", "Checklist tối giản buổi tối giảm tải buổi sáng; chống toxic productivity bằng tiêu chí vừa đủ."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết dựa trên trải nghiệm người đi làm và tổng hợp thói quen thực dụng, không quảng bá khóa học năng suất."

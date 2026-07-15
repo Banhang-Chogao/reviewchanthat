@@ -18,13 +18,7 @@ thumbnail = "images/posts/bao-hiem-du-lich-quoc-te-khi-nao-can.webp"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "Bảo hiểm du lịch quốc tế không phải lúc nào cũng bắt buộc, nhưng rất đáng cân khi chi phí y tế nước ngoài cao hoặc chuyến đi có nhiều rủi ro hủy/trễ.",
-  "Case Hàn, Nhật, Đông Nam Á khác nhau về chi phí khám chữa và thói quen thanh toán — đọc hạn mức y tế và đồng bảo hiểm kỹ.",
-  "Loại trừ thường gặp: bệnh có sẵn, thể thao mạo hiểm không khai, rượu bia, hành lý để quên, giấy tờ không đủ.",
-  "Trước khi mua: so hạn mức, đồng bảo hiểm, thời hạn, lãnh thổ, hotline 24/7, quy trình tạm ứng/chi trả.",
-  "Khi claim: giữ hóa đơn gốc, chẩn đoán, boarding pass, báo cáo mất hành lý; chụp ảnh và gọi hotline sớm."
-]
+items = ["Bảo hiểm du lịch quốc tế không phải lúc nào cũng bắt buộc, nhưng rất đáng cân khi chi phí y tế nước ngoài cao hoặc chuyến đi có nhiều rủi ro hủy/trễ.", "Case Hàn, Nhật, Đông Nam Á khác nhau về chi phí khám chữa và thói quen thanh toán — đọc hạn mức y tế và đồng bảo hiểm kỹ.", "Loại trừ thường gặp: bệnh có sẵn, thể thao mạo hiểm không khai, rượu bia, hành lý để quên, giấy tờ không đủ.", "Trước khi mua: so hạn mức, đồng bảo hiểm, thời hạn, lãnh thổ, hotline 24/7, quy trình tạm ứng/chi trả.", "Khi claim: giữ hóa đơn gốc, chẩn đoán, boarding pass, báo cáo mất hành lý; chụp ảnh và gọi hotline sớm."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết mang tính thông tin trải nghiệm, không phải tư vấn bảo hiểm cá nhân hóa."

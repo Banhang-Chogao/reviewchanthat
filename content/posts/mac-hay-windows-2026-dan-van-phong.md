@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
-date = "2026-07-16T11:30:00+07:00"
+date = "2026-07-16T06:43:16+07:00"
 commit = "02980ce8"
 description = "Mac hay Windows 2026 cho dân văn phòng VN: chi phí 3 năm, Office Adobe, sửa chữa và khi nào Chromebook là đủ. Giá tham khảo VND."
 draft = false
@@ -11,7 +11,7 @@ thumbnail = "images/posts/mac-hay-windows-2026-dan-van-phong.webp"
 slug = "mac-hay-windows-2026-dan-van-phong"
 tags = ["Mac", "Windows", "văn phòng", "2026"]
 title = "Mac hay Windows 2026 cho dân văn phòng VN: chi phí 3 năm và phần mềm"
-date_display = "16-07-2026 11:30:00 GMT +7"
+date_display = "16-07-2026 06:43:16 GMT +7"
 
 [ai_summary]
 collapsed = false

@@ -18,13 +18,7 @@ thumbnail = "images/posts/chi-phi-that-nuoi-iphone-3-nam.webp"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "TCO iPhone 3 năm = giá mua + phụ kiện + bảo hành/sửa chữa + dịch vụ - giá bán lại.",
-  "Ẩn phí hay quên: case, kính, sạc, pin năm 2–3, thay màn hình rủi ro, iCloud dung lượng.",
-  "Trade-in/bán lại phụ thuộc pin, trầy, máy lock/mở, hộp phụ kiện và thời điểm ra máy mới.",
-  "AppleCare+ có thể đáng nếu hay va đập; nếu dùng cẩn và có quỹ dự phòng, có thể tự bảo hiểm.",
-  "Tính chi phí theo tháng giúp so iPhone cũ 1 đời vs máy mới — quyết định bằng số, không bằng FOMO."
-]
+items = ["TCO iPhone 3 năm = giá mua + phụ kiện + bảo hành/sửa chữa + dịch vụ - giá bán lại.", "Ẩn phí hay quên: case, kính, sạc, pin năm 2–3, thay màn hình rủi ro, iCloud dung lượng.", "Trade-in/bán lại phụ thuộc pin, trầy, máy lock/mở, hộp phụ kiện và thời điểm ra máy mới.", "AppleCare+ có thể đáng nếu hay va đập; nếu dùng cẩn và có quỹ dự phòng, có thể tự bảo hiểm.", "Tính chi phí theo tháng giúp so iPhone cũ 1 đời vs máy mới — quyết định bằng số, không bằng FOMO."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Số liệu mang tính minh họa thị trường Việt Nam, không phải báo giá chính thức."

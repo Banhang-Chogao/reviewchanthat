@@ -17,12 +17,7 @@ date_display = "15-07-2026 21:40:00 GMT +7"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "Balo 40L phù hợp chuyến Hàn 4–5 ngày nếu pack theo lớp và chọn size cabin đúng hãng bay.",
-  "Ưu tiên khung size cabin, dây đeo êm, ngăn laptop, cổng USB tiện nhưng không thay sạc dự phòng chất lượng.",
-  "Chống nước thực tế thường là vải water-resistant + rain cover, không phải ngâm nước.",
-  "Checklist đồ 4–5 ngày Seoul/Busan kèm mẹo cân nặng và đồ mua sắm chiều về."
-]
+items = ["Balo 40L phù hợp chuyến Hàn 4–5 ngày nếu pack theo lớp và chọn size cabin đúng hãng bay.", "Ưu tiên khung size cabin, dây đeo êm, ngăn laptop, cổng USB tiện nhưng không thay sạc dự phòng chất lượng.", "Chống nước thực tế thường là vải water-resistant + rain cover, không phải ngâm nước.", "Checklist đồ 4–5 ngày Seoul/Busan kèm mẹo cân nặng và đồ mua sắm chiều về."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết dựa trên trải nghiệm đi Hàn xách tay và tổng hợp quy định cabin phổ biến của các hãng."

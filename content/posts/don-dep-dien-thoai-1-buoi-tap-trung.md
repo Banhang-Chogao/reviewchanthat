@@ -17,12 +17,7 @@ date_display = "15-07-2026 21:00:00 GMT +7"
 collapsed = false
 enabled = true
 title = "Tóm tắt bài viết"
-items = [
-  "Một buổi dọn điện thoại gồm ba trục: đọc screen time thật, gọn app theo folder, tắt thông báo theo mức độ ưu tiên.",
-  "Không cần digital detox cực đoan: giữ app cần thiết cho công việc và đời sống, chỉ loại thói quen vô thức.",
-  "Checklist theo khung thời gian 90–120 phút, áp dụng được cho iPhone và Android.",
-  "Giữ kết quả bằng quy tắc nhỏ hàng tuần thay vì dọn lớn rồi bỏ."
-]
+items = ["Một buổi dọn điện thoại gồm ba trục: đọc screen time thật, gọn app theo folder, tắt thông báo theo mức độ ưu tiên.", "Không cần digital detox cực đoan: giữ app cần thiết cho công việc và đời sống, chỉ loại thói quen vô thức.", "Checklist theo khung thời gian 90–120 phút, áp dụng được cho iPhone và Android.", "Giữ kết quả bằng quy tắc nhỏ hàng tuần thay vì dọn lớn rồi bỏ."]
 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết dựa trên trải nghiệm sử dụng thực tế và tham khảo khung Digital Wellbeing / Screen Time."

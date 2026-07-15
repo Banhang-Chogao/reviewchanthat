@@ -12,7 +12,6 @@ keywords = ["món Việt hot ở Mỹ", "cà phê muối Mỹ", "bánh ram ít C
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 commit = "62080a24"
-
 image = "images/posts/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot.webp"
 thumbnail = "images/posts/mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot.webp"
 image_source = "Pexels"
@@ -31,6 +30,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T22:09:59+07:00"
 image_query = "vietnamese street food"
 image_alt = "Ảnh minh họa món Việt hot ở Mỹ — ẩm thực và cà phê, nguồn Pexels"
+
 [ai_summary]
 enabled = true
 collapsed = false

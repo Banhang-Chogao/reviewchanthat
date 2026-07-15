@@ -11,7 +11,6 @@ tags = ["đổi tiền Hàn Quốc", "won Hàn", "du lịch Hàn Quốc", "tài 
 title = "Đổi tiền đi Hàn: won ở đâu rẻ, thẻ hay tiền mặt, phí ẩn"
 seo_title = "Đổi tiền đi Hàn Quốc: won, thẻ hay tiền mặt 2026"
 date_display = "15-07-2026 21:53:00 GMT +7"
-
 image = "images/posts/doi-tien-di-han-won-the-hay-tien-mat.webp"
 thumbnail = "images/posts/doi-tien-di-han-won-the-hay-tien-mat.webp"
 image_source = "Pixabay"
@@ -27,6 +26,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+
 [ai_summary]
 collapsed = false
 enabled = true

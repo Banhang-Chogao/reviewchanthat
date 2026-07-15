@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
-date = "2026-07-16T12:40:00+07:00"
+date = "2026-07-16T06:43:16+07:00"
 commit = "02980ce8"
 description = "Tối ưu Wi-Fi nhà phố và chung cư VN: đặt router, chọn kênh 2.4/5GHz, tường bê tông và khi nào cần mesh. Checklist đo tốc độ từng phòng."
 draft = false
@@ -11,7 +11,7 @@ thumbnail = "images/posts/toi-uu-wifi-nha-pho-chung-cu-viet-nam.webp"
 slug = "toi-uu-wifi-nha-pho-chung-cu-viet-nam"
 tags = ["Wi-Fi", "router", "mesh", "nhà Việt Nam"]
 title = "Tối ưu Wi-Fi nhà phố/chung cư VN: đặt router, kênh, khi nào cần mesh"
-date_display = "16-07-2026 12:40:00 GMT +7"
+date_display = "16-07-2026 06:43:16 GMT +7"
 
 [ai_summary]
 collapsed = false

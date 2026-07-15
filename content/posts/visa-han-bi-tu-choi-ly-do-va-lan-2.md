@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
-date = "2026-07-16T08:10:00+07:00"
+date = "2026-07-16T06:43:16+07:00"
 commit = "02980ce8"
 description = "Visa Hàn bị từ chối: lý do thường gặp, đọc giấy báo, chuẩn bị hồ sơ lần 2 với sao kê, thư nghỉ phép và tài sản — không hứa đậu 100%."
 draft = false
@@ -11,7 +11,7 @@ slug = "visa-han-bi-tu-choi-ly-do-va-lan-2"
 tags = ["visa Hàn Quốc", "từ chối visa", "du lịch Hàn", "hồ sơ"]
 thumbnail = "images/posts/visa-han-bi-tu-choi-ly-do-va-lan-2.webp"
 title = "Visa Hàn bị từ chối: lý do thường gặp và chuẩn bị hồ sơ lần 2"
-date_display = "16-07-2026 08:10:00 GMT +7"
+date_display = "16-07-2026 06:43:16 GMT +7"
 
 [ai_summary]
 collapsed = false

@@ -11,7 +11,6 @@ tags = ["eSIM Hàn Quốc", "SIM Hàn Quốc 2026", "du lịch Hàn Quốc", "re
 title = "eSIM / SIM Hàn Quốc 2026: so sánh tốc độ, vùng phủ, cách kích hoạt"
 seo_title = "eSIM Hàn Quốc 2026: so sánh SIM data, tốc độ, kích hoạt"
 date_display = "15-07-2026 21:52:00 GMT +7"
-
 image = "images/posts/esim-sim-han-quoc-2026-so-sanh.webp"
 thumbnail = "images/posts/esim-sim-han-quoc-2026-so-sanh.webp"
 image_source = "Pixabay"
@@ -27,6 +26,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+
 [ai_summary]
 collapsed = false
 enabled = true

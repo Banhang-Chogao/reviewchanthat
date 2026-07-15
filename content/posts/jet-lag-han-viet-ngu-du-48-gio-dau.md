@@ -2,7 +2,7 @@
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
-date = "2026-07-16T09:00:00+07:00"
+date = "2026-07-16T06:43:16+07:00"
 commit = "02980ce8"
 description = "Jet lag chặng Hàn–Việt: lệch múi giờ, mẹo ánh sáng–caffeine, melatonin thận trọng và lịch ngủ 48 giờ đầu để ngủ đủ hơn."
 draft = false
@@ -11,7 +11,7 @@ slug = "jet-lag-han-viet-ngu-du-48-gio-dau"
 tags = ["jet lag", "Hàn Quốc", "ngủ", "du lịch"]
 thumbnail = "images/posts/jet-lag-han-viet-ngu-du-48-gio-dau.webp"
 title = "Ngủ đủ khi lệch múi giờ: jet lag Hàn–VN và mẹo 48 giờ đầu"
-date_display = "16-07-2026 09:00:00 GMT +7"
+date_display = "16-07-2026 06:43:16 GMT +7"
 
 [ai_summary]
 collapsed = false
