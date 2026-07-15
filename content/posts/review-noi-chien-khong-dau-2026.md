@@ -11,6 +11,24 @@ description = "Review nồi chiên không dầu 2026 sau vài tháng dùng thậ
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 date_display = "16-07-2026 06:40:00 GMT +7"
+image = "images/posts/review-noi-chien-khong-dau-2026.webp"
+thumbnail = "images/posts/review-noi-chien-khong-dau-2026.webp"
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/crispy-chicken-pieces-in-modern-air-fryer-35285814/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "FOX ^.ᆽ.^= ∫"
+image_creator_url = "https://www.pexels.com/@fox-58267"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-16T06:39:22+07:00"
+image_query = "air fryer kitchen food"
+image_alt = "Ảnh minh họa Review nồi chiên không dầu 2026: loại nào đáng mua sau vài tháng dùng thật — nguồn Pexels"
 
 [ai_summary]
 collapsed = false
@@ -65,24 +83,6 @@ value = "1–3 triệu đủ dùng tốt; trên 5 triệu cân nhắc nhu cầu 
 [[tom_tat_nhanh]]
 label = "Nguyên tắc"
 value = "Mua theo khẩu phần và thói quen nấu, không theo trend short video"
-image = "images/posts/review-noi-chien-khong-dau-2026.webp"
-thumbnail = "images/posts/review-noi-chien-khong-dau-2026.webp"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/crispy-chicken-pieces-in-modern-air-fryer-35285814/"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "FOX ^.ᆽ.^= ∫"
-image_creator_url = "https://www.pexels.com/@fox-58267"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-16T06:39:22+07:00"
-image_query = "air fryer kitchen food"
-image_alt = "Ảnh minh họa Review nồi chiên không dầu 2026: loại nào đáng mua sau vài tháng dùng thật — nguồn Pexels"
 +++
 
 ## Mở đầu: chiếc nồi “không dầu” suýt thành đồ trang trí
