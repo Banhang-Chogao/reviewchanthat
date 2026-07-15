@@ -7,7 +7,7 @@ image = "images/posts/the-odyssey-2026-review.webp"
 thumbnail = "images/posts/the-odyssey-2026-review.webp"
 categories = ["review"]
 tags = ["the-odyssey", "christopher-nolan", "phim-2026", "review-phim", "odyssey-2026", "imax", "nolan", "phim-su-thi", "phim-hy-lap", "homerd", "phim-sap-chieu", "lich-chieu-phim-viet-nam"]
-commit = "5dbdd5b5"
+commit = "443fe8bd"
 date_display = "15-07-2026 13:00:00 GMT +7"
 
 [[internal_links]]
