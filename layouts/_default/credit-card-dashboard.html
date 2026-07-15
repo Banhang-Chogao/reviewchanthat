@@ -8,346 +8,427 @@
 {{ $css := resources.Get "css/credit-card-dashboard.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 <div class="ccd" id="ccd-app">
-  <div class="ccd-container">
 
-    <!-- Header -->
-    <header class="ccd-header">
-      <div class="ccd-header__left">
-        <a href="{{ "" | relURL }}" class="ccd-header__back" aria-label="Quay lại">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-          <span>Credit Card Detail</span>
-        </a>
+  <!-- ═══ ACCESS GATE (only visible layer before auth) ═══ -->
+  <div class="ccd-gate" id="ccdGate" role="dialog" aria-modal="true" aria-labelledby="ccdGateTitle">
+    <div class="ccd-gate__card" id="ccdGateCard">
+      <h2 class="ccd-gate__heading" id="ccdGateTitle">Credit Card Dashboard</h2>
+      <p class="ccd-gate__desc">Nhập mã truy cập để quản lý thẻ tín dụng và xem phân tích.</p>
+      <div class="ccd-gate__form">
+        <div class="ccd-gate__input-wrap">
+          <input type="password" id="ccdGateInput" class="ccd-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="••••" aria-label="Mã truy cập">
+          <button type="button" class="ccd-gate__toggle" id="ccdGateToggle" aria-label="Hiện/ẩn mã" title="Hiện/ẩn mã">👁</button>
+        </div>
+        <button type="button" class="ccd-gate__unlock" id="ccdGateUnlock">Mở khóa</button>
       </div>
-      <div class="ccd-header__right">
-        <span class="ccd-header__label">HSBC Insights</span>
-        <span class="ccd-header__sync">Đồng bộ: hôm nay, 09:30</span>
+      <p class="ccd-gate__error" id="ccdGateError" aria-live="polite"></p>
+      <p class="ccd-gate__hint">Dùng lại mã truy cập của mục Author trong About.</p>
+    </div>
+  </div>
+
+  <!-- ═══ APP (hidden until authenticated) ═══ -->
+  <div class="ccd-app" id="ccdApp" style="display:none" hidden>
+    <div class="ccd-container">
+
+      <!-- Header -->
+      <header class="ccd-header">
+        <div class="ccd-header__left">
+          <button type="button" class="ccd-header__back" id="ccdNavHome" aria-label="Về trang chủ module">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            <span id="ccdHeaderTitle">Credit Card Hub</span>
+          </button>
+        </div>
+        <div class="ccd-header__right">
+          <span class="ccd-header__label">HSBC Insights</span>
+          <span class="ccd-header__sync" id="ccdSyncLabel">Chưa đồng bộ</span>
+          <button type="button" class="ccd-header__logout" id="ccdLogoutBtn">Đăng xuất</button>
+        </div>
+      </header>
+
+      <!-- ═══ HOME: 2 modules ═══ -->
+      <section class="ccd-home" id="ccdHome">
+        <p class="ccd-home__intro">Chọn module để nhập dữ liệu thẻ hoặc xem dashboard phân tích.</p>
+        <div class="ccd-home__grid">
+          <button type="button" class="ccd-home__card" id="ccdOpenInput" data-module="input">
+            <span class="ccd-home__card-icon" aria-hidden="true">✏️</span>
+            <span class="ccd-home__card-title">Input Data</span>
+            <span class="ccd-home__card-desc">Add/Edit credit card information.</span>
+          </button>
+          <button type="button" class="ccd-home__card" id="ccdOpenDashboard" data-module="dashboard">
+            <span class="ccd-home__card-icon" aria-hidden="true">📊</span>
+            <span class="ccd-home__card-title">Dashboard</span>
+            <span class="ccd-home__card-desc">View analytics using the existing Credit Card Dashboard UI.</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- ═══ MODULE 1: INPUT DATA ═══ -->
+      <section class="ccd-input" id="ccdInput" style="display:none" hidden>
+        <div class="ccd-input__toolbar">
+          <div class="ccd-input__search-wrap">
+            <input type="search" id="ccdCardSearch" class="ccd-input__search" placeholder="Tìm thẻ, ngân hàng…" aria-label="Tìm kiếm thẻ">
+            <select id="ccdCardSort" class="ccd-input__select" aria-label="Sắp xếp">
+              <option value="name-asc">Tên A→Z</option>
+              <option value="name-desc">Tên Z→A</option>
+              <option value="limit-desc">Hạn mức ↓</option>
+              <option value="balance-desc">Dư nợ ↓</option>
+              <option value="util-desc">Utilization ↓</option>
+              <option value="due-asc">Due date ↑</option>
+              <option value="bank-asc">Ngân hàng A→Z</option>
+            </select>
+            <label class="ccd-input__check"><input type="checkbox" id="ccdShowArchived"> Hiện đã archive</label>
+          </div>
+          <div class="ccd-input__actions">
+            <button type="button" class="ccd-input__btn ccd-input__btn--primary" id="ccdCardNew">+ Thẻ mới</button>
+            <button type="button" class="ccd-input__btn" id="ccdExportCsv">CSV</button>
+            <button type="button" class="ccd-input__btn" id="ccdExportXlsx">Excel</button>
+            <button type="button" class="ccd-input__btn" id="ccdExportPdf">PDF</button>
+          </div>
+        </div>
+
+        <div class="ccd-input__form-card" id="ccdFormPanel" style="display:none" hidden>
+          <h3 class="ccd-input__form-title" id="ccdFormTitle">Thêm thẻ</h3>
+          <form id="ccdCardForm" class="ccd-input__form" novalidate>
+            <input type="hidden" id="ccdFieldId" value="">
+            <div class="ccd-input__grid">
+              <label class="ccd-input__field">Card Name *<input required name="cardName" id="ccdFieldCardName" type="text" autocomplete="off"></label>
+              <label class="ccd-input__field">Bank<input name="bank" id="ccdFieldBank" type="text" list="ccdBankList" autocomplete="off"></label>
+              <datalist id="ccdBankList">
+                <option value="HSBC"><option value="Vietcombank"><option value="Techcombank"><option value="VPBank">
+                <option value="TPBank"><option value="MB Bank"><option value="Sacombank"><option value="BIDV"><option value="ACB">
+              </datalist>
+              <label class="ccd-input__field">Card Type
+                <select name="cardType" id="ccdFieldCardType">
+                  <option value="">—</option>
+                  <option>Visa</option><option>Mastercard</option><option>JCB</option><option>Amex</option><option>Napas</option><option>Other</option>
+                </select>
+              </label>
+              <label class="ccd-input__field">Credit Limit *<input required name="creditLimit" id="ccdFieldCreditLimit" type="text" inputmode="decimal" placeholder="0"></label>
+              <label class="ccd-input__field">Outstanding Balance *<input required name="outstandingBalance" id="ccdFieldOutstanding" type="text" inputmode="decimal" placeholder="0"></label>
+              <label class="ccd-input__field">Statement Date *<input required name="statementDate" id="ccdFieldStatementDate" type="date"></label>
+              <label class="ccd-input__field">Due Date *<input required name="dueDate" id="ccdFieldDueDate" type="date"></label>
+              <label class="ccd-input__field">Minimum Payment<input name="minimumPayment" id="ccdFieldMinPayment" type="text" inputmode="decimal" placeholder="0"></label>
+              <label class="ccd-input__field">Interest Rate (%/year)<input name="interestRate" id="ccdFieldInterest" type="number" min="0" max="100" step="0.01" placeholder="0"></label>
+              <label class="ccd-input__field">Annual Fee<input name="annualFee" id="ccdFieldAnnualFee" type="text" inputmode="decimal" placeholder="0"></label>
+              <label class="ccd-input__field">Rewards Type
+                <select name="rewardsType" id="ccdFieldRewardsType">
+                  <option value="">—</option>
+                  <option>Cashback</option><option>Points</option><option>Miles</option><option>Hybrid</option><option>None</option>
+                </select>
+              </label>
+              <label class="ccd-input__field">Cashback %<input name="cashbackPercent" id="ccdFieldCashback" type="number" min="0" max="100" step="0.01" placeholder="0"></label>
+              <label class="ccd-input__field">Reward Points<input name="rewardPoints" id="ccdFieldPoints" type="number" min="0" step="1" placeholder="0"></label>
+              <label class="ccd-input__field">Foreign Transaction Fee %<input name="foreignTxnFee" id="ccdFieldFxFee" type="number" min="0" max="100" step="0.01" placeholder="0"></label>
+              <label class="ccd-input__field">Installment Balance<input name="installmentBalance" id="ccdFieldInstallBal" type="text" inputmode="decimal" placeholder="0"></label>
+              <label class="ccd-input__field">Monthly Installment<input name="monthlyInstallment" id="ccdFieldInstallMonthly" type="text" inputmode="decimal" placeholder="0"></label>
+              <label class="ccd-input__field">Card Status
+                <select name="cardStatus" id="ccdFieldStatus">
+                  <option value="Active">Active</option>
+                  <option value="Frozen">Frozen</option>
+                  <option value="Closed">Closed</option>
+                  <option value="Pending">Pending</option>
+                </select>
+              </label>
+              <label class="ccd-input__field ccd-input__field--full">Notes<textarea name="notes" id="ccdFieldNotes" rows="2"></textarea></label>
+            </div>
+            <p class="ccd-input__form-error" id="ccdFormError" aria-live="polite"></p>
+            <div class="ccd-input__form-actions">
+              <button type="submit" class="ccd-input__btn ccd-input__btn--primary" id="ccdFormSave">Lưu thẻ</button>
+              <button type="button" class="ccd-input__btn" id="ccdFormCancel">Huỷ</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="ccd-input__table-wrap">
+          <table class="ccd-input__table" id="ccdCardsTable">
+            <thead>
+              <tr>
+                <th>Card</th>
+                <th>Bank</th>
+                <th>Limit</th>
+                <th>Outstanding</th>
+                <th>Util %</th>
+                <th>Due</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="ccdCardsTableBody"></tbody>
+          </table>
+          <p class="ccd-input__empty" id="ccdCardsEmpty">Chưa có thẻ. Nhấn “+ Thẻ mới” để bắt đầu.</p>
+        </div>
+      </section>
+
+      <!-- ═══ MODULE 2: DASHBOARD (existing UI structure) ═══ -->
+      <div id="ccdDashboard" style="display:none" hidden>
+        <div class="ccd-dash-toolbar">
+          <label class="ccd-dash-toolbar__label">
+            Xem thẻ
+            <select id="ccdCardPicker" class="ccd-input__select" aria-label="Chọn thẻ để xem chi tiết">
+              <option value="__all__">Tất cả thẻ (portfolio)</option>
+            </select>
+          </label>
+          <div class="ccd-dash-toolbar__filters">
+            <select id="ccdFilterBank" class="ccd-input__select" aria-label="Lọc ngân hàng"><option value="">Bank: All</option></select>
+            <select id="ccdFilterStatus" class="ccd-input__select" aria-label="Lọc status">
+              <option value="">Status: All</option>
+              <option value="Active">Active</option>
+              <option value="Frozen">Frozen</option>
+              <option value="Closed">Closed</option>
+              <option value="Pending">Pending</option>
+            </select>
+            <select id="ccdFilterReward" class="ccd-input__select" aria-label="Lọc reward">
+              <option value="">Reward: All</option>
+              <option value="Cashback">Cashback</option>
+              <option value="Points">Points</option>
+              <option value="Miles">Miles</option>
+              <option value="Hybrid">Hybrid</option>
+              <option value="None">None</option>
+            </select>
+            <select id="ccdFilterUtil" class="ccd-input__select" aria-label="Lọc utilization">
+              <option value="">Util: All</option>
+              <option value="low">&lt; 30%</option>
+              <option value="mid">30–80%</option>
+              <option value="high">&gt; 80%</option>
+            </select>
+            <select id="ccdFilterDue" class="ccd-input__select" aria-label="Lọc due date">
+              <option value="">Due: All</option>
+              <option value="7">Trong 7 ngày</option>
+              <option value="14">Trong 14 ngày</option>
+              <option value="overdue">Quá hạn</option>
+            </select>
+          </div>
+          <div class="ccd-dash-toolbar__export">
+            <button type="button" class="ccd-input__btn ccd-input__btn--small" id="ccdDashExportCsv">CSV</button>
+            <button type="button" class="ccd-input__btn ccd-input__btn--small" id="ccdDashExportXlsx">Excel</button>
+            <button type="button" class="ccd-input__btn ccd-input__btn--small" id="ccdDashExportPdf">PDF</button>
+          </div>
+        </div>
+
+        <div class="ccd-layout" id="ccdDashboardExportRoot">
+          <!-- LEFT: 70% -->
+          <div class="ccd-main">
+
+            <!-- 1. Card Summary -->
+            <section class="ccd-card ccd-card-summary">
+              <div class="ccd-card-summary__top">
+                <div class="ccd-card-summary__info">
+                  <span class="ccd-card-summary__bank" id="ccdSumBank">—</span>
+                  <span class="ccd-card-summary__type" id="ccdSumType">—</span>
+                  <span class="ccd-card-summary__network" id="ccdSumNetwork">Credit Card</span>
+                  <div class="ccd-card-summary__digits" id="ccdSumName">Chưa có dữ liệu</div>
+                </div>
+                <div class="ccd-card-summary__tags" id="ccdSumTags"></div>
+              </div>
+              <div class="ccd-card-summary__details">
+                <div class="ccd-card-summary__item">
+                  <span class="ccd-card-summary__label">Statement Cycle</span>
+                  <span class="ccd-card-summary__value" id="ccdSumStatement">—</span>
+                </div>
+                <div class="ccd-card-summary__item">
+                  <span class="ccd-card-summary__label">Payment Due</span>
+                  <span class="ccd-card-summary__value" id="ccdSumDue">—</span>
+                </div>
+                <div class="ccd-card-summary__item">
+                  <span class="ccd-card-summary__label">Available Credit</span>
+                  <span class="ccd-card-summary__value ccd-card-summary__value--large" id="ccdSumAvailable">0 VND</span>
+                </div>
+                <div class="ccd-card-summary__item">
+                  <span class="ccd-card-summary__label">Current Balance</span>
+                  <span class="ccd-card-summary__value ccd-card-summary__value--large" id="ccdSumBalance">0 VND</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- KPI strip (feeds existing visual language) -->
+            <section class="ccd-kpi-strip" id="ccdKpiStrip" aria-label="Portfolio metrics">
+              <div class="ccd-kpi"><span class="ccd-kpi__label">Total Limit</span><span class="ccd-kpi__value" id="kpiTotalLimit">0</span></div>
+              <div class="ccd-kpi"><span class="ccd-kpi__label">Total Outstanding</span><span class="ccd-kpi__value" id="kpiTotalOut">0</span></div>
+              <div class="ccd-kpi"><span class="ccd-kpi__label">Available</span><span class="ccd-kpi__value" id="kpiAvailable">0</span></div>
+              <div class="ccd-kpi"><span class="ccd-kpi__label">Utilization</span><span class="ccd-kpi__value" id="kpiUtil">0%</span></div>
+              <div class="ccd-kpi"><span class="ccd-kpi__label">Min Payment</span><span class="ccd-kpi__value" id="kpiMinPay">0</span></div>
+              <div class="ccd-kpi"><span class="ccd-kpi__label">Annual Fees</span><span class="ccd-kpi__value" id="kpiAnnualFees">0</span></div>
+              <div class="ccd-kpi"><span class="ccd-kpi__label">Installments</span><span class="ccd-kpi__value" id="kpiInstall">0</span></div>
+              <div class="ccd-kpi"><span class="ccd-kpi__label">Near Due</span><span class="ccd-kpi__value" id="kpiNearDue">0</span></div>
+            </section>
+
+            <!-- 2. Payment Progress → Utilization -->
+            <section class="ccd-card ccd-payment-progress" data-status="normal" id="ccdPaymentProgress">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">Credit Utilization</h2>
+              </div>
+              <div class="ccd-payment-progress__bar-wrap">
+                <div class="ccd-payment-progress__bar" id="ccd-progress-bar">
+                  <span class="ccd-payment-progress__fill" id="ccd-progress-fill" style="width:0%"></span>
+                </div>
+              </div>
+              <div class="ccd-payment-progress__info">
+                <span class="ccd-payment-progress__percent" id="ccd-progress-percent">0%</span>
+                <span class="ccd-payment-progress__elapsed" id="ccdProgressMeta">0 / 0 VND used</span>
+                <span class="ccd-payment-progress__remaining" id="ccdProgressRemain">Recommended under 30%</span>
+              </div>
+            </section>
+
+            <!-- 3. Spending Analytics → Bank / limit charts + util categories -->
+            <section class="ccd-card ccd-spending">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">Portfolio Analytics</h2>
+              </div>
+              <div class="ccd-spending__grid">
+                <div class="ccd-spending__categories" id="ccdBankBreakdown">
+                  <h3 class="ccd-spending__subtitle">Outstanding by Bank</h3>
+                  <!-- filled by JS -->
+                </div>
+                <div class="ccd-spending__trend">
+                  <h3 class="ccd-spending__subtitle">Credit Limit by Bank</h3>
+                  <div class="ccd-spending__total"><span id="ccdTrendTotal">0</span> <span class="ccd-spending__total-currency">VND</span></div>
+                  <div class="ccd-spending__trend-chart" id="ccd-trend-chart"></div>
+                </div>
+              </div>
+              <div class="ccd-charts-row">
+                <div class="ccd-chart-box">
+                  <h3 class="ccd-spending__subtitle">Utilization by Card</h3>
+                  <div class="ccd-chart-box__canvas"><canvas id="ccdChartUtil" height="180"></canvas></div>
+                </div>
+                <div class="ccd-chart-box">
+                  <h3 class="ccd-spending__subtitle">Interest Comparison</h3>
+                  <div class="ccd-chart-box__canvas"><canvas id="ccdChartInterest" height="180"></canvas></div>
+                </div>
+                <div class="ccd-chart-box">
+                  <h3 class="ccd-spending__subtitle">Rewards Comparison</h3>
+                  <div class="ccd-chart-box__canvas"><canvas id="ccdChartRewards" height="180"></canvas></div>
+                </div>
+                <div class="ccd-chart-box">
+                  <h3 class="ccd-spending__subtitle">Monthly Payment Distribution</h3>
+                  <div class="ccd-chart-box__canvas"><canvas id="ccdChartPayments" height="180"></canvas></div>
+                </div>
+              </div>
+            </section>
+
+            <!-- 4. Reward Prediction -->
+            <section class="ccd-card ccd-rewards">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">Reward Snapshot</h2>
+              </div>
+              <div class="ccd-rewards__grid">
+                <div class="ccd-rewards__card">
+                  <span class="ccd-rewards__label">Cashback Potential (est.)</span>
+                  <span class="ccd-rewards__value" id="ccdRewardCashback">0 VND</span>
+                  <div class="ccd-rewards__projection">
+                    <span>Best cashback card</span>
+                    <span class="ccd-rewards__projection-value" id="ccdRewardBestCb">—</span>
+                    <span class="ccd-rewards__potential" id="ccdRewardBestCbRate"></span>
+                  </div>
+                </div>
+                <div class="ccd-rewards__card">
+                  <span class="ccd-rewards__label">Total Reward Points</span>
+                  <span class="ccd-rewards__value" id="ccdRewardPoints">0</span>
+                  <div class="ccd-rewards__projection">
+                    <span>Highest limit</span>
+                    <span class="ccd-rewards__projection-value" id="ccdRewardHighLimit">—</span>
+                    <span class="ccd-rewards__potential" id="ccdRewardHighLimitVal"></span>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- 5. Payment Timeline -->
+            <section class="ccd-card ccd-timeline">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">Due-Date Timeline</h2>
+              </div>
+              <div class="ccd-timeline__flow" id="ccd-timeline-flow"></div>
+            </section>
+
+            <!-- 6. Payment History → card payment schedule table -->
+            <section class="ccd-card ccd-history">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">Payment Schedule</h2>
+                <button type="button" class="ccd-card__action" id="ccdHistoryRefresh">Refresh</button>
+              </div>
+              <div class="ccd-history__table-wrap">
+                <table class="ccd-history__table">
+                  <thead>
+                    <tr>
+                      <th>Card</th>
+                      <th>Bank</th>
+                      <th>Due</th>
+                      <th>Min Pay</th>
+                      <th>Installment</th>
+                      <th>Util</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody id="ccdScheduleBody"></tbody>
+                </table>
+              </div>
+            </section>
+
+            <!-- 7. Quick Actions -->
+            <section class="ccd-card ccd-actions">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">Quick Actions</h2>
+              </div>
+              <div class="ccd-actions__grid">
+                <button type="button" class="ccd-actions__btn ccd-actions__btn--primary" id="ccdActionPay">💳 Pay Priority Card</button>
+                <button type="button" class="ccd-actions__btn" id="ccdActionStatement">📄 Export Statement (PDF)</button>
+                <button type="button" class="ccd-actions__btn" id="ccdActionCopy">📋 Copy Portfolio Summary</button>
+                <button type="button" class="ccd-actions__btn ccd-actions__btn--danger" id="ccdActionLock">🔒 Lock Session</button>
+                <button type="button" class="ccd-actions__btn" id="ccdActionInput">⚙ Manage Cards</button>
+              </div>
+            </section>
+
+          </div>
+
+          <!-- RIGHT: 30% Sidebar -->
+          <aside class="ccd-sidebar">
+
+            <!-- 8. AI Insights -->
+            <section class="ccd-card ccd-insights">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">AI Insights</h2>
+              </div>
+              <div class="ccd-insights__list" id="ccdInsightsList"></div>
+            </section>
+
+            <!-- 9. Notification Center -->
+            <section class="ccd-card ccd-notifications">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">Notifications</h2>
+              </div>
+              <div class="ccd-notifications__list" id="ccd-notifications"></div>
+            </section>
+
+            <!-- 10. AI Assistant -->
+            <section class="ccd-card ccd-assistant">
+              <div class="ccd-card__header">
+                <h2 class="ccd-card__title">HSBC AI Assistant</h2>
+              </div>
+              <div class="ccd-assistant__prompts" id="ccd-assistant-prompts">
+                <button type="button" class="ccd-assistant__prompt" data-prompt="Which card should I pay first?">"Which card should I pay first?"</button>
+                <button type="button" class="ccd-assistant__prompt" data-prompt="How is my credit utilization?">"How is my credit utilization?"</button>
+                <button type="button" class="ccd-assistant__prompt" data-prompt="What is my estimated interest?">"What is my estimated interest?"</button>
+              </div>
+              <div class="ccd-assistant__chat" id="ccd-assistant-chat">
+                <div class="ccd-assistant__messages" id="ccd-assistant-messages"></div>
+                <div class="ccd-assistant__input-wrap">
+                  <input type="text" class="ccd-assistant__input" id="ccd-assistant-input" placeholder="Ask AI..." aria-label="Ask HSBC AI">
+                  <button type="button" class="ccd-assistant__send" id="ccd-assistant-send" aria-label="Send">Ask AI</button>
+                </div>
+              </div>
+            </section>
+
+          </aside>
+        </div>
       </div>
-    </header>
 
-    <div class="ccd-layout">
-      <!-- LEFT: 70% -->
-      <div class="ccd-main">
-
-        <!-- 1. Card Summary -->
-        <section class="ccd-card ccd-card-summary">
-          <div class="ccd-card-summary__top">
-            <div class="ccd-card-summary__info">
-              <span class="ccd-card-summary__bank">HSBC</span>
-              <span class="ccd-card-summary__type">Visa Signature</span>
-              <span class="ccd-card-summary__network">Credit Card</span>
-              <div class="ccd-card-summary__digits">•••• 1234</div>
-            </div>
-            <div class="ccd-card-summary__tags">
-              <span class="ccd-card-summary__tag ccd-card-summary__tag--reward">Reward</span>
-              <span class="ccd-card-summary__tag ccd-card-summary__tag--cashback">Cashback</span>
-            </div>
-          </div>
-          <div class="ccd-card-summary__details">
-            <div class="ccd-card-summary__item">
-              <span class="ccd-card-summary__label">Statement Cycle</span>
-              <span class="ccd-card-summary__value">15 Monthly</span>
-            </div>
-            <div class="ccd-card-summary__item">
-              <span class="ccd-card-summary__label">Payment Due</span>
-              <span class="ccd-card-summary__value">25/05/2025</span>
-            </div>
-            <div class="ccd-card-summary__item">
-              <span class="ccd-card-summary__label">Available Credit</span>
-              <span class="ccd-card-summary__value ccd-card-summary__value--large">42,500,000 VND</span>
-            </div>
-            <div class="ccd-card-summary__item">
-              <span class="ccd-card-summary__label">Current Balance</span>
-              <span class="ccd-card-summary__value ccd-card-summary__value--large">7,820,000 VND</span>
-            </div>
-          </div>
-        </section>
-
-        <!-- 2. Payment Progress -->
-        <section class="ccd-card ccd-payment-progress" data-status="normal">
-          <div class="ccd-card__header">
-            <h2 class="ccd-card__title">Payment Progress</h2>
-          </div>
-          <div class="ccd-payment-progress__bar-wrap">
-            <div class="ccd-payment-progress__bar" id="ccd-progress-bar">
-              <span class="ccd-payment-progress__fill" id="ccd-progress-fill" style="width:50%"></span>
-            </div>
-          </div>
-          <div class="ccd-payment-progress__info">
-            <span class="ccd-payment-progress__percent" id="ccd-progress-percent">50%</span>
-            <span class="ccd-payment-progress__elapsed">10 / 20 days elapsed</span>
-            <span class="ccd-payment-progress__remaining">10 days remaining</span>
-          </div>
-        </section>
-
-        <!-- 3. Spending Analytics -->
-        <section class="ccd-card ccd-spending">
-          <div class="ccd-card__header">
-            <h2 class="ccd-card__title">Spending Analytics</h2>
-          </div>
-          <div class="ccd-spending__grid">
-            <div class="ccd-spending__categories">
-              <h3 class="ccd-spending__subtitle">Category Breakdown</h3>
-              <div class="ccd-spending__category" data-color="#ff4d4d">
-                <div class="ccd-spending__category-label">
-                  <span>Food</span>
-                  <span class="ccd-spending__category-pct">35%</span>
-                </div>
-                <div class="ccd-spending__category-bar"><span style="width:35%"></span></div>
-              </div>
-              <div class="ccd-spending__category" data-color="#2196f3">
-                <div class="ccd-spending__category-label">
-                  <span>Shopping</span>
-                  <span class="ccd-spending__category-pct">25%</span>
-                </div>
-                <div class="ccd-spending__category-bar"><span style="width:25%"></span></div>
-              </div>
-              <div class="ccd-spending__category" data-color="#ff8a00">
-                <div class="ccd-spending__category-label">
-                  <span>Travel</span>
-                  <span class="ccd-spending__category-pct">18%</span>
-                </div>
-                <div class="ccd-spending__category-bar"><span style="width:18%"></span></div>
-              </div>
-              <div class="ccd-spending__category" data-color="#7c4dff">
-                <div class="ccd-spending__category-label">
-                  <span>Bills</span>
-                  <span class="ccd-spending__category-pct">12%</span>
-                </div>
-                <div class="ccd-spending__category-bar"><span style="width:12%"></span></div>
-              </div>
-              <div class="ccd-spending__category" data-color="#00c853">
-                <div class="ccd-spending__category-label">
-                  <span>Others</span>
-                  <span class="ccd-spending__category-pct">10%</span>
-                </div>
-                <div class="ccd-spending__category-bar"><span style="width:10%"></span></div>
-              </div>
-            </div>
-            <div class="ccd-spending__trend">
-              <h3 class="ccd-spending__subtitle">Monthly Spending</h3>
-              <div class="ccd-spending__total">18,450,000 <span class="ccd-spending__total-currency">VND</span></div>
-              <div class="ccd-spending__trend-chart" id="ccd-trend-chart">
-                <div class="ccd-spending__trend-bar"><span style="height:35%"><span>Jan</span></span></div>
-                <div class="ccd-spending__trend-bar"><span style="height:48%"><span>Feb</span></span></div>
-                <div class="ccd-spending__trend-bar"><span style="height:55%"><span>Mar</span></span></div>
-                <div class="ccd-spending__trend-bar"><span style="height:72%"><span>Apr</span></span></div>
-                <div class="ccd-spending__trend-bar"><span style="height:62%"><span>May</span></span></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- 4. Reward Prediction -->
-        <section class="ccd-card ccd-rewards">
-          <div class="ccd-card__header">
-            <h2 class="ccd-card__title">Reward Prediction</h2>
-          </div>
-          <div class="ccd-rewards__grid">
-            <div class="ccd-rewards__card">
-              <span class="ccd-rewards__label">Current Cashback</span>
-              <span class="ccd-rewards__value">320,000 VND</span>
-              <div class="ccd-rewards__projection">
-                <span>Expected</span>
-                <span class="ccd-rewards__projection-value">470,000 VND</span>
-                <span class="ccd-rewards__potential">+150,000 VND</span>
-              </div>
-            </div>
-            <div class="ccd-rewards__card">
-              <span class="ccd-rewards__label">Current Points</span>
-              <span class="ccd-rewards__value">18,500</span>
-              <div class="ccd-rewards__projection">
-                <span>Predicted</span>
-                <span class="ccd-rewards__projection-value">22,400</span>
-                <span class="ccd-rewards__potential">+3,900 pts</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- 5. Payment Timeline -->
-        <section class="ccd-card ccd-timeline">
-          <div class="ccd-card__header">
-            <h2 class="ccd-card__title">Payment Timeline</h2>
-          </div>
-          <div class="ccd-timeline__flow" id="ccd-timeline-flow">
-            <div class="ccd-timeline__step ccd-timeline__step--done">
-              <span class="ccd-timeline__step-icon">✓</span>
-              <span class="ccd-timeline__step-label">Statement</span>
-              <span class="ccd-timeline__step-date">15/05</span>
-            </div>
-            <div class="ccd-timeline__step ccd-timeline__step--active">
-              <span class="ccd-timeline__step-icon">●</span>
-              <span class="ccd-timeline__step-label">Today</span>
-              <span class="ccd-timeline__step-date">20/05</span>
-            </div>
-            <div class="ccd-timeline__step ccd-timeline__step--pending">
-              <span class="ccd-timeline__step-icon">○</span>
-              <span class="ccd-timeline__step-label">Due Date</span>
-              <span class="ccd-timeline__step-date">30/05</span>
-            </div>
-            <div class="ccd-timeline__step ccd-timeline__step--upcoming">
-              <span class="ccd-timeline__step-icon">○</span>
-              <span class="ccd-timeline__step-label">Payment</span>
-              <span class="ccd-timeline__step-date">Pending</span>
-            </div>
-          </div>
-        </section>
-
-        <!-- 6. Payment History -->
-        <section class="ccd-card ccd-history">
-          <div class="ccd-card__header">
-            <h2 class="ccd-card__title">Payment History</h2>
-            <a href="#" class="ccd-card__action">View All</a>
-          </div>
-          <div class="ccd-history__table-wrap">
-            <table class="ccd-history__table">
-              <thead>
-                <tr>
-                  <th>Date</th>
-                  <th>Amount</th>
-                  <th>Merchant</th>
-                  <th>Category</th>
-                  <th>Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>10/05</td><td>5,000,000</td><td>VinMart</td><td>Food</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
-                </tr>
-                <tr>
-                  <td>28/04</td><td>2,400,000</td><td>Shopee</td><td>Shopping</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
-                </tr>
-                <tr>
-                  <td>15/04</td><td>8,200,000</td><td>VietJet Air</td><td>Travel</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
-                </tr>
-                <tr>
-                  <td>02/04</td><td>1,800,000</td><td>EVN HCMC</td><td>Bills</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
-                </tr>
-                <tr>
-                  <td>20/03</td><td>4,500,000</td><td>Lotte Mart</td><td>Food</td><td><span class="ccd-badge ccd-badge--paid">Paid</span></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <!-- 7. Quick Actions -->
-        <section class="ccd-card ccd-actions">
-          <div class="ccd-card__header">
-            <h2 class="ccd-card__title">Quick Actions</h2>
-          </div>
-          <div class="ccd-actions__grid">
-            <button class="ccd-actions__btn ccd-actions__btn--primary">💳 Pay Now</button>
-            <button class="ccd-actions__btn">📄 Download Statement</button>
-            <button class="ccd-actions__btn">📋 Copy Card Number</button>
-            <button class="ccd-actions__btn ccd-actions__btn--danger">🔒 Lock Card</button>
-            <button class="ccd-actions__btn">⚙ Manage Limits</button>
-          </div>
-        </section>
-
-      </div>
-
-      <!-- RIGHT: 30% Sidebar -->
-      <aside class="ccd-sidebar">
-
-        <!-- 8. AI Insights -->
-        <section class="ccd-card ccd-insights">
-          <div class="ccd-card__header">
-            <h2 class="ccd-card__title">AI Insights</h2>
-          </div>
-          <div class="ccd-insights__list">
-            <div class="ccd-insight-card ccd-insight-card--opportunity">
-              <div class="ccd-insight-card__icon">💡</div>
-              <div class="ccd-insight-card__body">
-                <h3>Cashback Opportunity</h3>
-                <p>You spend <strong>42%</strong> of grocery expenses using this card. Switching to <strong>HSBC Live+</strong> can increase cashback by <strong>+120,000 VND/month</strong>.</p>
-              </div>
-            </div>
-            <div class="ccd-insight-card ccd-insight-card--alert">
-              <div class="ccd-insight-card__icon">⚠️</div>
-              <div class="ccd-insight-card__body">
-                <h3>Unusual Spending</h3>
-                <p>Coffee: <strong>2,400,000 VND</strong> <span class="ccd-insight-card__trend">↑ 180%</span></p>
-                <p class="ccd-insight-card__sub">Compared to last month</p>
-              </div>
-            </div>
-            <div class="ccd-insight-card ccd-insight-card--optimize">
-              <div class="ccd-insight-card__icon">✨</div>
-              <div class="ccd-insight-card__body">
-                <h3>Optimization</h3>
-                <p>Spend <strong>650,000 VND</strong> at supermarkets to unlock <strong>5% cashback</strong>.</p>
-              </div>
-            </div>
-            <div class="ccd-insight-card ccd-insight-card--forecast">
-              <div class="ccd-insight-card__icon">📈</div>
-              <div class="ccd-insight-card__body">
-                <h3>Spending Forecast</h3>
-                <p>Expected month-end spending: <strong>23,500,000 VND</strong></p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- 9. Notification Center -->
-        <section class="ccd-card ccd-notifications">
-          <div class="ccd-card__header">
-            <h2 class="ccd-card__title">Notifications</h2>
-          </div>
-          <div class="ccd-notifications__list" id="ccd-notifications">
-            <div class="ccd-notification ccd-notification--alert">
-              <span class="ccd-notification__icon">🔔</span>
-              <div class="ccd-notification__body">
-                <span class="ccd-notification__text">Payment due in 5 days</span>
-                <span class="ccd-notification__time">2 giờ trước</span>
-              </div>
-            </div>
-            <div class="ccd-notification ccd-notification--promo">
-              <span class="ccd-notification__icon">🎉</span>
-              <div class="ccd-notification__body">
-                <span class="ccd-notification__text">New cashback campaign</span>
-                <span class="ccd-notification__time">1 ngày trước</span>
-              </div>
-            </div>
-            <div class="ccd-notification ccd-notification--reward">
-              <span class="ccd-notification__icon">📈</span>
-              <div class="ccd-notification__body">
-                <span class="ccd-notification__text">You earned <strong>420 pts</strong> today</span>
-                <span class="ccd-notification__time">3 giờ trước</span>
-              </div>
-            </div>
-            <div class="ccd-notification ccd-notification--warning">
-              <span class="ccd-notification__icon">⚠️</span>
-              <div class="ccd-notification__body">
-                <span class="ccd-notification__text">Spending exceeded <strong>80%</strong> of monthly average</span>
-                <span class="ccd-notification__time">5 giờ trước</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- 10. AI Assistant -->
-        <section class="ccd-card ccd-assistant">
-          <div class="ccd-card__header">
-            <h2 class="ccd-card__title">HSBC AI Assistant</h2>
-          </div>
-          <div class="ccd-assistant__prompts" id="ccd-assistant-prompts">
-            <button class="ccd-assistant__prompt" data-prompt="What is the best card for travel?">"What is the best card for travel?"</button>
-            <button class="ccd-assistant__prompt" data-prompt="Why is my cashback lower this month?">"Why is my cashback lower this month?"</button>
-            <button class="ccd-assistant__prompt" data-prompt="How can I avoid late fees?">"How can I avoid late fees?"</button>
-          </div>
-          <div class="ccd-assistant__chat" id="ccd-assistant-chat">
-            <div class="ccd-assistant__messages" id="ccd-assistant-messages"></div>
-            <div class="ccd-assistant__input-wrap">
-              <input type="text" class="ccd-assistant__input" id="ccd-assistant-input" placeholder="Ask AI..." aria-label="Ask HSBC AI">
-              <button class="ccd-assistant__send" id="ccd-assistant-send" aria-label="Send">Ask AI</button>
-            </div>
-          </div>
-        </section>
-
-      </aside>
     </div>
   </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js" defer></script>
 {{ $js := resources.Get "js/credit-card-dashboard.js" | minify | fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{ end }}
