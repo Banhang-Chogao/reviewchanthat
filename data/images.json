@@ -8824,7 +8824,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Review VPN 2026: NordVPN vs Surfshark vs ProtonVPN — Dùng 6 Tháng Ở Việt Nam Thấy Sao? — nguồn Pixabay",
       "gate_verified": true
+    },
+    {
+      "slug": "review-paradise-2023-nguoi-giau-mua-thoi-gian-song",
+      "title": "Review Paradise (2023): Người giàu dùng tiền mua thời gian sống",
+      "image_id": "img-2cb4f533",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/graduation-ceremony-in-leafy-outdoor-setting-38278446/",
+      "direct_url": "https://images.pexels.com/photos/38278446/pexels-photo-38278446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Đức Trung",
+      "creator_url": "https://www.pexels.com/@d-c-trung-1464611371",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/review-paradise-2023-nguoi-giau-mua-thoi-gian-song.jpg",
+      "output_path": "static/images/posts/review-paradise-2023-nguoi-giau-mua-thoi-gian-song.webp",
+      "watermark_text": "Source: Pexels / Đức Trung",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "review paradise 2023 người giàu",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Review Paradise (2023): Người giàu dùng tiền mua thời gian sống — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-15T10:48:43.421152+00:00"
+  "generated_at": "2026-07-15T10:58:13.816852+00:00"
 }
