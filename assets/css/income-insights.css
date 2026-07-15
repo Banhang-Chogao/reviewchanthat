@@ -668,15 +668,17 @@
     font-size: 6pt !important;
     border-collapse: collapse;
     table-layout: fixed !important;
+    display: table !important;
+  }
+
+  .income-table thead {
+    display: table-header-group !important;
   }
 
   .income-table th,
   .income-table td {
     padding: 2px 3px !important;
     text-align: right;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   .income-table th {
@@ -743,14 +745,12 @@
 
   .income-chart-box__canvas-wrap {
     width: 100% !important;
-    max-height: 240px !important;
-    height: auto !important;
+    height: 200px !important;
   }
 
   .income-chart-box__canvas-wrap canvas {
     width: 100% !important;
-    max-height: 240px !important;
-    height: auto !important;
+    height: 100% !important;
   }
 
   /* AI Insights */
