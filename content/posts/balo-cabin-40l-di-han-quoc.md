@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-15T21:40:00+07:00"
-commit = ""
+commit = "02980ce8"
 description = "Review balo cabin 40L đi Hàn 4-5 ngày: mang gì vừa, chuẩn kích thước xách tay hãng bay, cổng sạc USB và chống nước thực tế — checklist gọn."
 draft = false
 image = "images/posts/balo-cabin-40l-di-han-quoc.webp"

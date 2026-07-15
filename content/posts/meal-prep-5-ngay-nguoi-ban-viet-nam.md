@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-15T22:50:00+07:00"
-commit = ""
+commit = "02980ce8"
 description = "Meal prep 5 ngày cho người bận: thực đơn Việt, chợ vs siêu thị, hộp đựng, chi phí VND và an toàn thực phẩm thực tế."
 draft = false
 image = "images/posts/meal-prep-5-ngay-nguoi-ban-viet-nam.webp"

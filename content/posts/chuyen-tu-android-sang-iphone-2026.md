@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-16T10:20:00+07:00"
-commit = ""
+commit = "02980ce8"
 description = "Chuyển Android sang iPhone 2026: app Zalo ngân hàng VN, chuyển dữ liệu, phụ kiện và thói quen 2 tuần đầu. Khi nào nên ở lại Android."
 draft = false
 image = "images/posts/chuyen-tu-android-sang-iphone-2026.webp"

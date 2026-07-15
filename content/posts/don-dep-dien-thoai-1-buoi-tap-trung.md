@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-15T21:00:00+07:00"
-commit = ""
+commit = "02980ce8"
 description = "Dọn dẹp điện thoại 1 buổi: screen time thật, folder app, tắt thông báo theo mức độ để lấy lại sự tập trung — hướng dẫn thực tế, không detox cực đoan."
 draft = false
 image = "images/posts/don-dep-dien-thoai-1-buoi-tap-trung.webp"

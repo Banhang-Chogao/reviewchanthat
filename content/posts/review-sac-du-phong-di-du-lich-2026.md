@@ -5,7 +5,7 @@ seo_title = "Review sạc dự phòng đi du lịch 2026: dung lượng & USB-C 
 description = "Review sạc dự phòng đi du lịch 2026: chọn 10000 hay 20000mAh, cân nặng vali xách tay, USB-C PD, quy định pin máy bay và checklist đóng gói thực tế."
 date = "2026-07-15T18:10:00+07:00"
 date_display = "15-07-2026 18:10:00 GMT +7"
-commit = ""
+commit = "02980ce8"
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 slug = "review-sac-du-phong-di-du-lich-2026"

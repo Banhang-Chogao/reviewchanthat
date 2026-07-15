@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-16T11:30:00+07:00"
-commit = ""
+commit = "02980ce8"
 description = "Mac hay Windows 2026 cho dân văn phòng VN: chi phí 3 năm, Office Adobe, sửa chữa và khi nào Chromebook là đủ. Giá tham khảo VND."
 draft = false
 image = "images/posts/mac-hay-windows-2026-dan-van-phong.webp"

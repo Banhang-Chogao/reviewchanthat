@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-15T22:15:00+07:00"
-commit = ""
+commit = "02980ce8"
 description = "Routine buổi sáng 45 phút cho người đi làm: ngủ đủ trước hack, checklist tối giản, bỏ qua cũng được — chống toxic productivity, thực tế cho ngày thường."
 draft = false
 image = "images/posts/routine-buoi-sang-45-phut-nguoi-di-lam.webp"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-16T12:40:00+07:00"
-commit = ""
+commit = "02980ce8"
 description = "Tối ưu Wi-Fi nhà phố và chung cư VN: đặt router, chọn kênh 2.4/5GHz, tường bê tông và khi nào cần mesh. Checklist đo tốc độ từng phòng."
 draft = false
 image = "images/posts/toi-uu-wifi-nha-pho-chung-cu-viet-nam.webp"

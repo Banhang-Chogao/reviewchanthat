@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-16T09:00:00+07:00"
-commit = ""
+commit = "02980ce8"
 description = "Jet lag chặng Hàn–Việt: lệch múi giờ, mẹo ánh sáng–caffeine, melatonin thận trọng và lịch ngủ 48 giờ đầu để ngủ đủ hơn."
 draft = false
 image = "images/posts/jet-lag-han-viet-ngu-du-48-gio-dau.webp"

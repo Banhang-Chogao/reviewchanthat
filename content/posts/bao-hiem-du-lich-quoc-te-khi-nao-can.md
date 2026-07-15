@@ -5,7 +5,7 @@ seo_title = "Bảo hiểm du lịch quốc tế: khi nào cần & điều khoả
 description = "Bảo hiểm du lịch quốc tế 2026: khi nào cần mua, case Hàn Nhật Đông Nam Á, loại trừ thường gặp, checklist claim và cách đọc điều khoản trước khi chốt."
 date = "2026-07-15T19:20:00+07:00"
 date_display = "15-07-2026 19:20:00 GMT +7"
-commit = ""
+commit = "02980ce8"
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 slug = "bao-hiem-du-lich-quoc-te-khi-nao-can"
