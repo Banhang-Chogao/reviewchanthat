@@ -66,7 +66,7 @@
           <button type="button" class="ccd-home__card" id="ccdOpenDashboard" data-module="dashboard">
             <span class="ccd-home__card-icon" aria-hidden="true">📊</span>
             <span class="ccd-home__card-title">2. Dashboard</span>
-            <span class="ccd-home__card-desc">Analytics + active promotions.</span>
+            <span class="ccd-home__card-desc">Personal credit-card analytics + promotions bulletin.</span>
           </button>
           <button type="button" class="ccd-home__card" id="ccdOpenPromos" data-module="promos">
             <span class="ccd-home__card-icon" aria-hidden="true">🔥</span>
@@ -528,39 +528,6 @@
               <div class="ccd-kpi"><span class="ccd-kpi__label">Near Due</span><span class="ccd-kpi__value" id="kpiNearDue">0</span></div>
             </section>
 
-            <!-- Promotion insights (non-financial) -->
-            <section class="ccd-card ccd-promo-dash-insights" id="ccdPromoDashInsights">
-              <div class="ccd-card__header">
-                <h2 class="ccd-card__title">Promotion Insights</h2>
-              </div>
-              <div class="ccd-promo__insights ccd-promo__insights--dash">
-                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Total</span><span class="ccd-promo-kpi__value" id="dashPromoTotal">0</span></div>
-                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Active</span><span class="ccd-promo-kpi__value" id="dashPromoActive">0</span></div>
-                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Expiring 7d</span><span class="ccd-promo-kpi__value" id="dashPromoExpiring">0</span></div>
-                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Expired</span><span class="ccd-promo-kpi__value" id="dashPromoExpired">0</span></div>
-                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Cashback offers</span><span class="ccd-promo-kpi__value" id="dashPromoCashback">0</span></div>
-                <div class="ccd-promo-kpi"><span class="ccd-promo-kpi__label">Installment offers</span><span class="ccd-promo-kpi__value" id="dashPromoInstall">0</span></div>
-              </div>
-              <div class="ccd-promo-charts">
-                <div class="ccd-promo-chart-box">
-                  <h3 class="ccd-promo-chart-box__title">Category mix</h3>
-                  <div class="ccd-promo-chart-box__canvas"><canvas id="ccdPromoCatChart" aria-label="Promotion category chart"></canvas></div>
-                </div>
-                <div class="ccd-promo-chart-box">
-                  <h3 class="ccd-promo-chart-box__title">Monthly trend</h3>
-                  <div class="ccd-promo-chart-box__canvas"><canvas id="ccdPromoTrendChart" aria-label="Promotion monthly trend"></canvas></div>
-                </div>
-                <div class="ccd-promo-chart-box ccd-promo-chart-box--wide">
-                  <h3 class="ccd-promo-chart-box__title">Timeline (start → end)</h3>
-                  <div class="ccd-promo-timeline" id="ccdPromoTimeline"></div>
-                </div>
-              </div>
-              <div class="ccd-promo-tops" id="ccdPromoTops">
-                <div><strong>Top merchants:</strong> <span id="dashPromoTopMerchants">—</span></div>
-                <div><strong>Top categories:</strong> <span id="dashPromoTopCats">—</span></div>
-              </div>
-            </section>
-
             <!-- 2. Payment Progress → Utilization -->
             <section class="ccd-card ccd-payment-progress" data-status="normal" id="ccdPaymentProgress">
               <div class="ccd-card__header">
@@ -689,38 +656,8 @@
 
           </div>
 
-          <!-- RIGHT: 30% Sidebar -->
+          <!-- RIGHT: 30% Sidebar — financial insights only -->
           <aside class="ccd-sidebar">
-
-            <!-- Active Promotions (beside KPIs / insights) -->
-            <section class="ccd-card ccd-active-promos" id="ccdActivePromosPanel">
-              <div class="ccd-card__header">
-                <h2 class="ccd-card__title">🔥 Active Promotions</h2>
-              </div>
-              <div class="ccd-active-promos__filters">
-                <input type="search" id="dashPromoSearch" class="ccd-input__search" placeholder="Search promo…" aria-label="Search promotions">
-                <select id="dashPromoBank" class="ccd-input__select" aria-label="Filter bank"><option value="">Bank</option></select>
-                <select id="dashPromoCard" class="ccd-input__select" aria-label="Filter card"><option value="">Card</option></select>
-                <select id="dashPromoSource" class="ccd-input__select" aria-label="Filter source"><option value="">Source</option></select>
-                <select id="dashPromoMerchant" class="ccd-input__select" aria-label="Filter merchant"><option value="">Merchant</option></select>
-                <select id="dashPromoCat" class="ccd-input__select" aria-label="Filter category"><option value="">Category</option></select>
-                <select id="dashPromoType" class="ccd-input__select" aria-label="Filter offer type"><option value="">Offer</option></select>
-                <select id="dashPromoState" class="ccd-input__select" aria-label="Filter state">
-                  <option value="active">Active</option>
-                  <option value="featured">Featured</option>
-                  <option value="expired">Expired</option>
-                  <option value="all">All</option>
-                </select>
-                <select id="dashPromoSort" class="ccd-input__select" aria-label="Sort promotions">
-                  <option value="default">Featured → Priority → Ending</option>
-                  <option value="priority">Priority</option>
-                  <option value="newest">Newest</option>
-                  <option value="ending">Ending Soon</option>
-                </select>
-              </div>
-              <div class="ccd-active-promos__list" id="ccdActivePromosList"></div>
-              <p class="ccd-active-promos__empty" id="ccdActivePromosEmpty">Chưa có promotion active. Vào <strong>Promotions Update</strong> để thêm.</p>
-            </section>
 
             <!-- 8. AI Insights -->
             <section class="ccd-card ccd-insights">
@@ -759,6 +696,61 @@
 
           </aside>
         </div>
+
+        <!-- Latest Promotions bulletin — informational only, bottom of Dashboard -->
+        <section class="ccd-promo-bulletin" id="ccdLatestPromotions" aria-label="Latest Promotions">
+          <div class="ccd-promo-bulletin__head">
+            <div>
+              <h2 class="ccd-promo-bulletin__title">Latest Promotions</h2>
+              <p class="ccd-promo-bulletin__sub">Bảng tin ưu đãi từ Promotion Knowledge Base — không ảnh hưởng KPI tài chính.</p>
+            </div>
+          </div>
+          <div class="ccd-promo-bulletin__toolbar">
+            <input type="search" id="bulletinPromoSearch" class="ccd-input__search" placeholder="Search title, merchant, bank…" aria-label="Search promotions bulletin">
+            <select id="bulletinPromoBank" class="ccd-input__select" aria-label="Filter bank"><option value="">Bank: All</option></select>
+            <select id="bulletinPromoCard" class="ccd-input__select" aria-label="Filter card"><option value="">Card: All</option></select>
+            <select id="bulletinPromoSource" class="ccd-input__select" aria-label="Filter source"><option value="">Source: All</option></select>
+            <select id="bulletinPromoMerchant" class="ccd-input__select" aria-label="Filter merchant"><option value="">Merchant: All</option></select>
+            <select id="bulletinPromoCat" class="ccd-input__select" aria-label="Filter category"><option value="">Category: All</option></select>
+            <select id="bulletinPromoStatus" class="ccd-input__select" aria-label="Filter status">
+              <option value="active">Status: Active</option>
+              <option value="all">Status: All</option>
+              <option value="Expired">Expired</option>
+              <option value="Inactive">Inactive</option>
+              <option value="Draft">Draft</option>
+            </select>
+            <select id="bulletinPromoSort" class="ccd-input__select" aria-label="Sort promotions">
+              <option value="default">Featured → Priority → Ending</option>
+              <option value="ending">Expiration</option>
+              <option value="priority">Priority</option>
+              <option value="merchant">Merchant</option>
+            </select>
+            <label class="ccd-promo-bulletin__toggle">
+              <input type="checkbox" id="bulletinPromoShowExpired"> Show expired
+            </label>
+          </div>
+          <div class="ccd-promo-bulletin__table-wrap">
+            <table class="ccd-promo-bulletin__table" id="ccdPromoBulletinTable">
+              <thead>
+                <tr>
+                  <th>Bank</th>
+                  <th>Card</th>
+                  <th>Promotion Source</th>
+                  <th>Merchant</th>
+                  <th>Category</th>
+                  <th>Offer Type</th>
+                  <th>Promotion Title</th>
+                  <th>Short Description</th>
+                  <th>Valid Until</th>
+                  <th>Official Link</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="ccdPromoBulletinBody"></tbody>
+            </table>
+          </div>
+          <p class="ccd-promo-bulletin__empty" id="ccdPromoBulletinEmpty" hidden>Chưa có promotion. Vào <strong>3. Promotions Update</strong> để thêm vào Knowledge Base.</p>
+        </section>
       </div>
 
     </div>

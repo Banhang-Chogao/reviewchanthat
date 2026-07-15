@@ -43,7 +43,8 @@
     promoSearch: '',
     promoSort: 'default',
     promoFilters: { bank: '', card: '', source: '', merchant: '', type: '', category: '', status: '', featured: '' },
-    dashPromo: { search: '', bank: '', card: '', source: '', merchant: '', category: '', type: '', state: 'active', sort: 'default' },
+    // Dashboard bulletin only (no promo KPIs/charts on financial dashboard)
+    dashPromo: { search: '', bank: '', card: '', source: '', merchant: '', category: '', status: 'active', sort: 'default', showExpired: false },
     promoKB: null, // normalized Bank→Source→Merchant→Offer→Promotion (local-only)
     charts: {}
   };
@@ -2383,10 +2384,9 @@
     renderSchedule(cards);
     renderInsights(cards, m);
     renderNotifications(cards, m);
-    // Promotions panel + insights (does not alter financial metrics)
-    populateDashPromoFilters();
-    renderActivePromotions();
-    renderPromoDashInsights();
+    // Latest Promotions bulletin only (bottom of page; no promo KPIs/charts)
+    populateBulletinFilters();
+    renderLatestPromotionsBulletin();
     var el = $('ccdSyncLabel');
     if (el && !el.textContent) el.textContent = 'Local · ' + nowLabel();
   }
@@ -3525,16 +3525,17 @@
     fill('ccdPromoFilterCat', Object.keys(cats).sort().length ? Object.keys(cats).sort() : PROMO_CATEGORIES, 'Category: All');
   }
 
-  function listDashPromos() {
+  function listBulletinPromos() {
     rebuildPromotionsFromKB();
-    var f = state.dashPromo;
+    var f = state.dashPromo || {};
     var q = (f.search || '').toLowerCase();
+    var showExpired = !!f.showExpired || f.status === 'Expired' || f.status === 'all';
     var rows = (state.promotions || []).filter(function (p) {
       var expired = promoIsExpired(p);
-      var active = promoIsActive(p);
-      if (f.state === 'active' && !active) return false;
-      if (f.state === 'expired' && !expired) return false;
-      if (f.state === 'featured' && !p.featured) return false;
+      var status = expired ? 'Expired' : (p.status || 'Active');
+      if (!showExpired && expired) return false;
+      if (f.status === 'active' && !promoIsActive(p)) return false;
+      if (f.status && f.status !== 'active' && f.status !== 'all' && status !== f.status && (p.status || '') !== f.status) return false;
       if (f.bank && (p.bank || '') !== f.bank) return false;
       if (f.card) {
         var cards = p.cards || parseCards(p.card);
@@ -3543,25 +3544,30 @@
       if (f.source && (p.source || '') !== f.source) return false;
       if (f.merchant && (p.merchant || '') !== f.merchant) return false;
       if (f.category && (p.category || '') !== f.category) return false;
-      if (f.type && (p.offerType || p.promotionType || '') !== f.type) return false;
-      // hide promos without official URL from active dashboard feed
-      if (f.state === 'active' && !(p.officialUrl || p.applyLink)) return false;
       if (!q) return true;
-      return [p.merchant, p.bank, p.source, p.offerTitle, p.card, p.category, p.promotionId]
+      return [p.merchant, p.bank, p.source, p.offerTitle, p.card, p.category, p.shortDescription, p.promotionId]
         .join(' ').toLowerCase().indexOf(q) !== -1;
     });
-    return sortPromotions(rows, f.sort || 'default');
+    var mode = f.sort || 'default';
+    if (mode === 'merchant') {
+      rows.sort(function (a, b) {
+        var fa = a.featured ? 1 : 0, fb = b.featured ? 1 : 0;
+        if (fb !== fa) return fb - fa;
+        return String(a.merchant || '').localeCompare(String(b.merchant || ''));
+      });
+      return rows;
+    }
+    return sortPromotions(rows, mode);
   }
 
-  function populateDashPromoFilters() {
+  function populateBulletinFilters() {
     rebuildPromotionsFromKB();
-    var banks = {}, cards = {}, sources = {}, merchants = {}, cats = {}, types = {};
+    var banks = {}, cards = {}, sources = {}, merchants = {}, cats = {};
     (state.promotions || []).forEach(function (p) {
       if (p.bank) banks[p.bank] = 1;
       if (p.source) sources[p.source] = 1;
       if (p.merchant) merchants[p.merchant] = 1;
       if (p.category) cats[p.category] = 1;
-      if (p.offerType || p.promotionType) types[p.offerType || p.promotionType] = 1;
       parseCards(p.cards || p.card).forEach(function (c) { cards[c] = 1; });
     });
     function fill(id, map, label) {
@@ -3575,146 +3581,90 @@
       sel.innerHTML = html;
       if (cur) sel.value = cur;
     }
-    fill('dashPromoBank', banks, 'Bank');
-    fill('dashPromoCard', cards, 'Card');
-    fill('dashPromoSource', sources, 'Source');
-    fill('dashPromoMerchant', merchants, 'Merchant');
-    fill('dashPromoCat', cats, 'Category');
-    fill('dashPromoType', types, 'Offer');
+    fill('bulletinPromoBank', banks, 'Bank: All');
+    fill('bulletinPromoCard', cards, 'Card: All');
+    fill('bulletinPromoSource', sources, 'Source: All');
+    fill('bulletinPromoMerchant', merchants, 'Merchant: All');
+    fill('bulletinPromoCat', cats, 'Category: All');
   }
 
-  function renderActivePromotions() {
-    var list = $('ccdActivePromosList');
-    var empty = $('ccdActivePromosEmpty');
-    if (!list) return;
-    var rows = listDashPromos();
-    list.innerHTML = '';
+  function offerTypeBadge(type) {
+    var t = String(type || '').trim() || 'Other';
+    var key = t.toLowerCase().replace(/\s+/g, '-');
+    var map = {
+      cashback: 'cashback',
+      discount: 'discount',
+      installment: 'installment',
+      voucher: 'voucher',
+      gift: 'gift',
+      miles: 'miles'
+    };
+    var cls = map[key] || 'other';
+    return '<span class="ccd-promo-badge ccd-promo-badge--' + cls + '">' + esc(t) + '</span>';
+  }
+
+  function renderLatestPromotionsBulletin() {
+    var tbody = $('ccdPromoBulletinBody');
+    var empty = $('ccdPromoBulletinEmpty');
+    if (!tbody) return;
+    var rows = listBulletinPromos();
+    tbody.innerHTML = '';
     if (empty) empty.hidden = rows.length > 0;
-    rows.slice(0, 40).forEach(function (p) {
-      var card = document.createElement('article');
-      card.className = 'ccd-promo-card' + (p.featured ? ' ccd-promo-card--featured' : '');
+    rows.forEach(function (p) {
+      var expired = promoIsExpired(p);
+      var status = expired ? 'Expired' : (p.status || 'Active');
       var url = (p.officialUrl || p.applyLink || '').trim();
-      var linkHtml = url
-        ? '<a class="ccd-promo-card__link" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Open official link</a>'
-        : '<span class="ccd-promo-card__link" style="opacity:.55;cursor:default">No official URL</span>';
-      card.innerHTML =
-        '<div class="ccd-promo-card__top">' +
-          '<div class="ccd-promo-card__icon" aria-hidden="true">' + esc(bankIcon(p.bank)) + '</div>' +
-          '<div class="ccd-promo-card__meta">' +
-            '<div class="ccd-promo-card__bank">' + esc(p.bank || '—') + ' · ' + esc(p.source || '') + '</div>' +
-            '<div class="ccd-promo-card__card">' + esc(p.cards && p.cards.length ? p.cards.join(', ') : (p.card || '—')) + '</div>' +
-          '</div>' +
-        '</div>' +
-        '<h3 class="ccd-promo-card__title">' + esc(p.offerTitle || 'Untitled offer') + '</h3>' +
-        (p.merchant ? '<div class="ccd-promo-card__merchant">@ ' + esc(p.merchant) + '</div>' : '') +
-        '<div class="ccd-promo-card__deal">' + esc(formatDeal(p)) + '</div>' +
-        '<div class="ccd-promo-card__row">' +
-          '<span class="ccd-promo-chip">' + esc(p.category || '—') + '</span>' +
-          '<span class="ccd-promo-chip">' + esc(p.offerType || p.promotionType || '—') + '</span>' +
-          (p.featured ? '<span class="ccd-promo-chip">Featured</span>' : '') +
-        '</div>' +
-        '<div class="ccd-promo-card__until">Valid until ' + esc(p.endDate || '—') +
-          (p.promoCode ? ' · Code ' + esc(p.promoCode) : '') + '</div>' +
-        linkHtml;
-      list.appendChild(card);
+      var cards = p.cards && p.cards.length ? p.cards.join(', ') : (p.card || '—');
+      var tr = document.createElement('tr');
+      if (p.featured) tr.className = 'is-featured';
+      if (expired) tr.className = (tr.className ? tr.className + ' ' : '') + 'is-expired';
+      var linkCell = url
+        ? '<a class="ccd-promo-bulletin__open" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Open Offer</a>'
+        : '<span class="ccd-promo-bulletin__no-link">—</span>';
+      var statusCls = status === 'Active' ? 'active' : (status === 'Expired' ? 'expired' : 'other');
+      tr.innerHTML =
+        '<td data-label="Bank">' + esc(p.bank || '—') + (p.featured ? ' <span class="ccd-promo-bulletin__pin" title="Featured">★</span>' : '') + '</td>' +
+        '<td data-label="Card">' + esc(cards) + '</td>' +
+        '<td data-label="Source">' + esc(p.source || '—') + '</td>' +
+        '<td data-label="Merchant">' + esc(p.merchant || '—') + '</td>' +
+        '<td data-label="Category">' + esc(p.category || '—') + '</td>' +
+        '<td data-label="Offer Type">' + offerTypeBadge(p.offerType || p.promotionType) + '</td>' +
+        '<td data-label="Title"><strong>' + esc(p.offerTitle || '—') + '</strong></td>' +
+        '<td data-label="Description" class="ccd-promo-bulletin__desc">' + esc(p.shortDescription || '—') + '</td>' +
+        '<td data-label="Valid Until">' + esc(p.endDate || '—') + '</td>' +
+        '<td data-label="Link">' + linkCell + '</td>' +
+        '<td data-label="Status"><span class="ccd-promo-status ccd-promo-status--' + statusCls + '">' + esc(status) + '</span></td>';
+      tbody.appendChild(tr);
     });
   }
 
-  function renderPromoDashInsights() {
-    rebuildPromotionsFromKB();
-    var s = computePromoStats();
-    function set(id, v) { var el = $(id); if (el) el.textContent = String(v); }
-    set('dashPromoTotal', s.total);
-    set('dashPromoActive', s.active);
-    set('dashPromoExpiring', s.expiring);
-    set('dashPromoExpired', s.expired);
-    set('dashPromoCashback', s.cashback);
-    set('dashPromoInstall', s.installment);
-    var tm = $('dashPromoTopMerchants');
-    var tc = $('dashPromoTopCats');
-    if (tm) tm.textContent = s.topMerchants.length ? s.topMerchants.map(function (x) { return x.k + ' (' + x.n + ')'; }).join(', ') : '—';
-    if (tc) tc.textContent = s.topCategories.length ? s.topCategories.map(function (x) { return x.k + ' (' + x.n + ')'; }).join(', ') : '—';
-
-    if (typeof Chart !== 'undefined') {
-      var catLabels = Object.keys(s.categories);
-      var catData = catLabels.map(function (k) { return s.categories[k]; });
-      ensureChart('ccdPromoCatChart', {
-        type: 'doughnut',
-        data: {
-          labels: catLabels.length ? catLabels : ['No data'],
-          datasets: [{ data: catData.length ? catData : [1], backgroundColor: CHART_COLORS }]
-        },
-        options: { plugins: { legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 10 } } } }, maintainAspectRatio: false }
-      });
-      var months = {};
-      (state.promotions || []).forEach(function (p) {
-        if (!p.startDate || p.startDate.length < 7) return;
-        var m = p.startDate.slice(0, 7);
-        months[m] = (months[m] || 0) + 1;
-      });
-      var mLabels = Object.keys(months).sort();
-      ensureChart('ccdPromoTrendChart', {
-        type: 'line',
-        data: {
-          labels: mLabels.length ? mLabels : ['—'],
-          datasets: [{
-            label: 'Promotions started',
-            data: mLabels.length ? mLabels.map(function (k) { return months[k]; }) : [0],
-            borderColor: 'rgba(0,167,160,1)',
-            backgroundColor: 'rgba(0,167,160,.15)',
-            fill: true, tension: 0.3
-          }]
-        },
-        options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }, maintainAspectRatio: false }
-      });
-    }
-
-    var tl = $('ccdPromoTimeline');
-    if (tl) {
-      var actives = (state.promotions || []).filter(promoIsActive).slice();
-      sortPromotions(actives, 'ending');
-      actives = actives.slice(0, 12);
-      if (!actives.length) {
-        tl.innerHTML = '<div class="ccd-promo-timeline__row"><span style="grid-column:1/-1;color:var(--muted)">No active promotions in Knowledge Base</span></div>';
-      } else {
-        var minT = Infinity, maxT = -Infinity;
-        actives.forEach(function (p) {
-          var s0 = new Date((p.startDate || todayISO()) + 'T00:00:00').getTime();
-          var e0 = new Date((p.endDate || todayISO()) + 'T00:00:00').getTime();
-          if (s0 < minT) minT = s0;
-          if (e0 > maxT) maxT = e0;
-        });
-        var span = Math.max(maxT - minT, 86400000);
-        tl.innerHTML = actives.map(function (p) {
-          var s0 = new Date((p.startDate || todayISO()) + 'T00:00:00').getTime();
-          var e0 = new Date((p.endDate || todayISO()) + 'T00:00:00').getTime();
-          var left = ((s0 - minT) / span) * 100;
-          var width = Math.max(((e0 - s0) / span) * 100, 4);
-          return '<div class="ccd-promo-timeline__row">' +
-            '<span title="' + esc(p.offerTitle) + '">' + esc((p.merchant || p.offerTitle || '').slice(0, 14)) + '</span>' +
-            '<div class="ccd-promo-timeline__bar"><div class="ccd-promo-timeline__fill" style="left:' + left + '%;width:' + width + '%"></div></div>' +
-            '<span>' + esc(p.endDate || '') + '</span></div>';
-        }).join('');
-      }
-    }
-  }
+  // Back-compat no-ops (removed dashboard promo analytics widgets)
+  function populateDashPromoFilters() { populateBulletinFilters(); }
+  function renderActivePromotions() { renderLatestPromotionsBulletin(); }
+  function renderPromoDashInsights() { /* intentionally empty — no promo KPIs on financial dashboard */ }
 
   function initDashPromoControls() {
     function bind(id, key, isSearch) {
       on($(id), isSearch ? 'input' : 'change', function () {
-        state.dashPromo[key] = this.value || '';
-        renderActivePromotions();
+        if (!state.dashPromo) state.dashPromo = {};
+        if (key === 'showExpired') state.dashPromo.showExpired = !!this.checked;
+        else state.dashPromo[key] = this.value || '';
+        renderLatestPromotionsBulletin();
       });
     }
-    bind('dashPromoSearch', 'search', true);
-    bind('dashPromoBank', 'bank');
-    bind('dashPromoCard', 'card');
-    bind('dashPromoSource', 'source');
-    bind('dashPromoMerchant', 'merchant');
-    bind('dashPromoCat', 'category');
-    bind('dashPromoType', 'type');
-    bind('dashPromoState', 'state');
-    bind('dashPromoSort', 'sort');
+    bind('bulletinPromoSearch', 'search', true);
+    bind('bulletinPromoBank', 'bank');
+    bind('bulletinPromoCard', 'card');
+    bind('bulletinPromoSource', 'source');
+    bind('bulletinPromoMerchant', 'merchant');
+    bind('bulletinPromoCat', 'category');
+    bind('bulletinPromoStatus', 'status');
+    bind('bulletinPromoSort', 'sort');
+    on($('bulletinPromoShowExpired'), 'change', function () {
+      if (!state.dashPromo) state.dashPromo = {};
+      state.dashPromo.showExpired = !!this.checked;
+      renderLatestPromotionsBulletin();
+    });
   }
 
   function initPromotionsModule() {
