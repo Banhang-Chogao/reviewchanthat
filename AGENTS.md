@@ -76,6 +76,25 @@
 
 **Mỗi khi commit / merge / pre-push: CHỈ check và chạy script `*.py` trên file trong scope thay đổi. CẤM quét / fix toàn bộ blog.**
 
+## Lệnh tắt merge scope
+
+```bash
+# Check only (posts trong diff origin/main...HEAD + working tree)
+bash scripts/merge_scope.sh
+# hoặc alias shell: :merge-scope
+
+# Check + autofix CHỈ scope
+bash scripts/merge_scope.sh --fix
+# :merge-scope --fix
+
+# Check rồi merge branch hiện tại → main (local; nhớ push FIFO)
+bash scripts/merge_scope.sh --merge
+# :merge-scope --merge
+
+# Ép danh sách post
+SCOPE_POSTS="content/posts/a.md content/posts/b.md" bash scripts/merge_scope.sh --fix
+```
+
 Lý do: full-tree (`add_commit_id.py`, `rule.py --fix`, `qa_dates.py`, `deploy-failure-healer.py --fix-all`, `strip_unused_internal_links.py --write`, `process_images.py`, `select_images.py --all`…) trên ~400 post **rất chậm**, dễ đụng file ngoài scope, và sinh diff rác.
 
 ## Cách lấy scope
