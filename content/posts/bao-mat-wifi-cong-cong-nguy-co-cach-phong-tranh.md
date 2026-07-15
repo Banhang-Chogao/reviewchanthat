@@ -11,7 +11,7 @@ tags = ["WiFi công cộng", "bảo mật", "an ninh mạng", "VPN", "WiFi an to
 author = "Minh Hoàng"
 image = "images/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.webp"
 thumbnail = "images/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.webp"
-commit = ""
+commit = "c6c2b9c6"
 
 [[faq]]
 question = "Dùng WiFi công cộng có nguy hiểm không?"

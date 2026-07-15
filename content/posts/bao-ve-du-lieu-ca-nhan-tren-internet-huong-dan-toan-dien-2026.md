@@ -11,7 +11,7 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026.webp"
 thumbnail = "images/posts/bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026.webp"
-commit = ""
+commit = "c6c2b9c6"
 
 [[faq]]
 question = "Tôi nên dùng app quản lý mật khẩu nào?"
