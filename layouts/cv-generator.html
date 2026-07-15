@@ -54,6 +54,19 @@
             <button type="button" class="cv-io-btn" id="cvImportExcel">📤 Import Excel</button>
             <button type="button" class="cv-io-btn" id="cvExportExcel">📄 Export Excel</button>
           </div>
+          <div class="cv-io-card__divider"></div>
+          <h3 class="cv-io-card__subtitle">Lưu trữ vĩnh viễn (GitHub)</h3>
+          <div class="cv-io-card__btns">
+            <button type="button" class="cv-io-btn cv-io-btn--cloud" id="cvSetToken">🔑 Set Token</button>
+            <button type="button" class="cv-io-btn cv-io-btn--cloud" id="cvSaveCloud">☁️ Lưu ngay</button>
+            <button type="button" class="cv-io-btn cv-io-btn--danger" id="cvClearAll" title="Xoá toàn bộ dữ liệu CV đã lưu">🗑 Xoá hết</button>
+          </div>
+          <div class="cv-io-card__status" id="cvCloudStatus" aria-live="polite">Chưa đồng bộ</div>
+          <div class="cv-io-card__progress" id="cvCloudProgress" style="display:none">
+            <div class="cv-io-card__progress-bar"><div class="cv-io-card__progress-fill" id="cvCloudProgressFill"></div></div>
+            <div class="cv-io-card__progress-stage" id="cvCloudProgressStage"></div>
+            <div class="cv-io-card__progress-sha" id="cvCloudProgressSha"></div>
+          </div>
           <div class="cv-io-card__drop" id="cvDropZone">
             <p>Drag &amp; drop .xlsx file here</p>
           </div>
@@ -329,7 +342,7 @@ Dean's List 2020-2022"></textarea>
             <button class="cv-preview-btn" id="cvGeneratePdf" title="Generate PDF">📄 PDF</button>
             <button class="cv-preview-btn" id="cvGenerateDocx" title="Generate DOCX">📝 DOCX</button>
             <button class="cv-preview-btn" id="cvPrint" title="Print">🖨️ Print</button>
-            <button class="cv-preview-btn cv-preview-btn--reset" id="cvReset" title="Reset">↺ Reset</button>
+            <button class="cv-preview-btn cv-preview-btn--reset" id="cvReset" title="Xoá hết dữ liệu CV đã lưu">🗑 Xoá hết</button>
           </div>
         </div>
         <div class="cv-preview" id="cvPreview">

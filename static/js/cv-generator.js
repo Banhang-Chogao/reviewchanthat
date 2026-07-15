@@ -4,6 +4,14 @@
   var STORAGE_KEY = 'cv_generator_draft';
   var ACCESS_CODE = '9898';
   var DEBOUNCE_DELAY = 300;
+  var CLOUD_DEBOUNCE = 2000;
+  var GH_OWNER = 'banhang-chogao';
+  var GH_REPO = 'reviewchanthat';
+  var GH_PATH = 'data/cv-generator-data.json';
+  var GH_BRANCH = 'main';
+  var TOKEN_KEY = 'cv_gh_token';
+  var cloudSaveTimer = null;
+  var cloudSaving = false;
 
   var state = {
     fullName: '',
@@ -68,15 +76,13 @@
     if (e.key === 'Enter') unlockBtn.click();
   });
 
+  // Khoá app: chỉ ẩn giao diện, KHÔNG xoá dữ liệu đã lưu
   lockBtn.addEventListener('click', function () {
-    try { localStorage.removeItem('cv_access'); localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+    try { localStorage.removeItem('cv_access'); } catch (e) {}
     appEl.style.display = 'none';
     gateEl.style.display = 'flex';
     gateInput.value = '';
     gateError.textContent = '';
-    resetState();
-    renderPreview();
-    updateKpis();
   });
 
   /* ---- State Management ---- */
@@ -131,19 +137,251 @@
     } catch (e) {}
   }
 
+  function applyCvData(parsed) {
+    if (!parsed || typeof parsed !== 'object') return false;
+    Object.keys(parsed).forEach(function (k) {
+      if (k in state) state[k] = parsed[k];
+    });
+    applyStateToForm();
+    return true;
+  }
+
   function restoreFromStorage() {
     try {
       var data = localStorage.getItem(STORAGE_KEY);
       if (data) {
-        var parsed = JSON.parse(data);
-        Object.keys(parsed).forEach(function (k) {
-          if (k in state) state[k] = parsed[k];
-        });
-        applyStateToForm();
-        return true;
+        return applyCvData(JSON.parse(data));
       }
     } catch (e) {}
     return false;
+  }
+
+  /* ---- Permanent GitHub storage ---- */
+  function getToken() {
+    try { return localStorage.getItem(TOKEN_KEY) || ''; } catch (e) { return ''; }
+  }
+  function setToken(t) {
+    try {
+      if (t) localStorage.setItem(TOKEN_KEY, t);
+      else localStorage.removeItem(TOKEN_KEY);
+    } catch (e) {}
+  }
+  function getGHReadURL() {
+    return 'https://raw.githubusercontent.com/' + GH_OWNER + '/' + GH_REPO + '/' + GH_BRANCH + '/' + GH_PATH + '?_=' + Date.now();
+  }
+  function getGHAPIURL() {
+    return 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO + '/contents/' + GH_PATH;
+  }
+
+  function setCloudStatus(msg, kind) {
+    var el = document.getElementById('cvCloudStatus');
+    if (!el) return;
+    el.textContent = msg || '';
+    el.className = 'cv-io-card__status' + (kind ? ' cv-io-card__status--' + kind : '');
+  }
+
+  function showCloudProgress(stage, sha, pct) {
+    var el = document.getElementById('cvCloudProgress');
+    var stageEl = document.getElementById('cvCloudProgressStage');
+    var shaEl = document.getElementById('cvCloudProgressSha');
+    var fill = document.getElementById('cvCloudProgressFill');
+    if (el) el.style.display = '';
+    if (stageEl) stageEl.textContent = stage || '';
+    if (shaEl) shaEl.textContent = sha || '';
+    if (fill && typeof pct === 'number') fill.style.width = pct + '%';
+  }
+
+  function hideCloudProgress() {
+    var el = document.getElementById('cvCloudProgress');
+    if (el) el.style.display = 'none';
+  }
+
+  function emptyStatePayload() {
+    return {
+      fullName: '', email: '', phone: '', address: '', linkedin: '', website: '', photo: '',
+      objective: '', school: '', degree: '', eduStart: '', eduEnd: '', eduGpa: '',
+      experiences: [{ company: '', position: '', start: '', end: '', desc: '' }],
+      projects: [{ name: '', desc: '', tech: '', url: '' }],
+      skills: [], certifications: '', languages: '', awards: '', activities: '',
+      references: '', additional: ''
+    };
+  }
+
+  function isEmptyCv(data) {
+    if (!data) return true;
+    if (data.fullName || data.email || data.phone || data.objective || data.school || data.photo) return false;
+    if (data.skills && data.skills.length) return false;
+    if (data.experiences && data.experiences.some(function (e) { return e.company || e.position || e.desc; })) return false;
+    return true;
+  }
+
+  function loadFromCloud() {
+    setCloudStatus('Đang tải dữ liệu từ GitHub…', 'pending');
+    showCloudProgress('Loading…', '', 30);
+    return fetch(getGHReadURL(), { cache: 'no-cache' })
+      .then(function (r) {
+        if (r.status === 404) return { cv: null, updatedAt: '' };
+        if (!r.ok) throw new Error('Read failed: ' + r.status);
+        return r.json();
+      })
+      .then(function (data) {
+        hideCloudProgress();
+        if (data && data.cv && !isEmptyCv(data.cv)) {
+          applyCvData(data.cv);
+          saveToStorage();
+          var when = data.updatedAt ? new Date(data.updatedAt).toLocaleString('vi-VN') : '';
+          setCloudStatus('Đã tải bản lưu' + (when ? ' · ' + when : ''), 'ok');
+          return true;
+        }
+        setCloudStatus('Chưa có bản lưu trên cloud', 'pending');
+        return false;
+      })
+      ['catch'](function (err) {
+        hideCloudProgress();
+        console.warn('CV cloud load failed:', err);
+        setCloudStatus('Không tải được cloud — dùng bản local', 'err');
+        return false;
+      });
+  }
+
+  function saveToCloud(options) {
+    options = options || {};
+    var silent = !!options.silent;
+    var token = getToken();
+    if (!token) {
+      if (!silent) {
+        promptToken();
+        token = getToken();
+      }
+      if (!token) {
+        setCloudStatus('Cần GitHub token để lưu vĩnh viễn', 'err');
+        return Promise.reject(new Error('No token'));
+      }
+    }
+    if (!options.skipForm) getFormData();
+    saveToStorage();
+    if (cloudSaving) {
+      scheduleCloudSave();
+      return Promise.resolve();
+    }
+    cloudSaving = true;
+    var payloadObj = { cv: state, updatedAt: new Date().toISOString() };
+    var json = JSON.stringify(payloadObj) + '\n';
+    var content = btoa(unescape(encodeURIComponent(json)));
+    var apiUrl = getGHAPIURL();
+
+    if (!silent) {
+      setCloudStatus('Đang lưu lên GitHub…', 'pending');
+      showCloudProgress('Đang kết nối GitHub…', '', 20);
+    }
+
+    function trySave(retries) {
+      return fetch(apiUrl, { headers: { Accept: 'application/vnd.github.v3+json' } })
+        .then(function (r) {
+          if (r.status === 404) return null;
+          if (!r.ok) throw new Error('Get SHA failed: ' + r.status);
+          return r.json();
+        })
+        .then(function (existing) {
+          if (!silent) showCloudProgress('Đang đẩy dữ liệu…', existing ? 'SHA: ' + existing.sha.slice(0, 7) : '', 55);
+          var body = {
+            message: 'cv-generator: save CV data',
+            content: content,
+            branch: GH_BRANCH
+          };
+          if (existing) body.sha = existing.sha;
+          return fetch(apiUrl, {
+            method: 'PUT',
+            headers: {
+              Authorization: 'token ' + token,
+              'Content-Type': 'application/json',
+              Accept: 'application/vnd.github.v3+json'
+            },
+            body: JSON.stringify(body)
+          });
+        })
+        .then(function (r) {
+          if (!r.ok) {
+            return r.json().then(function (e) {
+              if (e.message && e.message.indexOf('does not match') !== -1 && retries > 0) {
+                return new Promise(function (res) { setTimeout(res, 400); }).then(function () {
+                  return trySave(retries - 1);
+                });
+              }
+              throw new Error(e.message || ('GitHub write failed: ' + r.status));
+            });
+          }
+          return r.json();
+        });
+    }
+
+    return trySave(2)
+      .then(function (res) {
+        cloudSaving = false;
+        var sha = (res && res.content && res.content.sha) || '';
+        if (!silent) {
+          showCloudProgress('Đã lưu!', sha ? 'Commit: ' + sha.slice(0, 7) : '', 100);
+          setTimeout(hideCloudProgress, 2500);
+        }
+        setCloudStatus('Đã lưu vĩnh viễn' + (sha ? ' · ' + sha.slice(0, 7) : '') + ' · ' + new Date().toLocaleTimeString('vi-VN'), 'ok');
+      })
+      ['catch'](function (err) {
+        cloudSaving = false;
+        console.warn('CV cloud save failed:', err);
+        setCloudStatus('Lỗi lưu: ' + (err.message || err), 'err');
+        if (!silent) hideCloudProgress();
+        throw err;
+      });
+  }
+
+  function scheduleCloudSave() {
+    clearTimeout(cloudSaveTimer);
+    setCloudStatus('Có thay đổi — sẽ tự lưu…', 'pending');
+    cloudSaveTimer = setTimeout(function () {
+      saveToCloud({ silent: true })['catch'](function () {});
+    }, CLOUD_DEBOUNCE);
+  }
+
+  function promptToken() {
+    var t = prompt('Nhập GitHub Personal Access Token (classic, quyền repo/contents:write):', getToken());
+    if (t !== null) {
+      setToken(t.trim());
+      if (t.trim()) setCloudStatus('Token đã lưu trên máy này', 'ok');
+      else setCloudStatus('Đã xoá token', 'pending');
+    }
+  }
+
+  function clearAllData() {
+    if (!confirm('Xoá HẾT dữ liệu CV đã lưu (local + cloud)?\nHành động này không thể hoàn tác.')) return;
+    if (!confirm('Xác nhận lần 2: xoá vĩnh viễn toàn bộ CV?')) return;
+    clearTimeout(cloudSaveTimer);
+    state = emptyStatePayload();
+    applyStateToForm();
+    try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+    renderPreview();
+    updateKpis();
+    runAtsCheck();
+    renderSkillsTags();
+    setCloudStatus('Đang xoá bản lưu cloud…', 'pending');
+    // Ghi empty lên GitHub để bản lưu vĩnh viễn cũng sạch
+    var token = getToken();
+    if (!token) {
+      promptToken();
+      token = getToken();
+    }
+    if (!token) {
+      setCloudStatus('Đã xoá local — chưa xoá cloud (thiếu token)', 'err');
+      alert('Đã xoá trên máy này. Cần GitHub token để xoá bản lưu cloud.');
+      return;
+    }
+    saveToCloud({ silent: false, skipForm: true })
+      .then(function () {
+        setCloudStatus('Đã xoá hết (local + cloud)', 'ok');
+        alert('Đã xoá toàn bộ dữ liệu CV.');
+      })
+      ['catch'](function (err) {
+        alert('Đã xoá local nhưng cloud lỗi: ' + (err.message || err));
+      });
   }
 
   function applyStateToForm() {
@@ -193,14 +431,7 @@
   }
 
   function resetState() {
-    state = {
-      fullName: '', email: '', phone: '', address: '', linkedin: '', website: '', photo: '',
-      objective: '', school: '', degree: '', eduStart: '', eduEnd: '', eduGpa: '',
-      experiences: [{ company: '', position: '', start: '', end: '', desc: '' }],
-      projects: [{ name: '', desc: '', tech: '', url: '' }],
-      skills: [], certifications: '', languages: '', awards: '', activities: '',
-      references: '', additional: ''
-    };
+    state = emptyStatePayload();
     applyStateToForm();
     try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
   }
@@ -297,6 +528,8 @@
       updateKpis();
       renderSkillsTags();
       runAtsCheck();
+      // Tự lưu cloud (vĩnh viễn) sau khi ngừng gõ
+      scheduleCloudSave();
     }, DEBOUNCE_DELAY);
   }
 
@@ -682,14 +915,7 @@
   document.getElementById('cvPrint').addEventListener('click', function () {
     window.print();
   });
-  document.getElementById('cvReset').addEventListener('click', function () {
-    if (confirm('Reset all fields? This will clear your current CV.')) {
-      resetState();
-      renderPreview();
-      updateKpis();
-      runAtsCheck();
-    }
-  });
+  document.getElementById('cvReset').addEventListener('click', clearAllData);
 
   function validateForm() {
     var required = ['cvFullName', 'cvEmail', 'cvPhone', 'cvObjective', 'cvSchool', 'cvDegree'];
@@ -876,6 +1102,7 @@
         updatePhotoPreview();
         try { saveToStorage(); } catch (e) {}
         renderPreview();
+        scheduleCloudSave();
       };
       img.onerror = function () {
         alert('Không đọc được ảnh. Thử file khác.');
@@ -940,6 +1167,7 @@
         updatePhotoPreview();
         try { saveToStorage(); } catch (err) {}
         renderPreview();
+        scheduleCloudSave();
       });
     }
   }
@@ -1304,18 +1532,41 @@
   }
 
   /* ---- Init ---- */
-  function init() {
-    if (!gateEl || !appEl) return;
-    restoreFromStorage();
+  function refreshUiAfterData() {
     updatePhotoPreview();
     renderPreview();
     updateKpis();
     runAtsCheck();
     renderSkillsTags();
+  }
+
+  function init() {
+    if (!gateEl || !appEl) return;
+
+    // Local cache trước (nhanh), rồi cloud ghi đè nếu có bản mới hơn
+    restoreFromStorage();
+    refreshUiAfterData();
+
+    loadFromCloud().then(function (loaded) {
+      if (loaded) refreshUiAfterData();
+    });
 
     document.getElementById('cvDownloadTemplate').addEventListener('click', downloadTemplate);
     document.getElementById('cvImportExcel').addEventListener('click', importExcel);
     document.getElementById('cvExportExcel').addEventListener('click', exportExcel);
+
+    var setTokenBtn = document.getElementById('cvSetToken');
+    if (setTokenBtn) setTokenBtn.addEventListener('click', promptToken);
+    var saveCloudBtn = document.getElementById('cvSaveCloud');
+    if (saveCloudBtn) {
+      saveCloudBtn.addEventListener('click', function () {
+        saveToCloud({ silent: false })['catch'](function (err) {
+          alert('Lưu thất bại: ' + (err.message || err));
+        });
+      });
+    }
+    var clearAllBtn = document.getElementById('cvClearAll');
+    if (clearAllBtn) clearAllBtn.addEventListener('click', clearAllData);
 
     bindPhotoUpload();
 
