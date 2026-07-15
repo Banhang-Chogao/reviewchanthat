@@ -1147,24 +1147,396 @@
     downloadFile(csv, 'income-insights-export.csv', 'text/csv;charset=utf-8');
   }
 
-  function exportPDF() {
-    if (state.transactions.length === 0) {
-      alert('Không có dữ liệu để export PDF.');
-      return;
+  /* ─── PDF Export — html2canvas + jsPDF (true WYSIWYG) ──
+   * Root cause of broken PDFs (FIXED):
+   * 1) window.print() delegates to browser print engine → re-renders ≠ screen
+   * 2) @media print with display:block overrides broke flex/grid layout
+   * 3) No high-DPI capture → blurry charts/text in PDF
+   * 4) Clone lost computed styles + print engine ignored inline freeze
+   *
+   * Strategy: wait → freeze → clone → chart→img (2x) → html2canvas → jsPDF
+   * No print CSS interference. WYSIWYG from live rendered pixels.
+   */
+  var CHART_CANVAS_IDS = [
+    'chartIncomeVsDebt', 'chartCashFlow', 'chartDebtByLabel', 'chartIncomeByLabel',
+    'chartTransactionType', 'chartRoute', 'chartMonthlyTrend', 'chartRatio'
+  ];
+  var FONT_STACK = "'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans', system-ui, sans-serif";
+  var exportInProgress = false;
+
+  function waitForFontsReady() {
+    if (document.fonts && document.fonts.ready) {
+      return document.fonts.ready.then(function() {
+        if (document.fonts.check) {
+          try { document.fonts.check("16px 'Be Vietnam Pro'"); } catch (e) { /* ignore */ }
+        }
+        return true;
+      })['catch'](function() { return false; });
     }
-    document.getElementById('incomeExportDropdown').classList.remove('income-app__dropdown--open');
-    document.body.classList.add('income-printing');
-    function afterPrint() {
-      document.body.classList.remove('income-printing');
-      window.removeEventListener('focus', afterPrint);
-    }
-    window.addEventListener('focus', afterPrint);
-    requestAnimationFrame(function() {
-      requestAnimationFrame(function() {
-        window.print();
-      });
+    return Promise.resolve(false);
+  }
+
+  function waitForChartsReady(timeoutMs) {
+    timeoutMs = timeoutMs || 4000;
+    return new Promise(function(resolve) {
+      var start = Date.now();
+      function tick() {
+        var total = CHART_CANVAS_IDS.length;
+        var ready = 0;
+        var details = [];
+        var needCharts = state.filtered && state.filtered.length > 0;
+        if (!needCharts) {
+          resolve({ ready: total, total: total, empty: true, details: details });
+          return;
+        }
+        for (var i = 0; i < total; i++) {
+          var id = CHART_CANVAS_IDS[i];
+          var canvas = document.getElementById(id);
+          var inst = chartInstances[id];
+          var ok = !!(inst && canvas && canvas.width > 0 && canvas.height > 0 && canvas.clientWidth > 0);
+          if (ok) ready++;
+          details.push({
+            id: id, ready: ok,
+            width: canvas ? canvas.clientWidth : 0,
+            height: canvas ? canvas.clientHeight : 0,
+            bitmapW: canvas ? canvas.width : 0,
+            bitmapH: canvas ? canvas.height : 0
+          });
+        }
+        if (ready === total || Date.now() - start >= timeoutMs) {
+          resolve({ ready: ready, total: total, empty: false, details: details, timedOut: ready !== total });
+          return;
+        }
+        setTimeout(tick, 50);
+      }
+      tick();
     });
   }
+
+  function resizeAllCharts() {
+    for (var i = 0; i < CHART_CANVAS_IDS.length; i++) {
+      var inst = chartInstances[CHART_CANVAS_IDS[i]];
+      if (inst && typeof inst.resize === 'function') {
+        try { inst.resize(); } catch (e) { /* ignore */ }
+      }
+    }
+  }
+
+  function nextFrames(n) {
+    n = n || 2;
+    return new Promise(function(resolve) {
+      function step() {
+        if (n <= 0) { resolve(); return; }
+        n--;
+        requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }
+
+  /* ── Freeze every major container at live pixel size ── */
+  function freezeAllDimensions(root) {
+    if (!root) return function() {};
+    var prevStyles = [];
+    var selectors = '.income-kpi, .income-chart-box, .income-chart-box__canvas-wrap, .income-table-wrap, .income-table, .income-insights-box, .income-insights, .income-kpis, .income-charts, .income-charts__grid';
+
+    // Freeze root
+    var r = root.getBoundingClientRect();
+    if (r.width > 0) {
+      prevStyles.push({ el: root, w: root.style.width, h: root.style.height,
+        maxW: root.style.maxWidth, minW: root.style.minWidth });
+      root.style.width = Math.round(r.width) + 'px';
+      root.style.maxWidth = Math.round(r.width) + 'px';
+      root.style.minWidth = Math.round(r.width) + 'px';
+    }
+
+    // Freeze children
+    var els = root.querySelectorAll(selectors);
+    for (var i = 0; i < els.length; i++) {
+      var el = els[i];
+      if (el === root) continue;
+      var rect = el.getBoundingClientRect();
+      if (rect.width <= 0) continue;
+      prevStyles.push({ el: el, w: el.style.width, h: el.style.height,
+        maxW: el.style.maxWidth, minW: el.style.minWidth });
+      el.style.width = Math.round(rect.width) + 'px';
+      el.style.maxWidth = Math.round(rect.width) + 'px';
+      el.style.minWidth = Math.round(rect.width) + 'px';
+    }
+
+    return function unfreeze() {
+      for (var j = 0; j < prevStyles.length; j++) {
+        var p = prevStyles[j];
+        p.el.style.width = p.w;
+        p.el.style.height = p.h;
+        p.el.style.maxWidth = p.maxW;
+        p.el.style.minWidth = p.minW;
+      }
+    };
+  }
+
+  /* ── Replace chart canvases with 2x DPI images (in clone) ── */
+  function replaceChartsWithImages(cloneRoot, scale) {
+    scale = scale || 2;
+    for (var i = 0; i < CHART_CANVAS_IDS.length; i++) {
+      var id = CHART_CANVAS_IDS[i];
+      var live = document.getElementById(id);
+      var dead = cloneRoot.querySelector('#' + id);
+      if (!live || !dead || !dead.parentNode) continue;
+      var rect = live.getBoundingClientRect();
+      if (rect.width <= 0 || rect.height <= 0) continue;
+
+      var offscreen = document.createElement('canvas');
+      offscreen.width = Math.round(rect.width * scale);
+      offscreen.height = Math.round(rect.height * scale);
+      var ctx = offscreen.getContext('2d');
+      ctx.scale(scale, scale);
+      ctx.drawImage(live, 0, 0);
+
+      var img = document.createElement('img');
+      img.className = 'income-chart-export-img';
+      img.alt = '';
+      img.src = offscreen.toDataURL('image/png');
+      img.width = Math.round(rect.width);
+      img.height = Math.round(rect.height);
+      img.style.width = Math.round(rect.width) + 'px';
+      img.style.height = Math.round(rect.height) + 'px';
+      img.setAttribute('data-chart-id', id);
+      dead.parentNode.replaceChild(img, dead);
+    }
+  }
+
+  /* ── Build offscreen clone for html2canvas capture ── */
+  function buildClone(root) {
+    var liveW = Math.round(root.getBoundingClientRect().width);
+    if (liveW <= 0) liveW = 1200;
+
+    var wrap = document.createElement('div');
+    wrap.className = 'income-pdf-clone-wrap';
+    wrap.id = 'incomePdfClone';
+    wrap.style.width = liveW + 'px';
+
+    var clone = root.cloneNode(true);
+    // Remove controls from clone
+    var toStrip = clone.querySelectorAll(
+      '.income-gate, .income-app__toolbar, .income-app__export-wrap, ' +
+      '.income-app__undo, .income-app__btn, .income-insights__lock-btn, ' +
+      '.income-table__col-actions, .income-table__row-actions, ' +
+      '.income-insights-box__disclaimer'
+    );
+    for (var s = 0; s < toStrip.length; s++) {
+      if (toStrip[s].parentNode) toStrip[s].parentNode.removeChild(toStrip[s]);
+    }
+
+    // Apply font + freeze to clone
+    clone.style.width = liveW + 'px';
+    clone.style.fontFamily = FONT_STACK;
+
+    wrap.appendChild(clone);
+    document.body.appendChild(wrap);
+    return { wrap: wrap, clone: clone, width: liveW };
+  }
+
+  function destroyClone() {
+    var el = document.getElementById('incomePdfClone');
+    if (el && el.parentNode) el.parentNode.removeChild(el);
+  }
+
+  /* ── Core export pipeline ── */
+  function exportPDF() {
+    if (state.transactions.length === 0) {
+      alert('Không có dữ liệu để xuất PDF.');
+      return;
+    }
+    if (exportInProgress) return;
+    exportInProgress = true;
+
+    var dropdown = document.getElementById('incomeExportDropdown');
+    if (dropdown) dropdown.classList.remove('income-app__dropdown--open');
+
+    var root = document.querySelector('article.income-insights') || document.getElementById('incomeApp');
+    if (!root) { exportInProgress = false; return; }
+
+    if (typeof html2canvas === 'undefined' || typeof jspdf === 'undefined') {
+      alert('Thư viện xuất PDF chưa sẵn sàng. Vui lòng tải lại trang.');
+      exportInProgress = false;
+      return;
+    }
+
+    // Loading indicator
+    var loadingEl = document.createElement('div');
+    loadingEl.className = 'income-pdf-loading';
+    loadingEl.textContent = 'Đang xuất PDF…';
+    document.body.appendChild(loadingEl);
+
+    var cleaned = false;
+    function cleanup() {
+      if (cleaned) return;
+      cleaned = true;
+      document.body.classList.remove('income-pdf-export');
+      destroyClone();
+      if (unfreezeLive) unfreezeLive();
+      if (loadingEl && loadingEl.parentNode) loadingEl.parentNode.removeChild(loadingEl);
+      setTimeout(function() { resizeAllCharts(); exportInProgress = false; }, 100);
+    }
+
+    var unfreezeLive = null;
+
+    waitForFontsReady()
+      .then(function() {
+        if (typeof Chart !== 'undefined' && Chart.defaults) {
+          try {
+            Chart.defaults.font = Chart.defaults.font || {};
+            Chart.defaults.font.family = FONT_STACK;
+          } catch (e) {}
+        }
+        resizeAllCharts();
+        return nextFrames(2);
+      })
+      .then(function() { return waitForChartsReady(4000); })
+      .then(function() {
+        // 1. Freeze live layout (capture pixel dimensions before clone)
+        unfreezeLive = freezeAllDimensions(root);
+        // 2. Build offscreen clone with frozen dimensions
+        var cloneInfo = buildClone(root);
+        // 3. Replace chart canvases in clone with 2x DPI images
+        replaceChartsWithImages(cloneInfo.clone, 2);
+        // 4. Freeze clone dimensions too
+        freezeAllDimensions(cloneInfo.clone);
+        // 5. Hide controls on live page during capture
+        document.body.classList.add('income-pdf-export');
+        return nextFrames(3);
+      })
+      .then(function() {
+        var cloneWrap = document.getElementById('incomePdfClone');
+        if (!cloneWrap) throw new Error('Clone not found');
+        return html2canvas(cloneWrap, {
+          scale: 1,
+          useCORS: true,
+          backgroundColor: '#ffffff',
+          logging: false,
+          width: cloneWrap.scrollWidth,
+          height: cloneWrap.scrollHeight,
+          windowWidth: cloneWrap.scrollWidth,
+          windowHeight: cloneWrap.scrollHeight
+        });
+      })
+      .then(function(canvas) {
+        var A4_W = 210;
+        var A4_H = 297;
+        var ratio = A4_W / canvas.width;
+        var totalHmm = canvas.height * ratio;
+        var pages = Math.ceil(totalHmm / A4_H);
+
+        var pdf = new jspdf.jsPDF({ orientation: 'p', unit: 'mm', format: 'a4' });
+
+        for (var p = 0; p < pages; p++) {
+          if (p > 0) pdf.addPage();
+          var srcY = p * (A4_H / ratio);
+          var srcH = Math.min(A4_H / ratio, canvas.height - srcY);
+          if (srcH <= 0) break;
+
+          var pageCanvas = document.createElement('canvas');
+          pageCanvas.width = canvas.width;
+          pageCanvas.height = Math.round(srcH * ratio);
+          var pCtx = pageCanvas.getContext('2d');
+          pCtx.drawImage(canvas, 0, srcY, canvas.width, srcH, 0, 0, canvas.width, pageCanvas.height);
+
+          pdf.addImage(
+            pageCanvas.toDataURL('image/jpeg', 0.95),
+            'JPEG', 0, 0, A4_W, srcH * ratio
+          );
+        }
+
+        pdf.save('income-insights.pdf');
+        cleanup();
+      })
+      ['catch'](function(err) {
+        console.error('exportPDF failed:', err);
+        cleanup();
+        try { window.print(); } catch (e) { /* ignore */ }
+      });
+  }
+
+  function estimatePageCount(root) {
+    if (!root) return 0;
+    var h = root.scrollHeight || root.getBoundingClientRect().height || 0;
+    return Math.max(1, Math.ceil(h / 1030));
+  }
+
+  /**
+   * Temporary QA helper: window.exportAudit()
+   * Inspect fonts, charts, freeze, print readiness without exporting.
+   */
+  function exportAudit() {
+    var root = document.querySelector('article.income-insights') || document.getElementById('incomeApp');
+    var chartDetails = [];
+    for (var i = 0; i < CHART_CANVAS_IDS.length; i++) {
+      var id = CHART_CANVAS_IDS[i];
+      var canvas = document.getElementById(id);
+      var inst = chartInstances[id];
+      chartDetails.push({
+        id: id,
+        hasInstance: !!inst,
+        clientWidth: canvas ? canvas.clientWidth : 0,
+        clientHeight: canvas ? canvas.clientHeight : 0,
+        bitmapWidth: canvas ? canvas.width : 0,
+        bitmapHeight: canvas ? canvas.height : 0,
+        ready: !!(inst && canvas && canvas.width > 0 && canvas.clientWidth > 0)
+      });
+    }
+
+    var fontsReady = !!(document.fonts && document.fonts.status === 'loaded');
+    var beVietnam = false;
+    try {
+      beVietnam = !!(document.fonts && document.fonts.check && document.fonts.check("16px 'Be Vietnam Pro'"));
+    } catch (e) { beVietnam = false; }
+
+    var hidden = [];
+    if (root) {
+      var nodes = root.querySelectorAll('.income-app__toolbar, .income-app__btn, .income-table__row-actions, .income-gate');
+      for (var h = 0; h < nodes.length; h++) hidden.push(nodes[h].className || nodes[h].tagName);
+    }
+
+    var rect = root ? root.getBoundingClientRect() : null;
+    var report = {
+      fontsLoaded: fontsReady,
+      beVietnamPro: beVietnam,
+      fontStatus: document.fonts ? document.fonts.status : 'unsupported',
+      chartCount: CHART_CANVAS_IDS.length,
+      chartsReady: chartDetails.filter(function(c) { return c.ready; }).length,
+      chartDetails: chartDetails,
+      exportDimensions: rect ? { width: Math.round(rect.width), height: Math.round(rect.height) } : null,
+      pageCountEstimate: estimatePageCount(root),
+      capturedNodes: {
+        kpis: root ? root.querySelectorAll('.income-kpi').length : 0,
+        chartBoxes: root ? root.querySelectorAll('.income-chart-box').length : 0,
+        tableRows: root ? root.querySelectorAll('#incomeTableBody tr').length : 0,
+        insights: root ? root.querySelectorAll('.income-insight-item, .income-insights-box__content').length : 0
+      },
+      hiddenNodes: hidden,
+      printCssStatus: (function() {
+        try {
+          var sheets = document.styleSheets;
+          for (var s = 0; s < sheets.length; s++) {
+            var href = sheets[s].href || '';
+            if (href.indexOf('income-insights') !== -1) return { loaded: true, href: href };
+          }
+          return { loaded: !!document.querySelector('link[href*="income-insights"]'), href: null };
+        } catch (e) {
+          return { loaded: false, error: String(e) };
+        }
+      })(),
+      exportInProgress: exportInProgress,
+      transactionCount: state.transactions.length,
+      filteredCount: state.filtered.length
+    };
+    try { console.log('[income-insights exportAudit]', report); } catch (e) { /* ignore */ }
+    return report;
+  }
+
+  // Expose QA hook (temporary; safe no-op if unused)
+  try { window.exportAudit = exportAudit; } catch (e) { /* ignore */ }
 
   function escHtml(str) {
     var d = document.createElement('div');

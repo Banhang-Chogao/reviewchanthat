@@ -1,6 +1,7 @@
-/* Income Insights — uses existing design tokens */
+/* Income Insights — uses existing design tokens + Be Vietnam Pro for VN text/PDF */
 .income-insights {
   padding-bottom: 3rem;
+  font-family: 'Be Vietnam Pro', var(--font-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans', system-ui, sans-serif);
 }
 .income-insights__header {
   display: flex;
@@ -563,213 +564,93 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* ===== Print/PDF styles ===== */
-@media print {
-  @page {
-    size: A4 portrait;
-    margin: 12mm 15mm;
-  }
+/* ===== PDF export: hide controls during html2canvas capture ===== */
+body.income-pdf-export .income-gate,
+body.income-pdf-export .income-app__toolbar,
+body.income-pdf-export .income-app__export-wrap,
+body.income-pdf-export .income-app__undo,
+body.income-pdf-export .income-app__btn,
+body.income-pdf-export .income-app__month-picker,
+body.income-pdf-export .income-app__actions,
+body.income-pdf-export .income-app__label,
+body.income-pdf-export .income-app__select,
+body.income-pdf-export .income-insights__lock-btn,
+body.income-pdf-export .income-table__col-actions,
+body.income-pdf-export .income-table__row-actions,
+body.income-pdf-export .income-insights-box__disclaimer,
+body.income-pdf-export .income-toast,
+body.income-pdf-export .site-header,
+body.income-pdf-export .site-footer,
+body.income-pdf-export .footer-ad {
+  display: none !important;
+}
 
-  body {
+/* Clone container for html2canvas capture (visually overlaid, imperceptible) */
+.income-pdf-clone-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.999;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Chart snapshot images inside clone */
+.income-chart-export-img {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Loading overlay */
+.income-pdf-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  z-index: 99999;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* ===== Print fallback (native Ctrl+P) — SIMPLE, no layout override ===== */
+@media print {
+  @page { size: A4; margin: 12mm; }
+
+  html, body {
     background: #fff !important;
-    color: #222 !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
 
   /* Hide chrome */
-  .site-header,
-  .site-footer,
-  .footer-ad,
-  .sponsored-hotel-wrap,
-  .site-search,
-  .income-gate,
-  .income-insights__header-right > *,
-  .income-app__toolbar,
-  .income-app__export-wrap,
-  .income-table__col-actions,
-  .income-table__row-actions,
-  .income-app__undo,
-  .income-insights-box__disclaimer,
-  .income-app__btn,
-  .income-app__month-picker,
-  .income-insights__lock-btn {
+  .site-header, .site-footer, .footer-ad, .sponsored-hotel-wrap,
+  .site-search, .skip-link, .income-gate,
+  .income-app__toolbar, .income-app__export-wrap, .income-app__undo,
+  .income-app__btn, .income-app__month-picker, .income-app__actions,
+  .income-app__label, .income-app__select, .income-insights__lock-btn,
+  .income-table__col-actions, .income-table__row-actions,
+  .income-insights-box__disclaimer, .income-toast {
     display: none !important;
   }
 
-  .income-insights {
-    padding: 0 !important;
+  /* Keep backgrounds & shadows */
+  .income-kpi, .income-chart-box, .income-insights-box,
+  .income-table th, .income-table tr {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
-  .income-app {
-    display: block !important;
-    max-width: none !important;
-  }
-
-  .income-insights__header {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: baseline !important;
-    margin-bottom: 8px;
-    padding: 0;
-    border-bottom: 2px solid #00A7A0;
-    padding-bottom: 4px;
-  }
-
-  .income-insights__title {
-    font-size: 18pt;
-    color: #00A7A0;
-    margin: 0;
-  }
-
-  .income-insights__version {
-    font-size: 8pt;
-    color: #888;
-  }
-
-  /* KPIs */
-  .income-kpis {
-    display: flex !important;
-    flex-direction: row !important;
-    gap: 8px;
-    margin-bottom: 12px;
-  }
-
-  .income-kpi {
-    flex: 1;
-    padding: 6px 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    text-align: center;
-  }
-
-  .income-kpi__label {
-    font-size: 7pt;
-    color: #888;
-    display: block;
-  }
-
-  .income-kpi__value {
-    font-size: 11pt;
-    font-weight: 700;
-  }
-
-  /* Table */
-  .income-table-wrap {
-    overflow: visible !important;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 12px;
-  }
-
-  .income-table {
-    min-width: 0 !important;
-    width: 100% !important;
-    font-size: 6pt !important;
-    border-collapse: collapse;
-    table-layout: fixed !important;
-    display: table !important;
-  }
-
-  .income-table thead {
-    display: table-header-group !important;
-  }
-
-  .income-table th,
-  .income-table td {
-    padding: 2px 3px !important;
-    text-align: right;
-  }
-
-  .income-table th {
-    background: #00A7A0 !important;
-    color: #fff !important;
-    font-weight: 600;
-    text-align: right;
-  }
-
-  .income-table th:first-child,
-  .income-table td:first-child {
-    text-align: left;
-  }
-
-  /* Column widths for print (fit A4 portrait) */
-  .income-table__col-seq { width: 4% !important; min-width: 0 !important; }
-  .income-table__col-income { width: 13% !important; min-width: 0 !important; }
-  .income-table__col-label { width: 8% !important; min-width: 0 !important; }
-  .income-table__col-debt { width: 13% !important; min-width: 0 !important; }
-  .income-table__col-total { width: 13% !important; min-width: 0 !important; }
-  .income-table__col-type { width: 6% !important; min-width: 0 !important; }
-  .income-table__col-route { width: 6% !important; min-width: 0 !important; }
-  .income-table__col-remark { width: 10% !important; min-width: 0 !important; }
-  .income-table__col-date { width: 7% !important; min-width: 0 !important; }
-  .income-table__col-d { width: 3% !important; min-width: 0 !important; }
-  .income-table__col-m { width: 3% !important; min-width: 0 !important; }
-  .income-table__col-y { width: 4% !important; min-width: 0 !important; }
-  .income-table__col-actions { display: none !important; }
-
-  .income-table input,
-  .income-table select {
-    border: none !important;
-    background: transparent !important;
-    padding: 0 !important;
-    font-size: inherit !important;
-    color: inherit !important;
-    -webkit-appearance: none;
-    appearance: none;
-  }
-
-  .income-table-wrap {
+  /* Page-break: avoid splitting cards/charts */
+  .income-kpis, .income-kpi, .income-chart-box,
+  .income-insights-box, .income-insights__header,
+  .income-table-wrap, .income-table tr {
+    break-inside: avoid;
     page-break-inside: avoid;
-  }
-
-  /* Charts — single column, full width */
-  .income-charts__grid {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 16px;
-  }
-
-  .income-chart-box {
-    page-break-inside: avoid;
-    border: 1px solid #eee;
-    border-radius: 4px;
-    padding: 10px;
-  }
-
-  .income-chart-box__title {
-    font-size: 10pt;
-    margin: 0 0 6px 0;
-    color: #333;
-  }
-
-  .income-chart-box__canvas-wrap {
-    width: 100% !important;
-    height: 200px !important;
-  }
-
-  .income-chart-box__canvas-wrap canvas {
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  /* AI Insights */
-  .income-insights-box {
-    page-break-inside: avoid;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    margin-top: 12px;
-  }
-
-  .income-insights-box__title {
-    font-size: 12pt;
-    margin: 0 0 6px 0;
-    color: #333;
-  }
-
-  .income-insights-box__content {
-    font-size: 8pt;
-    line-height: 1.5;
   }
 }
