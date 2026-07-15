@@ -69,6 +69,7 @@ def insert_internal_links():
 
         # 2. Append [[internal_links]] to front matter only
         # Body links are the writer's responsibility (embedded naturally in text)
+        fm_block = ""
         for ref_val, title in to_add:
             safe_title = title.replace('"', '\\"')
             fm_block += f'\n[[internal_links]]\nref = "{ref_val}"\ntitle = "{safe_title}"\n'
