@@ -1,0 +1,190 @@
+{{ define "seo" }}
+<title>Từ vựng tiếng Hàn chuyên ngành — Review Chân Thật</title>
+<meta name="description" content="Sổ từ vựng tiếng Hàn chuyên ngành — nhập tay / Excel, dashboard theo dõi đã học thuộc.">
+<meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+{{ define "main" }}
+{{ $css := resources.Get "css/korean-vocab.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+<article class="kv" id="kvAppRoot">
+  <div class="kv-hero">
+    <p class="kv-hero__kicker">Korean Specialized Vocabulary</p>
+    <h1 class="kv-hero__title">🇰🇷 Từ vựng tiếng Hàn chuyên ngành</h1>
+    <p class="kv-hero__sub">Nhập từ · Import Excel · Dashboard tick đã học thuộc. Lưu vĩnh viễn qua GitHub token (cùng logic Movie Calendar / Visa Promo).</p>
+  </div>
+
+  <!-- Access gate -->
+  <div class="kv-gate" id="kvGate">
+    <div class="kv-gate__card">
+      <div class="kv-gate__icon">🔐</div>
+      <h2 class="kv-gate__heading">Korean Vocab Access</h2>
+      <p class="kv-gate__desc">Nhập mã 4 số (cùng mã Author / Movie Calendar) để mở sổ từ vựng chuyên ngành.</p>
+      <div class="kv-gate__form">
+        <input type="password" id="kvGateInput" class="kv-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="••••" aria-label="Mã truy cập">
+        <button type="button" class="kv-gate__unlock" id="kvGateUnlock">Unlock</button>
+      </div>
+      <p class="kv-gate__error" id="kvGateError" aria-live="polite"></p>
+      <p class="kv-gate__hint">Dùng lại mã truy cập của mục Author trong About.</p>
+    </div>
+  </div>
+
+  <div class="kv-app" id="kvApp" style="display:none" hidden>
+    <header class="kv-toolbar">
+      <div class="kv-tabs" role="tablist">
+        <button type="button" class="kv-tabs__btn is-active" data-tab="input" role="tab">1. Input</button>
+        <button type="button" class="kv-tabs__btn" data-tab="dashboard" role="tab">2. Dashboard</button>
+      </div>
+      <div class="kv-toolbar__actions">
+        <span class="kv-sync" id="kvSyncLabel">Chưa đồng bộ</span>
+        <button type="button" class="kv-btn" id="kvTokenBtn" title="GitHub token">🔑 Token</button>
+        <button type="button" class="kv-btn kv-btn--primary" id="kvSaveBtn">💾 Save to GitHub</button>
+        <button type="button" class="kv-btn" id="kvLogoutBtn">Đăng xuất</button>
+      </div>
+    </header>
+
+    <div class="kv-progress" id="kvProgress" hidden>
+      <div class="kv-progress__track"><div class="kv-progress__fill" id="kvProgressFill"></div></div>
+      <div class="kv-progress__text" id="kvProgressText">Đang lưu…</div>
+      <div class="kv-progress__sha" id="kvProgressSha"></div>
+    </div>
+
+    <!-- 1. INPUT -->
+    <section class="kv-panel is-active" id="kvTabInput" data-panel="input">
+      <div class="kv-io">
+        <div class="kv-io__head">
+          <h2 class="kv-section-title">Excel Import / Export</h2>
+          <p class="kv-muted">Tải mẫu Excel → điền Tiếng Hàn | Tiếng Việt | Tiếng Anh | Lĩnh vực | Ghi chú → import nhanh. Lưu lên GitHub bằng token.</p>
+        </div>
+        <div class="kv-io__actions">
+          <button type="button" class="kv-btn kv-btn--primary" id="kvDownloadTemplate">📥 Download Excel Template</button>
+          <button type="button" class="kv-btn" id="kvImportBtn">📤 Import Excel/CSV</button>
+          <button type="button" class="kv-btn" id="kvExportDataBtn">📄 Export Current Data</button>
+          <button type="button" class="kv-btn kv-btn--primary" id="kvAddBtn">＋ Thêm từ mới</button>
+          <button type="button" class="kv-btn" id="kvBackupBtn">Backup JSON</button>
+          <button type="button" class="kv-btn" id="kvRestoreBtn">Restore</button>
+          <input type="file" id="kvImportFile" accept=".xlsx,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>
+          <input type="file" id="kvRestoreFile" accept=".json,application/json" hidden>
+        </div>
+        <div class="kv-drop" id="kvDrop" tabindex="0">
+          <p><strong>Kéo &amp; thả</strong> .xlsx / .csv vào đây</p>
+          <p class="kv-muted">Preview + validate trước khi ghi</p>
+        </div>
+        <div class="kv-status" id="kvIoStatus" hidden aria-live="polite"></div>
+      </div>
+
+      <div class="kv-form-card" id="kvFormPanel" hidden>
+        <h3 class="kv-section-title" id="kvFormTitle">Thêm từ vựng</h3>
+        <form id="kvForm" class="kv-form" novalidate>
+          <input type="hidden" id="kvFieldId">
+          <div class="kv-form__grid">
+            <label>Tiếng Hàn *<input id="kvFieldKo" type="text" required placeholder="예: 계약서" lang="ko"></label>
+            <label>Tiếng Việt *<input id="kvFieldVi" type="text" required placeholder="Hợp đồng"></label>
+            <label>Tiếng Anh<input id="kvFieldEn" type="text" placeholder="Contract" lang="en"></label>
+            <label>Lĩnh vực
+              <input id="kvFieldField" type="text" list="kvFieldList" placeholder="Pháp lý / Y tế / IT / Kinh tế…">
+              <datalist id="kvFieldList">
+                <option value="Pháp lý">
+                <option value="Y tế">
+                <option value="IT / Công nghệ">
+                <option value="Kinh tế / Tài chính">
+                <option value="Kinh doanh">
+                <option value="Du lịch">
+                <option value="Giáo dục">
+                <option value="Kỹ thuật">
+                <option value="Marketing">
+                <option value="Khác">
+              </datalist>
+            </label>
+            <label class="kv-form__full">Ghi chú<textarea id="kvFieldNotes" rows="3" placeholder="Ví dụ câu, cách dùng, mức độ ưu tiên…"></textarea></label>
+            <label class="kv-check-label"><input type="checkbox" id="kvFieldLearned"> Đã học thuộc</label>
+          </div>
+          <div class="kv-form__actions">
+            <button type="submit" class="kv-btn kv-btn--primary" id="kvFormSave">Lưu từ</button>
+            <button type="button" class="kv-btn" id="kvFormCancel">Hủy</button>
+            <button type="button" class="kv-btn kv-btn--danger" id="kvFormDelete" hidden>Xóa</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Import preview modal -->
+      <div class="kv-modal" id="kvImportModal" hidden>
+        <div class="kv-modal__card">
+          <h3 class="kv-section-title">Preview import</h3>
+          <div class="kv-modal__modes">
+            <label><input type="radio" name="kvImportMode" value="append" checked> Append</label>
+            <label><input type="radio" name="kvImportMode" value="replace"> Replace all</label>
+            <label><input type="radio" name="kvImportMode" value="update"> Update existing (match Hàn+Việt)</label>
+          </div>
+          <div class="kv-table-wrap kv-table-wrap--modal">
+            <table class="kv-table">
+              <thead>
+                <tr>
+                  <th>Tiếng Hàn</th>
+                  <th>Tiếng Việt</th>
+                  <th>Tiếng Anh</th>
+                  <th>Lĩnh vực</th>
+                  <th>Ghi chú</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="kvImportBody"></tbody>
+            </table>
+          </div>
+          <pre class="kv-modal__report" id="kvImportReport"></pre>
+          <div class="kv-form__actions">
+            <button type="button" class="kv-btn" id="kvImportCancel">Cancel</button>
+            <button type="button" class="kv-btn kv-btn--primary" id="kvImportConfirm">Confirm import</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. DASHBOARD -->
+    <section class="kv-panel" id="kvTabDashboard" data-panel="dashboard" hidden>
+      <div class="kv-kpis" id="kvKpis"></div>
+
+      <div class="kv-filters">
+        <input type="search" id="kvSearch" class="kv-input" placeholder="Tìm Hàn / Việt / Anh / lĩnh vực / ghi chú…" aria-label="Search">
+        <select id="kvFilterField" class="kv-select"><option value="">Lĩnh vực: Tất cả</option></select>
+        <select id="kvFilterLearned" class="kv-select">
+          <option value="">Học thuộc: Tất cả</option>
+          <option value="yes">Đã học thuộc</option>
+          <option value="no">Chưa học thuộc</option>
+        </select>
+        <button type="button" class="kv-btn kv-btn--small" id="kvClearFilters">Xóa lọc</button>
+      </div>
+
+      <div class="kv-section-head">
+        <h2 class="kv-section-title">Bảng từ vựng</h2>
+        <div class="kv-section-actions">
+          <button type="button" class="kv-btn kv-btn--small" id="kvExportCsvDash">CSV</button>
+          <button type="button" class="kv-btn kv-btn--small" id="kvExportXlsxDash">Excel</button>
+        </div>
+      </div>
+
+      <div class="kv-table-wrap">
+        <table class="kv-table" id="kvDashTable">
+          <thead>
+            <tr>
+              <th>Tiếng Hàn</th>
+              <th>Tiếng Việt</th>
+              <th>Tiếng Anh</th>
+              <th>Lĩnh vực</th>
+              <th>Ghi chú</th>
+              <th class="kv-col-learned">Đã học thuộc</th>
+            </tr>
+          </thead>
+          <tbody id="kvDashBody"></tbody>
+        </table>
+      </div>
+      <p class="kv-empty" id="kvDashEmpty">Chưa có từ vựng. Vào <strong>1. Input</strong> để thêm hoặc import Excel.</p>
+    </section>
+  </div>
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.min.js" defer></script>
+{{ $js := resources.Get "js/korean-vocab.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
