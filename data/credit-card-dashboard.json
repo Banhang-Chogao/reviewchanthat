@@ -1,7 +1,32 @@
 {
   "version": 2,
-  "cards": [],
+  "cards": [
+    {
+      "id": "mrmaul84766enigu",
+      "cardName": "HSBC Live+",
+      "bank": "HSBC",
+      "cardType": "Visa",
+      "creditLimit": 68900000,
+      "outstandingBalance": 61439736,
+      "statementDate": "2026-07-07",
+      "dueDate": "2026-08-01",
+      "minimumPayment": 3643527,
+      "interestRate": 38.9,
+      "annualFee": 800000,
+      "rewardsType": "Cashback",
+      "cashbackPercent": 8,
+      "rewardPoints": 38.15,
+      "foreignTxnFee": 3.5,
+      "installmentBalance": 0,
+      "monthlyInstallment": 0,
+      "cardStatus": "Active",
+      "notes": "Mẫu — thẻ chính trả lương",
+      "archived": false,
+      "createdAt": "2026-07-15T16:33:32.404Z",
+      "updatedAt": "2026-07-15T16:33:32.404Z"
+    }
+  ],
   "promotions": [],
-  "updatedAt": "2026-07-15T16:32:16.773Z",
-  "savedAt": "2026-07-15T16:32:16.773Z"
+  "updatedAt": "2026-07-15T16:33:35.956Z",
+  "savedAt": "2026-07-15T16:33:35.956Z"
 }
