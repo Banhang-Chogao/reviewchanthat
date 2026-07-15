@@ -3,6 +3,7 @@
 .mh-app{max-width:1200px;margin:0 auto;padding:0 1rem 2rem}
 /* Excel Import / Export panel */
 .mh-io{background:var(--surface,#fff);border:1px solid var(--border,#e0e0e0);border-radius:var(--mh-radius-lg);padding:1.1rem 1.2rem 1.15rem;margin-bottom:1rem;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.mh-io[hidden]{display:none!important}
 .mh-io__head{margin-bottom:.75rem}
 .mh-io__title{margin:0 0 .2rem;font-size:1.02rem;font-weight:800;color:var(--text,#111)}
 .mh-io__desc{margin:0;font-size:.82rem;color:var(--muted,#888);line-height:1.45}

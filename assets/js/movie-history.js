@@ -90,7 +90,7 @@ function formatDate(d){var days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];retu
 function es(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
 // Sau khi lưu: không scroll, không bung UI — chỉ toast progress bar (fixed)
 function hSC(){}
-function lV(){var UI='cinematic-3';var BASE=(document.body&&document.body.getAttribute('data-site-base'))||'';fetch(BASE.replace(/\/$/,'')+'/build-info.json').then(function(r){if(!r.ok)return null;return r.json()})['catch'](function(){return null}).then(function(info){var el=document.getElementById('mhVersionBadge');if(!el)return;if(!info){el.textContent='Phiên bản dịch vụ: dev ('+UI+')';return}el.textContent='Phiên bản dịch vụ: '+info.generated_at_display.replace(' ','-'+info.short_sha+'_')+' · '+UI})}
+function lV(){var UI='excel-io-1';var BASE=(document.body&&document.body.getAttribute('data-site-base'))||'';fetch(BASE.replace(/\/$/,'')+'/build-info.json').then(function(r){if(!r.ok)return null;return r.json()})['catch'](function(){return null}).then(function(info){var el=document.getElementById('mhVersionBadge');if(!el)return;if(!info){el.textContent='Phiên bản dịch vụ: dev ('+UI+')';return}el.textContent='Phiên bản dịch vụ: '+info.generated_at_display.replace(' ','-'+info.short_sha+'_')+' · '+UI})}
 
 function exportMovies(){var json=JSON.stringify(S.movies,null,2);var blob=new Blob([json],{type:'application/json'});var url=URL.createObjectURL(blob);var a=document.createElement('a');a.href=url;a.download='movie-calendar-'+getISODate(new Date())+'.json';a.click();URL.revokeObjectURL(url)}
 
@@ -783,5 +783,5 @@ function initMovieExcelIO() {
   });
 }
 
-iG();lV();initMovieExcelIO();
+iG();lV();initUxExtras();initMovieExcelIO();
 })();

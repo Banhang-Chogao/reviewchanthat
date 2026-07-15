@@ -10,14 +10,14 @@
     <div class="movie-history__hero-glow" aria-hidden="true"></div>
     <p class="movie-history__hero-kicker">Personal cinema schedule</p>
     <h1 class="movie-history__hero-title">🎬 Movie Calendar</h1>
-    <p class="movie-history__hero-subtitle">Lịch chiếu của bạn — countdown, ticket, favorites &amp; year in review.</p>
+    <p class="movie-history__hero-subtitle">Lịch chiếu của bạn — countdown, ticket, favorites &amp; year in review. Hỗ trợ tải Excel template → điền offline → import nhanh.</p>
   </div>
 
   <div class="mh-gate" id="mhGate">
     <div class="mh-gate__card">
       <div class="mh-gate__icon">🔐</div>
       <h2 class="mh-gate__heading">Movie Calendar Access</h2>
-      <p class="mh-gate__desc">Enter your 4-digit code to access your movie calendar.</p>
+      <p class="mh-gate__desc">Enter your 4-digit code to access your movie calendar (Add Movie + Excel import).</p>
       <div class="mh-gate__form">
         <input type="password" id="mhGateInput" class="mh-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="Code">
         <button class="mh-gate__unlock" id="mhGateUnlock">Unlock</button>
@@ -48,7 +48,7 @@
         </div>
         <button class="mh-btn mh-btn--subtle" id="mhTokenBtn" title="Set GitHub token">🔑</button>
         <button class="mh-btn mh-btn--subtle" id="mhExportBtn" title="Export JSON">📥</button>
-        <button class="mh-btn mh-btn--subtle" id="mhIoToggle" title="Excel import/export" aria-expanded="false">📊 Excel</button>
+        <button class="mh-btn mh-btn--subtle" id="mhIoToggle" title="Ẩn/hiện panel Excel" aria-expanded="true" aria-controls="mhIoPanel">📊 Excel</button>
       </div>
     </div>
 
@@ -64,11 +64,11 @@
       <button type="button" class="mh-nextup__cta" id="mhNextUpOpen">Open</button>
     </div>
 
-    <!-- Excel Import / Export (collapsed by default) -->
-    <div class="mh-io" id="mhIoPanel" aria-label="Import Export Excel" hidden>
+    <!-- Excel Import / Export — always visible after unlock (toggle only collapses) -->
+    <div class="mh-io" id="mhIoPanel" aria-label="Import Export Excel">
       <div class="mh-io__head">
-        <h3 class="mh-io__title">Import / Export Excel</h3>
-        <p class="mh-io__desc">Tải template chính thức, điền offline, import một click. Form ＋ Add Movie vẫn dùng bình thường.</p>
+        <h3 class="mh-io__title">📊 Import / Export Excel</h3>
+        <p class="mh-io__desc">1) Tải template → 2) Điền dữ liệu offline (cột Movie Title * và Watch Date * bắt buộc) → 3) Import Excel hoặc kéo thả file .xlsx. Form ＋ Add Movie vẫn dùng bình thường.</p>
       </div>
       <div class="mh-io__actions">
         <button type="button" class="mh-io__btn mh-io__btn--template" id="mhDownloadTemplate">📥 Download Excel Template</button>
