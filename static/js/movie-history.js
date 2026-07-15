@@ -94,7 +94,7 @@ function formatDate(d){var days=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];retu
 function es(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
 // Sau khi lưu: không scroll, không bung UI — chỉ toast progress bar (fixed)
 function hSC(){}
-function lV(){var UI='cal-day-10';var BASE=(document.body&&document.body.getAttribute('data-site-base'))||'';fetch(BASE.replace(/\/$/,'')+'/build-info.json').then(function(r){if(!r.ok)return null;return r.json()})['catch'](function(){return null}).then(function(info){var el=document.getElementById('mhVersionBadge');if(!el)return;if(!info){el.textContent='Phiên bản dịch vụ: dev ('+UI+')';return}el.textContent='Phiên bản dịch vụ: '+info.generated_at_display.replace(' ','-'+info.short_sha+'_')+' · '+UI})}
+function lV(){var UI='import-fix-1';var BASE=(document.body&&document.body.getAttribute('data-site-base'))||'';fetch(BASE.replace(/\/$/,'')+'/build-info.json').then(function(r){if(!r.ok)return null;return r.json()})['catch'](function(){return null}).then(function(info){var el=document.getElementById('mhVersionBadge');if(!el)return;if(!info){el.textContent='Phiên bản dịch vụ: dev ('+UI+')';return}el.textContent='Phiên bản dịch vụ: '+info.generated_at_display.replace(' ','-'+info.short_sha+'_')+' · '+UI})}
 
 function exportMovies(){var json=JSON.stringify(S.movies,null,2);var blob=new Blob([json],{type:'application/json'});var url=URL.createObjectURL(blob);var a=document.createElement('a');a.href=url;a.download='movie-calendar-'+getISODate(new Date())+'.json';a.click();URL.revokeObjectURL(url)}
 
@@ -613,7 +613,7 @@ function mhConfirmImport() {
   var mode = modeEl ? modeEl.value : 'append';
   var nValid = pendingMhImport.valid.length;
   var nInvalid = pendingMhImport.invalid.length;
-  var nUpdate = 0, nCreate = 0;
+  var nUpdate = 0, nCreate = 0, nDayDropped = 0;
 
   var cleaned = pendingMhImport.valid.map(function (m) {
     var c = JSON.parse(JSON.stringify(m));
@@ -647,17 +647,22 @@ function mhConfirmImport() {
     S.movies = Object.keys(byKey).map(function (k) { return byKey[k]; });
   }
 
-  var dayCap = enforceMaxMoviesPerDay(S.movies, MAX_MOVIES_PER_DAY);
-  nDayDropped = dayCap.dropped.length;
-  if (nDayDropped) {
-    S.movies = dayCap.movies;
-    // Adjust create count roughly when rows dropped
-    nCreate = Math.max(0, nCreate - nDayDropped);
+  try {
+    var dayCap = enforceMaxMoviesPerDay(S.movies, MAX_MOVIES_PER_DAY);
+    nDayDropped = (dayCap && dayCap.dropped) ? dayCap.dropped.length : 0;
+    if (nDayDropped) {
+      S.movies = dayCap.movies;
+      nCreate = Math.max(0, nCreate - nDayDropped);
+    }
+  } catch (capErr) {
+    console.error('dayCap', capErr);
+    nDayDropped = 0;
   }
 
+  // Always close modal + refresh UI even if GitHub save fails
   mhCloseImportModal();
   mhSetProgress(true, 70, 'Đang lưu & làm mới lịch…');
-  mhRefreshAfterImport();
+  try { mhRefreshAfterImport(); } catch (rfErr) { console.error('refresh', rfErr); }
 
   var afterSave = function () {
     mhSetProgress(true, 100, 'Hoàn tất');
@@ -669,8 +674,16 @@ function mhConfirmImport() {
     }
   };
 
+  // Token missing → still keep import in session, prompt token
+  var token = (typeof getToken === 'function') ? getToken() : '';
+  if (!token) {
+    afterSave();
+    mhSetIoStatus('warn', '⚠ Đã import vào phiên này nhưng chưa có GitHub token — bấm 🔑 rồi lưu lại (Add/Edit/import).');
+    try { if (typeof sT === 'function') sT(); } catch (e) {}
+    return;
+  }
+
   saveMovies().then(afterSave)['catch'](function (err) {
-    // still keep data in memory even if GitHub save fails
     afterSave();
     mhSetIoStatus('warn', '⚠ Data imported in session; GitHub save: ' + (err.message || err) + '. Kiểm tra 🔑 token.');
   });
