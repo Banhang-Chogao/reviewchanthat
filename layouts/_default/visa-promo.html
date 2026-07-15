@@ -1,0 +1,282 @@
+{{ define "seo" }}
+<title>Visa Promo Center — Review Chân Thật</title>
+<meta name="description" content="Visa Promotion Management Center — import, verify, filter and analyze official card offers.">
+<meta name="robots" content="noindex, nofollow">
+{{ end }}
+
+{{ define "main" }}
+{{ $css := resources.Get "css/visa-promo.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+<article class="vp" id="vpAppRoot">
+  <div class="vp-hero">
+    <p class="vp-hero__kicker">Promotion Management</p>
+    <h1 class="vp-hero__title">💳 Visa Promo Center</h1>
+    <p class="vp-hero__sub">Quản lý ưu đãi thẻ — import Excel, xác minh nguồn official, dashboard &amp; gợi ý. Lưu vĩnh viễn qua GitHub token (giống Movie Calendar).</p>
+  </div>
+
+  <!-- Access gate -->
+  <div class="vp-gate" id="vpGate">
+    <div class="vp-gate__card">
+      <div class="vp-gate__icon">🔐</div>
+      <h2 class="vp-gate__heading">Visa Promo Access</h2>
+      <p class="vp-gate__desc">Nhập mã 4 số (cùng mã Author / Movie Calendar) để mở trung tâm ưu đãi.</p>
+      <div class="vp-gate__form">
+        <input type="password" id="vpGateInput" class="vp-gate__input" maxlength="4" pattern="[0-9]*" inputmode="numeric" autocomplete="off" placeholder="••••" aria-label="Mã truy cập">
+        <button type="button" class="vp-gate__unlock" id="vpGateUnlock">Unlock</button>
+      </div>
+      <p class="vp-gate__error" id="vpGateError" aria-live="polite"></p>
+      <p class="vp-gate__hint">Dùng lại mã truy cập của mục Author trong About.</p>
+    </div>
+  </div>
+
+  <div class="vp-app" id="vpApp" style="display:none" hidden>
+    <header class="vp-toolbar">
+      <div class="vp-tabs" role="tablist">
+        <button type="button" class="vp-tabs__btn is-active" data-tab="dashboard" role="tab">Dashboard</button>
+        <button type="button" class="vp-tabs__btn" data-tab="input" role="tab">Input Data</button>
+        <button type="button" class="vp-tabs__btn" data-tab="timeline" role="tab">Timeline</button>
+        <button type="button" class="vp-tabs__btn" data-tab="stats" role="tab">Statistics</button>
+        <button type="button" class="vp-tabs__btn" data-tab="insights" role="tab">AI Insights</button>
+        <button type="button" class="vp-tabs__btn" data-tab="verify" role="tab">Verification</button>
+        <button type="button" class="vp-tabs__btn" data-tab="audit" role="tab">Audit</button>
+      </div>
+      <div class="vp-toolbar__actions">
+        <span class="vp-sync" id="vpSyncLabel">Chưa đồng bộ</span>
+        <button type="button" class="vp-btn" id="vpTokenBtn" title="GitHub token">🔑 Token</button>
+        <button type="button" class="vp-btn vp-btn--primary" id="vpSaveBtn">💾 Save to GitHub</button>
+        <button type="button" class="vp-btn" id="vpLogoutBtn">Đăng xuất</button>
+      </div>
+    </header>
+
+    <div class="vp-progress" id="vpProgress" hidden>
+      <div class="vp-progress__track"><div class="vp-progress__fill" id="vpProgressFill"></div></div>
+      <div class="vp-progress__text" id="vpProgressText">Đang lưu…</div>
+      <div class="vp-progress__sha" id="vpProgressSha"></div>
+    </div>
+
+    <!-- DASHBOARD -->
+    <section class="vp-panel is-active" id="vpTabDashboard" data-panel="dashboard">
+      <div class="vp-kpis" id="vpKpis"></div>
+
+      <div class="vp-filters">
+        <input type="search" id="vpSearch" class="vp-input" placeholder="Search merchant, offer, bank, code…" aria-label="Search">
+        <select id="vpFilterBank" class="vp-select"><option value="">Bank: All</option></select>
+        <select id="vpFilterMerchant" class="vp-select"><option value="">Merchant: All</option></select>
+        <select id="vpFilterCategory" class="vp-select"><option value="">Category: All</option></select>
+        <select id="vpFilterCountry" class="vp-select"><option value="">Country: All</option></select>
+        <select id="vpFilterCard" class="vp-select"><option value="">Card: All</option></select>
+        <select id="vpFilterCardLevel" class="vp-select"><option value="">Card Level: All</option></select>
+        <select id="vpFilterType" class="vp-select"><option value="">Type: All</option></select>
+        <select id="vpFilterStatus" class="vp-select">
+          <option value="">Status: All</option>
+          <option value="Active">Active</option>
+          <option value="Featured">Featured</option>
+          <option value="Verified">Verified</option>
+          <option value="Pending">Pending</option>
+          <option value="Expired">Expired</option>
+        </select>
+        <input type="date" id="vpFilterFrom" class="vp-input" aria-label="From date">
+        <input type="date" id="vpFilterTo" class="vp-input" aria-label="To date">
+      </div>
+
+      <div class="vp-section-head">
+        <h2 class="vp-section-title">Promotion cards</h2>
+        <div class="vp-section-actions">
+          <button type="button" class="vp-btn vp-btn--small" id="vpExportCsv">CSV</button>
+          <button type="button" class="vp-btn vp-btn--small" id="vpExportXlsx">Excel</button>
+          <button type="button" class="vp-btn vp-btn--small" id="vpExportPdf">PDF / Print</button>
+        </div>
+      </div>
+      <div class="vp-cards" id="vpCards"></div>
+      <p class="vp-empty" id="vpCardsEmpty">Chưa có promotion. Vào <strong>Input Data</strong> để thêm hoặc import Excel.</p>
+
+      <div class="vp-section-head">
+        <h2 class="vp-section-title">Recommendations</h2>
+      </div>
+      <div class="vp-reco" id="vpReco"></div>
+
+      <div class="vp-section-head">
+        <h2 class="vp-section-title">Report summary</h2>
+      </div>
+      <div class="vp-report" id="vpReport"></div>
+    </section>
+
+    <!-- INPUT -->
+    <section class="vp-panel" id="vpTabInput" data-panel="input" hidden>
+      <div class="vp-io">
+        <div class="vp-io__head">
+          <h2 class="vp-section-title">Input / Import / Export</h2>
+          <p class="vp-muted">Template khớp schema. Duplicate PromotionID bị từ chối. UUID tự sinh nếu trống. Lưu lên GitHub bằng token.</p>
+        </div>
+        <div class="vp-io__actions">
+          <button type="button" class="vp-btn vp-btn--primary" id="vpDownloadTemplate">📥 Download Excel Template</button>
+          <button type="button" class="vp-btn" id="vpImportBtn">📤 Import Excel/CSV</button>
+          <button type="button" class="vp-btn" id="vpExportDataBtn">📄 Export Current Data</button>
+          <button type="button" class="vp-btn" id="vpSyncOfficialBtn" title="Chỉ đánh dấu sync metadata — không bịa offer">🔄 Sync Official Visa Offers</button>
+          <button type="button" class="vp-btn vp-btn--primary" id="vpAddPromoBtn">＋ Manual Add</button>
+          <button type="button" class="vp-btn" id="vpBackupBtn">Backup JSON</button>
+          <button type="button" class="vp-btn" id="vpRestoreBtn">Restore</button>
+          <input type="file" id="vpImportFile" accept=".xlsx,.csv,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" hidden>
+          <input type="file" id="vpRestoreFile" accept=".json,application/json" hidden>
+        </div>
+        <div class="vp-drop" id="vpDrop" tabindex="0">
+          <p><strong>Kéo &amp; thả</strong> .xlsx / .csv vào đây</p>
+          <p class="vp-muted">Preview + validate trước khi ghi</p>
+        </div>
+        <div class="vp-status" id="vpIoStatus" hidden aria-live="polite"></div>
+      </div>
+
+      <div class="vp-form-card" id="vpFormPanel" hidden>
+        <h3 class="vp-section-title" id="vpFormTitle">Thêm promotion</h3>
+        <form id="vpForm" class="vp-form" novalidate>
+          <input type="hidden" id="vpFieldInternalId">
+          <div class="vp-form__grid">
+            <label>Promotion ID<input id="vpFieldId" type="text" placeholder="auto UUID nếu trống"></label>
+            <label>Bank *<input id="vpFieldBank" type="text" list="vpBankList" required></label>
+            <datalist id="vpBankList"><option value="HSBC"><option value="Vietcombank"><option value="Techcombank"><option value="VPBank"><option value="TPBank"><option value="MB Bank"></datalist>
+            <label>Card<input id="vpFieldCard" type="text" placeholder="Live+"></label>
+            <label>Card Level
+              <select id="vpFieldCardLevel"><option value="">—</option><option>Classic</option><option>Gold</option><option>Platinum</option><option>Signature</option><option>Infinite</option><option>World</option></select>
+            </label>
+            <label>Merchant *<input id="vpFieldMerchant" type="text" required></label>
+            <label>Merchant Category
+              <select id="vpFieldCategory">
+                <option>Dining</option><option>Travel</option><option>Shopping</option><option>Entertainment</option>
+                <option>Coffee</option><option>Hotel</option><option>Electronics</option><option>Lifestyle</option><option>Other</option>
+              </select>
+            </label>
+            <label>Promotion Type
+              <select id="vpFieldType"><option>Cashback</option><option>Discount</option><option>Installment</option><option>Voucher</option><option>Miles</option><option>Gift</option></select>
+            </label>
+            <label class="vp-form__full">Offer Title *<input id="vpFieldTitle" type="text" required></label>
+            <label class="vp-form__full">Short Description<textarea id="vpFieldDesc" rows="2"></textarea></label>
+            <label>Discount Type<select id="vpFieldDiscType"><option>Percent</option><option>Fixed</option><option>Other</option></select></label>
+            <label>Discount Value<input id="vpFieldDiscValue" type="number" min="0" step="0.01"></label>
+            <label>Cashback Cap<input id="vpFieldCap" type="text" inputmode="decimal"></label>
+            <label>Minimum Spend<input id="vpFieldMinSpend" type="text" inputmode="decimal"></label>
+            <label>Installment Months<input id="vpFieldMonths" type="number" min="0" step="1"></label>
+            <label>Eligible Cards<input id="vpFieldEligible" type="text" placeholder="Visa Platinum, Signature"></label>
+            <label>Country<input id="vpFieldCountry" type="text" value="Vietnam"></label>
+            <label>City<input id="vpFieldCity" type="text"></label>
+            <label>Start Date *<input id="vpFieldStart" type="date" required></label>
+            <label>End Date *<input id="vpFieldEnd" type="date" required></label>
+            <label>Promo Code<input id="vpFieldCode" type="text"></label>
+            <label class="vp-form__full">Apply URL (HTTPS official only)<input id="vpFieldUrl" type="url" placeholder="https://www.visa.com.vn/…"></label>
+            <label class="vp-form__full">Official Source<input id="vpFieldSource" type="text" placeholder="Visa Offers & Perks / Issuer page"></label>
+            <label class="vp-form__full">Terms<textarea id="vpFieldTerms" rows="2"></textarea></label>
+            <label>Priority<input id="vpFieldPriority" type="number" value="50"></label>
+            <label>Featured<select id="vpFieldFeatured"><option value="false">No</option><option value="true">Yes</option></select></label>
+            <label>Status<select id="vpFieldStatus"><option>Active</option><option>Pending</option><option>Verified</option><option>Expired</option><option>Draft</option></select></label>
+            <label>Logo URL<input id="vpFieldLogo" type="url"></label>
+            <label>Banner URL<input id="vpFieldBanner" type="url"></label>
+          </div>
+          <p class="vp-form__error" id="vpFormError" aria-live="polite"></p>
+          <div class="vp-form__actions">
+            <button type="submit" class="vp-btn vp-btn--primary">💾 Lưu promotion</button>
+            <button type="button" class="vp-btn" id="vpFormCancel">Huỷ</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="vp-table-wrap">
+        <table class="vp-table" id="vpTable">
+          <thead>
+            <tr>
+              <th>ID</th><th>Bank</th><th>Merchant</th><th>Offer</th><th>Type</th><th>Valid</th><th>Status</th><th>Verified</th><th></th>
+            </tr>
+          </thead>
+          <tbody id="vpTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="vp-panel" id="vpTabTimeline" data-panel="timeline" hidden>
+      <div class="vp-timeline-grid">
+        <div class="vp-tl-col"><h3>Starting Soon</h3><div id="vpTlStart"></div></div>
+        <div class="vp-tl-col"><h3>Ending Soon</h3><div id="vpTlEnd"></div></div>
+        <div class="vp-tl-col"><h3>Expired</h3><div id="vpTlExpired"></div></div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="vp-panel" id="vpTabStats" data-panel="stats" hidden>
+      <div class="vp-charts">
+        <div class="vp-chart-box"><h3>Category distribution</h3><div class="vp-chart-box__canvas"><canvas id="vpChartCat"></canvas></div></div>
+        <div class="vp-chart-box"><h3>Bank distribution</h3><div class="vp-chart-box__canvas"><canvas id="vpChartBank"></canvas></div></div>
+        <div class="vp-chart-box vp-chart-box--wide"><h3>Promotion trend</h3><div class="vp-chart-box__canvas"><canvas id="vpChartTrend"></canvas></div></div>
+        <div class="vp-chart-box vp-chart-box--wide"><h3>Density by month</h3><div class="vp-heatmap" id="vpHeatmap"></div></div>
+      </div>
+    </section>
+
+    <!-- INSIGHTS -->
+    <section class="vp-panel" id="vpTabInsights" data-panel="insights" hidden>
+      <div class="vp-insights" id="vpInsights"></div>
+    </section>
+
+    <!-- VERIFY -->
+    <section class="vp-panel" id="vpTabVerify" data-panel="verify" hidden>
+      <p class="vp-muted">Chỉ chấp nhận URL HTTPS official (visa.com, visa.com.vn, hsbc.com.vn, issuer/merchant domains). Không bịa promotion. Sync Official chỉ cập nhật metadata verified từ dataset hiện có + ghi audit — không crawl giả.</p>
+      <div class="vp-table-wrap">
+        <table class="vp-table">
+          <thead><tr><th>Promotion</th><th>Official Source</th><th>Status</th><th>Last Verified</th><th>Source URL</th><th></th></tr></thead>
+          <tbody id="vpVerifyBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- AUDIT -->
+    <section class="vp-panel" id="vpTabAudit" data-panel="audit" hidden>
+      <div class="vp-audit" id="vpAuditLog"></div>
+    </section>
+  </div>
+
+  <!-- Detail drawer -->
+  <div class="vp-drawer" id="vpDrawer" hidden>
+    <div class="vp-drawer__backdrop" id="vpDrawerBackdrop"></div>
+    <aside class="vp-drawer__panel" role="dialog" aria-modal="true" aria-labelledby="vpDrawerTitle">
+      <button type="button" class="vp-drawer__close" id="vpDrawerClose" aria-label="Close">✕</button>
+      <div class="vp-drawer__banner" id="vpDrawerBanner"></div>
+      <div class="vp-drawer__body">
+        <p class="vp-drawer__badges" id="vpDrawerBadges"></p>
+        <h2 id="vpDrawerTitle" class="vp-drawer__title"></h2>
+        <p class="vp-drawer__countdown" id="vpDrawerCountdown"></p>
+        <p class="vp-drawer__desc" id="vpDrawerDesc"></p>
+        <div class="vp-drawer__meta" id="vpDrawerMeta"></div>
+        <p class="vp-drawer__terms" id="vpDrawerTerms"></p>
+        <a class="vp-btn vp-btn--primary" id="vpDrawerLink" href="#" target="_blank" rel="noopener noreferrer">Open official link</a>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Import preview modal -->
+  <div class="vp-modal" id="vpImportModal" hidden>
+    <div class="vp-modal__backdrop" id="vpImportBackdrop"></div>
+    <div class="vp-modal__card">
+      <div class="vp-modal__head">
+        <h3>Import preview</h3>
+        <button type="button" class="vp-drawer__close" id="vpImportClose">✕</button>
+      </div>
+      <p id="vpImportSummary" class="vp-muted"></p>
+      <div class="vp-modal__modes">
+        <label><input type="radio" name="vpImportMode" value="append" checked> Append</label>
+        <label><input type="radio" name="vpImportMode" value="replace"> Replace all</label>
+      </div>
+      <div class="vp-table-wrap vp-table-wrap--modal">
+        <table class="vp-table"><thead id="vpImportHead"></thead><tbody id="vpImportBody"></tbody></table>
+      </div>
+      <pre class="vp-modal__report" id="vpImportReport"></pre>
+      <div class="vp-form__actions">
+        <button type="button" class="vp-btn" id="vpImportCancel">Cancel</button>
+        <button type="button" class="vp-btn vp-btn--primary" id="vpImportConfirm">Confirm import</button>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.min.js" defer></script>
+{{ $js := resources.Get "js/visa-promo.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
