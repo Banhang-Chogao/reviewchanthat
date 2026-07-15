@@ -11,6 +11,8 @@ Checks:
 Usage:
   python scripts/qa_dates.py
   python scripts/qa_dates.py --fix-obvious
+  python scripts/qa_dates.py --post content/posts/<slug>.md
+  python scripts/qa_dates.py --post a.md --post b.md --fix-obvious
 """
 
 from __future__ import annotations
@@ -142,12 +144,38 @@ def fix_obvious_issues(files: list[Path]) -> tuple[int, list[str]]:
     return fixed, log
 
 
+def _resolve_files(posts: list[str] | None) -> list[Path]:
+    if not posts:
+        return sorted(CONTENT_DIR.rglob("*.md"))
+    out: list[Path] = []
+    for p in posts:
+        path = Path(p)
+        if not path.is_absolute():
+            path = (REPO_ROOT / path).resolve()
+        if not path.exists():
+            alt = CONTENT_DIR / path.name
+            if alt.exists():
+                path = alt
+            else:
+                print(f"qa_dates: post not found: {p}", file=sys.stderr)
+                raise SystemExit(2)
+        out.append(path)
+    return out
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate post dates")
     parser.add_argument("--fix-obvious", action="store_true", help="Fix obvious date format issues")
+    parser.add_argument(
+        "--post",
+        action="append",
+        dest="posts",
+        metavar="PATH",
+        help="Chỉ check/fix post này (lặp lại được). Ưu tiên khi commit/merge theo scope.",
+    )
     args = parser.parse_args()
 
-    files = sorted(CONTENT_DIR.rglob("*.md"))
+    files = _resolve_files(args.posts)
     if not files:
         print("No markdown files found in content/posts/", file=sys.stderr)
         return 1

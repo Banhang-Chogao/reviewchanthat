@@ -108,8 +108,18 @@ if [ "$POSTS_WITH_HASH" -eq "$TOTAL_POSTS" ]; then
 else
     warn "Only $POSTS_WITH_HASH/$TOTAL_POSTS posts have commit hashes"
     if [ "$1" == "--fix" ]; then
-        info "Running add_commit_id.py..."
-        python3 scripts/add_commit_id.py
+        # Prefer SCOPE_POSTS="content/posts/a.md content/posts/b.md" when set (fast).
+        # Full-tree only as last resort (slow on ~400 posts).
+        if [ -n "${SCOPE_POSTS:-}" ]; then
+            info "Running add_commit_id.py (SCOPE_POSTS)..."
+            post_args=()
+            for p in $SCOPE_POSTS; do post_args+=(--post "$p"); done
+            python3 scripts/add_commit_id.py "${post_args[@]}"
+        else
+            warn "SCOPE_POSTS unset → add_commit_id.py --all (slow). Export SCOPE_POSTS for scope-only."
+            info "Running add_commit_id.py --all..."
+            python3 scripts/add_commit_id.py --all
+        fi
         pass "Commit hashes added"
     fi
 fi

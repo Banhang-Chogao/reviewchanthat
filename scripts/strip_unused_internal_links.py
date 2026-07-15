@@ -127,13 +127,37 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Strip unused [[internal_links]] from front matter")
     parser.add_argument("--write", action="store_true", help="Actually fix files")
     parser.add_argument("--dry-run", action="store_true", help="Scan only, no changes")
+    parser.add_argument(
+        "--post",
+        action="append",
+        dest="posts",
+        metavar="PATH",
+        help="Chỉ xử lý post này (lặp lại được). Ưu tiên khi commit/merge theo scope.",
+    )
     args = parser.parse_args()
 
     total_links = 0
     total_removed = 0
     fixed_posts = 0
 
-    for f in sorted(POSTS_DIR.glob("*.md")):
+    if args.posts:
+        files = []
+        for p in args.posts:
+            path = Path(p)
+            if not path.is_absolute():
+                path = (REPO_ROOT / path).resolve()
+            if not path.exists():
+                alt = POSTS_DIR / Path(p).name
+                if alt.exists():
+                    path = alt
+                else:
+                    print(f"ERROR: post not found: {p}", file=sys.stderr)
+                    return 2
+            files.append(path)
+    else:
+        files = sorted(POSTS_DIR.glob("*.md"))
+
+    for f in files:
         t, r = process_file(f, dry_run=args.dry_run)
         if r > 0:
             fixed_posts += 1

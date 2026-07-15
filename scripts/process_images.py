@@ -401,6 +401,13 @@ def main():
     parser = argparse.ArgumentParser(description="Download and process verified Pexels/Pixabay stock images")
     parser.add_argument("--force", action="store_true", help="Re-download and reprocess existing images")
     parser.add_argument("--skip-watermark", action="store_true", help="Skip adding watermark attribution")
+    parser.add_argument(
+        "--slug",
+        action="append",
+        dest="slugs",
+        metavar="SLUG",
+        help="Chỉ process slug này (lặp lại được). Ưu tiên khi commit/merge theo scope.",
+    )
     args = parser.parse_args()
 
     print("=== Image Processing (verified API images) ===")
@@ -408,9 +415,14 @@ def main():
     success = 0
     skipped = 0
     failed = 0
+    slug_filter = set(args.slugs) if args.slugs else None
+    if slug_filter:
+        print(f"  Scope: {', '.join(sorted(slug_filter))}")
 
     for entry in manifest.get("posts", []):
         slug = entry["slug"]
+        if slug_filter is not None and slug not in slug_filter:
+            continue
         direct_url = entry.get("direct_url", "")
         src_path = entry.get("local_source_path", f"static/images/posts-src/{slug}.jpg")
         dest_path = entry.get("output_path", f"static/images/posts/{slug}.webp")

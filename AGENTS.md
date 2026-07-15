@@ -18,8 +18,8 @@
 - Sau khi viết xong một bài blog (trên bất kỳ branch nào), phải chạy ngay `source .env && python3 scripts/select_images.py --post content/posts/<slug>.md --fix` để chọn ảnh từ Pexels/Pixabay API. Sau đó chạy script process/xử lý WebP, force-add file ảnh, cập nhật manifest. Không được bỏ qua bước này.
 - **CRITICAL: COMMIT ID là MANDATORY cho MỌI bài viết. KHÔNG được bỏ qua dưới bất kỳ hình thức nào.**
   - **Quy tắc:** Mỗi post trong `content/posts/` phải có `commit = "xxxxxxx"` (7-ký-tự SHA). Không có ngoại lệ, không có post nào được phép thiếu commit ID.
-  - **Bắt buộc sau mỗi bài mới:** Ngay sau khi viết xong bài → commit → chạy `python3 scripts/add_commit_id.py` trước khi push.
-  - **Kiểm tra pre-deploy:** `grep "^commit = \"\"" content/posts/*.md | wc -l` phải = 0 (không post nào có commit trống). Nếu != 0, REJECT push, chạy `add_commit_id.py`, commit lại.
+  - **Bắt buộc sau mỗi bài mới (SCOPE ONLY):** Ngay sau khi viết xong bài → commit → chạy `python3 scripts/add_commit_id.py --post content/posts/<slug>.md` (lặp `--post` nếu nhiều slug) **trước khi push**. **CẤM** chạy không có `--post` (full-tree ~400 post, rất chậm, đụng file ngoài scope).
+  - **Kiểm tra pre-deploy (theo scope):** `grep '^commit = ""' content/posts/<slug>.md` trên từng slug trong diff — không `grep content/posts/*.md` toàn repo trừ khi debt-fix.
   - **Xử phạt:** Nếu push bài không có commit ID, deploy-doctor sẽ detect + tự động fix, tạo PR → nhân biết lỗi.
   - **Format:** TOML syntax: `commit = "abc123f"` (dấu `=`, có dấu ngoặc). Không bao giờ dùng YAML `commit: abc123f`.
 
@@ -29,7 +29,7 @@
   1. **Rate limit (429) → ĐỔI SOURCE.** Ta có **2 API** (Pexels + Pixabay). Nếu một provider bị rate limit, tự động chuyển sang provider còn lại; không dừng lại, không fail vội. Chỉ khi **cả hai** đều rate limit thì back off và retry sau (deploy FIFO, cách nhau ≥30s).
   2. **Tìm mãi vẫn không có ảnh hợp lệ → CHẤP NHẬN bài không ảnh (text-first).** KHÔNG bịa/fake/placeholder/self-generated ảnh. Bài không ảnh được publish như một **bài text-first**: load càng nhanh càng tốt, có lợi cho SEO về performance. Đây là kết quả hợp lệ, KHÔNG phải lỗi deploy.
   - Tuyệt đối không dùng fallback ảnh giả để "cho có". Thà không ảnh (text-first) còn hơn ảnh fake.
-- Source of truth trước deploy là `python scripts/rule.py --fix`: front matter bài viết phải là TOML (`+++`), date lưu canonical ISO `+07:00` cho Hugo, display date dùng `dd-mm-yyyy hh:mm:ss GMT +7`, mọi future date là fake và phải sửa về thời gian thật Asia/Ho_Chi_Minh trước deploy.
+- Source of truth trước deploy (theo scope): `python3 scripts/rule.py --fix --post content/posts/<slug>.md` — front matter bài viết phải là TOML (`+++`), date lưu canonical ISO `+07:00` cho Hugo, display date dùng `dd-mm-yyyy hh:mm:ss GMT +7`, mọi future date là fake và phải sửa về thời gian thật Asia/Ho_Chi_Minh trước deploy. **Không** chạy `rule.py --fix` full-tree khi chỉ sửa vài bài.
 
 - Trước khi push code lên production (`main`), phải đọc lại toàn bộ quy tắc trong AGENTS.md và các quy tắc blog khác để đảm bảo tuân thủ đầy đủ.
 - Bài viết chỉ được publish khi **đã thực sự cố lấy ảnh qua cả 2 API (Pexels + Pixabay), đổi source khi bị rate limit**. Nếu sau khi đã thử hết mà vẫn không có ảnh hợp lệ → được phép push lên `main` như **bài text-first** (không ảnh, load nhanh, tốt cho SEO performance). Cái BỊ CẤM là push bài có ảnh **fake/placeholder/self-generated** hoặc bỏ qua bước lấy ảnh mà chưa thử hết 2 API.
@@ -41,8 +41,8 @@
   - Tự chọn topic phù hợp với category đó (dựa trên xu hướng, mùa vụ, hoặc kiến thức sẵn có).
   - Viết bài hoàn chỉnh ≥2000 từ, human-first, không mùi AI.
   - Lưu file `.md` đúng format TOML front matter.
-  - Chạy `select_images.py --fix` (tự đổi source Pexels↔Pixabay nếu rate limit).
-  - Chạy `add_commit_id.py`.
+  - Chạy `select_images.py --post content/posts/<slug>.md --fix` (tự đổi source Pexels↔Pixabay nếu rate limit). **Không** `--all`.
+  - Chạy `add_commit_id.py --post content/posts/<slug>.md` (SCOPE ONLY — cấm full-tree).
   - Commit + push lên `main`.
   - **Tuyệt đối không hỏi user** slug, title, description, hay bất kỳ input nào. Nếu cần thông tin (ví dụ xu hướng mới) → tự web search, không hỏi.
   - **CẤM tạo file test/debug** như `test-*.md`, `debug-*.md` trong `content/posts/`. Mọi file tạo ra đều phải là bài blog thật, có frontmatter đầy đủ.
@@ -50,7 +50,7 @@
 - **Content Depth:** Mọi bài viết (cả VN và EN) phải có chiều sâu thật, độ dài **từ 2000–3000 từ trở lên** (tối thiểu tuyệt đối 2000 từ, nhắm mốc 3000 từ cho bài trụ cột). Sử dụng thước đo `wc -w` trên nội dung markdown (loại bỏ front matter) để kiểm tra. Viết giọng human-first, có trải nghiệm thật, không có mùi AI, tuân thủ bản quyền + Review Chân Thật. Internal links và external links là **optional** — không bắt buộc phải thêm vào. Nếu muốn thêm links:
   - External links: trỏ đến nguồn tham khảo uy tín bên ngoài để tăng giá trị SEO.
   - Internal links: **TUYỆT ĐỐI CẤM link placeholder/fake** dạng `/posts/placeholder-*`. Nếu không có bài viết thật cùng chủ đề, bỏ qua internal link — không tạo link ảo. Lý do: link placeholder sinh ra trong quá trình gen bài (prompt yêu cầu "thêm internal link SEO"), agent tạo link tới bài chưa tồn tại. Cách khắc phục: agent chỉ được tạo internal link khi có slug bài viết thật trong `content/posts/`. Nếu chưa có bài thật, không thêm internal link nào hết.
-- **CẤM future date — mọi bài phải có `date` ≤ thời điểm hiện tại (Asia/Ho_Chi_Minh).** Front matter đặt ngày ở tương lai là **fake**: qa_dates coi đó là lỗi (`future date`) và deployment doctor bắt ở Rule 5 (`future_date`, severity ERROR). Hậu quả nếu lọt: `qa_dates.py` FAIL → CI chặn deploy, **toàn bộ commit đứng sau cũng không lên được production** cho tới khi ngày được sửa. Cách chống + fix: `python3 scripts/qa_dates.py --fix-obvious` giờ **clamp MỌI future date (cả cùng ngày lẫn khác ngày)** về `now` thật — không còn chỉ fix cùng ngày. `pre-deploy-validate.sh --fix` sau khi auto-fix sẽ **verify lại**, không báo "fixed" khống. Dung sai `FUTURE_TOLERANCE = 5 phút` (lệch đồng hồ nhỏ được bỏ qua). Khi tạo bài mới: luôn để `date` = thời gian thật lúc publish, **không đặt lịch tương lai** (Hugo `buildFuture` không dùng ở repo này).
+- **CẤM future date — mọi bài phải có `date` ≤ thời điểm hiện tại (Asia/Ho_Chi_Minh).** Front matter đặt ngày ở tương lai là **fake**: qa_dates coi đó là lỗi (`future date`) và deployment doctor bắt ở Rule 5 (`future_date`, severity ERROR). Hậu quả nếu lọt: `qa_dates.py` FAIL → CI chặn deploy, **toàn bộ commit đứng sau cũng không lên được production** cho tới khi ngày được sửa. Cách chống + fix (scope): `python3 scripts/qa_dates.py --post content/posts/<slug>.md --fix-obvious` — **clamp future date** về `now` thật trên post trong scope (không full-tree). Full `qa_dates.py --fix-obvious` chỉ khi debt-fix/CI. `pre-deploy-validate.sh --fix` sau khi auto-fix sẽ **verify lại**, không báo "fixed" khống. Dung sai `FUTURE_TOLERANCE = 5 phút` (lệch đồng hồ nhỏ được bỏ qua). Khi tạo bài mới: luôn để `date` = thời gian thật lúc publish, **không đặt lịch tương lai** (Hugo `buildFuture` không dùng ở repo này).
 - **Meta description phải dài 50–160 ký tự (chuẩn SEO).** Field `description` trong front matter TOML là đoạn snippet Google hiển thị: **>160 ký tự bị cắt cụt (`…`) ngoài SERP, <50 ký tự phí chỗ**. Quy tắc viết: giữ **từ khóa chính + năm** ở đầu câu, bỏ từ lặp/thừa, nhắm **~150–158 ký tự** để có biên an toàn, **không dùng dấu ngoặc kép bên trong** (tránh phải escape trong TOML). Không viết description kiểu đoạn mở bài dài rồi để bị cắt giữa chừng — phải là câu tóm tắt trọn nghĩa. Deployment doctor (`deploy-failure-healer.py`, Rule 9 `meta_description_length`) tự bắt bài ngoài khoảng 50–160 khi scan pre-deploy, severity WARNING. **Không auto-fix bằng script** (viết lại cần ngữ nghĩa, không bịa máy móc) — phải sửa tay rồi mới accept deploy.
 - **Footer macro là NGUỒN DUY NHẤT cho 4 mục cuối bài — cấm hardcode.** Bốn mục sau BẮT BUỘC do macro `layouts/partials/post-footer.html` sinh ra từ front matter, **áp dụng cho MỌI bài dù thuộc Category nào**:
   - **Liên kết nội bộ được sử dụng trong bài viết** ← `[[internal_links]]` (`ref`, `title`)
@@ -72,57 +72,99 @@
 - **Chỉ đẩy ĐÚNG scope của mình — cấm đẩy code người khác/nhánh khác.** Khi làm việc trên `main` hoặc một nhánh dùng chung bởi nhiều session, bạn CHỈ được quan tâm và commit/push **đúng phần scope của mình**. Lúc đẩy code lên live cũng vậy: chỉ `git add` + push đúng những file thuộc scope bạn đang làm. TUYỆT ĐỐI không tự ý stage/commit/push thay đổi của người khác, của session khác, hay file untracked ngoài scope (ví dụ bài viết dở của nhánh khác). Nếu `git status` có file lạ ngoài scope → để nguyên, không đụng tới. Ưu tiên `git add <đúng-file>` thay vì `git add .` / `git add -A`.
 - **Deploy FIFO — xếp hàng chờ, không chạy đồng loạt.** Các deploy phải cách nhau tối thiểu **30 giây**. Không push nhiều commit liên tiếp lên `main` trong cùng một khoảnh khắc. Dùng `git push` kèm kiểm tra GitHub Actions queue trước khi push commit tiếp theo. Tránh rate limit GitHub API, Pixabay/Pexels, và tránh concurrent build chồng chéo.
 
-# Deploy Failure Prevention & Auto-Healing (từ 2026-07-11)
+# SCOPE-ONLY scripts (từ 2026-07-16) — BẮT BUỘC
 
-## Pre-Deploy Checklist (Prevent 95% of failures)
+**Mỗi khi commit / merge / pre-push: CHỈ check và chạy script `*.py` trên file trong scope thay đổi. CẤM quét / fix toàn bộ blog.**
 
-**BẮT BUỘC chạy TRƯỚC khi `git push origin main`:**
+Lý do: full-tree (`add_commit_id.py`, `rule.py --fix`, `qa_dates.py`, `deploy-failure-healer.py --fix-all`, `strip_unused_internal_links.py --write`, `process_images.py`, `select_images.py --all`…) trên ~400 post **rất chậm**, dễ đụng file ngoài scope, và sinh diff rác.
+
+## Cách lấy scope
+
 ```bash
-# 1. Scan for all deployment issues
-python3 scripts/deploy-failure-healer.py --scan
-
-# 2. Auto-fix common issues
-python3 scripts/deploy-failure-healer.py --fix-all
-
-# 3. Validate dates (ISO 8601 +07:00)
-python3 scripts/qa_dates.py
-
-# 4. Validate frontmatter (TOML, no future dates)
-python3 scripts/rule.py --fix
-
-# 5. Check commit hashes on all posts
-python3 scripts/add_commit_id.py
-
-# 6. Verify no YAML syntax in TOML frontmatter
-grep -n "commit:\|date:\|image:" content/posts/*.md | head -5
-
-# 7. Verify no dead IMAGE_API_QUERY markers
-grep -r "!\[\[IMAGE_API_QUERY:" content/posts/
-
-# 8. Verify no placeholder links
-grep -r "/posts/placeholder-" content/posts/
-
-# 9. Check for unused [[internal_links]] (not referenced in body)
-python3 scripts/strip_unused_internal_links.py --dry-run
-
-# 10. Check for hardcoded footer sections (macro bypass)
-python3 scripts/move_hardcoded_footer_sections.py || echo "⚠ Run ':hard9' to fix"
-
-# 11. Check for empty .md files (0 bytes — breaks Hugo build)
-if [ "$(find content/posts/ -name "*.md" -empty | wc -l)" -ne 0 ]; then
-  echo "⚠ Found empty .md files, auto-deleting..."
-  find content/posts/ -name "*.md" -empty -delete
-fi
-
-# 12. Count posts with commit hashes
-echo "Total posts: $(ls content/posts/*.md | wc -l)"
-echo "Posts with commit hash: $(grep -l "^commit = " content/posts/*.md | wc -l)"
-
-# 13. Verify inline images resolve (render-image hook present + no missing files)
-python3 scripts/qa_inline_images.py
+# Post .md trong working tree / commit sắp push
+git diff --name-only --cached -- content/posts/
+git diff --name-only HEAD -- content/posts/
+git diff --name-only origin/main...HEAD -- content/posts/
 ```
 
-If any check fails → **STOP** push and run deploy-failure-healer.py.
+Gán biến (ví dụ 1–n slug):
+
+```bash
+# Một bài
+POST="content/posts/<slug>.md"
+SLUG="<slug>"
+
+# Nhiều bài — lặp --post / --slug
+POSTS=(content/posts/a.md content/posts/b.md)
+```
+
+## Script: dùng flag scope (không full-tree)
+
+| Việc | Lệnh ĐÚNG (scope) | CẤM khi commit/merge feature |
+|------|-------------------|------------------------------|
+| Ảnh | `select_images.py --post $POST --fix` | `--all` |
+| WebP | `process_images.py --slug $SLUG` | không flag (cả manifest) |
+| Commit ID | `add_commit_id.py --post $POST` | không `--post` / chỉ `--all` khi debt |
+| Dates | `qa_dates.py --post $POST` (+ `--fix-obvious` nếu cần) | không `--post` |
+| Front matter | `rule.py --fix --post $POST` | `rule.py --fix` full |
+| Healer | `deploy-failure-healer.py --scan --post $POST` / `--fix-all --post $POST` | `--scan` / `--fix-all` không `--post` |
+| Internal links | `strip_unused_internal_links.py --write --post $POST` | `--write` full |
+| Footer hardcode | `move_hardcoded_footer_sections.py --fix --post $POST` | `--fix` full |
+| Inline images | `qa_inline_images.py` (hook global OK) + chỉ soi body post trong scope | — |
+
+**Ngoại lệ full-tree** (chỉ khi user/PR `qa-debt-fix` / CI gate toàn site yêu cầu rõ): `--all`, không `--post`, `pre-deploy-validate.sh` full. Agent **không** tự full-tree sau mỗi bài/feature.
+
+**Sau khi script chạy:** `git status` — nếu có file `.md` ngoài scope bị sửa → `git checkout -- <file-ngoài-scope>` trước khi commit.
+
+# Deploy Failure Prevention & Auto-Healing (từ 2026-07-11)
+
+## Pre-Deploy Checklist (Prevent 95% of failures) — **SCOPE-ONLY**
+
+**BẮT BUỘC chạy TRƯỚC khi `git push origin main` — chỉ trên file trong scope (thay `<slug>` / lặp `--post`):**
+```bash
+# 0. Xác định scope (bắt buộc)
+git diff --name-only origin/main...HEAD -- content/posts/
+POST="content/posts/<slug>.md"   # hoặc nhiều --post
+SLUG="<slug>"
+
+# 1–2. Scan + fix chỉ post trong scope
+python3 scripts/deploy-failure-healer.py --scan --post "$POST"
+python3 scripts/deploy-failure-healer.py --fix-all --post "$POST"
+
+# 3. Dates (ISO 8601 +07:00) — scope
+python3 scripts/qa_dates.py --post "$POST"
+
+# 4. Frontmatter TOML — scope (không full SAFE_FIX khi có --post)
+python3 scripts/rule.py --fix --post "$POST"
+
+# 5. Commit hash — CHỈ post trong scope
+python3 scripts/add_commit_id.py --post "$POST"
+
+# 6–8. Grep chỉ file scope (không content/posts/* toàn repo)
+grep -n "commit:\|date:\|image:" "$POST" || true
+grep -n "!\[\[IMAGE_API_QUERY:" "$POST" || true
+grep -n "/posts/placeholder-" "$POST" || true
+
+# 9. Unused [[internal_links]] — scope
+python3 scripts/strip_unused_internal_links.py --dry-run --post "$POST"
+
+# 10. Hardcoded footer — scope
+python3 scripts/move_hardcoded_footer_sections.py --post "$POST" || echo "⚠ fix with --fix --post"
+
+# 11. Empty .md chỉ trong scope (hoặc untracked mới)
+# (không find toàn content/posts trừ khi debt-fix)
+
+# 12. Commit field trên post scope
+grep -n '^commit = ' "$POST"
+
+# 13. Inline images (hook global) + path ảnh của slug
+python3 scripts/qa_inline_images.py
+ls -la "static/images/posts/${SLUG}.webp" 2>/dev/null || true
+```
+
+**Nhiều post trong 1 commit:** lặp `--post path1 --post path2` (các script hỗ trợ `action=append`).
+
+If any check fails → **STOP** push and run deploy-failure-healer **với `--post`**, không `--fix-all` full-tree.
 
 ## Common Deployment Failures & Auto-Fixes
 
@@ -133,8 +175,8 @@ If any check fails → **STOP** push and run deploy-failure-healer.py.
 
 ### Failure #2: Missing Commit Hash
 **Symptom:** Post fails QA check, can't track version
-**Auto-Fix:** `python3 scripts/add_commit_id.py`
-**Prevention:** Run after EVERY merge to main
+**Auto-Fix:** `python3 scripts/add_commit_id.py --post content/posts/<slug>.md` (SCOPE ONLY)
+**Prevention:** Run after EVERY merge — chỉ post trong scope, cấm full-tree
 
 ### Failure #3: Missing Hero Image or Thumbnail
 **Symptom:** Theme renders blank hero
@@ -143,12 +185,12 @@ If any check fails → **STOP** push and run deploy-failure-healer.py.
 
 ### Failure #4: Wrong Timezone (+05:00, Z, or missing)
 **Symptom:** Date sorting fails, posts appear out of order
-**Auto-Fix:** `python3 scripts/qa_dates.py --fix-obvious`
+**Auto-Fix:** `python3 scripts/qa_dates.py --post content/posts/<slug>.md --fix-obvious`
 **Prevention:** Always use `+07:00` for Vietnam timezone
 
 ### Failure #5: Future Date
 **Symptom:** Post doesn't appear on homepage (scheduled but broken)
-**Auto-Fix:** `python3 scripts/qa_dates.py --fix-obvious` (sets to now)
+**Auto-Fix:** `python3 scripts/qa_dates.py --post content/posts/<slug>.md --fix-obvious` (sets to now)
 **Prevention:** Use `date = "2026-07-11T13:45:00+07:00"` (past/current time)
 
 ### Failure #6: Content < 2000 words
@@ -254,13 +296,13 @@ git diff origin/main HEAD          # What changed
 
 **Step 2:** Identify failure type
 - TOML parse error → Run `rule.py --fix`
-- Missing images → Run `select_images.py --fix`
-- Date issues → Run `qa_dates.py --fix-obvious`
-- Commit hash missing → Run `add_commit_id.py`
+- Missing images → Run `select_images.py --post content/posts/<slug>.md --fix`
+- Date issues → Run `qa_dates.py --post content/posts/<slug>.md --fix-obvious`
+- Commit hash missing → Run `add_commit_id.py --post content/posts/<slug>.md`
 
-**Step 3:** Run auto-healer on affected commits
+**Step 3:** Run auto-healer **chỉ post lỗi** (không full-tree)
 ```bash
-python3 scripts/deploy-failure-healer.py --fix-all
+python3 scripts/deploy-failure-healer.py --fix-all --post content/posts/<slug>.md
 ```
 
 **Step 4:** Create a fix commit
@@ -303,19 +345,20 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 
 ## Best Practices to Avoid 99% of Failures
 
-1. **Always run the Pre-Deploy Checklist** (10 commands, 2 minutes)
+1. **Pre-Deploy Checklist SCOPE-ONLY** — chỉ file trong diff, không full blog
 2. **TOML syntax only** - Never use `key: value` in `+++...+++`
 3. **2000–3000+ words, human-first** - Chiều sâu thật, không mùi AI, tuân thủ bản quyền. Check before committing
 4. **Real images only** - Use Pexels/Pixabay API, đổi source khi rate limit; never fake. Không ra ảnh → ship text-first, không placeholder giả
 5. **Chỉ 5 category chuẩn** - Không tạo category mới; content lạ → nhét vào category gần nhất (mặc định Đời sống)
-5. **Commit hash tracking** - Run add_commit_id.py after every merge
-6. **Vietnam timezone** - Always +07:00, never +05:00 or Z
-7. **No placeholder links** - Only link to existing posts
-8. **No IMAGE_API_QUERY** - Remove all markers before push
-9. **Footer macro only** - `[[internal_links]]`, `[[external_links]]`, `[[faq]]`, `[attribution]` chỉ trong front matter, cấm hardcode body. Chạy `:hard9` hoặc `move_hardcoded_footer_sections.py --fix` trước push
-10. **Internal links must be in body** - `[[internal_links]]` trỏ đến bài viết phải được nhắc đến trong body. Chạy `strip_unused_internal_links.py --write` để tự động xoá link không dùng.
-11. **Deploy one at a time** - 30s minimum between pushes
-12. **Force-add WebP images** - `git add -f static/images/posts/<slug>.webp`
+6. **Commit hash tracking (scope)** - `add_commit_id.py --post …` after every merge; **cấm** full-tree
+7. **Vietnam timezone** - Always +07:00, never +05:00 or Z
+8. **No placeholder links** - Only link to existing posts
+9. **No IMAGE_API_QUERY** - Remove all markers before push
+10. **Footer macro only** - `[[internal_links]]`, `[[external_links]]`, `[[faq]]`, `[attribution]` chỉ trong front matter, cấm hardcode body. Scope: `move_hardcoded_footer_sections.py --fix --post …`
+11. **Internal links must be in body** - Scope: `strip_unused_internal_links.py --write --post …`
+12. **Deploy one at a time** - 30s minimum between pushes
+13. **WebP in git** - commit `static/images/posts/<slug>.webp` (scope slug only)
+14. **CẤM full-tree py sau mỗi commit/merge** — chỉ `--post` / `--slug`; full-tree = `qa-debt-fix` hoặc CI explicit
 
 ## Deploy Failure SLA
 

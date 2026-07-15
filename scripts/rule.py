@@ -267,10 +267,29 @@ def run_known_safe_fixes() -> None:
         subprocess.run(cmd, cwd=REPO_ROOT, check=True)
 
 
-def check_posts(*, fix: bool) -> int:
+def _resolve_post_paths(posts: list[str] | None) -> list[Path]:
+    """If posts given, only those paths; else all content/posts/*.md."""
+    if not posts:
+        return sorted(CONTENT_DIR.glob("*.md"))
+    resolved: list[Path] = []
+    for p in posts:
+        path = Path(p)
+        if not path.is_absolute():
+            path = (REPO_ROOT / path).resolve()
+        if not path.exists():
+            alt = CONTENT_DIR / path.name
+            if alt.exists():
+                path = alt
+            else:
+                raise SystemExit(f"rule.py: post not found: {p}")
+        resolved.append(path)
+    return resolved
+
+
+def check_posts(*, fix: bool, posts: list[str] | None = None) -> int:
     errors: list[str] = []
     fixed = 0
-    posts = sorted(CONTENT_DIR.glob("*.md"))
+    posts = _resolve_post_paths(posts)
 
     for path in posts:
         text = path.read_text(encoding="utf-8")
@@ -339,11 +358,21 @@ def check_posts(*, fix: bool) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Pre-deploy source-of-truth rule")
     parser.add_argument("--fix", action="store_true", help="Apply safe fixes before validation")
+    parser.add_argument(
+        "--post",
+        action="append",
+        dest="posts",
+        metavar="PATH",
+        help="Chỉ check/fix post này (lặp lại được). Ưu tiên khi commit/merge theo scope.",
+    )
     args = parser.parse_args()
 
-    if args.fix:
+    # Global safe-fix commands touch many files — skip when scoped to --post
+    if args.fix and not args.posts:
         run_known_safe_fixes()
-    return check_posts(fix=args.fix)
+    elif args.fix and args.posts:
+        print("rule.py: scoped --post mode → skip global SAFE_FIX_COMMANDS")
+    return check_posts(fix=args.fix, posts=args.posts)
 
 
 if __name__ == "__main__":
