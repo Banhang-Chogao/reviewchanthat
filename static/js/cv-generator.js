@@ -2,7 +2,9 @@
   'use strict';
 
   var STORAGE_KEY = 'cv_generator_draft';
-  var ACCESS_CODE = '9898';
+  // Access gate: compare SHA-256 of PIN (plain PIN not stored in source)
+  var ACCESS_HASH = '78c72f67941a420cd4e5ee9fdabcaeaba6d72f16160915085f9802220fd83799';
+  var SESSION_KEY = 'cv_unlocked';
   var DEBOUNCE_DELAY = 300;
   var CLOUD_DEBOUNCE = 2000;
   var GH_OWNER = 'banhang-chogao';
@@ -12,6 +14,8 @@
   var TOKEN_KEY = 'cv_gh_token';
   var cloudSaveTimer = null;
   var cloudSaving = false;
+  var gateAttempts = 0;
+  var gateLastAttempt = 0;
 
   var state = {
     fullName: '',
@@ -48,42 +52,94 @@
   var gateInput = document.getElementById('cvGateInput');
   var gateError = document.getElementById('cvGateError');
 
-  /* ---- Gate ---- */
+  /* ---- Gate (mã 4 số, hash SHA-256) ---- */
+  function sha256hex(str) {
+    var buf = new TextEncoder().encode(str);
+    return crypto.subtle.digest('SHA-256', buf).then(function (hash) {
+      var hex = '';
+      var bytes = new Uint8Array(hash);
+      for (var i = 0; i < bytes.length; i++) hex += bytes[i].toString(16).padStart(2, '0');
+      return hex;
+    });
+  }
+
   function checkAccess() {
     try {
-      return localStorage.getItem('cv_access') === ACCESS_CODE;
+      return sessionStorage.getItem(SESSION_KEY) === '1';
     } catch (e) { return false; }
   }
 
   function unlockApp() {
     gateEl.style.display = 'none';
     appEl.style.display = 'block';
-    try { localStorage.setItem('cv_access', ACCESS_CODE); } catch (e) {}
+    if (lockBtn) lockBtn.style.display = '';
+    try {
+      sessionStorage.setItem(SESSION_KEY, '1');
+      // Dọn key cũ (plain code) nếu còn
+      localStorage.removeItem('cv_access');
+    } catch (e) {}
+  }
+
+  function tryUnlock() {
+    var code = (gateInput.value || '').trim();
+    if (!code || code.length !== 4) {
+      gateError.textContent = 'Vui lòng nhập đủ 4 số.';
+      return;
+    }
+    var now = Date.now();
+    if (now - gateLastAttempt < 1500) {
+      gateError.textContent = 'Thử lại sau 1–2 giây.';
+      return;
+    }
+    gateLastAttempt = now;
+    gateAttempts++;
+    if (gateAttempts > 8) {
+      gateError.textContent = 'Quá nhiều lần thử. Tải lại trang để tiếp tục.';
+      unlockBtn.disabled = true;
+      gateInput.disabled = true;
+      return;
+    }
+    sha256hex(code).then(function (h) {
+      if (h === ACCESS_HASH) {
+        gateError.textContent = '';
+        unlockApp();
+      } else {
+        gateError.textContent = 'Mã truy cập không đúng. Còn ' + Math.max(0, 8 - gateAttempts) + ' lần thử.';
+        gateInput.value = '';
+        gateInput.focus();
+      }
+    })['catch'](function () {
+      gateError.textContent = 'Không kiểm tra được mã (trình duyệt thiếu Web Crypto).';
+    });
   }
 
   if (checkAccess()) {
     unlockApp();
+  } else if (gateInput) {
+    gateInput.focus();
   }
 
-  unlockBtn.addEventListener('click', function () {
-    if (gateInput.value === ACCESS_CODE) {
-      unlockApp();
-    } else {
-      gateError.textContent = 'Mã truy cập không đúng.';
-    }
-  });
-  gateInput.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') unlockBtn.click();
-  });
+  if (unlockBtn) unlockBtn.addEventListener('click', tryUnlock);
+  if (gateInput) {
+    gateInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') tryUnlock();
+    });
+  }
 
   // Khoá app: chỉ ẩn giao diện, KHÔNG xoá dữ liệu đã lưu
-  lockBtn.addEventListener('click', function () {
-    try { localStorage.removeItem('cv_access'); } catch (e) {}
-    appEl.style.display = 'none';
-    gateEl.style.display = 'flex';
-    gateInput.value = '';
-    gateError.textContent = '';
-  });
+  if (lockBtn) {
+    lockBtn.addEventListener('click', function () {
+      try { sessionStorage.removeItem(SESSION_KEY); } catch (e) {}
+      appEl.style.display = 'none';
+      gateEl.style.display = 'flex';
+      if (lockBtn) lockBtn.style.display = 'none';
+      gateInput.value = '';
+      gateError.textContent = '';
+      unlockBtn.disabled = false;
+      gateInput.disabled = false;
+      gateInput.focus();
+    });
+  }
 
   /* ---- State Management ---- */
   function getFormData() {
