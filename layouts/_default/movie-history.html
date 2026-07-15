@@ -75,7 +75,7 @@
       <div class="mh-progress-bar__sha" id="mhProgressSha"></div>
     </div>
 
-    <div class="mh-main">
+    <div class="mh-main" id="mhMain">
       <div class="mh-movie-list" id="mhMovieList">
         <div class="mh-loading" id="mhLoading">
           <div class="mh-loading__spinner"></div>
@@ -83,15 +83,36 @@
         </div>
       </div>
 
-      <div class="mh-panel" id="mhSelectedPanel" style="display:none">
-        <div class="mh-panel__title">Selected Movie</div>
-        <div class="mh-panel__poster" id="mhPanelPoster">🎬</div>
-        <h3 class="mh-panel__name" id="mhPanelTitle"></h3>
-        <div class="mh-panel__info" id="mhPanelInfo"></div>
-        <div class="mh-panel__actions" id="mhPanelActions">
-          <button class="mh-panel__btn mh-panel__btn--link" id="mhPanelEdit">✏ Edit</button>
-          <button class="mh-panel__btn mh-panel__btn--danger" id="mhPanelDelete">🗑 Delete</button>
-        </div>
+      <!-- Single unified detail card — never render a second detail panel -->
+      <div class="mh-detail" id="mhSelectedPanel" hidden>
+        <article class="mh-detail__card" id="mhDetailCard" role="region" aria-labelledby="mhPanelTitle" tabindex="-1">
+          <div class="mh-detail__header">
+            <div class="mh-detail__poster" id="mhPanelPoster" aria-hidden="true">🎬</div>
+            <div class="mh-detail__head-info">
+              <div class="mh-detail__title-row">
+                <h3 class="mh-detail__title" id="mhPanelTitle"></h3>
+                <span class="mh-detail__status" id="mhPanelStatus"></span>
+              </div>
+              <div class="mh-detail__rating" id="mhPanelRating" hidden></div>
+              <div class="mh-detail__tags" id="mhPanelTags" hidden></div>
+            </div>
+          </div>
+
+          <div class="mh-detail__meta" id="mhPanelMeta" aria-label="Showtime details"></div>
+
+          <div class="mh-detail__synopsis-wrap" id="mhPanelSynopsisWrap" hidden>
+            <h4 class="mh-detail__section-label">Synopsis</h4>
+            <div class="mh-detail__synopsis" id="mhPanelSynopsis"></div>
+            <button type="button" class="mh-detail__readmore" id="mhPanelReadMore" hidden aria-expanded="false">Read more</button>
+          </div>
+
+          <div class="mh-detail__actions" id="mhPanelActions" role="group" aria-label="Quick actions">
+            <button type="button" class="mh-detail__action" id="mhPanelEdit" aria-label="Edit movie">✏️ Edit</button>
+            <button type="button" class="mh-detail__action mh-detail__action--danger" id="mhPanelDelete" aria-label="Delete movie">🗑 Delete</button>
+            <button type="button" class="mh-detail__action" id="mhPanelShare" aria-label="Share movie">📤 Share</button>
+            <button type="button" class="mh-detail__action" id="mhPanelExport" aria-label="Export movie">📄 Export</button>
+          </div>
+        </article>
       </div>
     </div>
 
