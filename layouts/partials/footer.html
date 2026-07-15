@@ -33,14 +33,37 @@
       </a>
       {{ partial "footer-ga4-box.html" . }}
     </nav>
-    <nav class="footer-nav footer-nav--experimental">
-      <span class="footer-nav__group-label">Experimental</span>
-      <a href="{{ "credit-card-dashboard/" | relURL }}" class="footer-nav-link footer-nav-link--featured">✨ AI Credit Card Dashboard</a>
-      <a href="{{ "mcc-db/" | relURL }}" class="footer-nav-link footer-nav-link--featured">💳 MCC DB</a>
-      <a href="{{ "movie-history/" | relURL }}" class="footer-nav-link footer-nav-link--featured">🎬 Movie History</a>
-      <a href="{{ "visa-promo/" | relURL }}" class="footer-nav-link footer-nav-link--featured">💳 Visa Promo</a>
-      <a href="{{ "tu-vung-han-chuyen-nganh/" | relURL }}" class="footer-nav-link footer-nav-link--featured">🇰🇷 Từ vựng Hàn chuyên ngành</a>
-    </nav>
+    {{/* Experimental tools: no <a href> in default HTML (not crawlable / not preloaded).
+         Links inject only after user clicks "Load Experimental" (see site.js). */}}
+    <div class="footer-experimental" id="footerExperimental" data-experimental-loaded="0">
+      <button
+        type="button"
+        class="footer-experimental__load"
+        id="footerExperimentalLoad"
+        aria-expanded="false"
+        aria-controls="footerExperimentalPanel"
+      >
+        🧪 Load Experimental
+      </button>
+      <nav
+        class="footer-nav footer-nav--experimental"
+        id="footerExperimentalPanel"
+        hidden
+        aria-label="Experimental tools"
+      >
+        <span class="footer-nav__group-label">Experimental</span>
+        <div class="footer-experimental__links" id="footerExperimentalLinks"></div>
+      </nav>
+      {{/* Catalog only — not <a> links; parsed by JS on demand */}}
+      {{- $experimental := slice
+        (dict "href" ("credit-card-dashboard/" | relURL) "label" "✨ AI Credit Card Dashboard")
+        (dict "href" ("mcc-db/" | relURL) "label" "💳 MCC DB")
+        (dict "href" ("movie-history/" | relURL) "label" "🎬 Movie History")
+        (dict "href" ("visa-promo/" | relURL) "label" "💳 Visa Promo")
+        (dict "href" ("tu-vung-han-chuyen-nganh/" | relURL) "label" "🇰🇷 Từ vựng Hàn chuyên ngành")
+      -}}
+      <script type="application/json" id="footerExperimentalCatalog">{{ $experimental | jsonify }}</script>
+    </div>
     <div class="footer-tagline">
       Made with
       <span class="footer-tagline-icon" data-icon="heart" aria-hidden="true">❤️</span>,
