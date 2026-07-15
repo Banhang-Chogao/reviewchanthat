@@ -3,45 +3,21 @@
     {
       "id": "mrm6w6sppga6svxe",
       "title": "THE ODYSSEY",
-      "originalTitle": "The Odyssey",
       "date": "2026-07-17",
       "year": 2026,
       "time": "09:20",
-      "country": "USA",
-      "language": "English",
-      "genre": "Action, Adventure",
-      "director": "Christopher Nolan",
-      "mainCast": "Matt Damon, Tom Holland",
-      "platform": "",
       "cinema": "CGV Hùng Vương Plaza",
-      "watchingMethod": "Cinema",
-      "duration": 150,
-      "personalRating": 9,
+      "hall": "2D",
+      "ticket_url": "https://www.cgv.vn/",
       "rating": 5,
-      "imdbRating": 8.2,
-      "rottenTomatoes": "92%",
-      "letterboxdRating": 4.1,
-      "watchWith": "Friends",
-      "mood": "Excited",
+      "status": "watching",
       "summary": "Bộ phim tiếp theo của Christopher Nolan, The Odyssey, là một sử thi hành động mang màu sắc thần thoại, được quay tại nhiều địa điểm trên khắp thế giới bằng công nghệ phim IMAX® hoàn toàn mới. Bộ phim lần đầu tiên đưa thiên sử thi kinh điển của Homer lên màn ảnh IMAX®, và sẽ khởi chiếu tại các rạp trên toàn thế giới vào ngày 17 tháng 7 năm 2026.",
-      "review": "Bộ phim tiếp theo của Christopher Nolan, The Odyssey, là một sử thi hành động mang màu sắc thần thoại, được quay tại nhiều địa điểm trên khắp thế giới bằng công nghệ phim IMAX® hoàn toàn mới. Bộ phim lần đầu tiên đưa thiên sử thi kinh điển của Homer lên màn ảnh IMAX®, và sẽ khởi chiếu tại các rạp trên toàn thế giới vào ngày 17 tháng 7 năm 2026.",
-      "tags": [
-        "cinema",
-        "imax"
-      ],
       "specials": [
         "favorite",
         "cinema"
       ],
-      "posterUrl": "",
-      "trailerUrl": "",
-      "officialWebsite": "https://www.cgv.vn/",
-      "ticket_url": "https://www.cgv.vn/",
-      "notes": "Template sample",
-      "hall": "2D",
-      "status": "need-ticket",
       "created": 1784126568553,
-      "updated": 1784141141903
+      "updated": 1784141968090
     },
     {
       "id": "mrmfkjnz5jum7mg1",
@@ -87,5 +63,5 @@
       "updated": 1784141141903
     }
   ],
-  "updatedAt": "2026-07-15T18:45:47.661Z"
+  "updatedAt": "2026-07-15T18:59:28.091Z"
 }
