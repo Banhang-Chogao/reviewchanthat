@@ -1,7 +1,7 @@
 +++
 title = "Review nồi chiên không dầu 2026: loại nào đáng mua sau vài tháng dùng thật"
 seo_title = "Review nồi chiên không dầu 2026: chọn loại nào?"
-commit = ""
+commit = "9978240c"
 date = "2026-07-16T06:40:00+07:00"
 slug = "review-noi-chien-khong-dau-2026"
 draft = false
