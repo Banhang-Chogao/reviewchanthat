@@ -46,6 +46,15 @@
     // Dashboard bulletin only (no promo KPIs/charts on financial dashboard)
     dashPromo: { search: '', bank: '', card: '', source: '', merchant: '', category: '', status: 'active', sort: 'default', showExpired: false },
     promoKB: null, // normalized Bank→Source→Merchant→Offer→Promotion (local-only)
+    // Section 4: calendar is derived dynamically from KB (no duplicated promo storage)
+    pcal: {
+      view: 'month', // month | week | agenda | upcoming | today
+      cursor: null,  // Date (local midnight) for month/week nav
+      filters: {
+        bank: '', card: '', merchant: '', category: '', type: '',
+        priority: '', featured: '', status: 'active'
+      }
+    },
     charts: {}
   };
 
@@ -690,6 +699,7 @@
     var input = $('ccdInput');
     var dash = $('ccdDashboard');
     var promos = $('ccdPromos');
+    var pcal = $('ccdPromoCal');
     var title = $('ccdHeaderTitle');
     function setVis(el, on) {
       if (!el) return;
@@ -700,11 +710,13 @@
     setVis(input, name === 'input');
     setVis(dash, name === 'dashboard');
     setVis(promos, name === 'promos');
+    setVis(pcal, name === 'promo-cal');
     if (title) {
       title.textContent =
         name === 'input' ? '1. Input Data' :
         name === 'dashboard' ? '2. Dashboard' :
         name === 'promos' ? '3. Promotions Update' :
+        name === 'promo-cal' ? '4. Promotion Calendar' :
         'Credit Card Hub';
     }
     if (name === 'input') renderCardTable();
@@ -717,12 +729,16 @@
       renderPromoTable();
       renderPromoMgmtInsights();
     }
+    if (name === 'promo-cal') {
+      renderPromoCalendar();
+    }
   }
 
   function initNav() {
     on($('ccdOpenInput'), 'click', function () { showView('input'); });
     on($('ccdOpenDashboard'), 'click', function () { showView('dashboard'); });
     on($('ccdOpenPromos'), 'click', function () { showView('promos'); });
+    on($('ccdOpenPromoCal'), 'click', function () { showView('promo-cal'); });
     on($('ccdNavHome'), 'click', function () { showView('home'); });
     on($('ccdActionInput'), 'click', function () { showView('input'); });
     on($('ccdActionLock'), 'click', logout);
@@ -2402,6 +2418,8 @@
       populateFilters();
       renderDashboard();
     }
+    // Calendar re-derives from KB only — no separate data store
+    if (state.view === 'promo-cal') renderPromoCalendar();
   }
 
   /* ───────────── Export ───────────── */
@@ -3732,10 +3750,548 @@
       rebuildPromotionsFromKB();
       persistLocal().then(function () {
         setPromoIoStatus('ok', '✓ Knowledge Base đã lưu local (IndexedDB encrypted).');
+        if (state.view === 'promo-cal') renderPromoCalendar();
       });
     });
     on($('ccdDashSaveGithub'), 'click', function () {
       persistLocal().then(function () { return saveToGitHub({ quiet: false }); });
+    });
+  }
+
+  /* ───────────── Section 4: Promotion Calendar (read-only from KB) ───────────── */
+  var PCAL_EXPIRY_OFFSETS = [30, 14, 7, 3, 1, 0]; // days before endDate
+  var PCAL_MONTHS_VI = ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6',
+    'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'];
+
+  function pcalEnsureCursor() {
+    if (!(state.pcal.cursor instanceof Date) || isNaN(state.pcal.cursor.getTime())) {
+      var d = new Date();
+      d.setHours(0, 0, 0, 0);
+      state.pcal.cursor = d;
+    }
+    return state.pcal.cursor;
+  }
+
+  function pcalDateISO(d) {
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+
+  function pcalParseISO(iso) {
+    if (!isValidISODate(iso)) return null;
+    var p = iso.split('-').map(Number);
+    return new Date(p[0], p[1] - 1, p[2]);
+  }
+
+  function pcalAddDaysISO(iso, delta) {
+    var d = pcalParseISO(iso);
+    if (!d) return '';
+    d.setDate(d.getDate() + delta);
+    return pcalDateISO(d);
+  }
+
+  function pcalStartOfWeek(d) {
+    // Monday-first
+    var x = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    var day = x.getDay(); // 0=Sun
+    var diff = day === 0 ? -6 : 1 - day;
+    x.setDate(x.getDate() + diff);
+    return x;
+  }
+
+  function pcalPriorityFromDays(daysLeft) {
+    if (daysLeft == null || daysLeft < 0) return 'normal';
+    if (daysLeft <= 1) return 'critical';
+    if (daysLeft <= 3) return 'high';
+    if (daysLeft <= 14) return 'medium';
+    return 'normal';
+  }
+
+  function pcalPriorityLabel(p) {
+    if (p === 'critical') return 'Critical';
+    if (p === 'high') return 'High';
+    if (p === 'medium') return 'Medium';
+    return 'Normal';
+  }
+
+  function pcalKindLabel(kind, offset) {
+    if (kind === 'start') return 'Promotion starts';
+    if (kind === 'expiry') return 'Expiry day';
+    return offset + ' days before expiry';
+  }
+
+  /** Build reminder notes ONLY from ACTIVE promotions in the KB (no duplicate storage). */
+  function buildPcalReminders() {
+    rebuildPromotionsFromKB();
+    var out = [];
+    (state.promotions || []).forEach(function (p) {
+      // Expired / inactive → auto disappear (no calendar notes)
+      if (!promoIsActive(p)) return;
+      if (!isValidISODate(p.endDate)) return;
+      var daysLeft = daysUntil(p.endDate);
+      if (daysLeft === null || daysLeft < 0) return;
+      var priority = pcalPriorityFromDays(daysLeft);
+      var cards = parseCards(p.cards || p.card);
+      var cardLabel = cards.length ? cards.join(', ') : (p.card || '—');
+      var deal = formatDeal(p);
+      var offerTitle = p.offerTitle || p.title || 'Promotion';
+
+      function pushNote(dateISO, kind, offset) {
+        if (!isValidISODate(dateISO)) return;
+        // do not place notes before promotion start
+        if (isValidISODate(p.startDate) && dateISO < p.startDate) return;
+        // do not place notes after end (safety)
+        if (dateISO > p.endDate) return;
+        out.push({
+          id: String(p.id || p.promotionId || '') + '@' + dateISO + '@' + kind,
+          date: dateISO,
+          kind: kind,
+          offset: offset,
+          kindLabel: pcalKindLabel(kind, offset),
+          bank: p.bank || '',
+          card: cardLabel,
+          cards: cards,
+          merchant: p.merchant || '',
+          offer: offerTitle,
+          deal: deal,
+          category: p.category || '',
+          type: p.offerType || p.promotionType || '',
+          featured: !!p.featured,
+          status: p.status || 'Active',
+          daysLeft: daysLeft,
+          priority: priority,
+          promoCode: p.promoCode || '',
+          promo: p
+        });
+      }
+
+      if (isValidISODate(p.startDate)) {
+        pushNote(p.startDate, 'start', null);
+      }
+      PCAL_EXPIRY_OFFSETS.forEach(function (off) {
+        var d = pcalAddDaysISO(p.endDate, -off);
+        var kind = off === 0 ? 'expiry' : ('d' + off);
+        pushNote(d, kind, off);
+      });
+    });
+    out.sort(function (a, b) {
+      if (a.date !== b.date) return a.date < b.date ? -1 : 1;
+      return a.daysLeft - b.daysLeft;
+    });
+    return out;
+  }
+
+  function pcalApplyFilters(notes) {
+    var f = state.pcal.filters || {};
+    var today = todayISO();
+    return (notes || []).filter(function (n) {
+      if (f.status !== 'all' && n.date < today) return false; // Active notes = today+
+      if (f.bank && n.bank !== f.bank) return false;
+      if (f.merchant && n.merchant !== f.merchant) return false;
+      if (f.category && n.category !== f.category) return false;
+      if (f.type && n.type !== f.type) return false;
+      if (f.priority && n.priority !== f.priority) return false;
+      if (f.featured === 'yes' && !n.featured) return false;
+      if (f.card) {
+        var cards = n.cards || parseCards(n.card);
+        var hit = cards.some(function (c) { return c === f.card; }) || n.card === f.card;
+        if (!hit) return false;
+      }
+      return true;
+    });
+  }
+
+  function populatePcalFilters(notes) {
+    var banks = {}, cards = {}, merchants = {}, cats = {}, types = {};
+    (notes || []).forEach(function (n) {
+      if (n.bank) banks[n.bank] = true;
+      if (n.merchant) merchants[n.merchant] = true;
+      if (n.category) cats[n.category] = true;
+      if (n.type) types[n.type] = true;
+      (n.cards || parseCards(n.card)).forEach(function (c) { if (c) cards[c] = true; });
+    });
+    // also seed from raw active promos so filters work before notes exist for month
+    (state.promotions || []).forEach(function (p) {
+      if (!promoIsActive(p)) return;
+      if (p.bank) banks[p.bank] = true;
+      if (p.merchant) merchants[p.merchant] = true;
+      if (p.category) cats[p.category] = true;
+      var t = p.offerType || p.promotionType;
+      if (t) types[t] = true;
+      parseCards(p.cards || p.card).forEach(function (c) { if (c) cards[c] = true; });
+    });
+
+    function fill(selId, map, allLabel, current) {
+      var sel = $(selId);
+      if (!sel) return;
+      var keys = Object.keys(map).sort(function (a, b) { return a.localeCompare(b); });
+      var html = '<option value="">' + allLabel + '</option>';
+      keys.forEach(function (k) {
+        html += '<option value="' + esc(k) + '"' + (current === k ? ' selected' : '') + '>' + esc(k) + '</option>';
+      });
+      sel.innerHTML = html;
+      if (current) sel.value = current;
+    }
+    var f = state.pcal.filters;
+    fill('ccdPcalBank', banks, 'Bank: All', f.bank);
+    fill('ccdPcalCard', cards, 'Card: All', f.card);
+    fill('ccdPcalMerchant', merchants, 'Merchant: All', f.merchant);
+    fill('ccdPcalCat', cats, 'Category: All', f.category);
+    fill('ccdPcalType', types, 'Type: All', f.type);
+    var pr = $('ccdPcalPriority');
+    if (pr) pr.value = f.priority || '';
+    var fe = $('ccdPcalFeatured');
+    if (fe) fe.value = f.featured || '';
+    var st = $('ccdPcalStatus');
+    if (st) st.value = f.status || 'active';
+  }
+
+  function renderPcalNotifs() {
+    var el = $('ccdPcalNotifs');
+    if (!el) return;
+    var today = todayISO();
+    var expToday = 0, expWeek = 0, highPri = 0, newly = 0;
+    var weekAgo = pcalAddDaysISO(today, -7);
+    (state.promotions || []).forEach(function (p) {
+      if (!promoIsActive(p)) return;
+      var dl = daysUntil(p.endDate);
+      if (dl === 0) expToday++;
+      if (dl != null && dl >= 0 && dl <= 7) expWeek++;
+      if (dl != null && dl >= 0 && dl <= 3) highPri++;
+      var created = (p.createdAt || '').slice(0, 10);
+      if (created && created >= weekAgo) newly++;
+    });
+    el.innerHTML =
+      '<div class="ccd-pcal-notif ccd-pcal-notif--critical"><span class="ccd-pcal-notif__label">Expiring Today</span><span class="ccd-pcal-notif__value">' + expToday + '</span></div>' +
+      '<div class="ccd-pcal-notif ccd-pcal-notif--high"><span class="ccd-pcal-notif__label">Expiring This Week</span><span class="ccd-pcal-notif__value">' + expWeek + '</span></div>' +
+      '<div class="ccd-pcal-notif"><span class="ccd-pcal-notif__label">Highest Priority</span><span class="ccd-pcal-notif__value">' + highPri + '</span></div>' +
+      '<div class="ccd-pcal-notif"><span class="ccd-pcal-notif__label">Newly Added</span><span class="ccd-pcal-notif__value">' + newly + '</span></div>';
+  }
+
+  function renderPcalAi() {
+    var list = $('ccdPcalAiList');
+    if (!list) return;
+    var recs = [];
+    var seen = {};
+    // Recommendations ONLY from imported/active KB promotions
+    var promos = (state.promotions || []).filter(promoIsActive).slice().sort(function (a, b) {
+      return (daysUntil(a.endDate) || 999) - (daysUntil(b.endDate) || 999);
+    });
+    promos.forEach(function (p) {
+      var key = p.id || p.promotionId;
+      if (seen[key]) return;
+      seen[key] = true;
+      var dl = daysUntil(p.endDate);
+      if (dl == null || dl < 0) return;
+      var merch = p.merchant || 'Merchant';
+      var title = p.offerTitle || formatDeal(p);
+      var msg;
+      if (dl === 0) msg = merch + ' — ' + title + ' ends today. Use it before midnight.';
+      else if (dl === 1) msg = merch + ' — ' + title + ' ends tomorrow.';
+      else if (dl <= 7) msg = merch + ' ' + title + ' should be used this week (' + dl + ' days left).';
+      else if (dl <= 14) msg = merch + ' promotion expires in ' + dl + ' days — plan a purchase.';
+      else if (p.featured) msg = 'Featured: ' + merch + ' — ' + title + ' (' + dl + ' days remaining).';
+      else return;
+      recs.push({ msg: msg, daysLeft: dl, promo: p });
+    });
+    recs = recs.slice(0, 6);
+    if (!recs.length) {
+      list.innerHTML = '<p class="ccd-pcal__empty" style="margin:0">Chưa có recommendation. Import/add Active promotions ở Section 3.</p>';
+      return;
+    }
+    list.innerHTML = recs.map(function (r) {
+      return '<button type="button" class="ccd-pcal__ai-item" data-pcal-promo="' + esc(r.promo.id || r.promo.promotionId || '') + '">• ' + esc(r.msg) + '</button>';
+    }).join('');
+  }
+
+  function pcalNoteHtml(n, compact) {
+    var badge = pcalPriorityLabel(n.priority);
+    if (compact) {
+      return '<button type="button" class="ccd-pcal-note ccd-pcal-note--' + n.priority + '" data-pcal-id="' + esc(n.id) + '" title="' + esc(n.offer) + '">' +
+        '<span class="ccd-pcal-note__line1">' + esc(n.merchant || n.bank) + '</span>' +
+        '<span class="ccd-pcal-note__line2">' + esc(n.kindLabel) + ' · ' + n.daysLeft + 'd</span>' +
+        '</button>';
+    }
+    return '<button type="button" class="ccd-pcal-agenda ccd-pcal-note--' + n.priority + '" data-pcal-id="' + esc(n.id) + '">' +
+      '<div class="ccd-pcal-agenda__date">' + esc(n.date) + '<br><span class="ccd-pcal-priority ccd-pcal-priority--' + n.priority + '">' + badge + '</span></div>' +
+      '<div class="ccd-pcal-agenda__body">' +
+      '<p class="ccd-pcal-agenda__title">🏦 ' + esc(n.bank) + ' · 💳 ' + esc(n.card) + '</p>' +
+      '<p class="ccd-pcal-agenda__meta">🏪 ' + esc(n.merchant) + ' · 🎁 ' + esc(n.offer) + '</p>' +
+      '<p class="ccd-pcal-agenda__meta">⏳ ' + n.daysLeft + ' days remaining · ' + esc(n.kindLabel) + ' · ' + esc(n.deal) + '</p>' +
+      '</div></button>';
+  }
+
+  function renderPcalMonthGrid(filtered, rangeStart, rangeEnd, mode) {
+    var monthEl = $('ccdPcalMonth');
+    var listEl = $('ccdPcalList');
+    if (!monthEl) return;
+    monthEl.hidden = false;
+    if (listEl) listEl.hidden = true;
+
+    var byDate = {};
+    filtered.forEach(function (n) {
+      if (n.date < rangeStart || n.date > rangeEnd) return;
+      if (!byDate[n.date]) byDate[n.date] = [];
+      byDate[n.date].push(n);
+    });
+
+    var html = '<div class="ccd-pcal__dow">Mon</div><div class="ccd-pcal__dow">Tue</div><div class="ccd-pcal__dow">Wed</div>' +
+      '<div class="ccd-pcal__dow">Thu</div><div class="ccd-pcal__dow">Fri</div><div class="ccd-pcal__dow">Sat</div><div class="ccd-pcal__dow">Sun</div>';
+
+    var cursor = pcalEnsureCursor();
+    var start = mode === 'week' ? pcalStartOfWeek(cursor) : (function () {
+      var first = new Date(cursor.getFullYear(), cursor.getMonth(), 1);
+      return pcalStartOfWeek(first);
+    })();
+    var cells = mode === 'week' ? 7 : 42;
+    var today = todayISO();
+    var month = cursor.getMonth();
+
+    for (var i = 0; i < cells; i++) {
+      var cell = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i);
+      var iso = pcalDateISO(cell);
+      var inMonth = mode === 'week' || cell.getMonth() === month;
+      var notes = byDate[iso] || [];
+      var cls = 'ccd-pcal__day';
+      if (!inMonth && mode === 'month') cls += ' ccd-pcal__day--muted';
+      if (iso === today) cls += ' ccd-pcal__day--today';
+      html += '<div class="' + cls + '" data-date="' + iso + '">';
+      html += '<div class="ccd-pcal__date">' + cell.getDate() + '</div>';
+      if (inMonth || mode === 'week') {
+        var maxShow = 3;
+        notes.slice(0, maxShow).forEach(function (n) { html += pcalNoteHtml(n, true); });
+        if (notes.length > maxShow) {
+          html += '<div class="ccd-pcal__more">+' + (notes.length - maxShow) + ' more</div>';
+        }
+      }
+      html += '</div>';
+    }
+    monthEl.innerHTML = html;
+  }
+
+  function renderPcalListView(filtered) {
+    var monthEl = $('ccdPcalMonth');
+    var listEl = $('ccdPcalList');
+    if (monthEl) monthEl.hidden = true;
+    if (!listEl) return;
+    listEl.hidden = false;
+    if (!filtered.length) {
+      listEl.innerHTML = '';
+      return;
+    }
+    listEl.innerHTML = filtered.map(function (n) { return pcalNoteHtml(n, false); }).join('');
+  }
+
+  function updatePcalLabel() {
+    var el = $('ccdPcalLabel');
+    if (!el) return;
+    var c = pcalEnsureCursor();
+    var v = state.pcal.view;
+    if (v === 'month') {
+      el.textContent = PCAL_MONTHS_VI[c.getMonth()] + ' ' + c.getFullYear();
+    } else if (v === 'week') {
+      var ws = pcalStartOfWeek(c);
+      var we = new Date(ws.getFullYear(), ws.getMonth(), ws.getDate() + 6);
+      el.textContent = pcalDateISO(ws) + ' → ' + pcalDateISO(we);
+    } else if (v === 'today') {
+      el.textContent = 'Today · ' + todayISO();
+    } else if (v === 'upcoming') {
+      el.textContent = 'Upcoming';
+    } else {
+      el.textContent = 'Agenda';
+    }
+  }
+
+  function openPcalDrawer(note) {
+    var drawer = $('ccdPcalDrawer');
+    if (!drawer || !note) return;
+    var p = note.promo || {};
+    var badge = $('ccdPcalDrawerBadge');
+    var title = $('ccdPcalDrawerTitle');
+    var merch = $('ccdPcalDrawerMerchant');
+    var cd = $('ccdPcalDrawerCountdown');
+    var desc = $('ccdPcalDrawerDesc');
+    var meta = $('ccdPcalDrawerMeta');
+    var terms = $('ccdPcalDrawerTerms');
+    var link = $('ccdPcalDrawerLink');
+
+    if (badge) {
+      badge.innerHTML = '<span class="ccd-pcal-priority ccd-pcal-priority--' + note.priority + '">' +
+        pcalPriorityLabel(note.priority) + '</span> · ' + esc(note.kindLabel);
+    }
+    if (title) title.textContent = note.offer || p.offerTitle || 'Promotion';
+    if (merch) merch.textContent = note.merchant || p.merchant || '';
+    if (cd) cd.textContent = '⏳ ' + note.daysLeft + ' days remaining';
+    if (desc) desc.textContent = p.shortDescription || p.description || '';
+    var rows = [
+      ['Discount / Cashback / Installment', note.deal + (p.installmentMonths ? ' · ' + p.installmentMonths + ' mo' : '')],
+      ['Minimum Spend', formatNum(p.minimumSpend || 0) + ' VND'],
+      ['Eligible Cards', note.card || '—'],
+      ['Promo Code', p.promoCode || '—'],
+      ['Start Date', p.startDate || '—'],
+      ['End Date', p.endDate || '—'],
+      ['Remaining Days', String(note.daysLeft)],
+      ['Bank', note.bank || p.bank || '—'],
+      ['Category', p.category || '—'],
+      ['Type', note.type || '—']
+    ];
+    if (meta) {
+      meta.innerHTML = rows.map(function (r) {
+        return '<div><span>' + esc(r[0]) + '</span><strong>' + esc(r[1]) + '</strong></div>';
+      }).join('');
+    }
+    if (terms) terms.textContent = p.terms ? ('Terms: ' + p.terms) : '';
+    var url = (p.officialUrl || p.applyLink || '').trim();
+    if (link) {
+      if (url) {
+        link.href = url;
+        link.classList.remove('ccd-pcal-drawer__link-disabled');
+        link.removeAttribute('aria-disabled');
+      } else {
+        link.href = '#';
+        link.classList.add('ccd-pcal-drawer__link-disabled');
+        link.setAttribute('aria-disabled', 'true');
+      }
+    }
+    drawer.hidden = false;
+  }
+
+  function closePcalDrawer() {
+    var drawer = $('ccdPcalDrawer');
+    if (drawer) drawer.hidden = true;
+  }
+
+  function findPcalNoteById(id, notes) {
+    for (var i = 0; i < notes.length; i++) {
+      if (notes[i].id === id) return notes[i];
+    }
+    return null;
+  }
+
+  function renderPromoCalendar() {
+    pcalEnsureCursor();
+    var all = buildPcalReminders();
+    populatePcalFilters(all);
+    var filtered = pcalApplyFilters(all);
+    renderPcalNotifs();
+    renderPcalAi();
+    updatePcalLabel();
+
+    // view buttons
+    document.querySelectorAll('[data-pcal-view]').forEach(function (btn) {
+      btn.classList.toggle('is-active', btn.getAttribute('data-pcal-view') === state.pcal.view);
+    });
+
+    var empty = $('ccdPcalEmpty');
+    var view = state.pcal.view;
+    var c = pcalEnsureCursor();
+    var today = todayISO();
+    var showList = view === 'agenda' || view === 'upcoming' || view === 'today';
+    var listNotes = filtered;
+
+    if (view === 'today') {
+      listNotes = filtered.filter(function (n) { return n.date === today; });
+    } else if (view === 'upcoming') {
+      listNotes = filtered.filter(function (n) { return n.date >= today; }).slice(0, 60);
+    } else if (view === 'agenda') {
+      listNotes = filtered.slice().sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
+    }
+
+    if (view === 'month') {
+      var y = c.getFullYear(), m = c.getMonth();
+      var start = pcalDateISO(new Date(y, m, 1));
+      var end = pcalDateISO(new Date(y, m + 1, 0));
+      renderPcalMonthGrid(filtered, start, end, 'month');
+    } else if (view === 'week') {
+      var ws = pcalStartOfWeek(c);
+      var we = new Date(ws.getFullYear(), ws.getMonth(), ws.getDate() + 6);
+      renderPcalMonthGrid(filtered, pcalDateISO(ws), pcalDateISO(we), 'week');
+    } else {
+      renderPcalListView(listNotes);
+    }
+
+    var countForEmpty = showList ? listNotes.length : filtered.length;
+    if (empty) empty.hidden = countForEmpty > 0;
+
+    // store last notes for click handlers
+    state.pcal._notes = all;
+    state.pcal._filtered = filtered;
+  }
+
+  function initPromoCalendar() {
+    pcalEnsureCursor();
+
+    document.querySelectorAll('[data-pcal-view]').forEach(function (btn) {
+      on(btn, 'click', function () {
+        state.pcal.view = btn.getAttribute('data-pcal-view') || 'month';
+        if (state.pcal.view === 'today') {
+          var d = new Date(); d.setHours(0, 0, 0, 0); state.pcal.cursor = d;
+        }
+        renderPromoCalendar();
+      });
+    });
+
+    on($('ccdPcalPrev'), 'click', function () {
+      var c = pcalEnsureCursor();
+      var v = state.pcal.view;
+      if (v === 'week') c.setDate(c.getDate() - 7);
+      else if (v === 'month') c.setMonth(c.getMonth() - 1);
+      else c.setDate(c.getDate() - 7);
+      state.pcal.cursor = c;
+      renderPromoCalendar();
+    });
+    on($('ccdPcalNext'), 'click', function () {
+      var c = pcalEnsureCursor();
+      var v = state.pcal.view;
+      if (v === 'week') c.setDate(c.getDate() + 7);
+      else if (v === 'month') c.setMonth(c.getMonth() + 1);
+      else c.setDate(c.getDate() + 7);
+      state.pcal.cursor = c;
+      renderPromoCalendar();
+    });
+    on($('ccdPcalToday'), 'click', function () {
+      var d = new Date(); d.setHours(0, 0, 0, 0);
+      state.pcal.cursor = d;
+      renderPromoCalendar();
+    });
+
+    ['ccdPcalBank', 'ccdPcalCard', 'ccdPcalMerchant', 'ccdPcalCat', 'ccdPcalType', 'ccdPcalPriority', 'ccdPcalFeatured', 'ccdPcalStatus'].forEach(function (id) {
+      on($(id), 'change', function () {
+        var map = {
+          ccdPcalBank: 'bank', ccdPcalCard: 'card', ccdPcalMerchant: 'merchant',
+          ccdPcalCat: 'category', ccdPcalType: 'type', ccdPcalPriority: 'priority',
+          ccdPcalFeatured: 'featured', ccdPcalStatus: 'status'
+        };
+        state.pcal.filters[map[id]] = this.value || '';
+        renderPromoCalendar();
+      });
+    });
+
+    function onNoteClick(e) {
+      var t = e.target.closest('[data-pcal-id]');
+      if (!t) {
+        var ai = e.target.closest('[data-pcal-promo]');
+        if (ai) {
+          var pid = ai.getAttribute('data-pcal-promo');
+          var notes = state.pcal._notes || [];
+          var found = notes.find(function (n) {
+            return String(n.promo && (n.promo.id || n.promo.promotionId)) === String(pid);
+          });
+          if (found) openPcalDrawer(found);
+        }
+        return;
+      }
+      var id = t.getAttribute('data-pcal-id');
+      var note = findPcalNoteById(id, state.pcal._notes || []);
+      if (note) openPcalDrawer(note);
+    }
+    on($('ccdPcalMonth'), 'click', onNoteClick);
+    on($('ccdPcalList'), 'click', onNoteClick);
+    on($('ccdPcalAiList'), 'click', onNoteClick);
+
+    on($('ccdPcalDrawerClose'), 'click', closePcalDrawer);
+    on($('ccdPcalDrawerBackdrop'), 'click', closePcalDrawer);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closePcalDrawer();
     });
   }
 
@@ -3770,6 +4326,7 @@
     initNav();
     initInputModule();
     initPromotionsModule();
+    initPromoCalendar();
     initDashboardControls();
     initDashPromoControls();
     initAssistant();
