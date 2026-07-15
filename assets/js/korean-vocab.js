@@ -929,8 +929,39 @@
     });
   }
 
+  /**
+   * Same format as Movie Calendar:
+   * Phiên bản dịch vụ: dd-mm-yyyy-sha_hh:mm:ss · UI-tag
+   * Reads /build-info.json written at deploy so user can see live commit.
+   */
+  var UI_TAG = 'remark-ko-1';
+  function loadVersionBadge() {
+    var el = $('kvVersionBadge');
+    if (!el) return;
+    var base = (document.body && document.body.getAttribute('data-site-base')) || '';
+    var url = String(base).replace(/\/$/, '') + '/build-info.json';
+    fetch(url)
+      .then(function (r) { return r.ok ? r.json() : null; })
+      ['catch'](function () { return null; })
+      .then(function (info) {
+        if (!info) {
+          el.textContent = 'Phiên bản dịch vụ: dev (' + UI_TAG + ')';
+          return;
+        }
+        var disp = String(info.generated_at_display || '').trim();
+        var sha = String(info.short_sha || info.sha || '').slice(0, 7);
+        // Movie Calendar format: "16-07-2026 01:28:53" → "16-07-2026-sha_01:28:53"
+        var label = disp
+          ? disp.replace(' ', '-' + sha + '_')
+          : (sha || 'unknown');
+        el.textContent = 'Phiên bản dịch vụ: ' + label + ' · ' + UI_TAG;
+        if (info.sha) el.title = 'Commit: ' + info.sha + (info.generated_at ? ' · ' + info.generated_at : '');
+      });
+  }
+
   function init() {
     initEvents();
+    loadVersionBadge();
     if (sessionStorage.getItem(SESSION_KEY) === '1') {
       showApp();
       bootstrapData();
