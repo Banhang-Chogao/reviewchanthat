@@ -1,7 +1,7 @@
 +++
 title = "Samsung Galaxy S26 Ultra: Six Months Later — An Honest Long-Term Review"
 seo_title = "Samsung Galaxy S26 Ultra Review After 6 Months: Is It Still Worth It in 2026?"
-commit = ""
+commit = "fd16b707"
 date = "2026-07-15T17:41:48+07:00"
 draft = false
 post_lang = "en"
