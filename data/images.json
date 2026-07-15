@@ -8712,7 +8712,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "samsung-galaxy-s26-ultra-six-month-review",
+      "title": "Samsung Galaxy S26 Ultra: Six Months Later — An Honest Long-Term Review",
+      "image_id": "img-824c43d6",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/four-smartphones-on-display-showing-various-screens-28902919/",
+      "direct_url": "https://images.pexels.com/photos/28902919/pexels-photo-28902919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Andrey Matveev",
+      "creator_url": "https://www.pexels.com/@zeleboba",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/samsung-galaxy-s26-ultra-six-month-review.jpg",
+      "output_path": "static/images/posts/samsung-galaxy-s26-ultra-six-month-review.webp",
+      "watermark_text": "Source: Pexels / Andrey Matveev",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "samsung galaxy s26 ultra six",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Samsung Galaxy S26 Ultra: Six Months Later — An Honest Long-Term Review — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-14T21:02:54.874271+00:00"
+  "generated_at": "2026-07-15T10:44:09.239315+00:00"
 }
