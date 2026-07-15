@@ -54,10 +54,10 @@
         <div class="ccd-gh-progress__sha" id="ccdGhProgressSha"></div>
       </div>
 
-      <!-- ═══ HOME: 3 modules ═══ -->
+      <!-- ═══ HOME: 4 modules ═══ -->
       <section class="ccd-home" id="ccdHome">
-        <p class="ccd-home__intro">Chọn module: nhập thẻ, xem dashboard, hoặc cập nhật khuyến mãi.</p>
-        <div class="ccd-home__grid ccd-home__grid--3">
+        <p class="ccd-home__intro">Chọn module: nhập thẻ, dashboard, knowledge base, hoặc lịch nhắc khuyến mãi.</p>
+        <div class="ccd-home__grid ccd-home__grid--4">
           <button type="button" class="ccd-home__card" id="ccdOpenInput" data-module="input">
             <span class="ccd-home__card-icon" aria-hidden="true">✏️</span>
             <span class="ccd-home__card-title">1. Input Data</span>
@@ -72,6 +72,11 @@
             <span class="ccd-home__card-icon" aria-hidden="true">🔥</span>
             <span class="ccd-home__card-title">3. Promotions Update</span>
             <span class="ccd-home__card-desc">Manage bank/card promotions (manual or Excel).</span>
+          </button>
+          <button type="button" class="ccd-home__card" id="ccdOpenPromoCal" data-module="promo-cal">
+            <span class="ccd-home__card-icon" aria-hidden="true">📅</span>
+            <span class="ccd-home__card-title">4. Promotion Calendar</span>
+            <span class="ccd-home__card-desc">Auto reminders from active KB promotions.</span>
           </button>
         </div>
       </section>
@@ -433,6 +438,88 @@
           <p class="ccd-input__empty" id="ccdPromoEmpty">Chưa có promotion. Tải template, import Excel, hoặc thêm thủ công.</p>
         </div>
       </section>
+
+      <!-- ═══ MODULE 4: PROMOTION CALENDAR (reads Section 3 KB only) ═══ -->
+      <section class="ccd-pcal" id="ccdPromoCal" style="display:none" hidden>
+        <div class="ccd-pcal__head">
+          <div>
+            <h2 class="ccd-pcal__title">4. Promotion Calendar</h2>
+            <p class="ccd-pcal__desc">Nhắc tự động từ <strong>Promotion Knowledge Base</strong> (Section 3) — không nhập tay, không nhân bản dữ liệu. Hết hạn → note biến mất.</p>
+          </div>
+        </div>
+
+        <div class="ccd-pcal__notifs" id="ccdPcalNotifs" aria-label="Notification summary"></div>
+
+        <div class="ccd-pcal__ai" id="ccdPcalAi" aria-label="AI recommendations">
+          <h3 class="ccd-pcal__ai-title">✨ Recommendations</h3>
+          <div class="ccd-pcal__ai-list" id="ccdPcalAiList"></div>
+        </div>
+
+        <div class="ccd-pcal__toolbar">
+          <div class="ccd-pcal__views" role="tablist">
+            <button type="button" class="ccd-pcal__view is-active" data-pcal-view="month">Month</button>
+            <button type="button" class="ccd-pcal__view" data-pcal-view="week">Week</button>
+            <button type="button" class="ccd-pcal__view" data-pcal-view="agenda">Agenda</button>
+            <button type="button" class="ccd-pcal__view" data-pcal-view="upcoming">Upcoming</button>
+            <button type="button" class="ccd-pcal__view" data-pcal-view="today">Today</button>
+          </div>
+          <div class="ccd-pcal__nav">
+            <button type="button" class="ccd-input__btn ccd-input__btn--small" id="ccdPcalPrev">◀</button>
+            <span class="ccd-pcal__label" id="ccdPcalLabel">—</span>
+            <button type="button" class="ccd-input__btn ccd-input__btn--small" id="ccdPcalNext">▶</button>
+            <button type="button" class="ccd-input__btn ccd-input__btn--small ccd-input__btn--primary" id="ccdPcalToday">Today</button>
+          </div>
+        </div>
+
+        <div class="ccd-pcal__filters">
+          <select id="ccdPcalBank" class="ccd-input__select"><option value="">Bank: All</option></select>
+          <select id="ccdPcalCard" class="ccd-input__select"><option value="">Card: All</option></select>
+          <select id="ccdPcalMerchant" class="ccd-input__select"><option value="">Merchant: All</option></select>
+          <select id="ccdPcalCat" class="ccd-input__select"><option value="">Category: All</option></select>
+          <select id="ccdPcalType" class="ccd-input__select"><option value="">Type: All</option></select>
+          <select id="ccdPcalPriority" class="ccd-input__select">
+            <option value="">Priority: All</option>
+            <option value="critical">Critical (1d)</option>
+            <option value="high">High (3d)</option>
+            <option value="medium">Medium (7–14d)</option>
+            <option value="normal">Normal (&gt;14d)</option>
+          </select>
+          <select id="ccdPcalFeatured" class="ccd-input__select">
+            <option value="">Featured: All</option>
+            <option value="yes">Featured only</option>
+          </select>
+          <select id="ccdPcalStatus" class="ccd-input__select">
+            <option value="active">Status: Active notes</option>
+            <option value="all">All notes</option>
+          </select>
+        </div>
+
+        <div class="ccd-pcal__month" id="ccdPcalMonth">
+          <div class="ccd-pcal__dow">Mon</div><div class="ccd-pcal__dow">Tue</div><div class="ccd-pcal__dow">Wed</div>
+          <div class="ccd-pcal__dow">Thu</div><div class="ccd-pcal__dow">Fri</div><div class="ccd-pcal__dow">Sat</div>
+          <div class="ccd-pcal__dow">Sun</div>
+        </div>
+        <div class="ccd-pcal__list" id="ccdPcalList" hidden></div>
+        <p class="ccd-pcal__empty" id="ccdPcalEmpty" hidden>Không có reminder. Thêm/import promotion Active ở Section 3.</p>
+      </section>
+
+      <!-- Promotion calendar note drawer -->
+      <div class="ccd-pcal-drawer" id="ccdPcalDrawer" hidden>
+        <div class="ccd-pcal-drawer__backdrop" id="ccdPcalDrawerBackdrop"></div>
+        <aside class="ccd-pcal-drawer__panel" role="dialog" aria-modal="true" aria-labelledby="ccdPcalDrawerTitle">
+          <button type="button" class="ccd-pcal-drawer__close" id="ccdPcalDrawerClose" aria-label="Close">✕</button>
+          <div class="ccd-pcal-drawer__body">
+            <p class="ccd-pcal-drawer__badge" id="ccdPcalDrawerBadge"></p>
+            <h2 class="ccd-pcal-drawer__title" id="ccdPcalDrawerTitle"></h2>
+            <p class="ccd-pcal-drawer__merchant" id="ccdPcalDrawerMerchant"></p>
+            <p class="ccd-pcal-drawer__countdown" id="ccdPcalDrawerCountdown"></p>
+            <p class="ccd-pcal-drawer__desc" id="ccdPcalDrawerDesc"></p>
+            <div class="ccd-pcal-drawer__meta" id="ccdPcalDrawerMeta"></div>
+            <p class="ccd-pcal-drawer__terms" id="ccdPcalDrawerTerms"></p>
+            <a class="ccd-input__btn ccd-input__btn--primary" id="ccdPcalDrawerLink" href="#" target="_blank" rel="noopener noreferrer">Open Official Promotion</a>
+          </div>
+        </aside>
+      </div>
 
       <!-- ═══ MODULE 2: DASHBOARD (existing UI structure) ═══ -->
       <div id="ccdDashboard" style="display:none" hidden>
