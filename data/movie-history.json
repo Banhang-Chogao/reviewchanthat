@@ -1,19 +1,4 @@
 {
-  "movies": [
-    {
-      "id": "mrl52vfy24nlhi1z",
-      "title": "kkk",
-      "year": 2024,
-      "rating": 5,
-      "status": "watching",
-      "summary": "kkkk",
-      "specials": [
-        "favorite"
-      ],
-      "date": "2026-07-02",
-      "created": 1784063055022,
-      "updated": 1784063055022
-    }
-  ],
-  "updatedAt": "2026-07-15T13:36:51.802Z"
+  "movies": [],
+  "updatedAt": "2026-07-15T13:52:00.413Z"
 }
