@@ -7,6 +7,7 @@ from datetime import date
 from typing import Any, Dict, List, Optional
 
 from .allowlist import assert_allowed_url, is_allowed_url
+from .crawl_report import CrawlReport, format_report_text
 from .normalize import dedupe_promotions, normalize_promotion
 from .parsers import parse_url
 
@@ -22,6 +23,9 @@ class ImportReport:
     source_url: str = ""
     parser: str = ""
     engine: str = ""
+    crawl_report: Optional[Dict[str, Any]] = None
+    crawl_report_text: str = ""
+    import_blocked: bool = False
 
     def as_dict(self) -> Dict[str, Any]:
         return {
@@ -34,6 +38,9 @@ class ImportReport:
             "source_url": self.source_url,
             "parser": self.parser,
             "engine": self.engine,
+            "crawl_report": self.crawl_report,
+            "crawl_report_text": self.crawl_report_text,
+            "import_blocked": self.import_blocked,
         }
 
 
@@ -42,12 +49,16 @@ def import_from_url(
     *,
     existing: Optional[List[Dict[str, Any]]] = None,
     skip_expired: bool = False,
-    prefer_browser: bool = False,
+    prefer_browser: bool = True,
 ) -> ImportReport:
     """
     Crawl + extract + normalize promotions from one official URL.
 
+    Prefer Playwright browser crawl (prefer_browser=True by default).
     Does not write storage — caller merges into Visa Promo dataset.
+
+    Integrity: if crawl report status is failed (count mismatch / Starbucks
+    on listing missing from import), promotions are not imported.
     """
     report = ImportReport(source_url=(url or "").strip())
     existing = existing or []
@@ -73,19 +84,68 @@ def import_from_url(
     report.parser = batch.parser
     report.engine = batch.engine
     report.warnings.extend(batch.warnings or [])
+    meta = batch.meta or {}
+    report.crawl_report = meta.get("crawl_report")
+    report.crawl_report_text = meta.get("crawl_report_text") or ""
+    report.import_blocked = bool(meta.get("import_blocked"))
 
+    if report.import_blocked:
+        cr = report.crawl_report or {}
+        report.failures.append(
+            "Import blocked by crawl integrity check "
+            f"(listing={cr.get('listing_promotions_found')} "
+            f"visited={cr.get('detail_pages_visited')} "
+            f"parsed={cr.get('successfully_parsed')} "
+            f"missing={cr.get('missing_promotions')} "
+            f"starbucks_failed={cr.get('starbucks_check_failed')})"
+        )
+        if not report.crawl_report_text and report.crawl_report:
+            # best-effort text
+            try:
+                tmp = CrawlReport(source_url=report.source_url)
+                for k, v in report.crawl_report.items():
+                    if hasattr(tmp, k):
+                        setattr(tmp, k, v)
+                report.crawl_report_text = format_report_text(tmp)
+            except Exception:
+                pass
+        report.promotions = []
+        report.imported = 0
+        return report
+
+    before_dedupe = len(batch.promotions)
     normalized = [normalize_promotion(p, source_url=report.source_url) for p in batch.promotions]
     normalized = dedupe_promotions(normalized)
+    deduped = before_dedupe - len(normalized)
+    if deduped > 0:
+        report.warnings.append(f"Removed {deduped} duplicates in batch")
+        if report.crawl_report and isinstance(report.crawl_report, dict):
+            report.crawl_report["duplicates_removed"] = (
+                int(report.crawl_report.get("duplicates_removed") or 0) + deduped
+            )
+
+    # Surface count mismatch as warnings (do not silently drop context)
+    if report.crawl_report and isinstance(report.crawl_report, dict):
+        if report.crawl_report.get("count_mismatch") or report.crawl_report.get("missing_promotions"):
+            missing = report.crawl_report.get("missing_promotions") or []
+            report.warnings.append(
+                "Crawl count mismatch — missing: " + (", ".join(missing[:12]) or "(see crawl report)")
+            )
+        if report.crawl_report.get("starbucks_check_failed"):
+            report.import_blocked = True
+            report.failures.append(
+                "CRAWL FAILED: listing contains Starbucks but imported dataset does not."
+            )
+            report.promotions = []
+            report.imported = 0
+            return report
 
     existing_ids = {
         str(p.get("PromotionID") or "").lower()
         for p in existing
         if p.get("PromotionID")
     }
-    existing_fp = {
-        _fp(p)
-        for p in existing
-    }
+    existing_fp = {_fp(p) for p in existing}
 
     out: List[Dict[str, Any]] = []
     for p in normalized:
@@ -114,6 +174,31 @@ def import_from_url(
     report.promotions = out
     if not out and not report.failures:
         report.failures.append("No promotions extracted from page")
+
+    # Final dynamic Starbucks verification against listing cards in crawl report
+    if report.crawl_report and isinstance(report.crawl_report, dict):
+        cards = report.crawl_report.get("listing_cards") or []
+        listing_blob = " ".join(
+            str(c.get("merchant") or "") + " " + str(c.get("detail_url") or "") for c in cards
+        ).lower()
+        if "starbucks" in listing_blob:
+            imported_blob = " ".join(
+                str(p.get("Merchant") or "") + " " + str(p.get("OfferTitle") or "") for p in out
+            ).lower()
+            # If nothing imported solely due to existing duplicates, don't fail Starbucks
+            if "starbucks" not in imported_blob and report.imported > 0:
+                # Only fail if Starbucks was not even in the normalized batch
+                batch_blob = " ".join(
+                    str(p.get("Merchant") or "") for p in normalized
+                ).lower()
+                if "starbucks" not in batch_blob:
+                    report.import_blocked = True
+                    report.failures.append(
+                        "CRAWL FAILED: listing contains Starbucks but imported dataset does not."
+                    )
+                    report.promotions = []
+                    report.imported = 0
+
     return report
 
 

@@ -1,0 +1,1327 @@
+{
+  "source_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/?cardProduct=65&paymentType=9",
+  "generated_by": "scripts/visa_promo_import Playwright listing crawl",
+  "listing_promotions_found": 46,
+  "listing_cards": [
+    {
+      "source_id": "179176",
+      "slug": "dusit-thani",
+      "merchant": "Dusit Thani Giảm 10% giá phòng, ẩm thực và spa tại các khách sạn Dusit Thani tham gia",
+      "title": "Dusit Thani Giảm 10% giá phòng, ẩm thực và spa tại các khách sạn Dusit Thani tham gia",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/dusit-thani/179176",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "184",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "179244",
+      "slug": "admitkard",
+      "merchant": "AdmitKard Giảm đến 40% cho bài kiểm tra tâm lý và đến 25% cho visa du học sinh",
+      "title": "AdmitKard Giảm đến 40% cho bài kiểm tra tâm lý và đến 25% cho visa du học sinh",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/admitkard/179244",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "184",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "173474",
+      "slug": "hotelscom",
+      "merchant": "Hotels.com Tận hưởng ưu đãi lên đến 8% trên Hotels.com khi thanh toán bằng Visa.",
+      "title": "Hotels.com Tận hưởng ưu đãi lên đến 8% trên Hotels.com khi thanh toán bằng Visa.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/hotelscom/173474",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "166",
+        "139",
+        "9",
+        "183",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "172108",
+      "slug": "visa-golf-benefits",
+      "merchant": "Visa Golf Benefits Đặc Quyền Sân Golf: Ưu Đãi Lên Đến 1 Triệu Với Thẻ Visa Signature và Visa Infinite",
+      "title": "Visa Golf Benefits Đặc Quyền Sân Golf: Ưu Đãi Lên Đến 1 Triệu Với Thẻ Visa Signature và Visa Infinite",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/visa-golf-benefits/172108",
+      "cardProductTypes": [
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "178938",
+      "slug": "sun-group",
+      "merchant": "Sun Group Mở lối thế giới đặc quyền từ Sun Group - Dành riêng cho chủ thẻ Visa",
+      "title": "Sun Group Mở lối thế giới đặc quyền từ Sun Group - Dành riêng cho chủ thẻ Visa",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/sun-group/178938",
+      "cardProductTypes": [
+        "15",
+        "16",
+        "17",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "173472",
+      "slug": "gha-discovery",
+      "merchant": "GHA DISCOVERY Đối sánh hạng thành viên GHA DISCOVERY miễn phí cùng Visa.",
+      "title": "GHA DISCOVERY Đối sánh hạng thành viên GHA DISCOVERY miễn phí cùng Visa.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/gha-discovery/173472",
+      "cardProductTypes": [
+        "66",
+        "15",
+        "16",
+        "140",
+        "173",
+        "184",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "129",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "172904",
+      "slug": "mitsui-outlet-park",
+      "merchant": "Mitsui Outlet Park Nhận tập phiếu giảm giá lên đến 10% cùng với miếng Kyusoku jikan cooling sheet miễn phí",
+      "title": "Mitsui Outlet Park Nhận tập phiếu giảm giá lên đến 10% cùng với miếng Kyusoku jikan cooling sheet miễn phí",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/mitsui-outlet-park/172904",
+      "cardProductTypes": [
+        "66",
+        "129",
+        "140",
+        "42",
+        "141",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "178018",
+      "slug": "d%E1%BA%B7c-quy%E1%BB%81n-%E1%BA%A9m-th%E1%BB%B1c-cao-c%E1%BA%A5p-c%E1%BB%A7a-visa-vi%E1%BB%87t-nam",
+      "merchant": "Đặc Quyền Ẩm Thực Cao Cấp của Visa Việt Nam Đặc Quyền Ẩm Thực Đẳng Cấp Visa Tận hưởng ưu đãi lên đến 50% cùng quà tặng sinh nhật dành riêng cho bạn",
+      "title": "Đặc Quyền Ẩm Thực Cao Cấp của Visa Việt Nam Đặc Quyền Ẩm Thực Đẳng Cấp Visa Tận hưởng ưu đãi lên đến 50% cùng quà tặng sinh nhật dành riêng cho bạn",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/d%E1%BA%B7c-quy%E1%BB%81n-%E1%BA%A9m-th%E1%BB%B1c-cao-c%E1%BA%A5p-c%E1%BB%A7a-visa-vi%E1%BB%87t-nam/178018",
+      "cardProductTypes": [
+        "124",
+        "125",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "173096",
+      "slug": "swiss-belhotel-international",
+      "merchant": "Swiss Belhotel International Nhận ưu đãi giảm 25% khi đặt 2 đêm tại khách sạn Swiss-Belhotel International trên toàn cầu, bao gồm bữa sáng hàng ngày",
+      "title": "Swiss Belhotel International Nhận ưu đãi giảm 25% khi đặt 2 đêm tại khách sạn Swiss-Belhotel International trên toàn cầu, bao gồm bữa sáng hàng ngày",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/swiss-belhotel-international/173096",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "172676",
+      "slug": "banyan-group",
+      "merchant": "Banyan Group Nhận ưu đãi giảm 20% trên Best Available Rates, cùng với các quyền lợi độc quyền cho kỳ nghỉ tối thiểu 2 đêm tại các khách sạn tham gia trên toàn thế giới.",
+      "title": "Banyan Group Nhận ưu đãi giảm 20% trên Best Available Rates, cùng với các quyền lợi độc quyền cho kỳ nghỉ tối thiểu 2 đêm tại các khách sạn tham gia trên toàn thế giới.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/banyan-group/172676",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "178960",
+      "slug": "acfc",
+      "merchant": "ACFC Tận hưởng ưu đãi lên đến 500.000đ khi thanh toán Apple Pay bằng thẻ Visa tại các thương hiệu thuộc ACFC",
+      "title": "ACFC Tận hưởng ưu đãi lên đến 500.000đ khi thanh toán Apple Pay bằng thẻ Visa tại các thương hiệu thuộc ACFC",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/acfc/178960",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "178872",
+      "slug": "hotelux",
+      "merchant": "HoteLux Quyền lợi nâng hạng thành viên HoteLux Elite.",
+      "title": "HoteLux Quyền lợi nâng hạng thành viên HoteLux Elite.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/hotelux/178872",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "184",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "174660",
+      "slug": "klook",
+      "merchant": "Klook Nhận voucher 300.000 VNĐ khi thanh toán Apple Pay với thẻ Visa tại Klook",
+      "title": "Klook Nhận voucher 300.000 VNĐ khi thanh toán Apple Pay với thẻ Visa tại Klook",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/klook/174660",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "140",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "163926",
+      "slug": "cgv",
+      "merchant": "CGV Mua 2 vé CGV Tặng Combo 1 bắp 2 nước với Visa Apple Pay",
+      "title": "CGV Mua 2 vé CGV Tặng Combo 1 bắp 2 nước với Visa Apple Pay",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/cgv/163926",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "140",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "177720",
+      "slug": "ihg-hotels-resorts",
+      "merchant": "IHG Hotels & Resorts Thăng hạng nhanh lên IHG One Rewards Elite cùng Visa.",
+      "title": "IHG Hotels & Resorts Thăng hạng nhanh lên IHG One Rewards Elite cùng Visa.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/ihg-hotels-resorts/177720",
+      "cardProductTypes": [
+        "66",
+        "129",
+        "140",
+        "184",
+        "42",
+        "141",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "178498",
+      "slug": "banyan-tree-gallery",
+      "merchant": "Banyan Tree Gallery Giảm 15% tại Banyan Tree Gallery.",
+      "title": "Banyan Tree Gallery Giảm 15% tại Banyan Tree Gallery.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/banyan-tree-gallery/178498",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "184",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "172618",
+      "slug": "ascott-star-rewards",
+      "merchant": "Ascott Star Rewards Ascott Star Rewards - Nâng hạng Gold với chi tiêu tối thiểu SGD1,500 trong vòng 6 tháng (Giá gốc SGD3,000)",
+      "title": "Ascott Star Rewards Ascott Star Rewards - Nâng hạng Gold với chi tiêu tối thiểu SGD1,500 trong vòng 6 tháng (Giá gốc SGD3,000)",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/ascott-star-rewards/172618",
+      "cardProductTypes": [
+        "129",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "115045",
+      "slug": "mg-hospitality-meet-assist-service",
+      "merchant": "M&G Hospitality (meet & assist) service Các chủ thẻ Visa Platinum, Visa Signature và Visa Infinite được giảm giá khi sử dụng dịch vụ nhập cảnh nhanh tại hơn 450 sân bay trên toàn thế giới",
+      "title": "M&G Hospitality (meet & assist) service Các chủ thẻ Visa Platinum, Visa Signature và Visa Infinite được giảm giá khi sử dụng dịch vụ nhập cảnh nhanh tại hơn 450 sân bay trên toàn thế giới",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/mg-hospitality-meet-assist-service/115045",
+      "cardProductTypes": [
+        "15",
+        "129",
+        "42",
+        "130",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "174324",
+      "slug": "visa-luxury-travel-experiences",
+      "merchant": "Visa Luxury Travel Experiences Bộ sưu tập chỗ ở sang trọng được tuyển chọn, kết hợp với những trải nghiệm du lịch độc quyền dành cho chủ thẻ Visa.",
+      "title": "Visa Luxury Travel Experiences Bộ sưu tập chỗ ở sang trọng được tuyển chọn, kết hợp với những trải nghiệm du lịch độc quyền dành cho chủ thẻ Visa.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/visa-luxury-travel-experiences/174324",
+      "cardProductTypes": [
+        "66",
+        "129",
+        "140",
+        "42",
+        "141",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "9",
+        "183",
+        "10"
+      ]
+    },
+    {
+      "source_id": "150837",
+      "slug": "ihg-hotels-resorts",
+      "merchant": "IHG Hotels & Resorts Uu đãi 20% cho các kỳ nghỉ của bạn tại các khách sạn IHG trên khắp Châu Á - Thái Bình Dương khi thanh toán thẻ Visa.",
+      "title": "IHG Hotels & Resorts Uu đãi 20% cho các kỳ nghỉ của bạn tại các khách sạn IHG trên khắp Châu Á - Thái Bình Dương khi thanh toán thẻ Visa.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/ihg-hotels-resorts/150837",
+      "cardProductTypes": [
+        "15",
+        "16",
+        "17",
+        "140",
+        "184",
+        "130",
+        "141",
+        "131",
+        "143",
+        "124",
+        "125",
+        "126",
+        "129",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "175056",
+      "slug": "the-bicester-collection",
+      "merchant": "The Bicester Collection Chủ thẻ Visa quốc tế được hưởng ưu đãi giảm 10% so với giá Village tại các cửa hàng boutique tham gia chương trình trong các Village tham gia sau đây khi sử dụng VIP Pass hoặc",
+      "title": "The Bicester Collection Chủ thẻ Visa quốc tế được hưởng ưu đãi giảm 10% so với giá Village tại các cửa hàng boutique tham gia chương trình trong các Village tham gia sau đây khi sử dụng VIP Pass hoặc",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/the-bicester-collection/175056",
+      "cardProductTypes": [
+        "15",
+        "16",
+        "17",
+        "140",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "166",
+        "139",
+        "9",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "177882",
+      "slug": "el-corte-ingles",
+      "merchant": "El Corte Inglés Mua sắm tại El Corte Inglés và nhận thẻ trả trước Visa trị giá €100 khi thực hiện giao dịch mua miễn thuế từ €1.500 trở lên bằng thẻ Visa được phát hành ngoài Liên minh Châu Âu.",
+      "title": "El Corte Inglés Mua sắm tại El Corte Inglés và nhận thẻ trả trước Visa trị giá €100 khi thực hiện giao dịch mua miễn thuế từ €1.500 trở lên bằng thẻ Visa được phát hành ngoài Liên minh Châu Âu.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/el-corte-ingles/177882",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "177866",
+      "slug": "bookingcom",
+      "merchant": "Booking.com Nhận tối đa 7% tín dụng ví Booking.com khi thanh toán bằng thẻ Visa của bạn.",
+      "title": "Booking.com Nhận tối đa 7% tín dụng ví Booking.com khi thanh toán bằng thẻ Visa của bạn.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/bookingcom/177866",
+      "cardProductTypes": [
+        "66",
+        "15",
+        "129",
+        "182",
+        "140",
+        "42",
+        "130",
+        "141",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "166",
+        "139",
+        "9",
+        "183",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "177864",
+      "slug": "agoda",
+      "merchant": "Agoda Tận hưởng ưu đãi giảm giá 7% cho khách sạn trên toàn thế giới trên Agoda khi thanh toán bằng thẻ Visa của bạn.",
+      "title": "Agoda Tận hưởng ưu đãi giảm giá 7% cho khách sạn trên toàn thế giới trên Agoda khi thanh toán bằng thẻ Visa của bạn.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/agoda/177864",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "166",
+        "139",
+        "9",
+        "183",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "177762",
+      "slug": "visa-elite-dining",
+      "merchant": "Visa Elite Dining Tận hưởng đặc quyền ẩm thực tại những nhà hàng hàng đầu khắp khu vực Châu Á – Thái Bình Dương. Nhận quyền ưu tiên đặt bàn cho 4 khách tại những điểm đến ẩm thực được yêu thích nhất v",
+      "title": "Visa Elite Dining Tận hưởng đặc quyền ẩm thực tại những nhà hàng hàng đầu khắp khu vực Châu Á – Thái Bình Dương. Nhận quyền ưu tiên đặt bàn cho 4 khách tại những điểm đến ẩm thực được yêu thích nhất v",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/visa-elite-dining/177762",
+      "cardProductTypes": [
+        "66",
+        "129",
+        "140",
+        "42",
+        "141",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "174504",
+      "slug": "comoclub",
+      "merchant": "Comoclub Visa Signature: Thăng hạng nhanh lên mức thành viên Comoclub C4.",
+      "title": "Comoclub Visa Signature: Thăng hạng nhanh lên mức thành viên Comoclub C4.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/comoclub/174504",
+      "cardProductTypes": [
+        "66",
+        "129",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "178022",
+      "slug": "shopee",
+      "merchant": "Shopee SHOPEE X VISA – SIÊU HỘI MUA SẮM",
+      "title": "Shopee SHOPEE X VISA – SIÊU HỘI MUA SẮM",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/shopee/178022",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "177994",
+      "slug": "starbucks",
+      "merchant": "Starbucks Visa x Starbucks - Khơi nguồn cảm hứng",
+      "title": "Starbucks Visa x Starbucks - Khơi nguồn cảm hứng",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/starbucks/177994",
+      "cardProductTypes": [
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "177688",
+      "slug": "longchamp",
+      "merchant": "Longchamp Ưu đãi độc quyền dành cho thẻ Visa Signature & Visa Infinite tại Longchamp",
+      "title": "Longchamp Ưu đãi độc quyền dành cho thẻ Visa Signature & Visa Infinite tại Longchamp",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/longchamp/177688",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "166",
+        "139",
+        "9",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "175068",
+      "slug": "visa-luxury-hotel-collection-vlhc",
+      "merchant": "Visa Luxury Hotel Collection (VLHC) Nhận 1 đêm nghỉ miễn phí tại các cơ sở tham gia thuộc Visa Luxury Hotel Collection.",
+      "title": "Visa Luxury Hotel Collection (VLHC) Nhận 1 đêm nghỉ miễn phí tại các cơ sở tham gia thuộc Visa Luxury Hotel Collection.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/visa-luxury-hotel-collection-vlhc/175068",
+      "cardProductTypes": [
+        "66",
+        "15",
+        "129",
+        "140",
+        "184",
+        "42",
+        "130",
+        "141",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "174466",
+      "slug": "vff-app",
+      "merchant": "VFF App Ưu đãi 20% cho chủ thẻ Visa khi nâng hạng thành viên tại VFF App",
+      "title": "VFF App Ưu đãi 20% cho chủ thẻ Visa khi nâng hạng thành viên tại VFF App",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/vff-app/174466",
+      "cardProductTypes": [
+        "15",
+        "16",
+        "17",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "172054",
+      "slug": "tripcom",
+      "merchant": "Trip.com Siêu ưu đãi của Trip.com dành cho chủ thẻ Visa",
+      "title": "Trip.com Siêu ưu đãi của Trip.com dành cho chủ thẻ Visa",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/tripcom/172054",
+      "cardProductTypes": [
+        "15",
+        "16",
+        "17",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "173438",
+      "slug": "preferred-hotels-resorts",
+      "merchant": "Preferred Hotels & Resorts Một vòng chơi golf miễn phí khi lưu trú tối thiểu 2 đêm tại các khách sạn thuộc PPreferred Hotels & Resorts tham gia",
+      "title": "Preferred Hotels & Resorts Một vòng chơi golf miễn phí khi lưu trú tối thiểu 2 đêm tại các khách sạn thuộc PPreferred Hotels & Resorts tham gia",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/preferred-hotels-resorts/173438",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "173436",
+      "slug": "preferred-hotels-resorts",
+      "merchant": "Preferred Hotels & Resorts Tận hưởng ưu đãi giảm 10% trên Best Available Rates và bữa sáng miễn phí cho hai người tại các khách sạn thuộc Preferred Hotels & Resorts tham gia.",
+      "title": "Preferred Hotels & Resorts Tận hưởng ưu đãi giảm 10% trên Best Available Rates và bữa sáng miễn phí cho hai người tại các khách sạn thuộc Preferred Hotels & Resorts tham gia.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/preferred-hotels-resorts/173436",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "115002",
+      "slug": "tbr-global-chauffeuring",
+      "merchant": "TBR Global Chauffeuring Di chuyển an toàn và phong cách khi sử dụng Dịch Vụ Đưa Đón Sân Bay Cao Cấp TBR",
+      "title": "TBR Global Chauffeuring Di chuyển an toàn và phong cách khi sử dụng Dịch Vụ Đưa Đón Sân Bay Cao Cấp TBR",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/tbr-global-chauffeuring/115002",
+      "cardProductTypes": [
+        "15",
+        "129",
+        "42",
+        "130",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "163874",
+      "slug": "tam-son-group",
+      "merchant": "Tam Son Group Visa x Tam Sơn - Một chạm để khám phá thế giới bộ sưu tập tinh tuyển",
+      "title": "Tam Son Group Visa x Tam Sơn - Một chạm để khám phá thế giới bộ sưu tập tinh tuyển",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/tam-son-group/163874",
+      "cardProductTypes": [
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "173476",
+      "slug": "expedia",
+      "merchant": "Expedia Nhận ưu đãi lên đến 8% cho các đặt phòng khách sạn được chọn trên Expedia.",
+      "title": "Expedia Nhận ưu đãi lên đến 8% cho các đặt phòng khách sạn được chọn trên Expedia.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/expedia/173476",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "166",
+        "139",
+        "9",
+        "183",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "172626",
+      "slug": "agoda",
+      "merchant": "Agoda Nhận giảm giá tới 20% khi đặt phòng khách sạn trên toàn thế giới khi sử dụng thẻ Visa",
+      "title": "Agoda Nhận giảm giá tới 20% khi đặt phòng khách sạn trên toàn thế giới khi sử dụng thẻ Visa",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/agoda/172626",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "140",
+        "130",
+        "141",
+        "131",
+        "143",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "139",
+        "9",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "154489",
+      "slug": "dine-and-save-with-visa",
+      "merchant": "Dine and Save with Visa Dùng bữa với giá siêu hời, siêu tiết kiệm với Visa. Tận hưởng ưu đãi giảm đến 20% trên tổng hóa đơn tại vô vàn nhà hàng áp dụng trong chương trình.",
+      "title": "Dine and Save with Visa Dùng bữa với giá siêu hời, siêu tiết kiệm với Visa. Tận hưởng ưu đãi giảm đến 20% trên tổng hóa đơn tại vô vàn nhà hàng áp dụng trong chương trình.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/dine-and-save-with-visa/154489",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "86",
+        "10"
+      ]
+    },
+    {
+      "source_id": "169828",
+      "slug": "global-blue",
+      "merchant": "Global Blue Sử dụng các phòng chờ Global Blue độc quyền tại các thành phố lớn của Châu Âu để nhận các dịch vụ hoàn tiền thuế được cá nhân hóa trong một thế giới yên tĩnh. Ngoài ra, hãy bỏ qua việc xếp",
+      "title": "Global Blue Sử dụng các phòng chờ Global Blue độc quyền tại các thành phố lớn của Châu Âu để nhận các dịch vụ hoàn tiền thuế được cá nhân hóa trong một thế giới yên tĩnh. Ngoài ra, hãy bỏ qua việc xếp",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/global-blue/169828",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "174326",
+      "slug": "chiva-som",
+      "merchant": "Chiva-Som Giảm 10% cho giá gói nghỉ dưỡng Bữa trưa miễn phí khi đến nơi",
+      "title": "Chiva-Som Giảm 10% cho giá gói nghỉ dưỡng Bữa trưa miễn phí khi đến nơi",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/chiva-som/174326",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "9",
+        "183",
+        "10"
+      ]
+    },
+    {
+      "source_id": "177766",
+      "slug": "visa-airport-dining",
+      "merchant": "Visa Airport Dining Tận hưởng ưu đãi giảm giá lên đến 20% tại các điểm ẩm thực sân bay được chọn lọc ở các quốc gia APAC tham gia chương trình.",
+      "title": "Visa Airport Dining Tận hưởng ưu đãi giảm giá lên đến 20% tại các điểm ẩm thực sân bay được chọn lọc ở các quốc gia APAC tham gia chương trình.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/visa-airport-dining/177766",
+      "cardProductTypes": [
+        "66",
+        "129",
+        "140",
+        "42",
+        "141",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "174322",
+      "slug": "novi-health",
+      "merchant": "NOVI Health Giảm giá lên đến 10% cho tất cả các dịch vụ của Novi",
+      "title": "NOVI Health Giảm giá lên đến 10% cho tất cả các dịch vụ của Novi",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/novi-health/174322",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "182",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "9",
+        "183",
+        "10"
+      ]
+    },
+    {
+      "source_id": "172736",
+      "slug": "park-hyatt-hotel",
+      "merchant": "Park Hyatt Hotel Tận hưởng ưu đãi giảm 10% khi đặt phòng tại bốn khách sạn Park Hyatt và giảm 15% cho dịch vụ ăn uống.",
+      "title": "Park Hyatt Hotel Tận hưởng ưu đãi giảm 10% khi đặt phòng tại bốn khách sạn Park Hyatt và giảm 15% cho dịch vụ ăn uống.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/park-hyatt-hotel/172736",
+      "cardProductTypes": [
+        "15",
+        "16",
+        "17",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "171762",
+      "slug": "qatar-airways",
+      "merchant": "Qatar Airways Ưu đãi lên đến 15% cho các chuyến bay khi thanh toán với thẻ Visa.",
+      "title": "Qatar Airways Ưu đãi lên đến 15% cho các chuyến bay khi thanh toán với thẻ Visa.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/qatar-airways/171762",
+      "cardProductTypes": [
+        "66",
+        "67",
+        "68",
+        "15",
+        "16",
+        "17",
+        "181",
+        "140",
+        "173",
+        "130",
+        "141",
+        "152",
+        "131",
+        "143",
+        "178",
+        "124",
+        "125",
+        "126",
+        "129",
+        "41",
+        "42",
+        "65"
+      ],
+      "cardPaymentTypes": [
+        "11",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "source_id": "171926",
+      "slug": "accor-hotels",
+      "merchant": "Accor Hotels Chủ thẻ Visa cao cấp có thể tận hưởng ưu đãi giảm 20% khi lưu trú tại phòng hạng Executive hoặc cao hơn trong 2 đêm liên tiếp tại các khách sạn Accor ở khu vực Greater China.",
+      "title": "Accor Hotels Chủ thẻ Visa cao cấp có thể tận hưởng ưu đãi giảm 20% khi lưu trú tại phòng hạng Executive hoặc cao hơn trong 2 đêm liên tiếp tại các khách sạn Accor ở khu vực Greater China.",
+      "detail_url": "https://www.visa.com.vn/vi_vn/visa-offers-and-perks/accor-hotels/171926",
+      "cardProductTypes": [
+        "15",
+        "129",
+        "42",
+        "130",
+        "65",
+        "131"
+      ],
+      "cardPaymentTypes": [
+        "9",
+        "10"
+      ]
+    }
+  ]
+}
