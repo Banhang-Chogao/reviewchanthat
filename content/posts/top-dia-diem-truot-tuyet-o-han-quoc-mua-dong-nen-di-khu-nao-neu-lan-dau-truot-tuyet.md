@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -155,5 +157,9 @@ Gondola lên đỉnh 1.340 m, nhà hàng xoay view dãy Taebaek. Cái này khôn
 
 - [Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?](/posts/pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi/)
 - [iPhone 16 Pro Max năm 2026 nên mua không?](/posts/iphone-16-pro-max-nam-2026-nen-mua-khong/)
+
+Xem thêm: [High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc](/posts/high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc/)
+Xem thêm: [Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju](/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju/)
+
 
 **Chi phí:** Giá vé lift, thuê thiết bị và phí xe trượt thay đổi theo mùa và ngày trong tuần. Theo [Visit Korea](https://english.visitkorea.or.kr/), nên đối chiếu bảng giá resort trước khi đi.

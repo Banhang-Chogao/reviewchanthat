@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -244,5 +246,9 @@ Seoul và Nami thường có màu rõ hơn. Có thể thêm Bukhansan hoặc Nae
 ## Kết luận
 
 Lịch trình 5 ngày 4 đêm tập trung Seoul + Nami + một điểm lá đỏ là khung phù hợp cho người đi Hàn tháng 10 lần đầu. Điểm then chốt là **linh hoạt ngày 4** theo dự báo thời tiết thực tế, vì ngày đổ màu thay đổi hàng năm.
+
+Xem thêm: [Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan](/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem/)
+Xem thêm: [Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?](/posts/seoraksan-thang-10-ngam-la-do/)
+
 
 Đọc thêm [Thời tiết và mùa lá đỏ tháng 10]({{< ref "posts/thoi-tiet-han-quoc-thang-10" >}}) để hiểu mùa, [Chi phí tự túc]({{< ref "posts/chi-phi-di-han-thang-10-tu-tuc" >}}) để lên ngân sách, và [Đi Hàn tháng 10 có đẹp không?]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}) để xem toàn cảnh series.

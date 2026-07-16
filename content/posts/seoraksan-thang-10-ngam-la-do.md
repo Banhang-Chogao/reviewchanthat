@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -212,5 +214,9 @@ Nếu muốn gắn Seoraksan vào lịch dài hơn, xem [Lịch trình đi Hàn 
 ## Kết luận
 
 Seoraksan tháng 10 là lựa chọn đáng cân nhắc nếu bạn muốn ngắm lá đỏ ở quy mô núi lớn và sẵn sàng dành thời gian di chuyển. Đây là một trong những điểm nổi tiếng của Hàn Quốc mùa thu — nhưng không phải lựa chọn duy nhất, và cũng không phải lúc nào cũng phù hợp với mọi lịch trình.
+
+Xem thêm: [Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?](/posts/han-quoc-thang-10-co-la-do-chua/)
+Xem thêm: [Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ](/posts/lich-trinh-di-han-thang-10-5-ngay-4-dem/)
+
 
 Điểm mạnh: cảnh núi đa dạng, cáp treo tiện, kết hợp được Sokcho. Điểm cần cân nhắc: xa Seoul, đông cuối tuần, ngày đổ màu thay đổi hàng năm. Trước khi chốt, đọc thêm [Đi Hàn tháng 10 có đẹp không?]({{< ref "posts/di-han-thang-10-co-dep-khong" >}}) và so sánh với [Busan tháng 10]({{< ref "posts/busan-thang-10-nen-di-dau" >}}) hoặc [Jeju tháng 10]({{< ref "posts/jeju-thang-10-co-dep-khong" >}}) nếu bạn muốn thêm biển vào chuyến đi.

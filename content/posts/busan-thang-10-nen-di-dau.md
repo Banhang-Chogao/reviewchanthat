@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -239,5 +241,9 @@ Chi tiết ngân sách xem [Chi phí đi Hàn tháng 10 tự túc]({{< ref "post
 ## Kết luận
 
 Busan tháng 10 phù hợp nếu bạn muốn bổ sung **biển, ẩm thực và không khí thành phố cảng** vào chuyến đi mùa thu. Đây không phải điểm đến chuyên về lá đỏ, nhưng là phần cân bằng tốt sau vài ngày ở Seoul hoặc sau khi đi núi.
+
+Xem thêm: [Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm](/posts/di-han-thang-10-mac-gi/)
+Xem thêm: [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+
 
 Lịch 2–3 ngày với Haeundae, Gwangalli, Gamcheon và Jagalchi là đủ cho lần đầu. Nếu gộp vào lịch dài hơn, xem [Lịch trình 5 ngày 4 đêm]({{< ref "posts/lich-trinh-di-han-thang-10-5-ngay-4-dem" >}}) hoặc so sánh với [Jeju tháng 10]({{< ref "posts/jeju-thang-10-co-dep-khong" >}}) nếu muốn thêm đảo vào hành trình.

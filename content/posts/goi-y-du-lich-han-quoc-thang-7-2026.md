@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -177,5 +179,9 @@ Về thủ tục, nếu bạn đi tự túc lần đầu, xem thêm kinh nghiệ
 ### Bài viết liên quan
 
 - [Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-11/)
+
+Xem thêm: [Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?](/posts/thoi-tiet-han-quoc-thang-10/)
+Xem thêm: [Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi](/posts/du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di/)
+
 
 Tháng 7 ở Hàn Quốc không dành cho người cần mọi thứ hoàn hảo, nhưng nếu bạn đi với tinh thần "trời cho gì chơi nấy" — sáng nắng thì ra biển, chiều mưa thì vào mall — thì đây vẫn là một chuyến hè rất đáng, nhất là khi có Boryeong Mud Festival chờ ở cuối tháng.
