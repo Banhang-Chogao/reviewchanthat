@@ -1,7 +1,7 @@
 +++
 title = "Review máy rửa bát gia đình 2026: khi nào đáng mua trong căn hộ Việt"
 seo_title = "Review máy rửa bát 2026: có đáng mua không?"
-commit = ""
+commit = "9efbad74"
 date = "2026-07-16T06:58:00+07:00"
 slug = "review-may-rua-bat-gia-dinh-2026"
 draft = false
