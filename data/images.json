@@ -9875,7 +9875,51 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Review nồi chiên không dầu 2026: loại nào đáng mua sau vài tháng dùng thật — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "review-may-rua-bat-gia-dinh-2026",
+      "title": "Review máy rửa bát gia đình 2026: khi nào đáng mua trong căn hộ Việt",
+      "image_id": "img-3829549",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/empty-dishwasher-3829549/",
+      "direct_url": "https://images.pexels.com/photos/3829549/pexels-photo-3829549.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "creator": "Castorly Stock",
+      "creator_url": "https://www.pexels.com/@castorlystock",
+      "creator_id": "",
+      "photo_id": "3829549",
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/review-may-rua-bat-gia-dinh-2026.jpg",
+      "output_path": "static/images/posts/review-may-rua-bat-gia-dinh-2026.webp",
+      "watermark_text": "Source: Pexels",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "dishwasher kitchen",
+      "image_alt": "Máy rửa bát inox mở cửa trong bếp hiện đại — nguồn Pexels",
+      "gate_verified": true
+    },
+    {
+      "slug": "review-may-rua-bat-gia-dinh-2026-inline",
+      "title": "review-may-rua-bat-gia-dinh-2026 inline",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/clean-dishes-in-basket-15040068/",
+      "direct_url": "https://images.pexels.com/photos/15040068/pexels-photo-15040068.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "creator": "Zechen Li",
+      "creator_url": "https://www.pexels.com/@zechen-li-187261660",
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/review-may-rua-bat-gia-dinh-2026-inline.jpg",
+      "output_path": "static/images/posts/review-may-rua-bat-gia-dinh-2026-inline.webp",
+      "watermark_text": "Source: Pexels",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "clean dishes kitchen",
+      "image_alt": "Bát đĩa sạch trên kệ úp — minh họa chi phí và thói quen rửa bát"
     }
   ],
-  "generated_at": "2026-07-15T23:39:16.501531+00:00"
+  "generated_at": "2026-07-16T00:01:34.727491+00:00"
 }
