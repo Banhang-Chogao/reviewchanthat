@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -241,5 +243,9 @@ Nếu muốn gắn Seoraksan vào lịch dài hơn, xem [Lịch trình đi Hàn 
 ## Kết luận
 
 Seoraksan tháng 11 **vẫn còn lá đỏ nếu bạn đi đầu tháng** — đây là giai đoạn cuối của mùa foliage ở đây, không phải peak như cuối tháng 10. **Cuối tháng 11**, rủi ro rụng lá và tuyết nhẹ tăng; khi đó Seoul peak foliage thường mang lại giá trị cao hơn cho cùng một chuyến đi.
+
+Xem thêm: [Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?](/posts/han-quoc-thang-11-co-la-do-chua/)
+Xem thêm: [Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?](/posts/han-quoc-thang-10-co-la-do-chua/)
+
 
 Leo núi **khả thi** với trang bị ấm và tuyến phù hợp; cáp treo là phương án an toàn hơn cho đa số du khách. Trước khi chốt, đọc [Đi Hàn tháng 11 có đẹp không?]({{< ref "posts/di-han-thang-11-co-dep-khong" >}}) và so sánh với [Nami tháng 11]({{< ref "posts/nami-thang-11-co-dang-di-khong" >}}) nếu bạn muốn day trip nhẹ hơn.

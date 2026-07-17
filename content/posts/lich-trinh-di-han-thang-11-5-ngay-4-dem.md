@@ -1,3 +1,5 @@
+---
+---
 +++
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
@@ -256,5 +258,9 @@ Seoul vẫn có thể đẹp nhưng lá rụng dần; **không khuyến khích S
 ## Kết luận
 
 Lịch trình 5 ngày 4 đêm tập trung **Seoul peak lá đỏ + Nami đầu chuyến** là khung phù hợp cho người đi Hàn tháng 11 lần đầu. Điểm then chốt: **Nami không hoãn sang cuối** nếu đi đầu tháng, **linh hoạt ngày 4** theo dự báo, và **chuẩn bị lạnh hơn tháng 10**.
+
+Xem thêm: [Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan](/posts/lich-trinh-di-han-thang-10-7-ngay-6-dem/)
+Xem thêm: [Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?](/posts/seoraksan-thang-11-ngam-la-do/)
+
 
 Đọc thêm [Thời tiết Hàn Quốc tháng 11]({{< ref "posts/thoi-tiet-han-quoc-thang-11" >}}) để hiểu mùa, [Chi phí tự túc]({{< ref "posts/chi-phi-di-han-thang-11-tu-tuc" >}}) để lên ngân sách, và [Đi Hàn tháng 11 có đẹp không?]({{< ref "posts/di-han-thang-11-co-dep-khong" >}}) để xem toàn cảnh series.
