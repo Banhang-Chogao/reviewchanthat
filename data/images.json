@@ -10075,7 +10075,35 @@
       "image_query": "passport travel documents airport planning",
       "image_alt": "Ảnh minh họa travel-checklist-danh-sach-chuan-bi-truoc-chuyen-di-quoc-te — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "co-nen-mua-dien-thoai-moi-viet-nam-2026",
+      "title": "Có nên mua điện thoại mới ở Việt Nam năm 2026 khi giá tăng?",
+      "image_id": "img-46288496",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/vibrant-tet-festival-parade-in-ho-chi-minh-city-30732282/",
+      "direct_url": "https://images.pexels.com/photos/30732282/pexels-photo-30732282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Thien Le Duy",
+      "creator_url": "https://www.pexels.com/@thienleduyphoto",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/co-nen-mua-dien-thoai-moi-viet-nam-2026.jpg",
+      "output_path": "static/images/posts/co-nen-mua-dien-thoai-moi-viet-nam-2026.webp",
+      "watermark_text": "Source: Pexels / Thien Le Duy",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "mua điện thoại việt nam",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Có nên mua điện thoại mới ở Việt Nam năm 2026 khi giá tăng? — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-17T20:01:19.662655+00:00"
+  "generated_at": "2026-07-17T20:54:58.121019+00:00"
 }
