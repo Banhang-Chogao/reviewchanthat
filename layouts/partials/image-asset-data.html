@@ -1,0 +1,9 @@
+{{- $image := . | strings.TrimPrefix "/" -}}
+{{- $base := path.Base $image -}}
+{{- $key := replaceRE `\.[^.]+$` "" $base -}}
+{{- $assets := site.Data.image_assets.assets | default dict -}}
+{{- if isset $assets $key -}}
+  {{- return (index $assets $key) -}}
+{{- else -}}
+  {{- return dict -}}
+{{- end -}}

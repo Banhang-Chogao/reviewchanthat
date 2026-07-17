@@ -31,8 +31,8 @@
       <p class="home-feature__subtitle">Được ghim thủ công — nên đọc trước tiên.</p>
     </header>
     <div class="home-post-grid home-post-grid--feature">
-      {{ range . }}
-        {{ partial "home-post-block.html" (dict "page" . "eager" false) }}
+      {{ range $i, $p := . }}
+        {{ partial "home-post-block.html" (dict "page" $p "eager" (eq $i 0)) }}
       {{ end }}
     </div>
   </section>
@@ -44,7 +44,7 @@
     {{ $posts := where site.RegularPages "Section" "posts" }}
     {{ $paginator := .Paginate ($posts.ByDate.Reverse) 8 }}
     {{ range $i, $p := $paginator.Pages }}
-      {{ partial "home-post-block.html" (dict "page" $p "eager" (lt $i 4)) }}
+      {{ partial "home-post-block.html" (dict "page" $p "eager" (and (not $sticky) (eq $i 0))) }}
     {{ end }}
   </section>
   {{ partial "pagination.html" . }}

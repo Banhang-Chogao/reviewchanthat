@@ -41,3 +41,4 @@ python3 scripts/qa_dates.py "${post_args[@]}"
 python3 scripts/qa_blog.py --scope-report reports/qa-scope.json
 python3 scripts/normalize_ai_summaries.py --check
 python3 scripts/qa_inline_images.py
+python3 scripts/qa_image_performance.py

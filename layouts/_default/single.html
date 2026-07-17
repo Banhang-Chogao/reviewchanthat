@@ -19,12 +19,7 @@
       </div>
     </div>
   </header>
-  {{ $image := .Params.image | default "images/posts/fallback.webp" }}
-  {{/* Defensive fallback: referenced file missing on disk -> render fallback instead of broken image. */}}
-  {{ if and (not (hasPrefix $image "http")) (not (os.FileExists (path.Join "static" $image))) }}{{ $image = "images/posts/fallback.webp" }}{{ end }}
-  <div class="post-featured-image">
-    <img src="{{ $image | relURL }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
-  </div>
+  {{ partial "post-verified-image.html" (dict "context" $ "mode" "hero") }}
   {{ partial "ai-summary.html" . }}
   <div class="post-content">
     {{ .Content }}

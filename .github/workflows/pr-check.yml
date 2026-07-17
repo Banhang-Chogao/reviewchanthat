@@ -25,6 +25,7 @@ on:
       - 'scripts/qa_blog.py'
       - 'scripts/qa_dates.py'
       - 'scripts/qa_inline_images.py'
+      - 'scripts/qa_image_performance.py'
       - 'scripts/qa_scope.py'
       - 'scripts/rule.py'
       - 'scripts/normalize_ai_summaries.py'
