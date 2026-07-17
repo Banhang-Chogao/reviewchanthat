@@ -36,7 +36,15 @@
 - **WebP images now tracked in git** (as of 2026-07-11). File `.webp` trong `static/images/posts/` được commit thường thường. GitHub Actions checkout sẽ có WebP files → Hugo build render ảnh → Deploy thành công. Không cần force-add, không cần tricks. **Root cause fix:** `.gitignore` ignore WebP vì chúng generated (không source), nhưng GitHub Pages deploy cần WebP files available → Solution: commit WebP to git, regenerate WebP locally + in CI/CD khi cần optimize.
 - **Không dùng YAML syntax (`key: value`) trong TOML front matter (`+++`).** Hugo dùng TOML parser. Sai syntax (ví dụ `commit: abc` thay vì `commit = "abc"`) sẽ làm parser fail tại dòng đó, khiến `rule.py --fix` không đọc được các field phía sau (categories, date, image...), dẫn đến deploy crash và date bị ghi đè thành thời gian chạy `rule.py`. Luôn dùng `key = "value"` (TOML) trong front matter.
 - **`:blog` là lệnh AUTONOMOUS — KHÔNG hỏi user bất cứ gì.** Khi user gõ `:blog`, AI phải tự quyết định mọi thứ:
-- **`:nn` là lệnh REWRITE — lấy source từ URL hoặc văn bản gốc, viết lại bài blog theo rule hệ thống.** Tự động fetch URL, chọn category ít bài nhất, tạo skeleton file với TOML frontmatter đầy đủ, mở editor để rewrite. Source gốc lưu tại `.nn_source` (xóa sau khi xong). Chạy: `:nn <url> [slug]` — sau khi viết xong chạy `select_images.py --post $path --fix` + `add_commit_id.py --post $path`. File gốc: `scripts/nn.sh` (tracked trong repo).
+- **`:nn` là lệnh AUTONOMOUS — lấy source từ URL, viết lại bài blog hoàn chỉnh, deploy lên live, KHÔNG hỏi user bất cứ gì.** Khi user gõ `:nn <url>`:
+  1. Bash function `scripts/nn.sh` fetch URL, chọn category ít bài nhất, tạo skeleton `.md` + lưu source gốc tại `.nn_source`.
+  2. opencode (AI) đọc `.nn_source` + skeleton, rewrite bài ≥2000 từ, human-first, theo mọi rule trong AGENTS.md (TOML frontmatter, 5 category chuẩn, footer macro, meta description 50-160, không future date, không placeholder link, không IMAGE_API_QUERY marker).
+  3. Tự động chạy `python3 scripts/select_images.py --post $path --fix` (đổi source Pexels↔Pixabay nếu rate limit).
+  4. Tự động chạy `python3 scripts/add_commit_id.py --post $path` (SCOPE ONLY).
+  5. Commit + push lên `main` (FIFO, cách nhau ≥30s).
+  - **Tuyệt đối không hỏi user** slug, title, description, category, hay bất kỳ input nào.
+  - Nếu cần thông tin thêm (ví dụ xu hướng mới) → tự web search, không hỏi.
+  - File gốc: `scripts/nn.sh` (tracked trong repo).
 - **`:nauy` là lệnh AUTONOMOUS — viết bài về Nauy (Norway).** Giống `:blog` nhưng category mặc định `du-lich`, tags `["Nauy", "Norway", "Bắc Âu"]`, và tự động chọn chủ đề liên quan đến Nauy (văn hóa, du lịch, lịch sử, kinh tế, ẩm thực, công nghệ...). Không hỏi user bất cứ gì.
   - Phân tích 5 category, chọn category ít bài nhất làm chủ đề.
   - Tự chọn topic phù hợp với category đó (dựa trên xu hướng, mùa vụ, hoặc kiến thức sẵn có).
