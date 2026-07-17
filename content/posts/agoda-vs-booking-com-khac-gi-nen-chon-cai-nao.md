@@ -1,7 +1,7 @@
 +++
 title = "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?"
 seo_title = "Agoda vs Booking.com: khác gì, chọn cái nào?"
-commit = "e1b87c29"
+commit = "599b2516"
 date = "2026-07-13T14:09:00+07:00"
 draft = false
 author = "Minh Hoàng"
