@@ -23,8 +23,6 @@
     {{ with site.GetPage . }}{{ $sticky = $sticky | append . }}{{ end }}
   {{ end }}
   {{ partial "adblock-cta.html" . }}
-  <div class="container sponsored-hotel-wrap">{{ partial "sponsored-hotel-banner.html" . }}</div>
-  {{ partial "home-search-ad.html" . }}
   {{ with $sticky }}
   <section class="home-feature" aria-labelledby="home-feature-sticky">
     <header class="home-feature__header">

@@ -33,8 +33,7 @@ body.income-pdf-export .income-table__row-actions,
 body.income-pdf-export .income-insights-box__disclaimer,
 body.income-pdf-export .income-toast,
 body.income-pdf-export .site-header,
-body.income-pdf-export .site-footer,
-body.income-pdf-export .footer-ad {
+body.income-pdf-export .site-footer {
   display: none !important;
 }
 .income-chart-export-img {
@@ -59,8 +58,6 @@ body.income-pdf-export .footer-ad {
   /* Hide chrome */
   .site-header,
   .site-footer,
-  .footer-ad,
-  .sponsored-hotel-wrap,
   .site-search,
   .income-gate,
   .income-insights__header-right > *,

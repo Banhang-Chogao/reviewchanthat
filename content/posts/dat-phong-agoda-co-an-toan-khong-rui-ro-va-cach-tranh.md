@@ -1,7 +1,7 @@
 +++
 title = "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh"
 seo_title = "Đặt phòng Agoda có an toàn không? rủi ro & cách tránh"
-commit = "e1b87c29"
+commit = "599b2516"
 date = "2026-07-13T14:10:00+07:00"
 draft = false
 author = "Minh Hoàng"
@@ -138,7 +138,6 @@ Nếu vẫn muốn dùng Agoda (giá đôi khi rất cạnh tranh, đặc biệt
 
 Nếu bạn từng gặp sự cố với Agoda, hoặc đơn giản là muốn ưu tiên sự chắc chắn hơn là vài phần trăm giá rẻ, các nền tảng đặt phòng lớn khác như Trip.com cũng là lựa chọn đáng cân nhắc — đặc biệt với người dùng Việt Nam vì có hỗ trợ tiếng Việt và chính sách hủy được hiển thị khá rõ ràng ngay trên trang kết quả tìm kiếm, giúp giảm rủi ro đặt nhầm giá không hoàn tiền.
 
-{{< trip-cta "So sánh giá phòng trên Trip.com →" >}}
 
 Một mẹo nhỏ: trước khi chốt đặt phòng ở bất kỳ đâu, hãy mở song song 2 tab — một bên là Agoda, một bên là kênh khác — để so sánh giá cuối cùng (đã gồm thuế, phí) và chính sách hủy. Chênh lệch giá giữa các nền tảng cho cùng một khách sạn đôi khi lên tới 10-15%, và chính sách hủy linh hoạt hơn có thể quan trọng hơn việc tiết kiệm vài chục nghìn đồng.
 
@@ -151,7 +150,6 @@ Nếu chẳng may rơi vào tình huống khách sạn hủy phòng đột ngộ
 - **Bước 3 — Theo dõi trạng thái hoàn tiền định kỳ**, đừng chờ thụ động. Nếu quá thời hạn cam kết (thường 30-45 ngày) mà chưa nhận được tiền, hãy liên hệ lại kèm mã ticket cũ.
 - **Bước 4 — Nếu Agoda không xử lý thỏa đáng, khiếu nại qua ngân hàng phát hành thẻ tín dụng (chargeback)** với đầy đủ bằng chứng: email xác nhận đặt phòng, email/tin nhắn với khách sạn, ảnh chụp màn hình trạng thái hoàn tiền.
 
-{{< trip-cta "So sánh giá phòng trên Trip.com →" >}}
 
 ### Bài viết liên quan
 
@@ -169,5 +167,3 @@ Nếu chẳng may rơi vào tình huống khách sạn hủy phòng đột ngộ
 Đặt phòng Agoda an toàn ở mức độ hạ tầng — thuộc tập đoàn lớn, thanh toán mã hóa chuẩn — nhưng không miễn nhiễm với rủi ro thực tế: overbooking, giá non-refundable, hoàn tiền chậm và dịch vụ khách hàng chưa tốt là những vấn đề có thật, được phản ánh nhất quán qua nhiều nguồn đánh giá độc lập. Đặt Agoda có bị mất tiền không? Khả năng mất trắng vĩnh viễn là thấp, nhưng khả năng bị "giữ tiền" tạm thời trong nhiều tuần và phải tự đấu tranh để đòi lại là có thật. Áp dụng các mẹo trong bài — đọc kỹ chính sách hủy, ưu tiên thẻ tín dụng, lưu bằng chứng, đọc review gần nhất — sẽ giúp bạn giảm đáng kể rủi ro.
 
 Trước khi chốt đặt phòng cho chuyến đi sắp tới, đừng quên so sánh giá giữa các nền tảng — đôi khi cùng một khách sạn, cùng ngày ở, mức giá và chính sách hủy trên Trip.com lại tốt hơn đáng kể so với Agoda.
-
-{{< trip-cta "So sánh giá phòng trên Trip.com →" >}}
