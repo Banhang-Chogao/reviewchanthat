@@ -1,7 +1,7 @@
 +++
 title = "Du lịch Đà Lạt mùa hoa 2026: đi khi nào, ở đâu và lịch trình ra sao?"
 seo_title = "Du lịch Đà Lạt mùa hoa 2026: lịch trình, chi phí và kinh nghiệm thực tế"
-commit = ""
+commit = "1505d4b6"
 date = "2026-07-18T04:12:54+07:00"
 draft = false
 author = "Reviewchanthat"

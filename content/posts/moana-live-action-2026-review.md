@@ -1,7 +1,7 @@
 +++
 title = "Moana live-action (2026) — Review không spoil: đẹp, an toàn và có đáng xem?"
 seo_title = "Moana live-action 2026 review không spoil: có đáng xem không?"
-commit = ""
+commit = "1505d4b6"
 date = "2026-07-18T04:12:54+07:00"
 draft = false
 author = "Reviewchanthat"
