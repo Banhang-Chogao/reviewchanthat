@@ -1,138 +1,134 @@
 {
-  "trained_at": "2026-07-18T02:07:35.743236+07:00",
-  "n_samples": 393,
+  "trained_at": "2026-07-17T20:29:40.648394+00:00",
+  "n_samples": 395,
   "n_features": 40,
   "n_labels": 16,
   "test_size": 0.2,
-  "hamming_loss": 0.000791,
+  "hamming_loss": 0.001582,
   "feature_importances": [
     {
-      "feature": "git_commit_count",
-      "importance": 0.03683
+      "feature": "description_len",
+      "importance": 0.035553
     },
     {
       "feature": "word_count",
-      "importance": 0.030776
-    },
-    {
-      "feature": "description_len",
-      "importance": 0.023925
+      "importance": 0.027956
     },
     {
       "feature": "has_commit",
-      "importance": 0.018361
-    },
-    {
-      "feature": "avg_paragraph_len",
-      "importance": 0.017071
-    },
-    {
-      "feature": "list_count",
-      "importance": 0.016542
-    },
-    {
-      "feature": "paragraph_count",
-      "importance": 0.01434
-    },
-    {
-      "feature": "heading_count",
-      "importance": 0.013703
+      "importance": 0.025063
     },
     {
       "feature": "title_len",
-      "importance": 0.009709
+      "importance": 0.019754
     },
     {
-      "feature": "internal_links_count",
-      "importance": 0.009104
+      "feature": "avg_paragraph_len",
+      "importance": 0.018211
+    },
+    {
+      "feature": "list_count",
+      "importance": 0.017881
+    },
+    {
+      "feature": "heading_count",
+      "importance": 0.017757
     },
     {
       "feature": "tag_count",
-      "importance": 0.007661
+      "importance": 0.017388
     },
     {
-      "feature": "faq_count",
-      "importance": 0.006801
+      "feature": "paragraph_count",
+      "importance": 0.016893
     },
     {
-      "feature": "external_links_count",
-      "importance": 0.006151
-    },
-    {
-      "feature": "slug_len",
-      "importance": 0.00594
-    },
-    {
-      "feature": "seo_title_present",
-      "importance": 0.005882
-    },
-    {
-      "feature": "category_encoded",
-      "importance": 0.005877
-    },
-    {
-      "feature": "image_verified",
-      "importance": 0.005135
-    },
-    {
-      "feature": "table_count",
-      "importance": 0.003804
-    },
-    {
-      "feature": "post_lang_encoded",
-      "importance": 0.003365
-    },
-    {
-      "feature": "image_query_present",
-      "importance": 0.002812
-    },
-    {
-      "feature": "lastmod_present",
-      "importance": 0.002764
-    },
-    {
-      "feature": "inline_image_count",
-      "importance": 0.000937
-    },
-    {
-      "feature": "has_attribution_single",
-      "importance": 0.000875
-    },
-    {
-      "feature": "has_inline_images",
-      "importance": 0.000793
-    },
-    {
-      "feature": "git_last_commit_ago_days",
-      "importance": 0.00047
-    },
-    {
-      "feature": "code_block_count",
-      "importance": 0.000265
-    },
-    {
-      "feature": "related_posts_count",
-      "importance": 5.5e-05
-    },
-    {
-      "feature": "has_image_creator",
-      "importance": 2.2e-05
-    },
-    {
-      "feature": "known_pattern_score",
-      "importance": 2.1e-05
-    },
-    {
-      "feature": "has_image_attribution_verified",
-      "importance": 9e-06
-    },
-    {
-      "feature": "has_image",
-      "importance": 0.0
+      "feature": "internal_links_count",
+      "importance": 0.014757
     },
     {
       "feature": "has_thumbnail",
-      "importance": 0.0
+      "importance": 0.009911
+    },
+    {
+      "feature": "has_image",
+      "importance": 0.009699
+    },
+    {
+      "feature": "slug_len",
+      "importance": 0.00961
+    },
+    {
+      "feature": "date_has_tz",
+      "importance": 0.008722
+    },
+    {
+      "feature": "category_encoded",
+      "importance": 0.008162
+    },
+    {
+      "feature": "seo_title_present",
+      "importance": 0.007906
+    },
+    {
+      "feature": "faq_count",
+      "importance": 0.007187
+    },
+    {
+      "feature": "external_links_count",
+      "importance": 0.005847
+    },
+    {
+      "feature": "table_count",
+      "importance": 0.00567
+    },
+    {
+      "feature": "image_verified",
+      "importance": 0.004668
+    },
+    {
+      "feature": "post_lang_encoded",
+      "importance": 0.004621
+    },
+    {
+      "feature": "lastmod_present",
+      "importance": 0.004516
+    },
+    {
+      "feature": "has_image_creator",
+      "importance": 0.004282
+    },
+    {
+      "feature": "has_image_attribution_verified",
+      "importance": 0.004034
+    },
+    {
+      "feature": "image_query_present",
+      "importance": 0.002671
+    },
+    {
+      "feature": "has_attribution_single",
+      "importance": 0.001245
+    },
+    {
+      "feature": "inline_image_count",
+      "importance": 0.001085
+    },
+    {
+      "feature": "has_inline_images",
+      "importance": 0.000726
+    },
+    {
+      "feature": "code_block_count",
+      "importance": 0.000589
+    },
+    {
+      "feature": "related_posts_count",
+      "importance": 0.000122
+    },
+    {
+      "feature": "known_pattern_score",
+      "importance": 1.3e-05
     },
     {
       "feature": "image_needs_image",
@@ -140,10 +136,6 @@
     },
     {
       "feature": "has_attribution_array",
-      "importance": 0.0
-    },
-    {
-      "feature": "date_has_tz",
       "importance": 0.0
     },
     {
@@ -164,6 +156,14 @@
     },
     {
       "feature": "draft",
+      "importance": 0.0
+    },
+    {
+      "feature": "git_commit_count",
+      "importance": 0.0
+    },
+    {
+      "feature": "git_last_commit_ago_days",
       "importance": 0.0
     }
   ],
@@ -234,16 +234,16 @@
     "draft_post": 0,
     "wrong_timezone": 0,
     "future_date": 0,
-    "insufficient_content": 336,
+    "insufficient_content": 324,
     "fake_internal_links": 0,
     "dead_image_marker": 0,
-    "meta_description_length": 15,
+    "meta_description_length": 16,
     "hardcoded_footer_section": 0,
     "unused_internal_links": 1,
     "broken_inline_image": 0,
     "attribution_array_of_tables": 0,
     "empty_file": 0,
-    "broken_frontmatter": 0
+    "broken_frontmatter": 13
   },
   "per_label_f1": {
     "yaml_syntax_in_toml": 0.0,
@@ -252,15 +252,15 @@
     "draft_post": 0.0,
     "wrong_timezone": 0.0,
     "future_date": 0.0,
-    "insufficient_content": 1.0,
+    "insufficient_content": 0.9924,
     "fake_internal_links": 0.0,
     "dead_image_marker": 0.0,
-    "meta_description_length": 0.8,
+    "meta_description_length": 0.8571,
     "hardcoded_footer_section": 0.0,
     "unused_internal_links": 0.0,
     "broken_inline_image": 0.0,
     "attribution_array_of_tables": 0.0,
     "empty_file": 0.0,
-    "broken_frontmatter": 0.0
+    "broken_frontmatter": 1.0
   }
 }
