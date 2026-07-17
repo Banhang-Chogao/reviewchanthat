@@ -4,14 +4,10 @@ on:
   schedule:
     - cron: '0 2 * * *'  # Daily at 02:00 UTC (~09:00 Asia/Ho_Chi_Minh)
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/ml/collect_features.py'
-      - 'scripts/ml/train_model.py'
-      - 'content/posts/**'
-      - 'data/deployment-doctor.json'
-      - 'data/deployment-doctor-knowledge.json'
+
+concurrency:
+  group: ml-retrain-main
+  cancel-in-progress: true
 
 permissions:
   contents: read

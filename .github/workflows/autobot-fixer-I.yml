@@ -20,12 +20,12 @@ jobs:
   fixer:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.6.0
         with:
           python-version: "3.12"
           cache: pip
@@ -34,7 +34,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v3.1.0
         with:
           hugo-version: "0.163.1"
           extended: true

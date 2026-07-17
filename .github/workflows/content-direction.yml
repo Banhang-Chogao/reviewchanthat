@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
         with:
           ref: main
           fetch-depth: 0
@@ -72,7 +72,7 @@ jobs:
 
       - name: Setup Python
         if: steps.skip.outputs.skip != 'true'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.6.0
         with:
           python-version: "3.12"
           cache: pip
@@ -83,7 +83,7 @@ jobs:
 
       - name: Setup Hugo
         if: steps.skip.outputs.skip != 'true'
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v3.1.0
         with:
           hugo-version: "0.163.1"
           extended: true
