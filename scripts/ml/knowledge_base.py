@@ -93,7 +93,7 @@ def query(failure_type: str):
         print(f"No knowledge found for: {failure_type}")
         return
 
-    print(f"\\n📚 Knowledge for: {failure_type}")
+    print(f"\n📚 Knowledge for: {failure_type}")
     for m in matches:
         if "summary" in m:
             print(f"  Pattern: {m.get('id')}")
@@ -122,7 +122,7 @@ def stats():
         print("Knowledge base not found. Run --build first.", file=sys.stderr)
         sys.exit(1)
 
-    print("\\n📊 Knowledge Base Stats")
+    print("\n📊 Knowledge Base Stats")
     print(f"  Built at: {kb.get('built_at')}")
     print(f"  Patterns: {len(kb.get('patterns', []))}")
     print(f"  Lessons learned: {len(kb.get('lessons_learned', []))}")
