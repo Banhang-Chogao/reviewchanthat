@@ -159,13 +159,16 @@ jobs:
         env:
           EXPECTED_SHA: ${{ github.sha }}
         run: |
-          bash scripts/ci/timed.sh 'live smoke check' bash -c '
-            set -euo pipefail
-            base="${SITE_URL%/}"
-            curl --fail --silent --show-error --location --retry 10 --retry-delay 5 --retry-all-errors "$base/" -o /dev/null
-            curl --fail --silent --show-error --location --retry 10 --retry-delay 5 --retry-all-errors "$base/build-info.json" -o /tmp/build-info.json
-            grep -F "\"sha\": \"$EXPECTED_SHA\"" /tmp/build-info.json
-            status=$(curl --silent --show-error --location --output /dev/null --write-out "%{http_code}" "$base/ci-smoke-not-found-${GITHUB_RUN_ID}/")
-            test "$status" = 404
-            echo "Live smoke passed: SHA=${EXPECTED_SHA:0:7}, missing-page-status=$status"
-          '
+          set -euo pipefail
+          start=$(date +%s)
+          started_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          base="${SITE_URL%/}"
+          curl --fail --silent --show-error --location --retry 10 --retry-delay 5 --retry-all-errors "$base/" -o /dev/null
+          curl --fail --silent --show-error --location --retry 10 --retry-delay 5 --retry-all-errors "$base/build-info.json" -o /tmp/build-info.json
+          grep -F "\"sha\": \"$EXPECTED_SHA\"" /tmp/build-info.json
+          status=$(curl --silent --show-error --location --output /dev/null --write-out "%{http_code}" "$base/ci-smoke-not-found-${GITHUB_RUN_ID}/")
+          test "$status" = 404
+          finished_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          duration=$(( $(date +%s) - start ))
+          echo "Live smoke passed: SHA=${EXPECTED_SHA:0:7}, missing-page-status=$status"
+          echo "live smoke check: ${duration}s (${started_at} → ${finished_at})" >> "$GITHUB_STEP_SUMMARY"
