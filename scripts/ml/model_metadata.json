@@ -1,0 +1,266 @@
+{
+  "trained_at": "2026-07-18T02:07:35.743236+07:00",
+  "n_samples": 393,
+  "n_features": 40,
+  "n_labels": 16,
+  "test_size": 0.2,
+  "hamming_loss": 0.000791,
+  "feature_importances": [
+    {
+      "feature": "git_commit_count",
+      "importance": 0.03683
+    },
+    {
+      "feature": "word_count",
+      "importance": 0.030776
+    },
+    {
+      "feature": "description_len",
+      "importance": 0.023925
+    },
+    {
+      "feature": "has_commit",
+      "importance": 0.018361
+    },
+    {
+      "feature": "avg_paragraph_len",
+      "importance": 0.017071
+    },
+    {
+      "feature": "list_count",
+      "importance": 0.016542
+    },
+    {
+      "feature": "paragraph_count",
+      "importance": 0.01434
+    },
+    {
+      "feature": "heading_count",
+      "importance": 0.013703
+    },
+    {
+      "feature": "title_len",
+      "importance": 0.009709
+    },
+    {
+      "feature": "internal_links_count",
+      "importance": 0.009104
+    },
+    {
+      "feature": "tag_count",
+      "importance": 0.007661
+    },
+    {
+      "feature": "faq_count",
+      "importance": 0.006801
+    },
+    {
+      "feature": "external_links_count",
+      "importance": 0.006151
+    },
+    {
+      "feature": "slug_len",
+      "importance": 0.00594
+    },
+    {
+      "feature": "seo_title_present",
+      "importance": 0.005882
+    },
+    {
+      "feature": "category_encoded",
+      "importance": 0.005877
+    },
+    {
+      "feature": "image_verified",
+      "importance": 0.005135
+    },
+    {
+      "feature": "table_count",
+      "importance": 0.003804
+    },
+    {
+      "feature": "post_lang_encoded",
+      "importance": 0.003365
+    },
+    {
+      "feature": "image_query_present",
+      "importance": 0.002812
+    },
+    {
+      "feature": "lastmod_present",
+      "importance": 0.002764
+    },
+    {
+      "feature": "inline_image_count",
+      "importance": 0.000937
+    },
+    {
+      "feature": "has_attribution_single",
+      "importance": 0.000875
+    },
+    {
+      "feature": "has_inline_images",
+      "importance": 0.000793
+    },
+    {
+      "feature": "git_last_commit_ago_days",
+      "importance": 0.00047
+    },
+    {
+      "feature": "code_block_count",
+      "importance": 0.000265
+    },
+    {
+      "feature": "related_posts_count",
+      "importance": 5.5e-05
+    },
+    {
+      "feature": "has_image_creator",
+      "importance": 2.2e-05
+    },
+    {
+      "feature": "known_pattern_score",
+      "importance": 2.1e-05
+    },
+    {
+      "feature": "has_image_attribution_verified",
+      "importance": 9e-06
+    },
+    {
+      "feature": "has_image",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_thumbnail",
+      "importance": 0.0
+    },
+    {
+      "feature": "image_needs_image",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_attribution_array",
+      "importance": 0.0
+    },
+    {
+      "feature": "date_has_tz",
+      "importance": 0.0
+    },
+    {
+      "feature": "date_is_future",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_placeholder_links",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_image_api_marker",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_yaml_syntax",
+      "importance": 0.0
+    },
+    {
+      "feature": "draft",
+      "importance": 0.0
+    }
+  ],
+  "labels": [
+    "yaml_syntax_in_toml",
+    "missing_commit_hash",
+    "missing_image",
+    "draft_post",
+    "wrong_timezone",
+    "future_date",
+    "insufficient_content",
+    "fake_internal_links",
+    "dead_image_marker",
+    "meta_description_length",
+    "hardcoded_footer_section",
+    "unused_internal_links",
+    "broken_inline_image",
+    "attribution_array_of_tables",
+    "empty_file",
+    "broken_frontmatter"
+  ],
+  "features": [
+    "word_count",
+    "title_len",
+    "slug_len",
+    "description_len",
+    "tag_count",
+    "faq_count",
+    "external_links_count",
+    "internal_links_count",
+    "inline_image_count",
+    "heading_count",
+    "list_count",
+    "table_count",
+    "code_block_count",
+    "paragraph_count",
+    "avg_paragraph_len",
+    "known_pattern_score",
+    "has_image",
+    "has_thumbnail",
+    "image_verified",
+    "image_needs_image",
+    "has_image_creator",
+    "has_image_attribution_verified",
+    "has_attribution_single",
+    "has_attribution_array",
+    "has_commit",
+    "date_has_tz",
+    "date_is_future",
+    "has_placeholder_links",
+    "has_image_api_marker",
+    "has_yaml_syntax",
+    "category_encoded",
+    "post_lang_encoded",
+    "draft",
+    "has_inline_images",
+    "seo_title_present",
+    "lastmod_present",
+    "related_posts_count",
+    "image_query_present",
+    "git_commit_count",
+    "git_last_commit_ago_days"
+  ],
+  "train_label_counts": {
+    "yaml_syntax_in_toml": 0,
+    "missing_commit_hash": 14,
+    "missing_image": 0,
+    "draft_post": 0,
+    "wrong_timezone": 0,
+    "future_date": 0,
+    "insufficient_content": 336,
+    "fake_internal_links": 0,
+    "dead_image_marker": 0,
+    "meta_description_length": 15,
+    "hardcoded_footer_section": 0,
+    "unused_internal_links": 1,
+    "broken_inline_image": 0,
+    "attribution_array_of_tables": 0,
+    "empty_file": 0,
+    "broken_frontmatter": 0
+  },
+  "per_label_f1": {
+    "yaml_syntax_in_toml": 0.0,
+    "missing_commit_hash": 1.0,
+    "missing_image": 0.0,
+    "draft_post": 0.0,
+    "wrong_timezone": 0.0,
+    "future_date": 0.0,
+    "insufficient_content": 1.0,
+    "fake_internal_links": 0.0,
+    "dead_image_marker": 0.0,
+    "meta_description_length": 0.8,
+    "hardcoded_footer_section": 0.0,
+    "unused_internal_links": 0.0,
+    "broken_inline_image": 0.0,
+    "attribution_array_of_tables": 0.0,
+    "empty_file": 0.0,
+    "broken_frontmatter": 0.0
+  }
+}

@@ -1,0 +1,1858 @@
+{
+  "built_at": "2026-07-18T02:08:27.537299+07:00",
+  "sources": {
+    "deployment_doctor": "/Users/duynguyen/Desktop/reviewchanthat/data/deployment-doctor.json",
+    "knowledge": "/Users/duynguyen/Desktop/reviewchanthat/data/deployment-doctor-knowledge.json",
+    "attempts": "/Users/duynguyen/Desktop/reviewchanthat/data/deployment-doctor-attempts.json",
+    "baseline_debt": "/Users/duynguyen/Desktop/reviewchanthat/data/qa-baseline-debt.json",
+    "model_metadata": "/Users/duynguyen/Desktop/reviewchanthat/scripts/ml/model_metadata.json"
+  },
+  "summary": {
+    "failed_runs_scanned": 17,
+    "safe_autofixes_available": 17,
+    "unsafe_external_failures": 0,
+    "open_action_items": 9,
+    "loop_guarded_attempts": 90,
+    "by_type": {
+      "workflow_fanout": 10,
+      "sitemap_noindex_mismatch": 5,
+      "content_direction_optimizer_fail": 1,
+      "date_only_or_wrong_timezone": 1
+    }
+  },
+  "lessons_learned": [],
+  "patterns": [
+    {
+      "id": "runner_capacity_delay",
+      "severity": "external",
+      "match": [
+        "Waiting for a runner to pick up this job",
+        "Job is waiting for a hosted runner to come online",
+        "Requested labels: ubuntu-latest"
+      ],
+      "safe_to_autofix": false,
+      "summary": "GitHub-hosted runner capacity delay before job starts.",
+      "action_items": [
+        "Do not change code.",
+        "Cancel superseded runs.",
+        "Rerun only the latest deploy after recovery."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "external_platform_incident",
+      "severity": "external",
+      "match": [
+        "GitHub Status",
+        "Actions delayed starting runs",
+        "Pages builds affected",
+        "www.githubstatus.com",
+        "Incident with GitHub Actions"
+      ],
+      "safe_to_autofix": false,
+      "summary": "External GitHub platform incident (Actions/Pages start delays).",
+      "action_items": [
+        "Do not change application code.",
+        "Monitor GitHub Status.",
+        "Rerun latest deploy after platform recovery."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": true,
+      "should_pause_workflows": true
+    },
+    {
+      "id": "github_rate_limit",
+      "severity": "external",
+      "match": [
+        "API rate limit exceeded",
+        "secondary rate limit",
+        "X-RateLimit-Remaining: 0",
+        "rate limit"
+      ],
+      "safe_to_autofix": false,
+      "summary": "GitHub API rate limit hit.",
+      "action_items": [
+        "Back off retries.",
+        "Avoid fan-out workflows.",
+        "Reuse GITHUB_TOKEN carefully."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": true
+    },
+    {
+      "id": "github_pages_rate_limit",
+      "severity": "external",
+      "match": [
+        "Pages rate limit",
+        "exceeded the GitHub Pages rate limit",
+        "deployment_rate_limit"
+      ],
+      "safe_to_autofix": false,
+      "summary": "GitHub Pages publish rate limit.",
+      "action_items": [
+        "Do not push report-only commits that trigger deploy.",
+        "paths-ignore report data files.",
+        "Retry deploy later."
+      ],
+      "recommended_fix_script": "fix_workflow_fanout",
+      "should_retry_deploy": true,
+      "should_pause_workflows": true
+    },
+    {
+      "id": "workflow_fanout",
+      "severity": "ci",
+      "match": [
+        "concurrency cancelled",
+        "cancel-in-progress",
+        "too many workflows",
+        "workflow fan-out",
+        "fanout"
+      ],
+      "safe_to_autofix": true,
+      "summary": "One merge fans out into deploy + snapshot + content-direction + autofix loops.",
+      "action_items": [
+        "Add concurrency groups.",
+        "paths-ignore report-only data.",
+        "Skip doctor/autofix when only reports changed."
+      ],
+      "recommended_fix_script": "fix_workflow_fanout",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "baseline_debt_blocking_unrelated_deploy",
+      "severity": "qa_debt",
+      "match": [
+        "baseline debt",
+        "qa-baseline-debt",
+        "old posts missing image",
+        "MISSING_IMAGE",
+        "MISSING_LICENSE",
+        "scope-new-or-changed-only"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Old QA/image debt fails full-site checks and blocks unrelated deploys.",
+      "action_items": [
+        "Strict QA only on changed/new files for deploy gate.",
+        "Keep old debt in baseline ledger.",
+        "Batch debt fixes in separate qa-debt-fix PRs."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "changed_post_image_missing",
+      "severity": "image_pipeline",
+      "match": [
+        "MISSING_IMAGE",
+        "needs_image",
+        "image_status: needs_image",
+        "No image for slug"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Changed/new post is missing a verified hero image.",
+      "action_items": [
+        "Generate self-hosted hero for changed posts only.",
+        "Do not rewrite unrelated posts."
+      ],
+      "recommended_fix_script": "fix_changed_post_image_metadata",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "self_owned_image_direct_url",
+      "severity": "image_pipeline",
+      "match": [
+        "No direct_url in manifest",
+        "direct_url",
+        "self-generated",
+        "self_owned",
+        "image_provider = self-generated"
+      ],
+      "safe_to_autofix": true,
+      "summary": "process_images expected provider direct_url for a self-owned/generated image.",
+      "action_items": [
+        "Skip direct_url requirement for self-owned images.",
+        "Validate local file under static/images/posts/."
+      ],
+      "recommended_fix_script": "fix_self_owned_image_processing",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "verified_creator_unavailable",
+      "severity": "image_pipeline",
+      "match": [
+        "VERIFIED_WITHOUT_CREATOR",
+        "creator empty",
+        "source_verified_creator_unavailable",
+        "image_attribution_source"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Creator empty is valid when source/license verified but creator unavailable.",
+      "action_items": [
+        "Treat creator empty as OK when image_attribution_source indicates creator unavailable.",
+        "Keep fake creator values fatal."
+      ],
+      "recommended_fix_script": "fix_creator_unavailable_false_positive",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "fake_image_creator",
+      "severity": "image_pipeline",
+      "match": [
+        "INVALID_IMAGE_CREATOR",
+        "blocked creator",
+        "fake creator",
+        "Review Chân Thật"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Fake or blocked image creator values are policy-fatal.",
+      "action_items": [
+        "Do not invent creator names.",
+        "Use self_generated attribution for self-owned assets."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "date_only_or_wrong_timezone",
+      "severity": "content",
+      "match": [
+        "date-only",
+        "timezone",
+        "Asia/Ho_Chi_Minh",
+        "qa_dates",
+        "future-dated",
+        "missing +07:00"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Post date missing timezone or stamped in UTC instead of Vietnam time.",
+      "action_items": [
+        "Run qa_dates.py --fix-obvious only.",
+        "Never rewrite ambiguous dates."
+      ],
+      "recommended_fix_script": "fix_date_only_or_timezone",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "content_direction_empty_report",
+      "severity": "content_direction",
+      "match": [
+        "total_posts\": 0",
+        "Content Direction data is empty",
+        "scanned 0 published posts",
+        "refusing empty report",
+        "summary.total_posts must be > 0",
+        "0 Bài viết"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Content Direction rendered empty (wrong path/data key/empty fallback).",
+      "action_items": [
+        "Fail if scan returns 0 posts.",
+        "Never overwrite valid JSON with empty report.",
+        "Remove Image / Attribution Risk from Content Direction."
+      ],
+      "recommended_fix_script": "fix_content_direction_empty",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "live_deploy_not_reflected",
+      "severity": "deploy_live",
+      "match": [
+        "live SHA mismatch",
+        "build-info.json",
+        "deploy not reflected",
+        "stale pages"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Merge succeeded but live site still serves old artifact.",
+      "action_items": [
+        "Write static/build-info.json with SHA.",
+        "Verify live SHA after deploy.",
+        "Rerun latest deploy once if stale."
+      ],
+      "recommended_fix_script": "fix_live_deploy_build_info",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "github_pages_serving_old_artifact",
+      "severity": "deploy_live",
+      "match": [
+        "old artifact",
+        "Pages serving previous",
+        "deployment not active"
+      ],
+      "safe_to_autofix": false,
+      "summary": "GitHub Pages still serving previous artifact after deploy job.",
+      "action_items": [
+        "Check Pages deployment status.",
+        "Rerun deploy once after cool-down."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "baseurl_routing_error",
+      "severity": "deploy_live",
+      "match": [
+        "baseURL",
+        "href=\"/posts/",
+        "src=\"/images/",
+        "missing /reviewchanthat/"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Hardcoded absolute paths omit /reviewchanthat/ base path.",
+      "action_items": [
+        "Use relURL / absURL helpers.",
+        "Never hardcode root-relative paths without base."
+      ],
+      "recommended_fix_script": "fix_series_relurl",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "sitemap_noindex_mismatch",
+      "severity": "seo",
+      "match": [
+        "noindex",
+        "sitemap",
+        "content-direction in sitemap",
+        "deployment-doctor in sitemap"
+      ],
+      "safe_to_autofix": true,
+      "summary": "noindex pages incorrectly included in sitemap.",
+      "action_items": [
+        "Keep posts-only sitemap.",
+        "Exclude noindex/admin/doctor pages."
+      ],
+      "recommended_fix_script": "fix_sitemap_noindex",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "series_hardcoded_url",
+      "severity": "ux_layout",
+      "match": [
+        "href=\"/series/",
+        "hardcoded /series/",
+        "series permalink"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Hardcoded /series/ paths break project-page baseURL.",
+      "action_items": [
+        "Replace with relURL helpers."
+      ],
+      "recommended_fix_script": "fix_series_relurl",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "ai_summary_map_artifact",
+      "severity": "content",
+      "match": [
+        "map[",
+        "ai_summary",
+        "normalize_ai_summaries"
+      ],
+      "safe_to_autofix": true,
+      "summary": "AI summary contains Go map[] serialization artifacts.",
+      "action_items": [
+        "Run normalize_ai_summaries.py --fix."
+      ],
+      "recommended_fix_script": "fix_ai_summary_map",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "qa_expectation_mismatch",
+      "severity": "qa_debt",
+      "match": [
+        "footer link",
+        "deployment-snapshot",
+        "QA still expects",
+        "product decision"
+      ],
+      "safe_to_autofix": true,
+      "summary": "QA expects a footer/product element that product intentionally removed.",
+      "action_items": [
+        "Align QA with product rules.",
+        "Do not re-add removed footer links just to pass QA."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "table_layout_ux_regression",
+      "severity": "ux_layout",
+      "match": [
+        "table-wrap",
+        "overflow-x:auto",
+        "Prior ity",
+        "article-wide-width",
+        "horizontal scroll"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Article/table UX regression: too wide or desktop table scroll.",
+      "action_items": [
+        "CSS/layout-only fix.",
+        "Desktop tables static, no H-scroll.",
+        "Do not rewrite post content."
+      ],
+      "recommended_fix_script": "fix_table_layout",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "hugo_build_error",
+      "severity": "build",
+      "match": [
+        "ERROR error building site",
+        "failed to render",
+        "TOCSS",
+        "execute of template failed",
+        "Error: error building site"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Hugo build/render error.",
+      "action_items": [
+        "Inspect Hugo template error line.",
+        "Autofix only if matched known template regression."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "deploy_not_completed",
+      "severity": "deploy_live",
+      "match": [
+        "deploy job cancelled",
+        "Upload Pages artifact",
+        "deploy-pages",
+        "deployment failed"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Deploy workflow did not complete successfully.",
+      "action_items": [
+        "Inspect deploy job logs.",
+        "Rerun latest deploy after rootcause fixed."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "template_or_render_regression",
+      "severity": "build",
+      "match": [
+        "nil pointer evaluating",
+        "can't evaluate field",
+        "partial",
+        "render hook"
+      ],
+      "safe_to_autofix": false,
+      "summary": "Template/render regression in Hugo layouts.",
+      "action_items": [
+        "Fix layout/partial with minimal scoped change."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "image_asset_missing",
+      "severity": "image_pipeline",
+      "match": [
+        "static/images/posts",
+        "no such file",
+        "broken image",
+        "image not found"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Referenced image asset missing under static/images/posts.",
+      "action_items": [
+        "Regenerate hero for changed post only.",
+        "Do not mass-replace site images."
+      ],
+      "recommended_fix_script": "fix_changed_post_image_metadata",
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "unknown",
+      "severity": "unknown",
+      "match": [],
+      "safe_to_autofix": false,
+      "summary": "Unrecognized failure — needs human review.",
+      "action_items": [
+        "Read sanitized log excerpt.",
+        "Add new pattern to knowledge base if recurring."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "duplicate_yaml_keys",
+      "severity": "medium",
+      "match": [
+        "mapping key.*already defined",
+        "duplicate key",
+        "faq:",
+        "internal_links:",
+        "tags:",
+        "tom_tat_nhanh:"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Hugo front matter chứa duplicate YAML keys, khiến build fail.",
+      "action_items": [
+        "Run autobot_dup_remover hoặc scripts/fix_duplicate_yaml_keys.py"
+      ],
+      "recommended_fix_script": "python scripts/autobot_dup_remover.py --write",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "content_direction_optimizer_fail",
+      "severity": "medium",
+      "match": [
+        "content_direction_optimizer",
+        "Content Direction Optimizer",
+        "optimizer score",
+        "ERROR.*content_direction"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Content Direction Optimizer script failed — thường do front matter parse error.",
+      "action_items": [
+        "Kiểm tra content/posts/ có file front matter lỗi",
+        "Chạy autobot_dup_remover trước"
+      ],
+      "recommended_fix_script": "python scripts/autobot_dup_remover.py --write",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "metadata_optimizer_fail",
+      "severity": "low",
+      "match": [
+        "autobot_seo_title",
+        "autobot_desc",
+        "seo_title_optimizer",
+        "desc_optimizer"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Metadata optimizer (seo_title hoặc description) gặp lỗi front matter.",
+      "action_items": [
+        "Kiểm tra front matter các file mới/thay đổi gần đây",
+        "Chạy autobot_dup_remover"
+      ],
+      "recommended_fix_script": "python scripts/autobot_dup_remover.py --write",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "gitignore_blocks_webp_files",
+      "severity": "critical",
+      "match": [
+        "static/images/posts/*.webp.*missing",
+        "WebP.*not found",
+        ".gitignore.*webp",
+        "hero images missing",
+        "no images on production"
+      ],
+      "safe_to_autofix": true,
+      "summary": ".gitignore blocks .webp files from git tracking. GitHub Actions checkout has no images → Deploy fails.",
+      "action_items": [
+        "Uncomment .gitignore rules for static/images/posts/*.webp",
+        "WebP files are generated but needed for GitHub Pages deploy",
+        "Auto-fix: fix_gitignore_webp_block"
+      ],
+      "recommended_fix_script": "fix_gitignore_webp_block",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "missing_commit_ids",
+      "severity": "critical",
+      "match": [
+        "commit.*empty",
+        "commit = \"\"",
+        "MANDATORY commit ID missing",
+        "missing commit hash",
+        "no commit tracked"
+      ],
+      "safe_to_autofix": true,
+      "summary": "One or more posts missing commit ID (commit = \"\" or field blank). CRITICAL: Every post MUST have commit = \"sha\" for traceability.",
+      "action_items": [
+        "Run scripts/add_commit_id.py to inject current commit SHA into all posts",
+        "Verify: grep '\"\"' content/posts/*.md should return 0 results",
+        "Auto-fix: fix_missing_commit_ids"
+      ],
+      "recommended_fix_script": "fix_missing_commit_ids",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "non_canonical_category_created",
+      "severity": "content",
+      "match": [
+        "unknown category",
+        "new category",
+        "non-canonical category",
+        "category not in categories.json",
+        "one-off category",
+        "taxonomy bloat"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Bài dùng category ngoài 5 canonical (review, cong-nghe, doi-song, tai-chinh, du-lich). TUYỆT ĐỐI không tạo category mới.",
+      "action_items": [
+        "KHÔNG thêm item mới vào data/categories.json.",
+        "Map category lạ vào 1 trong 5 canonical qua bảng aliases; mặc định an toàn là doi-song (Đời sống).",
+        "Sửa front matter bài về đúng label canonical gần nhất."
+      ],
+      "recommended_fix_script": "fix_map_category_to_canonical",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "image_api_rate_limit_switch_source",
+      "severity": "image_pipeline",
+      "match": [
+        "429 Too Many Requests",
+        "Pexels rate limit",
+        "Pixabay rate limit",
+        "X-Ratelimit-Remaining: 0",
+        "image API rate limit"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Một image provider (Pexels HOẶC Pixabay) bị rate limit. Ta có 2 API → đổi source, không fail vội.",
+      "action_items": [
+        "Provider bị 429 → tự động chuyển sang provider còn lại (Pexels<->Pixabay).",
+        "Chỉ khi CẢ HAI provider đều 429 mới back off + retry sau (deploy FIFO >=30s).",
+        "Không dùng ảnh fake/placeholder khi rate limit."
+      ],
+      "recommended_fix_script": "fix_switch_image_provider",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "post_without_image_textfirst_ok",
+      "severity": "image_pipeline",
+      "match": [
+        "no image after exhausting providers",
+        "both providers returned no image",
+        "text-first post",
+        "publish without image"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Đã thử CẢ 2 API (đổi source khi rate limit) mà không có ảnh hợp lệ → bài text-first là HỢP LỆ, không phải lỗi deploy.",
+      "action_items": [
+        "Cho phép publish bài không ảnh dạng text-first (load nhanh, tốt SEO performance).",
+        "TUYỆT ĐỐI không chèn ảnh fake/placeholder/self-generated để lấp chỗ.",
+        "Chỉ chấp nhận text-first SAU KHI đã thử hết cả Pexels và Pixabay."
+      ],
+      "recommended_fix_script": null,
+      "should_retry_deploy": false,
+      "should_pause_workflows": false
+    },
+    {
+      "id": "hardcoded_footer_section_in_body",
+      "severity": "content",
+      "match": [
+        "hardcoded footer section",
+        "Liên kết nội bộ được sử dụng trong bài viết",
+        "Liên kết bên ngoài được sử dụng trong bài viết",
+        "FAQ - Câu hỏi thường gặp",
+        "Bản quyền & Ghi nguồn",
+        "duplicate footer",
+        "faq hardcoded in body"
+      ],
+      "safe_to_autofix": true,
+      "summary": "Bài hardcode 4 mục cuối bài (internal links / external links / FAQ / bản quyền) trong body thay vì để macro post-footer.html render từ front matter. Áp dụng mọi Category.",
+      "action_items": [
+        "Không hardcode heading/nội dung 4 mục này trong body .md.",
+        "Move nội dung hardcode vào field FM tương ứng: [[internal_links]], [[external_links]], [[faq]], [attribution].",
+        "Chạy scripts/move_hardcoded_footer_sections.py --fix; dọn nợ hàng loạt ở PR qa-debt-fix riêng."
+      ],
+      "recommended_fix_script": "fix_move_hardcoded_footer_sections",
+      "should_retry_deploy": true,
+      "should_pause_workflows": false
+    }
+  ],
+  "recent_failures": [
+    {
+      "run_id": "29123068044",
+      "workflow": "autobot_fixer_I (nightly)",
+      "commit": "4ebba49",
+      "status": "failure",
+      "rootcause": "content_direction_optimizer_fail",
+      "safe_to_autofix": true,
+      "action": "Kiểm tra content/posts/ có file front matter lỗi",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123068044"
+    },
+    {
+      "run_id": "29123081418",
+      "workflow": "Content Direction Optimizer (all-safe nightly)",
+      "commit": "4ebba49",
+      "status": "failure",
+      "rootcause": "date_only_or_wrong_timezone",
+      "safe_to_autofix": true,
+      "action": "Run qa_dates.py --fix-obvious only.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123081418"
+    },
+    {
+      "run_id": "29125557715",
+      "workflow": "Deployment Doctor",
+      "commit": "351633e",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29125557715"
+    },
+    {
+      "run_id": "29125527144",
+      "workflow": "Deployment Doctor",
+      "commit": "642ad50",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29125527144"
+    },
+    {
+      "run_id": "29125471221",
+      "workflow": "Deployment Doctor",
+      "commit": "88dabbf",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29125471221"
+    },
+    {
+      "run_id": "29123832012",
+      "workflow": "Deployment Doctor",
+      "commit": "bf0963e",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123832012"
+    },
+    {
+      "run_id": "29123740568",
+      "workflow": "Deployment Doctor",
+      "commit": "728ff04",
+      "status": "cancelled",
+      "rootcause": "sitemap_noindex_mismatch",
+      "safe_to_autofix": true,
+      "action": "Keep posts-only sitemap.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123740568"
+    },
+    {
+      "run_id": "29125717506",
+      "workflow": "Deployment Doctor",
+      "commit": "f9f318b",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29125717506"
+    },
+    {
+      "run_id": "29125524775",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "e1e1b92",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29125524775"
+    },
+    {
+      "run_id": "29125484326",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "94ec1c1",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29125484326"
+    },
+    {
+      "run_id": "29124699576",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "11f15e5",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29124699576"
+    },
+    {
+      "run_id": "29123743955",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "91cdf97",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123743955"
+    },
+    {
+      "run_id": "29123741243",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "91cdf97",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123741243"
+    },
+    {
+      "run_id": "29123618804",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "728ff04",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123618804"
+    },
+    {
+      "run_id": "29123344012",
+      "workflow": "Deployment Doctor",
+      "commit": "7ba3862",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123344012"
+    },
+    {
+      "run_id": "29123340857",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "7ba3862",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123340857"
+    },
+    {
+      "run_id": "29123278252",
+      "workflow": "Deploy to GitHub Pages",
+      "commit": "d568b48",
+      "status": "cancelled",
+      "rootcause": "workflow_fanout",
+      "safe_to_autofix": true,
+      "action": "Add concurrency groups.",
+      "url": "https://github.com/Banhang-Chogao/reviewchanthat/actions/runs/29123278252"
+    }
+  ],
+  "autofix_history": [
+    {
+      "run_id": "29123068044",
+      "failure_type": "content_direction_optimizer_fail",
+      "result": "skipped",
+      "detail": "no fixer registered for python scripts/autobot_dup_remover.py --write"
+    },
+    {
+      "run_id": "29123081418",
+      "failure_type": "date_only_or_wrong_timezone",
+      "result": "needs_human_review",
+      "detail": "loop-guard: 4ebba49de86b:date_only_or_wrong_timezone already attempted 2 times"
+    },
+    {
+      "run_id": "29125557715",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "needs_human_review",
+      "detail": "loop-guard: 351633ece2c8:sitemap_noindex_mismatch already attempted 2 times"
+    },
+    {
+      "run_id": "29125527144",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "needs_human_review",
+      "detail": "loop-guard: 642ad50284d7:sitemap_noindex_mismatch already attempted 2 times"
+    },
+    {
+      "run_id": "29125471221",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "skipped",
+      "detail": "posts-only sitemap already in place",
+      "script": "fix_sitemap_noindex"
+    },
+    {
+      "run_id": "29123832012",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29123740568",
+      "failure_type": "sitemap_noindex_mismatch",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29125717506",
+      "failure_type": "workflow_fanout",
+      "result": "needs_human_review",
+      "detail": "loop-guard: f9f318bb491c:workflow_fanout already attempted 2 times"
+    },
+    {
+      "run_id": "29125524775",
+      "failure_type": "workflow_fanout",
+      "result": "needs_human_review",
+      "detail": "loop-guard: e1e1b92a7953:workflow_fanout already attempted 2 times"
+    },
+    {
+      "run_id": "29125484326",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "paths-ignore already present",
+      "script": "fix_workflow_fanout"
+    },
+    {
+      "run_id": "29124699576",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29123743955",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29123741243",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29123618804",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29123344012",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29123340857",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    },
+    {
+      "run_id": "29123278252",
+      "failure_type": "workflow_fanout",
+      "result": "skipped",
+      "detail": "no script or already attempted this run"
+    }
+  ],
+  "loop_guarded": [
+    {
+      "key": "0e79c0346481:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T00:10:59+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "37817d7cf065:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T01:14:57+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "ef0a760db5d5:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T00:29:06+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "f4411c2bd47a:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T01:05:45+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "7abfd3771b9b:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T00:56:50+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "7abfd3771b9b:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T00:56:50+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "bfc5dec17670:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T00:58:22+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "f931e938f0ff:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T01:04:20+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "18cb600b75a2:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T01:05:45+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "1c8ae5664c6f:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T01:16:41+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "5397cd315855:date_only_or_wrong_timezone",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T04:02:02+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "5397cd315855:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T04:07:25+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "620524b8a1c2:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T04:04:49+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "58dc0148f45a:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T04:04:49+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "0d30b2664b36:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T04:57:04+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "807bd0aa72a4:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:08:40+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "cbc21a29f5f5:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:02:47+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "7d4b95e338fe:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:08:40+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "7d4b95e338fe:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:08:40+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "5a6af7d0a4cf:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:19:23+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "fbccc251ebe2:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:19:23+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "0d30b2664b36:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:19:23+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "2cfacc4bda33:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:24:22+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "2cfacc4bda33:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:24:22+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "b510caa259e9:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:27:03+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "417865a16fc5:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:38:11+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "dee02d94efb1:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:51:13+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "0c97454ca88f:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:43:26+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "bc563c09fabb:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:50:03+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "6f6020ce3aa3:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:48:19+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "77fea5827259:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:50:03+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "054b69ee7a10:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T05:52:38+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "390501e92d12:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T06:21:29+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "ef1c339effd7:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T06:01:29+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "0144b80e317f:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T06:04:58+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "413e41e04dc1:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T06:29:56+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "62c226fe834c:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T06:29:56+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "4408d6aa306d:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T06:51:21+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "efceafb6e555:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:05:42+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "84a0da8c2b7c:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:12:59+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "ca599c58447d:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:38:31+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "6fefbd7b72e0:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:28:37+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "6fefbd7b72e0:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:36:39+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "c19cb5931c5d:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:38:31+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "447e0e5120f1:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:47:14+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "afc8f1894829:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T07:56:44+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "9dd69145cca8:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T08:04:16+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "7e7de7bb39cd:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T08:47:31+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "939235888fdb:date_only_or_wrong_timezone",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T09:02:08+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "39e0743ce1a9:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T09:05:09+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "6fefbd7b72e0:date_only_or_wrong_timezone",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T09:08:49+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "07ecf08e6199:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T12:03:42+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "bff14922bb8c:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T13:05:05+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "d1433b36686a:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T13:07:18+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "496b863dcb5d:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T13:16:52+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "a9823ea97375:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T13:37:05+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "75048d1d171f:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T14:05:54+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "a99f13f5a320:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T14:11:03+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "a99f13f5a320:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T14:11:03+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "21d0569a3a85:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T14:19:11+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "0927840ee75e:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T14:25:56+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "4a579ebe3c77:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T14:41:20+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "a9823ea97375:ai_summary_map_artifact",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T14:55:05+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "f862a9fcc33c:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T15:05:39+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "9a2c97a7fc3e:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T15:05:39+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "f2c74d8cc7e7:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T18:48:05+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "f2c74d8cc7e7:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T19:45:22+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "c40ea0ca7b92:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T19:41:08+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "985d6d142465:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T19:09:26+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "2b04b1a4e5d3:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T19:28:48+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "da53c28c0470:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T19:25:08+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "36ce7e31556c:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T19:28:48+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "6d9df26a6d1b:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T20:55:00+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "960d4b04fd7c:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T20:55:00+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "168abc786732:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T21:21:55+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "b36080485f4c:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T21:21:55+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "d1f6bba30881:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-10T21:59:21+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "892f854b0429:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T03:52:50+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "4ebba49de86b:date_only_or_wrong_timezone",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:02:45+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "7ba386227963:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:02:45+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "d568b489ac01:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:30:21+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "728ff045f65a:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:25:54+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "91cdf971a3c6:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:10:46+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "bf0963ee2610:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:17:38+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "728ff045f65a:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:25:54+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "11f15e5d4280:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:28:09+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "351633ece2c8:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:46:49+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "e1e1b92a7953:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:51:35+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "f9f318bb491c:workflow_fanout",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:49:08+07:00",
+      "last_result": "skipped"
+    },
+    {
+      "key": "642ad50284d7:sitemap_noindex_mismatch",
+      "count": 2,
+      "last_attempt_at": "2026-07-11T04:51:35+07:00",
+      "last_result": "skipped"
+    }
+  ],
+  "action_items": [
+    {
+      "priority": "P0",
+      "owner": "system",
+      "failure_type": "content_direction_optimizer_fail",
+      "title": "Kiểm tra content/posts/ có file front matter lỗi",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P0",
+      "owner": "system",
+      "failure_type": "content_direction_optimizer_fail",
+      "title": "Chạy autobot_dup_remover trước",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P0",
+      "owner": "system",
+      "failure_type": "date_only_or_wrong_timezone",
+      "title": "Run qa_dates.py --fix-obvious only.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P0",
+      "owner": "system",
+      "failure_type": "date_only_or_wrong_timezone",
+      "title": "Never rewrite ambiguous dates.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P1",
+      "owner": "system",
+      "failure_type": "sitemap_noindex_mismatch",
+      "title": "Keep posts-only sitemap.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P1",
+      "owner": "system",
+      "failure_type": "sitemap_noindex_mismatch",
+      "title": "Exclude noindex/admin/doctor pages.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P1",
+      "owner": "system",
+      "failure_type": "workflow_fanout",
+      "title": "Add concurrency groups.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P1",
+      "owner": "system",
+      "failure_type": "workflow_fanout",
+      "title": "paths-ignore report-only data.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    },
+    {
+      "priority": "P1",
+      "owner": "system",
+      "failure_type": "workflow_fanout",
+      "title": "Skip doctor/autofix when only reports changed.",
+      "expected_result": "Unblock deploy / prevent recurrence"
+    }
+  ],
+  "baseline_debt": {
+    "VERIFIED_WITHOUT_CREATOR": {
+      "affected_posts": [
+        "bangkok-3-ngay-3-dem-mua-mua",
+        "bangkok-ngay-mua-nen-di-dau",
+        "checklist-vali-di-thai-mua-mua",
+        "chiang-mai-mua-mua-co-gi-dep",
+        "di-thai-lan-thang-7-co-nen-khong",
+        "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
+        "doi-baht-o-viet-nam-hay-thai-lan",
+        "du-lich-thai-lan-mua-mua-co-nen-di-khong",
+        "krabi-mua-mua-ao-nang-railay-tour-dao",
+        "o-khu-nao-bangkok-mua-mua",
+        "phuket-mua-mua-co-nen-di-khong",
+        "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab"
+      ],
+      "reason": "Source/license verified but creator empty - acceptable if API cannot resolve creator",
+      "status": "acceptable",
+      "auto_fix": false
+    },
+    "MISSING_IMAGE_METADATA": {
+      "affected_posts": [
+        "co-nen-cho-iphone-18-khong",
+        "co-nen-len-ios-26-5-2-khong",
+        "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+        "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+        "iphone-18-pro-max-co-gi-moi"
+      ],
+      "reason": "Recently added posts with placeholder images - scheduled for image sourcing",
+      "status": "in-progress",
+      "auto_fix": true,
+      "fix_pr_created": false
+    }
+  },
+  "model": {
+    "trained_at": "2026-07-18T02:07:35.743236+07:00",
+    "n_samples": 393,
+    "hamming_loss": 0.000791,
+    "labels": [
+      "yaml_syntax_in_toml",
+      "missing_commit_hash",
+      "missing_image",
+      "draft_post",
+      "wrong_timezone",
+      "future_date",
+      "insufficient_content",
+      "fake_internal_links",
+      "dead_image_marker",
+      "meta_description_length",
+      "hardcoded_footer_section",
+      "unused_internal_links",
+      "broken_inline_image",
+      "attribution_array_of_tables",
+      "empty_file",
+      "broken_frontmatter"
+    ],
+    "features": [
+      "word_count",
+      "title_len",
+      "slug_len",
+      "description_len",
+      "tag_count",
+      "faq_count",
+      "external_links_count",
+      "internal_links_count",
+      "inline_image_count",
+      "heading_count",
+      "list_count",
+      "table_count",
+      "code_block_count",
+      "paragraph_count",
+      "avg_paragraph_len",
+      "known_pattern_score",
+      "has_image",
+      "has_thumbnail",
+      "image_verified",
+      "image_needs_image",
+      "has_image_creator",
+      "has_image_attribution_verified",
+      "has_attribution_single",
+      "has_attribution_array",
+      "has_commit",
+      "date_has_tz",
+      "date_is_future",
+      "has_placeholder_links",
+      "has_image_api_marker",
+      "has_yaml_syntax",
+      "category_encoded",
+      "post_lang_encoded",
+      "draft",
+      "has_inline_images",
+      "seo_title_present",
+      "lastmod_present",
+      "related_posts_count",
+      "image_query_present",
+      "git_commit_count",
+      "git_last_commit_ago_days"
+    ],
+    "train_label_counts": {
+      "yaml_syntax_in_toml": 0,
+      "missing_commit_hash": 14,
+      "missing_image": 0,
+      "draft_post": 0,
+      "wrong_timezone": 0,
+      "future_date": 0,
+      "insufficient_content": 336,
+      "fake_internal_links": 0,
+      "dead_image_marker": 0,
+      "meta_description_length": 15,
+      "hardcoded_footer_section": 0,
+      "unused_internal_links": 1,
+      "broken_inline_image": 0,
+      "attribution_array_of_tables": 0,
+      "empty_file": 0,
+      "broken_frontmatter": 0
+    },
+    "feature_importances": [
+      {
+        "feature": "git_commit_count",
+        "importance": 0.03683
+      },
+      {
+        "feature": "word_count",
+        "importance": 0.030776
+      },
+      {
+        "feature": "description_len",
+        "importance": 0.023925
+      },
+      {
+        "feature": "has_commit",
+        "importance": 0.018361
+      },
+      {
+        "feature": "avg_paragraph_len",
+        "importance": 0.017071
+      },
+      {
+        "feature": "list_count",
+        "importance": 0.016542
+      },
+      {
+        "feature": "paragraph_count",
+        "importance": 0.01434
+      },
+      {
+        "feature": "heading_count",
+        "importance": 0.013703
+      },
+      {
+        "feature": "title_len",
+        "importance": 0.009709
+      },
+      {
+        "feature": "internal_links_count",
+        "importance": 0.009104
+      },
+      {
+        "feature": "tag_count",
+        "importance": 0.007661
+      },
+      {
+        "feature": "faq_count",
+        "importance": 0.006801
+      },
+      {
+        "feature": "external_links_count",
+        "importance": 0.006151
+      },
+      {
+        "feature": "slug_len",
+        "importance": 0.00594
+      },
+      {
+        "feature": "seo_title_present",
+        "importance": 0.005882
+      },
+      {
+        "feature": "category_encoded",
+        "importance": 0.005877
+      },
+      {
+        "feature": "image_verified",
+        "importance": 0.005135
+      },
+      {
+        "feature": "table_count",
+        "importance": 0.003804
+      },
+      {
+        "feature": "post_lang_encoded",
+        "importance": 0.003365
+      },
+      {
+        "feature": "image_query_present",
+        "importance": 0.002812
+      },
+      {
+        "feature": "lastmod_present",
+        "importance": 0.002764
+      },
+      {
+        "feature": "inline_image_count",
+        "importance": 0.000937
+      },
+      {
+        "feature": "has_attribution_single",
+        "importance": 0.000875
+      },
+      {
+        "feature": "has_inline_images",
+        "importance": 0.000793
+      },
+      {
+        "feature": "git_last_commit_ago_days",
+        "importance": 0.00047
+      },
+      {
+        "feature": "code_block_count",
+        "importance": 0.000265
+      },
+      {
+        "feature": "related_posts_count",
+        "importance": 5.5e-05
+      },
+      {
+        "feature": "has_image_creator",
+        "importance": 2.2e-05
+      },
+      {
+        "feature": "known_pattern_score",
+        "importance": 2.1e-05
+      },
+      {
+        "feature": "has_image_attribution_verified",
+        "importance": 9e-06
+      },
+      {
+        "feature": "has_image",
+        "importance": 0.0
+      },
+      {
+        "feature": "has_thumbnail",
+        "importance": 0.0
+      },
+      {
+        "feature": "image_needs_image",
+        "importance": 0.0
+      },
+      {
+        "feature": "has_attribution_array",
+        "importance": 0.0
+      },
+      {
+        "feature": "date_has_tz",
+        "importance": 0.0
+      },
+      {
+        "feature": "date_is_future",
+        "importance": 0.0
+      },
+      {
+        "feature": "has_placeholder_links",
+        "importance": 0.0
+      },
+      {
+        "feature": "has_image_api_marker",
+        "importance": 0.0
+      },
+      {
+        "feature": "has_yaml_syntax",
+        "importance": 0.0
+      },
+      {
+        "feature": "draft",
+        "importance": 0.0
+      }
+    ]
+  }
+}
