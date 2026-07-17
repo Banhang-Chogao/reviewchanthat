@@ -1,4 +1,7 @@
 # Minimal dependency set for the release and pull-request QA gates.
 # Keep the full requirements.txt for maintenance, image, analytics, and ML jobs.
+Pillow>=10.0.0
 PyYAML>=6.0
+numpy>=1.26.0
 python-frontmatter>=1.1.0
+requests>=2.31.0
