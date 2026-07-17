@@ -299,6 +299,33 @@ find content/posts/ -name "*.md" -empty -delete && echo "Deleted empty files"
 - Khi verify bài đã lên live: kiểm tra `<img src>` THẬT trong HTML phải chứa `/reviewchanthat/`, đừng chỉ curl file ảnh thấy 200 (asset 200 không chứng minh HTML trỏ đúng).
 - Deploy-doctor bắt lỗi này ở **Rule 10** (`broken_inline_image` — file thiếu, WARNING) và **Rule 11** (`missing_render_image_hook` — hook bị mất, CRITICAL).
 
+### Failure #15: [[attribution]] Array-of-Tables breaks template render
+
+**Symptom:** Hugo build fails with:
+```
+error calling partial: "...post-footer.html:58:14": executing "main" at <.copyright>: can't evaluate field copyright in type []interface {}
+```
+Nguyên nhân: TOML `[[attribution]]` (double bracket) tạo **array of tables** (`[]interface{}`), nhưng `layouts/partials/post-footer.html` kỳ vọng **single table** `[attribution]` để truy cập `.copyright` và `.source_note` trực tiếp.
+
+**Root Cause:** Trong TOML:
+- `[attribution]` = single table (map) — đúng cho template Hugo.
+- `[[attribution]]` = array of tables — Hugo parse thành `[]interface{}`, template không truy cập được field bên trong.
+
+Các section khác (`[[faq]]`, `[[external_links]]`, `[[internal_links]]`) **phải dùng double bracket** vì template range qua array. Chỉ `[attribution]` là single table.
+
+**Auto-Fix:** `python3 scripts/deploy-failure-healer.py --fix-all --post content/posts/<slug>.md` (Rule 15 + Fix 7).
+
+**Detection by hand:**
+```bash
+grep -n '^\[\[attribution\]\]' content/posts/<slug>.md
+# Nếu có output → lỗi, sửa thành [attribution]
+```
+
+**Prevention:**
+- Luôn dùng `[attribution]` (single bracket) cho attribution, `[[...]]` (double bracket) cho faq, external_links, internal_links.
+- Rule 15 trong `deploy-failure-healer.py` tự động phát hiện.
+- Fix 7 tự động replace khi chạy `--fix-all --post`.
+
 ## Deploy Conflict & Build Failure Resolution
 
 ### Git Merge Conflicts (during branch merges)
@@ -327,6 +354,7 @@ git diff origin/main HEAD          # What changed
 - Missing images → Run `select_images.py --post content/posts/<slug>.md --fix`
 - Date issues → Run `qa_dates.py --post content/posts/<slug>.md --fix-obvious`
 - Commit hash missing → Run `add_commit_id.py --post content/posts/<slug>.md`
+- `[[attribution]]` error (can't evaluate field copyright) → Run `deploy-failure-healer.py --fix-all --post`
 
 **Step 3:** Run auto-healer **chỉ post lỗi** (không full-tree)
 ```bash
@@ -387,6 +415,7 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 12. **Deploy one at a time** - 30s minimum between pushes
 13. **WebP in git** - commit `static/images/posts/<slug>.webp` (scope slug only)
 14. **CẤM full-tree py sau mỗi commit/merge** — chỉ `--post` / `--slug`; full-tree = `qa-debt-fix` hoặc CI explicit
+15. **`[attribution]` là single table, KHÔNG double bracket** — Trong TOML: `[[attribution]]` = array of tables (Hugo crash khi `.copyright`), `[attribution]` = single table (đúng). Các section khác (`[[faq]]`, `[[external_links]]`, `[[internal_links]]`) vẫn double bracket vì template range qua chúng.
 
 ## Deploy Failure SLA
 
@@ -407,5 +436,6 @@ grep -n "commit:\|date:\|image:" content/posts/*.md
 | Empty/0-byte .md file | Pre-deploy | ✅ Yes | < 1 min |
 | Hardcoded footer sections (macro bypass) | Pre-deploy | ✅ Yes | < 1 min |
 | Unused internal links (not in body) | Pre-deploy | ✅ Yes | < 1 min |
+| [[attribution]] array-of-tables (should be single table) | Pre-deploy | ✅ Yes | < 1 min |
 
 **Goal: 0 deploy failures** through automated pre-deploy validation.

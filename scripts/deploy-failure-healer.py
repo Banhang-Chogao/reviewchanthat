@@ -324,6 +324,21 @@ class DeployFailureHealer:
                     'line': None
                 })
 
+        # Rule 15: Check for [[attribution]] (array of tables) in front matter.
+        # Attribution must be a single table [attribution] so post-footer.html can
+        # access .copyright and .source_note directly. [[attribution]] creates an
+        # array of tables ([]interface{}) which breaks the template with:
+        # "can't evaluate field copyright in type []interface {}"
+        if re.search(r'^\[\[attribution\]\]', fm_text, re.MULTILINE):
+            issues.append({
+                'file': filename,
+                'type': 'attribution_array_of_tables',
+                'severity': 'CRITICAL',
+                'message': '[[attribution]] is an array-of-tables — template expects [attribution] single table',
+                'fix': 'Replace [[attribution]] with [attribution] in front matter',
+                'line': None
+            })
+
         return issues
 
     def auto_fix_post(self, filepath: Path) -> Tuple[bool, List[str]]:
@@ -379,6 +394,13 @@ class DeployFailureHealer:
         if re.search(r'!\[\[IMAGE_API_QUERY:', content):
             content = re.sub(r'!\[\[IMAGE_API_QUERY:[^\]]*\]\]', '', content)
             fixes_applied.append('✓ Removed dead IMAGE_API_QUERY markers')
+
+        # Fix 7: Replace [[attribution]] (array of tables) with [attribution] (single table)
+        # The template post-footer.html expects a map for .Params.attribution, accessing
+        # .copyright and .source_note directly — an array of tables breaks Hugo render.
+        if re.search(r'^\[\[attribution\]\]', content, re.MULTILINE):
+            content = re.sub(r'^\[\[attribution\]\]', '[attribution]', content, flags=re.MULTILINE)
+            fixes_applied.append('✓ Fixed [[attribution]] → [attribution] (array-of-tables to single table)')
 
         # Fix 6: Move hardcoded footer sections to front matter
         # Run the dedicated script — it handles all edge cases (section detection,

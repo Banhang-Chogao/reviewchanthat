@@ -45,7 +45,7 @@ answer = "Dự án gồm hai khối nhà một tầng: một retreat house (nhà
 question = "Vật liệu chính của Anjung House là gì?"
 answer = "Tre (bamboo culms), thép sơn xanh, gạch mộc, tường nén từ đất địa phương (compressed earth), và mái lợp từ tấm tái chế. Hạn chế tối đa bê tông và thép công nghiệp."
 
-[[attribution]]
+[attribution]
 copyright = "© 2026 Review Chân Thật. Bài viết tham khảo từ ArchDaily, Dezeen, Metalocus và các nguồn kiến trúc uy tín."
 source_note = "Bài viết tham khảo từ các nguồn: ArchDaily (ISSN 0719-8884), Dezeen, Metalocus và trang web chính thức của Eleena Jamil Architect."
 image_source = "Pexels"
