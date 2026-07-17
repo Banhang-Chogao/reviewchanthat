@@ -1,7 +1,7 @@
 +++
 title = "Review Anjung House: Không gian sống và làm việc của Eleena Jamil Architect — bản tuyên ngôn kiến trúc gắn với bản địa"
 seo_title = "Review Anjung House Eleena Jamil Architect: Kiến trúc bản địa Malaysia 2026"
-commit = "5395179b"
+commit = "6df2bbcb"
 date = "2026-07-17T10:00:00+07:00"
 slug = "anjung-house-eleena-jamil-review"
 draft = false
