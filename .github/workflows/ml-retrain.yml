@@ -1,0 +1,49 @@
+name: ML Pre-Deploy Model Auto-Train
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Daily at 02:00 UTC (~09:00 Asia/Ho_Chi_Minh)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/ml/collect_features.py'
+      - 'scripts/ml/train_model.py'
+      - 'content/posts/**'
+      - 'data/deployment-doctor.json'
+      - 'data/deployment-doctor-knowledge.json'
+
+permissions:
+  contents: read
+
+jobs:
+  auto-train:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect features from all posts
+        run: python scripts/ml/collect_features.py --all
+
+      - name: Train deploy failure risk model
+        run: python scripts/ml/train_model.py --features scripts/ml/deploy-failure-features.jsonl
+
+      - name: Build knowledge base
+        run: python scripts/ml/knowledge_base.py --build
+
+      - name: Commit updated model and data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/ml/deploy-failure-features.jsonl scripts/ml/deploy_failure_model.joblib scripts/ml/model_metadata.json scripts/ml/deploy_failure_knowledge.json
+          git diff --cached --quiet || git commit -m "chore: auto-retrain ML pre-deploy risk model"
+          git push origin main

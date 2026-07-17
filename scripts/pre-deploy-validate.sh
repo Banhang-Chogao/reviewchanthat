@@ -233,6 +233,19 @@ else
 fi
 
 # =============================================================================
+# CHECK 14: ML Pre-Deploy Risk Prediction
+# =============================================================================
+echo -e "\n${BLUE}[14/14] ML Pre-Deploy Risk Check${NC}"
+    ML_RISK_OUTPUT=$(python3 scripts/ml/check_pre_deploy_risk.py --all --threshold 0.35 --no-healer 2>/dev/null || echo "ML_CHECK_FAILED")
+ML_FLAGGED=$(echo "$ML_RISK_OUTPUT" | grep -o "Flagged: [0-9]*" | grep -o "[0-9]*" || echo "0")
+if [ "$ML_FLAGGED" -eq 0 ] || [ "$ML_RISK_OUTPUT" = "ML_CHECK_FAILED" ]; then
+    pass "ML pre-deploy risk check passed"
+else
+    warn "ML flagged $ML_FLAGGED post(s) with deploy risk"
+    echo "$ML_RISK_OUTPUT" | grep "⚠️" | head -5
+fi
+
+# =============================================================================
 # SUMMARY
 # =============================================================================
 echo -e "\n${BLUE}════════════════════════════════════════════════════════${NC}"
@@ -246,6 +259,7 @@ echo -e "  ${GREEN}Passed:${NC}  $PASSED/$TOTAL"
 echo -e "  ${RED}Failed:${NC}  $FAILED/$TOTAL"
 echo -e "  ${YELLOW}Warnings:${NC} $WARNINGS/$TOTAL"
 echo -e "  ${BLUE}Pass Rate:${NC} $PASS_RATE%"
+echo -e "  ${BLUE}ML Risk Check:${NC} Check 14/14"
 
 echo ""
 

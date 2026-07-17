@@ -144,6 +144,9 @@ jobs:
       - name: QA inline images (block broken inline images)
         run: python scripts/qa_inline_images.py
 
+      - name: ML pre-deploy risk check (all posts)
+        run: python scripts/ml/check_pre_deploy_risk.py --all --threshold 0.35 || true
+
       - name: QA slugs (report-only, non-blocking)
         run: python scripts/qa_slugs.py || true
 
