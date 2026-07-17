@@ -12,9 +12,14 @@
 {{- $blocked := eq $status "needs_image" -}}
 {{- if and $verified (not $blocked) -}}
   {{- $alt := $page.Params.image_alt | default $page.Title -}}
+  {{- $asset := partial "image-asset-data.html" $image -}}
   {{- if eq $mode "hero" -}}
   <div class="post-featured-image">
-    <img src="{{ $image | relURL }}" alt="{{ $alt }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
+    {{ if $asset }}
+      {{ partial "responsive-image.html" (dict "asset" $asset "role" "article" "alt" $alt "class" "responsive-image--article" "loading" "eager" "fetchpriority" "high" "sizes" "(max-width: 840px) calc(100vw - 2rem), 840px") }}
+    {{ else }}
+      <img src="{{ $image | relURL }}" alt="{{ $alt }}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450">
+    {{ end }}
     {{ partial "image-credit.html" $page }}
   </div>
   {{- else if eq $mode "thumb" -}}
@@ -22,21 +27,36 @@
   {{- if and (not (hasPrefix $thumb "http")) (not (os.FileExists (path.Join "static" $thumb))) -}}{{- $thumb = $defaultImage -}}{{- end -}}
   <div class="post-card-thumb">
     <a href="{{ $page.RelPermalink }}">
-      <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" fetchpriority="low" decoding="async" width="220" height="165">
+      {{- $thumbAsset := partial "image-asset-data.html" $thumb -}}
+      {{- if $thumbAsset -}}
+        {{ partial "responsive-image.html" (dict "asset" $thumbAsset "role" "card" "alt" $alt "class" "responsive-image--card" "loading" "lazy" "sizes" "(max-width: 640px) calc(100vw - 2rem), 220px") }}
+      {{- else -}}
+        <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" loading="lazy" decoding="async" width="320" height="240">
+      {{- end -}}
     </a>
   </div>
   {{- else if eq $mode "row" -}}
   {{- $thumb := $page.Params.thumbnail | default $image -}}
   {{- if and (not (hasPrefix $thumb "http")) (not (os.FileExists (path.Join "static" $thumb))) -}}{{- $thumb = $defaultImage -}}{{- end -}}
   <a href="{{ $page.RelPermalink }}" class="category-post-row__image-link">
-    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="category-post-row__image" fetchpriority="low" decoding="async" width="168" height="126">
+    {{- $thumbAsset := partial "image-asset-data.html" $thumb -}}
+    {{- if $thumbAsset -}}
+      {{ partial "responsive-image.html" (dict "asset" $thumbAsset "role" "card" "alt" $alt "class" "category-post-row__image" "loading" "lazy" "sizes" "(max-width: 640px) 140px, 168px") }}
+    {{- else -}}
+      <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="category-post-row__image" loading="lazy" decoding="async" width="320" height="240">
+    {{- end -}}
   </a>
   {{- else if eq $mode "home" -}}
   {{- $thumb := $page.Params.thumbnail | default $image -}}
   {{- if and (not (hasPrefix $thumb "http")) (not (os.FileExists (path.Join "static" $thumb))) -}}{{- $thumb = $defaultImage -}}{{- end -}}
   {{- $eager := .eager | default false -}}
   <a href="{{ $page.RelPermalink }}" class="home-post-block__image-link">
-    <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="home-post-block__image" fetchpriority="{{ if $eager }}high{{ else }}low{{ end }}" decoding="async" width="220" height="165">
+    {{- $thumbAsset := partial "image-asset-data.html" $thumb -}}
+    {{- if $thumbAsset -}}
+      {{ partial "responsive-image.html" (dict "asset" $thumbAsset "role" "card" "alt" $alt "class" "home-post-block__image" "loading" (cond $eager "eager" "lazy") "fetchpriority" (cond $eager "high" "") "sizes" "(max-width: 640px) calc(100vw - 2rem), 220px") }}
+    {{- else -}}
+      <img src="{{ $thumb | relURL }}" alt="{{ $alt }}" class="home-post-block__image" loading="{{ if $eager }}eager{{ else }}lazy{{ end }}" decoding="async" width="320" height="240"{{ if $eager }} fetchpriority="high"{{ end }}>
+    {{- end -}}
   </a>
   {{- end -}}
 {{- end -}}

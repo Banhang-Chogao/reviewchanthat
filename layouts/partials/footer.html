@@ -18,19 +18,7 @@
       <a href="{{ "branding-ci/" | relURL }}" class="footer-nav-link">Branding CI</a>
       <a href="{{ "content-direction/" | relURL }}" class="footer-nav-link">Content Direction</a>
       <a href="{{ "deployment-doctor/" | relURL }}" class="footer-nav-link">Deployment Doctor</a>
-      <a
-        href="https://github.com/Banhang-Chogao/reviewchanthat/actions/workflows/deploy.yml"
-        class="footer-deploy-badge"
-        aria-label="Deploy to GitHub Pages workflow status"
-        rel="noopener"
-      >
-        <img
-          src="https://github.com/Banhang-Chogao/reviewchanthat/actions/workflows/deploy.yml/badge.svg?branch=main"
-          alt="Deploy to GitHub Pages"
-          width="120"
-          height="20"
-        >
-      </a>
+      <a href="https://github.com/Banhang-Chogao/reviewchanthat/actions/workflows/deploy.yml" class="footer-deploy-badge" aria-label="Deploy to GitHub Pages workflow status" rel="noopener">Deploy status</a>
       {{ partial "footer-ga4-box.html" . }}
     </nav>
     {{/* Experimental tools: no <a href> in default HTML (not crawlable / not preloaded).
@@ -73,15 +61,7 @@
     </div>
     {{ with .Site.Params.hits_badge_url }}
     <div class="footer-hits" aria-label="Lượt tương tác tích lũy">
-      <span class="footer-hits__label">📊 Lượt tương tác tích lũy</span>
-      <img
-        class="footer-hits__badge"
-        src="{{ . }}"
-        alt="Tổng lượt truy cập tích lũy từ 11/07"
-        height="20"
-        decoding="async"
-        referrerpolicy="no-referrer"
-      >
+      <a class="footer-hits__label" href="{{ . }}" rel="noopener noreferrer">📊 Lượt tương tác tích lũy</a>
     </div>
     {{ end }}
     <div class="footer-copy">

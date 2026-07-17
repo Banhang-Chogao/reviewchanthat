@@ -3,7 +3,7 @@
 set -euo pipefail
 
 log_dir=$(mktemp -d)
-declare -a names=(frontmatter dates summaries heroes inline)
+declare -a names=(frontmatter dates summaries heroes inline image_performance)
 declare -a pids=()
 
 run_check() {
@@ -18,6 +18,7 @@ run_check dates python3 scripts/qa_dates.py
 run_check summaries python3 scripts/normalize_ai_summaries.py --check
 run_check heroes python3 scripts/qa_hero_images.py
 run_check inline python3 scripts/qa_inline_images.py
+run_check image_performance python3 scripts/qa_image_performance.py
 
 status=0
 for index in "${!names[@]}"; do

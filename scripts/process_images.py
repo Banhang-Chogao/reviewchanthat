@@ -13,6 +13,7 @@ import sys
 import json
 import hashlib
 import requests
+from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 from creator_policy import attribution_text, clean_text, sanitize_creator_pair
@@ -579,6 +580,26 @@ def main():
             **fm_attr,
         )
         success += 1
+
+    # Derivatives are part of content generation, not a runtime build step.
+    # Keep this scoped when --slug is used so a single post never rewrites the
+    # complete asset index during a normal post publish.
+    try:
+        from build_image_variants import build_one, load_index, save_index
+
+        variant_slugs = sorted(slug_filter or {entry.get("slug", "") for entry in manifest.get("posts", [])})
+        asset_index = load_index()
+        asset_map = asset_index.setdefault("assets", {})
+        for variant_slug in variant_slugs:
+            asset = build_one(variant_slug)
+            if asset:
+                asset_map[Path(asset["source"]).stem] = asset
+        asset_index["version"] = 1
+        asset_index["generated_by"] = "scripts/build_image_variants.py"
+        save_index(asset_index)
+        print(f"  Responsive variants updated: {len(variant_slugs)} scoped slug(s)")
+    except Exception as exc:
+        print(f"  WARNING: responsive variant generation failed: {exc}")
 
     print(f"\n=== Summary ===")
     print(f"  Processed: {success}")

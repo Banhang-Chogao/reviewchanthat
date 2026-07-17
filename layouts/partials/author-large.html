@@ -13,6 +13,7 @@
   {{- end -}}
 {{- end -}}
 {{- if $authorData.image -}}{{- $authorImage = $authorData.image -}}{{- end -}}
+{{- if hasPrefix $authorImage "http" -}}{{- $authorImage = "images/authors/default.svg" -}}{{- end -}}
 {{- if not $authorImage -}}{{- $authorImage = "images/authors/default.svg" | relURL -}}{{- end -}}
 {{- if $authorData.title -}}{{- $authorTitle = $authorData.title -}}{{- end -}}
 {{- if $authorData.company -}}{{- $authorCompany = $authorData.company -}}{{- end -}}

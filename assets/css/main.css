@@ -1347,3 +1347,18 @@ html.dark-mode .maybe-unread__head{color:#4fd6cf;}
 .adblock-cta__text{margin:0;font-size:.86rem;line-height:1.5;color:var(--text-secondary);}
 .adblock-cta__text strong{color:var(--amber);}
 html.dark-mode .adblock-cta{background:rgba(232,168,56,.10);border-color:rgba(232,168,56,.4);}
+
+/* Responsive local image renderer: reserve the slot before decode and keep
+   cards on thumbnail derivatives. Native lazy loading uses the browser's
+   viewport-aware preload margin without a scroll/decode script. */
+.responsive-image{display:block;width:100%;height:100%;margin:0;overflow:hidden}
+.responsive-image img{display:block;width:100%;height:100%;max-width:none;object-fit:cover;border:0;box-shadow:none}
+.post-featured-image{aspect-ratio:16/9}
+.post-featured-image .responsive-image{aspect-ratio:16/9}
+.post-content-image{height:auto;aspect-ratio:16/9}
+.post-content-image img{height:100%;margin:0;border-radius:var(--radius-sm);box-shadow:var(--shadow)}
+.post-card-thumb{aspect-ratio:4/3}
+.post-card-thumb .responsive-image{aspect-ratio:4/3}
+.category-post-row__image-link{aspect-ratio:4/3;overflow:hidden;border-radius:12px}
+.category-post-row__image-link .responsive-image{aspect-ratio:4/3}
+.category-post-row__image{height:100%;aspect-ratio:auto;border-radius:12px}

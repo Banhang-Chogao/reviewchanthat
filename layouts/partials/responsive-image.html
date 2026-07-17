@@ -1,0 +1,23 @@
+{{- $asset := .asset | default dict -}}
+{{- $role := .role | default "card" -}}
+{{- $alt := .alt | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $priority := .fetchpriority | default "" -}}
+{{- $sizes := .sizes | default "(max-width: 640px) calc(100vw - 2rem), 480px" -}}
+{{- $roleData := index $asset $role | default dict -}}
+{{- $avif := index $roleData "avif" | default dict -}}
+{{- $webp := index $roleData "webp" | default dict -}}
+{{- $jpeg := index $roleData "jpeg" | default dict -}}
+{{- $avifSet := partial "image-srcset.html" ($avif.variants | default (slice)) -}}
+{{- $webpSet := partial "image-srcset.html" ($webp.variants | default (slice)) -}}
+{{- $jpegSet := partial "image-srcset.html" ($jpeg.variants | default (slice)) -}}
+{{- $fallback := $jpeg.src | default $webp.src | default $avif.src -}}
+{{- $fallbackSet := $jpegSet | default $webpSet | default $avifSet -}}
+{{- $width := $jpeg.width | default $webp.width | default $avif.width | default 480 -}}
+{{- $height := $jpeg.height | default $webp.height | default $avif.height | default 360 -}}
+<picture class="responsive-image {{ $class }}">
+  {{- with $avifSet }}<source type="image/avif" srcset="{{ . }}" sizes="{{ $sizes }}">{{ end -}}
+  {{- with $webpSet }}<source type="image/webp" srcset="{{ . }}" sizes="{{ $sizes }}">{{ end -}}
+  <img src="{{ $fallback | relURL }}"{{ with $fallbackSet }} srcset="{{ . }}"{{ end }} sizes="{{ $sizes }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="async" width="{{ $width }}" height="{{ $height }}"{{ with $priority }} fetchpriority="{{ . }}"{{ end }}>
+</picture>

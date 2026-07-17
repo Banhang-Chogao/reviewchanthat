@@ -15,6 +15,7 @@
     {{- range $authors -}}
       {{- $stats := partial "author-reputation-compute.html" (dict "author" .) -}}
       {{- $image := .image | default (printf "%simages/authors/default.svg" (relURL "")) -}}
+      {{- if hasPrefix $image "http" -}}{{- $image = "images/authors/default.svg" | relURL -}}{{- end -}}
       {{- $totalBadges := len $stats.badgeStates -}}
       {{- $unlockedBadges := len (where $stats.badgeStates "unlocked" true) -}}
       {{- $maxLevel := 0 -}}
