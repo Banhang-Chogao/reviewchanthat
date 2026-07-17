@@ -1,7 +1,7 @@
 +++
 title = "Có nên mua điện thoại mới ở Việt Nam năm 2026 khi giá tăng?"
 seo_title = "Có nên mua điện thoại mới năm 2026 khi giá smartphone tăng?"
-commit = ""
+commit = "4aab2529"
 date = "2026-07-18T03:50:08+07:00"
 draft = false
 author = "Reviewchanthat"
