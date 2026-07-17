@@ -24,6 +24,7 @@ ASSET_INDEX = ROOT / "data/image-assets.json"
 CARD_HARD_LIMIT = 150 * 1024
 ARTICLE_HARD_LIMIT = 350 * 1024
 REMOTE_IMAGE = re.compile(r"(?:<img\b[^>]*(?:src|srcset)\s*=\s*['\"]https?://|background-image\s*:\s*url\(\s*['\"]?https?://)", re.I | re.S)
+REMOTE_FIGURE = re.compile(r"{{[<%]\s*figure-img\b[^}]*\bsrc\s*=\s*['\"]https?://", re.I | re.S)
 IMG_TAG = re.compile(r"<img\b[^>]*>", re.I | re.S)
 
 
@@ -82,6 +83,10 @@ def check_posts(issues: list[str], assets: dict) -> int:
                 key = local_post_asset_key(destination)
                 if key and key not in assets:
                     fail(issues, f"{path}: inline image has no responsive variant index: {destination}")
+        if REMOTE_IMAGE.search(body):
+            fail(issues, f"{path}: remote image URL in HTML or CSS body")
+        if REMOTE_FIGURE.search(body):
+            fail(issues, f"{path}: remote image URL in figure-img shortcode")
     return posts
 
 
