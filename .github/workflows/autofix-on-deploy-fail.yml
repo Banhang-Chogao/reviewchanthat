@@ -1,13 +1,14 @@
 name: Autofix on Deploy Failure
 
-# Triggers when Deploy to GitHub Pages fails, or manually.
+# Manual emergency recovery only. Automatic source mutations after a failed
+# deploy can race the canonical Pages pipeline and create generated-data loops.
 on:
-  workflow_run:
-    workflows:
-      - "Deploy to GitHub Pages"
-    types:
-      - completed
   workflow_dispatch:
+    inputs:
+      posts:
+        description: "Space-separated affected post paths, e.g. content/posts/example.md"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -15,72 +16,73 @@ permissions:
 
 concurrency:
   group: autofix-on-deploy-fail
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   autofix:
-    # Run after a failed main deploy, or always on manual dispatch.
-    if: >
-      github.event_name == 'workflow_dispatch' ||
-      (github.event.workflow_run.conclusion == 'failure' &&
-       github.event.workflow_run.head_branch == 'main')
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.6.0
         with:
-          python-version: "3.12"
+          python-version: '3.12'
           cache: pip
+          cache-dependency-path: requirements-ci.txt
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install CI dependencies
+        run: pip install --disable-pip-version-check -r requirements-ci.txt
 
-      - name: Pre-deploy source-of-truth rule (fix)
-        # Hard gate used by deploy; must be able to autofix TOML + dates.
-        run: python scripts/rule.py --fix
-
-      - name: Run Auto Conflict Remover
-        continue-on-error: true
-        run: python scripts/auto_conflict_remover.py --verbose
-
-      - name: Fix Obvious Date Issues
-        continue-on-error: true
-        run: python scripts/qa_dates.py --fix-obvious
-
-      - name: Check for any changes
-        id: check
+      - name: Fix only selected post scope
+        id: fix
+        env:
+          POSTS: ${{ inputs.posts }}
         run: |
-          if git diff --quiet; then
+          set -euo pipefail
+          read -r -a post_list <<< "${POSTS:-}"
+          if ((${#post_list[@]} == 0)); then
+            echo "No post scope supplied; emergency workflow is report-only."
+            echo "fixed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          args=()
+          for post in "${post_list[@]}"; do
+            args+=(--post "$post")
+          done
+          python3 scripts/rule.py --fix "${args[@]}"
+          python3 scripts/qa_dates.py --fix-obvious "${args[@]}"
+          if git diff --quiet -- "${post_list[@]}"; then
             echo "fixed=false" >> "$GITHUB_OUTPUT"
           else
             echo "fixed=true" >> "$GITHUB_OUTPUT"
-            git status --short
+            git status --short -- "${post_list[@]}"
           fi
 
       - name: Commit fixes if any
-        if: steps.check.outputs.fixed == 'true'
+        if: steps.fix.outputs.fixed == 'true'
+        env:
+          POSTS: ${{ inputs.posts }}
         run: |
+          set -euo pipefail
+          read -r -a post_list <<< "$POSTS"
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/posts/ scripts/rule.py || true
-          git commit -m "fix(autofix): resolve deploy failures [autofix-on-deploy-fail]" || exit 0
-          git push
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- "${post_list[@]}"
+          git commit -m "fix(autofix): resolve deploy failures [autofix-on-deploy-fail]"
+          git push origin HEAD:main
 
       - name: Trigger deploy retry
-        if: steps.check.outputs.fixed == 'true'
+        if: steps.fix.outputs.fixed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "✅ Fixed issues. Triggering deploy retry..."
-          gh workflow run "Deploy to GitHub Pages" --ref main
+        run: gh workflow run "Deploy to GitHub Pages" --ref main
 
-      - name: Notify if no fix available
-        if: steps.check.outputs.fixed != 'true'
-        run: |
-          echo "⚠️ Deploy failed but no automatic fix found (or tree already clean)."
-          echo "Manual review needed if deploy is still red."
+      - name: Notify if no fix is available
+        if: steps.fix.outputs.fixed != 'true'
+        run: echo 'No scoped fix applied; review the failed deployment manually.'

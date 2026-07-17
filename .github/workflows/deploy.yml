@@ -1,27 +1,40 @@
 name: Deploy to GitHub Pages
 
+run-name: Pages deploy ${{ github.ref_name }} @ ${{ github.sha }}
+
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - 'reports/**'
-      - 'data/deployment-snapshot.json'
-      - 'data/deployment-doctor.json'
-      - 'data/deployment-doctor-attempts.json'
-      - 'data/content-direction.json'
-      - 'data/qa-baseline.json'
-      - 'data/qa-baseline-debt.json'
-      - 'data/rate-limit-status.json'
-      - 'data/compliance-report.json'
-      - 'data/ga4_footer.json'
-      - 'data/content-direction-score.json'
-      - 'data/content-direction-optimizer-summary.json'
-      - 'reports/content-direction-optimizer.json'
-      - 'reports/content-direction-optimizer.md'
-      - 'data/internal-links.json'
-      - 'reports/content-direction-optimizer.json'
-      - 'reports/content-direction-optimizer.md'
-      - '.github/workflows/**'
+    # Generated reports, analytics, and doctor snapshots are deliberately not
+    # release triggers. Site sources and release-gate code remain covered.
+    paths:
+      - 'content/**'
+      - 'layouts/**'
+      - 'assets/**'
+      - 'static/**'
+      - 'data/**'
+      - '!data/compliance-report.json'
+      - '!data/content-direction*.json'
+      - '!data/deployment-doctor*.json'
+      - '!data/ga4_footer.json'
+      - '!data/internal-links.json'
+      - '!data/qa-baseline*.json'
+      - '!data/rate-limit-status.json'
+      - 'hugo.toml'
+      - 'i18n/**'
+      - 'themes/**'
+      - 'requirements-ci.txt'
+      - 'scripts/ci/**'
+      - 'scripts/gen_posts_sitemap.py'
+      - 'scripts/lib/**'
+      - 'scripts/normalize_ai_summaries.py'
+      - 'scripts/qa_dates.py'
+      - 'scripts/qa_hero_images.py'
+      - 'scripts/qa_inline_images.py'
+      - 'scripts/qa_internal_links.py'
+      - 'scripts/qa_sitemap.py'
+      - 'scripts/rule.py'
+      - 'scripts/update-version.sh'
   workflow_dispatch:
 
 permissions:
@@ -30,69 +43,71 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  # A newer main commit supersedes an older Pages build; do not queue stale
+  # releases behind it.
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  HUGO_VERSION: '0.163.1'
+  PYTHON_VERSION: '3.12'
+  HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
+  SITE_URL: https://banhang-chogao.github.io/reviewchanthat
 
 jobs:
   build:
+    name: QA and build once
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - name: Checkout source (shallow)
+        uses: actions/checkout@v4.2.2
         with:
-          hugo-version: '0.163.1'
+          fetch-depth: 1
+
+      - name: Setup Python ${{ env.PYTHON_VERSION }} with pip cache
+        uses: actions/setup-python@v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+
+      - name: Install release-gate dependencies
+        run: bash scripts/ci/timed.sh 'install CI dependencies' python3 -m pip install --disable-pip-version-check -r requirements-ci.txt
+
+      - name: Cache Hugo build cache
+        uses: actions/cache@v4.2.3
+        with:
+          path: ${{ env.HUGO_CACHEDIR }}
+          key: hugo-${{ runner.os }}-${{ env.HUGO_VERSION }}-${{ hashFiles('hugo.toml', 'layouts/**', 'assets/**', 'requirements-ci.txt', 'scripts/ci/**') }}
+
+      - name: Setup Hugo ${{ env.HUGO_VERSION }} extended
+        uses: peaceiris/actions-hugo@v3.1.0
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
-
-      - name: Setup image API credentials
-        env:
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+      - name: Critical source QA (parallel)
         run: |
-          cat > .env << EOF
-          PEXELS_API_KEY=${PEXELS_API_KEY}
-          PIXABAY_API_KEY=${PIXABAY_API_KEY}
-          EOF
-          chmod 600 .env
+          echo '| Gate | Duration | Started → Finished |' >> "$GITHUB_STEP_SUMMARY"
+          echo '|---|---:|---|' >> "$GITHUB_STEP_SUMMARY"
+          bash scripts/ci/timed.sh 'critical source QA' bash scripts/ci/critical-qa.sh
 
-      - name: Process images (select + download + convert to WebP)
-        run: python scripts/process_images.py
-
-      - name: QA hero images (block broken/missing heroes)
-        run: python scripts/qa_hero_images.py
-
-      - name: Pre-deploy source-of-truth rule
-        run: python scripts/rule.py --fix
-
-      - name: Normalize AI summaries
-        run: python scripts/normalize_ai_summaries.py --check
-
-      - name: Generate Content Direction report
+      - name: Write build metadata
         run: |
-          python scripts/content_direction.py \
-            --json data/content-direction.json \
-            --md reports/content-direction-report.md
-          python scripts/qa_content_direction.py
-
-      - name: Write build-info for live verification
-        run: |
-          python - <<'PY'
-          import json, subprocess
+          bash scripts/ci/timed.sh 'write build metadata' python3 - <<'PY'
+          import json
+          import os
           from pathlib import Path
           import sys
           sys.path.insert(0, "scripts/lib")
           from dates import format_vietnam_datetime, now_vietnam
-          sha = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
+
+          sha = os.environ["GITHUB_SHA"]
           now = now_vietnam()
           payload = {
               "sha": sha,
@@ -102,70 +117,55 @@ jobs:
               "repo": "Banhang-Chogao/reviewchanthat",
               "site": "https://banhang-chogao.github.io/reviewchanthat/",
           }
-          Path("static/build-info.json").parent.mkdir(parents=True, exist_ok=True)
-          Path("static/build-info.json").write_text(
-              json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-          )
-          print("Wrote static/build-info.json", payload["short_sha"])
+          path = Path("static/build-info.json")
+          path.parent.mkdir(parents=True, exist_ok=True)
+          path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(f"Wrote {path} for {payload['short_sha']}")
           PY
 
-      - name: Update version badge with commit hash
-        run: bash scripts/update-version.sh
+      - name: Update version badge
+        run: bash scripts/ci/timed.sh 'update version badge' bash scripts/update-version.sh
 
-      - name: Build Hugo
+      - name: Build Hugo once
         env:
-          # Prefer secret; fallback keeps live tag if secret is unset.
           GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID || 'G-JCSEKBLP40' }}
-        run: hugo --minify
+        run: bash scripts/ci/timed.sh 'Hugo build' hugo --minify --baseURL "${SITE_URL}/"
 
-      - name: QA Content Direction (public)
-        run: python scripts/qa_content_direction.py --public
+      - name: Generate posts-only sitemap from the build
+        run: bash scripts/ci/timed.sh 'generate posts sitemap' python3 scripts/gen_posts_sitemap.py --public-dir public
 
-      - name: Generate optimizer score
-        run: |
-          python scripts/content_direction_optimizer.py \
-            --write \
-            --max-changes 0 \
-            --report-json reports/content-direction-optimizer.json \
-            --report-md reports/content-direction-optimizer.md || true
+      - name: Public build QA (parallel)
+        run: bash scripts/ci/timed.sh 'public build QA' bash scripts/ci/public-qa.sh
 
-      - name: Generate posts-only sitemap
-        run: python scripts/gen_posts_sitemap.py --public-dir public
-
-      - name: QA dates
-        run: python scripts/qa_dates.py
-
-      - name: QA internal links
-        run: python scripts/qa_internal_links.py --public-dir public
-
-      - name: QA sitemap
-        run: python scripts/qa_sitemap.py
-
-      - name: QA inline images (block broken inline images)
-        run: python scripts/qa_inline_images.py
-
-      - name: ML pre-deploy risk check (all posts)
-        run: python scripts/ml/check_pre_deploy_risk.py --all --threshold 0.35 || true
-
-      - name: QA slugs (report-only, non-blocking)
-        run: python scripts/qa_slugs.py || true
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload Pages artifact from the single build
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: ./public
 
   deploy:
+    name: Deploy and smoke test
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy Pages artifact
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4.0.5
 
-  # Disabled: Crawl Doctor automation (crawl-doctor.yml) now handles sitemap submission
-  # via Search Console API (proper method). Old submit-google-sitemap job removed.
-  # Reason: Crawl Doctor runs after deploy with modern GSC API integration
+      - name: Live smoke check (homepage, build SHA, 404)
+        env:
+          EXPECTED_SHA: ${{ github.sha }}
+        run: |
+          bash scripts/ci/timed.sh 'live smoke check' bash -c '
+            set -euo pipefail
+            base="${SITE_URL%/}"
+            curl --fail --silent --show-error --location --retry 10 --retry-delay 5 --retry-all-errors "$base/" -o /dev/null
+            curl --fail --silent --show-error --location --retry 10 --retry-delay 5 --retry-all-errors "$base/build-info.json" -o /tmp/build-info.json
+            grep -F "\"sha\": \"$EXPECTED_SHA\"" /tmp/build-info.json
+            status=$(curl --silent --show-error --location --output /dev/null --write-out "%{http_code}" "$base/ci-smoke-not-found-${GITHUB_RUN_ID}/")
+            test "$status" = 404
+            echo "Live smoke passed: SHA=${EXPECTED_SHA:0:7}, missing-page-status=$status"
+          '

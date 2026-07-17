@@ -1,0 +1,4 @@
+# Minimal dependency set for the release and pull-request QA gates.
+# Keep the full requirements.txt for maintenance, image, analytics, and ML jobs.
+PyYAML>=6.0
+python-frontmatter>=1.1.0

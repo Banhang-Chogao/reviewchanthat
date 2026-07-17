@@ -15,9 +15,9 @@ permissions:
   pull-requests: write
 
 env:
-  # PAT so merges to main trigger downstream workflows (deploy); GITHUB_TOKEN
-  # pushes are ignored by GitHub's recursive-trigger protection.
-  GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+  # Use the workflow token so checkout and PR evaluation do not depend on a
+  # stale/invalid personal token secret.
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 concurrency:
   group: auto-merge-global
@@ -27,9 +27,9 @@ jobs:
   evaluate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
         with:
-          token: ${{ secrets.GH_PAT || github.token }}
+          token: ${{ github.token }}
 
       - name: Resolve PR
         id: pr
