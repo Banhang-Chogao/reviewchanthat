@@ -60,7 +60,7 @@ jobs:
           cache-dependency-path: requirements-ci.txt
 
       - name: Install CI dependencies
-        run: bash scripts/ci/timed.sh 'install CI dependencies' python -m pip install --disable-pip-version-check -r requirements-ci.txt
+        run: bash scripts/ci/timed.sh 'install CI dependencies' python3 -m pip install --disable-pip-version-check -r requirements-ci.txt
 
       - name: Run fast incremental QA
         run: |

@@ -55,8 +55,8 @@ jobs:
           for post in "${post_list[@]}"; do
             args+=(--post "$post")
           done
-          python scripts/rule.py --fix "${args[@]}"
-          python scripts/qa_dates.py --fix-obvious "${args[@]}"
+          python3 scripts/rule.py --fix "${args[@]}"
+          python3 scripts/qa_dates.py --fix-obvious "${args[@]}"
           if git diff --quiet -- "${post_list[@]}"; then
             echo "fixed=false" >> "$GITHUB_OUTPUT"
           else

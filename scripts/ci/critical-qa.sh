@@ -13,11 +13,11 @@ run_check() {
   pids+=("$!")
 }
 
-run_check frontmatter python scripts/rule.py
-run_check dates python scripts/qa_dates.py
-run_check summaries python scripts/normalize_ai_summaries.py --check
-run_check heroes python scripts/qa_hero_images.py
-run_check inline python scripts/qa_inline_images.py
+run_check frontmatter python3 scripts/rule.py
+run_check dates python3 scripts/qa_dates.py
+run_check summaries python3 scripts/normalize_ai_summaries.py --check
+run_check heroes python3 scripts/qa_hero_images.py
+run_check inline python3 scripts/qa_inline_images.py
 
 status=0
 for index in "${!names[@]}"; do

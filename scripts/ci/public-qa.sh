@@ -9,9 +9,9 @@ log_dir=$(mktemp -d)
 declare -a names=(internal-links sitemap)
 declare -a pids=()
 
-python scripts/qa_internal_links.py --public-dir public >"$log_dir/internal-links.log" 2>&1 &
+python3 scripts/qa_internal_links.py --public-dir public >"$log_dir/internal-links.log" 2>&1 &
 pids+=("$!")
-python scripts/qa_sitemap.py >"$log_dir/sitemap.log" 2>&1 &
+python3 scripts/qa_sitemap.py >"$log_dir/sitemap.log" 2>&1 &
 pids+=("$!")
 
 status=0

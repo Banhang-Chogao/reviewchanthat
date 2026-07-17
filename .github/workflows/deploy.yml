@@ -77,7 +77,7 @@ jobs:
           cache-dependency-path: requirements-ci.txt
 
       - name: Install release-gate dependencies
-        run: bash scripts/ci/timed.sh 'install CI dependencies' python -m pip install --disable-pip-version-check -r requirements-ci.txt
+        run: bash scripts/ci/timed.sh 'install CI dependencies' python3 -m pip install --disable-pip-version-check -r requirements-ci.txt
 
       - name: Cache Hugo build cache
         uses: actions/cache@v4.2.3
@@ -99,7 +99,7 @@ jobs:
 
       - name: Write build metadata
         run: |
-          bash scripts/ci/timed.sh 'write build metadata' python - <<'PY'
+          bash scripts/ci/timed.sh 'write build metadata' python3 - <<'PY'
           import json
           import os
           from pathlib import Path
@@ -132,7 +132,7 @@ jobs:
         run: bash scripts/ci/timed.sh 'Hugo build' hugo --minify --baseURL "${SITE_URL}/"
 
       - name: Generate posts-only sitemap from the build
-        run: bash scripts/ci/timed.sh 'generate posts sitemap' python scripts/gen_posts_sitemap.py --public-dir public
+        run: bash scripts/ci/timed.sh 'generate posts sitemap' python3 scripts/gen_posts_sitemap.py --public-dir public
 
       - name: Public build QA (parallel)
         run: bash scripts/ci/timed.sh 'public build QA' bash scripts/ci/public-qa.sh
