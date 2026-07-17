@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T21:30:00+07:00"
-commit = "e1b87c29"
+commit = "04da21a7"
 description = "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ, Nami đầu chuyến, Bukhansan và mẹo sắp lịch theo tuần đổ màu thực tế."
 draft = false
 image = "images/posts/lich-trinh-di-han-thang-11-5-ngay-4-dem.webp"
