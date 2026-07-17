@@ -1,6 +1,0 @@
-{{- $variants := . | default (slice) -}}
-{{- $items := slice -}}
-{{- range $variants -}}
-  {{- $items = $items | append (printf "%s %dw" (.src | relURL) .width) -}}
-{{- end -}}
-{{- return (delimit $items ", ") -}}

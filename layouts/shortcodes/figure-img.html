@@ -1,10 +1,5 @@
 {{- $src := .Get "src" -}}
-{{- $asset := partial "image-asset-data.html" $src -}}
 <figure>
-  {{- if $asset -}}
-    {{ partial "responsive-image.html" (dict "asset" $asset "role" "article" "alt" (.Get "alt") "class" "post-content-image responsive-image--article" "loading" "lazy" "sizes" "(max-width: 840px) calc(100vw - 2rem), 840px") }}
-  {{- else -}}
-    <img src="{{ $src | relURL }}" alt="{{ .Get "alt" }}" width="{{ .Get "width" | default "800" }}" height="{{ .Get "height" | default "450" }}" loading="lazy" decoding="async">
-  {{- end -}}
+  {{ partial "responsive-image.html" (dict "src" $src "role" "article" "alt" (.Get "alt") "class" "post-content-image responsive-image--article" "loading" "lazy" "sizes" "(max-width: 840px) calc(100vw - 2rem), 840px") }}
   <figcaption>{{ .Get "caption" }}</figcaption>
 </figure>

@@ -13,11 +13,5 @@
   <span class="remote-image-blocked" role="img" aria-label="{{ .Text }}">{{ .Text }}</span>
 {{- else -}}
   {{- $localDest := $dest | strings.TrimPrefix "/" -}}
-  {{- $asset := partial "image-asset-data.html" $localDest -}}
-  {{- if $asset -}}
-    {{ partial "responsive-image.html" (dict "asset" $asset "role" "article" "alt" .Text "class" "post-content-image responsive-image--article" "loading" "lazy" "sizes" "(max-width: 840px) calc(100vw - 2rem), 840px") }}
-  {{- else -}}
-    {{- $src := $localDest | relURL -}}
-    <img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async" width="800" height="450">
-  {{- end -}}
+  {{ partial "responsive-image.html" (dict "src" $localDest "role" "article" "alt" .Text "class" "post-content-image responsive-image--article" "loading" "lazy" "sizes" "(max-width: 840px) calc(100vw - 2rem), 840px") }}
 {{- end -}}
