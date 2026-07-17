@@ -9947,7 +9947,35 @@
       "image_total_score": 0,
       "image_alt": "Ảnh minh họa Review Anjung House: Không gian sống và làm việc của Eleena Jamil Architect — bản tuyên ngôn kiến trúc gắn với bản địa — nguồn Pexels",
       "gate_verified": true
+    },
+    {
+      "slug": "mau-lich-trinh-xin-visa-huong-dan-day-du",
+      "title": "Mẫu lịch trình du lịch để xin visa: hướng dẫn đầy đủ + AI Travel Planner",
+      "image_id": "img-66b1d10f",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/cityscape-at-sunset-25538927/",
+      "direct_url": "https://images.pexels.com/photos/25538927/pexels-photo-25538927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "Mocchi NO",
+      "creator_url": "https://www.pexels.com/@mocchi-no-1330886863",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/mau-lich-trinh-xin-visa-huong-dan-day-du.jpg",
+      "output_path": "static/images/posts/mau-lich-trinh-xin-visa-huong-dan-day-du.webp",
+      "watermark_text": "Source: Pexels / Mocchi NO",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "seoul korea cityscape",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Mẫu lịch trình du lịch để xin visa: hướng dẫn đầy đủ + AI Travel Planner — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-17T16:35:06.683394+00:00"
+  "generated_at": "2026-07-17T18:30:43.538548+00:00"
 }
