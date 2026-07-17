@@ -9919,7 +9919,35 @@
       "attribution_source": "pexels_api",
       "image_query": "clean dishes kitchen",
       "image_alt": "Bát đĩa sạch trên kệ úp — minh họa chi phí và thói quen rửa bát"
+    },
+    {
+      "slug": "anjung-house-eleena-jamil-review",
+      "title": "Review Anjung House: Không gian sống và làm việc của Eleena Jamil Architect — bản tuyên ngôn kiến trúc gắn với bản địa",
+      "image_id": "img-6783dd4b",
+      "source_platform": "Pexels",
+      "image_provider": "pexels",
+      "source_url": "https://www.pexels.com/photo/traditional-vietnamese-architecture-with-signage-36679434/",
+      "direct_url": "https://images.pexels.com/photos/36679434/pexels-photo-36679434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "creator": "TBD Tuyên",
+      "creator_url": "https://www.pexels.com/@tbd-tuyen-859104985",
+      "creator_id": "",
+      "photo_id": "",
+      "raw_provider": null,
+      "license": "Pexels License",
+      "commercial_use": true,
+      "local_source_path": "static/images/posts-src/anjung-house-eleena-jamil-review.jpg",
+      "output_path": "static/images/posts/anjung-house-eleena-jamil-review.webp",
+      "watermark_text": "Source: Pexels / TBD Tuyên",
+      "provider_used": "Pexels",
+      "attribution_verified": true,
+      "attribution_source": "pexels_api",
+      "image_query": "review anjung house gian sống",
+      "image_semantic_score": 0,
+      "image_color_score": 0,
+      "image_total_score": 0,
+      "image_alt": "Ảnh minh họa Review Anjung House: Không gian sống và làm việc của Eleena Jamil Architect — bản tuyên ngôn kiến trúc gắn với bản địa — nguồn Pexels",
+      "gate_verified": true
     }
   ],
-  "generated_at": "2026-07-16T00:01:34.727491+00:00"
+  "generated_at": "2026-07-17T16:35:06.683394+00:00"
 }
