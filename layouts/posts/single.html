@@ -1,6 +1,5 @@
 {{ define "main" }}
-<article class="post-single container has-editor-pick">
-  <div class="editor-pick-rail">{{ partial "editor-pick.html" . }}</div>
+<article class="post-single container">
   {{ partial "breadcrumb.html" . }}
   <header class="post-header">
     <div class="post-header-meta">
@@ -13,7 +12,6 @@
       {{ end }}
     </div>
     <h1 class="post-title">{{ .Title }}</h1>
-    {{ partial "sponsored-hotel-banner.html" . }}
     <div class="post-meta-bar">
       {{ partial "author.html" . }}
       <div class="post-meta-right">
@@ -33,18 +31,15 @@
   {{ end }}
   <div class="post-content">
     {{- $c := .Content -}}
-    {{- $ad := partial "trip-affiliate.html" . -}}
-    {{- $enAd := partial "trip-affiliate-en.html" . -}}
     {{- $box := partial "maybe-unread.html" . -}}
-    {{- $inject := printf "%s%s%s" $enAd $ad $box -}}
-    {{- if and (strings.Contains $c "</p>") (gt (len (trim $inject " \n\t\r")) 0) -}}
+    {{- if and (strings.Contains $c "</p>") (gt (len (trim $box " \n\t\r")) 0) -}}
       {{- $parts := split $c "</p>" -}}
       {{- $head := printf "%s</p>" (index $parts 0) -}}
       {{- $tail := "" -}}
       {{- if gt (len $parts) 1 -}}{{- $tail = delimit (after 1 $parts) "</p>" -}}{{- end -}}
-      {{- printf "%s%s%s" $head $inject $tail | safeHTML -}}
+      {{- printf "%s%s%s" $head $box $tail | safeHTML -}}
     {{- else -}}
-      {{ .Content }}{{ $inject | safeHTML }}
+      {{ .Content }}{{ $box | safeHTML }}
     {{- end -}}
   </div>
 

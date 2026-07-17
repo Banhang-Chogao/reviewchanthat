@@ -117,7 +117,6 @@ Sau IPO, Ctrip tiếp tục mở rộng mạng lưới tổng đài và kênh B2
 
 Nếu bạn đang có kế hoạch đi công tác hay du lịch trong thời gian tới, đây cũng là lúc phù hợp để tham khảo giá phòng và vé máy bay quốc tế — nền tảng mà chính Ctrip xây dựng gần ba thập kỷ trước giờ đã phục vụ hàng trăm triệu người dùng toàn cầu.
 
-{{< trip-cta >}}
 
 ## Thời kỳ thâu tóm: xây đế chế qua M&A
 
@@ -144,7 +143,6 @@ Với người dùng cuối, những gì bạn thấy trên ứng dụng Trip.co
 
 Nếu bạn đang lên kế hoạch cho chuyến đi sắp tới — dù là công tác hay nghỉ dưỡng — việc so sánh giá phòng và vé máy bay trên một nền tảng có mạng lưới đối tác toàn cầu như Trip.com là điều đáng cân nhắc trước khi chốt đơn.
 
-{{< trip-cta >}}
 
 ## Bài học từ hành trình hơn 25 năm
 
@@ -169,5 +167,3 @@ Nhìn lại chặng đường của Ctrip/Trip.com, có vài điểm đáng chú
 ## Kết luận
 
 Từ một tổng đài điện thoại nhỏ ở Thượng Hải năm 1999 đến một tập đoàn niêm yết song song trên NASDAQ và HKEX với hàng trăm triệu người dùng, câu chuyện của Ctrip — nay là Trip.com Group — là minh chứng cho việc một ý tưởng đúng thời điểm, kết hợp với chiến lược thích nghi linh hoạt, có thể tạo ra một đế chế toàn cầu. Với người Việt đang có nhu cầu đặt phòng, vé máy bay cho các chuyến đi trong và ngoài nước, hiểu được nền tảng công nghệ và mạng lưới đối tác đứng sau ứng dụng mình đang dùng cũng là một cách để đặt niềm tin có cơ sở hơn.
-
-{{< trip-cta >}}

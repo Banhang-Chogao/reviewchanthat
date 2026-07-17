@@ -186,17 +186,7 @@ def check_adsense():
                "No AdSense JavaScript found in templates — site cannot serve AdSense ads")
 
 
-    # 3. Trip.com affiliate ads (existing monetization)
-    trip_ad_count = 0
-    for html_file in LAYOUTS.rglob("*.html"):
-        if "trip.com" in html_file.read_text(encoding="utf-8", errors="replace"):
-            trip_ad_count += 1
-    if trip_ad_count > 0:
-        report("OK", "AFFILIATE_ADS",
-               f"Trip.com affiliate ads found ({trip_ad_count} placements) — alternate monetization active")
-
-
-    # 4. AdBlock CTA
+    # 3. AdBlock CTA
     adblock_cta = LAYOUTS / "partials" / "adblock-cta.html"
     if adblock_cta.exists():
         report("OK", "ADBLOCK_CTA", "Ad-block disable appeal found on homepage")

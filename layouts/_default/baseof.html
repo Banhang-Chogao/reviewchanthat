@@ -42,10 +42,8 @@
   <a class="skip-link" href="#main-content">Bỏ qua đến nội dung</a>
   {{ partial "header.html" . }}
   <main id="main-content" tabindex="-1">
-    {{ if and (not .IsHome) (not $isBlogPost) }}<div class="container sponsored-hotel-wrap">{{ partial "sponsored-hotel-banner.html" . }}</div>{{ end }}
     {{- block "main" . }}{{ end }}
   </main>
-  {{ partial "footer-ad.html" . }}
   {{ partial "footer.html" . }}
   {{ if $isBlogPost }}{{ partial "scroll-jump.html" . }}{{ end }}
   {{ $siteJs := resources.Get "js/site.js" | minify | fingerprint }}
