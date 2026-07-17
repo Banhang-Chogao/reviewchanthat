@@ -63,58 +63,13 @@ jobs:
             echo "No changes needed"
           fi
 
-      - name: Loop guard — abort if branch already exists from today
+      - name: Commit and push to main
         if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.has_changes == 'true'
-        id: loop_guard
-        run: |
-          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%Y%m%d)
-          BRANCH="bot/autobot-seo-title-${TODAY}"
-          EXISTING=$(git ls-remote --heads origin "$BRANCH" | wc -l | tr -d ' ' || true)
-          if [ "$EXISTING" -gt 0 ] && [ "${GITHUB_REF_NAME}" != "$BRANCH" ]; then
-            echo "Branch $BRANCH already exists on remote — possible loop. Aborting PR creation."
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Loop guard: branch $BRANCH exists, aborting"
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Commit and create PR
-        if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.has_changes == 'true' && steps.loop_guard.outputs.skip != 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%Y%m%d)
-          BRANCH="bot/autobot-seo-title-${TODAY}"
-
-          git checkout -B "$BRANCH"
           git add -A
           git commit -m "chore(content): autobot_seo_title nightly run [autobot-seo-title]" || exit 0
-          git push -u origin "$BRANCH" --force-with-lease || git push -u origin "$BRANCH"
-
-          EXISTING=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number' || true)
-          if [ -n "$EXISTING" ]; then
-            echo "PR already open: #$EXISTING"
-            exit 0
-          fi
-
-          gh pr create \
-            --base main \
-            --head "$BRANCH" \
-            --title "chore(content): autobot_seo_title nightly run" \
-            --body "Nightly autobot_seo_title run. [autobot-seo-title]" \
-            --label automerge --label automated --label content-direction
-
-          # Auto-resolve conflicts if any
-          sleep 10
-          PR_NUMBER=$(gh pr view "$BRANCH" --json number --jq '.number' || true)
-          if [ -n "$PR_NUMBER" ]; then
-            CONFLICT=$(gh pr view "$PR_NUMBER" --json mergeable --jq '.mergeable' || true)
-            if [ "$CONFLICT" = "CONFLICTING" ]; then
-              echo "PR #$PR_NUMBER has conflicts — auto-resolving..."
-              python scripts/auto_resolve_pr_conflicts.py "$BRANCH"
-              sleep 5
-              gh pr merge "$PR_NUMBER" --squash --subject "fix: auto-resolve conflicts [autobot-seo-title]" --body "Auto-resolved by keeping main version." || true
-            fi
-          fi || true
+          git pull --rebase origin main
+          git push origin main

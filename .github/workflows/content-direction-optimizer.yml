@@ -113,57 +113,13 @@ jobs:
             echo "No optimization changes needed"
           fi
 
-      - name: Loop guard
+      - name: Commit and push to main
         if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.has_changes == 'true'
-        id: loop_guard
-        run: |
-          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%Y%m%d)
-          BRANCH="bot/content-direction-optimizer-${TODAY}"
-          EXISTING=$(git ls-remote --heads origin "$BRANCH" | wc -l | tr -d ' ' || true)
-          if [ "$EXISTING" -gt 0 ] && [ "${GITHUB_REF_NAME}" != "$BRANCH" ]; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Loop guard: branch $BRANCH exists, aborting"
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Commit and create PR
-        if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.has_changes == 'true' && steps.loop_guard.outputs.skip != 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%Y%m%d)
-          BRANCH="bot/content-direction-optimizer-${TODAY}"
-
-          git checkout -B "$BRANCH"
           git add -A
           git commit -m "chore(content): apply Content Direction optimizer [content-direction-optimizer]" || exit 0
-          git push -u origin "$BRANCH" --force-with-lease || git push -u origin "$BRANCH"
-
-          EXISTING=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number' || true)
-          if [ -n "$EXISTING" ]; then
-            echo "PR already open: #$EXISTING"
-            exit 0
-          fi
-
-          gh pr create \
-            --base main \
-            --head "$BRANCH" \
-            --title "chore(content): apply Content Direction optimizer" \
-            --body "Nightly Content Direction all-safe run. Score targets 100. Fixes applied will auto-merge and trigger content direction update." \
-            --label automerge --label automated --label content-direction --label seo
-
-          # Auto-resolve conflicts if any
-          sleep 10
-          PR_NUMBER=$(gh pr view "$BRANCH" --json number --jq '.number' || true)
-          if [ -n "$PR_NUMBER" ]; then
-            CONFLICT=$(gh pr view "$PR_NUMBER" --json mergeable --jq '.mergeable' || true)
-            if [ "$CONFLICT" = "CONFLICTING" ]; then
-              echo "PR #$PR_NUMBER has conflicts — auto-resolving..."
-              python scripts/auto_resolve_pr_conflicts.py "$BRANCH" || true
-              sleep 5
-              gh pr merge "$PR_NUMBER" --auto --squash --subject "fix: auto-resolve conflicts [content-direction-optimizer]" --body "Auto-resolved by keeping main version." 2>/dev/null || true
-            fi
-          fi || true
+          git pull --rebase origin main
+          git push origin main

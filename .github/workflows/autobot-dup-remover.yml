@@ -59,44 +59,13 @@ jobs:
             echo "No duplicates to fix"
           fi
 
-      - name: Loop guard
+      - name: Commit and push to main
         if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.has_changes == 'true'
-        id: loop_guard
-        run: |
-          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%Y%m%d)
-          BRANCH="bot/autobot-dup-remover-${TODAY}"
-          EXISTING=$(git ls-remote --heads origin "$BRANCH" | wc -l | tr -d ' ' || true)
-          if [ "$EXISTING" -gt 0 ] && [ "${GITHUB_REF_NAME}" != "$BRANCH" ]; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Loop guard: branch $BRANCH exists, aborting"
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Commit and create PR
-        if: steps.skip.outputs.skip != 'true' && steps.changes.outputs.has_changes == 'true' && steps.loop_guard.outputs.skip != 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%Y%m%d)
-          BRANCH="bot/autobot-dup-remover-${TODAY}"
-
-          git checkout -B "$BRANCH"
           git add -A
           git commit -m "fix: gộp duplicate YAML keys trong front matter [autobot-dup-remover]" || exit 0
-          git push -u origin "$BRANCH" --force-with-lease || git push -u origin "$BRANCH"
-
-          EXISTING=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number' || true)
-          if [ -n "$EXISTING" ]; then
-            echo "PR already open: #$EXISTING"
-            exit 0
-          fi
-
-          gh pr create \
-            --base main \
-            --head "$BRANCH" \
-            --title "fix: gộp duplicate YAML keys trong front matter" \
-            --body "Nightly autobot-dup-remover run. Gộp các key bị duplicate trong front matter YAML. [autobot-dup-remover]" \
-            --label automerge --label automated --label content-direction || true
+          git pull --rebase origin main
+          git push origin main
