@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-19T00:44:39+07:00",
-  "generated_at_display": "19-07-2026 00:44:39",
+  "generated_at": "2026-07-19T00:55:33+07:00",
+  "generated_at_display": "19-07-2026 00:55:33",
   "summary": {
     "total_posts": 398,
     "draft_posts": 0,
@@ -4271,28 +4271,13 @@
     ]
   },
   "internal_linking": {
-    "total_outbound_links": 3079,
-    "average_outbound_per_post": 7.74,
+    "total_outbound_links": 2873,
+    "average_outbound_per_post": 7.22,
     "top_linked_posts": [
       {
         "slug": "thoi-tiet-han-quoc-thang-11",
         "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
-        "inbound": 48
-      },
-      {
-        "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
-        "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
         "inbound": 43
-      },
-      {
-        "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
-        "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
-        "inbound": 40
-      },
-      {
-        "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
-        "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
-        "inbound": 39
       },
       {
         "slug": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
@@ -4300,9 +4285,24 @@
         "inbound": 38
       },
       {
+        "slug": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+        "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
+        "inbound": 36
+      },
+      {
+        "slug": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
+        "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
+        "inbound": 35
+      },
+      {
         "slug": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
         "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
-        "inbound": 36
+        "inbound": 35
+      },
+      {
+        "slug": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
+        "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
+        "inbound": 35
       },
       {
         "slug": "iphone-18-gia-bao-nhieu",
@@ -4310,25 +4310,29 @@
         "inbound": 33
       },
       {
-        "slug": "the-odyssey-2026-review",
-        "title": "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?",
-        "inbound": 31
-      },
-      {
         "slug": "iphone-18-co-gi-moi",
         "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
         "inbound": 30
       },
       {
-        "slug": "app-store-gatekeeper-apple-so-mat-dieu-gi",
-        "title": "App Store gatekeeper: Apple sợ mất điều gì?",
-        "inbound": 29
+        "slug": "the-odyssey-2026-review",
+        "title": "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?",
+        "inbound": 30
+      },
+      {
+        "slug": "co-nen-cho-iphone-18-khong",
+        "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
+        "inbound": 28
       }
     ],
     "orphan_posts": [
       {
         "slug": "ai-productivity-tools-2026-honest-review",
         "title": "Best AI Productivity Tools in 2026 — An Honest Hands-On Review"
+      },
+      {
+        "slug": "am-thuc-cho-truyen-thong-han-quoc",
+        "title": "Ẩm thực chợ truyền thống Hàn Quốc: bản đồ các khu chợ và món nhất định phải thử 2026"
       },
       {
         "slug": "anjung-house-eleena-jamil-review",
@@ -4343,16 +4347,44 @@
         "title": "Bảo hiểm du lịch quốc tế: khi nào cần, đọc điều khoản gì trước khi mua"
       },
       {
+        "slug": "bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026",
+        "title": "Cách bảo vệ dữ liệu cá nhân trên Internet - Hướng dẫn toàn diện cho người Việt 2026"
+      },
+      {
+        "slug": "best-wireless-earbuds-2026-top-picks-review",
+        "title": "Best Wireless Earbuds 2026: Top Picks for Every Budget — Real-World Tested"
+      },
+      {
+        "slug": "bien-ba-dong-tra-vinh",
+        "title": "Biển Ba Động Trà Vinh: bãi biển giồng cát bình dị của miền Tây và kinh nghiệm đường đi 2026"
+      },
+      {
         "slug": "chi-phi-that-nuoi-iphone-3-nam",
         "title": "Chi phí thật khi nuôi iPhone 3 năm: pin, case, bảo hành, bán lại"
+      },
+      {
+        "slug": "christopher-nolan-tieu-su-va-su-nghiep",
+        "title": "Christopher Nolan: Từ những thước phim indie đến giấc mơ sử thi Odyssey"
       },
       {
         "slug": "chuyen-tu-android-sang-iphone-2026",
         "title": "Chuyển từ Android sang iPhone 2026: app, dữ liệu, thói quen 2 tuần đầu"
       },
       {
+        "slug": "co-nen-di-tour-hang-dong-quang-binh-mua-mua",
+        "title": "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?"
+      },
+      {
+        "slug": "co-nen-len-ios-26-5-2-khong",
+        "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì"
+      },
+      {
         "slug": "co-nen-mua-dien-thoai-moi-viet-nam-2026",
         "title": "Có nên mua điện thoại mới ở Việt Nam năm 2026 khi giá tăng?"
+      },
+      {
+        "slug": "cong-nghe-ai-camera-uav-nong-nghiep-2026",
+        "title": "Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV"
       },
       {
         "slug": "coyote-vs-acme-2026-review",
@@ -4363,12 +4395,28 @@
         "title": "Đầu tư thông minh thời lãi suất thấp 2026 — Chiến lược tài chính cá nhân cho người Việt"
       },
       {
+        "slug": "doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia",
+        "title": "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ"
+      },
+      {
         "slug": "don-dep-dien-thoai-1-buoi-tap-trung",
         "title": "Dọn dẹp điện thoại 1 buổi: app, ảnh, thông báo — lấy lại sự tập trung"
       },
       {
         "slug": "du-lich-da-lat-mua-hoa-dang-cho-2026",
         "title": "Du lịch Đà Lạt mùa hoa 2026: đi khi nào, ở đâu và lịch trình ra sao?"
+      },
+      {
+        "slug": "estonia-quoc-gia-so-hoa-khai-sinh-skype",
+        "title": "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?"
+      },
+      {
+        "slug": "huong-dan-mien-visa-uzbekistan-5-ngay",
+        "title": "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á"
+      },
+      {
+        "slug": "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
+        "title": "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý"
       },
       {
         "slug": "jet-lag-han-viet-ngu-du-48-gio-dau",
@@ -4395,6 +4443,14 @@
         "title": "Nền kinh tế Nauy – Dầu mỏ, quỹ đầu tư và mô hình phúc lợi toàn dân"
       },
       {
+        "slug": "ky-su-ha-giang-nhung-khuc-cua-va-ky-uc",
+        "title": "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu"
+      },
+      {
+        "slug": "ky-su-tallinn-dem-trang-thi-tran-co",
+        "title": "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu"
+      },
+      {
         "slug": "mac-hay-windows-2026-dan-van-phong",
         "title": "Mac hay Windows 2026 cho dân văn phòng VN: chi phí 3 năm và phần mềm"
       },
@@ -4411,12 +4467,40 @@
         "title": "Món Việt hot ở Mỹ 2026: cà phê muối, bánh ram ít và bánh khọt làm giới trẻ FOMO"
       },
       {
+        "slug": "o-khu-nao-bangkok-mua-mua",
+        "title": "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom"
+      },
+      {
         "slug": "personal-finance-young-vietnamese-2026",
         "title": "Personal Finance for Young Vietnamese 2026: Budgeting, Saving & Investing Guide"
       },
       {
+        "slug": "phan-lan-giao-duc-02",
+        "title": "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
+      },
+      {
+        "slug": "phan-lan-hanh-phuc-01",
+        "title": "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
+      },
+      {
+        "slug": "phan-lan-sauna-05",
+        "title": "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
+      },
+      {
+        "slug": "phan-lan-tech-04",
+        "title": "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
+      },
+      {
+        "slug": "phan-lan-xanh-03",
+        "title": "Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng"
+      },
+      {
         "slug": "review-may-rua-bat-gia-dinh-2026",
         "title": "Review máy rửa bát gia đình 2026: khi nào đáng mua trong căn hộ Việt"
+      },
+      {
+        "slug": "review-paradise-2023-nguoi-giau-mua-thoi-gian-song",
+        "title": "Review Paradise (2023): Người giàu dùng tiền mua thời gian sống"
       },
       {
         "slug": "routine-buoi-sang-45-phut-nguoi-di-lam",
@@ -4425,6 +4509,10 @@
       {
         "slug": "sam-son-bien-thanh-hoa-gan-ha-noi",
         "title": "Sầm Sơn — Biển Thanh Hóa gần Hà Nội cho kỳ nghỉ cuối tuần"
+      },
+      {
+        "slug": "so-sanh-grabfood-shopeefood-baemin-trai-nghiem-giao-do-an-2026",
+        "title": "GrabFood vs ShopeeFood vs Baemin: So Sánh Trải Nghiệm Giao Đồ Ăn Tại Việt Nam 2026"
       },
       {
         "slug": "so-sanh-ve-may-bay-tet-2027",
@@ -4451,8 +4539,16 @@
         "title": "Travel Checklist: danh sách cần chuẩn bị trước chuyến đi quốc tế"
       },
       {
+        "slug": "trending-topic-20260713",
+        "title": "AI Inflation 2026: Why Your Next Laptop, Phone, and Gaming Console Will Cost More"
+      },
+      {
         "slug": "visa-han-bi-tu-choi-ly-do-va-lan-2",
         "title": "Visa Hàn bị từ chối: lý do thường gặp và chuẩn bị hồ sơ lần 2"
+      },
+      {
+        "slug": "xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026",
+        "title": "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử"
       }
     ],
     "posts_missing_internal_links": [
@@ -4541,6 +4637,26 @@
         "title": "Personal Finance for Young Vietnamese 2026: Budgeting, Saving & Investing Guide"
       },
       {
+        "slug": "phan-lan-giao-duc-02",
+        "title": "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối"
+      },
+      {
+        "slug": "phan-lan-hanh-phuc-01",
+        "title": "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội"
+      },
+      {
+        "slug": "phan-lan-sauna-05",
+        "title": "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật"
+      },
+      {
+        "slug": "phan-lan-tech-04",
+        "title": "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ"
+      },
+      {
+        "slug": "phan-lan-xanh-03",
+        "title": "Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng"
+      },
+      {
         "slug": "review-noi-chien-khong-dau-2026",
         "title": "Review nồi chiên không dầu 2026: loại nào đáng mua sau vài tháng dùng thật"
       },
@@ -4588,16 +4704,16 @@
       "priority": "P1",
       "type": "Internal Linking",
       "title": "Giảm orphan posts (không có inbound)",
-      "detail": "32 bài không nhận internal link.",
-      "affected_count": 32,
+      "detail": "56 bài không nhận internal link.",
+      "affected_count": 56,
       "suggested_fix": "Link tới orphan từ bài hub/pillar cùng cluster."
     },
     {
       "priority": "P1",
       "type": "Internal Linking",
       "title": "Thêm internal links cho bài thiếu outbound",
-      "detail": "31 bài không có internal link outbound (MD/FM/graph).",
-      "affected_count": 31,
+      "detail": "36 bài không có internal link outbound (MD/FM/graph).",
+      "affected_count": 36,
       "suggested_fix": "Chèn 2–5 internal links liên quan trong thân bài hoặc graph."
     },
     {

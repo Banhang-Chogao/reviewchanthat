@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-19T00:44:39+07:00",
-  "generated_at_display": "19-07-2026 00:44:39",
-  "score": 94.0,
+  "generated_at": "2026-07-19T00:55:33+07:00",
+  "generated_at_display": "19-07-2026 00:55:33",
+  "score": 92.4,
   "components": {
     "seo_titles": 13.0,
     "meta_descriptions": 14.4,
-    "internal_links": 23.1,
-    "orphan_posts": 18.4,
+    "internal_links": 22.7,
+    "orphan_posts": 17.2,
     "freshness": 9.8,
     "content_gaps": 10,
     "data_integrity": 5.0
