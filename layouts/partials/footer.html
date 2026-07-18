@@ -12,8 +12,6 @@
       <a href="{{ "disclaimer/" | relURL }}" class="footer-nav-link">Miễn trừ trách nhiệm</a>
       <a href="{{ "contact/" | relURL }}" class="footer-nav-link">Liên hệ</a>
       <a href="{{ "sitemap.xml" | relURL }}" class="footer-nav-link">Sơ đồ trang</a>
-      <a href="{{ "travel-planner/" | relURL }}" class="footer-nav-link">✈️ AI Travel Planner</a>
-      <a href="{{ "expense-management/" | relURL }}" class="footer-nav-link">💰 Expense Management</a>
       <a href="{{ "cv-generator/" | relURL }}" class="footer-nav-link">📄 CV Generator</a>
       <a href="{{ "branding-ci/" | relURL }}" class="footer-nav-link">Branding CI</a>
       <a href="{{ "content-direction/" | relURL }}" class="footer-nav-link">Content Direction</a>
@@ -52,18 +50,6 @@
       -}}
       <script type="application/json" id="footerExperimentalCatalog">{{ $experimental | jsonify }}</script>
     </div>
-    <div class="footer-tagline">
-      Made with
-      <span class="footer-tagline-icon" data-icon="heart" aria-hidden="true">❤️</span>,
-      <span class="footer-tagline-icon" data-icon="coffee" aria-hidden="true">☕</span>,
-      and a lot of
-      <span class="footer-tagline-icon" data-icon="robot" aria-hidden="true">🤖</span>
-    </div>
-    {{ with .Site.Params.hits_badge_url }}
-    <div class="footer-hits" aria-label="Lượt tương tác tích lũy">
-      <a class="footer-hits__label" href="{{ . }}" rel="noopener noreferrer">📊 Lượt tương tác tích lũy</a>
-    </div>
-    {{ end }}
     <div class="footer-copy">
       {{ with .Site.Params.footer_text }}{{ . | safeHTML }}{{ end }}
     </div>
