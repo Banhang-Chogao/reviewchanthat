@@ -46701,6 +46701,155 @@
       "source_height": 450,
       "source_width": 800
     },
+    "mau-lich-trinh-han-quoc-7-ngay-ai-inline": {
+      "article": {
+        "avif": {
+          "height": 450,
+          "src": "images/posts/variants/04f5932be3a7-article-800.avif",
+          "variants": [
+            {
+              "bytes": 35079,
+              "format": "avif",
+              "height": 450,
+              "src": "images/posts/variants/04f5932be3a7-article-800.avif",
+              "type": "image/avif",
+              "width": 800
+            },
+            {
+              "bytes": 47244,
+              "format": "avif",
+              "height": 529,
+              "src": "images/posts/variants/04f5932be3a7-article-1200.avif",
+              "type": "image/avif",
+              "width": 940
+            }
+          ],
+          "width": 800
+        },
+        "jpeg": {
+          "height": 450,
+          "src": "images/posts/variants/04f5932be3a7-article-800.jpg",
+          "variants": [
+            {
+              "bytes": 80016,
+              "format": "jpeg",
+              "height": 450,
+              "src": "images/posts/variants/04f5932be3a7-article-800.jpg",
+              "type": "image/jpeg",
+              "width": 800
+            },
+            {
+              "bytes": 106388,
+              "format": "jpeg",
+              "height": 529,
+              "src": "images/posts/variants/04f5932be3a7-article-1200.jpg",
+              "type": "image/jpeg",
+              "width": 940
+            }
+          ],
+          "width": 800
+        },
+        "webp": {
+          "height": 450,
+          "src": "images/posts/variants/04f5932be3a7-article-800.webp",
+          "variants": [
+            {
+              "bytes": 61188,
+              "format": "webp",
+              "height": 450,
+              "src": "images/posts/variants/04f5932be3a7-article-800.webp",
+              "type": "image/webp",
+              "width": 800
+            },
+            {
+              "bytes": 84548,
+              "format": "webp",
+              "height": 529,
+              "src": "images/posts/variants/04f5932be3a7-article-1200.webp",
+              "type": "image/webp",
+              "width": 940
+            }
+          ],
+          "width": 800
+        }
+      },
+      "card": {
+        "avif": {
+          "height": 240,
+          "src": "images/posts/variants/04f5932be3a7-card-320.avif",
+          "variants": [
+            {
+              "bytes": 10201,
+              "format": "avif",
+              "height": 240,
+              "src": "images/posts/variants/04f5932be3a7-card-320.avif",
+              "type": "image/avif",
+              "width": 320
+            },
+            {
+              "bytes": 19729,
+              "format": "avif",
+              "height": 360,
+              "src": "images/posts/variants/04f5932be3a7-card-480.avif",
+              "type": "image/avif",
+              "width": 480
+            }
+          ],
+          "width": 320
+        },
+        "jpeg": {
+          "height": 240,
+          "src": "images/posts/variants/04f5932be3a7-card-320.jpg",
+          "variants": [
+            {
+              "bytes": 21714,
+              "format": "jpeg",
+              "height": 240,
+              "src": "images/posts/variants/04f5932be3a7-card-320.jpg",
+              "type": "image/jpeg",
+              "width": 320
+            },
+            {
+              "bytes": 42635,
+              "format": "jpeg",
+              "height": 360,
+              "src": "images/posts/variants/04f5932be3a7-card-480.jpg",
+              "type": "image/jpeg",
+              "width": 480
+            }
+          ],
+          "width": 320
+        },
+        "webp": {
+          "height": 240,
+          "src": "images/posts/variants/04f5932be3a7-card-320.webp",
+          "variants": [
+            {
+              "bytes": 18494,
+              "format": "webp",
+              "height": 240,
+              "src": "images/posts/variants/04f5932be3a7-card-320.webp",
+              "type": "image/webp",
+              "width": 320
+            },
+            {
+              "bytes": 34814,
+              "format": "webp",
+              "height": 360,
+              "src": "images/posts/variants/04f5932be3a7-card-480.webp",
+              "type": "image/webp",
+              "width": 480
+            }
+          ],
+          "width": 320
+        }
+      },
+      "dominant_color": "#505457",
+      "hash": "04f5932be3a7",
+      "source": "images/posts/mau-lich-trinh-han-quoc-7-ngay-ai-inline.webp",
+      "source_height": 625,
+      "source_width": 940
+    },
     "mau-lich-trinh-nhat-ban-7-ngay-ai": {
       "article": {
         "avif": {
@@ -46825,6 +46974,155 @@
       "source": "images/posts/mau-lich-trinh-nhat-ban-7-ngay-ai.webp",
       "source_height": 450,
       "source_width": 800
+    },
+    "mau-lich-trinh-nhat-ban-7-ngay-ai-inline": {
+      "article": {
+        "avif": {
+          "height": 450,
+          "src": "images/posts/variants/aeb5619a344d-article-800.avif",
+          "variants": [
+            {
+              "bytes": 10574,
+              "format": "avif",
+              "height": 450,
+              "src": "images/posts/variants/aeb5619a344d-article-800.avif",
+              "type": "image/avif",
+              "width": 800
+            },
+            {
+              "bytes": 19690,
+              "format": "avif",
+              "height": 675,
+              "src": "images/posts/variants/aeb5619a344d-article-1200.avif",
+              "type": "image/avif",
+              "width": 1200
+            }
+          ],
+          "width": 800
+        },
+        "jpeg": {
+          "height": 450,
+          "src": "images/posts/variants/aeb5619a344d-article-800.jpg",
+          "variants": [
+            {
+              "bytes": 28937,
+              "format": "jpeg",
+              "height": 450,
+              "src": "images/posts/variants/aeb5619a344d-article-800.jpg",
+              "type": "image/jpeg",
+              "width": 800
+            },
+            {
+              "bytes": 56903,
+              "format": "jpeg",
+              "height": 675,
+              "src": "images/posts/variants/aeb5619a344d-article-1200.jpg",
+              "type": "image/jpeg",
+              "width": 1200
+            }
+          ],
+          "width": 800
+        },
+        "webp": {
+          "height": 450,
+          "src": "images/posts/variants/aeb5619a344d-article-800.webp",
+          "variants": [
+            {
+              "bytes": 14582,
+              "format": "webp",
+              "height": 450,
+              "src": "images/posts/variants/aeb5619a344d-article-800.webp",
+              "type": "image/webp",
+              "width": 800
+            },
+            {
+              "bytes": 27328,
+              "format": "webp",
+              "height": 675,
+              "src": "images/posts/variants/aeb5619a344d-article-1200.webp",
+              "type": "image/webp",
+              "width": 1200
+            }
+          ],
+          "width": 800
+        }
+      },
+      "card": {
+        "avif": {
+          "height": 240,
+          "src": "images/posts/variants/aeb5619a344d-card-320.avif",
+          "variants": [
+            {
+              "bytes": 3065,
+              "format": "avif",
+              "height": 240,
+              "src": "images/posts/variants/aeb5619a344d-card-320.avif",
+              "type": "image/avif",
+              "width": 320
+            },
+            {
+              "bytes": 5512,
+              "format": "avif",
+              "height": 360,
+              "src": "images/posts/variants/aeb5619a344d-card-480.avif",
+              "type": "image/avif",
+              "width": 480
+            }
+          ],
+          "width": 320
+        },
+        "jpeg": {
+          "height": 240,
+          "src": "images/posts/variants/aeb5619a344d-card-320.jpg",
+          "variants": [
+            {
+              "bytes": 7917,
+              "format": "jpeg",
+              "height": 240,
+              "src": "images/posts/variants/aeb5619a344d-card-320.jpg",
+              "type": "image/jpeg",
+              "width": 320
+            },
+            {
+              "bytes": 15322,
+              "format": "jpeg",
+              "height": 360,
+              "src": "images/posts/variants/aeb5619a344d-card-480.jpg",
+              "type": "image/jpeg",
+              "width": 480
+            }
+          ],
+          "width": 320
+        },
+        "webp": {
+          "height": 240,
+          "src": "images/posts/variants/aeb5619a344d-card-320.webp",
+          "variants": [
+            {
+              "bytes": 4214,
+              "format": "webp",
+              "height": 240,
+              "src": "images/posts/variants/aeb5619a344d-card-320.webp",
+              "type": "image/webp",
+              "width": 320
+            },
+            {
+              "bytes": 7910,
+              "format": "webp",
+              "height": 360,
+              "src": "images/posts/variants/aeb5619a344d-card-480.webp",
+              "type": "image/webp",
+              "width": 480
+            }
+          ],
+          "width": 320
+        }
+      },
+      "dominant_color": "#326988",
+      "hash": "aeb5619a344d",
+      "source": "images/posts/mau-lich-trinh-nhat-ban-7-ngay-ai-inline.webp",
+      "source_height": 1300,
+      "source_width": 1850
     },
     "mau-lich-trinh-xin-visa-huong-dan-day-du": {
       "article": {
@@ -56970,6 +57268,155 @@
       "source_height": 450,
       "source_width": 800
     },
+    "schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen-inline": {
+      "article": {
+        "avif": {
+          "height": 450,
+          "src": "images/posts/variants/75c71ab7c725-article-800.avif",
+          "variants": [
+            {
+              "bytes": 14718,
+              "format": "avif",
+              "height": 450,
+              "src": "images/posts/variants/75c71ab7c725-article-800.avif",
+              "type": "image/avif",
+              "width": 800
+            },
+            {
+              "bytes": 31056,
+              "format": "avif",
+              "height": 675,
+              "src": "images/posts/variants/75c71ab7c725-article-1200.avif",
+              "type": "image/avif",
+              "width": 1200
+            }
+          ],
+          "width": 800
+        },
+        "jpeg": {
+          "height": 450,
+          "src": "images/posts/variants/75c71ab7c725-article-800.jpg",
+          "variants": [
+            {
+              "bytes": 37727,
+              "format": "jpeg",
+              "height": 450,
+              "src": "images/posts/variants/75c71ab7c725-article-800.jpg",
+              "type": "image/jpeg",
+              "width": 800
+            },
+            {
+              "bytes": 77260,
+              "format": "jpeg",
+              "height": 675,
+              "src": "images/posts/variants/75c71ab7c725-article-1200.jpg",
+              "type": "image/jpeg",
+              "width": 1200
+            }
+          ],
+          "width": 800
+        },
+        "webp": {
+          "height": 450,
+          "src": "images/posts/variants/75c71ab7c725-article-800.webp",
+          "variants": [
+            {
+              "bytes": 18102,
+              "format": "webp",
+              "height": 450,
+              "src": "images/posts/variants/75c71ab7c725-article-800.webp",
+              "type": "image/webp",
+              "width": 800
+            },
+            {
+              "bytes": 35908,
+              "format": "webp",
+              "height": 675,
+              "src": "images/posts/variants/75c71ab7c725-article-1200.webp",
+              "type": "image/webp",
+              "width": 1200
+            }
+          ],
+          "width": 800
+        }
+      },
+      "card": {
+        "avif": {
+          "height": 240,
+          "src": "images/posts/variants/75c71ab7c725-card-320.avif",
+          "variants": [
+            {
+              "bytes": 2896,
+              "format": "avif",
+              "height": 240,
+              "src": "images/posts/variants/75c71ab7c725-card-320.avif",
+              "type": "image/avif",
+              "width": 320
+            },
+            {
+              "bytes": 5863,
+              "format": "avif",
+              "height": 360,
+              "src": "images/posts/variants/75c71ab7c725-card-480.avif",
+              "type": "image/avif",
+              "width": 480
+            }
+          ],
+          "width": 320
+        },
+        "jpeg": {
+          "height": 240,
+          "src": "images/posts/variants/75c71ab7c725-card-320.jpg",
+          "variants": [
+            {
+              "bytes": 8249,
+              "format": "jpeg",
+              "height": 240,
+              "src": "images/posts/variants/75c71ab7c725-card-320.jpg",
+              "type": "image/jpeg",
+              "width": 320
+            },
+            {
+              "bytes": 17905,
+              "format": "jpeg",
+              "height": 360,
+              "src": "images/posts/variants/75c71ab7c725-card-480.jpg",
+              "type": "image/jpeg",
+              "width": 480
+            }
+          ],
+          "width": 320
+        },
+        "webp": {
+          "height": 240,
+          "src": "images/posts/variants/75c71ab7c725-card-320.webp",
+          "variants": [
+            {
+              "bytes": 4748,
+              "format": "webp",
+              "height": 240,
+              "src": "images/posts/variants/75c71ab7c725-card-320.webp",
+              "type": "image/webp",
+              "width": 320
+            },
+            {
+              "bytes": 8738,
+              "format": "webp",
+              "height": 360,
+              "src": "images/posts/variants/75c71ab7c725-card-480.webp",
+              "type": "image/webp",
+              "width": 480
+            }
+          ],
+          "width": 320
+        }
+      },
+      "dominant_color": "#a8afb8",
+      "hash": "75c71ab7c725",
+      "source": "images/posts/schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen-inline.webp",
+      "source_height": 1253,
+      "source_width": 1880
+    },
     "seoraksan-thang-10-ngam-la-do": {
       "article": {
         "avif": {
@@ -63344,6 +63791,155 @@
       "source": "images/posts/travel-budget-cach-lap-ngan-sach-du-lich-thong-minh.webp",
       "source_height": 450,
       "source_width": 800
+    },
+    "travel-budget-cach-lap-ngan-sach-du-lich-thong-minh-inline": {
+      "article": {
+        "avif": {
+          "height": 450,
+          "src": "images/posts/variants/ea04ad1ebdb0-article-800.avif",
+          "variants": [
+            {
+              "bytes": 31481,
+              "format": "avif",
+              "height": 450,
+              "src": "images/posts/variants/ea04ad1ebdb0-article-800.avif",
+              "type": "image/avif",
+              "width": 800
+            },
+            {
+              "bytes": 66243,
+              "format": "avif",
+              "height": 675,
+              "src": "images/posts/variants/ea04ad1ebdb0-article-1200.avif",
+              "type": "image/avif",
+              "width": 1200
+            }
+          ],
+          "width": 800
+        },
+        "jpeg": {
+          "height": 450,
+          "src": "images/posts/variants/ea04ad1ebdb0-article-800.jpg",
+          "variants": [
+            {
+              "bytes": 76270,
+              "format": "jpeg",
+              "height": 450,
+              "src": "images/posts/variants/ea04ad1ebdb0-article-800.jpg",
+              "type": "image/jpeg",
+              "width": 800
+            },
+            {
+              "bytes": 154891,
+              "format": "jpeg",
+              "height": 675,
+              "src": "images/posts/variants/ea04ad1ebdb0-article-1200.jpg",
+              "type": "image/jpeg",
+              "width": 1200
+            }
+          ],
+          "width": 800
+        },
+        "webp": {
+          "height": 450,
+          "src": "images/posts/variants/ea04ad1ebdb0-article-800.webp",
+          "variants": [
+            {
+              "bytes": 58556,
+              "format": "webp",
+              "height": 450,
+              "src": "images/posts/variants/ea04ad1ebdb0-article-800.webp",
+              "type": "image/webp",
+              "width": 800
+            },
+            {
+              "bytes": 118662,
+              "format": "webp",
+              "height": 675,
+              "src": "images/posts/variants/ea04ad1ebdb0-article-1200.webp",
+              "type": "image/webp",
+              "width": 1200
+            }
+          ],
+          "width": 800
+        }
+      },
+      "card": {
+        "avif": {
+          "height": 240,
+          "src": "images/posts/variants/ea04ad1ebdb0-card-320.avif",
+          "variants": [
+            {
+              "bytes": 8882,
+              "format": "avif",
+              "height": 240,
+              "src": "images/posts/variants/ea04ad1ebdb0-card-320.avif",
+              "type": "image/avif",
+              "width": 320
+            },
+            {
+              "bytes": 16943,
+              "format": "avif",
+              "height": 360,
+              "src": "images/posts/variants/ea04ad1ebdb0-card-480.avif",
+              "type": "image/avif",
+              "width": 480
+            }
+          ],
+          "width": 320
+        },
+        "jpeg": {
+          "height": 240,
+          "src": "images/posts/variants/ea04ad1ebdb0-card-320.jpg",
+          "variants": [
+            {
+              "bytes": 20977,
+              "format": "jpeg",
+              "height": 240,
+              "src": "images/posts/variants/ea04ad1ebdb0-card-320.jpg",
+              "type": "image/jpeg",
+              "width": 320
+            },
+            {
+              "bytes": 41239,
+              "format": "jpeg",
+              "height": 360,
+              "src": "images/posts/variants/ea04ad1ebdb0-card-480.jpg",
+              "type": "image/jpeg",
+              "width": 480
+            }
+          ],
+          "width": 320
+        },
+        "webp": {
+          "height": 240,
+          "src": "images/posts/variants/ea04ad1ebdb0-card-320.webp",
+          "variants": [
+            {
+              "bytes": 16174,
+              "format": "webp",
+              "height": 240,
+              "src": "images/posts/variants/ea04ad1ebdb0-card-320.webp",
+              "type": "image/webp",
+              "width": 320
+            },
+            {
+              "bytes": 31368,
+              "format": "webp",
+              "height": 360,
+              "src": "images/posts/variants/ea04ad1ebdb0-card-480.webp",
+              "type": "image/webp",
+              "width": 480
+            }
+          ],
+          "width": 320
+        }
+      },
+      "dominant_color": "#898a8a",
+      "hash": "ea04ad1ebdb0",
+      "source": "images/posts/travel-budget-cach-lap-ngan-sach-du-lich-thong-minh-inline.webp",
+      "source_height": 1300,
+      "source_width": 1733
     },
     "travel-checklist-danh-sach-chuan-bi-truoc-chuyen-di-quoc-te": {
       "article": {
