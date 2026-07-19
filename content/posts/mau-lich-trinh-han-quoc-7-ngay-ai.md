@@ -12,6 +12,25 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
 
+image = "images/posts/mau-lich-trinh-han-quoc-7-ngay-ai.webp"
+thumbnail = "images/posts/mau-lich-trinh-han-quoc-7-ngay-ai.webp"
+
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/waterfront-city-lights-lotte-tower-in-seoul-korea-11687640/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Ethan Brooke"
+image_creator_url = "https://www.pexels.com/@ethan-brooke-1123775"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_alt = "Ảnh minh họa Mẫu lịch trình du lịch Hàn Quốc 7 ngày tự động bằng AI — nguồn Pexels"
+image_attribution_checked_at = "2026-07-19T07:33:53+07:00"
+image_query = "seoul korea cityscape"
 [[internal_links]]
 ref = "travel-planner/"
 title = "AI Travel Planner"
@@ -55,24 +74,6 @@ answer = "eSIM từ AIS, Ubigi hoặc ChangiFi giá 100.000–200.000 VNĐ cho 7
 [attribution]
 copyright = "© 2026 Review Chân Thật. Nội dung được bảo vệ bản quyền."
 source_note = "Bài viết dựa trên kinh nghiệm thực tế du lịch Hàn Quốc và tham khảo thông tin từ Korea Tourism Organization."
-image = "images/posts/mau-lich-trinh-han-quoc-7-ngay-ai.webp"
-thumbnail = "images/posts/mau-lich-trinh-han-quoc-7-ngay-ai.webp"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/waterfront-city-lights-lotte-tower-in-seoul-korea-11687640/"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "Ethan Brooke"
-image_creator_url = "https://www.pexels.com/@ethan-brooke-1123775"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_alt = "Ảnh minh họa Mẫu lịch trình du lịch Hàn Quốc 7 ngày tự động bằng AI — nguồn Pexels"
-image_attribution_checked_at = "2026-07-19T07:33:53+07:00"
-image_query = "seoul korea cityscape"
 +++
 
 ![Khu phố Myeongdong về đêm với biển hiệu neon — ảnh minh họa từ Pexels](/images/posts/mau-lich-trinh-han-quoc-7-ngay-ai-inline.webp)

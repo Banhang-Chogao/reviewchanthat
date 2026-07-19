@@ -12,6 +12,25 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
 
+image = "images/posts/travel-budget-cach-lap-ngan-sach-du-lich-thong-minh.webp"
+thumbnail = "images/posts/travel-budget-cach-lap-ngan-sach-du-lich-thong-minh.webp"
+
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/drone-shot-of-the-city-of-seoul-11266071/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "정규송 Nui MALAMA"
+image_creator_url = "https://www.pexels.com/@nui-malama-169330637"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-18T08:08:36+07:00"
+image_query = "seoul korea cityscape"
+image_alt = "Ảnh minh họa Travel Budget: cách lập ngân sách du lịch thông minh trước khi xin visa — nguồn Pexels"
 [[internal_links]]
 ref = "posts/cach-viet-visa-itinerary-chuyen-nghiep.md"
 title = "Cách viết Visa Itinerary chuyên nghiệp"
@@ -63,24 +82,6 @@ answer = "Phí visa (thường 30–80 USD tùy nước), bảo hiểm du lịch
 [attribution]
 copyright = "© 2026 Review Chân Thật. Nội dung được bảo vệ bản quyền."
 source_note = "Bài viết dựa trên kinh nghiệm thực tế lập ngân sách du lịch và tham khảo dữ liệu từ Numbeo, Rome2Rio và website chính thức của các hãng bay, khách sạn. Số liệu chi phí mang tính tham khảo tại thời điểm viết, giá thực tế có thể thay đổi theo mùa và thời điểm đặt."
-image = "images/posts/travel-budget-cach-lap-ngan-sach-du-lich-thong-minh.webp"
-thumbnail = "images/posts/travel-budget-cach-lap-ngan-sach-du-lich-thong-minh.webp"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/drone-shot-of-the-city-of-seoul-11266071/"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "정규송 Nui MALAMA"
-image_creator_url = "https://www.pexels.com/@nui-malama-169330637"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-18T08:08:36+07:00"
-image_query = "seoul korea cityscape"
-image_alt = "Ảnh minh họa Travel Budget: cách lập ngân sách du lịch thông minh trước khi xin visa — nguồn Pexels"
 +++
 
 Lập ngân sách du lịch — travel budget — nghe có vẻ khô khan, nhưng đây là bước quyết định xem chuyến đi của bạn có thoải mái hay suốt ngày lo chuyện tiền nong. Nhiều người Việt Nam khi đi nước ngoài chỉ ước lượng đại khái "chắc tầm 20 triệu" rồi đến nơi mới tá hỏa vì vé tham quan đắt hơn tưởng, tiền ăn đội lên gấp rưỡi, hay quên mất khoản phí di chuyển nội địa. 
