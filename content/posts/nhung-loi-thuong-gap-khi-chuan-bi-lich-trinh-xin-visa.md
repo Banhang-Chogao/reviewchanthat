@@ -12,6 +12,25 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
 
+image = "images/posts/nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa.webp"
+thumbnail = "images/posts/nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa.webp"
+
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/woman-using-an-automated-teller-machine-5699341/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "RDNE Stock project"
+image_creator_url = "https://www.pexels.com/@rdne"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-19T07:33:57+07:00"
+image_query = "atm banking transaction"
+image_alt = "Ảnh minh họa Những lỗi thường gặp khi chuẩn bị lịch trình xin visa và cách tránh — nguồn Pexels"
 [[internal_links]]
 ref = "travel-planner/"
 title = "AI Travel Planner"
@@ -51,24 +70,6 @@ answer = "Kiểm tra: thời gian di chuyển giữa các điểm có hợp lý 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Nội dung được bảo vệ bản quyền."
 source_note = "Bài viết tổng hợp từ kinh nghiệm thực tế và tham khảo các nguồn chính thống từ EU, Đại sứ quán các nước và cộng đồng người Việt xin visa."
-image = "images/posts/nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa.webp"
-thumbnail = "images/posts/nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa.webp"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/woman-using-an-automated-teller-machine-5699341/"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "RDNE Stock project"
-image_creator_url = "https://www.pexels.com/@rdne"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-19T07:33:57+07:00"
-image_query = "atm banking transaction"
-image_alt = "Ảnh minh họa Những lỗi thường gặp khi chuẩn bị lịch trình xin visa và cách tránh — nguồn Pexels"
 +++
 
 Chuẩn bị hồ sơ xin visa du lịch là một quá trình tỉ mỉ, và lịch trình — itinerary — là một trong những giấy tờ dễ mắc lỗi nhất. Một itinerary không khả thi, mâu thuẫn với booking, hoặc thiếu tính nhất quán có thể khiến lãnh sự quán từ chối hồ sơ của bạn. Hiểu được những lỗi phổ biến giúp bạn tránh chúng ngay từ đầu.

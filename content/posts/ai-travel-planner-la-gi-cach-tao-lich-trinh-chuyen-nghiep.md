@@ -12,6 +12,25 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
 
+image = "images/posts/ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep.webp"
+thumbnail = "images/posts/ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep.webp"
+
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/maebong-mountain-park-in-seoul-15375761/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "O-seop Sim"
+image_creator_url = "https://www.pexels.com/@o-seop-sim-440723986"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-19T07:33:58+07:00"
+image_query = "seoul korea cityscape"
+image_alt = "Ảnh minh họa AI Travel Planner là gì? Cách tạo lịch trình du lịch chuyên nghiệp trong vài phút — nguồn Pexels"
 [[internal_links]]
 ref = "travel-planner/"
 title = "AI Travel Planner"
@@ -67,24 +86,6 @@ answer = "Itinerary được tạo trong phiên làm việc hiện tại. Bạn 
 [attribution]
 copyright = "© 2026 Review Chân Thật. Nội dung được bảo vệ bản quyền."
 source_note = "Bài viết giới thiệu tính năng AI Travel Planner trên blog Review Chân Thật. Công cụ do đội ngũ blog phát triển với mục đích hỗ trợ du khách Việt Nam lập kế hoạch du lịch dễ dàng hơn."
-image = "images/posts/ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep.webp"
-thumbnail = "images/posts/ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep.webp"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/maebong-mountain-park-in-seoul-15375761/"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "O-seop Sim"
-image_creator_url = "https://www.pexels.com/@o-seop-sim-440723986"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-19T07:33:58+07:00"
-image_query = "seoul korea cityscape"
-image_alt = "Ảnh minh họa AI Travel Planner là gì? Cách tạo lịch trình du lịch chuyên nghiệp trong vài phút — nguồn Pexels"
 +++
 
 Lên kế hoạch cho một chuyến du lịch quốc tế chưa bao giờ dễ dàng như bây giờ. Với sự phát triển của trí tuệ nhân tạo, bạn không cần ngồi hàng giờ để sắp xếp lịch trình, tính toán chi phí hay lo lắng về việc quên một điểm đến quan trọng. AI Travel Planner — công cụ tạo lịch trình du lịch bằng AI — giúp bạn làm tất cả điều đó chỉ trong vài phút.

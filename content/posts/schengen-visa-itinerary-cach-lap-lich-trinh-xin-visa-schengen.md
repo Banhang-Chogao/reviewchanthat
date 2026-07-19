@@ -12,6 +12,25 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
 
+image = "images/posts/schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen.webp"
+thumbnail = "images/posts/schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen.webp"
+
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/man-using-atm-machine-11284045/"
+image_provider = "pexels"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "Centre for Ageing Better"
+image_creator_url = "https://www.pexels.com/@centre-for-ageing-better-55954677"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_status = "verified"
+image_attribution_checked_at = "2026-07-18T08:11:11+07:00"
+image_query = "atm banking transaction"
+image_alt = "Ảnh minh họa Schengen Visa Itinerary: cách lập lịch trình xin visa Schengen đúng chuẩn — nguồn Pexels"
 [[internal_links]]
 ref = "posts/cach-viet-visa-itinerary-chuyen-nghiep.md"
 title = "Cách viết Visa Itinerary chuyên nghiệp"
@@ -63,24 +82,6 @@ answer = "Thay đổi nhỏ (đổi khách sạn, thay đổi ngày trong phạm
 [attribution]
 copyright = "© 2026 Review Chân Thật. Nội dung được bảo vệ bản quyền."
 source_note = "Bài viết dựa trên quy định chính thức của EU về visa Schengen và kinh nghiệm thực tế xin visa Schengen. Luôn kiểm tra yêu cầu mới nhất trên website của Đại sứ quán nước bạn định nộp hồ sơ trước khi làm thủ tục."
-image = "images/posts/schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen.webp"
-thumbnail = "images/posts/schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen.webp"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/man-using-atm-machine-11284045/"
-image_provider = "pexels"
-image_license = "Pexels License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "Centre for Ageing Better"
-image_creator_url = "https://www.pexels.com/@centre-for-ageing-better-55954677"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_status = "verified"
-image_attribution_checked_at = "2026-07-18T08:11:11+07:00"
-image_query = "atm banking transaction"
-image_alt = "Ảnh minh họa Schengen Visa Itinerary: cách lập lịch trình xin visa Schengen đúng chuẩn — nguồn Pexels"
 +++
 
 Xin visa Schengen từ Việt Nam là một quá trình đòi hỏi sự chuẩn bị kỹ lưỡng, và lịch trình — Schengen itinerary — là một trong những giấy tờ quan trọng nhất trong bộ hồ sơ. Một bản itinerary được trình bày tốt không chỉ giúp viên chức lãnh sự dễ dàng thẩm định chuyến đi của bạn, mà còn thể hiện bạn là người có kế hoạch rõ ràng, nghiêm túc và đáng tin cậy.
