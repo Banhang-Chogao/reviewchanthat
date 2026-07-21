@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-20T05:44:53.876963+00:00",
+  "built_at": "2026-07-21T05:25:33.887639+00:00",
   "sources": {
     "deployment_doctor": "/home/runner/work/reviewchanthat/reviewchanthat/data/deployment-doctor.json",
     "knowledge": "/home/runner/work/reviewchanthat/reviewchanthat/data/deployment-doctor-knowledge.json",
@@ -1611,7 +1611,7 @@
     }
   },
   "model": {
-    "trained_at": "2026-07-20T05:44:52.212693+00:00",
+    "trained_at": "2026-07-21T05:25:32.122900+00:00",
     "n_samples": 405,
     "hamming_loss": 0.002315,
     "labels": [
