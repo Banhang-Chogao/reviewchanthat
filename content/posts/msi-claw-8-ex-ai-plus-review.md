@@ -1,13 +1,11 @@
 +++
 title = "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?"
-seo_title = "MSI Claw 8 EX AI+ Review 2026: Intel Arc G3 Extreme Gaming Benchmarks"
-commit = "e1b87c29"
+commit = "1aceb865"
 date = "2026-07-14T00:13:49+07:00"
 slug = "msi-claw-8-ex-ai-plus-review"
 draft = false
 categories = ["review"]
 tags = ["MSI Claw 8 EX AI+", "handheld gaming PC", "Intel Arc G3 Extreme", "gaming review", "PC gaming 2026"]
-description = "Hands-on MSI Claw 8 EX AI+ review with real gaming benchmarks, battery life tests, and a hard look at whether the Intel Arc G3 Extreme handheld is worth $1,799 in 2026."
 author = "Reviewchanthat"
 date_display = "14-07-2026 00:13:49 GMT +7"
 image = "images/posts/msi-claw-8-ex-ai-plus-review.webp"
@@ -25,6 +23,8 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+seo_title = "MSI Claw 8 EX AI+: review máy chơi game cầm tay"
+description = "Hands-on MSI Claw 8 EX AI+ review with real gaming benchmarks, battery life tests, and a hard look at whether the Intel Arc G3 Extreme handheld is worth $1,799."
 
 [[external_links]]
 url = "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-3.html"

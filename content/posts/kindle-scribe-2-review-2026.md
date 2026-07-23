@@ -8,7 +8,6 @@ tags = ["Kindle", "Amazon", "e-reader", "note-taking", "digital notebook", "revi
 image = "images/posts/kindle-scribe-2-review-2026.webp"
 thumbnail = "images/posts/kindle-scribe-2-review-2026.webp"
 image_alt = "Ảnh minh họa Kindle Scribe 2 Review: Six Months as a Digital Notebook — Can It Replace Paper? — nguồn Pexels"
-seo_title = "Kindle Scribe 2 Review 2026: Honest Assessment After Six Months"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/close-up-of-handwriting-on-paper-with-pen-35575217/"
 image_provider = "pexels"
@@ -25,6 +24,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T20:43:42+07:00"
 image_query = "kindle scribe review six months"
 date_display = "15-07-2026 20:47:00 GMT +7"
+seo_title = "Kindle Scribe 2 Review: six months as a notebook"
 +++
 
 I have a confession. I have bought four e-readers in the past eight years, hoping each time that the next one would finally be the device that replaces both my bookshelf and my stack of notebooks. The basic Kindle did well for reading. The Kobo handled library books better. The reMarkable 2 came close for writing. But every single device forced me to compromise on one side of the equation.
@@ -42,6 +42,11 @@ Let me start with what works, because the list is genuinely long.
 The 10.2-inch E Ink display on the Scribe 2 uses Carta 1300 technology, and it shows. The contrast is noticeably better than the first-generation Scribe. Text looks like ink on paper, not like a screen trying to imitate ink. The 300 PPI resolution means even small font sizes remain crisp, and the front light with warm temperature adjustment makes reading in bed comfortable without disturbing my partner.
 
 But the real improvement is the refresh rate. The Scribe 2 supports 30 Hz refresh during note-taking, which means the pen feels significantly more responsive than the reMarkable 2. There is still a tiny lag if you scribble fast, but it no longer feels like writing through molasses. For someone who takes meeting notes at speed, this was the single biggest reason I stuck with the device past the return window.
+
+Để đối chiếu trước khi quyết định, [Mac hay Windows 2026 cho dân văn phòng VN: chi phí 3 năm và phần mềm](/posts/mac-hay-windows-2026-dan-van-phong/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
 
 ### Battery Life That Changes Your Relationship with Charging
 
@@ -78,6 +83,11 @@ There is no handwriting-to-text conversion that you can export as clean text. Yo
 There is no real notebook cover system. Your notebooks appear as a list of titles with tiny thumbnails. There is no way to color-code them, add tags, or create a visual dashboard. The organizational system works for someone with ten notebooks. It fails for someone with forty.
 
 There is no way to export notes in a useful format. The Scribe 2 can email notes as PDF, but the exported PDFs are not searchable. You cannot export as text, markdown, or anything actually useful. This feels like a deliberate limitation to avoid cannibalizing the reMarkable or Supernote markets, but it hurts users who want a genuinely productive device.
+
+Một lát cắt liên quan là [Best AI Productivity Tools in 2026 — An Honest Hands-On Review](/posts/ai-productivity-tools-2026-honest-review/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+
+
 
 ### The Premium Pen That Is Not Premium Enough
 

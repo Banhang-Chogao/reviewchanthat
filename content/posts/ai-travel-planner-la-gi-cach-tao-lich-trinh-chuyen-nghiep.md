@@ -1,20 +1,16 @@
 +++
 title = "AI Travel Planner là gì? Cách tạo lịch trình du lịch chuyên nghiệp trong vài phút"
-seo_title = "AI Travel Planner 2026: AI itinerary generator tạo lịch trình du lịch tự động"
-description = "AI Travel Planner là công cụ tạo lịch trình du lịch bằng AI (AI itinerary generator). Hướng dẫn cách dùng travel planner AI để tạo itinerary chuyên nghiệp, tối ưu chi phí và thời gian cho chuyến đi của bạn."
 slug = "ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep"
 date = "2026-07-18T10:00:00+07:00"
 date_display = "18-07-2026 10:00:00 GMT +7"
-commit = "708e7e41"
+commit = "a3de0e7e"
 categories = ["du-lich"]
 tags = ["AI travel planner", "AI itinerary generator", "travel planner AI", "công cụ tạo lịch trình", "itinerary tự động", "du lịch thông minh"]
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
-
 image = "images/posts/ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep.webp"
 thumbnail = "images/posts/ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep.webp"
-
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/maebong-mountain-park-in-seoul-15375761/"
 image_provider = "pexels"
@@ -31,6 +27,9 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-19T07:33:58+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa AI Travel Planner là gì? Cách tạo lịch trình du lịch chuyên nghiệp trong vài phút — nguồn Pexels"
+seo_title = "AI Travel Planner: tạo lịch trình du lịch bằng AI"
+description = "AI Travel Planner là công cụ tạo lịch trình du lịch bằng AI (AI itinerary generator)."
+
 [[internal_links]]
 ref = "travel-planner/"
 title = "AI Travel Planner"

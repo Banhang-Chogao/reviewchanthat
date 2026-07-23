@@ -7,8 +7,9 @@ image = "images/posts/the-odyssey-2026-review.webp"
 thumbnail = "images/posts/the-odyssey-2026-review.webp"
 categories = ["review"]
 tags = ["the-odyssey", "christopher-nolan", "phim-2026", "review-phim", "odyssey-2026", "imax", "nolan", "phim-su-thi", "phim-hy-lap", "homerd", "phim-sap-chieu", "lich-chieu-phim-viet-nam"]
-commit = "cedc2cb2"
+commit = "1aceb865"
 date_display = "15-07-2026 13:00:00 GMT +7"
+seo_title = "The Odyssey (2026): review phim Christopher Nolan"
 
 [[internal_links]]
 ref = "/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha"

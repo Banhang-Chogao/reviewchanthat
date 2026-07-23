@@ -1,7 +1,6 @@
 +++
 title = "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-seo_title = "Khách sạn view đẹp gần Hà Nội 2026: Review & Kinh nghiệm chọn"
-commit = "e1b87c29"
+commit = "1aceb865"
 date = "2026-07-12T15:15:00+07:00"
 draft = false
 description = "Khách sạn view đẹp gần Hà Nội 2026: review 6 resort nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng staycation."
@@ -28,6 +27,7 @@ image_alt = "Ảnh minh họa khách sạn view đẹp gần Hà Nội — khu n
 image_query = "khách sạn view đẹp Hà Nội Hồ Tây nghỉ dưỡng ven hồ"
 image_attribution_checked_at = "2026-07-12T15:22:45+07:00"
 date_display = "12-07-2026 15:15:00 GMT +7"
+seo_title = "Khách sạn view đẹp gần Hà Nội: review và kinh nghiệm"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-gan-tphcm-nghi-duong-2026.md"

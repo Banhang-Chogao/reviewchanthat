@@ -1,20 +1,16 @@
 +++
 title = "Mẫu lịch trình du lịch Hàn Quốc 7 ngày tự động bằng AI"
-seo_title = "Korea Itinerary 7 Ngày 2026: mẫu lịch trình Hàn Quốc chi tiết do AI tạo"
-description = "Mẫu lịch trình du lịch Hàn Quốc 7 ngày (Korea itinerary 7 days) từ Seoul đến Busan và Jeju. Hướng dẫn cách dùng AI Travel Planner để tạo lịch trình Hàn Quốc tự động, tối ưu chi phí và điểm tham quan."
 slug = "mau-lich-trinh-han-quoc-7-ngay-ai"
 date = "2026-07-18T07:00:00+07:00"
 date_display = "18-07-2026 07:00:00 GMT +7"
-commit = "708e7e41"
+commit = "a3de0e7e"
 categories = ["du-lich"]
 tags = ["Korea itinerary", "lịch trình Hàn Quốc", "Korea travel planner", "du lịch Hàn Quốc", "itinerary Hàn Quốc 7 ngày", "AI travel planner"]
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
-
 image = "images/posts/mau-lich-trinh-han-quoc-7-ngay-ai.webp"
 thumbnail = "images/posts/mau-lich-trinh-han-quoc-7-ngay-ai.webp"
-
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/waterfront-city-lights-lotte-tower-in-seoul-korea-11687640/"
 image_provider = "pexels"
@@ -31,6 +27,9 @@ image_status = "verified"
 image_alt = "Ảnh minh họa Mẫu lịch trình du lịch Hàn Quốc 7 ngày tự động bằng AI — nguồn Pexels"
 image_attribution_checked_at = "2026-07-19T07:33:53+07:00"
 image_query = "seoul korea cityscape"
+seo_title = "Lịch trình Hàn Quốc 7 ngày: mẫu chi tiết bằng AI"
+description = "Mẫu lịch trình du lịch Hàn Quốc 7 ngày (Korea itinerary 7 days) từ Seoul đến Busan và Jeju."
+
 [[internal_links]]
 ref = "travel-planner/"
 title = "AI Travel Planner"

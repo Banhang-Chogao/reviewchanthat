@@ -1,17 +1,17 @@
 +++
 title = "Review Anjung House: Không gian sống và làm việc của Eleena Jamil Architect — bản tuyên ngôn kiến trúc gắn với bản địa"
-seo_title = "Review Anjung House Eleena Jamil Architect: Kiến trúc bản địa Malaysia 2026"
-commit = "6df2bbcb"
+commit = "496104f9"
 date = "2026-07-17T10:00:00+07:00"
 slug = "anjung-house-eleena-jamil-review"
 draft = false
 categories = ["review"]
 tags = ["Anjung House", "Eleena Jamil Architect", "kiến trúc Malaysia", "kiến trúc bản địa", "bamboo architecture", "Selangor", "nhà ở", "studio architecture"]
-description = "Review Anjung House của Eleena Jamil Architect — không gian retreat house và studio tại Selangor, Malaysia. Vật liệu tre, gạch mộc, thép xanh và triết lý kiến trúc gắn với bản địa Đông Nam Á."
 author = "Review Chân Thật"
 date_display = "17-07-2026 10:00:00 GMT +7"
 image = "images/posts/anjung-house-eleena-jamil-review.webp"
 thumbnail = "images/posts/anjung-house-eleena-jamil-review.webp"
+seo_title = "Review Anjung House: kiến trúc bản địa Malaysia"
+description = "Review Anjung House của Eleena Jamil Architect — không gian retreat house và studio tại Selangor, Malaysia."
 
 [[external_links]]
 url = "https://www.archdaily.com/1042816/anjung-house-eleena-jamil-architect"
@@ -88,6 +88,11 @@ Anjung House chính là hiện thân đầy đủ nhất của triết lý đó 
 
 ---
 
+Để đối chiếu trước khi quyết định, [Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA](/posts/mo-hinh-phang-tiet-lo-tu-ikea-va-volvo/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
 ## "Anjung" nghĩa là gì?
 
 Trong tiếng Malay, "anjung" có nghĩa là hiên hoặc mái che — một không gian chuyển tiếp giữa trong nhà và ngoài trời, nơi người ta ngồi chơi, uống trà, trò chuyện với hàng xóm. Đó là một từ rất đỗi bình dân, không hề mang hơi hướm kiến trúc cao cấp. Nhưng chính sự bình dân đó lại nói lên tất cả về tinh thần của dự án.
@@ -107,6 +112,9 @@ Trong một vùng khí hậu nóng ẩm như Selangor (nhiệt độ trung bình
 Bên cạnh vai trò thông gió, sân trong còn là nơi thu gom nước mưa. Malaysia có lượng mưa trung bình 2.500–3.000 mm mỗi năm, và việc tận dụng nước mưa cho tưới tiêu và các nhu cầu sinh hoạt không phải là chuyện nhỏ. EJA đã thiết kế mái dốc về phía sân trong để thu nước, một giải pháp kỹ thuật đơn giản nhưng hiệu quả.
 
 ---
+
+Một lát cắt liên quan là [Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu](/posts/thiet-ke-nordic-toida-gian-noi-that/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
 
 ## Vật liệu: Tre, thép xanh và đất nén
 

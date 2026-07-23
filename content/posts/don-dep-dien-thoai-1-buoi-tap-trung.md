@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-15T21:00:00+07:00"
-commit = "02980ce8"
+commit = "e1578251"
 description = "Dọn dẹp điện thoại 1 buổi: screen time thật, folder app, tắt thông báo theo mức độ để lấy lại sự tập trung — hướng dẫn thực tế, không detox cực đoan."
 draft = false
 image = "images/posts/don-dep-dien-thoai-1-buoi-tap-trung.webp"
@@ -12,6 +12,7 @@ slug = "don-dep-dien-thoai-1-buoi-tap-trung"
 tags = ["digital detox", "điện thoại", "tập trung", "đời sống"]
 title = "Dọn dẹp điện thoại 1 buổi: app, ảnh, thông báo — lấy lại sự tập trung"
 date_display = "15-07-2026 21:00:00 GMT +7"
+seo_title = "Dọn dẹp điện thoại: lấy lại sự tập trung trong 1 buổi"
 
 [ai_summary]
 collapsed = false
@@ -95,6 +96,11 @@ Chọn một buổi cuối tuần hoặc tối ít việc. Sạc máy trên 50%.
 ## Phần 1: Screen time thật — nhìn thẳng con số (15–20 phút)
 
 Mở **Screen Time** (iPhone) hoặc **Digital Wellbeing / Digital balance** (Android). Đừng nhìn tổng “5 giờ 32 phút” rồi tự dằn vặt. Hãy đọc theo ba lớp:
+
+Một lát cắt liên quan là [Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối](/posts/digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+
+
 
 ### 1. Tổng thời gian theo ngày và theo tuần
 
@@ -184,6 +190,11 @@ Buổi tập trung **không** phải buổi backup ảnh 4 năm. Chỉ làm mứ
 - Nếu iCloud/Google Photos đã bật: bật tối ưu dung lượng máy
 
 Còn library 20.000 ảnh? Hẹn một buổi khác. Đừng để dọn ảnh nuốt hết 2 giờ và bạn bỏ dở phần thông báo — phần quan trọng hơn với sự tập trung.
+
+Để đối chiếu trước khi quyết định, [Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối](/posts/don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
 
 ## Phần 3: Thông báo theo mức độ — đây là phần “ăn tiền” (25–35 phút)
 

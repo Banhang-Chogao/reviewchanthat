@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-15T22:15:00+07:00"
-commit = "02980ce8"
+commit = "e1578251"
 description = "Routine buổi sáng 45 phút cho người đi làm: ngủ đủ trước hack, checklist tối giản, bỏ qua cũng được — chống toxic productivity, thực tế cho ngày thường."
 draft = false
 image = "images/posts/routine-buoi-sang-45-phut-nguoi-di-lam.webp"
@@ -12,6 +12,7 @@ slug = "routine-buoi-sang-45-phut-nguoi-di-lam"
 tags = ["routine buổi sáng", "đi làm", "thói quen", "đời sống"]
 title = "Routine buổi sáng 45 phút cho người đi làm: thực tế, không toxic productivity"
 date_display = "15-07-2026 22:15:00 GMT +7"
+seo_title = "Routine buổi sáng 45 phút thực tế cho người đi làm"
 
 [ai_summary]
 collapsed = false
@@ -97,6 +98,11 @@ Nếu bạn ngủ 5 tiếng, mọi routine 45 phút chỉ là lớp sơn. Não t
 ### Con số thực dụng, không thần thánh
 
 Nhiều người lớn cần khoảng 7–8 tiếng, cá biệt 6,5 hoặc 9. Bạn tự biết cơ thể sau vài tuần quan sát: dậy có dư sức hay nặng đầu? Thay vì ép 5h sáng, hãy **lùi giờ ngủ** 30–45 phút trước. Một giờ ngủ thêm thường mang lại nhiều hơn một giờ “hack sáng” thiếu ngủ.
+
+Một lát cắt liên quan là [Meal prep 5 ngày cho người bận: thực đơn VN, chi phí và hộp đựng](/posts/meal-prep-5-ngay-nguoi-ban-viet-nam/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+
+
 
 ### Vệ sinh giấc ngủ tối giản (buổi tối mới nuôi được buổi sáng)
 
@@ -267,6 +273,11 @@ Tầng 3 chỉ khi đã êm.
 **Thứ 5:** Có thể mệt — giữ tầng 1+ ăn sáng, bỏ journal.  
 **Thứ 6:** Nhẹ hơn, chuẩn bị tinh thần cuối tuần, không nhồi productivity.  
 **Cuối tuần:** Ngủ đủ bù (trong mức không lệch giờ quá tàn), làm việc nhà, gặp người — không bắt buộc 45 phút “chuẩn brand”.
+
+Để đối chiếu trước khi quyết định, [Dọn dẹp điện thoại 1 buổi: app, ảnh, thông báo — lấy lại sự tập trung](/posts/don-dep-dien-thoai-1-buoi-tap-trung/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
 
 ## Quan hệ giữa routine sáng và hiệu suất làm việc
 

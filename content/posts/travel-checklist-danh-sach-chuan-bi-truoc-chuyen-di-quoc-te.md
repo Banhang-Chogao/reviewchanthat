@@ -1,11 +1,10 @@
 +++
 title = "Travel Checklist: danh sách cần chuẩn bị trước chuyến đi quốc tế"
-seo_title = "Travel Checklist 2026: checklist du lịch nước ngoài đầy đủ, dễ dùng"
 description = "Travel checklist và checklist du lịch nước ngoài theo từng mốc thời gian: giấy tờ, visa, sức khỏe, tiền, hành lý và an toàn trước ngày bay."
 slug = "travel-checklist-danh-sach-chuan-bi-truoc-chuyen-di-quoc-te"
 date = "2026-07-18T02:40:00+07:00"
 date_display = "18-07-2026 02:40:00 GMT +7"
-commit = "0f8401f"
+commit = "fd989b6d"
 categories = ["du-lich"]
 tags = ["travel checklist", "checklist du lịch nước ngoài", "chuẩn bị du lịch quốc tế", "hành lý du lịch", "AI travel planner"]
 author = "Minh Hoàng"
@@ -29,6 +28,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-18T03:01:33+07:00"
 image_query = "travel checklist danh sách cần"
 image_alt = "Ảnh minh họa Travel Checklist: danh sách cần chuẩn bị trước chuyến đi quốc tế — nguồn Pexels"
+seo_title = "Travel checklist: chuẩn bị gì trước chuyến đi"
 
 [[internal_links]]
 ref = "posts/mau-lich-trinh-xin-visa-huong-dan-day-du.md"

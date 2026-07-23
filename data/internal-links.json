@@ -1,7 +1,3685 @@
 {
-  "links": {},
-  "inbound_counts": {},
-  "indexable_slugs": [],
+  "generated_at": "2026-07-24T05:01:39.376491+07:00",
+  "generator": "semantic-remediation-v1",
+  "policy": {
+    "max_links_per_source": 8,
+    "body_links_are_contextual": true,
+    "no_footer_markdown_blocks": true,
+    "no_self_links": true
+  },
+  "hubs": {
+    "du-lich": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+    "cong-nghe": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+    "tai-chinh": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026",
+    "doi-song": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+    "review": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that"
+  },
+  "links": {
+    "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul": [
+      {
+        "target": "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
+        "title": "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?",
+        "score": 170.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
+        "title": "Địa điểm quay phim Hàn Quốc ở Seoul: đi theo dấu K-drama mà không bị quá touristic",
+        "score": 142.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
+        "title": "Thuê Hanbok ở Seoul: đi cung điện, làng Hanok và chụp ảnh sao cho đáng tiền",
+        "score": 142.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
+        "title": "Trải nghiệm K-beauty ở Seoul: makeup, personal color và lịch trình cho người mê làm đẹp",
+        "score": 142.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
+        "title": "Biển đẹp ở Jeju: Hamdeok, Hyeopjae và cách chọn khu nghỉ ven biển",
+        "score": 128.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
+        "title": "Jjimjilbang Hàn Quốc: sauna kiểu Hàn ở Seoul và AQUAFIELD GOYANG có gì hay?",
+        "score": 128.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+        "title": "10 điểm tránh nóng dưới nước ở Hàn Quốc mùa hè: biển, đảo, công viên nước và day trip dễ đi",
+        "score": 112.67,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep",
+        "title": "AI Travel Planner là gì? Cách tạo lịch trình du lịch chuyên nghiệp trong vài phút",
+        "score": 68.72,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju": [
+      {
+        "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "score": 178.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      },
+      {
+        "target": "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
+        "title": "Ngắm bình minh ở Jeju: Seongsan, Seopjikoji và lịch trình sáng sớm ở Seogwipo",
+        "score": 129.77,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
+        "title": "Jeju mùa hoa cải vàng đi tháng mấy đẹp nhất? Lịch nở hoa, điểm ngắm và lịch trình gợi ý",
+        "score": 73.77,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic": [
+      {
+        "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "score": 150.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      },
+      {
+        "target": "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
+        "title": "Xem musical và show ở Seoul: trải nghiệm buổi tối đáng thử khi du lịch Hàn Quốc",
+        "score": 129.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien": [
+      {
+        "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "score": 150.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep": [
+      {
+        "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "score": 150.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien": [
+      {
+        "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "score": 136.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay": [
+      {
+        "target": "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+        "title": "Top 20 hoạt động khi du lịch Hàn Quốc 2026: chơi gì ở Seoul, Busan, Jeju và gần Seoul?",
+        "score": 136.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi": [
+      {
+        "target": "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
+        "title": "WWDC26: phân tích những tính năng iOS 27 và macOS 27 Apple mang lên sân khấu",
+        "score": 114.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "ios-27-co-gi-moi",
+        "title": "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone",
+        "score": 100.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "macos-27-co-gi-moi",
+        "title": "macOS 27 có gì mới? Những thay đổi đáng chờ nhất cho MacBook và iMac",
+        "score": 100.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "ios-27-apple-intelligence-iphone-cu",
+        "title": "iOS 27 và Apple Intelligence: iPhone cũ có bị bỏ lại phía sau không?",
+        "score": 86.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "macos-27-apple-intelligence-macbook",
+        "title": "macOS 27 và Apple Intelligence: MacBook nào tận dụng được AI tốt nhất?",
+        "score": 86.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026",
+        "title": "AI PC Là Gì? Xu Hướng Lựa Chọn Laptop Tích Hợp AI Cho Dân Làm Việc Từ Xa 2026",
+        "score": 73.65,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ios-27-cai-thien-pin-iphone",
+        "title": "iOS 27 có cải thiện pin không? Những điều người dùng iPhone mong chờ",
+        "score": 72.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
+        "title": "Apple Pay Việt Nam: ngân hàng nào hỗ trợ, cách thêm thẻ và những lỗi thường gặp",
+        "score": 65.65,
+        "reason": "thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau": [
+      {
+        "target": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
+        "score": 122.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "ios-27-co-gi-moi": [
+      {
+        "target": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
+        "score": 108.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      },
+      {
+        "target": "ios-27-co-nen-cap-nhat-ngay-khong",
+        "title": "iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update",
+        "score": 103.66,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ios-27-quyen-rieng-tu-iphone",
+        "title": "iOS 27 và quyền riêng tư: người dùng iPhone cần chú ý điều gì?",
+        "score": 103.66,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ios-27-so-voi-ios-26",
+        "title": "iOS 27 so với iOS 26: khác gì và ai nên nâng cấp?",
+        "score": 103.66,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ios-27-beta-co-nen-cai-khong",
+        "title": "iOS 27 beta có nên cài không? rủi ro, cách backup và quay về bản ổn định",
+        "score": 89.66,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ios-27-camera-anh-video-iphone",
+        "title": "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?",
+        "score": 89.66,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ios-27-ho-tro-iphone-nao",
+        "title": "iOS 27 hỗ trợ iPhone nào? Danh sách tương thích và ranh giới Apple Intelligence",
+        "score": 89.66,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "chuyen-tu-android-sang-iphone-2026",
+        "title": "Chuyển từ Android sang iPhone 2026: app, dữ liệu, thói quen 2 tuần đầu",
+        "score": 61.66,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "macos-27-co-gi-moi": [
+      {
+        "target": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
+        "score": 108.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      },
+      {
+        "target": "macos-27-co-nen-nang-cap-ngay-khong",
+        "title": "macOS 27 có nên nâng cấp ngay không? Checklist trước khi bấm Update",
+        "score": 104.13,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "macos-27-beta-co-nen-cai-khong",
+        "title": "macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định",
+        "score": 90.13,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "macos-27-cho-van-phong-creator-lap-trinh-vien",
+        "title": "macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?",
+        "score": 90.13,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "macos-27-hieu-nang-pin-macbook",
+        "title": "macOS 27 có cải thiện hiệu năng và pin MacBook không?",
+        "score": 90.13,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "mac-hay-windows-2026-dan-van-phong",
+        "title": "Mac hay Windows 2026 cho dân văn phòng VN: chi phí 3 năm và phần mềm",
+        "score": 62.13,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "ios-27-apple-intelligence-iphone-cu": [
+      {
+        "target": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
+        "score": 94.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "macos-27-apple-intelligence-macbook": [
+      {
+        "target": "macos-27-ho-tro-may-mac-nao",
+        "title": "macOS 27 hỗ trợ máy Mac nào? Danh sách tương thích và câu hỏi Mac Intel",
+        "score": 102.4,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
+        "score": 94.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "ios-27-cai-thien-pin-iphone": [
+      {
+        "target": "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+        "title": "WWDC26 đã qua: Nhận định sau sự kiện về Siri AI, iOS 27 và những gì Apple chưa nói",
+        "score": 80.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026": [
+      {
+        "target": "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+        "title": "AI stocks là gì? Cổ phiếu AI, chip và tác động thị trường toàn cầu lên Việt Nam",
+        "score": 74.49,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "anjung-house-eleena-jamil-review",
+        "title": "Review Anjung House: Không gian sống và làm việc của Eleena Jamil Architect — bản tuyên ngôn kiến trúc gắn với bản địa",
+        "score": 66.49,
+        "reason": "thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "chi-phi-that-nuoi-iphone-3-nam",
+        "title": "Chi phí thật khi nuôi iPhone 3 năm: pin, case, bảo hành, bán lại",
+        "score": 58.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+        "title": "Chứng khoán Việt Nam 2026: người mới nên theo dõi VN-Index, cổ phiếu ngân hàng và rủi ro nào?",
+        "score": 58.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
+        "title": "Tài sản số là gì? Việt Nam thí điểm sàn crypto hợp pháp và người dùng cần hiểu gì",
+        "score": 58.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "the-tin-dung-lan-dau-2026-chon-sao-khong-phi-an",
+        "title": "Thẻ tín dụng lần đầu 2026: chọn sao cho không dính phí ẩn",
+        "score": 58.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
+        "title": "Thuế crypto ở Việt Nam: bán Bitcoin, USDT, tài sản số có phải nộp thuế không?",
+        "score": 58.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "huong-dan-xin-visa-e-residency-estonia",
+        "title": "Cẩm Nang Từ A-Z Thủ Tục Xin Visa e-Residency Estonia Cho Khởi Nghiệp Toàn Cầu",
+        "score": 54.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục"
+      }
+    ],
+    "chi-phi-that-nuoi-iphone-3-nam": [
+      {
+        "target": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026",
+        "title": "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro": [
+      {
+        "target": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026",
+        "title": "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap": [
+      {
+        "target": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026",
+        "title": "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "the-tin-dung-lan-dau-2026-chon-sao-khong-phi-an": [
+      {
+        "target": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026",
+        "title": "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue": [
+      {
+        "target": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026",
+        "title": "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "huong-dan-xin-visa-e-residency-estonia": [
+      {
+        "target": "quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026",
+        "title": "Quy Trình Đăng Ký Kiểm Tra Chuyên Ngành Và Thủ Tục Hải Quan Số Mới Nhất 2026",
+        "score": 69.6,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026",
+        "title": "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, quay về pillar"
+      },
+      {
+        "target": "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
+        "title": "Fed, lãi suất, giá vàng, bond yield: Mỹ ảnh hưởng ví tiền người Việt như thế nào?",
+        "score": 61.6,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot",
+        "title": "Món Việt hot ở Mỹ 2026: cà phê muối, bánh ram ít và bánh khọt làm giới trẻ FOMO",
+        "score": 61.6,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026",
+        "title": "Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?",
+        "score": 61.6,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
+        "title": "Personal Finance 2026: tiết kiệm tự động, high-yield savings, CD và emergency fund là gì?",
+        "score": 61.6,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      }
+    ],
+    "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay": [
+      {
+        "target": "20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay",
+        "title": "20 công cụ AI giúp tiết kiệm ít nhất 2 giờ mỗi ngày",
+        "score": 86.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te",
+        "title": "AI có làm con người lười suy nghĩ hơn không? Góc nhìn từ khoa học và thực tế",
+        "score": 86.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6",
+        "title": "AI giúp học ngoại ngữ hiệu quả hơn ra sao? Kinh nghiệm học tiếng Hàn lên TOPIK 6",
+        "score": 86.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi",
+        "title": "AI giúp lập kế hoạch du lịch như thế nào? Từ lịch trình đến quản lý chi phí",
+        "score": 86.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu",
+        "title": "AI giúp quản lý tài chính cá nhân như thế nào? Từ ngân sách đến đầu tư",
+        "score": 86.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio",
+        "title": "Một ngày sống cùng AI: thử nghiệm dùng AI hỗ trợ mọi việc trong 24 giờ",
+        "score": 86.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung"
+      },
+      {
+        "target": "ai-productivity-tools-2026-honest-review",
+        "title": "Best AI Productivity Tools in 2026 — An Honest Hands-On Review",
+        "score": 67.82,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "am-thuc-cho-truyen-thong-han-quoc",
+        "title": "Ẩm thực chợ truyền thống Hàn Quốc: bản đồ các khu chợ và món nhất định phải thử 2026",
+        "score": 66.58,
+        "reason": "thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay": [
+      {
+        "target": "vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh",
+        "title": "Vì sao ngày càng nhiều người thành công dùng AI để ra quyết định?",
+        "score": 103.98,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+        "title": "Xây dựng hệ điều hành cá nhân bằng Notion, Google Calendar và AI",
+        "score": 103.98,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+        "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+        "score": 94.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te": [
+      {
+        "target": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+        "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+        "score": 94.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6": [
+      {
+        "target": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+        "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+        "score": 94.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi": [
+      {
+        "target": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+        "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+        "score": 94.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu": [
+      {
+        "target": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+        "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+        "score": 94.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio": [
+      {
+        "target": "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+        "title": "Sống thông minh trong thời đại AI: cách AI đang thay đổi cuộc sống hằng ngày",
+        "score": 94.0,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that": [
+      {
+        "target": "bao-hiem-du-lich-quoc-te-khi-nao-can",
+        "title": "Bảo hiểm du lịch quốc tế: khi nào cần, đọc điều khoản gì trước khi mua",
+        "score": 62.6,
+        "reason": "thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "bien-ba-dong-tra-vinh",
+        "title": "Biển Ba Động Trà Vinh: bãi biển giồng cát bình dị của miền Tây và kinh nghiệm đường đi 2026",
+        "score": 62.6,
+        "reason": "thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "co-nen-mua-dien-thoai-moi-viet-nam-2026",
+        "title": "Có nên mua điện thoại mới ở Việt Nam năm 2026 khi giá tăng?",
+        "score": 58.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "review-airpods-pro-3-2026",
+        "title": "Review AirPods Pro 3 2026: Có Đáng Mua Sau 2 Tháng Dùng Thực Tế?",
+        "score": 58.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung"
+      },
+      {
+        "target": "balo-cabin-40l-di-han-quoc",
+        "title": "Balo cabin 40L đi Hàn: mang gì vừa, cổng sạc, chống nước ra sao",
+        "score": 44.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung"
+      },
+      {
+        "target": "bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh",
+        "title": "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026",
+        "score": 44.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung"
+      },
+      {
+        "target": "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
+        "title": "Cách đọc một bài review để không bị dắt mũi",
+        "score": 44.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung"
+      },
+      {
+        "target": "can-bang-cong-viec-doi-song-scandinavia-ki-nghi",
+        "title": "Cân Bằng Công Việc Và Đời Sống Ở Scandinavia: Tại Sao Người Scandinavia Làm Việc Ít Nhưng Thành Công Hơn?",
+        "score": 44.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung"
+      }
+    ],
+    "co-nen-mua-dien-thoai-moi-viet-nam-2026": [
+      {
+        "target": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
+        "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "review-airpods-pro-3-2026": [
+      {
+        "target": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
+        "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, quay về pillar"
+      },
+      {
+        "target": "best-wireless-earbuds-2026-top-picks-review",
+        "title": "Best Wireless Earbuds 2026: Top Picks for Every Budget — Real-World Tested",
+        "score": 62.69,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "balo-cabin-40l-di-han-quoc": [
+      {
+        "target": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
+        "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh": [
+      {
+        "target": "bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026",
+        "title": "Cách bảo vệ dữ liệu cá nhân trên Internet - Hướng dẫn toàn diện cho người Việt 2026",
+        "score": 85.77,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "cong-nghe-ai-camera-uav-nong-nghiep-2026",
+        "title": "Xu Hướng Công Nghệ Hè 2026: Từ Ứng Dụng Giả Lập Đến Bùng Nổ Camera AI & UAV",
+        "score": 53.77,
+        "reason": "thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
+        "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, quay về pillar"
+      },
+      {
+        "target": "moana-live-action-2026-review",
+        "title": "Moana live-action (2026) — Review không spoil: đẹp, an toàn và có đáng xem?",
+        "score": 51.77,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "vi-sao-review-dai-chua-chac-da-dang-tin",
+        "title": "Vì sao review dài chưa chắc đã đáng tin?",
+        "score": 51.77,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "cach-doc-mot-bai-review-de-khong-bi-dat-mui": [
+      {
+        "target": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
+        "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "can-bang-cong-viec-doi-song-scandinavia-ki-nghi": [
+      {
+        "target": "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
+        "title": "Review công nghệ: nên tin benchmark hay trải nghiệm thật?",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, quay về pillar"
+      }
+    ],
+    "lich-su-agoda-tu-startup-den-booking-holdings": [
+      {
+        "target": "agoda-la-gi-co-uy-tin-an-toan-khong",
+        "title": "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)",
+        "score": 146.03,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "agoda-thuoc-so-huu-cua-ai-booking-holdings",
+        "title": "Agoda thuộc sở hữu của ai? Booking Holdings và hệ sinh thái",
+        "score": 146.03,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh",
+        "title": "Đặt phòng Agoda có an toàn không? rủi ro và cách tránh",
+        "score": 118.03,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh",
+        "title": "Agoda 2026: AI, ứng dụng và xu hướng đặt phòng thông minh",
+        "score": 104.03,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai",
+        "title": "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi",
+        "score": 104.03,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "agoda-thuoc-so-huu-cua-ai-booking-holdings": [
+      {
+        "target": "agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong",
+        "title": "Agoda kiếm tiền như thế nào? Mô hình OTA và hoa hồng",
+        "score": 145.52,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "lich-su-agoda-tu-startup-den-booking-holdings",
+        "title": "Lịch sử Agoda: từ startup đến thành viên Booking Holdings",
+        "score": 145.52,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "agoda-vs-booking-com-khac-gi-nen-chon-cai-nao",
+        "title": "Agoda vs Booking.com: khác nhau gì, nên chọn cái nào?",
+        "score": 117.52,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "trending-topic-20260715": [
+      {
+        "target": "ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro",
+        "title": "AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins?",
+        "score": 82.72,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc": [
+      {
+        "target": "ai-trong-tai-chinh-dung-toan-hoc-gi",
+        "title": "AI trong tài chính: Deep learning, NLP, và reinforcement learning",
+        "score": 87.41,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet": [
+      {
+        "target": "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang",
+        "title": "Alpensia Ski Resort: trải nghiệm trượt tuyết mùa đông ở Pyeongchang",
+        "score": 171.84,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc": [
+      {
+        "target": "am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking",
+        "title": "Ẩm thực Nauy – từ cá hồi đến truyền thống Viking",
+        "score": 92.22,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "kinh-te-Nauy-dau-mo-quy-dau-tu-va-mo-hinh-phuc-loi",
+        "title": "Nền kinh tế Nauy – Dầu mỏ, quỹ đầu tư và mô hình phúc lợi toàn dân",
+        "score": 92.22,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te",
+        "title": "Trải nghiệm Cực quang tại Tromsø: Hướng dẫn chi tiết, kinh nghiệm thực tế, và những sai lầm phổ biến",
+        "score": 78.22,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v",
+        "title": "Hoàng tộc Na Uy hiện đại – Chân dung thân quyền dưới thời Vua Harald V",
+        "score": 70.22,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "doi-song-phuc-loi-na-uy-work-life-balance",
+        "title": "Đời sống tại Na Uy: Cân bằng công việc-cuộc sống và phúc lợi xã hội dẫn đầu thế giới",
+        "score": 64.22,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te",
+        "title": "Du lịch Na Uy tự túc: Hướng dẫn hoàn chỉnh từ chi phí đến lộ trình Fjord",
+        "score": 64.22,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "sinh-nam-2027-menh-gi-huong-tot-dinh-mui": [
+      {
+        "target": "an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la",
+        "title": "Trải nghiệm ăn Tết vùng cao Tây Bắc: Hương vị rượu cần, bánh chưng đen và những nét văn hóa độc lạ của đồng bào",
+        "score": 93.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027",
+        "title": "Ôn cố tri tân: Nhìn lại các năm Đinh Mùi trong lịch sử hai thế kỷ qua trước thềm Tết 2027",
+        "score": 93.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "cam-nang-don-nha-don-tet-2027-danshari-toi-gian",
+        "title": "Cẩm nang dọn nhà đón Tết 2027 khoa học và tối giản: Bí quyết dọn dẹp theo phong cách Danshari giải phóng không gian và tâm trí",
+        "score": 93.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua",
+        "title": "Đón Tết miền Tây sông nước: Nét bình dị từ chợ hoa nổi trên sông đến nồi thịt kho rục đón giao thừa",
+        "score": 93.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi",
+        "title": "Lịch nghỉ Tết Nguyên Đán 2027 chính thức (dự kiến): Khi nào bắt đầu và lộ trình tối ưu ngày nghỉ",
+        "score": 93.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem",
+        "title": "Review thực tế xu hướng ăn Tết xa nhà (Du lịch Tết 2027): Có nên đi du lịch dịp Tết Nguyên Đán và cách tối ưu chi phí, tránh chặt chém",
+        "score": 93.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho",
+        "title": "Review chi tiết các dịch vụ đặt vé máy bay, tàu hỏa Tết 2027: Mẹo săn vé sớm không bị \"hớ\"",
+        "score": 93.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man",
+        "title": "So sánh phong tục ngày Tết ở ba miền Bắc - Trung - Nam: Sự khác biệt trong mâm cỗ, lễ nghi và quan niệm may mắn",
+        "score": 93.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom": [
+      {
+        "target": "anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc",
+        "title": "Ảnh Hưởng Của Atomico Tới Hệ Sinh Thái Khởi Nghiệp Châu Âu: Thay Đổi Y Thức Và Tạo Cơ Hội",
+        "score": 111.72,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay",
+        "title": "Lịch Sử Thành Lập Và Phát Triển Atomico: Từ Một Ý Tưởng Năm 2010 Đến Quỹ Đầu Tư Tỷ USD",
+        "score": 97.72,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026",
+        "title": "Niklas Zennström: Tiểu Sử Nhà Sáng Lập Skype Và Nhà Đầu Tư Khó Lường Từ Thụy Điển",
+        "score": 97.72,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy",
+        "title": "Chiến Lược Đầu Tư Của Atomico: Tầm Nhìn Và giá trị Cốt Lõi Của Quỹ",
+        "score": 83.72,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk",
+        "title": "Danh Sách Đầu Tư Của Atomico: Klarna, Spotify, Revolut, Zendesk Và Những công ty Thay Đổi Thế Giới",
+        "score": 69.72,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "apple-thua-kien-eu-app-store-ios-dma": [
+      {
+        "target": "app-store-gatekeeper-apple-so-mat-dieu-gi",
+        "title": "App Store gatekeeper: Apple sợ mất điều gì?",
+        "score": 174.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "digital-markets-act-la-gi-eu-siet-apple-google-meta",
+        "title": "Digital Markets Act là gì? EU siết Apple, Google, Meta như thế nào",
+        "score": 174.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
+        "title": "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?",
+        "score": 174.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "apple-vs-ec-dma-tuong-lai-iphone",
+        "title": "Apple vs EC, DMA và tương lai iPhone: kết luận series",
+        "score": 118.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "european-commission-duoc-gi-khi-thang-apple",
+        "title": "European Commission được gì khi thắng Apple? Tiền phạt, tiền lệ và quyền lực mới",
+        "score": 118.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
+        "title": "iOS mở hơn ở EU: người dùng châu Âu mất gì khi App Store không còn là cửa duy nhất?",
+        "score": 118.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "digital-markets-act-la-gi-eu-siet-apple-google-meta": [
+      {
+        "target": "apple-thua-kien-eu-app-store-ios-dma",
+        "title": "Apple thua kiện EU: Tòa xác nhận gatekeeper App Store và iOS theo DMA",
+        "score": 173.4,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc": [
+      {
+        "target": "atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom",
+        "title": "Atomico Là Gì? công ty Đầu Tư Mạo Hiểm Của Niklas Zennström Định Hình Hệ Sinh Thái Khởi Nghiệp Châu Âu",
+        "score": 111.13,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "copenhagen-oslo-stockholm-so-sanh-thua-dien": [
+      {
+        "target": "bac-cuc-quang-aurora-scandinavia-dem",
+        "title": "Bắc Cực Quang – Hiện Tượng Thiên Nhiên Thần Kỳ Ở Scandinavia Trong Những Đêm Tối",
+        "score": 74.04,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi": [
+      {
+        "target": "cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon",
+        "title": "Cuộc sống số năm 2026: 30 thói quen giúp bạn sống gọn gàng, an toàn và hiệu quả hơn",
+        "score": 106.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai",
+        "title": "Backup ảnh đúng cách: đừng để mất toàn bộ kỷ niệm chỉ vì hỏng điện thoại",
+        "score": 92.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi",
+        "title": "Checklist cuộc sống số: 50 việc nên làm mỗi tháng để bảo vệ dữ liệu và thiết bị",
+        "score": 92.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi",
+        "title": "Dọn Gmail đúng cách: giảm hàng nghìn email rác chỉ trong một buổi tối",
+        "score": 92.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho",
+        "title": "Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?",
+        "score": 92.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos",
+        "title": "Dọn Mac đúng cách: tối ưu dung lượng và hiệu năng mà không cần cài lại macOS",
+        "score": 92.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026",
+        "title": "Password Manager là gì? Có nên dùng trình quản lý mật khẩu năm 2026?",
+        "score": 92.81,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "don-dep-dien-thoai-1-buoi-tap-trung",
+        "title": "Dọn dẹp điện thoại 1 buổi: app, ảnh, thông báo — lấy lại sự tập trung",
+        "score": 64.81,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "doi-baht-o-viet-nam-hay-thai-lan": [
+      {
+        "target": "du-lich-thai-lan-mua-mua-co-nen-di-khong",
+        "title": "Du lịch Thái Lan mùa mưa có nên đi không? Bangkok, Phuket, Chiang Mai, Koh Samui nên chọn đâu",
+        "score": 90.52,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "bangkok-3-ngay-3-dem-mua-mua",
+        "title": "Đi Bangkok 3 ngày 3 đêm mùa mưa: lịch trình tiết kiệm cho người đi lần đầu",
+        "score": 76.52,
+        "reason": "cùng danh mục, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "o-khu-nao-bangkok-mua-mua",
+        "title": "Ở khu nào tại Bangkok mùa mưa? Siam, Ratchathewi, Pratunam, Sukhumvit hay Silom",
+        "score": 76.52,
+        "reason": "cùng danh mục, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab",
+        "title": "Từ sân bay Suvarnabhumi về trung tâm Bangkok: ARL, BTS, taxi, Grab nên chọn gì?",
+        "score": 76.52,
+        "reason": "cùng danh mục, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ubon-ratchathani-candle-festival-thai-lan-thang-7",
+        "title": "Ubon Ratchathani Candle Festival là gì? Có đáng thêm vào lịch trình Thái Lan tháng 7 không?",
+        "score": 76.52,
+        "reason": "cùng danh mục, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
+        "title": "Đi Thái Lan tự túc 3 ngày 3 đêm: vé máy bay + khách sạn 4,62 triệu có ổn không, đổi baht ở đâu và đi từ Suvarnabhumi về Ratchathewi thế nào?",
+        "score": 54.52,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "du-lich-thai-lan-mua-mua-co-nen-di-khong": [
+      {
+        "target": "bangkok-ngay-mua-nen-di-dau",
+        "title": "Bangkok ngày mưa nên đi đâu? 20 điểm indoor, mall, chợ, massage và food tour",
+        "score": 90.43,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "chiang-mai-mua-mua-co-gi-dep",
+        "title": "Chiang Mai mùa mưa có gì đẹp? Cafe, chùa, núi xanh và lịch trình nhẹ nhàng",
+        "score": 90.43,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "doi-baht-o-viet-nam-hay-thai-lan",
+        "title": "Đổi baht ở Việt Nam hay Thái Lan lợi hơn? Kinh nghiệm an toàn cho người đi tự túc",
+        "score": 90.43,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "koh-samui-mua-he-so-voi-phuket",
+        "title": "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?",
+        "score": 90.43,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "phuket-mua-mua-co-nen-di-khong",
+        "title": "Phuket mùa mưa có nên đi không? Biển động, tour đảo và cách xếp lịch an toàn",
+        "score": 90.43,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok": [
+      {
+        "target": "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
+        "title": "Biến bài blog thành video TikTok: chiến lược cắt nội dung để xây dựng thương hiệu cá nhân bền vững",
+        "score": 144.74,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao": [
+      {
+        "target": "black-scholes-la-gi-so-e-dinh-gia-quyen-chon",
+        "title": "Black-Scholes là gì? Công thức định giá quyền chọn sử dụng số e",
+        "score": 87.2,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "quy-dau-tu-dung-toan-hoc-nhu-the-nao": [
+      {
+        "target": "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc",
+        "title": "BlackRock dùng toán học và dữ liệu như thế nào? Quản lý danh mục khổng lồ",
+        "score": 88.64,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "cfa-dung-toan-hoc-gi",
+        "title": "CFA dùng toán học gì? Những công thức quản lý tài sản",
+        "score": 88.64,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan": [
+      {
+        "target": "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
+        "title": "Blog cá nhân hay TikTok: nên xây thương hiệu cá nhân ở đâu trước?",
+        "score": 118.23,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc": [
+      {
+        "target": "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
+        "title": "Blog cá nhân nên viết gì để xây dựng thương hiệu cá nhân bền vững?",
+        "score": 118.09,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "luoc-su-vim-editor": [
+      {
+        "target": "bram-moolenaar-tieu-su-cha-de-vim",
+        "title": "Bram Moolenaar — tiểu sử cha đẻ Vim: sự nghiệp, di sản và những gì ông để lại",
+        "score": 92.05,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "lam-sao-thoat-vim",
+        "title": "Làm sao thoát Vim? Giải mã meme huyền thoại và hướng dẫn thoát Vim đúng cách",
+        "score": 78.05,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan": [
+      {
+        "target": "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
+        "title": "Busan mùa hè nên đi đâu? Haeundae, Gwangalli, Songdo hay Dadaepo?",
+        "score": 143.75,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "lich-trinh-di-han-thang-10-7-ngay-6-dem": [
+      {
+        "target": "lich-trinh-di-han-thang-10-5-ngay-4-dem",
+        "title": "Lịch trình đi Hàn tháng 10 5 ngày 4 đêm: Seoul, Nami và điểm ngắm lá đỏ",
+        "score": 131.78,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "busan-thang-10-nen-di-dau",
+        "title": "Busan tháng 10 nên đi đâu? Biển, phố đêm và lịch trình nhẹ nhàng",
+        "score": 117.78,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "seoraksan-thang-10-ngam-la-do",
+        "title": "Seoraksan tháng 10: có phải điểm ngắm lá đỏ đẹp nhất Hàn Quốc?",
+        "score": 117.78,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "chi-phi-di-han-thang-10-tu-tuc",
+        "title": "Chi phí đi Hàn tháng 10 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
+        "score": 103.78,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "jeju-thang-10-co-dep-khong",
+        "title": "Jeju tháng 10 có đẹp không? Thời tiết, biển, núi và lịch trình 3 ngày",
+        "score": 103.78,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "jeju-thang-11-co-dep-khong": [
+      {
+        "target": "busan-thang-11-nen-di-dau",
+        "title": "Busan tháng 11 nên đi đâu? Biển mát, phố đêm và lịch trình nhẹ",
+        "score": 103.58,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "chi-phi-di-han-thang-11-tu-tuc",
+        "title": "Chi phí đi Hàn tháng 11 tự túc: vé máy bay, khách sạn, ăn uống và di chuyển",
+        "score": 103.58,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "lich-trinh-di-han-thang-11-5-ngay-4-dem",
+        "title": "Lịch trình đi Hàn tháng 11 5 ngày 4 đêm: Seoul peak lá đỏ và Nami",
+        "score": 103.58,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix": [
+      {
+        "target": "cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip",
+        "title": "Những thương vụ M&A định hình Trip.com: Qunar, Skyscanner, MakeMyTrip",
+        "score": 145.89,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "quyen-chu-quyen-na-uy-government-pension-fund-global": [
+      {
+        "target": "cach-mang-xe-dien-na-uy-ev-hub-the-gioi",
+        "title": "Cách mạng xe điện (EV): Tại sao Na Uy - quốc gia xuất khẩu dầu mỏ - lại dẫn đầu thế giới?",
+        "score": 75.21,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "mau-lich-trinh-xin-visa-huong-dan-day-du": [
+      {
+        "target": "cach-viet-visa-itinerary-chuyen-nghiep",
+        "title": "Cách viết Visa Itinerary chuyên nghiệp: hướng dẫn từng bước để tăng chất lượng hồ sơ xin visa",
+        "score": 92.31,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "travel-checklist-danh-sach-chuan-bi-truoc-chuyen-di-quoc-te",
+        "title": "Travel Checklist: danh sách cần chuẩn bị trước chuyến đi quốc tế",
+        "score": 64.31,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "jet-lag-han-viet-ngu-du-48-gio-dau",
+        "title": "Ngủ đủ khi lệch múi giờ: jet lag Hàn–VN và mẹo 48 giờ đầu",
+        "score": 56.31,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "vietnam-travel-guide-2026",
+        "title": "Vietnam Travel Guide 2026: Budget, Itineraries & Tips for First-Timers",
+        "score": 50.31,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "routine-buoi-sang-45-phut-nguoi-di-lam": [
+      {
+        "target": "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
+        "title": "Cách xây dựng thói quen mua sắm thông minh",
+        "score": 63.27,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "iphone-16-pro-max-desert-titanium-tren-tay": [
+      {
+        "target": "iphone-16-pro-max-desert-titanium-hop-ai",
+        "title": "iPhone 16 Pro Max Desert Titanium hợp ai?",
+        "score": 117.71,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "camera-control-iphone-16-pro-max-co-tien-khong",
+        "title": "Camera Control iPhone 16 Pro Max có tiện không?",
+        "score": 103.71,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "camera-iphone-16-pro-max-so-voi-15-pro-max",
+        "title": "Camera iPhone 16 Pro Max so với 15 Pro Max",
+        "score": 89.71,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-16-pro-max-nam-2026-nen-mua-khong",
+        "title": "iPhone 16 Pro Max năm 2026 nên mua không?",
+        "score": 89.71,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao",
+        "title": "iPhone 16 Pro Max Natural/White/Black Titanium: chọn màu nào?",
+        "score": 89.71,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "pin-iphone-16-pro-max-co-dang-chon",
+        "title": "Pin iPhone 16 Pro Max có đáng chọn?",
+        "score": 89.71,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "iphone-15-pro-max-mau-titan-con-dang-mua-khong": [
+      {
+        "target": "iphone-15-pro-max-blue-titanium-co-dang-san",
+        "title": "iPhone 15 Pro Max Blue Titanium có đáng săn?",
+        "score": 117.83,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-15-pro-max-natural-titanium-danh-gia-mau",
+        "title": "iPhone 15 Pro Max Natural Titanium: đánh giá màu",
+        "score": 117.83,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "camera-iphone-15-pro-max-nam-2026-con-du-tot-khong",
+        "title": "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?",
+        "score": 89.83,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao",
+        "title": "iPhone 15 Pro Max Black/White Titanium: nên chọn màu nào?",
+        "score": 89.83,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi",
+        "title": "iPhone 15 Pro Max hay iPhone 16 Pro Max: nên lên đời?",
+        "score": 89.83,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
+        "title": "Pin iPhone 15 Pro Max: mua máy cũ cần kiểm tra gì?",
+        "score": 89.83,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong",
+        "title": "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?",
+        "score": 89.83,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "iphone-18-dynamic-island-nho-hon-under-display-face-id": [
+      {
+        "target": "iphone-18-gia-bao-nhieu",
+        "title": "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn",
+        "score": 103.16,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-18-mau-gi-dark-cherry",
+        "title": "iPhone 18 màu gì? Dark Cherry và các màu được đồn đoán có đáng mong chờ?",
+        "score": 103.16,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-18-pro-max-co-gi-moi",
+        "title": "iPhone 18 Pro Max có gì mới? Những nâng cấp đáng chờ nhất",
+        "score": 103.16,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-18-chip-a20-2nm",
+        "title": "iPhone 18 chip A20 có gì đáng chú ý? Vì sao tiến trình 2nm được quan tâm",
+        "score": 89.16,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "camera-iphone-18-co-gi-moi",
+        "title": "Camera iPhone 18 có gì mới? Selfie 24MP, variable aperture và kỳ vọng chụp ảnh",
+        "score": 75.16,
+        "reason": "cùng danh mục, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul": [
+      {
+        "target": "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
+        "title": "Caribbean Bay Hàn Quốc: đi từ Seoul thế nào, có đáng mua vé không?",
+        "score": 129.6,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao": [
+      {
+        "target": "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao",
+        "title": "Caribbean Bay Yongin: công viên nước lớn gần Seoul, nên đi ngày nào?",
+        "score": 129.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
+        "title": "Day trip Suwon gần Seoul: Hwaseong, Haenggung và Korean Folk Village trong một ngày",
+        "score": 129.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
+        "title": "Wolmido Incheon: biển, boardwalk và điểm chơi gần Seoul cho gia đình",
+        "score": 129.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
+        "title": "Nami Island mùa hè: day trip gần Seoul để tránh nóng dưới bóng cây và gió sông",
+        "score": 115.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026": [
+      {
+        "target": "cau-tren-bien-ngam-dien-gio-ca-mau",
+        "title": "Cầu trên biển ngắm cánh đồng điện gió Cà Mau: trải nghiệm du lịch xanh độc lạ 2026",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "co-nen-di-tour-hang-dong-quang-binh-mua-mua",
+        "title": "Có Nên Đi Tour Khám Phá Hang Động Quảng Bình Vào Mùa Mưa Bão Tháng 7?",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia",
+        "title": "Độc Hành Tà Năng Phan Dũng: Tiếng Gọi Của Rừng Già Và Những Giới Hạn Bị Phá Bỏ",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Đà Nẵng hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+        "title": "Du lịch Phú Quốc hè 2026: đi đâu, ở khu nào và lịch trình 4 ngày 3 đêm dễ áp dụng",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026",
+        "title": "Đánh Giá Top 3 Kính Thực Tế Ảo (VR) Giá Rẻ Đáng Mua Nhất Hè 2026",
+        "score": 54.0,
+        "reason": "thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "hoc-sinh-finland-truong-hoc-hoc-tap",
+        "title": "Hệ Thống Giáo Dục Phần Lan: Lý Do Tại Sao Phần Lan Có Những Sinh Viên Thông Minh Nhất Thế Giới",
+        "score": 54.0,
+        "reason": "thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "dau-tu-thong-minh-thoi-lai-suat-thap-2026",
+        "title": "Đầu tư thông minh thời lãi suất thấp 2026 — Chiến lược tài chính cá nhân cho người Việt",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026": [
+      {
+        "target": "checklist-truoc-khi-mua-mot-san-pham-online",
+        "title": "Checklist trước khi mua một sản phẩm online",
+        "score": 62.47,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong": [
+      {
+        "target": "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
+        "title": "Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa",
+        "score": 115.75,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "krabi-mua-mua-ao-nang-railay-tour-dao": [
+      {
+        "target": "checklist-vali-di-thai-mua-mua",
+        "title": "Checklist vali đi Thái mùa mưa: mặc gì, mang gì để không khổ vì nóng ẩm",
+        "score": 89.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong": [
+      {
+        "target": "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
+        "title": "Cheongsapo Busan: biển trong, làng ven biển và lịch trình kết hợp Blue Line Park",
+        "score": 143.63,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
+        "title": "Club D Oasis Busan: infinity pool, spa và lựa chọn tránh nóng kiểu nghỉ dưỡng",
+        "score": 143.63,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
+        "title": "Gwangalli Beach Busan: bãi biển ngắm cầu Gwangan đẹp nhất, hợp đi chiều tối",
+        "score": 143.63,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "the-odyssey-2026-review": [
+      {
+        "target": "christopher-nolan-tieu-su-va-su-nghiep",
+        "title": "Christopher Nolan: Từ những thước phim indie đến giấc mơ sử thi Odyssey",
+        "score": 98.23,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "spider-man-brand-new-day-2026-review",
+        "title": "Spider-Man: Brand New Day (2026) — Review: Người Nhện tái xuất, mở kỷ nguyên mới cho MCU",
+        "score": 64.23,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "macos-27-co-nen-nang-cap-ngay-khong": [
+      {
+        "target": "chuan-bi-macbook-truoc-khi-len-macos-27",
+        "title": "Chuẩn bị MacBook trước khi lên macOS 27: dọn ổ, backup và kiểm tra app",
+        "score": 101.99,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "macos-27-so-voi-macos-26",
+        "title": "macOS 27 so với macOS 26: khác gì với người dùng Mac?",
+        "score": 101.99,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "iphone-18-vs-iphone-17": [
+      {
+        "target": "co-nen-cho-iphone-18-khong",
+        "title": "Có nên chờ iPhone 18 không nếu đang dùng iPhone 15, 16 hoặc 17?",
+        "score": 116.79,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "ios-mo-hon-nguoi-dung-chau-au-mat-gi": [
+      {
+        "target": "nha-phat-trien-app-duoc-loi-gi-tu-dma",
+        "title": "Nhà phát triển app được lợi gì từ DMA? Phân phối, commission và cái giá Apple đặt ra",
+        "score": 117.44,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "co-nen-len-ios-26-5-2-khong",
+        "title": "Có nên lên iOS 26.5.2 không? Vì sao nên cập nhật sớm và cần lưu ý gì",
+        "score": 61.44,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "triet-ly-song-lagom-va-van-hoa-fika": [
+      {
+        "target": "loi-song-xanh-bac-au-thien-nhien-estonia",
+        "title": "Lối Sống Xanh Giữa Lòng Bắc Âu: Khi 70% Diện Tích Quốc Gia Là Rừng Già",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "cong-thuc-do-uong-giai-nhiet-home-cafe",
+        "title": "Xu Hướng Home-Cafe: 3 Công Thức Đồ Uống Giải Nhiệt Cực Hot Hè 2026",
+        "score": 60.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do",
+        "title": "Flappy Bird: Vì sao Nguyễn Hà Đông xóa sổ mỏ vàng 50.000 USD/ngày?",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "gian-lan-diem-thi-thong-ke",
+        "title": "Con Người Có Thể Nói Dối Nhưng Dữ Liệu Thì Không: Lời Cảnh Báo Từ Toán Học Thống Kê Trong Khảo Thí",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien",
+        "title": "Cách Phục Hồi Da Bị Cháy Nắng Cấp Tốc & Tóc Xơ Rối Sau Khi Đi Biển",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu",
+        "title": "Mouth Tape Có Tốt Không? Tác Hại Thở Miệng Khi Ngủ & Mẹo Làm Mát Phòng Hè",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly",
+        "title": "Xu Hướng Hè 2026: Cách Phối Đồ 'Màu Vàng Bơ' Tôn Da Và Phụ Kiện Jelly Cực Chất",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "ham-so-mu-e-trong-tai-chinh-la-gi": [
+      {
+        "target": "toan-hoc-dinh-cao-trong-tai-chinh",
+        "title": "Toán học đỉnh cao trong tài chính - PILLAR tổng kết 15 bài",
+        "score": 89.1,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
+        "title": "công ty bảo hiểm dùng toán học đỉnh cao như thế nào để tính phí và rủi ro?",
+        "score": 75.1,
+        "reason": "cùng danh mục, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "log-tu-nhien-log-return-trong-dau-tu",
+        "title": "Log tự nhiên trong đầu tư là gì? Vì sao giới tài chính dùng log-return?",
+        "score": 75.1,
+        "reason": "cùng danh mục, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "monte-carlo-trong-tai-chinh-la-gi",
+        "title": "Monte Carlo trong tài chính: Mô phỏng 10 triệu kịch bản",
+        "score": 75.1,
+        "reason": "cùng danh mục, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "renaissance-technologies-quantitative-finance-toan-hoc-dau-tu",
+        "title": "Renaissance Technologies: Lão phố Wall dùng toán học để kiếm tiền",
+        "score": 75.1,
+        "reason": "cùng danh mục, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "bac-cuc-quang-aurora-scandinavia-dem": [
+      {
+        "target": "copenhagen-oslo-stockholm-so-sanh-thua-dien",
+        "title": "So Sánh Ba Thủ Đô Scandinavia: Copenhagen, Oslo, Và Stockholm – Thành Phố Nào Để Ở?",
+        "score": 73.96,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "fjord-na-uy-thac-nuoc-dong-tien",
+        "title": "Vẻ Đẹp Của Các Fjord Na Uy: Thiên Đường Thiên Nhiên Hòa Lẫn Với Định Mệnh",
+        "score": 73.96,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "spider-man-brand-new-day-2026-review": [
+      {
+        "target": "coyote-vs-acme-2026-review",
+        "title": "Coyote vs. Acme (2026) — Review: Wile E. Coyote kiện tập đoàn Acme ra tòa",
+        "score": 65.19,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "review-paradise-2023-nguoi-giau-mua-thoi-gian-song",
+        "title": "Review Paradise (2023): Người giàu dùng tiền mua thời gian sống",
+        "score": 65.19,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "review-super-8-2011-biet-doi-thieu-nien-va-bi-an",
+        "title": "Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm",
+        "score": 65.19,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau": [
+      {
+        "target": "ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa",
+        "title": "Ctrip đổi tên thành Trip.com Group: chiến lược toàn cầu hóa",
+        "score": 131.88,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay": [
+      {
+        "target": "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
+        "title": "Đi chơi gần Seoul: Incheon Chinatown, Wolmido và Caribbean Bay nên chọn điểm nào?",
+        "score": 129.78,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua": [
+      {
+        "target": "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
+        "title": "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?",
+        "score": 115.45,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "seoul-thang-10-nen-di-dau": [
+      {
+        "target": "di-han-thang-10-co-dep-khong",
+        "title": "Đi Hàn tháng 10 có đẹp không? Thời tiết, lá đỏ, mặc gì và lịch trình nên chọn",
+        "score": 103.57,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "di-han-thang-10-mac-gi",
+        "title": "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm",
+        "score": 103.57,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "seoul-thang-11-nen-di-dau": [
+      {
+        "target": "di-han-thang-11-co-dep-khong",
+        "title": "Đi Hàn tháng 11 có đẹp không? Peak lá đỏ, thời tiết, mặc gì và lịch trình nên chọn",
+        "score": 103.45,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "thoi-tiet-han-quoc-thang-11": [
+      {
+        "target": "di-han-thang-11-mac-gi",
+        "title": "Đi Hàn tháng 11 mặc gì? Checklist phối đồ ấm mà vẫn đẹp",
+        "score": 103.65,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay": [
+      {
+        "target": "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
+        "title": "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng",
+        "score": 115.5,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "phuket-mua-mua-co-nen-di-khong": [
+      {
+        "target": "di-thai-lan-thang-7-co-nen-khong",
+        "title": "Đi Thái Lan tháng 7 có nên không? Thời tiết, chi phí và lịch trình hợp lý",
+        "score": 89.72,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026": [
+      {
+        "target": "diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026",
+        "title": "Điểm Mới Trong Quy Định Cấp Giấy Phép Lao Động Cho Người Nước Ngoài 2026",
+        "score": 70.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "huong-dan-danh-gia-luat-chuyen-doi-so-2025",
+        "title": "Điểm Mới Luật Chuyển Đổi Số 2025 Từ 1/7/2026: Doanh Nghiệp Cần Chuẩn Bị Gì?",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "huong-dan-mien-visa-uzbekistan-5-ngay",
+        "title": "Kinh Nghiệm Miễn Visa Uzbekistan 5 Ngày & Lịch Trình Liên Tuyến 3 Nước Trung Á",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "kinh-nghiem-solo-travel-du-lich-mot-minh",
+        "title": "Kinh Nghiệm Du Lịch Tự Túc Một Mình (Solo Travel) An Toàn Và Trọn Vẹn",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "ky-su-ha-giang-nhung-khuc-cua-va-ky-uc",
+        "title": "Ký Sự Hà Giang: Những Khúc Cua Vắt Qua Mây Và Đêm Trắng Nơi Địa Đầu",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "ky-su-tallinn-dem-trang-thi-tran-co",
+        "title": "Ký Sự Tallinn: Đêm Trắng Ở Thị Trấn Trung Cổ Cổ Kính Nhất Châu Âu",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026",
+        "title": "Hè 2026: Top Khóa Học Ngắn Hạn & Cách Viết CV Xin Việc Part-time Điểm 10",
+        "score": 54.0,
+        "reason": "thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "huong-dan-lam-affiliate-shopee-instagram-meta-2026",
+        "title": "Cách Làm Affiliate Shopee Trên Instagram 2026: Kiếm Tiền Từ Tính Năng Meta Mới",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon": [
+      {
+        "target": "digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi",
+        "title": "Digital Detox là gì? Cách giảm phụ thuộc điện thoại mà không mất kết nối",
+        "score": 105.82,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi",
+        "title": "Digital Minimalism: sống tối giản trong thời đại AI và mạng xã hội",
+        "score": 105.82,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "di-han-thang-10-co-dep-khong": [
+      {
+        "target": "seoul-thang-10-nen-di-dau",
+        "title": "Seoul tháng 10 nên đi đâu? Lịch trình 3 ngày cho người đi lần đầu",
+        "score": 103.86,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "doi-tien-di-han-won-the-hay-tien-mat",
+        "title": "Đổi tiền đi Hàn: won ở đâu rẻ, thẻ hay tiền mặt, phí ẩn",
+        "score": 63.86,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      }
+    ],
+    "agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai": [
+      {
+        "target": "du-lich-da-lat-mua-hoa-dang-cho-2026",
+        "title": "Du lịch Đà Lạt mùa hoa 2026: đi khi nào, ở đâu và lịch trình ra sao?",
+        "score": 62.4,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026",
+        "title": "MoMo, ZaloPay hay ShopeePay? Ví điện tử nào phù hợp nhất năm 2026",
+        "score": 54.4,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh": [
+      {
+        "target": "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau",
+        "title": "Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu",
+        "score": 129.75,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
+        "title": "Hàn Quốc tháng 7 có đẹp không? Thời tiết, chi phí và lịch trình nên chọn",
+        "score": 115.75,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
+        "title": "Du lịch Hàn Quốc mùa hè nên đi đâu? 15 điểm tránh nóng, tránh mưa và lịch trình dễ đi",
+        "score": 101.75,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "trao-luu-green-camping-cam-trai-hoang-so": [
+      {
+        "target": "du-lich-may-do-trai-nghiem-ban-dia",
+        "title": "Xu Hướng Du Lịch 'May Đo' & Trải Nghiệm Bản Địa Hè 2026: Trốn Phố Giải Nhiệt",
+        "score": 65.24,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "kinh-nghiem-cam-trai-cho-nguoi-moi-2026",
+        "title": "Kinh nghiệm cắm trại cho người mới bắt đầu 2026: Đồ cần mang, địa điểm & lưu ý",
+        "score": 57.24,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju": [
+      {
+        "target": "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
+        "title": "Elysian Gangchon Ski: khu trượt tuyết gần Seoul cho người mới bắt đầu",
+        "score": 157.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
+        "title": "Top địa điểm trượt tuyết ở Hàn Quốc mùa đông: nên đi khu nào nếu lần đầu trượt tuyết?",
+        "score": 157.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+        "title": "High1 Ski Resort: khu trượt tuyết cho người muốn nghỉ dưỡng mùa đông ở Hàn Quốc",
+        "score": 143.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "doi-tien-di-han-won-the-hay-tien-mat": [
+      {
+        "target": "esim-sim-han-quoc-2026-so-sanh",
+        "title": "eSIM / SIM Hàn Quốc 2026: so sánh tốc độ, vùng phủ, cách kích hoạt",
+        "score": 54.52,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026": [
+      {
+        "target": "estonia-quoc-gia-so-hoa-khai-sinh-skype",
+        "title": "Estonia: Quốc Gia Số Hóa Nơi Khai Sinh Ra Skype Và Bolt Có Gì Đặc Biệt?",
+        "score": 79.33,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026",
+        "title": "Smart Ring Là Gì? Có Nên Mua Nhẫn Thông Minh Theo Dõi Giấc Ngủ Và Sức Khỏe 2026?",
+        "score": 59.33,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "ai-productivity-tools-2026-honest-review": [
+      {
+        "target": "even-realities-g2-smart-glasses-review",
+        "title": "Even Realities G2 Smart Glasses Review: Privacy-First AR Wearable That Respects Your Face",
+        "score": 62.97,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "risk-management-trong-tai-chinh-dung-toan-hoc": [
+      {
+        "target": "frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh",
+        "title": "FRM dùng toán học gì? VaR, Expected Shortfall, và quản trị rủi ro",
+        "score": 115.43,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon": [
+      {
+        "target": "goi-y-du-lich-han-quoc-thang-7-2026",
+        "title": "Gợi ý du lịch Hàn Quốc tháng 7 năm 2026: đi đâu, mặc gì và lịch trình nào hợp nhất?",
+        "score": 73.69,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "black-scholes-la-gi-so-e-dinh-gia-quyen-chon": [
+      {
+        "target": "goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao",
+        "title": "Goldman Sachs & JPMorgan dùng toán học như thế nào? High-frequency trading & derivatives",
+        "score": 87.44,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi": [
+      {
+        "target": "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
+        "title": "Haeundae Beach Busan: đi biển mùa hè thế nào để không quá đông?",
+        "score": 143.73,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
+        "title": "Udo Jeju: đảo nhỏ, biển đá đen, hải đăng trắng và cách tránh nóng nửa ngày",
+        "score": 129.73,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo": [
+      {
+        "target": "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
+        "title": "Haeundae vs Gwangalli: nên chọn bãi biển nào ở Busan?",
+        "score": 143.74,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
+        "title": "Hàn Quốc tháng 8 nên đi đâu? Biển, đảo và công viên nước đáng đi",
+        "score": 115.74,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "toan-hoc-dinh-cao-trong-tai-chinh": [
+      {
+        "target": "ham-so-mu-e-trong-tai-chinh-la-gi",
+        "title": "Hàm số mũ e trong tài chính là gì? Từ lãi kép đến định giá tài sản",
+        "score": 88.09,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "seoraksan-thang-10-ngam-la-do": [
+      {
+        "target": "han-quoc-thang-10-co-la-do-chua",
+        "title": "Hàn Quốc tháng 10 có lá đỏ chưa? Seoul, Nami, Seoraksan nên đi lúc nào?",
+        "score": 117.33,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "seoraksan-thang-11-ngam-la-do": [
+      {
+        "target": "han-quoc-thang-11-co-la-do-chua",
+        "title": "Hàn Quốc tháng 11 còn lá đỏ không? Seoul, Nami, Seoraksan nên đi lúc nào?",
+        "score": 117.39,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip": [
+      {
+        "target": "he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix",
+        "title": "Hệ sinh thái Trip.com Group: Ctrip, Qunar, Skyscanner, Travix",
+        "score": 146.27,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau",
+        "title": "Lịch sử Trip.com: từ Ctrip 1999 đến đế chế du lịch toàn cầu",
+        "score": 132.27,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "how-to-choose-reputable-hotels-ho-chi-minh-city": [
+      {
+        "target": "how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com",
+        "title": "How to Book Cheap Flights to Ho Chi Minh City on Trip.com (2026): The Voucher Trick That Also Cuts Your Hotel Bill",
+        "score": 118.34,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "michelin-restaurants-ho-chi-minh-city-must-try",
+        "title": "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)",
+        "score": 104.34,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ho-chi-minh-city-3-day-itinerary-first-timer-2026",
+        "title": "Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)",
+        "score": 90.34,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "tien-quyen-gop-wikipedia-dung-vao-dau": [
+      {
+        "target": "wikipedia-kiem-tien-duy-tri-hoat-dong-nhu-the-nao",
+        "title": "Wikipedia kiếm tiền để duy trì hoạt động như thế nào? Mô hình tài chính của bách khoa toàn thư mở",
+        "score": 92.29,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "hoat-dong-thuong-nien-wikipedia-kinh-phi-tu-dau",
+        "title": "Các hoạt động thường niên của Wikipedia và nguồn kinh phí: Wikimania, hạ tầng và tài trợ cộng đồng",
+        "score": 78.29,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "jimmy-wales-tieu-su-nha-sang-lap-wikipedia",
+        "title": "Jimmy Wales — tiểu sử nhà sáng lập Wikipedia: hành trình, triết lý và cuộc sống hiện tại",
+        "score": 64.29,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "sam-son-bien-thanh-hoa-gan-ha-noi": [
+      {
+        "target": "hoi-an-pho-co-di-san-the-gioi",
+        "title": "Hội An — Phố cổ di sản: Sống chậm giữa những con đường đèn lồng",
+        "score": 64.11,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "kham-pha-mien-tay-song-nuoc-2026",
+        "title": "Khám phá miền Tây sông nước mùa nước nổi 2026 — Chợ nổi, vườn trái cây và cuộc sống đầu nguồn",
+        "score": 64.11,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com": [
+      {
+        "target": "how-to-choose-reputable-hotels-ho-chi-minh-city",
+        "title": "How to Choose a Reputable Hotel in Ho Chi Minh City: A 2026 Guide for Foreign Visitors",
+        "score": 116.03,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re": [
+      {
+        "target": "huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026",
+        "title": "Hướng dẫn đặt khách sạn & vé máy bay giá tốt trên Trip.com 2026",
+        "score": 104.33,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "trip-com-vs-booking-agoda-expedia-nen-dat-o-dau",
+        "title": "Trip.com so với Booking, Agoda, Expedia: nên đặt ở đâu?",
+        "score": 104.33,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh": [
+      {
+        "target": "huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy",
+        "title": "Hướng dẫn đặt phòng Agoda từ A-Z: thanh toán, hoàn hủy, mẹo",
+        "score": 117.8,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026": [
+      {
+        "target": "huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026",
+        "title": "Hướng Dẫn Thủ Tục Xin Visa Thương Mại (DN1, DN2) Cho Chuyên Gia Nước Ngoài 2026",
+        "score": 70.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "mo-hinh-phang-tiet-lo-tu-ikea-va-volvo",
+        "title": "Mô Hình Phẳng Thụy Điển: Biến Ý Tưởng Tối Giản Thành Đế Chế Tỷ Đô Kiểu IKEA",
+        "score": 70.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy",
+        "title": "Phía Sau Tay Lái: Ký Sự Cung Đường Ven Biển Cam Ranh – Vĩnh Hy Ngày Nắng Cháy",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "trai-nghiem-icehotel-va-ngam-aurora-thuy-dien",
+        "title": "Trải Nghiệm Khách Sạn Băng Icehotel Và Đêm Săn Bắc Cực Quang Vùng Lapland",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "trao-luu-green-camping-cam-trai-hoang-so",
+        "title": "Trào Lưu Green Camping: Gợi Ý Các Địa Điểm Cắm Trại Hoang Sơ Chữa Lành",
+        "score": 62.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "review-app-hoc-tieng-anh-online-2026",
+        "title": "Review App Học Tiếng Anh Online 2026: Duolingo, ELSA, Cambly App Nào Tốt Nhất?",
+        "score": 54.0,
+        "reason": "thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "so-sanh-grabfood-shopeefood-baemin-trai-nghiem-giao-do-an-2026",
+        "title": "GrabFood vs ShopeeFood vs Baemin: So Sánh Trải Nghiệm Giao Đồ Ăn Tại Việt Nam 2026",
+        "score": 54.0,
+        "reason": "thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      }
+    ],
+    "iphone-15-pro-max-blue-titanium-co-dang-san": [
+      {
+        "target": "iphone-15-pro-max-mau-titan-con-dang-mua-khong",
+        "title": "iPhone 15 Pro Max màu titan có còn đáng mua không?",
+        "score": 116.38,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "iphone-16-pro-max-desert-titanium-hop-ai": [
+      {
+        "target": "iphone-16-pro-max-desert-titanium-tren-tay",
+        "title": "iPhone 16 Pro Max Desert Titanium trên tay",
+        "score": 116.26,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "iphone-fold-iphone-ultra-la-gi": [
+      {
+        "target": "iphone-18-co-gi-moi",
+        "title": "iPhone 18 có gì mới? Tất cả tin đồn đáng chú ý trước ngày ra mắt",
+        "score": 117.01,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-18-khi-nao-ra-mat",
+        "title": "iPhone 18 khi nào ra mắt? Vì sao Apple có thể đổi lịch ra mắt iPhone",
+        "score": 117.01,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "iphone-18-dynamic-island-nho-hon-under-display-face-id",
+        "title": "iPhone 18 có Dynamic Island nhỏ hơn không? Under-display Face ID là gì?",
+        "score": 103.01,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "co-nen-cho-iphone-18-khong": [
+      {
+        "target": "iphone-18-vs-iphone-17",
+        "title": "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?",
+        "score": 116.79,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "iphone-18-khi-nao-ra-mat": [
+      {
+        "target": "iphone-fold-iphone-ultra-la-gi",
+        "title": "iPhone Fold hay iPhone Ultra là gì? Có nên chờ iPhone gập đầu tiên của Apple?",
+        "score": 116.83,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong": [
+      {
+        "target": "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
+        "title": "Jeju mùa hè nên đi đâu? Biển, thác nước, oreum và lịch trình 3 ngày",
+        "score": 115.65,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "chi-phi-di-han-thang-11-tu-tuc": [
+      {
+        "target": "jeju-thang-11-co-dep-khong",
+        "title": "Jeju tháng 11 có đẹp không? Thời tiết, gió và lịch trình 3 ngày",
+        "score": 103.49,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay": [
+      {
+        "target": "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
+        "title": "Jungmun Beach Jeju: bãi biển cho người thích sóng, ảnh đẹp và hoạt động nước",
+        "score": 129.65,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "khach-san-view-dep-hai-phong-cat-ba-2026": [
+      {
+        "target": "khach-san-view-dep-da-nang-2026",
+        "title": "Top khách sạn view đẹp ở Đà Nẵng đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng",
+        "score": 93.34,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "khach-san-view-dep-nha-trang-2026",
+        "title": "Top khách sạn view đẹp ở Nha Trang đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng",
+        "score": 93.34,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "khach-san-view-dep-phu-quoc-2026",
+        "title": "Top khách sạn view đẹp ở Phú Quốc đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng",
+        "score": 93.34,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "khach-san-view-dep-phu-yen-2026",
+        "title": "Top khách sạn view đẹp ở Phú Yên đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng",
+        "score": 93.34,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "khach-san-view-dep-gan-tphcm-nghi-duong-2026": [
+      {
+        "target": "khach-san-view-dep-gan-ha-noi-2026",
+        "title": "Top khách sạn view đẹp gần Hà Nội đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng",
+        "score": 79.09,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "khach-san-view-dep-gan-ha-noi-2026": [
+      {
+        "target": "khach-san-view-dep-gan-tphcm-nghi-duong-2026",
+        "title": "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng",
+        "score": 78.88,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "khach-san-view-dep-phu-yen-2026": [
+      {
+        "target": "khach-san-view-dep-hai-phong-cat-ba-2026",
+        "title": "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng",
+        "score": 93.32,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "lang-lo-lang-chai-ngoi-do-ven-bien-tuy-hoa",
+        "title": "Làng Lò: làng chài ngói đỏ hơn 400 năm bên biển Tuy Hòa và kinh nghiệm ghé thăm 2026",
+        "score": 65.32,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "msi-claw-8-ex-ai-plus-review": [
+      {
+        "target": "kindle-scribe-2-review-2026",
+        "title": "Kindle Scribe 2 Review: Six Months as a Digital Notebook — Can It Replace Paper?",
+        "score": 50.14,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "samsung-galaxy-s26-ultra-six-month-review",
+        "title": "Samsung Galaxy S26 Ultra: Six Months Later — An Honest Long-Term Review",
+        "score": 50.14,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking": [
+      {
+        "target": "kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc",
+        "title": "Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực",
+        "score": 92.2,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "du-lich-da-lat-mua-hoa-dang-cho-2026": [
+      {
+        "target": "kinh-nghiem-du-lich-tet-2027",
+        "title": "Kinh nghiệm du lịch Tết Đinh Mùi 2027: Lịch trình, đặt phòng & di chuyển",
+        "score": 64.4,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "checklist-vali-di-thai-mua-mua": [
+      {
+        "target": "krabi-mua-mua-ao-nang-railay-tour-dao",
+        "title": "Krabi mùa mưa: Ao Nang, Railay, tour đảo có đáng đi tháng 7-8 không?",
+        "score": 90.24,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "stockholm-thua-dien-gamlastan-bien": [
+      {
+        "target": "ky-su-stockholm-thanh-pho-tren-nhung-hon-dao",
+        "title": "Ký Sự Stockholm: Hành Trình Khám Phá Thủ Đô Xanh Vắt Qua 14 Hòn Đảo",
+        "score": 73.76,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "lich-trinh-di-han-thang-10-5-ngay-4-dem": [
+      {
+        "target": "lich-trinh-di-han-thang-10-7-ngay-6-dem",
+        "title": "Lịch trình đi Hàn tháng 10 7 ngày 6 đêm: Seoul, Nami, Seoraksan và Busan",
+        "score": 131.01,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "bram-moolenaar-tieu-su-cha-de-vim": [
+      {
+        "target": "luoc-su-vim-editor",
+        "title": "Lược sử hình thành Vim: từ vi trên máy Amiga đến trình soạn thảo huyền thoại của lập trình viên",
+        "score": 90.97,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "agoda-vs-booking-com-khac-gi-nen-chon-cai-nao": [
+      {
+        "target": "ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat",
+        "title": "Mã giảm giá & AgodaCash 2026: cách đặt phòng Agoda rẻ nhất",
+        "score": 104.05,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "travel-checklist-danh-sach-chuan-bi-truoc-chuyen-di-quoc-te": [
+      {
+        "target": "mau-lich-trinh-chau-au-nhieu-nuoc-ai",
+        "title": "Mẫu lịch trình du lịch châu Âu nhiều nước bằng AI",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "mau-lich-trinh-nhat-ban-7-ngay-ai",
+        "title": "Mẫu lịch trình du lịch Nhật Bản 7 ngày tự động bằng AI",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa",
+        "title": "Những lỗi thường gặp khi chuẩn bị lịch trình xin visa và cách tránh",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen",
+        "title": "Schengen Visa Itinerary: cách lập lịch trình xin visa Schengen đúng chuẩn",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "travel-budget-cach-lap-ngan-sach-du-lich-thong-minh",
+        "title": "Travel Budget: cách lập ngân sách du lịch thông minh trước khi xin visa",
+        "score": 66.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di": [
+      {
+        "target": "mau-lich-trinh-han-quoc-7-ngay-ai",
+        "title": "Mẫu lịch trình du lịch Hàn Quốc 7 ngày tự động bằng AI",
+        "score": 73.66,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "cach-viet-visa-itinerary-chuyen-nghiep": [
+      {
+        "target": "mau-lich-trinh-xin-visa-huong-dan-day-du",
+        "title": "Mẫu lịch trình du lịch để xin visa: hướng dẫn đầy đủ + AI Travel Planner",
+        "score": 90.23,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "don-dep-dien-thoai-1-buoi-tap-trung": [
+      {
+        "target": "meal-prep-5-ngay-nguoi-ban-viet-nam",
+        "title": "Meal prep 5 ngày cho người bận: thực đơn VN, chi phí và hộp đựng",
+        "score": 64.04,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "routine-buoi-sang-45-phut-nguoi-di-lam",
+        "title": "Routine buổi sáng 45 phút cho người đi làm: thực tế, không toxic productivity",
+        "score": 64.04,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "cfa-dung-toan-hoc-gi": [
+      {
+        "target": "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien",
+        "title": "Mô hình định giá cổ phiếu: DCF, Comparable, PEG ratio",
+        "score": 87.77,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
+        "title": "Quỹ đầu tư dùng toán học như thế nào? Từ lợi suất, beta đến tối ưu danh mục",
+        "score": 87.77,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan": [
+      {
+        "target": "mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao",
+        "title": "Mô hình kiếm tiền của Trip.com: hoa hồng OTA, khách sạn, vé máy bay",
+        "score": 117.93,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "samsung-galaxy-s26-ultra-six-month-review": [
+      {
+        "target": "msi-claw-8-ex-ai-plus-review",
+        "title": "MSI Claw 8 EX AI+ Review: The First True Handheld Gaming PC?",
+        "score": 49.9,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "han-quoc-thang-10-co-la-do-chua": [
+      {
+        "target": "nami-thang-10-co-dang-di-khong",
+        "title": "Nami tháng 10 có đáng đi không? Lá vàng, lịch trình và cách đi từ Seoul",
+        "score": 103.57,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "thoi-tiet-han-quoc-thang-10",
+        "title": "Thời tiết Hàn Quốc tháng 10: lạnh chưa, có mưa không và nên chuẩn bị gì?",
+        "score": 103.57,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "han-quoc-thang-11-co-la-do-chua": [
+      {
+        "target": "seoraksan-thang-11-ngam-la-do",
+        "title": "Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?",
+        "score": 117.51,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "nami-thang-11-co-dang-di-khong",
+        "title": "Nami tháng 11 có đáng đi không? Lá rụng, lịch trình và cách đi từ Seoul",
+        "score": 103.51,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "song-ben-vung-scandinavia-moi-truong-tai-che": [
+      {
+        "target": "nang-luong-tai-tao-turbine-gio-scandinavia",
+        "title": "Năng Lượng Tái Tạo Ở Scandinavia: Làm Thế Nào Để Các Quốc Gia Nhỏ Dẫn Đầu Cuộc Cách Mạng Năng Lượng Xanh?",
+        "score": 60.19,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "thiet-ke-nordic-toida-gian-noi-that",
+        "title": "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu",
+        "score": 60.19,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "wellness-spa-scandinavia-sauna-nong",
+        "title": "Wellness Và Sauna Ở Scandinavia: Tôi Học Cách Sống Khỏe Mạnh Từ Người Bắc Âu",
+        "score": 60.19,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien": [
+      {
+        "target": "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+        "title": "VPBank NEO review 2026: app ngân hàng số này hợp với ai?",
+        "score": 89.21,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien",
+        "title": "Ngân hàng số nào tốt nhất Việt Nam 2026? So sánh Techcombank Mobile, VPBank NEO, Cake và các app phổ biến",
+        "score": 75.21,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau": [
+      {
+        "target": "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
+        "title": "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju",
+        "score": 157.37,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong": [
+      {
+        "target": "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul",
+        "title": "Ocean World vs Caribbean Bay: nên chọn công viên nước nào gần Seoul?",
+        "score": 129.37,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund": [
+      {
+        "target": "personal-finance-young-vietnamese-2026",
+        "title": "Personal Finance for Young Vietnamese 2026: Budgeting, Saving & Investing Guide",
+        "score": 49.31,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "phan-lan-sauna-05": [
+      {
+        "target": "phan-lan-hanh-phuc-01",
+        "title": "Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội",
+        "score": 88.18,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "phan-lan-giao-duc-02",
+        "title": "Hệ Thống Giáo Dục Phần Lan: Không Bài Tập Về Nhà, Không Áp Lực, Bình Đẳng Tuyệt Đối",
+        "score": 74.18,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "phan-lan-hanh-phuc-01": [
+      {
+        "target": "phan-lan-sauna-05",
+        "title": "Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật",
+        "score": 87.76,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "phan-lan-giao-duc-02": [
+      {
+        "target": "phan-lan-tech-04",
+        "title": "Phần Lan: Từ Nokia Đến 5G – Cách Một Quốc gia Nhỏ Trở Thành Siêu Lực Lượng Công Nghệ",
+        "score": 60.22,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "phan-lan-xanh-03",
+        "title": "Phần Lan: Tiên Phong Bảo Vệ Môi Trường – Công Nghệ Sạch, Kinh Tế Tuần Hoàn, và Quản Lý Rừng",
+        "score": 60.22,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi": [
+      {
+        "target": "quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac",
+        "title": "Quản lý file cá nhân khoa học: cách sắp xếp dữ liệu để không bao giờ thất lạc",
+        "score": 92.54,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "cach-mang-xe-dien-na-uy-ev-hub-the-gioi": [
+      {
+        "target": "quyen-chu-quyen-na-uy-government-pension-fund-global",
+        "title": "Government Pension Fund Global: Làm thế nào Na Uy biến dầu mỏ thành tài sản tương lai?",
+        "score": 74.88,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "thuy-dien-noi-khai-sinh-spotify-va-bluetooth": [
+      {
+        "target": "review-asus-zenbook-duo-2026-laptop-2-man-hinh",
+        "title": "Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần",
+        "score": 54.0,
+        "reason": "thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      },
+      {
+        "target": "tin-chi-carbon-va-trao-luu-net-zero",
+        "title": "Tín chỉ carbon và trào lưu Net Zero: Bóc tách góc nhìn tài chính từ thẻ Eco của Techcombank",
+        "score": 54.0,
+        "reason": "thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      }
+    ],
+    "review-may-pha-ca-phe-gia-dinh-2026": [
+      {
+        "target": "review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi",
+        "title": "Review máy lọc không khí gia đình 2026: CADR, HEPA, chi phí lọc và khi nào thật sự đáng mua",
+        "score": 63.1,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi": [
+      {
+        "target": "review-may-pha-ca-phe-gia-dinh-2026",
+        "title": "Review Máy Pha Cà Phê Gia Đình 2026: Từ Phin Pha Tay Đến Máy Tự Động",
+        "score": 64.75,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "review-noi-chien-khong-dau-2026": [
+      {
+        "target": "review-may-rua-bat-gia-dinh-2026",
+        "title": "Review máy rửa bát gia đình 2026: khi nào đáng mua trong căn hộ Việt",
+        "score": 78.68,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "review-sac-du-phong-di-du-lich-2026",
+        "title": "Review sạc dự phòng đi du lịch 2026: dung lượng, cân nặng, cổng sạc",
+        "score": 64.68,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "review-may-rua-bat-gia-dinh-2026": [
+      {
+        "target": "review-noi-chien-khong-dau-2026",
+        "title": "Review nồi chiên không dầu 2026: loại nào đáng mua sau vài tháng dùng thật",
+        "score": 78.3,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "chuyen-tu-android-sang-iphone-2026": [
+      {
+        "target": "review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs",
+        "title": "Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?",
+        "score": 52.89,
+        "reason": "thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      }
+    ],
+    "checklist-truoc-khi-mua-mot-san-pham-online": [
+      {
+        "target": "review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026",
+        "title": "Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn",
+        "score": 59.53,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026": [
+      {
+        "target": "review-vpn-2026-nordvpn-surfshark-protonvpn-viet-nam",
+        "title": "Review VPN 2026: NordVPN vs Surfshark vs ProtonVPN — Dùng 6 Tháng Ở Việt Nam Thấy Sao?",
+        "score": 57.02,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh": [
+      {
+        "target": "risk-management-trong-tai-chinh-dung-toan-hoc",
+        "title": "Risk Management trong tài chính: Từ VaR đến stress testing",
+        "score": 115.58,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "hoi-an-pho-co-di-san-the-gioi": [
+      {
+        "target": "sam-son-bien-thanh-hoa-gan-ha-noi",
+        "title": "Sầm Sơn — Biển Thanh Hóa gần Hà Nội cho kỳ nghỉ cuối tuần",
+        "score": 63.92,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau": [
+      {
+        "target": "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
+        "title": "Seoul ngày mưa nên đi đâu? 20 điểm indoor không phí lịch trình",
+        "score": 129.42,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "di-han-thang-11-mac-gi": [
+      {
+        "target": "seoul-thang-11-nen-di-dau",
+        "title": "Seoul tháng 11 nên đi đâu? Lịch trình 3 ngày ngắm peak lá đỏ",
+        "score": 103.66,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "thoi-tiet-han-quoc-thang-11",
+        "title": "Thời tiết Hàn Quốc tháng 11: lạnh thế nào, có mưa không và nên chuẩn bị gì?",
+        "score": 103.66,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao": [
+      {
+        "target": "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
+        "title": "Shinhwa Theme Park Jeju: water slides và điểm chơi nước cho gia đình ở Jungmun",
+        "score": 129.67,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027": [
+      {
+        "target": "sinh-nam-2027-menh-gi-huong-tot-dinh-mui",
+        "title": "Sinh năm 2027 Mệnh Gì? Tuổi Đinh Mùi — Thiên Hà Thủy, Hướng Tốt & Phong Thủy Chi Tiết",
+        "score": 92.8,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe",
+        "title": "Xu hướng giỏ quà Tết Đinh Mùi 2027: Đánh giá thực tế các giải pháp quà tặng xanh và sức khỏe",
+        "score": 92.8,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi": [
+      {
+        "target": "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
+        "title": "So sánh giá, bảo hành và trải nghiệm: yếu tố nào quan trọng nhất?",
+        "score": 52.28,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "kinh-nghiem-du-lich-tet-2027": [
+      {
+        "target": "so-sanh-ve-may-bay-tet-2027",
+        "title": "So sánh giá vé máy bay Tết 2027: Vietnam Airlines, Vietjet, Bamboo & mẹo đặt rẻ",
+        "score": 61.07,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "wellness-spa-scandinavia-sauna-nong": [
+      {
+        "target": "song-ben-vung-scandinavia-moi-truong-tai-che",
+        "title": "Sống Bền Vững Ở Scandinavia: Cách Bắc Âu Chăm Sóc Hành Tinh Từ Từng Chi Tiết Nhỏ",
+        "score": 60.15,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam": [
+      {
+        "target": "starbucks-nguyen-van-troi-sai-gon-review",
+        "title": "Review Starbucks Nguyễn Văn Trỗi: nhân viên nhiệt tình, pha nước rất ngon",
+        "score": 101.97,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "starbucks-nguyen-van-troi-sai-gon-review": [
+      {
+        "target": "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
+        "title": "Starbucks Vietnam: lịch sử hình thành và hành trình tại Việt Nam",
+        "score": 102.36,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "starbucks-vietnam-meo-goi-order-va-rewards",
+        "title": "Mẹo order Starbucks Vietnam: app, Rewards và gọi đồ cho đúng gu",
+        "score": 102.36,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "starbucks-vietnam-khong-gian-va-trai-nghiem",
+        "title": "Không gian Starbucks Vietnam: chỗ ngồi, làm việc và trải nghiệm \"third place\"",
+        "score": 88.36,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "starbucks-vietnam-menu-do-uong-nen-thu",
+        "title": "Menu Starbucks Vietnam: đồ uống nên thử và cách gọi cho đúng gu",
+        "score": 88.36,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "starbucks-vietnam-nhan-vien-va-dich-vu",
+        "title": "Nhân viên Starbucks Vietnam: dịch vụ nhiệt tình và điều tạo khác biệt",
+        "score": 88.36,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "ky-su-stockholm-thanh-pho-tren-nhung-hon-dao": [
+      {
+        "target": "stockholm-thua-dien-gamlastan-bien",
+        "title": "Stockholm – Thành Phố Nổi Giữa Mười Bốn Hòn Đảo Và Những Công Nghệ Tương Lai",
+        "score": 80.0,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026",
+        "title": "Cơn Sốt Mè Đen & Froyo Hè 2026: Cách Làm Tại Nhà & List Quán Ngon Phải Thử",
+        "score": 52.0,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "christopher-nolan-tieu-su-va-su-nghiep": [
+      {
+        "target": "the-odyssey-2026-review",
+        "title": "The Odyssey (2026): Christopher Nolan có làm nên kiệt tác sử thi mới?",
+        "score": 98.57,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha",
+        "title": "Sử thi Odyssey: Hành trình 20 năm trở về nhà của người anh hùng Odysseus",
+        "score": 70.57,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "coyote-vs-acme-2026-review": [
+      {
+        "target": "supergirl-2026-review",
+        "title": "Supergirl (2026) — Review: DCU mở rộng cùng Milly Alcock và chú chó Krypto",
+        "score": 63.32,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai": [
+      {
+        "target": "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien",
+        "title": "Techcombank Mobile review 2026: phí, sinh lời tự động, chuyển tiền và ai nên dùng?",
+        "score": 88.91,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk": [
+      {
+        "target": "thuy-dien-noi-khai-sinh-spotify-va-bluetooth",
+        "title": "Từ Spotify Đến Bluetooth: Thụy Điển Đã Thống Trị Thế Giới Công Nghệ Ngầm Như Thế Nào?",
+        "score": 60.77,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "wikipedia-kiem-tien-duy-tri-hoat-dong-nhu-the-nao": [
+      {
+        "target": "tien-quyen-gop-wikipedia-dung-vao-dau",
+        "title": "Tiền quyên góp cho Wikipedia được dùng vào đâu? Wikipedia có bao giờ hết tiền không?",
+        "score": 92.27,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "starbucks-vietnam-khong-gian-va-trai-nghiem": [
+      {
+        "target": "toi-uu-wifi-nha-pho-chung-cu-viet-nam",
+        "title": "Tối ưu Wi-Fi nhà phố/chung cư VN: đặt router, kênh, khi nào cần mesh",
+        "score": 61.97,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, liên kết liên danh mục, sửa orphan"
+      }
+    ],
+    "camera-control-iphone-16-pro-max-co-tien-khong": [
+      {
+        "target": "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch",
+        "title": "Trên tay iPhone 16 Pro Max màn hình 6.9 inch",
+        "score": 102.3,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026": [
+      {
+        "target": "trending-topic-20260713",
+        "title": "AI Inflation 2026: Why Your Next Laptop, Phone, and Gaming Console Will Cost More",
+        "score": 50.19,
+        "reason": "cùng danh mục, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro": [
+      {
+        "target": "trending-topic-20260715",
+        "title": "GPT-5.6 vs Grok 4.5 vs Muse Spark 1.1: Real-World AI Model Review 2026",
+        "score": 83.9,
+        "reason": "cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "trending-topic-20260714",
+        "title": "Gemini 3.5 Pro Launch July 17: 2M Context, Deep Think, Pricing — Everything You Need to Know",
+        "score": 63.9,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "loi-song-xanh-bac-au-thien-nhien-estonia": [
+      {
+        "target": "triet-ly-song-lagom-va-van-hoa-fika",
+        "title": "Fika Và Lagom: Triết Lý Sống Cân Bằng Và Văn Hóa Cà Phê Chữa Lành Của Người Thụy Điển",
+        "score": 64.35,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "trip-com-vs-booking-agoda-expedia-nen-dat-o-dau": [
+      {
+        "target": "trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re",
+        "title": "Trip.Coins, coupon và ưu đãi Trip.com: cách đặt phòng giá rẻ nhất",
+        "score": 104.53,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026",
+        "title": "Tương lai Trip.com: AI TripGenie và du lịch thông minh 2026+",
+        "score": 90.53,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao": [
+      {
+        "target": "trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan",
+        "title": "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán",
+        "score": 117.36,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan": [
+      {
+        "target": "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
+        "title": "Xây dựng thương hiệu cá nhân bằng blog Hugo và Python: nền tảng bền vững hơn khi kết hợp TikTok",
+        "score": 145.18,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      },
+      {
+        "target": "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
+        "title": "Veritable Content: bức tranh tổng thể về giao diện, content và kiến trúc công nghệ phía sau blog",
+        "score": 75.18,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd": [
+      {
+        "target": "visa-han-bi-tu-choi-ly-do-va-lan-2",
+        "title": "Visa Hàn bị từ chối: lý do thường gặp và chuẩn bị hồ sơ lần 2",
+        "score": 64.48,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc": [
+      {
+        "target": "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
+        "title": "Vivaldi Park Ski World: có đáng đi trượt tuyết từ Seoul trong ngày không?",
+        "score": 143.91,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "visa-han-bi-tu-choi-ly-do-va-lan-2": [
+      {
+        "target": "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
+        "title": "Xin visa Hàn Quốc du lịch tự túc diện thu nhập 8.000 USD/năm: hồ sơ, điều kiện và cách chuẩn bị",
+        "score": 63.64,
+        "reason": "cùng danh mục, cùng nhãn, thực thể/chủ đề chung, sửa orphan"
+      }
+    ],
+    "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang": [
+      {
+        "target": "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet",
+        "title": "Yongpyong Ski Resort: resort trượt tuyết nổi tiếng ở Pyeongchang có hợp với du khách Việt?",
+        "score": 171.9,
+        "reason": "cùng danh mục, cùng nhãn, cùng series, thực thể/chủ đề chung, sửa orphan"
+      }
+    ]
+  },
+  "inbound_counts": {
+    "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di": 1,
+    "20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay": 1,
+    "agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh": 1,
+    "agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong": 1,
+    "agoda-la-gi-co-uy-tin-an-toan-khong": 1,
+    "agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai": 1,
+    "agoda-thuoc-so-huu-cua-ai-booking-holdings": 1,
+    "agoda-vs-booking-com-khac-gi-nen-chon-cai-nao": 1,
+    "ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te": 1,
+    "ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6": 1,
+    "ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi": 1,
+    "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu": 1,
+    "ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro": 1,
+    "ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026": 1,
+    "ai-productivity-tools-2026-honest-review": 1,
+    "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau": 1,
+    "ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep": 1,
+    "ai-trong-tai-chinh-dung-toan-hoc-gi": 1,
+    "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang": 1,
+    "am-thuc-cho-truyen-thong-han-quoc": 1,
+    "am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking": 1,
+    "an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la": 1,
+    "anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc": 1,
+    "anjung-house-eleena-jamil-review": 1,
+    "app-store-gatekeeper-apple-so-mat-dieu-gi": 1,
+    "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap": 1,
+    "apple-thua-kien-eu-app-store-ios-dma": 1,
+    "apple-vs-ec-dma-tuong-lai-iphone": 1,
+    "atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom": 1,
+    "bac-cuc-quang-aurora-scandinavia-dem": 1,
+    "backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai": 1,
+    "balo-cabin-40l-di-han-quoc": 1,
+    "bangkok-3-ngay-3-dem-mua-mua": 1,
+    "bangkok-ngay-mua-nen-di-dau": 1,
+    "bao-hiem-du-lich-quoc-te-khi-nao-can": 1,
+    "bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh": 1,
+    "bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026": 1,
+    "best-wireless-earbuds-2026-top-picks-review": 1,
+    "bien-ba-dong-tra-vinh": 1,
+    "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan": 1,
+    "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien": 1,
+    "black-scholes-la-gi-so-e-dinh-gia-quyen-chon": 1,
+    "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc": 1,
+    "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc": 1,
+    "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan": 1,
+    "bram-moolenaar-tieu-su-cha-de-vim": 1,
+    "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo": 1,
+    "busan-thang-10-nen-di-dau": 1,
+    "busan-thang-11-nen-di-dau": 1,
+    "cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027": 1,
+    "cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip": 1,
+    "cach-doc-mot-bai-review-de-khong-bi-dat-mui": 1,
+    "cach-mang-xe-dien-na-uy-ev-hub-the-gioi": 1,
+    "cach-viet-visa-itinerary-chuyen-nghiep": 1,
+    "cach-xay-dung-thoi-quen-mua-sam-thong-minh": 1,
+    "cam-nang-don-nha-don-tet-2027-danshari-toi-gian": 1,
+    "camera-control-iphone-16-pro-max-co-tien-khong": 1,
+    "camera-iphone-15-pro-max-nam-2026-con-du-tot-khong": 1,
+    "camera-iphone-16-pro-max-so-voi-15-pro-max": 1,
+    "camera-iphone-18-co-gi-moi": 1,
+    "can-bang-cong-viec-doi-song-scandinavia-ki-nghi": 1,
+    "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong": 1,
+    "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao": 1,
+    "cau-tren-bien-ngam-dien-gio-ca-mau": 1,
+    "cfa-dung-toan-hoc-gi": 1,
+    "checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi": 1,
+    "checklist-truoc-khi-mua-mot-san-pham-online": 1,
+    "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua": 1,
+    "checklist-vali-di-thai-mua-mua": 1,
+    "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park": 1,
+    "chi-phi-di-han-thang-10-tu-tuc": 1,
+    "chi-phi-di-han-thang-11-tu-tuc": 1,
+    "chi-phi-that-nuoi-iphone-3-nam": 1,
+    "chiang-mai-mua-mua-co-gi-dep": 1,
+    "chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy": 1,
+    "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju": 1,
+    "christopher-nolan-tieu-su-va-su-nghiep": 1,
+    "chuan-bi-macbook-truoc-khi-len-macos-27": 1,
+    "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro": 1,
+    "chuyen-tu-android-sang-iphone-2026": 1,
+    "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong": 1,
+    "co-nen-cho-iphone-18-khong": 1,
+    "co-nen-di-tour-hang-dong-quang-binh-mua-mua": 1,
+    "co-nen-len-ios-26-5-2-khong": 1,
+    "co-nen-mua-dien-thoai-moi-viet-nam-2026": 1,
+    "cong-nghe-ai-camera-uav-nong-nghiep-2026": 1,
+    "cong-thuc-do-uong-giai-nhiet-home-cafe": 1,
+    "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro": 1,
+    "copenhagen-oslo-stockholm-so-sanh-thua-dien": 1,
+    "coyote-vs-acme-2026-review": 1,
+    "ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa": 1,
+    "cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te": 1,
+    "cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon": 1,
+    "danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026": 1,
+    "danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk": 1,
+    "dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh": 1,
+    "dau-tu-thong-minh-thoi-lai-suat-thap-2026": 1,
+    "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay": 1,
+    "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao": 1,
+    "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong": 1,
+    "di-han-thang-10-co-dep-khong": 1,
+    "di-han-thang-10-mac-gi": 1,
+    "di-han-thang-11-co-dep-khong": 1,
+    "di-han-thang-11-mac-gi": 1,
+    "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong": 1,
+    "di-thai-lan-thang-7-co-nen-khong": 1,
+    "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi": 1,
+    "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic": 1,
+    "diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026": 1,
+    "digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi": 1,
+    "digital-markets-act-la-gi-eu-siet-apple-google-meta": 1,
+    "digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi": 1,
+    "doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia": 1,
+    "doi-baht-o-viet-nam-hay-thai-lan": 1,
+    "doi-song-phuc-loi-na-uy-work-life-balance": 1,
+    "doi-tien-di-han-won-the-hay-tien-mat": 1,
+    "don-dep-dien-thoai-1-buoi-tap-trung": 1,
+    "don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi": 1,
+    "don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho": 1,
+    "don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos": 1,
+    "don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua": 1,
+    "du-lich-da-lat-mua-hoa-dang-cho-2026": 1,
+    "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem": 1,
+    "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di": 1,
+    "du-lich-may-do-trai-nghiem-ban-dia": 1,
+    "du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te": 1,
+    "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem": 1,
+    "du-lich-thai-lan-mua-mua-co-nen-di-khong": 1,
+    "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau": 1,
+    "esim-sim-han-quoc-2026-so-sanh": 1,
+    "estonia-quoc-gia-so-hoa-khai-sinh-skype": 1,
+    "european-commission-duoc-gi-khi-thang-apple": 1,
+    "even-realities-g2-smart-glasses-review": 1,
+    "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet": 1,
+    "fjord-na-uy-thac-nuoc-dong-tien": 1,
+    "flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do": 1,
+    "frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh": 1,
+    "gian-lan-diem-thi-thong-ke": 1,
+    "goi-y-du-lich-han-quoc-thang-7-2026": 1,
+    "goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao": 1,
+    "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi": 1,
+    "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong": 1,
+    "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan": 1,
+    "ham-so-mu-e-trong-tai-chinh-la-gi": 1,
+    "han-quoc-thang-10-co-la-do-chua": 1,
+    "han-quoc-thang-11-co-la-do-chua": 1,
+    "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon": 1,
+    "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di": 1,
+    "he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix": 1,
+    "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc": 1,
+    "ho-chi-minh-city-3-day-itinerary-first-timer-2026": 1,
+    "hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v": 1,
+    "hoat-dong-thuong-nien-wikipedia-kinh-phi-tu-dau": 1,
+    "hoc-sinh-finland-truong-hoc-hoc-tap": 1,
+    "hoi-an-pho-co-di-san-the-gioi": 1,
+    "how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com": 1,
+    "how-to-choose-reputable-hotels-ho-chi-minh-city": 1,
+    "huong-dan-danh-gia-luat-chuyen-doi-so-2025": 1,
+    "huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026": 1,
+    "huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy": 1,
+    "huong-dan-lam-affiliate-shopee-instagram-meta-2026": 1,
+    "huong-dan-mien-visa-uzbekistan-5-ngay": 1,
+    "huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026": 1,
+    "huong-dan-xin-visa-e-residency-estonia": 1,
+    "ios-27-apple-intelligence-iphone-cu": 1,
+    "ios-27-beta-co-nen-cai-khong": 1,
+    "ios-27-cai-thien-pin-iphone": 1,
+    "ios-27-camera-anh-video-iphone": 1,
+    "ios-27-co-gi-moi": 1,
+    "ios-27-co-nen-cap-nhat-ngay-khong": 1,
+    "ios-27-ho-tro-iphone-nao": 1,
+    "ios-27-quyen-rieng-tu-iphone": 1,
+    "ios-27-so-voi-ios-26": 1,
+    "ios-mo-hon-nguoi-dung-chau-au-mat-gi": 1,
+    "iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao": 1,
+    "iphone-15-pro-max-blue-titanium-co-dang-san": 1,
+    "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi": 1,
+    "iphone-15-pro-max-mau-titan-con-dang-mua-khong": 1,
+    "iphone-15-pro-max-natural-titanium-danh-gia-mau": 1,
+    "iphone-16-pro-max-desert-titanium-hop-ai": 1,
+    "iphone-16-pro-max-desert-titanium-tren-tay": 1,
+    "iphone-16-pro-max-nam-2026-nen-mua-khong": 1,
+    "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao": 1,
+    "iphone-18-chip-a20-2nm": 1,
+    "iphone-18-co-gi-moi": 1,
+    "iphone-18-dynamic-island-nho-hon-under-display-face-id": 1,
+    "iphone-18-gia-bao-nhieu": 1,
+    "iphone-18-khi-nao-ra-mat": 1,
+    "iphone-18-mau-gi-dark-cherry": 1,
+    "iphone-18-pro-max-co-gi-moi": 1,
+    "iphone-18-vs-iphone-17": 1,
+    "iphone-fold-iphone-ultra-la-gi": 1,
+    "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay": 1,
+    "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat": 1,
+    "jeju-thang-10-co-dep-khong": 1,
+    "jeju-thang-11-co-dep-khong": 1,
+    "jet-lag-han-viet-ngu-du-48-gio-dau": 1,
+    "jimmy-wales-tieu-su-nha-sang-lap-wikipedia": 1,
+    "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay": 1,
+    "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc": 1,
+    "khach-san-view-dep-da-nang-2026": 1,
+    "khach-san-view-dep-gan-ha-noi-2026": 1,
+    "khach-san-view-dep-gan-tphcm-nghi-duong-2026": 1,
+    "khach-san-view-dep-hai-phong-cat-ba-2026": 1,
+    "khach-san-view-dep-nha-trang-2026": 1,
+    "khach-san-view-dep-phu-quoc-2026": 1,
+    "khach-san-view-dep-phu-yen-2026": 1,
+    "kham-pha-mien-tay-song-nuoc-2026": 1,
+    "khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026": 1,
+    "kindle-scribe-2-review-2026": 1,
+    "kinh-nghiem-cam-trai-cho-nguoi-moi-2026": 1,
+    "kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc": 1,
+    "kinh-nghiem-du-lich-tet-2027": 1,
+    "kinh-nghiem-solo-travel-du-lich-mot-minh": 1,
+    "kinh-te-Nauy-dau-mo-quy-dau-tu-va-mo-hinh-phuc-loi": 1,
+    "koh-samui-mua-he-so-voi-phuket": 1,
+    "krabi-mua-mua-ao-nang-railay-tour-dao": 1,
+    "ky-su-ha-giang-nhung-khuc-cua-va-ky-uc": 1,
+    "ky-su-stockholm-thanh-pho-tren-nhung-hon-dao": 1,
+    "ky-su-tallinn-dem-trang-thi-tran-co": 1,
+    "lam-sao-thoat-vim": 1,
+    "lang-lo-lang-chai-ngoi-do-ven-bien-tuy-hoa": 1,
+    "lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi": 1,
+    "lich-su-agoda-tu-startup-den-booking-holdings": 1,
+    "lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay": 1,
+    "lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau": 1,
+    "lich-trinh-di-han-thang-10-5-ngay-4-dem": 1,
+    "lich-trinh-di-han-thang-10-7-ngay-6-dem": 1,
+    "lich-trinh-di-han-thang-11-5-ngay-4-dem": 1,
+    "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau": 1,
+    "log-tu-nhien-log-return-trong-dau-tu": 1,
+    "loi-song-xanh-bac-au-thien-nhien-estonia": 1,
+    "luoc-su-vim-editor": 1,
+    "ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat": 1,
+    "mac-hay-windows-2026-dan-van-phong": 1,
+    "macos-27-apple-intelligence-macbook": 1,
+    "macos-27-beta-co-nen-cai-khong": 1,
+    "macos-27-cho-van-phong-creator-lap-trinh-vien": 1,
+    "macos-27-co-gi-moi": 1,
+    "macos-27-co-nen-nang-cap-ngay-khong": 1,
+    "macos-27-hieu-nang-pin-macbook": 1,
+    "macos-27-ho-tro-may-mac-nao": 1,
+    "macos-27-so-voi-macos-26": 1,
+    "mau-lich-trinh-chau-au-nhieu-nuoc-ai": 1,
+    "mau-lich-trinh-han-quoc-7-ngay-ai": 1,
+    "mau-lich-trinh-nhat-ban-7-ngay-ai": 1,
+    "mau-lich-trinh-xin-visa-huong-dan-day-du": 1,
+    "meal-prep-5-ngay-nguoi-ban-viet-nam": 1,
+    "michelin-restaurants-ho-chi-minh-city-must-try": 1,
+    "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien": 1,
+    "mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao": 1,
+    "mo-hinh-phang-tiet-lo-tu-ikea-va-volvo": 1,
+    "moana-live-action-2026-review": 1,
+    "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026": 1,
+    "mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot": 1,
+    "monte-carlo-trong-tai-chinh-la-gi": 1,
+    "mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio": 1,
+    "msi-claw-8-ex-ai-plus-review": 1,
+    "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song": 1,
+    "nami-thang-10-co-dang-di-khong": 1,
+    "nami-thang-11-co-dang-di-khong": 1,
+    "nang-luong-tai-tao-turbine-gio-scandinavia": 1,
+    "nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026": 1,
+    "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo": 1,
+    "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien": 1,
+    "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma": 1,
+    "nha-phat-trien-app-duoc-loi-gi-tu-dma": 1,
+    "nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa": 1,
+    "niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026": 1,
+    "o-khu-nao-bangkok-mua-mua": 1,
+    "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju": 1,
+    "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul": 1,
+    "password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026": 1,
+    "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund": 1,
+    "personal-finance-young-vietnamese-2026": 1,
+    "phan-lan-giao-duc-02": 1,
+    "phan-lan-hanh-phuc-01": 1,
+    "phan-lan-sauna-05": 1,
+    "phan-lan-tech-04": 1,
+    "phan-lan-xanh-03": 1,
+    "phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy": 1,
+    "phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien": 1,
+    "phuket-mua-mua-co-nen-di-khong": 1,
+    "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi": 1,
+    "pin-iphone-16-pro-max-co-dang-chon": 1,
+    "quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac": 1,
+    "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026": 6,
+    "quy-dau-tu-dung-toan-hoc-nhu-the-nao": 1,
+    "quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026": 1,
+    "quyen-chu-quyen-na-uy-government-pension-fund-global": 1,
+    "renaissance-technologies-quantitative-finance-toan-hoc-dau-tu": 1,
+    "review-airpods-pro-3-2026": 1,
+    "review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem": 1,
+    "review-app-hoc-tieng-anh-online-2026": 1,
+    "review-asus-zenbook-duo-2026-laptop-2-man-hinh": 1,
+    "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that": 6,
+    "review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho": 1,
+    "review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi": 1,
+    "review-may-pha-ca-phe-gia-dinh-2026": 1,
+    "review-may-rua-bat-gia-dinh-2026": 1,
+    "review-noi-chien-khong-dau-2026": 1,
+    "review-paradise-2023-nguoi-giau-mua-thoi-gian-song": 1,
+    "review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs": 1,
+    "review-sac-du-phong-di-du-lich-2026": 1,
+    "review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026": 1,
+    "review-super-8-2011-biet-doi-thieu-nien-va-bi-an": 1,
+    "review-vpn-2026-nordvpn-surfshark-protonvpn-viet-nam": 1,
+    "risk-management-trong-tai-chinh-dung-toan-hoc": 1,
+    "routine-buoi-sang-45-phut-nguoi-di-lam": 1,
+    "sam-son-bien-thanh-hoa-gan-ha-noi": 1,
+    "samsung-galaxy-s26-ultra-six-month-review": 1,
+    "schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen": 1,
+    "seoraksan-thang-10-ngam-la-do": 1,
+    "seoraksan-thang-11-ngam-la-do": 1,
+    "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh": 1,
+    "seoul-thang-10-nen-di-dau": 1,
+    "seoul-thang-11-nen-di-dau": 1,
+    "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun": 1,
+    "sinh-nam-2027-menh-gi-huong-tot-dinh-mui": 1,
+    "smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026": 1,
+    "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat": 1,
+    "so-sanh-grabfood-shopeefood-baemin-trai-nghiem-giao-do-an-2026": 1,
+    "so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man": 1,
+    "so-sanh-ve-may-bay-tet-2027": 1,
+    "song-ben-vung-scandinavia-moi-truong-tai-che": 1,
+    "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay": 6,
+    "spider-man-brand-new-day-2026-review": 1,
+    "starbucks-nguyen-van-troi-sai-gon-review": 1,
+    "starbucks-vietnam-khong-gian-va-trai-nghiem": 1,
+    "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam": 1,
+    "starbucks-vietnam-menu-do-uong-nen-thu": 1,
+    "starbucks-vietnam-meo-goi-order-va-rewards": 1,
+    "starbucks-vietnam-nhan-vien-va-dich-vu": 1,
+    "stockholm-thua-dien-gamlastan-bien": 1,
+    "su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha": 1,
+    "supergirl-2026-review": 1,
+    "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab": 1,
+    "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap": 1,
+    "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien": 1,
+    "the-odyssey-2026-review": 1,
+    "the-tin-dung-lan-dau-2026-chon-sao-khong-phi-an": 1,
+    "thiet-ke-nordic-toida-gian-noi-that": 1,
+    "thoi-tiet-han-quoc-thang-10": 1,
+    "thoi-tiet-han-quoc-thang-11": 1,
+    "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue": 1,
+    "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien": 1,
+    "thuy-dien-noi-khai-sinh-spotify-va-bluetooth": 1,
+    "tien-quyen-gop-wikipedia-dung-vao-dau": 1,
+    "tin-chi-carbon-va-trao-luu-net-zero": 1,
+    "toan-hoc-dinh-cao-trong-tai-chinh": 1,
+    "toi-uu-wifi-nha-pho-chung-cu-viet-nam": 1,
+    "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul": 6,
+    "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet": 1,
+    "trai-nghiem-icehotel-va-ngam-aurora-thuy-dien": 1,
+    "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep": 1,
+    "trao-luu-green-camping-cam-trai-hoang-so": 1,
+    "travel-budget-cach-lap-ngan-sach-du-lich-thong-minh": 1,
+    "travel-checklist-danh-sach-chuan-bi-truoc-chuyen-di-quoc-te": 1,
+    "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong": 1,
+    "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch": 1,
+    "trending-topic-20260713": 1,
+    "trending-topic-20260714": 1,
+    "trending-topic-20260715": 1,
+    "triet-ly-song-lagom-va-van-hoa-fika": 1,
+    "trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re": 1,
+    "trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan": 1,
+    "trip-com-vs-booking-agoda-expedia-nen-dat-o-dau": 1,
+    "tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026": 1,
+    "ubon-ratchathani-candle-festival-thai-lan-thang-7": 1,
+    "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay": 1,
+    "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog": 1,
+    "vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh": 1,
+    "vi-sao-review-dai-chua-chac-da-dang-tin": 1,
+    "vietnam-travel-guide-2026": 1,
+    "visa-han-bi-tu-choi-ly-do-va-lan-2": 1,
+    "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong": 1,
+    "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai": 1,
+    "wellness-spa-scandinavia-sauna-nong": 1,
+    "wikipedia-kiem-tien-duy-tri-hoat-dong-nhu-the-nao": 1,
+    "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh": 1,
+    "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi": 6,
+    "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau": 1,
+    "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai": 1,
+    "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok": 1,
+    "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc": 1,
+    "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd": 1,
+    "xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026": 1,
+    "xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe": 1,
+    "xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu": 1,
+    "xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly": 1,
+    "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet": 1
+  },
+  "indexable_slugs": [
+    "10-diem-tranh-nong-duoi-nuoc-o-han-quoc-mua-he-bien-dao-cong-vien-nuoc-va-day-trip-de-di",
+    "20-cong-cu-ai-giup-tiet-kiem-it-nhat-2-gio-moi-ngay",
+    "agoda-2026-ai-ung-dung-xu-huong-dat-phong-thong-minh",
+    "agoda-kiem-tien-nhu-the-nao-mo-hinh-ota-hoa-hong",
+    "agoda-la-gi-co-uy-tin-an-toan-khong",
+    "agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai",
+    "agoda-thuoc-so-huu-cua-ai-booking-holdings",
+    "agoda-vs-booking-com-khac-gi-nen-chon-cai-nao",
+    "ai-co-lam-con-nguoi-luoi-suy-nghi-hon-khong-goc-nhin-khoa-hoc-va-thuc-te",
+    "ai-giup-hoc-ngoai-ngu-hieu-qua-hon-ra-sao-kinh-nghiem-hoc-tieng-han-len-topik-6",
+    "ai-giup-lap-ke-hoach-du-lich-nhu-the-nao-tu-lich-trinh-den-quan-ly-chi-phi",
+    "ai-giup-quan-ly-tai-chinh-ca-nhan-nhu-the-nao-tu-ngan-sach-den-dau-tu",
+    "ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro",
+    "ai-pc-la-gi-xu-huong-laptop-tich-hop-ai-2026",
+    "ai-productivity-tools-2026-honest-review",
+    "ai-stocks-la-gi-co-phieu-ai-chip-thi-truong-toan-cau",
+    "ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep",
+    "ai-trong-tai-chinh-dung-toan-hoc-gi",
+    "alpensia-ski-resort-trai-nghiem-truot-tuyet-mua-dong-o-pyeongchang",
+    "am-thuc-cho-truyen-thong-han-quoc",
+    "am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking",
+    "an-tet-vung-cao-tay-bac-ruou-can-banh-chung-den-van-hoa-doc-la",
+    "anh-huong-atomico-toi-he-sinh-thai-khoi-nghiep-chau-au-bien-doi-y-thuc",
+    "anjung-house-eleena-jamil-review",
+    "app-store-gatekeeper-apple-so-mat-dieu-gi",
+    "apple-pay-viet-nam-ngan-hang-nao-ho-tro-cach-them-the-va-nhung-loi-thuong-gap",
+    "apple-thua-kien-eu-app-store-ios-dma",
+    "apple-vs-ec-dma-tuong-lai-iphone",
+    "atomico-la-gi-cong-ty-dau-tu-mao-hiem-chau-au-niklas-zennstrom",
+    "bac-cuc-quang-aurora-scandinavia-dem",
+    "backup-anh-dung-cach-dung-de-mat-toan-bo-ky-niem-chi-vi-hong-dien-thoai",
+    "balo-cabin-40l-di-han-quoc",
+    "bangkok-3-ngay-3-dem-mua-mua",
+    "bangkok-ngay-mua-nen-di-dau",
+    "bao-hiem-du-lich-quoc-te-khi-nao-can",
+    "bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh",
+    "bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026",
+    "best-wireless-earbuds-2026-top-picks-review",
+    "bien-ba-dong-tra-vinh",
+    "bien-bai-blog-thanh-video-tiktok-xay-dung-thuong-hieu-ca-nhan",
+    "bien-dep-o-jeju-hamdeok-hyeopjae-va-cach-chon-khu-nghi-ven-bien",
+    "black-scholes-la-gi-so-e-dinh-gia-quyen-chon",
+    "blackrock-dung-toan-hoc-va-du-lieu-quan-ly-danh-muc",
+    "blog-ca-nhan-hay-tiktok-xay-dung-thuong-hieu-ca-nhan-o-dau-truoc",
+    "blog-ca-nhan-nen-viet-gi-xay-dung-thuong-hieu-ca-nhan",
+    "bram-moolenaar-tieu-su-cha-de-vim",
+    "busan-mua-he-nen-di-dau-haeundae-gwangalli-songdo-hay-dadaepo",
+    "busan-thang-10-nen-di-dau",
+    "busan-thang-11-nen-di-dau",
+    "cac-nam-dinh-mui-trong-lich-su-truoc-them-tet-dinh-mui-2027",
+    "cac-thuong-vu-ma-trip-com-qunar-skyscanner-makemytrip",
+    "cach-doc-mot-bai-review-de-khong-bi-dat-mui",
+    "cach-mang-xe-dien-na-uy-ev-hub-the-gioi",
+    "cach-viet-visa-itinerary-chuyen-nghiep",
+    "cach-xay-dung-thoi-quen-mua-sam-thong-minh",
+    "cam-nang-don-nha-don-tet-2027-danshari-toi-gian",
+    "camera-control-iphone-16-pro-max-co-tien-khong",
+    "camera-iphone-15-pro-max-nam-2026-con-du-tot-khong",
+    "camera-iphone-16-pro-max-so-voi-15-pro-max",
+    "camera-iphone-18-co-gi-moi",
+    "can-bang-cong-viec-doi-song-scandinavia-ki-nghi",
+    "caribbean-bay-han-quoc-di-tu-seoul-the-nao-co-dang-mua-ve-khong",
+    "caribbean-bay-yongin-cong-vien-nuoc-lon-gan-seoul-nen-di-ngay-nao",
+    "cau-tren-bien-ngam-dien-gio-ca-mau",
+    "cfa-dung-toan-hoc-gi",
+    "checklist-cuoc-song-so-50-viec-nen-lam-moi-thang-de-bao-ve-du-lieu-va-thiet-bi",
+    "checklist-truoc-khi-mua-mot-san-pham-online",
+    "checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua",
+    "checklist-vali-di-thai-mua-mua",
+    "cheongsapo-busan-bien-trong-lang-ven-bien-va-lich-trinh-ket-hop-blue-line-park",
+    "chi-phi-di-han-thang-10-tu-tuc",
+    "chi-phi-di-han-thang-11-tu-tuc",
+    "chi-phi-that-nuoi-iphone-3-nam",
+    "chiang-mai-mua-mua-co-gi-dep",
+    "chien-luoc-dau-tu-atomico-tam-nhin-va-gia-tri-cua-quy",
+    "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju",
+    "christopher-nolan-tieu-su-va-su-nghiep",
+    "chuan-bi-macbook-truoc-khi-len-macos-27",
+    "chung-khoan-viet-nam-2026-vn-index-co-phieu-ngan-hang-rui-ro",
+    "chuyen-tu-android-sang-iphone-2026",
+    "club-d-oasis-busan-infinity-pool-spa-va-lua-chon-tranh-nong-kieu-nghi-duong",
+    "co-nen-cho-iphone-18-khong",
+    "co-nen-di-tour-hang-dong-quang-binh-mua-mua",
+    "co-nen-len-ios-26-5-2-khong",
+    "co-nen-mua-dien-thoai-moi-viet-nam-2026",
+    "cong-nghe-ai-camera-uav-nong-nghiep-2026",
+    "cong-thuc-do-uong-giai-nhiet-home-cafe",
+    "cong-ty-bao-hiem-dung-toan-hoc-tinh-phi-rui-ro",
+    "copenhagen-oslo-stockholm-so-sanh-thua-dien",
+    "coyote-vs-acme-2026-review",
+    "ctrip-doi-ten-thanh-trip-com-group-chien-luoc-toan-cau-hoa",
+    "cuc-quang-tromso-northern-lights-kinh-nghiem-thuc-te",
+    "cuoc-song-so-nam-2026-30-thoi-quen-giup-ban-song-gon-gang-an-toan-va-hieu-qua-hon",
+    "danh-gia-top-3-kinh-thuc-te-ao-vr-gia-re-2026",
+    "danh-sach-dau-tu-atomico-klarna-spotify-revolut-zendesk",
+    "dat-phong-agoda-co-an-toan-khong-rui-ro-va-cach-tranh",
+    "dau-tu-thong-minh-thoi-lai-suat-thap-2026",
+    "day-trip-suwon-gan-seoul-hwaseong-haenggung-va-korean-folk-village-trong-mot-ngay",
+    "di-choi-gan-seoul-incheon-chinatown-wolmido-va-caribbean-bay-nen-chon-diem-nao",
+    "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong",
+    "di-han-thang-10-co-dep-khong",
+    "di-han-thang-10-mac-gi",
+    "di-han-thang-11-co-dep-khong",
+    "di-han-thang-11-mac-gi",
+    "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong",
+    "di-thai-lan-thang-7-co-nen-khong",
+    "di-thai-lan-tu-tuc-3-ngay-3-dem-bangkok-462-trieu-doi-baht-suvarnabhumi-ratchathewi",
+    "dia-diem-quay-phim-han-quoc-o-seoul-di-theo-dau-k-drama-ma-khong-bi-qua-touristic",
+    "diem-moi-quy-dinh-cap-giay-phep-lao-dong-2026",
+    "digital-detox-la-gi-cach-giam-phu-thuoc-dien-thoai-ma-khong-mat-ket-noi",
+    "digital-markets-act-la-gi-eu-siet-apple-google-meta",
+    "digital-minimalism-song-toi-gian-trong-thoi-dai-ai-va-mang-xa-hoi",
+    "doc-hanh-ta-nang-phan-dung-tieng-goi-rung-gia",
+    "doi-baht-o-viet-nam-hay-thai-lan",
+    "doi-song-phuc-loi-na-uy-work-life-balance",
+    "doi-tien-di-han-won-the-hay-tien-mat",
+    "don-dep-dien-thoai-1-buoi-tap-trung",
+    "don-gmail-dung-cach-giam-hang-nghin-email-rac-chi-trong-mot-buoi-toi",
+    "don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho",
+    "don-mac-dung-cach-toi-uu-dung-luong-va-hieu-nang-ma-khong-can-cai-lai-macos",
+    "don-tet-mien-tay-song-nuoc-cho-hoa-noi-thit-kho-giao-thua",
+    "du-lich-da-lat-mua-hoa-dang-cho-2026",
+    "du-lich-da-nang-he-2026-lich-trinh-4-ngay-3-dem",
+    "du-lich-han-quoc-mua-he-nen-di-dau-15-diem-tranh-nong-tranh-mua-va-lich-trinh-de-di",
+    "du-lich-may-do-trai-nghiem-ban-dia",
+    "du-lich-na-uy-tu-tuc-fjord-chi-phi-thuc-te",
+    "du-lich-phu-quoc-he-2026-lich-trinh-4-ngay-3-dem",
+    "du-lich-thai-lan-mua-mua-co-nen-di-khong",
+    "elysian-gangchon-ski-khu-truot-tuyet-gan-seoul-cho-nguoi-moi-bat-dau",
+    "esim-sim-han-quoc-2026-so-sanh",
+    "estonia-quoc-gia-so-hoa-khai-sinh-skype",
+    "european-commission-duoc-gi-khi-thang-apple",
+    "even-realities-g2-smart-glasses-review",
+    "fed-bond-yield-gia-vang-lai-suat-my-anh-huong-tui-tien-nguoi-viet",
+    "fjord-na-uy-thac-nuoc-dong-tien",
+    "flappy-bird-nguyen-ha-dong-vi-sao-xoa-game-trieu-do",
+    "frm-dung-toan-hoc-gi-var-rui-ro-tai-chinh",
+    "gian-lan-diem-thi-thong-ke",
+    "goi-y-du-lich-han-quoc-thang-7-2026",
+    "goldman-sachs-jpmorgan-dung-toan-hoc-nhu-the-nao",
+    "gwangalli-beach-busan-bai-bien-ngam-cau-gwangan-dep-nhat-hop-di-chieu-toi",
+    "haeundae-beach-busan-di-bien-mua-he-the-nao-de-khong-qua-dong",
+    "haeundae-vs-gwangalli-nen-chon-bai-bien-nao-o-busan",
+    "ham-so-mu-e-trong-tai-chinh-la-gi",
+    "han-quoc-thang-10-co-la-do-chua",
+    "han-quoc-thang-11-co-la-do-chua",
+    "han-quoc-thang-7-co-dep-khong-thoi-tiet-chi-phi-va-lich-trinh-nen-chon",
+    "han-quoc-thang-8-nen-di-dau-bien-dao-va-cong-vien-nuoc-dang-di",
+    "he-sinh-thai-trip-com-group-ctrip-qunar-skyscanner-travix",
+    "high1-ski-resort-khu-truot-tuyet-cho-nguoi-muon-nghi-duong-mua-dong-o-han-quoc",
+    "ho-chi-minh-city-3-day-itinerary-first-timer-2026",
+    "hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v",
+    "hoat-dong-thuong-nien-wikipedia-kinh-phi-tu-dau",
+    "hoc-sinh-finland-truong-hoc-hoc-tap",
+    "hoi-an-pho-co-di-san-the-gioi",
+    "how-to-book-cheap-flights-to-ho-chi-minh-city-trip-com",
+    "how-to-choose-reputable-hotels-ho-chi-minh-city",
+    "huong-dan-danh-gia-luat-chuyen-doi-so-2025",
+    "huong-dan-dat-khach-san-ve-may-bay-gia-tot-tren-trip-com-2026",
+    "huong-dan-dat-phong-agoda-a-z-thanh-toan-hoan-huy",
+    "huong-dan-lam-affiliate-shopee-instagram-meta-2026",
+    "huong-dan-mien-visa-uzbekistan-5-ngay",
+    "huong-dan-thu-tuc-xin-visa-thuong-mai-dn1-dn2-2026",
+    "huong-dan-xin-visa-e-residency-estonia",
+    "ios-27-apple-intelligence-iphone-cu",
+    "ios-27-beta-co-nen-cai-khong",
+    "ios-27-cai-thien-pin-iphone",
+    "ios-27-camera-anh-video-iphone",
+    "ios-27-co-gi-moi",
+    "ios-27-co-nen-cap-nhat-ngay-khong",
+    "ios-27-ho-tro-iphone-nao",
+    "ios-27-quyen-rieng-tu-iphone",
+    "ios-27-so-voi-ios-26",
+    "ios-mo-hon-nguoi-dung-chau-au-mat-gi",
+    "iphone-15-pro-max-black-white-titanium-nen-chon-mau-nao",
+    "iphone-15-pro-max-blue-titanium-co-dang-san",
+    "iphone-15-pro-max-hay-iphone-16-pro-max-nen-len-doi",
+    "iphone-15-pro-max-mau-titan-con-dang-mua-khong",
+    "iphone-15-pro-max-natural-titanium-danh-gia-mau",
+    "iphone-16-pro-max-desert-titanium-hop-ai",
+    "iphone-16-pro-max-desert-titanium-tren-tay",
+    "iphone-16-pro-max-nam-2026-nen-mua-khong",
+    "iphone-16-pro-max-natural-white-black-titanium-chon-mau-nao",
+    "iphone-18-chip-a20-2nm",
+    "iphone-18-co-gi-moi",
+    "iphone-18-dynamic-island-nho-hon-under-display-face-id",
+    "iphone-18-gia-bao-nhieu",
+    "iphone-18-khi-nao-ra-mat",
+    "iphone-18-mau-gi-dark-cherry",
+    "iphone-18-pro-max-co-gi-moi",
+    "iphone-18-vs-iphone-17",
+    "iphone-fold-iphone-ultra-la-gi",
+    "jeju-mua-he-nen-di-dau-bien-thac-nuoc-oreum-va-lich-trinh-3-ngay",
+    "jeju-mua-hoa-cai-vang-di-thang-may-dep-nhat",
+    "jeju-thang-10-co-dep-khong",
+    "jeju-thang-11-co-dep-khong",
+    "jet-lag-han-viet-ngu-du-48-gio-dau",
+    "jimmy-wales-tieu-su-nha-sang-lap-wikipedia",
+    "jjimjilbang-han-quoc-sauna-kieu-han-o-seoul-va-aquafield-goyang-co-gi-hay",
+    "jungmun-beach-jeju-bai-bien-cho-nguoi-thich-song-anh-dep-va-hoat-dong-nuoc",
+    "khach-san-view-dep-da-nang-2026",
+    "khach-san-view-dep-gan-ha-noi-2026",
+    "khach-san-view-dep-gan-tphcm-nghi-duong-2026",
+    "khach-san-view-dep-hai-phong-cat-ba-2026",
+    "khach-san-view-dep-nha-trang-2026",
+    "khach-san-view-dep-phu-quoc-2026",
+    "khach-san-view-dep-phu-yen-2026",
+    "kham-pha-mien-tay-song-nuoc-2026",
+    "khoa-hoc-ngan-han-va-cach-viet-cv-part-time-2026",
+    "kindle-scribe-2-review-2026",
+    "kinh-nghiem-cam-trai-cho-nguoi-moi-2026",
+    "kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc",
+    "kinh-nghiem-du-lich-tet-2027",
+    "kinh-nghiem-solo-travel-du-lich-mot-minh",
+    "kinh-te-Nauy-dau-mo-quy-dau-tu-va-mo-hinh-phuc-loi",
+    "koh-samui-mua-he-so-voi-phuket",
+    "krabi-mua-mua-ao-nang-railay-tour-dao",
+    "ky-su-ha-giang-nhung-khuc-cua-va-ky-uc",
+    "ky-su-stockholm-thanh-pho-tren-nhung-hon-dao",
+    "ky-su-tallinn-dem-trang-thi-tran-co",
+    "lam-sao-thoat-vim",
+    "lang-lo-lang-chai-ngoi-do-ven-bien-tuy-hoa",
+    "lich-nghi-tet-nguyen-dan-2027-du-kien-lo-trinh-toi-uu-ngay-nghi",
+    "lich-su-agoda-tu-startup-den-booking-holdings",
+    "lich-su-thanh-lap-phat-trien-atomico-tu-2010-den-nay",
+    "lich-su-trip-com-tu-ctrip-1999-den-de-che-du-lich-toan-cau",
+    "lich-trinh-di-han-thang-10-5-ngay-4-dem",
+    "lich-trinh-di-han-thang-10-7-ngay-6-dem",
+    "lich-trinh-di-han-thang-11-5-ngay-4-dem",
+    "lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau",
+    "log-tu-nhien-log-return-trong-dau-tu",
+    "loi-song-xanh-bac-au-thien-nhien-estonia",
+    "luoc-su-vim-editor",
+    "ma-giam-gia-agoda-agodacash-2026-cach-dat-phong-re-nhat",
+    "mac-hay-windows-2026-dan-van-phong",
+    "macos-27-apple-intelligence-macbook",
+    "macos-27-beta-co-nen-cai-khong",
+    "macos-27-cho-van-phong-creator-lap-trinh-vien",
+    "macos-27-co-gi-moi",
+    "macos-27-co-nen-nang-cap-ngay-khong",
+    "macos-27-hieu-nang-pin-macbook",
+    "macos-27-ho-tro-may-mac-nao",
+    "macos-27-so-voi-macos-26",
+    "mau-lich-trinh-chau-au-nhieu-nuoc-ai",
+    "mau-lich-trinh-han-quoc-7-ngay-ai",
+    "mau-lich-trinh-nhat-ban-7-ngay-ai",
+    "mau-lich-trinh-xin-visa-huong-dan-day-du",
+    "meal-prep-5-ngay-nguoi-ban-viet-nam",
+    "michelin-restaurants-ho-chi-minh-city-must-try",
+    "mo-hinh-dinh-gia-co-phieu-dcf-chiet-khau-dong-tien",
+    "mo-hinh-kiem-tien-cua-trip-com-hoa-hong-ota-quang-cao",
+    "mo-hinh-phang-tiet-lo-tu-ikea-va-volvo",
+    "moana-live-action-2026-review",
+    "momo-zalopay-shopeepay-vi-dien-tu-nao-phu-hop-nhat-nam-2026",
+    "mon-viet-hot-o-my-2026-ca-phe-muoi-banh-ram-it-banh-khot",
+    "monte-carlo-trong-tai-chinh-la-gi",
+    "mot-ngay-song-cung-ai-thu-nghiem-dung-ai-ho-tro-moi-viec-trong-24-gio",
+    "msi-claw-8-ex-ai-plus-review",
+    "nami-island-mua-he-day-trip-gan-seoul-de-tranh-nong-duoi-bong-cay-va-gio-song",
+    "nami-thang-10-co-dang-di-khong",
+    "nami-thang-11-co-dang-di-khong",
+    "nang-luong-tai-tao-turbine-gio-scandinavia",
+    "nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026",
+    "ngam-binh-minh-o-jeju-seongsan-seopjikoji-va-lich-trinh-sang-som-o-seogwipo",
+    "ngan-hang-so-nao-tot-nhat-viet-nam-2026-so-sanh-techcombank-mobile-vpbank-neo-cake-va-cac-app-pho-bien",
+    "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma",
+    "nha-phat-trien-app-duoc-loi-gi-tu-dma",
+    "nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa",
+    "niklas-zennstrom-tieu-su-nha-sang-lap-skype-nha-dau-tu-kho-lua-2026",
+    "o-khu-nao-bangkok-mua-mua",
+    "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju",
+    "ocean-world-vs-caribbean-bay-nen-chon-cong-vien-nuoc-nao-gan-seoul",
+    "password-manager-la-gi-co-nen-dung-trinh-quan-ly-mat-khau-nam-2026",
+    "personal-finance-2026-tiet-kiem-tu-dong-high-yield-savings-cd-emergency-fund",
+    "personal-finance-young-vietnamese-2026",
+    "phan-lan-giao-duc-02",
+    "phan-lan-hanh-phuc-01",
+    "phan-lan-sauna-05",
+    "phan-lan-tech-04",
+    "phan-lan-xanh-03",
+    "phia-sau-tay-lai-cung-duong-ven-bien-cam-ranh-vinh-hy",
+    "phuc-hoi-da-chay-nang-va-toc-hu-ton-di-bien",
+    "phuket-mua-mua-co-nen-di-khong",
+    "pin-iphone-15-pro-max-mua-may-cu-can-kiem-tra-gi",
+    "pin-iphone-16-pro-max-co-dang-chon",
+    "quan-ly-file-ca-nhan-khoa-hoc-cach-sap-xep-du-lieu-de-khong-bao-gio-that-lac",
+    "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026",
+    "quy-dau-tu-dung-toan-hoc-nhu-the-nao",
+    "quy-trinh-dang-ky-kiem-tra-chuyen-nganh-thu-tuc-hai-quan-so-2026",
+    "quyen-chu-quyen-na-uy-government-pension-fund-global",
+    "renaissance-technologies-quantitative-finance-toan-hoc-dau-tu",
+    "review-airpods-pro-3-2026",
+    "review-an-tet-xa-nha-du-lich-tet-2027-toi-uu-chi-phi-tranh-chat-chem",
+    "review-app-hoc-tieng-anh-online-2026",
+    "review-asus-zenbook-duo-2026-laptop-2-man-hinh",
+    "review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that",
+    "review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho",
+    "review-may-loc-khong-khi-gia-dinh-2026-cadr-hepa-chi-phi",
+    "review-may-pha-ca-phe-gia-dinh-2026",
+    "review-may-rua-bat-gia-dinh-2026",
+    "review-noi-chien-khong-dau-2026",
+    "review-paradise-2023-nguoi-giau-mua-thoi-gian-song",
+    "review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs",
+    "review-sac-du-phong-di-du-lich-2026",
+    "review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026",
+    "review-super-8-2011-biet-doi-thieu-nien-va-bi-an",
+    "review-vpn-2026-nordvpn-surfshark-protonvpn-viet-nam",
+    "risk-management-trong-tai-chinh-dung-toan-hoc",
+    "routine-buoi-sang-45-phut-nguoi-di-lam",
+    "sam-son-bien-thanh-hoa-gan-ha-noi",
+    "samsung-galaxy-s26-ultra-six-month-review",
+    "schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen",
+    "seoraksan-thang-10-ngam-la-do",
+    "seoraksan-thang-11-ngam-la-do",
+    "seoul-ngay-mua-nen-di-dau-20-diem-indoor-khong-phi-lich-trinh",
+    "seoul-thang-10-nen-di-dau",
+    "seoul-thang-11-nen-di-dau",
+    "shinhwa-theme-park-jeju-water-slides-va-diem-choi-nuoc-cho-gia-dinh-o-jungmun",
+    "sinh-nam-2027-menh-gi-huong-tot-dinh-mui",
+    "smart-ring-la-gi-nhan-thong-minh-suc-khoe-2026",
+    "so-sanh-gia-bao-hanh-va-trai-nghiem-yeu-to-nao-quan-trong-nhat",
+    "so-sanh-grabfood-shopeefood-baemin-trai-nghiem-giao-do-an-2026",
+    "so-sanh-phong-tuc-tet-ba-mien-bac-trung-nam-mam-co-le-nghi-may-man",
+    "so-sanh-ve-may-bay-tet-2027",
+    "song-ben-vung-scandinavia-moi-truong-tai-che",
+    "song-thong-minh-trong-thoi-dai-ai-cach-ai-dang-thay-doi-cuoc-song-hang-ngay",
+    "spider-man-brand-new-day-2026-review",
+    "starbucks-nguyen-van-troi-sai-gon-review",
+    "starbucks-vietnam-khong-gian-va-trai-nghiem",
+    "starbucks-vietnam-lich-su-va-hanh-trinh-tai-viet-nam",
+    "starbucks-vietnam-menu-do-uong-nen-thu",
+    "starbucks-vietnam-meo-goi-order-va-rewards",
+    "starbucks-vietnam-nhan-vien-va-dich-vu",
+    "stockholm-thua-dien-gamlastan-bien",
+    "su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha",
+    "supergirl-2026-review",
+    "suvarnabhumi-ve-trung-tam-bangkok-arl-bts-taxi-grab",
+    "tai-san-so-la-gi-viet-nam-thi-diem-san-crypto-hop-phap",
+    "techcombank-mobile-review-2026-phi-sinh-loi-tu-dong-chuyen-tien",
+    "the-odyssey-2026-review",
+    "the-tin-dung-lan-dau-2026-chon-sao-khong-phi-an",
+    "thiet-ke-nordic-toida-gian-noi-that",
+    "thoi-tiet-han-quoc-thang-10",
+    "thoi-tiet-han-quoc-thang-11",
+    "thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue",
+    "thue-hanbok-o-seoul-di-cung-dien-lang-hanok-va-chup-anh-sao-cho-dang-tien",
+    "thuy-dien-noi-khai-sinh-spotify-va-bluetooth",
+    "tien-quyen-gop-wikipedia-dung-vao-dau",
+    "tin-chi-carbon-va-trao-luu-net-zero",
+    "toan-hoc-dinh-cao-trong-tai-chinh",
+    "toi-uu-wifi-nha-pho-chung-cu-viet-nam",
+    "top-20-hoat-dong-khi-du-lich-han-quoc-2026-choi-gi-o-seoul-busan-jeju-va-gan-seoul",
+    "top-dia-diem-truot-tuyet-o-han-quoc-mua-dong-nen-di-khu-nao-neu-lan-dau-truot-tuyet",
+    "trai-nghiem-icehotel-va-ngam-aurora-thuy-dien",
+    "trai-nghiem-k-beauty-o-seoul-makeup-personal-color-va-lich-trinh-cho-nguoi-me-lam-dep",
+    "trao-luu-green-camping-cam-trai-hoang-so",
+    "travel-budget-cach-lap-ngan-sach-du-lich-thong-minh",
+    "travel-checklist-danh-sach-chuan-bi-truoc-chuyen-di-quoc-te",
+    "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong",
+    "tren-tay-iphone-16-pro-max-man-hinh-6-9-inch",
+    "trending-topic-20260713",
+    "trending-topic-20260714",
+    "trending-topic-20260715",
+    "triet-ly-song-lagom-va-van-hoa-fika",
+    "trip-coins-coupon-uu-dai-trip-com-cach-dat-phong-gia-re",
+    "trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan",
+    "trip-com-vs-booking-agoda-expedia-nen-dat-o-dau",
+    "tuong-lai-trip-com-ai-tripgenie-du-lich-thong-minh-2026",
+    "ubon-ratchathani-candle-festival-thai-lan-thang-7",
+    "udo-jeju-dao-nho-bien-da-den-hai-dang-trang-va-cach-tranh-nong-nua-ngay",
+    "veritable-content-buc-tranh-tong-the-ve-giao-dien-content-va-kien-truc-cong-nghe-phia-sau-blog",
+    "vi-sao-ngay-cang-nhieu-nguoi-thanh-cong-dung-ai-de-ra-quyet-dinh",
+    "vi-sao-review-dai-chua-chac-da-dang-tin",
+    "vietnam-travel-guide-2026",
+    "visa-han-bi-tu-choi-ly-do-va-lan-2",
+    "vivaldi-park-ski-world-co-dang-di-truot-tuyet-tu-seoul-trong-ngay-khong",
+    "vpbank-neo-review-2026-app-ngan-hang-so-hop-voi-ai",
+    "wellness-spa-scandinavia-sauna-nong",
+    "wikipedia-kiem-tien-duy-tri-hoat-dong-nhu-the-nao",
+    "wolmido-incheon-bien-boardwalk-va-diem-choi-gan-seoul-cho-gia-dinh",
+    "wwdc26-da-qua-nhan-dinh-sau-su-kien-ve-siri-ai-ios-27-va-nhung-gi-apple-chua-noi",
+    "wwdc26-phan-tich-nhung-tinh-nang-ios-27-va-macos-27-apple-mang-len-san-khau",
+    "xay-dung-he-dieu-hanh-ca-nhan-bang-notion-google-calendar-va-ai",
+    "xay-dung-thuong-hieu-ca-nhan-bang-blog-hugo-python-tiktok",
+    "xem-musical-va-show-o-seoul-trai-nghiem-buoi-toi-dang-thu-khi-du-lich-han-quoc",
+    "xin-visa-han-quoc-du-lich-tu-tuc-dien-thu-nhap-8000-usd",
+    "xu-huong-banh-me-den-va-frozen-yogurt-froyo-2026",
+    "xu-huong-gio-qua-tet-dinh-mui-2027-qua-tang-xanh-va-suc-khoe",
+    "xu-huong-mouth-tape-va-cach-lam-mat-phong-ngu",
+    "xu-huong-thoi-trang-mau-vang-bo-va-giay-jelly",
+    "yongpyong-ski-resort-resort-truot-tuyet-noi-tieng-o-pyeongchang-co-hop-voi-du-khach-viet"
+  ],
   "orphans_after": 0,
-  "generated_at": "2026-07-24T01:11:58+07:00"
+  "posts_missing_outbound_after": 0
 }

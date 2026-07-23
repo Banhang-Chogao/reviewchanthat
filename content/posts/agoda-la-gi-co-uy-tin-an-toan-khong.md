@@ -1,12 +1,11 @@
 +++
 title = "Agoda là gì? Có uy tín và an toàn không? (Giải đáp 2026)"
 seo_title = "Agoda là gì? Có uy tín và an toàn không? 2026"
-commit = "599b2516"
+commit = "c3ef3275"
 date = "2026-07-13T14:14:00+07:00"
 draft = false
 author = "Minh Hoàng"
 authors = ["Minh Hoàng"]
-description = "Agoda là gì, có uy tín và an toàn không? Giải thích Agoda thuộc Booking Holdings, cách hoạt động, đánh giá Trustpilot thực tế và kinh nghiệm đặt phòng tránh mất tiền oan."
 slug = "agoda-la-gi-co-uy-tin-an-toan-khong"
 series = "agoda-toan-tap"
 series_order = 1
@@ -33,6 +32,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:33:50+07:00"
 image_query = "credit card finance desk"
 date_display = "13-07-2026 14:14:00 GMT +7"
+description = "Giải thích Agoda thuộc Booking Holdings, cách hoạt động, đánh giá Trustpilot thực tế và kinh nghiệm đặt phòng tránh mất tiền oan."
 
 [[faq]]
 question = "Agoda là của nước nào?"

@@ -1,17 +1,17 @@
 +++
 title = "Review robot hút bụi lau nhà 2026: Roborock Qrevo Slim vs Xiaomi X20+ vs Ecovacs Deebot T30 — đứa nào xứng đáng vào nhà bạn?"
-seo_title = "Review robot hút bụi lau nhà 2026: Roborock, Xiaomi, Ecovacs nên mua loại nào?"
-commit = "1aceb865"
+commit = "36d78911"
 date = "2026-07-14T03:00:00+07:00"
 slug = "review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs"
 draft = false
 categories = ["review"]
 tags = ["robot hút bụi 2026", "robot lau nhà", "Roborock Qrevo Slim", "Xiaomi X20+", "Ecovacs Deebot T30", "review robot hút bụi", "robot hút bụi lau nhà", "smart home", "nhà thông minh"]
-description = "Review robot hút bụi lau nhà 2026: so sánh Roborock Qrevo Slim, Xiaomi X20+ và Ecovacs Deebot T30 sau một tháng dùng thực tế — hút, lau, bản đồ, app, giá bán tại Việt Nam."
 author = "Minh Hoàng"
 date_display = "14-07-2026 03:00:00 GMT +7"
 image = "images/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.webp"
 thumbnail = "images/posts/review-robot-hut-bui-lau-nha-2026-roborock-xiaomi-ecovacs.webp"
+seo_title = "Review robot hút bụi lau nhà: Roborock, Xiaomi, Ecovacs"
+description = "Review robot hút bụi lau nhà 2026: so sánh Roborock Qrevo Slim, Xiaomi X20+ và Ecovacs Deebot T30 sau một tháng dùng thực tế — hút, lau, bản đồ, app, giá bán."
 
 [[faq]]
 question = "Robot hút bụi lau nhà loại nào tốt nhất 2026?"

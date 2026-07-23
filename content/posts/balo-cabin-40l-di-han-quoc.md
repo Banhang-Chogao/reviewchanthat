@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-07-15T21:40:00+07:00"
-commit = "02980ce8"
+commit = "e1578251"
 description = "Review balo cabin 40L đi Hàn 4-5 ngày: mang gì vừa, chuẩn kích thước xách tay hãng bay, cổng sạc USB và chống nước thực tế — checklist gọn."
 draft = false
 image = "images/posts/balo-cabin-40l-di-han-quoc.webp"
@@ -12,6 +12,7 @@ slug = "balo-cabin-40l-di-han-quoc"
 tags = ["balo cabin", "Hàn Quốc", "review", "hành lý xách tay"]
 title = "Balo cabin 40L đi Hàn: mang gì vừa, cổng sạc, chống nước ra sao"
 date_display = "15-07-2026 21:40:00 GMT +7"
+seo_title = "Balo cabin 40L đi Hàn: chọn size và đồ cần mang"
 
 [ai_summary]
 collapsed = false
@@ -113,6 +114,16 @@ Nếu bay hãng siết chặt, đừng nhồi 40L căng cứng như bao gạo. H
 - Bạn đau vai/lưng và balo full 8–9 kg là cực hình — lúc đó vali có bánh xe vẫn nhân văn hơn “chơi ngầu”
 
 Mùa hè Hàn (nóng ẩm, có mưa) balo 40L rất sướng vì đồ mỏng. Mùa đông vẫn được nếu bạn **mặc lớp dày nhất lên máy bay** và chỉ để lớp mỏng trong balo.
+
+Một lát cắt liên quan là [Checklist vali đi Hàn mùa hè: mặc gì, mang gì để không khổ vì nóng mưa](/posts/checklist-vali-di-han-mua-he-mac-gi-mang-gi-de-khong-kho-vi-nong-mua/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+Để đối chiếu trước khi quyết định, [Ngủ đủ khi lệch múi giờ: jet lag Hàn–VN và mẹo 48 giờ đầu](/posts/jet-lag-han-viet-ngu-du-48-gio-dau/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
+
+
 
 ## Tiêu chí chọn balo cabin 40L — theo mức độ quan trọng
 

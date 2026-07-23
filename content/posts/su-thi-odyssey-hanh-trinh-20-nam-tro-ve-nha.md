@@ -7,8 +7,9 @@ image = "images/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.webp"
 thumbnail = "images/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha.webp"
 categories = ["review"]
 tags = ["su-thi-hy-lap", "odyssey", "odysseus", "homer", "van-hoc-co-dien", "phim-co-trang", "review-phim"]
-commit = "26bf2d62"
+commit = "1aceb865"
 date_display = "15-07-2026 13:00:00 GMT +7"
+seo_title = "Sử thi Odyssey: hành trình 20 năm trở về nhà"
 
 [[external_links]]
 url = "https://en.wikipedia.org/wiki/Odyssey"

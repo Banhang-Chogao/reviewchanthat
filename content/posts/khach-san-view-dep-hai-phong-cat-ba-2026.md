@@ -1,7 +1,6 @@
 +++
 title = "Top khách sạn view đẹp ở Hải Phòng & Cát Bà đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-seo_title = "Khách sạn view đẹp Hải Phòng & Cát Bà 2026: Review & chọn phòng"
-commit = "e1b87c29"
+commit = "1aceb865"
 date = "2026-07-12T15:22:00+07:00"
 draft = false
 description = "Khách sạn view đẹp Hải Phòng và Cát Bà 2026: review 6 khách sạn resort nghỉ dưỡng nổi bật từ dữ liệu Trip.Best, kèm bảng so sánh và kinh nghiệm chọn phòng."
@@ -28,6 +27,7 @@ image_alt = "Ảnh minh họa khách sạn view đẹp ở Hải Phòng và Cát
 image_query = "khách sạn view đẹp Hải Phòng Cát Bà resort biển"
 image_attribution_checked_at = "2026-07-12T15:56:58+07:00"
 date_display = "12-07-2026 15:22:00 GMT +7"
+seo_title = "Khách sạn view đẹp Hải Phòng, Cát Bà: review 2026"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"

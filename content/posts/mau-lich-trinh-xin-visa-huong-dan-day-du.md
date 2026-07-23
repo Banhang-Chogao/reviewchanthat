@@ -1,17 +1,17 @@
 +++
 title = "Mẫu lịch trình du lịch để xin visa: hướng dẫn đầy đủ + AI Travel Planner"
-seo_title = "Mẫu lịch trình xin visa 2026: hướng dẫn itinerary chuẩn lãnh sự bằng AI"
-description = "Mẫu lịch trình xin visa (visa itinerary) chuyên nghiệp cho hồ sơ xin visa du lịch. Hướng dẫn chi tiết các mục cần có trong itinerary và cách dùng AI Travel Planner để tạo lịch trình chuẩn lãnh sự trong vài phút."
 slug = "mau-lich-trinh-xin-visa-huong-dan-day-du"
 date = "2026-07-18T01:31:55+07:00"
 date_display = "18-07-2026 01:31:55 GMT +7"
-commit = "37305aaa"
+commit = "c937793b"
 categories = ["du-lich"]
 tags = ["visa itinerary", "mẫu lịch trình xin visa", "travel itinerary template", "AI travel planner", "itinerary for visa", "visa application", "du lịch"]
 author = "Minh Hoàng"
 draft = false
 image = "images/posts/mau-lich-trinh-xin-visa-huong-dan-day-du.webp"
 thumbnail = "images/posts/mau-lich-trinh-xin-visa-huong-dan-day-du.webp"
+seo_title = "Mẫu lịch trình xin visa: cách lập đúng chuẩn"
+description = "Mẫu lịch trình xin visa (visa itinerary) chuyên nghiệp cho hồ sơ xin visa du lịch."
 
 [[faq]]
 question = "Lịch trình xin visa cần những thông tin gì?"
@@ -173,6 +173,16 @@ Một itinerary chuyên nghiệp nên có phương án dự phòng cho trường
 Sau nhiều lần tự làm itinerary và thấy nó tốn thời gian — tra Google Maps, check khách sạn, tính di chuyển — tôi nhận ra đây là việc hoàn hảo để giao cho AI. Không phải AI viết thay bạn, mà AI làm phần sắp xếp dữ liệu để bạn chỉ cần kiểm tra và hoàn thiện.
 
 [AI Travel Planner](/travel-planner/) của Review Chân Thật được thiết kế với chế độ Visa Itinerary, giúp bạn:
+
+Một lát cắt liên quan là [Cách viết Visa Itinerary chuyên nghiệp: hướng dẫn từng bước để tăng chất lượng hồ sơ xin visa](/posts/cach-viet-visa-itinerary-chuyen-nghiep/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+Để đối chiếu trước khi quyết định, [AI Travel Planner là gì? Cách tạo lịch trình du lịch chuyên nghiệp trong vài phút](/posts/ai-travel-planner-la-gi-cach-tao-lich-trinh-chuyen-nghiep/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
+
+
 
 ### Tự động tạo lịch trình theo ngày
 

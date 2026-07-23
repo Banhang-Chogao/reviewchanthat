@@ -1,6 +1,5 @@
 +++
 title = "Kinh nghiệm du lịch Nauy tự túc – từ Oslo đến Bắc Cực"
-seo_title = "Kinh nghiệm du lịch Nauy tự túc 2026: từ Oslo đến Bắc Cực — chi phí, lịch trình, mẹo hay"
 description = "Kinh nghiệm du lịch Nauy tự túc 2026 từ Oslo đến Bắc Cực: chi phí thực tế, lịch trình 10 ngày, phương tiện di chuyển và mẹo săn cực quang."
 slug = "kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc"
 date = "2026-07-15T17:55:00+07:00"
@@ -11,7 +10,8 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc.webp"
 thumbnail = "images/posts/kinh-nghiem-du-lich-nauy-tu-tuc-tu-oslo-den-bac-cuc.webp"
-commit = "7ea30ad4"
+commit = "1aceb865"
+seo_title = "Du lịch Nauy tự túc: Oslo, Bắc Cực và chi phí"
 
 [[faq]]
 question = "Đi Nauy tự túc cần bao nhiêu tiền?"

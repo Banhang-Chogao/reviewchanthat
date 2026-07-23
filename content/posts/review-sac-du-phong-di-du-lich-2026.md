@@ -5,7 +5,7 @@ seo_title = "Review sạc dự phòng đi du lịch 2026: dung lượng & USB-C 
 description = "Review sạc dự phòng đi du lịch 2026: chọn 10000 hay 20000mAh, cân nặng vali xách tay, USB-C PD, quy định pin máy bay và checklist đóng gói thực tế."
 date = "2026-07-15T18:10:00+07:00"
 date_display = "15-07-2026 18:10:00 GMT +7"
-commit = "02980ce8"
+commit = "e1578251"
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 slug = "review-sac-du-phong-di-du-lich-2026"
@@ -88,6 +88,9 @@ Bài này không xếp hạng top 10 theo kiểu dán nhãn vàng. Tôi muốn v
 Thêm nữa, nhiều nơi mình nghĩ “chắc có ổ cắm” lại không như mong đợi: quán cafe đông, cổng USB trên xe bus hỏng, phòng khách sạn chỉ có một ổ gần giường, còn bàn làm việc thì xa. Sạc dự phòng lúc này không chỉ để cứu pin 1%, mà để bạn chủ động: map, dịch ngôn ngữ, gọi xe, thanh toán, chụp kỷ niệm.
 
 Tôi cũng thấy thị trường power bank năm nay vẫn chia hai thái cực. Một bên là hàng rõ thông số, USB-C PD, vỏ chắc, hơi đắt. Một bên là “siêu dung lượng – siêu rẻ – siêu nhẹ” khiến mình nghi ngờ ngay từ khâu cân bằng vật lý. Review chân thật với mình là: đừng mua theo con số to trên hộp, mua theo kịch bản chuyến đi.
+
+Một lát cắt liên quan là [Balo cabin 40L đi Hàn: mang gì vừa, cổng sạc, chống nước ra sao](/posts/balo-cabin-40l-di-han-quoc/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
 
 ## Tiêu chí chọn theo loại chuyến, không theo catalogue
 
@@ -220,6 +223,11 @@ Wh ≈ (mAh × V) / 1000, với V cell thường lấy khoảng 3,7V. Ví dụ 2
 - Pin còn một phần, không nhất thiết 100% nhưng cũng đừng 0% nếu bạn cần dùng ngay sau hạ cánh.
 
 Nếu hãng bay hoặc sân bay có trang quy định pin, hãy đọc lại trước 24–48 giờ, vì policy có thể cập nhật. Tôi không thay thế tư vấn pháp lý/hãng bay; chỉ chia sẻ thói quen tự bảo vệ chuyến đi.
+
+Để đối chiếu trước khi quyết định, [Travel Checklist: danh sách cần chuẩn bị trước chuyến đi quốc tế](/posts/travel-checklist-danh-sach-chuan-bi-truoc-chuyen-di-quoc-te/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
 
 ## USB-C PD trên đường: củ sạc GaN, ổ đa quốc gia, và thứ tự ưu tiên
 

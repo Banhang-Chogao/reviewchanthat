@@ -1,6 +1,5 @@
 +++
 title = "Ẩm thực Nauy – từ cá hồi đến truyền thống Viking"
-seo_title = "Ẩm thực Nauy 2026: từ cá hồi, lutefisk đến truyền thống Viking — món ngon nhất định thử"
 description = "Khám phá ẩm thực Nauy từ cá hồi nổi tiếng, lutefisk truyền thống đến phong cách Viking và ẩm thực hiện đại Bắc Âu qua trải nghiệm thực tế."
 slug = "am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking"
 date = "2026-07-15T18:35:00+07:00"
@@ -11,7 +10,8 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking.webp"
 thumbnail = "images/posts/am-thuc-nauy-tu-ca-hoi-den-truyen-thong-viking.webp"
-commit = "d7add282"
+commit = "1aceb865"
+seo_title = "Ẩm thực Nauy: cá hồi, lutefisk và văn hóa Viking"
 
 [[faq]]
 question = "Món ăn Na Uy nổi tiếng nhất là gì?"

@@ -1,7 +1,6 @@
 +++
 title = "Top khách sạn view đẹp gần TP.HCM đáng nghỉ dưỡng 2026: Review từ dữ liệu Trip.Best và kinh nghiệm chọn phòng"
-seo_title = "Khách sạn view đẹp gần TP.HCM 2026: Review & Kinh nghiệm chọn"
-commit = "e1b87c29"
+commit = "1aceb865"
 date = "2026-07-12T13:45:00+07:00"
 draft = false
 editor_pick = true
@@ -28,6 +27,7 @@ image_status = "verified"
 image_alt = "Ảnh chụp từ trên cao một khu resort ven biển với ô trắng và hàng cây xanh gần TP.HCM — nguồn Pexels"
 image_query = "khách sạn view đẹp resort nghỉ dưỡng"
 date_display = "12-07-2026 13:45:00 GMT +7"
+seo_title = "Khách sạn view đẹp gần TP.HCM: review và kinh nghiệm"
 
 [[internal_links]]
 ref = "posts/khach-san-view-dep-gan-ha-noi-2026.md"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-16T06:43:16+07:00"
-commit = "02980ce8"
+commit = "e1578251"
 description = "Tối ưu Wi-Fi nhà phố và chung cư VN: đặt router, chọn kênh 2.4/5GHz, tường bê tông và khi nào cần mesh. Checklist đo tốc độ từng phòng."
 draft = false
 image = "images/posts/toi-uu-wifi-nha-pho-chung-cu-viet-nam.webp"
@@ -12,6 +12,7 @@ slug = "toi-uu-wifi-nha-pho-chung-cu-viet-nam"
 tags = ["Wi-Fi", "router", "mesh", "nhà Việt Nam"]
 title = "Tối ưu Wi-Fi nhà phố/chung cư VN: đặt router, kênh, khi nào cần mesh"
 date_display = "16-07-2026 06:43:16 GMT +7"
+seo_title = "Tối ưu WiFi nhà phố: đặt router và chọn mesh"
 
 [ai_summary]
 collapsed = false
@@ -96,6 +97,11 @@ Cách tách đơn giản nhất:
 - Nếu Wi-Fi nhanh trên máy A nhưng chậm trên máy B → máy B hoặc app
 
 Đừng nâng gói cước khi chưa làm bài test dây. Rất nhiều hộ 300Mbps dây nhưng phòng ngủ 5GHz chỉ còn 20–40Mbps — nâng lên 1Gbps không cứu được tường chịu lực.
+
+Một lát cắt liên quan là [Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026](/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+
+
 
 ## 2. Vì sao nhà Việt Nam “khó Wi-Fi” hơn brochure
 
@@ -240,6 +246,11 @@ Sau mỗi lần đổi: đo lại 2–3 phòng quan trọng.
 - Wi-Fi dùng WPA2/WPA3, mật khẩu đủ dài — hàng xóm “ké” làm đầy airtime
 - Tắt WPS nếu không cần
 - Cập nhật firmware router (tránh link lạ; vào trang hãng hoặc app chính chủ)
+
+Để đối chiếu trước khi quyết định, [Cách bảo vệ dữ liệu cá nhân trên Internet - Hướng dẫn toàn diện cho người Việt 2026](/posts/bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
 
 ### 5.5. QoS / giới hạn thiết bị nặng (khi cần)
 

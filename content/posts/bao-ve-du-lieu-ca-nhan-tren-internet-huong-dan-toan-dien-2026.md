@@ -1,6 +1,5 @@
 +++
 title = "Cách bảo vệ dữ liệu cá nhân trên Internet - Hướng dẫn toàn diện cho người Việt 2026"
-seo_title = "Bảo vệ dữ liệu cá nhân trên Internet 2026: Hướng dẫn toàn diện cho người Việt"
 description = "Hướng dẫn toàn diện về bảo vệ dữ liệu cá nhân trên Internet cho người Việt 2026: mật khẩu, VPN, 2FA, quyền riêng tư và thói quen an toàn."
 slug = "bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026"
 date = "2026-07-15T18:07:16+07:00"
@@ -11,7 +10,8 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026.webp"
 thumbnail = "images/posts/bao-ve-du-lieu-ca-nhan-tren-internet-huong-dan-toan-dien-2026.webp"
-commit = "c6c2b9c6"
+commit = "1aceb865"
+seo_title = "Bảo vệ dữ liệu cá nhân trên Internet: hướng dẫn 2026"
 
 [[faq]]
 question = "Tôi nên dùng app quản lý mật khẩu nào?"

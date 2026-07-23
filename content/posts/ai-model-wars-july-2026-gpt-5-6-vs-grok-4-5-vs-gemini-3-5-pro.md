@@ -1,7 +1,6 @@
 +++
 title = "AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins?"
-seo_title = "GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro: AI Model Comparison July 2026"
-commit = "e1b87c29"
+commit = "1aceb865"
 date = "2026-07-14T01:14:29+07:00"
 slug = "ai-model-wars-july-2026-gpt-5-6-vs-grok-4-5-vs-gemini-3-5-pro"
 draft = false
@@ -29,6 +28,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-14T01:03:36+07:00"
 image_query = "ai model wars july 2026"
 image_alt = "Ảnh minh họa AI Model Wars July 2026: GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro — Which One Wins? — nguồn Pexels"
+seo_title = "GPT-5.6 vs Grok 4.5 vs Gemini 3.5 Pro: so sánh AI"
 
 [[internal_links]]
 ref = "posts/trending-topic-20260715.md"

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-15T22:50:00+07:00"
-commit = "02980ce8"
+commit = "19625cab"
 description = "Meal prep 5 ngày cho người bận: thực đơn Việt, chợ vs siêu thị, hộp đựng, chi phí VND và an toàn thực phẩm thực tế."
 draft = false
 image = "images/posts/meal-prep-5-ngay-nguoi-ban-viet-nam.webp"
@@ -12,6 +12,7 @@ tags = ["meal prep", "nấu ăn", "tiết kiệm", "đời sống"]
 thumbnail = "images/posts/meal-prep-5-ngay-nguoi-ban-viet-nam.webp"
 title = "Meal prep 5 ngày cho người bận: thực đơn VN, chi phí và hộp đựng"
 date_display = "15-07-2026 22:50:00 GMT +7"
+seo_title = "Meal prep 5 ngày: thực đơn Việt cho người bận"
 
 [ai_summary]
 collapsed = false
@@ -226,9 +227,19 @@ Meal prep chỉ “tiết kiệm” khi **không làm bạn đi viện**. Vài n
 
 Tài liệu quốc tế (WHO về an toàn thực phẩm, FDA về bảo quản) đều nhấn mạnh: **sạch – tách riêng sống/chín – nấu chín – giữ đúng nhiệt độ – dùng nguyên liệu an toàn**. Áp dụng vào bếp Việt là đủ, không cần thuộc lòng thuật ngữ.
 
+Một lát cắt liên quan là [Routine buổi sáng 45 phút cho người đi làm: thực tế, không toxic productivity](/posts/routine-buoi-sang-45-phut-nguoi-di-lam/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+
+
+
 ## Thực đơn 5 ngày kiểu Việt — realistic, không mơ mộng
 
 Dưới đây là **một vòng mẫu** cho 1 người, bữa trưa mang đi (có thể nhân đôi nếu meal prep cả tối). Bạn chỉnh mặn nhạt theo khẩu vị.
+
+Để đối chiếu trước khi quyết định, [Dọn dẹp điện thoại 1 buổi: app, ảnh, thông báo — lấy lại sự tập trung](/posts/don-dep-dien-thoai-1-buoi-tap-trung/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
 
 ### Danh sách đi chợ / siêu thị (1 người, ~5 trưa)
 

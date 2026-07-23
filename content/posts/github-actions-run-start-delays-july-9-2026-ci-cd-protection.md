@@ -3,7 +3,7 @@ noindex = true
 title = "GitHub Actions Delays Starting Runs on July 9, 2026: What Happened, Why Pages Builds Failed, and How to Protect CI/CD"
 date = "2026-07-09T20:21:28+07:00"
 date_display = "09-07-2026 20:21:28 GMT +7"
-commit = "e1b87c29"
+commit = "3f6547d4"
 slug = "github-actions-run-start-delays-july-9-2026-ci-cd-protection"
 categories = ["cong-nghe"]
 tags = ["GitHub Actions", "GitHub Pages", "CI/CD", "DevOps", "GitHub Status", "incident response"]
@@ -75,6 +75,16 @@ When hosted-runner start delays happen, the workflow can be created but not actu
 That is why Pages builds can appear to fail while the website itself remains accessible. The live site is the previous successful deployment. The new deployment is delayed because the build pipeline has not completed.
 
 Repeatedly clicking "Run workflow" can make the situation worse. If a workflow uses a concurrency group, new dispatches may cancel older runs or stack additional queued work behind the same hosted-runner shortage. During an Actions incident, one clean deploy attempt is often better than a burst of manual retries.
+
+Một lát cắt liên quan là [CI/CD Root Cause Playbook: safe vs unsafe autofix cho blog Hugo trên GitHub Pages](/posts/ci-cd-root-cause-playbook-safe-vs-unsafe-autofix/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+Để đối chiếu trước khi quyết định, [GitHub API rate limit và Pages rate limit: đọc log, backoff, giảm fan-out](/posts/github-api-va-pages-rate-limit-cach-doc-va-giam-tai/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
+
+
 
 ## How to tell platform delay from a code bug
 

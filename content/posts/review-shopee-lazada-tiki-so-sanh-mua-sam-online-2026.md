@@ -1,7 +1,6 @@
 +++
 title = "Shopee vs Lazada vs Tiki 2026: Review Trải Nghiệm Mua Sắm Online Sau Hàng Trăm Đơn"
-seo_title = "So sánh Shopee, Lazada, Tiki 2026: App nào rẻ và uy tín nhất?"
-commit = "749056e9"
+commit = "1aceb865"
 date = "2026-07-15T03:48:00+07:00"
 slug = "review-shopee-lazada-tiki-so-sanh-mua-sam-online-2026"
 draft = false
@@ -25,6 +24,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pixabay_api"
 image_status = "verified"
+seo_title = "Shopee, Lazada, Tiki: app nào đáng mua 2026?"
 
 [[external_links]]
 url = "https://shopee.vn"

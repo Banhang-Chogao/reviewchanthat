@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review", "cong-nghe"]
 date = "2026-06-18T10:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Benchmark điểm cao nhưng dùng thực tế lại không mượt? Bài viết này giải thích vì sao và cách bạn nên đánh giá sản phẩm công nghệ."
 draft = false
 image = "images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp"
@@ -24,6 +24,7 @@ tags = ["benchmark", "trải nghiệm thật", "review công nghệ"]
 thumbnail = "images/posts/review-cong-nghe-nen-tin-benchmark-hay-trai-nghiem-that.webp"
 title = "Review công nghệ: nên tin benchmark hay trải nghiệm thật?"
 date_display = "18-06-2026 10:00:00 GMT +7"
+pillar = true
 
 [ai_summary]
 collapsed = false
