@@ -1,17 +1,17 @@
 +++
 title = "Review ASUS Zenbook DUO 2026: laptop hai màn hình đã chín, nhưng chỉ dành cho ai biết cần"
-seo_title = "Review ASUS Zenbook DUO 2026: laptop hai màn hình đáng mua không?"
-commit = "950c173d"
+commit = "1aceb865"
 date = "2026-07-14T01:14:29+07:00"
 slug = "review-asus-zenbook-duo-2026-laptop-2-man-hinh"
 draft = false
 categories = ["review"]
 tags = ["ASUS Zenbook DUO 2026", "laptop hai màn hình", "dual-screen laptop", "Intel Panther Lake", "Arc B390", "review laptop", "ultrabook"]
-description = "Review ASUS Zenbook DUO 2026: laptop hai màn hình OLED 3K 144Hz, Intel Core Ultra X9 388H, pin 99Wh. Trải nghiệm thực tế sau một tuần dùng — có nên mua ở giá 90 triệu?"
 author = "Minh Hoàng"
 date_display = "14-07-2026 01:14:29 GMT +7"
 image = "images/posts/review-asus-zenbook-duo-2026-laptop-2-man-hinh.webp"
 thumbnail = "images/posts/review-asus-zenbook-duo-2026-laptop-2-man-hinh.webp"
+seo_title = "Review ASUS Zenbook DUO 2026: laptop hai màn hình"
+description = "Review ASUS Zenbook DUO 2026: laptop hai màn hình OLED 3K 144Hz, Intel Core Ultra X9 388H, pin 99Wh."
 
 [[faq]]
 question = "ASUS Zenbook DUO 2026 giá bao nhiêu tại Việt Nam?"

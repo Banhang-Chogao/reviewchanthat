@@ -5,7 +5,7 @@ seo_title = "Bảo hiểm du lịch quốc tế: khi nào cần & điều khoả
 description = "Bảo hiểm du lịch quốc tế 2026: khi nào cần mua, case Hàn Nhật Đông Nam Á, loại trừ thường gặp, checklist claim và cách đọc điều khoản trước khi chốt."
 date = "2026-07-15T19:20:00+07:00"
 date_display = "15-07-2026 19:20:00 GMT +7"
-commit = "02980ce8"
+commit = "e1578251"
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 slug = "bao-hiem-du-lich-quoc-te-khi-nao-can"
@@ -92,6 +92,14 @@ Nó **không** thay thế:
 - Ý thức an toàn giao thông, đồ uống, giấy tờ.
 
 Nó cũng **không** biến mọi rủi ro thành “miễn phí”. Nhiều gói có mức miễn thường, đồng bảo hiểm, hạn mức từng hạng mục, và danh sách loại trừ dài hơn phần marketing.
+
+Một lát cắt liên quan là [Mẫu lịch trình du lịch để xin visa: hướng dẫn đầy đủ + AI Travel Planner](/posts/mau-lich-trinh-xin-visa-huong-dan-day-du/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+Để đối chiếu trước khi quyết định, [Travel Budget: cách lập ngân sách du lịch thông minh trước khi xin visa](/posts/travel-budget-cach-lap-ngan-sach-du-lich-thong-minh/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
 
 ## Khi nào thật sự cần — và khi nào có thể cân nhắc kỹ
 
@@ -325,6 +333,8 @@ Cách mình hay tính:
 Nếu phí bảo hiểm bằng 1–3% giá trị chuyến mà mang lại ngủ ngon và hotline lúc 2h sáng, thường là trade-off hợp lý với mình. Nếu gói đắt vì gắn thêm quyền lợi không dùng (hủy chuyến phức tạp trong khi vé đã flexible), hãy bớt option.
 
 Đừng dùng bảo hiểm như lý do để đi mạo hiểm hơn. Hợp đồng không thay não bộ.
+
+
 
 ## Mẫu tình huống để “thử” điều khoản (trước khi mua)
 

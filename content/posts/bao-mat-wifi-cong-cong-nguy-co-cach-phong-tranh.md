@@ -1,6 +1,5 @@
 +++
 title = "Bảo mật WiFi công cộng - Nguy cơ và cách phòng tránh cho người Việt 2026"
-seo_title = "Bảo mật WiFi công cộng 2026: Nguy cơ và giải pháp cho người Việt"
 description = "WiFi công cộng tiềm ẩn nhiều nguy cơ bảo mật. Hướng dẫn toàn diện về cách phòng tránh, công cụ cần thiết và lời khuyên thực tế cho người Việt Nam 2026."
 draft = false
 date = "2026-07-15T18:07:16+07:00"
@@ -11,7 +10,8 @@ tags = ["WiFi công cộng", "bảo mật", "an ninh mạng", "VPN", "WiFi an to
 author = "Minh Hoàng"
 image = "images/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.webp"
 thumbnail = "images/posts/bao-mat-wifi-cong-cong-nguy-co-cach-phong-tranh.webp"
-commit = "c6c2b9c6"
+commit = "1aceb865"
+seo_title = "Bảo mật WiFi công cộng: cách phòng tránh rủi ro"
 
 [[faq]]
 question = "Dùng WiFi công cộng có nguy hiểm không?"

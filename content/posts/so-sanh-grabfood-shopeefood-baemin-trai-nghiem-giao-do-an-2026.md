@@ -1,7 +1,6 @@
 +++
 title = "GrabFood vs ShopeeFood vs Baemin: So Sánh Trải Nghiệm Giao Đồ Ăn Tại Việt Nam 2026"
-seo_title = "So sánh GrabFood, ShopeeFood, Baemin 2026: App nào rẻ và nhanh nhất?"
-commit = "338689d1"
+commit = "1aceb865"
 date = "2026-07-15T03:13:00+07:00"
 slug = "so-sanh-grabfood-shopeefood-baemin-trai-nghiem-giao-do-an-2026"
 draft = false
@@ -25,6 +24,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+seo_title = "GrabFood, ShopeeFood, Baemin: app nào tốt hơn?"
 
 [[external_links]]
 url = "https://www.grab.com/vn/food/"

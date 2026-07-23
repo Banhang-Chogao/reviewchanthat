@@ -1,7 +1,6 @@
 +++
 title = "Cầu trên biển ngắm cánh đồng điện gió Cà Mau: trải nghiệm du lịch xanh độc lạ 2026"
-seo_title = "Du lịch điện gió Cà Mau: cầu trên biển 17 km & kinh nghiệm đi"
-commit = "e1b87c29"
+commit = "1aceb865"
 date = "2026-07-12T17:30:00+07:00"
 draft = false
 editor_pick = true
@@ -29,6 +28,7 @@ image_alt = "Ảnh minh họa cánh đồng điện gió ven biển với các t
 image_query = "điện gió turbine ven biển offshore wind farm"
 image_attribution_checked_at = "2026-07-12T17:53:47+07:00"
 date_display = "12-07-2026 17:30:00 GMT +7"
+seo_title = "Cầu trên biển Cà Mau: ngắm điện gió và kinh nghiệm đi"
 
 [[internal_links]]
 ref = "posts/lang-lo-lang-chai-ngoi-do-ven-bien-tuy-hoa.md"

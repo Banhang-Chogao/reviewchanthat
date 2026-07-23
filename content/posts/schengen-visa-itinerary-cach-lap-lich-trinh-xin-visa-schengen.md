@@ -1,20 +1,16 @@
 +++
 title = "Schengen Visa Itinerary: cách lập lịch trình xin visa Schengen đúng chuẩn"
-seo_title = "Schengen Visa Itinerary 2026: hướng dẫn lập lịch trình xin visa Schengen chuẩn lãnh sự"
-description = "Hướng dẫn chi tiết cách lập Schengen visa itinerary (lịch trình xin visa Schengen) đúng chuẩn lãnh sự: quy tắc nhập cảnh, số ngày tối đa, trình tự nước đến và mẹo trình bày hồ sơ chuyên nghiệp."
 slug = "schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen"
 date = "2026-07-18T05:00:00+07:00"
 date_display = "18-07-2026 05:00:00 GMT +7"
-commit = "e64c8c2f"
+commit = "a3de0e7e"
 categories = ["du-lich"]
 tags = ["Schengen itinerary", "Schengen visa itinerary", "visa Schengen", "lịch trình Schengen", "itinerary Schengen", "AI travel planner"]
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
-
 image = "images/posts/schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen.webp"
 thumbnail = "images/posts/schengen-visa-itinerary-cach-lap-lich-trinh-xin-visa-schengen.webp"
-
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/man-using-atm-machine-11284045/"
 image_provider = "pexels"
@@ -31,6 +27,9 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-18T08:11:11+07:00"
 image_query = "atm banking transaction"
 image_alt = "Ảnh minh họa Schengen Visa Itinerary: cách lập lịch trình xin visa Schengen đúng chuẩn — nguồn Pexels"
+seo_title = "Schengen visa itinerary: cách lập lịch trình chuẩn"
+description = "Hướng dẫn lập Schengen visa itinerary đúng chuẩn lãnh sự: quy tắc nhập cảnh, số ngày lưu trú, trình tự nước đến và lỗi cần tránh."
+
 [[internal_links]]
 ref = "posts/cach-viet-visa-itinerary-chuyen-nghiep.md"
 title = "Cách viết Visa Itinerary chuyên nghiệp"

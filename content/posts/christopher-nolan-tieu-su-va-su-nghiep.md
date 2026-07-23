@@ -7,8 +7,9 @@ image = "images/posts/christopher-nolan-tieu-su-va-su-nghiep.webp"
 thumbnail = "images/posts/christopher-nolan-tieu-su-va-su-nghiep.webp"
 categories = ["doi-song"]
 tags = ["christopher-nolan", "dao-dien", "dien-anh", "the-odyssey", "nolan", "dark-knight", "inception", "interstellar", "oppenheimer", "su-thi-hy-lap", "homer", "odyssey-2026"]
-commit = "cedc2cb2"
+commit = "1aceb865"
 date_display = "15-07-2026 13:00:00 GMT +7"
+seo_title = "Christopher Nolan: sự nghiệp từ indie đến Odyssey"
 
 [[internal_links]]
 ref = "/posts/su-thi-odyssey-hanh-trinh-20-nam-tro-ve-nha"

@@ -1,20 +1,16 @@
 +++
 title = "Những lỗi thường gặp khi chuẩn bị lịch trình xin visa và cách tránh"
-seo_title = "Visa Itinerary Mistakes 2026: những lỗi lịch trình xin visa cần tránh"
-description = "Tổng hợp những lỗi itinerary thường gặp khi xin visa du lịch (visa itinerary mistakes) và cách khắc phục: sai quy tắc main destination, booking không khớp, budget không thực tế, và mẹo trình bày hồ sơ."
 slug = "nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa"
 date = "2026-07-18T09:00:00+07:00"
 date_display = "18-07-2026 09:00:00 GMT +7"
-commit = "708e7e41"
+commit = "a3de0e7e"
 categories = ["du-lich"]
 tags = ["visa itinerary mistakes", "lỗi lịch trình xin visa", "visa bị từ chối", "itinerary bị lỗi", "kinh nghiệm xin visa", "AI travel planner"]
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
-
 image = "images/posts/nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa.webp"
 thumbnail = "images/posts/nhung-loi-thuong-gap-khi-chuan-bi-lich-trinh-xin-visa.webp"
-
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/woman-using-an-automated-teller-machine-5699341/"
 image_provider = "pexels"
@@ -31,6 +27,9 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-19T07:33:57+07:00"
 image_query = "atm banking transaction"
 image_alt = "Ảnh minh họa Những lỗi thường gặp khi chuẩn bị lịch trình xin visa và cách tránh — nguồn Pexels"
+seo_title = "Lỗi visa itinerary thường gặp và cách tránh"
+description = "Tổng hợp những lỗi itinerary thường gặp khi xin visa du lịch (visa itinerary mistakes) và cách khắc phục: sai quy tắc main destination, booking không khớp."
+
 [[internal_links]]
 ref = "travel-planner/"
 title = "AI Travel Planner"

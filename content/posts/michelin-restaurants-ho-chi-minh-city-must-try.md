@@ -1,7 +1,6 @@
 +++
 title = "Michelin Restaurants in Ho Chi Minh City You Have to Try (2026 Guide)"
-seo_title = "Michelin Restaurants in Ho Chi Minh City: 2026 Must-Try Guide"
-commit = "e1b87c29"
+commit = "1aceb865"
 date = "2026-07-12T23:00:00+07:00"
 draft = false
 post_lang = "en"
@@ -31,6 +30,7 @@ image_attribution_source = "pixabay_api"
 image_status = "verified"
 image_attribution_checked_at = "2026-07-12T22:58:40+07:00"
 date_display = "12-07-2026 23:00:00 GMT +7"
+seo_title = "Michelin restaurants in Ho Chi Minh City 2026"
 
 [[internal_links]]
 ref = "posts/how-to-choose-reputable-hotels-ho-chi-minh-city.md"

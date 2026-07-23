@@ -1,12 +1,11 @@
 +++
 title = "Trip.com tại Việt Nam và Đông Nam Á: dịch vụ, hỗ trợ, thanh toán"
 seo_title = "Trip.com tại Việt Nam & Đông Nam Á: dịch vụ, thanh toán"
-commit = "599b2516"
+commit = "c3ef3275"
 date = "2026-07-13T10:00:00+07:00"
 draft = false
 author = "Minh Hoàng"
 authors = ["Minh Hoàng"]
-description = "Trip.com phục vụ khách Việt ra sao: hỗ trợ tiếng Việt, giá VND, thanh toán thẻ quốc tế, chăm sóc 24/7, kho khách sạn khu vực — đánh giá trung thực ưu và nhược điểm."
 slug = "trip-com-tai-viet-nam-va-dong-nam-a-dich-vu-thanh-toan"
 series = "trip-com-toan-tap"
 series_order = 9
@@ -33,6 +32,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-13T08:41:42+07:00"
 image_query = "credit card finance desk"
 date_display = "13-07-2026 10:00:00 GMT +7"
+description = "Trip.com phục vụ khách Việt ra sao: hỗ trợ tiếng Việt, giá VND, thanh toán thẻ quốc tế, chăm sóc 24/7, kho khách sạn khu vực — đánh giá trung thực ưu và nhược."
 
 [[faq]]
 question = "Trip.com có hỗ trợ thanh toán bằng thẻ ATM nội địa Việt Nam không?"

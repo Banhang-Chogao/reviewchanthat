@@ -1,6 +1,5 @@
 +++
 title = "Review Super 8 (2011): Biệt đội thiếu niên và bí ẩn tàu hỏa đâm"
-seo_title = "Review Super 8 2011: Phim của J.J. Abrams và Steven Spielberg"
 slug = "review-super-8-2011-biet-doi-thieu-nien-va-bi-an"
 date = "2026-07-15T15:00:00+07:00"
 date_display = "15-07-2026 15:00:00 GMT +7"
@@ -24,7 +23,8 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
-commit = ""
+commit = "1aceb865"
+seo_title = "Review Super 8 (2011): bí ẩn chuyến tàu năm 1979"
 
 [[external_links]]
 url = "https://www.imdb.com/title/tt1650062/"

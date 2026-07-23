@@ -48,6 +48,14 @@ answer = "**Tại sao không phải mọi nước đều làm như Phần Lan?**
 
 **Phương pháp dạy học lấy học sinh làm trung tâm**: Giáo viên là facilitator (người hướng dẫn), không phải kẻ chuyên độc thuyết. Học sinh được khuyến khích suy nghĩ phản biện, đặt câu hỏi, và giải quyết vấn đề thực tế.
 
+Một lát cắt liên quan là [Phần Lan: Quốc Gia Hạnh Phúc Nhất Thế Giới – Triết Lý Sisu và Mô Hình Phúc Lợi Xã Hội](/posts/phan-lan-hanh-phuc-01/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+Để đối chiếu trước khi quyết định, [Sauna Phần Lan: Di Sản UNESCO Và Biểu Tượng Của Kết Nối Cộng Đồng Chân Thật](/posts/phan-lan-sauna-05/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
+
 ## Tại Sao Không Bài Tập Về Nhà Quá Tải?
 
 Phần Lan sớm nhận ra rằng bài tập về nhà quá nhiều:
@@ -91,6 +99,8 @@ Trên các kỳ thi quốc tế như PISA (Program for International Student Ass
 - Phần Lan xếp #1 trong "giáo dục bao quát" – tức là khoảng cách giữa học sinh giàu và học sinh nghèo là nhỏ nhất
 
 Điều này không xảy ra do may mắn mà do thiết kế. Khi tất cả học sinh nhận được sự hỗ trợ tốt, không ai bị bỏ lại.
+
+
 
 ## Các Thách Thức & Tranh Cãi
 

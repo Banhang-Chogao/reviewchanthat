@@ -5,12 +5,13 @@ date = "2026-07-15T14:30:00+07:00"
 description = "Khám phá nền kinh tế Nauy từ dầu mỏ, quỹ đầu tư quốc gia nghìn tỷ USD đến mô hình phúc lợi xã hội toàn dân — bài học cho các quốc gia đang phát triển."
 categories = ["du-lich"]
 tags = ["Nauy", "Norway", "Bắc Âu", "kinh-te-nauy", "quy-dau-tu-quoc-gia", "dau-mo-bac-au", "phuc-loi-xa-hoi"]
-commit = "565cc469"
+commit = "08e0b57e"
 draft = false
 image = "images/posts/kinh-te-Nauy-dau-mo-quy-dau-tu-va-mo-hinh-phuc-loi.webp"
 thumbnail = "images/posts/kinh-te-Nauy-dau-mo-quy-dau-tu-va-mo-hinh-phuc-loi.webp"
 author = "Duy Nguyen"
 date_display = "15-07-2026 14:30:00 GMT +7"
+seo_title = "Kinh tế Nauy: dầu mỏ, quỹ đầu tư và phúc lợi"
 
 [[faq]]
 question = "Nhờ đâu Na Uy giàu có như vậy?"

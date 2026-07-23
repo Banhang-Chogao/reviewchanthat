@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-16T06:43:16+07:00"
-commit = "02980ce8"
+commit = "e1578251"
 description = "Mac hay Windows 2026 cho dân văn phòng VN: chi phí 3 năm, Office Adobe, sửa chữa và khi nào Chromebook là đủ. Giá tham khảo VND."
 draft = false
 image = "images/posts/mac-hay-windows-2026-dan-van-phong.webp"
@@ -12,6 +12,7 @@ slug = "mac-hay-windows-2026-dan-van-phong"
 tags = ["Mac", "Windows", "văn phòng", "2026"]
 title = "Mac hay Windows 2026 cho dân văn phòng VN: chi phí 3 năm và phần mềm"
 date_display = "16-07-2026 06:43:16 GMT +7"
+seo_title = "Mac hay Windows 2026: chi phí 3 năm cho dân văn phòng"
 
 [ai_summary]
 collapsed = false
@@ -96,6 +97,9 @@ Trước khi nói chip và RAM, hãy viết ra **phần mềm mở mỗi ngày**
 - Photoshop / Canva / CapCut (nếu làm thêm truyền thông)
 
 Nếu danh sách của bạn dừng ở dòng “PDF ký số” và không có tool Windows-only, cả Mac lẫn Windows đều chạy tốt. Nếu có **phần mềm đóng dấu USB token chỉ driver Windows**, hoặc macro Excel gắn add-in x64 Windows, cuộc chơi nghiêng mạnh về Windows (hoặc remote vào máy Windows công ty).
+
+Để đối chiếu trước khi quyết định, [macOS 27 có gì mới cho dân văn phòng, creator và lập trình viên?](/posts/macos-27-cho-van-phong-creator-lap-trinh-vien/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
 
 ### Nhu cầu phần cứng thực tế 2026
 
@@ -191,6 +195,9 @@ Ví dụ minh họa (số tròn, không phải cam kết):
 - → Chi phí ròng ~ 17.000.000 / 3 năm
 
 Chênh nhau không còn 12 triệu lúc mua. Đôi khi Mac “đắt mà không đắt”, Windows “rẻ mà không rẻ” — **nếu** bạn thật sự giữ máy 3 năm và bán được đúng giá. Nếu bạn hay làm rơi máy, TCO Mac xấu đi rất nhanh.
+
+Một lát cắt liên quan là [macOS 27 beta có nên cài không? rủi ro, backup và cách quay về bản ổn định](/posts/macos-27-beta-co-nen-cai-khong/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
 
 ## 3. Mac năm 2026: điểm cộng và điểm trừ cho dân văn phòng VN
 
@@ -313,6 +320,8 @@ Một số người mua tablet + bàn phím thay Chromebook — cũng được c
 ### 7.5. Lập trình / IT support (văn phòng kỹ thuật)
 
 Ngoài scope “thuần văn phòng” nhưng hay bị hỏi: nhiều dev thích Mac; IT support doanh nghiệp Windows-heavy thì Windows tiện hơn. Đừng mua theo gu TikTok.
+
+
 
 ## 8. Mua máy công ty cấp hay mua cá nhân?
 

@@ -1,17 +1,17 @@
 +++
 title = "AI Inflation 2026: Why Your Next Laptop, Phone, and Gaming Console Will Cost More"
-seo_title = "AI Inflation 2026: Why Gadgets Cost More Due to AI Data Centers"
-commit = "e1b87c29"
+commit = "1aceb865"
 date = "2026-07-13T23:50:00+07:00"
 slug = "trending-topic-20260713"
 draft = false
 categories = ["cong-nghe"]
 tags = ["AI inflation", "AI data centers", "HBM memory", "chip shortage", "hardware prices 2026", "MacBook Pro price increase", "AI economics"]
-description = "AI data centers are consuming the world's memory chips, driving up prices for laptops, phones, and consoles. Here is why your next gadget costs more and how to buy smart in 2026."
 author = "Reviewchanthat"
 date_display = "13-07-2026 23:50:00 GMT +7"
 image = "images/posts/trending-topic-20260713.webp"
 thumbnail = "images/posts/trending-topic-20260713.webp"
+seo_title = "AI Inflation 2026: vì sao laptop và điện thoại tăng giá"
+description = "AI data centers are consuming the world's memory chips, driving up prices for laptops, phones, and consoles."
 
 [[faq]]
 question = "What is AI inflation?"

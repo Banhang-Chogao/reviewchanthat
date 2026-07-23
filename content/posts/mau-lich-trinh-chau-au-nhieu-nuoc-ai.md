@@ -1,20 +1,16 @@
 +++
 title = "Mẫu lịch trình du lịch châu Âu nhiều nước bằng AI"
-seo_title = "Europe Itinerary 2026: mẫu lịch trình châu Âu nhiều nước do AI tạo"
-description = "Mẫu lịch trình du lịch châu Âu nhiều nước (Europe itinerary) từ 7 đến 14 ngày. Hướng dẫn cách dùng AI Travel Planner để tạo multi-country itinerary châu Âu tối ưu chi phí, thời gian và điểm tham quan."
 slug = "mau-lich-trinh-chau-au-nhieu-nuoc-ai"
 date = "2026-07-18T08:00:00+07:00"
 date_display = "18-07-2026 08:00:00 GMT +7"
-commit = "708e7e41"
+commit = "a3de0e7e"
 categories = ["du-lich"]
 tags = ["Europe itinerary", "Europe travel planner", "Europe trip itinerary", "du lịch châu Âu", "lịch trình châu Âu", "AI travel planner"]
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
-
 image = "images/posts/mau-lich-trinh-chau-au-nhieu-nuoc-ai.webp"
 thumbnail = "images/posts/mau-lich-trinh-chau-au-nhieu-nuoc-ai.webp"
-
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/person-deposits-money-on-an-atm-5699385/"
 image_provider = "pexels"
@@ -31,6 +27,9 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-19T07:33:55+07:00"
 image_query = "atm banking transaction"
 image_alt = "Ảnh minh họa Mẫu lịch trình du lịch châu Âu nhiều nước bằng AI — nguồn Pexels"
+seo_title = "Lịch trình châu Âu nhiều nước: mẫu 7–14 ngày bằng AI"
+description = "Mẫu lịch trình du lịch châu Âu nhiều nước (Europe itinerary) từ 7 đến 14 ngày."
+
 [[internal_links]]
 ref = "travel-planner/"
 title = "AI Travel Planner"

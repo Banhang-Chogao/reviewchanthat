@@ -1,6 +1,5 @@
 +++
 title = "So sánh giá vé máy bay Tết 2027: Vietnam Airlines, Vietjet, Bamboo & mẹo đặt rẻ"
-description = "So sánh giá vé máy bay Tết 2027 giữa Vietnam Airlines, Vietjet Air, Bamboo Airways và Pacific Airlines — bảng giá tham khảo, mẹo săn vé rẻ và kinh nghiệm đặt vé từ thực tế."
 date = "2026-07-15T22:00:00+07:00"
 draft = false
 categories = ["du-lich"]
@@ -8,8 +7,7 @@ tags = ["vé máy bay Tết", "Vietnam Airlines Tết 2027", "Vietjet Tết 2027
 image = "images/posts/so-sanh-ve-may-bay-tet-2027.webp"
 thumbnail = "images/posts/so-sanh-ve-may-bay-tet-2027.webp"
 image_alt = "Ảnh minh họa So sánh giá vé máy bay Tết 2027: Vietnam Airlines, Vietjet, Bamboo & mẹo đặt rẻ — nguồn Pexels"
-commit = "f518318b"
-seo_title = "So Sánh Giá Vé Máy Bay Tết 2027: Vietnam Airlines, Vietjet, Bamboo"
+commit = "afba6239"
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/seafood-grilling-at-barbecue-19316738/"
 image_provider = "pexels"
@@ -26,6 +24,8 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T20:59:13+07:00"
 image_query = "so sánh giá vé máy"
 date_display = "15-07-2026 22:00:00 GMT +7"
+seo_title = "So sánh vé máy bay Tết 2027: hãng nào rẻ hơn?"
+description = "So sánh giá vé máy bay Tết 2027 giữa Vietnam Airlines, Vietjet Air, Bamboo Airways và Pacific Airlines — bảng giá tham khảo, mẹo săn vé rẻ và kinh nghiệm đặt."
 +++
 
 Năm nào cũng vậy, cứ đến tháng 7-8 là tôi bắt đầu nghe bạn bè than thở về giá vé máy bay Tết. Năm 2025 tôi chứng kiến một đồng nghiệp trả 12 triệu cho vé khứ hồi Sài Gòn - Hà Nội đúng ngày 28 Tết — gấp 4 lần giá ngày thường. Anh ta không đặt trước, không so sánh, không biết rằng chỉ cần đặt sớm 3 tháng đã tiết kiệm được 7 triệu.
@@ -93,6 +93,16 @@ Tổng hợp từ kinh nghiệm 5 năm theo dõi giá vé Tết:
 **Chặng Hà Nội - Đà Nẵng:**
 - Thường rẻ hơn chặng Sài Gòn vì ít nhu cầu hơn.
 - Đặt tháng 8-9, giá khoảng 600k-1 triệu/chiều.
+
+Một lát cắt liên quan là [Kinh nghiệm du lịch Tết Đinh Mùi 2027: Lịch trình, đặt phòng & di chuyển](/posts/kinh-nghiem-du-lich-tet-2027/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+Để đối chiếu trước khi quyết định, [Review chi tiết các dịch vụ đặt vé máy bay, tàu hỏa Tết 2027: Mẹo săn vé sớm không bị "hớ"](/posts/review-dat-ve-may-bay-tau-hoa-tet-2027-meo-san-ve-som-khong-bi-ho/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
+
+
 
 ## Chiến thuật đặt vé tổng thể
 

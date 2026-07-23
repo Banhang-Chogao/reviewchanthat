@@ -1,7 +1,7 @@
 +++
 title = "Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z"
 seo_title = "Quản lý tài chính cá nhân 2026 cho người mới đi làm"
-commit = "e1b87c29"
+commit = "1aceb865"
 date = "2026-07-13T23:44:27+07:00"
 slug = "quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026"
 draft = false
@@ -25,6 +25,7 @@ image_creator_id = ""
 image_attribution_verified = true
 image_attribution_source = "pexels_api"
 image_status = "verified"
+pillar = true
 
 [[internal_links]]
 ref = "posts/thue-crypto-viet-nam-ban-bitcoin-usdt-tai-san-so-co-phai-nop-thue.md"

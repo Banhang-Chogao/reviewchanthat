@@ -1,7 +1,6 @@
 +++
 title = "Du lịch Đà Lạt mùa hoa 2026: đi khi nào, ở đâu và lịch trình ra sao?"
-seo_title = "Du lịch Đà Lạt mùa hoa 2026: lịch trình, chi phí và kinh nghiệm thực tế"
-commit = "1505d4b6"
+commit = "f7ddfb7e"
 date = "2026-07-18T04:12:54+07:00"
 draft = false
 author = "Reviewchanthat"
@@ -29,6 +28,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-18T04:15:52+07:00"
 image_query = "du lịch đà lạt mùa"
 image_alt = "Ảnh minh họa Du lịch Đà Lạt mùa hoa 2026: đi khi nào, ở đâu và lịch trình ra sao? — nguồn Pexels"
+seo_title = "Du lịch Đà Lạt mùa hoa 2026: lịch trình và chi phí"
 
 [[faq]]
 question = "Đà Lạt mùa hoa 2026 nên đi vào tháng nào?"

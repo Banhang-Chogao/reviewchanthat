@@ -1,6 +1,5 @@
 +++
 title = "Vietnam Travel Guide 2026: Budget, Itineraries & Tips for First-Timers"
-description = "Complete Vietnam travel guide 2026 for first-time visitors — budget breakdown, best time to visit, 7-day and 14-day itineraries, local transport, food safety, visa info and honest cost estimates."
 date = "2026-07-15T21:30:00+07:00"
 draft = false
 categories = ["du-lich"]
@@ -8,7 +7,7 @@ tags = ["Vietnam travel guide", "Vietnam itinerary", "Vietnam budget", "travel V
 image = "images/posts/vietnam-travel-guide-2026.webp"
 thumbnail = "images/posts/vietnam-travel-guide-2026.webp"
 image_alt = "Ảnh minh họa Vietnam Travel Guide 2026: Budget, Itineraries & Tips for First-Timers — nguồn Pixabay"
-commit = "f518318b"
+commit = "afba6239"
 seo_title = "Vietnam Travel Guide 2026: Budget, Itineraries & Honest Tips"
 image_source = "Pixabay"
 image_source_url = "https://pixabay.com/photos/pendulum-map-navigation-compass-1934311/"
@@ -26,6 +25,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-15T20:59:11+07:00"
 image_query = "vietnam travel guide 2026 budget"
 date_display = "15-07-2026 21:30:00 GMT +7"
+description = "Complete Vietnam travel guide 2026 for first-time visitors — budget breakdown, best time to visit, 7-day and 14-day itineraries, local transport, food safety."
 +++
 
 I have traveled to Vietnam seven times in the past four years, and every single trip taught me something new. The first time I landed in Hanoi, I had no idea that crossing the street would be the most terrifying two minutes of my life. The second time, I learned that the $2 bowl of pho from a street cart in Saigon tastes better than any restaurant version I have ever had. By the seventh trip, I stopped making plans and started letting the country surprise me.
@@ -77,6 +77,16 @@ This is the itinerary I recommend for first-timers with limited time. It covers 
 **Day 5: Sapa (optional).** If you have extra time, take the overnight train from Hanoi to Lao Cai and then a bus to Sapa. The rice terraces are breathtaking from September to November. The train costs $25-40 for a soft sleeper.
 
 **Day 6: Return to Hanoi.** Fly to your next destination or head south.
+
+Một lát cắt liên quan là [Ho Chi Minh City in 3 Days: A Practical First-Timer Itinerary (2026)](/posts/ho-chi-minh-city-3-day-itinerary-first-timer-2026/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+Để đối chiếu trước khi quyết định, [Cách viết Visa Itinerary chuyên nghiệp: hướng dẫn từng bước để tăng chất lượng hồ sơ xin visa](/posts/cach-viet-visa-itinerary-chuyen-nghiep/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
+
+
 
 ## 14-Day North to South Itinerary
 

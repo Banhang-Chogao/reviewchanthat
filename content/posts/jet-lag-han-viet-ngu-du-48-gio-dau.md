@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song"]
 date = "2026-07-16T06:43:16+07:00"
-commit = "02980ce8"
+commit = "e1578251"
 description = "Jet lag chặng Hàn–Việt: lệch múi giờ, mẹo ánh sáng–caffeine, melatonin thận trọng và lịch ngủ 48 giờ đầu để ngủ đủ hơn."
 draft = false
 image = "images/posts/jet-lag-han-viet-ngu-du-48-gio-dau.webp"
@@ -231,7 +231,15 @@ Các khung giờ dưới đây là **gợi ý**, không phải đơn thuốc. Đ
 **Ngày 2:**
 
 - Quay routine Việt Nam: giờ ăn, giờ ngủ cũ  
-- Nếu vẫn dậy sớm hơn 1–1,5 giờ: bình thường vài ngày; đừng bù bằng ngủ bù loạn xạ  
+- Nếu vẫn dậy sớm hơn 1–1,5 giờ: bình thường vài ngày; đừng bù bằng ngủ bù loạn xạ
+
+Một lát cắt liên quan là [Balo cabin 40L đi Hàn: mang gì vừa, cổng sạc, chống nước ra sao](/posts/balo-cabin-40l-di-han-quoc/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+Để đối chiếu trước khi quyết định, [Lịch trình Seoul 3 ngày mùa mưa cho người đi lần đầu](/posts/lich-trinh-seoul-3-ngay-mua-mua-cho-nguoi-di-lan-dau/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
 
 ### Kịch bản C: Bay đêm về Việt, đến nửa đêm–rạng sáng
 

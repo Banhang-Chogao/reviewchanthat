@@ -5,13 +5,13 @@ date = "2026-07-15T14:00:00+07:00"
 description = "Chiến lược đầu tư tài chính cá nhân năm 2026 khi lãi suất xuống thấp — chứng khoán, bất động sản, vàng, quỹ ETF và tiền số cho người mới bắt đầu."
 categories = ["tai-chinh"]
 tags = ["dau-tu-tai-chinh", "lai-suat-thap", "tai-chinh-ca-nhan", "quy-etf", "chung-khoan-2026", "tiet-kiem-thong-minh"]
-commit = "565cc469"
+commit = "08e0b57e"
 draft = false
 image = "images/posts/dau-tu-thong-minh-thoi-lai-suat-thap-2026.webp"
 thumbnail = "images/posts/dau-tu-thong-minh-thoi-lai-suat-thap-2026.webp"
 date_display = "15-07-2026 14:00:00 GMT +7"
 author = "Minh Hoàng"
-seo_title = "Đầu tư thông minh thời lãi suất thấp 2026 — Chiến lược tài chính cá nhân"
+seo_title = "Đầu tư thời lãi suất thấp 2026: chiến lược cho người Việt"
 
 [[faq]]
 question = "Nên gửi tiết kiệm hay đầu tư chứng khoán khi lãi suất thấp?"
@@ -69,6 +69,8 @@ Tôi không ngạc nhiên. Lãi suất tiết kiệm ở Việt Nam nửa đầu
 
 Nhưng câu chuyện không dừng ở đó. Khi gửi ngân hàng không còn là kênh sinh lời tử tế, người Việt buộc phải tìm kiếm những lựa chọn khác. Dòng tiền rẻ chảy ra khỏi hệ thống ngân hàng và đổ vào chứng khoán, bất động sản, vàng, rồi cả crypto — nơi nào hứa hẹn lợi nhuận cao hơn. Vấn đề là không phải ai cũng biết cách chọn đúng kênh, đúng thời điểm, và đúng tỷ lệ.
 
+Để đối chiếu trước khi quyết định, [Nên mua vàng, gửi tiết kiệm hay đầu tư chứng khoán năm 2026?](/posts/nen-mua-vang-gui-tiet-kiem-hay-dau-tu-chung-khoan-nam-2026/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+Một lát cắt liên quan là [Quản Lý Tài Chính Cá Nhân Cho Người Mới Đi Làm 2026: Lập Kế Hoạch Từ A–Z](/posts/quan-ly-tai-chinh-ca-nhan-cho-nguoi-moi-di-lam-2026/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
 Bài viết này là kinh nghiệm thực tế tôi đúc kết sau nhiều năm quan sát thị trường tài chính Việt Nam, thử và sai đủ kiểu. Tôi không phải chuyên gia của công ty chứng khoán nào, càng không phải trader pro ngồi lướt sóng mỗi ngày. Tôi chỉ là người đi làm bình thường, có một khoản tiết kiệm, và cần làm cho nó không bị mất giá theo năm tháng.
 
 **Tình hình lãi suất Việt Nam 2026 và tại sao bạn cần hành động**

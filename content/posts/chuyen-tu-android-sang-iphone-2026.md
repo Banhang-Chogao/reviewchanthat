@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-16T06:43:16+07:00"
-commit = "02980ce8"
+commit = "e1578251"
 description = "Chuyển Android sang iPhone 2026: app Zalo ngân hàng VN, chuyển dữ liệu, phụ kiện và thói quen 2 tuần đầu. Khi nào nên ở lại Android."
 draft = false
 image = "images/posts/chuyen-tu-android-sang-iphone-2026.webp"
@@ -12,6 +12,7 @@ slug = "chuyen-tu-android-sang-iphone-2026"
 tags = ["Android", "iPhone", "chuyển máy", "iOS 2026"]
 title = "Chuyển từ Android sang iPhone 2026: app, dữ liệu, thói quen 2 tuần đầu"
 date_display = "16-07-2026 06:43:16 GMT +7"
+seo_title = "Chuyển từ Android sang iPhone: cần chuẩn bị gì?"
 
 [ai_summary]
 collapsed = false
@@ -180,6 +181,11 @@ Liệt kê ra giấy hoặc note:
 
 Với mỗi app: biết username, đã bật OTP SMS hay smart OTP, có cần ra quầy kích hoạt thiết bị mới không. Một số ngân hàng giới hạn số thiết bị hoặc yêu cầu xác thực lại khi đổi máy — cuối tuần lễ có thể chậm hỗ trợ.
 
+Để đối chiếu trước khi quyết định, [iOS 27 có nên cập nhật ngay không? Checklist trước khi bấm Update](/posts/ios-27-co-nen-cap-nhat-ngay-khong/) bổ sung bối cảnh thực tế cho đúng vấn đề đang được nhắc tới.
+
+
+
+
 ### 2.6. Google Authenticator / 2FA
 
 Nếu bạn lưu mã 2FA chỉ trên một app Android **không** có cloud backup, đây là bom nổ chậm. Trước khi chuyển:
@@ -291,6 +297,11 @@ iOS gom notification khác Android. Vào Settings → Notifications, tắt banne
 - Tắt/bật Correct Level cho hợp thói quen — auto-correct tiếng Việt đôi khi “sáng tạo” quá đà
 
 Cuối tuần 1, mục tiêu chỉ là: nhắn Zalo nhanh không bực, chuyển khoản được, chụp ảnh gửi được, pin qua một ngày làm việc văn phòng.
+
+Một lát cắt liên quan là [Dọn iPhone như thế nào để máy luôn mượt và còn nhiều bộ nhớ?](/posts/don-iphone-nhu-the-nao-de-may-luon-muot-va-con-nhieu-bo-nho/), hữu ích khi bạn cần đi sâu vào lựa chọn cụ thể thay vì chỉ dừng ở phần tổng quan.
+
+
+
 
 ### Tuần 2 — Làm mượt và dọn nợ
 

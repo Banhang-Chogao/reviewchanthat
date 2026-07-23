@@ -1,20 +1,16 @@
 +++
 title = "Travel Budget: cách lập ngân sách du lịch thông minh trước khi xin visa"
-seo_title = "Travel Budget 2026: cách lập ngân sách du lịch chi tiết trước khi xin visa"
-description = "Hướng dẫn lập travel budget (ngân sách du lịch) chi tiết từng khoản mục: vé máy bay, khách sạn, ăn uống, di chuyển nội địa, bảo hiểm. Kèm cách dùng budget planner để chứng minh tài chính khi xin visa."
 slug = "travel-budget-cach-lap-ngan-sach-du-lich-thong-minh"
 date = "2026-07-18T04:00:00+07:00"
 date_display = "18-07-2026 04:00:00 GMT +7"
-commit = "80a17574"
+commit = "a3de0e7e"
 categories = ["du-lich"]
 tags = ["travel budget", "chi phí du lịch", "budget planner", "ngân sách xin visa", "lập kế hoạch tài chính du lịch", "AI travel planner"]
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
-
 image = "images/posts/travel-budget-cach-lap-ngan-sach-du-lich-thong-minh.webp"
 thumbnail = "images/posts/travel-budget-cach-lap-ngan-sach-du-lich-thong-minh.webp"
-
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/drone-shot-of-the-city-of-seoul-11266071/"
 image_provider = "pexels"
@@ -31,6 +27,9 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-18T08:08:36+07:00"
 image_query = "seoul korea cityscape"
 image_alt = "Ảnh minh họa Travel Budget: cách lập ngân sách du lịch thông minh trước khi xin visa — nguồn Pexels"
+seo_title = "Travel budget: lập ngân sách du lịch trước chuyến đi"
+description = "Hướng dẫn lập travel budget (ngân sách du lịch) chi tiết từng khoản mục: vé máy bay, khách sạn, ăn uống, di chuyển nội địa, bảo hiểm."
+
 [[internal_links]]
 ref = "posts/cach-viet-visa-itinerary-chuyen-nghiep.md"
 title = "Cách viết Visa Itinerary chuyên nghiệp"

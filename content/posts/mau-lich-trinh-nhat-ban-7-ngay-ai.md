@@ -1,20 +1,16 @@
 +++
 title = "Mẫu lịch trình du lịch Nhật Bản 7 ngày tự động bằng AI"
-seo_title = "Japan Itinerary 7 Ngày 2026: mẫu lịch trình Nhật Bản chi tiết do AI tạo"
-description = "Mẫu lịch trình du lịch Nhật Bản 7 ngày (Japan itinerary 7 days) chi tiết từ Tokyo đến Osaka. Hướng dẫn cách dùng AI Travel Planner để tạo lịch trình Nhật Bản tự động, tối ưu chi phí và thời gian."
 slug = "mau-lich-trinh-nhat-ban-7-ngay-ai"
 date = "2026-07-18T06:00:00+07:00"
 date_display = "18-07-2026 06:00:00 GMT +7"
-commit = "4c6d37c3"
+commit = "a3de0e7e"
 categories = ["du-lich"]
 tags = ["Japan itinerary", "lịch trình Nhật Bản", "Japan travel planner", "du lịch Nhật Bản", "itinerary Nhật Bản 7 ngày", "AI travel planner"]
 author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
-
 image = "images/posts/mau-lich-trinh-nhat-ban-7-ngay-ai.webp"
 thumbnail = "images/posts/mau-lich-trinh-nhat-ban-7-ngay-ai.webp"
-
 image_source = "Pexels"
 image_source_url = "https://www.pexels.com/photo/kinh-thanh-hu-vi-t-nam-27418887/"
 image_provider = "pexels"
@@ -31,6 +27,9 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-18T08:13:53+07:00"
 image_query = "mẫu lịch trình du lịch"
 image_alt = "Ảnh minh họa Mẫu lịch trình du lịch Nhật Bản 7 ngày tự động bằng AI — nguồn Pexels"
+seo_title = "Lịch trình Nhật Bản 7 ngày: mẫu chi tiết bằng AI"
+description = "Mẫu lịch trình du lịch Nhật Bản 7 ngày (Japan itinerary 7 days) chi tiết từ Tokyo đến Osaka."
+
 [[internal_links]]
 ref = "travel-planner/"
 title = "AI Travel Planner"

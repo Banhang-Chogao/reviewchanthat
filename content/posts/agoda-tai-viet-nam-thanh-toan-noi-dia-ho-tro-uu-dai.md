@@ -1,12 +1,11 @@
 +++
 title = "Agoda tại Việt Nam: thanh toán nội địa, hỗ trợ, ưu đãi"
 seo_title = "Agoda tại Việt Nam: thanh toán, hỗ trợ, ưu đãi"
-commit = "599b2516"
+commit = "c3ef3275"
 date = "2026-07-13T14:06:00+07:00"
 draft = false
 author = "Minh Hoàng"
 authors = ["Minh Hoàng"]
-description = "Agoda Việt Nam thanh toán bằng gì: thẻ ATM nội địa, MoMo, ZaloPay hay Visa/Mastercard? Giải đáp hỗ trợ tiếng Việt, kho khách sạn nội địa và ưu đãi thẻ ngân hàng."
 slug = "agoda-tai-viet-nam-thanh-toan-noi-dia-ho-tro-uu-dai"
 series = "agoda-toan-tap"
 series_order = 9
@@ -33,6 +32,7 @@ image_status = "verified"
 image_attribution_checked_at = "2026-07-13T14:34:06+07:00"
 image_query = "credit card finance desk"
 date_display = "13-07-2026 14:06:00 GMT +7"
+description = "Agoda Việt Nam thanh toán bằng gì: thẻ ATM nội địa, MoMo, ZaloPay hay Visa/Mastercard?"
 
 [[faq]]
 question = "Agoda thanh toán bằng gì ở Việt Nam?"

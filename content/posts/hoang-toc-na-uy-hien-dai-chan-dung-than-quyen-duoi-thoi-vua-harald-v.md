@@ -1,6 +1,5 @@
 +++
 title = "Hoàng tộc Na Uy hiện đại – Chân dung thân quyền dưới thời Vua Harald V"
-seo_title = "Hoàng tộc Na Uy hiện đại: Chân dung thân quyền dưới thời Vua Harald V (2026)"
 description = "Chân dung hoàng tộc Na Uy hiện đại 2026: Vua Harald V, Thái tử Haakon, Vương phi Mette-Marit ghép phổi, và thế hệ kế thừa Ingrid Alexandra."
 slug = "hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v"
 date = "2026-07-15T17:25:00+07:00"
@@ -11,7 +10,8 @@ author = "Minh Hoàng"
 draft = false
 image = "images/posts/hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v.webp"
 thumbnail = "images/posts/hoang-toc-na-uy-hien-dai-chan-dung-than-quyen-duoi-thoi-vua-harald-v.webp"
-commit = "345ab328"
+commit = "1aceb865"
+seo_title = "Hoàng tộc Na Uy: chân dung dưới thời Vua Harald V"
 
 [[external_links]]
 url = "https://www.royalcourt.no/"

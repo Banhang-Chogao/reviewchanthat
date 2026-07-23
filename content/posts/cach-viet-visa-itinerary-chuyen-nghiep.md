@@ -1,11 +1,9 @@
 +++
 title = "Cách viết Visa Itinerary chuyên nghiệp: hướng dẫn từng bước để tăng chất lượng hồ sơ xin visa"
-seo_title = "Cách viết Visa Itinerary chuyên nghiệp 2026: tăng tỷ lệ đậu visa"
-description = "Hướng dẫn cách viết visa itinerary (itinerary for visa, travel plan for visa) chuyên nghiệp từng bước. Cấu trúc chuẩn lãnh sự, mẹo trình bày, công cụ hỗ trợ và cách dùng AI Travel Planner để tạo lịch trình khả thi, nhất quán."
 slug = "cach-viet-visa-itinerary-chuyen-nghiep"
 date = "2026-07-18T02:23:40+07:00"
 date_display = "18-07-2026 02:23:40 GMT +7"
-commit = "572691c1"
+commit = "71f0a954"
 categories = ["du-lich"]
 tags = ["visa itinerary", "itinerary for visa", "travel plan for visa", "cách viết lịch trình xin visa", "hồ sơ xin visa", "AI travel planner"]
 author = "Minh Hoàng"
@@ -13,6 +11,8 @@ avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 draft = false
 image = "images/posts/cach-viet-visa-itinerary-chuyen-nghiep.webp"
 thumbnail = "images/posts/cach-viet-visa-itinerary-chuyen-nghiep.webp"
+seo_title = "Cách viết visa itinerary chuyên nghiệp, đúng chuẩn"
+description = "Hướng dẫn cách viết visa itinerary (itinerary for visa, travel plan for visa) chuyên nghiệp từng bước."
 
 [[internal_links]]
 ref = "posts/mau-lich-trinh-xin-visa-huong-dan-day-du.md"

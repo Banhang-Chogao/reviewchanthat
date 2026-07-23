@@ -1,7 +1,6 @@
 +++
 title = "Samsung Galaxy S26 Ultra: Six Months Later — An Honest Long-Term Review"
-seo_title = "Samsung Galaxy S26 Ultra Review After 6 Months: Is It Still Worth It in 2026?"
-commit = "fd16b707"
+commit = "1aceb865"
 date = "2026-07-15T17:41:48+07:00"
 draft = false
 post_lang = "en"
@@ -14,6 +13,7 @@ author = "Minh Hoàng"
 date_display = "15-07-2026 17:41:48 GMT +7"
 image = "images/posts/samsung-galaxy-s26-ultra-six-month-review.webp"
 thumbnail = "images/posts/samsung-galaxy-s26-ultra-six-month-review.webp"
+seo_title = "Samsung Galaxy S26 Ultra: đánh giá sau 6 tháng"
 
 [[faq]]
 question = "Is the Galaxy S26 Ultra still worth buying in July 2026?"
