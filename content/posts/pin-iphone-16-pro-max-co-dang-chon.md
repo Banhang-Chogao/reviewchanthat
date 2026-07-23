@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Đánh giá pin iPhone 16 Pro Max: thời lượng thực tế, so 15 Pro Max, mua máy cũ và ai cần Pro Max vì pin."
 draft = false
 image = "images/posts/pin-iphone-16-pro-max-co-dang-chon.webp"
@@ -26,6 +26,7 @@ slug = "pin-iphone-16-pro-max-co-dang-chon"
 tags = ["iPhone 16 Pro Max", "pin iPhone", "thời lượng pin", "A18 Pro"]
 thumbnail = "images/posts/pin-iphone-16-pro-max-co-dang-chon.webp"
 title = "Pin iPhone 16 Pro Max có đáng chọn?"
+seo_title = "Pin iPhone 16 Pro Max có đáng chọn?"
 date_display = "08-07-2026 11:00:00 GMT +7"
 
 [ai_summary]

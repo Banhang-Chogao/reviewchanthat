@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Người dùng iPhone tại EU được lợi gì từ DMA, gatekeeper và phán quyết Apple vs EC 8/7/2026? Lợi ích, rủi ro và kỳ vọng thực tế."
 draft = false
 image = "images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp"
@@ -26,6 +26,7 @@ slug = "nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma"
 tags = ["Apple", "European Commission", "Digital Markets Act", "App Store", "iOS", "EU", "gatekeeper"]
 thumbnail = "images/posts/nguoi-dung-iphone-chau-au-duoc-loi-gi-apple-ec-dma.webp"
 title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
+seo_title = "Người dùng iPhone châu Âu được lợi gì từ Apple vs EC và DMA?"
 date_display = "08-07-2026 10:00:00 GMT +7"
 
 [ai_summary]

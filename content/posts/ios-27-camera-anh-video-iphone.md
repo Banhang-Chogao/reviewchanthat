@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:20:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Camera và Photos trên iOS 27: Spatial Reframing, Siri in Camera, Visual Intelligence và kỳ vọng thực tế theo từng dòng iPhone."
 draft = false
 image = "images/posts/ios-27-camera-anh-video-iphone.webp"
@@ -26,6 +26,7 @@ slug = "ios-27-camera-anh-video-iphone"
 tags = ["iOS 27", "Camera iPhone", "Photos", "Spatial Reframing", "Visual Intelligence"]
 thumbnail = "images/posts/ios-27-camera-anh-video-iphone.webp"
 title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
+seo_title = "iOS 27 có gì mới cho camera, ảnh và video trên iPhone?"
 date_display = "08-07-2026 09:20:00 GMT +7"
 
 [ai_summary]

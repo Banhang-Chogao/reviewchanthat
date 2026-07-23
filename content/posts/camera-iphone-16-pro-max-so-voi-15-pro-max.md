@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:40:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "So sánh camera iPhone 16 Pro Max và 15 Pro Max: phần cứng, phần mềm A18, Camera Control và có nên đổi vì ảnh."
 draft = false
 image = "images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp"
@@ -25,6 +25,7 @@ slug = "camera-iphone-16-pro-max-so-voi-15-pro-max"
 tags = ["iPhone 16 Pro Max", "iPhone 15 Pro Max", "so sánh camera", "tele 5x"]
 thumbnail = "images/posts/camera-iphone-16-pro-max-so-voi-15-pro-max.webp"
 title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
+seo_title = "Camera iPhone 16 Pro Max so với 15 Pro Max"
 date_display = "08-07-2026 10:40:00 GMT +7"
 
 [ai_summary]

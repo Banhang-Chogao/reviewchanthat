@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:40:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Khi Apple là gatekeeper App Store và iOS theo DMA: Apple mất quyền kiểm soát gì, giữ được gì — sau phán quyết Tòa EU 8/7/2026."
 draft = false
 image = "images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp"
@@ -25,6 +25,7 @@ slug = "app-store-gatekeeper-apple-so-mat-dieu-gi"
 tags = ["Apple", "European Commission", "Digital Markets Act", "App Store", "iOS", "EU", "gatekeeper"]
 thumbnail = "images/posts/app-store-gatekeeper-apple-so-mat-dieu-gi.webp"
 title = "App Store gatekeeper: Apple sợ mất điều gì?"
+seo_title = "App Store gatekeeper: Apple sợ mất điều gì?"
 date_display = "08-07-2026 09:40:00 GMT +7"
 
 [ai_summary]

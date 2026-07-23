@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T10:20:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Đánh giá Camera Control trên iPhone 16 Pro Max: thao tác chụp, zoom, học curve và có đáng lên đời từ 15 Pro Max không."
 draft = false
 image = "images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp"
@@ -25,6 +25,7 @@ slug = "camera-control-iphone-16-pro-max-co-tien-khong"
 tags = ["iPhone 16 Pro Max", "Camera Control", "camera", "trên tay"]
 thumbnail = "images/posts/camera-control-iphone-16-pro-max-co-tien-khong.webp"
 title = "Camera Control iPhone 16 Pro Max có tiện không?"
+seo_title = "Camera Control iPhone 16 Pro Max có tiện không?"
 date_display = "08-07-2026 10:20:00 GMT +7"
 
 [ai_summary]

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["doi-song", "tai-chinh"]
 date = "2026-06-28T10:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Những thói quen nhỏ mỗi ngày giúp bạn kiểm soát chi tiêu và mua sắm hiệu quả hơn."
 draft = false
 image = "images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp"
@@ -22,6 +22,7 @@ slug = "cach-xay-dung-thoi-quen-mua-sam-thong-minh"
 tags = ["mua sắm thông minh", "thói quen", "quản lý chi tiêu"]
 thumbnail = "images/posts/cach-xay-dung-thoi-quen-mua-sam-thong-minh.webp"
 title = "Cách xây dựng thói quen mua sắm thông minh"
+seo_title = "Cách xây dựng thói quen mua sắm thông minh"
 date_display = "28-06-2026 10:00:00 GMT +7"
 
 [ai_summary]

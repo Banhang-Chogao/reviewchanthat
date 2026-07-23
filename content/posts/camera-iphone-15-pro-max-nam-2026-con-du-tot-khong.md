@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:40:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Đánh giá camera iPhone 15 Pro Max năm 2026: 48MP, tele 5x, video ProRes, so với nhu cầu thực tế và iPhone 16 Pro Max."
 draft = false
 image = "images/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.webp"
@@ -25,6 +25,7 @@ slug = "camera-iphone-15-pro-max-nam-2026-con-du-tot-khong"
 tags = ["iPhone 15 Pro Max", "camera iPhone", "tele 5x", "đánh giá camera"]
 thumbnail = "images/posts/camera-iphone-15-pro-max-nam-2026-con-du-tot-khong.webp"
 title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
+seo_title = "Camera iPhone 15 Pro Max năm 2026 còn đủ tốt không?"
 date_display = "08-07-2026 12:40:00 GMT +7"
 
 [ai_summary]

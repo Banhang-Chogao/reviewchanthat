@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 date = "2026-06-22T10:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Review dài hàng nghìn chữ có thể là dấu hiệu của content marketing, không phải trải nghiệm thật."
 draft = false
 image = "images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp"
@@ -23,6 +23,7 @@ slug = "vi-sao-review-dai-chua-chac-da-dang-tin"
 tags = ["review dài", "content marketing", "cảnh giác"]
 thumbnail = "images/posts/vi-sao-review-dai-chua-chac-da-dang-tin.webp"
 title = "Vì sao review dài chưa chắc đã đáng tin?"
+seo_title = "Vì sao review dài chưa chắc đã đáng tin?"
 date_display = "22-06-2026 10:00:00 GMT +7"
 
 [ai_summary]

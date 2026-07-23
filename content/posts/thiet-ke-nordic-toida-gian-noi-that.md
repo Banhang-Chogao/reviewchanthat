@@ -1,5 +1,6 @@
 +++
 title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
+seo_title = "Thiết Kế Nordic – Triết Lý Tối Giản Và Chức Năng Từ Bắc Âu"
 date = "2026-07-11T16:06:05+07:00"
 slug = "thiet-ke-nordic-toida-gian-noi-that"
 aliases = ["/posts/thiết-kế-nordic-triết-lý-tối-giản-và-chức-năng-từ-bắc-âu/"]
@@ -20,7 +21,7 @@ image_commercial_use = true
 image_owner = "external"
 image_attribution_verified = true
 image_status = "verified"
-commit = "e1b87c29"
+commit = "1aceb865"
 date_display = "11-07-2026 16:06:05 GMT +7"
 image_license_url = ""
 image_creator_url = "https://www.pexels.com/@thoinamcao"

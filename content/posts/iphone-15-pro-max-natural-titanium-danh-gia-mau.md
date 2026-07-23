@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:20:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Natural Titanium trên iPhone 15 Pro Max: màu gốc, độ bền viền, so với các màu khác và có đáng chọn khi mua máy cũ năm 2026."
 draft = false
 image = "images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp"
@@ -33,6 +33,7 @@ slug = "iphone-15-pro-max-natural-titanium-danh-gia-mau"
 tags = ["iPhone 15 Pro Max", "Natural Titanium", "màu titan", "đánh giá màu"]
 thumbnail = "images/posts/iphone-15-pro-max-natural-titanium-danh-gia-mau.webp"
 title = "iPhone 15 Pro Max Natural Titanium: đánh giá màu"
+seo_title = "iPhone 15 Pro Max Natural Titanium: đánh giá màu"
 date_display = "08-07-2026 11:20:00 GMT +7"
 
 [ai_summary]

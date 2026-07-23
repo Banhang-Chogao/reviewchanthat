@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Đi Jeju tháng 7-8 có mưa không? Thời tiết Jeju mùa hè và cách xếp lịch trình dự phòng indoor cho chuyến đi không lo mưa."
 draft = false
 image = "images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp"
@@ -26,6 +26,7 @@ slug = "di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong"
 tags = ["Jeju", "thời tiết Jeju", "du lịch Jeju", "mùa mưa", "series du lịch"]
 thumbnail = "images/posts/di-jeju-thang-7-8-co-mua-khong-cach-xep-lich-trinh-du-phong.webp"
 title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
+seo_title = "Đi Jeju tháng 7-8 có mưa không? Cách xếp lịch trình dự phòng"
 date_display = "08-07-2026 10:00:00 GMT +7"
 
 [ai_summary]
