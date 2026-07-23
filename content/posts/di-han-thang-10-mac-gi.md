@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ nhiều lớp, màu sắc hợp mùa thu, giày dép và đồ mang theo cho Seoul, Nami, Seoraksan."
 draft = false
 image = "images/posts/di-han-thang-10-mac-gi.webp"
@@ -26,6 +26,7 @@ slug = "di-han-thang-10-mac-gi"
 tags = ["mặc gì đi Hàn tháng 10", "phối đồ mùa thu", "du lịch Hàn Quốc", "series du lịch"]
 thumbnail = "images/posts/di-han-thang-10-mac-gi.webp"
 title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
+seo_title = "Đi Hàn tháng 10 mặc gì? Checklist phối đồ đẹp mà vẫn đủ ấm"
 date_display = "08-07-2026 09:00:00 GMT +7"
 
 [ai_summary]

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review", "doi-song"]
 date = "2026-06-20T14:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "6 bước kiểm tra trước khi bấm 'Đặt mua' giúp bạn tránh hối hận sau khi nhận hàng."
 draft = false
 image = "images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp"
@@ -23,6 +23,7 @@ slug = "checklist-truoc-khi-mua-mot-san-pham-online"
 tags = ["mua sắm online", "checklist", "tiêu dùng thông minh"]
 thumbnail = "images/posts/checklist-truoc-khi-mua-mot-san-pham-online.webp"
 title = "Checklist trước khi mua một sản phẩm online"
+seo_title = "Checklist trước khi mua một sản phẩm online"
 date_display = "20-06-2026 14:00:00 GMT +7"
 
 [ai_summary]

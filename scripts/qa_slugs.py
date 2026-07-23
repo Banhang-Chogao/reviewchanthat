@@ -32,12 +32,12 @@ def main():
     print(f"Total posts checked: {len(os.listdir(POSTS_DIR))}")
     print(f"Slugs with stop words: {len(issues)}\n")
 
-    # Only flag as error if slug > 90 AND has stop words
-    errors = [i for i in issues if i["length"] > 90]
+    # Only flag as error if slug > 75 AND has stop words
+    errors = [i for i in issues if i["length"] > 75]
     warnings = [i for i in issues if i not in errors]
 
     print(f"Warnings (existing posts, report only): {len(warnings)}")
-    print(f"Errors (slug > 90 chars with stop words, for new posts): {len(errors)}\n")
+    print(f"Errors (slug > 75 chars with stop words, for new posts): {len(errors)}\n")
 
     if warnings:
         print("## Warning: Existing posts with stop words (not changed)\n")
@@ -53,7 +53,7 @@ def main():
 
     print(f"\n## Policy")
     print(f"- Existing slugs: NOT changed (report only)")
-    print(f"- New posts: fail if slug > 90 AND has many stop words")
+    print(f"- New posts: fail if slug > 75 chars AND has many stop words")
     print(f"- Keyword intent stop words (co-nen, di-dau, ...): excluded from check")
 
     return 1 if errors else 0

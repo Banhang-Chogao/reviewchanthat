@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Đánh giá tổng thể iPhone 15 Pro Max màu titan năm 2026: giá máy cũ, bốn màu, khung titan, camera, pin và ai nên chọn thay vì iPhone 16 Pro Max."
 draft = false
 image = "images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp"
@@ -26,6 +26,7 @@ slug = "iphone-15-pro-max-mau-titan-con-dang-mua-khong"
 tags = ["iPhone 15 Pro Max", "màu titan", "Natural Titanium", "đánh giá iPhone", "mua iPhone cũ"]
 thumbnail = "images/posts/iphone-15-pro-max-mau-titan-con-dang-mua-khong.webp"
 title = "iPhone 15 Pro Max màu titan có còn đáng mua không?"
+seo_title = "iPhone 15 Pro Max màu titan có còn đáng mua không?"
 date_display = "08-07-2026 11:00:00 GMT +7"
 
 [ai_summary]

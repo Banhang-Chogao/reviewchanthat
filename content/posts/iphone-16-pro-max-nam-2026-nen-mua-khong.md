@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:20:00+07:00"
-commit = "e1b87c29"
+commit = "5366782c"
 description = "Có nên mua iPhone 16 Pro Max năm 2026: giá, thời điểm iPhone mới, so 15 Pro Max cũ và checklist quyết định cuối series."
 draft = false
 image = "images/posts/iphone-16-pro-max-nam-2026-nen-mua-khong.webp"
@@ -26,6 +26,7 @@ slug = "iphone-16-pro-max-nam-2026-nen-mua-khong"
 tags = ["iPhone 16 Pro Max", "có nên mua", "2026", "đánh giá"]
 thumbnail = "images/posts/iphone-16-pro-max-nam-2026-nen-mua-khong.webp"
 title = "iPhone 16 Pro Max năm 2026 nên mua không?"
+seo_title = "iPhone 16 Pro Max năm 2026 nên mua không?"
 date_display = "08-07-2026 11:20:00 GMT +7"
 
 [ai_summary]

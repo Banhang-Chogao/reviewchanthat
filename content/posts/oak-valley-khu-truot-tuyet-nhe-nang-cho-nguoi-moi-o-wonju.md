@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Oak Valley Ski Resort Wonju — ski resort nhỏ yên tĩnh gần Seoul, phù hợp beginner và gia đình. Hướng dẫn di chuyển, chi phí, slope và mẹo đi thực tế."
 image = "images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp"
 image_attribution_checked_at = "2026-07-11T17:30:23+07:00"
@@ -25,6 +25,7 @@ slug = "oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju"
 tags = ["du lịch Hàn Quốc", "Oak Valley", "Wonju", "trượt tuyết Hàn Quốc", "ski resort Hàn Quốc", "beginner ski", "gangwon-do", "series trượt tuyết"]
 thumbnail = "images/posts/oak-valley-khu-truot-tuyet-nhe-nang-cho-nguoi-moi-o-wonju.webp"
 title = "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju"
+seo_title = "Oak Valley: khu trượt tuyết nhẹ nhàng cho người mới ở Wonju"
 date_display = "08-07-2026 09:00:00 GMT +7"
 
 [ai_summary]

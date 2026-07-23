@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T12:20:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "phân tích khung titan iPhone 15 Pro Max so với thép đời cũ: trọng lượng 221g, độ bền, vết trầy, cảm giác cầm và lưu ý khi mua máy cũ."
 draft = false
 image = "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp"
@@ -33,6 +33,7 @@ slug = "tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong"
 tags = ["iPhone 15 Pro Max", "khung titan", "titan vs thép", "trên tay"]
 thumbnail = "images/posts/tren-tay-iphone-15-pro-max-khung-titan-co-khac-thep-khong.webp"
 title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
+seo_title = "Trên tay iPhone 15 Pro Max: khung titan có khác thép không?"
 date_display = "08-07-2026 12:20:00 GMT +7"
 
 [ai_summary]

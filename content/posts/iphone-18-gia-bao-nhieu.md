@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T14:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Tin đồn giá iPhone 18: Pro có thể đắt hơn, Fold ~2.000 USD, base giữ giá — phân tích từ MacRumors, AppleInsider và góc nhìn người mua Việt Nam."
 draft = false
 image = "images/posts/iphone-18-gia-bao-nhieu.webp"
@@ -26,6 +26,7 @@ slug = "iphone-18-gia-bao-nhieu"
 tags = ["iPhone 18", "giá iPhone 18", "iPhone 18 Pro giá", "iPhone Fold giá", "tin đồn iPhone", "mua iPhone Việt Nam"]
 thumbnail = "images/posts/iphone-18-gia-bao-nhieu.webp"
 title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
+seo_title = "iPhone 18 giá bao nhiêu? Vì sao thế hệ này có thể đắt hơn"
 date_display = "08-07-2026 14:00:00 GMT +7"
 
 [ai_summary]

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T15:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "iPhone 18 vs iPhone 17: so sánh tin đồn và thực tế sản phẩm — nên mua iPhone 17 ngay hay chờ Pro/Fold 2026 cho người dùng Việt Nam."
 draft = false
 image = "images/posts/iphone-18-vs-iphone-17.webp"
@@ -26,6 +26,7 @@ slug = "iphone-18-vs-iphone-17"
 tags = ["iPhone 18", "iPhone 17", "so sánh iPhone", "có nên chờ iPhone 18", "mua iPhone 2026", "tin đồn iPhone"]
 thumbnail = "images/posts/iphone-18-vs-iphone-17.webp"
 title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
+seo_title = "iPhone 18 vs iPhone 17: nên mua ngay hay chờ thêm một năm?"
 date_display = "08-07-2026 15:00:00 GMT +7"
 
 [ai_summary]

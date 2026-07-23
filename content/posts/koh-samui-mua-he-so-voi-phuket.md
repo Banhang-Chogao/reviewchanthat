@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Koh Samui mùa hè tháng 7-8 có tốt hơn Phuket? So sánh thời tiết, biển, chi phí, tour đảo và lịch trình Koh Samui mùa mưa."
 image = "images/posts/koh-samui-mua-he-so-voi-phuket.webp"
 image_alt = "Ảnh minh họa Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không? — nguồn Pexels"
@@ -29,6 +29,7 @@ slug = "koh-samui-mua-he-so-voi-phuket"
 tags = ["Koh Samui mùa hè", "du lịch Thái Lan", "Koh Samui tháng 7", "so sánh Phuket Koh Samui", "du lịch biển Thái Lan"]
 thumbnail = "images/posts/koh-samui-mua-he-so-voi-phuket.webp"
 title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
+seo_title = "Koh Samui mùa hè có phải lựa chọn tốt hơn Phuket không?"
 date_display = "08-07-2026 10:00:00 GMT +7"
 
 [ai_summary]

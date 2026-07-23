@@ -1,8 +1,8 @@
-name: autobot_content_updater (nightly)
+name: autobot_content_updater (weekly)
 
 on:
   schedule:
-    - cron: "30 20 * * *"
+    - cron: "30 20 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -70,6 +70,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore(content): autobot_content_updater nightly run [autobot-content-updater]" || exit 0
+          git commit -m "chore(content): autobot_content_updater weekly run [autobot-content-updater]" || exit 0
           git pull --rebase origin main
           git push origin main

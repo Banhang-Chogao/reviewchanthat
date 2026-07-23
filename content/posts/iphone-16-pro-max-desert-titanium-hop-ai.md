@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:20:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Desert Titanium trên iPhone 16 Pro Max hợp với ai: tone màu, phối phụ kiện, so với Natural/Black và có nên chọn làm màu chính."
 draft = false
 image = "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp"
@@ -32,6 +32,7 @@ slug = "iphone-16-pro-max-desert-titanium-hop-ai"
 tags = ["iPhone 16 Pro Max", "Desert Titanium", "chọn màu", "màu titan"]
 thumbnail = "images/posts/iphone-16-pro-max-desert-titanium-hop-ai.webp"
 title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
+seo_title = "iPhone 16 Pro Max Desert Titanium hợp ai?"
 date_display = "08-07-2026 09:20:00 GMT +7"
 
 [ai_summary]

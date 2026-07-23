@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:20:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Kết luận series Apple vs EC: DMA đã thay đổi iPhone ở EU thế nào, Apple phản ứng ra sao, và tương lai App Store/iOS cho người dùng, developer — kể cả người"
 draft = false
 image = "images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp"
@@ -25,6 +25,7 @@ slug = "apple-vs-ec-dma-tuong-lai-iphone"
 tags = ["Apple", "European Commission", "DMA", "iPhone", "App Store", "tương lai iOS"]
 thumbnail = "images/posts/apple-vs-ec-dma-tuong-lai-iphone.webp"
 title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
+seo_title = "Apple vs EC, DMA và tương lai iPhone: kết luận series"
 date_display = "08-07-2026 11:20:00 GMT +7"
 
 [ai_summary]

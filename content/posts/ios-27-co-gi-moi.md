@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T08:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Tổng quan iOS 27 sau WWDC26: Siri AI, Apple Intelligence, hiệu năng, quyền riêng tư và timeline beta/public cho người dùng iPhone tại Việt Nam."
 draft = false
 image = "images/posts/ios-27-co-gi-moi.webp"
@@ -26,6 +26,7 @@ slug = "ios-27-co-gi-moi"
 tags = ["iOS 27", "iOS 27 có gì mới", "Siri AI", "Apple Intelligence", "iPhone", "WWDC26"]
 thumbnail = "images/posts/ios-27-co-gi-moi.webp"
 title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
+seo_title = "iOS 27 có gì mới? Những thay đổi đáng chờ nhất cho iPhone"
 date_display = "08-07-2026 08:00:00 GMT +7"
 
 [ai_summary]

@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T07:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Chợ địa phương Hàn Quốc: Gwangjang, Namdaemun (Seoul), Jagalchi, Gukje (Busan), Dongmun (Jeju). So sánh, gợi ý món ăn và lịch trình khám phá chợ."
 draft = false
 image = "images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp"
@@ -26,6 +26,7 @@ slug = "cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju"
 tags = ["du lịch Hàn Quốc", "Hàn Quốc 2026", "Seoul", "Busan", "Jeju", "chợ địa phương", "ẩm thực Hàn Quốc", "chợ Hàn Quốc", "series du lịch"]
 thumbnail = "images/posts/cho-dia-phuong-han-quoc-an-gi-o-seoul-busan-va-jeju.webp"
 title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
+seo_title = "Chợ địa phương Hàn Quốc: ăn gì ở Seoul, Busan và Jeju?"
 date_display = "08-07-2026 07:00:00 GMT +7"
 
 [ai_summary]

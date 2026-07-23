@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T20:00:00+07:00"
-commit = "04da21a7"
+commit = "75f6c993"
 description = "Seoraksan tháng 11 còn lá đỏ không? phân tích thời điểm rụng lá, có nên leo núi khi trời lạnh và lịch trình 1–2 ngày từ Seoul."
 image = "images/posts/seoraksan-thang-11-ngam-la-do.webp"
 image_attribution_checked_at = "2026-07-11T17:30:30+07:00"
@@ -25,6 +25,7 @@ slug = "seoraksan-thang-11-ngam-la-do"
 tags = ["Seoraksan", "lá đỏ Hàn Quốc", "du lịch Hàn Quốc tháng 11", "Sokcho", "series du lịch"]
 thumbnail = "images/posts/seoraksan-thang-11-ngam-la-do.webp"
 title = "Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?"
+seo_title = "Seoraksan tháng 11: còn lá đỏ không và có nên leo núi?"
 date_display = "08-07-2026 20:00:00 GMT +7"
 
 [ai_summary]

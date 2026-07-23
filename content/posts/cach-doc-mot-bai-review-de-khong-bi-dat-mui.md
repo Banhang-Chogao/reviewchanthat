@@ -4,7 +4,7 @@ avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["review"]
 checklist = ["Xác định động cơ người viết review", "Đọc ít nhất 3-5 nguồn khác nhau", "Tìm chi tiết cụ thể, không tin lời mơ hồ", "Kiểm tra lịch sử tài khoản người viết", "Đọc phần bình luận trước khi quyết định"]
 date = "2026-06-15T10:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Kỹ năng đọc review thông minh giúp bạn phân biệt đâu là đánh giá thật, đâu là quảng cáo trá hình."
 draft = false
 image = "images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp"
@@ -23,6 +23,7 @@ slug = "cach-doc-mot-bai-review-de-khong-bi-dat-mui"
 tags = ["kỹ năng đọc review", "tiêu dùng thông minh"]
 thumbnail = "images/posts/cach-doc-mot-bai-review-de-khong-bi-dat-mui.webp"
 title = "Cách đọc một bài review để không bị dắt mũi"
+seo_title = "Cách đọc một bài review để không bị dắt mũi"
 date_display = "15-06-2026 10:00:00 GMT +7"
 
 [ai_summary]

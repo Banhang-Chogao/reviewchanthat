@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T11:40:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Blue Titanium trên iPhone 15 Pro Max: độ đẹp khi mới, phai màu theo thời gian, giá máy cũ và có nên săn màu này năm 2026."
 draft = false
 image = "images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp"
@@ -26,6 +26,7 @@ slug = "iphone-15-pro-max-blue-titanium-co-dang-san"
 tags = ["iPhone 15 Pro Max", "Blue Titanium", "màu titan", "mua iPhone cũ"]
 thumbnail = "images/posts/iphone-15-pro-max-blue-titanium-co-dang-san.webp"
 title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
+seo_title = "iPhone 15 Pro Max Blue Titanium có đáng săn?"
 date_display = "08-07-2026 11:40:00 GMT +7"
 
 [ai_summary]

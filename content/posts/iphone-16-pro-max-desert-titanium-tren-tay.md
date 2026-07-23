@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["cong-nghe"]
 date = "2026-07-08T09:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Trên tay iPhone 16 Pro Max Desert Titanium: màu sắc, màn 6.9 inch, Camera Control, 227g và đánh giá tổng thể series màu titan 2024."
 draft = false
 image = "images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp"
@@ -26,6 +26,7 @@ slug = "iphone-16-pro-max-desert-titanium-tren-tay"
 tags = ["iPhone 16 Pro Max", "Desert Titanium", "màu titan", "Camera Control", "6.9 inch"]
 thumbnail = "images/posts/iphone-16-pro-max-desert-titanium-tren-tay.webp"
 title = "iPhone 16 Pro Max Desert Titanium trên tay"
+seo_title = "iPhone 16 Pro Max Desert Titanium trên tay"
 date_display = "08-07-2026 09:00:00 GMT +7"
 
 [ai_summary]

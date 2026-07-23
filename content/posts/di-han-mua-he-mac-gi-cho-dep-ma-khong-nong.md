@@ -3,7 +3,7 @@ author = "Minh Hoàng"
 avatar = "https://api.dicebear.com/9.x/avataaars/svg?seed=MinhHoang"
 categories = ["du-lich"]
 date = "2026-07-08T10:00:00+07:00"
-commit = "e1b87c29"
+commit = "1aceb865"
 description = "Đi Hàn Quốc mùa hè mặc gì cho đẹp mà không nóng? Gợi ý outfit, chất liệu vải, phối đồ theo concept và mẹo chống nóng."
 draft = false
 image = "images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp"
@@ -26,6 +26,7 @@ slug = "di-han-mua-he-mac-gi-cho-dep-ma-khong-nong"
 tags = ["thời trang Hàn Quốc", "mặc gì đi Hàn Quốc", "du lịch Hàn Quốc", "mùa hè Hàn Quốc", "series du lịch"]
 thumbnail = "images/posts/di-han-mua-he-mac-gi-cho-dep-ma-khong-nong.webp"
 title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
+seo_title = "Đi Hàn mùa hè mặc gì cho đẹp mà không nóng?"
 date_display = "08-07-2026 10:00:00 GMT +7"
 
 [ai_summary]
