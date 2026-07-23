@@ -24,6 +24,19 @@ title = "Tóm tắt bài viết"
 copyright = "© 2026 Review Chân Thật. Nội dung chia sẻ lối sống và thói quen; không thay thế tư vấn y khoa."
 source_note = "Tổng hợp từ trải nghiệm đi lại Việt–Hàn, nguyên tắc vệ sinh giấc ngủ phổ biến và tài liệu giáo dục sức khỏe công cộng về rối loạn nhịp circadian / jet lag. Melatonin và thuốc ngủ: luôn hỏi bác sĩ hoặc dược sĩ trước khi dùng."
 
+image_source = "Pexels"
+image_source_url = "https://www.pexels.com/photo/seoul-city-skyline-under-cloudy-sky-11314621/"
+image_license = "Pexels License"
+image_license_url = ""
+image_commercial_use = true
+image_owner = "external"
+image_creator = "정규송 Nui MALAMA"
+image_creator_url = "https://www.pexels.com/@nui-malama-169330637"
+image_creator_id = ""
+image_attribution_verified = true
+image_attribution_source = "pexels_api"
+image_provider = "pexels"
+image_status = "verified"
 [[external_links]]
 title = "CDC — Jet Lag"
 url = "https://wwwnc.cdc.gov/travel/page/jet-lag"
@@ -67,18 +80,7 @@ value = "Thận trọng, không bắt buộc, hỏi chuyên môn"
 [[tom_tat_nhanh]]
 label = "Mục tiêu"
 value = "Ngủ đủ và tỉnh táo — không phải “hack” cực đoan"
-image_source = "Pexels"
-image_source_url = "https://www.pexels.com/photo/evening-panorama-of-illuminated-seoul-cityscape-12640885/"
-image_license = "Pexels License"
-image_license_url = ""
-image_commercial_use = true
-image_owner = "external"
-image_creator = "Ethan Brooke"
-image_creator_url = "https://www.pexels.com/@ethan-brooke-1123775"
-image_creator_id = ""
-image_attribution_verified = true
-image_attribution_source = "pexels_api"
-image_attribution_checked_at = "2026-07-16T00:44:34+07:00"
+
 +++
 
 Mình từng nghĩ chặng **Việt Nam – Hàn Quốc** “có 2 tiếng” thì chẳng đáng bàn jet lag. Rồi có lần hạ cánh Incheon 6 giờ sáng sau chuyến bay đêm, check-in khách sạn 10 giờ, 14 giờ đứng giữa Myeongdong mà não như đang 4 giờ sáng — không phải vì lệch múi giờ ghê gớm, mà vì **cả hệ thống ngủ–thức, ánh sáng, caffeine và kỳ vọng “phải đi chơi ngay”** sụp cùng lúc.
